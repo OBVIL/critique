@@ -1,5 +1,6 @@
-<?xml version="1.0"?>
-<?xml-model href="../../algone/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../algone/teipot/transform/tei2html.xsl"?><!--2013-01-08T23:30:56+01:00-->
+<?xml version="1.0"  encoding="UTF-8"?>
+<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Renard, critique de combat" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -7,9 +8,7 @@
         <title>Critique de combat</title>
         <author key="Renard, Georges (1847-1930)">Georges Renard</author>
       </titleStmt>
-      <!-- avant publicationStmt -->
       <editionStmt>
-        <!-- <edition> est requis par TEI avec <respStmt> -->
         <edition>ANR HIDIL</edition>
         <respStmt>
           <name>Frédéric Glorieux</name>
@@ -23,19 +22,24 @@
         <measure quantity="394295" unit="character"/>
       </extent>
       <publicationStmt>
-        <date>2013</date>
+        <publisher>OBVIL</publisher>
+        <date when="2013"/>
         <idno>?</idno>
-        <publisher>?</publisher>
+        <availability status="restricted">
+          <licence target="?">License ?</licence>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>?</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <!-- Est-ce nécessaire de rendre la langue obligatoire ? -->
       <creation>
         <date when="1894"/>
       </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
     </profileDesc>
   </teiHeader>
   <text>

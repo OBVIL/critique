@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../algone/teipub/tei2html.xsl"?>
+<?xml version="1.0"  encoding="UTF-8"?>
+<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-01-26T16:46:20+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bazalgette_esprit" xml:lang="fr">
   <teiHeader>
@@ -13,7 +13,7 @@
         <edition>OBVIL</edition>
         <respStmt>
           <name>Frédéric Glorieux</name>
-          <resp>2013, TEI</resp>
+          <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Anita Matell</name>

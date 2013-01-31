@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../algone/teipub/tei2html.xsl"?>
+<?xml version="1.0"  encoding="UTF-8"?>
+<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-01-24T12:04:18+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barres_familles" xml:lang="fr">
   <teiHeader>
@@ -10,7 +10,7 @@
         <author key="Barrès, Maurice (1862-1923)">Maurice Barrès</author>
       </titleStmt>
       <editionStmt>
-        <edition>Open Office Text</edition>
+        <edition>OBVIL</edition>
         <respStmt>
           <name>Emma Ozawa</name>
           <resp/>
@@ -18,6 +18,10 @@
         <respStmt>
           <name>Anita Matell</name>
           <resp/>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
       <extent>
