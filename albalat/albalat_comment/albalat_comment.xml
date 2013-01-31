@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
-<!-- odt2tei 2013-01-12T09:46:28+01:00
-<?xml-model href="../../../algone/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-
--->
+<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- odt2tei 2013-01-12T09:46:28+01:00 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_comment" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -15,7 +13,7 @@
         <edition>OBVIL</edition>
         <respStmt>
           <name>Frédéric Glorieux</name>
-          <resp>Édition TEI</resp>
+          <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
       <extent>

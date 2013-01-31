@@ -1,5 +1,7 @@
-<?xml version="1.0"?>
-<?xml-model href="../../../algone/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../../algone/teipot/transform/tei2html.xsl"?><!--2013-01-11T22:56:46+01:00-->
+<?xml version="1.0"  encoding="UTF-8"?>
+<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
+<!--2013-01-11T22:56:46+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_ennemis" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -9,14 +11,10 @@
         <author key="Albalat, Antoine (1856-1935)">Antoine Albalat</author>
       </titleStmt>
       <editionStmt>
-        <edition>Open Office Text</edition>
+        <edition>OBVIL</edition>
         <respStmt>
-          <name>user</name>
-          <resp/>
-        </respStmt>
-        <respStmt>
-          <name>Bibliothèque Sainte-Barbe</name>
-          <resp/>
+          <name>Frédéric Glorieux</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
       <extent>
