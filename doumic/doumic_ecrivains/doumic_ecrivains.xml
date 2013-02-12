@@ -5,17 +5,18 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Brunetire, Ferdinand (1849-1906). L'Žvolution des genres dans l'histoire de la littŽrature : leons professŽes ˆ l'Ecole normale supŽrieure. 1914.</title>
+        <title>Écrivains d'aujourd'hui</title>
+        <author key="Doumic, René (-)">René Doumic</author>
       </titleStmt>
       <editionStmt>
-        <edition>Open Office Text</edition>
+        <edition>OBVIL</edition>
         <respStmt>
-          <name>Maryse Pelletier</name>
-          <resp/>
+          <name>Frédéric Glorieux</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name/>
-          <resp/>
+          <name>Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
       <extent>
@@ -25,11 +26,11 @@
         <measure quantity="354473" unit="character"/>
       </extent>
       <publicationStmt>
-        <publisher>?</publisher>
+        <publisher>OBVIL</publisher>
         <date when="2013"/>
         <idno>?</idno>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="?"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -38,7 +39,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="?"/>
+        <date when="1894"/><!-- à vérifier -->
       </creation>
       <langUsage>
         <language ident="fr"/>
@@ -46,13 +47,18 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <titlePage rend="center">
+        <docAuthor>René Doumic</docAuthor>
+        <docTitle>
+          <titlePart>Écrivains d'aujourd'hui</titlePart>
+        </docTitle>
+        <argument></argument>
+        
+      </titlePage>
+    </front>
     <body>
       <div>
-        <pb/>
-        <head>ÉCRIVAINS D'AUJOURD'HUI</head>
-        <pb/>
-        <l>RENÉDOUMIC</l>
-        <l>ÉCRIVAINS D'AUJOURD'HUI</l>
         <l rend="surname">Paul Bourget — Guy de Maupassant </l>
         <l rend="surname">Pierre Loti </l>
         <l><surname>Jules Lemaitre</surname> — <surname>Ferdinand Brunetière</surname></l>
