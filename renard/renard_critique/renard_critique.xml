@@ -1,7 +1,7 @@
 <?xml version="1.0"  encoding="UTF-8"?>
 <?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="Renard, critique de combat" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="renard_critique" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -9,10 +9,18 @@
         <author key="Renard, Georges (1847-1930)">Georges Renard</author>
       </titleStmt>
       <editionStmt>
-        <edition>ANR HIDIL</edition>
+        <edition>OBVIL</edition>
         <respStmt>
           <name>Frédéric Glorieux</name>
-          <resp>2013, encodage TEI</resp>
+          <resp>2013, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Pascale Langlois</name>
+          <resp>2011, coordination éditoriale</resp>
         </respStmt>
       </editionStmt>
       <extent>
@@ -129,7 +137,7 @@
         </quote>
         <p>La saison est venue de réviser des théories et des réputations trop aisément acceptées, de rendre leur part légitime de lumière à des œuvres laissées à dessein dans l'ombre.</p>
         <p>C'est pourquoi, tous les huit jours, même en pleine mêlée politique, je crois pouvoir vous parler ici littérature : il y a aussi sur ce terrain des combats à livrer.</p>
-        <dateline>Août 1893</dateline>
+        <dateline>Août <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -178,7 +186,7 @@
         <quote>
           <l>On me croit la marée et je suis le déluge !</l>
         </quote>
-        <dateline>Août 1893</dateline>
+        <dateline>Août <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -211,7 +219,7 @@
         <p>Voilà ce qui trouble M. Zola. Le vieux réaliste qu'il est tient rancune à l'idéal. Il a peur, il a horreur du mot même ; c'est tout au plus s'il l'a écrit une fois ou deux dans ce volume où il conte l'existence d'un idéaliste fieffé, qui n'a cessé de rêver et de poursuivre le bonheur de l'humanité. Fidèle à lui-même, il néglige de dire que le travail, pour avoir un sens, ne peut se passer d'idées directrices. Il supprime l'idéal, fleur du cerveau humain destinée à devenir fruit avec le temps, seul modèle pourtant d'après lequel on puisse réformer l'homme ou la société. De là, la conclusion apathique et béatement abstentionniste à laquelle il aboutit.</p>
         <p>Par là même l'œuvre de M. Zola n'est pas de nature à satisfaire les générations montantes. Il demeure le robuste et glorieux représentant de l'art d'hier, mais il ne peut plus prétendre à guider l'art d'aujourd'hui et de demain ; un art qui sans doute ne renonce point à la recherche de la vérité, à l'observation précise du réel, mais qui entend n'être plus le peintre indifférent ou vaguement fraternel de la misère humaine, ne plus garder « l'attitude impersonnelle du démonstrateur » ; un art qui veut produire au grand soleil ses sympathies, ses colères, ses rêves, ses idées d'avenir ; qui veut marcher ainsi les pieds sur la terre, mais les yeux levés et fixés sur l'horizon lointain, au risque d'avoir parfois la tête dans les nuages.</p>
         <p>L'auteur de <hi rend="i">Germinal</hi> nous donnera plus d'une fois encore, nous l'espérons, le plaisir de lire sa prose solide ; on ne trouve pas tous les jours un écrivain de cette vigueur et de cette vaillance. Mais il peut se dire qu'il a mis du même coup un point final à son œuvre capitale et à l'ère réaliste commencée vers 1850.</p>
-        <dateline>Août 1893</dateline>
+        <dateline>Août <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -258,7 +266,7 @@
         </quote>
         <p>Il me semble que la conciliation souhaitée par M. Lemaître est en bon train. Qu'après cela la réalisation de ce double idéal puisse s'opérer sans efforts, sans luttes, sans souffrances, nous ne le croyons pas. M. Lemaître nous démontre qu'il ne faut pas compter sur les rois pour accomplir cette œuvre. Nous nous en doutions un peu.</p>
         <p>Nous ajouterons, qu'il ne faut pas davantage compter sur les dilettantes, gens aimables, mais trop enclins à désespérer, avant même d'avoir mis la main à l'ouvrage, trop portés à se contenter de « mariages blancs » avec les idées. Heureusement qu'il reste encore bon nombre d'hommes, même dans la vieille Europe, pour vouloir avec énergie, pour vouloir encore, pour vouloir toujours l'amélioration matérielle, intellectuelle et morale des sociétés humaines !</p>
-        <dateline>Août 1893</dateline>
+        <dateline>Août <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -305,7 +313,7 @@
         <p/>
         <p>Mon ami s'arrêta sur ces mots, à bout d'haleine. J'en profitai pour lui dire qu'il était trop sévère ; qu'il ne rendait pas assez justice à de remarquables qualités d'observateur ; qu'il restait encore beaucoup de vrai dans la peinture que le romancier nous trace de la vie des désœuvrés. Je lui représentai que l'ironie n'était pas preuve d'indifférence ; qu'après tout il pouvait bien y avoir un fond de philanthropie aigrie dans une quintessence de misanthropie.</p>
         <p>« Bah ! me répondit-il, mes critiques ne peuvent faire grand mal à l'auteur. Son livre est cuisiné avec talent, savamment épicé, faisandé à point. Il ne gêne en somme personne, parce qu'il ne conclut à rien. Peut-être même que la haute société, pour laquelle il me paraît surtout écrit, aime à être battue. Il doit réussir. »</p>
-        <dateline>Août 1893</dateline>
+        <dateline>Août <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -349,7 +357,7 @@
           <p>Nous vous attendons à l'œuvre et nous vous prions en attendant, monsieur, de croire à la considération avec laquelle, nous restons, sur la réserve et même sur la défensive, vos lecteurs attentifs et défiants.</p>
         </quote>
         <signed>Un Étudiant de Paris.</signed>
-        <dateline>Septembre 1893</dateline>
+        <dateline>Septembre <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -397,7 +405,7 @@
         <p>II a débuté, vers la fin de l'Empire, parmi les impassibles et les olympiens du <hi rend="i">Parnasse contemporain</hi>. Là régnait sans conteste la théorie de l'art pour l'art, une théorie charmante pour les gouvernants qui craignent l'action dissolvante de la pensée. Il était convenu que la politique, la philosophie même, devaient être réservées à des spécialistes. La littérature interdisait de parti pris les problèmes brûlants du moment. Elle se confinait, comme on a dit d'Alfred de Vigny, dans une espèce de tour d'ivoire, d'où les profanes devaient être le plus possible écartés.</p>
         <p>M. France en est resté à ses premières amours. Les besoins du public et, j'ose le dire, de l'art lui-même ont eu beau changer autour de lui. Il en est toujours aux fantaisies aimables, savamment énigmatiques et archaïques, aux histoires dénuées, non certes de valeur littéraire, mais d'un sens précis, profond et actuel.</p>
         <p>C'est son droit d'écrivain de choisir ses sujets où il lui plaît et je ne veux pas le lui contester. Mais je ne saurais m'empêcher d'exprimer un regret. M. France a le talent de dire joliment les choses : quel dommage qu'il ne l'emploie pas plus souvent à dire quelque chose !</p>
-        <dateline>Septembre 1893.</dateline>
+        <dateline>Septembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -437,7 +445,7 @@
         <p>S'il a raison dans son affirmation, les socialistes n'ont pas tort dans la leur. Et je puis résumer ainsi ma critique : Oui, la question sociale est une question morale ; mais <hi rend="i">elle n'est pas seulement une question morale</hi> ; elle est aussi une question d'organisation économique et politique. A bas les lois mauvaises et vivent celles qui égaliseront de plus en plus entre les membres de la société les chances du développement intégral !</p>
         <p/>
         <p>Ces réserves faites, le livre de M. Ziegler peut rendre un double service. Aux bourgeois, qui s'arrêtent effarouchés au bord du socialisme, il offre des théories qui contiennent déjà beaucoup de la chose sans arborer le nom. Aux socialistes, qui pourraient se croire en possession d'un système définitif et parfait, il rappelle le danger qu'il y aurait pour eux à s'enfermer dans des formules trop étroites et trop rigides.</p>
-        <dateline>Septembre 1893.</dateline>
+        <dateline>Septembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -498,7 +506,7 @@
         <p>Un peuple entier s'agite à sa surface. Les sonnailles des troupeaux se mêlent aux cris aigus des aigles et au sifflement des marmottes ; des villages se cachent dans ses plis ou s'étalent sur ses pentes ensoleillées.</p>
         <p>Comment rendre en quelques pages ce fourmillement de vie et de couleurs, cette infinie variété d'aspects, ce perpétuel mélange du gracieux et du grandiose, du doux et du terrible ?</p>
         <p>Il sied d'être reconnaissant à ceux qui vous aident à pénétrer, ne fut-ce que dans un coin mal connu de cette masse formidable. M. Mabilleau a étudié d'une façon neuve une des faces de l'œuvre de Victor Hugo. C'est assez pour qu'on lui pardonne d'avoir négligé les autres.</p>
-        <dateline>Septembre 1893.</dateline>
+        <dateline>Septembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -555,7 +563,7 @@
         <p>L'autre, c'est que l'enseignement soit largement ouvert aux théories réputées non-orthodoxes et partant confié à des hommes n'ayant pas peur de se rencontrer à l'occasion avec le socialisme, qui, lui aussi, entend rester et devenir de plus en plus intégral et scientifique.</p>
         <p>Paris aura-t-il bientôt un <hi rend="i">Institut sociologique</hi> répondant à ce double idéal ?</p>
         <p>Sera-t-il bientôt sur ce point à la hauteur de Bruxelles ? Nous voudrions l'espérer.</p>
-        <dateline>Octobre 1893.</dateline>
+        <dateline>Octobre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -598,7 +606,7 @@
         <p>Il ne croyait pas que sa dignité ou son autorité en fût amoindrie, et de fait, en aucun pays, jamais parole n'eut plus de poids que la sienne dans une discussion, jamais homme ne fut plus aimé et respecté que lui.</p>
         <p>Je ne dirai pas que sa mort a été un deuil national, parce que trop souvent des adulations officielles m'ont gâté cette phrase qui serait ici la simple vérité. Je ne dirai pas non plus qu'on lui a fait à Lausanne, sa ville natale, des funérailles royales : car tout un peuple pleurait. Mais qu'est devenue la prétendue, la légendaire ingratitude des démocraties à l'égard de leurs fidèles serviteurs ? Le dehors et le dedans de la tombe, où le corps devait descendre, ont été trouvés tapissés de fleurs et de feuillages par des mains inconnues ; et, quand le cercueil eut disparu sous la terre et sous un monceau de couronnes, les assistants voulurent emporter chacun une branche fleurie ou un brin de verdure, comme autant de reliques sacrées.</p>
         <p>Je voudrais, moi, sauver de la tombe et apporter à nos compatriotes l'exemple réconfortant de ce démocrate, si vaillant et si pur, qui laisse après lui une œuvre haute et une mémoire plus haute encore, qui a été, pour tout dire d'un mot, un grand homme d'Etat dans un petit cadre. Le contraire se voit, hélas ! si fréquemment !</p>
-        <dateline>Octobre 1893.</dateline>
+        <dateline>Octobre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -635,7 +643,7 @@
         <p>Sa vie est alors un roman de cape et d'épée qui sent la poudre. Vainqueur, vaincu, compromis par des amitiés princières, arrêté, relâché, passant, comme on disait, des jeux de Mars à ceux de Vénus, il court les camps et les grandes routes de Paris au Rhin et du Rhin en Hollande. Son récit reflète à merveille ces années héroïques et tumultueuses où abondent les prouesses et les trahisons, où figurent aux armées des guillotines et des femmes hussards, où sortent de l'ombre des généraux improvisés, tantôt plus habiles à retourner une omelette qu'à commander un régiment, tantôt promis à la gloire et s'appelant Hoche, Marceau, Desaix.</p>
         <p>Chemin faisant, il nous conte comment naquit d'un couplet la fameuse devise de Chamfort : Guerre aux châteaux ! Paix aux chaumières ! — Il nous cite avec épouvante ces paroles de Fourcroy, le savant chimiste, où gronde le souffle égalitaire de 1793 : « Rien n'est plus menaçant dans une République que ce qui peut donner indépendance ou prépondérance ; aussi j'espère bien qu'avant un an il ne restera pas en France une seule fortune de vingt mille livres de rente. »</p>
         <p>Les historiens peuvent ainsi glaner dans ces mémoires quantité de traits de mœurs et de petits faits précis. Thiébault s'arrête au 13 Vendémiaire, au moment où Bonaparte sauve les représentants de la nation, en attendant qu'il les chasse. Mais ce n'est qu'un premier volume. A quand la suite ?</p>
-        <dateline>Octobre 1893.</dateline>
+        <dateline>Octobre <docDate>1893</docDate>.</dateline>
         <postscript>
           <p>Le second volume a paru en mars 1894. — (Plon, Nourrit et C<hi rend="sup">ie</hi>).</p>
         </postscript>
@@ -715,7 +723,7 @@
         <p>La nymphe Stellyre fait rêver. Connaissez-vous la nymphe Stellyre ?</p>
         <p>Que sais-je encore ? Est-il victime de la difficulté qu'on rencontre pour faire accepter à la foule moutonnière toute conception neuve et personnelle des choses ? Déroute t-il les gens par cette doctrine panthéiste, qui a le tort de ne satisfaire ni les partisans des croyances traditionnelles ni les amoureux de la science exacte ?</p>
         <p>Voilà bien des questions ! Je voudrais que Marc Amanieux y répondît (il en est capable) par une œuvre nouvelle qui les rendît sans objet, en forçant l'attention du grand nombre. Je ne parle pas de la sympathie de ceux qui le connaissent : il la possède déjà et il la mérite par l'ardeur généreuse de ses sentiments, par la hauteur de sa pensée, par sa recherche constante d'une forme pure et lumineuse.</p>
-        <dateline>Octobre 1893.</dateline>
+        <dateline>Octobre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -746,7 +754,7 @@
         <p>Peut-être empruntera-t-on à nos langues actuelles, devenues anciennes, ce que chacune avait de meilleur, par exemple, à l'italien, sa sonorité ; à l'anglais, l'usage si commode de faire masculin ce qui est réellement masculin, féminin ce qui est réellement féminin et neutre tout le reste ; au français, l'art d'exprimer les nuances de l'action par les temps et les modes de ses verbes, et bien d'autres choses, probablement.</p>
         <p>Mais on s'attachera surtout à faire une langue logique et régulière ; on voudra que chaque mot décèle sa fonction par sa forme ; on voudra que chaque son soit toujours rendu dans l'écriture par la même combinaison de lettres ; et miracle ! l'orthographe sera à la fois parfaite et d'une simplicité enfantine...</p>
         <p>Ainsi soit-il, mes frères ! Mais, en attendant, saluons le petit progrès qui est sur le point de s'accomplir : nous ne sommes point gâtés en fait de progrès !</p>
-        <dateline>Octobre 1893.</dateline>
+        <dateline>Octobre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -775,7 +783,7 @@
         <p>Telle fut l'histoire de Walras. On refusa ses articles. On étouffa ses communications. Il fut de ceux <hi rend="i">qu’on ne nomme pas</hi>. Et c'est ainsi que l'école mathématique, si française par son origine et son caractère, eut l'étrange fortune de réussir dans tous les pays avant de pénétrer en France. Malon, qui lisait tout, a cité plusieurs fois Walras ; Ch. Gide et quelques autres hérétiques ont discuté et propagé ses idées ces temps derniers. Mais sa méthode est restée chez nous à peu près lettre morte et je ne pourrais guère y rattacher que les ouvrages d'un homme qui l'a appliquée sans la connaître, je veux dire les essais de sociométrie d'Auguste Chirac. (Encore un qu'on ne doit pas nommer !)</p>
         <p>Les compensations, je le sais, n'ont pas manqué à Walras. Il a pu, dans un pays libre, enseigner en pleine liberté ce qu'il croyait être la vérité et la justice. Il a conquis un peu partout des disciples et des admirateurs. Aujourd'hui qu'il vient de prendre sa retraite, fatigué avant l'âge par la lutte plus encore que par le travail, il peut se rendre le témoignage d'avoir accompli sa tâche. Il a contribué autant que personne à poser les fondements de l'économie politique scientifique : il a traité l'économie sociale, dans l'esprit d'équité et de large synthèse que Fouillée, Malon, Jaurès et quelques théoriciens-philosophes ont porté dans ces études ardues et délicates.</p>
         <p>C'est beaucoup d'avoir pour soi sa conscience et l'estime du monde savant. Mais tout de même ce ne serait pas trop que ce penseur d'intelligence si nette et de caractère si droit trouvât enfin dans sa patrie un accueil respectueux et sympathique pour ses idées, et je m'estimerais heureux si je pouvais y contribuer par ces lignes rapides.</p>
-        <dateline>Novembre 1893.</dateline>
+        <dateline>Novembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -812,7 +820,7 @@
         <p>Autrement dit, madame, le <hi rend="i">sentiment</hi>, la <hi rend="i">science</hi>, la <hi rend="i">politique</hi> me paraissent tous trois avoir leur tâche nécessaire. Pourquoi donc tous trois, au lieu de se dédaigner et de se dénigrer mutuellement, ne travailleraient-ils pas de concert à cette œuvre pour laquelle il n'y aura jamais trop de bonnes volontés : Préparer un régime social qui assure à tous et à chacun le maximum de bonheur, de culture et de liberté.</p>
         <p>Il me semble que vous avez rêvé ce rêve-là autrefois. Découragée par les discordes des uns, par les actes de violence des autres, vous vous arrêtez sur ce cri de doute et d'angoisse : Me serais-je trompée ?</p>
         <p>Hélas ! madame, les événements dépendent de bien d'autres causes que de notre pauvre volonté. Mais quand on emploie ses forces et son talent à défendre, à consoler, à relever les faibles, les déshérités, les opprimés, on a le droit d'avoir la conscience tranquille ; on peut être trompé par le succès : on ne se trompe pas.</p>
-        <dateline>Novembre 1893.</dateline>
+        <dateline>Novembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -863,7 +871,7 @@
           <said>— Et vous, Savary, à la sauce ? Moi, je les mange au sel.</said>
           <said>— Ah ! général, répond celui qui s'appelait alors Savary, vous êtes un grand homme. Vous êtes inimitable !</said>
         </quote>
-        <dateline>Novembre 1893.</dateline>
+        <dateline>Novembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -903,7 +911,7 @@
         <p>Je me rappelle une vieille estampe où l'on voit le tombeau de Jean-Jacques dans son îlot d'Ermenonville. Tout alentour des enfants jouent, sautent, gambadent, nagent dans l'étang. Une douzaine de bambins naviguent dans un bateau, et sur une banderole qui flotte en haut du mât se lit cette inscription : « Au libérateur de notre esclavage ! »</p>
         <p>Pauvres enfants ! Les idées de Jean-Jacques ont démoli en France la Bastille et la monarchie. Elles n'ont pas démoli l'internat.</p>
         <p>Aux socialistes de préparer cette « destruction nécessaire ! » On les accuse volontiers d'avoir pour idéal une société enrégimentée, casernée, domestiquée. Ils peuvent répondre à leurs accusateurs : » C'est vous qui, plagiaires de l'Église, perpétuez des fabriques de sujets dociles et de petits vieux. C'est nous qui vous crions au nom de l'avenir et de la liberté : Elargissez l'enfance ! »</p>
-        <dateline>Novembre 1893</dateline>
+        <dateline>Novembre <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -942,7 +950,7 @@
         <p>O les âpres ironies contre les parvenus de la bassesse et de l'hypocrisie, voleurs de renommée ou de pouvoir ! Les beaux jaillissements de colère contre les égoïstes, pour qui tout est bien quand ils sont bien ! Les vaillantes indignations contre les lâches, qui courbent l'échine, contre les cruels, qui rient de la souffrance d'autrui ! Et aussi (c'est l'autre face des mêmes sentiments) les délicates tendresses pour les faibles, pour les petits, pour les victimes de la destinée ou des hommes plus méchants encore ! Les fiers appels à la révolte ! Les robustes actes de foi en un avenir meilleur, qu'il ne faut pas espérer mollement, mais forger, mais créer à force de courage et d'énergie !</p>
         <p>Je lisais naguère, je ne sais où, qu'un homme à caractère, un homme fidèle à ses convictions et à ses rêves de jeunesse, risque fort d'être un imbécile. Pauvre niais de Cladel ! Il fut un républicain de l'avant-veille ; il fut le compatriote et l'ami de Gambetta. Et il a eu la sottise de n'en point profiter !</p>
         <p>Il n'a pas su plier son âme hautaine aux palinodies et aux génuflexions. Il s'est obstiné à se tenir debout, faisant flamber au soleil ses opinions écarlates, reproche vivant pour les républicains déteints qui ont peur de leur passé. Aussi est-il mort pauvre et n'a-t-il emporté dans la tombe que le respect des honnêtes gens, l'admiration des artistes, l'affection et les regrets des humbles. Qu'est-ce que tout cela par le temps qui court ?</p>
-        <dateline>Décembre 1893</dateline>
+        <dateline>Décembre <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -981,7 +989,7 @@
         <p>Qui oserait dire que cet idéal est blâmable ? Je sais quelqu'un, un ancien officier, qui l'a conçu et exprimé comme M. Hamon :</p>
         <p>« On ne saurait trop, a dit ce quelqu'un-là, hâter l'époque où les Armées seront identifiées à la Nation, si elle doit acheminer au temps où les Armées et la guerre ne seront plus et où le globe ne portera plus qu'une nation unanime enfin sur ses formes sociales ; événement qui depuis longtemps devrait être accompli. »</p>
         <p>Et voulez-vous savoir quel est le sans-patrie, l'affreux socialiste qui a écrit ces lignes ? Il s'appelait Alfred de Vigny.</p>
-        <dateline>Décembre 1893</dateline>
+        <dateline>Décembre <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -1039,7 +1047,7 @@
         <p>..... Pendant que je rêve, entraîné par le courant des souvenirs, les apparitions qui peuplaient la solitude de ma chambre se sont évanouies, et je puis me reprendre, songer que je dois faire ici de la critique.</p>
         <p>Eh oui ! Je sais des œuvres plus éclatantes, plus vigoureuses, plus poignantes, plus pleines de pensée. Mais quoi ! le bouleau n'est pas le chêne, et pourtant sa grâce féminine a un charme qui manque au roi de la forêt. La fauvette n'est pas le rossignol, et pourtant elle a des accents si doux et si caressants qu'ils enchantent l'oreille.</p>
         <p>Est-ce un inconscient besoin de contraste qui, en pleine bataille, dans le déchaînement des haines et des vengeances, m'a reporté vers des horizons pacifiques et reposants ? Je ne sais. Mais, à l'heure où l'année qui meurt conseille d'ordinaire un apaisement momentané, il est bien permis de laisser ses regards s'arrêter un peu sur une œuvre pareille à la rivière limpide, qui, traversant au plus vite pour ne s'y point salir les villages et les villes, s'attarde voluptueusement sous la voûte enténébrée des bois et dans le mol embrassement des prairies.</p>
-        <dateline>Décembre 1893</dateline>
+        <dateline>Décembre <docDate>1893</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -1076,10 +1084,10 @@
         </quote>
         <p>Est-il permis de raisonner encore dans cet affolement peu glorieux ? On peut du moins l'essayer. Or, qu'on ose regarder en face le principe de la théorie anarchiste ! Quel est-il, sinon l'indépendance absolue de l'individu, la suppression de toute organisation sociale ?</p>
         <p>Rien que des atomes éparpillés, une poussière d'hommes flottant au hasard ! Une société sans forme où se rencontrent et se séparent sans cesse des éléments sans cohésion !</p>
-        <p>Eh bien ! cette théorie repose sur une erreur fondamentale, qui a été commise par Spencer et par bien d'autres. L'erreur consiste à considérer une société comme un simple total d'individus ; à oublier que, comme tout être vivant, elle n'est pas une juxtaposition, mais une association, une combinaison de parties intimement unies. C'est fort joli d'opposer infatigablement l'Etat et l'lndividu ! On invoque toujours contre les socialistes le pamphlet de Spencer, intitulé : <hi rend="i">L'individu</hi> <name rend="sc">contre</name> <hi rend="i">l'Etat</hi> ! Le voilà, le principe dangereux qui mène un exalté à tourner <hi rend="i">contre</hi> la collectivité et ceux qui la représentent les caprices violents de son bon plaisir individuel !</p>
+        <p>Eh bien ! cette théorie repose sur une erreur fondamentale, qui a été commise par Spencer et par bien d'autres. L'erreur consiste à considérer une société comme un simple total d'individus ; à oublier que, comme tout être vivant, elle n'est pas une juxtaposition, mais une association, une combinaison de parties intimement unies. C'est fort joli d'opposer infatigablement l'Etat et l'lndividu ! On invoque toujours contre les socialistes le pamphlet de Spencer, intitulé : <title>L'individu <hi rend="sc">contre</hi> l'Etat</title> ! Le voilà, le principe dangereux qui mène un exalté à tourner <hi rend="i">contre</hi> la collectivité et ceux qui la représentent les caprices violents de son bon plaisir individuel !</p>
         <p>La théorie socialiste, qui veut l'individu plus libre, mais dans la société plus justement et plus solidement organisée, est précisément celle qui corrige et contredit la théorie anarchiste.</p>
         <p>Nous revenons ainsi, par un détour, aux livres du docteur Pioger. On comprend, sans qu'il soit besoin d'insister davantage, l'intérêt qu'ils présentent pour tous les esprits loyaux et soucieux d'aller au fond des choses. Ceux que pourrait effaroucher un style peut-être trop savant, où les abstractions ne sont pas assez souvent éclairées par des exemples concrets, ceux-là trouveront un excellent résumé du système, sous la signature du docteur Delon, dans la <hi rend="i">Revue socialiste</hi> de novembre 1893. Mais ceux qui ne craignent pas les épines du langage philosophique feront bien de recourir au texte même. Ils ne regretteront pas leur peine.</p>
-        <dateline>Décembre 1893.</dateline>
+        <dateline>Décembre <docDate>1893</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1151,7 +1159,7 @@
         <p>Comment on pourrait enrayer, parmi la vile multitude, l'esprit d'ambition et de libre examen imprudemment développé par l'instruction obligatoire.</p>
         <p/>
         <p>Voilà bien des prédictions ! Il est temps de s'arrêter ; et pourtant l'an qui vient nous apportera en sus mille sujets de joie et de tristesse que nul ne peut prévoir. Mais quoi ! Cela vaudrait-il la peine de vivre, si l'on savait tout l'avenir ?</p>
-        <dateline>Janvier 1894.</dateline>
+        <dateline>Janvier <docDate>1894</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1183,7 +1191,7 @@
         <p>Les bourses sont trop peu nombreuses pour réparer le mal. En attendant que l'instruction intégrale soit mise à la portée de tous les enfants et que les plus aptes puissent, sans considération de fortune, monter de degré en degré jusqu'au sommet, il faut, par une sélection plus large, tirer des écoles primaires et secondaires les intelligences les plus vives et leur faire place au banquet de la science.</p>
         <p>Qu'on ne craigne pas une surproduction de savants et de lettrés ! Hélas ! pour ce produit-là nous sommes en retard sur plus d'une nation voisine, il faut avoir le courage de l'avouer. Je prie d'ailleurs ceux qui n'estiment que la science appliquée de demander à la statistique combien de gros villages et presque de petites villes n'ont encore ni médecin ni pharmacien.</p>
         <p>La série des questions délicates qui se posent à propos de notre enseignement supérieur est loin d'être épuisée. Mais il faut la clore provisoirement. Je n'ai point la prétention d'avoir tranché celles que j'ai touchées. Il me suffit d'avoir indiqué quelques solutions possibles en invitant les hommes de bonne volonté à y réfléchir. Une des fonctions du journal (et ce n'est certes pas la moindre) est de servir d'éclaireur à ceux qui cherchent le sens dans lequel il faut marcher.</p>
-        <dateline>Janvier 1894</dateline>
+        <dateline>Janvier <docDate>1894</docDate></dateline>
       </div>
       <div>
         <pb/>
@@ -1224,7 +1232,7 @@
         <p>C'est ce dernier qui agit à son tour sur la jeunesse contemporaine française, puisque M. Léon Daudet se rattache par sa conclusion, ce qui est son droit, aux théories les plus intimes du penseur allemand.</p>
         <p>Et maintenant j'aurais fort à dire, si j'avais le loisir de discuter Schopenhauer à travers l'œuvre que j'ai analysée. Mais il faut conclure. Quoiqu'elle pousse trop au noir le type de Malauve, personnification démesurée de l'esprit d'analyse, elle a des qualités littéraires distinguées. Quoiqu'elle n'apporte pas une solution bien neuve du problème posé, elle ne manque pas de portée philosophique. Elle doit surtout une certaine hauteur à la nature des questions qu'elle soulève. Elle intéressera le petit nombre de lecteurs pour qui elle est écrite.</p>
         <p>Mais c'est égal ; M. Léon Daudet, sans imiter son père (car que deviendrait la vie, si les fils ne faisaient que répéter les pères ?), aurait bien fait de lui emprunter un rayon du soleil de Provence, un rayon de l'astre d'or, pour mieux éclairer sa lanterne.</p>
-        <dateline>Janvier 1894.</dateline>
+        <dateline>Janvier <docDate>1894</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1261,7 +1269,7 @@
         <p>Qui fera entrer dans les têtes la conviction que l'esclavage est une mauvaise école de liberté ? Qui enseignera aux parents et aux maîtres l'art de desserrer peu à peu leur autorité, qui cesse d'être légitime dès qu'elle n'est plus nécessaire, et qui, par un suicide intelligent, doit travailler à se rendre inutile ?</p>
         <p/>
         <p>Quelques pages sur ces questions connexes ne gâteraient pas, je l'espère, le livre de M. Payot. Tel qu'il est, bien que d'aucuns puissent le trouver un peu trop doctoral et professoral, il est franc, nourri, plein de bons conseils et d'intentions meilleures encore ; il inspire l'estime et la sympathie pour celui qui l'a écrit. On serait heureux de pouvoir en dire autant après chaque lecture.</p>
-        <dateline>Janvier 1894.</dateline>
+        <dateline>Janvier <docDate>1894</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1315,7 +1323,7 @@
         </quote>
         <p>Le D<hi rend="sup">r</hi> Letourneau leur montre deux sources d'inspiration toutes fraîches et pleines à déborder ; deux vraies fontaines de Jouvence. L'une, c'est la sympathie pour tous les hommes, même quand ils ne sont pas nos concitoyens. L'autre, c'est la philosophie scientifique agrandissant chaque jour notre idée de l'univers.</p>
         <p>A vous, jeunesse, la joie de boire à longs traits la vie dans ces sources fécondes et dans d'autres encore ! De là doit sortir une Renaissance, mais une Renaissance originale, ne se croyant plus obligée d'imiter personne ! C'est l'espérance du D<hi rend="sup">r</hi> Letourneau ; c'est la nôtre aussi. Mais n'oublions pas que ce renouveau a pour condition préalable et nécessaire une transformation économique !</p>
-        <dateline>Janvier 1894.</dateline>
+        <dateline>Janvier <docDate>1894</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1365,7 +1373,7 @@
         <p>Ressort-il de tout cela qu'il faille crier haro sur M. Coppée ? Eh ! non. Je le tiens non seulement pour un prosateur élégant et pour un très habile enfileur de rimes, mais encore pour un très brave homme, plein de cœur, aimant sincèrement le petit monde et pavé, comme l'enfer, de bonnes intentions. Mais c'est cela même qui rend plus significatif et plus lamentable le désarroi d'une cervelle honnête et bourgeoise tiraillée entre le dégoût du présent et la peur de l'avenir.</p>
         <p>Voyons, monsieur Coppée (je dirais presque <hi rend="i">citoyen</hi> Coppée, si le mot, qui fait rire nos députés, ne devait paraître inconvenant à l'Institut), au lieu de prêcher l'inertie aux Français, qui ne considèrent pas l'avenir de la France comme une chose négligeable, ne vaudrait-il pas mieux, puisqu'ils ont chacun leur part de royauté, les exciter à vouloir quelque chose énergiquement et les aider à dégager ce qu'ils doivent vouloir ?</p>
         <p>Il n'est pas défendu à un poète d'avoir des idées, et, quand il daigne écrire dans un journal, c'est apparemment pour répandre celles qu'il a. Sabre-dieu ! comme vous dites, les jours où vous jouez au vieux grognard, Lamartine et Victor Hugo faisaient, eux aussi, les vers assez proprement ; mais, quand ils prenaient la parole sur les choses du jour, ce n'était point pour être les apôtres du rien à faire.</p>
-        <dateline>Février 1894.</dateline>
+        <dateline>Février <docDate>1894</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1415,7 +1423,7 @@
         <p>Seulement, gare aux réveils et aux représailles de l'âme populaire ! On a l'imprudence de lui montrer comment on abuse de la force. Elle pourrait bien en user un jour. Chose triste pour tous ceux (et j'en suis) qui ont toujours souhaité réduire la part de la force brutale dans le règlement des affaires humaines ! Mais chose à méditer surtout pour tous ceux qui ont plus à perdre qu'à gagner dans le bouleversement !</p>
         <p/>
         <p>Ai-je oublié que je parle ici de littérature ? Non pas. Comprenez-vous, maintenant, que dans cette atmosphère d'orage le roman ne puisse plus guère être un jeu d'esprit, une amusette à désœuvrés ? qu'il ne puisse plus même garder l'indifférente tranquillité de la science ? Pour répondre aux besoins d'un public inquiet, troublé, fiévreux, il faut des œuvres où frissonne l'angoisse du moment actuel, où retentisse l'écho du combat engagé, où s'agitent les questions morales, philosophiques, sociales, dont tout homme qui pense est préoccupé ; où palpitent enfin la vie, les craintes, les espoirs, les doutes d'une société prête à enfanter dans la douleur un monde nouveau.</p>
-        <dateline>Février 1894.</dateline>
+        <dateline>Février <docDate>1894</docDate>.</dateline>
       </div>
       <div>
         <pb/>
@@ -1431,7 +1439,7 @@
         <p>Dans son <hi rend="i">Avant-propos</hi>, il donne pour caractères essentiels du siècle qu'il n'a été ni <hi rend="i">chrétien</hi> ni <hi rend="i">français</hi>. Singulier procédé tout d'abord que de le caractériser par ce qui lui manque ! Il me revient à la mémoire une phrase naïve que j'ai lue dans je ne sais quel guide du voyageur : « Cette ville n'a de remarquable qu'une chapelle gothique récemment démolie. » Je sais bien que, vers 1800, le cri de la réaction monarchique, aristocratique et catholique était : « Faisons un art chrétien et national ! » Et ceux qui parlaient ainsi entendaient bien faire le contraire de ce qu'avait fait le siècle qu'ils abhorraient. Mais sied-il, quand on affiche l'intention d'apprécier une époque « sans rigueur et sans complaisance », de reprendre et d'adopter comme un arrêt définitif la formule étroite et passionnée de ses pires ennemis ? L'origine seule de ce jugement suffirait à le rendre suspect.</p>
         <p>N'importe ! Examinons-le en lui-même. Il paraît donc que le <num>xviii<hi rend="sup">e</hi></num> siècle n'a pas été français. Ses écrivains ne rappellent leur pays d'origine que par la langue qu'ils écrivent. On est étonné après cela d'entendre dire à M. Faguet que Voltaire incarna « l'esprit moyen de la France », que Diderot ne fut pas, comme on l'a dit, la plus allemande de toutes nos têtes, mais « éminemment Français », que Montesquieu a eu pour idéal la constitution de la vieille France. Eh mais ! voilà qui ne semble pas trop d'accord avec la formule tranchante jetée en tête du volume ! Entend-il seulement que les illustres d'alors ont été peu patriotes ? Conclure de là qu'ils n'ont pas été de grands écrivains serait un raisonnement hardi. Ni Racine ni Molière n'ont, que je sache, composé des <hi rend="i">Marseillaises</hi> ou entonné des hymnes en l'honneur de leur pays natal. On n'a point encore songé à nier leur génie sous ce prétexte.</p>
         <p>S'il peut être vrai, d'ailleurs, que la France, durant une soixantaine d'années, n'ait pas été française avec cette ardeur exclusive qui convient aux moments de péril national et qui se réveilla si puissamment au temps de la Révolution, ce n'est là que la moitié de la vérité. Voulez-vous que nous rétablissions l'autre ? Dans ce même temps la France a été humaine, ce qui est bien quelque chose. Elle n'a pas cru qu'un peuple fût obligé de s'emprisonner clans ses frontières, comme un colimaçon dans sa coquille ; elle s'est intéressée aux nations d'autre race et d'autre religion. Montesquieu écrivait : « Si je savais quelque chose qui me fût utile et qui fût préjudiciable à ma famille, je le rejetterais de mon esprit. Si je savais quelque chose qui fût utile à ma famille et qui ne le fût pas à ma patrie, je chercherais à l'oublier. Si je savais quelque chose utile à ma patrie et qui fût préjudiciable à l'Europe et au genre humain, je le considérerais comme un crime. » Je ne saurais m'empêcher de voir là quelque largeur et quelque noblesse.</p>
-        <p>Je ne saurais non plus blâmer l'auteur de <hi rend="i">l’Esprit des lois</hi> d'avoir condamné l'usage de brûler les hérétiques, quoiqu'il ne fût en vigueur qu'au-delà des Pyrénées, ou d'avoir plaidé la cause des esclaves, quoiqu'ils ne fussent ni Européens ni Français. J'ose penser encore que Voltaire ne manque ni de bon sens ni de générosité, quand il attaque la guerre, la grande tueuse d'hommes, quand il émet sur un conquérant, voleur de provinces, ces réflexions générales qui trouveraient, même aujourd'hui, des applications particulières : « La province, qui est à quelques centaines de lieues de lui, a beau protester qu'elle n'a nulle envie d'être gouvernée par lui, que, pour donner des lois aux gens, il faut au moins avoir leur consentement ; ces discours ne parviennent pas seulement aux oreilles du prince. Il trouve incontinent un grand nombre d'hommes qui n'ont rien à perdre ; il les habille d'un gros drap bleu à cent dix sous l'aune, borde leurs chapeaux avec du gros fil blanc, les fait tourner à droite et à gauche et marche à la gloire <note n="6"><hi rend="i">Dictionnaire philosophique</hi>, article <name rend="sc">guerre.</name>‌</note> »</p>
+        <p>Je ne saurais non plus blâmer l'auteur de <hi rend="i">l’Esprit des lois</hi> d'avoir condamné l'usage de brûler les hérétiques, quoiqu'il ne fût en vigueur qu'au-delà des Pyrénées, ou d'avoir plaidé la cause des esclaves, quoiqu'ils ne fussent ni Européens ni Français. J'ose penser encore que Voltaire ne manque ni de bon sens ni de générosité, quand il attaque la guerre, la grande tueuse d'hommes, quand il émet sur un conquérant, voleur de provinces, ces réflexions générales qui trouveraient, même aujourd'hui, des applications particulières : « La province, qui est à quelques centaines de lieues de lui, a beau protester qu'elle n'a nulle envie d'être gouvernée par lui, que, pour donner des lois aux gens, il faut au moins avoir leur consentement ; ces discours ne parviennent pas seulement aux oreilles du prince. Il trouve incontinent un grand nombre d'hommes qui n'ont rien à perdre ; il les habille d'un gros drap bleu à cent dix sous l'aune, borde leurs chapeaux avec du gros fil blanc, les fait tourner à droite et à gauche et marche à la gloire <note n="6"><hi rend="i">Dictionnaire philosophique</hi>, article <hi rend="sc">guerre</hi>‌.</note> »</p>
         <p>Peut-on reprocher comme une faute aux philosophes du siècle dernier d'avoir enveloppé le monde entier d'une large et chaleureuse sympathie, d'avoir dénoncé des iniquités qui frappaient des étrangers, d'avoir fait rayonner leur pitié sur tous les membres souffrants de la grande famille humaine ? Montesquieu disait encore : « N'est-ce pas un beau dessein de laisser après nous les hommes plus heureux que nous ne l'avons été ? » Répondra non qui l'osera !</p>
         <p/>
         <p>La Révolution, exécutrice testamentaire des philosophes, proclama dès ses débuts les droits de l'homme et du citoyen, et, en dépit des prêcheurs d'égoïsme, la France d'aujourd'hui n'est pas prête à renier le généreux enthousiasme qui lui fit rêver et chercher le bonheur de l'humanité en même temps que le sien propre. Elle ne pourrait agir ainsi sans se renier elle-même. Cet amour de la justice pour tous, ce désir passionné de progrès social pour la terre entière est devenu le cœur de son cœur. Avoir des idées et des sentiments humains, c'est être Français, essentiellement Français. Un philosophe éminent <note n="7">M. Fouillée.‌</note> écrivait naguère en parlant de la France : « C'est un lieu commun de rappeler sa foi au triomphe universel de la raison, du droit et de la fraternité. » Et il montrait que cette foi est ce qui la distingue des nations environnantes. Or quel est le siècle où notre pays a pris pour jamais conscience de sa mission personnelle, de cet idéal national qui est comme l'âme d'un peuple ? Le <num>xviii<hi rend="sup">e</hi></num>. « Il est le siècle de l'humanité », ajoute une voix, qui est celle de M. Faguet lui-même. Quel dommage que cette phrase de réparation, de repentir tardif, soit, en quelque sorte, égarée dans un autre volume, tandis que dans l'avant-propos déjà cité il n'y a qu'une brutale mise hors la France des écrivains et des penseurs qui ont peut-être le mieux exprimé ce qu'il y a de plus intime dans son génie.</p>
@@ -1447,7 +1455,7 @@
         <p>Ainsi toute l'œuvre positive du <num>xviii<hi rend="sup">e</hi></num> siècle serait condamnée sans rémission par <num>xix<hi rend="sup">e</hi></num> ! Voilà qui est gaillardement jugé ! Il faut être bien sûr de soi pour rendre un arrêt si formel ! Il est sans doute très audacieux d'en appeler : c'est pourtant ce que je me permets de faire.</p>
         <p>La science politique, tout d'abord, serait arrivée à « cette conception modeste et réaliste » qu'en politique abstractions et déductions n'ont rien à faire ; que l'avenir est écrit tout entier dans le passé, que les enseignements de l'histoire sont des guides suffisants pour un homme d'État. Par suite, M. Faguet n'a pas assez d'éloges pour Montesquieu, quand il se borne à rechercher la raison d'être des constitutions existantes ou déjà mortes, pas assez de blâmes pour Rousseau, quand il pose en tête de son <hi rend="i">Contrat social</hi> ce principe gros de conséquences, la souveraineté du peuple. Cette théorie n'est pas neuve : c'est celle de M. Taine punissant à coups d'injures et de mépris les hommes de la Révolution d'avoir voulu réformer la Société en vertu de principes abstraits. M. Faguet l'adopte en disciple plus docile que prudent. Il est certain qu'il faut connaître le passé, quand on veut comprendre le présent ; se pénétrer des traditions d'un pays, quand on veut le gouverner. Mais quoi ! est-il nécessaire, est-il sage, est-il possible même de s'enfermer dans ce qui est, sans jamais songer à ce qui devrait être ? La loi ne peut-elle, ne doit-elle pas être corrigée au nom du droit ? Le désir du mieux, le sentiment de la justice sont-ils des motifs d'action qu'il faille proscrire, des forces qu'on puisse supprimer ? La conception réaliste, chère à M. Faguet et à M. Taine, est étroitement conservatrice ; elle est hostile à toute innovation, à toute réforme. Mais le temps n'est plus où on la donnait hardiment pour le dernier mot de la sagesse ; on la complète, on l'amende aujourd'hui par la conception idéaliste ; on admet que les idées ont un rôle légitime à jouer dans l'évolution humaine, qu'elles ressemblent aux colonnes lumineuses qui dirigeaient la marche des Hébreux. En vérité M. Faguet retarde sur ce point, et, s'il en doute, qu'il veuille bien lire ou relire les ouvrages <note n="9"><hi rend="i">L'idée moderne du droit. L'évolutionnisme des idées-forces</hi>.‌</note> où M. Fouillée, le représentant le plus autorisé de la science politique actuelle, a si magistralement déterminé la part qui revient à l'idéal social dans le développement d'une nation et de la France en particulier.</p>
         <p>M. Faguet dit ensuite : L'histoire civile, « presque achevée par notre âge (?), » a prouvé, toujours contre le <num>xviii<hi rend="sup">e</hi></num> siècle, que la tradition est essentielle à la vie d'un peuple comme la racine à l'arbre, et que le progrès n'est qu'une suite de  changements insensibles. N'en déplaise à M. Faguet, l'histoire démontre également, d'accord avec le <num>xviii<hi rend="sup">e</hi></num> siècle, que l'esprit d'innovation n'est pas moins essentiel à la vie d'un peuple que le respect de la tradition ; elle enseigne même qu'en certains cas les sociétés sont sujettes à des fièvres de croissance, à des crises d'évolution qu'on appelle des révolutions. Les changements qu'elles subissent alors, comme ceux d'un adolescent qui sort plus grand et plus fort d'une grave maladie, sont très sensibles, ce qui ne les empêche nullement d'être souvent très heureux. La Révolution, qui fut la fin chronologique et logique du siècle dernier, fut un mouvement brusque et violent ; je me suis laissé dire pourtant que des millions de Français la considèrent encore comme ayant été un progrès.</p>
-        <p>Enfin les sciences naturelles, toujours suivant M. Faguet, se retournent aussi contre l'époque qui leur a donné l'essor, comme des enfants qui battraient leur nourrice. « Elles ne croient pas à l'égalité... ; elles sont patriciennes », elles se prononcent en faveur de l'aristocratie. J'ai peur que M. Faguet ne mêle et brouille ici des choses qui n'ont rien à faire ensemble. Oui, les hommes sont inégaux <hi rend="i">en fait</hi> ; et peut-être n'était-il pas besoin du secours de la science pour établir cette vérité qui crève les yeux ; mais sont-ils pour cela inégaux <hi rend="i">en droit</hi> ? C'est une tout autre question qui ne se tranche pas si vite. Oui encore, dans le monde animal et végétal, les forts, sauf exception, dévorent les faibles ; est-ce un motif suffisant pour que l'humanité prenne modèle sur cette entremangerie ? « Il semble que, Dieu ayant donné la raison aux hommes, cette raison doive les avertir de ne pas s'avilir à imiter les animaux <note n="10"><hi rend="i">Dictionnaire philosophique</hi>, article <name rend="sc">guerre</name>.‌</note>. » C'était l'avis de Voltaire ; c'est l'avis de bien d'autres qui ne veulent pas conclure <hi rend="i">de ce qui se passe</hi> parmi les loups et les ours à <hi rend="i">ce qui doit se passer</hi> parmi les êtres humains.</p>
+        <p>Enfin les sciences naturelles, toujours suivant M. Faguet, se retournent aussi contre l'époque qui leur a donné l'essor, comme des enfants qui battraient leur nourrice. « Elles ne croient pas à l'égalité... ; elles sont patriciennes », elles se prononcent en faveur de l'aristocratie. J'ai peur que M. Faguet ne mêle et brouille ici des choses qui n'ont rien à faire ensemble. Oui, les hommes sont inégaux <hi rend="i">en fait</hi> ; et peut-être n'était-il pas besoin du secours de la science pour établir cette vérité qui crève les yeux ; mais sont-ils pour cela inégaux <hi rend="i">en droit</hi> ? C'est une tout autre question qui ne se tranche pas si vite. Oui encore, dans le monde animal et végétal, les forts, sauf exception, dévorent les faibles ; est-ce un motif suffisant pour que l'humanité prenne modèle sur cette entremangerie ? « Il semble que, Dieu ayant donné la raison aux hommes, cette raison doive les avertir de ne pas s'avilir à imiter les animaux <note n="10"><hi rend="i">Dictionnaire philosophique</hi>, article <hi rend="sc">guerre</hi>.‌</note>. » C'était l'avis de Voltaire ; c'est l'avis de bien d'autres qui ne veulent pas conclure <hi rend="i">de ce qui se passe</hi> parmi les loups et les ours à <hi rend="i">ce qui doit se passer</hi> parmi les êtres humains.</p>
         <p>En a-t-on joué assez des théories de Darwin pour essayer de galvaniser l'antique idéal aristocratique ! A-t-on fait assez sonner les grands mots de sélection et d'hérédité, en vue de tuer toute espérance d'égalité sociale ! Un monde divisé en races faites pour commander et en races condamnées à servir ; des sociétés séparées en classes nobles, auxquelles sont dus tous les privilèges, et en basses classes vouées à perpétuité aux travaux serviles : voilà ce que M. Faguet nous présente comme imposé aux hommes par les lois inéluctables de la science ? Ne dirait-on pas à l'entendre que ces fantaisies rétrogrades ont l'autorité de vérités acquises, démontrées, acceptées par tous les savants et les philosophes d'aujourd'hui ? L'assurance est une belle chose ; mais il est décidément trop commode de passer sous silence ceux qui se sont élevés contre ces interprétations hâtives et intéressées de la doctrine darwinienne. Ce ne sont pas tout à fait les premiers venus. M. Ribot et M. Fouillée, dont la compétence vaut bien celle de M. Faguet, ont réduit ces prétentions à ce qu'elles valent, c'est-à-dire à peu de chose ; le D<hi rend="sup">r</hi> Jacoby a écrit tout un livre <note n="11"><hi rend="i">La Sélection naturelle dans l'humanité</hi>.‌</note> dont les conclusions sont précisément contraires à celles des derniers apologistes de la noblesse. On comprend que nous ne puissions discuter ici un si vaste sujet ; mais le fait seul que des hommes de pareille valeur concluent autrement que M. Faguet prouve suffisamment que les sciences naturelles ne disent pas à tout le monde ce qu'il voudrait leur faire dire.</p>
         <p>Et puis, quand même elles déclareraient (ce qu'elles n'ont garde de faire) que le mérite se transmet intégralement de père en fils, elles ne sauraient prévaloir contre l'expérience de tous les jours. Est-il rare de voir un sot qui descende d'un homme de talent, un grand écrivain qui sorte d'une lignée de paysans ? M. Faguet aura beau m'alléguer la sélection et l'hérédité ; il ne me forcera pas à le mépriser et à le replonger dans la vile multitude, parce qu'il a négligé de naître d'une famille de ducs et pairs.</p>
         <p>Il s'en faut donc que le <num>xviii<hi rend="sup">e</hi></num> siècle soit atteint et convaincu d'avoir fait une œuvre inutile ou mauvaise, en demandant au nom de l'égalité l'abolition de l'esclavage ou celle des castes privilégiées, en réclamant des réformes au nom d'un principe et même en prenant de force des libertés que la minorité refusait à la majorité. Cette œuvre, c'est M. Faguet, et non la science, qui la condamne. Il a pris ses désirs pour des réalités ; il a entonné gaiement un <hi rend="i">De profundis</hi> sur des idées qu'il déteste. On pourrait lui répondre :</p>
@@ -1484,7 +1492,7 @@
         <p>On ne peut pas dire que ce portrait du patriarche de Ferney soit flatté. Mais oyez ce qui suit, Français, mes frères, et frappez-vous la poitrine ; humiliez-vous, race futile et légère ! « Voltaire nous ressemble. L'esprit moyen de la France est en lui. » Sauf qu'il ne fut pas brave, c'est le type du Français. Vous avez bien entendu. M. Faguet, ce patriote chatouilleux qui ne trouve pas le <num>xviii<hi rend="sup">e</hi></num> siècle assez français pour lui, parle de nous comme on a eu coutume de le faire en Allemagne, ces années dernières. O pauvre France ! Ce n'est pas assez qu'elle ait été vaincue sur les champs de bataille : par quel excès d'humilité ses enfants, complices de sa défaite, prennent-ils plaisir à rabaisser ainsi l'esprit français !</p>
         <p>Que faire pourtant, si tout cela n'est que justice ? Heureusement que les allégations de M. Faguet sont sujettes à caution. Nous l'avons déjà vu ; nous allons le voir encore. Non pas que nous voulions discuter toutes celles qui prêtent à la critique ! Ce serait long et fastidieux ; il suffira d'en choisir quelques-unes comme échantillons.</p>
         <p>Faut-il vous montrer d'abord le parti pris dans toute sa beauté ? M. Faguet, pour mieux écraser Voltaire, a (c'était indiqué) grandi démesurément quelques-uns de ceux qui l'entourent, Buffon et Montesquieu, par exemple. Plût aux dieux (dont il parle souvent) qu'on n'eût à lui reprocher qu'un excès d'admiration pour les rivaux de sa victime ! Le malheur est qu'il a deux poids et deux mesures. Montesquieu se contredit : « Quel esprit vaste sachant embrasser les contraires ! » Voltaire n'est pas d'accord avec lui-même sur la nature de l'âme : « Quelle inconsistance, quel chaos ! » Voltaire, n'ayant point la vocation du martyre, prend ses précautions contre l'Église ; il écrit par exemple : « Le miracle est très respectable dans la Bible ; mais ailleurs il est absurde. » — Quel manque de sincérité ! quelle bassesse d'âme, ô ciel ! — Buffon, exactement pour la même raison, insère dans son œuvre des tirades chrétiennes : « ce sont formules de haute convenance, choses de bonne compagnie. »</p>
-        <p>On est dispensé de ménagements, de justice même, avec Voltaire. On peut impunément supprimer des opinions qu'il eut et lui en prêter de toutes contraires ; il est permis, sinon méritoire, de mutiler les textes. « La loi morale, pour lui, écrit M. Faguet, c'est ne pas commettre l'injustice... <hi rend="i">Jamais il ne va plus loin <note n="16">Pages 211-212.</note></hi> » Et il faut lire comme M. Faguet explique doctement que la vraie morale prescrit le dévouement, qu'elle commence à la charité, et que Voltaire n'atteint pas où elle commence. Ainsi donc la morale de Voltaire aurait été purement négative. La question est facile à élucider : il s'agit de faits, non d'opinions. Or, il avait repris à son compte la formule chère au bon abbé de Saint-Pierre : « Paradis aux bienfesants ! » Il écrivait <note n="17"><hi rend="i">Dictionnaire philosophique</hi>, article <name rend="sc">religion.</name>‌</note> : « Si un animal sentant et pensant dans Sirius est né d'un père et d'une mère tendres qui aient été occupés de son bonheur, il leur doit autant d'amour et de soins que nous en devons ici à nos parents. Si quelqu'un, dans la voie lactée, voit un indigent estropié, s'il peut le soulager et s'il ne le fait pas, il est coupable envers tous les globes. » Ce qu'il disait en prose, il l'a vingt fois redit en vers.</p>
+        <p>On est dispensé de ménagements, de justice même, avec Voltaire. On peut impunément supprimer des opinions qu'il eut et lui en prêter de toutes contraires ; il est permis, sinon méritoire, de mutiler les textes. « La loi morale, pour lui, écrit M. Faguet, c'est ne pas commettre l'injustice... <hi rend="i">Jamais il ne va plus loin <note n="16">Pages 211-212.</note></hi> » Et il faut lire comme M. Faguet explique doctement que la vraie morale prescrit le dévouement, qu'elle commence à la charité, et que Voltaire n'atteint pas où elle commence. Ainsi donc la morale de Voltaire aurait été purement négative. La question est facile à élucider : il s'agit de faits, non d'opinions. Or, il avait repris à son compte la formule chère au bon abbé de Saint-Pierre : « Paradis aux bienfesants ! » Il écrivait <note n="17"><hi rend="i">Dictionnaire philosophique</hi>, article <hi rend="sc">religion</hi>‌.</note> : « Si un animal sentant et pensant dans Sirius est né d'un père et d'une mère tendres qui aient été occupés de son bonheur, il leur doit autant d'amour et de soins que nous en devons ici à nos parents. Si quelqu'un, dans la voie lactée, voit un indigent estropié, s'il peut le soulager et s'il ne le fait pas, il est coupable envers tous les globes. » Ce qu'il disait en prose, il l'a vingt fois redit en vers.</p>
         <quote>
           <l>C'est n'être bon à rien que n'être bon qu'à soi...</l>
           <l>C'est peu d'être équitable ; il faut rendre service,</l>
@@ -1545,7 +1553,7 @@
         <p>Faut-il croire que la République, malmenée par ceux qu'elle favorise, a la magnanimité d'être battue et contente ? Un homme politique connu disait un jour d'un ministre non moins connu : « Quand je veux obtenir de lui quelque chose, je lui flanque des coups de pied au derrière. » Il semble que des procédés analogues aient servi de talisman à plusieurs de ceux qui occupent à Paris les places les plus en vue de l'Université de France. Qu'on y songe pourtant ! Il y a un péril grave à ne faire entendre que le son de la cloche réactionnaire à cette élite de la jeunesse bourgeoise qui va ensuite porter dans toutes les professions libérales et dans l'enseignement secondaire les idées reçues de la sorte. On n'espère pas sans doute arracher du cœur des masses populaires l'amour de la démocratie ni la reconnaissance pour la Révolution et pour les philosophes qui l'ont préparée. Est-ce donc qu'on veut faire deux Frances, l'une élevée dans le mépris de ce que l'autre admire ? L'État se donne-t-il la mission singulière d'encourager ce divorce intellectuel et moral ?</p>
         <p>Encore une fois je ne demande pas qu'on crée, à l'exemple des gouvernements précédents, une ridicule orthodoxie littéraire ou historique. Mais, Français et ayant à ce titre le droit de dire mon avis sur les choses de France, enseignant à l'étranger et ne pouvant être en ceci soupçonné d'ambition personnelle, je puis bien exprimer tout haut un vœu modeste que plus d'un professeur à Paris et en province doit se borner à murmurer tout bas. Je le formule ainsi : Puisque l'histoire de la littérature française, surtout au <num>xviii<hi rend="sup">e</hi></num> siècle, est et sera longtemps un sujet de discussions passionnées en attendant que les hommes chargés de l’enseigner aient le cœur et l'intelligence assez larges ou assez calmes pour en embrasser-les deux faces ; ne pourrait-on pas, à la Sorbonne et à l'Ecole Normale, à côté de ceux qui rabaissent et piétinent les philosophes du siècle dernier, réserver une petite place à ceux qui osent encore aimer et défendre ces précurseurs de la France nouvelle ?</p>
         </div>
-        <dateline><hi rend="i">La Nouvelle Revue</hi>, Mai 1891.</dateline>
+        <dateline><title>La Nouvelle Revue</title>, Mai <docDate>1891</docDate>.</dateline>
         <signed rend="center">FIN</signed>
       </div>
     </body>
