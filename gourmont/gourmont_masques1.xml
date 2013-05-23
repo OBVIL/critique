@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
-<!--odt2tei: 2013-03-05T16:03:18+01:00-->
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="gourmont_masques1" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -48,20 +47,20 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <titlePage>
+        <docAuthor>Rémy de Gourmont</docAuthor>
+        <docTitle>
+          <titlePart>Le Livre des Masques<lb/>Portraits symbolistes<lb/>Gloses et documents sur les écrivains d’hier et d’aujourd’hui</titlePart>
+        </docTitle>
+        <docImprint>
+          <edition>Troisième édition</edition>
+          <placeName>Paris</placeName><lb/>
+          <publisher>Société du Mercure de France</publisher>        
+        </docImprint>
+      </titlePage>
+    </front>
     <body>
-      <div>
-        <pb/>
-        <head>remy de gourmont</head>
-        <p>LE LIVRE</p>
-        <p>DES MASQUES</p>
-        <p/>
-        <p>portraits symbolistes</p>
-        <p>gloses et documents sur les écrivains d’hier et d’aujourd’hui</p>
-        <p/>
-        <p>Troisième édition</p>
-        <p>PARIS</p>
-        <p>SOCIÉTÉ DU MERCURE DE FRANCE</p>
-      </div>
       <div>
         <pb/>
         <head>Préface</head>
