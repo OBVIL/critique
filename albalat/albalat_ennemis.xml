@@ -1,7 +1,6 @@
-<?xml version="1.0"  encoding="UTF-8"?>
-<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
-<!--2013-01-11T22:56:46+01:00-->
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_ennemis" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -17,12 +16,6 @@
           <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="72" unit="page"/>
-        <measure quantity="469" unit="paragraph"/>
-        <measure quantity="40316" unit="word"/>
-        <measure quantity="237096" unit="character"/>
-      </extent>
       <publicationStmt>
         <publisher>OBVIL</publisher>
         <date when="2013"/>
