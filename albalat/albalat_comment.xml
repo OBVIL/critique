@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
-<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- odt2tei 2013-01-12T09:46:28+01:00 -->
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_comment" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -16,12 +15,6 @@
           <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="108" unit="page"/>
-        <measure quantity="833" unit="paragraph"/>
-        <measure quantity="61446" unit="word"/>
-        <measure quantity="367460" unit="character"/>
-      </extent>
       <publicationStmt>
         <date when="2013"/>
         <idno>http://gallica.bnf.fr/ark:/12148/bpt6k54539434</idno>
@@ -986,7 +979,7 @@
           <p>J'entends l'objection : « Les conseillers ne sont pas infaillibles, ils peuvent se tromper, eux aussi, comme tout le monde. » Oui, sans doute, les conseil­lers peuvent se tromper, mais moins souvent que vous, qui êtes ébloui par votre œuvre. On ne saura jamais tous les défauts qu'on peut éviter en écou­tant des juges qui n'ont aucune raison de s'illu­sionner, qui représentent la majorité des lecteurs et dont il vous reste, en somme, le droit de contrô­ler vous-même l'arrêt. Il est de votre intérêt que le public ne soit pas trompé, et, pour ne pas trom­per les autres, il faut d'abord ne pas se tromper soi-même.</p>
           <p>Donc choisissez un juge. C'est de toute néces­sité, Mais qui choisir ? Un professionnel ou un simple amateur ? L'un ou l'autre, tous les deux même, si c'est possible. L'essentiel est de choisir quelqu'un d'intelligent, qui ait sincèrement le souci de votre réputation et de votre avenir. Je ne crois pas qu'il soit absolument nécessaire d'être du métier pour bien juger une œuvre littéraire, la qualité d'un récit, la vie des personnages. Un simple dilettante aura peut-être quelque difficulté à s'expliquer ; mais, en l'aidant de vos questions, vous arriverez facilement à lui faire dire ce que vous voulez savoir. Par certains côtés, cependant, l'avis d'un professionnel pourrait être plus profi­table, parce qu'un professionnel mêle à ses conseils d'intéressantes raisons techniques d'exécution et de facture.</p>
           <p>C'est un grand bonheur, pour un homme de lettres de rencontrer un pareil guide. Il faut tout faire pour le trouver.</p>
-        <dateline>Paris, février 1925</dateline>
+        <dateline><docDate when="1925-02">Paris, février 1925</docDate></dateline>
         <postscript rend="center">
           <p>FIN</p>
         </postscript>
