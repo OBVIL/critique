@@ -1,6 +1,6 @@
 <?xml version="1.0"  encoding="UTF-8"?>
-<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
+<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-01-24T12:04:18+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barres_familles" xml:lang="fr">
   <teiHeader>
@@ -24,12 +24,6 @@
           <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="75" unit="page"/>
-        <measure quantity="585" unit="paragraph"/>
-        <measure quantity="43832" unit="word"/>
-        <measure quantity="255500" unit="character"/>
-      </extent>
       <publicationStmt>
         <publisher>OBVIL</publisher>
         <date when="2011"/>
