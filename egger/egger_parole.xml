@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
-<!--odt2tei: 2013-02-13T16:05:24+01:00-->
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="egger_parole" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -70,7 +69,7 @@
       </titlePage>
       <div type="dedication">
         <salute>À mon père Émile Egger
-          <lb/>membre de l'institut,
+          <lb/>membre de l'Institut,
           <lb/>professeur a la faculté des lettres de paris
           <lb/>Hommage d’affection filiale et de reconnaissance</salute>        
       </div>
