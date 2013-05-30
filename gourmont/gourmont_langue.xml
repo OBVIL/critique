@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-05-27T15:49:55+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="gourmont_langue" xml:lang="fr">
   <teiHeader>
@@ -13,11 +14,15 @@
         <edition>OBVIL</edition>
         <respStmt>
           <name>Pascale LANGLOIS</name>
-          <resp>?</resp>
+          <resp>Secrétariat éditorial</resp>
         </respStmt>
         <respStmt>
           <name>Frédéric Glorieux</name>
-          <resp>?</resp>
+          <resp>encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="VJ">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <extent>
@@ -100,6 +105,9 @@ Il précisait un peu avant : « tout art est déformateur […] puisque l’ar
       
     </front>
     <body>
+      <div>
+        <head>Esthétique de la langue française</head>
+      
       <div type="chapter">
         <pb/>
         <head>Préface</head>
@@ -166,81 +174,126 @@ F. de Saussure mettra en question ce principe de la « souche unique ». Selon
 </note> ; le second est venu doubler le premier soit à une époque assez ancienne, soit au cours des siècles ou tout récemment. Ils n’ont jamais la même signification et c’est l’excuse du mauvais ; excuse assez faible, car, comme je l’expliquerai plus loin, un seul mot peut, sans qu’aucune confusion soit à craindre, porter jusqu’à dix ou douze sens différents. C’est ainsi que la langue ayant tiré du latin <hi rend="i">capitale</hi> la forme <hi rend="i">cheptel</hi> a fait, avec le même mot, la forme <hi rend="i">capital</hi>. Voici quelques exemples de doublets que je n’emprunte pas à l’opuscule de Brachet <note n="18" type="NdE">
 « L’opuscule » d’Auguste Brachet est le <hi rend="i">Dictionnaire des doublets ou Doubles formes de la langue française</hi>, Librairie A. Franck, 1868. L’auteur écrit au début de cet ouvrage : « On appelle doublets les doubles dérivations d’un même mot (telles que <hi rend="i">raison</hi> et <hi rend="i">ration</hi>, venant l’un et l’autre de <hi rend="i">rationem</hi>), qui répondent d’ordinaire à deux âges différents dans l’histoire de notre langue, et auxquelles l’usage a attribué, malgré leur communauté d’origine, des sens distincts et spéciaux. Ce nom leur fut donné au XVII<hi rend="sup">e</hi> siècle par un conseiller au présidial de Bourges, Nicolas Catherinot, qui, le premier, observa un certain nombre de ces doublets, et en publia, en 1683, une liste fort incomplète sans pouvoir donner les raisons de ce singulier phénomène. Depuis le XVII<hi rend="sup">e</hi> siècle, une science nouvelle est née ; la philologie comparée a constaté que les mots ont une croissance et une histoire, qu’ils subissent, comme les plantes et les animaux, des transformations régulières, enfin que là comme partout la loi règne, et qu’on peut sûrement formuler des règles de dérivation d’une langue à l’autre : nous avons exposé d’ailleurs les traits principaux de cette histoire naturelle du langage (du moins en ce qui concerne la langue française). » (A. Brachet, <hi rend="i">Dictionnaire des doublets, op. cit</hi>., p. 7-8). NdE
 </note>, quoiqu’ils s’y trouvent certainement :</p>
-        <p rend="i">Latin</p>
-        <p rend="i">Monasterium</p>
-        <p rend="i">Ministerium</p>
-        <p rend="i">Paradisus</p>
-        <p rend="i">Hospitale</p>
-        <p rend="i">Augurium</p>
-        <p rend="i">Unionem</p>
-        <p rend="i">Crypta</p>
-        <p rend="i">Decima</p>
-        <p rend="i">Articulum</p>
-        <p rend="i">Navigare</p>
-        <p/>
-        <p rend="i">Vieux français</p>
-        <p>Moutier</p>
-        <p>Métier</p>
-        <p>Parvis</p>
-        <p>Hôtel</p>
-        <p>Heur</p>
-        <p>Oignon</p>
-        <p>Grotte</p>
-        <p>Dîme</p>
-        <p>Orteil</p>
-        <p>Nager</p>
-        <p/>
-        <p rend="i">Français moderne</p>
-        <p>Monastère</p>
-        <p>Ministère</p>
-        <p>Paradis</p>
-        <p>Hôpital</p>
-        <p>Augure</p>
-        <p>Union <note n="3" type="NdA">
-Il y a deux <hi rend="i">unio-nem</hi>, l’un disant oignon, l’autre union. Ce n’est donc pas là un doublet véritable ; mais si le vieux français avait tiré un mot de <hi rend="i">unionem</hi> (unir), nous dirions, sans rire : <hi rend="i">L’oignon fait la force</hi>. NdA
-</note></p>
-        <p>Crypte</p>
-        <p>Décime</p>
-        <p>Article</p>
-        <p>Naviguer</p>
+        <table>
+          <row>
+            <cell role="label">Latin</cell>
+            <cell role="label">Vieux Français</cell>
+            <cell role="label">Français moderne</cell>
+          </row>
+          <row>
+            <cell rend="i">Latin</cell>
+          </row>
+          <row>
+            <cell rend="i">Monasterium</cell>
+            <cell>Moutier</cell>
+            <cell>Monastère</cell>
+          </row>
+          <row>
+            <cell rend="i">Ministerium</cell>
+            <cell>Métier</cell>
+            <cell>Ministère</cell>
+          </row>
+          <row>
+            <cell rend="i">Paradisus</cell>
+            <cell>Parvis</cell>
+            <cell>Paradis</cell>
+          </row>
+          <row>
+            <cell rend="i">Hospitale</cell>
+            <cell>Hôtel</cell>
+            <cell>Hôpital</cell>
+          </row>
+          <row>
+            <cell rend="i">Augurium</cell>
+            <cell>Heur</cell>
+            <cell>Augure</cell>
+          </row>
+          <row>
+            <cell rend="i">Unionem</cell>
+            <cell>Oignon</cell>
+            <cell>Union <note n="3" type="NdA">
+              Il y a deux <hi rend="i">unio-nem</hi>, l’un disant oignon, l’autre union. Ce n’est donc pas là un doublet véritable ; mais si le vieux français avait tiré un mot de <hi rend="i">unionem</hi> (unir), nous dirions, sans rire : <hi rend="i">L’oignon fait la force</hi>. NdA
+            </note></cell>
+          </row>
+          <row>
+            <cell rend="i">Crypta</cell>
+            <cell>Grotte</cell>
+            <cell>Crypte</cell>
+          </row>
+          <row>
+            <cell rend="i">Decima</cell>
+            <cell>Dîme</cell>
+            <cell>Décime</cell>
+          </row>
+          <row>
+            <cell rend="i">Articulum</cell>
+            <cell>Orteil</cell>
+            <cell>Article</cell>
+          </row>
+          <row>
+            <cell rend="i">Navigare</cell>
+            <cell>Nager</cell>
+            <cell>Naviguer</cell>
+          </row>
+        </table>
         <p/>
         <p>Souvent, le sens s’étant perdu de la fécondité naturelle du français, un savant en quête d’un qualificatif, d’un dérivé est remonté au mot latin au lieu d’interroger le mot français :</p>
-        <p rend="i">Natalis</p>
-        <p rend="i">Ostrea</p>
-        <p rend="i">Ranuncula</p>
-        <p rend="i">Oxalia</p>
-        <p rend="i">Medulla</p>
-        <p rend="i">Auricula</p>
-        <p rend="i">Gracile</p>
-        <p rend="i">Dies dominica</p>
-        <p rend="i">Pediculum</p>
-        <p rend="i">Pneuma</p>
-        <p/>
-        <p>Noël</p>
-        <p>Huître</p>
-        <p>Grenouille</p>
-        <p>Oseille</p>
-        <p>Moëlle</p>
-        <p>Oreille</p>
-        <p>Grêle</p>
-        <p>Dimanche</p>
-        <p>Pou</p>
-        <p>Neume</p>
-        <p/>
-        <p>Natalité</p>
-        <p>Ostréiculture</p>
-        <p>Renonculacées<note n="1" place="bottom">
-<hi rend="i">Renonculacées</hi> a plutôt été tiré directement de <hi rend="i">renoncule.</hi>
-</note></p>
-        <p>Oxalique</p>
-        <p>Médullaire <note n="4" type="NdA">
-Il n’est pas très rare de lire : <hi rend="i">la moëlle médullaire</hi>. Il ne faut pas trop rire, ni trop blâmer cela. Le langage d’usage n’a pas à tenir compte du sens étymologique des mots. Voir plus loin, à la fin du chapitre II. NdA
-</note></p>
-        <p>Auriculaire</p>
-        <p>Gracilité</p>
-        <p>Dominical</p>
-        <p>Pédiculaire</p>
-        <p>Pneumatique</p>
+        <table>
+          <row>
+            <cell rend="i">Natalis</cell>
+            <cell>Noël</cell>
+            <cell>Natalité</cell>
+          </row>
+          <row>
+            <cell rend="i">Ostrea</cell>
+            <cell>Huître</cell>
+            <cell>Ostréiculture</cell>
+          </row>
+          <row>
+            <cell rend="i">Ranuncula</cell>
+            <cell>Grenouille</cell>
+            <cell>Renonculacées<note n="1" place="bottom">
+              <hi rend="i">Renonculacées</hi> a plutôt été tiré directement de <hi rend="i">renoncule.</hi>
+            </note></cell>
+          </row>
+          <row>
+            <cell rend="i">Oxalia</cell>
+            <cell>Oseille</cell>
+            <cell>Oxalique</cell>
+          </row>
+          <row>
+            <cell rend="i">Medulla</cell>
+            <cell>Moëlle</cell>
+            <cell>Médullaire <note n="4" type="NdA">
+              Il n’est pas très rare de lire : <hi rend="i">la moëlle médullaire</hi>. Il ne faut pas trop rire, ni trop blâmer cela. Le langage d’usage n’a pas à tenir compte du sens étymologique des mots. Voir plus loin, à la fin du chapitre II. NdA
+            </note></cell>
+          </row>
+          <row>
+            <cell rend="i">Auricula</cell>
+            <cell>Oreille</cell>
+            <cell>Auriculaire</cell>
+          </row>
+          <row>
+            <cell rend="i">Gracile</cell>
+            <cell>Grêle</cell>
+            <cell>Gracilité</cell>
+          </row>
+          <row>
+            <cell rend="i">Dies dominica</cell>
+            <cell>Dimanche</cell>
+            <cell>Dominical</cell>
+          </row>
+          <row>
+            <cell rend="i">Pediculum</cell>
+            <cell>Pou</cell>
+            <cell>Pédiculaire</cell>
+          </row>
+          <row>
+            <cell rend="i">Pneuma</cell>
+            <cell>Neume</cell>
+            <cell>Pneumatique</cell>
+          </row>
+        </table>
         <p>On doit avoir l’impression rien qu’à parcourir ces deux listes très écourtées, que si les mots de la seconde colonne sont français, ceux de la troisième ne le sont pas, ou très peu ; ils ne sont pas davantage latins, puisque jamais en aucun pays ils n’ont été prononcés tels que le dictionnaire nous les offre aujourd’hui. Ils n’en sont pas moins, sauf le dernier, fort estimables ; leur présence dans la langue est devenue presque un ornement en même temps qu’une garantie de solidité depuis que tant d’autres causes de destruction sont venues l’assaillir et, partiellement, la vaincre.</p>
         <p>Nous ne comprenons plus, sans études préalables, le vieux français ; la tradition a été rompue le jour où les deux littératures, française et latine, se trouvèrent réunies aux mains des lettrés ; les hommes qui savent deux langues empruntent nécessairement, quand ils écrivent la plus pauvre, les termes qui lui manquent et que l’autre possède en abondance. Or, à ce moment, le français paraissait aussi pauvre en termes abstraits que le latin classique, tandis que le latin du moyen âge, enrichi de toute la terminologie scolastique<note n="2" place="bottom">
  Sur ce que le français doit au latin scolastique, voir l’introduction du <hi rend="i">Dictionnaire général</hi> de Hatzfeld et Darmesteter.
@@ -376,25 +429,27 @@ Ambroise Paré (1510-1590) est considéré comme le père de la chirurgie modern
 </note> nommait ingénument des <hi rend="i">grêles</hi>, ses héritiers l’ont baptisée <hi rend="i">chalazion</hi> ; ce mot était technique dans la médecine grecque, mais grêles [mot en caractère grec] le traduit fort bien, image pour image. « Les médecins, dit avec sagesse M. Brissaud <note n="36" type="NdE">
 Edouard Brissaud (1852-1909), célèbre neurologue, est l’auteur d’une <hi rend="i">Histoire des expressions populaires relatives à l’anatomie, à la physiologie et à la médecine</hi>, Paris, Chamerot, 1888. NdE
 </note>, sont coupables de conserver — et surtout d’inventer des formes bâtardes, métissées de grec et de latin, dans les cas où le fond de notre langue suffirait amplement » ; et il cite le mot excellent de <hi rend="i">cailloute</hi>, nom d’une phtisie particulière aux casseurs de <hi rend="i">cailloux</hi>, ou provoquée par des poussières minérales ; les <hi rend="i">nosographes</hi>, le trouvant trop clair et trop français, l’ont biffé pour écrire <hi rend="i">pneumochalicose</hi>. Mais n’avaient-ils pas déjà substitué <hi rend="i">phlébotomie</hi> à <hi rend="i">saignée</hi> ! Voici sans observations une liste de mots français avec leur nom correspondant en patois médical ; on jugera de quel côté sont la raison et la beauté :</p>
-        <p>Adéphagie Fringale</p>
-        <p>Adénoïde Glanduleux</p>
-        <p>Agrypnie Insomnie</p>
-        <p>Advnamie Faiblesse</p>
-        <p>Omoplate Palette, Paleron (restés comme termes de boucherie)</p>
-        <p>Ombilic Nombril</p>
-        <p>Pharynx Avaloir (<hi rend="i">vieux français</hi>)</p>
-        <p>Zygoma Pommette</p>
-        <p>Thalasie Mal de mer</p>
-        <p>Epilepsie Haut-mal</p>
-        <p>Asthme Court-vent</p>
-        <p>Ephélides Son (taches)</p>
-        <p>Ictère Jaunisse</p>
-        <p>Naevi Envies</p>
-        <p>Phlyctène Ampoule</p>
-        <p>Ecchymose Bleu, Meurtrissure, Sang-meurtri (<hi rend="i">vieux français</hi>)</p>
-        <p>Myodopsie Berlue (latin : <hi rend="i">bislacere</hi>)</p>
-        <p>Diplopique Bigle</p>
-        <p>Apoplexie Coup de sang</p>
+        <list>
+          <item>Adéphagie Fringale</item>
+          <item>Adénoïde Glanduleux</item>
+          <item>Agrypnie Insomnie</item>
+          <item>Advnamie Faiblesse</item>
+          <item>Omoplate Palette, Paleron (restés comme termes de boucherie)</item>
+          <item>Ombilic Nombril</item>
+          <item>Pharynx Avaloir (<hi rend="i">vieux français</hi>)</item>
+          <item>Zygoma Pommette</item>
+          <item>Thalasie Mal de mer</item>
+          <item>Epilepsie Haut-mal</item>
+          <item>Asthme Court-vent</item>
+          <item>Ephélides Son (taches)</item>
+          <item>Ictère Jaunisse</item>
+          <item>Naevi Envies</item>
+          <item>Phlyctène Ampoule</item>
+          <item>Ecchymose Bleu, Meurtrissure, Sang-meurtri (<hi rend="i">vieux français</hi>)</item>
+          <item>Myodopsie Berlue (latin : <hi rend="i">bislacere</hi>)</item>
+          <item>Diplopique Bigle</item>
+          <item>Apoplexie Coup de sang</item>
+        </list>
         <p>On pourrait continuer, car le vocabulaire gréco-français est fort abondant. Les lexiques spéciaux contiennent environ trois mille cinq cents mots français tirés du grec, mais ils sont tous incomplets ; il est vrai que l’un de ces ouvrages attribue au grec la paternité d’une quantité de vocables purement latins, ou allemands, comme <hi rend="i">pain</hi> et <hi rend="i">balle</hi>. L’auteur, pour l’amour du grec, fait venir <hi rend="i">bogue</hi>, une sorte de poisson, de [mot en caractères grecs], qui veut dire crier : c’est peut-être aller un peu loin ! Mais le nombre exact de ces mots importe peu ; il y en aura toujours trop, bien qu’ils meurent assez rapidement. Rien ne se fane plus vite dans une langue que les mots sans racines vivantes : ils sont des corps étrangers que l’organisme rejette, chaque fois qu’il en a le pouvoir, à moins qu’il ne parvienne à se les assimiler. <hi rend="i">Prosthèse</hi>, terme grammatical, — élégante traduction de <hi rend="i">greffe</hi> ! — a échoué sous la forme prothèse chez les dentistes qui bientôt n’en voudront plus. Déjà les médecins qui ont de l’esprit n’osent plus guère appeler <hi rend="i">carpe</hi> le <hi rend="i">poignet</hi> ni décrire une écorchure au pouce en termes destinés sans doute à rehausser l’état de duelliste, mais aussi à ridiculiser l’état de chirurgien. Si beaucoup de mots nécessaires à la médecine et à l’anatomie (celui-ci même, par exemple) sont irremplaçables, il faut tout de même tenter de les rendre moins laids en les francisant complètement et non plus seulement du bout de la plume ; nous examinerons ce point.</p>
         <p>De l’usage des termes grecs dans les sciences médicales, on donne cette explication qu’il est impossible de tirer tel dérivé nécessaire de tel mot français. Que faire de <hi rend="i">oreille</hi> par exemple, ou de <hi rend="i">œil</hi> ? Mais du mot <hi rend="i">œil</hi> l’ancienne langue a été <hi rend="i">œillet, œillade, œillère</hi> <note n="28" type="NdA">
 <hi rend="i">Œillette</hi>, anciennement <hi rend="i">oliette</hi>, se rattache à <hi rend="i">oleum, olium</hi>, huile. NdA
@@ -422,42 +477,42 @@ La description du grand pluvier, vulgairement appelé courlis de terre, se trouv
         <p>Outre sa nomenclature, où je veux encore relever quelques mots galants tels que <hi rend="i">chondroptérygien</hi> et <hi rend="i">macrorrhynque</hi> (comment des créatures humaines ont-elles pu émettre de tels sons <note n="34" type="NdA">
 En astronomie, le terrible <hi rend="i">sizygie</hi> est à peu près impossible à prononcer ; on le croirait inventé pour quelque « jeu de société », comme <hi rend="i">Gros gras grain d’orge, quand te dégrogragraindorgeriseras-tu</hi> ?. NdA
 </note>, volontairement ?), l’histoire naturelle possède une langue générale dont elle a malheureusement imposé l’usage aux historiens et aux critiques. En voici un aperçu :</p>
-        <p>Anthropozoologique<note n="40" type="NdE">
+        <list>
+        <item>Anthropozoologique<note n="40" type="NdE">
 Emile Faguet, <hi rend="i">La Fontaine</hi>, Lecène et Houdin, 1889. Nous n’avons trouvé dans ce texte aucune occurrence du mot <hi rend="i">anthropozoologique</hi>. NdE
 </note> <note n="35" type="NdA">
 J’ai relevé ce mot et le suivant, car il s’agit de les prendre en des livres de littérature, dans une étude de M. Faguet  sur les fables de La Fontaine. Je prends la plupart des autres dans un excellent livre de M. Jean Laumonier, <hi rend="i">la Nationalité française. II. les Hommes</hi> et dans <hi rend="i">l’Année sociologique</hi>, publication estimée. On les trouverait également épars en des centaines, en des milliers d’ouvrages récents et jusque dans les romans à prétentions scientifiques. Beaucoup sont usuels : ils n’en sont pas meilleurs. Cette liste montrera l’étendue et la gravité du mal qui opprime la langue française. Nodier disait déjà, en 1828 : « La langue des sciences est devenue une espèce d’argot moitié grec, moitié latin… Il faut prendre garde de l’introduire dans la littérature pure et simple… « Le mal est fait. Le même Nodier fait remarquer, quoique bien respectueux du grec, combien il est ridicule et impropre de dire en français <hi rend="i">alphabet</hi> au lieu de <hi rend="i">abécé</hi> ou <hi rend="i">abécédaire</hi>, selon les cas. (<hi rend="i">Examen critique des Dictionnaires.)</hi>
 </note> <note n="41" type="NdE">
 Commentaires de la note de l’auteur. <hi rend="i">L’Année sociologique</hi>, fondée par Emile Durkheim en 1896, est la première et la plus ancienne des revues scientifiques de sciences sociales. Dans les premiers numéros de cette revue éditée par Alcan, on trouve des articles d’E. Durkheim, G. Simmel, G. Tarde, Stuart Mill, M. Mauss. NdE
-</note></p>
-        <p>Anthropomorphique</p>
-        <p>Anthropolologie ( ?)</p>
-        <p>Anthropopithèque</p>
-        <p>Dolichocéphale</p>
-        <p>Mésaticéphale</p>
-        <p>Brachycéphale</p>
-        <p>Hyperdolychocéphalique</p>
-        <p>Brachychéphalisante</p>
-        <p>Bi-zygomatique</p>
-        <p>Eugénésique</p>
-        <p>Microorganisme</p>
-        <p>Microbiologie</p>
-        <p>Bio-sociologique</p>
-        <p/>
-        <p>Morphologie</p>
-        <p>Chorographie.</p>
-        <p>Sociologiquement</p>
-        <p>Paléoethnologie</p>
-        <p>Mammologique</p>
-        <p>Leptorrhinienne</p>
-        <p>Néolithique</p>
-        <p>Néanderthaloïdes</p>
-        <p>Protohistorique</p>
-        <p>Troglodytes</p>
-        <p>Mégalithiques</p>
-        <p>Métazoaire</p>
-        <p>Protozoaire</p>
-        <p>Hyperzoaire</p>
-        <p/>
+</note></item>
+        <item>Anthropomorphique</item>
+        <item>Anthropolologie ( ?)</item>
+        <item>Anthropopithèque</item>
+        <item>Dolichocéphale</item>
+        <item>Mésaticéphale</item>
+        <item>Brachycéphale</item>
+        <item>Hyperdolychocéphalique</item>
+        <item>Brachychéphalisante</item>
+        <item>Bi-zygomatique</item>
+        <item>Eugénésique</item>
+        <item>Microorganisme</item>
+        <item>Microbiologie</item>
+        <item>Bio-sociologique</item>
+        <item>Morphologie</item>
+        <item>Chorographie.</item>
+        <item>Sociologiquement</item>
+        <item>Paléoethnologie</item>
+        <item>Mammologique</item>
+        <item>Leptorrhinienne</item>
+        <item>Néolithique</item>
+        <item>Néanderthaloïdes</item>
+        <item>Protohistorique</item>
+        <item>Troglodytes</item>
+        <item>Mégalithiques</item>
+        <item>Métazoaire</item>
+        <item>Protozoaire</item>
+        <item>Hyperzoaire</item>
+        </list>
         <p>Quelques-uns de ces mots sont d’une laideur neutre et bête ; les autres sont hideux à dégoûter de la science et de toute science. Buffon cependant, qui avait du génie, a écrit sur l’homme tout un volume, encore scientifiquement valable <note n="42" type="NdE">
 Le troisième volume de l’<hi rend="i">Histoire naturelle</hi> de Buffon est consacré à l‘histoire de l’homme. NdE
 </note>, et dans une langue qu’un enfant de douze ans comprend à la première lecture. La notion contenue dans <hi rend="i">hyperdolychocéphale</hi> n’est pas de celles dont l’importance puisse justifier la méchanceté du mot.</p>
@@ -578,57 +633,57 @@ Sur le principe même des modifications orthographiques, se reporter à la <hi r
           <l>Les encensiers aportent, si vont le messe dire.</l>
         </quote>
         <p>Voici des mots, avec leur état en italien :</p>
-        <p/>
-        <p>Thyrse Tirse Tirso</p>
-        <p>Porphyre Porfire Porfirio</p>
-        <p>Nymphe Nimfe, Ninfe <note n="53" type="NdA">
+        <list>
+        <item>Thyrse Tirse Tirso</item>
+        <item>Porphyre Porfire Porfirio</item>
+        <item>Nymphe Nimfe, Ninfe <note n="53" type="NdA">
 On peut conserver l’<hi rend="i">m</hi>. Voir la note 3, page 72. NdA
-</note> Ninfa</p>
-        <p>Zéphyr Zéfir Zèfiro Zèffiro</p>
-        <p>Saphique Safique Saffico</p>
-        <p>Symphyse Sinfise, Simfise Sinfisi</p>
-        <p>Sympathique Sinpatique Simpatico</p>
-        <p>Typographie Tipografie Tipografia</p>
-        <p>Orthographe Ortografe <note n="54" type="NdA">
+</note> Ninfa</item>
+        <item>Zéphyr Zéfir Zèfiro Zèffiro</item>
+        <item>Saphique Safique Saffico</item>
+        <item>Symphyse Sinfise, Simfise Sinfisi</item>
+        <item>Sympathique Sinpatique Simpatico</item>
+        <item>Typographie Tipografie Tipografia</item>
+        <item>Orthographe Ortografe <note n="54" type="NdA">
 Les phonétistes emploient le mot <hi rend="i">grafie</hi>. NdA
-</note> Ortografia</p>
-        <p>Esthétique Estétique Estetica</p>
-        <p>Technique Tecnique Tecnico</p>
-        <p>Thrasybule Trasibule</p>
-        <p>Typhon Tifon Tifone</p>
-        <p>Polythéisme Politéisme Politeismo</p>
-        <p>Philosophie Filosofie Filosofia</p>
-        <p>Phosphore Fosfore Fosforo</p>
-        <p>Phtisie Tisie Tisi</p>
-        <p>Gymnosophiste Gimnosofiste Ginnosofista</p>
-        <p>Hydrophobie Hidrophobie <note n="55" type="NdA">
+</note> Ortografia</item>
+        <item>Esthétique Estétique Estetica</item>
+        <item>Technique Tecnique Tecnico</item>
+        <item>Thrasybule Trasibule</item>
+        <item>Typhon Tifon Tifone</item>
+        <item>Polythéisme Politéisme Politeismo</item>
+        <item>Philosophie Filosofie Filosofia</item>
+        <item>Phosphore Fosfore Fosforo</item>
+        <item>Phtisie Tisie Tisi</item>
+        <item>Gymnosophiste Gimnosofiste Ginnosofista</item>
+        <item>Hydrophobie Hidrophobie <note n="55" type="NdA">
 On peut conserver l’<hi rend="i">h</hi> initiale de ces mots commençant en grec par <hi rend="i">u</hi>, non par respect pour le grec, mais pour varier les formes. NdA
-</note> Idrofobia</p>
-        <p>Hydrothérapie Hidrothérapie Idroterapia</p>
-        <p>Ichthyophage Ictiofage Ittiofago</p>
-        <p>Isthme Isme Ismo</p>
-        <p>Asthme Asme Asma</p>
-        <p>Kilogramme Quilogramme Chilogrammo <note n="56" type="NdA">
+</note> Idrofobia</item>
+        <item>Hydrothérapie Hidrothérapie Idroterapia</item>
+        <item>Ichthyophage Ictiofage Ittiofago</item>
+        <item>Isthme Isme Ismo</item>
+        <item>Asthme Asme Asma</item>
+        <item>Kilogramme Quilogramme Chilogrammo <note n="56" type="NdA">
 <hi rend="i">Ch</hi> italien équivaut à notre <hi rend="i">qu</hi> (dans <hi rend="i">qualité</hi>). NdA
-</note></p>
-        <p>Lycanthropie Licantropie Licantropia</p>
-        <p>Métaphysique Métafisique Metafisica</p>
-        <p>Mythologie Mitologie Mitologia</p>
-        <p>Ophthalmie Oftalmie Oftalmia</p>
-        <p>Autochtone Autoctone Autoctono</p>
-        <p>Chlorose Clorose Clorosi</p>
-        <p>Chrysanthème Crisantème Crisantemo</p>
-        <p>Christianisme Cristianisme Cristianismo</p>
-        <p>Cynocéphale Cinocéfale Cinocefalo</p>
-        <p>Syllabe Sillabe Sillaba</p>
-        <p>Dithyrambe Ditirambe Ditirambo</p>
-        <p>Ecchymose Equimose Ecchimosi</p>
-        <p>Euphrosyne Eufrosine Eufrosina</p>
-        <p>Phrase Frase Frase</p>
-        <p>Thym Tym <note n="57" type="NdA">
+</note></item>
+        <item>Lycanthropie Licantropie Licantropia</item>
+        <item>Métaphysique Métafisique Metafisica</item>
+        <item>Mythologie Mitologie Mitologia</item>
+        <item>Ophthalmie Oftalmie Oftalmia</item>
+        <item>Autochtone Autoctone Autoctono</item>
+        <item>Chlorose Clorose Clorosi</item>
+        <item>Chrysanthème Crisantème Crisantemo</item>
+        <item>Christianisme Cristianisme Cristianismo</item>
+        <item>Cynocéphale Cinocéfale Cinocefalo</item>
+        <item>Syllabe Sillabe Sillaba</item>
+        <item>Dithyrambe Ditirambe Ditirambo</item>
+        <item>Ecchymose Equimose Ecchimosi</item>
+        <item>Euphrosyne Eufrosine Eufrosina</item>
+        <item>Phrase Frase Frase</item>
+        <item>Thym Tym <note n="57" type="NdA">
 L’<hi rend="i">y</hi> n’est pas inutile dans ces mots très courts dont il consolide la forme un peu frêle. Il était indispensable à <hi rend="i">lys</hi>, qu’il faut toujours écrire ainsi, quoiqu’il vienne régulièrement du bas latin <hi rend="i">lilius. Nymfe</hi> peut aussi garder son <hi rend="i">y</hi>, et aussi <hi rend="i">Tyrse</hi>. NdA
-</note> Timo</p>
-        <p/>
+</note> Timo</item>
+        </list>
         <p>On voit qu’il s’agit seulement de franciser des mots insolites<note>
 Voltaire écrivait <hi rend="i">autentique.</hi>
 </note>, de les achever au moyen de retouches, de les polir par le sacrifice de quelques excroissances. Il y a loin de ces petits travaux de jardinage au bouleversement entrepris par certains réformateurs que l’ignorance du vieux français rend tout à fait impropres à concilier la beauté traditionnelle avec la beauté d’utilité. Le mot étant un signe, et rien de plus, doit avoir les caractères du signe, la diversité et la fixité des formes. Sans doute on peut écrire <hi rend="i">poto, rato, gato, morso, nivo</hi>, sous prétexte que dans ces mots le son final est rendu plus nettement et plus clairement par <hi rend="i">o</hi> que par <hi rend="i">eau</hi>. Dans l’absolu, c’est vrai ; mais les langues ne sont pas dans l’absolu, puisqu’elles vivent, se meuvent, s’accroissent, meurent.</p>
@@ -751,268 +806,289 @@ M. Michel Bréal (<hi rend="i">Revue des Revues</hi>, 1<hi rend="sup">er</hi> ju
 </note>, luette, loriot</hi>), la forme première ayant certainement été <hi rend="i">irlie.</hi></p>
         <p>Voilà un bon exemple et un mot agréable formé par l’heureuse ignorance d’un jardinier. C’est ainsi qu’il faut que la langue dévore tous les mots étrangers qui lui sont nécessaires, qu’elle les rende méconnaissables : qui, sans un tel hasard, en supposant que le mot eût vécu, aurait jamais retrouvé <hi rend="i">early</hi> dans <hi rend="i">lirlie</hi> ?</p>
         <p>Ce <hi rend="i">lirlie</hi> peut servir de type des mots étrangers qui entrent dans une langue à la fois par la parole et par l’écriture. Dans ce cas, il ne faut jamais hésiter à sacrifier l’orthographe au son. Le jardinier eût écrit <hi rend="i">lirlie</hi> ; un autre aurait pu sentir la présence de l’article et adopter <hi rend="i">irlie</hi> ; les deux mots seraient excellents, et <hi rend="i">early</hi> est très mauvais. Quand le mot est entré par la parole seule (ce qui est rare maintenant), on transcrira le son tel qu’il est perçu. Si le mot est venu par l’écriture seule, il faut le réformer et l’écrire comme le prononcerait un paysan ou un ouvrier tout à fait étranger à l’anglais ou à telle autre langue. Je formulerais donc volontiers ainsi les mots suivants, bien connus sous leur aspect barbare ; je mets à côté un des mots qui peuvent servir d’étalon analogique :</p>
-        <p><hi rend="i">Higuelife</hi> — High Life</p>
-        <p>Calife</p>
-        <p><hi rend="i">Fivocloque</hi> — Five o’clock</p>
-        <p>Colloque</p>
-        <p><hi rend="i">Vaterprouffe</hi> — Water-proof</p>
-        <p>Esbrouffe</p>
-        <p><hi rend="i">Starteur</hi> — Starter <note n="77" type="NdA">
+        <list>
+        <item><hi rend="i">Higuelife</hi> — High Life<lb/>Calife</item>
+        <item><hi rend="i">Fivocloque</hi> — Five o’clock<lb/>Colloque</item>
+        <item><hi rend="i">Vaterprouffe</hi> — Water-proof<lb/>Esbrouffe</item>
+        <item><hi rend="i">Starteur</hi> — Starter <note n="77" type="NdA">
 Voilà la prononciation ou usuelle ou individuelle à Paris de quelques termes de courses : <hi rend="i">starter</hi>-starteur ; <hi rend="i">broken-down</hi>-brocandeau ; <hi rend="i">flyer</hi>-flieur ; <hi rend="i">steaple</hi>-stiple ; <hi rend="i">stayer</hi>-stayeur ; <hi rend="i">dead-heat</hi>-didide ; <hi rend="i">handicap</hi>-andicape ; <hi rend="i">betting</hi>-bétin (ou bétingue) ; <hi rend="i">ring</hi>-rin (ou ringue). — Dans <hi rend="i">didide</hi> il y a d’abord la confusion de <hi rend="i">heat</hi> avec <hi rend="i">head</hi>, alors prononcé <hi rend="i">hide</hi>, — et tout cela est charivaresque !. NdA
-</note></p>
-        <p><hi rend="i">Stimeur</hi> — Steamer</p>
-        <p>Rameur</p>
-        <p><hi rend="i">Autoresse</hi><note n="78" type="NdA">
+</note></item>
+        <item><hi rend="i">Stimeur</hi> — Steamer<lb/>Rameur</item>
+        <item><hi rend="i">Autoresse</hi><note n="78" type="NdA">
 Si on ne veut pas d’<hi rend="i">autrice</hi>. NdA
-</note> — authoress</p>
-        <p>Maîtresse</p>
-        <p><hi rend="i">Blocausse</hi> — Block-hauss <note n="79" type="NdA">
+</note> — authoress<lb/>Maîtresse</item>
+        <item><hi rend="i">Blocausse</hi> — Block-hauss <note n="79" type="NdA">
 Allemand. A déjà donné <hi rend="i">blocus</hi> au <num>xvi<hi rend="sup">e</hi></num> siècle. — Tous les mots sans renvoi sont anglais. NdA
-</note></p>
-        <p>Chausse</p>
-        <p><hi rend="i">Groume</hi> — Groom <note n="80" type="NdA">
+</note><lb/>Chausse</item>
+        <item><hi rend="i">Groume</hi> — Groom <note n="80" type="NdA">
 <hi rend="i">Groume</hi> a déjà existé en français, venu d’une forme germanique (<hi rend="i">grom</hi>, garçon). <hi rend="i">Grom</hi> devint <hi rend="i">groume</hi>, puis <hi rend="i">groumet</hi> nom donné aux garçons marchands de vins. De là l’idée de dégustation conservé dans <hi rend="i">gourmet</hi>, qui est une déformation de <hi rend="i">groumet</hi>. Finalement <hi rend="i">groom</hi> est un mot français emprunté par l’anglais. Il y a de ces emprunts anglais, réempruntés parle français, qui ont pris au cours de ce double voyage une forme bien curieuse. De <hi rend="i">soie de Padoue</hi>, les marchands anglais avaient fait jadis Padousoy ; le mot est revenu en France sous les apparences inattendues de <hi rend="i">pou-de-soie</hi>. Le mot <hi rend="i">mohair</hi>, récemment importé d’Angleterre, n’est autre chose que notre <hi rend="i">moire</hi> ! — Les Français appelaient <hi rend="i">Fond de baie</hi> un littoral canadien. Les Anglais en ont fait <hi rend="i">Fundy bay</hi>, ce que nos géographes traduisent courageusement par <hi rend="i">baie de Fundy</hi>. NdA
-</note></p>
-        <p>Doume <note n="81" type="NdA">
+</note><lb/>Doume <note n="81" type="NdA">
 Sorte de palmier. NdA
-</note></p>
-        <p/>
-        <p><hi rend="i">Spline</hi> — Spleen <note n="82" type="NdA">
+</note></item>
+        <item><hi rend="i">Spline</hi> — Spleen <note n="82" type="NdA">
  <hi rend="i">Splénétique</hi> est venu du grec. NdA
-</note></p>
-        <p>Discipline</p>
-        <p/>
-        <p><hi rend="i">Smoquine</hi> — Smoking</p>
-        <p>Molesquine</p>
-        <p/>
-        <p><hi rend="i">Yaute</hi> — Yacht <note n="83" type="NdA">
+</note><lb/>Discipline</item>
+        <item><hi rend="i">Smoquine</hi> — Smoking<lb/>Molesquine</item>
+        <item><hi rend="i">Yaute</hi> — Yacht <note n="83" type="NdA">
 L’italien a emprunté le mot à la forme écrite : <hi rend="i">iachetto.</hi> Cette forme également usitée en français s’écrirait <hi rend="i">yaque</hi>. NdA
-</note></p>
-        <p>Faute</p>
-        <p/>
-        <p><hi rend="i">Docart</hi> — Dogcart</p>
-        <p>ou <hi rend="i">Doquart</hi></p>
-        <p>Trocart, Trois-quarts <note n="84" type="NdA">
+</note><lb/>Faute</item>
+        <item><hi rend="i">Docart</hi> — Dogcart
+        <lb/>ou <hi rend="i">Doquart</hi>
+        <lb/>Trocart, Trois-quarts <note n="84" type="NdA">
 Mots identiques : <hi rend="i">trois-quarts</hi> a été le premier nom du <hi rend="i">trocart</hi>. NdA
-</note></p>
-        <p/>
-        <p><hi rend="i">Snobe</hi> — Snob</p>
-        <p>Robe</p>
-        <p/>
-        <p><hi rend="i">Bismute</hi> — Bismuth <note n="85" type="NdA">
+</note></item>
+        <item><hi rend="i">Snobe</hi> — Snob<lb/>Robe</item>
+        <item><hi rend="i">Bismute</hi> — Bismuth <note n="85" type="NdA">
 All. La vraie forme est <hi rend="i">bissmuth</hi>. NdA
-</note></p>
-        <p>Jute</p>
-        <p/>
-        <p><hi rend="i">Zingue</hi> — Zinc <note n="86" type="NdA">
+</note><lb/>Jute</item>
+        
+        <item><hi rend="i">Zingue</hi> — Zinc <note n="86" type="NdA">
 All. Italien : <hi rend="i">zinco</hi>. NdA
-</note></p>
-        <p>(Voyez <hi rend="i">Chirtingue</hi>)</p>
-        <p/>
-        <p><hi rend="i">Malte</hi> — Malt <note n="87" type="NdA">
+</note><lb/>(Voyez <hi rend="i">Chirtingue</hi>)</item>
+
+        <item><hi rend="i">Malte</hi> — Malt <note n="87" type="NdA">
 Italien : <hi rend="i">malto</hi>. NdA
-</note></p>
-        <p>Malte</p>
-        <p/>
-        <p><hi rend="i">Boucmacaire</hi> — Book-maker <note n="88" type="NdA">
+</note><lb/>Malte</item>
+
+        <item><hi rend="i">Boucmacaire</hi> — Book-maker <note n="88" type="NdA">
 Tend, dit-on, à disparaître devant le mot français <hi rend="i">donneur</hi>. NdA
-</note></p>
-        <p><hi rend="i">Valcovère</hi> — Walk-over</p>
-        <p>Sévère</p>
-        <p>Macaire</p>
-        <p/>
-        <p><hi rend="i">Chirtingue</hi> — Shirting</p>
-        <p><hi rend="i">Métingue</hi> — Meeting</p>
-        <p><hi rend="i">Cotingue</hi> — Coating</p>
-        <p><hi rend="i">Poudingue</hi><note n="89" type="NdA">
+</note>
+         <lb/><hi rend="i">Valcovère</hi> — Walk-over
+        <lb/>Sévère
+        <lb/>Macaire</item>
+
+        <item><hi rend="i">Chirtingue</hi> — Shirting
+        <lb/><hi rend="i">Métingue</hi> — Meeting
+        <lb/><hi rend="i">Cotingue</hi> — Coating
+        <lb/><hi rend="i">Poudingue</hi><note n="89" type="NdA">
 Le mot est francisé ; cependant les dictionnaires font une distinction d’orthographe entre <hi rend="i">pouding</hi>, gâteau, et <hi rend="i">poudingue</hi>, agglomérat de cailloux. J’ai fait prononcer à diverses personnes le mot <hi rend="i">plum-pudding</hi> ; voici les sons entendus : <hi rend="i">Plum, pleum, plome, ploume ; poudigne, poudinegue, poudine, poudingue</hi>. Les combinaisons variables des deux mots donnent seize vocables différents. — La francisation en <hi rend="i">in</hi> serait préférable : Exemple : <hi rend="i">sterlin</hi>, jadis <hi rend="i">esterlin</hi>, pour <hi rend="i">sterling</hi>. NdA
-</note> — Pudding</p>
-        <p/>
-        <p/>
-        <p><hi rend="i">Clube</hi> — Club</p>
-        <p>Tube</p>
-        <p/>
-        <p><hi rend="i">Quirche</hi> — Kirsch <note n="90" type="NdA">
+</note> — Pudding
+        </item>
+
+        <item><hi rend="i">Clube</hi> — Club
+         <lb/>Tube</item>
+        
+        <item><hi rend="i">Quirche</hi> — Kirsch <note n="90" type="NdA">
 Allemand. NdA
-</note></p>
-        <p><hi rend="i">Spiche</hi> — Speech</p>
-        <p>Niche</p>
-        <p/>
-        <p><hi rend="i">Colbaque</hi> — Kolbak <note n="91" type="NdA">
+</note><lb/><hi rend="i">Spiche</hi> — Speech
+        <lb/>Niche</item>
+
+        <item>
+          <hi rend="i">Colbaque</hi> — Kolbak <note n="91" type="NdA">
 Turc. NdA
-</note></p>
-        <p><hi rend="i">Codaque</hi> — Kodak <note n="92" type="NdA">
+</note>
+          <lb/><hi rend="i">Codaque</hi> — Kodak <note n="92" type="NdA">
 ?. NdA
-</note></p>
-        <p>Chabraque</p>
-        <p/>
-        <p><hi rend="i">Railoué</hi> — Railway</p>
-        <p><hi rend="i">Tramoué</hi> — Tramway</p>
-        <p>Avoué</p>
-        <p/>
-        <p><hi rend="i">Ponche</hi> — Punch <note n="93" type="NdA">
+</note>
+        <lb/>Chabraque</item>
+
+        <item>
+          <hi rend="i">Railoué</hi> — Railway
+          <lb/><hi rend="i">Tramoué</hi> — Tramway
+          <lb/>Avoué
+        </item>
+
+        <item><hi rend="i">Ponche</hi> — Punch <note n="93" type="NdA">
 Italien : <hi rend="i">ponce</hi>. — Ou <hi rend="i">ponge</hi>. Cette forme est en effet française depuis le <num>xvii<hi rend="sup">e</hi></num> siècle. On appelait <hi rend="i">ponge</hi>, à la cour du grand roi, ce que nous nommons <hi rend="i">grog</hi>. NdA
-</note></p>
-        <p>Bronche</p>
-        <p/>
-        <p><hi rend="i">Grogue</hi> — Grog</p>
-        <p>Dogue</p>
-        <p/>
-        <p><hi rend="i">Copèque</hi> — Kopeck <note n="94" type="NdA">
+</note><lb/>Bronche</item>
+
+        <item><hi rend="i">Grogue</hi> — Grog<lb/>Dogue</item>
+
+        <item><hi rend="i">Copèque</hi> — Kopeck <note n="94" type="NdA">
 Russe. Italien : <hi rend="i">copecco</hi>. NdA
-</note></p>
-        <p><hi rend="i">Quipesèque</hi> — Keepsake</p>
-        <p/>
-        <p><hi rend="i">Bifetèque, Romestèque</hi><note n="95" type="NdA">
+</note><lb/><hi rend="i">Quipesèque</hi> — Keepsake</item>
+
+        <item><hi rend="i">Bifetèque, Romestèque</hi><note n="95" type="NdA">
 Ces deux mots sont à demi francisés ; les dictionnaires donnent : <hi rend="i">bifteck</hi> et <hi rend="i">romsteck</hi>, formes qui ne sont d’aucune langue. — <hi rend="i">Romestèque</hi> est entré pour la première fois en français au <num>xvii<hi rend="sup">e</hi></num> siècle. C’était le nom d’un jeu de cartes apporté de Hollande (<hi rend="i">la Maison des Jeux</hi>). NdA
-</note> </p>
-        <p>Chèque</p>
-        <p/>
-        <p><hi rend="i">Sloupe</hi> — Sloop</p>
-        <p>Chaloupe</p>
-        <p/>
-        <p><hi rend="i">Spencère</hi> — Spencer</p>
-        <p>Sincère</p>
-        <p/>
-        <p><hi rend="i">Stoque</hi> — Stock</p>
-        <p>Toque</p>
-        <p/>
-        <p><hi rend="i">Stope</hi> — Stop <note n="96" type="NdA">
+</note><lb/>Chèque</item>
+
+        <item><hi rend="i">Sloupe</hi> — Sloop<lb/>Chaloupe</item>
+
+        <item><hi rend="i">Spencère</hi> — Spencer<lb/>Sincère</item>
+
+        <item><hi rend="i">Stoque</hi> — Stock<lb/>Toque</item>
+
+        <item><hi rend="i">Stope</hi> — Stop <note n="96" type="NdA">
 A donné <hi rend="i">stopper</hi>, bien francisé. NdA
-</note></p>
-        <p>Chope</p>
-        <p/>
-        <p><hi rend="i">Lunche</hi> — Lunch <note n="97" type="NdA">
+</note><lb/>Chope</item>
+
+        <item><hi rend="i">Lunche</hi> — Lunch <note n="97" type="NdA">
 <hi rend="i">Embruncher</hi>, terme de maçonnerie. NdA
-</note></p>
-        <p>Embrunche</p>
-        <p/>
-        <p>Chacot — Shako</p>
-        <p>Tricot</p>
-        <p/>
-        <p><hi rend="i">Coltare</hi> — Coaltar</p>
-        <p>Tare</p>
-        <p/>
-        <p><hi rend="i">Stoute</hi> — Stout</p>
-        <p>Toute</p>
-        <p/>
-        <p><hi rend="i">Strasse</hi> — Strass</p>
-        <p>Strasse <note n="98" type="NdA">
+</note><lb/>Embrunche</item>
+
+        <item>Chacot — Shako<lb/>Tricot</item>
+
+        <item><hi rend="i">Coltare</hi> — Coaltar<lb/>Tare</item>
+        
+        <item><hi rend="i">Stoute</hi> — Stout<lb/>Toute</item>
+        
+        <item><hi rend="i">Strasse</hi> — Strass<lb/>Strasse <note n="98" type="NdA">
 <hi rend="i">Bourre</hi>, terme de métier. NdA
-</note></p>
-        <p/>
-        <p><hi rend="i">Carrique</hi> — Carrick</p>
-        <p>Barrique</p>
-        <p/>
+</note></item>
+
+        <item><hi rend="i">Carrique</hi> — Carrick<lb/>Barrique</item>
+        </list>
+        
         <p>On sait que le français du Canada a subi l’influence de l’anglais. Cette pénétration, d’ailleurs réciproque <note n="99" type="NdA">
 Les Anglo-Canadiens jouent au cricket, par exemple, sous le nom de <hi rend="i">Lacrosse-game</hi>. NdA
 </note>, est beaucoup moins profonde qu’on ne le croit et notre langue garde, au-delà des mers, avec sa force d’expansion, sa vitalité créatrice et un pouvoir remarquable d’assimilation. Des mots qu’elle a empruntés à l’anglais, les uns, demeurés à la surface de la langue, ont conservé leur forme étrangère ; les autres, en grand nombre, ont été absorbés, sont devenus réellement français. Il serait même souvent impossible de reconnaître leur origine, sans documents historiques. C’est ainsi que <hi rend="i">township</hi> est devenu <hi rend="i">trompechipe</hi> ; <hi rend="i">Sommerset, Sainte-Morisette</hi> ; <hi rend="i">Standford, Sainte-Folle</hi>. On ne peut guère pousser plus loin l’absorption ; les syllabes anglaises, surtout pour les deux noms propres, n’ont vraiment été qu’un prétexte sonore à composer des mots agréables. Voici quelques déformations moins hardies et qui pourront, mieux encore que le précédent tableau, nous servir de guide en des circonstances analogues. On y a compris les mots dont la déformation, invisible pour les yeux, est cependant réelle puisque les Canadiens les prononcent à la française. <note n="67" type="NdE">
 La série de mots anglais francisés qui suit a été trouvée par Gourmont dans l’ouvrage d’Oscar Dunn <hi rend="i">Glossaire franco-canadien et vocabulaire de locutions vicieuses usitées au Canada</hi>, Québec, A. Côté, 1880. NdE
 </note></p>
-        <p rend="i">Bacon</p>
-        <p rend="i">Bargain</p>
-        <p rend="i">Postage</p>
-        <p rend="i">Coercion</p>
-        <p rend="i">Drive</p>
-        <p rend="i">Driver</p>
-        <p rend="i">Drave</p>
-        <p rend="i">Shirting</p>
-        <p rend="i">Bother</p>
-        <p rend="i">Boat</p>
-        <p rend="i">Promissory</p>
-        <p rend="i">Boom</p>
-        <p rend="i">Bun</p>
-        <p rend="i">Log</p>
-        <p rend="i">Runner</p>
-        <p rend="i">Safe</p>
-        <p rend="i">Shave</p>
-        <p rend="i">Shaver</p>
-        <p rend="i">Shape</p>
-        <p rend="i">Clear</p>
-        <p rend="i">Copper</p>
-        <p rend="i">Copy</p>
-        <p rend="i">Tea-Board</p>
-        <p rend="i">Cook</p>
-        <p rend="i">Voter</p>
-        <p rend="i">Grocer</p>
-        <p rend="i">Grocery</p>
-        <p rend="i">Rail</p>
-        <p rend="i">Sample</p>
-        <p rend="i">Yoke</p>
-        <p rend="i">Neck-Yoke</p>
-        <p rend="i">Peppermint</p>
-        <p rend="i">Pudding</p>
-        <p/>
-        <p rend="i">Bacon</p>
-        <p rend="i">Bargain</p>
-        <p rend="i">Postage</p>
-        <p rend="i">Coercion</p>
-        <p rend="i">Drave</p>
-        <p rend="i">Draver</p>
-        <p rend="i">Draveur</p>
-        <p rend="i">Cheurtine</p>
-        <p rend="i">Chatine</p>
-        <p rend="i">Bâdrer</p>
-        <p rend="i">Baute</p>
-        <p rend="i">Promissoire</p>
-        <p rend="i">Bôme</p>
-        <p rend="i">Bonne</p>
-        <p rend="i">Logue</p>
-        <p rend="i">Ronneur</p>
-        <p rend="i">Saîfe</p>
-        <p rend="i">Séhver</p>
-        <p rend="i">Shéveur</p>
-        <p rend="i">Shaipe</p>
-        <p><hi rend="i">Clairer</hi> (ce verbe a pris plusieurs des sens de <hi rend="i">to clear, to clear up</hi>, etc.)</p>
-        <p rend="i">Coppe</p>
-        <p rend="i">Copie</p>
-        <p rend="i">Thébord</p>
-        <p rend="i">Couque</p>
-        <p rend="i">Voteur</p>
-        <p rend="i">Groceur</p>
-        <p rend="i">Grocerie</p>
-        <p rend="i">Rèle</p>
-        <p rend="i">Simple</p>
-        <p rend="i">Iouque</p>
-        <p rend="i">Néquiouque</p>
-        <p rend="i">Papermane</p>
-        <p rend="i">Poutine</p>
-        <p/>
-        <p>Lard</p>
-        <p>Marché</p>
-        <p>Frais de port</p>
-        <p>Coercition</p>
-        <p>Flotter</p>
-        <p>Flotteur</p>
-        <p>Flottage du bois</p>
-        <p>Toile</p>
-        <p>Ennuyer, raser</p>
-        <p>Bateau</p>
-        <p>Barrage</p>
-        <p>Brioche</p>
-        <p>Tronc d’arbre</p>
-        <p>Coureur</p>
-        <p>Coffer-fort <note n="100" type="NdA">
+        <table>
+          <row>
+            <cell rend="i">Bacon</cell>
+            <cell rend="i">Bacon</cell>
+            <cell>Lard</cell>
+          </row>
+          <row>
+            <cell rend="i">Bargain</cell>
+            <cell rend="i">Bargain</cell>
+            <cell>Marché</cell>
+          </row>
+          <row>
+            <cell rend="i">Postage</cell>
+            <cell rend="i">Postage</cell>
+            <cell>Frais de port</cell>
+          </row>
+          <row>
+            <cell rend="i">Coercion</cell>
+            <cell rend="i">Coercion</cell>
+            <cell>Coercition</cell>
+          </row>
+          <row>
+            <cell rend="i">Drive
+            <lb/>Driver
+            <lb/>Drave
+            </cell>
+            <cell rend="i">Drave
+              <lb/>Draver
+              <lb/>Draveur
+            </cell>
+            <cell>Flotter
+              <lb/>Flotteur
+              <lb/>Flottage du bois
+            </cell>
+          </row>
+          <row>
+            <cell rend="i">Shirting</cell>
+            <cell rend="i">Cheurtine<lb/>Chatine</cell>
+            <cell>Toile</cell>
+          </row>
+          <row>
+            <cell rend="i">Bother</cell>
+            <cell rend="i">Bâdrer</cell>
+            <cell>Ennuyer, raser</cell>
+          </row>
+          <row>
+            <cell rend="i">Boat</cell>
+            <cell rend="i">Baute</cell>
+            <cell>Bateau</cell>
+          </row>
+          <row>
+            <cell rend="i">Promissory</cell>
+            <cell rend="i">Promissoire</cell>
+          </row>
+          <row>
+            <cell rend="i">Boom</cell>
+            <cell rend="i">Bôme</cell>
+            <cell>Barrage</cell>
+          </row>
+          <row>
+            <cell rend="i">Bun</cell>
+            <cell rend="i">Bonne</cell>
+            <cell>Brioche</cell>
+          </row>
+          <row>
+            <cell rend="i">Log</cell>
+            <cell rend="i">Logue</cell>
+            <cell>Tronc d’arbre</cell>
+          </row>
+          <row>
+            <cell rend="i">Runner</cell>
+            <cell rend="i">Ronneur</cell>
+            <cell>Coureur</cell>
+          </row>
+          <row>
+            <cell rend="i">Safe</cell>
+            <cell rend="i">Saîfe</cell>
+            <cell>Coffer-fort <note n="100" type="NdA">
 Sens particulier du mot francisé. <hi rend="i">Saîfe</hi>, et il en est de même des autres mots, n’a qu’une des significations du mot anglais <hi rend="i">safe</hi>. La naturalisation limite à un seul les pouvoirs divers et souvent nombreux d’un mot. <hi rend="i">Smart</hi>, qui veut dire en anglais, selon les cas, alerte, souple, habile, fin, actif, intrigant, roué, élégant, etc. a perdu en français, du moment qu’on a voulu l’y introduire, toutes ces valeurs, pour en gagner une seule, vague et très certainement passagère. NdA
-</note></p>
-        <p>Raser, usurier, forme <note n="101" type="NdA">
+</note></cell>
+          </row>
+          <row>
+            <cell rend="i">Shave<lb/>Shaver<lb/>Shape</cell>
+            <cell rend="i">Séhver<lb/>Shéveur<lb/>Shaipe</cell>
+            <cell>Raser<lb/> usurier<lb/> forme <note n="101" type="NdA">
 La vraie déformation serait <hi rend="i">chaipe, chèver, chèveur</hi>. Il n’y a pas de <hi rend="i">sh</hi> en français. NdA
-</note></p>
-        <p>Sou</p>
-        <p>Exemplaire</p>
-        <p>Cabaret</p>
-        <p>Cuisinier</p>
-        <p>Électeur</p>
-        <p>Épicier</p>
-        <p>Épicerie</p>
-        <p>Rail <note n="102" type="NdA">
-On se sert plus communément du mot français <hi rend="i">lisse</hi>. Egalement, pour <hi rend="i">wagon</hi> et <hi rend="i">tramway</hi>, les Canadiens disent <hi rend="i">char</hi>. NdA
-</note></p>
-        <p>Échantillon</p>
-        <p>Joug</p>
-        <p>Menthe</p>
-        <p>Poudingue</p>
-        <p/>
+</note></cell>
+          </row>
+          <row>
+            <cell rend="i">Clear</cell>
+            <cell><hi rend="i">Clairer</hi> (ce verbe a pris plusieurs des sens de <hi rend="i">to clear, to clear up</hi>, etc.)</cell>
+          </row>
+          <row>
+            <cell rend="i">Copper</cell>
+            <cell rend="i">Coppe</cell>
+            <cell>Sou</cell>
+          </row>
+          <row>
+            <cell rend="i">Copy</cell>
+            <cell rend="i">Copie</cell>
+            <cell>Exemplaire</cell>
+          </row>
+          <row>
+            <cell rend="i">Tea-Board</cell>
+            <cell rend="i">Thébord</cell>
+            <cell>Cabaret</cell>
+          </row>
+          <row>
+            <cell rend="i">Cook</cell>
+            <cell rend="i">Couque</cell>
+            <cell>Cuisinier</cell>
+          </row>
+          <row>
+            <cell rend="i">Voter</cell>
+            <cell rend="i">Voteur</cell>
+            <cell>Électeur</cell>
+          </row>
+          <row>
+            <cell rend="i">Grocer</cell>
+            <cell rend="i">Groceur</cell>
+            <cell>Épicier</cell>
+          </row>
+          <row>
+            <cell rend="i">Grocery</cell>
+            <cell rend="i">Grocerie</cell>
+            <cell>Épicerie</cell>
+          </row>
+          <row>
+            <cell rend="i">Rail</cell>
+            <cell rend="i">Rèle</cell>
+            <cell>Rail <note n="102" type="NdA">
+              On se sert plus communément du mot français <hi rend="i">lisse</hi>. Egalement, pour <hi rend="i">wagon</hi> et <hi rend="i">tramway</hi>, les Canadiens disent <hi rend="i">char</hi>. NdA
+            </note></cell>
+          </row>
+          <row>
+            <cell rend="i">Sample</cell>
+            <cell rend="i">Simple</cell>
+            <cell>Échantillon</cell>
+          </row>
+          <row>
+            <cell rend="i">Yoke<lb/>Neck-Yoke</cell>
+            <cell rend="i">Iouque<lb/>Néquiouque</cell>
+            <cell>Joug</cell>
+          </row>
+          <row>
+            <cell rend="i">Peppermint</cell>
+            <cell rend="i">Papermane</cell>
+            <cell>Menthe</cell>
+          </row>
+          <row>
+            <cell rend="i">Pudding</cell>
+            <cell rend="i">Poutine</cell>
+            <cell>Poudingue</cell>
+          </row>
+        </table>
         <p>Ces listes suffiront ; on n’a voulu donner que des indications. C’est une clef que l’on peut compléter et alors consulter lorsqu’on aura un doute sur la forme française que doit revêtir le mot étranger. Si le mot se refuse à la naturalisation, il faut l’abandonner résolument, le traduire ou lui chercher un équivalent. Très souvent, après une brève réflexion, on le jugera tout à fait inutile : <hi rend="i">steamer</hi> est un doublet infiniment puéril de <hi rend="i">vapeur</hi> ; et quel besoin de <hi rend="i">smoking-room</hi> pour un parler qui possède <hi rend="i">fumoir</hi> ou de <hi rend="i">skating</hi>, quand, comme au Canada, il pourrait dire patinoir <note n="103" type="NdA">
 Quant aux noms propres historiques ou géographiques, il faut, je crois, s’en rapporter à l’usage. Un géographe a conseillé de conserver aux noms de lieu leur orthographe nationale, d’écrire <hi rend="i">London, Kœln, Firenze, Tong-King</hi>, et aussi sans doute d’apprendre au moins la prononciation de toutes les langues du globe. Cet estimable savant ne prend pas garde que la nomenclature française est internationale et que tous les noms géographiques dont la notoriété est européenne ne sont populaires que sous leur nom français. Les atlas anglais disent comme nous : Cologne, Florence, Turin, Rome, Naples, <hi rend="i">Venice</hi>, Mayence, Aix-la-Chapelle. NdA
 </note> ? C’est un devoir strict envers notre langue de n’ouvrir les portes sévères de son vocabulaire qu’à des termes nouveaux qui apportent avec eux une idée nouvelle et qui prennent au dépourvu nos propres ressources linguistiques.</p>
@@ -1178,59 +1254,63 @@ Au tome II de son <hi rend="i">Origine et formation de la langue française</hi>
 </note>.</p>
           <p>Nous disons <hi rend="i">statue</hi> par politesse et par peur ; pour ne pas contrarier nos maîtres et pour ne pas déchoir dans l’estime de nos contemporains. Mais dès que la politesse ou la peur n’ont plus de prises sur nous, nous disons <hi rend="i">estatue</hi> avec délices. C’est pourquoi je voudrais passer en revue presque toutes ces trois cents déformations et me rendre compte si, dans tous les cas, le déformateur est bien du côté que croit M. Deschanel, avec tout le monde et avec le précieux Anonyme.</p>
           <p>Il ne s’agit pas de contester l’usage (l’usage est comme l’âme et la vie des mots, dit encore Vaugelas), ni de donner de pernicieux conseils : l’Anonyme a toujours raison ; il s’agit seulement de montrer que la déformation est beaucoup moins capricieuse que ne le croient les professeurs d’orthographe.</p>
-          <p rend="i">Estatue</p>
+          <label rend="center i">Estatue</label>
           <p>Aucun mot français véritable, c’est-à-dire d’origine populaire, ne commence par <hi rend="i">st, sc, sp</hi>, non plus que deux consonnes quelconques, à l’exception des liquides <hi rend="i">l, r</hi> précédées de <hi rend="i">b, c, g, p</hi>, etc. Pour <hi rend="i">st</hi> en particulier, tous les mots de cette sorte venus de l’italien ont pris la forme initiale <hi rend="i">est</hi>, à l’exception de <hi rend="i">stance, stuc</hi> et <hi rend="i">stylet</hi>, qui ne descendirent jamais, ou descendirent trop tard, à l’usage populaire : <note n="107" type="NdE">
 Ce phénomène du <hi rend="i">e</hi> prothétique est décrit par Albin Chevallet qui le nomme « la prosthèse » : « Les Espagnols, les Français du Midi ainsi que ceux du Nord éprouvent une certaine difficulté à prononcer <hi rend="i">sc, sp, st</hi>, au commencement des mots, bien que ces doubles consonnes paraissent avoir été d’une prononciation très-facile pour les Grecs et pour les Latins, facilité dont les Italiens ont hérité. En espagnol, en provençal et en français, on ajoute une voyelle initiale, généralement <hi rend="i">e</hi>, aux primitifs latins commençant par <hi rend="i">sc, sp, st</hi>, afin de rendre la prononciation plus claire, plus distincte, plus nette, plus facile. » (Albin Chevallet, <hi rend="i">Origine et formation de la langue française</hi>, tome II, Imprimerie Impériale, 1853, p. 122). Gourmont va citer abondamment cet auteur dans les pages qui suivent. Albin de Chevallet (1812-1858) est un philologue français. Son principal ouvrage, <hi rend="i">Origine et formation de la langue française</hi>, associe plusieurs projets : décrire l’origine de la langue française et l’étymologie, la formation des mots et les changements de sens, sans mettre en œuvre les principes de la linguistique historique et comparée. Voir Jacques Chaurand, « L'histoire de la langue avant Brunot : <hi rend="i">Origine et formation de la langue française</hi> d’Albin de Chevallet [1858] », <hi rend="i">Au bonheur des mots</hi>, Mélanges en l’honneur de Gérald Antoine, Presses Universitaires de Nancy, 1984. NdE
 </note></p>
-          <p><hi rend="i">Stoccata</hi> Estocade</p>
-          <p><hi rend="i">Saffetta</hi> Estafette</p>
-          <p><hi rend="i">Staffiere</hi> Estafier</p>
-          <p><hi rend="i">Staffilata</hi> Estafilade</p>
-          <p><hi rend="i">Stampa</hi> Estampe</p>
-          <p><hi rend="i">Strada</hi> Estrade (route, batteur d’estrade)</p>
-          <p><hi rend="i">Strato</hi> Estrade (plancher)</p>
-          <p><hi rend="i">Stramazzone</hi> Estramaçon</p>
-          <p><hi rend="i">Steccata</hi> Estacade</p>
-          <p><hi rend="i">Stroppiare</hi> Estropier.</p>
+          <list>
+          <item><hi rend="i">Stoccata</hi> Estocade</item>
+          <item><hi rend="i">Saffetta</hi> Estafette</item>
+          <item><hi rend="i">Staffiere</hi> Estafier</item>
+          <item><hi rend="i">Staffilata</hi> Estafilade</item>
+          <item><hi rend="i">Stampa</hi> Estampe</item>
+          <item><hi rend="i">Strada</hi> Estrade (route, batteur d’estrade)</item>
+          <item><hi rend="i">Strato</hi> Estrade (plancher)</item>
+          <item><hi rend="i">Stramazzone</hi> Estramaçon</item>
+          <item><hi rend="i">Steccata</hi> Estacade</item>
+          <item><hi rend="i">Stroppiare</hi> Estropier.</item>
+          </list>
           <p>Ces mots ne sont pas de formation populaire originale ; ils ont seulement été remaniés par le peuple à mesure qu’ils arrivaient à sa portée. La vraie formation populaire se trouve dans les mots de cette sorte venus anciennement du latin : <hi rend="i">esturgeon</hi>, de <hi rend="i">sturionem</hi> ; <hi rend="i">estragon</hi>, de <hi rend="i">draconem</hi> ; <hi rend="i">étape</hi> (autrefois <hi rend="i">estaple</hi>), de <hi rend="i">stapula</hi>, flamand <hi rend="i">stapel</hi> ; <hi rend="i">étain</hi> (autrefois <hi rend="i">estain</hi>), de <hi rend="i">stannum</hi> ou <hi rend="i">stagnum</hi>. Dès le <num>v<hi rend="sup">e</hi></num> siècle, on relève dans les inscriptions de la Gaule : <hi rend="i">iscala, ispiritus, ispes, ischola, istudium</hi>, etc. <note n="117" type="NdA">
 Le Blant, <hi rend="i">Epigraphie</hi>. NdA
 </note>.</p>
           <p/>
           <p>Celui qui dit : des <hi rend="i">estampes</hi> et des <hi rend="i">estatues</hi> parle-t-il plus mal, en théorie, que celui qui dirait : des <hi rend="i">stampes</hi> et des <hi rend="i">statues</hi> ?</p>
-          <p rend="i">Fanferluche, Palfernier, Pimpernelle. Sersifis.</p>
+          <label rend="center i">Fanferluche, Palfernier, Pimpernelle. Sersifis.</label>
           <p>Le trait commun aux trois premiers de ces mots populaires c’est la transposition de l’<hi rend="i">r</hi> et de l’<hi rend="i">e, re</hi> devenu <hi rend="i">er</hi> <note n="108" type="NdE">
 A. Chevallet écrit : « La transposition ou métathèse est une modification du son des mots, par laquelle les lettres d’un dérivé sont placées dans un ordre différent de celui qu’elles avaient dans le primitif ; <hi rend="i">turbidulus</hi> a donné <hi rend="i">trouble</hi> ; <hi rend="i">pro</hi> est devenu <hi rend="i">por</hi>. […] Les linguales R et L, produites par le plus mobile des organes, sont elles-mêmes mobiles comme 1’organe qui sert à leur formation. La facilité avec laquelle ces consonnes se déplacent fait que l’on peut conserver la lettre, tout en se soumettant aux exigences de l’euphonie, ou bien en faisant la part à la force, à la netteté, à la facilité, à la rapidité de la prononciation. » (<hi rend="i">Origine et formation de la langue française</hi>, t.II, p. 118-119). NdE
 </note>. C’est le contre-courant de la tendance normale, qui est le changement de <hi rend="i">er</hi> en <hi rend="i">re. Berbis</hi>, latin <hi rend="i">berbicem</hi>, a donné <hi rend="i">brebis</hi> ; <hi rend="i">beryllare</hi> a donné <hi rend="i">briller. Fanfreluche</hi> vient de l’italien <hi rend="i">fanfalucca</hi> ; <hi rend="i">palefrenier</hi>, de <hi rend="i">paraveredus</hi> ; <hi rend="i">pimprenelle</hi>, de <hi rend="i">pimpinella</hi>. Ils devraient donc être : <hi rend="i">fanfeluche, palefredier</hi> et <hi rend="i">pimpenelle</hi> <note n="109" type="NdE">
 Les mots <hi rend="i">fanfreluche</hi> et <hi rend="i">pimprenelle</hi> sont cités dans l’ouvrage de Chevallet, <hi rend="i">op. cit</hi>., p. 119. NdE
 </note> ; les trois formes correctes sont des corruptions.</p>
           <p>Quant à <hi rend="i">sersifis</hi> pour <hi rend="i">salsifis</hi>, l’original étant l’italien <hi rend="i">sassefrica</hi>, le mot le plus déformé est évidemment celui qui a passé dans la langue générale. <hi rend="i">Sersifis</hi> n’est pas plus irrégulier que <hi rend="i">breuvage</hi>, de <hi rend="i">biberaticum</hi>, ou <hi rend="i">frange</hi>, de <hi rend="i">fimbria. Salsifis</hi> est sans doute plus récent que <hi rend="i">sersifis</hi> ; on y trouve, comme dans les mots suivants, <hi rend="i">l</hi> remplaçant <hi rend="i">r</hi>.</p>
-          <p rend="retraitcorpsdetexte i">Angola. Colidor. Flanquette.</p>
+          <label rend="center i">Angola. Colidor. Flanquette.</label>
           <p>Ainsi l’italien <hi rend="i">garbo</hi> a donné <hi rend="i">garbe</hi> <note n="110" type="NdE">
 <hi rend="i">garbe</hi> est un italianisme dont l’altération a donné <hi rend="i">galbe</hi>. Le mot signifie grâce physique. « Et monstroit à son port quel sang le concevoit, / Tant la garbe de prince au visage il avoit. » (Ronsard, « Le Bocage Royal »). NdE
 </note>, encore employé par Ronsard, lequel est devenu <hi rend="i">galbe</hi> ; ainsi <hi rend="i">bureter</hi> est devenu <hi rend="i">buleter</hi>, puis <hi rend="i">bluter</hi> ; ainsi <hi rend="i">carandrion, calandre</hi> ; <hi rend="i">peregrinus, pèlerin</hi>, etc.</p>
           <p>Angola est la déformation naturelle de <hi rend="i">Angora</hi> <note n="111" type="NdE">
 « Je vais donner un certain nombre d’exemples de changements du même genre que le peuple fait subir à nos mots français. Le lecteur pourra se convaincre par ces exemples que dans notre langue, livrée aux instincts populaires, les permutations des consonnes s’accomplissent le plus généralement d’après les lois que j’ai précédemment établies. A Paris et dans ses environs, le peuple dit : selon les <hi rend="i">Omnibus</hi> du langage : chat angola, pour chat angora, fièvre célébrale, pour fièvre cérébrale ; colidor pour corridor ; flanquette pour à la bonne franquette… » (<hi rend="i">Ibid</hi>., p. 78). NdE
 </note>. Tout le monde connaît le titre du petit roman écrit au dernier siècle, <hi rend="i">Angola, histoire indienne.</hi></p>
-          <p rend="i">Nentilles. Esquilancie</p>
+          <label rend="center i">Nentilles. Esquilancie</label>
           <p>Ainsi liveau, latin <hi rend="i">libella</hi>, est devenu <hi rend="i">niveau</hi> ; ainsi <hi rend="i">colucula</hi> a donné <hi rend="i">quenouille</hi> ; ainsi <hi rend="i">marle</hi> de <hi rend="i">margula, pesle</hi>, de <hi rend="i">pessula, posterle</hi>, de <hi rend="i">posterula</hi> sont devenus <hi rend="i">marne, pène, poterne.</hi></p>
           <p>Dans <hi rend="i">esquilancie</hi>, c’est le changement contraire : <hi rend="i">n</hi> est devenu <hi rend="i">l</hi>. Rien de plus raisonnable ; en effet :</p>
-          <p><hi rend="i">Orphaninus</hi> Orphelin</p>
-          <p><hi rend="i">Quaternionem</hi> Carillon</p>
-          <p><hi rend="i">Bononia</hi> Bologne</p>
-          <p><hi rend="i">Intranea</hi> Entrailles</p>
+          <list>
+            <item><hi rend="i">Orphaninus</hi> Orphelin</item>
+            <item><hi rend="i">Quaternionem</hi> Carillon</item>
+            <item><hi rend="i">Bononia</hi> Bologne</item>
+            <item><hi rend="i">Intranea</hi> Entrailles</item>
+          </list>
           <p>L’ancien français <hi rend="i">fanot</hi> est devenu <hi rend="i">falot</hi></p>
-          <p rend="i">Cangrène. Franchipane, Reine-Glaude.</p>
-          <p rend="i">Cintième.</p>
-          <p/>
+          <label rend="center i">Cangrène. Franchipane, Reine-Glaude. Cintième.</label>
           <p>Ce sont des changements :</p>
           <p>1° de <hi rend="i">g</hi> en <hi rend="i">c</hi>. En beaucoup de mots d’origine commune aux trois langues, le <hi rend="i">g</hi> de l’italien et de l’espagnol est représenté en français par un <hi rend="i">c. Crier : gritar, gridare</hi> ; <hi rend="i">Crèche</hi> : ital. <hi rend="i">greppia</hi>. Le <hi rend="i">g</hi> et le <hi rend="i">z</hi> italiens deviennent souvent <hi rend="i">c</hi> en français : <hi rend="i">Gabineto</hi>, cabinet ; <hi rend="i">zagrin</hi> (vénitien), chagrin. Cela se rencontre également au passage du latin au français : <hi rend="i">mergus</hi>, marcotte, anciennement <hi rend="i">margotte</hi>. Il y a un exemple de <hi rend="i">g</hi> latin devenu <hi rend="i">ch : pergamenum</hi>, parchemin.</p>
           <p>2° de <hi rend="i">c</hi> en <hi rend="i">g</hi>. C’est le changement normal ; <note n="112" type="NdE">
 « G et Q devenus G dur  Acutus, aigu ; aquila, aigle ; acer, aigre ; ciconia, cigogne ; craticala, grille ; cicada, cigale ; cicata, ciguë… » (<hi rend="i">Ibid</hi>., p. 104). NdE
 </note></p>
-          <p><hi rend="i">Aquila</hi> Aigle</p>
-          <p><hi rend="i">Ciconia</hi> Cigogne</p>
-          <p><hi rend="i">Cicala</hi> Cigale</p>
-          <p><hi rend="i">Cicuta</hi> Ciguë</p>
+          <list>
+            <item><hi rend="i">Aquila</hi> Aigle</item>
+            <item><hi rend="i">Ciconia</hi> Cigogne</item>
+            <item><hi rend="i">Cicala</hi> Cigale</item>
+            <item><hi rend="i">Cicuta</hi> Ciguë</item>
+          </list>
           <p>Nodier signale la prononciation Glaude <note n="113" type="NdE">
 Charles Nodier écrit dans son <hi rend="i">Examen critique des dictionnaires de la langue française</hi> (1829) : « on a dit que ce mot devait se prononcer comme s’il avait un g pour initiale ; mais on n’a pas observé qu’il est de très bas langage, et que les gens qui parlent mal prononcent mal. Je crois que s’il était français, il faudrait le prononcer comme on l’écrit. » (<hi rend="i">Examen, op. cit.</hi>, p. 113). NdE
 </note> ; tous les dictionnaires, à <hi rend="i">second</hi>, indiquent avec le mot et ses dérivés se disent <hi rend="i">segond</hi> ; <hi rend="i">secret</hi> a eu la même tendance. <note n="114" type="NdE">
@@ -1239,51 +1319,52 @@ Charles Nodier écrit : « Il est vrai que tout le monde dit <hi rend="i">sego
           <p>3° du <hi rend="i">c</hi> dur ou <hi rend="i">q</hi> en <hi rend="i">t</hi>. Il y a des exemples du contraire : <hi rend="i">craindre</hi> vient de <hi rend="i">temere</hi> ; carquois était jadis <hi rend="i">tarquois</hi> venu du grec de Byzance, [mot en caractères grecs] (turc, <hi rend="i">turkash</hi>). Le <hi rend="i">t</hi> pour le <hi rend="i">c</hi> dur se trouve en latin : <hi rend="i">quinque, quintus</hi>, ce qui correspond à la déformation française ; <hi rend="i">taberna</hi> et <hi rend="i">caverna</hi> ; <hi rend="i">torquere, tortura</hi>, l’italien <hi rend="i">busto</hi> a donné <hi rend="i">buste</hi> et <hi rend="i">busc</hi>. En français on peut donner <hi rend="i">tabatière</hi> pour <hi rend="i">tabaquière</hi>, peut-être <hi rend="i">abricotier</hi> pour <hi rend="i">abricoquier</hi> <note n="115" type="NdE">
 « Les paysans des environs de Paris […] disent amikié pour amitié, moikié pour moitié, cafequière pour cafetière, charquier, abricoquier, squier pour charretier, abricotier, setier. À Paris même, certaines gens du peuple disent crapu pour trapu… » (<hi rend="i">Origine, op. cit</hi>., p. 96) . NdE
 </note> et, plus sûrement, la forme populaire parisienne, <hi rend="i">charturier</hi> pour <hi rend="i">charcutier</hi> et l’argot <hi rend="i">patelin</hi> (pays), au <num>xvi<hi rend="sup">e</hi></num> siècle <hi rend="i">pacquelin.</hi></p>
-          <p rend="i">Sesque, Prétexe, Esquis.</p>
+          <label rend="center i">Sesque, Prétexe, Esquis.</label>
           <p>L’<hi rend="i">x</hi> latin se change volontiers en <hi rend="i">sc, sq</hi>, au lieu de <hi rend="i">s</hi> et <hi rend="i">ss. Lâcher</hi>, de <hi rend="i">laxare</hi>, est dans la <hi rend="i">Chanson de Roland</hi> sous la forme <hi rend="i">lasquer</hi> ; <hi rend="i">myxa</hi> a donné <hi rend="i">mesche</hi>, devenu <hi rend="i">mèche.</hi></p>
           <p><hi rend="i">Prétexte</hi>, que le peuple dit <hi rend="i">prétèxe</hi>, deviendra peut-être <hi rend="i">prétesque</hi> ou <hi rend="i">prétesse</hi>. La forme actuelle est particulièrement hostile.</p>
           <p>Rien de plus normal que <hi rend="i">esquis</hi> :</p>
-          <p/>
-          <p><hi rend="i">Exagium</hi> Essai <hi rend="i">Examen</hi> Essaim</p>
-          <p><hi rend="i">Excorrigata</hi> Escourgée <hi rend="i">Axiculum</hi> Essieu</p>
-          <p><hi rend="i">Excussa</hi> Escousse <hi rend="i">Exaurare</hi> Essorer</p>
+          <list>
+            <item><hi rend="i">Exagium</hi> Essai</item>
+            <item><hi rend="i">Examen</hi> Essaim</item>
+            <item><hi rend="i">Excorrigata</hi> Escourgée</item>
+            <item><hi rend="i">Axiculum</hi> Essieu</item>
+            <item><hi rend="i">Excussa</hi> Escousse</item>
+            <item><hi rend="i">Exaurare</hi> Essorer</item>
+          </list>
           <p><hi rend="i">Vermichelle</hi><note n="116" type="NdE">
 « Une transformation semblable s’est opérée de nos jours pour les mots shako, vermicelle, violoncelle. Par égard pour les langues dont ces mots dérivent, on les prononça d’abord chako, vermichelle, violonchelle ; mais, aujourd’hui on dit généralement sako, vermisselle, violoncelle. Ch est resté dans franche, féminin de franc, tandis qu’il a été remplacé par un c doux dans France. » (A. Chevallet, <hi rend="i">Origines, op. cit.</hi>, p. 103)
 </note> </p>
           <p/>
           <p>Exemple d’une forme orale qui s’est transmise intacte, concurremment avec une forme écrite. En effet, l’original italien s’écrit <hi rend="i">vermicelli</hi> et se prononce <hi rend="i">vermichelle</hi> (ou <hi rend="i">tchelle</hi>).</p>
-          <p rend="i">Castrole.</p>
+          <label rend="center i">Castrole.</label>
           <p>Ce mot, en effet très vulgaire, indigna M. Deschanel <note n="117" type="NdE">
 « Le mot ”cassole”, diminutif de ”casse”, poêlon de cuivre (de l’espagnol cazuela, et qui a produit le sous-diminutif ”cassolette”) était en usage dans notre langue au XVI<hi rend="sup">e</hi> siècle. Ambroise Paré (XXV, 44) : ”Battez-les, puis les mettez dedans une cassole sur le feu”. Telle est la forme première. Puis, quand la ”cassole” devint d’un commun usage, le nom s’altéra ; un r d’abord s’y glissa ; on prononça ”cassrole”. Un t s’y introduisit ensuite, du moins dans le parler des gens de cuisine : ”cas/rôle”. Gros barbarisme, par-dessus le petit. » (E. Deschanel, <hi rend="i">Les Déformations, op. cit.</hi>, p. 81). NdE
 </note>. Il se plaint que <hi rend="i">cassole</hi> ait déjà été déformé en <hi rend="i">casserole</hi>, quoique <hi rend="i">cassole</hi> appartienne à une autre série, que <hi rend="i">cassolette</hi> vienne de l’espagnol et que <hi rend="i">casserole</hi> soit un dérivé direct de <hi rend="i">casse</hi>, poêlon. Il y a en français un diminutif en <hi rend="i">role</hi> ; exemples :</p>
-          <p>Ligne <hi rend="i">Lignerole</hi> (Ficelle)</p>
-          <p>Mouche <hi rend="i">Moucherolle</hi> (Oiseau)</p>
-          <p>Museau <hi rend="i">Muserolle</hi> (Partie de la bride)</p>
-          <p>Roux <hi rend="i">Rousserolle</hi> (Fauvette)</p>
-          <p>Fève <hi rend="i">Fèverole</hi></p>
-          <p>Flamme <hi rend="i">Flammerolle</hi></p>
-          <p>Feu <hi rend="i">Furolles</hi> (Feux-follets)</p>
-          <p>Fusée <hi rend="i">Fusarolle</hi>, (Terme d’architect.) <hi rend="i">Fuserolle</hi>, (Terme de tissage)</p>
-          <p>Bande <hi rend="i">Banderole</hi></p>
-          <p>Barque <hi rend="i">Barquerolle</hi> (Petit bateau, coffre, pâtisserie).</p>
-          <p>Bout <hi rend="i">Bouterolle</hi> (Terme de serrur.)</p>
+          <list>
+          <item>Ligne <hi rend="i">Lignerole</hi> (Ficelle)</item>
+          <item>Mouche <hi rend="i">Moucherolle</hi> (Oiseau)</item>
+          <item>Museau <hi rend="i">Muserolle</hi> (Partie de la bride)</item>
+          <item>Roux <hi rend="i">Rousserolle</hi> (Fauvette)</item>
+          <item>Fève <hi rend="i">Fèverole</hi></item>
+          <item>Flamme <hi rend="i">Flammerolle</hi></item>
+          <item>Feu <hi rend="i">Furolles</hi> (Feux-follets)</item>
+          <item>Fusée <hi rend="i">Fusarolle</hi>, (Terme d’architect.) <hi rend="i">Fuserolle</hi>, (Terme de tissage)</item>
+          <item>Bande <hi rend="i">Banderole</hi></item>
+          <item>Barque <hi rend="i">Barquerolle</hi> (Petit bateau, coffre, pâtisserie).</item>
+          <item>Bout <hi rend="i">Bouterolle</hi> (Terme de serrur.)</item>
+          </list>
           <p>A cela on ajoute sans surprise aucune</p>
-          <p/>
           <p>Casse <hi rend="i">Casserole</hi> <note n="118" type="NdA">
 Quant à savoir pourquoi de ces mots les uns ont un <hi rend="i">l</hi> et les autres deux, c’est le secret des grammairiens. NdA
 </note></p>
           <p><hi rend="i">Castrole</hi> n’est pas plus mystérieux. Phonétiquement, <hi rend="i">casserole</hi> équivaut à <hi rend="i">cas’role</hi>. Or une dentale s’intercale normalement entre <hi rend="i">s</hi> et <hi rend="i">r</hi> au passage du latin en français ; c’est ainsi que se sont formés, par l’adjonction d’un <hi rend="i">t</hi> ou d’un <hi rend="i">d</hi>, nombre de mots qui, dans l’original latin, n’ont aucune dentale :</p>
-          <p><hi rend="i">Croistre</hi> Crescere</p>
-          <p>Croître</p>
-          <p><hi rend="i">Ancestre</hi> Antecessor, ancessor</p>
-          <p>Ancêtre</p>
-          <p><hi rend="i">Estre</hi> Essere</p>
-          <p>Etre</p>
-          <p><hi rend="i">Cousdre</hi> Consuere</p>
-          <p>Coudre <note n="118" type="NdE">
+          <p><hi rend="i">Croistre</hi>, Croître : <hi rend="i">Crescere</hi></p>
+          <p><hi rend="i">Ancestre</hi>, Ancêtre : <hi rend="i">Antecessor, ancessor</hi></p>
+          <p><hi rend="i">Estre</hi>, Etre : <hi rend="i">Essere</hi></p>
+          <p><hi rend="i">Cousdre</hi>, Coudre : <hi rend="i">Consuere</hi></p>
+          <p>Le latin faisait ces intercalations de dentales<note n="118" type="NdE">
 « Explosives dentales T, D, introduites dans le corps du mot à la suite de la refluante linguale R  Corylas, coudre, coudrier ; sicera, cidre ; palvis, pulverem, poudre ; absolvere, absoudre… » (A. Chevallet, <hi rend="i">Origine, op. cit</hi>., p. 81). NdE
-</note></p>
-          <p>Le latin faisait ces intercalations de dentales ; on trouve dans les graffiti de Pompéi <hi rend="i">sudit</hi> pour <hi rend="i">suit</hi>, ce qui suppose <hi rend="i">sudere</hi> et <hi rend="i">consudere</hi> pour <hi rend="i">suere</hi> et <hi rend="i">consuere</hi>.</p>
+</note> ; on trouve dans les graffiti de Pompéi <hi rend="i">sudit</hi> pour <hi rend="i">suit</hi>, ce qui suppose <hi rend="i">sudere</hi> et <hi rend="i">consudere</hi> pour <hi rend="i">suere</hi> et <hi rend="i">consuere</hi>.</p>
           <p>Brachet cite : <hi rend="i">tonstrix</hi> pour <hi rend="i">tonsorix</hi> et même <hi rend="i">Istraël</hi> pour <hi rend="i">Israël</hi> <note n="119" type="NdE">
 A. Brachet, <hi rend="i">Dictionnaire étymologique</hi>, p. 51. NdE
 </note>. Il ajoute, ce qui me dispense d’un plus long commentaire : « Le peuple, toujours fidèle à l’instinct, continue cette transformation euphonique et dit <hi rend="i">castrole</hi> pour <hi rend="i">casserole</hi>. »</p>
@@ -1295,28 +1376,30 @@ Tous ces exemples se trouvent dans le <hi rend="i">Dictionnaire étymologique</h
 « Au XVI<hi rend="sup">e</hi> siècle, tandis que les bouchers continuaient de vendre la viande crue, d’autres s’avisèrent d’étaler ”de la viande cuite” (de porc) ; bientôt, ces marchands de chair cuite furent nommés, par abréviation, ”chaircuitiers”. Le mot, sous cette forme première, se dit encore à Genève. Rousseau, dans l’<hi rend="i">Emile</hi>, livre II, le contracte un peu et dit ”chaircutier” ; puis l’usage courant le contracta de nouveau et dit ”charcutier”. » (<hi rend="i">Les Déformations de la langue française, op. cit</hi>., p. 73). Le même exemple est traité par A. Chevallet, <hi rend="i">op. cit.</hi>, p. 341. NdE
 </note></p>
           <p>Cette manière de dire qui a précédé la manière actuelle, et qui est celle que J. -J. Rousseau emploie, est elle-même une déformation de <hi rend="i">chaircuitier</hi>, marchand de <hi rend="i">chair cuite</hi>. Le mot aujourd’hui en usage est assez récent, et récent aussi le verbe <hi rend="i">charcuter</hi>, qui n’a pu être fait qu’à un moment où ses éléments n’avaient plus de sens direct.</p>
-          <p rend="i">Crusocale, Poturon.</p>
+          <label rend="center i">Crusocale, Poturon.</label>
           <p>Tous les traités vous diront que <hi rend="i">y</hi> se transforme naturellement en <hi rend="i">u</hi> ; le bas latin écrit <hi rend="i">bursa</hi> et <hi rend="i">byrsa, crypta</hi> et <hi rend="i">crupta</hi>. Mais nous n’avons plus à différencier <hi rend="i">i</hi> et <hi rend="i">y</hi> et il suffira de noter que l’<hi rend="i">i</hi> latin, lui aussi, s’est changé jadis assez volontiers en <hi rend="i">u</hi> <note n="119" type="NdA">
 « J’ai appelé <hi rend="i">perriches</hi> celles de l’Amérique, pour les distinguer des <hi rend="i">perruches</hi> de l’ancien continent ; ce nom de <hi rend="i">perriche</hi> est assez en usage. » Buffon, <hi rend="i">Lettre à l’abbé Bexon</hi>. NdA
 </note> :</p>
-          <p><hi rend="i">Affiblare</hi> Affubler</p>
-          <p><hi rend="i">Sibilare</hi> Subler <note n="120" type="NdA">
+          <list>
+          <item><hi rend="i">Affiblare</hi> Affubler</item>
+          <item><hi rend="i">Sibilare</hi> Subler <note n="120" type="NdA">
 En bourguignon. Ce « biau marle qui <hi rend="i">subloit</hi> tant haut ». <hi rend="i">Le Pédant Joué</hi>. NdA
-</note></p>
-          <p><hi rend="i">Fimarium</hi> Fumier</p>
-          <p><hi rend="i">Piperata</hi> Purée</p>
-          <p><hi rend="i">Casibula, Casib’la</hi> Chasuble</p>
-          <p><hi rend="i">Zizyphum</hi> Jujube <note n="122" type="NdE">
+</note></item>
+          <item><hi rend="i">Fimarium</hi> Fumier</item>
+          <item><hi rend="i">Piperata</hi> Purée</item>
+          <item><hi rend="i">Casibula, Casib’la</hi> : Chasuble</item>
+          <item><hi rend="i">Zizyphum</hi> Jujube <note n="122" type="NdE">
 Voir A. Chevallet, <hi rend="i">ibid.</hi>, p. 64. NdE
-</note></p>
+</note></item>
+          </list>
           <p>Ce dernier mot est à lui tout seul la justification de nos deux monstres modernes.</p>
-          <p rend="i">Lévier.</p>
+          <label rend="center i">Lévier.</label>
           <p><hi rend="i">Évier</hi> rappelle le lointain moment de la langue où aqua était devenu eve. Dunn, dans son <hi rend="i">Glossaire canadien</hi>, cite la forme agglutinée <hi rend="i">lévier</hi> (pour l’évier) comme champenoise <note n="123" type="NdE">
 Oscar Dunn, <hi rend="i">Glossaire franco-canadien et vocabulaire de locutions vicieuses usitées au Canada, op. cit</hi>., p. 111. NdE
 </note> ; au Canada on dit aussi <hi rend="i">lavier</hi> et même <hi rend="i">lavoir</hi>. L’agglutination de l’article s’est faite sous l’influence de ce dernier mot. Cette corruption curieuse est aujourd’hui répandue à Paris, où le peuple dit le levier. Elle est, on le sait, tout à fait dans les habitudes de la langue <note n="121" type="NdA">
 Voir pages 97 et 187. NdA
 </note>.</p>
-          <p rend="i">Pariure.</p>
+          <label rend="center i">Pariure.</label>
           <p>Excellent mot qui a plusieurs analogues dans la langue. <hi rend="i">Pariure</hi>, pour <hi rend="i">pari</hi>, est tout aussi légitime que <hi rend="i">parure</hi> ou que le vieux français <hi rend="i">parléure</hi>, malheureusement perdu sans compensation. Il y a cinq ou six cents mots en <hi rend="i">ure</hi> dans le dictionnaire ; de quel droit les grammairiens veulent-ils condamner <hi rend="i">pariure</hi> quand ils respectent <hi rend="i">reliure, sciure, pliure</hi> et même <hi rend="i">chiure</hi> de mouches ?</p>
           <p><hi rend="i">Mairerie. Seigneurerie. Chrétienneté.</hi><note n="124" type="NdE">
 Aucun de ces exemples ne figure dans l’ouvrage de Chevallet. NdE
@@ -1325,9 +1408,9 @@ Aucun de ces exemples ne figure dans l’ouvrage de Chevallet. NdE
 Ou du moins il est devenu <hi rend="i">rie</hi>, la finale <hi rend="i">ie</hi> s’ajoutant presque toujours à l’infinitif du verbe. NdA
 </note>.</p>
           <p>Il y a des mots en <hi rend="i">té</hi> de deux sortes : ceux qui viennent directement du latin, <hi rend="i">fierté</hi>, de <hi rend="i">feritatem, chrétienté</hi>, de <hi rend="i">christianitatem</hi> ; et ceux où <hi rend="i">té</hi> est précédé d’un <hi rend="i">e</hi> et qui semblent des formations analogiques postérieures au moyen de l’adjectif féminin. Sauf exceptions, puisque <hi rend="i">puritatem</hi> a donné <hi rend="i">pureté</hi> ; <hi rend="i">chrétienneté</hi> n’est pas plus extraordinaire, mais il est inutile.</p>
-          <p rend="i">Nage. Consulte. Purge.</p>
+          <label rend="center i">Nage. Consulte. Purge.</label>
           <p><hi rend="i">Nage</hi>, pour <hi rend="i">natation</hi> ; <hi rend="i">consulte</hi>, pour <hi rend="i">consultation</hi> ; <hi rend="i">purge</hi>, pour <hi rend="i">purgation</hi> : il suffit d’écrire ces mots successivement pour rejeter les mauvais, — ceux qui sont en usage. Ce sont des substantifs verbaux, comme il y en a des milliers en français. <hi rend="i">Purge</hi> est d’ailleurs resté, comme terme de droit et <hi rend="i">nage</hi> vit dans une locution.</p>
-          <p rend="i">Se revenger. Rancuneux. Enchanteuse. Corrompeur.</p>
+          <label rend="center i">Se revenger. Rancuneux. Enchanteuse. Corrompeur.</label>
           <p/>
           <p>Pour n’être pas admis par les arbitres, ces mots n’en sont pas moins de bonnes formes françaises.</p>
           <p><hi rend="i">Venger</hi> appelle <hi rend="i">revenger.</hi> <note n="125" type="NdE">
@@ -1338,46 +1421,47 @@ Le motif de « la belle Matineuse » déclencha une querelle littéraire où l
 </note></p>
           <p><hi rend="i">Enchanteuse</hi>, qui était inévitable, n’est pas déplaisant. Quant à la logique des féminins attribués aux mots en <hi rend="i">eur</hi>, il suffit de citer <hi rend="i">cantatrice, enchanteresse</hi> et <hi rend="i">chanteuse</hi> pour montrer que, dans cet ordre de finales, la langue se permet toutes ses fantaisies.</p>
           <p><hi rend="i">Corrompeur</hi>, rapproché de <hi rend="i">corrompu</hi>, est très logique.</p>
-          <p rend="i">Regaillardir.</p>
+          <label rend="center i">Regaillardir.</label>
           <p>Au lieu de la forme usitée <hi rend="i">ragaillardir</hi>. Il y a <hi rend="i">rebouter</hi> et <hi rend="i">rabouter</hi> ; <hi rend="i">radoter</hi> fut d’abord <hi rend="i">redoter.</hi> <note n="127" type="NdE">
 A. Brachet, <hi rend="i">Dictionnaire étymologique</hi>, p. 444. NdE
 </note></p>
           <p>Cambuis.</p>
           <p>Richelet (1680) constate que l’on dit du <hi rend="i">buis</hi> et, plus généralement, du <hi rend="i">bouis</hi> ; ces deux formes ont sans doute été aussi en usage pour la finale du mot que le vieux français écrivait <hi rend="i">cambois.</hi></p>
-          <p rend="i">Comparition.</p>
+          <label rend="center i">Comparition.</label>
           <p>Etant donnés <hi rend="i">apparitio</hi> et <hi rend="i">comparitio</hi> il eût été sage de ne pas faire de l’un <hi rend="i">apparition</hi> et de l’autre, <hi rend="i">comparution</hi>. Mais <hi rend="i">comparution</hi> et <hi rend="i">parution</hi>, tout court, que l’on commence à rencontrer, prouvent du moins qu’il n’est pas nécessaire d’être du bas peuple pour changer les <hi rend="i">i</hi> en <hi rend="i">u</hi>.</p>
           <p><hi rend="i">Parution</hi> est le <hi rend="i">poturon</hi> des grammairiens.</p>
-          <p rend="i">Contrevention.</p>
+          <label rend="center i">Contrevention.</label>
           <p>Ne se dit pas. Sans doute, mais dirons-nous <hi rend="i">contrabande, contracarrer, contradire</hi> ?</p>
-          <p rend="i">Coutumace.</p>
+          <label rend="center i">Coutumace.</label>
           <p>Ecrit ainsi, le mot est un peu moins mauvais ; il rentre dans la logique de la vieille langue, au moins pour sa première syllabe :</p>
-          <p><hi rend="i">Constare</hi> Coûter</p>
-          <p><hi rend="i">Consuetudinem</hi> Coutume</p>
-          <p><hi rend="i">Conventum</hi> Couvent <note n="128" type="NdE">
+          <list>
+          <item><hi rend="i">Constare</hi> Coûter</item>
+          <item><hi rend="i">Consuetudinem</hi> Coutume</item>
+          <item><hi rend="i">Conventum</hi> Couvent <note n="128" type="NdE">
 Gourmont puise tous ces exemples dans le <hi rend="i">Dictionnaire étymologique</hi> de Brachet. NdE
-</note></p>
-          <p><hi rend="i">Dinde</hi><note n="129" type="NdE">
+</note></item>
+          </list>
+          <label rend="center i">Dinde<note n="129" type="NdE">
 « L’oiseau domestique qui nous a été apporté de l’Inde ne fut d’abord connu que sous le nom de coq d’Inde, et sa femelle sous celui de poule d’Inde. Leurs petits furent appelés poulets d’Inde plus tard on a dit dinde, et l’on a fait les dérivés dindon, dindonneau. » (A. Chevallet, <hi rend="i">Origine, op. cit</hi>., p. 131). NdE
-</note>, <hi rend="i">Nacre</hi></p>
+</note>, Nacre</label>
           <p>Il est convenu que le premier est exclusivement féminin. Mais comme <hi rend="i">dinde</hi> est l’abrégé de <hi rend="i">coq d’Inde</hi> aussi bien que de <hi rend="i">poule d’Inde</hi>, la décision des grammairiens est un peu hardie. Il est vrai qu’il y a <hi rend="i">dindon</hi>, mais seulement dans les basses-cours. <hi rend="i">Dinde</hi> est un exemple, peut-être unique, de la préposition <hi rend="i">de</hi> s’agglutinant avec un substantif pour former un autre substantif <note n="123" type="NdA">
 Du moins dans la période moderne de la langue. NdA
 </note>.</p>
           <p>Le peuple dit du <hi rend="i">nacre</hi> ; ce mot, qui semble venir du persan <hi rend="i">nakar</hi>, est entré en français par l’intermédiaire de l’espagnol, où il est masculin, <hi rend="i">nacar.</hi></p>
           <p><hi rend="i">e</hi> devenant <hi rend="i">i</hi>. Une des tendances de l’<hi rend="i">e</hi> long latin est de se transformer en <hi rend="i">i</hi>. Déjà, aux temps mérovingiens, on écrivait <hi rend="i">ecclisia, mercidem, possedire, permanire</hi> ; au passage du latin en français, ce fait se retrouve constamment : <hi rend="i">cire (cera), fleurir (florere), raisin (racemus)</hi>. Il se perpétue et le peuple dit : <hi rend="i">fainiant, moriginer, pipie, recipissé, resida, sibile, batiau, siau.</hi> Ce dernier mot n’est pas plus étonnant que <hi rend="i">fabliau</hi>, jadis <hi rend="i">fableau</hi>.</p>
-          <p rend="i"/>
-          <p rend="i">Pomme d’orange. Jardin des Olives.</p>
+          <label rend="center i">Pomme d’orange. Jardin des Olives.</label>
           <p>Les fruits dont les arbres sont inconnus portent le même nom que cet arbre. Dans le nord de la France, il n’y avait jadis qu’un mot pour dire <hi rend="i">orange</hi> et <hi rend="i">oranger, olive</hi> et <hi rend="i">olivier</hi>, et ce mot était celui qui est demeuré pour désigner le fruit. Pomme d’orange, fleur d’orange, plantation de café, jardin des Olives : toutes ces expressions sont fort logiques. Nous disons de même, et sans être blâmés par les grammairiens : noix de coco, noix de kola, fleur de cassis, clou de girofle, etc. Mais il est plus facile de blâmer que d’expliquer et de comprendre.</p>
-          <p rend="i">Bivouaquer.</p>
+          <label rend="center i">Bivouaquer.</label>
           <p><hi rend="i">Bivac</hi>, de l’allemand <hi rend="i">beiwache</hi>, étant devenu bivouac, il est fâcheux que <hi rend="i">bivaquer</hi> ait été arrêté en chemin par la fantaisie des arbitres.</p>
-          <p rend="i">Airé.</p>
+          <label rend="center i">Airé.</label>
           <p>Bien meilleur que <hi rend="i">aéré.</hi> Il faudrait oser s’en servir.</p>
-          <p rend="i">Laideronne.</p>
+          <label rend="center i">Laideronne.</label>
           <p>Par ce féminin, le peuple achève de faire vivre le mot <hi rend="i">laideron.</hi></p>
-          <p rend="i">Fortuné.</p>
+          <label rend="center i">Fortuné.</label>
           <p><hi rend="i">Fortuné</hi> prend le sens de <hi rend="i">riche</hi> ; il suit l’évolution de <hi rend="i">fortune</hi>, et les grammairiens n’y peuvent rien. C’est un barbarisme, disait Nodier en 1828 ; mais les mots qui veulent vivre sont tenaces. <hi rend="i">Incarnat</hi>, que les dictionnaires définissent : entre rose et rouge, ne contenait pour Voltaire que l’idée de <hi rend="i">carnation</hi> : « Votre peau, dit Cunégonde à Candide, est encore plus blanche et d’un incarnat plus parfait que celle de mon capitaine. »</p>
-          <p rend="i">Carbonate.</p>
+          <label rend="center i">Carbonate.</label>
           <p>Voilà des années que les grammairiens font la chasse à ce mot. « Dites : du carbonate de soude ! » De tous les carbonates, un seul est usuel et son usage est constant ; on le tire de la foule, on le spécifie, et avec quelle simplicité de moyens : par un changement de genre. <hi rend="i">La</hi>, au lieu de <hi rend="i">le</hi>, et voilà un mot nouveau, clair, vrai. Il sera dans les dictionnaires avant dix ans.</p>
-          <p rend="i">Jor. Jornal. Ojord’hui.</p>
+          <label rend="center i">Jor. Jornal. Ojord’hui.</label>
           <p>Ce sont des prononciations archaïques.</p>
           <p><hi rend="i">Jour</hi> a d’abord été <hi rend="i">jorn</hi>, puis <hi rend="i">jor</hi> <note n="150" type="NdE">
 Gourmont calque directement A. Brachet qui écrit : « <hi rend="i">Cloporte</hi>, qu’au dix-septième siècle on écrivait encore clausporte, altération de clausporc qui serait la véritable forme  ce mot venant du L. <hi rend="i">clausus porcus</hi> (littéralement porc enfermé, enclos). Pourquoi cette dénomination appliquée au cloporte ? II serait difficile de le dire ; cependant elle est générale ; le cloporte se trouve presque partout désigné par le nom du cochon : les Latins nommaient le cloporte tantôt asellus (petit âne), tantôt porcellio (petit porc) […] les Italiens disent porcellini (proprement : petits cochons) ; il en est de même dans toutes nos provinces ; le cloporte s’appelle en Champagne cochon de saint-Antoine ; en Dauphiné kaion (cochon) ; en Anjou tree (truie)  Tous ces rapprochements ne nous expliquent point la cause de l’appellation ; mais ils en démontrent l’existence. » (<hi rend="i">Dictionnaire étymologique</hi>, p. 140). NdE
@@ -1394,7 +1478,7 @@ Il y a peut-être à ces pluriels, <hi rend="i">œils, ciels</hi>, etc., une rai
           <p><hi rend="i">Ecale</hi> et <hi rend="i">écaille</hi> sont des formes parallèles à <hi rend="i">métal</hi> et <hi rend="i">métail</hi>, entre lesquels on avait voulu aussi faire une distinction <note n="125" type="NdA">
 Victor Hugo, dans un <hi rend="i">erratum</hi> du tome II de la Légende du beau Pécopin : « Le <hi rend="i">métal</hi> est la substance métallique pure ; l’argent est un <hi rend="i">métal</hi>. Le <hi rend="i">métail</hi> est une substance métallique composée ; le bronze est un <hi rend="i">métail.</hi> » Pure imagination. <hi rend="i">Métail</hi> et <hi rend="i">métal</hi> sont des doublets du latin <hi rend="i">metallum</hi>. La forme populaire se retrouve dans <hi rend="i">médaille</hi>, venu de l’italien ; de <hi rend="i">metallia</hi> le vieux français avait tiré <hi rend="i">maille</hi> (monnaie). NdA
 </note>. <hi rend="i">Métail</hi> a disparu.</p>
-          <p rend="i">Maline. Echigner.</p>
+          <label rend="center i">Maline. Echigner.</label>
           <p>L’usage impose <hi rend="i">échiner</hi> et <hi rend="i">maligne</hi> ; il impose aussi <hi rend="i">cligner</hi>, mais <hi rend="i">clin</hi> (d’œil) témoigne qu’à un moment de la langue on a dit <hi rend="i">cliner. Peigne</hi> <note n="132" type="NdE">
 <hi rend="i">Ibid.</hi>, p. 401. NdE
 </note> a d’abord été <hi rend="i">peine. Maline</hi>, qui est dans La Fontaine, est une forme plus ancienne que <hi rend="i">maligne</hi> <note n="133" type="NdE">
@@ -1412,69 +1496,69 @@ Victor Hugo, dans un <hi rend="i">erratum</hi> du tome II de la Légende du beau
           <p>Ces mots sont devenus des adjectifs parmi le peuple <note n="137" type="NdE">
 Deschanel écrit : « Dans les commencements de la langue, on identifiait le substantif et l’adjectif, à volonté : ”La mesure est comble”. ”Un homme hypocondre” ». Il ajoute cette note : « Au reste, cette liberté existe toujours pour qui sait la prendre. Victor Hugo écrit de Bruxelles à sa femme, le 25 février 1852 : ”Le mardi-gras est ici très folâtre et assez farce” ». (<hi rend="i">Les Déformations, op. cit.</hi>, p. 183). NdE
 </note>. Rien de plus normal. Il en est de même de <hi rend="i">colère</hi>. J’ai entendu cette phrase : « Vous avez agi d’une façon <hi rend="i">cruche</hi>. » Le substantif qui implique une idée de qualité, de manière d’être, tend naturellement à devenir un adjectif ; c’est le passage du particulier au général. L’inverse est tout aussi fréquent ; une idée générale de qualité se particularise en substantif : de là des mots comme <hi rend="i">baudet, renard</hi>, qui signifiaient d’abord, <hi rend="i">gai</hi> et <hi rend="i">rusé</hi>. Pour expliquer <hi rend="i">cruche</hi>, il suffit de citer <hi rend="i">bête, butor, andouille, brute, pioche, daim, tourte, jocrisse</hi>, mots qui, avant d’être à la fois des adjectifs et des substantifs, furent d’abord exclusivement des substantifs.</p>
-          <p rend="i">Dompeteur.</p>
+          <label rend="center i">Dompeteur.</label>
           <p>Cette prononciation absurde est un des méfaits de l’orthographe enseignée à des enfants du peuple. On ne sait d’ailleurs où des humanistes ont pris le <hi rend="i">p</hi> dont ils ornèrent ce mot.</p>
           <p/>
           <p>L’ancienne langue disait <hi rend="i">donter</hi>, ce qui représente le latin <hi rend="i">domitare.</hi></p>
-          <p rend="i">Le cheval à mon père.</p>
+          <label rend="center i">Le cheval à mon père.</label>
           <p>C’est une des tristesses des grammairiens que, malgré leurs objurgations, on continue à marquer la possession par <hi rend="i">à</hi> aussi bien que par <hi rend="i">de</hi>. « Ce chien est à moi, dirent des enfants. » Ils autorisent : <hi rend="i">ce cheval est à mon père</hi> ; ils défendent : <hi rend="i">le cheval à mon père</hi>. Hélas ! cette faute remonte exactement au <num>v<hi rend="sup">e</hi></num> siècle, puisqu’on lit sur un marbre de cette époque <hi rend="i">membra ad duos fratres</hi>, pour <hi rend="i">membra duorum fratrum</hi> <note n="127" type="NdA">
 Le Blant, <hi rend="i">Epigraphie</hi>. NdA
 </note>. Voilà un solécisme qui a de belles lettres de noblesse.</p>
-          <p rend="i">Mésentendu.</p>
+          <label rend="center i">Mésentendu.</label>
           <p>Prohibé par les grammairiens, quoique excellent, de même que <hi rend="i">mésaventure, mésetime</hi>, et d’autres.</p>
-          <p rend="i">Perdue.</p>
-          <p rend="i"/>
+          <label rend="center i">Perdue.</label>
           <p>Une langue ressemble à un jardin où il y a des fleurs et des fruits, des feuilles vertes et des feuilles tombées, où, à côté du définitif, il y a la vie, la croissance, le devenir. On a cherché depuis trois siècles à figer ce jardin dans cette attitude contradictoire ; de là, ces incohérences qui permettent de rédiger des grammaires en quatre volumes. Il faut bien justifier <hi rend="i">inclus</hi> et <hi rend="i">exclu, reclus</hi> et <hi rend="i">conclu, incluse</hi> et <hi rend="i">conclue, recluse</hi> et <hi rend="i">exclue</hi>. Je sais : les uns sont des participes français et les autres des adjectifs latins mal francisés. Laissons le peuple dire <hi rend="i">perclue</hi>, puisqu’il le veut bien. La tendance est bonne.</p>
-          <p rend="i">Eclairer. Allumer.</p>
+          <label rend="center i">Eclairer. Allumer.</label>
           <p>On entend assez souvent cette expression qui semble bizarre : <hi rend="i">éclairer le gaz</hi>. Elle nous choque, quoiqu’elle soit identique à <hi rend="i">allumer le gaz</hi>, puisque <hi rend="i">allumer</hi>, c’est <hi rend="i">adluminare</hi>, donner de la lumière à…, comme <hi rend="i">éclairer</hi>, c’est donner de la clarté à… Il est curieux de retrouver, à tant de siècles de distance, la même méthode linguistique aboutissant au même résultat.</p>
-          <p rend="i">A fur et à mesure.</p>
+          <label rend="center i">A fur et à mesure.</label>
           <p>Cette déformation reproduit exactement le latin <hi rend="i">ad forum et ad mensuram</hi>, au prix et à mesure. Ce <hi rend="i">forum</hi> est le même qui figure dans <hi rend="i">forfait</hi>, prix fait, marché fait, <hi rend="i">forum factum.</hi></p>
-          <p rend="i">Secoupe.</p>
+          <label rend="center i">Secoupe.</label>
           <p>Et même <hi rend="i">s’coupe</hi>. Ainsi <hi rend="i">succussare</hi> a donné <hi rend="i">secouer</hi>, qui maintenant est assez souvent <hi rend="i">s’couer. Secourir</hi>, c’est <hi rend="i">succurrere. Soucoupe</hi>, malgré son sens très clair, devait devenir <hi rend="i">secoupe</hi>.</p>
-          <p rend="i">Vous faisez.</p>
+          <label rend="center i">Vous faisez.</label>
           <p>Ceci représente brutalement la tendance de la langue française à ramener tous ses verbes à la première conjugaison <note n="138" type="NdE">
 « On disait, à volonté, émouvoir et émouver. J'ai entendu encore une brave paysanne, dans une petite charrette normande, dire à son bourri en le fouettant : ”Vas-tu t’émouver ?” Sur les quatre conjugaisons françaises, il y en a deux qui sont parfaitement mortes, c’est-à-dire devenues incapables de servir à former des verbes nouveaux. » (<hi rend="i">Ibid.</hi>, p. 68-69). NdE
 </note>. L’Anonyme cite <hi rend="i">agoniser</hi> pour <hi rend="i">agonir</hi> (de sottises) ; il y en a bien d’autres, et on les constaterait surtout dans le langage des enfants. J’ai entendu : <hi rend="i">buver, cuiser, ramper, pleuver, mouler, chuter</hi> pour <hi rend="i">boire, cuire, rompre, pleuvoir, moudre, choir</hi>. Aujourd’hui, il est impossible de créer un verbe français qui ne se conjuge sur <hi rend="i">aimer</hi>. On a abandonné depuis longtemps <hi rend="i">tistre</hi> pour <hi rend="i">tisser, semondre</hi> pour <hi rend="i">semoncer</hi> ; <hi rend="i">imbiber</hi> remplace <hi rend="i">imboire</hi>, qui devient archaïque ; on oublie <hi rend="i">émouvoir</hi> et l’on abuse d’<hi rend="i">émotionner.</hi></p>
-          <p rend="i">Prévu d’avance.</p>
-          <p/>
-          <p>On connaît par ses affiches la société des « Prévoyants de l’Avenir » <note n="139" type="NdE">
+          <label rend="center i">Prévu d’avance.</label>
+           <p>On connaît par ses affiches la société des « Prévoyants de l’Avenir » <note n="139" type="NdE">
 « Et puis, on entasse les pléonasmes : ”S'entr'aider mutuellement”. ”Une panacée universelle”. ”Il est à la dernière extrémité”. ”Un mirage décevant”. ”Un souvenir rétrospectif”. ”Les prévoyants de l’avenir”. L'impropriété des termes, si fréquente aujourd’hui, n’est pas toujours involontaire ; elle est destinée à grandir les choses par l’exagération du langage. » (<hi rend="i">Ibid.</hi>, p. 196). NdE
 </note>. Ce pléonasme apparent s’explique par l’affaiblissement de la signification de certains mots. <hi rend="i">Prévoir</hi> n’a plus un sens absolu pour le peuple ; mais nous-mêmes ne disons-nous pas, sans rougir, <hi rend="i">prédire l’avenir</hi> ?</p>
           <p>C’est encore à ce besoin de renforcement que répondent les expressions : <hi rend="i">monter en haut, dépêchez-vous vite</hi>, et les locutions plus populaires, <hi rend="i">regardez voir, voyez voir</hi>. Vaugelas disait, à propos de certains pléonasmes d’usage, que « la parole n’est pas seulement une image de la pensée, mais la chose même », laquelle se représente d’autant plus nettement que la phrase est plus descriptive de l’acte.</p>
-          <p rend="i">Promener.</p>
+          <label rend="center i">Promener.</label>
           <p>Il y a une tendance à supprimer le pronom réfléchi dans les phrases : je vais me promener, — me coucher, — me baigner, etc. L’expression toute récente, <hi rend="i">se cavaler</hi>, est déjà devenue <hi rend="i">cavaler</hi>. J’entendis hier les enfants abandonnant un camarade dire : <hi rend="i">Cavalons, il nous rejoindra.</hi></p>
           <p>Cependant, Vaugelas écrivait au mot <hi rend="i">promener</hi> : « Tantôt il est neutre, comme quand on dit : Allons promener ; il est allé promener ; je vous enverrai bien promener. » Il est donc possible que la manière populaire de traiter <hi rend="i">promener</hi> soit un archaïsme <note n="128" type="NdA">
 Vaugelas revient souvent ici parce que son livre est toujours précieux. On a suivi l’édition de 1662 : <hi rend="i">Remarques sur la langue française utiles à ceux qui veulent bien parler et bien escrire.</hi> Vaugelas fut un observateur de premier ordre. NdA
 </note>. <note n="140" type="NdE">
 Vaugelas poursuit : « … tantôt neutre-passif comme <hi rend="i">il s’est allé promener, je me promènerai</hi>. » (<hi rend="i">Remarques, op. cit</hi>., p. 144). NdE
 </note></p>
-          <p rend="i">Raisons.</p>
+          <label rend="center i">Raisons.</label>
           <p>Le peuple emploie ce mot, au pluriel, comme synonyme de discussion, difficultés, querelle et même injures. Quelque jour, ce sens passera dans les dictionnaires. <hi rend="i">Mots</hi> et <hi rend="i">paroles</hi> ont également ces mêmes significations, peut-être atténuées.</p>
-          <p rend="i">Voix de Centaure.</p>
+          <label rend="center i">Voix de Centaure.</label>
           <p>C’est un exemple amusant d’étymologie populaire. On exprime par ce terme la tendance du peuple à ramener l’inconnu au connu. <note n="141" type="NdE">
 « Cet homme a une voix de stentor. Cet homme est étourdissant avec sa voix de stentor. Les plus ignorants parmi le peuple disent une voix de Centaure. » (M. Bescherelle, <hi rend="i">Dictionnaire national ou Dictionnaire universel de la langue française</hi>). NdE
 </note></p>
           <p>Il ignore <hi rend="i">Stentor</hi> ; <hi rend="i">centaure</hi> lui est moins étranger : cela suffit pour influencer son oreille, ensuite sa langue. Quel rôle cette habitude a-t-elle joué dans la formation du français ? On n’a jamais tenté de l’établir et cela serait peut-être impossible. Cependant, c’est sans doute ainsi qu’on expliquerait certains mots tels que : <hi rend="i">marjolaine, échalotte, ancolie, érable, camomille, étincelle, licorne</hi>, et d’autres que l’on a signalés parmi ceux qui échappent aux explications phonétiques. Si c’est <hi rend="i">amaracana</hi> qui est l’original de <hi rend="i">marjolaine</hi>, il faut que le mot français ait subi une influence analogue à celle qui a transformé récemment <hi rend="i">olénois</hi> en <hi rend="i">à la noix</hi> et jadis <hi rend="i">galatine</hi> en <hi rend="i">galantine.</hi> Quoi qu’il en soit, voici quelques-unes des explications que se donne à cette heure le peuple, des mots qu’il ne comprend pas :</p>
-          <p>Voix de Centaure (Stentor)</p>
-          <p>Cresson à la noix (Alénois, <hi rend="i">ollenois, orlenois, orléanais</hi>)</p>
-          <p>Dernier adieu (Denier à Dieu)</p>
-          <p>Souguenille (Souquenille)</p>
-          <p>Soupoudrer (Saupoudrer)</p>
-          <p>Trois-pieds (Trépied)</p>
-          <p>Ruelle de veau (Rouelle)</p>
-          <p>Semouille (Semoule)</p>
-          <p>Tête d’oreiller (Taie)</p>
-          <p>Bien découpé (Découplé)</p>
-          <p>Écharpe (Echarde)</p>
+          <list>
+          <item>Voix de Centaure (Stentor)</item>
+          <item>Cresson à la noix (Alénois, <hi rend="i">ollenois, orlenois, orléanais</hi>)</item>
+          <item>Dernier adieu (Denier à Dieu)</item>
+          <item>Souguenille (Souquenille)</item>
+          <item>Soupoudrer (Saupoudrer)</item>
+          <item>Trois-pieds (Trépied)</item>
+          <item>Ruelle de veau (Rouelle)</item>
+          <item>Semouille (Semoule)</item>
+          <item>Tête d’oreiller (Taie)</item>
+          <item>Bien découpé (Découplé)</item>
+          <item>Écharpe (Echarde)</item>
+          </list>
           <p>Cette dernière mutation est due à <hi rend="i">écharper</hi>, verbe qui n’a aucun rapport de sens, ni d’origine, avec <hi rend="i">écharpe</hi> ; mais il en a avec <hi rend="i">charpie</hi>, avec l’idée de déchirer (<hi rend="i">carpire</hi>), par conséquent blesser. Il est donc possible que <hi rend="i">écharpe</hi>, au sens de blessure, soit très ancien.</p>
-          <p rend="i">Venimeux. Vénéneux.</p>
+          <label rend="center i">Venimeux. Vénéneux.</label>
           <p>Le peuple confond ces deux mots, mais sa préférence va au premier, qui est de meilleure lignée. <hi rend="i">Vénéneux</hi>, c’est le latin tout cru, <hi rend="i">venenosus. Venimeux</hi> a été formé de <hi rend="i">venin</hi> ; on commença par <hi rend="i">venineux</hi>, puis le second <hi rend="i">n</hi> s’est dissimilé ; en des parlers provinciaux l’<hi rend="i">n</hi> est devenu <hi rend="i">l</hi> et on dit <hi rend="i">velimeux</hi> ; en italien, il y a deux formes : <hi rend="i">veneno</hi> et <hi rend="i">veleno.</hi></p>
           <p>La répartition des deux mots a été tentée, comme pour <hi rend="i">écaille</hi> et <hi rend="i">écale</hi>, d’après des principes étrangers à la logique linguistique : l’un est bon pour les bêtes ; l’autre, pour les plantes et les minéraux. Ces distinctions sont nécessairement absurdes, la nature étant plus variée que ne peut le concevoir le cerveau d’un grammairien. Nombre de plantes sont <hi rend="i">venimeuses</hi> et nombre d’animaux sont <hi rend="i">vénéneux</hi>, si on s’en rapporte aux définitions des dictionnaires.</p>
           <p>La répartition des mots très voisins de forme se fait lentement et difficilement. Désespérant de jamais sentir la différence trop profonde qu’il y a entre <hi rend="i">colorer</hi> et <hi rend="i">colorier</hi>, le peuple s’en tire en fabricant <hi rend="i">couleurer</hi> qui répond à tous ses besoins dans cet ordre d’idées. Il prendra longtemps encore l’un pour l’autre : <hi rend="i">croire</hi> et <hi rend="i">accroire, envers</hi> et <hi rend="i">revers, coulé</hi> et <hi rend="i">coulis</hi> <note n="129" type="NdA">
 Il s’agit de cuisine. Il y a un autre mot de même son écrit <hi rend="i">coly</hi> par Thévenot (1684) <hi rend="i">couli</hi> par B. de Saint-Pierre et que les anglomanes, ignorant toute la littérature française, ont vulgarisé sous la forme absurde <hi rend="i">coolie</hi> (Cf. le <hi rend="i">Dictionnaire</hi> de Halzfeld). — Voir la note 100
 </note>, <hi rend="i">épurer</hi> et <hi rend="i">apurer, étuvée</hi> et <hi rend="i">étouffée, des fois</hi> et <hi rend="i">parfois, recouvrer</hi> et <hi rend="i">recouvrir, passager</hi> et <hi rend="i">passant, neuf</hi> et <hi rend="i">nouveau, gradé</hi> et <hi rend="i">gradué</hi>, enfin <hi rend="i">autour</hi> et <hi rend="i">alentour</hi>.</p>
           <p>Cette dernière répartition est toute récente et particulièrement arbitraire ; elle a devancé l’usage. A ce propos, il faut noter la certitude plaisante des dictionnaires à cataloguer les mots sous les vieilles rubriques scolastiques, à les figer dans une fonction unique. Cela est très délicat. Les mots sont souvent des signes à tout faire, tantôt verbes et tantôt substantifs, ici adverbes, et là adjectifs ; et à mesure qu’une langue se dépouille, cela devient plus visible. Les mots anglais ont ainsi acquis une très grande liberté d’allures, peut-être parce qu’ils ont été moins tyrannisés qu’en France. Pour <hi rend="i">autour</hi> et <hi rend="i">alentour</hi>, ce ne sont ni des adverbes, ni des prépositions, à moins que n’en soient aussi <hi rend="i">au pied, au fond, au cœur, au bas. Tour</hi> est un substantif et <hi rend="i">entour</hi> un de ses dérivés, comme <hi rend="i">atour</hi> et <hi rend="i">pourtour</hi>. Au lieu de définir et de classifier, les dictionnaires devraient se borner à décomposer de tels mots : <hi rend="i">au tour, à l’entour</hi> ; cela serait plus clair et moins compromettant.</p>
-          <p rend="i">Iniation.</p>
+          <label rend="center i">Iniation.</label>
           <p>Cette déformation d’apparence bizarre, que j’ai recueillie personnellement, est des plus caractéristiques comme preuve de la perpétuité des lois qui ont guidé la création du français. Elle représente le mot <hi rend="i">initiation</hi>, tel que prononcé et écrit à plusieurs reprises (des centaines de fois) par un commis de librairie. C’est tout simplement la règle de la chute du <hi rend="i">t</hi> médial ; avec encore un effort, on aurait un mot pareil à tant de vieux mots français <note n="130" type="NdA">
 Comparez avec <hi rend="i">iniation</hi> l’anglais <hi rend="i">coercion</hi> pour <hi rend="i">coercition</hi>. NdA
 </note></p>
@@ -1484,6 +1568,7 @@ Comparez avec <hi rend="i">iniation</hi> l’anglais <hi rend="i">coercion</hi> 
 L'existence de cet adjectif est peu sûre à cause de l’homonymie et de la fréquente synonymie avec <hi rend="i">chaotique</hi>. NdE
 </note> ; que le mauvais français du peuple est toujours du français et parfois du meilleur français que celui des grammairiens.</p>
         </div>
+      </div>
       </div>
       <div type="chapter">
         <pb/>
@@ -1516,7 +1601,7 @@ L’idée d’habitant des haies, qui se cache dans les haies, subsiste seule da
         <p>Cependant si le cas de <hi rend="i">roitelet</hi> était unique ou rare ; si l’on ne trouvait dans les langues européennes que trois ou quatre exemples de cette sorte, on pourrait imaginer une chanson, un conte, une de ces traditions populaires qui traversent les siècles, les montagnes, et les océans ; mais, au contraire, à la moindre recherche les exemples se multiplient et l’on est forcé de ramener la plupart des causes à une seule, la nécessité psychologique. Quelques-uns de ces phénomènes linguistiques sont moins obscurs ; c’est quand l’objet nommé ou surnommé est très caractéristique de forme ou de couleur : ainsi l’<hi rend="i">able</hi> ou <hi rend="i">ablette (albula)</hi> est dite poisson blanc par les Hollandais, les Anglais, les Polonais : <hi rend="i">witfisch, white hait, bialoryb</hi> ; ainsi le choucabus (à tête ; <hi rend="i">caput</hi>, chabot <note n="134" type="NdA">
 <hi rend="i">Chabot</hi>, poisson à grosse tête, en grec, [mot en caractères grecs] ; en latin <hi rend="i">capito</hi> ; en latin mérovingien, <hi rend="i">cabo</hi>. Cf. chevène ou <hi rend="i">juène</hi> (dialecte de Paris), <hi rend="i">chabot</hi> de rivière. (Voyez <hi rend="i">Essais de Philologie française</hi>, par Antoine Thomas, p. 261, pour la filiation phonétique). On trouve, au <num>xvi<hi rend="sup">e</hi></num> siècle, <hi rend="i">testard, munier, vilain</hi>. NdA
 </note>, caboche) est aussi pour les Allemands, <hi rend="i">kopfkohl</hi>, et pour les Italiens, <hi rend="i">capuccio</hi> ; ainsi le phénicoptère des Grecs, l’oiseau aux ailes de <hi rend="i">flamme</hi>, est pour nous le <hi rend="i">flamant</hi>.</p>
-        <p rend="i">Lézard.</p>
+        <label rend="center i">Lézard.</label>
         <p>M. Michel Bréal, dans sa récente <hi rend="i">Sémantique</hi> <note n="135" type="NdA">
 Page 320. NdA
 </note>, écrit, à propos de la singularité de certaines métaphores : « Si l’on disait qu’il existe un idiome où le même mot qui désigne le lézard signifie aussi un bras musculeux, parce que le tressaillement des muscles sous la peau a été comparé à un lézard qui passe, cette explication serait accueillie avec doute, ou bien croirait-on qu’il est parlé des imaginations de quelque peuple sauvage. Cependant il s’agit du mot latin <hi rend="i">lacertus</hi>, lequel veut dire lézard, et que les poètes ont maintes fois employé pour désigner le bras d’un héros ou d’un athlète. <note n="148" type="NdE">
@@ -1538,14 +1623,13 @@ Les noms populaires du singe, <hi rend="i">babouin, monin, marmot</hi>, ont four
 </note>. A côté du français <hi rend="i">singe-singer</hi>, il y a l’allemand <hi rend="i">affe-nachaffen</hi> ; le suédois <hi rend="i">apa-esterapa</hi> ; le danois <hi rend="i">abe-esterabe</hi> ; le flamand <hi rend="i">aep-waapen</hi> ; l’anglais <hi rend="i">ape-ape</hi> ; l’italien <hi rend="i">scimio-scimiottare</hi> ; le portugais : <hi rend="i">macaco-macaquear</hi> ; le polonais <hi rend="i">malpa-malpowac</hi> ; le grec moderne [mot en caractères grecs]. (singerie). C’est une belle progéniture. « <hi rend="i">Bâton</hi>, dit Brachet, origine inconnue. » C’est assurément le <hi rend="i">petit bât</hi> ; la relation directe entre l’ancien français <hi rend="i">bast</hi> et <hi rend="i">baston</hi> semble évidente. L’Espagnol dit <hi rend="i">basto</hi>, bât, et <hi rend="i">baston</hi>, bâton. Le bâton a été considéré tantôt comme le <hi rend="i">bât</hi>, tantôt comme la bête de somme tout entière ; c’est ce dernier sens qu’il prend lorsqu’on se sert du mot <hi rend="i">bourdon</hi> (latin <hi rend="i">burdonem</hi>), qui est proprement le bardot, variété du mulet. <hi rend="i">Muleta</hi> signifie béquille en espagnol et en portugais, et <hi rend="i">mula</hi>, bâton en italien. Les paysans qui marchent à pied appellent volontiers leur bâton, mon cheval ; plaisanterie qui se retrouve un peu partout. Ainsi, comme on voyait toujours les franciscains marcher à pied, on avait jadis surnommé le bâton des voyageurs <hi rend="i">el caballo de S. Francisco</hi>, en Espagne, et en France, <hi rend="i">la haquenée des Cordeliers</hi> <note n="140" type="NdA">
 Brachet, au mot <hi rend="i">Bourdon</hi>. NdA
 </note>.</p>
-        <p rend="i">Chien, Chenet, Chiendent, Chenille.</p>
+        <label rend="center i">Chien, Chenet, Chiendent, Chenille.</label>
         <p>Le <hi rend="i">chenet</hi> est le petit chien du foyer, <hi rend="i">chiennet</hi> ; le portugais dit <hi rend="i">caes da chamine</hi>, les chiens de la cheminée ; le provençal, <hi rend="i">cafuec</hi>, et l’anglais, <hi rend="i">fire-dog</hi>, le chien du feu ; l’allemand, <hi rend="i">feuerbock</hi>, et le danois, <hi rend="i">ildbuk</hi>, le bouc du feu ; l’espagnol, <hi rend="i">morillo</hi>, le petit Maure du feu, et l’idée est bien espagnole, de faire rôtir éternellement l’ennemi national ; mais il est probable que la métaphore n’est plus comprise, pas plus que celle, plus douce, qui a fait chez nous du chien le fidèle gardien du foyer. Il est possible que le <hi rend="i">fire-dog</hi> des Anglais vienne de France ; le <hi rend="i">bouc</hi> des pays germaniques représentait peut-être une des figures du diable.</p>
         <p><hi rend="i">Chien</hi> (de fusil) ne se retrouve guère qu’en italien, <hi rend="i">cane</hi>, où il s’appliquait déjà au rouet de l’arquebuse ; les Espagnols et les Portugais disent <hi rend="i">petit chat, gatillo, gatilho</hi> ; dans les langues non latines, le <hi rend="i">chien</hi> de fusil est un <hi rend="i">coq</hi> ; allemand, <hi rend="i">hahn</hi> ; hollandais, <hi rend="i">haen</hi> ; danois et luédois ; <hi rend="i">hane</hi> ; polonais, <hi rend="i">kurek</hi>.</p>
         <p>Le nom de la plante appelée <hi rend="i">chiendent</hi>, parce que le chien la mordille volontiers, se retrouve littéralement en allemand, <hi rend="i">hundszahn</hi> ; le danois, le flamand et l’anglais disent herbe au chien, <hi rend="i">hundegroes, hondsgras, dog’s grass</hi>. Le chien a encore donné son nom à la <hi rend="i">chenille</hi>, en latin vulgaire <hi rend="i">canicula</hi>, la petite chienne. Cette manière de voir n’est guère répandue en Europe ; on trouve cependant <hi rend="i">cagnon</hi>, petit chien, dans l’italien dialectal qui fournit aussi <hi rend="i">gata</hi> et <hi rend="i">gattola</hi>, petite chatte. L’idée de <hi rend="i">chat</hi> semble d’abord se retrouver dans le mot anglais si singulier <hi rend="i">caterpillar</hi> ; cela, devient peu probable si l’on rapproche le mot anglais de la forme normande <hi rend="i">carpleuse</hi> (on trouve aussi les variantes <hi rend="i">charpleuse, chapleuse, chaplouse</hi>). En effet <hi rend="i">carpleuse</hi> et <hi rend="i">charpleuse</hi> semblent dérivés de l’ancien verbe <hi rend="i">charpir</hi>, qui nous a légué <hi rend="i">charpie</hi>. La <hi rend="i">charpleuse</hi>, ce serait la faiseuse de charpie, la dépeceuse, et cela qualifie bien la chenille et sa voracité. Mais le français du <num>xvi<hi rend="sup">e</hi></num> siècle est formel ; il dit <hi rend="i">chattepelue</hi> et <hi rend="i">chattepeleuse</hi> <note n="141" type="NdA">
 Hadrianus Junius, Nomenclator ; Francfort, 1596. — Les <hi rend="i">chatons</hi> des arbres sont en anglais <hi rend="i">catkin</hi> et <hi rend="i">cat-tail</hi>. NdA
 </note>. Est-ce une déformation ? Les Portugais l’appellent <hi rend="i">lézard, lagarta</hi> ; pour les Polonais, c’est une <hi rend="i">petite oie, gasienica</hi>. Ces appellations répondent au besoin de transférer les noms d’un animal à l’autre, le plus souvent d’un gros à un petit. Le cloporte en est un exemple amusant, car rien ne ressemble moins à un cochon qu’un cloporte.</p>
-        <p/>
-        <p rend="i">Cloporte.</p>
+        <label rend="center i">Cloporte.</label>
         <p>Son nom est cependant clair ; du moins, malgré la phonétique, il est permis de supposer que <hi rend="i">cloporte</hi> est une altération de <hi rend="i">claus-porc</hi> (<hi rend="i">clausus-porcus</hi>). C’est l’opinion de Brachet. Elle serait bizarre, si la même image ne se retrouvait en plusieurs langues ou dialectes et si le français du <num>xvi<hi rend="sup">e</hi></num> siècle ne nous donnait la forme inattendue <hi rend="i">closeporte</hi>, déformation à laquelle correspond peut-être le vieux hollandais <hi rend="i">dorworm. Porcellio</hi> est un des noms latins du <hi rend="i">cloporte</hi> ; c’est le nom populaire opposé à <hi rend="i">oniscus</hi> ; en Italie on appelle aussi les cloportes, <hi rend="i">porcellini</hi>, les petits cochons ; en Champagne, c’est : <hi rend="i">cochon de S. Antoine</hi> ; en Dauphiné : <hi rend="i">kaïon</hi> (cochon), et en Anjou : <hi rend="i">tree</hi> (truie) <note n="150" type="NdE">
 Gourmont calque directement A. Brachet qui écrit : « <hi rend="i">Cloporte</hi>, qu’au dix-septième siècle on écrivait encore clausporte, altération de clausporc qui serait la véritable forme  ce mot venant du L. <hi rend="i">clausus porcus</hi> (littéralement porc enfermé, enclos). Pourquoi cette dénomination appliquée au cloporte ? II serait difficile de le dire ; cependant elle est générale ; le cloporte se trouve presque partout désigné par le nom du cochon : les Latins nommaient le cloporte tantôt asellus (petit âne), tantôt porcellio (petit porc) […] les Italiens disent porcellini (proprement : petits cochons) ; il en est de même dans toutes nos provinces ; le cloporte s’appelle en Champagne cochon de saint-Antoine ; en Dauphiné kaion (cochon) ; en Anjou tree (truie)  Tous ces rapprochements ne nous expliquent point la cause de l’appellation ; mais ils en démontrent l’existence. » (<hi rend="i">Dictionnaire étymologique</hi>, p. 140). NdE
 </note>. Le Glossaire du Centre donne : <hi rend="i">cochon</hi>, cloporte. La forme porcelet est assez répandue dans une partie de la France <note n="142" type="NdA">
@@ -1553,7 +1637,7 @@ Le charançon est appelé <hi rend="i">varkentor</hi> en flamand (<hi rend="i">v
 </note>. Enfin, rapprochement inattendu, le cloporte s’appelle, en suédois, le cochon gris, <hi rend="i">grasugga</hi>. L’idée de <hi rend="i">cochon</hi> pour nommer le cloporte a eu à lutter avec l’idée d’<hi rend="i">âne</hi>, qui n’est pas plus explicable par les logiques ordinaires : l’<hi rend="i">oniscus</hi> latin est l’[mot en caractères grecs] (petit âne), mais les paysans romains connaissaient aussi le mot <hi rend="i">asellus</hi>, et l’allemand <hi rend="i">assel</hi> doit sans doute être rapproché de <hi rend="i">esel</hi> (âne). On sait que le cochon a encore donné son nom au petit ver qui se rencontre dans les noisettes ; ce <hi rend="i">petit cochon</hi> se retrouve en anglais, <hi rend="i">pig-nut</hi> <note n="143" type="NdA">
 En polonais la métaphore est des plus singulières : <hi rend="i">orzechowiec</hi>, brebiette de la noix (<hi rend="i">owka</hi>, brebis)
 </note>. Les Anglais appellent également <hi rend="i">pig</hi> le lingot que nous disons <hi rend="i">saumon</hi> et les allemands, <hi rend="i">salm.</hi></p>
-        <p rend="i">Fauvette. Bergeronnette. Linotte. Loriot. Chardonneret.</p>
+        <label rend="center i">Fauvette. Bergeronnette. Linotte. Loriot. Chardonneret.</label>
         <p>Que la fauvette à tête noire ait été nommée en grec [mot en caractères grecs] <note n="144" type="NdA">
 On traduit également ce mot par <hi rend="i">becfigue</hi>. NdA
 </note>, en latin <hi rend="i">atracapilla</hi> ; qu’elle soit, en italien, la <hi rend="i">capinera</hi>, et en portugais <hi rend="i">toutinegra</hi> (chignon noir) cela n’a rien que de fort logique ; on ne sera pas surpris davantage que des petits oiseaux aient été comparés à des mouches : notre moineau est littéralement l’oiseau mouche (<hi rend="i">muscionem</hi>, de <hi rend="i">musca</hi>) et la fauvette, alors désignée d’après sa petitesse et sa légèreté, devient la <hi rend="i">mouche d’ herbe</hi> (all. : <hi rend="i">grasmuch</hi> ; flam. <hi rend="i">grasmuch</hi>). Il ne faut d’ailleurs être surpris de rien au pays des métaphores ; les Grecs n’appelaient-ils pas du même mot, <hi rend="i">struthio</hi>, le moineau et l’autruche ?</p>
@@ -1578,7 +1662,7 @@ Cf. Glossaire du Centre : <hi rend="i">chardonnet, échardonnet, échardonnette
 </note>, c’est proprement l’oiseau au chardon). L’idée de cette relation se retrouve dans presque toutes les langues de l’Europe et dans les deux langues classiques : [mot en caractères grecs] <note n="152" type="NdA">
 Grec moderne : [mot en caractères grecs] et [mot en caractères grecs]
 </note>, <hi rend="i">carduelis</hi>, l’italien <hi rend="i">cardellino</hi> traduisent exactement <hi rend="i">chardonnet</hi> ; la branche germanique se sert de l’expression pinson du chardon ; en allemand, <hi rend="i">distelfink</hi> ; en flamand, <hi rend="i">distelvink</hi> ; en suédois, <hi rend="i">tistelfink</hi> ; en anglais <hi rend="i">thistle-finch</hi>. L’Anglais l’appelle aussi <hi rend="i">goldfinch</hi>, pinson doré.</p>
-        <p rend="i">Brochet. Bélier.</p>
+        <label rend="center i">Brochet. Bélier.</label>
         <p>Le latin <hi rend="i">lucius</hi> ne s’est perpétué qu’en italien, <hi rend="i">luccio</hi> ; à ce mot le français a substitué l’idée d’une pique, d’une broche, d’où <hi rend="i">brochet</hi> <note n="153" type="NdA">
 L’ancien français disait <hi rend="i">broche</hi>. NdA
 </note> ; simultanément l’anglais adoptait le mot <hi rend="i">pike</hi> (pique). Cette idée semble d’origine germanique ; les noms du brochet en allemand, <hi rend="i">hecht</hi>, et en danois, <hi rend="i">giedde</hi>, semblent la contenir ; elle est évidente dans le suédois <hi rend="i">gadda</hi> (<hi rend="i">gadd</hi>, aiguillon).</p>
@@ -1591,7 +1675,7 @@ Mot normand qui correspond à l’ancien français <hi rend="i">vair</hi> (latin
         <p>L’idée de nommer l’<hi rend="i">aries</hi>, mouton à clochette, mouton bélier <note n="155" type="NdA">
 De l’ancien français <hi rend="i">bele</hi>, cloche, mot venu lui-même du bas-allemand par la forme latine <hi rend="i">bella</hi>. NdA
 </note>, <hi rend="i">bélier</hi> se constate en français, en anglais et en hollandais (<hi rend="i">bell-wether, belhamel</hi>) ; les moutons des vagues sont des brebis en italien, <hi rend="i">pecorelle</hi> ; et dans toutes les langues, depuis le grec, la machine de guerre à heurter les murailles s’est dite du même nom d’animal, <hi rend="i">bélier</hi> ou <hi rend="i">mouton</hi>, [mot en caractères grecs], <hi rend="i">aries, ram</hi> (ang.), <hi rend="i">stormram</hi> (holl.), <hi rend="i">ariete</hi> (esp.).</p>
-        <p rend="i">Belette.</p>
+        <label rend="center i">Belette.</label>
         <p>La <hi rend="i">belette</hi> est peut-être l’animal qui pourrait donner lieu à la plus curieuse dissertation sémantique. Dans presque toutes les langues son nom est une antiphrase. C’est une bête fort redoutée des paysans, comme le renard, comme la fouine, dont elle est parente. Or, on l’appelle à l’envi la jolie, la belle, la douce ! Son nom français vient du vieux mot <hi rend="i">bele</hi>, du latin <hi rend="i">bella</hi> ; la <hi rend="i">belette</hi>, cela veut dire la petite belle <note n="152" type="NdE">
 Gourmont connaissait en 1898 le texte que le philologue Antoine Thomas reprendra sous le titre « Coup d’œil sur l’histoire et la méthode de la science étymologique » dans les <hi rend="i">Nouveaux Essais de philologie française</hi> : « Nous appelons belette l’animal que les Romains appelaient mustela et que la tradition latine, appellent encore aujourd’hui moustèlo, moutèle ou moutoile. D'où vient ce nom de belette ? On a supposé que belette était un diminutif de notre adjectif beau et que le nom de l’animal signifiait étymologiquement ”la petite belle”. C'est une hypothèse que suggère la phonétique ; mais pour que cette hypothèse devienne une certitude, il faut que la sémantique nous fournisse des indications qui soient d’accord avec cette hypothèse. Interrogeons-la. Elle nous apprendra que la belette s’appelle poulido, c’est-à-dire ”jolie”, en Rouergue ; bellora, où il est facile de reconnaître le diminutif latin bellula, en milanais ; kjœnne, c’est-à-dire ”belle”, en Danemark ; schœntierlein, c’est-à-dire ”jolie petite bête”, en Bavière ; coantig, c’est-à-dire ”jolie”, en Bretagne, etc., etc. Grâce à la sémantique, nous avons ville gagnée, et l’étymologie du mot français belette ne fait plus question pour nous. » (Antoine Thomas, <hi rend="i">Nouveaux Essais de philologie française</hi>, E. Bouillon, 1904, p. 28-29). NdE
 </note>. Les Anglais la nomment <note n="156" type="NdA">
@@ -1609,13 +1693,12 @@ M. Max Muller (<hi rend="i">Nouvelles leçons</hi>, I, <num>v<hi rend="sup">e</h
 </note> redoutable nommé tout crûment <hi rend="i">le voleur</hi> ; il est le <hi rend="i">laire</hi> en Auvergne et le <hi rend="i">laron</hi> en Dauphiné, et sans doute y reconnaît-il facilement le latin <hi rend="i">latro</hi> <note n="160" type="NdA">
 Antoine Thomas, <hi rend="i">ouvrage cité</hi>, p. 27. NdA
 </note>.</p>
-        <p/>
-        <p rend="i">Pic. Plongeon. Pélican. Rouget. Dormiliouse.</p>
+        <label rend="center i">Pic. Plongeon. Pélican. Rouget. Dormiliouse.</label>
         <p>Le <hi rend="i">pic, espec, pivert</hi>, est dit aussi <hi rend="i">bêche-bois</hi>, mot qui se trouve exactement en anglais, <hi rend="i">woodpecker</hi> ; le <hi rend="i">plongeon</hi> (en latin <hi rend="i">mergus</hi>) est le plongeur en allemand, <hi rend="i">taucher</hi>, le <hi rend="i">pélican</hi> (en latin <hi rend="i">platea</hi>) s’appelle en allemand l’oie à cuillère, <hi rend="i">loffler, loffelgans</hi> ; ce qui correspond aux vieux noms français de cet oiseau, <hi rend="i">pale, pelle, pelle creuse, truble</hi>, et à son nom populaire anglais, <hi rend="i">shovelard</hi>. L’idée de rouge ou de lumière a toujours servi à caractériser le <hi rend="i">rouget</hi> ; le grec disait [mot en caractères grecs] ; le latin, <hi rend="i">rubellio</hi> ; et pour les Hollandais, c’est le coq de mer, <hi rend="i">zec haen</hi>, et pour les Italiens, la lanterne, <hi rend="i">lucerna</hi>. Il y a un poisson volant ou sautant qu’on appelle <hi rend="i">hirondelle de mer</hi> ou le <hi rend="i">volant</hi>, le <hi rend="i">papillon</hi> ; c’est le [mot en caractères grecs] et l’<hi rend="i">hirundo</hi> des anciens, le <hi rend="i">volador</hi> des Espagnols, le <hi rend="i">zee swaluwe</hi> des Hollandais.</p>
         <p>Un autre poisson à gros yeux est appelé par Pline, <hi rend="i">oculata</hi> ; c’est l’<hi rend="i">ochiado</hi> du populaire, à Rome, et le <hi rend="i">nigr’oil</hi> du même populaire, à Marseille où l’on appelait aussi dans le même temps (au <num>xvi<hi rend="sup">e</hi></num> siècle) la torpille<note type="NdA">
 La torpille a toujours son joli nom populaire <hi rend="i">dormilleuse</hi> ; on la nomme aussi <hi rend="i">tremble</hi>.
         </note> une <hi rend="i">dormiliouse</hi>, ce qui traduit délicieusement <hi rend="i">torpedo</hi>. La <hi rend="i">rainette, raine verte, verdier</hi>, en ancien français, c’est, en allemand, la <hi rend="i">grenouille feuille, laubfrosch.</hi></p>
-        <p rend="i">Tournesol.</p>
+        <label rend="center i">Tournesol.</label>
         <p>Les noms de fleurs, qui sont parfois si étranges, témoignent particulièrement de la nécessité de certaines métaphores. Il est impossible que l’idée de soleil n’entre pas dans le nom de la grande fleur jaune appelée <hi rend="i">tournesol</hi> ; elle ressemble exactement aux faces du soleil dans les vieilles gravures et, de plus, elle se tourne sensiblement vers l’astre qu’elle semble suivre avec inquiétude : ses deux noms français, <hi rend="i">tournesol</hi> et <hi rend="i">soleil</hi> <note n="161" type="NdA">
 En Savoie, dans le Centre et au Canada, tourne-soleil. — On trouve dans les dialectes (Centre, Canada), <hi rend="i">sourci</hi>, pour <hi rend="i">souci</hi>. Les formes les plus anciennes sont la <hi rend="i">solcie</hi>, la <hi rend="i">soucie</hi>. Sous l’influence de <hi rend="i">souci</hi> (soucier), le mot changea de genre. NdA
 </note>, traduisent cette double impression.</p>
@@ -1626,8 +1709,7 @@ Malheureusement le soleil est appelé aussi <hi rend="i">héliotrope</hi> et l�
 </note> ; le suédois dit <hi rend="i">solrose</hi> <note n="164" type="NdA">
 Et aussi <hi rend="i">solblomister</hi> (fleur soleil). NdA
 </note> ; le danois, <hi rend="i">solsikke</hi> ; l’anglais, <hi rend="i">sunflower</hi> ; le polonais, <hi rend="i">slonecznie</hi>. Les langues sémitiques ont des expressions pareilles : en arabe <hi rend="i">chems</hi>, soleil, et <hi rend="i">echchems</hi>, tournesol.</p>
-        <p/>
-        <p rend="i">Coquelicot.</p>
+        <label rend="center i">Coquelicot.</label>
         <p>Au latin <hi rend="i">papaver</hi> qui a fourni en français tant de formes singulières, pavot, pavon, papon, paveux, pavoir — le goût populaire substitua en plusieurs régions l’idée de <hi rend="i">rouge</hi>, et le latin du moyen âge appelle <hi rend="i">rubiola</hi>, la plante que la science qualifie de <hi rend="i">papaver rubeum</hi> ; cependant l’idée de rouge se fixa sur la crête de coq, puis sur le coq et enfin sur le chant du coq que rendait l’onomatopée <hi rend="i">coquelicot</hi> ou <hi rend="i">coquericot</hi>. Cette idée était, d’ailleurs, contenue soit directement, soit par confusion, dans le nom même du coq (latin : <hi rend="i">coccum</hi>) <note n="165" type="NdA">
 Venu lui-même du verbe qui disait le chant du coq : 
         <quote>Cucurrire solet Gallus, Gallina gracillat.</quote>
@@ -1638,8 +1720,7 @@ Venu lui-même du verbe qui disait le chant du coq :
         
 </note>, fleur et oiseau, tous les deux de printemps et de la même heure ; on a cru que la fleur naissait pour l’oiseau et pour le nourrir, — c’est une croyance générale que rien dans la création ne saurait être inutile ; mais cette fleur ou cette herbe, dédaignées des hommes et des bêtes domestiques, ou ces baies qui mûrissent loin dans les bois, à quoi servent-elles donc ? La réponse est écrite dans ces termes : herbe au loup, herbe à la vierge, herbe au diable. Elles servent à Dieu, à ses saints, au diable, — ou au loup ; les Arabes disent : ou au chacal ; elles servent aux animaux que nous ne voyons pas manger et qui vivent ; elles servent aux êtres surnaturels qui descendent pendant les nuits claires et à ceux qui rôdent pendant les nuits sans lune. Outre leurs noms distinctifs, presque toutes les plantes sauvages ont ainsi un surnom qui souvent est commun à des espèces fort différentes ; la flore populaire se meut dans l’heureuse imprécision de la poésie et de la nonchalance.</p>
         <p>Il ne faut pas s’attendre à retrouver <hi rend="i">coquelicot</hi>, ou l’une des formes diverses de cette onomatopée, en dehors du domaine roman : la plus lointaine est le roumain <hi rend="i">kukuriek</hi>, et en France même elle s’est partagé les dialectes avec <hi rend="i">papaver</hi>. Cependant le coquelicot éveilla aussi, en Angleterre, l’idée de crête de coq et l’on y rencontre <hi rend="i">cocks head, cock’s comb, cockrose</hi> (écossais). Les langues germaniques se contentent en général de l’expression rose ou fleur des blés qu’elles appliquent, d’ailleurs, avec indiff’érence, à la fois, au coquelicot et au bleuet.</p>
-        <p/>
-        <p rend="i">Renoncule. Joubarbe. Fumeterre.</p>
+        <label rend="center i">Renoncule. Joubarbe. Fumeterre.</label>
         <p>La renoncule, connue sous le nom de bouton d’or, a reçu dans les langues et les dialectes d’Europe <note n="167" type="NdA">
 Ici et dans plusieurs des paragraphes suivants, nous nous servons de la riche moisson de termes populaires recueillis par M. E. Rolland dans sa <hi rend="i">Flore populaire</hi>. Malheureusement, comme il ne traduit pas, une partie de sa nomenclature, dialectes étrangers et « petites langues », est souvent inutilisable dans un travail de sémantique. — Au cours d’une excellente notice sur cette <hi rend="i">Flore</hi>, M. Louis Denise avait déjà exprimé le même regret. De même il avait constaté avec soin l’incohérence de la nomenclature populaire : « Les mêmes noms empruntés à des similitudes de couleur, à de grossières ressemblances de port ou de forme, à de prétendues propriétés identiques, s’appliquent indifféremment et dans les mêmes lieux à des plantes de familles très éloignées : l’ellébore est l’<hi rend="i">herbe d’enfer</hi> dans l’Aube, mais en Provence l’<hi rend="i">erbo d’infer</hi>, c’est le nénuphar. » (<hi rend="i">Polybiblion</hi>, 1897.)
 </note> deux séries de noms ; les uns la désignent d’après la forme de sa feuille, les autres d’après la couleur de sa fleur. Les noms qui veulent expliquer sa feuille contiennent presque tous l’idée de pied de poule (ou de coq), ou l’idée de patte de grenouille <note n="168" type="NdA">
@@ -1661,8 +1742,7 @@ Qui a directement passé en français, en italien, en espagnol, en portugais. Il
         <p>Dans <hi rend="i">joubarbe</hi> on retrouve <hi rend="i">jovis barba</hi> ; c’est la barbe du dieu du tonnerre, parce que cette herbe garantit les maisons du tonnerre, d’après Opilius, qui l’appelle <hi rend="i">vesuvium</hi>. Cette idée se rencontre en Allemagne et en Hollande, où la <hi rend="i">joubarbe</hi> est <hi rend="i">donderbaert</hi>. Il n’y a pas trace de l’image conservée par le français du <num>xvi<hi rend="sup">e</hi></num> siècle, <hi rend="i">patte de cheval</hi> dans les noms actuels du <hi rend="i">populage</hi> ou <hi rend="i">tussilage</hi>, mais l’allemand dit <hi rend="i">rosshuf</hi>, sabot de cheval, le hollandais <hi rend="i">hoesbladen</hi>, herbe sabot, l’italien <hi rend="i">unghia di cavallo</hi>, l’espagnol <hi rend="i">una de asno</hi> ; c’est le latin officinal <hi rend="i">ungula caballina</hi>. Le <hi rend="i">fumeterre, fumus terrae</hi> a le même nom en allemand, <hi rend="i">erdrauch</hi> et <hi rend="i">eerderoock</hi>. Enfin la petite <hi rend="i">serpentaire</hi> a reçu en Allemagne et en France les mêmes vilains noms <note n="173" type="NdA">
 Traductions exactes de <hi rend="i">Sacerdotis virilia</hi> (Hadrianus Junius, <hi rend="i">Nomenclator</hi>). NdA
 </note>.</p>
-        <p/>
-        <p rend="i">Adonis. Nielle.</p>
+        <label rend="center i">Adonis. Nielle.</label>
         <p>La <hi rend="i">fleur d’Adonis</hi> n’est plus rougie par le sang du jeune dieu oublié, mais tantôt par celui de Vénus, tantôt par celui de Jésus : <hi rend="i">sang de Jésus, sang deVénus</hi>, les deux grandes religions unies une fois de plus dans le geste de cueillir la même fleur. L’idée de sang semble inséparable de cette renonculacée <note n="174" type="NdA">
 Son nom grec [mot en caractères grecs] lui venait de ce qu’elle servait, d’après Dioscoride, à guérir [mot en caractères grecs] ; l’idée de blanc est contenue dans le nom du mal (ulcère blanc) et non dans celui de la fleur. NdA
 </note> et son nom populaire français, <hi rend="i">goutte de sang</hi>, lui est donné en beaucoup de pays. On trouve en Italie <hi rend="i">gozze de sangue</hi> (Vérone), <hi rend="i">gioze de sangue</hi> (Trévise) ; en Espagne, <hi rend="i">gota de sangre</hi> ; en Suisse, <hi rend="i">bluatstrœfli</hi> et <hi rend="i">blutstrœpfli</hi>, en Carinthie, <hi rend="i">bluetstrœpflan</hi> ;</p>
@@ -1670,8 +1750,7 @@ Son nom grec [mot en caractères grecs] lui venait de ce qu’elle servait, d’
         <p><hi rend="i">Nielle</hi>, c’est la « petite Noire », <hi rend="i">nigella</hi> ; les Grecs disaient de même [mot en caractères grecs] et ils disent encore [mot en caractères grecs]. Le français <hi rend="i">nielle</hi> n’a, sans doute, jamais contenu l’idée qui est évidente dans <hi rend="i">nigella</hi> ; pour la retrouver, il faut aller chercher les formes verbales où la nielle est appelée l’herbe au poivre <note n="175" type="NdA">
 Graine noire » est le nom de la nielle dans beaucoup de dialectes arabes. NdA
 </note> et voici la <hi rend="i">poivrette</hi>, la <hi rend="i">piperelle</hi>, les <hi rend="i">spezii</hi>, les épices (Parme), l’<hi rend="i">alipivre</hi> (portugais) ; on trouve en allemand <hi rend="i">Schwarz kümmel</hi>, (le carvi noir) mais les langues modernes ont surtout baptisé la nielle d’après sa très vague ressemblance avec des cheveux, de la barbe, de la laine, une toile d’araignée et, rencontre assez curieuse, la <hi rend="i">nielle</hi> et l’<hi rend="i">agnelle</hi>, si différentes sémantiquement, ont fraternisé sur le terrain phonétique :on trouve dans le domaine d’oc, les formes <hi rend="i">niella, gniella, niello, aniello, aniella</hi> et, en Piémont, <hi rend="i">agnela</hi>. Le vieux français disait <hi rend="i">barbute</hi> et <hi rend="i">barbue</hi> ; à Parme, c’est comme en Normandie la <hi rend="i">barbe de capucin, barba de fra</hi> ; en Roumanie, la barbe de boyard, <hi rend="i">barba boïarului</hi> ; en Allemagne, la chevelure de Vénus, <hi rend="i">Venushaar</hi> et, image plus pittoresque, la fille de crin, <hi rend="i">braut in haren</hi> ; en Angleterre, la barbe blanche, <hi rend="i">oldman’s beard</hi> ; en Catalogne <hi rend="i">aranyas</hi>, image que se disent nos patois avec <hi rend="i">arogne</hi> et <hi rend="i">irogné</hi> (toile d’araignée).</p>
-        <p/>
-        <p rend="i">Violette de chien. Hépatique. Anémone.</p>
+        <label rend="center i">Violette de chien. Hépatique. Anémone.</label>
         <p>Il y a une violette sauvage, très pâle et sans odeur, qui s’appelle dans une grande partie de la France <hi rend="i">violette de chien</hi>, c’est-à-dire bonne pour les chiens. Cette expression se retrouve en Wallonie <hi rend="i">viyolette de tchin</hi> ; en Galicie, <hi rend="i">viola de can</hi> ; en Allemagne, <hi rend="i">hundsveilchen</hi> ; en Luxembourg, <hi rend="i">honzfeiol</hi> ; en Flandre, <hi rend="i">hondsvioletten</hi> ; en Angleterre, <hi rend="i">dog’s violet</hi> ; en Suède et en Danemarck, <hi rend="i">hundefiol</hi>. Le latin de nomenclature <hi rend="i">viola canina</hi> est la traduction de ces appellations populaires ; peut-être cependant l’a-t-il propagée dans quelques langues <note n="176" type="NdA">
 Le latin d’officine a certainement eu une très grande influence sur les noms même populaires des plantes ; il en a encore. Cela s’explique par les relations des pharmaciens et des cueilleuses de simples. M. E. Rolland a rencontré une de ces femmes connaissant les noms de <hi rend="i">toutes</hi> les plantes de son pays ; dans la liste que j’ai vue beaucoup de mots sont des déformations évidentes des noms du Formulaire (Mars 1899). NdA
 </note>.</p>
@@ -1685,8 +1764,7 @@ Ou les <hi rend="i">cloches du couvent</hi>. NdA
 </note>. Mais il était particulièrement intéressant de savoir si la valeur du mot grec [mot en caractères grecs] se rencontrait dans les noms véritables de l’anémone ou dans ses surnoms populaires. Or, partout, en Europe, l’anémone est l’herbe au vent, la fleur ou la rose du vent <note n="180" type="NdA">
 Et même jusque dans le centre de la France et dans la Haute-Marne. NdA
 </note> : <hi rend="i">erba del vent</hi> (Gard), <hi rend="i">erba de vent</hi> (Milanais), <hi rend="i">erba do vento</hi> (Galicie), <hi rend="i">flor del viento</hi> (Espagne) ; c’est, en Allemagne : <hi rend="i">windroschen</hi> (la rose du vent) ; en Flandre, <hi rend="i">windkruid</hi> (herbe au vent) ; en Danemarck, <hi rend="i">windrose</hi> ; en Russie, <hi rend="i">wetrezina</hi>, la fleur du vent.</p>
-        <p/>
-        <p rend="i">Aubépine. Chèvre-feuille. Rouge-Gorge. Fourmi-lion.</p>
+        <label rend="center i">Aubépine. Chèvre-feuille. Rouge-Gorge. Fourmi-lion.</label>
         <p>Il est tout simple que l’aubépine (<hi rend="i">albispina</hi>), la blanche épine, porte ce même nom en presque toutes les langues, depuis l’italien <hi rend="i">biancospino</hi> jusqu’au danois <hi rend="i">hvidtorn</hi>. De même on s’explique assez facilement la fréquence linguistique du chèvrefeuille (ital. : <hi rend="i">caprifoglio</hi> ; all. : <hi rend="i">geissblatt</hi> ; holl. : <hi rend="i">geitenblad</hi> ; dan. : <hi rend="i">giedeblad</hi> ; suéd. : <hi rend="i">getblad</hi>), tous ces noms modernes ne sont peut-être que la traduction de <hi rend="i">caprifolium</hi>. Quand le mot latin est très explicite et quand toutes les formes linguistiques sont identiques, l’hypothèse de la traduction est admissible. Les dictionnaires donnent du mot <hi rend="i">chèvrefeuille</hi> cette plaisante interprétation : ainsi appelé parce que les chèvres aiment à brouter ses feuilles. Comme si les chèvres n’aimaient pas à brouter tout ce qui est vert ! Le chèvrefeuille, c’est la plante chèvre, la plante grimpante, tout simplement. Varron appelle <hi rend="i">caprea</hi> la vrille de la vigne et l’italien dit dans le même sens <hi rend="i">capreolo</hi>. Le mot latin s’est substitué, sans qu’on en comprenne le sens, aux noms indigènes qui avaient sans doute été faits, comme en Angleterre, avec l’idée de fleur qui a goût de miel, <hi rend="i">honey sukkle</hi>, ou celle de lien sauvage, lien des bois, <hi rend="i">wood bine</hi> <note n="181" type="NdA">
 Ou <hi rend="i">bind</hi>. Hadrianus Junius donne plusieurs noms de chèvre-feuille en allemand du <num>xvi<hi rend="sup">e</hi></num> siècle ; les uns semblent vouloir dire la nourriture de la chèvre : <hi rend="i">speckgilgen</hi> ; les autres correspondent bien à la comparaison de la plante avec l’animal qui grimpe : <hi rend="i">waldgilgen</hi>. En vieux hollandais son nom est : les chèvres, <hi rend="i">gheyten</hi>. NdA
 </note>. Il en a peut-être été de même pour le <hi rend="i">rouge-gorge</hi>. Dans toutes les autres langues, de l’italien, <hi rend="i">pettirosso</hi>, à l’allemand, <hi rend="i">rothkehlchen</hi>, au danois, <hi rend="i">rotkielke</hi>, au polonais <hi rend="i">czerwonogardl</hi>, on soupçonne des mots latins et ces mots nous en avons l’écho dans le vers déjà cité à propos du roitelet :</p>
@@ -1697,8 +1775,7 @@ Ou <hi rend="i">bind</hi>. Hadrianus Junius donne plusieurs noms de chèvre-feui
         </quote>
         <p>Cependant, il est fort possible et bien conforme au mécanisme de l’esprit humain que la trouvaille <hi rend="i">rouge-gorge</hi> ou <hi rend="i">rodkielke</hi> soit spontanée dans chacune des langues où on la rencontre. Le vieux français disait : <hi rend="i">rubéline.</hi></p>
         <p>Mais pour le <hi rend="i">fourmi-lion</hi>, aucun doute n’est possible, puisque ce mot n’est que le résultat d’une trop bonne prononciation de l’<hi rend="i">l</hi> mouillée ou d’une mauvaise lecture du mot latin. <hi rend="i">Formica-leo</hi> est, en effet, soit une forme bâtarde calquée sur notre <hi rend="i">fourmi-lion</hi>, soit une déformation, par étymologie trop savante, du bas-latin <hi rend="i">formiculo, formiculonem</hi>, diminutif de <hi rend="i">formica. Formiculonem</hi> a donné en français <hi rend="i">fourmillon</hi>. Comme l’idée de <hi rend="i">fourmi-lion</hi> se retrouve dans beaucoup de langues d’Europe, son absurdité doit sans doute être mise à la charge des latinisants. L’anglais <hi rend="i">ant-lion</hi>, l’allemand <hi rend="i">ameiselawe</hi>, le flamand <hi rend="i">mierenleeuw</hi>, le danois <hi rend="i">myretove</hi>, le suédois <hi rend="i">myrlejon</hi>, le polonais <hi rend="i">mrowkolew</hi> se traduisent tous avec une exactitude singulière par <hi rend="i">formica-leo</hi>, mais si <hi rend="i">fourmi-lion</hi> veut bien dire en français « fourmi qui est comme un lion », <hi rend="i">ant-lion</hi> signifie en anglais « lion qui est comme une fourmi », ou « lion qui mange les fourmis », etc. ; c’est <hi rend="i">lion-ant</hi> qu’il faudrait pour rendre <hi rend="i">formica-leo</hi>. L’idée plaisante que le <hi rend="i">fourmi-lion</hi> est le « lion des fourmis » égaie quelques dictionnaires : que de mal ont pris les grammairiens pour expliquer logiquement les mœurs d’un insecte par une déformation linguistique !</p>
-        <p/>
-        <p rend="i">Autres mots : Corset. Clairon. Amadou. Navette. Béryl. Railler.</p>
+        <label rend="center i">Autres mots : Corset. Clairon. Amadou. Navette. Béryl. Railler.</label>
         <p>La formation de métaphores, durables ou passagères, est dominée par un ensemble de lois psychologiques que nous ne pouvons connaître que par la trace qu’elles laissent dans les combinaisons verbales. Ainsi l’idée de petit corps se retrouve dans presque tous les mots qui signifient aujourd’hui <hi rend="i">corset</hi> <note n="183" type="NdA">
 Angl. : <hi rend="i">bodice</hi> ; all. : <hi rend="i">leibchen</hi> ; dan. <hi rend="i">livstykke</hi> ; ital. : <hi rend="i">corpetto</hi> ; etc. NdA
 </note>, comme Brachet l’a constaté ingénieusement, mais sans analyser le phénomène <note n="154" type="NdE">
@@ -1719,9 +1796,7 @@ Et du même <hi rend="i">béryl</hi> vient aussi <hi rend="i">bésicles</hi>, an
 </note> <note n="156" type="NdE">
 Bréal note : « Qui pense encore, en prononçant le verbe briller, à la pierre précieuse — beryllus — dont on l’a tiré ? » (<hi rend="i">Sémantique, op. cit</hi>., p. 132). NdE
 </note>. Que ne diraient pas les professeurs de belles-lettres si quelque « décadent » forgeait, briller n’ayant vraiment plus qu’un sens abstrait, <hi rend="i">émerauder</hi> ou <hi rend="i">topazer</hi> ! Le mot <hi rend="i">railler</hi> a la même origine latine que <hi rend="i">raser</hi> (<hi rend="i">radere, rasus, raticulare</hi>) qui a pris lui-même récemment un sens péjoratif ; on trouve en allemand <hi rend="i">scheren</hi>, raser, et <hi rend="i">scherzen</hi>, railler, en flamand <hi rend="i">scheren</hi>, raser, et <hi rend="i">scherts</hi>, raillerie.</p>
-        <p rend="i">Compter et conter. Dessein et Dessin.</p>
-        <p rend=i">Pupille. Prunelle.</p>
-        <p/>
+        <label rend="center i">Compter et conter. Dessein et Dessin. Pupille. Prunelle.</label>
         <p>On sait avec quel soin les grammairiens distinguent l’un de l’autre <hi rend="i">compter</hi> et <hi rend="i">conter</hi>. A les entendre il n’y aurait pas deux mots plus éloignés, malgré leurs sonorités identiques, et il a fallu pour les confondre l’ignorance et la barbarie du moyen âge. Or il se trouve précisément que les deux ne sont qu’un : compter et conter, mot unique né du latin <hi rend="i">computare</hi>. Pour l’homme de tous les temps et de tous les climats, <hi rend="i">compter</hi> et <hi rend="i">conter</hi> représentent une seule et même opération ; un mot les traduit tous les deux : <hi rend="i">énumérer</hi>. Des chiffres ou des faits, on les énumère, on les compte. L’italien et l’espagnol sont d’accord en cela avec l’allemand et avec le danois : <hi rend="i">contare</hi> et <hi rend="i">contar</hi> ont, dans les deux premières langues, la double signification de nos deux mots ; en allemand compter, c’est <hi rend="i">zahlen</hi>, et conter, <hi rend="i">erzalen</hi> ; en danois compter, c’est <hi rend="i">toele</hi> et conter, <hi rend="i">fortoelle</hi>. Ce <hi rend="i">toele</hi> nous rappelle que l’anglais <hi rend="i">tale</hi> (conter) a eu primitivement la signification de <hi rend="i">compter</hi> ; il l’a perdue en partie, quand le mot <hi rend="i">account</hi> est entré dans la langue ; mais <hi rend="i">account</hi> a gardé, en partie, un peu du sens de <hi rend="i">tale</hi>. Il en est de même de notre mot <hi rend="i">compte</hi>, malgré tous les grammairiens ; dans <hi rend="i">compte-rendu d’un livre</hi>, on voit le mot <hi rend="i">computare</hi> au point mort où il ne signifie plus <hi rend="i">compte</hi> et ne veut pas encore dire <hi rend="i">conte</hi>. En différenciant les deux mots, la grammaire nous oblige à toutes sortes de petits mensonges, car il nous est réellement impossible parfois de savoir si nous <hi rend="i">comptons</hi> ou si nous <hi rend="i">contons</hi>. On ne devrait pas laisser les cuistres toucher à des organismes aussi délicats que le langage : du moins pourra-t-on désormais leur enseigner que les « tropes » sont une branche de la psychologie générale et qu’il faut réfléchir très longtemps avant que d’oser couper en deux morceaux et tailler à arêtes vives un bloc verbal que l’esprit humain laisse volontairement informe. Ils ont opéré la même scission entre <hi rend="i">dessin</hi> et <hi rend="i">dessein</hi> sans s’apercevoir, les pauvres gens, que la langue, incorrigible, recommençait exactement avec le mot <hi rend="i">plan</hi> les mêmes et indispensables confusions sans lesquelles les hommes cesseraient bientôt de se comprendre. Comme le mot <hi rend="i">conte</hi>, le mot <hi rend="i">dessin</hi> est unique ; le latin <hi rend="i">designare</hi> avait déjà tous les sens concrets et abstraits que comporte l’idée de <hi rend="i">dessiner</hi>. Le mot anglais <hi rend="i">design</hi> porte sans peine, avec une légère restriction (<hi rend="i">drawing</hi> lui ayant enlevé quelques-unes de ses nuances), la plupart des significations contenues dans notre double mot ; il en est de même en suédois avec <hi rend="i">utkast</hi>, en italien avec <hi rend="i">disegno</hi> et dans presque toutes les langues.</p>
         <p>Bien d’autres mots seraient à noter que les dictionnaires séparent arbitrairement, quoique l’un ne soit que la métaphore de l’autre. <hi rend="i">Pupille</hi> est dans ce cas : qu’il signifie l’orpheline pourvue d’un tuteur ou la prunelle de l’œil, c’est toujours le latin <hi rend="i">pupilla</hi>, diminutif de <hi rend="i">pupa</hi>, petite fille (<hi rend="i">pupata</hi>, de la même famille, a donné <hi rend="i">poupée</hi>). La <hi rend="i">pupille</hi> de l’œil, c’est si bien la <hi rend="i">fille de l’œil</hi> que l’expression se retrouve tout entière en portugais où la <hi rend="i">pupille</hi> se dit <hi rend="i">menina do olho</hi>. Pareillement la <hi rend="i">prunelle</hi> des haies et la <hi rend="i">prunelle</hi> des yeux ne font qu’un. Le centre de l’œil a été comparé à la petite prune d’un noir bleu ou violacé qui mûrit parfois après les gelées ; par une métaphore analogue, mais bien moins jolie et bien moins juste, les Anglais appellent la prunelle de l’œil <hi rend="i">eye-apple</hi> et les Flamands, <hi rend="i">oogappel</hi>, la pomme de l’œil. Le polonais qui a le verbe <hi rend="i">zrzeniac</hi>, commencer à mûrir, appela <hi rend="i">zrzenica</hi> la prunelle de l’œil ; je ne sais dans quel ordre il faut établir les rapports de ces deux mots <note n="189" type="NdA">
 L’œil a pu être comparé à un charbon. Se souvenir du latin <hi rend="i">pruna</hi>. NdA
@@ -1965,12 +2040,12 @@ L’ensemble de ce développement montre que le critique se situe dans le cadre 
 </note>. L’accent reste fixe ou se déplace selon des règles qui n’ont jamais été étudiées, mais que le poète applique inconsciemment. Dans l’alexandrin ancien, l’accent est toujours en principe à la sixième syllabe ; et, si cet accent principal doit être déplacé, si l’affirmation de la pensée exige un temps fort avant ou après la sixième syllabe, cette sixième syllabe garde néanmoins un accent second. Dans le vers classique, ce déplacement n’est pas très rare :</p>
           <quote>
             <l>Mais vous || qui me parlez | d’une voix menaçante</l>
+            <bibl>(<title>Iphigénie</title>)</bibl>
           </quote>
-          <p rend="i">(Iphigénie)</p>
           <quote>
             <l>Vous ne répondez point | mon fils || mon propre fils</l>
+            <bibl>(<title>Phèdre</title>)</bibl>
           </quote>
-          <p rend="i">(Phèdre)</p>
           <p>Il est très fréquent dans le vers romantique.</p>
           <quote>
             <l>Ils marchaient à côté | l’un de l’autre || des danses</l>
@@ -2045,7 +2120,7 @@ Gustave, Kahn, <hi rend="i">Premiers poèmes, op. cit</hi>., p. 31. NdE
 A l’instinct du poète Gourmont oppose, avec quelque condescendance, le savoir du critique éclairé par l’histoire de la langue et par la linguistique. De même qu’ici il souligne les erreurs voire « l’échec complet » de Kahn, dans <hi rend="i">Le Problème du style</hi>, il pointera, sur cette même question, l’erreur de Vielé-Griffin : « Quand M. Vielé-Griffin dit qu’il y a cinq ou six nuances d’<hi rend="i">e</hi> en français, il se trompe sur le terme, non sur le fait. Il confond l’<hi rend="i">e</hi> avec la vibration finale nécessaire à la production vocale d’une consonne quelconque ; mais il ne se trompe pas en notant que cette vibration peut passer par une nombreuse série de gradations. » (<hi rend="i">op. cit</hi>., p. 176) . NdE
 </note> ; mais cette erreur, dans le vers libre n’est pas essentielle. S’il nous est égal que les alexandrins de Verlaine n’aient que onze syllabes, nous accepterons volontiers qu’un vers que M. Kahn compte pour vingt-et-une ou même peut-être vingt-deux syllabes (dont quelques-unes très faibles) n’en ait en réalité que dix-huit :</p>
           <quote>
-            <l>6………………………5……………………..4</l>
+            <l>6...........................5..........................4</l>
             <l>Dans les épithalames | les forêts de piques | et les cavales</l>
             <l> 3</l>
             <l> [|dans l’arène].</l>
@@ -2717,7 +2792,8 @@ Gourmont cite intégralement le texte de cette chanson dans un article du <hi re
           <l>Mariez-les ensemble.</l>
         </quote>
         <p>Que l’émotion esthétique que donne une telle complainte soit d’une nature un peu spéciale, je le veux bien ; mais il ne faut pas la dire vulgaire, car, après tout, il s’agit ici du drame humain élémentaire et nu.</p>
-        <div type="titre2">
+      </div>
+      <div type="chapter">
           <head>Le cliché <note n="235" type="NdE">
 « Le Cliché » paraît sous le titre « Philosophie du cliché » dans <hi rend="i">Le Mercure de France</hi>, n° 109, janvier 1899. NdE
 </note></head>
@@ -2863,8 +2939,6 @@ Octave Feuillet (1821-1890) est un romancier et dramaturge français qui eut les
 </note>. « C’était, dit About, comme un roseau fêlé qui plie sous la main du voyageur. » Ici le copiste amis une date au bas de sa sottise ; elle est certainement contemporaine de la vogue du « Vase brisé ». Méry s’écrie avec feu : « Un cri de désespoir, un cri surhumain et corrosif comme un tamtam ! »</p>
           <p>Il ne faudrait pas d’ailleurs presser trop étroitement les métaphores qui se gonflent, souvent avec trop d’orgueil, dans les meilleurs styles. L’absurde est partout. Nous vivons dans l’absurde. Soyons donc indulgents pour nos plaisirs et goûtons dans les images nouvelles ce qu’elles ont de beau, leur nouveauté. L’homme est ainsi organisé qu’il ne peut exprimer directement ses idées et que ses idées, d’autre part, sont si obscures que c’est une question de savoir si la parole trahit l’idée ou au contraire la clarifie. Aucun mot ne possède un sens unique ni ne correspond exactement à un objet déterminé, exception faite pour les noms propres. Tout mot a pour envers une idée générale, ou du moins généralisée. Quand nous parlons, nous ne pouvons être compris que si nos paroles sont admises comme les représentantes non de ce que nous disons, mais de ce que les autres croient que nous disons ; nous n’échangeons que des reflets. Dès que le mot et l’image gardent dans le discours leur valeur concrète, il s’agit de littérature : la beauté n’est plus tout entière dans la raison, elle est aussi dans la musique.</p>
           <p>Proscrit de la littérature, le cliché a son emploi légitime dans tout le reste ; c’est dire que son domaine est à peu près universel. Figurons-nous la même langue parlée dans l’univers entier, — sauf dans la république d’Andorre.</p>
-        </div>
-        <trailer>FIN</trailer>
       </div>
 <!-- 
 Addenda de l’auteur qui n’ont 
