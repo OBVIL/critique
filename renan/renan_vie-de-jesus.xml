@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-05-29T11:35:44+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="renan_vie-de-jesus" xml:lang="fr">
   <teiHeader>
@@ -11,6 +11,10 @@
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
+        <respStmt>
+          <name xml:id="JP">Jocu Pape</name>
+          <resp>Stylage paragraphes</resp>
+        </respStmt>
         <respStmt>
           <name xml:id="VJ">Vincent Jolivet</name>
           <resp>encodage TEI</resp>
@@ -35,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Vie de Jésu</title> <hi rend="i">in</hi> « Histoire des origines du christianisme. Livre premier. » Paris : Michel Lévy Frères, libraires-éditeurs, 9e édition, 1863, 459 pp. http://www.gutenberg.org/ebooks/15113</bibl>
+        <bibl><author>Ernest Renan</author>. <title>Vie de Jésus</title> <hi rend="i">in</hi> « Histoire des origines du christianisme. Livre premier. » Paris : Michel Lévy Frères, libraires-éditeurs, 9e édition, <date>1863</date>, 459 pp. http://www.gutenberg.org/ebooks/15113</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
