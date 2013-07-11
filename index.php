@@ -9,7 +9,7 @@ $pot->get();
 
 $q=false;
 if (isset($_REQUEST['q']) && $_REQUEST['q']) $q=$_REQUEST['q'];
-$themeHref=$pot->baseHref.'theme/';
+$themeHref=$pot->baseHref.'../lib/theme/';
 // javascript en fin de page ?
 $js=array();
 // analyse URI
@@ -18,6 +18,7 @@ if(count($branch)>0) $bookName=$branch[0];
 if(count($branch)>1) $artName=$branch[1];
 
 // un livre ?
+$bookId=null;
 if (isset($bookName)) {
   $sql =  'SELECT id,nav FROM book WHERE name= '.$pot->pdo->quote($bookName);
   foreach  ($pot->pdo->query($sql) as $row) {
@@ -97,12 +98,14 @@ if (isset($bookName)) {
         <li><a href="?">?</a></li>
       </menu>
       -->
-      <form name="q" id="qForm" 
-      style="float:right; margin-right:1em; margin-top:1em;
-      " >
+      <form name="q" id="qForm" action="<?php echo $pot->baseHref; ?>"
+      style="float:right; margin-right:1em; margin-top:1ex; line-height:100%;" >
+        
         <input name="q" id="q" name="search" size="25" accesskey="f" tabindex="1" title="Rechercher dans le corpus [alt-shift-f]" autocomplete="off" placeholder="Rechercher"
 value="<?php echo str_replace('"', '&quot;', $q); ?>"/>
         <button name="go">&gt;</button>
+        <?php if (false && $bookId) echo '<br/><label>uniquement dans ce livre <input name="bookId" value="',$bookName,'" type="checkbox"/></label>'; ?>
+        
       </form>
     </header>
     <div id="center">
@@ -120,33 +123,7 @@ if (isset($artBody)) {
 }
 // recherche, peut être réduite au livre courant (plus haut)
 else if ($q) {
-  // recherche juste dans un livre
-  if(isset($bookId)) {
-    $query=$pdo->prepare('SELECT article.breadcrumb, article.name, article.href, search.text, offsets(search) AS offsets FROM search, article WHERE article.book=? AND search.rowid=article.rowid AND search.text MATCH ? LIMIT 100; ') ;
-    $query->execute(array($bookId, $q));
-  }
-  else {
-    // on croise la table des articles avec la table full-text, la table full-text n'indexe pas certaines colonnes utiles à des tris (date, auteur)
-    $query=$pdo->prepare('SELECT article.breadcrumb, article.name, article.href, search.text, offsets(search) AS offsets FROM search, article WHERE text MATCH ? AND search.rowid=article.rowid LIMIT 100; ') ;
-    $query->execute(array($q));
-  }
-  $start=1;
-  echo "\n",'<table class="search">';
-
-  // TODO, join quote expressions 
-  while ($row=$query->fetch()) {
-    if($baseHref=='') $row['breadcrumb']=preg_replace('@"../@', '"', $row['breadcrumb']);
-    echo "\n",'<tr><th colspan="3"><small>',$start++,'.</small> ',Teipot::reHref($row['breadcrumb']),'</td></tr>';
-    $offsets=explode(' ',$row['offsets']);
-    $count=count($offsets);
-    // echo '<tr><td colspan="3"><pre style="white-space:pre-wrap; font-family:serif; ">',$row['text'],'</pre></td></tr>';
-    $mark=1;
-    for ($i=0; $i<$count;$i=$i+4) {
-      echo Teipot::snip($row['text'], $offsets[$i+2], $offsets[$i+3], $baseHref.$row['href'].'?q='.$q.'#mark'.$mark),"\n";
-      $mark++;
-    }
-  }
-  echo "\n</table>";
+  $pot->q($q, $bookId);
 }
 // pas de livre trouvé, proposer la liste
 else {
