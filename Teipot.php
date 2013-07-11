@@ -82,8 +82,8 @@ class Teipot {
     
     foreach  ($this->pdo->query($sql) as $row) {
       // '<th>','<a href="',$this->baseHref, $row['name'],'/">',$row['name'],'</a></th>',
-      echo "\n<tr>",'<td>',$row['byline'],'</td>','<td>',$row['created'],'</td>','<td><a href="',$this->baseHref, $row['name'],'/">',$row['title'],'</a></td>';
-      $sep="\n<td>";
+      echo "\n<tr>",'<td class="byline">',$row['byline'],'</td>','<td class="created">',$row['created'],'</td>','<td class="title"><a href="',$this->baseHref, $row['name'],'/">',$row['title'],'</a></td>';
+      $sep="\n".'<td class="formats" nowrap="nowrap">';
       $query->execute(array($row['id']));
       while($link=$query->fetch()) {
         echo $sep,'<a href="',$this->baseHref,$link['href'],'">',$link['name'],'</a>';
@@ -104,7 +104,7 @@ class Teipot {
   }
 
   /** Résultats de recherche */
-  static function q($q, $bookId=null) {
+  function q($q, $bookId=null) {
     $docMax=100;
     // recherche juste dans un livre
     if(isset($bookId)) {
@@ -112,7 +112,7 @@ class Teipot {
       $query->execute(array($bookId, $q));
       list($rowcount)=$query->fetch();
       $query=$this->pdo->prepare('SELECT article.breadcrumb, article.name, article.href, search.text, offsets(search) AS offsets FROM search, article WHERE article.book=? AND search.rowid=article.rowid AND search.text MATCH ? LIMIT ?; ') ;
-      $query->execute(array($bookId, $q, $docmax));
+      $query->execute(array($bookId, $q, $docMax));
     }
     else {
       $query=$this->pdo->prepare('SELECT COUNT(*) AS rowcount FROM search WHERE text MATCH ? ') ;
@@ -137,16 +137,16 @@ class Teipot {
         $occDisp=$occ;
         $occMax=50;
         if ($occ > $occMax) {
-          $more='<tr><td/><td colspan="3" align="right">Plus de '.$occMax.' occurrences dans ce texte ('.$occ.'), vous les retrouvez toutes surlignées dans le <a href="'.$pot->baseHref.$row['href'].'?q='.$q.'#mark1">texte complet</a></td></tr>';
+          $more='<tr><td/><td colspan="3" align="right">Plus de '.$occMax.' occurrences dans ce texte ('.$occ.'), vous les retrouvez toutes surlignées dans le <a href="'.$this->baseHref.$row['href'].'?q='.$q.'#mark1">texte complet</a></td></tr>';
           $count=$occMax*4;
           $occDisp=$occMax.'/'.$occ;
         }
-        if($pot->baseHref=='') $row['breadcrumb']=preg_replace('@"../@', '"', $row['breadcrumb']);
+        if($this->baseHref=='') $row['breadcrumb']=preg_replace('@"../@', '"', $row['breadcrumb']);
         echo "\n",'<tr><th class="num">',$docnum,'</th><th colspan="3">',Teipot::reHref($row['breadcrumb']),' (',$occDisp,' occ.)</td></tr>';
         // echo '<tr><td colspan="3"><pre style="white-space:pre-wrap; font-family:serif; ">',$row['text'],'</pre></td></tr>';
         $mark=1;
         for ($i=0; $i<$count;$i=$i+4) {
-          echo '<tr class="snip"><td class="num">',$docnum,'.',$mark,'</td>',Teipot::snip($row['text'], $offsets[$i+2], $offsets[$i+3], $pot->baseHref.$row['href'].'?q='.$q.'#mark'.$mark),"</tr>\n";
+          echo '<tr class="snip"><td class="num">',$docnum,'.',$mark,'</td>',Teipot::snip($row['text'], $offsets[$i+2], $offsets[$i+3], $this->baseHref.$row['href'].'?q='.$q.'#mark'.$mark),"</tr>\n";
           $mark++;
         }
         $docnum++;
