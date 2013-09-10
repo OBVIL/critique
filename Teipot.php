@@ -25,9 +25,11 @@ class Teipot {
     );
   /** Generated messages */
   private static $msg=array(
+    "author"=>array("en"=>"Author","fr"=>"Auteur"),
     "authors"=>array("en"=>"Author(s)","fr"=>"Auteur(s)"),
     "date"=>array("en"=>"Date","fr"=>"Date"),
     "title"=>array("en"=>"Title","fr"=>"Titre"),
+    "titles"=>array("en"=>"Title(s)","fr"=>"Titre(s)"),
   );
   /** Default lang for messages */
   public $lang="en";
