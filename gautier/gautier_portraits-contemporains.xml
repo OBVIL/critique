@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="../../../lib/teibook/teibook.css"?>
+<?xml-model href="../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../lib/teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../lib/teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="gautier_portraits-contemporains" xml:lang="fre">
   <teiHeader>
     <fileDesc>
@@ -60,7 +60,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="?"/>
+        <date notBefore="1837" notAfter="1874"/>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -191,7 +191,7 @@
             <p>La terre de granit recouverte de chênes.</p>
           </quote>
           <p>Il personnifia la Bretagne dans la figure de <hi rend="i">Marie</hi>, doux symbole de la patrie absente et regrettée. Dans ce suave poëme, on respire l’odeur des genêts et des ajoncs, la fraîcheur âcre et salubre de l’Océan voisin, et l’on entend à travers les sons du biniou comme une modulation de flûte antique. <hi rend="i">Les Bretons</hi>, <hi rend="i">Primel et Nola</hi> sont des tableaux d’une couleur locale très-juste et très-fine, peints amoureusement par une main dès longtemps familière avec les sites et les hommes qu’elle représente ; <hi rend="i">les Ternaires</hi> ont une tendance plus mystique et semblent inspirés par le commerce de Dante. L’auteur, pénétré de l’importance du nombre trois, le retrouve dans tout et formule sous un rhythme ternaire des sentences dorées que n’eût pas désavouées Pythagore. Tous ces poëmes sont faits avec un soin, une clarté et une délicatesse extrêmes; on voit que l’auteur, dans ses longs loisirs laborieux, pesait chaque vers, chaque mot, chaque syllabe dans des balances d’or, s’inquiétant d’une assonance, d’une allitération, d’une nuance ténue de la pensée  toutes choses dont se soucie peu le vulgaire, épris d’affabulations compliquées et d’aventures romanesques. Comme si de beaux vers français ne suffisaient pas pour être inconnu, Brizeux écrivait en breton, et plusieurs de ses ballades gaéliques sont populaires là-bas sur la lande ; ainsi, il vécut tantôt en Bretagne, tantôt à Florence, triste, sauvage et fier, assez ignoré, mais n’ayant pas menti à son rêve de poëte et laissant un chef-d’œuvre, <hi rend="i">Marie</hi>. Son ambition, il n’en eut qu’une, c’était d’être de l’Académie  L’Académie aura ce chagrin, qu’il soit mort trop tôt pour qu’elle ait pu accomplir ce souhait tout, littéraire. </p>
-          <dateline>(<title>Le Moniteur</title>, <docDate when="1958-05-10">10 mai 1858</docDate>.)</dateline>
+          <dateline>(<title>Le Moniteur</title>, <docDate when="1858-05-10">10 mai 1858</docDate>.)</dateline>
         </div>
         <div>
           <head>Honoré de Balzac</head>
@@ -449,8 +449,9 @@
             <p>Nous allions faire un voyage en Italie, et avant de partir nous voulûmes dire adieu à notre illustre ami. Il était sorti en calèche, pour retirer à la douane quelque curiosité exotique. Nous nous éloignâmes rassuré, et au moment où nous montions en voiture, ou nous remit un billet de madame de Balzac, qui nous expliquait obligeamment et avec des regrets polis pourquoi nous n’avions pas trouvé son mari à la maison. Au bas de la lettre, Balzac avait tracé ces mots:</p>
             <quote>
               <l>« Je ne puis plus ni lire, ni écrire.</l>
+              <p>« <hi rend="sc">De</hi> Balzac. »</p>
             </quote>
-            <signed>« <hi rend="sc">De</hi> Balzac. »</signed>
+            
             <p>Nous avons gardé comme une relique cette ligne sinistre, la dernière probablement qu’écrivit l’auteur de <hi rend="i">la Comédie humaine;</hi> c’était, et nous ne le comprîmes pas d’abord, le cri suprême, <hi rend="i">Eli lamma Sabacthanni</hi> ! du penseur et du travailleur.—L’idée que Balzac pût mourir ne nous vint seulement pas. </p>
             <p>A quelques jours de là, nous prenions une glace au café Florian, sur la place Saint-Marc; le <hi rend="i">Journal des Débats</hi>, une des rares feuilles françaises qui pénètrent à Venise, se trouva sous notre main, et nous y vîmes annoncée la mort de Balzac.—Nous faillîmes tomber de notre chaise sur les dalles de la place à cette foudroyante nouvelle, et à notre douleur se mêla bien vite un mouvement d’indignation et de révolte peu chrétien, car toutes les âmes ont devant Dieu une égale valeur. Nous venions de visiter justement l’hôpital des fous dans l’île de San-Servolo, et nous avions vu là des idiots décrépits, des gâteux octogénaires, des larves humaines que ne dirigeait même plus l’instinct animal, et nous nous demandâmes pourquoi ce cerveau lumineux s’était éteint comme un flambeau qu’on souffle, lorsque la vie tenace persistait dans ces têtes obscures vaguement traversées de lueurs trompeuses. </p>
             <p>Huit ans déjà se sont écoulés depuis cette date fatale. La postérité a commencé pour Balzac ; chaque jour il semble plus grand. Lorsqu’il était mêlé à ses contemporains, on l’appréciait mal, on ne le voyait que par fragments sous des aspects parfois défavorables : maintenant l’édifice qu’il a bâti s’élève à mesure qu’on s’en éloigne, comme la cathédrale d’une ville que masquaient les maisons voisines, et qui à l’horizon se dessine immense au-dessus des toits aplatis. Le monument n’est pas achevé, mais tel qu’il est, il effraye par son énormité, et les générations surprises se demanderont quel est le géant qui a soulevé seul ces blocs formidables et monté si haut cette Babel où bourdonne toute une société.</p>

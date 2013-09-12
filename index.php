@@ -4,7 +4,7 @@ $time_start = microtime(true);
 // mettre le sachet SQLite dans le pot
 include ('Teipot.php');
 $pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr');
-// est-ce qu’une resssource statique répond ? Si non, passer à la suite
+// est-ce qu’une resssource statique répond ? 
 $pot->get();
 
 $q=false;
