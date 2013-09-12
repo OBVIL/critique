@@ -14,6 +14,16 @@ class Teipot {
   public $path;
   /** ../ */
   public $baseHref;
+  /** term query param */
+  public $q;
+  /** date query, start year */
+  public $start;
+  /** date query, end year */
+  public $end;
+  /** author filter, integers separated by commas */
+  public $author;
+  /** subject filter ? */
+  
   /** Content-Type header */
   static $mime=array(
       "css"  => 'text/css; charset=UTF-8',
@@ -47,6 +57,19 @@ class Teipot {
     $this->sqliteFile = $sqliteFile;
     $this->pdo=new PDO("sqlite:".$sqliteFile);
     $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
+    // set query params
+    if (isset($_REQUEST['q']) && $_REQUEST['q']) $this->q=trim($_REQUEST['q']);
+    if (isset($_REQUEST['start']) && 0+$_REQUEST['start'] != 0) $this->start=0+$_REQUEST['start'];
+    if (isset($_REQUEST['end']) && $this->start && $_REQUEST['end'] > $this->start) $this->end=$_REQUEST['end'];
+    if ($this->start && !$this->end) $this->end=$this->start;
+    if (isset($_REQUEST['author'])) {
+      $author=explode(',',$_REQUEST['author']);
+      $author=array_map(function($value) {return $value=0+$value;}, $author);
+      // unify values
+      $author=array_flip($author);
+      unset($author[0]);
+      if (count($author)) $this->author=implode(',',array_keys($author));
+    }
   }
   /** Display a message */
   public function msg($key, $lang=false, $arg=array()) {
@@ -80,11 +103,11 @@ class Teipot {
   <table class="sortable">
     <tr><th>',$this->msg('authors'),'</th><th>',$this->msg('date'),'</th><th>',$this->msg('title'),'</th></tr>  
     ';
-    $sql =  'SELECT id, name, byline, created, title FROM book ORDER BY byline, created';
+    $sql =  'SELECT id, name, byline, end, title FROM book ORDER BY byline, end';
     
     foreach  ($this->pdo->query($sql) as $row) {
       // '<th>','<a href="',$this->baseHref, $row['name'],'/">',$row['name'],'</a></th>',
-      echo "\n<tr>",'<td class="byline">',$row['byline'],'</td>','<td class="created">',$row['created'],'</td>','<td class="title"><a href="',$this->baseHref, $row['name'],'/">',$row['title'],'</a></td>';
+      echo "\n<tr>",'<td class="byline">',$row['byline'],'</td>','<td class="date">',$row['end'],'</td>','<td class="title"><a href="',$this->baseHref, $row['name'],'/">',$row['title'],'</a></td>';
       $sep="\n".'<td class="formats" nowrap="nowrap">';
       $query->execute(array($row['id']));
       while($link=$query->fetch()) {
@@ -105,6 +128,14 @@ class Teipot {
     return preg_replace('@ href="([^"]+)"@', ' href="$1?q='.$q.'#mark1"', $html);
   }
 
+  /** Table bibliographique de recherche */
+  function authors($term) {
+    $timeStart=microtime(true);
+    echo "<h1>",$rowcount," in ",(microtime(true) - $timeStart),"</h1>";
+    $timeStart=microtime(true);
+    echo " + ", (microtime(true) - $timeStart),"</h1>";
+  }
+  
   /** Résultats de recherche */
   function q($q, $bookId=null) {
     $docMax=100;

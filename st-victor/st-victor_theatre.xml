@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-02-10T15:11:30+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="st-victor_theatre" xml:lang="fr">
@@ -73,7 +73,7 @@
         <head type="h1">Avertissement</head>
         <p>On offre ici au public les articles que M. Paul de Saint-Victor a écrits sur les ouvrages des deux auteurs qui tiennent la tête de la littérature dramatique contemporaine. Publiées à des époques très différentes, au fur et à mesure de la production des œuvres, ces critiques sont reliées entre elles par un même sentiment esthétique. On les a dégagées, comme le voulait l’auteur, de toutes les circonstances fortuites qui ont entouré la naissance des ouvrages. Leur caractère littéraire apparaît ainsi plus clairement.</p>
         <p>La famille de M. de Saint-Victor et la personne à laquelle elle a fait l'honneur de confier la publication de ses œuvres posthumes ont résolu de ne réunir en volumes qu’un choix des feuilletons écrits pendant plus de trente ans avec autant de régularité que de conscience. On prépare l'impression des Salons. Elle sera suivie des articles d'art qui renferment un très long et très brillant travail sur les dessins du Louvre et des Offices de Florence, La critique littéraire paraîtra ensuite et, pour clore, la correspondance inédite. Les ouvrages déjà publiés et ceux qui le seront successivement permettront de juger, sous tous ses aspects, un artiste d'une originalité puissante qui est resté toujours fidèle à ses fonctions de journaliste et qui a pris rang parmi les personnalités littéraires les plus marquantes de notre temps.</p>
-        <byline><docAuthor>Alidor Delzant</docAuthor>.</byline>
+        <byline><docAuthor key="Delzant, Alidor (1848-1905)">Alidor Delzant</docAuthor>.</byline>
       </div>
     </front>
     <body>
