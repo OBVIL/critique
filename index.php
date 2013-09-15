@@ -2,14 +2,14 @@
 // prendre le temps
 $time_start = microtime(true);
 // mettre le sachet SQLite dans le pot
-include ('Teipot.php');
+include (dirname(__FILE__).'/../lib/teipot/Teipot.php');
 $pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr');
 // est-ce qu’une resssource statique répond ? 
 $pot->get();
 
 $q=false;
 if (isset($_REQUEST['q']) && $_REQUEST['q']) $q=$_REQUEST['q'];
-$themeHref=$pot->baseHref.'../lib/theme/';
+$themeHref=$pot->baseHref.'../lib/teipot/';
 // javascript en fin de page ?
 $js=array();
 // analyse URI
