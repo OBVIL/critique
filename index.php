@@ -84,10 +84,9 @@ if ($doc['bookId']) {
 // accueil ? formulaire de recherche général
 else {
   echo'
-    <h1>Rechercher dans la collection</h1>
     <form action="">
-      <input name="q" class="text" value="'.str_replace('"', '&quot;', $pot->q).'"/>
-      <div><label>Dates,</label> de <input name="start" class="year" value="'.$pot->start.'"/>à <input class="year" name="end" value="'. $pot->end .'"/></div>
+      <input name="q" class="text" placeholder="Rechercher dans la collection" value="'.str_replace('"', '&quot;', $pot->q).'"/>
+      <div><label>De</label> <input placeholder="1750" name="start" class="year" value="'.$pot->start.'"/></label> <label>à <input class="year" placeholder="1950" name="end" value="'. $pot->end .'"/></label></div>
       <div><label>Auteurs :</label>'.$pot->byList().'</div>
       <button type="reset" onclick="return Form.reset(this.form)">Effacer</button>
       <button type="submit">Rechercher</button>
