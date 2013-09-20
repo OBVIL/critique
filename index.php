@@ -22,7 +22,7 @@ $themeHref=$pot->baseHref.'../lib/teipot/';
   <body>
     <header id="header">
       <h1>
-        <a href="<?php echo $pot->baseHref; ?>">OBVIL, corpus critique</a>
+        <a href="<?php echo $pot->baseHref; ?>?">OBVIL, corpus critique</a>
       </h1>
       
     </header>
@@ -52,6 +52,7 @@ else {
   echo $pot->chrono();
   // présentation bibliographique des résultats
   echo $pot->biblio();
+  echo '<a name="conc"/>';
   // concordance s’il y a recherche plein texte
   echo $pot->conc();
 }
