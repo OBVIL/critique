@@ -29,24 +29,17 @@ echo $pot->byList();
       
 
     <?php
-flush(); // send some content client before searching for docs from params
-$timeStart = microtime(true);
+flush(); // send some content now, search query maybe long
 $pot->search();
-echo "<br/>",(microtime(true) - $timeStart)," s.\n";
 $timeStart = microtime(true);
+// line of results
 echo $pot->report();
-// display a chrono from search results
+// chrono from search results
 echo $pot->chrono();
-echo "<br/>",(microtime(true) - $timeStart)," s.\n";
-
-// table d’auteurs
-$timeStart = microtime(true);
+// biblio from search results
 echo $pot->biblio();
-echo "<br/>",(microtime(true) - $timeStart)," s.\n";
-// concordance
-$timeStart = microtime(true);
+// concordance from search results
 echo $pot->conc();
-echo "<br/>",(microtime(true) - $timeStart)," s.\n";
 
 
   ?>
