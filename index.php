@@ -3,12 +3,13 @@
 include (dirname(__FILE__).'/../lib/teipot/Teipot.php');
 // mettre le sachet SQLite dans le pot
 $pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr');
-// est-ce qu’un fichier statique en base est attendu pour ce chemin ? Si oui, envoyer. 
-$pot->get($pot->path);
-// Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
-$doc=$pot->doc($pot->path);
+// est-ce qu’un fichier statique (ex: epub) est attendu pour ce chemin ? 
+// Si oui, l’envoyer maintenant depuis la base avant d’avoir écrit la moindre ligne
+$pot->file($pot->path);
 // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
 $themeHref=$pot->baseHref.'../lib/teipot/';
+// Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
+$doc=$pot->doc($pot->path);
 
 
 ?><!DOCTYPE html>
@@ -27,54 +28,37 @@ $themeHref=$pot->baseHref.'../lib/teipot/';
       
     </header>
     <div id="center">
-      <nav id="breadcrumb">
-        <?php 
-        echo '<a href="',$pot->baseHref,'">OBVIL, corpus critique</a> » ';
-        // nous avons un livre, glisser aussi les liens de téléchargement
-        echo $doc['breadcrumb']; 
-        ?>
-      </nav>
-      <article id="article">
-      <?php
-
-if ($doc['body']) {
-  echo $doc['body'];
-  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot->q && (!$doc['artName'] || $doc['artName']=='index')) echo $pot->concBook($doc['bookId']);
-}
-// pas de livre demandé, montrer un rapport général
-else {
-  // charger des résultats en mémoire
+    <?php
+// pas de body trouvé, charger des résultats en mémoire
+if (!$doc['body']) {
+  $timeStart=microtime(true);
   $pot->search();
-  // nombre de résultats
-  echo $pot->report();
-  // présentation chronologique des résultats
-  echo $pot->chrono();
-  // présentation bibliographique des résultats
-  echo $pot->biblio();
-  echo '<a name="conc"/>';
-  // concordance s’il y a recherche plein texte
-  echo $pot->conc();
 }
+    ?>
+      
+      <?php 
+      echo '<nav><a href="',$pot->baseHref,'">OBVIL, corpus critique</a> » ';
+      echo $doc['breadcrumb'];
+      echo '</nav>';
+      // liens de téléchargements
+      if ($doc['downloads']) echo "\n".'<nav class="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
       ?>
-      </article>
       <aside id="aside">
         <p> </p>
           <?php
+// les concordances peuvent être très lourdes, placer la nav sans attendre
 // livre
 if ($doc['bookId']) {
   echo "\n<nav>";
-  // liens de téléchargements
-  echo "\n".'<div class="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</div>';
   // auteur, titre, date
   if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
   echo "\n".'<header><a href="'.$pot->baseHref.$doc['bookName'].'/">'.$doc['byline'].$doc['title'].' ('.$doc['end'].')</a></header>';
   // rechercher dans ce livre
   echo '
-  <form>
+  <form action=".#conc">
     <small>Rechercher dans ce livre</small><br/>
-    <input name="q" id="q" onclick="this.select()" name="search" size="25" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $pot->q) .'"/>
-    <button name="go">&gt;</button>
+    <input name="q" id="q" onclick="this.select()" class="search" size="20" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $pot->q) .'"/>
+    <input type="submit" name="go" value="&gt;"/>
   </form>
   ';
   // table des matières
@@ -85,9 +69,9 @@ if ($doc['bookId']) {
 else {
   echo'
     <form action="">
-      <input name="q" class="text" placeholder="Rechercher dans la collection" value="'.str_replace('"', '&quot;', $pot->q).'"/>
-      <div><label>De</label> <input placeholder="1750" name="start" class="year" value="'.$pot->start.'"/></label> <label>à <input class="year" placeholder="1950" name="end" value="'. $pot->end .'"/></label></div>
-      <div><label>Auteurs :</label>'.$pot->byList().'</div>
+      <input name="q" class="text" placeholder="Rechercher" value="'.str_replace('"', '&quot;', $pot->q).'"/>
+      <div><label>De <input placeholder="année" name="start" class="year" value="'.$pot->start.'"/></label> <label>à <input class="year" placeholder="année" name="end" value="'. $pot->end .'"/></label></div>
+      '.$pot->bylist().'
       <button type="reset" onclick="return Form.reset(this.form)">Effacer</button>
       <button type="submit">Rechercher</button>
     </form>
@@ -95,6 +79,28 @@ else {
 }
 ?>
       </aside>
+      <article id="article">
+      <?php
+
+if ($doc['body']) {
+  echo $doc['body'];
+  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
+  if ($pot->q && (!$doc['artName'] || $doc['artName']=='index')) echo $pot->concBook($doc['bookId']);
+}
+// pas de livre demandé, montrer un rapport général
+else {
+  // nombre de résultats
+  echo $pot->report();
+  // présentation chronologique des résultats
+  echo $pot->chrono();
+  // présentation bibliographique des résultats
+  echo $pot->biblio();
+  // concordance s’il y a recherche plein texte
+  echo $pot->conc();
+}
+      ?>
+        <p> </p>
+      </article>
     </div>
     <footer id="footer">
       Prototype d'application TEI pour le corpus critique
