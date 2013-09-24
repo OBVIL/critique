@@ -25,12 +25,18 @@ $doc=$pot->doc($pot->path);
       <h1>
         <a href="<?php echo $pot->baseHref; ?>?">OBVIL, corpus critique</a>
       </h1>
-      <?php
-        // liens de téléchargements
+      <?php // liens de téléchargements
         if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
       ?>
     </header>
     <div id="center">
+      <nav id="toolbar">
+        <?php
+        echo '<nav>';
+        echo $doc['breadcrumb'];
+        echo '</nav>';
+        ?>
+      </nav>
     <?php
 // pas de body trouvé, charger des résultats en mémoire
 if (!$doc['body']) {
@@ -75,14 +81,7 @@ else {
 }
 ?>
       </aside>
-      <nav id="toolbar">
-        <?php
-        echo '<nav>';
-        echo $doc['breadcrumb'];
-        echo '</nav>';
-        ?>
-      </nav>
-      <main id="main">
+      <div id="main">
       <?php
 
 if ($doc['body']) {
@@ -103,7 +102,7 @@ else {
 }
       ?>
         <p> </p>
-      </main>
+      </div>
     </div>
     <footer id="footer">
       Prototype d'application TEI pour le corpus critique
