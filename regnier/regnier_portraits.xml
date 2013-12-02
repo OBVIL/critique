@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../teibook/teibook.css"?>
-<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../lib/teibook/teibook.css"?>
+<?xml-stylesheet type="text/xsl" href="../lib/teipub/tei2html.xsl"?>
 <!--odt2tei: 2013-02-21T11:53:09+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="regnier_portraits" xml:lang="fr">
   <teiHeader>
@@ -56,7 +56,7 @@
       <titlePage>
         <docAuthor>Henri de Régnier</docAuthor>
         <docDate>1925</docDate>
-        <titlePart>Portraits et souvenir</titlePart>
+        <titlePart>Portraits et souvenirs</titlePart>
         <argument>
           <p>Cette édition électronique ne comporte pas le recueil « Pour les mois d’hiver » qui figure dans l'édition imprimée</p>
         </argument>
