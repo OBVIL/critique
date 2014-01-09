@@ -1,13 +1,13 @@
 <?php
 // prendre le pot
-include (dirname(__FILE__).'/../lib/teipot/Teipot.php');
+include (dirname(__FILE__).'/../teipot/Teipot.php');
 // mettre le sachet SQLite dans le pot
 $pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr');
 // est-ce qu’un fichier statique (ex: epub) est attendu pour ce chemin ? 
 // Si oui, l’envoyer maintenant depuis la base avant d’avoir écrit la moindre ligne
 $pot->file($pot->path);
 // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$themeHref=$pot->baseHref.'../lib/teipot/';
+$themeHref=$pot->baseHref.'../teipot/';
 // Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
 $doc=$pot->doc($pot->path);
 
@@ -98,7 +98,7 @@ else {
   // présentation bibliographique des résultats
   echo $pot->biblio();
   // concordance s’il y a recherche plein texte
-  echo $pot->conc();
+  echo $pot->concByBook();
 }
       ?>
         <p> </p>
