@@ -37,13 +37,13 @@ else echo '
     <link rel="stylesheet" type="text/css" href="<?php echo $theme; ?>obvil.css" />
   </head>
   <body>
-    <div id="cadre">
-      <hr class="top"/>
+    <div id="center">
+      <div id="bordertop"/>
       <header id="header">
         <h1>
           <a href="<?php echo $pot->baseHref.'?'.$pot->qsa(); ?>">OBVIL, corpus critique</a>
         </h1>
-        <a class="lien-logo" href="#"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="obvil"></a>
+        <a class="logo" href="#"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
       </header>
       <div id="contenu"><div id="contenu2">
         <aside id="aside">
@@ -62,7 +62,7 @@ if (isset($doc['bookId'])) {
   echo '
   <form action=".#conc" name="searchbook" id="searchbook">
     <input name="q" id="q" onclick="this.select()" class="search" size="20" placeholder="Rechercher dans ce livre" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $pot->q) .'"/>
-    <input type="image" id="go" alt="loupe" value="&gt;" name="go" src="'. $theme . 'img/loupe.png">
+    <input type="image" id="go" alt="&gt;" value="&gt;" name="go" src="'. $theme . 'img/loupe.png"/>
   </form>
   ';
   // table des matières
