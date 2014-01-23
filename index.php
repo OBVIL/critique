@@ -1,4 +1,7 @@
 <?php
+//
+ini_set('display_errors', '1');
+error_reporting(-1);
 // prendre le pot
 include (dirname(__FILE__).'/../teipot/Teipot.php');
 // mettre le sachet SQLite dans le pot
@@ -7,63 +10,63 @@ $pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr');
 // Si oui, l’envoyer maintenant depuis la base avant d’avoir écrit la moindre ligne
 $pot->file($pot->path);
 // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$themeHref=$pot->baseHref.'../teipot/';
+$teipot=$pot->baseHref.'../teipot/';
+// autres ressources spécifiques
+$theme=$pot->baseHref.'../theme/';
 // Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
 $doc=$pot->doc($pot->path);
-
+// pas de body trouvé, charger des résultats en mémoire
+if (!isset($doc['body'])) {
+  $timeStart=microtime(true);
+  $pot->search();
+}
 
 ?><!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <?php echo $doc['head']; ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>html.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $themeHref; ?>teipot.css" />
+    <?php 
+if(isset($doc['head'])) echo $doc['head']; 
+else echo '
+<title>OBVIL, corpus Critique</title>
+';
+    ?>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,700italic,600italic' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>html.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>teipot.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $theme; ?>obvil.css" />
   </head>
   <body>
-    <header id="header">
-      <h1>
-        <a href="<?php echo $pot->baseHref; ?>?">OBVIL, corpus critique</a>
-      </h1>
-      <?php // liens de téléchargements
-        if ($doc['downloads']) echo "\n".'<nav id="downloads"><small>Télécharger :</small> '.$doc['downloads'].'</nav>';
-      ?>
-    </header>
-    <div id="center">
-      <nav id="toolbar">
-        <?php
-        echo '<nav>';
-        echo $doc['breadcrumb'];
-        echo '</nav>';
-        ?>
-      </nav>
-    <?php
-// pas de body trouvé, charger des résultats en mémoire
-if (!$doc['body']) {
-  $timeStart=microtime(true);
-  $pot->search();
-}
-    ?>
-      
-      <aside id="aside">
-        <p> </p>
+    <div id="cadre">
+      <hr class="top"/>
+      <header id="header">
+        <h1>
+          <a href="<?php echo $pot->baseHref.'?'.$pot->qsa(); ?>">OBVIL, corpus critique</a>
+        </h1>
+        <a class="lien-logo" href="#"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="obvil"></a>
+      </header>
+      <div id="contenu"><div id="contenu2">
+        <aside id="aside">
           <?php
 // les concordances peuvent être très lourdes, placer la nav sans attendre
 // livre
-if ($doc['bookId']) {
-  echo "\n<nav>";
+if (isset($doc['bookId'])) {
+
   // auteur, titre, date
-  if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
-  echo "\n".'<header><a href="'.$pot->baseHref.$doc['bookName'].'/">'.$doc['byline'].$doc['title'].' ('.$doc['end'].')</a></header>';
+  echo "\n".'<header>';
+  if ($doc['end']) echo "\n".'<div class="date">'.$doc['end'] .'</div>';
+  if ($doc['byline']) echo "\n".'<div class="byline">'.$doc['byline'] .'</div>';
+  echo "\n".'<a class="title" href="'.$pot->baseHref.$doc['bookName'].'/">'.$doc['title'].'</a>';
+  echo "\n".'</header>';
   // rechercher dans ce livre
   echo '
-  <form action=".#conc">
-    <small>Rechercher dans ce livre</small><br/>
-    <input name="q" id="q" onclick="this.select()" class="search" size="20" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $pot->q) .'"/>
-    <input type="submit" name="go" value="&gt;"/>
+  <form action=".#conc" name="searchbook" id="searchbook">
+    <input name="q" id="q" onclick="this.select()" class="search" size="20" placeholder="Rechercher dans ce livre" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $pot->q) .'"/>
+    <input type="image" id="go" alt="loupe" value="&gt;" name="go" src="'. $theme . 'img/loupe.png">
   </form>
   ';
   // table des matières
+  echo "\n<nav>";
   echo $doc['toc'];
   echo "\n</nav>";
 }
@@ -79,12 +82,17 @@ else {
     </form>
   ';
 }
-?>
-      </aside>
-      <div id="main">
-      <?php
-
-if ($doc['body']) {
+          ?>
+        </aside>
+        <div id="main">
+          <nav id="toolbar">
+            <?php
+if (isset($doc['prevnext'])) echo $doc['prevnext'];    
+            ?>
+          </nav>
+          <div id="article">
+            <?php
+if (isset($doc['body'])) {
   echo $doc['body'];
   // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
   if ($pot->q && (!$doc['artName'] || $doc['artName']=='index')) echo $pot->concBook($doc['bookId']);
@@ -100,16 +108,17 @@ else {
   // concordance s’il y a recherche plein texte
   echo $pot->concByBook();
 }
+            ?>
+          </div>
+        </div>
+      </div></div>
+      <?php 
+// footer
       ?>
-        <p> </p>
-      </div>
     </div>
-    <footer id="footer">
-      Prototype d'application TEI pour le corpus critique
-    </footer>
-    <script type="text/javascript" src="<?php echo $themeHref; ?>Tree.js">//</script>
-    <script type="text/javascript" src="<?php echo $themeHref; ?>Form.js">//</script>
-    <script type="text/javascript" src="<?php echo $themeHref; ?>Sortable.js">//</script>
-    <script type="text/javascript"><?php echo $doc['js']; ?></script>  
+    <script type="text/javascript" src="<?php echo $teipot; ?>Tree.js">//</script>
+    <script type="text/javascript" src="<?php echo $teipot; ?>Form.js">//</script>
+    <script type="text/javascript" src="<?php echo $teipot; ?>Sortable.js">//</script>
+    <script type="text/javascript"><?php if (isset($doc['js']))echo $doc['js']; ?></script>  
   </body>
 </html>
