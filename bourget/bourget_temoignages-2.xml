@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
 <?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="bourget_temoignages-(final) " xml:lang="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="bourget_temoignages-2" xml:lang="fr">
   <!--
     VJ : correction
     * teiHeader raté : title, author, langUsage, bibl
@@ -21,6 +21,14 @@
         <respStmt>
           <name>Isma Bouhaddouf</name>
           <resp>Édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>

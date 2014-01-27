@@ -1,44 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="../../../lib/teibook/teibook.css"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="murger_propos-ville" xml:lang="fr">
   <teiHeader>
+    <!--
+      VJ
+      * mauvaise interprétation de certains champs du head, tel que title
+      * bibl not inline
+      * quelques errueurs de validation dûes à des scories ODT (xml:id redondants)
+      * des p pour de l
+      * des retours ligne gênent un peu l’indentation
+      * fichiers très clean sinon et conforme aux attentes (aucune erreur de validation)
+      * très bien pour les nombreux dialogues
+      * reprendre quelques citations
+      * revoir les lb par ex. l. 480
+    -->
     <fileDesc>
       <titleStmt>
-        <title>Propos de ville et de théâtre, par Henry
-          Murger.</title>
-        <author key="Murger, Henry (1822-1861) "> Henry Murger</author>
+        <title>Propos de ville et de théâtre</title>
+        <author key="Murger, Henry (1822-1861)">Henry Murger</author>
       </titleStmt>
       <editionStmt>
         <edition> OBVIL </edition>
         <respStmt>
-          <name> Camille Bullou</name>
-          <resp> édition électronique </resp> 
+          <name>Camille Bullou</name>
+          <resp>édition électronique </resp> 
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="163" unit="page"/>
-        <measure quantity="1583" unit="paragraph"/>
-        <measure quantity="50992" unit="word"/>
-        <measure quantity="304793" unit="character"/>
-      </extent>
       <publicationStmt>
         <publisher> Obvil </publisher>
         <date when="2013"/>
-        <idno> ? </idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/murger_propos-ville.xml</idno>
         <availability status="restricted">
           <licence target=" ? ">License ?</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl> 
-          <author> Henry Murger</author> 
-          <title>Propos de ville et propos de théâtre</title> 
-          <publisher>Michel Lévy </publisher> 
-          <pubPlace> Paris</pubPlace> 
-          <date>1853</date>
-        </bibl>
+        <bibl><author>Henry Murger</author>, <title>Propos de ville et propos de théâtre</title>, <publisher>Michel Lévy</publisher>, <pubPlace>Paris</pubPlace>, <date>1853</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -81,7 +88,7 @@
             oncle qu’il mange avec moi. — Nous venons à peine de nous mettre à table. — Attends au
             moins que nous soyons au fromage.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un étranger venu à Paris depuis peu de temps, et ne connaissant pas encore la topographie
           de la capitale, avait à visiter un de ses parents détenu pour dettes. Il s’informait,
           auprès d’un de ses amis, du plus court chemin qu’il fallait prendre pour aller à
@@ -89,7 +96,7 @@
         <list type="dialogue">
           <item>— Prenez par mademoiselle M..., lui répondit-on.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Quelle est donc, je vous prie, cette dame— qui vient d’entrer dans
             l’avant-scène ?</item>
@@ -99,7 +106,7 @@
           <item>— Et quel est ce jeune homme pâle qui l’accompagne ?</item>
           <item>— C'est son cure-dents.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Aux gens qui lui plaisent, mademoiselle A... accorde volontiers, par amour de l’art, ce
           que tant d’autres, qui ne la valent pas, n’accordent que par amour de l’or. Seulement,
           pour ne pas se tromper, elle a soin d’enregistrer sur le carnet de ses fantaisies ceux qui
@@ -114,7 +121,7 @@
           réel avait été remplacé par celui du quatrième jour de la semaine.</p>
         <p>Mademoiselle A..., qui rit encore de l’aventure, appelle cette journée le dimanche des
           quatre jeudis.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Avant d’avoir maison à la ville et à la campagne, avant de manger des potages à la purée
           de perles, mademoiselle A. S... ne savait jamais le matin son adresse du soir; elle
           mangeait des pommes et marchait à pied sur les trottoirs. Un grand seigneur qui avait du
@@ -129,7 +136,7 @@
             demandait-on.</item>
           <item>— Ça me rappelle... répondit mademoiselle A. S... avec mélancolie.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>L'inconvenance et l’incivilité sont, avec les portraits non ressemblants, la spécialité
           du peintre B... Dans un café où il va tous les soirs, B... venait de scandaliser la
           réunion, qui n’a cependant pas la réputation d’être bégueule. — Au lieu de s’excuser, il
@@ -140,7 +147,7 @@
             cependant reçu dans tous les salons.</item>
           <item>— De cent couverts... répondit un de ses amis.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. X... fut appelé dernièrement par le directeur d’une revue dont le style est aussi gris
           que la couverture. On désirait avoir un roman du spirituel conteur. Les conditions faites,
           l’ouvrage est promis.</p>
@@ -150,7 +157,7 @@
           <item>— Volontiers, répliqua celui-ci, mais alors vous m’en payerez l’abonnement en
             sus.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un provincial gras, gros et grossier, véritable muid de sottise et d’écus, entourait de
           ses hommages une jeune actrice qui est venue au monde avec la prudence du serpent. Aussi
           crut-elle devoir prendre des renseignements sur son galant départemental, et s’adressa à
@@ -159,7 +166,7 @@
           <item>— Tu peux y aller, répondit celle-ci, M*** est un homme qui a du foin dans son
             assiette.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. R... habitué des Variétés, prenait des renseignements sur une demoiselle qui a débuté
           depuis peu dans les avant-scènes des théâtres, les jours de première représentation.</p>
         <list type="dialogue">
@@ -168,7 +175,7 @@
           <item>— Je ne la crois pas assurée contre ce genre d’incendie, répondit le voisin. Du
             moins, elle ne porte pas la plaque.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. D... est un homme du monde qui s’est fait homme de lettres amateur, et se livre
           particulièrement au pastiche. Il fait du Balzac, comme M. Ponsard fait du Corneille; — il
           fait du Musset, comme M. du Terrail fait du Soulié:— il fait du Sand, comme M. Lucas
@@ -181,7 +188,7 @@
           <item>— Oh ! c’est trop fort ! — interrompit le journaliste, — quand on fait de la fausse
             monnaie, on ne perd pas son temps à imiter des gros sous.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dans un petit théâtre du boulevard, il existe un artiste dont l’avarice est arrivée à un
           tel point qu’il ferait à coup sûr interdire Harpagon comme prodigue, s’il était son père.
           C'est lui qui, pour s’épargner la dépense du rouge de théâtre, a inventé de se serrer le
@@ -203,7 +210,7 @@
           <item>— Je veux bien, dit l’avare; — mais, après la pièce, — tu me rendras une
             chemise.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Madame de G... est liée depuis longtemps avec un homme de lettres chauve, — de succès
           surtout. Mais, depuis quelque temps, la discorde est dans le ménage. — Un divorce est à
           l’horizon.</p>
@@ -211,7 +218,7 @@
         <list type="dialogue">
           <item>— Ah ! ma chère, répliqua celle-ci, cela ne tient plus qu’à son cheveu !</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>L. L... a inventé un moyen infaillible pour être servi promptement et être bien servi,
           dans les restaurants, les jours où il y a encombrement et où les garçons, ne pouvant
           servir tout le monde à la fois, prennent le parti de ne servir personne.</p>
@@ -246,7 +253,7 @@
           comptoir. — Le retour de l’Inde ne lui était compté que quinze sous: il fit l’observation
           à la préposée aux mathématiques; cette dame lui répondit qu’elle ne pouvait prendre sur
           elle de changer les prix de la maison.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un écrivain, jadis chef d’une école de philosophie, avait porté au directeur d’un grand
           journal un article intitulé <hi rend="i">Dieu</hi>. Au bout de trois mois, pensant que son
           article avait été mis dans la boîte aux oublis, le philosophe se rend au journal pour en
@@ -255,7 +262,7 @@
           <item>— Que diable voulez-vous que j’imprime un article qui a un tel titre ? répondit le
             directeur. — Cela manque d’actualité.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>A... venait de se battre en duel pour la troisième fois depuis trois mois. Plus brave
           qu’heureux dans ces sortes de parties, il est toujours blessé— légèrement. — Un de ses
           amis vint lui rendre visite.</p>
@@ -268,7 +275,7 @@
           des excuses, — on lui en accorde trois pouces.</p>
         <p>Le soir, on racontait l’affaire devant D.... — Encore touché, dit-il ! Décidément, il
           veut faire collection.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Tout le monde a connu P..., un charmant garçon qui fut autrefois employé à la
             <title>Patrie</title> comme rédacteur des faits divers. Dans ces modestes fonctions,
           P... apportait un soin, une exactitude, une fidélité de renseignements et une recherche de
@@ -281,7 +288,7 @@
           la célèbre phrase: « <q>Les secours les plus empressés n’ont pu le rappeler à la
           vie</q>, » appliquée à un suicide de trois jours, et à propos de laquelle les héritiers de
           Lapalisse voulaient lui intenter un procès.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Il était fort dangereux de rencontrer P... les jours où il revenait à son journal le
           carnet vide de faits divers, car il ne reculait devant rien pour se sauver de la
           bredouille, et vous eût cherché lui-même dispute, avec complication de voies de fait,
@@ -297,7 +304,7 @@
           vu dix bateliers courir au sauvetage du chapeau. — Le soir, la <title>Patrie</title>
           enregistrait— un nouveau suicide, — qui est resté comme un des bons morceaux de son
           rédacteur.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un matin, un de ses amis qui se rendait à son bureau, rencontre P... planté tout droit
           devant un bâtiment en construction dont les échafauds étaient remplis de maçons, que P...
           avait surnommés, à cause de leur agilité, les <hi rend="i">écureuils limousins</hi>.
@@ -313,7 +320,7 @@
         <list type="dialogue">
           <item>— J'attends qu’il tombe, répondit-il.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M... habite ordinairement la campagne. Chasseur comme d’Houdetot et Blaze, qui resteront
           les classiques de la chasse au chien d’arrêt, il vit au milieu d’une petite meute qui
           ferait l’orgueil d’un chenil princier. Sévère, mais juste à l’égard de ses élèves, qu’il
@@ -353,7 +360,7 @@
           <item>— Bah ! fit M... en riant, ne te désole pas; avant la chasse, ça porte
             bonheur.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un Atlas et un Hercule de carrefour se disputaient au coin d’une rue. Le dictionnaire
           d’injures épuisé, les adversaires, excités par la galerie, allaient en venir aux mains.
           L'un d’eux, montrant à l’autre son poing formidable, lui dit:</p>
@@ -362,7 +369,7 @@
           <item>— Vois-tu celui-là ? dit l’autre, faisant le même mouvement offensif, ça tue les
             bouchers.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. L... arrive de Londres. Une dame qui ne connaît pas l’Angleterre, lui demandait des
           renseignements sur ce pays.</p>
         <list type="dialogue">
@@ -371,7 +378,7 @@
             la première personne que j’ai rencontrée à Londres était un pauvre honteux qui n’osait
             pas demander l’aumône, parce qu’il n’avait pas de gants.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. R..., riche propriétaire aux colonies, venu à Paris pour y passer quelque temps,
           dînait aux Provençaux en compagnie d’artistes de tous les arts. Parmi les conviés se
           trouvait mademoiselle E..., de l’Opéra, dont les naïvetés font les délices du foyer de la
@@ -384,7 +391,7 @@
           <item>— Comment, ruiné ! interrompit mademoiselle E... avec conviction; mais pour quarante
             francs vous auriez deux cents timbres.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>La même demoiselle fit un jour une chute pendant la répétition d’un ballet. Le
           chorégraphe P... se montrait assez inquiet.</p>
         <list type="dialogue">
@@ -394,7 +401,7 @@
             les mains de madame Pl... la mère, si vous me dites encore des choses indécentes, je me
             plaindrai au directeur.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Hyacinthe posait pour sa charge chez Nadar, et il avait déjà donné deux séances sans que
           la besogne fût achevée. En excuse à la longueur du temps, l’artiste alléguait plaisamment
           la longueur du nez de son modèle.</p>
@@ -404,7 +411,7 @@
           <item>— Ce n’est pas que cela m’ennuie, répondit-il; mais si j’avais 800, 000 fr. de
             rente, je ne les dépenserais pas uniquement à ce plaisir-là.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Deux vaudevillistes qui sont parrains d’ouvrages charmants cent fois applaudis, E. L...
           et M. M..., se promenaient sur le boulevard, le soir d’une première représentation qui
           leur inspirait des inquiétudes que le public ne devait pas réaliser. Tout à coup, M. M...
@@ -414,7 +421,7 @@
           <item>— J'entre là pour acheter un parapluie, dit M. M...; attends-moi.</item>
           <item>— Pendant que tu y seras, ajoute L..., achète aussi un parachute.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>*** est un de ces hommes de lettres qui tiennent dans la littérature le même rang que
           l’ablette dans l’ichthyologie. Comme romancier, il a eu six colonnes de feuilleton et dix
           bouts d’articles imprimés dans les journaux, les jours où l’on manquait de faits divers.
@@ -439,12 +446,12 @@
             jambes duquel *** est toujours fourré.</item>
           <item>— Oui, répondit le protecteur, je vois cela à mes souliers.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Entre autres cadeaux du dernier jours de l’an, mademoiselle M..., qui a ruiné tant de
           jeunes gens de famille, a reçu un magnifique bracelet en or massif formant une chaîne et
           se fermant par un cadenas également en or, sur lequel était gravée cette inscription:</p>
         <p>« À mademoiselle M..., les gardes du commerce reconnaissants. »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dans une conversation d’après boire, à ce moment du souper où la médisance devient le
           meilleur <hi rend="i">pousse-café</hi>, — quatre messieurs, jouissant d’une grande
           réputation d’entraîneurs— sur les deux <hi rend="i">turfs</hi> du Champ-de-Mars et de la
@@ -459,7 +466,7 @@
           <item>— Vous savez bien, dit l’un des convives, que le comte est un original qui ne veut
             jamais faire comme tout le monde.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. Michel Carré et son ami Jules Barbier ont entrepris avec succès le rajeunissement de
           ce vieil Eson dramatique qu’on appelle un poëme d’opéra-comique. Grâce à eux, les
           musiciens en réputation commencent à croire que la poésie bien faite n’empoisonne pas la
@@ -481,7 +488,7 @@
           nerf olfactif,  <lb/>Et me fasse trouver l’homme <lb/>Un peu plus récréatif.</l>
         <p>Le garçon, interrogé ainsi, — hésite quelques secondes, — puis, ayant compris
           soudainement, il apporte un verre d’absinthe.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Certaines maîtresses de maison ont adopté la coutume d’introduire dans leurs soirées des
           intermèdes de philanthropie. Entre deux contredanses, elles arrivent négligemment auprès
           des cavaliers, et, avec toutes les séductions familières aux sirènes de la bienfaisance,
@@ -495,7 +502,7 @@
           <item>— Ma foi, non, répondit celui-ci, je ne vais pas dans une maison où l’on sucre le
             café avec des orphelins.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Demi-artiste, demi-millionnaire, mais double fat et totalité d’imbécile, un individu, qui
           n’a sur ses amis que la supériorité de pouvoir faire à lui seul autant de sottises que
           tous ses amis réunis, le jeune L... couronne, dit-on, l’œuvre de ses folies en conduisant
@@ -509,7 +516,7 @@
             vous traduirai son opinion en termes honnêtes: « <q>Ce sont des gens, dit-il, qui
               crachent dans leur verre avant que de boire</q>. »</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>La marquise de G..., restée veuve avec des biens considérables, se plaignait d’avoir du
           chagrin à son oncle, le vieux et spirituel chevalier de M...</p>
         <list type="dialogue">
@@ -520,7 +527,7 @@
           <item>— Ma nièce, répliqua le chevalier, cet aphorisme ressemble au mal que les gourmands
             disent des truffes devant les gens qui n’ont pas dîné.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Le coupé de mademoiselle D... stationnait devant les <hi rend="i">Villes de France</hi>.
           Le cocher, qui s’était endormi sur son siége, ne s’apercevait pas des efforts que faisait
           sa maîtresse pour ouvrir la portière. Passe un jeune homme qui s’aperçoit des embarras de
@@ -535,7 +542,7 @@
         <p>Après une courte hésitation, — elle offrit au jeune homme une place dans sa voiture, — et
           elle l’emmena chez elle, où elle lui offrit de partager son dîner qui l’attendait.</p>
         <p>Il y a eu du dessert.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>À l’un de ses duels, H...., réveillé le matin par ses témoins qui venaient le prendre, ne
           se rappelait plus le motif de cette visite matinale.</p>
         <p>La pluie tombait à flots, — le vent faisait rage, et H... était furieux.</p>
@@ -563,7 +570,7 @@
           <item>— Ah ! maintenant que je suis habillé, fit H... en mettant son chapeau,
             allons-y.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dialogue entre deux demi-boursiers. </p>
         <list type="dialogue">
           <item>— Oui, mon cher, je suis furieux contre V...</item>
@@ -573,7 +580,7 @@
           <item>— C'est ça, dit l’ami, la première fois que ce sera ton jour d’avoir Stéphanie, tu
             la lui prêteras.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Autant M. P. F, est myope, — autant M... est sourd, mais d’une surdité tellement
           authentique, qu’elle ne lui permet pas même d’entendre le bien qu’on dit de lui, ou le mal
           qu’on dit de ses amis. — Dans un repas de chasseurs, où il se trouvait, — l’amphitryon qui
@@ -586,14 +593,14 @@
           <item>— C'est moi, répondit son ami, qui te demande si tu veux du pâté de foie
             gras.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Une célèbre crinoline, revenant de Mabille, rencontre une de ses amies.</p>
         <list type="dialogue">
           <item>— Eh bien ! lui demande celle-ci, es-tu contente ? Était-ce bien composé ce
             soir ?</item>
           <item>— Ne m’en parle pas, ma chère, — une société d’économistes.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>J. T... ne vise pas au dandysme. — Non, ce n’est pas sa spécialité. Malgré sa tenue
           négligée, il n’essaye pas moins de faire croire à tous ses amis qu’il fréquente la plus
           haute société parisienne et qu’il y est admis libre de toute étiquette...</p>
@@ -606,7 +613,7 @@
           <item>— Mais oui, répondit T..., je sors en ce moment de chez le prince...</item>
           <item>— De chez le <hi rend="i">prince Eugène</hi>.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Les domestiques qui sont au service des artistes ou des gens dont la publicité s’occupe
           fréquemment, se montrent tous fort enclins à se mettre à la remorque de la réputation de
           leurs maîtres. Quelques-uns sont même parvenus à se créer une sorte de personnalité, entre
@@ -623,7 +630,7 @@
             parlé de moi ! Il me semble que je vaux bien Verrou, et ces messieurs, que vous recevez
             depuis si longtemps, me devraient bien une politesse.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Si les familiers de l’atelier Dantan se montrent un peu négligents à tresser des
           couronnes pour l’ambitieuse Victoire, ils n’oublient pas ses bons services et son
           affabilité ordinaire lorsque vient le Jour de l’An. — Au premier janvier dernier, M.
@@ -645,7 +652,7 @@
           de l’Étoile... Quelques jours après la publication de cette anecdote, Adolphe, initié
           subitement aux lois du bien-vivre, prenait un coupé et venait, vêtu comme un parfait
           notaire, déposer sa carte dans les bureaux du journal qui l’avait publiée.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un des amis de Lafontaine fit un jour à Adolphe la politesse de lui apporter le roman de
           Benjamin Constant:</p>
         <list type="dialogue">
@@ -659,7 +666,7 @@
             aurais fourni des renseignements. Cependant, une politesse en vaut une autre, — et quand
             je saurai son adresse, j’irai lui porter ma carte.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Lafontaine avait dernièrement à déjeuner chez lui un personnage officiel qui approche
           souvent S. M. l’Empereur. — Adolphe, qui est d’ailleurs un excellent serviteur et un
           garçon intelligent, s’était distingué. — Il avait même daigné composer lui-même une
@@ -674,7 +681,7 @@
           <item>— Seulement, si pareil honneur m’arrive, disait-il à un de ses camarades, mon parti
             est pris, — je tutoierai M. Lafontaine.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>L'influence du printemps commence à se faire sentir. — On se marie beaucoup à Paris
           depuis quelque temps. — Il est impossible d’entrer dans un restaurant sans tomber au
           milieu d’un repas nuptial. — Les voitures publiques deviennent insuffisantes, et, dans
@@ -748,7 +755,7 @@
           <item>— Oh ! ma chère, répondit la jeune épouse, — il a employé ma dot à acheter le fonds
             d’Othello...</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dans le cabinet d’un restaurant, deux amants <hi rend="i">s’expliquaient</hi>. Chacun
           d’eux ayant épuisé la somme d’arguments que lui fournissait son droit, après un bruyant
           échange de propos, les gestes remplacèrent le discours, et les parties commencèrent un
@@ -760,14 +767,14 @@
             verrai pas clair pour te jeter la soupière à la tête.</item>
         </list>
         <p>Un double éclat de rire se fit entendre, et la querelle eut un baiser pour finale.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Le chef de cabinet d’un ministère racontait l’autre jour, dans un salon, qu’il avait eu
           le matin sous les yeux une demande signée d’un nom très-connu dans l’industrie, et qui
           était ainsi conçue:</p>
         <p>« Monsieur le ministre,</p>
         <p> » J'ai <hi rend="i">un mot</hi> à dire à Votre Excellence: je la prie de vouloir bien
           m’accorder, pour samedi prochain, une audience de <hi rend="i">deux heures</hi>. »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dans une maison où elle avait été invitée, et où on l’avait reçue avec toutes les
           attentions que l’on doit à une femme et à une artiste de talent, mademoiselle *** oublie
           un soir qu’elle était dans le monde, elle prend le lustre pour la rampe, le parquet pour
@@ -781,7 +788,7 @@
           <item>— Mais probablement, fit la dame, j’avais eu l’honneur d’inviter mademoiselle *** et
             elle m’envoie sa cuisinière.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Sur le boulevard, où il se promenait pour la première fois après dix ans d’absence,
           l’avocat S..., autrefois journaliste, rencontra, parmi ses anciennes connaissances,
           M. M..., avec lequel il avait été très-lié autrefois.</p>
@@ -792,7 +799,7 @@
           <item>— Eh ! cher ami, répondit modestement M. M..., il faut bien faire quelque
             chose.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Les personnes qui s’occupent des choses du théâtre se rappellent sans doute qu’il y a
           quelques années une scène de vaudeville était dirigée par un Asiatique bizarre, — qui a
           laissé dans sa carrière administrative un recueil de souvenirs à faire passer la mémoire
@@ -869,7 +876,7 @@
           prise, — qu’il se refuse.</p>
         <p>Il fit chien lui-même, et le fit en effet si bien que tout le public se mit à appeler
           Azor.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Deux jeunes gens entrent dernièrement dans un restaurant: l’un d’eux demande la carte.
           — Le garçon l’apporte, et place les couverts. Bien que le menu, dressé par l’amphitryon,
           fût très-simple, — à chaque chose qu’il demandait, le garçon s’inclinait et répondait d’un
@@ -880,7 +887,7 @@
           <item>— Donnez-nous l’adresse des Frères provençaux, — répondit l’un des jeunes
             gens.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un jouvenceau, frais émoulu de la lecture de <title>Faublas</title> et des
             <title>Mémoires de Casanova</title>, s’est épris d’une ingénue de vaudeville. Pour
           abréger les préliminaires, il a eu le bon esprit de lui adresser son placet dans une
@@ -894,13 +901,13 @@
           <item>— Mais, sans doute.</item>
           <item>— C'est bien étonnant; je n’ai pas reconnu l’enveloppe.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Nous avons lu sur un album ces remarques d’une dame dont le cœur a une grande réputation
           de cosmopolitisme:</p>
         <p>« Le Français sait le mieux faire parler l’amour; l’Italien le fait le mieux agir; le
           Russe le fait agir et parler également bien; l’Allemand l’endort; le Polonais le
           ruine. »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. le comte L. de R... qui, à l’âge de trente-six ans, devait plus de deux millions, eut
           un jour l’idée de mettre un peu d’ordre dans ses affaires, et demanda au préfet de la
           Seine, qui était alors un de ses amis, l’autorisation de rassembler ses créanciers dans le
@@ -908,7 +915,7 @@
         <list type="dialogue">
           <item>— Accordé, — répondit le préfet, — s’il n’y a pas d’autre revue ce jour-là.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Le calembour par à peu près est en faveur dans les ateliers.</p>
         <p>On demandait au peintre G... son opinion sur un de ses confrères qui passe pour avoir des
           terres dans le royaume des pauvres d’esprit.</p>
@@ -925,7 +932,7 @@
           <item>— Bah ! répond celui-ci, dans son accent natal et en montrant ses fers, où il y a de
             la <hi rend="i">chaîne</hi> il n’y a pas de plaisir.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dans un des cafés du boulevard, où quelques célébrités littéraires se réunissent chaque
           soir après minuit, M. *** racontait l’autre jour qu’il était obligé d’intenter un procès à
           un petit <hi rend="i">Magazine</hi> à bon marché où on lui refusait de lui payer ses <hi
@@ -934,7 +941,7 @@
           <item>— Ne pas vous payer les blancs ! s’écria un de ses confrères ! — mais si j’étais
             votre éditeur, moi, je vous les payerais le double.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>À l’époque où M. Roqueplan dirigeait le théâtre des Variétés, un vaudevilliste, qui le
           tourmentait depuis longtemps et sans résultat pour obtenir une lecture, usa d’une
           influence ministérielles pour forcer les préventions directoriales. — Un billet de
@@ -947,7 +954,7 @@
           <item>— Ah ! pardon, fit M. R... en se levant tout à coup. — Pardon, monsieur, — mais il
             est inutile de continuer. Ce sujet-là ne peut pas convenir à mon cadre.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. R..., qui est, comme on le sait, l’homme paradoxal par excellence, affirmait que pour
           bien diriger un théâtre il fallait surtout ne pas s’en occuper. — Aussi avait-il pour
           système de consigner sa porte à tous les auteurs, et ne recevait que ceux qui étaient
@@ -970,7 +977,7 @@
             dans son cabinet, pour lui signer la réception de ce chef-d’œuvre de bouffonnerie qui
             s’appelle <title>la Vendetta</title>.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>À propos de lecture dramatique, celle-ci nous rappelle une aventure qu’on attribue à
           l’auteur dramatique le plus myope des temps modernes. — M. *** est, parmi ses confrères,
           un de ceux qui ont le plus de croyance en leurs œuvres. — Aussi, lorsqu’il lit une pièce
@@ -985,7 +992,7 @@
           enfants</hi> !</q> »</p>
         <p>Le comité fut tellement attristé par ce dénoûment, que son vote en prit le deuil dans un
           scrutin tout en boules noires.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un rédacteur du <title>Times</title>, voyageant dernièrement en Amérique, se trouva dans
           un convoi de chemin de fer où un accident venait de se produire par suite de négligence.
           Mais, aux États-Unis, un accident de ce genre n’est jamais un événement. À peine
@@ -999,7 +1006,7 @@
           <item>— La Compagnie ne reçoit de réclamations que lorsqu’elles sont couvertes de dix
             signatures. — Il nous manque trois voix !</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un autre étranger, ignorant également les habitudes du pays, se présentait un jour à un
           bureau de police, à la suite d’un accident de railway, et voulait déposer une plainte à
           propos de son bras cassé.</p>
@@ -1007,7 +1014,7 @@
           <item>— Il y a trois jours, répondit le préposé aux malheurs, nous avions trente morts
             ici, et personne ne s’est plaint.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>La Compagnie concessionnaire d’une des grandes lignes américaines, jalouse d’assurer la
           sécurité aux voyageurs, vient, dit-on, de prendre la décision suivante:</p>
         <p>« À l’avenir chacun des trains contiendra un wagon-chapelle, où plusieurs ministres du
@@ -1017,7 +1024,7 @@
         <p> » Deux hommes de loi feront également partie de chaque convoi, et pourront, s’il y a
           lieu, recevoir les dispositions testamentaires des voyageurs qui parcourent les chemins de
           fer du Nouveau-Monde, — avec embranchement sur l’autre. »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>À l’époque où il n’était ni millionnaire, ni commandeur d’ordres étrangers, mais
           simplement un homme de beaucoup d’esprit, ***, qui a toujours eu le goût de la
           représentation, invitait souvent des amis à dîner chez lui. On était, au reste,
@@ -1033,7 +1040,7 @@
         <list type="dialogue">
           <item>— Tu avais raison, dit-il à son ami, — ça manquait de poivre rouge.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un monsieur, passant dans la rue, est abordé par un homme qui lui demande l’aumône. Il a
           de la famille et n’a pas mangé depuis la veille. — Le monsieur le mène chez un boulanger,
           achète un pain de huit livres et veut le lui mettre sous le bras.</p>
@@ -1041,7 +1048,7 @@
           <item>— Allons donc, fit le mendiant en repoussant l’offrande, on me prendrait pour un
             maçon !</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un rapin, qui redoublait sa Bohême, — devait, depuis sept ou huit ans, 150 fr. à un
           tailleur. — Dernièrement, le débiteur se présente chez son créancier et le trouve plus que
           jamais disposé à conserver le <hi rend="i">statu quo</hi> dans leur situation
@@ -1065,7 +1072,7 @@
             Si vous étiez mon débiteur aujourd’hui, je serais obligé, par mon état de gêne, de vous
             traiter avec la plus grande rigueur.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un de nos amis se trouvait pas hasard à dîner chez un monsieur dont l’état de
           sganarellisme n’est un mystère pour personne, — pas même pour lui. Au dessert, on se mit à
           dire un peu de mal du prochain et de la prochaine. Notre ami, invité à faire sa partie,
@@ -1078,7 +1085,7 @@
           <item>— Vous avez, lui répondit celui-ci, oublié le proverbe, — il ne faut pas parler de
             corde dans la maison d’un... pendu.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Voici un mot de M. Meyerbeer qui exprime tout le naïf orgueil du génie:</p>
         <p>À l’une des répétitions de <title>l’Étoile du Nord</title>, l’illustre maître aperçut un
           pompier de service qui donnait de bruyants témoignages de son admiration. La répétition
@@ -1101,7 +1108,7 @@
           <item>— Eh bien ! mon ami, puisque vous êtes content, je puis, si vous le désirez, vous
             rendre un petit service, — je vous ferai remettre de garde demain.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>On parlait l’autre jour, devant la charmante madame C..., du danger que l’on court à
           rencontrer M., qui passe pour avoir le <hi rend="i">mauvais œil</hi>.</p>
         <list type="dialogue">
@@ -1112,7 +1119,7 @@
           <item>— Puisque tu étais avec ton mari, lui dit tout bas une de ses amies, c’était
             inutile.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Le docteur A..., allant faire une visite à l’une de ses clientes surprit la fille de
           celle-ci, une enfant de quinze ans, tellement absorbée dans une lecture, qu’elle ne
           s’apercevait pas même de sa présence.</p>
@@ -1120,7 +1127,7 @@
           <item>— Que lisez-vous donc là de si intéressant ? demanda le docteur.</item>
           <item>— C'est un livre qu’on a défendu de lire à maman, répondit l’ingénue.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="i">Langage populaire</hi>. — Un ouvrier, — ayant eu, après boire, avec un de
           ses camarades, une de ces explications où, les arguments de la rhétorique épuisés, on a
           recours à ceux de la nature, — rentrait dans son ménage, — la figure contusionnée.</p>
@@ -1129,7 +1136,7 @@
           <item>— Je suis tombé sur le pavé !</item>
           <item>— Dans la rue aux coups de poings, — répliqua la ménagère.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un écrivain, dont les romans se trouvent en feuilles chez les éditeurs de denrées
           coloniales, ou dans les cabinets où la lecture n’est qu’un accessoire, présentait
           dernièrement un manuscrit au directeur d’une revue parisienne, et comme celui-ci lui
@@ -1140,7 +1147,7 @@
           <item>— Vous voulez dire beaucoup de kilos, — répondit l’autocrate de la <hi rend="i"
               >Revue</hi>.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Tout le monde ne peut pas descendre des Montmorency. M.... le prouve. Il compte cependant
           des grands cordons dans sa famille: son père en tirait un à l’hôtel du comte de H., où sa
           mère était cuisinière. Se sentant appelé vers d’autres destins, *** renia sa parenté et se
@@ -1152,7 +1159,7 @@
           <item>— Lorsque je demande un pareil service à M. votre père, répondit celui-ci, j’ajoute:
             s’il vous plaît.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Se trouvant aux dernières courses, ***, ivre de joie d’avoir gagné une poule de cinquante
           francs, voulait la faire pondre dans le giron de la charmante Julie B., et tout en
           caracolant près de son équipage, il lui lançait des œillades dont les étincelles
@@ -1162,7 +1169,7 @@
             un membre du Jockey's-Club qui se trouvait auprès d’elle.</item>
           <item>— Ce n’est pas un sportman, — c’est un sportier, ma chère.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— On me compare toujours à ma sœur, disait la belle Julie B.... Il y a pourtant une
             grande différence entre nous. — Elle a toujours une douzaine d’amants, et moi je n’en ai
@@ -1170,7 +1177,7 @@
           <item>— C'est vrai, lui répondit-on; il y a entre vous deux la différence d’un coupé de
             régie à un omnibus.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un jeune <hi rend="i">faon</hi> de la coulisse avait promis à sa <hi rend="i">biche</hi>
           de lui offrir, à l’occasion de sa fête, — quelques bonbons sortis des laboratoires de
           Mirès-Pereire-Rotschild-Millaud, etc. — Comme il lui apportait son cadeau, marchant à pas
@@ -1179,7 +1186,7 @@
           délicatement chacun des pétales de l’oracle amoureux:— <hi rend="i">Il m’aime</hi>,
           Orléans; — <hi rend="i">un peu</hi>, Centre; — <hi rend="i">beaucoup</hi>, Nord; — <hi
             rend="i">passionnément</hi>, Autrichiens; — <hi rend="i">pas du tout</hi>, Midi.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M*** possède une singulière spécialité de <hi rend="i">jettatore</hi>. Au dire de ses
           amis, il est de mauvais augure de le rencontrer quand on va à un rendez-vous de bonne
           fortune. Ou l’on ne trouve pas la personne qu’on espérait y voir, ou si on la trouve, il
@@ -1206,7 +1213,7 @@
         <list type="dialogue">
           <item>— Soyez franc... vous avez rencontré mon mari.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="sc">Souvenirs Du Corsaire-Satan</hi>. — On sait que Le-Poitevin-Saint-Alme
           appelait les jeunes rédacteurs du <title>Corsaire ses petits crétins</title>. En 1846, à
           l’époque où la feuille satirique atteignait à son plus haut degré de prospérité, quatre ou
@@ -1218,28 +1225,28 @@
           causé moins d’épouvante que ne lui en causa l’outrecuidante prétention de ces jeunes
           manœuvres de lettres. — Il s’empressa de leur signer leur passe-port pour une autre
           patrie.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Comme il fallait cependant remplacer les déserteurs, on fit appel à des volontaires pris
           dans la catégorie des gens dits du monde, et des nouvellistes amateurs. Ce fut alors qu’on
           vit paraître, dans le <hi rend="i">Corsaire</hi>, des nouvelles à la main qui avaient
           charmé la famille de Noé pendant sa navigation diluvienne, et qui plus tard avaient fait
           les délices des grognards d’Agamemnon au bivouac de Troie.</p>
         <p>Les gens soi-disant bien informés envoyaient des nouveautés de ce genre:</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>« Pendant la campagne d’Egypte, le général Bonaparte, montrant les pyramides à ses
           troupes, leur adressa ces paroles mémorables: « Soldats ! du haut de ces monuments,
           quarante siècles vous contemplent ! »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>« Un plaisant, rencontrant dans la campagne un médecin qui allait faire ses visites en
           chassant, lui demanda spirituellement s’il avait besoin d’un fusil pour ses malades. »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Ce genre de nouvelles à la main ne tarda pas à attirer aux propriétaires du <hi rend="i"
             >Corsaire</hi> quelques lettres, dans lesquelles on leur demandait un désabonnement de
           faveur. Virmaître, obligé de convenir que les petits crétins du père Saint-Aime avaient un
           peu plus d’imagination que les autres, se montra disposé à leur faire quelques
           concessions. Une combinaison fournie par le hasard lui permit de se montrer généreux sans
           porter atteinte aux traditions de l’économie.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>À cette époque, Williams Rogers, qui avait des relations avec le journal, où il faisait
           imprimer des réclames, avait eu l’idée de composer un poëme didactique intitulé:
             <title>Les Osanores ou la Prothèse dentaire</title>. Avant de le publier, il apporta son
@@ -1250,7 +1257,7 @@
           aurait pu lui fournir une magnifique clientèle. Sur la proposition de Saint-Aime, Williams
           Rogers consentit à faire corriger son manuscrit, et à payer les corrections cinquante
           centimes le vers.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Le lendemain de cette convention, une estafette se transportait au café Momus, où les
           révoltés avaient établi leur camp. — On leur proposait de transiger. Après une allocution
           paternelle, l’éloquent Virmaître leur fit comprendre que leur demande en augmentation de
@@ -1284,7 +1291,7 @@
           frais, — mais pas <hi rend="i">assez fraîche</hi>, interrompit Banville, qui reçut
           immédiatement l’encouragement réservé au trait piquant.</p>
         <p>Le soir même, le café Momus fut illuminé en vers osanores.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un ancien député des chambres de Louis-Philippe, ami du père Saint-Alme, lui disait un
           jour en faisant allusion à quelques anecdotes un peu vives publiées par le
             <title>Corsaire</title>:</p>
@@ -1294,7 +1301,7 @@
           <item>— Mais, répondit Saint-Alme, si les filles pouvaient le lire, les pères ne s’y
             abonneraient pas.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Cependant, à la suite de quelque avis officieux du Parquet, le père Saint-Alme invita ses
           jeunes crétins à modérer un peu leur verve gauloise:</p>
         <list type="dialogue">
@@ -1311,7 +1318,7 @@
           lisait ses nouvelles à la main à une jeune ingénue qu’il rencontrait quelquefois chez lui.
           Si la jeune fille rougissait, cela signifiait que l’anecdote était scabreuse, et B... la
           déchirait pour en commencer une autre.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Malheureusement, B... ayant eu l’imprudence de confier son procédé à quelques-uns de ses
           collaborateurs, il s’en trouva dans le nombre qui profitèrent d’un petit voyage — du <hi
             rend="i">Numa</hi> du <title>Corsaire</title>, pour aller pendant son absence consulter
@@ -1332,7 +1339,7 @@
             cheveux blancs d’un homme qui n’est pas né d’hier, — ils rougissent, eux !</item>
         </list>
         <p>B. n’a jamais su qui est-ce qui lui avait dérangé son instrument.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un jour, dans un dîner de jour de l’an, offert par les propriétaires du
             <title>Corsaire</title> à leurs rédacteurs, — Virmaître, qui avait eu le dessert
           très-aimable, leur demanda ce qu’il pourrait bien faire pour leur être agréable pendant
@@ -1342,7 +1349,7 @@
           Virmaître avait consenti, un des riches actionnaires du <title>Corsaire</title> lui
           demanda tout bas, si ce n’était pas inaugurer là un système dangereux. — Laissez donc,
           répondit-il, — dans deux jours la sonnette sera cassée.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
       </div>
       <div>
         <head>Un réveillon à la maison-d’or.</head>
@@ -1542,7 +1549,7 @@
           <item>— Monsieur le marquis, répondit cette prodigue personne, je n’ai demandé que six
             mois pour réduire le Pérou à la mendicité.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
       </div>
       <div>
         <head>Les intrigués et les intrigants, moulages sur nature, au bal de l’opéra.</head>
@@ -1556,7 +1563,7 @@
         <p><hi rend="sc">l’habit noir</hi>. — Oui, — mais nous n’irons pas du côté du buffet.</p>
         <p><hi rend="sc">le domino</hi>. — Tu n’auras donc jamais le sou !</p>
         <p><hi rend="sc">l’habit noir</hi>. — Tu auras donc toujours soif !</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="sc">un monsieur</hi> entre deux eaux-de-vie, — rouge comme un coq et crotté
           comme la rue Saint-Denis, arrêtant un petit domino vert qui frétille comme une couleuvre.
           — Titine, je t’avais défendu de mettre les pieds au bal. Mon cousin m’a dit que c’était un
@@ -1572,7 +1579,7 @@
         <p><hi rend="sc">le monsieur</hi>, criant. — Titine !</p>
         <p><hi rend="sc">le gamin</hi>. — Vous faut-il un décrotteur, là, monsieur. Faites-vous
           cirer !</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Dans la loge de mademoiselle X... — Une dizaine de gilets blancs applaudissant en chœur
           la <hi rend="i">coda</hi> d’une plaisanterie de cette spirituelle personne:</p>
         <list type="dialogue">
@@ -1632,13 +1639,13 @@
         <list type="dialogue">
           <item>— Mon Dieu ! que tous ces gens-là sont bêtes !</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Mon cher, je t’assure que c’est une femme du monde.</item>
           <item>— À quoi reconnais-tu ça ?</item>
           <item>— Elle a passé deux fois auprès du buffet sans me demander à boire.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Oh ! mon Dieu oui, monsieur, c’est la première fois que je viens au bal; aussi je
             suis bien troublée; ce bruit, ces lumières...</item>
@@ -1669,7 +1676,7 @@
             ouvrir mon secrétaire... Si vous voulez, cependant, nous allons faire un tour dans la
             salle... nous rencontrerons peut-être la fidèle Justine avec le fidèle Joseph.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Monsieur, je ne suis pas libre...</item>
           <item>— Vous êtes mariée ?</item>
@@ -1692,7 +1699,7 @@
           <item>— Vous me connaissez donc ? — Ah ! que c’est bête de me faire perdre mon temps comme
             ça.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="sc">le domino</hi>, à son cavalier. — Monsieur est dans la diplomatie ?</p>
         <p><hi rend="sc">le cavalier</hi>. — Non, madame.</p>
         <p><hi rend="sc">le domino</hi>. — Dans les bureaux, peut-être !</p>
@@ -1704,7 +1711,7 @@
         <p><hi rend="sc">le cavalier</hi>, repoussant les fleurs. — Merci.</p>
         <p><hi rend="sc">le domino</hi>, lâchant le bras du cavalier. — Monsieur est
           artiste ! ! !</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Joséphine, tu as tort de parler à Stéphanie; c’est une personne dont la société
             est compromettante.</item>
@@ -1734,7 +1741,7 @@
           question. — À cette condition, je vous pardonne.</p>
         <p> » Votre Minette chérie.</p>
         <p> »<hi rend="sc">Mathilde De Flandry</hi>. »</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="sc">un vieux domino</hi>, graisseux comme la barbe d’un capucin, à une petite
           pierrette très-fraîche. — Élisa, mon enfant, je vous défends de danser avec ce petit jeune
           homme.</p>
@@ -1748,14 +1755,14 @@
         </list>
         <p><hi rend="sc">le vieux domino</hi>, avec onction. — Ma petite, les moustaches ne font pas
           le bonheur.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="sc">de la même à la même</hi>. — Mais, ma tante, c’est qu’il est bien âgé, ce
           monsieur-là.</p>
         <list type="dialogue">
           <item>— N'empêche, mon enfant. Les hommes, vois-tu, c’est le contraire des étoffes: plus
             ils sont vieux plus ils durent.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Tiens, voilà Paul ! M'emmènes-tu souper ?</item>
         </list>
@@ -1764,13 +1771,13 @@
         <list type="dialogue">
           <item>— Tiens ! moi, c’est le contraire; je n’en ai jamais avant.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Anatole, prête-moi un louis.</item>
           <item>— Pourquoi faire ?</item>
           <item>— C'est pour Mélanie, qui veut mettre une de ses parentes au vestiaire.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p><hi rend="sc">deux messieurs</hi>se rencontrant dans le corridor des quatrièmes loges.
           — Tiens, mon gendre !</p>
         <list type="dialogue">
@@ -1787,7 +1794,7 @@
           cette drôlesse de Paméla... Elle mangerait la dot de ma fille !</p>
         <p><hi rend="sc">le gendre</hi>, à part. — Il faut que je délivre mon beau-père des griffes
           de cette harpie de Rosine... Tout l’héritage de ma femme y passerait !</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <list type="dialogue">
           <item>— Mon dieu, chère madame, est-ce que votre charmante nièce ne m’accordera pas une
             petite place dans son cœur.</item>
@@ -2322,7 +2329,7 @@
         <p>« Passé à l’ordre de M. le baron R. de G... »</p>
         <p>On peut voir cette singulière lettre de change sur la cheminée de mademoiselle J***, qui
           l’a scrupuleusement acquittée.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Tout le monde connaît celui-là qui est le héros de cette véridique aventure. Aussi
           n’est-ce point la peine de le désigner, même par son initiale: cela serait aussi inutile
           que d’allumer le gaz pour montrer le soleil. Sachez seulement qu’il est jeune, beau, bien
@@ -2383,7 +2390,7 @@
         <list type="dialogue">
           <item>— Le lâche ! — Croiriez-vous qu’il m’a lâchée ?</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Les habitués de l’orchestre de l’Opéra ont dû remarquer, parmi les locataires des stalles
           à l’année, un personnage encore très-alerte et très-vert, bien qu’il approche de l’âge où
           l’eau-de-vie commence à être bonne. Jadis fondateur d’une société placée sous le patronage
@@ -2439,7 +2446,7 @@
         <p>M*** n’en entendit pas davantage; — il prit sa canne et son chapeau, et oublia totalement
           le proverbe: « Quand le vin est versé, il faut le boire. »</p>
         <p>Les deux jolies jambes courent après lui. — Le rattraperont-elles ? ...</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>En ce temps-là mademoiselle *** avait allumé une passion romanesque dans le cœur d’un
           jeune premier... connu pour l’ordre qu’il apporte dans tous les actes de sa vie. Après
           avoir longtemps soupiré sa tendresse en <hi rend="i">la</hi> mineur, le jeune premier
@@ -2468,7 +2475,7 @@
           <item>— C'était pour remonter sa montre. — Quant à ma passion, ajouta-t-elle, ce fut tout
             le contraire qui lui arriva.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Mademoiselle B... est une personne si longue, que son coiffeur est obligé d’apporter une
           échelle pour la friser. Mademoiselle B..., qui aime ce qui est bon, tourmentait un poëte
           pour avoir un rôle, et lui faisait entendre par de claires minauderies qu’elle se
@@ -2478,7 +2485,7 @@
           <item>— Comment ! lui disait un ami, tu vas t’embarrasser de cette grande B... ?</item>
           <item>— Elle ne me gênera pas, répondit le poëte, je lui ferai un nœud.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>En termes de coulisse, on appelle la famille <hi rend="i">du four</hi> les rares
           spectateurs disséminés dans la salle d’un théâtre quand on y joue une pièce qui n’a pas de
           succès. — Depuis quelque temps, la famille <hi rend="i">du four</hi> se montrait
@@ -2509,7 +2516,7 @@
           Tout à vous. M***. »</p>
         <p>Les collaborateurs ont mordu à l’hameçon, — et M*** a eu au moins ses poissons
           rouges.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Tout le monde connaît la paresse proverbiale du peintre C..., duquel on a dit qu’il
           devait être fils d’un lézard et d’une ligne horizontale.</p>
         <p>Un de ses amis, qui arrive de faire le tour du monde, — unissant le paradoxe à
@@ -2522,7 +2529,7 @@
           <item>— Eh ! mon ami, sans doute, puisque ce serait pour aller dans une contrée où
             j’aurais par jour une heure de plus à ne rien faire.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Le directeur d’un théâtre de vaudeville possède pour associé un Oriental qui a les
           manières et le langage des marchands de dattes et de pastilles du sérail. — On affirme
           même que c’est dans le commerce de ces denrées qu’il a acquis la fortune dont une grande
@@ -2554,7 +2561,7 @@
           <item>— Merci, — dit celui-ci en rejetant le vêtement tout mouillé, — vous êtes en sueur
             de ladrerie; j’aurais trop peur d’amasser votre mal.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Mademoiselle Victorine C... est un mince et très-mince petit volume de lieux communs,
           richement relié par la générosité du prince russe Nicolas Tr... Ce grand, ou plutôt ce
           gras seigneur, ressemble à Lablache regardé au télescope; quand il voyage dans les chemins
@@ -2568,7 +2575,7 @@
           <item>— Tu as raison, dit Victorine, je vais faire atteler: je ferai le tour du
             prince.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M. Jules Janin est connu par tous ses confrères et tous les artistes pour son facile
           accueil et son humeur hospitalière, — On a dit quelquefois, en parlant de sa maison, que
           c’était celle du bon Dieu. — Il serait peut-être plus juste de dire qu’elle est celle d’un
@@ -2614,7 +2621,7 @@
           la fois son chapeau et le parti de s’en aller. — S'il a l’audace hypocrite de féliciter M.
           Janin à propos de son oiseau, le critique pousse l’ironie jusqu’à proposer au fâcheux de
           lui en faire cadeau.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Voici, à propos de la claque et des claqueurs, une anecdote qui s’est passée il y a une
           dizaine d’années dans un théâtre d’outre-Seine. On y représentait alors le premier ouvrage
           d’un romancier qui est devenu depuis un de nos plus féconds auteurs dramatiques. La pièce
@@ -2690,7 +2697,7 @@
           <item>— Mes enfants, soyez heureux, la claque est rétablie. — Votre amour-propre légitime
             fera ses frais tous les soirs, — et votre bourse fera des économies.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>On a souvent entretenu le public des singularités plus ou moins singulières de quelques
           artistes et de quelques écrivains célèbres. — Voici une anecdote qu’on nous a citée tout
           récemment à propos de M. de Balzac, — dont les <hi rend="i">manies</hi> pourraient former
@@ -2734,7 +2741,7 @@
             rend="i">service</hi> de leur confrère des mains d’un Gobseck. Quant à M. de Balzac, il
           n’en voulut pas démordre, et pendant longtemps il entretint toute la ville de ce beau
           trait de ses amis.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>M..., littérateur très-sérieux et qui réunissait, comme homme et comme écrivain, toutes
           les conditions qui font sanctionner par le public la promotion à la chevalerie de la
           Légion d’honneur, dut son ruban rouge au hasard, qui, par extraordinaire, se montra
@@ -2765,7 +2772,7 @@
         </list>
         <p>Trois jours après le 1<hi rend="sup">er</hi> mai, M... lisait au <title>Moniteur</title>
           sa promotion au grade de chevalier de la Légion d’honneur.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Un admirateur passionné du talent joyeux d’une des meilleures servantes de Molière,
           s’étant aventuré un soir au petit théâtre Séraphin, rencontre l’artiste en contemplation
           devant les beautés du <title>Pont cassé</title>; c’était à l’époque où l’actrice se
@@ -2776,7 +2783,7 @@
           <item>— Oh ! ce n’est pas pour moi, répondit l’actrice en riant; c’est pour mon
             enfant.</item>
         </list>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Une dame qui se chausse quelquefois d’outremer, et qui a fait représenter au profit des
           pauvres et de sa vanité des petites comédies de genre inutile, s’est acquis dans un
           certain monde une grande réputation d’esprit, — à peu près comme les révolutionnaires
@@ -2808,11 +2815,10 @@
               particuliers</title>.</item>
         </list>
       </div>
-      <div xml:id="SILHOUETTES_LITTERAIRES">
-        <head><anchor xml:id="SILHOUETTES_LITTERAIRES"/>Silhouettes Littéraires</head>
-        <div xml:id="le_monsieur_qui_soccupe_de_litterature">
-          <head>I<anchor xml:id="le_monsieur_qui_soccupe_de_litterature"/>
-            <lb/>Le monsieur qui s’occupe de littérature</head>
+      <div>
+        <head>Silhouettes Littéraires</head>
+        <div>
+          <head>I<lb/>Le monsieur qui s’occupe de littérature</head>
           <p>Le monsieur qui s’occupe de littérature est devenu depuis quelques années un type assez
             fréquent. On le rencontre un peu partout, mais particulièrement dans les lieux publics.
             Dans les cafés où se rassemblent les cabotins de la rampe et de la presse, tous les bons
@@ -2924,9 +2930,8 @@
             — désigné quelquefois plus communément et plus justement, sous le nom de Charançon de
             lettres.</p>
         </div>
-        <div xml:id="le_charancon">
-          <head>II<anchor xml:id="le_charancon"/>
-            <lb/>Le charançon</head>
+        <div>
+          <head>II<lb/>Le charançon</head>
           <p>Pareil à l’insecte qui ronge les récoltes, il s’introduit dans la littérature pour y
             causer des ravages.</p>
           <p>On ne sait comment, il arrive on ne sait d’où.</p>
@@ -3033,9 +3038,8 @@
             reçu, il se hâte de faire graver des cartes, sur lesquelles il ajoute après son nom:</p>
           <p>Membre de la Société des gens de lettres.</p>
         </div>
-        <div xml:id="le_redacteur_pour_tout_faire">
-          <head>III<anchor xml:id="le_redacteur_pour_tout_faire"/>
-            <lb/>Le rédacteur pour tout faire</head>
+        <div>
+          <head>III<lb/>Le rédacteur pour tout faire</head>
           <p>Il existe, à Paris, un grand nombre de ménages peu fortunés, où l’on prend une bonne
             pour tout faire. Les servantes qui acceptent ces conditions sont ordinairement des
             disciples anonymes de M. Cousin, car leur engagement les oblige à pratiquer l’éclectisme
@@ -3149,9 +3153,8 @@
           <p>On ne lui connaît ni ennemi ni envieux. — Christophe-Colomb lui-même ne pourrait pas
             lui en découvrir un.</p>
         </div>
-        <div xml:id="le_caudataire">
-          <head>IV<anchor xml:id="le_caudataire"/>
-            <lb/>Le caudataire</head>
+        <div>
+          <head>IV<lb/>Le caudataire</head>
           <p>Comme son nom l’indique, ce personnage est celui qui tend à se coudre aux
             individualités, possédant, soit la célébrité, la réputation, ou même la simple
             notoriété.</p>
@@ -3244,9 +3247,8 @@
             dignité, il professera bien souvent pour lui le sentiment, qui est précisément le revers
             de l’estime.</p>
         </div>
-        <div xml:id="les_jeremies">
-          <head>V<anchor xml:id="les_jeremies"/>
-            <lb/>Les Jérémies</head>
+        <div>
+          <head>V<lb/>Les Jérémies</head>
           <p>Elle est nombreuse et s’augmente chaque jour cette insupportable famille des Jérémies
             littéraires, qui, traitant leur gueuserie et leur paresse en tout lieu, corbeaux du
             découragement, croassent leur plainte monotone.</p>
@@ -3322,9 +3324,8 @@
           <p>Ô public crétin !</p>
           <p>Ô critique zoïle !</p>
         </div>
-        <div xml:id="un_succes_de_premiere">
-          <head>VI<anchor xml:id="un_succes_de_premiere"/>
-            <lb/>Un succès de première</head>
+        <div>
+          <head>VI<lb/>Un succès de première</head>
           <p>La scène se passe à la suite d’un de ces succès coups de foudre qui, dès la première
             soirée, signent à une œuvre dramatique une feuille de route de cent cinquante ou deux
             cents représentations.</p>
@@ -3420,7 +3421,7 @@
           toujours été partisan de l’imprévu, le nom de mes futurs compagnons de voyage m’a décidé à
           accepter ta proposition, et une demi-heure après t’avoir quitté, je me présentai à la
           portière du wagon-salon réservé à l’émigration littéraire.</p>
-        <ab type="ornament">* <lb/>* *</ab>
+        <ab type="ornament">*<lb/>**</ab>
         <p>Chacun commençait à s’installer suivant ses habitudes de voyage; mais tous ces petits
           arrangements, où se révélaient naïvement l’instinct d’égoïsme du voyageur amoureux de ses
           aises, furent bientôt troublés par l’arrivée du retardataire et gigantesque Nadar. — Comme
@@ -3550,7 +3551,7 @@
             masses. — Mon voisin d’en haut, qui s’était endormi, se réveille au moment où il rêvait
             qu’il venait de prendre une purgation. — Il demande à être monté sur le pont.</p>
           <p>Sauvé, mon Dieu !</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Au jour naissant, nous commençons à voir la côte anglaise surgir à l’horizon, comme une
             ligne blanche et mince. Une heure après, nous sommes à l’embouchure de la Tamise.</p>
           <p>La <hi rend="i">Panthère</hi>, en entrant dans des eaux plus calmes, reprend des
@@ -3675,7 +3676,7 @@
             Londres: aussi je me trouve aussi embarrassé dans ce pays que pourrait l’être dans le
             nôtre un étranger qui aurait appris le français en lisant les faits divers de la
               <title>Patrie</title>.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Je viens de rencontrer Lherminier, qui m’a conseillé d’acheter un dictionnaire de
             conversation franco-anglaise. — C'est un recueil de dialogues par demandes et par
             réponses, dans lequel, dit la préface, toutes les circonstances de la vie sont prévues,
@@ -3686,7 +3687,7 @@
             musiciens appellent l’<hi rend="i">embouchure</hi>. Or, l’embouchure d’une langue, c’est
             sa prononciation. — Et comme je n’ai pas l’embouchure de l’anglais, — la pantomime est
             encore ma meilleure ressource pour me faire comprendre.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Si le <title>Dictionnaire de conversation</title> a prévu les cas exceptionnels d’une
             réception royale, ou d’une audience ministérielle, soit dédain, soit oubli volontaire,
             il se montre moins prévoyant à propos des circonstances familières, et il en résulte
@@ -3726,7 +3727,7 @@
             aurait pensé à utiliser au profit de la population de Londres les nombreuses colonnes
             monumentales qui font ressembler cette ville à un immense jeu de quilles dont le dôme de
             Saint-Paul est la boule.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>J'ai vu tant de fois les monuments de Londres servir de décors au mélodrame, et
             j’éprouve si peu la nostalgie de l’Ambigu, de la Gaîté et de la Porte-Saint-Martin, que
             j’avais d’abord conçu le projet de ne point visiter les curiosités historiques de la
@@ -3734,7 +3735,7 @@
             réfléchi que je manquerais à tous mes devoirs de touriste si je n’entrais pas dans le
             vieil édifice où repose, parmi tant d’illustres personnages, le corps de l’immortel
             auteur de <title>Richard III</title>.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>En sortant de Westminster, mon compatriote, familier avec les curiosités de Londres,
             m’a amené dans le quartier des mouchoirs volés. Figure-toi la Cité des <hi rend="i"
               >Mystères de Paris</hi> restituée par un architecte ami du sombre et de la
@@ -3783,7 +3784,7 @@
             par le jugement prononcé récemment contre le directeur du Conservatoire, arrêté dans le
             Strand au moment où il démontrait un coup difficile. — Il devrait être pendu le soir
             même. — C'est une perte.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Au voleur ! — mon cher Bourdin, — le compatriote qui me pilotait est un faux
             compatriote. C'est un ancien lauréat du Conservatoire qui <hi rend="i">travaille</hi>
             les étrangers. Je lui avais inspiré quelque confiance, sans doute, — et, sans que je
@@ -3842,7 +3843,7 @@
             l’abâtardissement de la race moderne en Europe. Ce qu’il y a de singulier, c’est que le
             Docteur Delisle, qui est un révolutionnaire par conviction, est, avec Fonta, un des plus
             beaux grêlés de France.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Aujourd’hui dimanche, — fidèle à ses traditions d’ennui dominical, — la ville s’est
             réveillée au milieu d’un brouillard mieux imité qu’au théâtre de la Porte-Saint-Martin.
             — C'est une sorte de brume opaque, où les bruits de la rue s’absorbent; — on sent, en
@@ -3888,7 +3889,7 @@
             docteur Delisle l’arrêta soudain, et lui expliqua que, en Angleterre, dès qu’on avait
             accepté d’un recruteur une pièce de monnaie à l’effigie du souverain régnant, on faisait
             partie de l’armée anglaise.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>J'ai été hier passer la soirée à la fameuse taverne de Nicholson’s, où a lieu, comme tu
             le sais, la parodie de tous les procès curieux jugés par les tribunaux anglais. C'est
             une sorte de cour d’appel comique où l’opinion casse quelquefois les arrêts rendus par
@@ -3924,7 +3925,7 @@
             présence était habilement dissimulée, et qui communiquait, par un fil conducteur, à une
             sorte de cadran où se trouvait une aiguille indiquant des chiffres. Ce cadran était
             placé dans l’alcôve du mari, et restait toute le nuit éclairé par une lampe.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Un soir, le mécanicien invite deux de ses amis à venir prendre le thé chez lui, et,
             désignant la chambre voisine de la sienne, habitée par sa femme, il les invite à ne
             point faire de bruit pour ne pas troubler son repos. — Puis, ayant su les retenir
@@ -3972,7 +3973,7 @@
             avait qu’une demi-chambrée, quelques amis, comme à l’Odéon les jours de tragédie
             classique. La saison est terminée et une partie de l’aristocratie est rentrée dans ses
             terres.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Les personnes de marque qui sont restées à Londres s’abstiennent de paraître dans les
             lieux publics pour qu’on ne puisse pas supposer qu’elles n’ont pas encore quitté la
             ville. — Aussi n’ai-je pu assister à une de ces grandes représentations d’apparat, où la
@@ -3997,7 +3998,7 @@
             est seulement de rigueur, et on serait reçu même avec l’arc-en-ciel autour du cou,
             — mais il n’en reste plus pour se faire une cravate— Léo Lespès a acheté le dernier
             coupon.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Le soir où j’étais au théâtre, je n’ai vu de diamants qu’au jabot de Nadar et de perles
             que dans la bouche de madame Taglioni. Les loges de l’aristocratie étaient vivement
             démocratisées, je dirai même qu’au premier flair on respirait dans la salle cette vague
@@ -4010,7 +4011,7 @@
             brodés par la main des fées de l’économie. — Mademoiselle Rosati a dansé <title>Marco
               Spada</title> avec mademoiselle Taglioni, pour laquelle le public de Londres a une
             idolâtrie évidente.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Le jour où a eu lieu la clôture de la saison, la représentation a été égayée par un
             intermède comique qui n’était pas indiqué sur l’affiche, et dont le directeur du théâtre
             de la Reine a été le héros. Comme c’est la coutume, à Londres, après l’exécution
@@ -4036,7 +4037,7 @@
             alors, — ah ! dame ! — et alors— l’aristocratie, qui n’a point en public l’hilarité
             expansive, — s’est souvenue qu’elle faisait partie de la joyeuse Angleterre, et elle a
             fait à M. Lumley un de ces succès— qui coulent un homme, — mais pas en bronze.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>En sortant du théâtre, à minuit, je me suis trouvé au milieu des lumineuses féeries de
             Hay-Market, qui est la rue de Londres où se trouvent en plus grand nombre les
             publics-houses, les tavernes élégantes, et tous les établissements où l’on
@@ -4071,7 +4072,7 @@
             sa statue dans Saint-James, on a organisé des rondes, qui assurent à la déesse un repos
             tranquille, en éloignant de ses regards tout ce qui pourrait lui faire regretter trop
             vivement l’absence d’Endymion.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Cependant, on n’a pas encore pu, ou on n’a pas voulu retirer pendant la nuit
             l’hospitalité des parcs aux nombreux hôtes de ces dortoirs de la belle étoile. Ils y
             viennent reposer pacifiquement avec leurs femmes et leurs enfants. Chaque famille a son
@@ -4084,7 +4085,7 @@
             dire, ont l’instinct— de la charité, — tous ceux dont le formidable appétit de
             jouissances humaines est habitué à mâcher le million, — payent généreusement aux
             établissements de bienfaisance le droit de digérer avec sécurité.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Mais l’aumône sur la voie publique est encore très-fréquente. — À Londres, quiconque
             peut donner donne, et avec bonne grâce comme on lui demande, car j’ai vu un jour un
             pauvre qui n’osait pas tendre sa main parce qu’il n’avait pas de gants et que c’était
@@ -4100,13 +4101,13 @@
             vrai, qu’un des principaux magistrats de Londres, — auquel on montrait le recensement de
             la population, classe par classe, — secouait la tête et disait avec inquiétude:— Que se
             passe-t-il ? — je n’ai pas mon compte de pauvres.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Je m’aperçois que ces remarques ne sont pas à leur place au milieu de ces lignes
             frivoles, — - qui auraient pu, sans que personne y perdît, rester dans le carnet, où les
             jetaient les hasards de la flânerie; — mais il est bien difficile de ne point parler de
             misère à propos d’un pays où l’haleine d’une population mourant de froid pendant l’hiver
             suffit pour former un brouillard qui cache la vue du soleil.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Le gouvernement anglais a du reste le génie de la prévoyance, et, sans compromettre son
             autorité, il sait à propos faire des concessions. — Tout récemment il avait été
             question, à l’instigation du clergé, m’a-t-on dit, de supprimer les musiques publiques
@@ -4122,7 +4123,7 @@
             un sésame qui entre-baille l’huis prohibé, s’il ne l’ouvre entièrement. — Je me souviens
             pour mon compte, d’avoir consommé plusieurs ginger-beer, — à une heure où la loi me
             condamnait à la soif.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>J'ai été ce soir à Cremorn-Garden, — c’est une imitation de Mabille. Le jardin beaucoup
             plus grand, mais moins somptueux, contient un théâtre, un cirque et une foule de
             divertissements. — L'éclairage est mesquin, — est-ce dans un but favorable au mystère ?
@@ -4156,12 +4157,12 @@
             n’avait pas au bal. — C'est l’Antée de l’eau, il faut qu’il soit dessus pour qu’il
             paraisse vivre. Quant à moi— mon retour de Cremorn a été gâté par des Parisiens, qui se
             racontaient le dernier drame de l’Ambigu.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Aujourd’hui, à quatre heures, j’ai été pris dans la rue d’une attaque de spleen
             foudroyant. C'est une espèce de suie morale qui s’attache à toutes vos idées. Il n’est
             pas de distraction qui puisse vous ramoner l’âme. Il n’y a qu’un remède à ce
             mal-là:— c’est le départ. Je fais ma malle, — ce ne sera ni long ni lourd.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>L'ami qui me reconduit au chemin de fer m’a glissé dans la poche, en me quittant, une
             nouvelle à la main anglaise.</p>
           <p>Il y a deux jours, — comme il avait fait mauvais temps et que le macadam avait délayé
@@ -4179,7 +4180,7 @@
           <p>En arrivant à la station de Folkestone où je dois m’embarquer, j’ai acheté pour lire,
             pendant la traversée, les numéros du <title>Cours de littérature</title> où se trouve
               l’<hi rend="i">éloge</hi> d’Alfred de Musset par M. de Lamartine.</p>
-          <ab type="ornament">* <lb/>* *</ab>
+          <ab type="ornament">*<lb/>**</ab>
           <p>Ah !</p>
         </div>
       </div>

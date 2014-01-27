@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="../../../lib/teibook/teibook.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="barbey_poésie" xml:lang="fr">
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="barbey_poesie" xml:lang="fr">
+  <!--
+    VJ
+    * erreurs identiques à sont précédent header
+    * @key fautive du author
+    * bibl lacunaire (recherche documentaire à faire)
+    * scories ODT (@type="h2", bookmark, etc.)
+    * indentation à revoir
+    * aucune erreur teibook
+    * bien pour @resp sur les notes
+    * revoir q vs quote
+    * revoir les emph
+    * encodage simple répondant aux atten,tes du sujet
+  -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Les oeuvres et les hommes XXIII, Poésie et poètes</title>
-        <author key="Barbey d'Aurevilly, Jules (1808-1889) )"> Jules Barbey d'Aurevilly </author>
+        <title>Les oeuvres et les hommes XXIII, Poésie et poètes</title>
+        <author key="Barbey d'Aurevilly, Jules (1808-1889)">Jules Barbey d'Aurevilly</author>
       </titleStmt>
       <editionStmt>
-        <edition> OBVIL </edition>
+        <edition>OBVIL</edition>
         <respStmt>
-          <name> Camille Bullou</name>
-          <resp> édition électronique </resp>
+          <name>Camille Bullou</name>
+          <resp>édition électronique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Édition XML/TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher> Obvil </publisher>
+        <publisher> ? </publisher>
         <date when="2014"/>
-        <idno> ?</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/barbey-aurevilly/barbey_poesie.xml</idno>
         <availability status="restricted">
           <licence target=" ? ">License ?</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl> 
-          <author> Jules Barbey d'Aurevilly</author> 
-          <title>Les oeuvres et les hommes XXIII, Poésie et poètes</title> 
-          <publisher> ? </publisher> 
-          <pubPlace>paris </pubPlace> 
-          <date>1860-1902</date>
-        </bibl>
+        <bibl><author>Jules Barbey d'Aurevilly</author>, <title>Les oeuvres et les hommes XXIII, Poésie et poètes</title>, <pubPlace>Paris</pubPlace>, <date>1860-1902</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -56,12 +71,12 @@
     </front>
     <body>
       <div>
-        <head type="h1">Alfred de vigny <note n="1" type="footnote" resp="author"><emph>Œuvres
-              complètes ; Journal d’un poète</emph> (<emph>Pays</emph>, 15 mai 1860 ; <emph>Nain
-              Jaune</emph>, 24 janvier 1867). <emph>V. Les Œuvres et les Hommes. Poètes</emph>, l<hi
+        <head>Alfred de vigny <note n="1" type="footnote" resp="author"><emph>Œuvres
+          complètes ; Journal d’un poète</emph> (<emph>Pays</emph>, 15 mai 1860 ; <emph>Nain
+            Jaune</emph>, 24 janvier 1867). <emph>V. Les Œuvres et les Hommes. Poètes</emph>, l<hi
               rend="sup">re</hi> et 2<hi rend="sup">me</hi> séries.</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>On a <quote>quelquefois</quote> assez insolemment posé la question de savoir si les
             poètes étaient capables d’écrire en prose avec la supériorité que les prosateurs
             voudraient garder pour eux seuls ; mais, quant à moi, j’ai toujours écarté avec dédain
@@ -94,11 +109,11 @@
             avec la supériorité de leur génie, quand ils ont le bonheur d’en avoir… et d’y devenir
             tout à coup des maîtres. On peut dire, sans craindre de se tromper et d’être démenti par
             l’histoire du <num>xix<hi rend="sup">e</hi></num> siècle en Europe, que
-              <emph>tous</emph> les grands poètes contemporains ont été de grands prosateurs. Nous
+            <emph>tous</emph> les grands poètes contemporains ont été de grands prosateurs. Nous
             avons déjà parlé de Walter Scott dans la première partie<note n="2" type="footnote"
               resp="author"><emph>Poètes</emph>, 1re série.</note> de cette étude, de Walter Scott
             dont les romans ont effacé les poèmes sans effacer le poète. Mais les
-              <emph>Mémoires</emph> de Byron valent ses poésies ! Mais ceux d’Alfieri valent mieux
+            <emph>Mémoires</emph> de Byron valent ses poésies ! Mais ceux d’Alfieri valent mieux
             que son théâtre ! Mais l’<emph>Histoire de la Guerre de Trente ans</emph> de Schiller
             l’emporte sur <emph>Marie Stuart</emph> et <emph>Don Carlos</emph> ! Mais Gœthe, en
             prose, fait équation à Gœthe en Vers ! Et pour ne parler que de notre pays, Lamartine,
@@ -116,7 +131,7 @@
             non pas au premier effort. Il lui en a fallu deux.</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>C’était en 1826. <emph>Éloa</emph>, cette sublimité dans le délicat et le pur, avait eu
             le succès qui convenait, — un succès chaste, comme elle, plus profond que sonore ; mais
             trois ans après, jour pour jour, Vigny, qui voulait mettre une fleur de prose à côté de
@@ -134,10 +149,10 @@
             ailes de l’Ange qui s’en était allé pendant que <emph>son</emph> poète regardait la
             terre, et vous le verrez tout à l’heure. Nous les ramasserons, dépaysées de leur azur,
             semées ça et là dans les livres qui ne sont pas des vers et qui ne sont pas
-              <emph>Cinq-Mars</emph>, quoique <emph>Cinq-Mars</emph> soit de la prose. Le
-              <emph>Cinq-Mars</emph> de Vigny fut un livre navrant pour ceux qui croyaient que le
+            <emph>Cinq-Mars</emph>, quoique <emph>Cinq-Mars</emph> soit de la prose. Le
+            <emph>Cinq-Mars</emph> de Vigny fut un livre navrant pour ceux qui croyaient que le
             jeune poète portait, en sa tête blonde, tout une sainte famille de poèmes comme
-              <emph>Éloa</emph> ; car le succès de <emph>Cinq-Mars</emph>, ce succès à quatorze
+            <emph>Éloa</emph> ; car le succès de <emph>Cinq-Mars</emph>, ce succès à quatorze
             éditions et qui n’est pas épuisé encore, devait entraîner son auteur vers la prose, du
             train terrible de ces quatorze éditions, — deux de plus que les douze chevaux de la
             voiture du roi !</p>
@@ -152,7 +167,7 @@
             de bure, n’étaient là ce qu’ils devaient être, ce qu’ils furent en réalité.</p>
           <p>Puisqu’on imitait Walter Scott, il fallait, comme lui, être juste, et se rappeler le
             Cromwell de <emph>Woodstock</emph> et le prince Charles-Édouard de
-              <emph>Redgauntlet.</emph> Il fallait se rappeler encore — et surtout — l’art profond
+            <emph>Redgauntlet.</emph> Il fallait se rappeler encore — et surtout — l’art profond
             de ce créateur du roman historique qu’il est de mode présentement d’abaisser, mais qui
             restera immortellement ce qu’il est : le premier des hommes après Shakespeare, et, comme
             lui, se bien garder de mettre sur le premier plan une histoire connue et sur laquelle la
@@ -166,10 +181,10 @@
             imaginations de poupée. Aussi <emph>Stello</emph>, qui vint après
             <emph>Cinq-Mars</emph>, <emph>Stello</emph>, qui est l’effort puissant et couronné du
             poète devenu enfin un grand artiste en prose, n’eut pas le succès colossal de
-              <emph>Cinq-Mars</emph>, et vraiment ne pouvait pas l’avoir !</p>
+            <emph>Cinq-Mars</emph>, et vraiment ne pouvait pas l’avoir !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>En effet, <emph>Stello</emph> est une de ces choses dont les foules ne voient pas tout
             de suite la valeur. C’est un chef-d’œuvre, et un chef-d’œuvre dans l’ordre le plus
             élevé, — qu’on me passe le mot ! — dans l’ordre le plus aristocratique de la pensée ;
@@ -193,7 +208,7 @@
             Gouvernement Représentatif, et le Gouvernement Républicain. Certes ! ce sont là des
             histoires cruellement intéressantes et tragiques, très dignes de l’observation des
             hommes et de leur pitié. Mais les prendre, ces pathétiques récits, pour en faire un
-              <emph>argument</emph> contre tous les gouvernements possibles, là est le vice
+            <emph>argument</emph> contre tous les gouvernements possibles, là est le vice
             peut-être, et serait, chez un autre que Vigny, certainement le danger.</p>
           <p>Les gouvernements ne sont pas faits d’une autre pâte que les hommes auxquels ils
             commandent. C’est de l’esprit humain agissant et organisé ; et l’esprit humain comprend
@@ -203,7 +218,7 @@
             génie, et la liberté qui choisit le bien ou le mal. Vigny, poète toujours et cachant les
             injustices de sa poésie sous les formes les mieux fourbies du raisonnement, va jusqu’à
             dire, dans le délire partagé de Rousseau : « L’individu n’a presque jamais tort,
-              « <emph>l’ordre social toujours</emph> », et cela étonne d’un homme de ce temps et
+            « <emph>l’ordre social toujours</emph> », et cela étonne d’un homme de ce temps et
             d’autant de soleil dans la pensée ; car, s’il était nécessaire de dresser des maximes
             absolues dans la grande casuistique de l’Histoire, ce serait le contraire, à coup sûr,
             de l’axiome de Vigny qu’il faudrait prendre pour la vérité !</p>
@@ -222,17 +237,17 @@
             d’Éloa, la muse évanouie, mais ressouvenue, mais ressentie toujours. En voici une. La
             reconnaissez-vous ?… C’est Kitty Bell. Kitty Bell, c’est l’ange de la pitié aussi, mais
             sur la terre, dans sa robe grise de puritaine, tombant aussi par pitié dans
-              <emph>Chatterton</emph> ; car elle tombe, quoique sa chute soit voilée par sa pitié
+            <emph>Chatterton</emph> ; car elle tombe, quoique sa chute soit voilée par sa pitié
             même et par celle du romancier, qui n’ose pas la raconter ! Et voici une autre de ces
             plumes encore ! C’est madame de Saint-Aignan dans <emph>André Chénier.</emph> Madame de
             Saint-Aignan, une Éloa qui va devenir mère et qui ne peut pas tomber, elle ! car l’être
             qu’elle le bonheur d’aimer, c’est son enfant. Enfin, rappelez-vous la Laurette de
-              <emph>Grandeur et servitude militaires</emph>, et vous aurez, à coup sûr, la plus
+            <emph>Grandeur et servitude militaires</emph>, et vous aurez, à coup sûr, la plus
             blanche de ces plumes divines que nous comptons ; car il y a plus que de la lumière, il
             y a le sang de l’innocent sur celle-là !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p><emph>Grandeur et servitude militaire</emph> ! J’arrive ainsi au livre le plus beau
             d’Alfred de Vigny prosateur, et peut-être au livre le plus beau du siècle, si la beauté
             suprême c’est la bonté, comme je le crois. Est-ce seulement un roman que ce livre ?
@@ -246,7 +261,7 @@
             caractérisera le genre de talent de Vigny plus heureusement que toutes les analyses de
             style auxquelles je pourrais me livrer. Vigny est un enfant du siècle. Il a bu dans
             cette coupe du scepticisme qui est vide de tout, excepté d’amertume. Dans son
-              <emph>Stello</emph>, vous l’avez vu, comme Rousseau, jeter sa malédiction à la face de
+            <emph>Stello</emph>, vous l’avez vu, comme Rousseau, jeter sa malédiction à la face de
             l’ordre social ; puis, comme Pascal, — mais un Pascal doux et calme, quoique sans
             crucifix, — ramasser cette malédiction et la replacer sur le cœur troublé dont elle est
             sortie. Et, cependant, ce qu’il a ébranlé par ses plaintes contre l’ordre social et par
@@ -287,14 +302,14 @@
             maintienne éternellement ouverte, pour l’honneur de l’humanité !</p>
         </div>
         <div>
-          <head type="h2">V</head>
+          <head>V</head>
           <p><emph>Grandeur et servitude militaires</emph> est, dans l’ordre du temps, la grande
             œuvre dernière de Vigny. Il y a bien, dans l’édition complète<note n="3" type="footnote"
               resp="author">Librairie nouvelle.</note>, un volume de drames joués à diverses époques
             et même postérieurement à <emph>Grandeur et servitude militaires</emph>, et dont nous
             n’avons pas à nous occuper. Voici pourquoi. Le meilleur de ces drames est
-              <emph>Chatterton</emph>, tiré tout entier de <emph>Stello ;</emph> mais il est dans
-              <emph>Stello</emph> beaucoup plus beau et plus complet, puisque l’analyse, et
+            <emph>Chatterton</emph>, tiré tout entier de <emph>Stello ;</emph> mais il est dans
+            <emph>Stello</emph> beaucoup plus beau et plus complet, puisque l’analyse, et
             l’imagination qui décrit, y ajoutent leur profondeur et leur éclat de la passion et des
             caractères.</p>
           <p>Deux autres de ces drames : <emph>Othello</emph> et <emph>Shylock</emph>, sont des
@@ -307,7 +322,7 @@
           <p>Depuis <emph>Grandeur et servitude militaires</emph>, Vigny ne s’est donc pas élevé
             plus haut dans la prose. Il a bien écrit, à propos d’une question de propriété
             littéraire, une chose charmante (une pitié encore !) : <emph>Mademoiselle
-            Sedaine</emph>, pour montrer que là où tombe un doigt comme le sien, il y reste toujours
+              Sedaine</emph>, pour montrer que là où tombe un doigt comme le sien, il y reste toujours
             du parfum et de la lumière. Mais ç’a été tout.</p>
           <p>Le Racine romantique, ce Racine de la pitié, plus tendre que l’autre Racine, — car la
             pitié est plus tendre que l’amour puisqu’elle est ou sa sœur, ou sa fille, ou sa mère,
@@ -317,12 +332,12 @@
             littérature contemporaine, ont fait monter de dégoût la muse de Vigny dans cette rêverie
             où elle ne plane plus qu’à l’œil <emph>seul</emph> du poète…</p>
           <p>Ce cygne de la famille de celui de Mantoue qui nous est venu par l’<emph>Ile des Cygnes
-              de</emph> Shakespeare, et qui s’y est attardé, ne nous a pas dit son <emph>dernier
+            de</emph> Shakespeare, et qui s’y est attardé, ne nous a pas dit son <emph>dernier
               chant</emph>, heureusement ! Mais, nous qui l’aimons et qui écoutons impatiemment son
             silence depuis si longtemps, quand donc entendrons-nous sa voix ?</p>
         </div>
         <div>
-          <head type="h2">VI</head>
+          <head>VI</head>
           <p>Louis Ratisbonne, l’ami de cet Alfred de Vigny qui a laissé dans la mémoire des hommes
             l’impression d’un parfum et d’une harmonie, a publié en volume les pensées et les
             fragments de mémoires que lui a légués l’auteur d<emph>’Éloa</emph> ; Alfred de Vigny
@@ -354,7 +369,7 @@
             navrant que ce livre… depuis Pascal !</p>
         </div>
         <div>
-          <head type="h2">VII</head>
+          <head>VII</head>
           <p>Depuis Pascal ?… Quel rapport, direz-vous, existe-t-il entre Pascal, — le mâle Pascal,
             mâle jusqu’à la monstruosité, — janséniste, misanthrope, lycanthrope, génie effaré et
             terrible, et Vigny, femme par la pitié, grâce par le génie ; Vigny de la « Tour
@@ -392,14 +407,14 @@
             désespoir !</p>
           <p>J’ai l’air d’inventer un Alfred de Vigny de fantaisie.. Mais voilà pourtant la vérité
             certaine dont, avant le livre de Ratisbonne, personne ne se doutait sur l’auteur
-              <emph>d’Éloa</emph>, sur ce Calme qui cachait un Profond… Cependant, quand je dis
+            <emph>d’Éloa</emph>, sur ce Calme qui cachait un Profond… Cependant, quand je dis
             personne, je dis trop. <emph>Les Destinées</emph>, quand elles parurent, frappèrent
             l’attention par un accent qui fit réfléchir les critiques de nature humaine. Il y avait
             en ces poésies autre chose que des vers, des rhythmes et des mascarades de forme à
             juger. On sentait que le poète, pour la première fois, y trahissait un secret d’âme
             longtemps gardé. La rose blanche entr’ouverte de son génie livrait sa cruelle
             cantharide. Le fatalisme perçait dans l’inspiration du poète <emph>d’Éloa</emph> et de
-              <emph>Moïse.</emph> Et, malgré le stoïcisme qu’il opposait à la fatalité des choses,
+            <emph>Moïse.</emph> Et, malgré le stoïcisme qu’il opposait à la fatalité des choses,
             on sentait que le poète, en ces <emph>Destinées</emph>, saignait sous l’acier poli de
             ses armes, qu’il buvait son sang dans son casque fermé, comme Beaumanoir, au combat des
             Trente, et qu’il le trouvait amer.. Mais ce qui n’était alors que l’éclair d’un soupçon
@@ -422,8 +437,8 @@
               de femmes et d’enfants, saisis dans un sommeil profond. Ils se réveillent emprisonnés.
               Ils s’accoutument à leur prison et s’y font de petits jardins. Peu à peu, ils
               s’aperçoivent </q><q>qu’on</q><q> les enlève les uns après les autres pour toujours.
-              Ils ne savent ni pourquoi ils sont en prison, ni où on les conduit après, et ils
-              savent qu’ils ne le sauront jamais.</q></p>
+                Ils ne savent ni pourquoi ils sont en prison, ni où on les conduit après, et ils
+                savent qu’ils ne le sauront jamais.</q></p>
           <p>
             <q>« Cependant il y en a parmi eux qui ne cessent de se quereller pour savoir l’histoire
               de leur procès, et il y en a qui en inventent les pièces ; d’autres qui racontent ce
@@ -446,7 +461,7 @@
           </p>
         </div>
         <div>
-          <head type="h2">VIII</head>
+          <head>VIII</head>
           <p>Mais ce n’est là encore que la moitié de cette physionomie morale que le livre de
             Ratisbonne nous donne intégrale. Le désespoir d’esprit d’Alfred de Vigny ne glace pas
             dans son âme la sensibilité chrétienne, qui y subsiste, immortelle toujours, quoique le
@@ -458,28 +473,28 @@
             cavalier de marbre dont il a parlé, je crois, quelque part, qui, à mesure que son cheval
             s’agite, devient de plus en plus pesant et fixe sur la selle, le domptant, en le serrant
             de ses cuisses de marbre, de sa fixité et de son poids. L’esprit du poète des
-              <emph>Destinées</emph> dompte, de sa raison et de son désespoir, ces deux pesanteurs
+            <emph>Destinées</emph> dompte, de sa raison et de son désespoir, ces deux pesanteurs
             froides et terribles, son âme qui résiste, mais qui, enfin, reste domptée ! Écoutez-le
             plutôt ! Vous jugerez de cette lutte acharnée entre l’esprit qui ne croit pas et l’âme
             qui veut croire : <q>« Bonaparte meurt en disant : </q><q><hi rend="i">Tête
               d’armée</hi></q><q>, et repassant ses premières batailles dans sa mémoire ; Canning,
-              en parlant d’affaires ; Cuvier, en s’analysant lui-même et disant : </q><q><hi
-                rend="i">La tête s’engage…</hi></q></p>
+                en parlant d’affaires ; Cuvier, en s’analysant lui-même et disant : </q><q><hi
+                  rend="i">La tête s’engage…</hi></q></p>
           <p>« <q>Et Dieu ? — Tel est le siècle : ils n’y pensèrent pas </q>!</p>
           <p>« <q>Oui, tel est le siècle. — C’est que la raison humaine est arrivée en ces hommes et
-              doit arriver en tous à </q><q><hi rend="i">la résignation de notre faiblesse et de
-                notre ignorance</hi></q><q>. Soyons tout ce que nous pouvons être, sachons le peu
-              que nous pouvons savoir. C’est assez pour si peu de jours à vivre. La résignation qui
-              nous est la plus difficile est celle de notre ignorance. Pourquoi nous résignons-nous
-              à tout, excepté à ignorer les mystères de l’éternité ? A cause de l’espérance qui est
-              la source de toutes nos lâchetés. Nous inventons une foi, nous nous la persuadons,
-              nous voulons la persuader aux autres, nous les frappons pour les y
-            contraindre… </q>»</p>
+            doit arriver en tous à </q><q><hi rend="i">la résignation de notre faiblesse et de
+              notre ignorance</hi></q><q>. Soyons tout ce que nous pouvons être, sachons le peu
+                que nous pouvons savoir. C’est assez pour si peu de jours à vivre. La résignation qui
+                nous est la plus difficile est celle de notre ignorance. Pourquoi nous résignons-nous
+                à tout, excepté à ignorer les mystères de l’éternité ? A cause de l’espérance qui est
+                la source de toutes nos lâchetés. Nous inventons une foi, nous nous la persuadons,
+                nous voulons la persuader aux autres, nous les frappons pour les y
+                contraindre… </q>»</p>
           <p>Sentez-vous le cavalier de marbre ? Sentez-vous sa fixité, sa pesanteur, son despotisme
             de marbre ? Mais l’âme se cabre et pousse son cri :</p>
           <p>« <q>Et pourquoi — reprend-il — ne pas dire : Je sens sur ma tête le poids d’une
-              condamnation que je subis toujours, ô Seigneur ! mais, ignorant la faute et le procès,
-              je subis ma prison. J’</q><q><hi rend="i">y tresse de la paille</hi></q><q> pour
+            condamnation que je subis toujours, ô Seigneur ! mais, ignorant la faute et le procès,
+            je subis ma prison. J’</q><q><hi rend="i">y tresse de la paille</hi></q><q> pour
               l’oublier quelquefois : là se réduisent tous les travaux humains. Je suis résigné à
               tous les maux et je vous bénis à la fin de chaque jour lorsqu’il s’est passé sans
               malheur. — Je n’espère rien de ce monde et je vous rends grâce de m’avoir donné la
@@ -487,14 +502,14 @@
               éternelle. </q>»</p>
         </div>
         <div>
-          <head type="h2">IX</head>
+          <head>IX</head>
           <p>Le cri est-il assez aigu d’abord, et finit-il par s’étouffer assez sous la pression
             d’étau de l’implacable cavalier de marbre ? Alfred de Vigny dit dans son journal que
             Shakespeare, le calme et puissant Shakespeare, étouffe dans le drame, et qu’on sent bien
             qu’il y étouffe ; eh bien, lui aussi, Alfred de Vigny, étouffait dans le drame de la
             vie, mais il le jouait si bien qu’on ne sent qu’aujourd’hui qu’il y étouffait ! A
             présent qu’on lit son journal, on se demande ce qu’a gagné à être du <num>xix<hi
-                rend="sup">e</hi></num> siècle ce noble esprit, qui, au Moyen Age, aurait été aussi
+              rend="sup">e</hi></num> siècle ce noble esprit, qui, au Moyen Age, aurait été aussi
             heureux qu’il était sublime ! Et cela vaut-il vraiment la peine de se vanter d’en être,
             même toute vanité de religion mise à part ?…</p>
           <p>Pauvre et cher Alfred de Vigny ! Fiez-vous maintenant aux Calmes et aux surfaces de la
@@ -517,7 +532,7 @@
             cœur !</p>
           <p>Un jour Armand Carrel, ce généreux, devant qui on louait Alfred de Vigny avec
             l’enthousiasme qu’il savait inspirer à ceux qui le connaissaient, s’écria que cette
-              <emph>âme était belle et qu’il en fallait parler</emph>, et Rolle fit dans <emph>Le
+            <emph>âme était belle et qu’il en fallait parler</emph>, et Rolle fit dans <emph>Le
               National</emph> ces articles dont on se souvient encore. On n’avait pourtant, du temps
             de Carrel, qu’une partie de l’âme de Vigny, qu’on croyait heureuse et qui ne l’était
             pas… C’est nous qui l’avons tout entière, complétée et embellie par la douleur… qui
@@ -526,8 +541,8 @@
         </div>
       </div>
       <div>
-        <head type="h1">Comte de gramont<note n="5" type="footnote" resp="author"><emph>Les Chants
-              du Passé (Pays</emph>, 20 juillet 1854). </note></head>
+        <head>Comte de gramont<note n="5" type="footnote" resp="author"><emph>Les Chants
+          du Passé (Pays</emph>, 20 juillet 1854). </note></head>
         <p>De toutes les choses de la pensée, la poésie, qui est la plus difficile, la plus
           puissante et la plus rare, tente beaucoup d’esprits et les trompe. En prose, du moins,
           quel que soit un livre, s’il n’est au-dessous de tout examen, il y a des faits, quand il
@@ -544,7 +559,7 @@
           portent le même millésime. Par un autre hasard encore, ces deux poètes se recommandent par
           des qualités si différentes, ils forment entre eux une telle antithèse de talent et de
           manière, que les opposer dans un étroit vis-à-vis c’est, comme on dit en peinture, les
-            <emph>repousser</emph> l’un par l’autre ; c’est donner plus de précision à leur examen ;
+          <emph>repousser</emph> l’un par l’autre ; c’est donner plus de précision à leur examen ;
           et faire mieux sentir le prix de ce que tous les deux possèdent et de ce qui manque à
           chacun d’eux.</p>
         <p><emph>Les Chants du Passé</emph><note n="6" type="footnote" resp="author">
@@ -572,7 +587,7 @@
           plus large côté de ses œuvres, il lui échappe cependant, et, en résumé, il vaut mieux
           qu’elle.</p>
         <p>En vain, comme Desportes en son temps, Gramont, en plein <num>xix<hi rend="sup"
-            >e</hi></num> siècle, publie-t-il un volume de quatre cents sonnets. En vain nous
+          >e</hi></num> siècle, publie-t-il un volume de quatre cents sonnets. En vain nous
           chante-t-il Endymion et Phœbé, comme un Grec réveillé tout à coup du sommeil d’Épiménide,
           et nous traduit-il Sannazar une parenté en génie ; puis, las de tordre et d’assouplir
           cette ferme langue française qui reste toujours de l’acier, même quand on en fait de la
@@ -600,8 +615,8 @@
           chatoient et qui étincellent, sous toute cette orfèvrerie enchantée. Certes ! nous n’y
           sommes pas accoutumés. Les hommes de l’école poétique à laquelle appartient par sa langue
           Gramont sont, presque tous, de l’opinion du grand panthéiste du <num>xviii<hi rend="sup"
-              >e</hi></num> siècle, qui disait sans sourciller : «<q> On fait de l’âme comme on fait
-            de la chair, et de la chair comme on fait du marbre </q>», et c’est pour cela sans aucun
+            >e</hi></num> siècle, qui disait sans sourciller : «<q> On fait de l’âme comme on fait
+              de la chair, et de la chair comme on fait du marbre </q>», et c’est pour cela sans aucun
           doute qu’on trouve si peu d’âme dans leurs écrits ; mais lui, par un bonheur
           d’organisation dont il faut le féliciter, ne s’est pas pétrifié tout entier parmi ces
           Memnons sans soleil qui n’ont que le son vide du rhythme. Nous l’avons signalé déjà ; mais
@@ -618,7 +633,7 @@
           la plaie éternelle et cachée sous l’éblouissant mensonge de la forme, qui se ferme pour se
           rouvrir, qui vieillit, qui n’empêche pas de vivre et même de sourire, mais qui, au lieu de
           guérir, s’envenime. Est-ce qu’on serait le chantre du passé, si on oubliait ? L’auteur des
-            <emph>Chants du Passé</emph> est de cette époque qui a pesé sur nos jeunesses, qui les a
+          <emph>Chants du Passé</emph> est de cette époque qui a pesé sur nos jeunesses, qui les a
           perdues, et où les âmes les plus fortes, amollies par l’air de ce siècle, aussi lâchement
           spiritualiste que le siècle précédent avait été grossièrement sensuel, n’eurent pour se
           sauvegarder de la corruption des décadences ni les occupations héroïques de la guerre ni
@@ -626,7 +641,7 @@
         <p>Un livre qui a des défauts littéraires d’autant plus grands qu’il est le produit d’un
           système, mais qui a aussi une valeur absolue, un mérite qui ne passera pas, c’est-à-dire
           la vérité presque maladive d’une inspiration qui ressemble à un empoisonnement, les
-            <emph>Poésies de Joseph Delorme</emph>, datèrent bien ce commencement d’une époque
+          <emph>Poésies de Joseph Delorme</emph>, datèrent bien ce commencement d’une époque
           traversée par nous maintenant, mais Dieu sait à quel prix ! en y laissant des portions de
           nous-mêmes qui sont plus que la vie, et qui ne reviendront pas plus qu’elle… Eh bien,
           c’est le mal de ce temps, au fond de son âme, à lui, qu’on retrouve dans le livre de
@@ -660,18 +675,18 @@
           silencieux des mausolées :</p>
         <quote>
           <l>
-          Ce fut un vaillant cœur, simple, correct, austère ;<lb/> 
-          Un homme des vieux jours, taillé dans le plein bloc,<lb/> 
-          Sincère comme l’or et droit comme un estoc,<lb/> 
-          Dont rien ne détrempa le mâle caractère. 
+            Ce fut un vaillant cœur, simple, correct, austère ;<lb/> 
+            Un homme des vieux jours, taillé dans le plein bloc,<lb/> 
+            Sincère comme l’or et droit comme un estoc,<lb/> 
+            Dont rien ne détrempa le mâle caractère. 
           </l>
         </quote>
         <quote>
           <l>
             Chassant loin du devoir l’intérêt adultère,<lb/> 
-          Avec sa conscience il ne fit point de troc ;<lb/> 
-          Il affronta sans peur le plus terrible choc,<lb/> 
-          Et, le danger fini, sut noblement se taire.
+            Avec sa conscience il ne fit point de troc ;<lb/> 
+            Il affronta sans peur le plus terrible choc,<lb/> 
+            Et, le danger fini, sut noblement se taire.
           </l>
         </quote>
         <quote>
@@ -680,7 +695,7 @@
             Il n’en garda pas moins sa haine à l’étranger :<lb/> 
             Gentilhomme, il resta sujet du roi de France.
           </l>
-          </quote>
+        </quote>
         <quote>
           <l>
             Et partout, sur le Rhin, en Vendée, à Lyon,<lb/> 
@@ -704,7 +719,7 @@
             Quelle nuance d’or, de jaspe ou d’hyacinthe<lb/>
             A ses tempes se joue, en sa tresse reluit ;
           </l>
-          </quote>
+        </quote>
         <quote>
           <l>D’albâtre ou d’incarnat si sa joue est empreinte ;<lb/> 
             Si c’est grâce chez elle ou beauté qui séduit ;<lb/> 
@@ -753,10 +768,10 @@
           s’envole, et qui sait ? pour y planer peut-être un jour !</p>
       </div>
       <div>
-        <head type="h1">Bathild Bouniol<note n="7" type="footnote" resp="author"><emph>Ma Croisade
-              ou les mœurs contemporaines (Pays</emph>, 20 juillet 1854)</note></head>
+        <head>Bathild Bouniol<note n="7" type="footnote" resp="author"><emph>Ma Croisade
+          ou les mœurs contemporaines (Pays</emph>, 20 juillet 1854)</note></head>
         <p>C’est sous ce ciel-là, retrouvé enfin par la muse de l’auteur des <emph>Chants du
-            Passé</emph>, que se tient la muse de notre autre poète, Bathild Bouniol, mais elle a
+          Passé</emph>, que se tient la muse de notre autre poète, Bathild Bouniol, mais elle a
           les pieds sur la terre, et son œil, plus attentif qu’inspiré, est fixé sur les hommes,
           qu’elle regarde jusqu’au fond du cœur. Bouniol est un poète satirique d’une rare vigueur
           de conviction. Très jeune encore, quoique sa <emph>Croisade</emph><note n="8"
@@ -779,7 +794,7 @@
           ont été multipliés en ces derniers temps, Bouniol, s’il ne le dédaigne, semble l’oublier ;
           et c’est ainsi qu’il se présente tout d’abord, modeste et hardi, dans son livre, dénué des
           trois forces de la poésie telle que l’Imagination l’aime et la veut au <num>xix<hi
-              rend="sup">e</hi></num> siècle.</p>
+            rend="sup">e</hi></num> siècle.</p>
         <p>Mais, s’il n’a pas celles-là, il en a d’autres, qui valent mieux peut-être, même pour
           l’art, tomme on dit maintenant, que tous ces savants artifices ! et c’est la sincérité
           cordiale de son inspiration et la familiarité poignante de sa touche. Deux qualités
@@ -816,8 +831,8 @@
           mouvement de cet esprit qui, si nous ne nous trompons, a le signe des forts : l’abondance,
           qu’en lisant dans le livre même : <emph>La France devant Dieu, Le Souverain et les
             sujets</emph>, <emph>La Leçon d’anatomie, La Barricade, Le Théâtre, La Peste littéraire,
-            Les Catastrophes, Le Journaliste, Le Doigt de Dieu dans les révolutions, La Graine du
-            Comédien, L’Amour des bêtes, Comment on se marie, La Morgue</emph>, et tant d’autres
+              Les Catastrophes, Le Journaliste, Le Doigt de Dieu dans les révolutions, La Graine du
+              Comédien, L’Amour des bêtes, Comment on se marie, La Morgue</emph>, et tant d’autres
           morceaux dont les titres seuls attestent éloquemment la largeur de circonférence dans
           laquelle l’auteur de la <emph>Croisade</emph> étend les rayons de son observation
           poétique.</p>
@@ -860,16 +875,16 @@
           n’aiment pas l’énergie, même celle qui pourrait les régénérer !</p>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark4"/>Charles Monselet<note n="9" type="footnote"
-            resp="author"> Œuvres diverses : <emph>Les Vignes du Seigneur ; Monsieur de
-              Cupidon</emph> ; Biographie de <emph>Rétif de la Bretonne (Pays</emph>, 7 décembre
-            1854). V. <emph>Les Œuvres et les Hommes. Poètes</emph>, 2<hi rend="sup">me</hi>
-            série.</note></head>
+        <head>Charles Monselet<note n="9" type="footnote"
+          resp="author"> Œuvres diverses : <emph>Les Vignes du Seigneur ; Monsieur de
+            Cupidon</emph> ; Biographie de <emph>Rétif de la Bretonne (Pays</emph>, 7 décembre
+          1854). V. <emph>Les Œuvres et les Hommes. Poètes</emph>, 2<hi rend="sup">me</hi>
+          série.</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Il y a en ce moment, dans un coin encore obscur de la littérature contemporaine, un
             groupe d’esprits d’une haute suffisance, qui se croient, avant tout, des
-              <emph>inventeurs</emph>, et qui s’inscrivent en faux contre la Critique au nom de
+            <emph>inventeurs</emph>, et qui s’inscrivent en faux contre la Critique au nom de
             leurs œuvres présentes ou futures. Et lorsque je dis : la Critique, n’entendez pas telle
             ou telle critique injuste, improbe, malavisée ; non ! mais la Critique, quelle qu’elle
             soit.</p>
@@ -887,15 +902,15 @@
             l’invention qui trouve, mais qui ne crée pas (qu’est-ce que l’homme crée ?), pouvait
             subsister et respirer tout aussi bien sous une forme didactique ou logique que sous la
             forme d’un roman, d’un poème ou d’un drame. Ils n’en ont pas cherché si long !
-              «<q> J’aimerais mieux </q>— écrivait dernièrement à un critique de profession un de
+            «<q> J’aimerais mieux </q>— écrivait dernièrement à un critique de profession un de
             ces esprits systématiquement gendarmés contre la Critique — <q>faire un petit roman payé
               mille francs que de la Critique à dix mille francs par an dans vos journaux </q>», et
             si cette phrase exprimait plus qu’un goût personnel, c’est-à-dire une insignifiance,
             c’était tout simplement une sottise ! En tant qu’il faille nous déshonorer tous en
             déshonorant la Critique, — car nous en faisons tous, <emph>quoi que nous
-            fassions</emph>, — je préfère de beaucoup la brillante bêtise de Diderot, qui du moins a
+              fassions</emph>, — je préfère de beaucoup la brillante bêtise de Diderot, qui du moins a
             de la tournure : <emph>«</emph> <q>Homère </q><q>— </q>a-t-il dit quelque part<q> —
-              </q><q>a comme Achille son talon vulnérable, mais c’est toujours un lâche qui le
+            </q><q>a comme Achille son talon vulnérable, mais c’est toujours un lâche qui le
               trouve.</q> » Certes ! Diderot en a menti, et sciemment encore ! Lui, l’ingrat ! qui
             doit à la Critique la plus belle portion de sa gloire, s’il avait pensé ce qu’il disait,
             il aurait dû se crever les yeux avec sa plume, comme Œdipe, après la découverte de son
@@ -910,7 +925,7 @@
             la Critique inflexible, qui a une conscience et qui est une magistrature, — la
             magistrature de la pensée, — dont il ne parle pas, et le pamphlet, la flèche
             empoisonnée, le coup de couteau dans le dos, du petit journal. Que Monselet, à propos du
-              <emph>Sifflet d’argent</emph> (journal dont il nous conte l’histoire), nous montre
+            <emph>Sifflet d’argent</emph> (journal dont il nous conte l’histoire), nous montre
             jusqu’à quel point la Critique peut descendre sous des plumes cupides et honteuses, il
             est assurément dans son droit de moraliste et d’écrivain ; mais, à côté de ce tableau,
             qui a sa vérité relative, il doit indiquer que cette dégradation de la Critique n’est
@@ -943,8 +958,8 @@
           <p>C’est un homme de talent et de connaissances à coup sûr, un de ces archers
             intellectuels qui ont plus d’une corde à leur arc et dont l’esprit, à tendances
             multiples, a trop de mouvement et de vie pour s’enfermer dans le cercle d’une
-              <emph>spécialité</emph>, — comme nous disons dans le welche du <num>xix<hi rend="sup"
-                >e</hi></num> siècle. Il a été tour à tour poète, historien, romancier, biographe ;
+            <emph>spécialité</emph>, — comme nous disons dans le welche du <num>xix<hi rend="sup"
+              >e</hi></num> siècle. Il a été tour à tour poète, historien, romancier, biographe ;
             mais qui sait ? malgré des travaux si variés et auxquels personne plus que nous n’est
             disposé à rendre justice, peut-être Monselet n’en est-il encore qu’à la période des
             esprits qui ont assez de sève pour fermenter longtemps et qui cherchent la voie
@@ -958,9 +973,9 @@
             faire mieux.</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Nous commencerons par le poète. <emph>Les Vignes du Seigneur</emph><note n="10"
-              type="footnote" resp="author"> Victor Lecou.</note> sont un recueil de poésies, et
+            type="footnote" resp="author"> Victor Lecou.</note> sont un recueil de poésies, et
             c’est pour ce livre, le dernier venu dans l’ordre des publications de Charles Monselet,
             que nous nous montrerons surtout sévère. Jamais, en effet, esprit littérairement plus
             distingué ne produisit, <emph>poétiquement parlant</emph>, d’œuvre plus médiocre. Si, en
@@ -998,7 +1013,7 @@
             fait de la contrefaçon française. Tout est semblable à la poésie de Gautier dans la
             poésie de Monselet. Tout est semblable dans les détails et dans l’inspiration, — dans
             l’inspiration que Gautier lui-même ne sauve (pour parler comme lui) que par le
-              <emph>modelé</emph> du détail ! Ouvrez au hasard ce charmant petit livre, à l’encre
+            <emph>modelé</emph> du détail ! Ouvrez au hasard ce charmant petit livre, à l’encre
             rouge, et voyez si à toute page vous ne trouvez pas cet amour sensuel de la forme, cette
             exagération violente du pittoresque, ce mépris du <emph>bourgeois</emph> qui appartient
             à Gautier comme le mépris du <emph>philistin</emph> appartient à Heine, ce mutisme
@@ -1013,7 +1028,7 @@
             </l>
           </quote>
           <p>Et dites si tout cela n’appartient pas, corps et biens, depuis des siècles, à l’auteur
-              d<emph>’Émaux et Camées</emph> et de <emph>La Comédie de la mort</emph> ? La seule
+            d<emph>’Émaux et Camées</emph> et de <emph>La Comédie de la mort</emph> ? La seule
             différence qu’il y ait entre l’imitateur et le modèle, c’est que Monselet a l’amour de
             la nature, que Gautier met presque un singulier orgueil à ne point avoir. Seulement, si
             Monselet ne peut l’avoir comme Gautier qui ne l’a pas, il l’a comme Victor Hugo. C’est
@@ -1029,7 +1044,7 @@
             celles du romancier et du conteur.</p>
           <p>Non ! il n’est pas un poète ! — des vers charmants ici et là rattachant des souvenirs,
             en lambeaux, de poésies qui ont <emph>timbré</emph> les siennes, comme un cachet
-              <emph>timbre</emph> la cire :</p>
+            <emph>timbre</emph> la cire :</p>
           <quote>
             <l>
               Haillons rattachés avec des saphirs,
@@ -1064,17 +1079,17 @@
             nous avec ivresse, — nos rimes, nos cheveux et nos portraits !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Nous avons dit que Charles Monselet était un romancier. Le livre qu’il a publié sous ce
             titre, à faire sécher de jalousie Arsène Houssaye : <emph>Monsieur de
               Cupidon</emph><note n="12" type="footnote" resp="author"> Lecou.</note>, n’est
             nullement le trumeau qu’on croirait sur le simple énoncé du titre, quoiqu’il porte aussi
             les influences d’un siècle auquel on ne saurait toucher impunément qu’avec un masque de
             verre, comme les chimistes touchent au poison. Monselet, qui a étudié le <num>xviii<hi
-                rend="sup">e</hi></num> siècle sans précaution, et qui était, il y a quelques jours
+              rend="sup">e</hi></num> siècle sans précaution, et qui était, il y a quelques jours
             encore, visage contre visage avec la face de satyre du chèvre-pieds littéraire Rétif de
             la Bretonne, l’auteur du <emph>Paysan perverti</emph>, a échappé si peu à l’influence du
-                <num>xviii<hi rend="sup">e</hi></num> siècle pour le déshabillé du détail et la
+            <num>xviii<hi rend="sup">e</hi></num> siècle pour le déshabillé du détail et la
             crudité de l’expression, qu’il se donne, sans aucun embarras, dans la préface même de
             son livre, pour une espèce de continuateur de Louvet de Couvray, quoiqu’il vaille
             infiniment mieux de toutes manières que ce misérable écrivain, de fausse élégance et de
@@ -1091,7 +1106,7 @@
             calomniait pas… A force de regarder le <num>xviii<hi rend="sup">e</hi></num> siècle, son
             regard moral s’est troublé. Nous serons plus juste que lui envers lui-même.</p>
           <p>En effet, malgré les quelques mièvreries libertines de son <emph>Monsieur de
-              Cupidon</emph>, le dessein de ce livre est sérieux, — ou, du moins, il révèle des
+            Cupidon</emph>, le dessein de ce livre est sérieux, — ou, du moins, il révèle des
             facultés d’observation qui peuvent un jour faire la fortune intellectuelle de leur
             auteur. C’est un de ces romans comme le <num>xviii<hi rend="sup">e</hi></num> siècle en
             a produit beaucoup, qui partent d’une donnée impossible pour arriver plus aisément à
@@ -1106,7 +1121,7 @@
             ses maîtres, il a toujours un de ses yeux embusqué sur les vices et les ridicules de son
             temps, et voilà surtout ce qui nous intéresse en lui ; car nous ne tenons pas infiniment
             à cette manière de battre et de couper le jeu de cartes du roman que le <num>xviii<hi
-                rend="sup">e</hi></num> siècle croyait ingénieuse et que ses plus grands esprits —
+              rend="sup">e</hi></num> siècle croyait ingénieuse et que ses plus grands esprits —
             comme Swift, par exemple, — ne dédaignèrent pas. Grâce à Walter Scott, grâce à notre
             illustre et glorieux Balzac, le roman, cette épopée des vieilles civilisations, a
             tellement varié et élevé ses formes au <num>xix<hi rend="sup">e</hi></num> siècle, que
@@ -1139,7 +1154,7 @@
             le <num>xix<hi rend="sup">e</hi></num> siècle, et il en oppose les particularités et les
             mœurs aux mœurs et aux particularités de la société d’autrefois. Telle est la donnée que
             Monselet a cru faire accepter à l’Imagination moderne, cette grande dégoûtée, mais,
-              <emph>au demeurant</emph>, <emph>la meilleure fille du monde</emph> ; tel est le pivot
+            <emph>au demeurant</emph>, <emph>la meilleure fille du monde</emph> ; tel est le pivot
             sur lequel il s’amuse à faire tourner, et quelquefois avec beaucoup de souplesse de
             grâce, les divers épisodes d’une composition qui est au roman ce que la comédie à
             tiroirs est à la comédie de caractère.</p>
@@ -1158,7 +1173,7 @@
             La Critique devrait alors lui en donner. Ses habitudes de bibliophile lui feraient-elles
             tort comme écrivain ? On dirait qu’il faut qu’il vide partout sa chiffonnière
             d’anecdotes, lui, le fourrageur de tous les bonheurs du jour du <num>xviii<hi rend="sup"
-                >e</hi></num> siècle ! L’anecdote est le lierre de son esprit ; elle envahit
+              >e</hi></num> siècle ! L’anecdote est le lierre de son esprit ; elle envahit
             opiniâtrément ses facultés primesautières de conteur, auxquelles il devrait — qu’il nous
             croie I — s’abandonner davantage. L’écrivain qui a <emph>enlevé</emph> d’une main si
             sûre et si habile ce petit chef-d’œuvre de récit et de drame : <emph>Un beau brin de
@@ -1172,7 +1187,7 @@
             souvenirs d’études, les grandes herbes qu’a poussées le <num>xviii<hi rend="sup"
               >e</hi></num> siècle au milieu de tout cela, <emph>Monsieur de Cupidon</emph>, ce
             livre dont on peut trop dire encore ce qu’un critique exquis (Joubert) disait de
-              <emph>Gil Blas</emph> : « <q>On sent qu’il a été écrit au café, entre deux parties de
+            <emph>Gil Blas</emph> : « <q>On sent qu’il a été écrit au café, entre deux parties de
               dominos</q> », <emph>Monsieur de Cupidon</emph> nous fait croire à un autre livre de
             Monselet qui établirait et fixerait sa renommée. Qu’il ne soit plus désormais qu’un
             conteur, en son propre et privé nom, qui dit ce qu’il a vu, observé, inventé (mêmes
@@ -1201,15 +1216,15 @@
         </div>
       </div>
       <div>
-        <head type="h1">Théodore de Banville<note n="14" type="footnote" resp="author"
-              ><emph>Odelettes ; Poésies complètes (Pays</emph>, 22 novembre 1856 ; 1er novembre
-            1857). V. <emph>Les Œuvres et les Hommes. Poètes</emph>, l<hi rend="sup">re</hi> et
-              2èm<hi rend="sup">e</hi> séries.</note></head>
+        <head>Théodore de Banville<note n="14" type="footnote" resp="author"
+          ><emph>Odelettes ; Poésies complètes (Pays</emph>, 22 novembre 1856 ; 1er novembre
+          1857). V. <emph>Les Œuvres et les Hommes. Poètes</emph>, l<hi rend="sup">re</hi> et
+          2èm<hi rend="sup">e</hi> séries.</note></head>
         <p>Théodore de Banville est le poète du rhythme. Il est le dernier venu dans cette école qui
           a relevé l’enclume de la Renaissance pour y battre le métal de ses vers et en faire des
           feuilles d’un or léger. Théodore de Banville a résumé et concentré en lui le talent
           extérieur de ses devanciers et de ses maîtres. Ses <emph>Cariatides</emph> et ses
-            <emph>Stalactites</emph> disent suffisamment par leur titre seul quelle inspiration
+          <emph>Stalactites</emph> disent suffisamment par leur titre seul quelle inspiration
           matérielle est la sienne. Il a beau raffiner et, comme ils le prétendent, spiritualiser la
           matière, c’est un matérialiste au premier chef. Ses <emph>Odelettes</emph><note n="15"
             type="footnote" resp="author"> Michel Lévy frères.</note>, le dernier de ses ouvrages,
@@ -1307,7 +1322,7 @@
           musquée d’affectation et d’érudition qui porte à la tête, il dit à Sainte-Beuve : « Soyons
           les derniers de notre ordre, les derniers des délicats », et il en est un… de la main,
           comme Siméon Pécontal<note n="16" type="footnote" resp="author"> Poètes, I<hi rend="sup"
-              >re</hi> série.</note> l’est de l’âme. Eh bien, ces derniers délicats peuvent, à
+            >re</hi> série.</note> l’est de l’âme. Eh bien, ces derniers délicats peuvent, à
           l’indifférence imméritée dont on les afflige, avoir la conscience qu’ils sont en effet les
           derniers ! Le <num>xix<hi rend="sup">e</hi></num> siècle a d’autres affaires à démêler que
           la gloire de ses poètes… et le mal est bien grand, puisque la poésie comme l’entendent
@@ -1327,12 +1342,12 @@
           sont l’expression dernière du matérialisme littéraire contemporain ?… Comme les Mulâtres
           devant les Noirs !</p>
         <div>
-            <head type="h2">II</head>
+          <head>II</head>
           <p>On s’étonnera peut-être de ce titre de <emph>Poésies complètes</emph>, sous lequel
             l’éditeur Poulet-Malassis a publié le beau volume de Théodore de Banville. D’ordinaire,
             les poètes jeunes encore, les poètes aux pensées infinies, pour parler comme eux, ne
             s’enterrent pas de leurs propres mains dans ce titre solennel et un peu funéraire de
-              <emph>Poésies complètes</emph>, qui implique la fin de leurs travaux et le dernier mot
+            <emph>Poésies complètes</emph>, qui implique la fin de leurs travaux et le dernier mot
             de leur manière ; mais un détail touchant de cette publication, c’est que Banville,
             quand il en eut l’idée, croyait mourir. Il était fort malade alors, et, désespérant de
             sa santé, il soignait sa gloire en s’arrangeant dans ses œuvres. Grâce à Dieu, sa santé
@@ -1363,7 +1378,7 @@
             qu’ils n’ont pas d’inspiration personnelle, nous parlons de cette masse lisante qui
             dispense la gloire et qui la fait. Banville, l’écho du <num>xvi<hi rend="sup"
               >e</hi></num> siècle en matière de rhythme, de mythologie et de symboles,
-              <emph>ronsardise</emph>, comme si nous étions toujours en 1830, cette Renaissance de
+            <emph>ronsardise</emph>, comme si nous étions toujours en 1830, cette Renaissance de
             la Renaissance, ainsi que nous l’avons déjà nommée, cette révolution littéraire qui ne
             fut qu’une restauration. Venu tard dans le mouvement qu’il suit et qui va s’arrêter, on
             peut prendre Banville pour le dernier des romantiques contemporains. Il en a les
@@ -1385,7 +1400,7 @@
             pourquoi elles doivent mourir.</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Elles meurent justement parce qu’elles sont des écoles, parce que la poésie collective,
             la poésie analogue, qui se tient et qui se ressemble par une communauté de parti pris ou
             de doctrines, est une poésie qui s’épuise vite, — les hommes de talent qui se donnent à
@@ -1423,8 +1438,8 @@
             du <emph>funambulesque</emph>, n’y font rien : le poète des <emph>Stalactites</emph> et
             des <emph>Cariatides</emph> — il faut bien le dire ! — est un poète monotone et froid.
             Il est monotone parce que la masse d’images qu’il remue a été déjà remuée cent fois au
-                <num>xvi<hi rend="sup">e</hi></num> et au <num>xix<hi rend="sup"
-            >e</hi></num> siècle, et, quoique le kaléidoscope, à force de tourner, amène parfois de
+            <num>xvi<hi rend="sup">e</hi></num> et au <num>xix<hi rend="sup"
+              >e</hi></num> siècle, et, quoique le kaléidoscope, à force de tourner, amène parfois de
             nouvelles combinaisons de lumière, il n’en est pas moins vrai que ce sont les mêmes
             nuances et les mêmes couleurs qu’on y voit toujours. Il est froid parce que sa poésie ne
             vient jamais d’une idée qui lui appartienne, d’un sentiment qui lui soit profondément
@@ -1436,7 +1451,7 @@
             contemporaines, et ôtez-le des poésies de Banville, et vous allez voir ce qui va
             rester !</p>
           <p>Otez-en l’amour tel qu’il est dans les <emph>Contes</emph> d’<emph>Espagne et
-              d’Italie</emph>, l’amour en uniforme, Alfred de Musset ; ôtez ces vieilles douleurs
+            d’Italie</emph>, l’amour en uniforme, Alfred de Musset ; ôtez ces vieilles douleurs
             égoïstes dont nous avons été assez rebattus, les douleurs de l’accouchement
             intellectuel, le soi-disant mal que nous fait la forme quand elle se débat sous notre
             prise et que nous avons peine à la fixer comme notre pensée l’entrevoit et
@@ -1490,9 +1505,9 @@
             vite de la mémoire des hommes, — des sons et des mots !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Des sons et des mots, c’est là, en effet, toute la poésie de Théodore de Banville. Les
-              <emph>Œuvres complètes</emph> qu’il offre à la postérité avec une coquetterie sans
+            <emph>Œuvres complètes</emph> qu’il offre à la postérité avec une coquetterie sans
             courage, — car, de toutes ces pièces, il pouvait en oublier quelques-unes, et le livre y
             aurait gagné ; les <emph>Œuvres complètes</emph> ne changent rien à l’opinion exprimée
             par nous sur les <emph>Odelettes</emph>, ici retrouvées, et les <emph>Odes
@@ -1500,13 +1515,13 @@
             toujours le même artiste littéraire que nous signalâmes alors, le même rimeur, le même
             limeur, et, disons plus en disant moins :1e même ouvrier. Sa poésie, quelque nom qu’elle
             porte : <emph>Cariatides</emph>, <emph>Stalactites</emph>, <emph>Eralo</emph>,
-              <emph>Sang de la coupe</emph>, etc., n’est jamais de la poésie <emph>sentie</emph> ou
-              <emph>pensée</emph> ; mais c’est de la poésie peinte ou sonore, et encore plus sonore
+            <emph>Sang de la coupe</emph>, etc., n’est jamais de la poésie <emph>sentie</emph> ou
+            <emph>pensée</emph> ; mais c’est de la poésie peinte ou sonore, et encore plus sonore
             que peinte. Les qualités musicales sont, à la vérité, en première ligne chez Banville.
             Il est pour l’harmonie ce qu’est Théophile Gautier pour le relief et pour la couleur. Il
             trouve, varie et arrange des rhythmes, comme le musicien trouve, varie et arrange des
             airs, et il a parfois d’assez heureuses rénovations ou découvertes ; mais ce sont ses
-              <emph>seules</emph> originalités. Nous indiquerons le grand morceau : <emph>Le
+            <emph>seules</emph> originalités. Nous indiquerons le grand morceau : <emph>Le
               triomphe de Bacchus à son retour des Indes</emph>, pris, sauf erreur, au vieux
             Baïf :</p>
           <quote>
@@ -1600,7 +1615,7 @@
             qui ne consiste pas à adorer Vénus Callipyge, quand les Olympiades sont finies, et à
             décalquer en vers propres les Hérodiades de Léonard de Vinci, le saisira-t-elle enfin de
             cette main qu’elle plonge aux entrailles ? Ou bien, comme dans les
-              <emph>Odelettes</emph>, les <emph>Funambulesques</emph> et même ces <emph>Œuvres
+            <emph>Odelettes</emph>, les <emph>Funambulesques</emph> et même ces <emph>Œuvres
               complètes</emph>, qui ne nous répètent que le Banville que nous connaissons, sera-t-il
             éternellement réduit à la <emph>danse du châle</emph> des mots comme une bayadère, ou
             aux tours plus ou moins étonnants de ce singe de la fable qui avait trouvé une couronne
@@ -1608,11 +1623,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark7"/>Émile Augier, Louis Bouilhet, Reboul<title
-            rend="u"><note n="17" type="footnote" resp="author"><emph>Poésies complètes.</emph>
-                — <emph>Melænis.</emph> — <emph>Les Traditionnelles.</emph></note></title></head>
+        <head>Émile Augier, Louis Bouilhet, Reboul<title
+          rend="u"><note n="17" type="footnote" resp="author"><emph>Poésies complètes.</emph>
+            — <emph>Melænis.</emph> — <emph>Les Traditionnelles.</emph></note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Nous voudrions parler de quelques livres avec lesquels nous sommes en retard. Si nous
             choisissions nos sujets de critique, s’il nous était loisible de faire planer seulement
             notre examen sur les ouvrages considérables ayant réellement une importance, soit dans
@@ -1628,7 +1643,7 @@
             l’esprit humain.</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Parmi les tard venus à cette place, il en est un pour lequel le succès est partout venu
             vite, et qui pourrait s’appeler, comme Masséna, L’<emph>enfant chéri de la
               Victoire.</emph> Ce n’est pas cependant littérairement un Masséna ni rien qui y
@@ -1657,7 +1672,7 @@
             d’une valeur quelconque et une puissance relative de langage, pour être compté parmi les
             écrivains d’imagination et les poètes.</p>
           <p>Or, en définitive, quelle est celle d’Émile Augier, parmi les poètes actuels du
-                <num>xix<hi rend="sup">e</hi></num> siècle, dont le <num>xx<hi rend="sup"
+            <num>xix<hi rend="sup">e</hi></num> siècle, dont le <num>xx<hi rend="sup"
               >e</hi></num> ne se souviendra pas ?… Telle est la question que nous ne craignons pas
             de poser devant sa jeune gloire… Comme les diverses manifestations de l’esprit n’en
             changent jamais la nature, la place d’Augier dans la poésie lyrique et élégiaque nous
@@ -1691,7 +1706,7 @@
             beautés de détail, il n’est pas permis, quand on est soi-même sans idées, d’écrire des
             vers aussi dénués d’organisme et de correction forte que l’auteur des <emph>Poésies
               complètes.</emph> Cela rappelle trop le mot de Rivarol : « <q>C’est là de la prose où
-              les vers se sont mis. </q>» Et encore, nous connaissons beaucoup de proses d’un tissu
+                les vers se sont mis. </q>» Et encore, nous connaissons beaucoup de proses d’un tissu
             plus serré, plus étincelant, plus ferme et plus souple que ces molles poésies sans
             articulation et sans relief. Le vers d’Augier est fluide ; mais il n’est pas pur. Il
             coule, il coule… mais il n’a ni la langueur endormie des larges rivières, ni la fougue
@@ -1713,11 +1728,11 @@
             l’Alfred de Musset sans la grâce de ses éperons d’or ; de l’Alfred de Musset mis à pied
             et au niveau de la bassesse générale des imaginations, ne choquant plus personne par sa
             supériorité même. Si, au lieu d’être un enfant du <num>xix<hi rend="sup"
-            >e</hi></num> siècle, Émile Augier eût appartenu à une autre époque, il eût fait, sans y
+              >e</hi></num> siècle, Émile Augier eût appartenu à une autre époque, il eût fait, sans y
             rien changer, tout ce qu’il a fait dans la sienne. Ce qu’il est à Musset, il l’aurait
             été, par exemple, à Delille, à la fin du <num>xviii<hi rend="sup">e</hi></num> siècle.
             Il l’aurait affaibli en le rappelant. Il aurait écrit peut-être quelque chose comme
-              <emph>Le Printemps d’un Proscrit</emph>, mais il n’aurait pas été Michaud pour cela ;
+            <emph>Le Printemps d’un Proscrit</emph>, mais il n’aurait pas été Michaud pour cela ;
             car Michaud valait mieux que ses vers. Le destin d’Augier — partout où vous le supposiez
             dans l’histoire littéraire — serait d’être toujours le caméléon de quelqu’un ; mais le
             caméléon malade, qui ne prend que la moitié de la couleur qu’il emprunte, et qui la
@@ -1740,9 +1755,9 @@
             Curtius qui veut jouer la vie n’est un homme !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Passons maintenant à un autre imitateur ! Louis Bouilhet est aussi un de ces
-              <emph>jeunes fortunés</emph>, comme dit si lyriquement Augier à Ponsard, qui savent
+            <emph>jeunes fortunés</emph>, comme dit si lyriquement Augier à Ponsard, qui savent
             imiter et réussir… parce qu’ils imitent. Lui aussi, comme Émile Augier, n’a pas attendu
             son succès, et peut-être, lui aussi, qui sait ? entrera-t-il de bonne heure à
             l’Académie ?… Sa <emph>Madame de Montarcy</emph>, qu’il n’est pas plus dans nos
@@ -1759,7 +1774,7 @@
             un temps donné, la vie de la littérature… On a beaucoup parlé de l’originalité de
             Musset, et ce n’est pas là son plus grand mérite. Il a dit lui-même, dans un passage
             charmant et souvent cité, mais en se moquant du lecteur qui le lui pardonne, que
-              « s<q>on verre n’était pas grand, mais qu’il buvait dans son verre </q>». Et cela est
+            « s<q>on verre n’était pas grand, mais qu’il buvait dans son verre </q>». Et cela est
             doublement faux, car son verre est énorme, et c’est celui de lord Byron ! La gloire
             d’Alfred de Musset, c’est d’avoir hérité du crâne joyeux et triste des orgies de
             Newstead et d’y avoir pleuré, tout en y buvant, les plus belles larmes qui aient jamais
@@ -1808,7 +1823,7 @@
             inférieure.</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Cette imitation des deux à trois grands poètes du siècle, qui résume, en ces derniers
             temps, le stérile mouvement des imaginations poétiques, Reboul, plus que personne
             peut-être, était <emph>né</emph> pour y échapper. Reboul, le célèbre boulanger de Nîmes,
@@ -1818,10 +1833,10 @@
             a voulu l’être, et ce qu’il y a gagné de connaissances n’a pas payé ce qu’il y a perdu
             de fraîcheur d’idées et de virginité intellectuelle. <emph>Les
               Traditionnelles</emph><note n="20" type="footnote" resp="author">Étienne
-              Giraud.</note> sont des poésies de poète. On y cherche en vain l’homme spontané et
+                Giraud.</note> sont des poésies de poète. On y cherche en vain l’homme spontané et
             fruste qu’on y voudrait, « <q>ce génie dans l’obscurité</q> », comme l’avait nommé un
             peu trop vite Lamartine. On n’y trouve qu’une voix du temps et un écho de plus des
-              <emph>Méditations</emph> et des <emph>Harmonies</emph>, lesquelles ont produit tant
+            <emph>Méditations</emph> et des <emph>Harmonies</emph>, lesquelles ont produit tant
             d’échos ! Reboul, ouvrier des villes, devenu bourgeois, n’est pas et ne pouvait être le
             Burns de la France. Indépendamment du génie très particulier, très vigoureux et très
             profond, qu’il fallait pour cela, il fallait de plus une aire d’observation
@@ -1846,14 +1861,14 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark9"/>Charles Baudelaire <title rend="u"><note n="21"
-              type="footnote" resp="author"><emph>Les Fleurs du mal ; Les Paradis
-              artificiels</emph> ; <emph>Opium et Haschisch</emph> (24 juillet 1857 ;
-                <emph>Pays</emph>, 28 avril 1860).</note></title></head>
+        <head>Charles Baudelaire <title rend="u"><note n="21"
+          type="footnote" resp="author"><emph>Les Fleurs du mal ; Les Paradis
+            artificiels</emph> ; <emph>Opium et Haschisch</emph> (24 juillet 1857 ;
+          <emph>Pays</emph>, 28 avril 1860).</note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>S’il n’y avait que du talent dans <emph>Les Fleurs du mal</emph><note n="22"
-              type="footnote" resp="author">Poulet-Malassis.</note> de Charles Baudelaire, il y en
+            type="footnote" resp="author">Poulet-Malassis.</note> de Charles Baudelaire, il y en
             aurait certainement assez pour fixer l’attention de la Critique et captiver les
             connaisseurs ; mais dans ce livre difficile à caractériser tout d’abord, et sur lequel
             notre devoir est d’empêcher toute confusion et toute méprise, il y a bien autre chose
@@ -1915,9 +1930,9 @@
             aussi ! On peut la prendre pour une justice, — la justice de Dieu !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Après avoir dit cela, ce n’est pas nous qui affirmerons que la poésie des <emph>Fleurs
-              du mal</emph> est de la poésie personnelle. Sans doute, étant ce que nous sommes, nous
+            du mal</emph> est de la poésie personnelle. Sans doute, étant ce que nous sommes, nous
             portons tous (et même les plus forts) quelque lambeau <emph>saignant</emph> de notre
             cœur dans nos œuvres, et le poète des <emph>Fleurs du mal</emph> est soumis à cette loi
             comme chacun de nous. Ce que nous tenons seulement à constater, c’est que, contrairement
@@ -1937,7 +1952,7 @@
             odieux, et Baudelaire a eu la faiblesse… ou la précaution de Molière.</p>
           <p>Dans ce livre, où tout est en vers, jusqu’à la préface, on trouve une note en prose qui
             ne peut laisser aucun doute, non seulement sur la manière de procéder de l’auteur des
-              <emph>Fleurs du mal</emph>, mais encore sur la notion qu’il s’est faite de l’Art et de
+            <emph>Fleurs du mal</emph>, mais encore sur la notion qu’il s’est faite de l’Art et de
             la Poésie ; car Baudelaire est un artiste de volonté, de réflexion et de combinaison
             avant tout. « Fidèle — dit-il — à son douloureux programme, l’auteur des <emph>Fleurs du
               mal</emph> a dû, en parfait comédien, façonner son esprit à tous les sophismes comme à
@@ -1959,7 +1974,7 @@
             terrible, et que Caligula et Héliogabale n’auraient pas poussés. Le Christianisme nous a
             tellement pénétrés qu’il fausse jusqu’à nos conceptions d’art volontaire dans les
             esprits les plus énergiques et les plus préoccupés. S’appelât-on l’auteur des
-              <emph>Fleurs du mal</emph>, — un grand poète qui ne se croit pas chrétien et qui, dans
+            <emph>Fleurs du mal</emph>, — un grand poète qui ne se croit pas chrétien et qui, dans
             son livre, positivement ne veut pas l’être, — on n’a pas impunément dix-huit cents ans
             de Christianisme derrière soi. Cela est plus fort que nous ! On a beau être un artiste
             redoutable, au point de vue le plus arrêté, à la volonté la plus soutenue ; et s’être
@@ -1980,7 +1995,7 @@
             fixe contemplation de son idée, n’a pas été trop vaincu.</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Cette idée, nous l’avons dit déjà par tout ce qui précède, c’est le pessimisme le plus
             achevé. La littérature <emph>satanique</emph>, qui date d’assez loin déjà, mais qui
             avait un côté romanesque et faux, n’a produit que des contes pour faire frémir ou des
@@ -1993,7 +2008,7 @@
             Chinois, est lui-même une fleur du mal venue dans les serres chaudes d’une Décadence.
             Par la langue et le <emph>faire</emph>, Baudelaire, qui salue à la tête de son recueil
             Théophile Gautier pour son maître, est de cette école qui croit que tout est perdu, et
-              <emph>même l’honneur</emph>, à la première rime faible, dans la poésie la plus élancée
+            <emph>même l’honneur</emph>, à la première rime faible, dans la poésie la plus élancée
             et la plus vigoureuse. C’est un de ces matérialistes raffinés et ambitieux qui ne
             conçoivent guères qu’une perfection, — la perfection matérielle, — et qui savent parfois
             la réaliser ; mais, par l’inspiration, il est bien plus profond que son école, et il est
@@ -2015,7 +2030,7 @@
             mourir. Cela est, dans sa férocité intime, d’un ton inconnu en littérature. Si à
             quelques places, comme dans la pièce <emph>La Géante</emph>, ou dans <emph>Don Juan aux
               Enfers</emph>, — un groupe de marbre blanc et noir, une poésie de pierre <emph>(di
-              sasso)</emph> comme le Commandeur, — Baudelaire rappelle la forme de Victor Hugo, mais
+                sasso)</emph> comme le Commandeur, — Baudelaire rappelle la forme de Victor Hugo, mais
             condensée et surtout purifiée ; si, à quelques autres, comme <emph>La Charogne</emph>,
             la seule poésie spiritualiste du recueil, dans laquelle le poète se venge de la
             pourriture abhorrée par l’immortalité d’un cher souvenir :</p>
@@ -2028,7 +2043,7 @@
             </l>
           </quote>
           <p> on se souvient d’Auguste Barbier… partout ailleurs l’auteur des <emph>Fleurs du
-              mal</emph> est lui-même et tranche fièrement sur tous les talents de ce temps. Un
+            mal</emph> est lui-même et tranche fièrement sur tous les talents de ce temps. Un
             critique le disait l’autre jour (Thierry, du <emph>Moniteur</emph>), dans une
             appréciation supérieure : pour trouver quelque parenté à cette poésie implacable, à ce
             vers brutal, condensé et sonore, ce vers d’airain qui sue du sang, il faut remonter
@@ -2037,7 +2052,7 @@
           <p>Il y a du Dante, en effet, dans l’auteur des <emph>Fleurs du mal</emph> ; mais c’est du
             Dante d’une époque déchue, c’est du Dante athée et moderne, du Dante venu après
             Voltaire, dans un temps qui n’aura point de saint Thomas. Le poète de ces
-              <emph>Fleurs</emph>, qui ulcèrent le sein Sur lequel elles reposent, n’a pas la grande
+            <emph>Fleurs</emph>, qui ulcèrent le sein Sur lequel elles reposent, n’a pas la grande
             mine de son majestueux devancier, et ce n’est pas sa faute. Il appartient à une époque
             troublée, sceptique, railleuse, nerveuse, qui se tortille dans les ridicules espérances
             des transformations et des métempsycoses il n’a pas la foi du grand poète catholique,
@@ -2053,14 +2068,14 @@
             exceptionnels savent revêtir leurs œuvres les plus passionnées. Elle a, au contraire,
             d’horribles réalités que nous connaissons, et qui dégoûtent trop pour permettre même
             l’accablante sérénité du mépris. Baudelaire n’a pas voulu être dans son livre des
-              <emph>Fleurs du mal</emph> un poète satirique, et il l’est pourtant, sinon de
+            <emph>Fleurs du mal</emph> un poète satirique, et il l’est pourtant, sinon de
             conclusion et d’enseignement, au moins de soulèvement d’âme, d’imprécations et de cris.
             Il est le misanthrope de la vie coupable, et souvent on s’imagine, en le lisant, que si
             Timon d’Athènes avait eu le génie d’Archiloque, il aurait pu écrire ainsi sur la nature
             humaine et l’insulter en la racontant !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Nous ne pouvons ni ne voulons rien citer de ces poésies, et voici pourquoi : une pièce
             citée n’aurait que sa valeur individuelle, et, il ne faut pas s’y méprendre ! dans le
             livre chaque poésie a, de plus que la réussite des détails ou la fortune de la pensée,
@@ -2097,9 +2112,9 @@
             faire chrétien !</p>
         </div>
         <div>
-          <head type="h2">V</head>
+          <head>V</head>
           <p>On a beaucoup parlé déjà de ces <emph>Paradis artificiels</emph><note n="23"
-              type="footnote" resp="author">Poulet-Malassis.</note>. Si on ne s’occupe pas beaucoup
+            type="footnote" resp="author">Poulet-Malassis.</note>. Si on ne s’occupe pas beaucoup
             de l’autre, on s’occupe volontiers de ceux-ci. C’est plus aisé. On s’en tire avec
             quelques sous de la drogue que voici et une cuiller à café. Le haschich et l’opium !
             Diable ! (Et c’est bien diable qu’il faut dire !) L’opium et le haschich ! mais c’est
@@ -2121,7 +2136,7 @@
             tout vert de terreur surmontée. Le haschich et l’opium, c’est l’enfer de Charles
             Baudelaire. C’est l’enfer moderne de la sensation surexcitée et épuisée, du nerf tari
             dans sa dernière goutte de fluide. Enfer vrai, et <emph>paradis…
-            artificiels</emph> !</p>
+              artificiels</emph> !</p>
           <p>Ah ! l’autre enfer était plus beau sans doute. Il avait plus de variété, plus de
             grandeur et plus de spectacles que celui qu’on nomme aujourd’hui paradis, probablement
             par antiphrase. Et quoi d’étonnant ? « <q>L’opium et le haschich </q>— dit très bien
@@ -2132,7 +2147,7 @@
             passions sont une ressource, et que c’est se jeter par la fenêtre de sa prison que de se
             jeter à elles, et elle s’y jette ; mais c’est dans l’ennui qu’elle retombe, ennui plus
             creusé par sa chute, hélas ! plus profond et plus noir ! D’un autre côté,
-              <emph>L’Enfer</emph> du Dante, pour être plus beau, est aussi un poème, dans toute la
+            <emph>L’Enfer</emph> du Dante, pour être plus beau, est aussi un poème, dans toute la
             splendeur de cette difficulté immense et vaincue, écrit en tercets qui ressemblent à des
             rayons tordus de foudre, de soleil et de lune, tandis que <emph>Les Paradis
               artificiels</emph> de Baudelaire sont un livre de prose, de description et d’analyse
@@ -2182,9 +2197,9 @@
             espèce de sympathie et de respect.</p>
         </div>
         <div>
-          <head type="h2">VI</head>
+          <head>VI</head>
           <p>J’ai dit que Baudelaire était poète. Qui ne le sait, qui n’a pas lu ces <emph>Fleurs du
-              mal</emph> dont le vrai nom aurait dû être <emph>Les Fleurs maudites</emph>, poésies
+            mal</emph> dont le vrai nom aurait dû être <emph>Les Fleurs maudites</emph>, poésies
             cruelles, envenimées, d’une volupté sinistre, qui auraient leur excuse dans le
             désespoir, si le désespoir n’était un <emph>mal</emph> de plus, et après lesquelles, si
             l’auteur avait eu la logique de ses sensations, il n’y avait plus que le coup de
@@ -2198,7 +2213,7 @@
             certainement pas eue s’ils étaient venus plus tôt ou plus tard… Milton, le chantre de la
             Révolte, est d’un temps où les mœurs étaient régicides. Au <num>xix<hi rend="sup"
               >e</hi></num> siècle, que voulez-vous que fût un poète qui venait après le
-              <emph>René</emph> de Chateaubriand et le matérialisme de Broussais, et qui, ramassant
+            <emph>René</emph> de Chateaubriand et le matérialisme de Broussais, et qui, ramassant
             Musset tombé, l’étoile au front, qu’il avait éteinte dans le ruisseau, traduisait
             froidement, mais puissamment, avec bien des rayons de moins, mais une correction plus
             savante, ces ivresses dont Musset était mort sans avoir chanté l’horreur ? Il devait
@@ -2216,7 +2231,7 @@
             qu’un <emph>puffiste</emph> sublime, qui méprise son public et le lui prouve, sans le
             lui dire, en lui construisant une littérature à le dompter, ce public américain qui aime
             les tours de force, et à le tenir les yeux dilatés dans la terreur des
-              <emph>extraordinaires</emph> histoires qu’il lui raconte. Vamburgh, à la fin, de ce
+            <emph>extraordinaires</emph> histoires qu’il lui raconte. Vamburgh, à la fin, de ce
             lion ! Assurément, Baudelaire, qui de nature a un penchant vers l’ironie que sa
             physionomie devait révéler tout enfant à sa mère, aurait dans son intimité avec Poe
             appris, quand il n’en eût pas eu le germe en lui, l’art amer et hypocrite de cette
@@ -2226,23 +2241,23 @@
             cultivée qui fut la Muse du poète des <emph>Fleurs du mal.</emph> Peintre à froid
             d’horreurs à froid, mais peintre très habile, qui, dans ses <emph>Fleurs du mal</emph>,
             se fait poétiquement un Héliogabale <emph>artificiel</emph>, comme, dans ses
-              <emph>Paradis artificiels</emph>, il se fait le Satan qui tente et épouvante et qui se
+            <emph>Paradis artificiels</emph>, il se fait le Satan qui tente et épouvante et qui se
             moque après avoir tenté et épouvanté, Baudelaire, qui est de son temps, a trouvé gentil
             et drolatique de nous raconter une <emph>Histoire extraordinaire</emph>, digne de Poe et
             oubliée par lui, et de nous la raconter de manière à nous donner envie de prendre de
             l’opium, tout en nous disant de n’en rien faire, sous peine de destruction de soi, de
             déshonneur moral et d’indignité. Jamais plan n’a été mieux caché, mais n’est plus
             transparent, ce me semble. Voilà toute la morale de sa pièce, ou plutôt de son
-              <emph>Histoire</emph> ! Nous suspendre entre la convoitise et le remords, entre la
+            <emph>Histoire</emph> ! Nous suspendre entre la convoitise et le remords, entre la
             curiosité et la honte, puis rire de ce que nous aurons fait… ou de ce que nous ne ferons
             pas. Abstinents ou repentants ! Bonne, froide et profonde plaisanterie, accomplie
             solennellement, mais non avec le rire silencieux de Bas-de-Cuir ; car le rire silencieux
             de Bas-de-Cuir était encore un rire, et Baudelaire ne rit pas !</p>
         </div>
         <div>
-          <head type="h2">VII</head>
+          <head>VII</head>
           <p>Et la preuve de ce que je dis là est à toute page ici, — en ces <emph>Paradis
-              artificiels.</emph> L’auteur, qui est poète, entend admirablement les mises en scène
+            artificiels.</emph> L’auteur, qui est poète, entend admirablement les mises en scène
             de son idée. Il a l’expression burinée toujours ; mais quelquefois son burin flambe !
             C’est pour mieux faire flamber le désir. C’est comme dans le <emph>Petit Chaperon
               rouge</emph> : « <q>C’est pour mieux te manger, mon enfant ! </q>», ou te faire mieux
@@ -2250,7 +2265,7 @@
             ou le haschisch, et qui ne révèlent à l’homme que l’homme, c’est-à-dire ce qu’il sait
             trop déjà, l’auteur des <emph>Paradis</emph> a des passages qui emporteront les
             imaginations rêveuses, lesquelles chevauchent l’expression comme un hippogriffe !
-              « <q>Vous savez — dit-il, et il en dit bien d’autres ! — que le haschisch invoque
+            « <q>Vous savez — dit-il, et il en dit bien d’autres ! — que le haschisch invoque
               toujours des magnificences de lumière, des splendeurs glorieuses, des cascades d’or
               liquide ; toute lumière lui est bonne, celle qui ruisselle en nappes et celle qui
               s’accroche comme du paillon aux pointes et aux aspérités, les candélabres des salons,
@@ -2263,14 +2278,14 @@
             patelin, délicieux, plein de précautions et d’avertissement, moraliste enfin, puisque
             c’est plus comique ainsi et qu’ils le croient, les bonnes gens ! Baudelaire me rappelle
             souvent ce <emph>kief</emph> oriental dont il parle, cet état de visions splendides et
-              <q>doucement terrifiantes et en même temps plein de consolations</q>. Joli état,
+            <q>doucement terrifiantes et en même temps plein de consolations</q>. Joli état,
             excellentes et juteuses épithètes ! Seulement, j’allais trop loin, je crois, tout à
             l’heure, en disant que Baudelaire ne riait jamais, Bas-de-Cuir de l’opium, plus dur à la
             détente que le Bas-de-Cuir des grands bois. Eh bien, par exception à son usage, il me
             semble que je vois ici un petit bout de rire silencieux !</p>
           <p>Ainsi, un poète comme toujours, mais non plus le poète des <emph>Fleurs du mal</emph>,
             qui était tragique, mais un poète comique inattendu, voilà, de présent, l’auteur des
-              <emph>Paradis artificiels.</emph> Quoiqu’il soit sérieux d’apparence, à travers ses
+            <emph>Paradis artificiels.</emph> Quoiqu’il soit sérieux d’apparence, à travers ses
             notions nombreuses, scientifiquement très affermies, — une littérature <emph>sui
               generis</emph> sur les deux substances dont il s’occupe, — à travers enfin les
             descriptions de l’ivresse, cet abîme qu’il descend marche par marche, s’arrêtant à
@@ -2286,7 +2301,7 @@
             contorsions d’imagination comme celles-ci : « <q>Vous vous sentirez vous évaporant, et
               vous attribuerez à votre pipe (dans laquelle vous vous sentez accroupi et ramassé
               comme le tabac), l’étrange faculté</q><q> de vous fumer </q>» ; prenez le récit de
-              <emph>La Dame un peu mûre</emph>, et dites si tout cela n’est pas d’un comique dont le
+            <emph>La Dame un peu mûre</emph>, et dites si tout cela n’est pas d’un comique dont le
             haschisch n’est que l’occasion, et d’un comique d’autant plus piquant qu’il est…
             hypocrite. Il y a encore le récit du « monsieur » qui va chez le pharmacien pour se
             dégriser, qui est un chef-d’œuvre que Swift aurait signé, mais n’aurait peut-être pas
@@ -2298,7 +2313,7 @@
               artificiels.</emph></p>
         </div>
         <div>
-          <head type="h2">VIII</head>
+          <head>VIII</head>
           <p>Ils sont divisés en deux livres. Je n’ai guères parlé jusqu’ici que de celui qui
             appartient plus particulièrement à Baudelaire : le livre qui traite du haschisch ;
             l’autre, qui traite de l’opium et dont le paradis est bien inférieur au paradis du
@@ -2317,14 +2332,14 @@
             son vice, qu’il nous donne pour plus qu’il ne vaut. Ce qu’il en cite ne vaut, certes !
             pas ce qu’il en dit.</p>
           <p>Je crois bien, pour mon compte, qu’il a fait de ce poète une poésie, une <emph>Fleur du
-              mal</emph> nouvelle, dont il nous étale le calice en en forçant un peu les feuilles
+            mal</emph> nouvelle, dont il nous étale le calice en en forçant un peu les feuilles
             pour nous le faire mieux voir dans son mystère et dans sa bizarrerie souffrante ! Comme
             l’impayable amateur de prunes, dans les <emph>Caractères</emph> de La Bruyère, il ouvre
             cette prune malade et empoisonnée, la partage, la flaire, et dit : «<q> Quelle chair !
               quelle saveur ! goûtez cela ! </q>» Nous l’avons goûtée et nous nous soucions peu de
             cette reine-claude à l’opium. Otez de ce livre de Quincey, que Baudelaire invente et
             vante, quelques fragments où le traducteur se sent pardessus le traduit, par exemple :
-              <emph>Les Trois NotreDames de tristesse</emph>, dont le développement allégorique est
+            <emph>Les Trois NotreDames de tristesse</emph>, dont le développement allégorique est
             très beau et très poignant, et vous n’avez plus dans ce mangeur d’opium, — qui est plus
             intéressant quand il parle de lui sans opium que quand il s’en bourre des huit mille
             gouttes, — vous n’avez plus qu’un humouriste, hâve et déformé, du pays des humouristes
@@ -2343,11 +2358,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark11"/>Lefèvre-Deumier<title rend="u"><note n="24"
-              type="footnote" resp="author"><emph>Le Couvre-feu. Dernières poésies (Pays</emph>, 22
-              décembre 1857).</note></title></head>
+        <head>Lefèvre-Deumier<title rend="u"><note n="24"
+          type="footnote" resp="author"><emph>Le Couvre-feu. Dernières poésies (Pays</emph>, 22
+          décembre 1857).</note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Oui ! ce sont vraiment les dernières ! Il faut prendre au pied de la lettre ce mot
             tracé par l’auteur, non par l’éditeur, à la tête de ce volume. Quoique écrites dix ans
             auparavant, ces poésies, l’auteur les avait gardées sans les publier. Il avait senti,
@@ -2378,9 +2393,9 @@
             qu’il veut dire, contrairement au devoir d’un titre, qui est tenu d’être transparent
             comme un cristal.</p>
           <p>« <q>Je ne pense pas</q> — nous dit-il — <q>que la poésie meurt, mais je suis fermement
-              convaincu qu’elle s’endort, et je n’espère pas assister à son réveil. Ce n’est donc
-              pas sa mort que je sonne, mais son sommeil, le couvre-feu. Quand la politique se
-              lève,</q> — (l’auteur écrivait en 1849), — l<q>’imagination se couche ; c’est l’heure
+            convaincu qu’elle s’endort, et je n’espère pas assister à son réveil. Ce n’est donc
+            pas sa mort que je sonne, mais son sommeil, le couvre-feu. Quand la politique se
+            lève,</q> — (l’auteur écrivait en 1849), — l<q>’imagination se couche ; c’est l’heure
               d’éteindre sa lumière, et de couvrir son foyer. Ceux qui viendront demain ne seront
               peut-être pas fâchés, si l’hiver ou la nuit dure encore, de retrouver, pour rallumer
               leur falourde ou leur lampe, quelques charbons sous nos cendres… </q>»</p>
@@ -2398,7 +2413,7 @@
             et l’auteur du <emph>Couvre-feu</emph> en aurait !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Lefèvre-Deumier appartient à la génération de 1830. Il est même de la première heure de
             ce point du jour littéraire qui eut l’ardeur du midi à l’aurore, et à midi l’épuisement
             du soir. Les premiers recueils romantiques virent de ses vers, et on les distinguait
@@ -2436,7 +2451,7 @@
             nous l’avons dans la jeunesse.</p>
           <p>Cet air, cet accent, il ne les a jamais perdus, même quand il est redevenu le plus
             Français, le plus spirituel, et même le plus poète de canapé chez les précieuses du
-                <num>xix<hi rend="sup">e</hi></num> siècle ; car il y a de cela aussi chez
+            <num>xix<hi rend="sup">e</hi></num> siècle ; car il y a de cela aussi chez
             Lefèvre-Deumier. Avec du Coleridge et du Jacques Delille dans la veine, il a du Voiture
             et de l’hôtel de Rambouillet. Singulier mélange de vérité et d’afféterie, de grandeur et
             de pincé, de beauté plus fine et plus étincelante que pure, et d’incroyable bizarrerie,
@@ -2463,7 +2478,7 @@
             de l’être de contemplation dans ses écrits.</p>
           <p>Lefèvre-Deumier, qui n’a écrit que des vers alexandrins, et dont nous ne nous rappelons
             pas une seule strophe, fut un terrible lyrique de fait. Un jour, cette passion, dont
-              <emph>Les Confidences</emph> sont l’écho, l’entraîna en Pologne, au siège de Varsovie,
+            <emph>Les Confidences</emph> sont l’écho, l’entraîna en Pologne, au siège de Varsovie,
             pour s’y faire tuer, et il y fut laissé pour mort sur des monceaux de cadavres. Il fut
             plus heureux que Byron, qu’il n’avait pas imité en cherchant un champ de bataille, et
             qui mourut d’un rhume en Grèce. Lui ne mourut pas ; il revint blessé, mais l’âme guérie,
@@ -2487,13 +2502,13 @@
             pour l’atteindre. Il est naturellement affecté, et il ajoutait à la nature la théorie.
             Il y a un morceau très curieux de lui, sur Pétrarque, où il pose en fait et en doctrine
             que la passion a un tel besoin de presser et de tordre son expression qu’elle arrive aux
-              <emph>concetti</emph> les plus inattendus et aux fioritures les plus compliquées. Avec
+            <emph>concetti</emph> les plus inattendus et aux fioritures les plus compliquées. Avec
             une telle manière de sentir et de concevoir la beauté poétique, l’auteur du
-              <emph>Couvre-feu</emph>, qui, nous devons en convenir, a, pendant ces dix dernières
+            <emph>Couvre-feu</emph>, qui, nous devons en convenir, a, pendant ces dix dernières
             années, accompli un rude travail de lime sur lui-même, a eu beau se polir, se
             dépouiller, s’élever, — et qui s’élève se simplifie ! — il n’en a pas moins quelque
             chose de contourné dans la pensée, oui ! dans la pensée, quand ce n’est
-              <emph>plus</emph> dans l’expression ! Un exemple nous suffira pour donner une idée de
+            <emph>plus</emph> dans l’expression ! Un exemple nous suffira pour donner une idée de
             la manière générale et habituelle du poète. C’est un morceau intitulé : <emph>La Vallée
               de Josaphat</emph> :</p>
           <quote>
@@ -2538,7 +2553,7 @@
           </quote>
           <p>Évidemment, voilà de la poésie méditative et philosophique qui ne manque ni de largeur
             ni de force, ni même de simplicité, si vous exceptez ce <q>vent de la colère de
-            Dieu</q>, qui est <emph>pasteur</emph> et qui <emph>est justicier, —</emph> ce qui est
+              Dieu</q>, qui est <emph>pasteur</emph> et qui <emph>est justicier, —</emph> ce qui est
             beaucoup pour le vent. Mais n’y a-t-il pas dans cette poésie antithétique, dure,
             noueuse, qui heurte, dans un rapprochement si imprévu, l’idée de la vallée de Josaphat
             contenant le monde ressuscité à la fin des temps et l’idée du champ de la mémoire
@@ -2549,13 +2564,13 @@
             véritable originalité ?</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>C’est là, en effet, ce que n’eut jamais Lefèvre-Deumier. C’est un poète cherché et
             recherché, qui trouve souvent, mais qui reste tel et même après avoir trouvé. Il y a du
             Jean-Paul, du Rivarol et du père Castel en vers, du père Castel au clavier et à la
             musique de parfums ! En nous résumant donc sur la valeur d’un homme dont le talent,
             curieux à étudier, fut plus grand que la renommée, nous dirons que l’auteur des
-              <emph>Confidences</emph> et du <emph>Couvre-feu</emph> est, comme tous les poètes
+            <emph>Confidences</emph> et du <emph>Couvre-feu</emph> est, comme tous les poètes
             célèbres de son temps, un grand talent de décadence, mais dont l’âme, très peu de son
             époque, rachète la fausseté du goût. Par là, il se sépare vigoureusement de ces Titans
             du romantisme avec lesquels il a vécu, de ces Prométhées de la forme et de la ciselure
@@ -2579,8 +2594,8 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark13"/>Henri Cantel<note n="26" type="footnote"
-            resp="author"><emph>Impressions et Visions (Pays</emph>, 24 mai 1859).</note></head>
+        <head>Henri Cantel<note n="26" type="footnote"
+          resp="author"><emph>Impressions et Visions (Pays</emph>, 24 mai 1859).</note></head>
         <p>Il y a en ce moment, sur le premier plan de la publicité occupé par les revues à grosse
           armature, un recueil modeste qui s’appelle la <emph>Revue française</emph>, et qui est
           bien nommé ; car il parle un très bon français et il est l’expression de l’amour des
@@ -2595,7 +2610,7 @@
           d’une poétique qui serait une méthode, et qui ne peut pas être cette chose emphatiquement
           vague, tout au plus bonne comme tendance, mais, comme portée, nulle : l’aspiration vers le
           beau dans l’indépendance de la pensée ! Pour cette raison, la <emph>Revue
-          française</emph>, comme toutes les autres revues contemporaines, n’est qu’une espèce de
+            française</emph>, comme toutes les autres revues contemporaines, n’est qu’une espèce de
           mosaïque plus ou moins éclatante d’individualités, se détachant ou s’unissant sur un fond
           commun littéraire. Seulement, ici, ce fond est si franchement et si juvénilement
           littéraire, que la Critique lui doit encouragement et sympathie, surtout dans un temps où
@@ -2620,7 +2635,7 @@
           cette influence, mortelle à toute personnalité qui voudrait naître, doit, s’il n’y prend
           garde, tuer la sienne dans sa fleur.</p>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Mais la Critique l’avertira. Il y a véritablement dans Henri Cantel une fleur de poésie
             que nous aimerions à sauver ; car elle est en péril. Elle est en péril avec
             l’inspiration que le poète a choisie ou subie, mais qui ne lui est pas venue — comme
@@ -2658,7 +2673,7 @@
             désespoir de Gœthe, qui se sentait tari dans son génie et qui chercha la cuve du vieil
             Eson pour s’y ressusciter. Et, de résultat, il n’a pas non plus, cet enfant, la beauté
             de l’impuissance de Gœthe ! D’un autre côté, malgré sa jeunesse, l’auteur
-              d<emph>’Impressions et Visions</emph> ne s’est pas donné à l’antiquité tout entier. Il
+            d<emph>’Impressions et Visions</emph> ne s’est pas donné à l’antiquité tout entier. Il
             s’est retenu en se lançant. Or, ne pas se donner tout entier quand on se donne, c’est
             manquer de foi, de ferveur et de décision, c’est économiser à même soi… Cela ne vaut pas
             mieux en littérature qu’en amour. L’auteur d<emph>’Impressions</emph>, au lieu de se
@@ -2675,7 +2690,7 @@
             vie, et où on la voit palpiter !</p>
           <p>Sur les soixante pièces qui composent le recueil de Cantel, il y en a beaucoup qui sont
             complètement mythologiques, comme <emph>Adonis, Narcisse</emph>, <emph>Primavera</emph>,
-              <emph>Ariane, La Bacchante, Sisyphe</emph>, <emph>La Grèce</emph>, etc., etc. ; mais
+            <emph>Ariane, La Bacchante, Sisyphe</emph>, <emph>La Grèce</emph>, etc., etc. ; mais
             le reste, sur des sujets de passion plus ou moins idolâtre, est imbibé de ce paganisme
             de sentiment et d’image qui froidit et qui durcit tout, mais ne cristallise pas
             toujours. Cependant le remords, le dégoût ou l’ennui d’une forme fausse qui n’a point
@@ -2687,9 +2702,9 @@
           <quote>
             <l>
               …….. pauvre <emph>muse égarée ;<lb/> 
-              Nous souffrirons encore et ne nous plaindrons pas.</emph><lb/> 
+                Nous souffrirons encore et ne nous plaindrons pas.</emph><lb/> 
               Envolons-nous tous deux vers la plaine azurée,<lb/>
-            <emph>Et retournons à Dieu qui pardonne aux ingrats.</emph>
+              <emph>Et retournons à Dieu qui pardonne aux ingrats.</emph>
             </l>
           </quote>
           <p>Mais on ne vit pas longtemps hors des habitudes de sa pensée, et où qu’on fuie, elles
@@ -2727,7 +2742,7 @@
             couvrir ces choses et les effacer !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Non pas que nous voulions prétendre que, sans ce paganisme, elle serait venue : nous ne
             le croyons pas. Le poète des <emph>Impressions</emph>, dans les rares pièces où il a
             touché, en passant, et d’un doigt beaucoup trop léger, cette corde chrétienne qui est la
@@ -2747,11 +2762,11 @@
           <quote>
             <l>
               <emph>Et suspends le travail du mal et du malheur ;<lb/>
-              Fais</emph> qu’à la loi d’amour l’humanité réponde !
+                Fais</emph> qu’à la loi d’amour l’humanité réponde !
             </l>
           </quote>
           <p> ou c’est encore, comme dans <emph>Consolatrix afflictorum : l</emph><q>e Dieu qu’on
-              trouve sur la colline</q>, — et si ce n’est pas le fils de Pan, celui-là ! ce doit
+            trouve sur la colline</q>, — et si ce n’est pas le fils de Pan, celui-là ! ce doit
             être son neveu.</p>
           <p>Car le poète est naturaliste, et c’est sa manière d’être religieux. Il applique la
             nature sur tous les maux comme un dictame, j’allais presque dire un emplâtre. Païen
@@ -2761,7 +2776,7 @@
             d’une poésie qui pleure comme on met du fard, et rappelle le mot affecté de cette femme
             qui disait : « <q>C’était là le bon temps, le temps où j’étais malheureuse ! </q>»</p>
           <p>Et cependant, malgré tout ce paganisme rapetissant et glaçant qui empêche le poète
-              d<emph>’Impressions</emph> de s’élever et le fixe à la terre, — et même à la fange de
+            d<emph>’Impressions</emph> de s’élever et le fixe à la terre, — et même à la fange de
             la terre dont il est fou, quand elle est blanche et rose, — il y a dans son recueil un
             talent vrai, très cultivé déjà, et, sous la culture, devenu facile et ample. L’homme qui
             a écrit <emph>Les Courtisanes</emph> (hélas ! toujours les courtisanes !), <emph>La
@@ -2787,7 +2802,7 @@
             ce sera mon dernier mot cruel)… mais c’est commun d’intensité.</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>On a dit souvent que la Critique avait parfois plus de mauvaise foi qu’elle n’a de
             cruauté encore. On a dit qu’au lieu de demander simplement au poète ce qu’il a fait, et
             surtout ce qu’il a voulu faire, elle lui demande, préférence insidieuse, ce qu’il n’a
@@ -2841,10 +2856,10 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark15"/>Maurice de Guérin<note n="28" type="footnote"
-            resp="author"><emph>Reliquiæ (Pays</emph>, 1er février 1861).</note></head>
+        <head>Maurice de Guérin<note n="28" type="footnote"
+          resp="author"><emph>Reliquiæ (Pays</emph>, 1er février 1861).</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Était-il un seul de nos lecteurs qui eût jamais entendu parler de Maurice de Guérin,
             quand on en publia les œuvres ?… Annoncées depuis longtemps par quelques personnes qui
             l’avaient connu et aimé, ces œuvres disent mieux que l’amitié — et leur voix portera
@@ -2869,14 +2884,14 @@
           <p>Chateaubriand, Gœthe, Sénancour et Ballanche lui-même ont tous plus ou moins souffert
             de la vie,</p>
           <p>— du moral ou du physique de la vie, — de ses passions positives ou du <emph>vague de
-              ses passions</emph> (comme l’a dit l’un deux, qui même a inventé l’expression),
+            ses passions</emph> (comme l’a dit l’un deux, qui même a inventé l’expression),
             — tandis que Guérin n’a simplement souffert que de la pensée, un mal très précis, mais
             très exceptionnel. Il a eu le <emph>mal de l’idéal.</emph> Ce mot, affecté pour un
             autre, était vrai pour lui, littéralement vrai. Toute sa vie, qui fut courte, il
             souffrit de cet idéal vers lequel il aspirait, mais qu’il n’atteignait pas, et qu’il
             aurait atteint probablement s’il avait vécu davantage ; car « <q>nos désirs sont les
               pressentiments de nos facultés, les </q><q><hi rend="i">précurseurs</hi></q><q> des choses
-              que nous sommes capables d’exécuter</q> », a dit Gœthe, dans un éclair.
+                que nous sommes capables d’exécuter</q> », a dit Gœthe, dans un éclair.
             Malheureusement il mourut, et il mourut se souciant peu d’une gloire qui l’intéressait
             moins que son idéal, et qui restera, maintenant, mieux que son idéal, atteinte !</p>
           <p>Tel est le véritable caractère de cette physionomie de Maurice de Guérin, de ce talent
@@ -2898,7 +2913,7 @@
             aime à venir s’asseoir à la porte de ceux qui dorment, hélas ! de leur sommeil
             éternel.</p>
           <p>Mais tout Guérin n’est pas dans ces deux volumes<note n="29" type="footnote"
-              resp="author">Didier.</note> ! C’est le timide discernement de cette petite faculté
+            resp="author">Didier.</note> ! C’est le timide discernement de cette petite faculté
             sobre qu’on appelle le Goût avec tant de bonheur, qui a choisi ces fragments, et qui les
             a choisis pour que le public à qui on les offrait pût les prendre. Ce sont là les bords
             d’un vase plein. Mais ce n’est pas le fond de cette profonde coupe de rêveries, dans
@@ -2907,7 +2922,7 @@
             la jeter dans la mer !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Du reste, et quoi qu’il soit de ces deux volumes, les amis de Guérin qui les ont
             publiés ont cru être habilement modestes. Ils ont demandé à Sainte-Beuve un peu de sa
             célébrité pour orner celle qu’ils se proposaient de faire à Maurice de Guérin. Au lieu
@@ -2925,20 +2940,20 @@
             faudrait, l’éclat et la portée de voix, la souveraineté dans la parole, qui peuvent
             exiger l’admiration comme une justice et la décider du même coup. Nous l’avons, on le
             sait, déjà nommé un donneur d’oboles tumulaires. Mais, passé l’obole, voyez-vous ! il ne
-              <emph>donne plus.</emph> Dans l’introduction aux <emph>Reliquiæ</emph> de Maurice de
+            <emph>donne plus.</emph> Dans l’introduction aux <emph>Reliquiæ</emph> de Maurice de
             Guérin dont on l’a chargé, je trouve cette dernière phrase tout à fait dans les cordes
             indécises de son agréable, mais petite voix : « <q>Ce que Guérin n’a pas eu le temps de
               tresser et de transformer selon l’art, devient sa plus belle couronne, a et qui ne se
               flétrira point, </q><q><hi rend="i">si je ne m’abuse</hi> !</q> » — <emph>Si je ne
-              m’abuse</emph> ! Quelle peur consciencieuse de se tromper ! <emph>Si je ne
-              m’abuse</emph> ! C’est bien là l’obole, et encore celui qui la donne n’est pas bien
+                m’abuse</emph> ! Quelle peur consciencieuse de se tromper ! <emph>Si je ne
+                  m’abuse</emph> ! C’est bien là l’obole, et encore celui qui la donne n’est pas bien
             sûr qu’elle ne soit pas de la fausse monnaie ; seulement, toujours prudent, il ne la
             risque qu’en supposant qu’elle n’en est pas !</p>
           <p>Certes ! je crains fort, pour mon compte, que les amis de Guérin, qui avaient pris pour
             lui faire trompette un hautbois tortueux aussi peu sûr de ses sons, ne se repentent
             maintenant d’un choix déterminé par le nom seul de l’instrumentiste ; mais ce que je
             sais de science certaine, c’est que Guérin n’avait nul besoin que l’auteur des
-              <emph>Consolations</emph>, qui n’est nullement celui des affirmations et des
+            <emph>Consolations</emph>, qui n’est nullement celui des affirmations et des
             certitudes, affirmât, sous réserve de <emph>s’abuser</emph>, un genre de génie que
             Guérin était bien de force à affirmer tout seul, et que l’auteur des <emph>Portraits
               contemporains</emph> ajoutât au mou de ses affirmations le mou de sa manière, en
@@ -2948,7 +2963,7 @@
             talent même ! — et qui fut pour nous Maurice de Guérin.</p>
           <p>Assurément, en tant qu’on ne devait pas nous le montrer plus vivant que cela, plus
             caractérisé, plus vrai, plus ressemblant, plus pénétré, la publication des
-              <emph>Reliquiæ</emph> suffisait. Elle nous en aurait autant appris. Sainte-Beuve, qui,
+            <emph>Reliquiæ</emph> suffisait. Elle nous en aurait autant appris. Sainte-Beuve, qui,
             dans sa notice, n’a guères que répété les faits de la publication autobiographique de
             Guérin, a le mérite d’une glace qui réfléchit une autre glace ; mais comme l’étamage de
             la seconde n’est pas supérieur à celui de la première, c’en est évidemment une de trop !
@@ -2987,7 +3002,7 @@
             assimiler jamais. Le grand anthropomorphiste qui a écrit <emph>L’Aveugle</emph>, Le</p>
           <p><emph>Mendiant</emph>, tant de fragments grecs et aussi tant d’autres chefs-d’œuvre,
             — grecs encore quand il voulait le plus être du <num>xviii<hi rend="sup"
-            >e</hi></num> siècle et français, — n’a rien de commun avec le panthéiste qui n’est pas
+              >e</hi></num> siècle et français, — n’a rien de commun avec le panthéiste qui n’est pas
             panthéiste seulement que dans son étrange poème du <emph>Centaure.</emph></p>
           <p>Maurice de Guérin est un panthéiste ; mais un pan -théiste d’un accent jusqu’à lui
             inconnu. C’est un panthéiste qui, pour être profond et puissant, n’est ni trouble, ni
@@ -3039,7 +3054,7 @@
             moins à caractériser le génie personnel d’un poète qui n’a cherché à imiter personne !
             On n’en trouve guères que trois, et ce n’est pas assez. <emph>Les Souvenirs</emph> (une
             rêverie digne de la jeunesse du Dante), <emph>L’Anse des Dames</emph>, et cette
-              <emph>Promenade dans la Lande</emph> qui commence à donner, distincte et profonde,
+            <emph>Promenade dans la Lande</emph> qui commence à donner, distincte et profonde,
             cette note si particulière que le génie de Maurice de Guérin ne perdra plus. Le reste,
             et le reste est le tout, n’est que prose : lettres écrites à des amis, mais dans les
             premiers moments de la vie ; <emph>Memoranda</emph>, vues sur soi-même ; paysages
@@ -3049,7 +3064,7 @@
             n’insulta pas sa pensée.</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Mais, quoiqu’ils soient moins originaux, moins grandiosement profonds et moins
             étonnants que ce <emph>Centaure</emph>, qui n’est ni antique ni moderne, mais quelque
             chose de tout à fait à part de toutes les productions littéraires connues, et même pour
@@ -3082,14 +3097,14 @@
             la simplicité ! Sans doute, aux premiers coups qu’il donna de cette plume qui est un
             pinceau, il rappela l’homme qu’il avait d’abord aimé. Les <emph>Études</emph> de
             Bernardin avaient été le vase vivant dans lequel il avait commencé de boire le
-              <emph>lait des tendresses humaines</emph> pour la Nature… Mais, comme l’enfant grandi,
+            <emph>lait des tendresses humaines</emph> pour la Nature… Mais, comme l’enfant grandi,
             qui a essuyé sa ronde bouche rose du lait maternel et qui n’a plus là que son propre
             souffle à lui, sa virginale haleine, Guérin ne fut plus que Guérin, et il ne resta pas
             dans les flots de sa chevelure ambroisienne, livrée à tous les vents de ses paysages,
             une seule des fleurs tombées de ce lilas de Bernardin sous lequel il s’était une minute
             assis.</p>
           <p>Gœthe, si respecté par Sainte-Beuve, Gœthe, qui aurait joui si profondément du
-              <emph>Centaure</emph> et qui aurait rêvé à son tour cet <emph>Hermaphrodite</emph>,
+            <emph>Centaure</emph> et qui aurait rêvé à son tour cet <emph>Hermaphrodite</emph>,
             fils des Musées et de Pausanias, et qui devait devenir, dans la pensée de Guérin, le
             frère du <emph>Centaure</emph> ; Gœthe n’aurait confondu avec personne ce panthéiste
             original qui ne vit jamais au monde que la Nature, — la grande Nature qu’aimait Lucrèce,
@@ -3121,12 +3136,12 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark17"/>Roger de Beauvoir <note n="31" type="footnote"
-            resp="author"><emph>Les meilleurs fruits de mon panier (Pays</emph>, 19 mai 1862). V.
-              <emph>Les Œuvres et les Hommes. Poètes</emph>, l<hi rend="sup">re</hi>
+        <head>Roger de Beauvoir <note n="31" type="footnote"
+          resp="author"><emph>Les meilleurs fruits de mon panier (Pays</emph>, 19 mai 1862). V.
+          <emph>Les Œuvres et les Hommes. Poètes</emph>, l<hi rend="sup">re</hi>
           série.</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Dans ce temps de démentis, de ces démentis qu’on s’allonge avec une grâce et une
             facilité qui honorent étrangement la littérature,</p>
           <quote>
@@ -3175,9 +3190,9 @@
           </quote>
           <p>Je ne dis pas non, mais le titre est mauvais !</p>
           <quote>
-          <l>
-            Je le laisse faire à sa guise !
-          </l>
+            <l>
+              Je le laisse faire à sa guise !
+            </l>
           </quote>
           <p>Tant pis, alors ! Du reste, c’est peut-être vrai comme :</p>
           <quote>
@@ -3186,7 +3201,7 @@
             </l>
           </quote>
           <p> de cet autre poète, que Corneille, qui n’y faisait pas tant de façons, appelle le
-              <emph>Menteur</emph>, dans un titre brutal. Mais n’importe ! C’est bien dit, c’est
+            <emph>Menteur</emph>, dans un titre brutal. Mais n’importe ! C’est bien dit, c’est
             facile, c’est aimable, c’est négligé, et de cette négligence de grand seigneur, peu
             paternel, qui commet le soin de ses enfants aux autres. Dès les premiers mots, on sent
             qu’il y a là dedans de l’Alfred de Musset, comme dans Alfred de Musset on sent qu’il y a
@@ -3256,12 +3271,12 @@
           <p> car ce cri final (daté de 1862), qui n’est plus de l’Alfred de Musset amoureux, mais
             du Roger de Beauvoir trahi par la vie, ce cri qui promettait un poète nouveau dans le
             poète connu, dans le poète de <emph>Cape et d’Epée</emph> et même dans le poète de
-              <emph>Colombes et Couleuvres</emph>, déjà si personnel et presque profond, ce cri qui
+            <emph>Colombes et Couleuvres</emph>, déjà si personnel et presque profond, ce cri qui
             promettait un de ceux-là qui sont les plus grands parce qu’ils sont les phénix de la
             douleur ! ce cri nous le promet toujours ; mais il ne nous l’a pas tenu encore !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>C’est donc un regret, c’est surtout un regret que j’exprime ; mais ce n’est pas un
             désespoir. Moi qui suis persuadé que la douleur peut magnifiquement féconder un homme,
             je m’attendais à voir sortir le grand poète, le poète définitif, du fond de cette riche
@@ -3307,7 +3322,7 @@
             </l>
           </quote>
           <p>Malgré la beauté du mouvement dans le dernier vers, ce sont là des chagrins de
-              <emph>beau</emph>, des pleurs de jeune <emph>premier</emph> de la vie, qui se regrette
+            <emph>beau</emph>, des pleurs de jeune <emph>premier</emph> de la vie, qui se regrette
             parce qu’il faut passer dans les seconds. Ce ne sont pas là les larmes fières ou
             virilement désolées que j’aurais voulu voir tomber des yeux d’un poète qui a eu
             l’honneur de souffrir (c’est toujours un honneur que Dieu vous fait quand il vous
@@ -3316,11 +3331,11 @@
             l’Hippogriffe, — qui le montait aussi, et qui le menait comme il le voulait dans le
             bleu, et qu’en voilà descendu maintenant, cloué par la douleur à terre, et comme Byron,
             leur maître à tous, à ces grands jeunes gens finis, le disait de lui-même ;
-              « <q>achevant de vivre à son foyer désert, au milieu des ruines de son cœur et dans
+            « <q>achevant de vivre à son foyer désert, au milieu des ruines de son cœur et dans
               l’abandon de ses dieux domestiques…</q> »</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Telle est, en effet, la destinée de Roger de Beauvoir. On peut en parler. Tout le monde
             la sait dans cette ville de cristal sonore à travers lequel on voit et l’on entend et
             qui s’appelle Paris. D’ailleurs il en parle lui-même. Les poètes ont le <emph>droit de
@@ -3416,11 +3431,11 @@
             le plus magnifique accent qu’elle puisse avoir, c’est-à-dire l’inspiration chrétienne,
             qu’à tant d’endroits de ses œuvres a le dieu de sa génération poétique, notre grand et
             adoré Byron ! Sa Muse d’alors, je la comparai à une Madeleine qui n’avait encore que les
-              <emph>yeux sur le Crucifix</emph>, et je lui promis que si elle s’y couchait le cœur
+            <emph>yeux sur le Crucifix</emph>, et je lui promis que si elle s’y couchait le cœur
             tout entier, il deviendrait, lui, le Canova de la poésie du <num>xix<hi rend="sup"
-                >e</hi></num> siècle. Eh bien, le temps a passé ! Le malheur, un donneur de conseils
+              >e</hi></num> siècle. Eh bien, le temps a passé ! Le malheur, un donneur de conseils
             plus sévère que moi, le malheur est venu. Il avait fait déjà sentir son doigt lors de
-              <emph>Colombes et Couleuvres</emph>, et c’est sous le premier coup de ce doigt
+            <emph>Colombes et Couleuvres</emph>, et c’est sous le premier coup de ce doigt
             qu’avait jailli un talent qui nous étonna. Aujourd’hui, c’est le bras tout entier qui
             frappe ; mais ce bras tout-puissant n’a rien fait jaillir de ce torrent que
             j’attendais ! Les <emph>yeux sur le Crucifix</emph> s’en sont détournés et se sont mis,
@@ -3428,7 +3443,7 @@
             béant qui se moque de nous !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>L’idéal entrevu, auquel je n’ai pas renoncé tant que Beauvoir vivra, m’a empêché
             d’appuyer sur tous les détails d’un talent que j’aime trop peut-être, et avec lequel,
             pour cette raison, je crains de manquer de force et de justice. En soi, le talent
@@ -3441,11 +3456,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark18"/>Louis Wihl<title rend="u"><note n="33"
-              type="footnote" resp="author"><emph>Oiseaux bleus</emph>, <emph>Pays bleu (Nain
-                jaune</emph>, 29 septembre 1867).</note></title></head>
+        <head>Louis Wihl<title rend="u"><note n="33"
+          type="footnote" resp="author"><emph>Oiseaux bleus</emph>, <emph>Pays bleu (Nain
+            jaune</emph>, 29 septembre 1867).</note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>En 1851, Henri Heine se mourait. Il mourait- dans des souffrances atroces. Un des jours
             de sa lente agonie, il entendit quelqu’un s’approcher du lit où le clouait la douleur.
             Le malheureux aveugle, à qui la destinée refusait même le dernier honneur d’être aveugle
@@ -3486,13 +3501,13 @@
           <p>— Sans doute.</p>
           <p>— Ah ! mon Dieu, que de choses ! Et le mourant resta pensif. Merci pourtant. Prenez-moi
             la main. Vous m’avez fait du bien. Merci… — ajouta affectueusement l’auteur des
-              <emph>Reisebilder.</emph></p>
+            <emph>Reisebilder.</emph></p>
           <p>Heine ne mourut qu’à quelque temps de là. Il ne se rétracta point ; mais, ce jour-là,
             il avait eu peut-être la dernière bonne pensée qui ait traversé sa pauvre âme.</p>
           <p>L’homme qui la lui donna était Louis Wihl, l’auteur des <emph>Hirondelles</emph><note
-              n="34" type="footnote" resp="author"> Hachette.</note> et du <emph>Pays
+            n="34" type="footnote" resp="author"> Hachette.</note> et du <emph>Pays
               bleu</emph><note n="35" type="footnote" resp="author"> Prudhomme (Grenoble) ;
-              Thirifocq (Paris).</note>, le poète dont nous allons parler ; Louis Wihl, l’homme le
+                Thirifocq (Paris).</note>, le poète dont nous allons parler ; Louis Wihl, l’homme le
             mieux fait pour assister Heine à son heure dernière, car il était son parent par
             l’esprit, le talent, la faculté poétique, et il était son supérieur par la foi en Dieu,
             les grandes croyances gardées, la droiture morale de la vie, et, tronc solide, il était
@@ -3507,7 +3522,7 @@
           <p>Et celui-ci, c’est Louis Wihl.</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Il est des races contre lesquelles ne peut le génie. En aurait-on une immensité à son
             service, si on est de ces races, la personnalité la plus robuste et la plus profonde
             naît marquée d’un caractère de nationalité inévitable ; comme, au contraire, il en est
@@ -3541,7 +3556,7 @@
             interrompu par plusieurs milliers d’années, des Hébreux exilés sur les bords des fleuves
             de Babylone ; seulement les exilés, à Babylone, avaient connu ce qu’ils chantaient et
             pressé sur leur cœur ce qu’on <emph>n’emporte point à la semelle de ses
-            souliers</emph> ; tandis que lui, Wihl, l’exilé séculaire, à distance, dans le temps et
+              souliers</emph> ; tandis que lui, Wihl, l’exilé séculaire, à distance, dans le temps et
             dans l’espace, de cette patrie tuée et dont il n’a pas même vu le cadavre, a ajouté à la
             nostalgie fiévreuse de l’exil ce qui l’aurait diminuée s’il avait été moins poète : —
             l’envenimement de dix-huit siècles. Tout fils qu’il est, comme nous, de cette pénétrante
@@ -3562,11 +3577,11 @@
             philosophie à la politique, et c’est alors que Louis Wihl, qui n’était connu encore que
             par des travaux de science et de philologie, comme poète, se révéla. Venu après <emph>Le
               Divan</emph> de Gœthe et <emph>Les Orientales</emph> de Victor Hugo, le livre des
-              <emph>Hirondelles</emph>, que Louis Wihl eût pu appeler <emph>Les Hébraïques</emph>,
+            <emph>Hirondelles</emph>, que Louis Wihl eût pu appeler <emph>Les Hébraïques</emph>,
             apporta sa part d’Orient dans les littératures vieillies, et qui remontaient vers
             l’Orient pour se rajeunir. Tithon voulait coucher avec l’Aurore… Mais Louis Wihl n’eut
             pas besoin de faire le tour de souplesse de Gœthe pour se faire Oriental. Il le fut
-              <emph>naturellement</emph>, parce qu’il était Hébreu, et, comme tout Hébreu, il nous
+            <emph>naturellement</emph>, parce qu’il était Hébreu, et, comme tout Hébreu, il nous
             apporta sa Judée mieux que les voyageurs qui en arrivaient à l’heure même ne nous
             l’auraient apportée dans leurs récits.</p>
           <p>Les vers de Louis Wihl, ces vers, fils de la Bible et ressemblant à la Bible comme des
@@ -3596,14 +3611,14 @@
             aspect de génie, et qui, après le Juif, nous donnait l’Allemand.</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p><emph>Le Pays bleu</emph>, expression charmante pour dire la fantaisie ! C’est sous ce
             titre de <emph>Pays bleu</emph>, rêveur comme les lointains, que Louis Wihl lança deux
             poèmes humouristiques (<emph>Les Dieux Scandinaves</emph> et <emph>La Reine de
               Madagascar</emph>), qu’il est aussi impossible à la Critique de toucher pour en donner
             une idée qu’on ne touche à la bulle de savon sans la détruire… Certes ! on n’eût guères
             attendu à l’avance ces deux poèmes du poète désolé, nostalgique, à idée fixe, des
-              <emph>Hirondelles</emph> ; mais c’est qu’on aurait oublié l’influence de la double
+            <emph>Hirondelles</emph> ; mais c’est qu’on aurait oublié l’influence de la double
             race de Louis Wihl. Le Parnasse avait une double cime, et beaucoup de poètes l’ont
             aussi. Contraste qui pouvait surprendre cependant par ce qu’il avait de heurté, l’homme
             de la harpe de David empruntait à Henri Heine la mandoline de la fantaisie !… Seulement,
@@ -3619,9 +3634,9 @@
             calcinée, dans les chemins pierreux de Jérusalem à Jéricho !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Oiseaux bleus !1 pays bleu ! — <emph>Les Hirondelles</emph>, <emph>Les Dieux
-              Scandinaves</emph>, <emph>La Reine de Madagascar</emph>, voilà le bagage poétique de
+            Scandinaves</emph>, <emph>La Reine de Madagascar</emph>, voilà le bagage poétique de
             Louis Wihl, auquel il faut ajouter le poème intitulé <emph>Le Mendiant pour la
               Pologne</emph><note n="36" type="footnote" resp="author">Lévy frères, 1863.</note>, et
             quelques poésies comme celle, par exemple, adressée à Victor Hugo… Ce n’est pas là un
@@ -3647,11 +3662,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark20"/>Gérard de Nerval <title rend="u"><note n="37"
-              type="footnote" resp="author">Œuvres complètes (<emph>Constitutionnel</emph>, 20 août
-              1868).</note></title></head>
+        <head>Gérard de Nerval <title rend="u"><note n="37"
+          type="footnote" resp="author">Œuvres complètes (<emph>Constitutionnel</emph>, 20 août
+          1868).</note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Maintenant, excepté les vers, tout est publié de cet écrivain, que l’on peut, par
             conséquent, juger, et c’est l’heure, en effet. Elle est enfin venue. Jusqu’ici on n’a
             fait que trois choses : on l’a aimé, on l’a vanté, et on l’a plaint. Il avait été de la
@@ -3674,7 +3689,7 @@
             plus.</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>J’ai dit : du compagnonnage. Je n’ai pas dit : de la camaraderie. La camaraderie est
             une bien vilaine chose, mais elle commence par une bien jolie : le compagnonnage. Le
             compagnonnage, qui à la pureté de ses pensées se croit parfois de l’amitié, est naïf,
@@ -3733,7 +3748,7 @@
             véritablement on en a.</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Eh bien, qui le croira sans l’avoir soi-même constaté, avec la réputation que le
             compagnonnage a faite à Gérard de Nerval ? ce qui vaut le mieux en ces cinq volumes,
             c’est encore le <emph>Voyage d’Orient</emph>, c’est-à-dire un livre de faits et
@@ -3784,7 +3799,7 @@
             Nerval ne fut point un talent solitaire, et il n’y a jamais de grand et de beau que les
             talents solitaires ! Il s’associait encore par le souvenir, et son imagination était
             surtout de la mémoire. Prenez ses œuvres d’imagination : <emph>Les Filles de feu</emph>,
-              <emph>Loreley</emph>, <emph>La Bohème galante</emph>, et comptez les réminiscences !
+            <emph>Loreley</emph>, <emph>La Bohème galante</emph>, et comptez les réminiscences !
             Dans les <emph>Faux-Sauniers</emph>, que, sur le titre, on prend pour un roman et qui
             n’en est que l’ombre, — l’ombre d’un roman qui se dérobe et vous fuit toujours,
             — l’imitation de <emph>Tristram Shandy</emph> est presque grossière, tant elle est
@@ -3815,13 +3830,13 @@
             érudition funeste, et qui n’avait que de jolies facultés ordinaires pour se défendre,
             n’y put résister. La coupe de porcelaine fine et transparente se fêle sous l’action des
             substances empoisonnées qu’on y verse… Gérard, fou un instant, et qui nous a donné, dans
-              <emph>Le Rêve et la Vie</emph>, une photographie de son état de fou, enlevée par un
+            <emph>Le Rêve et la Vie</emph>, une photographie de son état de fou, enlevée par un
             procédé de mémoire rétrospective sur lequel on peut juger de ce qu’était en lui la
             faculté de la mémoire, retomba fou, après avoir guéri une première fois.</p>
           <p>Le rêve avait emporté le rêveur.</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>C’est que le rêve était plus fort que le rêveur, — ce qui n’arrive jamais chez les
             vrais poètes. Le vrai poète, lui, est toujours le maître de son rêve. Il le monte et il
             le domine comme Roger, dans l’Arioste, le chevalier aux armes vertes, de ses genoux tout
@@ -3849,7 +3864,7 @@
               homme</emph>, qui est mort homme, le coup de colère d’une réaction. Non pas !
             Seulement, après y avoir regardé, elle ne trouve dans ce Gérard de Nerval, exagéré par
             ses compagnons de jeunesse, que des qualités secondaires, — que (tout au plus !)
-              l’<emph>aurea mediocritas</emph> intellectuelle qui suffit dans la vie pour être
+            l’<emph>aurea mediocritas</emph> intellectuelle qui suffit dans la vie pour être
             heureux, disait Horace, et qui suffit aussi, à ce qu’il paraît, pour être heureux en
             fait de renommée, — : et, naturellement, elle le dit.</p>
           <p>Et nous croyons, en finissant, devoir insister. Nous savons combien, dans cette époque
@@ -3873,11 +3888,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark22"/>Gustave Rousselot <title rend="u"><note n="39"
-              type="footnote" resp="author"><emph>Chants de force et de jeunesse
-                (Constitutionnel</emph>, 24 août 1874).</note></title></head>
+        <head>Gustave Rousselot <title rend="u"><note n="39"
+          type="footnote" resp="author"><emph>Chants de force et de jeunesse
+            (Constitutionnel</emph>, 24 août 1874).</note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>La Critique est parfaitement à l’aise vis-à-vis de ce débutant ; car Rousselot est un
             débutant. C’est un inconnu. Il y a eu, de par le monde de ce temps, un Rousselot qui
             fut, je crois, économiste. Être un économiste, c’est bien pis que d’être inconnu. Est-il
@@ -3924,7 +3939,7 @@
             que je n’aime pas, est écrit tout entier dans une inspiration que je déteste.</p>
         </div>
         <div>
-          <head type="h2">Il</head>
+          <head>Il</head>
           <p>C’est, en effet, l’inspiration de cette doctrine dont Condorcet fut le philosophe.
             C’est la chimère de l’humanité victorieuse de toutes les résistances de la vie, et même
             de la mort qui les termine. C’est, enfin, l’affolement d’une espérance qui serait
@@ -3969,7 +3984,7 @@
             le long d’un volume tout entier, une vigueur de projection et de propulsion peu
             communes. Qu’on le sache bien ! son poème lyrique n’est pas une succession de chants
             coupés par des repos. C’est un chant unique, sur un sujet unique, qui va d’une
-              <emph>filée</emph> de son premier vers à son dernier vers. A cette époque d’anémie
+            <emph>filée</emph> de son premier vers à son dernier vers. A cette époque d’anémie
             poétique où l’on s’épuise le tempérament à faire des sonnets et où, pour pouvoir dire
             quelque chose, on se met à décrire jusqu’aux brins d’herbe qu’on a sous les pieds, on
             est content de rencontrer une poitrine assez bien organisée pour souffler, d’une seule
@@ -3990,7 +4005,7 @@
           <quote>
             <l>
               Et je sens bien qu’en moi lentement s’élabore<lb/>
-             <emph>La cristallisation d’un Dieu</emph> !
+              <emph>La cristallisation d’un Dieu</emph> !
             </l>
           </quote>
           <p> l’optimiste halluciné qui annonce le monde nouveau ;</p>
@@ -4013,12 +4028,12 @@
             </l>
           </quote>
           <p>ce divinisateur même de Dieu, de Dieu qui, dans l’agrandissement forcené de tout, doit
-              <emph>devenir</emph> Dieu davantage, est, certes ! bien heureux d’avoir à son service
+            <emph>devenir</emph> Dieu davantage, est, certes ! bien heureux d’avoir à son service
             la faculté de l’enthousiasme, cette expression du feu du cœur qui se tord autour de son
             idée, et qui en cache, au moins, dans sa flamme, l’absurdité !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Ainsi oui ! absurde, et d’une absurdité incomparable tant elle est effrénée ! marchant
             englouti jusque pardessus la tête dans les moissons levées d’idées fausses qui couvrent
             — épis de révolte ! — le sol crevassé de ce temps ; enivré par les sciences modernes qui
@@ -4051,9 +4066,9 @@
             sa poésie actuelle, qui sont grands, — aussi grands que ses qualités.</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Ces qualités, je les ai dites sans presque les montrer ; car les beautés du <emph>Poème
-              humain</emph>, réelles et nombreuses, ne sont guères <emph>citables</emph>, par le
+            humain</emph>, réelles et nombreuses, ne sont guères <emph>citables</emph>, par le
             fait de l’ampleur de leurs développements et de ce long souffle qui les emporte
             tellement d’ensemble qu’on ne peut pas plus les détacher que les planches unies du
             vaisseau qui cingle au fil d’un flot puissant et qui monte toujours ! Ces qualités — et
@@ -4099,23 +4114,23 @@
             l’optimisme de l’orgueil, à cet enivré de la vie, à ce <emph>grisé de jouvence</emph>,
             pour parler comme lui, ajoutât son insolence à tout ; et voilà comme, à la poésie même,
             il l’a ajoutée ! Voici comme ce marmot-Titan, qui demandait dans sa préface qu’on
-              <emph>décourageât</emph> les jeunes poètes et qu’on jetât sans pitié dans le barathrum
+            <emph>décourageât</emph> les jeunes poètes et qu’on jetât sans pitié dans le barathrum
             des Spartiates tout ce qui ne serait pas conformé pour devenir un Hercule, a, par une
             inconséquence de l’orgueil qui se frappe sans vouloir se punir, inventé une théorie qui
             semble une protectrice de sa faiblesse.</p>
         </div>
         <div>
-          <head type="h2">V</head>
+          <head>V</head>
           <p>Dans une note, qui fait suite à la préface de son poème, et qui n’est pas plus modeste
             que cette préface, Gustave Rousselot nous a donné la poétique d’après laquelle il a
             composé ce <emph>Poème humain.</emph> Poème <emph>humain</emph>, poétique
-              <emph>humaine</emph> ; car elle est pleine d’une bonté pour la faiblesse
-              <emph>humaine</emph>, poétique très étonnante de la part d’un jeune homme si fort ! Du
+            <emph>humaine</emph> ; car elle est pleine d’une bonté pour la faiblesse
+            <emph>humaine</emph>, poétique très étonnante de la part d’un jeune homme si fort ! Du
             coup de cette poétique, en effet, et de sa seule autorité privée, Gustave Rousselot
             affranchit la poésie française de ses règles séculaires, dans l’intérêt de ceux qui
             n’ont pas assez de vigueur pour les subir, et dans le sien, à lui, qui s’en croit tant !
-              « J<q>e trouve le moment </q><q>venu </q>— dit ce jeune Spartacus de la prosodie —
-              <q>de se séparer de la routine, et c’est pourquoi j’ai modifié le nombre ordinaire de
+            « J<q>e trouve le moment </q><q>venu </q>— dit ce jeune Spartacus de la prosodie —
+            <q>de se séparer de la routine, et c’est pourquoi j’ai modifié le nombre ordinaire de
               syllabes… Mon idée </q>— ajoute-t-il — <q>est même que le poète a </q><q><hi rend="i">le
                 droit</hi></q><q> de compter les mots en variant, au besoin, selon le
                 </q><q><hi rend="i">hasard du vers</hi></q><q>…</q> » Au hasard du vers ! Ce n’est pas
@@ -4157,14 +4172,13 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark24"/>Auguste Vacquerie <anchor xml:id="footnote10"
-            /><title rend="u"><note n="41" type="footnote" resp="author"><emph>Un nouveau livre de
-                Poésies par Victor Hugo</emph> (<emph>Constitutionnel</emph>, 10 mars
-            1875).</note></title></head>
+        <head>Auguste Vacquerie <title rend="u"><note n="41" type="footnote" resp="author"><emph>Un nouveau livre de
+          Poésies par Victor Hugo</emph> (<emph>Constitutionnel</emph>, 10 mars
+          1875).</note></title></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Je tiens à le dire, et d’autant plus que l’auteur, en baisse depuis <emph>Les
-              Contemplations</emph> et ses dernières œuvres poétiques, se relève ici et semble faire
+            Contemplations</emph> et ses dernières œuvres poétiques, se relève ici et semble faire
             un de ces progrès qu’à son âge on ne fait guères plus… Je tiens encore à le dire pour
             l’honneur de ma sagacité, parce que les trop rares critiques qui en ont déjà parlé ont
             été absolument dupes du pseudonyme dont Victor Hugo s’est servi pour cacher son
@@ -4206,7 +4220,7 @@
             Vacquerie  dans un livre où Victor Hugo est seul tout entier.</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Car il y est véritablement tout entier ! Il y est avec toutes ses qualités et ses
             défauts ! et il n’a jamais été davantage nulle part. Il y est avec son même <emph>peu de
               pensées</emph> ; avec sa même quantité et son même tic d’antithèses, son même
@@ -4224,11 +4238,11 @@
             On ne peut jamais dire de lui qu’il soit devenu un tempéré, un sobre, un vrai, un naïf ;
             mais, dans les <emph>Premières années de Paris</emph>, il est certainement moins fou,
             moins échevelé et moins charlatanesque en son échevèlement et sa folie que dans
-              <emph>Les Contemplations.</emph> Le génie est inimitable. Hugo n’aurait pas de génie,
+            <emph>Les Contemplations.</emph> Le génie est inimitable. Hugo n’aurait pas de génie,
             il ne. serait pas ce qu’il est, si quelqu’un, fût-ce Vacquerie, pouvait l’imiter aussi
             bien !…</p>
           <p>Je tiens donc Victor Hugo pour l’auteur du livre : <emph>Mes premières années de
-              Paris</emph>, d’abord par respect pour lui, et ensuite parce qu’il ne peut y avoir,
+            Paris</emph>, d’abord par respect pour lui, et ensuite parce qu’il ne peut y avoir,
             dans notre ciel poétique, deux soleils de cette force : Hugo et Vacquerie ; nous serions
             cuits ! Je le tiens aussi pour l’auteur de ce livre, signé « Vacquerie », parce que ce
             livre est le plus ingénieux moyen qu’ait pu inventer une vanité aussi vaste, aussi
@@ -4273,7 +4287,7 @@
             <l>
               Mes monuments, mes parcs, mes princes et mes femmes,<lb/>
               C’étaient ses <emph>vers</emph>, c’étaient <emph>ses romans</emph> et <emph>ses
-              drames ;</emph><lb/>
+                drames ;</emph><lb/>
               <name rend="sc">les tours de notre-dame étaient l’h de son nom !</name>
             </l>
           </quote>
@@ -4289,7 +4303,7 @@
           <quote>
             <l>
               C’est <name rend="sc">lui</name> que je venais habiter, à
-            vrai dire.
+              vrai dire.
             </l>
           </quote>
           <quote>
@@ -4304,14 +4318,14 @@
           <quote>
             <l>
               … d’art et d’affection,<lb/> Habitants du <emph>granit
-              hautain</emph> (Hugo ! !), deux hirondelles.
+                hautain</emph> (Hugo ! !), deux hirondelles.
             </l>
           </quote>
           <quote>
             <l>
               Et nous nous en allions dans l’espace, fidèles<lb/>
               Et libres, comprenant dès notre premier pas<lb/>
-             <emph>Qu’on</emph> <name rend="sc">n’imitait hugo qu’en ne l’imitant pas !</name>
+              <emph>Qu’on</emph> <name rend="sc">n’imitait hugo qu’en ne l’imitant pas !</name>
             </l>
           </quote>
           <p>Aveu formel, pour le coup, et révélateur ! Certes ! ce n’est pas Vacquerie, que tout le
@@ -4332,9 +4346,9 @@
             Vacquerie, — ferait reconnaître que là-dessous il n’y a que Hugo !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Mais cela n’est pas seul. Vous pouvez prendre <emph>Mes premières années de
-              Paris</emph> pièce par pièce, page par page, vers par vers, mot par mot, et vous
+            Paris</emph> pièce par pièce, page par page, vers par vers, mot par mot, et vous
             reconnaîtrez partout l’ubiquité de Victor Hugo, dans ce livre rempli de son
             omniprésence ! <emph>Deus ! Deus ! Ecce Deus</emph> ! II s’y montre le Hugo de tous les
             temps, et d’abord le Hugo des anciennes préfaces qu’il faisait en prose autrefois, et
@@ -4363,7 +4377,7 @@
           <p>A cela près de la rime qui a raté (bestial et idéal), du Hugo toujours ! Enfin, il s’y
             montre le Hugo des derniers temps, le Hugo sans fierté, à plat ventre devant Paris,
             quoique <emph>Paris</emph>, <emph>pour lui</emph>, <emph>ce soit surtout
-            Hugo</emph> !</p>
+              Hugo</emph> !</p>
           <quote>
             <l>
               Que suis-je pour la ville à qui tout grand artiste,<lb/>
@@ -4441,7 +4455,7 @@
               Quoi ! la place <lb/>
               Change et classe <lb/>
               Les
-            objets
+              objets
             </l>
           </quote>
           <quote>
@@ -4457,7 +4471,7 @@
             toujours que ce soit un homme qui ne soit pas Hugo qui ait pu écrire de ces choses de
             génie-Hugo ?… Pour moi, je n’ai jamais douté ; mais jusque-là j’aurais douté que je
             serais convaincu maintenant que c’est Hugo qui a pensé, écrit, rimé,
-              <emph>enjambé</emph> ce livre des <emph>Premières années à Paris</emph>, publié sous
+            <emph>enjambé</emph> ce livre des <emph>Premières années à Paris</emph>, publié sous
             le nom de Vacquerie. Si Auguste Vacquerie l’avait écrit, lui, ce serait un phénomène, et
             je répugne, je l’avoue, à penser que Vacquerie soit un phénomène…</p>
           <p>Ce serait un phénomène, en effet, et un des plus étonnants, qu’un homme qui absorberait
@@ -4495,7 +4509,7 @@
             l’ode. Mais Victor Hugo croit en son génie. Il le croit incréé comme Dieu et
             consubstantiel avec lui. Il ne doute pas qu’il ne fût providentiellement destiné à être
             Hugo de toute éternité. Or, voilà que Vacquerie, si c’est lui qui, en ce livre des
-              <emph>Premières années de Paris</emph>, hugotise avec cette perfection, ébréche sa
+            <emph>Premières années de Paris</emph>, hugotise avec cette perfection, ébréche sa
             divinité du coup de sa petite humanité travailleuse, à lui, Vacquerie ! et
             patatras !</p>
           <p>Tout s’éclate et se répand par terre de la magnifique porcelaine, — et c’est ainsi,
@@ -4504,12 +4518,12 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark26"/>Jules de Gères<note n="43" type="footnote"
-            resp="author"><emph>Cinq dizaines de sonnets, entrecoupés d’historiettes en vers et
-              autres rimes</emph> (<emph>Constitutionnel</emph>, 26 octobre 1875). V. <emph>Les
+        <head>Jules de Gères<note n="43" type="footnote"
+          resp="author"><emph>Cinq dizaines de sonnets, entrecoupés d’historiettes en vers et
+            autres rimes</emph> (<emph>Constitutionnel</emph>, 26 octobre 1875). V. <emph>Les
               Œuvres et les Hommes. Poètes</emph>, 1re série.</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Je ne peux pas vous dire : Vous souvenez-vous de Jules de Gères ? car lorsque pour la
             première fois j’en parlai, c’était en 1859… Mais, moi, je m’en souviens. On n’oublie pas
             plus les poètes qu’on a lus que les femmes qu’on a aimées… Jules de Gères est un poète.
@@ -4531,13 +4545,13 @@
             Paris les incertaines et quelquefois humiliantes bordées de la célébrité. On m’a dit —
             et si ce n’est pas son histoire il faut le regretter — que, descendant de Montesquieu,
             lequel faisait des vers aussi, mais qui, après <emph>L’Esprit des lois</emph> et
-              <emph>La Décadence des Romains</emph>, avait le droit de n’en pas faire de si bons que
+            <emph>La Décadence des Romains</emph>, avait le droit de n’en pas faire de si bons que
             Gères, il avait été obligé, ce noble homme, qui l’est deux fois, par le talent et par la
             naissance, d’entrer, par suite des ignobles fortunes que les révolutions nous ont
             faites, dans une étude de notaire dont il aurait été le modeste clerc pendant quelque
             temps. Cela est-il vrai ? Je n’en sais rien, mais, si cela est, Gères n’en est que plus
             intéressant à mes yeux. Rappelez-vous la sublime <emph>Harmonie</emph> de Lamartine :
-              <emph>Le Génie dans l’obscurité</emph> ! Vous savez avec quels accents il y parle du
+            <emph>Le Génie dans l’obscurité</emph> ! Vous savez avec quels accents il y parle du
             mendiant Homère et de Virgile, qui garda les chevreaux ; seulement, la pauvreté d’Homère
             et l’humble condition de Virgile sont des misères poétiques et pittoresques. Le manteau
             du mendiant, sauf les déchirures, vaut le manteau d’un roi, et le sayon du pâtre relève
@@ -4546,7 +4560,7 @@
             d’avoué, et Fielding juge de paix en Angleterre. Mais ils étaient tous deux des
             observateurs, des romanciers, des moralistes. Ils étaient à l’affût pour observer,
             — l’un, de son étude d’avoué où il apprit à nous faire des chefs-d’œuvre comme
-              <emph>L’Interdiction</emph> et <emph>Le Contrat de mariage</emph>, l’autre, de la
+            <emph>L’Interdiction</emph> et <emph>Le Contrat de mariage</emph>, l’autre, de la
             taverne dans laquelle il jugeait, à cœur de journée, ses voleurs, ses vagabonds et ses
             filles de joie. Mais un poète, l’homme du pur sentiment, de l’idéal et du rêve ! être
             interné dans une boutique de notaire, c’est de l’oppression de facultés sans profit pour
@@ -4557,7 +4571,7 @@
             immortelle !</p>
         </div>
         <div>
-          <head type="h2">Il</head>
+          <head>Il</head>
           <p>Jules de Gères l’avait, ce filon, et nous le retrouvons aujourd’hui. Entre son recueil
             du <emph>Roitelet</emph>, qui attira mon regard avec tant de magnétisme et de
             frémissement de plaisir, et la publication du livre que voici, il y a plus de dix ans !
@@ -4607,12 +4621,12 @@
           <p>Jules de Gères — comme nous allons le voir — a souvent dans le talent cet
             hermaphrodisme harmonieux qui vient de la Force saillant dans la Grâce, mais il n’en
             appartient pas moins exclusivement en poésie à ce que je me permets d’appeler le
-              <emph>genre gazelle.</emph> Il l’est jusque dans les titres qu’il donne à ses
+            <emph>genre gazelle.</emph> Il l’est jusque dans les titres qu’il donne à ses
             poésies ; car je ne crois pointé <emph>leur</emph> modestie… Je ne crois point à la
             modestie d’un homme de talent qui a conscience de son talent, et qui, après tout, ne
             peut pas se croire un sot, comme dit Voltaire en parlant de lui-même… La modestie est
             une petite hypocrisie sans vigueur et dérivée de la grande. C’est une hypocrisie aux
-              <emph>pâles couleurs</emph>, — une hypocrisie qui a de la chlorose. La modestie en a
+            <emph>pâles couleurs</emph>, — une hypocrisie qui a de la chlorose. La modestie en a
             toujours menti, si elle n’est pas une niaise. Mais la timidité, c’est différent. Je
             crois à la timidité. Il y a quelque chose de troublé, de rougissant, même de farouche
             dans la timidité, qui est souvent une grâce de plus, et je trouve cette timidité de
@@ -4621,7 +4635,7 @@
             aujourd’hui il nous donne un nouveau recueil sous ce titre simple, qui peut-être
             voudrait être plus simple encore : <emph>Cinq dizaines de sonnets entrecoupés
               d’historiettes en vers et autres rimes</emph><note n="44" type="footnote"
-              resp="author">Dentu.</note>. Eh bien, malgré ce qu’il y a d’aimable dans la timidité,
+                resp="author">Dentu.</note>. Eh bien, malgré ce qu’il y a d’aimable dans la timidité,
             qui est toujours un hommage (les princes le savent bien !) de l’homme troublé à l’homme
             qui le trouble, je n’aime point ce titre, qui est trop long et semble embarrassé… Jules
             de Gères a le droit d’avoir de l’aplomb, et il n’y a que les trembles, si c’était leur
@@ -4663,7 +4677,7 @@
             guères de place que pour contenir un petit écu !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Mais Jules de Gères a plus qu’un petit écu en fait de sentiments et d’idées, et voilà
             pourquoi il est réservé à une destination supérieure à celle d’écrire des sonnets comme
             Oronte ou comme l’abbé Cotin. Certes ! je ne demande pas mieux que de le reconnaître, il
@@ -4671,11 +4685,11 @@
             incommutable majorat, serait heureux d’avoir signés ; mais ce n’est point les <emph>Cinq
               dizains de sonnets</emph> que Gères met en premier dans l’énoncé de son titre qui sont
             l’honneur de son volume. Non ! le volume sera classé, et classé très haut, par ces
-              <emph>Historiettes</emph>, qui sont des poèmes, comme <emph>Une Rencontre</emph>,
-              <emph>Les Oiseaux deux à deux, Sanchette</emph>, <emph>Cerise, Les deux
-            Lierres</emph>, <emph>L’Aquarelle à Héroult</emph>, <emph>Mens agitat molem, Incerta et
-              occulta, La Soif de l’infini, Pâquerette</emph>, et enfin <emph>L’Arbre devenu
-              vieux</emph>, qui me paraît sans comparaison la plus belle pièce du volume, par la
+            <emph>Historiettes</emph>, qui sont des poèmes, comme <emph>Une Rencontre</emph>,
+            <emph>Les Oiseaux deux à deux, Sanchette</emph>, <emph>Cerise, Les deux
+              Lierres</emph>, <emph>L’Aquarelle à Héroult</emph>, <emph>Mens agitat molem, Incerta et
+                occulta, La Soif de l’infini, Pâquerette</emph>, et enfin <emph>L’Arbre devenu
+                  vieux</emph>, qui me paraît sans comparaison la plus belle pièce du volume, par la
             hauteur de son inspiration et la luxuriance de ses magnifiques et infatigables
             strophes.</p>
           <p>Figaro parle quelque part de «<q> se pelotonner </q>». Eh bien, c’est après avoir lu
@@ -4685,10 +4699,10 @@
             s’escamoter dans ce mouchoir ?</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Je voudrais pouvoir citer ces deux pièces pour donner une idée de la poésie de Gères
             quand elle atteint son point culminant, — son zénith ; je voudrais citer aussi
-              l<emph>’Incerta et occulta</emph>, non moins belle, mais je suis arrêté par un des
+            l<emph>’Incerta et occulta</emph>, non moins belle, mais je suis arrêté par un des
             mérites de ces pièces la longueur, la puissance du souffle… <emph>L’Arbre devenu
               vieux</emph> n’a pas moins de cent dix-neuf strophes… Or, ces longues poésies sont
             venues et sont faites comme les roses, pour lesquelles Dieu ne s’est pas repris… Les
@@ -4808,7 +4822,7 @@
               La feuillaison qui le décore,<lb/> 
               On eût dit que, vif et debout,<lb/>
               L’ormeau resplendissait encore !
-          </l>
+            </l>
           </quote>
           <quote>
             <l>
@@ -4816,7 +4830,7 @@
               Amour, sur ton <emph>désert théâtre</emph>,<lb/> 
               Nous retenons ton spectre aimé<lb/>
               Par une étreinte opiniâtre !
-          </l>
+            </l>
           </quote>
           <quote>
             <l>
@@ -4859,18 +4873,18 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark27"/>Achille du Clésieux<note n="46" type="footnote"
-            resp="author"><emph>Armelle</emph> (<emph>Constitutionnel</emph>, 16 août
+        <head>Achille du Clésieux<note n="46" type="footnote"
+          resp="author"><emph>Armelle</emph> (<emph>Constitutionnel</emph>, 16 août
           1876).</note></head>
         <p>I</p>
         <p>Les poètes pleuvent pour l’heure. <emph>Borate, cœli, et nubes pluant justum.</emph> Le
           poète est presque aussi rare que le juste. Hier, c’était l’éclatant et cordial
-            Saint-Maur<note n="47" type="footnote" resp="author"><emph>Les Œuvres et les Hommes.
-              Poètes</emph>, 2me série.</note> que je vous présentais par la main. Aujourd’hui, ce
+          Saint-Maur<note n="47" type="footnote" resp="author"><emph>Les Œuvres et les Hommes.
+            Poètes</emph>, 2me série.</note> que je vous présentais par la main. Aujourd’hui, ce
           sera Achille du Clésieux, l’auteur d’<emph>Armelle</emph><note n="48" type="footnote"
             resp="author">Dentu.</note>. Enfin Richepin, l’auteur de la <emph>Chanson des
-            Gueux</emph><note n="49" type="footnote" resp="author"><emph>Poètes</emph>, 2<hi
-              rend="sup">me</hi> série.</note>, une pousse de l’arbre vigoureux et immortel qui
+              Gueux</emph><note n="49" type="footnote" resp="author"><emph>Poètes</emph>, 2<hi
+                rend="sup">me</hi> série.</note>, une pousse de l’arbre vigoureux et immortel qui
           s’appelle Mathurin Régnier, et qui vient d’être condamné en justice, hélas ! pour avoir
           été trop Matliurin</p>
         <p>Régnier par l’expression, en ce <emph>prude</emph> temps de République où l’on publie
@@ -4879,7 +4893,7 @@
         <p>Mais laissons ces choses que le temps emportera. La seule qu’il n’emporte point, c’est le
           talent, quand on en a.</p>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Comme Saint-Maur, dont il doit être, à bien peu d’années près, le contemporain, Achille
             du Clésieux porte aussi sur son front la flamme, l’inextinguible flamme de 1830. Il est
             de l’époque qui fut la jeunesse, ardente et féconde, de ce siècle, déjà décrépit.
@@ -4918,7 +4932,7 @@
             l’accent qui doit remuer le plus les cœurs !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Achille du Clésieux les remuera certainement, et je suis sûr que, déjà, il les a
             remués. Il ira trouver les âmes d’élite dans leur isolement ; car les âme d’élite sont
             toujours isolées. Mais quant à ce qu’on appelle un succès littéraire, — un violent
@@ -4935,7 +4949,7 @@
             commun avec la nouvelle génération qui a surgi depuis quelques années. Mais ce n’est pas
             une vieillesse, cela… Au contraire ! Il n’est point un parnassien ; parnassien, nom
             païen qui dit tout ! Il n’est, lui, ni un <emph>sonnettiste</emph>, ni un
-              <emph>ciseleur</emph>, les deux petites choses populaires, pour l’instant, en
+            <emph>ciseleur</emph>, les deux petites choses populaires, pour l’instant, en
             littérature. Ce n’est pas plus un technicien de rhythme qu’un descriptif, qui croit que
             calquer la nature sans y ajouter rien de l’âme humaine, c’est la peindre… Ce n’est
             point, enfin, un de ces <emph>objectifs</emph>, comme ce coucou de Gœthe en a pondu dans
@@ -4956,7 +4970,7 @@
             celle-là, inconnue dans la littérature française, car avant Lamartine, excepté La
             Fontaine, en quelques vers trop rares, mais divins, quel poète français avait vraiment
             rêvé ?… Les voluptueuses fatigues d’André Chénier lui-même, en ses sensuelles
-              <emph>Elégies</emph>, ne sont pas des rêveries comme celles que Lamartine apprit à la
+            <emph>Elégies</emph>, ne sont pas des rêveries comme celles que Lamartine apprit à la
             France… L’auteur <emph>d’Armelle</emph> dut boire avec délices de cette rosée céleste,
             et son esprit, qui était fait pour elle, n’a pas cessé, par tous ses pores, de
             l’exhaler. Il est resté, toute sa vie, un lamartinien. Seulement, ce lamartinien a
@@ -4989,7 +5003,7 @@
             l’émotion humaine qui fait palpiter tout son poème, comme un cœur vivant…</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Rien de plus simple que ce roman en vers qui pourrait bien être une histoire, et cette
             simplicité est si grande que la donnée du poème peut se raconter en deux mots… Le héros
             du livre, qui n’est pas nommé dans le poème, l’amant d’Armelle, est un Childe Harold de
@@ -5010,7 +5024,7 @@
             Dieu, cet époux après tous les autres : — Celui-là qui ne se refuse jamais à la main qui
             se tend vers lui !… Écartez l’idée de Corneille, dont le grand nom écrase tout, mais
             pourtant remarquez bien que c’est là la donnée — variée et simplifiée — du
-              <emph>Cid</emph>, le combat de l’amour et du devoir. Seulement, ce n’est pas ici le
+            <emph>Cid</emph>, le combat de l’amour et du devoir. Seulement, ce n’est pas ici le
             combat entre l’amour et l’honneur tel que l’entend le monde ; mais le combat entre
             l’amour et un autre honneur que le monde n’entend presque plus. On comprend encore — et
             ce ne sera pas très long ! — l’honneur à la manière du Cid, l’honneur chevaleresque, qui
@@ -5023,14 +5037,14 @@
             plastique, est plus difficile à comprendre dans la noblesse de son humilité. Il faut
             avoir le courage amer de le dire : la Famille, telle que le Christianisme l’avait
             constituée, tombe, se détrempe et se fond dans l’égoïsme universel. Pour ma part,
-              <emph>(horresco referens !)</emph> je connais, en ce moment, des fils, qui ne sont pas
+            <emph>(horresco referens !)</emph> je connais, en ce moment, des fils, qui ne sont pas
             des monstres, et qui disent avec une familiarité révoltante : « mon ami », quand ils
             parlent à leur père, et, ce jour-là, ces imbécilles de pères les trouvent charmants !
             J’en connais d’autres qui disent insolemment du leur : « le vieux », et sont trouvés
             charmants par des fils comme eux, vils parricides, sans main !… Quand une société en est
             là de ramollissement et de lâche mépris pour tout ce qui fut autrefois la force et la
             dignité des nations chrétiennes, le sentiment filial comme on le rencontre dans
-              Ar<emph>melle</emph> est bien près de n’être plus compris.</p>
+            Ar<emph>melle</emph> est bien près de n’être plus compris.</p>
           <p>Et, tenez ! il en est si près, que le critique, très bienveillant pour l’auteur, dont
             j’ai parlé en commençant,  Armand de Pontmartin, estime que l’amant d’Armelle, ce héros
             de la vie privée, qui a ses héros comme la vie publique, diminue, dans l’intérêt que lui
@@ -5061,7 +5075,7 @@
             qui serait nécessaire pour bien sentir cette poésie, austère et attendrie à la fois.</p>
         </div>
         <div>
-          <head type="h2">V</head>
+          <head>V</head>
           <p>Quant à la forme qu’elle a revêtue, cette poésie qui déroutera encore l’esprit byzantin
             et blasé de ce temps par la simplicité de son expression et par la simplicité des choses
             décrites, autant que par celle de son inspiration première, je l’ai déjà caractérisée en
@@ -5095,7 +5109,7 @@
             poésie plus physique, et qui, pour arriver à l’âme, passe par un autre organe que
             l’oreille. La poésie passe aujourd’hui par les yeux, — le plus sensuel des organes. Du
             Clésieux est un poète à la voix pleine, harmonieuse, étendue, mais qui chante dans un
-              <emph>medium</emph> dont il ne sort jamais par ces éclats si magnifiques dans
+            <emph>medium</emph> dont il ne sort jamais par ces éclats si magnifiques dans
             Lamartine, qui, en sa qualité de génie poétique absolu, ayant tous les dons, a aussi le
             don de peindre avec des puissances, des délicatesses et des chastetés de pinceau
             véritablement raphaélesques, et quoique le musicien soit bien au-dessus du peintre dans
@@ -5108,7 +5122,7 @@
             admire la pureté des larmes et la sûreté de la main !</p>
         </div>
         <div>
-          <head type="h2">VI</head>
+          <head>VI</head>
           <p>J’ai dit maintenant ce que je pense de ce poème d’A<emph>rmelle.</emph> C’est
             d’ensemble que je l’ai vu et que je l’ai jugé. Je ne suis pas descendu aux détails. Je
             n’ai pas voulu déchirer cet opulent et soyeux tissu pour y chercher quelques légers
@@ -5125,7 +5139,7 @@
             chrétiennes immenses. Poète signifie <emph>faiseur</emph> ; il a fait ; il a agi ; il a
             créé. Ses fondations ouvrières sont l’admiration de la pieuse Bretagne. Il a bâti
             presque des villes, comme les poètes des anciennes mythologies. Mais sa
-              <emph>lyre</emph> n’est pour rien là-dedans. Par la vertu de ce Christianisme qui peut
+            <emph>lyre</emph> n’est pour rien là-dedans. Par la vertu de ce Christianisme qui peut
             tout, le poète <emph>d’Armelle</emph> a été le <emph>seul</emph> socialiste pratique de
             ce temps. Pendant que les <emph>autres</emph>, depuis Fourier jusqu’à Cabet, enflaient
             et crevaient leurs bulles de savon, lui, du Clésieux, réalisait au profit des masses
@@ -5140,11 +5154,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark28"/>Alfred de Musset<note n="50" type="footnote"
-            resp="author"><emph>Biographie de Alfred de Musset</emph>, par Paul de Musset
-              (<emph>Constitutionnel</emph>, 9 avril 1877).</note></head>
+        <head>Alfred de Musset<note n="50" type="footnote"
+          resp="author"><emph>Biographie de Alfred de Musset</emph>, par Paul de Musset
+          (<emph>Constitutionnel</emph>, 9 avril 1877).</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>On lit cette biographie, dit-on. On se précipite à la lire. Par Dieu ! je le crois
             bien ! C’est la vie d’Alfred de Musset ! On va au livre qui porte un pareil titre, et
             comment ne pas y aller ? On y va avec la fureur de la curiosité enthousiaste… Mais
@@ -5159,7 +5173,7 @@
             Quelle chance ! Les éditeurs, qui ont l’instinct de la bêtise avec laquelle on gagne de
             l’argent, croyaient — et ne se trompaient pas ! — qu’ils allaient faire un fameux coup
             de bourse en mettant sur leur couverture : <emph>Biographie de Alfred de Musset</emph>,
-              <emph>par M. Paul de Musset</emph><note n="51" type="footnote" resp="author"
+            <emph>par M. Paul de Musset</emph><note n="51" type="footnote" resp="author"
               >Charpentier.</note>. Bonne sonnerie ! Délicieux accord ! Il y avait presque du
             sentiment <emph>là dedans</emph>, comme dans la <emph>Romance à Madame…</emph> Ils
             étaient trois, les éditeurs, comme les trois Grâces, mais moins unis. Car chacun d’eux
@@ -5198,7 +5212,7 @@
             droit de succession ! !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Et encore si toute cette parentaille, qui écrivaille, devait en savoir plus long que
             tout le monde sur celui dont elle écrit la vie, et qu’en raison de la parenté même elle
             eût dans les mains des faits, des renseignements et des détails qui éclaireraient son
@@ -5267,7 +5281,7 @@
             maintenant vraiment dignes d’être ministres, les éditeurs !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Ainsi, déception. Et soyez sûrs qu’elle est générale. Soyez sûrs qu’elle est
             universelle… On prend cette biographie. On la prend comme une coupe. On la lit. On la
             boit. El on se dit : N’est-ce que cela ? Qu’est-ce que j’ai appris ?… Mais j’en savais
@@ -5312,7 +5326,7 @@
             que le génie lui-même qui puisse nous la raconter !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Hélas ! il ne l’a que chantée. Byron aussi avait chanté la sienne. Mais, à côté du
             chaut inspiré, il avait mis sa prose inspirée, — à côté de sa poésie, son histoire… Dans
             ses <emph>Memoranda</emph>, dans sa Correspondance, partout où s’est abattu le bec
@@ -5337,7 +5351,7 @@
             héros, et qui, l’Empire tombé, ne surent que faire de la vie, Alfred de Musset se jeta
             aux coupes et aux femmes de l’orgie comme il se serait jeté sur une épée si on lui en
             eût offert une, et il a peint cette situation dans les premières pages qui ouvrent les
-              <emph>Confessions d’un enfant du siècle</emph>, avec une mélancolie si guerrière !
+            <emph>Confessions d’un enfant du siècle</emph>, avec une mélancolie si guerrière !
             Comme tous les jeunes gens qui vécurent sous Louis-Philippe, ce triste Napoléon de la
             paix à tout prix, en se dévorant d’activité étouffée, Musset, qui n’avait ni les
             millions ni la pairie de lord Byron, devint homme du monde du temps, avec l’âme la moins
@@ -5358,8 +5372,8 @@
             certain c’est que plus il chanta, plus Alfred de Musset perdit l’accent  byronien, et
             plus il fut <emph>lui-même</emph>, dans une <emph>genuiness</emph> incomparable.</p>
           <p>Jamais, en effet, l’amer, le sauvage, le strident Byron n’eut, même dans ses œuvres qui
-              <emph>voulaient</emph> être tendres (comme, par exemple, <emph>Parisina</emph> et
-              <emph>La Fiancée d’Abydos</emph>), la tendresse, la pureté, la mélancolie au divin
+            <emph>voulaient</emph> être tendres (comme, par exemple, <emph>Parisina</emph> et
+            <emph>La Fiancée d’Abydos</emph>), la tendresse, la pureté, la mélancolie au divin
             sourire d’Alfred de Musset. Jamais Byron n’eut de ces touches mouillées, de ces rosées
             d’éther… Byron rugit toujours un peu quand il roucoule ; il veloute ses rugissements,
             mais c’est toujours le lion amoureux… Le caractère du génie de Byron, c’est la fierté,
@@ -5380,7 +5394,7 @@
             de feu du vice, comme le bison dans son bourbier !</p>
         </div>
         <div>
-          <head type="h2">V</head>
+          <head>V</head>
           <p>C’est cette vie-là qu’il n’a pas écrite, — qu’il n’a pas <emph>voulu</emph>, qu’il n’a
             pas <emph>pensé</emph> à écrire, — et pour laquelle, n’étant plus, on a pris son frère.
             Ah ! les frères ne suffisent pas toujours. Est-ce que je suffirais, moi ! à écrire la
@@ -5407,11 +5421,11 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark29"/>Maurice Bouchor<note n="53" type="footnote"
-            resp="author"><emph>Le Faust moderne (Constitutionnel</emph>, 28 janvier
+        <head>Maurice Bouchor<note n="53" type="footnote"
+          resp="author"><emph>Le Faust moderne (Constitutionnel</emph>, 28 janvier
           1878).</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Je crois bien que je tiens un poète… On le trouve ici sous une foule de choses qui le
             voilent encore et qui le surchargent. Mais enfin on le trouve et on le voit… et c’est là
             l’important ! Il y a poète dans ce livre… Du fond de ces impressions qui déteignent sur
@@ -5435,12 +5449,12 @@
             — et j’ai bien fait d’attendre, car évidemment voici mieux !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Ce poème est une œuvre d’haleine, et qui a l’ambition d’être un poème d’une unité qu’on
             ne connaît plus, en ce temps d’éparpillement et de faiblesse.</p>
           <p>Malheureusement pour l’originalité que je souhaiterais à Maurice Bouchor, son poème a
             été inspiré par d’autres poèmes, portant le même titre et exprimant la même idée.
-              <emph>Le Faust moderne</emph><note n="54" type="footnote" resp="author"
+            <emph>Le Faust moderne</emph><note n="54" type="footnote" resp="author"
               >Charpentier.</note>, quelle que soit l’épithète qu’on s’avise de coller à ce
             redoutable substantif qui dévore tous les adjectifs dont on l’accompagne, n’est jamais
             que le Faust tout seul (<emph>alone !)</emph> dans son incompatibilité… et le mot
@@ -5459,7 +5473,7 @@
           <p>Faust a résisté ; Faust, cette Idée et cette Forme chrétiennes, qui a poussé comme la
             fleur d’un merveilleux terrible dans le plus profond de l’imagination du Moyen Age, est
             resté Faust dans le poème de Bouchor. Il est resté le vieux Faust intraitable,
-              <emph>immaniable</emph>, impossible à <emph>déchristianiser</emph>, car voilà ce
+            <emph>immaniable</emph>, impossible à <emph>déchristianiser</emph>, car voilà ce
             qu’ils voudraient faire, les poètes de l’impiété moderne, les chanteurs de l’Athéisme et
             de la Négation ! et Bouchor en est un. Ces jeunes gens qui ne croient, comme on dit, ni
             à Dieu ni à Diable, et qui font des vers dans le genre de ceux-ci, lesquels d’ailleurs,
@@ -5495,7 +5509,7 @@
             </l>
           </quote>
           <p>ces <emph>jongleurs</emph>, comme ils s’appellent eux-mêmes, s’emparent, <emph>pour
-              jongler</emph>, de la légende du Diable, et voudraient, les voluptueux ! s’en donner
+            jongler</emph>, de la légende du Diable, et voudraient, les voluptueux ! s’en donner
             un peu le frisson. Pardieu ! ils ne sont pas dégoûtés ! Mais on ne joue pas avec la
             légende du Diable sans bientôt y croire. Cette vieille légende dont on se moque, à son
             tour se moque des moqueurs et leur rejette à la figure les oripeaux de mascarade dans
@@ -5516,7 +5530,7 @@
             du Moyen Age ne l’a point écrasé, il est vrai, comme le pilier écrasa Sam-son. Elle a
             mieux fait ; elle a fait comme le chêne du Crotoniate, qui se referma sur les mains qui
             l’avaient fendu et qui le força de rester ainsi sous la dent des loups. L’auteur du
-              <emph>Faust moderne</emph> a été saisi par l’idée chrétienne, qui ne l’a pas lâché
+            <emph>Faust moderne</emph> a été saisi par l’idée chrétienne, qui ne l’a pas lâché
             jusqu’à la fin de son poème ; mais nous ne sommes pas des loups bien méchants : nous ne
             le mangerons pas.</p>
           <p>Les loups — disent les légendes de mon pays — dansent quelquefois sur les neiges, la
@@ -5540,7 +5554,7 @@
             qui veut être athée, et que j’aime comme un acte de foi !</p>
         </div>
         <div>
-          <head type="h2">III</head>
+          <head>III</head>
           <p>Voilà la beauté de ce livre ! L’homme qui l’a écrit a une idée ; mais Dieu, qui a la
             sienne aussi, lui fait dire ce qu’il ne comprend pas, même en le disant ; et ce n’en est
             que plus frappant et plus sublime…</p>
@@ -5608,7 +5622,7 @@
           </quote>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>A ces vers d’une inspiration si accablée, j’en pourrais ajouter beaucoup d’autres,
             également beaux et également désespérés. Vous rappelez-vous cette page inouïe de
             Jean-Paul, dont le sublime transportait madame de Staël, quand, au Jugement dernier, il
@@ -5680,9 +5694,9 @@
         </div>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark30"/>Belmontet<note n="55" type="footnote"
-            resp="author"><emph>Poésies de l’Empire Français (Pays</emph>, 15 septembre
-            1853).</note></head>
+        <head>Belmontet<note n="55" type="footnote"
+          resp="author"><emph>Poésies de l’Empire Français (Pays</emph>, 15 septembre
+          1853).</note></head>
         <p>Un livre de poésies, annoncé seul dans un bulletin bibliographique exclusivement consacré
           aux ouvrages en prose, doit produire un effet inattendu et un contraste, comme si l’on
           plaçait une pierre d’une autre espèce dans une mosaïque dont les marbres ne différeraient,
@@ -5720,7 +5734,7 @@
           qui fait penser à l’Épopée. Si les grands hommes influent, même physiologiquement, sur les
           races (et qui sait ? quelque physiologiste le démontrera peut-être un jour !), Napoléon,
           par les événements de son règne, devra influer sur cette tête française qu’on a dit
-            <emph>n’être pas épique</emph> pendant si longtemps et avec tant de vérité. A nos yeux,
+          <emph>n’être pas épique</emph> pendant si longtemps et avec tant de vérité. A nos yeux,
           les seules périodes comparables à celle qu’il anima de son génie sont, ou cette époque de
           l’histoire d’Espagne qui brille du nom presque fabuleusement beau de son Cid, ou, dans
           notre histoire, à nous, l’époque immense de Charlemagne. Rapprochement maintenant
@@ -5764,7 +5778,7 @@
           de nous dire qu’à côté des inspirations de la poésie individuelle il y avait, grâce à
           l’Empire et aux souvenirs  qu’il a laissés dans la mémoire des hommes, une autre source de
           poésie ouverte et coulant à pleins bords dans le <num>xix<hi rend="sup"
-          >e</hi></num> siècle, nous n’eussions pas réclamé contre une telle poésie ; car rien n’est
+            >e</hi></num> siècle, nous n’eussions pas réclamé contre une telle poésie ; car rien n’est
           plus vrai. Tout ce qui est, dans ce temps, âme ou seulement fibre de poète, le sait pour y
           avoir touché… Quand, au matin, vous voyez descendre de toutes les collines dans la vallée
           des jeunes filles, leur cruche à la main, vous dites, sans crainte de vous tromper, qu’il
@@ -5817,7 +5831,7 @@
           grandeur des sujets qu’il traite et l’ardeur de ses sentiments. Nous l’avons dit déjà :
           quel que soit le talent d’un homme qui ne serait ni Shakespeare ni Dante, c’est un titre
           presque audacieux, et qu’on ne pardonne qu’à la ferveur de l’enthousiasme, que le titre de
-            <emph>Poésies de l’Empire</emph> ; mais, on doit en convenir, ce n’est, certes ! pas une
+          <emph>Poésies de l’Empire</emph> ; mais, on doit en convenir, ce n’est, certes ! pas une
           main sans force qui a écrit : <emph>Une Scène de nuit à Schœnbrunn</emph>, <emph>La
             Popularité des grands Noms, Les Impérialistes, La Mort de l’Empereur</emph>, et la
           plupart des odes de ce recueil. Seulement, si cette force était plus grande encore, la
@@ -5844,14 +5858,14 @@
           savait les y placer et les y retenir ?</p>
       </div>
       <div>
-        <head type="h1"><anchor xml:id="bookmark31"/>José-Maria de Heredia<note n="58"
-            type="footnote" resp="author"><emph>Véridique histoire de la conquête de la
-              Nouvelle-Espagne</emph>, par le capitaine Bernai Diaz del Castillo, l’un des
-            conquérants (<emph>Constitutionnel</emph>, 25 février 1878).</note></head>
+        <head>José-Maria de Heredia<note n="58"
+          type="footnote" resp="author"><emph>Véridique histoire de la conquête de la
+            Nouvelle-Espagne</emph>, par le capitaine Bernai Diaz del Castillo, l’un des
+          conquérants (<emph>Constitutionnel</emph>, 25 février 1878).</note></head>
         <div>
-          <head type="h2">I</head>
+          <head>I</head>
           <p>Cette <emph>Histoire d’une conquête</emph><note n="59" type="footnote" resp="author"
-              >Lemerre.</note> en est une sur l’imagination… Cette antique chronique d’un vieux
+            >Lemerre.</note> en est une sur l’imagination… Cette antique chronique d’un vieux
             chroniqueur oublié et à peu près inconnu en France, traduite par la fantaisie éprise
             d’un écrivain qui a du sang espagnol et <emph>conquérant</emph> dans les veines et la
             plus profonde culture de la langue française, ce récit, si différent, par les sentiments
@@ -5879,7 +5893,7 @@
             d’une armure !</p>
         </div>
         <div>
-          <head type="h2">II</head>
+          <head>II</head>
           <p>Flexibilité et magnificence ! Dons de poète ! C’est que Heredia a commencé par en être
             un. C’est, chez lui, sur le brillant pilotis du poète que se trouve bâti le prosateur.
             Jeune, il y a quelques années, il débuta dans la littérature par des vers, et fit partie
@@ -5914,7 +5928,7 @@
             ces Titiens ou ces Tintorets de l’Histoire ; mais ils étaient les seuls. Je ne crois pas
             qu’en fait de coloristes on pût remonter beaucoup plus haut qu’à l’historiographe
             Mathieu, un artiste énorme et oublié, dont Lemerre, qui a eu la hardiesse d’éditer un
-              <emph>Agrippa d’Aubigné</emph> intégral, et qui publie la <emph>Chronique de Diaz del
+            <emph>Agrippa d’Aubigné</emph> intégral, et qui publie la <emph>Chronique de Diaz del
               Castillo</emph>, devrait bien éditer le <emph>Louis XI</emph>, lequel, par le
             pittoresque, ferait pâlir le <emph>Louis XI</emph> de Michelet. Telles étaient nos
             richesses. Voici maintenant Heredia ! Mais celui-ci n’est point un historien que je vous
@@ -5939,7 +5953,7 @@
             l’or qui s’empara alors de la militaire et religieuse Espagne, et qui la jeta, après
             l’avoir dépravée, comme un vampire, sur le Nouveau Monde. Écoutez l’histoire de ce
             vampirisme de l’or ! « <q>Les femmes</q><q> —</q> dit Heredia après Salazar <q>—
-              </q><q>sont les rêts dont Satan lie les cœurs. </q><q>Armes du diable, ainsi les
+            </q><q>sont les rêts dont Satan lie les cœurs. </q><q>Armes du diable, ainsi les
               définit la Célestine, ce bréviaire d’amour tant de fois imprimé à Séville. Les
               Andalouses, s’il faut en croire les vieux moralistes, ont toujours été singulièrement
               douées de cette antique malice qui voua la race d’Adam aux flammes de l’enfer. Leurs
@@ -5978,7 +5992,7 @@
           </p>
         </div>
         <div>
-            <head type="h2">III</head>
+          <head>III</head>
           <p>Quelle fresque ! mais on est obligé de s’arrêter, tant elle se prolonge ! et tout est
             fresque de cette beauté dans cette longue description, dans cette empreinte levée si
             ardemment de l’Espagne du xvi* siècle… L’évocateur de cette Espagne perdue et retrouvée
@@ -6011,11 +6025,11 @@
               africains, toute la flamme, tous les frissons d’une ivresse furieuse, sanguinaire et
               bestiale. Un mot, un geste, et tous les couteaux sont en l’air, cherchant des gaines
               neuves ! Le rêve de plus d’un </q><q>Conquérant s’acheva dans la boue fétide et
-              sanglante des ruelles de Triana.</q>
+                sanglante des ruelles de Triana.</q>
             <q>Les ruffians de Séville, dit Ambrosio de Salazar, dans son </q><q><hi rend="i">Miroir
-                général de la Grammaire</hi></q><q>, ont toujours été réputés vaillants mâles,
-              plus lestes qu’aucun moine à expédier un chrétien avec le viatique d’un blasphème et
-              du sang frais en guise d’huiles saintes.</q> »</p>
+              général de la Grammaire</hi></q><q>, ont toujours été réputés vaillants mâles,
+                plus lestes qu’aucun moine à expédier un chrétien avec le viatique d’un blasphème et
+                du sang frais en guise d’huiles saintes.</q> »</p>
           <p>Voilà la manière de José-Maria de Heredia, — de ce peintre qui ne porte pas pour rien,
             comme vous voyez, un nom espagnol. La couleur — la couleur espagnole aussi ! — répandue
             ici partout, rougit tout, et flambe et fume dans chacune de ses phrases comme du sang de
@@ -6040,19 +6054,19 @@
             magnifiques accumulations de détails, et qui, pour les entasser, a besoin d’espace, il
             lui faut, pour jouer dans sa force, le pourtour d’un peuple, l’hémicycle d’une société
             ou d’une époque, et je ne connais guères que Macaulay, dans plusieurs de ses beaux
-              <emph>Essais historiques</emph>, publiés dans <emph>La Revue d’Edimbourg</emph>, qui
+            <emph>Essais historiques</emph>, publiés dans <emph>La Revue d’Edimbourg</emph>, qui
             ait cette étendue et cette largeur <emph>d’embrasse</emph> ; mais Macaulay, bien plus
             littéraire que plastique, n’a pas la couleur de José-Maria de Heredia, quoique Macaulay,
             comme Heredia, ait été un poète avant de devenir un prosateur !</p>
         </div>
         <div>
-          <head type="h2">IV</head>
+          <head>IV</head>
           <p>Eh bien, le croira-t-on ? c’est ce coloriste d’aujourd’hui et dont j’ai essayé de faire
             connaître la palette qui, au lieu de traduire quelque grand écrivain de génie, a mieux
             aimé emboîter le.pas, en le traduisant, derrière un vieux soldat oublié, et bravement
             chausser les vieilles bottes et la casaque de guerre de cet héroïque roquentin ! Charme
             des qualités contraires ! Le vieux Conquistador en a eu un pour ce fils des
-              <emph>Conquistadores</emph> qui s’était promis d’écrire un jour l’histoire de leurs
+            <emph>Conquistadores</emph> qui s’était promis d’écrire un jour l’histoire de leurs
             Conquêtes. Sur le chemin de cette histoire projetée, il a rencontré le sublime bonhomme,
             pur comme un croisé des premières croisades, net de l’or qui avait taché tant de mains
             et corrompu jusqu’aux épées, et il a fait avec lui accointance. Peut-être est-ce d’une
@@ -6064,7 +6078,7 @@
             Heredia a dû souffrir de s’être passé cette gourmette du mot à mot, humble et résigné.
             Il a dû terriblement lui en coûter pour se tasser et se ramasser dans ce rail ! Mais la
             traduction qu’il s’est infligée est si bien <emph>obtenue</emph>, elle est si bien
-              <emph>réussie</emph>, qu’on ne dirait jamais qu’elle nous vient de ce Somptueux ! Si
+            <emph>réussie</emph>, qu’on ne dirait jamais qu’elle nous vient de ce Somptueux ! Si
             La Fontaine eût su l’espagnol, il l’aurait ainsi faite. Heredia est aussi un
             Conquistador comme ses pères. Il a conquis la naïveté qu’on ne conquiert pas
             d’ordinaire, ce verre d’eau de source que le plus brillant ou le plus charmant talent
@@ -6089,7 +6103,7 @@
             instant, sur ses récits !</p>
         </div>
         <div>
-          <head type="h2">V</head>
+          <head>V</head>
           <p>J’ai dit en commençant que cette Chronique n’est pas finie, et qu’elle va continuer.
             José-Maria de Heredia se contentera-t-il de publier le second volume de sa traduction,
             — de celte traduction dont il n’a pas eu besoin de nous donner le texte original, tant
