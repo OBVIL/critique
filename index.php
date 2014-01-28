@@ -38,7 +38,7 @@ else echo '
   </head>
   <body>
     <div id="center">
-      <div id="bordertop"/>
+      <div id="bordertop"> </div>
       <header id="header">
         <h1>
           <a href="<?php echo $pot->baseHref.'?'.$pot->qsa(); ?>">OBVIL, corpus critique</a>
