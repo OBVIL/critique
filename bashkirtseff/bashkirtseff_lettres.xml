@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="../../../lib/teibook/teibook.css"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bashkirtseff_lettres" xml:lang="fr">
+  <!--
+    VJ
+    * très bien
+    * @resp OK
+    * la correspondance n’est pas encodée mais bien présentée
+  -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -12,27 +18,28 @@
       <editionStmt>
         <edition> OBVIL</edition>
         <respStmt>
-          <resp>édition électronique</resp><name>Marie Millet</name>
-         
+          <resp>édition électronique</resp>
+          <name>Marie Millet</name>
         </respStmt>
-      
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="82" unit="page"/>
-        <measure quantity="1673" unit="paragraph"/>
-        <measure quantity="40393" unit="word"/>
-        <measure quantity="232469" unit="character"/>
-      </extent>
       <publicationStmt>
         <publisher> ?</publisher>
         <date when="2013"/>
-        <idno> ?</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bashkirtseff_lettres.xml</idno>
         <availability status="restricted">
           <licence target=" ? ">License ?</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl> <author>Marie Bashkirtseff</author>, <title>Lettres de Marie Bashkirtseff </title>, <edition>1</edition>, <pubPlace>11, RUE DE GRENELLE, PARIS (7e)</pubPlace>, <publisher>BIBLIOTHÈQUE-CHARPENTIER, FASQUELLE ÉDITEURS</publisher>, <date>1891</date></bibl>
+        <bibl><author>Marie Bashkirtseff</author>, <title>Lettres de Marie Bashkirtseff </title>, <edition>1</edition>, <pubPlace>11, RUE DE GRENELLE, PARIS (7e)</pubPlace>, <publisher>BIBLIOTHÈQUE-CHARPENTIER, FASQUELLE ÉDITEURS</publisher>, <date>1891</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -49,7 +56,6 @@
       <titlePage>
         <titlePart rend="uc">Lettres</titlePart>
         <docAuthor rend="uc">de Marie Bashkirtseff</docAuthor>
-        
         <docImprint><hi rend="uc">Bibliothèque-Charpentier, Fasquelle éditeurs</hi>
           <lb/><hi rend='uc'>11, rue de Grenelle, Paris(7e)</hi>
           <lb/> Avec quatre Portraits, 
@@ -64,7 +70,7 @@
     </front>
     <body>
       <div>
-        <head><lb/>Préface de François Coppée<note resp="editor" place="bottom">Cette préface a paru en tête du catalogue des œuvres de Marie Bashkirtseff, lors de l’exposition qui fut faite en 1885. L'auteur a bien voulu nous permettre de reproduire ici ces pages intéressantes et difficiles à retrouver.</note></head>
+        <head>Préface de François Coppée<note resp="editor">Cette préface a paru en tête du catalogue des œuvres de Marie Bashkirtseff, lors de l’exposition qui fut faite en 1885. L'auteur a bien voulu nous permettre de reproduire ici ces pages intéressantes et difficiles à retrouver.</note></head>
         <p>L'été dernier, j’allai saluer une dame russe de mes amies, de passage à Paris, à qui Mme Bashkirtseff donnait l’hospitalité dans son hôtel de la rue Ampere.</p>
         <p>Je trouvai là une compagnie très sympathique: rien que des dames et des jeunes filles, toutes parlant à merveille le français, avec ce peu d’accent qui donne à notre langue, dans la bouche des Russes, on ne sait quelle gracieuse mollesse.</p>
         <p>L'accueil que je reçus fut cordial dans cet aimable milieu, où tout respirait le bonheur. Mais, à peine assis non loin du samovar, une tasse de thé à la main, je tombai en arrêt d’admiration devant un grand portrait, celui d’une des jeunes filles présentes, portrait d’une ressemblance parfaite, librement et largement traité, avec la fougue de pinceau d’un maître.</p>
@@ -87,8 +93,10 @@
         <p>Que dire, surtout, à la mère, dont le désespoir fait mal et fait peur ? À peine ose-t-on la supplier, en lui montrant le Ciel, de détourner ses regards de l’impassible nature, qui ne livre à personne le mystère de ses lois et ne dit même pas si elle a besoin du génie naissant d’une jeune fille pour augmenter l’éclat et la pureté d’une étoile.</p>
         <byline>
           <docAuthor>François Coppée.</docAuthor>
-          <date rend="i">Paris, 9 février 1885.</date>
         </byline>
+        <dateline>
+          <docDate when="1885-02-09">Paris, 9 février 1885.</docDate>
+        </dateline>
       </div>
       <div>
         <head>Lettres de Marie Bashkertseff</head>
@@ -96,7 +104,7 @@
           <head>1868-1874</head>
           <div>
             <head>À sa tante.</head>
-            <p>30 juillet 1868<note resp="editor" place="bottom">Marie Bashkirtseff n’avait pas encore huit ans. Elle est née le 11 novembre 1860.</note></p>
+            <p>30 juillet 1868<note resp="editor">Marie Bashkirtseff n’avait pas encore huit ans. Elle est née le 11 novembre 1860.</note></p>
             <p>Très chère tante Sophie,</p>
             <p>Comment allez-vous, ainsi que l’oncle ? Hier, nous avions des tableaux vivants: le premier tableau représentait les quatre saisons: Dina représentait l’Hiver; moi, le Printemps; Sophie Kavérine, l’Automne; Mlle Élise l’Été. Dans le second tableau prenaient part Dina et Catherine, sœur de Sophie. Dina représentait la Psyché regardant l’Amour endormi, et Catherine, l’Amour. Dina avait les cheveux épars; c’était très joli. Dans le troisième tableau, moi et Paul: j’étais la Déesse des fleurs et Paul le Dieu des fruits. Dans le quatrième tableau, Dina seule en Naïade, robe blanche, assise dans le jonc; dans les mains et sous les pieds elle avait l’herbe des rivières et le jonc, toute la robe parsemée de perles en cristal blanc, qui ressemblaient beaucoup aux gouttes d’eau, avec les cheveux épars, sur les cheveux parsemés des perles en cristal. Venez chez nous, à Tcherniakovka; vous nous manquez. Tout le monde va bien et tout le monde vous embrasse.</p>
             <signed>Votre nièce,<lb/>Moussia Bashkirtseff.</signed>
@@ -140,13 +148,11 @@
           </div>
         </div>
         <div>
-          <head>
-            <num>1875</num>
-          </head>
+          <head>1875</head>
           <div>
             <head>À Mademoiselle Colignon</head>
-            <p>Chère amie,<note resp="editor" place="bottom">Mademoiselle Colignon, son institutrice.</note></p>
-            <p>Quel affreux voyage !<note resp="editor" place="bottom">Marie Bashkirtseff faisait alors son premier voyage à Schlangenbad.</note> À Vinenbruck nous descendons et allons vingt minutes à pied; à une heure et demie nous arrivons: quelques maisons entre deux montagnes. On ne se fera jamais idée du calme profond, qui règne en cet endroit. Il me semble, que dans une tombe c’est plus animé. Ma mère est radieuse, je suis enchantée de la revoir. Je raconte tout ce qui s’est passé depuis le départ. Une fois tout cela raconté, je m’ennuie, pas une âme intéressante. Je chante et ma voix produit son effet habituel. Ici, on se promène sans chapeau, on parle à tout le monde; <hi rend="i">requiem delectabile</hi>. Campagne, plus campagne qu’en Russie, tristesse, détestation ! ...</p>
+            <p>Chère amie,<note resp="editor">Mademoiselle Colignon, son institutrice.</note></p>
+            <p>Quel affreux voyage !<note resp="editor">Marie Bashkirtseff faisait alors son premier voyage à Schlangenbad.</note> À Vinenbruck nous descendons et allons vingt minutes à pied; à une heure et demie nous arrivons: quelques maisons entre deux montagnes. On ne se fera jamais idée du calme profond, qui règne en cet endroit. Il me semble, que dans une tombe c’est plus animé. Ma mère est radieuse, je suis enchantée de la revoir. Je raconte tout ce qui s’est passé depuis le départ. Une fois tout cela raconté, je m’ennuie, pas une âme intéressante. Je chante et ma voix produit son effet habituel. Ici, on se promène sans chapeau, on parle à tout le monde; <hi rend="i">requiem delectabile</hi>. Campagne, plus campagne qu’en Russie, tristesse, détestation ! ...</p>
             <p>Quand je pense (et j’y pense souvent) qu’on ne vit qu’une fois, je me reproche de passer mon temps dans ce pays de saucissons.</p>
             <p>Un chapeau de feutre noir d’une façon ravissante, une robe de drap bleu presque noir, tout unie, bien tirée sur les hanches et à petite traîne, mais la traîne est retroussée sur le côté, comme un habit de cheval, souliers de peau jaune à boucles, figure fraîche, port royal (comme dit maman) , démarche gracieuse. Dina s’écrie en me voyant descendre: je ne te reconnais pas, tu as l’air d’un tableau ancien. Je prie Dina de me conduire par la ville; ce n’est pas une ville, mais comme le parc d’un château. L'endroit est ravissant et à chaque pas on voit des montées se perdant dans la verdure, des balcons à balustrades, des ponts rustiques, des montagnes, des plaines, charmants en vérité. Mais sur les balustrades personne n’est appuyé, les allées sont désertes, les escaliers, poétiques et pittoresques, vides. Je me plains tout haut en admirant ces belles choses. Voilà, ma chère. Par exemple, je dis que je m’ennuie et j’entends quelqu’un derrière moi; je me retourne; c’est une personne qui pense ce que je viens de dire, on se parle, et voilà ! .... Eh ! bien, s’écrie-t-elle, retourne-toi donc vite ! .... Je me retourne et je vois.... Un cochon blanc et rose, qu’on conduit en laisse.... À sept heures nous descendons dans la laiterie, c’est charmant.</p>
             <p>On monte, on descend par un chemin adorable. Schlangenbad est un jardin ravissant; pas de places, pas de rues, çà et là des maisonnettes propres et simples. Je parle à peine allemand, je parle une nouvelle langue en ajoutant <hi rend="i">irt</hi> à tous les mots français. Tout le monde rit et parle comme moi. Maman me présente à la princesse M... Je me plains de l’ennui, la princesse m’offre un attaché militaire russe qui est ici, et dont je ne sais pas le nom.</p>
@@ -211,7 +217,7 @@
             </list>
             <p>Je voulais dire que je ne l’ai jamais été. Mais pourquoi désillusionner les gens ? ... (Il a encore trois ans pour finir ses études.) Il fait de la tête des signes et balbutie quelque chose qui veut dire: Oh, sans doute, non, je n’ose pas croire autrement.—Mais, ai-je continué, je suis votre amie.</p>
             <p>Entre ma tante, et j’éclate de rire en voyant sa figure surprise, souriante et en même temps sévère. Elle a fait une tête de circonstance, mais à l’instant Remy se retourne et la face change. Ah ! ah ! ah ! je suis enchantée de la surprise.</p>
-            <p>Au Bois<note resp="editor" place="bottom">La fin de cette lettre se retrouve dans le journal de Marie Bashkirtseff (page 65) , avec quelques variantes.</note>, il y a tant de Niçois, qu’un moment il m’a semblé être à Nice.</p>
+            <p>Au Bois<note resp="editor">La fin de cette lettre se retrouve dans le journal de Marie Bashkirtseff (page 65) , avec quelques variantes.</note>, il y a tant de Niçois, qu’un moment il m’a semblé être à Nice.</p>
             <p>C'est septembre, et c’est si beau Nice en septembre; je me souviens de l’année dernière, de mes promenades matinales avec mes chiens, de ce ciel si pur, de cette mer si argentée. Ici il n’y a ni matin, ni soir; le matin on balaie; le soir, ces innombrables lanternes m’agacent. Je me perds ici, je ne sais distinguer le levant du couchant, tandis que là, on se trouve si bien ! On est comme dans un nid, entouré par des montagnes, ni trop hautes, ni trop arides. On est de trois côtés protégé comme par un manteau de Laferrière, gracieux et commode et, devant soi, on a une fenêtre immense, un horizon infini, toujours le même et toujours nouveau. Oh ! j’aime Nice.—Nice, c’est ma patrie, Nice m’a fait grandir,</p>
             <p>Nice m’a donné la santé, les fraîches couleurs.—C'est si beau: on se lève avec le jour et on voit paraître le soleil, là-bas, à gauche, derrière les montagnes qui se détachent en vigueur sur le ciel bleu argent et si vaporeux et doux qu’on étouffe de joie. Vers midi, il est en face de moi, il fait chaud, mais l’air n’est pas chaud, il y a cette incomparable brise, qui rafraîchit toujours. Tout semble endormi. Il n’y a pas une âme sur la promenade, sauf deux ou trois vieux Niçois endormis sur les bancs. Alors je suis seule, alors je respire, j’admire, je suffoque. Qu'est-ce que je te raconte là ? des choses que tu connais, mais comme je suis en train, je continue.</p>
             <p>Et le soir, encore le ciel, la mer, les montagnes. Le soir, c’est tout noir ou gros bleu. Et quand la lune éclaire ce chemin immense dans la mer, qui semble être un poisson aux écailles de diamants et que je suis à ma fenêtre, tranquille, seule, je ne demande rien et je me prosterne devant Dieu ! ... Oh, non ! Tu ne comprends pas ce que je veux dire, tu ne comprendras pas, parce que tu n’as pas éprouvé cela. Non, ce n’est pas cela, c’est que je suis désespérée toutes les fois que je veux faire comprendre ce que je sens ! ! C'est comme dans un cauchemar, quand on n’a pas la force de crier !</p>
@@ -235,33 +241,35 @@
           <div>
             <head>À la même.</head>
             <head>Épitre à ma tante pour obtenir de l’argent.</head>
-            <l n="1" xml:id="l1"><lb/>La plus grande des trois Grâces</l>
-            <l n="2" xml:id="l2">Se trouve dans cent disgrâces !</l>
-            <l n="3" xml:id="l3">Si, comme c’est probable,</l>
-            <l n="4" xml:id="l4">Votre âme charitable</l>
-            <l n="5" xml:id="l5">De grandes choses capable</l>
-            <l n="6" xml:id="l6">Entend ma voix lamentable,</l>
-            <l n="7" xml:id="l7">Elle soulagera ma peine.</l>
-            <l n="8" xml:id="l8">Et soyez bien certaine,</l>
-            <l n="9" xml:id="l9">Que lorsque reine je serai,</l>
-            <l n="10" xml:id="l10">Jusqu’au dernier franc vous rendrai</l>
-            <l n="11" xml:id="l11">Avec de beaux intérêts.</l>
-            <l n="12" xml:id="l12">Mon âme poétique</l>
-            <l n="13" xml:id="l13">Et mon cœur magnifique</l>
-            <l n="14" xml:id="l14">Se dessèchent comme pastel</l>
-            <l n="15" xml:id="l15">Dans ce petit hôtel.</l>
-            <l n="16" xml:id="l16">Tous les soirs vers six heures,</l>
-            <l n="17" xml:id="l17">Pour me bien réjouir</l>
-            <l n="18" xml:id="l18">Dans ce Bois plein de fleurs</l>
-            <l n="19" xml:id="l19">Il me faut sortir.</l>
-            <l n="20" xml:id="l20">Il me faut pour cela</l>
-            <l n="21" xml:id="l21">Voiture et toilette:</l>
-            <l n="22" xml:id="l22">Comment le puis-je, hélas !</l>
-            <l n="23" xml:id="l23">Quand est vide la cassette.</l>
-            <l n="24" xml:id="l24">Lorsque reine je serai,</l>
-            <l n="25" xml:id="l25">Tout, tout vous rendrai,</l>
-            <l n="26" xml:id="l26">Mais, en attendant,</l>
-            <l n="27" xml:id="l27">Envoyez-moi l’argent.</l>
+            <lg>
+              <l n="1" xml:id="l1">La plus grande des trois Grâces</l>
+              <l n="2" xml:id="l2">Se trouve dans cent disgrâces !</l>
+              <l n="3" xml:id="l3">Si, comme c’est probable,</l>
+              <l n="4" xml:id="l4">Votre âme charitable</l>
+              <l n="5" xml:id="l5">De grandes choses capable</l>
+              <l n="6" xml:id="l6">Entend ma voix lamentable,</l>
+              <l n="7" xml:id="l7">Elle soulagera ma peine.</l>
+              <l n="8" xml:id="l8">Et soyez bien certaine,</l>
+              <l n="9" xml:id="l9">Que lorsque reine je serai,</l>
+              <l n="10" xml:id="l10">Jusqu’au dernier franc vous rendrai</l>
+              <l n="11" xml:id="l11">Avec de beaux intérêts.</l>
+              <l n="12" xml:id="l12">Mon âme poétique</l>
+              <l n="13" xml:id="l13">Et mon cœur magnifique</l>
+              <l n="14" xml:id="l14">Se dessèchent comme pastel</l>
+              <l n="15" xml:id="l15">Dans ce petit hôtel.</l>
+              <l n="16" xml:id="l16">Tous les soirs vers six heures,</l>
+              <l n="17" xml:id="l17">Pour me bien réjouir</l>
+              <l n="18" xml:id="l18">Dans ce Bois plein de fleurs</l>
+              <l n="19" xml:id="l19">Il me faut sortir.</l>
+              <l n="20" xml:id="l20">Il me faut pour cela</l>
+              <l n="21" xml:id="l21">Voiture et toilette:</l>
+              <l n="22" xml:id="l22">Comment le puis-je, hélas !</l>
+              <l n="23" xml:id="l23">Quand est vide la cassette.</l>
+              <l n="24" xml:id="l24">Lorsque reine je serai,</l>
+              <l n="25" xml:id="l25">Tout, tout vous rendrai,</l>
+              <l n="26" xml:id="l26">Mais, en attendant,</l>
+              <l n="27" xml:id="l27">Envoyez-moi l’argent.</l>
+            </lg>
           </div>
           <div>
             <head>À la même.</head>
@@ -328,9 +336,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1876
-          </head>
+          <head>1876</head>
           <div>
             <head>À sa tante.</head>
             <p>Hôtel de Londres, à Rome, Place d’Espagne, 
@@ -396,7 +402,7 @@
           <div>
             <head>À Mademoiselle Colignon.</head>
             <p>13 juin 1876.</p>
-            <p>Chère amie<note resp="editor" place="bottom">Voir dans le journal de Marie Bashkirtseff, page 194, un fragment qui reproduit une partie des idées exprimées dans cette lettre.</note>,</p>
+            <p>Chère amie<note resp="editor">Voir dans le journal de Marie Bashkirtseff, page 194, un fragment qui reproduit une partie des idées exprimées dans cette lettre.</note>,</p>
             <p>Moi qui voulais vivre sept existences à la fois, je n’en ai pas le quart d’une. Je suis enchaînée. Dieu aura pitié de moi, mais je me sens faible et il me semble que je vais mourir.—C'est comme je l’ai dit: ou je veux avoir tout ce que Dieu m’a permis d’entrevoir et de comprendre, alors c’est que je serai digne de l’avoir, ou je mourrai ! —Car Dieu ne pouvant sans injustice tout m’accorder, n’aura pas la cruauté de faire vivre une malheureuse, à laquelle il a donné la compréhension et l’ambition de ce qu’elle conçoit.</p>
             <p>Dieu ne m’a pas faite telle que je suis sans dessein. Il ne peut m’avoir donné la faculté de <hi rend="i">tout voir</hi> pour me tourmenter en ne me donnant rien. Cette supposition ne s’accorde pas avec la nature de Dieu qui est un être de bonté et de miséricorde.</p>
             <p>J'aurai ou je mourrai.—Celui qui a peur et va au danger est plus brave que celui qui n’a pas peur. Et plus on a peur, plus on a de mérite.</p>
@@ -413,7 +419,7 @@
           <div>
             <head>À sa mère.</head>
             <p>3 juillet 1876.</p>
-            <p>Chère maman<note resp="editor" place="bottom">Voir le journal de Marie Bashkirtseff, pages 208 et 309. Les mêmes idées s’y trouvent répétées et souventtextuellement reproduites.</note>,</p>
+            <p>Chère maman<note resp="editor">Voir le journal de Marie Bashkirtseff, pages 208 et 309. Les mêmes idées s’y trouvent répétées et souventtextuellement reproduites.</note>,</p>
             <p>Que suis-je ? Rien. Que voudrais-je être ? Tout !</p>
             <p>Reposons mon esprit fatigué par tous ces bonds vers l’infini, et revenons à A... Et encore cela ! un enfant, un misérable.</p>
             <p>Non, le principal c’est que je laisse à la maison mon journal ! J'emporte la lettre de Piétro avec moi, je vais te dire pourquoi. Je viens de la relire. Il est malheureux ! Aussi pourquoi n’a-t-il pas plus d’énergie que ça ! J'en parle bien à mon aise, moi, dans ma position exceptionnellement despotique (car tu me gâtes beaucoup) , mais lui ! Et ces Romains, c’est quelque chose d’inouï. Pauvre Piétro !</p>
@@ -479,9 +485,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1877
-          </head>
+          <head>1877</head>
           <div>
             <head>À Madame H.</head>
             <p>Naples, 2 avril 1877.</p>
@@ -519,7 +523,7 @@
           </div>
           <div>
             <head>À Monsieur ***.</head>
-            <p>Au fait pourquoi ces deux grands amis sont-ils en froid ? Je pensais que la corde qui les lie sur mon tableau était solide<note resp="editor" place="bottom">Allusion au croquis de Marie Bashkirtseff représentant les deux amis attachés par le cou aux deux extrémités d’une même corde, au milieu de laquelle est pendu un cœur.</note>.</p>
+            <p>Au fait pourquoi ces deux grands amis sont-ils en froid ? Je pensais que la corde qui les lie sur mon tableau était solide<note resp="editor">Allusion au croquis de Marie Bashkirtseff représentant les deux amis attachés par le cou aux deux extrémités d’une même corde, au milieu de laquelle est pendu un cœur.</note>.</p>
             <p>Ma cure d’Enghien, où l’on me mène tous les jours de huit heures du matin à une heure après-midi, me fatigue énormément. Et puis, je déteste Paris ! c’est un bazar, un café, un tripot où l’on ne peut respirer que lorsqu’on est installé depuis un mois dans un hôtel entre cour et jardin. La fenêtre fermée on étouffe, ouvrez-la et vous êtes assourdi par le vacarme des voitures.</p>
             <p>Ma malheureuse mandoline ne rend que des sons plaintifs; d’ailleurs tous les instruments à cordes rappellent un tas de choses touchantes.</p>
             <p>Alors ce bon M... ne dit pas de mal de moi ? ... voyez-vous l’excellent jeune homme !</p>
@@ -539,7 +543,7 @@
             <head>À Monsieur de M***.</head>
             <p>Schlangenbad.—Badehaus, 1877.</p>
             <p>Cette photographie est si jolie que je ne puis résister au désir de vous montrer envers quelle charmante personne vous manquez d’amabilité. Et moi qui aux Enfers vous avais assigné une place parmi les <hi rend="i">Sospesi</hi>, où se trouvent Virgile et tous ceux qui ne peuvent aller en Paradis malgré leurs vertus, mais qu’on ne peut pas non plus envoyer aux enfers et qui sont en suspens entre les deux ! Vous méritez d’être auprès de Lucifer lui-même, au fond.</p>
-            <p>Est-ce que vous seriez fâché pour la <hi rend="i">trinité</hi> ? Non, n’est-ce pas<note resp="editor" place="bottom">Allusion au dessin placé en tête de la lettre précédente.</note>.</p>
+            <p>Est-ce que vous seriez fâché pour la <hi rend="i">trinité</hi> ? Non, n’est-ce pas<note resp="editor">Allusion au dessin placé en tête de la lettre précédente.</note>.</p>
             <p><hi rend="i">P.S.</hi>—Si vous connaissez des malades de nerfs, envoyez-les ici, maman éprouve un grand soulagement des eaux de Schlangenbad.</p>
           </div>
           <div>
@@ -575,9 +579,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1878
-          </head>
+          <head>1878</head>
           <div>
             <head>À Monsieur de M...</head>
             <p>Paris, avenue de l’Alma, n° 67.</p>
@@ -627,7 +629,7 @@
             <head>À sa mère.</head>
             <p>Soden, 1er août 1878.</p>
             <p>Chère maman,</p>
-            <p>Donnez-moi d’abord des nouvelles de la santé du grand-père<note resp="editor" place="bottom">Son grand-père était atteint de paralysie.</note>; et puis voilà: à force d’être ennuyeux, Soden devient drôle. Je te veux tout raconter. Un des ménages chics de Pétersbourg entre dans notre société ainsi que le vieux prince Ouroussoff dont la sœur, mariée à M. Maltzoff, est l’amie intime de notre Impératrice, tu le sais bien. Les dames russes de notre société pensent que l’indifférence des deux petits princes allemands, dont je t’ai déjà parlé, me froisse.—Cette enfant gâtée, —dit Mme A., —qui est habituée à voir exécuter ses moindres caprices, est froissée de la froideur, apparente d’ailleurs, de ces Messieurs.</p>
+            <p>Donnez-moi d’abord des nouvelles de la santé du grand-père<note resp="editor">Son grand-père était atteint de paralysie.</note>; et puis voilà: à force d’être ennuyeux, Soden devient drôle. Je te veux tout raconter. Un des ménages chics de Pétersbourg entre dans notre société ainsi que le vieux prince Ouroussoff dont la sœur, mariée à M. Maltzoff, est l’amie intime de notre Impératrice, tu le sais bien. Les dames russes de notre société pensent que l’indifférence des deux petits princes allemands, dont je t’ai déjà parlé, me froisse.—Cette enfant gâtée, —dit Mme A., —qui est habituée à voir exécuter ses moindres caprices, est froissée de la froideur, apparente d’ailleurs, de ces Messieurs.</p>
             <p>C'est moi qui n’y songe pas, va, chère maman; je ris seulement en songeant à quel point à Soden et ailleurs les gens vous prêtent des sentiments, des impressions, des pensées, que vous n’avez pas du tout. Pendant deux jours en effet, je m’en suis un peu occupée de ces petits princes, après, plus du tout... Mais puisque les autres en parlent, je veux bien t’avouer que je ne les ai jamais bien regardés. Pourtant je peux te dire que le plus jeune (dix-huit ans) , Hans, est grand, mince, blond, grand nez assez fin, petits yeux, bouche malicieuse, pas de moustaches, tête baissée, l’air d’un jeune loup.</p>
             <p>L'autre Auguste (vingt-quatre à vingt-cinq ans) , plus petit, brun, des yeux très beaux, une petite moustache noire pendante, —et dans toute sa personne il y a quelque chose de pendant—une peau veloutée comme je ne crois pas en avoir vu chez un homme, une belle bouche, un nez régulier, ni rond, ni pointu, ni aquilin, ni classique, un nez dont la peau est aussi veloutée, ce qui est excessivement rare, un teint très pâle, qui serait admirable, s’il ne provenait de la maladie. Tous les deux ont de belles mains aristocratiques et soignées.</p>
             <p>Qu'est-ce donc lorsque je regarde bien ! ...</p>
@@ -651,16 +653,14 @@
             <p>Soden, 6 août 1878.</p>
             <p>Chère maman,</p>
             <p>Je vais te raconter mes enfantillages: ce matin je me suis promenée et je suis entrée dans l’église catholique; j’ai profité de la solitude absolue pour monter dans la chaire, dans le chœur, sur l’autel, et pour réciter les prières posées sur les tablettes de l’autel; je l’ai fait pour prier, parce que j’ai un tas de projets et que j’ai besoin de l’assistance du ciel... Mais l’idée que j’ai lu une messe me transporte. Songez, j’ai sonné comme font les prêtres durant l’office... Enfin je n’ai pas eu de mauvaise intention.</p>
-            <p>J'ai fait une longue conversation avec le prince Ouroussoff; tout à coup le prince me dit: Voici les Ganz.—Tu te rappelles que j’ai donné le nom de Ganz aux deux princes allemands. Tu comprends qu’on ne peut pas rester tranquille, quand cet homme sérieux, cet homme d’État s’interrompt au milieu d’une explication des causes intimes de la guerre, vous dit comme une chose toute naturelle que... <hi rend="i">Voilà les Ganz</hi>. Le mot ganz me fait penser à l’allemand (<hi rend="i">Gans</hi>)<note resp="editor" place="bottom">Gans, oie.</note>.</p>
+            <p>J'ai fait une longue conversation avec le prince Ouroussoff; tout à coup le prince me dit: Voici les Ganz.—Tu te rappelles que j’ai donné le nom de Ganz aux deux princes allemands. Tu comprends qu’on ne peut pas rester tranquille, quand cet homme sérieux, cet homme d’État s’interrompt au milieu d’une explication des causes intimes de la guerre, vous dit comme une chose toute naturelle que... <hi rend="i">Voilà les Ganz</hi>. Le mot ganz me fait penser à l’allemand (<hi rend="i">Gans</hi>)<note resp="editor">Gans, oie.</note>.</p>
             <p>J'ai fait une pochade de ces princes (comme à Nice) si ressemblante, que le garçon qui venait apporter un plateau s’arrêta net devant la toile, se mit à rire et à gesticuler d’un air si bête, que vraiment ma vanité d’artiste est flattée.</p>
             <p>Puis est venue Mme A. Nous nous sommes tenues à la fenêtre qui est notre balcon. Ganz passait à chaque instant pour regarder, Mme A. faisait la coquette et riait d’un air mauvais genre. Comme c’est bête, que je ne puisse vous faire partager ma gaieté au sujet des Ganz.</p>
             <p>Au revoir, je vous embrasse.</p>
           </div>
         </div>
         <div>
-          <head>
-            1879
-          </head>
+          <head>1879</head>
           <div>
             <head>À M.***</head>
             <p>Paris, 63, avenue de l’Alma.</p>
@@ -702,7 +702,7 @@
           </div>
           <div>
             <head>À son frère.</head>
-            <p>Paris, mercredi, 10 décembre 1879<note resp="editor" place="bottom">Une partie de cette lettre se trouve reproduite dans le journal de Marie Bashkirtseff (pages 159 et 160 du tome II) .</note>.</p>
+            <p>Paris, mercredi, 10 décembre 1879<note resp="editor">Une partie de cette lettre se trouve reproduite dans le journal de Marie Bashkirtseff (pages 159 et 160 du tome II) .</note>.</p>
             <p>Cher Paul,</p>
             <p>Nous sommes allées voir le Père Didon au couvent des Dominicains.</p>
             <p>Ai-je besoin de te dire que le Père Didon est le prédicateur dont la gloire grandit à vue d’œil depuis deux ans et dont en ce moment tout Paris s’occupe. Il était prévenu; aussitôt que nous arrivons, on va l’appeler et nous l’attendons dans une des sortes de stalles-cellules de réception, toute vitrée, avec une table, trois chaises et un bon petit poêle. J'avais déjà vu son portrait hier, et je savais qu’il a des yeux splendides (beauté qui manque à L. P.) . Il arrive, très aimable, très homme du monde, très beau avec sa belle robe de laine blanche, qui me rappelle les robes que je porte à la maison. Sans la tonsure, ce serait une tête dans le genre de celle de P. de C., mais plus éclairée, les yeux plus francs, l’attitude plus naturelle, quoique très haute; un visage qui commence à devenir épais et qui a le même quelque chose de désagréablement de travers dans la bouche que C. Mais une grande distinction, pas de charme outré de créole, un teint mat, un beau front, la tête haute, les mains adorablement blanches et belles, un air gai et même autant que possible bon garçon. On voudrait lui voir une moustache. Beaucoup d’esprit, malgré un grand aplomb. On voit tellement qu’il mesure toute l’étendue de sa vogue, qu’il est habitué aux adorations, et qu’il est sincèrement heureux du bruit qui se fait autour de lui !</p>
@@ -718,9 +718,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1880
-          </head>
+          <head>1880</head>
           <div>
             <head>À M.***</head>
             <p>Paris, samedi, 3 juillet.</p>
@@ -853,13 +851,11 @@
           </div>
         </div>
         <div>
-          <head>
-            1881
-          </head>
+          <head>1881</head>
           <div>
             <head>À Monsieur X...</head>
             <p>Monsieur,</p>
-            <p>Voici un plan<note resp="editor" place="bottom">Le livre original comporte le plan à la page 139.</note> avec le nord bien indiqué<note resp="editor" place="bottom">Il s’agit ici d’un hôtel qu’on avait le projet de construire à Paris avenue Kléber. Il ne fut pas donné suite à ce projet.</note>. Maintenant voici mes idées à moi pour que vous sachiez dans quel sens marcher. L'atelier aurait la hauteur de deux étages et aurait trois jours, plus un jour d’en haut. Au-dessous de l’atelier, un atelier aussi, mais de sculpture, au rez-de-chaussée.</p>
+            <p>Voici un plan<note resp="editor">Le livre original comporte le plan à la page 139.</note> avec le nord bien indiqué<note resp="editor">Il s’agit ici d’un hôtel qu’on avait le projet de construire à Paris avenue Kléber. Il ne fut pas donné suite à ce projet.</note>. Maintenant voici mes idées à moi pour que vous sachiez dans quel sens marcher. L'atelier aurait la hauteur de deux étages et aurait trois jours, plus un jour d’en haut. Au-dessous de l’atelier, un atelier aussi, mais de sculpture, au rez-de-chaussée.</p>
             <p>Vous comprenez, il n’y aurait pas de chambres habitables dans cette partie; du reste, je fais au crayon les divisions imaginées par moi; vous verrez si c’est pratique.</p>
             <p>Je voudrais que l’atelier communiquât avec les salons. Ainsi voilà, rez-de-chaussée: atelier de sculpture, et cuisines, etc., etc. Premier étage: salons et ateliers. Deuxième étage: chambres à coucher; combles pour les domestiques. Je vois qu’on peut me faire ma chambre et un cabinet de toilette au premier, et l’atelier restera encore assez grand, et ma chambre aura cinq mètres de largeur. Ou bien, si vous trouviez le moyen de donner à l’atelier une forme régulière ce serait parfait.</p>
             <p>Seulement ce à quoi je tiens, c’est que l’atelier vienne à la suite des salons et, pour économiser le terrain, on ferait la remise sous la salle à manger. Vous voyez que je trouve moyen d’avoir devant l’atelier un jardin, par lequel on entrera, car il faut aux ateliers une entrée à part. Au besoin, ma chambre et mon cabinet pourraient être au deuxième et je passerais à l’atelier par l’escalier intérieur.</p>
@@ -888,12 +884,12 @@
             <head>À son père.</head>
             <p>Août 1881.</p>
             <p>Cher père,</p>
-            <p>Après l’article du journal Jugeni Cray, il faut absolument que je fasse cette image. Aussi vous seriez bien aimable de faire des démarches nécessaires puisque je ne sais comment m’y prendre. En outre comme vous êtes un être intelligent, je m’en rapporte à vous pour me procurer tous les renseignements exacts. Par exemple, pour quelle partie de l’église<note resp="editor" place="bottom">Église construite en mémoire de l’empereur Alexandre II, à Saint-Pétersbourg, à la place où l’empereur a été tué.</note> serait l’image et sa grandeur, et sa forme, etc. Car je suppose que cela doit être approprié à la disposition des ornements intérieurs, et sans doute les principales images sont déjà commandées à des célébrités russes. Enfin tâchez de m’obtenir quelque chose d’important pour que j’aie de la satisfaction à le faire bien. J'aimerais que ce fût grandeur nature. Le Christ, par exemple, avec la figure de l’empereur: enfin je me mets à la disposition du comité (est-ce un comité ? ) pour telle image qu’on voudra.</p>
+            <p>Après l’article du journal Jugeni Cray, il faut absolument que je fasse cette image. Aussi vous seriez bien aimable de faire des démarches nécessaires puisque je ne sais comment m’y prendre. En outre comme vous êtes un être intelligent, je m’en rapporte à vous pour me procurer tous les renseignements exacts. Par exemple, pour quelle partie de l’église<note resp="editor">Église construite en mémoire de l’empereur Alexandre II, à Saint-Pétersbourg, à la place où l’empereur a été tué.</note> serait l’image et sa grandeur, et sa forme, etc. Car je suppose que cela doit être approprié à la disposition des ornements intérieurs, et sans doute les principales images sont déjà commandées à des célébrités russes. Enfin tâchez de m’obtenir quelque chose d’important pour que j’aie de la satisfaction à le faire bien. J'aimerais que ce fût grandeur nature. Le Christ, par exemple, avec la figure de l’empereur: enfin je me mets à la disposition du comité (est-ce un comité ? ) pour telle image qu’on voudra.</p>
             <p>Seulement, s’il faut que je sois l’esclave d’une certaine dimension ou d’un certain sujet, il faut que je le sache au plus vite, afin de penser à mon sujet et de m’y mettre.</p>
             <p>En un mot, vous arrangerez cela très bien, j’en suis sûre.</p>
-            <p>Je félicite et embrasse la princesse<note resp="editor" place="bottom">Sœur de son père.</note>. Au revoir.</p>
+            <p>Je félicite et embrasse la princesse<note resp="editor">Sœur de son père.</note>. Au revoir.</p>
             <p>Votre fille célèbre,</p>
-            <p>ANDREY<note resp="editor" place="bottom">Marie Bashkirtseff exposa pour la première fois au Salon de 1880 et signa son tableau: Marie, Constentin Russ—au salon suivant, en 1881, elle signa Andrey—nom qu’elle adopta souvent dans sa correspondance. Ce n’est qu’en 1883 qu’elle mit son nom véritable sur ses tableaux, alors qu’elle se sentait plus certaine du succès.</note>.</p>
+            <p>ANDREY<note resp="editor">Marie Bashkirtseff exposa pour la première fois au Salon de 1880 et signa son tableau: Marie, Constentin Russ—au salon suivant, en 1881, elle signa Andrey—nom qu’elle adopta souvent dans sa correspondance. Ce n’est qu’en 1883 qu’elle mit son nom véritable sur ses tableaux, alors qu’elle se sentait plus certaine du succès.</note>.</p>
           </div>
           <div>
             <head>À M. B...</head>
@@ -977,9 +973,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1882
-          </head>
+          <head>1882</head>
           <div>
             <head>À sa mère.</head>
             <p>Nice.
@@ -1050,7 +1044,7 @@
             <p>Que je ne sois ni arrivée, ni forte, que j’aie à travailler encore beaucoup, c’est évident; mais de là à venir me dire qu’il est survenu je ne sais quelle horrible catastrophe, que je ne fais plus rien, que je suis finie... Non.</p>
             <p>Ce que j’ai produit est insuffisant, mais enfin les toiles sont là et ce n’est pas le cuisinier du Café Anglais qui y a passé son temps. Comme <hi rend="i">résultat</hi> ça n’existe pas, mais ce sont des études aussi bien que n’importe quoi, et puis, vous qui avez de si beaux registres, consultez-les et vous verrez que je n’ai même pas eu le temps de parcourir toutes les phases de dégringolade parcourues par les personnes que vous me citez souvent.</p>
             <p>Abstraction faite de ma maladie, il y a trois ans que je peins. C'est énorme pour mon impatience, mais c’est ordinaire pour le sens commun. Ainsi, vous voyez bien, tout s’oppose, la chronologie aussi bien que mes goûts, à ce que j’accepte le rôle de vieille élève dévoyée dont vous voulez me gratifier.</p>
-            <p>Le premier de ce que vous nommez très perfidement mes tableaux a été fait en 1880, après dix-huit mois de peinture, dont douze mois seulement toute la journée. Le dernier, au printemps de 1882, en sortant de maladie et ayant la fièvre tous les dimanches au moins. Dans l’intervalle, j’ai exposé le très médiocre atelier (sans allusion)<note resp="editor" place="bottom"><hi rend="i">Un atelier</hi>, signé Andrey, tableau exposé au Salon, représentant l’atelier Julian.</note>, et au dire même de vos plus féroces demoiselles j’ai plutôt fait des progrès depuis. Ceci m’amène à cette niaiserie de la question d’exposition que vous avez l’air d’envisager comme une impossibilité. J'y paraîtrai peut-être aussi honorablement que miss K..., sinon il faudra revenir à la supposition de folie à la Greco.</p>
+            <p>Le premier de ce que vous nommez très perfidement mes tableaux a été fait en 1880, après dix-huit mois de peinture, dont douze mois seulement toute la journée. Le dernier, au printemps de 1882, en sortant de maladie et ayant la fièvre tous les dimanches au moins. Dans l’intervalle, j’ai exposé le très médiocre atelier (sans allusion)<note resp="editor"><hi rend="i">Un atelier</hi>, signé Andrey, tableau exposé au Salon, représentant l’atelier Julian.</note>, et au dire même de vos plus féroces demoiselles j’ai plutôt fait des progrès depuis. Ceci m’amène à cette niaiserie de la question d’exposition que vous avez l’air d’envisager comme une impossibilité. J'y paraîtrai peut-être aussi honorablement que miss K..., sinon il faudra revenir à la supposition de folie à la Greco.</p>
             <p>Plus j’y pense, plus il me semble que vous avez quelque inexplicable intérêt à m’anéantir; vous vous vautrez dans les découragements les plus raffinés, positivement.</p>
             <p>Je vois que vous ne vous rendez pas compte de ce qu’il y a de terrible, je dirai presque de criminel, à venir dire à quelqu’un d’enragé d’apprendre et de travailler: « Vous ! vous ne pouvez plus rien ! » C'est un assassinat moral, plus cruel que l’autre, car, chez vous, il est quotidien.</p>
             <p>Si vous le faites exprès, je me perds en conjectures. Affirmer avec acharnement que je ne ferai plus rien, c’est très grave et en somme... vous n’en savez rien. Il en résulte une paralysie de facultés et huit pages de littérature. À quoi cela vous avance-t-il ?</p>
@@ -1058,9 +1052,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1883
-          </head>
+          <head>1883</head>
           <div>
             <head>À mademoiselle ***.</head>
             <p>My dear little Alice,</p>
@@ -1081,7 +1073,7 @@
             <p>Je suis flattée de l’admiration de B...; vous la trouvez intelligente; elle l’est certainement; mais quand vous la connaîtrez mieux, vous verrez qu’elle paraît l’être tout d’abord plus qu’elle ne l’est réellement.</p>
             <p>En outre, elle n’est pas bonne, et avec toutes les apparences d’une brutale franchise, elle sait être fausse au besoin.</p>
             <p>Quant au talent, elle en a, mais pas tant qu’elle se l’imagine; de plus, elle est pleine de vanité allemande.</p>
-            <p>Maintenant <hi rend="i">l’éreintement est aussi complet que possible</hi><note resp="editor" place="bottom">Les mots en italique sont en français dans le texte anglais original.</note>. Ne croyez pas que je pense du mal d’elle, c’est simplement l’amour de l’analyse qui me fait regarder au fond de la nature des gens plus qu’il ne faudrait peut-être le faire. B... a <hi rend="i">des défauts, mais elle a aussi des qualités</hi>, malheureusement on ne peut pas en dire autant de beaucoup de monde.</p>
+            <p>Maintenant <hi rend="i">l’éreintement est aussi complet que possible</hi><note resp="editor">Les mots en italique sont en français dans le texte anglais original.</note>. Ne croyez pas que je pense du mal d’elle, c’est simplement l’amour de l’analyse qui me fait regarder au fond de la nature des gens plus qu’il ne faudrait peut-être le faire. B... a <hi rend="i">des défauts, mais elle a aussi des qualités</hi>, malheureusement on ne peut pas en dire autant de beaucoup de monde.</p>
             <p>Quant à la peinture <hi rend="i">canaille</hi>, il ne serait pourtant pas mauvais d’en faire, si le talent était là.</p>
             <p>Adieu; si vous voyez quelques tableaux avant le Salon, dites-moi ce que c’est. Je reste encore ici huit jours.</p>
             <p>Sincèrement à vous,</p>
@@ -1109,14 +1101,14 @@
             <p>30, rue Ampère. (Boulevard Malesherbes)</p>
             <p>My dear Alice,</p>
             <p>I am glad for you if you like Pont-Aven, only... you know I am not an admirer of the celebrated Britain because all the artists that go there bring back studies who all seem to come from the same shop... with the difference of qualities... first, second, third and eleventh... It is love. If one or two can do something of a fisherwoman, six hundred and seventy three produce...</p>
-            <p>Art is something more than the fashion to paint anything <hi rend="i">en plein air</hi>... Bastien himself thinks so<note resp="editor" place="bottom">Les mots en italique sont en français dans le texte anglais.</note>.</p>
+            <p>Art is something more than the fashion to paint anything <hi rend="i">en plein air</hi>... Bastien himself thinks so<note resp="editor">Les mots en italique sont en français dans le texte anglais.</note>.</p>
             <p>As to the brother's portrait it is not finished, we wait the return from the country of Miss F...</p>
             <p>Now, my <hi rend="i">grand tableau</hi> is a secret, of course. I am working at its preparation and write while the model reposes... it is not the preparation, as we say at Julian’s, I am only doing studies for it must not be done in an atelier;... well, I was going to tell the great secret...</p>
             <p>I am glad to hear Miss Webb does good things, she is nice;—<hi rend="i">mes très sincères amitiés</hi> to her and Miss B...</p>
             <p>You cannot imagine the <hi rend="i">scie</hi> that became my pastel; it is so very good every one speaks of it to my friends who come to me and say what they have heard. I am quite sorry it is not picture. Bastien says that it is art even if it were a mere fusain. M. Lefevre saw it, and M. Tony asked me to give it for his atelier, but it is a portrait and cannot be given like that; then he said he would pose himself.</p>
             <p><hi rend="i">Les orgues et les voix de femmes</hi> ! Remember Carolus painted by Sargent. Goodness, <hi rend="i">non sum dignus</hi> !</p>
             <p>Well now, <hi rend="i">plaisanterie à part</hi>, I am happy to be of the illustrious <hi rend="i">atelier de dames</hi>. Some... suppose few, were so wicked, and I feel unfortunately so deeply the antipathy ! one is enough to viciate the air of a whole room. I am sure now that I made few progress partly because I paid to much attention to those delightful <hi rend="i">voix de femmes</hi> whose judgements paralysed what I was to do; indeed, when I was painting there was always the thought that they disprized my work. It is very stupid I know, especially because they said of me what they said of artists whose shoes are to highborn to be blacked by them. Some sweet woman’s voices say Bastien is not an artist, but only, <hi rend="i">un exécutant</hi> !</p>
-            <p>Perhaps we shall go to Dieppe; if you are still there I will corne and see you; only I am afraid d’être conquise par cette Bretagne que je dédaigne, et de trop regretter de n’y avoir pas été pour travailler<note resp="editor" place="bottom">La fin de la lettre est en français, on la trouve à la suite de la traduction ci-dessous.</note>.....</p>
+            <p>Perhaps we shall go to Dieppe; if you are still there I will corne and see you; only I am afraid d’être conquise par cette Bretagne que je dédaigne, et de trop regretter de n’y avoir pas été pour travailler<note resp="editor">La fin de la lettre est en français, on la trouve à la suite de la traduction ci-dessous.</note>.....</p>
             <p>Traduction de la lettre précédente.</p>
             <p>Ma chère Alice,</p>
             <p>Je suis enchantée pour vous que vous aimiez Pont-Aven, seulement... vous savez que je ne suis pas une admiratrice de la célèbre Bretagne, parce que tous les artistes qui y vont rapportent des études qui ont toutes l’air de sortir du même atelier, avec des qualités différentes, première, deuxième, troisième et onzième... C'est délicieux. Si un ou deux arrivent à faire quelque chose d’une femme de pêcheur, six cent soixante-treize produisent...</p>
@@ -1126,7 +1118,7 @@
             <p>Je suis contente d’apprendre que miss Webb fait de bonnes choses; elle est charmante;—<hi rend="i">mes très sincères amitiés</hi> pour elle et miss B...</p>
             <p>Vous ne pouvez vous imaginer à quel état de <hi rend="i">scie</hi> passe pour moi mon pastel; il est si bien que tout le monde en parle à mes amis qui viennent me répéter ce qu’ils ont entendu dire. Je suis tout à fait navrée que ce ne soit pas de la peinture. Bastien dit que ce serait de l’<hi rend="i">art</hi>, même si c’était un simple fusain. M. Lefèvre l’a vu, et M. Tony m’a demandé de le lui donner pour mettre dans son atelier, mais c’est un portrait qui ne peut être donné ainsi; alors il m’a dit qu’il poserait lui-même.</p>
             <p><hi rend="i">Les orgues et les voix de femmes</hi> ! Souvenez-vous de Carolus peint par Sargent. Bonté divine ! <hi rend="i">non sum dignus</hi> !</p>
-            <p>Et bien maintenant, <hi rend="i">plaisanterie à part</hi>, je suis heureuse de quitter l’illustre <hi rend="i">atelier de dames</hi><note resp="editor" place="bottom">Marie Bashkirtseff quitta l’atelier à cette époque, mais elle y rentra quelques mois après.</note>. Quelques-unes, mettons peu si vous voulez, mais quelques-unes étaient si méchantes, et malheureusement je ressens si profondément l’antipathie ! une seule suffit pour vicier l’air de tout un atelier.</p>
+            <p>Et bien maintenant, <hi rend="i">plaisanterie à part</hi>, je suis heureuse de quitter l’illustre <hi rend="i">atelier de dames</hi><note resp="editor">Marie Bashkirtseff quitta l’atelier à cette époque, mais elle y rentra quelques mois après.</note>. Quelques-unes, mettons peu si vous voulez, mais quelques-unes étaient si méchantes, et malheureusement je ressens si profondément l’antipathie ! une seule suffit pour vicier l’air de tout un atelier.</p>
             <p>Je suis sûre maintenant qu’une des raisons pour lesquelles je faisais peu de progrès, c’est que je me préoccupais trop de ces délicieuses <hi rend="i">voix de femmes</hi> dont les jugements paralysaient mes efforts; en vérité, quand j’étais en train de peindre, j’avais toujours dans l’idée qu’elles déprisaient mon œuvre. C'est bien stupide, je le sais, surtout parce qu’elles disaient de moi ce qu’elles disaient des artistes dont les souliers sont trop nobles pour être cirés par elles. Quelques douces voix de femmes disent que Bastien n’est pas un artiste, mais seulement <hi rend="i">un exécutant</hi> !</p>
             <p>Peut-être irons-nous à Dieppe; si vous êtes encore là, j’irai vous voir, mais j’ai peur d’être conquise par cette Bretagne que je dédaigne, et de trop regretter de n’y avoir pas été pour travailler.</p>
             <p>Maintenant il faut que je m’arrête, autrement je vais m’engager dans une suite de considérations sur ce qu’il faut préférer, sur ce que je préfère, sur ce qu’il faut chercher...</p>
@@ -1148,12 +1140,8 @@
             <p>Au revoir. Je cesse car Coco et Prater recommencent leur sabat-stien.</p>
             <p>Marie-Chesse.</p>
           </div>
-          <div xml:id="footnotetag23">
-            <head>
-              <hi rend="b">À M. Alexandre D.</hi>
-              
-              <note resp="editor" place="bottom"><hi rend="i">(édition Gutenberg)</hi>: Le destinataire de cette lettre ainsi que de la suivante, était probablement Alexandre Dumas.</note>
-            </head>
+          <div>
+            <head>À M. Alexandre D.<note resp="editor"><hi rend="i">(édition Gutenberg)</hi>: Le destinataire de cette lettre ainsi que de la suivante, était probablement Alexandre Dumas.</note></head>
             <p>Monsieur,</p>
             <p>On me dit que comme toute divinité qui se respecte vous êtes entouré d’un nuage qui vous rend indifférent envers les habitants de la terre.</p>
             <p>Je n’en crois rien, car ce nuage n’est généralement que du brouillard qui se fait autour des esprits qui vieillissent et vous, Monsieur, vous ne pouvez pas vieillir.</p>
@@ -1182,7 +1170,7 @@
             <head>À Monsieur ***.</head>
             <p>Paris, 30, rue Ampère.</p>
             <p>Cher Maître,</p>
-            <p>Qu'est-ce que la peinture, même la plus belle, la plus grande, quand on a regardé l’Arlequin<note resp="editor" place="bottom"><hi rend="i">Arlequin</hi>, statue de Saint-Marceaux.</note> ? Misère, mièvrerie, tricherie, décadence !</p>
+            <p>Qu'est-ce que la peinture, même la plus belle, la plus grande, quand on a regardé l’Arlequin<note resp="editor"><hi rend="i">Arlequin</hi>, statue de Saint-Marceaux.</note> ? Misère, mièvrerie, tricherie, décadence !</p>
             <p>Où est le critique qui ait convenablement parlé de cette statue ? Où est l’écrivain de génie qui ait présenté à la masse cette œuvre étonnante ? Où est le Théophile Gautier qui va la divulguer, qui va initier le public en lui présentant cette œuvre extraordinaire dans son vrai jour. Il est très difficile par le temps qui court de parler avec justice d’un artiste vivant, et jeune. Et je ne crois pas qu’on ose mettre qui que ce soit au-dessus de... tout le monde.</p>
             <p>Du reste le public apprend à prononcer certains noms comme le résumé du génie humain: Phidias, Michel-Ange et Raphaël, puis d’autres plus rapprochés de nous, et il faut une autorité et surtout une indépendance introuvable pour proclamer ainsi la suprématie d’une œuvre contemporaine.</p>
             <p>L'<hi rend="i">Arlequin</hi> est non seulement d’une exécution sans rivale, mais c’est encore et surtout une œuvre de haute philosophie. Est-il donc possible que la grande masse n’en perçoive que la désinvolture, le métier, le talent ? Il est vrai que l’exécution seule en ferait au besoin un chef d’œuvre, mais la pensée et la portée que lui a donnée l’artiste en font une conception d’un ordre absolument élevé. C'est la plus haute expression du génie spirituel et satirique. C'est l’image la plus fine, la plus complète et la plus grandiose de l’esprit supérieur qui voit défiler devant lui les vices, les ridicules et les infamies de l’humanité. C'est d’une nervosité quintescenciée, qui est bien de notre époque. C'est fin, c’est profond, c’est formidable, c’est grandiose.</p>
@@ -1229,9 +1217,7 @@
           </div>
         </div>
         <div>
-          <head>
-            1884
-          </head>
+          <head>1884</head>
           <div>
             <head>À M. B...</head>
             <p>Mon cher B...,</p>
@@ -1253,7 +1239,7 @@
           </div>
           <div>
             <head>À la même.</head>
-            <p>Il faut, ma chère Claire, que vous me disiez au juste la provenance de <hi rend="i">Jonas</hi><note resp="editor" place="bottom">Voir ci-dessous la fantaisie à laquelle il est fait allusion ici. Les deux premiers vers sont de Mlle C..., les suivants sont de Marie Bashkirtseff.</note>. Ces deux vers m’ont tellement tourmentée que j’ai composé la suite, comme Michel-Ange a voulu faire des jambes au fameux torse antique. J'ai donc absolument besoin de savoir d’où vous tenez: <hi rend="i">Jonas assis dans sa baleine</hi>. Si c’est de vous, avouez-le franchement, car c’est très beau et à notre prochaine entrevue je vous dirai la suite, car elle est aussi très belle.</p>
+            <p>Il faut, ma chère Claire, que vous me disiez au juste la provenance de <hi rend="i">Jonas</hi><note resp="editor">Voir ci-dessous la fantaisie à laquelle il est fait allusion ici. Les deux premiers vers sont de Mlle C..., les suivants sont de Marie Bashkirtseff.</note>. Ces deux vers m’ont tellement tourmentée que j’ai composé la suite, comme Michel-Ange a voulu faire des jambes au fameux torse antique. J'ai donc absolument besoin de savoir d’où vous tenez: <hi rend="i">Jonas assis dans sa baleine</hi>. Si c’est de vous, avouez-le franchement, car c’est très beau et à notre prochaine entrevue je vous dirai la suite, car elle est aussi très belle.</p>
             <p>On a retrouvé mon modèle, mais j’ai des... Mystère et discrétion.</p>
             <p>« Travaillez, prenez de la peine... »</p>
             <p>Je voudrais déjà le voir ce tableau.</p>
@@ -1315,7 +1301,7 @@
           <div>
             <head>À Monsieur de M***.</head>
             <p>Monsieur,</p>
-            <p>Je vous lis presque avec bonheur<note resp="editor" place="bottom"><hi rend="i">(édition Gutenberg</hi>) : Il s’agit très probablement d’une lettre à Guy de Maupassant.</note>] . Vous adorez les vérités de la nature et vous y trouvez une poésie vraiment grande, tout en nous remuant par des détails de sentiments si profondément humains que nous nous y reconnaissons et vous aimons d’un amour égoïste. C'est une phrase ? ... Soyez indulgent, le fonds est sincère.</p>
+            <p>Je vous lis presque avec bonheur<note resp="editor"><hi rend="i">(édition Gutenberg</hi>) : Il s’agit très probablement d’une lettre à Guy de Maupassant.</note>] . Vous adorez les vérités de la nature et vous y trouvez une poésie vraiment grande, tout en nous remuant par des détails de sentiments si profondément humains que nous nous y reconnaissons et vous aimons d’un amour égoïste. C'est une phrase ? ... Soyez indulgent, le fonds est sincère.</p>
             <p>Il est évident que je voudrais vous dire des choses exquises et frappantes, mais c’est bien difficile, comme ça, tout de suite... Je le regrette d’autant plus que vous êtes assez remarquable pour qu’on rêve très romanesquement de devenir la confidente de votre belle âme, si toutefois votre âme est belle.</p>
             <p>Si votre âme n’est pas belle et si vous « ne donnez pas dans ces choses-là » , je le regrette pour vous d’abord, ensuite je vous qualifie de fabricant de littérature et passe !</p>
             <p>Voilà un an que je suis sur le point de vous écrire, mais... plusieurs fois j’ai cru que je vous exagérais et que ça ne valait pas la peine. Lorsque tout à coup, il y a deux jours, je lis dans le <hi rend="i">Gaulois</hi>, que quelqu’un vous a honoré d’une épître gracieuse et que vous demandez l’adresse de cette bonne personne pour lui répondre... Je suis devenue tout de suite très jalouse, vos mérites littéraires m’ont de nouveau éblouie et me voici.</p>
@@ -1364,7 +1350,7 @@
             <p>Oui, gourmande, ou plutôt difficile. L'oreille est petite, peu régulière mais jolie. Les yeux gris. Oui, musicienne, mais pas aussi pianiste que doit être votre sous-maîtresse de pensionnat.</p>
             <p>Êtes-vous satisfait de ma docilité ? Si oui, défaites encore un bouton et pensez à moi pendant que le crépuscule tombe. Si non... tant pis, je trouve qu’en voilà beaucoup en échange de vos fausses confidences.</p>
             <p>Oserai-je vous demander quels sont vos musiciens et vos peintres !</p>
-            <p>Et si j’étais un homme ?<note resp="editor" place="bottom">À cette lettre était joint un croquis représentant un gros monsieur assoupi dans un fauteuil sous un palmier au bord de la mer; une table, un bock; un cigare.</note></p>
+            <p>Et si j’étais un homme ?<note resp="editor">À cette lettre était joint un croquis représentant un gros monsieur assoupi dans un fauteuil sous un palmier au bord de la mer; une table, un bock; un cigare.</note></p>
           </div>
           <div>
             <head>Au même.</head>
@@ -1545,11 +1531,9 @@
             <p>Et puis, nous ne nous brouillerons jamais. C'est tout à fait impossible, bien que vous fassiez semblant de penser du mal de moi pour me taquiner, vous savez bien au fond, que je suis l’être le plus pur, le plus admirable, le plus juste, le plus grand et le plus loyal du monde. Je parle sérieusement. Vous savez que je ne tiens pas à ceux qui ne me comprennent pas; ceux à qui je tiens me comprennent. En plus, je suis au moment d’avoir un talent européen. <hi rend="i">Vous brouiller</hi> avec <hi rend="i">un être aussi</hi> admirable et rare ? Allons donc !</p>
             <p>Je ne puis mieux répondre à votre spirituelle lettre, qu’en faisant mon sincère éloge, un éloge raisonné et basé sur la profonde connaissance de moi-même, de ce moi unique et merveilleux qui m’enchante et que j’adore comme Narcisse. Trouvez-moi dans Paris un type qui écrive un pareil morceau d’un seul jet. Sans doute, si vous comparez mon talent de peintre à mon talent de pamphlétaire et de polémiste ! ...</p>
             <p>FIN</p>
-            
           </div>
         </div>
       </div>
-     
     </body>
   </text>
 </TEI>
