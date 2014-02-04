@@ -66,9 +66,20 @@ if (isset($doc['bookId'])) {
   </form>
   ';
   // table des matières
-  echo "\n<nav>";
-  echo $doc['toc'];
-  echo "\n</nav>";
+  echo '
+          <div id="toolpan" class="toc">
+            <ul class="tabs">
+              <li id="toc" onclick="this.parentNode.parentNode.className=this.id"><span>Table des<br/> matières</span></li>
+              <li id="download" onclick="this.parentNode.parentNode.className=this.id"><span>Télécharger</span></li>
+            </ul>
+            <div class="toc">
+              '.$doc['toc'].'
+            </div>
+            <div class="download">
+               '.((isset($doc['download']))?$doc['download']:'').'
+            </div>
+          </div>
+  ';
 }
 // accueil ? formulaire de recherche général
 else {
