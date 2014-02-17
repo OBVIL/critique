@@ -3742,6 +3742,11 @@
         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
       </role>
     </name>
+    <part>
+      <detail type="volume">
+        <number>43</number>
+      </detail>
+    </part>
     <originInfo>
       <place>
         <placeTerm type="text">Paris</placeTerm>
@@ -3755,9 +3760,6 @@
     </subject>
     <subject>
       <topic>responsable_Alexandre-Critique</topic>
-    </subject>
-    <subject>
-      <topic>modeGallica_43 vol.</topic>
     </subject>
   </mods>
   <mods>
@@ -19924,7 +19926,7 @@
       <topic>etat_ALTO-commandé</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
   </mods>
   <mods>
@@ -25241,6 +25243,7 @@
       <copyrightDate>1913</copyrightDate>
       <issuance>monographic</issuance>
     </originInfo>
+    <classification>http://catalogue.bnf.fr/ark:/12148/cb32561236j/PUBLIC</classification>
     <subject>
       <topic>corpus_Critique</topic>
     </subject>
@@ -25253,9 +25256,9 @@
     <subject>
       <topic>etat_DONE</topic>
     </subject>
-    <subject>
-      <topic>modeGallica_http://catalogue.bnf.fr/ark:/12148/cb32561236j/PUBLIC</topic>
-    </subject>
+    <recordInfo>
+      <recordContentSource>http://catalogue.bnf.fr/ark:/12148/cb32561236j/PUBLIC</recordContentSource>
+    </recordInfo>
   </mods>
   <mods>
     <titleInfo>
@@ -27486,7 +27489,7 @@
       <topic>etat_ALTO-commandé</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
   </mods>
   <mods>
@@ -28235,7 +28238,7 @@
       <topic>etat_droits attente</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
   </mods>
   <mods>
@@ -29376,7 +29379,7 @@
       <topic>etat_droits attente</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
   </mods>
   <mods>
@@ -33282,7 +33285,7 @@
       <topic>etat_ALTO-commandé</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
     <recordInfo>
       <recordContentSource>http://catalogue.bnf.fr/ark:/12148/cb31247569q/PUBLIC</recordContentSource>
@@ -33607,7 +33610,7 @@
       <topic>etat_pdf bnf</topic>
     </subject>
     <subject>
-      <topic>modeGallica_image (attention, défaut d'affichage)</topic>
+      <topic>modeGallica_image</topic>
     </subject>
     <recordInfo>
       <recordContentSource>http://catalogue.bnf.fr/ark:/12148/cb31248525b/PUBLIC</recordContentSource>
@@ -43954,7 +43957,7 @@
       <topic>etat_NUM-commandée</topic>
     </subject>
     <subject>
-      <topic>modeGallica_image + texte (fichier défectueux ?)</topic>
+      <topic>modeGallica_texte</topic>
     </subject>
     <recordInfo>
       <recordContentSource>http://catalogue.bnf.fr/ark:/12148/cb313134660/PUBLIC</recordContentSource>
@@ -46153,7 +46156,7 @@
       <topic>etat_ALTO-commandé</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
   </mods>
   <mods>
@@ -46243,7 +46246,7 @@
       <topic>etat_ALTO-commandé</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
   </mods>
   <mods>
@@ -46728,7 +46731,7 @@
       <topic>etat_droits attente</topic>
     </subject>
     <subject>
-      <topic>modeGallica_non consultable en ligne</topic>
+      <topic>modeGallica_nonConsultable</topic>
     </subject>
     <recordInfo>
       <recordContentSource>http://catalogue.bnf.fr/ark:/12148/cb33526820b/PUBLIC</recordContentSource>
