@@ -1,6 +1,7 @@
-<?xml version="1.0"  encoding="UTF-8"?>
-<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bazalgette_esprit" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -15,21 +16,30 @@
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
+        </respStmt>
+        <respStmt>
           <name>Anita Matell</name>
           <resp>Correction OCR</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="148" unit="page"/>
-        <measure quantity="868" unit="paragraph"/>
-        <measure quantity="85014" unit="word"/>
-        <measure quantity="518137" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher>OBVIL</publisher>
-        <date when="2011"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2014"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bazalgette_esprit/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/bazalgette_esprit.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/bazalgette_esprit.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/bazalgette_esprit.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/bazalgette_esprit.epub</idno>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

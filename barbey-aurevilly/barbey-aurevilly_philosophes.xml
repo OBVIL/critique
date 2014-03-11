@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="../../lib/teibook/teibook.css"?>
 <!-- 
  — <teiHeader> Barbey d’Aurevilly n’est pas un éditeur électronique
  — un <div> de trop
 -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="barbey_oeuvres-25-philosophes" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="barbey-aurevilly_philosophes" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Les Œuvres et les Hommes XXV
-          Philosophes et Écrivains Religieux et Politiques</title>
+        <title>Les Œuvres et les Hommes XXV. Philosophes et Écrivains Religieux et Politiques</title>
         <author key="Barbey d’Aurevilly, Jules (1808-1889)">Jules Barbey d’Aurevilly</author>
       </titleStmt>
       <editionStmt>
@@ -20,24 +18,35 @@
           <name>Pamela Pueblita</name>
           <resp> Edition TEI/XML </resp>
         </respStmt>
+        <respStmt>
+          <name>Vincent Jolivet</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="56" unit="page"/>
-        <measure quantity="428" unit="paragraph"/>
-        <measure quantity="56161" unit="word"/>
-        <measure quantity="330168" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher> ?</publisher>
-        <date when="2013"/>
-        <idno> ?</idno>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2014"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/barbey-aurevilly_philosophes/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/barbey-aurevilly_philosophes.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/barbey-aurevilly_philosophes.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/barbey-aurevilly_philosophes.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/.epub</idno>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Les Œuvres et les Hommes XXV
-          Philosophes et Écrivains Religieux et Politiques</title></bibl>
+        <bibl><title>Les Œuvres et les Hommes XXV. Philosophes et Écrivains Religieux et Politiques</title></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
