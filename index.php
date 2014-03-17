@@ -21,6 +21,11 @@ if (!isset($doc['body'])) {
   $pot->search();
 }
 
+if ($pot->path == 'sitemap.xml') {
+  $pot->sitemap();
+  exit;
+}
+
 ?><!DOCTYPE html>
 <html>
   <head>
