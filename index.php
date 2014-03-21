@@ -43,14 +43,13 @@ else echo '
   </head>
   <body>
     <div id="center">
-      <div id="bordertop"> </div>
       <header id="header">
         <h1>
           <a href="<?php echo $pot->baseHref.'?'.$pot->qsa(); ?>">OBVIL, corpus critique</a>
         </h1>
         <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
       </header>
-      <div id="contenu"><div id="contenu2">
+      <div id="contenu">
         <aside id="aside">
           <?php
 // les concordances peuvent être très lourdes, placer la nav sans attendre
@@ -77,11 +76,11 @@ if (isset($doc['bookId'])) {
               <li id="toc" onclick="this.parentNode.parentNode.className=this.id"><span>Table des<br/> matières</span></li>
               <li id="download" onclick="this.parentNode.parentNode.className=this.id"><span>Télécharger</span></li>
             </ul>
-            <div class="toc">
-              '.$doc['toc'].'
-            </div>
             <div class="download">
                '.((isset($doc['download']))?$doc['download']:'').'
+            </div>
+            <div class="toc">
+              '.$doc['toc'].'
             </div>
           </div>
   ';
@@ -127,7 +126,7 @@ else {
             ?>
           </div>
         </div>
-      </div></div>
+      </div>
       <?php 
 // footer
       ?>
