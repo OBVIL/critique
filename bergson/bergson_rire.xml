@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
 <!--2012-12-26T12:56:49+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bergson_rire" xml:lang="fr">
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>le Rire</title>
-        <title type="sub">Essai sur la signification du comique</title>
+        <title>Le rire : essai sur la signification du comique</title>
         <author key="Bergson, Henri (1859–1941)">Bergson</author>
       </titleStmt>
       <editionStmt>
@@ -44,13 +43,6 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <pb/>
-        <docAuthor>Henri Bergson (1859-1941)</docAuthor>
-        <docDate>1900</docDate>
-        <titlePart>le Rire</titlePart>
-        <titlePart type="sub">Essai sur la signification du comique.</titlePart>
-      </titlePage>
       <div>
         <head type="h1">Avant-propos<num> </num><note place="bottom"> [Cet avant-propos sera remplacé par la préface suivante à partir de la 23<hi rend="sup">e</hi> édition.]</note></head>
         <p/>
@@ -113,7 +105,7 @@
       </div>
     </front>
     <body>
-      <div type="article">
+      <div n="ch1-formes-mouvement" type="article">
         <head type="h1">Chapitre I.<lb/>Du comique en général</head>
         <head type="sub">Le comique des formes et le comique des mouvements.<lb/>Force d’expansion du comique</head>
         <p/>
@@ -203,9 +195,8 @@
           <p>Nous voilà bien loin de la cause originelle du rire. Telle forme comique, inexplicable par elle-même, ne se comprend en effet que par sa ressemblance avec une autre, laquelle ne nous fait rire que par sa parenté avec une troisième, et ainsi de suite pendant très longtemps : de sorte que l’analyse psychologi­que, si éclairée et si pénétrante qu’on la suppose, s’égarera nécessairement si elle ne tient pas le fil le long duquel l’impression comique a cheminé d’une extrémité de la série à l’autre. D’où vient cette continuité de progrès ? Quelle est donc la pression, quelle est l’étrange poussée qui fait glisser ainsi le comique d’image en image, de plus en plus loin du point d’origine, jusqu’à ce qu’il se fractionne et se perde en analogies infiniment lointaines ? Mais quelle est la force qui divise et subdivise les branches de l’arbre en rameaux, la racine en radicelles ? Une loi inéluctable condamne ainsi toute énergie vivan­te, pour le peu qu’il lui est alloué de temps, à couvrir le plus qu’elle pourra d’espace. Or c’est bien une énergie vivante que la fantaisie comique, plante singulière qui a poussé vigoureusement sur les parties rocailleuses du sol social, en attendant que la culture lui permît de rivaliser avec les produits les plus raffinés de l’art. Nous sommes loin du grand art, il est vrai, avec les exemples de comique qui viennent de passer sous nos yeux. Mais nous nous en rapprocherons déjà davantage, sans y atteindre tout à fait encore, dans le chapitre qui va suivre. Au-dessous de l’art, il y a l’artifice. C’est dans cette zone des artifices, mitoyenne entre la nature et l’art, que nous pénétrons main­tenant. Nous allons traiter du vaudevilliste et de l’homme d’esprit.</p>
         </div>
       </div>
-      <div type="article">
+      <div n="ch2-situation-mots" type="article">
         <head type="h1">Chapitre II.<lb/>Le comique de situation et le comique de mots</head>
-        <p/>
         <div>
           <head type="h2">[ I ]</head>
           <p/>
@@ -305,7 +296,7 @@
           <p>Mais nous touchons ici au point où les particularités de langage ne font que traduire les particularités de caractère, et nous devons en réserver pour notre prochain chapitre l’étude plus approfondie. Ainsi qu’il fallait s’y attendre, et comme on a pu voir par ce qui précède, le comique de mots suit de près le comique de situation et vient se perdre, avec ce dernier genre de comique lui-même, dans le comique de caractère. Le langage n’aboutit à des effets risibles que parce qu’il est une œuvre humaine, modelée aussi exacte­ment que possible sur les formes de l’esprit humain. Nous sentons en lui quelque chose qui vit de notre vie ; et si cette vie du langage était complète et parfaite, s’il n’y avait rien en elle de figé, si le langage enfin était un organis­me tout à fait unifié, incapable de se scinder en organismes indépendants, il échapperait au comique, comme y échapperait d’ailleurs aussi une âme à la vie harmonieusement fondue, unie, semblable à une nappe d’eau bien tranquille. Mais il n’y a pas d’étang qui ne laisse flotter des feuilles mortes à sa surface, pas d’âme humaine sur laquelle ne se posent des habitudes qui la raidissent contre elle-même en la raidissant contre les autres, pas de langue enfin assez souple, assez vivante, assez présente tout entière à chacune de ses parties pour éliminer le tout fait et pour résister aussi aux opérations méca­niques d’inversion, de transposition, etc., qu’on voudrait exécuter sur elle comme sur une simple chose. Le raide, le tout fait, le mécanique, par opposi­tion au souple, au continuellement changeant, au vivant, la distraction par opposition à l’attention, enfin l’automatisme par opposition à l’activité libre, voilà, en somme, ce que le rire souligne et voudrait corriger. Nous avons demandé à cette idée d’éclairer notre départ au moment où nous nous enga­gions dans l’analyse du comique. Nous l’avons vue briller à tous les tournants décisifs de notre chemin. C’est par elle maintenant que nous allons aborder une recherche plus importante et, nous l’espérons, plus instructive. Nous nous proposons, en effet, d’étudier les caractères comiques, ou plutôt de déterminer les conditions essentielles de la comédie de caractère, mais en tâchant que cette étude contribue à nous faire comprendre la vraie nature de l’art, ainsi que le rapport général de l’art à la vie.</p>
         </div>
       </div>
-      <div type="article">
+      <div n="ch3-caractere" type="article">
         <head type="h1">Chapitre III.<lb/>Le comique de caractère</head>
         <p/>
         <div>
@@ -396,6 +387,8 @@
           <p>C’est ainsi que des vagues luttent sans trêve à la surface de la mer, tandis que les couches inférieures observent une paix profonde. Les vagues s’entre­choquent, se contrarient, cherchent leur équilibre. Une écume blanche, légère et gaie, en suit les contours changeants. Parfois le flot qui fait abandonne un peu de cette écume sur le sable de la grève. L’enfant qui joue près de là vient en ramasser une poignée, et s’étonne, l’instant d’après, de n’avoir plus dans le creux de la main que quelques gouttes d’eau, mais d’une eau bien plus salée, bien plus amère encore que celle de la vague qui l’apporta. Le rire naît ainsi que cette écume. Il signale, à l’extérieur de la vie sociale, les révoltes superfi­cielles. Il dessine instantanément la forme mobile de ces ébranlements. Il est, lui aussi, une mousse à base de sel. Comme la mousse, il pétille. C’est de la gaîté. Le philosophe qui en ramasse pour en goûter y trouvera d’ailleurs quel­quefois, pour une petite quantité de matière, une certaine dose d’amertume.</p>
         </div>
       </div>
+    </body>
+    <back>
       <div>
         <head type="h1">Appendice de la 23e édition.<lb/>Sur les définitions du comique et sur la méthode suivie dans ce livre.</head>
         <p/>
@@ -404,6 +397,6 @@
         <p>« J’ai tenté quelque chose de tout différent. J’ai cherché dans la comédie, dans la farce, dans l’art du clown, etc., les <hi rend="i">procédés de fabrication</hi> du comi­que. J’ai cru apercevoir qu’ils étaient autant de variations sur un thème plus général. J’ai noté le thème, pour simplifier ; mais ce sont surtout les variations qui importent. Quoi qu’il en soit, le thème fournit une définition générale, qui est cette fois une règle de construction. Je reconnais d’ailleurs que la défini­tion ainsi obtenue risquera de paraître, à première vue, trop étroite, comme les définitions obtenues par l’autre méthode étaient trop larges. Elle paraîtra trop étroite, parce que, à côté de la chose qui est risible par essence et par elle-même, risible en vertu de sa structure interne, il y a une foule de choses qui font rire en vertu de quelque ressemblance superficielle avec celle-là, ou de quelque rapport accidentel avec une autre qui ressemblait à celle-là, et ainsi de suite ; le rebondissement du comique est sans fin, car nous aimons à rire et tous les prétextes nous sont bons ; le mécanisme des associations d’idées est ici d’une complication extrême ; de sorte que le psychologue qui aura abordé l’étude du comique avec cette méthode, et qui aura dû lutter contre des difficultés sans cesse renaissantes au lieu d’en finir une bonne fois avec le comique en l’enfermant dans une formule, risquera toujours de s’entendre dire qu’il n’a pas rendu compte de tous les faits. Quand il aura appliqué sa théorie aux exemples qu’on lui oppose, et prouvé qu’ils sont devenus comiques par ressemblance avec ce qui était comique en soi-même, on en trouvera facile­ment d’autres, et d’autres encore : il aura toujours à travailler. En revanche, il aura étreint le comique, au lieu de l’enclore dans un cercle plus ou moins large. Il aura, s’il réussit, donné le moyen de fabriquer du comique. Il aura procédé avec la rigueur et la précision du savant, qui ne croit pas avoir avancé dans la connaissance d’une chose quand il lui a décerné telle ou telle épithète, si juste soit-elle (on en trouve toujours beaucoup qui conviennent) : c’est une analyse qu’il faut, et l’on est sûr d’avoir parfaitement analysé quand on est capable de recomposer. Telle est l’entreprise que j’ai tentée.</p>
         <p>« J’ajoute qu’en même temps que j’ai voulu déterminer les procédés de fabrication du risible, j’ai cherché quelle est l’intention de la société quand elle rit. Car il est très étonnant qu’on rie, et la méthode d’explication dont je parlais plus haut n’éclaircit pas ce petit mystère. Je ne vois pas, par exemple, pourquoi la « désharmonie », en tant que désharmonie, provoquerait de la part des témoins une manifestation spécifique telle que le rire, alors que tant d’autres propriétés, qualités ou défauts, laissent impassibles chez le spectateur les muscles du visage. Il reste donc à chercher <hi rend="i">quelle est la cause spéciale de désharmonie</hi> qui donne l’effet comique ; et on ne l’aura réellement trouvée que si l’on peut expliquer par elle pourquoi, en pareil cas, la société se sent tenue de manifester. Il faut bien qu’il y ait dans la cause du comique quelque chose de légèrement attentatoire (et de spécifiquement attentatoire) à la vie sociale, puisque la société y répond par un geste qui a tout l’air d’une réaction défensive, par un geste qui fait légèrement peur. C’est de tout cela que j’ai voulu rendre compte. »</p>
       </div>
-    </body>
+    </back>
   </text>
 </TEI>
