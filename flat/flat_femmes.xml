@@ -2,17 +2,12 @@
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
-<!-- 
-Fichier globalement correct, mais il était simple.
- — Les vers cités n’ont pas été repérérés
- — <teiHeader> Barbey d’Aurevilly n’est pas un éditeur électronique
-
--->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="flat_femmes" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Nos femmes de Lettres</title>
+        <author key="Flat, Paul (1865-1918)">Paul Flat</author>
       </titleStmt>
       <editionStmt>
         <edition>Obvil</edition>
