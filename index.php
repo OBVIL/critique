@@ -1,18 +1,12 @@
 <?php
-//
 ini_set('display_errors', '1');
 error_reporting(-1);
-// prendre le pot
-include (dirname(__FILE__).'/../teipot/Teipot.php');
-// mettre le sachet SQLite dans le pot
-$pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr');
-// est-ce qu’un fichier statique (ex: epub) est attendu pour ce chemin ? 
-// Si oui, l’envoyer maintenant depuis la base avant d’avoir écrit la moindre ligne
-$pot->file($pot->path);
-// chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$teipot=$pot->baseHref.'../teipot/';
-// autres ressources spécifiques
-$theme=$pot->baseHref.'../theme/';
+include (dirname(__FILE__).'/../teipot/Teipot.php'); // prendre le pot
+$pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr'); // mettre le sachet SQLite dans le pot
+$pot->file($pot->path); // envoyer les fichiers statiques de la base
+$session = new Session($pot); // ouvrir une session
+Session::hooks(); // laisser parler divers envois spécifiques à la session (javascript, MS.word…) 
+
 // Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
 $doc=$pot->doc($pot->path);
 // pas de body trouvé, charger des résultats en mémoire
@@ -20,11 +14,17 @@ if (!isset($doc['body'])) {
   $timeStart=microtime(true);
   $pot->search();
 }
+/*
 
-if ($pot->path == 'sitemap.xml') {
-  $pot->sitemap();
-  exit;
-}
+  // ajouter à l’historique
+  else {
+    Session::bookhist(null, $doc);
+  }
+*/
+
+$teipot=$pot->baseHref.'../teipot/'; // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
+$theme=$pot->baseHref.'../theme/'; // autres ressources spécifiques
+
 
 ?><!DOCTYPE html>
 <html>
@@ -36,9 +36,9 @@ else echo '
 <title>OBVIL, corpus Critique</title>
 ';
     ?>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,700italic,600italic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>teipot.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,700italic,600italic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="<?php echo $theme; ?>obvil.css" />
   </head>
   <body>
@@ -91,7 +91,6 @@ else {
     <form action="">
       <input name="q" class="text" placeholder="Rechercher" value="'.str_replace('"', '&quot;', $pot->q).'"/>
       <div><label>De <input placeholder="année" name="start" class="year" value="'.$pot->start.'"/></label> <label>à <input class="year" placeholder="année" name="end" value="'. $pot->end .'"/></label></div>
-      '.$pot->bylist().'
       <button type="reset" onclick="return Form.reset(this.form)">Effacer</button>
       <button type="submit">Rechercher</button>
     </form>

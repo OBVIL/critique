@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-model href="../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="taine_derniers-essais" xml:lang="">
   <teiHeader>
@@ -72,20 +72,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>Derniers essais de critique et d’histoire</titlePart>
-        </docTitle>
-        <docAuthor>H. Taine<lb/>De l’Académie française</docAuthor>
-        <docEdition>Troisième édition revue et augmentée</docEdition>
-        <publisher>Librairie Hachette et Cie<lb/>Paris<lb/>79, Boulevard Saint-Germain, 79</publisher>
-        <docDate>1903</docDate>
-      </titlePage>
-      <div type="dedication">
-        <salute>À Léon Donnat<lb/>Membre de l’Institut<lb/>En souvenir, et selon le désir de son ami<lb/>H. Taine</salute>
-      </div>
-    </front>
     <body>
       <div>
         <head>Avertissement de la 3<hi rend="sup">e</hi> édition</head>

@@ -2,7 +2,7 @@
 <!--
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 -->
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="zola_naturalisme" xml:lang="fr">
   <!-- VJ
     * fichier assez simple et conforme aux attentes
@@ -51,7 +51,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Emile Zola</author> <title>Le Naturalisme au théâtre : les théories et les exemples</title><edition> 2<hi rend="sup">e</hi></edition><publisher>G. Charpentier</publisher><pubPlace>Paris</pubPlace>.</bibl>
+        <bibl><author>Emile Zola</author>, <title>Le Naturalisme au théâtre : les théories et les exemples</title>, <edition> 2<hi rend="sup">e</hi></edition>. <publisher>G. Charpentier</publisher>, <pubPlace>Paris</pubPlace>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -65,11 +65,6 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <docAuthor>Émile Zola</docAuthor>
-        <titlePart>Le naturalisme au théâtre</titlePart>
-        <titlePart type="sub">Les théories et les exemples</titlePart>
-      </titlePage>
       <div type="preface">
         <p>Durant quatre années, j’ai été chargé de la critique dramatique, d’abord au <title>Bien public</title>, ensuite au <title>Voltaire</title>. Sur ce nouveau terrain du théâtre, je ne pouvais que continuer ma campagne, commencée autrefois dans le domaine du livre et de l’œuvre d’art.</p>
         <p>Cependant, mon attitude d’homme de méthode et d’analyse a surpris et scandalisé mes confrères. Ils ont prétendu que j’obéissais à de basses rancunes, que je salissais nos gloires pour me venger de mes chutes, parlant de tout, de mes œuvres particulièrement, à l’exception des pièces jouées.</p>
