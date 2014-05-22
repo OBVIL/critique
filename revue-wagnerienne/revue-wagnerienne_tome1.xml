@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="revue-wagnerienne_tome1" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -10,33 +10,35 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
           <name>Pascale Langlois</name>
           <resp>2011, coordination éditoriale</resp>
         </respStmt>
+        <respStmt>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, édition TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Obvil</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/ribot_attention/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Revue wagnérienne</title></bibl>
+        <bibl><ref type="gallica" target="http://gallica.bnf.fr/ark:/12148/bpt6k19995b"/></bibl>
       </sourceDesc>
-      <notesStmt>
-        <note type="ref">
-          <ref type="gallica" target="http://gallica.bnf.fr/ark:/12148/bpt6k19995b"/>
-        </note>
-      </notesStmt>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -49,6 +51,7 @@
   </teiHeader>
   <text>
     <front>
+      <!--
       <titlePage>
         <titlePart rend="uc">Revue wagnérienne</titlePart>
         <titlePart>I<hi rend="sup">ere</hi> année<lb/>8 février 1885 — 8 janvier 1886</titlePart>
@@ -87,6 +90,7 @@
           </list>
         </docAuthor>
       </titlePage>
+      -->
       <div type="preface">
         <head>Préface de l’éditeur</head>
         <byline><docAuthor>Frédéric Gagneux</docAuthor></byline>

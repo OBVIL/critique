@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="souday_andre-gide" xml:lang="">
   <teiHeader>
     <fileDesc>
@@ -27,7 +27,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Paul Souday</author>, <title>André Gide</title>, <publisher>Simon Kra</publisher>, <pubPlace>Paris</pubPlace>, <date>1927</date>, <edition>Treizième édition</edition>.</bibl>
+        <bibl><author>Paul Souday</author>, <title>André Gide</title>. <pubPlace>Paris</pubPlace>, <publisher>Simon Kra</publisher>, <date>1927</date>. (<edition>Treizième édition</edition>).</bibl>
         <biblFull>
           <titleStmt>
             <title>André Gide</title>
@@ -57,14 +57,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docAuthor rend="uc">Paul Souday</docAuthor>
-        <titlePart rend="uc">André Gide</titlePart>
-        <docEdition>Treizième édition</docEdition>
-        <docImprint>« LES DOCUMENTAIRES » SIMON KRA, 6, RUE BLANCHE, PARIS</docImprint>
-      </titlePage>
-    </front>
     <body>
       <div>
         <head rend="uc">I.<lb/>Les premiers livres d’André Gide</head>

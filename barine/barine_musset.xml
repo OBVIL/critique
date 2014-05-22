@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barine_musset" xml:lang="fr">
   <teiHeader>
@@ -57,21 +57,9 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>Les grands écrivains français
-            <lb/>Alfred de Musset</titlePart>
-        </docTitle>
-        <docAuthor>par
-          <lb/>Arvède Barine</docAuthor>
-        <docImprint>
-          <hi rend="uc">Paris</hi>
-          <lb/>LIBRAIRIE HACHETTE ET C<hi rend="sup">ie</hi>
-          <lb/>79, BOULEVARD SAINT-GERMAIN, 79
-          <lb/>1893
-          <lb/><graphic rend="center" url="barine_musset-img/fig1.png"/>
-        </docImprint>
-      </titlePage>
+      <argument>
+        <graphic rend="center" url="barine_musset.png"/>
+      </argument>
     </front>
     <body>
       <div>

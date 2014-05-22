@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="wilde_derniers-essais-litterature" xml:lang="fr">
   <!--
@@ -56,7 +56,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Oscar Wilde</author>, <title>Derniers Essais de littérature et d'esthétique</title>, <publisher>P.V Sotck Cie</publisher>, <date>1887-1890</date>, <author role="translator">Albert Savine</author> trad., <date>2006</date>.</bibl>
+        <bibl><author>Oscar Wilde</author>, <title>Derniers Essais de littérature et d'esthétique</title>, <publisher>P.V Sotck Cie</publisher>, <date>1887-1890</date>, trad. <author role="translator">Albert Savine</author>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -69,21 +69,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docAuthor rend="uc">Oscar Wilde</docAuthor>
-        <titlePart>Derniers Essais de Littérature et d’Esthétique</titlePart>
-        <docImprint>
-          BIBLIOTHÈQUE COSMOPOLITE.—Nº 68<lb/>
-          AOÛT 1887-1890<lb/>
-          Traduction d’ALBERT SAVINE<lb/>
-          PARIS<lb/>
-          P.-V. STOCK C<hi rend="sup">ie</hi>, ÉDITEURS<lb/>
-          155, RUE SAINT-HONORÉ, 155<lb/>
-          1913
-        </docImprint>
-      </titlePage>
-    </front>
     <body>
       <div>
         <head>Un bon roman historique<note n="1" place="bottom"><hi rend="i">Pall Mall Gazette</hi>, 8 août 1887.</note></head>
