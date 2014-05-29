@@ -55,11 +55,14 @@ else echo '
 // les concordances peuvent être très lourdes, placer la nav sans attendre
 // livre
 if (isset($doc['bookid'])) {
+  if(isset($doc['download'])) echo "\n".'<nav id="download">' . $doc['download'] . '</nav>';
 
   // auteur, titre, date
   echo "\n".'<header>';
-  if ($doc['end']) echo "\n".'<div class="date">'.$doc['end'] .'</div>';
-  if ($doc['byline']) echo "\n".'<div class="byline">'.$doc['byline'] .'</div>';
+  echo "\n".'<div>';
+  if (isset($doc['byline'])) echo $doc['byline'];
+  if (isset($doc['end'])) echo ' ('.$doc['end'].')';
+  echo '</div>';
   echo "\n".'<a class="title" href="'.$pot->baseHref.$doc['bookname'].'/">'.$doc['title'].'</a>';
   echo "\n".'</header>';
   // rechercher dans ce livre
@@ -72,13 +75,6 @@ if (isset($doc['bookid'])) {
   // table des matières
   echo '
           <div id="toolpan" class="toc">
-            <ul class="tabs">
-              <li id="toc" onclick="this.parentNode.parentNode.className=this.id"><span>Table des<br/> matières</span></li>
-              <li id="download" onclick="this.parentNode.parentNode.className=this.id"><span>Télécharger</span></li>
-            </ul>
-            <div class="download">
-               '.((isset($doc['download']))?$doc['download']:'').'
-            </div>
             <div class="toc">
               '.$doc['toc'].'
             </div>

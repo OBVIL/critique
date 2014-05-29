@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../lib/teipub/tei2html.xsl"?>
-<?xml-model href="../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model  href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="hennequin_quelques-ecrivains-francais" xml:lang="">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Quelques écrivains français</title>
-        <title type="sub">Flaubert, Zola, Hugo, Goncourt, Huysmans, etc.</title>
+        <title>Quelques écrivains français : Flaubert, Zola, Hugo, Goncourt, Huysmans, etc.</title>
         <author key="Hennequin, Émile (1858-1888)" ref="http://www.idref.fr/028338588">Émile Hennequin</author>
       </titleStmt>
       <editionStmt>
-        <edition>Obvil</edition>
+        <edition>OBVIL</edition>
         <respStmt>
-          <name xml:id="VJ">Vincent Jolivet</name>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
           <resp>encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name xml:id="FG">Frédéric Glorieux</name>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
           <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Sorbonne-Université/OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/hennequin_quelques-ecrivains-francais/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?"/>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
-      <noteStmt>
-        <note type="ref">
-          <ref type="gallica" target="http://gallica.bnf.fr/ark:/12148/bpt6k202674q">Gallica</ref>
-        </note>
-      </noteStmt>
       <sourceDesc>
-        <bibl><author><surname>Hennequin</surname> <forname>Emile</forname></author>, <title>Quelques écrivains français ; Flaubert, Zola, Hugo, Goncourt, Huysmans, etc.</title>, <publisher>PERRIN ET C<hi rend="sup">ie</hi></publisher>, <pubPlace>Paris</pubPlace>, <date>1890</date>.</bibl>
+        <bibl><author><surname>Hennequin</surname> <forname>Emile</forname></author>, <title>Quelques écrivains français ; Flaubert, Zola, Hugo, Goncourt, Huysmans, etc.</title>, <publisher>PERRIN ET C<hi rend="sup">ie</hi></publisher>, <pubPlace>Paris</pubPlace>, <date>1890</date>. <ref type="gallica" target="http://gallica.bnf.fr/ark:/12148/bpt6k202674q">Gallica</ref></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,17 +47,7 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>Quelques écrivains français</titlePart>
-          <titlePart>Flaubert, Zola, Hugo, Goncourt, Huysmans, etc.</titlePart>
-        </docTitle>
-        <docAuthor>Émile Hennequin</docAuthor>
-        <docImprint>Perrin et C<hi rend="sup">ie</hi>, Libraires-Éditeurs</docImprint>
-        <docDate>1890</docDate>
-      </titlePage>
-    </front>
+
     <body>
       <div>
         <head>Préface</head>

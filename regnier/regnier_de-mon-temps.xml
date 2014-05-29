@@ -12,34 +12,32 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
           <name>Pascale Langlois</name>
           <resp>2011, coordination éditoriale</resp>
         </respStmt>
+        <respStmt>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="44" unit="page"/>
-        <measure quantity="196" unit="paragraph"/>
-        <measure quantity="28538" unit="word"/>
-        <measure quantity="171627" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher>?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/regnier_de-mon-temps/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
-      <sourceDesc>
-        <bibl>?</bibl>
-      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -51,16 +49,8 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docAuthor>Henri de Régnier</docAuthor>
-        <docDate>1933</docDate>
-        <titlePart>De mon Temps ...</titlePart>
-      </titlePage>
-    </front>
     <body>
       <div>
-        <pb/>
         <head type="h1">La comtesse de Noailles</head>
         <p>Elle a porté un nom, grand dans l'histoire de France, et qu'elle a rendu plus grand encore en le faisant illustre dans l'histoire des Lettres françaises. Nous ne le prononcions qu'avec admiration et respect, et aussi avec cet étonnement ravi que nous éprouvons devant les êtres privilégiés qu'a touchés au front le rayon divin de la Poésie. Ce don des Dieux, nulle ne l'a reçu plus éclatant, plus magnifique et plus souverain que la comtesse Anna de Noailles. Il a fait d'elle une Reine du Verbe et maintenant qu'elle est descendue au sombre Royaume où elle a rejoint les grands poètes du passé, nous sentons mieux, par la place qu'elle prend parmi eux, celle qu'elle occupait parmi nous. Sa gloire se mêle désormais à la leur, et sa disparition laisse vide un espace de lumière qu'elle remplissait de la haute clarté de son génie.</p>
         <p>De tout temps le destin l'avait marquée du signe sacré, cette enfant, dans les veines de qui coulait le double sang latin et grec. Dans l'émouvant et charmant livre qu'elle avait intitulé <hi rend="i">Le Livre de ma vie</hi>, elle nous a conté son enfance, soit à Paris, soit dans la villa d'Amphion où ses parents, le prince et la princesse de Brancovan, venaient goûter les charmes des beaux étés et des doux automnes du Léman. Ce fut dans les calmes jardins qui descendaient jusqu'à la rive du lac que ses yeux avides et attentifs firent connaissance avec la nature qu'elle devait tant aimer. Ce fut là que naquit son amitié pour les fleurs et qu'elle se familiarisa avec les beautés de la terre, des eaux et du ciel, que grandit en elle cet ardent et mélancolique amour de la vie qui la rendit à jamais sensible à tout ce qui est vivant, à tout ce qui en nous souffre, désire, espère, regrette. Ce fut là aussi qu'elle reçut la première révélation de la Muse et qu'elle écouta les premiers oracles de la destinée. Ce fut de là qu'elle partit pour vivre la sienne avec héroïsme et avec certitude, car elle savait déjà qu'il n'y a pas d'ivresses sans lendemains, de joie sans douleur, de gloire sans amertume, que toute flamme se résout en cendre et que tout ce que nous sommes est fait déjà d'un peu de mort.</p>
