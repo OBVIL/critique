@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../../../lib/teipub/tei2html.xsl"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="pierre-quint_droits-ecrivains" xml:lang="fre">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pierre-quint_droits-ecrivains" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -12,20 +12,30 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
+          <name>Pascale Langlois</name>
+          <resp>2011, coordination éditoriale</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent/>
       <publicationStmt>
-        <publisher>OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/pierre-quint_droits-ecrivains/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?"/>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -43,43 +53,6 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <docAuthor rend="sc">Léon Pierre-Quint</docAuthor>
-        <titlePart>Les droits de l’écrivain dans la société contemporaine</titlePart>
-        <docDate>1928</docDate>
-        <docImprint><hi rend="uc">Cahiers de la Quinzaine</hi>
-          <lb/>paraissant le dix et le vingt-cinq de chaque mois
-          <lb/><publisher rend="uc">L’Artisan du Livre</publisher>
-          <lb/><placeName rend="uc">Paris, 2, Rue de Fleurus</placeName>
-        </docImprint>
-        <!--
-          <div>
-          <p>DIX-HUITIÈME CAHIER DE LA DIX-HUITIÈME SÉRIE</p>
-          <head rend="center"><lb/>LÉON PIERRE-QUINT</head>
-          <head rend="center i">Les droits de l’écrivain dans la société contemporaine</head>
-          <head rend="center">CAHIERS DE LA QUINZAINE<lb/>paraissant le dix et le vingt-cinq de chaque mois</head>
-          <head rend="center">PARIS<lb/>L’ARTISAN DU LIVRE, 2, RUE DE FLEURUS</head>
-          <pb/>
-          <p>DU MÊME AUTEUR</p>
-          <p><hi rend="i">La Femme de Paille.</hi>        (Ferenczi.)</p>
-          <p><hi rend="i">Déchéances Aimables.</hi>    (Kra.)</p>
-          <p><hi rend="i">Marcel Proust.</hi>        (Kra.)</p>
-          <p><hi rend="i">En Personne.</hi>            (Cité des Livres.)</p>
-          <p><hi rend="i">Signification du Cinéma.</hi>    (Alcan.)</p>
-          <p><hi rend="i">Comment travaillait Marcel Proust</hi> :</p>
-          <p><hi rend="i">bibliographie</hi>        (Les Cahiers Libres.)</p>
-          <p/>
-          <p>A paraître :</p>
-          <p><hi rend="i">André Gide.</hi>            (Kra.)</p>
-          <p><hi rend="i">Notes sur le Sadisme.</hi>    (Les Cahiers du Sud.)</p>
-          <p><hi rend="i">Benjamin Constant.</hi>        (Plon.)</p>
-          <p><hi rend="i">Essai sur un roman</hi>     Raoul Vergeon.</p>
-          <p/>
-          <p rend="outdent noindent">Tous droits de traduction, de reproduction et d’adaptation réservés pour tous pays.</p>
-          <p rend="outdent noindent i">Copyright 1928, by Choureau &amp; C<hi rend="sup">ie</hi>.</p>
-          </div>
-        -->
-      </titlePage>
       <div>
         <head rend="center">Préface de l’éditeur</head>
         <docDate>2011</docDate>

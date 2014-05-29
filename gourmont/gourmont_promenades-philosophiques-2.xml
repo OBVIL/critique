@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="Gourmont_promenades-philosophiques-2" xml:lang="">
  <teiHeader>
   <fileDesc>
@@ -11,12 +11,12 @@
    <editionStmt>
     <edition>OBVIL</edition>
     <respStmt>
-     <name>Frédéric Glorieux</name>
-     <resp>2014, édition TEI</resp>
+      <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+      <resp>encodage TEI</resp>
     </respStmt>
     <respStmt>
-     <name>Vincent Jolivet</name>
-     <resp>2014, édition TEI</resp>
+      <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+      <resp>encodage TEI</resp>
     </respStmt>
     <respStmt>
      <name>Pascale Langlois</name>
@@ -24,12 +24,18 @@
     </respStmt>
    </editionStmt>
    <publicationStmt>
-    <publisher> ?</publisher>
-    <date when="2014"/>
-    <idno>http://obvil.paris-sorbonne.fr/corpus/critique/gourmont_promenades-philosophiques-2.xml</idno>
-    <availability status="restricted">
-     <licence target=" ? ">License ?</licence>
-    </availability>
+    <idno>http://obvil.paris-sorbonne.fr/corpus/critique/gourmont_promenades-philosophiques-2/</idno>
+        <date when="2014"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
+        </availability>
    </publicationStmt>
    <sourceDesc>
     <bibl><author>Remy de Gourmont</author>, <title>Promenades philosophiques(2)</title>, deuxième série, <edition>10<hi rend="sup">e</hi> édition</edition>, <publisher>Mercure de France</publisher>, <pubPlace>Paris</pubPlace>, <date>1931</date>.</bibl>
@@ -45,17 +51,6 @@
   </profileDesc>
  </teiHeader>
  <text>
-  <front>
-   <titlePage>
-    <docAuthor>Remy de Gourmont</docAuthor>
-    <titlePart>Promenades philosophiques</titlePart>
-    <docEdition> Deuxième série</docEdition>
-    <docImprint>10<hi rend="sup">e</hi> édition</docImprint>
-    <docImprint>Paris</docImprint>
-    <docImprint>Mercure de France</docImprint>
-    <docDate>1925</docDate>
-   </titlePage>
-  </front>
   <body>
    <div>
    <head>Première partie

@@ -12,34 +12,32 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
           <name>Pascale Langlois</name>
           <resp>2011, coordination éditoriale</resp>
         </respStmt>
+        <respStmt>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="94" unit="page"/>
-        <measure quantity="457" unit="paragraph"/>
-        <measure quantity="50803" unit="word"/>
-        <measure quantity="302924" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher>?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/regnier_proses/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
-      <sourceDesc>
-        <bibl>?</bibl>
-      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -51,16 +49,8 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docAuthor>Henri de Régnier</docAuthor>
-        <docDate>1925</docDate>
-        <titlePart>Proses datées</titlePart>
-      </titlePage>
-    </front>
     <body>
       <div>
-        <pb/>
         <head type="h1">Leconte de Lisle</head>
         <p>Il y a des jours à souvenirs ... Aujourd’hui, du banc où, jeune étudiant, je venais m’asseoir entre deux cours de droit, pour lire un poème de Vigny ou de Baudelaire, une page de Stendhal ou de Flaubert, il me semble le revoir, traversant le Jardin du Luxembourg, pour se rendre au Palais du Sénat, où il exerçait, avec une hautaine nonchalance, les fonctions de sous-bibliothécaire, à moins qu’il ne poussât jusqu’à l’Institut, l’Académie Française l’ayant élu depuis peu au fau­teuil laissé vacant par la mort de Victor Hugo. Je le regardais, avec une admiration émue et craintive, s’avancer de son pas lourd et las. Leconte de Lisle n’était pas grand, mais le paraissait, par la dignité de son allure et de son attitude. Sur un corps encore solide reposait une tête noble et belle. La large face soigneusement rasée, au nez droit, à la bouche sinueuse, s’animait de deux yeux clairs, dont l’un s’abritait derrière le verre d’un monocle. Des larges bords d’un chapeau à haute forme, de longs cheveux blancs caressaient le col de la redingote correcte. Ainsi passait-il, solitaire et dédaigneux, et je le regardais longtemps s’éloigner, tandis que, dans ma mémoire chantait quelque strophe éclatante et sobre des <hi rend="i">Poèmes barbares</hi>, du quelque couplet tragiquement éloquent des <hi rend="i">Erinnyes</hi>.</p>
         <p>Certes, à cette époque, vers 1886 et 1387, j’ad­mirais Leconte de Lisle, mais ma préférence allait à Mallarmé et à Verlaine, au mystérieux Arthur Rimbaud, à Vigny, à Gérard de Nerval, à ceux que nous tenions comme nos inspirateurs directs. En cela, je me conformais aux goûts du Symbolisme naissant. La jeune école cependant marquait de la considération à Leconte de Lisle, quoique nous n’ignorassions pas ses sévérités pour nos tentatives juvéniles. Nous savions aussi la mésintelligence qui le séparait de Verlaine. II ne restait rien des sympathies qui avaient rap­proché les deux poètes au temps du Parnasse. Des anecdotes couraient même à ce sujet, où l’on voyait Verlaine se livrer à des gamineries un peu fortes envers celui que Laurent Tailhade appelait irrespectueusement « un bibliothécaire pasteur d’éléphants ». Par contre, Moréas qui faisait peu de cas de ses confrères, vieux ou jeu­nes, voulait bien ne pas refuser tout talent au « vieux de Lisle ». Je l’ai entendu, plus d’une fois, réciter d’une voix nasale et métallique la dernière strophe de <hi rend="i">l’Incantation du Loup</hi> des <hi rend="i">Poèmes tragiques</hi> :</p>

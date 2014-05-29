@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="lemaitre_impressions-09" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -19,19 +19,26 @@
           <resp>OCR et relecture</resp>
         </respStmt>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/lemaitre_impressions-08/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -48,22 +55,8 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docAuthor rend="uc">Jules Lemaître</docAuthor>
-        <titlePart rend="uc">Impressions de théâtre<lb/>
-          neuvième série</titlePart>
-        <docImprint>
-          <placeName rend="uc">Paris</placeName><lb/>
-          <publisher rend="uc">Société française d’imprimerie et de librairie<lb/>
-            (Ancienne librairie Lecène, Oudin et C<hi rend="sup">ie</hi>)</publisher><lb/>
-          <date>1896</date>
-        </docImprint>
-      </titlePage>
-    </front>
     <body>
-      <head>Jules Lemaître, <hi rend="i">Impressions de théâtre : neuvième série</hi>, Paris, Lecène, Oudin et Cie, éditeurs, 1896.</head>
-      <head>Impressions de théâtre : neuvième série</head>
+      <head>Jules Lemaître, <hi rend="i">Impressions de théâtre : neuvième série</hi></head>
       <div>
         <head>Euripide. L’<hi rend="i">Ion</hi> d’Euripide, et l’<hi rend="i">Apollonide</hi> de Leconte de Lisle.</head>
         <p>… Je fouille mélancoliquement dans le tas des livres que j’ai mis à part comme se rapportant au théâtre. J’en ramène l’<hi rend="i">Apollonide</hi> de Leconte de Lisle, « drame lyrique en trois parties et cinq tableaux ». Je vous cite le titre complet. Le poète n’a pas cru devoir ajouter, fût-ce en tout petits caractères : « d’après Euripide » ; et cette omission m’étonne un peu. Car enfin l’<hi rend="i">Apollonide</hi> n’est point, comme l’<hi rend="i">Andromaque</hi> ou la <hi rend="i">Phèdre</hi> de Racine, une pièce nouvelle sur un sujet ancien : c’est, bien réellement, une « adaptation », comme on dit aujourd’hui, ou, si vous voulez, une traduction libre et abrégée. Pas une scène de l’<hi rend="i">Apollonide</hi> qui ne soit dans <hi rend="i">Ion</hi> ; et l’ordre des scènes est le même dans les deux ouvrages. Leconte de Lisle n’a procédé que par retranchement et dessèchement… Je le sais ; mais, pour en être plus sûr, je vais relire la tragédie d’Euripide.</p>

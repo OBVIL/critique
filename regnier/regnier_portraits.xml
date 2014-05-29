@@ -13,34 +13,32 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
-        </respStmt>
-        <respStmt>
           <name>Pascale Langlois</name>
           <resp>2011, coordination éditoriale</resp>
         </respStmt>
+        <respStmt>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="55" unit="page"/>
-        <measure quantity="369" unit="paragraph"/>
-        <measure quantity="37655" unit="word"/>
-        <measure quantity="225795" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher>?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/regnier_portraits/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
-      <sourceDesc>
-        <bibl><ref target="http://archive.org/stream/portraitsetsouve00rguoft#page/n337/mode/2up"/></bibl>
-      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -52,19 +50,8 @@
     </profileDesc>
   </teiHeader>
   <text>
-     <front>
-      <titlePage>
-        <docAuthor>Henri de Régnier</docAuthor>
-        <docDate>1925</docDate>
-        <titlePart>Portraits et souvenirs</titlePart>
-        <argument>
-          <p>Cette édition électronique ne comporte pas le recueil « Pour les mois d’hiver » qui figure dans l'édition imprimée</p>
-        </argument>
-      </titlePage>
-    </front>
     <body>
       <div>
-        <pb/>
         <head type="h1">Avertissement</head>
         <p>Le public se passerait sans doute assez bien d’un ouvrage de cette sorte, qui n’est, en somme, qu’un recueil d’articles de journaux, mais l’au­teur en a pour excuse un intérêt particulier que ce même public, j’en suis certain, lui concédera volontiers.</p>
         <p/>
