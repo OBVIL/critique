@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="becq-de-fouquieres_art-mise-en-scene" xml:lang="fr">
   <!--
@@ -62,6 +62,7 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <!--
     <front>
       <titlePage> 
         <docTitle>
@@ -73,6 +74,7 @@
         <docDate>1884</docDate>   
       </titlePage>
     </front>
+    -->
     <body>     
       <div>
         <head>Préface</head>

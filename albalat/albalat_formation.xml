@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_formation" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -11,12 +11,12 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2014, édition TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2014, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Pascale Langlois</name>
@@ -42,7 +42,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Antoine Albalat</author>, <title>La formation du style par l'assimilation des auteurs</title>,<publisher>Armand Colin</publisher>, <pubPlace>Paris</pubPlace>, <date>1902</date>.</bibl>
+        <bibl><author>Antoine Albalat</author>, <title>La formation du style par l'assimilation des auteurs</title> (2e édition),<publisher>Armand Colin</publisher>, <pubPlace>Paris</pubPlace>, <date>1902</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -50,29 +50,19 @@
         <date when="1902"/>
       </creation>
       <langUsage>
-        <language ident=""/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <docAuthor>Antoine Albalat</docAuthor>
-        <titlePart>
-          La formation du style par l’assimilation des auteurs
-        </titlePart>
-        <docImprint>Librairie Armand Colin, Paris, 5, rue de Mézières</docImprint>
-        <docDate>1902</docDate>
-        <docEdition>2e édition</docEdition>
-      </titlePage>
-    </front>
-    <body>
-      <div>
         <argument>
           <p>À Madame Marie Zoubow</p>
           <p>En souvenir de mon voyage à Florence et de nos causeries inoubliables sur les royales terrasses de l’Ombrellino, je dédie ce livre comme un hommage de reconnaissance, d’admiration et de profond attachement filial.</p>
           <p>A. A.</p>
         </argument>
+    </front>
+    <body>
         
         <div>
           <head>Préface</head>
@@ -2087,7 +2077,6 @@
           <p>L'étude de nos grands écrivains classiques est le seul moyen de réagir contre ce mal et de former son style.</p>
           <p>S'il est vrai que « l’objet du style est d’obtenir la plus grande quantité de sensations possibles à la fois<note rend="author"> Beccaria, <hi rend="i">Recherches sur le style</hi>, ch. IV.</note> », n’oublions pas que l’art d’écrire seul les fera jaillir, par la science même de l’expression ; et que cet art d’écrire est un don qu’on possède d’abord par innéité, mais qui se développe par l’étude de ceux qui ont été et qui resteront les maîtres de la littérature française.</p>
         </div>
-      </div>
     </body>
   </text>
 </TEI>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_ennemis" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Les ennemis de l'Art d'écrire</title>
+        <title>Les ennemis de l'art d'écrire</title>
         <title type="sub">Réponse aux objections de MM. F. Brunetière, Emile Faguet, Adolphe Brisson, Rémy de Gourmont, Ernest Charles, G. Lanson, G. Pélissier, Octave Uzanne, Léon Blum, A. Mazel, C. Vergniol, etc…</title>
         <author key="Albalat, Antoine (1856-1935)">Antoine Albalat</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
@@ -39,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>Antoine Albalat</author>, <title>les ennemis de l’art d’écrire : réponse aux objections de MM. F. Brunetière, Emile Faguet, Adolphe Brisson, Rémy de Gourmont, Ernest Charles, G. Lanson, G. Pélissier, Octave Uzanne, Léon Blum, A. Mazel, C. Vergniol, etc…</title> Paris: 1905.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -52,11 +52,9 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docAuthor>Antoine Albalat</docAuthor>
-        <titlePart>Les Ennemis de l’Art d’Ecrire</titlePart>
-        <titlePart type="sub">Réponse aux objections de MM. F. Brunetière, Emile Faguet, Adolphe Brisson, Rémy de Gourmont, Ernest Charles, G. Lanson, G. Pélissier, Octave Uzanne, Léon Blum, A. Mazel, C. Vergniol, etc…</titlePart>
+    <body>
+      <div>
+        <pb/>
         <epigraph>
           <l>A M. <hi rend="sc">Etienne</hi> de NALÈCIIE</l>
           <l>Directeur du Journal des Débats,</l>
@@ -64,11 +62,6 @@
           <l>fidèle et dévoué collaborateur</l>
           <l rend="right">A. A.</l>
         </epigraph>
-      </titlePage>
-    </front>
-    <body>
-      <div>
-        <pb/>
         <head>I</head>
         <argument>
           <p>Apprend-on à écrire ? — Les objections contre l’art d'écrire. — Le but de notre enseignement. — Ceux qui l'ont compris. — Le titre : En vingt leçons. — Ce que nous enseignons. — Plaisan­teries et prétentions. — Signification de ce titre. — Une objection de M. Adolphe Brisson. — Un monsieur grincheux. — Une objection person­nelle.</p>
@@ -544,14 +537,14 @@
         
       </div>
       <div>
-        <pb/><head>CONCLUSION</head>
+        <pb/><head>Conclusion</head>
         <p>Qu'on me permette quelques brèves réflexions avant de fermer ce volume. Les critiques de bonne foi, ceux qui n'ai­ment ni le paradoxe, ni l'injustice, ceux-là ne se sont pas trompés sur la portée et la signification de nos livres. En leur offrant ici tous mes remerciements, je voudrais signaler, pour leur grande sympathie de compréhension, MM. Gabriel Colin, qui dans <hi rend="i">l’Univers</hi>, le <hi rend="i">Bulletin de la Société d’éducation</hi> et bien d'autres Revues, s'est fait le propagateur sincère de nos théo­ries ; Elzéar Rougier, mon fidèle ami de doctrine et d'idées, qui répand la bonne parole littéraire en province ; Michel Salomon, qui nous défend si vaillamment dans le <hi rend="i">Journal de Genève</hi> ; Ch. Le Goffic, qui ne cache pas non plus ses convic­tions ; André Chaumeix qui, dans un succinct article du <hi rend="i">Correspondant</hi>, a pu­blié la plus claire et la plus complète ex­position de nos livres ; des professeurs, comme MM. Henri Chantavoine, Victor Giraud, Glachant, Pierre Brun, Châtel, Pascal Monet, Gustave Allais, Vergniol, Valéry le Ricolais, Jules Delvaille, Gausseron, Van Dooren, qui soutiennent nos principes avec tant de compétence dans leurs chaires ou dans des Revues ; Vir­gile Rossel dans la <hi rend="i">Revue du dimanche</hi> de Lausanne ; le P. Chérot dans les <hi rend="i">Études religieuses</hi> ; Lapauze, H. d'Alméras, Jean Lionnet, Henri Bordeaux, L. Gaubert, H. Duvernois, Rivoire et tant d'autres pour qui j'ai les mêmes sentiments de reconnaissance.‌</p>
         <p>Je ne puis éprouver également qu'une très sincère gratitude pour les critiques qui, m’opposant des réserves m'ont fait l'honneur de m'éclairer dans leurs objec­tions, MM. Gaston Deschamps dans le <hi rend="i">Temps</hi>, Blum dans <hi rend="i">Gil Blas</hi>, Ballot dans <hi rend="i">le Figaro</hi>, Ernest Charles dans la <hi rend="i">Revue bleue</hi>, Bertaut dans la <hi rend="i">Revue hebdomadaire</hi>, Guerlin dans la <hi rend="i">Revue Mame</hi>, Adolphe Brisson dans les <hi rend="i">Annales</hi>, Masel dans la <hi rend="i">Revue du Midi</hi>, Durand-Gréville dans le <hi rend="i">Journal de Saint-Pétersbourg</hi>, etc.‌</p>
         
       </div>
       <div>
         <pb/>
-        <head>APPENDICE</head>
+        <head>Appendice</head>
         <p>Les reproches que M. de Gourmont fait à Leconte de Lisle sont injustes et puérils. D'après lui, l'Homère parnas­sien, c'est-à-dire celui de Leconte de Lisle, « multiplie les épithètes impré­cises et inutiles, Les piques sont toujours <hi rend="i">éclatantes</hi>, la terre <hi rend="i">nourricière</hi>, les chevaux <hi rend="i">rapides</hi>, le lait <hi rend="i">blanc</hi>, les nefs <hi rend="i">creuses</hi>, la guerre <hi rend="i">lamentable</hi>, etc. » Ce procédé d'épithètes fixes, que l’auteur de l’<hi rend="i">Iliade</hi> tient certainement par tradition de ses prédécesseurs, n’a absolument rien de parnassien. Elles sont dans Homère ; Leconte de Lisle n'a fait que les repro­duire, et Desmarets de Saint-Sorlin les dénonçait bien avant M. de Gourmont. On reproche encore à cet Homère par­nassien d'avoir dit de l'espion Dolon : « Il s'arrête, plein de crainte, épouvanté, tremblant, pâle et ses dents claquaient. » « Il lui faut, dit-on moqueusement, cinq épithètes ! » Encore une fois, ce n'est pas la faute du traducteur parnassien. Ces cinq expressions sont dans l'original. Voici le texte juxtalinéaire, que j'emprunte aux traductions classiques de Ha­chette : « Et lui, certes, s'arrêta, et trembla, claquant des dents, et un bruit de dents eut lieu dans sa bouche, pâle de frayeur. » Si ce n'est pas encore là « le véritable Homère », où donc peut-il être, et où le doit-on chercher ? Or, Leconte de Lisle est partout fidèle à ce souci de littéralité, et c'est ce qui donne tant de force à sa traduction. Sans quitter le chant X, quelques exemples nous mon­treront l'exact procédé de traduction du poète parnassien. Voici le début :‌</p>
         <p>traduction leconte de lisle</p>
         <p>Les chefs des Panakhaiens dormaient dans la nuit, auprès des nefs, domptés par le sommeil ; mais le doux sommeil ne saisissait point l’Atréide Agamemnôn, prince des peuples, et il roulait beaucoup de pensées dans son esprit.‌</p>
