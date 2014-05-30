@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../lib/teipub/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="Brunetiere_evolutiondesgenres" xml:lang="">
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brunetiere_evolution-des-genres" xml:lang="">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,24 +11,30 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
         <respStmt>
           <name>Pascale Langlois</name>
           <resp>Coordination éditoriale</resp>
         </respStmt>
       </editionStmt>
-           <publicationStmt>
-        <publisher> ?</publisher>
+      <publicationStmt>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/brunetiere_evolution-des-genres/</idno>
         <date when="2013"/>
-        <idno> ?</idno>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -45,19 +51,7 @@
     </profileDesc>
   </teiHeader>
     <text>
-      <front>
-        <titlePage>
-          <docAuthor>Ferdinand Brunetière</docAuthor>
-          <titlePart><hi rend="uc">L'évolution des genres dans l'histoire de la littérature</hi><lb/>
-            Leçons professées à l'école normale supérieure
-          </titlePart>
-          <titlePart><hi rend="uc">Introduction</hi><lb/>
-            L’évolution de la critique depuis la Renaissance <lb/>jusqu’à nos jours</titlePart>
-          <docEdition>6<hi rend="sup">e</hi> édition</docEdition>
-          <docImprint>Librairie Hachette et Cie</docImprint>
-          <docDate>1914</docDate>
-        </titlePage>
-      </front>
+
       <body>
       <div type="dedication">
        <head>A M. Paul Porel,</head>

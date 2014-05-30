@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="deschanel_romantisme" xml:lang="fr">
+<?xml-model href="../../teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="deschanel_romantisme" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,29 +11,30 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="211" unit="page"/>
-        <measure quantity="2601" unit="paragraph"/>
-        <measure quantity="94575" unit="word"/>
-        <measure quantity="542626" unit="character"/>
-      </extent>
       <publicationStmt>
-        <publisher>OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/deschanel_romantisme/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?"/>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>Émile Deschanel</author>, <title>le Romantisme des classiques</title> (quatrième édition). Paris : Calmann Lévy, éditeur, 1885.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,20 +47,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>Le Romantisme des classiques</titlePart>
-        </docTitle>
-        <docAuthor>Émile <surname>Deschanel</surname></docAuthor>
-        <docEdition>Quatrième édition</docEdition>
-        <docImprint>
-          <placeName>Paris</placeName><lb/>
-          <publisher>Calmann Lévy, éditeur</publisher><lb/>
-          <publisher>Ancienne maison Michel Lévy Frères</publisher>
-        </docImprint>
-      </titlePage>
-    </front>
     <body>
       <div>
         <head type="h1">Préface</head>

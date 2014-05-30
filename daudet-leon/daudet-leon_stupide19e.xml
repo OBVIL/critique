@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="daudet-leon_stupide19e">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,19 +11,30 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Pascale Langlois</name>
+          <resp>2011, coordination éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/daudet-leon_stupide19e/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -40,28 +51,11 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage rend="center">
-        <docAuthor>LÉON DAUDET<lb/>
-          de l’Académie Française</docAuthor>
-        <docTitle>
-          <titlePart>Le stupide XIX<hi rend="sup">e</hi> siecle,
-            <lb/>Exposé des insanités meurtrières qui se sont abattues sur la France depuis 130 ans‌
-            <lb/>1789-1919</titlePart>
-        </docTitle>
-        <docImprint>
-          <pubPlace>Paris</pubPlace><lb/>
-          <publisher>NOUVELLE LIBRAIRIE NATIONALE</publisher><lb/>
-          <placeName>3, place du Panthéon. 3</placeName>
-        </docImprint>
-        <docDate>MCMXXII</docDate>
+    <body>
+      <div>
         <epigraph>
           <l>À la haute et fière mémoire du Comte Eugène de Lur Saluces exilé de France en châtiment de sa clairvoyance, L. D.</l>
         </epigraph>
-      </titlePage>
-    </front>
-    <body>
-      <div>
         <head>Avant-propos en manière d’introduction</head>
         <p>Né dans le dernier tiers du dix-neuvième siècle et mêlé, par la célébrité paternelle, à l’erreur triomphante de ses tendances politiques, scientifiques et littéraires, j’ai longuement participé à cette erreur, jusqu’environ ma vingtième année. Alors, sous diverses influences, notamment sous le choc des scandales retentissants du régime, puis de la grande affaire juive, et des réflexions qui s’ensuivirent, le voile pour moi se déchira. Je reconnus que les idées courantes de nos milieux étaient meurtrières, qu’elles devaient mener une nation à l’affaissement et à la mort, et que baptisées dans le charnier des guerres du premier Empire, elles mourraient sans doute dans un autre charnier pire. Les quelques exposés qui vont suivre sont ainsi plus une constatation qu’une démonstration. On en excusera la forme volontairement âpre, rude et sans ménagement. Ce qui a fait la force détestable de l’esprit révolutionnaire, et sa suprématie, depuis cent trente ans, c’est la faiblesse de l’esprit réactionnaire, rabougri, dévié et affadi en libéralisme. Les abrutis, souvent grandiloquents et quelquefois du plus beau talent oratoire et littéraire, allant jusqu’au génie verbal (cas de Victor Hugo par exemple), qui menaient l’assaut contre le bon sens et la vérité religieuse et politique, ne ménageaient, eux, rien ni personne. Ils se ruaient à l’insanité avec une sorte d’allégresse et de défi, entraînant derrière eux ces stagnants, qui ont peur des mots et de leur ombre, peur de leurs contradicteurs, peur d’eux-mêmes. Ils appelaient à la rescousse la foule anonyme et ignorante, cette plèbe intellectuelle qu’il ne faut pas confondre avec le peuple, et qui n’a été, au cours de l’histoire, que la lie irritée de la nation. Il n’est rien de plus sage, ni de plus raisonnable, que le peuple français dans ses familles, ses besoins, son labeur et ses remarques proverbiales. Il n’est rien de plus délirant que cette plèbe comiciale, infestée d’étrangers, errante et <hi rend="i">vugulaire</hi>, mal définie, qui va des assaillants de la Bastille aux politiciens républicains de la dernière fournée. Conglomérat baroque et terrible (baroque en ses éléments, terrible en ses résultats), qui mêle et juxtapose le juriste sans entrailles et borné, au médicastre de chef-lieu, au ploutocrate de carrefour, au souteneur mal repenti, à la fille publique travestie en monsieur. Jamais, même au temps d’Aristophane ou de Juvénal, jamais pareille matière ne s’est offerte au satirique, avec une semblable profusion, un tel foisonnement d’ignares, de tâtonnants, d’infatués, de foireux et de fols. Nous verrons les noms à mesure, car je n’ai nulle intention de les celer.</p>
         <p>C’est, je crois, le philosophe catalan Balmès, défenseur illustre et clair du catholicisme, qui exprima, le plus justement, cette idée qu’il importe, pour nuire réellement à une doctrine pernicieuse, de s’en prendre à ceux qui la propagent. Rien de plus juste. Les polémiques <hi rend="i">ad principia</hi> ont leur autorité et leur prix. Mais elles ne deviennent percutantes qu’en s’incarnant, en devenant polémiques <hi rend="i">ad personas</hi>, du moins quant aux vivants. « Vous compliquez la tâche », s’écrient les paresseux et les timides. Pour vous peut-être, qui vous contentez d’un semblant de lutte et de fausses victoires académiques. Nous la simplifions, au <hi rend="i">contraire</hi>, pour ceux qui veulent des résultats tangibles, positifs, solides. En voici un exemple et récent :</p>
