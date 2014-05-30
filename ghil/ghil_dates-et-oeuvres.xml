@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="ghil_dates-et-oeuvres" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title ref="http://gallica.bnf.fr/ark:/12148/bpt6k203712g">Les dates et les œuvres</title>
-        <title type="sub">Symbolisme et poésie scientifique</title>
+        <title ref="http://gallica.bnf.fr/ark:/12148/bpt6k203712g">Les dates et les œuvres : symbolisme et poésie scientifique</title>
         <author key="Ghil, René (1862-1925)" ref="http://www.idref.fr/026890011">René Ghil</author>
+        <editor>Anne Gourio</editor>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>LABEX OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/ghil_dates-et-oeuvres/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence/>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>René Ghil</author>, <title>Les dates et les œuvres : symbolisme et poésie scientifique</title>, <publisher>G. Crès (Paris)</publisher>, <date>1923</date></bibl>
+        <bibl><author>René Ghil</author>, <title>Les dates et les œuvres : Symbolisme et poésie scientifique</title>. <imprint>Paris, les éditions G. Crès et C<hi rend="sup">ie</hi></imprint></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,15 +49,6 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage rend="center">
-        <docAuthor>René Ghil</docAuthor>
-        <docTitle>
-          <titlePart>Les dates et les œuvres
-            <lb/>Symbolisme et poésie scientifique</titlePart>
-        </docTitle>
-        <docImprint>Paris,<lb/>
-          <lb/>Les éditions G. Crès et C<hi rend="sup">ie</hi></docImprint>
-      </titlePage>
       <div type="preface">
         <head>Préface de l’éditeur<note resp="editor">Pour une étude approfondie de l’œuvre, nous renvoyons à l’édition savante de Jean-Pierre Bobillot, à paraître aux ELLUG en 2012.</note></head>
         <byline><docAuthor>Anne Gourio</docAuthor></byline>
@@ -790,7 +788,7 @@
       </div>
       <div>
         <head>XIII - Stéphane Mallarmé</head>
-        <head type="sub" rend="uc">L’<hi rend="ital">Œuvre</hi> premiere – La seconde <hi rend="ital">Œuvre</hi> – L’<hi rend="ital">Œuvre revée.</hi></head>
+        <head type="sub" rend="uc">L’<hi rend="i">Œuvre</hi> première – La seconde <hi rend="i">Œuvre</hi> – L’<hi rend="i">Œuvre rêvée</hi>.</head>
         <p>Lui-même, le souriant Mallarmé des Mardis de la rue de Rome, aimait rappeler que vers la douzième année il n’avait d’autre souhait que devenir Evêque. Aussi, un autre vœu l’occupe secrètement: remplacer dans l’admiration publique Béranger, le vieux Béranger chantre de sa Lisette et de l’Homme à la redingote grise qui « s’était assis là, grand-mère ! » Il l’avait vu en quelque maison amie : un grand poète! lui avait-on dit. Le premier souhait était, dirons-nous, la vraie et instinctive expression de son âme. Et c’est vraiment quelque chose comme le représentant suprêmement épiscopal d’un Art occulte qu’il devint, le regard pris en la contemplation de la large et magique pierre violette enchassée en l’anneau sacré:</p>
         <quote>
           <l>Eau froide par l’ennui dans ton cadre gelée ...<note resp="editor" n="81">« Scène d’Hérodiade », v.45, <hi rend="i">Poésies</hi>, Poésie/Gallimard, 1992, p. 27.</note></l>

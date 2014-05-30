@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="faguet_politique-comparee" xml:lang="fr">
   <!--
@@ -38,15 +38,21 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher> ?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/la-fontaine/</idno>
         <date when="2013"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/faguet_politique-comparee.xml</idno>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Emile Faguet</author>, <title>La politique comparée de Montesquieu, Rousseau et Voltaire</title>.</bibl>
+        <bibl><author>Emile Faguet</author>, <title>La politique comparée de Montesquieu, Rousseau et Voltaire</title>. New York : Burt Franklin, 1902.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -60,13 +66,10 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <docAuthor>Émile Faguet</docAuthor>
-        <titlePart>La Politique comparée de Montesquieu, Rousseau Et Voltaire </titlePart>
-        <docEdition>Burt Franklin New York</docEdition>
-      </titlePage>
+    </front>
+    <body>
       <div type="preface">
-        <p>Avant-Propos</p>
+        <head>Avant-Propos</head>
         <p>Je voudrais étudier les différentes questions politiques qui nous préoccupent, qui nous divisent et qui nous ruinent depuis cent vingt ans, ou du moins les plus importantes, dans les trois hommes les plus considérables du <num>xviii<hi rend="sup">e</hi></num> siècle. Que leur influence ait été grande sur la Révolution, c’est ce qui a été incontestable, c’est ce qui a été très contesté et c’est ce qu’en définitive je ne crois pas. Mais elle l’a été sur tout le XIX<hi rend="sup">e</hi> siècle d’une manière éclatante, et c’est comme à la lumière de leurs écrits qu’on a interprété de différentes façons la Révolution française et qu’on a décidé, en différents sens, de la manière dont on devait la continuer. Une étude diligente de leurs idées, continuellement comparées entre elles, a donc peut-être quelque intérêt.</p>
         <p>Je dis continuellement comparées entre elles.</p>
         <p>Ce qui suit n’est pas une étude sur Montesquieu, suivie d’une étude sur Rousseau à laquelle s’ajoute une étude sur Voltaire. C’est une manière de cours de politique, incomplet à la vérité, dans lequel, sur chaque question, je demande son avis successivement à Montesquieu, à Rousseau et à Voltaire. Je suis cet ordre, parce que Montesquieu est le premier en date, et parce que Voltaire s’est occupé de politique quand depuis longtemps Rousseau ne s’en occupait plus.</p>
@@ -75,10 +78,6 @@
           <docDate when="1902-03-25">25 mars 1902.</docDate>
         </dateline>
       </div>
-    </front>
-    <body>
-      <div>
-        <head>La Politique comparée de Montesquieu, Rousseau Et Voltaire </head>
         <div>
           <head>Chapitre I. De l’idée de patrie</head>
           <div>
@@ -905,7 +904,6 @@
           </list>
           <p>Pour toutes ces raisons, le rêve de Voltaire, le vrai, la monarchie absolue, sous un titre ou sous un autre, mais la monarchie absolue, ennemie de toute liberté, concentrant tous les pouvoirs, intelligente quand elle pourra, c’est-à-dire une fois sur dix, persécutrice, défiante, tracassière et tyrannique toujours, protégeant peut-être les arts et les lettres, qui n’ont pas besoin d’être protégés ; c’est à quoi il faut s’attendre et ce qui nous attend. Ç’a été le premier résultat de la Révolution française, c’en sera le dernier. C’était la philosophie politique de Voltaire. Elle sera réalisée. L’avenir appartient au roi Voltaire. Il appartient aussi au roi de Voltaire.</p>
         </div>
-      </div>
     </body>
   </text>
 </TEI>
