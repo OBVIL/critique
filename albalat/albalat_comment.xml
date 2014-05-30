@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_comment" xml:lang="fr">
   <teiHeader>
@@ -12,11 +12,11 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
@@ -39,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl/>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -60,7 +60,7 @@
         -->
       <div>
         <pb/>
-        <head>PRÉFACE</head>
+        <head>Préface</head>
         <p>La vocation littéraire est une disposition générale pour l’art d'écrire, qui se développe par la lecture et qui peut s'appliquer à tous les genres de productions, romans, histoire, érudition, critique ... On se trompe très souvent sur sa propre tournure d'esprit; tel débute par des essais philosophiques qui excelle plus tard dans la peinture des réalités vivantes. Il est difficile de bien connaître les premières raisons de nos goûts, et de démêler les influences qui déter­minent le choix d'un sujet ou d'un livre. La plupart du temps, au lieu de se recueillir et de mûrir son talent, on est pressé d'écrire, on publie à la hâte, au hasard, sans réflexion et sans but.</p>
         <p>Pour éviter les fâcheuses conséquences qu'entraîne cette précipitation, il m'a paru utile de donner quelques conseils de conduite et de travail à ceux qu'un goût invincible pousse vers la carrière litté­raire.</p>
         <p>On nous dira : « Vous voulez nous enseigner à faire du roman et de l'histoire ? Quelle est votre com­pétence ? Quels sont vos titres ? Voyons vos œuvres. »</p>
@@ -70,7 +70,7 @@
       </div>
       <div>
         <pb/>
-        <head>CHAPITRE PREMIER</head>
+        <head>Chapitre premier</head>
         <head>La vocation et le succès.</head>
         <argument>
           <p>L'ambition d'écrire. — La carrière littéraire. — Les dis­positions littéraires. — La question du talent. — La vraie vocation. — Le public et le succès. — Comment se fait le succès. — Le rôle de la critique. — Le lance­ment d'un livre. — Les prix littéraires. — La réclame et la vente.</p>
@@ -118,8 +118,8 @@
         <p>Depuis plus de vingt ans, je m'amuse à inter­roger, sur ce sujet, au cours de mes voyages ou de mes villégiatures, des gens très simples. J'obtiens les réponses les plus ahurissantes.‌</p>
         <p>Dans les milieux simples, la gloire apparaît comme une balançoire. Les plus grands des humains n'y laissent qu'un sillage très indistinct, et le plus souvent rien du tout ...‌</p>
         <p>Même dans les milieux moins simples, la re­nommée est fréquemment une chose ridicule et désordonnée. Personne à peu près ne connaît les plus grands savants, ceux qui ont contribué à nous faire pénétrer dans le mystère du monde. La gloire des écrivains et des artistes va au petit bonheur.‌</p>
-        <l>Une jeune dame, grande lectrice, me disait, il y a trois ans, sur une plage :</l>
-        <said>— Le livre de vous que j'aime le plus, c'est <hi rend="i">Fromont jeune et Bisler aîné</hi>.‌</said>
+        <p>Une jeune dame, grande lectrice, me disait, il y a trois ans, sur une plage :</p>
+        <p>— Le livre de vous que j'aime le plus, c'est <hi rend="i">Fromont jeune et Bisler aîné</hi>.‌</p>
         <l>Pauvre Daudet ! »</l>
         <p/>
         <p>Comment expliquer le succès ? Le fabrique-t-on ? Peut-on lancer un livre comme on lance un pro­duit commercial ? On a prétendu que le succès dépendait d'un bon éditeur. « L'argent est là pour activer les choses, dit Albert Cim ... Et soyez tran­quille, si inepte, si piètre et pitoyable que soit ce fruit de votre veine, il se vendra, atteindra même un mirobolant chiffre de tirage, pourvu seulement que vous ne lésiniez pas, que la réclame soit co­pieuse et variée, incessante, étourdissante et infa­tigable <note type="NdA" n="5"><hi rend="i">le Dîner des gens de Lettres</hi>, p.46</note>. »</p>
@@ -155,7 +155,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE II</head>
+        <head>Chapitre II</head>
         <head>Le style et le roman.</head>
         <argument>
           <p>L'envahissement du roman. — L'argent et le roman. — La loi du travail : George Sand, Villiers de l'Isle-Adam, Paul Arène, Baudelaire. — Le mauvais style.</p>
@@ -212,7 +212,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE III</head>
+        <head>Chapitre III</head>
         <head>Comment on fait un roman<lb/>(Suite)</head>
         <argument>
         <p>La prose actuelle. — Doit-on bien écrire le roman ? — L'effort et l'originalité. — La sincérité littéraire. — Le cas de Lamennais. — L'éternel roman d'amour. — Le roman drôle. — Le roman psychologique.</p>
@@ -283,7 +283,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE IV</head>
+        <head>Chapitre IV</head>
         <head>Comment on fait un roman.<lb/>(Suite)</head>
         <argument>
           <p>Balzac et le vrai réalisme. — Flaubert et le roman, — La signification de <hi rend="i">Madame Bovary</hi>. — Faut-il copier la vie ? — Le procédé de Tourgueneff. — Les caractères et les personnages. — Balzac copiait-il ? — La « documen­tation ». — Les noms des personnages.‌</p>
@@ -334,7 +334,7 @@
       </div>
       <div>
         <pb/>
-        <head>CHAPITRE V</head>
+        <head>Chapitre V</head>
         <head>Comment on fait un roman.<lb/>(Suite)</head>
         <argument>
           <p>Faut-il écrire ses souvenirs ? — L'emploi du je — Le choix du sujet. — Faut-il écrire pour le public ? — Le public et Théophile Gautier. — Le plan et la composition. — Flaubert et l'impassibilité. — La couleur locale. — La description exotique.</p>
@@ -411,7 +411,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE VI</head>
+        <head>Chapitre VI</head>
         <head>Quels romans faut-il lire ?</head>
         <argument>
           <p><hi rend="i">Paul et Virginie</hi>. — <hi rend="i">Don Quichotte</hi>. — <hi rend="i">La Nouvelle Héloïse. Clarisse Harlowe</hi>. — Tourguéneff. — Balzac. — <hi rend="i">Manon Lescaut</hi> et Barbey d'Aurevilly. — Le roman d'aven­tures. — Le roman rustique. — Ferdinand Fabre. — Le roman mondain. — Le roman et la couleur historiques. — Le roman et la « nouvelle ».‌</p>
@@ -521,7 +521,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE VII</head>
+        <head>Chapitre VII</head>
         <head>L'érudition et le livre d'histoire.</head>
         <argument>
         <p>Qu'est-ce que l'érudition ? — M. Marcel Prévost et les fiches. — La fausse érudition. — La vie et les idées générales. — La vie et l'érudition. — Le style et l'His­toire. — Tacite, Carlyle, Michelet, Tillemont.</p>
@@ -573,7 +573,7 @@
       </div>
       <div>
         <pb/>
-        <head>CHAPITRE VIII</head>
+        <head>Chapitre VIII</head>
         <head>Ce que doit être la critique littéraire.</head>
         <argument>
           <p>La vraie critique. — La lecture et la critique. — Les divergences d'opinions. — Lamartine critique. — Dante et Tolstoï. — La morale et Id critique. — Les parti pris de la critique. — L'influence de la littérature. — Les lois littéraires. — La mauvaise critique. — La critique-cliché.</p>
@@ -644,7 +644,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE IX</head>
+        <head>Chapitre IX</head>
         <head>Ce que doit être la critique littéraire.<lb/>(Suite)</head>
         <argument>
           <p>Les difficultés de la critique. — L'envahissement des livres, Comment juger un livre. — Un devoir d'élèves. — La critique irascible. — Les critiques à lire : Sainte- Beuve, Jules Lemaître, Émile Faguet, Philarète Chasles, Gustave Planche, Vacquerie. — Georg Sand et la critique. — Les enseignements de la critique.</p>
@@ -705,7 +705,7 @@
       <div>
         <pb/>
         
-        <head>CHAPITRE X</head>
+        <head>Chapitre X</head>
         <head>Comment on fait un sermon.</head>
         <argument>
         <p>Les mauvais sermons. — Le style de la chaire. — Les sermons ridicules. — L'improvisation et le travail. — Les procédés de Bossuet. — Les Sermonnaires. — Le sermon au théâtre — Nécessité du style. — Le réalisme de Bossuet. — Bossuet le grand modèle.</p>
@@ -805,7 +805,7 @@
       </div>
       <div type="article">
         <pb/>
-        <head>CHAPITRE XII</head>
+        <head>Chapitre XII</head>
         <head>La traduction comme moyen de former son style.<lb/>(Suite)</head>
         <argument>
           <p>Les bonnes traductions. — La valeur d'Amyot.— Homère et Leconte de Lisle. — Leconte de Lisle et la littérolité. — Les traductions de Bossuet. — Bossuet et la Bible.</p>
@@ -888,7 +888,7 @@
       </div>
       <div>
         <pb/>
-        <head>CHAPITRE XIII</head>
+        <head>Chapitre XIII</head>
         <head>Le journalisme et les conférences.</head>
         <argument>
           <p>Le métier de journaliste. — Les grands journalistes. — Le journalisme et le style. — La manie des conférences. — Alexandre Dumas conférencier. — Le style et les conférences.</p>
@@ -904,8 +904,8 @@
         <p>« J'avais, tout jeune, passé mes examens pour l'École navale, avant de préparer Polytechnique ; je réunis mes souvenirs et entrai bravement dans le vif de mon sujet, agrémenté d'expressions tech­niques qui me valurent les compliments de Girar­din. L'article ne souleva pos une protestation; pas une rectification n'en détruisit l'heureux effet et, pour que la honte fût complète, trois mois après, je recevais l'ordre du Christ du Brésil ! Girardin m'en félicita <note type="NdA" n="111"><name rend="sc">G. Duval</name>, Mémoires d'un Parisien, p. 130</note>. »</p>
         <p>Quelquefois, c'est le contraire qui arrive : on oblige un homme intelligent à écrire des articles stupides.</p>
         <p>« Si beaucoup de jeunes gens se croient destinés à briller dans la carrière, c'est qu'ils n'ont aucune idée de ce qu'est le journalisme. Un jeune licencié ès lettres, candidat à l'agrégation, fut admis un jour dans un journal. Il assista au premier « rapport ». Il lui échut une enquête à faire sur un cam­briolage dans une bijouterie. Le lendemain, il eut à suivre un drame passionnel. Le surlendemain ...</p>
-        <l>« Le surlendemain, il vint trouver son rédacteur en chef et lui expliqua naïvement :</l>
-        <said>— C'est que ... je vais vous dire : mon affaire, à moi, c'est plutôt la politique.</said>
+        <p>« Le surlendemain, il vint trouver son rédacteur en chef et lui expliqua naïvement :</p>
+        <p>— C'est que ... je vais vous dire : mon affaire, à moi, c'est plutôt la politique.</p>
         <p>II s'était figuré, de bonne foi, qu'on l'avait engagé pour écrire « des articles » et donner son opinion sur la situation européenne. Notez qu'il y serait peut-être parvenu : il suffisait d'une interview ou d'un reportage politique réussi pour le mettre tout de suite sur un autre plan. Mais il n'avait pas la patience d'attendre. Il se sentait humilié de travailler dans le « fait-divers ». Il ne comprenait pas le métier. Il n'avait donc, et c'était justice, aucune chance d'y réussir <note type="NdA" n="112">André <name rend="sc">Billy</name> et Jean <name rend="sc">Piot</name>, <hi rend="i">le Monde des journaux</hi></note>. »</p>
         <p>Émile Zola considérait le journalisme comme un excellent exercice d'assouplissement. Il est possible que le journalisme enseigne àécrire vite ; je crois qu'il enseigne surtout àécrire mal.</p>
         <p>L'article de journal est, par sa nature, voué à l'oubli. Henri Fouquier gagna une fortune à publier plusieurs articles par jour, pendant des années. Qui le lit aujourd'hui ? Et qui se souvient de Timothée Trimm ?</p>
@@ -936,7 +936,7 @@
       </div>
       <div type="article">
         <pb/>
-        <head>CHAPITRE XIV</head>
+        <head>Chapitre XIV</head>
         <head>Le guide et les conseils.</head>
         <argument>
           <p>Nécessité d'un guide. — Les conseillers de Flaubert. — Maupassant et Flaubert. — Racine et Boileau. — La docilitó de Chateaubriand. — Les enquêtes de Mme de Staël. — La vanité littéraire. — Les avantages d'un bon conseiller.</p>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bazalgette_latin" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>le Problème de l'avenir latin</title>
+        <title>Le problème de l'avenir latin</title>
         <author key="Bazalgette, Léon (1873-1928)">Léon Bazalgette</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieuxc</name>
-          <resp>2013, édition XML/TEI</resp>
+          <name>Emma Ozawa</name>
+          <resp/>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Emma Ozawa</name>
-          <resp/>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -43,7 +43,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl/>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -59,7 +59,7 @@
     <body>
       <div>
         <pb/>
-        <head>INTRODUCTION</head>
+        <head>Introduction</head>
         <p>Il est des questions qui semblent tellement rebattues qu’à simplement les énoncer on court le risque de voir l’auditeur ou le lecteur se cuirasser d’indifférence, persuadé d’avance que rien ne peut être émis sur ce point qui n’ait été produit, discuté, résolu.</p>
         <p>Il est à craindre pour l’auteur de ce livre que le sujet qu’il a entrepris de traiter ne soit de cet ordre. Combien de fois n’a-t-on pas entendu répéter dans les milieux où s’agitent les problèmes contemporains, ces formules : « races latines », « famille latine », « infériorité ou supériorité latine », « avenir latin » ! Ce fut là une des questions à l’ordre du jour de ces années dernières. Chacun paraît avoir exprimé son avis en une matière que l’on pressent obscurément d’intérêt actuel, dans cette partie de l’Europe du moins, — sans se rendre compte de sa primordiale importance. Ce qui fait qu’aujourd’hui s’emparer d’un tel sujet équivaut presque à s’annoncer un diseur de lieux communs.</p>
         <p>Pourtant l’appréhension d’éveiller un pareil sentiment et d’encourir une semblable épithète ne m’a pas arrêté. C’est qu’en considérant la généralité des opinions émises sur ce thème tant de fois débattu et le niveau moyen des discussions dont il fut l’objet, j’ai toujours été frappé de leur caractère vain et inadéquat, de leur parfaite futilité et superficialité. On a certes beaucoup discuté : mais surtout à vide, autour de mots et de formules, non sur des faits et sur des idées. Le débat manque de bases et de réalité. Ce qui fait qu’après le flot énorme et trouble des commentaires et des polémiques, la question semble bien être restée au même point et comporter les mêmes incertitudes qu’au début. Cette constatation m’a encouragé.</p>

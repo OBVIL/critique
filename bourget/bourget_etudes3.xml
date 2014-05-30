@@ -12,12 +12,12 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>2013, édition TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -39,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>Paul Bourget</author> (de l’académie française), <title>Études et Portraits : sociologie et littérature</title>. Paris : 1905.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -52,15 +52,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage rend="center">
-        <docTitle>
-          <titlePart>Études et Portraits‌
-            <lb/>Sociologie et littérature</titlePart>
-        </docTitle>
-        <docAuthor>par PAUL BOURGET<lb/>de l’académie française</docAuthor>
-      </titlePage>
-    </front>
     <body>
       <div>
         <head type="h1">Avant-propos</head>

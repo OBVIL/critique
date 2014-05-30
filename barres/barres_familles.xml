@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barres_familles" xml:lang="fr">
   <teiHeader>
@@ -20,12 +20,16 @@
           <resp/>
         </respStmt>
         <respStmt>
-          <name>Frédéric Glorieux</name>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
           <resp>2013, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Pascale Langlois</name>
+          <resp>2011, coordination éditoriale</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -47,7 +51,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl/>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

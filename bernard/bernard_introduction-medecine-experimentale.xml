@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bernard_introduction-medecine-experimentale" xml:lang="fr">
   <teiHeader>
@@ -12,22 +12,22 @@
       <editionStmt>
         <edition>Obvil</edition>
         <respStmt>
-          <name xml:id="VJ">Vincent Jolivet</name>
-          <resp>encodage TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name xml:id="FG">Frédéric Glorieux</name>
-          <resp>encodage TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-        <date when="2014"/>
         <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bernard_introduction-medecine-experimentale/</idno>
         <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/bernard_introduction-medecine-experimentale.xml</idno>
         <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/bernard_introduction-medecine-experimentale.html</idno>
         <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/bernard_introduction-medecine-experimentale.txt</idno>
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/bernard_introduction-medecine-experimentale.epub</idno>
+        <date when="2014"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -39,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Claude Bernard</author>, <title>Introduction à l’étude de la médecine expérimentale</title>, <pubPlace>Paris</pubPlace>, <date>1865</date>.</bibl>
+        <bibl><author>Claude Bernard</author>, <title>Introduction à l’étude de la médecine expérimentale</title>, <pubPlace>Paris</pubPlace>, <date>1865</date>. <ref type="gutenberg" target="http://www.gutenberg.org/ebooks/16234">Projet Gutenberg</ref></bibl>
         <biblFull>
           <titleStmt>
             <title>Introduction à l’étude de la médecine expérimentale</title>
@@ -74,15 +74,6 @@
     </encodingDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>Introduction à l’étude de la médecine expérimentale</titlePart>
-        </docTitle>
-        <docAuthor>Claude Bernard</docAuthor>
-        <docDate>1865</docDate>
-      </titlePage>
-    </front>
     <body>
       <div>
         <head rend="uc">Introduction à l’étude de la médecine expérimentale</head>

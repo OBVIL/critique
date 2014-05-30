@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bergson_conscience" xml:lang="fr">
   <teiHeader>
@@ -21,13 +21,13 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-        <date when="2014"/>
         <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bergson_conscience/</idno>
         <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/bergson_conscience.xml</idno>
         <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/bergson_conscience.html</idno>
         <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/bergson_conscience.txt</idno>
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/bergson_conscience.epub</idno>
+        <date when="2014"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -52,16 +52,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <pb/>
-        <docAuthor>Henri Bergson</docAuthor>
-        <docDate>1888</docDate>
-        <titlePart>Essai sur les données immédiates de la conscience</titlePart>
-        <argument>
-        </argument>
-      </titlePage>
-    </front>
     <body>
      
       <div n="ch0-avant-propos">

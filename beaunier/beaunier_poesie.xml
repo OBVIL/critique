@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="beaunier_poesie" xml:lang="fr">
   <teiHeader>
@@ -12,11 +12,11 @@
       <editionStmt>
         <edition>OBVIL</edition>
         <respStmt>
-          <name>Frédéric Glorieux</name>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
           <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
@@ -43,7 +43,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>André Beaunier</author>, <title>la poésie nouvelle</title>. Paris : société du Mercure de France, 1902.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -57,10 +57,11 @@
   </teiHeader>
   <text>
     <front>
+      <!--
       <titlePage>
         <docAuthor>André Beaunier</docAuthor>
         <docDate>1902</docDate>
-        <titlePart>La poésie nouvelle</titlePart>
+        <titlePart></titlePart>
         <docImprint>Paris<lb/>Société du Mercure de France<lb/>XV, rue de l’échaudé, — Paris</docImprint>
         <argument>
           <p>IL A ÉTÉ TIRÉ DE CET OUVRAGE :‌</p>
@@ -71,6 +72,7 @@
           <p>Poitiers. — Imprimerie du Mercure de France. BLAIS et ROY. 7, rue Victor-Hugo.</p>
         </argument>
       </titlePage>
+      -->
       <argument>
         <p rend="i">La Poésie nouvelle dont il est ici question n'est pas seulement une récente manifestation d'art ; mais sa nouveauté lui est essentielle, comme le prin­cipe même de son esthétique. Notre poésie fran­çaise, fanée, mourait, il y a quinze ou vingt ans. Quelques jeunes hommes survinrent, animés d'une ardeur louable, épris de Beauté ; ils n'essayèrent pas de restituer un semblant de vie aux poncifs anciens, mais ils voulurent inaugurer un art tout neuf dans son aspiration et dans sa forme. Ils affirmèrent leur croyance qu'il n'y a pas de poésie sans la fraîcheur de l'impression, — la poésie, en somme, n'ayant d'autre objet que de nous faire apercevoir la présence réelle de toutes choses.‌</p>
         <p rend="i">Il serait exquis de se figurer le premier printemps de la terre, si Adam n’avait pas été, sans doute, d'une mentalité trop rudimentaire pour en goûter la grâce fragile... L'habitude et l'utilité nous empêchent de voir les choses avec l'étonnement émerveillé qu'elles méritent ; elles ont bientôt cessé de nous émouvoir, et dès lors notre existence ici-bas, dans le monde vainement délicat et varié, n’a plus ni agrément, ni signification.</p>

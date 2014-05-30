@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bashkirtseff_lettres" xml:lang="fr">
   <!--
@@ -22,12 +22,12 @@
           <name>Marie Millet</name>
         </respStmt>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, édition TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -62,6 +62,7 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <!--
     <front>
       <titlePage>
         <titlePart rend="uc">Lettres</titlePart>
@@ -78,7 +79,8 @@
          <lb/>Paris.—Imp. A. Maretheux et L. Pactat, 1, rue Cassette.</docImprint>
       </titlePage>
     </front>
-    <body>
+    -->
+    <front>
       <div>
         <head>Préface de François Coppée<note resp="editor">Cette préface a paru en tête du catalogue des œuvres de Marie Bashkirtseff, lors de l’exposition qui fut faite en 1885. L'auteur a bien voulu nous permettre de reproduire ici ces pages intéressantes et difficiles à retrouver.</note></head>
         <p>L'été dernier, j’allai saluer une dame russe de mes amies, de passage à Paris, à qui Mme Bashkirtseff donnait l’hospitalité dans son hôtel de la rue Ampere.</p>
@@ -108,9 +110,11 @@
           <docDate when="1885-02-09">Paris, 9 février 1885.</docDate>
         </dateline>
       </div>
-      <div>
+    </front>
+    <body>
         <head>Lettres de Marie Bashkertseff</head>
-        <div>
+      
+      <div>
           <head>1868-1874</head>
           <div>
             <head>À sa tante.</head>
@@ -156,7 +160,7 @@
             <p>Le retour a été admirable; dans un village, G.... a tiré d’un lit une couverture blanche et du plancher un tapis. On donne le tapis aux autres et on enveloppe de la couverture.... moi. Je riais et admirais l’intrépidité de G....; il riait aussi et nous comparait à Paul et à Virginie.</p>
             <p>On nous a présenté le comte Doenhoff, le petit B. K...., et nous allons aux courses, le comte D. Basilevsky, frère de la princesse Souvaroff, maman, moi et Dina. Nous sommes dans la meilleure tribune; le comte D... reste avec nous. On dit qu’il admire maman, et tu sais, chère tante, ce qu’il a dit ! Il a dit: <hi rend="i">La fille ne sera pas mal, mais on ne pourra jamais la comparer â la mère</hi>.—Maman ne fait que parler de moi; elle raconte les mots de mon enfance, tu sais, toujours la même chose; elle ne peut pas oublier que quand elle arrivait de la Crimée (j’avais deux ans), elle me dit pour je ne sais quelle espièglerie: Marie est bête. —<hi rend="i">Marthe</hi>, dis-je à ma nourrice (car, comme tu sais, jusqu’à trois ans et demi je prenais de la nourriture naturelle), <hi rend="i">Marthe, allons-nous-en, maman n’a pas reconnu Marie</hi>.... Au revoir, je vous embrasse tous, je suis rose et blanche et me porte très bien.</p>
           </div>
-        </div>
+      </div>
         <div>
           <head>1875</head>
           <div>
@@ -1540,10 +1544,9 @@
             <p>On voit bien que je vous ai rendu enragé pour que vous disiez ce que vous ne pouvez pas penser. Si je vous ai écrit pour me rétracter, c’est influencée par T. R. F. qui a dit que vous aviez été très bien pour moi. Et aussi parce que j’ai pensé qu’après tout, me préférer le risible X..., n’est pas me faire du mal. Vous êtes libre de le préférer. C'est drôle, voilà tout.</p>
             <p>Et puis, nous ne nous brouillerons jamais. C'est tout à fait impossible, bien que vous fassiez semblant de penser du mal de moi pour me taquiner, vous savez bien au fond, que je suis l’être le plus pur, le plus admirable, le plus juste, le plus grand et le plus loyal du monde. Je parle sérieusement. Vous savez que je ne tiens pas à ceux qui ne me comprennent pas; ceux à qui je tiens me comprennent. En plus, je suis au moment d’avoir un talent européen. <hi rend="i">Vous brouiller</hi> avec <hi rend="i">un être aussi</hi> admirable et rare ? Allons donc !</p>
             <p>Je ne puis mieux répondre à votre spirituelle lettre, qu’en faisant mon sincère éloge, un éloge raisonné et basé sur la profonde connaissance de moi-même, de ce moi unique et merveilleux qui m’enchante et que j’adore comme Narcisse. Trouvez-moi dans Paris un type qui écrive un pareil morceau d’un seul jet. Sans doute, si vous comparez mon talent de peintre à mon talent de pamphlétaire et de polémiste !...</p>
-            <p>FIN</p>
+            <trailer>FIN</trailer>
           </div>
         </div>
-      </div>
     </body>
   </text>
 </TEI>

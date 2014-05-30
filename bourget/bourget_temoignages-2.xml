@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="bourget_temoignages-2" xml:lang="fr">
   <!--
@@ -24,12 +24,12 @@
           <resp>Édition TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>2013, encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -64,6 +64,7 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <!--
     <front>
       <titlePage>
         <docAuthor rend="sc">Paul Bourget<lb/>
@@ -77,6 +78,7 @@
         <docDate>M. CM. XXXIII</docDate>
       </titlePage>      
     </front>
+    -->
     <body>
       <div>
         <head>Avant-propos</head>
