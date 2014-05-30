@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-stylesheet type="text/css" href="../../../lib/teibook/teibook.css"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
 <!-- 
 [FG] quadratins
 -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="equilbecq_noirs-2" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="equilbecq_noirs-2" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,21 +18,23 @@
           <name>Juliette Patissier</name>
           <resp>Stylage et XML</resp>
         </respStmt>
-        <respStmt>
-          <name/>
-          <resp> ?</resp>
-        </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher> ?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/equilbecq_noirs-2/</idno>
         <date when="2013"/>
-        <idno> ?</idno>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>F.V. Équilbecq</author><title>Essai sur la littérature merveilleuse des noirs ; suivi de Contes indigènes de l'Ouest-Africain français</title><publisher>Ernest Leroux</publisher><pubPlace>28, Rue Bonaparte, Paris VIe</pubPlace><date>1913</date></bibl>
+        <bibl><author>F.V. Équilbecq</author>, <title>Essai sur la littérature merveilleuse des noirs ; suivi de Contes indigènes de l'Ouest-Africain français</title>. <publisher>Ernest Leroux</publisher>, <pubPlace>28, Rue Bonaparte, Paris VIe</pubPlace>, <date>1913</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,6 +48,7 @@
   </teiHeader>
   <text>
     <front>
+      <!--
       <titlePage> 
         <docImprint><publisher>Ernest Leroux</publisher>, Éditeur
           PARIS 28, Rue Bonaparte, VIe</docImprint>
@@ -62,6 +65,7 @@
         <label type="dedicace">Monsieur le Gouverneur CLOZEL<lb/>
           En témoignage de respectueuse reconnaissance.</label>
       </titlePage>
+      -->
       <div type="preface">
         <head>Préface</head>
         <byline>

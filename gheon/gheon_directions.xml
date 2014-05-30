@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../lib/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="gheon_directions" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -15,23 +15,30 @@
           <resp>Secrétariat d’édition</resp>
         </respStmt>
         <respStmt>
-          <name>Frédéric Glorieux</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
         </respStmt>
         <respStmt>
-          <name>Vincent Jolivet</name>
-          <resp>Édition XML/TEI</resp>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>?</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/gheon_directions/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl><author>Henri Ghéon</author>, <title>Nos Directions : réalisme et poésie, notes sur le drame poétique — sur le vers libre</title> (3<hi rend="sup">e</hi> édition) NRF, éditions de la nouvelle revue française, Marcel Rivière &amp; Cie, 31, rue Jacob, Paris.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -45,17 +52,7 @@
   </teiHeader>
   <text>
     <front>
-      <titlePage>
-        <docAuthor>Henri Ghéon</docAuthor>
-        <docDate>1911</docDate>
-        <docTitle>
-          <titlePart>Nos Directions</titlePart>
-          <titlePart>Réalisme et poésie</titlePart>
-          <titlePart>Notes sur le drame poétique — sur le vers libre</titlePart>
-        </docTitle>
-        <docEdition>(3<hi rend="sup">e</hi> édition)</docEdition>
-        <docImprint>NRF<lb/>Éditions de la nouvelle revue française<lb/>Marcel Rivière &amp; Cie<lb/>31, rue Jacob, Paris.</docImprint>
-      </titlePage>
+
       <div type="preface">
         <head type="h1">Préface de l’éditeur</head>
         <!-- Cas complexe : auteur vivant dont on a les droits, mais pas les dates -->
@@ -168,9 +165,11 @@
         <p>Allez ! le roman n'est pas mort, une vaste carrière sûre s'ouvre encore devant lui : la carrière de l'art. Et à ceux qui cherchent un guide, un maître, je dirai :</p>
         <p>Il en est un. Mais il vécut si solitaire, si dénué de théories, si absorbé par le culte exclusif de la beauté, que parmi ses contemporains on ne sait lui donner de place.</p>
         <p>Romantique il fit vrai, formiste il fit profond, réaliste il fit beau. Il sut donner à chacun de ses livres une vérité différente, une différente beauté, mais une perfection semblable. <note n="2" type="NdA">Et encore ne faut-il pas enfermer Gustave Flaubert dans sa perfection même. <hi rend="i">Bouvard et Pécuchet</hi> après <hi rend="i">l'Education sentimentale</hi> nous prouve qu'il rêvait d'y échapper, par un assouplissement, une extension de la forme, qui est dans le caractère même du « roman »et dont tant d'écrivains russes et anglais, et Stendhal, et Balzac nous ont donné l'exemple. Lui imposant une ferme volonté d'art, réclamons pour le romancier, sinon pour le dramaturge, dans le plus libre des genres, la plus large liberté. (NdA)</note> En vain les écoles se le disputèrent ; il fut de toutes et d'aucune ; contre toutes il eut seul raison. Il apparaît dès aujourd'hui le vrai classique, et dont le temps ne fait que commencer encore.</p>
-        <l>J'ai nommé Gustave Flaubert. </l>
-        <l>On lit dans la <hi rend="i">Correspondance</hi> à propos de deux livres d'amis, ces paroles <note n="9" type="NdE">Flaubert à Georges Sand, 3 avril 1874. Les « deux livres d’amis » auxquels fait allusion Ghéon et dont parle Flaubert dans cette lettre sont <title>Jack</title>, d’Alphonse Daudet, et <title>Son Excellence Eugène Rougon</title>, de Zola.</note> : </l>
+        <p>J'ai nommé Gustave Flaubert. </p>
+        <p>On lit dans la <hi rend="i">Correspondance</hi> à propos de deux livres d'amis, ces paroles <note n="9" type="NdE">Flaubert à Georges Sand, 3 avril 1874. Les « deux livres d’amis » auxquels fait allusion Ghéon et dont parle Flaubert dans cette lettre sont <title>Jack</title>, d’Alphonse Daudet, et <title>Son Excellence Eugène Rougon</title>, de Zola.</note> : </p>
+        <quote>
         <p>« L'un a le charme et l'autre la force. Mais aucun des deux n'est préoccupé <hi rend="i">avant tout</hi> de ce qui fait pour moi le but de l'Art, à savoir : la beauté. Je me souviens d'avoir ressenti un plaisir violent en contemplant un mur de l'Acropole, un mur tout nu (celui qui est à gauche quand on monte aux Propylées). Eh bien, je me demande si un livre, indépendamment de ce qu'il dit, ne peut pas produire le même effet ? Dans la précision des assemblages, la rareté des éléments, le poli de la surface, l'harmonie de l'ensemble, n'y a-t-il pas une vertu intrinsèque, une espèce de force divine, etc., etc. ? — La loi des nombres gouverne les sentiments et les images et ce qui paraît être l'extérieur est tout bonnement le dedans. »</p>
+        </quote>
         <p>J'ai cité cette page au hasard. On en trouverait cent, et de plus significatives, dans l'acte de foi inlassable qu'est la <hi rend="i">Correspondance</hi> de Gustave Flaubert. Il faut les méditer, puiser dans l'œuvre et dans l'exemple de classiques leçons. Car le jour où refleurira la belle concordance des genres — poésie, roman, drame (et ce que j'ai dit du roman s'appliquait au drame, développement et conclusion) — tous se seront soumis ensemble, à l'idée unique, à l'idée suprême de l'art et de la beauté.</p>
         <dateline><docDate>1901</docDate></dateline>
       </div>
@@ -241,37 +240,30 @@
           <p>Si l'objet du théâtre est de nous présenter des caractères, Phocas a toute la variété, toute la complexité de traits requise ; il ne s'avance pas au devant de nous tout d'une pièce comme une figure poétique ; même, s'il encourt un reproche, c'est celui d'une trop grande complexité. Mais est-ce à un public lettré, choisi, sensible aux détours subtils de l'âme de Bérénice ou d'Andromaque, de bouder si rare plaisir quand par hasard on le lui offre ? — Si les caractères dits de théâtre doivent se montrer à nous, se dérouler, se développer devant nous en action, dira-t-on que Phocas se tient sur la scène immobile, quand l'indécision le porte sans cesse de droite à gauche et réciproquement, quand les incidents du dehors l'abordent au plus tendre de l'âme, le font sans cesse dévier, réagir, et subir ? Qu'il y ait quelque lenteur dans les deux premiers actes du drame, soit ! mais faut-il s'en plaindre, et la brutalité des drames de M. Bernstein <note n="31" type="NdE">Henry Bernstein (1867-1953) devint célèbre en 1906 avec son drame bourgeois, <title>Le Voleur</title> ; en 1911, <title>Après moi</title> est créé à la Comédie Française.</note> a-t-elle déjà perverti les spectateurs, au point qu'ils ne puissent goûter une action faite de nuances, et se laisser conduire doucement au faîte du drame, où ils ressentiront d'autant mieux le grand vertige, le vertige tragique, qu'ils y seront montés plus doucement ? Ceux qui ont mission de trancher, sur le fait de savoir si tel ou tel ouvrage « est ou n'est pas du théâtre », ceux-là mêmes ne peuvent pourtant dénier cette qualité au dernier acte de <hi rend="i">Phocas</hi>, où la menace du martyre, l'espoir du salut s'entrechoquent, où Phocas, le Décurion, Glaucos, les soldats, l'absente Thalie concourent activement, dans un mouvement sans répit, à une émotion proprement tragique, mélo-dramatique dirais-je, si ne dominait leurs démarches, la faible et belle figure de Phocas. Un acte d'action extérieure ne suffit pas à nos critiques ! Il a suffi longtemps dans la tragédie française. Tant pis donc !</p>
           <p>Cela aussi est du « théâtre »— et les monologues même dont on regrette ici l'abus. Phocas s'explique, Phocas dans l'abandon d'une causerie familière avec lui-même, se peint sans complaisance, sans éloquence factice, sans éclat. — On tolère encore le monologue, à condition que le personnage se campe face au public, Hernani ou Ruy Blas et joue son air le plus brillant, le plus sonore. Le monologue familier, naturel, l'afflux aux lèvres des simples pensées que l'esprit à part soi remue, le théâtre moderne ne l'admet point, dit-on ! Il est urgent de rendre aux personnages le droit de se confesser devant le public ; que si l'acteur désormais y répugne, il n'est point assez grand acteur. Et qu'on n'objecte point encore, qu'en outre du poème intime de Phocas, exprimé par Phocas lui-même, qu'en outre de la figure de Phocas, il n'y a rien ici. Relisez avec attention les répliques de Glaucos, du centurion, des soldats, vous constaterez en chacun l'ébauche d'un caractère — un caractère à son plan, sans doute, et qui n'empiète pas sur le héros, un caractère secondaire, mais non pas conventionnel ; admirez comment la rudesse, l'humanité, le sentiment de la discipline, la reconnaissance sont dosés dans ce brave homme de Décurion, et la qualité de fraîcheur qui marque les moindres paroles de Glaucos ; or ces caractères-là, c'est dans l'action seulement qu'ils se montrent, dans la plus vive action...</p>
           <p>Des qualités dramatiques ? Mais ce petit ouvrage en fourmille, dont je n'ai pas dit la grandeur, la portée, l'intime rayonnement. Est-il assez proche de nous ! On y entre comme dans la maison d'un voisin, porte à porte. — Mais je ne me laisserai pas détourner de mon dessein présent, pour louer de <hi rend="i">Phocas</hi> la valeur poétique, telle ici, telle au théâtre, (si quelque jour on l'y admire) qu'elle se montrait dans la <hi rend="i">Clarté de Vie</hi> ou dans <hi rend="i">Plus Loin</hi>, Il me semble plus important, oui ! de première importance, d'attirer l'attention sur la forme, sur la miraculeuse souplesse de la forme qu'on ne peut pleinement goûter qu'à la lecture à haute voix. Et c'est bien ce qui rend plus déplorable encore l'ostracisme scénique que doit subir ce drame, précisément le plus capable d'imposer aujourd'hui à l'oreille des spectateurs une prosodie neuve, alerte, vivante, scandée par le souffle même, élargie par l'émotion, une prosodie qui est en fait, en même temps qu'une stylisation de la parole, une parole ! Oh ! la légèreté de cette strophe dialoguée :</p>
-          <p/>
-          <l>Phocas </l>
+          <quote>
+            
+          <label>Phocas </label>
           <l>Glaucos ! </l>
-          <p/>
-          <l>Glaucos </l>
+          <label>Glaucos </label>
           <l>Qu’est-il, maître ?</l>
-          <l>Phocas </l>
+          <label>Phocas </label>
           <l>Dis-moi, tu as donc vu Thalie. </l>
-          <p/>
-          <l>Glaucos </l>
+          <label>Glaucos </label>
           <l>Je te l’ai dit. Je crois... peut-être ? </l>
-          <p/>
-          <l>Phocas </l>
+          <label>Phocas </label>
           <l>Voyons, qu'en as-tu pensé ? </l>
-          <p/>
-          <l>Glaucos </l>
+          <label>Glaucos </label>
           <l>Je n'ose. </l>
-          <p/>
-          <l>Phocas </l>
+          <label>Phocas </label>
           <l>Je te permets d'oser. </l>
-          <p/>
-          <l>Glaucos </l>
+          <label>Glaucos </label>
           <l>D'abord, maître, une chose : </l>
           <l>Est-ce ma pensée mienne qu'il faut dire </l>
           <l>Ou ce que j'en pensais pour toi ? </l>
-          <p/>
-          <l>Phocas </l>
+          <label>Phocas </label>
           <l>Dis l'une et l'autre, </l>
           <l>Nous verrons après si tu dois pleurer ou rire. </l>
-          <p/>
-          <l>Glaucos </l>
+          <label>Glaucos </label>
           <l>Pour toi donc, maître, j'ai pensé : </l>
           <l>O belle fille blonde </l>
           <l>Vous m'avez plu dès que je vous ai vue </l>
@@ -282,12 +274,12 @@
           <l>Donc selon mon strict devoir </l>
           <l>De bon chrétien. </l>
           <l>Je veux oublier que vous êtes belle. </l>
-          <p/>
-          <l>Phocas </l>
+          <label>Phocas </label>
           <l>Et pourquoi pensais-tu ainsi, gamin ?... </l>
           <l>Etc.. </l>
-          <p/>
+          </quote>
           <p>Et le son pathétique de la rêverie de Phocas creusant sa tombe avant l'aurore :</p>
+            <quote>
           <l>Comme la nuit est calme et sans émoi. </l>
           <l>Comme on a honte de vivre </l>
           <l>Et qu'il fait bon s'en aller sans retour. </l>
@@ -300,7 +292,7 @@
           <l>A rêver des récoltes. </l>
           <l>Ce soir, je creuse joyeusement ma couche </l>
           <l>Car le fruit de la vie est amer à ma bouche. </l>
-          <p/>
+            </quote>
           <p>Ces deux exemples suffiront. Le vers-libre commande le geste, le vers-libre crée le mouvement, le vers-libre est par essence, dynamisme, action, drame. La principale vertu dramatique de <hi rend="i">Phocas</hi>, c'est bien sa forme. Si on en doute encore, qu'attend-on pour tenter l'épreuve ? Craint-on de discréditer le vers romantique à rejets, ce monstre usé, qui n'est plus désormais ni vers ni prose ? Attend-on du vers classique intégral la restauration de la tragédie ?</p>
           <p>Quoi ! ressusciter la mort par la mort !</p>
           <p>Si renaît la tragédie discursive selon Racine, pour s'adresser à une élite cultivée, elle n'en devra pas moins repousser le passé, les moyens et les formules du passé, trouver en notre temps des moyens analogues. Les moyens neufs de cette tragédie, <hi rend="i">Phocas le Jardinier</hi> nous les offre. Libre à l'auteur en d'autres œuvres, et libre à nous, de réduire la part de la poésie pure, d'accentuer les poussées alternatives de l'action, — mais non de renier le dynamisme lyrique sous-jacent dont est né le présent ouvrage. La poésie a épousé le drame ; elle ne peut plus le quitter ; elle l'étaie, elle le soulève ; elle l'informe par le dedans. Laissons <hi rend="i">Phocas le Jardinier</hi>. Il ne s'agit pas ici de faire admirer l'œuvre charmante et profonde d'un grand poète, mais de montrer tout le profit que poètes et dramaturges, et Vielé-Griffin lui-même, pourront retirer, s'ils le veulent, de cette juste admiration.</p>
@@ -315,9 +307,11 @@
           <p>Le banquet est servi ; Candaule, lyriquement s'explique : Nyssia se tait surtout : Gygès paraît et frappe. Mais dans ce premier acte il y a déjà tout Candaule, Nyssia toute, et tout Gygès — eux et point d'autres. Car aussi, par un sacrifice classique à l'économie de l'action, voici les seigneurs de Lydie, semblables en cela aux confidents du grand siècle, n'exister strictement ici, qu' « en fonction » des protagonistes, par eux, pour eux. Et la bague trouvée, et déchaîné Gygès — péripéties initiales — ils s'enfuient « sous la table », on n'a plus besoin d'eux.</p>
           <p>Alors le drame se dépouille : il vivra tout entier sur les « avances » de l'exposition. Ah ! nulle crainte qu'il s'égare : la lumière le suit. Nulle crainte qu'il languisse : il partit avec des réserves. Etant donné l'anneau, la beauté de Nyssia, Candaule généreux et Gygès impulsif, que pourrait-il arriver d'autre au cours du second acte, quoi de plus important ? Dans sa nudité simple et sûre, et pleine cependant, je vois comme un <hi rend="i">maximum nécessaire</hi>. Il a son but, à son but il s'arrête. Mais ce but dépassé n'était-ce pas une autre action ?</p>
           <p>Aussi bien, par un sacrifice nouveau, l'auteur s'imposa dans le dernier acte, de simplement « liquider » l'action : parce qu'il faut que ça finisse. Brièveté toujours logique où, quand même, les caractères s'indiquent jusqu'au bout, jusqu'au mot impudique d'une Nyssia émancipée :</p>
+          <quote>
           <l>Archelaüs, ce soir, nous aurons des danseuses. </l>
           <l>jusqu'au brutal, </l>
           <l>Recousez-le ! </l>
+          </quote>
           <p>de Gygès, époux, ennemi et maître. On ne peut plus douter de leur attitude nouvelle vis-à-vis l'un de l'autre, non plus qu'au cinquième acte de <hi rend="i">Britannicus</hi> des réciproques positions de Néron et d'Agrippine. La belle leçon de « dessin » !</p>
           <p>Racine dessinait d'abord ; mais peignait tout de même ensuite, encore que de couleurs discrètes et lavées. Autour des faits solidement et subtilement combinés, il répandait son éloquence modérée, exquise et lente ; la pureté de la trame sous la pureté de la langue transparaissait ; ce lui était du moins un voile. Ce voile discursif, l'auteur du <hi rend="i">Roi Candaule</hi> a prétendu le rejeter. C'est la première nouveauté de sa tentative. Il a rêvé de conférer aux simples gestes, aux naturelles attitudes, aux actes francs de ses héros, une beauté inhérente capable de se suffire à elle-même. Il a soigneusement évité, du moins dans la partie dramatique de l'œuvre, toute analyse ou commentaire. La tragédie française n'avait guère encore été que <hi rend="i">parlée</hi>. André Gide la voulut cette fois <hi rend="i">agie</hi>, tout comme un drame, sans du drame accepter les compensations. De là l'austérité d'une pièce en somme scabreuse, qui déconcerta tant de gens.</p>
           <p>Le poète se trompait-il, tentait-il l'irréalisable ? L'acte central est là, trop complet dans son raccourci, pour ne répondre du contraire. Et ceux qui ont compris la valeur d'art de l'œuvre, seraient presque tentés de lui reprocher les préparations discursives du premier acte, où s'exprime directement le caractère de Candaule et le petit prologue dit par Gygès. Mais, quel tremplin eût pu remplacer ces discours ? La faute en revient au sujet, sans doute...</p>
@@ -331,43 +325,46 @@
           <p>Candaule est au sommet de la culture : culture sensuelle, intellectuelle et morale. Il n'est pas une jouissance, un sentiment ou une idée qu'il n'ait connus ou ne doive connaître. De là vient son inquiétude. Tout lui est trop facile, l'ivresse, la bonté, l'amour, la générosité : il est trop riche, trop beau, trop grand, trop large. Les sentiments de tous ne le peuvent plus satisfaire. Trop conscient, il les a trop considérés. Il est au point où les idées vont prendre vie et remplacer les sentiments, où la pensée, cessant de s'abstraire, va battre de la pulsation même du cœur. Candaule va penser comme on sent, d'une pensée éperdue, et la partie idéologique de l'œuvre, nullement rapportée, nullement extérieure, va ressortir au caractère de Candaule, tout à fait légitimement. Il pourra, il devra parler de son bonheur ; ainsi ses discours au banquet s'excusent. Candaule encore se cherche ; il lui semble qu'en se formulant à haute voix et devant tous, il s'affirme, se trouve, se crée. L'idée du « risque » naît en lui ; il suffira d'un incident, — le meurtre, de Trydo, femme de Gygès, par Gygès, — pour que l'acte suive l'idée. Drame d'exaltation cérébrale. Tout l'intérêt du drame est là, dans la façon dont naît l'idée, dont l'acte suit, à la faveur des plus contradictoires sentiments.</p>
           <p>Car le caractère du roi Candaule n'est rien moins que réductible à une formule ; il y a loin de lui aux entités géométriques de M. Hervieu ; il a maintes raisons d'agir, et d'autant plus qu'il atteignit à un degré plus haut de culture. Gygès jaloux tua Trydo ; il admire Gygès : mais il lui donne sa propre femme Nyssia et de cela s'admire ! Candaule expérimente. — Ah ! ceux qui virent en lui un maniaque ne se trompèrent pas plus que ceux qui le baptisèrent apôtre !</p>
           <p>Un apôtre, Candaule ! Mais qui veut-il convaincre ? Rien que soi-même. Un apôtre est buté, sans détours psychologiques, tout d'une pièce. Candaule <hi rend="i">flotte</hi>. Ce n'est point par un sentiment de justice qu'il distribue ses biens, c'est par excès de biens, et par générosité naturelle. <hi rend="i">Il ne se prive point de ce qu'il donne</hi>. Ecoutez-le :</p>
-          <p/>
+          <quote>
           <l>Ne parle pas des pauvres, Gygès ; </l>
           <l>Je peux les faire riches comme des rois </l>
           <l>Sans même apercevoir une diminution de ma fortune. </l>
-          <p/>
+          </quote>
           <p>Et de même il ne croit point se priver de Nyssia s'il la partage avec un autre. Agit-il par pitié ? Un peu. Mais surtout par orgueil, vanité, fanfaronnade. Il est généreux avant tout ; son acte extrême ne peut être qu'un acte de générosité ; Candaule pousse à bout sa vertu principale. Il s'en grise, il s'en gonfle, il la défie, disant :</p>
-          <l>Plus haut ! parle plus haut, ma jeune pensée ! </l>
-          <l>Où veux-tu me mener ? admirable Candaule ! </l>
-          <p/>
+          <quote>
+            <l>Plus haut ! parle plus haut, ma jeune pensée ! </l>
+            <l>Où veux-tu me mener ? admirable Candaule ! </l>
+          </quote>
           <p>Il sent le risque, son désir de risquer s'en accroît :</p>
+          <quote>
           <l>Oh ! oh ! oh ! oh ! qu'est-ce que je m'en vais oser faire ? </l>
           <l>Je ne peux plus... Candaule, tu faiblis ? </l>
           <l>Qui donc alors ferait jamais cela si ce n'est toi ? </l>
-          <p/>
+          </quote>
           <p>Candaule fera ce que ne feront jamais d'autres. Et si, à cet instant précis — et rien qu'à cet instant — il y a sacrifice — sacrifice de la pudeur de Nyssia, — ce n'est plus, déjà plus par pitié pour Gygès ; sa misère d'hier est déjà oubliée : c'est par soif du péril et par désir vaniteux d'affirmation ; mais cette vanité est belle.</p>
           <p>L'action principale, on le voit, a lieu au-dedans de Candaule ; chaque réplique ajoute un trait à son complexe caractère ; on ne connaît bien celui-ci qu'à la fin du deuxième acte ; il suit le drame extérieur, et il en accentue perpétuellement l'intérêt. Gygès et Nyssia motivent les répliques et l'action seconde est entre eux et Candaule, l'action seconde seulement. Aussi n'insisterai-je point sur le retentissement du crime. Pour expérimenter, il n'eût point fallu à Candaule des « sujets » d'instinct primitif, imbus de morale bourgeoise, comme Gygès et Nyssia ; contre lui, aussi bien, se devait retourner l'expérience. Pourquoi faut-il qu'il la regrette au dénouement ?</p>
           <p>C'est peut-être le seul reproche fondé que s'attire le caractère : de se démentir à la fin. Littérairement parlant la tirade dernière à Phèdre : <hi rend="i">(Ces palais, ces festins, me doivent maintenant appartenir à moi tout seul, etc.)</hi> reste défendable : elle fait contrepoids et donne plus de relief au meurtre. Psychologiquement parlant, je ne la crois pas invraisemblable. Mais il me semble que Candaule se montre alors bien humain, « trop humain » pour un ancien « danseur de corde », celui dont parle Nietzsche au début de <hi rend="i">Zarathoustra</hi> <note n="34" type="NdE">Dans la troisième partie du Prologue de <title>Ainsi parlait Zarathoustra</title>, ce dernier arrive dans une ville qui attend le spectacle d’un danseur de corde et parle du surhomme à la foule sans s’attirer autre chose que les rires ; l’expression « trop humain » réfère allusivement à un autre livre de Nietzsche, <title>Humain, trop humain. Un livre pour esprits libres</title> (<title>Menschliches, Allzumenschliches. Ein Buch für freie Geister</title>, 1878), où le philosophe développe une critique des valeurs humaines, fondée sur la réfutation de la métaphysique.</note>. Candaule avait le droit de sentir naître en lui un peu de jalousie, — « vilaine passion »— mais à condition de la taire aussitôt : il pouvait choir, mais non se repentir après la chute. Aussi bien, tout le dernier acte appartient au couple Nyssia-Gygès ; les voici « par delà le bien et le mal », grâce au seul instinct, comme Candaule s'y plaçait auparavant, (« par delà le bien et le mal »), à force de richesse, de bonheur, de générosité et de culture.</p>
           <p>Pièce d'exaltation cérébrale, ai-je dit ; sur l'œuvre règne la pensée et moins la pensée de l'auteur que celle du héros central. De Candaule elle naît, elle émane, rayonne, gagne les autres personnages, les force à exprimer le peu d' « idée » que renferme tout sentiment ; elle crée une véritable atmosphère où respirent Gygès, Nyssia, les courtisans. Et celui-là dira :</p>
-          <l>Que celui qui tient un bonheur, qu'il se cache. </l>
-          <l>et celle-ci : </l>
-          <l>Ah ! mais il faut pourtant bien </l>
-          <l>Que l'un de vous deux soit jaloux ! </l>
-          <l>et d'autres : </l>
-          <l>Si ton bonheur était une amitié</l>
-          <l>Tu ne parlerais point de le risquer. </l>
-          <l>Etc. </l>
-          <l>Mais écoutez Candaule : </l>
-          <said>— N'est-ce pas qu'il n'est digne que des pauvres </said>
-          <l>De se préoccuper d'être heureux ? </l>
-          <said>— ... Chaque bien nouveau que l'on possède </said>
-          <l>Entraîne un nouveau désir de l'essayer, </l>
-          <l>Et posséder pour moi c'est expérimenter. </l>
-          <said>— ... Pour plus de bonheur l'homme s'use </said>
-          <l>Quand il est pauvre à désirer... </l>
-          <l>... Risquer, c'est l'autre forme du bonheur, </l>
-          <l>Celle des riches... </l>
-          <p/>
+          <quote>
+            <l>Que celui qui tient un bonheur, qu'il se cache. </l>
+            <l>et celle-ci : </l>
+            <l>Ah ! mais il faut pourtant bien </l>
+            <l>Que l'un de vous deux soit jaloux ! </l>
+            <l>et d'autres : </l>
+            <l>Si ton bonheur était une amitié</l>
+            <l>Tu ne parlerais point de le risquer. </l>
+            <l>Etc. </l>
+            <l>Mais écoutez Candaule : </l>
+            <l>— N'est-ce pas qu'il n'est digne que des pauvres </l>
+            <l>De se préoccuper d'être heureux ? </l>
+            <l>— ... Chaque bien nouveau que l'on possède </l>
+            <l>Entraîne un nouveau désir de l'essayer, </l>
+            <l>Et posséder pour moi c'est expérimenter. </l>
+            <l>— ... Pour plus de bonheur l'homme s'use </l>
+            <l>Quand il est pauvre à désirer... </l>
+            <l>... Risquer, c'est l'autre forme du bonheur, </l>
+            <l>Celle des riches... </l>
+          </quote>
           <p>Qu'on n'y voie point la signification de l'œuvre, mais sa matière ; à retrancher cette matière, l'œuvre ne perdrait point son sens, mais sa valeur, sa beauté, mieux : sa vie ; elle cesserait d'être. La pensée vit en elle, nourrit les caractères, aggrave les conflits, gonfle les périodes... Et je ne louerai point une langue autre part admirée, pure et neuve, rare et plastique, et qui du haut de la scène s'impose, comme dans le livre.</p>
           <p>Drame social ? — Pourquoi ? — Drame philosophique ? — Drame. Un soir, au <hi rend="i">Théâtre de l’Œuvre</hi> <note n="35" type="NdE">Voir <hi rend="i">supra</hi> note 32.</note>  aura été jouée une pièce d'art concis et de vie profonde — et dont la pensée fut le seul ressort. Dans un cadre de tragédie étroit et traditionnel, ainsi, les limites prévues de l'art scénique se reculent.</p>
         </div>
@@ -379,7 +376,7 @@
           <p>Quatre personnages, pas plus, quatre protagonistes en présence. Et c'est un fait digne de remarque, le plus frappant sitôt qu'on aborde l’<hi rend="i">Echange</hi> et d'ailleurs tous les drames de Paul Claudel <note n="9" type="NdA">J'en excepte <hi rend="i">Tête d'Or</hi>, puissant essai d'un tout jeune homme, lourd de richesses, mais encore marqué d'influences (Eschyle, Shakespeare etc.) (NdA)</note> — que rien jamais ne s'interpose entre les principaux personnages, ni une figure secondaire, ni un confident, ni une utilité ; rien de ce qui facilita la tâche de nos grands classiques ; rien de ce qui supplée, chez nos auteurs en vogue, à la création poussée des caractères : cette foule de comparses croqués lestement, vivement mêlés et qui ne servent qu'à combler les vides. Au contraire du parti pris réaliste qui n'est pas toujours sans bienfaits, mais trop aisément maniable hélas ! trop docile à donner le change, nul essai d'imitation des menues contingences de la vie, — le détachement parfait du héros, dans l'atmosphère que lui-même recrée, — son isolement absolu, dans tout l'éclat de sa valeur, dans toute la hauteur de sa stature, d'où un contact direct, immédiat, constant, des héros assemblés entre eux. A l'exclusion de tous autres, les voici maîtres de leur drame, seuls dignes, seuls capables de le jouer. Et si nombreux qu'ils soient (voyez <hi rend="i">la Ville</hi>) ils occupent tous l'avant-scène ; ils semblent se disputer le tréteau. Aussi bien, dès que deux d'entre eux s'y avancent, c'est l'acier contre le silex : l'éclair jaillit.</p>
           <p>Rencontre, avouons-le, souvent métaphysique. Nos frères par le cœur, ils portent souvent dans l'esprit les hauts soucis de pensée de poète : <hi rend="i">la Ville</hi>, par exemple, est un drame puissamment intellectuel où s'entre-choquent les forces de l'instinct, les découvertes de l'intuition, les volontés et les philosophies ; où règne l'obscure conscience des lois des hommes et de Dieu. Une si complexe émotion ne saurait toucher une foule d'un coup droit, théâtral, impossible à parer. Mais qu'il arrive, c'est le cas de l’<hi rend="i">Echange</hi>, que le drame propose des héros primitifs, plus limités dans leurs inquiétudes, un problème moins ardu, à quatre nombres au lieu de dix, alors la marche dramatique vers la solution nous emporte et dans toute son évidence, s'impose à nous la force intime du conflit.</p>
           <p>Pourtant, n'attendez pas du dramaturge l'abstrait dénudement de son sujet. Non moins que les ressorts profonds, l'atmosphère même lui importe, où le drame prend vie et respiration. Pour matérialiser une ambiance, il ne compte pas sur l'artifice, toujours insuffisant de la mise en scène la plus habile ; il ne veut pas s'en remettre à un tiers. Il fera tout, et son devoir de dramaturge comporte aussi l'effort de suggestion plastique, qu'il prétend ne laisser ni au décorateur, ni à l'électricien. L'atmosphère, incluse dans le texte, sera comme une émanation de la parole, une émanation poétique, lyrique. Et ainsi que tels vers choisis ébranlent d'un écho retentissant le discours mesuré de la tragédie racinienne, ainsi dans l'œuvre de Claudel, le lyrisme toujours présent rayonnera de la bouche des personnages, et l'air, sans cesse remué autour d'eux, les modèlera selon la vie. Louis Laine dit :</p>
-          <p/>
+          <quote>
           <l>« Il est dix heures, et le soleil monte dans la force de sa cuisse. </l>
           <l>Ce n est plus l’heure où l’eau des lacs a la couleur de la fleur du pommier,</l>
           <l>Blanc avec un peu de rose et la figure de l'enfant s'ouvre comme une rose rouge. </l>
@@ -390,33 +387,35 @@
           <l>Et la nuit ramène la volupté. </l>
           <l>Et le dimanche ils iront aux champs rapportant des feuilles et des bouquets de fleurs jaunes. </l>
           <p>Mais moi, je ne fais rien de tout le jour et je chasse tout seul, tandis que les rayons de soleil changent d’endroit, écoutant le cri de l’écureuil… »</p>
-          <p/>
+          </quote>
           <p>Puissance de l'évocation lyrique sur un fond de décor uni ! Un peintre oserait-il lutter avec ce verbe ? Mais quel accessoire, auprès de ces mots, ne paraîtrait superflu, ridicule ! Claudel replace en son rang la parole : elle est pensée, milieu, action : elle est tout.</p>
           <p>Sans doute risque-t-il ainsi de prêter à ses personnages des propos imagés que lui seul est capable de tenir. Eh soit ! Ne sommes nous pas au théâtre ? dans le royaume des pires conventions ? Convention réaliste, convention lyrique, n'importe. Si loin que le dramaturge pousse le souci de « faire vrai « il ne peut pas ne pas tricher avec la vie, se moquât-il même de l'art : car rien ne doit paraître sur la scène que de significatif et la vie est étrangement inégale dans sa portée. — Si on ne consent pas à réduire l'expression théâtrale d'un débat intérieur, à une mimique passionnée qui ne vaudra qu'autant que vaut le mime ; si on accorde que tout personnage est tenu de « parler » ses sentiments les plus secrets, les plus résolument tacites, et que le théâtre ne saurait vivre sans cette transposition, — pourquoi le héros qui consent à nous dévoiler sa pensée, n'aurait-il pas la faculté, en outre, d'élucider, d'exprimer par des mots, tout l'inconscient de son être, ce poème confus de sensations, d'intuitions, de rêves, de souvenirs et de réactions obscures que chacun de nous porte en lui, ce lyrisme sourd et caché que l'émotion délivre ?</p>
           <p>Regardons-y de près. Oui, partout dans <hi rend="i">l’Echange</hi> éclate la joie verbale de Claudel, dans Marthe et dans Lechy, chez Thomas Pollock, chez Louis Laine : joie, richesse communes mais, remarquons le bien, le ton de chacun est particulier. La modeste et fidèle Marthe assouplira selon son caractère Ie dur et somptueux verset ; miss Lechy Elbernon, en bonne comédienne qu'elle est, le gonflera de déclamation factice ; il prendra dans la bouche de Laine le goût âpre de l'aventure et l'inconsistance du vain désir ; il se fera tranchant, précis, pratique comme Thomas Pollock lui-même, quand celui-ci l'adoptera. Ecoutez les versets de l'homme d'affaires :</p>
-          <p/>
-          <l>« Faites de la monnaie ! </l>
-          <l>J'ai commencé sans le sou, moi ! Mais je n’avais pas de femme. </l>
-          <l>Et deux ou trois fois, d'un coup </l>
-          <l>J'ai perdu tout ce que j’avais, lots of fun ! </l>
-          <l>Il y a de tout ici, prenez à même, vendez, mettez votre nom sur votre chapeau </l>
-          <l>Car c’est ici le marché où la vieille Europe achète. </l>
-          <l>Ils grouillent noir là-bas et ils n’ont plus assez à manger. </l>
-          <l>Allez dans l’Ouest, achetez un ranch ! </l>
-          <l>Faites un sillon, allant tout le jour dans le même sens et semez-y le blé, semez-y le maïs !</l>
-          <p>Le blé indien, qui a plus que la taille d'un homme, emplumé, présentant l’épi énorme et aigu. Elevez une mer de cochons.</p>
-          <p>Peut-être que je me suis trompé sur vous ; vous comprenez la valeur de l'argent.</p>
-          <p>Faites de la banque, achetez pour vendre ! Ou faites n'importe quoi, car un homme adroit peut faire tout.</p>
-          <p>Mais faites de la monnaie ! — Bon, restez à déjeuner avec moi… »</p>
-          <p/>
+          <quote>
+            <l>« Faites de la monnaie ! </l>
+            <l>J'ai commencé sans le sou, moi ! Mais je n’avais pas de femme. </l>
+            <l>Et deux ou trois fois, d'un coup </l>
+            <l>J'ai perdu tout ce que j’avais, lots of fun ! </l>
+            <l>Il y a de tout ici, prenez à même, vendez, mettez votre nom sur votre chapeau </l>
+            <l>Car c’est ici le marché où la vieille Europe achète. </l>
+            <l>Ils grouillent noir là-bas et ils n’ont plus assez à manger. </l>
+            <l>Allez dans l’Ouest, achetez un ranch ! </l>
+            <l>Faites un sillon, allant tout le jour dans le même sens et semez-y le blé, semez-y le maïs !</l>
+            <l>Le blé indien, qui a plus que la taille d'un homme, emplumé, présentant l’épi énorme et aigu. Elevez une mer de cochons.</l>
+            <l>Peut-être que je me suis trompé sur vous ; vous comprenez la valeur de l'argent.</l>
+            <l>Faites de la banque, achetez pour vendre ! Ou faites n'importe quoi, car un homme adroit peut faire tout.</l>
+            <l>Mais faites de la monnaie ! — Bon, restez à déjeuner avec moi… »</l>
+          </quote>
           <p>Et les versets plaintifs de l'humble Marthe :</p>
-          <p>« Si tu le veux, je travaillerai pour toi.</p>
-          <p>Je ferai un champ, j’arracherai l’herbe avec les mains, j’arracherai les souches d'arbre avec la pioche et la serpe ; et je sèmerai, et j’arroserai.</p>
-          <p>Et je travaillerai tant que le jour est long et le soir tu me reprocheras toutes les choses une par une.</p>
-          <p>Et je ne penserai rien là-contre et je serai devant toi comme devant quelqu'un de content et qui a mangé.</p>
-          <p>Mais tu ne me commandes rien et tu n’as pas souci de moi et tu me laisses faire ce que je veux !... »</p>
-          <p/>
+          <quote>
+          <l>« Si tu le veux, je travaillerai pour toi.</l>
+          <l>Je ferai un champ, j’arracherai l’herbe avec les mains, j’arracherai les souches d'arbre avec la pioche et la serpe ; et je sèmerai, et j’arroserai.</l>
+          <l>Et je travaillerai tant que le jour est long et le soir tu me reprocheras toutes les choses une par une.</l>
+          <l>Et je ne penserai rien là-contre et je serai devant toi comme devant quelqu'un de content et qui a mangé.</l>
+          <l>Mais tu ne me commandes rien et tu n’as pas souci de moi et tu me laisses faire ce que je veux !... »</l>
+          </quote>
           <p>Et les versets de Lechy Elbernon sur le théâtre :</p>
+          <quote>
           <l>« Je les regarde et la salle n’est rien que de la chair vivante et habillée. </l>
           <l>Et ils garnissent les murs comme des mouches jusqu'au plafond. </l>
           <l>Et je vois ces centaines de visages blancs </l>
@@ -425,54 +424,55 @@
           <l>Et celui qui vient de voler pour la première fois, et celui qui n’a rien fait de tout le jour. </l>
           <l>…………………………………………………………………………………………...</l>
           <l>Je n’ai point honte, mais je me montre et je suis toute à tous. </l>
-          <p>Ils m'écoutent et ils pensent ce que je dis : ils me regardent et j'entre dans leur âme comme dans une maison vide.</p>
+          <l>Ils m'écoutent et ils pensent ce que je dis : ils me regardent et j'entre dans leur âme comme dans une maison vide.</l>
           <l>C'est moi qui joue les femmes. </l>
           <l>La jeune fille et l’épouse vertueuse qui a une veine bleue sur la tempe et la courtisane trompée. </l>
           <l>Et quand je crie, j'entends toute la salle gémir. »</l>
-          <p/>
+          </quote>
           <p>Ce qui soutient, ce qui diversifie ces strophes, ce n'est pas comme il semblerait, la force et la variété d'invention lyrique du poète, mais la solidité, la vérité des caractères par dessous. Paul Claudel prête son langage à des êtres, et ils existent davantage à mesure qu'ils s'expriment mieux ; leur drame intérieur porte la beauté de la phrase ; jamais la phrase ne les détourne du conflit.</p>
           <p>Sur une plage ingrate de l'Amérique les voici tous quatre : Marthe et son époux Louis Laine, les deux pauvres : Thomas Pollock et sa maîtresse Lechy Elbernon, les deux riches ; — Laine est surveillant chez sir Thomas. Or ceux-ci ont trouvé la vie, c'est-à-dire le travail, l'or et le plaisir, tandis que ceux-là la cherchent : Marthe, une vie modeste et servile, Louis Laine, toute la vie — risque facile, honte même, succès. Comme la douce Marthe pèse maintenant à Louis Laine qui l'enleva d'Europe vers le mirage des décevantes aventures ! et qu'il est facile à la comédienne Lechy de le fasciner en passant, de s'en offrir la fantaisie ! Mais de son côté Thomas Pollock a vu Marthe : il la désire, il la veut, il l'aura ! Il faut que l'échange se fasse, dût Sir Thomas acheter à Laine sa femme,</p>
-          <p/>
-          <l>« Regardez ça ! Qu’est-ce que c’est que ces sous, gentleman ? </l>
-          <l>Ça </l>
-          <l>C’est la vie, ça, c’est la liberté pour toujours ! </l>
-          <l>Ne me refusez pas ce que je vous demanderai, je vous donnerai ce qu’il vous faudra. </l>
-          <l>Pensez-y jeune homme ! </l>
-          <l>Je suis un homme religieux, mais si je veux avoir une chose </l>
-          <l>L'enfer ne m'arrêtera pas et je me ferai damner pour rien ! </l>
-          <l>Vous êtes Louis Laine et je suis Thomas Pollock. </l>
-          <p>Ne vous mettez pas devant moi ! Car la passion d'un homme n’est pas celle d'un enfant et je n’ai pas de temps à perdre.</p>
-          <l>Oui, quand la mort serait là ou que je sois blâmé ! </l>
-          <l>Qu’avez-vous à vous embarrasser d'une femme. </l>
-          <l>Pour la rendre malheureuse et que vous soyez misérables tous les deux ?... </l>
-          <said>— Venez déjeuner avec moi. </said>
-          <said>— Hé ! </said>
-          <l>Je vous donnerai ce qu’il vous faudra. Libre pour toujours, comprenez-vous ? »</l>
-          <p/>
+          <quote>
+            <l>« Regardez ça ! Qu’est-ce que c’est que ces sous, gentleman ? </l>
+            <l>Ça </l>
+            <l>C’est la vie, ça, c’est la liberté pour toujours ! </l>
+            <l>Ne me refusez pas ce que je vous demanderai, je vous donnerai ce qu’il vous faudra. </l>
+            <l>Pensez-y jeune homme ! </l>
+            <l>Je suis un homme religieux, mais si je veux avoir une chose </l>
+            <l>L'enfer ne m'arrêtera pas et je me ferai damner pour rien ! </l>
+            <l>Vous êtes Louis Laine et je suis Thomas Pollock. </l>
+            <l>Ne vous mettez pas devant moi ! Car la passion d'un homme n’est pas celle d'un enfant et je n’ai pas de temps à perdre.</l>
+            <l>Oui, quand la mort serait là ou que je sois blâmé ! </l>
+            <l>Qu’avez-vous à vous embarrasser d'une femme. </l>
+            <l>Pour la rendre malheureuse et que vous soyez misérables tous les deux ?... </l>
+            <l>— Venez déjeuner avec moi. </l>
+            <l>— Hé ! </l>
+            <l>Je vous donnerai ce qu’il vous faudra. Libre pour toujours, comprenez-vous ? »</l>
+          </quote>
           <p>Ah ! rien de plus tragique, à la fin de ce premier acte, où quatre destinées, du fait de leur seule rencontre se sont orientées ensemble vers le drame, que les paroles de Lechy Elbernon, anxieuse des forces en présence :</p>
-          <l>« … Comme il y a une harmonie entre les couleurs, il y en a une entre les voix. </l>
-          <l>Et comme entre les voix il y a un concert entre les âmes, qu’elles se haïssent ou s’aiment. </l>
-          <l>Et nous, tous quatre, nous avons les cheveux noirs et c’est ainsi que nous sommes réunis </l>
-          <l>Comme des ouvriers qu’on a loués pour travailler à une même pièce. </l>
-          <l>Ah ! ah !</l>
-          <l>Rangeons-nous en rond comme font les enfants </l>
-          <l>Quand ils comptent pour savoir lequel sera pris. </l>
-          <l>(Elle compte.) </l>
-          <l>Akkeri, ekkeri, ukerian</l>
-          <l>Fillasi, fullasi, etc... »</l>
-          <p/>
+          <quote>
+             <l>« … Comme il y a une harmonie entre les couleurs, il y en a une entre les voix. </l>
+            <l>Et comme entre les voix il y a un concert entre les âmes, qu’elles se haïssent ou s’aiment. </l>
+            <l>Et nous, tous quatre, nous avons les cheveux noirs et c’est ainsi que nous sommes réunis </l>
+            <l>Comme des ouvriers qu’on a loués pour travailler à une même pièce. </l>
+            <l>Ah ! ah !</l>
+            <l>Rangeons-nous en rond comme font les enfants </l>
+            <l>Quand ils comptent pour savoir lequel sera pris. </l>
+            <l>(Elle compte.) </l>
+            <l>Akkeri, ekkeri, ukerian</l>
+            <l>Fillasi, fullasi, etc... »</l>
+          </quote>
           <p>N'est-ce pas là du drame, et du plus sobre et du plus âpre et du plus neuf ? Il est lancé, suivez-le maintenant dans sa trajectoire implacable.</p>
           <p>Le second acte est rempli par trois scènes : celle de la révolte de Marthe en face du honteux marché que Louis Laine veut conclure ; celle du reniement de Marthe par Louis Laine, en présence de l'insolente et cruelle Lechy Elbernon, que l'abandon de Sir Thomas Pollock autant que son amour pour Louis exaltent :</p>
-          <p/>
-          <l>Lechy. — « C'est bien moi que tu aimes, Louis ? </l>
-          <l>Louis. — C'est toi. </l>
-          <l>Lechy. — Répète cela ! C'est moi que tu aimes et non pas elle ? </l>
-          <l>Laine. — C'est toi que j'aime et non pas elle. </l>
-          <l>Marthe. — Adieu ! »</l>
-          <p/>
+          <quote>
+            <l>Lechy. — « C'est bien moi que tu aimes, Louis ? </l>
+            <l>Louis. — C'est toi. </l>
+            <l>Lechy. — Répète cela ! C'est moi que tu aimes et non pas elle ? </l>
+            <l>Laine. — C'est toi que j'aime et non pas elle. </l>
+            <l>Marthe. — Adieu ! »</l>
+          </quote>
           <p>Celle enfin où Louis Laine prévoit sa mort et s'abandonne à l'aventure voluptueuse et mortelle ; car Lechy, elle, ne pardonnerait pas l'abandon.</p>
           <p>Il reviendra à Marthe, à son amour grave et fidèle ; Lechy Elbernon le pressent ; sa jalousie enveloppe à la fois Thomas Pollock, et Louis, et Marthe ; elle se vengera de tous trois. Peu importe qu'au dernier acte elle use de moyens un peu mélodramatiques pour ruiner Thomas par un incendie, pour tuer Louis dont elle attache le cadavre sur un cheval en liberté, — cela est défi à la mise en scène rien de plus. Il reste le pardon de Marthe, l'ivresse inspirée de Lechy, et le grave dialogue sur lequel se conclut le drame, entre Marthe et Thomas Pollock : trois scènes, toutes trois admirables.</p>
-          <p/>
+          <quote>
           <l>marthe. — Thomas Pollock, pensez-vous que la vie ne vaille que d'être gaspillée ainsi ? </l>
           <l>thomas pollock. — Que voulez-vous que je réponde. Je ne sais plus rien. </l>
           <l>Je pense que la vie de chacun a son prix pour les autres. </l>
@@ -484,7 +484,7 @@
           <l>Reprenez cela ! C’est à vous. </l>
           <l>…………………………………………………………………………………..</l>
           <l>Thomas Pollock. — Douce amère, quel que soit le mal que je vous ai fait, pardonnez-moi. »</l>
-          <p/>
+          </quote>
           <p>J'ai tenu à citer aussi ces phrases excessivement simples, où se montre, dépouillée, la rare qualité de l'émotion ; elles s'enchaînent sans gaucherie aux plus riches, aux plus apparemment ornées ; elles ne paraissent que plus fortes et plus directes à côté. Grâce à elles, a-t-on compris que l'intérêt principal d'un tel drame n'est pas surtout lyrique, mais psychologique d'abord ? que cette psychologie évitant la dissertation rétrospective, la patiente dissection, cherche au contraire les occasions de réaction les plus frappantes, et affronte les êtres avec un cynisme parfait ? Dans l'attaque, dans le développement des scènes agies, quelle décision, quelle franchise, quel mépris des transitions habiles, des petits moyens ! Niera-t-on la puissance du lien tragique ? Et par ailleurs quelle complexité dans le bloc imposant, indissociable de chaque caractère ! quelle découverte sur le monde, derrière chacun d'eux ! Ils sont individuels et généraux ; comme la monade ils reflètent l'univers dont ils font partie ; ils apportent sur le théâtre beaucoup plus que leur être propre et leur être propre n'en souffre pas. J'aurais peu de peine à montrer que Laine représente l'esprit d'aventure et de fantaisie.</p>
           <p>Thomas Pollock l'esprit de réalisme et d'action, Lechy, le démon du plaisir et du désir insatiable, Marthe, l'ange de la durée, du sacrifice et du fidèle amour — mais ils sont d'abord Laine, Lechy, Thomas Pollock et Marthe. Le poète les exhausse, mais ne les masque pas.</p>
           <p>Ce drame, mais il suffirait de l'alléger de deux tirades pour qu'il se ruât sur la scène où tend toute sa frénésie ! Ah ! qu'il vienne bientôt donner à nos auteurs la nécessaire leçon d'héroïsme qui relèvera leurs visées ! Qu'il nous montre enfin des héros, — j'entends des hommes semblables à nous, mais plus grands, dans la vertu ou dans le vice ; plus simples dans les gestes, mais plus complexes dans l'esprit : solidement établis sur la terre, mais dominant de plus haut l'horizon, et parlant une langue aussi modeste parfois, mais plus belle : des personnages de tragédie en un mot. La comédie bourgeoise n'est pas tout le théâtre, et le drame néo-romantique ne saurait suffire éternellement à notre appétit d'idéal. Si nos directeurs ignorent que nous possédons aujourd'hui un grand tragique, capable de renouer la tradition hellénique par dessus nos classiques mêmes et de communiquer au théâtre de France une vitalité qu'il ne connut jamais, puisse l'un d'eux être amené à feuilleter sans parti-pris <hi rend="i">l’Echange</hi> — et, s'il ose, à le jouer <note n="10" type="NdA">M. Paul Claudel, depuis <hi rend="i">l'Arbre</hi>, a publié deux drames : <hi rend="i">Partage de Midi</hi> et <hi rend="i">l'Otage</hi> ; sans coupure aucune, <hi rend="i">l'Otage</hi> pourrait être représenté. (NdA)</note>.</p>
@@ -517,31 +517,28 @@
           <p>Sur « giselle » <note n="46" type="NdE"><title>Giselle ou les Willis</title>, ballet composé par Adolphe Adam sur un livret de Théophile Gautier, a été créé à l’Opéra de Paris en 1841.</note>.</p>
           <p>M. de Diaghilew, organisateur remarquable, y mit quelque coquetterie. Il voulut que le peintre Benois <note n="47" type="NdE">Alexandre Nikolaïevitch Benois (1870-1960), peintre, décorateur et scénographe, proche de Diaghilev dès les années 1890, devenu directeur du théâtre Mariinsky en 1901, s’est dès lors consacré à la création et aux décors, notamment avec Diaghilev.</note> débanalisât le décor. Il confia les premiers rôles aux plus originaux de ses protagonistes, à la Karsavina, à Nijinsky. Sous peine de crime de lèse-tradition, il ne pouvait rajeunir aussi les figures, les ronds de jambe et les ronds de bras Louis-Philippe, la monotonie des « tutus ». Ce fut une soirée aimable et curieuse et non dépourvue d'unité. A la musique, aux décors, aux ensembles, on découvrit du moins une qualité commune, l'effacement. Et l'on comprit que, sur ce fond neutre, l'action, dans la pensée du librettiste, n'eut pas à l'origine d'autre but, que de mettre en valeur « l'étoile » ou les étoiles, autrefois la Grisi, aujourd'hui Nijinsky et la Karsavina. De fait, ici, le ballet ne vaut que par eux, par la fraîcheur volontairement surannée de leur pathétique. Représentez-vous à leur place, la Gheltzer et Volinine par exemple, premiers sujets de l'école réactionnaire de Moscou, champions d'une mimique machinale et d'une virtuosité prétentieuse ? Auriez-vous pu supporter de leur part cet enchaînement de formules vides et cette acrobatie à froid conforme cependant à l'esprit de l'ancien ballet ? — Si pour Karsavina et Nijinsky (pour toute la troupe de Saint-Pétersbourg du reste) la danse redevient chose sentie, chose vécue, où l'âme et l'esprit commandent au corps, chose extensible à l'infini et perfectible dans le sens de la beauté et du mouvement expressifs, comment condamner de pareils danseurs à un emploi si médiocre ? Ceux-ci ne se veulent pas « étoiles » mais personnages, mais éléments du mouvement total de l'action.</p>
           <p>C'en est fini du ballet pour étoile : du règne de l'étoile comme de celui de ténor. Pour être juste envers la troupe russe, on devrait éviter la moindre personnalité à son endroit. Elle est encore supérieure à tant de valeurs individuelles qui la composent. Elle possède la suprême qualité de paraître indissociable, de faire corps avec l'œuvre qu'elle représente, jusqu'à sembler naître de la musique pour se fondre aux couleurs du décor. De « la danseuse en soi » âme du ballet de nos pères, nous connaissions toute la grâce aiguë par l'œuvre admirable du peintre Degas : nous n'en avons rien appris de plus par <hi rend="i">Giselle</hi>. Il s'agit maintenant non de « la danseuse » mais du « ballet ».</p>
-          <p/>
-          <p>Un danseur.</p>
+          <label>Un danseur.</label>
           <p>Aussi ne parlerai-je point, si ingrat que soit ce silence, de la Rubinstein, mime pathétique et voluptueuse, élancée comme une Diane de la Renaissance française ; ni de la Karsavina, oiseau flexible à la danse précise et délicate ; ni de la petite Lopoukhova, enfant joueuse ; ni même de Fokine danseur <note n="48" type="NdE">Chorégraphe des Ballets Russes de 1909 à 1925, Michel Mikhaïlovitch Fokine (1880-1942) était aussi danseur.</note>, malgré sa finesse et sa fougue... d'aucun.</p>
-          <said>— Je parlerai pourtant de Nijinsky. Car autant négliger, ma foi ! le « génie » qu'a dressé Carpeaux dans le cercle éperdu de sa <hi rend="i">Danse</hi>. Il représente ici plus que lui-même. Il ressuscite à nos yeux éblouis cet être merveilleux et chimérique éteint depuis Vestris, le « danseur », et il est le signe le plus frappant de l'exhaussement du ballet jusqu'à une beauté plus virile et plus noble. Non, je ne perdrai pas l'occasion de réhabiliter son emploi. </said>
+          <p>— Je parlerai pourtant de Nijinsky. Car autant négliger, ma foi ! le « génie » qu'a dressé Carpeaux dans le cercle éperdu de sa <hi rend="i">Danse</hi>. Il représente ici plus que lui-même. Il ressuscite à nos yeux éblouis cet être merveilleux et chimérique éteint depuis Vestris, le « danseur », et il est le signe le plus frappant de l'exhaussement du ballet jusqu'à une beauté plus virile et plus noble. Non, je ne perdrai pas l'occasion de réhabiliter son emploi. </p>
           <p>Certes, nous avons désappris d'admirer le corps masculin. — Mais, n'est-ce pas un signe de barbarie ? et est-il possible d'admettre que la principale source de joie plastique du peuple grec reste pour nous définitivement tarie ? Je distingue une grande beauté dans la boxe, en dépit de ses fins sanglantes, dans le cricket, dans le tennis, dans tous les sports qui mettent les formes viriles en action : il importe que nous n'y demeurions plus insensibles. Et je ne vois pas, quant à moi, que le jeu gratuit de la danse se doive priver en principe de telles ressources.</p>
           <p>La femme a trop de grâce par vocation et culture pour n'avoir pas fait de la danse son domaine propre. Je crois qu'il y a place à son côté pour une grâce d'essence masculine et qui ne soit pas efféminement, mais qui sauve au contraire de l'efféminement la ballerine elle-même. Dans le ballet dégénéré, le règne exclusif de la femme a des raisons, ne nous le dissimulons pas, moins esthétiques que sensuelles. Il crée immanquablement, à la longue, un amollissement qui risque de s'étendre aux sujets masculins appelés là par les nécessités de l'action. D'où le danseur conventionnel, être hybride, soumis à une plastique étrangère, à peine distinguable des femmes par l'exagération d'une musculature jurant avec la fadeur du visage : une sorte d'acrobate et d'athlète femelle, la bouche en cœur et la main sur le sein. Archers du <hi rend="i">Prince Igor</hi>, renouvelez cette louche atmosphère ! Faites place à l'héroïsme dans la grâce que nous apporte un Nijinsky ! Il est grand temps que le ballet se virilise.</p>
-          <said>— Des jambes et des cuisses pleines, aux muscles anormalement développés, soutiennent fermement, emportent, selon la miraculeuse élasticité de leurs bonds, un torse jeune, des bras souples, une large et haute encolure, un visage grave et riant, puéril et pensif, le visage même de la race slave. Les pommettes saillantes, les joues en plan droit, les lèvres fortes... — mais vais-je tenter un portrait ? Nijinski n'a jamais que le visage de ses rôles et derrière son personnage il s'efface, modestement. </said>
+          <p>— Des jambes et des cuisses pleines, aux muscles anormalement développés, soutiennent fermement, emportent, selon la miraculeuse élasticité de leurs bonds, un torse jeune, des bras souples, une large et haute encolure, un visage grave et riant, puéril et pensif, le visage même de la race slave. Les pommettes saillantes, les joues en plan droit, les lèvres fortes... — mais vais-je tenter un portrait ? Nijinski n'a jamais que le visage de ses rôles et derrière son personnage il s'efface, modestement. </p>
           <p>On l'a vu prince dans <hi rend="i">Giselle</hi>, svelte, fier, éperdu de noble douleur, rugissant. On l'a vu esclave dans <hi rend="i">Cléopâtre</hi>, nègre sombre, servile et rusé. On l'a vu pâle et rose, dans les <hi rend="i">Sylphides</hi>, bercé au vent d'une romantique inspiration. On l'a vu dans <hi rend="i">Shéhérazade</hi>, pareil à un petit animal voluptueux, roulant des gestes ronds et gras, un sourire de sensualité ingénue lui découvrant les dents jusqu'aux gencives, ne pouvant croire à son bonheur... On l'a vu dans les <hi rend="i">Orientales</hi> ; et tout le mystère divin du Cambodge et de l'Inde, ondulait singulièrement en lui. On l'a vu <hi rend="i">djinn</hi>, ganté de la tête aux pieds de ténèbres, la poitrine moulée de paillettes feu, bleu et vert : il traversait la nuit d'un bond comme un mauvais songe et croulait en boule, comme un déchu.</p>
           <p>Ce danseur est un grand acteur. Il incorpore à la danse la tragédie, le pathétique à la plastique. Il joue toujours, quand il pourrait ne rien que danser. Il n'a pas moins souci du jeu des traits de son visage que du jeu de son corps. De son corps même, il n'admet pas un geste gratuit, du bout des doigts ; pas un geste de virtuosité pure, ni même de virtuosité belle, qui ne soit un geste expressif. Il donne au rythme une signification humaine que la plus puissante danseuse n'aurait pas les moyens, la force d'exprimer. J'admire que dans la mollesse des pires exotismes, une sorte de spiritualité juvénile, un souci de style constant le sauvent de toute équivoque, et qu'on ne puisse dans son jeu surprendre même l'esquisse d'un mouvement douteux.</p>
           <p>Il fait la preuve de ce que j'avance. Il justifie la place du jeune homme dans le ballet, de sa grâce plus pleine, plus diverse et plus intellectuelle, au milieu de l'enchantement féminin. Si l'excitation sexuelle y perd, l'art en s'élargissant y gagne. Mais laissons Nijinsky rejoindre sa troupe, s'y mêler, se soumettre comme tous les autres, à la discipline du maître de ballet.</p>
-          <p/>
-          <p>Derrière le Rideau.</p>
+          <label>Derrière le Rideau.</label>
           <p>Demi-ténèbre de la scène. Sur le plateau envahi par les curieux, les danseurs et les ballerines, quelle folle impatience règne !... l'impatience du créateur qui va achever de créer. C'est sur une œuvre d'art qu'il faut que le rideau se lève. Les deux maîtres sont là, le maître des couleurs et le maître des mouvements : le peintre des décors et des costumes Léon Bakst, le danseur et maître de ballet Michel Fokine <note n="49" type="NdE">Michel Fokine : voir <hi rend="i">supra</hi>, notes 47 et 48.</note>. Il suffit que leurs vues concordent. Celui-ci animera ce que celui-là a créé.</p>
           <p>Large éclat des décors ; fantaisie rare des costumes. Certes nous avions admiré la loyauté de la couleur aux aquarelles des maquettes exposées chez MM. Bernheim. Elle ne prend sa pleine valeur qu'en scène, grâce à ce parti pris de vastes plans dont les bords flous augmentent la vibration et la vie, grâce à ces arabesques stylisées qui rompent de loin en loin l'uniformité de tons plats. Le grand rideau vert pomme éclaboussé d'or et de rose, relevé amplement sur trois portes d'outremer sombre, s'exaspère déjà dans la pénombre, au contact de la pourpre du Sultan Sharriar, de l'écarlate du tapis, des oranges, des roses, des vieil or, des amarantes, soutenus de bleus forts et noirs dont sont bariolés les costumes. Et j'imagine que le peintre s'étonne de ce que le geste du maître de ballet qui les mêle, crée avec ces couleurs des rapports et des chatoiements imprévus. Elle vit donc d'une vertu indestructible, cette harmonie qu'il a rêvée vivante, en la fixant sur le papier !</p>
           <p>D'un regard perçant et précis le maître de ballet Fokine juge d'un effet, rompt un groupe, ou règle un dernier bond d'un clignement. Dans son esprit le tourbillon enchevêtré des danses est chose aussi précise, aussi précisément réalisable que sur la toile la disposition des couleurs. De quelle logique ingéniosité, de quelles nécessaires trouvailles, il déborde sans cesse. Oh ! le bel art mouvant !</p>
           <p>Mais ces grands gars stylés, mais ces fraîches fillettes dociles, à quoi pensez-vous donc qu'elles songent avant le lever du rideau, contre le châssis de ce coin de scène ? A leur art aussi, et rien qu'à leur art — à leur art qui est une joie ! Voyez-les. Celle-ci fredonnant un air, prend l'autre par la main, répète en souriant la courbe, le saut, la pirouette que le maître a calqués sur l'air. Au premier plan, Nijinsky assouplit, perfectionne un tournoiement, un rythme, avant de l'exécuter en public : il est déjà plein de la danse. La Rubinstein s'étire longuement sur la musique encore endormie à l'orchestre et que par avance elle rêve. La pensée de l'œuvre totale pèse sur tous, grands et petits. Tous s'y plient et tous s'y exaltent. Tous y croient, comme on croit à vingt ans. Tous — notons-le — ont la jeunesse...</p>
           <p>Et le rideau se lève sur une œuvre d'art.</p>
-          <p/>
-          <p>A Propos de « Shéhérazade »</p>
+
+          <label>A Propos de « Shéhérazade »</label>
           <p>Je ne me donnerai pas le ridicule d'essayer de décrire spectacle d'une aussi insurpassable splendeur. Depuis le théâtre Sada-Yacco <note n="50" type="NdE">Le théâtre japonais, Sada Yacco, Nô et Kabuki, a enthousiasmé le public parisien en 1900.</note> nous n'avions rien vu de semblable. L'estampe japonaise est fresque orientale ici (de très loin, fine miniature persane) : mais j'y salue une même volonté d'art. Grâce à un vœu d'accord constant, chaque moment de l'action fait tableau et comble l'attente. Le mouvement du ballet entraîne à sa suite une succession ininterrompue d'images parfaites, complètes, dont aucun détail ne vient en avant, et qui toutes expriment, n'expriment que l'idée maîtresse du drame : dans <hi rend="i">Shéhérazade</hi> le déchaînement des instincts...</p>
           <p>Il fallait bien un jour appliquer au ballet la loi organique et centrale qui transforma en drame lyrique l'opéra, par la suppression des hors d'œuvre et des acrobaties vocales, par une obéissance absolue de la forme au fond. Les Russes donc, en auront eu l'honneur, et dès le premier essai la maîtrise. Le ballet aussi devient drame. Dès qu'il n'est plus simple divertissement, il appelle impérieusement au secours de la danse pure, l'art sublime de la mimique qui n'en aurait jamais dû être séparé. Je défie aucun spectateur de <hi rend="i">Shéhérazade</hi> de dissocier ces deux éléments confondus. Combien la nouvelle carrière qui s'ouvre pour le ballet a plus d'ampleur, de variété possible, de hauteur ! Il voudra toucher par les yeux notre âme. Ah ! par surcroît qu'une belle musique l'enveloppe et le soutienne, et le fasse communiquer avec l'infini !</p>
-          <said>— C'est la tare de <hi rend="i">Shéhérazade</hi> d'avoir emprunté sa musique à un poème symphonique trop connu dont l'affabulation n'était pas scéniquement réalisable. Et je comprends qu'accoutumé à évoquer sur les rythmes du quatrième morceau par exemple, le naufrage du vaisseau de Sindbad, un musicien se révolte de voir servir les mêmes rythmes à souligner ce que M. Pierre Lalo <note n="51" type="NdE">Pierre Lalo (1866-1943), fils du compositeur Édouard Lalo, critique musical reconnu, collaborait notamment au <title>Temps</title>, depuis 1898.</note> appelle une « petite tuerie de nègres » et qui est en fait dans <hi rend="i">Shéhérazade</hi> un splendide massacre absolument tempétueux. Mais sied-il donc de tant crier au sacrilège à propos d'un morceau de « musique à programme » dont le programme aura été changé ? Le premier coupable est le musicien qui n'avait pas à détailler pour nous le rêve littéraire ou plastique, en tout cas extra-musical, qu'il entreprenait de traduire en musique pure. Je ne conseillerai à personne d'imiter MM. Bakst et Fokine en ceci, mais je considère que la traduction qu'ils ont faite du poème symphonique de Rimsky Korsakow, sans égards pour le prospectus original, est d'une justesse parfaite ; que ladite musique signifiait aussi cela, et bien d'autres choses encore ; et plus généralement que sans l'aide d'un texte ou d'une image, aucune musique prise à part ne saurait préciser idée ni sentiment, ni à plus forte raison couleur ou forme. Rien que des mouvements. Les mouvements sont justes dans <hi rend="i">Shéhérazade</hi> : cela suffit. </said>
+          <p>— C'est la tare de <hi rend="i">Shéhérazade</hi> d'avoir emprunté sa musique à un poème symphonique trop connu dont l'affabulation n'était pas scéniquement réalisable. Et je comprends qu'accoutumé à évoquer sur les rythmes du quatrième morceau par exemple, le naufrage du vaisseau de Sindbad, un musicien se révolte de voir servir les mêmes rythmes à souligner ce que M. Pierre Lalo <note n="51" type="NdE">Pierre Lalo (1866-1943), fils du compositeur Édouard Lalo, critique musical reconnu, collaborait notamment au <title>Temps</title>, depuis 1898.</note> appelle une « petite tuerie de nègres » et qui est en fait dans <hi rend="i">Shéhérazade</hi> un splendide massacre absolument tempétueux. Mais sied-il donc de tant crier au sacrilège à propos d'un morceau de « musique à programme » dont le programme aura été changé ? Le premier coupable est le musicien qui n'avait pas à détailler pour nous le rêve littéraire ou plastique, en tout cas extra-musical, qu'il entreprenait de traduire en musique pure. Je ne conseillerai à personne d'imiter MM. Bakst et Fokine en ceci, mais je considère que la traduction qu'ils ont faite du poème symphonique de Rimsky Korsakow, sans égards pour le prospectus original, est d'une justesse parfaite ; que ladite musique signifiait aussi cela, et bien d'autres choses encore ; et plus généralement que sans l'aide d'un texte ou d'une image, aucune musique prise à part ne saurait préciser idée ni sentiment, ni à plus forte raison couleur ou forme. Rien que des mouvements. Les mouvements sont justes dans <hi rend="i">Shéhérazade</hi> : cela suffit. </p>
           <p>Que si cette expérience réussie, aboutit à discréditer le plus hybride des genres musicaux, la « symphonie à programme », avouez que ce sera tant mieux. D'autant que déjà la remplace ce que je nommerai la « symphonie dansée » dont le premier chef-d'œuvre, né d'hier, est <hi rend="i">l’Oiseau de Feu</hi>.</p>
-          <p/>
-          <p>Un ballet féerie.</p>
+          <label>Un ballet féerie.</label>
           <p>Si tant de musiciens de nos jours, d'une culture trop plastique, trop littéraire, se plaisent à lier leurs inventions musicales au souvenir précis d'un paysage, d'une légende, d'une action ; si pourtant, ils ont peur que la parole humaine et la dureté de ses mots risquent de déchirer la trame subtile de leur symphonie ; si le poème symphonique, en dépit d'une absurdité incorrigible, demeure leur forme d'élection ; ils ne se refuseront pas à désormais écrire pour la scène une musique qui ne se suffit point et qu'un spectacle muet compléterait à merveille. J'estime que la réalisation féerique du conte musical de M. Stravinsky, <hi rend="i">l’Oiseau de Feu</hi>, les décidera et que par eux le ballet de demain va fleurir.</p>
           <p>C'est comparé à <hi rend="i">l’Oiseau de Feu</hi> que <hi rend="i">Shéhérazade</hi> sent un peu l'adaptation. Malgré tout le tact des auteurs, le spectacle en <hi rend="i">Shéhérazade</hi> l'emporte trop sur la musique ; celle-ci trop souvent fait figure de simple accompagnement. <hi rend="i">L'Oiseau de Feu</hi>, œuvre d'une collaboration intime entre le chorégraphe, le musicien et le peintre nous propose le prodige d'équilibre le plus exquis que nous ayons jamais rêvé, entre les sons, les mouvements, les formes. La vermiculure vieil or d'une toile de fond fantastique semble inventée selon les mêmes procédés que le tissu nuancé de l'orchestre. Dans l'orchestre c'est vraiment l'enchanteur qui crie, les sorciers et les gnomes qui grouillent, se démènent. Quand l'oiseau passe, c'est la musique qui le porte. Stravinsky, Fokine, Golovine <note n="52" type="NdE">Alexandre Golovine a, pour sa part, réalisé les décors et costumes de <title>L’Oiseau de feu</title>.</note>, je ne vois plus qu'un seul auteur.</p>
           <p>Je ne narrerai pas le conte ; il n'est pas sensuel mais simplement naïf et merveilleux. Il ouvre sur la fiction une porte plus pure, plus intellectuelle aussi que le conte de <hi rend="i">Shéhérazade</hi>. Il ne prend pas du premier coup, comme elle, mais il pénètre doucement — et l'on ne peut plus s'en lasser. Pépiement des timbres, vivace caresse de la mélodie, cauchemar des formes, délire des danses, naïveté charmante du prince Ivan (comme il méritait donc d'être sauvé !) ; nous replongeons, au moyen de l'art le plus raffiné, à l'extase des contes de notre enfance.</p>
@@ -605,17 +602,21 @@
         <p>Alors il avoua (le préteur malade) qu'il possédait dans sa maison une chambre où était représenté tout le système des étoiles et qui lui permettait de prévoir l'avenir... Et Saint-Sébastien : « Aussi longtemps que cette chambre ne sera pas détruite, tu ne recouvreras pas la santé. » Sur cette indication de Jacques de Voragine, M. d'Annunzio devait s'en donner à cœur joie. Le second acte serait l'acte magique : sibylles, sortilèges, hermétisme ! — Cela ne suffit pas encore. Il invente « la fille malade des fièvres », portant dans son sein le linceul du Christ. Et ce linceul sacré il l'étale sur le théâtre ; on y compte à la trace chaque blessure du fils de Dieu. Le sang, les plaies et la sanie, voilà le thème principal que se complaît à développer le poète, en mots parfois beaux, mais impurs... Passons.</p>
         <p>« Le troisième acte, — comment le supporter ? Le personnage de Saint-Sébastien s'y précise. — J'ignore de quelle tradition s'autorise M. Gabriele d'Annunzio, mais il n'apparaît pas d'après la <hi rend="i">Légende Dorée</hi> que l'empereur Dioclétien ait eu pour son chef de cohorte plus que l'affection due à un très loyal serviteur. « Ingrat, dit-il ; je t'ai appelé dans mon palais et toi tu as travaillé contre moi et les Dieux. »Et Sébastien : « Pour toi et pour l'Etat romain, j'ai toujours prié Dieu qui est dans le Ciel. » Alors il le fit attacher à un poteau au milieu du Champ de Mars, etc. Mais cela eût été trop simple.</p>
         <p>Selon le poète italo-français, Sébastien est beau, et non de cette beauté spirituelle, qui transfigure la forme, qui en éloigne toute velléité impure de désir. Sébastien est beau, païennement ; païennement, l'empereur l'aime. Il veut le sauver par amour ; il veut que le peuple l'acclame :</p>
-        <l>... Que les Dieux </l>
-        <l>justes conservent ta beauté </l>
-        <l>pour l'empereur, Sébastien... </l>
+        <quote>
+          <l>... Que les Dieux </l>
+          <l>justes conservent ta beauté </l>
+          <l>pour l'empereur, Sébastien... </l>
+        </quote>
         <p>il veut le faire Dieu ! — Sébastien est « le sagittaire à la chevelure d'hyacinthe », « celui qu'Apollon aime », le « bel archer d'Emèse ». Il est aussi le beau chanteur : il coupera les cordes de la lyre d'Orphée ; il est aussi le beau danseur : il dansera la Passion ! On le couche douillettement — <hi rend="i">car il est beau</hi> — sur la lyre mutilée ; le cortège des femmes le pleure ; il va périr sous les couronnes, sous les colliers, sous les parures — <hi rend="i">car il est beau</hi>.</p>
         <p>De ce premier supplice, notons que la <hi rend="i">Légende Dorée</hi> ne dit rien ; il fut subi par d'autres saints, et M. d'Annunzio avait le droit d'en faire usage. Il prit à cela un certain plaisir : c'est un supplice luxueux. — D'ailleurs, Saint-Sébastien en réchappe : il succombera, comme le veut la tradition, au dernier acte, sous les flèches de ses archers.</p>
-        <said>— Ils sont condamnés à frapper leur chef ; de quelles paroles de viril respect, de noble camaraderie, ne vont-ils pas différer l’exécution ? quels cris douloureux et rudes une telle hauteur de conflit leur commande ! — Non, ils n'auront qu'un mot : « Aimé, bien-aimé » mot de femme. Et le saint, éperdu, sentira sous la pitié le désir, et réclamera d'eux, comme une volupté sensuelle, la souffrance... </said>
-        <l>Je vous le dis, je vous le dis : </l>
-        <l>celui qui plus profondément </l>
-        <l>me blesse, plus profondément </l>
-        <l>m'aime... </l>
-        <l>Une apothéose céleste qui couronne l'ouvrage ne saurait racheter un si continuel blasphème. </l>
+        <quote>
+          <p>— Ils sont condamnés à frapper leur chef ; de quelles paroles de viril respect, de noble camaraderie, ne vont-ils pas différer l’exécution ? quels cris douloureux et rudes une telle hauteur de conflit leur commande ! — Non, ils n'auront qu'un mot : « Aimé, bien-aimé » mot de femme. Et le saint, éperdu, sentira sous la pitié le désir, et réclamera d'eux, comme une volupté sensuelle, la souffrance... </p>
+          <l>Je vous le dis, je vous le dis : </l>
+          <l>celui qui plus profondément </l>
+          <l>me blesse, plus profondément </l>
+          <l>m'aime... </l>
+        </quote>
+        <p>Une apothéose céleste qui couronne l'ouvrage ne saurait racheter un si continuel blasphème. </p>
         <p>Et qu'on m'entende bien, je n'ai pas à défendre ici la morale ou la religion offensée. Loin de moi la pensée d'interdire au poète d'aborder tel ou tel sujet — fût-ce le moins conforme aux mœurs du temps, le plus mystique. Le <hi rend="i">Saül</hi> de Gide et la <hi rend="i">Jeanne d'Arc</hi> de Péguy <note n="62" type="NdE">Achevé dès 1898 par Gide, <title>Saül</title> est publié en volume en 1903. La <title>Jeanne d’Arc</title>, de Péguy, a été publiée en 1897.</note> me paraissent de nobles œuvres, et certes, la hardiesse n'y fait point défaut ! J'entends ne point quitter le terrain esthétique : si j'ai prononcé le mot de blasphème, c'est de blasphème contre l'art qu'il s'agit. L'art choisit, sacrifie, respecte. Or je ne vois dans l'ouvrage qui nous occupe, ni choix, ni sacrifice, ni respect.</p>
         <p>Que M. d'Annunzio ne se sente pas le courage, entre tant de beaux mots, d'images rares, de faire une sélection, nous le comprenons bien ; à ne considérer en lui que le styliste, nous l'en excuserions encore. De Hugo à Whitman les exemples d'excès du verbe ne manquent pas. Nous admettrions donc son luxe dans la forme, si ce luxe ne l'entraînait à ne plus même choisir dans le fond.</p>
         <p>La question se pose ainsi : Ou bien, il prétendait faire œuvre chrétienne, si chrétienne que le Saint Suaire pût s'éployer sur le théâtre, et que pût, sans scandale, y être mimée la Passion : il devait en ce cas écarter de la scène toute équivoque, la laver de toute souillure et enfermer l'ouvrage dans un cercle de pureté. — Ou bien, il se risquait à traiter comme un mythe, au mépris d'une foi en bien des cœurs encore vivace, l'histoire d'un martyr ; à replonger celui-ci dans la fable ; à lui prêter la forme adorable d'un dieu païen : il devait alors l'isoler le plus possible du vrai dogme et se garder, du moins, d'évoquer à propos de lui les attributs du supplice divin. Encore Sébastien devait-il rester un héros même dans le mythe ! Question de simple décence esthétique, question de choix. M. d'Annunzio n'a pas choisi.</p>
@@ -623,7 +624,7 @@
         <p>Comment le respecterait-il quand il ne le connaît pas même ! Il ne sait regarder aucun sujet en face, avec ce tremblement, avec cet amour exclusif qui rend le véritable poète si humble, si prêt à renoncer aux plus glorieux de ses dons, pour mieux habiter son sujet ! Dès que M. d'Annunzio s'approche, curieux et sans doute animé d'un sincère désir d'étreinte, toute sa culture de musées et de livres s'interpose soudain ainsi qu'un écran de soie merveilleux, cette culture dont il se sent si fier et qui lui donne tous les droits — à l'entendre !</p>
         <p>Va-t-il directement épouser la légende, quand tant de peintres l'ont déjà retracée, dont les tableaux tapissent sa mémoire ? D'Hans Memling au Pérugin, il voit un jeune homme nu, criblé de flèches ; il est jeune, il est beau de corps ; car sa beauté spirituelle est devenue beauté plastique par une nécessaire transposition ; — mais de ceci, M. d'Annunzio n'a cure. Il est beau, il est désirable : sur quelques académies de musée, M. d'Annunzio établira sa psychologie du martyr. Psychologie ornementale, chère à « l'amateur » en voyage. Sous le pittoresque, sous l'accessoire, va périr étouffé le drame intérieur !</p>
         <p>A propos d'un martyr, les plus beaux souvenirs helléno-latins se réveillent. Les choses s'abîment dans les mots ; les mots, au rebours, créent les choses. Adonis naît d'Adonaï, Hadrien de Dioclétien, et d'Hadrien, Antinoüs ! Dans la forme d'Antinoüs, voici donc l'extase de Sainte-Thérèse ! M. d'Annunzio ne saurait plus douter d'avoir créé une œuvre belle ; il n'a daigné y fondre que des « éléments de beauté ».</p>
-        <said>— Ceci ne s'appelle point art, mais artifice, mais « artistisme »— pour me permettre un mot barbare, moins barbare que ce qu'il désigne. La beauté ne se transmet pas toute faite. Elle naît d'une continuelle création ; de la découverte renouvelée d'un rapport juste entre la forme et la pensée. Supprimez ce juste rapport, n'eussiez-vous formé votre ouvrage que d'or et de pierres rares, que de morceaux du Parthénon ; plus de beauté. La vraie beauté n'est pas « excentrique » mais bien « centrale ». Il semble que M. d'Annunzio qui crut sauver tant de ses livres par des descriptions de tableaux, ait promulgué dans son mystère la loi de cette esthétique funeste, qui méconnaît le processus essentiel de l'art et substitue à la création, le placage. Elle peut donner lieu à de brillants morceaux. Il y en a dans le <hi rend="i">Martyre</hi>. Comment les admirer, quand on sait ce qui les soutient <note n="14" type="NdA">Je n'ai rien dit du spectacle ; il pouvait sauver la pièce : la musique de scène de M. Debussy la soutenait d'harmonies vraiment chrétiennes et qui marquent dans sa manière un remarquable élargissement ; les décors splendides de M. Bakst avaient de la dignité et la principale interprète elle-même, mima noblement, sans afféterie, le rôle impossible du Saint. (NdA)</note> ?</said>
+        <p>— Ceci ne s'appelle point art, mais artifice, mais « artistisme »— pour me permettre un mot barbare, moins barbare que ce qu'il désigne. La beauté ne se transmet pas toute faite. Elle naît d'une continuelle création ; de la découverte renouvelée d'un rapport juste entre la forme et la pensée. Supprimez ce juste rapport, n'eussiez-vous formé votre ouvrage que d'or et de pierres rares, que de morceaux du Parthénon ; plus de beauté. La vraie beauté n'est pas « excentrique » mais bien « centrale ». Il semble que M. d'Annunzio qui crut sauver tant de ses livres par des descriptions de tableaux, ait promulgué dans son mystère la loi de cette esthétique funeste, qui méconnaît le processus essentiel de l'art et substitue à la création, le placage. Elle peut donner lieu à de brillants morceaux. Il y en a dans le <hi rend="i">Martyre</hi>. Comment les admirer, quand on sait ce qui les soutient <note n="14" type="NdA">Je n'ai rien dit du spectacle ; il pouvait sauver la pièce : la musique de scène de M. Debussy la soutenait d'harmonies vraiment chrétiennes et qui marquent dans sa manière un remarquable élargissement ; les décors splendides de M. Bakst avaient de la dignité et la principale interprète elle-même, mima noblement, sans afféterie, le rôle impossible du Saint. (NdA)</note> ?</p>
         <p>L'auteur du <hi rend="i">Martyre de Saint-Sébastien</hi> nous a déçus dans notre attente : les poètes français n'auront pas à le jalouser. Du moins nous aura-t-il donné l'occasion de mettre au jour une vérité par trop oubliée : c'est que la barbarie n'est pas forcément inculture ; c'est que, de l'excès de culture, une autre barbarie peut naître, irrémédiable celle-là, par défaut de matière vive et d'autant plus dangereuse qu'elle porte le masque méditerranéen de la beauté. Si nous avons lutté contre elle à la période décadente, alors qu'elle menaçait de compromettre le renouveau du lyrisme français, est-ce pour applaudir à son bruyant retour, lorsque M. d'Annunzio nous la ramène. Le goût français si mesuré, si fin, sait pourtant accueillir et fêter un Swinburne, un Dostoïevski, un Ibsen ; mais croyez bien qu'obstinément il se refuse à prendre des leçons de latinisme de M. Gabriele d'Annunzio.</p>
       </div>
       <div>
@@ -635,10 +636,10 @@
         <p>Quelle ample courbe ! Quel cercle bien fermé ! Quelle satisfaction pour ceux qui souhaitaient que la même harmonie eût ordonné et l'œuvre et la carrière du poète ! Que cela eût été beau, si cela eût été vrai ! — Oui, certes ! elle eût paru banale la fin d'un Molière à même les planches, celle du vieux Corneille conséquent jusqu'au dernier jour avec son espagnolisme héroïque, la fin de ceux qui n'ont sacrifié à rien leur art — auprès de la claustration orgueilleuse et prématurée d'un Racine « rentrant dans le Christ ». Son génie même s'en trouvait agrandi, — augmenté de tous les chefs-d'œuvre profanes dont la conversion avait arrêté la croissance : un génie, songez donc, qu'il n'eût fallu rien moins que Dieu pour vaincre ! Oui, Racine atteignait la taille d'un Pascal — colonne double du jansénisme.</p>
         <p>Il faut renoncer à l'apothéose. M. Masson-Forestier n'eût-il pas à peu près prouvé que la première conversion, après <hi rend="i">Phèdre</hi> <note n="16" type="NdA">De la seconde, <hi rend="i">in extremis</hi>, je ne veux pas douter, mais elle n'intéresse pas l'œuvre. (NdA) </note>, fut de nature simplement bourgeoise, un simple embourgeoisement à la fois doré et médiocre, que le seul examen des tragédies sacrées devrait suffire à nous en persuader « de plano ». Comment n’être pas frappé et gêné de leur aspect et de leur caractère foncièrement antichrétiens ? Tragédies bibliques ; pire : juives ; implacables autant que l'Ancien Testament, sans un moment d'effusion sincère, là même où la douceur sensuelle du poète, comme épurée, eût dû trouver un neuf et naturel emploi. Des accents fades ou pompeux ? Une <hi rend="i">Esther</hi> faible et bêlante ? Cette <hi rend="i">Athalie</hi>, aux proportions d'opéra, si belle d'arrangement, d'entente scénique — mais si dure <note n="17" type="NdA">Si courte de psychologie — mais c'est là une autre question. (NdA) </note> ? Voilà les preuves de la conversion !... voilà ses fruits ! Je ne puis admirer dans <hi rend="i">Athalie</hi>, l'épanouissement chrétien d'une âme, le rejaillissement d'une nature impétueuse, dirigée par une force intime supérieure vers un but plus neuf et plus haut. Rien que la splendide « littérature » d'un esprit desséché qui prend le masque de la foi pour dissimuler sa défaite, et qui s'imagine créer encore, parce qu'il garde en main le métier le plus sûr et le talent le plus prestigieux. Ni <hi rend="i">Athalie</hi> ne conclut chrétiennement l'œuvre de Racine, ni <hi rend="i">Phèdre</hi> à qui aurait « manqué la grâce » ne prépare cette chrétienne conclusion, ni aucune des tragédies ne sort de Port-Royal et n'y retourne : dans l'œuvre de Racine, aucun rameau, aucun germe chrétien.</p>
         <p>Je dirai plus : aucun germe moral, aucune propulsion idéaliste. Amoral, dit Masson-Forestier. Païen, dit Péguy. Oui ! païen qui ne reconnaît pas ses dieux. Chez Racine, la morale s'appelle « bienséance » et ses héros, quand ils se sacrifient — oh ! rarement... — ce n'est jamais qu'à leur amour, qu'à leur puissance, qu'à une raison matérielle, raison des sens ou bien raison d'Etat ; je n'en excepte à peine qu’<hi rend="i">Andromaque</hi> : mais autour d'elle, quelle solitude glacée ! On s'explique comment la légende de Louis Racine a été accueillie avec tant de faveur. Retirez à l'œuvre racinien sa prétendue signification chrétienne, il perd d'un coup toute signification. Et cela, comment l'admettre en un siècle où chaque écrivain, ou prêche, ou moralise, ou, pour le moins, conclut ? Corneille ennoblit, il exalte, et il promulgue un code de l'honneur. Molière entreprend d'améliorer l'homme social. La Fontaine lui fait la leçon. Et La Rochefoucault ! et La Bruyère ! Je ne parle pas de ceux dont c'est la fonction de prêcher. Et le XVIII<hi rend="sup">e</hi> siècle approche où la littérature tout entière va se mettre bénévolement au service de la pensée. Racine lui, n'a prêché qu'une fois, en finissant.</p>
-        <p/>
-        <l>Apprenez, roi des Juifs et n'oubliez jamais </l>
-        <l>Que les rois dans le ciel ont un juge sévère... </l>
-        <p/>
+        <quote>
+          <l>Apprenez, roi des Juifs et n'oubliez jamais </l>
+          <l>Que les rois dans le ciel ont un juge sévère... </l>
+        </quote>
         <p>Va-t-on tirer de là une morale pour Racine ?... Il faut en prendre son parti, la tragédie racinienne n'a pas, ne peut avoir d'autre direction, d'autre signification, qu'une direction, qu'une signification <hi rend="i">esthétique</hi>. C'est là sa force originale et la raison de son éternelle actualité. On n'a pas assez remarqué que parmi les chefs-d'œuvre du XVII<hi rend="sup">e</hi> siècle, du XVIII<hi rend="sup">e</hi>, et même de l'époque romantique, elle se trouve seule dans ce cas, seule à pouvoir se contenter d'une esthétique. N'est-elle pas le type de l'œuvre d'art ? Aussi bien, quand — sincèrement ou facticement, peu importe — Racine songe à lui assigner un but extérieur à l'art, elle a déjà perdu sa vertu personnelle ; le formulisme, flagrant dans <hi rend="i">Iphigénie</hi>, et qui gâte la fin de <hi rend="i">Phèdre</hi>, l'a envahie définitivement : aucune idée, chrétienne ni morale, ne saurait plus la rajeunir. Non ! Racine n'est point Pascal, même en puissance, et il renonce à tout quand il renonce à l'art tout court.</p>
         <p>Je conçois en un certain sens que l'on souffre de cet amoindrissement d'un grand homme. En déplaçant le centre de gravité de son œuvre, en découronnant sa carrière d'une fin quasi-surhumaine, en contestant non pas seulement la portée, mais la valeur même de ses tragédies sacrées à l'avantage des profanes, je ne me dissimule pas que je suis conduit à poser des limites à son génie et ce qui est plus douloureux encore, un point d'arrêt, d'épuisement. Charles Péguy a parlé de doute, d'impuissance — je n'y contredis point. On est trop tenté de considérer les grands artistes du passé dans la brume d'or de la gloire, comme une race de demi-dieux qui exploitent à l'infini un fonds illimité, inépuisable, et qui mépriseraient, sans doute, les faiblesses de nos hommes de lettres d'aujourd'hui. S'il exista de ces héros en lesquels il semble que la mort seule ait pu figer l'irrésistible montée de la sève, le flux des mots, des formes, des idées, (tel un Shakespeare, tel un Beethoven, tels même un Hugo, un Corneille...) plus je lis Racine, plus je me rends compte qu'il n'est pas né de cette race-là. Ce ne fut ni un vaste esprit créateur, ni une grande âme généreuse, ni même un rhéteur débordant. Mais justement, moins ses dons premiers me paraîtront considérables, plus je m'étonnerai, j'admirerai, et jusqu'à l'émerveillement, que, de si peu, il ait su former des chefs-d'œuvre qu'aucun génie inspiré ne désavouerait.</p>
         <p>Ici, M. Masson-Forestier proteste. On sait qu'il n'a détruit la fausse légende d'un Racine chrétien, que pour lui en substituer une autre qui ne paraît pas mieux fondée, celle d'un Racine en quelque sort nietzschéen. Si nous voulons l'en croire, Racine aurait vécu la forte vie des hommes de la Renaissance italienne, celle de ses ancêtres francs, envahisseurs des Gaules, les Sconin. De sorte qu'un sang tout barbare aurait noyé en lui le sang latin — si tiède — des Racine, et que le jeune Viking se serait lancé dans le siècle en jouisseur, en conquérant. Je ne disputerai pas sur ses origines maternelles, nettement septentrionales ce qui est fâcheux, n'est-ce pas ? pour la cause du nationalisme classique français... Mais de ce qu'il ait eu successivement pour maîtresses la Du Parc et la Champmeslé, de ce qu'il ait connu l'amour charnel, l'amour-passion selon l'expression de son plus récent biographe, il ne s'ensuit pas qu'il ait mené une vie plus audacieuse que bien des hommes de théâtre de son temps et de tous les temps. Dissipation n'est pas nietzschéisme. Au reste, on s'explique assez mal que, dès avant la quarantaine, pareille frénésie de vivre se soit éteinte ou ait consenti à se satisfaire de la table, du faste bourgeois, de la gloriole d'un historiographe du roi. Admettons néanmoins, sans plus de preuves, et ce feu véhément, et qu'en quelque douze ans Racine s'y soit consumé lui-même. Douons-le gratuitement de la plus indomptable nature, celle d'un Cellini, d'un César Borgia, y compris même le poison... Cela ne préjuge en rien de sa nature de créateur et d'artiste. Mauvaise occasion pour vous de triompher, zélateurs absolus d'une discipline restrictive, élagueuse, polisseuse, etc. Vous avez mal choisi votre « sujet ». Il vous plairait que le surabondant génie, même Scandinave, du maître tragique se fût enfermé courageusement dans le triangle sacré des règles de la tragédie unitaire. Avoir dompté, réduit, avoir poncé, fourbi, une matière si rugueuse et si dure, un si rude tempérament.</p>
@@ -663,17 +664,19 @@
         <p>Pourtant, je sens trop d'injustice à me placer au même point de vue en face de lui qu'en face de ces maîtres. Et si, dans les ouvrages de notre célèbre contemporain, en vertu d'une inspiration plutôt romantique, la sensualité verbale a nécessairement le pas sur l'approfondissement des caractères — le contraire de ce qui advient dans <hi rend="i">Tartuffe</hi> et <hi rend="i">Britannicus</hi>, — j'aurais mauvaise grâce à négliger les qualités lyriques pour m'attacher à la psychologie ! Mais non, je prétends faire au poète de <hi rend="i">Cyrano</hi> la partie belle. Je commence par lui reconnaître <hi rend="i">à priori</hi>, et tout l'art d'analyse, et toute la maîtrise de composition que l'on voudra. Je n'étudierai aujourd'hui ni les ressorts intimes, ni l'équilibre, ni l'affabulation de ses pièces, mais exclusivement le vêtement lyrique dont il les pare volontiers. A la veille de <hi rend="i">Chantecler</hi> qu'on annonce comme un poème <note n="66" type="NdE">Cette pièce en alexandrin fut créée au Théâtre de la Porte Saint-Martin durant l’année 1910, date de l’article de Ghéon ; l’attente autour de l’œuvre avait été sciemment entretenue et alimentée par les journaux et par Rostand lui-même.</note>, je ne crois pas ainsi le desservir.</p>
         <p>Il est très difficile de le lire bien, je vous assure ! — j'entends directement, comme on lit tous les autres, sans l'intermédiaire sonore de Sarah ou de Coquelin <note n="67" type="NdE">Auteur à succès, les pièces de Rostand ont été jouées par les acteurs les plus célèbres de son temps, Constant Coquelin (dit aussi Coquelin l’aîné, 1841-1909) ayant créé le rôle de Cyrano, Sarah Bernardt (1844-1923) celui du duc de Reichstadt, l’Aiglon.</note>, en dehors du tonnerre d'applaudissements de cinq cents représentations consécutives : pour fausser l'oreille et le goût, avouez qu'il n'en faut pas plus. Si nous voulons être équitables, M. Rostand perdra pour nous le bénéfice de l'acoustique théâtrale. Mais en retour, nous oublierons et l'excès des sanctions académiques, et les monstrueux parallèles de ses thuriféraires éperdus (« <hi rend="i">l’Aiglon</hi>, mais c'est <hi rend="i">Hamlet</hi> », disait Mendès <note n="68" type="NdE"><title>L’Aiglon</title>, drame en six actes, a été créé le 15 mars 1900. Catulle Mendès a marqué à plusieurs reprises sa grande admiration pour Edmond Rostand ; dans « Les autres et nous », article publié dans <title>Les Annales du théâtre et de la musique</title> en 1903, soucieux de « démêler si l’envahissement de la France théâtrale par l’esprit étranger est propice ou contraire au développement de notre génie personnel », portait aux nues Rostand, « seul, jeune et rayonnant, avec son charmant et magnifique génie, traditionnel et neuf ».</note>), et cette agaçante réclame que l'on veut supposer subie, non recherchée par le poète, et son domaine de Cambo, et sa famille : toutes contingences sonores et proprement théâtrales elles aussi. Nous le lirons dans le silence, comme un auteur silencieux. Ah ! que n'a-t-il chanté davantage en secret, entre les feuillets blancs, doucement bruissants du « livre » ! Il nous eût épargné cette besogne d'abstraction. — Mais si vous retirez ses pièces, que pèse son œuvre poétique, dites-moi ?</p>
         <p>C'est une chose malgré tout singulière que ce poète, si prodigue à la scène de tirades et de couplets, n'ait pas trouvé plus souvent l'occasion de chanter, loin de la place publique, pour lui-même. Quand nous aurons cité son livre de début les <hi rend="i">Musardises<note n="69" type="NdE"><title>Les Musardises</title>, recueil de poèmes, a été publié chez Lemerre en 1890 et fait l’objet d’une réédition chez Fasquelle, en 1911. Le poème <title>Un Soir à Hernani</title> a été publié en 1902 chez Fasquelle. <title>Le Bois sacré</title>, pantomime, est publié dans <title>L’Illustration</title> en 1908.</note></hi>, quelques pièces de circonstance (sur la Grèce, <hi rend="i">Hernani</hi>, le président Krüger, l'impératrice de Russie) et enfin ce <hi rend="i">Bois Sacré</hi>  qui fit notre étonnement l'hiver dernier, nous aurons épuisé la nomenclature de ses productions lyriques. Vraiment, et quoi qu'ait pensé Goethe, de la légitimité d'une poésie de circonstance — les circonstances, lui, savait les transfigurer — M. Rostand ne peut pas souhaiter qu'on le juge exclusivement sur ses odes officielles, sur le</p>
-        <l>Oh ! oh ! c'est une impératrice ! </l>
-        <l>sur la strophe célèbre dont il salua l'arrivée du président de la République du Transvaal : </l>
-        <l>Oh ! quand tu débarquas sur la terre natale, </l>
-        <l>Vaincu qu'on reçoit en vainqueur, </l>
-        <l>Il me sembla, Krüger, et j'en devins tout pâle, </l>
-        <l>Que tu débarquais dans mon cœur. </l>
+        <quote>
+          <l>Oh ! oh ! c'est une impératrice ! </l>
+          <l>sur la strophe célèbre dont il salua l'arrivée du président de la République du Transvaal : </l>
+          <l>Oh ! quand tu débarquas sur la terre natale, </l>
+          <l>Vaincu qu'on reçoit en vainqueur, </l>
+          <l>Il me sembla, Krüger, et j'en devins tout pâle, </l>
+          <l>Que tu débarquais dans mon cœur. </l>
+        </quote>
         <p>Nous-mêmes ne le voudrions pas. Nous admettrons que le meilleur de son lyrisme il l'a réservé pour ses drames, que le succès l'a seul détourné des poèmes dont il était capable comme aucun, et le prenant pour tel qu'il s'est réalisé, nous tâcherons de découvrir dans la succession de ses œuvres l'essence précieuse de son lyrisme pur.</p>
         <p>Précieuse, n'en doutez pas, trop précieuse — et non au sens le meilleur de ce mot ! Sans doute, on a tort d'attacher une considérable importance aux essais d'un jeune poète. On y peut cependant puiser d'utiles indications. Le germe du Rostand futur, je le discerne avant d'entr'ouvrir le volume, dans le titre, rien que dans le titre de ce premier livre de vers qui se nomme <hi rend="i">les Musardises</hi> : nonchalance et préciosité. Il s'y joindra plus tard l'entrain — mais c'est affaire d'entraînement.</p>
         <p>Ce livre, naïvement dédié aux « enfants perdus de Bohème » à ses « bons amis les ratés », est du reste des plus médiocres. On y sent l'influence de Mürger plus que de Banville, et plutôt du Musset cursif d’<hi rend="i">Une Soirée perdue</hi>, que de Hugo ; celle-ci suivra celle-là. En attendant règne le prosaïsme : ballades, triolets, formes à refrains, — celles qui donnent le plus tôt, et au moins possible de frais, l'illusion d'un peu de rythme...</p>
         <p>De pareils volumes, il faut bien l'avouer, il en paraît cent chaque année, dont les auteurs méritent de rester obscurs. Dans celui-ci, n'étaient quelques images assez jolies, rien ne décèlerait la moindre sensibilité. Un certain don, mais de loquacité banale, une certaine facilité, mais si facilement contente de soi, disons le mot, si paresseuse ! Veuillez écouter cet aveu :</p>
-        <p/>
+        <quote>
         <l>Mes vers pour qui je sens la plus grande tendresse, </l>
         <l>Sont tous les non-finis qui vont par un, par deux,</l>
         <l>Ces vers dont on remet l'achèvement sans cesse, </l>
@@ -683,16 +686,17 @@
         <l>On se met au travail, mais le feu tombe, mais </l>
         <l>Les vers vont faiblissant si l'on veut les poursuivre. </l>
         <l>Les meilleurs sont les vers qu'on ne finit jamais. </l>
-        <p/>
+        </quote>
         <p>Et rapprochez-le aussitôt de ce quatrain lapidaire, qui contient toute une esthétique :</p>
+        <quote>
         <l>Quand on a longuement forgé </l>
         <l>Quelque belle forme vibrante, </l>
         <l>On a trop souvent égorgé </l>
         <l>L'Idée en son esprit vivante. </l>
-        <p/>
+        </quote>
         <p>Je me trompe fort, ou bien, de peur d'égorger en forgeant, M. Rostand ne forgera guère. Une disposition naturelle, que peut-être il ne surmontera jamais, le fait reculer dès l'abord devant le rude effort qu'exige l'art. Hélas ! on ne saurait tolérer la paresse que de l'inspiré de génie : à cette époque, non, M. Rostand n'est aucunement génial. Qu'il le soit devenu depuis, il ne me suffit pas, pour y croire, de l'entendre dire.</p>
         <p>En vérité, la seule pointe d'originalité qui perce de-ci de-là, et en particulier dans les dernières pièces du livre, on s'aperçoit, en y prêtant attention, que c'est une certaine grâce délicate, inclinant déjà vers le mauvais goût, de quoi charmer un peu et lasser vite. Je transcris deux petits poèmes pour l'exemple :</p>
-        <p/>
+        <quote>
         <l>Chère, si quelque jour je faisais ton portrait, </l>
         <l>Quand j'aurais tendrement dessiné chaque trait,</l>
         <l>N'ayant pas pour fixer le rose de ta joue </l>
@@ -707,27 +711,29 @@
         <l>Et grave, je prendrais avec le doigt sur elles </l>
         <l>De l'or, du blanc, du bleu, du bistre et du rosé </l>
         <l>Comme un peintre qui prend du pastel écrasé. </l>
-        <p/>
+        </quote>
         <p>Cela est lent, point neuf, mais point disgracieux, Mais que direz-vous de ceci ?</p>
+        <quote>
         <l>Dessous sa grande ombrelle <hi rend="i">rose</hi> </l>
         <l>Elle est toute <hi rend="i">rose</hi> : on dirait </l>
         <l>Un peu d'une très pâle <hi rend="i">rose</hi> </l>
         <l>Qu'un soleil couchant rosirait. </l>
-        <p/>
+        <l/>
         <l>Un rayon qui descend tout <hi rend="i">rose</hi> </l>
         <l>A travers le <hi rend="i">rose</hi> satin </l>
         <l>Avive joliment son teint ; </l>
         <l>Et sa main blanche qui se pose </l>
-        <p/>
+        <l/>
         <l>Sur le long manche de bambou </l>
         <l>Les petits cheveux de son cou, </l>
         <l>Sa nuque blonde, tout est <hi rend="i">rose</hi>,</l>
         <l>Mais d'un <hi rend="i">rose</hi>, d'un <hi rend="i">rose</hi> fou !... </l>
-        <p/>
+        </quote>
         <p>Si nous ne trouvions que quelques pièces de cet ordre pour justifier la préciosité nonchalante du titre, nous ne nous hasarderions pas à tabler sur les <hi rend="i">Musardises</hi> pour prévoir nettement le lyrisme futur du jeune poète Rostand. Mais il y a par ailleurs la préface, plus significative que le volume tout entier. Pour ceux qui nous accuseraient d'insister volontairement sur les petits côtés d'un génie qui se forme, je citerai tout au long cette curieuse page qui nous donne amplement raison :</p>
-        <l>Au lecteur</l>
-        <l><hi rend="i">Musardise</hi> : action de celui qui musarde. </l>
-        <l><hi rend="i">Musarder</hi> : perdre son temps à des riens. </l>
+        <quote>
+          <label>Au lecteur</label>
+        <p><hi rend="i">Musardise</hi> : action de celui qui musarde. </p>
+        <p><hi rend="i">Musarder</hi> : perdre son temps à des riens. </p>
         <p>« C'est là ce que tu trouveras dans le dictionnaire, ami lecteur. Et là-dessus tu n'auras pas grande estime pour un volume de vers qui s'appelle les <hi rend="i">Musardises</hi>, c'est-à-dire les bagatelles, les enfantillages, les riens.</p>
         <p>Mais pour peu que tu sois un érudit, un lettré, ayant connaissance des mots de la langue ou de leur sens exact, ce titre ne sera pas pour te déplaire. Même, il t'apparaîtra comme seyant bien à un recueil de poétiques essais.</p>
         <p>Tu sauras que, musardise, musardie — comme on disait au vieux temps — signifie rêvasserie douce, chère flânerie, paresseuse délectation à contempler un objet ou une idée : car l'esprit musarde autant que les yeux, si ce n'est plus.</p>
@@ -735,30 +741,36 @@
         <p>Tu sauras qu'au temps jadis, les musards étaient de certains bateleurs et jongleurs qui s'en allaient de par le monde en récitant des vers.</p>
         <p>Tu ne pourras être étonné que sous un titre qui ne semble convenir qu'à de très légères poésies, je me sois permis quelquefois des tristesses ou des mélancolies, puisqu'en la langue wallonne « muzen » a pour sens être triste.</p>
         <p>Enfin, tu comprendras tout à fait le choix que j'ai fait de ce mot, te souvenant que le savant Huet le faisait venir du latin <hi rend="i">musa</hi> qui, comme on le sait, signifie : la Muse. »</p>
-        <p/>
+        </quote>
         <p>Pour moi je vois là plus qu'un badinage ; la révélation d'un tour d'esprit particulier. Avant la virtuosité, avant le talent même, M. Rostand s'y montre tout entier. Quelque ambitieux et hautain que doive devenir son rêve, qu'il évoque Geoffroy Rudel, le Christ ou le duc de Reichstadt, toujours il considérera la poésie comme l'art — non pas de faire rendre aux mots le son profond de l'émotion ou de l'idée, mais de jouer avec les mots et sur les mots autour de l'idée et de l'émotion. Cette préciosité toute verbale, nul n'a le droit de la condamner en principe ; elle a, en certains cas, sa légitimité, sa valeur. Mais du moins elle exige une mise en œuvre parfaite, et ne saurait s’accommoder d’une esthétique de la négligence et d’à peu près. Voilà pourtant ce qui menace l’avenir du jeune poète. Saura-t-il concilier l’inconciliable, bâcler l’afféterie, improviser le jeu de mots ? Certes il nous paraîtra atteindre dans ce jeu à une adresse véritable, mais à condition que nous jugions ses coups de loin. Il souhaitera le recul et l’élasticité des planches.</p>
         <p>On comprend comment une pareille conception, la même qui le conduisit au théâtre, dut éloigner M. Rostand non seulement de l’impitoyable poétique du Parnasse, mais aussi de ces recherches rythmiques, dérivées de Banville, de Verlaine, de Laforgue, qui font la discrète gloire des poètes de la génération symboliste. En quête de l’instrument le plus commode, il choisit nécessairement l’alexandrin, décide à le manier non pas comme Chénier ou comme Hérédia, de façon stricte, mais comme Hugo quand il déclame, comme Musset quand il conte, comme Coppée <note n="70" type="NdE">Romancier, mais surtout poète, François Coppée a aussi connu le succès sur scène à différentes reprises, notamment avec des pièces comme <title>Le Passant</title> (1869), qui révéla Sarah Bernhardt, <title>Fais ce que dois</title> (1871) ou <title>Les Bijoux de la délivrance</title> (1872).</note> quand il décrit, et même il cherchera dans la coupe ternaire une facilité de plus. Le mètre comptera moins à ses yeux que la rime. Oh ! merveilleux moyen de jouer sur les mots ! — Sur la rime à tout prix, tremplin sonore, nous verrons prendre élan, bondir tout le lyrisme de M. Rostand, qui se croira possédé tour à tour du délire verbal de Hugo et de la fantaisie funambulesque de Banville.</p>
         <p>Quand il écrit les <hi rend="i">Romanesques</hi> <note n="71" type="NdE">La comédie <title>Les Romanesques</title> a été créée le 21 mai 1894.</note> il en est encore à Regnard. Cette comédie poétique révèle des qualités indéniables de verve gaie, de grâce déjà apprêtée, de banalité heureuse : un grave défaut aussi, <hi rend="i">le manque de conscience</hi>. Il faut que le vers aille vite, il ira donc comme il peut, bien ou mal. Deux choses seulement importent : 1° que le nombre de pieds y soit ; 2° que la rime sonne — et fût-ce au prix d’inversions indéfendables, de barbarismes, de triple galimatias. Et l’on s’étonne de trouver auprès de couplets bien venus et jeunes un tel distique par exemple :</p>
-        <p/>
+        <quote>
         <l>Oui, ces vers sont très beaux et le divin murmure</l>
         <l>Les accompagne bien, c’est vrai, de la ramure.</l>
-        <p/>
+        </quote>
         <p>Osons le déclarer en passant : c’est plus que ne peut se permettre un ouvrier qui respecte son art. Et ne dites point qu’il est jeune ! A deux ans de là, le même ouvrier, plus habile, n’hésitera pas davantage à recourir aux mêmes bas moyens. Et nous lirons tristement— ou gaiement— dans la <hi rend="i">Princesse lointaine</hi> :</p>
+        <quote>
         <l>Le sourire lui-même, elle l’a, des Amours</l>
-        <l>et encore :</l>
-        <l>Je n’ai plus d’où je suis, le sentiment bien net</l>
-        <l>et enfin, car il faut en finir et demeurer modéré dans le blâme :</l>
-        <l>Celui qui meurt pour moi, je l’aime, je le plains,</l>
-        <l>Et l’autre je l’adore, et ma souffrance est telle</l>
-        <l>Qu’il me semble, mon âme, entre eux, qu’on l’écartèle.</l>
-        <p/>
+        </quote>
+        <p>et encore :</p>
+        <quote>
+          <l>Je n’ai plus d’où je suis, le sentiment bien net</l>
+          <l>et enfin, car il faut en finir et demeurer modéré dans le blâme :</l>
+          <l>Celui qui meurt pour moi, je l’aime, je le plains,</l>
+          <l>Et l’autre je l’adore, et ma souffrance est telle</l>
+          <l>Qu’il me semble, mon âme, entre eux, qu’on l’écartèle.</l>
+        </quote>
         <p>Mais comment passer sous silence un autre moyen de rimer que, dans la même pièce, M. Rostand inaugure ? A la faveur des « chevaleries » symbolistes dont il a subi alors l’influence, notre poète, sous couleur de néologisme, invente le barbarisme à la rime, le barbarisme sauveur !</p>
-        <l>Tant pis pour toute nef qui nous cherchera noise,</l>
-        <l>dit un matelot.</l>
-        <l>Quand donc voguerons-nous sur l’eau sarrasinoise,</l>
-        <l>réplique un autre.</l>
+        <quote>
+          <l>Tant pis pour toute nef qui nous cherchera noise,</l>
+          <l>dit un matelot.</l>
+          <l>Quand donc voguerons-nous sur l’eau sarrasinoise,</l>
+          <l>réplique un autre.</l>
+        </quote>
         <p>Et ainsi les perles seront <hi rend="i">indiques</hi> pour rimer avec <hi rend="i">véridiques</hi>, les turcs <hi rend="i">turquois</hi>, les doigts tremblants <hi rend="i">trembleurs</hi>. On verra du verbe <hi rend="i">scier</hi> répondre le mot <hi rend="i">pitancier</hi>, etc., etc.</p>
         <p>C’est le signal d’une véritable frénésie verbale qui prend déjà des leçons des plus sonores de nos romantiques. L’influence d’Hugo rhéteur s’installe et règne, et M. Rostand pratique après lui, comme lui — mais sans l’excuse du génie, — entre autres procédés épiques, le remplissage par énumération, ce que j’appellerai « la tirade-cheville ».</p>
+        <quote>
         <l>Manteau brodé, stellé, gemmé, toi qui m’écrases</l>
         <l>De corindons, de céladoines, d’idoprases</l>
         <l>De jaspes, de béryls, de grenats syriens.</l>
@@ -769,120 +781,134 @@
         <l>Vous qui souffrez pour moi de maux de toutes sortes,</l>
         <l>Juan le Portugalais, Marrias d’Aiguesmortes,</l>
         <l>Toi Grimoart, toi Luc…</l>
-        <p/>
+        </quote>
         <p>On continuerait très longtemps ainsi ! Oh ! scène des portrais d’<hi rend="i">Hernani, Légende des Siècles</hi> ! Et cette question se pose. Ou devons-nous nous réjouir que la main puissante d’Hugo réduise un poète de plus en vasselage, ne lui communiquant de sa force que de quoi continuer, à l’occasion, le monologue picaresque de Don César de Bazan ? Ou plutôt allons-nous pleurer la petite flamme personnelle que son énorme souffle risque de trop peu respecter ?</p>
-        <l>Songez qu’à la tombée du soir, un des héros des <hi rend="i">Romanesques</hi> murmurait autrefois ceci :</l>
-        <l>On ne voit plus les fleurs, mais on les sent bien mieux.</l>
+        <p>Songez qu’à la tombée du soir, un des héros des <hi rend="i">Romanesques</hi> murmurait autrefois ceci :</p>
+        <quote>
+          <l>On ne voit plus les fleurs, mais on les sent bien mieux.</l>
+        </quote>
         <p>que la princesse Mélissinde trouvait encore hier des traits de la même délicatesse un peu mièvre, disant :</p>
-        <l>Je suis comme ces fleurs</l>
-        <l>Qui naissent sous des cieux qui ne sont pas les leurs</l>
-        <l>Et devinant au loin qu’elles ont des patries</l>
-        <l>Peuvent sembler fleurir, mais se sentent flétries.</l>
-        <l>que demain nous lirons dans la <hi rend="i">Samaritaine</hi> :</l>
-        <l>C’est une âme légère autant qu’une corbeille.</l>
-        <l>et ceci :</l>
+        <quote>
+          <l>Je suis comme ces fleurs</l>
+          <l>Qui naissent sous des cieux qui ne sont pas les leurs</l>
+          <l>Et devinant au loin qu’elles ont des patries</l>
+          <l>Peuvent sembler fleurir, mais se sentent flétries.</l>
+          <l>que demain nous lirons dans la <hi rend="i">Samaritaine</hi> :</l>
+          <l>C’est une âme légère autant qu’une corbeille.</l>
+        </quote>
+        <p>et ceci :</p>
+        <quote>
         <l>Il vient de se former de son cœur à mon cœur,</l>
         <l>Un pont délicieux dont je sens trembler l’arche.</l>
-        <l>et ce couplet enfin qui peint le Christ :</l>
+        </quote>
+        <p>et ce couplet enfin qui peint le Christ :</p>
+        <quote>
         <l>Et quant à sa douceur elle est divine, elle est</l>
         <l>Comme une plume de colombe</l>
         <l>Qui blanche, quand l’oiseau se penche sur du lait,</l>
         <l>D’une blancheur dans l’autre tombe !</l>
-        <p/>
+        </quote>
         <p>Songez qu’un « poeta minor » eût pu se faire une réputation honnête avec ces aimables images, s’il eût su les choisir à l’exclusion de toutes les autres, et les décemment sertir. Songez…</p>
         <p>Mais non, M. Rostand opte pour une destinée plus ample. Même dans la <hi rend="i">Samaritaine</hi> <note n="72" type="NdE"><title>La Samaritaine</title>, présentée comme un « évangile en trois tableaux », a été créée le 14 avril 1897.</note>, où il montre déjà plus de maturité, et tout bridé qu’il est par le respect dû à la légende sainte, il n’abdique pas l’éloquence, ni, au hasard des rimes, la pure préciosité. J’apporte, dit quelque part Photine,</p>
+        <quote>
         <l>Les clefs de tous ces cœurs sur le coussin du mien.</l>
         <l>et, autre part, elle chante :</l>
         <l>Oh ! sur ce cœur, mon bien-aimé, qui te cherchait,</l>
         <l>Viens te poser avec douceur comme un sachet</l>
         <l>Puis avec force</l>
         <l>Comme un cachet</l>
-        <p/>
+        </quote>
         <p>Il faut donc faire notre deuil d’une œuvre fine et modeste où prendrait forme l’exquisité alambiquée que nous prêtons à l’âme de M. Rostand, et accepter qu’il ne donne toute sa mesure qu’en ressuscitant — pour une heure — dans <hi rend="i">Cyrano de Bergerac</hi>, le romantisme picaresque que l’on se figurait bien mort.</p>
         <p>Enfin nous en tombons d’accord, voici mots et jeux de mots à leur place. Voici la préciosité et le mauvais goût acceptables, que se moquent d’eux-mêmes au bout de chaque vers. Cette faculté qu’il a, et que l’exercice a développée, d’accumuler intarissablement toutes les analogies sonores des mots de France, M. Rostand n’est plus tenu de la régler, et il laisse passer tout ce qu’elle lui apporte. Une lecture attentive nous montrerait ici autant de barbarismes, d’inversions saugrenues, de néologismes créés pour les besoins immédiats de la mesure ou de la rime, que dans les drames précédents : le mouvement, plus vif, seul, nous illusionne. Nous ne pourrons rien objecter à cette conception de lyrisme comique, sinon que nous la connaissions depuis le quatrième acte de <hi rend="i">Ruy Blas</hi>, et que si coloré, si scintillant que M. Rostand se montre, à côté du géant, il demeure pâlot.</p>
         <p>Citerons-nous la tirade du nez ?... Qui ne la connaît pas ? Non, celle-ci plutôt :</p>
-        <p/>
-        <l>… Si tu savais comme l’on marche mieux</l>
-        <l>Sous la pistolétade excitante des yeux !</l>
-        <l>Comme, sur les pourpoints, font d’amusantes taches</l>
-        <l>Le fiel des envieux et la bave des lâches !</l>
-        <l>Vous, la molle amitié dont vous vous entourez</l>
-        <l>Ressemble à ces grands cols d’Italie ajourés</l>
-        <l>Et flottants dans lesquels votre cou s’effémine,</l>
-        <l>On y est plus à l’aise — et de moins haute mine.</l>
-        <l>Car le front n’ayant pas de maintien ni de loi</l>
-        <l>S’abandonne à pencher dans tous les sens. Mais moi,</l>
-        <l>La haine, chaque jour, me tuyaute et m’apprête</l>
-        <l>La fraise dont l’empois force à lever la tête ;</l>
-        <l>Chaque ennemi de plus est un nouveau godron</l>
-        <l>Qui m’ajoute un gêne et m’ajoute un rayon,</l>
-        <l>Car pareille en tous points à la fraise espagnole</l>
-        <l>La haine est un carcan, mais c’est une auréole.</l>
-        <p/>
+        <quote>
+          <l>… Si tu savais comme l’on marche mieux</l>
+          <l>Sous la pistolétade excitante des yeux !</l>
+          <l>Comme, sur les pourpoints, font d’amusantes taches</l>
+          <l>Le fiel des envieux et la bave des lâches !</l>
+          <l>Vous, la molle amitié dont vous vous entourez</l>
+          <l>Ressemble à ces grands cols d’Italie ajourés</l>
+          <l>Et flottants dans lesquels votre cou s’effémine,</l>
+          <l>On y est plus à l’aise — et de moins haute mine.</l>
+          <l>Car le front n’ayant pas de maintien ni de loi</l>
+          <l>S’abandonne à pencher dans tous les sens. Mais moi,</l>
+          <l>La haine, chaque jour, me tuyaute et m’apprête</l>
+          <l>La fraise dont l’empois force à lever la tête ;</l>
+          <l>Chaque ennemi de plus est un nouveau godron</l>
+          <l>Qui m’ajoute un gêne et m’ajoute un rayon,</l>
+          <l>Car pareille en tous points à la fraise espagnole</l>
+          <l>La haine est un carcan, mais c’est une auréole.</l>
+        </quote>
         <p>Brio, mauvais goût, rhétorique. Ce n’est pas après <hi rend="i">Cyrano</hi> que pourrait se reprendre le poète. L’improvisation l’a grisé. Quand bientôt il s’avisera d’improviser sur un sujet grave, il écrira les vers de <hi rend="i">l’Aiglon</hi>, affreux souvenir.</p>
         <p>Si <hi rend="i">l’Aiglon</hi> n’est pas une mauvaise pièce, et je ne veux pas le savoir, je sais que le lyrisme en est tout à fait détestable. Prenons au hasard :</p>
-        <p/>
-        <l>Ah ! des buissons de bras se crispent sur la plaine</l>
-        <l>Et je foule un gazon d’épaulettes de laine !</l>
-        <l>crie le duc, sur le champ de bataille de Wagram.</l>
-        <l>Et plus loin :</l>
-        <l>Il fallait qu’au-dessus de ces morts je devinsse</l>
-        <l>Cette longue blancheur toujours, toujours plus mince</l>
-        <l>Qui renonçant, priant, demandant à souffrir,</l>
-        <l>S’allonge pour se tendre et mincit pour s’offrir !...</l>
-        <p/>
+        <quote>
+          <l>Ah ! des buissons de bras se crispent sur la plaine</l>
+          <l>Et je foule un gazon d’épaulettes de laine !</l>
+          <l>crie le duc, sur le champ de bataille de Wagram.</l>
+        </quote>
+        <p>Et plus loin :</p>
+        <quote>
+          <l>Il fallait qu’au-dessus de ces morts je devinsse</l>
+          <l>Cette longue blancheur toujours, toujours plus mince</l>
+          <l>Qui renonçant, priant, demandant à souffrir,</l>
+          <l>S’allonge pour se tendre et mincit pour s’offrir !...</l>
+        </quote>
         <p>Arrêtons-nous. Plutôt que d’insister peu charitablement sur l’examen poétique de cette pièce, qui concentre tous les défauts et rien que les défauts de M. Rostand, je crois plus important, avant de conclure, de jeter un coup d’œil rapide sur deux poèmes, deux poèmes-poèmes, — c’est chose rare n’est-ce pas ? — Les seuls du reste qu’ait produits dans sa maturité le dramaturge. Ce sont <hi rend="i">Un soir à Hernani</hi> et le <hi rend="i">Bois Sacré</hi>.</p>
         <p>Ici nous ne risquons plus que l’on réponde à nos critiques : « vers de théâtre » — réponse qui ne répond d’ailleurs à rien. Les à peu près, les hachis de phrases n’y sont plus du tout de mise, et rien ne les saurait sauver, même l’élan. Aussi bien, — miracle, tardif miracle— ces deux poèmes donnent <hi rend="i">l’impression du travail</hi>. Ils se présentent comme respectables et solides. Lorsque M. Rostand, dans la plénitude de sa maîtrise, crée avec application, sans souci de la scène, que crée-t-il donc ?</p>
         <p>Il crée <hi rend="i">Un Soir à Hernani</hi>, c’est-à-dire du Hugo narratif, du Hugo épique, un peu plus contourné, beaucoup plus enflé que nature. Il se plaît à nous conter ici le voyage en Espagne de l’enfant Hugo qui accompagne le trésor de la guerre : l’enfant Hugo gardé par une armée traversant le village d’Hernani ! Vous imaginez bien tout ce que Hugo, là-dessus, se fût amusé à broder. M. Rostand en vers d’Hugo, le brode. Mais qu’on en juge un peu :</p>
-        <l>Zoin da herri hori ?</l>
-        <l>Le vieil homme fit halte.</l>
-        <l>L’heure rosait au loin les croupes de basalte.</l>
-        <l>La montagne semblait courir au golfe clair</l>
-        <l>Pour mêler ses moutons aux moutons de la mer…</l>
-        <l>………………………………………………………….</l>
-        <l>Zoin da herri hori ? demandai-je, quel est</l>
-        <l>Ce village ? Et du doigt je montrais un village, </l>
-        <l>Tout en scandant les mots de la langue sauvage</l>
-        <l>Vieille comme la roche et comme l’océan.</l>
-        <l>… Mais ma voix n’avait pas l’accent guipuzzcoan.</l>
-        <p/>
+        <quote>
+          <l>Zoin da herri hori ?</l>
+          <l>Le vieil homme fit halte.</l>
+          <l>L’heure rosait au loin les croupes de basalte.</l>
+          <l>La montagne semblait courir au golfe clair</l>
+          <l>Pour mêler ses moutons aux moutons de la mer…</l>
+          <l>………………………………………………………….</l>
+          <l>Zoin da herri hori ? demandai-je, quel est</l>
+          <l>Ce village ? Et du doigt je montrais un village, </l>
+          <l>Tout en scandant les mots de la langue sauvage</l>
+          <l>Vieille comme la roche et comme l’océan.</l>
+          <l>… Mais ma voix n’avait pas l’accent guipuzzcoan.</l>
+        </quote>
         <p>Et cela continue ainsi avec les arrêts, les reprises, prosopopée et description alternant, la familiarité et l’emphase, tout l’art que Hugo a créé et dont <hi rend="i">la Légende des Siècles</hi> est le monument admirable. On s’y tromperait tout à fait, si quelquefois ne faiblissait la langue, comme dans cette chute grotesque d’un pastiche pourtant réussi :</p>
-        <l>Un homme d’une voix orgueilleuse et bourrue</l>
-        <l>M’a dit : « Senor c’est là, dans cette vieille rue</l>
-        <l>Que naquit Urbata, le brave à qui le roi</l>
-        <l>François Premier rendit son épée ». Alors moi</l>
-        <l>J’ai dit : « C’est là qu’est né, dans cette rue ancienne</l>
-        <l>Le drame auquel le Cid pourrait rendre la sienne ».</l>
-        <p/>
+        <quote>
+          <l>Un homme d’une voix orgueilleuse et bourrue</l>
+          <l>M’a dit : « Senor c’est là, dans cette vieille rue</l>
+          <l>Que naquit Urbata, le brave à qui le roi</l>
+          <l>François Premier rendit son épée ». Alors moi</l>
+          <l>J’ai dit : « C’est là qu’est né, dans cette rue ancienne</l>
+          <l>Le drame auquel le Cid pourrait rendre la sienne ».</l>
+        </quote>
         <p>Reste le <hi rend="i">Bois Sacré</hi>. Et c’est encore Hugo, cette fois, le Hugo païen du <hi rend="i">Satyre</hi>, que le parisianisme de Banville allergeait. Je cite encore :</p>
-        <l>L’ombre de trois cyprès sur le gazon progresse, </l>
-        <l>Et tandis qu’au lointain s’argente un ciel de Grèce,</l>
-        <l>Près d’une eau qui s’égoutte en creusant des viviers,</l>
-        <l>Les dieux se sont assis dans un bois d’oliviers.</l>
-        <p/>
-        <l>Or une trompe crie. Qui s’annonce ? Qui se rue ?</l>
-        <l>Ce qui fonce à travers le mystère écharpé</l>
-        <l>C’est une trente-cinq quarante cinq HP</l>
-        <l>Le double phaéton à portes latérales.</l>
-        <l>……………………………………………………</l>
-        <l>Est-ce au carburateur, au différentiel,</l>
-        <l>Qu’importe ? Dans ce bois tout transpercé de ciel</l>
-        <l>Où l’aegypan naguère aimait son aegypane.</l>
-        <l>On n’en peut plus douter maintenant : c’est la panne.</l>
-        <p/>
+        <quote>
+          <l>L’ombre de trois cyprès sur le gazon progresse, </l>
+          <l>Et tandis qu’au lointain s’argente un ciel de Grèce,</l>
+          <l>Près d’une eau qui s’égoutte en creusant des viviers,</l>
+          <l>Les dieux se sont assis dans un bois d’oliviers.</l>
+          <l/>
+          <l>Or une trompe crie. Qui s’annonce ? Qui se rue ?</l>
+          <l>Ce qui fonce à travers le mystère écharpé</l>
+          <l>C’est une trente-cinq quarante cinq HP</l>
+          <l>Le double phaéton à portes latérales.</l>
+          <l>……………………………………………………</l>
+          <l>Est-ce au carburateur, au différentiel,</l>
+          <l>Qu’importe ? Dans ce bois tout transpercé de ciel</l>
+          <l>Où l’aegypan naguère aimait son aegypane.</l>
+          <l>On n’en peut plus douter maintenant : c’est la panne.</l>
+        </quote>
         <p>Vous voyez le sujet. Tandis que se reposera, endormi dans le bois sacré, le couple d’amoureux chauffeurs, les dieux s’empresseront autour de la voiture : ils fouilleront le coffre, le capot, le nécessaire de voyage, Vénus se poudrera, Vulcain réparera l’avarie, etc., etc. Ah ! quelle occasion de calembours modernes !</p>
-        <l>J’en demande pardon à l’Hellade, un Helleu !</l>
-        <l>dira-t-on de Vénus, et quant à Jupiter, il a…</l>
-        <l>…dans son allure, bien qu’il reste</l>
-        <l>De marbre par la pose encore et la blancheur,</l>
-        <l>Je ne sais quoi qui sent son antique marcheur…</l>
-        <p/>
-        <l>J’aime mieux le pittoresque portrait de Morphée :</l>
-        <l>Un petit vieux paraît, rythmant sa marche avec</l>
-        <l>Le bruit d’un grain qui sonne au creux d’un pavot sec</l>
-        <l>Les situations les plus embarrassées</l>
-        <l>Il les dénoue à coups de papavéracées…</l>
-        <p/>
+        <quote>
+          <l>J’en demande pardon à l’Hellade, un Helleu !</l>
+          <l>dira-t-on de Vénus, et quant à Jupiter, il a…</l>
+          <l>…dans son allure, bien qu’il reste</l>
+          <l>De marbre par la pose encore et la blancheur,</l>
+          <l>Je ne sais quoi qui sent son antique marcheur…</l>
+          <l/>
+          <l>J’aime mieux le pittoresque portrait de Morphée :</l>
+          <l>Un petit vieux paraît, rythmant sa marche avec</l>
+          <l>Le bruit d’un grain qui sonne au creux d’un pavot sec</l>
+          <l>Les situations les plus embarrassées</l>
+          <l>Il les dénoue à coups de papavéracées…</l>
+        </quote>
         <p>Ceci le prouve : de l’ancien Rostand, il ne reste plus que la verve, verve médiocre, et que le goût du jeu, jeu brillant, jeu lassant. Le jeu exclu, même dans un poème, il ne saura plus qu’imiter ce qui le plus commodément s’imite, des procédés romantiques de développement.</p>
         <p>Je le redis, ce poète, dont on veut faire un grand poète, ce qui est faux et fou a quelque chose d’un poète cependant. Après Banville, après Hugo, son verbalisme étonne encore, qui ne nous apporte rien de neuf, pourtant ! Le don des mots, il le possède, indéniable ; le choix des mots, nullement. Il a du mouvement, de l’éloquence, ce qui convient au théâtre sans doute, mais le mouvement, l’éloquence d’un simple improvisateur. Il portait une âme rêveuse, capable de délicatesse, et de propager son émotion en ondes sonores autour d’elle, par le moyen d’images rares et de phrases un peu contournées. Elle méritait, je vous assure, de s’exprimer plus sobrement, en une œuvre plus condensée, plus réfléchie et plus durable : la facilité l’a perdue. On n’en saurait citer dix vers de suite. Que dis-je ? Pas même six. Une cheville énorme, un à peu près hideux, un mauvais bon mot vous arrêtent, quand ce n’est pas la désolation du vague et du vide, que l’on finit par préférer aux « concetti ».</p>
         <p>La facilité n’est pas le génie. Aucun génie n’ignore la difficulté. La facilité difficile de Victor Hugo coulait comme un torrent, mais laissait déposer, de loin en loin, de belles strates dures de poèmes. La facilité facile de M. Rostand ne laisse déjà après elle que du sable et quelques cailloux curieux. On le considérera plus tard, lorsque l’engouement inhérent aux succès de théâtre aura atteint son juste terme, comme un jongleur brillant, moins que Banville et plus que Glatigny <note n="73" type="NdE">Albert Glatigny (1839-1873) s’est fait connaître comme poète et surtout comme dramaturge.</note>, comme un improvisateur plein de mauvais goût et d’une spéciale grâce. Il a tiré le suprême bouquet du vain feu d’artifice romantique, et, bien que la moitié des fusées aient raté, on ne saurait l’exclure tout à fait de la poésie. Mais lequel de ses livres oserait-on placer, sur le rayon d’une bibliothèque des poètes, à mi-chemin entre Saint-Amand et Mendès ? Quelqu’un réunira peut-être les beaux vers de M. Rostand. Ce fait les juge : ils sont nombreux, mais dispersés.</p>
@@ -898,24 +924,24 @@
         <p>On conçoit aussi — mais sans l'approuver — la réaction parnassienne. Que dix vers de Racine paraissent animés et souples, à côté du meilleur sonnet de José-Marie de Hérédia ! C'est une matière métallique que verse l'auteur des <hi rend="i">Trophées</hi> dans le moule de la tradition. Il faut que chaque mot y rende comme un son de bronze, et que plus rien ne flotte entre les mots. Le sonnet est un bloc, formé de blocs égaux, qui s'ajustent exactement, deux à deux, rivés par la rime dure. L'alexandrin y perd toute raison vitale. Hugo le dépeçait. Les Parnassiens le momifient.</p>
         <p>Ah ! combien il faut admirer des poètes comme Vigny, surtout comme Baudelaire. En eux semble se résumer la tâche effective du XIX<hi rend="sup">e</hi> siècle en face de l'alexandrin. C'est dans la limite de ses possibilités rythmiques qu'ils se tiendront pour l'assouplir. L'influence de leur lyrisme se soumettra à la forme classique pure, qu'à défaut d'une autre ils ont dû choisir, l'animera, la variera, sans la détruire. Mais après eux, après Mallarmé qui les suit dans la même voie, avec des soucis par ailleurs différents, quel mouvement neuf peut-il désormais esquisser, notre alexandrin didactique ? Les ornements pittoresques sous lesquels il parade dans le théâtre de M. Rostand ne changeront pas sa nature. Les poètes dignes de lui, dont l'inspiration noble, stoïque et résignée peut encore aujourd'hui s'y exprimer sincèrement, prennent à tâche de le rétablir dans sa pureté primitive. Je songe à Moréas, à Marc Lafargue, à Charles Guérin, un peu à Mme de Noailles <note n="74" type="NdE">Sur Moréas, voir <hi rend="i">supra</hi> note 1 et <hi rend="i">infra</hi>, « Le classicisme et M. Moréas ». Marc Lafargue (1876-1926), poète proche du naturisme que Gide avait rencontré en 1899, a publié <title>Le Jardin d’où l’on voit la vie</title> en 1897. Charles Guérin (1873-1907), influencé par Mallarmé et par Francis Jammes, est l’auteur <title>de Le Cœur solitaire</title> (1896). Anna de Noailles (1876-1933), poétesse et romancière, est notamment l’auteur de <title>Le Cœur innombrable</title> (1901).</note> dont la sensualité le bouscule parfois, et de laquelle nous attendons un autre geste... Ceux-ci sont dans la vérité. Vous aurez beau entrelacer les rimes, les renforcer ou les éteindre, jusqu'au raffinement musical de l'assonance, ou jusqu'à sa facilité médiocre, vous ne reculerez pas les limites du vers classique. On l'a pris trop longtemps pour ce qu'il n'était pas, pour ce qu'il ne pouvait pas être. Sa trop courte vertu lyrique, le XIX<hi rend="sup">e</hi> siècle, après l'avoir en vain forcée, l'aura remise au point. S'il faut aller plus loin, ce ne sera que par le moyen neuf d'une autre forme. Je sais bien que, parallèlement, romantiques, puis parnassiens s'efforcèrent de reprendre à nouveau la tradition plus ancienne des petites strophes chères à la Pléiade, et des vieilles formes populaires qu'immortalisa un Villon. Grâce à ces mètres courts — le vers de dix pieds, celui de huit pieds et de moindres, — ils obtinrent parfois une gaîté lyrique qui semble exquise et légère d'abord, mais qui devient bien vite monotone, à mesure que s'accumulent les strophes, d'un sautillement régulier. Là, plus qu'ailleurs encore, cette vérité apparaît, qu'un mouvement trop répété donne à la fin l'impression de l'immobilité complète. Et lorsque s'élancent ainsi Hugo, ou Gautier, ou Banville, les voilà bien vite lassés de courir en cercle, sur place, — et nous aussi qui les suivons.</p>
         <p>Sans doute Verlaine vint, et après Banville, il nous révéla les rythmes impairs. Et quel charme inattendu, indécis comme l'émotion elle-même, descendit alors sur la poésie. Mais ce n'est là qu'une altération délicate, non une rénovation du mètre traditionnel. Il l'épuisera à lui seul, cette veine délicieuse. Et pour échapper à son tour à l'insuffisance de la tradition, combien de mètres divers ne mêlera pas le jeune Laforgue, dans les strophes fixes de ses <hi rend="i">Complaintes</hi> ! Le dogme de la fixité des formes le tiendrait-il captif, même lui ? Le lyrisme qui sourd d'une génération tout entière, abreuvée de musique, impatiente de mouvement, va-t-il, comme le lyrisme romantique, consentir aux demi-mesures ?... Pan, le grand Pan des <hi rend="i">Moralités Légendaires</hi>, ce chef-d'œuvre exquis et singulier, tout en poursuivant la petite nymphe Syrinx qu'il désire, répond par cette chanson à la diable :</p>
-        <p/>
-        <l>Je suis dégoûté des fraises des bois </l>
-        <l>Depuis que j'ai vu en rêve </l>
-        <l>Ma petite Eve </l>
-        <l>Me sourire mais en mettant un doigt </l>
-        <l>Sur ses lèvres.</l>
-        <p/>
-        <l>Je puis me dire dégoûté de tout mystère </l>
-        <l>Depuis que la petite Eve maligne </l>
-        <l>Tout en me souriant câline </l>
-        <l>M'a fait signe </l>
-        <l>Qu'il faut se taire.</l>
-        <p/>
-        <l>Mystère et sourire </l>
-        <l>O mon beau navire ! </l>
-        <l>Sourire et puis chut ! </l>
-        <l>Ah tais-toi mon luth ! </l>
-        <p/>
+        <quote>
+          <l>Je suis dégoûté des fraises des bois </l>
+          <l>Depuis que j'ai vu en rêve </l>
+          <l>Ma petite Eve </l>
+          <l>Me sourire mais en mettant un doigt </l>
+          <l>Sur ses lèvres.</l>
+          <l/>
+          <l>Je puis me dire dégoûté de tout mystère </l>
+          <l>Depuis que la petite Eve maligne </l>
+          <l>Tout en me souriant câline </l>
+          <l>M'a fait signe </l>
+          <l>Qu'il faut se taire.</l>
+          <l/>
+          <l>Mystère et sourire </l>
+          <l>O mon beau navire ! </l>
+          <l>Sourire et puis chut ! </l>
+          <l>Ah tais-toi mon luth ! </l>
+        </quote>
         <p>Oui, le luth ancien peut se taire. Ce n'est là qu'une improvisation ironique, comme un pied de nez au passé. Mais dans un cri comme celui-ci, spontané, jailli à la fois de l'âme de toute une génération de poètes, la forme lyrique attendue se montre ; ce qu'on appelle « le vers libre » est sur le point de naître, est né.</p>
         <p>D'abord on rit, comme s'il s'agissait d'une gageure. Cela dura. On cria à l'aberration. Il y eut des œuvres, les premières confuses, les suivantes plus sûres, les dernières vraiment accomplies. Il fallut pourtant discuter. La discussion, après vingt et quelques années, dure encore.</p>
         <p>Ceux qui proclamaient contre nos aînés « vers libristes » l'intangibilité du mètre traditionnel, s'aperçurent tardivement que, tout en s'en servant, ils ne le connaissaient encore guère. Ils vivaient sur les trois règles conventionnelles qu'on enseigne aux écoliers : la rime, le nombre des syllabes, la césure. Ils les opposèrent aux novateurs. Certains d'entre eux, — trop peu et trop tardivement, — pour à bon escient se défendre, étudièrent le vers régulier ; et quelle ne fut pas leur surprise ravie, de découvrir que sa valeur ne venait pas exclusivement des règles grâce auxquelles on le croyait déterminé. Et il leur fut permis de répondre à leurs adversaires : « Votre vers à trois règles n'est pas, ne fut jamais, ne peut pas être un organisme, si vous faites précisément abstraction de sa substance vitale véritable, les mots divers et leur très diverse accentuation. »</p>
@@ -925,33 +951,40 @@
         <p>Mais hélas ! de cette accentuation spontanée, trop variable, nul dogme ne pouvait encore sortir. J'imagine qu'on dut renoncer assez vite à assimiler notre prosodie aux prosodies latine et grecque. Et faute de pouvoir réglementer le jeu alterné des syllabes brèves et longues, — pour conférer, du moins, au vers une apparence de nécessité et de tenue, on fut insensiblement amené à cette coutume barbare et qui pèse encore sur nous, d'une métrique numérique, établie non pas sur la qualité, mais sur la quantité des syllabes, et n'exigeant apparemment de nos poètes qu'une science : savoir compter sur ses doigts. Un accent obligé fut placé sur la rime, puis, dans les vers plus longs, sur la césure, celle-ci déplaçable d'abord, mais que, dès la Renaissance, on fixa...</p>
         <p>C'était un pis aller. Pas autre chose. Hâtons-nous d'ajouter que, depuis lors, aucun poète digne de ce nom, ne s'en tint à ces conventions rudimentaires. Les règles de la tradition observées, restait encore l'essentiel, répartir dans le vers, suivant des lois que nul n'a formulées encore, les accents neutres et les accents pleins, et accorder entre eux ces vers égaux en apparence, rompus de la même façon, mais tout différemment rythmés. Consciemment ou non, à cette obligation, jamais en aucun temps les vrais poètes ne manquèrent.</p>
         <p>Et soit, ripostent les pseudo-classiques. Mais n'allez pas sacrifier pour cela, à l'accentuation, le numérisme. Et ils placent ici l'argument capital du défunt poète Sully Prudhomme et aussi de M. Dorchain <note n="76" type="NdE">Le poète Auguste Dorchain (1857-1930) a connu le succès dès son premier recueil (<title>La Jeunesse pensive</title>, 1881) et fut récompensé par l’Académie française pour <title>Vers la lumière</title> (1894).</note>, si peu vivant, si peu poète : « Toute la joie auditive, disent-ils, que nous procure une laisse de vers classiques, vient du retour régulier du même nombre de syllabes. Nous accordons que certains accents s'y ajoutent ; ils introduisent simplement la variété dans la fixité. Mais si vous supprimez ce retour périodique, et c'est bien là ce que vous prétendez faire, n'est-ce pas ? notre oreille déconcertée cherche vainement la mesure, et l'incertitude où vous la tenez lui enlève toute possibilité de plaisir. Quelle joie voulez-vous qu'on goûte en ces vers de toutes les tailles, dont aucun ne fait prévoir l'autre, etc., etc. ?</p>
-        <said>— Eh quoi, répliquons-nous, ne prenez-vous aucun plaisir à La Fontaine ?</said>
-        <said>— Eh ! ce n'est pas la même chose... </said>
-        <said>— Pardon... Quand vous lisez un de ses vers, prévoyez-vous donc toujours le suivant ?... — Alors ?... »</said>
+        <list type="dialogue">
+          <item>— Eh quoi, répliquons-nous, ne prenez-vous aucun plaisir à La Fontaine ?</item>
+          <item>— Eh ! ce n'est pas la même chose... </item>
+          <item>— Pardon... Quand vous lisez un de ses vers, prévoyez-vous donc toujours le suivant ?... — Alors ?... »</item>
+        </list>
         <p>Alors, le dogme croule. Et certes, ainsi que l'a prouvé M. Robert de Souza, auquel il nous faut toujours revenir dans ces questions de technique, car il aura été le premier, presque le seul, à les vouloir étudier de près, en philologue, la règle conventionnelle du numérisme <note n="77" type="NdE">Allusion au <title>Rythme poétique</title> : voir <hi rend="i">supra</hi>, note 75.</note> a créé peu à peu chez nous une habitude d'oreille et de prononciation poétique, qui lui confère une valeur réelle, auprès de la règle organique, inéluctable, d'accentuation. Le nombre absolu, quasi absolu des syllabes, est un élément de mesure auquel, même dans le vers libre, nous ne pouvons pas échapper. Nous accordons que le retour du même nombre forme un élément du plaisir que nous procure le vers régulier. Mais il n'est pas le seul. Et nous disons qu'en outre il peut exister, quant au rythme, d'autres plaisirs plus raffinés, plus divers aussi, plus lyriques ; par exemple celui qui naît de la disposition variable des accents, à l'intérieur de groupes syllabiques de longueur elle-même variable. Tant pis pour ceux qui ne savent danser que sur un air de polka ou de valse. Et je lis :</p>
-        <p/>
-        <l>Un loup n'avait que les os et la peau </l>
-        <l>Tant les chiens faisaient bonne garde. </l>
-        <l>Ce loup rencontre un dogue aussi puissant que beau </l>
-        <l>Gras, poli, qui s'était fourvoyé par mégarde. </l>
-        <l>L'attaquer, le mettre en quartiers, </l>
-        <l>Sire loup l'eût fait volontiers... </l>
-        <l>ou bien : </l>
-        <l>Un homme de moyen âge </l>
-        <l>Et tirant sur le grison </l>
-        <l>Jugea qu'il était saison </l>
-        <l>De songer au mariage. </l>
-        <l>Il avait du comptant </l>
-        <l>Et partant </l>
-        <l>De quoi choisir : toutes voulaient lui plaire... </l>
-        <l>ou bien encore : </l>
-        <l>La cigale ayant chanté </l>
-        <l>Tout l'été </l>
-        <l>Se trouva fort dépourvue... </l>
+        <quote>
+          <l>Un loup n'avait que les os et la peau </l>
+          <l>Tant les chiens faisaient bonne garde. </l>
+          <l>Ce loup rencontre un dogue aussi puissant que beau </l>
+          <l>Gras, poli, qui s'était fourvoyé par mégarde. </l>
+          <l>L'attaquer, le mettre en quartiers, </l>
+          <l>Sire loup l'eût fait volontiers... </l>
+        </quote>
+        <p>ou bien : </p>
+        <quote>
+          <l>Un homme de moyen âge </l>
+          <l>Et tirant sur le grison </l>
+          <l>Jugea qu'il était saison </l>
+          <l>De songer au mariage. </l>
+          <l>Il avait du comptant </l>
+          <l>Et partant </l>
+          <l>De quoi choisir : toutes voulaient lui plaire... </l>
+        </quote>
+        <p>ou bien encore : </p>
+        <quote>
+          <l>La cigale ayant chanté </l>
+          <l>Tout l'été </l>
+          <l>Se trouva fort dépourvue... </l>
+        </quote>
         <p>Mais vous m'avez compris, je pense, et je puis fermer le livre des <hi rend="i">Fables</hi>, notre classique justification.</p>
         <p>Ce livre facile et sans morgue, presque à lui seul — n'oublions pas pourtant <hi rend="i">Psyché</hi> et <hi rend="i">l’Amphitryon</hi> de Molière, et tels opéras de Quinault — fait équilibre aux théories absolues de Boileau et à tous les alexandrins de la France. Boileau, ne trouvant pas là matière à système, devait le dédaigner... Vous vous souvenez du mépris en lequel Lamartine tenait le fabuliste. De fait, La Fontaine resta longtemps un poète de second ordre, pour vieux libertins ou pour écoliers ; durant trois siècles, son influence demeura nulle ; ce fut comme s'il n'avait pas existé. — Il faut le proclamer enfin : son rôle représentatif fut unique et considérable. A une époque de raison et de passion policée, il maintint les droits du lyrisme et le principe du mouvement né de l'émotion, — et tout cela en contant des histoires. La tige sur laquelle vient de s'épanouir la floraison de cent hardis poèmes, c'est lui qui l'a fait jaillir de la graine, qui l'a cultivée, élevée... — si différent qu'il fût de nous et que soit de son art le nôtre... Oh ! moins différent qu'on ne croit...</p>
         <p>C'est un autre livre que j'ouvre, et du même ton que les <hi rend="i">Fables</hi>, avec le même sentiment de sécurité, le même élan et la même surprise, je lis :</p>
-        <p/>
+        <quote>
         <l>Un grand auvent de chaume nous abrite. </l>
         <l>Entre les troncs des vieux tilleuls </l>
         <l>On voit la fuite </l>
@@ -959,7 +992,7 @@
         <l>Une rose s'effeuille </l>
         <l>Et puis une autre rose </l>
         <l>Il modèle, je chante, on cause. </l>
-        <p/>
+        <l/>
         <l>Si je m'asseois auprès du portier, mon aïeul. </l>
         <l>C'est pour causer ; </l>
         <l>Il aime à parler à sa roue qui vire </l>
@@ -968,22 +1001,22 @@
         <l>L'argile grasse que je lave </l>
         <l>Et mêle d'un peu de sable... </l>
         <l>Et je le laisse dire... </l>
-        <l>(Fr. Vielé-Griffin : <hi rend="i">La Clarté de Vie</hi>). </l>
-        <p/>
+        <bibl>(Fr. Vielé-Griffin : <hi rend="i">La Clarté de Vie</hi>). </bibl>
+        </quote>
         <p>Je m'arrête à regret, mais lisez comme moi des poèmes de ces barbares qui se nomment Jules Laforgue, Francis Vielé-Griffin, Emile Verhaeren, Gustave Kahn, Charles van Lerberghe et aussi de Stuart Merrill, d'Albert Mockel, de Henri de Régnier <note n="78" type="NdE">Sur Vielé-Griffin, voir <hi rend="i">supra</hi>, note 5 ; sur Gustave Kahn, voir <hi rend="i">supra</hi>, note 7 p. 24 ; sur Charles Van Lerberghe, voir note 8 ; Stuart Merrill (1863-1915), Américain établi en France comme Vielé-Griffin, poète proche du symbolisme et soucieux de renouveler les formes et les rythmes, est notamment l’auteur de <title>Une Voix dans la foule, poèmes</title> (1909) ; Albert Mockel (1866-1945), poète belge proche du symbolisme, fondateur de <title>La Wallonie</title>, est l’auteur de <title>Clartés</title> (1901) ; sur Henri de Régnier, voir <hi rend="i">supra</hi>, note 6.</note>, d'autres encore, de Jean Moréas même, celui de l'époque héroïque... Et, les quittant, embrassez d'un coup d'œil toute l'évolution du vers libre depuis vingt-cinq années jusqu'à ce jour. C'est de cette évolution, qui n'est pas encore achevée, qu'il me reste à vous entretenir.</p>
         <p>Si, dans l'œuvre de nos aînés, on trouve telles pièces tout à fait accomplies, capables de représenter la maturité de leur art du rythme, ne croyez pas qu'aucun d'entre eux ait atteint du premier coup à cette maîtrise. Il y eut des essais vains, des tâtonnements, des erreurs. Ce n'est pas en dix ans, pas même en vingt ans, qu'une forme nouvelle s'organise. J'ai invoqué le précédent de La Fontaine. Mais les premiers vers libristes y pensaient-ils ? Leur attitude primitive fut nettement, délibérément anarchique. Ils prêchèrent l'évangile de la liberté. De là ce mot malheureux de <hi rend="i">vers libre</hi> dont je ne suis pas le premier à déplorer la fortune. Nous l'employons, sachant ce qu'il veut dire : tout le contraire de ce qu'il dit... Mais il reste, pour le public, le drapeau de l’ « ad libitum », de l'école du caprice individuel, la plus vaine, la plus contraire qui soit, à tout effort de création esthétique...</p>
         <p>A dire vrai, quoi de plus différent que les laisses improvisées de Jules Laforgue dans ses <hi rend="i">Derniers vers</hi> ? que les versets orientaux indéfiniment déroulés par M. Gustave Kahn dans ses <hi rend="i">Chansons d'amant</hi> ? que les strophes brèves, allantes, que scandait M. Vielé-Griffin dans son livre de <hi rend="i">Joies</hi> ? que les refrains discrets du <hi rend="i">Pèlerin passionné</hi> de M. Moréas ? que les bondissements grâce auxquels, par-dessus la règle, le Verhaeren des <hi rend="i">Flambeaux noirs</hi> <note n="79" type="NdE">Ghéon fait ici référence à des œuvres écrites en plein symbolisme, quelque vingt ans plus tôt, autour de 1890 : <title>Chansons d’amants</title>, de Gustave Kahn, a été publié en 1891 ; <title>Joies</title>, de Vielé-Griffin, en 1889 ; en 1891, la publication du <title>Pèlerin passionné</title> a donné lieu à l’organisation d’un banquet, présidé par Mallarmé et resté dans l’histoire littéraire comme « le banquet des symbolistes », pour célébrer Jean Moréas ; 1891 voit encore la parution des <title>Flambeaux noirs</title> de Verhaeren.</note> s'élevait du ton oratoire au lyrisme ? Et je ne parle pas seulement d'une différence de rythme que justifiait assez la différence d'inspiration, mais d'une différence de principe rythmique — d'une absence de tout principe, peut-être bien...</p>
         <p>On a été bercé dans l'habitude d'une cadence... On a beau vouloir la détruire, c'est d'elle pourtant que l'on part... C'est en elle aussi que l'on se retrouve, quand on est las de chercher... En l'espèce, l'alexandrin tant honni est le point de départ et le point de repos de ces premières tentatives, soit que, comme M. Verhaeren, on l'entremêle de brefs appels qui redoublent son martèlement, soit que, à l'exemple de M. Mockel, on le quitte pour le rejoindre, par altérations progressives, soit que l'on se plaise, comme M. Kahn, à le prolonger au-delà des limites de notre souffle, soit qu'enfin, selon la manière de M. Vielé-Griffin, on le réserve pour conclure, dans un mouvement de vaine éloquence, des poèmes de la vivacité la plus neuve. Et ainsi, partant de l'alexandrin, chacun s'en va de son côté, à la recherche de son rythme propre. Non d'un rythme tout gratuit, et indépendant de l'idée ; déjà on s'efforce instinctivement vers un mode d'expression surtout émouvant et fidèle, mais par quels moyens empiriques, hasardeux, incohérents ! On assemble tant bien que mal, plus ou moins altérés, et plus ou moins conformes aux lois de l'accentuation et de l'euphonie, les membres dispersés des formes fixes révolues... Personne ne distingue encore avec précision la règle de discipline intérieur à laquelle tous, peu d'années après, ils vont se soumettre, ou presque tous...</p>
         <p>Non, le poète n'est pas libre. Et loin de moi le dessein ridicule de tracer des limites au génie. Le génie, même en art, est une exception, qui ouvre parfois un chemin, mais plus souvent l'ouvre et le ferme. Quand M. Paul Claudel (dont on s'étonnerait à juste titre de ne pas rencontrer le nom ici) crée de toutes pièces une forme intermédiaire entre les laisses de Whitman et les versets des prophètes, forme dont on ne peut dire que c'est de la prose, même lyrique, tant est puissant le mouvement qui la soulève, et qui pourtant demeure irréductible à aucun système de rythme, vieux ou neuf ; quand il s'écrie dans une ode admirable :</p>
-        <p/>
+        <quote>
         <l>Les neuf muses, et au milieu Terpsichore </l>
         <l>Je te reconnais, Ménade, je te reconnais Sibylle, etc. </l>
-        <p/>
+        </quote>
         <p>...nous l'admirons, lui, son poème, toute son œuvre, comme une manifestation solitaire que rien chez nous n'a préparée, qui n'aboutit à rien qu'à soi, et de laquelle ne peut sortir aucune tradition nouvelle. On n'analyse pas, on ne discute pas, on ne systématise pas certaines forces...</p>
         <p>Mais c'est sauvegarder la flamme moins brûlante qui couve en un Racine ou en un Baudelaire, ces deux grands hommes de talent, que d'exiger d'eux la vertu d'enfermer cette flamme à l'abri d'une discipline. Et s'il existe des disciplines étouffantes par défaut d'appropriation, des disciplines usagées, qui, au lieu de fortifier, amollissent, — quel merveilleux bonheur dans la rencontre de l'alexandrin et de Racine, par exemple ! — dans celle aussi de nos plus modernes lyriques avec la discipline du vers libre... s'ils acceptaient toujours avec vaillance celle-ci !</p>
         <p>Après quinze ans d'essais, voici le <hi rend="i">rythme nécessaire</hi>, insoucieux des formes préconçues, du mètre impair ou de l'alexandrin. Il naît avec l'émotion... Il la suit pas à pas... Il s'arrête où elle s'arrête... Il substitue à la notion du <hi rend="i">vers</hi>, conventionnelle hélas ! dans la langue française, où nulle prosodie vivante, nous l'avons vu, ne la peut soutenir, la notion profonde de la <hi rend="i">strophe</hi>, l'exacte strophe analytique qui est comme le calque de l'émotion.</p>
         <p>Ecoutez cette chanson neuve, c'est celle d'Emile Verhaeren dans les <hi rend="i">Visages de la Vie</hi>, celle de Gustave Kahn dans le <hi rend="i">Livre d'Images</hi>, celle de Vielé-Griffin dans la <hi rend="i">Clarté de Vie</hi>, celle de Van Lerberghe dans la <hi rend="i">Chanson d’Eve</hi> <note n="80" type="NdE">Toutes ces œuvres ont été publiées à la fin des années 1890, en pleine crise des valeurs symbolistes ; Émile Verhaeren, <title>Les Visages de la vie</title> : 1899 ; Gustave Kahn, <title>Livre d’images</title> : 1897 ; Vielé-Griffin, <title>La Clarté de vie : Chansons à l'ombre ; Au gré de l'heure ; « In memoriam » ; En Arcadie</title> : 1897 ; Ghéon fait allusion à <title>La Chanson d’Ève</title> dans ses « Notes sur le drame poétique » : voir <hi rend="i">supra</hi>.</note> ! Ecoutez :</p>
-        <p/>
+        <quote>
         <l>En robe de pâle clarté </l>
         <l>Douce comme la nuit d'été </l>
         <l>Soyeuse et blonde, </l>
@@ -1007,10 +1040,10 @@
         <l>Dans l'universelle rumeur </l>
         <l>Elle se fond doucement et s'achève </l>
         <l>La chanson d'Eve... </l>
-        <p/>
+        </quote>
         <p>Quelle délicatesse, quelle variété, quelle mobilité de ligne ! Ici les éléments rythmiques, divers de nombre, divers d'accent, qui animaient le vers régulier traditionnel, vont se grouper suivant des lois qui demeurent jusqu'à nouvel ordre mystérieuses, mais que l'oreille du poète perçoit, — suivant les mêmes lois qui les groupaient dans les anciens poèmes, — pour former des strophes vives, ductiles, dont les proportions, le mouvement, les temps d'arrêt devront coïncider avec les proportions, le mouvement, les temps d'arrêt du sentiment et de l'idée... Et il faudra que cette ordonnance logique des mots selon le sens nous satisfasse ainsi qu'une mélodie achevée. L'assonance et la rime la soutiendront, de leurs harmonies diverses... mais c'est là une autre question et qui sort des limites de mon sujet.</p>
         <p>Cette satisfaction, à la fois intellectuelle et musicale, vous jugerez comment ces beaux poètes nous la donnent. Me sera-t-il permis de regretter qu'ils ne nous la donnent pas constamment ? Oui, leur strophe si variée, capable d'exprimer tous les tumultes — écoutez la grande voix de Verhaeren ! — toutes les subtilités d'une atmosphère, — souvenez-vous de ces quelques vers de <hi rend="i">la Chanson d'Eve</hi>, — tous les mouvements d'une âme, et je vous renvoie aux admirables poèmes dramatiques de Francis Vielé-Griffin, à <hi rend="i">Phocas le Jardinier</hi>, à <hi rend="i">Sainte Marguerite de Cortone</hi>, au récit du marchand païen qui a acheté la chrétienne Julie, <hi rend="i">Sainte Julie</hi>, qui l'aime, qui par amour se laisse convertir... mais citerai-je ?...</p>
-        <p/>
+        <quote>
         <l>Je souriais de tout cela alors </l>
         <l>Mais plutôt que lui dire : non, je fusse mort... </l>
         <l>Elle qui le voit bien </l>
@@ -1019,7 +1052,7 @@
         <l>Ainsi de jour en jour </l>
         <l>Je l'aimais mieux sans lui parler d'amour </l>
         <l>Et elle, elle m'aimait bien... </l>
-        <p/>
+        </quote>
         <p>...cette strophe, dis-je, si variée, si pleine de ressources, et, par définition même, capable de tout exprimer sans avoir recours aux formes traditionnelles qu'elle a brisées et refondues, cette strophe qui doit se suffire... — trop souvent, comme si elle ne leur suffisait pas, nos poètes la quittent soudain pour retourner à l'alexandrin didactique. A ces moments exceptionnels, notons-le bien, correspond un notable fléchissement dans leur pensée. Celle-ci n'a-t-elle pas trouvé sa forme ? Est-ce paresse ? lassitude ? reviviscence du passé ?... Mais il suffit de quelques concessions semblables pour infirmer, au regard du public, tout le système rythmique nouveau, et rétablir la notion <hi rend="i">vers</hi> aux dépens de la notion <hi rend="i">strophe</hi>. Et une définition comme celle que lança un jour M. Vielé-Griffin, le plus conscient technicien du vers libre, « le vers libre est une conquête morale » <note n="81" type="NdE">Voir Francis Vielé-Griffin, « Une conquête morale », <title>La Phalange</title>, n° 17, 15 novembre 1907, p. 415-422.</note>, achève de donner raison à des adversaires qui ne veulent pas reconnaître que le vers libre est un organisme, un absolu.</p>
         <p>Oui, on prend acte de ces flottements, de ces chevauchements sur deux systèmes qui s'excluent, du cas particulier de M. Emile Verhaeren dont le vers libre, souvent oratoire, n'aura presque jamais cessé de s'appuyer sur un rythme carré, comme l'alexandrin classique, on prend acte de cela et de quelques inconséquences semblables, pour prêcher une réaction forcenée contre le vers libre. A l'indécision de nos aînés dans l'affirmation <hi rend="i">qui leur était possible</hi> d'une doctrine fixe et ferme, j'attribue le retour de quelques-uns de nous à la convention dite classique, où ils trouvaient une méthode, du moins.</p>
         <p>Cette génération, hélas ! compte un très petit nombre de poètes du <hi rend="i">vers libre</hi>, au sens véritable du mot ; encore semblèrent-ils n'en avoir accepté que les principes négatifs : liberté et facilité, les plus commodes. J'aurais mauvaise grâce à condamner comme inféconde cette attitude désinvolte, et je ne puis pas reprocher au moderniste Henry Bataille <note n="82" type="NdE">Henry Bataille est évoqué par Ghéon dans ses « Notes sur le drame poétique » : voir <hi rend="i">supra</hi>, p. 36</note>, au délicieux poète Francis Jammes, qui est vraiment un inspiré, l'emploi d'un alexandrin simplement approximatif ; et non plus à André Gide, qui ne daigne se concentrer que dans sa prose admirable, les à peu près de vers, si pleins, si curieux, mi-alexandrin et mi-prose, dont il a parsemé ses <hi rend="i">Nourritures terrestres</hi> et paré <hi rend="i">Candaule</hi> ; et non plus à Paul Fort l'abus du rythme carré dans ces <hi rend="i">Ballades</hi> <note n="83" type="NdE">Paul Fort (1872-1960), le créateur de la revue <title>Vers et Prose</title> (1905), a commencé à publier des poèmes, regroupés dans l’ensemble (continuellement enrichi jusqu’en 1958) des <title>Ballades françaises</title> en 1896.</note>, où il a retrouvé l'entrain, forcément régulier, des rondes populaires... La fin par laquelle, dit-on, les moyens sont justifiés, la fin est bonne ici... mais le fâcheux exemple ! Nous trouverons par bonheur à nous reposer dans le métier scrupuleux de M. Edouard Ducoté <note n="84" type="NdE">Le nom d’Édouard Ducoté (1870-1929), dès cette époque, est lié à <title>L’Ermitage</title>, dont il a été le second directeur (1896-1906).  L’essentiel de ses poèmes a été réuni dans <title>La Prairie en fleur</title>, en 1904. Il pratique le vers libre et s’attache à trouver un équilibre entre tradition et modernité.</note>, qui ne dédaigne pas de remonter à La Fontaine ; dans la précision subtile avec laquelle pèse les nouveaux rythmes, M. Tristan Klingsor <note n="85" type="NdE">Tristan Klingsor (pseudonyme de Léon Leclère, 1874-1966), a pratiqué le vers libre, après son premier recueil, <title>Filles-fleurs</title> (1895).</note>, dont il est amusant de comparer la verve à celle plus drue et plus spontanée de Paul Fort, dans les laisses savantes et ingénues de M. Fargue <note n="86" type="NdE">Léon-Paul Fargue (1876-1947), auteur d’un recueil de <title>Poèmes</title> (premier cahier), édité en province en 1907, publie <title>Tancrède</title> en 1911.</note>... Mais je ne veux pas dresser une liste. Et, on le pense bien, je ne m'arrêterai pas à moi-même... Cette conférence dit assez sous quelle bannière je me range.</p>
@@ -1060,13 +1093,13 @@
           <p>Qu'il s'agisse de rejeter la métrique préétablie du vers traditionnel, et aussitôt ils invoquent le principe connu du <hi rend="i">rythme nécessaire</hi> scandé par les « arrêts de la voix et du sens ». C'est fort bien. Pourtant ils n'iront pas, comme le voudrait la logique, jusqu'à la <hi rend="i">strophe analytique</hi>, où, disent-ils « le vers disparaît »— Justement ! — En fait, la notion de la <hi rend="i">strophe</hi> qui est l'acquisition la plus sûre du « vers librisme » et dans laquelle le vers se réduit à l'état d’<hi rend="i">unité rythmique indivise</hi> qu'il s'agit de mettre en valeur, ils la sacrifient volontiers, contrairement à leurs prémisses, à la notion traditionnelle et scolaire du <hi rend="i">vers numérique à césures</hi> <note n="25" type="NdA">Ils éludent complètement la question de l'accentuation. (NdA) </note> dont l'alexandrin est le type. L'alexandrin est leur point de départ, leur modèle, et « il fait partie de leur liberté ». C'est un compromis défendable ; nous ne le discuterons pas...</p>
           <p>A propos de l'alexandrin, j'aimerais pourtant à citer quelques remarques ingénieuses où ils raillent ses facilités et analysent ses ressources. Même, n'y découvrent-ils pas un <hi rend="i">vers libre de douze pieds</hi> ? — Ce vers libre-là on le voit déjà dans Racine, quand la césure « émotive » surajoutée prend le pas sur la césure obligée et crée à elle seule le rythme... Mais si l'alexandrin contient une façon de vers-libre, pourquoi donc le quitter ? — Néanmoins ils excellent à montrer les effets curieux qu'on en tire, en l'allongeant soudain comme fait Verhaeren, en étouffant d'une muette non élidée telle sonorité centrale etc., etc. Ils examinent ainsi chaque vers pris à part, du vers de sept pieds au vers de quinze ; et trouvent toujours le mot juste pour désigner la qualité propre à chacun, selon la variété de ses coupes... Mais comme ces mètres ne se présentent pas isolément, comme pour justifier leur union, il ne suffit pas dans le cas présent d'invoquer l'exemple de La Fontaine, MM. Duhamel et Vildrac s'avisent de nous fournir tout un lot de lois rythmiques « facultatives » et ils appuient d'exemples nombreux, tour à tour, la loi de <hi rend="i">constante rythmique</hi>, la loi d'<hi rend="i">équilibre rythmique</hi>, la loi de <hi rend="i">symétrie</hi>.</p>
           <p>« L'ancienne poétique, écrivent-ils, alignait des corps numériquement égaux et les vers étaient entre eux dans le rapport d'unité à unité. On constate fréquemment dans la forme moderne que la cadence d'une strophe ou paragraphe poétique est due à la présence répétée dans chaque vers d'un corps numérique fixe, que l'on peut appeler constante rythmique et qui bat la mesure dans la mélodie continue. Le vers libre à <hi rend="i">constante rythmique</hi> est bien la première et la plus simple métamorphose du vers régulier ». Exemple :</p>
-          <p/>
+          <quote>
           <l><hi rend="i">En allant vers la ville</hi> où l'on chante aux terrasses </l>
           <l><hi rend="i">Sous les arbres en fleur</hi> comme des bouquets de fiancées </l>
           <l><hi rend="i">En allant vers la ville</hi> où le pavé des places </l>
           <l><hi rend="i">Vibre au soir rose et bleu</hi> d'un silence de danses lassées. </l>
-          <l>(H. De Régnier) </l>
-          <p/>
+          <bibl>(H. De Régnier) </bibl>
+          </quote>
           <p>Le procédé, ainsi qu'on voit, est simple, — du moins lorsque la constante rythmique ouvre le vers ou bien le ferme. Mais, nous dit-on, il peut arriver qu'elle s'y déplace, tantôt extrême et tantôt médiane. Et à l'appui, on nous cite cette autre strophe :</p>
           <quote>
           <l><hi rend="i">La voix retentit</hi> comme un hymne paré d'étoiles </l>
@@ -1076,31 +1109,34 @@
           <bibl>(G. Kahn) </bibl>
           </quote>
           <p>Arrêtons-nous... Vraiment, en toute bonne foi, est-il possible de le suivre dans ses déplacements injustifiés, « ce corps fixe qui bat la mesure » ? Non souligné, le trouverions-nous même ? Pour ma part, dans ces quatre vers, je lui dénie toute valeur rythmique ; aveuglés par leur théorie, nos deux jeunes poètes nous entraînent dans le chaos : la constante qu'ils cherchent, mais ils la trouveront partout, là même où il n'est pas de rythme ! — Qu'il faut donc ici de prudence ! Songez que si tel poème ne présente qu'une constante, tel autre, ajoutent-ils, en présentera deux, alternées ou enchevêtrées, tel autre plusieurs... Examinons plutôt la loi des <hi rend="i">équilibres rythmiques</hi> que nos auteurs exposent en ces termes :</p>
+          <quote>
           <p>« Un peu d'arithmétique. — Il arrive souvent que deux vers consécutifs formant strophe soient césures chacun de telle façon qu'on puisse dire : le premier hémistiche de l'un est au premier hémistiche de l'autre, comme les seconds hémistiches des deux vers sont entre eux. De même les deux hémistiches d'un des vers sont entre eux comme les deux hémistiches de l'autre.</p>
           <p>Le rapport numérique tient alors à un <hi rend="i">équilibre rythmique</hi> et les corps numériques jouent mutuellement un rôle de contre-poids comme les quatre facteurs d'une proportion etc. »</p>
-          <p/>
+          </quote>
           <p>L'exemple éclairera suffisamment le théorème :</p>
-          <l>Cette rose — à ton corsage </l>
-          <l>Cette fleur rouge — à ton col entr'ouvert </l>
-          <l>(A. Salmon.) <note n="97" type="NdE">André Salmon (1881-1969), critique d’art connu pour sa défense du cubisme, était aussi poète ; proche de Moréas, il fut le secrétaire de la revue <title>Vers et Prose</title>, créée par Paul Fort.</note></l>
-          <p/>
+          <quote>
+            <l>Cette rose — à ton corsage </l>
+            <l>Cette fleur rouge — à ton col entr'ouvert </l>
+            <bibl>(A. Salmon.) <note n="97" type="NdE">André Salmon (1881-1969), critique d’art connu pour sa défense du cubisme, était aussi poète ; proche de Moréas, il fut le secrétaire de la revue <title>Vers et Prose</title>, créée par Paul Fort.</note></bibl>
+          </quote>
           <p>Ou bien :</p>
+          <quote>
           <l>Oh ! elles existent — elles attendent </l>
           <l>Ils n'auraient qu'à choisir — ils n'auraient qu'à prendre </l>
-          <l>(Ch. Vildrac.) </l>
-          <p/>
+          <bibl>(Ch. Vildrac.) </bibl>
+          </quote>
           <p>Nous n'insisterons pas. Ceci est d'une évidente justesse, d'une juste ingéniosité. Voici un mécanisme clair, éprouvé et légitime. Nous en dirons autant du mécanisme de la <hi rend="i">symétrie</hi> : symétrie de coupe, symétrie de tour ; le mot prononcé, la chose se devine.</p>
           <p>Mais, ces trois lois diverses (<hi rend="i">symétrie, constante, équilibre</hi>) ne se laissent-elles pas ramener assez aisément à un principe général, qui est précisément le principe essentiel de la tradition métrique : j'ai nommé le « parallélisme » ? Parallélisme varié, retardé, raffiné sans doute, mais continuant et étendant le parallélisme plus rigoureux et plus artificiel du vers classique.</p>
           <p>Grâce à lui, « le vers libre », selon MM. Duhamel et Vildrac, satisfait aux conditions dictées par l'étymologie, que naguère exigeait du vers Michel Arnauld : « Le seul mot de vers (<hi rend="i">versus</hi>) disait-il, implique un certain retour régulier ». Oui certes. Mais ne l'oublions pas, à côté de la <hi rend="i">régularité</hi> de Racine, il y a la <hi rend="i">régularité</hi> déjà assez approximative de La Fontaine, et de laquelle nous nous autorisons... Il me semble, quant à moi, que la vraie tradition du rythme se continue dans « le vers libre » qui nous est proposé ici. Et ce « vers libre » je le considérerais volontiers comme un intermédiaire heureux, viable, entre le mètre régulier et la strophe analytique intégrale, s'il ne comportait la négation d'un principe, à mon avis irremplaçable : celui du retour, sinon régulier, du moins périodique, de la rime et de l'assonance : « <hi rend="i">versus</hi> » encore !</p>
           <p>« Nous voulons un poème qui soit un chant » écrivait Michel Arnauld, autrefois, dans un bel article sur l’<hi rend="i">Amour Sacré</hi> <note n="98" type="NdE"><title>L’Amour sacré</title>, recueil de poèmes de Francis Vielé-Griffin (1903).</note>. Je ne crois pas qu'un poème puisse être un chant sans l'assonance ou la rime systématiques. Certes, on ne reprochera pas à MM. Duhamel et Vildrac de négliger la question des <hi rend="i">sonorités</hi> dans leur petit livre. « L'allitération, disent-ils, est une des plus essentielles richesses du vers. Nous aimons un vers animé d'un souple jeu de voyelles ou de consonnes, tendant à interpréter harmoniquement les évolutions de la pensée ». Avec beaucoup de subtilité musicale, ils dépistent les allitérations là même où elles jouent le plus mystérieusement... « Arabesques de voyelles » « amas de diphtongues nasales » aucune ne leur échappe. Toute la musique du vers, ne vont-ils pas l'y concentrer ? Je le crains fort. Quand ils arrivent à la rime, à l'assonance qui est la rime atténuée, ils se montrent moins complaisants. Ecoutez ce réquisitoire :</p>
-          <p/>
+          <quote>
           <p>« Nous ne les dirons pas, les torts de la rime, déclarent-ils. Nous dirons :</p>
           <p>La poétique comporte maintenant d'autres protagonistes : la rime est un acteur dont l'emploi reste dans ce qu'on appelle au théâtre les « utilités ».</p>
-          <l>Par exemple : </l>
+          <p>Par exemple : </p>
           <l>Marquer parfois la fin de quelques vers à rythme émoussé. </l>
           <l>Sonner, rouler quand il faut faire donner la batterie. </l>
           <l>Taper du talon les pas d'une petite danse qui s'en accommode, etc., etc...» </l>
-          <p/>
+          </quote>
           <p>La tirade est brillante ; libre à nous de nous en amuser ; mais notons-en bien le sens : dans « le vers libre » selon nos deux poètes, la rime ne sera plus la règle, mais l'exception... Hélas, ils ne traiteront pas mieux l'assonance !... Que nous importe qu'ils en sachent goûter l' « inattendu » et les « délicatesses » s'ils la relèguent dans le même coin, si doctoralement ils décident que son « emploi, érigé en règle, serait aussi dangereux que l'emploi constant de la rime » ? Donc, c'est dit, plus d'écho sonore, pour renforcer, asseoir périodiquement la carrure assez instable, nous l'avons vu, de leurs constantes rythmiques. Plus de musique que celle des « arabesques de voyelles », des « amas de diphtongues nasales ». Plus de réponse harmonique d'un vers à l'autre à travers la strophe. La musique du vers ? jeu d'allitérations ; un luxe pour suppléer au nécessaire qu'on exile !</p>
           <p>Allitéré ou non, le vers blanc reste le vers blanc, à la frontière de la prose rythmée. Il nous paraît laid et barbare. Or, poètes français, il est un héritage que nous ne pouvons pas, physiologiquement parlant, rejeter : l'héritage de la rime, de l'assonance, de l'écho sonore. Comme on a assoupli, étendu l'ancien mètre, on peut, on doit étendre la rime et l'assouplir. La rejeter c'est renoncer à la moitié de la valeur sensuelle de la prosodie française. Il n'est pas un de nos aînés vers-libristes, je parle de ceux qui ont réalisé, qui ait consenti systématiquement à un pareil sacrifice : chez eux le vers blanc reste exceptionnel, en vue d'un effet très précis. Je crains que MM. Duhamel et Vildrac n'aient trop cultivé tels autres poètes, d'intention noble, mais de réalisation grossière : on ne saurait justifier à la fois le « vers libre » de ceux-là et le « vers libre » de ceux-ci. C'est la tare profonde de leur petit livre, par ailleurs si ingénieux et délicat.</p>
           <p>« Nous voulons un poème qui soit un chant », mon cher Arnauld, moi comme vous, et nous l'aurons. La dernière objection de votre article portait sur l'impossibilité où vous êtes de retenir le chant du vers-libre. Votre oreille est tout habituée encore au parallélisme étroit des rythmes classiques et au retour régulier de la rime... Elle s'accoutumera peu à peu, croyez-moi, au parallélisme plus varié des « rythmes libres » selon la doctrine de M. Vildrac s'il consent à le souligner de musique. Quant à la strophe analytique <note n="26" type="NdA">Vous lui reprochez sa « difficulté » bien à tort. Une forme neuve est d'abord difficile, pour devenir facile — et trop facile un jour. Des initiateurs travaillent pour la commodité des artistes futurs — et Malherbe pour Lamartine. On maniera plus tard la strophe analytique aussi spontanément, que spontanément vous la retiendrez. (NdA)</note>, elle ne rejette, vous le savez, ni le parallélisme, ni la périodicité de l'écho : vous y plierez votre mémoire. Puissent les jeunes gens, d'ici là, produire beaucoup de poèmes, soumis à l'une ou l'autre de ces disciplines — et dignes de chanter en vous, lorsque vous vous promènerez. On chantonne en marchant du Rossini d'abord, puis du Beethoven, puis du Debussy...</p>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model  href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="ghil_poesie-scientifique" xml:lang="fre">
   <teiHeader>
     <fileDesc>
@@ -8,11 +8,33 @@
         <title ref="http://gallica.bnf.fr/ark:/12148/bpt6k81453j">De la poésie scientifique</title>
         <author key="Ghil, René (1862-1925)" ref="http://www.idref.fr/026890011">René Ghil</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Pascale LANGLOIS</name>
+          <resp>Secrétariat éditorial</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="FG" ref="frederic.glorieux@paris-sorbonne.fr">Frédéric Glorieux</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name xml:id="VJ" ref="vincent.jolivet@paris-sorbonne.fr">Vincent Jolivet</name>
+          <resp>encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
-        <publisher>LABEX OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/ghil_poesie-scientifique/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence/>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -29,16 +51,6 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage rend="center">
-        <docAuthor>René Ghil</docAuthor>
-        <docTitle>
-          <titlePart>De la poésie scientifique</titlePart>
-        </docTitle>
-        <docImprint>Collection « l’Esprit du Temps »
-          <lb/>Paris, Gastein-Serge, éditeur</docImprint>
-      </titlePage>
-    </front>
     <body>
       <div>
         <head>Quelques mots d’actualité poétique</head>
@@ -257,7 +269,7 @@
           <p>« M. Ghil est un créateur, il est original essentiellement... Glorieuse ou peu répandue, son œuvre est, et sera. Elle ne passera jamais inaperçue, et soyez sûrs que tôt ou tard elle sera la source d’une nouvelle et large forme de poésie. » — (Etude, aux <hi rend="i">Ecrits pour l’Art</hi>, juin 1905).</p>
           <p>« Je crois que M. René Ghil, qu’on ne peut rapprocher de personne dans un dessein de comparaison, a orienté la poésie dans la voie qu’elle est appelée au plus merveilleux des rajeunissements. Je ne sais si son œuvre, qui allie la plus vigoureuse santé au plus raffiné des Byzantinismes, sera jamais célèbre, mais je gage qu’il faudra que nos petits enfants en tiennent compte plus tard, quand ils chercheront les sources de leur inspiration... Il a renouvelé l’inspiration lyrique. (<hi rend="i">Les Temps nouveaux</hi>, mai 1907 et 1908)...</p>
           <p>Je relis ceci, avec le lecteur, non pour m’enorgueillir, car, hélas ! je sais mesurer la distance du rêve à la réalisation, mais — si je ne crains d’assumer la charge qu’ainsi d’aucuns m’imposent, que je m’imposai passionnément à moi-même  pour retendre mon effort, à l’heure où, la première Partie de mon œuvre republiée avec corrections, je me remets à la continuation de la seconde, découverte et émoi des vérités naturelles sous les Mythes premiers de l’Humanité, et à la méditation de la dernière et ses Synthèses.</p>
-          <dateline>Février 1909.</dateline>
+          <dateline>Février <docDate>1909</docDate>.</dateline>
         </div>
       </div>
     </body>

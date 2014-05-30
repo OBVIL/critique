@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../../lib/teipub/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="egger_parole" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="../../teibook/teibook.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="egger_parole" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,14 +32,21 @@
         <measure quantity="491107" unit="character"/>
       </extent>
       <publicationStmt>
-        <publisher>OBVIL</publisher>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/egger_parole/</idno>
         <date when="2013"/>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
-          <licence target="?"/>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>?</bibl>
+        <bibl>Victor Egger, <title>la parole intérieure : essai de psychologie descriptive</title>. Paris : Librairie Germer Baillière et C<hi rend="sup">ie</hi>, 1881.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -51,28 +59,12 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <front>
-      <titlePage>
-        <docTitle>
-          <titlePart>La parole intérieure</titlePart>
-          <titlePart>Essai de psychologie descriptive</titlePart>
-        </docTitle>
-        <docAuthor rend="uc">Victor Egger</docAuthor>
-        <docImprint>
-          <placeName>Paris</placeName>
-          <publisher>Librairie Germer Baillière et C<hi rend="sup">ie</hi></publisher>
-          <address>108, boulevard Saint-Germain, 108<lb/>
-            au coin de la rue Hautefeuille</address>
-          <date>1881</date>
-        </docImprint>
-      </titlePage>
       <div type="dedication">
         <salute>À mon père Émile Egger
           <lb/>membre de l'Institut,
           <lb/>professeur a la faculté des lettres de paris
           <lb/>Hommage d’affection filiale et de reconnaissance</salute>        
       </div>
-    </front>
     <body>
       <div type="article">
         <head type="h1">Chapitre premier.<lb/>Aperçu descriptif. — Histoire de la question</head>
