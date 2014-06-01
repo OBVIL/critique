@@ -22,8 +22,8 @@ if (!isset($doc['body'])) {
   }
 */
 
-$teipot=$pot->baseHref.'../teipot/'; // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$theme=$pot->baseHref.'../theme/'; // autres ressources spécifiques
+$teipot = $pot->basehref() .'../teipot/'; // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
+$theme = $pot->basehref() .'../theme/'; // autres ressources spécifiques
 
 
 ?><!DOCTYPE html>
@@ -45,7 +45,7 @@ else echo '
     <div id="center">
       <header id="header">
         <h1>
-          <a href="<?php echo $pot->baseHref.'?'.$pot->qsa(); ?>">OBVIL, corpus critique</a>
+          <a href="<?php echo $pot->basehref() . $pot->qsa(null, null, '?'); ?>">OBVIL, corpus critique</a>
         </h1>
         <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
       </header>
@@ -63,7 +63,7 @@ if (isset($doc['bookid'])) {
   if (isset($doc['byline'])) echo $doc['byline'];
   if (isset($doc['end'])) echo ' ('.$doc['end'].')';
   echo '</div>';
-  echo "\n".'<a class="title" href="'.$pot->baseHref.$doc['bookname'].'/">'.$doc['title'].'</a>';
+  echo "\n".'<a class="title" href="' . $pot->basehref() . $doc['bookname'] . '/">'.$doc['title'].'</a>';
   echo "\n".'</header>';
   // rechercher dans ce livre
   echo '
