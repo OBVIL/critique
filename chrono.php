@@ -20,11 +20,12 @@ if (!isset($_REQUEST['q'])) $_REQUEST['q']='';
   <head>
     <meta charset="UTF-8"/>
     <title>Chronologies multiples</title>
+    <link rel="stylesheet" type="text/css" href="../teipot/html.css" />
     <style type="text/css">
 .noselect { -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
     </style>
   </head>
-  <body>
+  <body class="article">
     <?php
   echo'
     <form action="">
