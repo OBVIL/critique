@@ -5,7 +5,7 @@
 <!-- 
 [FG] quadratins
 -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="equilbecq_noirs-2" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -178,7 +178,7 @@
         <p>Il semble même que ce décor de demi-obscurité soit devenu indispensable pour le conteur. A l’exception, en effet, des noirs qui ont longuement vécu en contact avec nous et qui ont acquis à ce contact un certain scepticisme, il n’est guère de narrateur qui raconte volontiers ses légendes à la lumière du soleil. J'en ai acquis la certitude par ma propre expérience.</p>
         <p>L'indigène éprouve une sorte de défiance instinctive qui le fait répugner tout d’abord à livrer ses traditions à la curiosité des Blancs. Il ne peut saisir pour quelle raison l’Européen, qui affiche souvent l’incrédulité, peut s’intéresser à des récits de vieillards ou d’enfants. Aussi cherche-t-il une arrière-pensée à cette curiosité. Il faut le convaincre peu à peu, feindre soi-même de croire aux êtres mystérieux de la nuit et surtout lui prouver, par des citations d’histoires de même nature, que déjà l’on a mis d’autres conteurs en confiance. Alors il ne se défend plus et loin d’être hésitants à votre appelles contes affluent bientôt... d’autant mieux que la perspective d’un « bounia » (cadeau) détermine les bons vouloirs, d’abord indécis.</p>
         <p>Il résulte de ce qui vient d’être dit que la récolte des contes, assez maigre au début des recherches, se fait de plus en plus fructueuse au bout d’un certain temps : 41 des contes de ce recueil ont été enregistrés de 1904 à 1907 ; 47, de 1909 à 1910, en moins de 6 mois et 187 de juillet 1911 à octobre 1912. On voit la progression  !</p>
-        <div>
+        <div type="article">
           <head>Sources des contes</head>
           <list type="gloss">
             <item>La majeure partie est d’origine bambara (70).</item>
@@ -200,9 +200,10 @@
           </list>
           <p>Voici la répartition détaillée de ces contes, classés par races, pour permettre à ceux qui désireront étudier plus spécialement la littérature merveilleuse de telle ou telle race, de se retrouver plus aisément dans ce recueil :</p>
           
-          <div>
+            <list>
             <head>Classification des contes par répartition entre les diverses races</head>
-            <p rend="b">I. Contes Ouolof (26).</p>
+            <item>
+              <p>I. Contes Ouolof (26).</p>
             <list type="gloss">
               <item>La légende de Diâdiane NDiaye.</item>
               <item>Les trois gloutons.</item>
@@ -231,26 +232,31 @@
               <item>Les talibés rivaux.</item>
               <item>Ibrahima et les hafritt.</item>
             </list>
-            <p rend="b">II. Contes soussou (3).</p>
+            </item>
+            <item><p>II. Contes soussou (3).</p>
             <list type="gloss">
               <item>Le fils des bâri.</item>
               <item>L'enfant de Salatouk.</item>
               <item>L'almamy-caïman.</item>
             </list>
-            <p rend="b">III. Contes Dyerma (1).</p>
+              </item>
+            <item><p>III. Contes Dyerma (1).</p>
             <list type="gloss">
               <item>L'homme touffu.</item>
             </list>
-            <p rend="b">IV. Contes Gourounsi (1).</p>
+              </item>
+            <item><p>IV. Contes Gourounsi (1).</p>
             <list type="gloss">
               <item>Le canari merveilleux.</item>
             </list>
-            <p>V. <hi rend="b">Contes Sénofo (2).</hi></p>
+              </item>
+            <item>V. <hi rend="b">Contes Sénofo (2).</hi>
             <list type="gloss">
               <item>L'éléphantiasis de Moriba.</item>
               <item>Les présents des faro.</item>
             </list>
-            <p rend="b">VI. Contes Môssi (8).</p>
+              </item>
+            <item><p>VI. Contes Môssi (8).</p>
             <list type="gloss">
               <item>Les six géants et leur mère.</item>
               <item>L'hyène, le lièvre et le calao.</item>
@@ -261,7 +267,8 @@
               <item>Le mauvais gardien.</item>
               <item>La case de cuivre pâle.</item>
             </list>
-            <p rend="b">VII. Contes Malinké (23).</p>
+              </item>
+            <item><p>VII. Contes Malinké (23).</p>
             <list type="gloss">
               <item>Le minimini.</item>
               <item>La tâloguina de Dàfolo.</item>
@@ -287,7 +294,8 @@
               <item>La gourde.</item>
               <item>Les calaos et les crapauds.</item>
             </list>
-            <p rend="b">VIII. Contes Haoussa (24).</p>
+              </item>
+            <item><p>VIII. Contes Haoussa (24).</p>
             <list type="gloss">
               <item>Le vampire.</item>
               <item>L'hermaphrodite.</item>
@@ -314,7 +322,8 @@
               <item>Le riche et son fils.</item>
               <item>Khadidya l’avisée.</item>
             </list>
-            <p rend="b">IX. Contes Peuhl (ou Torodo) (54).</p>
+              </item>
+            <item><p>IX. Contes Peuhl (ou Torodo) (54).</p>
             <list type="gloss">
               <item>Kahué l’omniscient.</item>
               <item>La cliente de mauvaise foi.</item>
@@ -371,7 +380,8 @@
               <item>Quels bons camarades !</item>
               <item>Le pardon du guinnârou.</item>
             </list>
-            <p rend="b">X. Contes Habé (17).</p>
+              </item>
+            <item><p>X. Contes Habé (17).</p>
             <list type="gloss">
               <item>En retour d’une offrande de farine.</item>
               <item>Le laôbé et le yébem du cailcédrat.</item>
@@ -391,7 +401,8 @@
               <item>Les ailes dérobées.</item>
               <item>La case magique du défilé.</item>
             </list>
-            <p rend="b">XI. Contes Gourmantié (42).</p>
+              </item>
+            <item><p>XI. Contes Gourmantié (42).</p>
             <list type="gloss">
               <item>Le cadavre ambulant.</item>
               <item>Trois frères en voyage.</item>
@@ -436,7 +447,8 @@
               <item>Le lièvre qui traya la vache de brousse.</item>
               <item>Le bouvier d’Outênou.</item>
             </list>
-            <p rend="b">XII. Contes Bambara (70).</p>
+              </item>
+            <item><p>XII. Contes Bambara (70).</p>
             <list type="gloss">
               <item>Le riz de la bonne épouse.</item>
               <item>A la recherche de son pareil.</item>
@@ -509,18 +521,23 @@
               <item>Le forage du puits.</item>
               <item>Les deux intimes.</item>
             </list>
-            <p rend="b">XIII. Contes kouranko (2).</p>
+              </item>
+            <item><p>XIII. Contes kouranko (2).</p>
             <list type="gloss">
               <item>Le cheval de nuit.</item>
               <item>Nancy Mâra.</item>
             </list>
-            <p rend="b">XIV. Contes khassonke.</p>
+              </item>
+            <item><p>XIV. Contes khassonke.</p>
             <list type="gloss">
               <item>Le dévouement de Yamadou Hâve.</item>
             </list>
-            <p rend="b">XV. Contes kisso.</p>
+              </item>
+            <item><p>XV. Contes kisso.</p>
             <list type="gloss">
               <item>Chassez le naturel.</item>
+            </list>
+              </item>
             </list>
             <p>Dans cette étude de la littérature merveilleuse indigène je tiendrai compte, non seulement des récits recueillis par moi personnellement, mais encore de ceux publiés par différents folkloristes.</p>
             <p>Afin que le lecteur puisse contrôler les sources étrangères auxquelles je me référerai au cours de ce travail, je les indique ci-dessous en une brève notice biographique.</p>
@@ -559,7 +576,6 @@
             
               <p>Je renvoie aux sommaires détaillés des chapitres qui se trouvent en tête de cet essai.</p>
             
-          </div>
         </div>
         <div type="article">
           <head>Chapitre I Classification générale d’après les caractères prédominants.</head>
@@ -1783,6 +1799,7 @@
           <p>Comparer la vengeance de l’amoureux évincé dans « <title>Affront pour affront</title> ».</p>
         </div>
       </div>
+      <!--
       <div>
         <pb/>
         <head>Table des matières du tome premier</head>
@@ -1807,8 +1824,8 @@
         <p>XVI. Le dévouement de Yamadou Hâve.</p>
         <p>XVII. La flûte d’Ybilis.</p>
         <p>XVIII. La bague aux souhaits.</p>
-        
       </div>
+      -->
     </body>
   </text>
 </TEI>
