@@ -44,8 +44,8 @@
   </teiHeader>
   <text>
     <body>
-      <div>
-        <salute>À mes illustres amis</salute>
+      <div xml:id="avertissement_auteur">
+       <salute>À mes illustres amis</salute>
       <salute>M. Le baron Fourier</salute>
       <salute>Secrétaire perpétuel de l’Académie royale des sciences</salute>
       <salute>M. le professeur</salute>
@@ -53,7 +53,7 @@
       <salute>Membre de l’académie royale des sciences</salute>
       <salute rend="i">En témoignage de ma respectueuse affection.</salute>
       <salute>Auguste Comte</salute>
-      <div xml:id="avertissement_auteur"> 
+
         <head>Avertissement de l’auteur</head>
         <p>Ce cours, résultat général de tous mes travaux depuis ma sortie de l’École polytechnique en 1816, fut ouvert pour la première fois en avril 1826. Après un petit nombre de séances, une maladie grave m’empêcha, à cette époque, de poursuivre une entreprise encouragée, dès sa naissance, par les suffrages de plusieurs savants du premier ordre, parmi lesquels je pouvais citer dès lors MM. Alexandre de Humboldt, de Blainville, et Poinsot, membres de l’Académie des sciences, qui voulurent bien suivre avec un intérêt soutenu l’exposition de mes idées. J’ai refait ce cours en entier l’hiver dernier, à partir du 4 janvier 1829, devant un auditoire dont avaient bien voulu faire partie M. Fourier, secrétaire perpétuel de l’Académie des sciences, MM. de Blainville, Poinsot, Navier, membres de la même Académie, MM. les professeurs Broussais, Esquirol, Binet, etc., auxquels je dois ici témoigner publiquement ma reconnaissance pour la manière dont ils ont accueilli cette nouvelle tentative philosophique.</p>
         <p>Après m’être assuré par de tels suffrages que ce cours pouvait utilement recevoir une plus grande publicité, j’ai cru devoir, à cette intention, l’exposer cet hiver à l’Athénée royal de Paris, où il vient d’être ouvert le 9 décembre.</p>
@@ -254,7 +254,7 @@
         <p>Nous avons donc exactement déterminé dans cette leçon, non d’après de vaines spéculations arbitraires, mais en le regardant comme le sujet d’un véritable problème philosophique, le plan rationnel qui doit nous guider constamment dans l’étude de la philosophie positive. En résultat définitif, la mathématique, l’astronomie, la physique, la chimie, la physiologie et la physique sociale : telle est la formule encyclopédique qui, parmi le très grand nombre de classifications que comportent les six sciences fondamentales, est seule logiquement conforme à la hiérarchie naturelle et invariable des phénomènes. Je n’ai pas besoin de rappeler l’importance de ce résultat, que le lecteur doit se rendre éminemment familier, pour en faire dans toute l’étendue de ce cours une application continuelle.</p>
         <p>La conséquence finale de cette leçon, exprimée sous la forme la plus simple, consiste donc dans l’explication et la justification du grand tableau synoptique placé au commencement de cet ouvrage, et dans la construction duquel je me suis efforcé de suivre, aussi rigoureusement que possible, pour la distribution intérieure de chaque science fondamentale, le même principe de classification qui vient de nous fournir la série générale des sciences.</p>
       </div></div>
-      </div>
+      
     </body>
   </text>
 </TEI>
