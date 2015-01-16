@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,7 +33,7 @@
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/lemaitre_impressions-03.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
             <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
             <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
@@ -58,7 +58,7 @@
     <body>
       <div>
         <head>Sophocle</head>
-        <head><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Œdipe roi</hi>, tragédie de Sophocle, traduction de Jules Lacroix.</head>
+        <head type="sub"><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Œdipe roi</hi>, tragédie de Sophocle, traduction de Jules Lacroix.</head>
         <dateline>
           <docDate when="1888-07-23">23 juillet 1888.</docDate>
         </dateline>
@@ -81,14 +81,14 @@
         <p>Donc, et pour les raisons que j’ai dites, l’enquête poursuivie par Œdipe est des plus émouvantes. Elle me retient par elle-même, et pourvu que je ne songe pas trop à ce qui en est l’objet. J’ai sous les yeux un homme qui, désespérément et comme malgré lui, cherche <hi rend="i">ce qui doit faire son malheur</hi>. Voilà tout ce que je sais, tout ce que je veux savoir. Réduite à ces termes généraux, l’histoire d’Œdipe me touche, car elle peut être la mienne. Mais j’ai beau faire (et c’est là ce qui me gêne et me déconcerte), je ne puis oublier tout le temps les détails précis de cette histoire ; et il suffit qu’ils me soient présents à l’esprit pour que je ne sache plus que penser ni que sentir. Je croyais assister à un drame pathétique et vrai, ce drame étant traité par le poète avec le plus grand sérieux, « comme si c’était arrivé » ; et tout à coup un mot me rappelle que c’est un conte à dormir debout. Bref, <hi rend="i">Œdipe roi</hi> m’émeut à condition que je ne cherche ni à me représenter les faits, ni à concevoir les sentiments d’Œdipe après que ces faits lui, ont été révélés. Or, c’est là une condition bien rigoureuse. Je me trouve en face d’un drame dont les développements donnent l’impression de la vérité, et dont la matière est invraisemblable jusqu’à la plus naïve extravagance. Il y a là une contradiction, je dirai presque une absurdité, dont je gouffre. Autrement dit, le drame lui-même m’intéresse, comme m’intéresserait, conduite par un bon dramaturge, n’importe quelle enquête qui se tournerait contre le juge instructeur ; mais ce qui s’est passé <hi rend="i">avant</hi> et ce qui se passe <hi rend="i">après</hi> : c’est cela qui est dur à admettre et à comprendre.</p>
         <p>« Ce qui s’est passé avant ?… me dira M. Francisque Sarcey ; mais cela ne fait rien du tout. Il ne faut jamais chicaner un poète dramatique sur son point de départ. C’est un pacte qu’il vous propose, etc. , etc… » Mais enfin, ces « pactes » sont plus ou moins difficiles à accepter ; trop est trop ; et je ne crois pas qu’aucun drame, dans les temps anciens et modernes, ni même qu’aucun vaudeville et qu’aucune farce repose sur un aussi énorme <hi rend="i">postulatum</hi> que l’<hi rend="i">Œdipe roi.</hi></p>
         <p>J’admets tant que vous voudrez qu’on ait oublié, ou à peu près, de rechercher le meurtrier de Laïus et que Jocaste et Œdipe, mariés depuis douze ans, n’aient jamais parlé du feu roi et ne se soient jamais raconté leur passé. Cela n’est qu’invraisemblable. Mais ce qui est purement impossible, c’est l’aventure même d’Œdipe.</p>
-        <p>Qu’un fils, sans le savoir, tue son père et épouse sa mère, voilà une combinaison d’événements qui, sur un milliard de chances, n’en a pas une de se produire. Il y faut trop de conditions, et trop extraordinaires. Notez d’ailleurs que l’aventure d’Œdipe lui a été prédite et qu’il était résolu à tout faire pour l’éviter. Or, puisqu’il craignait si fort de tuer son père et d’épouser sa mère, la première précaution qu’il avait à prendre, semble-t-il, c’était de ne jamais tuer personne, sauf des gens de son âge ou à peu près<note resp="author"> Ne dites pas qu’il est persuadé que Polybe est son père. Du jour où un homme de Corinthe l’a traité d’enfant trouvé, il doit avoir des doutes.</note>, et de ne jamais se marier, sinon avec une très jeune fille, et dont il aurait vu l’acte de naissance. Comme cela, il aurait été tranquille. Mais son premier soin, en sortant de Corinthe, est d’occire un vieillard, — et pour pas grand’chose, — et d’épouser une femme beaucoup plus âgée que lui… Et il ne se méfie pas un seul instant ! On n’est pas bête à ce point !</p>
+        <p>Qu’un fils, sans le savoir, tue son père et épouse sa mère, voilà une combinaison d’événements qui, sur un milliard de chances, n’en a pas une de se produire. Il y faut trop de conditions, et trop extraordinaires. Notez d’ailleurs que l’aventure d’Œdipe lui a été prédite et qu’il était résolu à tout faire pour l’éviter. Or, puisqu’il craignait si fort de tuer son père et d’épouser sa mère, la première précaution qu’il avait à prendre, semble-t-il, c’était de ne jamais tuer personne, sauf des gens de son âge ou à peu près<note resp="author">Ne dites pas qu’il est persuadé que Polybe est son père. Du jour où un homme de Corinthe l’a traité d’enfant trouvé, il doit avoir des doutes.</note>, et de ne jamais se marier, sinon avec une très jeune fille, et dont il aurait vu l’acte de naissance. Comme cela, il aurait été tranquille. Mais son premier soin, en sortant de Corinthe, est d’occire un vieillard, — et pour pas grand’chose, — et d’épouser une femme beaucoup plus âgée que lui… Et il ne se méfie pas un seul instant ! On n’est pas bête à ce point !</p>
         <p>On me dira que je suis bien ingénu de discuter la vraisemblance d’un conte. Eh bien ! oui, c’est un conte. D’aucuns même y voient un mythe solaire : mais on peut voir un mythe solaire dans toutes les légendes et dans tous les récits, quels qu’ils soient ; on en a vu un dans l’histoire de Napoléon ; on en verrait un autre jusque dans les <hi rend="i">Trois Mousquetaires</hi> ou <hi rend="i">Monte-Cristo</hi>, si on le voulait bien : car les phénomènes solaires ou météorologiques ne présentent que des images de vie, de mort, de résurrection, d’amour, de haine, de lutte, de meurtre, de poursuite, et c’est là, nécessairement, le fond de toutes les histoires que l’homme peut tirer de son cerveau. Cependant il me paraît plus juste de prendre la légende d’Œdipe pour une sorte de conte philosophique populaire. On a voulu rendre sensible cette antique vérité, ce mélancolique axiome de sagesse courante : « Quoi qu’on fasse, on n’échappe pas à sa destinée. » Et alors on s’est demandé quelle devait être, <hi rend="i">a priori</hi>, la destinée la plus effroyable, <hi rend="i">ce qu’un honnête homme voudrait le moins avoir fait</hi> ; et on a trouvé ceci : tuer son père et être le mari de sa mère. Et là-dessus on a composé l’histoire d’Œdipe, sans aucun souci de la rendre vraisemblable. Mais justement je me plains qu’un poète, abusé par l’antiquité de la légende, et la croyant assez connue pour qu’elle fût admise comme vraie, ait eu l’idée de « réaliser », sous la forme du drame, un conte proprement symbolique. Car alors ou le conte, traduit par des personnages réels, me semblera absurde, ou je ne pourrai plus croire au drame, attendu qu’un conte et un. drame, cela fait deux. Et je serai très malheureux. C’est ce qui m’arrive aujourd’hui.</p>
         <p>J’ai dit que ce qui se passe <hi rend="i">après</hi> me gênait bien aussi. Je veux parler des sentiments qu’éprouve Œdipe quand il sait tout, de ses yeux crevés, et de son interminable lamentation. Je confesse que cela m’a horriblement ennuyé ; et, si tout le monde était sincère, tout le monde dirait comme moi. D’où vient cet ennui ? C’est qu’il m’est <hi rend="i">absolument impossible</hi> de savoir ce que j’éprouverais, si, victime de la plus fantastique des destinées, je venais à découvrir tout à coup que je suis le meurtrier de mon père, le mari de ma mère, le fils de ma femme, le frère de mes enfants, le petit-fils de mon beau-père, et tout ce qui s’ensuit (car ce pourrait être un jeu de chercher ce que devient la parenté complexe du fils de Laïus avec chacun de ses ascendants ou collatéraux, et j’ai envie de le proposer à « l’Œdipe j, non tragique celui-là, « du café de l’Univers, au Mans ». Ou plutôt je doute fort que je sente et que j’agisse, en cette occasion bizarre, comme l’Œdipe de Sophocle. Voyons les choses comme elles sont, ou plutôt comme elles seraient, et ne reculons pas devant cette psychologie éminemment hypothétique. Vous découvrez, monsieur, qu’il y a douze ans, étant dans le cas de légitime défense, vous avez, sans le savoir, tué votre père, un père que vous n’aviez jamais vu et qui, lui, a voulu vous supprimer quand vous étiez petit. Qu’éprouveriez-vous ? Rien du tout, je vous assure, si ce n’est un grand étonnement. La seconde découverte (celle de votre mariage avec votre mère) vous troublerait évidemment davantage. Mais enfin (et si ces considérations vous paraissent saugrenues, prenez-vous-en à Sophocle, qui me contraint à m’y livrer), votre femme serait là, avec la même figure que vous lui connaissez depuis douze ans, vous ne pourriez pas supprimer le passé, faire que ce qui est n’ait pas été, et il ne dépendrait même pas de vous de changer la nature des sentiments que vous avez pour elle et qu’elle a pour vous, de tenir pour non avenu votre second lien, impie à votre insu. Votre malheur ne serait qu’une conception de votre esprit. Vous auriez l’idée que vous devez souffrir, plutôt que vous ne souffririez réellement. Ou mieux, vous souffririez de ne pas savoir quels <hi rend="i">devraient</hi> être au juste vos sentiments. Ce serait un hébétement plus qu’une douleur. Si vous aviez la tête solide, vous vous en iriez et vous laisseriez faire le temps. Si vous aviez la tête faible, vous vous tueriez pour échapper au supplice de cette incertitude morale. Or, et c’est ce que je ne comprends guère, Œdipe s’arrête à une solution moyenne ; il ne se tue pas, mais il se crève les yeux.</p>
         <p>J’ai tort de dire que je ne comprends pas. Ce qui fait agir Œdipe, ce n’est pas le désespoir (car il irait alors jusqu’au suicide), c’est le désir d’expier son crime. Il nous le dit lui-même : il s’arrache les yeux pour se punir. — Pour se punir de quoi ? Il n’est pas coupable ; il n’a pas su ce qu’il faisait, et <hi rend="i">le pêché est dans la volonté, non dans l’acte matériel. —</hi> Évidemment ; et voici que nous pressentons enfin la pensée de Sophocle. Cette vérité qui nous paraît si simple, beaucoup l’ignoraient encore de son temps ; et c’est pourquoi il a fait <hi rend="i">Œdipe roi.</hi> Mais Sophocle, lui, la connaissait, et c’est pourquoi il a écrit <hi rend="i">Antigone</hi> et <hi rend="i">Œdipe à Colone.</hi> Dans cette dernière tragédie, Œdipe a fini par s’aviser qu’il n’était point coupable ; même, il est en si bons termes avec les dieux que son tombeau doit porter bonheur au peuple qui le possédera. <hi rend="i">Œdipe roi, Antigone</hi> et <hi rend="i">Œdipe à Colone</hi> forment, comme vous savez, un vaste drame en trois parties qui sont liées entre elles, moins encore par les événements que par la démonstration graduelle d’une idée morale. Et je veux bien avouer maintenant que si, l’autre soir, on avait fait suivre <hi rend="i">Œdipe roi</hi> d'<hi rend="i">Œdipe à Colone</hi>, la première de ces tragédies me serait apparue sous un tout autre jour.</p>
       </div>
       <div>
         <head>Villon</head>
-        <head><hi rend="sc">Théâtre Montparnasse</hi> : Soirée donnée par l’Association générale des étudiants de Paris. — François Villon.</head>
+        <head type="sub"><hi rend="sc">Théâtre Montparnasse</hi> : Soirée donnée par l’Association générale des étudiants de Paris. — François Villon.</head>
         <dateline>
           <docDate when="1888-03-19">19 mars 1888.</docDate>
         </dateline>
@@ -178,7 +178,7 @@
       </div>
       <div>
         <head>Théâtre japonais</head>
-        <head><hi rend="sc">Odéon</hi> : <hi rend="i">La Marchande de sourires</hi>, drame japonais en cinq actes et deux parties en prose, de M<hi rend="sup">me</hi> Judith Gautier, précédé d’un prologue en vers de M. Armand Silvestre. — Le théâtre japonais.</head>
+        <head type="sub"><hi rend="sc">Odéon</hi> : <hi rend="i">La Marchande de sourires</hi>, drame japonais en cinq actes et deux parties en prose, de M<hi rend="sup">me</hi> Judith Gautier, précédé d’un prologue en vers de M. Armand Silvestre. — Le théâtre japonais.</head>
         <dateline>
           <docDate when="1888-04-30">30 avril 1888.</docDate>
         </dateline>
@@ -192,7 +192,7 @@
         <p>La vieille Yuri-Nokata veut venger sa fille Nadeshiko que son gendre Asama délaisse pour la courtisane Hototogisu. D’abord, elle achète une drogue à un médecin pour empoisonner Hototogisu ; puis, d’un grand coup de sabre, elle fend la tète du médecin pour se débarrasser d’un témoin gênant. Ensuite, comme le poison n’agit pas assez vite, elle fait assassiner la favorite par deux servantes. Mais, Hototogisu étant mal assassinée, elle l’achève elle-même à coups de couteau. Hototogisu respire encore. Alors Yuri-Nokata fait signe aux deux servantes de dresser la mourante et de la tenir debout ; puis elle allume sa pipe ; elle l’applique, brûlante, sur le visage de sa victime et l’enfonce dans les blessures de son cou en l’accablant d’injures. — Vous croyez que c’est tout ? Nullement ; elle reprend son sabre et coupe un bras à Hototogisu. — Vous pensez que c’est fini ? Pas encore.</p>
         <p>La victime n’est pas morte et retrouve assez de force pour ramper jusqu’à un petit pont (un joli petit pont japonais, gracieusement arqué et réfléchi dans une jolie petite rivière). La vieille l’aperçoit, la rejoint, l’empoigne par ses cheveux défaits, la traîne à travers le pont. Fatiguée, elle change de main à plusieurs reprises et, comme alors son sabre l’embarrasse, elle le tient entre les dents… Enfin, elle ordonne qu’on jette le cadavre à la rivière ; on y jette aussi le bras coupé. Après quoi, Yuri-Nokata, satisfaite, prend une tasse de thé et fume quelques pipes...</p>
         <p>Eh bien ! si à ces vengeances épouvantables et à ces meurtres compliqués vous joignez des suicides, des reconnaissances et des apparitions de fantômes, vous aurez tout le théâtre japonais. Si j’en juge d’après l’étude de M. Lequeux et d’après quelques autres renseignements que j’ai pu recueillir, il n’est pas de théâtre plus sanguinaire ni où les passions soient plus violentes et plus cruelles. Ne vous fiez pas à la gentillesse simiesque de ces magots sensuels. C’est justement parce que, sous les menues élégances de leur civilisation stationnaire, ils restent des enfants, de vieux enfants, c’est pour cela qu’ils sont tour à tour des créatures futiles et des créatures féroces. Moi, brave Arya, très préoccupé de progrès, de justice, de charité, formé par la discipline classique et tout imprégné d’idées générales, ces homuncules aux cerveaux étroits m’apparaissent, malgré leur immobile culture superficielle, comme tout proches encore de l’humanité primitive, comme de jolies bêtes qui ne sont pas mes parentes. Je me figure qu’ils en resteront toujours où ils en sont ; que, si quelque œuvre mystérieuse et divine s’élabore ici-bas, ce ne sera jamais par eux ; que cette race n’aura été sur notre planète qu’une floraison superflue ; et qu’enfin, s’il y a un plan et un dessein de l’Univers, le Japon n’aura servi qu’à rajeunir et varier chez nous l’art de l’ameublement, et que là est sa seule raison d’être… Je ne vous livre, bien entendu, qu’une impression ; mais que puis-je faire autre chose ?</p>
-        <p>M<hi rend="sup">me</hi> Judith Gautier, une sincère artiste qui porte dignement un grand nom et pour qui « le monde sensible existe » presque autant qu’il exista pour son illustre père, a gardé du théâtre japonais, dans sa <hi rend="i">Marchande de sourires</hi><note resp="author"> Qui est d’ailleurs une pièce d’origine chinoise.</note> la simplicité, la violence, la férocité des sentiments et des passions, le romanesque naïf des aventures et la poésie pittoresque des détails ; elle y a ajouté, étant de bonne race latine, de la clarté, de la noblesse, et aussi le sentiment de la mesure et l’art de la composition. Voici, en deux mots, l’histoire qu’elle nous a contée.</p>
+        <p>M<hi rend="sup">me</hi> Judith Gautier, une sincère artiste qui porte dignement un grand nom et pour qui « le monde sensible existe » presque autant qu’il exista pour son illustre père, a gardé du théâtre japonais, dans sa <hi rend="i">Marchande de sourires</hi><note resp="author">Qui est d’ailleurs une pièce d’origine chinoise.</note> la simplicité, la violence, la férocité des sentiments et des passions, le romanesque naïf des aventures et la poésie pittoresque des détails ; elle y a ajouté, étant de bonne race latine, de la clarté, de la noblesse, et aussi le sentiment de la mesure et l’art de la composition. Voici, en deux mots, l’histoire qu’elle nous a contée.</p>
         <p>Le riche Yamato annonce à sa jeune femme Omaya qu’il va introduire dans sa maison une femme nouvelle, Cœur de Rubis, de son état « marchande de sourires ». Omaya supplie, proteste, montre son enfant, le petit Ivashita. Yamato répond : « C’est. mon droit. » La marchande de sourires est introduite, et, en la voyant, Omaya meurt de douleur.</p>
         <p>Au second acte, Cœur de Rubis met le feu à la maison de son nouveau mari, dont elle emporte la cassette, et noie le malheureux avec la complicité de son amant Simabara. Le petit Ivashita reste donc seul au monde avec sa nourrice Tika. Heureusement, le prince de Maëda vient à passer ; il adopte l’enfant, à condition que sa nourrice ne le reverra jamais.</p>
         <p>Dix ou douze ans après, Ivashita, devenu grand, aime sa voisine Fleur de Roseau, qui demeure de l’autre côté de la clôture de bambous. (Il l’a aimée rien qu’à voir sa figure réfléchie dans le ruisseau. ) Mais son père adoptif lui raconte l’histoire de ses parents (dont le digne prince a d’ailleurs oublié le nom) et lui rappelle qu’il doit les venger. Ivashita part pour Yeddo, espérant y retrouver quelque trace des crimes qui l’ont fait orphelin.</p>
@@ -205,8 +205,8 @@
         <p>Mais maintenant ai-je besoin de vous dire ce qui est dans la tragédie grecque et qui n’est pas dans le théâtre japonais, et en quoi 1’« hellénisme » de la <hi rend="i">Marchande de sourires</hi> n’est qu’une aimable plaisanterie ? Faut-il vous rappeler que l’<hi rend="i">Orestie</hi> et l’<hi rend="i">Œdipe roi</hi> ne sont point de purs mélodrames et valent par autre chose encore que par l’horreur et la singularité des aventures ? qu’il n’y a, du reste, rien de proprement « mélodramatique » dans <hi rend="i">Prométhée</hi>, dans <hi rend="i">Antigone</hi>, dans <hi rend="i">Œdipe à Colone</hi>, dans <hi rend="i">Hippolyte</hi> ou dans <hi rend="i">Iphigénie à Aulis</hi>, et que la religion, la morale, la philosophie du peuple le plus noble et le plus intelligent qui ait été, s’élaborent et vont se purifiant dans ces merveilleux drames ? Je ne parle pas de la beauté de la forme, ni des qualités proprement grecques, mesure, justesse, harmonie, ni des commencements de profonde psychologie qu’on y découvre. Non, non, la <hi rend="i">Marchande de sourires</hi>, qui n’est pas du d’Ennery, n’est pas non plus du Sophocle. Laissez-moi tranquille avec vos Japonais.</p>
       </div>
       <div>
-        <head>Shakespeare<note resp="author"> Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> série.</note></head>
-        <head><hi rend="sc">Théâtre. National de l’Odéon</hi> : <hi rend="i">Beaucoup de bruit pour rien</hi>, comédie en cinq actes et huit tableaux, en vers, de M. Louis Legendre, d’après Shakespeare ; musique de M. Benjamin Godard.</head>
+        <head>Shakespeare<note resp="author">Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> série.</note></head>
+        <head type="sub"><hi rend="sc">Théâtre. National de l’Odéon</hi> : <hi rend="i">Beaucoup de bruit pour rien</hi>, comédie en cinq actes et huit tableaux, en vers, de M. Louis Legendre, d’après Shakespeare ; musique de M. Benjamin Godard.</head>
         <dateline>
           <docDate when="1887-12-12">12 décembre 1887.</docDate>
         </dateline>
@@ -303,7 +303,7 @@
       </div>
       <div>
         <head>Scarron</head>
-        <head>Scarron et le Genre burlesque, par Paul Morillot<note resp="author">1 vol. in-8º br. prix : 8 francs (Lecène et Oudin).</note>.</head>
+        <head type="sub">Scarron et le Genre burlesque, par Paul Morillot<note resp="author">1 vol. in-8º br. prix : 8 francs (Lecène et Oudin).</note>.</head>
         <dateline>
           <docDate when="1888-08-27">27 août 1888.</docDate>
         </dateline>
@@ -343,7 +343,7 @@
       </div>
       <div>
         <head>Corneille<note resp="author">Cf. <hi rend="i">Impression de théâtre</hi>, l<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> série.</note></head>
-        <head><hi rend="sc">Odéon</hi> : Corneille, conférence de M. Francisque Sarcey sur <hi rend="i">Polyeucte.</hi></head>
+        <head type="sub"><hi rend="sc">Odéon</hi> : Corneille, conférence de M. Francisque Sarcey sur <hi rend="i">Polyeucte.</hi></head>
         <dateline>
           <docDate when="1888-03-26">26 mars 1888.</docDate>
         </dateline>
@@ -418,7 +418,7 @@
         <p>Maintenant, s’il faut tout dire, je plains un peu les malheureux acteurs, et je ne pense pas qu’il soit très facile de jouer une tragédie immédiatement après un pareil commentaire et une si juste, mais si joviale transposition… Si juste ? Oui, je le crois, et d’autant plus aisément, que j’ai moi-même, selon mes moyens, tenté quelquefois des explications de ce genre. Mais pourtant, une chose m’inquiète : c’est qu’enfin, ni les contemporains de Corneille, ni les gens du <num><hi rend="sc">xviii</hi><hi rend="sup">e</hi></num> siècle n’ont vu dans <hi rend="i">Polyeucte</hi> ce qu’y voit M. Sarcey et ce que nous y voyons après lui. Il ne s’ensuit point que cela n’y soit pas en effet ; mais il s’ensuit peut-être que cela n’y est pas expressément tout entier et n’éclate pas aux yeux. A ce compte, ce qu’il y a de plus intéressant et de plus beau dans la pièce, c’est donc ce qui s’y trouve en grande partie sous-entendu. Or, cela est bien étrange, étant donné un système dramatique ou, justement, presque toutes les conventions ont été établies pour permettre au poète de ne rien sous-entendre… De là mes doutes.</p>
       </div>
       <div>
-        <head>Molière<note resp="author"> Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> série.</note></head>
+        <head>Molière<note resp="author">Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> série.</note></head>
         <div>
           <head>I. Comédie-Française : Les Fâcheux.</head>
           <dateline>
@@ -475,7 +475,7 @@
       </div>
       <div>
         <head>Favart</head>
-        <head>La <hi rend="i">Comédie en France au <num><hi rend="sc">xviii</hi><hi rend="sup">e</hi></num> siècle</hi>, par M. C.Lenient, professeur à la Faculté des Lettres de Paris (2 vol. chez Hachette). — <hi rend="i">Les Trois Sultanes</hi>, de Favart.</head>
+        <head type="sub">La <hi rend="i">Comédie en France au <num><hi rend="sc">xviii</hi><hi rend="sup">e</hi></num> siècle</hi>, par M. C.Lenient, professeur à la Faculté des Lettres de Paris (2 vol. chez Hachette). — <hi rend="i">Les Trois Sultanes</hi>, de Favart.</head>
         <dateline>
           <docDate when="1888-08-13">13 août 1888.</docDate>
         </dateline>
@@ -588,7 +588,7 @@
       </div>
       <div>
         <head>Poinsinet et Patrat</head>
-        <head><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Le Cercle ou la Soirée à la mode</hi>, comédie en un acte, par Poinsinet ; — l’<hi rend="i">Anglais ou le Fou raisonnable</hi>, comédie en un acte, par Patrat.</head>
+        <head type="sub"><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Le Cercle ou la Soirée à la mode</hi>, comédie en un acte, par Poinsinet ; — l’<hi rend="i">Anglais ou le Fou raisonnable</hi>, comédie en un acte, par Patrat.</head>
         <dateline>
           <docDate when="1887-02-14">14 février 1887.</docDate>
         </dateline>
@@ -609,7 +609,7 @@
       </div>
       <div>
         <head>Beaumarchais</head>
-        <head><hi rend="sc">Odéon :</hi> Conférence de M. Gustave Larroumet sur <hi rend="i">le Mariage de Figaro.</hi></head>
+        <head type="sub"><hi rend="sc">Odéon :</hi> Conférence de M. Gustave Larroumet sur <hi rend="i">le Mariage de Figaro.</hi></head>
         <dateline>
           <docDate when="1888-04-16">16 avril 1888.</docDate>
         </dateline>
@@ -648,7 +648,7 @@
       </div>
       <div>
         <head>Casimir Delavigne</head>
-        <head><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Une famille au temps de Luther</hi>, drame en un acte, en vers, par Casimir Delavigne.</head>
+        <head type="sub"><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Une famille au temps de Luther</hi>, drame en un acte, en vers, par Casimir Delavigne.</head>
         <dateline>
           <docDate when="1888-06-25">25 juin 1888.</docDate>
         </dateline>
@@ -708,7 +708,7 @@
       </div>
       <div>
         <head>Ernest Legouvé</head>
-        <head><hi rend="sc">Comédie-Française :</hi> Reprise d’<hi rend="i">Adrienne Lecourreur</hi>, comédie-drame en cinq actes, de Scribe et de M. Ernest Legouvé.</head>
+        <head type="sub"><hi rend="sc">Comédie-Française :</hi> Reprise d’<hi rend="i">Adrienne Lecourreur</hi>, comédie-drame en cinq actes, de Scribe et de M. Ernest Legouvé.</head>
         <dateline>
           <docDate when="1888-04-23">23 avril 1888.</docDate>
         </dateline>
@@ -750,7 +750,7 @@
       </div>
       <div>
         <head>Aubanel</head>
-        <head><hi rend="sc">Théâtre-Libre</hi> : <hi rend="i">Le Pain du péché</hi>, drame provençal de Théodore Aubanel, mis en vers français par Paul Arène.</head>
+        <head type="sub"><hi rend="sc">Théâtre-Libre</hi> : <hi rend="i">Le Pain du péché</hi>, drame provençal de Théodore Aubanel, mis en vers français par Paul Arène.</head>
         <dateline>
           <docDate when="1888-05-07">7 mai 1888.</docDate>
         </dateline>
@@ -829,7 +829,7 @@
       </div>
       <div>
         <head>Camille Doucet</head>
-        <head><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Le Fruit défendu</hi>, comédie en trois actes, en vers, de M. Camille Doucet (reprise).</head>
+        <head type="sub"><hi rend="sc">Comédie-Française</hi> : <hi rend="i">Le Fruit défendu</hi>, comédie en trois actes, en vers, de M. Camille Doucet (reprise).</head>
         <dateline>
           <docDate when="1886-05-31">31 mai 1886.</docDate>
         </dateline>
@@ -844,7 +844,7 @@
       </div>
       <div>
         <head>Alexandre Dumas père</head>
-        <head><hi rend="sc">Théâtre national de l’Odéon :</hi> Centenaire Chevreul ; <hi rend="i">Charles VII chez ses grands vassaux</hi>, drame en cinq actes, en vers, d’Alexandre Dumas (reprise).</head>
+        <head type="sub"><hi rend="sc">Théâtre national de l’Odéon :</hi> Centenaire Chevreul ; <hi rend="i">Charles VII chez ses grands vassaux</hi>, drame en cinq actes, en vers, d’Alexandre Dumas (reprise).</head>
         <dateline>
           <docDate when="1886-09-06">6 septembre 1886.</docDate>
         </dateline>
@@ -866,7 +866,7 @@
       </div>
       <div>
         <head>Alexandre Dumas fils<note resp="author"><hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> séries.</note></head>
-        <head><hi rend="sc">Co</hi>médie-Française : Reprise de la Princesse Georges, pièce en trois actes, de M. Alexandre Dumas fils. </head>
+        <head type="sub"><hi rend="sc">C</hi>omédie-Française : Reprise de la Princesse Georges, pièce en trois actes, de M. Alexandre Dumas fils. </head>
         <dateline>
           <docDate when="1888-03-05">5 mars 1888.</docDate>
         </dateline>
@@ -889,7 +889,7 @@
       </div>
       <div>
         <head>Meilhac et Halévy<note resp="author">Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> séries.</note></head>
-        <head><hi rend="sc">Palais-Royal :</hi> Reprise du <hi rend="i">Réveillon</hi>, comédie en trois actes, de MM. Meilhac et Halévy.</head>
+        <head type="sub"><hi rend="sc">Palais-Royal :</hi> Reprise du <hi rend="i">Réveillon</hi>, comédie en trois actes, de MM. Meilhac et Halévy.</head>
         <dateline>
           <docDate when="1888-01-16">16 janvier 1888.</docDate>
         </dateline>
@@ -908,7 +908,7 @@
       </div>
       <div>
         <head>Henry Becque</head>
-        <head>Une représentation de <hi rend="i">la Parisienne</hi>, de M. Henry Becque.</head>
+        <head type="sub">Une représentation de <hi rend="i">la Parisienne</hi>, de M. Henry Becque.</head>
         <dateline>
           <docDate when="1888-06-18">18 juin 1888.</docDate>
         </dateline>
@@ -939,7 +939,7 @@
       </div>
       <div>
         <head>Edouard Pailleron</head>
-        <head><hi rend="sc">Comédie</hi>-<hi rend="sc">Française</hi> : <hi rend="i">La Souris</hi>, comédie en trois actes, de M. Edouard Pailleron.</head>
+        <head type="sub"><hi rend="sc">Comédie</hi>-<hi rend="sc">Française</hi> : <hi rend="i">La Souris</hi>, comédie en trois actes, de M. Edouard Pailleron.</head>
         <dateline>
           <docDate when="1887-11-21">21 novembre 1887.</docDate>
         </dateline>
@@ -974,7 +974,7 @@
       </div>
       <div>
         <head>Ludovic Halévy</head>
-        <head><hi rend="sc">Gymnase</hi> : <hi rend="i">L’Abbé Constantin</hi>, comédie en trois actes, tirée du roman de M. Ludovic Halévy, par MM. Hector Crémieux et Pierre Decourcelles.</head>
+        <head type="sub"><hi rend="sc">Gymnase</hi> : <hi rend="i">L’Abbé Constantin</hi>, comédie en trois actes, tirée du roman de M. Ludovic Halévy, par MM. Hector Crémieux et Pierre Decourcelles.</head>
         <dateline>
           <docDate when="1887-11-07">7 novembre 1887.</docDate>
         </dateline>
@@ -1108,7 +1108,7 @@
       </div>
       <div>
         <head>Verconsin, <hi rend="i">La sortie de Saint-Cyr</hi></head>
-        <head><hi rend="sc">Comédie-Française</hi> : <hi rend="i">La Sortie de Saint-Cyr</hi>, comédie en un acte, de M. Verconsin.</head>
+        <head type="sub"><hi rend="sc">Comédie-Française</hi> : <hi rend="i">La Sortie de Saint-Cyr</hi>, comédie en un acte, de M. Verconsin.</head>
         <dateline>
           <docDate when="1886-06-28">28 juin 1886.</docDate>
         </dateline>
@@ -1126,7 +1126,7 @@
       </div>
       <div>
         <head>Georges Ohnet, <hi rend="i">La grande marnière</hi></head>
-        <head><hi rend="sc">Porte-Saint-Martin</hi> : <hi rend="i">La Grande Marnière</hi>, drame en cinq a<note resp="author">Cf. <hi rend="i">les Contemporains</hi>, 1<hi rend="sup">re</hi> série, et <hi rend="i">Impressions de théâtre</hi>, 2<hi rend="sup">e</hi> série.</note>ctes et huit tableaux, de M. Georges Ohnet.</head>
+        <head type="sub"><hi rend="sc">Porte-Saint-Martin</hi> : <hi rend="i">La Grande Marnière</hi>, drame en cinq a<note resp="author">Cf. <hi rend="i">les Contemporains</hi>, 1<hi rend="sup">re</hi> série, et <hi rend="i">Impressions de théâtre</hi>, 2<hi rend="sup">e</hi> série.</note>ctes et huit tableaux, de M. Georges Ohnet.</head>
         <dateline>
           <docDate when="1888-04-09">9 avril 1888.</docDate>
         </dateline>
@@ -1152,7 +1152,7 @@
       </div>
       <div>
         <head>Cohen et Albin Valabrègue, <hi rend="i">Doit et avoir</hi></head>
-        <head><hi rend="sc">Palais-Royal.</hi> : <hi rend="i">Doit et Avoir</hi>, comédie en trois actes, de MM. Cohen et Albin Valabrègue.</head>
+        <head type="sub"><hi rend="sc">Palais-Royal.</hi> : <hi rend="i">Doit et Avoir</hi>, comédie en trois actes, de MM. Cohen et Albin Valabrègue.</head>
         <dateline>
           <docDate when="1883-04-09">9 avril 1883.</docDate>
         </dateline>
@@ -1169,7 +1169,7 @@
       </div>
       <div>
         <head>Erckmann-Chatrian, <hi rend="i">La guerre</hi></head>
-        <head><hi rend="sc">Châtelet</hi> : <hi rend="i">La Guerre</hi>, drame militaire à grand spectacle, en cinq actes et neuf tableaux, dont un prologue, de. MM. Erckmann-Chatrian.</head>
+        <head type="sub"><hi rend="sc">Châtelet</hi> : <hi rend="i">La Guerre</hi>, drame militaire à grand spectacle, en cinq actes et neuf tableaux, dont un prologue, de. MM. Erckmann-Chatrian.</head>
         <dateline>
           <docDate when="1883-12-28">28 décembre 1883.</docDate>
         </dateline>
@@ -1186,7 +1186,7 @@
       </div>
       <div>
         <head>Maujan, <hi rend="i">Jacques Bonhomme</hi></head>
-        <head><hi rend="sc">Théâtre de Paris</hi> : <hi rend="i">Jacques Bonhomme</hi>, drame en cinq actes, de M. Maujan.</head>
+        <head type="sub"><hi rend="sc">Théâtre de Paris</hi> : <hi rend="i">Jacques Bonhomme</hi>, drame en cinq actes, de M. Maujan.</head>
         <dateline>
           <docDate when="1886-11-06">6 novembre 1886.</docDate>
         </dateline>
@@ -1209,7 +1209,7 @@
       </div>
       <div>
         <head>Hippolyte Raymond et Maxime Boucheron, <hi rend="i">Cocart et Bicoquet</hi></head>
-        <head><hi rend="sc">Renaissance</hi> : <hi rend="i">Cocart et Bicoquet</hi>, comédie en trois actes, de MM. Hippolyte Raymond et Maxime Boucheron.</head>
+        <head type="sub"><hi rend="sc">Renaissance</hi> : <hi rend="i">Cocart et Bicoquet</hi>, comédie en trois actes, de MM. Hippolyte Raymond et Maxime Boucheron.</head>
         <dateline>
           <docDate when="1888-02-27">27 février 1888.</docDate>
         </dateline>
@@ -1255,7 +1255,7 @@
       </div>
       <div>
         <head>Bisson et Mars, <hi rend="i">Les surprises du divorce</hi></head>
-        <head><hi rend="sc">Vaudeville</hi> : <hi rend="i">Les Surprises du divorce</hi>, comédie en trois actes de MM. Bisson et Mars.</head>
+        <head type="sub"><hi rend="sc">Vaudeville</hi> : <hi rend="i">Les Surprises du divorce</hi>, comédie en trois actes de MM. Bisson et Mars.</head>
         <dateline>
           <docDate when="1888-03-12">12 mars 1888.</docDate>
         </dateline>
@@ -1279,7 +1279,7 @@
       </div>
       <div>
         <head>Pantomime<note resp="author">Cf. <hi rend="i">Impressions de Théâtre</hi>, 1<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> séries.</note></head>
-        <head><hi rend="sc">Cercle funambulesque</hi> : <hi rend="i">Colombine pardonnée</hi>, pantomime en un acte, de MM. Paul Margueritte et Fernand Beissier, musique de Paul Vidal. — <hi rend="i">L’Amour de l’Art</hi>, pantomime en un acte et deux tableaux, de M. Raoul de Najac, musique de M. André Martinet.</head>
+        <head type="sub"><hi rend="sc">Cercle funambulesque</hi> : <hi rend="i">Colombine pardonnée</hi>, pantomime en un acte, de MM. Paul Margueritte et Fernand Beissier, musique de Paul Vidal. — <hi rend="i">L’Amour de l’Art</hi>, pantomime en un acte et deux tableaux, de M. Raoul de Najac, musique de M. André Martinet.</head>
         <dateline>
           <docDate when="1888-05-28">28 mai 1888.</docDate>
         </dateline>
@@ -1302,7 +1302,7 @@
       </div>
       <div>
         <head>Au conservatoire<note resp="author">Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> séries.</note></head>
-        <head>Le concours de tragédie et de comédie.</head>
+        <head type="sub">Le concours de tragédie et de comédie.</head>
         <dateline>
           <docDate when="1888-07-30">30 juillet 1888.</docDate>
         </dateline>
@@ -1346,7 +1346,7 @@
         <p>D’ailleurs, je vous dis tout cela parce que je le crois juste, et non point pour qu’on le fasse.</p>
       </div>
       <div>
-        <head>A l’Alcazar d’été<note resp="author"> Cf. <hi rend="i">Impressions de Théâtre</hi>, 2<hi rend="sup">e</hi> série.</note></head>
+        <head>A l’Alcazar d’été<note resp="author">Cf. <hi rend="i">Impressions de Théâtre</hi>, 2<hi rend="sup">e</hi> série.</note></head>
         <dateline>
           <docDate when="1888-08-06">6 août 1888.</docDate>
         </dateline>
@@ -1424,7 +1424,7 @@
         </quote>
       </div>
       <div>
-        <head>Au cirque d’été<note resp="author"> Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> séries.</note></head>
+        <head>Au cirque d’été<note resp="author">Cf. <hi rend="i">Impressions de théâtre</hi>, 1<hi rend="sup">re</hi> et 2<hi rend="sup">e</hi> séries.</note></head>
         <dateline>
           <docDate when="1888-09-10">10 septembre 1888.</docDate>
         </dateline>
