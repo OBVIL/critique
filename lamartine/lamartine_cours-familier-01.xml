@@ -32,11 +32,17 @@
         <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-01.txt</idno>
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-01.epub</idno>
         <availability status="restricted">
-          
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>, <hi rend="i">Cours familier de littérature : un entretien par mois</hi>, tome I, Paris : chez l’auteur, 1856, 480 p. Source : <ref target=""><seg rend="lienhypertexte">Gall</seg><seg rend="lienhypertexte">i</seg><seg rend="lienhypertexte">ca</seg></ref>. Orthographe modernisée.</bibl>
+        <bibl><author>Alphonse de Lamartine</author>, <title>Cours familier de littérature : un entretien par mois</title>, tome I, <publisher>Paris : chez l’auteur</publisher>, <date>1856</date>, 480 p., [orthographe modernisée].</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -918,7 +924,7 @@
           <head>Épilogue du II<hi rend="sup">e</hi> entretien</head>
           <p><pb n="160"/>Je prie ceux de mes honorables abonnés qui me permettent de voir en eux une famille d’amis, et qui m’adressent des lettres d’affection si nombreuses et si émues, de recevoir ici l’expression collective de ma reconnaissance. Je recueille leurs lettres comme des monuments de consolation dans le travail. J’y répondrai individuellement, aussitôt qu’un peu de loisir me permettra de dérober à ces heures de labeur quelques heures de plaisir. En attendant, qu’ils sachent que je les lis, et que je m’écrie souvent en les lisant, et en sentant palpiter leur âme à travers la page : il y a des cœurs en France ! J’en voudrais avoir mille pour l’aimer comme elle mérite d’être aimée par ceux qu’elle aime !</p>
           <signed rend="sc">Al. de Lamartine.</signed>
-          <dateline>Paris, le 12 avril 1856.</dateline>
+          <dateline><placeName>Paris</placeName>, le<docDate when="1856-04-12"> 12 avril 1856</docDate>.</dateline>
         </div>
       </div>
       <div>
@@ -1270,7 +1276,7 @@
           <p>L’air extérieur, la pluie, la neige, le vent, les frimas, c’est la condition de l’homme ; la salle chaude et abritée, c’est le progrès ; l’oiseau, c’est la civilisation qui traverse un moment cette douce température, mais qui, hélas ! ne s’y repose pas longtemps, et qui, poursuivie par l’instabilité humaine, <hi rend="i">repasse de l’hiver dans l’hiver</hi>.</p>
           <p>Jetons du bois dans le foyer, et prions Dieu que la lumière et la chaleur durent, dirai-je à M. Pelletan ; mais ne flattons pas le pauvre oiseau qui passe, et ne croyons à l’éternité de rien ici-bas, pas même de nos songes !</p>
           <signed rend="sc">Lamartine.</signed>
-          <dateline>Paris, le 20 mars 1856.</dateline>
+          <dateline><placeName>Paris</placeName>, le <docDate when="1856-03-20">20 mars 1856</docDate>.</dateline>
         </div>
       </div>
       <div>
@@ -1751,12 +1757,9 @@
             <p>« Ô roi, dit l’ermite, cette douce gazelle apprivoisée appartient à l’ermitage ; ne la tuez <pb n="360"/>pas, ne la tuez pas ! — Arrête les coursiers », dit le roi à l’écuyer qui murmure.</p>
             <p>— « Oui, grand prince », dit l’ermite, « cette gazelle est nourrie dans notre ermitage. Que le ciel écarte de son flanc le trait du chasseur ! Une flèche dans un corps aussi tendre serait comme la flamme dans une touffe de coton. Qu’est-ce que l’existence fugitive de ce frêle animal, comparée à la pointe acérée de tes traits ?</p>
             <p>« Replace donc promptement dans le carquois cette flèche meurtrière. Vos armes, ô rois ! ne doivent être employées que pour protéger le faible, et non pour donner la mort à l’innocent.</p>
-            <label>
-              <hi rend="sc">Douchmanta</hi>
-              <stage>, avec respect.</stage>
-            </label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi><stage>, avec respect.</stage></label>
             <p>La voici dans le carquois. </p>
-            <stage>(Il l’y replace en effet.)</stage>
+            <label><stage>(Il l’y replace en effet.)</stage></label>
             <label>
               <hi rend="sc">L’Ermite</hi>
               <stage>, avec joie.</stage>
@@ -2088,7 +2091,7 @@
             <stage>(Sacountala disparaît derrière les roseaux de l’étang.)</stage>
           </quote>
           <signed><hi rend="sc">Lamartine</hi>.</signed>
-          <label rend="i">La suite au prochain Entretien.</label>
+          <p rend="i center">La suite au prochain Entretien.</p>
         </div>
       </div>
       <div>
@@ -2674,7 +2677,7 @@
           <l>Trempons-la d’une larme ! — Et c’est le pain des pleurs !</l>
         </quote>
         <signed rend="sc">Alph. de Lamartine.</signed>
-        <dateline>5 juin 1856.</dateline>
+        <dateline><docDate when="1856-06-05">5 juin 1856</docDate>.</dateline>
       </div>
     </body>
   </text>
