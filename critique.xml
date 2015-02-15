@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cat [
+  <!ELEMENT cat ( head, ( file+ | cat+ ) )>
+  <!ATTLIST cat
+    xml:id ID #REQUIRED 
+   >
+  <!-- 
+<book> : un livre dans un corpus
+
+  -->
+  <!ELEMENT file ( subject* )>
+  <!ATTLIST file
+    href CDATA #REQUIRED 
+   >
+  <!ELEMENT subject EMPTY>
+  <!ATTLIST subject
+    field CDATA #REQUIRED 
+   >
+  <!ELEMENT head ( #PCDATA | i | sc | sup )*>
+  <!ELEMENT i ( #PCDATA | sup )*>
+  <!ELEMENT sup ( #PCDATA )*>
+  <!ELEMENT sc ( #PCDATA | sup )*>
+]>
+<cat xml:id="critique">
+  <head>La critique et ses sources intellectuelles</head>
+  <cat xml:id="esthetique">
+    <head>Critique</head>
+    <cat xml:id="theorie">
+      <head>Théorie littéraire et esthétique</head>
+    </cat>
+    <cat xml:id="critlitt">
+      <head>Critique et histoire littéraire</head>
+    </cat>
+    <cat xml:id="critart">
+      <head>Critique et histoire artistique</head>
+    </cat>
+    <cat xml:id="pers">
+      <head>Écrits intimes et correspondances</head>
+    </cat>
+  </cat>
+  <cat xml:id="philosophie">
+    <head>Philosophie</head>
+  </cat>
+  <cat xml:id="sciences">
+    <head>Sciences exactes</head>
+    <cat xml:id="logicomath">
+      <head>Sciences formelles</head>
+      <cat xml:id="logique">
+        <head>Logique</head>
+      </cat>
+      <cat xml:id="mathematiques">
+        <head>Mathématiques</head>
+      </cat>
+    </cat>
+    <cat xml:id="vie">
+      <head>Sciences de la vie</head>
+      <cat xml:id="medecine">
+        <head>Médecine</head>
+      </cat>
+      <cat xml:id="biologie">
+        <head>Biologie</head>
+      </cat>
+      <cat xml:id="physiologie">
+        <head>Physiologie</head>
+      </cat>
+      <cat xml:id="botanique">
+        <head>Botanique</head>
+      </cat>
+      <cat xml:id="zoologie">
+        <head>Zoologie</head>
+      </cat>
+    </cat>
+    <cat xml:id="matiere">
+      <head>Matière</head>
+      <cat xml:id="physique">
+        <head>Physique</head>
+      </cat>
+      <cat xml:id="chimie">
+        <head>Chimie</head>
+      </cat>
+      <cat xml:id="geologie">
+        <head>Géologie</head>
+      </cat>
+      <cat xml:id="astronomie">
+        <head>Astronomie</head>
+      </cat>
+    </cat>
+  </cat>
+  <cat xml:id="humanites">
+    <head>Sciences humaines et sociales</head>
+    <cat xml:id="sociologie">
+      <head>Sociologie</head>
+    </cat>
+    <cat xml:id="ethnologie">
+      <head>Ethnologie</head>
+    </cat>
+    <cat xml:id="anthropologie">
+      <head>Anthropologie</head>
+    </cat>
+    <cat xml:id="psychologie">
+      <head>Psychologie</head>
+    </cat>
+    <cat xml:id="histoire">
+      <head>Histoire</head>
+    </cat>
+    <cat xml:id="politique">
+      <head>Politique</head>
+    </cat>
+    <cat xml:id="religion">
+      <head>Religion</head>
+    </cat>
+    <cat xml:id="economie">
+      <head>Économie</head>
+    </cat>
+  </cat>
+</cat>
