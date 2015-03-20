@@ -47,7 +47,7 @@ else echo '
         <h1>
           <a href="<?php echo $pot->basehref() . $pot->qsa(null, null, '?'); ?>">OBVIL, corpus critique</a>
         </h1>
-        <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
+        <a class="logo" href="http://obvil.paris-sorbonne.fr/bibliotheque/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
       </header>
       <div id="contenu">
         <aside id="aside">
