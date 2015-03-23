@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articles de l’<title>Encyclopédie</title></title>
+        <author key="Marmontel, Jean-François (1723–1799)">Marmontel</author>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <name>ARTFL Project</name>
+          <address>
+            <addrLine>Department of Romance Languages</addrLine>
+            <addrLine>University of Chicago</addrLine>
+          </address>
+        </distributor>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>
+Encyclopédie, Dictionnaire raisonné des 
+sciences, des arts et des métiers, par une 
+Société de Gens de lettres.
+</title>
+          <author>Diderot, Denis &amp; Alembert, Jean d’(eds)</author>
+          <publisher>Le Breton</publisher>
+          <pubPlace>Paris</pubPlace>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date notBefore="1751" notAfter="1765"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docAuthor>Marmontel</docAuthor>
+        <titlePart>Articles de l’<title>Encyclopédie</title></titlePart>
+        <docEdition>
+Compilation établie à partir de l’<ref target="http://encyclopedie.uchicago.edu/">édition numérisée de l’ARTFL</ref></docEdition>
+      </titlePage>
+    </front>
+    <body>
+      <div1 xml:id="COMEDIE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=COMÉDIE">COMÉDIE</ref>
+        </head>
+        <pb n="3:665" facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-665.jpeg"/>
+        <xi:include href="../xml/volume03.xml" xpointer="Comedie_Belles-lettres"/>
+      </div1>
+      <div1 xml:id="COMIQUE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=COMIQUE">COMIQUE</ref>
+        </head>
+        <pb n="3:681" facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-681.jpeg"/>
+        <xi:include href="../xml/volume03.xml" xpointer="Comique_genre"/>
+      </div1>
+      <div1 xml:id="CRITIQUE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CRITIQUE">CRITIQUE</ref>
+        </head>
+        <pb n="4:490" facs="V4/ENC_4-490.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Critique-2_Belles-lettres"/>
+      </div1>
+      <div1 xml:id="DECLAMATION">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DECLAMATION">DECLAMATION</ref>
+        </head>
+        <pb n="4:680" facs="V4/ENC_4-680.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Declamation-theatrale"/>
+      </div1>
+      <div1 xml:id="DECORATION">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DÉCORATION">DÉCORATION</ref>
+        </head>
+        <pb n="4:701" facs="V4/ENC_4-701.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Parmi-les-decorations-theatrales"/>
+      </div1>
+      <div1 xml:id="DEFINITION">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DEFINITION">DEFINITION</ref>
+        </head>
+        <pb n="4:749" facs="V4/ENC_4-749.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Definition_Rhetorique"/>
+      </div1>
+      <div1 xml:id="DEMON">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DÉMON">DÉMON</ref>
+        </head>
+        <pb n="4:820" facs="V4/ENC_4-820.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Demon_Literature"/>
+      </div1>
+      <pb n="4:831" facs="V4/ENC_4-831.jpeg"/>
+      <xi:include href="../xml/volume04.xml" xpointer="DENOUEMENT"/>
+      <div1 xml:id="DIALOGUE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DIALOGUE">DIALOGUE</ref>
+        </head>
+        <pb n="4:936" facs="V4/ENC_4-936.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Dialogue_Belles-lettres"/>
+      </div1>
+      <pb n="4:970" facs="V4/ENC_4-970.jpeg"/>
+      <xi:include href="../xml/volume04.xml" xpointer="DIDACTIQUE"/>
+      <div1 xml:id="DIRECT">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DIRECT">DIRECT</ref>
+        </head>
+        <pb n="4:1025" facs="V4/ENC_4-1025.jpeg"/>
+        <xi:include href="../xml/volume04.xml" xpointer="Direct_Histoire"/>
+      </div1>
+      <pb n="4:1033" facs="V4/ENC_4-1033.jpeg"/>
+      <xi:include href="../xml/volume04.xml" xpointer="DISCOURS"/>
+      <pb n="4:1060" facs="V4/ENC_4-1060.jpeg"/>
+      <xi:include href="../xml/volume04.xml" xpointer="DISTIQUE"/>
+      <div1 xml:id="EGLOGUE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=EGLOGUE">EGLOGUE</ref>
+        </head>
+        <pb n="5:428" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-428.jpeg"/>
+        <xi:include href="../xml/volume05.xml" xpointer="Reflexions-sur-la-Poesie-pastorale"/>
+      </div1>
+      <pb n="5:483" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-483.jpeg"/>
+      <xi:include href="../xml/volume05.xml" xpointer="ELEGIAQUE"/>
+      <pb n="5:484" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-484.jpeg"/>
+      <xi:include href="../xml/volume05.xml" xpointer="ELEGIE"/>
+      <pb n="5:816" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-816.jpeg"/>
+      <xi:include href="../xml/volume05.xml" xpointer="EPITAPHE"/>
+      <div1 xml:id="EPITRE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=EPITRE">EPITRE</ref>
+        </head>
+        <pb n="5:820" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-820.jpeg"/>
+        <xi:include href="../xml/volume05.xml" xpointer="Epitre_Belles-lettres"/>
+        <pb n="5:822" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-822.jpeg"/>
+        <xi:include href="../xml/volume05.xml" xpointer="Epitre-dedicatoire"/>
+      </div1>
+      <pb n="5:825" facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-825.jpeg"/>
+      <xi:include href="../xml/volume05.xml" xpointer="EPOPEE"/>
+      <div1 xml:id="EXTRAIT">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=EXTRAIT">EXTRAIT</ref>
+        </head>
+        <pb n="6:334" facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-334.jpeg"/>
+        <xi:include href="../xml/volume06.xml" xpointer="Extrait_Belles-lettres"/>
+      </div1>
+      <div1 xml:id="FABLE-la-">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FABLE">FABLE</ref>
+        </head>
+        <pb n="6:344" facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-344.jpeg"/>
+        <xi:include href="../xml/volume06.xml" xpointer="Fable-apologue"/>
+        <pb n="6:349" facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-349.jpeg"/>
+        <xi:include href="../xml/volume06.xml" xpointer="Fable-fiction-morale"/>
+      </div1>
+      <div1 xml:id="FARCE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FARCE">FARCE</ref>
+        </head>
+        <pb n="6:405" facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-405.jpeg"/>
+        <xi:include href="../xml/volume06.xml" xpointer="Farce_Belles-lettres"/>
+      </div1>
+      <pb n="6:679" facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-679.jpeg"/>
+      <xi:include href="../xml/volume06.xml" xpointer="FICTION"/>
+      <div1 xml:id="FINESSE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FINESSE">FINESSE</ref>
+        </head>
+        <pb n="6:816" facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-816.jpeg"/>
+        <xi:include href="../xml/volume06.xml" xpointer="Finesse_Philosophie"/>
+      </div1>
+      <div1 xml:id="GLOIRE">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=GLOIRE">GLOIRE</ref>
+        </head>
+        <pb n="7:716" facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-716.jpeg"/>
+        <xi:include href="../xml/volume07.xml" xpointer="Gloire_Philosophie"/>
+      </div1>
+      <div1 xml:id="GRAND">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=GRAND">GRAND</ref>
+        </head>
+        <pb n="7:848" facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-848.jpeg"/>
+        <xi:include href="../xml/volume07.xml" xpointer="Grand_Philosophie"/>
+      </div1>
+      <div1 xml:id="GRANDEUR">
+        <head>
+          <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=GRANDEUR">GRANDEUR</ref>
+        </head>
+        <pb n="7:855" facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-855.jpeg"/>
+        <xi:include href="../xml/volume07.xml" xpointer="Grandeur_Morale"/>
+      </div1>
+    </body>
+  </text>
+</TEI>
