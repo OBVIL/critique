@@ -15,7 +15,7 @@
           <resp>2015, coordination éditoriale</resp>
         </respStmt>
         <respStmt>
-          <name>Stella Louis</name>
+          <name xml:id="SL">Stella Louis</name>
           <resp>2015, édition TEI</resp>
         </respStmt>
         <respStmt>
@@ -58,6 +58,9 @@
         <p>Cette édition critique propose un double appareillage de notes. Les notes suivies de la mention [NdA] (//note[@resp='author']) correspondent aux notes originales de l'édition originale. Les notes suivies de la mention [NdE] (//note[@resp='editor']) correspondent aux commentaires critiques de l'éditeur.</p>
       </editorialDecl>
     </encodingDesc>
+    <revisionDesc>
+      <change who="#SL" when="2015-04-16">Encodage finalisé; TODO: le texte de la div commentée (//body/div[6]/div[2], "Les fêtes de Bayreuth") est à corriger.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <front>
@@ -1221,6 +1224,7 @@
           <p/>
           <p>Paul Verlaine <note resp="editor">Paul Verlaine (1844-1896) a défendu rapidement Wagner. Il rapporte avoir « fait jadis le coup de poing pour Wagner » dans <hi rend="i">Épigrammes</hi> (1894). Il s’intéresse principalement au mysticisme de <hi rend="i">Parsifal</hi>. Il ne cherche pas à retrouver la puissance wagnérienne dans ses textes mais plutôt une musicalité dont il fixe lui-même les formes dans <hi rend="i">L’art poétique</hi> en 1874. On se reportera à l’article d’Eric Leclerc dans le <hi rend="i">Dictionnaire encyclopédique Richard Wagner</hi>. [NdE]</note></p>
         </div>
+        <!--
         <div>
           <head>Les fêtes de Bayreuth</head>
           <p>en 1886 (j)</p>
@@ -1284,6 +1288,7 @@
           <p>4<space rend="tab">    </space>flûtes, 6 clar. et clar.-b., 5 hautb. et cor angl.</p>
           <p>5<space rend="tab">    </space>bassons et contre-basson, 9 cors, 4 tromp., 4 tromb., 1 tuba, 4 harpes, 2 paires de timbales,</p>
         </div>
+        -->
         <div>
           <head>Notes sur la musique wagnérienne en les œuvres musicales françaises en 1885-1886<note resp="author">Voir dans les deux précédents numéros de la <hi rend="i">Revue</hi>, les notes sur la peinture et la littérature wagnérienne. [NdA]</note><note resp="editor">Le dernier volet sur l’art wagnérien est consacré à la musique wagnérienne après la peinture et la littérature. Il comporte deux parties (voir la note n° 54). C’est l’occasion de retracer la naissance des arts et la définition de chacun de leurs domaines respectifs comme Wagner l’avait fait dans <hi rend="i">L’Œuvre d’art de l’avenir</hi> et <hi rend="i">Opéra et Drame</hi>. L’histoire de la musique est marquée par deux figures qui annoncent Wagner : Bach et Beethoven. Ces deux figures marquent tous les wagnériens ; on les retrouve chez Suarès, Romain Rolland et bien d’autres. La seconde partie de l’article parut dans le numéro de septembre 1886. [NdE]</note>.</head>
           <p rend="right">La musique, dit-on, ne doit pas peindre, mais exprimer des sentiments ; et l’on fait pour le prouver de beaux raisonnements.</p>
