@@ -24,11 +24,21 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher> ?</publisher>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2014"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/guyau_art.xml</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/guyau_art/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/guyau_art.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/guyau_art.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/guyau_art.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/guyau_art.epub</idno>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -784,7 +794,7 @@
             <l>Et j’ai dit à mes yeux qui lui trouvaient des charmes :</l>
             <l> « Ailleurs tous vos regards, ailleurs toutes vos larmes ;</l>
             <l rend="i">Aimez ce que jamais on ne verra deux fois ! »</l>
-            . . . . . . . . . . . . . . .  . . . . . . . .  . . . . . . .
+            <l>. . . . . . . . . . . . . . .  . . . . . . . .  . . . . . . .</l>
             <l>Vivez, froide nature, et revivez sans cesse...</l>
             <l>Plus que tout votre règne et que ses splendeurs vaines,</l>
             <l rend="i">J'aime la majesté des souffrances humaines ;</l>
@@ -987,7 +997,7 @@
           <quote>
             <l>Oui, oui, tu le savais et que dans cette vie</l>
             <l>Rien n’est bon que d’aimer, n’est vrai que de souffrir.</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>      
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
             <l>Ce que l’homme ici-bas appelle le génie,</l>
             <l>C'est le besoin d’aimer ; hors de là tout est vain.</l>
             <l>Et, puisque tôt ou tard l’amour humain s’oublie,</l>
@@ -1040,7 +1050,7 @@
           <quote>
             <l>Qu'est-ce donc que ce monde, et qu’y venons-nous faire,</l>
             <l>Croyez-moi, la prière est un cri d’espérance !</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
           </quote>
           <p>Et cette prière de Musset est autrement profonde et « moderne » que les oraisons placides de Lamartine :</p>
           <quote>
@@ -1054,8 +1064,8 @@
             <l>Bramah, Jupiter ou Jésus,</l>
             <l>Vérité, justice éternelle,</l>
             <l>Vers toi tous les bras sont tendus.</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
             <l>Ta pitié dut être profonde,</l>
             <l>Lorsqu’avec ses biens et ses maux,</l>
             <l>Cet admirable et pauvre monde</l>
@@ -1070,8 +1080,8 @@
             <l>Est indigne de t’approcher,</l>
             <l>Il fallait laisser la nature</l>
             <l>T'envelopper et te cacher.</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
             <l>Si la souffrance et la prière</l>
             <l>N'atteignent pas ta majesté,</l>
             <l rend="i">Garde ta grandeur solitaire.</l>
@@ -1228,13 +1238,13 @@
           <quote>
             <l>Après t’avoir montré l’atome (<hi rend="i">l’homme</hi>) outrageant tout,</l>
             <l>Il faut bien te montrer la <hi rend="i">grande ombre</hi> debout<note resp="author"><hi rend="i">L'Ane</hi>, p.132.</note>.</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
             <l>Comment dire : la vie est cela ; la vertu</l>
             <l>Est cela ; le malheur est ceci : — qu’en sais-tu ?</l>
             <l>Où sont tes poids ? Comment peser des phénomènes</l>
             <l>Dont les deux bouts s’en vont bien loin des mains humaines,</l>
             <l>Perdus, l’un dans la <hi rend="i">nuit</hi>, et l’autre dans le <hi rend="i">jour</hi> ?</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
             <l>. . . . . . . . . . . .  . . . . Voici les astres.</l>
             <l>Autour de tes bonheurs, autour de tes désastres,</l>
             <l>Autour de tes serments à bras tendus prêtés,</l>
@@ -1243,7 +1253,7 @@
             <l>Les dragons sidéraux s’accroupissent et rêvent</l>
             <l>Sur toi, muets, fatals, sourds et tu te sens nu</l>
             <l>Sous la <hi rend="i">prunelle d’ombre</hi> et sous <hi rend="i">l’œil inconnu</hi>.</l>
-            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l> 
+            <l>. . . . . . . . . . . .  . . . . . . . . . . .</l>
             <l>L'univers met sur toi. dans l’espace vermeil,</l>
             <l>La nuit, ce va-et-vient mystérieux et sombre</l>
             <l>De flambeaux descendant, montant, marchant dans l’<hi rend="i">ombre</hi><note resp="author"><hi rend="i">L'Ane</hi>, p. 139, 140, 135, 136.</note>.</l>
@@ -2091,7 +2101,7 @@
             <l>Ni rien aliéner de l’avenir commun. . . .</l>
             <l>Le peuple souverain de lui-même, et chacun</l>
             <l>Son propre roi ! . . .</l>
-             
+            
             <l>Quoi ! L'homme que voilà qui passe, aurait mon âme !</l>
             <l>Honte ! il pourrait demain, par un vote hébété,</l>
             <l>Prendre, prostituer, vendre ma liberté !</l>
