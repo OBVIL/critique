@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Considérations sur quelques écoles poétiques contemporaines</title>
+        <author key="Bouchaud, Pierre de (1862-1925)">Pierre de Bouchaud</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et édition TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bouchaud_considerations-ecoles-poetiques/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/bouchaud_considerations-ecoles-poetiques.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/bouchaud_considerations-ecoles-poetiques.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/bouchaud_considerations-ecoles-poetiques.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/bouchaud_considerations-ecoles-poetiques.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Pierre de Bouchaud</author>, <title>Considérations sur quelques écoles poétiques contemporaines et sur les tempéraments à apporter à certaines règles de la prosodie française</title>, <pubPlace>Paris</pubPlace>, <publisher>E. Bouillon</publisher>, <date>1903</date>, 31 p. Source : <ref target="https://archive.org/details/considrationss00boucuoft">Internet Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1903"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="Introduction">
+        <p><pb n="3"/>La poésie accomplit actuellement une évolution fort intéressante. D’une part, voici le groupe des poètes immuablement attachés aux règles classiques et parnassiennes ; d’autre part, voici les novateurs qui, avec M. Adolphe Boschot, réclament quelques adoucissements à la sévère intransigeance des règles prosodiques ; enfin, voici les partisans du vers libre qui, avec MM. Kahn et Vielé-Griffin, parmi bien d’autres, demandent l’entier rejet de règles imposant aux vers un nombre déterminé de pieds.</p>
+      <p>À vrai dire, ces divergences ne sont pas <pb n="4"/>nouvelles. Il y eut de tout temps, en matière poétique, les novateurs et les conservateurs, les anciens et les modernes. Dans la <hi rend="i">Vraie Histoire comique de Francion</hi>, composée par Charles Sorel, sieur de Souvigny, vers 1622, on trouve ce passage caractérisant la lutte de Malherbe contre Ronsard et son école :</p>
+      <quote>
+        <p>« Un poète récita de ses vers et je pris beaucoup de plaisir à voir sa contenance… Or, les poètes présents émirent de grosses disputes pour beaucoup de choses de néant où ils s’attachoient et laissoient en arrière celles d’importance. Leurs contentions étoient s’il falloit dire : <hi rend="i">il eût été mieux</hi> ou <hi rend="i">il eût mieux été</hi> ; de <hi rend="i">scavants hommes</hi> ou les <hi rend="i">scavants hommes</hi> ; s’il falloit mettre en rime <hi rend="i">main</hi> avec <hi rend="i">chemin</hi> (déjà !), saint <hi rend="i">Cosme</hi> avec <hi rend="i">royaume, traits</hi> avec le mot <hi rend="i">près</hi>. Et cependant ceux qui soutenoient que c’étoient autant de fautes, en faisoient de bien moins supportables, car ils faisoient rimer <hi rend="i">périssable</hi> avec <hi rend="i">fable, étoffer</hi> avec <hi rend="i">enfer</hi>. Toutes leurs opinions étoient puisées de la boutique de quelque rêveur qu’ils suivoient en tout et partout… Ils vinrent à dire beaucoup de mots anciens, qui leur sembloient fort bons et très utiles en notre langue et dont ils n’osoient pourtant se servir, parce que l’un d’entre eux<note resp="author">Malherbe.</note> <pb n="5"/>qui étoit leur coryphée, en avoit défendu l’usage. Tout de même, en disoient-ils beaucoup de choses louables, nous renvoyant encore à ce maître ignare dont ils prenoient aussi les œuvres à garant, lorsqu’ils vouloient autoriser quelqu’une de leurs fantaisies. Enfin, il y en eut un, plus hardi que tous, qui conclut qu’il falloit mettre en règne, tout ensemble, des rimes anciennes que l’on renouvelleroit, ou d’autres que l’on inventeroit, selon que l’on connoitroit qu’elles seroient nécessaires. »</p>
+      </quote>
+      <p>J’arrête ici la citation. Aussi bien est-elle probante. Elle témoigne, une fois de plus, des discussions qui ont régné, par instants, dans le camp des Muses, discussions qui, de nos jours, se reproduisent de nouveau. On aurait tort, d’ailleurs, de traiter avec indifférence de semblables questions. Il y va de l’intérêt de la poésie. L’intransigeance, d’une manière ou d’une autre, est toujours un défaut de compréhension. Il ne suffit pas de juger en dernier ressort sans vouloir prendre part aux débats ; mais il convient de se pénétrer à fond des systèmes qui militent entre eux. Après quoi il sera aisé de conclure.</p>
+      </div>
+      <div>
+        <head>I</head>
+        <p><pb n="6"/>Les Parnassiens proscrivent toute innovation. Ils insistent sur l’inanité, je ne dirai pas des réformes, mais des fléchissements, des adoucissements aux préceptes de la rime. Certes, je comprends très bien qu’on n’aime pas les vers libres ; moi-même, tout en m’y intéressant fort, je me sens incapable d’en user. Question de nature peut-être, et, à coup sûr, de métier aussi… Mais qu’on n’admette pas certains tempéraments à l’inflexibilité de ces règles ; qu’on n’accorde pas, à des questions de césure ou d’hiatus, certaines licences que, d’ailleurs, les Grands de la Pléiade, Ronsard, du Bellay, Baïf, Jodelle, Ponthus de Thyard et d’autres, moins illustres, mais honorablement connus pourtant, avaient érigées pour ainsi dire en règle, voilà ce qui me passe. Le παντα ρει universel englobe la poésie comme la vie elle-même. Il faut adapter une règle aux circonstances et au moment. Sous peine de répétitions et de redites perpétuelles on doit continuer la marche en avant. Toute stagnation est synonyme de mort. Pourquoi l’évolution du vers ne serait-elle pas indéfinie comme le progrès lui-même ? Rien jamais, ici-bas, ne touche à son terme. <pb n="7"/>Tout est au contraire sujet à varier, en poétique aussi bien qu’en matière industrielle. Chaque maître apporte une pierre à l’édifice apollonien… Le maître mort, l’édifice n’en continue pas moins à s’élever… Ce sont seulement d’autres ouvriers et d’autres architectes qui continuent l’ouvrage commencé.</p>
+        <p>En dernière analyse, Hugo et le Parnasse, ne peuvent que se voir refléter dans les personnes les plus distinguées de leurs élèves. Or, le reflet n’est qu’une réplique ; de là, le manque complet d’originalité chez ces disciples. Ne vaut-il pas mieux se reporter directement à Hugo, Hérédia, Leconte de Lisle, que de parcourir les œuvres des <hi rend="i">alumni</hi> engagés sur la même voie que celle du chef de file respectif, et rééditant, moins bien, les mêmes choses ? On me dira : L’originalité est rare. Je répondrai : En êtes-vous bien sûrs ! De fait, quand on se tient au courant, on est frappé de la vigueur et de la personnalité de certains talents.</p>
+        <p>Mais poursuivons l’exposé de notre enquête. Nous venons de parler des intransigeants de la poésie dont M. Sully Prudhomme s’est fait le porte-parole dans son <hi rend="i">Testament poétique</hi>, bien qu’il paraisse aujourd’hui témoigner quelque indulgence aux innovations dont je vais m’occuper. Or donc, les intransigeants de la poésie <pb n="8"/>sont férus de la rime riche à un degré extraordinaire. Pour eux, un poète à rimes insuffisantes ne vaut rien, témoin Musset, que beaucoup de Parnassiens, — sinon peut-être tous, — n’aiment point. Poète, Musset, jamais de la vie ! Il ne fait que de mauvais vers ! C’était, d’ailleurs aussi, le jugement de Baudelaire et Gautier. On peut regretter que leurs descendants le propagent. Au surplus, c’est leur affaire, et cela ne fait aucun mal à la gloire de Musset.</p>
+        <p>Quand les Parnassiens arrivèrent, ils furent reçus fraîchement par leurs aînés, un peu à la façon dont ils se conduisirent eux-mêmes à l’endroit des Symbolistes. C’est qu’une école officielle n’aime jamais à voir s’élever auprès d’elle une autre école menaçante pour sa sécurité. M. Gustave Kahn, dans sa remarquable étude sur le <hi rend="i">Parnasse et l’Esthétique parnassienne</hi>, a montré, avec la plus grande clarté, comment, au lieu de continuer l’évolution romantique, les Parnassiens l’ont arrêtée. Ils avaient reçu le feu sacré des mains de leurs aînés. Mais ce feu, à cause d’un aliment insuffisant, finit par jeter un éclat de plus en plus pâle. Les mânes de Chénier le préserveront-ils ? Qu’ils soient alexandrins ou élégiaques, les élèves Parnassiens sauront-ils fournir au foyer blêmissant de leur Muse l’huile vierge nécessaire pour lui redonner une nouvelle vigueur ? On peut se le demander.</p>
+      </div>
+      <div>
+        <head>II</head>
+        <p><pb n="9"/>M. Gustave Kahn caractérise très heureusement en ces termes l’<hi rend="i">École symboliste</hi> :</p>
+        <p><quote>« Le Parnasse est la dernière période du Romantisme. Le Symbolisme est la résultante du Romantisme en son évolution. Le Romantisme a donné avec le Parnasse sa floraison dernière, en sa forme maintenue, et il s’est mué en Symbolisme en léguant au Symbolisme son appétit de nouveauté, sa recherche d’un coloris neuf, sa tendance à l’évolution rythmique, c’est-à-dire son essence même. »</quote> Et, qu’on le veuille ou non, la chose est très vraie. On a beaucoup ridiculisé les Symbolistes. On ne leur a épargné ni le mépris ni les injures. En réalité, on a été souverainement injuste à leur endroit. Et je suis d’autant plus à mon aise pour le déclarer, que je n’appartiens pas à leur groupe. Mais je n’apprécie pas moins hautement leurs tentatives dont plusieurs ont abouti à un éclatant résultat. La plupart du temps, d’ailleurs, ceux qui attaquent les Symbolistes ne les ont pas lus. Ils ignorent les <hi rend="i">Palais nomades</hi> de M. Gustave Kahn qui contiennent des poèmes d’un sens exquis, tels ces <hi rend="i">Paysages de Provence</hi> que je ne puis parcourir sans émotion, malgré qu’en <pb n="10"/>vers libres. Ils ignorent Verhaeren et ses <hi rend="i">Villes Tentaculaires</hi>, ses adorables <hi rend="i">Petites Légendes</hi> et son récent recueil, <hi rend="i">les Forces Tumultueuses</hi>, tout plein d’un bruit de villes, d’un choc de métaux et d’activité industrielle, mais où l’on trouve aussi des vers comme ceux-ci :</p>
+        <quote>
+          <l>Dès le matin, par mes grandes routes coutumières</l>
+          <l>       Qui traversent champs et vergers,</l>
+          <l>       Je suis parti clair et léger</l>
+          <l>Le corps enveloppé de vent et de lumière.</l>
+          <l/>
+          <l>Je vais je ne sais où ; je vais, je suis heureux…</l>
+          <l/>
+          <l>Les bras fluides et doux des rivières m’accueillent ;</l>
+          <l>       Je me repose et je repars</l>
+          <l>       Avec mon guide : le hasard</l>
+          <l>Par des sentiers sous bois dont je mâche les feuilles.</l>
+        </quote>
+        <p>Les mêmes détracteurs des Symbolistes affectent surtout un dédain suprême pour Vielé-Griffin dont les <hi rend="i">Cygnes</hi>, la <hi rend="i">Chevauchée d’Yeldis</hi> et le dernier livre, l’<hi rend="i">Amour sacré</hi>, avec ses légendes de <hi rend="i">Sainte Agnès</hi> ou de <hi rend="i">Sainte Julie</hi> sont de pures beautés. D’Henri de Régnier, ils n’admettent que ses vers réguliers, alors que les pages des <hi rend="i">Roseaux de la Flûte</hi>, d’<hi rend="i">Aréthuse</hi>, de <hi rend="i">Tel qu’en songe</hi>, de la <hi rend="i">Corbeille des heures</hi> et des poèmes comme le <hi rend="i">Sang de Marsyas</hi> et <hi rend="i">Pan</hi>, parmi bien d’autres de la <hi rend="i">Cité des Eaux</hi>, <pb n="11"/>contiennent des strophes dans lesquelles le défaut de rythme classique ne diminue pas un instant l’harmonie et l’inspiration.</p>
+        <p>Toutes ces œuvres, pour n’être pas rimées, n’en ont pas moins une poésie charmante, si, par ce nom, l’on entend le don d’exprimer d’une manière rare des idées, ou de décrire des paysages au moyen d’images choisies ; et aussi, selon la belle expression de Diderot : tout ce qu’il y a d’élevé, de touchant dans une œuvre d’art, dans le caractère ou la beauté d’une personne ou même dans une production naturelle. Personne ne l’a montré avec plus de clarté que M. Léon Vannoz en deux études intéressantes sur <hi rend="i">la Prose et la Poésie</hi><note resp="author">Cf. <hi rend="i">La Revue Bleue</hi>, n<hi rend="sup">os</hi> du 24 mai et du 6 juin 1903.</note>.</p>
+        <p>Quand on se sert du terme de poésie, on le fait souvent avec une confusion regrettable. Dans notre langue, le vers et la prose ne sont pas toujours deux langages différents. Il n’y a pas que les poèmes qui soient poétiques. À ce compte-là tous les vers devraient l’être. Or, on sait assez combien de poèmes n’ont de vers que le nom. Ce n’est pas du nombre de syllabes que dépend la poésie. Certaines pages de Chateaubriand, de Jean-Jacques Rousseau, de Loti, <pb n="12"/>l’emportent de beaucoup, à cet égard, sur de pénibles assemblages de rimes. Si l’on est charmé, à juste titre, par des vers comme ceux-ci :</p>
+        <quote>
+          <l><hi rend="i">La fille de Minos et de Pasiphaé</hi>,
+</l>
+        </quote>
+        <p rend="noindent">ou</p>
+        <quote>
+          <l><hi rend="i">L’effigie aux yeux clos de quelque grand destin</hi> ;
+</l>
+        </quote>
+        <p rend="noindent">on ne peut qu’être désagréablement affecté par le vers suivant :</p>
+        <quote>
+          <l>Ô père de famille, ô poète, je t’aime !</l>
+        </quote>
+        <p rend="noindent">ou encore,</p>
+        <quote>
+          <l>Elle est charmante, elle est charmante, elle est charmante.</l>
+        </quote>
+        <p>Gardons-nous de condamner trop vite ce que nous ne comprenons pas toujours. <quote>« N’ayons pas ce dédain qui, chez un particulier comme chez un peuple, marque ordinairement peu de lumière »</quote>, a dit excellemment Raynal dans son <hi rend="i">Histoire philosophique</hi>.</p>
+        <p>Le dédain est, du reste, une arme ridicule. Il ne faut pas traiter comme une chose sans importance l’école des Symbolistes. Elle a produit de belles œuvres. Elle peut parfaitement en produire de nouvelles encore. Il y a place pour tout le monde sous le soleil. Le seul inconvénient du Symbolisme, c’est qu’il réclame, de la part de ses <pb n="13"/>adeptes, un talent spécial, cette sorte d’aptitude à « l’évolution rythmique » dont il vient d’être parlé. Or, cette aptitude, tout le monde ne l’a pas… Et dans ce cas-là, sous peine d’un piteux échec, il est inutile de chercher à l’acquérir. <quote><hi rend="i">Sunt quos curriculo…</hi></quote></p>
+        <p>Il en est qui avec le vers libre, avec le vers sans les entraves prosodiques coutumières, sentent leur souffle grandir ainsi que l’inspiration. J’estime, pour ma part, que n’importe qui peut apprendre à rimailler tant bien que mal, selon les règles traditionnelles, mais non point à composer des poèmes comme ceux de Kahn, de Régnier ou de Vielé-Griffin. C’est qu’il ne s’agit pas là, comme on s’est plu à le répéter trop souvent, d’une simple question de phrases à écrire en lignes plus ou moins égales, mais bien de l’inspiration même. La rime, à la rigueur, remplace jusqu’à un certain point l’inspiration ou le talent. Or, il n’en est pas de même des poèmes en vers libres où l’intérêt doit porter, en quelque sorte, tout le poids de l’attention qui n’est ni bercée ni distraite par la cadence des sons rimants.</p>
+        <p>Mais il en est aussi pour qui le moule exact du vers est la source même de leur talent et la raison même d’écrire. Ceux-là ne regardent pas le Parnasse de travers. Et pourtant, <pb n="14"/>l’intransigeance de ses représentants les effraye. Ils se demandent si l’on ne pourrait pas apporter aux antiques règles certains tempéraments capables, tout en respectant la charpente du vers, d’améliorer, de renouveler, d’enrichir l’inspiration poétique par le déplacement de la césure, l’emploi de rimes nouvelles, l’inobservance des rimes alternatives, enfin par l’admission de certains hiatus, si heureusement employés jadis, au temps de Ronsard.</p>
+      </div>
+      <div>
+        <head>III</head>
+        <p>Après la lettre écrite à cette occasion par M. Adolphe Boschot au secrétaire perpétuel de l’Académie française et l’intéressante brochure que viennent de publier MM. Poinsot et Normandy sur les tendances de la poésie nouvelle, j’insisterai à mon tour sur des innovations nécessaires qui tendent à élargir le domaine poétique, qui sont acceptées par des poètes de grand talent et dont l’emploi est fort justifiable, pourvu qu’il se fasse avec méthode, tact et goût, afin de garder à la pensée sa pleine valeur et sa juste expression, ce respect du bien dire.</p>
+        <div>
+          <head>A. — <hi rend="i">Déplacement de la césure dans l’alexandrin.</hi></head>
+          <p>Le déplacement de la césure peut, sans <pb n="15"/>démembrer le vers, créer des rythmes nouveaux. C’est donc une innovation des plus importantes qu’il faut préconiser parce qu’elle respecte le nombre, tout en modifiant la structure habituelle des mètres, surtout de l’alexandrin.</p>
+          <p>L’alexandrin français fut d’abord césuré à six, indifféremment avec une césure féminine ou masculine. Au <num>xvi<hi rend="sup">e</hi></num> siècle, Jean Le Maire proscrivit cette dernière. Depuis lors la coupe du vers en 6 + 6 fut rigoureusement exigée. Les romantiques, au <num>xvi<hi rend="sup">e</hi></num> siècle, portèrent une première atteinte à la césure en décrétant qu’il y avait des partis heureux à tirer de son déplacement. À la vérité, Racine dans les <hi rend="i">Plaideurs</hi>, Corneille, parfois même Boileau, s’étaient laissés aller de temps à autre à ce déplacement de la césure, mais sans se rendre compte de l’avantage et de l’utilité d’une telle licence. Chénier en comprit le premier toute la portée. Il usa avec modération et souvent avec un bonheur très grand du déplacement de la césure. Hugo s’en servit d’une façon constante et lui dut d’admirables effets poétiques. Banville, Glatigny, Mendès, en dépit des dénégations de Gautier et de Leconte de Lisle, adoptèrent cette méthode qui tend de nos jours à se généraliser de plus en plus.</p>
+          <p>Le déplacement de l’antique césure démontre, <pb n="16"/>en effet, que beaucoup d’alexandrins reçoivent une double césure. Le vers peut alors se diviser en trois parties égales ou inégales. Il peut notamment se présenter plus particulièrement sous trois types.</p>
+          <p><hi rend="i">a</hi>) 3 + 5 + 4. Ce premier type n’ayant pas de syllabe forte à la médiane détonne parmi les autres. Témoin ce vers de Banville :</p>
+          <quote>
+            <l>Courant éperdûment dans les vertes campagnes</l>
+            <l><hi rend="i">De la Thrace</hi> | <hi rend="i">avec les Naïa</hi> | <hi rend="i">des ses compagnes</hi>.</l>
+          </quote>
+          <p>Le premier vers est un 6 + 6 absolument classique. Le second (3 + 5 + 4) ayant une deuxième césure enjambante, voit sa mesure quelque peu rompue, à cause de la pose, après l’atone, qui fait tomber l’e muet sur <hi rend="i">Naïades</hi>. Néanmoins le vers ainsi coupé est parfaitement admissible lui-même. Mais venant après le 6 + 6 il change soudain la mesure, et comme on a le premier dans l’oreille, on scande involontairement :</p>
+          <quote>
+            <l><hi rend="i">De la Thrace avec les</hi> | <hi rend="i">Naïades ses compagnes</hi></l>
+          </quote>
+          <p rend="noindent">ce qui est horrible !</p>
+          <p>Cet inconvénient ne se produirait pas si le poème entier était composé dans ce même rythme de 3 + 5 + 4.</p>
+          <p><hi rend="i">b</hi>) Le deuxième type (4 + 4 + 4) comporte trois <pb n="17"/>vers de quatre syllabes chacune. Il est très musical. Le balancement syllabique, trois fois répété, produit une sorte de cadence douce rappelant celle du décasyllabe, bâti sur le modèle de l’endécasyllabe italien ou espagnol. Mêlé à l’alexandrin bicésuré, il peut produire des effets variés par sa cadence capable de rompre la monotonie des tirades trop régulièrement hexamétrées.</p>
+          <p><hi rend="i">c</hi>) Citons comme exemple du troisième type (3 + 6 + 3) les vers suivants :</p>
+          <quote>
+            <l>La saison | des renoncules d’or, | la saison</l>
+            <l>Qui transfor | me en scintillant écrin | le gazon,</l>
+            <l>Reparaît ; les yeux baignés d’amour, elle éveille</l>
+            <l>La fourmi dans ses greniers blottie, et l’abeille</l>
+            <l>Attendant, sous l’abri tiède et clos, le moment</l>
+            <l>Où la fleur, dont le bouton hâtif pointe à peine,</l>
+            <l>Va s’unir, alourdie et pâmée, à l’amant.</l>
+          </quote>
+          <p>Ce rythme a de la cadence, une allure vive et sautillante, et, bien que la place, toujours la même, imposée aux césures, nécessite de nombreux enjambements, l’usage judicieux de ce mètre peut rendre de vrais services.</p>
+          <p>Il va sans dire, d’ailleurs, que le déplacement de la césure dans l’alexandrin, peut affecter nombre d’autres formes que celles examinées ici. Le champ est grand ouvert aux poètes. À eux de <pb n="18"/>s’y avancer avec sagesse et prudence ; car toute exagération en pareille matière, loin d’aboutir au but cherché, le renouvellement du rythme, ne ferait, au contraire, que nuire à l’inspiration de la Muse.</p>
+        </div>
+        <div>
+          <head>B. — <hi rend="i">Inobservance de la rime aux yeux.</hi></head>
+          <p>Le vers étant une sorte particulière de musique doit être fait plus pour l’oreille que pour l’œil, quoiqu’en puissent prétendre les auteurs des traités de versification exigeant que, « pour la satisfaction de l’œil, les consonnes muettes qui suivent la voyelle rimante soient identiques (ou prétendues équivalentes) dans les deux mots à la rime<note resp="author">Cf. <hi rend="i">Modestes observations sur l’art de versifier</hi>, de Clair Tisseur.</note>. »</p>
+          <p>Or, considérons que les exigences de la rime dite correcte, proviennent d’une époque où les consonnes finales n’étaient pas encore devenues muettes. La prononciation des consonnes finales existait autrefois. Palsgrave remarquait qu’au <num>xvi<hi rend="sup">e</hi></num> siècle une virgule, un repos, demandait la prononciation de la consonne finale. On la prononçait toujours à la fin du vers. Peu à peu, on perdit cette habitude dans les finales des vers et des mots. Mais, comme on <pb n="19"/>avait exigé leur identité dans les deux mots rimants lorsqu’elles se prononçaient, on continua de les exiger lors même qu’elles ne se prononçaient plus.</p>
+          <p>Les poètes du <num>xvi<hi rend="sup">e</hi></num> siècle observèrent donc exactement la règle de la rime en rapport avec la prononciation, en faisant rimer <hi rend="i">draps</hi> et <hi rend="i">sacs, aspics</hi> et <hi rend="i">pis</hi> (Cf. Marot, Le Maire), ce qui était parfaitement logique, puisque ces mots se prononçaient <hi rend="i">drass</hi> et <hi rend="i">sass, aspiss</hi> et <hi rend="i">piss</hi>. Cette coutume dura jusqu’à Malherbe, qui, sans se préoccuper de la non-prononciation des consonnes finales, posa le principe de la rime aux yeux. Racan ayant osé soutenir, contre le fougueux redresseur des prétendus torts de la prosodie française, qu’on devait rimer pour les oreilles, fut traité d’hérétique par lui. Heureusement que l’auteur des <hi rend="i">Bergeries</hi> ne s’en émut guère et continua de rimer indifféremment aux terminaisons en <hi rend="i">ent</hi> et en <hi rend="i">ant</hi>, sans faire pour cela des vers moins bons. Toutefois, depuis Malherbe, il fut donc décrété, malgré qu’on eût cessé dès longtemps de prononcer les consonnes finales, que l’identité de la consonne muette suffirait pour constituer la rime aux yeux, <hi rend="i">l’identité de la consonne qui la précède</hi> n’étant point exigée. Et depuis lors, si l’on ne peut faire rimer <hi rend="i">désert</hi> avec <hi rend="i">mer</hi>, on peut faire rimer <pb n="20"/>(je me demande pourquoi), <hi rend="i">déserts</hi> avec <hi rend="i">mers</hi> !</p>
+          <p>Voici d’ailleurs ce que dit sur la question l’excellent poète Catulle Mendès :</p>
+          <quote>
+            <p>« Je ne pense pas que l’on doive répudier tout à fait les rimes, récemment proposées du pluriel au singulier. Il est certain qu’un <hi rend="i">s</hi> ou un <hi rend="i">x</hi> de plus ou de moins ne change pas le son d’une syllabe, dans les cas, cela s’entend, où il ne se heurte point, par suite d’un rapide rejet, à une voyelle du vers suivant. Tout en éprouvant une instinctive répugnance pour cette sorte de rime, qui d’ailleurs n’amène guère d’effets imprévus — car la rime de <hi rend="i">voile</hi> avec <hi rend="i">étoiles</hi> n’est pas moins banale que celle de <hi rend="i">voile</hi> avec <hi rend="i">étoile</hi>, — je reconnais que ma répugnance n’a point de motif qui soit valable d’une façon générale ; <hi rend="i">il me serait impossible de rimer ainsi ; cela n’empêche point que rimer ainsi ne soit loisible à tous les autres.</hi> »</p>
+          </quote>
+          <p>Je crois donc raisonnable de réagir contre une règle absolument illogique. Et je ne vois pas pourquoi l’on n’abandonnerait point, de temps en temps, la rime à l’œil. Cela ne peut vraiment choquer les gens de goût, et le souffle poétique, loin d’en être diminué, y peut trouver matière à un élan que la torture des rimes entrave quelquefois.</p>
+          <p><pb n="21"/>Les vers suivants ne sont-ils pas la preuve de ce que j’avance là ?</p>
+          <quote>
+            <l>Ô porte du jardin qui grince sur ses gonds</l>
+            <l>Et s’écarte en chassant des graviers autour d’elle,</l>
+            <l>Cependant qu’apparaît, plein de lys et d’ombelles,</l>
+            <l>Le verger vert avec son odeur d’estragon.</l>
+            <l>(C<hi rend="sup">esse</hi> <hi rend="sc">de Noailles</hi>).</l>
+          </quote>
+          <p>Franchement le lecteur et l’auditeur sont-ils choqués ? Les première et quatrième rimes : <hi rend="i">gonds</hi> au pluriel, <hi rend="i">estragon</hi> au singulier, ne sont-elles pas aussi riches que si ce dernier mot était terminé par un <hi rend="i">s</hi> ? J’ai lu souvent des vers dont les auteurs, en pareille occurrence, ne craignaient pas d’offenser la grammaire. Ils auraient, par exemple, bravement écrit :</p>
+          <quote>
+            <l>Le verger vert avec son odeur d’estragons —</l>
+          </quote>
+          <p rend="noindent">(<hi rend="i">s</hi> à la fin du mot) ; à moins que, par égard pour la rime aux yeux, ils n’aient découvert quelque chose de ce genre :</p>
+          <quote>
+            <l><hi rend="i">Le verger vert et ses odorants estragons</hi>,</l>
+          </quote>
+          <p rend="noindent">composant ainsi un vers absolument mauvais, tout en croyant respecter la Muse.</p>
+          <p>On peut raisonner de façon analogue à <pb n="22"/>propos des deuxième et troisième rimes : <hi rend="i">elle</hi> et <hi rend="i">ombelles</hi>.</p>
+          <p>On entend si bien cette porte du jardin qui, en s’ouvrant, balaie les graviers que le vent ou les pluies accumulent toujours contre son vantail. Et cette porte où conduit-elle ? Au verger, plein <hi rend="i">de lys et d’ombelles</hi>, au verger où poussent dans l’herbe humide les agarics, les bolets roses, les panais aux thyrses longs, les fenouils, l’angélique, l’anis, la ciguë couronnée de fleurs blanches. Voilà ce que signifie pour nous ce verger plein d’<hi rend="i">ombelles</hi>, ce pluriel qui étend, élargit, amplifie la pensée du poète, en évoquant, non pas seulement une simple fleurette, une simple ombellifère, ce qu’eut réalisé <hi rend="i">ombelle</hi> au singulier, mais bien l’ensemble d’une flore agreste, éclose en même temps, d’une flore s’enchevêtrant, s’enlaçant, croissant en liberté sous les arbres à fruits du lieu que les latins qualifiaient joliment de <hi rend="i">viridarium</hi>, cet enclos charmant, si insuffisamment dénommé : verger.</p>
+        </div>
+        <div>
+          <head>C. — <hi rend="i">Inobservance des alternances de rimes.</hi></head>
+          <p>Un principe général exprimé par les versificateurs est celui-ci : « Un vers terminé par une rime masculine ne peut être contigu à un vers terminé par une autre rime de même nature. » <pb n="23"/>Or, là-dessus encore il faut s’entendre. Les premières assonances qui parurent dans la poésie française sont masculines. La cantilène de <hi rend="i">sainte Eulalie</hi> (<num>ix<hi rend="sup">e</hi></num> siècle), la <hi rend="i">Vie de saint Léger</hi> (<num>x<hi rend="sup">e</hi></num> siècle), le roman de Brut (<num>xii<hi rend="sup">e</hi></num> siècle), les œuvres de Marie de France (<num>xii<hi rend="sup">e</hi></num> siècle), en font foi. Au <num>xiii<hi rend="sup">e</hi></num> siècle, Rutebœuf n’emploie de rimes alternées que dans le poème intitulé : <hi rend="i">la Desputoison de Charlot et du Barbier</hi> ; le reste du temps il se sert indistinctement de rimes masculines ou féminines, sans tenir compte le moins du monde de l’alternance.</p>
+          <p>À mesure qu’on s’approche du <num>xiv<hi rend="sup">e</hi></num> siècle, on prend l’habitude d’user des rimes alternées dans les pièces à chanter, comme on peut le voir en parcourant les poésies de Charles d’Orléans, ou celles, plus anciennes, de ce <hi rend="i">Colin Muset</hi>, dont M. Bédier nous a donné une savante édition dans sa thèse latine<note resp="author"><hi rend="i">De Nicolao Museto</hi> (<hi rend="i">gallice</hi> : Colin Muset). Paris, Bouillon.</note>. Quand la pièce ne doit pas être chantée, des rimes de même nature se succèdent le plus souvent. Villon, Marot, Louise Labé, agissent ainsi. De ce qui précède, on peut donc inférer qu’à l’origine la loi de la succession des rimes a été dictée par la musique, et ce qui porte à croire cette assertion, c’est la phrase de Joachim du Bellay : <pb n="24"/><quote>« Il y en a qui fort superstitieusement entremeslent les vers masculins avec les vers féminins… <hi rend="i">afin que plus facilement on les peust chanter sans varier la musique pour la diversité des mesures qui se trouveroient en la fin des vers</hi>. »</quote></p>
+          <p>Ronsard, qu’on ne peut jamais trop consulter, s’exprime ainsi sur la rime dans son <hi rend="i">Art poétique</hi> :</p>
+          <p><quote>« La Ryme n’est autre chose qu’une consonance et cadance de syllabes, tombantes sur la fin des vers, laquelle je veulx que tu observes tant aux masculins qu’aux féminins, de deux entières et parfaictes syllabes, ou pour le moins d’une aux masculins pourveu qu’elle soit résonante et d’un son entier et parfaict. »</quote> Mais nulle part, il ne promulgue une règle à suivre sur l’alternance des rimes. Il usa souvent de licence à cet égard. Tels ces vers :</p>
+          <quote>
+            <l>Plus belle que Vénus, tu marches :</l>
+            <l>Ton front est beau, tes yeux sont beaux,</l>
+            <l>Qui flambent sous deux noires arches,</l>
+            <l>Comme deux célestes flambeaux,</l>
+            <l>D’où le brandon fut allumé,</l>
+            <l>Qui tout le cœur m’a consumé,</l>
+            <l/>
+            <l>Ce fut ton œil, douce mignonne,</l>
+            <l>Qui d’un regard traistre escarté</l>
+            <l>Les miens encores emprisonne</l>
+            <l>Peu soucieux de liberté,</l>
+            <l><pb n="25"/><hi rend="i">Et qui me desroba, le cœur.</hi> </l>
+            <l rend="i">Pour le desseicher en langeur. </l>
+            <l>(<hi rend="i">Les Odes</hi>, II-8).</l>
+          </quote>
+          <p>Il ne s’agit pas d’ailleurs de faire succéder aveuglément une rime masculine à une rime féminine. La rime doit être en rapport avec le sentiment exprimé. Il y a des rimes féminines très douces. Il y en a de douces aussi parmi les rimes masculines, celles, par exemple, qui sont suivies d’une consonne qui se prononce, comme <hi rend="i">amour, sœur</hi> ; dans le cas contraire, les rimes masculines sont énergiques. Pourquoi dès lors obliger un auteur à employer une rime forte quand c’est d’une douce qu’il a besoin ? En dehors de la <hi rend="i">stance</hi> où l’ordre des rimes doit être toujours le même (la stance était une « forme musicale » autrefois), pourquoi faire toujours succéder une rime féminine à une rime masculine. C’est une habitude contractée par analogie avec des pièces chantées.</p>
+          <p>Voici par exemple le beau poème de Verlaine : <hi rend="i">En sourdine</hi> :</p>
+          <quote>
+            <l>Calmes dans le demi-jour</l>
+            <l>Que les hautes branches font,</l>
+            <l>Pénétrons bien notre amour</l>
+            <l>De ce silence profond.</l>
+            <l><pb n="26"/>Fondons nos âmes, nos cœurs</l>
+            <l>Et nos sens extasiés,</l>
+            <l>Parmi les vagues langueurs</l>
+            <l>Des pins et des arbousiers.</l>
+            <l/>
+            <l>Ferme tes yeux à demi,</l>
+            <l>Croise tes bras sur ton sein,</l>
+            <l>Et de ton cœur endormi</l>
+            <l>Chasse à jamais tout dessein.</l>
+            <l/>
+            <l>Laissons-nous persuader</l>
+            <l>Au souffle berceur et doux</l>
+            <l>Qui vient à tes pieds rider</l>
+            <l>Les ondes de gazon roux.</l>
+            <l/>
+            <l>Et quand, solennel, le soir</l>
+            <l>Des chênes noirs tombera,</l>
+            <l>Voix de notre désespoir,</l>
+            <l>Le rossignol chantera.</l>
+          </quote>
+          <p>Je prie de remarquer que le rythme et le charme de ces vers à seules rimes masculines ne sont ni moins remarquables ni moins doux ; qu’au contraire, peut-être, le poète dit mieux ce qu’il veut dire, en n’ayant pas le souci d’introduire deux vers en cheville pour placer à l’endroit voulu la rime dont il a besoin.</p>
+          <p>Quant à l’assonance, je n’en suis pas partisan à cause de l’imperfection qu’elle apporte aux <pb n="27"/>sonorités finales des vers réguliers. Et à son propos, M. Catulle Mendès a fait encore cette remarque judicieuse et définitive : <quote>« Elle peut, écho trop vague, tenir lieu de la rime dans les idiomes où l’accent, bien marqué, suffit à préciser la cadence ; il n’en saurait aller de même dans notre langue où la “longueur” et la “brièveté” des syllabes ne sont que rarement incontestables. »</quote></p>
+        </div>
+        <div>
+          <head>D. — L’hiatus.</head>
+          <p>Pour quelle raison le proscrire de notre poésie ? Je ne vois pas en quoi il est opposé au génie de la langue poétique. Toute la Pléiade en acceptait l’usage, et cela beaucoup plus souvent qu’on ne le pense communément. Par malheur on lit si peu les Maîtres du <num>xvi<hi rend="sup">e</hi></num> siècle qu’on ignore tout de leurs habitudes, spécialement en matière d’hiatus qu’ils ne proscrivirent jamais. Ronsard n’en dit pas un mot dans son <hi rend="i">Art Poétique</hi>.</p>
+          <p>Je me demande ce qu’on trouve de choquant à des vers comme ceux-ci :</p>
+          <quote>
+            <l>Pourquoi, farouche, fuis-<hi rend="i">tu outre</hi></l>
+            <l>Quand je veux approcher de toi ?</l>
+            <l>(<hi rend="sc">Ronsard</hi>).</l>
+            <l/>
+            <l><pb n="28"/>Elle (la Muse) a perpétué ta gloire…</l>
+            <l><hi rend="i">Et a</hi> fait égale aux dieux</l>
+            <l>L’éternité de ta mémoire.</l>
+            <l>(<hi rend="sc">Ronsard</hi>).</l>
+            <l/>
+            <l>Ce <hi rend="i">qui est</hi> ferme est par le temps détruit,</l>
+            <l>Et ce qui fuit au temps fait résistance.</l>
+            <l>(<hi rend="sc">Du Bellay</hi>).</l>
+            <l/>
+            <l>On donne à l’officier les droits de son office,</l>
+            <l>On donne au serviteur le gain de son service,</l>
+            <l><hi rend="i">Et au</hi> docte poète on donne le laurier.</l>
+            <l>(<hi rend="sc">Du Bellay</hi>).</l>
+          </quote>
+          <p>Je pourrais trouver des hiatus chez Jodelle, Belleau, Baïf et autres. Mais à quoi bon multiplier les citations ? En somme, ce n’est point parce que Malherbe et Boileau, avec leur minutie exagérée de régents du Parnasse, ont prohibé l’hiatus qu’on doit le rejeter. Il ne s’agit pas, sans doute, de l’employer à tout coup, mais encore faut-il qu’on en ait, de temps à autre, la possibilité.</p>
+          <p>On n’usera pas, bien entendu, de toutes sortes d’hiatus. On admettra ceux-là seuls dont la rencontre demeure douce à l’oreille. <quote>« J’accepte l’hiatus, dit M. Faguet, à condition qu’on ne le chérisse et poursuive point comme une beauté. »</quote> On ne réclame rien de tel ici, mais <pb n="29"/>seulement la simple facilité d’en user avec tact, le cas échéant, ce qui est fort différent.</p>
+          <p>Les vers suivants, d’ailleurs, ne sont-ils pas bien agréables en dépit de l’hiatus qu’on y rencontre :</p>
+          <quote>
+            <l>Rien n’est charmant le soir, rien n’est doux <hi rend="i">à en</hi>tendre</l>
+            <l>Comme le chant d’un pâtre au milieu des troupeaux ?</l>
+          </quote>
+          <p>Il n’en serait pas de même dans cette phrase : il aime <hi rend="i">à at</hi>tendre. De là, je le répète, la nécessité, quand on emploie l’hiatus, de s’en servir avec circonspection et de veiller avec soin à l’union euphonique des voyelles afin d’éviter un heurt de sons désagréables à l’ouïe. Pourquoi ne pas revenir à une pratique dont usèrent, sans en abuser, nos grands poètes de la Renaissance ?</p>
+        </div>
+      </div>
+      <div>
+        <head>IV</head>
+        <p>Je citerai en guise de conclusion cette page du cher et regretté Émile Trolliet : <pb n="30"/><quote>« Sans rapprocher la poésie de la prose, rapprochons-la de la musique. Qu’on rime pour l’oreille et non pour les yeux ; qu’on ait le droit d’appareiller un singulier avec un pluriel, si du moins ils rendent tous deux le même son, car on ne voit pas pourquoi <hi rend="i">enfant</hi> et <hi rend="i">triomphants</hi> ne seraient pas des rimes admissibles, lorsque enf<hi rend="i">an</hi>ts et fa<hi rend="i">on</hi>s sont des rimes certainement admises ; qu’on se moque de la césure et de l’hémistiche, mais non de l’accent tonique ; qu’on se permette certains hiatus lorsqu’ils sont une liaison plutôt qu’un heurt ; qu’on supprime enfin les difficultés inutiles de la poétique, comme on le fait ailleurs pour celles de l’orthographe, mais de même qu’on doit respecter les lois primordiales de la syntaxe française, qu’on respecte aussi les lois organiques du vers français. Assouplissez-le, spiritualisez-le, mais ne le démembrez pas<note resp="author"><hi rend="i">Médaillons des Poètes.</hi> (Lemerre.)</note>. »</quote></p>
+        <p>Les réformes préconisées dans ces pages ne me paraissent nullement outrepasser les lois de la métrique française. Elles ne s’écartent en rien du génie de notre race et tendent à donner un peu d’élasticité à des préceptes dont l’étroitesse ne peut que nuire à l’essor poétique, puisque la poésie est l’expression musicale et rythmée du sentiment et des idées.</p>
+        <p>Ces prétendues innovations n’ont, d’ailleurs, <pb n="31"/>rien de nouveau. Mais elles n’avaient valu jusqu’ici qu’injures et dénigrements aux poètes qui avaient osé s’en prévaloir. Leur consécration me semble aujourd’hui définitivement acquise.</p>
+        <p>M. Sully Prudhomme lui-même, <hi rend="i">Pontifex maximus</hi> des Parnassiens, dans le règlement des prix qu’il a chargé le comité de la Société des Gens de Lettres de décerner en son nom, annuellement, n’a pas craint, malgré son absolutisme, d’insérer cet alinéa caractéristique</p>
+        <quote>
+          <p>« Aucun ouvrage présenté au concours ne sera exclu de plein droit parce que l’auteur ne se serait pas conformé aux règles <hi rend="i">usuelles</hi> de la versification.</p>
+          <p>« Les poésies couronnées peuvent inaugurer toute innovation où la majorité du jury reconnaîtrait soit un amendement rationnel, soit <hi rend="i">l’évolution normale de la poétique française</hi>, c’est-à-dire toute innovation qui lui semblerait ou respecter ou accuser la distinction de plus en plus couramment indiquée par l’oreille entre la prose et le vers. »</p>
+        </quote>
+        <p>Qu’est-ce à dire, sinon qu’en matière poétique on doit, désormais, rejeter résolument le précepte indolent et commode formulé par Horace :</p>
+        <quote>
+          <l rend="i">Quid sit futurum cras fuge quærere… </l>
+        </quote>
+      </div>
+    </body>
+  </text>
+</TEI>
