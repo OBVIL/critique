@@ -38,7 +38,6 @@ else echo '
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>html.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>teipot.css" />
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,900,300italic,600italic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="<?php echo $theme; ?>obvil.css" />
   </head>
   <body>
@@ -50,6 +49,33 @@ else echo '
         <a class="logo" href="http://obvil.paris-sorbonne.fr/bibliotheque/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
       </header>
       <div id="contenu">
+        <main id="main">
+          <nav id="toolbar">
+            <?php
+if (isset($doc['prevnext'])) echo $doc['prevnext'];    
+            ?>
+          </nav>
+          <div id="article">
+            <?php
+if (isset($doc['body'])) {
+  echo $doc['body'];
+  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
+  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookrowid']);
+}
+// pas de livre demandé, montrer un rapport général
+else {
+  // nombre de résultats
+  echo $pot->report();
+  // présentation chronologique des résultats
+  echo $pot->chrono();
+  // présentation bibliographique des résultats
+  echo $pot->biblio();
+  // concordance s’il y a recherche plein texte
+  echo $pot->concByBook();
+}
+            ?>
+          </div>
+        </main>
         <aside id="aside">
           <?php
 // les concordances peuvent être très lourdes, placer la nav sans attendre
@@ -94,33 +120,6 @@ else {
 }
           ?>
         </aside>
-        <div id="main">
-          <nav id="toolbar">
-            <?php
-if (isset($doc['prevnext'])) echo $doc['prevnext'];    
-            ?>
-          </nav>
-          <div id="article">
-            <?php
-if (isset($doc['body'])) {
-  echo $doc['body'];
-  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookrowid']);
-}
-// pas de livre demandé, montrer un rapport général
-else {
-  // nombre de résultats
-  echo $pot->report();
-  // présentation chronologique des résultats
-  echo $pot->chrono();
-  // présentation bibliographique des résultats
-  echo $pot->biblio();
-  // concordance s’il y a recherche plein texte
-  echo $pot->concByBook();
-}
-            ?>
-          </div>
-        </div>
       </div>
       <?php 
 // footer
