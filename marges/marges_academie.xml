@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enquête : L’Académie française</title>
+        <author>Marges (Les)</author>
+      </titleStmt>
+      <editionStmt>
+         <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/marges_academie/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/marges_academie.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/marges_academie.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/marges_academie.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/marges_academie.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>« L’Académie française », <hi rend="i">Les Marges</hi></title>, 2<hi rend="sup">e</hi> série, tome XIII, <edition>nº 49</edition>, <date>15 mai 1914</date>, p. 319-338.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1914"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>[Question]</head>
+        <p>Depuis quelques années, l’Académie s’agite beaucoup. Elle s’agite, et elle agit. Elle prétend diriger la littérature. Elle essaie de nuire.</p>
+        <p>Nous avons pensé qu’il pouvait être intéressant de demander à quelques libres écrivains ce qu’ils pensaient de l’Académie, et nous leur avons posé les trois questions suivantes :</p>
+        <p>1º <hi rend="i">À votre avis, l’Académie française est-elle ou non en décadence</hi> ?</p>
+        <p>2º <hi rend="i">Pensez-vous qu’aujourd’hui elle accueillerait un Gustave Flaubert ou un Charles Baudelaire</hi> ?</p>
+        <p>3º <hi rend="i">Son influence actuelle sur les Lettres vous semble-t-elle bonne ou mauvaise</hi> ?</p>
+        <p>Voici les réponses :</p>
+      </div>
+      <div>
+        <head>Léon Baranger</head>
+        <byline><docAuthor key="Baranger, Léon"/></byline>
+        <p>1º NON.</p>
+        <p>La lune est-elle, intrinsèquement, en décadence ? Non. Elle est, tout simplement. Sur tous elle répand un reflet du très variable flux solaire, au gré des nuages.</p>
+        <p>L’Académie est comme la lune. Elle renvoie à chaque génération un pâle écho de la génération précédente, sous le contrôle des circonstances, à l’émission comme à la réflexion. Et ceci jusqu’à la fin de l’éternité terrestre. Le coefficient d’esprit dégagé par Piron n’a pas sensiblement varié. Convenons qu’il n’est pas déjà si mauvais.</p>
+        <p>2º NON.</p>
+        <p>Les Flaubert ou les Baudelaire choqueront toujours — par le sujet, la forme ou l’esprit — leur époque. Et s’ils étaient encore académisables, bien des hommes auraient la courageuse franchise de n’admirer ni <hi rend="i">Salammbô</hi> ni <hi rend="i">Les Fleurs du Mal</hi>.</p>
+        <p>3º NULLE.</p>
+        <p>Les lettres patentes de 1637 restreignirent dès l’origine l’action de l’Académie française à un double objet en lui enjoignant, ainsi qu’à ses membres, de ne connaître <quote>« que de l’ornement, embellissement et augmentation <hi rend="i">de la langue</hi> française, et <hi rend="i">des livres</hi> qui seront faits par eux, et par autres personnes qui le désireront et voudront »</quote> ;</p>
+        <p>A. — <hi rend="i">De la langue.</hi> Le rôle de l’Académie se réduisit immédiatement à enregistrer, codifier — justifier — pour l’édification d’une foule docile, les irrégularités commises par une élite et qui, contrevenant aux règles établies, venaient orner, embellir et augmenter la langue française. Sur ce point, ce sont les lettres qui influencent l’Académie.</p>
+        <p>B. — <hi rend="i">Des livres.</hi> L’A. F. connaissant des livres — et encore, pourquoi ? des actions — dispose de 44 prix littéraires et de 31 prix de vertu. Théoriquement, c’est logique : la vertu n’est qu’un mot dont le sens, réduit à l’échelle bourgeoise, devient : philanthropie, dévoûment, servilité. Mais l’unité subsiste. Si M. Bordeaux reçoit un prix, sait-on <hi rend="i">a priori</hi> de quelle catégorie il le tient ?</p>
+        <p>Donc, par le moyen de ces prix, l’Académie exerce-t-elle une influence ?</p>
+        <p>Si l’on envisage le sort matériel des littérateurs, il faut déplorer :</p>
+        <p>1º Que des sommes considérables soient détournées de leur noble destination. Disons : noble, par supposition mais sans conviction, car tels et tels donateurs avaient sans doute un idéal, et leurs mânes sont certainement satisfaits.</p>
+        <p>2º Qu’une publicité non moins considérable, accordée à des livres indignes, absorbe la capacité de lecture, forcément limitée, de la foule qui achète.</p>
+        <p>Mais les Lettres sont au-dessus de ça. Il leur est indifférent que de plus ou moins braves garçons gagnent leur vie : puisqu’il n’y a pas de sots métiers… Les Lettres plutôt se loueraient de voir restreindre le nombre de leurs servants à celui des maniaques incurables et insoucieux, par force, de la gloire monnayée.</p>
+        <p>Quant au cas désespérant d’un génie totalement anéanti par la seule obscurité, il doit nous apparaître aussi exceptionnel que celui d’un artiste réalisant cette merveille du pur cristal, forme et fond, et imposant son rayonnement officiellement, avant décès, même aux adversaires. Et, en toute loyauté, l’Académie ne peut pas plus s’enorgueillir de l’œuvre d’Anatole France qu’elle ne doit s’accuser de la mort de Deubel. Tout cela c’est la vie et l’A. F., sur la rive, trempe sa ligne dans ce torrent sans même s’y mouiller les pieds. Le pêcheur, parce qu’il attrape de loin en loin une truite, peut-il croire exercer une influence sur le cours d’eau ?</p>
+        <p>Et nous-mêmes, dans ce cours d’eau, que sommes-nous, sinon <quote>« de très petits poissons »</quote><note resp="editor"><quote>« Nous sommes tous de petits poissons, de très petits poissons »</quote>. Ainsi J.-H. Rosny (lequel ?) fait terminer par un homme un livre que J.-H. Rosny (l’autre sans doute) avait intitulé <hi rend="i">Le Termite</hi>. C’est de l’allégorie dans toute la force au terme. Peut-être un grammairien académique y fera-t-il admirer à nos petits-fils une hardie figure pour laquelle il obtiendra les honneurs d’un vocable en <hi rend="i">méta</hi>.</note> ?</p>
+      </div>
+      <div>
+        <head>Léon Bazalgette</head>
+        <byline><docAuthor key="Bazalgette, Léon (1873-1928)"/></byline>
+        <p>1º Elle est aujourd’hui ce qu’elle a toujours été : un bocal de cornichons (au vinaigre éventé et moisi). Que voulez-vous qu’elle soit, la pauvre ?</p>
+        <p>2º Si elle accueillerait aujourd’hui un… Vous voulez rire !</p>
+        <p>3º Sur ce que <hi rend="i">nous</hi> appelons les Lettres, son influence est nulle.</p>
+      </div>
+      <div>
+        <head>Saint-Georges de Bouhélier</head>
+        <byline><docAuthor key="Saint-Georges de Bouhélier (1876-1947)"/></byline>
+        <p>1º L’Académie française me parait, comme toute société humaine, comporter à la fois du bon et du pire.</p>
+        <p>2º Depuis le jour où, à peine fondée, elle s’en prenait à Corneille, à propos du <hi rend="i">Cid</hi>, l’Académie a montré qu’elle se proposait moins de provoquer des révolutions dans l’art que de s’opposer à celles qui se produiraient.</p>
+        <p>3º La Littérature digne de ce nom se fait toute seule, en dehors des influences, à ses risques et périls.</p>
+      </div>
+      <div>
+        <head>Henri Dagan</head>
+        <byline><docAuthor key="Dagan, Henri (1870-19..)"/></byline>
+        <p>1º Il ne me semble pas que l’Académie soit <hi rend="i">en décadence</hi>. Considérée dans son ensemble, elle représente aujourd’hui, comme autrefois, la <hi rend="i">moyenne</hi> de l’esprit et de la culture en France ; et son prestige — il faut bien l’avouer — n’a jamais été si grand dans l’Europe entière, comme en notre temps.</p>
+        <p>2º L’Académie a eu tort, sans doute, de n’admettre dans son sein ni Balzac, ni Flaubert, ni Baudelaire. Mais aujourd’hui elle se montre plus hardie : M. Bergson en est, M. Abel Hermant en sera, Jean Moréas y était désigné : la mort lui a refusé cet honneur, auquel il tenait beaucoup, sans rien faire pour l’obtenir.</p>
+        <p>3º Son influence sur les Lettres ne me semble ni bonne ni mauvaise. Mais peut-on dire que c’est entièrement de sa faute ?</p>
+        <p>Pour ce qui touche à la question des <hi rend="i">prix</hi>, l’Académie a commis quelques erreurs grossières, qui font peu d’honneur à son goût. La vérité, c’est <hi rend="i">qu’il faut décourager les Beaux-Arts</hi>. Vous entendez ce que je veux dire ?</p>
+      </div>
+      <div>
+        <head>Fernand Divoire</head>
+        <byline><docAuthor key="Divoire, Fernand (1883-1951)"/></byline>
+        <p>Je ne comprends pas très bien. J’ai beaucoup entendu parler de l’Académie française ; j’ai pour elle un respect très sincère ; mais je ne vois pas ce que vous voulez qu’elle ait à faire avec les Lettres. Pourquoi ne demandez-vous pas aux peintres quelle influence le Cercle Volney a sur leur art ?</p>
+        <p>L’Académie est un salon. On n’y trouve que des hommes de bonne compagnie : M. Poincaré, le général Lyautey, M<hi rend="sup">gr</hi> Duchesne, M. Roujon, M. de Ségur, etc… Quelles sont les œuvres littéraires du général Lyautey ? Cette Académie comprend un certain nombre d’écrivains, (j’en admire quelques-uns) qui se réunissent pour des raisons tout autres que littéraires : prix aux sauveteurs, aux vieux domestiques vertueux, aux riches maîtresses de maison. Où voyez-vous là un rapport avec l’art ?</p>
+        <p>L’Académie est intéressante, comme les magazines, les journaux brésiliens ou les fonds secrets, au point de vue argent. On en veut devenir membre, parce que c’est un titre qui assure une vente en province. On est candidat à ses prix, si stupidement soient-ils distribués, parce que c’est de l’argent. Pour moi, j’accepterais volontiers d’elle quelques billets de mille francs ; je n’en serais pas fier, mais j’en serais très content.</p>
+        <p>L’Académie n’est donc pas en décadence : 1º parce qu’elle est toujours d’aussi bonne compagnie ; 2º parce que son budget enfle merveilleusement.</p>
+        <p>Quant à Balzac, qui buvait du café et avait des dettes ; à Baudelaire, qui se teignait les cheveux en vert ; à Flaubert, qui « gueulait » ; à Zola, ce Goliath du limon, tout académicien qui respecte sa société devait voter contre eux. Ce n’étaient pas des gens de bon ton.</p>
+        <p>Pour nous, chères <hi rend="i">Marges</hi>, laissons la très illustre et respectable maison à sa place, très haut dans la hiérarchie sociale, et tout à fait <hi rend="i">en marge</hi> de ce qui nous occupe, je veux dire l’art, la poésie, etc…</p>
+      </div>
+      <div>
+        <head>Louis Dumur</head>
+        <byline><docAuthor key="Dumur, Louis (1860-1933)"/></byline>
+        <p>En décadence, non, si l’on s’en tient aux principes qui ont toujours prévalu à l’Académie. Il est certain qu’aujourd’hui, plus qu’à aucune époque, nos auteurs à succès sont tous à l’Académie ou vont en être, sauf ceux qui, déjà de la dissidente Goncourt, se voient interdire le cumul. L’Académie est, par fondation, conservatrice, et ceux même qui y représente la fameuse « gauche » n’y sont que pour ce qu’ils conservent de traditionnel. Mais s’il n’y a de grands écrivains que les novateurs, les grands écrivains ont donc moins de chance que les autres de devenir académiciens. Ils ne le deviennent que s’ils vivent assez longtemps pour voir ce qu’ils ont apporté de révolutionnaire fonder une nouvelle tradition. C’est dire que l’Académie serait fière d’accueillir aujourd’hui Flaubert et Baudelaire, qui auraient l’un et l’autre 93 ans, mais qu’elle n’aurait en même temps pas assez de véhémence pour repousser un nouveau Flaubert, un second Baudelaire.</p>
+        <p>L’Académie est une redoutable puissance d’arrêt. À ce titre, son influence ne saurait être que néfaste. Elle oblige ceux qui poursuivent ses faveurs — et c’est à peu près tout le monde — à de détestables compromissions oui les diminuent littérairement et moralement. Par les grandes richesses dont elle dispose, et dont elle fait le plus mauvais usage, l’Académie, cette dernière congrégation à biens de mainmorte, dispense à pleines mains la paralysie et la mort sur les successives générations littéraires et jonche les champs de la République athénienne d’innombrables cadavres.</p>
+      </div>
+      <div>
+        <head>Henri Duvernois</head>
+        <byline><docAuthor key="Duvernois, Henri (1875-1937)"/></byline>
+        <p>1º L’Académie française n’est pas en décadence. J’ai sous les yeux le tableau des membres de la Compagnie à diverses époques — et je ne crois pas me tromper.</p>
+        <p><hi rend="i">2º</hi> Je pense que l’Académie accueillerait Flaubert et Baudelaire, mais cela n’aurait d’importance ni pour l’un ni pour l’autre.</p>
+        <p>3º Les académies, les « mouvements » les articles, les prix, la mode, n’ont d’influence que sur les « gendelettres » et non sur les Lettres — heureusement. Les indépendants font leur œuvre sans se soucier des contingences et selon ce qu’ils croient être la vérité. Eux seuls comptent.</p>
+      </div>
+      <div>
+        <head>Jean de Gourmont</head>
+        <byline><docAuthor key="Gourmont, Jean de (1877-1928)"/></byline>
+        <p>Je ne crois pas que l’Académie ait jamais beaucoup aimé les vrais littérateurs ; elle n’en choisit quelques-uns qu’avec une sorte de crainte, encore leur demande-t-elle de mettre une feuille de vigne à leurs idées. Car elle préférera toujours la bonne tenue et la moralité au talent et même au génie. Baudelaire, aujourd’hui, n’entrerait-pas dans une société où l’on se prépare à élire M. de Pomairols, et que ferait Flaubert en face de M. Henri Bordeaux ?</p>
+        <p>Je ne sais pas si le niveau intellectuel de l’Académie a baissé ou monté, je le crois constant.</p>
+        <p>Quant à son influence sur les lettres, elle est nulle, par cette simple raison que ceux qui travaillent pour un prix ne sauraient faire que des besognes d’écolier. Tout cela rejoint les prix de vertu, et la vertu n’a rien à faire avec la littérature.</p>
+      </div>
+      <div>
+        <head>Remy de Gourmont</head>
+        <byline><docAuthor key="Gourmont, Remy de (1858-1915)"/></byline>
+        <p>1. En décadence ? Nullement. Elle tend, au contraire, comme au dix-huitième siècle, à diriger la littérature française. La jeunesse a les yeux tournés vers elle. Les journaux s’occupent d’elle. On recommence à mesurer un homme qui écrit à la toise académique.</p>
+        <p>2. La seconde question est indiscrète, car elle demanderait une réponse prolixe, à savoir la liste des quarante personnages en question, ce qui, de plus, est bien difficile.</p>
+        <p>3. L’influence de l’Académie sur les lettres ne peut être qu’exécrable, eût-elle les meilleures intentions, et ce n’est pas le cas, car loin de chercher le beau, elle cherche le moral, qui est peut-être son contraire.</p>
+        <p>P.-S. — J’apprends de bonne source qu’elle se propose d’élire Henri Bordeaux et, par un retour des plus honorables, de s’ouvrir à Georges Ohnet, s’il se peut, le même jour. Quelle preuve de force ! Et c’est un tel corps qui serait en décadence ?</p>
+      </div>
+      <div>
+        <head>Albert Guinon</head>
+        <byline><docAuthor key="Guinon, Albert (1861-1923)"/></byline>
+        <p>1º Quand les académiciens qui apportent du lustre à l’Académie y sont en majorité, l’Académie est brillante. Quand ceux qui lui empruntent leur seul rayonnement y sont les plus nombreux, elle s’obscurcit de tout l’éclat qu’elle leur donne. Actuellement, j’ai l’impression que la lumière et l’ombre s’y font à peu près équilibre.</p>
+        <p>2º Il me paraît impossible de répondre à votre seconde question. En tout cas, une distinction, quelle qu’elle soit, n’est qu’une fleur à la boutonnière ; et, en art, l’autorité est personnelle.</p>
+        <p>3º Je ne crois pas à l’influence d’une institution littéraire sur la littérature. Je croirais bien plutôt à l’influence de la littérature sur l’institution.</p>
+      </div>
+      <div>
+        <head>Frantz Jourdain</head>
+        <byline><docAuthor key="Jourdain, Frantz (1847-1935)"/></byline>
+        <p>L’Académie française ne me semble ni en décadence, ni en progrès ; comme le nègre, elle continue, et si, comme vous l’affirmez, elle a retrouvé tout son lustre, ce doit être un lustre en fonte malléable, en vieille ferraille, en cuivre oxydé ou en zinc d’art, un lustre où fument, encerclées de bobèches en papier, des cires poussiéreuses et de vieilles chandelles. Je ne suppose pas en effet que l’entrée triomphale sous la coupole du général Lyautey, de Monseigneur Tartempion et du Vaudevilliste auquel la Patrie reconnaissante est redevable de <hi rend="i">L’Institut de Beauté</hi>, ait panaché les lettres françaises d’un prestige éblouissant.</p>
+        <p>Le public, paraît-il, lui témoigne un profond respect. Cela ne m’étonne pas outre mesure, puisque ce même public, entre la contemplation des aventures cinématographiques de Rigadin, une séance de Tango et un match de boxe, couvre de son mépris toutes les tentatives artistiques et accule Antoine à la faillite. Soutenus par la majorité compacte dont parle Ibsen, ces messieurs du Pont des Arts auraient donc bien tort d’accueillir aujourd’hui un Flaubert ou un Baudelaire. Autrefois, ils n’ont voulu, ni de Diderot, ni de Lamennais, ni de Stendhal, ni de Michelet, ni de Balzac, ni de Zola, ni de Verlaine, et ils ont préféré les bordereaux de Bourse de M. de Lesseps aux œuvres géniales d’un Henri Becque, il demeure donc fort rationnel qu’afin de respecter la traduction, ils témoignent la même haine pour tous les écrivains doués de personnalité et de talent.</p>
+        <p>Cette façon d’agir n’a d’ailleurs aucune importance, car je constate que l’influence de la noble assemblée sur la littérature contemporaine est nulle, radicalement nulle. Il faut voyager et causer avec des étrangers pour se rendre compte du néant de ces porteurs d’habits verts dont on ignore même les noms. À part le grand Anatole France — qui est si peu académicien — ces braves gens passent inaperçus et la plupart d’entre eux sont confondus avec les auteurs attitrés de Cluny et de Déjazet et les plus bas producteurs de romans-feuilletons. Allez donc voir ce que pèsent un René Bazin ou un Doumic à côté d’un Charles-Louis Philippe, d’un Rosny ou d’un Mirbeau.</p>
+      </div>
+      <div>
+        <head>Camille Mauclair</head>
+        <byline><docAuthor key="Mauclair, Camille (1872-1945)"/></byline>
+        <p>Le préambule de votre questionnaire formule les justes griefs que je n’ai jamais cessé d’alléguer contre l’Académie. Je la tiens  pour surannée, sans but, sans mandat valable, hostile à la vraie indépendance du caractère et du talent, donnant des primes à l’arrivisme, et tout occupée de mesquines intrigues. Elle n’accueillerait ni Balzac, ni Baudelaire, ni Flaubert, ni Zola, ni Villiers, ni Verlaine — et tant mieux car ils n’en sont que plus grands ! Quant à son influence sur la vie de la langue et sur les lettres, elle n’est ni bonne ni mauvaise, elle est nulle — à moins que vous n’entendiez par « les lettres » une petite coterie d’ardélions serviles et de fades convertis. L’étranger et la province, abusés par une réclame intensive, sont excusables de croire que cette société représente quelque chose : mais nous ne pouvons qu’en rire.</p>
+        <p>J’ai toujours un peu de chagrin lorsqu’un bel écrivain a la petite faiblesse de désirer s’agréger à cette assemblée de sous-préfets, et quand c’est un ami je le lui dis franchement. Il y a certes des hommes de grand talent ainsi costumés. Mais quand ils seraient quarante, la « personne civile et morale » — combien civile, morale et même puérile ! — qu’est l’Académie en soi ne me paraîtrait pas moins indésirable et lamentablement anachronique.</p>
+      </div>
+      <div>
+        <head>Eugène Montfort</head>
+        <byline><docAuthor key="Montfort, Eugène (1877-1936)"/></byline>
+        <p>Depuis que l’objet de cette enquête est connu, j’ai rencontré plus d’un lettré disant :</p>
+        <p>« Mais certainement, à présent, l’Académie s’ouvrirait devant Flaubert et devant Baudelaire… » Le lettré poursuivait : « Peut-être pas, d’ailleurs, devant des auteurs représentant aujourd’hui ce que Flaubert et Baudelaire représentaient de leur temps… »</p>
+        <p>Opinion, à mon avis, mal fondée. Flaubert, ni Baudelaire n’entreraient pas plus aujourd’hui qu’autrefois à l’Académie. Nullement, parce qu’ils ont été novateurs ou hardis pour leur époque<note resp="editor">Bien des gens, faute de documentation sans doute, ne se rendent pas un compte exact de l’état d’esprit <hi rend="i">actuel</hi>. Le grand public, que domine aujourd’hui l’Académie, est devenu incroyablement niais et timoré. On ne l’a vu tel, en France, qu’à de rares époques. Voici un fait : Je causais l’année dernière avec le directeur jeune, intelligent et lettré d’un journal hebdomadaire sérieux, suivi par la bourgeoisie « au courant ». Rien d’une feuille pour la province et les jeunes filles. Eh bien, ce directeur, intelligent et lettré, comme il désirait publier un roman dans son journal, et que, pour m’éclairer sur le degré et le ton des ouvrages qu’il souhaitait, je lui demandais : « Voyons ! publieriez-vous <hi rend="i">M<hi rend="sup">me</hi> Bovary</hi> ? » il réfléchit un instant, puis répondit : « Eh bien, franchement… non, je crois que je ne donnerais pas <hi rend="i">M<hi rend="sup">me</hi> Bovary</hi>. »</note>. Mais il y a un esprit artiste, un esprit libre, un esprit profondément anti-académique que l’Académie française ne pourrait admettre sans se placer en contradiction entière avec elle-même. Le Paradis n’est pas pour les démons, ni l’Enfer pour les anges. Chacun sa place. Jamais un Baudelaire ni un Flaubert n’eussent fait trois années de pénitence dans telle ou telle feuille bien-pensante pour montrer au guichet de l’Institut une bonne, honnête et bourgeoise figure. La liberté de pensée et les convictions d’écrivain d’un Flaubert ou d’un Baudelaire sont d’une autre sorte que celles de nos petits auteurs contemporains. Un vrai poète ne transige pas.</p>
+        <p>On dit que Moréas eût été de l’Académie. Il avait, paraît-il, des promesses. Ces promesses-là, on sait ce qu’en vaut l’aune. Pour moi, Moréas n’eût jamais été de l’Académie. Tout le monde connaît l’histoire des visites d’Alfred de Vigny. Moréas n’eût pas supporté les insolences des Royer-Collard du jour. Dès sa première visite il eût été rebuté. À peine aurait-il tiré la sonnette, il n’eût pas attendu qu’on lui ouvrît et aurait redescendu précipitamment l’escalier, en grommelant dans sa moustache : « Cette maison est sinistre… » Puis, se disant des vers à lui-même, il serait allé s’asseoir tranquillement au café d’en face.</p>
+      </div>
+      <div>
+        <head>Jacques Morland</head>
+        <byline><docAuthor key="Morland, Jacques"/></byline>
+        <p>Pour bien juger l’Académie française il faut ne pas oublier qu’elle est un salon qui a la charge de maintenir et de défendre parmi nous la tradition.</p>
+        <p>L’Académie n’est pas une compagnie d’hommes de lettres et la littérature n’est pas le premier de ses soucis. Je ne sais si elle est un salon où l’on cause, mais il y règne certainement cet esprit de « bonne société » qui répugne à toute nouveauté et qui craint les trop grands éclats du génie. C’est pourquoi un Flaubert, un Baudelaire, ou tout autre auteur dont les œuvres scandalisent les salons, ne peuvent entrer à l’Académie que par un coup heureux du hasard comme il ne s’en produit guère.</p>
+        <p>D’ailleurs l’Académie n’est pas actuellement en décadence. Il faut, au contraire, se réjouir d’y voir à la fois MM. Anatole France, Maurice Barrès, Henri de Régnier et… quelques autres que je vous laisse à choisir selon vos goûts.</p>
+        <p>Il n’est que trop certain que l’influence de l’Académie sur les Lettres est détestable, mais il n’en peut être autrement. Les prix qu’elle accorde, malgré tous les noms qu’ils sortent, ne sont jamais que des prix Montyon : il faut pour les mériter trop de vertu ou trop de servilité.</p>
+      </div>
+      <div>
+        <head>De Pawlowski</head>
+        <byline><docAuthor key="Pawlowski, Gaston de (1874-1933)"/></byline>
+        <p>1º L’Académie française ne me paraît pas être en décadence.</p>
+        <p>Elle ne doit pas représenter, comme on le croit trop souvent, la littérature, mais toutes les forces vives d’un pays, quelles qu’elles soient. À ce point de vue, son recrutement me paraît suffisamment éclectique.</p>
+        <p>2º Elle accueillerait, je crois, aujourd’hui, Gustave Flaubert ou Baudelaire, mais à la condition que Gustave Flaubert ou Charles Baudelaire aient écrit en 1914 ce qu’ils écrivirent au siècle dernier.</p>
+        <p>La question me paraît donc un peu tendancieuse, car les œuvres d’avant-garde d’hier sont un peu à l’arrière-garde aujourd’hui.</p>
+        <p>3º Son influence sur les Lettres ne peut être heureuse que si les Académiciens décernent des prix à leurs pairs.</p>
+        <p>Subventionner des jeunes, c’est forcément détruire leur personnalité et leur imposer un talent officiel.</p>
+        <p>L’Académie française devrait se borner, pour son recrutement comme pour ses prix, à couronner une brillante carrière littéraire et non pas à transformer des jeunes en petits vieux.</p>
+      </div>
+      <div>
+        <head>Rachilde</head>
+        <byline><docAuthor key="Rachilde (1860-1953)"/></byline>
+        <p>L’<hi rend="i">Académie française</hi> n’est pas une réunion de gens de lettres de talent plus ou moins supérieur. C’est un endroit de bonne compagnie, où on reçoit des gens d’esprit, des <hi rend="i">amateurs</hi>, des savants, des militaires, des gentilshommes, pourvu qu’ils sachent garder le ton de la maison. Par surprise, il y peut pénétrer quelques <hi rend="i">croquants</hi> de génie, mais ’exception confirme la règle une fois encore. En devenant académicien, on revient aux traditions du passé noble et pour cela seul c’est peut-être agréable, sinon utile. Je vois très bien Henri de Régnier</p>
+        <quote>
+          <l>« Entrer dans le passé comme en un grand salon ! »</l>
+        </quote>
+      </div>
+      <div>
+        <head>J.-H. Rosny aîné</head>
+        <byline><docAuthor key="Rosny aîné, J.-H (1856-1940)"/></byline>
+        <p>Il ne semble pas que l’Académie française soit en décadence : elle compte quelques-uns des plus beaux noms de la littérature. Toutefois, dans son ensemble, elle est encombrée de personnages médiocres. Elle a aussi une tendance fâcheuse à nommer des hommes <hi rend="i">influents</hi>.</p>
+        <p>Peut-être admettrait-elle un Flaubert, mais il est à peu près sûr qu’elle éliminerait un Baudelaire.</p>
+        <p>Son influence présente est plutôt fâcheuse ; la faute en est moins à elle-même, qui agit sans discernement, ainsi que tous les corps constitués actuels, qu’au snobisme de la jeunesse.</p>
+      </div>
+      <div>
+        <head>Charles Saunier</head>
+        <byline><docAuthor key="Saunier, Charles (1865-19..)"/></byline>
+        <p>Il suffit de jeter les yeux sur une liste des Quarante depuis la fondation de l’Académie, pour se rendre compte que la Compagnie demeure égale à elle-même. De tout temps elle posséda des écrivains véritables, un plus grand nombre de vagues prosateurs et poètes assaisonnés de puissances éphémères : hommes de Cour autrefois, hommes politiques depuis 1830. Car ses membres ont l’immortalité docile. L’excellent Charles Perrault ne consigne-t-il pas dans ses <hi rend="i">Mémoires</hi>, qu’il fut candidat par ordre et élu par la volonté de Colbert !</p>
+        <p>Dans tous les cas, l’Académie actuelle égale au moins celle de Richelieu ; elle ne possède point, qu’il me semble, de Boisrobert. — Non, elle ne va plus jusque-là. Elle est bien fournie, certes, de guerriers et d’hommes politiques. Mais c’est là tendance commune à tous les syndicats de marque : financiers ou journalistiques. Il faut des démarcheurs habiles. Qui est plus apte à la chose qu’un homme politique habitué à solliciter dès son premier mandat ?</p>
+        <p>À noter aussi que par un échange de bons procédés, l’Académie a, de plus en plus, droit d’entrer dans la politique. Et, lorsque ses représentants ont de la valeur, ils peuvent oser des interruptions, faire accepter des mots qui, lancés par d’autres, seraient couverts par les hurlements parlementaires.</p>
+        <p>Le respect académique, tous les partis l’ont. C’est pour cela qu’Anatole France dont le nom <hi rend="i">tout court</hi> est cher à tous les lettrés, se voit estampillé « de l’Académie française » sur les affiches de meetings contre l’ordre établi. Par contre, des clameurs eussent très certainement couvert la voix de tout autre que Maurice Barrès, lorsque le subtil artiste lança dédaigneusement à Jaurès inquiet du sort des ministres accusés : « J’ai vu trop d’honnêtes gens en Haute-Cour. Je n’y enverrai pas ceux-là. »</p>
+        <p>Mais revenons à l’Académie. Ses membres actuels n’accueilleraient pas plus un Gustave Flaubert ou un Baudelaire, que leurs prédécesseurs. Pensez-donc : ils sont quarante, et trente-cinq au moins — il y a toujours des morts — aiment la grisaille.</p>
+        <p>D’ailleurs, pourquoi l’Académie française aurait-elle plus d’influence sur les lettres, et les encouragerait-elle mieux que la moderne Académie des Goncourt qui n’a pas voulu connaître Alfred Jarry et Charles-Louis Philippe. L’une et l’autre peuvent encourager certains jeunes, mais — sauf erreur — des jeunes de tout repos. Or la véritable jeunesse est active, fait l’école buissonnière, joint l’enthousiasme à l’irrespect, trouve le mot juste.</p>
+        <p>Le mot juste ! il a failli faire fusiller Jules Vallès !</p>
+      </div>
+      <div>
+        <head>Robert Scheffer</head>
+        <byline><docAuthor key="Scheffer, Robert (1864-19..)"/></byline>
+        <p>Le prestige de l’Académie française, est, comme orthographiait familièrement Flaubert « hénaurme » à l’étranger. Demandez plutôt à S. M. Carmen Sylva, lauréate (on ne le sait pas assez), de même que sa périmée demoiselle d’honneur, intitulée de son propre chef « princesse » Hélène Vacarescu. Et comment n’en serait-il pas ainsi ? Indépendamment de quelques misérables grands-hommes de lettres, l’Académie réserve ses faveurs à des numéros exceptionnels, vedettes de l’Église, de la politique, du grand-monde, à un clown, M. Jean Richepin, un sot, M. Jean Aicard, bientôt, je l’espère, aux princes du Ridicule, M. Paul Fort et Han Ryner.</p>
+        <p>Molière manque à sa gloire, elle le proclame, et il n’est pas le seul. Mais elle eut Scribe, et elle a Paul Hervieu, grand-officier de la légion d’honneur, et Marcel Prévost, qui se vend beaucoup plus que Flaubert. Et M. de Pomairols, qui faillit être élu, est pourtant beaucoup plus comme-il-faut que Baudelaire, quant à Balzac et Verlaine (pour ne citer qu’eux), l’un avait des dettes, l’autre des… défauts. Le type idéal de l’académicien, c’est M. Henri de Régnier, fossile à particule, révéré des douairières, et qui use galamment de la fourchette, en improvisant des stances émues, et en évoquant les ifs de Versailles, nonobstant les aéroplanes dont l’ombre rapide taquine sa calvitie.</p>
+        <p>L’influence de l’Académie française sur les Lettres, mais elle est excellente. Vertueuse et morale, l’Académie distribue des prix, et incite aux compétitions, non de talents, mais d’intrigues. Richelieu eut au génie ; ce dont il fut châtié en la personne de M. Gabriel Hanotaux.</p>
+      </div>
+      <div>
+        <head>Octave Uzanne</head>
+        <byline><docAuthor key="Uzanne, Octave (1852-1931)"/></byline>
+        <p>Pourquoi l’Académie serait-elle en décadence ? Il faut admirer en elle la conscience nette qu’elle conserve de sa destinée. Cette douairière tient fort bien son salon. Elle veille à sa bonne réputation et consacre tous ses soins à n’accueillir que les hommes capables d’apprécier ses suffrages et qui le plus souvent se consacrent à elle dès leur entrée dans les lettres. Ceux-ci n’ont jamais causé que des scandales à fleur de société, des scapinades innocentes, qu’il ne leur est point difficile, au moment opportun, de se faire pardonner par cette honnête dame de fort bienveillante austérité. La majorité des quarante académiciens s’offre impeccable, de style correct, d’idées moyennes, d’opinions orthodoxes, de respect aux lois, et de soumission aux religions courantes. Ils ont, presque tous, pratiqué le culte constant des camaraderies littéraires indispensables et la politesse assidue des relations mondaines</p>
+        <p>Ce sont parfois d’habiles spéculateurs de cette crédulité publique avide de posséder des étiquettes officielles de talent et des garanties de valeurs. Croix, hiérarchies, récompenses, académies sont aux yeux des grands et petits bourgeois d’indéniables consécrations. La <hi rend="i">marque</hi> « <hi rend="i">De l’Académie française</hi> » est toujours recherchée. Elle assure le succès, le maintient, l’affirme encore, quel que soit la pauvre qualité des produits débités en librairie.</p>
+        <p>L’immortalité que confère l’Académie est rarement sanctionnée par la postérité, mais cette rente viagère de gloriole est agréable à toucher en hommages, succès mondains, sourires fashionables et succès d’argent. La presse contemporaine qui sait la valeur de la marque recrute aujourd’hui ses Leaders de la pensée quotidienne parmi les membres de la Docte assemblée.</p>
+        <p>Il ne s’ensuit pas que l’Académie ait la moindre influence sur notre littérature d’évolution. Les pères conscrits réunis sous la coupole n’essaiment plus guère d’idées originales, neuves, audacieuses, pénétrantes, si tant est qu’ils en aient jamais énormément répandues. Ils sont au port d’attache, et rivés à leurs corps mort, sans aucun souci de prendre désormais le large. Leur clientèle est empressée et fidèle, <hi rend="i">quoi qu’ils fassent</hi>. Leur influence ne s’exerce guère que sur ceux qui rêvent de leur succéder et s’appliquent dès lors à leur ressembler et à marcher sur leurs traces.</p>
+        <p>Ni Baudelaire, ni Flaubert, ni Barbey d’Aurevilly, ni Verlaine, pas plus aujourd’hui qu’hier n’auraient chance d’être admis par la douairière qui ne peut vraiment goûter l’indépendance irréductible de la pensée, l’originalité exceptionnelle du style, la verve immodérée et la libre allure morale dans les marges sociales. Actuellement elle ne songerait certes pas davantage à faire un praticable comme on dit au théâtre, pour inviter à prendre place parmi ses élus un noble esprit aussi vigoureux, aussi libéré, aussi clair que celui de Remy de Gourmont, un esthète et romancier aussi sain que Joséphin Péladan, un poète et critique tel que Paul Claudel, un prodigieux penseur comme André Suarès… Cela, avouons-le, est dans la norme. Il ne convient ni d’en sourire ni de s’en indigner. L’histoire du 41<hi rend="sup">e</hi> fauteuil se fera chaque jour davantage glorieuse et d’un enseignement encore plus élevé et plus profond. Il y a beaucoup de modestie, comme disait Flaubert, à se croire augmenté par l’accueil de la dame du quai. Il faut se sentir bien humble en vérité pour se juger honoré par les honneurs, surtout lorsqu’on est à l’abri des moyennes spéculations vaniteuses et mercantiles.</p>
+      </div>
+      <div>
+        <head>Francis Vielé-Griffin</head>
+        <byline><docAuthor key="Vielé-Griffin, Francis (1864-1937)"/></byline>
+        <p>Une institution littéraire française qui, sous prétexte qu’il patoisait, n’a pas su accueillir Mistral, qui ne saurait réclamer Verhaeren, parce qu’il est né à Anvers (ancienne préfecture de l’empire français) me semble bien entravé dans l’accomplissement de devoirs qui pourraient être utilement élargis. Telle quelle, l’Académie ne peut ambitionner que d’offrir, au mieux, une figuration partielle de l’activité littéraire française ; elle qui, en réclamant ce qui appartient à la France, pourrait affirmer l’existence d’un empire intellectuel français plus vaste que celui de Napoléon.</p>
+      </div>
+      <div>
+        <head>Maurice de Waleffe</head>
+        <byline><docAuthor key="De Waleffe, Maurice (1874-1946)"/></byline>
+        <p>1º L’Académie est certainement dans une phase de prestige renaissant, comme tout ce qui représente un cadre et une tradition dans ce pays un peu effaré. La gent littéraire, comme toute la société française, est dans une période de condensation.</p>
+        <p>2º C’est vous dire qu’elle n’accueillerait ni Flaubert, ni Baudelaire, ni aucun esprit original, fatalement excentrique.</p>
+        <p>3º C’est un phénomène social, qui n’a aucun rapport avec le phénomène essentiellement individuel et capricieux de la création littéraire, pas plus que le musée du Louvre ne nous donnera jamais un peintre, ni la Légion d’honneur des héros.</p>
+      </div>
+      <div>
+        <head>Conclusion de l’Enquête</head>
+        <p>L’opinion à peu près unanime de nos correspondants, c’est que l’Académie française n’est pas en décadence. Elle représente la moyenne de l’esprit et de la culture, et son niveau intellectuel semble constant.</p>
+        <p>Quant à son influence sur les lettres, elle est nulle, paraît-il, — mais Remy de Gourmont déclare qu’elle ne peut être qu’exécrable, ainsi que Jacques Morland, parce que, dit ce dernier, <quote>« les prix qu’accorde l’Académie, malgré tous les noms qu’ils portent, ne sont jamais que des prix Montyon : il faut, pour les mériter, trop de vertu ou trop de servilité »</quote>. Au sujet de ces prix académiques, M. de Pawlowski remarque que <quote>« subventionner les jeunes, c’est forcément détruire leur personnalité et leur imposer un talent officiel, et que l’Académie devrait se garder de transformer des jeunes en petits vieux »</quote>. M. Louis Dumur, use d’une plus forte expression : <quote>« l’Académie, dit-il, dispense à pleines mains la paralysie et la mort »</quote>.</p>
+        <p>Sur la question très intéressante de savoir si l’Académie française accueillerait aujourd’hui un Gustave Flaubert ou un Charles Baudelaire, les avis ne sont point partagés, la réponse est : non. Balzac, Flaubert, Baudelaire, Zola <quote>« <hi rend="i">n’étaient pas des gens de bon ton</hi> »</quote> dit Fernand Divoire. <quote>« <hi rend="i">Que ferait Flaubert en face de M. Henri Bordeaux</hi> ? »</quote> demande Jean de Gourmont. <quote>« <hi rend="i">Il y a un esprit artiste, un esprit libre que l’Académie ne saurait admettre sans se placer en contradiction avec elle-même</hi> »</quote> pense Eugène Montfort. <quote>« <hi rend="i">Par surprise, il peut pénétrer là quelque croquant de génie, mais l’exception confirme la règle</hi> »</quote> déclare Rachilde. <quote>« <hi rend="i">M. de Pomairols, qui faillit être élu, est beaucoup plus comme-il-faut que Baudelaire</hi> »</quote> explique Robert Scheffer. Pour M. de Waleffe, l’Académie ne peut accueillir <quote>« <hi rend="i">aucun esprit original, fatalement excentrique</hi> »</quote>. Elle ne saurait, en effet, vraiment goûter, selon Octave Uzanne <quote>« <hi rend="i">l’indépendance irréductible de la pensée, ni l’originalité exceptionnelle de style</hi> »</quote>.</p>
+        <p>Seul, M. Duvernois croit que l’Académie accueillerait Flaubert et Baudelaire.</p>
+        <p>Pour ce qui concerne le recrutement de l’Académie française, M. Rosny aîné estime que <quote>« <hi rend="i">dans son ensemble, elle est encombrée de personnages médiocres</hi> »</quote> et qu’elle a <quote>« <hi rend="i">une tendance fâcheuse à nommer des hommes influents</hi> »</quote>. Elle offre <quote>« <hi rend="i">une figuration partielle de l’activité littéraire française</hi> »</quote> dit M. Vielé-Griffin. Quant à M. Camille Mauclair, il tient l’Académie <quote>« <hi rend="i">pour surannée, sans but, sans mandat valable, hostile à la vraie indépendance du caractère et du talent, donnant des primes à l’arrivisme et tout occupée de mesquines intrigues</hi> »</quote>.</p>
+        <p>Mais voilà un jugement bien sévère et qui va certainement désespérer notre respectable ami Prosper Bricolle !</p>
+      </div>
+    </body>
+  </text>
+</TEI>
