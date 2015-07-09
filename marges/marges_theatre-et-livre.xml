@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enquête sur le théâtre et le livre</title>
+        <author>Marges (Les)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/marges_theatre-et-livre/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/marges_theatre-et-livre.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/marges_theatre-et-livre.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/marges_theatre-et-livre.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/marges_theatre-et-livre.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>« Enquête sur le théâtre et le livre », <hi rend="i">Les Marges</hi>, 2<hi rend="sup">e</hi> série, avril 1912, p. 145-185.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1912"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>[Question]</head>
+        <p>Nous avons adressé à un certain nombre de personnes le questionnaire suivant :</p>
+        <p><hi rend="i">1º Que pensez-vous du goût de la société contemporaine pour le théâtre</hi> ? —<hi rend="i"> Ce goût constitue-t-il, à vos yeux, un indice de développement, de progrès intellectuel, ou de décadence ? Témoigne-t-il en faveur de notre société, ou contre elle</hi> ?</p>
+        <p><hi rend="i">2º Le spectacle met-il en jeu les mêmes facultés spirituelles que la lecture</hi> ? —<hi rend="i"> Lequel, selon vous, est supérieur : de l’homme qui a</hi> « <hi rend="i">l’amour de la lecture</hi> » <hi rend="i">ou de l’homme qui a</hi> « <hi rend="i">la passion du théâtre</hi> » ? — <hi rend="i">Le goût du théâtre est-il bien une forme du goût de la littérature</hi> ? — <hi rend="i">Préféreriez-vous qu’on eût gardé chez nous le goût des livres, ou vous trouvez-vous satisfait de voir le goût du théâtre remplacer chaque jour davantage celui-ci</hi> ?</p>
+        <p>Voici les réponses qui nous sont parvenues :</p>
+      </div>
+      <div>
+        <head>Paul Acker</head>
+        <byline><docAuthor key="Acker, Paul (1874-1915)"/></byline>
+        <p>I. — <quote>« Les peuples usés par des civilisations excessives, écrivait en 1866 Barbey d’Aurevilly, ont seuls de ces rages de spectacle auquel ils sacrifieraient tout, même le pain, je crois, que les Romains avec les jeux du cirque demandaient. »</quote> Le théâtre n’est plus que de l’histrionisme, et cet histrionisme infecte la société. Tout le monde aujourd’hui, à Paris, est en quelque sorte histrion.</p>
+        <p>II. — Comment le spectacle pourrait-il mettre en jeu les mêmes facultés spirituelles que la lecture ? À part de rares exceptions, le théâtre est uniquement <hi rend="i">digestif</hi> : on va là pour s’amuser, après dîner et avant de souper, et pour se montrer. Cela n’a aucun rapport avec la littérature, d’autant plus que les auteurs dramatiques n’écrivent plus leur pièce que pour tel acteur ou telle actrice, ou pour tel théâtre. Le comédien est beaucoup plus important que l’auteur dramatique. De là la médiocrité — pour ne pas dire plus — de la plupart des pièces ; ce qui guide avant tout l’auteur, c’est le désir patent, que, dans sa pièce, le grand acteur à qui il la destine rencontre tout ce qui peut lui plaire, c’est-à-dire tout ce qui peut lui offrir des effets faciles et bien dans sa nature, flatter ses goûts personnels, même ses manies. Ce n’est donc pas un sujet de pièce qu’il cherche, mais un personnage ressemblant à l’acteur, ou une situation faisant valoir l’acteur. Le personnage ou la situation inventée, il construit une pièce autour. Peu importe que la pièce soit identique à un corps où la tête serait énorme et les membres tout petits ! Peu importe que tout soit sacrifié à un seul personnage ! Peu importe que les caractères soient si superficiels qu’ils n’existent pas ! Peu importe que le sujet soit sans intérêt ! Ce qu’il faut, c’est que le rôle écrit pour le comédien séduise le comédien : le reste ne compte pas. Ce sont les livres aujourd’hui et les revues qui représentent la littérature. Voyez l’influence d’un Barrès, d’un Bergson, d’un Maurras, d’un Claudel, d’un Gide. C’est là qu’est la littérature, l’art et la pensée. Au théâtre, les belles pièces ne font pas recette : ai-je besoin de vous citer des exemples ? Becque vit <hi rend="i">Les Corbeaux</hi> refusés au Vaudeville, au Gymnase, à l’Odéon, à la Porte Saint-Martin, à la Gaîté, à Clichy, à l’Ambigu.</p>
+        <p>Le théâtre est aujourd’hui, avant tout, une entreprise théâtrale.</p>
+      </div>
+      <div>
+        <head>Aurel</head>
+        <byline><docAuthor key="Aurel (1869-1948)"/></byline>
+        <p>1º Le fait de s’intéresser à quelque chose doit toujours être porté <hi rend="i">à l’actif d’une société</hi>. On a toujours raison d’aimer. Si notre temps aime le théâtre, c’est qu’il vit peu, trop occupé de faire, de fonder l’avenir. C’est que le présent lui échappe dans l’effort de se faire un lendemain plus beau. C’est que la lutte étant plus âpre qu’hier, la vie sentimentale nous fuit et nous courons chercher au théâtre un indice de notre existence réelle, c’est-à-dire de notre vie méditée, consciente.</p>
+        <p>Ce n’est plus un secret pour aucune femme qu’il n’y a pas d’amour ou disons pas d’amant possible, pas d’amante, que l’on puisse placer dans une carrière en formation, dans une vie en marche. Vivre largement par le cœur, goulûment par les sens, interrompt tout. Il faudrait même dire plus : La femme ou l’homme qui aspire à vivre sentimentalement ne s’en accorde pas l’occasion. Et pourquoi : on s’accorde trois entrevues pour savoir si l’on doit se connaître au sens biblique. Et si rien n’est obtenu aux termes de ce délai, on ne mène pas une amitié plus avant, nul n’admet de <hi rend="i">perdre</hi> son temps. Les autres siècles ont cru que ce temps-là, <hi rend="i">perdu</hi>, était le seul gagné. Nous sommes des changeurs odieux ; donnant, donnant. L’homme vient une fois, la femme lui agrée ; il revient et mendie l’entretien solitaire. On le lui accorde et, si de ce jour, il ne tire rien de précis, il part et ne reviendra plus. Tandis qu’il faudrait, pour qu’un sentiment se forme, au moins des mois. Notre vie s’y oppose. Nous sabotons nos belles chances.</p>
+        <p>Ainsi meurt, pour nous, tout espoir sentimental. Et nous allons en voir le fantôme la nuit, pour mémoire, au théâtre.</p>
+        <p>2º Certes, on demande moins en France au théâtre qu’au livre, en tant que pratique et savoir de la vie profonde. L’homme qui a l’amour de la lecture belle, et non de la lecture sans choix, est supérieur chez nous à celui qui vibre à la pièce. D’abord, averti par un flair déjà divin, le lecteur a su qu’il fallait lire, ce qui déjà est don de prince. Le spectateur, lui, est passif ; c’est le mouton qu’on mène ; mouton parfois enragé, mais plus souvent bénisseur que bourreau.</p>
+        <p>L’étranger lui (voyez Bernard Shaw et Dostoiewsky) demande à son théâtre autant qu’au livre. C’est ce qui fait actuellement notre soif de ces pièces aiguës, ardentes, jamais reposées de lever des voiles.</p>
+        <p>Le génie français, à la scène, se rassied. Bon comptable, il se dit : Tous les problèmes étant posés, jouons autour ; et cela lui suffit, il ne s’inquiète plus, ne résout rien. Il se donne congé.</p>
+        <p>Pour les Français non fatigués, pour ceux qui n’ont pas besoin de vacances, le livre est toujours là, jamais assez inquiet.</p>
+        <p>Cette France est la mienne, elle se porte bien, veuillez le croire ! Et c’est elle qui montrera au monde par son <hi rend="i">mysticisme sans religion</hi>, par son goût de l’inexploré, par son avidité des vérités sauvages, de ce Vrai inconnu de la femme et de l’homme, que le théâtre et que le livre, quand ils sont créateurs, sont un.</p>
+        <p>Sus au livre qui n’est pas drame.</p>
+        <p>Honte aux pièces qu’on lit sans fruit.</p>
+      </div>
+      <div>
+        <head>Maurice Barrès</head>
+        <byline><docAuthor key="Barrès, Maurice (1862-1923)"/></byline>
+        <p>Le goût pour le théâtre, et pour un théâtre qui glisse à devenir café-concert ou cinématographe, indique une tendance au moindre effort. (Pour apprécier les hautes et fortes idées, il faut, en effet, se contraindre, se rassembler et se hausser.) Mais quoi ! sommes-nous sûrs que ce soit une mauvaise chose si le public se purge de ses éléments les plus bas qui s’en vont aux spectacles inférieurs ? Tâchons d’en profiter et de travailler dignement pour un public purifié et décanté.</p>
+      </div>
+      <div>
+        <head>Jean-Marc Bernard</head>
+        <byline><docAuthor key="Bernard, Jean (1881-1915)"/></byline>
+        <p>Le théâtre, tel que l’ont compris les Grecs et les grands Maîtres du <num>xvii<hi rend="sup">e</hi></num> siècle, m’apparaît vraiment comme le spectacle intellectuel le plus beau qui soit. Il émeut à la fois notre intelligence, notre cœur et nos sens. Ce spectacle demande la collaboration du poète, du musicien, du maître à danser et du peintre. Aussi, pour l’interpréter, convient-il de trouver des acteurs intelligents et sensibles. La représentation d’un chef-d’œuvre (<hi rend="i">Athalie, Le Bourgeois gentilhomme</hi>, etc.), donnée dans de telles conditions, présente évidemment un caractère presque religieux, puisqu’il exige en outre la participation, la <hi rend="i">Communion</hi> des spectateurs.</p>
+        <p>Mais tant que le théâtre n’atteint pas ce degré de perfection, il est naturellement inférieur au Livre.</p>
+        <p>Permettez-moi maintenant de reproduire, avec quelques modifications, la réponse déjà ancienne que j’avais faite à l’enquête sur la « Théâtromanie » de M. Léon Legavre :</p>
+        <quote>
+          <p>On peut affirmer que plus les acteurs ont pris d’importance dans la société, plus la littérature dramatique est devenue secondaire. Les poètes n’écrivent plus pour eux-mêmes, ni pour le public, mais tout simplement pour leurs interprètes. Alors que la profession de comédien était considérée comme déshonorante, la comédie et la tragédie s’épanouirent superbement.</p>
+          <p>Aujourd’hui le cabot est roi ! Mais le théâtre n’est plus qu’une complication d’intrigues ou qu’un prétexte à la mise en scène. L’intérêt du spectacle réside tout entier dans l’habile construction de la pièce, et les héros des comédies actuelles ne sont que de simples fantoches à qui il arrive des aventures multiples. Faire vrai, de nos jours, c’est nous représenter une chaufferie de navire ou nous montrer une femme gigotant dans son lit. Bientôt nous assisterons à la victoire du cinématographe. Peut-être même vaut-il mieux souhaiter cette victoire très prochaine ; les écrivains pourront alors revenir à l’étude sérieuse des caractères.</p>
+          <p>Le théâtre contemporain ressemble assez à notre roman moderne, comme d’ailleurs à toute notre littérature. Nous ne pouvons espérer le voir se transformer soudainement. Cette régénération du théâtre exige la régénération de la société. Qu’on le veuille ou non, ici comme ailleurs, le problème est d’abord politique.</p>
+          <p>Les arts sont les fleurs naturelles d’une nation. La nation est donc responsable de ses artistes.</p>
+          <p rend="i">« Un écrivain, voyez-vous, c’est un homme public, comme publiques sont les dames qui nous entourent ; depuis qu’il y a des démocraties, — et qui lisent, — on ne leur plaît que par l’obscénité, le cynisme et la sensiblerie… »</p>
+          <p>Ainsi parle Willy, ce moraliste méconnu.</p>
+        </quote>
+      </div>
+      <div>
+        <head>Binet-Valmer</head>
+        <byline><docAuthor key="Binet-Valmer (1875-1940)"/></byline>
+        <p>La disparition d’une classe privilégiée a détruit l’importance et le plaisir des salons ; les couloirs des théâtres sont aujourd’hui le lieu où cheminent les petites ambitions et se développent les futiles intrigues, mais jamais les petits ambitieux ni les intrigants futiles n’eurent le goût des livres, et je ne crois pas que celui des théâtres nous ait enlevé un seul lecteur. Quant à votre question sur le progrès et la décadence, je ne puis y répondre. Où donc est le sommet vers quoi nous irions ou dont il nous faut descendre ?… Étant romancier, je préfère l’homme qui a la passion de la lecture à l’homme qui a la passion du spectacle, mais ne me laisserai-je pas séduire, comme tant de nos camarades, par les grandes batailles de la scène ?… Voilà le danger. Elles nous attirent pour leur éclat et la gloire soudaine qu’elles donnent. Le théâtre privera notre société d’écrivains avant qu’il la prive d’amateurs de beaux récits qui font rêver les sages, au coin du feu.</p>
+      </div>
+      <div>
+        <head>René Boylesve</head>
+        <byline><docAuthor key="Boylesve, René (1867-1926)"/></byline>
+        <p>Le goût du théâtre ne me semble être qu’une manifestation, entr’autres, du goût de sociabilité qui est si vif chez les Français. Je ne crois pas qu’on aille tant au théâtre pour le plaisir qu’on y éprouve que pour y puiser un sujet de conversation qui soit commun à toutes les maisons qu’on fréquente. Il faut causer en mangeant, en prenant le thé, en bien d’autres circonstances. Parler d’une pièce, la juger, si pauvre qu’elle soit, c’est encore ardu ; d’où la prépondérance prise par les acteurs, les actrices, leur vie privée et celle des auteurs bien plus accessibles à chacun que leur talent ou leurs défauts. Comment voulez-vous que l’intérêt d’un livre tout nu puisse lutter avec la multitude des accessoires matériels, tangibles, vivants, mouvants et à la portée des femmes, qui environnent le théâtre ? Et par quel moyen contraindre tout un monde et presque tous les mondes à lire, à avoir lu dans le même temps, un roman ?</p>
+        <p>Le goût du théâtre, à notre époque, est une manifestation de l’évolution de nos esprits paresseux vers les divertissements matériels. Je n’entends pas dire par là que le théâtre n’offre que des agréments de cette nature, mais il en offre toujours de cette nature, même alors qu’il contient, par exception, des éléments d’un ordre élevé, et ce sont ces petites misères qui ont prise sur le plus grand nombre.</p>
+        <p>Ce qui fait que le goût du théâtre ne peut pas être un indice de développement intellectuel, c’est que le genre théâtre est condamné au succès, au succès immédiat. Il me paraît contraire à tout ce que nous savons sur la fortune des œuvres de génie qu’une d’elles puisse d’emblée séduire l’immense public. Une œuvre neuve et belle ne peut que s’infiltrer petit à petit, soutenue par la ferveur d’une élite. C’est pourquoi je ne sais rien de plus utile que les entreprises de représentations, qui tendent à se multiplier, même dans les théâtres officiels, pour lesquelles l’espoir de la centième ni même de la troisième représentation n’entre pas en ligne de compte. Tout l’espoir du progrès théâtral est là comme tout l’espoir du progrès littéraire est dans les revues jeunes et libres.</p>
+        <p>Mais je ne crois pas du tout que le théâtre soit un art inférieur. S’il l’est parfois, c’est à cause du concours obligatoire des masses. Mais il peut tout contenir, vérité, poésie et jusqu’à la psychologie la plus profonde, à la condition qu’elle soit ramassée en formules shakespeariennes qui, comme dit Sainte-Beuve, <quote>« percent l’homme tout entier »</quote>. C’est un art difficile, certes, mais qui oblige à la règle essentielle de tout art : la composition, et à une des qualités les plus désirables : la concision. Il pourrait être la meilleure et la plus féconde école, s’il n’était asservi à la triste condition d’être un délassement d’hommes fatigués par la journée et un plaisir facile ne détournant pas le sang des organes de la digestion.</p>
+        <p>Dans les conditions actuelles, évidemment, l’homme qui a l’amour de la lecture est supérieur à celui qui a la passion du théâtre. Et d’ailleurs, en admettant les conditions les plus favorables au progrès de l’art du théâtre, la lecture offrirait toujours un aliment incomparablement plus riche à cause de sa variété infinie, à cause des profondeurs qui ne lui sont jamais interdites et à cause de cette délectation incomparable qu’est le style d’un récit. L’affinement, le goût et l’amplitude même de l’intelligence ne sont possibles que dans une société qui a conservé le goût de la lecture.</p>
+      </div>
+      <div>
+        <head>Maurice Colrat. Directeur de <hi rend="i">L’Opinion</hi></head>
+        <byline><docAuthor key="Colrat de Montrosier, Maurice (1871-1954)"/></byline>
+        <p>Vous trouvez que nos contemporains vont trop au théâtre ? Mais non. Ils vont au <hi rend="i">spectacle.</hi> C’est-à-dire qu’ils ou elles s’habillent — ce qui ne laisse pas de leur donner un assez vif plaisir — ils ou elles s’habillent « pour sortir ». « Nous sortons ce soir. » Cela signifie : « Nous allons <hi rend="i">voir</hi> Guitry ou Lavallière ou Polaire. » Car ce qui intéresse nos contemporains, cher ami, ce n’est pas le théâtre, ce sont les acteurs et les actrices, leurs relations et leurs meubles, leurs amants et leurs maîtresses, leurs jupons et leurs chaussettes. Mais nos contemporains n’aiment pas le théâtre. Ils n’entendent ni Racine, ni Molière, ni Marivaux, ni Shakespeare, ni Beaumarchais, ni Musset. D’ailleurs où les entendraient-ils ? Où donc, que j’y courre ?</p>
+        <p>Après cela et pour être juste, il faudrait préciser. Vous savez comme moi, mieux que moi, de quels contemporains il s’agit. Même aux jours de premières les salles de spectacle sont pleines de riches fermiers des Pampas — de gros industriels de Saxe et de petites femmes bien parisiennes. Le seul hasard ne préside point à leur rencontre. Mais l’auteur travaille pour ce public-là, l’auteur joue pour ce public-là. C’est un très beau public. C’est un très bon public. C’est un public innombrable. Il ne lui manque que du goût et de la culture.</p>
+        <p>Mon cher ami, il ne faut pas se plaindre tant que nous pouvons tous les deux — et quelques autres avec nous — lire au coin de notre feu <hi rend="i">Bel-Ami</hi> dans le texte. Il ne faut que persévérer, car nous goûtons ainsi le meilleur plaisir. Je dis le meilleur à cause de la solitude et du silence. Mais il en existe d’autres. Le théâtre en était un. Pour moi, je ne le goûte presque plus. Non pas que je le méprise, mais parce qu’il n’y a presque plus de théâtre.</p>
+      </div>
+      <div>
+        <head>Henri Dagan</head>
+        <byline><docAuthor key="Dagan, Henri (1870-19..)"/></byline>
+        <p>Il n’y aurait pas de raison, selon moi, de déplorer l’engouement du public pour le théâtre, si l’on jouait de bonnes pièces. Mais nous savons que « l’industrie théâtrale » est entre les mains de mercantis et de barbares illettrés qui courent après les gros bénéfices et les veulent atteindre par tous les moyens.</p>
+        <p>Si la mode est à la violence et à la brutalité, les entrepreneurs de spectacles commandent à leurs fournisseurs des pièces violentes et brutales ; si la mode est aux doux sentiments et à l’<hi rend="i">optimisme</hi>, les mêmes entrepreneurs exigent des pièces tendres et fades. Dans tous les cas, le mauvais goût règne partout et souverainement.</p>
+        <p>Il vaut donc mieux lire de bons livres, aujourd’hui, que d’aller au théâtre. Toutefois lorsque nous avons l’occasion d’entendre <hi rend="i">Œdipe à Colone</hi>, ou <hi rend="i">Œdipe-Roi, Horace, Athalie, Le Misanthrope</hi>, nous sentons qu’aucune lecture, fût-ce la plus belle de toutes, n’est capable de nous donner le ravissement, l’émotion supérieure, que nous éprouvons au spectacle d’un de ces chefs-d’œuvre.</p>
+      </div>
+      <div>
+        <head>Édouard Ducoté</head>
+        <byline><docAuthor key="Ducoté, Edouard (1870-1929)"/></byline>
+        <p>I. Je ne crois pas que le phénomène sur lequel vous attirez notre attention soit particulier à notre époque. Le théâtre, mettant en jeu plus d’intérêts que le livre et visant un public plus étendu, fait par la force des choses plus de bruit. Ce bruit nous choque aujourd’hui parce que le théâtre s’est industrialisé et recourt en conséquence à des procédés que nous n’étions pas habitués à voir au service de l’œuvre d’art (quand œuvre d’art il y a).</p>
+        <p>Pour déterminer si l’intérêt que porte notre société à tout ce qui touche les planches est un indice de décadence ou de progrès, il faudrait pouvoir se prononcer sur la qualité de la production dramatique actuelle. Je suis insuffisamment informé ; il me semble toutefois que nous ne manquons pas de dramaturges de valeur. Je reprocherai surtout à mes contemporains d’applaudir indistinctement le bon, le médiocre et le pire. Soumis pour une part aux suggestions de la publicité, de l’autre captivés outre mesure par la personnalité des acteurs, ils témoignent un éclectisme qui donne fort à penser sur leur discernement. Ils ne se permettraient même pas de siffler un chef-d’œuvre. C’est dans cette veulerie intellectuelle que je verrais peut-être un signe de décadence.</p>
+        <p>II. Je ne doute point que le goût du théâtre ne soit aussi bien que celui des livres une forme du goût pour la littérature ; tout dépend du spectacle ou du livre et de l’esprit dans lequel on aborde l’un ou l’autre. Un lecteur de feuilletons ne me semble pas d’un niveau supérieur à celui d’un amateur de vaudevilles. Aussi ne saurais-je décider qui l’emporte de l’homme qui a la passion du théâtre ou de celui qui a l’amour de la lecture. Ces deux hommes peuvent d’ailleurs ne faire qu’un ; Stendhal nous en offre un excellent exemple.</p>
+      </div>
+      <div>
+        <head>Henri Duvernois</head>
+        <byline><docAuthor key="Duvernois, Henri (1875-1937)"/></byline>
+        <p>Je fus critique littéraire. Les gens me disaient :</p>
+        <p>— Comment, monsieur, vous lisez tous les livres qui paraissent ! Quel courage !</p>
+        <p>Je suis critique dramatique. Les gens me disent :</p>
+        <p>— Alors vous allez à toutes les répétitions générales. Vous en avez de la veine !</p>
+        <p>Voilà, je crois, le sentiment contemporain en ce qui touche le livre et le théâtre. Ce n’est certes pas un indice de progrès intellectuel. Voilà vingt ans que l’on sert la même pièce aux fanatiques de spectacle ; ils ne s’en aperçoivent pas. Que paraisse un livre original, il est immédiatement apprécié par le tout petit groupe resté fidèle au livre. Mais il en était de même il y a trente ans. Il s’agit de deux publics, essentiellement différents, et aussi de deux genres de littérature, également estimables, mais qui resteront toujours étrangères l’une à l’autre.</p>
+        <p>2º La passion du théâtre est certainement moins noble que l’amour de la lecture. Il entre beaucoup de choses dans la passion du théâtre : j’y découvre la passion de l’entr’acte et des potins de couloirs ; la passion des messieurs pour les jolies actrices ; la passion des spectatrices pour les acteurs élégants et séduisants ; la passion des dames « qui n’ont rien à se mettre » pour les modèles inédits exhibés sur la scène ; la curiosité cruelle de certains amateurs qui regardent vieillir nos gloires théâtrales ; le goût de montrer une robe nouvelle, un riche collier, des bagues somptueuses ou un habit bien coupé ; la satisfaction d’occuper une bonne place, tandis que le pauv’ peuple s’entasse au poulailler ; le désir de tuer le temps, entre le dîner et le souper, etc.</p>
+        <p>Le goût du théâtre est une forme du goût de la littérature pour une personne à peu près sur dix mille. Et c’est fort bien, car ainsi il y a peu de déçus.</p>
+        <p>On n’a pas perdu le goût des livres ; les romanciers ont perdu, par leur propre faute, des raffinés que décourageaient définitivement des œuvres sans art et sans métier. Nous avons une espèce de vaudeville livresque et d’opérette de librairie qui ne valent pas mieux que les pièces les plus médiocres. Dégager de ce fatras les ouvrages nombreux, plus nombreux que jamais, qui sont la gloire de la littérature moderne française, est une besogne ardue. On ne peut en vouloir à des ingénieurs, à des commerçants, à des industriels, à des peintres, à des musiciens, à des médecins, occupés, voire surmenés, qui, malgré toute leur bonne volonté, se sont déclarés vaincus. J’ai remarqué que bien des dames, restées fidèles aux livres, se consacrent aux plus ennuyeux ; elles plissent le front, font la grimace et les avalent comme des potions. Après quoi elles font figure d’intellectuelles. Mais le goût du théâtre ne peut pas plus remplacer le goût des livres que le goût du foot-ball ne peut remplacer celui de la philosophie. J’entends par goût du théâtre celui de la distraction brutale.</p>
+      </div>
+      <div>
+        <head>Fagus</head>
+        <byline><docAuthor key="Fagus (1872-1933)"/></byline>
+        <p>L’actuel appétit pour le théâtre — pour un certain théâtre — est commun à toutes les décadences.</p>
+        <p>Il est deux théâtres.</p>
+        <p>L’un est un élan de tous nos sens vers la divinité à quoi plus ou moins concourent toutes nos facultés, par le moyen d’à peu près tous les arts. Les grandes tragédies grecques, nos Mystères français, les <hi rend="i">autos</hi> de Calderón, <hi rend="i">Le Roi Lear</hi> ou <hi rend="i">Hamlet, Horace</hi> ou <hi rend="i">Polyeucte</hi>, les <hi rend="i">Don Juan</hi> de Molière et Mozart, les opéras de Wagner sont — pour n’évoquer que les œuvres des morts — d’éclatants exemples d’un tel théâtre, qui procède toujours de la religion, et dont l’exemple sublime est la Messe.</p>
+        <p>L’autre est un glissement des sens vers l’animalité — disons en catholique : vers le diable, — avec tous les degrés intermédiaires : depuis l’ivresse intellectuelle d’Aristophane ou Racine, l’ivresse sentimentale de Musset, jusqu’aux vésanies de Hugo, jusqu’aux turpitudes et aux idioties actuelles.</p>
+        <p>Ceci exprimé très en gros, sans tenir compte des nuances et des mélanges.</p>
+        <p>Il est indubitable que les plus beaux produits de ce théâtre-ci — et ce sont parfois des merveilles — ne prennent leur pure valeur, pour l’homme de goût, que hors la scène. À la scène seulement le reste se peut supporter.</p>
+        <p>À moins donc qu’il ne s’agisse du théâtre où Dieu est le protagoniste central, lequel se reconnaît à ceci, que par le cœur au moins les spectateurs y sont acteurs à la fois, où tous, auteur, acteurs, spectateurs agissent en communion, l’homme de goût préférera, absolument, la lecture.</p>
+      </div>
+      <div>
+        <head>Charles-Henry Hirsch</head>
+        <byline><docAuthor key="Hirsch, Charles-Henry (1870-1948)"/></byline>
+        <p>Il me semble que nos contemporains, appliquent aujourd’hui le meilleur de leurs facultés à leur action professionnelle ou rémunératrice. Hors de là, ils sont dans un état de grande fatigue intellectuelle. C’est pourquoi ceux que le bridge n’a pas encore isolés tout à fait du monde préfèrent le théâtre à la lecture.</p>
+        <p>Celle-ci demande un certain effort. On n’arrive par elle au plaisir qu’au prix d’une attention absolue. Au théâtre, il n’y a qu’à voir et entendre ; on n’a pas une page à tourner, même pas cela ; et si l’on a mal compris, on n’est pas tenté de revenir en arrière.</p>
+        <p>L’amateur de théâtre est le plus paresseux des amateurs : il paie sa place et il n’a, ensuite, qu’à se laisser faire. La vogue est aux pièces calquées sur d’anciens ouvrages, adornées de mots d’esprit que trois générations de souffleurs ont soufflés à quatre générations de comédiens. Ce choix du public prouve assez sa crainte d’une tension intellectuelle. Pour le moment, il aime, de neuf heures à minuit, le spectacle des vertus qu’il pratique le moins pendant ses heures d’activité sociale. Une des séductions du théâtre est, en outre, qu’il permet à chaque spectateur d’émettre « publiquement » son opinion, par l’applaudissement ou le silence, sur l’auteur et les interprètes. Hommes et femmes en sont flattés ; et celles-ci jouissent, en sus, de s’exposer, en belle toilette, à une lumière généralement favorable.</p>
+        <p>Voilà ce qui me paraît la réalité actuelle, pour Paris et les plus grandes villes françaises. Ce sont des îlots séparés par les villes moindres et la campagne où il existe nombre de personnes sages, très curieuses encore de lire. Elles savent couper un volume et s’appliquer à en suivre le texte. Elles recherchent le commerce spirituel du romancier, du poète, du mémorialiste ou de l’historien, pour leur demander toutes les saveurs de l’art suprême, celui de conter des histoires. Ces personnes-là sont les gardiennes du plus beau trésor national. Par elles, s’établit une sélection définitive que la critique contemporaine n’aura pas prévue ; et quelques livres, parce qu’ils sont aimés dans les bourgs ou les sous-préfectures, survivront à une littérature dramatique, assez fêtée à Paris ou dans les importants chefs-lieux, pour avoir justifié vos questions d’aujourd’hui et votre généreuse alarme.</p>
+      </div>
+      <div>
+        <head>Vincent d’Indy. Compositeur de Musique</head>
+        <byline><docAuthor key="Indy, Vincent d' (1851-1931)"/></byline>
+        <p>En réponse à votre questionnaire sur l’influence des choses de théâtre à notre époque, je vous dirai très franchement que :</p>
+        <p>1º Je ne considère pas du tout le goût de la société contemporaine pour le théâtre comme un indice de progrès intellectuel. Cela me semble constituer au contraire un signe d’affaiblissement qui peut se comparer aux phénomènes similaires de l’histoire du Bas-Empire.</p>
+        <p>2º Sans contredit, à mon sens, le goût de la lecture est supérieur à celui, tout superficiel, de la représentation. Pour moi, je préfère infiniment <hi rend="i">lire</hi> une belle partition de musique dramatique plutôt que d’assister à sa réalisation théâtrale, réalisation <hi rend="i">toujours</hi> inférieure, à mes yeux, à ce que mon imagination peut se représenter.</p>
+        <p>À mon avis, l’imbécillité du théâtre contemporain est effroyable et le scandaleux intérêt que suscite tout ce qui touche la scène ne saurait être confondu avec le goût de la littérature.</p>
+        <p>Puisque l’opinion publique est passionnément intéressée par la reprise, à la Cigale, de « Ah ! tu me l’mets ! », par les démêlés d’un quelconque Claretie avec une de ses ouailles, par l’exposé des idées de M<hi rend="sup">lle</hi> Sorel touchant l’éthique, la biologie ou l’économie sociale, par les déplacements, les projets, les vestons, et même par les vers des Rostand’s, par l’évolution du génie de Sarah Bernhardt, de Porto-Riche ou de Mayol, il est naturel qu’elle se foute éperdûment de la littérature et que l’apport magnifique d’un Charles-Louis Philippe par exemple soit méconnu.</p>
+        <p>Une société qui n’a d’amour que pour les histrions et les politiciens est une société en décomposition.</p>
+        <p>Du moins, laissez-moi cet espoir…</p>
+      </div>
+      <div>
+        <head>Georges Lecomte</head>
+        <byline><docAuthor key="Lecomte, Georges (1867-1958)"/></byline>
+        <p>Il n’est pas douteux qu’au Théâtre, le spectateur aidé par le jeu des acteurs, la matérialisation du décor et les expressives ressources de la mise en scène, n’a pas besoin de faire, pour comprendre, un effort aussi grand que pour suivre, aux pages d’un livre, l’évolution des idées et des sentiments, l’affirmation vivante des caractères. Donc si la littérature dramatique peut faire impression plus forte, elle assure et révèle un moindre développement intellectuel.</p>
+        <p>C’est surtout un art pour peuples en enfance, tout au moins encore jeunes. Le goût des livres est au contraire indice de maturité intellectuelle, de noblesse et de raffinement.</p>
+        <p>Lorsqu’un peuple voit représenter les drames de Sophocle ou de Shakespeare, les tragédies de Racine, les comédies de Molière, de Beaumarchais ou de Becque, la nourriture qu’il reçoit toute mâchée est assez substantielle pour compenser le moindre effort d’absorption.</p>
+        <p>Mais la misère et le désordre intellectuels, la contamination du goût et des mœurs, l’abaissement des caractères sont indiscutables lorsqu’on voit, comme aujourd’hui, l’élite et la foule se passionner pour un théâtre épileptique, factice, grossier ou fade, dénué d’humanité comme de fantaisie, où l’adresse tient lieu de tous autres mérites — qui est, sauf cinq ou six exceptions brillantes, le théâtre aujourd’hui triomphant — et prendre intérêt au cabotinage arrogant et infatué, au bluff mercantile, aux grotesques pantalonnades qui caractérisent en général le théâtre contemporain.</p>
+        <p>Cette incroyable patience du public français, cette basse curiosité pour tout ce qui touche aux potins, aux cabrioles, à l’esbroufe du Théâtre sont, aux yeux de beaucoup de gens, les plus graves indices d’une mauvaise santé morale et intellectuelle.</p>
+        <p>L’abîme se creuse chaque jour un peu plus entre la littérature et le théâtre. Seuls, les cinq ou six écrivains artistes dont nous parlons plus haut — et qui, en général, ne sont pas ceux qui obtiennent les plus grands succès d’argent — masquent cette faillite du théâtre contemporain.</p>
+        <p>Jamais le Théâtre Libre n’a été plus nécessaire qu’aujourd’hui. C’est si vrai qu’Antoine, fidèle à lui-même, essaie de le réouvrir en son vaste Odéon où nous voyons avec joie le succès récompenser enfin son inlassable effort, et que M. Jacques Rouché appelle, à son Théâtre des Arts, les pièces frémissantes de vérité ou de lyrisme pour les illustrer de ses délicieuses mises en scène.</p>
+      </div>
+      <div>
+        <head>Camille Mauclair</head>
+        <byline><docAuthor key="Mauclair, Camille (1872-1945)"/></byline>
+        <p>Le goût de la société contemporaine pour le théâtre n’existe à peu près pas : ce qui existe, c’est son engouement pour le tréteau et le cabotin, et seuls « réussissent » les fournisseurs adroits et serviles qui, par les diverses combinaisons du cabotin et du tréteau, amusent cette société. Trois ou quatre exceptions honorables ne font que confirmer cette règle. Il y a donc décadence, et combien lamentable !</p>
+        <p>Le spectacle ne saurait mettre en jeu les mêmes facultés spirituelles que la lecture. Le Théâtre n’est pas le Livre. L’amour de la lecture et la passion du Théâtre (j’insiste à dessein sur cette majuscule) sont égaux en beauté et en enrichissement, et la culture de la sensibilité et du goût implique une dilection simultanée de tous les arts. Le goût du Théâtre est donc bien une forme du goût de la Littérature. Mais la planche et l’histrion avilissent le Théâtre et ne le représentent point. Si vous parlez du misérable étalage de comédies, défraîchies après chaque saison, que nous présente un trust de fabricants infatués et avides, est-il possible d’hésiter devant votre dernière question ? La lecture d’un beau livre dépasse en joie et en profit pour le cœur et l’esprit vingt années d’un tel gaspillage scénique : le dégoût du tréteau et le respect du livre sont des gages de santé et de loyauté intellectuelle.</p>
+      </div>
+      <div>
+        <head>André Maurel</head>
+        <byline><docAuthor key="Maurel, André (1863-1943)"/></byline>
+        <p>Chaque époque se crée les divertissements qui lui conviennent, et bien fin le contemporain qui pourrait dire si son choix est un progrès ou une décadence, puisque cela ne se peut distinguer qu’aux conséquences posthumes.</p>
+        <p>Je ne crois pas, d’autre part, que le goût de la lecture soit aussi perdu que vous le dites. Voyez les librairies. On en trouve à chaque coin de rue. Presqu’autant que de pharmacies. Si on n’achetait pas nos « drogues », elles fermeraient. La vérité est que le théâtre fait beaucoup plus « de poussière » parce qu’il satisfait non seulement et quelquefois l’esprit, mais encore et toujours la vanité et la sensualité, qu’il est prétexte à mille négoces ; d’où un surmenage de publicités de tous genres autour de lui. Trente mille personnes à Paris vont au théâtre, chaque soir. Quatre fois plus restent au coin du feu et lisent, mais on ne les voit pas. Là est l’erreur des journaux qui travaillent pour les trente mille seulement, l’erreur professionnelle j’entends, car le directeur qui veut sa loge aux répétitions générales et le sourire des actrices à la répétition quotidienne, ce directeur sait fort bien ce qu’il fait.</p>
+        <p>Est-ce que ça vous gêne ?</p>
+      </div>
+      <div>
+        <head>Henri Mazel</head>
+        <byline><docAuthor key="Mazel, Henri (1864-1947)"/></byline>
+        <p>Assurément, non, le spectacle ne met pas en jeu les mêmes facultés spirituelles que le livre ! Mais il n’en résulte pas forcément que l’homme qui a l’amour de la lecture soit supérieur à l’homme qui a la passion du théâtre. Dans ce dernier genre, il y a bien force lourdauds incapables du plus petit effort intellectuel et qui d’ailleurs ne goûtent au théâtre que la partie vulgaire, niaise ou grivoise. Mais quoi, dans le premier genre il y a aussi pas mal de pédants racornis et enfumés !</p>
+        <p>Supérieur à tous deux serait celui qui aurait l’amour de la vie réelle, l’observateur ou le producteur ; mais à défaut de ceci il est aussi légitime de voir la réalité à travers l’imagination du faiseur de livres qu’à travers l’imagination du faiseur de pièces.</p>
+        <p>Le goût du théâtre est mieux qu’une forme du goût de la littérature, c’est une forme aussi du goût de la musique, de la peinture décorative, de la danse, de l’esthétique plastique. En ceci le théâtre dépasse certainement la littérature, mais il reste en deçà d’elle pour les expressions de pensée philosophique, de rêve poétique, aussi d’analyse psychologique, car il ne procède que par raccourcis, par éclairs… et tout le monde n’est pas Shakespeare ou Racine !</p>
+        <p>Si je préférerais qu’on ait gardé le goût des livres ou qu’on s’adonnât de plus en plus au goût du théâtre ? Personnellement je souhaiterais qu’on eût les deux. L’homme qui aime à lire avant tout du Racine ou du Shakespeare représente un type préférable au rat de bibliothèque et au matou d’opéra. Maintenant, si je parle ainsi, c’est peut-être que je suis orfèvre, n’ayant guère fait, littérairement parlant, que du théâtre injoué.</p>
+        <p>Donc que tout le monde se rassérène et qu’on ne sorte pas à propos de notre goût grandissant pour les planches, les grands mots de progrès ou de décadence. La civilisation tient heureusement à d’autres causes. Pourvu qu’on n’exagère pas les choses, on peut légitimement aller se délasser, le soir au théâtre, et même au music-hall. Il y a d’ailleurs plus d’art et aussi de moralité dans un ballet lumineux, harmonieux et même voluptueux des Folies-Bergère que dans les neuf dixièmes de nos comédies et de nos drames d’adultère des grands et petits théâtres du boulevard.</p>
+      </div>
+      <div>
+        <head>Pierre Mille</head>
+        <byline><docAuthor key="Mille, Pierre (1864-1941)"/></byline>
+        <p>Le public va au théâtre parce que, tout compte fait, il y est moins volé que chez les libraires ! Dans les œuvres qui ont été présentées au directeur du théâtre, celui-ci a fait un choix. Il l’a mal fait, si vous voulez, mais il l’a fait, <hi rend="i">en se mettant au point de vue de la tranche du public la plus large possible</hi>. Le libraire a le droit d’avoir ce souci à un beaucoup moindre degré. Avec deux ou trois cents exemplaires vendus, il couvre ses frais. Et d’ailleurs n’y a-t-il pas plus d’écrivains qui payent pour être imprimés que d’auteurs qui payent pour être joués ? Donc prenez un homme moyen, moyennement intelligent, moyennement cultivé, moyennement sensible… Parlons d’avance le langage de la postérité, la poire ordinaire ! En entrant au hasard dans n’importe quel théâtre, cet homme moyen aura moins de chances de s’ennuyer qu’en prenant au hasard n’importe quel livre à l’étalage d’un libraire.</p>
+        <p>Si cette réponse odieusement terre à terre ne vous suffît pas, je me permets de vous renvoyer à un livre récent de M. Ernest Bovet, <hi rend="i">Lyrisme, épopée, drame</hi>, dont la thèse ingénue et hardie à la fois a quelques chances d’être vraie. Les sociétés, dit-il, ont leurs périodes de jeunesse, de maturité, et non pas de décadence, mais de crise, où elles examinent a les valeurs » sur lesquelles elles avaient vécu tranquillement jusqu’alors. Leur jeunesse est lyrique, leur maturité est épique ou romanesque — c’est la même chose, leur âge critique est dramatique. Hugo a dit quelque chose comme cela, vous le savez bien, dans la préface de <hi rend="i">Cromwell</hi>. Mais il appliquait cette théorie à l’histoire de l’humanité tout entière. Bovet ne l’applique qu’à des époques successives d’une même littérature. En tout cas notre romantisme a commencé par être lyrique. Il a été ensuite épique et romanesque. Et maintenant il est dramatique, c’est peut-être bien qu’il est en train de finir, si Bovet a raison.</p>
+        <p>Mais, s’il en est ainsi, quand une société nouvelle se sera reconstituée, ou plutôt commencera de naître, le cycle recommencera, et nous verrons reparaître « l’amour de la lecture », dont vous me paraissez pleurer la perte.</p>
+      </div>
+      <div>
+        <head>Robert de Montesquiou</head>
+        <byline><docAuthor key="Montesquiou, Robert de (1855-1921)"/></byline>
+        <p>Celui qui voit et revoit, avec passion, <hi rend="i">Le Mystère de saint Sébastien, Le Vieil Homme</hi> ou <hi rend="i">La Femme nue</hi>, me paraît aussi estimable que celui qui lit et relit, avec assiduité, <hi rend="i">Forse che sì…, Les Désenchantées</hi> et <hi rend="i">Greco ou le Secret de Tolède.</hi></p>
+        <p>Mais celui qui s’enivre des « <hi rend="i">Souffles</hi> » de la Duchesse de Rohan ne me paraît ni supérieur, ni inférieur à celui qui applaudit « <hi rend="i">Un cas</hi> » de la Duchesse d’Uzès.</p>
+      </div>
+      <div>
+        <head>Eugène Montfort</head>
+        <byline><docAuthor key="Montfort, Eugène (1877-1936)"/></byline>
+        <p>Ce qui prouve la supériorité du livre, c’est qu’une pièce de théâtre n’est belle et n’a chance de durée que si elle peut être lue. Une pièce de théâtre ne vaut quelque chose que si elle peut devenir un livre.</p>
+        <p>Or, à de rares exceptions près, le théâtre d’aujourd’hui est illisible. Ce n’est point l’avis du public, qui se précipite, paraît-il, sur les suppléments de <hi rend="i">L’Illustration</hi>. Mais c’est bien l’opinion unanime des gens qui savent ce que c’est qu’un livre et qu’une œuvre d’art.</p>
+        <p>D’ailleurs, le théâtre d’aujourd’hui ne semble nullement inférieur à celui d’hier. Dumas, Augier, Sardou, Pailleron : voilà des auteurs dramatiques qui étaient de bien plats et de bien piètres écrivains !… Mais le public, lui, a certainement baissé ; le public est lamentable.</p>
+      </div>
+      <div>
+        <head>Péladan</head>
+        <byline><docAuthor key="Péladan, Joséphin (1859-1918)"/></byline>
+        <p>Le théâtre ! Quel théâtre ?</p>
+        <p>Celui de trois grecs, un anglais, deux français, deux allemands. Oh ! celui-là est au-dessus de tout ; car c’est la seule forme littéraire qui réunisse les Beaux-Arts aux Belles-Lettres, et où la beauté plastique et la beauté vocale servent incomparablement la beauté verbale.</p>
+        <p>Mais, direz-vous, ce théâtre-là n’a qu’une scène, une demi-douzaine d’acteurs et de très rares représentations où l’on sent l’insuffisance des répétitions ?</p>
+        <p>Quant à l’autre théâtre il y a <hi rend="i">Le Bossu</hi>, très remarquable, et <hi rend="i">Le Voyage de M. Perrichon…</hi></p>
+        <p>Le spectacle met en jeu la sensibilité, il est d’essence animique et très inférieur à la lecture, d’essence spirituelle.</p>
+        <p>Mais il y a pis que le théâtre — il y a le cinéma qui abrutira les basses classes par sa laideur et son mutisme, sinistre invention qui tuera le vrai théâtre comme l’illustration tend à réduire la lecture aux légendes des ignominieuses instantanées.</p>
+      </div>
+      <div>
+        <head>Edmond Pilon</head>
+        <byline><docAuthor key="Pilon, Edmond (1874-1945)"/></byline>
+        <p>1º <hi rend="i">L’extérieur</hi> de la scène, des coulisses, du décor l’emportant, dans chaque genre, sur la beauté, le sentiment, l’attrait intime de l’œuvre représentée, voilà le spectacle plaisant auquel nous assistons chaque jour, en plus de celui que jouent les acteurs. À cela rien de bien nouveau. De tous temps, nos Français ont aimé avec passion les divertissements que le théâtre amène à sa suite : la forme du nez de Lekain, la maigreur de poitrine de la Guimard, les grâces de M<hi rend="sup">lle</hi> Gaussin, Duthé ou Dumesnil, les pirouettes de Vestris, sans compter les cabales, protections, dénigrements systématiques des critiques, ordres du pouvoir pour imposer ou retirer les comédies, tout cela s’est manifesté avec ardeur jadis. À travers mille pamphlets, satires, libelles, le souvenir nous est resté de ces disputes, et cela, dans le temps le plus favorable et le plus policé de nos lettres ! Ainsi, l’attachement exagéré dont notre société française fait preuve depuis plus de dix ans envers un théâtre souvent de second ordre, a régné déjà à l’époque où Voltaire et Diderot, qui étaient parmi les plus grands, se croyaient tenus à sacrifier eux-mêmes à la Muse tragique. Encore Diderot qui, plus que nos modernes, possédait le sens et la mesure des choses, disait-il que « le grand comédien est un pantin merveilleux dont le poète tient la ficelle » ; tandis que, s’il vivait de nos jours, il lui faudrait penser que c’est, maintenant, dans beaucoup de cas, tout le contraire qui arrive, le comédien tenant le plus souvent la ficelle du poète.</p>
+        <p>2º Le livre, « instrument spirituel », le livre si cher, si expressif, que nous aimons, le livre qui doit tout à lui-même et non à des éléments étrangers, à un jeu d’acteurs ou un rayon du feu de la rampe, le livre a-t-il à souffrir, dans son destin, de ces excès du théâtre ? Sans doute, s’il est vrai que les choses scéniques détournent bien des lecteurs, accaparent bien des cerveaux, retiennent bien des attentions qui n’ont plus, dès lors, le temps, ni la force de s’abandonner aussi librement ailleurs.</p>
+        <p>Mais, voilà bien où est la revanche du livre : c’est que c’est uniquement par le livre que peut durer le seul, le vrai théâtre : la passion de Racine, la grâce de Marivaux, l’ironie de Beaumarchais, la langueur de Musset, l’à-propos de Banville, la verve amère et railleuse de Becque se dégagent, se comprennent autrement mieux dans le silence du recueillement, dans la paix des lectures qu’au-devant de l’éclat des lustres et le feu des tréteaux. Il est, en effet, un prodigieux théâtre : c’est celui que nous édifions à notre goût en pensée, où nous nous représentons à nous-mêmes, sur un idéal décor, les pièces qui nous émeuvent ou nous charment le plus, celles que ne jouent pas toujours des acteurs, que le public ignore, que les lustres ne contribuent pas à montrer rayonnantes.</p>
+      </div>
+      <div>
+        <head>Michel Puy</head>
+        <byline><docAuthor key="Puy, Michel (18..-19..)"/></byline>
+        <p>La première condition pour s’intéresser au théâtre, c’est de ne pas y aller. Les jeunes filles auxquelles il est défendu, les provinciaux qui en sont privés, les Parisiens qui en sont écartés par des tarifs prohibitifs, lisent assidûment dans les journaux et les magazines le compte-rendu des pièces, la description des toilettes, l’analyse du jeu des acteurs. Que la jeune fille se marie, que le provincial passe huit jours à Paris, que le Parisien reçoive quelques billets de faveur, et ils sont guéris d’une passion toute superficielle.</p>
+        <p>Le théâtre, à Paris, est fréquenté par les étrangers, qui ne sont pas blasés sur les plaisirs faciles, par des jeunes gens, qui, n’ayant pas de famille, tuent leurs soirées dans les salles de spectacle, et par les personnes qui, ayant l’habitude de se coucher tard, se réfugient dans les endroits où il y a de la lumière et du bruit. Tout ce monde, par divertissement, apprend les noms des auteurs et prête attention à leurs gestes et à leurs attitudes, comme l’habitué d’un café connaît la physionomie de la caissière et s’amuse à distinguer les diverses inflexions de voix des garçons pour crier : « Boum ! un bock ! »</p>
+        <p>Aujourd’hui les magazines répandent dans tous les milieux les noms et les portraits des actrices et l’analyse des pièces ; il en est de même des modes nouvelles : dans le moindre village, on a vu des coiffures à la grecque et des robes entravées. On est de plus en plus informé de ce qui se passe au théâtre, mais on y va de moins en moins. Et cela se comprend : qui donc aime à s’ennuyer ?</p>
+        <p>Le goût du théâtre est parfois une forme du goût de la littérature, et il arrive que le théâtre éveille chez les jeunes gens l’amour de la lecture, comme de pauvres articles de vulgarisation peuvent les conduire à des études scientifiques. Mais en général le goût du théâtre correspond uniquement à ce besoin surtout physique que nous éprouvons tous, par moment, de nous rendre dans des endroits fréquentés. Il ne pourrait remplacer le goût de la lecture que chez les gens qui lisent pour se divertir, sans aucune préoccupation d’ordre intellectuel, et la lecture ainsi comprise me paraît beaucoup moins recommandable que la promenade et les sports.</p>
+      </div>
+      <div>
+        <head>Rachilde</head>
+        <byline><docAuthor key="Rachilde (1860-1953)"/></byline>
+        <p>Je pense que la société contemporaine a le goût de l’<hi rend="i">exhibition</hi> poussé au point précis où commence la névrose. Tragédie dans la rue, comédie au salon, tout finit par la pose, et la photographie indiscrète double d’une ombre éternelle, hélas, les attitudes les plus éphémères, sinon les plus ridicules.</p>
+        <p>Il devrait être interdit aux Messieurs bavards de monter sur les planches, avec ou sans verre d’eau sucrée.</p>
+        <p>Il faudrait faire doucement circuler les dames qui désirent voir onduler leur chapeau <hi rend="i">aéroplane</hi> au-dessus d’une estrade… et flanquer en pénitence les jeunes enfants qui jouent… sur le plateau.</p>
+        <p>Personne, certainement, n’a le temps de lire. La lecture est tout de même préférable au théâtre pour l’éducation de l’intelligence. Mais la lecture est presque une étude, comme tout ce que l’on fait dans le silence, tandis que le théâtre n’est qu’un amusement, la distraction, la jonglerie. Le théâtre est l’école des mauvaises mœurs, en ce sens qu’il désapprend l’art de réfléchir. Celui qui ne réfléchit pas et a les yeux brûlés par des projections trop lumineuses est prêt pour le mauvais coup, moral ou physique : il est ivre.</p>
+        <p>Il paraît qu’en Argentine et au Brésil les femmes ont pris tellement de leçons d’attitudes gracieuses qu’elles ne peuvent plus s’écrier : <hi rend="i">Tiens, vous voilà</hi> ! sans arrondir des gestes grecs détachés de quelque frise célèbre.</p>
+        <p>Nous ne sommes pas plus naturels en France, mais comme nous sommes moins beaux que les citoyennes du Sud, nous avons tous l’air de vieux comiques jouant les jeunes premiers.</p>
+        <p>Le meilleur spectacle est de contempler une soirée bien moderne. Au théâtre comme dans le monde, la scène à faire est toujours dans la salle. On y rencontre tous les grands rôles, depuis le bandeau de la princesse coupable jusqu’à la mèche fatale du ténébreux poète. Les femmes, les jeunes filles ne sont plus habillées ; elles sont déguisées.</p>
+        <p>On oublie l’amour de la vie pour l’amour de la ligne.</p>
+        <p>Un homme se précipite du haut de la tour Eiffel…</p>
+        <p>Une femme attend son mari infidèle sur la jetée…</p>
+        <p>Opération de l’appendicite sur une midinette…</p>
+        <p>Le roi d’Espagne sourit…</p>
+        <p>Manteau de la reine d’Angleterre…</p>
+        <p>Mannequins de la rue de la Paix…</p>
+        <p>Les chiens de Colette Willy…</p>
+        <p>Ministère glissant et tombant sur la peau d’un mandarin…</p>
+        <p>Tout est spectacles, attitudes, poses, déclamations, proclamations, monômes, défilés de grévistes et d’enterrements, duels, missions humanitaires et chasses présidentielles !…</p>
+        <p>Le geste, depuis quelque temps, dépasse toujours la pensée, si le mot ne passe pas toujours la rampe.</p>
+        <p>Le théâtre est un délassement. Donc les jeux du cirque, même à défaut de pain bon marché, sembleraient suffisants au bonheur d’un peuple relativement spirituel. Quand le théâtre devient sérieux, il devient dangereux ou il nous assomme.</p>
+        <p>Je connais des enfants qui ont pris le goût du meurtre au guignol du Luxembourg.</p>
+        <p>… Et je sais des antimilitaristes qui suivront les retraites en musique de M. Millerand !</p>
+        <p>La littérature, la vraie, ne peut pas s’installer au théâtre, parce que le bruit d’un cœur battant est étouffé par le bruit des gens qui marchent. Sur la scène personne ne peut demeurer en place, et des comédiens, assis tout une soirée, malgré les belles choses qu’ils tâcheraient d’exprimer, feraient un four noir.</p>
+        <p>Un chef-d’œuvre lu reste un chef-d’œuvre. Le même chef-d’œuvre joué, interprété, peut devenir, pour le lettré, absolument lettre morte, et cela, en dépit des efforts des bons interprètes et de la valeur des toiles de fond. Alors ?…</p>
+        <p>… Alors le rêve serait d’emporter un livre intéressant au théâtre, quand il faut y aller… mais les directeurs malins ont prévu ça : et ils font la nuit dans la salle !…</p>
+      </div>
+      <div>
+        <head>Paul Reboux</head>
+        <byline><docAuthor key="Reboux, Paul (1877-1963)"/></byline>
+        <p>Oui, le théâtre a la faveur du public. Cet art est secondaire. Aussi me paraît-il naturel que, malgré les mérites qu’il offre encore, il puisse contenter la société contemporaine.</p>
+        <p>Toutefois, il offre cette indiscutable supériorité : obliger les gens à être sincères. Le snobisme peut faire admettre, par un public servile, prétentieux et abêti, des œuvres littéraires dépourvues de vie et de vérité, des œuvres plastiques propres à révolter le bon sens et le goût. Mais au théâtre, le public ne « marche » pas. Il lui faut ce qu’il demande, c’est-à-dire des cinglements de fouet, ou des attendrissements bleus et roses, ou des exhibitions de derrières. Spéculez sur la larme à l’œil, la chair de poule ou la chair de p… Hormis cela, n’attendez nul succès. Ne faites aucun fonds sur vos contemporains. N’espérez pas qu’ils apprécieront vos efforts, qu’ils aimeront une œuvre saine, forte et belle.</p>
+        <p>Mais notez que je parle ici d’une appréciation collective. Un public peut être composé de personnes intelligentes. On sait que la valeur de toute collectivité décroît en proportion directe du nombre des éléments associés. Ce public idiot, vous en êtes ; moi aussi.</p>
+      </div>
+      <div>
+        <head>J.-H. Rosny aîné</head>
+        <byline><docAuthor key="Rosny aîné, J.-H (1856-1940)"/></byline>
+        <p>Décadence est un bien gros mot. Mais l’intérêt excessif que nous portons aux cabotins, aux cabotines et au cabotinage est évidemment une faiblesse, et bien ridicule ! Le spectacle peut mettre en jeu les mêmes facultés spirituelles que la lecture, avec moins de subtilité, toutefois, et moins de force.</p>
+        <p>Le public hétéroclite et cosmopolite de nos jours, les frais de la mise en scène, les cachets élevés des acteurs, ne permettent pas de faire jouer « avantageusement » des pièces d’un mérite supérieur.</p>
+        <p>Personnellement, je préférerais qu’on eût gardé chez nous le goût des livres.</p>
+      </div>
+      <div>
+        <head>Paul Souday</head>
+        <byline><docAuthor key="Souday, Paul (1869-1929)"/></byline>
+        <p>Le goût du théâtre me semble un sérieux indice de développement intellectuel. Je ne crois pas du tout que l’art de Sophocle et de Racine, de Shakespeare et de Molière, soit un art inférieur. Notre époque a connu Becque et Ibsen. Elle possède encore François de Curel, Georges de Porto-Riche, Donnay, Capus, Lavedan, Bataille, et bien d’autres, que je ne puis tous énumérer, mais qui comptent dans la littérature. On joue beaucoup de pièces médiocres ? Mais est-ce qu’on ne publie pas une quantité de romans détestables, qui obtiennent les plus grands succès ?</p>
+        <p>Je ne vois pas pourquoi l’« amour de la lecture » et la « passion du théâtre » seraient incompatibles. Voltaire et Goethe, pour ne citer que ces exemples, les conciliaient très bien. Le livre et le spectacle sont deux éléments essentiels d’une culture littéraire complète. Des hommes graves, des spécialistes, des savants, peuvent se borner à lire, parce qu’ils lisent des choses qui en valent la peine. Mais si nous considérons la masse, nous constatons qu’elle ne lit guère que des romans. Alors, à l’amateur exclusif de ce genre de lecture, je préfère encore l’exclusif amateur de théâtre.</p>
+      </div>
+      <div>
+        <head>Maurice Spronck. Député</head>
+        <byline><docAuthor key="Spronck, Maurice (1861-1921)"/></byline>
+        <p>Il y a théâtre et théâtre ; il existe des drames ou des comédies qui me paraissent parmi les plus rares chefs-d’œuvre de l’esprit humain ; j’ajoute tout de suite que ce n’est pas vers eux que se porte généralement « le goût de la société contemporaine » et que l’intérêt manifesté par le public pour tout ce qui touche les acteurs, les chandelles, les planches et les coulisses, n’a rien à voir, selon moi, avec la littérature, ni avec le développement intellectuel de notre civilisation.</p>
+        <p>J’inclinerais à penser que le théâtre — très noble forme d’art, en soi — est entré et devait entrer en décadence à partir du moment où se perfectionnèrent la mise en scène et la machinerie. Il y eut, dans l’emploi des trucs, ou, plus simplement, dans l’exhibition des costumes, des toilettes et des décors, une manière facile de flatter les plus vulgaires instincts des foules ; on ne manqua pas d’user de ce moyen.</p>
+        <p>Par malheur, ces exhibitions exigeaient des mises de fonds considérables, et augmentaient ainsi dans des proportions énormes les aléas commerciaux de toute entreprise théâtrale. Dès lors, aucun directeur avisé ne pouvait se permettre la moindre tentative littéraire un peu hardie, où il risquait sa ruine.</p>
+        <p>Aujourd’hui, une pièce qui n’obtient pas, au minimum, cent représentations, est un four noir, autrement dit, une mauvaise opération financière. Il y a donc une moyenne de cent mille amateurs à contenter. Pour de pareilles masses, le seul théâtre qui convienne me semble celui qui correspond littérairement aux feuilletons des journaux à grands tirages. Et c’est de la littérature, si l’on veut ; mais chacun a le droit de lui mesurer son admiration.</p>
+      </div>
+      <div>
+        <head>J.-J. Tharaud</head>
+        <byline><docAuthor key="Tharaud, Jérôme (1874-1953)"/></byline>
+        <p>Nous n’avons aucune idée sur l’objet de votre enquête.</p>
+        <p>Par exemple, ce que nous savons bien, c’est que nous n’allons presque jamais au théâtre.</p>
+      </div>
+      <div>
+        <head>Octave Uzanne</head>
+        <byline><docAuthor key="Uzanne, Octave (1852-1931)"/></byline>
+        <p>À votre enquête : « <hi rend="i">Aimez-vous le Théâtre</hi> ? », Balzac — me semble-t-il — a déjà répondu, il y a soixante et dix ans, — à une époque où la question se posait déjà avec la même acuité.</p>
+        <quote>
+          <p>« Un livre, écrivait-il, vaut toute une vie, une pièce de théâtre demande un mois. Pour hésiter, que faut-il être ? “Un sot” dit la Chaussée-d’Antin. “Un homme de valeur” disent les artistes. »</p>
+        </quote>
+        <p>Le théâtre est une <hi rend="i">industrie</hi> plutôt qu’un <hi rend="i">art</hi>. En notre temps plus encore que naguère. Les gens les plus dépourvus de littérature, d’idées générales et d’esprit, y peuvent fort bien réussir dans les divers genres qui se sont développés de préférence à Paris, depuis vingt ans surtout. Le théâtre est à l’art littéraire ce que la peinture des décors grossièrement brossés est à l’art des tableaux qui réclame impérieusement de ceux qui s’y adonnent du talent, de la technique, du goût et de l’originalité.</p>
+        <p>Au théâtre, tout est en trompe-l’œil et en fausse esthétique ; c’est un métier à ficelles, à gros effets, où tout ce qui est finesse d’esprit, subtilité de verbe, délicatesse de pensée, ne peut franchir la rampe ; une pensée de Chamfort tomberait dans le vide, un vers de Baudelaire serait sans effet.</p>
+        <p>C’est précisément l’opposé du sincère labeur intellectuel qui expose, développe, analyse avec le rythme et la couleur d’un style qui est comme la marque individuelle, la signature même de l’écrivain.</p>
+        <p>L’auteur dramatique charpente, assemble, groupe ; il s’efforce de faire vivre, par effets de mise en scène, une action, d’exprimer par des synthèses expressives des caractères d’humanité, de tirer des effets compliqués de certains conflits personnels, <hi rend="i">presque toujours les mêmes</hi>.</p>
+        <p>Son rôle est d’une intellectualité secondaire.</p>
+        <p>Il doit se garder de faire penser les spectateurs qui ne désirent que <hi rend="i">s’amuser</hi> ou <hi rend="i">s’émouvoir</hi>. Il lui faut encore <hi rend="i">se diminuer</hi> dans son idéal toujours et sans cesse, au gré des directeurs de spectacles, des acteurs et surtout des actrices en renom, renoncer à toutes audaces et se résoudre à plaire à une collectivité qui ne peut être, quoi qu’il advienne, qu’une <hi rend="i">médiocratique agglomération de jugements</hi>, effarouchables à l’excès et n’ayant rien de comparable au jugement individuel, salutaire, élevé, supérieur et indépendant d’une élite de lecteurs.</p>
+        <p>Un livre est quelquefois <hi rend="i">une œuvre</hi>, une pièce de théâtre est toujours une affaire.</p>
+        <p>Dans un livre, les profonds écrivains font passer des expressions d’âme, traduisent noblement leur idéal, témoignent de la profondeur de leurs visions et nous imprègnent de leur personnalité. Les hommes de théâtre ne travaillent qu’à la décadence du goût et favorisent inconsciemment par leur complaisance aux frivolités du jour nos pires mœurs sociales.</p>
+      </div>
+      <div>
+        <head>Fernand Vandérem. Romancier et auteur dramatique</head>
+        <byline><docAuthor key="Vandérem, Fernand (1864-1939)"/></byline>
+        <p>La passion du théâtre a-t-elle progressé ?</p>
+        <p>Probablement, puisque tout augmente. Mais la passion de la lecture aussi : témoin, le succès des nombreuses collections de romans à prix réduit, la multiplication incessante des magasins littéraires.</p>
+        <p>Ce qui me frapperait plutôt chez le public actuel, ce n’est pas sa passion pour les choses de la scène, c’est le respect qu’elles lui inspirent. Soit effet de la publicité intensive, soit éblouissement devant les bilans de recettes, soit penchant naturel vers ce que l’on comprend mieux, il est évident qu’aujourd’hui, pour la masse moyenne, le théâtre constitue « la branche » la plus haute de l’arbre littéraire. Certes, le public ne refuse pas ses égards, ni même parfois ses tendresses à la poésie, au roman, à l’histoire. Mais ces spécialités gardent pour lui un caractère d’exercices arbitraires, aléatoires, frivoles. Et, sauf le cas de triomphe éclatant, il ne les prendra jamais au sérieux comme le théâtre.</p>
+        <p>« Eh bien ! songez-vous un peu au théâtre ? » — ou :</p>
+        <p>« Et maintenant, quand nous donnez-vous une belle pièce ? » — voilà le meilleur compliment que puisse espérer, à l’heure présente, un jeune poète ou un jeune romancier. Le proclamer à point pour le théâtre, le juger digne du genre supérieur, comment lui faire plus bel éloge ? Ce n’est pas encore la promotion en grade. Mais c’est déjà l’inscription au tableau d’avancement.</p>
+        <p>Pour lutter contre cette superstition, les moyens sont rares et malaisés. Dire au public, comme on fait souvent pour le dégoûter, que le théâtre est le contraire de la littérature ? Absurdité que démentent tant de noms illustres : Molière, Corneille, Racine, Hugo, Becque.</p>
+        <p>Mieux vaudrait peut-être un simple parallèle entre la vitalité des pièces de théâtre et celle des autres ouvrages littéraires. Que sont devenues, comment même s’appelaient, par exemple, toutes ces pièces à succès qui remplirent de leur triomphe la saison de 1857 — année de <hi rend="i">M<hi rend="sup">me</hi> Bovary</hi> et des <hi rend="i">Fleurs du mal</hi> — ou la saison 1881 — année de <hi rend="i">Sagesse</hi> — et ainsi de suite ?</p>
+        <p>Quelques questions de ce genre, ingénieusement posées, ramèneraient vite le public à des idées plus justes sur la hiérarchie littéraire. Car, s’il ne va pas d’instinct aux belles étoffes, il aime bien les étoffes qui durent.</p>
+      </div>
+      <div>
+        <head>Jean Viollis</head>
+        <byline><docAuthor key="Ardenne de Tizac, Henri d' (1877-1932)"/></byline>
+        <p>Je vis sans doute hors de notre époque, puisqu’elle porte tant d’intérêt « au théâtre », à tout ce qui touche les chandelles, les planches et les coulisses. En fait de chandelle, je souffle la mienne tous les soirs à neuf heures, et m’en trouve bien.</p>
+      </div>
+      <div>
+        <head>[Articles]</head>
+        <byline><docAuthor key="Téry, Gustave (1871-1928)"/></byline>
+        <byline><docAuthor key="Pawlowski, Gaston de (1874-1933)"/></byline>
+        <p>Plusieurs articles ont paru dans les journaux sur le sujet de notre enquête. M. Pierre Mille, dont on a trouvé plus haut la réponse directe, y a consacré sa chronique du <hi rend="i">Temps</hi>, et M. du Fresnois sa note quotidienne de <hi rend="i">Gil-Blas</hi> : M. Le Cardonnel un article dans <hi rend="i">Paris-Journal</hi> et M. Guitet-Vauquelin un article dans le <hi rend="i">Daily Mail</hi>.</p>
+        <p>Mais voici les articles publiés par M. de Pawlowski, directeur de <hi rend="i">Comœdia</hi>, et Gustave Téry, « leader » du <hi rend="i">Journal.</hi> Nous les reproduisons, parce qu’ils nous ont semblé l’un et l’autre caractéristiques :</p>
+        <label rend=" i">Le Théâtre et le Livre</label>
+        <quote>
+          <p>« L’intéressante revue <hi rend="i">Les Marges</hi> s’émeut du succès toujours croissant du théâtre contemporain et elle enquête pour savoir si ce goût est bien une forme du goût littéraire. Elle demande à ses lecteurs s’il n’eût pas été préférable de conserver chez nous le goût des livres.</p>
+          <p>« Cette enquête est fort intéressante parce qu’elle met en lumière une préoccupation constante des lettrés d’aujourd’hui, mais je me demande, très franchement, si elle est bien justifiée.</p>
+          <p>« À mon sens, il n’existe qu’un rapport fort éloigné entre le livre et le théâtre. Le théâtre a remplacé chez nous l’éloquence de la tribune ; il a transporté les conversations de salons sur la scène, mais jamais en aucune manière, il ne pourra avoir une influence directe sur <hi rend="i">le livre</hi> digne de ce nom. Le livre s’adresse plus encore aux générations futures qu’à celle de son temps. Il est une œuvre humaine qui dure au travers des siècles. Le théâtre ne s’anime qu’aux chandelles ; il ne vit, le plus souvent, que de la vie de ses interprètes, que des préoccupations du moment, et lorsqu’il atteint au chef-d’œuvre, comme dans le théâtre classique, il se rapproche beaucoup plus du livre que de la scène.</p>
+          <p>« Que l’on préfère aujourd’hui le théâtre au livre, rien de plus compréhensible. Cela tient d’abord à ce fait très simple que l’on n’écrit plus — ou presque jamais — de livres dignes de ce nom. On réédite, en mauvais français, les idées des littérateurs d’hier, et l’on comprend qu’une pareille lecture n’ait aucun attrait.</p>
+          <p>« Aujourd’hui comme hier, il y a des gens capables de lire et de comprendre, mais à condition qu’on leur offre des idées véritablement nouvelles et des sensations d’art originales.</p>
+          <p>« La littérature famélique d’aujourd’hui vit des restes du festin d’hier ; elle ne peut s’imposer aux délicats et aux lettrés. Le théâtre est, au contraire, une tribune agréable qui nous instruit en quelques minutes des goûts et des instincts du jour. C’est un instructif cinéma moral que nous pouvons contempler sans fatigue.</p>
+          <p>« Nous lirons demain quand on nous donnera quelque chose à lire de nouveau. Nous nous instruisons, en attendant, au théâtre ; nous apprenons à comprendre l’évolution d’où sortira le monde futur. Le livre est immortel, le théâtre n’est qu’une école. Attendons avec patience que les écoliers d’aujourd’hui, devenus des hommes nouveaux, écrivent des livres dignes de ceux que l’on écrivait hier.</p>
+          <p rend="right">« G. de <hi rend="sc">Pawlowski</hi> » (<hi rend="i">Comœdia</hi>).</p>
+        </quote>
+        <label>Les jours se suivent…</label>
+        <quote>
+          <p>« Que pensez-vous du goût de la société contemporaine pour le théâtre ? nous demande la revue <hi rend="i">Les Marges</hi>. Ce goût constitue-t-il, à vos yeux, un indice de progrès intellectuel ou de décadence ? Est-il bien une forme du goût de la Littérature ? Préféreriez-vous qu’on eût gardé le goût des livres ? etc. »</p>
+          <p><hi rend="i">Les Marges</hi> posent une question classique. On sait d’avance la réponse qu’il convient d’y faire, ce qui est bien commode. Déclarez que l’art dramatique est un art inférieur, et toutes les petites revues rendront hommage à la supériorité de votre esprit.</p>
+          <p>Aux yeux des littérateurs, dont les bouquins ne se vendent pas, l’art dramatique a, en effet, deux défauts terribles : le premier, c’est qu’une bonne pièce plaît à beaucoup de gens, ce qui est la preuve évidente de sa médiocrité ; le second, c’est que l’auteur de la pièce gagne de l’argent, ce qui est infiniment méprisable.</p>
+          <p>Si j’avais le temps d’avoir un avis sur cette question oiseuse, j’oserais soutenir cette thèse hardie que l’homme, qui veut nous faire part de ses idées ou de ses sentiments, dispose à cette heure de multiples moyens d’expression : sculpture, peinture, musique, poésie, mimique, théâtre, cinématographe, etc. En soi, aucun moyen n’est ni supérieur ni inférieur ; il vaut ce que vaut l’artiste qui l’emploie. Le livre n’est qu’un moyen d’expression comme les autres ; attribuer une dignité spéciale et une précellence esthétique au bouquin, ça ressemble à la folie de l’avare qui aime son or pour lui-même, oubliant qu’il n’est qu’un signe de la richesse ; le livre n’est pareillement qu’un signe de la pensée.</p>
+          <p>N’est-ce pas de cette naïve méprise que viennent tous les excès et tous les défauts d’une « littérature » aussi vaine et aussi odieuse que la rhétorique ?</p>
+          <p rend="right">Gustave <hi rend="sc">Téry</hi> (<hi rend="i">Journal</hi>).</p>
+        </quote>
+        <p>Comme on le voit, M. de Pawlowski aime le théâtre, et M. Téry le journal. C’est bien naturel.</p>
+      </div>
+      <div>
+        <head>Résumé de l’enquête</head>
+        <p>Tentons de résumer cette enquête en détachant de quelques réponses la phrase essentielle :</p>
+        <p>Parmi nos correspondants, d’abord, deux partisans du théâtre : M. Paul Souday, à qui <quote>« <hi rend="i">Le goût du théâtre semble un sérieux indice de développement intellectuel</hi> »</quote>, et M. Henri Mazel, qui écrit : <quote>« <hi rend="i">Le goût du théâtre est mieux qu’une forme du goût de la littérature, c’est une forme aussi du goût de la musique, de la peinture décorative, de la danse, de l’esthétique plastique.</hi> »</quote></p>
+        <p>Puis voici les sages, ceux qui, crainte d’injustice ou d’erreur, ne décident point : <quote>« <hi rend="i">Je ne saurais décider qui l’emporte, de l’homme qui a la passion du théâtre ou de celui qui a l’amour de la lecture.</hi> »</quote> (Édouard Ducoté).</p>
+        <p><quote>« <hi rend="i">Étant romancier, je préfère l’homme qui a la passion de la lecture à l’homme qui a la passion du spectacle, mais ne me laisserai-je pas séduire, comme tant de camarades, par les grandes batailles de la scène</hi> ? »</quote> (Binet-Valmer).</p>
+        <p>Cependant la grande majorité de nos correspondants se prononcent nettement contre le théâtre actuel ou contre la passion extraordinaire que la société d’aujourd’hui semble éprouver pour tout ce qui touche la scène.</p>
+        <p>Que vaut donc le théâtre d’aujourd’hui ? Et que vaut le public ?</p>
+        <p><quote>« <hi rend="i">Je ne goûte presque plus le théâtre, non que je le méprise, mais parce qu’il n’y a presque plus de théâtre</hi> »</quote>, dit M. Maurice Colrat. Ainsi, <quote>« <hi rend="i">que sont devenues, comment même s’appelaient toutes les pièces à succès qui remplirent de leur triomphe la saison de 1857 — année de</hi> M<hi rend="sup">me</hi> Bovary<hi rend="i"> et des</hi> Fleurs du mal<hi rend="i"> — ou la saison 1881 — année de</hi> Sagesse<hi rend="i"/> ? »</quote> observe Fernand Vandérem. C’est que maintenant <quote>« <hi rend="i">le théâtre est une industrie plutôt qu’un art</hi> »</quote>, suivant Octave Uzanne, et M. Francis Jourdain dénonce violemment <quote>« <hi rend="i">l’imbécillité du théâtre contemporain qui est effroyable, et le scandaleux intérêt que suscite tout ce qui touche la scène, et qui ne saurait être confondu avec le goût de la littérature</hi> »</quote>. Cet intérêt, <quote>« <hi rend="i">l’intérêt excessif que nous portons aux cabotins, aux cabotines et au cabotinage, est une faiblesse, et bien ridicule</hi> »</quote>, dit J.-H. Rosny<quote>. Cette « <hi rend="i">basse curiosité est, aux yeux de beaucoup de gens, le plus grand indice d’une mauvaise santé intellectuelle et morale</hi> »</quote>, déclare M. Georges Lecomte. Selon Rachilde, <quote>« <hi rend="i">le théâtre est l’école des mauvaises mœurs, en ce sens qu’il désapprend à réfléchir</hi> »</quote>. Selon Maurice Barrès, <quote>« <hi rend="i">le goût pour le théâtre indique une tendance au moindre effort</hi> »</quote>. Et René Boylesve semble partager entièrement cette opinion, de même que Ch.-H. Hirsch.</p>
+        <p><quote>« Le goût de la lecture est supérieur à celui, tout superficiel, de la représentation »</quote>, d’après M. Vincent d’Indy. Et <quote>« <hi rend="i">le goût du théâtre ne pourrait remplacer le goût de la lecture que chez les gens qui lisent pour se divertir, sans aucune préoccupation d’ordre intellectuel</hi> »</quote> (Michel Puy). D’ailleurs, <quote>« <hi rend="i">ce qui prouve que le livre est supérieur au théâtre</hi> »</quote>, formule M. Eugène Montfort, <quote>« <hi rend="i">c’est qu’une pièce n’est belle et n’a de chance de durée que si elle peut être lue. Une pièce de théâtre ne vaut quelque chose que si elle peut devenir un livre…</hi> »</quote></p>
+        <p>Et cette dernière phrase sera, si l’on veut, notre conclusion.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
