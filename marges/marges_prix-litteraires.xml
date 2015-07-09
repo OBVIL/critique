@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enquête : Les Prix littéraires</title>
+        <author>Marges (Les)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+          <idno>http://obvil.paris-sorbonne.fr/corpus/critique/marges_prix-litteraires/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/marges_prix-litteraires.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/marges_prix-litteraires.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/marges_prix-litteraires.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/marges_prix-litteraires.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>« Les Prix littéraires », <hi rend="i">Les Marges</hi></title>, 2<hi rend="sup">e</hi> série, tome XIII, nº 45, <date>15 janvier 1914</date>, p. 16-46.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1914"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>[Question]</head>
+        <p>Nous avons posé à un certain nombre d’écrivains les questions suivantes :</p>
+        <p rend="i">On reproche aux prix littéraires de ne pas distinguer souvent l’originalité et le talent, et d’avilir la république des lettres, en y introduisant de véritables mœurs électorales. Nous vous serions reconnaissants, Monsieur, de nous dire si vous êtes de cette avis. </p>
+        <p>1º <hi rend="i">Êtes-vous partisan des prix littéraires ? Jugez-vous que leur suppression soit désirable</hi> ?</p>
+        <p>2º <hi rend="i">Envisagez-vous une façon plus sage et plus efficace de venir en aide aux jeunes écrivains</hi> ?</p>
+        <p>Nous avons reçu les réponses qu’on va lire. Il nous a paru intéressant de mettre ensemble celles des partisans des prix, et puis celles des adversaires.</p>
+        <p>Voici donc, d’abord, les partisans :</p>
+      </div>
+      <div>
+        <head>[Les partisans]</head>
+        <div>
+          <head>Paul Acker<note resp="editor"><p>Il y a huit ans, nous n’aurions pu ranger M. Acker parmi les partisans des prix. À une enquête parue dans <hi rend="i">Le Gil-Blas</hi>, il répondait, en effet, le 24 décembre 1906 :</p><quote><p rend="i">Tout d’abord, je suis absolument hostile à tout prix décerné à un écrivain. Je trouve parfaitement ridicule cette façon de prolonger le collège dans la vie, en décernant des couronnes de papier vert…</p></quote></note></head>
+          <byline><docAuthor key="Acker, Paul (1874-1915)"/></byline>
+          <p>Quand il y avait un roi, il pouvait, par des pensions et des dons faits sur sa cassette, venir en aide aux jeunes écrivains. Il n’y a plus que des députés et des électeurs, et la démocratie se f…iche un peu de la littérature. Il n’y a donc plus que des groupements, formant une sorte d’aristocratie qui peuvent, par des prix, aider les jeunes écrivains : l’<hi rend="i">Académie, Les Dix</hi>, la <hi rend="i">Vie heureuse</hi>. Certes, tous ces jurys peuvent se tromper, mais quelquefois ils ne se trompent pas — et cela suffît — à mon avis du moins.</p>
+        </div>
+        <div>
+          <head>Jacques Bainville</head>
+          <byline><docAuthor key="Bainville, Jacques (1879-1936)"/></byline>
+          <p>Voulez-vous que je vous dise ce que c’est que les prix littéraires ?</p>
+          <p>Ce sont des fondations pieuses en faveur de la langue et de la littérature françaises, lesquelles deviennent tout doucement des choses mortes. Le culte est entretenu par des legs. Tirez de ce fait l’inquiétante conséquence qu’il comporte…</p>
+        </div>
+        <div>
+          <head>Fernand Divoire</head>
+          <byline><docAuthor key="Divoire, Fernand (1883-1951)v"/></byline>
+          <p><hi rend="i">Êtes-vous partisan des prix littéraires</hi> ?</p>
+          <p>Oui.</p>
+          <p><hi rend="i">Jugez-vous que leur suppression soit désirable</hi> ?</p>
+          <p>Oui.</p>
+          <p>Explication : les prix littéraires sont excellents ; ils sont un des très rares moyens qu’ait un jeune écrivain de faire lire son livre par le public, en même temps qu’ils lui apportent un argent souvent bien utile.</p>
+          <p>Mais les prix littéraires sont donnés en dépit du bon sens. Les Goncourt (je parle de la majorité) ne comprennent que le réalisme, l’Académie ne couronne que les imbéciles (oui, il y a des exceptions). Quant à la Bourse Nationale de voyage, son jury est le mélange le plus stupide qu’on puisse rêver ; les artistes qu’on a mis pour la façade, sont noyés par l’invincible phalange des sénateurs, députés, chefs de bureaux et crétins qui se sont promus au rang de juges. Le prix de la critique est donné à des historiens ou à des théoriciens. Les dames de la <hi rend="i">Vie heureuse</hi> ne sont pas insensibles au sentiment de la famille, aux amitiés, aux relations, etc… et se sont bien déshonorées en 1912. Quant au prix de la duchesse de Rohan…</p>
+          <p>Voilà pourquoi, partisan des prix littéraires, je le suis aussi de leur suppression. On les rétablirait le jour où l’on aurait trouvé des juges intelligents et impartiaux, comme par exemple,</p>
+          <signed>Fernand <hi rend="sc">Divoire</hi>.</signed>
+          <postscript>
+            <p><hi rend="i">P.-S.</hi> — Les prix sont aussi, pour la plupart, devenus des aumônes. Qu’on les remplace par des médailles, avec ou sans somme d’argent, selon la situation de fortune des lauréats.</p>
+          </postscript>
+        </div>
+        <div>
+          <head>Henri Duvernois</head>
+          <byline><docAuthor key="Duvernois, Henri (1875-1937)"/></byline>
+          <p>J’ai été un partisan des prix littéraires, alors que les prix étaient faits pour les œuvres et non les œuvres pour les prix. Trois cents romans, ont été, me dit-on, publiés le mois dernier, c’est-à-dire dans le plus mauvais mois de l’année, celui qui précède le Jour de l’an. Au cours de cette bousculade, on entendit vraiment un peu trop parler d’argent : « Il vit avec 137 francs par mois — Oui, mais il a une tante millionnaire. — Regardez un peu ses bottines ! — C’est vrai, son père est dans les affaires, mais dans les mauvaises affaires… » etc., etc.</p>
+          <p>Donc, j’opinerais pour la suppression de ces prix, si j’envisageais une façon plus sage et plus efficace de venir en aide aux jeunes écrivains. Malheureusement, je n’en vois aucune…</p>
+          <p>À moins que l’on n’organise un concours de Tango avec prix de 10 000 francs, photographie et interview du vainqueur dans tous les journaux. Beaucoup de concurrents et concurrentes n’ont pas, pour les Lettres, une vocation bien déterminée. Ils danseraient, ce qui est charmant et bien plus hygiénique que de publier. La littérature, la librairie, la critique, le public seraient soulagés d’autant… Nous aurions le grand prix de l’Académie de Danses, réservé au Tangueur le plus chaste…</p>
+        </div>
+        <div>
+          <head>Maurice de Faramond</head>
+          <byline><docAuthor key="Faramond, Maurice de"/></byline>
+          <p>Je tourne et retourne ma plume. Difficile réponse, vraiment !</p>
+          <p>Les prix ont tout pour eux, puisqu’ils tendent à diriger le public, et à marquer la gloire juste ;</p>
+          <p>Et tout contre eux, puisqu’on les donne à tort et à travers ; puisque des Comités, dont la Littérature est l’<hi rend="i">impossible souci</hi>, partout se fondent, envahissent la place, etc.</p>
+          <p>Si l’on ne récompensait que des ensembles d’ouvrages, <hi rend="i">l’œuvre</hi> déjà important d’un auteur, au lieu d’un ouvrage seul, bien certainement l’entente serait plus aisée. On erre moins ainsi. À porter sur plus d’espace, les opinions se constituent plus homogènes.</p>
+          <p>Mais… mais le principal but des prix étant de venir en aide aux jeunes qui promettent surtout, comment faire ? Les juges qui peuvent juger le mieux ne sont pas toujours ceux qui peuvent donner l’argent. Et d’autre part, supprimer les prix ? Non. Il suffit qu’une fois on tombe juste pour motiver leur existence.</p>
+          <p>En fait, les prix n’apportent presque plus de renommée ; ils répandent seulement quelque monnaie. Eh bien, qu’ils se multiplient ! Dans la difficulté (pour plusieurs motifs) d’arroser juste, qu’on arrose la plus grande surface possible ! <hi rend="i">Chapelain</hi> s’y trouvera, soit ; mais aussi <hi rend="i">Corneille</hi>.</p>
+        </div>
+        <div>
+          <head>Frantz Jourdain</head>
+          <byline><docAuthor key="Jourdain, Frantz (1847-1935)"/></byline>
+          <p>Je suis ardemment partisan des prix littéraires, mais je souhaite, avec non moins d’ardeur,… qu’on supprime un genre de sport, qui est en train de discréditer les artistes et de déshonorer la littérature.</p>
+          <p>Le principe de l’encouragement affectueux, de la poignée de main consolatrice, donnée à un homme de talent inconnu, me semble excellent, mais à la condition que le jury ne se transforme pas en comité électoral où l’on donnera la R. P. et le panachage majoritaire, à la condition que les candidats ne prennent pas les habitudes des plus plats larbins. Ah ! non, ah ! non, pas ça. Je crois, je suis certain même, que l’auteur de <hi rend="i">Chérie</hi>, si fier, si noble, si digne, si pointilleux, sur le point d’honneur littéraire, aurait jeté au feu son testament, s’il avait prévu la façon dont ses volontés seraient respectées. Du moment qu’une réunion d’hommes de lettres se contre-fiche — oh magistralement ! — de la valeur d’un livre et se préoccupe uniquement de savoir si l’auteur est nationaliste, dreyfusard, centre-gauche, patriote, antimilitariste, libre-penseur, juif, protestant, boudhiste, ultramontain ou j’menfichiste, eh bien ! la dite agglomération ferait mieux d’élever des choux de Bruxelles, ou d’étudier le Tango, que de décerner des prix.</p>
+          <p>Sans rien préciser, je me doute de ce qui se passe dans les maisons qui ne sont pas au coin du quai, mais aucun doute ne peut subsister au sujet de l’Académie de Goncourt. Quand on repousse brutalement un artiste hors pair comme Charles-Louis Philippe, on s’offre une faillite carabinée et on n’a plus qu’à fermer boutique. Quoiqu’on fasse dans la suite, on reste marqué au fer rouge pour l’éternité de pareils procédés, aussi révoltants, aussi iniques, aussi imbéciles, réhabilitant les jugements de l’Académie française. Sous la Coupole, l’intrigue régente tout, mais du moins ouvertement, et avec une logique qui finit par désarmer.</p>
+          <p>Quant aux moyens plus… propres et plus élégants de venir en aide aux jeunes écrivains, je crois qu’il n’y en a qu’un. Ce serait de trouver un amoureux d’art, plein de goût et de discrétion, n’ayant en conséquence qu’une vague ressemblance avec feu Chauchard ; il adresserait, sous le voile de l’anonymat, un chèque copieux au littérateur, dénué de millions et de relations, qui se serait contenté d’écrire un beau livre, pour sa joie personnelle, et qui n’aurait employé aucuns moyens louches et malpropres afin de décrocher a timbale d’argent doré.</p>
+        </div>
+        <div>
+          <head>Ernest Gaubert</head>
+          <byline><docAuthor key="Gaubert, Ernest (1880-1945)"/></byline>
+          <p>Pour parler des prix littéraires, comme des duels, il est parfois bon d’en avoir eu. On en a toujours donné et on aime ça en France, tout en en disant beaucoup de mal. Chamfort qui s’en moquait en vécut ; Rivarol les rechercha, et n’oublions jamais que si la <hi rend="i">Bérénice</hi> de Racine est un chef-d’œuvre écrit sur commande, le discours de Rivarol sur l’<hi rend="i">Universalité de la langue française</hi> a été écrit en vue d’un prix littéraire. J’ai failli faire un procès pour démontrer que certains jurys se moquent non seulement du talent, mais encore du règlement élaboré par eux, ce qui est pire dans une société qui ne vit que de règlements !</p>
+          <p>À ce propos, il y a l’Académie, un prix Maillé Latour Landry, fondé <hi rend="i">pour encourager un jeune écrivain, auquel il paraît utile de donner une marque d’intérêt, à persévérer dans la carrière des lettres</hi>. Ce prix a été donné à Musset l’année de son entrée à l’Académie et l’année dernière, à M<hi rend="sup">lle</hi> de Lévis-Mirepoix.</p>
+          <p>J’ai eu des prix, j’ai eu des amis qui ont fait campagne pour moi, j’ai fait quelques visites, et je me suis aperçu que les membres de ces jurys n’étaient ni plus, ni moins consciencieux que les éditeurs, les électeurs, les médecins, et pas plus injustes que Dieu qui distribue au petit bonheur la beauté, l’intelligence et la fortune.</p>
+          <p>Cet été, M. Louis Pergaud, à propos de la mort de Deubel, a entrepris une campagne contre certains prix littéraires. M. Pergaud a obtenu le Prix Goncourt, l’année où il avait comme concurrents M<hi rend="sup">me</hi> Colette Willy et M. Roupnel. M. Pergaud trouve que ces prix sont mal distribués : comme il a raison !</p>
+        </div>
+        <div>
+          <head>Ernest La Jeunesse</head>
+          <byline><docAuthor key="La Jeunesse, Ernest (1874-1917)"/></byline>
+          <p>Votre question est terrible, <hi rend="i">ô Marges</hi> !</p>
+          <p>Que dire ? Évidemment, il y a une crise des prix littéraires, il y a des mœurs électorales, mais ça remonte à la création du monde — et même avant. Et il faut choisir en outre. Défendrai-je les prix de l’Académie française, notamment les prix Bordin, Née, Marcelin-Guérin, Toirac, (ce Toirac est l’immortel auteur d’une fable : <hi rend="i">La Rose et la M…</hi>) etc, etc., en abandonnant les prix Goncourt, Vie heureuse et autres ?</p>
+          <p>Crise pour crise, ces prix ont fait un peu de bien : c’est leur meilleur ouvrage (Voltaire, <hi rend="i">passim</hi>). Ils ont fait du mal — et encore ! Ils font parler des livres couronnés et découronnés, font vendre de ceux-ci et de ceux-là. On est célèbre pour avoir été lauréat, illustre, pour ne l’avoir pas ôté. Et les journaux vous font une place parmi les faits divers et publient votre portrait, au mitan des autres clichés de l’anthropométrie. C’est quelque chose — et une leçon.</p>
+          <p>Quant à une façon plus sage et plus efficace de venir en aide aux jeunes écrivains !… Est-ce que ces prix sont jamais venus en aide à de <hi rend="i">jeunes</hi> écrivains ? Cheveux blancs, poches argentées, salons, parentés, réclame, publicité plus ou moins gratuite, voilà les lauréats et les lauréates.</p>
+          <p>Et il y a la Seine et la Marne et la Morgue.</p>
+        </div>
+        <div>
+          <head>Legrand Chabrier</head>
+          <byline><docAuthor key="Legrand, André (18..-19.. ; romancier)"/></byline>
+          <p>Est-ce que ce sont toujours les futurs grands hommes qui obtiennent les récompenses scolaires sacrant les meilleurs élèves d’un lycée ? Est-ce que l’avenir a le moindre souci du palmarès ? Il faudrait méditer là-dessus lors de la distribution des prix littéraires pour, à la fois, ne point en tenir trop grand compte à l’auteur, ni trop grande rigueur aux distributeurs de la couronne, laquelle est surtout utile comme chèque à la banque et comme moyen de réclame. Quant à sa valeur esthétique, elle dépend beaucoup plus de celui qui la reçoit, que de ceux qui la donnent.</p>
+          <p>Ces réserves faites, je demeure partisan des prix littéraires, si je considère qu’ils permettent tout de même d’aider quelques écrivains, mais je suis moins ferme en mon parti quand j’examine les mœurs qu’ils ont introduits, ou développés et exaspérés, chez certains auteurs et certains éditeurs, quand je prévois quels instruments d’injustice fatale ils peuvent devenir pour ceux qui n’en ont point obtenu.</p>
+          <p>Y a-t-il d’autres moyens d’aider les écrivains ? je ne sais trop. Les pensions d’État, à vie, et insaisissables, seraient l’idéal de tout littérateur, comme de tout homme ; c’est du trop beau et bien plaisant socialisme impraticable. Alors quoi ! accroître le nombre des demi-sinécures administratives, musées, bibliothèques, monuments historiques, serait un remède un peu hypocrite, assez injuste, mais efficace. De même, la multiplication des prix. Plus il y en aura, plus leurs inconvénients seront dilués, plus d’écrivains seront aidés — et moins aussi le public y attachera d’importance. Ce qu’on gagnera d’un côté, on le perdra par ailleurs. Mais ces mutations sont la vie du monde et elles offrent d’agréables joies spirituelles à notre observation. Jouissons-en… et laissons faire au sort pour le reste.</p>
+        </div>
+        <div>
+          <head>André Maurel</head>
+          <byline><docAuthor key="Maurel, André (1863-1943)"/></byline>
+          <p>Je suis partisan de tous les moyens ingénieux qui fournissent aux écrivains le loisir nécessaire au travail : rentes sur l’État, héritage d’oncle, larcin furtif dans la bourse d’un père avaricieux ou prix littéraire ; tout est égal.</p>
+          <p>C’est vous dire que « la façon » n’a, à mes yeux, aucune importance pourvu que le prix existe. Et ne vous frappez pas, comme on dit. Si nombreuses que soient les précautions prises et si subtils les détours, ce seront toujours les mêmes spectacles que vous aurez sous les yeux. L’homme est un triste animal qui a tôt fait de corrompre ce qu’il touche. Les procédés les plus délicats, il les rend infâmes par sa façon de les ressentir, de les solliciter bientôt, de les exiger tout à l’heure, à moins qu’il n’en détourne l’abondance à son profit par des manœuvres répugnantes.</p>
+          <p>Cela est une question humaine, en un mot, et non pas littéraire Pour celle-ci, je viens de vous le dire : le plus de prix que l’on pourra !</p>
+        </div>
+        <div>
+          <head>Pierre Mille</head>
+          <byline><docAuthor key="Mille, Pierre (1864-1941)"/></byline>
+          <p>Mérimée souhaitait qu’on fondât un prix « pour décourager les artistes ». Les Français, qui demeureront toujours persuadés qu’un homme d’esprit ne peut avoir le sens commun — ils n’ont confiance que dans ceux qui les embêtent — ne l’ont pas écouté. Ils ont étendu aux écrivains la bêtise qu’on faisait déjà pour les peintres, les sculpteurs, les architectes ; les plus fatales conséquences sont à craindre : elles s’aperçoivent déjà.</p>
+          <p>Vous me demandez un remède, le voici : accorder les félicitations du jury, sans l’argent, au meilleur ouvrage, et l’argent sans les félicitations au plus mauvais. Cela seul me paraîtrait conforme à l’esprit de justice d’une démocratie.</p>
+          <p>Cette solution ne vous convient point ? Alors, laissez donc les choses comme elles sont ! Ce n’est point parce que le pauvre Deubel s’est tué, épuisé de misère, que l’on peut accuser les prix de littérature de ne servir à rien ; il y a eu tout de même de jeunes hommes de lettres, intéressants, qu’ils ont sauvé de la faim et du désespoir J’en connais, vous en connaissez, nous en connaîtrons encore. Évidemment, il y a dans tout cela hasard, loterie, intrigues électorales : mais le mal ne doit pas nous empêcher de voir le bien. Et puis, tenez : supposez que vous puissiez supprimer le prix Goncourt celui de la Vie Heureuse, d’autres encore. L’Académie française vous imitera-t-elle ? Non, sûrement. Il n’y aurait plus alors que les gens qui pensent et écrivent d’une certaine façon pour être avantagés. Serait-ce juste, serait-ce heureux, serait-ce profitable à la liberté d’écrire et de penser ?</p>
+        </div>
+        <div>
+          <head>Alfred Mortier</head>
+          <byline><docAuthor key="Mortier, Alfred (1865-1937)"/></byline>
+          <p>Je suis partisan des prix littéraires et je ne souhaite pas qu’ils disparaissent, au contraire.</p>
+          <p>Aucun tribunal humain n’est parfait. La justice civile et pénale est boiteuse et myope ; elle rend des arrêts qui sont rarement l’expression de l’équité absolue, et la plupart des jugements sont des cotes mal taillées. Cependant, le corps social a besoin d’une magistrature et il est nécessaire qu’on rende la justice, tant bien que mal.</p>
+          <p>Dans cet état de choses, qui est conforme aux œuvres humaines, comment les tribunaux littéraires échapperaient-ils à la loi commune ? Assurément le prix ne va pas toujours au plus méritant, mais il y va parfois. Et lorsqu’il n’y va pas, celui qui l’obtient n’en est jamais indigne, que pouvons-nous demander de plus ?</p>
+          <p>Et d’autre part le prix littéraire apporte presque toujours un ou deux ans de sécurité matérielle à un écrivain sans ressources. Ne servirait-il qu’à cela, qu’il faudrait encore souhaiter son maintien.</p>
+          <p>Enfin, c’est un peu de gloire, un peu de bruit autour d’un livre et d’un nom — et dans notre monde moderne, si féru d’affaires, de sport et de divertissements médiocres, il est bon que de temps à autre l’Actualité s’occupe d’autre chose que d’un aviateur, d’un comédien ou d’un multimillionnaire.</p>
+          <p>Et je pense que voilà des raisons suffisantes pour ne pas moquer, ni discréditer les prix littéraires.</p>
+          <p>Il y a sans doute d’autres façons de venir en aide aux jeunes écrivains. Qu’on les recherche et qu’on les applique. Mais cela ne saurait empêcher les prix littéraires d’exister. Plus l’on fera pour les lettres et mieux cela vaudra.</p>
+        </div>
+        <div>
+          <head>Charles Müller</head>
+          <byline><docAuthor key="Müller, Charles (1877-1914)"/></byline>
+          <p><hi rend="i">D’un article paru dans</hi> L’Homme libre, <hi rend="i">à propos de cette enquête</hi> :</p>
+          <p>Les prix littéraires ne sont pas destinés à servir ceux qui les reçoivent, mais ceux qui les décernent. Tant qu’il y aura, d’une part, un magazine soucieux de faire autour de son titre une publicité flatteuse, et d’autre part, des dames ou des messieurs écrivains ravis de disposer de quelque influence auprès de leurs jeunes confrères, aucune condamnation portée en vertu des principes supérieurs ne fera que les prix littéraires aient vécus. Imaginez que le propriétaire d’une grande marque de quinquina ou d’une firme de pneumatiques fameux veuille attirer l’attention sur ses produits tout en s’assurant un renom de Mécène. Il lui suffira de fonder un prix littéraire. Et la rivalité ne sera pas moins âpre entre les arrivés, candidats au jury, qu’entre les arrivistes, candidats à la timbale.</p>
+        </div>
+        <div>
+          <head>Georges Pioch</head>
+          <byline><docAuthor key="Pioch, Georges (1874-1953)"/></byline>
+          <p>Quand bien même tous ceux qui répondront à votre enquête seraient d’accord pour souhaiter la suppression des prix littéraires, ces prix n’en seraient pas moins offerts — ce qui est assez naturel puisqu’ils sont fondés — ni moins sollicités : — ce qui ne fait honneur à personne. Il sera, je crois, toujours raisonnable de penser qu’un écrivain ne mérite pas qu’on le récompense de bien écrire… si l’on ne récompense pas un maçon de bien maçonner. La seule récompense d’un effort — l’art et la poésie y fussent-ils intéressés — est dans cette effort même. Cela c’est le principe nécessaire ; c’est l’idéal. Puisse-t-il nous tous repérer !</p>
+          <p>Relativement à ce qui est, à ce que nous n’avons pas voulu, il n’est pas trop fou de penser qu’un prix n’est humiliant pour un écrivain enclin à vivre autrement qu’il fut assidu à l’école, que dans la mesure où il le sollicite, où il le pourchasse. Humiliant, il ne l’est aussi pour lui, que relativement à ceux qui le donnent. Personnellement, j’avoue que je m’accommoderais mal d’être reconnu officiellement romancier par M<hi rend="sup">me</hi> Daniel Lesueur, garanti poète par M<hi rend="sup">me</hi> la duchesse de Rohan, ou sacré… tout ce que vous voudrez par M. René Bazin. Mais avoir été remarqué sans y avoir prétendu ; avoir été choisi, sans s’y être personnellement ingénié, par des littérateurs que l’on aime et respecte dans leur œuvre, cela m’a toujours semblé être très réconfortant et, même, très honorable… Et puis il faut exister… Or, je n’apprends sans doute à personne que gagner son pain, c’est généralement, perdre le meilleur de sa vie… Mais on peut, au moins, s’épargner de mendier, même un peu de renom.</p>
+          <p>Quant à « une façon plus sage et plus efficace de venir en aide aux jeunes écrivains », elle est possible, sans doute. On pourrait, peut-être, amener les grands journaux à saluer l’avènement d’un véritable écrivain avec autant de déférence et d’éclat que celui d’un satyre, d’un escroc ou d’un assassin. Cette possibilité implique un plus grand développement de la critique littéraire, et, surtout, un accroissement de son autorité. Souhaitons-les.</p>
+          <p>Mais je crains bien qu’en ceci comme en toute chose le salut ne soit qu’en nous… Telle la récompense.</p>
+        </div>
+        <div>
+          <head>Paul Reboux</head>
+          <byline><docAuthor key="Reboux, Paul (1877-1963)"/></byline>
+          <p>Je suis partisan des prix littéraires.</p>
+          <p>Les écrivains qui, pour les obtenir, usent de procédés électoraux, se dénoncent par cela même. Sans cette révélation, on aurait continué à les traiter comme des artistes !</p>
+          <p>D’autre part, il peut arriver qu’un prix littéraire soit décerné justement. Tout est possible. Lorsque deux pressions d’influence, dont la force est égale, sont opposées l’une à l’autre, il en résulte un équilibre. Le succès récent de Marc Elder montre que l’Académie Goncourt rend parfois des arrêts équilibrés, raisonnables, et dignes d’approbation.</p>
+          <p>Enfin les prix littéraires donnent aux directeurs de magazines et de journaux l’impression que la littérature a son importance, et que le public ne s’en désintéresse pas. Approuvons donc, ne serait-ce que pour cet effet salutaire, une habitude qui est à la fois bonne et mauvaise comme toutes les choses humaines.</p>
+        </div>
+        <div>
+          <head>Jean Royère</head>
+          <byline><docAuthor key="Royère, Jean (1871-1955)"/></byline>
+          <p>Je crois qu’on discutera pour ou contre les prix littéraires tant qu’ils existeront et même au jugement dernier, mais la question n’est pas palpitante. Ils ne font de mal à personne et font du bien à quelques-uns. Pour mon compte, si je faisais un roman, il ne me déplairait pas de toucher les 5 000 francs du <hi rend="i">Prix Goncourt</hi> ou de <hi rend="i">La Vie heureuse</hi> et je laisserais mes concurrents dire que le prix a été mal donné, ce qui serait peut-être vrai, mais qu’importe ? Pourquoi le Hasard, qui est un dieu si puissant, serait-il banni des distributions de prix ? Je suis pour le prix, et pour tous les moyens que votre ingéniosité inventerait de donner de l’argent aux écrivains.</p>
+          <p>Qu’on les pensionne comme autrefois, ne fût-ce que pour faire rager les bourgeois qui soutiennent, par envie, que les artistes sont des inutiles et des malfaiteurs.</p>
+          <p>Le prix Goncourt est très utile : il a mis en lumière en 1903 John-Antoine Nau, grand poète et notre meilleur romancier. Il a fait beaucoup parler de Charles-Louis Philippe en un temps où l’on n’en parlait guère. Il fait vendre les livres même de ceux qui ne l’ont pas : c’est un prix-providence.</p>
+          <p>Les prix de l’Académie ont moins de prestige, c’est un fait. Ils n’en sont pas moins agréables à toucher.</p>
+          <p>Mais quand bien même la majorité serait hostile aux prix littéraires ?… On ne les supprimera pas. Alors ? À quoi bon ?</p>
+          <p>Les écrivains devenus, on ne sait pourquoi, célèbres, comme Georges Ohnet, Rostand, Coppée, Madame de Noailles, ont trente-six réclames qui leur rapportent gloire et pécune et ne leur coûtent rien : ne supprimons donc pas une institution qui peut aider un artiste, c’est-à-dire un homme qui aura presque toujours le public contre lui.</p>
+          <p>Et puis si les prix n’existaient pas, <hi rend="i">Les Marges</hi> ne pourraient pas conduire la présente enquête qui nous vaudra des réponses spirituelles dans une revue qui ne l’est pas moins.</p>
+        </div>
+        <div>
+          <head>Saint-Georges de Bouhélier</head>
+          <byline><docAuthor key="Saint-Georges de Bouhélier (1876-1947)"/></byline>
+          <p>Il y a quelques années, <hi rend="i">Le Gil-Blas</hi><note resp="editor"><p>Voici la réponse de M. de Bouhélier, parue dans <hi rend="i">Le Gil-Blas</hi>, le 2 janvier 1907, à laquelle il fait allusion.</p><quote><p rend="i">En principe, je suis contre tous les prix, que je considère comme des primes à l’intrigue et des excitations à un désir fallacieux de gain… En réalité, il est absolument immoral pour la littérature que des écrivains publient dans l’espérance de diplômes, comme des fermiers candidats aux concours agricoles. Je sais bien que 5 000 francs et un peu de gloire, sont très tentants et c’est pourquoi d’autant plus il faudrait chasser de notre horizon ces sirènes grossières et par trop ensorcelantes… Enfin il ne faut cesser de répéter au public que ni les prix, ni les honneurs ne sont un gage de mérite. Le véritable artiste est indépendant, et toutes les biographies de nos grands hommes sont au contraire, bien plus comparables au martyrologe ou au registre d’écrou des prisons qu’à de royales ou impériales annales.</p></quote></note>, ayant posé à certains écrivains une question à peu près semblable à celle que vous voulez bien m’adresser, ma réponse, alors, avait été : que les prix Goncourt et autres ne pouvaient qu’aider à la démoralisation, déjà si accentuée et si grande, de nos milieux littéraires… À cette époque, j’écrivais encore des romans et je m’étais bien promis de ne jamais me présenter à aucun jury : ce que j’ai fait.</p>
+          <p>Cependant, aujourd’hui, je pense qu’il faut être indulgent aux écrivains ; les écrivains ont souvent beaucoup de peine à arriver ; la concurrence des riches met les pauvres dans une infériorité affreuse. Comment un débutant qui n’a pas d’argent peut-il espérer que jamais il se fera connaître ? Il est certain qu’il vaudrait mieux pour un écrivain rester dans son coin et garder son indépendance.</p>
+          <p>Mais les malheureux ont-ils la possibilité, ont-ils même le droit de ne rien tenter pour se débrouiller ? Les prix littéraires, évidemment, ne vont pas qu’aux plus méritants. Mais, dans la vie, est-ce que le bonheur, est-ce que la fortune, est-ce que les récompenses vont toujours aux plus méritants ? Une fois sur dix, au moins, un jury peut reconnaître le talent véritable, il peut le sauver de la misère, il peut le conduire vers la gloire…</p>
+        </div>
+        <div>
+          <head>Paul Souchon</head>
+          <byline><docAuthor key="Souchon, Paul (1879-1951)"/></byline>
+          <p>Certes, je déplore aussi les erreurs des jurys littéraires et les mœurs électorales introduites dans la république des lettres.</p>
+          <p>Mais comment venir en aide aux écrivains d’autre façon ?</p>
+          <p>Si votre enquête donnait là-dessus quelques indications, elle serait vraiment utile.</p>
+          <p>Pour ma part, je ne vois pas par quoi remplacer les prix littéraires qui, défectueux, discrédités, valent tout de même mieux que l’indifférence.</p>
+        </div>
+        <div>
+          <head>Paul Souday</head>
+          <byline><docAuthor key="Souday, Paul (1869-1929)"/></byline>
+          <p>(<hi rend="i">Conclusion d’un article du</hi> Temps<hi rend="i"> à propos de notre enquête :)</hi></p>
+          <p>Il est fâcheux que le vrai mérite soit souvent vaincu. Il est pénible que le premier venu, moyennant une somme relativement maigre, puisse exercer une action sur la jeune littérature. On irait presque jusqu’à juger désirable la suppression des prix littéraires, si l’on ne savait qu’elle est impossible, car on n’imagine pas le Parlement votant une loi pour les interdire comme contraires à la moralité et à la salubrité publiques. Au surplus, ces prix échoient de temps en temps à un jeune écrivain de talent, tandis qu’un échec de cet ordre n’a jamais empêché personne de réussir. L’Académie française refusa à Taine le prix Bordin : il n’en est pas moins Taine, et personne ne connaît seulement le nom de son concurrent. La sagesse veut que l’on supporte avec philosophie les intrigues et les sottises que déterminent ces prix, qu’on se réjouisse lorsque par hasard ils sont répartis équitablement, et qu’on ne leur reconnaisse dans tous les cas qu’une très faible importance.</p>
+        </div>
+      </div>
+      <div>
+        <head>[Les adversaires]</head>
+        <p>Après les partisans des prix littéraires, partisans qui, comme on a pu s’en apercevoir, ne sont en général pas très enthousiastes, passons aux adversaires.</p>
+        <div>
+          <head>Jean Ajalbert</head>
+          <byline><docAuthor key="Ajalbert, Jean (1863-1947)"/></byline>
+          <p>Je n’ai guère d’opinion là-dessus. Pensez-vous que les destinées de la littérature soient liées à cette question de prix masculins ou féminins ? Il en existe depuis longtemps de vastes distributions par l’Académie. Quel prosateur, quel poète ont-ils révélé ? Les tempéraments originaux n’ont pas subi cet officiel arrosage.</p>
+          <p>Je crois, cependant, que ces prix littéraires ont le tort d’orienter trop d’apprentis de la plume dans une voie douloureuse où, pour un élu, deux cents concurrents deviennent ulcérés et déblatérant contre le vainqueur et les juges du tournoi, coupables, naturellement, de tous les méfaits ! Les nouvelles couches de romanciers et d’écrivains ont trop en vue les billets de mille des fondations charitables pour gens de lettres. Je n’estime pas que le régime sportif des coupes littéraires rehausse de beaucoup le niveau de la production intellectuelle. Par contre, il intronise, dans le bois sacré, les plus basses mœurs électorales. Pour tant de jeunes, il n y a pas de maîtres, ni de talents : rien que des « voix » à ménager, — des « <hi rend="i">voix politiques</hi> » ! Car, l’antisémitisme, le nationalisme, le royalisme — et leurs contraires, aussi fâcheusement, sévissent à l’Académie Goncourt comme à l’Académie Richelieu.</p>
+          <p>Aussi plus de critique, l’aplatissement général aux pieds de quiconque détient un suffrage.</p>
+          <p>Je regrette le passé effervescent où la jeunesse effervescente se ruait à l’assaut des hiérarchies et de l’art en place. La génération montante combattait âprement, souvent injuste avec les puissants et les glorieux du jour, mais indépendante, et ne demandant pas qu’on lui vînt en aide. Ce ne sont pas les jeunes qui ont besoin de secours, mais les vieux qui tombent sur la route, par la malchance du sort. Nul n’est obligé de se jeter dans l’aventure. De quel droit se réclame le débutant vis-à-vis des autres Français. Est-ce que le médecin, l’avocat, le soldat, l’inventeur, l’ouvrier sont favorisés d’une assistance spéciale ? Et tous ces aviateurs merveilleux, obligés aux plus rudes métiers pour se payer l’école du pilote. Il n’y a pas besoin de vingt-quatre heures par jour pour pratiquer le vers ou la prose. Ce n’est pas comme le piano ou la sculpture qui demandent l’entraînement manuel. Le poète peut composer en accomplissant une besogne pour vivre. Ainsi firent la masse de ceux qui « arrivèrent ». Et les grands écrivains ont tiré leurs meilleures pages de ces expériences personnelles de l’existence. Cela en vue de conquérir sa liberté, ou de se résigner au destin. Est-ce que Leconte de Lisle ou Léon Dierx donnent l’impression qu’ils aient été accablés par la bibliothèque ou le bureau ? Ou Huysmans ou Courteline ? Je prends ces noms bien au hasard. Vous en connaissez cent autres plus caractéristiques. De Jules Vallès au Petit Chose, de Verlaine et de Bourget, à J.-H. Rosny et à Paul Adam, la renommée, malgré tout, et le succès ne sont-ils pas allés à ceux qui avaient dû lutter, en s’aidant tout d’abord, plus qu’à d’autres favorisés d’argent et de loisirs au départ.</p>
+          <p>Je me résume : Les prix sont trop infimes et trop nombreux. On arrive au prix de cent francs. Les prix se nuisent les uns aux autres, et rémunèrent-ils le temps gaspillé en démarches des postulants. La valeur du prix est surtout dans la publicité qui lance un nom. Maintenant, le public s’y perd !</p>
+          <p>Un prix annuel de prose ou de poésie, ou encore tous les cinq ans, car il n’y a pas deux livres admirables par an, — un tel prix décerné par un Jury considérable où se fondraient des notabilités de tous les groupes et qui s’adjoindraient des représentants des jeunes, — un tel prix pourrait sacrer plus justement un lauréat national.</p>
+          <p>Et peut-être vaudrait-il mieux laisser les jeunes à leur jeunesse, à l’espoir, à l’ambition, à l’orgueil et à toutes les difficultés ou se trempe le caractère, — et que l’on ne surmonte pas avec quelques pièce de cent sous hasardeuses.</p>
+        </div>
+        <div>
+          <head>Léon Bazalgette</head>
+          <byline><docAuthor key="Bazalgette, Léon (1873-1928)"/></byline>
+          <p>Je ne suis partisan d’aucun prix de littérature ou d’art. Ou plutôt, si : j’estime qu’il serait utile et sain de fonder un prix de découragement.</p>
+          <p>Pour venir en aide aux jeunes écrivains, je ne conçois pas d’autre moyen que d’aider personnellement ceux qu’on aime, parce qu’on les croit originaux et forts, en répandant leurs livres autour de soi, en les défendant par la parole et la plume, en les soutenant même de ses deniers, quand on le peut sans manquer à la délicatesse. Mais si nous nous formons en comité, dans le but non plus de secourir <hi rend="i">un écrivain</hi> particulier que nous connaissons et qui a besoin d’aide, mais d’attribuer périodiquement une récompense « au plus méritant » d’entre <hi rend="i">les</hi> jeunes écrivains, sachons bien que nous aurons, du même geste et si décidés que nous soyons à bien faire, institué une prime nouvelle en faveur de la médiocrité.</p>
+          <p>Les secours aux artistes, distribués de la façon qu’on sait, sont une aussi brillante invention que la « charité organisée ».</p>
+          <p>Et puis il y a cette vérité, qu’il faut toujours rappeler aux plus jeunes : La littérature (celle dont il est question ici) ne doit pas être un gagne-pain — ou du moins ne peut l’être qu’en se vouant à des périls qu’elle n’est jamais sûre de pouvoir surmonter, si robuste que soit l’âme de celui qui prétend la sauvegarder en lui, tout en exigeant d’elle le modeste demi-louis quotidien. Soyons savetier, allumeur de réverbères, ou même rond-de-cuir, suivant nos dispositions ou l’occasion, et travaillons dans les intervalles de notre besogne ; mais ne demandons pas à l’art littéraire de nous nourrir. Car il y a toute chance pour qu’il devienne alors une nourriture empoisonnée et que nous en crevions — en tant qu’artiste véritable, j’entends.</p>
+          <p>Quand on aura mieux compris cela, les jeunes écrivains n’auront plus besoin que leurs confrères « arrivés » leur viennent en aide — autrement que par la sympathie et les encouragements, monnaie spirituelle.</p>
+        </div>
+        <div>
+          <head>André Billy</head>
+          <byline><docAuthor key="Billy, André (1882-1971)"/></byline>
+          <p>Ah ! oui, plût au ciel qu’il n’existât pas de prix littéraires ! Mais ils existent et ils existeront encore longtemps. Ce serait perdre notre peine que de réclamer leur suppression. Réclamons plutôt leur multiplication à l’infini (c’est d’ailleurs le phénomène auquel nous assistons).</p>
+          <p>Une façon plus sage et plus efficace de venir en aide aux jeunes écrivains ?</p>
+          <p>Vous voulez dire, sans doute, aux jeunes écrivains de <hi rend="i">talent</hi> ?</p>
+          <p>Ce qu’il faudrait inventer, je pense, c’est une « machine à découvrir le talent ».</p>
+          <p>Alphonse Allais nous aurait trouvé ça.</p>
+        </div>
+        <div>
+          <head>Marcel Boulenger</head>
+          <byline><docAuthor key="Boulenger, Marcel (1873-1932)"/></byline>
+          <p>Il n’y a rien de si laid que les intrigues dont l’attribution de ces primes est précédée.</p>
+          <p>Si la littérature n’est plus un métier hasardeux, injuste, bizarre et parfois effroyable, elle y perd en beauté. Il faut qu’elle demeure dangereuse. Il faut vivre dangereusement.</p>
+          <p>Pourquoi ce mot d’ailleurs : « Prix littéraire » ? Pourquoi « littéraire » ? C’est un « secours », âprement et piètrement disputé.</p>
+        </div>
+        <div>
+          <head>Édouard Ducoté</head>
+          <byline><docAuthor key="Ducoté, Édouard (1870-1929)"/></byline>
+          <p>Je n’ai jamais été partisan des prix littéraires, car j’estime que le bénéfice recueilli par le lauréat ne compense point le préjudice moral et matériel que subissent les candidats évincés. D’autre part la tentation de conquérir vite une somme d’argent appréciable et une notoriété qui sans cela se feraient attendre, incite certains auteurs à travailler en vue d’un prix donné et à perdre ensuite leur temps, si ce n’est leur dignité, en démarches et en intrigues. Ce n’est pas à pareille école que se forment les bons écrivains. Quant à l’artiste désintéressé et qui répugne aux mœurs électorales, son compte est réglé. Eût-il écrit le meilleur livre, on ne le saura pas, car pour le public le meilleur livre est le livre primé.</p>
+          <p>On peut souhaiter la suppression des prix littéraires, nuisibles également pour ceux qui les obtiennent et pour ceux qui n’en sont pas jugés dignes ; mais c’est là un vœu tout platonique. Souhaitons plutôt leur multiplication. Lorsqu’il paraîtra annuellement vingt ou trente romans « Couronnés par… », sans compter tous ceux que récompense l’Académie, les prix n’auront plus aucune importance au point de vue de la publicité, il se produira moins d’injustices et les « comités » pourront sans inconvénient s’intéresser à l’occasion au besoin plutôt qu’au talent.</p>
+        </div>
+        <div>
+          <head>Fagus</head>
+          <byline><docAuthor key="Fagus (1872-1933)"/></byline>
+          <p>La Société a le devoir absolu de subventionner l’écrivain, parce qu’il n’est pas de société, fût-elle de Canaques, qui ait pu jamais se passer de poètes ou de conteurs, et que l’écrivain représente donc une utilité publique ; qu’il ne ressortit donc pas aux lois commerciales régissant les autres travailleurs, d’autant plus que d’autre part son travail n’est pas mesurable selon cette commune mesure. Un régime démocratique pouvait seul mépriser ou ignorer de telles évidences ; lui seul aussi pouvait s’arroger de décider du mérite (!) des écrivains. Fatalement, ses prix « littéraires » devaient, comme ils font, représenter la forme la plus dégradante de l’aumône et de la brigue. Ceux que décernent les associations privées ne valent pas mieux : l’Académie Goncourt n’a-t-elle pas pour ses débuts, évincé Charles-Louis Philippe et Alfred Jarry, qui réalisaient exactement les intentions du fondateur ? Aux écrivains de provoquer pratiquement la suppression de tout cela par une mise en quarantaine.</p>
+          <p>Que l’État, que les particuliers, et spécialement les amateurs se bornent à fournir de l’argent, comme moralement ils le doivent, et laissent aux écrivains, seuls intéressés, seuls équitables, seuls compétents, le soin de le répartir, sous leur responsabilité. Que ceux-ci enfin organisent, mon Dieu oui, syndicalement, corporativement, la défense de leurs intérêts, et j’entends par là aussi bien la mise en rapports avec leurs clients naturels, les éditeurs., directeurs de périodiques ou de théâtres, etc… (n’est-ce pas ce que tente l’<hi rend="i">Entr’aide littéraire</hi> ?)</p>
+          <p>La mesure initiale est la séparation de la Littérature et de l’État. Mais pour cela, faut-il un État qui n’ait pas un intérêt vital à ne tolérer aucune corporation, aucune collectivité, aucune force organisée, indépendante de lui. Il faut un état libre, il faut une « société », il faut une aristocratie, il faut un chef.</p>
+        </div>
+        <div>
+          <head>Pierre Hamp</head>
+          <byline><docAuthor key="Hamp, Pierre (1876-1962)"/></byline>
+          <p>L’idée des Messieurs Goncourt de donner un pourboire au grand homme annuel n’est pas heureuse. Le prix littéraire a créé le littérateur pour prix. Des jeunes gens se précipitent à l’encrier et font un livre, non pas par amour d’écrire, mais pour gagner la prime à la production.</p>
+          <p>Il me semble que les <hi rend="i">littérateurs</hi> ont actuellement plus besoin de découragement que d’encouragement. Que tant de gens qui écrivent se mettent donc à travailler comme tout le monde, à travailler consciencieusement dans les métiers, les industries, le commerce, les administrations. Cela fera de plus dignes hommes et de plus beaux livres que tous les prix Goncourt.</p>
+          <p>Si un jeune écrivain, capable de la dignité de se suffire sans rien quémander, semble digne d’être encouragé dans sa qualité de travail pour qu’il y parvienne à la maîtrise et peut-être à l’invention, est-ce le maintenir dans de bonnes conditions que risquer de le troubler par une forte somme dont il n’a pas l’habitude.</p>
+          <p>Qu’on lui donne une intelligente bibliothèque, établie d’accord avec lui ; la facilité d’un voyage d’études ; une mensualité pendant un an ou deux. Ces humbles choses vaudront mieux pour le maintien du beau travail que la somme retentissante et toute cette publicité d’affaire de foire.</p>
+        </div>
+        <div>
+          <head>Vincent d’Indy</head>
+          <byline><docAuthor key="Indy, Vincent d' (1851-1931)"/></byline>
+          <p>Introduire la politique — chose vile et méprisable — dans l’Art, en faisant subir à celui-ci l’outrage des mœurs électorales, me paraîtrait odieux, si ce n’était pas simplement ridicule.</p>
+          <p>L’artiste n’a — heureusement — rien de commun avec le député, non plus qu’avec le petit élève de cinquième… Pourquoi donc vouloir lui décerner des prix et des accessits, surtout au moyen de ce ressort toujours faussé qu’est le suffrage plus ou moins universel ?</p>
+          <p>Si le jeune écrivain, le jeune musicien, le jeune peintre a <hi rend="i">quelque chose</hi> en lui, son génie ou son talent lui seront un tonique suffisant, sans qu’il lui soit besoin de se réconforter en briguant une place dans un quelconque palmarès.</p>
+          <p>S’il n’a ni génie, ni talent, alors qu’il se fasse sénateur… ou journaliste.</p>
+          <p>Voilà mon sentiment sincère, et — je crois bien — celui de tous ceux qui voient dans l’Art autre chose qu’un outil d’arrivisme.</p>
+        </div>
+        <div>
+          <head>Guy Lavaud</head>
+          <byline><docAuthor key="Lavaud, Guy (1883-1958)"/></byline>
+          <p>Vous avez bien voulu me demander ce que je pense des prix littéraires ?</p>
+          <p>Je les juge avilissants autant qu’inutiles. Avilissants à raison des démarches qu’ils nécessitent ou qu’ils entraînent.</p>
+          <p>Inutiles, puisque d’une part, on voit des littérateurs fort riches comme M. Valéry Larbaud, les réclamer avec insistance et que, d’autre part, ils ne procurent à ceux qui les obtiennent ni des lecteurs, ni même des éditeurs.</p>
+        </div>
+        <div>
+          <head>André Lebey</head>
+          <byline><docAuthor key="Lebey, André (1877-1938)"/></byline>
+          <p>Je voudrais vous répondre longuement, surtout sur le second point de votre questionnaire ; le temps me manque et je vous prie de vouloir bien excuser ce mot très bref. Puisque vous me faisiez l’honneur de me demander mon avis, je tenais, en effet, quand même à vous le donner.</p>
+          <p>Je n’ai jamais été partisan des prix littéraires. Je ne les ai jamais compris et je me permets même de vous féliciter de votre enquête, car j’espère, pour l’honneur des lettres, que la protestation va être unanime contre eux. La littérature, pour ceux qui l’aiment vraiment, est une chose sacrée. On la sert, on ne s’en sert pas. L’excuse d’écrire c’est de ne pouvoir faire autrement et de s’y sacrifier. Comment concilier cela avec la recherche d’un prix ? L’écrivain véritable ne peut pas intriguer. Il ne sait que garder ses forces pour son œuvre, c’est elle qui l’intéresse, le reste n’est pas son affaire. Le reste doit même lui répugner. Ce serait au public à le dégager ; et je me permets de vous renvoyer à ce sujet, à la préface si curieuse que Gœthe mit au <hi rend="i">Neveu de Rameau</hi>, quand il le présenta à ses compatriotes, vers 1808, je crois. Les critiques qu’il adresse à notre nation sont malheureusement restées tout à fait vraies.</p>
+          <p>Il faudrait cependant venir, en effet, en aide aux jeunes écrivains puisque, moins renseignés et moins audacieux que d’autres groupements, moins pénétrés d’un noble sentiment de solidarité, ils n’ont pas encore su jusqu’à présent s’aider eux-mêmes. À mon avis, et en jugeant à première vue, le meilleur moyen serait de leur offrir, moyennant une somme très réduite, ou en échange d’un travail de deux ou trois heures par jour qui leur laisserait le reste du temps libre, une retraite à la campagne, une sorte d’université-hôtel, si je puis employer une expression aussi singulière, s’inspirant, mais en abandonnant tout ce qui est enseignement, des universités anglaises. Tranquilles du côté matériel, distraits, par un travail manuel intéressant, de leur travail intellectuel, placés dans un site où les promenades et les sports les solliciteraient, nos jeunes écrivains, réunis ensemble, mais chacun parfaitement libre, bien entendu, pourraient aller passer là deux ou trois mois par an ou plus, et je crois que ce serait un des meilleurs moyens de leur venir réellement en aide. Je me demande même si on ne pourrait pas étendre cette conception aux peintres, aux décorateurs, aux architectes. Il y aurait peut-être là l’embryon d’une renaissance pour l’activité intellectuelle et créatrice de notre pays.</p>
+        </div>
+        <div>
+          <head>Louis Mandin</head>
+          <byline><docAuthor key="Mandin, Louis (1872-1944)"/></byline>
+          <p><hi rend="i">D’un article à propos de cette enquête, paru dans</hi> Paris-Journal :</p>
+          <p>Bref, encourager la médiocrité, les convoitises et les platitudes, désespérer les vrais artistes, probes et fiers, consacrer l’injustice, étouffer le talent original : telle est l’œuvre des concours et des jurys littéraires.</p>
+          <p>Tous les gens de bonne foi reconnaissent que les prix littéraires sont funestes à la littérature. Mais à ce mal quel remède opposer ?</p>
+          <p>Il en est un, un seul. Puisqu’on ne peut supprimer les prix, les concours et les jurys, qu’on les décuple, et qu’ils pullulent comme les insectes et les reptiles sous le signe du Cancer ! Ils finiront par se manger les uns les autres. Ils finiront par dégoûter le public au point que la bande mentionnant sur un livre le prix obtenu fera fuir les acheteurs.</p>
+          <p>Qu’on décuple, qu’on centuple ! Ce sera de la bonne médecine, selon la méthode homœpathique : <quote><hi rend="i">Simili similibus curantur.</hi></quote> Et seule, cette médecine-là pourra guérir le monde littéraire de la maladie qui le ronge, l’empoisonne et le ridiculise.</p>
+        </div>
+        <div>
+          <head>Camille Mauclair</head>
+          <byline><docAuthor key="Mauclair, Camille (1872-1945)"/></byline>
+          <p>J’ai souhaité, une seule fois dans ma vie, d’obtenir un prix littéraire dont j’avais alors bien besoin, étant très malade et très pauvre. Un Judas me le fit refuser par une manœuvre de sa façon. Depuis je n’ai jamais présenté aucun livre à un concours quelconque. Il y a très longtemps, il y a prescription. Je peux donc vous répondre et vous confier mon scepticisme quant aux juges. Je suis libre de constater que si l’Académie Goncourt, par exemple, a élu quelques jeunes talents (un bon point pour Marc Elder), elle a aussi « raté », avec une insistance qui semblerait voulue aux observateurs chagrins, des hommes comme Charles-Louis Philippe, Suarès, Barbusse, Montfort, Claudel et d’autres, et fait certains choix plus qu’étranges. Il en va de même dans les autres comités, et j’y subodorerai toujours une vague odeur de mares stagnantes. Les hommes peuvent être valeureux : la fonction les médiocrise momentanément, c’est la loi des assemblées.</p>
+          <p>À parler net, je trouve que les prix tendent, selon votre expression, à <hi rend="i">avilir</hi> la mentalité des jeunes. Ce sont des primes à l’arrivisme. On fait son bouquin « pour le prix » en tâchant de plaire à l’électeur influent, comme on fait son esquisse à l’école pour décrocher la médaille, selon le genre de dessin du professeur qui corrigera. C’est collégien et un peu bas. En réalité, l’appeau est illusoire. Quelques billets bleus peuvent sauver en une heure critique l’homme dont la carrière est déjà commencée. Ils ne suffisent pas à créer l’avenir d’un inconnu, et cela est si vrai qu’on tend à reculer la limite d’âge et qu’on a couronné des jeunes approchant la quarantaine et ayant déjà un bagage. Dans les jurys, il y a toujours un ou deux grands électeurs astucieux, affairés, diplomates, qui imposent aux autres que la corvée ennuie et qui promettent à tout le monde. On nomme quelqu’un « contre » quelqu’un. Il y a tendance à ne pas lancer le nouveau venu dont le tempérament présage un concurrent aux ventes prochainement redoutables, mais à nommer plutôt un obligé de second ordre « qui ne cassera rien ». Tout cela verse bon gré mal gré dans la politiquaille, le public le sent, et nous savons de probantes anecdotes.</p>
+          <p>Pour un peu de bien que fait le prix, il halluciné, dévore et arme les uns contre les autres cent concurrents. Plus on crée des prix, plus le rayonnement de leur gloriole est pâle, mais leur bénéfice effectif se prolonge, et tel qui serait sauvé par un prix se retrouve penaud devant la mévente et l’indifférence, deux ou trois ans après. La littérature « indépendante » gagne donc peu à imiter le système par lequel l’Académie du quai recrute pour son clan de dociles créatures. Je ne veux même pas parler des ravages du bas-bleuisme déchaînés par l’usage des prix côté des dames. Je crois que d’ici peu, les prix ne serviront de rien auprès des lecteurs, et qu’on y renoncera.</p>
+          <p>Quant à une aide plus efficace, je n’en vois guère le moyen, pas plus que celui d’empêcher un Léon Deubel de se tuer. Comités, jurys, cela signifiera toujours coterie et partialité, sauf d’heureuses et rares exceptions. Le plus malin l’emporte sur le plus digne, c’est la dure loi de la dure vie. L’État devrait réserver des emplois toujours vacants : tout écrivain notoirement estimé devrait les obtenir sur sa seule demande pour un jeune au sujet duquel il apporterait les éléments d’une enquête discrète et sérieuse. Cela se fait d’ailleurs, mais c’est bien peu. Vraiment le plus pressant de nos devoirs est encore de dire aux jeunes : « Vous avez choisi cette carrière, vous la croyez séduisante. Elle est toujours épuisante et ingrate. Ne vous y trompez pas, il y faut tous les courages. » C’est ce que je répète à ceux qui viennent me voir. Après, s’ils veulent continuer, du moins ne leur ai-je pas menti, et je les aide comme je peux.</p>
+        </div>
+        <div>
+          <head>Eugène Montfort</head>
+          <byline><docAuthor key="Montfort, Eugène (1877-1936)"/></byline>
+          <p>Il serait vain d’insister sur rabaissement des mœurs littéraires produit par cette coutume nouvelle des prix. Au point de vue de la diminution morale de l’écrivain, as prix sont évidemment déplorables. Mais chacun sait plus d’un trait là-dessus, tant sur les candidats que sur les juges.</p>
+          <p>Ce qu’il serait bon de montrer, c’est combien ces prix, loin de leur être favorables, sont funestes aux nouveaux auteurs. Je n’hésite pas, pour ma part, à leur attribuer l’extrême difficulté que les romanciers de ma génération ont rencontrée pour se faire connaître du public. Le prix Goncourt de cette année vient à point pour illustrer ma thèse. Deux jeunes écrivains étaient en présence et se partageaient les voix de l’Académie. Or, ni l’un ni l’autre n’ont obtenu le prix, mais, par on ne sait quelle manœuvre électorale, un troisième larron, auquel les Dix n’avaient pas songé le moins du monde pendant les dix premiers tours de scrutin. Ce troisième larron, dont il faut croire, de l’avis même de l’Académie Goncourt, (puisqu’elle ne le choisissait pas tout d’abord) qu’il a moins de talent que les deux autres, est pourtant celui qui touchera le prix et que connaîtra le public. En attendant, d’ailleurs, que ce public, presque toujours trempé par les jurys, lassé en outre de cette succession de <hi rend="i">fusées</hi> qu’on lui fait partir dans les yeux, enfin manquant d’une critique forte, qui sache lui imposer d’autres auteurs que des lauréats, ne se hâte d’oublier le vainqueur du jour, comme il a oublié les précédents, et retourne, l’oreille basse, à ses bazinoires.</p>
+          <p>Mais voilà-t-il pas un bien beau résultat et dont les fondateurs et les distributeurs de prix peuvent se montrer fiers ?</p>
+        </div>
+        <div>
+          <head>Gabriel Mourey</head>
+          <byline><docAuthor key="Mourey, Gabriel (1865-1943)"/></byline>
+          <p>Je ne suis pas plus partisan des prix littéraires que des prix artistiques. Je les trouve nuisibles autant aux écrivains, — même à ceux qui en bénéficient — qu’au public, car ils faussent les vocations et déplacent les valeurs… mais au fond, tout cela n’a qu’une importance secondaire, et la littérature reconnaîtra toujours les siens !</p>
+        </div>
+        <div>
+          <head>Rachilde</head>
+          <byline><docAuthor key="Rachilde (1860-1953)"/></byline>
+          <p>Il y a trop à dire et rien à gagner en disant ce <hi rend="i">trop…</hi> et c’est pour cela qu’il faut risquer de <hi rend="i">tout perdre</hi> même en en disant pas <hi rend="i">assez</hi> !</p>
+          <p>……………………………………………………………………………………………………………</p>
+          <p>Les prix littéraires sont la plus grande immoralité du siècle parce qu’ils entravent la liberté du génie. Ils sont faits pour les jeunes et ils doivent <hi rend="i">fatalement</hi> influencer des jeunes. On travaille aujourd’hui non pour produire une œuvre selon son cœur, mais pour entrer dans tel ou tel mouvement, plaire à tel ou tel maître et, par-dessus le marché, <hi rend="i">la bonté</hi> des chers maîtres s’en mêle, cette sorte de trémolo social qu’on emploie pour accompagner le geste élégant de protection qu’il convient d’étendre sur la tête du candidat.</p>
+          <p>Pour donner un prix en toute conscience, il n’y aurait qu’à s’enfermer à double tour (dans une tour !) avec tous les livres parus d’un bout de l’année à l’autre <hi rend="i">et les lire</hi> ! Les livres des jeunes ne sont pas tellement nombreux (une centaine, au plus) pour que cette lecture ne puisse être faite en un ou deux mois et <hi rend="i">sérieusement</hi>.</p>
+          <p>Après ? Chacun arrive avec sa liste, ses candidats, et il serait impossible de ne pas tomber d’accord parce que le meilleur livre n’est pas celui qui vous plaît ou flatte vos manies ; c’est celui qui s’impose et vous hante malgré vous, celui qui possède le don, vous subjugue, celui dans lequel <hi rend="i">un dieu passe</hi> !…</p>
+          <p>Or, de la bonne foi des protecteurs des lettres il peut naître les plus grands désordres. Ils se laissent <hi rend="i">poser</hi> des candidats et ils écoutent jusqu’aux femmes des candidats. (Dans candidats, il y a <hi rend="i">candide</hi> !) On cherche à savoir la couleur de leurs opinions, de leur religion et on songe à leur état de fortune. Avec ces moyens d’agir, on ne juge pas, on <hi rend="i">tire au sort</hi> lorsque, brusquement, on est mis en demeure de dire blanc ou noir.</p>
+          <p>Maintenant si la couronne (et sa liste civile) est une aumône… il n’y a plus besoin de nous parler du mérite. Le mérite littéraire n’a rien à voir avec la vie. En ces sortes de choses, <hi rend="i">la bonté tue</hi>, et pour venir en aide à un bon petit élève, un réceptacle de toutes <hi rend="i">les bontés</hi> et complaisances du professeur, on risque de faire sauter la cervelle de celui qui apporte l’œuvre.</p>
+          <p>Si on connaissait, comme moi (qui entend les cris et les réclamations des jeunes gens dupés) le fond vaseux que remue la trombe des prix littéraires, on serait absolument épouvanté du résultat obtenu. Ah ! que ne les a-t-on laissé œuvrer en silence ! Et leurs éditeurs, crocodiles versant des larmes d’attendrissement quand ils n’ont pas… édité l’autre !… Quelle poussée de furoncles, quelle ruée de névroses et quelle mêlée de bandits au coin du bois sacré I</p>
+          <p>Passons au fait. Rien ne vaut le fait brutal pour assommer la vérité, la beauté, la liberté.</p>
+          <p>Cette année-ci, dans presque tous les clans, dans presque tous les salons, on a murmuré un nom, un titre et on s’est réuni pour goûter la saveur d’une œuvre nouvelle <hi rend="i">d’une incomparable fraîcheur.</hi> Je veux parler du <hi rend="i">Grand Meaulnes</hi> d’Alain-Fournier. Je ne connais qu’à peine Alain-Fournier et j’avais, plus proche de moi, des amis, <hi rend="i">des enfants</hi> de la maison que j’habite, où je ne suis rien <hi rend="i">qu’un lecteur qui demande à ne pas s’embêter</hi> en lisant un livre, mais qui se laisserait volontiers aller à préférer celui-ci ou celui-là parce qu’on <hi rend="i">le connaît mieux</hi><note resp="author">Je n’ai rien, Dieu merci, d’un cher maître… seulement je suis <hi rend="i">une</hi> femme !</note>. Eh bien… après avoir lu <hi rend="i">Le Grand Meaulnes</hi> j’ai senti le dieu passer… et tout le reste n’être que littérature ! Vous pensiez que j’allais parler de <hi rend="i">Titine</hi> de Machard, ou des <hi rend="i">Lauriers salis</hi> de Régismanset ? ?</p>
+          <p>Non, eux, ils peuvent marcher et attendre. <hi rend="i">L’autre</hi>, c’est peut-être le premier et le dernier livre qu’il écrira ainsi parce qu’on aura fauché une fleur en lui, sa croyance naïve en la justice</p>
+          <p>Il y a plusieurs <hi rend="i">Grand Meaulnes</hi> qu’on a déjà tués. Il y en aura d’autres… il y en aura toujours. C’est navrant !</p>
+          <p>Je ne songe nullement à nier le talent, le génie de l’auteur élu. Je l’aime aussi, mais en le lisant <hi rend="i">je ne me suis pas senti meilleur</hi> et si son œuvre est <hi rend="i">la plus forte</hi>, elle n’a pas la divine jeunesse du <hi rend="i">Grand Meaulnes</hi>, elle est trop faite.</p>
+          <p>Et puis tout est inutile, tout est vain… et la Beauté demeure.</p>
+        </div>
+        <div>
+          <head>Robert Scheffer</head>
+          <byline><docAuthor key="Scheffer, Robert (1864-19..)"/></byline>
+          <p>Voici mon opinion féroce et sincère :</p>
+          <p>Ce vampire de lettres, le vieux et ridicule Goncourt, qui institua le fameux prix par vanité et pour sauver son nom d’un oubli certain, on devrait, selon l’usage rituel, lui percer le cœur d’un pieu bien aigu afin qu’il cesse ses exploits. Quant aux autres membres de son Académie — à part deux ou trois, dont notre grand Rosny aîné — qu’on les pende, puisqu’ils s’arrogent le droit de juger et d’écarter des œuvres supérieures aux leurs. (Par galanterie, on reléguerait M<hi rend="sup">me</hi> Judith Gautier au couvent).</p>
+          <p>Pour la <hi rend="i">Vie heureuse</hi>, ces probe-dames illettrées tuent leur lauréat sous le ridicule.</p>
+          <p>De quelle façon distribuer équitablement, utilement, des prix littéraires ? Il n’y en a pas. L’écrivain qui tient absolument à faire parler de lui a une ressource : qu’il se suicide. Ou mieux, qu’il assassine son éditeur. Crime passionnel : acquittement, réclame et argent !</p>
+        </div>
+        <div>
+          <head>Van Bever</head>
+          <byline><docAuthor key="Van Bever, Adolphe (1871-1925)"/></byline>
+          <p><hi rend="i">Êtes-vous partisan des prix littéraires</hi> ?</p>
+          <p>Non.</p>
+          <p><hi rend="i">Jugez-vous que leur suppression soit désirable</hi> ?</p>
+          <p>Oui, pour l’honneur des lettres.</p>
+        </div>
+        <div>
+          <head>Clément Vautel</head>
+          <byline><docAuthor key="Vautel, Clément (1876-1954)"/></byline>
+          <p>Vous me demandez mon avis sur les prix littéraires.</p>
+          <p>Permettez-moi de vous dire en bon français, que je m’en fous !…</p>
+          <p>Mais cela m’amuse de penser que tous ces poètes, poétards et poétaillons, ces prosateurs d’art, ces nobles écrivains, ces esprits libérés, etc., nous méprisent, nous autres, les journalistes !… Oui cela m’amuse, parce que je les vois, ces « indépendants », se pendre à tous les cordons de sonnettes, lécher tous les pieds — même les plus sales — pour obtenir un prix…</p>
+          <p>Un prix !…</p>
+          <p>Comme un bon élève !…</p>
+          <p>Il paraît que c’est ça la « jeune littérature » !… La « vieille littérature » a d’ailleurs des prix aussi, ceux de l’Académie qui est au coin du quai.</p>
+          <p>Mais n’en a-t-il pas été ainsi de tout temps ?</p>
+          <p>L’homme de lettres est, traditionnellement, un habitué des antichambres, un solliciteur, un quémandeur, un mendigot… Le moindre bourgeois a infiniment plus de fierté que lui.</p>
+          <p>Et vous savez bien que j’ai raison.</p>
+          <signed>Clément <hi rend="sc">Vautel</hi>.</signed>
+          <postscript>
+            <p><hi rend="i">P.-S. —</hi> J’oubliais votre deuxième question : la façon la plus sage de venir en aide aux jeunes écrivains est de les empêcher d’écrire.</p>
+          </postscript>
+        </div>
+      </div>
+      <div>
+        <head>Conclusion de l’Enquête</head>
+        <p>Nos correspondants ont fort bien mis en lumière le mal que font à la littérature les prix littéraires. Les partisans des prix, eux-mêmes, ne les acceptent que comme une calamité nécessaire, et pas un ne cache le revers de la médaille. Pour un peu de bien qu’apportent ces prix, que de mal ! s’écrient-ils presque tous. <quote><hi rend="i">Ils sont donnés en dépit du bon sens</hi></quote> (Fernand Divoire). <quote><hi rend="i">C’est un sport qui discrédite les artistes et déshonorent la littérature</hi></quote> (Frantz Jourdain). <quote><hi rend="i">Est-ce que ces prix sont jamais venus en aide à de jeunes écrivains</hi> ?</quote> (Ernest La Jeunesse). Ces trois remarques viennent de trois partisans des prix littéraires.</p>
+        <p>Les adversaires des prix songent, comme M. Van Bever, à l’honneur des Lettres. Ils sont effrayés par les nouvelles mœurs, qui amusent M. Vautel, et regrettent le passé où <quote>« la génération montante combattait âprement, souvent injuste pour les puissants et les glorieux du jour, mais indépendante, et ne demandant pas qu’on lui vînt en aide »</quote> (Jean Ajalbert). M. Bazalgette n’est partisan d’aucun prix, M. André Lebey espère que la protestation contre eux sera unanime. Il n’y a <quote><hi rend="i">rien de si laid</hi></quote>, en effet, d’après M. Boulenger, <quote><hi rend="i">que les intrigues dont l’attribution de ces prix est précédée</hi></quote> : ils représentent <quote><hi rend="i">la forme la plus dégradante de l’aumône et de la brigue</hi></quote>, déclare M. Fagus. Ce sont des <quote><hi rend="i">primes à l’arrivisme</hi></quote>, dit M. Mauclair. Avilissants autant qu’inutiles (Guy Lavaud), nuisibles même à ceux qui en bénéficient (Édouard Ducoté, Gabriel Mourey), les prix littéraires ont créé les littérateurs pour prix (Pierre Hamp).</p>
+        <p><quote><hi rend="i">Les fondateurs et les distributeurs des prix peuvent se montrer fiers du résultat obtenu</hi></quote>, s’écrie M. Eugène Montfort. <quote><hi rend="i">Odieux et ridicule</hi></quote>, énonce M. Vincent d’Indy, alors que M<hi rend="sup">me</hi> Rachilde se montre <hi rend="i">épouvantée</hi> de la vase remuée.</p>
+        <p>Voilà des opinions formelles.</p>
+        <p>Mais que faire ? — Rien.</p>
+        <p>Il n’y a rien à faire.</p>
+        <p>Faudra-t-il donc alors adopter le moyen « féroce » de M. Robert Scheffer ?</p>
+      </div>
+    </body>
+  </text>
+</TEI>
