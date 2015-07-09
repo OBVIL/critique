@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enquête sur la question du latin</title>
+        <author>Marges (Les)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/marges_latin/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/marges_latin.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/marges_latin.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/marges_latin.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/marges_latin.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>« Pour le latin », « Enquête sur la question du latin », <hi rend="i">Les Marges</hi></title>, 2<hi rend="sup">e</hi> série, nº 27, 1<hi rend="sup">er</hi> <date>mai 1911</date>, p. 143-175.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1911"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Pour le latin</head>
+        <quote>
+          <p>« Monsieur le Ministre,</p>
+          <p>« Émus de l’infériorité croissante de la culture générale, que d’excellents esprits viennent de mettre en si vive lumière, et convaincus comme eux qu’il existe une étroite relation entre l’étude des langues anciennes et la persistance du génie français, nous avons l’honneur d’attirer votre bienveillante attention sur une révision nécessaire des programmes de l’enseignement secondaire, élaborés en 1902, lesquels ont à peu près aboli l’étude du latin dans les lycées, et en même temps affaibli déplorablement l’étude du français. »</p>
+        </quote>
+        <p>Tel est le texte de la pétition, dont <hi rend="i">Les Marges</hi> avaient pris l’initiative, et que l’on a signée un peu partout.</p>
+        <p>Une campagne d’articles, dans nombre de journaux et de revues, avait précédé cette pétition.</p>
+        <p>Les programmes de 1902, dont il s’agit, ont été conçus dans le but de préparer le petit Français « à la vie moderne ». Ils l’inclinent aux études sans latin. On ignore encore si les jeunes gens soumis à ce nouveau régime seront, en effet, des maîtres de la vie « moderne », mais ce qu’on sait déjà, c’est qu’ils ne seront jamais des maîtres en fait de langage…</p>
+        <p><quote>« La valeur exacte des mots est par eux de plus en plus ignorée : d’où des confusions croissantes entre les mots d’aspect à peu près semblable, confusions qui font écrire : “Il était <hi rend="i">compatible</hi> aux malheurs d’autrui. Son <hi rend="i">Imminence</hi> le cardinal de Richelieu. La famille doit nous <hi rend="i">inculper</hi> les bons sentiments. Boileau étudie la poésie dramatique et la poésie <hi rend="i">hippique</hi>”, etc., etc. »</quote>, nous dit, par exemple, M. Crouzet, professeur à Rollin. Et M. Crouzet ne parle pas d’enfants de dix ans, mais de garçons de quinze ou seize ans, non point de cancres, mais d’élèves moyens.</p>
+        <ab type="ornament">*
+<lb/>*  *</ab>
+        <p>On entend d’ici les gens « pratiques » murmurer : « Mon Dieu ! peut-être ces jeunes gens ne parlent-ils pas un français absolument pur. Qu’importe — s’ils pensent bien et agissent bien ! » Mais, justement, s’ils parlent aussi mal, s’ils confondent les mots, s’ils n’apprécient pas la valeur des termes, c’est qu’ils pensent mal. Leur esprit n’est point précis. Cette culture scientifique, qui devait leur donner de la netteté, n’en confère point si elle n’est accompagnée et complétée par une bonne culture classique. Là-dessus, impossible de se tromper. M. Plésent, professeur à Louis-le-Grand, s’exprime ainsi : <quote>« Ces élèves, nourris de sciences, gavés de mathématiques, sont de plus en plus dépourvus des deux qualités principales du bon mathématicien : la logique et le raisonnement. Tous les professeurs de sciences vous le diront comme moi… »</quote></p>
+        <p>Cette remarque très grave d’un professeur qui, sous ses yeux, chaque jour, voit se former et se développer les jeunes intelligences nouvelles, est confirmée d’une façon extrêmement forte par une lettre au ministre de l’Instruction publique, écrite par M. Guillain, président du Comité des forges de France, lequel s’est fait l’interprète des chefs de notre industrie et déclare qu’aujourd’hui les jeunes ingénieurs sont, pour la plupart, incapables <quote>« de présenter leurs idées dans des rapports clairs, bien composés et rédigés »</quote>. <hi rend="sc">M. Guillain, comme nous, réclame la réforme des programmes de 1902.</hi></p>
+        <p>En même temps, d’autre part, nous voyons le Conseil d’administration de l’École polytechnique demander qu’on rétablisse, pour les élèves ayant fait leur éducation classique, les points d’avance qu’on avait abolis au cours de ces dernières années.</p>
+        <p>Il faut restaurer la tradition latine pour former des jeunes gens au cerveau <hi rend="i">bien fait</hi> plutôt que <hi rend="i">bien rempli</hi>.</p>
+        <ab type="ornament">*
+<lb/>*  *</ab>
+        <p>Le meilleur argument des partisans de l’enseignement « moderne » était celui-ci :</p>
+        <p>« Certes, nous allons mettre au jour une France de barbares, nous allons nous dépouiller de tout ce qui, depuis des siècles, constituait notre prestige, notre charme et notre beauté dans le monde, nous n’aurons plus la grâce, ni la politesse de l’esprit, — mais quoi ! nécessité fait loi. Nous nous battons, il s’agit d’abord de vivre, puis de vaincre. Or, c’est sur le terrain industriel que les nations, que les races se rencontrent aujourd’hui. Il nous faut avant tout de bons industriels. L’enseignement moderne, seul, nous procurera de bons industriels. » Mais, si maintenant, il est démontré que cet enseignement moderne, que l’absence de culture générale, est plutôt nuisible qu’utile aux ingénieurs, aux hommes d’action, à tout le monde, que restera-t-il donc de cet argument-là ?</p>
+        <ab type="ornament">*
+<lb/>*  *</ab>
+        <p>Dans une discussion sur l’enseignement secondaire qui se produisit à la Chambre en 1896, M. Jaurès trouva des cris singulièrement beaux. Il disait à la bourgeoisie :</p>
+        <quote>
+          <p>« Je voterai pour l’enseignement moderne, parce que la suppression de la culture classique, à laquelle, personnellement, je suis de tout mon cœur attaché, vous portera le coup le plus funeste. »</p>
+        </quote>
+        <p>Et il concluait en ces termes :</p>
+        <quote>
+          <p>« Lorsqu’il y a cinquante ou soixante ans, sous Louis-Philippe, la bourgeoisie est arrivée au pouvoir, au gouvernement, aux affaires, elle avait compris alors que le prestige de la seule richesse ne lui suffirait pas, et elle essayait, en appelant à sa tête des hommes imprégnés de la culture antique, en la défendant partout, d’ajouter pour elle au prestige grossier de l’argent le prestige d’une noble culture.</p>
+          <p>« Vous faites de singuliers progrès dans la décadence, Messieurs. Et vous paraissez croire aujourd’hui que, dépouillés de ce prestige de la culture antique, n’ayant plus que le prestige grossier de la richesse, vous pourrez vous défendre. Non, Messieurs, vous vous désarmez, vous vous dépouillez, vous vous découronnez vous-mêmes, <hi rend="i">et voilà pourquoi nous votons avec vous</hi>. »</p>
+        </quote>
+        <p>Eh bien, ce que M. Jaurès disait de la bourgeoisie, c’est de la France, quant à nous, que nous le pensons. Avec les programmes d’enseignement de 1902, la France s’est désarmée, elle s’est dépouillée, elle s’est découronnée. Et voilà pourquoi nous avons lancé notre pétition, et pourquoi chacun — des industriels qui se rendent compte du danger, aussi bien que des gens de lettres et des professeurs — pourquoi chacun l’a signée.</p>
+        <p>Les pouvoirs publics semblent bien décidés à n’en tenir aucun compte. Mais peut-être, un jour, quand le péril leur crèvera les yeux, se résoudront-ils, enfin, à une réforme.</p>
+        <byline><docAuthor key="Montfort, Eugène (1877-1936)">Eugène <hi rend="sc">Montfort</hi></docAuthor>.</byline>
+      </div>
+      <div>
+        <head>Enquête sur la question du latin</head>
+        <div>
+          <head>[Question]</head>
+          <p><hi rend="i">Ayant été reçu le 5 avril par M. Steeg, nous lui avons remis la pétition des</hi> Marges<hi rend="i">. À la suite de cette visite, nous avons adressé aux signataires de notre pétition la circulaire suivante</hi> :</p>
+          <p/>
+          <p><hi rend="i">Monsieur</hi>,</p>
+          <p><hi rend="i">Nous avons remis hier au Ministre notre pétition par laquelle nous désirions attirer son attention sur</hi> une révision nécessaire des programmes de l’enseignement secondaire élaborés en 1902, lesquels ont à peu près aboli l’étude du latin dans les lycées et en même temps affaibli déplorablement l’étude du français<hi rend="i">. Pétition que vous aviez signée.</hi></p>
+          <p><hi rend="i">Le Ministre ne nous a pas caché qu’il ne serait partisan d’aucune réforme. Il ne nous a pas semblé qu’il eût le sentiment du péril que courent l’esprit français et la langue française. Et il a paru persuadé qu’un mouvement comme celui qui se produit aujourd’hui pour réformer l’enseignement devait nécessairement avoir des racines politiques. En face de lui, nous avons eu nettement l’impression qu’il serait difficile de convaincre les pouvoirs publics et le parlement, et que nous trouverions de ce côté de grands préjugés à combattre</hi>.</p>
+          <p rend="i">Pour essayer dès maintenant de les ébranler, nous vous prions de vouloir bien répondre à ces deux questions :</p>
+          <p><hi rend="i">1º Avez-vous déjà remarqué autour de vous que l’esprit français et la langue fussent menacés ? Pourriez-vous nous citer quelque fait significatif</hi> ?</p>
+          <p><hi rend="i">2º Ne jugez-vous pas qu’on puisse, sans arrière-pensée politique, désirer que soit rétabli l’enseignement du latin ? Le but n’est-il pas idéal et supérieur à toute « politique</hi> » <hi rend="i"/>?</p>
+        </div>
+        <div>
+          <head>Paul Acker</head>
+          <byline><docAuthor key="Acker, Paul (1874-1915)"/></byline>
+          <p>Ne nous étonnons pas que M. Steeg voie dans votre pétition si juste, si raisonnable, si excellente, des mobiles politiques. La réforme de l’orthographe a été une question politique…</p>
+          <p>Seulement ce sont nos gouvernants — et non pas nous — qui mettent partout la politique, et la plus basse. Leur démocratie ne souffre pas d’élites, elle ne souffre même pas une culture élevée ; elle arrête tout par le bas.</p>
+          <p>Quant à la crise du français, il me suffit à moi de lire les journaux et les livres d’aujourd’hui pour en être convaincu, et d’entendre parler ceux qui se disent appartenir à des partis de progrès.</p>
+        </div>
+        <div>
+          <head>Émile Baumann</head>
+          <byline><docAuthor key="Baumann, Émile (1868-1941)"/></byline>
+          <p>Voici deux ou trois indications dont vous pourriez tirer profit. Il ne s’agit point de rétablir le latin, puisqu’il n’est pas supprimé pour ceux qui veulent en faire ; ce qu’il faudrait, c’est revenir aux vieilles humanités (latin-grec) jusqu’à la 1<hi rend="sup">re</hi> incluse.</p>
+          <p>En seconde D (ceux qui ne font pas de latin) les élèves ont quatre heures de français par semaine, quatre heures d’histoire et vingt-deux heures de sciences ou de langues vivantes.</p>
+          <p>Les livres de lectures allemandes semblent conçus pour germaniser les esprits. L’Allemagne moderne y est, à chaque page, magnifiée.</p>
+          <p>Dans les compositions françaises, le déclin de la culture s’est aggravé depuis les derniers programmes : incorrections, tours barbares, vulgarité, insignifiance, imagination nulle. Ou bien style de bon commis.</p>
+        </div>
+        <div>
+          <head>Valère Bernard. <hi rend="i">Capoulié du Félibrige</hi></head>
+          <byline><docAuthor>Bernard, Valère (1860-1936)</docAuthor></byline>
+          <p>Il m’est difficile de répondre à votre première question, ne m’occupant exclusivement que de littérature provençale, et étant arrivé à la conviction absolue — par de longues observations — que ce que vous appelez <hi rend="i">l’esprit français</hi>, dans le sens particulier que vous paraissez donner à ce terme, n’existe nulle part en France, hors de Paris, sauf dans des milieux littéraires — et, partant, artificiels.</p>
+          <p>Il y a un esprit breton, un esprit picard, un esprit normand, un esprit gascon, etc., etc., esprits tous très différents les uns des autres, surtout si nous les apprécions à travers leurs langages particuliers.</p>
+          <p>De ce point de vue, et en ma qualité de Capoulié du Félibrige représentant le vaste domaine de la langue d’Oc qui, vous le savez bien, est aussi riche et aussi étendu que celui de la langue d’Oïl, je ne pourrais vous répondre.</p>
+          <p>Mais, ce que je puis vous affirmer, c’est que l’affaiblissement de l’esprit — en France — vient moins de l’abolition des études au latin dans les collèges, que de l’affaiblissement de l’esprit provincial.</p>
+          <p>Donnez aux provinces leurs libertés entières, faites-en <hi rend="i">des états fédérés dans l’État</hi>, et vous verrez aussitôt surgir une France nouvelle débarrassée à tout jamais des parasites qui la rongent, une France consciente d’elle-même, de sa valeur propre, des différentes faces de son génie, dans laquelle tous les éléments qui la composent auront la même fierté, et non ce lâche désir, cette attitude de chien battu qu’ils prennent en face de Paris, en face de la centralisation la plus monstrueuse que l’on ait jamais vue.</p>
+          <p>Quant à la deuxième question, il est absurde même de la formuler. Comment ! nous en sommes donc arrivés là ! Désirer que soit rétabli l’enseignement du latin équivaut à une arrière-pensée politique ? — Nous voilà devenus suspects pour vouloir en revenir aux études logiques, à la connaissance des origines de notre langue, de sa lente formation ! Mais c’est la mentalité du nègre ! C’est la mentalité de l’ignorant du moyen âge qui regardait tout savant comme sorcier digne d’être brûlé ! Nos <hi rend="i">Purs</hi>, les <hi rend="i">vieilles barbes</hi>, les <hi rend="i">arrivistes</hi> et les <hi rend="i">métèques</hi> regarderont donc tout homme étudiant ou sachant le latin comme un être rétrograde, comme le plus sinistre des conspirateurs ! — C’est absurde !</p>
+        </div>
+        <div>
+          <head>Jules Bertaut</head>
+          <byline><docAuthor key="Bertaut, Jules (1877-1959)"/></byline>
+          <p>1º Il est assez difficile d’observer les dégradations qui ont été subies par la langue ou l’esprit français, du fait des primaires sans culture latine. Songez, en effet, que les générations issues des néfastes programmes de 1902 n’ont pu encore accomplir grande besogne, — heureusement ! Mais si leur présence ne se manifeste pas au point de vue linguistique, elle s’avère — et combien encombrante ! — dans toutes les professions à base scientifique : observez la classe des ingénieurs, celle des médecins, celle des chimistes, physiciens, physiologistes, astronomes, etc…, vous verrez comme le primaire y domine, l’homme qui s’est spécialisé trop tôt et qui, en dehors de sa science (dont nous ne pouvons juger, puisque nous sommes des profanes) est lamentablement ignorant. Vous trouverez encore décadence de la haute culture, disparition de l’« honnête homme » de jadis dans l’armée et dans certaines grandes administrations (tout ce qui dépend de la Préfecture de la Seine, par exemple) ainsi que dans presque tous les ministères à tendances modernes (travail, commerce, colonies, etc…). Il n’y a plus là aucune manifestation de l’esprit français. La magistrature, la diplomatie, la littérature se tient encore, ainsi que certaines professions libérales (barreau, officiers ministériels, etc…), mais tout le reste est perdu pour l’ancienne culture.</p>
+          <p>Et quand nous verrons aux affaires la génération sportive d’hier, ce sera bien autre chose !…</p>
+          <p>2º Quelle absurdité de vouloir toujours apercevoir un arrière-plan politique dans toute entreprise ! La France contemporaine n’agonise-t-elle pas de cette hantise de la politique ?… Vous aimez le latin, donc vous êtes un réactionnaire. En vérité, tout cela est misérable. Mais il faudrait prouver aux hommes publics que les artistes se désintéressent de la chose publique, et un homme public ne s’avouera jamais une chose pareille.</p>
+        </div>
+        <div>
+          <head>Marcel Boulenger</head>
+          <byline><docAuthor key="Boulenger, Marcel (1873-1932)"/></byline>
+          <p>Je crois « l’esprit français » vivace et difficile à gâter. Quand toute la bureaucratie serait touchée par la Sorbonne, il resterait ce qui échappe à celle-ci, à savoir l’élite et à savoir la rue. Grâce aux dieux !</p>
+          <p>Quant à la langue, elle est plus que menacée. La Sorbonne ne s’en soucie nullement et y introduit de lourds néologismes. Mais les « artistes » surtout l’abîment par ignorance et prétention. Ils abusent des « avec », des « de », ce dernier mis à la place de « par », l’autre supprimant des lambeaux entiers de phrases. Ils finiront par le petit-nègre lyrique. C’est humble et commun. Puis, les mots en « ment », en « isme » ; et l’impropriété des comparaisons, etc. Affreux, tout cela. La Sorbonne devrait au moins prendre la peine de signaler aux étudiants ces pauvretés. Pour un peu, je voudrais que l’Université tout entière, accompagnée par l’Académie et précédée par le Ministre, fît une démarche auprès de chaque bureau téléphonique, afin que les demoiselles consentissent à ne plus dire : « On vous cause », mais plus modestement : « On vous parle. » Autant, je le sais, prêcher dans le désert. Les raffinés, du moins, ou qui se croient tels, pourraient ne pas commettre de ces fautes. Il faudrait commencer par ne plus écrire : « Le soleil, avec un poudroiement d’or, se mourait sur les champs tranquilles de solitude. » Et par ne pas dire :</p>
+          <p>« Vous en rappelez-vous ? C’était quand vous causiez à cette dame qui partait à Trouville. »</p>
+          <p>Mais si la Sorbonne se moque bien de ces barbarismes, les « artistes » semblent eux-mêmes les aimer — les « affectionner », comme ils disent. Tout cela est également fâcheux, et la prétention ne vaut rien à la langue française, que ce soit la prétention du pédant ou celle du rapin — pire encore !</p>
+          <p>Ne parlez point de faire quoi que ce soit « sans arrière-pensée politique ». Cela semble séduisant. Mais à quoi bon, puisque c’est impossible ? Il convient d’être pratique, d’abord. Si le ministre, si le gouvernement sont, contre les lettrés, avec la Sorbonne germanisée, eh ! bien, luttez contre ce ministre et ce gouvernement, par vos armes, c’est-à-dire par la plume, par la parole, par le prestige, par l’influence et par le bulletin de vote.</p>
+          <p>La Sorbonne ne se prive pas de faire de la politique, elle. Faites-en donc pareillement. Ce n’est pas déshonorant, au contraire, mais énergique et courageux. Victor Hugo, Lamartine, Stendhal, Paul-Louis Courier, Chateaubriand pensaient ainsi. Le but que vous poursuivez est idéal et supérieur à la politique, oui. Mais c’est comme si l’on disait que la victoire est supérieure au canon. Rien ne compte, rien n’arrive que par la politique. Les seuls arguments qui persuaderont ici un ministre sont des arguments politiques. Or, qui veut la fin veut les moyens. Pour la littérature nationale, qui est une fin magnifique, usez crânement et bravement de la politique, laquelle est un moyen, mon Dieu, pas si mesquin — et pas déjà si facile !</p>
+        </div>
+        <div>
+          <head>Gaston Chérau</head>
+          <byline><docAuthor key="Chérau, Gaston (1872-1937)"/></byline>
+          <p>Ah ! le ministre n’est partisan d’aucune réforme ?</p>
+          <p>Enfin, voilà donc un homme qui trouve que tout est bien ! Comme c’est un ministre et qu’il doit être mieux renseigné que les pauvres taquineurs d’idées, gratteurs et barbouilleurs de paperasses, nous devons le croire sur parole. Puisque tout est bien et doit rester en état, voici un ministre dont la fonction est devenue inutile ; qu’on le supprime. Si, durant sa retraite, il consent à fréquenter des écrivains et des universitaires, il pourra préparer un joli travail de réformes. À n’entendre ou à ne lire que des discours politiques, on doit vite se désintéresser de la pureté de la langue française et ne plus voir dans les agitations exclusivement littéraires que « des racines politiques ». Quelle misère ! J’aime à croire que les racines grecques et les racines latines importent plus aux <hi rend="i">Marges</hi> que les racines politiques.</p>
+          <p>Que le ministre commence donc, ou recommence, ses humanités et nous le verrons, avec nous, déplorer le français belge et les néologismes bancals dont le Palais Bourbon retentit.</p>
+          <p>Une arrière-pensée politique dans ce mouvement ?</p>
+          <p>Ah ! que Flaubert s’amuserait !</p>
+        </div>
+        <div>
+          <head>Ambroise Colin. <hi rend="i">Professeur à la Faculté de Droit</hi></head>
+          <byline><docAuthor>Colin, Ambroise (1862-1929)</docAuthor></byline>
+          <p>I. — Voici plus de vingt ans que je me trouve en rapport avec des milliers d’étudiants, soit dans les examens (si nombreux à Paris !), soit dans les conférences et travaux pratiques que j’ai dirigés à la Faculté de Droit. J’ai pu constater ce fait — assez surprenant au premier abord — que les jeunes gens dépourvus d’études classiques se reconnaissaient en général à l’infériorité de leurs facultés <hi rend="i">de raisonnement</hi>. Percevoir l’enchaînement des idées dans un raisonnement juridique, discerner le général et le particulier, distinguer l’argument et l’exemple, toutes ces opérations élémentaires de notre technique (et j’en pourrais citer bien d’autres) paraissent dépasser le niveau de leurs forces intellectuelles. Des <hi rend="i">centaines</hi> d’expériences de ce genre ne pouvaient que confirmer, à mes yeux, la valeur éducative supérieure des humanités.</p>
+          <p>À quoi tient cette valeur ? C’est ce que je ne me hasarderai pas à décider. Toutefois je pense que l’effort cérébral assez modeste exigé par le choix des expressions dans une version ou un thème latin, ou par la lecture des ouvrages de l’antiquité classique, ce répertoire des grands lieux communs sur lesquels vit en somme l’humanité depuis des siècles, est merveilleusement approprié à la vigueur d’un jeune cerveau encore en formation. De même le travail modéré qui consiste à herser un champ convient admirablement aux forces d’un jeune cheval de deux ans qu’il faut exercer sans l’épuiser.</p>
+          <p>II. — C’est un véritable paradoxe que de rechercher une arrière-pensée politique dans la défense des langues mortes contre les abus des programmes actuels. Il serait même facile de retourner l’insinuation. J’ai entendu un lettré distingué de notre Sorbonne invoquer cet argument contre l’étude du latin qu’il fallait, à son avis, détruire le prestige d’une langue qui est celle de l’Église romaine ! Ce sont là des considérations bien mesquines, et qui doivent évidemment être écartées dans un débat institué entre esprits sincères, uniquement préoccupés de l’intérêt des bonnes études secondaires si étroitement lié au prestige et à l’avenir de la patrie.</p>
+          <p>III. — La restauration des études classiques offrirait même à mes yeux une utilité dépassant la sphère des intérêts nationaux. Vous me permettrez d’en dire un mot.</p>
+          <p>À l’heure actuelle, dans toutes les branches des connaissances humaines, étant donné les progrès de l’activité scientifique dans tous les pays, l’impossibilité pour les travailleurs de se documenter entièrement, faute de connaître toutes les langues étrangères, rend éminemment désirable l’adoption d’une <hi rend="i">langue scientifique universelle</hi>. Est-ce que cette langue n’est pas déjà toute trouvée ? Est-ce qu’un idiome qui a exprimé des civilisations aussi différentes que celle de la République romaine et celle du moyen âge, qui a fourni au droit, a la théologie, à bien d’autres sciences encore, pendant des siècles, leur unique instrument d’élaboration et de diffusion, n’a pas donné les preuves les plus convaincantes de sa souplesse et de ses facultés d’adaptation à toutes les idées et à tous les faits ? Le latin, hier encore, était la langue de tous les savants. C’est en latin qu’on a traduit le <hi rend="i">Discours de la méthode</hi>, lorsqu’il s’est agi de vulgariser, de répandre dans le monde entier les idées cartésiennes. C’est au latin qu’il faudra revenir lorsque se seront achevées dans le ridicule les tentatives de <hi rend="i">volapük</hi> et d’<hi rend="i">espéranto</hi> que nous voyons végéter sous nos yeux. Il se publie actuellement à Budapesth un journal mensuel destiné aux collégiens, le <hi rend="i">Juventus</hi>. Cet organe, rédigé entièrement en latin, contient des articles sur l’aviation, sur l’automobile, sur tous les sports qui passionnent aujourd’hui nos enfants. On y lit des études sur Shakespeare, sur les expositions artistiques de France, d’Allemagne, d’Italie, on y trouve des problèmes de mathématiques, etc. C’est une preuve concrète de l’extrême facilité qu’aurait un <hi rend="i">Office international d’humanisme</hi>, fondation sur laquelle j’appelle toute votre attention, à rendre facilement accessibles à la masse des travailleurs répandue dans le monde entier tous les ouvrages intéressants qui paraissent chaque jour dans les divers idiomes de l’humanité, parfois dans des littératures, récemment réveillées mais peu accessibles (polonais, tchèque, magyar, roumain, etc.). Je soumets l’idée, qui me paraît digne d’être creusée, à l’intelligente Direction des <hi rend="i">Marges</hi>. Si elle prenait corps, nous verrions se confirmer solidement cette vérité (dont, pour ma part, je suis déjà convaincu), que les études les plus <hi rend="i">élevées</hi> sont en même temps les plus <hi rend="i">pratiques</hi>.</p>
+        </div>
+        <div>
+          <head>Francis de Croisset</head>
+          <byline><docAuthor key="Croisset, Francis de (1877-1937)"/></byline>
+          <p>Il n’est pas un écrivain, digne de ce nom, qui ne déplore que soient délaissées les nobles et belles « humanités », sans lesquelles il n’est pas de véritable culture française.</p>
+          <p>Dans l’intérêt vital de notre langue, il est non seulement utile, il est urgent que l’enseignement du latin soit rétabli.</p>
+          <p>Il me semble incroyable qu’on puisse songer sérieusement à entraver par des objections de politique un but aussi nécessaire, aussi national.</p>
+        </div>
+        <div>
+          <head>Georges Delaw</head>
+          <byline><docAuthor key="Delaw, Georges (1874-1938)"/></byline>
+          <p>Vous me demandez « si je pense que l’on peut désirer que soit rétabli l’enseignement du latin ».</p>
+          <p>Je pense qu’on peut le désirer, mais je ne le désire pas ; cela m’est égal. Je souhaiterais seulement pour les collégiens d’aujourd’hui que le latin — si on en fait refleurir l’enseignement — soit enseigné d’une autre façon. Que cet enseignement ne soit pas un instrument de supplice, une machine à pensums et à migraines, entre les mains de professeurs inintelligents et brutaux qu’un contact quotidien avec la langue de Virgile devrait cependant rendre aimables. Les professeurs de mon collège (on ne peut causer que de ce que l’on sait) semblaient avoir hérité de la brutalité romaine ; ils se sont assis sur notre jeunesse avec toute la lourdeur d’un monument romain ; ils ont failli étouffer tout ce qu’il y a en nous, d’« aborigène ». Je ne veux pas croire que nous soyons des latins, je veux être libre ; je veux être un autochtone. Je ne suis pas autorisé pour répondre à votre question, je vous parle sans savoir, sans érudition ; mais je crois instinctivement que l’esprit français n’a rien à voir avec l’esprit de Caïus Julius-César, le spirituel reporter qui fit couper les poings à nos bonnes grand’mères d’Uxellodunum parce qu’elles parlaient le fruste langage celtique.</p>
+          <p>Je regrette de devoir quelque chose à ces gens-là. Reste à savoir si ce n’est pas le latin qui a eu de la chance de se mêler à notre évolution pour devenir la langue de Paul-Louis Courier, au lieu de devenir bêtement italien. Heureusement la tyrannie romaine n’a pas tout jugulé chez nous, car je ne pense pas que Notre-Dame de Paris soit sortie du Pont-du-Gard. La pierre est restée sauve, et sur cette pierre la France a bâti sa cathédrale, d’où notre génie gothique est sorti sain et sauf… Je vous dis bien des choses à tort et à travers ; je voulais terminer par une simple observation sur ce prétendu danger que l’abandon du latin ferait courir à la langue française. Un des beaux livres qui ont été écrits ces derniers temps, <hi rend="i">Marie-Claire</hi>, a été écrit par une femme qui, je crois, ne connaît pas un mot de latin.</p>
+        </div>
+        <div>
+          <head>Professeur Dieulafoy. <hi rend="i">De l’Académie de Médecine</hi></head>
+          <byline><docAuthor key="Dieulafoy, Georges (1839-1911)"/></byline>
+          <p>Je pense que les programmes de l’enseignement secondaire élaborés en 1902 ont eu le tort d’abolir à peu près l’étude du latin dans les lycées et d’affaiblir déplorablement l’étude du français.</p>
+        </div>
+        <div>
+          <head>Édouard Ducoté</head>
+          <byline><docAuthor key="Ducoté, Édouard (1870-1929)"/></byline>
+          <p>1º Je n’ai point signé à la légère la pétition des <hi rend="i">Marges</hi>. Depuis plusieurs années, j’étais frappé de l’absence presque totale de culture chez un grand nombre de jeunes gens, de l’indifférence de ces derniers pour les beautés de notre littérature et de leur méconnaissance du bon langage. J’ai pu, en outre, exercer mon observation sur deux lycéens de mes proches, dont l’un préparait le baccalauréat sciences-langues, l’autre le baccalauréat latin-grec. Alors que celui-ci écrit le français avec aisance et justesse, l’autre manie péniblement un style puéril où foisonnent le solécisme, l’amphibologie et les termes impropres.</p>
+          <p>Pour moi la preuve est faite. L’enseignement secondaire, tel qu’il est actuellement compris, nous prépare des générations de contre-maîtres. Et que l’on ne nous parle pas de culture scientifique ! Il ne saurait exister de vraie culture scientifique sans culture littéraire à la base.</p>
+          <p>Nous ne demandons pas à l’Université de fabriquer des latinistes, mais de former, grâce à l’indispensable étude du latin, des jeunes gens aptes à jouir du magnifique patrimoine littéraire de leur pays, et à s’exprimer, sinon avec élégance, du moins avec précision et correction. L’esprit français est dangereusement menacé du fait que la connaissance de la langue périclite.</p>
+          <p>2º Il ne m’était pas venu à l’idée qu’un vœu pour le rétablissement du latin pût cacher une arrière-pensée politique.</p>
+          <p>Élever la voix en faveur d’une langue morte, serait-ce par hasard faire « œuvre de réaction » ? « Les curés » auraient-ils, en l’adoptant, rendu la langue de Lucrèce suspecte de cléricalisme ? Mais laissons la plaisanterie, et déplorons, une fois de plus, que notre pays soit infecté par la politique à tel point que toute question d’intérêt national y soit immédiatement considérée comme une affaire de parti.</p>
+        </div>
+        <div>
+          <head>Henri Duvernois</head>
+          <byline><docAuthor key="Duvernois, Henri (1875-1937)"/></byline>
+          <p>Voici ma réponse à votre première question :</p>
+          <p>L’esprit français et la langue sont menacés. Le temps ne me paraît point éloigné où des Dictionnaires dénués d’ironie pourront mettre en face de ce mot : <hi rend="i">littérature</hi> cette courte définition : « distraction d’illettrés ». Du talent, certes, des dons, mais des talents qui ont l’air de s’être lavé les mains sans user de savon et sans utiliser la brosse à ongles. Ne parlons pas des erreurs de syntaxe ; tout le monde en commet, plus ou moins ; voilà qui est plus grave : beaucoup de livres modernes fourmillent de fautes d’orthographe. J’en appelle aux critiques littéraires qui font honnêtement leur métier. Le lecteur, s’il est cultivé, est, la plupart du temps, au-dessus de sa lecture. On m’a conté que dans une assemblée d’hommes de lettres contraints, lors d’un concours, à copier une devise latine d’ordre courant, la plupart des jurés s’étaient montrés pitoyablement embarrassés !</p>
+          <p>Que vient faire la politique dans ce débat ? Les politiciens se méfient de la littérature ; ils le prouvent par leurs actes, leurs discours et leurs écrits. L’art est heureusement étranger à tout leur « ail de basse cuisine ». Bien écrire a toujours paru subversif et il a toujours été entendu que l’on pensait mal quand on s’exprimait avec quelque soin. Donc, n’espérons rien, mais protestons, sans distinction de partis, réunis dans le même souci qui est celui de l’avenir littéraire de notre pays…</p>
+          <p>D’ailleurs si tant de lecteurs bénévoles prennent, hélas ! la plume à leur tour et s’improvisent poètes, romanciers ou auteurs dramatiques, c’est que, dès à présent, on n’envisage plus avec clairvoyance les difficultés de la tâche !</p>
+        </div>
+        <div>
+          <head>Régis Gignoux</head>
+          <byline><docAuthor key="Gignoux, Régis"/></byline>
+          <p>1º L’esprit français menacé ? Certes, et principalement par des pseudonymes très francisés. Pas de fait significatif : mais la langue, elle, n’est plus menacée, elle est combattue, officiellement, un fait significatif : <hi rend="i">Rivoli</hi> à l’Odéon (Remarque sans polémique, s.g.d.g.) ;</p>
+          <p>2º Évidemment ; mais qui parle de politique ? les politiciens. En s’opposant à toute culture, c’est leur alimentation qu’ils défendent. Pour conserver des électeurs, ils devront bientôt enterrer leur trouvaille d’enseignement primaire.</p>
+        </div>
+        <div>
+          <head>Remy de Gourmont</head>
+          <byline><docAuthor key="Gourmont, Remy de (1858-1915)"/></byline>
+          <p>1º Ce n’est pas avant une dizaine d’années que l’on s’apercevra sérieusement de la quasi-abolition du latin dans les études. Cependant on voit déjà que le style de certains écrivains, notoirement primaires, est plutôt fâcheux.</p>
+          <p>2º J’ai pensé que la pétition des <hi rend="i">Marges</hi> n’avait aucun caractère politique, et je le pense encore. Sans cela je n’y aurais point donné mon assentiment. Mais de quelle nature serait cette arrière-pensée politique ? Croit-on, au Ministère, que le latin de Pétrone soit clérical ? Peut-être. Il figure dans <hi rend="i">Quo vadis</hi> ? C’est bien suspect.</p>
+          <postscript>
+            <p>P.-S. — Je n’ai pas perdu mon goût pour le latin du moyen-âge, le latin parallèle au plus ancien français. C’est la source indispensable pour l’étude de nos origines linguistiques.</p>
+          </postscript>
+        </div>
+        <div>
+          <head>Louis de Gramont</head>
+          <byline><docAuthor key="Gramont, Louis de"/></byline>
+          <p>1º Pour constater le péril qui menace la langue française, ne suffit-il pas de lire les journaux ? Dans la plupart d’entre eux, môme dans ceux qui se piquent de littérature, on rencontre quotidiennement des fautes manifestes, des pléonasmes, des impropriétés de termes, des mots complètement détournés de leur sens, etc.</p>
+          <p>2º L’utilité de l’enseignement du latin est incontestable pour maintenir la pureté de la langue française qui en dérive, qui n’est à l’origine que du latin transformé. Je ne vois pas ce que la question peut avoir de politique : il me semble que c’est une question nationale, supérieure par conséquent à tous les partis. Enfin ne serait-il pas réellement démocratique, en rétablissant dans son intégrité l’enseignement du latin, de le rendre accessible à tous les enfants, quelle que soit leur condition, qui sont aptes à le recevoir ?</p>
+        </div>
+        <div>
+          <head>Georges Grappe</head>
+          <byline><docAuthor key="Grappe, Georges Pierre François (1872-1947)"/></byline>
+          <p>Hélas ! oui, j’ai constaté autour de moi que l’esprit français et la langue française étaient menacés. Dès le temps où nous usions nos culottes sur les bancs des plus fameux lycées de l’Alma Mater, — à cette époque, l’Université s’enorgueillissait encore de son vieux nom latin, — la décadence commençait. Certains de nos maîtres affectaient de sourire en évoquant cet âge d’or où l’on faisait des vers latins dans les classes. En revanche, ces mêmes professeurs qui raillaient, excellents latinistes par ailleurs, et parfois lettrés délicats, ne craignaient pas de s’encanailler. Toute une année, j’ai entendu l’un d’eux donner ainsi le signal de la fin du cours : « Rangez vos affaires. » Un autre de ces dignes agrégés allait même jusqu’à user familièrement de cette locution bouffonne : « Dans le but de ». C’était le temps où l’on commençait à détruire la vieille Sorbonne pour édifier la somptueuse caserne universitaire que nous admirons aujourd’hui.</p>
+          <p>Ces juvénilia remontent à quelques années. Les oreilles de nos jeunes camarades doivent entendre des propos encore plus modernes…</p>
+          <p>Si nous poursuivons maintenant notre enquête auprès du grand public, de cette fraction de la société que l’on a pompeusement dénommée « l’élite », le mal est encore plus profond. Tous les jours on entend dans les salons des phrases de cette qualité : « J’aime à ce que vous veniez me voir. — Je pars à Nice. — Madame X. a une jolie dentition. — La rue de la Paix est très passagère », etc., etc. Poussons plus avant encore, si vous le voulez. On retrouve dans les œuvres des plus célèbres auteurs contemporains ces négligences qu’à la rigueur on peut excuser au cours d’une conversation.</p>
+          <p>Soyons d’ailleurs sans vanité. Ne méprisons personne. À moins de posséder l’âme du pharisien, nous reconnaîtrons que toute notre tendresse instinctive envers la chère vieille langue ne nous assure pas toujours contre les fautes. Qui de nous peut se vanter de ne pas hésiter, souvent, au moment d’employer telle locution ou telle tournure de phrase ? Qui est sans péché ?</p>
+          <p>Nous, nous avons encore, pour nous préserver, l’hésitation, parce que nous savons ou parce que nous avons su le latin. C’est la vertu de notre nourriture, c’est la force de notre sang qui nous arrête au moment de commettre une mauvaise action littéraire. Cette lutte doit suffire à nous faire comprendre en quel extrême péril vont se trouver ceux qui n’ont pas été nourris au sein de la « madre Roma ». Confiés à des « remplaçantes », ces nourrissons de l’enseignement moderne seront à la merci de toutes les aventures qui guettent ceux élevés physiologiquement ainsi.</p>
+          <p>Je ne veux même pas évaluer ici les autres pertes que supportent nos cadets pour être privés de la culture que nous reçûmes. Pour apprendre à raisonner, à ordonner les raisonnements, rien ne remplacera jamais les <hi rend="i">humaniores litteræ</hi>. Il n’est pas de science qui vaudra jamais le latin pour accoutumer l’esprit à l’ordre, à la netteté. Enfin, il eût peut-être été utile, à notre époque où l’influence de la morale religieuse disparaît, de laisser à l’enfant cette éducation qui façonna les plus honnêtes gens de notre histoire.</p>
+          <p>Je sais bien, en écrivant ces lignes, que j’ai l’air de faire le jeu de M. Steeg. Il verra passer entre de tels propos le bout de l’oreille d’un réactionnaire. Mais d’abord je le suis, au moins à ma façon, et si je ne l’étais pas, je crois bien que, lui et ses confrères du Parlement, des bureaux de la rue de Grenelle et de « la nouvelle Sorbonne », dont parle si bien Agathon, me feraient devenir tel.</p>
+          <p>Mais qu’on me laisse dire ! L’enseignement du latin cachant une arrière-pensée politique !… C’est le non-enseignement, <hi rend="i">systématique</hi>, de cette langue, c’est la réforme de 1902, maintenue envers et contre tous, qui découvre un plan très arrêté, conçu par des politiciens ivres de flagornerie démocratique. Comment ! les dieux de la Révolution, tous ces beaux messieurs « qui ont fait 1789 » et même 1793, étaient des fils de la Louve, et l’on veut que le latin soit une génératrice de réactionnaires ! Mais alors ?</p>
+          <p>Et Camille Desmoulins, et Danton, et Marat, et Robespierre, et Fouché, et Talleyrand ? Ces médecins, ces avocats, ces prêtres défroqués, est-ce qu’ils n’avaient pas appris le latin ? Ils étaient farcis, truffés de citations, de réminiscences classiques. Ils puaient le <hi rend="i">Conciones.</hi> Et si l’on me reproche de citer les « têtes », il n’y a qu’à se rappeler le grand nombre d’oratoriens ayant jeté leur froc pardessus la guillotine qui, à la Convention et en mission, se donnaient des airs de proconsuls. Aujourd’hui encore, est-ce que nous ne devons pas à cette culture classique M. Jaurès et… M. Steeg lui-même, nourri de bonnes lettres anciennes, comme le fondateur de son église, Jean Calvin, l’auteur de l’<hi rend="i">Institutio christianæ religionis</hi>…</p>
+          <p>Non, en conscience, en toute liberté d’esprit, je ne crois à l’influence du latin sur la politique. Mais je ne serais pas le réactionnaire que je suis si je ne ressentais une très vive joie à voir soutenir de pareilles théories par les représentants officiels de ce régime. De pareilles balourdises, bien plus que le latin, peuvent avoir une influence sur les esprits indépendants et contribuer à détacher ceux-là d’un régime qui gagnerait certainement à être moins maladroitement servi.</p>
+        </div>
+        <div>
+          <head>Vincent d’Indy</head>
+          <byline><docAuthor key="Indy, Vincent d' (1851-1931)"/></byline>
+          <p>Permettez-moi de répondre d’abord à votre deuxième question, parce qu’elle me stupéfie… Qu’est-ce que le latin peut avoir de commun avec la politique ? J’avoue que j’ai beau me torturer la cervelle, je ne comprends pas. — De quels attentats vis-à-vis du régime a pu se rendre coupable la langue du doux Virgile, du cinglant Juvénal et du républicain Cicéron ? — Serait-ce que le latin fut longtemps la langue universelle et qu’il est resté le langage de l’Église ?… Mais les hymnes et les proses liturgiques qui sont, en somme, de la basse-latinité, n’ont jamais figuré, que je sache, dans aucun programme d’enseignement.</p>
+          <p>Alors, quoi ?… Je reste sur ce point d’interrogation, désespérant non seulement de résoudre, mais même de comprendre la question.</p>
+          <p>Quant à la décadence si rapide de la langue française, depuis que les littératures antiques ont été bannies de l’enseignement, il faudrait être aveugle pour ne pas discerner à quel point la pente s’accentue tous les jours. Les idiomes étrangers envahissent terriblement notre pauvre français, et, quand je dis les idiomes, je devrais dire les <hi rend="i">argots</hi>… celui des courses, par exemple. Avez-vous remarqué que, dans la rédaction courante des journaux, une phrase dite française comprend invariablement un nombre exagéré de mots d’argot étranger qu’on emploie à la place de mots français existants : pourquoi <hi rend="i">box</hi> au lieu de stalle, pourquoi <hi rend="i">lad</hi> au lieu de palefrenier… et tant d’autres ? Il y a même d’horribles néologismes que le journalisme — car, il faut bien le dire, c’est la presse qui est la première coupable — emploie couramment et qui n’ont aucune signification en aucune langue. Prenons, par exemple : <hi rend="i">au-tobus</hi>. Ce mot essentiellement laid, cet accolement d’un pronom grec avec la moitié d’une désinence de datif pluriel latin, n’est-ce pas à faire frémir, si cela ne faisait pas rire ?</p>
+          <p>Et, pour parler des choses de mon métier : je défie n’importe quel <hi rend="i">compositeur</hi> de musique n’ayant pas étudié le latin, de me donner une définition exacte des mots : <hi rend="i">composer, composition</hi>. On me répondra que cela veut dire faire des morceaux de musique ou des opéras… C’est possible, c’est un fragment de définition. Mais le latin donne au terme <hi rend="i">componere</hi> un autre sens, bien plus fin, bien plus près de l’Art, et c’est cette signification-là qui, seule, peut dévoiler le curieux mystère de la composition.</p>
+          <p>Enfin, lorsqu’on rencontre dans une circulaire signée de M. le Ministre de l’Instruction publique (authentique), des phrases entières écrites dans le plus pur charabia, par exemple : « Que les instituteurs <hi rend="i">imprègnent</hi> leurs <hi rend="i">leçons</hi> d’un <hi rend="i">souffle</hi> amplement patriotique… » et bien d’autres du même acabit, on est endroit de se demander si la connaissance du latin, cette langue si logique et si intransigeante sur la propriété des termes, ne devrait pas être exigée des rédacteurs de nos ministères, afin que nos actes officiels <hi rend="i">français</hi> soient au moins écrits <hi rend="i">en français</hi>.</p>
+        </div>
+        <div>
+          <head>Professeur Kirmisson. <hi rend="i">De l’Académie de Médecine</hi></head>
+          <byline><docAuthor key="Kirmisson, Édouard Francis (1848-1927)"/></byline>
+          <p>Je ne vois aucune relation entre la politique et le désir de maintenir une culture intellectuelle suffisante chez les jeunes gens destinés aux professions libérales. En ce qui concerne les études médicales qui m’intéressent plus particulièrement, comme professeur à la Faculté, la nécessité de l’enseignement du latin s’impose. La plupart des expressions scientifiques que nous employons en médecine sont dérivées du latin ou du grec. Dernièrement encore, interrogeant un élève, d’ailleurs studieux, et voyant avec étonnement qu’il ne comprenait pas le sens de l’expression employée par moi, je lui demandais : Vous ne savez donc pas le latin ? Et il me répondait tristement : Hélas ! non, Monsieur, et je le déplore chaque jour.</p>
+          <p>Pour ce qui est de l’étude du français, certes, il y a lieu de ne pas la laisser s’affaiblir ; et c’est avec peine que je vois, dans mon entourage, des jeunes gens qui ont fait des études classiques, commettre, dans la rédaction des observations des malades, des fautes d’orthographe grossières.</p>
+          <p>La campagne que vous menez me semble louable entre toutes, et je souhaite qu’elle ait un heureux succès.</p>
+        </div>
+        <div>
+          <head>Paul-Hyacinthe Loyson</head>
+          <byline><docAuthor key="Loyson, Paul-Hyacinthe (1873-1921)"/></byline>
+          <p>« Je me rappelle de votre première démarche et j’aurais aimé à vous en causer de vive voix… » C’est à peu près en ce style qu’un homme de lettres français répondra à une enquête des <hi rend="i">Marges</hi> vers l’an de barbarie 1920.</p>
+          <p>Que votre défense des humanités et du latin cachât d’insidieuses menées politiques, voilà une joyeuse trouvaille !</p>
+          <p>Je suis un républicain de gauche, de la gauche la plus militante, et même, si l’on veut, ministériel pour le quart d’heure.</p>
+          <p>Hé bien, si c’est être conservateur que de vouloir sauver la langue française, inscrivez-moi comme réactionnaire.</p>
+        </div>
+        <div>
+          <head>Masson-Forestier</head>
+          <byline><docAuthor key="Masson-Forestier, Alfred (1852-1912)"/></byline>
+          <p>Il n’est pas douteux que la langue française est menacée. Elle fut toute-puissante et recherchée quand elle était la langue aristocratique. Aujourd’hui le monde la déclare langue peu utile. On ne s’en sert pas en affaires. On s’en passe en diplomatie.</p>
+          <p>Nous, nous lui faisons grand tort en enseignant à outrance les langues vivantes à nos enfants.</p>
+          <p>Le mal est là — là seulement.</p>
+          <p>On ne sait bien qu’une seule langue. M. Doumic l’a proclamé et je sais que M. Beljame, professeur de langue anglaise réputé, déclarait à son élève favori, que s’il avait le malheur d’apprendre l’allemand (après le français et l’anglais) il ne saurait plus que très mal le français et l’anglais.</p>
+          <p>Eh bien, combattez le préjugé qui nous a fait croire que nous avions été battus en 1870 parce que nous ignorions les langues étrangères.</p>
+          <p>Nos enfants durant leurs études (j’ai trois grands fils qui viennent d’achever leurs études) ne sont guère préoccupés que des langues étrangères. Ils leur consacrent le meilleur de leurs efforts. Et puis ?</p>
+          <p>Elles ne servent à rien, ces langues, quatre-vingt-dix-neuf fois sur cent.</p>
+          <p>J’ai prié deux professeurs d’anglais d’une très grande ville industrielle du nord (mari et femme — lycée de garçons et lycée de jeunes filles) de rechercher dix ans en arrière, individuellement, à quoi avait servi à leurs élèves l’enseignement de cette langue étrangère. La réponse a été celle-ci : proportion des élèves à qui une des deux langues a servi dans leur existence : 1 ½ % ; — les deux langues : 0 %.</p>
+          <p>Il faudrait renoncer aux langues étrangères. Alors on saurait mieux le français, pouvant lui accorder plus de temps.</p>
+          <p>Jusque-là vous perdez votre temps. Soit ! On <hi rend="i">devrait</hi> étudier davantage le français et, pour cela, le latin serait utile, mais vous ne pouvez obliger les jeunes gens à une année de labeur de plus.</p>
+          <p>Alors ?</p>
+          <p>Oserais-je espérer que l’on trouvera le moyen de se passer de l’apprentissage des langues étrangères ? Certes l’<hi rend="i">espéranto</hi>, qui est <hi rend="sc">une langue de plus</hi>, n’est pas la solution. Mais laissez-moi apprendre à vos lecteurs qu’une très grande maison d’édition (Larousse) travaille à la recherche d’une sorte de moyen mécanique de faire interpréter instantanément, en toutes langues, certains signes <hi rend="i">équivalents</hi>, les mêmes pour tous les pays. On doit lancer cela l’hiver prochain.</p>
+          <p>Ce que je dis là semble incompréhensible.</p>
+          <p>Eh bien, vous verrez. J’ai assisté aux premières expériences : elles sont étonnantes.</p>
+          <p>Supposez que recevant une lettre ainsi conçue :</p>
+          <p rend="center">54817 84354 17320 32691</p>
+          <p rend="noindent">tous les peuples, rien qu’en feuilletant en deux minutes un petit vocabulaire de poche, comprennent chacun dans leur langue et traduisent :</p>
+          <p>« Envoyez-moi la semaine prochaine vingt tonnes de minerai de cuivre brut seconde qualité que je vous paierai à trois mois, sur votre traite acceptée par moi, deux pour cent d’escompte. »</p>
+          <p>Alors est-ce qu’on ne sera point un peu délivré du cauchemar d’apprendre durant des années les charabias étrangers ?</p>
+          <p>Et le jour où le problème serait ainsi résolu, chaque peuple n’étant plus obligé d’apprendre les langues commerciales, se contenterait de sa langue propre comme langue usuelle — en y ajoutant le français comme langue de culture et d’art.</p>
+          <p>Bref, je crois qu’avant de proposer une nouvelle charge d’études à nos jeunes gens, il faut les débarrasser par un autre côté.</p>
+        </div>
+        <div>
+          <head>Frédéric Mistral</head>
+          <byline><docAuthor key="Mistral, Frédéric (1830-1914)"/></byline>
+          <p>Je ne suis pas en situation de faire une réponse établie sur des faits, seulement je suis convaincu d’instinct que l’esprit français et la langue de France, fils et fille du latin, du latin littéraire autant que populaire, ne peuvent que s’anémier en se privant de boire, comme c’est leur tradition, à leur source naturelle.</p>
+        </div>
+        <div>
+          <head>Alfred Mortier</head>
+          <byline><docAuthor key="Mortier, Alfred (1865-1937)"/></byline>
+          <p>Ma réponse sera brève : qui n’est pas latiniste est incapable d’écrire et de parler purement notre langue, car il ne petit connaître le sens profond et la valeur d’un mot. Je me demande quel rapport ceci peut avoir avec la politique.</p>
+          <p>Il est constant que l’abandon graduel des études latines nous a donné une génération d’hommes qui massacrent la langue et ne savent plus ordonner un discours, un rapport.</p>
+          <p>Tout poste important exige une culture générale fondée sur les humanités ; les négliger c’est ôter des forces vives à la nation.</p>
+        </div>
+        <div>
+          <head>Robert Scheffer</head>
+          <byline><docAuthor key="Scheffer, Robert (1864-19..)"/></byline>
+          <p>Je remarque surtout ceci : À mesure que la marée bleue envahissait le marché littéraire, nos dames de plume, qui ont l’esprit pratique, s’avisèrent que, pour assurer à leurs bas un indigo bon teint, il convenait de les tremper au préalable dans les eaux Tibériennes : ce pourquoi, les jeunes filles actuelles réclament l’enseignement du latin dont sont privés nos garçons, qui ignorent l’orthographe, pataugent dans la grammaire et méprisent la propriété des termes, hormis les vocables qui, sportifs, nous arrivent tout vifs de l’Angleterre.</p>
+          <p>Quant à une arrière-pensée politique, je ne comprends pas. La politique, c’est pour moi de l’hébreu, bien plutôt que du latin.</p>
+          <p><hi rend="i">Vale et me ama</hi>, ce qui signifie : Accordons-nous dans la santé latine.</p>
+        </div>
+        <div>
+          <head>Edmond Sée</head>
+          <byline><docAuthor key="Sée, Edmond (1875-1959)"/></byline>
+          <p>Il m’est difficile de vous citer des exemples témoignant d’une décadence de l’esprit français. Mais je demeure convaincu de ceci : que les études latines et françaises ne sauraient être trop poussées dans les lycées et collèges. En les diminuant on diminue le nombre, hélas ! déjà trop restreint, de ceux qui aiment les lettres et notre langue charmante pour elle-même, qui trouvent dans leur seul esprit des jouissances nobles et désintéressées.</p>
+          <p>Mais nous vivons à une telle époque d’utilitarisme, de commercialisme, de matérialisme et de mufflisme que fatalement un tel culte devait sembler dangereux ou superflu.</p>
+          <p>Et voyez… on ne peut même croire à la simplicité de votre geste. On vous parle politique ! Cette politique dont tout de même nous sommes quelques artistes à sourire et qui est bien la cadette de nos fiévreux et hautains soucis… Enfin !</p>
+        </div>
+        <div>
+          <head>Charles Vellay. Directeur de la <hi rend="i">Revue historique de la Révolution française</hi></head>
+          <byline><docAuthor key="Vellay, Charles (1876-1953)"/></byline>
+          <p>L’accueil fait à votre pétition par le Ministre de l’Instruction publique n’a, à vrai dire, rien de surprenant, et le Parlement, s’il s’en occupe, adoptera la même attitude. Vous parlez de la sauvegarde de la langue française et de l’esprit français à des hommes dont les préoccupations ne dépassent pas les limites de la politique parlementaire. Quel intérêt voulez-vous qu’ils y prennent et que voulez-vous qu’ils vous répondent ? Espérez-vous les hausser à un point de vue supérieur à celui qui leur est naturel et que la logique même leur impose ? Ni les faits que vous pourrez citer, et qui sont innombrables, ni les arguments que vous pourrez faire valoir, n’auront de prix à leurs yeux. Vous attachez beaucoup trop d’importance à l’attitude et aux paroles d’un ministre. Et le meilleur moyen de prouver qu’il n’y a aucune influence politique dans le mouvement que vous tentez et qui, pour être incomplet (vous savez qu’à mes yeux l’enseignement du grec est aussi indispensable que celui du latin), n’en est pas moins intéressant, c’est de le poursuivre en dehors des parlements et des ministres qui, par leur mentalité même, ne peuvent ni le comprendre, ni l’accueillir.</p>
+        </div>
+        <div>
+          <head>Jean Viollis</head>
+          <byline><docAuthor key="Ardenne de Tizac, Henri d' (1877-1932 )"/></byline>
+          <p>Un trait, dix traits, cent traits significatifs de la crise que notre langue traverse ? Mais ouvrez au hasard les ouvrages qui s’impriment : même s’ils sont signés de noms illustres, vous ferez une ample récolte.</p>
+          <p>Cette tare, d’ailleurs, n’est point particulière aux lettres. Peinture, statuaire, musique, architecture, tous les arts, jusqu’à ceux du costume et des jardins, témoignent d’inquiétude ou de vulgarité. Nous souffrons d’une crise générale de la sensibilité. Nos nerfs trop susceptibles, nos émotions trop raffinées, la richesse excessive de nos impressions, contrarient cet effort vers le style, qui persiste cependant au fond de nous-mêmes.</p>
+          <p>Je ne pense ici qu’aux meilleurs. Les autres, par paresse ou pauvreté, s’abandonnent tranquillement au courant médiocre qui les entraîne. Mais ceux-là mêmes que le désir travaille ne parviennent guère à se dominer. Ils prennent l’impression pour la beauté définitive, préfèrent l’abondance au choix, la vivacité des sensations à la sûreté du goût. Une suite d’émotions vives leur suffit. Hé bien, le rôle des nouveaux venus, s’ils le comprennent, sera de mettre un peu d’ordre et de style dans les excès d’une sensibilité trop aiguë. L’œuvre d’art est, si l’on peut dire, à deux détentes, dont la seconde importe beaucoup plus qu’on ne le croit aujourd’hui ; les époques dites classiques (leur physionomie varie à l’infini) sont celles où ce point d’équilibre est atteint.</p>
+          <p>Que les études latines soient nécessaires à notre amélioration littéraire, c’est une incontestable vérité : on l’aperçoit ou non, toute discussion sur ce point devient oiseuse. Mais il faut plus encore, pour guérir notre mal, qu’une révision de programmes scolaires. C’est tout l’esprit de l’éducation qui se trouve en jeu. Depuis beau temps la question est ouverte. Je vous renvoie à la magnifique <hi rend="i">Leçon d’ouverture à l’École normale</hi>, de Sainte-Beuve ; elle est de 1858. S’inquiétant des mêmes soucis qui agitent les esprits actuels, Sainte-Beuve disait notamment : <quote>« Ne pas avoir le sentiment des <hi rend="i">Lettres</hi>, cela, chez les anciens, voulait dire ne pas avoir le sentiment de la vertu, de la gloire, de la beauté, en un mot de tout ce qu’il y a de véritablement divin sur la terre : que ce soit là encore notre symbole. Il ne s’agit pas ici de distinguer entre les Grecs et les Latins ; leur héritage pour nous et leurs bienfaits se confondent. Certes, le <hi rend="i">Græcia capta ferum</hi>… est au fond de tout : c’est le point de départ. Mais la force romaine, le bras romain, la langue et la pratique romaines sont aussi partout : ç’a été le grand instrument de propagation et de culture. »</quote></p>
+          <p>S’il existe un parlement et des ministres qui aient le loisir de songer à ces choses, qu’ils le prouvent. Je doute, pour ma part, que le salut vienne de ce côté. La lutte des partis y absorbe tout. Vous dites qu’en haut lieu l’on se préoccupe surtout des « racines politiques » de notre mouvement ? Voilà qui est d’une conception peu large. Mais à qui la faute, sinon aux quelques douzaines d’excités qui, de l’autre bord, ont tout fait pour provoquer ces inquiétudes ?</p>
+          <p>Le problème dépasse le Palais-Bourbon, la rue de Grenelle, l’Université, et les programmes de 1902. Heureusement.</p>
+          <p>Il est d’ordre humain, et porte en lui-même assez de « nécessité » pour que nous soyons tranquilles sur la solution finale. Saurons-nous, dans notre génération, remplir notre modeste devoir présent ? Je conçois que nous nous en tourmentions. Mais supposez notre échec : tant pis pour nous, rien que pour nous. L’avenir ne perdrait pas ses droits.</p>
+        </div>
+        <div>
+          <head>[Conclusion]</head>
+          <p>Le Temps (du 8 avril) <hi rend="i">a publié, à propos de notre questionnaire, un article, dont nous détachons ce passage</hi> :</p>
+          <quote>
+            <p>Si l’égalité absolue, géométrique implique la suppression des humanités et de bien d’autres choses encore, cet égalitarisme outrancier n’est pas nécessairement contenu dans l’idée d’une démocratie, parce qu’une démocratie qui veut vivre doit, comme tout autre régime, se plier aux conditions de la vie. Dans la pratique, cette conception niveleuse n’est soutenue que par des démagogues, des Homais stupides, des médiocres, des ratés et de cyniques exploiteurs de la plus basse envie. Certes, ces gens-là sont les irréconciliables ennemis des études classiques, et d’ailleurs de toute espèce d’études. La nouvelle Sorbonne ne trouverait pas plus grâce devant eux que l’ancienne ; la science leur déplaît autant que la littérature ; ils guillotinent avec le même entrain Lavoisier et André Chénier. Ce sont les modernes barbares.</p>
+            <p>Mais ils ne représentent pas la démocratie véritable, qu’il ne faut tout de même pas confondre avec la haine et la sottise, et qui sait bien que pour faire figure dans le monde et continuer la civilisation, elle a besoin de savants et de lettrés. Cette démocratie se distingue des systèmes abolis d’abord en ceci qu’elle ne fait point de la culture le privilège d’une caste, mais la rend accessible à tous les enfants et jeunes gens bien doués, sans distinction de naissance, ni de fortune ; et secondement en ceci qu’elle estime infiniment plus haut un homme cultivé et intelligent qu’un fils de prince ou un millionnaire ignorant ou borné. Une démocratie ne peut se passer d’une élite, mais elle prétend ne la devoir qu’au travail et au talent. Donc s’il est établi, comme nous en sommes convaincus, que les études classiques sont nécessaires pour produire des esprits supérieurs ou simplement distingués, aucune objection d’ordre politique ne vaut contre ces études, et bien loin de pouvoir raisonnablement les supprimer, la République démocratique est, par son principe même, plus étroitement obligée qu’aucun autre régime de les maintenir et de les honorer. C’était l’avis des hommes de la Révolution, tout imprégnés de grec et de latin. C’est encore celui de tous les républicains qui ne se payent pas de mots.</p>
+          </quote>
+          <p>L’Humanité<hi rend="i"> (Victor Snell)</hi>, La Libre Parole<hi rend="i"> (Jean Drault)</hi>, L’Action française<hi rend="i"> (Charles Maurras et Henri Vaugeois)</hi>, L’Éclair<hi rend="i"> (W. Serieyx)</hi>, La Liberté<hi rend="i"> (Paul Gaulot)</hi>, L’Écho de Paris<hi rend="i"> (Franc-Nohain)</hi>, Paris-Journal<hi rend="i"> (Charles Morice), le</hi> Journal des débats<hi rend="i"> (Flying Jib)</hi>, Le Gil-Blas<hi rend="i"> (Nozière), ont également disserté sur la question et nous avons lu leurs remarques et leurs observations avec beaucoup d’intérêt.</hi></p>
+          <p rend="i">Dédions notre enquête et tous ces articles à ceux dont la réforme dépend. Et souhaitons que l’unanimité des opinions les frappe et les convainque. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
