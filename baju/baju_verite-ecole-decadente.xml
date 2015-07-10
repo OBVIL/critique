@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La vérité sur l’école décadente</title>
+        <author key="Baju, Anatole (1861-1903)">Anatole Baju</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2015"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/baju_verite-ecole-decadente/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/baju_verite-ecole-decadente.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/baju_verite-ecole-decadente.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/baju_verite-ecole-decadente.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/baju_verite-ecole-decadente.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Anatole Baju</author>, <title>La Vérité sur l’école décadente, par un bourgeois lettré</title>, <pubPlace>Paris</pubPlace>, <publisher>L. Vanier</publisher>, s. d. [<date>1887</date>], 16 p. Source : <ref target="https://archive.org/details/lavritsurl00baju">Internet Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1887"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Un mot d’explication</head>
+        <p><pb n="1"/>J’avais espéré, après la ridicule campagne de presse que subirent — et dont profitèrent, peut-être — mes amis intellectuels les jeunes écrivains, j’avais espéré, dis-je, que de nouvelles « actualités » détourneraient la veine des chroniqueurs et laisseraient aux Laborieux un peu de silence et d’ombre pour parfaire de nouveaux et plus définitifs ouvrages ;</p>
+        <p><pb n="2"/>J’avais compté sans l’éhontée soif de réclame qui pousse les stériles et les impuissants :</p>
+        <p>Déjà le <hi rend="i">Traité du Verbe</hi> — pétard qui fit trop long feu — avait émotionné le public en 86 ; la fin de 87 voit éclore une brochure d’adéquate valeur, <hi rend="i">L’École décadente</hi>, mais aux visées documentaires les plus dangereusement fausses et qui ont surpris la bonne foi de beaucoup. Le branle est de nouveau donné, et nous revoici, comme au premier jour, en pleine obscurité, en pleine injustice.</p>
+        <p>Bien que sans autres titres que ma connaissance familière des œuvres de ces jeunes écrivains, je me sens poussé par l’indignation en face des injures ineptes où sont en but de sympathiques et consciencieux artistes à écrire quelques lignes de vérité.</p>
+      </div>
+      <div>
+        <head>Les origines</head>
+        <p><pb n="3"/>C’est d’une petite imprimerie du boulevard Saint-Germain, où s’éditait alors un journal littéraire d’avant-garde, que sortirent <hi rend="i">Les Déliquescences</hi> de Vicaire et de Beauclair, aimable parodie faite pour « embêter » les camarades, et dont on sait le succès inouï et inattendu ; les auteurs en restèrent stupéfaits et se refusèrent à une lucrative réimpression de la plaquette, en face du torrent de sottises inopinément <pb n="4"/>déversé sur de tranquilles écrivains, leurs amis.</p>
+        <p>C’est de cette imprimerie de <hi rend="i">Lutèce</hi> que sortirent également les premiers volumes de la nouvelle « École » ( !) : <hi rend="i">Les Syrtes, Les Cantilènes, Les Complaintes, Les Lendemains, L’Imitation de Notre-Dame la Lune, Sur le vif</hi>, etc., presque tous édités par l’infatigable Léon Vanier.</p>
+        <p>La chose était des plus simple : un clan de poètes très divers de talent et d’inspiration, sans théorie ni foi commune si ce n’est qu’ils aspiraient tous à une rénovation de la forme poétique, se trouvaient groupés par les hasards de la publicité dans les colonnes d’un même journal hospitalier et dans la devanture d’un même éditeur.</p>
+        <p>La presse, dès le début fort mal renseignée et leurrée par les <hi rend="i">Déliquescences</hi> jusqu’à <pb n="5"/>prendre cette parodie au sérieux, brouilla si bien les choses, ouvrit si facilement ses portes aux plus fantaisistes inventions et mit au jour de si bizarres personnalités, que la Réclame, flot bourbeux d’encre, passa par-dessus la tête des vrais et primitifs artistes pour porter à la célébrité tous les ratés de la Banlieue et tout le bas-fond de la bêtise écrivassière — ;</p>
+        <p>Il est temps de le dire !</p>
+        <quote>
+          <l rend="sc">Fiat lux !</l>
+        </quote>
+      </div>
+      <div>
+        <head>Les poètes</head>
+        <p><pb n="6"/>Je ne veux pas parler dans cette mince brochure que des <hi rend="i">Auteurs de volumes ou de plaquettes</hi>, auxquels le lecteur, désireux comme je l’espère de faire plus ample connaissance avec des écrivains si diversement appréciés, pourra être renvoyé ; il me semble, en effet, difficile et souverainement inutile de porter un jugement quelconque sur des personnalités dont les prétentions littéraires ne s’étayent pas sur le moindre écrit.</p>
+        <quote>
+          <l rend="sc">Verba volant, scripta manent !</l>
+        </quote>
+        <p><pb n="7"/>Les seuls poètes intéressants, les seuls vrais écrivains, — parmi tous les noms mis en avant depuis une année — les seuls <hi rend="i">Auteurs de quelque chose</hi>, les voici, et on peut m’en croire.</p>
+        <p>Je ne parle ici que des écrivains qu’on eut voulu flétrir du sobriquet de <hi rend="i">Décadents</hi> et que d’après Jean Moréas il faudrait appeler <hi rend="i">Symbolistes</hi> ; comme ces écrivains sont très divers de manière et de talent je ne perçois pas, pour ma part, la nécessité d’une autre raison sociale à leur fortuite congrégation, que celle de <hi rend="i">Poètes</hi>.</p>
+        <p>Aux œuvres de ces poètes il faut rattacher celle de prosateurs tels que J.-K. Huysmans, Paul Adam, Poictevin, Dujardin, etc., mais je ne veux actuellement parler que des premiers :</p>
+        <div>
+          <head>Jean Moréas</head>
+          <p><pb n="8"/>Est l’auteur de deux recueils de vers : <hi rend="i">Les Syrtes</hi>, et <hi rend="i">Les Cantilènes</hi> ; il y a en lui du <quote>« Baudelaire avec plus de couleur »</quote>, comme il l’a lui-même formulé ; du Heine, du Gœthe, du Verlaine, mais aussi beaucoup de Moréas ; dans ces derniers écrits il suit, par ses proses rythmées publiées dans <hi rend="i">La Vogue</hi>, le mouvement qui a porté MM. Laforgue et Kahn par-delà les limites de la licence poétique. Ce « Chef d’École » — rôle ou d’ailleurs l’appelait la qualité d’aîné de sa petite bande (il a quelque 30 ans) — n’est ni le plus fécond ni le plus original de ces poètes, néanmoins l’accent tout particulier de tel de ses poèmes, les qualités de sonorité et de coloris qui distinguent son style font de ses œuvres des livres de bibliothèque.</p>
+        </div>
+        <div>
+          <head>Paul Verlaine</head>
+          <p><pb n="9"/>Qui fut du Parnasse est un talent fait de finesse et de clarté ; M. Maurice Barrès, le sympathique chroniqueur du <hi rend="i">Voltaire</hi>, a justement comparé ses vers aux points de Valenciennes. Il a fait paraître successivement :</p>
+          <p>Les <hi rend="i">Poèmes saturniens</hi>, les <hi rend="i">Fêtes galantes, La Bonne Chanson, Romances sans paroles, Sagesse, Jadis et naguère</hi>.</p>
+          <p>M. Verlaine dont la jalousie des camarades « arrivés » feint de mépriser le talent, est selon moi un des poètes les mieux doués de notre littérature contemporaine.</p>
+          <p>Pour les <hi rend="i">Jeunes</hi> dont nous nous occupons c’est d’ailleurs un « ancêtre ».</p>
+        </div>
+        <div>
+          <head>Stéphane Mallarmé</head>
+          <p><pb n="10"/>Qui passe familièrement pour être avec Paul Verlaine, l’un des deux « maîtres » de la jeune littérature, est tout simplement un poète très personnel et exquis, malgré — et peut être à cause de — son apparente obscurité. <hi rend="i">La Revue Indépendante</hi> vient de publier une <hi rend="i">édition auto-lithographique</hi> de ses poésies, éparses jusqu’ici en maintes revues ; le poète avait fait paraître en 1876 une idylle : <hi rend="i">L’Après-midi d’un Faune</hi>. M. Stéphane Mallarmé se distingue par son vers « parnassien » et à dessein un peu guindé des plus jeunes d’entre ces poètes chez qui la réaction contre le rigide « formisme » de leurs prédécesseurs se fait sentir. De ceux là</p>
+        </div>
+        <div>
+          <head>Henri de Régnier</head>
+          <p><pb n="11"/>Est un écrivain plein de distinction, bien que son vers un peu monotone ne soit pas encore complètement dégagé et n’apparaisse pas encore dans sa phrase définitive. Il est l’auteur des <hi rend="i">Lendemains</hi>, d’<hi rend="i">Apaisement</hi>, de <hi rend="i">Sites</hi>, suite de sonnets délicats ; c’est un des plus jeunes poètes du groupe et l’un de ceux qui promettent le plus.</p>
+        </div>
+        <div>
+          <head>Gustave Kahn</head>
+          <p>Qui fut directeur de <hi rend="i">La Vogue</hi>, revue morte l’an dernier et dont la collection mérite, d’être relue, me semble avoir dépassé le but visé dans ses récents <hi rend="i">Palais nomades</hi> et avoir, en dégageant son style de toutes les coupes poétiques habituelles, façonné sous le nom de vers rythmiques une prose cadencée <pb n="12"/>qui ne justifie pas la disposition typographique du volume ; — mais la pensée reste d’un poète. M. Kahn est en outre un critique et un savant.</p>
+        </div>
+        <div>
+          <head>Francis Vielé-Griffin</head>
+          <p>Après un petit volume <hi rend="i">Cueille d’avril</hi>, qui n’a rien de bien remarquable, vient de publier <hi rend="i">Les Cygnes</hi> où son talent s’affirme davantage. La petite note mise en tête de ce volume est intéressante par cela qu’elle semble vouloir formuler le vœu raisonnable de beaucoup, de nouveaux venus vers une prosodie moins corsetée.</p>
+        </div>
+        <div>
+          <head>Laurent Tailhade</head>
+          <p>Dont on parle peu dans les récents articles de presse fut pourtant un des cinq premiers <hi rend="i">Décadents</hi> signalés par M. Bourde, du <hi rend="i">Temps</hi>, <pb n="13"/>qui ouvrit le feu. C’est un très aimable poète qui donna jadis chez Lemerre <hi rend="i">Le Jardin des rêves</hi>, mais qui depuis, a affirmé par diverses pièces parues en des revues sa sympathie pour une rénovation de la forme poétique.</p>
+        </div>
+        <div>
+          <head>Charles Vignier</head>
+          <p>Auteur d’une plaquette, <hi rend="i">Centon</hi>, fut aussi une des cinq premières victimes ; son livre dénote quelque délicatesse, mais paraît trop impersonnel et se ressent trop de l’imitation de Paul Verlaine pour que nous en puissions arguer de l’avenir de ce poète.</p>
+        </div>
+        <div>
+          <head>Jean Ajalbert</head>
+          <p>Poète, « impressionniste » a publié <hi rend="i">Sur le vif, Paysages de femmes</hi>, et tout récemment dans <hi rend="i">La Revue indépendante</hi>, une idylle <hi rend="i">Sur les talus</hi>. Se distingue de ses compagnons <pb n="14"/>par une observation de détails, alors que les visées de ceux-ci semblent toutes synthétiques — et fait présager plutôt un curieux prosateur analyste qu’un poète symbolique.</p>
+        </div>
+        <div>
+          <head>Jules Laforgue</head>
+          <p>Si malheureusement enlevé par la mort à une carrière où les bons lutteurs se font rares, étale dans ses <hi rend="i">Complaintes</hi> et son <hi rend="i">Imitation de Notre-Dame la Lune</hi>, une vision poétique toute spéciale et un humorisme tout personnel. Laforgue en se dégageant de toute entrave poétique avait déjà frayé la voie ou s’engage M. Kahn. Mais sa méthode est plus accessible bien que nous ne puissions l’approuver.</p>
+        </div>
+        <div>
+          <head>Stuart Merrill</head>
+          <p><pb n="15"/>Auteur des <hi rend="i">Gammes</hi> qui ont rencontré dans la presse quelques approbateurs, est resté plutôt parnassien, ce qui ne l’empêche pas d’ailleurs de faire preuve de talent. Il manie l’allitération avec une grande habileté.</p>
+          <p>Quand j’aurais nommé M. Raynaud, auteur d’une plaquette : <hi rend="i">Le Signe</hi>, MM. Éphraïm Mikhaël dont nous avons remarqué <hi rend="i">L’Automne</hi>, et Rodolphe Darzens, je croirai avoir énuméré les principaux écrivains en vers de la nouvelle génération dont je conseille au lecteur de peser les œuvres avant de porter sur elle un jugement quelconque.</p>
+          <p/>
+          <p>Il m’est nécessaire, pour être complet, d’affixer en queue de cette liste deux noms : <pb n="16"/>ceux de M. René Ghil et de M. Anatole Baju ; ces jeunes gens sont les fauteurs du honteux tapage fait autour du silencieux et modeste travail des poètes contemporains.</p>
+          <p>Mais rend-on responsable de <hi rend="i">L’Amer Boulanger</hi> le « brav’ général » de Clermont-Ferrand ?</p>
+          <p>Le public impartial : « Oui, oui ! »</p>
+          <p>Dans ce cas je m’incline.</p>
+          <byline>Ed. B…</byline>
+          <dateline>Paris, novembre 1887.</dateline>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
