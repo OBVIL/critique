@@ -9,6 +9,11 @@ Session::hooks(); // laisser parler divers envois spécifiques à la session (ja
 
 // Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
 $doc=$pot->doc($pot->path);
+// rediriger si pas de / final  http://googlewebmastercentral.blogspot.fr/2010/04/to-slash-or-not-to-slash.html
+if ($pot->path && substr($pot->path, - strlen($doc['bookname'])) === $doc['bookname']){
+  $location='http://'. $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'/';
+  header("Location: $location",TRUE,301);
+}
 // pas de body trouvé, charger des résultats en mémoire
 if (!isset($doc['body'])) {
   $timeStart=microtime(true);
@@ -61,6 +66,18 @@ if (isset($doc['body'])) {
   echo $doc['body'];
   // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
   if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookrowid']);
+
+  // page d’accueil d’un livre
+  if (!isset($doc['artname']) || $doc['artname']=='index') {
+    if ($pot->q) {
+      $pot->bookrowid = $doc['bookrowid'];
+      echo $pot->chrono($doc['bookrowid']);
+      echo $pot->concBook($doc['bookrowid']);
+    }
+    else {
+      echo "\n" . '<iframe id="wordcloud" style="overflow: hidden; border: none;" scrolling="no" width="100%" height="500px" src="../../fr/wordcloud/?base=critique&book=' . $doc['bookname'] . '"></iframe>';
+    }
+  }
 }
 // pas de livre demandé, montrer un rapport général
 else {
