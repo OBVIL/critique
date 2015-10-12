@@ -65,7 +65,17 @@ if (isset($doc['prevnext'])) echo $doc['prevnext'];
 if (isset($doc['body'])) {
   echo $doc['body'];
   // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot->q && (!$doc['artname'] || $doc['artname']=='index')) echo $pot->concBook($doc['bookrowid']);
+  // page d’accueil d’un livre
+  if (!isset($doc['artname']) || $doc['artname']=='index') {
+    if ($pot->q) {
+      $pot->bookrowid = $doc['bookrowid'];
+      echo $pot->chrono($doc['bookrowid']);
+      echo $pot->concBook($doc['bookrowid']);
+    }
+    else {
+      echo "\n" . '<iframe id="wordcloud" style="overflow: hidden; border: none;" scrolling="no" width="100%" height="500px" src="../../fr/wordcloud/?base=critique&book=' . $doc['bookname'] . '&catform=SUB"></iframe>';
+    }
+  }
 
   // page d’accueil d’un livre
   if (!isset($doc['artname']) || $doc['artname']=='index') {
