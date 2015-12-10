@@ -2,11 +2,12 @@
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <!--odt2tei: 2013-05-01T18:31:04+02:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="taine_france-t1" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="taine_france" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Les origines de la France contemporaine. L'ancien régime</title>
+        <title type="sub">[Tomes I et II]</title>
         <author key="Taine, Hippolyte-Adolphe (1828-1893)">Taine</author>
       </titleStmt>
       <editionStmt>
@@ -29,11 +30,11 @@
      <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2014"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/taine_france-t1/</idno>
-        <idno type="application/tei+xml">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france-t1.xml</idno>
-        <idno type="text/html">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france-t1.html</idno>
-        <idno type="text/plain">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france-t1.txt</idno>
-        <idno type="application/epub+zip">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france-t1.epub</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/taine_france/</idno>
+        <idno type="application/tei+xml">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france.xml</idno>
+        <idno type="text/html">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france.html</idno>
+        <idno type="text/plain">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france.txt</idno>
+        <idno type="application/epub+zip">http://obvil.paris-sorbonne.fr/corpus/critique/taine_france.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
