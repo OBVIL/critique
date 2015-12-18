@@ -2,12 +2,12 @@
 <?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <!--odt2tei: 2013-10-23T16:10:13+02:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="taine_litterature-anglaise1" xml:lang="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="taine_litterature-anglaise1" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Histoire de la littérature anglaise [I]</title>
-        <author key="Taine, Hippolyte-Adolphe (1828-1893)">Taine</author>
+        <title>Histoire de la littérature anglaise (2<hi rend="sup">e</hi> éd.) [I]</title>
+        <author key="Taine, Hippolyte-Adolphe (1828-1893)">Hippolyte-Adolphe Taine</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition TEI</edition>
@@ -50,7 +50,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1866">1866</date>
+        <date when="1866"/>
       </creation>
       <langUsage>
         <language ident="fr"/>
