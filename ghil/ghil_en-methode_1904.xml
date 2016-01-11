@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En méthode à l’œuvre</title>
+        <author key="René Ghil (1862-1925)">René Ghil</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Gabin Fontaine</name>
+          <resp>OCR et stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/ghil_en-methode/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures. La diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>René Ghil</author>, <title>En Méthode à l’Œuvre (Édition nouvelle et revue)</title>, <pubPlace>Paris</pubPlace>, <publisher>L. Vanier</publisher>, <date>1904</date>, 71 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5484390v">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1904"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>[Avertissement]</head>
+        <p>Nous commençons la publication d’une Édition nouvelle, entièrement revue et remaniée, de la première Partie de l’Œuvre de M. René Ghil, par le livre qui en est la Préface : <hi rend="i">En méthode à l’Œuvre</hi>. La première version en parut en volume en 1886, sous le titre provisoire de <hi rend="sc">Traité du Verbe</hi>, ce livre qui devait «  répandre avec éclat » les principes d’une Poésie nouvelle et pour l’idée fondamentale et pour la technique rythmique, et dont les impartiaux auteurs de l’Anthologie des Poètes d’aujourd’hui (A. Van Bever et Léon Léautaud) ont pu dire véridiquement : <quote>« Tantôt louangeuse, tantôt railleuse, toute la presse Européenne s’occupa de cet ouvrage. »</quote></p>
+        <p>Cette Méthode, qui est le plan et l’essentielle substance même de l’Œuvre « une et composée » du poète, s’opposait aux éternels et amoindris recommencements Romantiques et Parnassiens, et s’élevait en même temps contre l’absence de pensée directrice et l’incomplète compréhension de rythme des diverses Écoles dites Symbolistes. Non que M. René Ghil n’en admire pas le sincère effort et la durable manifestation, en la maîtrise de quelques très-hauts poètes. De l’aveu même des adversaires, la poétique Symboliste fut d’ailleurs presque totalement influencée par les théories de M. René Ghil. Et il est aisé de reconnaître de quels de ses affirmations et de ses livres, dépendent certaines tendances qui semblent gagner la poésie : telles d’humanisme, d’altruisme, de sociologie, de préoccupation des travaux de la terre ou des forces mécaniques, etc…</p>
+        <p>Cette édition apporte donc comme en son expression définitive, et avec de très importants développements : la Méthode dont M. Catulle Mendès écrivait naguères : <quote>« Les théories de M. René Ghil ne manquent ni de grandeur ni de mystère. »</quote></p>
+        <p>C’est, d’une part, la complexe exposition du Rythme et du vers musical, l’Instrumentation verbale, qui, basée sur les valeurs harmoniques, rend à la langue ta double constitution originelle, idéographique et phonétique, et détermine une ordonnance harmonique du vers, du poème, du livre unifié.</p>
+        <p>D’autre part, ce sont des spéculations mystérieuses où, comme hanté des vieilles religions philosophiques de l’Orient, le poète trouve les formes des vérités naturelles et éternelles, qu’il accorde avec les données de notre science moderne. S’appuyant sur la science, d’une Métaphysique à une Éthique va sa « Philosophie évolutive » d’où l’Œuvre entière découlera répondant à son concept, que : « toute œuvre poétique n’a de valeur eue si elle se prolonge en suggestion des lois qui ordonnent et unissent l’être total du monde, évoluant selon de mêmes rythmes ».</p>
+      </div>
+      <div>
+        <head>Memorandum</head>
+        <p>Sous la dénomination provisoire de Traité du Verbe, deux Essais exposant la théorie de « l’Instrumentation verbale », et donnant seulement des aperçus du « Principe de philosophie évolutive », avaient été donnés, en 1886 et 87.</p>
+        <p>Toute part en eux nécessaire, était reproduite en une édition complète, — c’est-à-dire tenant le Principe de Philosophie et l’Instrumentation, en 1888. Dès lors, ils étaient évidemment annulés et n’avaient plus que valeur documentaire.</p>
+        <p>Il en est de même d’une quatrième édition, portant le Titre « ne varietur » de <hi rend="sc">En Méthode à l’Œuvre</hi>, parue en sa place d’Argument à l’Œuvre, en 1891.</p>
+        <p>La présente édition qui annule le tout, a été revue et remaniée entièrement d’après l’édition de 1891, — et, très largement, apporte les développements qui m’ont paru essentiellement utiles. Bien que du livre de Méthode, l’Œuvre soit seule tout l’être.</p>
+        <p rend="right">R. G.</p>
+      </div>
+      <div>
+        <head>Prémisses</head>
+        <p>Mais, de n’être pas étrangère au sens originel de Savoir et de Poésie que détiennent en leur intuition ainsi que monstreuse de toute la ventrée omphalienne des Vérités, les Livres aux signes occultes et sacrés, — ou les Védas et l’Avesta, ou la légende de Tao, et l’Histoire des Soleils sur l’empire de Mexitli, — dont perdure une âme moins universellement éperdue en la Théogonie d’Hésiode et le De natura : apparaissant insolite aux poésies de moderne concept, — méditation du poète conscient d’Unité et apporteur de Sanction qu’il me plut être, dès la prime aventure en la vie de l’esprit ma haine du Hasard dit ainsi…</p>
+        <p/>
+        <p>Aux pleines ondes sans dessous de vertige de notre histoire poétique, qui hier seulement devint un résumant torrent qui retentit, pour clore des temps, à des descentes d’éternités, — de sensation, d’émotion et de sentiment presque unanimement a été, même si elle se leurre des généralités de philosophies spiritualistes, a été métaphoriques exaltations au sortir de l’Inconscient et selon le tourment de volupté ou de douleur de spontanés et d’égotistes organismes poétiques en transports de génie, la Poésie.</p>
+        <p>Est-ce qu’on nommera pensée et tentative d’idéalisations directrices de l’entendement humain, et plutôt, ne les dira-t-on pas travaux de passivité mais d’une tare de sénilité quand si souvent on les reprend, et dangereuses imaginations, — qui en l’emphase de redites traditionnelles, d’une Beauté stérile et d’un Destin mensonger entretenaient nos désirs et notre nostalgie sans pantèlements à remuer le soleil et le nuage, depuis que déclinèrent en perte de sens vers les régions du ponant les énormes morphismes primordiaux des cosmiques Forces.</p>
+        <p>Jusqu’aux cultes de désistement quand dévie et meurt l’inspiration, qui ne divinisent pas seulement à la seule taille humaine mais avouent et adorent pour éternellement Inconnus, au lieu d’en tenter la possession, les Principes et les Modes…</p>
+        <p>Durant quels temps poétiques, vraiment, allèrent leur devoir qui nous a engendrés, les esprits pourtant providentiels des Poètes. Devoir le seul à des époques où l’animalité sensitive et sentimentale s’émerveilla d’exprimer son âme mélodique, où sur les sommets païens les divinités s’entendaient des passions et des émotions humaines les plastiques et lumineuses Apparences, — tandis que la noire et violâtre volupté de la douleur s’était étendue sous l’envergure morte de l’Homme-dieu en la vallée des larmes, — quand l’Amour qu’il apportait, lui-même entraînait le poids de la douleur et du renoncement. Toute notre poétique légende ainsi, qui eut, dirons-nous son ressassement énorme et génial et son terme en l’œuvre de qui a été énormément ainsi qu’un sonore possédé d’atavismes d’images dont le sens latent et épars ne parvient pas à lui-même : Hugo ! de qui le poing ramasse nos siècles…</p>
+        <p>Après lui, qui, entre les quatre vents de l’esprit, suprêmement réalise les généralités de l’âme humaine et naturelle, et de qui l’amplitude occidentale nous couve : ne devait-on point se sentir averti.</p>
+        <p/>
+        <p>Ne devait-on point sentir que, de même que la vague emmène et ramène éternellement la suavité ou le délire d’une immensité dont on sait les limites, — des temps situés entre les Âges énormes de l’Intuition perpétuée aux livres que plus haut nous évoquâmes, et la genèse, à horizons d’éclairs ! de notre moderne Savoir qui ne m’a paru que retrouver le sens sacré, par quoi, sous les signes monstrueux, les Initiés portaient occultement le poids du peuple, — des temps étaient maintenant révolus, remueurs des diaprures aux strophes, et du double mouvement de la poitrine animale scandés !</p>
+        <p>En vain par le doute et ses désespoirs et de hautains appels à sonder le néant des Révélations, avait-on ainsi que rendu tressaillantes les sphères ouraniennes de l’Intellect : en vain, parce que le doute et la négation participent davantage de l’erreur ou du rêve d’où ils naissent, que de la vérité à laquelle ils aspirent sans pouvoir la produire…</p>
+        <p>Et pourtant, au présent immédiat et là de nos poétiques Fastes, — alors que la science des Origines a environné nos têtes ainsi que de la tornade stellaire dont éternellement devient l’éternelle Fluence : voilà que, sans savoir que les apports de la sensation ne sont que les matériaux de l’Idée pour que de ses ondes intelligentes elle tente, en le plus d’unité-sciente, de reproduire en soi l’Univers et ses <hi rend="sc">Rythmes</hi>, — la presque généralité des poètes n’est que la survie dégénérée des rapsodes du plaisir et de la douleur, et des philosophes qui ne peuvent se passer d’Eden !</p>
+        <p>Il en est, il est vrai, de notre génération ou même d’une précédente, qui peut-être du heurt avertisseur (et qui doit à nouveau éveiller les dons prophétiques) dont les sommèrent les Sciences nouvelles, oui, sentirent qu’ils devaient des données du monde et de l’homme, dans l’Intellect. Ils ont vers l’aide trop multiple des philosophies, tourné leur entendement poétique. Non point, en leur ignorant orgueil d’hommes de l’Occident, vers les très vieilles et tout poétiques Sagesses millénaires nées de l’entre-pénétration des esprits vierges et des torrides et humides Forces, — non point vers le ressouvenir qu’en eurent les philosophes Ioniens.</p>
+        <p>Mais ils prirent la philosophie du point où, de la nature, elle passe à l’Homme pour mesure du Tout : et ainsi resteront-ils des poètes égotistes.</p>
+        <p>Dirons-nous que s’ils sont matérialistes, les divers matérialismes n’ont pour eux qu’une valeur rationnelle de doute et de négation demeurés religieux, et ainsi que de Blasphème. Tandis que, délaissant la théorie du « Devenir » de Darwin (mais, sans doute, adéquatement à la hideuse morale pratique, n’arriveraient-ils qu’à l’erronée interprétation de Spencer), ils paraissent surtout séduits par l’idéalisme de Hégel, son éternel-devenir de Dieu, — pour ce qu’il n’est qu’un mode du panthéisme dont toute notre poésie se trouve imprégnée, en vague-à-l’âme…</p>
+        <p>Or, des poètes qui eurent ainsi de tardives velléités de se rénover, des poètes nouveaux qui eurent la sensation d’être à de plus essentiels travaux, occultement astreints, nous n’avons saisi même le rêve stérile d’une personnelle destination de l’homme aux lois du monde : mais, au hasard des philosophies spiritualistes dont ils parurent s’inspirer, ni une œuvre, ni des livres en suite logique de poèmes.</p>
+        <p/>
+        <p>Ainsi qu’antérieurement, en les uns et les autres, manquait l’aptitude à trouver et harmonieusement unir, de l’être du monde, les relations essentielles. Elle manquait ainsi qu’en toute notre Poésie, malgré ses émouvantes phrases humaines à travers le Moi du poète, qui ne put davantage de ses Inspirés tenir une œuvre-une pleine de la volonté pensante et pesante d’une vie.</p>
+        <ab type="ornament">***</ab>
+        <p>Mais (de quelques mots sur l’Expression poétique et les métriques), il est heureux de dire que presque partout une intuition, une spontanéité plus qu’une attention demeurée latente, sut plus ou moins apporter la vraie expression poétique, — don rare, d’ailleurs, qui n’est point l’expression proprement dite ou descriptive, non plus qu’allégorique : mais suggestive, qui doue le réel de prolongement dans le rêve, dans le non-perçu, et, à son degré conscient, rend participante du Tout universel toute partie de l’Œuvre poétique.</p>
+        <p>Or, l’entière suggestion dont nous parlons, et qui pour les persuasions ou les saillies en vertige de l’Idée, tient au sens idéographique des mots mais en même temps à leur phonétisme, ne peut naître que si la langue est traitée en son origine phonétique retrouvée et arrivant à une Musique des mots : matière, d’identique qualité, de la pensée qui agit et possède.</p>
+        <p>Mais, d’autre part, de notre vers de douze pieds, naturel de tenir sa survie d’être le même ou d’avoir ses équivalents en les métriques des langues les plus lointaines, — les poètes ont démontré que la loi mathématique n’est pas par eux saisie entièrement.</p>
+        <p>Nous n’avons vu d’eux, qu’une hasardeuse et dangereuse innovation prosodique, quand, détruisant ainsi les valeurs mathématiques du vers dont la mesure est tenue pour naturelle, disons-nous, et par le génie des temps et l’organe de l’ouïe, — ils pensèrent à le délivrer de la monotonie qui provient de ses entraves intérieures, en s’ingéniant à l’allonger ou le diminuer au gré personnel du poète et selon d’autres mesures seulement empiriques, qui souvent s’apparentèrent aux prosaïques cadences.</p>
+        <p>Est-il en passant, nécessaire de remarquer quelle étrange incompréhension de la langue et de sa plus essentielle phonétique, et de son euphonie, a été, de plusieurs, la suppression dans les vers de l’E muet, — en quoi ils se démontrent sourds aux demi-tonalités et de plus délicates nuances encore…</p>
+        <p>Ainsi dit, nous ne voulons même un instant nous arrêter à étudier l’onde multiple et idéale du <hi rend="sc">Rythme</hi>, — qui, pour en avertir maintenant, ne peut provenir de la traditionnelle pauvreté de la règle d’équidistances des temps marqués, dont s’est mesuré le vers. Immanent aux mouvements mêmes de la pensée, dans une unité de temps qui est la mesure de douze pieds, le <hi rend="sc">Rythme</hi> — en dehors de prévue mesure de pieds et d’équidistances en retour de durées purement numériques, est pour moi une série mouvementée d’ondes de durées à intensités variées, qui se déterminent par la valeur phonétique de toutes lettres mais essentiellement des <hi rend="sc">Voyelles</hi>, distinguées par leurs harmoniques propres.</p>
+        <ab type="ornament">***</ab>
+        <p>Or, à notre passé poétique, dont allèrent leur devoir, les Poètes : notre gratitude soit de tenter aussi un devoir, tenu modernement.</p>
+        <p>Mais le devoir est : De savoir et de penser, selon en premier lieu le savoir et la pensée du savant qui expérimenta. Et ensuite, lorsque, lui, l’Expérimentateur, est pour longtemps épars, de, induisant et déduisant plus vite et plus loin, d’un nœud d’intuitions authentiquer en une parole d’émotion multiple ordonnée des phonétiques valeurs, le plus du présent et le plus de l’avenir : en Synthèse, et en Hypothèse.</p>
+        <p>Tant que de même la Poésie, présentement après le savoir du savant, et, en l’expression émotive et dramatique, après la musique, rendue à ses puissances désormais ! dominera : et telle elle sera, savante et suggestive en partant des données des Sciences à leurs points d’identité, en une langue savamment multisonnante, — ou elle n’a plus droit d’exister.</p>
+        <p>Quant aux preuves directrices à exalter par le Poète, hors de l’arrivée à nous du savoir assez disant partiellement pour une unanime vérité, une Œuvre trop immense et simple est à venir : en une adéquate parole, le poème de toutes Activités vitales pénétré des intuitions d’une philosophie de la Matière en mouvement évolutive, — ou, poétiquement, sa Métaphysique.</p>
+        <p>Avant quelle Œuvre — d’orgueil et d’humilité, qui est la tentative de mon vouloir, et l’exposant essentiellement : le livre présent, en argument, est ma Méthode et ma Manière d’art.</p>
+      </div>
+      <div>
+        <head>Méthode :
+<lb/><hi rend="i">Le principe de Philosophie évolutive</hi></head>
+        <div>
+          <head>I</head>
+          <epigraph>
+            <p>Et si, se plus et plus dénaturant du Cercle dont elle soit l’équivalence en mouvement, se développe une Ellipse : plus et plus, va à équivaloir en Droite l’elliptique périphérie.</p>
+          </epigraph>
+          <p>Ainsi, la Matière n’est pas. Et en la perpétuelle diversité de sa manière de se produire qui est mouvement, d’éternité et pour éternité et dans l’illimité, — elle devient.</p>
+          <p>D’éternité et pour éternité et dans l’illimité, la Matière devient Amour-de-soi. Et qui est en Un-seul deux-désirs dont un autre s’engendre, son Amour immanent et qui la meut détermine son devenir, — et, qui intégrale ne s’aimera que si intégrale elle se sait, elle devient à se savoir.</p>
+          <p>Que si, en l’arcane de ses Puissances amorphes, eût assenti l’Unité à un destin de s’ignorer, d’éternité et pour éternité et dans l’illimité, la Matière eût été.</p>
+          <p>Mais quand se désire savoir l’unique-dualité et qu’alors elle engendre son désir de Soi et son Plus en quoi elle se phénoménise en Temps dans l’Espace ainsi pluri-numéralement délimité : d’éternité et pour éternité et dans l’illimité, d’un délivrant et meilleur devenir la Matière devient.</p>
+          <p>À s’aimer, en s’aimant la Matière devient : qui intégrale et possessoirement ne s’aimera, que si, des phénomènes d’attraction, elle tend à prendre sensation d’elle-même, et, en se sentant, se pense, et, en se pensant, intégrale se sait.</p>
+          <p>D’éternité et pour éternité et dans l’illimité, — à se savoir la matière devient.</p>
+          <p/>
+          <p>Que si eût assenti l’Unité à un destin de s’ignorer, la Matière eût été : et inscrirait-elle son mouvement par la seule parité à soi-même du Cercle.</p>
+          <p>Mais quand se désire savoir Tunique-dualité et qu’alors, engendré son désir de sa totale possession, d’un meilleur devenir la Matière devient : qui de l’universalité du signe virtuel est, progressive lentement à une droite, l’ouverture, l’Ellipse par di-centré départ loin exagère la périphérie évolutivement en mouvement.</p>
+          <p>Hors que, se transportant en rapport du Cercle virtuellement éternel et illimité, à la suprême équivalence de l’elliptique périphérie en une Droite d’immuance, l’Ellipse n’ira pas : et de la virtuelle Fatalité ne pouvant avoir la Fin, éternellement en déviation excentrique, elle meut.</p>
+          <p>À intégralement s’aimer et se savoir, qui selon l’Ellipse va, la Matière ne parviendra : et de l’amorphe état de ne se pas savoir ne pouvant se toute extraire, éternelle et illimitée se transmue au Plus et au Mieux, vers le plus de son être, — Savoir étant Être.</p>
+          <ab type="ornament">***</ab>
+          <p>À en s’aimant, s’aimer, — d’où se savoir : qui éternellement se pénètre du désir Mâle et Femelle pour, éternellement le Fruit en qui elle se saura, selon l’Ellipse devient et se transmue la Matière en mouvement de meilleur devenir…</p>
+          <p>Dans un laps d’éternel : quand, suite de sa suite, luèrent en point d’illimité des atomes denses de la Matière, et que virèrent elliptiques et les agglomérats engendrant les soleils et les soleils générateurs de leurs planètes : il exista en un avènement solaire un astre terraqué.</p>
+          <p>Et, de l’attraction et la pénétration inorganiques, organique par l’Être sortait, désir plus que le désir, une primordiale volonté à devenir. Et, qui est en un seul deux êtres dont un autre s’engendre, dans les Génitoires et la Vulve et le Fruit de leur union, l’être démontra, Mâle et Femelle, les deux désirs et, engendré, leur désir d’un Fruit : et la Matière devint sensitive.</p>
+          <p>À travers les hésitations et le mieux des générations : lorsque l’être s’éleva inquiet de sa dualité et de sa géniture et de l’heur et de la douleur : la Matière devint sentimentale.</p>
+          <p>À travers les hésitations et le mieux des générations : à mesure que s’enquit de soi l’être universel, et qu’il tenta des lois, et, à leur aide, une nouvelle Expérience : la Matière devint pensante.</p>
+          <p/>
+          <p>Il exista en un avènement solaire un astre terraqué. Et en de solaires avènements ont été, sont et seront d’autres astres. Et seules se peuvent assurer, et la loi géométrique d’univers en mouvement selon laquelle, d’éternité et pour éternité et dans l’illimité ils ont été, sont et seront, et les aidantes lois à, en l’unique savoir en <hi rend="sc">Synthèse</hi> — détruire, d’éternité et pour éternité et dans l’illimité, hasards et hostilités. Et nulle part la Matière ne se saura, qui devient.</p>
+        </div>
+        <div>
+          <head>II</head>
+          <p>Mon raisonnement partit vers les apports du précédent Exposé, — en ramenant à deux lois, ou plutôt à une loi à double-action du plus ou du moins de pesanteur, les phénomènes de tous ordres : condensation et expansion.</p>
+          <p>De quel double-mouvement essentiel de la Matière, de toute éternité s’assurent les innumérées transmutations, et la conservation d’Énergie : puisque de la condensation au point où les internes et multiples mouvements d’attractions s’alentissent, et des états nouveaux qui en résultent renaissent les explosives Forces, qui dilatent et remettent en activité*</p>
+          <p>D’autre part, du même principe s’entend le phénomène d’amassement concentré et pesant des vitalités, suivi de délivrance, — d’où dépend la volition à deux pôles Mâle et Femelle, qui engendre, perpétue et améliore l’Espèce : en un troisième mouvement de l’unité-trinaire.</p>
+          <p>Exemple, où nous parvenons à l’entendement que la Matière en laquelle immanent en un seul deux désirs dont un autre s’engendre, qui est son désir du Fruit en qui elle se saura, — évolue expansivement selon un signe elliptique…</p>
+          <p>Or, nous ne pouvions assentir à la proposition de Goethe, de voir selon une « spirale » le processus universel, — pour ce, que si elle en démontre heureusement le mouvement d’expansion et l’originelle sortie hors du Cercle, elle n’en rend ou n’en rappelle pas en même temps les temps de rétractive reprise : et ainsi, n’exprime pas, nous le verrons, tout le phénomène de l’évolution qui n’est pas égal et continu.</p>
+          <p>Tout nous a paru devenir selon un <hi rend="sc">Rythme elliptique</hi>.</p>
+          <p>La Matière étant éternelle et illimitée est virtuellement représentée par le Cercle, qui, si amplement qu’il se puisse élargir, demeure illimité et sans pouvoir s’étendre autrement qu’en son signe. Donc, en sa même propriété qui soit d’être éternellement en puissance de ses propriétés amorphes et in-scientes, la Matière n’évoluerait pas.</p>
+          <p>Mais, si elliptiquement elle meut, elle sort éternellement de son état potentiel : elle évolue selon le mouvement de double et équipollente excentricité, éternellement vers une Droite — qui est le signe de l’Équilibre-stable.</p>
+          <p>Mais, puisque virtuellement est illimité le Cercle, illimité sera le dessin elliptique. Et éternellement, sans pouvoir se résoudre en son intégral Savoir, la Matière évolue, allant, avons-nous dit, vers le Plus de sa connaissance, vers un Mieux…</p>
+          <p/>
+          <p>— Or, par quoi est mise en mouvement selon le dessin elliptique, la Matière ?</p>
+          <p>La théorie de « Sélection naturelle », émet en loi une constatation de « lutte pour la vie ». Mais il n’est point en elle impliqué, — en contre-sens, — ainsi que l’ont vu Darwin et Spencer, que cette nécessité vitale soit pour l’évolution, une Fin : tandis qu’en essentielle réalité elle s’en dénonce, pour parvenir à plus d’harmonie et d’équilibre — un <hi rend="sc">moyen</hi>.</p>
+          <p>Donc, c’est d’une puissance d’Amour-procréateur, et procréateur du Mieux, dont est pénétrée et mue la Matière, puisqu’elle tend à savoir et par là à sa conscience, — d’où, au plus d’existence-harmonique.</p>
+          <p>L’Amour, sa Force-immanente (c’est-à-dire la propension à l’harmonie de tous les éléments et toutes propriétés), l’Amour meut la Matière.</p>
+          <p>La Matière est « une » primordialement, d’une unité amorphe et in-sciente, si nous la prenions, un instant idéal, en son éternité où l’une de l’autre l’Origine et la Fin sont en virtuelle puissance. Et toute son évolution tend donc à opérer l’<hi rend="sc">analyse</hi> de tous ses éléments et toutes ses propriétés et déterminer leurs relations, pour de plus en plus en pouvoir une consciente-<hi rend="sc">Synthèse</hi> — et de plus en plus re-créer ainsi l’unité, qui devient l’Unité-sciente.</p>
+          <p>Or, Amour implique deux désirs, deux pôles, qui, entrant en action, engendrent en résultante un troisième mode par quoi est déterminée la sortie hors du mal de non-connaissance, c’est-à-dire l’Évolution</p>
+          <p>Désormais la Matière évolue vers elle-même, vers se savoir : et par sa science, continuement elle vient en possession de Soi-même.</p>
+          <ab type="ornament">***</ab>
+          <p>Mais disions-nous, le phénomène de l’Évolution n’est pas égal et continu.</p>
+          <p>Fatalement, et par périodes qui ont leurs normes et leurs <hi rend="sc">Rythmes</hi>, — l’Ellipse, par attraction, par pesanteur, retourne et se raccourcit au dessin originel. L’évolution n’est pas en « expansion » continue, — mais, continuement reprise par la seconde action de double-Loi, quand elle se restreint aux degrés où le Moins l’emporte sur le Plus sont les périodes de décours et de décadence, dans la nature et les êtres.</p>
+          <p>Par le sens-double qu’exprime notre dessin géométrique sont régis les astres d’or de la tornade innumérée, qui ont été radio-activité et qui se minéralisent, — et dont se restreint le cours elliptique. Elle régit les vies des peuples et des empires, et nos propres vies et notre intellect, et nos vouloirs quotidiens eux-mêmes. En dépendent, nous l’avons dit, les vertus génératrices, la volition qui procrée…</p>
+        </div>
+        <div>
+          <head>III</head>
+          <p>Nous avons dit le présent livre n’être que l’Argument à l’Œuvre voulue. Et pourrions-nous maintenant ouvrir les livres eux-mêmes dont la poétique matière développe les principes.</p>
+          <p>Mais pourtant il sied d’émettre les sanctions les plus immédiates, auxquelles nous arrivons, — tandis qu’en passant nous remarquerons inutile la trop longue querelle occidentale, entre les Matérialismes et les Spiritualismes. Nous pensons unir les deux termes et résoudre l’antinomie, de ce, que le Spiritualisme, c’est-à-dire pour moi le plus de conscience-prise du Tout, émane perpétuellement de la Matière en évolution…</p>
+          <p>Or, pour la détermination de la « valeur humaine individuelle », nous avons dit :</p>
+          <p>— La Matière, la Vie, tendent à se conserver. (Instinct de conservation, primordial et perdurant aux organismes les plus élevés, aux phénomènes les plus complexes).</p>
+          <p>— Loi immanente à la Vie, qui la presse de connaître davantage et son milieu et elle-même (évolution), pour se perpétuer au mieux.</p>
+          <p>— Dans cette nécessité, mais aussi en concordance intelligente avec le Tout, l’Homme doit donc tendre à connaître et en toutes relations l’univers et soi-même, et tendre à la <hi rend="sc">Synthèse</hi>, — c’est-à-dire à recréer l’Unité devenant l’Unité-sciente.</p>
+          <p>— Donc, son plus de science (d’où son plus d’âme-consciente) détermine son plus de « valeur morale ».</p>
+          <p>— Le Bien, qui est le Beau, est le plus-de-volonté, le Mal le moins-de-volonté à Savoir.</p>
+          <p>— Venir à Savoir, est venir à Être.</p>
+          <p/>
+          <p>Nous dirons de la « valeur individuelle en l’Évolution-collective » :</p>
+          <p>— Le plus de science-acquise, soit de Conscience, — donne le plus de Droit.</p>
+          <p>— Mais en immédiate et équipollente correction, il entraîne la notion et l’assentie nécessité du Devoir.</p>
+          <p>Lorsque toute connaissance individuelle dépend, pour la plus grande part, des puissances d’âmes ataviquement transmises, l’homme doit gratitude et amour au Passé qui l’aida des sommes de son évolution. (Nous avons vu que, de la première Fatalité de non-conscience, que nous exprimâmes par le Cercle, — la nature et l’homme sont heureusement voués au plus-d’énergie, au plus-de-Volonté).</p>
+          <p>— Et, de là, il se doit à l’Avenir. Donc, il doit vouloir, si sa « valeur » est supérieure et tout en l’augmentant pour lui-même, persuasivement et prudemment initier autrui aux pouvoirs de sa connaissance.</p>
+          <p>Mais pourtant (parce que le Savoir donné à qui ne le mérite pas en s’élevant vers lui de toute sa volonté et d’une apte intelligence, est le pire des maux) ne se doit-il à tous : se rappelant que la Multitude qui vit surtout des sens et des instincts, s’enorgueillit en elle-même du Savoir qu’elle reçoit, d’autant qu’elle ne le perçoit pas. Et alors, en construit-elle, par une sorte d’atavisme superstitieux, un idéal de Foi matérialiste à violences d’appétits et sanctions de Besoins : et en même temps se dénature ou se détruit, d’être passé par elle qui lui demande ainsi que des prolongements décuplés de ses seuls sens, le sens universel et sacré, — Et parce que la hâtive Science moderne multipliant ses vulgarisations à la mesure des inaptes cerveaux, ne voit pas qu’ainsi elle s’amoindrit et se disperse, et ne grandit autour d’elle qu’une audace ou un scepticisme hostilement présomptueux : il se peut que se désagrège avant de se résumer une conscience, l’Occident…</p>
+          <p/>
+          <p>— Nous arrivons donc à une proposition « d’Altruisme » vrai, qui ne soit plus de sentiment, ni n’implique de renoncement personnel.</p>
+          <p>Notre Altruisme ne se sépare pas de l’Égoïsme qui n’est qu’un mode de l’Instinct de conservation, et donc, nécessaire et naturel. L’antinomie se résout, — en prenant garde que le devoir altruiste ne se doit exiger et n’est même permis que lorsque l’Individu a pour lui-même acquis la sûreté de Vie organique et morale, et ainsi que pléthoriquement. (En quoi une loi d’ordre naturel nous couvre : lorsque l’organisme a amassé un surcroît de vitalités, alors seulement il est apte et appelé à procréer, à multiplier sa valeur).</p>
+          <ab type="ornament">***</ab>
+          <p>Nous nous sentons ainsi au terme des seuls développements dont nous avons voulu élargir le texte des Principes, — auquel il nous plut de garder un sens et une atmosphère ainsi que rares, et la sensation de vertige qui émane de l’Essence…</p>
+          <p/>
+          <p>De l’entier développement toute la poétique mouvance, maintenant l’épandra en dramatique diaprure des natures et des êtres l’Œuvre qui prit âme en mon esprit en même temps que la Méthode, dont (au titre générique de Œuvre) elle sort. En trois parties ainsi dénommées : Dire du Mieux — Dire des Sangs — <hi rend="sc">Dire de la Loi</hi>.</p>
+          <p>Œuvre qui, retournant au primogène tact sensationnel la digression luxuriante des sensations, des émotions et des idées et les renouvelant dans la phonalité et l’idéogramme primordiaux, de nouveaux associés, — et reprenant tout ainsi qu’aux racines du Monde : d’une part (et tandis que son centre est situé en l’âme et le milieu modernes de l’Individu et des nécessaires agglomérats ethniques gardant le sens de Races, en notre instant), remonte à la Genèse cosmique et à la prime danse du Feu et du Serpent de l’être anthropoïde. Quand, d’autre part, elle s’étend à l’idéal évoluant d’individualités qui ne sauraient que les entraves dont une évoluante Science redevenue sacrée et providentielle, et peut-être occulte, ne les délierait encore, — mais soumises, en le plus ou moins de savoir et de conscience qui est leur récompense et vers quoi toutes tendent leur entendement, aux lois éthiques déduites des lois naturelles.</p>
+          <p>Puisque nous allons aussi à la conception d’une tête humaine, ainsi que pétrie de radio-activités, pénétrant et mouvant tout de sa volonté, opérant en même temps de tous les signes phénoménaux l’<hi rend="sc">Analyse</hi> et la <hi rend="sc">Synthèse</hi>.</p>
+          <p>Nous hâtant de protester que pareil rêve normalement surgi, d’un esprit qui trouverait sous les Apparences et dans leur relativité le Vrai et l’Immuant, n’est qu’un songe : l’évolution de la Matière, nous le vîmes, ne pouvant avoir sa Fin, — qui serait son principe su !</p>
+        </div>
+      </div>
+      <div>
+        <head>Manière d’art :
+<lb/><hi rend="i">L’Instrumentation-verbale</hi></head>
+        <div>
+          <head>I</head>
+          <p>En premier lieu, nous rappellerons que doivent participer des ondes du Tout, toute œuvre et toute partie d’œuvre poétique : c’est-à-dire toute œuvre poétique n’a pour moi de valeur qu’autant qu’elle se prolonge en suggestion des lois qui ordonnent et unissent l’Être-total du monde, évoluant selon de mêmes <hi rend="sc">Rythmes</hi>. — Il est un sens universel dans tout caractère, a dit Goethe.</p>
+          <p/>
+          <p>Ainsi, la Matière n’est pas. Et en la perpétuelle diversité de sa manière de se produire qui est mouvement, d’éternité et pour éternité et dans l’illimité, — elle devient.</p>
+          <p>Diverse et perpétuelle, en vérité, pour de la Matière en mouvement exprimée, l’adéquat Poème, s’impose la manière d’art qui soit elle-même mouvement, — de mouvements pensants.</p>
+          <p>Émotivement représentative de la diversité et la perpétuité mouvementées : par la splendeur des instruments, dont les ondes alors qu’elles ont hauteurs, longueurs et modes, suivent de plus une mesure propre, et pour lesquels a des phases d’intensité variante la même note, — a été la manière d’art le plus douée d’universalité, la Musique instrumentale.</p>
+          <p>Mais le plus douée d’universalité ne l’est-elle, qui, de la Matière sensitive et sentimentale ou seulement agitée de l’éternelle propension d’inorganiques Forces, l’interprète, imite et suggère et s’épand en immatérialité sans pouvoir se résoudre autrement qu’en un immense cri, — que par ce, qu’était ignoré le vrai sens de la Parole : instrument le plus multiple d’instruments dont, idéale réalisation de la Matière, imite et suggère, et délimite, articule et prononce, la pluralité pensante.</p>
+          <p>Et, si l’on ne peut assentir au dire de Schumann, que « tous les instruments sont des voix humaines », il est permis d’émettre en axiome que les Voix sont des instruments, et plus.</p>
+          <p/>
+          <p>Tout instrument de musique, il est su depuis les travaux de Helmoltz, à ses harmoniques propres dont le groupement le distingue d’autre : d’où son timbre, qui est ainsi qu’une couleur particulière du son. Mais la voix, il est su du même temps, est un instrument essentiel et multiple : essentiel et multiple par les diverses Voyelles produites, ainsi qu’instruments divers, de groupements divers d’harmoniques. L’instrument de la voix humaine est, à note variée, une anche, — complétée d’un résonnateur à résonnance variée.</p>
+          <p>Or, et sans nous attarder à d’ingénieux instruments-parlants par la suite inventés, alors qu’Helmotz a pu, en ordonnant divers groupes de diapasons, donner les sons tels qu’articulés, de toutes les Voyelles : il est avéré que les diverses Voyelles, « voix » du langage, sont divers instruments-vocaux. Et leur sonnante succession harmonise une « instrumentation-Verbale ».</p>
+          <p>Fondamental, tout son de voyelle, — de même que d’instrument de musique, groupe autour de lui des harmoniques qui lui sont propres et le singularisent. Et, montant des plus rares et sourds aux multiples et hauts harmoniques : les « voix », ou timbres-vocaux, — ainsi qu’il suit se sérient, selon qu’en elles sont présents tels ou tels harmoniques de la suite de sons respectivement dans les rapports de : 1, 2, 3, 4, etc.</p>
+          <p/>
+          <p>OU. — Fondamental très marqué, et l’harmonique : trois, assez marqué.    /</p>
+          <p>O. — Fondamental très-marqué, et les harmoniques : deux, très-marqué, — trois et quatre, peu.</p>
+          <p>A. — Fondamental très-marqué, et les harmoniques Deux, peu marqué, trois, marqué, — quatre, peu.</p>
+          <p>E. — Fondamental peu marqué, et les harmoniques : deux, peu marqué, trois, très peu, quatre, très marqué, — cinq, peu.</p>
+          <p>I. — Harmoniques élevés, dont, très marqué, le cinquième.</p>
+          <p/>
+          <p>Tandis que pour : EU, U, E, È, É et I, le résonnateur que sont le palais, les lèvres, a proprement deux mouvements vibratoires — dont l’un est extrêmement aigu aux sons de U, È, É, et I…</p>
+          <p/>
+          <p>Si, maintenant, en même ordre croissant d’harmoniques nous apportons autour des <hi rend="sc">Voyelles</hi>, les Diphtongues (qui, respectivement, en sont les aspects élargis et les phases nuancées), nous pourrons essentiellement le relevé de la série de timbres-vocaux, ainsi disposée :</p>
+          <p/>
+          <p>où, ou, iou, ouï (ll), oui | ô, o, io, oi | â, a, ai (ll), ai | eû, eu, ieu, euï (ll), eui | ù, u, iu, uï (ll), ui | e, è, é, ei, el (ll), | ie, iè, ié, î, i (ll), i, ii</p>
+          <p/>
+          <p rend="noindent">en même temps qu’inscrire, en leur valeur de lettres <hi rend="sc">semi-voyelles</hi> : les sont m, n, et gn (e), — que particularise, en sourdine, leur lenteur massive et nasale.</p>
+          <p/>
+          <p>Mais encore, pour l’entière assimilation, est-il nécessaire que ne viennent pas en éléments étrangers à nos vues instrumentales, mais qu’elles leur soient précisément indispensables, les lettres-Consonnes.</p>
+          <p>Que l’on admette selon les grammaires usuelles, que les lettres-consonnes n’aient point de son par elles-mêmes, ou que l’on veuille entendre selon moi qu’elles représentent une sorte de préparation à valeur primitive, des organes de la voix saisis par l’instinct et la sensation pour parvenir à l’articulation pure des <hi rend="sc">voyelles</hi>, — et qu’elles soient donc inséparables d’elles pour ce que, elles aussi, à degrés moindres, sonnent ou consonnent en devenir de timbres-vocaux : il sied de leur reconnaître, stridantes, explosives, martelantes, percutantes, pénétrantes et stridentes, des qualités spéciales de « Bruits ».</p>
+          <p>Or, les mêmes qualités de Bruits, de murmures et rumeurs, singularisant, étroitement unies aux qualités de sons, tel ou tel de leurs timbres, nous les retrouvons aux instruments de musique. De telle identique manière que nous pouvons ainsi les répartir instrumentalement ;</p>
+          <table>
+            <row>
+              <cell>F, L, N, S</cell>
+              <cell>P, R, S</cell>
+              <cell>H, R, S, V</cell>
+              <cell>L, N, R, S, Z</cell>
+            </row>
+            <row>
+              <cell>les Flûtes
+<lb/>longues,
+<lb/>primitives</cell>
+              <cell>la 
+<lb/>série grave 
+<lb/>des Sax</cell>
+              <cell>les 
+<lb/>séries hautes 
+<lb/>des Sax</cell>
+              <cell>les 
+<lb/>Cors, Bassons 
+<lb/>et Hautbois</cell>
+            </row>
+          </table>
+          <p/>
+          <table>
+            <row>
+              <cell>F, L, R, S, Z</cell>
+              <cell>D, GH, L, P, Q, R, T, X</cell>
+              <cell>LL, R, S, V, Z</cell>
+            </row>
+            <row>
+              <cell>les Trompettes, 
+<lb/>Clarinettes et 
+<lb/>petites Flûtes</cell>
+              <cell>les Violons par les 
+<lb/>pizzicati, Guitares et 
+<lb/>Harpe. Instruments 
+<lb/>percutants</cell>
+              <cell>les Basses, Alto-viole 
+<lb/>et Violons</cell>
+            </row>
+          </table>
+          <p/>
+          <p>D’où, en réunissant les partielles propositions, se noue une entière démonstration d’identité, ainsi que suit :</p>
+          <table>
+            <row>
+              <cell>où, ou, iou, 
+<lb/>ouï (ll), oui</cell>
+              <cell>ô, o, io, oi</cell>
+              <cell>â, a, ai (ll), ai</cell>
+              <cell>eû, eu, ieu, 
+<lb/>euï (ll), eui</cell>
+            </row>
+            <row>
+              <cell>F, L, N, S</cell>
+              <cell>P, R, S</cell>
+              <cell>H, R, S, V</cell>
+              <cell>L, N, R, S, Z</cell>
+            </row>
+            <row>
+              <cell>les Flûtes 
+<lb/>longues, 
+<lb/>primitives</cell>
+              <cell>la
+<lb/>série grave
+<lb/>des Sax</cell>
+              <cell>les
+<lb/>séries hautes 
+<lb/>des Sax</cell>
+              <cell>les 
+<lb/>Cors, Bassons 
+<lb/>et Hautbois</cell>
+            </row>
+          </table>
+          <p/>
+          <table>
+            <row>
+              <cell>ù, u ; iu, uï (ll), ui</cell>
+              <cell>e, è, é, ei, eï (ll)</cell>
+              <cell>ie, iè, ié, î, i (ll), i, ii</cell>
+            </row>
+            <row>
+              <cell>F, L, R, S, Z</cell>
+              <cell>D, GH, L, P, Q, R, T, X</cell>
+              <cell>LL, R, S, V, Z</cell>
+            </row>
+            <row>
+              <cell>les Trompettes, 
+<lb/>Clarinettes et 
+<lb/>petites Flûtes</cell>
+              <cell>les Violons par les 
+<lb/>pizzicati, Guitares et 
+<lb/>Harpe. Instruments 
+<lb/>percutants</cell>
+              <cell>les Basses, Alto-viole 
+<lb/>et Violons</cell>
+            </row>
+          </table>
+          <p/>
+          <p>Ainsi, si le caractère originel de la parole avait pu n’être pas dénaturé, par, dès primitivement, le naturel instinct de contracter, en moindre attention et pour plus de rapidité de la vie de relation, — et, aux époques de l’Écriture, par l’emploi de plus en plus étendu en signes de mémoire visuelle, des idéogrammes de plus en plus dédaigneux de leurs phonétismes correspondants et que venaient ensuite asservir de mutilations ou d’augments d’empiriques règles de grammaire qui ne se doutent plus, maintenant, du sens primordial des langues : ainsi, le langage eût pu demeurer en organisme intégral, sous la double valeur phonétique et idéographique.</p>
+          <p>En quoi, il eût été le plus hautement et évolutivement propre aux intellectuelles spéculations, tandis que par la phonalité (et par le sens du <hi rend="sc">Rythme</hi>, qui, nous le verrons, ne s’en peut séparer), il aurait gardé l’émotivité et le mouvement même de la sensation traduite primordialement parle cri.</p>
+          <p>S’il est commode, pour la matérielle activité des humanités surmenées ne demandant au langage quotidien que transmettre vite des idées à moitié devinées par le regard, que les mots soient surtout une sorte de gesticulation, une suite de graphiques parlés : ce ne peut être une sanction à l’inattention apportée au premier et générateur élément des langues, sinon à sa presque suppression.</p>
+          <p>Il sied tout naturellement que quelque part se préserve le sens intégral de la langue, et qu’intégralement aussi il évolue. Il est universel et de tous les temps que le langage poétique, et des lettrés, de plus en plus s’éloigne du langage des Foules : l’un ne pouvant être, ainsi que nous le disions, qu’un rapide intermédiaire, de quotidien et précis usage et aux seules qualités de concision, — et l’autre exigeant, de par son origine double, tous les apports de musique verbale, et picturaux et plastiques — et <hi rend="sc">rythmiques</hi>, en perceptions et représentations les plus rares et retravaillées sans cesse.</p>
+          <p>Et, toute supérieure mentalité poétique ne sera entièrement vivante et expressive qu’autant qu’elle percevra et reproduira, en même temps, toutes les images des sens associées et intermuantes qu’elle traduit en phénomènes de conscience…</p>
+          <p/>
+          <p>Or, l’instrumentation-Verbale (au point où nous en sommes et avant de la montrer tout à l’heure unie aux émotions et aux idées), prétend, en déterminant aux mots le timbre, la hauteur, l’intensité et la direction, à la réintégration de la valeur phonétique en la langue. Et si le poète pense par des mots, il pensera désormais par des mots redoués de leur sens originel et total, par les mots-musique d’une langue-musique. — Donc, devons-nous admettre la langue poétique seulement sous son double et pourtant unique aspect, phonétique et idéographique, et n’élire au mieux de notre re-créateur désir que les mots où multiplient les uns ou les autres des timbres-vocaux : les mots qui ont, en plus de leur sens précis, la valeur émotive en soi, du Son, et que nous verrons spontanément exigés en tant que sonores par la pensée, par les Idées, qui naissent en produisant de leur genèse même leurs musiques propres et leurs Rythmes.</p>
+          <ab type="ornament">***</ab>
+          <p>La langue-musique ainsi restituée, similitude intime entre les émissions phonétiques de la Parole et les sons matériellement instrumentaux,« voix » dont le Vers multipliera et opposera les sonorités : nous voulons maintenant nous trouver en droit de relier à tel et tel ordre de ses sons, de ses timbres-vocaux, — tel et tel ordre de sentiments et d’idées…</p>
+          <p>Nous pouvons dire, en généralité, que la relation s’authentique du principe même qui dénonce la Matière allant à se savoir en se pensant, — quand évolutivement la pensée ne se peut désunir de l’instinct et de l’émotion qui l’engendrent.</p>
+          <p>Les sons émeuvent par leur vertu propre, remarque Helmoltz. Assertion à interpréter en disant que le son pris en lui-même serait ainsi qu’une immatérielle transition entre la matière dépourvue du pouvoir de sentir, et l’organisme-vivant arrivé à l’expression émue de son instinct, en une sorte d’amorphe désir et de pré-volonté : par quoi nous passons au Son-articulé.</p>
+          <p>L’expression de la voix humaine se ramène essentiellement à trois éléments : d’émotivité instinctive, d’imitation (phonétique, graphique, colorée) des phénomènes extérieurs, — et de sentiment et de pensée. Triple mode dont l’origine unique est l’instinct, d’où retenir que le langage est, en même temps, un développement multiple et varié du <hi rend="sc">cri</hi>, — et un dessin complexe et évoluant du <hi rend="sc">rythme</hi> : qui s’harmonisent en le processus de l’<hi rend="sc">Idée</hi>.</p>
+          <p>Il nous paraîtrait oiseux d’insister sur l’origine émotive du son-articulé, et encore de le montrer appliqué primitivement à exprimer les sensations perçues et les phénomènes extérieurs, ainsi qu’en les décrivant. De même qu’entre le geste muet et l’émotion l’analogie se dénonce, de même les sensations de douleur, de plaisir, de stupeur, de quiétude, se traduiront en la sorte de geste sonore qu’est, en première parole, le son guttural.</p>
+          <p>L’émotion a produit l’expression phonétique, et le souvenir l’a gardée et reproduite en la nuançant.</p>
+          <p/>
+          <p>Donc, nous n’invoquerons pas non plus de multiples autorités anciennes et modernes, à l’appui d’une théorie qui ne se peut plus discuter. Mais, en transition, nous rapporterons de Rousseau une phrase délicate : « Le chant mélodieux et appréciable n’est, dit-il, qu’une imitation paisible des accents de la voix parlante. On crie, on se plaint sans chanter, mais on chante en imitant des cris et des plaintes. » — Il parle aussi, quelque part, du « lien puissant et secret des passions avec les sons », — et très originalement va à émettre que tout peuple a la musique de sa langue et que d’aucuns ne peuvent avoir de musique, parce que leur langue ne possède pas d’éléments musicaux.</p>
+          <p>L’on ne peut mieux exprimer que toute origine de langages a été, sous l’empire des sentiments, phonétique : tandis que les langues et les musiques d’Extrême-Orient apportent l’exemple tout pur à sa dernière et précieuse remarque, — et, dirons-nous pour les avoir pratiqués, particulièrement la musique et les idiomes où si sensitivement demeurent unis le sens et les sons, malaïo-Javanais…</p>
+          <p/>
+          <p>Mais le principe entendu, n’est-il point d’intuitions partielles, médiatrices des déductions que nous en tirons pour tout à l’heure nouer les solides et naturels rapports de la Pensée et de la Parole-instrumentale ?</p>
+          <p>Or, au <num>xvi<hi rend="sup">e</hi></num>  siècle, nous trouvons les notations suivantes, que sont :</p>
+          <p/>
+          <p>a et o, et m, pour la grandeur, et pour la plénitude et l’amplitude,</p>
+          <p>é et i, pour l’expression de délié, de rare, de menu, d’aigu et de pénétrant, et de deuil et de douleur,</p>
+          <p>o et r, s et x, pour les grandes passions, et la rudesse et l’impétuosité, et l’âpreté,</p>
+          <p>u et n, pour l’expression de voilé et de doute, et de noir. — </p>
+          <p/>
+          <p>Un autre note, que :</p>
+          <p/>
+          <p>e est le son le plus nué, le plus varié…</p>
+          <p/>
+          <p>Mais Socrate et plus tard Lucrèce, voient la vérité d’une dépendance naturelle entre l’idée, et le son et les lettres du mot qui l’expriment. Par exemple, la prononciation du son « r », pour Socrate, à une analogie avec l’idée de mouvement. La sensation de glissement gît en le son de « l », qui, uni au son « gh » (sensation de heurt et d’arrêt) exprime une idée de visqueux. Le sentiment d’entrave est trouvé en le « d » et le « t ». Etc…</p>
+          <quote>
+            <p>« Que dirons-nous, demande-t-il, de qui imite avec les lettres l’essence de tout ? Est-ce que, s’il emploie les éléments appropriés, il ne créera pas une précieuse image ? Cette image est le mot. »</p>
+          </quote>
+          <p>Et, — c’est aux poésies de l’Inde pourtant, encore ainsi qu’aux sources de tout Émoi, que nous remonterons pour avoir, non plus d’hésitants et partiellement entendus et presque étonnés avisements qui ne paraissent venus que d’elles, mais la mise en œuvre, en un art supérieur aux secrètes et intenses Beautés, où, — correspondance des sons et des idées, un sens adventice suggéré en sonorités appropriées, vient en prolongement du sens des mots précisément exprimé. (Ainsi avons-nous dit nous-même, la nécessité pour la Poésie de procéder par suggestion, selon le vrai sens poétique.)</p>
+          <ab type="ornament">***</ab>
+          <p>Mais avant de montrer reliées en dernière proposition, — les séries de sons-instrumentaux et les séries de sentiments et d’idées essentiellement générateurs, respectivement : pour encore apporter un élément voisin, nous parlerons succinctement de l’audition colorée, — de la couleur des Sons.</p>
+          <p>L’exception imprudemment dite, un temps, pathologique, de percevoir en même temps que de son une sensation de couleur, — peut-être vient-elle à se généraliser et à l’état normal des individus. Il se peut que la rareté du phénomène ait pu provenir du peu d’aptitude ou de l’inattention à en prendre conscience. Mais, en assentiment, en Musique le timbre n’est-il pas pris pour « couleur du son », — alors qu’en langue allemande il n’a même d’autre dénomination ?</p>
+          <p>La manière et la puissance de percevoir évoluent et progressent, doit-on en induire.</p>
+          <p>Pour quoi sous nos timbres-vocaux, nous avons inscrit les nuances distinctes qui correspondent le plus généralement à leurs séries, déroulant ainsi, selon les hauteurs en l’onde sonore, qu’une gloire du spectre solaire. Hors que, pour l’« e muet », son très varié, avons-nous vu, et ainsi qu’intermédiaire, la lumière reprend son unité. (Fondamentalement peu marqué, rappellerons-nous à l’appui, le son de l’ « e » a quatre harmoniques dont trois de peu d’intensité).</p>
+          <ab type="ornament">***</ab>
+          <p>Nous sommes au terme du raisonnement, pour en réunir maintenant tout le résultat, — sous le regard.</p>
+          <p>Donc, étant donné le dessein d’exprimer émotions, sentiments et idées s’apparentant à tel ordre d’idées génératrices : pour d’Autres, souhaitons que, aussi spontanément que pour nous-même (qui ainsi exprimons la genèse même de notre manière-d’être pensante et poétique), les Idées à l’état naissant de modes sonores instrumentalement distingués en tons des timbres, immédiatement se produisent en les mots et les groupes de mots au sens idéographique précis, — mais où, phonétiquement et en rapport exact, de leurs valeurs idéales et suggérantes et augmentés de leurs appropriés compléments de lettres-consonnes, les sons essentiels des <hi rend="sc">Voyelles</hi> mènent les dominantes du <hi rend="sc">Rythme</hi>.</p>
+          <p>Encore qu’il soit de mon devoir d’avertir qu’on n’apprend pas à penser ainsi : car, ainsi, l’on ne pense point par des mots seulement en valeur d’idéogrammes que l’on voudrait, ensuite, ainsi que traduire en d’autres mots de musique-Verbale. Et il sied de ne point songer et s’attarder à notre vœu, — si l’organisme poétique ne perçoit et ne conçoit pas le monde, spontanément et en immanence, à travers des sons qui parlent. Et mon dire autant que compris, doit être senti…</p>
+          <p>Donc, les Mots d’expression idéographique d’idées dépendantes d’une des séries idéogéniques que nous avons généralement déterminées, devront en même temps être en valeurs de timbres-vocaux de la série phonétique correspondante, — ainsi que suit :</p>
+          <p/>
+          <p rend="center">les diverses voix instrumentales assourdies 
+<lb/>par m, n, gn (e) 
+<lb/>l’Orgue 
+<lb/>nuits mouvantes et pleines 
+<lb/>des sensations, sentiments et idées</p>
+          <p/>
+          <table>
+            <row>
+              <cell>oû,ou, oui (ll), 
+<lb/>iou, oui</cell>
+              <cell>ô, o, io, oi</cell>
+              <cell>a, a, ai (ll), ai</cell>
+              <cell>eû, en, ien eui (ll), eui</cell>
+            </row>
+            <row>
+              <cell>Bruns, 
+<lb/>noirs à roux</cell>
+              <cell>Rouges</cell>
+              <cell>Vermillons</cell>
+              <cell>Orangés à ors, 
+<lb/>verts</cell>
+            </row>
+            <row>
+              <cell>F, L, M, S</cell>
+              <cell>P, R, S</cell>
+              <cell>H, R, S, V</cell>
+              <cell>L, N, R, S, Z</cell>
+            </row>
+            <row>
+              <cell>les Flûtes 
+<lb/>longues, 
+<lb/>primitives</cell>
+              <cell>la 
+<lb/>série grave 
+<lb/>des Sax</cell>
+              <cell>les 
+<lb/>séries hautes 
+<lb/>des Sax</cell>
+              <cell>les 
+<lb/>Cors, Bassons 
+<lb/>et Hautbois</cell>
+            </row>
+            <row>
+              <cell>Monotonie,
+<lb/>doute,
+<lb/>simplesse.
+<lb/>— Instinct
+<lb/>d’être, 
+<lb/>de vivre.</cell>
+              <cell>Domination,
+<lb/>gloire.
+<lb/>— Instinct 
+<lb/>de prévaloir, 
+<lb/>d’instaurer.
+<lb/>— Vouloir. 
+<lb/>Action.</cell>
+              <cell>Tumultes,
+<lb/>gloires,
+<lb/>ovation.
+<lb/>— Instinct 
+<lb/>de détruire, 
+<lb/>de triompher. 
+<lb/>— Vouloir. 
+<lb/>Action.</cell>
+              <cell>
+                <p rend="center">Tendresse, 
+<lb/>amour et 
+<lb/>leurs doutes. 
+<lb/>— Instinct 
+<lb/>d’aimer 
+<lb/>altruiste, 
+<lb/>de multiplier. 
+<lb/>Méditation. 
+<lb/>Harmonie et 
+<lb/>ordre.</p>
+              </cell>
+            </row>
+          </table>
+          <p/>
+          <table>
+            <row>
+              <cell>û, a, iu, ui (ll), ai</cell>
+              <cell>e, è, é, ei, ei (ii)</cell>
+              <cell>ie, iè, ié, î, ï (ll), i, ii</cell>
+            </row>
+            <row>
+              <cell>Jaunes, ors, verts</cell>
+              <cell>Blancs à azurs pâles</cell>
+              <cell>Bleus, à azurs noirs</cell>
+            </row>
+            <row>
+              <cell>F, L, R, S, Z</cell>
+              <cell>D, GH, L, P, Q, R, T, X</cell>
+              <cell>LL, R, S, V, Z</cell>
+            </row>
+            <row>
+              <cell>les Trompettes, 
+<lb/>Clarinettes et 
+<lb/>petites Flûtes</cell>
+              <cell>les Violons par les 
+<lb/>pizzicati, Guitares et 
+<lb/>Harpe. Instruments 
+<lb/>percutants</cell>
+              <cell>les Basses, Alto-viole 
+<lb/>et Violons</cell>
+            </row>
+            <row>
+              <cell>Ingénuités, 
+<lb/>tendresses, heurs, 
+<lb/>rire.
+<lb/>— Instinct d’aimer 
+<lb/>égoïste. 
+<lb/>Vouloirs.</cell>
+              <cell>Sérénité,
+<lb/>désistement,
+<lb/>deuil.
+<lb/>— Instinct de 
+<lb/>vénérer. Passivité.
+<lb/>—  Méditation 
+<lb/>Ordre.</cell>
+              <cell>Volupté, 
+<lb/>amour, 
+<lb/>passion, 
+<lb/>douleur. 
+<lb/>— Instinct de 
+<lb/>se vouer. 
+<lb/>Méditation. 
+<lb/>— Vouloir passionné.</cell>
+            </row>
+          </table>
+        </div>
+        <div>
+          <head>II</head>
+          <p>Mais, poétiquement, à quelles mesures, lorsqu’on doit astreindre la quantité sonnante, diaprée, plastique et idéale, que sont les Mots ?</p>
+          <p/>
+          <p>Parlons en premier lieu, de la nature du Vers : le vers premier et résumant étant le vers de douze pieds. — Il en est ainsi pour lui, parce que, équivalent du vers-principe en toutes les métriques anciennes et modernes, lui aussi se ramène à une unité de mesure qui est le temps nécessaire à l’expiration : il tient sa nature métrique organiquement, des nécessités de l’appareil vocal.</p>
+          <p>Il détermine donc, de sa seule longueur numérique, un premier rythme, — général et identique à lui-même, qui nous donne une « unité de temps »…</p>
+          <p>Traditionnel ou Romantique, le vers dont usa la poétique, seulement de divisions à temps égaux marquées par le retour régulier de l’accent-tonique, seulement de quantités numériques de pieds et en dehors de toute attention aux valeurs quantitatives et qualitatives des sons, scinda la mesure générale en éléments équidistants : d’où l’on pensa posséder le <hi rend="sc">Rythme</hi>.</p>
+          <p>(On ne sut d’ailleurs voir ou sentir que la mesure de douze pieds est en vérité, prétendons-nous, une unité de durée en laquelle évoluent les autres durées.)</p>
+          <p>Les divisions du Vers aussi, valent organiquement, parce qu’en le temps de totale expiration l’émotion, le sentiment, l’idée, inscrivent des intervalles à deux directions : montante et descendante. Mais, on ne prit pas garde que deux de ses éléments s’opposent à d’égales divisions, à intervalles équidistants que sont les césures : d’une part, de la pensée qui le crée en dehors de tout empirisme et pré-conception, le propre Rythme, — et, d’autre part, la propriété de hauteur, d’intensité et de longueur des sons ou timbres-vocaux, qui, devant être adéquats à l’Idée, sont partie intégrante de sa mesure, et, par partielles et inégales durées déterminent eux-mêmes la place des temps marqués, au long de l’expiration totale.</p>
+          <p>(Nous ne noterons que pour mémoire des assertions vraiment trop puériles que : la mesure du vers est le résultat d’une entente entre la raison, qui organise le mouvement de la parole, et notre pouvoir de sensation qui limite la dite organisation, pour la mieux sentir !)</p>
+          <p>Il en résulte que n’est qu’empirique et sans valeur, le sentiment simpliste qu’on eut du <hi rend="sc">rythme</hi> : sentiment du retour régulier et équidistant d’une division numérique dans un mouvement quelconque…</p>
+          <p/>
+          <p>Or, selon le vers de douze pieds se mesure « l’instrumentation-Verbale », — quand, premièrement et numériquement, la loi en est acquise, que toutes ses quantités partielles sont régies par les valeurs : deux et trois.</p>
+          <p>Alors que, multipliées, elles constituent les <hi rend="sc">Eurythmies</hi>.</p>
+          <p>Et, additionnées, les <hi rend="sc">modes-dissonnants</hi>.</p>
+          <p/>
+          <p>Selon l’idée de métrique d’hier, l’on dirait que le plus de divisions du vers produira le plus de rapidité du mouvement. Or, il n’en est pas ainsi : pareilles divisions qui n’ont de valeur que quantitative, sont pour moi de seuls signes numéraux qui ne prennent vie, en valeurs des Idées et des timbres idéalement instrumentaux qu’elles ont élus, qu’en devenant l’évoluant dessin du <hi rend="sc">Rythme</hi>…</p>
+          <p>Qu’entendons-nous par <hi rend="sc">Rythme</hi> ?</p>
+          <p>Nous rappellerons que nous avons dit de la Matière en devenir : « qu’elle se phénoménise en Temps dans l’Espace ainsi pluri-numéralement délimité. » Dire où est incluse l’idée du <hi rend="sc">Rythme</hi>, — et qu’il est universel, immanent à la Matière qui devient.</p>
+          <p>Tenant pour simpliste et illogique, le voir naître d’une égalité numérique de pieds groupés et du retour équidistant d’accents avertisseurs de l’ouïe, — nous l’exprimerons, en généralité : le mouvement de la Pensée consciente et représentative des naturelles et harmonieuses Forces…</p>
+          <p/>
+          <p>Nous le verrons, en le vers apporté par l’instrumentation-Verbale, produit des mouvements de l’Idée créant soi-même son expression en mots dont le sens idéographique et le sens phonétique sont en rapport intime : sens phonétique relevant de la valeur des timbres-vocaux, auxquels s’approprient complémentairement les lettres-consonnes.</p>
+          <p>Lesquels timbres de l’instrumentation-Verbale, — alors que de tels ou tels l’intensité et la hauteur, ou les lenteurs d’harmoniques, viennent en point d’orgue sur telles ou telles divisions du vers numériquement multiples des valeurs génératrices : deux et trois (donc à intervalles musicaux, à double direction, et non plus césures), — en dessin d’ondes des Idées, accentuent l’évolution du <hi rend="sc">rythme</hi>.</p>
+          <p>Il évolue par périodes non plus équidistantes, en dehors de la Strophe empirique, en dehors de mesure numérique préconçue, en dehors des nécessités de l’accent tonique qu’il peut déplacer au mieux d’harmonie, — cursivement, sinon que demeure la mesure originelle du vers Alexandrin. D’où, il apparaît vraiment une série mouvementée d’ondes de durées régies par l’Idée, déterminées par la valeur phonétique de toutes lettres, mais essentiellement par la valeur des <hi rend="sc">Voyelles</hi>…</p>
+          <p>Ainsi pouvons-nous voir que le <hi rend="sc">Rythme</hi>, — désormais devient le mouvement même de la Pensée consciente et représentative des naturelles Forces. Le mouvement d’ondes universelles en une Œuvre poétique, une et harmonieuse, qui, avons-nous dit encore, doit participer des ondes du Tout, — quand toute œuvre poétique n’a pour nous de valeur qu’autant qu’elle se prolonge en suggestion des lois qui ordonnent et unissent l’Être-total du monde…</p>
+          <ab type="ornament">***</ab>
+          <p>Il paraît inutile d’insister sur la nécessité naturelle de suppression de la Strophe. Lorsqu’en durées évoluantes parmi la durée de l’Alexandrin, l’Idée évolue, la peut-on voir un instant s’astreindre à des retours périodiques de rimes et d’intervalles rigidement déterminés ? Incohérence étrange, vraiment : la pensée déroule ses phases et le mode en lequel elle agit demeurerait constant !</p>
+          <p>Non. Musicien de la masse des mots-instruments, des sons qui parlent, nous ne savons » selon les thèmes ou grands leit-motiv de la Pensée, que leur évolution à travers la diversité par eux-mêmes mesurée, et, mis à leurs plans, l’évolution de thèmes secondaires : précipitant en une Action, en un drame multiplement et pourtant unanimement sonnant, non seulement toutes périodes, mais tous poèmes du livre, tous livres de l’Œuvre.</p>
+          <p>Œuvre une et complexe, en laquelle nous les retrouverons, en rappels nets ou insidieux, multipliés, entrenués et évolués, se mêlant et se perdant, et à nouveau qui passent, dominent et s’évadent, orientés et gouvernés par l’Idée en progression. Durant que le vers alexandrin en la mesure de qui se meuvent tels particuliers <hi rend="sc">rythmes</hi>, — persiste en unité de durée, en <hi rend="sc">rythme-synthèse</hi>.</p>
+          <p>Et là nos timbres, ou en leur pure valeur ou les uns sur les autres agissant à donner toutes nuances de tonalités, pourront : ou soutenir monotonement lente ou rapide, une phrase, en se répétant en même son à mêmes hauteur et intensité. Ou, de passages réitérés, intervertis, harmoniquement ou inharmoniquement distants, de tous leurs points sonnants, — à toutes hauteurs et à tous mouvements de succession, en étendue et en directions diverses, ils exprimeront un idéal ondulement de la pensée et de la parole qui participera des ondes de l’univers : du valonnement des horizons et de l’ondulation des mers et du vent, aux pulsations des éphémères et de notre sang et de notre âme !</p>
+          <p>(Plastiquement, pour que se sentent davantage des directions de pensée et de musique ascendantes ou déclinantes, nous irons à marquer l’intervalle en cassure du vers, soudainement.)…</p>
+          <p>Et ainsi s’authentique une poésie qu’on peut dire imitative, d’imiter de l’Univers, par la parole, la musique, la plastique et l’art pictural, — les <hi rend="sc">rythmes</hi>.</p>
+          <ab type="ornament">***</ab>
+          <p>Dirons-nous la Rime. Non plus sonorité de hasard en un ordre préconçu et illogique, mais sonnant à l’unité-de-durée que nous avons montrée la mesure totale du Vers. Mais aussi, qui peut n’exister pas, s’il est utile de passer sous silence la dite mesure, — ou, tout à l’heure qui en insistant marquera des temps, de toute l’intensité du son se répondant en puissances de suggestion. Encore, dans l’intérieur du vers les sons des rimes environnantes seront rappelés, leurs mêmes sons ou atténués en Assonnances, en rapports d’idées.</p>
+          <p>Parlerons-nous de répétitions de sons, pareils ou à divers degrés de hauteur et d’étendue, pour créer ainsi qu’une atmosphère hallucinée. Et parlerons-nous de l’Allitération. Brutale s’il est nécessaire, mais savante continuement : trouvant entre les timbres-vocaux la nuance transitoire, et, pour les consonnes, les remplaçant entre elles, opérant les permutations phoniques de leurs degrés, — l’Allitération, ainsi, devient en elle-même telle qu’une adventice série instrumentale…</p>
+          <p>Pour terminer, sans rappeler sa particularité de couleur et de timbre, il sied dire de « l’e muet » quel précieux élément instrumental il est, — qui peut toutes nuances selon sa place, depuis donner une valeur pleine, ou éteindre et lui-même et presque les sonorités qui l’entourent.</p>
+          <p>D’aucuns ignorent-ils assez le sens phonétique de notre langue dont il est l’une des caractéristiques, qui n’ont même la sensation d’une entreprise attentatoire à son essence, — quand, dans le vers, sans l’élider, ils ne tiennent ni pour élément numérique, ni pour élément musical, l’« e muet ». Leur prononciation le supprime, encore qu’ils osent parler de musique du Vers !</p>
+          <p>Nous prétendons à son emploi au même titre que de tout autre timbre-vocal. Nous l’élidons si nous devons le réduire à sa plus simple expression, mais d’autre part lui donnons toutes ses tonalités délicates, si, au singulier ou au pluriel, il se trouve, précédé d’une <hi rend="sc">voyelle</hi>, — terminer un mot que va suivre une lettre-consonne…</p>
+          <p>Il sied de n’éteindre de lueurs de la diaprure phonétique, et nulle vague douce de la mer entière des durées harmonieuses. Et, que s’en souvienne la voix savante, savante instrumentalement du Lecteur, — qui, lui qui sait vraiment lire, tout haut et en toutes les valeurs sonores et idéales que nous aurons voulues, interprétera l’Œuvre.</p>
+        </div>
+        <div>
+          <head>III</head>
+          <p>Nous avons dit à quelles mesures qui dépendent des mesures universelles et de nos vitalités mêmes nous astreignons, aux vers, la quantité sonnante, diaprée, plastique et idéale, que sont les Mots. Et nous résumons.</p>
+          <p>En même temps, et en production d’universalité :</p>
+          <p>Qui est Parole, et donne à la parole son vrai sens qui la veut musique de mots en lui rapportant son naturel et primordial élément de phonalité,</p>
+          <p>Qui est graphique et Plastique, par la détermination morphologique du <hi rend="sc">Rythme</hi>, — par la science des durées dans le vers et Tordre prémédité du poème, du livre et de l’Œuvre,</p>
+          <p>Qui est d’art Pictural, par le moins de hasard lumineux donné naturellement aux mots, selon couleurs des timbres-vocaux,</p>
+          <p>Qui est Musique :</p>
+          <p>Qui est manière-d’art en laquelle les manières-d’art s’unissent en <hi rend="sc">Synthèse</hi>, — de même que les sensations, indépendantes et localisées, entre-muées sous l’empire de la pensée re-créatrice agissent l’une sur l’autre en mille nuances, et ainsi se multiplient en plus aiguë puissance d’apporter de nouveaux et plus rares matériaux à notre entendement :</p>
+          <p>Et qui est mouvement adéquat à la Matière pensante :</p>
+          <p>Est « l’instrumentation-Verbale », dont, de sens et d’appellation, nous douons l’Art poétique.</p>
+        </div>
+      </div>
+      <div>
+        <head>Avant l’Œuvre</head>
+        <p>Or, à notre passé poétique dont allèrent leur devoir les Poètes, de qui l’âme d’Occident n’avait entendu le grand sens secret aux Livres des peuples sur qui le soleil se lève plus tôt, et qui n’entendirent pas qu’en avère les intuitions prodigieuses notre moderne Science : notre gratitude soit, tenter le nouveau devoir dont nous sommes instruit.</p>
+        <p>Mon esprit est en exaltation et en humilité, lorsqu’en la nuit concordante et lumineuse, d’éternité et pour éternité et dans l’illimité ! de l’idéal dessin d’ellipses nous tracent le devoir du plus-de-Volonté, les impavides et douces Forces…</p>
+        <p>Et, — laissez-moi rêver ! qui sait si le démon qui ne peut pas mourir, de Races qui ont été et qui redeviendront ! ne hanta pas de Beautés impossibles à réaliser mon cerveau qui tout de suite, ne put pas séparer en ses conceptions le geste des hommes des nocturnes et stellaires expansions.</p>
+        <p>Puisqu’ainsi ma pensée osa couver l’unité en sourdeurs de cosmos, d’un Poème ému ainsi que de l’amour des mondes gravitants et des semences d’atomes, — et tel que se créèrent les Poèmes, pareils aux pans de roches sculptés et peints, des très anciens empires : qui, d’abscons et de subtils morphismes monstrueux de Vie, et de Signes lourds et sacrés, surent en eux enclore le Dogme et l’Éthique, et l’Émotion et la Conscience…</p>
+      </div>
+    </body>
+  </text>
+</TEI>
