@@ -14,10 +14,10 @@
           <name>Éric Thiébaud</name>
           <resp>OCR</resp>
         </respStmt>
-<respStmt>
-  <name>François Bompaire</name>
-  <resp>Stylage sémantique</resp>
-</respStmt>
+        <respStmt>
+          <name>François Bompaire</name>
+          <resp>Stylage sémantique</resp>
+        </respStmt>
         <respStmt>
           <name>Stella Louis</name>
           <resp>Numérisation et encodage TEI</resp>
@@ -33,7 +33,7 @@
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/beaunier_idees-et-hommes-02.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
             <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
             <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
@@ -50,16 +50,18 @@
         <date when="1915"/>
       </creation>
       <langUsage>
-        <language ident="fre"/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="introduction"><head/><p><pb n="p. I"/><hi rend="i">Ce nouveau recueil d’essais porte la marque du temps où il fut composé. À ce titre, il a peut-être la valeur d’un témoignage. Les premiers chapitres sont de plusieurs mois antérieurs à la guerre ; les autres, contemporains de la guerre. Je les ai encadrés entre deux conférences, l’une donnée au mois de janvier 1914 : et je crois qu’on y sentira le malaise dont a souffert la plus malheureuse génération française, née à la veille de la défaite et qui attendit la revanche trop longtemps pour y être encore jeune ; la seconde, donnée au mois de mars 1915 : et elle indique les espérances qui s’épanouirent alors. Ainsi, ce livre va d’une mélancolie aux promesses de sa consolation.</hi> </p></div>
+      <div type="introduction">
+        <p><pb n="p. I"/><hi rend="i">Ce nouveau recueil d’essais porte la marque du temps où il fut composé. À ce titre, il a peut-être la valeur d’un témoignage. Les premiers chapitres sont de plusieurs mois antérieurs à la guerre ; les autres, contemporains de la guerre. Je les ai encadrés entre deux conférences, l’une donnée au mois de janvier 1914 : et je crois qu’on y sentira le malaise dont a souffert la plus malheureuse génération française, née à la veille de la défaite et qui attendit la revanche trop longtemps pour y être encore jeune ; la seconde, donnée au mois de mars 1915 : et elle indique les espérances qui s’épanouirent alors. Ainsi, ce livre va d’une mélancolie aux promesses de sa consolation.</hi> </p>
+      </div>
       <div>
         <head>Après la guerre<note resp="author">II s’agit de l’autre guerre, — la Guerre, comme nous disions ; — cette conférence a été donnée, le 16 janvier 1914, sous les auspices de la Société des Conférences.</note>.
-<lb/>Mes souvenirs</head>
+          <lb/>Mes souvenirs</head>
         <dateline>[<docDate when="1914-01-16">16 janvier 1914</docDate>.]</dateline>
         <p><pb n="1"/>Au moment de raconter mes souvenirs, je sens que je me suis lancé dans une aventure un peu effrontée. Mes souvenirs, modestes, ont deux inconvénients, s’ils n’intéressent que moi et me touchent excessivement. Mais nos souvenirs ne sont pas uniquement nous ; plutôt ils sont les êtres que nous aimions, les êtres, les idées, les objets. Objets lointains, idées mortes pour nous et êtres qui ont eu deux façons de mourir, soit qu’on leur ait clos les paupières, soit que nous ayons cessé de les aimer. L’homme le plus heureux, tout son passé est la vie d’un regret : ce mot veut dire le deuil et aussi le remords. Il n’y a de gaieté qu’à être actif ; et nous n’avons d’activité que par notre imagination. Ainsi nous enchante l’avenir, où nous sommes les maîtres d’un bel arrangement. À l’égard du passé, nous sommes immobiles et nous nous attristons.</p>
         <p><pb n="2"/>Mais enfin, voici, non pas mes souvenirs, ceux d’un garçon de mon âge, et dont le nom n’importe guère. Ses souvenirs et les miens se confondent ; pour lui prêter mes sentiments, à peine me faut-il un peu d’hypocrisie et de décente habileté. En disant ce que nous étions, j’apporte les aveux, l’orgueil meurtri, la rancune peut-être et l’espoir trompé de nos pareils et, je n’ose dire, de toute une génération française ; mais nous avons été plusieurs, et beaucoup (si je ne me trompe) à tenter la vie semblablement.</p>
