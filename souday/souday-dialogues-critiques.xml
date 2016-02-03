@@ -1,0 +1,2208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+      schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dialogues critiques</title>
+        <author key="Souday, Paul (1869-1929)">Paul Souday</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Lucie Mollier</name>
+          <resp>OCR et Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/ critique/souday_dialogues-critiques</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/souday_dialogues-critiques.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/souday_dialogues-critiques.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/souday_dialogues-critiques.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/souday_dialogues-critiques.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Paul Souday</author>, <title>Dialogues critiques</title>, <pubPlace>Paris</pubPlace>, <publisher>Edition des Cahiers libres</publisher>, <date>1929</date>, 135 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1412637.r=">Gallica</ref>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1929"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Autour de l’Académie</head>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>La statistique démontre qu’il meurt deux académiciens et demi par an.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est une belle science. Mais nous n’avons perdu cette année que Boylesve et Richepin.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il y a donc un demi-académicien de trop, et qui vit en fraude.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Très bien calculé, mais je crois qu’il y en a beaucoup plus que cela qui sont de trop à l’Académie, du moins si le talent…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Toujours dans le bleu ! Il ne s’agit pas de cela.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>De quoi s’agit-il ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>L’Académie est un salon, c’est-à-dire un endroit où il est de mauvais goût de se faire remarquer.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les meilleurs académiciens sont donc ceux dont on ne se rappelle jamais le nom ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Parfaitement ! De même que le véritable homme du monde est celui qui n’a jamais d’opinion sur rien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant Victor Hugo, Lamartine, Renan, Taine…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>… En furent, c’est entendu. Quelques hommes de lettres y sont tolérés. Mais ils doivent promettre d’être bien sages.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il me semble qu’Anatole France ne se gêna pas.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Aussi lui fit-on si grise mine qu’il ne reparut plus pendant des années.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il revint un jour.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Afin de voter pour Barthou. Barthou représentait quelque chose à la Chambre et dans les Basses-Pyrénées.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pourtant Léon Bérard…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il était du même département et aurait fait double emploi. Marcel Prévost vous a expliqué que l’Académie était une carte d’échantillons des diverses élites sociales.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Est-ce que cela donne une chance à Herriot ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Sans doute. L’obstacle, c’est qu’il n’est que du Rhône. Lorrain, son élection serait faite. Tout dépendra de ce qu’on pense à l’Académie de son avenir politique.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et de son livre sur la <hi rend="i">Forêt normande</hi> ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est un bon livre. Il pourrait lui nuire. Herriot a un meilleur atout en main. Il s’occupe d’améliorer le régime de l’impôt sur le revenu pour les écrivains.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Qu’importe, puisque vous prétendez que la plupart des académiciens n’écrivent pas ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>m. Paul</speaker>
+          <p>Ils n’en tiennent que davantage à paraître intéressés dans la question.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Quelle infamie que cet impôt sur le revenu, qui frappe durement le travail, et le plus sacré de tous ! qui obligerait Banville à faire des chiffres comme Rothschild ! qui réduit les poètes, les penseurs et les artistes à tenir une comptabilité comme des publicains.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pour une fois, je suis de votre avis. Mais vous n’y changerez rien. Les politiciens n’ont cure des intellectuels, ou, quand ils y pensent, ils les détestent.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je m’effraye de pareils propos dans la bouche d’un esprit exact, dirait M. Prudhomme.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il faut voir clair dans ce qui est. N’oublions pas, d’ailleurs, que beaucoup d’intellectuels sont dispensés d’additions et d’impôt global ou cédulaire, parce qu’ils gagnent moins que des terrassiers.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Est-ce juste ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>S’il y a des passions, la justice en est une et des plus déréglées, disait Moréas.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je comprends pourquoi ce qui se passe à l’Académie ne vous indigne point.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je tâche de rester calme, et je me contente d’en rire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ah ! vous voyez bien ! Au fond, c’est la même chose.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Peut-être. Mais c’est plus hygiénique. Et la comédie académique est assurément une des plus drôles.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous ne bouillez pas d’une sainte colère en voyant Louis Bertrand rabaisser son illustre prédécesseur Barrès en pleine Académie, dans son discours de réception, et ensuite dans les journaux ? Vous admirez pourtant Barrès !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Assurément. Barres est un grand écrivain. Mais je trouve que c’est bien fait.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Comment cela ? Je voudrais bien savoir quelle excuse vous trouvez à Bertrand ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Aucune. Je regrette même qu’on n’applique pas aux fauteuils académiques l’article du Code qui permet de déposséder des héritiers pour cause d’ingratitude notoire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ah ! voilà une idée généreuse !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne cherche qu’à être vrai. C’est pourquoi sans défendre Bertrand le moins du monde, je trouve le cas plaisant. Rappelez-vous que Barrès a toujours fait toutes les concessions aux gens de droite.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On n’est jamais trahi que par les siens.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, Don Quichotte, quoique vous parliez maintenant de Sancho. Un homme de gauche, tant soit peu lettré, aurait infiniment mieux traité Barrès. La droite a voulu un homme à elle. Elle a cru que Bertrand lui offrait toutes garanties. Bourget, qui s’était honoré en patronnant Barrès à ses débuts et en restant son fidèle ami, a cru devoir servir de parrain académique à Bertrand. Je dis que c’est bien fait pour Bourget et son parti.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ils sont tombés sur un fanatique, un intégriste…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ils devaient le connaître, ou s’informer avant de lui donner leurs voix. Ils avaient bien exigé de Challemel-Lacour l’engagement précis d’éreinter Renan, à qui ils l’ont infligé comme successeur.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Oh ! celui-là… Avez-vous lu la Correspondance de Renan, qui vient de paraître ? Sur la demande de Taine, leur ami commun, Renan a eu la bonté de recommander en 1860 Challemel-Lacour à Michel Amari, ministre de l’Instruction publique de Victor Emmanuel II, pour une chaire de littérature française à Turin. En voilà un qui méritait de tomber sous la clause d’ingratitude !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’était un politicien de carrière. Il aurait aussi bien exécuté Dupanloup, si son fauteuil avait été vacant et que le succès eût dépendu de la gauche.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On prenait Louis Bertrand pour un homme de lettres !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il en avait peut-être l’habit, et non point l’âme. L’homme de lettres est celui pour qui la littérature passe avant tout.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Certes ! Mais vous vous emballez aussi ! Je vous en félicite.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Nullement. Je donne des définitions précises. Aussi y a-t-il à l’Académie encore moins de gens de lettres qu’on ne croit. Certains qui méritaient ce titre lorsqu’ils y sont entrés par indulgence spéciale ne tardent pas à prendre le ton de la maison.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les héros sont rares.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il me plaît que ce soit vous qui le disiez. Il n’y en a pas beaucoup non plus parmi les candidats. C’est parmi ces malheureux que la démoralisation est effroyable ; ils doivent s’extasier sur les plus insignifiants ouvrages, souscrire aux plus ridicules préjugés, renier leurs amis, trahir leurs convictions. On est tenté d’envier ceux qui n’en sont pas.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre </speaker>
+          <p>À votre tour, modérez-vous !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est ce que je fais. Cette misérable Académie fausse toute la situation littéraire. Elle assure un rang dans l’opinion publique à des médiocres, parce qu’ils s’habillent en perroquet. Elle leur recrute des masses de flagorneurs et d’imitateurs. Elle accrédite les théories les plus creuses de l’esthétique la plus conventionnelle. Elle exerce une influence néfaste. On devrait la supprimer.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Un de mes amis, député socialiste, m’a confié qu’aucun membre de la plus extrême gauche n’oserait proposer cette suppression, par crainte d’être qualifié de philistin et d’ennemi des lettres.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est au nom de l’intérêt des lettres qu’il faudrait la réclamer.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je crois qu’il serait préférable d’obtenir des réformes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et le moyen ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>L’Académie n’est pas insensible à l’opinion des lettrés, lorsque ceux-ci la manifestent nettement. Elle a élu Porto-Riche et Paul Valéry, sans intrigue ni compromissions.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, chez ceux-là, le caractère est égal au talent. Mais ce sont des exceptions astucieuses. Pour maintenir son prestige, dont bénéficieront ensuite des douzaines de nullités. ou simplement d’honnêtes gens qui n’ont rien à voir avec la littérature, l’Académie a besoin de quelques grands écrivains, pareils à ces articles-réclames que les grands magasins vendent à perte pour attirer la clientèle. Les vrais maîtres devraient tous faire grève ; comme Michelet, comme Flaubert, qui, en apprenant la candidature de son ami Renan s’écria : « Quelle modestie ! »</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il faut croire que les journalistes sont modestes. Que pensez-vous de la campagne pour l’admission d’un journaliste à l’Académie ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Cela est bien différent. Mais pourquoi pas ? Puisque l’armée, le clergé, la noblesse, le barreau, le professorat, le Parlement sont représentés, le journalisme n’a pas moins de droits à l’être aussi. Il l’a été jadis avec John Lemoinne, Édouard Hervé… Après tout, c’est parfois un genre littéraire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous avez sans doute reçu le questionnaire de Roger Giron, qui ouvre une enquête sur ce sujet dans <hi rend="i">L’Avenir.</hi> Qui choisiriez-vous comme candidat de la presse ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Clément Vautel.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Quoi ? Le président de l’Anti-Stendhal Club, l’ennemi de Baudelaire, de Mallarmé, de Valéry ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vautel est un excellent journaliste, qui tous les jours trouve une idée d’article et amuse un million de lecteurs. Si vous croyez que c’est facile !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais quels jugements littéraires !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ce sont des jugements fort académiques, et qui pourraient le conduire au secrétariat perpétuel. M. René Doumic a purement et simplement exclu de son <hi rend="i">Manuel de Littérature</hi> le nom même de Baudelaire. Il a, lui aussi, vilipendé Stendhal, traitant <hi rend="i">Le Rouge et le Noir</hi> de « roman baroque », rangeant Lucien Leuwen dans « la littérature de cabanon ». Brunetière jugeait <hi rend="i">La Chartreuse de Parme</hi> illisible. Cela ne l’a pas empêché d’être de l’Académie et directeur de la <hi rend="i">Revue des Deux-Mondes</hi>. Peut-être cela l’y a-t-il aidé. Vautel serait un très bon candidat. Et l’on peut espérer qu’il ne désignerait pas publiquement M. Victor Giraud comme le seul critique de notre temps.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous avez des détours imprévus. Approuveriez-vous aussi, par hasard, l’élection du duc de La Force ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais certainement. C’est un duc. Il en fallait un.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je n’en vois pas la nécessité.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous n’êtes pas un réaliste. Sous l’ancien régime, l’Académie était l’unique endroit du royaume où un poète crotté fût l’égal d’un duc et pair ou même d’un prince du sang. La profession en était socialement relevée, En reconnaissance du service que les ducs rendaient alors aux gens de lettres, ceux-ci doivent bien aujourd’hui à ceux-là quelques politesses. Même à notre époque soi-disant démocratique, la situation n’est peut-être pas aussi complètement retournée que vous semblez le croire. Pour vous, un duc est un homme comme un autre, et il n’y a rien au-dessus d’un éminent écrivain. Vous n’estimez que les valeurs intellectuelles. Vous avez raison, mais vous êtes un rêveur. Dînez-vous quelquefois en ville ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Jamais.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous verriez des auteurs dont vous admirez l’œuvre et l’esprit, relégués aux bouts de table — ce qui est plus agréable, d’ailleurs parce qu’il y a de jeunes femmes, mais ce qui vous choquerait, sans doute — tandis que des gens dont vous ne faites aucun cas et qui souvent sont plus jeunes, mais qui ont des titres nobiliaires, du galon ou de l’argent, trônent aux places d’honneur. Pourtant à moins qu’un des convives ne soit une altesse ou un ambassadeur, l’homme de lettres s’assied à droite de la maîtresse de maison, s’il est académicien. Vous voyez bien que l’Académie sert à quelque chose.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et vous vouliez sa mort il y a cinq minutes !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est que je ne la considérais pas du même point de vue.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous seriez capable de vous y présenter un jour !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Qui peut savoir ?</p>
+        </sp>
+      </div>
+      <div>
+        <head>La Guerre des Comités</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Encore une guerre ! Et, qui pis est, une guerre civile !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Est-ce pis ? Anatole France disait que les guerres civiles ont au moins cet avantage qu’on sait pourquoi l’on se bat.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Voilà bien de vos paradoxes d’homme positif. Je vous parle de la guerre des comités.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p><quote><hi rend="i">Plus quam civilia bella</hi> !</quote> La bataille n’est plus seulement entre concitoyens, mais entre confrères.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Tous les hommes sont frères et citoyens du monde.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Si vous voulez, mais jusqu’à présent cela n’a pas eu beaucoup d’importance. Cela n’en aura peut-être jamais, puisqu’ils se battent avec d’autant plus d’acharnement qu’ils se connaissent mieux Il n’y a, provisoirement, qu’avec les habitants des autres planètes qu’ils demeurent en paix.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Croyez-vous qu’il y ait des hommes de lettres dans la planète Mars ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>S’il y en a, les occasions de se chamailler ne doivent pas leur manquer.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Peut -être discutent-ils noblement sur de grandes idées, par exemple sur les moyens de communiquer avec la Terre.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Le Ciel les en préserve ! En tout cas, je leur souhaite de n’avoir pas de comités,</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Qu’est-ce que ces pauvres comités vous ont fait ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On me demande parfois : que vous a fait cet auteur ? Il m’a fait son livre. La haine d’un sot livre et d’un méchant comité nous est enseignée par Boileau.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais enfin quels crimes ces comités ont-ils commis ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Des masses ! Ils sont perdus de crimes, et même de dettes, comme les conspirateurs flétris par l’empereur Auguste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je ne vois pas l’analogie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous ne voyez jamais rien. Excellente condition pour être optimiste ! Suivez-vous les élections à l’Académie ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’en ai peut-être oublié quelques-unes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est probable. Ne vous rappelez-vous déjà plus ce nouvel académicien qui n’avait pour titres que d’avoir présidé dix ans un comité ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On peut bien être élu comme président, puisque tant d’autres l’ont été comme cardinaux ou comme ducs.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais les ducs et les cardinaux sont élus comme tels. Le président d’un comité littéraire prend à l’Académie figure d’homme de lettres. Le directeur, dans sa réponse, parlera tranquillement de ses ouvrages, comme s’ils existaient, de son talent, comme s’il en avait, et ira au besoin jusqu’à le comparer à Balzac.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pourquoi pas à Homère ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je n’invente pas. C’est authentique. Tout le monde a pu l’entendre, ou le lire, puisqu’on publie les discours académiques <hi rend="i">in extenso</hi> dans plusieurs quotidiens.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je ne les lis pas toujours.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous avez tort. C’est instructif, quoique parfois d’une façon que les orateurs n’avaient pas ¡prévue. Cette fois-là, le scandale était au comble, et l’on raconte que des académiciens de la minorité, qui avaient voté pour l’homme de talent battu par le comitard, étaient les premiers à le dire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je suis obligé d’en convenir aussi.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est heureux. Maintenant, saisissez-vous les funestes conséquences d’un pareil précédent ? Il a tourné les têtes de certains écrivains médiocres, qui avec raison ne comptent pas sur leur mérite et leur réputation pour pénétrer à l’Académie, mais restent dans les règles de la modestie en ne se jugeant pas inférieurs à ce devancier, et qui peuvent s’y guinder tout aussi bien que lui par le comitardisme ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est plus facile.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne sais pas. Becque disait d’un confrère qu’il avait franchi des distances incalculables à plat ventre. C’est une posture bien incommode.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Tout dépend des caractères.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mettons que cette façon de faire son chemin ne répond guère à la dignité et à l’intérêt des lettres. Le monde est livré à l’intrigue et à la platitude. Dans la plupart des cas, cela est bien différent. Un intrigant est peut-être même plus apte qu’un autre à occuper efficacement ces postes d’utilité pratique. En littérature, l’enjeu a plus de prix, et il importe que les valeurs vraies, qui valent en soi et par soi, ne se laissent pas éclipser par les contrefaçons. Peu me chaut qui est ministre ou préfet, mais j’enrage lorsqu’un écrivain éminent est primé par un arriviste sans style ni orthographe.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il y va des destinées de l’esprit.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Les grands mots sont inutiles, mais le fond de l’affaire est très sérieux.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>A-t-on vu poindre d’autres candidatures du même genre ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Elles se préparent de loin. En attendant le moment favorable, il faut s’agiter, se mettre en avant et en vedette, rechercher les présidences décoratives…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pour celle de la Société des Gens de Lettres on a coupé court en y portant un académicien déjà pourvu.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Précaution opportune ! Au moins celui-là, qui d’ailleurs a composé de beaux romans, ne sera pas soupçonné de travailler pour l’habit vert. Mais sans y viser directement et à brève échéance, des comitards d’un autre lieu ont bien imprudemment provoqué ce que vous appelez une guerre.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je suis pacifiste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Moi aussi, mais sous réserve de ne pas sacrifier le bon droit. Le Comité de l’Association de la critique outrepasse le sien en décidant de publier chaque mois des « Sélections » d’ouvrages nouveaux.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cela me paraît bien innocent.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ce comité n’est pas chargé de cela, mais d’administrer une caisse de secours et pensions. Sur vingt et un membres, dont dix-huit élus et trois recrutés par cooptation, avec voix délibérative, quatre ou cinq doivent à leurs écrits une légitime autorité. La plupart des autres sont d’honnêtes gens insignifiants et inconnus. Plusieurs ne sont même pas critiques en exercice et n’ont point de collaboration active dans un journal ou une revue. Empiètement intolérable puisqu’ils laissent croire au public que leurs « sélections » sont approuvées par l’Association elle-même, voire par ceux de leurs confrères qui n’en font point partie : car tout le monde n’a pas l’Annuaire sous les yeux. D’ailleurs, il n’est pas tenu à jour, et tel y est encore inscrit qui déclare avoir donné sa démission. Ce n’est même pas le comité tout entier qui opère. Plusieurs de ses membres n’avaient pas été consultés. Beaucoup d’entre eux ne vont jamais aux séances. Tout est mené par une dictature occulte. Les jugements ne sont pas plus motivés que correctement signés. Mais le dictateur et ses quelques séides veulent ainsi se constituer une influence, exercer une action, se faire solliciter par les éditeurs et les auteurs, dont certains sont puissants, bref se pousser dans le monde, eux écrivains de profession, ou soi-disant tels, sans se donner le mal d’écrire une page.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Oui, oui, oui… Je ne les défends plus. Mais que de violence ! Et est-ce là un crime ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Abus de confiance, tromperie sur la marchandise, usurpation de fonctions, attentat contre l’esprit dont les destinées semblaient tant vous intéresser il y a cinq minutes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Diable d’homme ! Vous devez vous faire détester.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il se peut. J’ai entendu parler d’égoïsme, d’infatuation et de prétention au monopole. C’est assez gai, lorsqu’on s’insurge contre celui que voudrait s’adjuger un Conseil qui ne serait même pas des Dix. Car ils ont beau dire que chaque critique resterait libre — et je n’aperçois pas comment ils pourraient l’empêcher — le public ne s’en rapporterait qu’aux « sélections » des comitards, s’il les croyait autorisées par l’Association en corps. Les indépendants ne passeraient plus que pour de bizarres hérétiques à éviter. Il s’agit donc bien d’une conjuration contre la liberté et d’une entreprise de tyrannie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Catilina est à nos portes… Mais vous parliez de dettes ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est que toutes ces manigances comitardes reposent sur l’échange de bons procédés, et n’ont pas au fond d’autre objet. On ne se fabrique une espèce de pouvoir, artificiel dans ses origines mais réel en fait, que pour monnayer ses faveurs et placer des services à gros intérêts. Quand il s’agit de littérature, chose sacrée, c’est de la simonie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Croyez-vous que l’indépendance ne s’accompagne pas aussi de quelques défauts ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Peut-être, mais elle permet de respecter ce qui en vaut la peine et de ne rien devoir à personne.</p>
+        </sp>
+      </div>
+      <div>
+        <head>Sur un mot de Thibaudet</head>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous lisez le <hi rend="i">Manuscrit Autographe</hi> ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Naturellement, comme tout le monde.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous avez vu cette piquante lettre d’Albert Thibaudet, qui reproche à Paul Souday, non pas d’aimer Paul Valéry — il l’aime aussi, il le dit et il l’a prouvé — mais de l’aimer contre quelqu’un.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Oh ! il ne lui en fait pas un reproche. Il le constate, et peu s’en faut même qu’il ne lui en fasse compliment.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mon cher idéaliste, vous ne comprenez pas l’ironie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mon cher positiviste, vous en voyez partout.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais alors elle s’accentue davantage. Il s’accuse d’apporter dans la critique un tempérament féminin. Avec cette vigueur de pensée ! Et l’avez-vous aperçu ? Physiquement, il a l’air d’un robuste vigneron, grand chasseur et franc buveur, d’un vrai Bourguignon salé. Ses lectrices n’en reviendront pas, qui, souvent, perdent pied dans les subtils enchaînements que lui fournit sans relâche sa faculté d’invention dialectique. On conçoit malaisément une manière d’écrire plus opposée à celle de nos plus distinguées femmes auteurs, toutes plongées dans l’impressionnisme, le sensible et le concret, par exemple de M<hi rend="sup">me</hi> Colette ou de M<hi rend="sup">me</hi> Jeanne Ramel-Cals. Et lui qui fait galamment à tel de ses confrères les honneurs du glaive, il le manie au besoin comme un archange flamboyant. Récemment encore il a rudement déconfit et navré à mort d’un seul coup certain universitaire auteur d’un gros bouquin sur Bergson.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il ne souffre pas qu’on touche à ses dieux. Je comprends cela. À son ordinaire, il n’en est pas moins doux et conciliant.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ne vous y fiez pas ! Dans les termes les plus amicaux, je l’avoue, il n’en vient pas moins de tailler à Paul Souday de rudes croupières.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cela m’échappe. Quel mal y a-t-il à aimer Valéry, ou tout autre, contre quelqu’un ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il n’y a aucun mal, et je ne vois même pas qu’on puisse faire autrement.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre </speaker>
+          <p>À votre tour, vous allez loin.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne bouge pas, mais votre interruption me prouve que vous sentez la pointe, après l’avoir niée par réflexe optimiste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous qui n’admettez cartésiennement que les idées claires et distinctes, vous parlez par énigmes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je vous rappelle tout simplement le principe de contradiction. Aimer, admirer, ou affirmer une chose — l’amour n’est qu’une affirmation énergique — c’est nécessairement haïr, mépriser ou nier son contraire. Entre A et non-A, entre le signe <hi rend="i">plus</hi> (+) et le signe <hi rend="i">moins</hi> (–), il faut choisir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant Hegel…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>L’identité des contraires ? C’est de la métaphysique, et de la plus aventureuse. Ne nous perdons pas dans les nuées.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et le romantisme ? Sa conquête essentielle, en critique et en histoire ? Ce fameux relativisme esthétique dont vous m’avez si souvent parlé ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Voilà précisément l’équivoque qui rend si dangereux le coup de botte porté par Thibaudet dans cet assaut courtois. Oui, nous devons au romantisme d’avoir appris à comprendre et à sentir toutes les formes du beau : Homère et Virgile, Phidias et Michel-Ange, Raphaël et Rembrandt, Racine et Shakespeare, La Fontaine et Hugo, Mozart et Wagner. Celui qui aime l’un de ceux-là contre l’autre est un esprit étroit ou sectaire, excusable tout au plus si, lui-même producteur ou créateur comme on dit aujourd’hui, il ne peut vraiment apprécier que ce qui entre dans son propre système et nourrit sa personnalité féconde. Si c’est un critique, un historien des arts ou des lettres, il trahit ses devoirs, ne sait pas son métier, et gagnerait à être plutôt politicien ou maçon.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>De ce point de vue, je reconnais que le grief serait rude.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais notez que l’opposition entre ces grands hommes reste superficielle et n’égare que les esprits peu philosophiques, noyés dans les apparences. Entre eux, il y a certes des contrastes qui frappent à première vue, qui retiennent même toute l’attention des badauds ou des techniciens, mais qui s’atténuent en profondeur. Ils diffèrent, mais ne se contredisent pas. Ils n’ont pas les mêmes moyens de réalisation, ils ne suivent pas les mêmes rites, ne professent pas les mêmes concepts, mais ils honorent le même idéal essentiel et servent le même dieu. Dans l’hypothèse du mythe platonicien une seule et même idée suffit pour toute la lignée des génies à travers l’espace et le temps. C’est pourquoi notre père Hugo les a logés dans la région des égaux (je vous demande pardon pour l’assonance inévitable).</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et à qui ou à quoi s’opposent-ils en réalité ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ils font bloc contre la laideur, la vulgarité, la sottise, le philistinisme, que les braves romantiques n’avaient jamais fini de flétrir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et ils avaient bien raison. Qu’on est injuste pour ces dignes bousingots ! Il faudra les glorifier pendant le centenaire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est aussi mon avis. Quant au critique des œuvres contemporaines, il doit pareillement avoir ou acquérir la largeur de vues, se montrer libéral et compréhensif, rendre justice à tous les talents, même aux plus divers et à ceux qui s’inspirent des convictions les plus séparées par des abîmes ou par des nuances (la nuance est plus grave, d’après Capus).</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Alors on ne peut pas aimer contre quelqu’un ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais si ! Et pour deux raisons, ou à deux points de vue. D’abord, on doit soutenir toute la haute littérature contre les contrefaçons industrielles, tous les vrais artistes contre les galfâtres et les mercantis. L’admiration de Valéry implique logiquement, obligatoirement, le mépris de X… ou d’Y… poètes mirlitonnesques, romanciers à gros tirages populaires ou vaudevillistes à « combines », comme on dit dans le joli argot du théâtre actuel.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Thibaudet n’en disconvient certainement pas, et se borne à ne pas pourfendre ces gens-là, qui n’en valent guère la peine, pour les mieux accabler d’un silencieux dédain.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Du moins pas aujourd’hui. Eh bien ! je conclus qu’on ne peut aimer pleinement Valéry, l’intellectualisme fait poète, que contre l’incohérence décadente, l’ignorance infatuée, le mysticisme fluidique, l’hystérie et — puisque Thibaudet a prononcé le nom — contre le bergsonisme, qui a été lui-même tant aimé et exploité contre l’intelligence. Il arrive à M. Bergson de s’effrayer devant les conséquences qu’on tire de son système, et de se déclarer plus intellectualiste qu’on ne l’a cru. Ses livres sont bourrés de science qui démontre au moins qu’il ne la condamne pas tout entière. Et certaines de ses thèses sont sans doute imprudentes, mais d’infidèles disciples ont dépassé et compromis le maître. Ajoutez le goût de l’aberration russe, des extravagantes complications dostoievskystes, d’une religiosité perverse, fondée sur la culture intensive du péché, etc…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Nous versions un peu dans la déliquescence et la débilité mentale.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Contre elles, Paul Valéry est venu rétablir l’ordre et assurer le triomphe de l’esprit, en prouvant par ses chefs-d’œuvre que le dégoût de ce chaos n’est pas un préjugé bourgeois, mais s’allie très bien avec l’ascension sur les cimes et avec tous les raffinements d’un art souverain. Il faut donc aimer ce héros contre les monstres qu’il a vaincus.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais c’est contre lui-même, Thibaudet, que celui-ci se confesse de l’aimer, indiquant ainsi qu’il accueille et nourrit en son for intérieur au moins quelques larves.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Coquetterie pure, comme son pacifisme littéraire. Mais cela, c’est bien la forme féminine de l’ironie.</p>
+        </sp>
+      </div>
+      <div>
+        <head>Les salons littéraires</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Francis de Miomandre, qui vient de consacrer à la Mode un petit volume de notes et maximes, y déclare que les salons littéraires sont à la mode.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Cela m’est égal. J’y vais de moins en moins et cela ne m’y fera pas aller davantage. Je trouve que c’est inutile. On n’y apprend rien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On ne peut passer tout son temps à s’instruire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous y allez donc, vous, le rêveur ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On n’y est pas mal pour rêver.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>De quoi ? D’entrer à l’Académie ? Croyez-vous vraiment que c’en soit le chemin ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Quelquefois, mais ce n’est pas cela qui m’y attire. J’y vais afin que cela m’amuse, connue disait La Fontaine.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous vous amusez de peu de chose.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>N’est-ce rien qu’une réunion de jolies élégantes, souriantes et désireuses de plaire ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Soit ! Je vous accorde les femmes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Plut au ciel que vous en eussiez le pouvoir !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Comment ! à votre âge !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il n’y a pas d’âge, ou, en tout ras, même à celui que j’ai, il y a le fluide, beaucoup plus agréable et plus réel que celui de l’abbé Brémond.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Alors, vous fréquentez les salons littéraires, pour y faire de la poésie pure ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je la préférerais impure, mais c’est toujours cela.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Quel vice ! Je ne m’en étonne pas, puisque au fond vous êtes un mystique. Les mystiques sont capables de tout.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je le voudrais bien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais on trouve des femmes dans tous les salons et même ailleurs. En quoi les salons littéraires se distinguent-ils des autres à votre point de vue ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>En ce qu’on y reçoit des gens de lettres.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est bien ce qui m’en a dégoûté. Et vous aimez ces hommes-là ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ils ne me gênent pas.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On voit que vous ne faites pas de critique.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais j’y aperçois aussi des critiques, et même assez entourés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, pendant quelque temps, mais cela finit presque toujours par se gâter.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pourquoi donc ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Reportez-vous à ce que dit Miomandre, que j’ai lu aussi. Il dit que ce n’est pas à la portée de tout le monde d’avoir un salon littéraire ; que les dames qui en ont un, à Paris, on les compte sur les dix doigts…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il suffit de sept, un pour chacun des jours de la semaine.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Miomandre ajoute que rien ne pose mieux une maîtresse de maison, parce qu’on croit que tous les écrivains qui viennent boire son thé sont amoureux d’elle…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cela peut très bien être vrai…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et que toutes ses amies en sont jalouses. Mais pour exciter cette jalousie délectable et bien établir ce prestige d’idole qu’on adore à genoux, il faut qu’elle en obtienne des gages.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les intéressés ne demandent pas mieux.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous êtes lubrique. Mais elle aurait trop à faire et je parle de gages ostensibles, qui s’avouent et s’étalent au grand jour.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre </speaker>
+          <p>À Paris, tout se sait.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Les poètes et les romanciers s’en tirent très bien, offrent leurs livres avec des dédicaces autographes et dithyrambiques, qui font un heureux effet sur les guéridons. Au besoin ils proclameront que la dame a été leur inspiratrice, leur conseillère, leur Egérie. C’est toujours flatteur.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et souvent exact. Qu’est-ce qui inspire mieux que la grâce et la beauté ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Cela n’engage à rien. Pas plus que les louanges qu’ils peuvent distribuer prodigalement à tous les jeunes et vieux confrères qu’ils rencontrent là, sans <hi rend="i">même</hi> les avoir lus. Le porto et les petits fours inclinent à la bienveillance. Et autant en emporte le vent.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les bonnes paroles font toujours plaisir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais le malheureux critique ! Pour démontrer son crédit, la dame lui présente et lui recommande un tas d’auteurs, dont certains ne viennent même chez elle que dans cet espoir Ces postulants l’entourent assidûment, comme vous l’avez remarqué, et lui donnent du « cher maître » à profusion. C’est touchant. Les jocrisses et les envieux diront qu’il a l’air d’exercer une dictature.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il n’est pas tellement à plaindre.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est un martyr. Car pour lui, tout ne se passera pas en paroles. Il faudra qu’il s’exécute. Il devra payer de sa personne, de sa plume, de ses veilles, et d’abord lire tous ces volumes que les autres louent de confiance.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est son métier.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>… Qui n’est pas drôle tous les jours, même sans ces complications. Mais que fera-t-il quand ces bouquins se révéleront idiots ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il s’arrangera.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous en parlez à votre aise. En fait, il y a deux écoles. Les uns font cyniquement l’article de complaisance.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ce n’est pas bien grave…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Plus libérale que la célèbre bonté de Dieu, votre immoralité ne s’arrête pas à la littérature.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cela ne trompe personne.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Détrompez-vous ! Cela trompe d’abord l’auteur et sa patronne, qui témoignent leur satisfaction et continuent leurs amabilités.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est ce qu’on voulait.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais le bon public, qui ne se compose pas de soi-disant idéalistes roués comme potence, est dupe aussi, y va de son argent, et, furieux à bon droit prend en grippe le critique qui l’a roulé. Celui-ci perd bientôt à ce jeu sa réputation et son influence même, si bien qu’en fin de compte les écrivains et les amphitryonnes pour qui il s’est déconsidéré le déclarent usé, vidé, et ne font plus attention à lui.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous poussez au noir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ceux de l’autre école ne tiennent compte des recommandations ou ne s’en donnent l’apparence eutrapêlique que lorsque le livre est bon. Alors tout va bien. C’est une chance. Elle n’est pas éternelle. Après quelques abatages, le plus veinard tire une bûche. Le vrai critique, qui a la critique dans le sang, ne peut pas faire l’éloge d’un sot livre. Il en a la haine, comme disait Boileau, et ne saurait la surmonter. Sans même parler de conscience, de justice, de respect des bonnes lettres, du lecteur, et des talents, à qui l’on fait tort en louant des niaiseries, cela lui est physiquement impossible. Alors il éreinte, ou par extrême faveur, si le succès du mauvais ouvrage ne fait pas scandale, il se tait. Et c’est fini. On ne lui pardonne ni le blâme, ni le silence. Le voilà brouillé avec la protectrice et le protégé, rayé de la liste d’invitations, frappé d’ostracisme et mis au ban. Heureux quand on ne lui fait pas d’avanies publiques !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Alors, d’après vous, un critique indépendant est condamné à vivre en ours ou en moine de Thébaïde sans la moindre Thaïs.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne dis pas cela. Je crois qu’il peut garder face humaine, rester sociable et même se mêler à la bonne compagnie. Mais pour lui les salons littéraires sont particulièrement dangereux, et il fera sagement de préférer les autres. Dans tous, il y a des femmes, voire les mêmes femmes. Quant à l’élément masculin, les simples hommes du monde valent mieux que les gens de lettres, ils sont moins infatués, plus désintéressés, et d’une politesse plus solidement garantie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Votre Flaubert et vos autres romantiques s’étonneraient d’entendre cette apologie des philistins.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ceux qui n’ont pas de prétentions sont très supportables et méritent à peine ce nom. Mais que de philistinisme essentiel chez beaucoup de gens de lettres d’aujourd’hui ! Que d’ignorance, de vanité, d’arrivisme, d’envie et de venin ! Il n’y a rien au-dessus d’un grand écrivain authentique : c’est l’honneur et la cime de l’humanité. Mais il n’y a rien de pire que la plèbe des écrivassiers. Ils sont encore inférieurs aux politiciens, qui conservent une espèce de bon garçonnisme.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant vos romantiques se retrouvaient entre eux, non pas il est vrai dans les salons, qu’ils n’aiment pas, mais au café.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne pense pas qu’un de ces lieux de rendez-vous exclue nécessairement l’autre. Le café a son charme.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre.</speaker>
+          <p>Il ne faut pas être un trop sec biberon, comme disait Ronsard à tel de ses disciples.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On y boit peut-être moins, mais on y est plus libre. J’ai entendu Emmanuel Chabier, le grand musicien, s’écrier un soir, au café Voltaire : « Je déteste les maisons où l’on ne peut pas dire M… » Malgré les progrès de la mauvaise éducation, le mot de Waterloo n’est pas encore couramment du vocabulaire mondain.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Y a-t-il tant d’agrément à s’en emplir la bouche ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Non, mais c’est un symbole. Cela signifie qu’on tient à pouvoir causer librement et discuter de tout sans ménagement, tandis que dans les salons, excepté pour quelques petits barbouilleurs mal élevés, qu’on ne tolérerait pas dans tous, il est convenu qu’on évite les sujets brillants et qu’on n’attaque ou ne contredit personne. C’est pourquoi la meilleure conversation y est celle des femmes et s’appelle le flirt.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Miomandre prétend que les caillettes, qui raffolaient des intellectuels au temps d’Anatole France, les jugent assommants et n’apprécient plus aujourd’hui que les sportsmen, surtout les aviateurs. Qu’en pensez-vous ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Cela vous inquiète ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Eh ! L’aviation est née trop tard pour moi.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous voyez bien que Miomandre se dément lui -même. Je ne suis pas sûr qu’en soi l’intelligence passionne tant les femmes, mais si les intellectuels n’avaient pour elles aucun attrait d’aucune sorte, il n’y aurait plus de salons littéraires. Retournez-y en paix !</p>
+        </sp>
+      </div>
+      <div>
+        <head>Retour de vacances</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous avez passé des vacances agréables ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Merci, mais je n’en ai pas pris du tout.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Comment cela ? On vous a vu trois semaines à Luchon, et quinze jours à Hendaye ! Vous m’avez même envoyé des caries postales.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, mais, ayant travaillé exactement comme en temps ordinaire, je n’appelle pas cela des vacances. Je me demande si c’est la peine de passer quinze heures en wagon-lit pour aller faire de la copie dans une chambre d’hôtel, alors qu’on la ferait tout aussi bien et même mieux chez soi.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Aussi suis-je resté à Paris.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oh ! vous, qui ne faites que rêver et muser, vous êtes en vacances toute l’année.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Erreur ! Les vraies vacances, c’est le changement. Aussi ai-je un peu travaillé cet été, par désœuvrement et pour me reposer un peu, les jours de pluie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Dieu sait s’il y en a eu, un peu partout, excepté sur la Côte d’Azur, où il y avait des moustiques… Et peut-on connaître le sujet de votre grand travail ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’ai essayé de comprendre divers problèmes du jour, car l’actualité littéraire ne chôme pas autant qu’on le dit pendant ces mois théoriquement chauds. Cela m’a beaucoup fatigué, c’est-à-dire délassé de mon repos habituel, et je m’en suis trouvé à merveille.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Qu’avez-vous compris ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Rien du tout, ou peu s’en faut. Mais peu m’importait. Je ne voulais que prendre un peu d’exercice.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Sur quoi vous êtes-vous exercé ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>D’abord sur les fouilles de Glozel. Le gisement est-il néolithique, comme l’affirment le docteur Morlet et Salomon Reinach, ou gallo-romain, comme le déclare M. Camille Jullian, ou faux et confectionné par un mystificateur, comme le soutient M. René Dussaud ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je vous avoue que je n’en sais rien, et que je n’ai guère étudié la question.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je l’ai étudiée de toute mon attention et je n’en sais pas davantage. C’est ce qui fait que c’est passionnant.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Cependant j’ai lu ce qu’en rapportaient les journaux, et je crois entrevoir quelques lueurs.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je vous admire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il n’y a pas de quoi. Mais j’ai vu dans l’<hi rend="i">Illustration</hi> le fac-similé d’une inscription de Glozel, et le déchiffrage de M. Camille Jullian. Je ne l’aurais probablement pas déchiffrée tout seul, mais, la besogne étant faite par l’illustre historien des Gaules, sa version me paraît lumineuse. Il est clair que c’est du latin.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et vous ne croyez point qu’on parlât le latin quinze ou vingt mille ans avant Jésus-Christ ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Comme disait Alfred Capus, il y a dans cette hypothèse un je ne sais quoi qui la rend difficile à croire. J’ajoute qu’il en va de même de l’authenticité d’une écriture quelconque, datant de l’époque néolithique.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>M. Salomon Reinach ne s’en étonne pas, et ramène cette époque jusque vers 5.000 ans avant notre ère.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ce qui fait encore à tout le moins pas mal de milliers d’années depuis ces temps jusqu’à nos jours, où il y a encore pas mal de gens qui ne savent ni lire ni écrire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pourtant, M. Salomon Reinach…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>… Est un savant éminent, je me plais à le reconnaître, mais il arrive aux plus éminents savants de s’abuser. Rappelez-vous la tiare de Saïtapharnés, que le Louvre allait acheter, lorsque Clermont-Ganneau démontra qu’elle venait d’être ciselée à Montmartre. Et l’exemplaire du <hi rend="i">Pentateuque</hi>, remontant aux temps mosaïques, que les trustees du British Museum avaient décidé d’acquérir, pour un bon prix, lorsque Clermont-Ganneau déjà nommé, découvrit dans ce vénérable papyrus un filigrane de fabrication toute récente. Et je ne sais plus quelle supercherie analogue fut démasquée à Berlin par le même Clermont-Ganneau, alors que les <hi rend="i">herren professoren</hi> marchaient comme un seul homme. Pauvre Clermont-Ganneau ! Il avait bien de l’esprit, et un flair infaillible. Il a été, sa vie durant, la terreur des faussaires, des fumistes et de ses confrères, tant français qu’étrangers qui aiment mieux être roulés à l’insu du public que publiquement détrompés. Certains ont même refusé de lui mettre l’objet en main ! Mais son diagnostic était aussi sûr à distance. Quel dommage que nous ne l’ayons plus ! L’esprit critique n’est pas une chimère. Il se fût tout de suite débrouillé dans ce phénicien, ou ce préphénicien, ou ce latin, et eût établi la vérité sur Glozel, comme sur la tiare, le <hi rend="i">Pentateuque</hi> et le reste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pensez-vous que M. René Dussaud soit capable d’en faire autant ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je l’espère. J’ai une haute opinion du courage et de l’impartialité de M. René Dussaud, depuis qu’il n’a pas craint de proclamer l’érudition et la compétence de Renan comme philologue et orientaliste, alors que tant de sycophantes osaient accuser le grand écrivain de ne pas même savoir l’hébreu ! Edmond Scherer s’était déjà moqué de ces sots diffamateurs, qui, ne sachant rien, ne peuvent admettre que personne en sache plus long qu’eux, surtout lorsque l’homme informé contredit leurs opinions préconçues.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Oui, mais si M. René Dussaud a raison pour Glozel, le gisement entièrement truqué ne serait pas plus gallo-romain que néolithique, et M. Camille Jullian se serait fourvoyé comme M. Salomon Reinach.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous m’en demandez trop. Il est possible que certains objets soient authentiques et d’autres faux. Le mystificateur, trouvant un embryon de gisement, l’aurait revu et considérablement augmenté. C’est l’avis du comte Begouen, professeur de préhistoire à l’Université de Toulouse. Tant que René Dussaud n’aura pas publié le texte complet de son rapport, attendons.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>En attendant, cette histoire nous aura aidé à supporter nos vacances.</p>
+        </sp>
+      </div>
+      <div>
+        <head>L’art d’assassiner</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Que pensez-vous du meurtrier de Petlioura ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il est acquitté.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cela ne vous étonne pas ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Non ! Le jury parisien acquitte toujours. Rappelez-vous le meurtrier de Jaurès.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Alors vous ne croyez pas que le jury a voulu condamner les pogroms ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Si vous voulez. Mais il condamnerait n’importe quoi pour arriver à un acquittement. Que la victime soit de droite, de gauche ou d’en face, l’important est d’innocenter celui qui l’a frappée. Je mets en fait que si le tsar Nicolas et Lénine avaient été pareillement assassinés à Paris à quelques années de distance, les deux assassins auraient également bénéficié de verdicts négatifs sur toutes les questions. Et tous deux nous auraient été présentés par les avocats comme des justiciers.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Le tsar blanc et le tsar rouge étaient l’un et l’autre des tyrans.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais Jaurès n’en était pas un.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On avait fait croire à quelques exaltés qu’il pourrait le devenir. Le peuple se laisse facilement tromper, mais il hait sincèrement la tyrannie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je l’ai cru jadis, à cause d’Harmodios et d’Aristogiton, à qui Athènes dressa des statues, et dont la gloire a bercé notre classique enfance. Maintenant j’en doute.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous ne croyez à rien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Voyez dans Shakespeare la foule acclamant Brutus qui a tué César et s’écriant : « Faisons-le César. » On ne résumera jamais mieux les remous de l’opinion publique.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’y vois la preuve que tout est dans Shakespeare, même la comédie rosse.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pourquoi le peuple détesterait-il ma tyrannie ? Elle ne le gêne pas du tout, et même elle l’amuse, elle satisfait ses instincts niveleurs et envieux. Car ce sont les aristocrates, les intellectuels, les dirigeants, qui sont tyrannisés. Jules César et les empereurs romains s’appuyaient sur la plèbe et n’opprimaient que les patriciens. Les libertés abolies par les despotes antiques étaient celles des Sénats et des grandes familles qui gouvernaient en régime républicain. Au 2 Décembre, les faubourgs ne bougèrent pas. Que leur importaient les parlementaires ? Sous le Second Empire, la vie fut dure pour les journalistes et les gens qui faisaient de l’opposition. Ceux qui ne se mêlaient pas de politique n’avaient pas d’ennuis. Le populo était fort tranquille, et se moquait bien de la suppression du cours de Renan au Collège de France ou des mois de prison distribués par le président Delesvaux, dit Delesvache, aux polémistes démocrates.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous ne niez pourtant pas la bienveillance du dit populo et de la petite bourgeoisie sentimentale pour les tyrannicides ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Elle est évidente et suffisamment démontrée par les décisions de nos jurys, émanations de l’âme populaire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Alors, comment l’expliquez-vous ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pour la bourgeoisie, en partie par les souvenirs de collège ; pour tous, par la propension à considérer l’assassinat comme un des beaux-arts.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous les soupçonnez d’avoir lu Quincey ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Très peu, ni seulement de connaître le mot français de J.-J. Weiss : « C’est beau, un beau crime. » Ils trouvent le crime beau, mais spontanément et d’instinct.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant, Cartouche et Gamahut ne sont que célèbres, mais faiblement honorés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Bien entendu ! C’étaient des voleurs. Leur célébrité est déjà pourtant un indice du prestige qui s’attache à tout criminel. Mais ceux-là ne faisaient vraiment pas de l’Art pour l’Art. Ils manquaient au premier devoir des vrais artistes, qui consiste à être désintéressé.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Quelle délicatesse !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est celle des masses. Elles méprisent l’assassin qui travaille pour un vil souci d’argent, et respectent celui qui sert un idéal.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ô poésie ! Et comprenez-vous cet idéalisme ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Dans le crime passionnel et le crime politique. Il faut y apporter des mains nettes et un cœur immaculé. Le cas d’un mari qui tue l’amant de sa femme ne pourrait devenir mauvais que si l’on prouvait qu’il tenait surtout à la dot. Si Schwartzbard avait essayé vainement de taper Petlioura, sa vengeance cessait d’être héroïque et il risquait le bagne. Dans l’ordinaire de la vie, bien des compromissions paraissent vénielles, mais on ne saurait mettre trop de scrupules dans le crime, l’état de grâce y est absolument nécessaire, comme pour approcher dignement des autels. On doit assassiner en esprit et en vérité.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous trouvez cela drôle ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne juge pas, je constate. Stendhal, qui n’a suriné personne et n’aurait pas fait de mal à un Clément Vautel, n’en considérait pas moins les drames d’amour comme des preuves d’énergie. Cette esthétique de l’assassinat n’est pas sans avoir quelques avantages, ni sans promouvoir une certaine moralité.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous estimez que tuer, c’est moral ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pas absolument, et il y a des vertus plus pures, mais l’exclusive donnée aux intérêts vulgaires, l’admiration du courage à braver le péril pour une cause réputée noble, ce ne sont pas là des sentiments entièrement fâcheux.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Oh ! le péril ! Puisqu’on est relâché avec félicitations !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ce n’est jamais tout à fait sûr, malgré les traditions établies. Et puis l’homme visé peut se défendre si l’on ne prend la précaution de l’attaquer par derrière, comme a fait Vilain au café du Croissant. Et ses amis peuvent vous écharper. Bref, il y a toujours un aléa. Le « potin dans la presse » comme disait M<hi rend="sup">me</hi> Bianchini, n’allèche pas non plus tout le monde. Il ne faut pas avoir froid aux yeux, et les timides n’assassinent guère.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Enfin, vous approuvez et vous acquitteriez, si vous étiez juré ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Moi ? Je condamnerais imperturbablement. Je suis impartial : je vois le pour et le contre. Mais ce romanesque, dont je reconnais les aspects relativement avouables, m’apparaît plus profondément comme une sottise. L’assassin désintéressé est un médiocre, qui veut à tout prix avoir raison et n’en possède pas d’autre moyen. La foule aime aussi qu’on ait raison et ne pourrait non plus suivre un raisonnement. Comme le jugement de Dieu au Moyen Âge, l’assassinat est la ressource des imbéciles. Les intellectuels ont d’autres critères. C’est pourquoi ils n’assassinent pas, du moins par le revolver ou le poignard. Leur seule arme est la plume. D’ailleurs, elle tue bien mieux.</p>
+        </sp>
+      </div>
+      <div>
+        <head>Sur Baudelaire</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Encore des livres nouveaux sur Baudelaire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Toujours votre éternel Baudelaire !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Éternel, ou du moins immortel, je l’espère bien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je n’en doute pas non plus ; je crois pourtant qu’on abuse.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On ne parlera jamais trop d’un si grand poète.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Grand, c’est entendu, mais on exagère cette grandeur.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Qui cela ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Eh bien ! d’abord votre ami Jean Royère.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous n’aimez pas son livre ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Si beaucoup !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais vous préférez celui de Camille Mauclair.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mauclair de la lune, comme disait Mirbeau ? Ah ! non. Celui-là je ne l’aime pas du tout.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il devrait pourtant vous plaire, à vous l’antibaudelairien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Avez-vous remarqué ? Deux esprits aussi différents que Léon Daudet et Paul Souday se sont rencontrés sur ce propos.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Sur quel propos ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Sur Mauclair. Souday avait noté son ton de moralisme prudhommesque. Quelques jours après, Léon Daudet lui a décoché la même épithète.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mauvais signe pour Mauclair ! J’ai pourtant connu l’époque où Gaston Deschamps le traitait d’anarchiste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais c’est bien un moraliste. Mirbeau ne s’y était pas trompé.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je ne le trouve pas si moral que cela.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Moral et moraliste sont deux. Il y a des moralistes, très immoraux, qui se plaisent à imaginer le mal pour l’agrément de le flétrir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Croyez-vous que Mauclair ait tant d’imagination ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je me souviens d’un article paru dans <hi rend="i">La Dépêche de Toulouse</hi>, où il insinuait qu’un confrère, qui faisait profession d’hellénisme, devait avoir des mœurs contre-nature. C’est ainsi qu’il comprend l’hellénisme. Le Charlus de Marcel Proust ne recherche pourtant pas son violoniste ou son giletier pour l’amour du grec.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et à qui Mauclair faisait-il allusion ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Monsieur l’idéaliste, vous avez du goût pour les potins. Mais on n’a pu savoir. Les moralistes ne détestent pas de prêcher dans le vague.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est plus sûr. Cependant Mauclair porte contre Baudelaire des imputations précises. Par exemple, d’être un fils de vieillard.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il n’a rien dit de moins contestable.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et d’avoir été réduit par sa frigidité à des complications comme sa liaison avec Jeanne Duval, la Vénus noire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Est-ce si original ! Il y a des négresses dans les meilleures maisons.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et que dites-vous de l’amour incestueux pour sa mère, qui contrairement à son père était jeune ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mauclair ne le prouve que par la jalousie de Baudelaire qui exécra réellement le général Aupick, au point de vouloir le faire massacrer par le peuple en 1848.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>N’est-ce pas une preuve ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>J’ai eu les confidences d’un de mes amis intimes, qui, tout enfant, perdit aussi son père. Il m’a, en toute sincérité, avoué qu’il eût été fort jaloux si sa mère s’était remariée, parce qu’il comptait bien accaparer toute l’affection et tout le dévouement dont elle disposait. C’est peut-être de l’égoïsme. Mon ami en convient, mais il ajoute qu’il n’a jamais été effleuré par un sentiment trouble, et qu’il eût plutôt pensé à l’impératrice de la Chine ou à la favorite du Grand Turc.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Freud n’existait pas encore.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Le freudisme devait charmer la perversité des moralistes. Le père La Pudeur possédait une étonnante collection de bouquins et de gravures obscènes. Il eût savouré Freud.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Henri Rochefort prétendait avoir reçu une carte farouchement moralisatrice, signée : « X…, marchand de cartes transparentes, ancien magistrat. »</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous savez que la clientèle bourgeoise et populaire des journaux à gros tirages dévore avec délectation les histoires de viols et de crimes sadiques. Ce sont des choses que ces gens comprennent. Là-dedans, pour eux point d’obscurisme ! Le freudisme appartient à ce genre clair et alléchant de reportage ou de roman-feuilleton. Mauclair s’embourgeoisant devait devenir freudien. Cela le mènera peut-être à l’Académie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je le lui souhaite, à condition qu’il n’y entre pas aux dépens du pauvre Baudelaire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>J’ignore si Mauclair a fait ce calcul, mais je doute qu’un candidat augmente ses chances en maltraitant Baudelaire. Il fut bien un temps où Brunetière et Faguet refusaient de le prendre au sérieux, et où M. Doumic n’osait même pas imprimer dans son <hi rend="i">Manuel de littérature française</hi> ce nom qui faisait scandale. On a changé tout cela.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Heureux changement !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, mais sans mesure. On a enfin découvert que Baudelaire était chrétien, catholique et antidémocrate. Il suffisait de le lire, mais on n’avait garde. Depuis qu’on s’est aperçu de ses opinions, on le porte aux nues. Un nouveau Joseph de Maistre ! Il n’en a pas fallu davantage au spirituel Capus pour le proclamer grand esprit. M. Stanislas Fumet vient de prononcer son panégyrique dans la collection si orthodoxe du <hi rend="i">Roseau d’or</hi>, dirigée par le thomiste et grand inquisiteur Henri Massis. De pieuses paroissiennes croient que ses femmes damnées le sont pour avoir lu Voltaire ou fait gras le vendredi. Il est au pinacle en attendant d’être canonisé. On l’utilise pour rabaisser Hugo.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je conviens qu’on a tort.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais quel service il rend ainsi à la bonne cause !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ce n’est pas à ce point de vue que se place mon ami Jean Royère.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Non certes ! Celui-là est un pur esthéticien, un amant et un paladin de la haute poésie. Il a donné un autre bel ouvrage à la louange de Mallarmé, qui n’a pas la faveur du public bien-pensant. Jean Royère ne songe qu’au grand art ; il en disserte avec une compétence et une ferveur remarquables.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Que lui reprochez-vous ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il n’est même pas trop intolérant, et se permet de témoigner quelque estime pour La Fontaine.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il y a des baudelairiens qui vont jusqu’à Boileau.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, pour sauter par-dessus Hugo à pieds joints. Hugo n’en demeure pas moins le plus grand poète français.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est mon avis, quoique j’admire passionnément les <hi rend="i">Fleurs du mal</hi>.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Admiration juste, mais passion juvénile ! Observez que ni Moréas, ni Valéry ne sont baudelairomanes. C’est Henry Bataille qui a cru que Baudelaire avait inventé la poésie. Je persiste à croire qu’elle date au moins d’Homère.</p>
+        </sp>
+      </div>
+      <div>
+        <head>Les petits papiers</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Voici l’Académie française qui se porte à l’aide de l’Académie Goncourt.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Toutes les Académies sont sœurs, mais à quoi faites-vous allusion ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Avez-vous lu les derniers ouvrages de Paul Bourget et d’Henry Bordeaux ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais oui ! Et je vous avoue, j’aime encore mieux ces respectables auteurs que bien des jeunes qui se croient plus avancés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je respecte aussi ces éminents académiciens pour leurs nobles doctrines.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul </speaker>
+          <p>Elles ne me persuadent guère. Mais j’estime ces hommes cultivés, qui font cas de la culture, qui savent composer, et gardent quelques apparences de santé intellectuelle, jusque dans le plus arbitraire des pragmatismes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Eh bien ! Ils vous donnent tort dans l’affaire du <hi rend="i">Journal des Goncourt</hi>, dont vous réclamez à cor et à cri la publication.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>J’ai une longue habitude de n’être pas de leur avis. Mais je n’ai pas vu cela.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Relisez donc le premier chapitre de <hi rend="i">Quelques témoignages</hi>. Voici le volume que j’apporte pour vous confondre. Bourget y condamne <quote>« l’abus fait aujourd’hui de révélations le plus souvent invérifiables, tantôt insignifiantes, tantôt scandaleuses, si bien que notre âge risque d’être tristement appelé un jour celui des petits papiers »</quote>. Et au début du chapitre suivant, Bourget flétrit encore <quote>« les papotages d’office et d’alcôve »</quote>.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il me paraît surtout dur pour l’ancien secrétaire d’Anatole France. On ne peut trop savoir gré à l’esprit et au caractère du bon maître, dont il abomine forcément les idées. Bourget donne le noble exemple d’une impartialité de plus en plus rare.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est si vrai que lui qui a parlé du « bluff Proust » il proteste contre la vente des lettres de Proust à Robert de Montesquiou.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est une autre affaire. Puisque les lettres appartiennent matériellement au destinataire, comment empêcher qu’il ne les vende lui-même ou qu’elles ne soient vendues après sa mort ? Et que nous importe ? C’est plus délicat de les conserver, mais des héritiers ne le peuvent pas toujours.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On pourrait aussi les détruire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ah mais non ! Quand il s’agit des lettres d’un grand écrivain, c’est un crime contre l’esprit. Et si l’expéditeur tenait tant au secret éternel, il n’avait qu’à ne pas écrire. Je crois d’ailleurs que le plus souvent il n’y tient pas, ni son ou sa partenaire non plus.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On m’a conté, en effet, qu’un illustre auteur à qui l’on apprit que ses lettres à une dame avaient été brûlées par la famille s’écria : « Quel dommage ! »</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Si l’autodafé n’avait eu lieu après la mort de la dame, elle en eût dit peut-être autant. M<hi rend="sup">me</hi> de Staël et Benjamin Constant auraient préféré qu’on publiât leur correspondance au lieu de la jeter au feu.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il y a de beaux traits de grande amoureuse dans celles de M<hi rend="sup">me</hi> Staël qui ont par hasard échappé.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il paraît établi qu’Adèle a connu le <hi rend="i">Livre d’amour</hi> et ne s’en est nullement indignée.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les œuvres de Sainte-Beuve sont pourtant bien mauvaises.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est son tort le plus grave. Mais les auteurs ont un œil de père pour tous leurs écrits, vers ou prose, y compris leurs lettres.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et je dois convenir qu’on eût frustré M<hi rend="sup">lle</hi> de Lespinasse d’une gloire immortelle en supprimant les siennes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On lèse également les maîtresses des grands hommes si on étouffe celles qu’ils leur adressaient et si l’on raye leurs noms de l’histoire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Elles n’y ont pas toujours un rôle avantageux.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Tout vaut mieux que l’oubli. Grâce à la <hi rend="i">Colère de Samson</hi>, Marie Dorval restera toujours sur l’affiche ; pour une comédienne, cela prime tout. On ne lit plus beaucoup les romans de George Sand : même si les poésies de Musset déclinaient aussi, on se souviendrait toujours des amants de Venise. Sans Flaubert, Louise Colet aurait-elle eu la chance de passer à la postérité ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant, on comprend les susceptibilités des familles.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’était un honneur pour celles de la plus haute noblesse que de pourvoir le roi d’une favorite. C’en est un également d’en fournir un homme de génie. La plupart des souverains comptent peu en comparaison d’un Chateaubriand, d’un Liszt ou d’un Wagner, qui d’ailleurs ont été bien plus sincèrement aimés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’avoue qu’un amour sincère est toujours beau.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ce sont d’archaïques préjugés qui ont longtemps combattu ces révélations si honorables. On en voit heureusement la fin. Les lettres de Chateaubriand à M<hi rend="sup">me</hi> de Castellane, récemment éditées, n’ont excité qu’une admiration unanime.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Soit, mais quand les documents posthumes nous révèlent des désordres coupables ou de fâcheuses maladies.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il y a aussi contre certaines maladies, qui ne sont comme les autres que des malheurs, certains préjugés que Brieux n’a pu dissiper, mais qui finiront bien par disparaître aussi. Quant aux écarts de conduite, ne soyons pas trop pharisiens ! D’autant plus que les vrais poètes peuvent quelquefois commettre bien des fautes, mais n’ont jamais l’âme tout à fait vile. Pas même Villon !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais est-ce bien utile de connaître tout cela ? Bourget le nie et demande qu’on ne s’occupe que des œuvres.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Les œuvres avant tout, c’est entendu. Mais comprendrait-on aussi bien <hi rend="i">Tristan</hi> sans Mathilde Wesendock, le <hi rend="i">Lac</hi> de Lamartine sans Elvire, Verlaine sans ses truandailles. Pascal et Baudelaire sans leur état pathologique ? La connaissance de l’homme est toujours intéressante en soi, et elle contribue à expliquer l’œuvre dans la plupart des cas.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Bourget objecte que les lettres et les mémoires sont souvent faussés par l’influence du correspondant ou de l’interlocuteur, à qui l’on s’adapte pour lui plaire ou s’en faire entendre ; que les épistoliers et les mémorialistes forcent la note ou l’altèrent, suivant l’humeur du moment ou parce que leurs souvenirs ne sont pas sûrs, etc…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On le sait et l’on en tient compte. La critique s’exerce quasi sur les petits papiers.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Bourget déclare en outre qu’il est vain de chercher, comme le faisait Sainte-Beuve, des contradictions entre la vie et les écrits publics, parce que le talent ne peut pas mentir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je le crois en ce sens que nos rêves sont faits de la même étoffe que nous-mêmes, L’œuvre ressemble forcément à l’imagination et à l’intelligence de l’écrivain sinon à la réalité de sa vie. C’est donc toujours lui qui s’exprime dans les deux registres, théorique et pratique, mais il est instructif de relever les accords complets ou les contrastes apparents.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pourtant nous accordons à cet écrivain ou à ses représentants le droit d’interdire les publications indiscrètes ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il le faut bien, mais il est plus que suffisant de nous faire attendre jusqu’à Feutrée dans le domaine public. Et c’est un argument contre la propriété littéraire indéfiniment prolongée. D’ailleurs quel rapport avec le <hi rend="i">Journal des Goncourt</hi> ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Dans le <hi rend="i">Calvaire de Cimiez</hi>, Henry Bordeaux se prononce lui aussi pour l’enterrement des papiers posthumes et blâme son héroïne de lire des lettres que le défunt auteur avait manifesté l’intention d’anéantir.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Bon ! Mais Edmond de Goncourt a catégoriquement formulé la volonté contraire. Et quand il y a un testament, l’héritier doit l’exécuter, ou renoncer à l’héritage.</p>
+        </sp>
+      </div>
+      <div>
+        <head>Où va la Critique ?</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>M. Maurice Rouzaud a ouvert dans les <hi rend="i">Nouvelles Littéraires</hi> une enquête sur cette question : « Où va la critique ? », vous lisez cela ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais oui. C’est toujours drôle.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous croyez que ces enquêtes peuvent résoudre un problème ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais non. Elles m’amusent, et voilà tout.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est vrai que le public en paraît friand puisqu’on en publie de tous côtés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il y a même des spécialistes du genre, comme Gaston Picard, promu prince des enquêteurs.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>En somme, ce qu’on appelle une enquête, c’est une série de lettres ou d’interviews.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, et ce sont les interviews que je préfère. C’est plus vivant, plus imprévu. Pour l’interviewé, c’est moins fatigant.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il laisse échapper des vérités imprudentes qu’il n’écrirait pas telles quelles.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pour un idéaliste, ce n’est pas mal vu. Joignez que parfois l’improvisation fait lâcher quelques bourdes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Sans compter celles que l’interviewer ajoute quelquefois de son crû.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>J’en sais quelque chose. Qu’importe ? M. Renan ne rectifiait jamais.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Parce que les lecteurs rectifieront d’eux-mêmes !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Peut-être pas tous. Mais l’opinion de ceux qui ne sauront pas rectifier n’existe pas. Ces interviews cahotées et un peu douteuses n’en sont que plus divertissantes pour tout le monde.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Un peu inquiétantes cependant pour l’interviewé.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il est le plus curieux de savoir ce qu’il a dit.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ou ce qu’on lui a fait dire.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il s’égaye alors de l’imagination du journaliste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre </speaker>
+          <p>À condition d’avoir bon caractère.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>La vie littéraire n’est pas possible si on ne l’a pas excellent.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Comme la vie conjugale.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Encore dans celle-ci n’a-t-on affaire qu’à une femme, ou pas beaucoup plus. Deux ménages, c’est une moyenne rarement dépassée. Mais un homme de lettres doit s’entendre avec des centaines de confrères.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Le pauvre ! Comment le pourra-t-il ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est relativement aisé. Il suffit de leur donner des louanges massives tête à tête ou en toute occasion publique, et de ne les débiner que dans les conversations tout à fait intimes avec des personnes discrètes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais les critiques ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Comme ils ne peuvent user de ce moyen court sans se disqualifier et perdre tout crédit, ils n’ont qu’à se résigner gaiement.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ils se feront éreinter et injurier par tous les auteurs mécontents.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, c’est-à-dire par tous les auteurs, car un auteur n’est jamais tout à fait content. Ceux qui par hasard témoignent quelque sympathie à un ou à deux critiques en particulier, se rattrapent par un mépris de principe pour la critique en général.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ainsi procédait Victor Hugo.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et les critiques impartiaux ne lui en veulent pas. Pour un Théophile Gautier et un Janin qui le soutenaient, combien avait-il de Sainte-Beuve, de Nisard, de Planche, de Veuillot, de Barbey d’Aurevilly et consorts à ses trousses ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et presque tous les universitaires.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On ne peut pourtant pas supprimer l’Université ni empêcher les professeurs de parler et d’écrire, comme le voudrait Vandérem.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Il y a eu pourtant des exceptions.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>J’en connais une : mon ancien professeur de rhétorique, Ernest Dupuy, qui a fait sur Hugo un bon livre.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Malheureusement paru après la mort du grand poète.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ce n’est pas la faute de Dupuy.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Grâce au ciel, Valéry est bien vivant…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et immortel, autrement que comme académicien.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant, quand M. Maurice Rouzaud lui a demandé : « Où va la critique ?… »</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il a répondu ! « « Mais à sa perte, j’espère ! » Hugo aurait probablement fait la même réponse.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et vous n’en voulez pas non plus à Valéry.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Non. Songez à la meute qui le harcèle !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais il a trouvé d’ardents défenseurs.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Les chiens aboient, la caravane passe. Seulement les aboiements importunent les nerfs sensibles comme sont ceux des poètes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>La grande offensive antivaléryste de l’an dernier était odieuse et ridicule, j’en conviens. Mais puisque le coup est manqué et que l’affaire a tourné à l’avantage de Valéry…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Excepté les tsé-tsé d’Afrique, les moustiques ne tuent pas, et n’en sont pas moins excédants. D’ailleurs, on ne peut ne voir dans ce mot de Valéry qu’une boutade.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>En êtes-vous sûr ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Si on ne pense pas à le nommer parmi les critiques d’aujourd’hui, c’est qu’il n’en fait pas sa profession, mais il ne l’est pas moins, et même de beaucoup le plus éminent.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous ne le croyez pas poète avant tout ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Certes, et essentiellement poète. Mais <hi rend="i">Variété, Eupalinos</hi> même, et tant de préfaces ou d’essais, qu’est-ce autre chose que la critique ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Dans un sens élevé, peut-être.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pourquoi ne prendrait-on la critique que dans un sens vulgaire et bas ? Ce serait aussi raisonnable que d’attribuer le monopole du roman aux feuilletons d’aventures et celui de la poésie aux chansons de café-concert. Il y a une bonne et même une grande critique, puis il y en a une petite et une mauvaise. Tous les genres littéraires en sont là.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Quand on parle de la critique, on vise généralement celle qui s’étale couramment dans les journaux et les revues.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Elle n’a pas la tâche commode. Elle doit suivre l’actualité.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’avoue qu’il paraît des quantités de volumes médiocres ou nuls.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Elle est souvent obligée d’en rendre compte. Et comment voulez-vous écrire un article intéressant sur un ouvrage qui ne l’est pas ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On peut faire un choix.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On le fait, mais forcément encore trop large. Et les auteurs dont on ne parle pas sont les plus enragés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Valéry ne se plaindra pas qu’on n’ait pas assez parlé de lui.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>On en a souvent mal parlé parce que les journaux et périodiques sont trop nombreux et ne peuvent tous avoir des critiques compétents. En critique aussi comme dans tout le reste, il y a surproduction.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cela ne nous mènera-t-il pas à la faillite.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Au point de vue commercial, peut-être. Mais au point de vue intellectuel, le mauvais tombe, le bon surnage, et ce foisonnement sert comme un terreau à l’éclosion des plantes de qualité.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est vous qui êtes optimiste aujourd’hui.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pas précisément, puisque j’admets le mal, mais comme condition du bien. L’histoire montre que même dans les grands siècles, à côté d’un petit nombre de vrais génies, il y a eu des multitudes de grimauds, et que ceux-ci, maintenant bien oubliés, houspillaient et irritaient les quelques élus.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ne peut-il y avoir progrès ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul </speaker>
+          <p>À cet égard, je ne crois pas. La presse et l’instruction primaire multiplient au contraire les grimauds. Mais des conquêtes nouvelles de l’esprit sont probables. Valéry lui -même conçoit la possibilité d’une nouvelle critique vraiment scientifique.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>L’abbé Brémond la nie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Brémond et Valéry sont en opposition irréductible.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Brémond a du goût : il aime la poésie, et notamment celle de Valéry.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>En effet, mais on a vu dans la controverse sur la poésie pure et à tout propos, jusque dans son interview avec M. Maurice Rouzaud, qu’il n’a que des passions, des amitiés et des haines, avec une extrême difficulté à comprendre. Il appartient à l’école du P. Canaye. Voir dans Saint-Évremond relatant l’entretien avec le maréchal d’Hocquincourt, ce que c’est que cette canayerie (par un y). Point de raison, mon Père ! Point de raison !</p>
+        </sp>
+      </div>
+      <div>
+        <head>Colette Baudoche et son Maire</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Êtes-vous allé à Sion-Vaudémont pour l’inauguration du monument Barrès ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je n’ai pas pu, et je le regrette, mais j’ai lu les discours, qui remplissaient près de deux pages du <hi rend="i">Temps</hi>.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’ai goûté particulièrement celui de M. Raymond Poincaré, l’autre prince lorrain, suivant le mot d’Albert Thibaudet.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il y a aussi de belles ou d’excellentes choses dans ceux du maréchal Lyautey, de M. Paul Bourget et de M. Charles Moureu. Mais il y en a un que j’ai moins favorablement apprécié.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Celui de M<hi rend="sup">gr</hi> Lagier, sans doute ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais non ! Pour l’essentiel, je l’approuve.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Je vous croyais anticlérical.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mon ami, l’éminent psychologue Georges Dumas dont le cléricalisme est des plus modérés, mais qui connaît bien l’Amérique du Sud et les besoins de la propagande française, demande qu’on autorise les noviciats des congrégations missionnaires.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Barrès le demandait aussi, en pensant surtout au pays du Levant.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Gambetta les eût appuyés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais quel est donc le discours qui vous a déplu ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je n’ai pu éviter une impression pénible en lisant la prosopopée de Colette Baudoche, par M. Vautrin, maire de Metz, il lui fait dire qu’<quote>« avec la réintégration de la Lorraine et de l’Alsace dans la France des difficultés sont mortes, mais d’autres sont nées »</quote>.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>N’y a-t-il pas des difficultés partout ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, mais comment mettre sur le même pied celles de deux sortes si différentes ? L’Allemagne et la France ? le conquérant brutal et la mère-patrie ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ni Colette Baudoche, ni M. le maire de Metz n’ont pu vouloir dire cela.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>M. le maire de Metz prête à Colette ces phrases : <quote>« Nous avons juste sujet de nous enfermer dans l’attitude de défense à laquelle nous ont tristement accoutumés quarante-huit années. »</quote> La Lorraine et l’Alsace se sentiraient donc aussi opprimées dans les bras de la France que sous la botte allemande.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ce n’est pas possible.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Écoutez encore : <quote>« Certains ont prétendu soumettre, dans nos provinces, tous les esprits à l’uniformité de la même discipline intellectuelle, la leur. Le vainqueur de 1870 avait eu, dans un autre dessein, une ambition semblable. Malgré sa puissance il a échoué, et nous ne sommes plus des vaincus. »</quote></p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’avoue que la comparaison n’est pas heureuse.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Toute sentimentalité, et même tout sentiment national à part, elle pèche par la base. Ne parlons même plus de patriotisme, bien que nous ayons cru que le pire des malheurs — et le plus cruellement ressenti en Alsace-Lorraine après 1870 — fut le joug de l’étranger. Nous savions bien aussi, par une longue expérience, que dans un même pays tout le monde ne peut s’accorder en tout, mais nous pensions qu’entre compatriotes les divergences sont moins graves et plus supportables.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On se dispute parfois, en famille, mais à moins d’être l’enfant prodigue qui finit d’ailleurs par s’en repentir, on aime mieux cela que de servir chez les autres.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et d’abord l’analogie instituée par M. le maire de Metz est irrecevable parce que l’Allemagne impériale imposait un régime autoritaire en Alsace-Lorraine, tandis que la France libérale ne légifère que selon la volonté des électeurs. Les sujets annexés à un Empire peuvent être esclaves. Tout citoyen d’une République est libre par là même au même titre et dans la même mesure que tous les autres. En redevenant françaises, selon le désir qu’elles en ont manifesté avec éclat, par leur protestation en 1871 contre le traité de Francfort, et par leur enthousiasme de 1918 à l’entrée de notre armée qui les délivrait, l’Alsace et la Lorraine se sont retrouvées exactement dans la même situation que l’Ile-de-France, la Normandie, la Touraine, la Picardie, la Bourgogne, la Gascogne, la Provence, etc… Dans ces conditions, parler d’oppression est un non-sens.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais les libertés provinciales ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>La liberté est la même pour toutes les provinces qui font partie d’un pays libre.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais certaines lois votées par la majorité de la nation peuvent déplaire à certaines provinces en particulier.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Alors, qu’elles essayent de les faire changer pour tout le pays. C’est un droit qui appartient à tous les citoyens. L’unanimité absolue est matériellement irréalisable. Mais on n’échappe à l’anarchie qu’en acceptant la loi générale. On n’y a même pas grand mérite quand cette législation respecte les droits naturels et essentiels, les droits de l’homme, ainsi que c’est le cas en France et dans toute démocratie civilisée depuis 1789.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les immortels principes !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Souriez, mais notez d’ailleurs que votre régionalisme ne résoudrait rien, puisqu’il y a des dissidences non seulement d’une province à l’autre, mais entre villes d’une même province, et entre habitants d’un même village. Chaque individu a ses opinions et ses préférences. Si loin que vous poussiez la décentralisation, il <hi rend="i">y</hi> aura toujours des mécontents.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Cependant, pour les questions religieuses.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, tout est là, et il ne s’agit pas d’autre chose dans le discours de M. le maire de Metz ni dans l’autonomisme des abbés Haegy, Faschauer et consorts. Ces messieurs ne pardonnent pas à la France sa laïcité. Ce qu’ils veulent conserver et ce qu’ils voudraient consolider dans une Alsace-Lorraine autonome, c’est ce qui existait sous le Second Empire français et ce que l’Allemagne avait maintenu par conservatisme politique : à savoir ce qu’on appelle en termes vulgaires le gouvernement des curés.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous allez encore vous faire comparer à M. Homais.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>J’ai l’habitude. Je reconnais du reste que si tous les Alsaciens et tous les Lorrains en étaient partisans, on pourrait le regretter à un point de vue philosophique, mais la solution décentralisatrice et autonomiste répondrait aux données du problème. Au contraire en Alsace et en Lorraine, comme dans tous les départements français, il y a aussi des libres-penseurs, qui désirent l’école laïque, la séparation de l’Eglise et de l’Etat, et qui espéraient que la France les débarrasserait en même temps du cléricalisme et de l’Allemagne. Alors en accordant à MM. Haegy, Vauthrin, etc… ce qu’ils nomment leurs libertés, on opprime un certain nombre d’autres désannexés qui ne veulent pas de l’école confessionnelle pour leurs enfants.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Le problème est donc insoluble ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Pas du tout, puisqu’il est résolu dans le reste de la France.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les catholiques fervents s’y plaignent bien un peu.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Ils se plaignent toujours. Ce n’est pas moi seulement qui le constate, c’est également M. de Falloux dans un curieux texte cité par M. Louis Bertrand au cours de son dernier livre, la <hi rend="i">Nouvelle Éducation Sentimentale</hi>. Mais ils ne peuvent nier que la neutralité de l’Etat respecte les cultes et les consciences. Et leurs doléances se bornent ici aux moyens corrects. Il n’y a de venin que dans celles de leurs coreligionnaires du Haut-Rhin, du Bas-Rhin et de la Moselle, parce que là elles deviennent une machine de guerre anti-française.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Qu’en eût pensé Barrès ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne puis croire qu’il eût, sous un tel changement de front, reconnu sa Colette Baudoche.</p>
+        </sp>
+      </div>
+      <div>
+        <head>Les Antipenseurs</head>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Ce pauvre François de Curel n’a pas eu une trop bonne presse.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Taine non plus !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Pour Taine, ce n’est pas la même chose.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Vous voulez dire que cela vous est égal ? Vous trouveriez bon que Cousin fût vengé ? Je vous savais spiritualiste…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Mais je ne le suis pas à ce point. Je voulais dire seulement qu’on a fait à Taine surtout des querelles d’école.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, les bergsoniens ont copieusement sévi. Notre ami Thibaudet, dans la <hi rend="i">Revue de Paris</hi>…</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et M. Raymond Isay, dans la <hi rend="i">Revue de France</hi>. Qui est-ce ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Je ne le connais pas. C’est la première fois que je vois son nom. D’après le « chapeau » de Marcel Prévost, il paraît que c’est un jeune.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’avoue que son article est bien vieillot.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et M. Paul Hazard a cité dans son discours de la Sorbonne, à la cérémonie du centenaire, le mot d’un vrai jeune de sa connaissance, lequel admire Taine, parce que Taine est direct et fort.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’en conviens.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et cette force, si franche du collier, n’est-ce pas la marque de la véritable jeunesse ? L’indépendance intrépide des <hi rend="i">Philolosophes français du <num>xix<hi rend="sup">e</hi></num> siècle</hi> et de tous les premiers ouvrages de Taine nous faisaient trépigner d’enthousiasme. Nous avions l’impression de soulever l’éteignoir scolaire et d’arriver enfin à l’air libre. La découverte de Taine a été le grand événement intellectuel pour les collégiens de ma génération.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est la mienne aussi, et je ne suis pas non plus resté insensible à sa maîtrise, bien qu’il me bousculât un peu.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Rien de plus sain. Les assauts d’idées doivent être menés sans faiblesse. Les penseurs ne sont pas des entrepreneurs de ménagements. Et celui-là pensait.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’avoue qu’au fond, c’est peut-être ce qu’on lui reproche.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>N’en doutez pas. Bergson est personnellement muni d’une vaste culture scientifique, mais le bergsonisme sert à prétexter le droit à l’ignorance et la démission de l’esprit.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>J’aime Bergson, mais, en effet, il y a des intuitionnismes bien compromettants.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Tous les illettrés et les paresseux donnent naturellement dans l’intuitionnisme. Cela les dispense de tout effort et autorise la confiance qu’ils placent dans leur génie.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Si encore ils en avaient !</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Même alors, ils le gâteraient, faute d’aliments substantiels et de bases solides.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Quant aux simples amateurs, n’ont-ils pas le droit de suivre bonnement leur plaisir ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est ce que réclamait un chroniqueur d’un journal de province qui a cru se débarrasser définitivement de Taine, en l’appelant l’homme à thèses.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Les thèses sont-elles si nécessaires ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il me semble que personne ne s’en prive. La condamnation même des thèses en est une, et la plus désastreuse.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>On doit bien pouvoir démontrer qu’il est permis de s’en passer.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oui, et je reprenais le vieil argument : s’il ne faut pas philosopher, il faut d’abord philosopher pour en fournir la preuve. Laissons cette question préalable, et ne considérons que le résultat.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est la liberté.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>C’est l’anarchie et l’abrutissement. L’instinct littéraire n’a pas la sûreté de l’instinct animal. Les purs instincts, sans culture et sans critique, ne comprennent rien aux grandes œuvres et se régalent de vulgaires balivernes. En philosophie, en politique et en tout, se décidant par caprice, ils tombent dans les mysticismes les plus absurdes et les pires superstitions.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Votre confrère de province est donc réactionnaire ? Je le croyais radical-socialiste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il y a des obscurantistes dans tous les partis. C’est pourquoi Taine a tant d’ennemis à droite et à gauche.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Oh ! à droite, on le soutient.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Comme la corde… On utilise partiellement — et partialement — ses <hi rend="i">Origines de la France contemporaine</hi>, mais on jette par-dessus bord ce qu’on appelle son scientisme. Voyez Paul Bourget.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Bourget est devenu terriblement pragmatiste.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Contre l’intellectualisme, il y a une coalition. Ceux qui ne veulent pas qu’on pense, par suite de l’autorité et de l’orthodoxie, convergent avec ceux qui ne veulent pas penser, par idolâtrie de leur prétendue sensibilité et indolence de rois fainéants. C’est fatigant de s’instruire. Concevoir un ordre quelconque est ardu. Nos grands seigneurs trouvent cela au-dessous d’eux. Ils préfèrent se vautrer dans le chaos. Ce sont des catoblépas.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Vous oubliez vos chers tortonistes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Oh ! ils se plaçaient bien au même point de vue que les belphégoriens, avec le monocle et les calembours en plus. J’accorde même qu’ils étaient plus gais. Cependant, certains respectent parfois ce qui ne les amuse pas, mais qui leur paraît sérieux. Ils croient pouvoir trancher sur les arts et les lettres pures. Pour la science et la philosophie, l’abstention leur suffit. Ils ont houspillé Baudelaire, Wagner, Stendhal, Mallarmé, Moréas, Valéry, mais je n’ai pas vu le moindre article de Clément Vautel contre Taine.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Et votre excellent Vandérem ?</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Il ne s’est pas spécialement acharné sur Taine, dont il juge pourtant l’étude sur Balzac inférieure à je ne sais quelle notice du genre Larousse. Il s’est borné à railler en bloc la série des centenaires normaliens, et s’est de préférence escrimé contre Weiss qui est un fantaisiste, mais de rare et succulente qualité, dont Vandérem n’a pas le moindre soupçon.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>II s’est déchaîné contre Curel.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Et il s’est fait ramasser à ce propos par Abel Hermant dans un bien spirituel article du <hi rend="i">Figaro</hi>. Pour Vandérem, il n’existe rien au monde de plus vain et de plus ridicule que de penser. Il croit avoir radicalement exécuté et enterré un écrivain lorsqu’il l’a traité de penseur.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>C’est peut-être qu’il se rappelle une historiette de l’ancien <hi rend="i">Figaro</hi> de la rue Drouot. Fernand de Rodays avait alors la manie de définir d’un mot ses collaborateurs. Et l’on peut avouer que ce puissant directeur n’était pas une lumière. Il y a sur lui un trait de Forain… Un jour on lui demanda : « Et Huret ? » Notez que Jules Huret était un très bon journaliste, un grand reporter de premier ordre. Mais on se détourna pour sourire lorsque Fernand de Rodays répondit très sérieusement : « Huret ? C’est un penseur. »</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Très drôle. Mais il ne s’en suit pas que Taine ni Curel soient des sous-Huret. Leurs ennemis ont tort.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Pierre</speaker>
+          <p>Nous n’avions vraiment pas besoin de ces antipenseurs, ayant déjà les antipoètes.</p>
+        </sp>
+        <sp who="m">
+          <speaker>M. Paul</speaker>
+          <p>Mais ce sont les mêmes.</p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
