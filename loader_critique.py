@@ -67,7 +67,7 @@ extra_locals['default_object_level'] = default_object_level
 ## Set-up database load ###
 ###########################
 
-xpaths =  [("doc","."),("div",".//div"),("div",".//div1"),("div",".//div2"),("div",".//div3"),("page",".//pb")]         
+xpaths =  [("doc","."),("div",".//div"),("div",".//div1"),("div",".//div2"),("div",".//div3"),("page",".//pb")]
 
 metadata_xpaths = [ # metadata per type.  '.' is in this case the base element for the type, as specified in XPaths above.
     # MUST MUST MUST BE SPECIFIED IN OUTER TO INNER ORDER--DOC FIRST, WORD LAST
@@ -80,7 +80,7 @@ metadata_xpaths = [ # metadata per type.  '.' is in this case the base element f
     ("div", ".@id","id"),
     ("para", ".@who", "who"),
     ("page", ".@n","n"),
-    ("page", ".@fac","img")
+    ("page", ".@facs","img")
 ]
 
 pseudo_empty_tags = ["milestone"]
@@ -91,7 +91,7 @@ suppress_tags = ["teiHeader",".//head"]
 word_regex = r"([\w]+)"
 punct_regex = r"([\.?!])"
 
-token_regex = word_regex + "|" + punct_regex 
+token_regex = word_regex + "|" + punct_regex
 
 ## Saved in db.locals.py for tokenizing at runtime
 extra_locals["word_regex"] = word_regex
@@ -105,7 +105,7 @@ extra_locals["punct_regex"] = punct_regex
 os.environ["LC_ALL"] = "C" # Exceedingly important to get uniform sort order.
 os.environ["TMPDIR"] = "/var/www/media/tmp/" # alernative dir for big sort
 os.environ["PYTHONIOENCODING"] = "utf-8"
-    
+
 db_destination = database_root + dbname
 data_destination = db_destination + "/data"
 db_url = url_root + dbname
@@ -135,8 +135,8 @@ if __name__ == "__main__":
     filenames = l.list_files()
     ## The following line creates a list of the files to parse and sorts the files by filename
     ## Should you need to supply a custom sort order from the command line you need to supply the files variable,
-    ## defined at the top of this script, instead of filenames, like so: 
-    ## load_metadata = [{"filename":f} for f in files] 
+    ## defined at the top of this script, instead of filenames, like so:
+    ## load_metadata = [{"filename":f} for f in files]
     load_metadata = [{"filename":f} for f in sorted(filenames)]
     l.parse_files(workers,load_metadata)
     l.merge_objects()
