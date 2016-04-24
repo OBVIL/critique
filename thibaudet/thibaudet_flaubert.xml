@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="thibaudet_flaubert">
+<TEI xml:id="thibaudet_flaubert" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,7 +33,7 @@
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
             <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
             <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
@@ -42,7 +42,9 @@
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation><date when="1922"></date></creation>
+      <creation>
+        <date when="1922">1922</date>
+      </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
@@ -51,8 +53,7 @@
   <text>
     <body>
       <div>
-        <head>Introduction
-<lb/>(1935)</head>
+        <head>Introduction <lb/>(1935)</head>
         <p><hi rend="i">L’ouvrage sur</hi> Gustave Flaubert, <hi rend="i">publié en 1922 et depuis longtemps épuisé, est réédité après une révision attentive. La littérature flaubertienne s’est en effet considérablement enrichie depuis douze ans. Des centaines de lettres nouvelles ont été publiées. Une équipe de flaubertistes, à la tête desquels il faut placer et le regretté René Descharmes, et René Dumesnil, ont renouvelé sur plusieurs points notre connaissance biographique du maître. Je n’ai pas revu ce livre à douze ans de distance, sans en juger plusieurs points discutables ou erronés. J’ai donc fait des rectifications et apporté des additions. L’ouvrage est remis presque entièrement à neuf, sans être pour cela un nouveau livre.</hi></p>
         <p><hi rend="i">Chacun des chapitres a été rajeuni et tenu au courant, un seul excepté, le</hi> Style de Flaubert, <hi rend="i">qui ne fait que reproduire à peu de chose près le texte de 1922. Non qu’il soit parfait. Bien au contraire, si l’on s’était mis à compléter les directions sommaires, les têtes de chapitre, les quelques exemples qui le composent, la matière eût exigé un autre volume, aussi considérable. Je l’avais préparé, quelque peu rédigé : j’y ai renoncé.</hi></p>
         <p><hi rend="i">Une bibliographie de Flaubert manquant au volume de 1922, j’aurais pu en donner une ici. Mais, sauf pour quelques additions peu importantes (quelques articles de revue) elle eût fait double emploi avec les bibliographies établies par Descharmes et Dumesnil en 1912 dans</hi> Autour de Flaubert <hi rend="i">et par René Dumesnil dans son</hi> Flaubert <hi rend="i">de 1933. J’ai préféré ajouter dans ce nouveau livre ce qu’on n’eût pas trouvé ailleurs : une bibliographie critique, beaucoup plus sommaire, qui puisse servir de guide provisoire à l’étudiant flaubertiste, d’introduction à la bibliographie complète de Flaubert qu’ont publiée MM. Dumesnil et Demorest.</hi></p>
@@ -252,8 +253,7 @@
         </quote>
         <p>La seule différence est qu’en 1845 il ne se sentait pas encore mûr pour ce travail du style, qu’il ne lui donnait pas dans sa vie la place exclusive, que cette vie était agitée par des rêves, des désirs, dont la littérature n’était que le résidu ou la soupape de sûreté. La trentaine passée, Flaubert s’est calmé ou résigné. Son voyage d’Orient lui a fait sentir l’illusion du changement de place.</p>
         <quote>
-          <l>O que le monde est grand à la clarté des lampes ! 
-<lb/>Aux yeux du souvenir, que le monde est petit !</l>
+          <l>O que le monde est grand à la clarté des lampes ! <lb/>Aux yeux du souvenir, que le monde est petit !</l>
         </quote>
         <p>Ses premières œuvres, et surtout <hi rend="i">Saint Antoine</hi>, étaient écrites à cette clarté grossissante des lampes. Les yeux du souvenir ont changé son optique. Il sait que le monde est petit. Il s’applique à l’observation et l’expression de cette petitesse. Comme La Bruyère et comme les peintres hollandais, il trouve dans ce monde petit une matière consubstantielle à la perfection du style.</p>
         <p>Et ce travail est à ses yeux, aux nôtres aussi, chose aussi belle et aussi enivrante, plus belle et plus enivrante même, quand il écrit <hi rend="i">Madame Bovary</hi> que quand il écrit <hi rend="i">Saint Antoine</hi>. Il ne faut pas abuser des images du bureaucrate et du forçat ; il est même absurde de les employer. Il n’y en a qu’une qui convienne : celle du prêtre, ou, mieux, du moine et du mystique, la même qui hanta Baudelaire. C’est dans le langage même des mystiques que Flaubert exprime, de la façon la plus sincère et la plus directe, la ligne, le mouvement, le sens de son travail. La littérature est l’art des sacrifices, et d’abord d’un sacrifice de soi-même. Mais c’est par un tel sacrifice qu’on arrive à posséder Dieu. <quote>« N’est-il pas de la vie d’artiste, ou plutôt d’une œuvre d’art à accomplir, comme d’une grande montagne à escalader ? Dur voyage et qui demande une volonté acharnée. D’abord on aperçoit d’en bas une haute cime ; dans les cieux elle est étincelante de pureté, elle est effrayante de hauteur ! et elle vous sollicite cependant à cause de cela même. On part, mais à chaque plateau de la route le sommet grandit, l’horizon se recule, on va par les précipices, les vertiges et les découragements, il fait froid ! et l’éternel ouragan des hautes régions vous enlève en passant jusqu’au dernier lambeau de votre vêtement ; la terre est perdue pour toujours et le but sans doute ne s’atteindra pas. C’est l’heure où l’on compte ses fatigues, où l’on regarde avec épouvante les gerçures de sa peau. L’on n’a rien, qu’une indomptable envie de monter plus haut, de finir, de mourir. Quelquefois pourtant un coup des vents du ciel arrive et dévoile à votre éblouissement des perfections innombrables, infinies, merveilleuses. À vingt mille pieds sous soi on aperçoit les hommes, une brise olympienne emplit nos poumons géants et l’on se considère comme un colosse ayant le monde entier pour piédestal. Puis le brouillard retombe et l’on continue à tâtons, à tâtons, s’écorchant les ongles aux rochers et pleurant de la solitude. N’importe ! Mourons dans la neige, dans la blanche douleur de notre désir, au murmure des torrents de l’esprit et la figure tournée vers le soleil. »</quote></p>
@@ -293,8 +293,7 @@
         <p>Le développement, dans le roman de Flaubert, a lieu non par addition, mais par épanouissement, enrichissement concentrique d’un thème posé d’abord de la façon la plus simple. Et cela c’est la forme même de la fatalité qui s’établit. Nous appelons fatal ce qui était déjà donné réellement dans une situation antérieure sans l’être apparemment. Nous avons le sentiment de la fatalité quand nous sentons que ce n’était pas la peine de vivre, puisque nous en revenons exactement au point fixé pour nous avant que nous eussions vécu, lorsque nous voyons que le chemin où nous avions cru aller à la découverte suivait en réalité la forme du cercle où nous étions enfermés.</p>
         <p>Le roman de la fatalité, et pourtant le roman de la vie, et le roman de l’amour.</p>
         <quote>
-          <l>Pour une heure de joie, il faut aimer la vie.
-<lb/>Qui donc, une heure au moins, n’est heureux à son tour ?</l>
+          <l>Pour une heure de joie, il faut aimer la vie. <lb/>Qui donc, une heure au moins, n’est heureux à son tour ?</l>
         </quote>
         <p>Les êtres dont la destinée serre le cœur quand nous la regardons dans sa suite et dans son unité, ils ont connu le moment sacré après lequel toute créature décline et ne compose plus ses jours qu’à la mesure de son tombeau : Charles, lorsque, caché dans un chemin creux, il a vu à la fenêtre de la ferme le signal par lequel le père Rouault lui apprenait qu’il était accepté, Emma dans les premiers temps de ses amours avec Rodolphe. Le roman n’est pas pessimiste ni ironique dans sa totalité, les valeurs lumineuses et les valeurs sombres sont équilibrées, Flaubert n’est pas encore arrivé à l’âcreté de <hi rend="i">Bouvard</hi>.</p>
         <p>Les deux cercles concentriques, c’est Tostes et Yonville. Tostes est une image plus sommaire et plus vide d’Yonville, et le passage d’un bourg à un autre, d’une vie à une autre vie qui est pourtant la même, chez les Bovary, forme un chef d’œuvre de gradation savante et de composition. Tostes ressemble à Yonville, mais comme un crayon à un tableau fini ; Flaubert se garde bien de meubler son premier dessin, et pourtant toutes les valeurs d’Yonville sont là, sans noms propres, réduites à des traits généraux, à des types abstraits, à des maquettes. <quote>« Tous les jours, le maître d’école, en bonnet de soie noire, ouvrait les auvents de sa maison, et le garde champêtre passait, portant son sabre sur sa blouse. »</quote> Ces deux anonymes suffisent ici pour exprimer la régularité d’une petite ville. Mais une petite ville n’est pas seulement une horloge à automate, c’est de l’humanité, c’est le désir d’être ailleurs, c’est du bovarysme, et le perruquier figure cette valeur et l’élément artiste. <quote>« Il se lamentait de sa vocation arrêtée, de son avenir perdu, et, rêvant quelque boutique dans une grande ville, comme à Rouen, par exemple, sur le port, près du théâtre il restait toute la journée à se promener en long, depuis la mairie jusqu’à l’église, sombre et attendant la clientèle. »</quote> L’orgue de Barbarie, sous les fenêtres, met la musique qui convient, première ébauche du roman qui recueillera ces existences.</p>

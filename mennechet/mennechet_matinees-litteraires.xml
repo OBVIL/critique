@@ -3,7 +3,7 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,10 +16,10 @@
           <name>Éric Thiébaud</name>
           <resp>Stylage sémantique</resp>
         </respStmt>
-<respStmt>
-  <name>Stella Louis</name>
-  <resp>Numérisation et encodage TEI</resp>
-</respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
@@ -35,7 +35,7 @@
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
             <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
             <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
@@ -45,7 +45,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1841"/>
+        <date when="1841">1841</date>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -55,8 +55,7 @@
   <text>
     <body>
       <div>
-        <head>Études sur la littérature ancienne et moderne.
-<lb/><hi rend="i">Introduction</hi></head>
+        <head>Études sur la littérature ancienne et moderne. <lb/><hi rend="i">Introduction</hi></head>
         <p><pb n="3"/>Un missionnaire du siècle dernier, montant en chaire pour la première fois devant l’élite de la société parisienne, s’exprimait ainsi : <quote>« À la vue d’un auditoire si nouveau pour moi, il semble que je ne devrais ouvrir la bouche que pour vous demander grâce en faveur d’un pauvre missionnaire dépourvu de tous les talents que vous exigez, quand on vient vous parler de votre salut. »</quote> Ne devrais-je pas, à l’exemple du père Bridaine, vous demander grâce en faveur d’un obscur missionnaire de la religion des lettres qui vient vous entretenir des objets sacrés de son culte ? Une pensée cependant me rassure : c’est que les grands écrivains de l’antiquité et des temps modernes sont, pour la plupart d’entre vous, de ces vieilles connaissances, de ces anciens amis dont on aime toujours à entendre parler ; et que les autres me sauront gré de leur faire connaître ces hommes du passé qui deviendront bientôt leurs amis les plus chers. Un espoir aussi m’encourage. Nous vivons dans un temps où l’ignorance n’est plus permise, et qui cependant offre peu de moyens faciles pour <pb n="4"/>s’instruire et pour s’éclairer. L’instruction que trouve l’enfance dans les collèges, dans les pensionnats et dans l’intérieur des familles est nécessairement élémentaire, et les institutions du collège de France et de l’Université n’ont été fondées que pour donner à la jeunesse une seconde instruction, sans laquelle la première devient bientôt à peu près inutile. Là les plus habiles professeurs voient chaque jour la foule des étudiants se presser pour les entendre et recueillir le fruit de leurs doctes leçons. Mais ces leçons ne peuvent convenir à une classe nombreuse de la société. Les femmes d’ailleurs en sont exclues, comme s’il leur était interdit de pénétrer dans le sanctuaire des lettres, elles qui comptent dans leurs rangs des écrivains que leur envient les nôtres. Où donc trouver cette instruction spéciale aux gens du monde, cette instruction qui est pour eux la source des plus douces jouissances de l’esprit ? Il faut la chercher dans des milliers de volumes, où de longs et pénibles travaux suffisent à peine pour la découvrir. Elle ne se trouve nulle part résumée dans un enseignement plus facile et moins grave que celui des universités, et c’est cet enseignement que nous avons voulu fonder par nos Matinées littéraires.</p>
         <p>Parmi les personnes qui m’écoutent, il en est peut-être qui viennent chercher ici des notions sur l’art d’écrire, avec l’intention de s’y exercer elles-mêmes ; il en est d’autres qui ne veulent qu’éclairer leur jugement, orner leur esprit et former leur goût ; mais le plus grand nombre, dont le jugement, l’esprit et le goût pourraient donner des leçons au lieu d’en recevoir, n’ont besoin que de se souvenir. Je dois le dire à tous ; les études littéraires qui vont nous occuper ne ressembleront point à ces traités de rhétorique, à ces cours de littérature où l’art d’écrire est formulé en règles et en préceptes : je ne vous dirai point comment se font les poèmes et les tragédies, mais je vous ferai connaître les chefs-d’œuvre de la poésie épique et du drame tragique. Une page de Démosthènes, de Cicéron et de Bossuet fait mieux comprendre l’éloquence que tous les traités sur l’art oratoire. L’exemple est le plus utile des enseignements. Le génie se révèle en présence du génie. Ce fut en contemplant un tableau de Michel-Ange, que Raphaël sentit qu’il était peintre, et peut-être est-ce à Corneille que nous devons Racine.</p>
         <p>La nature dépose dans les âmes privilégiées le germe des grands talents ; mais pour le faire éclore, il faut que l’art vienne en aide à <pb n="5"/>la nature. Le terrain le plus fertile a besoin d’être cultivé. L’étude de l’art a donc son utilité ; et si elle ne donne pas le génie, elle en fait du moins mieux sentir la grandeur et la beauté. Winckelmann prétend qu’en présence de l’Apollon du Belvédère, l’homme se redresse involontairement et prend une plus noble attitude. Ainsi la lecture d’un chef-d’œuvre est souvent la plus puissante des inspirations.</p>
@@ -91,8 +90,7 @@
         <p>Pénétré de cette vérité, nous avons mis tous nos soins à nous dépouiller de la gravité des écoles ; et, sans prétendre à vous ravir d’aise et de joie, comme le veut le philosophe de Chéronée, notre ambition sera satisfaite si nous parvenons à vous inspirer quelque intérêt pour nos études, et quelque bienveillance pour nous-même.</p>
       </div>
       <div>
-        <head>Études sur la lecture à haute voix, le débit oratoire, et la déclamation dramatique.
-<lb/><hi rend="i">Introduction</hi></head>
+        <head>Études sur la lecture à haute voix, le débit oratoire, et la déclamation dramatique. <lb/><hi rend="i">Introduction</hi></head>
         <p><pb n="17"/>Si la parole n’était que la pensée rendue sensible à l’oreille par des sons articulés, elle ne serait qu’une invention humaine, comme l’écriture, qui la rend visible aux yeux par des caractères tracés. Mais il faut bien se garder de confondre, comme on l’a fait souvent, la parole avec le langage. La faculté de produire et de moduler des sons par les organes de la voix nous a été donnée avec l’intelligence, avec la vie : la parole est un don de Dieu. L’art de combiner ces sons, au moyen d’articulations distinctes, est né pour nous du besoin de vivre en société : le langage est une convention des hommes. L’instrument est de création divine, l’usage est d’invention humaine.</p>
         <p>Le privilège d’articuler des mots, à l’aide de l’instrument de la voix, semble appartenir à l’homme seul, parmi les êtres de la création ; et c’est à l’homme encore qu’il a été donné d’ajouter à la puissance du langage, ou de suppléer à son insuffisance par des signes extérieurs et visibles. Ces signes sont le regard, la physionomie, l’attitude et le geste.</p>
         <p><pb n="18"/>Cette seconde manière d’exprimer nos pensées et nos sentiments, qu’on nomme pantomime, est trop intimement liée à la première pour qu’on puisse les séparer. Le débit oral, ou l’élocution, est sans doute indépendant de la pantomime, et la pantomime peut également, sans l’aide du langage, servir d’interprète à la pensée ; mais ils se prêtent un mutuel secours, et l’âme ne recevrait qu’une sensation incomplète, si les sens de l’ouïe et de la vue n’étaient affectés qu’isolément. Il importe donc de réunir l’action à l’élocution, la pantomime au langage, pour que la pensée arrive pleine et entière, de l’homme qui parle à l’homme qui écoute.</p>
@@ -331,8 +329,7 @@
         </div>
       </div>
       <div>
-        <head>Matinées littéraires,
-<lb/><hi rend="i">Rue Duphot, 12.</hi></head>
+        <head>Matinées littéraires, <lb/><hi rend="i">Rue Duphot, 12.</hi></head>
         <p><pb n="31"/>Les écoles spéciales ne manquent point à Paris, pour former des hommes de science et de talent. Mais l’instruction qui convient aux gens du monde et répand tant de charme sur les relations de société, cette instruction qui fait mieux apprécier les œuvres du génie et devient la source des plus douces jouissances de l’esprit, il faut la chercher dans les livres... On ne la trouve nulle part résumée dans un enseignement facile ; et c’est cet enseignement que nous avons voulu créer par la fondation des <hi rend="sc">Matinées littéraires</hi>.</p>
         <p>En consacrant ces Matinées à l’étude des Sciences naturelles, de l’Histoire et de la Littérature ancienne et moderne, nous avons choisi, parmi les connaissances humaines, celles qui dans la vie sont d’une application plus fréquente et d’un intérêt plus général.</p>
         <p>À ces enseignements nous avons joint celui de la lecture à haute voix, du débit oratoire et de la déclamation dramatique. Il nous a semblé que cet art, si utile et si négligé de nos jours était un complément d’autant plus nécessaire à nos études, qu’il n’est nulle part l’objet d’un enseignement spécial.</p>
@@ -341,18 +338,18 @@
         <p rend="center b">Le Lundi, à 2 heures. </p>
         <p>Études sur la littérature ancienne et moderne.</p>
         <p>Études sur la lecture à haute voix, la conversation, le débit oratoire et la déclamation dramatique.</p>
-        <p rend="center"><hi rend="sc">Par</hi><hi rend="b">M. ÉD. MENNECHET</hi>, homme de lettres, ex-lecteur 
-<lb/>des rois Louis XVIII et Charles X.</p>
-        <p rend="center"><pb n="32"/><hi rend="b">Le Vendredi, à 2 heures.</hi> </p>
+        <p rend="center"><hi rend="sc">Par</hi><hi rend="b">M. ÉD. MENNECHET</hi>, homme de lettres, ex-lecteur <lb/>des rois Louis XVIII et Charles X.</p>
+        <p rend="center">
+          <pb n="32"/>
+          <hi rend="b">Le Vendredi, à 2 heures.</hi>
+        </p>
         <p><hi rend="sc">Études historiques</hi> sur l’Orient : comprenant les Arabes — Mahomet et ses sectateurs — les Croisades — la Chute de l’empire d’Orient — les Turcs — leur puissance — leur décadence jusqu’à nos jours.</p>
         <p rend="center"><hi rend="sc">Par</hi><hi rend="b">M. MILLET</hi>, professeur d’histoire à l’École militaire de Saint-Cyr.</p>
         <p rend="center b">Le même jour, à 3 heures.</p>
         <p><hi rend="sc">Sciences naturelles</hi>. — De la vie et des formes variées que présentent les êtres vivants, soit végétaux, soit animaux ; — Examen des phénomènes physiques et chimiques qui résultent de l’existence des êtres organisés. — Application de ces connaissances à l’hygiène publique et à l’éducation particulière.</p>
-        <p rend="center"><hi rend="sc">Par</hi><hi rend="b">M. ACHILLE COMTE</hi>, professeur d’histoire naturelle 
-<lb/>au Collège royal de Charlemagne.</p>
+        <p rend="center"><hi rend="sc">Par</hi><hi rend="b">M. ACHILLE COMTE</hi>, professeur d’histoire naturelle <lb/>au Collège royal de Charlemagne.</p>
         <p/>
-        <p rend="center"><hi rend="i">Les conditions d’abonnement sont</hi> :
-</p>
+        <p rend="center"><hi rend="i">Les conditions d’abonnement sont</hi> : </p>
         <p>Littérature et lecture à haute voix.</p>
         <p>       Deux cours en vingt séances ou matinées… 100 fr.</p>
         <p>Histoire et sciences naturelles.</p>

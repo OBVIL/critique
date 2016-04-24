@@ -3,7 +3,7 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -35,7 +35,7 @@
             <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
             <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
             <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p> 
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
@@ -45,7 +45,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1864"/>
+        <date when="1864">1864</date>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -86,7 +86,8 @@
         <p><pb n="12"/>Mais si la critique ne peut rien pour les lettres, en revanche elle leur enlève des talents qui peut-être leur feraient quelque honneur. C’est ici, Monsieur, mon plus fort grief. Les jeunes gens débutent aujourd’hui par un article de critique, comme on débutait jadis par une ode au roi ou un bouquet à Chloris. Une fois engagés dans cette voie, ils y persistent, les uns par goût, un plus grand nombre pour n’en pouvoir sortir. Ce qui les attire et les retient, ce n’est pas, j’en suis convaincu, le plaisir de médire. Non, ils sont au-dessus de cette passion basse ; et, ce qui le prouve, c’est que presque tous travaillent à éveiller l’admiration paresseuse du public. Mais de toutes les œuvres littéraires, la critique est la plus aisée à mal faire. L’amour-propre y trouve son compte ; on se plaît à se reconnaître un fonds d’idées que la lecture fait découvrir. On contente ainsi ce besoin si impérieux de la jeunesse de communiquer ses impressions et de répandre ses sentiments. Enfin, le travail d’invention, le plus pénible de tous, est presque nul ici, et l’on se procure, sans grande peine, le plaisir de voir son nom en grosses lettres au bas d’une page imprimée. D’autres se livrent à cette besogne par nécessité. Portez à un théâtre une pièce nouvelle, on vous demandera si vous avez un nom. Présentez à une Revue une pièce de poésie, la poésie est de mauvaise défaite, et la Revue a ses poètes en titre. Mais enfourchez la critique, il se rencontrera bien quelque petit recoin pour vous abriter, vous et votre monture. C’est le secret de beaucoup de vocations. Les uns et les autres ne prennent d’abord la critique que comme un pis-aller et se promettent bien de lui manquer de parole à la première occasion ; mais ici commence l’enchantement. C’est une remarque de Sénèque que la lecture trop prolongée énerve l’esprit ; il en est de même de la critique. On s’abandonne à ce facile travail et l’on devient peu à peu incapable d’ouvrages qui demandent un plus grand effort d’esprit. On compile, on <pb n="13"/>lit, on compare, on n’invente rien. L’esprit perd son ressort, l’imagination se fane, et quand on veut faire appel à son génie, on reconnaît avec douleur que le génie est mort ou bien malade. L’opération est complète ; vous avez votre place au sérail ; mais quelle place, et à quel prix !</p>
         <p>Je vous ai exposé mes doutes et mes griefs. Est-ce à dire que je veuille bannir la critique ? Dieu m’en garde, puisqu’aussi bien je la pratique, quoique avec remords ; mais il ne faut pas lui souffrir trop d’ambition. Elle s’est donnée d’abord comme un nouveau genre de littérature ; elle tend aujourd’hui à les absorber tous ou du moins à les dominer. Disons-lui donc ses vérités avec franchise. Elle ne forme ni ne guide l’esprit public, elle le suit, et c’est pourquoi chaque siècle a sa critique. Elle n’inspire pas les artistes ; elle les gâte par ses éloges, les gêne par ses contradictions. Elle ne dirige pas l’art, elle en constate les progrès ou la décadence. Et quand, à force d’impartialité, de science et de goût, elle a exprimé son opinion dans un bon langage, elle n’a encore fait qu’une œuvre secondaire, inférieure à la moindre des œuvres originales. Vingt pages que l’on tire de soi, vingt vers où l’on met son âme, valent mieux que des volumes de critique.</p>
         <p>Recevez, Monsieur le Directeur, etc.</p>
-        <signed><hi rend="sc">A. Aderer</hi>.</signed></div>
+        <signed><hi rend="sc">A. Aderer</hi>.</signed>
+      </div>
     </body>
   </text>
 </TEI>
