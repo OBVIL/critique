@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
- — <teiHeader> Barbey d’Aurevilly n’est pas un éditeur électronique
- — un <div> de trop
--->
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barbey-aurevilly_philosophes" xml:lang="fr">
   <teiHeader>
@@ -51,7 +47,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date notBefore="1833" notAfter="1884"/>
+        <date notBefore="1833" notAfter="1884">1884</date>
       </creation>
       <langUsage>
         <language ident="fr"/>
