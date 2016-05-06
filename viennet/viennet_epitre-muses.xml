@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Épître aux muses sur les romantiques</title>
+        <author key="Viennet, Jean-Pons-Guillaume (1777-1868)">J.-P.-G. Viennet</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Édition TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http ://obvil.paris-sorbonne.fr/corpus/critique/viennet_epitre-muses/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/viennet_epitre-muses.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/viennet_epitre-muses.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/viennet_epitre-muses.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/viennet_epitre-muses.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>J.-P.-G. Viennet</author>, <title>Épître aux muses sur les romantiques</title>, <pubPlace>Paris</pubPlace>, <publisher>Ladvocat</publisher>, <date>1824</date>, in-8, 15 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k9610773v">Gallica</ref>. Graphies modernisées.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1824"/>
+      </creation>
+      <langUsage>
+        <language>fr</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+      <head>[Épitre aux muses]</head>
+      <l>     <hi rend="sc">Allons</hi>, Muses, debout ; faisons du romantique ;</l>
+      <l>Extravaguons ensemble, et narguons la critique.</l>
+      <l>Livrons-nous sans réserve aux élans vagabonds</l>
+      <l>De ce feu créateur, qu’en ses gouffres profonds</l>
+      <l>D’un cœur impétueux nourrit l’indépendance.</l>
+      <l>Mon vigoureux génie, enfant de la licence,</l>
+      <l>S’indigne des liens qu’au langage des dieux</l>
+      <l>Imposa trop longtemps un goût injurieux.</l>
+      <l>Que la raison, fuyant aux accords de ma lyre,</l>
+      <l>De mes sens emportés respecte le délire.</l>
+      <l>Ma pensée est captive en ce vaste univers :</l>
+      <l>Lançons-nous dans le vague, et qu’au bruit de mes vers</l>
+      <l>Jaillissent au hasard sur la terre éblouie</l>
+      <l>Des torrens de lumière et des flots d’harmonie.</l>
+      <l>     Quoi ! vous me regardez ! et vos yeux secs et froids</l>
+      <l>Semblent me demander si je parle iroquois !</l>
+      <l>Vous ne comprenez pas ces figures sublimes !</l>
+      <l>Nos grands auteurs pour vous sont donc des anonymes !</l>
+      <l>À douze éditions leurs vers sont parvenus,</l>
+      <l>Et leurs noms immortels ne vous sont pas connus !</l>
+      <l>Dormez-vous sur le Pinde ! et faut-il que j’explique</l>
+      <l>Ce qu’on nomme aujourd’hui le genre romantique ?</l>
+      <l>Vous m’embarrassez fort ; car je dois convenir</l>
+      <l>Que ses plus grands fauteurs n’ont pu le définir.</l>
+      <l>Depuis quinze ou vingt ans que la France l’admire,</l>
+      <l>On ne sait ce qu’il est ni ce qu’il veut nous dire.</l>
+      <l>Staël<note resp="author">Je n’attaque en rien le mérite de Madame de Staël, je rends hommage à son génie ; j’honore sa mémoire, et ne la considère ici que comme une des plus ardentes instigatrices d’un genre de littérature que repousse la sévérité du goût français.</note>, Morgan et Schlégel.… ne vous effrayez pas,</l>
+      <l>Muses, ce sont des noms fameux dans nos climats,</l>
+      <l>Chefs de la propagande, ardens missionnaires,</l>
+      <l>Parlant le romantique et prêchant ses mystères.</l>
+      <l>Il n’est pas un Anglais, un Suisse, un Allemand,</l>
+      <l>Qui n’éprouve à leurs noms un saint frémissement.</l>
+      <l>Quand on sait l’esclavon, l’on comprend leur système ,</l>
+      <l>Et s’ils étaient d’accord je l’entendrais moi-même ;</l>
+      <l>Mais un adepte enfin m’ayant endoctriné,</l>
+      <l>Je vais dire à peu près ce que j’ai deviné.</l>
+      <l>     C’est une vérité qui n’est point la nature ;</l>
+      <l>Un art qui n’est point l’art, de grands mots sans enflure ;</l>
+      <l>C’est la mélancolie et la mysticité ;</l>
+      <l>C’est l’affectation de la naïveté,</l>
+      <l>C’est un monde idéal qu’on voit dans les nuages :</l>
+      <l>Tout, jusqu’au sentiment, n’y parle qu’en images.</l>
+      <l>C’est la voix du désert ou la voix du torrent,</l>
+      <l>Ou le roi des tilleuls, ou le fantôme errant,</l>
+      <l>Qui, le soir, au vallon, vient siffler ou se plaindre,</l>
+      <l>Des figures enfin qu’un pinceau ne peut peindre.</l>
+      <l>C’est un je ne sais quoi dont on est transporté ;</l>
+      <l>Et moins on le comprend, plus on est enchanté,</l>
+      <l>     J’en ai fait l’autre jour une épreuve cruelle :</l>
+      <l>J’étais dans un salon, dont la dame encor belle</l>
+      <l>Depuis dix ou trente ans tient un bureau d’esprit,</l>
+      <l>Et fait de nos auteurs la gloire ou le crédit.</l>
+      <l>Un essaim de beautés réfléchi par vingt glaces,</l>
+      <l>Étalait à l’envi ses attraits et ses grâces y</l>
+      <l>De leurs riches atours les yeux étaient charmés.</l>
+      <l>Le cercle était brillant et des plus renommés :</l>
+      <l>Un auteur romantique en faisait les délices.</l>
+      <l>C’était un beau jeune homme, une tête à caprices ;</l>
+      <l>Son front à demi chauve, et le désordre heureux</l>
+      <l>Où tout l’art d’Hippolyte avait mis ses cheveux,</l>
+      <l>Son cou penché, son air tendre et mélancolique,</l>
+      <l>Ses yeux à peine ouverts, et son regard oblique,</l>
+      <l>Tout en lui décelait une peine de cœur,</l>
+      <l>Que de son teint fleuri démentait la fraîcheur.</l>
+      <l>En Talma tout-à-coup mon homme se dessine;</l>
+      <l>Et s’arrachant les vers du fond de la poitrine,</l>
+      <l>Sa languissante voix, en accens douloureux,</l>
+      <l>Psalmodie un poëme en l’honneur de nos preux.</l>
+      <l>C’était un feu roulant d’énigmes, d’hyperboles.</l>
+      <l>Je cherchai vainement le sens de ses paroles,</l>
+      <l>Et crus que mes voisins allaient être indignés</l>
+      <l>Des bulles de savon qu’il leur jetait au nez.</l>
+      <l>Ce furent des bravos, des transports, des extases.</l>
+      <l>La beauté se pâmait en répétant ses phrases ;</l>
+      <l>Et quand il eut fini de les faire claquer,</l>
+      <l>Aucun des auditeurs ne sut les expliquer.</l>
+      <l>Je ne sais, disaient-ils ; mais quels vers, quelles rimes !</l>
+      <l>Tout est beau, tout est grand ; tous ses mots sont sublimes !</l>
+      <l>C’est là du romantique ; il est charmant, divin !</l>
+      <l>Cet auteur doit prétendre au plus noble destin.</l>
+      <l>Je voulus sur un vers essayer ma critique ;</l>
+      <l>Je fus apostrophé du surnom de classique ;</l>
+      <l>Et de cette hérésie atteint et convaincu,</l>
+      <l>Sous ce nom flétrissant je restai confondu.</l>
+      <l>     Ne me citez donc plus Voltaire ni Racine.</l>
+      <l>Ils n’avaient point reçu l’influence divine ;</l>
+      <l>Ils parlaient comme on parle ; et leur style bien net</l>
+      <l>Peignait le cœur humain, comme Dieu l’avait fait.</l>
+      <l>Cette erreur a fini, comme leur renommée.</l>
+      <l>Leur immortalité vient d’être supprimée ;</l>
+      <l>Et c’est de Lilliput que l’arrêt est daté.</l>
+      <l>Il faut voir de quel air Despréaux est traité :</l>
+      <l>Ce rimeur, se traînant dans l’ornière d’Horace,</l>
+      <l>Prétendait à son tour régenter le Parnasse,</l>
+      <l>Aux lois du sens commun soumettre l’art des vers ;</l>
+      <l>Limiter le génie et lui donner des fers.</l>
+      <l>Le romantique est libre et se moque des règles.</l>
+      <l>Les chaînes, les barreaux sont-ils faits pour les aigles ?</l>
+      <l>C’était bon pour Racine et tous les beaux-esprits,</l>
+      <l>Que l’hôtel Rambouillet a justement flétris.</l>
+      <l>Aussi qu’a-t-il produit ? <hi rend="i">Andromaque, Athalie</hi> ;</l>
+      <l>Un style fatigant par sa monotonie ;</l>
+      <l>Point de verve, d’élan ; rien qui vise à l’effet.</l>
+      <l>Voltaire s’est permis de le trouver parfait.</l>
+      <l>Hélas ! qu’en savait-il, lui qui rimait à peine ?</l>
+      <l>Les vers trop aisément s’échappaient de sa veine.</l>
+      <l>Le style de sa prose est trop simple et trop clair.</l>
+      <l>Ses histoires, d’ailleurs, sont des contes en l’air.</l>
+      <l>Regnard’ fait rire encor la vile populace ;</l>
+      <l>Mais sa plaisanterie est de mauvaise grâce.</l>
+      <l>Jean-Jacques, trop diffus, manque de profondeur.</l>
+      <l>Fénélon est sans nerf, sans pompe, sans couleur.</l>
+      <l>Corneille, que soutient une vieille énergie,</l>
+      <l>S’il n’était inégal n’aurait point de génie ;</l>
+      <l>Et Molière lui-même eût été réformé,</l>
+      <l>Si le Welche et l’Anglais ne l’avaient estimé.</l>
+      <l>De ces arrêts en vain notre raison murmure ;</l>
+      <l>Nous sommes les ultras de la littérature ;</l>
+      <l>Et, comme en tous pays les ultras sont des fous,</l>
+      <l>Dans Paris, sans façon, l’on se moque de nous.</l>
+      <l>     Muses, à mes dépens je ne veux plus qu’on rie ;</l>
+      <l>Et vous m’inspirerez suivant ma fantaisie.</l>
+      <l>Si vous dictez un vers qui ne sente l’effort,</l>
+      <l>Et qu’avant d’applaudir, on comprenne d’abord,</l>
+      <l>Je le mets au rebut comme un vieil invalide.</l>
+      <l>Je veux du clair-obscur, du nébuleux limpide,</l>
+      <l>De ces mots qu’à Ronsard inspirait Apollon.</l>
+      <l>C’est le goût de mon siècle, et qui paie a raison.</l>
+      <l>Je veux que l’on m’achète, et surtout qu’on m’admire.</l>
+      <l>De l’office au boudoir, je veux me faire lire ;</l>
+      <l>J’entends que mon libraire élève mes écrits</l>
+      <l>À treize éditions, dussé-je en payer dix.</l>
+      <l>Je prétends qu’à tout prix on me fasse une gloire ;</l>
+      <l>Que dans tous les journaux on chante ma victoire.</l>
+      <l>J’ai la marotte enfin d’aller à l’Institut ;</l>
+      <l>Et, hors du romantique, il n’est plus de salut.</l>
+      <l>     Suivez donc mes conseils, ou désertez l’Europe.</l>
+      <l>Je commence par toi, superbe Calliope,</l>
+      <l>Muse de l’épopée, et qui, jusqu’à ce jour,</l>
+      <l>N’as trouvé qu’un Français digne de ton amour.</l>
+      <l>Console-toi ; mon siècle aura plus d’un Homère.</l>
+      <l>Nous sommes quinze ou vingt qui cherchons à te plaire.</l>
+      <l>Par mon ingrat pays, fut en vain adopté</l>
+      <l>L’arrêt que Malezieu contre nous a porté.</l>
+      <l>Avant que dix moissons dans nos champs soient coupées,</l>
+      <l>Mon pays subira quinze ou vingt épopées.</l>
+      <l>J’en fais deux pour ma part ; et, quoique les journaux</l>
+      <l>N’aient point à l’univers annoncé mes travaux,</l>
+      <l>Que, n’ayant point encor des prôneurs à ses gages,</l>
+      <l>Ma Minerve dans l’ombre ait tramé ces ouvrages,</l>
+      <l>Je veux au romantique en devoir le débit ;</l>
+      <l>Et que tous mes rivaux en crèvent de dépit.</l>
+      <l>Ne m’inspire donc rien qui sente l’Énéïde,</l>
+      <l>L’Homère, l’Arioste, ou le chantre d’Armide.</l>
+      <l>Le vieux goût les infecte ; ils ont trop de raison,</l>
+      <l>Je ne veux imiter que le sombre Milton,</l>
+      <l>Milton seul est poëte ; un Journal le déclare :</l>
+      <l>C’est en vain que Dryden l’a traité de barbare.</l>
+      <l>Voltaire vainement nous répète vingt fois</l>
+      <l>Que, sur ses douze chants, on peut en lire trois ;</l>
+      <l>Que le reste est absurde et plein d’extravagances,</l>
+      <l>Grossier, bizarre, obscur, chargé d’invraisemblances ;</l>
+      <l>C’est par là qu’il nous plaît \ l’ombre sert aux tableaux ;</l>
+      <l>Verrait-on ses beautés, s’il n’avait des défauts ?</l>
+      <l>C’est en extravaguant qu’on est vraiment épique ;</l>
+      <l>Et moins on a de goût, plus on est romantique.</l>
+      <l>     Pour toi, douce Erato, si tu tiens à Parny,</l>
+      <l>Si Dufrénoy te plaît, ton empire est fini.</l>
+      <l>Des sentimens du cœur ne sois plus l’interprète;</l>
+      <l>La sensibilité n’est plus que dans la tête.</l>
+      <l>Le siècle n’est pas tendre, il n’est que vaporeux ;</l>
+      <l>Quand on est romantique on n’est point amoureux.</l>
+      <l>Au pied des vieux châteaux et des vieux monastères,</l>
+      <l>Chante en vers ampoulés des maux imaginaires,</l>
+      <l>Fais soupirer les bois, les rochers et les fleurs ;</l>
+      <l>Mais ne soupire pas si tu veux des lecteurs.</l>
+      <l>     Laisse pleurer Thalie, on lui défend de rire ;</l>
+      <l>De nos mœurs trop longtemps elle a fait la satire ;</l>
+      <l>Elle frondait le vice, et croyait bonnement</l>
+      <l>Que les sots étaient faits pour son amusement.</l>
+      <l>Quelque puissant du jour pourrait s’y reconnaître ;</l>
+      <l>Le public en rirait, cela ne doit pas être.</l>
+      <l>Mais Thalie à son gré prendra ses libertés</l>
+      <l>Dans le cercle amusant de nos infirmités.</l>
+      <l>Qu’un aveugle, un boiteux, un sourd, un cul-de-jatte,</l>
+      <l>Un héros, dont le cou se perd sous l’omoplate,</l>
+      <l>Dans un drame bien noir s’introduise à propos ;</l>
+      <l>Le parterre attendri poussera des sanglots.</l>
+      <l>Peut-être direz-vous, qu’en adoptant les larmes,</l>
+      <l>La joyeuse Thalie a perdu tous ses charmes ;</l>
+      <l>Qu’autrefois chaque muse avait son genre à part.</l>
+      <l>C’est ainsi que pensaient et Molière et Regnard ;</l>
+      <l>Mais notre romantisme a brisé ces barrières,</l>
+      <l>Confondu tous les goûts, les styles, les manières.</l>
+      <l>Nos comiques du jour veulent toucher le cœur.</l>
+      <l>Lachaussée, auprès d’eux, était un vrai farceur ;</l>
+      <l>Et, si le goût anglais envahit notre scène,</l>
+      <l>Nous irons quelque jour rire avec Melpomène.</l>
+      <l>     Shakespeare est dans ce genre un poëte sans prix :</l>
+      <l>Quelle variété règne dans ses écrits !</l>
+      <l>C’est tour à tour Sophocle, et Térence, et Paillasse ;</l>
+      <l>Nul ne fait mieux que lui parler la populace,</l>
+      <l>Ne passe avec plus d’art du sublime au bouffon.</l>
+      <l>Rien n’est plus amusant que l’Eschyle breton ;</l>
+      <l>Il nous porte à son gré du Tibre à la Tamise,</l>
+      <l>Du Nil au Capitole et de Chypre à Venise,</l>
+      <l>Mêle aux discours des rois les lazis des manans ;</l>
+      <l>Confond les savetiers avec les conquérans ;</l>
+      <l>Et des trois unités méprisant l’hérésie,</l>
+      <l>Mettrait le monde entier dans une tragédie.</l>
+      <l>     L’Allemagne est encore un sol miraculeux.</l>
+      <l>Son théâtre est fertile en auteurs nébuleux.</l>
+      <l>Un classique rira de leur style emphatique,</l>
+      <l>Et du fatras pompeux de leur métaphysique.</l>
+      <l>Peut-être dira-t-il qu’aux plus mâles beautés</l>
+      <l>Ils mêlent du pathos et des absurdités ;</l>
+      <l>Que l’amour dans leurs vers est un dévergondage ;</l>
+      <l>Que chez eux les héros font du marivaudage.</l>
+      <l>Eux seuls sur le théâtre ont porté la terreur.</l>
+      <l>Qui n’a point lu Schiller ne connaît point l’horreur.</l>
+      <l>Du tragique bourgeois il est le vrai modèle :</l>
+      <l>De sa plume de fer le vitriol ruisselle.</l>
+      <l>S’il n’agit sur les cœurs, il agit sur les nerfs.</l>
+      <l>C’est un vrai cauchemar qu’on a les yeux ouverts :</l>
+      <l>Il suffoque ; et malheur aux petites maîtresses,</l>
+      <l>Qui voudraient sans éther assister à ses pièces !</l>
+      <l>     Mais si parmi les Goths, les Pictes, les Teutons,</l>
+      <l>Nos rimeurs aujourd’hui vont prendre des leçons,</l>
+      <l>Que nos historiens n’en suivent point la trace,</l>
+      <l>Et des Anglais surtout n’imitent point l’audace.</l>
+      <l>Avec trop d’équité jugeant les souverains,</l>
+      <l>D’un œil trop philosophe ils ont vu les humains.</l>
+      <l>Avec trop de raison leur histoire est écrite ;</l>
+      <l>Ils suivent de trop près Tite-Live et Tacite.</l>
+      <l>Nous faisons beaucoup mieux ; et malgré les jaloux,</l>
+      <l>La prose toman tique a surgi parmi nous.</l>
+      <l>En vain de ses écrits Walter Scott nous inonde ;</l>
+      <l>Nous divaguions en prose avant qu’il fût au monde.</l>
+      <l>Le style romantique a dès le consulat</l>
+      <l>Ouvert l’académie et le conseil d’État.</l>
+      <l>On en fit des sermons et des réquisitoires ;</l>
+      <l>On en fit des romans, on en fit des histoires ;</l>
+      <l>Et la gauche et la droite, adoptant ce jargon,</l>
+      <l>En font à la tribune au nez de Cicéron.</l>
+      <l>     Je ne veux point ici blesser la modestie</l>
+      <l>Des prosateurs fameux qu’admire ma patrie ;</l>
+      <l>Mais je loûrai leur style et leurs descriptions,</l>
+      <l>La grâce et la clarté de leurs inversions,</l>
+      <l>Le fracas de leurs mots, et ces phrases sublimes,</l>
+      <l>Qui, pour être des vers, n’ont besoin que de rimes.</l>
+      <l>Un Boileau n’y verrait que du bruit, du clinquant ;</l>
+      <l>Mais tout, jusqu’à leurs points...., m’en paraît éloquent.</l>
+      <l>     Vous me direz en vain que ce genre est bizarre ;</l>
+      <l>Qu’il infesta Paris d’une école barbare ;</l>
+      <l>Que, le maître excepté, ces nouveaux Lycophrons</l>
+      <l>Devraient tenir séance aux petites-maisons ;</l>
+      <l>Que, ne pouvant du maître imiter le génie,</l>
+      <l>À défaut de sa verve, ils ont pris sa manie;</l>
+      <l>Que, pour être immortel, il faut du sens commun,</l>
+      <l>Et que les temps futurs n’en connaîtront pas un.</l>
+      <l>Que nous fait l’avenir, si nous vivons célèbres ;</l>
+      <l>Si le siècle applaudit nos œuvres des ténèbres ;</l>
+      <l>Si nos contemporains, sur la foi des journaux,</l>
+      <l>Nous prennent bêtement pour des soleils nouveaux ;</l>
+      <l>Si, courbés sous le poids des honneurs littéraires,</l>
+      <l>Nous voyons, l’or en main, accourir les libraires ;</l>
+      <l>Si, grâce à nos patrons, la cassette du roi</l>
+      <l>Nous paie en bons louis nos vers de faux aloi ?</l>
+      <l>Irai-je démentir et la cour et la ville,</l>
+      <l>Traiter tout un public de dupe et d’imbécile ?</l>
+      <l>J’aime mieux me moquer de la postérité,</l>
+      <l>Escompter en lingots mon immortalité.</l>
+      <l>L’argent et les honneurs valent mieux que la gloire :</l>
+      <l>Il faut soigner sa vie et non pas sa mémoire.</l>
+      <l>Que m’importe après tout que mon pays ait tort ?</l>
+      <l>Qu’ai-je à faire d’un nom cent ans après ma mort ?</l>
+      <l>Que me sert d’enrichir l’éditeur de mes œuvres,</l>
+      <l>Si j’ai toute ma vie avalé des couleuvres ?</l>
+      <l>Redresse qui voudra les erreurs des mortels !</l>
+      <l>Je cède au vent qui souffle ; et comme tels et tels,</l>
+      <l>J’aime mieux être enfin un seigneur en nature,</l>
+      <l>Un Chapelain vivant, qu’un Homère en peinture.</l>
+      </div>
+    </body>
+  </text>
+</TEI>
