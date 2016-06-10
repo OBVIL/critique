@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Préface d’<hi rend="i">Adolphe</hi> (3<hi rend="sup">e</hi> édition)</title>
+        <author key="Constant, Benjamin (1767-1830)">Benjamin Constant</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Édition TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http ://obvil.paris-sorbonne.fr/corpus/critique/constant_preface-adolphe/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/constant_preface-adolphe.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/constant_preface-adolphe.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/constant_preface-adolphe.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/constant_preface-adolphe.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Benjamin Constant</author>, <title>« Préface d’Adolphe (3<hi rend="sup">e</hi> édition) » [1824]</title>, in <hi rend="i">Adolphe, anecdote trouvée dans les papiers d’un inconnu, par Benjamin Constant, nouvelle édition suivie de Quelques réflexions sur le Théâtre Allemand et sur la tragédie de Wallstein, et de l’Esprit de Conquête et de l’Usurpation.</hi> <pubPlace>Paris</pubPlace>, <publisher>Charpentier libraire-éditeur</publisher>, <date>1842</date>. Graphies modernisées.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1824"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+      <head>Préface de la troisième édition</head>
+      <p>Ce n’est pas sans quelque hésitation que j’ai consenti à la réimpression de ce petit ouvrage, publié il y a dix ans. Sans la presque certitude qu’on voulait en faire une contrefaçon en Belgique, et que cette contrefaçon, comme la plupart de celles que répandent en Allemagne et qu’introduisent en France les contrefacteurs belges, serait grossie d’additions et d’interpolations auxquelles je n’aurais point eu de part, je ne me serais jamais occupé de cette anecdote, écrite dans l’unique pensée de convaincre deux ou trois amis, réunis à la campagne, de la possibilité de donner une sorte d’intérêt à un roman dont les personnages se réduiraient à deux, et dont la situation serait toujours la même.</p>
+      <p>Une fois occupé de ce travail, j’ai voulu développer quelques autres idées qui me sont survenues et ne m’ont pas semblé sans une certaine utilité. J’ai voulu peindre le mal que font éprouver même aux cœurs arides les souffrances qu’ils causent, et cette illusion qui les porte à se croire plus légers ou plus corrompus qu’ils ne le sont. À distance, l’image de la douleur qu’on impose paraît vague et confuse, telle qu’un nuage facile à traverser ; on est encouragé par l’approbation d’une société toute factice, qui supplée aux principes par les règles et aux émotions par les convenances, et qui hait le scandale comme importun, non comme immoral, car elle accueille assez bien le vice quand le scandale ne s’y trouve pas ; on pense que des liens formés sans réflexion se briseront sans peine. Mais quand on voit l’angoisse qui résulte de ces liens brisés, ce douloureux étonnement d’une âme trompée, cette défiance qui succède à une confiance si complète, et qui, forcée de se diriger contre l’être à part du reste du monde, s’étend à ce monde tout entier, cette estime refoulée sur elle-même et qui ne sait plus où se replacer ; on sent alors qu’il y a quelque chose de sacré dans le cœur qui souffre parce qu’il aime ; on découvre combien sont profondes les racines de l’affection qu’on croyait inspirer sans la partager ; et si l’on surmonte ce qu’on appelle faiblesse, c’est en détruisant en soi-même tout ce qu’on a de généreux, en déchirant tout ce qu’on a de fidèle, en sacrifiant tout ce qu’on a de noble et de bon. On se relève de cette victoire, à laquelle les indifférents et les amis applaudissent, ayant frappé de mort une portion de son âme, bravé la sympathie, abusé de la faiblesse, outragé la morale en la prenant pour prétexte de la dureté ; et l’on survit à sa meilleure nature, honteux ou perverti parce triste succès.</p>
+      <p>Tel a été le tableau que j’ai voulu tracer dans <hi rend="i">Adolphe</hi>. Je ne sais si j’ai réussi ; ce qui me ferait croire au moins à un certain mérite de vérité, c’est que presque tous ceux de mes lecteurs que j’ai rencontrés m’ont parlé d’eux-mêmes comme ayant été dans la position de mon héros. Il est vrai qu’à travers les regrets qu’ils montraient de toutes les douleurs qu’ils avaient causées, perçait je ne sais quelle satisfaction de fatuité ; ils aimaient à se peindre comme ayant, de même qu’Adolphe, été poursuivis par les opiniâtres affections qu’ils avaient inspirées, et victimes de l’amour immense qu’on avait conçu pour eux. Je crois que pour la plupart ils se calomniaient, et que si leur vanité les eût laissés tranquilles, leur conscience eût pu rester en repos.</p>
+      <p>Quoi qu’il en soit, tout ce qui concerne Adolphe m’est devenu fort indifférent ; je n’attache aucun prix à ce roman, et je répète que ma seule intention, en le laissant reparaître devant un public qui l’a probablement oublié, si tant est que jamais il l’ait connu, a été de déclarer que toute édition qui contiendrait autre chose que ce qui est renfermé dans celle-ci ne viendrait pas de moi, et que je n’en serais pas responsable.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
