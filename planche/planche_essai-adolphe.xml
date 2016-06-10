@@ -34,7 +34,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gustave Planche</author>, <title>Essai sur <hi rend="i">Adolphe</hi></title>, in Benjamin Constant, <hi rend="i">Adolphe, anecdote trouvée dans les papiers d’un inconnu, par Benjamin Constant, nouvelle édition suivie de Quelques réflexions sur le Théâtre Allemand et sur la tragédie de Wallstein, et de l’Esprit de Conquête et de l’Usurpation.</hi> Paris, Charpentier libraire-éditeur, 1842. Graphies modernisées.</bibl>
+        <bibl><author>Gustave Planche</author>, <title>Essai sur <hi rend="i">Adolphe</hi></title>, in Benjamin Constant, <hi rend="i">Adolphe, anecdote trouvée dans les papiers d’un inconnu, par Benjamin Constant, nouvelle édition suivie de Quelques réflexions sur le Théâtre Allemand et sur la tragédie de Wallstein, et de l’Esprit de Conquête et de l’Usurpation.</hi> <pubPlace>Paris</pubPlace>, <publisher>Charpentier libraire-éditeur</publisher>, <date>1842</date>. Graphies modernisées.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -42,12 +42,13 @@
         <date when="1842"/>
       </creation>
       <langUsage>
-        <language>fr</language>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
+      <div>
       <head>Essai sur <hi rend="i">Adolphe</hi></head>
       <p>Si Benjamin Constant n’avait pas marqué sa place au premier rang parmi les orateurs et les publicistes de la France, si ses travaux ingénieux sur le développement des religions ne le classaient pas glorieusement parmi les écrivains les plus diserts et les plus purs de notre langue ; s’il n’avait pas su donner à l’érudition allemande une forme élégante et populaire, s’il n’avait pas mis au service de la philosophie son élocution limpide et colorée, son nom serait encore sûr de ne pas périr : car il a écrit <hi rend="i">Adolphe</hi>.</p>
       <p>Or il y a dans ce livre une vertu singulière et presque magnétique qui nous attire et nous appelle chaque fois que nous sommes témoins ou acteurs dans une crise morale de quelque importance. Il n’y a pas une page de ce roman, si toutefois c’est un roman, et pour ma part j’ai grand’peine à le croire, qui ne donne lieu à une sorte d’examen de conscience. Qu’il s’agisse de nous ou de nos amis les plus chers, ce n’est jamais en vain que nous consultons cette histoire si simple et d’une moralité si douloureuse. Les applications et les souvenirs abondent. Chacune des pensées inscrites dans ce terrible procès-verbal est si nue, si franche, si finement analysée, et dérobée avec tant d’adresse aux souffrances du cœur, que chacun de nous est tenté d’y reconnaître son portrait ou celui de ses intimes.</p>
@@ -109,10 +110,9 @@
       <p>Si Ellénore se séparait d’Adolphe le jour où elle est sûre de son abandon, elle pourrait encore espérer sur la terre des jours sereins et paisibles ; si elle acceptait franchement la destinée qu’elle s’est faite, si elle ouvrait les yeux et mesurait la route parcourue, il y aurait encore pour elle des chances de salut ; mais elle sait qu’elle n’est plus aimée, et elle pardonne. Au lieu de réhabiliter celui qui la trompait, elle, devient pour lui un objet de pitié.</p>
       <p>S’il aimait une autre femme, s’il s’était laissé prendre à une affection passagère, je concevrais le pardon ; ce serait générosité pure, et la reconnaissance pourrait assurer la fidélité à venir. Mais pardonner l’abandon, pardonner le délaissement qui n’a pas un autre amour pour excuse, pardonner l’hypocrisie, c’est une folie sans remède, c’est s’avilir pour quelques jours de répit, c’est appeler sur soi le mépris, c’est mériter l’oubli.</p>
       <p>Or il n’y a pas une de ces austères vérités qui ne soit écrite dans <hi rend="i">Adolphe</hi> en caractères ineffaçables : c’est un livre plein d’enseignements et de conseils pour ceux qui aiment et qui souffrent. Quand on est jeune, on croit à peine à la moitié de ces conseils ; à mesure qu’on vieillit, on s’aperçoit qu’il y en a beaucoup d’oubliés.</p>
-      <signed>GUSTAVE PLANCHE.</signed>
+      <signed>Gustave Planche.</signed>
       <trailer>FIN.</trailer>
-      <p/>
-      <label/>
+      </div>
     </body>
   </text>
 </TEI>
