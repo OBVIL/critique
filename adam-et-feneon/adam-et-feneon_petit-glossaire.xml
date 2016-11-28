@@ -1,0 +1,4532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Petit glossaire pour servir à l’intelligence des auteurs décadents et symbolistes</title>
+        <author key="Adam, Paul (1862-1920)">Paul Adam</author>
+        <author key="Fénéon, Félix (1861-1944)">Félix Fénéon</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Haykuhi Gzirants</name>
+          <resp>OCR, Stylage sémantique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Stella Louis</name>
+          <resp>Numérisation et encodage TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+        <date when="2016"/>
+        <idno>http ://obvil.paris-sorbonne.fr/corpus/critique/adam-et-feneon_petit-glossaire/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/adam-et-feneon_petit-glossaire.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/adam-et-feneon_petit-glossaire.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/adam-et-feneon_petit-glossaire.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/adam-et-feneon_petit-glossaire.epub</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Paul Adam et Félix Fénéon</author>, <title>Petit glossaire pour servir à l’intelligence des auteurs décadents et symbolistes, par Jacques Plowert</title>, <pubPlace>Paris</pubPlace>, <publisher>Vanier</publisher>, Bibliopole, <edition>octobre 1888</edition>, 99 p. Source : <ref target="http://gallica.bnf.fr/ark :/12148/bpt6k50831g">Gallica</ref>. Erratum intégré.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1888">1888</date>
+      </creation>
+      <langUsage>
+        <language ident="fr">fre</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Préface</head>
+        <p>Les très nombreuses et incessantes polémiques que suscitèrent depuis trois ans les manifestations du groupe symboliste rappellent les grandes luttes qui, en ce siècle, signalèrent l’essor du romantisme et du naturalisme.</p>
+        <p>Sans vouloir préjuger de l’avenir probablement heureux qu’atteindront les efforts de cette littérature neuve il demeure aujourd’hui indéniable que l’attention du dilettante se doit astreindre à connaître des œuvres si bruyamment discutées.</p>
+        <p>Or, le plus considérable reproche vise l’étrangeté des termes mis en usage par ces œuvres. On en conclut à une pernicieuse difficulté de lecture pour quiconque n’est point initié au prestige hermétique des vocables.</p>
+        <p>Aussi semble-t-elle opportune la publication d’un glossaire capable d’aplanir le malentendu et de simplifier l’initiation.</p>
+        <p>Bien qu’il se garde de prétendre à une nomenclature rigoureusement complète et amplement savante, cet opuscule pourra du moins servir à guider l’esprit hésitant du lecteur novice. Il mentionnera la signification précise de tous les termes rares qu’on ne rencontre point dans les lexiques ordinaires et même celle des mots que délaissent d’habitude les pauvres vocabulaires de nos écrivains en renom.</p>
+        <p>Sont omis tous les substantifs, adjectifs ou verbes nettement dérivés de radicaux fréquents, par l’addition d’une désinence usitée.</p>
+        <p>Au reste, nous avouerons que les véritables néologismes apparaissent peu, que beaucoup de termes cités ici s’alignent dans les colonnes de l’abrégé du dictionnaire Larousse spécialement édité pour les écoles primaires, à la honte des folliculaires qui s’ébahirent à leur aspect.</p>
+        <p>Ainsi MM. Verlaine et Mallarmé n’employèrent jamais un mot exclu des dictionnaires officiels et leurs noms se trouveront rarement au bas des exemples.</p>
+        <p>Quant aux formes absolument originales, beaucoup dérivent directement du latin ou du grec, et sont instaurées suivant les règles admises. D’autres s’effectuent par l’apport des désinences <hi rend="i">ance, ure</hi>, appliquées à des vocables connus.</p>
+        <p><hi rend="i">Ance</hi> marque particulièrement une atténuation du sens primitif qui devient alors moins déterminé, plus vague, et se nuance d’un recul. Ex. <hi rend="i">lueur, luisance</hi>. <hi rend="sc">Lueur</hi>, c’est l’effet direct d’une flamme, <hi rend="sc">Luisance</hi> sera un reflet de flamme dans un panneau verni, dans la nacre humide de l’œil, dans le froncis d’une sombre et soyeuse étoffe. etc., la syllabe <hi rend="i">ance</hi> produisant l’illusion sonore des dernières vibrations d’une corde harmonique au moment où elle va cesser de bruire. Le mot officiel <hi rend="sc">Assonance</hi> donne la marque-étalon qui justifie la tentative.</p>
+        <p>La désinence <hi rend="i">ure</hi> indique une sensation très nette, brève ; elle diminue en renforçant ; elle circonscrit. <hi rend="i">Luisure</hi> sera un effet de lueur sur la vitre d’un lampadaire, sur la plaque d’un métal poli, sur l’orbe d’un bouton métallique ; elle sera l’éclat brusque du diamant dont une facette concentre subitement les feux du lustre ; la syllabe <hi rend="i">ure</hi> produisant une sensation d’arête vive, le brusque coup d’archet sur les notes aiguës du violon. Les mots officiels <hi rend="i">Égratignure, damassure, striure, brisure</hi>, etc., justifient.</p>
+        <p>Enfin, la plupart de ces néologismes consistent simplement à doter de formes actives ou passives les épithètes dépourvues de l’une ou de l’autre ; ils créent aussi le verbe qui nantira d’un pouvoir actif l’état marqué par un substantif ou par un adjectif. En un mot, ils font passer les radicaux par toutes les transformations légitimes et adéquates.</p>
+        <p>Tels sont brièvement les principes généraux suivant lesquels s’effectuent ces mutations.</p>
+        <byline>Jacques Plowert.</byline>
+      </div>
+      <div>
+        <head>Abréviations</head>
+        <table>
+          <row>
+            <cell>Substantif masculin</cell>
+            <cell>s. m.</cell>
+          </row>
+          <row>
+            <cell>— féminin</cell>
+            <cell>s. f.</cell>
+          </row>
+          <row>
+            <cell>Adjectif</cell>
+            <cell>Adj.</cell>
+          </row>
+          <row>
+            <cell>— verbal</cell>
+            <cell>a. v.</cell>
+          </row>
+          <row>
+            <cell>Participe</cell>
+            <cell>p.</cell>
+          </row>
+          <row>
+            <cell>Verbe actif</cell>
+            <cell>v. a.</cell>
+          </row>
+          <row>
+            <cell>— neutre</cell>
+            <cell>v. n.</cell>
+          </row>
+          <row>
+            <cell>— pronominal</cell>
+            <cell>v. p.</cell>
+          </row>
+          <row>
+            <cell>Remarque</cell>
+            <cell>r.</cell>
+          </row>
+          <row>
+            <cell>Latin</cell>
+            <cell>l.</cell>
+          </row>
+          <row>
+            <cell>Grec</cell>
+            <cell>g.</cell>
+          </row>
+        </table>
+      </div>
+      <div>
+        <head>Auteurs cités</head>
+        <table>
+          <row>
+            <cell>Paul Adam</cell>
+            <cell>Prosateur.</cell>
+          </row>
+          <row>
+            <cell>Maurice Barrès</cell>
+            <cell>Prosateur.</cell>
+          </row>
+          <row>
+            <cell>Félix Fénéon</cell>
+            <cell>Critique.</cell>
+          </row>
+          <row>
+            <cell>René Ghil</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Gustave Kahn</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Jules Laforgue</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Stéphane Mallarmé</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Jean Moréas</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Francis Poictevin</cell>
+            <cell>Prosateur</cell>
+          </row>
+          <row>
+            <cell>Henri de Régnier</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Arthur Rimbaud</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Paul Verlaine</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>Francis- Vielé-Griffin</cell>
+            <cell>Poète.</cell>
+          </row>
+          <row>
+            <cell>
+              <hi rend="sc">Charles Vignier</hi>
+            </cell>
+            <cell>Poète.</cell>
+          </row>
+        </table>
+      </div>
+      <div>
+        <head>Petit glossaire</head>
+        <div>
+          <head>Abscons</head>
+          <p>Adj. — Difficile à percevoir, <num>l</num>. <hi rend="i">absconsus, a, um</hi>, synonyme de <hi rend="i">absconditus</hi>, caché (<hi rend="i">abscondo</hi>).</p>
+          <quote>
+            <p>Solitude, froid silence épars dans la verdure, perçu par des sens moins subtils qu’inquiets, vous connûtes les claquements furibonds d’une étoffe, comme si toute la nuit absconse en ses plis en sortait enfin secouée ! et les heurts sourds contre la terre du squelette rajeuni, mais l’énergumène n’avait point à vous contempler.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’Ecclésiastique</title>. <hi rend="sc">Stéphane Mallarmé.</hi> (Cité par Vittorio Pica dans la <title>Gazetta Letteraria</title> de Turin, année X, nº 49.)</bibl>
+          </listBibl>
+          <quote>
+            <p>Ces absconses pages qu’aucune note explicative ne profane.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>, déc. 1885. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Abstrus</head>
+          <p>Adj. — Dissimulé, <num>l</num>. <hi rend="i">abstrusus, a, um</hi> (<hi rend="i">abstrudo</hi>).</p>
+          <quote>
+            <p>Avant de se recueillir dans l’abstruse fierté que donne une approche de forêt dans son temps d’apothéose… <hi rend="i">Notes de mon carnet</hi>.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Stéphane Mallarmé</hi>. (Cité par <hi rend="sc">Paul Verlaine</hi> : <title>Hommes d’Aujourd’hui</title>.)</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Abortif</head>
+          <p>Adj. — Qui fait avorter, <num>l</num>. <hi rend="i">abortivus</hi>.</p>
+          <quote>
+            <p>Sourires abortifs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du Symboliste</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Acaule</head>
+          <p>Adj. — Terme de botanique. Qui n’a point de tige. <num>l</num>. <hi rend="i">a</hi>, priv. et <hi rend="i">caulis</hi> tige.</p>
+          <quote>
+            <p>… Un écrivain acaule.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 341). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Accul</head>
+          <p><hi rend="sc">s. m.</hi> — Lieu ou état sans issue.</p>
+          <quote>
+            <p>Et dans cet accul de pensées elle se débattit sans résultat…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert.</title><hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Accurvé</head>
+          <p><hi rend="sc">v. a.</hi> — Courbé sur, <hi rend="i">dans un sens perpétuel</hi>.</p>
+          <quote>
+            <p>Et les reflets de ciel, frissons d’appel,</p>
+            <p>Accurvés aux psaumes mémorés.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Acescent</head>
+          <p>Adj. — Qui commence à devenir acide, <num>l</num>. <hi rend="i">acescens, acescere</hi>, devenir acide.</p>
+          <quote>
+            <p>Exaltations passionnelles tôt acescentes et âcres…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Acuminant</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">acumen</hi>, pointe.</p>
+          <quote>
+            <p>Les acuminantes cimes…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Acutangle</head>
+          <p>Adj. — Terme de géométrie : dont les angles sont aigus. <num>l</num>. <hi rend="i">acutus</hi>, aigu et <hi rend="i">angulus</hi>, angle.</p>
+          <quote>
+            <p>Un roman d’une écriture émaciée, acutangle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 241). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Actionner</head>
+          <p><hi rend="sc">v. a.</hi> — Agir sur, transmettre sa force. En mécanique, une machine à vapeur actionne une scierie.</p>
+          <quote>
+            <p>La philosophie qui les actionne jamais ne s’offre en une expresse attitude dogmatique.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 241). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Adamantin</head>
+          <p>Adj. — Qui a les qualités du diamant. <num>l</num>. <hi rend="i">adamanticus</hi>, de <hi rend="i">adamas</hi>, diamant.</p>
+          <quote>
+            <p>Je veux dès demain partir, m’enquérir par le monde des procédés d’embaumement les plus adamantins.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, III, 6. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Adamique</head>
+          <p>Adj. — D’Adam ; par extension : pur, innocent.</p>
+          <quote>
+            <p>… Expression d’un ravissement presque adamique à propos d’un bonheur modeste…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 246). <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Agis</head>
+          <p><hi rend="sc">s. m.</hi> — Abréviatif d’agissement.</p>
+          <quote>
+            <p>… Plus innocent des agis actuels que l’enfant non encore né.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 274). <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Agnel</head>
+          <p><hi rend="sc">s. m.</hi> — Jeune agneau. Mot ancien.</p>
+          <quote>
+            <p>Le prêtre vénérable prostré en prières ; les moires de la chasuble miroitent, et l’agnel d’or, au centre, brodé.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Agnosticisme</head>
+          <p><hi rend="sc">s.</hi> <num>m</num>. — Excès de méditation subtile sur un sujet liturgique.</p>
+          <quote>
+            <p>… Et la lune elle-même, ce tournesol aplati, desséché, à force d’agnosticisme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, I, 6. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aheurté</head>
+          <p><hi rend="sc">p</hi>. et Adj. — Qui se heurte à…</p>
+          <quote>
+            <p>… Soudainement apparues, aheurtées en des chocs aux répercussions radiantes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>, <hi rend="sc">I. Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aigue</head>
+          <p><hi rend="sc">s. f.</hi> — <num>l</num>. <hi rend="i">aqua</hi>, eau. Nom de quelques variétés d’émeraude commune ou de béryl.</p>
+          <quote>
+            <p>Ô ces yeux verts rêvant, ces aigues inhumaines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Centon</title>. <hi rend="sc">Ch. Vignier</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Albe</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">albus</hi>, blanc pur.</p>
+          <quote>
+            <p>L’andante qui finit pare l’albe de l’Ève.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Albugineux</head>
+          <p>Adj. — Terme d’anatomie, blanchâtre. <num>l</num>. <hi rend="i">albugo</hi>, petites taches blanches de l’œil.</p>
+          <quote>
+            <p>… La traduction d’âme que sont ces poèmes ne flue jamais en doléances albugineuses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 241). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Algide</head>
+          <p>Adj. — Qui fait éprouver des sensations de froid, <num>l</num>. <hi rend="i">algidus</hi>.</p>
+          <quote>
+            <p>Au contact algide d’un pommeau de baïonnette…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Un chatouillement, une secousse algide glissa par tous les membres de la jeune fille.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Allance</head>
+          <p><hi rend="sc">s. f</hi>. — Du participe allant (aucun substantif autre n’indiquant l’acte d’aller).</p>
+          <quote>
+            <p>Dans leur allance aux paradis</p>
+            <p>Par les sereines litanies</p>
+            <p>Les pas s’en sont allés…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Allitératif</head>
+          <p>— Forme adjective d’allitération.</p>
+          <quote>
+            <p>… Où des assonances allitératives jettent de spécieux appels.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 261). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Alvin</head>
+          <p>Adj. — Qui a rapport au bas-ventre.</p>
+          <quote>
+            <p>Car la seule digne histoire du sang et du rêve, n’est-ce pas de l’initial Tressaillement du prime plasma qui veut sentir à l’extase de l’homme génial, de la dualité alvine et idéale qui…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Traité du Verbe</title>. <hi rend="sc">René Ghil</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Amène</head>
+          <p>Adj. <num>l</num>. <hi rend="i">amœnus</hi>, agréable.</p>
+          <quote>
+            <p>Plein d’une bienveillance amène.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Fêtes galantes</title>. <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Près de la lune amène.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Amorphe</head>
+          <p>Adj. — Qui n’a pas de forme déterminée (formé de deux mots grecs).</p>
+          <quote>
+            <p>… Où de l’horizon se lève l’énorme masse amorphe des nues basses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>, 1886. <hi rend="sc">Félix Fénéon.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Amphicurte</head>
+          <p>Adj. — Courbé de deux côtés.</p>
+          <quote>
+            <p>Cauquemarres séculiers épris d’orbes amphicurtes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du Symboliste</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Anacampsérote</head>
+          <p><hi rend="sc">s. f.</hi> — Herbe qui rallume l’amour éteint.</p>
+          <quote>
+            <p>L’Anacampsérote au suc vermeil</p>
+            <p>Est éclose au cœur las panacée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Androïde</head>
+          <p><hi rend="sc">s. m.</hi> — Automate.</p>
+          <quote>
+            <p>Comme d’un geste d’androïde.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Angéluser</head>
+          <p><hi rend="sc">v. n.</hi> — Forme verbale d’angélus.</p>
+          <quote>
+            <p>Le long d’un ciel crépusculâtre</p>
+            <p>Une cloche angéluse en paix.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Anguler (s’)</head>
+          <p><hi rend="sc">v. n.</hi> — Prendre une direction angulaire.</p>
+          <quote>
+            <p>La double file des demeures à balcon s’angulait vers les touffes vertes des Tuileries jusque la silhouette équestre de la Pucelle élevant son oriflamme de bronze.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Anomaliflore</head>
+          <p>Adj. — Formé de floraison anomalisée.</p>
+          <quote>
+            <p>Hélas ! m’esquinter, sans trêve, encore,</p>
+            <p>Mon encéphale anomaliflore</p>
+            <p>En floraison de chair aux guirlandes d’ennuis !</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation de N.-D. la Lune</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aouté</head>
+          <p>Adj. — Trop mûri.</p>
+          <quote>
+            <p>Les donzelles aux corsages aoutés spirent au travers des pailles la frigidité des liqueurs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Apeurer</head>
+          <p><hi rend="sc">v. a.</hi> — Forme verbale du mot peur.</p>
+          <quote>
+            <p>Le silence est monté lentement, il apeure</p>
+            <p>Les bruits familiers du vague pérennel.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Appâli</head>
+          <p>Adj. — Rendu pâle.</p>
+          <quote>
+            <p>Les souvenirs glissent au bleuâtre lointain, si frêles, appâlis, mélancoliques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Apparier</head>
+          <p><hi rend="sc">v. a.</hi> — Mettre par paire, par couple.</p>
+          <quote>
+            <p>Les jours appariés qui bruissent à son entour.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’Art moderne</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Appéter</head>
+          <p><hi rend="sc">v. a.</hi> — <num>l</num>. <hi rend="i">Appetere</hi>, de <hi rend="i">ad</hi>, et <hi rend="i">petere</hi>, demander.</p>
+          <quote>
+            <p>Il appète une vie végétative.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>, <hi rend="sc">I. Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aptère</head>
+          <p>Adj. — Sans ailes, formé de deux mots grecs, <hi rend="sc">g.</hi> <hi rend="i">a</hi> privatif et <hi rend="i">pteron</hi>, aile.</p>
+          <quote>
+            <p>Ce soin de présenter son œuvre intégrale explique la présence là de quelques pages aptères commentées par leur millésime.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>, déc. 1885. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aprilin</head>
+          <p>Adj. — D’avril, printanier, <num>l</num>. <hi rend="i">Aprilis</hi>.</p>
+          <quote>
+            <p>Les flûtes aprilines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Traité du Verbe</title>. <hi rend="sc">René Ghil</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Apyre</head>
+          <p>Adj. — Qui est inaltérable et surtout impressible au feu. <hi rend="sc">g.</hi> <hi rend="i">a</hi> privatif et <hi rend="i">pûr</hi>, feu.</p>
+          <quote>
+            <p>C’est dans le boueux étalage de ces études d’argot que fulgure l’apyre joyau étiqueté « En famille ».</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>, déc. 1885. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ardre</head>
+          <p><hi rend="sc">v. a.</hi> — Brûler. Mot ancien.</p>
+          <quote>
+            <p>Comment fut arse Jehanne la Lorraine.</p>
+          </quote>
+          <listBibl>
+            <bibl>(Titre d’une chronique du <num>xvi<hi rend="sup">e</hi></num> siècle.)</bibl>
+          </listBibl>
+          <quote>
+            <p>Ainsi qu’une chienne en folie un rut bestial l’avait arse.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Argémone</head>
+          <p><hi rend="sc">s. f.</hi>  Plante de la famille des pavots.</p>
+          <quote>
+            <p>Ô que lourds vos sommeils, morbides argémones !</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Centon</title>. <hi rend="sc">Ch. Vignier</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Armature</head>
+          <p><hi rend="sc">s. f.</hi> — Assemblage de pièces de métal pour soutenir ou contenir un ouvrage de maçonnerie, de charpente, etc.</p>
+          <quote>
+            <p>Par moments, sous le tissu plus léger de métaphores une armature d’analyse transparaît, semble-t-il.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>, 1887. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ascétiser</head>
+          <p><hi rend="sc">v. a.</hi> — Rendre ascète, formé du grec <hi rend="i">àskéô</hi>, exercer.</p>
+          <quote>
+            <p>L’amour, l’amour qu’on rêve ascétise et fornique.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation de N.-D. la Lune</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Assumer</head>
+          <p><hi rend="sc">v. a.</hi> — Prendre sur moi, ou pour moi (<hi rend="i">assumere</hi>, de <hi rend="i">ad</hi>, à, <hi rend="i">et sumere</hi>, prendre).</p>
+          <quote>
+            <p>Elles assument des contours géométriques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’Art moderne</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Dites, venez m’assumer, vous ne vous en mordrez certainement pas les doigts.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, II, <num>i</num>. <hi rend="sc">J. Laforgue</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Mais pour Ruth, l’infortunée et typique héroïne que j’ai assumée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, III, 4. <hi rend="sc">J. Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Asymétrique</head>
+          <p>Adj. — Qui manque de symétrie.</p>
+          <quote>
+            <p>… Tandis que de vaillants sourires distendent encore l’asymétrique sourire d’une bouche lippue.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 308).</bibl>
+            <bibl><hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Attentionner</head>
+          <p><hi rend="sc">v. a.</hi> — Fixer l’attention.</p>
+          <quote>
+            <p>Puis la figure angoissée de M. Freysse l’attentionne.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Atténuance</head>
+          <p><hi rend="sc">s. f.</hi> — Diminutif de atténuation par le suffixe <hi rend="i">ance</hi>.</p>
+          <quote>
+            <p>L’atténuance lente de son activité…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Attirance</head>
+          <p><hi rend="sc">s. f.</hi> — Séduction magnétique.</p>
+          <quote>
+            <p>Il proteste que seule une attirance mystérieuse et invincible l’attache à elle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aubader</head>
+          <p><hi rend="sc">v. a.</hi> — Donner l’aubade.</p>
+          <quote>
+            <p>Certes dès qu’aux rideaux aubadent tes fanfares.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Auber</head>
+          <p><hi rend="sc">v. a.</hi> — Donner une teinte d’aube.</p>
+          <quote>
+            <p>Et sur son front tout au baptême</p>
+            <p>Aube déjà l’air ingénu.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Auriflu</head>
+          <p>Adj. — Qui écoule de l’or.</p>
+          <quote>
+            <p>Et Marceline percevait ce torse épais, un instant, parmi les lanternes auriflues des voitures.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Authentiquer</head>
+          <p><hi rend="sc">v. a.</hi> — Revêtir d’un caractère irréfragable et solennel.</p>
+          <quote>
+            <p>Authentiquons, par cette embrassade étroite, devant la multitude siégeant à cette fin, le pacte de notre réconciliation.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Spectacle interrompu</title>. <hi rend="sc">Stéphane Mallarmé</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Comme authentiquée du sceau d’une époque suprême et neutre.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Notes sur le Théâtre</title> (<title>Rev. Indép.</title>). <hi rend="sc">Stéphane Mallarmé</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Aveulir</head>
+          <p><hi rend="sc">v. a.</hi> — Rendre veule.</p>
+          <quote>
+            <p>… Au lieu de préparer sur la palette la valeur d’un morceau ou un bon mélange où s’aveuliraient les couleurs, ils les trouvent sur la toile par l’action…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 241). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Azyme</head>
+          <p><hi rend="sc">s. m.</hi> — Sans levain, — consacré ; substance choisie.</p>
+          <quote>
+            <p>S’énamourent les purs azymes de l’âme…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Baillet</head>
+          <p>Adj. — Cheval, ayant une tache au front.</p>
+          <quote>
+            <p>Et le beau varlet Constant chevauchait un cheval baillet…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’Empereur Constant</title> (<title>Rev. Indép.</title>). <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Balsamyrrhé</head>
+          <p>Adj. — Imprégné de baume et de myrrhe.</p>
+          <quote>
+            <p>Et des plic-ploc solitaires d’opalins jets d’eau balsamyrrhée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">II. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Bardocuculé</head>
+          <p>Adj. — Le bardocucule était une cape ou manteau garni d’un coqueluchon.</p>
+          <quote>
+            <p>Des femmes folles de leurs corps, en faille bardocuculées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du Symboliste</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Bastarde</head>
+          <p><hi rend="sc">s. f.</hi> — Espée bastarde, c’était celle qui pouvait servir à une main et à deux.</p>
+          <quote>
+            <p>À coups de hache, à coups de bastarde</p>
+            <p>Rompre des targes et des casques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Lais</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Behémot</head>
+          <p><hi rend="sc">s. m.</hi> — Animal fantastique dont il est parlé au livre de Job.</p>
+          <quote>
+            <p>Les tramways se ruent, béhémots aux prunelles incandescentes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Beylisme</head>
+          <p><hi rend="sc">s. m.</hi> — La manière de penser de Stendhal. (<hi rend="i">Étymologie</hi>, Henri Beyle.)</p>
+          <quote>
+            <p>Pour offrir à son fils un joli déjeuner et quelques maximes de beylisme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Biberonner</head>
+          <p><hi rend="sc">v. a.</hi> — Sucer comme un biberon.</p>
+          <quote>
+            <p>Ainsi le Tétrarque biberonnant son houka, l’air vacant.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Bibliopole</head>
+          <p><hi rend="sc">s. m.</hi> — Marchand de livres, <hi rend="sc">g.</hi> <hi rend="i">Bibliopôlès</hi>.</p>
+          <quote>
+            <p>Léon Vanier, bibliopole des Symbolistes et des décadents.</p>
+          </quote>
+          <listBibl>
+            <bibl>(<title>Affiches</title>.)</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Bigle</head>
+          <p>Adj. — Qui louche.</p>
+          <quote>
+            <p>Calvite, bigle camard, une malebosse au front, Nicolas Genès.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Bizarrant</head>
+          <p>Adj. — Qui rend bizarre la perception.</p>
+          <quote>
+            <p>Lampe des mers ! blancs bizarrants ! mots à vertiges !</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Bleuter</head>
+          <p><num>v</num>. <hi rend="sc">a</hi>. — Teindre en bleu clair.</p>
+          <quote>
+            <p>Une blafardise bleutée tombe de la coupole firmamentale.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Et le ciel s’élève avec des courbes immenses de palmes, et des teintes citrines qui montent, qui montent et se nacrent de blanc, et se bleutent, se bleutent comme un ruban de blonde.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Brasiller</head>
+          <p><hi rend="sc">v. n.</hi> — Avoir l’éclat d’un brasier.</p>
+          <quote>
+            <p>Et le lac, à son milieu, brasille.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Brelandier</head>
+          <p><hi rend="sc">s. m.</hi> — Habitué de tripots.</p>
+          <quote>
+            <p>Des élégances équivoques de brelandier.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Buée</head>
+          <p><hi rend="sc">s. f.</hi> — Vapeur qui se dégage.</p>
+          <quote>
+            <p>C’est l’hiémale nuit et ses buées et leurs doux comas.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cadrer</head>
+          <p><hi rend="sc">v. a.</hi> — Sertir comme d’un cadre.</p>
+          <quote>
+            <p>La trouée lumineuse du boulevard cadrait les omnibus cahotants.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Caldonie</head>
+          <p><hi rend="sc">s. f.</hi> — Pierre précieuse.</p>
+          <quote>
+            <p>Le diaspes et les caldonies</p>
+            <p>Dardent sur mes tresses infinies.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Callipédique</head>
+          <p>Adj. — Qui concerne la procréation systématique de beaux enfants.</p>
+          <p><hi rend="sc">g.</hi><hi rend="i">Kallipaidia</hi>, de <hi rend="i">Kallos</hi>, beauté et <hi rend="i">paîs</hi>, enfant.</p>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Callipyge</head>
+          <p>Adj. — Qui a de belles fesses.</p>
+          <p><hi rend="sc">g.</hi><hi rend="i">Kallos</hi>, beauté <hi rend="i">et pugé</hi>, fesse.</p>
+          <quote>
+            <p>Quelques artichauts callipyges.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Camaldule</head>
+          <p><hi rend="sc">s. m.</hi> — Religieux d’un ordre monastique fondé par saint Romuald ; costume blanc.</p>
+          <quote>
+            <p>Là Hamlet… ferait plutôt l’effet d’un camaldule que d’un prince héritier du Danemark.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">III. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cantilène</head>
+          <p><hi rend="sc">s. f.</hi> — Petite romance courte et monotone.</p>
+          <quote>
+            <p>… Le filet d’une cantilène inoubliablement, infortunée, stérile.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Capelan</head>
+          <p><hi rend="sc">s. m.</hi> — Prêtre pauvre ou cagot duquel on parle avec mépris.</p>
+          <quote>
+            <p>Le garçon — gros, brun, les sourcils hérissés sur une face glabre de capelan — accourut.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Capuce</head>
+          <p><hi rend="sc">s. m.</hi> — Étroit capuchon.</p>
+          <quote>
+            <p>Cassandre sous son capuce.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Fêtes galantes</title>. <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Caronculé</head>
+          <p>Adj. — Qui est muni de caroncules, petites éminences, excroissances. <num>l</num>. <hi rend="i">caruncula</hi>, diminutif de <hi rend="i">caro</hi>, chair.</p>
+          <quote>
+            <p>… Franc comme les cimes, le front caronculé de foi.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>. <hi rend="sc">II. Jules Laforgue.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cauquemarre</head>
+          <p><hi rend="sc">s. m.</hi> — Incube, moine lubrique.</p>
+          <quote>
+            <p>Cauquemarres séculiers, épris d’orbes amphicurtes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du Symboliste</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Caver (se)</head>
+          <p><num>v</num>. <hi rend="sc">pr</hi>. — Devenir cave.</p>
+          <quote>
+            <p>Ourlet blanc de la mer ; il croît, bave, se cave et puis croule.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cérulé</head>
+          <p>Adj. — De <hi rend="i">ceruleus</hi>, forme abréviative de céruléen.</p>
+          <quote>
+            <p>Les Atlantides, les Thulés,</p>
+            <p>Par là-bas, vagues cérulées,</p>
+            <p>Vous les gardez aux envolées</p>
+            <p>Des goélands…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Champlevé</head>
+          <p>Adj. — Du verbe champlever, pratiquer une rainure sur une plaque de métal pour retenir l’émail.</p>
+          <quote>
+            <p>C’est un émail champlevé d’un goût barbare et futur.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">III. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Chevrotance</head>
+          <p><hi rend="sc">s. f.</hi> — Formé de chevroter.</p>
+          <quote>
+            <p>Des notes moutonneuses qui bruissent avec des chevrotances cristallines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Chiffe</head>
+          <p><hi rend="sc">s. f.</hi> — Loque, abréviation argotique de chiffon.</p>
+          <quote>
+            <p>Chiffe et feuille morte ta déesse d’idolâtre.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ciller</head>
+          <p><hi rend="sc">v. a.</hi> — Battre des cils.</p>
+          <quote>
+            <p>Il s’efforce de s’y dérober et cille vers les murs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Glèbe</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Circuitant</head>
+          <p>Adj. — Qui est en circuits.</p>
+          <quote>
+            <p>Le Colisée… l’intérieur circuitant s’évase de gradins en gradins, bâille comme une gueule.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Circulant</head>
+          <p>Adj. <num>v</num>. — Employé substantivement.</p>
+          <quote>
+            <p>Le fracas uniforme des circulants bruissait sous les platanes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Citoles</head>
+          <p><hi rend="sc">s. f.</hi> — Instrument de musique.</p>
+          <quote>
+            <p>Et les citoles des jongleurs sonnaient dans l’air.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Citrin</head>
+          <p>Adj. — Qui a la nuance du citron.</p>
+          <quote>
+            <p>Plus loin le quadrige de l’Arc triomphal galope tumultueusement dans les dégradations citrines du couchant éteint.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Clanche</head>
+          <p><hi rend="sc">s. f.</hi> — Partie du loquet qui tient la porte fermée.</p>
+          <quote>
+            <p>Vient-on pas de tourner la clanche ?</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Clangorer</head>
+          <p><hi rend="sc">v. n.</hi> — Sonner, résonner.</p>
+          <quote>
+            <p>Là-bas, par-dessus les toits ardoisés, l’orchestre du casino clangore.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Clapie</head>
+          <p><hi rend="sc">p. p</hi>. — Du verbe clapir (se) ; blotti comme dans un clapier.</p>
+          <quote>
+            <p>La tendance à rester clapie longtemps dans la même attitude (en parlant d’une femme).</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Clapissement</head>
+          <p><hi rend="sc">s. m.</hi> — Forme substantive du verbe <hi rend="i">clapir</hi>.</p>
+          <quote>
+            <p>Le grand clapissement des averses toute la nuit.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Vogue</title>. <hi rend="sc">J. Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Clarteux</head>
+          <p>— Forme adjective du mot clarté.</p>
+          <quote>
+            <p>Ô terrible frisson des amours novices sur le sol sanglant et par l’hydrogène clarteux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Illuminations</title>. <hi rend="sc">A. Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cloper</head>
+          <p><hi rend="sc">v. n.</hi> — Aller clopin-clopant.</p>
+          <quote>
+            <p>Des fiacres se précipitent comme en aval, des fiacres clopent comme en amont.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Colliger</head>
+          <p><hi rend="sc">v. a.</hi> — Réunir, assembler par triage. <num>l</num>. <hi rend="i">colligere</hi> (même sens).</p>
+          <quote>
+            <p>… Les pays levantins où cet homme colligeait des tapis anciens et des soies lamées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Collusoire</head>
+          <p>Adj. — Qui est fait par collusion. Une collusion en langage juridique est une entente entre des parties qui, en apparence et afin de leurrer, sont ennemies, <num>l</num>. <hi rend="i">Collusorius</hi>, de <hi rend="i">colludere, cum</hi> avec et <hi rend="i">ludere</hi>, jouer.</p>
+          <quote>
+            <p>Il aime à livrer des figures aux débats de collusoires lumières.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Coma</head>
+          <p><hi rend="sc">s. m.</hi> — Torpeur.</p>
+          <quote>
+            <p>C’est l’hiémale nuit et ses buées et leurs doux comas.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Comateux</head>
+          <p>Adj. — Gâteux au sens provisoire.</p>
+          <quote>
+            <p>… De comateux bavardages dus à des bas-bleus probablement calvinistes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue Indépendante</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Combe</head>
+          <p><hi rend="sc">s. f.</hi> — Petite vallée profonde.</p>
+          <quote>
+            <p>Mélancolique le son fêlé de sa cloche contre les échos des combes se brise.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Conjuguer</head>
+          <p><hi rend="sc">v. a.</hi> — Mettre en corrélation, <num>l</num>. <hi rend="i">conjugare</hi>, de <hi rend="i">cum</hi> et <hi rend="i">jugum</hi>, joug.</p>
+          <quote>
+            <p>Un compliqué et rythmique tracé où se conjuguent étroitement à celles de la jambe et du pied les sinuosités de l’aisselle, du sein et de la hanche.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Convivial</head>
+          <p>— Forme adjective de Convive.</p>
+          <quote>
+            <p>Ce mot n’obsède pas d’un remords le passant en train de boire à ta conviviale fontaine.</p>
+          </quote>
+          <listBibl>
+            <bibl>(<title xml:lang="en">Richard Wagner</title>, Rev. Wagnérienne, Nº <num>vii</num>.) <hi rend="sc">Stéphane Mallarmé</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Convolutant</head>
+          <p>— Forme adjective de volute, la préfixe (<hi rend="i">cum</hi>) indiquant l’accord.</p>
+          <quote>
+            <p>Et l’écharpe convolutante aux nuées orfévrées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Coruscant.</head>
+          <p>Adj. — De <hi rend="i">corusco</hi>, trembler ; <hi rend="i">coruscans</hi>, agité, tremblant, d’où le mot exprimant des lueurs mobiles sur objet brillant.</p>
+          <quote>
+            <p>Les étriers coruscants jetés dans la poussière.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Corymbe</head>
+          <p><hi rend="sc">s. m.</hi> — Assemblage de fleurs ou de fruits qui, bien que les rameaux ou pédoncules naissent de divers points de la tige, s’élèvent au même niveau, <num>l</num>. <hi rend="i">corymbus</hi>, de <hi rend="i">Korumbos</hi>, extrémité terminale.</p>
+          <quote>
+            <p>Une adolescente mûrissante s’érigeant parmi des tiges de spirées dont les corymbes remuent sur son bassin.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Couette</head>
+          <p><hi rend="sc">s. f.</hi> — Matelas.</p>
+          <quote>
+            <p>Sur la couette par l’évêque bénite.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Coulpe</head>
+          <p><hi rend="sc">s. f.</hi> — Péché, <num>l</num>. <hi rend="i">culpa</hi>.</p>
+          <quote>
+            <p>Où dansent les coulpes en toquet de grelots.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moreas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Crotale</head>
+          <p><hi rend="sc">s. f.</hi> — De <hi rend="i">crotalum</hi>, sorte de castagnettes.</p>
+          <quote>
+            <p>Au cliquetis de mes crotales.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cuber</head>
+          <p><hi rend="sc">v. a.</hi> — Élever à la troisième puissance.</p>
+          <quote>
+            <p>… Cet esprit triple et décuplé et cubé.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’aujourd’hui</title> (nº 243).</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cruor</head>
+          <p><hi rend="sc">s. m.</hi> — Caillot de sang, <num>l</num>. <hi rend="i">cruor</hi>, sang.</p>
+          <quote>
+            <p>Hôpitaux consacrés aux cruors et aux fanges.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cucurbitant</head>
+          <p>Adj. — Qui prend un aspect de citrouille, <num>l</num>. <hi rend="i">cucurbita</hi>, courge.</p>
+          <quote>
+            <p>Des femmes emplissent de leur accroupissement cucurbitant la coque des tubs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes en 1886</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cuivrure</head>
+          <p><hi rend="sc">s. f.</hi> — Effet de cuivre.</p>
+          <quote>
+            <p>Des cuivrures mystérieusement brillaient.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <p>R. <hi rend="i">Formé de cuivre, comme</hi> dorure, ferrure<hi rend="i"> sont formées de</hi> or, fer, etc., <hi rend="i">la désinence</hi> ure<hi rend="i"> indiquant l’effet.</hi></p>
+        </div>
+        <div>
+          <head>Culminer</head>
+          <p><hi rend="sc">v. n.</hi> — Être au sommet, dominer, <num>l</num>. <hi rend="i">cul m en</hi>, faîte.</p>
+          <quote>
+            <p>À l’intense lune des flambois électriques, d’autres plus effacées encore dans les nacrures des fards, les indécisions des soies et les blonds des teintures, culminent aux bars.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Cursif</head>
+          <p>Adj. — Qui a un caractère de rapidité. <num>l</num>. <hi rend="i">currere</hi>, courir.</p>
+          <quote>
+            <p>Un écrivain net, nerveux et cursif.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">II. Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Damas</head>
+          <p><hi rend="sc">s. m.</hi> — Étoffe brochée.</p>
+          <quote>
+            <p>… Et les atroces fleurs qu’on appellerait cœurs et sœurs, damas damnant de langueur.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Illuminations</title>. <hi rend="sc">A. Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Décadent</head>
+          <p><hi rend="sc">s. m.</hi> — Employé volontiers par Gautier, Flaubert et Goncourt dans le sens de raffinement littéraire.</p>
+          <p><hi rend="i">Les Déliquescences d’Adoré Floupette poète décadent</hi>, parodie (85). <hi rend="i">Le Décadent</hi>, journal (86 et 88). <hi rend="i">L’École décadente</hi>, brochure (87).</p>
+          <p>C’est dans les <hi rend="i">Taches d’Encre</hi> de Maurice Barrès (Déc. 84) que <hi rend="sc">décadent</hi> qualifia la première fois le groupe littéraire par lequel on désignait : Verlaine, Mallarmé, Huysmans, augmenté depuis de Moréas, Laforgue, Vignier, Adam, Fénéon, etc.</p>
+          <quote>
+            <p>Ni le travaillé, le voulu de Mallarmé, ni le tact et l’infinie nuance de l’œuvre de Paul Verlaine ne possèdent le public. Mais le flot qui les porte avance chaque jour.</p>
+            <p>Ils ont apporté leurs inquiétudes, leurs perversions douloureuses dans la critique, dans l’étude de la société contemporaine. Ils se complaisent dans le rare et poussent l’amour de l’unique jusqu’au culte du décadent.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">M. Barrès</hi>.</bibl>
+          </listBibl>
+          <p>L’origine du mouvement littéraire remonte à l’apparition des <hi rend="i">Poètes maudits</hi> de Paul Verlaine (fév. 84) où il est dit dans la préface :</p>
+          <quote>
+            <p>À bien y regarder pourtant, de même que les vers de ces chers Maudits sont très posément écrits, de même leurs traits sont calmes, comme de bronze un peu de décadence, mais qu’est-ce que décadence veut bien dire au fond ?</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">P. Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Décatissure</head>
+          <p><hi rend="sc">s. f</hi>. — État de ce qui est décati.</p>
+          <quote>
+            <p>La satisfaction de honnir les décatissures de la fille consola…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Déclos</head>
+          <p>— Participe du verbe déclore.</p>
+          <quote>
+            <p>Des coussins sur les fauteuils déclos ainsi que des bras érotiques,</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Défloquer</head>
+          <p><hi rend="sc">v. n.</hi> — Crépiter avec flammes.</p>
+          <quote>
+            <p>Un doux jaillissement de clartés défloque.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Déformance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation par le suffixe <hi rend="i">ance</hi> du mot déformation.</p>
+          <quote>
+            <p>… Et cette stupide déformance gâte tout l’ensemble de la fluette membrure.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Déhiscer</head>
+          <p><hi rend="sc">v. a.</hi> — Se partager.</p>
+          <quote>
+            <p>Les valeurs d’or du tabernacle déhiscent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Lohen</title>., <hi rend="sc">II. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Délaver.</head>
+          <p><hi rend="sc">v. a.</hi> — Enlever ou affaiblir avec de l’eau.</p>
+          <quote>
+            <p>Cette solitude kilométriquement profonde, d’un vert sévère, arrosée de taches de lumière, délava.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Délinquer</head>
+          <p><hi rend="sc">v. n.</hi> — Faillir.</p>
+          <quote>
+            <p>Le dessin s’interpole et les teintes délinquent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Démiurge</head>
+          <p><hi rend="sc">s. m.</hi> — Puissance créatrice inférieure à Dieu. Voir l’hérésie de Valentin.</p>
+          <quote>
+            <p>Les démiurges des histoires.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Désespérance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation de désespoir.</p>
+          <quote>
+            <p>Et vous seriez là jusque la mort pour me garantir des désespérances.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Dicacité</head>
+          <p><hi rend="sc">s. f.</hi> — Causticité, <num>l</num>. <hi rend="i">dicacitas</hi>.</p>
+          <quote>
+            <p>Un monsieur dont la dicacité s’illumine en un malin sourire.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>, 1887. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Diaspe</head>
+          <p><hi rend="sc">s. f.</hi> — Le jaspe.</p>
+          <quote>
+            <p>Les diaspes et les caldonies</p>
+            <p>Dardent sur mes tresses infinies.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Dichrome</head>
+          <p>Adj. — À deux couleurs, <hi rend="sc">g.</hi> <hi rend="i">dis</hi>, deux, et <hi rend="i">Khromos</hi>, couleur.</p>
+          <quote>
+            <p>Voici notre thé à cette vesprée, dit Miranda en remplissant les coupes dichromes à tige grêle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Diffluer</head>
+          <p><num>v</num>. <hi rend="sc">pr</hi>. — Se répandre de différents côtés.</p>
+          <quote>
+            <p>Une subtile joie polychrome se difflue en auberges sur les fonds.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Diluer</head>
+          <p><hi rend="sc">v. a.</hi> — Délayer.</p>
+          <quote>
+            <p>Elle dilue à flots de salive ce jus dont les piquantes saveurs…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Dissocier</head>
+          <p><hi rend="sc">v. a.</hi> — Séparer et renvoyer par des voies différentes.</p>
+          <quote>
+            <p>La rétine… perçoit par très rapides alternats, et les éléments colorés dissociés et leur résultante.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Dômer</head>
+          <p><hi rend="sc">v. a.</hi> — Couvrir d’un dôme.</p>
+          <quote>
+            <p>… Les pennons mauves dômeront en flots d’apothéoses, dômeront vos fallaces, vos visionnaires rêves.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Dyscole</head>
+          <p>Adj. — Qui a mauvais caractère.</p>
+          <quote>
+            <p>… devenu l’exclusive propriété, il semble, de quelques dyscoles bateleurs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’aujourd’hui</title> (nº 268).</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Éberluer</head>
+          <p><hi rend="sc">v. a.</hi> — Rendre huluberlu.</p>
+          <quote>
+            <p>… S’éberluait la constitutionnelle bêtise du public.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>, 1887. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Écriture</head>
+          <p>— <hi rend="sc">s. f.</hi> — Style.</p>
+          <quote>
+            <p>Écriture émaciée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’aujourd’hui</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Édénique</head>
+          <p>Adj. — D’Éden.</p>
+          <quote>
+            <p>Édéniquement nus.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Édicule</head>
+          <p><hi rend="sc">s. m.</hi> — Petit édifice.</p>
+          <quote>
+            <p>Un gothique édicule en fer forgé.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Edmondschéresque</head>
+          <p>Adj. — Voy. <hi rend="sc">francisquesarceyse</hi>.</p>
+        </div>
+        <div>
+          <head>Effaçures</head>
+          <p><hi rend="sc">s. f.</hi> — Effet d’effacement.</p>
+          <quote>
+            <p>Les effaçures de ses mauvais rêves.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">F. Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Électuaire</head>
+          <p><hi rend="sc">s. m.</hi> — Vase d’élection.</p>
+          <quote>
+            <p>Je chercherai l’électuaire.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au Château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Élixirer</head>
+          <p><hi rend="sc">v. a.</hi> — Forme verbale du mot élixir. — Prendre l’essence.</p>
+          <quote>
+            <p>Me laisser éponger mon <hi rend="i">Moi</hi> par l’Absolu.</p>
+            <p>Ou bien élixirer l’<hi rend="i">Absolu</hi> en moi-même.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">J. Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Emblématoire</head>
+          <p>— Adj. actif d’emblème.</p>
+          <quote>
+            <p>Hante le lit emblématoire</p>
+            <p>à l’ordre de l’heure impérieuse.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Emboire</head>
+          <p><hi rend="sc">v. a.</hi> — Ternir, confondre.</p>
+          <quote>
+            <p>Malgré la pluie qui emboit le dehors, la vérandah s’éclaire.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p><quote>En les buées leurs vitres obscures s’emboivent.</quote> </p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Emmi</head>
+          <p>Prép. — Parmi.</p>
+          <quote>
+            <p>En un traîneau lancé à toute vitesse par le froid, et elle très chaudement emmi les fourrures.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Emmousseliner</head>
+          <p><hi rend="sc">v. a.</hi> — Envelopper de mousseline.</p>
+          <quote>
+            <p>Une jeune fille mélodieusement emmousselinée d’arachnéenne jonquille.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Énervance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation de énervement, par le suffixe <hi rend="i">ance.</hi></p>
+          <quote>
+            <p>Dans sa poitrine elle ressent des énervances, des soulèvements délicieux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Enger</head>
+          <p><hi rend="sc">v. a.</hi> — Charger, embarrasser.</p>
+          <quote>
+            <p>… Une noble personnalité qui, d’abord engée de réminiscences romantiques et grecques, bientôt se manifeste originale.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>, 1885. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Engouler</head>
+          <p><num>v</num>. <hi rend="sc">a</hi>. — Avaler d’une manière goulue.</p>
+          <quote>
+            <p>Le vitrail jaune des portes de brasseries, tantôt vomissant, tantôt enroulant des masses noires.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Engrandeuiller (s’)</head>
+          <p><hi rend="sc">v. p.</hi> — Se mettre en grand deuil.</p>
+          <quote>
+            <p>L’automne s’engrandeuille au bois de Boulogne.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Enjauni</head>
+          <p>Adj. — Rendu jaune.</p>
+          <quote>
+            <p>La bâtisse de l’Opéra aux baies enjaunies de lumière où des ombres se heurtent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Envol</head>
+          <p><hi rend="sc">s. m.</hi> — Vol elliptique.</p>
+          <quote>
+            <p>Un envol de pigeons écarlates tonne autour de ma pensée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Illuminations</title>. <hi rend="sc">A. Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Errabunde</head>
+          <p>Adj. — Qui vague, <num>l</num>. <hi rend="i">errabundus</hi>.</p>
+          <quote>
+            <p>… Deux semaines errabundes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">J. Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Errance</head>
+          <p><hi rend="sc">s. f.</hi> — Forme substantive du participe errant ; (errement et erreur, ayant des sens définis).</p>
+          <quote>
+            <p>Et toi dans l’errance de mes ombres demeurantes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Éructer</head>
+          <p><hi rend="sc">v. n.</hi> — Produire un son semblable à l’éructation.</p>
+          <quote>
+            <p>La soûlerie de cette multitude éructa.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Escamper (s’)</head>
+          <p><hi rend="sc">v. p.</hi> — Disparaître.</p>
+          <quote>
+            <p>… Un lit qui s’escampe derrière le cadre.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Escot</head>
+          <p><hi rend="sc">s. m.</hi> — Sorte d’étoffe.</p>
+          <quote>
+            <p>Miranda toute droite, à l’aise en une sorte de canezou d’escot…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Escramor</head>
+          <p><hi rend="sc">s. m.</hi> — Bête féerique.</p>
+          <quote>
+            <p>Et la belle princesse portait une riche robe de soie où l’on voyait brodés à fin or des pards et des dragons, des serpents volants et des escramors…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’empereur Constant</title> (<title>Rev. Indép.</title>). <hi rend="sc">Jean Moréas</hi>,</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ésotérique</head>
+          <p>Adj. — Indique une création idéaliste personnelle.</p>
+          <quote>
+            <p>Je vague à jamais innocent</p>
+            <p>Par les blancs parcs ésotériques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Essanger</head>
+          <p><hi rend="sc">v. a.</hi> — Mouiller.</p>
+          <quote>
+            <p>Bien des années encore son œil paludéen essangera ses toiles, patriotiques mouchoirs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>, <hi rend="sc">II. F. Fénéon.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Essorer</head>
+          <p><hi rend="sc">v. a.</hi> — Donner l’essor, — s’essorer, prendre essor.</p>
+          <quote>
+            <p>Derrière lui la ville déjà en rumeur de fête essorant ses copieux arrosages.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. J. Laforgue</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Je me trouvais néanmoins chez madame en gros oiseau gris bleu s’essorant vers les moulures du plafond.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Illuminations</title>. <hi rend="sc">A. Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Étanche</head>
+          <p>Adj. — Hermétiquement joint.</p>
+          <quote>
+            <p>Cet austère livre, encore qu’il ne réalise pas mon rêve déforme étanche et de poésie rare…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue Moderniste</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Étésien</head>
+          <p>Adj. — <hi rend="sc">g.</hi> <hi rend="i">étêsiai</hi> dérivé de é<hi rend="i">tos</hi> année. Se dit des vents réguliers qui soufflent chaque année pendant un certain nombre de jours sur la Méditerranée. Ces vents soufflent 40 jours vers le lever de la canicule ; étésiens correspond dans la seconde des citations suivantes à caniculaire.</p>
+          <quote>
+            <p>Un ciel pâlement vert ou filent des vents étésiens.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Vers le soleil couché des jours étésiens.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Sites</title>. <hi rend="sc">Henri de Régnier</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Étirance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation d’étirage.</p>
+          <quote>
+            <p>Des étirances lamentantes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Étoffement</head>
+          <p><hi rend="sc">s. m.</hi> — Assemblage d’étoffes.</p>
+          <quote>
+            <p>Fagoté dans un étoffement blanc.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Ludine</title>. <hi rend="sc">Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Éventairer (s’)</head>
+          <p><hi rend="sc">v. p.</hi> — S’étaler en éventaire.</p>
+          <quote>
+            <p>… Tes lèvres le parvis où s’éventairent les parfums et les couleurs des fleurs et des fruits.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Exhilarant</head>
+          <p>Adj. — Joyeux, tumultueux.</p>
+          <quote>
+            <p>Et le bruit du galop exhilarant dans la savane.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Expectant</head>
+          <p>Adj. — Qui est dans l’expectative, dans l’attente.</p>
+          <quote>
+            <p>L’envie expectante.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fallace</head>
+          <p>Adj. — Trompeur, <num>l</num>. <hi rend="i">fallax.</hi></p>
+          <quote>
+            <p>De fallaces fleurs emplissent la coiffe de satin rose.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fantasmatique</head>
+          <p>Adj. — Semblable à un effet de fantasmagorie, <hi rend="sc">g</hi>. <hi rend="i">phantasma</hi> apparence.</p>
+          <quote>
+            <p>En songe elle avait cru à une caresse fantasmatique, douce et chaude.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fascé.</head>
+          <p>Adj. — Rayé diagonalement.</p>
+          <quote>
+            <p>Comiquement coiffée, assise dans une robe bleue bouillonnée de rose et fascée de noir.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Feuillure</head>
+          <p><hi rend="sc">s. f.</hi> — Ensemble de feuillages.</p>
+          <quote>
+            <p>Des pas, et le frisson qui s’amuse aux feuillures.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flache</head>
+          <p><hi rend="sc">s. f.</hi> — Flaque.</p>
+          <quote>
+            <p>Dans une flache laissée par l’inondation du mois précédent, elle me fit remarquer de très petits poissons.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Illuminations</title>. <hi rend="sc">A. Rimbaud.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flamboi</head>
+          <p><hi rend="sc">s. m.</hi> — Abréviation de flamboiement.</p>
+          <quote>
+            <p>Et sous le clair ciel d’été un flamboi de gaz.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flave</head>
+          <p>Adj. — Blond ardent, <num>l</num>. <hi rend="i">flavus</hi>.</p>
+          <quote>
+            <p>L’asphalte réfléchissait en coulées d’or flave les tremblances des lampadaires.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flavescent</head>
+          <p>Adj. — Qui blondit.</p>
+          <quote>
+            <p>… Cet ordonnateur habile de couples se mouvant dans des lumières flavescentes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flaccidité</head>
+          <p><hi rend="sc">s. f.</hi> — Mollesse d’une pâte qui n’offre aucune résistance à la pression.</p>
+          <quote>
+            <p>… La tête inclinée sur la flaccidité du torse, une fille s’essuie.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fleurer</head>
+          <p><num>v</num>. <hi rend="sc">a.</hi> — Répandre une odeur.</p>
+          <quote>
+            <p>Un cordon de violette » fleurant encore l’humide matin.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Toute rose a parfum qui fleure.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flexueux</head>
+          <p>Adj. — Qui est fléchi plusieurs fois dans sa longueur.</p>
+          <quote>
+            <p>Les joncs flexueux où des engoulevents volètent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Flocquer</head>
+          <p><hi rend="sc">v. n.</hi> — Être secoué au vent, en parlant d’une étoffe.</p>
+          <quote>
+            <p>Le drapeau suisse par secousses flocque, tourmentant.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Floral</head>
+          <p>Adj. — Orné de fleurs.</p>
+          <quote>
+            <p>Une jeune fille dans une lumière filtrée par des branches florales, lit.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>,</bibl>
+          </listBibl>
+          <quote>
+            <p>Si florales sous les pelouses du soleil…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>De florales damassures.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Florer</head>
+          <p><hi rend="sc">v. a.</hi> — Orner de fleurs artificielles.</p>
+          <quote>
+            <p>Elle se dresse des coussins écarlates florés d’aiguesmarines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fluctuer.</head>
+          <p><hi rend="sc">v. n.</hi> — Se mouvoir comme les flots. <num>l</num>. <hi rend="i">fluctuo, as, are</hi>.</p>
+          <quote>
+            <p>Dans ses gros yeux bleus des larmes fluctuaient.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fluer</head>
+          <p><hi rend="sc">v. n.</hi> — Couler en nappe, <num>l</num>. <hi rend="i">fluere</hi>, d’où <hi rend="i">fluvium</hi>, fleuve.</p>
+          <quote>
+            <p>De mauvaises sueurs fluent de sa nuque le long du dos.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Focal.</head>
+          <p>Adj. — Formé de foyer.</p>
+          <quote>
+            <p>Cette femme au brasier si anormalement indemne de toute atteinte de lumière focale.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fongosité</head>
+          <p><hi rend="sc">s. f.</hi> — Mousse.</p>
+          <quote>
+            <p>Une porte verdie de mousses et de fongosités dignes d’écrin.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fragrance</head>
+          <p><hi rend="sc">s</hi><num>, m</num>. — Parfum.</p>
+          <quote>
+            <p>Lents glissements aux suprêmes morts et ses voix lointaines, et brusques nuits à ses prunelles, et brèves fragrances.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Francisquesarceyse</head>
+          <p>Adj. — De Francisque Sarcey ; forme adjective du mot F. Sarcey, analogue spécialisé du mot.</p>
+          <quote>
+            <p>Dogme entier toujours debout sous l’exégèse</p>
+            <p>Même edmondschéresque ou francisquesarceyse.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Jadis et Naguère</title>. <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Frisselis</head>
+          <p><hi rend="sc">s. m.</hi> — Frisson des feuillages sous le vent.</p>
+          <quote>
+            <p>D’où donc ce frisselis d’êmoi qui me pénètre…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Froissure</head>
+          <p><hi rend="sc">s. f.</hi> — Impression qui demeure à un corps froissé.</p>
+          <quote>
+            <p>Le corps offre seulement de grandes lignes au fusain, des plaques de blanc qui indiquent les froissures et le drapement de la robe.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Frondant</head>
+          <p>Adj. — <num>l</num>. Frondosus, Abondant en feuillage, feuillu, touffu.</p>
+          <quote>
+            <p>Au pied de la montagne à la chevelure frondante…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Frutescent</head>
+          <p>Adj. — Qui est de la nature d’un arbrisseau.</p>
+          <quote>
+            <p>À l’ombre de fouillis frutescents les moirés de la petite rivière s’amplifient en ellipses qu’emporte l’eau, et renaissent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fulgurer</head>
+          <p><hi rend="sc">v. n.</hi> — Lancer des éclairs, <num>l</num>. <hi rend="i">fulguro, are</hi>.</p>
+          <quote>
+            <p>Les yeux, pastilles d’encens, où fulgure une minuscule étincelle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fumeler</head>
+          <p><hi rend="sc">v. n.</hi> — Diminutif de fumer.</p>
+          <quote>
+            <p>Vers le plat d’argent où fumèlent les tasses transparentes…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Fuser</head>
+          <p><num>v</num>. <hi rend="sc">n</hi>. — Jaillir sur toute une surface, <num>l</num>. <hi rend="i">fundo, fusus.</hi></p>
+          <quote>
+            <p>Ce ne fut qu’en 1874 que fusa pour ainsi parler son volume peut-être le plus original.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’aujourd’hui</title> (nº 244). <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Géhenner</head>
+          <p><hi rend="sc">v. a.</hi> — Passer à la géhenne, torturer.</p>
+          <quote>
+            <p>Finies… les douleurs d’entrailles géhennantes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Glauquer</head>
+          <p><hi rend="sc">v. a.</hi> — Rendre glauque.</p>
+          <quote>
+            <p>L’atmosphère se glauque avec des teintes d’aquarium.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Glis</head>
+          <p><hi rend="sc">s. m.</hi> — Abréviatif de glissement.</p>
+          <quote>
+            <p>… Glis alternatifs, montant et descendant sur les déclivités de plans idéaux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">II. Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Gnomon</head>
+          <p><hi rend="sc">s. f.</hi> — Tige verticale ; primitivement terme astronomique.</p>
+          <quote>
+            <p>Ces jeunes filles dont le torse d’une viticible de gnomon, jaillit de l’herbe soleillée où s’annulent les sols.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">Félix Fénéon.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Gone</head>
+          <p><hi rend="sc">s. f.</hi> — Sorte de justaucorps.</p>
+          <quote>
+            <p>En gone de velours violet.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Graphide</head>
+          <p><hi rend="sc">s. f.</hi> — Croquis au trait.</p>
+          <quote>
+            <p>Une graphide non encore signalée d’Édouard Manet.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Symboliste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Grisoller</head>
+          <p><hi rend="sc">v. n.</hi> — Chanter, en parlant de l’alouette.</p>
+          <quote>
+            <p>Si ce n’est l’alouette parfois qui grisolle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">F. Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Grivelure</head>
+          <p><hi rend="sc">s. f.</hi> — État de ce qui est grivelé, tacheté de gris comme les <hi rend="i">grives</hi>.</p>
+          <quote>
+            <p>… Dans la grivelure argentée de leurs ailes éployées, un vol tumultueux de grèbes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Habitueux</head>
+          <p>Adj. — Forme dédaigneuse de habituel.</p>
+          <quote>
+            <p>On sort du mariage habitueux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Jadis et Naguère</title>. <hi rend="sc">P. Verlaine.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Halo</head>
+          <p><hi rend="sc">s. m.</hi> — Cercle lumineux qui entoure parfois les astres, <hi rend="sc">g.</hi> <hi rend="i">alôs</hi>, disque.</p>
+          <quote>
+            <p>La lune en son halo ravagé n’a qu’un œil.</p>
+            <p>Mangé des mouches, tout rayonnant des grands deuils.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Il demeure dans l’extase sacrée sous le halo violet de la Larve contemplée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hallaliser</head>
+          <p><hi rend="sc">v. a.</hi> — Sonner l’hallali.</p>
+          <quote>
+            <p>De trop poignants cors</p>
+            <p>M’ont hallalisé ces chers décors.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hancher</head>
+          <p><hi rend="sc">v. n.</hi> — Tendre la hanche.</p>
+          <quote>
+            <p>Aux cannelures hanchant vers le jour, la lumière décomposée fait tinter toutes les nuances en gamme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hectique</head>
+          <p>Adj. — Relatif à la fièvre.</p>
+          <quote>
+            <p>Les mouvantes, mouvantes aurores des taches hectiques aux pommettes de sa sœur et les lunules de sang à ses mouchoirs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">III. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hiémal</head>
+          <p>Adj. — D’hiver, que produit l’hiver. <num>l</num>. <hi rend="i">hiems</hi>, hiver.</p>
+          <quote>
+            <p>C’est l’hiémale nuit, et ses buées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <num>i<hi rend="sup">re</hi></num> Soirée. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+          <p><hi rend="sc">R. Hivernal</hi>. <hi rend="i">signifie un état actif, une action sur l’hiver, ou à propos de l’hiver</hi> ; <hi rend="sc">hiémal</hi> <hi rend="i">signifie un état passif, et s’applique aux choses résultant de l’hiver. Le Larousse des écoles déclare</hi> <hi rend="sc">hivernal</hi> peu usité.</p>
+        </div>
+        <div>
+          <head>Hocqueter</head>
+          <p><hi rend="sc">v. n.</hi> — Avoir le hoquet, émettre des sons semblables au hoquet.</p>
+          <quote>
+            <p>L’air se frayait un passage par sa bouche hocquetante.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hoir.</head>
+          <p><hi rend="sc">s. m.</hi> — Héritier, <num>l</num>. <hi rend="i">hæres</hi>, même signif.</p>
+          <quote>
+            <p>La chambre ancienne de l’Hoir.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue Indépendante</title>. <hi rend="sc">Stéphane Mallarmé</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>……………………………… l’Hoir</p>
+            <p>Royal, dont votre mort para les funérailles.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Sites</title>. <hi rend="sc">Henri de Régnier</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Huler</head>
+          <p><hi rend="sc">v. n.</hi> — Hurler.</p>
+          <quote>
+            <p>Et la lune qui se lève hule,</p>
+            <p>La lune hule à la tête horrible.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hyalin</head>
+          <p>Adj. — Qui a la transparence du cristal.</p>
+          <quote>
+            <p>Des chênes, dans l’incarnadin de leur feuillage, s’éclaircissent de transparences hyalines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hymnaire</head>
+          <p>— Forme adjective passive du mot hymne.</p>
+          <quote>
+            <p>Les harpes sont éclatées, les harpes, hymnaires</p>
+            <p>Aux louanges des mains morbides de la lente souveraine.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Hymniclame</head>
+          <p>Adj. — Qui clame des hymnes.</p>
+          <quote>
+            <p>Les cloches, leur battant des mains S’étourdissent en jeunes gammes Hymniclames ! hymniclames !</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Illuné</head>
+          <p>Adj. — Contraction locale du mot <hi rend="i">illuminé</hi>.</p>
+          <quote>
+            <p>Aux soirs illunés.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Devant le soleil bleu des rideaux illunés.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Premières Communions</title> (<title>Vogue</title>, t. I). <hi rend="sc">Arthur Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Immanent</head>
+          <p>Adj. — Analogue de permanent, <num>l</num>. <hi rend="i">in</hi>, indication de lieu, contrairement à <hi rend="i">per</hi>, indication de transition.</p>
+          <quote>
+            <p>La neige de l’immanent hiver à ton cœur qui croule.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Incantatoire</head>
+          <p>Adj. — Qui évoque, <num>l</num>. <hi rend="i">incantare</hi>, enchanter.</p>
+          <quote>
+            <p>Le vers qui de plusieurs vocables refait un mot total, neuf, étrange à la langue et comme incantatoire achève cet isolement de la parole.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Stéphane Mallarmé</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Incurve</head>
+          <p>Adj. — Qui a une courbe rentrante. <num>l</num>. <hi rend="i">incurvus</hi>, courbe.</p>
+          <quote>
+            <p>L’incurve et plastique roideur du corset.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Incurver (s’)</head>
+          <p><hi rend="sc">v. n.</hi> — Devenir incurve.</p>
+          <quote>
+            <p>Et par-dessus s’incurve le firmament.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Induire</head>
+          <p><hi rend="sc">v. a.</hi> — <num>l</num>. <hi rend="i">in</hi> et <hi rend="i">ducere.</hi> Empl. absol. Par une généralisation du sens où remploient les physiciens : <hi rend="i">influencer</hi>…</p>
+          <quote>
+            <p>Les tapages extérieurs induisent son inquiétude.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’Art moderne</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ingracieux</head>
+          <p>Adj. — <hi rend="i">In</hi> privatif et « gracieux » ; qui manque de grâce.</p>
+          <quote>
+            <p>… En haussant les épaules aux ingracieux costumes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Inscient</head>
+          <p>Adj. — Abréviation logique d’inconscient.</p>
+          <quote>
+            <p>Mais marcher dans le sapide et monotone clair Qu’allument aux humains mes inscientes prunelles.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Inscrire</head>
+          <p><hi rend="sc">v. a.</hi> — Terme de mathématiques. Tracer à l’intérieur d’une figure, une autre figure telle que le sommet de tous les angles de celle-ci touche le périmètre de celle-là.</p>
+          <quote>
+            <p>Une quadragénaire en lourde robe rouge verse un flux de paroles sur le sommet du triangle dans lequel s’inscrit sa fille à la glauque robe de tulle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Insexué</head>
+          <p>Adj. — Que la nature n’a pas doué de sexe.</p>
+          <quote>
+            <p>Des formes graciles, insexuées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Intrados</head>
+          <p><hi rend="sc">s. m.</hi> — Partie concave de la voûte.</p>
+          <quote>
+            <p>L’intrados de la Manne-Porte.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Invertir</head>
+          <p><hi rend="sc">v. a.</hi> — Terme didactique. Renverser symétriquement, <num>l</num>. <hi rend="i">invertere.</hi></p>
+          <quote>
+            <p>Et, voilures bleutées à peine, de volantes barquettes s’invertissent crûment dans cette nappe…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Investir</head>
+          <p><hi rend="sc">v. a.</hi> — Revêtir, envelopper, <num>l</num>. <hi rend="i">investire</hi>, de <hi rend="i">in</hi>, en et <hi rend="i">vestire</hi>, vêtir.</p>
+          <quote>
+            <p>… Et gare à ceux qu’il investit de son animadversion !</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 341). <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Irrorer</head>
+          <p><hi rend="sc">v. a.</hi> — <num>l</num>. <hi rend="i">irrorare</hi>, couvrir de rosée, arroser ; extensivement dans un sens mental à l’exemple :</p>
+          <quote>
+            <p>Les aveux s’ornaient des baisers qu’irrore</p>
+            <p>Le chœur étiolé des frissons des temps.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ithyphallique</head>
+          <p>Adj. — <hi rend="sc">g.</hi> <hi rend="i">ithyphallikos</hi>, de <hi rend="i">ithyphallos</hi> ithyphalle. Grossier dessin de caserne représentant des Phallus.</p>
+          <quote>
+            <p>Ithyphalliques et pioupiesques</p>
+            <p>Leurs insultes l’ont dépravé.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Vogue</title>, I, 7. <hi rend="sc">Arthur Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Iynge</head>
+          <p><hi rend="sc">s. f.</hi> — La bergeronnette ou hochequeue ; on s’en servait dans les enchantements dont le but était d’inspirer de l’<hi rend="i">amour</hi>.</p>
+          <quote>
+            <p>Au flux de son aile cadencé</p>
+            <p>L’Iynge berce l’amer sommeil.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Jube</head>
+          <p><hi rend="sc">s. f.</hi> — Crinière, <num>l</num>. <hi rend="i">juba.</hi></p>
+          <quote>
+            <p>Un front de tartaglia macabre sous un toupet en jube de fauve.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Jumellement</head>
+          <p>— Adverbe formé du mot « jumeau, jumelle ».</p>
+          <quote>
+            <p>La peau mate jumellement ornée par la gouache des pupilles bleues.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Kief</head>
+          <p><hi rend="sc">s. m.</hi> — Sorte de haschich portant à un rêve somnolent ; extensivement : rêve.</p>
+          <quote>
+            <p>Sans chercher l’oasis ni les Kiefs d’avenir.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Labile</head>
+          <p>Adj. — Sujet à glisser, à tomber, à manquer (<hi rend="sc">Littré</hi>). <num>l</num>. <hi rend="i">labilis</hi>, de <hi rend="i">labi</hi>, tomber, glisser.</p>
+          <quote>
+            <p>À la primitive prose souple, musclée et coloriée se sont substituées de labiles chansons murmurées, balbutiant en un bénin gâtisme, ou qui piaulent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>, <hi rend="sc">I. F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lactescent</head>
+          <p>Adj. — Qui commence à devenir laiteux.</p>
+          <quote>
+            <p>Même les brumes gris de perle, vers la ville, il les gouache de blancheurs lactescentes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lacustre</head>
+          <p>Adj. — Qui vit dans les lacs. <num>l</num>. <hi rend="i">lacustris</hi>, de <hi rend="i">lacus</hi>, lac.</p>
+          <quote>
+            <p>Une enfance helvétique et lacustre parmi les cygnes fédéraux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 300). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Laminé</head>
+          <p><hi rend="sc">p. p.</hi> — Du verbe act. Laminer. Endurci comme le fer laminé.</p>
+          <quote>
+            <p>Moi je suis laminé d’esthétiques loyales.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lampyre</head>
+          <p><hi rend="sc">s. m.</hi> — <hi rend="sc">g.</hi> <hi rend="i">lampuris</hi>, lampyris, ver luisant.</p>
+          <quote>
+            <p>Le tétrarque Émeraude-Archetypas parut, sur la terrasse centrale, se dégantant au soleil, Aëde universel au Zénith, Lampyre de l’Empyrée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Salomé</title>. <hi rend="sc">Jules Laforgue.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Larigot</head>
+          <p><hi rend="sc">s. m.</hi> — Espèce de flûte ou de petit flageolet qui n’est plus en usage, et qu’imite un des jeux de l’orgue dit jeu de larigot.</p>
+          <quote>
+            <p>Dans ses féériques cathédrales au son des voix célestes et des clairons larigots.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Latence</head>
+          <p><hi rend="sc">s. f.</hi> — <num>l</num>. <hi rend="i">latentem</hi>, qui est caché, de <hi rend="i">latere</hi>, être caché.</p>
+          <quote>
+            <p>Nuit des hérédités et limbes des latences !</p>
+            <p>Actif ? passif ? ô pelouses des défaillances.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Latent.</head>
+          <p>Adj. — Qui est caché.</p>
+          <quote>
+            <p>Oui, Celle-là (serais-tu perdu en une salle, spectateur très étranger, Ami) pour peu que tu déposes avec soumission, à ses pieds d’inconsciente révélatrice, ainsi que les roses qu’enlève et jette en la visibilité de régions supérieures un jeu de ses chaussons de satin pâle et vertigineux, la Fleur <hi rend="i">de ion poétique instinct</hi> n’attendant de rien autre la mise en évidence et sous le vrai jour des mille imaginations latentes : alors, par un commerce dont son sourire paraît verser le secret, sans tarder elle te livre à travers le voile dernier qui toujours reste, la nudité de tes concepts et silencieusement écrira ta vision à la façon d’un Signe, qu’elle est.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Notes sur le Théâtre</title> (<title>Rev. Indép.</title>). <hi rend="sc">St. Mallarmé</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Laurer</head>
+          <p><hi rend="sc">v. a.</hi> — Orner de lauriers.</p>
+          <quote>
+            <p>Ses condisciples le laurèrent aux joutes de la grande dame.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (n<hi rend="sup">e</hi> 268). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lifrelofre</head>
+          <p><hi rend="sc">s. m.</hi> — Savantasse suisse.</p>
+          <quote>
+            <p>Lifrelofres du canton de Vaud.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du Symboliste</title>. <hi rend="sc">Jean Moréas.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Limbe</head>
+          <p><hi rend="sc">s. m.</hi> — Cercle brillant autour d’un objet.</p>
+          <quote>
+            <p>Mélancolique le limbe de son canal en l’eau virante se brise,</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Limules</head>
+          <p><hi rend="sc">s. m.</hi> — Genre de crustacés branchiopodes.</p>
+          <quote>
+            <p>Des défilés où ruminent vautrés lès caparaçons ardoisés des limules à queue de rat.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Linceulé</head>
+          <p>Adj. — Couvert d’un linceul ou d’une manière de linceul.</p>
+          <quote>
+            <p>Un lit d’acajou linceulé de cretonne bleue.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Les maisons sont grises et hautes, leurs fenêtres blanchement linceulées de rideaux mornes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Idem</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lipothymie</head>
+          <p><hi rend="sc">s. f.</hi> — Défaillance, évanouissement.</p>
+          <quote>
+            <p>Une lipothymie le prostré.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>, I<hi rend="sup">er</hi>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Liquescence</head>
+          <p><hi rend="sc">s. f.</hi> — État de ce qui se fond. <num>l</num>. <hi rend="i">liquesco, is, ere</hi>, se fondre.</p>
+          <quote>
+            <p>Gênes se noye dans la liquescence de l’air et des sons.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Les Déliquescences par Adoré Floupette, poète décadent. Parodie.</p>
+          </quote>
+        </div>
+        <div>
+          <head>Liséré</head>
+          <p>Part. pas. du verbe actif lisérer ; border en lisérage.</p>
+          <quote>
+            <p>Et les ciels familiers lisérés de folie.</p>
+            <p>Neigent en charpie éblouissante.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lové</head>
+          <p>Adj. — Roulé en spirale.</p>
+          <quote>
+            <p>Un vaste ruban de pierres lové, biseauté d’une pente déclive.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lover (se)</head>
+          <p><hi rend="sc">v. p.</hi> — Se rouler en spirale.</p>
+          <quote>
+            <p>Des chimères d’argent butinent parmi les fleurs magiques et se lovent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lucescent</head>
+          <p>Adj. — Dérivé de <hi rend="i">lucescetis</hi>, part, pas. de <hi rend="i">lucesco</hi>.</p>
+          <quote>
+            <p>… Boucliers lucescents de ta face nécessaire.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Luisance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation de lueur.</p>
+          <quote>
+            <p>Une voyageuse que… Jacques frôle dérobée dans sa fourrure, lui laisse une fuyante luisance.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Luisure.</head>
+          <p><hi rend="sc">s. f.</hi> — Lueur brève et mince, aux arêtes déterminées.</p>
+          <quote>
+            <p>Les blancheurs d’eau qui s’effilent en minces luisures sur les vitres des lampadaires.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lustral</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">lustralis</hi>, de <hi rend="i">lustrare</hi>, purifier.</p>
+          <quote>
+            <p>Et alors les averses lustrales jusqu’au matin.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Amours</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Lustrateur</head>
+          <p><hi rend="sc">s. m.</hi> — Qui parcourt. <num>l</num><hi rend="i">. lustrator</hi> (Apulée).</p>
+          <quote>
+            <p>Las de nos regards lustrateurs de vieux âges.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Macrobe</head>
+          <p><hi rend="sc">s. m.</hi> — Vieillard, de <hi rend="i">macro</hi>…et <hi rend="i">bios</hi>, vie.</p>
+          <quote>
+            <p>Le macrobe de M. Valadon peut être une ferme étude.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Symboliste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Madrure</head>
+          <p><hi rend="sc">s. f.</hi> — Tache sur la peau.</p>
+          <quote>
+            <p>La mer… Dans sa peau d’argent des madrures s’étalent émeraude, comme des près.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mafflé</head>
+          <p>Adj. — Joufflu.</p>
+          <quote>
+            <p>De mafilées gaillardes lisent, dorment.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Majolique</head>
+          <p><hi rend="sc">s. f.</hi> — Faïence ancienne italienne et espagnole.</p>
+          <quote>
+            <p>Une pièce tapissée de majoliques jaunes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Salomé</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Malebosse</head>
+          <p><hi rend="sc">s. f.</hi> — Chancre.</p>
+          <quote>
+            <p>Calvite, bigle, camard, une malebosse au iront, Nicolas Genès.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Malitorne</head>
+          <p>Adj. — Grossier, trivial.</p>
+          <quote>
+            <p>… Les embûches malitornes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mantelé</head>
+          <p>Adj. — Formé de manteau.</p>
+          <quote>
+            <p>Aux passés les jeunes désirs mantelés de paroles au vent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Manuterge</head>
+          <p><hi rend="sc">s. m.</hi> — Serviette liturgique pour les ablutions manuelles.</p>
+          <quote>
+            <p>Et c’est l’Ostensoir, patène de lune, démailloté de ses langes, présenté sur un manuterge.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Marcescent</head>
+          <p>Adj. — Plante qui dépérit.</p>
+          <quote>
+            <p>Aux fleurs marcescentes du minuscule parterre, elle laisse un pitoyant regard.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Marmonneux</head>
+          <p><hi rend="sc">s. m.</hi> — Vaurien.</p>
+          <quote>
+            <p>Les bouches équivoques de glabres marmonneux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mastoïde</head>
+          <p>Adj. — Qui a la forme d’un mamelon.</p>
+          <quote>
+            <p>Mastoïdes paysages de banlieue parisienne.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Matité</head>
+          <p><hi rend="sc">s. m.</hi> — Qualité de ce qui est mat.</p>
+          <quote>
+            <p>La matité du teint pur.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Matutin</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">matutinus</hi>, matinal ou matineux (spécialisée en indication d’habitude). — Ce mot nouveau était nécessaire pour désigner l’aspect très vierge d’un acte.</p>
+          <quote>
+            <p>… Vers les graals dont tu décores</p>
+            <p>Les lents palais de rêves aux offices matutins.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Maya</head>
+          <p><hi rend="sc">s. pr. f</hi>. — Mythe indou de l’illusion</p>
+          <quote>
+            <p>Ah ! que Maya en fait des siennes avec nous par ces coins de paysages.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Symboliste</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mémorer(se)</head>
+          <p><hi rend="sc">v. p.</hi> — Traduction en forme verbale de l’adjectif. <num>l</num>. <hi rend="i">memor</hi>.</p>
+          <quote>
+            <p>Je me mémore en ton fantôme d’ombre recluse.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mimeux</head>
+          <p>Adj. — Terme de botanique. Se dit des plantes qui, lorsqu’on les touche, se contractent.</p>
+          <quote>
+            <p>Sa mimeuse sensibilité.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>, 14 août 1887. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mirance</head>
+          <p><hi rend="sc">s. f.</hi> — État de ce qui est miré.</p>
+          <quote>
+            <p>À travers les mirances du lac, cœur de la ville, les maisons doublées à pic se fusèlent vers les aqueuses profondeurs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Misogyne</head>
+          <p><hi rend="sc">s. m.</hi> — Un homme qui hait les femmes. — <hi rend="sc">g.</hi> <hi rend="i">misein</hi>, haïr, et <hi rend="i">gunê</hi>, femme.</p>
+          <quote>
+            <p>Il suppute, faux misogyne, les frôles prestiges auxquels il succombe.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">Félix Fénéon.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mobiler (se)</head>
+          <p><hi rend="sc">v. p.</hi> — Forme verbe de l’adjectif <hi rend="i">mobile</hi>, le mot de la langue <hi rend="i">se mobiliser</hi> étant employé dans un sens restreint.</p>
+          <quote>
+            <p>Le décor se mobile aux mouvantes écluses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Moirures</head>
+          <p><hi rend="sc">s. f.</hi> — Effet de moire.</p>
+          <quote>
+            <p>Les moirures scintillantes du fleuve bercent le pers du ciel.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Monitoire</head>
+          <p><hi rend="sc">s. m.</hi> — <num>l</num>. <hi rend="i">moneo</hi>, avertir. Substantif selon la forme adjective.</p>
+          <quote>
+            <p>À moi ciboire et monitoire</p>
+            <p>Le simulacre de l’heure impérieuse.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Montuer</head>
+          <p><hi rend="sc">v. n.</hi> — Être montueux.</p>
+          <quote>
+            <p>Cela institue d’immenses perspectives d’eau verte montuant sous un ciel froid.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Morfil</head>
+          <p><hi rend="sc">s. m.</hi> — Parcelles d’acier qui restent au tranchant d’une lame qu’on vient de réparer.</p>
+          <quote>
+            <p>Les oiseaux… dont le bec marquait une ombre opaque et rouge, en morfil.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Muettement</head>
+          <p>Adv. — En gardant le mutisme.</p>
+          <quote>
+            <p>Et son épée, il la nomme muettement Claymore.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Muqueuse</head>
+          <p><hi rend="sc">s. f.</hi> — Nom des membranes qui tapissent les cavités du corps humain, ouvertes au dehors.</p>
+          <quote>
+            <p>Hélas ! tout ça c’est des histoires de muqueuses.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Myologique</head>
+          <p>Adj. — Relatif aux muscles, <hi rend="sc">g</hi>. <hi rend="i">mus</hi>, muscle, et <hi rend="i">logos</hi>.</p>
+          <quote>
+            <p>D’un être qui bouge, elles n’enregistrent pas seulement le geste essentiel mais ses plus minimes et lointaines répercussions myologiques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Mysouride</head>
+          <p><hi rend="sc">s. f.</hi> — La moderne <hi rend="i">Agenouillée</hi>.</p>
+          <quote>
+            <p>Mysourides par les plessis d’ombre.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Myste</head>
+          <p><hi rend="sc">s. m.</hi> — Initié.</p>
+          <quote>
+            <p>Sur la croisée de quatre chemins, les mystes tracent des pentalphes…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Nacrure</head>
+          <p><hi rend="sc">s. f.</hi> — Effet de nacre.</p>
+          <quote>
+            <p>Une nacrure luit.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <p>R. — <hi rend="i">Mot formé de nacre comme dorure, ferrure, etc. sont formés de or, fer, etc, la désinence ure indiquant l’effet, le résultat.</hi></p>
+        </div>
+        <div>
+          <head>Navrance</head>
+          <p><hi rend="sc">s. f.</hi> — État de ce qui est navré.</p>
+          <quote>
+            <p>Les faces impassibles des Parisiens cachant des angoisses, des joies, des navrances devinables, tout ce luxe de passions et de choses le captive.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>… La navrance somnambulique des existences superflues.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+          <p>R. <hi rend="i">Littré dit</hi> : <quote><hi rend="i">« On a proposé de former le substantif navrance, il serait utile, mais jusqu’à présent il n’a pas été adopté. »</hi></quote></p>
+        </div>
+        <div>
+          <head>Néphélibate</head>
+          <p>Adj. — Qui marche au-dessus des nuées, <hi rend="sc">g.</hi> <hi rend="i">néphélè</hi>, nuage.</p>
+          <quote>
+            <p>Poèmes néphélibates et de théogonies.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’aujourd’hui</title> (nº 241). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Nickelure</head>
+          <p><hi rend="sc">s. f.</hi> — Effet de nickel.</p>
+          <quote>
+            <p>Ce lourd grand-livre relié de peau verte et orné de nickelures aux coins, au dos.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Nitide</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">nitidus</hi>, resplendissant.</p>
+          <quote>
+            <p>Elle compte, abattue et les mains sur son cœur,</p>
+            <p>Ses Anges, ses Jésus et ses Vierges nitides,</p>
+            <p>Et, calmement, son âme a bu tout son vainqueur.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Premières Communions</title> (<title>Vogue</title>, I, 1). <hi rend="sc">Arthur Rimbaud</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Noliser</head>
+          <p><hi rend="sc">v. a.</hi> — Terme de marine, affréter, <num>l</num>. <hi rend="i">naulisare</hi>.</p>
+          <quote>
+            <p>Nolisez les barques vers les petits orients de quiétude et de nonchalance qu’improvise le bon printemps.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Novale</head>
+          <p><num>l</num>. <hi rend="i">novalis terra</hi>, de <hi rend="i">novus</hi>, neuf. — Qui est nouvellement défriché (<hi rend="sc">Littré</hi>, etc.).</p>
+          <quote>
+            <p>Son œuvre propre est enfin connue, et un clan d’écrivains campe sur cette terre novale.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+          <p>Acception :</p>
+          <quote>
+            <p>Les taureaux</p>
+            <p>Meuglent aux chairs novales</p>
+            <p>Des pythonisses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Intermède des « Demoiselles Goubert »</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Nuclœus</head>
+          <p><hi rend="sc">s. m.</hi> — Noyau de la cellule organique <num>l</num>. <hi rend="i">nucleus</hi>, noyau.</p>
+          <quote>
+            <p>Des nuclœus hirsutes, cils en houppe autour d’une matrice qu’ils éventent dans l’ennui de longs voyages.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>, <hi rend="sc">I. Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Nué</head>
+          <p>— Part. passé du verbe actif nuer, assortir des couleurs.</p>
+          <quote>
+            <p>Mais d’autres, toutes on peut dire, nuées si précieusement, si précieusement charmantes en leur brume de rares musiques atténuées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Hommes d’Aujourd’hui</title> (nº 231). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Nuncupatif</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">nuncupare</hi>, dénommer, et <hi rend="i">capere</hi>, prendre. Ancien terme de palais. Testament nuncupatif, testament fait de vive voix et devant témoin (<hi rend="sc">Littré</hi>, etc.). Par extension, conforme à l’étymologie :</p>
+          <quote>
+            <p>Les femmes, dit la chronique nuncupative, l’avaient peu préoccupé.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Symboliste</title>. <hi rend="sc">Félix. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Oaristys</head>
+          <p><hi rend="sc">s. m.</hi>  Colloque amoureux.</p>
+          <quote>
+            <p>Ardent oaristys dont le dénouement chaste est plus brûlant que tout autre imaginable.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Hommes d’Aujourd’hui</title> (nº 245). <hi rend="sc">Paul Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Oblitérer</head>
+          <p><hi rend="sc">v. a.</hi> — Effacer, <num>l</num>. <hi rend="i">obliiterare</hi>, de <hi rend="i">ob</hi>, sur et <hi rend="i">littera</hi>, dans le sens de barre.</p>
+          <quote>
+            <p>Les chancres qui s’épandaient en de grises purées s’oblitèrent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue indépendante</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ocellé</head>
+          <p>Adj. — Forme épithétique d’ocellure ; moucheté.</p>
+          <quote>
+            <p>Les paons ont dressé la rampe ocellée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ocellure</head>
+          <p>— Ensemble de taches régulières et symétriques sur une étendue colorée.</p>
+          <quote>
+            <p>Par les pleurs des vagues et l’ocellure de leurs robes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>,</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Oculé</head>
+          <p>Adj. — Éclairé en forme d’œil, <num>l</num>. <hi rend="i">oculatus</hi>, participe de <hi rend="i">oculo, as, are</hi>, éclairer, rendre brillant (<hi rend="sc">Tertullien</hi> et <hi rend="sc">Solinus</hi>).</p>
+          <quote>
+            <p>La plaine des toits hirsute de tours, de flèches d’or et de dômes, oculée par le soleil claquant sur quelque lucarne de mansarde.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Onder</head>
+          <p><hi rend="sc">v. n.</hi> — S’agiter comme l’onde, bouillonner comme l’onde, ondoyer, <num>l</num>. <hi rend="i">undo, undas, undare</hi>, même sens (<hi rend="sc">Virgile</hi> et <hi rend="sc">Palladius</hi>).</p>
+          <quote>
+            <p>De nerveuses douleurs ondèrent dans la poitrine de la jeune femme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ondoyance</head>
+          <p><hi rend="sc">s. f.</hi> — Forme substantive de l’adjectif ondoyant.</p>
+          <quote>
+            <p>Vers l’ondoyance des futurs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ondulance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation de ondulation, aspect onduleux.</p>
+          <quote>
+            <p>La ville cernée à l’horizon par l’ondulance bleue des collines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Orbe</head>
+          <p><hi rend="sc">s. m.</hi> — <num>l</num>. <hi rend="i">orbis</hi>, figure sphérique ou circulaire.</p>
+          <quote>
+            <p>Sur l’orbe de son œil levé.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pacager</head>
+          <p><hi rend="sc">v. a.</hi> — Terme de coutume. Pâturer.</p>
+          <quote>
+            <p>Pacageant mes milieux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation de N.-D. la Lune</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Panique</head>
+          <p>Adj. — Employé ici dans son sens étymologique général c’est-à-dire dans le sens restreint qui lui vient de ce que « Pan troublait les esprits ».</p>
+          <quote>
+            <p>L’émotion panique que fait vibrer Ronsard dans son Élégie à la forêt.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 287). <hi rend="sc">P. Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Papelonner</head>
+          <p>Adj. — Terme de blason. Se dit d’une représentation en forme d’écaille ou de demi-cercle sur un écu.</p>
+          <quote>
+            <p>Sa brosse, d’une violence rusée, travaille et triture ingénieusement une pâte épaisse et plastique, la configure en reliefs, l’éraile, l’écorche, la guilloche et la papelonne.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Papemor</head>
+          <p><hi rend="sc">s. m.</hi> — Oiseau fabuleux.</p>
+          <quote>
+            <p>Les papemors dans l’air violet</p>
+            <p>Vont…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Paradigme</head>
+          <p><hi rend="sc">s. m.</hi> — <hi rend="sc">g.</hi> Terme de grammaire. Exemple, modèle de déclinaison, de conjugaison (<hi rend="sc">Littré</hi>, etc.). Par extension et conformément à l’étymologie.</p>
+          <quote>
+            <p>M. Georges Seurat, le premier, a présenté un paradigme complet et systématique de cette nouvelle peinture.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Parangon</head>
+          <p><hi rend="sc">s. m.</hi> — Comparaison, patron, modèle.</p>
+          <quote>
+            <p>Il y avait des rythmes, des rimes, un monsieur · s’extrayant des vers au lieu de moderniser de ressassés parangons.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 298). <hi rend="sc">G. Kahn.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Parangonner</head>
+          <p><hi rend="sc">v. a.</hi> — De <hi rend="i">parangon</hi>, comparaison, qui vient de l’espagnol, <hi rend="i">paragon</hi>, et de l’italien, <hi rend="i">paragone</hi>. Comparer.</p>
+          <quote>
+            <p>Parangonnez un peu.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Vogue</title>, II, 8 (sept. 1886). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Paranymphe</head>
+          <p><hi rend="sc">s. m.</hi> et <hi rend="sc">f</hi>. — <hi rend="sc">g.</hi></p>
+          <p>Antiq. gr. Le jeune ami du marié qui va chercher la mariée ; et la jeune amie de la mariée qui va chez le mari.</p>
+          <quote>
+            <p>Les paranymphes : Les concetti du crépuscule</p>
+            <p>Frisaient les bouquets de nos seins.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pédiculaire</head>
+          <p>Adj. — Terme de médecine, maladie pédiculaire, engendrant nombre de poux.</p>
+          <quote>
+            <p>… Cette pauvre vieille <hi rend="i">libre pensée</hi> mourante d’une triste maladie pédiculaire.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 282). <hi rend="sc">P. Verlaine.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pelu</head>
+          <p>Adj. — Couvert de poils.</p>
+          <quote>
+            <p>Mentons pelus de deux coudées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pelvien</head>
+          <p>Adj. — Terme d’anatomie : qui appartient au bassin, <num>l</num>. <hi rend="i">pelvis</hi>, bassin. Par extension : érotique.</p>
+          <quote>
+            <p>… Neuf nouvelles pelviennes ont une préface qui relate allusivement le procès.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pendeloquer</head>
+          <p><hi rend="sc">v. n.</hi> — Tomber en pendeloque.</p>
+          <quote>
+            <p>La gouttelante améthyste qui pendeloque sur le front.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam·</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pérennel</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">Perennis</hi>, sans fin.</p>
+          <quote>
+            <p>Et les cœurs des roses au parfum pérennel.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Périmé</head>
+          <p><hi rend="sc">p. p.</hi> — Du verbe actif périmer, <num>l</num>. <hi rend="i">perimere</hi>, détruire, de per et <hi rend="i">emere</hi>, prendre. Terme de chicane.</p>
+          <quote>
+            <p>Aux décors des boulevards des tavernes des jardins, des fêtes les amours périmés renaissent lumineux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Périptère</head>
+          <p><hi rend="sc">s. m.</hi> — Pourtour extérieur environné de colonnes isolées.</p>
+          <quote>
+            <p>Des citoles avec des saltères</p>
+            <p>Frémissent aux soirs des périptères.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pertinace</head>
+          <p>Adj. — <hi rend="i">Pertinax</hi>, adjectif latin.</p>
+          <quote>
+            <p>Pertinaces les sautillements de petite serve de qui tu ennoblis le regard.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Physiognomonique</head>
+          <p>Adj. — Qui juge le caractère par l’inspection du visage.</p>
+          <quote>
+            <p>… des joutes physiognomoniques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Hommes d’Aujourd’hui</title> (nº 308). <hi rend="sc">Félix Fénéon</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pibole</head>
+          <p><hi rend="sc">s. f.</hi> — Sorte de musette.</p>
+          <quote>
+            <p>Les piboles sonnent les sauts enluminés des bouffons.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Piédestalé</head>
+          <p><hi rend="sc">p. p.</hi> — Du verbe actif piédestaler. Monté sur piédestal.</p>
+          <quote>
+            <p>… Piedestalées de cadavres et braillant de rage.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Carcan</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pier</head>
+          <p><hi rend="sc">n.</hi><num>m</num>. — Poutre.</p>
+          <quote>
+            <p>Un long pier en bois d’un bout à l’autre d’un champ rocailleux où la foule barbare évolue sous les arbres dépouillés.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Illuminations</title>. <hi rend="sc">A. Rimbaud.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Piété</head>
+          <p><hi rend="sc">p. p.</hi> — Du verbe neutre piéter. Tenir le pied à l’endroit marqué dans le jeu de boules. Figuré : raidi et solidement campé.</p>
+          <quote>
+            <p>Phrases tassées par d’énergiques ellipses piétées en une rudesse fauve..</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Hommes d’aujourd’hui</title> (nº 241). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Plastique</head>
+          <p>Adj. — Susceptible de recevoir différentes formes. <hi rend="sc">g.</hi> <hi rend="i">plastikos</hi>, de <hi rend="i">plassein</hi> former.</p>
+          <quote>
+            <p>Ni la rancune d’avoir été docilement plastique sous des mains adorantes, sous des mains impérieuses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Plessis</head>
+          <p><hi rend="sc">s. m.</hi> — Jardins.</p>
+          <quote>
+            <p>Les plessis d’ombre.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pliocène</head>
+          <p>Adj.·— <hi rend="sc">g</hi>. <hi rend="i">pleion, plus</hi> et <hi rend="i">kainos, récent</hi>. Terme de géologie. Terrain pliocène, terrain tertiaire superposé au miocène et contenant plus de coquilles récentes.</p>
+          <quote>
+            <p>Des fossiles qui gisent</p>
+            <p>En pliocènes tufs de squelettes parias.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation de N.-D. la Lune</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Plumuleux</head>
+          <p>Adj. — D<hi rend="i">e plumule</hi>, petite plume.</p>
+          <quote>
+            <p>Dans un pré dont le confin se marque d’un rang d’arbres plumuleux.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Pouacre</head>
+          <p><hi rend="sc">s. m.</hi> — Plein d’ulcères.</p>
+          <quote>
+            <p>Gentlemen pouacres.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Radiance</head>
+          <p><hi rend="sc">s. f.</hi> — Effet de rayon.</p>
+          <quote>
+            <p>Ces radiances confuses ne se retrouveront pas.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ramoitir (se)</head>
+          <p><hi rend="sc">v. n.</hi> — Se rendre moite.</p>
+          <quote>
+            <p>… Une fille se ramoitit…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Récurrence</head>
+          <p><hi rend="sc">s. f.</hi> — Retour perpétuel et involontaire d’un même fait dans une conscience.</p>
+          <quote>
+            <p>Ou marche somnambule aux nuits des récurrences.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Regrettance</head>
+          <p><hi rend="sc">n. f</hi>. — Diminutif de regret,</p>
+          <quote>
+            <p>La regrettance du rêve féminin qu’il veut oublier.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <p>R. <hi rend="i">Mot formé avec la désinence</hi> ance<hi rend="i"> qui indique une atténuation, comme dans souvenance, espérance, etc.</hi></p>
+        </div>
+        <div>
+          <head>Renacescent</head>
+          <p>Adj. — Prolongation de renaissant.</p>
+          <quote>
+            <p>Ils ont fauché du glaive les pavots renacescents.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ribleur</head>
+          <p><hi rend="sc">s. m.</hi> — Coureur de nuit.</p>
+          <quote>
+            <p>… Le dernier ribleur rase les murs suintants…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ronronner</head>
+          <p><hi rend="sc">v. n.</hi> — Faire ou imiter le bruit que le chat tire de sa gorge pour marquer le contentement.</p>
+          <quote>
+            <p>Le fiacre découvert ronronne sur la chaussée du Corso.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Rougeoiment</head>
+          <p><hi rend="sc">s.</hi> <num>m</num>. — Effet de rouge. Formé comme flamboiement, effet de flamme.</p>
+          <quote>
+            <p>Le cortège presque effacé dans la nuit malgré le rougeoiment des torches…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ruisselure</head>
+          <p><hi rend="sc">s. f.</hi> — Effet de ruissellement.</p>
+          <quote>
+            <p>Toute une joaillerie fondue dans les velours, et dans les peluches et dans les soies ; et des ruisselures coulées dans la profondeur des fronces.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Saccage</head>
+          <p><hi rend="sc">s. m.</hi> — Bouleversement.</p>
+          <quote>
+            <p>Quel saccage du jardin de la beauté.</p>
+          </quote>
+          <listBibl>
+            <bibl>Arthur Rimbaud.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sadinet</head>
+          <p><hi rend="sc">s. m.</hi> — Sexe de la femme.</p>
+          <quote>
+            <p>… Où l’on a sadinetcy pris, cy mis.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Saltant</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">saltans</hi> (saltare).</p>
+          <quote>
+            <p>Vite nous allions souriantes et saltantes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Saltères</head>
+          <p><hi rend="sc">s. m.</hi> — Instrument de musique.</p>
+          <quote>
+            <p>Ma parole, aux soirs des périptères</p>
+            <p>Fait taire citoles et saltères</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Saponacé</head>
+          <p>Adj. — De la nature du savon.</p>
+          <quote>
+            <p>Œuvres d’une élégance sans imprévu et d’un aspect parfois saponacé.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fenéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sardoine</head>
+          <p><hi rend="sc">s. f.</hi> — Sorte d’agate.</p>
+          <quote>
+            <p>Aux traînes que portent les nains</p>
+            <p>Par les escaliers de sardoine.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Saure</head>
+          <p>Adj. — De couleur jaune tirant au brun</p>
+          <quote>
+            <p>Un rayon saure qui glisse dans un temple fantastiquement brun.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sautellant</head>
+          <p>Adj. — Qui saute légèrement.</p>
+          <quote>
+            <p>Entendre un son humain dans la salle voisine, permettait y fuir sautellante.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Scabieux</head>
+          <p>Adj. — Qui a des rugosités.</p>
+          <quote>
+            <p>Les Gennevilliers excoriés et les scabieux Saint-Denis…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Scissile</head>
+          <p>— Adj. — Qui peut être fendu.</p>
+          <quote>
+            <p>C’étaient des scissiles Nord-Américaines de la région des grands lacs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Hommes d’Aujourd’hui</title> (Nº 300). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Scolie</head>
+          <p><hi rend="sc">s. f.</hi> — Commentaire.</p>
+          <quote>
+            <p>Quelques laudatives scolies sur le préraphaëlitisme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Hommes d’Aujourd’hui</title> (Nº 300). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Scurrilité</head>
+          <p><hi rend="sc">s. f.</hi> — Bouffonnerie, <num>l</num>. <hi rend="i">Scurrilitas</hi>.</p>
+          <quote>
+            <p>La phrase se fronce d’une scurrilité.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderne</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ségréger</head>
+          <p><hi rend="sc">v. a.</hi> — Séparer par triage.</p>
+          <quote>
+            <p>… Ne s’est pas encore ségrégé de la tourbe de ses confrères.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sélecter</head>
+          <p><hi rend="sc">v. a.</hi> Choisir.</p>
+          <quote>
+            <p>Et l’idéal se sélecte quand même son petit maximum tons les soirs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Vogue</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Seyance</head>
+          <p><hi rend="sc">s. f.</hi> — L’ensemble de ce qui sied. Formé, de <hi rend="i">seoir, seyant</hi>.</p>
+          <quote>
+            <p>Vite elle a descendu l’escalier où froufroutèrent ses seyances neuves.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sibyllin</head>
+          <p>— Adjectivant l’idée de la prophétie des sibylles à la fois indicatrices et obscures.</p>
+          <quote>
+            <p>D’un doigt levé chassant les nuages moroses Dans le blanc lumineux des lampes sibyllines.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sigillaire</head>
+          <p>Adj. — En forme de sceau : <num>l</num>. <hi rend="i">sigillarius</hi>, même sens.</p>
+          <quote>
+            <p>Elle ne put se décider parmi les flacons casqués de peau blanche et les boîtes en carton à plombs sigillaires.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Subsista la sigillaire influence de cet enfant dans toute l’œuvre de son âme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Symboliste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Silent</head>
+          <p>Adj. — De silence, silencieux, indiquant l’acte de silence d’un être. Silent désignant un aspect de nature.</p>
+          <quote>
+            <p>Des ailes voletantes attendent aux anses silentes de bonace.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Siller</head>
+          <p><hi rend="sc">v. a.</hi> — Fendre les flots.</p>
+          <quote>
+            <p>Et puis en tes parlers sillés de nuls falots.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Silves</head>
+          <p>n. f. — Recueil de poèmes (lat.).</p>
+          <quote>
+            <p>Les silves aux raille pétales de roses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Traité du Verbe</title>. <hi rend="sc">René Ghil</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sinuer</head>
+          <p><hi rend="sc">v. a.</hi> — Être sinueux.</p>
+          <quote>
+            <p>Celle-ci une aventurière qui est une intellectuelle sinue son élégance mouvante.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue moderniste</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Smaragdin</head>
+          <p>Adj. — De couleur émeraude.</p>
+          <quote>
+            <p>… Velours smaragdin.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Soëve</head>
+          <p>Adj. — Vieille forme de suave.</p>
+          <quote>
+            <p>Ô la pure, ô la soëve, ô l’alme !</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Centon</title>. <hi rend="sc">Ch. Vignier</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Somnambuler</head>
+          <p><hi rend="sc">v. a.</hi> — Du mot somnambule.</p>
+          <quote>
+            <p>… L’issue du labyrinthe où somnambule la pauvre âme.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sonorant</head>
+          <p><hi rend="sc">p. pr</hi>. — Adj. du verbe sonorer, dérivé de sonore.</p>
+          <quote>
+            <p>Tout à l’heure, c’était sonorant le bal.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Sphinxial</head>
+          <p>Adj. — De sphinx.</p>
+          <quote>
+            <p>Le sourire sphinxial de doux masques.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Écrits pour l’Art</title>, 3. <hi rend="sc">Francis Vielé-Griffin</hi> (<title>Stéphane Mallarmé</title>).</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Spicpectre</head>
+          <p><hi rend="sc">s. m.</hi> — Sorte d’épice.</p>
+          <quote>
+            <p>Dans l’air fleuri de la venelle</p>
+            <p>Fluaient des senteurs de canelle</p>
+            <p>De spicpectre et de serpolet…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Spirer</head>
+          <p><hi rend="sc">v. a.</hi> — Humer.</p>
+          <quote>
+            <p>Des donzelles aux corsages aoutés spirent au travers des pailles la frigidité des liqueurs.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Squame</head>
+          <p><hi rend="sc">s. f.</hi> — Lèpre.</p>
+          <quote>
+            <p>Une ruelle torte aux squames d’herbes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Stagnance</head>
+          <p><hi rend="sc">s. f.</hi> - Atténuation par le suffixe <hi rend="i">ance</hi> du mot Stagnation.</p>
+          <quote>
+            <p>Vite elle a dilecté cette stagnance de son âme morose.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>. <hi rend="sc">Jean Moréas</hi> et <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Stellé</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">stella</hi>, étoile, Piqué comme d’étoiles.</p>
+          <quote>
+            <p>Stellé de becs de gaz et voilé de fumée.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Cygnes</title>. <hi rend="sc">Francis Vielé-Griffin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Strapassonner</head>
+          <p>— <hi rend="sc">v. a.</hi> Bâcler.</p>
+          <quote>
+            <p>Cet homme qui strapassonnait de façon si aiguë et nerveuse la vie au gaz…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Strideur</head>
+          <p><hi rend="sc">s. f.</hi> — <num>l</num>. <hi rend="i">Stridet vulnus</hi>, (Virgile, <hi rend="i">Énéide</hi>.) Symbolise l’aspect des lèvres non rapprochées des blessures.</p>
+          <quote>
+            <p>Car je me suis éclos de toutes tes morsures</p>
+            <p>……………………………………………………</p>
+            <p>Et des saines strideurs des bouches en blessures.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>La flûte suraiguë aux strideurs sataniques raille un sanglot intermittent que dit le cor.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Cygnes</title>. <hi rend="sc">Francis Vielé-Griffin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Stylite</head>
+          <p><hi rend="sc">s. m.</hi> — Anachorète vivant sur une colonne.</p>
+          <quote>
+            <p>L’obélisque quadrangulaire</p>
+            <p>De mon spleen monte, j’y digère</p>
+            <p>En Stylite ce gros mystère.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+          <quote>
+            <p>Pour moi déboulonné du pôle de Stylite</p>
+            <p>Qui me seyait.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Imitation de N.-D. la Lune</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Subjectile</head>
+          <p><hi rend="sc">s. m.</hi> — Toute surface sur laquelle on peint.</p>
+          <quote>
+            <p>Empreindre une de ces fugitives apparences sur le subjectile.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">F. Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Suprémateur (trice)</head>
+          <p>Adj. substantif. — De suprême.</p>
+          <quote>
+            <p>Mène le troupeau doux vers l’arabesque égale</p>
+            <p>De ta suprématrice loi.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Suspirieux</head>
+          <p>Adj. — Soupirant, <num>l</num>. <hi rend="i">suspirium</hi>.</p>
+          <quote>
+            <p>La nef reste dans la pénombre et suspirieuse.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Synchromie</head>
+          <p><hi rend="sc">s. f.</hi> — Harmonie de couleurs grec : <hi rend="i">sun</hi> ensemble et <hi rend="i">chromos</hi> couleur.</p>
+          <quote>
+            <p>Dans l’autre une synchromie de blanc et de vert tendre.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Talare</head>
+          <p><hi rend="sc">s. f.</hi> — Vêtement qui descend jusqu’aux talons.</p>
+          <quote>
+            <p>En longue talare… des gentlemen.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Talmache</head>
+          <p><hi rend="sc">s. m.</hi> — Masque, barboire.</p>
+          <quote>
+            <p>Le banquier juif Jacobi avec son menton de talmache.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tangentiel</head>
+          <p>Adj. — Qui touche en un point unique.</p>
+          <quote>
+            <p>Allures inquiètes, mystérieuses et tangentielles.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Hommes d’aujourd’hui</title> (nº 308). <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tangué</head>
+          <p>Adj. — Bousculé d’avant en arrière.</p>
+          <quote>
+            <p>Ah ! pour une âme trop tanguée</p>
+            <p>Des baisers sont des passions.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Targe</head>
+          <p><hi rend="sc">s. f.</hi> — Espèce de bouclier.</p>
+          <quote>
+            <p>Targe sur les dangers ennemis.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tarrabalations</head>
+          <p><hi rend="sc">s. f.</hi> — Remuements.</p>
+          <quote>
+            <p>Des appels, des pas précipités et le brouhaha de toutes les tarrabalations du départ.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tartaglia</head>
+          <p><hi rend="sc">s. m.</hi> — Personnage de la Comédie italienne.</p>
+          <quote>
+            <p>… Un front de tartaglia macabre</p>
+            <p>So us un toupet en jube de fauve.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tavelure</head>
+          <p><hi rend="sc">s. f.</hi> — Tâche.</p>
+          <quote>
+            <p>… Ce pâle et ardent ciel estival de M. D. P. affirme sa qualité par une tavelure de blanc.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Art moderne</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Télamons</head>
+          <p><hi rend="sc">s. m.</hi> — Statuettes employées comme support.</p>
+          <quote>
+            <p>… Sur un meuble bas, pentagone que des télamons supportent…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Telluriques</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">Tellus</hi>, terre.</p>
+          <quote>
+            <p>… De rudes odeurs telluriques, de douces aussi.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Revue Indépendante</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tenites</head>
+          <p><hi rend="sc">s. f.</hi> — Les déesses des sorts.</p>
+          <quote>
+            <p>… (Des gens) Aux morsures superflues de malitornes tenites s’abvolent…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Chronique du « Symboliste »</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Térébré</head>
+          <p>Adj. — Perforé.</p>
+          <quote>
+            <p>… Il se complaît à ces blocs surgissants, à ces masses térébrées.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Terneur</head>
+          <p><hi rend="sc">s. f.</hi> — État de ce qui est terne.</p>
+          <quote>
+            <p>La terneur minable des corsages</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ternissure</head>
+          <p><hi rend="sc">s. f.</hi> — Tache terne.</p>
+          <quote>
+            <p>La ternissure du jour choit vers les trottoirs où la pluie a laissé des marbrures sombres.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Le Thé chez Miranda</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+          <p>Ces deux mots formés de terne comme noirceur et noircissure de noir.</p>
+        </div>
+        <div>
+          <head>Thériaque</head>
+          <p><hi rend="sc">s. m.</hi> — Onguent de charlatan.</p>
+          <quote>
+            <p>L’accort perruquier Léopold vante ses thériaques de beauté.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Théurgie</head>
+          <p><hi rend="sc">s. f.</hi> — Sorte de magie opposée à la goétie.</p>
+          <quote>
+            <p>Ses mains qu’elle tend comme pour des théurgies.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Cantilènes</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Torcol</head>
+          <p>Adj. — Au col de travers.</p>
+          <quote>
+            <p>Lord Sinclair torcol et cravaté d’incarnadin.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Torpide</head>
+          <p>Adj. — Qui est en torpeur ou qui donne la torpeur, <num>l</num>. <hi rend="i">torpidus</hi>, engourdi, (<hi rend="sc">Tite-Live</hi> et <hi rend="sc">Ausone</hi>).</p>
+          <quote>
+            <p>Elle s’abandonnait tranquillement à cette somnolence torpide qui, peu à peu…</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Soi</title>. <hi rend="sc">Paul Adam</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Torve</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">torvus</hi>, qui regarde de travers, d’un air menaçant.</p>
+          <quote>
+            <p>………… Une carcasse</p>
+            <p>Humaine dont la faim torve d’un loup fugace</p>
+            <p>Venait de disloquer l’ossature à demi.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Jadis et Naguère</title>. <hi rend="sc">P. Verlaine.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Trébiller</head>
+          <p><hi rend="sc">v. n.</hi> — Chanceler en une sorte de grelottement, en parlant des vieillards.</p>
+          <quote>
+            <p>De la cuisine à la salle à manger elle trébille, s’arrête quand lui parle une servante ou un ouvrier.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Songes</title>. <hi rend="sc">Francis Poictevin</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tremblances</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation en <hi rend="i">ance</hi> du mot <hi rend="i">tremblement</hi>.</p>
+          <quote>
+            <p>L’asphalte réfléchissait en coulées d’or flave les tremblances des lampadaires.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Trépidant</head>
+          <p>Adj. v. — Tremblant de façon involontaire et continue.</p>
+          <quote>
+            <p>Qu’importe ta douleur à ma douleur</p>
+            <p>………………………………………………</p>
+            <p>Et ta seconde trépidante à ma mort essentielle.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Trépider</head>
+          <p><hi rend="sc">v. n.</hi> — Vibrer violemment.</p>
+          <quote>
+            <p>Avec la jetée qui, dans le flamboi du soleil, semble trépider et se volatilise.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Trueller</head>
+          <p><hi rend="sc">v. a.</hi> — Manier avec la truelle.</p>
+          <quote>
+            <p>… Il truelle avec un entêtement sombre des pivoines des chrysanthèmes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Turricule</head>
+          <p>Adj. — <num>l</num>. <hi rend="i">Turris</hi>, tour. Qui offre la forme crénelée d’une tour.</p>
+          <quote>
+            <p>De ton char plaqué d’ivoire et turriculé de lys.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tympanon</head>
+          <p><hi rend="sc">s. m.</hi> — Tambour de basque, tambour-timbale (chez les Latins).</p>
+          <quote>
+            <p>Entends dans l’horizon l’appel des tympanons.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Tympanonner</head>
+          <p><num>v</num>. — Elliptique. Exemple : les caravanes retentissent des sons des tympanons.</p>
+          <quote>
+            <p>Les caravanes tympanonnent.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>La Belle au château rêvant</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ubiquiter</head>
+          <p><hi rend="sc">v. a.</hi> — Être de tous côtés à la fois.</p>
+          <quote>
+            <p>Ainsi mon idéal sans bride.</p>
+            <p>T’ubiquitait de ses sanglots.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Ululer</head>
+          <p><hi rend="sc">v. n.</hi> — Analogue de hurler, du cri des chiens et des loups ; extensivement, long cri inarticulé et cri d’éléments.</p>
+          <quote>
+            <p>Tandis que les grands vents ululent sous les porches.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Palais nomades</title>. <hi rend="sc">Gustave Kahn</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vénuste</head>
+          <p>Adj. — Qui est charmant comme Vénus. <num>l</num>. <hi rend="i">venustus, charmant, gracieux.</hi></p>
+          <quote>
+            <p>… Follement blonde et d’une allure</p>
+            <p>Vénuste à tous nous débaucher.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Inédit</title>. <hi rend="sc">Verlaine</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vésanique</head>
+          <p>Adj. — Fou.</p>
+          <quote>
+            <p>… Travaillés par des névroses vésaniques.</p>
+          </quote>
+          <listBibl>
+            <bibl><hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vernal</head>
+          <p>Adj. — De printemps <num>l</num>. <hi rend="i">Ver</hi>, printemps.</p>
+          <quote>
+            <p>L’influence du souffle vernal doucement dilatant les immuables textes inscrits en sa chair, lui aussi, enhard par ce trouble agréable à sa stérile pensée, était venu reconnaître par un contact avec la Nature, immédiat, net, violent, positif, dénué de toute curiosité intellectuelle, le bien-être général, et candidement, loin des obédiences et de la contrainte de son occupation, des canons, des interdits, des censures, il se roulait, dans la béatitude de sa simplicité native, plus heureux qu’un âne.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>L’Ecclésiastique</title>, dans la <title>Gazetta letteraria</title>. <hi rend="sc">Stéphane Mallarmé.</hi></bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vibrance</head>
+          <p><hi rend="sc">s. f.</hi> — Atténuation par le suffixe <hi rend="i">ance</hi> du mot vibration.</p>
+          <quote>
+            <p>Dedans, la bleue réfraction des hautes vitres grisaille les vibrances des nuances.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vidasser</head>
+          <p><hi rend="sc">v. a.</hi> — Vider piteusement.</p>
+          <quote>
+            <p>Vidasse, vidasse ton cœur Ma pauvre rosse endolorie.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Villotières</head>
+          <p><hi rend="sc">s, f</hi>. — Coureuses, filles de mauvaise vie.</p>
+          <quote>
+            <p>                                                              chez</p>
+            <p>les Villotières adextres à tenir amoureuses lysses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Thé chez Miranda</title>. <hi rend="sc">Jean Moréas</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Virgouleuse</head>
+          <p><hi rend="sc">s. f.</hi> — Sorte de poire.</p>
+          <quote>
+            <p>… Des avant-bras dégagent des seins en virgourleuses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Les Impressionnistes</title>. <hi rend="sc">Félix Fénéon</hi>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vocatoire</head>
+          <p>Adj. — Qui invoque, qui appelle. <num>l</num>. <hi rend="i">vocare</hi>, appeler.</p>
+          <quote>
+            <p>Et les voilà traçant les cercles médiateurs et les ellipses de force, les caractères vocatoires, les signes aux spirales complexes qui unissent les vigueurs occultes des mondes.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Demoiselles Goubert</title>.</bibl>
+          </listBibl>
+        </div>
+        <div>
+          <head>Vortex</head>
+          <p><hi rend="sc">s. m.</hi> — Tourbillon.</p>
+          <quote>
+            <p>Dans leurs incessants vortex de métamorphoses.</p>
+          </quote>
+          <listBibl>
+            <bibl><title>Complaintes</title>. <hi rend="sc">Jules Laforgue</hi>.</bibl>
+          </listBibl>
+          <trailer>FIN</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
