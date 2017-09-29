@@ -1,160 +1,114 @@
 <?php
 ini_set('display_errors', '1');
 error_reporting(-1);
-include (dirname(__FILE__).'/../teipot/Teipot.php'); // prendre le pot
-$pot=new Teipot(dirname(__FILE__).'/critique.sqlite', 'fr'); // mettre le sachet SQLite dans le pot
-$pot->file($pot->path); // envoyer les fichiers statiques de la base
-$session = new Session($pot); // ouvrir une session
-Session::hooks(); // laisser parler divers envois spécifiques à la session (javascript, MS.word…) 
-
-// Si un document correspond à ce chemin, charger un tableau avec différents composants (body, head, breadcrumb…)
-$doc=$pot->doc($pot->path);
-// rediriger si pas de / final  http://googlewebmastercentral.blogspot.fr/2010/04/to-slash-or-not-to-slash.html
-if ($pot->path && substr($pot->path, - strlen($doc['bookname'])) === $doc['bookname']){
-  $location='http://'. $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'/';
-  header("Location: $location",TRUE,301);
+header( 'content-type: text/html; charset=utf-8' );
+if ( !file_exists( $path = dirname(__FILE__)."/conf.php" ) ) {
+  echo '<h1>Problème de configuration, fichier conf.php introuvable.</h1>';
 }
-// pas de body trouvé, charger des résultats en mémoire
-if (!isset($doc['body'])) {
-  $timeStart=microtime(true);
-  $pot->search();
+else {
+  $conf = include( $path );
 }
-/*
+include( dirname(dirname(__FILE__))."/Teinte/Base.php" );
+$path = Teinte_Web::pathinfo(); // document demandé
+$basehref = Teinte_Web::basehref(); //
+$teinte = $basehref."../Teinte/";
+// chercher le doc dans la base
+$base = new Teinte_Base( $conf['sqlite'] );
+$query = $base->pdo->prepare("SELECT * FROM doc WHERE code = ?; ");
+$docid = current( explode( '/', $path ) );
+$query->execute( array( $docid ) );
+$doc = $query->fetch();
 
-  // ajouter à l’historique
-  else {
-    Session::bookhist(null, $doc);
-  }
-*/
-
-$teipot = $pot->basehref() .'../teipot/'; // chemin css, js ; baseHref est le nombre de '../' utile pour revenir en racine du site
-$theme = $pot->basehref() .'../theme/'; // autres ressources spécifiques
-
+$q = null;
+if ( isset($_REQUEST['q']) ) $q=$_REQUEST['q'];
 
 ?><!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <?php 
-if(isset($doc['head'])) echo $doc['head']; 
-else echo '
-<title>OBVIL, corpus Critique</title>
-';
-    ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>html.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $teipot; ?>teipot.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $theme; ?>obvil.css" />
+    <title><?php
+if( $doc ) echo $doc['title'].' — ';
+echo $conf['title'];
+    ?></title>
+    <link rel="stylesheet" type="text/css" href="<?= $teinte ?>tei2html.css" />
+    <link rel="stylesheet" type="text/css" href="<?= $basehref ?>../theme/obvil.css"/>
   </head>
-  <body>
+  <body id="top">
     <div id="center">
       <header id="header">
-        <h1>
-          <a href="<?php echo $pot->basehref() . $pot->qsa(null, null, '?'); ?>">OBVIL, corpus critique</a>
-        </h1>
-        <a class="logo" href="http://obvil.paris-sorbonne.fr/bibliotheque/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
+        <h1><?php
+          if ( !$path && $base->search ) {
+            echo '<a href="'.$basehref.'">'.$conf['title'].'</a>';
+          }
+          else if ( !$path ) {
+            echo '<a href="'.$conf['back'].'">OBVIL, '.$conf['title'].'</a>';
+          }
+          else {
+            echo '<a href="'.$basehref.'?'.$_COOKIE['lastsearch'].'">'.$conf['title'].'</a>';
+          }
+        ?></h1>
+        <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $basehref; ?>../theme/img/logo-obvil.png" alt="OBVIL"></a>
       </header>
       <div id="contenu">
-        <main id="main">
-          <nav id="toolbar">
-            <?php
-if (isset($doc['prevnext'])) echo $doc['prevnext'];    
-            ?>
-          </nav>
-          <div id="article">
-            <?php
-if (isset($doc['body'])) {
-  echo $doc['body'];
-  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  // page d’accueil d’un livre
-  if (!isset($doc['artname']) || $doc['artname']=='index') {
-    if ($pot->q) {
-      $pot->bookrowid = $doc['bookrowid'];
-      echo $pot->chrono($doc['bookrowid']);
-      echo $pot->concBook($doc['bookrowid']);
-    }
-    else {
-      echo "\n" . '<iframe id="wordcloud" style="overflow: hidden; border: none;" scrolling="no" width="100%" height="500px" src="../../fr/wordcloud/?base=critique&book=' . $doc['bookname'] . '&catform=SUB"></iframe>';
-    }
-  }
-
-  // page d’accueil d’un livre
-  if (!isset($doc['artname']) || $doc['artname']=='index') {
-    if ($pot->q) {
-      $pot->bookrowid = $doc['bookrowid'];
-      echo $pot->chrono($doc['bookrowid']);
-      echo $pot->concBook($doc['bookrowid']);
-    }
-    else {
-      echo "\n" . '<iframe id="wordcloud" style="overflow: hidden; border: none;" scrolling="no" width="100%" height="500px" src="../../fr/wordcloud/?base=critique&book=' . $doc['bookname'] . '"></iframe>';
-    }
-  }
-}
-// pas de livre demandé, montrer un rapport général
-else {
-  // nombre de résultats
-  echo $pot->report();
-  // présentation chronologique des résultats
-  echo $pot->chrono();
-  // présentation bibliographique des résultats
-  echo $pot->biblio();
-  // concordance s’il y a recherche plein texte
-  echo $pot->concByBook();
-}
-            ?>
-          </div>
-        </main>
         <aside id="aside">
           <?php
-// les concordances peuvent être très lourdes, placer la nav sans attendre
-// livre
-if (isset($doc['bookrowid'])) {
-  if(isset($doc['download'])) echo "\n".'<nav id="download">' . $doc['download'] . '</nav>';
-
+if ( $doc ) {
+  // if (isset($doc['download'])) echo $doc['download'];
   // auteur, titre, date
-  echo "\n".'<header>';
-  echo "\n".'<div>';
-  if (isset($doc['byline'])) echo $doc['byline'];
-  if (isset($doc['end'])) echo ' ('.$doc['end'].')';
-  echo '</div>';
-  echo "\n".'<a class="title" href="' . $pot->basehref() . $doc['bookname'] . '/">'.$doc['title'].'</a>';
-  echo "\n".'</header>';
-  // rechercher dans ce livre
   echo '
-  <form action=".#conc" name="searchbook" id="searchbook">
-    <input name="q" id="q" onclick="this.select()" class="search" size="20" placeholder="Rechercher dans ce livre" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $pot->q) .'"/>
-    <input type="image" id="go" alt="&gt;" value="&gt;" name="go" src="'. $theme . 'img/loupe.png"/>
-  </form>
-  ';
-  // table des matières
-  echo '
-          <div id="toolpan" class="toc">
-            <div class="toc">
-              '.$doc['toc'].'
-            </div>
-          </div>
-  ';
+<header>
+  <a class="title" href="' . $basehref . $doc['code'] . '">'.$doc['title'].'</a>
+</header>
+<form action="#mark1">
+  <a title="Retour aux résultats" href="'.$basehref.'?'.$_COOKIE['lastsearch'].'"><img src="'.$basehref.'../theme/img/fleche-retour-corpus.png" alt="←"/></a>
+  <input name="q" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/><button type="submit">🔎</button>
+</form>
+';
+
+  // table des matières, quand il y en a une
+   if ( file_exists( $f="toc/".$doc['code']."_toc.html" ) ) readfile( $f );
 }
 // accueil ? formulaire de recherche général
 else {
   echo'
-    <form action="">
-      <input name="q" class="text" placeholder="Rechercher" value="'.str_replace('"', '&quot;', $pot->q).'"/>
-      <div><label>De <input placeholder="année" name="start" class="year" value="'.$pot->start.'"/></label> <label>à <input class="year" placeholder="année" name="end" value="'. $pot->end .'"/></label></div>
-      <button type="reset" onclick="return Form.reset(this.form)">Effacer</button>
-      <button type="submit">Rechercher</button>
-    </form>
+<form action="">
+  <input style="width: 100%;" name="q" class="text" placeholder="Rechercher de mots" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/>
+  <div><label>De <input placeholder="année" name="start" class="year" value="'.$base->p['start'].'"/></label> <label>à <input class="year" placeholder="année" name="end" value="'.$base->p['end'].'"/></label></div>
+  <button type="reset" onclick="return Form.reset(this.form)">Effacer</button>
+  <button type="submit" style="float: right; ">Rechercher</button>
+</form>
   ';
 }
           ?>
         </aside>
+        <div id="main">
+          <nav id="toolbar">
+            <?php
+            ?>
+          </nav>
+          <div id="article" class="<?php echo $doc['class']; ?>">
+            <?php
+if ( $doc ) {
+  $html = file_get_contents( "article/".$doc['code']."_art.html" );
+  if ( $q ) echo $base->hilite( $doc['id'], $q, $html );
+  else echo $html;
+}
+else if ( $base->search ) {
+  $base->biblio( array( "no", "creator", "date", "title", "occs" ), "SEARCH" );
+}
+// pas de livre demandé, montrer un rapport général
+else {
+  if ( file_exists( $f=dirname(__FILE__)."/about.html" ) ) readfile( $f );
+  $base->biblio( array( "no", "creator", "date", "title" ) );
+}
+            ?>
+            <a id="gotop" href="#top">▲</a>
+          </div>
+        </div>
       </div>
-      <?php 
-// footer
-      ?>
     </div>
-    <script type="text/javascript" src="<?php echo $teipot; ?>Tree.js">//</script>
-    <script type="text/javascript" src="<?php echo $teipot; ?>Form.js">//</script>
-    <script type="text/javascript" src="<?php echo $teipot; ?>Sortable.js">//</script>
-    <script type="text/javascript"><?php if (isset($doc['js']))echo $doc['js']; ?></script>  
+    <script type="text/javascript" src="<?= $teinte ?>Teinte.js">//</script>
+    <script type="text/javascript" src="<?= $teinte ?>Tree.js">//</script>
+    <script type="text/javascript" src="<?= $teinte ?>Sortable.js">//</script>
   </body>
 </html>
