@@ -40,9 +40,6 @@ echo $conf['title'];
           if ( !$path && $base->search ) {
             echo '<a href="'.$basehref.'">'.$conf['title'].'</a>';
           }
-          else if ( !$path ) {
-            echo '<a href="'.$conf['back'].'">OBVIL, '.$conf['title'].'</a>';
-          }
           else {
             echo '<a href="'.$basehref.'?'.$_COOKIE['lastsearch'].'">'.$conf['title'].'</a>';
           }
@@ -56,8 +53,8 @@ if ( $doc ) {
   echo "\n".'<nav id="download"><small>Télécharger :</small>
   <a target="_blank" href="epub/'.$doc['code'].'.epub" title="Livre électronique">epub</a>,
   <a target="_blank" href="kindle/'.$doc['code'].'.mobi" title="Mobi, format propriétaire Amazon">kindle</a>,
-  <a target="_blank" href="markdown/'.$doc['code'].'.txt" title="Markdown">texte brut</a>,
-  <a target="_blank" href="iramuteq/'.$doc['code'].'.txt">iramuteq</a>,
+  <a target="_blank" href="markdown/'.$doc['code'].'.md" title="Markdown">texte brut</a>,
+  <a target="_blank" href="iramuteq/'.$doc['code'].'.txt" title="Markdown">iramuteq</a>,
   <a target="_blank" href="html/'.$doc['code'].'.html">html</a>.
   </nav>';
   echo '<p> </p>';
@@ -77,6 +74,15 @@ if ( $doc ) {
 }
 // accueil ? formulaire de recherche général
 else {
+  echo "\n".'<nav id="download"><small>Téléchagements :</small>
+  <a target="_blank" href="epub/" title="Livre électronique">epub</a>,
+  <a target="_blank" href="kindle/" title="Mobi, format propriétaire Amazon">kindle</a>,
+  <a target="_blank" href="markdown/" title="Markdown">texte brut</a>,
+  <a target="_blank" href="iramuteq/">iramuteq</a>,
+  <a target="_blank" href="html/">html</a>.
+  </nav>';
+  echo '<p> </p>';
+
   echo'
 <form action="">
   <input style="width: 100%;" name="q" class="text" placeholder="Rechercher de mots" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/>
