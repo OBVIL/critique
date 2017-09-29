@@ -53,7 +53,14 @@ echo $conf['title'];
         <aside id="aside">
           <?php
 if ( $doc ) {
-  // if (isset($doc['download'])) echo $doc['download'];
+  echo "\n".'<nav id="download"><small>Télécharger :</small>
+  <a target="_blank" href="epub/'.$doc['code'].'.epub" title="Livre électronique">epub</a>,
+  <a target="_blank" href="kindle/'.$doc['code'].'.mobi" title="Mobi, format propriétaire Amazon">kindle</a>,
+  <a target="_blank" href="markdown/'.$doc['code'].'.txt" title="Markdown">texte brut</a>,
+  <a target="_blank" href="iramuteq/'.$doc['code'].'.txt">iramuteq</a>,
+  <a target="_blank" href="html/'.$doc['code'].'.html">html</a>.
+  </nav>';
+  echo '<p> </p>';
   // auteur, titre, date
   echo '
 <header>
