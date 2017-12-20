@@ -51,6 +51,7 @@ echo $conf['title'];
           <?php
 if ( $doc ) {
   echo "\n".'<nav id="download"><small>Télécharger :</small>
+  <a target="_blank" href="http://obvil.github.io/critique/'.substr($doc['code'], 0, strpos($doc['code'], '_')).'/'.$doc['code'].'.xml" title="Livre électronique">tei</a>,
   <a target="_blank" href="epub/'.$doc['code'].'.epub" title="Livre électronique">epub</a>,
   <a target="_blank" href="kindle/'.$doc['code'].'.mobi" title="Mobi, format propriétaire Amazon">kindle</a>,
   <a target="_blank" href="markdown/'.$doc['code'].'.md" title="Markdown">texte brut</a>,
@@ -75,6 +76,7 @@ if ( $doc ) {
 // accueil ? formulaire de recherche général
 else {
   echo "\n".'<nav id="download"><small>Téléchagements :</small>
+  <a target="_blank" href="http://obvil.github.io/critique/" title="Source XML/TEI">tei</a>,
   <a target="_blank" href="epub/" title="Livre électronique">epub</a>,
   <a target="_blank" href="kindle/" title="Mobi, format propriétaire Amazon">kindle</a>,
   <a target="_blank" href="markdown/" title="Markdown">texte brut</a>,
