@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -26,7 +25,11 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2018"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/saint-beuve/sainte-beuve_causeries-du-lundi-ed03_08/</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/saint-beuve/xml/sainte-beuve_causeries-du-lundi-ed03_09/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/saint-beuve/sainte-beuve_causeries-du-lundi-ed03_09.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/saint-beuve/sainte-beuve_causeries-du-lundi-ed03_09.html</idno>
+        <idno type="txt">http://obvil.paris-sorbonne.fr/corpus/saint-beuve/sainte-beuve_causeries-du-lundi-ed03_09.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/saint-beuve/sainte-beuve_causeries-du-lundi-ed03_09.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2018 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
