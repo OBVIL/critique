@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="diderot_plan-universite">
   <teiHeader>
@@ -10,12 +10,12 @@
         <editor>Assézat (1875)</editor>
       </titleStmt>
       <publicationStmt>
+        <publisher>Gallica BNF</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/critique/diderot_plan-universite/</idno>
         <date when="2013"/>
-        <publisher>Gallica BNF</publisher>
       </publicationStmt>
       <sourceDesc>
-        <bibl><idno>http://gallica.bnf.fr/ark:/12148/bpt6k5545039q</idno></bibl>
+        <bibl>http://gallica.bnf.fr/ark:/12148/bpt6k5545039q</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -30,7 +30,7 @@
   <text>
     <front>
       <div type="chapter">
-        <pb xml:id="PAG_00000415" n=""/>
+        <pb xml:id="PAG_00000415" n="415"/>
         <head rend="uc">Notice preliminaire</head>
         <p>Le voyage de Diderot en Russie ne devait pas être seulement un témoignage de reconnaissance envers l’impératrice, le philosophe en revint chargé de travaux. Il devait d’abord publier le compte rendu de ce qui avait été déjà fait par ordre de Catherine II au point de vue de Renseignement, et il s’acquitta de cette tâche avant de rentrer à Paris en surveillant en Hollande l’édition des <hi rend="i">Plans et Statuts</hi><note xml:id="PAG_00000415-note1"> Voyez la note, t II, p. 431, et les <hi rend="i">extraits</hi> ci-après, pages 415 et 544.</note> du maréchal Betzki. Il devait ensuite envoyer un projet d’Université dont la rédaction l’occupa pendant plusieurs années.</p>
         <p>Ce <hi rend="i">Plan d’une Université</hi> n’a jamais été connu en France dans toute son étendue, et nous ne croyons pas qu’il ait été appliqué en Russie. Naigeon en a donné un résumé, mais n’en a cité que d’insignifiants fragments (4 ou 5 pages). En 1813, le manuscrit original fut communiqué par Suard à M. Guizot, alors rédacteur des <hi rend="i">Annales de l’Éducation</hi>. Celui-ci en donna un extrait dans ce journal, numéros VIII-XI, 15 novembre, 15 décembre 1813 et 15 janvier 1814. Ce manuscrit, de cent soixante-dix pages, était entièrement écrit de la main de Diderot, avec des ratures, des corrections, et même quelques négligences de style qui pouvaient donner lieu de le regarder comme un premier brouillon. A la mort de Suard, il fut remis à sa veuve. On présume, dit M. Brière, en tête de sa réimpression de la partie publiée par M. Guizot, qu’il a été détruit. Heureusement, la copie définitive avait été envoyée à sa destination et c’est sur cette copie que M. Léon Godard a pu rétablir l’ensemble que nous donnons aujourd’hui pour la première fois.</p>
@@ -48,7 +48,7 @@
         <p>Tels sont les plans et les statuts des différents établissements ordonnés par Sa Majesté Impériale.</p>
         <p>Lorsque le temps et la constance de cette grande souveraine les auront conduits au point de perfection dont ils sont tous susceptibles et que plusieurs ont atteint, on visitera la Russie pour les connaître comme on visitait autrefois l’Egypte, Lacédémone et la Crète ; mais avec une curiosité qui sera, j’ose le dire, et mieux fondée et mieux récompensée. J’en appelle au témoignage de plusieurs étrangers qui récemment arrivés à Pétersbourg et incrédules dans les premiers instants, enchérissaient ensuite sur mes éloges.</p>
         <p>Si l’on veut savoir à présent jusqu’où la nation est convaincue de l’importance de ces institutions, et jusqu’où elle en est reconnaissante, on en jugera par les honneurs qu’elle a décernés au patriote Betzky, pour avoir dignement secondé les vues de sa souveraine.</p>
-        <pb xml:id="PAG_00000418" n=""/>
+        <pb xml:id="PAG_00000418" n="418"/>
         <p rend="left">
           <hi rend="i">414</hi> NOTICE PRÉLIMINAIRE.</p>
         <p>Le Sénat lui a fait frapper une médaille d’or où l’on voit, d’un côté, le buste de M. Betzky, avec la légende : <hi rend="i">Jean, fils de Jean, Betzky</hi>. Le revers représente la reconnaissance avec ses attributs ordinaires ; elle est assise sur une pierre carrée ; à sa gauche est une pyramide qu’elle a fait ériger : des enfants y attachent un médaillon avec les chiffres I. B. Ces enfants sont les symboles des quatre établissements fondés par Catherine II. Le premier est la <hi rend="i">Maison d’éducation</hi> de Moscou : le second est <hi rend="i">l’ Académie des beaux-arts :</hi> le troisième est la <hi rend="i">Communauté des demoiselles et des bourgeoises</hi> et le quatrième est le <hi rend="i">Corps des cadets de terre</hi>. Le fond est décoré du vaste et beau bâtiment de ces établissements patriotiques. La légende est : <hi rend="i">Pour l’amour de la patrie :</hi> et on lit dans l’exergue : <hi rend="i">Par le Sénat, le 20 novembre 1771</hi>. Cette date marque l’époque de la signature de trois nouveaux établissements, savoir : d’une <hi rend="i">Caisse de veuves</hi> ; d’une autre <hi rend="i">Caisse de dépôt</hi> ; et d’un <hi rend="i">Lombard</hi><note xml:id="PAG_00000418-note1"> Mont-de-piété. </note>
@@ -58,11 +58,11 @@
       </div>
     </front>
     <body>
-      <pb xml:id="PAG_00000414" n=""/>
+      <pb xml:id="PAG_00000414" n="414"/>
       <head rend="uc">Plan d’une université <lb/>pour <lb/>le gouvernement de Russie <lb/>ou <lb/>d’une éducation publique dans toutes les sciences</head>
       <head type="sub">(Écrit de 1775 à 1776. — Publié partiellement en 1813-1814. — Complété d’après le manuscrit de l’Ermitage.)</head>
       <div type="chapter">
-        <pb xml:id="PAG_00000419" n=""/>
+        <pb xml:id="PAG_00000419" n="419"/>
         <head rend="uc">Essai <lb/>sur <lb/>les études en Russie</head>
         <div>
           <head>I.</head>
@@ -136,7 +136,7 @@
         </div>
       </div>
       <div type="chapter">
-        <pb xml:id="PAG_00000433" n=""/>
+        <pb xml:id="PAG_00000433" n="433"/>
         <head rend="uc">Plan <lb/>d’une université <lb/>pour <lb/>le gouvernement de Russie</head>
         <div>
           <head rend="uc center">De l’ instruction.</head>
@@ -469,11 +469,11 @@
               </list>
             </item>
             <item>
-              <label><num>2<hi rend="sup">e</hi></num> Faculté</label> La médecine. </item>
+              <hi rend="b"><num>2<hi rend="sup">e</hi></num> Faculté</hi> La médecine. </item>
             <item>
-              <label><num>3<hi rend="sup">e</hi></num> Faculté</label> La jurisprudence. </item>
+              <hi rend="b"><num>3<hi rend="sup">e</hi></num> Faculté</hi> La jurisprudence. </item>
             <item>
-              <label><num>4<hi rend="sup">e</hi></num> Faculté</label> De théologie. </item>
+              <hi rend="b"><num>4<hi rend="sup">e</hi></num> Faculté</hi> De théologie. </item>
             <item>
               <label>École politique ou des affaires publiques.</label>
             </item>
@@ -507,7 +507,7 @@
           <p>Toutes ces écoles supprimées sont plus ou moins nécessaires. Qu’elles fassent ou ne fassent point corps avec celles de l’université, un jour elles ne s’en établiront pas moins dans les villes de l’empire, mais isolées, mais sans être assujetties à aucune méthode raisonnée d’enseignement, ce qui n’en sera pas mieux.</p>
         </div>
         <div>
-          <pb xml:id="PAG_00000455" n=""/>
+          <pb xml:id="PAG_00000455" n="455"/>
           <head rend="uc center">Plan réduit de l’enseignement d’une Université.</head>
           <list>
             <item>
@@ -616,11 +616,11 @@
               </list>
             </item>
             <item>
-              <label><num>2<hi rend="sup">e</hi></num> Faculté</label> De médecine. </item>
+              <hi rend="b"><num>2<hi rend="sup">e</hi></num> Faculté</hi> De médecine. </item>
             <item>
-              <label><num>3<hi rend="sup">e</hi></num> Faculté</label> De jurisprudence. </item>
+              <hi rend="b"><num>3<hi rend="sup">e</hi></num> Faculté</hi> De jurisprudence. </item>
             <item>
-              <label><num>4<hi rend="sup">e</hi></num> Faculté</label> De théologie. </item>
+              <hi rend="b"><num>4<hi rend="sup">e</hi></num> Faculté</hi> De théologie. </item>
           </list>
         </div>
         <div>
@@ -1648,7 +1648,7 @@
         <p>C’est à Sa Majesté Impériale d’ajouter à ce plan ce que je puis avoir omis de nécessaire et d’en retrancher ce qu’elle y remarquera d’inutile. Je la supplie seulement de considérer que beaucoup de choses pourront lui paraître superflues pour le moment qui deviendront nécessaires avec le temps, avant même la fin de son règne, s’il dure autant qu’elle me l’a promis. Je serai satisfait de mon travail, si elle y reconnaît le témoignage de mon entier dévouement à ses ordres et de la durée de ma reconnaissance pour ses bienfaits. Des idées bonnes ou mauvaises qui forment ce plan d’écoles publiques, je n’en dois aucune à personne, c’est le vice de mon éducation qui me les a toutes suggérées. Il m’aurait été facile d’être plus court, mais plus facile encore d’être plus long.</p>
       </div>
       <div type="chapter">
-        <pb xml:id="PAG_00000539" n=""/>
+        <pb xml:id="PAG_00000539" n="539"/>
         <head rend="uc center">S’il est plus aisé <lb/>de faire une belle action <lb/>qu’une belle page.</head>
         <head type="sub" rend="uc center">(fragment inédit.)</head>
         <p>Page 468, ci-dessus, Diderot a ajouté en note à sou manuscrit : « Voyez les dernières pages de cet ouvrage où j’expose les raisons d’une opinion qui peut être contredite. » Voici ces dernières pages, qui nous paraissent n’être autre chose qu’un fragment d’une lettre adressée probablement à la princesse Daschkoff :</p>
@@ -1662,7 +1662,7 @@
         <p>Mais l’être rare par excellence, c’est celui qui réunit la force qui fait agir et le génie qui fait dire grandement, celui à qui j’obéissais en remplissant cette tâche. Je vous supplie, mon amie, de la lui faire passer promptement et telle que la voilà.</p>
       </div>
       <div type="chapter">
-        <pb xml:id="PAG_00000544" n=""/>
+        <pb xml:id="PAG_00000544" n="544"/>
         <head rend="uc center">Lettre <lb/>à Madame la comtesse de Forbach <lb/>sur l’Éducation des enfants.</head>
         <p>Cette lettre, sans date, publiée pour la première fois dans l’édition de Naigeon, nous semble le complément naturel de ce qui précède. Diderot s’est expliqué encore d’autres fois sur l’éducation, entre autres en tête du <hi rend="i">Fils naturel</hi>. Nous y renvoyons le lecteur.</p>
         <p>Madame, avant que de jeter les yeux sur votre plan d’éducation, j’ai voulu savoir quel serait le mien. Je me suis demandé : Si j’avais un enfant à élever, de quoi m’occuperaisje d’abord ? serait-ce de le rendre honnête homme ou grand homme ? et je me suis répondu : De le rendre honnête homme. Qu’il soit bon, premièrement ; il sera grand après, s’il peut l’être. Je l’aime mieux pour lui, pour moi, pour tous ceux qui l’environneront, avec une belle âme, qu’avec un beau génie.</p>
@@ -1695,7 +1695,7 @@
         <p>Voilà, madame, ce que je vous écrivais avant que de vous avoir lue : ensuite je me suis aperçu qu’entre plusieurs idées qui nous étaient communes, il n’y en avait aucune qui se contrariât. Je m’en suis félicité ; et j’ai pensé que je pourrais bien avoir de la raison et du goût, puisque de moi-même j’avais tiré les vraies conséquences des principes que mon aimable et belle comtesse avait posés. Il n’y a guère d’autre différence entre sa lettre et la mienne, que celle des sexes.</p>
       </div>
       <div type="chapter">
-        <pb xml:id="PAG_00000549" n=""/>
+        <pb xml:id="PAG_00000549" n="549"/>
         <head rend="uc center">Sur les exercices <lb/>des <lb/>Cadets russes.</head>
         <p>Page 15 de <hi rend="i">l’ Introduction</hi> de Clerc à sa traduction de l’ouvrage du général Betzki (Voyez <hi rend="i">Notice préliminaire</hi> du <hi rend="i">Plan d’une université)</hi> , se trouve le passage suivant concernant les <hi rend="i">Exercices des cadets russes</hi>.</p>
         <p><hi rend="i">«</hi>  Voici les réflexions qu’a faites à ce sujet un homme de bien, justement célèbre, que la reconnaissance a amené de huit cents lieues au <num>60<hi rend="sup">e</hi></num> degré à l’âge de soixante ans, au pied du trône de sa bienfaitrice : »</p>

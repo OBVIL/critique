@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -718,73 +718,28 @@
           </quote>
           <p>Telle était leur manière de voir la nature. Ils la rapetissaient à la mesure de l’homme, — et d’ailleurs ils n’ont pas laissé de la célébrer magnifiquement, — mais ils réduisaient le système du monde au champ de leur vision. Mieux encore que cela ! L’homme, pour eux, avait reçu l’univers comme en fief, et les oiseaux du ciel, comme les poissons des eaux, n’avaient en quelque sorte été créés qu’à son usage. Mais, précisément, quand nous le voudrions, c’est ce qu’aujourd’hui nous ne pouvons plus croire ; et c’est ce que n’a jamais cru l’auteur des <hi rend="i">Poèmes antiques</hi> et des <hi rend="i">Poèmes barbares</hi>. Il a compris que nous n’étions nous-mêmes, comme les animaux, que des hôtes d’un jour à la surface de la planète, et que, dans l’échelle infinie des êtres, si nous sommes actuellement le dernier terme de la série, nous ne laissons pas d’en faire partie ; et de là, dans son œuvre, les caractères de tant de descriptions qui ne s’opposent pas moins à celles de Lamartine ou d’Hugo qu’à celles mêmes de l’abbé Delille ou de Lemercier : les <hi rend="i">Éléphants</hi>, les <hi rend="i">Hurleurs</hi>, le Sommeil <hi rend="i">du Condor</hi>, le <hi rend="i">Rêve du Jaguar</hi>, la <hi rend="i">Panthère noire</hi>, la <hi rend="i">Chasse de l’Aigle</hi>.</p>
           <quote>
-            <l>
-              <quote>Sous les noirs acajous, les lianes en fleurs</quote>
-            </l>
-            <l>
-              <quote>Dans l’air lourd, immobile et saturé de mouches,</quote>
-            </l>
-            <l>
-              <quote>Pendent, — et s’enroulant en bas parmi les souches,</quote>
-            </l>
-            <l>
-              <quote>Bercent le perroquet splendide et querelleur,</quote>
-            </l>
-            <l>
-              <quote>L’araignée au dos jaune, et les singes farouches.</quote>
-            </l>
-            <l>
-              <quote>C’est là que le tueur de bœufs et de chevaux,.</quote>
-            </l>
-            <l>
-              <quote>Le long des vieux troncs morts à l’écorce moussue,</quote>
-            </l>
-            <l>
-              <quote>Sinistre et fatigué revient à pas égaux.</quote>
-            </l>
-            <l>
-              <quote>Il va, frottant ses reins musculeux qu’il bossue ;</quote>
-            </l>
-            <l>
-              <quote>Et du mufle béant par la soif alourdi</quote>
-            </l>
-            <l>
-              <quote>Un souffle rauque et bref, d’une brusque secousse,</quote>
-            </l>
-            <l>
-              <quote>Trouble les grands lézards, chauds des feux de midi,</quote>
-            </l>
-            <l>
-              <ref target="#bookmark29">Dont la fuite étincelle à travers l’herbe rousse.</ref>
-            </l>
-            <l>
-              <quote>En un creux du bois sombre, interdit au soleil,</quote>
-            </l>
-            <l>
-              <ref target="#bookmark30">Il s’affaisse, allongé sur quelque roche plate ;</ref>
-            </l>
-            <l>
-              <quote>D’un large coup de langue il se lustre la patte</quote>
-            </l>
-            <l>
-              <quote>Il cligne ses yeux d’or hébétés de sommeil ;</quote>
-            </l>
-            <l>
-              <ref target="#bookmark31">Et dans l’illusion de ses forces inertes,</ref>
-            </l>
-            <l>
-              <quote>Faisant mouvoir sa queue et frissonner ses flancs,</quote>
-            </l>
-            <l>
-              <quote>Il</quote>
-              <ref target="#bookmark32"> rêve qu’au milieu des plantations vertes,</ref>
-            </l>
-            <l>
-              <quote>Il enfonce d’un bond ses ongles ruisselants,</quote>
-            </l>
-            <l>
-              <quote>Dans la chair des taureaux effarés et beuglants.</quote>
-            </l>
+            <l>Sous les noirs acajous, les lianes en fleurs</l>
+            <l>Dans l’air lourd, immobile et saturé de mouches,</l>
+            <l>Pendent, — et s’enroulant en bas parmi les souches,</l>
+            <l>Bercent le perroquet splendide et querelleur,</l>
+            <l>L’araignée au dos jaune, et les singes farouches.</l>
+            <l>C’est là que le tueur de bœufs et de chevaux,.</l>
+            <l>Le long des vieux troncs morts à l’écorce moussue,</l>
+            <l>Sinistre et fatigué revient à pas égaux.</l>
+            <l>Il va, frottant ses reins musculeux qu’il bossue ;</l>
+            <l>Et du mufle béant par la soif alourdi</l>
+            <l>Un souffle rauque et bref, d’une brusque secousse,</l>
+            <l>Trouble les grands lézards, chauds des feux de midi,</l>
+            <l>Dont la fuite étincelle à travers l’herbe rousse.</l>
+            <l>En un creux du bois sombre, interdit au soleil,</l>
+            <l>Il s’affaisse, allongé sur quelque roche plate ;</l>
+            <l>D’un large coup de langue il se lustre la patte</l>
+            <l>Il cligne ses yeux d’or hébétés de sommeil ;</l>
+            <l>Et dans l’illusion de ses forces inertes,</l>
+            <l>Faisant mouvoir sa queue et frissonner ses flancs,</l>
+            <l>Il rêve qu’au milieu des plantations vertes,</l>
+            <l>Il enfonce d’un bond ses ongles ruisselants,</l>
+            <l>Dans la chair des taureaux effarés et beuglants.</l>
           </quote>
           <p>Lisez encore le <hi rend="i">Bernica</hi>, la <hi rend="i">Ravine Saint-Gilles</hi>, la <hi rend="i">Forêt vierge, un Coucher de soleil</hi>. Incomparables de vérité, sans analogues dans l’histoire de noire poésie — comme les animaux de Barye le sont dans l’histoire de la sculpture, — toutes ces descriptions ont un sens et une portée philosophiques. Dans les appétits ou dans les instincts des animaux le poète se plaît à nous montrer l’origine lointaine, la genèse obscure des nôtres, et en effet, nous nous y reconnaissons. Nous ne formons pas dans la nature un empire dans un empire et il n’y a pas de « règne humain ». Là est la nouveauté, là l’originalité de ces « tableaux » qu’on croirait détachés du <hi rend="i">Cosmos</hi> de Humboldt. Éléphants en marche à travers le désert, ou chiens qui hurlent sur les plages, si leur âme est rudimentaire, ils en ont pourtant une :</p>
           <quote>

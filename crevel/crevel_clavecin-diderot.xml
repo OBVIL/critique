@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="crevel_clavecin-diderot" xml:lang="fr">
   <teiHeader>
@@ -50,11 +50,6 @@
             <pubPlace>Paris</pubPlace>
             <date when="1932"/>
           </publicationStmt>
-          <noteStmt>
-            <note type="ref">
-              <ref type="opale" target="http://catalogue.bnf.fr/ark:/12148/cb377488893/PUBLIC"/>
-            </note>
-          </noteStmt>
         </biblFull>
       </sourceDesc>
     </fileDesc>
@@ -284,7 +279,7 @@
         <p>Que nous nous écartions des églises et de l’ombre dont elles lapident l’humanité, que nous parvenions à oublier la suffisance officielle et la grossièreté romaine ressuscitée à chaque édifice parlementaire, à peine aurons-nous fait trois pas que, déjà, nous aurons donné contre un de ces vieux panneaux, de ces panneaux-réclames, à l’ombre desquels, sur des terres d’on ne peut plus vaine pâture, dignes de leurs frères curaillons, broutent les clercs du pape qui se croit papillon Benda.</p>
         <p>Dans le chiendent de l’impartialité, ils cherchent, non pas même des têtes, mais des pointes d’épingle analytique, dont leur myopie moutonnière aime à s’éblouir.</p>
         <p>Alors, un petit coup de saute-mouton par-dessus ces pédantes et basses échines. Il suffit de quelque élan et d’une tête pas trop molle pour crever ces écrans-protecteurs…</p>
-        <ab>………………………………………………………………………………………….………..</ab>
+        <ab type="hr">………………………………………………………………………………………….………..</ab>
         <p><quote>Le Français né malin<seg type="exquote">, constate un de nos plus célèbres on-dit,</seg> inventa le vaudeville.</quote></p>
         <p>Le même Français se plaît à répéter urbi et orbi que <quote>la parole a été donnée à l’homme pour cacher sa pensée.</quote></p>
         <p>C’est que ce petit né malin, derrière un cynisme de façade, cache, comme un jour me le fit remarquer Gertrude Stein, son horreur de l’intimité<note resp="author">Note de l’auteur: La rage confessionnelle, déchaînée depuis Rousseau et qui, à sa suite, décida ceux qui avaient ou n’avaient pas jeté leurs bonnets par-dessus les moulins, à ouvrir l’écluse — d’ailleurs bien souvent posthume — de ces moulins à eau, naturellement, puisque les voies urinaires sont aussi celles de la volupté, cette rage confessionnelle, si elle témoignait du besoin, de la volonté d’en sortir, ne fit qu’aggraver l’équivoque, puisque, l’homme, alors même qu’il ne se laissait pas entraîner par la vanité à farcir de contestable, ses mémoires du fait qu’il dosait, situait et cédait toujours à la tentation d’expliquer son aveu, gâchait, qu’il l’édulcorât ou l’assombrît, cet aveu. (NdA)</note>. Les bouts-rimés, les farces, autant de masques. Il est d’usage de s’attendrir à la pensée des larmes qui se cachent derrière le rire. Pour nous, qui ne voulons nous laisser prendre à ces pièges primaires de la sensiblerie, contentons-nous de noter que tel ou tel, jouent-ils les familiers, la condescendance aristocratique de l’un, la bonhomie vulgaire de l’autre ne sont que les deux aspects d’un même esprit de méfiance et de défense.</p>

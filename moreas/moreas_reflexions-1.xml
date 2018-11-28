@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -448,51 +448,23 @@
         <p>Dans cette société brillante, capable de balancer la légendaire Académie de Fourvières, Maurice Scève, poète et philosophe, tenait le premier rang. Ce Maurice Scève, issu d’une ancienne famille piémontaise, est surtout connu par son ouvrage intitulé : <hi rend="i">Delie, object de plus haute vertu</hi>. Dans ce poème alambiqué que composent quatre cent cinquante-huit dizains, les allégories du <hi rend="i">Roman de la Rose</hi> se teintent d’un certain platonisme imprévu qui les prolongent dans un vague clair-obscur de rêve. Cela forme des contrastes qui surprennent, non sans quelque agrément.</p>
         <p>L’école de Ronsard plaçait Maurice Scève à côté de Jean le Maire de Belges, c’est-à-dire parmi les précurseurs dignes d’être honorés, et Joachim du Bellay ne manquait pas de lui adresser le sonnet flatteur que voici :</p>
         <quote>
-          <l>
-            <quote>Gentil esprit, ornement de la France,</quote>
-          </l>
-          <l>
-            <quote>Qui d’Apollon sainctement inspiré,</quote>
-          </l>
-          <l>
-            <quote>T’es le premier du peuple retiré</quote>
-          </l>
-          <l>
-            <quote>Loin du chemin tracé par l’ignorance,</quote>
-          </l>
+          <l>Gentil esprit, ornement de la France,</l>
+          <l>Qui d’Apollon sainctement inspiré,</l>
+          <l>T’es le premier du peuple retiré</l>
+          <l>Loin du chemin tracé par l’ignorance,</l>
           <l/>
-          <l>
-            <quote><pb n="31"/> Scève divin, dont l’heureuse naissance</quote>
-          </l>
-          <l>
-            <quote>N’a moins encor son Rosne décoré</quote>
-          </l>
-          <l>
-            <quote>Que du Thouscan le fleuve est honoré</quote>
-          </l>
-          <l>
-            <quote>Du tronc qui prend à son bord accroissance :</quote>
-          </l>
+          <l><pb n="31"/> Scève divin, dont l’heureuse naissance</l>
+          <l>N’a moins encor son Rosne décoré</l>
+          <l>Que du Thouscan le fleuve est honoré</l>
+          <l>Du tronc qui prend à son bord accroissance :</l>
           <l/>
-          <l>
-            <quote>Reçoy le vœu qu’un dévot Angevin,</quote>
-          </l>
-          <l>
-            <quote>Enamouré de ton esprit divin,</quote>
-          </l>
-          <l>
-            <quote>Laissant la France<note resp="author">Joachim était sur le point d’aller rejoindre à Rome son parent le cardinal Du Bellay.</note>, à ta grandeur dédie :</quote>
-          </l>
+          <l>Reçoy le vœu qu’un dévot Angevin,</l>
+          <l>Enamouré de ton esprit divin,</l>
+          <l>Laissant la France<note resp="author">Joachim était sur le point d’aller rejoindre à Rome son parent le cardinal Du Bellay.</note>, à ta grandeur dédie :</l>
           <l/>
-          <l>
-            <quote>Ainsi toujours le Rosne impétueux,</quote>
-          </l>
-          <l>
-            <quote>Ainsi la Saône au sein non fluctueux</quote>
-          </l>
-          <l>
-            <quote>Sonne toujours et Scève et sa Délie.</quote>
-          </l>
+          <l>Ainsi toujours le Rosne impétueux,</l>
+          <l>Ainsi la Saône au sein non fluctueux</l>
+          <l>Sonne toujours et Scève et sa Délie.</l>
         </quote>
         <p>On a dit que Clément Marot avait connu Louise Labé et loué son talent poétique. Cependant les œuvres de maître Clément ne soufflent mot sur elle ; nous y trouvons seulement les panégyriques de Jehanne Gaillarde <hi rend="i">à la plume dorée, et</hi> de quelques autres savantes lyonnaises, parmi lesquelles une Scève et une Faye. Marot mourut à Turin en 1544, et il avait passé les dernières années de sa vie à errer loin de la France. Il est donc probable qu’on se trompe en affirmant qu’il a connu et apprécié le mérite littéraire de Louise, qui était fort jeune au moment de sa mort.</p>
         <ab type="ornament">***</ab>
@@ -3701,9 +3673,7 @@
         </quote>
         <p>Œdipe, resté seul avec Cléante, lui dit avec inquiétude :</p>
         <quote>
-          <l>
-            <quote>Cet amant de Dircé déjà me parle en maître…</quote>
-          </l>
+          <l>Cet amant de Dircé déjà me parle en maître…</l>
         </quote>
         <p>Et Cléante lui répond que, sans doute, Dircé, comme fille de Laïus :</p>
         <quote>

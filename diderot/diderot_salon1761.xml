@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -9,9 +9,9 @@
         <author key="Diderot, Denis (1713-1784)">Denis Diderot</author>
       </titleStmt>
       <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/critique/diderot_salon1761/</idno>
         <date when="2013"/>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -42,6 +42,7 @@
         <div type="chapter" xml:id="_1761_pref">
           <index indexName="date" n="1761"/>
           <index indexName="subject" n="essai"/>
+          <pb ed="frantext.fr/R029" n="112"/>
           <head>À mon ami <name>M. Grimm</name></head>
           <p><pb ed="frantext.fr/R029" n="112"/>Voici, mon ami, les idées qui m’ont passé par la tête à la vue des tableaux qu’on a exposés cette année au Salon. Je les jette sur le papier sans me soucier ni de les trier ni de les écrire. Il y en aura de vraies ; il y en aura de fausses. Tantôt vous me trouverez trop sévère, tantôt trop indulgent. Je condamnerai peut-être où vous approuveriez ; je ferai grâce où vous condamneriez ; vous exigeriez encore où je serai content. Peu m’importe. La seule chose que j’aie à cœur, c’est de vous épargner quelques <pb ed="frantext.fr/R029" n="113"/>instants que vous emploierez mieux ; dussiez-vous les passer à côté de Dom Antonio, et au milieu de cannetons.</p>
         </div>
@@ -302,7 +303,8 @@
           <index indexName="date" n="1761"/>
             <index indexName="subject" n="peinture"/>
             <index indexName="person" n="Juliart"/>
-            <head><pb ed="frantext.fr/R029" n="152"/><name>Juliart</name></head>
+            <pb ed="frantext.fr/R029" n="152"/>
+            <head><name>Juliart</name></head>
             <p>On ne dit rien des paysages de M<hi rend="sup">r</hi> Juliart.</p>
           </div>
           <div type="chapter" xml:id="voiriot_1761">
