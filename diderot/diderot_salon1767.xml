@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -9,9 +9,9 @@
         <author key="Diderot, Denis (1713-1784)">Denis Diderot</author>
       </titleStmt>
       <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/critique/diderot_salon1767/</idno>
         <date when="2013"/>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -142,7 +142,8 @@
           <index indexName="date" n="1767"/>
             <index indexName="subject" n="peinture"/>
             <index indexName="person" n="Vien"/>
-            <head><pb ed="frantext.fr/N552" n="74"/><name>Vien</name></head>
+            <pb ed="frantext.fr/N552" n="74"/>
+            <head><name>Vien</name></head>
             <p>Saint <name>Denis</name> prêchant la foi en <name>France</name>. Tableau de 21 piés 3 pouces de haut sur 12 piés 4 pouces de large. C’est pour une des chapelles de saint-<name>Roch</name>.</p>
             <p>Le public a été partagé entre ce tableau de <name>Vien</name>, et celui de <name>Doyen</name> sur l’<hi rend="i"> épidémie des ardents</hi> ; et il est certain que ce sont deux beaux tableaux ; deux grandes machines. Je vais décrire le premier. On trouvera la description de l’autre à son rang. à droite, c’est une fabrique d’architecture, la façade d’un temple ancien, avec sa plate-forme au-devant. Au-dessus de quelques marches qui conduisent à cette plate-forme, vers l’entrée du temple, on voit l’apôtre des gaules prêchant. Debout derrière lui, quelques uns de ses disciples ou prosélites ; à ses piés, en tournant de la droite de l’apôtre, vers la gauche du tableau, un peu sur le fond, agenouillées, assises, accroupies, quatre femmes dont l’une pleure, la seconde écoute. La troisième médite, la quatrième regarde avec joye.</p>
             <p>Celle-cy retient devant elle son enfant qu’elle embrasse du bras droit. Derrière ces femmes, debout, tout à fait sur le fond, trois vieillards dont deux conversent et semblent n’être pas d’accord.</p>
@@ -881,7 +882,8 @@
             <index indexName="date" n="1767"/>
             <index indexName="subject" n="peinture"/>
             <index indexName="person" n="Doyen"/>
-            <head><pb ed="frantext.fr/N552" n="178"/><name>Doyen</name></head>
+            <pb ed="frantext.fr/N552" n="178"/>
+            <head><name>Doyen</name></head>
             <p><hi rend="i">… multaque in rebus etc</hi>. </p>
             <p><name>Lucret</name>. <hi rend="i">le miracle des ardens</hi>. tableau de 22 pieds de haut sur 12 pieds de large, pour la chapelle des <hi rend="i">ardens</hi>, à st <name>Roch</name>.</p>
             <p>Voici le fait. L’an 1129, sous le règne de <name>Louis VI</name>, un feu du ciel tomba sur la ville de <name>Paris</name>, il dévorait les entrailles et l’on périssait de la mort la plus cruelle. Ce fléau cessa tout à coup, par l’intercession de sainte <name>Geneviève</name>.</p>
@@ -1034,7 +1036,8 @@
             <index indexName="date" n="1767"/>
             <index indexName="subject" n="peinture"/>
             <index indexName="person" n="Roland de la Porte"/>
-            <head><pb ed="frantext.fr/N552" n="203"/><name>Roland de la porte</name></head>
+            <pb ed="frantext.fr/N552" n="203"/>
+            <head><name>Roland de la porte</name></head>
             <p><hi rend="i">un crucifix de bronze, sur un fond de velours bleu  imitant le relief</hi>. tableau de 2 pieds de haut, sur un pied un tiers de large.</p>
             <p>Je l’ai vu ce <hi rend="i">crucifix</hi> tant vanté. Il est très-bien, mais ces sortes de morceaux ne sont pas la magie noire ; c’est ce qu’ignorent ceux qu’ils attirent par l’illusion qu’ils font au sens de la vue. Ils n’ont jamais connu ce qu’<name>Oudri</name> exécutait dans ce genre, ils n’ont jamais vu des barbouillages d’<name>Allemagne</name> qui ont le même prestige. On a placé le tableau de <name>Roland</name> à une assez grande distance ; et les bas-reliefs d’<name>Oudri</name>, placés parmi les sculptures, étaient si vrais qu’il n’y avait que le tact qui pût détromper l’oeil. Ce que je désirerais, c’est qu’on introduisît un bas-relief d’une grande force dans une composition historique, et qu’on s’imposât ainsi la nécessité d’achever l’ouvrage avec la même vérité et le même effet.</p>
             <p>Ce peintre-ci ne manque pas de couleur, en travaillant il peut aller loin ; il faut s’y connaître pour concevoir cette espérance. Il a exposé des <hi rend="i">fruits</hi>, des <hi rend="i">portraits</hi> ; les fruits sont beaux, les portraits sont mauvais.</p>
@@ -1076,7 +1079,8 @@
             <index indexName="date" n="1767"/>
             <index indexName="subject" n="peinture"/>
             <index indexName="person" n="Le Prince"/>
-            <head><pb ed="frantext.fr/N553" n="206"/><name>Le Prince</name></head>
+            <pb ed="frantext.fr/N553" n="206"/>
+            <head><name>Le Prince</name></head>
             <p>C’est une assez bonne méthode pour décrire des tableaux, surtout champêtres, que d’entrer sur le lieu de la scène par le côté droit ou par le côté gauche, et s’avançant sur la bordure d’en bas, de décrire les objets à mesure qu’ils se présentent.</p>
             <p>Je suis bien fâché de ne m’en être pas avisé plutôt. <hi rend="i">une jeune fille orne de fleurs son berger, pour  prix de ses chansons</hi>. tableau de 11 pieds de haut sur 7 pieds 4 pouces de large.</p>
             <p>Je vous dirai donc : marchez jusqu’à ce que vous trouviez à votre droite de grandes roches ; sous ces roches une espèce de caverne, au devant de laquelle on a laissé des légumes, une cage à poulets et d’autres instrumens de la campagne. De là vous appercevrez à quelque distance un berger assis qui jouera d’une mandoline à long manche ; ce berger est court, gros, lourd, vêtu d’une étoffe toute bariolée.</p>
@@ -1980,8 +1984,9 @@
             <p><name>Francine</name>. <hi rend="i">un <name>Christ</name> à la colonne</hi>. il attend la fessée. Figure commune, plate de caractère et d’expression, sans aucun mérite qui la distingue. Morceau de réception, morceau d’exclusion.</p>
           </div>
         </div>
-        <div>
-          <head><pb ed="frantext.fr/N553" n="331"/>Dessin. Gravure</head>
+      <div>
+        <pb ed="frantext.fr/N553" n="331"/>
+          <head>Dessin. Gravure</head>
           <div type="chapter" xml:id="cochin_1767">
             <index indexName="date" n="1767"/>
             <index indexName="subject" n="gravure"/>
@@ -2034,7 +2039,8 @@
             <index indexName="date" n="1767"/>
             <index indexName="subject" n="gravure"/>
             <index indexName="person" n="Mellini"/>
-            <head><pb ed="frantext.fr/N553" n="334"/><name>Mellini</name></head>
+            <pb ed="frantext.fr/N553" n="334"/>
+            <head><name>Mellini</name></head>
             <p>Un portrait à moi inconnu.</p>
           </div>
           <div type="chapter" xml:id="beauvarlet_1767">

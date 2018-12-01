@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barine_musset" xml:lang="fr">
   <teiHeader>
@@ -56,9 +56,9 @@
   </teiHeader>
   <text>
     <front>
-      <argument>
+      <div type="frontispiece">
         <graphic rend="center" url="barine_musset.png"/>
-      </argument>
+      </div>
     </front>
     <body>
       <div>
