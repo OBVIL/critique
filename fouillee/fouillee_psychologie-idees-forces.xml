@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>La psychologie des idées-forces [I]</title>
+        <title>La psychologie des idées-forces</title>
         <author key="Fouillée, Alfred (1838-1912)">Alfred Fouillée</author>
       </titleStmt>
       <editionStmt>
@@ -22,7 +22,7 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/fouillee/fouillee_psychologie-idees-forces-01</idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/fouillee/fouillee_psychologie-idees-forces</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -34,7 +34,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Fouillée, Alfred (1838 – 1912), <hi rend="i">La Psychologie des idées-forces, tome premier</hi>, Paris, 1893, Félix Alcan. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k771638">Gallica</ref>.</bibl>
+        <bibl>Alfred Fouillée, <hi rend="i">La Psychologie des idées-forces</hi>, Paris, Félix Alcan, 1893, 2 vol. (XL-365, 415 p.). Source : Gallica (<ref target="https://gallica.bnf.fr/ark:/12148/bpt6k771638">tome I</ref>), <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k77167n">tome II</ref>).</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -48,6 +48,8 @@
   </teiHeader>
   <text>
     <body>
+      <div>
+        <head>Tome premier</head>
       <div>
         <head>Introduction <lb/>Le problème des idées-forces comme fondamental en psychologie.</head>
         <div>
@@ -846,6 +848,9 @@
           </div>
         </div>
       </div>
+      </div>
+      <div>
+        <head>Tome second</head>
       <div>
         <head>Livre cinquième <lb/>Principales idées-forces, leur genèse et leur influence</head>
         <div type="chapter">
@@ -857,7 +862,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre premier <lb/>L’idée force du monde extérieur</head>
-          <argument rend="sc">
+          <argument>
             <p>I. Passage du moi au non-moi. - Le premier moment du processus est la conscience d’une construction la plus simple par laquelle nous concevons des volontés autre que notre volonté. - Est-il vrai que la conscience ne puisse se dépasser soi-même. Réponse à l’idéalisme. - Construction de l’idée d’objet et de l’idée de réalité. Influence de ces idées.</p>
             <p>II. Idée des autres moi. Le facteur social. - Est-il plus difficile de concevoir une autre conscience, un autre moi, qu’un objet en général, un non-moi. - Rôle du facteur social dans l’idée des autres moi. Influence de cette idée.</p>
           </argument>
@@ -890,7 +895,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre deuxième <lb/>L’idée de l’espace. Son origine et son action</head>
-          <argument rend="sc">
+          <argument>
             <p>I. Caractère à la fois extensif, intensif et protensif des états de conscience. Sentiment primordial de la vie incorporée et étendue. — II. Construction de l’idée d’espace. Rôle de la vue, du toucher et des autres sens. La troisième dimension. Rôle du sentiment de la pesanteur. — III. Caractère actif et moteur de la perception. — IV. Subjectivité de l’idée d’espace.</p>
           </argument>
           <div>
@@ -957,10 +962,10 @@
         </div>
         <div type="chapter">
           <head>Chapitre troisième <lb/>L’idée-force du moi et son influence</head>
-          <list>
-            <item rend="argument">I. L’Idée du moi. — La synthèse psychique.</item>
-            <item rend="argument">II. Influence de l’idée-force du moi. — 1. Comment cette idée devient un centre pour la volonté, pour l’intelligence, pour la sensibilité. Volonté de soi. affirmation de soi. satisfaction de soi. — Moi actuel et moi futur ; mol réel et moi idéal. Action du moi idéal. — 2. Le <hi rend="i">moi social</hi>, point de coïncidence entre l’individu et la société. Rôle des facteurs sociaux dans l’idée du moi. Comment le moi intellectuel et rationnel est un moi social. — 3. Comment l’idée de la simplicité du moi et celle de son identité tendent à se réaliser en se concevant.</item>
-          </list>
+          <argument>
+            <p>I. L’Idée du moi. — La synthèse psychique.</p>
+            <p>II. Influence de l’idée-force du moi. — 1. Comment cette idée devient un centre pour la volonté, pour l’intelligence, pour la sensibilité. Volonté de soi. affirmation de soi. satisfaction de soi. — Moi actuel et moi futur ; mol réel et moi idéal. Action du moi idéal. — 2. Le <hi rend="i">moi social</hi>, point de coïncidence entre l’individu et la société. Rôle des facteurs sociaux dans l’idée du moi. Comment le moi intellectuel et rationnel est un moi social. — 3. Comment l’idée de la simplicité du moi et celle de son identité tendent à se réaliser en se concevant.</p>
+          </argument>
           <div>
             <head>I <lb/>L’idée du moi</head>
             <p>On éprouve la même difficulté à construire la conscience continue avec des sensations qui, pour l’analyse abstraite, semblent détachées, qu’à construire une ligne avec des points, un mouvement continu avec des moments successifs. Il n’en est pas moins vrai que la nature réalise le mouvement, comme elle réalise la conscience : des deux côtés, c’est une réelle continuité ; seulement, dans la conscience, les positions successives du mobile vivant laissent une trace.</p>
@@ -989,7 +994,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre quatrième <lb/>L’idée du temps, sa genèse et son action</head>
-          <argument rend="sc">
+          <argument>
             <p>I. Sentiment de. la succession et du temps, inhérent à l’appétit. — Sentiment du simultané, sentiment du successif. Insuffisance du point de vue statique et intellectualiste. Nécessité du point de vue dynamique et appétitif. Expérience immédiate du changement, de la transition et de la direction. Rôle de l’appétit dans la distinction de l’attente et du souvenir. — Conception du temps. — L’actualité et l’idéalité ; comment le présent se distingue du futur et du passé. Est-il vrai que la <hi rend="i">représentation</hi> du temps soit inhérente à toute <hi rend="i">représentation</hi> ? — Explication de l’ordre de succession dans lequel se rangent spontanément nos souvenirs. Rôle de l’intensité des images. — Théorie de Spinoza et de Taine sur la part de la contradiction logique dans l’opposition du présent et du passé.</p>
             <p>II. Rapports du temps et de l’espace. L’ordre dans le temps. — Théorie de Guyau. Théorie de James Ward ; les <hi rend="i">signes temporels.</hi> Théorie de M. Bergson sur le temps-espace et la durée pure. Mesure du temps. Münsterberg.</p>
             <p>III. Théorie kantienne sur la forme a priori du temps. — Impossibilité d’une « intuition pure du temps ».</p>
@@ -1087,7 +1092,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre cinquième <lb/>Genèse et action des principes d’identité et de raison suffisante. — Origines de notre structure intellectuelle</head>
-          <argument rend="sc">
+          <argument>
             <p>I Diverses origines DE NOTRE STRUCTURE INTELLECTUELLE ET CÉRÉBRALE. — On peut 1es réduire à cinq. — 1° Insuffisance de l‘expérience individuelle ; 2° de l’expérience ANCESTRALE ; 3° de la SÉLECTION NATURELLE.</p>
             <p>II. 4° Les lois de la vie physiologique et sociale. — Leur part dans notre structure intellectuelle.</p>
             <p>III. 5° Action de la volonté consciente, origine radicale de notre structure intellectuelle. — Principe d’identité.</p>
@@ -1196,7 +1201,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre sixième <lb/>Genèse et action des idées de réalité en soi, d’absolu, d’infini et de perfection</head>
-          <argument rend="sc">
+          <argument>
             <p>I. Idée de la réalité en soi, du noumène et de l’inconnaissable.</p>
             <p>II. Idée de l’absolu.</p>
             <p>III. Idée de vérité absolue et universelle.</p>
@@ -1282,7 +1287,7 @@
         <head>Livre sixième <lb/>La volonté</head>
         <div type="chapter">
           <head>Chapitre premier <lb/>Existence de la volonté</head>
-          <argument rend="sc">
+          <argument>
             <p>I. Existence de la volonté au point de vue psychologique. — Que les faits d’intelligence et les faits de sensibilité sont inexplicables sans l’existence de la volonté. L’idée-force exprime l’immanence du vouloir à tous les faits de représentation.</p>
             <p>II. Existence de la volonté au point de vue physiologique. — Que tous les faits cérébraux ne sont pas des impressions d’origine périphérique. Le sentiment de l’effort. Que la distinction des centres sensoriels et des centres moteurs est plus ou moins artificielle.</p>
           </argument>
@@ -1342,7 +1347,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre deuxième <lb/>Le développement de la volonté</head>
-          <argument rend="sc">
+          <argument>
             <p>I. La volonté primordiale, point de départ du développement volontaire.</p>
             <p>II. Diverses classes d’impulsions. Appétits, instincts, volitions.</p>
             <p>III. Diverses théories de l’acte volontaire.</p>
@@ -1417,7 +1422,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre troisième <lb/>La volonté libre</head>
-          <argument rend="sc">
+          <argument>
             <p>I. L’idée de liberté. — Définition de la liberté au point de vue psychologique.</p>
             <p>II. Genèse de l’idée de liberté.</p>
             <p>III. Les récentes théories du libre arbitre.</p>
@@ -1500,7 +1505,7 @@
         <head>Livre septième <lb/>Les altérations et transformations de la conscience et de la volonté</head>
         <div type="chapter">
           <head>Chapitre premier <lb/>L’ubiquité de la conscience et l’apparente inconscience</head>
-          <argument rend="sc">
+          <argument>
             <p>I. Ubiquité de la sensibilité dans l’organisme.</p>
             <p>II. Diminutions et déplacements de la conscience, produisant l’apparence de l’inconscience.</p>
           </argument>
@@ -1541,7 +1546,7 @@
         </div>
         <div type="chapter">
           <head>Chapitre deuxième <lb/>Troubles et désagrégations de la conscience. L’hypnotisme et les idées-forces</head>
-          <argument rend="sc">
+          <argument>
             <p>I. La folie, LE sommeil naturel.</p>
             <p>II. Le sommeil hypnotique. Sa nature et ses causes. Explications psychologiques et physiologiques.</p>
             <p>III. Effets de l’hypnotîsme sur l’idéation et la motion.</p>
@@ -1665,6 +1670,7 @@
             <p>Rien ne se perd dans la nature ; tout se métamorphose. C’est le grand principe qui régit la physique contemporaine ; nous croyons qu’il ne tardera pas à régir aussi la psychologie. On découvrira que la conscience prend une foule de formes et de directions, comme le mouvement revêt une foule de figures dans l’espace : elle est tantôt sensation de lumière, tantôt sensation de chaleur, tantôt faim ou soif, tantôt volition. Intense en tel point de l’organisme, elle est plus faible en tel autre ; affaiblie ici, elle se renforce là ; centralisée aujourd’hui, elle peut se dédoubler demain. Elle est ondoyante comme le mouvement même, qui n’est probablement que le dessin extérieur de ses propres ondes. La création et l’annihilation du mental sont aussi inconcevables que la création ou l’annihilation du mouvement. On posera donc bientôt en principe la continuité, la permanence et la transformation des modes de l’énergie psychique, germes des <hi rend="i">idées-forces</hi>. Une science plus avancée que la nôtre découvrira la vie partout, et, avec la vie, du mental à un degré quelconque, de la sensation et de l’appétit ; si bien qu’on aura fini par exorciser le fantôme de l’inconscient et par reconnaître ce que nous avons proposé d’appeler l’ubiquité de la conscience.</p>
           </div>
         </div>
+      </div>
       </div>
     </body>
   </text>

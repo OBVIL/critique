@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Tableau de la littérature du moyen âge I</title>
+        <title>Tableau de la littérature du moyen âge</title>
         <author key="Villemain, Abel-François (1791-1870)">Abel-François Villemain</author>
       </titleStmt>
       <editionStmt>
@@ -22,11 +22,11 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http ://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age-01/</idno>
-        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age-01.xml</idno>
-        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age-01.html</idno>
-        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age-01.txt</idno>
-        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age-01.epub</idno>
+        <idno>http ://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age/</idno>
+        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age.xml</idno>
+        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age.html</idno>
+        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age.txt</idno>
+        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/villemain_tableau-litterature-moyen-age.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Abel-François Villemain, <hi rend="i">Tableau de la littérature du moyen âge I</hi>, in <hi rend="i">Cours de littérature française</hi> [1828-1829], tome VI, Bruxelles, Hauman, 1840, 337 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k64230138">Gallica</ref>.</bibl>
+        <bibl>Abel-François Villemain, <hi rend="i">Tableau de la littérature du moyen âge</hi>, in <hi rend="i">Cours de littérature française</hi> [1828-1829], tomes VI et VII, Bruxelles, Hauman, 1840, 337 p. Source : Gallica (<ref target="http://gallica.bnf.fr/ark:/12148/bpt6k64230138">tome VI</ref>, <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k64227067">tome VII</ref>).</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -52,6 +52,8 @@
   </teiHeader>
   <text>
     <body>
+      <div>
+        <head>Tome VI</head>
       <div>
         <head>Première leçon. <lb/>Discours préliminaire</head>
         <p><pb n="1"/><hi rend="sc">Messieurs</hi>,</p>
@@ -1048,6 +1050,9 @@
         <p>Je m’arrête à ces vers, parce qu’ils sont comme le testament de cette âme poétique. Dans le hardi mythologue du christianisme, dans cette imagination qui a créé tout un monde d’anges, vous voyez le chrétien naïf, le simple fidèle. Il est enfant soumis de l’Église, quoiqu’il ait flétri les papes avec tant de hardiesse. Cette couronne qu’il espérait de l’avenir, il voudrait la recevoir sur le baptistaire de Saint-Jean. C’est ce contraste d’une audace de génie qui semble devancer la réforme, et d’une foi respectueuse et vive, d’une imagination qui invente au-delà du christianisme, et d’une docilité de laïque, qui règne partout dans les magnifiques inventions du Dante, et forme la réunion si extraordinaire de la naïveté, et de l’idéal mystique. C’est dans ce mélange de sentiments si divers, d’inspirations si opposées, que s’est formé le plus grand <pb n="338"/>poëte du moyen âge, ce poëte dont les vers sublimes et naturels ne s’oublieront jamais, tant que la langue italienne sera conservée, tant que la poésie sera chérie dans le monde.</p>
         <trailer>FIN DU SIXIÈME VOLUME.</trailer>
       </div>
+      </div>
+      <div>
+        <head>Tome VII</head>
       <div>
         <head>Treizième leçon</head>
         <argument>
@@ -2499,6 +2504,7 @@
         </quote>
         <p>Il faut clore le quinzième siècle par cette vision sublime, où rien ne manque, le génie, l’enthousiasme, et le malheur d’un grand homme.</p>
         <label rend="b">FIN.</label>
+      </div>
       </div>
     </body>
   </text>
