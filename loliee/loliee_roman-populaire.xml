@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-07T18:06:44+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les industriels du roman populaire, suivi de : L’état actuel du roman populaire
+          (enquête) [articles de la <hi rend="i">Revue des Revues</hi>]</title>
+        <author>Frédéric Loliée (1856-1915)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/loliee_roman-populaire</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Frédéric Loliée (1856-1915), « Les industriels du roman populaire », suivi de :
+          « L’état actuel du roman populaire (enquête) », <hi rend="i">Revue des Revues et Revue
+            d’Europe et d’Amérique</hi>, III<hi rend="sup">e</hi> série, nº 19 — X<hi rend="sup"
+            >e</hi> année, vol. XXXI, 1<hi rend="sup">er</hi> octobre 1899, p. 1-18, 19-33 ;
+          « Encore les industriels du roman populaire », III<hi rend="sup">e</hi> série, nº 22
+            — X<hi rend="sup">e</hi> année, vol. XXXI ? 15 novembre 1899, p. 399-403. PDF : <ref
+            target="https://archive.org/details/larevuedesrevue00unkngoog">Internet
+          Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1899"/>
+      </creation>
+      <langUsage>
+        <language ident="1899"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="1" xml:id="p1"/>
+        <head>Les industriels du roman populaire<note resp="author" place="bottom"><p><hi rend="i">On admet bien
+                que le poison glissé dans l’organisme le détraque et précipite sa fin. Nous
+                paraissons, cependant, ignorer qu’il y a des poisons moraux faisant plus de mal à la
+                conscience publique que jamais l’arsenic ne saurait en faire au corps. Et tandis que
+                la société envoie au bagne des meurtriers vulgaires, elle comble de ses faveurs des
+                écrivains (?) qui, grâce à la complicité criminelle de certains journaux, versent
+                des flots de poison dans l’âme française. Il suffit de lire la plupart des
+                feuilletons dits populaires pour comprendre l’étendue du mal qui nous menace, si on
+                n’arrive peu à sauver le pays de ces semences de pourriture. Voilà les raisons de
+                l’incursion de la</hi> Revue<hi rend="i"> dans l’industrie du roman
+              populaire.</hi></p><p><hi rend="i">À côté de notre collaborateur, M. Frédéric Loliée,
+                qui s’est chargé d’approfondir l’état actuel du mal, des penseurs romanciers et
+                journalistes éminents ont bien voulu à leur tour éclaircir, à différents points de
+                vue, ce problème des plus importants pour notre grandeur morale. L’ensemble de ces
+                travaux fournit une peinture sombre et un avertissement salutaire. Oui, il faut
+                agir, mais comment ? Car il ne suffit pas de critiquer le présent, il faut penser à
+                l’avenir. La voie d’appel à la bonne volonté des écrivains de talent nous a paru
+                tout indiquée. Dans l’impossibilité où nous nous trouvons de payer d’exemple en
+                publiant un grand roman populaire, nous nous bornerons pour le moment à ouvrir deux
+                concours pour une nouvelle et un conte à lire à haute voix. Les primes, les noms des
+                membres du Comité et les autres conditions seront annoncés dans notre numéro
+                prochain. Ceux, parmi nos lecteurs, qui croiraient pouvoir nous suggérer quelques
+                idées à cet égard, nous obligeront en nous les communiquant avant le 10
+                courant.</hi> (Note de la Rédaction.)</p></note></head>
+        <dateline><docDate when="1899">1<hi rend="sup">er</hi> octobre 1899</docDate>.</dateline>
+        <p><hi rend="sc">Depuis</hi> que le commerce des pensées est devenu
+          une véritable industrie, depuis que la majeure partie des auteurs mâchent, au jour le
+          jour, sans souci du lendemain, la besogne qui les fait vivre, l’occasion s’est présentée
+          plus d’une fois de montrer à l’œuvre, fabriquant et écoulant leurs produits, toute une
+          catégorie de gens de lettres, particulièrement dédaigneux des scrupules de l’art, et
+          fortement épris des succès monnayés : les <hi rend="sc">Entrepreneurs de romans
+            populaires</hi>.</p>
+        <p>En ce qui les concerne, le champ des observations est assez ample, en effet, soit qu’on
+          s’amuse à relever les licences de leur plume à l’encontre de la logique, du bon sens et de
+          la grammaire ; soit qu’on estime juste de dévoiler les subterfuges de signatures
+          illusoires et de collaboration multiple au moyen desquels ils enflent démesurément leurs
+          volumes et leurs droits d’auteurs ; soit qu’au nom d’un certain <pb n="2" xml:id="p2"
+          />principe d’hygiène morale et d’assainissement littéraire, on proteste contre les abus
+          d’une production sans vergogne et sans règle.</p>
+        <p>Je n’ignore pas qu’il est aisé de mordre sur le travail d’autrui. Facilement on
+          inclinerait à réclamer de ces amuseurs des mérites hors de proportion avec le rôle qu’ils
+          se sont attribué et le dessein qu’ils poursuivent.</p>
+        <p>La critique a beau jeu d’exiger, sous toute espèce de forme d’imagination, des qualités
+          supérieures, dont il lui serait fort incommode, souvent, de fournir le modèle après la
+          théorie. Mais il faut bien avouer qu’ici la matière ouverte à ses censures n’est que trop
+          abondante. Elle n’exagère pas, non certes, lorsqu’elle se prend à demander, de loin en
+          loin, l’épuration d’un genre plutôt pernicieux et des singulières mœurs littéraires qui
+          s’y rattachent. Au seul et strict point de vue de la raison, ce n’est pas afficher des
+          rigueurs d’opinion excessives que de s’étonner hautement de voir couvrir d’or, par la
+          multiplication infinie du sou populaire, des élucubrations insanes, qui seraient assez
+          rémunérées au poids brut du manuscrit !</p>
+        <div>
+          <head>I</head>
+          <p>Le mal sévit ailleurs qu’en France. Partout l’esprit populaire a les mêmes
+            complaisances, partout il se montre aussi crédule, aussi avide d’émotions violentes.
+            Cette curiosité instinctive, il se trouve en tous pays des gens habiles à
+            l’exploiter.</p>
+          <p>La puritaine Angleterre n’est pas des moins industrieuses à spéculer sur les effets de
+            l’horrible. Elle a toute une branche de production romanesque, exclusivement adonnée à
+            tenir le public anglais au courant des hauts faits du monde des coquins. Il en pullule
+            là-bas de ces libretti du crime, dont les échantillons les plus poussés ont réalisé des
+            chiffres de tirage vraiment fantastiques et propres à rendre rêveurs nos spécialistes de
+            cours d’assises. Quelle n’a pas été la fortune, par exemple, des aventures de Jack
+            Sheppard (le Cartouche anglais), dont on a fait ici les <title>Chevaliers du
+              Brouillard</title> ! Il existe à Londres une rue entière dont le commerce est
+            uniquement défrayé par la <hi rend="i">detective literature</hi>. Depuis les exploits de
+            Jack l’Éventreur, les affaires ont monté prodigieusement dans ce <hi rend="i">Red
+              Lion’s</hi> où l’on ne voit que des éditeurs et des libraires voués au débit de la
+            sombre marchandise.</p>
+          <p>L’Espagne, de son côté, pourrait mettre en ligne toute une phalange d’auteurs de bas
+            étage empressés à suivre les traces d’un Fernan Gonzalez.</p>
+          <p>La vertueuse Allemagne a ses pourvoyeurs en grand nombre de feuilletons au rabais.</p>
+          <p>Et si l’on poussait l’enquête, en dehors de l’Europe, jusqu’à l’extrême Orient, on
+            verrait qu’au Japon tous les romans regorgent de crimes épouvantables et de scènes de
+            mauvais lieux ; on aurait même à constater, en bonne justice, que, dans ladite
+            spécialité, ce sont encore les conteurs japonais qui tiennent la corde. Ne travaillant
+            que pour les besoins de la restauration populaire, ils épicent en conséquence la
+            nourriture qu’ils destinent à des estomacs grossiers. C’est à qui d’entre eux entassera
+            dans une série de chapitres le plus d’horreurs<note resp="author" place="bottom">Il est bon de relever
+              à la décharge des romanciers japonais que leurs ouvrages ne vont qu’à une seule espèce
+              de gens, qu’ils sont fort dédaignés des classes supérieures, qu’on les paye d’autant
+              plus mal (en moyenne, 75 francs par volume ; et qu’à la différence de nos
+              feuilletonistes, pour une besogne pareille, ils ne récoltent ni le matériel bénéfice,
+              ni la réputation.</note>.</p>
+          <p>En somme, à quelque point d’horizon qu’on se reporte, ce sont uniformément les mêmes
+            effets issant des mêmes causes.</p>
+          <p>Il y a un moyen immanquable d’attirer la foule autour de soi, c’est de crier fort,
+            lorsqu’on est dans la rue ; c’est de grossir, d’outrer les notes de violence, quand on
+            noircit du papier à l’usage des masses. Le peuple se plait à voir ces figures
+            contractées et furieuses, dont le spectacle le sort de sa vie régulière et monotone. Si,
+            au surplus, pour faire vibrer, comme il convient, la note sentimentale, vous adjoignez à
+            des types de forbans implacables le contraste de créatures angéliques, exposées aux
+            pires infortunes et rachetées du mal par la grâce de leur innocence même, alors votre
+            succès est assuré. On ne vous chicanera pas sur l’emploi de vos moyens. Les
+            invraisemblances nombreuses et les inconséquences énormes dont vous aurez chargé votre
+            fabulation passeront à peu près inaperçues. Quant au style, on ne s’occupe pas de cela
+            chez ce public ingénu, bon diable, facile à émouvoir et qui, se livrant de grand cœur,
+            ne compte pas plus ses larmes que ses rires.</p>
+          <p>Les conditions étant celles-là, les procédés étant si bien connus et d’un emploi si
+            commode, il n’y a pas lieu de s’étonner qu’il y ait eu, depuis un demi-siècle, en
+            France, tant de feuilletonistes satisfaits de leur état.</p>
+        </div>
+        <div>
+          <head>II</head>
+          <p>Il y eut des heures brillantes, des heures de faste dans les annales du
+            roman-feuilleton. C’était le temps héroïque des Eugène Sue et des Frédéric Soulié. Le
+            genre s’altéra vite. On eut promptement fait de se gâter la main. Et les directeurs de
+            journaux populaires, sous le prétexte de se conformer aux besoins — qu’ils pensaient
+            bien connaître — d’une foule simpliste, de peu de mémoire et très indifférente à la vie
+            de l’esprit, contribuèrent sensiblement à cette dépréciation.</p>
+          <p>Il arrivait, d’aventure, que de jeunes romanciers, nouveaux venus dans la carrière,
+            imbus de préjugés artistiques et moraux que rendait excusables leur ignorance du métier,
+            tentaient d’apporter au public quelque conception plus relevée et d’appliquer aux
+            fantaisies de leur imagination les éléments au moins d’une méthode esthétique. On ne
+            leur laissait pas de longues illusions.</p>
+          <p>Ils se portaient d’eux-mêmes au-devant de la leçon, lorsqu’ils <pb n="4" xml:id="p4"
+            />allaient offrir au directeur d’un journal en vogue leurs idées et leurs services.
+            Celui-ci, homme d’expérience, ne tardait pas à leur rendre nette et claire la formule de
+            ce qui convenait à sa clientèle nombreuse et soumise.</p>
+          <p>Si nous en croyons l’honorable Jérôme Paturot, qui tâta de cet exercice, quand il s’en
+            fut à la recherche d’une position sociale, il leur tenait à peu près ce langage, dès
+            qu’il pensait découvrir en eux des signes de vocation et des promesses de
+            savoir-faire :</p>
+          <quote>
+            <p>« Thèse générale, pour réussir : il faut être apte à cuisiner une sorte
+              de feuilleton de ménage, qui tienne dans la famille sa place quotidienne et son rôle
+              économique, ni plus ni moins que le pot-au-feu. Quant aux personnages, c’est
+              élémentaire. Vous prenez une jeune femme malheureuse et persécutée. Vous ajoutez un
+              tyran sanguinaire, un ami sensible, courageux et vertueux, un confident sournois et
+              perfide, des comparses d’un acabit plutôt équivoque. Lorsque vous tenez en main tous
+              ces personnages, vous les mêlez ensemble en deux, trois, quatre cents feuilletons, et
+              vous servez chaud. Aussitôt que vous aurez fait un seul roman dans ce genre, cela ira
+              comme de source, vous en ferez vingt, trente, sans le moindre effort. »</p>
+          </quote>
+          <p>Au commencement, il en coûtait au talent de déroger, de s’amoindrir en se pliant à des
+            formes vulgaires. C’était l’effet d’une première nausée de l’esprit. On en revenait. Un
+            atelier de feuilletons bien achalandé, s’il ne procurait pas la gloire, garantissait des
+            revenus solides. On en prenait doucement l’accoutumance. Et l’on y restait englué pour
+            la vie.</p>
+          <p>Ce n’était que l’aurore du roman-feuilleton, et déjà les procédés de fabrication
+            étaient dûment classés, étiquetés.</p>
+          <p>Le mécanisme et l’outillage n’ont guère varié depuis lors.</p>
+          <p>À serrer les choses de près, on parviendrait à discerner dans le feuilleton actuel, en
+            dehors de l’ancienne forme de cape et d’épée, divers courants, quatre peut-être :
+            l’école de Gaboriau, c’est-à-dire le roman judiciaire, qui n’est lui-même qu’une
+            émanation du <title>Vautrin</title> de Balzac ; le courant de Richebourg, représentant
+            le mélodramatique douceâtre et larmoyant ; celui de Dennery, sentimental et socialiste ;
+            celui de Mary, où sont intervenus la documentation pathologique et l’élément militaire.
+            On spécifierait, en outre, le mélange de sentimentalisme traditionnel et de sensualité
+            moderniste, dont Xavier de Montépin a fait sa marque. Ailleurs, on distinguerait
+            quelques spécialistes, tels que F. du Boisgobey et Alexis Bouvier, qui cultivèrent de
+            préférence l’actualité, surtout l’actualité criminaliste. Enfin beaucoup d’autres,
+            contremaîtres ou manœuvres, nous apparaîtraient exclusivement occupés à retaper des
+            causes célèbres.</p>
+          <p>Sauf ces quelques nuances, le fond est resté ce qu’il était ; les péripéties, les
+            combinaisons, les types d’un usage éprouvé s’y retrouvent pour nous à l’état de vieilles
+            connaissances ; et le but unique, le but suprême ; battre monnaie avec l’encrier, n’a
+            fait que se préciser davantage.</p>
+          <p><pb n="5" xml:id="p5"/>Pour y parvenir, on suit docilement, aujourd’hui comme hier, les
+            règles classiques (si l’on ose dire) de cette lucrative manipulation. D’abord la coupe
+            (essentielle, la coupe !) devant être pratiquée de telle sorte que le numéro du jour
+            tienne au suivant par une espèce de cordon ombilical et qu’il donne à tous l’impatient
+            désir du lendemain. Puis la manière subtile de porter à la fin de chaque tranche
+            quotidienne la situation critique ou le mot mystérieux. Et encore l’experte façon, moins
+            appréciable, pour les lecteurs que pour les auteurs eux-mêmes, de modifier et d’étirer
+            le dialogue avec tous les trucs qu’il comporte.</p>
+          <ab type="ornament">* <lb/>*   *</ab>
+          <p>Déjà du temps d’Alexandre Dumas, l’inépuisable virtuose, on considérait comme un mérite
+            précieux de savoir faire le plus possible de pages avec le moins de phrases imaginable.
+            On n’ignore pas quel parti merveilleux l’auteur des <title>Mousquetaires</title> et de
+              <title>Monte-Cristo</title> tirait des mots comme ceux-ci :</p>
+          <quote>
+            <p rend="i">Oui, non, damnation !</p>
+          </quote>
+          <p rend="noindent" xml:lang="fr">et des hum ! des oh ! des ah ! à lui payés près d’un
+            franc, autant que des lignes entières. Voici un échantillon de sa méthode, qui ne laisse
+            rien à désirer pour la concision. Le sévère Athos interroge son valet, le taciturne
+            Grimaud :</p>
+          <quote>
+            <p>— Eh bien ?</p>
+            <p>— Rien.</p>
+            <p>— Rien ?</p>
+            <p>— Rien.</p>
+            <p>— Comment ?</p>
+            <p>— Rien, vous dis-je.</p>
+            <p>— C’est impossible !</p>
+            <p>— Puisque je vous le dis</p>
+            <p>— En es-tu bien sûr ?</p>
+            <p>— Certainement.</p>
+            <p>— C’est un peu fort !</p>
+            <p>— C’est comme cela.</p>
+          </quote>
+          <p>Le modèle a fructifié à souhait, depuis lors, sans avoir pour compensation, d’ailleurs,
+            la vie, l’entrain, l’humour, la fougue entraînante d’un Alexandre Dumas. La tradition
+            n’a plus chômé de gonfler les phrases avec du vide et de s’en faire des rentes.</p>
+          <p>Tirer à la ligne (Dieu sait comme !) ; hacher le style court et menu, filer
+            interminablement, hier l’intrigue, aujourd’hui la description, demain le dialogue ;
+            émietter en des parts innombrables le corps du sujet, allonger à l’infini les lieux
+            communs du genre : embrouillamini de paternité, suppositions d’enfants, vengeances et
+            trahisons, distillées goutte à goutte jusqu’au suprême épuisement de la matière : c’est
+            toute une gamme d’artifices.</p>
+          <p>On l’apprend assez vite.</p>
+          <p><pb n="6" xml:id="p6"/>Il est amusant quelquefois de saisir sur le vif ce bon procédé
+            de remplissage, qu’ont pratiqué si avantageusement Richebourg, Montépin et leurs
+            disciples.</p>
+          <p>Nous savons tous que le pathétique d’une situation violemment tendue doit éclater enfin
+            avec son maximum d’intensité dans un mot, dans un cri, dans l’un de ces effets inopinés
+            et saisissants qui laissent à l’âme une impression profonde. À la scène on appelle cela
+            des coups de théâtre. Dans le livre, ce sont des traits sensationnels qui poignent le
+            cœur et rendent les yeux humides. Les maîtres du drame et du roman s’appliquent souvent
+            à concentrer là toute leur puissance.</p>
+          <p>Un feuilletoniste à la toise, un Richebourg, n’aurait eu garde d’y conformer sa
+            manière. Avec ces moyens brusques de trancher les émois d’une longue attente, que
+            seraient devenus, je vous le demande, les menus profits du narrateur ? Il préférait
+            délayer l’émotion, et il s’en acquittait pertinemment.</p>
+          <p>Nous allons en relever, un peu au hasard, deux ou trois exemples typiques.</p>
+          <p>L’une de ses héroïnes, pauvre jeune fille lâchement séduite, l’infortunée Marie a
+            décidé de mettre fin à ses jours. Elle allumera le fatal réchaud. Elle avait entrevu les
+            plus radieuses espérances de la jeunesse et de l’amour. Cependant, elle va mourir,
+            tandis que la nature au dehors chante ses hymnes de fête. Il suffirait d’indiquer la
+            scène, toute simple et tout ordinaire qu’elle soit, pour la rendre tragique. Mais le
+            romancier veut prendre son temps. Il traîne en conscience les préliminaires d’un tel
+            suicide. Pas une jointure de porte ou de fenêtre, pas une fissure où l’air pourrait
+            passer qu’il n’inspecte soigneusement. Pas un détail qu’il ne relate, en l’ornant à
+            plaisir, de cette coquetterie suprême qu’apportent souvent « les poitrinaires » dans les
+            apprêts de la mort. Il nous montre la ravissante victime <hi rend="i">se lavant à grande
+              eau</hi>, se peignant et se coiffant de façon exquise, soignant son linge et se parant
+            devant le miroir avec une précieuse lenteur.</p>
+          <quote>
+            <p>Il ne lui restait plus qu’à mettre ses manchettes ; c’était pour tout à
+              l’heure, quand le feu serait allumé.</p>
+          </quote>
+          <p>Mais avant de lui laisser porter la flamme au brasier, il juge opportun de lui donner
+            une petite leçon à son usage spécial sur la composition du gaz carbonique, dont les
+            émanations tout à l’heure engourdiront en elle les principes de la vie. Pensez donc ! En
+            sa candide ignorance elle ne savait pas, elle allait mourir sans le savoir, et il est
+            urgent de le lui apprendre, que <quote>« <hi rend="i">l’air qui nous fait vivre est
+                composé de vingt et une parties d’oxygène mêlées de soixante-dix-neuf parties
+                d’azote et que la combustion du charbon, suivant qu’elle est plus ou moins active,
+                donne de l’acide carbonique ou de l’oxyde de carbone ; … elle ignorait également le
+                changement de composition que subit l’air par suite de l’oxygène remplacé dans
+                l’atmosphère par les gaz carboniques</hi> »</quote> !</p>
+          <p>Voilà, n’est-ce pas, des détails bien à leur place et d’un goût très réussi ? Un moyen
+            comme un autre, direz-vous, de vulgariser la science. <pb n="7" xml:id="p7"/>Feuilletez
+            encore, si vous en avez le courage, les tomes volumineux de la <title>Dame en
+              noir</title> et vous y trouverez un pendant admirable à ce délicat épisode.</p>
+          <p>Il s’agit d’un mariage <hi rend="i">in extremis</hi> entre deux êtres pleins d’amour et
+            de regret. Lui vient d’être frappé d’un coup mortel ; il est jeune, il eût voulu réparer
+            bien des fautes ; il eût voulu longuement aimer. Elle, aveuglée par les larmes, ne sait
+            rien sinon qu’il la réhabilitera en lui donnant son nom, mais qu’aussi il la laissera
+            seule ici-bas pour y traîner le deuil d’un incurable désespoir. Quel spectacle émouvant
+            et propre à réveiller dans l’imagination l’idée de cette éternelle fraternité de l’amour
+            et de la mort, objet de tant de plaintes poétiques ! Mais Richebourg est là qui doit
+            conduire la pensée du lecteur, qui le sait et en abuse. C’est à ce moment précis qu’il
+            estime utile autant que juste de faire parler <hi rend="i">ex professo</hi> l’officier
+            ministériel de rigueur. Un homme qui connaît son métier, celui-là ! Oh ! sans se
+            presser, sentencieusement et péremptoirement, notre personnage considère comme un devoir
+            d’exposer dans toutes les règles à celui qui n’a plus qu’une minute à vivre les
+            convenances du droit civil et les prescriptions juridiques applicables à son cas ! Je
+            signale cette perle à ceux et à celles qui auraient tentation de la cueillir dans son
+            écrin. Pourtant, ce n’est pas la plus précieuse de la collection, et j’en découvre une
+            autre, qui l’emporte de plusieurs carats.</p>
+          <p>Savez-vous au monde une impression de stupeur et d’épouvante affolée comparable au
+            bouleversement d’âme d’une mère à qui l’on vient de ravir son enfant ? On lit dans
+            l’égarement de ses yeux l’angoisse qui la torture. Ses gémissements sont des cris. Elle
+            veut appeler… Les mots expirent sur ses lèvres. On craint pour sa raison autant que pour
+            sa vie. De ces suppliciées du sort et du roman-feuilleton, il n’en manque pas chez
+            Richebourg ; mais ses héroïnes font mieux que de verser des larmes, de sangloter, de
+            s’abîmer dans une crise affreuse de désespoir. Elles pérorent et placent des phrases à
+            tant la ligne. Dégustez la saveur de ce petit morceau. L’une des malheureuses victimes
+            ouvre la bouche, elle va parler…</p>
+          <quote>
+            <p>Son regard prit une expression terrible et, d’une voix stridente, elle
+              s’écria :</p>
+            <p>— Demandez donc à la lionne ce qui se passe dans ses entrailles de mère
+              quand, rentrant dans sa tanière, elle ne retrouve plus ses lionceaux, qu’on lui a
+              pris… Tout d’abord, elle rugit, puis, les poils hérissés, elle s’élance, elle bondit à
+              la poursuite des ravisseurs. Malheur à eux si elles les rejoint ! Elle les déchire,
+              les broie, les met en pièces.</p>
+            <p>« <hi rend="i">En cet instant, je ressemble à la lionne du
+              désert</hi> ; c’est la même fureur, la même rage qui grondent en moi. Ah ! je les
+              retrouverai, les misérables, les bandits qui m’ont pris mon enfant ; alors j’aurai les
+              dents terribles de la lionne et ses griffes sanguinaires, je serai sans pitié, <hi
+                rend="i">j’aurai la férocité de la bête de l’Atlas</hi> ! »</p>
+          </quote>
+        </div>
+        <div>
+          <head>III</head>
+          <p>De spirituels chroniqueurs, Jean. Bernard, Georges Malet, Charles Canivet, Émile
+            Bergerat, Albert Cim et le vigoureux romancier <pb n="8" xml:id="p8"/>Lucien Descaves
+            ont raconté des anecdotes fort piquantes sur le désouci artistique de ces grands
+            abatteurs de besogne et sur leur aptitude exceptionnelle à détailler quotidiennement des
+            monceaux de copie, sans savoir la veille ce qu’ils auraient à exprimer le lendemain.
+            Mais que ce thème est fertile et qu’il nous serait aisé de l’enrichir indéfiniment de
+            nos propres observations !</p>
+          <p>Avant tout on vise à la célérité de l’exécution. Car, s’il est une loi qui s’impose,
+            c’est de toujours arriver à temps, quand on s’engage à forfait pour vingt mille lignes
+            comme Richebourg, pour trente mille, comme Jules Mary, ou que, librement, à l’instar de
+            l’infatigable dévoreur de colonnes Xavier de Montépin, on pousse jusqu’à soixante
+            mille !</p>
+          <p>On y parvient sans trop de peine quand on a le don et la main. Au sortir d’une période
+            inévitable de tâtonnements on s’assimile avec une force d’entraînement surprenante les
+            procédés à la mécanique de la fabrication des phrases. Richebourg s’étonnait lui-même de
+            la facilité de pondaison à laquelle il était arrivé, presque sans apprentissage. Ponson
+            du Terrail, qui eût été capable d’écrire avec goût des récits de peu d’étendue et d’y
+            encadrer des études de mœurs et de caractères, avait été conduit par les circonstances
+            et par l’amour du gain à dérouler d’interminables suites d’aventures héroïques ou
+            criminelles. Or, il s’était si bien rompu à cette manœuvre qu’il pouvait mener de front
+            jusqu’à cinq feuilletons quotidiens dans cinq journaux différents !</p>
+          <p>L’essentiel, pour le producteur, est de tenir son roman debout pendant environ trois
+            mois. Le public est dorénavant conquis, entraîné ; il vous suivra par tous les chemins
+            de traverse où il vous plaira de le conduire. Vous pourrez même, s’il vous est plus
+            commode, le dévoyer complètement, comme a fait l’auteur de la <title>Fille au Collier de
+              perles</title>, roman à succès du <title>Petit Parisien</title>, où se trouve encadrée
+            une longue partie qui n’a aucun rapport avec le corps du sujet.</p>
+          <p>Il ne s’agit, en pareille course, que d’être ferme sur sa selle et de continuer sans
+            sourciller. Richebourg élucubrait <title>Cendrillon</title> pour Mongrédien. Arrivé au
+            centième feuilleton, il se voit brusquement arrêté : il avait épuisé son texte. Or, pour
+            répondre aux engagements pris, il lui en eût fallu cent encore, au moins. Il appelle à
+            son secours un habile de la partie, qui ne sait rien, d’ailleurs, des suites à prévoir.
+            Celui-ci tâte le terrain, rencontre un thème accessoire, s’engage dans cette voie, et à
+            eux deux ils parviennent à doubler de cent vingt feuilletons.</p>
+          <p>Il importe, en effet, que la matière employée se prête à une extrême dilatation. Car,
+            au traité qu’on devra signer avec le directeur ou l’éditeur il y aura toujours en
+            réserve un certain article vous mettant en mesure d’allonger ou de restreindre la sauce,
+            selon le degré de faveur et de curiosité publiques. Quant à vouloir enchaîner les
+            aventures avec ordre, quant à conduire l’action au dénouement par un fil <pb n="9"
+              xml:id="p9"/>logique, on ne saurait s’embarrasser que le moins possible de cette
+            gênante préoccupation.</p>
+          <p>Là-dessus, Ponson du Terrail avait la conscience aussi légère que la main. Retourner en
+            tous sens une péripétie et l’allonger à perte de phrase, sans autrement s’inquiéter de
+            la vraisemblance et de la concordance des détails, n’était qu’un jeu pour ce roi des
+            faiseurs.</p>
+          <p>Au cours d’une de ses années les plus fécondes, il y avait des semaines et des semaines
+            qu’il tiraillait en bas de page des aventures, dont il aurait dû couper le fil depuis
+            longtemps Enfin il s’y décide, un jour. Le soir même, il rencontre le directeur du
+            journal. Ponson l’avertit qu’il venait de boucler le dénouement. Assez de variations sur
+            ce thème. Les ficelles du drame étaient usées… jusqu’à la mèche.</p>
+          <p>« — Comment ! s’écrie notre homme, interloqué. Vous avez arrêté court, fini, réellement
+            fini ? Mais, vous n’y pensez pas ! Un 14 avril, la veille du réabonnement ! Vos héros ne
+            peuvent pas disparaître avant quarante-huit heures d’ici.</p>
+          <p>— Il n’y en a plus. Je les ai tués tous.</p>
+          <p>— Voyons, voyons, mon ami, pas de mauvaise plaisanterie. Il vous en reste bien un, un
+            seul, pour souffler jusqu’au 16. <hi rend="i">Chose</hi>, par exemple, ce traître si
+            intéressant…</p>
+          <p>— Ah ! ce traître ? Eh bien ! voici dans quelle situation je viens de le placer. Il est
+            tombé aux mains des justiciers. (Vous savez que cela se passe en des terres exotiques.)
+            On l’a lié sur une planche, que l’on a jetée dans un fleuve plein de crocodiles. On voit
+            ça et là des têtes de caïmans, dix, vingt têtes, émergeant de l’eau, gueule ouverte. Une
+            Voix crie : « Laissez passer la justice des hommes ! » Mettez-vous en sa place. Je ne
+            vois pas qu’il soit commode de le tirer de là.</p>
+          <p>— J’en conviens, mais cela m’est égal. Je sais seulement qu’il nous faut : <hi rend="i"
+              >une suite à demain</hi>. Arrangez-vous. »</p>
+          <p>Ponson du Terrail était homme de ressources. Il chercha et trouva. C’était quelque
+            chose d’énorme, d’incommensurable, une histoire devenue légendaire, cette histoire de
+            caïmans.</p>
+          <quote>
+            <p>« … On voyait, reprenait-il, des têtes d’amphibies, dix, vingt têtes,
+              émergeant de l’eau, la gueule ouverte… Mais, circonstance à laquelle les justiciers
+              n’avaient pas songé, <hi rend="i">c’était pour les alligators le temps des
+              amours</hi>, et, poussés par un doux attrait vers les caïmanes, les caïmans laissaient
+              glisser au fil de l’eau la planche sur laquelle le misérable pantelait d’effroi. Elle
+              vogua longtemps. »</p>
+          </quote>
+          <p>Elle vogua, pendant tout un chapitre et l’abonné candide, sans presque s’en apercevoir,
+            avait franchi le pas du réabonnement.</p>
+          <p>Transformer sans crier gare la face d’un dénouement, donner une entorse violente à la
+            logique des aventures et renverser les rôles jusqu’à les rendre méconnaissables, quoi de
+            plus simple ? On n’y regarde pas de si près. Les critiques ont l’œil autre part. La
+            direction du journal n’a guère envie d’y mettre le nez, et la grosse clientèle n’y voit
+            goutte.</p>
+          <p><pb n="10" xml:id="p10"/>Un soir, Paul Duplessis, fournisseur ordinaire du feuilleton
+            de la <title>Patrie</title>, venait de se rendre au Divan Lepelletier, un cénacle où il
+            fréquentait assidûment. Quelqu’un l’aborde, d’un air pressé. C’était son ami, le
+            sculpteur Aimé Millet, qui n’était encore qu’un stagiaire de la gloire artistique.</p>
+          <p>« —  Un renseignement, vite, lui demande-t-il. Mon père apporte à suivre ton roman,
+            chaque matin, une attention pleine d’angoisse. Tu as laissé la comtesse dans une
+            situation des plus critiques. Elle est tombée au milieu d’un guet-apens, entourée de
+            tous ceux qui ont un intérêt à la faire disparaître… Est-ce qu’elle meurt ?</p>
+          <p>— Oui, répond Duplessis. Elle est tuée d’un coup de poignard par le Corse Affiani.</p>
+          <p>— Pas de chance ! s’écrie Millet, en frappant du poing sur la table.</p>
+          <p>— Bah ! Qu’est-ce que cela peut te faire ?</p>
+          <p>— Mais, ça m’intéresse énormément. Mon père m’a parié quelle mourrait ; et moi, pensant
+            que tu aurais encore besoin de la comtesse dans la suite du feuilleton, j’ai parié
+            qu’elle se tirerait de ce mauvais pas.</p>
+          <p>— Un gros pari ?</p>
+          <p>— Dix louis.</p>
+          <p>— Diable ! fit Duplessis… »</p>
+          <p>Puis, tirant sa montre :</p>
+          <p>« —  Neuf heures… J’ai encore le temps d’aller sauver la comtesse. Je prends un fiacre
+            et je vole à l’imprimerie.</p>
+          <p>— Vraiment ! Tu ne plaisantes point ?</p>
+          <p>— Non pas ! »</p>
+          <p>Et lui serrant la main, Duplessis ajoute d’un air quasi solennel :</p>
+          <p>« — C’est bien le moins que je puisse faire pour un ami. »</p>
+          <p>Il n’y a là que simple caprice de romancier bon enfant, espièglerie de feuilletoniste,
+            sûr de sa plume et de son public ; et nous ne ferons pas à l’ombre de Paul Duplessis un
+            grief de cette peccadille. Mais nos confectionneurs actuels portent beaucoup plus loin
+            leur sans-façon à coudre et à découdre les morceaux disparates, dont ils habillent leurs
+            personnages.</p>
+        </div>
+        <div>
+          <head>IV</head>
+          <p>À quoi bon, par exemple, viseraient-ils au mérite de la nouveauté ? Et pourquoi se
+            mettraient-ils martel en tête, à propos d’un chimérique résultat, que personne ne
+            réclame d’eux ? Qui pense à remonter aux sources de leurs élucubrations ? Qui voudrait
+            éplucher les formes de style, usées ou non, dont ils les accommodent ? Tout peut aller,
+            tout peut rentrer dans ce cadre élastique. On prend à droite, on pille à gauche ; on
+            découpe dans le tas des livraisons anciennes, ici une rubrique à effet, là quelque bout
+            de scène ayant sa place marquée d’avance ; ou bien c’est un vieux cliché qu’on aurait
+            tort de laisser se <pb n="11" xml:id="p11"/>perdre ; ou c’est une situation maîtresse,
+            qui n’appartient plus à personne, tant elle a passé de main en main… Et les phrases
+            toutes faites, on n’a qu’à les cueillir. Rien de si aisé vraiment que cette espèce de
+            cuisine littéraire. Quand on a façonné pièce à pièce l’étrange macédoine, ou assaisonne,
+            on saupoudre d’une main experte, et il ne reste qu’à servir. Les consommateurs ne se
+            plaignent jamais. La tranquillité d’esprit est si complète, en pareille affaire, que
+            certains ne se gênent point de forcer la dose jusqu’à gâter le métier. Ce sont de vieux
+            romans au complet qu’ils rebaptisent d’une étiquette toute fraîche et dont ils ne
+            traînent pas à toucher les revenus, en lieu et place des auteurs défunts. On connaît
+            l’histoire d’un des derniers feuilletons de l’<title>Éclair</title>. Un homme de lettres
+            l’avait composé <hi rend="i">spécialement</hi> pour ce journal. Il le disait. On l’avait
+            cru. La <title>Pulcinella</title> fut imprimée de confiance. On la trouva même
+            intéressante et nouvelle. Or, quelques semaines après, la rédaction du journal apprenait
+            à ses lecteurs que l’œuvre n’était nullement inédite, que M. Oscar Méténier s’était
+            uniquement donné la peine d’en changer le titre (jadis le <title>Roman d’une jeune fille
+              pauvre</title>), et que le véritable auteur Oscar Honoré l’avait perpétrée, quarante
+            années auparavant.</p>
+          <p>Il est, du reste, très rare qu’un feuilleton à grands développements sur lequel peuvent
+            se greffer et bourgeonner des séries plus ou moins nombreuses de branches annexes et
+            parasitaires, soit tout entier de la main de celui qui le fait passer en bloc. Commencé
+            par l’un, continué par l’autre, il est achevé par un troisième sans qu’intervienne
+            — sauf à la caisse — l’auteur officiel. <quote>« Je sais, dit Lucien Descaves, deux
+              romans populaires prodigieusement répandus, qui furent publiés dans ces
+                conditions<note resp="author" place="bottom"><hi rend="i">Figaro</hi>,
+              25 janvier 1890.</note>. »</quote> Nous les connaissons également, et nous pourrions
+            les appeler par leurs noms ; mais il n’est pas toujours bon de dire la vérité, toute la
+            vérité.</p>
+          <p>Ah ! si l’on pouvait mettre face à face les noms des exploiteurs et ceux des exploités,
+            porter à la lumière du jour les secrets des collaborations occultes, démasquer les
+            signataires au front audacieux, faire remonter de l’ombre, ne serait-ce que pour un
+            instant et pour le seul amour de la vérité, les humbles artisans de ces productions sans
+            guère de valeur et, néanmoins, si profitables à d’autres, si lucratives entre les mains
+            des hardis entrepreneurs, qui les ont parafées d’un geste large sans les avoir conçues
+            ni lues peut-être !</p>
+          <p>De tout temps, il exista des associations fictives entre des parvenus de lettres et de
+            modestes compagnons, plus affamés de pain que de gloire. Par exemple, qui connaît, à
+            présent, le nom de Pelin, un pauvre et simple avocat marseillais, auquel Mirabeau dut la
+            rédaction d’un grand nombre de ses discours ? Et des cas analogues, il n’en manquerait
+            pas à citer dans l’histoire intellectuelle d’autrefois. Mais jamais ne se seront
+            affichées aussi impudemment que de nos jours les pratiques d’un compagnonnage
+            mercantile, — l’un des associés <pb n="12" xml:id="p12"/>assumant, pour une bouchée de
+            pain, la totalité de la besogne, l’autre se réservant, pour l’avoir regardé faire tout,
+            le succès et la recette. Au théâtre, il n’est pas d’accident plus banal. Tel dramaturge
+            ou vaudevilliste en renom, tel illustre faiseur passera le premier sur le tableau qui
+            n’aura eu, dans l’exécution de la pièce qu’à promener le crayon à droite ou à gauche,
+            changeant ici deux mots, retournant là quelque phrase, jonchant le texte de virgules, de
+            points d’exclamations, de tirets et de suspensions adroites ! Celui qui n’a rien composé
+            ou peu de chose est en vedette au programme ; on ne parle que de sa création ; il la
+            fait jouer longtemps, reprendre souvent en province ; il en recueille l’honneur
+            complet.</p>
+          <p>On aurait à produire bien des divulgations sur ces trompe-l’œil de la publicité ; et il
+            en ressortirait une vue comparative fort singulière de la population des auteurs
+            modernes. On y verrait, se reposant ou travaillant, deux catégories distinctes de gens
+            de lettres : en haut, les heureux ou les habiles de la profession, étalant au revers des
+            journaux et sur les couvertures libresques, leur étiquette brillante et bien famée ; en
+            bas, les anonymes, les publicistes sans occupation connue, les déshérités de la
+            librairie, les <hi rend="i">esclaves de la copie</hi>, comme on les appelle dans la
+            presse, les tâcherons obscurs, qui sous-traitent toute espèce de commande et qui,
+            pressés par la famine, mènent à la diable des préparations de deuxième ou de troisième
+            main. La moindre application leur est bonne qui ressemble à une fonction littéraire. Ils
+            ont ramassé avec empressement l’épisode à délayer du roman-feuilleton, comme ils glanent
+            au jour le jour les faits-Paris aux journaux, comme ils confectionneraient, si l’on en
+            voulait, des brochures humanitaires, des tables de matières de grands ouvrages et des
+            prospectus de librairie. Ils écrivent pour d’autres qui signent. Ceux-ci, paisiblement,
+            exploitent le nom qu’ils prêtent. Ceux-là vivent d’un maigre salaire et s’efforcent à ne
+            pas en être privés de sitôt. Ils poussent à la colonne, allongent, étendent autant que
+            la matière est flexible, et n’y mettant pas d’amour-propre d’auteur, ne se relisent
+            presque jamais.</p>
+          <p>Sur la manière dont procèdent, en ces sortes de marchés, les grands seigneurs de la
+            corporation, on en raconte d’assez fortes. Piquons au passage une anecdote instructive,
+            uniquement pour nous rendre compte du degré d’aisance et de commodité auquel une grâce
+            d’état spéciale leur permet de réduire le poids incommode des scrupules de l’art.</p>
+          <p>Nous parlerons à mots couverts… L’un des fournisseurs en vogue des bas de colonne de la
+            petite presse, qu’avait poussé de bonne heure dans cette voie la chance d’un heureux
+            parentage, venait de faire accepter, sur le seul énoncé du titre, qui sera, si vous
+            voulez : <title>la Buveuse de sang</title> ou <title>la Buveuse de perles</title>, un
+            roman dont il n’avait pas commencé la première ligne. On l’eût même assez embarrassé en
+            le questionnant, à brûle-pourpoint, sur ce qu’il pensait y mettre. Dieu merci on n’avait
+            pas avec lui de ces <pb n="13" xml:id="p13"/>indiscrétions-là ! Il avait son homme sous
+            la main ; et c’était le principal. Donc, il vivait là-dessus en parfaite tranquillité.
+            Mais voilà que, par contretemps, le sous-confectionneur tombe malade et meurt avant que
+            l’ouvrage soit terminé. X… n’avait point prévu cette mésaventure. Comme il ne sait pas
+            un traître mot du feuilleton en cours, il lui serait bien difficile d’en continuer la
+            série. Et puis cela n’est pas dans ses habitudes. Parafer et percevoir, c’est bon ; mais
+            écrire ! Il faut aviser, cependant. Il court au journal, réclame tout ce qui a paru du
+            roman ; et, fortement agacé, rentre chez lui. L’imprimeur attend. Le public ne
+            comprendrait pas et veut la suite de son histoire. Il s’efforce à rattraper le fil. Il
+            sue d’ahan pour trouver un développement plausible aux aventures de la Buveuse en
+            question ; et il reste le bec de plume en l’air, ne parvenant pas à raccrocher les
+            lambeaux du récit interrompu. Mais il est une Providence pour les feuilletonistes.
+            Tandis qu’il désespère de sortir de cette impasse, on sonne à sa porte. Quelqu’un se
+            présente. Il reconnaît aussitôt à quelle classe de la société appartient le visiteur.
+            Cet air minable, ce chapeau bosselé à la main, cette redingote étriquée et lustrée, cet
+            orgueil dans les yeux et cette misère dans les habits : il n’y a pas à en douter, c’est
+            un confrère… malheureux, et qui va le servir en l’occurrence.</p>
+          <p>« —  Monsieur, lui dit l’inconnu, celui à qui vous donniez trois cents francs par mois
+            pour composer <title>la Buveuse</title> me faisait faire le roman à moi-même pour cent
+            cinquante. Le pauvre homme était un entrepreneur aussi. Je m’offre à le terminer pour la
+            somme qu’il recevait. »</p>
+          <p>La proposition arrivait à merveille. On passe un traité. X… se réjouit de l’aventure ;
+            et, trouvant, une fois de plus, que l’opération a du bon, se promet d’en agrandir le
+            champ. Il la pratiquera désormais sur une vaste échelle. Il signera d’une main généreuse
+            des romans, des drames, des mélodrames, qui l’enrichiront et le rendront célèbre, sans
+            qu’il ait à peine besoin d’y penser.</p>
+          <p>Que nous sommes loin, dans cette branche de commerce, de l’antique apostolat des
+            lettres !</p>
+          <p>On ne s’imaginerait point, si les exemples ne parlaient sous nos yeux, vivants et
+            flagrants, jusqu’où peut aller l’indifférence esthétique de ceux que nous appelons des
+            fabricateurs de littérature populaire. Personne ne se désintéresse plus vite et plus
+            complètement qu’eux-mêmes du sort de la copie, la vague copie, dont ils ont assuré le
+            rendement métallique. Que leur importent toutes ces pages, écrites d’un style haletant
+            et convulsé ? Ils n’en sont que les entremetteurs. Ils provoquent la commande, la
+            reçoivent et passent la main. Ce que deviennent ensuite ces rocambolades, l’impression
+            morale qui doit en rester, le bien ou le mal qu’elles sont susceptibles de produire, la
+            part plus ou moins forte qu’elles risquent d’avoir à la perversion des consciences et du
+            goût publie : voilà des points qui ne les touchent guère. Ils ont en cela, d’ailleurs,
+            l’excuse de l’innocence. Ils ne savent pas. Ils en sont les derniers informés. Car vous
+            pensez bien qu’ils ne <pb n="14" xml:id="p14"/>perdent pas le temps à corriger les
+            épreuves du travail d’autrui, même quand ils ont jugé utile de se l’approprier, pour des
+            raisons d’intérêt, financier supérieures aux raisons de la littérature.</p>
+          <p>Là-dessus, je me suis laissé dire à l’oreille une petite histoire, qui ne manque pas de
+            saveur. Un romancier mondain très goûté, des âmes sensibles et libres, l’un de ceux
+            qu’on appelle, comme Maizeroy et divers autres, des <hi rend="i">féministes</hi> parce
+            qu’ils sont les ténors en vogue de la forme amoureuse, se trouvait, une fois, serré par
+            des besoins d’argent. Ce qui ne doit pas nous surprendre ; car on sait que nos auteurs
+            de noble étage aiment assez à pratiquer pour leur propre satisfaction les élégances d’un
+            luxe dont ils ont si souvent l’occasion de dépeindre l’en-dehors. Il se prit donc à
+            réfléchir, supputer, calculer. Une chronique à cette place, une reproduction par là, un
+            nouveau livre à bâcler : voilà pour le sortir d’affaire. Un « rez-de-chaussée », au
+            surplus, n’eût pas mal fait en ligne de compte. « Oui, se demande-t-il, pourquoi
+            n’irais-je pas aussi, comme tel ou tel, de ma petite entreprise feuilletonesque ? »
+            Question résolue aussitôt que posée. Un sujet, un titre se lève dans son cerveau.
+            Trouver un gîte pour abriter cette espérance, découvrir un homme de lettres en instance
+            d’emploi pour lui donner la vie : l’une et l’autre affaires ne lui demandent pas
+            longtemps. Et le voici, maintenant, à l’aise, dégagé d’une préoccupation fâcheuse et
+            parfaitement libre de vaquer à de plus doux exercices. Son suppléant est à la besogne,
+            déjà. Un travailleur plein de zèle<note resp="author" place="bottom">De talent aussi, et qui s’est
+              fait sa place, depuis lors.</note>. Il s’est jeté tête baissée dans le dédale des
+            sombres aventures, poétisant de son encre la plus noire le crime et l’assassinat,
+            n’oubliant pas de promener les cœurs naïfs à travers les situations les plus funestes,
+            enchevêtrant presque avec art les quiproquos et les mystères, se perdant et se
+            retrouvant le mieux du monde parmi les zigzags innombrables du dialogue, destinés à
+            prolonger les suites insidieuses au prochain numéro ; enfin s’acquittant en conscience
+            de son office. Pendant ce temps-là, l’écrivain de marque s’en était retourné aux jeux
+            préférés de son imagination, célébrant, comme à l’habitude, d’une plume gracile et
+            chatouilleuse, les êtres et les choses de l’amour ; chantant des hymnes à la beauté de
+            la femme ; et oubliant… de payer l’autre. Celui-ci, pourtant, ne s’endormait pas.
+            Tourmenté par la famine, il réclamait souvent et n’était jamais entendu. On avait, avant
+            lui, passé à la caisse sans laisser au fond la moindre pistole. De guerre lasse, le
+            confectionneur passa de la prière à la colère, et de l’irritation à la vengeance. Il se
+            mit à satiriser l’auteur, le prétendu auteur, dans l’ouvrage que celui-ci justement
+            était censé avoir écrit. Tantôt, c’était une allusion aussi transparente que possible ;
+            tantôt, c’était une atteinte directe et comme un coup qu’on se donnerait à soi-même. La
+            chose était au moins bizarre. On en eut prompte <pb n="15" xml:id="p15"/>connaissance
+            dans le clan médisant des lettres. Comment X… ne s’apercevait-il point qu’il se tournait
+            quotidiennement en ridicule et de la façon la plus sensible ? Était-ce manie de sa part,
+            dilettantisme pervers, folle échappée d’une plume en délire, ou mystification d’un
+            malicieux copiste ? Chacun s’en amusait sous le manteau. Un intime enfin prit sur lui de
+            l’avertir.</p>
+          <quote>
+            <p>« — Quelle mouche vous a piqué ? Quelle rage vous est venue de vous
+              dénigrer en personne dans le feuilleton qui paraît chaque jour, sous votre nom ? Voilà
+              certes, une manière toute nouvelle de se tailler de la réclame ! Non la meilleure, à
+              mon avis.</p>
+            <p>« — Bah ! que me racontez-vous ? Mais je ne sais rien, moi, de ce qui
+              se passe dans mon roman ! Car je ne l’ai pas écrit et je n’ai pas le temps de le
+              lire. »</p>
+          </quote>
+          <p>Il avait fallu cette plaisante aventure pour qu’il en prît connaissance, en effet, et
+            songeât, un peu tard, à solder les honoraires de son « anonyme ».</p>
+          <p>Ces mœurs littéraires ne sont-elles pas exquises ?</p>
+        </div>
+        <div>
+          <head>V</head>
+          <p>Les femmes, qui s’entendent fort bien à soigner leurs intérêts, dès que leur attention
+            s’est éveillée sur le point délicat, ont fait incursion là comme ailleurs, les unes pour
+            brocher des romans-feuilletons avec une fécondité malheureuse, les autres pour exploiter
+            le genre en douceur, à l’exemple de leurs grands confrères masculins.</p>
+          <p>L’abondance dans les paroles et la prolixité dans les discours passent généralement
+            pour être le péché mignon des personnes du sexe. Or, une faculté si précieuse de noyer
+            le vide de la pensée sous des flots de discours ne saurait se donner carrière nulle part
+            avec plus d’avantage que sous cette forme de production kilométrique. Aussi est-ce le
+            domaine par excellence des pondeuses de copie. Demandez, plutôt au victimaire cruel du
+              <title>Massacre des Amazones</title>. Il nous a livré à cet égard de piquantes
+            révélations. Des confidences qu’il a reçues en particulier de M<hi rend="sup"
+            >me</hi> Gourand, il résulterait que cette procréatrice intarissable des <title>Cœurs de
+              France</title>, des <title>Cœurs vaillants</title>, de <title>Dieu et Patrie</title> !
+            (oh ! je ne puis les nommer tous) aurait déjà derrière elle un bagage littéraire de
+            plusieurs millions de lignes. (Enfoncé, Lope de Vega !) Affligée d’une même incontinence
+            de plume est M<hi rend="sup">me</hi> de Roussen (lisez Pierre Ninous et Paul
+            d’Aigremont), qui, elle aussi, sème à la volée les romans et les nouvelles. De hautes
+            ambitions la dirigent. Elle n’aspire à rien moins qu’à être la réformatrice du roman
+            populaire. Pour témoigner de ses intentions salubres, elle a remplacé l’apologie de
+            l’escarpe par des tas d’incestes et l’éternel cambriolage par des <hi rend="i">fleuves
+              de poison destinés à des troupeaux de victimes</hi>. Vous, voyez qu’avec elle on gagne
+            beaucoup au change.</p>
+          <p><pb n="16" xml:id="p16"/>Elles sont comme cela quelques-unes alignant des mots et des
+            colonnes, interminablement. Isolées ou groupées par quatre et cinq (tel le bureau de
+            rédaction du pseudo Charles de Vittis), elles travaillent pour la clientèle des petits
+            journaux.</p>
+          <p>Il semble, n’est-il pas vrai ? qu’on soit en pleins travaux de manufactures. Que
+            dis-je ! Il y a dans Paris de véritables usines de romans-feuilletons. Et cette image
+            n’a rien de métaphorique. J’en appelle plutôt au témoignage de MM. Decourcelle, Maël,
+            Georges Pradel, Pierre Salles et <hi rend="i">tutti quanti</hi>, qui doivent être — au
+            moins, je me l’imagine ainsi — des mieux informés en pareilles matières.</p>
+          <p>De quelle façon se passent ordinairement les choses, il n’est pas malaisé de s’en
+            rendre compte. Il y a longtemps qu’Alexandre Dumas inaugura sur une vaste échelle les
+            pratiques de cette division du travail, quitte à y porter ensuite son empreinte
+            magistrale. Donc, voici comment. Quelque fécond improvisateur a fait accepter le titre
+            d’un roman et promis sa signature. Il rassemble son équipe, découpe la besogne,
+            distribue à chacun le lambeau qui lui convient, et se réserve pour lui-même de soigner
+            les raccords en temps et lieu. Un tel est chargé du scénario ; tel autre confectionnera
+            les portraits du traître ou du meurtrier ; un tel encore aura pour tâche spéciale de
+            coudre les pièces détachées, traits, situations, incidents. Et le maître entrepreneur
+            brochera sur le tout, signera et débitera la marchandise.</p>
+          <p>Si, maintenant, pour finir, nous ajoutons qu’il existe de certaines agences ayant le
+            monopole des fonds de romans, qu’il est des cabinets d’affaires spéciaux où l’on
+            recherche les manuscrits au dernier rabais, afin de les écouler ensuite sous forme de
+            reproduction dans cent ou deux cents journaux de province, que les dites agences ont
+            leur installation bien connue des miséreux de la profession ; qu’elles ne cachent point
+            leur enseigne, mais, au contraire, la relèvent et la décorent d’étiquettes alléchantes,
+            telles que celle-ci : <hi rend="i">À la Providence des romanciers</hi> ; qu’elles sont
+            comme le Mont-de-Piété de la basse pègre écrivante, avec cette réserve que les objets
+            engagés y changent aussitôt de nom et ne reviennent jamais à leurs propriétaires ; et
+            nous aurons à peu près tout dit sur les secrets d’un trafic plus heureux
+            qu’honorable.</p>
+        </div>
+        <div>
+          <head>VI</head>
+          <p>On ne naît pas à la littérature avec la vocation spéciale de romancier
+            feuilletoniste.</p>
+          <p>C’est un métier nouveau, issu comme beaucoup d’autres choses bonnes ou mauvaises des
+            modernes fièvres industrialistes, réagissant sur les travaux de la pensée. De prime
+            abord la profession fut estimée avantageuse, parce qu’elle comporte d’innombrables
+            clients. Ceux qui l’exercent en ont accepté d’un vouloir réfléchi les servitudes avec
+            les profits. Ils n’en sont pas toujours plus fiers. Combien de <pb n="17" xml:id="p17"
+            />fois eux-mêmes ne se sentiraient-ils pas écœurés, s’ils devaient lire dans le calme
+            les vieilles histoires abêtissantes et stupéfiantes, qui sont la base et le fond de leur
+            littérature ! Il ne manque pas, chez eux, de gens de talent et d’esprit ; on ne saurait
+            leur dénier ni l’imagination, ni la virtuosité, puisqu’au travers du décousu lamentable
+            de leurs ouvrages ils gardent encore cette force d’action, cette prise incontestable sur
+            le cerveau de leurs lecteurs.</p>
+          <p>Cependant, ils infestent le public d’idées fausses ; ils répandent parmi le peuple une
+            foule de notions erronées sur le monde, qu’ils ne connaissent point ou n’ont jamais
+            étudié, sur la vie, sur le devoir ; ils accumulent avec une douce impunité les plus
+            fabuleuses inepties. Et tout cela, parce qu’un jour ils ont entrevu dans cet exercice
+            commode de la plume les retours d’un « gagne-petit infaillible ».</p>
+          <p>Ainsi que nous l’avons exprimé ailleurs<note resp="author" place="bottom"><hi rend="i">Nos gens de
+                Lettres</hi>, leur vie intérieure, leur rivalités, leur condition. — In-18.
+              Calmann-Lévy, éditeur.</note>, on ne connaît plus les dépenses gratuites d’idées. Les
+            suggestions d’un personnalisme absolu donnent le branle à toutes les pensées, qui se
+            dispersent par la voie du livre ou de la presse. Dans la mêlée générale des existences,
+            chacun tire à soi, vise à son but. Comme les autres, les gens de lettres subordonnent à
+            des calculs positifs la direction de leur intelligence. Du moins, en est-il qui
+            poursuivent parallèlement une ambition artistique et qui aspirent du même coup à se voir
+            estimés, applaudis dans leurs œuvres. Les machinistes du roman populaire s’intitulent
+            quelquefois des penseurs et des artistes. En leur intime conscience, ils savent bien
+            qu’ils se sont détachés sans rémission du prestige idéal. Ils servent à commandement la
+            majorité, dont ils sont les favoris de hasard. Ils conforment de tous points leur
+            production à la demande supposée de l’acheteur. Qu’importe la valeur intrinsèque du
+            produit, si la consommation n’en est pas diminuée !</p>
+          <p>Mais, avec cette manière de voir, d’écrire, la besogne d’un chacun s’est rendue, de
+            jour en jour, plus mauvaise. Les derniers scrupules d’honnêteté littéraire se sont
+            évanouis. Ne serait-il pas temps de savoir enfin si l’on ne pourrait faire mieux et
+            autrement ? Pourtant Balzac n’a pas épuisé les misères de la <title>Comédie
+              humaine</title>. Les grandes leçons de l’histoire ne sont pas une école fermée. Il y a
+            bien encore, dans ce domaine de la fiction simple, des horizons élargis vers lesquels le
+            cœur pourrait s’ouvrir et l’âme se répandre.</p>
+          <p>On a tenté, à plusieurs reprises, de réagir contre la vogue d’une littérature de
+            pacotille et qui semblait avoir fait son temps. Des écrivains de bonne volonté
+            s’appliquèrent à remplacer les inextricables péripéties, nouées en dehors du réel et du
+            possible, par la mise en action de quelques caractères dans un milieu véridiquement
+            décrit. D’autres, comme M<hi rend="sup">me</hi> Gagneur, à l’instar de Frédéric Soulié,
+            visèrent au roman de propagande, avec la ferme intention de servir une cause de vérité
+            sociale. D’autres encore songèrent au roman historique et <pb n="18" xml:id="p18"
+            />populaire à la façon de Grégoire Samarov (Oscar Meding) en Allemagne. Enfin des
+            maîtres conteurs, tels que Daudet et Theuriet, essayèrent aussi leurs forces sur ce
+            terrain. Alphonse Daudet, que l’expérience avait tenté, voulut offrir à la clientèle du
+              <title>Petit Officiel</title> son fameux <title>Tartarin</title>. Il en rapporta cette
+            impression que le peuple ne goûte point l’ironie fine et légère. André Theuriet, à qui
+            la direction du <title>Petit Journal</title> fit appel par deux fois, comme pour une
+            loyale épreuve des dispositions intellectuelles de ses abonnés, s’efforça de leur rendre
+            sensible ce parfum d’idéal dont l’auteur du <title>Secret de Gertrude</title> a su
+            pénétrer le réalisme choisi et savoureux de ses œuvres. Il n’y réussit
+            qu’imparfaitement.</p>
+          <p>Ces tentatives ont été rares, isolées. Elles ne devaient avoir qu’une influence
+            restreinte et passagère, la majorité des entrepreneurs de feuilletons n’ayant rien
+            modifié à leurs procédés de fabrication courante. On ne transforme pas du jour au
+            lendemain les habitudes d’esprit imposées par soixante années au moins de routine
+            triomphante. Seuls, les directeurs des journaux aimés de la masse, qui disposent à la
+            fois des auteurs et du public, seraient en mesure d’assumer la maîtrise de l’âme
+            populaire et de lui imprimer une impulsion toute différente. Malheureusement, leur siège
+            est fait comme on dit. Entre ces deux solutions : abaisser la forme littéraire au niveau
+            des goûts les plus infimes, ou, au contraire, élever ceux-ci progressivement à la
+            compréhension d’un art moins vulgaire et plus vrai, ils croient d’un bien meilleur
+            calcul de s’arrêter à la première opération. Ils ont gardé la conviction que la foule ne
+            prise en art que ce qui lui ressemble, qu’elle est trop affamée pour être friande et que
+            toujours elle préférera la quantité à la qualité.</p>
+          <p>Tout l’obstacle est là.</p>
+          <p>D’amélioration certaine, il n’en pourra résulter que de leur mutuel accord et d’un
+            essai prolongé de leur part. Il est hors de doute pour nous, que leur public une fois
+            débarrassé des médiocrités qu’on lui sert de toutes mains, prendrait facilement
+            l’habitude d’une moyenne d’inspiration, où l’aventure et la mêlée des classes sociales,
+            qui l’intéressent essentiellement, tiendraient encore une large place, mais d’où ne
+            seraient pas exclus l’observation, l’humour et le sens de l’humanité.</p>
+          <p>En attendant que se réalise cette évolution salutaire, ou que le genre lui-même ne
+            périsse de sa propre décomposition, c’est affaire à la critique de protester de temps à
+            autre, pour la bonne police des lettres, contre la vénalité de certaines plumes et de
+            rendre responsables des mauvais ouvrages, qu’ils signent, ceux-là peut-être qui ne les
+            auront ni conçus ni exécutés, mais qui très complaisamment en perçoivent le salaire.</p>
+          <byline><docAuthor key="Loliée, Frédéric (1856-1915)">Frédéric Loliée</docAuthor>.</byline>
+        </div>
+      </div>
+      <div>
+        <pb n="19" xml:id="p19"/>
+        <head>L’état actuel du roman populaire (enquête)</head>
+        <dateline><docDate when="1899">1<hi rend="sup">er</hi> octobre 1899</docDate>.</dateline>
+        <div>
+          <head>[Paul Adam]</head>
+          <salute>Monsieur,</salute>
+          <p>Je regrette de ne pouvoir répondre à votre bien intéressante enquête, n’ayant point
+            d’opinion sur ce sujet, et étant plutôt porté à croire que le peuple aimera toujours les
+            élucubrations stupides, au moins pendant des temps encore.</p>
+          <byline><docAuthor key="Adam, Paul (1856-1916)">Paul Adam</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Maurice Barrès]</head>
+          <salute>Mon cher confrère</salute>
+          <p>Si vous donniez les <title>Misérables</title> ou la <title>Guerre et la Paix</title> au
+            grand public, il serait intéressé, ému et amélioré. (Ce mot a le tort d’ouvrir toute une
+            discussion ; on m’accordera, du moins, que momentanément le lecteur par de tels livres
+            est tiré de son ordinaire, ennobli.)</p>
+          <p>« Quoi ! me dites-vous, les petites ouvrières ! » — Oui, les petites filles du peuple
+            aimeraient Tolstoï comme Bernardin de Saint-Pierre, et tout ce qu’aiment nos sœurs.</p>
+          <p>— Alors, vous continuez, et vous me dites : « Quoi ! les terrassiers, les charretiers
+            ou autres aimeraient Hugo, Tolstoï ? »</p>
+          <p>Là-dessus, voici mon idée : il y a des hommes dans toutes les classes, qui n’ont pas le
+            goût de lire. Faut-il les admirer ou les mépriser ? Sont-ce des brutes ou des sages ?
+            C’est un autre problème. Mais il n’y a pas une littérature populaire et puis une
+            littérature aristocratique. Il y a les choses belles, vraies, instructives,
+            émouvantes.</p>
+          <p>Ce qu’il y a, c’est la misère.</p>
+          <p>Il ne s’agit pas de faire des romans pour le peuple, mais de donner des loisirs aux
+            travailleurs.</p>
+          <p>Je connais parmi le petit monde auquel on destine ces feuilletons idiots, des cerveaux
+            fermés et qui savent aborder les seules œuvres qui comptent, à savoir les
+            chefs-d’œuvre.</p>
+          <p>Hors les chefs-d’œuvre, il n’y a que de la saleté*</p>
+          <salute>Cordialement votre dévoué</salute>
+          <byline><docAuthor key="Barrès, Maurice (1862-1923)">Maurice Barrès</docAuthor></byline>
+          <postscript>
+            <p><hi rend="i">P.-S.</hi> — La littérature populaire ! ce n’est pas un problème
+              littéraire, mais économique. Supprimez la dégradation de la misère, donnez des loisirs
+              et vous aurez par milliers, dans le peuple des cerveaux bien supérieurs — parce qu’ils
+              ont l’expérience des réalités — aux plaisantins d’Institut.</p>
+          </postscript>
+        </div>
+        <div>
+          <pb n="20" xml:id="p20"/>
+          <head>[René Bazin]</head>
+          <salute>Monsieur,</salute>
+          <p>Personne ne saurait prophétiser le succès d’une tentative. Mais on peut le souhaiter,
+            le croire possible, et c’est mon cas. Il faudrait avoir du peuple une idée bien
+            méprisante pour le croire condamné à ne lire que des œuvres médiocres ou nulles. Le
+            grand art simple a prise sur les âmes simples. Je n’en veux pour preuve que celle-ci,
+            parmi beaucoup d’autres qu’on pourrait citer : l’intérêt, l’émotion, l’enthousiasme des
+            auditoires populaires devant lesquels M. Maurice Bouchor et ses amis ont entrepris de
+            lire les œuvres les plus connues de la littérature française.</p>
+          <p>Je l’ai dit ailleurs et, je le répète ici : nous demandons pour l’ouvrier du pain
+            blanc, une maison saine, des heures de repos ; nous nous intéressons à toutes les œuvres
+            qui peuvent relever sa condition matérielle : nous multiplions, d’autre part, les
+            écoles, les bibliothèques, les cours d’adultes, les conférences ; nous préparons de nos
+            mains l’avènement du quatrième état ; nous y travaillons par nos défauts aussi bien que
+            par nos efforts ; et je ne vois pas dès lors comment nous pourrions prétendre que le
+            peuple aura sa part de toute chose, sauf de littérature et d’art. Serait-ce
+            logique ?</p>
+          <salute>Veuillez agréer, Monsieur, l’expression de mes sentiments très distingués et
+            dévoués.</salute>
+          <byline><docAuthor key="Bazin, René (1853-1932)">René Bazin</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Henry Bérenger]</head>
+          <salute>Mon cher Confrère,</salute>
+          <p>Le premier point, pour guérir un mal, c’est d’avoir établi son diagnostic. Je crois que
+            nul psychologue n’aurait pu établir celui du roman-feuilleton avec une exactitude plus
+            incisive que la vôtre dans l’article que vous avez bien voulu m’adresser. Le mal est
+            nettement, spirituellement décrit par vous. Est-il guérissable ? et comment ? C’est ce
+            que vous me faites l’honneur de me demander, et sur quoi je vous envoie brièvement mon
+            opinion.</p>
+          <p>Il y a seulement deux cents ans, le peuple grattait la terre, <hi rend="i">servait</hi>
+            les trois ordres (tiers-état compris), et ne connaissait d’autre littérature que
+            quelques vagues complaintes patoises. Il y a cent ans, ce peuple, excité par le Tiers et
+            les philosophes, fit la Révolution Française, mais ne lisait guère. Son principal
+            roman-feuilleton fut les guerres de l’Empire : il eut fort à faire de l’écrire avec son
+            sang ; il n’eut point en tête d’autre romanesque.</p>
+          <p>Le peuple français n’a commencé de savoir lire et écrire que vers 1840 : j’ai dit
+            ailleurs pourquoi et comment<note resp="author" place="bottom">Voir <hi rend="i">la Conscience
+                Nationale</hi>, p. 233-234.</note>. Aussitôt il chercha une littérature à son image.
+            Ce fut l’époque des colporteurs, de Béranger, de Dumas père et d’Eugène Sue. Époque
+            épique, où <pb n="21" xml:id="p21"/>d’Artagnan, Rodin et Monte-Cristo furent des géants
+            naïfs, à la mesure d’une démocratie balbutiante !</p>
+          <p>Le Second Empire, émasculant toute littérature politique, religieuse et sociale,
+            — (qu’elle fût pour l’élite ou pour le peuple), — le second Empire précipita le
+            roman-feuilleton, dans les criminalités passionnelles et les imaginations épileptiques
+            où il agonise aujourd’hui. Là comme ailleurs, le Second Empire fut le grand corrupteur
+            de la Nation. Il dégrada les sensibilités populaires de la même façon qu’il avilit les
+            caractères bourgeois : en flattant leurs vices, en les gavant de bas plaisirs
+            narcotiques. Rouher avait remplacé Lamartine, et Belmontet Victor Hugo : c’était bien le
+            moins que Ponson du Terrail remplaçât Dumas père, et que Xavier de Montépin prit la
+            place d’Eugène Sue !</p>
+          <p>Vous savez mieux que moi, mon cher confrère, que sur presque tous les points la
+            Troisième République a continué, sinon aggravé le Second Empire. Changement d’étiquette
+            gouvernementale, mais non point changement de mœurs. Le roman-feuilleton, pas plus que
+            le fonctionnarisme ou les politiciens, ne s’est ennobli après le Quatre-Septembre.
+            Multiplié par la presse à un sou, il a continué, de concert avec les congrégations et
+            l’alcool, à déprimer, à vicier une démocratie que l’école primaire et les
+            « intellectuels » s’efforcent héroïquement, sinon avec succès, de relever, de purifier,
+            d’exalter. Et la presse quotidienne étant presque toujours aux mains de brasseurs
+            d’affaires, il en est résulté qu’aucun directeur de journal n’a osé, ni même désiré,
+            lutter contre le roman-feuilleton, pas plus qu’aucun politicien n’a osé, ni même désiré
+            lutter contre l’assommoir. Tant que les journaux populaires auront pour maîtres des
+            hommes d’argent sans autre moralité que celle de leurs dividendes, nous ne saurions
+            espérer une initiative éducatrice de leur part.</p>
+          <p>Il reste que nous avons à faire l’éducation du peuple en dehors des journaux
+            populaires, et même contre eux. Ce ne sont pas les journaux populaires qui amélioreront
+            le peuple : c’est le peuple qui améliorera les journaux populaires. Oui, le peuple
+            imposera un jour aux Marinoni et consorts la nécessité de leur fournir une littérature
+            non pas populaire, mais humaine.</p>
+          <p>Car il n’y a pas de littérature « populaire » : il y a une littérature <hi rend="i"
+              >humaine</hi>, qui est la littérature éternelle, c’est-à-dire la littérature des
+            chefs-d’œuvre.</p>
+          <p>Le problème n’est pas de « transformer » le roman-feuilleton, mais de le supprimer. Ou
+            plutôt le problème est de faire que les « feuilletons » de la démocratie soient les
+            épopées d’Homère, les tragédies de Shakespeare, les tragédies de Corneille, les romans
+            de Hugo, les poèmes de Lamartine !</p>
+          <p>Élever toute la masse à la hauteur de l’élite, faire de la foule l’auditoire des
+            génies, voilà la mission simple qui s’impose aux écrivains et aux hommes d’action
+            d’aujourd’hui. Pas de littérature <pb n="22" xml:id="p22"/>spéciale pour le peuple, mais
+            un peuple capable de comprendre la littérature universelle, telle doit être la formule
+            éducatrice de la démocratie.</p>
+          <p>Il n’y a pas plus de littérature pour le peuple qu’il n’y a de religion pour le peuple.
+            Il y a la littérature humaine et la religion humaine, qui sont les mêmes pour tous les
+            cœurs et pour tous les esprits. <hi rend="i">Faire arriver le peuple à l’HUMANITÉ</hi>,
+            tout est là. Nous en sommes loin !</p>
+          <p>Nos instituteurs et nos institutrices, du moins, s’y emploient, élite populaire dans le
+            peuple, et avec eux quelques intellectuels dont Édouard Petit et Maurice Bouchor sont
+            les modèles charmants et énergiques. Si tous ces éducateurs n’avaient à lutter que
+            contre le néant, ils réussiraient peut-être ; mais lutter contre Richebourg et Montépin,
+            aggravés par Rochefort et Judet, songez donc, mon cher confrère…</p>
+          <p>Souhaitons-leur pourtant de réussir ; car, le jour où ils auront réussi, le concours de
+            la <title>Revue des Revues</title> sera inutile. Le peuple ne voudra plus d’autres
+            feuilletonistes que les génies. Et alors, la <title>Revue des Revues</title>, comme la
+            Grèce antique, pourrait-elle se donner le luxe de couronner des génies ? En aurait-elle
+            même l’occasion ?…</p>
+          <salute>Bien cordialement vôtre, mon cher confrère.</salute>
+          <byline><docAuthor key="Bérenger, Henry Victor (1867-1952)">Henry
+            Bérenger</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Maurice Bouchor]</head>
+          <salute>Monsieur,</salute>
+          <p>Depuis que j’ai reçu votre lettre, j’ai été presque constamment absent de Paris, et je
+            n’ai pas eu le moindre loisir pour traiter sérieusement la question qui vous préoccupe à
+            juste titre. Veuillez m’excuser de réduire ma réponse à quelques généralités.</p>
+          <p>On ne se passera jamais de la littérature d’imagination, dont la forme la plus
+            habituelle est aujourd’hui le roman. Il est hors de doute que le roman-feuilleton exerce
+            une action néfaste, parce qu’il est outrageusement faux, et que sans la vérité (vérité
+            humaine dont ne doit pas être dépourvue la plus libre fantaisie poétique), il n’y a pas
+            d’enseignement, pas de morale, il n’y a rien, — même si le vice est puni et la vertu
+            récompensée à la fin. En outre, l’absence de pensée, de sérieux, de conscience dans
+            l’exécution, ne peuvent avoir qu’une très fâcheuse action sur les esprits, de plus en
+            plus déshabitués de tout effort salutaire. Et enfin il y a quelque chose de profondément
+            malsain dans cette curiosité pour le crime que l’on a cité à la fois par le roman ou par
+            les faits divers, outrageusement étalés dans les journaux.</p>
+          <p>D’autre part la littérature sérieuse, celle de l’école naturaliste, par exemple, du
+            grand Flaubert au puissant Zola et à ses successeurs, est d’une lecture trop difficile
+            pour la très grande majorité des lecteurs et on pourrait lui adresser bien des
+            critiques, quant à son <pb n="23" xml:id="p23"/>influence possible sur les mœurs et la
+            direction générale des esprits.</p>
+          <p>Il est donc très vivement à souhaiter qu’une orientation nouvelle soit donnée à notre
+            littérature d’imagination ; qu’elle ait le souci de la vérité, de la pensée, du style,
+            et en même temps qu’elle ne rebute pas le gros public par les recherches d’une
+            « écriture » compliquée à plaisir, par l’abus des descriptions, par l’amertume de son
+            pessimisme, par une dédicace aristocratique pour « la bêtise humaine », généreusement
+            prêtée à la totalité des hommes, exception faite des seuls littérateurs. Il faudrait
+            enfin que, dans le plus grand nombre des romans, le vice ne s’étalât point avec une
+            obsessive complaisance, de façon qu’on n’en fût pas réduit à composer une spéciale et
+            niaise littérature pour jeunes filles ; et que, dans les sujets où de graves questions
+            de mœurs doivent nécessairement être traitées, l’auteur entrât dans son sujet avec le
+            respect dû à sa propre dignité, à la délicatesse du lecteur même viril, et aux misères
+            morales de l’humanité, qui en souffre et qui a tant de peine à s’en délivrer.</p>
+          <p>Il est certain que l’initiative de la <title>Revue des Revues</title> sera bienfaisante
+            aux lecteurs, même si elle ne donnait pas de résultats immédiats. Il est toujours bon de
+            prendre conscience des nécessités qui s’imposent à nous.</p>
+          <p>Vous avez raison de penser que l’avenir des lectures est lié en grande partie à celui
+            de notre littérature, et réciproquement les lecteurs du peuple préparent leur public à
+            goûter une littérature saine et sérieuse, que produiraient des contemporains ; et il
+            faut d’autre part que les producteurs ne viennent pas sans cesse, par de plats
+            feuilletons ou de malpropres romans, détruire les résultats laborieusement acquis de la
+            lecture publique.</p>
+          <p>Je pense, comme vous, que le souci de la vérité sociale, dans les œuvres d’imagination,
+            s’impose avec force ; et, comme une littérature vivante ne peut être que l’expression de
+            la vie réelle, d’une société donnée, tout ce qui est d’intérêt social doit occuper une
+            grande place dans le roman contemporain, comme dans les préoccupations à la fois des
+            penseurs et de la grande masse des hommes d’aujourd’hui.</p>
+          <p>Je souhaite à l’initiative de la <title>Revue des Revues</title> le succès qu’elle
+            mérite et je suis persuadé qu’elle sera féconde, même, je le répète, si les apparences
+            n’en témoignent pas tout d’abord.</p>
+          <p>Mais le contact avec un vrai public, complet, humain, hommes et femmes, bourgeois et
+            peuple, est peut-être nécessaire à nos romanciers pour qu’ils fassent œuvre vraiment
+            populaire (au meilleur sens du mot) et sociale. Qu’ils recherchent donc nos lectures,
+            qu’ils y prennent part, qu’ils observent le public ; que, dans les universités
+            populaires qui vont être créées, ils entrent en communion plus intime avec une élite du
+            peuple. Ce n’est pas par vertu ou par raison qu’on créera une littérature nouvelle :
+            c’est spontanément, quand on se sera placé dans les conditions nécessaires pour cela.
+              <pb n="24" xml:id="p24"/>Nous sommes à la fin d’une chose très usée ; nous nous
+            rajeunirons en n’écrivant plus pour la bourgeoisie élégante, ou pour les portières, ou
+            les artistes, ou notre nombril, — mais vraiment et simplement pour le peuple,
+            c’est-à-dire pour tous.</p>
+          <salute>Bien à vous,</salute>
+          <byline><docAuthor key="Bouchor, Maurice (1855-1929)">Maurice Bouchor</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Adolphe Brisson]</head>
+          <salute>Mon cher Confrère,</salute>
+          <p>Assurément, il serait à désirer que le niveau de ce qu’on appelle communément le
+            « roman-feuilleton » se relevât… Par malheur je ne vois pas trop les moyens qui
+            pourraient le conduire à se réhabiliter dans l’estime des honnêtes gens. Le
+            roman-feuilleton, destiné à paraître chaque matin par tranches menues, doit être avant
+            tout un roman d’action. Je veux dire que les péripéties y doivent tenir plus de place
+            que l’analyse et la description. Il faut qu’il soit rapide, sous peine de lasser la
+            curiosité du lecteur. Or, ces nécessités le réduisent à revêtir deux ou trois formes,
+            depuis longtemps établies.</p>
+          <p>C’est le roman de cape et d’épée (Alex. Dumas, Paul Féval).</p>
+          <p>C’est le roman judiciaire ou policier (Gaboriau, Ponson du Terrail, Eug. Sue).</p>
+          <p>C’est le roman optimiste, romanesque et sentimental (Georges Ohnet, Émile Richebourg,
+            X. de Montépin).</p>
+          <p>Je ne crois pas qu’il soit aisé de trouver, en dehors de ces voies, des voies nouvelles
+            pour arriver à conquérir le vaste public auquel s’adressent les journaux populaires. Si
+            vous voulez serrer la vie de trop près, vous devenez, selon votre tempérament, ou
+            brutal, ou mélancolique, ou ironique, ou amer. Si vous vous piquez de psychologie vous
+            vous laissez entraîner à des développements excessifs. Si vous voulez réformer les mœurs
+            par d’éloquents discours et des déclarations vengeresses, vous tournez au prédicateur.
+            Et infailliblement vous rebutez les hommes et les femmes de culture moyenne (ajoutez-y
+            les trottins et les mitrons) qui ne cherchent eu rez-de-chaussée des gazettes qu’un
+            amusement frivole et un délassement aux soucis de chaque jour. N’oublions pas qu’il y a,
+            dans toute créature humaine, un enfant qui aime les Contes bleus. Que ces Contes soient
+            écrits le mieux possible, que la morale et la décence n’y soient pas trop offensées :
+            voilà ce qu’il nous est permis de souhaiter. Et certainement ces avantages, ou du moins
+            le dernier, seraient assurés, si l’État qui, dans quelque mesure, a charge d’âme,
+            imposait un frein à la licence de la presse et ne tolérait pas la libre circulation, à
+            bas prix, de récits et de romans orduriers qui sont de nature à dépraver la
+            jeunesse.</p>
+          <p>Et maintenant, mon cher Confrère, j’estime que, en cette matière, les théories sont
+            sans valeur et que, seul, l’effort individuel peut être efficace. Le roman-feuilleton ne
+            sera régénéré que par un <pb n="25" xml:id="p25"/>écrivain de génie. Je souhaite que le
+            concours de la <title>Revue des Revues</title> nous révèle ce phénix.</p>
+          <salute>Cordialement à vous.</salute>
+          <byline><docAuthor key="Brisson, Adolphe (1860-1925)">Adolphe Brisson</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Jules Case]</head>
+          <p>Le succès du concours ouvert par la <title>Revue des Revues</title> me semble assuré
+            d’avance. L’idée est excellente de faire appel aux jeunes gens et de diriger leurs
+            ambitions vers la littérature populaire. Tout le monde y gagnera. La grande masse des
+            lecteurs de feuilletons lit probablement peu de livres. Elle est donc fort mal
+            renseignée sur la production de librairie et il doit exister dans son esprit un certain
+            étonnement. Dans le corps du journal sont présentés et discutés les faits du jour, de
+            politique, de sociologie, de morale, etc., suivant telle ou telle conception générale en
+            rapport avec l’état de l’âme contemporaine, et dans le feuilleton du rez-de-chaussée se
+            perpétuent des traditions romanesques qui ne correspondent à rien. Quelque équilibre est
+            à souhaiter. On vulgarise la science, on vulgarise l’histoire, on doit également
+            vulgariser la littérature, c’est-à-dire répandre dans les foules les idées maîtresses
+            dont s’éclairent quelques livres d’élite peu accessibles au peuple. D’autre part,
+            l’auteur, comprenant sa tâche qui est de se mettre à la portée de tous, de plaire,
+            d’entraîner les imaginations, de cultiver la curiosité, s’ingéniera à retrouver les
+            qualités que nous sommes en train de perdre et qui sont celles du conteur alerte,
+            inventif, de parler clair et d’humeur facile. Cette œuvre nouvelle à entreprendre est
+            saine. Elle intéressera et réjouira le lecteur, elle sauvera peut-être l’auteur occupé
+            de l’obscénité ou de l’ironie dilettante et stérile où se fourvoient de nombreux talents
+            sans emploi. Enfin, et en tout cas, quelle meilleure application de la morale que
+            d’exiger de l’ouvrier de lettres qu’il fasse de son mieux et que l’œuvre qu’il nous
+            livre soit vraiment de sa façon, et non le témoin d’une escroquerie ?</p>
+          <byline><docAuthor key="Case, Jules (1856-1929)">Jules Case</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Jules Claretie]</head>
+          <p>Votre remarquable article, Monsieur et cher confrère, et votre idée surtout me
+            paraissent excellents. La presse populaire est un tel véhicule de renseignements qu’elle
+            s’honorerait en donnant place au feuilleton moralisateur, à quelque Tolstoï du roman à
+            un sou, épris, comme vous le souhaitez, de vérité sociale. Vous ne ferez jamais que le
+            peuple n’aille au gros pain qui satisfait son appétit, mais si vous pouvez provoquer un
+            mouvement en faveur du roman populaire, parlant au peuple une langue généreuse et forte,
+            vous aurez rendu un grand service à tout le monde, aux écrivains et à leurs lecteurs. Je
+            crois fermement que Mgr Myriel et Jean Valjean présentés à la masse l’intéresseraient
+            aussi fortement <pb n="26" xml:id="p26"/>(et de façon supérieure) que les aventures
+            débitées par les fabricants dont vous parlez. Notez, pourtant, qu’il se trouve parmi eux
+            des conteurs aussi soucieux que vous-même de l’âme des foules.</p>
+          <salute>À vous très sincèrement.</salute>
+          <byline><docAuthor key="Claretie, Jules (1840-1913)">Jules Claretie</docAuthor>, <lb/>De l’Académie française.</byline>
+        </div>
+        <div>
+          <head>[Lucien Descaves]</head>
+          <p>Je voyais l’autre jour, aux murs d’un préau d’école, des images effroyables destinées à
+            inspirer aux enfants l’horreur de l’ivrognerie.</p>
+          <p>L’une de ces planches surtout terrifie.</p>
+          <p>Elle représente un individu chez qui l’intelligence et la santé résident, et le même
+            individu flétri et déprimé par l’abus des alcools. Afin, d’ailleurs, qu’aucun doute ne
+            subsiste à cet égard, un autre tableau comparatif montre les organes de ce malheureux,
+            sains d’abord, corrodés ensuite par d’implacables poisons.</p>
+          <p>Et je regrettai, en regardant cela, qu’il ne fût pas possible d’étendre ces
+            investigations au cerveau des personnes adonnées à la lecture des feuilletons
+            populaires. Sans doute on y constaterait des ravages analogues à ceux causés par
+            d’infâmes trois-six.</p>
+          <p>C’est aux gens, me disais-je aussi, qu’il faudrait inculquer d’abord le dégoût de ces
+            consommations frelatées, de ces apéritifs quotidiens. Et pour atteindre ce but, tout est
+            bon, depuis les lectures populaires de Bouchor, jusqu’au concours ouvert par la
+              <title>Revue des Revues</title>.</p>
+          <p>Bouchor… Je vois justement son nom parmi les membres de votre comité de lecture. C’est
+            un choix excellent, aux yeux de quiconque sait le beau résultat de ces lectures
+            populaires, que j’invoquais et auxquelles il s’est dévoué.</p>
+          <p>Et je me demande même s’il n’y aurait pas là l’indication d’une action parallèle utile
+            et profitable.</p>
+          <p>Je veux dire que Bouchor et ses collaborateurs pourraient, à chacune de leurs séances
+            mensuelles, lire un court fragment de n’importe quel feuilleton populaire en cours de
+            publication, et le couvrir de ridicule et d’opprobre en lisant ensuite, par contraste,
+            les pages des maîtres dont ils ont entrepris la diffusion dans le peuple.</p>
+          <byline><docAuthor key="Descaves, Lucien (1861-1949)">Lucien Descaves</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Auguste Dorchain]</head>
+          <salute>Mon cher confrère,</salute>
+          <p>J’attendais depuis longtemps qu’un littérateur de talent et décourage, après une
+            information précise et par un indéniable exposé des faits, vînt révéler au public les
+            malpropres dessous de la littérature à l’usage du peuple. Que ce lettré vaillant ce soit
+            vous, je ne m’en étonne point, ni que ce soit la <title>Revue des Revues</title>,
+            coutumière de ces <pb n="27" xml:id="p27"/>actes de justice, qui vous donne des pages à
+            remplir pour cette exécution nécessaire.</p>
+          <p><quote>« <hi rend="i">Ôtons l’ombre à l’intrigue et le masque aux
+              fripons</hi> ! »</quote> comme dit Ruy Blas.</p>
+          <p>Des pseudo-feuilletonistes, qui ne connaissent même pas le sujet du feuilleton au bas
+            duquel ils mettent leur signature, mais qui en tirent profit comme de leur bien propre,
+            après avoir donné une bouchée de pain aux pauvres diables dont ils ont exploité la
+            plume, vous passerez sans doute quelque jour aux auteurs dramatiques par procuration, à
+            ceux qui, sans avoir écrit une seule réplique de la pièce, imposent leur nom sur
+            l’affiche et touchent les droits d’auteur, quitte à en rendre une partie, la plus petite
+            possible, à l’auteur véritable et une autre, plus forte, au directeur dont la complicité
+            leur permet cette friponnerie. Alors, vous rencontrerez probablement, parmi ces beaux
+            messieurs, quelques-uns des entrepreneurs de romans dont à présent vous vous occupez :
+            quand on est doué d’une certaine absence de scrupules, c’est bien le moins qu’on s’en
+            fasse des rentes de plusieurs manières.</p>
+          <p>De pareilles combinaisons il ne peut résulter que des œuvres infâmes ou informes. Mais
+            si le peuple s’en contente, je ne crois aucunement qu’il y tienne et qu’il soit
+            incapable de trouver plaisir à des œuvres plus nobles et plus littéraires. Certes, on ne
+            peut espérer que la petite ouvrière, le matin, dans l’omnibus, se passionne pour un
+            roman de minutieuse analyse ou d’observation aiguë ; mais toute la littérature n’est pas
+            là, Dieu merci ! et celle qui, dans tous les siècles, a profondément agi sur les âmes,
+            est même presque tout entière hors de ces livres de cabinet. Le peuple veut des livres
+            d’action et d’héroïsme, ou d’espérance et de pitié. Les bâcleurs de romans le savent
+            bien et lui donnent, de ces choses, l’apparence et la parodie ; mais s’il y trouvait
+            vraiment la poésie de l’aventure et la générosité de l’optimisme, il n’y reconnaîtrait
+            que mieux son âme. Aucun roman n’a été plus lu par le peuple que <title>David
+              Copperfield</title>, en Angleterre ; que les <title>Trois Mousquetaires</title> ou les
+              <title>Misérables</title>, chez nous. Or, dans ces livres, qu’est-ce que Dickens,
+            sinon un Richebourg supérieur ? que Dumas, sinon un Ponson du Terrail de génie ? que
+            Victor Hugo, sinon un Gaboriau sublime ?</p>
+          <p><quote>« Si l’on ouvre mon cœur à ma mort, écrivait Michelet en 1869, on lira l’idée
+              qui m’a suivi : “Comment viendront les livres populaires ?” »</quote> Le grand
+            historien convenait que trois choses y sont requises, qui vont bien peu ensemble :
+              <quote>« Le génie et le charme ; un tact d’expérience, très fin, très sûr, et enfin
+              (quelle contradiction !) la divine innocence, l’enfantine sublimité, qu’on entrevoit
+              parfois dans certaines jeunes créatures, mais pour un court moment, comme un éclair du
+              ciel. »</quote> C’est un idéal qu’on ne peut espérer d’atteindre, mais qu’il serait
+            bon d’avoir sous les yeux, quand on écrit pour la foule.</p>
+          <p>Je crois qu’on peut attendre beaucoup de bien du concours si <pb n="28" xml:id="p28"
+            />généreusement ouvert par la <title>Revue des Revues</title>, et que les œuvres jugées
+            les meilleures par son jury de romanciers et de philosophes seront précisément celles
+            qui révéleront chez leurs auteurs quelques-unes des vertus que Michelet réclame de
+            l’écrivain populaire digne de ce nom.</p>
+          <p>En attendant, vous avez disqualifié ceux qui usurpent ce beau titre ; soyez-en loué et
+            remercié, pour le Peuple et pour les Lettres.</p>
+          <salute>Confraternelle affection de votre</salute>
+          <byline><docAuthor key="Dorchain, Auguste (1857-1930)">Auguste Dorchain</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[M.-L. Gagneur]</head>
+          <salute>Mon cher confrère,</salute>
+          <p>Assurément votre campagne contre le roman-feuilleton a sa raison d’être. Pour les
+            cerveaux naïfs, exaltés ou mal équilibrés, ces aventures abracadabrantes, ces situations
+            impossibles, ces crimes atroces ne sont pas sans danger. La chronique des tribunaux nous
+            montre assez fréquemment de jeunes criminels dont la cervelle a été farcie de ces
+            lectures malsaines et en tout cas antilittéraires. Mais il est d’autres romanciers
+            populaires, qui se proposent un but élevé, moralisateur, social et littéraire, prouvant
+            une observation exacte de la vie.</p>
+          <p>Ceux-là adoptent une thèse et la développent logiquement avec des personnages vus et
+            des situations de tous les jours, « comme dans la vie ». Le drame doit se produire
+            naturellement par le choc des caractères et des passions et non par des événements de
+            pure imagination, plus ou moins invraisemblables et qui, par cela même, n’ont aucune
+            portée, aucune valeur. J’ajoute que pour le succès de la publication des feuilletons, on
+            doit éviter les longueurs : rien d’inutile ; de la mise en scène, et comme dans les
+            pièces de théâtre, marcher toujours vers le but, car dans les romans aussi bien que dans
+            les pièces de théâtre ayant une portée morale ou sociale, le but ou dénouement doit
+            toujours être la synthèse, la preuve de l’idée qui l’inspire. Vieux jeu, direz-vous ;
+            mais on y revient à ce vieux jeu et la preuve c’est que le livre comme le théâtre se
+            meurent du nouveau jeu.</p>
+          <byline><docAuthor key="Gagneur, Marie-Louise (1832-1902)">M. L. Gagneur</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Léon Hennique]</head>
+          <salute>Monsieur,</salute>
+          <p>J’approuve la <title>Revue des Revues</title>, et, avec elle, avec vous, derrière votre
+            article : <title>Les Fabricants de Littérature populaire</title>, article net, article
+            brave, je crois aussi qu’il y a tout à essayer, tout, dans l’espoir d’arriver à un
+            résultat effectif.</p>
+          <p>Ouvrir un concours, obtenir des contes, des nouvelles, des œuvres de longue haleine,
+            qui, en restant simples d’expression, en gardant à l’aventure aimée de la foule une
+            place prédominante, seront <pb n="29" xml:id="p29"/>moins indignes de nos lettres
+            françaises, me paraît donc chose utile, chose noble, chose moralisatrice.</p>
+          <p>C’est acheminer vers du mieux, vers du propre… C’est rendre hommage aux magnifiques
+            tentatives des Erckmann-Chatrian… C’est rechercher une fois de plus un antidote contre
+            la stupidité pleurnicharde, les grossières histoires de crimes, au moyen desquelles,
+            sous pavillon fallacieux, de bas, de tristes négriers, de louches écumeurs abêtissent
+            les uns et sillonnent implacablement le crâne des autres.</p>
+          <salute>Veuillez, Monsieur, agréer l’assurance de ma sympathie la meilleure.</salute>
+          <byline><docAuthor key="Hennique, Léon (1851-1935)">Léon Hennique</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Daniel Lesueur]</head>
+          <salute>Mon cher confrère,</salute>
+          <p>Vous me demandez mon opinion sur ce fameux problème du roman-feuilleton, qui nous
+            occupe.</p>
+          <p>Il n’est pas facile à résoudre, et je n’en ai pas la prétention.</p>
+          <p>Ayant, comme beaucoup de mes confrères, été sollicitée d’essayer ce genre, avec la
+            fallacieuse perspective de le <hi rend="i">rénover</hi>, j’ai dû renoncer, avant
+            l’achèvement de la première tentative — non seulement à toute « rénovation », mais au
+            mirage doré qu’un aimable directeur de grand journal quotidien voulait bien faire
+            miroiter à mes yeux.</p>
+          <p>Ma bonne volonté était hors de doute : c’était le génie qui me manquait. Je ne
+            plaisante pas : <hi rend="i">le génie</hi>.</p>
+          <p>Pour accomplir l’œuvre rêvée : un roman conforme, si peu que ce soit, à un certain
+            idéal d’art, de logique, de psychologie, et de bonne influence morale et sociale, en
+            même temps que tout à fait compréhensible et captivant pour un public illettré, il
+            fallait un immense génie.</p>
+          <p>Pour s’en rapprocher seulement, il fallait être l’Alexandre Dumas des <title>Trois
+              Mousquetaires</title>, le Victor Hugo des <title>Misérables</title>, l’Eugène Sue des
+              <title>Mystères de Paris</title>.</p>
+          <p>Et j’aurais souhaité mieux : songez donc ! ! !…</p>
+          <p>À cette époque, peu éloignée d’ailleurs, je regardais avec des sentiments d’intense
+            curiosité le cocher de fiacre lisant le <title>Petit Journal</title> sur son siège, ou
+            le trottin dévorant le feuilleton du <title>Petit Parisien</title> en croquant un petit
+            pain d’un sou.</p>
+          <p>Comment intéresser ce cocher de fiacre et ce trottin avec des pensées et des phrases
+            que je pourrais avouer, que je ne serais pas obligée — subterfuge qui ne me satisfaisait
+            pas — de signer d’un autre nom que mes essais ordinaires, où je mets toute ma conscience
+            à défaut de talent ?</p>
+          <p>Sincèrement le problème me passionnait. Hélas !… je ne l’ai pas résolu.</p>
+          <p><pb n="30" xml:id="p30"/>Comment voulez-vous, mon cher Confrère, que je vous apporte
+            quelque lumière sur ce point ?</p>
+          <p>La réflexion définitive que tout ceci m’a suggérée, c’est que, pour se mettre à la
+            portée de la foule, il faut être ou sublime, comme elle est quelquefois, ou bas et
+            vulgaire, comme elle est presque toujours.</p>
+          <p>Il n’y a pas de milieu, parce qu’elle-même n’en a pas.</p>
+          <p>Si on ne peut pas l’enlever en plein ciel — où elle nous suivra mûrement — il faut
+            consentir à ramper à terre avec elle.</p>
+          <p>L’écrivain qui veut la toucher n’a pas le choix : il doit être divin ou ignoble. C’est
+            pour ça que les directeurs payent les romans-feuilletons si cher : car, s’il n’est pas
+            facile d’avoir des ailes, on ne se résout pas non plus volontiers à patauger dans la
+            boue.</p>
+          <p>Si le concours de la <title>Revue des Revues</title> nous révélait un moyen terme, j’en
+            serais aussi enchantée qu’étonnée.</p>
+          <byline><docAuthor key="Lesueur, Daniel (1860-1920)">Daniel Lesueur</docAuthor>.</byline>
+        </div>
+        <div>
+          <head>[Georges Montorgueil]</head>
+          <salute>Mon cher confrère,</salute>
+          <p>Je ne lis plus en feuilleton que la vie. C’est le seul roman dont je subisse l’anxieux
+            mystère de « la suite à demain ». Sans mépris, je ne fréquente pas un rez-de-chaussée de
+            nos quotidiens. Mais je sais des gens, autour de moi, qui volontiers s’y attardent. Je
+            recueille leurs doléances. Ils se plaignent le plus souvent d’y trouver une fâcheuse
+            compagnie et peu d’intérêt.</p>
+          <p>Plus jeune, très jeune quand l’insouciance de la tâche me faisait des loisirs, dans ce
+            monde ouvrier où mon enfance s’écoula, j’ai lu les feuilletons passionnément ; les miens
+            ne leur étaient pas moins fidèles. Nous prenions ce brouet intellectuel comme on nous le
+            servait. Il y avait de tout un peu, même du talent, parfois du génie.</p>
+          <p>J’ai lu ainsi Erckmann-Chatrian, Eugène Sue, Dumas le père, Victor Hugo. J’ai lu aussi
+            d’autres écrivains ; ma mémoire n’a retenu ni leurs noms ni leurs œuvres. Le médiocre,
+            en ce genre, ne portant point de profit, nulle trace n’en demeure, impressionnant le
+            champ du souvenir.</p>
+          <p>Est-il, dès lors, hasardeux de conclure que si un bon roman peut n’être pas bon pour
+            tous les lecteurs — d’aucuns étant mal préparés à digérer certains mets trop
+            substantiels, — un mauvais roman est toujours, et pour tous, mauvais ? Mais son
+            influence, par cela même qu’il est mauvais, n’est point nocive : elle est nulle. Les
+            seuls romans qui puissent corrompre sont ceux dont la lecture perfide est un attrait ;
+            mais c’est là un danger, m’affirme-t-on, assez rare. Rassurez donc vos amis, mon cher
+            confrère, s’ils sont inquiets : il n’y a à craindre, en littérature les effets du
+            romanesque, qu’où il y a du talent. Les journaux se plaisent à en faire souvent la
+            preuve — par l’absurde.</p>
+          <byline><docAuthor key="Montorgueil, Georges (1857-1934)"
+            >G. Montorgueil</docAuthor>.</byline>
+        </div>
+        <div>
+          <pb n="31" xml:id="p31"/>
+          <head>[J.-H. Rosny]</head>
+          <salute>Cher confrère,</salute>
+          <p>Votre article est excellent. Il vient à son heure. Eh oui, il est tout à fait
+            intéressant de s’occuper de la littérature populaire. À la laisser aux mains des purs
+            faiseurs, nous avilissons le terreau humain d’où, cependant, doit sortir l’élite. La
+            besogne est bienfaisante d’assainir ces bas-fonds, au même titre que d’assainir par
+            l’hygiène les quartiers pauvres d’une grande ville : leur senteur se répand et atteint,
+            au bout du compte, les heureux… Nous croyons que ceux d’entre nous qui consacrent leurs
+            loisirs à produire quelque travail pour rénover le roman-feuilleton, et surtout pour
+            l’assainir, méritent et la reconnaissance du public et celle des lettrés.</p>
+          <byline>
+            <docAuthor key="Rosny, J.-H (1859-1948)">J. H. Rosny</docAuthor>.
+          </byline>
+        </div>
+        <div>
+          <head>[Gabriel Séailles]</head>
+          <salute>Monsieur,</salute>
+          <p>La gravité du problème que vous posez me fait un devoir de vous répondre : les
+            destinées de la démocratie sont liées à l’éducation du peuple. Comme les meilleurs
+            esprits se préoccupaient jadis de « l’institution » du prince, nous devons travailler à
+            nous donner un souverain raisonnable. Nous avons multiplié les écoles, diminué le nombre
+            des illettrés ; mais nous n’avons pas songé à ce que lirait le peuple, quand il saurait
+            lire. Nous avons été au plus pressé ; nous commençons à nous apercevoir que nous ne
+            sommes qu’au début d’une tâche qui ne sera jamais achevée. Il est dans notre destinée de
+            ne réaliser un bien que pour nous créer des devoirs nouveaux et plus difficiles.</p>
+          <p>L’inertie du roman-feuilleton vous inquiète ; vous vous indignez de la camelote que
+            certains industriels ne se lassent pas de fabriquer à l’usage du peuple : toujours le
+            même procédé, la perpétuelle redite de la même histoire, l’abondance et l’uniformité
+            dans la sottise.</p>
+          <p>Mais ne pensez-vous pas que la ligne horizontale, qui sépare le roman-feuilleton du
+            reste du journal, est une pure fiction, qu’à dire vrai il remonte dans les colonnes, que
+            sous des formes diverses il les envahit, les occupe tout entières. Et d’abord qu’est-ce
+            donc que le fait divers ? Sinon un feuilleton en raccourci, le canevas que celui-ci
+            développe, la matière qu’il étire, tous les méfaits, tous les vols, tous les attentats
+            dont il pare ses héros préférés. Lorsqu’un beau crime se commet, c’est jour de liesse :
+            on l’annonce en gros caractères, on multiplie les détails, on donne le plan des lieux,
+            on conte les habiletés et les ruses de l’assassin, on avertit ceux qui seraient tentés
+            de l’imiter des négligences qui l’ont fait prendre. Pour ne rien laisser perdre de
+            l’intérêt de ce drame réel, dans le supplément du dimanche, des images en couleurs
+            exagèrent l’atrocité de la <pb n="32" xml:id="p32"/>scène, les convulsions de la
+            victime, le geste de l’égorgeur. Les criminalistes et les sociologues vous diront le
+            danger de ces récits et de ces exhibitions. Dans cinquante ans, dans cent ans peut-être,
+            si le remède sort de l’excès du mal, — c’est ainsi le plus souvent que le progrès
+            s’accomplit, — comme il y a des ordonnances de police qui règlent l’enlèvement des
+            ordures et protègent l’homme contre l’empoisonnement par ses propres déchets et
+            excréments, défense sera faite sous peine d’amende d’ouvrir et de déverser au cœur de la
+            cité le grand égout collecteur de l’ordure morale humaine. L’homme s’empoisonne
+            moralement comme physiquement par ce qu’il sue, crache et rejette d’ignoble : le goût
+            est singulier de le ramasser pour s’en nourrir et les autres.</p>
+          <p>Lisez maintenant, si vous en avez le courage, les premiers articles, ceux qui traitent
+            des plus grands intérêts du pays, des affaires intérieures, des relations avec
+            l’étranger. Le strict devoir de l’écrivain serait de se considérer ici comme un
+            éducateur. Il devrait se surveiller lui-même, s’imposer de bonnes habitudes d’esprit,
+            une scrupuleuse attention à ne pas violer les règles élémentaires de la logique ; il
+            devrait s’interdire le mensonge et la calomnie, présenter ses idées avec clarté, exercer
+            par des discussions lucides et simples le jugement de ses lecteurs, à tout le moins
+            rester fidèle aux grands principes qu’a consacrés la tradition morale de l’humanité, ne
+            jamais glorifier la violation des lois, le faux, l’assassinat.</p>
+          <p>J’honore ceux qui se soumettent à cette discipline sévère, mais combien préfèrent les
+            procédés simplistes du roman-feuilleton ! Les questions ont des aspects multiples ; les
+            intérêts sont complexes, d’un peuple à l’autre, dans un même peuple, souvent ils
+            s’opposent, le plus sage serait de comprendre les raisons de ses adversaires, de faire
+            valoir les siennes, de ne pas crier d’abord à tue-tête pour avoir quelque chance de
+            l’entendre. Mais ceux qui ont appris la vie dans le roman-feuilleton savent que les
+            peuples, comme les individus, se divisent en bons et en méchants, en héros et en
+            scélérats. La discussion devient superflue, on ne discute pas avec la mauvaise foi ;
+            l’injure suffit : bref, une politique étrangère de blouses blanches et de
+            va-t-en-guerre, l’insulte contre de grandes nations rabaissées de parti pris, des
+            rodomontades, des provocations, des défis, qu’on serait le plus souvent bien fâché de
+            voir relevés. Le malheur est qu’au dehors on exploite contre nous ces sottises et ces
+            violences, qu’on affecte d’y voir l’expression de l’opinion publique française.</p>
+          <p>Dans la politique intérieure, même triomphe du roman-feuilleton : l’outrage et la
+            calomnie ; d’un côté, le rédacteur, qui est la loyauté, la franchise, la nation même et
+            l’âme de la patrie ; de l’autre, tous ceux qui ne pensent pas comme lui, les traîtres,
+            des gens qui trament dans l’ombre les plus noirs complots, et auxquels, fussent-ils
+            d’ailleurs les meilleurs serviteurs du pays, par tous les moyens, contre les lois,
+            contre tout droit, il faut imposer silence. À la libre discussion, qui veut le respect
+            de la raison en soi-même et dans les <pb n="33" xml:id="p33"/>autres, qui demande au
+            lecteur un effort, on préfère ces hallucinations de mélodrame qui amusent la curiosité
+            et flattent les préjugés et les passions. Les gens qui se font des rentes à pervertir
+            ainsi la conscience et le jugement du peuple, nous donnent des leçons de patriotisme.
+            Quelques pornographes disputent avec eux le privilège spécial d’être la conscience de la
+            patrie française.</p>
+          <p>N’y a-t-il pas quelque naïveté dès lors à s’étonner qu’on trouve au rez-de-chaussée du
+            journal ce qui remplit le journal tout entier. Le roman-feuilleton avec sa niaiserie,
+            son simplisme, sa violence et sa platitude, est partout ; il est dans les faits divers,
+            il est dans les articles sur la politique étrangère, sur la politique intérieure. Le
+            fournisseur qui fabrique et livre le roman populaire, traite la fiction, comme les
+            autres rédacteurs font la réalité. Il ne se met pas en frais de raison ni d’imagination,
+            il se joue de toute vraisemblance, il oppose les victimes innocentes et les traîtres, il
+            amuse la curiosité bête, il flatte tout à la fois la sensiblerie et le goût de
+            l’horrible, il sert indéfiniment son « mêlé » de fadasse et d’alcool.</p>
+          <p>C’est quelque chose de prendre conscience d’un mal dont on souffre, mais à la condition
+            que cette conscience suscite l’effort pour l’en guérir. Le problème est ici
+            particulièrement difficile : si l’on écrit des romans-feuilletons, c’est sans doute
+            qu’il y a des gens pour les lire ; nous tournons dans un cercle : il faudrait changer la
+            littérature pour changer le public, mais pour changer la littérature il faudrait avoir
+            changé le public auquel elle s’adresse. Peut-être la question posée est-elle plus vaste
+            que nous ne l’imaginons. Depuis quelques siècles notre littérature a un caractère
+            aristocratique : elle meurt aujourd’hui d’inanition dans les salons et les boudoirs,
+            elle épuise enfin les combinaisons multipliées à l’infini des trois termes de l’adultère
+            élégant. Pour se régénérer, il faut que la littérature devienne nationale et populaire.
+            Le concours que vous ouvrez, comme tous les concours de ce genre, ne produira sans doute
+            rien que d’artificiel. Les œuvres d’art ne se font pas sur commande : elles naissent,
+            comme les vivants, du milieu moral qui les rend possibles. Pour que nous ayons une
+            littérature nationale, il faut que par le rapprochement de nos classes trop divisées,
+            trop éloignées les unes des autres, se reconstitue une nation qui ait une âme à
+            exprimer. Le problème n’est ni plus ni moins que ce problème redoutable : la démocratie
+            deviendra-t-elle une réalité par l’existence d’un peuple vraiment libre qui élève ses
+            propres besoins en élevant son intelligence et sa volonté ? Je suis de ceux qui
+            l’espèrent.</p>
+          <byline><docAuthor key="Séailles, Gabriel (1852-1923)">Gabriel Séailles</docAuthor>.</byline>
+        </div>
+      </div>
+      <div>
+        <pb n="399" xml:id="p399"/>
+        <head>Encore les industriels du roman populaire</head>
+        <dateline><docDate when="1899">15 octobre 1899</docDate>.</dateline>
+        <div>
+          <head>[Note de la Rédaction]</head>
+        <p>L’étude de M. Fr. Loliée sur <title>Les industriels du roman
+            populaire</title> de même que l’enquête à laquelle ont bien voulu prendre part plusieurs
+          de nos écrivains et critiques des plus éminents ont causé une émotion profonde en France
+          et à l’étranger. Accueillie partout avec sympathie, l’initiative prise par la <title>Revue
+            des Revues</title> est en train de trouver de nombreux imitateurs. En Italie, en
+          Allemagne, en Russie et même en Angleterre viennent de paraître des études et articles qui
+          à l’instar de ceux de la <title>Revue</title>, dénoncent le danger et lui opposent
+          vaillamment des antidotes. On rend de la sorte non seulement hommage à la gravité de la
+          question soulevée par nous, mais aussi à son opportunité. On reconnaît en outre que le
+          poison n’est point exclusif à la France. Tous les pays civilisés souffrent aujourd’hui de
+          ce mal spécial ignoré de nos ancêtres : le mal du roman populaire.</p>
+        <p>Nos lecteurs ont paru surtout frappés de l’étendue et de l’importance de la cause
+          défendue dans nos colonnes. Leur sympathie s’est manifestée à cette occasion sous forme de
+          nombreuses lettres d’encouragement et de critiques cinglantes des feuilletons populaires.
+          Nous en remercions d’autant plus nos correspondants et amis que les matériaux qu’ils nous
+          ont fournis serviront à alimenter la campagne qui n’est qu’à ses débuts. Nous croyons
+          cependant utile de publier d’ores et déjà deux lettres dont une nous offre une solution
+          ingénieuse et l’autre dévoile un procédé moins connu de certains « industriels » qui n’en
+          est pas pour cela moins criminel. Nous publions en outre la lettre de M. Pierre Sales qui,
+          se croyant injustement visé dans un des passages de l’article de M. Loliée, a cru devoir
+          faire appel à l’impartialité de la <title>Revue</title>.</p>
+          <byline><docAuthor key="Revue des revues">(Note de la Rédaction)</docAuthor>.</byline>
+      </div>
+        <div>
+          <head>Les Guides-Catalogues pour le peuple [Chachuat]</head>
+          <label type="head"><hi rend="i">À Monsieur le Directeur de la «</hi>  Revue des Revues
+             ». </label>
+          <salute>Monsieur,</salute>
+          <p>Je ne suis qu’un pauvre petit instituteur de campagne, ayant pour principal souci
+            l’éducation et l’instruction d’un groupe d’enfants du peuple au milieu desquels je me
+            sens heureux. Le devoir professionnel compliqué du service de la mairie absorbent à peu
+            près tous mes loisirs et m’enlèvent la possibilité de suivre de près les progrès
+            scientifiques ou littéraires de notre époque. Ils ne peuvent cependant m’enlever le goût
+            de la bonne et saine littérature, et chaque soir je prends sur mes nuits une heure ou
+            deux pour lire quelques pages de la <title>Revue des Revues</title> ou à son défaut
+            quelque ouvrage sérieux. C’est le meilleur moment de ma vie ou plutôt c’est le seul
+            instant où je vive réellement, où je m’appartiens…</p>
+          <p>Le concours ouvert par la Revue me suggère une idée que je prends <pb n="400"
+              xml:id="p400"/>la liberté de vous soumettre dans l’espoir qu’en la tournant et
+            retournant, en la faisant vôtre, vous pourrez en tirer quelque utilité pour l’éducation
+            populaire. La voici. La principale cause des succès du roman-feuilleton est sans doute
+            la facilité avec laquelle il arrive entre les mains du lecteur ; c’est aussi son bon
+            marché ; mais c’est aussi et surtout l’absence de tout guide éclairé pour le lecteur
+            ignorant ou demi-lettré, comme aussi l’absence de toute organisation tendant à
+            contrebalancer les résultats funestes d’une telle littérature par une lecture plus
+            saine, mieux appropriée aux besoins des classes laborieuses et qui se servirait des
+            mêmes procédés.</p>
+          <p>Ne pourrait-on pas, en attendant une nouvelle éclosion littéraire plus conforme à notre
+            idéal, à notre rêve, combattre et atténuer le mal actuel par la publication et la grande
+            diffusion de <hi rend="i">guides-catalogues</hi> destinés à éclairer le public sur les
+            ouvrages parus jusqu’à présent. On obtiendrait facilement pour cette œuvre le concours
+            soit de l’État, soit des sociétés d’éducation et de moralisation existantes, soit même
+            de particuliers généreux. Ces guides serviraient de phares au lecteur et lui
+            permettraient de se reconnaître dans ce dédale de productions de tout acabit qui
+            inondent les vitrines des libraires, les gares des chemins de fer. Ils lui permettraient
+            surtout de se composer peu à peu une bibliothèque de choix.</p>
+          <p>Il devrait y avoir naturellement autant de guides que de catégories de lecteurs, de
+            classes bien tranchées dans la société. Tel guide serait préparé pour les gens du haut
+            monde, les riches et les fortunés, tel autre pour les lettrés, les demi-lettrés ; il y
+            en aurait plusieurs, et c’est sur ceux-ci surtout que j’appelle l’attention, pour les
+            classes laborieuses ; les cultivateurs, les ouvriers de l’art ou de l’industrie auraient
+            chacun le leur. Bien entendu que tel bon ouvrage qui pourrait être apprécié de plusieurs
+            catégories de lecteurs figurerait sur plusieurs catalogues.</p>
+          <p>Ces guides qui avec l’indication des ouvrages proposés, donneraient en quelques lignes
+            l’analyse et la physionomie de chacun d’eux, rendraient d’immenses services aux
+            ignorants et aux demi lettrés ; ils seraient consultés avec fruit par les savants
+            eux-mêmes. Ils devraient, comme la plupart des catalogues de bibliothèques, être divisés
+            en séries. Pour éviter la confusion, ceux qui seraient destinés aux classes humbles et
+            laborieuses ne contiendraient qu’un nombre restreint de volumes, choisis avec soin.</p>
+          <p><hi rend="i">Ces guides, de petit format, peu coûteux, devraient être répandus avec
+              profusion</hi>, chaque famille devant avoir le sien. <hi rend="i">Les instituteurs se
+              feraient un plaisir de les communiquer ou de les distribuer, et les recommanderaient à
+              leurs élèves.</hi> C’est surtout par les cours d’adultes qu’ils pourraient les
+            propager utilement.</p>
+          <p><hi rend="i">On lit beaucoup à la campagne</hi> ; <hi rend="i">malheureusement, faute
+              de connaissances suffisantes</hi>, faute surtout de direction, on lit, on dévore tout
+            ce qui tombe sous la main. L’élaboration de guides remédierait dans une grande mesure à
+            cet état de choses.</p>
+          <p><pb n="401" xml:id="p401"/>Je ne veux pas davantage, Monsieur le Directeur, abuser de
+            votre temps par un plus long exposé de l’idée que je viens de vous soumettre. Vous
+            comprendrez le mobile qui m’a fait agir et en raison de l’intention, vous serez
+            indulgent pour la forme. Je n’ai pas l’habitude d’écrire.</p>
+          <salute>Veuillez agréer, etc., etc.</salute>
+          <byline><docAuthor key="Chachuat, Maurice">Chachuat</docAuthor>. <lb/>(<hi rend="i">Instituteur à
+              Bissey-sous-Cruchaud.</hi>)</byline>
+        </div>
+        <div>
+          <head>Les calomnies internationales dans le roman populaire [Ernesto Meynalotta]</head>
+          <label type="head"><hi rend="i">À Monsieur le Directeur de la «</hi>  Revue des
+              Revues  ». </label>
+          <p>J’ai lu dans votre numéro du 1<hi rend="sup">er</hi> octobre l’admirable étude
+            consacrée par M. Frédéric Loliée aux <hi rend="i">industriels du roman populaire.</hi>
+            J’ai lu aussi votre appel « à la bonne volonté des écrivains » pour tenter la réforme de
+            la littérature populaire.</p>
+          <p>Votre pensée est bonne et grande. Je crois cependant que les difficultés que vous aurez
+            à vaincre seront si graves, que votre volonté et l’autorité de votre
+              <title>Revue</title> et de votre talent suffiront à peine pour les vaincre.</p>
+          <p>J’ai été, dans mon pays — qui maintenant, en fait de littérature populaire, est
+            parfaitement asservi aux fournisseurs attitrés de Paris — <hi rend="i">l’un des
+              industriels les plus fortunés</hi>, peut-être le plus fortuné du roman populaire. J’ai
+            connu, avec ma <title>Papesse Jeanne</title>, les douceurs du <hi rend="i">centième
+              mille</hi> ; et, si j’ai abandonné ce genre de littérature si lucratif, cet abandon a
+            été de ma part bien volontaire. <quote><hi rend="i">Delicta juventutis meæ ne memineris,
+                Domine…</hi></quote></p>
+          <p>Je crois donc pouvoir sans trop de présomption vous exposer quelques idées sur le <hi
+              rend="i">roman populaire</hi>.</p>
+          <p>Et d’abord, n’espérez pas que l’on puisse faire entrer dans ce genre de littérature
+            « le culte de la vérité ». Le public des feuilletons demande en première ligne le
+            dénouement heureux. Vous pouvez être le Dieu du roman, mais si, par votre faute, au
+            quatrième volume (car nous en avons autant) le jeune premier n’épouse pas l’innocente
+            persécutée, je ne réponds pas de votre vie. Le peuple est affamé de justice, et comme
+            dans la vie ordinaire elle est assez rare, il se passionne davantage pour sa cause, dans
+            le domaine de la fiction. C’est malheureux, si vous le voulez, au point de vue de l’art,
+            mais cela n’empêche point que ce sentiment soit très respectable et très émouvant. Après
+            tout, c’est peut-être mon « ancienne profession » qui déteint sur mes convictions…</p>
+          <p>N’importe, La vie ne donne jamais toute la satisfaction au besoin de justice que
+            ressent le peuple. Le roman populaire est donc condamné à être faux et irréel, ou il
+            n’aura pas de lecteurs !</p>
+          <p>Cependant je suis bien loin de croire que votre courageuse campagne ne doive pas
+            aboutir à quelque chose de bon et de pratique. <pb n="402" xml:id="p402"/>Je
+            considérerai même votre œuvre comme très profitable, si vous réussissez :</p>
+          <p>1º À délivrer l’écrivain de la tyrannie de la ligne. Tel qui peut donner cinq cents
+            lignes admirables patauge et bafouille dès qu’il doit atteindre deux mille.</p>
+          <p>2º À supprimer dans vos feuilletons populaires, l’usage si répandu parmi vos écrivains
+            de calomnier mes compatriotes. Ma qualité d’Italien n’affaiblit point le reproche que
+            j’adresse par l’intermédiaire de votre <title>Revue</title> à vos romans populaires. Il
+            ne s’agit pas ici d’une susceptibilité patriotique, mais d’un crime de lèse-humanité qui
+            empoisonne les relations entre deux peuples.</p>
+          <p>Le <title>Secolo</title> de Milan, qui nous a débité en tranches l’œuvre de
+            M. de Richebourg, nous a appris, pendant une série de jours et de mois, l’existence en
+            Italie de crapules, traîtres, faussaires, escrocs et toutes sortes d’« Alphonse », dont
+            le moindre défaut était qu’ils n’appartenaient à aucun pays et en tout cas n’avaient
+            rien d’italien. Car je vous l’assure en toute sincérité, nous n’avons pas même assez de
+            bandits pour notre feuilleton local, pourquoi donc pousser la cruauté jusqu’à enlever
+            les quelques rares spécimens de criminels à nos industriels du roman italien ?</p>
+          <p>Croire, comme M. « Paul d’Aigremont », que le premier Pigaletti venu, uniquement parce
+            qu’il est d’origine italienne, pourra mettre en défaut la moitié de la France, y compris
+            le gouvernement, cela me paraît peu admissible. Et cependant vos romanciers racontent
+            tout cela et nos journaux populaires ont soin de les traduire pour notre
+            édification…</p>
+          <salute>Veuillez croire, à mes sentiments distingués.</salute>
+          <p>Votre lecteur assidu</p>
+          <byline><docAuthor key="Meynalotta, Ernesto">Ernesto Meynalotta</docAuthor>. <lb/>(<title>Rivista politica e
+              letteraria</title>.)</byline>
+        </div>
+        <div>
+          <head>Pro domo sua [Pierre Sales]</head>
+          <salute>Monsieur et cher confrère,</salute>
+          <p>Pourquoi traiter avec dédain un genre de littérature qui permet de s’adresser à
+            l’immense masse du public, laquelle ne comprend jamais tout de suite les novateurs
+            absolus et serait à jamais fermée à toute beauté morale ou artistique, si certains
+            écrivains ne les faisaient arriver jusqu’à elle ?</p>
+          <p>Quel doit être le but de l’écrivain, s’il a des idées, ou s’il veut répandre celles des
+            autres ; et, au fond, a-t-on jamais une idée bien à soi, et est-on autre chose qu’une
+            petite résultante de tous les cerveaux qui ont pensé avant nous ? Son but ne doit-il pas
+            être de communiquer au public ce qu’il croit juste, bon, vrai, comme de lui inculquer
+            les nouvelles découvertes de la science, de la philosophie, ou tout simplement de
+            l’hygiène ?… etc.</p>
+          <p><pb n="403" xml:id="p403"/>Pour cela, il ne peut prendre que les moyens qui sont à sa
+            disposition :</p>
+          <p>I. — Le théâtre, s’il a le tempérament dramatique ; cela fait quelques milliers de
+            spectateurs, quelques dizaines de mille s’il obtient un grand succès.</p>
+          <p>II. — Le livre, la conférence, s’il a un tempérament didactique. Combien ses idées
+            auront-elles alors d’auditeurs, de lecteurs ?</p>
+          <p>III. — Le feuilletoniste, lui, a des centaines de mille, parfois des millions de
+            lecteurs ; et, s’il se fait aimer d’eux, il peut leur exposer toutes les idées qu’il
+            croira justes, même si elles doivent étonner, choquer même son public. Seulement, la
+            condition primordiale pour que son public le suive, c’est qu’il l’intéresse, qu’il le
+              <hi rend="i">prenne</hi> dès les premières lignes, c’est-à-dire qu’il soit avant tout
+            un bon feuilletoniste.</p>
+          <p>N’est-il qu’un amuseur ?… Eh bien ?… Doit-on, pour cela, lui jeter la pierre ? Et
+            faut-il blâmer Dumas d’avoir amusé tant de générations et d’avoir donné quelques idées
+            — pas toujours bien justes, je veux bien — de l’Histoire de France à des gens qui
+            n’auraient jamais ouvert un livre d’histoire ?</p>
+          <p>Reprocherez-vous à Feydeau d’avoir empli, des centaines de fois, la salle des
+            Nouveautés avec ses folies ? L’accuserez-vous d’avoir pourri l’âme française parce qu’il
+            n’a pas donné le <title>Repas du lion</title> à un public qui voulait se tordre à la
+              <title>Dame de chez Maxim’s</title> ?</p>
+          <p>Mais quelle merveille que le <title>Repas du lion</title> ! allez-vous me dire.
+            Certes ! Et l’exposé des deux doctrines du socialisme est une des admirables choses de
+            la langue française. Mais, pour le faire entendre du public, M. de Curel a dû recourir à
+            un art que beaucoup de bons esprits considèrent comme inférieur : <hi rend="i">il a dû
+              faire une pièce</hi> ! Et c’est parce que sa pièce renferme des beautés de premier
+            ordre, qui sont de simples beautés dramatiques, par exemple les fiançailles de
+            l’ingénieur devant le puits de la catastrophe, que son éloquent plaidoyer, par moment
+            beau comme du Bossuet, arrive au public.</p>
+          <p>Laissez donc le roman-feuilleton faire son humble tâche, qui s’adresse à l’immense
+            majorité du public et ne l’attaquez pas en lui-même, ce qui est une partie de votre
+            campagne. M. Frédéric Loliée assure qu’il y a des fabricants, des exploiteurs ; cela est
+            évidemment regrettable, si son étude ne tombe pas dans l’exagération. Mais il y en a
+            dans tous les genres, et l’exception n’empêche pas qu’il existe dans la catégorie des
+            feuilletonistes comme dans les plus élevées, des écrivains, sans doute modestes, des
+            écrivains dont vous avez tout le droit de discuter les œuvres, mais qui ont la très
+            légitime prétention de ne le céder à aucun, au point de vue de la probité littéraire et
+            qui, s’ils n’y réussissent pas toujours, font toujours de leur mieux pour apporter leur
+            toute petite pierre, le simple grain de mortier si vous voulez, à l’immortel édifice des
+            Lettres Françaises.</p>
+          <salute>Croyez, mon cher confrère, à l’expression de mes sentiments les
+            meilleurs.</salute>
+          <byline><docAuthor key="Sales, Pierre (1854-1921)">Pierre Sales</docAuthor>.</byline>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

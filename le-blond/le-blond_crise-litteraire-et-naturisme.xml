@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-07T17:26:09+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La crise littéraire et le naturisme (article de <hi rend="i">La Plume</hi>)</title>
+        <author key="Le Blond, Maurice (1877-1944)">Maurice Le Blond</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud</name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Labex OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http ://obvil.paris-sorbonne.fr/corpus/critique/le-blond_crise-litteraire-et-naturisme/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Maurice Le Blond</author>, <title><hi rend="i">« La crise littéraire et le
+              naturisme », </hi>La Plume : littéraire, artistique et sociale</title>,
+              <biblScope>9e année, nº 191</biblScope>,
+            <date>1er avril 1897</date>, <biblScope>p. 206-208</biblScope>. PDF : <ref
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k15601c/f209">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1897"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="206" xml:id="p206"/>
+        <head>La crise littéraire et le naturisme</head>
+        <p>Nous sommes en pleine crise littéraire, et le public n’en ignore plus l’existence, s’il
+          ne peut en juger encore toute la portée et l’étendue. À la parution de livres récents<note
+            place="bottom"><title>L’Hiver en Méditation</title>, de Saint-Georges de Bouhélier ;
+              <title>Sylvie</title>, d’Eugène Montfort ; <title>Sur la Route</title>, par Albert
+            Fleury ; <title>Essai sur le Naturisme</title>, etc.</note>, il fut facile de discerner
+          chez les lettrés contemporains un revirement soudain de l’opinion. En cette occasion, le
+          symbolisme fut attaqué avec violence par les nouveaux écrivains, qui critiquaient moins
+          les poètes et les personnalités qui s’en dégagèrent que les stériles principes et les
+          rares œuvres de cette époque inféconde.</p>
+        <p>Le symbolisme n’apporta pas en réalité un art original, ni même une conception nouvelle
+          de la beauté. Ce fut plus strictement la dernière période d’un genre dont on peut placer
+          la naissance vers la fin du Romantisme. C’est ainsi que les Baudelairiens, les
+          Parnassiens, les Symbolistes composent une sorte de famille intellectuelle contre qui se
+          trouve disposée à lutter la dernière génération. Ces successives écoles, malgré qu’elles
+          possèdent des traits assez distinctifs, conservent cependant entres elles je ne sais quel
+          air de ressemblance. Elles préconisèrent toutes ce qu’on pourrait appeler « la Littérature
+          pour Littérateur » ; avec d’identiques tendances vers un spiritualisme indécis, elles
+          s’inspirèrent de métaphysiques révolues et de théogonies décrépites. Seules, des nuances
+          de mode et de sentiment les distinguèrent, les uns préfèrent les Grâces aux Walküres,
+          ceux-ci la légende rhénane à la mythologie hellène, d’autres les bords du Gange aux rives
+          de l’Eurotas. Amoureux d’exotisme, d’archaïsme ! jamais ils ne prétendirent accorder leur
+          pensée aux sentiments de leur époque, à l’âme de la nation.</p>
+        <p>Quelques esprits acerbes ont violemment reproché à M. Saint-Georges de Bouhélier et à ses
+          partisans d’avoir, les premiers, parlé d’une génération nouvelle. Selon eux, les questions
+          de génération, d’âge, de temps ne doivent pas intervenir en Littérature et n’auraient
+          aucune valeur comme argument de critique. Voilà, dans l’occurrence, la plus grossière des
+          erreurs, et qui révèle une grave ignorance des phénomènes ethniques et historiques.</p>
+        <p>Que le lecteur veuille bien songer qu’entre les naissances des jeunes hommes qui
+          commencent à écrire et celles des écrivains précédents, un grand fait de l’histoire
+          contemporaine a eu lieu, la guerre de 1870-71, à laquelle succédèrent les ensanglantements
+          de la Commune. Croit-on donc qu’une pareille invasion compte pour peu de chose dans
+          l’histoire intellectuelle d’un peuple ? Lisons la <title>Confession d’un Enfant du
+            siècle</title>, où Alfred de Musset nous fournit, sur l’état d’âme des Romantiques, de
+          si précieux documents ! N’a-t-il pas démontré, d’une façon éclatante, qu’aux tumultueux
+          sentiments qui agitaient la jeunesse, vers 1835, nous devions chercher une origine parmi
+          les glorieux exploits et les héroïques guerres du Premier Empire ? Il faut voir là un
+          effet constant. Les grandes actions ont leur répercussion jusque dans les intelligences ;
+          et quoi d’étonnant à ce que des événements qui ont bouleversé les destinées nationales
+          modifient également la sensibilité des particuliers ?</p>
+        <p>Que l’on songe aussi aux réformes introduites dans l’Éducation depuis vingt ans, à
+          l’extension donnée dans les programmes à l’enseignement scientifique, à l’importance
+          accordée principalement à l’étude des doctrines positivistes, et l’on comprendra ces
+          dispositions d’esprit qui nous précipitent, pour la plupart, vers la réalité,
+          l’exactitude, et le respect de la nature, sans, pour cela, négliger les qualités
+          d’enthousiasme, d’héroïsme et de finesse dont la nature nous a si généreusement dotés.</p>
+        <p>En écrivant ces lignes, je n’ai nullement l’intention de nous présenter comme des modèles
+          d’érudition. Nous ne sommes pas de grands savants, nos connaissances sont peu étendues.
+          C’est que tout le monde ne sort pas, comme M. Sully Prudhomme, de l’École polytechnique et
+          cela ne nous plaît guère de mettre la chimie en chansons. Nous ne voulons pas davantage
+          ressusciter le roman expérimental, cher aux Naturalistes. Mais je crois que les grandes
+          théories positivistes des Auguste Comte et des Darwin, des Taine et des Karl Hæckel, ont
+          peu à peu pénétré nos consciences. Les efforts de ces grands penseurs auront contribué à
+          débarrasser les esprits des derniers vestiges de spiritualisme qui les encombraient. Ainsi
+          nous avons acquis intuitivement l’intelligence des Races et de la Cité. Cette direction
+          d’idées, je pense que la majorité des hommes de vingt ans l’a suivie.</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Or, ce qui importe, c’est l’édification d’une croyance, d’une foi nouvelle ? Voilà la
+          mission qui nous sollicite. <pb n="207" xml:id="p207"/>Et nous y sommes magnifiquement
+          préparés. Les exégètes nous ont enseigné qu’il fallait rechercher les origines du
+          christianisme parmi les écoles de philosophie ouvertes dans Alexandrie, la Perse, la
+          Basse-Égypte. Tant de propositions qui devinrent, par la suite, du domaine populaire y
+          avaient été préalablement agitées par les fins esprits du temps, et consignées dans les
+          secrets rituels des Initiés, des Savants et des Mystagogues. Il fallut toute la grâce
+          évangélique d’un Jésus pour faire rayonner jusqu’aux âmes simples la magnificence déjà
+          antique de tels préceptes. Avec des phrases apostoliques, grâce aussi à des paraboles
+          passionnées, il sut captiver l’imagination des foules et subjuguer l’attention rebelle des
+          artisans et des bergers. Si l’on médite un instant, on se persuadera que notre situation
+          n’est guère différente. En ce <num>xix<hi rend="sup">e</hi></num> siècle, le foisonnement
+          des idées et l’abondance des découvertes ont été extraordinaires. De Cuvier jusqu’à
+          Pasteur, on peut dire que la science a marché à pas de géants. Et cependant l’état
+          spirituel de la masse est resté stationnaire. Esclaves de la superstition, les hommes
+          n’ont pas compris la sublime leçon qui se dégage de nos victoires scientifiques sur le
+          Mystère. Ils ne se sont aperçus que des légères améliorations matérielles et des petits
+          profits qu’ils tirent de l’industrie. Les arides axiomes, les sévères manuels n’ont pas eu
+          la vertu de les toucher. Les sèches formules n’eurent pas davantage l’heur de les séduire.
+          Ainsi s’accentua, chaque jour, la distance mentale qui sépare l’élite savante du reste de
+          la nation. Et il est juste d’ajouter que les sophismes des sociologues et la verve
+          déclamatoire des tribuns y ont contribué pour beaucoup.</p>
+        <p>C’est donc aux poètes de marcher vers les foules. Ils les initieront aux chants d’Orphée.
+          Cette ferveur mystique qui nous anime à l’égard de la divine et maternelle matière, notre
+          religion de la vie quotidienne, des Travaux et des Jours, nous en investirons le cœur des
+          Humbles. Par ce que nous prêterons à nos concepts des apparences de chair et de fleurs, il
+          sera possible aux foules de ressentir la pathétique beauté immanente à la fois panthéiste.
+          Ne redoutons point, à notre tour, d’être apostoliques. Promulguons la joie de vivre,
+          admirons les différents labeurs de l’homme par quoi se transforme le monde. Et puis
+          efforçons-nous vers un art ingénu, naturel. Ainsi, telles maximes qui furent l’apanage
+          d’une minorité, rayonneront jusqu’au fond des provinces. Il ne faut pas que les idées
+          restent ensevelies dans les gris traités des théoriciens, vivifions-les d’un souffle
+          créateur et lyrique, et que, guidées par les poètes, au son des lyres, elles s’avancent
+          vers les intelligences, qu’elles y pénètrent par la puissance du Verbe !</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Avec une pareille compréhension de la Beauté, il est aisé de se rendre compte de la
+          singulière aversion que nous inspira l’état présent des lettres vers les premières heures
+          de nos débuts. Le bibelot d’écriture, la joliesse plastique, de même que les jeux de
+          phrases et les notations de nuances sentimentales semblaient seuls préoccuper les auteurs.
+          Comme le faisait remarquer naguère et fort à propos M. René Ghil, ce genre de littérature
+          ne peut séduire que de rares adolescents dépourvus de sens vital et un nombre plus
+          restreint encore de jeunes femmes oisives, mais il ne correspond en aucune façon à la
+          totalité des aspirations actuelles. Aussi le seul remède à cet état de choses sera donc de
+          refuser aux arts ce caractère aristocratique où l’on voudrait le limiter.</p>
+        <p>De cette esthétique naturelle et populaire, il semble que M. Saint-Georges de Bouhélier
+          ait découvert une formule originale et merveilleuse. On n’ignore plus que ce jeune poète a
+          proposé comme le plus sublime des motifs d’émotion et le plus émotif des sujets
+          pathétiques l’héroïsation du Travail humain, l’Épopée des Fonctions et des Métiers. Selon
+          lui, au lieu d’entraîner les naïves imaginations vers de fantastiques empyrées, des forêts
+          féeriques et de légendaires paysages, ce qui contribue, en quelque sorte, à détacher de
+          leur existence habituelle les hommes pour qui nous chantons, il s’agirait de les
+          persuader, au contraire, de la beauté, de la grandeur même et de la pompe dont sont
+          empreints leurs actes ordinaires et leurs occupations courantes. Éblouissons-les plutôt
+          par la vision transfigurée de leur destin. Qu’ils apprennent enfin la sérénité auguste de
+          leurs gestes, la nécessité absolue de leur rôle. C’est cet art là que nous prêcha
+          M. Saint-Georges de Bouhélier lorsqu’il écrivit la <title>Vie héroïque des Aventuriers,
+            des Poètes, des Rois et des Artisans</title>, et qu’il y formula les phrases chantantes
+          et accentuées que voici :</p>
+        <quote>
+          <p>« Ces héros ruraux et urbains représentent, incarnent, glorifient, pompeux, une Face de
+            la Terre ou du Firmament… La Nature elle-même nécessite l’auguste ardeur de leur
+            patience. C’est ainsi qu’elle les prédestine à célébrer la fête du Pain, les Semailles,
+            l’Espoir, les Moissons ; — à travailler dans les carrières pour l’extraction des
+            houilles noires et compactes ; à tresser des fleurs, des corbeilles ! Car la Nature élit
+            chacun. Elle commande les hommes afin qu’ils se penchent sur les eaux, et pour qu’ils
+            modèlent des amphores de roche. Et s’ils luttent, les uns, dans un four à coke ; s’ils
+            élèvent, les autres, des abeilles ; s’ils cultivent des roses et des blés, ce n’est
+            point par un stratagème, ni une simagrée des hasards… Ces pêcheurs, ces maçons, ces
+            bouviers ont été, sans nul doute, élus à travers toute l’Éternité pour solenniser les
+            guêpes et les marbres… Et ils apparaissent moins des hommes que de vivantes Enclumes,
+            les uns ; et ceux-ci des Houlettes ; des Corbeilles et des Faux… »</p>
+        </quote>
+        <p>Au lieu d’inventer des aventures où paradent et dialoguent d’impossibles personnages, il
+          convient de célébrer également la pacifique sublimité des fêtes familiales et civiques.
+          Tels faits normaux, comme la naissance, les repas, l’hymen, la mort, ne sont-ils pas aussi
+          magnifiques pour interpréter, que les puériles péripéties de notre invention. Il s’agit de
+          les sanctifier, d’en montrer les relations sacrées avec la vie même de l’univers. Ce sont
+          de semblables idées, — absolument inédites jusque-là, — que M. de Bouhélier s’est plu à
+          développer dans certains chapitres de son dernier ouvrage : <title>L’Hiver en
+            Méditation</title>, et qui sont intitulés l’Émotion, le Pathétique Romanesque, le
+          Destin. Entre tous, je me permettrai de transcrire ce passage d’une méditation sur le
+          Foyer, et qui donnera au lecteur un exemple tout à fait exact des admirables effets que
+          l’on peut tirer de la théorie naturiste :</p>
+        <quote>
+          <p>« … Cette béatifiante communion, partout j’en distingue le pressentiment. Dans la
+            forge, la grange, l’étable, tel grenier, et la boulangerie ! Mais où il apparut surtout,
+            c’est parmi ces linges frais, les senteurs de la chambre nuptiale.</p>
+          <p>« Il faudrait y entrer comme dans le Paradis. Il faudrait marcher là, comme au lieu le
+            plus suave, le plus religieux, le plus impressionnant du monde. C’est là <pb n="208"
+              xml:id="p208"/>que s’accomplissent les rites suprêmes. L’aube y pénètre avec
+            pudeur.</p>
+          <p>« Toute la clarté du ciel, des jeunes roses et des prairies heureuses, filtre aux
+            clairs lins du lit, les trempe d’ardente blancheur. Rien de plus candide ni de plus
+            exquis. Les amours, les luxures se fondent, le soleil tremblant vacille et soupire,
+            l’émoi effrite les pensées, le sang et la chair flambent dans un brasier, et le vent
+            tournoie. Une tempête emporte les constellations ; l’air est doux, l’azur frais, les
+            verts feuillages chuchotent. Pas un instant moins tragique, le matin se couche sur un
+            monde d’aurore.</p>
+          <p>« Ce lieu où de telles émotions brûlent et exténuent les amants, je voudrais que
+            personne n’y entrât sans vénération. Là se consomme la destinée des races. Peut-être y
+            créons-nous le dieu futur… »</p>
+        </quote>
+        <p>De pareilles pages, et elles sont nombreuses chez cet écrivain, peuvent glorieusement
+          figurer parmi les plus belles de notre littérature française. Je m’étonne que M. Charles
+          Maurras, qui consacra au Naturisme plusieurs études fort sympathiques (dans <title>la
+            Revue Encyclopédique, le Soleil, la Gazette de France</title>), n’en ait pas admiré
+          toute la pureté. N’alla-t-il pas jusqu’à reprocher à M. de Bouhélier de n’avoir eu
+          l’audace d’être un Malherbe, et d’avoir négligé dans la langue la réforme qui
+          s’impose.</p>
+        <p>Je présume qu’il serait nécessaire de s’expliquer. Le style ne possède pas par lui-même,
+          comme le semble prétendre M. Maurras, une réalité authentique. Ce n’est selon moi que
+          l’expression d’un rapport. Sa beauté est relative aux pensées qu’il exprime. Une langue
+          n’est pas stable, et son évolution est parallèle à celle des idées. <quote>« Il faut que
+            les réformes d’art se subordonnent aux réformes mentales »</quote>, a dit l’auteur de
+            l’<title>Annonciation</title>. Un changement dans le langage ne peut avoir lieu sans une
+          révolution préalable dans les mœurs, les intelligences et la sensibilité. C’est ainsi
+          qu’un système harmonieux ne peut être traduit que dans des phrases architecturales et
+          mélodieuses. Les œuvres de Platon, de Descartes, constituent un témoignage irréfutable de
+          ce principe. S’il y a dans le style de nos modernes d’évidentes fautes de goût, cela tient
+          surtout à leur mauvaise manière d’envisager le monde, et fort peu au mépris qu’ils ont eu
+          pour les préceptes de Boileau-Despréaux. Il serait donc ridicule de vouloir tenter <hi
+            rend="i">a priori</hi> une révolution dans la forme littéraire. Les réformes du style
+          s’accomplissent d’elles-mêmes, souvent à notre insu. Et il suffit pour cela que les
+          auteurs apportent des idées nouvelles, qui correspondent aux sentiments de l’époque et qui
+          conviennent, en même temps, à la nature de nos nationaux.</p>
+        <p>Tel est donc le cas présent. La crise littéraire ne peut pas être résolue par
+          l’archaïsme. Nous avons déjà vu, à propos de l’école romane, combien chimériques étaient
+          de tels vœux. Seule la violence impétueuse de l’idée a le pouvoir de régénérer, à la fois
+          le langage et les coutumes. Et puisqu’on veut bien nous accorder que les Naturistes
+          apportent en effet une éthique imprévue et une inédite méthode de vie, je ne crains pas
+          trop de m’avancer en déclarant que leur désir d’art populaire, autochtone, païen et
+          rationnel, contribuera énormément à une réforme dans l’expression, qui, pour être très
+          différente de celle de Malherbe, n’en sera pas moins considérable.</p>
+        <byline>
+          <hi rend="i">MAURICE LE BLOND.</hi>
+        </byline>
+      </div>
+    </body>
+  </text>
+</TEI>
