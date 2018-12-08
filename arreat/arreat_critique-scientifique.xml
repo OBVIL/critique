@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-08T14:54:43+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La critique scientifique (article de la <hi rend="i">Revue
+          philosophique</hi>)</title>
+        <author key="Arréat, Lucien (1841-1922)">Lucien Arréat</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/arreat_critique-scientifique/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Lucien Arréat</author>, <title><hi rend="i">« La Critique scientifique, par
+              Émile Hennequin », </hi>Revue philosophique de la France et de l’étranger</title>,
+            <biblScope>t. XXVII</biblScope>, <date>janvier 1889</date>,
+            <biblScope>p. 83-89</biblScope>. PDF : <ref
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k171662/f87">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1889"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="83" xml:id="p83"/>
+        <head>Analyses et comptes rendus. <lb/><title>La Critique scientifique</title>, par Émile
+          Hennequin</head>
+        <argument>
+          <p><hi rend="b">Émile Hennequin</hi>. — La Critique scientifique. Paris, Perrin, 1888,
+            246 p. in-12.</p>
+        </argument>
+        <p>En achevant la lecture de ce livre, on se prend à regretter la mort prématurée de l’homme
+          qui l’a écrit. Le livre est intéressant, il est bien ordonné, il est nouveau. M. Hennequin
+          a voulu fonder la critique scientifique et donner le plan d’une étude complète d’<hi
+            rend="i">esthopsychologie</hi> : il proposait ce nom pour désigner un ensemble de
+          recherches qui formeraient une science véritable, ayant <quote>« un objet, une méthode des
+            résultats, des problèmes »</quote> (p. 218).</p>
+        <quote>
+          <p rend="lmarg1">« L’esthopsychologie, nous dit-il (p. 21), n’a pas pour but de fixer le
+            mérite des œuvres d’art et des moyens généraux par lesquels elles sont produites ; c’est
+            la tâche de l’esthétique pure et de la critique littéraire. Elle n’a pas pour objet
+            d’envisager l’œuvre d’art dans son essence, son but, son évolution, en elle-même ; mais
+            uniquement au point de vue des relations qui unissent ses particularités à certaines
+            particularités psychologiques et sociales, comme révélatrices de certaines âmes ;
+            l’esthopsychologie est la science de l’œuvre d’art en tant que signe. »</p>
+        </quote>
+        <p>Ce dernier mot annonce déjà quelle sera la méthode. Exposons-la tout de suite : notre
+          critique en sera plus claire.</p>
+        <p>L’œuvre, selon M. H., est le signe le plus important de l’individualité du poète ou de
+          l’artiste ; elle nous livre directement les premiers caractères à connaître, les
+          caractères mentaux, qu’on serait impuissant à déterminer d’après les données de
+          l’hérédité, de l’ethnologie, etc. Elle nous fournit du même coup les caractères de ses
+          admirateurs, et nous pouvons avancer dans la psychologie des peuples en étudiant les
+          groupes d’hommes qui se rattachent, par des affinités secrètes, à certains individus
+          prééminents. Les qualités d’un poète sont aussi, à un degré moindre, celles de ses
+          lecteurs. <quote>« Une œuvre d’art, nous dira M. H. (p. 439), n’émeut que ceux dont elle
+            est le signe. »</quote></p>
+        <p>Telle est la pensée méthodique de l’ouvrage. Nous allons voir sur quels raisonnements
+          elle se fonde, et de quelle théorie à demi formulée, en dernière analyse, elle se
+          réclame : le lecteur n’est pas sans la deviner peut-être.</p>
+        <p><pb n="84" xml:id="p84"/>La vieille critique devient donc, avec M. H., un moyen
+          d’investigation psychologique, et le plus puissant, à ce qu’il semble. Sainte-Beuve, nous
+          dit-il, fut surtout biographe ; il s’efforça d’arriver à la connaissance de l’individu,
+          mais il ne vit point que la connaissance d’un auteur <quote>« n’affecte en rien le plaisir
+            esthétique que peuvent donner ses livres »</quote> (p. 41). Taine a apporté dans la
+          critique un esprit autrement clair et fort : il cherche le rapport de l’auteur avec son
+          œuvre, et le rapport des auteurs avec l’ensemble social dont ils font partie. L’<hi
+            rend="i">évolution de la critique</hi>, en résumé, s’est faite de l’esthétique à la
+          psychologie, et enfin à la sociologie : elle peut être fixée provisoirement dans le
+          ressort de ces trois sciences.</p>
+        <p>L’<hi rend="i">analyse esthétique</hi>, par laquelle il convient de commencer, portera
+          sur les moyens employés et les émotions produites. <quote>« Quelles sont les émotions que
+            l’ensemble des œuvres de tel auteur suscite, et par quels moyens les provoque-t-il ?
+            qu’exprime tel auteur et comment l’exprime-t-il ? »</quote> (p. 30). Voilà l’objet de la
+          première analyse, d’après M. H. Elle implique la critique littéraire ; mais celle-ci n’y
+          est pas définie expressément, et la question vise surtout l’étude psychologique du poète.
+          Un critique littéraire estimerait l’émotion « esthétique » ; le psychologue dégagera les
+          émotions « ordinaires » de conservation, de sympathie, qui se trahissent dans l’œuvre. La
+          question posée par M. H. est ambiguë, et c’est pourquoi il se trouve ici <quote>« arrêté
+            court »</quote> par une difficulté qu’il croit n’avoir encore été aperçue par aucun
+          esthéticien (p. 31). Elle n’est rien moins que de savoir si l’émotion esthétique est
+          quelque chose de spécial, ou si elle ne serait pas simplement une <quote>« forme
+            inactive »</quote> de l’émotion ordinaire, chacune de nos émotions pouvant tour à tour
+          devenir esthétique, et résulter, <quote>« avec quelque modification »</quote>, de la vue
+          ou de l’audition d’une œuvre d’art.</p>
+        <p>M. H. tient pour la seconde formule. Lui pourtant, qui accepte avec Spencer, contre
+          Guyau, la théorie de l’art fin en soi, désintéressé, il sent bien que l’art doit avoir sa
+          marque propre, que l’émotion esthétique se distingue en quelque chose des émotions
+          ordinaires, et il recourt, pour se tirer d’embarras, à une hypothèse ingénieuse :
+            <quote>« Nous croyons, écrit-il (p. 36), qu’il faudra à l’avenir distinguer dans
+            l’émotion ordinaire (non plus esthétique) : d’une part, l’excitation, l’exaltation
+            neutre qui la constitue, qui est son caractère propre et constant ; de l’autre, un
+            phénomène cérébral additionnel, qui est l’éveil d’un certain nombre d’images de plaisir
+            ou de douleur, venant s’associer au fond originel, le colorer ou le timbrer, pour ainsi
+            dire, et produire la peine ou la joie proprement dites, quand elles comprennent le moi
+            comme sujet souffrant et joyeux. »</quote> L’émotion esthétique aurait alors ceci de
+          particulier, que, <quote>« tout en conservant intact l’élément excitation »</quote>, elle
+            <quote>« laisse à son minimum d’intensité l’élément éveil des images,
+          etc. »</quote>.</p>
+        <p>Une distinction de ce genre était à faire, sans doute ; mais il ne fallait pas s’enfermer
+          dans l’état émotionnel. Il fallait, pour toucher le <pb n="85" xml:id="p85"/>fond du
+          plaisir du beau, remonter aux perceptions mêmes, aux états perceptifs de la vue ou de
+          l’ouïe, lesquels sont agréables ou désagréables selon la nature et le degré de
+          l’excitation. Il suffit d’un assemblage de couleurs, ou de quelques accords plaqués sur un
+          piano, pour me donner une jouissance particulière, où je ne ressens ni terreur, ni colère,
+          ni pitié, et qui n’est pas une émotion ordinaire transformée. Les arts se distinguent par
+          le matériel de perceptions dont chacun fait usage. Dans les produits simples de l’art
+          plastique, dans la poésie de mots, le plaisir paraît dépendre immédiatement de
+          l’excitation ; seules les œuvres dramatiques, parce que leur matériel est l’action
+          humaine, appellent nécessairement un cortège d’émotions ordinaires, pénibles ou joyeuses,
+          qui n’y prennent cependant, pour parler la langue de M. H., qu’un <quote>« faible indice
+            de joie ou de douleur »</quote>. Mais il est parti de l’étude des œuvres complexes, il a
+          négligé les cas simples, et il a donné pour premier temps de l’état émotionnel un
+          sentiment d’exaltation neutre qu’il serait plus légitime d’attribuer au moment de la
+          perception.</p>
+        <p>Si l’on veut estimer la « valeur d’art », il ne suffit point de noter la qualité ou la
+          quantité des émotions accessoires que suscite l’œuvre, et il ne s’agit pas seulement de
+          savoir si elle provoque en nous un sentiment de vive sympathie ou d’ardent patriotisme ;
+          il faut étudier la langue même de l’émotion, le rapport choisi entre les perceptions qui
+          en sont l’instrument, la « mise en œuvre ». Un chant national, quoique médiocre, peut nous
+          remuer profondément. L’air assez banal de Halévy, <hi rend="i">Jamais en France, jamais
+            Anglais ne régnera</hi>, aurait-il donc des valeurs d’art différentes, selon la haine
+          des auditeurs contre la perfide Angleterre ?</p>
+        <p>Laissons ces questions de philosophie pure<note place="bottom">Je prends la liberté de
+            renvoyer le lecteur au chap. <num>vii</num> de mon livre, <title>la Morale dans le
+              drame</title>, dont la 2<hi rend="sup">e</hi> édition est sous presse. Il y trouvera
+            le développement des idées sur lesquelles cette critique est établie.</note>. Aussi bien
+          M. H. avait-il raison de relever les émotions accessoires auxquelles chaque poète fait le
+          plus souvent appel. C’est un excellent moyen de l’<hi rend="i">analyse psychologique</hi>,
+          celle qui étudie l’œuvre, je le répète avec lui, <quote>« en tant que signe de l’homme qui
+            l’a produite »</quote>. Il rejette au dernier plan, nous l’avons dit, l’enquête
+          biographique. «<quote> C’est de l’examen seul de l’œuvre, déclare-t-il expressément
+            (p. 65), que l’analyste devra tirer les indications nécessaires pour étudier l’esprit de
+            l’auteur ou de l’artiste qu’il veut connaître, et le problème qu’il devra poser est
+            celui-ci : étant donnée l’œuvre d’un artiste, résumée en toutes ses particularités
+            esthétiques, de forme et de contenu, définir en termes de science, c’est-à-dire exacts,
+            les particularités de l’organisation mentale de cet homme. »</quote></p>
+        <p>Je ne mets pas en doute qu’on puisse atteindre à d’excellents résultats par la méthode
+          interrogative de M. H. Le raisonnement par lequel il la justifie (il faut lire dans
+          l’ouvrage ces pages intéressantes) est une <pb n="86" xml:id="p86"/>application très
+          étendue de l’adage célèbre de Buffon : <quote>le style, c’est l’homme</quote>. Je ne
+          saurais, toutefois, m’abstenir de remarquer qu’on ne saisit directement, par cette
+          méthode, que l’homme intellectuel<note place="bottom">Ou, plus justement peut-être,
+            l’homme intellectuel et l’homme moral, un peu de l’un, un peu de l’autre.</note> ; car
+          elle consiste à subordonner, à l’étude des caractères mentaux, celle des caractères
+          physiques, physiologiques, pathologiques et moraux de l’individu. Quelques pages de
+          biographie à la Sainte-Beuve, pour celle-là même, seraient d’un fort bon secours.
+          Connaîtrons-nous jamais la nature mentale de Sophocle, par exemple, aussi bien que celle
+          de Hugo ou de Racine, n’ayant que son œuvre à notre disposition ? Toute œuvre, du reste,
+          et c’est le cas pour la peinture, ne manifeste guère ces caractères intellectuels : le
+          raisonnement juste ou fautif, le jugement sain ou faux, la faculté forte ou faible de
+          généralisation, etc. Nous n’aurions pas tout Léonard de Vinci, si nous ignorions qu’il a
+          été géomètre. Il importe de savoir comment un peintre travaille, pour juger si l’attention
+          chez lui est forte ou faible, etc. Il pourrait arriver aussi que le témoignage de l’œuvre
+          fût menteur, et l’on ne saurait conclure sans erreur du sentiment religieux de leurs
+          tableaux à la sincère piété de tous les peintres italiens du <num>xv<hi rend="sup"
+            >e</hi></num> siècle. Passe donc pour renverser, en certains cas, l’ordre de l’enquête ;
+          mais je n’en voudrais pas faire une règle absolue, et je ne croirais pas pouvoir suppléer
+          si facilement <quote>« les notions de l’hérédité et de l’influence des milieux »</quote>,
+          quoique les lois en soient encore <quote>« incertaines et présomptives »</quote>.</p>
+        <p>M. H. fait le procès à ces notions dans l’<hi rend="i">analyse sociologique</hi>.
+          L’hérédité, la sélection naturelle qui s’opère entre les artistes et les facultés de
+          l’artiste, les lieux ou l’habitat, ces trois facteurs, juge-t-il, ne nous donnent pas
+          grand-chose, même entre les mains de Taine ; leurs influences sont indécises, et les
+          théories de ce puissant critique ne semblent ni justes dans leur rigueur, ni surtout
+          vérifiables. On en devra remplacer l’usage par l’estimation des groupes d’hommes où
+          l’œuvre a trouvé succès, et construire une psychologie des peuples sur le même fonds que
+          celle des individus.</p>
+        <p>Au point de vue historique, où nous sommes maintenant placés, les auteurs ne valent plus,
+          en effet, par leur origine et leurs qualités, mais par leur popularité. <quote>« La loi
+            qui règle, nous dit fort bien M. H., la naissance et la nature des génies et des talents
+            nous est inconnue ; nous savons seulement qu’aucune des hypothèses que l’on a émises sur
+            ces lois ne rend compte de tous les faits. Mais une fois le génie né, développé,
+            productif, commence un jeu d’attractions et de répulsions qui nous est accessible. Les
+            âmes qui retrouvent en cette œuvre leur âme, l’admirent, se groupent autour d’elle et se
+            séparent des hommes d’âme diverse… En d’autres termes (remarquons la fin de ce
+            paragraphe), la série des œuvres populaires d’un groupe donné écrit l’histoire
+            intellectuelle de ce groupe, une littérature exprime une nation, <pb n="87" xml:id="p87"
+            />non parce que celle-ci l’a produite, mais parce que celle-ci l’a adoptée et admirée,
+            s’y est complue et reconnue. »</quote></p>
+        <p>En ces quelques lignes se trouvent exprimées une doctrine et une méthode, qui ne marchent
+          pas nécessairement ensemble. Je dirai plus loin quelle est la doctrine. Parlons d’abord de
+          la méthode. Si elle est juste en partie, elle ne va pas sans difficultés. La statistique
+          de l’admiration, qui serait le principal instrument de la psychologie des peuples<note
+            place="bottom">Une psychologie des peuples, est-il besoin de le faire remarquer,
+            exigerait, outre la connaissance des événements artistiques, matière de l’<hi rend="i"
+              >esthopsychologie</hi>, celle des événements économiques, juridiques (moraux,
+            religieux) et intellectuels (développement des sciences, etc.).</note>, ne laisserait
+          pas d’être malaisée à dresser. Un même individu figurerait fréquemment sur plusieurs
+          listes de nos tableaux. On peut admirer dans l’œuvre d’autrui des qualités qu’on n’apporte
+          pas dans la sienne propre, ou qu’on ne possède point dans son propre caractère. Une part
+          énorme est à faire à la réclame, à la mode, dans le succès de certaines œuvres. Bref, il
+          existe de nombreuses causes d’erreur, qui vicieraient les résultats, et M. H. en a signalé
+          quelques-unes. Le rapport est enfin beaucoup plus lâche, il faut bien le dire, des
+          qualités de l’œuvre à celles de ses admirateurs, qu’il ne l’est à celles de son
+          auteur.</p>
+        <p>On est frappé aussi, au courant de la lecture, de voir M. H. restaurer quelquefois d’une
+          main ce qu’il a ruiné de l’autre. S’il nomme des artistes qui auraient été en opposition
+          avec le milieu social (p. 108), c’est donc que le milieu porte sa marque reconnaissable.
+          S’il nous dit que l’habitat ne modifie pas les traits généraux d’une race (p. 119), c’est
+          donc qu’une race possède des caractères généraux, suffisamment persistants, et qui
+          s’héritent. Il ne conteste pas, sans doute, ces influences de l’hérédité, de l’éducation,
+          etc., dont il récuse seulement l’emploi utile. Mais à négliger, ici surtout, les
+          caractères extérieurs, et à retirer, en quelque sorte, les données physiologiques des
+          données intellectuelles, on courrait le risque d’établir une description de peuples sans
+          racines dans le sol qui les nourrit, sans filiation entre eux, et peu s’en faut
+          incorporels.</p>
+        <p>M. H., rendons-lui toute justice, ne voulait pas cela, et il réintègre dans la <hi
+            rend="i">synthèse</hi>, par voie régressive, les données qu’il écartait de l’analyse. Il
+          entendait maintenant considérer l’œuvre <quote>« de front et du dehors, comme une force
+            dont le choc est à mesurer »</quote>. <quote>« L’effet de l’œuvre, écrit-il (p. 167),
+            étant l’émotion qu’elle suscite, et cette émotion accompagnant l’image sensible de son
+            contenu dans l’esprit de son sujet, c’est la reproduction de l’œuvre qu’il faudra
+            tenter, en l’accompagnant de son indice émotionnel. Ce sera en faire, en un autre terme,
+            la paraphrase. Relisant le livre, évoquant le tableau, faisant résonner à son esprit le
+            développement sonore de la symphonie, l’analyste, considérant ces ensembles comme tels,
+            les restaurant entiers, les reprenant et les subissant, devra en exprimer la perception
+              <pb n="88" xml:id="p88"/>vivante qui résulte du heurt de ces centres de force contre
+            l’organisme humain charnel, touché, passionné et saisi<note place="bottom">Suit ce
+              paragraphe extraordinaire (p. 168 et sq.) : <quote>« Le livre sera reproduit ainsi
+                comme un objet de lecture réelle sur lequel se seront fixés des yeux humains froids,
+                souriants, émerveillés, hagards, ou à demi clos d’une douleur qui se contient, yeux
+                d’hommes, las de vrais spectacles, limpides ou cruels yeux de femme, yeux ternes des
+                oisifs, yeux lumineux d’adolescent qui, se durcissant aux fictions, s’accoutument à
+                la vie. Saisie dans le jour blanc d’un musée ou fixée aux panneaux futilement ornés
+                d’un salon, la toile dont les pigments réfléchissent les diaprures incluses du
+                rayonnement solaire, refleurira par les mots, dans l’accord heurté ou doux à l’œil
+                de ses nuances stridentes ou tragiquement mortes, etc. »</quote> J’aurais honte de
+              citer ce morceau pour le vain plaisir de le déclarer mauvais ; mais il est bon
+              d’aviser les jeunes écrivains et de s’avertir soi-même du danger où l’on est d’écrire
+              en style décadent, lorsque, fût-on un maître, on cède à l’illusion d’enrichir le sens
+              par la bigarrure des mots.</note>. »</quote> Et enfin (p. 217), <quote>« saisissant
+            ainsi des intelligences telles quelles, les analysant avec une précision et une netteté
+            considérables et les replaçant ensuite par une minutieuse synthèse dans leurs familles,
+            leurs patries, leurs milieux, l’esthopsychologie, un ensemble d’études particulières de
+            cette science, sont appelés à vérifier les plus importantes théories de ce temps sur la
+            dépendance mutuelle des hommes, sur l’hérédité individuelle, sur l’influence de
+            l’entourage physique et social »</quote>.</p>
+        <p>Ainsi M. H., dans la synthèse, entend toujours <quote>« façonner un homme visible sur le
+            schéma de son intelligence »</quote> (p. 180). Mais l’étude des grands hommes permettra,
+          en vertu de son principe, de mesurer, avec une certaine approximation, l’effet de ces deux
+          forces, l’hérédité, le milieu, <quote>« dont les résultats, remarque-t-il avec raison,
+            sont d’autant moins discernables que la complexité sociale s’accroît »</quote> (p. 218).
+          Ici encore il faut distinguer, comme je l’ai fait plus haut, une règle méthodique,
+          laquelle consiste à passer de la psychologie des plus géniaux à ceux qui le sont au degré
+          moindre, et une doctrine, qui peut tenir en deux mots.</p>
+        <p>Une théorie des <hi rend="i">héros</hi>, mais non pas providentielle à la Carlyle, semble
+          être la pensée secrète de M. H. Il lui donne jour un peu partout dans son livre. La
+          connaissance des premières têtes suffira dès lors pour connaître le troupeau, la
+          connaissance de la tête pour connaître l’individu. Il avait été séduit des vues originales
+          de M. Tarde. Il admet avec lui <quote>« un principe d’individuation, qui crée à mesure les
+            types humains, et, entre autres, les types des artistes et des héros, — et un principe
+            de répétition qui agrège et soulève l’humanité à ces protagonistes, principe qui se
+            ramène, il y insiste, à une constatation ressentie de ressemblance entre les exemplaires
+            et les adhérents »</quote>. Et il ajoute : <quote>« Il est permis d’établir sur les
+            traces d’une hardie formule de M. G. Tarde une généralisation plus haute encore ; on
+            pourra remarquer que tous ces principes de ressemblance, de l’hérédité à l’adhésion,
+            sont des ressemblances actives, des ressemblances de force, des ressemblances de
+            vibration ; le type de tout le développement animal, humain et social, <pb n="89"
+              xml:id="p89"/>sera donc la vibration et la consonance qui, l’une, naît, l’autre,
+            répète et perpétue. »</quote></p>
+        <p>Je note, sans la discuter (on ne peut le faire en quelques lignes), cette idée maîtresse
+          de l’ouvrage. La méthode d’enquête proposée par M. H. n’est pas du reste, et cela
+          seulement m’importe à dire, effectivement liée à la doctrine qui la soutenait dans son
+          esprit. Cette méthode peut être bonne, si la doctrine est mauvaise, et défectueuse au
+          moins, si la doctrine est assurée. Le principe de ressemblance entre les exemplaires et
+          les adhérents affecte ici, dans la pratique, un sens que le « principe de répétition » ne
+          me paraît pas avoir dans la théorie.</p>
+        <p>Indiquer un ordre de travail, et avoir donné l’exemple d’une méthode, c’est la marque
+          d’un vigoureux et solide esprit : on en jugera déjà par l’application faite à Victor Hugo
+          dans l’appendice du livre même. Un plan d’étude ne saurait, d’ailleurs, constituer une
+          science nouvelle, au vrai sens du mot, et M. H. ne m’eût pas blâmé, je pense, de définir
+          plus exactement la critique scientifique : un système de recherches, pour servir à la
+          psychologie descriptive des individus et des groupes sociaux.</p>
+        <p>Les amis de cet écrivain justement regretté me pardonneront d’avoir soumis son ouvrage à
+          un sévère examen. Une approbation irréfléchie ne convient pas pour un travail de ce genre,
+          et les objections les mieux fondées ne lui ôteront pas sa réelle valeur. N’est-ce pas
+          honorer un pareil mort, que d’étudier son œuvre sérieusement afin de pouvoir en profiter ?
+          M. H. souhaitait de ne pas marcher seul dans la voie nouvelle où il s’était engagé. Ses
+          continuateurs seront d’autant plus libres et résolus, que les essais qui restent de lui,
+          et dont nous attendons la publication prochaine, auront fait voir les défauts de sa
+          méthode et en auront à la fois démontré les avantages.</p>
+        <byline><hi rend="sc">Lucien Arréat</hi>.</byline>
+      </div>
+    </body>
+  </text>
+</TEI>
