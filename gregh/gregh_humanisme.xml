@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-10T11:48:55+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L’humanisme (manifeste du <hi rend="i">Figaro</hi>)</title>
+        <author key="Gregh, Fernand (1873-1960)">Fernand Gregh (1873-1960)</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/gregh_humanisme/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Fernand Gregh</author>, <title><hi rend="i">« L’Humanisme », </hi>Le
+            Figaro</title>, <biblScope>48e année, 3e série, nº 346</biblScope>,
+            <date>12 décembre 1902</date>, <biblScope>p. 1</biblScope>. PDF : <ref
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k286083v">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1902"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>L’Humanisme</head>
+        <argument>
+          <p>L’article de notre éminent collaborateur M. A. Claveau sur « l’Humanisme »<note
+              resp="editor" place="bottom"><p>[NdE] Anatole Claveau, « L’Humanisme », <title>Le
+                  Figaro</title>, 48<hi rend="sup">e</hi> année, 3<hi rend="sup">e</hi> série,
+                nº 333, 29 novembre 1902, p. 1 (PDF : <ref
+                  target="https://gallica.bnf.fr/ark:/12148/bpt6k286070c/f1"
+                  >Gallica</ref>) :</p><quote><p>J’emprunte le titre et le sujet de cette chronique
+                  à un article du <title>Figaro</title>. Un « instantané », récemment dédié à
+                  M. Paul Bourde, nous apprend que, détachés de toutes les vieilles croyances, un
+                  certain nombre de penseurs « jeunes et hardis » se bornent maintenant à prêcher et
+                  à pratiquer <hi rend="i">l’humanisme</hi>.</p><p>Comme c’est avec des mots qu’on
+                  gouverne les hommes, et que le jour où les dieux s’en vont, les mots restent — <hi
+                    rend="i">nomina, numina</hi>, — il faut d’abord définir l’humanisme, s’entendre
+                  sur l’humanisme. Qu’est-ce que l’humanisme ?</p><p>Évidemment, dans l’esprit de
+                  ces jeunes philosophes, c’est le contraire du déisme ; c’est l’homme substitué à
+                  Dieu dans la conduite de la vie ; c’est une religion nouvelle qui rapporte tout à
+                  l’humanité, abstraction faite de la divinité, et qui prétend, au moyen de
+                  commandements spéciaux, nous enseigner nos devoirs envers cette humanité
+                  souveraine. Ce dogme nouveau supprime ce que, depuis une quarantaine d’années, on,
+                  appelait encore l’au-delà. Ses adeptes ne veulent plus en entendre parler. Ils le
+                  nient, ils se refusent le plus petit voyage dans cette région de l’inconnaissable
+                  que le renanisme laissait ouvert à nos rêveries. Ils déclarent n’en avoir pas
+                  besoin, ils se flattent d’assurer, sans ce reste de mythologie, le bonheur de
+                  l’homme par l’homme. Eh bien, soit ! Examinons.</p><p>J’ose leur objecter qu’à mon
+                  avis doctrine pèche par la base et qu’on en voit, du premier coup, la fragilité.
+                  Comment vous niez l’inconnaissable ! Mais croyez-vous qu’en le niant vous le
+                  supprimez ? Ne sentez-vous pas qu’il vous obsède et vous enveloppe ? À quoi bon le
+                  chasser, puisqu’il reste là, impassible, insondable, en face de vous ? Vous
+                  figurez-vous donc que l’esprit humain, que la raison humaine soit libre de fuir, à
+                  sa fantaisie, cet immense désert où elle se promène douloureusement tous les
+                  jours, sans eau ni ombrage ; et dont il faut absolument tenir compte, puisque
+                  l’univers même en est la plus éclatante manifestation. Elle est bien obligée de
+                  confesser ce mystère, même en ne le comprenant pas, même en n’y voyant goutte, et
+                  voilà déjà un formidable accroc à votre humanisme. Vous dites que cette brèche ne
+                  vous gêne pas ; mais vous ne pouvez y échapper que par le plus ridicule des
+                  enfantillages, en vous mettant un mouchoir sur les yeux. C’est la philosophie de
+                  Colin-Maillard.</p><p>Donc, la cause première, l’énigme du monde, premier
+                  obstacle. Il y en a un second qui est la nature humaine elle-même. Quoique vous
+                  fassiez, à côté de ces réalistes dont vous vous réclamez, il y aura toujours des
+                  idéalistes que vous ne convertirez pas, parce que certaines âmes ont leurs
+                  penchants, supérieurs à tous les systèmes. Espérez-vous aussi les supprimer ? Les
+                  empêcherez-vous de franchir vos barrières, de regarder au-delà de votre horizon ?
+                  Vous y ferez l’impossible, vous les catéchiserez et elles se croiront
+                  convaincues ; seulement, lorsqu’elles se seront jetées, se mentant à elles-mêmes,
+                  dans votre réalisme, dans votre humanisme, comme un désespéré se jette du haut
+                  d’un pont dans le flot noir qui tourbillonne à ses pieds, l’instinct de la
+                  conservation, le besoin de survie reprendra le dessus et vous verrez vos néophytes
+                  nager vigoureusement vers ces rives inconnues que vous prétendiez leur interdire.
+                  Notre âme, notre instinct — appelez-les comme vous voudrez — sont ainsi faits. On
+                  peut détruire les religions, on ne détruit pas le cœur de l’homme ; et il n’y a
+                  pas de philosophie qui tienne contre la force des choses.</p><p>Je me suis laissé
+                  dire qu’il y a une trentaine d’années, peu de temps après la, guerre, un groupe de
+                  quinze jeunes gens avait fondé une association — honni soit qui mal y pense — de
+                  chasteté. Ils furent sages deux jours ; mais, à la fin de la semaine, quatorze
+                  d’entre eux avaient donné leur démission, et il ne restait plus que le président,
+                  fidèle à son poste d’honneur — par respect humain.</p><ab type="ornament">*
+                  <lb/>*   *</ab><p>Ces deux énormes barricades — l’univers et l’homme, rien que
+                  cela — suffiraient pour déconcerter votre humanisme ; mais il a en lui-même ses
+                  vices rédhibitoires dont il ne pourra jamais se défaire. Il n’est pas nouveau,
+                  comme vous le croyez ; il est même vieux et absolument démodé, il date de 1830, il
+                  est tout entier chez Musset et les premiers romantiques :</p><quote><l>J’y saluerais
+                  d’abord l’homme qui s’est fait dieu.</l></quote><p>Vous le proclamez jeune et hardi, il
+                  m’apparaît très racorni, très timide. À peine a-t-il changé de forme. De poétique
+                  il est devenu scientifique. Vos aînés poussaient des cris, levaient les bras au
+                  ciel et protestaient contre sa surdité. Vous êtes plus calmes, j’en conviens, vous
+                  vous résignez, et même vous vous réjouissez ; vous organisez une propagande qui a
+                  l’air heureuse et contente. J’ai déjà expliqué pourquoi elle ne réussira pas. Un
+                  humanisme qui est un défi à la nature humaine ne peut pas avoir d’avenir ;
+                  j’ajoute qu’il n’a rien de tentant ni de séduisant en soi.</p><p>Quoi ! Pour ces
+                  quelques heures de vie, un peu monotones parfois, que nous passons sur la terre,
+                  nous allons nous donner tant de mal, écrire un bréviaire, rédiger un règlement,
+                  que la plupart d’entre nous n’auront même pas le temps d’observer ! Dans un livre
+                  éloquent — trop éloquent, hélas ! — M. Clemenceau disait, il y a quelques années :
+                  « Je n’ai rien de mieux à vous offrir ! » Alors, laissez-moi tranquille.
+                  Laissez-moi disposer de ma journée sans penser à demain. Vais-je me framboiser la
+                  cervelle pour un bail si court, pour une philosophie si bornée ? Vous voulez que
+                  je prenne tant de précautions pour être un peu moins mal couché dans votre
+                  misérable hôtellerie ! Allons donc ! Une mauvaise nuit est bientôt passée, et, au
+                  lieu de me mettre en peine, j’entends aller à l’aventure et sans autre souci
+                  jusqu’au bout de ce fossé où votre générosité m’annonce la culbute
+                  définitive.</p><ab type="ornament">* <lb/>*   *</ab><p>Votre humanisme,
+                  dites-vous, remplace avantageusement le déisme. Il est, à lui tout seul, la
+                  justice, la morale, la vérité. Il induira les hommes, sans autre évangile, à
+                  s’aimer et à s’aider les uns les autres. Jusqu’ici je ne m’en aperçois pas. Votre
+                  justice ne peut être que cette justice immanente, dont on parle sans y croire,
+                  parce qu’en effet les hommes sont quelquefois punis par où ils ont péché ; mais ce
+                  n’est qu’un hasard, qui n’a jamais effrayé les coquins ; ils n’ont pas plus peur
+                  de la justice immanente que de la justice éternelle ; peut-être même, dans son
+                  mystère, l’éternelle leur inspire-t-elle plus d’effroi que l’immanente, et c’est
+                  bien le cas de rappeler ce fameux dîner où Voltaire avait convié ses amis,
+                  Diderot, Helvétius, d’Alembert, d’Holbach, toute l’Encyclopédie. Ces messieurs se
+                  mirent à causer de leur marotte, et conclurent assez vite qu’il n’y avait pas de
+                  Dieu :</p><p>— Je le veux bien, dit Voltaire, mais éloignons les
+                  domestiques.</p><p>— Pourquoi ?</p><p>— Ils nous assassineraient demain !</p><p>Eh
+                  bien ! votre humanisme n’éloignera jamais tous les spectateurs indécis qui n’ont
+                  pas un respect suffisant de la vie humaine et de la propriété individuelle ils
+                  sont trop ! Le jour où vous aurez supprimé radicalement toute idée d’une justice
+                  supérieure à cette justice et à cette police qui n’atteignent pas les Humbert, la
+                  malice humaine brisera sa croûte et répandra sa lave comme un volcan. Ce sera la
+                  loi du plus fort et du plus canaille. J’entends que vous y pourvoirez par des
+                  guillotines et des prisons, signe évident d’humanisme ! « Sur le rivage, dit
+                  encore Voltaire, je vis une potence et reconnus que j’étais dans un pays
+                  civilisé. »</p><p>Vous ferez mieux, vous essayerez de persuader aux hommes qu’ils
+                  ont intérêt à être bons et sociables. Épicure l’a fait avant vous, sans réussir,
+                  il y a plus de deux mille ans. Vos intentions sont excellentes; vous prêchez la
+                  solidarité, l’assistance mutuelle et réciproque, en un mot l’altruisme. Je ne sais
+                  pas où sont vos altruistes, je n’ai encore vu que vos arrivistes !</p><ab
+                  type="ornament">* <lb/>*   *</ab><p>J’en conclus que votre humanisme n’est ni
+                  neuf, ni beau, ni bon ; mais on ne vous en veut pas pour cela. Si votre religion
+                  n’est pas jeune, vous êtes jeunes vous-mêmes et « la jeunesse est présomptueuse ;
+                  elle n’a pas encore été humiliée par la vie ; elle tend ses voiles de toutes parts
+                  à l’espérance qui l’enfle et la conduit ! » Malheureusement, vous n’ayez pas même
+                  ce bon vent en poupe, Vous ressemblez à ces chasseurs qui, faute de gibier, tirent
+                  sur d’innocentes hirondelles. Vous visez et vous tuez l’Espérance !</p><p>Y a-t-il
+                  quelque chose après nous ? Je n’en sais rien, ni vous non plus ; mais je proclame
+                  que si nous quittons pour toujours, dans un dernier soupir, ceux que nous aimons
+                  ou qui nous aiment, la vie n’est qu’une plate comédie qui ne vaut pas la peine
+                  d’être jouée ni vue. Les humanistes peuvent ajouter à cette farce tous les <hi
+                    rend="i">béquets</hi> possibles, ils ne la rendront pas meilleure, parce que
+                  c’est le fond qui en est mauvais. Il constitue le pire des attentats contre la
+                  justice, un mélo qui ne saurait faire recette et tenir sérieusement l’affiche.
+                  Ici, c’est la conscience elle-même qui proteste. Elle demande, elle exige un
+                  épilogue.</p><p rend="right"><hi rend="b">A. Claveau</hi>.</p></quote><p>L’article
+                répondait à une chronique signée Le Masque de Fer, « Échos. Instantané. M. Paul
+                Bourde », <hi rend="i">Le Figaro</hi>, 48<hi rend="sup">e</hi> année, 3<hi
+                  rend="sup">e</hi> série, nº 329, 25 novembre 1902, p. 1 (PDF : <ref
+                  target="https://gallica.bnf.fr/ark:/12148/bpt6k2860669/f1"
+                  >Gallica</ref>) :</p><quote><p>M. Paul Bourde est le conseiller intime,
+                  l’inspirateur habituel de l’éminent auteur dramatique qui vient de faire
+                  représenter, au théâtre de la Porte-Saint-Martin, ce drame poignant : <title>Nos
+                    Deux Consciences</title>.</p><p>L’administration des affaires humaines, quand on
+                  l’exerce de très haut et qu’on y apporte un esprit dégagé de toute routine
+                  égoïste, est apparemment une excellente préparation à la philosophie humaniste et
+                  à l’étude rationnelle des mœurs contemporaines. Longtemps associé, par de hautes
+                  fonctions, au protectorat de la Tunisie, adjoint ensuite au gouvernement général
+                  de Madagascar, M. Paul Bourde a eu mainte occasion d’observer, de manier les
+                  hommes. C’est pourquoi il les a pris en pitié. Mais sa pitié n’a rien de
+                  dédaigneux. Au contraire, il est touché jusqu’au fond du cœur par les
+                  contradictions d’idées et de sentiments qui tourmentent l’humanité. Il souffre de
+                  voir tant de braves gens, désireux de bien faire, et séparés par d’irréductibles
+                  divergences de doctrines. Dans ce drame généreux, où M. Coquelin a révélé la forme
+                  nouvelle d’un talent apte décidément à toutes les métamorphoses, M. Paul Bourde a
+                  mis en présence les deux doctrines qui se disputent l’adhésion de l’humanité
+                  civilisée d’une part, l’appétit du sacrifice, du renoncement, de l’abnégation, et
+                  l’espoir d’un « au-delà » où toutes les injustices de notre condition terrestre
+                  seront réparées d’autre part, l’acceptation réfléchie de la vie présente, et le
+                  ferme propos d’ennoblir cette vie par le progrès continu de l’harmonie, de la
+                  justice et de la liberté (c’est le problème que vient de poser si crânement
+                  Mme Marcelle Tinayre dans <title>la Maison du Péché</title>). On sait de quel côté
+                  penche M. Paul Bourde. Certes, il a trop d’impartialité dans l’esprit et dans le
+                  cœur pour ne point rendre justice aux croyances dont il s’est librement détaché.
+                  Mais il proclame, lui aussi, avec toutes les âmes jeunes et hardies de notre
+                  temps, cette doctrine de l’<hi rend="i">humanisme</hi>, qui s’empare actuellement
+                  de toute la civilisation moderne et qui dirige en un sens très déterminé la
+                  littérature, l’art, la politique, la sociologie d’aujourd’hui et de demain.</p><p
+                  rend="right"><hi rend="b">Le Masque de Fer</hi>.</p></quote></note> ayant vivement
+            ému la jeune école littéraire qui s’inspire de cette doctrine, nous avons cru
+            intéressant et utile, pour la loyauté de la discussion, de mettre sous les yeux de nos
+            lecteurs la réponse de M. Fernand Gregh qui, par ses beaux poèmes <title>la Maison de
+              l’Enfance</title> et <title>la Beauté de vivre</title>, s’est placé au premier rang de
+            la nouvelle génération poétique.</p>
+        </argument>
+        <ab type="ornament">———</ab>
+        <p>Ce n’est pas sans une certaine surprise que la jeunesse littéraire a lu l’autre jour, en
+          tête du <title>Figaro</title>, un article de M. A. Claveau, excellent humaniste, contre
+          l’humanisme. Je voudrais essayer ici d’opposer à son réquisitoire quelques-unes des
+          raisons qui militent en faveur de cet « humanisme », auquel il attribue d’ailleurs des
+          torts dont cette doctrine ne me paraît pas coupable.</p>
+        <p>La réfutation de M. Claveau, en effet, se trompe d’adresse. Il considère l’humanisme
+          comme une philosophie, voire une religion qu’il oppose au déisme, alors que c’est avant
+          tout une esthétique, et même essentiellement une poétique. Peut-être se récriera-t-il à ce
+          mot : il s’en allait en guerre contre un parti d’athées, et le voici qui tombe dans une
+          assemblée de poètes. Je lui demande bien pardon de la déconvenue qu’il en pourra éprouver.
+          Avouerai-je d’ailleurs, pour lui donner raison en une certaine mesure, que l’humanisme,
+          comme beaucoup de théories littéraires, pousse des rameaux jusque dans la morale et dans
+          ce qu’il faut bien appeler, d’un mot barbare, la sociologie ? Cela n’a, au reste, rien qui
+          doive surprendre. Toute esthétique est, en somme, une conception de la vie appliquée au
+          cas particulier de l’art. Il y a un philosophe inconscient dans tout poète digne de ce
+          nom. C’est pourquoi mainte théorie, qui n’était d’abord que poétique, a fini par résumer
+          toute la pensée d’une époque : ainsi pour la Renaissance, ainsi pour le Romantisme. Je ne
+          serais pas étonné que ce mot d’« humanisme » fût celui même sous lequel on résumera plus
+          tard l’effort confus et magnifique de notre temps.</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Les deux dernières écoles poétiques qui aient fleuri en France sont le Parnasse et le
+          Symbolisme. La théorie du Parnasse a été celle de l’art pour l’art, ou plus exactement de
+          la beauté pour la beauté. Agnostiques de l’art, les parnassiens ont restreint le champ de
+          la poésie, comme l’agnosticisme avait restreint le domaine de la philosophie. Pour que la
+          beauté fût plus belle encore, ils ont voulu la faire moins vivante. On se rappelle leur
+          théorie de l’impassibilité, formulée par réaction contre le Romantisme, qui leur semblait
+          trop échevelé. La beauté à leurs yeux devait être marmoréenne. Un poète, qui plus tard fit
+          exactement — et heureusement ! — le contraire de ce qu’il avait annoncé, résumait alors
+          avec une ingénuité d’enfant terrible l’idéal parnassien en ce vers agressif :</p>
+        <quote>
+          <l>Est-elle en marbre, ou non, la Vénus de Milo ?</l>
+        </quote>
+        <p>Les parnassiens dépersonnalisèrent, objectivèrent l’inspiration ; ils interdirent à la
+          Muse la passion, à leur gré trop tumultueuse pour les beaux plis de sa tunique, et
+          l’enfermèrent, selon une formule depuis lors banalisée, dans la Tour d’Ivoire. Chacun
+          d’eux a répété :</p>
+        <quote>
+          <l>Je hais le mouvement qui déplace les lignes,</l>
+          <l>Et jamais je ne pleure et jamais je ne ris.</l>
+        </quote>
+        <p>Mais, bien qu’ils y revinssent toujours comme en leur citadelle inexpugnable, les
+          parnassiens sortirent souvent de la belle tour close où ils adoraient à l’écart l’idole
+          hiératique : témoin Leconte de Lisle, dont la poésie, si impassible qu’elle veuille être,
+          laisse souvent deviner la pensée généreuse et entendre le cœur palpitant; témoin Sully
+          Prudhomme, si préoccupé de justice et de bonheur, et qui loua André Chénier d’avoir
+          uni</p>
+        <quote>
+          <l>Le laurier du poète à la palme du juste;</l>
+        </quote>
+        <p rend="noindent">et Anatole France, dont <title>les Noces corinthiennes</title> ont pu
+          sembler, vingt ans après avoir été écrites, une pièce d’actualité ; et le tendre et
+          nostalgique Dierx, et Catulle Mendès, dont la fantaisie est si moderne, et Coppée, penché
+          sur les humbles, et Heredia enfin, le somptueux conquistador épris des époques reculées et
+          des rivages lointains, qui un jour, se souvenant qu’il était un homme d’aujourd’hui et
+          appartenait à un « peuple libre », consentit à dresser un beau « trophée » en plein Paris,
+          sur le pont Alexandre.</p>
+        <p>Les symbolistes, eux, qui, bien qu’ils aient combattu les parnassiens avec un acharnement
+          souvent injuste, sont leurs continuateurs, en ce sens qu’ils ont transporté l’objectivité
+          parnassienne de la terre dans les nuées, les symbolistes, par une hautaine gageure,
+          prirent pour objet le Mystère. Si les parnassiens sont des agnostiques, les symbolistes
+          sont des mystiques. La théorie des parnassiens, <hi rend="i">la beauté pour la
+          beauté</hi>, devint chez eux celle de <hi rend="i">la beauté pour le rêve</hi>. Ils
+          négligèrent délibérément non plus seulement la vie subjective, le moi romantique, mais la
+          vie entière, subjective et objective, toute la vie ; ils se cloîtrèrent dans le Rêve. Ils
+          habitèrent la Tour d’ivoire un étage au-dessus des parnassiens, plus loin encore de la
+          terre. Et la Tour d’Ivoire des parnassiens était du moins, elle, éclatante au soleil ;
+          certains symbolistes amassèrent une nuit presque impénétrable autour de leur demeure, et
+          ce fut souvent la Tour d’Ébène.</p>
+        <p>Je ne voudrais pour rien au monde être injuste envers les symbolistes. Ils ont eu une
+          très haute idée de la poésie ; ils ont suscité une utile réaction contre les
+          arrière-romantiques, trop exclamatifs, et les sous-parnassiens, trop prosaïques. Et de
+          plus, et surtout, ils ont continué de libérer la vieille prosodie, ce dont il faut leur
+          être grandement reconnaissants. Ce sont eux qui ont achevé de « disloquer », comme disait
+          Hugo, « ce grand niais d’alexandrin ». Le vers libre lui-même, je le crois, est capable de
+          vraies beautés, s’il sait à la fois, selon la remarque récente d’un des esprits les plus
+          indépendants du symbolisme, « se symétriser et se styliser ». Faisons crédit parfois, avec
+          M. Bergeret, à la beauté inconnue. Toute licence, ajouterions-nous volontiers, sauf contre
+          la vie. — Comme les symbolistes devaient beaucoup aux parnassiens, les humanistes, — et
+          sous cette dénomination on peut ranger tous les jeunes poètes qui ne sont pas à proprement
+          parler parnassiens ou symbolistes, — doivent tous quelque chose à ces derniers, parmi
+          lesquels certains d’entre eux comptent d’anciennes et précieuses amitiés. Il n’est guère
+          de jeune poète qui n’ait d’abord voisiné avec eux dans la chambre aux miroirs avant de
+          rentrer, selon l’expression d’Albert Samain, <quote>« dans la vérité de son cœur »</quote>. L’œuvre du
+          Symbolisme est et restera fort importante.</p>
+        <p>Mais enfin la poésie des symbolistes — et les meilleurs d’entre eux l’avouent — a exprimé
+          des rêves abscons et froids, et non la vie. Ils ont créé tout un décor de glaives,
+          d’urnes, de cyprès, de chimères et de licornes qui s’en va déjà rejoindre au magasin des
+          accessoires surannés le décor romantique, les nacelles, les écharpes, les gondoles, les
+          seins brunis et les saules, les cimeterres et les dagues qui en 1850 avaient déjà cessé de
+          plaire. Ils ont abusé du bizarre, de l’abstrus, ils ont souvent parlé un jargon qui
+          n’avait rien de français, ils ont épaissi des ténèbres factices sur des idées qui ne
+          valaient pas toujours les honneurs du mystère. Ils avaient d’abord arboré le nom de
+          décadents sous lequel on les a trop facilement ridiculisés et qu’ils ont vite abandonné
+          pour celui plus relevé de symbolistes; mais on aurait dit parfois qu’ils voulaient donner
+          un sens rétrospectif à leur première dénomination. Leur inspiration fut trop souvent
+          byzantine. Ils se sont d’abord interdit comme trop vile toute poésie à tendances
+          philosophiques, ou religieuses, ou sociales. Ensuite, même ce qui est individuel chez les
+          symbolistes s’exprime d’une façon si indirecte que l’obscurité en voile souvent l’émotion.
+          Jamais, chez eux, un aveu personnel, un cri, un battement de cœur. Tout est secret,
+          enveloppé, allégorique. Les symbolistes ont fait un rêve irréalisable, celui d’exprimer le
+          pur mystère et la beauté pure. Le mystère sans un peu de clarté, c’est le néant absolu, et
+          la beauté sans la vie, c’est une forme inconsistante qui échappe à l’étreinte de
+          l’artiste.</p>
+        <p>Qu’a-t-il manqué souvent aux parnassiens et aux symbolistes pour nous satisfaire
+          pleinement? L’humanité. Ils n’ont voulu être que des artistes, et ils furent tels. Ils
+          n’ont pas songé que ce qui nous intéresse dans l’artiste, c’est l’homme, car c’est
+          l’humanité qui est la commune mesure entre lui et nous. Nous qui venons après eux,
+          instruits par leur exemple, nous rêvons un art plus enthousiaste à la fois et plus tendre,
+          plus intime et plus large, un art direct, vivant, et d’un mot qui résume tout : humain.
+          Nous voulons une poésie qui dise l’homme, et tout l’homme, avec ses sentiments et ses
+          idées, et non seulement ses sensations, ici plus plastiques, là plus musicales. Tous les
+          grands poètes de tous les temps, en même temps que des artistes, étaient des hommes,
+          c’est-à-dire des pères, des fils, des amants, des citoyens, des philosophes ou des
+          croyants. C’est de leur vie même qu’étaient faits leurs rêves. Après l’école de la beauté
+          pour la beauté, après l’école de la beauté pour le rêve, il est temps de constituer
+          l’école de la beauté pour la vie.</p>
+        <p>Nous ne proscrivons pas le symbole ; mais qu’il soit clair. Un beau symbole obscur, c’est
+          un beau coffret dont on n’a pas la clef. Il y a d’admirables symboles dans Vigny ; mais on
+          les comprend. On peut dire de façon intelligible les choses les plus profondes. Accumulez
+          les symboles tant que vous voudrez, pourvu que derrière on sent battre un cœur d’homme et
+          penser une tête harmonieuse. Nous sommes las d’une certaine impassibilité et d’une
+          certaine incohérence.</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Puisque les poètes d’une génération sont nécessairement amenés à se grouper sous une
+          appellation commune, je crois que le mot le plus juste qui puisse qualifier le mouvement
+          de la nouvelle génération est le beau mot, rajeuni et élargi encore à cette occasion,
+          d’Humanisme. Il signifie bien que nous voulons réaliser une poésie humaine ; après la
+          poésie trop strictement artiste du Parnasse ou trop obscurément abstraite du Symbolisme.
+          Il renoue heureusement, la tradition avec l’admirable Pléiade, qui, délaissant les
+          allégories du moyen âge, et remontant à l’art antique, source de toute beauté, sut
+          retrouver sous les humanités l’humanité. Par la Pléiade, il nous rattache à l’antiquité,
+          d’une part, à Chénier et au Romantisme de l’autre ; car, comme tous les novateurs, nous
+          sommes les vrais traditionnels. Enfin il indique bien notre point de vue sur le monde — et
+          c’est ici que M. Claveau retrouverait l’occasion de discuter philosophie — qui est, lui
+          aussi, tout humain. Nous ne sommes ni mystiques ni sceptiques. Nous sommes plongés dans la
+          vie : il faut la comprendre et la vivre. Mais je ne veux faire allusion qu’en passant aux
+          lointaines conséquences de l’humanisme au point de vue philosophique, religieux, politique
+          et moral. Je me bornerai aussi à indiquer, la relation immédiate qui s’établira entre la
+          poésie humaine, d’une part et, d’autre part, un théâtre ou un roman humains dont on
+          pourrait citer déjà maints exemples.</p>
+        <p>Poètes, chantons la vie : c’est notre vraie façon, à nous, d’y collaborer. Accomplissons
+          notre tâche sur la terre, qui est d’inscrire en des paroles belles le rêve que fait
+          l’homme à ce moment du temps infini, pour le transmettre à ceux qui nous succéderont. Et
+          que chacun de nous, en jetant plus tard un regard sur son œuvre terminée, avant de s’en
+          aller dans l’inconnu terrible, puisse se dire comme tous ceux dont la vie a été bien
+          remplie par les labeurs humains : « Je fus un homme. Quoi qu’il y ait après la mort, je
+          n’en ai pas peur. Que ce soit le grand soleil ineffable de Dieu ou le grand soleil noir du
+          néant, je saurai le regarder en face, sans être aveuglé par la lumière, sans être ébloui
+          par l’ombre. Je fus un homme. »</p>
+        <p>Poètes d’aujourd’hui et de demain — et par ce mot j’entends, au beau sens étymologique,
+          tous ceux qui créent, — soyons des <hi rend="i">hommes</hi> !</p>
+        <signed>
+          <hi rend="b">Fernand Gregh</hi>.</signed>
+      </div>
+    </body>
+  </text>
+</TEI>

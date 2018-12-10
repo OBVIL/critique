@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-09T12:16:56+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Terre. À Émile Zola (manifeste du <hi rend="i">Figaro</hi>)</title>
+        <author key="Bonnetain, Paul (1858-1899)">Paul Bonnetain</author>
+        <author key="Descaves, Lucien (1861-1949)">Lucien Descaves</author>
+        <author key="Guiches, Gustave (1860-1935)">Gustave Guiches</author>
+        <author key="Margueritte, Paul (1860-1918)">Paul Margueritte</author>
+        <author key="Rosny, J.-H. (1859-1948)">J.-H. Rosny</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/collectif_terre-a-emile-zola/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title><hi rend="i">« La Terre. À Émile Zola », </hi>Le Figaro</title>,<biblScope> nº 230</biblScope>, <date>18 août 1887</date>, <biblScope>p. 1</biblScope>. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k2801256">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1887"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+      <head><title>La Terre</title>. 
+<lb/>À Émile Zola</head>
+      <p>Naguère encore, Émile Zola pouvait écrire, sans soulever de récriminations sérieuses, qu’il avait avec lui la jeunesse littéraire. Trop peu d’années s’étaient écoulées depuis l’apparition de l’<title>Assommoir</title>, depuis les fortes polémiques qui avaient consolidé les assises du Naturalisme, pour que la génération montante songeât à la révolte. Ceux-là mêmes que lassaient plus particulièrement la répétition énervante des clichés se souvenaient trop de la trouée impétueuse faite par le grand écrivain, de la déroute des romantiques.</p>
+      <p>On l’avait vu si fort, si superbement entêté, si crâne, que notre génération, malade presque tout entière de la volonté, l’avait aimé rien que pour cette force, cette persévérance, cette crânerie. Même les Pairs, même les Précurseurs, les Maîtres originaux, qui avaient préparé de longue main la bataille, prenaient patience en reconnaissance des services passés.</p>
+      <ab type="ornament">———</ab>
+      <p>Cependant, dès le lendemain de l’<title>Assommoir</title>, de lourdes fautes avaient été commises. Il avait semblé aux jeunes que le Maître, après avoir donné le branle, lâchait pied, à l’exemple de ces généraux de révolution dont le ventre a des exigences que le cerveau encourage. On espérait mieux que de coucher sur le champ de bataille, on attendait la suite de l’élan, on espérait de la belle vie infusée au livre, au théâtre, bouleversant les caducités de l’art.</p>
+      <p>Lui, cependant, allait, creusant son sillon ; il allait, sans lassitude, et la jeunesse le suivait, l’accompagnait de ses bravos, de sa sympathie si douce aux plus stoïques ; il allait, et les plus vieux ou les plus sagaces fermaient dès lors les yeux, voulaient s’illusionner, ne pas voir la charrue du Maître s’embourber dans l’ordure. Certes, la surprise fut pénible de voir Zola déserter, émigrer à Médan, consacrant les efforts — légers à cette époque —, qu’eût demandés un organe de lutte et d’affermissement, à des satisfactions d’un ordre infiniment moins esthétique. N’importe ! la jeunesse voulait pardonner la désertion physique de l’homme ! Mais une désertion plus terrible se manifestait déjà : la trahison de l’écrivain devant son œuvre.</p>
+      <p>Zola, en effet, parjurait chaque jour davantage son programme. Incroyablement paresseux à l’expérimentation <hi rend="i">personnelle</hi>, armé de documents de pacotille ramassés par des tiers, plein d’une enflure hugolique, d’autant plus énervante qu’il prêchait âprement la simplicité, croulant dans des rabâchages et des clichés perpétuels, il déconcertait les plus enthousiastes de ses disciples.</p>
+      <p>Puis, les moins perspicaces avaient fini par s’apercevoir du ridicule de cette soi-disant « <title>Histoire Naturelle et Sociale d’une famille sous le Second Empire</title> », de la fragilité du fil héréditaire, de l’enfantillage du fameux arbre généalogique, de l’ignorance médicale et scientifique profonde du Maître.</p>
+      <p>N’importe, on se refusait, même dans l’intimité, à constater carrément les mécomptes. On avait des : « Peut-être aurait-il dû… », des « Ne trouvez-vous pas qu’un peu moins de… », toutes les timides observations de lévites déçus qui voudraient bien ne pas aller jusqu’au bout de leur désillusion. Il était dur de lâcher le drapeau ! Et les plus hardis n’allaient qu’à chuchoter qu’après tout Zola n’était pas le naturalisme et qu’on n’<hi rend="i">inventait</hi> pas l’étude de la vie réelle après Balzac, Stendhal, Flaubert et les Goncourt ; mais personne n’osait l’écrire, cette hérésie.</p>
+      <ab type="ornament">———</ab>
+      <p>Pourtant, incoercible, l’écœurement s’élargissait, surtout devant l’exagération croissante des indécences de la terminologie malpropre des Rougon-Macquart. En vain, excusait-on tout par ce principe émis dans une préface de <title>Thérèse Raquin</title> :</p>
+      <quote>
+        <p>« Je ne sais si mon roman est moral ou immoral ; j’avoue que je ne me suis jamais inquiété de le rendre plus ou moins chaste. Ce que je sais, c’est que je n’ai jamais songé à y mettre les saletés qu’y découvrent les gens moraux ; c’est que j’en ai décrit chaque scène, même les plus fiévreuses, avec la seule curiosité du savant. »</p>
+      </quote>
+      <p>On ne demandait pas mieux que de croire, et même quelques jeunes avaient, par le besoin d’exaspérer le bourgeois, exagéré <hi rend="i">la curiosité du savant</hi>. Mais il devenait impossible de se payer d’arguments : la <hi rend="i">sensation</hi> nette, irrésistible, venait à chacun devant telle page des <title>Rougon</title>, non plus d’une brutalité de document, mais d’un violent parti-pris d’obscénité. Alors, tandis que les uns attribuaient la chose à une maladie des bas organes de l’écrivain, à des manies de moine solitaire, les autres y voulaient voir le développement <hi rend="i">inconscient</hi> d’une boulimie de vente, une habileté <hi rend="i">instinctive</hi> du romancier percevant que le gros de son succès d’éditions dépendait de ce fait que <quote>« les imbéciles achètent les <title>Rougon-Macquart</title> enchaînés, non pas tant par leur qualité littéraire, que par la réputation de pornographie que la <hi rend="i">vox populi</hi> y a attachée »</quote>.</p>
+      <ab type="ornament">———</ab>
+      <p>Or, il est bien vrai que Zola <hi rend="i">semble</hi> excessivement préoccupé (et ceux d’entre nous qui l’ont entendu causer ne l’ignorent pas) de la question de vente ; mais il est notoire aussi qu’il a vécu de bonne heure à l’écart et qu’il a exagéré la continence, d’abord par nécessité, ensuite par principe. Jeune, il fut très pauvre, très timide, et la femme, qu’il n’a point connue à l’âge où l’on doit la connaître, le hante d’une vision évidemment fausse. Puis, le trouble d’équilibre qui résulte de sa maladie rénale contribue sans doute à l’inquiéter outre mesure de certaines fonctions, le pousse à grossir leur importance. Peut- être Charcot, Moreau (de Tours) et ces médecins de la Salpêtrière qui nous firent voir leurs coprolaliques pourraient- ils déterminer les symptômes de son mal… Et, à ces mobiles morbides, ne faut-il pas ajouter l’inquiétude si fréquemment observée chez les misogynes, de même que chez les tout jeunes gens, qu’on ne nie leur compétence en matière d’amour?…</p>
+      <ab type="ornament">———</ab>
+      <p>Quoi qu’il en soit, jusqu’en ces derniers temps encore, on se montrait indulgent ; les rumeurs craintives s’apaisaient devant une promesse : <title>La Terre</title>. Volontiers espérait-on la lutte du grand littérateur avec quelque haut problème, et qu’il se résoudrait à abandonner un sol épuisé. On aimait se représenter Zola vivant parmi les paysans, amassant des documents personnels, intimes, analysant patiemment des tempéraments de ruraux, recommençant, enfin, le superbe travail de l’<title>Assommoir</title>. L’espoir d’un chef-d’œuvre tenait tout le monde en silence. Certes, le sujet, simple et large, promettait des révélations curieuses.</p>
+      <p><title>La Terre</title> a paru. La déception a été profonde et douloureuse. Non seulement l’observation est superficielle, les trucs démodés, la narration commune et dépourvue de caractéristiques, mais la note ordurière est exacerbée encore, descendue à des saletés si basses que, par instants, on se croirait devant un recueil de scatologie : le Maître est descendu au fond de l’immondice.</p>
+      <ab type="ornament">———</ab>
+      <p>Eh bien ! cela termine l’aventure. Nous répudions énergiquement cette imposture de la littérature véridique, cet effort vers la gauloiserie mixte d’un cerveau en mal de succès. Nous répudions ces bonshommes de rhétorique zoliste, ces silhouettes énormes, surhumaines et biscornues, dénuées de complication, jetées brutalement, en masses lourdes, dans des milieux aperçus au hasard des portières d’express. De cette dernière œuvre du grand cerveau qui lança l’<title>Assommoir</title> sur le monde, de cette <title>Terre</title> bâtarde, nous nous éloignons résolument, mais non sans tristesse. Il nous poigne de repousser l’homme que nous avons trop fervemment aimé.</p>
+      <p>Notre protestation est le cri de probité, le dictamen de conscience de jeunes hommes soucieux de défendre leurs œuvres — bonnes ou mauvaises — contre une assimilation possible aux aberrations du Maître. Volontiers nous eussions attendu encore, mais désormais le temps n’est plus à nous : demain il serait trop tard. Nous sommes persuadés que <title>la Terre</title> n’est pas la défaillance éphémère du grand homme, mais le reliquat de compte d’une série de chutes, l’irrémédiable dépravation morbide d’un chaste. Nous n’attendons pas de lendemain aux <title>Rougon</title> ; nous imaginons trop bien ce que vont être les romans sur les <hi rend="i">Chemins de fer</hi>, sur l’<hi rend="i">Armée</hi> : le fameux arbre généalogique tend ses bras d’infirme, sans fruits désormais !</p>
+      <ab type="ornament">———</ab>
+      <p>Maintenant, qu’il soit bien dit une fois de plus que, dans cette protestation, aucune hostilité ne nous anime. Il nous aurait été doux de voir le grand homme poursuivre paisiblement sa carrière. La décadence même de son talent n’est pas le motif qui nous guide, c’est l’anomalie compromettante de cette décadence. Il est des compromissions impossibles : le titre de naturaliste, spontanément accolé à tout livre puisé dans la réalité, ne peut plus nous convenir. Nous ferions bravement face à toute persécution pour défendre une cause juste ; nous refusons de participer à une dégénérescence inavouable.</p>
+      <p>C’est le malheur des hommes qui représentent une doctrine qu’il devient impossible de les épargner le jour où ils compromettent cette doctrine. Puis, que ne pourrait-on dire à Zola, qui a donné tant d’exemples de franchise même brutale ? N’a-t-il pas chanté le <hi rend="i">struggle for life</hi>, et le <hi rend="i">struggle</hi> sous sa forme niaise, incompatible avec les instincts d’une haute race, le <hi rend="i">struggle</hi> autorisant les attaques violentes ? « Je suis une force », criait-il, écrasant amis et ennemis, bouchant aux survenants la brèche qu’il avait lui-même ouverte.</p>
+      <p>Pour nous, nous repoussons l’idée d’irrespect, pleins d’admiration pour le talent immense qu’a souvent déployé l’homme. Mais est-ce notre faute si la formule célèbre : <quote>« un coin de nature vu à travers un tempérament »</quote>, se transforme à l’égard de Zola, en « un coin de nature vu à travers un <hi rend="i">sensorium morbide</hi> », et si nous avons le devoir de porter la hache dans ses œuvres ? Il faut que le jugement public fasse balle sur <hi rend="i">la Terre</hi>, et ne s’éparpille pas, en décharge de petit plomb, sur les livres sincères de demain.</p>
+      <p>Il est nécessaire que, de toute la force de notre jeunesse laborieuse, de toute la loyauté de notre conscience artistique, nous adoptions une tenue et une dignité en face d’une littérature sans noblesse, que nous protestions au nom d’ambitions saines et viriles, au nom de notre culte, de notre amour profond, de notre suprême respect pour l’<hi rend="i">Art</hi>.</p>
+      <signed>Paul Bonnetain. 
+<lb/>J.-H. Rosny. 
+<lb/>Lucien Descaves. 
+<lb/>Paul Margueritte. 
+<lb/>Gustave Guiches.</signed>
+      </div>
+    </body>
+  </text>
+</TEI>

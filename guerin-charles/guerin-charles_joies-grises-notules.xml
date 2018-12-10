@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-10T12:29:45+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Notules (<hi rend="i">Joies grises</hi>)</title>
+        <author key="Guérin, Charles (1873-1907)">Charles Guérin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/guerin-charles_joies-grises-notules/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Charles Guérin</author>, <title><hi rend="i">« Notules », in </hi>L’Agonie du
+            Soleil. I. Joies grises</title>, <pubPlace>Paris</pubPlace>,
+            <publisher>P. Ollendorff</publisher>, <date>1894</date>,
+            <biblScope>p. 173-184</biblScope>. PDF : <ref
+            target="https://archive.org/details/joiesgrisesprf00guuoft">Internet
+          Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1894"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="173"/>
+        <head>Notules</head>
+        <p>Quoiqu’on ait déjà dit beaucoup de l’assonance, j’ai cru peut-être utile de reproduire
+          ici une courte étude naguères parue dans la <title>Marche de France</title> et qui servira
+          de postface à une récente plaquette, <title>Fleurs de Neige</title>, et à ce présent
+          livre.</p>
+        <div>
+          <head>De l’assonance</head>
+          <div>
+            <head>I</head>
+            <p>Aux saisons d’amour, en d’anciens printemps, l’invite d’un rossignol à de joyeux
+              déduyts, sous les feuillées claires de rosée, perpétuée, — telle dut naître
+              l’assonance. —</p>
+            <p>Le chant, très lointain d’abord, se rapproche et se pose emmi les buissons voisins,
+              plus net, aux modulations infiniment variées : la rime.</p>
+            <p>Ainsi voici la genèse : l’assonance engendre la rime <pb n="174"/><hi rend="i"
+                >suffisante</hi> qui donne naissance à la rime pleine ; il y a eu successivement
+              identité dans le dernier mot du vers — du son de la voyelle tonique, de l’articulation
+              finale et initiale.</p>
+            <p>Et comme exemple :</p>
+            <quote>
+              <l rend="i">Telle était la chanson que soupiraient les roses</l>
+              <l rend="i">À l’heure où sur les champs soufflent les brises chaudes,</l>
+              <l rend="i">Où les chiens endormis au seuil des fermes closes</l>
+              <l rend="i">Rêvent obscurément en des poses moroses.</l>
+            </quote>
+            <p>L’assonance certes produit sur l’oreille un effet moins sensible que la rime. — Au
+              temps jadis, où l’on assonançait, il fallut, prétend-on, suppléer à la faiblesse des
+              sons par leur répétition persistante ; ceci pour dessiner suffisamment la mesure. À
+              mon avis il y a là une erreur. C’était uniquement par plaisir que les trouvères
+              — dénotant ainsi un étrange manque de goût — jonglaient avec un même son, en des
+              suites de vers indéfinies. La preuve en est qu’on trouve dans les chansons de geste
+              — voire le roman de Pépin et de Berte — de longues laisses monorimes ; je dis <hi
+                rend="i">monorimes</hi>. Ce fut donc une jouissance désintéressée et non la
+              nécessité qui poussa les poètes à de telles fantaisies.</p>
+            <p>Mais si l’on songe que les histoires d’amour et de tournois — bourdonnées de la
+              sorte — sont enclines à verser le sommeil ; si l’on songe aux nuits de juin où, la
+              chair <pb n="175"/>rose sous la chemise de samit mauve, les nobles dames d’antan
+              prêtaient une chaste oreille aux récits des <title>Violeurs de
+              Villanelles</title>.</p>
+            <p>Peut-être</p>
+            <quote>
+              <l rend="i">Trouvera-t-on que le trouvère avait raison.</l>
+            </quote>
+            <p>Car dans leur rêve, des naufs vermeilles par la mort du Soleil, aux cordages de soie,
+              aux voiles pleines et blanches comme des seins, appareillaient vers la Cythère
+              lointaine et bleue…</p>
+            <p>Par quelle aberration en vint-on à faire disparaître l’assonance au profit de la
+              rime ? Oncque on le ne saura. Pardonne, Erato, à ceux-là qui furent fauteurs, s’ils
+              ont cru agir pour le bien de l’Art.</p>
+            <p>Tout est-il que jusqu’à nos jours, sauf dans les chansons populaires, la rime seule
+              demeure. Je dirai simplement qu’en ces derniers temps, Jean Moréas, le bon musicien ;
+              le raffiné poète des <title>Lassitudes</title>, Louis Dumur, sans oublier Verlaine
+              dans quelques pièces liturgiques de <title>Bonheur</title>, Henri de Régnier, Francis
+              Vielé-Griffin, Gustave Kahn et combien d’autres, ont tenté de remettre en honneur
+              l’assonance. Avec succès ? Nous questionnons, au Futur de répondre.</p>
+            <p>Une objection souventefois s’est présentée à ceux qui tentèrent des résurrections
+              — car on n’invente plus rien <pb n="176"/>ès matière rhythmique. — Pourquoi vouloir
+              parfaire un instrument avec lequel les Poètes ont doté l’Art des plus belles œuvres de
+              génie ? pourquoi vous, chétifs flûtistes, éphèbes de la Décadence, répudier la Lyre
+              qui dans les grands siècles chanta si merveilleusement toute la Beauté ?</p>
+            <p>Puérile, l’objection.</p>
+            <p>Et pour, ceci :</p>
+            <p>L’Être universel se compose de deux principes : le moi humain et ce qui lui est
+              extérieur. Cette dualité éternelle se retrouve, inconsciemment, chez les poètes de
+              tous les temps.</p>
+            <p>Les uns ont voulu dire la vie des Choses : les poètes <hi rend="i">objectifs</hi> :
+              d’autres ont analysé leur vie intérieure : les <hi rend="i">subjectifs</hi>. Ce sont
+              actuellement les symbolistes (la toute ou presque toute jeunesse contemporaine), et
+              les Parnassiens qui, quoi qu’on en ait dit, existent encore, luttent toujours et sont
+              une force : ce livre magnifique des <title>Trophées</title> en est la preuve.</p>
+            <p>Donc, deux races de poètes, dont l’essence fondamentale est dissemblable. Mais
+              empruntant à chacune d’elles ses éléments, surgit la conception — l’unique vraie à mon
+              sens — du Poète : en son âme vibrent les reflets des choses du dehors, et cependant il
+              leur communique sa vie à lui ; lui seul est vraiment, entièrement poète, parce que
+              seul il aura su donner l’idée de l’Être entrevu dans toute sa beauté.</p>
+            <p><pb n="177"/>Les Parnassiens furent logiques et ne firent, en l’œuvre, qu’appliquer
+              leurs théories. Ils n’adornèrent leur chapelle que de vitraux aux couleurs somptueuses
+              et violentes ; étoles, surplis et chasubles n’en étincelèrent que d’or vif et les
+              ostensoirs sur l’autel ne fulgurèrent jamais qu’aux feux d’un soleil pérennel ; car,
+              vers les heures de crépuscule, se dosaient les grandes portes aux fidèles avides de
+              mystère. Ceux, tels Leconte de Lisle, Mendès aussi et Silvestre, qui toujours ont
+              gardé intact le culte de la Vénus ancienne, adorèrent uniquement les formes pleines et
+              sans ombres, les contours nets, accusés lie la sorte dure et rigide qui caractérise la
+              statuaire grecque.</p>
+            <p>Répudiées donc les demi-teintes, les nuances crépusculaires, les musiques lointaines,
+              — charme et génie de Verlaine ; — bannies les chastes Aimées, immatérielles on dirait,
+              dont le profil s’indécise en de froides brumes, d’un tel système d’art découlait
+              nécessairement comme Corollaire la rime riche et rare.</p>
+            <p>J’ai dit plus haut que l’Être, sous toutes ses faces, s’ouvre — champ d’espace
+              infini — aux investigations du poète ; j’ai montré que beaucoup, pour avoir
+              volontairement clos d’une limite leur horizon, n’ont exprimé que la Beauté partielle
+              et furent incomplets : Parnassiens et Symbolistes. Et j’arrive à cette conclusion
+              — malgré moi, puisque en dehors de la question — qu’une œuvre ne peut être d’absolue
+              beauté si l’âme n’y transparaît ; à travers la matière, <pb n="178"/>si la vie n’y
+              aime et souffre sous la Forme : la Forme éternellement morne en dépit de sa splendeur,
+              lorsqu’elle s’isole.</p>
+            <p>Donc le Poète <hi rend="i">absolu</hi> sera celui qui de son humanité animera la
+              beauté inerte des Choses ; car la Forme ne sera jamais qu’un vêtement, lâche
+              quelquefois, mais le plus souvent strict fiancé de l’Idée.</p>
+            <p>Évoqué quelque paysage aux yeux de l’artiste, vibrée la symphonie de songe à ses
+              oreilles, ou surgie l’Idée pure en son cerveau, les procédés matériels
+              — intuitivement — doivent être choisis ; je dis intuitivement, car le travail <hi
+                rend="i">formel</hi> que j’analyse ici est spontané chez le poète : sinon de la
+              marqueterie.</p>
+            <p>Dans l’œuvre où prédomine la Forme, la Rime se présente immanquablement à l’esprit ;
+              elle affirme la clarté du vers, le rend plus net et le fixe en de précises limites ;
+              car ainsi qu’ailleurs je le déclarerai, en certains sujets — tels épiques, plastiques,
+              où l’ampleur et la force sont nécessaires — il faut employer le vers à rhythme
+              binaire, le vers dit d’airain, tour d’ivoire où, sous la porte, sentinelle casquée
+              d’or et gemmée de rubis, veille la Rime. Fatalement, hélas ! ces vers — l’habitude
+              venue — se martellent avec une facilité combien déplorable, encore aggravée par la
+              richesse de la rime : sonorités de cuivres éclatantes et belles, mais monotones.</p>
+            <p>D’un art autrement délicat et difficile, est la notation, <pb n="179"/>des paysages,
+              des musiques et des états d’âmes un peu subtils. Le vers, qu’autre part nous avons vu
+              coulé d’un seul jet, prend une complexité infinie, se moule absolument sur l’idée
+              presque sublimée ; le dessin du rhythme se voile, s’indécise. Et voici pâlement
+              fleurir la palette aux seules teintes grises des assonances ; les assonances,
+              harmonies si lointaines qu’on dirait un frôlis de brise sur des ailes de séraphin. Car
+              certes la Rime opulente qui évoque les chairs fastueuses des Rubens et les fesses
+              d’angelots aux pourpres violentes, la Rime ici détonnerait étrangement dans les
+              jardins de rêve où passent — tels des lys — les vierges d’Angelico, bleu pâle, au col
+              flexible, et les grêles musiciennes des primitifs.</p>
+            <quote>
+              <l rend="i">Dames d’automne aux mains fanées</l>
+              <bibl>(<hi rend="sc">Retté</hi>)</bibl>
+            </quote>
+            <p rend="noindent">qui descendent les escaliers de neige en effleurant les mandores de
+              leurs doigts ivoire veiné d’azur.</p>
+            <p>Illimitée la variation des effets obtenus avec l’assonance ; on en peut jouer comme
+              d’un clavier de notes et de couleurs.</p>
+            <p>C’est d’abord presque la rime, comme <hi rend="i">brèves</hi> et <hi rend="i"
+                >lèvres</hi> ; puis la résonance s’étouffe, il ne demeure plus qu’un vague écho
+              altéré, ainsi : <hi rend="i">pâle</hi> et <hi rend="i">femme</hi>. Deux assonances <pb
+                n="180"/>identiques par leur son fondamental se différencient au moyen de leurs
+              harmoniques qui sont les articulations finales et initiales.</p>
+            <p>Aussi comprendra-t-on l’instrument précieux qu’est l’assonance pour le poète un peu
+              raffiné, puisqu’il peut avec elle nuer ses rêves à l’infini pour les yeux ensemble et
+              pour l’oreille.</p>
+            <p>Ainsi :</p>
+            <quote>
+              <l rend="i">Et dans le soir on voit passer des formes grêles,</l>
+              <l rend="i">Leurs pas ne pèsent pas au sable fin des grèves :</l>
+              <l rend="i">Âmes d’adolescents qu’aimèrent les Sirènes,</l>
+              <l rend="i">Et que tourmentent les angoisses éternelles.</l>
+            </quote>
+            <p>En ce quatrain, on peut noter comment le son final du premier vers trouve dans les
+              assonances des derniers un écho progressivement affaibli. Telles les assonances,
+              telles les âmes — dans le soir — passent, s’éloignent et ne plane plus alors qu’un
+              souvenir très pâle.</p>
+            <p>À titre de remarque ; de même que l’emploi — à l’intérieur du vers — de mots à
+              désinences féminines, rend plus immatériel le rhythme, ainsi les assonances féminines
+              sont préférables aux assonances masculines trop lourdes et d’un dur relief.</p>
+            <p>Au rondel qui suit — chaperon mi-partie blanc et rouge — s’entrelacent les assonances
+              et les rimes :</p>
+            <quote>
+              <label type="head" rend="i">Chanson d’Amour</label>
+              <lg><l>Une chanson d’amour d’un autre temps.</l>
+              <l>Étant déclose en tièdes assonances,</l>
+              <l>Une chanson avec des robes blanches,</l>
+              <l>Des seins rosés et des rhythmes très lents.</l></lg>
+              <lg><l>Un troubadour en costume galant</l>
+              <l>Y chantera, d’une voix nonchalante,</l>
+              <l>Une chanson d’amour d’un autre temps,</l>
+              <l>Étant déclose en tièdes assonances.</l></lg>
+              <lg><l>Yeux endormeurs, corps sade, et l’esprit gent,</l>
+              <l>La Dame aura sur le front des guirlandes ;</l>
+              <l>Levant sa jupe au-dessus de la jambe,</l>
+              <l>Ainsi soëve, ouïra souriante</l>
+              <l>Une chanson d’amour d’un autre temps.</l></lg>
+            </quote>
+          </div>
+          <div>
+            <pb n="181"/>
+            <head>II</head>
+            <p>En cet essai, j’ai tenté de prouver combien la rime, — inapte à rendre certaines
+              sensations d’une façon <hi rend="i">adéquate</hi>, nécessite l’emploi de l’assonance
+              finale. Quelques mots sont maintenant à dire au sujet des assonances internes du vers.
+              Quelques mots, car Becq de Fouquières en a parlé si longuement — comme mathématicien,
+              hélas ! comme poète, non — que seules d’humbles glanes me restent dévolues.</p>
+            <p>Je ne saurais mieux faire que de lui emprunter sa définition de l’assonance — une des
+              meilleures à mon gré : — « <hi rend="i">dans le vers, l’assonance sera donc la parité
+                du son de la voyelle qu’offriront les syllabes rhythmiques d’un vers ou d’une suite
+                de vers</hi> ». Il ajoute qu’il existe également des assonances entre syllabes
+              toniques et atones ; le sujet se ramifie donc à l’infini.</p>
+            <p>Nicolas Despréaux, qui d’ailleurs était le plus parfait maroufle et le plus sot butor
+              de son siècle, eut un jour une trouvaille de génie (l’attribuer à son tempérament
+              bilieux) dans ce vers :</p>
+            <quote>
+              <l rend="i">Aux Saumaises futurs préparer des tortures.</l>
+            </quote>
+            <p>En ce vers grinçant, se résume tout le caractère de <pb n="182"/>Boileau, caractère
+              de mauvais rimeur envieux des vrais poètes, de plat aligneur de syllabes doué du seul
+              grossier bon sens, caractère, en un mot, de châtré. En ce vers dont s’exacerbe la
+              sensibilité, grimacent des figures de tortionnaires, s’évoquent des pointes sanglantes
+              de pals, d’aigres sifflements de plomb fondu. Et cela provient simplement de l’habile
+              disposition de deux voyelles labiales : les <hi rend="i">u</hi>.</p>
+            <p>Jusqu’à ces derniers temps, les critiques incompréhensifs et les fabricants de
+              prosodie considéraient l’assonance à l’intérieur du vers comme une discordance, et
+              dans tous les cas comme un grave défaut. Actuellement, au contraire, on la tient pour
+              ce qu’elle est, c’est-à-dire pour un des moyens d’expression de la pensée les plus
+              parfaits.</p>
+            <p>En effet, je peux répéter exactement — de l’assonance interne — ce que j’ai dit de
+              l’assonance <hi rend="i">finale</hi>, savoir : qu’au moyen des combinaisons
+              d’assonances il n’est pas une sensation, pas un sentiment, pas une idée qu’on ne
+              puisse rendre dans ses nuances les plus délicates.</p>
+            <p>L’analyse subtile que Becq de Fouquières dans son <title>Traité de versification
+                française</title> a fait des vers magnifiques de Racine :</p>
+            <quote>
+              <l rend="i">Ariane ma sœur, de quelle amour blessée,</l>
+              <l rend="i">Vous mourûtes aux bords où vous fûtes laissée.</l>
+            </quote>
+            <p rend="noindent">donnera mieux que toutes mes gloses l’idée exacte de ce qu’est
+              l’assonance et l’allitération.</p>
+          </div>
+          <div>
+            <pb n="188"/>
+            <head>III</head>
+            <p>Car ayant parlé des phénomènes d’assonance, je ne dois pas laisser de côté ceux
+              d’allitération, — intimement liés aux premiers. — Les mots étant composés de consonnes
+              et de voyelles, il s’avère que par un habile usage des consonnes on accroîtra le
+              plaisir musical des vers comme on fait avec l’assonance. Fut jadis proscrite
+              l’allitération (succession des mêmes consonnes dans une suite de mots) comme principe
+              destructeur de l’harmonie. Racine en usa cependant et fréquemment ; Wagner en fit un
+              merveilleux emploi. J’ai remarqué dans la <title>Walküre</title> des séries d’une
+              douzaine de vers où les mots presque tous commencent par des <hi rend="i">h</hi>. Le
+              rôle de Hunding en particulier se scande ainsi farouchement : on dirait d’un bûcheron
+              énorme ahanant au fond d’une forêt sonore. Ailleurs elle fut admise en tant
+              qu’harmonie imitative : de cette représentation des sensations physiques à <hi
+                rend="i">l’élucidation sensorielle de l’idée</hi> (telle on comprend aujourd’hui
+              l’allitération) il n’y avait qu’un pas. On le fit. Et désormais l’allitération vient
+              en aide à l’assonance pour modifier, étendre, ou compléter l’Idée.</p>
+            <p>Je prends un exemple chez un poète où l’art de la musique du verbe est poussée
+              jusqu’à la magie, Stuart Merrill :</p>
+            <quote>
+              <pb n="184"/>
+              <l rend="i">La vieille volupté de rêver à la mort</l>
+              <l rend="i">À l’entour de la mare endort l’âme des choses.</l>
+            </quote>
+            <p>Comme la phrase s’alanguit dans ces deux vers, jusqu’à en mourir, et chante
+              l’ondulation des vagues d’étang qui déferlent silencieusement vers les berges
+              (redoublement des <hi rend="i">l</hi>) ; comme se balancent et palpitent les ramées
+              frôlées d’ailes d’oiseaux (les trois <hi rend="i">v</hi> du premier vers), et soudain
+              dans le lointain éclate la fanfare sombre des cors (<hi rend="i">dort, mort</hi>) et
+              se prolonge la plainte altière et virginale d’une qui se meurt d’avoir été chaste. Et
+              tout bruit s’étouffe (<hi rend="i">choses</hi>).</p>
+            <p>Citons encore le vers merveilleux d’Adolphe Retté :</p>
+            <quote>
+              <l rend="i">La câlinante cantilène monotone</l>
+            </quote>
+            <p>L’étudie le lecteur pour son plaisir. Et maintenant peut-être quelque vieux classique
+              murmurera-t-il, ayant lu ces notules et ce livre : Qu’on nous rende Corneille !</p>
+            <p>Mon Dieu ! cher monsieur, nous ne sommes plus au <num>xvii<hi rend="sup"
+              >e</hi></num> siècle, nous sommes en pleine Décadence, et je le dis avec fierté, car
+              si les poètes d’aujourd’hui n’ont plus les grandes âmes des poètes d’autrefois, du
+              moins ont-ils la noblesse de s’être — loin de l’odieux troupeau — cloîtrés dans
+              l’orgueil de leur Rêve.</p>
+            <signed>C. G.</signed>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
