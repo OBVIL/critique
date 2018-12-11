@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-11T11:22:32+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Émile Augier (dossier nécrologique du <hi rend="i">Gaulois</hi>)</title>
+        <author>Collectif</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/collectif_emile-augier/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title><hi rend="i">« Émile Augier », </hi>Le Gaulois</title>, <biblScope>n° 2615</biblScope>, <date>26 octobre 1889</date>, <biblScope>p. 1-2</biblScope>. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5270373">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1889"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="1" xml:id="p1"/>
+        <head>Émile Augier</head>
+        <p>La grande bourgeoisie française vient de perdre son poète, son moraliste, son historien. Nul, maintenant qu’Émile Augier est mort, ne tentera plus de raconter les douleurs, les joies, les défaillances, les passions et les préjugés d’une classe, d’une caste qui disparaîtra un jour dans l’affairement compliqué, le fracas et l’instabilité de nos sociétés modernes.</p>
+        <p>Héritière, en ligne collatérale, de Louis XIV, et jalouse d’orner sa souveraineté nouvelle des séductions d’un art né d’elle et vivant d’elle, la bourgeoisie avait cru, jadis, trouver, dans M. Scribe, le Corneille et le Molière de son temps. Elle goûtait fort, au début, ces divertissements scéniques où l’auteur, avec des petits airs indépendants, la flattait jusque dans ses ridicules et lui rendait, par ses complaisances, la pratique de la vertu si facile.</p>
+        <p>M. Scribe, en effet, connaissait les moindres plis du terrain où la bourgeoisie s’était victorieusement établie. Il avait, méthodiquement, cadastré ses qualités, aligné ses vices au cordeau, relevé l’étiage de ses débordements d’enthousiasme et fixé le niveau de ses indignations.</p>
+        <p>Mais, un beau jour, la lente infiltration des milieux où elle vivait isolée, comme dans un Versailles minuscule, désagrégea le rempart à l’abri duquel la bourgeoisie espérait vivre éternellement. Elle eut le sentiment que ce qu’elle avait pris pour un établissement définitif n’était qu’une halte, un campement ; que la lutte allait recommencer, non plus, cette fois, avec les survivants héroïques, mais débiles, d’un monde qui finissait, mais contre l’invasion d’un peuple, formidablement endenté, armé de tous les appétits, dégagé de toutes les mythologies, de toutes les conventions, de tous les préjugés, de toutes les faiblesses.</p>
+        <p>Comme les mourants qui aspirent après un cordial qui leur redonne l’illusion fugitive de la vie, fût-ce au prix d’une brûlure aux entrailles, la bourgeoisie chercha alors un poète dont le vers s’abattît, à la rigueur, sur ses reins épuisés, mais la forçât à se redresser ; un moraliste qui la rappelât à la pratique sévère de ses anciennes vertus, un historien capable de réveiller en elle, par ses fiers récits, le goût et la puissance des grands mouvements de l’âme.</p>
+        <ab type="ornament">*
+<lb/>*   *</ab>
+        <p>Émile Augier a été ce poète, ce moraliste, cet historien. D’intelligence forte et saine, ayant au plus haut degré la volonté du bien, il a mis son grand, son très grand talent, son impeccable probité littéraire au service des vertus de la classe moyenne. Il a loyalement porté à la scène les fautes, les erreurs, les défaillances, les lâchetés, les infamies même du monde restreint dont il était à la fois le Juvénal et le Tyrtée.</p>
+        <p>Il a compris et il a dit, en de rudes apostrophes, quel rôle dissolvant l’argent — le nitrate d’argent — jouait dans la désorganisation, dans la désagrégation de la société bourgeoise. Il a décrit, d’une plume fière, l’action de ce caustique sur les cervelles et sur les cœurs. Il l’a montré stérilisant le génie, salissant l’amour, prostituant le mariage, décourageant le respect filial, ridiculisant le patriotisme, détruisant jusqu’à la notion du bien et du mal.</p>
+        <p>Mais son génie ne s’est jamais élevé au-dessus des plafonds des appartements bourgeois. C’est sur un parquet bien ciré que son pied se sentait à l’aise pour frapper du talon. Sa lanterne, qui lui servait à chercher un homme, avait de faux airs de lustre ou de candélabre. Jamais, ou bien rarement, il s’est aventuré sur la terre commune, celle où l’être humain, dépouillé des oripeaux de la convention sociale, nu et désarmé, lutte, souffre et meurt. Tous ses personnages possèdent du linge fin et un carnet de chèque chez le banquier. Ils ont des sentiments cossus et des vices riches. En proie aux difficultés matérielles de la vie, il semble que les héros de M. Émile Augier auraient le scrupule moins hérissé. Leur probité est farouche comme celle d’un coffre-fort. Elle est pour ainsi dire professionnelle. Elle a quelque chose de corporatif. Elle confine au point d’honneur et, par là, perd beaucoup de son humanité.</p>
+        <ab type="ornament">*
+<lb/>*   *</ab>
+        <p>Rien ne faisait pressentir, à ses débuts, quelle immense place Émile Augier était appelé à occuper dans les préoccupations littéraires de la bourgeoisie. Poète de vingt-quatre ans, ayant encore aux lèvres le miel de l’Hymette, mouillé de bon vin gaulois du cru de son oncle Pigault-Lebrun, le futur auteur du <title>Gendre de M. Poirier</title>, de <title>Paul Forestier</title>, des <title>Lionnes pauvres</title>, des <title>Fourchambault</title>, semblait devoir retenir seulement les suffrages des délicats et des lettrés.</p>
+        <p>Son premier ouvrage, la <title>Ciguë</title>, mignonne saynète, écho d’Athènes répercuté sous les colonnades de l’Odéon, n’annonçait ni un moraliste ni un grand auteur dramatique. C’était une idylle antique, en vers élégants, d’une bonhomie affinée, vraiment grecque par son inspiration et sa forme délicate. Mais, dès l’<title>Aventurière</title>, Émile Augier s’affirme l’écrivain et l’auteur comique vraiment français qu’il est resté. Il rit comme Rabelais et Molière, et a des emportements de passion lyrique qui le rangent parmi les meilleurs romantiques. À partir de ce moment, il est maître de sa forme.</p>
+        <p>Encore qu’il affranchisse plus tard sa pensée de la gêne du rythme et de la mesure, il ne cessera plus de parler la langue ferme, sobre, correcte et un peu brutale, qui lui fait une place à part parmi ses rivaux ou ses émules.</p>
+        <p>Qu’il se fâche ou qu’il sourie, qu’il fouaille ou caresse, il cherchera et trouvera le mot juste qui traduit avec le plus de relief, mais aussi avec le plus d’exactitude, le sentiment qu’il veut exprimer. Les vocables ne l’effrayent pas, si classique qu’il soit par l’ordonnance des idées, la pureté et l’harmonie des phrases.</p>
+        <p>Ce qui lui manque encore en 1832, c’est la personnalité. Il erre, en tâtonnant, des roses de la <title>Ciguë</title> à l’éventail de l’<title>Aventurière</title> et s’arrête en route, pour polir les lunettes d’or des bourgeois arriérés de <title>Gabrielle</title>.</p>
+        <p>Mais, en 1855, Émile Augier prend possession du théâtre contemporain. Le <title>Mariage d’Olympe</title> et le <title>Gendre de M. Poirier</title> prouvent avec éclat que le poète a compris la portée de la révolution dramatique que vient d’accomplir M. Alexandre Dumas fils avec la <title>Dame aux camélias</title>. Désormais, c’est à la vie réelle, à la vie moderne, qu’il demandera ses inspirations.</p>
+        <p>S’il n’a point l’œil assez vaste, le regard assez puissant, pour voir, d’ensemble, la société qui s’agite à ses pieds, il s’attachera à en étudier la fraction qui, par son importance sociale, son intelligence, son éducation, le rôle qu’elle a joué a le plus d’affinités avec lui-même.</p>
+        <ab type="ornament">*
+<lb/>*   *</ab>
+        <p>Bourgeois, fils de bourgeois, appartenant à cette classe moyenne qui fut si longtemps la maîtresse de nos destinées, Émile Augier ne pouvait pas, sans angoisses, assister à la rapide et inévitable dispersion de cette élite, oublieuse des vertus et des efforts passés, engourdie dans son bien-être et dissipant, en moins de deux générations, le patrimoine d’honneur, de travail, de modestie dans les goûts, de pureté dans les mœurs, légué par les ancêtres.</p>
+        <p>Tout l’œuvre du poète qui vient de mourir est inspiré par cette double pensée : relever, à ses propres yeux, le bourgeois défaillant et décadent par l’exemple des hautes vertus bourgeoises ; flétrir, comme on flétrissait la forfaiture d’un gentilhomme, les défaillances des bourgeois indignes d’être inscrits au livre d’or de la bourgeoisie. À cette tâche, Émile Augier a consacré sa vie, son immense talent, son cœur et son esprit.</p>
+        <p>On ne citera pas une seule de ses pièces où on ne retrouve cette passionnée tendresse, cette paternelle sévérité, cette affectueuse exigence pour la bourgeoisie dont il partage, à son insu, les goûts, les préjugés et les façons de penser. En dépit de ses révoltes, de ses constatations indignées, des soulèvements de son cœur et de son intelligence, ce bourgeois de haute culture, de grande honnêteté et de grande bonté, ménage encore les mauvais sujets de sa caste.</p>
+        <p>Il les veut si purs, il les rêve si parfaits, qu’il affecte de considérer comme un crime, chez un bourgeois, une action qui serait simplement douteuse si elle avait pour auteur un artisan ou un rustre. S’il rencontre un honnête bourgeois, il l’exige sublime et lui prodiguera toutes les délicatesses, toutes les sensibilités, tous les dévouements, toutes les grandeurs. Le marbre, fût-il de Paros, ne lui paraît jamais assez pur pour y tailler son personnage d’élection. Il réclame du diamant et rejette les pierres du Cap.</p>
+        <p>Ce parti pris est si évident qu’il déconcerte un peu le spectateur moderne, expert en psychologie, friand d’analyses subtiles et peu enclin à croire à l’existence de ces corps simples auxquels, à force de talent et de volonté, Émile Augier réussit à donner la vie. C’est ainsi que l’autre soir, à la reprise de <title>Maître Guérin</title>, à la Comédie-Française, l’outrance vertueuse du colonel, la candeur exagérée de l’inventeur Desroncerets, le désintéressement infatigable de sa fille, avaient fini par énerver le public et le rendre fort indulgent pour les habiletés juridiques du notaire indélicat.</p>
+        <p>On éprouvait un sentiment analogue à celui qui plisserait en un sourire sceptique le coin des lèvres des baigneuses de Trouville, auxquelles on ferait part des pudeurs de Virginie, préférant la mort par immersion à la souillure des mains d’un matelot, se dévouant pour l’arracher aux flots et la rendre à Paul.</p>
+        <ab type="ornament">*
+<lb/>*   *</ab>
+        <p>La postérité, qu’il faut toujours invoquer lorsqu’il s’agit de juger un grand mort, ne sera pas impressionnée comme nous le sommes par l’étroitesse du champ où volontairement, sans doute, Émile Augier a contenu son fier et honnête génie. Elle n’aura pas connu ceux dont le poète a voulu exalter les vertus, ranimer les courages et cravacher les vices. Elle croira que les bourgeois de la seconde moitié du siècle étaient des vases de pureté, comme nous croyons que Pyrrhus y regardait à deux fois avant de faire subir à ses captives, fût-ce à Andromaque, le sort réservé autrefois aux belles femmes des héros morts.</p>
+        <p>Elle ne trouvera pas flattés des portraits dont elle n’aura pas vu les originaux. Mais elle admirera comme nous la puissance dramatique, la sincérité d’exécution, la probité littéraire, la fermeté et la pureté de la forme du grand auteur dramatique et de l’homme de bien qui vient de mourir.</p>
+        <byline><docAuthor key="Pessard, Hector Louis François (1836-1895)"><hi rend="sc">Hector Pessard</hi></docAuthor>.</byline>
+      </div>
+      <div>
+        <head>Les derniers moments</head>
+        <p>Ainsi que nous le faisions prévoir hier, Émile Augier, s’est éteint, l’avant-dernière nuit, à deux heures cinquante du matin, sans avoir un seul instant repris connaissance.</p>
+        <p>Depuis la veille au matin, le malade, immobile, les yeux fermés, semblait dormir.</p>
+        <p>Par instants, des spasmes convulsifs l’agitaient ; puis la respiration cessait, le pouls s’arrêtait, on eût cru que la vie s’était retirée de l’illustre agonisant. C’est entouré de sa femme, de ses deux sœurs et de ses neveux, MM. Paul Déroulède, André Déroulède, Georges Guiard et Heurtet, assistés des docteurs Felizet, Blondeau et Rochefort, que le malade a expiré.</p>
+        <p>On sait que, mille fois, Augier avait exprimé le désir qu’aucun avertissement ne lui fût donné de l’approche de la mort.</p>
+        <p>Aussi, pour lui épargner toute angoisse, pour ne pas troubler les derniers moments de leur parent par le spectacle de leur immense douleur, tous les membres de la famille s’étaient scrupuleusement abstenus de se montrer au chevet du mourant, tant qu’on avait pu supposer qu’il pouvait entendre et voir ce qui se passait autour de lui.</p>
+        <p>Mais lorsque les médecins, la veille au soir, eurent déclaré que tout espoir était vain, que le malade avait définitivement perdu connaissance, Mme Augier et les neveux de l’auteur entrèrent dans la chambre. Et c’est ainsi qu’Augier est mort, entouré des siens, comme il le désirait, sans s’être senti mourir.</p>
+        <p>Ces jours derniers, d’ailleurs, il avait repris confiance, il escomptait même sa guérison prochaine.</p>
+        <p>Détail curieux : la semaine dernière, pour fêter le retour d’un de ses parents, il faisait déboucher une bouteille de château-lafitte, et formait des projets pour le jour où il aurait quitté le lit.</p>
+        <p>Rappelant sa vie toute de labeur et d’intimes affections, il disait aux siens : « Nous avons été bien heureux ensemble, et nous le serons encore, <hi rend="i">si la santé le permet</hi>. »</p>
+        <p>La santé ne l’a pas permis, hélas ! et aujourd’hui un silence funèbre, entrecoupé de chuchotements et de sanglots, emplit la jolie maison de Croissy, théâtre de tant de joies, de tant de paisible et glorieux bonheur.</p>
+        <div>
+          <head>La maison mortuaire</head>
+          <p>La maison mortuaire est située à Croissy, au numéro 34 de la route de l’Écluse.</p>
+          <p>C’est une coquette villa, composée d’un rez-de-chaussée, d’un premier étage et d’un sous-sol, et formée d’un pavillon central, flanqué de deux ailes symétriques.</p>
+          <p>Au rez-de-chaussée et au premier étage du pavillon central s’étendent de vastes terrasses, d’où l’on domine, grâce à la déclivité du terrain qui s’abaisse en pente douce depuis la route jusqu’à la maison, les deux bras de la Seine. Ceux-ci englobent l’île de Croissy et sont traversés, non loin de là, en aval de la villa, par les deux ponts de Bougival — les deux seuls ponts à péage qui subsistent encore dans les environs, au grand désespoir des habitants des localités voisines.</p>
+          <p>Le jardin attenant à la villa, un jardin anglais aux allées sinueuses et qui se prolonge derrière la maison jusqu’aux plaines situées entre le Vésinet et Croissy, est rempli d’arbres et de parterres de fleurs.</p>
+          <p>À droite de la maison se dressent les écuries, seules dépendances de la propriété.</p>
+          <p>Le perron et le vestibule d’entrée sont situés derrière la maison, du côté opposé à la Seine.</p>
+          <p>Le vestibule donne accès, à gauche, dans le salon et la salle à manger — à droite, dans l’immense cabinet de travail de l’écrivain, transformé en chambre mortuaire.</p>
+          <p>C’est là qu’Augier s’était fait installer au cours de sa maladie, afin d’avoir sous la main ses livres et ses papiers, et de pouvoir être transporté dans le jardin, lorsque la température ne s’y opposait pas.</p>
+          <p>Après la mort, les docteurs Felizet, Rochefort et Blondeau, ont procédé à l’embaumement du cadavre.</p>
+          <p>Le corps, couvert d’un linceul blanc, un crucifix sur la poitrine, est étendu là sur le lit de mort, un très simple lit de fer.</p>
+          <p>Sur le drap, à côté d’un crucifix, un bouquet de roses a été déposé. Le lit a remplacé son large bureau, devant la bibliothèque.</p>
+          <p>L’habit d’académicien, le bicorne et l’épée sont sur un fauteuil, à côté du lit, autour duquel se tiennent les parents du défunt.</p>
+          <p>La nouvelle de la mort, répandue rapidement dans les localités voisines, a produit une grande émotion.</p>
+          <p>Augier ne quittait sa demeure solitaire que pour des promenades aux environs, et l’on s’explique aisément la considération toute particulière dont l’entourait la population au milieu de laquelle il a vécu si longtemps.</p>
+          <p>Les habitants de Croissy, de Chatou et de Bougival sont venus en foule apporter à la famille le témoignage de leur sympathie.</p>
+          <p>À Paris, la triste nouvelle ne s’étant répandue que vers quatre heures du soir, peu de personnes ont pu partir à temps pour se rendre à Croissy.</p>
+          <p>C’est que c’est un véritable voyage que celui que l’on fait pour parvenir à la villa d’Augier et, la nuit, les routes qui y conduisent, complètement dépourvues de lumière, sont presque impraticables !</p>
+          <p>On nous signale cependant les visites de MM. Meissonier et Calmann-Lévy, avertis par dépêche spéciale, dans la matinée, du décès de leur ami.</p>
+          <p>Des visiteurs qui se sont présentés hier, aucun n’a été reçu par Mme Augier.</p>
+          <p>Quelques-uns seulement ont été reçus par M. Déroulède.</p>
+        </div>
+      </div>
+      <div>
+        <head>Sentiments religieux d’Augier. 
+<lb/>Une conversation avec le curé de Croissy</head>
+        <p>Nous avons dit plus haut que si Augier ne redoutait pas la mort, du moins il désirait en éviter les affres cruelles. L’appareil dont on entoure le départ de cette vie lui avait inspiré de tout temps une crainte insurmontable.</p>
+        <p>Et, maintes fois, il avait recommandé aux siens de lui épargner, quand l’heure suprême serait venue, tout spectacle, tout indice qui pourrait lui donner le soupçon que c’était fini pour lui de vivre et d’aimer.</p>
+        <p>La famille du défunt s’était donc imposé de ne troubler en rien la quiétude de l’agonisant.</p>
+        <p>Jusqu’au dernier moment, à l’envi, on s’était efforcé de cacher à Augier la gravité de son état ; on s’était interdit de l’alarmer par la moindre des questions ; on avait évité même de s’assembler autour de son lit. On le soignait comme un malade, non comme un moribond. C’est sans doute pour obéir à ces scrupules que la famille d’Augier n’a pas consenti à ce que les dernières consolations de la religion fussent données au grand écrivain.</p>
+        <p>Augier, en effet, bien que comptant beaucoup d’amis parmi les libres-penseurs, était profondément religieux. Comme nous le rapportons un peu plus loin, lorsqu’il se maria, en 1873, il se confessa dans les sentiments les plus chrétiens. Et, il y a trois ans, lors de la reprise des <title>Effrontés</title>, il refusa de céder à ceux qui le priaient de permettre qu’on reprît le <title>Fils de Giboyer</title>, afin de ne pas réveiller des ressentiments assoupis et de ne pas soulever, à l’occasion d’une de ses œuvres, des polémiques irritantes sur la question religieuse.</p>
+        <p>Ajoutons que la famille de l’auteur de la <title>Ciguë</title> est elle-même très pieuse.</p>
+        <p>D’ailleurs, en quittant la maison mortuaire, nous nous sommes présenté à l’humble presbytère qu’habite le curé de Croissy, M. l’abbé Philippe.</p>
+        <p>L’honorable ecclésiastique nous a reçu, pendant son dîner, avec une bienveillance et une cordialité dont nous lui sommes profondément reconnaissant.</p>
+        <p>Voici ce qu’il a bien voulu nous dire :</p>
+        <p>— J’ai été navré de ne pouvoir apporter à l’illustre agonisant les suprêmes secours de la religion, et de ne pouvoir adoucir par des paroles d’espoir et de foi ses derniers moments. J’avais pour Émile Augier une vive et particulière sympathie. Nous eûmes ensemble de longues et fréquentes conversations, soit lorsqu’il me faisait visite au presbytère, soit lorsque j’allais le voir à sa villa… Souvent nous sommes venus à causer des choses de la religion. Il m’en parlait toujours avec respect.</p>
+        <p>» Et lorsque l’on construisit l’église de Croissy, qui coûta deux cent mille francs, Augier tint à apporter son obole et m’envoya cinq cents francs… Il n’allait pas à la messe, il est vrai ; mais que de fois, il a donné le pain bénit… Un jour même, je m’en souviens, il blâma Victor Hugo de n’avoir pas voulu recevoir de prêtre à son lit de mort…</p>
+        <p>» Aussi je suis persuadé que, s’il eût gardé sa connaissance, il eût été heureux de recevoir mes encouragements et mes exhortations au moment où il était rappelé vers un monde meilleur… »</p>
+      </div>
+      <div>
+        <head>Les funérailles aux frais de l’État</head>
+        <p>Les paroles si conciliantes et si prudentes du vénérable curé de Croissy, le souci que montra naguère l’illustre mort de s’opposer à la reprise du <title>Fils de Giboyer</title>, pour ne pas paraître s’allier au gouvernement républicain dans sa lutte contre le sentiment chrétien, cette vie de travail, de gloire et de probité, doivent, dans un journal catholique, épargner un blâme, si discret soit-il, à l’homme de génie qui meurt sans que les siens lui aient permis, dans un but que nous n’avons pas à juger, de mettre son âme en règle vis-à-vis de Celui dont émane tout génie.</p>
+        <p>Un vœu se présente naturellement à bien des gens en face de ce cercueil : demander que les obsèques d’Émile Augier, le plus grand dignitaire de la Légion d’honneur que comptent les lettres françaises, soient faites aux frais de l’État et deviennent l’occasion d’un deuil national.</p>
+      </div>
+      <div>
+        <head>Augier jugé par les maîtres</head>
+        <p>Dès que nous avons appris la mort d’Augier, nous nous sommes adressé à ses confrères de l’Académie, à des écrivains, à des interprètes de ses œuvres, pour avoir leur opinion sur l’illustre maître. Nous n’avons pu les rencontrer tous, et ceux que nous avons réussi à joindre ont bien voulu, malgré leur émotion, nous donner quelques lignes, dont on leur sera, comme nous, reconnaissant. Mme Sarah Bernhardt, qui avait été en désaccord avec Augier, à propos de l’<title>Aventurière</title>, s’est empressée elle-même de nous envoyer son tribut d’admiration à celui dont la mort est une si grande perte pour l’art dramatique.</p>
+        <div>
+          <head>[Camille Doucet]</head>
+          <p>Hélas ! monsieur, je reçois votre triste lettre, mais je n’ai ni le temps ni le courage de répondre à l’appel que vous voulez bien m’adresser.</p>
+          <p>J’étais l’un de ses plus anciens amis ; je reste l’un de ses plus fervents admirateurs.</p>
+          <p>Me voilà donc doublement en deuil ! Ce glorieux était un modeste ; il attend de nous des larmes sincères plutôt que des louanges banales.</p>
+          <p>Vous comprendrez, d’ailleurs, que le secrétaire perpétuel ne puisse que se taire aujourd’hui, quand, demain, le directeur de l’Académie sera publiquement le digne et éloquent interprète des grands regrets de la compagnie, frappée au cœur et à la tête.</p>
+          <byline><docAuthor key="Doucet, Camille (1812-1895)">Camille <hi rend="sc">Doucet</hi>. 
+<lb/>Secrétaire perpétuel de l’Académie française.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Victor Cherbuliez]</head>
+          <p>Parmi toutes les qualités éminentes qui ont fait de notre cher Émile Augier une des gloires de notre théâtre, la plus rare, dans un temps de goût subtil ou frelaté, était l’admirable franchise de son talent.</p>
+          <p>Il aurait pu prendre pour lui la devise du coq gaulois : « Je chante clair ! »</p>
+          <byline><docAuthor key="Cherbuliez, Victor (1829-1899)">Victor <hi rend="sc">Cherbuliez</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Jules Claretie]</head>
+          <p>On demandait, un jour, pour le <title>Musée des familles</title>, un portrait de Molière à M. Émile Augier.</p>
+          <p>— J’ai commencé trois fois le portrait de Molière, et trois fois je l’ai jeté au feu, répondit-il au rédacteur en chef du journal.</p>
+          <p>Il trouvait que, sur Molière, on a tout dit ! Et sur lui-même, n’a-t-on pas tout dit aussi ? C’est un personnage d’une de ses comédies qui, parlant à je ne sais quel prédicateur, s’écrie :</p>
+          <quote>
+            <p>— Oh ! sur la charité, il nous a fait entendre des choses <hi rend="i">si nouvelles</hi> !</p>
+            <p>— A-t-il découvert qu’on ne devait pas la faire ? interrompt quelqu’un.</p>
+          </quote>
+          <p>On n’a pas découvert qu’Émile Augier fût autre chose qu’Émile Augier, c’est-à-dire un génie solide et clair, d’une probité littéraire égale à sa loyauté personnelle, un vrai Français, de style et d’âme, un maître depuis longtemps classique et qui dans sa retraite volontaire, son glorieux bonheur intime, goûta, de son vivant, la gloire incontestée et reçut le respect de la postérité.</p>
+          <p>Comme ce Molière dont il commença trois fois le portrait, il est de ceux dont on a tout dit quand on a prononcé leur nom.</p>
+          <byline><docAuthor key="Claretie, Jules (1840-1913)">Jules <hi rend="sc">Claretie</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Victor Duruy]</head>
+          <p>Le bon sens dans la poésie, la mesure dans l’idéal étaient les dons naturels qu’avait fortifiés, dans Émile Augier, une bonne instruction historique. Il cherchait la vérité générale, non l’exception, et, au milieu des fantaisies d’une brillante imagination, son esprit fixait un type réel. Aux anciens Grecs, Apollon disait : « Rien de trop. » Ce dieu-là fut l’inspirateur du grand poète qui a été l’honneur de la France.</p>
+          <byline><docAuthor key="Duruy, Victor (1811-1894 ; historien)">Victor <hi rend="sc">Duruy</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Octave Feuillet]</head>
+          <p rend="right">6, rue Gounod (quartier Monceau).</p>
+          <p>Que dirais-je d’Émile Augier, si ce n’est que j’admirais le poète et que j’aimais l’homme de tout mon cœur? — C’était un grand écrivain dont le talent, si français, touche au génie par la clarté, la force et la franchise supérieures. Son caractère était égal à son talent, dont il avait l’énergique droiture et la haute honnêteté !</p>
+          <p>S’il suffit de connaître les œuvres d’Augier pour l’admirer, il suffit de l’avoir connu lui-même pour le pleurer.</p>
+          <byline><docAuthor key="Feuillet, Octave (1821-1890)">Octave <hi rend="sc">Feuillet</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Ernest Renan]</head>
+          <p>Il m’est difficile de formuler une appréciation sur notre regretté confrère M. Émile Augier, dont le genre d’idées s’éloignait beaucoup des miennes.</p>
+          <p>Nous n’avons pas fait les mêmes études. Nos travaux, littéraires sont très opposés ; donc je ne puis émettre une opinion sur l’œuvre de M. Augier. Je me contenterai de dire que j’avais la plus réelle admiration pour son talent.</p>
+          <p>Mais j’avais une grande sympathie pour l’être bon, aimable, courtois, qu’était M. Émile Augier.</p>
+          <p>C’était un grand cœur et un réel caractère.</p>
+          <byline><docAuthor key="Renan, Ernest (1823-1892)">Ernest <hi rend="sc">Renan</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Sarah Bernhardt]</head>
+          <p>Je ne l’ai pas toujours aimé; je l’ai toujours admiré, et je le regrette de tout mon cœur.</p>
+          <byline><docAuthor key="Bernhardt, Sarah (1844-1923)">Sarah <hi rend="sc">Bernhardt</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Alphonse Daudet]</head>
+          <p>La mort d’Émile Augier me cause une vive peine, et je me déclare incapable d’une parole vraiment digne de lui. À quoi bon, d’ailleurs, parler de l’écrivain ? Celui-là n’est pas mort : il vivra dans le livre et sur la scène aussi longtemps que nous aurons, en France, des rayons pour nos bouquins et des portants pour nos théâtres. L’homme si loyal, si cordial, le compagnon d’étreinte franche et robuste, mon ami, mon parrain, mon maître Émile Augier, en ce moment, je ne saurais rien en dire.</p>
+          <byline><docAuthor key="Daudet, Alphonse (1840-1897)">Alphonse <hi rend="sc">Daudet</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Lytton]</head>
+          <p>J’apprends avec la plus grande douleur la mort de cet illustre écrivain et vrai poète, qui a doté le théâtre français de tant de chefs-d’œuvre, et dont le souvenir sera conservé en Angleterre aussi fidèlement qu’en France.</p>
+          <p>Au nom de mes compatriotes, je désire exprimer la vive part que nous prenons à la perte qu’ont faite le théâtre et la littérature français.</p>
+          <signed><hi rend="sc">Lytton</hi>, 
+<lb/>Ambassadeur d’Angleterre. 
+<lb/><hi rend="i">En littérature : 
+</hi><lb/><hi rend="sc">Owen-Meredith</hi></signed>
+        </div>
+        <div>
+          <head>[Émile Zola]</head>
+          <p>Des maîtres actuels de notre scène française, Émile Augier est celui dont l’effort a été le plus régulier, le plus constant.</p>
+          <p>Il faut se souvenir des attaques dont le poursuivaient les romantiques; ils le nommaient le « poète du bon sens » ; ils plaisantaient ses vers, n’osant plaisanter ceux de Molière.</p>
+          <p>La vérité était qu’il gênait les romantiques, car ils sentaient en lui un adversaire redoutable, un auteur dramatique qui renouait la tradition française par-dessus l’insurrection de 1830. La nouvelle formule grandissait avec lui : l’observation exacte, la vie réelle mise à la scène, la peinture de notre société, en une langue sobre et correcte.</p>
+          <p>Ma conviction a toujours été que notre théâtre de demain ne sera que le développement de la formule classique, élargie et adaptée à notre milieu social.</p>
+          <byline><docAuthor key="Zola, Émile (1840-1902)">Émile <hi rend="sc">Zola</hi>.</docAuthor></byline>
+        </div>
+        <div>
+          <head>[Victor Hugo]</head>
+          <salute>Cher directeur,</salute>
+          <p>Vous me demandez des détails sur les relations qu’a eues Augier avec Théophile Gautier et certaines grandes personnalités que j’ai connues. Vous me prenez de court, car il est difficile de constituer, entre six heures et minuit, un dossier personnel sur Émile Augier.</p>
+          <p>Je ne peux vous livrer que des impressions, ce qui n’est peut-être pas suffisant, étant donnée l’époque documentaire où nous vivons.</p>
+        </div>
+        <div>
+          <head>[Théophile Gautier fils]</head>
+          <p>Émile Augier n’était pas un romantique, et il eut souvent maille à partir avec les sectaires de Victor Hugo.</p>
+          <p>Son esprit, éminemment français, qui n’empruntait rien ni à Lope de Vega, ni à Goethe, ni à Shakespeare, qui prenait sa langue dans Rabelais, dans Montaigne, dans Beaumarchais, et peignait ses contemporains sur le vif, tels qu’il les voyait, bourgeois, financiers, aventuriers et aventurières, honnêtes gens, femmes vertueuses et coquines, de son temps, s’était obstinément refusé à s’enrôler sous la bannière du grand maître.</p>
+          <p>Cela ne l’empêcha pas de compter parmi ses plus solides amis Théophile Gautier, qui domina la critique dramatique précisément pendant la période de floraison d’Émile Augier.</p>
+          <p>C’étaient, au fond, deux hommes d’un suprême bon sens : seulement Gautier, méprisant les foules, gardait son bon sens pour lui, ou ne le divulguait qu’enveloppé de malicieuses réticences ; tandis qu’Angier allait droit à ces foules : il se révoltait au spectacle des bassesses humaines et des décadences, et les cinglait alors avec des œuvres maîtresses, comme le <title>Mariage d’Olympe</title>, les <title>Effrontés</title>, la <title>Contagion</title>.</p>
+          <p>On les rencontrait souvent, bras dessus, bras dessous, présentant le même aspect de sérénité un peu lourde et discutant leurs théories ; un passant qui aurait suivi leur conversation aurait sans doute entendu Gautier redire à Augier, d’un ton sentencieux, sa fameuse formule : « Rien ne sert à rien…, et d’abord il n’y a rien ; d’ailleurs, tout cela est bien indifférent ! »</p>
+          <p>Et Augier s’arrêtait pour éclater de son large rire gaulois.</p>
+          <p>Augier a beaucoup fréquenté le monde officiel sous l’Empire : c’était un des aimés du prince Napoléon et de la princesse Mathilde. Il figure dans le tableau de Gustave Boulanger représentant une « répétition du <title>Joueur de flûte</title> dans la maison pompéienne de l’avenue Montaigne ». La maison existe encore, attirant le regard mélancolique de ceux qui l’ont vue habitée par ses premiers hôtes. Le tableau est à Prangins, et le prince exilé peut y retrouver chaque jour l’image de celui qui était resté fidèle à son amitié.</p>
+          <p>Chez la princesse Mathilde, c’était une fête dans ces salons qui virent et qui voient encore tant de célébrités, que l’apparition d’Émile Augier. La princesse aimait à causer avec lui de l’Académie, du théâtre, de la Comédie-Française, de provoquer maintes petites confidences qu’Augier se laissait volontiers arracher.</p>
+          <p>Mais, dans les salons officiels, pas plus que sur le boulevard ou dans les couloirs de théâtre, il n’oubliait son métier, et, lorsqu’il rencontrait quelque imbécile ou quelque intrigant, il lui serrait la main avec une effusion d’un genre particulier, qui fascinait le monsieur, tandis que ses paupières d’observateur dardaient deux vrilles ironiques qui, avec la dextérité d’un outil d’oculiste, allaient piquer l’âme du monsieur puis, après un échange de banalités, Augier le congédiait avec un bon sourire, qui signifiait : « Toi, je te connais, maintenant, mon bonhomme ! »</p>
+          <byline><docAuthor key="Gautier, Théophile (1836-1904)">Théophile Gautier fils.</docAuthor></byline>
+        </div>
+      </div>
+      <div>
+        <head>À la Comédie-Française. 
+<lb/>Relâche probable</head>
+        <p>L’émoi était grand, hier soir, dans les couloirs et au foyer de la Comédie. On commentait, avec une respectueuse sympathie, la dépêche que M. Claretie avait envoyée à Mme Augier :</p>
+        <quote>
+          <p>« La Maison de Molière, qui était et qui est encore la maison d’Émile Augier, envoie l’expression de son respect et de ses douloureuses condoléances à Mme Augier. »</p>
+        </quote>
+        <p>Chacun citait des traits de la large et bienveillante affabilité du maître.</p>
+        <p>La dernière pièce qu’Émile Augier mit en scène, à la Comédie, fut l’<title>Aventurière</title>, pour les débuts de M. Leloir, sous la direction Perrin.</p>
+        <p>M. Claretie n’a pas paru hier soir an théâtre.</p>
+        <p>C’est lui qui prendra la parole, sur la tombe, au nom de la Comédie.</p>
+        <p>Il est fortement question de faire relâche lundi, le jour des obsèques.</p>
+        <p>Ce relâche ne peut avoir lieu qu’avec l’assentiment du ministre de l’instruction publique.</p>
+        <p>Nul doute que M. Fallières n’accorde l’autorisation qu’on lui demandera.</p>
+      </div>
+      <div>
+        <head>Augier à la scène</head>
+        <p>Hier soir, nous avons rencontré M. Koning, qui nous a donné de très intéressants détails sur la courtoisie et l’indulgence dont faisait preuve Augier dans ses rapports avec le monde des théâtres.</p>
+        <p>— J’ai vu bien des auteurs veiller à la mise en scène de leurs œuvres, nous dit le directeur du Gymnase. Peu, je vous assure, sont aussi charmants qu’Augier. Dumas, le chapeau sur la tête, est froid, poli, mais mordant. Sardou, la calotte enfoncée jusqu’aux oreilles, nerveux, violent, crie, se démène, s’emporte. Feuillet est doux, mais s’énerve et s’inquiète. Ohnet est courtois, mais change, remanie sans cesse. Augier, lui, était d’une urbanité exquise.</p>
+        <p>À peine se permettait-il çà et là quelques légères retouches.</p>
+        <p>Toujours calme, toujours discret ; ne parlant jamais aux femmes que le chapeau à la main. Indulgent pour les hommes. Et clément pour les directeurs… Ah ! on ne pouvait pas lui reprocher, au grand écrivain, de nous tourmenter pour qu’on reprît ses chefs-d’œuvre. Il ne les laissait, au contraire, reparaître à la scène que sur la prière expresse qu’on lui en faisait. Et c’est ainsi que j’ai monté, au Gymnase, <title>Madame Caverlet</title> et le <title>Mariage d’Olympe</title>, simplement parce qu’on en avait fait au maître la demande…</p>
+      </div>
+      <div>
+        <head>Les obsèques</head>
+        <p>Voici la décision prise par les parents au sujet des obsèques :</p>
+        <p>Dimanche, à deux heures et demie, à l’église de Croissy, service fort simple et pour lequel il ne sera pas fait d’invitations.</p>
+        <p>À l’issue de ce service, le corps sera transporté à Paris et déposé dans une chapelle à l’église de la Trinité.</p>
+        <p>Dimanche, à dix heures et demie, service solennel à l’église de la Trinité, paroisse du défunt — qui habitait rue de Clichy.</p>
+        <p>À l’issue de la cérémonie, le corps sera transporté à la Celle-Saint-Cloud, où se trouve un caveau de famille contenant déjà le corps de M. Déroulède, le père de MM. Paul et André Déroulède.</p>
+      </div>
+      <div>
+        <head>La famille d’Augier</head>
+        <p>Émile Augier est né en 1820, à Valence, en Dauphiné. Son père, Victor Augier, était avocat dans cette ville. Il jouissait d’une certaine réputation régionale. Sous la Restauration, il attacha son nom à un procès criminel qui se déroula, avec un grand retentissement, devant les assises de la Drôme. Il s’agit du procès Saladin : empoisonnement d’un prêtre par le moyen des saintes espèces. M. Victor Augier publia sa plaidoirie, qu’interdit la censure. Nous possédons cette pièce, aujourd’hui assez rare. M. Victor Augier avait épousé la fille de Pigault-Lebrun, dont il a eu, outre M. Émile Augier, Mme Déroulède, mère de Paul Déroulède, et Mme Guiard, mère d’un jeune poète, mort il y a quelques années. Il collabora à plusieurs ouvrages de son beau-père, notamment à un <title>Voyage dans le Midi</title>. Il voulait que son fils fût aussi avocat et, en 1838, il le fit entrer chez un avoué de Paris, M<hi rend="sup">e</hi> Masson. Mais Émile Augier était roué aux subtilités du Code et à la « paperasserie » ; il employait tout son temps à la confection de pièces de théâtre, qu’il allait religieusement déposer chez les concierges de la Comédie-Française et de l’Odéon.</p>
+        <div>
+          <head>Carrière d’Augier</head>
+          <p>Son premier collaborateur fut un jeune avocat, Nogent Saint-Laurens, avec lequel il perpétra un drame, <title>Charles VIII à Naples</title>, qui ne fut jamais représenté, malgré les démarches sans nombre d’Émile Augier.</p>
+          <p><pb n="2" xml:id="p2"/>Nogent Saint-Laurens se découragea, abandonna les lettres et se fit inscrire au barreau, où il devint par la suite le célèbre M<hi rend="sup">e</hi> Nogent Saint-Laurens.</p>
+          <p>Quant à Augier, convaincu de sa puissance théâtrale, il se mit tout seul à l’œuvre, soutenu et encouragé par son condisciple du collège Henri IV, S. A. R. Mgr le duc d’Aumale, dont il devint le bibliothécaire. Émile Augier débuta au théâtre en 1840, avec la <title>Ciguë</title>, comédie en deux actes en vers, représentée avec un grand succès sur la scène de l’Odéon, après que la Comédie-Française l’eût refusée.</p>
+          <p>Ici, une anecdote qui explique ce refus.</p>
+          <p>Quand Émile Augier apporta son manuscrit à la Comédie-Française, M. Buloz, alors administrateur, était dans son cabinet. Il ouvrit le rouleau renfermant la pièce d’Augier et la repoussa, avec un geste plein de mépris. Au lieu de lire la <title>Ciguë</title>, il avait lu : la <title>Gigue</title>.</p>
+          <p>— La <title>Gigue</title> à la Comédie-Française ! exclama Buloz ; l’auteur est fou, renvoyez-lui son manuscrit.</p>
+          <p>Buloz ne revint de son erreur visuelle que quelques mois plus tard, en assistant, à l’Odéon, au grand succès de la <title>Ciguë</title>. Après la <title>Ciguë</title>, Augier fit représenter, à la Comédie-Française, en 1845, l’<title>Homme de bien</title> ; en 1848, l’<title>Aventurière</title> ; en 1849, <title>Gabrielle</title> ; en 1850, le <title>Joueur de flûte</title>, une pièce en un acte, en vers, que la presse accueillit avec une faveur marquée. En 1851, Augier écrivit le poème de <title>Sapho</title>, dont Gounod fit la musique.</p>
+          <p>La même année, il donna <title>Diane</title>, interprétée par la grande Rachel, et qui n’eut pas le don de plaire au public.</p>
+          <p>Deux ans plus tard, le Gymnase représentait <title>Philiberte</title>, reprise plus tard à la Comédie-Française.</p>
+          <p>La <title>Pierre de touche</title> et le <title>Gendre de M. Poirier</title>, en collaboration avec Jules Sandeau, placèrent Augier au premier rang incontesté des auteurs contemporains.</p>
+          <p>C’était l’avis du père Dumas, qui disait d’Augier :</p>
+          <p>— Les autres montent : lui plane !</p>
+          <p>Viennent ensuite successivement : au Gymnase (1855), <title>Ceinture dorée</title>, trois actes en prose écrits avec Édouard Foussier, et, au Vaudeville (même année), le <title>Mariage d’Olympe</title>, dont le coup de pistolet final produisit une si vive sensation et devait être depuis tant de fois imité.</p>
+          <p>Malgré le grand succès de toutes ses pièces en prose, Émile Augier revient aux vers avec la <title>Jeunesse</title>, donnée, en 1859, à l’Odéon ; mais c’est là à peu près son avant-dernière tentative de versification dramatique.</p>
+          <p>La dernière a été <title>Paul Forestier</title>, représentée en 1868 à la Comédie-Française.</p>
+          <p>Après la <title>Jeunesse</title>, la série continue glorieuse. Rappeler le nom de chacune des œuvres .qui suivent, c’est enregistrer un succès :</p>
+          <p>Vaudeville (1859) : les <title>Lionnes pauvres</title>, en collaboration avec Foussier ;</p>
+          <p>Gymnase (1859) : <title>Un beau Mariage</title> ;</p>
+          <p>Comédie-Française (1861) : les <title>Effrontés</title> ;</p>
+          <p>Comédie-Française (1863) : <title>Maître Guérin</title> ;</p>
+          <p>Comédie-Française (1866) : <title>Lions et Renards</title> ;</p>
+          <p>Odéon (1869) : la <title>Contagion</title>, avec Got, de la Comédie-Française, dans le principal rôle ;</p>
+          <p>Vaudeville (1876) : <title>Madame Caverlet</title> ;</p>
+          <p>Comédie-Française (1878) : les <title>Fourchambault</title>, qui furent la dernière œuvre d’Émile Augier et qu’il retoucha, il y a quelques années quand elle fut reprise avec un succès que l’on n’a pas oublié. Lorsque la maladie est venue le clouer sur son lit de douleur, l’illustre écrivain mettait la dernière main à une pièce en cinq actes, qui eût ajouté, nul n’en doutera, un fleuron glorieux à sa couronne déjà si glorieuse.</p>
+          <p>Émile Augier avait remplacé à l’Académie française, en 1857, M. le comte de Salvandy.</p>
+          <p>C’est Émile Augier qui avait été chargé par la compagnie du soin de répondre au discours de réception de M. Émile Ollivier, lequel discours, comme on sait, ne fut jamais prononcé par son auteur.</p>
+          <p>Chevalier de la Légion d’honneur en 1850, officier en 1858, commandeur en 1868, Émile Augier était grand-officier depuis juillet 1870.</p>
+        </div>
+        <div>
+          <head>Son mariage à Rome</head>
+          <p>Rappelons les circonstances de son mariage, qui ne sont connues que de ses intimes. Après la guerre, Augier fit une longue et cruelle maladie. Lorsqu’il fut en convalescence, sa famille lui fit faire un voyage en Italie pour se rétablir et se marier. C’était en 1873. Augier arriva à Rome. Il se logea rue du Babuino, à deux Bas de la princesse de Sayn-Wittgenstein-Berlebourg, dont le salon était alors le rendez-vous des cardinaux, des prélats, de l’aristocratie et des voyageurs de distinction. Un jour qu’il dînait a la villa Médicis, dont son ami Hébert, comme lui Dauphinois, — Hébert est fils d’un notaire de Grenoble — était et est encore directeur, il lui dit qu’il voulait se marier. Hébert le présenta à un de leurs compatriotes du Dauphiné, Mgr Termoz, prélat romain, esprit fin et distingué, de manières douces et charmantes. Augier et sa future femme recoururent à son ministère avec beaucoup de simplicité et de piété et, le jeudi saint, le prélat leur donna la bénédiction nuptiale dans l’église Sainte-Marie-du-Peuple, où Luther a dit sa dernière messe. Le peintre Hébert et le peintre Amaury-Duval étaient les témoins d’Augier.</p>
+          <byline><docAuthor key="Roche, Paul"><hi rend="sc">Paul Roche</hi>.</docAuthor></byline>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

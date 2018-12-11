@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-11T11:05:37+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>title : Les personnages de roman</title>
+        <author key="Bazin, René (1853-1932)">René Bazin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bazin_personnages-de-roman/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>René Bazin</author>, <title><hi rend="i">« Les personnages de roman » [1898],
+              in </hi>Questions littéraires et sociales</title>, <pubPlace>Paris</pubPlace>,
+            <publisher>Calmann-Lévy</publisher>, <date>1906</date>, <biblScope>p. 39-76</biblScope>.
+          PDF : <ref target="https://archive.org/details/questionslittr00baziuoft">Internet
+            Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1898"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="39" xml:id="p39"/>
+        <head>Les personnages de roman<note place="bottom">Conférence faite à Paris, salle des
+            Mathurins (Société des Conférences), le 29 mars 1898.</note></head>
+        <p>Comment naissent les personnages de roman ; comment ils s’appellent et se groupent pour
+          composer le drame, c’est ce que je voudrais essayer de dire.</p>
+        <p>Et d’abord, il n’est pas inutile de passer en revue quelques-unes des catégories
+          innombrables auxquelles ils appartiennent, car, selon leur rang social, leur degré
+          d’affinement ou de rusticité, ils offrent à l’écrivain des ressources ou des difficultés
+          particulières, ils ont des qualités ou des défauts littéraires qui influent naturellement
+          sur le choix du sujet.</p>
+        <p>Tout en haut, à la pointe de la pyramide que forme le monde, et dont la base est si large
+          et le sommet si étroit, il y a les rois et les princes. On les voit de partout, mais aussi
+          on les voit de loin. Le roman, à certaines époques, les a dépeints <pb n="40" xml:id="p40"
+          />complaisamment. C’est que, bons ou mauvais, ils ont une vertu romanesque indéniable :
+          une tête empanachée ; le droit d’avoir des rêves comme le commun des hommes et, plus que
+          d’autres, le pouvoir de les suivre ; une cour où l’imagination peut impunément loger
+          l’invraisemblable, réunir toutes les beautés à toutes les perfidies, tous les caprices,
+          tous les crimes, tous les luxes, toutes les grandiloquences et toutes les idées même, sans
+          que la conscience du lecteur, enfantine à jamais devant l’image d’un roi, s’en émeuve et
+          proteste. Les passions qu’on leur prête s’agrandissent de la magnificence du cadre où
+          elles se meuvent ; elles influent sur plus d’intérêts ; elles ont quelque chose de l’État
+          même et de son pouvoir. Le préjugé les amplifie encore. Il croit volontiers qu’elles
+          occupent, dans la vie des souverains, une place prépondérante, et que, pour beaucoup
+          d’empereurs et de rois, comme pour beaucoup de femmes, l’idée générale du règne est
+          d’aimer.</p>
+        <p>Je n’en suis pas persuadé. Le tableau que nous font les historiens des occupations d’un
+          chef d’État ne semble pas laisser tant de loisir aux méditations sentimentales. À quoi
+          bon, d’ailleurs, insister ? Pour observer les rois, aujourd’hui, nous serions obligés de
+          voyager, ce qui est une condition fâcheuse pour tout comprendre. Nous ne connaissons rien
+          en France qui rappelle une cour, même de loin. À peine pourrait-on étudier sur place un
+          certain fond de <pb n="41" xml:id="p41"/>courtisanerie survivant à son vrai milieu. Les
+          modèles nous manquent. Les romanciers qui ont, le plus récemment, mis en scène des rois,
+          leur ont prêté un trône dans un pays de rêve, ou bien ils les ont représentés en exil,
+          après la couronne, et tellement après, que la trace en était effacée sur le front du
+          héros.</p>
+        <p>Pleurons donc les romans royaux. Les ambassadeurs qui seraient presque seuls documentés
+          pour écrire un tel livre ne peuvent pas l’écrire. Et les romanciers qui seraient tentés de
+          le faire n’en ont pas les moyens.</p>
+        <p>Il faut même leur rendre cette justice qu’ils poussent le scrupule jusqu’à ne pas mêler,
+          d’ordinaire, à leur drame, un personnage étranger. Sauf dans de courtes nouvelles, nous ne
+          rencontrons guère un héros principal qui soit Italien, Allemand, Espagnol ou Anglais. Les
+          ténèbres sont si profondes entre deux âmes qui ne parlent pas la même langue et n’ont pas
+          vu les mêmes collines ! Quelle figure incomplète nous donnerions à ces étrangers ; comme
+          ils resteraient imaginaires ; comme il nous serait impossible d’être vrais ou seulement
+          équitables ! Nous avons déjà tant de peine à rendre l’aspect extérieur d’une terre
+          étrangère, à comprendre à moitié les usages de ses habitants, leurs plaisirs, leur
+          politesse et le goût particulier qu’ils trouvent à la vie ! La meilleure attention n’y
+          suffit pas. Je me <pb n="42" xml:id="p42"/>souviens que, dans mes notes sur l’Espagne,
+          j’évoquais le souvenir de cette assemblée de savants tenue à Salamanque, et dans laquelle
+          Christophe Colomb, méconnu et combattu, essaya de communiquer à ses auditeurs sa foi dans
+          l’Amérique future. J’imaginais un vieux moine disant, de longues années après, un soir, à
+          l’heure où toute la ville est rose, et où monte dans l’esprit la pensée du jour fini et
+          celle du passé lointain : <quote>« J’étais de ce conseil ; j’y entendis parler don
+            Christophe et, pour la joie de ma vie, je fus de ceux qui l’encouragèrent à partir sur
+            les caravelles. »</quote> Hélas ! le volume n’avait pas paru depuis quinze jours, que je
+          recevais d’un Espagnol ce petit billet : « Monsieur, vous commettez une erreur en parlant
+          de “don” Christophe Colomb. Nous donnons ce titre, il est vrai, à nombre de personnages
+          moins importants. Mais nos vieux héros s’en passent. Et nous ne disons pas plus don
+          Christophe que vous ne dites mademoiselle Jeanne d’Arc. »</p>
+        <p>Après les rois et princes, les gens titrés forment une seconde catégorie, ducs, marquis
+          ou comtes, dont le roman français, jusqu’en ces derniers temps, a fait une grande
+          consommation. Elle est aujourd’hui un peu moins demandée. Elle est d’observation facile ;
+          elle est précieuse même pour les écrivains qui savent très peu le monde. Voyez les auteurs
+          qui font les grands romans pour petits <pb n="43" xml:id="p43"/>journaux. Il y a presque
+          toujours un duc dans leurs drames, ou quelque haut personnage qui représente la richesse
+          et l’oisiveté, deux termes tout voisins dans la pensée de la foule, et qui expriment,
+          hélas ! à peu près tout son idéal. Ces auteurs se servent très habilement de ce héros
+          classique. Grâce à lui, ils ouvrent devant le public, éternellement ébloui par un certain
+          état de maison qu’il croit être le bonheur, des perspectives de vie fastueuse, ou large,
+          ou même ruinée, fortune présente, fortune passée, peu importe, puisque l’or a ruisselé
+          devant ceux qui le connaissent à peine. Grâce à lui, ils ont la ressource des beaux coups
+          d’épée, des mots braves, de certaines façons cavalières de sortir d’une difficulté, qui
+          plaisent infiniment à tant de bonnes gens emprisonnés et emmurés dans la perpétuelle
+          incertitude. Enfin, grâce à lui, ils font entrer en scène, même sans en parler, le passé,
+          le passé que toute noblesse évoque naturellement, et qui est en nous à l’état de passion,
+          amour ou haine. Les feuilletonistes montrent ainsi un sens très exact de la psychologie
+          populaire. Mais croyez bien que les romanciers, à leur tour, ne dédaignent pas de tels
+          avantages. Ils en usent plus discrètement, devant des lecteurs mieux informés, plus
+          exigeants. La préférence qu’ils ont longtemps marquée pour les personnages titrés avait
+          cependant les mêmes causes. Elle en avait aussi de plus particulières, de <pb n="44"
+            xml:id="p44"/>plus subtiles. C’est que la race alliée à la fortune crée des êtres plus
+          complexes, des êtres de sentiment et de plaisir et, par conséquent, de souffrance.
+          Soustraits à certaines obligations, aux travaux absorbants, aux luttes pour le pain
+          quotidien où une grande part de l’attention et de la volonté humaine se dépense, on peut
+          supposer qu’ils ont, mieux que d’autres, le loisir de goûter ce que la vie a d’amer et de
+          doux quand elle est la vie pleine, la vie calme. Hommes ou femmes, ils ont le droit de
+          rêver, de regretter, de s’analyser eux-mêmes, d’écrire des lettres sans nombre, de tenir
+          un journal sans fin de leurs pensées et de leurs sentiments. Et quelles merveilleuses
+          ressources pour le dialogue ! Quelles nuances rares de charme, d’attitudes, de politesse,
+          d’émotion, un écrivain ne pourra-t-il pas donner à des personnages auxquels rien n’aura
+          manqué de ce qui peut constituer l’exception humaine ! Si, de plus, il sait bien voir,
+          s’il ne croit pas, de parti pris, la société uniquement composée de femmes infidèles, de
+          maris à plaindre, de fats, d’escrocs et d’égoïstes, je demande s’il n’aurait pas quelque
+          chance de rencontrer des exemples de haute et pure vaillance, de dévouement sans espoir,
+          de richesse très simple ou de pauvreté très fière, dans un monde où certaines vertus sont
+          d’une trempe plus fine ?</p>
+        <p>La réaction contre cet emploi excessif des <pb n="45" xml:id="p45"/>personnages titrés,
+          dans les œuvres d’imagination, devait venir. Elle est venue. Après s’être montrés les
+          parrains les plus castillans et les plus entichés d’héraldique, les romanciers, d’un
+          mouvement presque unanime, se sont appliqués à supprimer les particules et à distribuer
+          autour d’eux des noms moins sonores. On ne remarque aucune tendance analogue dans la vie
+          réelle. Mais il est à noter que les romanciers n’ont, le plus souvent, changé que les
+          noms. Les ducs de Hautlieu, les comtes de Castelblanc s’appellent aujourd’hui : Morin,
+          Benoît, Thomasset et Berger ; ils sont ingénieurs, avocats, explorateurs en congé,
+          attachés d’ambassade, industriels, savants déjà connus, pas encore célèbres et qui ont
+          pris seulement le voile de la science, mais nous ne les voyons guère dans leur profession.
+          Ils ne parlent et n’agissent devant nous que dans les intervalles de liberté qu’elle leur
+          laisse. Ce sont des hommes qui ont parfois gagné leur fortune au lieu de la recevoir, mais
+          ils la dépensent à peu près de même. Leurs loisirs ne doivent être qu’une économie faite
+          sur une occupation plus ou moins assujettissante, mais l’emploi de ces heures de trêve ne
+          porte pas l’empreinte bien profonde du métier qu’on vient de quitter et qu’on va
+          reprendre. Le vœu secret du romancier paraît être toujours de peindre des êtres d’émotion
+          plus que d’action, des amoureux plutôt que des lutteurs.</p>
+        <p><pb n="46" xml:id="p46"/>Il y aurait cependant des figures bien intéressantes parmi les
+          hommes de travail. L’amour n’est que l’épisode ou le témoin de la vie, tantôt le feu
+          d’artifice, tantôt la lampe sage qui veille. Et que cette clarté luise ou non, le travail
+          se poursuit sans relâche. Il est la grande loi dure de l’humanité. Il nous touche par la
+          douleur, par les destinées qu’il nourrit, par les conditions qu’il mélange, par les
+          antagonismes qu’il crée. Tous les états de fortune relèvent de lui ; tous les hommes sont
+          bénéficiaires de l’effort. Et comme il groupe les êtres, il appelle et il use aussi toutes
+          leurs facultés maîtresses. Qui pourrait ne pas trouver qu’il est beau d’étudier une
+          intelligence aux prises avec les problèmes les plus vivants qui soient ; la dépense
+          prodigieuse d’énergie que suppose une affaire prospère ; la lutte contre la concurrence,
+          et les angoisses, et l’orgueil des triomphes rapides ; l’obéissance d’un personnel
+          nombreux aux ordres d’un seul homme ; ces milliers d’industries, qui sont autant de petits
+          États dans l’État, ayant chacun sa politique extérieure et intérieure, sa dynastie, ses
+          drames ? Ne serait-ce pas faire œuvre bien utile et bien haute que de montrer le combat
+          perpétuel entre l’égoïsme et la pitié dans une âme ; le trouble de conscience par où
+          peuvent passer ceux qui s’étonnent de dépenser tant de justice sans récolter de
+          reconnaissance, et d’essayer de dire le remède, puisque la souffrance est souvent <pb
+            n="47" xml:id="p47"/>double ici, et qu’on la trouve chez le patron qui cherche et chez
+          l’ouvrier qui se plaint ?</p>
+        <p>L’ouvrier, voilà une autre catégorie de personnages qu’il faut s’habituer à voir entrer
+          en scène dans le roman comme ailleurs. Le quatrième État aura ses portraitistes, comme il
+          a ses orateurs et ses barnums. Quelques essais ont déjà été tentés. Et pourquoi pas ? Je
+          vois bien les objections qu’on peut faire et qu’on a faites. La foule est grossière ; sa
+          psychologie se réduit à des éléments par trop simples pour être curieux ; elle pense à
+          peine ; elle ne rêve pas ; elle ressemble à une pierre rugueuse, que tout l’effort de
+          l’artiste ne rendra pas agréable à l’œil. Quand tout cela serait vrai, il n’en resterait
+          pas moins permis de choisir ses héros parmi les gens du peuple. Il n’y a pas que le charme
+          qui vaille une étude. Il y a le naturel, il y a la force, il y a même la brutalité. Ces
+          ouvriers, on nous prédit qu’ils seront nos maîtres demain, et il est vraisemblable que
+          nous ferons leur métier, puisqu’ils feront le nôtre. Il importe donc de se connaître.
+          Plusieurs personnes, qui ne les ont pas visités chez eux, ne seraient pas fâchées
+          peut-être, avant de les voir chez elles, qu’on les leur présentât. Et en attendant ce
+          jour, et même s’il n’arrive jamais, ne sait-on pas qu’il existe des esprits, en grand
+          nombre, qui se penchent d’eux-mêmes, sans aucune préoccupation personnelle, vers la
+          souffrance et vers la misère, et <pb n="48" xml:id="p48"/>qui cherchent des devoirs à
+          remplir comme d’autres des joies à prendre ? Ceux-là demanderont, au contraire, au
+          romancier, de leur dire où l’on souffre et surtout pour quelle cause précise on souffre au
+          fond de la mine, dans la carrière, l’usine, l’échoppe, dans la chambre où il y a plus
+          d’enfants que de lits et plus d’appétit que de pain. Et puis, laissez-moi croire que
+          l’enquête ne serait pas si sombre ni si dénuée de poésie qu’on le prétend. Il s’en faut
+          que le peuple soit tout épais, tout grossier ; qu’il n’exprime une idée qu’après avoir
+          juré, comme on le supposerait d’après certains livres ; qu’on ne puisse assister à une
+          réunion de famille ouvrière sans découvrir une tare nouvelle chez des gens déjà
+          soupçonnés. Je ne nie pas la rudesse du plus grand nombre, ni l’insignifiance de beaucoup
+          d’individus, ni la perversité de plusieurs, mais je dis qu’il y a une franchise délectable
+          chez beaucoup d’ouvriers, une spontanéité de sentiments, un raisonnement sur les choses du
+          métier, qui sont de vraies richesses pour un écrivain, et qu’avec eux nous aurons, à
+          défaut de complication savante et de marivaudage, des éclairs de passion dont la lumière
+          vaut bien les crépuscules mourants dont on nous enveloppe. Ils aiment et ils détestent
+          fortement, ces pauvres. Ils ont leur honneur qui ressemble beaucoup à l’honneur tout
+          court. Ils éprouvent, en mainte occasion, un sentiment de solidarité qui va <pb n="49"
+            xml:id="p49"/>jusqu’à l’héroïsme. Ce sentiment, vous pouvez le condamner quand il étend
+          des grèves ; vous l’admirerez quand il engage les voisins à adopter les enfants d’un
+          voisin mort. Impulsions ! dira-t-on. Oh ! que cela est injuste et faux ! L’instinct ne
+          court pas au danger ou à la peine. C’est le fond vivace, sous l’amas des préjugés, c’est
+          la vieille générosité française, c’est la belle fraternité chrétienne inconsciente
+          peut-être, qui s’éveille et va au secours. Enfin, si vous observez que l’ouvrier est très
+          aisément abordable, qu’il parle volontiers, qu’il lit de plus en plus, vous conclurez que
+          le roman de l’atelier ou de l’usine est un des plus riches en documents, un des plus
+          saisissants, et, à bien des égards, un des plus nouveaux qui puissent tenter un
+          écrivain.</p>
+        <p>La difficulté est tout autre, et tout autre aussi l’intérêt quand il s’agit du paysan. La
+          campagne est presque toujours muette. C’est sa grande vertu, et c’est le grand obstacle.
+          Ceux qui passent n’entendent pas sa voix. Ils ne comprennent rien à l’énigme de la terre.
+          Lorsque nous traversons les champs en chemin de fer ou en voiture, la silhouette courbée
+          de ces hommes et de ces femmes qui travaillent est si voisine du sol et si bien mêlée à
+          ses lignes que le paysan peut sembler un accessoire du paysage, une chose qui se meut à
+          peine entre des choses immobiles. Et telle est, en effet, <pb n="50" xml:id="p50"
+          />l’impression souvent traduite par les littérateurs ou les peintres, mais qui n’est vraie
+          que si on lui donne la durée d’une impression, si on ne prétend pas y résumer la vie du
+          paysan. Même si vous liez conversation avec ce faucheur, ce casseur de mottes ou ce
+          bûcheron, vous continuerez de l’ignorer. Il vous répondra par des mots embarrassés, d’une
+          banalité voulue, et il se taira. Ne vous fiez pas davantage aux souvenirs d’une
+          villégiature de quelques semaines dans un coin de France ou de Navarre. Il faut un siège
+          en règle pour conquérir ce héros défiant, et c’est la cordialité seule qui fait parler ce
+          silencieux, l’habitude de faire partie du même horizon restreint, d’être rencontré par lui
+          au détour des routes et surtout la lente persuasion qu’on aime la terre, comme lui, depuis
+          le trèfle d’en bas, depuis la graine non germée, jusqu’au nid de pie qui fleurit noir au
+          sommet des vieux chênes. Voilà pourquoi certains écrivains lui ont attribué une telle
+          pauvreté de sentiments et d’idées. La longue fréquentation leur a manqué.</p>
+        <p>Encore n’est-ce là qu’une première difficulté. La seconde est plus redoutable peut-être.
+          Elle consiste, pour le romancier, à faire s’exprimer un paysan comme un paysan, à ne lui
+          prêter ni le langage d’un ouvrier ni celui d’un bourgeois. M. Brunetière, à propos des
+          romans ruraux de George Eliot, remarque justement : <quote>« Il n’y a rien de si
+            difficile, dans le <pb n="51" xml:id="p51"/>roman et ailleurs, que de borner le
+            vocabulaire des gens que l’on fait parler aux limites exactes de leur petit univers
+            intellectuel et moral. »</quote> Épreuve dangereuse, en effet, piège redoutable. Les
+          novices croient s’en tirer par un procédé bien naïf. Ils mélangent dans le dialogue des
+          mots de patois ; ils ont soin d’attribuer au personnage des fautes de prononciation et de
+          français soigneusement recueillies par la typographie. Quand ils ont fait dire à un
+          toucheur de bœufs ou à la femme d’un fermier : « Pardienne, m’sieu, mam’selle, not’vache,
+          j’allons, j’étions », ils s’imaginent avoir fait parler un paysan. L’erreur est manifeste.
+          Car l’emploi d’un langage inférieur ne peut que diminuer l’intérêt d’un roman. Les défauts
+          de prononciation ou les solécismes fatiguent vite le lecteur. Les mots de dialecte ne
+          méritent que très rarement d’être imprimés. À mon avis, c’est là de la fausse couleur
+          locale. Il est convenu et entendu que les filles de ferme n’ont ni l’accent ni la
+          correction de phrase d’une Parisienne. La fidélité au modèle ne consiste pas dans ces
+          notations puériles. Elle est dans l’emploi exclusif des termes usuels qui forment le
+          vocabulaire paysan, dans la coupe des phrases, qui doivent être brèves, très pleines de
+          sens, et ne jamais former une période. La campagne, volontiers sentencieuse, supprime les
+          transitions apparentes. Les silences qu’elle met entre les idées sont <pb n="52"
+            xml:id="p52"/>précisément remplis par les pensées secondaires qui servent de lien et
+          qu’il faut deviner. Elle n’est jamais orateur, sauf dans l’extrême Midi. Ce qu’elle
+          exprime le mieux, dans ses formules concises, c’est la tradition, lame sensée, forte et
+          passablement satirique de la vieille France. En l’étudiant, on découvre des horizons
+          d’histoire. En faisant vivre dans le roman quelques-uns de ses habitants, on a
+          l’impression réconfortante que l’on peint un état social qui a peu varié, qui se modifie
+          lentement, et que les scènes qui sont vraies aujourd’hui resteront longtemps
+          vraisemblables. On a surtout l’inappréciable avantage de donner à l’œuvre le plus ample et
+          le moins fragile des cadres. L’usine tombe en ruine ou se transforme ; les procédés du
+          travail industriel se renouvellent incessamment ; les professions perdent leur
+          physionomie ; l’aspect d’une ville, après vingt ans, est à peine reconnaissable, tandis
+          que les champs, les bois, les fleuves, le ciel, tout ce que la vie paysanne remplit et
+          pénètre est fait d’une beauté qui demeure et qui survit à une multitude de
+          générations.</p>
+        <p>Je pourrais passer en revue bien d’autres groupes humains, et dire ainsi les raisons
+          d’ordre littéraire qui peuvent les faire choisir ou rejeter par les écrivains. Mais la
+          liste en serait trop longue. J’ajouterai seulement quelques observations sur le prêtre et
+          sur la religieuse dans la littérature.</p>
+        <p><pb n="53" xml:id="p53"/>Bien des fois, le type ecclésiastique a été dessiné par les
+          romanciers. Nous avons tous, dans nos souvenirs de lectures, quelques portraits d’évêques,
+          de vieux curés de campagne tout blancs, de vicaires agités et ambitieux. Les chanoines ont
+          été plus épargnés. Mais, quelque talent que les auteurs y aient mis, est-il possible de ne
+          pas être frappé de ce qu’il y a d’incomplet et d’inachevé dans la plupart de ces
+          peintures ? Est-il possible de ne pas sentir que la minutieuse exactitude des détails
+          humains ne suffit pas pour exprimer un rôle et une vie qui n’ont de sens qu’autant qu’ils
+          sont, par un certain côté, divins ? Cet élément ne saurait être négligé, puisque, à moins
+          de supposer un mauvais prêtre, il faut donner à celui-ci une vocation qui est précisément
+          à l’opposé de nos entraînements et de nos mobiles terrestres. Tandis que la patience, le
+          don de voir et de composer suffisent pour animer d’une vie parfaite un gentilhomme ou un
+          bourgeois, il est besoin ici d’autre chose, et c’est de la foi, ou tout au moins de
+          l’intelligence de la foi. <quote>« Songez donc, dit M. Jules Lemaître, qu’à moins d’un
+            mensonge sacrilège, qui ne doit guère se rencontrer, tout prêtre, quelles qu’aient pu
+            être ensuite ses faiblesses, a accompli, le jour où il s’est couché tout de son long aux
+            pieds de l’évêque qui le consacrait, la plus entière immolation de soi que l’on puisse
+            imaginer ; qu’il s’est élevé, à cette heure-là, au plus <pb n="p."
+            />54<!-- User : 2018-07-30T09:36:00
+reprise-->] haut degré de dignité morale, et qu’il a
+            été proprement un héros, ne fût-ce qu’un instant. »</quote> On ne saurait mieux dire. Et
+          si cela est compris, il me semble que le curé de campagne, si complaisamment et
+          indulgemment évoqué par les écrivains, ne saurait plus être le vieillard paterne, timide
+          et solitaire, qui vit dans une pauvreté quotidienne, relevée de quelques instants de
+          gourmandise, quand il va dîner au château ou dans les conférences, et qui bénit la
+          naissance, l’amour ou la mort. Il existe chez lui une passion qui explique tout, qui
+          transfigure les plus humbles, et grandit leur condition jusqu’à la faire exceptionnelle et
+          sublime, de médiocre qu’elle est d’apparence : c’est l’amour des âmes. Niez-le, et le
+          prêtre ne différera pas sensiblement d’un honnête percepteur en retraite, d’un notaire
+          honoraire bienfaisant, d’un propriétaire conciliant et aumônier. Mais si vous admettez
+          qu’un homme puisse s’élever au-dessus de la nature et la dompter au point de faire du
+          sacrifice la loi même de sa vie, l’inexplicable devient clair. Cette âme a eu pitié des
+          âmes. Elle a vu leur détresse et leur dignité. Elle a considéré qu’une paysanne était,
+          aussi bien qu’une reine, une âme en marche, à travers la douleur et la joie, vers une
+          éternité. Elle a quitté le monde pour soutenir un peu d’humanité chancelante, oublieuse,
+          fatiguée de la route. Elle aura sa récompense, aussi mystérieuse que sa force, dans <pb
+            n="55" xml:id="p55"/>des repentirs qui ne seront jamais révélés, dans des larmes qui
+          couleront pour d’autres, dans de longues patiences que la douleur ne lassera plus, dans
+          les pardons, les oublis, et, plus souvent, dans l’allégement passager d’une créature
+          faible qui retombera encore, mais qui porte en elle-même un principe de relèvement.</p>
+        <p>Quelque chose de cette même idée ne nuirait pas à celui qui voudrait représenter, avec le
+          scrupule du vrai, une religieuse. Mais que d’autres qualités il faudrait encore ! Une
+          plume si fine et si chaste, la faculté de comprendre et d’exprimer entièrement le sens de
+          ces mots qui nous sont mal connus : le silence, le recueillement, le voile, l’oraison. Et
+          nous expliquons si grossièrement les vertus qui nous dépassent ! Pour n’en prendre qu’un
+          exemple, n’est-il pas d’un usage presque universel, dans le roman, le drame, la poésie, de
+          conduire au couvent les héroïnes désespérées ? Elles entrent au cloître comme dans le
+          refuge des cœurs navrés. Elles lui demandent l’oubli d’un autre bonheur qu’elles ont
+          d’abord cherché. En un mot, elles n’y vont pas tout droit, et c’est parce qu’elles se sont
+          heurtées à quelque obstacle de la vie qu’elles tournent vers Dieu des regards d’amoureuses
+          éconduites ou trompées. Est-ce conforme à la réalité ? Bien rarement. Ces sortes de
+          vocations en retour ne sont, dans le domaine des faits, qu’une très infime <pb n="56"
+            xml:id="p56"/>exception, et nous pourrions tous plaindre une supérieure qui aurait à
+          conduire une congrégation d’héroïnes de romans revenues de leurs illusions, mais non pas
+          de leurs souvenirs.</p>
+        <p>L’histoire commune est bien plus simple. Les jeunes filles qui se font religieuses n’ont
+          presque jamais eu d’aventure de cœur. Elles obéissent à un attrait direct et puissant. On
+          dirait qu’elles ont vécu, puisqu’elles ont le dédain souriant de la vie. Cependant, elles
+          sont très jeunes, dix-huit ans, vingt ans, vingt-deux ans. Rien n’a froissé leur gaieté
+          épanouie. Rien ne les repousse. Elles disparaissent volontairement du monde. Nous les
+          retrouvons souvent, quelques années plus tard, Sœurs d’hôpital, Sœurs débarbouillant et
+          gardant les enfants dans les crèches, Sœurs des pauvres, Sœurs d’écoles, mêlées à toutes
+          les misères, à toutes les peines, jamais à nos joies, qu’elles n’ont pas l’air de nous
+          envier. Et cela dure toute une vie. N’est-ce pas bien mystérieux, bien troublant, et cela
+          n’échappe-t-il pas, pour la plus large part, à toutes les analyses et à tous les récits
+          d’un romancier ? Je ne l’ai jamais si bien compris qu’un jour, où il me fut donné
+          d’assister à un spectacle très rare.</p>
+        <p>J’accompagnais, seul laïque, un évêque américain dans la visite qu’il faisait à la maison
+          mère d’un ordre de religieuses cloîtrées. J’allais, un peu en arrière, intimidé par cette
+          qualité de profane et <pb n="57" xml:id="p57"/>d’intrus, que tout me rappelait, mon
+          costume, les grands corridors blancs, les images pendues aux murs, le silence, la démarche
+          grave et recueillie de la supérieure générale qui nous précédait, vieille femme à qui
+          obéissaient les deux cent vingt monastères du Bon-Pasteur répandus dans le monde entier.
+          Elle avait les yeux bleu vif d’un chef d’armée, un air de commandement et de décision que
+          tempéraient l’humilité acquise et la finesse naturelle de la femme. Elle nous conduisit
+          dans une salle vaste, sans autre ornement que la lumière, où étaient assises le long des
+          murailles, sur trois rangs et laissant une avenue entre elles, les deux cent cinquante
+          novices de l’ordre, toutes blanches aussi. Pendant que l’évêque, assis à l’une des
+          extrémités de l’appartement, donnait aux religieuses des nouvelles de leurs sœurs
+          d’Amérique, je considérais, retiré dans un angle, tous ces visages enveloppés d’un voile
+          semblable et fixés dans la même attention. Il y avait là des Françaises, des Anglaises,
+          des Américaines du Nord et du Sud, des Italiennes, des Espagnoles, des Allemandes, des
+          Belges, des femmes venues des îles de l’archipel grec et de l’Asie Mineure, et la race se
+          reconnaissait à la forme des traits, à la nuance de la peau, à un peu plus de raideur, ou
+          d’abandon, ou de volonté tranquille dans la tenue, bien que les chaises fussent toutes
+          exactement alignées, les tailles droites, les <pb n="58" xml:id="p58"/>mains posées à plat
+          ou jointes sur les robes tombant à plis pareils. Mais l’expression avait partout une
+          parenté émouvante, et c’était la jeunesse, une joie enfantine, facile et pleine, qui
+          déborde comme les fontaines en attendant qu’on y puise, et c’était une limpidité de regard
+          qui disait la parfaite virginité des âmes. Je pensais, dans ce court instant qui ne se
+          renouvellera jamais, que ces jeunes filles seraient demain dispersées à travers le monde,
+          afin de se dévouer, elles, chefs-d’œuvre de pureté, à l’éducation des filles perdues ;
+          elles toucheraient de leurs mains, de leurs lèvres, les créatures les plus rejetées ;
+          elles vivraient avec celles dont le vice leur était le plus détestable ; elles se
+          pencheraient sur toutes les hontes et se relèveraient avec une pensée intacte ; elles
+          donneraient leur amour, qu’elles ont refusé au monde, à ce que le monde a corrompu, puis
+          abandonné. Non, celles-là ne ressemblent pas aux héroïnes de romans, puisqu’elles les
+          guérissent. Et je songeais aussi, me rappelant cette manière d’expliquer de pareils
+          dévouements, qui traîne dans tant de livres : « Tout cela est au-dessus de nous. On ne
+          sacrifie pas, pour un entraînement d’imagination, sa jeunesse, sa beauté, sa joie et sa
+          vie ; on ne s’enferme pas dans un couvent avec les rebuts de la rue ; on ne vit pas
+          quarante ans chaste, pauvre, sans autre volonté que celle d’obéir, parce qu’on a le goût
+          du blanc, des fleurs artificielles et du silence, <pb n="59" xml:id="p59"/>parce qu’on
+          aime à respirer l’odeur d’un grain d’encens. Il y a autre chose, mais qui pourra le
+          dire ? »</p>
+        <p>Voilà donc, avec leurs avantages et leurs défauts romanesques, quelques-unes des figures
+          parmi lesquelles un écrivain trouvera ses modèles. Un homme qui est doué pour
+          l’observation possédera vite, en lui-même, une collection d’images prises au hasard des
+          chemins, incomplètes, fragmentaires, simples apparitions de la vie dans un moment de la
+          durée, et qui ne sont que des éléments de personnages, des traits dispersés, des croquis
+          pareils à ceux des peintres. Et, sans doute, il arrivera que ces croquis auront été faits
+          et multipliés en vue d’une œuvre déterminée, mais le contraire est la loi commune. Les
+          héros de roman, pour la plupart, sont beaucoup plus anciens, dans ces réserves de
+          l’esprit, que l’intrigue qui les a groupés, et leur vie littéraire a été précédée d’une
+          période plus ou moins longue de disponibilité, d’où ils sortent tout à coup, appelés et
+          désignés par cette force qui s’appelle l’idée, et qui n’hésite pas, et qui va droit à eux,
+          et leur dit : « C’est toi que je veux, tu vas vivre ! » Et ils viennent, dans la joie.
+          Tout livre qui n’aurait point ces profondes racines serait superficiel* Toute
+          documentation qui serait entièrement neuve aurait l’apparence d’une enquête, et on n’y
+          reconnaîtrait point ce goût de la <pb n="60" xml:id="p60"/>vie qui ne vient, aux romans
+          comme aux fruits, qu’après quatre saisons. En attendant cette heure, qui peut-être ne
+          sonnera jamais pour eux, ces ombres, ces héros de limbes, sommeillent dans le souvenir ou
+          dans le cahier des notes, qui est rouge, ou gris, ou bleu, suivant l’humeur.</p>
+        <p>Oui, le cahier de notes, je ne m’en dédis pas. Je sais qu’elles ont leurs détracteurs, je
+          sais qu’on n’est pas tendre pour elles, et qu’il y a des jugements qui condamnent les
+          carnets et les tiroirs d’un auteur. <quote>« Toutes sortes de notes, dit encore
+            M. Brunetière, ont cet inconvénient qu’il n’y a rien de si difficile que de résister à
+            la tentation de s’en servir. »</quote> Je réponds que cela dépend, et que s’il est un
+          usage dangereux des notes, il en est un autre fort légitime et utile. Je dirai même que je
+          les crois nécessaires, mais à une condition, qui est de ne jamais les relire, à moins d’y
+          être invité par l’appel immédiat du sujet, par la rencontre qui se fait, dans l’esprit, du
+          geste logique d’un personnage avec le geste autrefois vu et saisi au vif de la nature.
+          Elles ne feront pas le roman, parce qu’elles n’en ont ni la puissance ni le droit ; parce
+          qu’elles sont incohérentes ; parce que le groupement de ces choses demi-vivantes n’est pas
+          la vie ; mais elles y aideront, elles mettront une agrafe au manteau, une plume à la
+          toque, un peu de noir au sourcil. Elles sont costumières. Sans elles, une foule de détails
+          et de mots, obscurs dans <pb n="61" xml:id="p61"/>la mémoire, ne se retrouveraient pas. Et
+          si vous dites qu’elles ne sont qu’une poussière, j’y consens, mais la poussière vole ;
+          accumulée, elle se colore ; montée très haut, elle est le bleu du ciel, et elle fait
+          partie de l’atmosphère : c’est de même dans le roman !</p>
+        <p>Qu’on me permette un exemple. Je ne puis cacher que j’ai beaucoup étudié le monde de la
+          mode et ses environs. Ce fut un voyage très long, très amusant et d’un intérêt très
+          poignant à la fois. Pensez donc : visiter les premières maisons de modes et aussi les
+          petites, à Paris et en province ; interroger la patronne, pénétrer dans les ateliers et
+          surprendre les employées au milieu du travail, groupées au naturel, lasses, nerveuses,
+          attentives, bavardant, honteuses d’être vues avec leurs manches de lustrine, douces,
+          moqueuses ou hardies ; se faire présenter à mademoiselle Irma, qui est apprêteuse et cause
+          très volontiers de son métier ; à l’artiste mademoiselle Mathilde, qui invente les plus
+          jolis chapeaux de Paris, et manie les plumes et les rubans comme un poète les rimes
+          riches ; tenir entre ses mains de petits cahiers de jeunes filles disparues, qui n’ont
+          laissé après elles que de pauvres petites idées de luxe qui sont déjà passées de mode et
+          ces quelques feuilles de journal souvent banales, souvent charmantes, avec des blancs, des
+          endroits tout froissés et quelquefois des traces de larmes ; n’est-ce pas <pb n="62"
+            xml:id="p62"/>de quoi s’émouvoir, et sourire, et prendre pitié ? On apprend beaucoup de
+          cette manière. On se défait de bien des opinions que professent les gens du monde à
+          l’égard de ceux qui n’en sont pas. On acquiert, entre autres, la certitude qu’il y a parmi
+          les ouvrières, à côté des vices, des travers, des imperfections propres à leur condition
+          ou communes à l’humanité, des trésors d’énergie, de délicatesse et de poésie. Pour le
+          prouver, j’ouvrirai ces notes dont j’ai parlé. Je citerai des phrases, des mots, des
+          fragments de conversation ou de mémoires, écrits ou dits non par une seule, mais par dix
+          jeunes filles, à Paris ou en province. Je n’y changerai rien. Vous reconnaîtrez leur
+          signature de rêve et de misère, et vous apercevrez, du même coup, le secours qu’on peut
+          attendre des notes.</p>
+        <p>Voulez-vous des âmes tristes ? En voici :</p>
+        <quote>
+          <p>« Je suis vendeuse dans une maison de modes. Si vous connaissez la réputation des
+            modistes, ma maison, hélas ! ne fait pas exception. Avec mon caractère faible, je suis
+            bien en danger. Ajoutez à cela la fatigue. Je suis sur pied toute la journée, courant
+            d’un salon à l’autre, parlant toujours, ayant affaire à des madames très difficiles, qui
+            veulent être jolies quand même, et commandée par une première on ne peut plus légère,
+            avec laquelle on est forcé d’être politique. Je rentre tard. Je ne suis jamais couchée
+            avant minuit, ce qui est tard, quand on <pb n="63" xml:id="p63"/>a une journée de
+            travail derrière soi et une autre devant. »</p>
+        </quote>
+        <p>Une autre m’a dit : <quote>« Savez-vous ce qu’on souffre, quand on se sent impuissante
+            devant un travail qui est un gagne-pain ? À chaque saison, j’ai de ces moments de
+            souffrance. Je ne m’y habitue pas. Il me semble, à chaque fois, que c’est fini, que je
+            n’aurai plus d’idées. Un soir, j’ai prié Dieu, lui, le grand artiste, de me rendre
+            capable de faire le travail qu’il veut que je fasse. Et, le lendemain, j’ai eu deux
+            idées. »</quote></p>
+        <p rend="b">Une autre, qui avait sa mère à sa charge, me disait avec un peu d’orgueil et
+          beaucoup de tristesse :</p>
+        <quote>
+          <p>« Il faudrait attendre au moins un an pour avoir un bureau de tabac. C’est bien long.
+            Maman y a quelque droit : son grand-père, le comte Léopold de B., était colonel de la
+            garde royale et chevalier de Saint-Louis. »</p>
+        </quote>
+        <p>J’ai grand’peur que, malgré de pareils titres, le bureau de tabac n’ait pas encore pour
+          titulaire mademoiselle Léontine.</p>
+        <p>Voulez-vous du socialisme naïf ?</p>
+        <quote>
+          <p>« Je me rappelle avoir vu des socialistes en Angleterre. Nous en rencontrions, le
+            dimanche, des milliers, réunis sur une place, en plein vent. Ce qui m’intéresserait
+            aujourd’hui, ce serait de connaître leurs théories. Je veux lire, dimanche, l’article
+              <title>Socialisme</title> dans Larousse. »</p>
+        </quote>
+        <p><pb n="64" xml:id="p64"/>Et ce cri, bien curieux :</p>
+        <quote>
+          <p>« Je n’en veux pas à la vie ; je sais qu’elle est faite pour quelques-uns. »</p>
+        </quote>
+        <p>Voulez-vous des âmes tendres, des mots qu’un écrivain ne désavouerait pas ? Écoutez ces
+          trois pensées écrites sur le même petit cahier par une Parisienne :</p>
+        <quote>
+          <p>« J’aime lire un livre qui vient d’être lu par une personne aimée, et celui dont j’ai à
+            couper les pages me donne toujours une première impression sèche. Je vais donc lire
+            d’abord le roman que mon amie a lu. »</p>
+        </quote>
+        <p>Un peu plus loin :</p>
+        <quote>
+          <p>« Seule, je n’ai aucune force. Je serais heureuse qu’un être plus fort que moi, plus
+            fort surtout par l’amour que j’aurais pour lui, fût mon guide et m’absorbât toute. »</p>
+          <p>« Au contraire des autres, je mesure l’affection qu’on me donne, et que je donne, aux
+            tristesses éprouvées. »</p>
+        </quote>
+        <p>Voulez-vous enfin des impressions d’artistes, écrites par de simples employées de la
+          mode ?</p>
+        <quote>
+          <p>« Il est minuit. Ma fenêtre est ouverte, et je me plais à entendre le roulement du
+            tonnerre et à voir la lumière des éclairs. Je ris. Je fais des péchés de sensualité à
+            écouter la pluie tomber, un autre en buvant de l’eau fraîche, un autre à respirer les
+            fleurs que j’aime tant ! »</p>
+        </quote>
+        <p><pb n="65" xml:id="p65"/>Et ceci :</p>
+        <quote>
+          <p>« Peut-être pourrait-on comparer une patronne de grande maison à un chef d’école de
+            peinture. En vérité, madame X. et madame Y. sont deux artistes de genre différent, et
+            elles font véritablement école. Madame X., si elle avait été peintre, aurait
+            probablement été un grand dessinateur, car elle a un œil merveilleux pour les formes, la
+            ligne, l’harmonie, ses teintes sont généralement fondues, rien de heurté. On pourrait la
+            comparer à Ingres, tandis que madame Y. est absolument l’opposé ; elle a bien l’œil de
+            son ancien pays d’Orient. Nos couleurs sont riches, vives ; les mélanges de tons ont
+            fait sa réputation par leur hardiesse ; on ne recule devant aucun mélange
+            extraordinaire, on heurte, on oppose : mais tout cela en artiste. Benjamin Constant
+            représente bien ce qu’aurait été madame Y. Chez madame X., on doit forcément devenir
+            dessinateur de goût, et le goût doit être discret, fin, tandis que chez nous l’œil le
+            plus terne devra s’habituer et finir par aimer les couleurs vives, et le goût le plus
+            timoré deviendra hardi et original. »</p>
+        </quote>
+        <p>On pourrait croire que ce ne sont là que de jolis mots, et que le souci de l’art qu’elles
+          savent exprimer est de bien petite importance dans la vie de ces jeunes filles obligées de
+          travailler pour vivre. Pas toujours. J’en connais une, réputée parmi ses compagnes pour
+          son merveilleux talent d’invention. <pb n="66" xml:id="p66"/>Elle gagnait quatre cents
+          francs par mois, comme première, dans une grande maison de Paris. Le directeur d’un grand
+          magasin lui fait offrir six cents francs, plus de sept mille francs par an, — la fortune
+          pour elle, — si elle veut venir diriger son rayon de modes. Elle réfléchit trois jours. Au
+          bout de ce temps elle refuse. Et quelle raison donne-t-elle ? Je n’aurais pas osé la
+          rapporter dans un livre, parce qu’on aurait trouvé cela invraisemblable. Le fait est vrai
+          cependant.</p>
+        <p>Elle répond qu’elle serait disqualifiée, qu’au lieu d’être une créatrice d’œuvres
+          personnelles, je ne puis dire tirées, mais portées à un seul exemplaire, elle conduirait
+          une fabrique où le modèle, copié et recopié cent fois, deviendrait banal.</p>
+        <p>Il lui fallait ce qu’il y a d’imprévu, de rare, de capiteux, dans la mode de luxe. Elle
+          refusait l’argent pour demeurer artiste.</p>
+        <p>Ce sont là des notes d’auteur.</p>
+        <p>Presque aucune d’elles n’a été employée, et, comme on dit, versée dans le volume. Mais
+          n’aperçoit-on pas qu’elles pouvaient servir d’indication, et comment le rôle des cahiers
+          et des carnets ne consiste pas simplement à rappeler des termes, des détails, des
+          fragments d’histoire que la mémoire aurait pu perdre, mais surtout à renseigner l’écrivain
+          sur la manière de traiter l’œuvre, sur ce qu’on nomme en peinture les valeurs ? Elles lui
+          indiquent <pb n="67" xml:id="p67"/>les tons qui s’harmoniseront le mieux avec le fond du
+          tableau.</p>
+        <p>À présent l’idée maîtresse du roman peut venir, et choisir, parmi tant de figures vagues,
+          celles qui prendront corps et seront des personnages. Elle apparaît ; elle possède une
+          force créatrice ; elle dispose, elle assemble, elle se meut avec la souveraineté de la vie
+          au milieu des éléments de l’œuvre encore dispersés et gisants. Elle doit avoir une vue
+          prodigieusement sûre, car elle va chercher, au plus profond du souvenir, des traits
+          presque oubliés qu’elle ramène soudainement au jour. Pourquoi ceux-là ? Pourquoi pas
+          d’autres, plus voisins, plus séduisants peut-être ? Laissez-la faire. Elle ne se trompe
+          pas, bien qu’elle n’hésite jamais. et si vous me demandez quelle est cette puissance qui
+          agit si librement et si vite, je vous dirai que c’est simplement la vérité que l’écrivain
+          veut souligner, la situation qu’il veut exposer. À peine s’est-elle formulée dans la
+          pensée, et déjà les lignes générales du roman sont arrêtées. D’un mouvement qui semble
+          instinctif, elle marque tous les rôles de premier rang, tous les principaux personnages à
+          venir. Ils accourent, tels qu’ils sont, ces êtres informes, et si loin encore de la vie
+          complète. Mais ils sont désignés pour vivre. Un peu de leur âme est déjà en eux. L’idée
+          les a fait se lever. Ils se groupent, s’opposent, forment l’ébauche du drame, comme des
+          marionnettes qu’on <pb n="68" xml:id="p68"/>mettrait sur une scène pour figurer les
+          acteurs futurs. Et ce n’est pas tout. Le cadre, le paysage, le décor de la scène est déjà
+          dessiné. Une atmosphère enveloppe ce petit monde en formation. Et l’on peut dire que, dans
+          ses traits essentiels, un roman est l’œuvre d’un instant.</p>
+        <p>N’est-ce pas évident, quand le romancier entreprend, comme il est si souvent arrivé, de
+          raconter sa propre histoire et, plus spécialement, son enfance ? Le seul nom d’enfance
+          n’évoque-t-il pas un roman qui est en nous tous, et qui s’y trouve à l’état romanesque
+          précisément, je veux dire avec la poésie de la réalité et celle du recul, avec le double
+          attrait de la jeunesse qui se souvient et de l’expérience qui raconte, avec ces
+          grossissements de certains épisodes, que le lointain déforme et amplifie, comme il fait,
+          entre les branches d’arbres, pour les astres qui se lèvent ? Sans réflexions, sans
+          recherches, c’est le foyer qui apparaît, la maison, le château, le magasin paternel, les
+          chemins ou les rues où l’on courait, les parents, les voisins, les amis d’école ou de
+          collège, la cousine qu’on allait voir volontiers, les grand-tantes auxquelles il fallait
+          rendre une visite annuelle, et tant de joies auxquelles rien n’a ressemblé depuis, et tant
+          de larmes qui n’ont pas toutes séché. Les romanciers anglais, pour ne parler que d’eux, se
+          sont plu à composer de ces autobiographies voilées, et les exemples seraient faciles à <pb
+            n="69" xml:id="p69"/>rencontrer dans Fielding, Smollet, Walter Scott, Dickens, George
+          Eliot. Qui ne sait que l’original M. Micawber, si pauvre, §i généreux, si follement
+          visionnaire, avait vécu sous le nom de John Dickens ? On peut critiquer le genre, pour des
+          raisons qui ont été dites cent fois. On ne contestera pas que les personnages soient venus
+          ici tous ensemble, à l’appel de l’idée.</p>
+        <p>Il n’en est pas autrement lorsque l’auteur traite d’autres sujets. Ici, je suis obligé de
+          parler de moi, d’analyser mon expérience personnelle. Mais j’ai pour excuse la nécessité
+          même, car, dans un problème si délicat, il est impossible de parler d’après l’expérience
+          des autres, et nul ne saurait noter avec certitude la marche de pareilles idées, si ce
+          n’est dans son propre esprit.</p>
+        <p>Je dirai donc que l’idée du roman qui s’est appelé <title>De toute son âme</title> ne
+          m’est venue qu’après une longue étude du milieu. J’ignorais complètement ce que j’écrirais
+          plus tard, quand je tâchais de pénétrer la vie difficile, pauvre et miroitante de
+          l’employée de la mode. Après quelque temps, la connaissance de l’atelier, le souvenir de
+          conversations nombreuses, et de nombreuses lettres, me firent apercevoir jusqu’à
+          l’évidence, parmi d’autres choses, l’obstacle au mariage, que les jeunes filles de la mode
+          rencontrent dans leur profession même ; comment celle-ci les affine et les déclasse ;
+          comment elles sont d’un <pb n="70" xml:id="p70"/>monde par leur naissance et d’un autre
+          par leurs rêves, partagées entre le luxe du dehors et la misère de chez elles, jetées de
+          l’un à l’autre par le travail qui reprend ou le travail qui cesse, également impuissantes
+          à oublier la richesse qu’elles côtoient et à faire oublier la condition d’où elles
+          sortent.</p>
+        <p>Aussitôt, les personnages s’imposaient à l’esprit avec une sorte de nécessité, ou, si
+          l’on préfère, en vertu d’un raisonnement si prompt et si voisin de l’impulsion, qu’il
+          semblait dégagé de toute idée de travail. L’héroïne, ce serait l’une des ouvrières les
+          plus artistes de la mode parisienne, non l’une quelconque, mais celle-ci, qui avait les
+          yeux couleur d’eau de mer, un air d’aristocrate, un sourire si facile et si vite retenu.
+          Elle n’habiterait pas Paris parce que le paysage de Paris est fatigué. Si les ponts
+          pouvaient parler, si la Sainte-Chapelle, le Palais de Justice, les « buées matinales » et
+          les bateaux de la Seine, si le soleil couchant au-dessus du bois, pouvaient dire leur
+          opinion aux romanciers, ils leur crieraient : « Assez ! assez ! » Non, elle habitait une
+          ville un peu grande de province, au bord d’un fleuve aussi, pour que l’horizon fût plus
+          large et d’une lumière plus variable. Celui qui, d’en bas, l’aimait, était un pêcheur de
+          Loire, un timide et un passionné, de cette race où les résolutions mûrissent lentement et
+          éclatent soudainement. Plus près d’elle, dans le travail journalier, elle avait une amie,
+          l’autre type extrême de la <pb n="71" xml:id="p71"/>mode, l’aventurière, l’errante, la
+          lamentable quêteuse de pain, âme capable de tendresse et nullement d’art, qui ne s’attache
+          qu’aux êtres. Entre elles deux, toutes les nuances d’ouvrières pourraient s’encadrer.
+          Enfin, comme l’héroïne principale, entourée de compagnes moins élégantes et moins
+          affinées, n’en serait que plus exceptionnelle, comme il fallait rappeler constamment et
+          cruellement son origine, sa parenté, son monde d’où sans cesse elle s’évade en esprit,
+          elle a un frère, l’ouvrier dont l’exemplaire vit sous nos yeux, l’homme que les mots
+          corrompent autant que les passions, et qui se venge, par la haine universelle, de
+          l’offense qu’il a reçue d’un seul. Tous les principaux personnages étaient ainsi
+          désignés.</p>
+        <p>De même dans cette nouvelle intitulée <title>Donatienne</title>. En regardant, aux
+          Champs-Élysées ou au Parc Monceau, ces théories de nourrices arrivées à Paris avec une
+          chemise et une robe, à présent superbes, béates, tout enchâssées et ruchées de broderies,
+          comment ne pas penser à ce contraste si dangereux, et au nombre des ménages pauvres qu’il
+          a troublés et rompus à jamais ? L’idée, un jour, m’a frappé, et le drame, immédiatement,
+          s’est trouvé bâti.</p>
+        <p>La nourrice, c’est une Bretonne, petite avec des sabots à talons hauts, coiffée d’une
+          coiffe à deux ailes rondes et plissées comme un cyclamen, une de ces filles des côtes qui
+          ont le sang léger et le cœur aussi. Il y a bien longtemps que vous la connaissez, <pb
+            n="72" xml:id="p72"/>que vous avez observé le fond d’envie de cette nature molle et
+          d’imagination égoïste, sa perpétuelle et lointaine tentation d’échapper au devoir commun,
+          d’être délivrée des soucis de sa vie de paysanne, obligée de soigner l’homme, les enfants
+          et les bêtes. Vous avez eu mieux que l’occasion de la voir, le temps de l’étudier, en
+          plusieurs exemplaires, puisqu’il est entendu qu’avant d’atteindre sa première année, un
+          enfant de riches change deux ou trois fois de nourrice, pour le moins. Le pays qu’elle
+          habite ? le canton de Plœuc, d’où elles partent si nombreuses pour Paris. Et c’est le
+          soir. L’ombre achève de tomber. L’homme et la femme sont assis sur le seuil de la
+          closerie, en haut de la colline, à la limite des bois, et ils font silencieusement le même
+          rêve de misère, qui ne se partage plus, et que chacun fait de son côté quand elle a trop
+          duré. Alors la lettre arrive, la lettre qu’on n’attendait plus et qui appelle la femme à
+          Paris, dans ce monde de la richesse, des cadeaux, du bien-être, des rubans de soie, des
+          dentelles, dont on parle si souvent dans le bourg. L’éblouissement est presque immédiat
+          chez l’un des époux ; le chagrin, chez l’autre, n’attend pas une seconde et durera autant
+          que l’absence, qui ne finira pas.</p>
+        <p>Autant qu’il est permis d’affirmer et de généraliser, dans une question éminemment
+          subjective et complexe, je crois donc que l’esquisse d’un roman est <pb n="73"
+            xml:id="p73"/>une opération rapide de l’esprit, ordonnant en un instant une matière déjà
+          rassemblée. La seconde opération de l’esprit est bien différente, celle de la mise au
+          point, l’approfondissement des caractères, la combinaison des scènes, la création des
+          personnages accessoires que l’idée maîtresse n’a pas nécessairement évoqués. Celle-ci
+          suppose un long travail et une longue réflexion.</p>
+        <p>Plusieurs écrivains, je le sais, se livrent à cette œuvre de méditation dans la retraite
+          de leur cabinet. Ils s’asseyent devant leur table, et, notant les idées qui leur viennent,
+          font de la composition un travail suivi et régulier. C’est une méthode excellente,
+          assurément. J’en connais une autre, plus vagabonde, plus paresseuse et plus lente : c’est
+          de ne point hâter l’œuvre à venir, de n’y penser que rarement avec application, et d’y
+          songer toujours. Les personnages sont nés, ils vont grandir et se parfaire doucement, sans
+          effort, comme sans arrêt. J’appellerai cet état la période d’amour, parce que l’amour est
+          seul créateur. C’est de lui que vient la vie, de plus en plus pleine, de ces êtres de
+          fiction. Ils progressent d’une façon mystérieuse, mais le progrès est certain. Il est
+          perçu par l’esprit beaucoup mieux que l’effort dont il procède. Avez-vous songé
+          quelquefois au frémissement invisible qui doit faire trembler une bouture de jeune arbre,
+          quand le premier fil de racine, perçant l’écorce, rencontre la terre et, avec <pb n="74"
+            xml:id="p74"/>la terre, la vie ; quand une goutte de sève, une seconde, une autre
+          encore, monte dans la tige demi-morte ? Supposez un taillis de jeunes chênes qui auraient
+          conscience du développement graduel et de l’épanouissement de leurs bourgeons ; qui
+          sentiraient grandir en eux la feuille, la branche, l’arbre que personne n’aperçoit, et qui
+          penseraient : « Ah ! la bienheureuse brume ! elle a dissous l’enveloppe de vernis qui
+          m’emprisonnait ; ah ! le clair soleil qui déroule mes germes plissés ; ah ! la bonne pluie
+          qui fait boire à leur soif toutes mes racines à la fois ! » Il me semble qu’un phénomène à
+          peu près pareil s’accomplit pour les personnages de roman. Ils cherchent obscurément et
+          s’assimilent la vie éparse autour d’eux, les souvenirs anciens qui seront, si vous voulez,
+          le sol avec ses réserves de sucs féconds, et puis les impressions qui traversent et qui
+          passent, comme la pluie et comme le vent. Ils ne cessent point d’agir parce que
+          l’attention du moment s’est détournée d’eux. L’existence ordinaire n’est ni interrompue ni
+          troublée. Mais une idée survient, et aussitôt le héros de roman auquel on ne pensait pas,
+          s’écrie : « Elle est mienne, je l’exprimerai ! » Un geste d’inconnu, un mot frappe
+          l’esprit, et une voix intime s’élève et dit : « Il m’appartient par droit d’harmonie ! »
+          En cet état, il y a un profit de toutes choses. La rencontre d’un ami peut achever un rôle
+          incomplet ; une fin de chapitre sortir <pb n="75" xml:id="p75"/>d’une course en fiacre ;
+          l’audition d’un concert jeter dans une rêverie qui dictera, en la chantant, toute la
+          poésie d’un livre. Il y a aussi, vous le devinez, des heures de volonté pleine, de labeur
+          attentif. Mais que ce travail soit raisonné ou presque inconscient, vous voyez qu’il
+          modifie toujours, plus ou moins, le modèle choisi. Le type premier du personnage, pris
+          dans la vie réelle, peut demeurer reconnaissable ; il n’est pas tout à fait ressemblant.
+          Les paroles qu’on lui prête, il ne les a pas toutes dites ; les actes qu’il accomplit
+          n’ont pas tous été siens, bien que chacun soit commandé par la logique et dérive d’une
+          observation. L’intrigue elle-même, si elle est bien conduite, supprime une foule d’actions
+          communes et sans intérêt ; elle simplifie le personnage, et c’est un effet de l’art ; elle
+          l’engage en des situations où il reste fidèle au caractère d’élection, mais qu’il n’a pas
+          traversées, et dont on peut dire seulement qu’il les eût traversées de cette manière. Et
+          cela montre qu’il n’y a pas de réalisme absolu ; qu’il n’y a pas, dans le roman, de
+          portrait entièrement vrai ; que les œuvres de cet ordre restent, pour une large part, des
+          œuvres d’imagination. Le modèle a vécu, et peut-être vit-il encore ; son tempérament tout
+          entier et beaucoup de ses traits passeront dans le livre : mais toute composition a pour
+          but de changer un homme en personnage, et les détails qui l’achèvent le transforment en
+          même temps.</p>
+        <p><pb n="76" xml:id="p76"/>Période d’amour, ai-je dit, et cela me paraît bien vrai. Ces
+          êtres qui doivent vivre, il faut qu’ils soient aimés. Il faut s’identifier avec eux,
+          souffrir et se réjouir avec eux, de telle sorte que ce soient eux qui parlent et agissent
+          par notre âme qu’ils possèdent. Ils ne sauraient habiter longtemps en nous sans que ce
+          phénomène se produise. Leur vie grandissante emplit la maison, comme les enfants arrivés à
+          l’âge d’hommes. Simples figures d’abord, ébauches où dort une âme frêle, ils se
+          développent, ils parlent, ils prennent une fermeté de traits où l’on sent que l’heure est
+          proche de la vie agissante. À un moment, ils sont parfaits, de la perfection relative que
+          chaque esprit peut leur donner. Alors une vision émouvante s’ouvre devant l’écrivain, une
+          vision qui lui fait oublier toute la peine passée, qui soutiendra son courage dans les
+          épreuves nouvelles qui vont suivre. Il voit, avec une netteté qui ne laisse rien dans
+          l’ombre, toute l’œuvre dont il n’a pas tracé une ligne, il l’aperçoit achevée, avec les
+          portraits, les dialogues, les paysages, avec la beauté de rêve qu’il espère traduire.
+          L’apparition le décide. Il prend la plume, et il écrit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-11T10:58:37+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le lecteur de romans</title>
+        <author key="Bazin, René (1853-1932)">René Bazin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/bazin_lecteur-de-romans/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>René Bazin</author>, <title><hi rend="i">« Les lecteurs de romans » [1900], in
+            </hi>Questions littéraires et sociales</title>, <pubPlace>Paris</pubPlace>,
+            <publisher>Calmann-Lévy</publisher>, <date>1906</date>,
+            <biblScope>p. 141-164</biblScope>. PDF : <ref
+            target="https://archive.org/details/questionslittr00baziuoft">Internet
+          Archive</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1900"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="141" xml:id="p141"/>
+        <head>Les lecteurs de romans<note place="bottom">Conférence faite à Paris (Société des
+            Conférences), Salle de la Société de Géographie, le 20 mars 1900.</note></head>
+        <p>Quel est le public naturel du roman ? À supposer qu’une œuvre romanesque puisse être lue
+          par tout le monde, est-ce là une supériorité ou un simple accident ? Y a-t-il là un idéal
+          dont doive se préoccuper un écrivain, ou bien existe-t-il, dans l’idée même du roman, un
+          élément qui détermine et limite le public auquel s’adresse le romancier ? En un mot quelle
+          valeur faut-il accorder, esthétiquement, à la fameuse formule du roman « qui peut être mis
+          entre toutes les mains » ?</p>
+        <p>La question me semble intéressante en ce que, d’abord, elle touche de près celle de la
+          moralité dans le roman.</p>
+        <p>Elle l’est encore parce qu’elle se trouve posée avec une vivacité et une fréquence
+          notables dans la vie, et qu’elle influe sur l’éducation française. Dès <pb n="142"
+            xml:id="p142"/>qu’un journal, par exemple, ou un magazine, ou une revue, se déclare
+          respectueux de la morale, ou qu’on a des raisons de le supposer tel, quelques-uns de ses
+          abonnés ne manquent pas de s’en prévaloir, et d’exiger du directeur, non pas des romans
+          moraux, ce qui est leur droit, mais des romans pour jeunes filles. Ils ne s’embarrassent
+          pas de savoir si le roman doit être lu par des hommes ou des femmes mariés, des
+          grand-mères, des célibataires déjà très mûrs, et si de tels lecteurs s’intéresseront à des
+          lectures édifiantes sans doute, mais puériles ; ils exigent que le roman soit
+          invariablement écrit pour Marguerite qui a quinze ans, ou pour Madeleine qui en a
+          dix-sept. Ils l’exigent au nom de ce qu’ils croient être un principe. Que l’économie
+          politique, les articles scientifiques, la chronique mondaine, les pages d’histoire où de
+          mémoires ne conviennent pas à leurs enfants, ces abonnés l’admettent ou plutôt le
+          concèdent. Ils toléreront que l’historien de la marquise de Pompadour ou de mademoiselle
+          de La Vallière raconte des anecdotes à la fois libres et historiques ; qu’un diplomate
+          signant Trois-Étoiles rapporte un propos léger, — qu’on appellera gaulois pour le faire
+          passer, — d’un personnage russe ou anglais ; qu’un naturaliste s’exprime en termes clairs
+          sur les phénomènes naturels : et d’ailleurs, quinze jours après l’apparition de la
+          livraison, vous êtes sûrs de retrouver intacts, dans plus d’une maison, <pb n="143"
+            xml:id="p143"/>sans une coupure aux tranches, les articles de cette sorte. On les
+          critique peu parce qu’on les lit moins. Mais que le directeur du journal, du magazine ou
+          de la revue s’avise de publier une nouvelle où l’on parle de la vie sans mensonge, avec la
+          sévérité, l’ironie ou la pitié qui convient, il peut être assuré de recevoir des lettres
+          indignées. Une première mère écrira : « Nous pensions, monsieur le directeur, que votre
+          feuille était un journal de famille, un journal honnête. Comment voulez-vous que nous y
+          croyions encore après ces <title>Noces de Micheline</title>, que vous avez eu le triste
+          courage d’accueillir ? » Une seconde mère ira plus loin : « J’ai défendu à mes enfants,
+          dira-t-elle, d’ouvrir désormais votre publication, et si pareil scandale se renouvelle, je
+          vous préviens que je cesserai mon abonnement. »</p>
+        <p>Remarquez que l’œuvre incriminée n’a aucun caractère d’immoralité ; qu’elle est écrite,
+          je le suppose, avec un sentiment de réserve et de respect. Remarquez, en outre, que dans
+          la pensée de l’abonné, les mots « romans pour toutes les mains » ont un sens bien étroit
+          et bien singulier. Le roman que les lettres ci-dessus exigent et proclament familial ne
+          sera sûrement pas lu par le chef de la famille ; la mère ne le parcourra qu’avec cette
+          préoccupation : « Est-il lisible pour mes filles ? » Et, en somme, le roman pour toutes
+          les mains ne séjournera que dans les petites mains de quinze à dix-huit <pb n="144"
+            xml:id="p144"/>ans, qui ont cessé d’habiller des poupées et qui ne bercent pas encore
+          des enfants.</p>
+        <p>Or, je crois et je vais essayer de prouver que les abonnés de ce journal ou de cette
+          revue sont dans leur tort ; que le roman tel qu’ils le conçoivent et l’imposent est une
+          œuvre fausse et néfaste ; que le roman pour les jeunes filles ne saurait être autre chose
+          qu’un accident heureux, dans une littérature qui n’est pas faite pour elles. Pour mieux
+          poser la question, je crois que le roman, par sa nature, est destiné à ceux-là seuls qui
+          ne sont pas au début de la vie.</p>
+        <p>Et j’en aperçois deux raisons. La première, c’est qu’il est une œuvre destinée à peindre
+          les hommes tels qu’ils sont ; la seconde, c’est qu’il constitue une œuvre d’art
+          extrêmement complexe.</p>
+        <p>Que le roman soit d’abord une œuvre d’observation, personne n’y contredira. Sans doute,
+          l’écrivain aura le choix de son milieu, de ses personnages, de l’intrigue et du dénouement
+          de son drame, mais toujours son récit devra donner quelque figure de la réalité, en
+          produire l’illusion. Or, la réalité est mêlée de bien et de mal, et la proportion du mal
+          dépasse celle du bien. Les situations tragiques surtout ne supposent-elles pas, presque
+          toujours, une faute dont elles sont la conséquence ? N’est-ce pas du spectacle de la lutte
+          contre les plus violentes passions, du contraste entre le bien et le mal <pb n="145"
+            xml:id="p145"/>représentés par des personnages différents, ou par les tendances
+          différentes du même personnage, que naîtront les sentiments que l’auteur veut faire
+          éprouver au lecteur : l’admiration, la crainte, la haine ? L’écrivain le plus honnête
+          a-t-il le droit, a-t-il le pouvoir de chercher ailleurs le principal ressort et l’intérêt
+          de son œuvre ? Évidemment non. Il doit savoir et il doit dire le mal. Et, par là, son
+          devoir est tout autre que celui des parents, qui est de préserver l’enfant de la vue du
+          mal. Observez comme ils s’y emploient : ils l’écartent des compagnies dangereuses ; ils
+          ferment à clef la petite bibliothèque vitrée ; ils s’abstiennent devant lui, non seulement
+          de mots libres, mais de conversations qui pourraient, tout honnêtes qu’elles soient, lui
+          donner trop tôt la science du milieu de la vie ; ils veillent à ne l’initier que peu à peu
+          aux préoccupations, aux passions, au langage même des âges qui ne sont pas venus pour lui.
+          On peut dire que ce petit combattant n’est armé que par degrés, afin que ses armes ne le
+          blessent pas lui-même tout d’abord, et qu’il les reçoit une à une, comme les enfants des
+          chevaliers d’autrefois, selon l’aventure qu’il peut courir. Mais, si tel est le devoir des
+          parents, n’aperçoit-on pas qu’on ne peut, sans exagération, sans péril pour l’art, en
+          étendre l’obligation aux écrivains ? Ceux-ci répondront, avec raison, qu’ils n’écrivent
+          pas pour des enfants ; qu’ils n’ont pas à se <pb n="146" xml:id="p146"/>préoccuper de
+          l’âge de ceux qui les liront ; qu’ils ne sauraient être astreints à peindre la vie
+          autrement qu’elle n’est, sous prétexte qu’ils auront peut-être des lecteurs ignorants de
+          la vie ; ils prétendront, et ils n’auront pas tort, qu’ils sont quittes envers la morale
+          s’ils écrivent ce que d’honnêtes gens peuvent honnêtement et utilement lire.</p>
+        <p>Il faut ici préciser. La licence de tout dire n’existe pas. Je sais bien qu’elle est
+          proclamée, comme un dogme, par toute une école de publicistes qui prétendent que l’art n’a
+          pas de règle, n’a pas de pudeur et n’a pas de danger. Je suis d’un avis tout contraire. Je
+          crois que l’art est soumis à la loi morale, à laquelle n’échappe aucune manifestation de
+          l’activité humaine, et qu’il y est d’autant mieux soumis que l’œuvre d’art est une œuvre
+          d’enseignement, une leçon, un acte d’influence et de direction sur autrui. Je crois que le
+          livre est une puissance extrêmement féconde, soit pour le bien, soit pour le mal. Et dès
+          lors, pour me renfermer dans le sujet que j’ai entrepris de traiter, il me semble que le
+          romancier aura pleinement satisfait à la morale, s’il remplit deux conditions, dont l’une
+          concerne le but et l’autre les moyens.</p>
+        <p>Il doit d’abord exprimer ou laisser transparaître une conclusion saine. Je ne dis pas une
+          conclusion optimiste ; je ne dis pas célébrer le triomphe du bien sur le mal, que nous ne
+          voyons pas toujours se <pb n="147" xml:id="p147"/>manifester, hélas ! dans la vie. Je
+          pense seulement que le livre sera bon si le lecteur, en le fermant, a senti plus vivement
+          le danger, personnel ou social, de la faute ou de l’erreur que l’auteur a décrite, ou s’il
+          a plus clairement compris la grandeur et la nécessité de la loi morale à laquelle il est,
+          comme homme, obligé d’obéir. Sans cela, et si le livre excite l’homme à la révolte, je ne
+          vois plus dans l’œuvre écrite qu’un désordre, que toutes les raisons d’art ne sauraient
+          excuser, car l’art ne peut être antisocial, antihumain ; il doit être un agent de progrès,
+          et une force pour soulever les âmes ; ou bien il n’est qu’un danger qui grandit avec le
+          talent de l’écrivain.</p>
+        <p>Un grand nombre de romanciers ont eu l’intelligence de cette obligation première et s’y
+          sont conformés. Il y en a très peu qui se soient proposé, délibérément, de laisser à ceux
+          qui les lisent une impression finale contraire à la morale. Mais cette condition ne suffit
+          pas. Je connais, vous connaissez tous, de détestables livres, qui ont un excellent
+          chapitre trentième. On citerait, à la douzaine, des romans qui ont souillé des
+          imaginations, troublé des cervelles et des cœurs, et qui renferment quatre pages finales
+          de la plus belle envolée, d’une philosophie acceptable et même excellente.</p>
+        <p>C’est que, en effet, une autre règle plus délicate, infiniment plus difficile à observer,
+          s’impose à <pb n="148" xml:id="p148"/>l’écrivain, à celui-là surtout qui prétend raconter
+          et analyser le monde des passions humaines. Obligé de dire le mal, il doit en éveiller
+          l’idée sans en exciter le désir. Il doit prendre garde que la peinture, trop
+          complaisamment poussée, d’un sentiment mauvais, d’un vice, d’une faute, ne fasse oublier
+          au lecteur la perversité du sentiment ou de l’acte ; il faut qu’il mesure le danger de
+          l’exemple qu’il crée lui-même, et que, par une habileté dont le public ne s’apercevra
+          peut-être pas, sans le dire le plus souvent, il laisse aux manifestations de la volonté
+          humaine leur caractère de liberté, de mérite ou de démérite. Règle redoutable ! J’avoue
+          qu’elle est gênante, mais il n’y a rien de facile en art. Il suffit qu’il soit possible de
+          la suivre, et cela n’est pas douteux. La difficulté n’est pas de citer des exemples, mais
+          de les imiter. Où commence l’inutile excès d’analyse ? Où la secrète indulgence qui flatte
+          le fond perverti de l’homme ? Où le détail qui n’ajoutera rien à la valeur du livre et qui
+          risque d’en altérer le sens et d’en ruiner le bienfait ? Toutes les explications sont ici
+          superflues, tous les commentaires ne guideraient pas sûrement. Le seul guide qui ne
+          trompera pas, c’est une conscience affinée, respectueuse des âmes, et, pour tout dire, le
+          tact chrétien de l’auteur.</p>
+        <p>Ainsi l’écrivain est lié. Faites attention qu’il est, en même temps, singulièrement
+          grandi par ses <pb n="149" xml:id="p149"/>obligations envers la loi morale. Mais que, tout
+          au moins, dans ces limites, sa liberté soit entière ! Qu’on n’aille pas la restreindre,
+          sous prétexte que des enfants de quinze ans liront peut-être ses œuvres ! Non ; là
+          commencerait un abus tout à fait condamnable, destructeur de la sincérité, de la beauté,
+          de l’art lui-même. Cette liberté, nous la voulons respectueuse, mais nous la voulons aussi
+          respectée. Le romancier aura le droit de peindre toute la vie, telle qu’elle est, à
+          l’exception des bas-fonds d’obscénité, qui ne sont pas du domaine de l’art ; il pourra
+          étudier toutes les passions, leurs développements, leurs effets, tous les troubles mauvais
+          de l’âme, et tous les crimes, aussi bien que les repentirs et que les autres actes de
+          beauté morale. Je crois fermement qu’il y a une manière chaste de dire les choses qui ne
+          le sont pas, et cela sans fausse pudeur et sans fausse précaution. Je crois que c’est là
+          un droit absolument nécessaire de l’écrivain, et qu’il n’y a presque pas de roman ou il ne
+          doive en user, parce qu’il n’y a presque pas de drame auquel le mal ne soit mêlé
+          essentiellement.</p>
+        <p>Et c’est pourquoi j’affirmais tout à l’heure que le roman « pour toutes les mains » est
+          un genre faux. Il écarte de la vie un élément qui appartient à la vie et dont le plus
+          honnête homme ne peut pas ne pas tenir compte. Il conduit les auteurs à ces mièvreries
+          dont les petites pensionnaires elles-mêmes <pb n="150" xml:id="p150"/>devinent le
+          mensonge, puisqu’elles ne les relisent pas. Car, c’est une observation qui fait honneur à
+          l’instinct de la jeunesse : les jeunes filles de vingt ans dédaignent les livres qu’elles
+          ont dévorés en sortant de pension. Elles ne savent pas ce qu’est la vie, mais elles savent
+          que la vie n’est pas dans ces contrefaçons illicites, et elles sentent qu’on les a
+          trompées. Elles en acquièrent plus tard la certitude. À quoi bon de pareilles lectures ? À
+          quoi bon surtout de pareils ouvrages ?</p>
+        <p>Le mal ne serait pas grand s’ils disparaissaient subitement, par un coup de baguette
+          magique, de notre littérature. Quant aux autres, à ces romans qui n’ont pas été écrits
+          pour les jeunes filles, et dont le nombre est incalculable, il en est bien peu, même parmi
+          les meilleurs, qui puissent être d’une lecture profitable ou simplement indifférente avant
+          la vingtième année. Je sais qu’il y a ce qu’on appelle les romans honnêtes. Presque tous
+          les écrivains ont rencontré, une ou plusieurs fois, et ils ont traité des sujets dont
+          l’affabulation peut être exposée, résumée, expliquée, devant un auditoire d’école
+          primaire. Les noms nous viennent d’eux-mêmes à l’esprit. Vous avez présent et vivant dans
+          le souvenir tel livre d’Alphonse Daudet, de George Sand, d’André Theuriet, de Cherbuliez,
+          telle nouvelle de Loti ou même de Maupassant, qui n’est pas seulement une belle histoire,
+          mais une bonne <pb n="151" xml:id="p151"/>histoire, parfaitement saine en chacune de ses
+          parties. J’en tombe d’accord. Est-ce à dire qu’elle convienne à des jeunes filles ? Je me
+          permets d’en douter, et voici pourquoi. L’auteur n’a pas eu l’ambition d’écrire pour un
+          public d’adolescentes. Il a écrit pour des hommes et des femmes qui peuvent pénétrer et
+          compléter son idée, deviner les sous-entendus, peser les mots, et faire à côté de l’œuvre
+          du maître ce qu’on pourrait nommer l’œuvre du lecteur. Cette collaboration, que la
+          jeunesse ne peut lui donner, est nécessaire à toute grande œuvre, elle est un élément avec
+          lequel l’écrivain doit compter. Les artistes ne disent pas tout, ou parce qu’ils n’en ont
+          pas le droit, ou parce qu’il leur suffit d’indiquer une ligne pour que la courbe se
+          prolonge à l’infini dans l’esprit du lecteur intelligent. Ils pressentent, ils voient
+          d’avance qu’à un tout petit passage qu’ils écrivent avec plus d’émotion, où ils mettent un
+          peu plus de leur âme, le livre se fermera entre les mains pieuses d’un homme ou d’une
+          femme, et qu’il y aura de longs rêves autour d’une seule ligne, comme on voit d’une seule
+          graine s’élever et s’épanouir tout un buisson en fleur. Encore faut-il que la terre où
+          tombera cette graine ait été remuée par la vie, qu’elle soit apte à recevoir, à
+          envelopper, à nourrir, à porter jusqu’à sa floraison cette semence de pitié, de
+          résignation, de courage ou d’amour, poussière des âmes créatrices <pb n="152"
+            xml:id="p152"/>qui s’envole, qui se disperse à travers le monde, mais qui ne germe pas
+          partout où elle tombe. L’éducation, l’instruction, ne sont que des éléments secondaires
+          dans cette association du lecteur avec l’écrivain. C’est la vie, c’est la souffrance
+          personnelle qui prépare la communion de ces inconnus dans une même émotion, que l’un
+          exprime à peine, et que l’autre éprouve tout entière. Et la jeunesse a sans doute d’autres
+          privilèges, mais elle n’a pas celui-là. Elle n’a pas souffert. Elle n’a dans les yeux que
+          la joie du monde qui s’ouvre. Elle laissera périr la pensée d’autrui ou bien elle
+          s’épuisera en essayant de la porter. Le roman de la vie vraie n’est pas fait pour ceux qui
+          n’ont pas vécu.</p>
+        <p>Le moindre mal qui résulte, pour des âmes trop jeunes, de l’étude des œuvres romanesques,
+          c’est l’exaspération de la sentimentalité. N’y sont-elles pas assez disposées
+          naturellement ? À supposer même que l’esprit n’en reçoive aucune flétrissure, est-il
+          souhaitable que les jeunes filles commencent à entrevoir la vie à travers le roman ? Je ne
+          le crois pas. Et veuillez observer qu’on peut soutenir cette idée sans être, pour cela,
+          partisan d’une éducation étroite, sans prendre parti pour la pruderie, la niaiserie et
+          l’ignorance, qui n’ont jamais été des vertus, et qui sont aujourd’hui des dangers graves.
+          Je suis de ceux qui pensent que les vertus les plus fermes, et peut-être aussi les plus
+          pures, sont celles qui ont <pb n="153" xml:id="p153"/>au moins un pressentiment ou un
+          avertissement du mal. Mais, pour cette leçon difficile, je récuse l’école du roman. Je
+          soutiens qu’elle est funeste, qu’elle énerve les âmes au lieu de les tremper. Je dis qu’il
+          faut relire la vie dans les livres, mais qu’il faut l’apprendre de la vie elle-même, en la
+          regardant en face avec des yeux bien clairs.</p>
+        <p>Cette observation m’amène tout naturellement à en formuler une autre. S’il y a, en effet,
+          une sorte d’incompatibilité et de disconvenance entre l’esprit de la jeunesse et le
+          caractère moral du roman, il me semble qu’on peut en dire autant lorsque l’on considère le
+          roman, non plus comme une œuvre morale, mais comme une œuvre d’art. Là encore la jeunesse,
+          l’inexpérience du lecteur est un grave défaut. Et j’oserai avancer que la perfection de
+          cette forme littéraire exige tant de conditions et de si subtiles, qu’il faut, pour la
+          comprendre et pour la goûter complètement, pour en tirer un autre profit que celui, très
+          banal souvent, d’une anecdote, une intelligence déjà mûre et ornée.</p>
+        <p>Oublions pour un instant la manière dont sont lus la plupart des romans, prêtés un jour,
+          rendus le lendemain, dévorés par des yeux souvent jolis, mais qui ne savent pas lire, qui
+          ne savent que suivre un héros à travers les pages d’un livre, comme un passant qui
+          s’éloigne sur le sable d’une promenade. <pb n="154" xml:id="p154"/>Oublions qu’on les juge
+          trop souvent, ces personnages imaginaires, comme s’il s’agissait de les faire entrer dans
+          son salon, sur leur sourire, leur naissance, le tour plus ou moins élégant de leur
+          conversation, en un mot sur leurs qualités mondaines. Oublions que plus d’une lectrice,
+          jeune ou vieille, n’a d’autre critérium, pour apprécier un caractère, que celui qui
+          consiste à se demander, si elle est jeune : « L’aimerais-je ? », si elle est vieille :
+          « L’aurais-je aimé ? », et à répondre oui ou non. Oublions surtout qu’il existe un nombre
+          bien grand d’œuvres romanesques qui ne méritent pas une critique moins sommaire. Supposons
+          un livre de premier ordre aux mains d’un lecteur digne de lui. Celui-ci saura pénétrer
+          tous les secrets de l’écrivain, et goûtera une joie vive dans la découverte de chacun
+          d’eux.</p>
+        <p>Ce sera d’abord, si vous le voulez, le don de la vie communiqué à ces êtres d’idéal, la
+          vérité de leur physionomie morale ou physique, leur fidélité à eux-mêmes d’un bout à
+          l’autre de l’œuvre, la diversité des langages dont ils se servent, et qui correspondent à
+          des différences ou à des nuances de caractère, la vraisemblance de l’intrigue, la
+          proportion des épisodes, l’agencement des parties, autrement dit la composition de
+          l’œuvre. Il y aura là, pour un esprit avisé, mille observations à faire et mille
+          comparaisons à établir. Il ne pourra s’empêcher de remarquer que le talent de composition
+          a été inégalement <pb n="155" xml:id="p155"/>réparti, non seulement entre les hommes, mais
+          entre les nations ; que le roman d’un Français est composé autrement que celui d’un Russe,
+          d’un Anglais, d’un Allemand.</p>
+        <p>Ces observations, ces rapprochements que j’indique ici rapidement, et qui sont du domaine
+          de la critique élémentaire, un lecteur véritable doit les faire, et un livre de mérite
+          doit les provoquer.</p>
+        <p>Mais la parfaite pénétration d’une œuvre romanesque nous conduira bien au-delà de ce
+          point. Veuillez me suivre dans ce domaine moins familier aux critiques superficiels, et où
+          se rencontrent cependant les plaisirs les plus vifs d’un lettré, les originalités les plus
+          fortes d’un écrivain. Je veux parler du cadre du roman. Je ne me sers pas de
+          l’expression : paysage ; elle serait trop étroite. Le cadre du roman, c’est toute
+          l’atmosphère où se déroule l’action, c’est l’entourage, la maison, le mobilier aussi bien
+          que la campagne ou le quartier, le reflet des choses sur les hommes. Car la nature est
+          intimement associée à nos actes. Elle agit presque constamment sur nous, et quelquefois,
+          pour en témoigner, nous lui prêtons une âme. Ce n’est là qu’une figure. Il n’y a d’âme que
+          la nôtre, mais impressionnée par le monde extérieur et modifiée par lui. Nul ne saura
+          jamais les lois de cette influence des choses, le secret de la dépression morale, de la
+          tristesse ou de la joie, de l’énergie, de la grandeur et <pb n="156" xml:id="p156"/>de la
+          plénitude d’amour que nous recevons d’elle. Nous subissons même la puissante maîtrise de
+          l’heure et de la lumière. Nous avons une parenté avec la terre qui nous porte. Voyez, dans
+          une même patrie, les gens de la plaine et ceux de la montagne, ceux qui communiquent, par
+          tout leur être, avec le sol rocheux, l’air sec, avec les bruyères, avec les grands
+          flamboiements de soleil sur des surfaces arides ; regardez à côté et étudiez ceux que la
+          vie enferme dans l’ombre moite des forêts ; observez le visage des mêmes travailleurs qui
+          change avec les saisons, la couleur de leurs paroles ou de leurs yeux qui varie plus d’une
+          fois en un jour, et dites si nous ne sommes pas un peu les sujets de ce monde que nous
+          dominons par la pensée ? La parcelle d’univers où nous vivons et que nous n’avons pas
+          faite influe sur nous, et aussi l’entourage immédiat que nous nous sommes donné : notre
+          maison, les objets dont elle est ornée, les ombres habituelles de ses murailles et les
+          clartés de ses fenêtres, le bruit encore avec lequel la vie nous berce, bruit de la rue et
+          de la place, murmure des eaux, murmure du vent, voix d’enfants, voix de femmes, voix
+          chères dont les mots ne parviennent pas toujours à l’oreille, dont l’accent va toujours au
+          cœur, bourdonnement du travail dans l’atelier voisin, silence même de la nuit, où passe
+          l’accord de mille bruits apaisés et confus.</p>
+        <p>Tous les romanciers se sont préoccupés de <pb n="157" xml:id="p157"/>traduire cette vie
+          qui enveloppe la nôtre, et ils l’ont fait avec une variété de procédés infinie, selon leur
+          tempérament, selon leur race, selon le temps où ils ont vécu. Ah ! la curieuse, la
+          passionnante étude pour un lecteur attentif ! Comment ne serait-il pas frappé de l’extrême
+          sobriété du cadre, par exemple, chez nos classiques ? Comment ne pas voir, au contraire,
+          l’exubérance du cadre chez Chateaubriand et chez les romantiques, ses enfants ? Qu’est-ce
+          que le roman de <title>Notre-Dame de Paris</title>, de Victor Hugo, sinon l’exemple le
+          plus extraordinaire qui soit, avec cet autre roman, <title>les Travailleurs de la
+            mer</title>, d’un maximum de description où se mêle un minimum de récit ? Et entre ces
+          extrêmes, quel plaisir de surprendre l’art particulier d’un Théophile Gautier, d’un
+          Balzac, d’un Flaubert, d’un Alphonse Daudet ! Ce ne sont pas là des joies de la
+          dix-huitième année. Mais je soutiens que l’immense majorité des lecteurs ont une opinion
+          très nette sur la question. Les principes, tout au moins, apparaissent aux intelligences
+          les plus simples, les moins préoccupées de littérature, et se formulent tout naïvement. À
+          qui n’avons-nous pas entendu dire, non pas une fois, mais dix-fois : « Ce livre est mal
+          fait, il a trop de descriptions. » À qui n’est-il pas arrivé de tourner négligemment trois
+          ou quatre pages descriptives, et de reprendre plus loin, en corrigeant l’auteur, la
+          narration interrompue ?</p>
+        <p><pb n="158" xml:id="p158"/>Le sentiment qui fait parler ou agir la foule, en pareil cas,
+          c’est l’ennui, direz-vous. On pourrait soutenir que c’est le bon sens. Mais une femme ou
+          un homme instruit, habitué à raisonner, ne s’en tiendra pas là. Il cherchera les causes de
+          cette désaffection subite de son esprit, en présence d’une description prolongée, et voici
+          quelques-unes des innombrables réflexions qu’il pourra faire.</p>
+        <p>Ils se sont trompés, les Goncourt, dira-t-il, quand ils ont avancé qu’il faut « peindre
+          avec la plume ». Non, la littérature est un art et la peinture en est un autre. Le peintre
+          et le romancier verront le même paysage ou le même décor d’appartement ; ils le verront
+          peut-être avec des yeux également fouilleurs, sensibles aux moindres nuances de couleur et
+          aux harmonies des formes ; mais, si leur vision est la même, ils la rendront par des
+          procédés et dans un but bien différents. Le peintre établira son chevalet dans une
+          clairière de forêt, je suppose ; il dessinera les troncs et les branches des arbres, les
+          buissons, les places d’ombre et de lumière ; il s’ingéniera à peindre ces dégradations de
+          teintes des frondaisons qui s’éloignent et qui, vertes d’abord, se perdent bientôt dans le
+          bleu. Et ce qu’il essayera de rendre, ce sera l’aspect d’une futaie, à une certaine heure
+          du jour et de l’année, tel qu’il se révèle à des regards qui ne sont occupés que de ce
+          seul objet : bien voir. Toute son ambition de peintre, <pb n="159" xml:id="p159"
+          />d’ailleurs très haute et très périlleuse, tend à éveiller dans une autre âme
+          l’impression qu’a produite sur lui-même le spectacle de la forêt, — sur lui-même,
+          observons-le bien, qui ne cherchait que la beauté, et appliquait à cette contemplation ses
+          sens et son esprit.</p>
+        <p>Il faut, chez un homme, ces dispositions que j’appellerai exclusives, pour qu’il perçoive
+          et retienne chacun des détails dont se compose un paysage. Et si cet homme ne fait que
+          traverser la forêt, mais surtout s’il apporte avec lui une émotion étrangère qui partage
+          son attention, son regard en sera changé et sa vision ne sera plus la même.</p>
+        <p>C’est précisément ce qui a lieu lorsqu’un personnage de roman est amené par un auteur
+          dans la clairière de la forêt. Ce personnage ne vient pas là pour peindre. Il nous a déjà
+          été présenté. Il se nomme Jacques et il est amoureux ; il se nomme Albert et il pleure sur
+          l’abandon de sa meilleure amie ; il se nomme Dominique et des embarras de fortune lui
+          rendent difficile la résignation nécessaire à la vieillesse qui s’annonce. Nous le
+          connaissons, et l’intérêt que nous lui portons est surtout fait de la curiosité de savoir
+          comment il sortira des difficultés où l’ont jeté ses passions ou les circonstances de la
+          vie. Sa façon de juger la nature ne nous est pas indifférente, mais elle ne nous importe
+          que secondairement. Et nous ne le comprenons plus, <pb n="160" xml:id="p160"/>nous sommes
+          en désaccord avec lui, si, tout à coup, s’arrêtant dans la clairière que nous avons
+          imaginée, il s’abstrait de ses préoccupations, de ses amours, de ses rancunes, de ses
+          rêves, pour contempler la nature avec la minutie, avec la longue patience d’un peintre et
+          d’un homme de métier. Non, la vraisemblance, le goût instinctif demandent que la vision
+          d’un héros de roman soit une vision passionnée, c’est-à-dire en étroite relation avec la
+          passion qui agite le cœur. Il ne verra que les détails qui peuvent fournir un aliment à
+          ses pensées de l’heure présente ; il ne verra que son âme souffrante ou heureuse dans la
+          nature où il la répand ; il n’aura pas remarqué l’exacte courbe d’un chemin qui tourne
+          sous bois ou d’un arbre plié par le vent, mais d’immédiates comparaisons se seront levées
+          en lui, et ce qu’il aura retenu, soit comme une ironie, soit comme une harmonie, ce sera
+          la paix, l’ordre, ou la sauvagerie, ou la fraîcheur, ou la tristesse morne de ce coin de
+          la nature. Il ne cessera pas, enfin, d’être l’acteur du drame dont nous voulons le
+          secret.</p>
+        <p>La longue description est donc généralement fausse en littérature, parce qu’elle est
+          incompatible avec l’action. Cela est vrai de la description d’une forêt et aussi de celle
+          d’une maison ou d’un mobilier. Le cadre des personnages ne doit pas être traité séparément
+          et pour lui-même, mais d’une certaine façon humaine et comme un complément des héros. <pb
+            n="161" xml:id="p161"/>Le plus véridique des artistes, le plus réaliste, — dans le sens
+          de voisin du réel, — sera l’écrivain qui donnera l’impression constante de la présence des
+          choses, qui les mêlera à la vie, et qui ne confisquera pas à leur profit l’attention qui
+          ne doit pas cesser de voir les âmes et de les suivre.</p>
+        <p>Où sont les modèles de cet art parfait ? Jean de La Fontaine eut cette faculté géniale,
+          ce tact qui arrête l’écrivain avant la faute de goût. Dans ses fables, le paysage n’est
+          presque jamais absent, mais le trait en est léger autant que précis ; il accompagne les
+          personnages sans nuire à leurs mouvements, discret comme les lointains de la Toscane ou de
+          l’Ombrie qu’on aperçoit dans les tableaux des primitifs italiens, derrière les auréoles.
+          De nos jours, il y a bien aussi quelques écrivains, et notamment quelques romanciers, qui
+          ont compris le rôle nécessaire, constant et subordonné du décor. Mais les meilleurs
+          stylistes ne sont pas tous des modèles sur ce point. On a reproché à Flaubert de s’être
+          repris à dix fois, — le chiffre est mathématiquement exact, — pour peindre la visière de
+          la casquette de M. Bovary. Eh bien ! on a eu tort. L’extrême application de l’écrivain ne
+          peut que lui faire honneur. C’est peut-être ailleurs qu’il s’est trompé, dans
+            <title>Salammbô</title>, quand il a amoncelé les pages pour décrire, magnifiquement, il
+          est vrai, le banquet des mercenaires, les lions crucifiés, ou même la petite <pb n="162"
+            xml:id="p162"/>et impériale Salammbô descendant l’escalier du palais. Mais il a donné un
+          exemple admirable de description vivante quoique étendue, quand il a peint le comice
+          agricole dans <title>Madame Bovary</title>, parce que l’idée maîtresse du livre s’y mêle
+          étroitement à la vision des choses. Le secret est là, et peut-être n’existe-t-il qu’un ou
+          deux maîtres qui l’aient toujours compris, sans jamais subir l’entraînement de ce peintre,
+          brosseur de fresques, aquarelliste ou pastelliste, qui habite aujourd’hui dans l’âme de
+          tout romancier. Peut-être ne peut-on citer avec assurance que Guy de Maupassant, et, après
+          lui, Alphonse Daudet. On peut reprocher à Maupassant d’afficher trop souvent la
+          philosophie d’un mauvais commis-voyageur. Mais aucun contemporain n’a eu, au même degré,
+          les qualités du conteur. Il conte sobrement, avec des mots clairs et simples ; il a la
+          phrase variée et solide ; il voit tout, et cependant il n’exprime de sa vision que ce qui
+          est nécessaire à l’action. En vérité, je le déclarerais volontiers le plus puissant maître
+          de la prose romanesque de ces trente dernières années. Il a écrit trop d’œuvres d’une
+          immoralité grossière, mais il avait le génie de la langue, et toute la tradition française
+          se reconnaît dans la composition et dans le décor de ses nouvelles.</p>
+        <p>Celui qui lit un beau roman n’aurait pas épuisé pour si peu le plaisir et le profit de sa
+          lecture. Il lui <pb n="163" xml:id="p163"/>resterait bien d’autres secrets à étudier, et
+          de plus intimes encore.</p>
+        <p>J’en ai assez dit pour prouver que la lecture du roman ne peut convenir à tout le monde,
+          puisqu’elle demande une expérience personnelle de la vie et un sens exercé de la beauté.
+          J’espère avoir établi que la formule du roman pour toutes les mains est celle tout
+          simplement d’une erreur littéraire. Mais je m’en voudrais de ne point ajouter en
+          terminant, — et déjà on l’a deviné, — que les deux conditions que j’ai développées, les
+          deux qualités que j’ai supposées chez le lecteur de romans sont d’importance inégale. La
+          première seule est essentielle, la seconde n’est que souhaitable. Il est nécessaire
+          d’avoir vécu pour bien comprendre les fictions de la vie. Il n’est pas également
+          nécessaire d’être artiste soi-même. Sans doute, le rêve d’un écrivain sera d’être compris,
+          jusqu’aux nuances les plus secrètes de sa pensée, par une intelligence sœur de la sienne ;
+          mais ce rêve n’est point incompatible avec celui d’être lu par la foule, de parler à l’âme
+          d’un pays, ne fût-ce que par une page, par une phrase reproduite dans les journaux, citée
+          dans des discours, traduite dans une chanson, et possédée et gardée ensuite par des
+          milliers d’êtres humains dans le trésor des vérités acquises. Pour avoir cette ambition
+          noble et pour la croire possible, il suffit de se rappeler que, au-delà du début de la
+          vie, il y a une <pb n="164" xml:id="p164"/>égalité au moins parmi les hommes : qu’ils ont
+          tous souffert, qu’ils ont tous crié, et que, si variées que soient les peines et les
+          plaintes, tout se résume dans le même besoin d’une infinie justice.</p>
+        <p>Le secret de l’intelligence des livres est sûrement là. Ceux qui ont souffert, ignorants
+          ou savants, comprendront toujours quelque chose aux récits de la vie. Que les autres, ceux
+          qui sont jeunes, attendent la leçon commune ; qu’ils vivent d’abord, qu’ils laissent de
+          côté le roman comme une œuvre pour eux vide de sens, écrite dans une langue étrangère. Ils
+          l’ouvriront le lendemain du jour où ils auront pleuré : cela ne tarde jamais beaucoup.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
