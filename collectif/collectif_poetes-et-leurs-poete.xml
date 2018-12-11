@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-11T17:08:44+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les poètes et leur poète (enquête de <hi rend="i">L’Ermitage</hi>)</title>
+        <author>Collectif</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http: //obvil.paris-sorbonne.fr/corpus/critique/ermitage_poetes-et-leur-poete/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Collectif</author>, <title><hi rend="i">« Enquête de l’Ermitage. Les poètes et
+              leur poète », </hi>L’Ermitage</title>, <biblScope>13e année, nº 2</biblScope>,
+            <date>février 1902</date>, <biblScope>p. 81-146</biblScope>. PDF : <ref
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k15578p/f100">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1902"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="81" xml:id="p81"/>
+        <docAuthor key="Ermitage, L'"/>
+        <head>[Questionnaire]</head>
+        <p>Nous avons adressé à deux cents poètes la lettre suivante :</p>
+        <salute><hi rend="sc">Mon cher Confrère</hi>,</salute>
+        <p>Dans le dernier numéro du <title>Mercure de France</title>, nous relevons les lignes
+          suivantes signées de M. Remy de Gourmont. (<hi rend="sc">Épilogues</hi> : <title>Brefs
+            conseils à un journaliste touchant Victor Hugo</title>, p. 769) :</p>
+        <quote>
+          <p><hi rend="i">« … On vient d’écrire</hi> : <quote><hi rend="i">“Hugo fut
+                toute la poésie et toute la pensée du <hi rend="sc">xix</hi>
+                <hi rend="sup">e</hi>  siècle.”</hi></quote>
+            <hi rend="i"> Ne répétez pas cela. De telles synthèses sont vraiment trop hardies.
+              Est-ce que sans Vigny, Lamartine, Musset, Baudelaire, Verlaine et quelques autres
+              anciens ou récents, on a “toute la poésie” du siècle dernier ? Je voudrais que l’on
+              demandât à deux cents poètes d’aujourd’hui : Quel est votre poète</hi> ? <pb n="82"
+              xml:id="p82"/>
+            <hi rend="i">On verrait. Toute la poésie : non, pas plus que l’orgue n’est toute la
+              musique. L’orgue n’est pas le violon… »</hi>
+          </p>
+        </quote>
+        <p>« Il nous a semblé qu’il serait d’un intérêt certain pour l’histoire littéraire de
+          réaliser l’enquête dont M. Rémy de Gourmont avait posé les termes.</p>
+        <p>« Nous vous serions donc très obligés si vous vouliez bien répondre à la question
+          suivante :</p>
+        <p rend="center"><hi rend="b">Quel est votre Poète ?</hi>
+        </p>
+        <p>« Il s’agit, bien entendu, du <num>xix<hi rend="sup">e</hi></num> siècle ; et, pour
+          éviter un double emploi avec de précédentes consultations (élection d’un prince des
+          poètes, etc.), nous demandons que l’on n’indique ici <hi rend="i">aucun poète
+          vivant</hi>.</p>
+        <p>………………………………………………………………………</p>
+        <p>………………………………………………………………………</p>
+        <p>Nous avons reçu les cent vingt-cinq réponses que voici :</p>
+      </div>
+      <div>
+        <docAuthor key="Abadie, Michel (1866-1922)"/>
+        <head>Michel Abadie.</head>
+        <p>— Mon poète ? — Le plus grand de tous, l’Ouvrier Nonpareil à qui l’Éternelle Beauté doit
+          sa plus radiante parure : <hi rend="sc">Victor Hugo</hi> ! Je l’aime d’abord à cause de sa
+          pieuse sympathie pour les déshérités et parce qu’il fut l’apôtre de la liberté sous toutes
+          ses formes. Le premier, de ses formidables poings d’or, il a entouré la Citadelle de
+          ténèbres et d’iniquités que nous voulons abattre. Il fut le doux <pb n="83" xml:id="p83"
+          />prophète des temps nouveaux. Il a en quelque sorte humanisé la Beauté. Ses brûlants
+          Évangiles ont fait éclore une religion nouvelle — notre religion de la Bonté.</p>
+        <p>Et puis… c’est le grand Pan qui chante. Sa Lyre semble embrasée de toutes les lueurs du
+          monde. Elle ne ressemble à aucune autre Lyre humaine : Hugo, est tour à tour épique,
+          satirique et attendri. <quote>« Il a la grandeur d’Homère, la satire mordante de Juvénal
+            et la grâce sourieuse d’Anacréon. »</quote></p>
+        <p>Mais il estampille tout de la puissante griffe de son génie. Il a dompté les rythmes
+          incomparables pour satisfaire aux exigences lyriques de sa grandiloquente imagination, et,
+          séduit par l’intuitive harmonie de l’artiste qui vibrait en lui, accaparé des trésors de
+          rimes merveilleuses. Il confond et extasie profondément par la solennelle rayonnance du
+          Verbe. Il a aussi, comme pas un, le don suprême d’émouvoir. Ses vers sont grands comme la
+          mer et beaux comme les statues des cathédrales gothiques. Ils sont doux parfois comme des
+          parfums de fleurs. Or, tout dans son œuvre impérissable me verse le vin du ravissement et
+          de l’émotion. Mais je mets au-dessus de tout, pour la caresse enchantante, pour le charme
+          douloureux et l’indicible amour qui y divaguent ineffablement, les magnifiques symphonies,
+          si graves et si pures des <title>Contemplations</title>.</p>
+      </div>
+      <div>
+        <docAuthor key="Aicard, Jean (1848-1921)"/>
+        <head>Jean Aicard.</head>
+        <p>— Je ne les compare pas, je les sépare — comme disait Alexandre Dumas.</p>
+        <p>Et selon le jour et l’heure, je préfère l’un ou l’autre.</p>
+        <p>Ceci n’est pas une défaite. Hugo a dit :</p>
+        <quote>
+          <l>Ainsi le sage même a, selon l’occurrence,</l>
+          <l>Un jour d’entêtement et un jour d’ignorance.</l>
+        </quote>
+      </div>
+      <div>
+        <docAuthor key="Aimé, Henri (1872-....)"/>
+        <head>Henri Aimé.</head>
+        <p>— Je n’ai pas la vanité d’avoir <hi rend="i">mon</hi>
+          <pb n="84" xml:id="p84"/>Poète ; j’en aime plusieurs parce que j’ai parfois l’heureuse
+          illusion de jouir de l’écho sentimental de chacun d’eux, certains jours. Il y a des soirs
+          où je vais à leur rencontre lyrique comme à un rendez-vous d’amour. Quelques-uns viennent
+          du passé très lointain et de pays confus, peut-être oubliés ; ils n’en sont pas moins
+          proches de mon cœur. Bien plus, les accords de leur lyrisme fondamental éveillent les
+          idées belles et générales, communes à tous les hommes, du souffle sûr des justes images.
+            <hi rend="sc">Hugo</hi> est, parmi ces « imaigiers » opulents et magnifiques, celui dont
+          la richesse est vraiment magistrale, car elle déborde du siècle dernier. Le maître qui
+          joue avec les légendes des âges éteints est le même dont l’esprit visionnaire pressent les
+          époques futures. Voilà pourquoi il enchantait mon adolescence et pourquoi il plait à mon
+          impressionnabilité assagie.</p>
+        <p>Vigny, Lamartine, Musset, Baudelaire, Verlaine s’étagent dans la période qui va de
+          l’Empire premier jusque nous. Je les goûte différemment, selon les nuances de mes pensées
+          et leur harmonie avec tels ou tels de leurs poèmes. Ils sont véritablement du siècle, pour
+          le principal de leurs chefs-d’œuvre. Hugo n’est pas principalement du siècle. Il est <hi
+            rend="i">notre</hi> Verbe. Aussi je l’admire premièrement aux autres.</p>
+      </div>
+      <div>
+        <docAuthor key="Ansel, Franz (1874-1937)"/>
+        <head>Franz Ansel.</head>
+        <p>— Non, Hugo ne fut pas toute la poésie du <num>xix<hi rend="sup">e</hi></num> siècle !
+          Cela me vexe, à la fin, d’entendre pareille énormité redite à tous les coins de rue : et
+          je suis ravi de l’occasion que m’offre <title>l’Ermitage</title> d’exprimer là-dessus ma
+          pensée. Sans doute Hugo a découvert aux mots un sens nouveau de couleur et de
+          pittoresque ; il a conféré aux vocables une vie inattendue ; il nous a révélé le pouvoir
+          et les séductions de la rime, jusque-là traitée en esclave. Et quelques-unes de ses pages
+          sont d’une souveraine splendeur : <title>À Villequier</title>, <title>Booz
+          endormi</title>… Mais que de <pb n="85" xml:id="p85"/>rhétorique, de pathos, de pose
+          ridicule et déplaisante, lourdement étalés un peu partout !</p>
+        <p>Le roi, à mon avis, des poètes du <num>xix<hi rend="sup">e</hi></num> siècle ? La passion
+          de Musset, l’isolement hautain de Vigny requièrent mon admiration, mais tous deux sont
+          bien inégaux. Leconte de Lisle a puissamment évoqué les gestes des héros d’autrefois et
+          des fauves d’ailleurs, — mais il a négligé la beauté si humaine de son temps.
+            Baudelaire<note resp="editor" place="bottom">[NdE] Orthographié Beaudelaire.</note> me
+          semble monocorde. Verlaine est demeuré un poète mineur.</p>
+        <p>Alors qui ? Mon Dieu oui ! il ne reste plus que <hi rend="sc">Lamartine</hi> : Lamartine
+          génie aisé et puissant, torrent d’harmonie, fleur d’amour, océan d’idéal. C’est lui qui,
+          le plus ingénument, a traduit toute l’ardente sensibilité de son siècle, et ce m’est une
+          raison suffisante pour l’élire entre tous. Et puis, voyez-vous, sa vie est si belle…</p>
+      </div>
+      <div>
+        <docAuthor key="Brahm, Alcanter de (1868-1942)"/>
+        <head>Alcanter de Brahm.</head>
+        <p>— Il est peut être périlleux à notre mobilité d’esprit d’affirmer une prédilection pour
+          un poète plutôt qu’un autre. Mais il ne faut pas vingt-cinq lignes pour affirmer qu’aux
+          yeux des vrais artistes, Victor Hugo ne symbolise pas plus toute la poésie d’un siècle que
+          Balzac n’en renferme toute la prose.</p>
+        <p>Qu’il reste le grand orgue des cathédrales auquel préludent les bruyants carillons de la
+          réclame, soit ; mais ne suis-je pas libre, tout en l’admirant, de lui préférer le sanglot
+          long des violons, la plainte du violoncelle ou l’ironie subtile et fière du roseau
+          pensant ?</p>
+        <p>La Poésie n’exclut pas la vérité de ses attributs ; et un seul volume parfait rend plus
+          de services à l’humanité qu’une édition nationale illustrée en soixante-douze tomes. Voilà
+          pourquoi <hi rend="sc">Baudelaire</hi> est mon poète.</p>
+      </div>
+      <div>
+        <pb n="86" xml:id="p86"/>
+        <docAuthor key="Avril, René d' (1875-1966)"/>
+        <head>René d’Avril.</head>
+        <p>— Sans doute a-t-on voulu dire : Quel est le poète que vous aimez ? S’il s’agissait
+          d’admiration plusieurs noms me viendraient à l’esprit : Hugo, Leconte de Lisle, Théophile
+          Gautier. « Votre poète », marque ici une possession du cœur, presque une intimité ; lisez
+          donc : <hi rend="sc">Alfred de Musset</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Bégassat, Joséphine"/>
+        <head>Joséphine Bégassat.</head>
+        <p>— <hi rend="sc">Victor Hugo</hi> est, à mon avis, le plus grand, le meilleur, le plus
+          lumineux des poètes français.</p>
+        <p>Géant de la pensée, son œuvre — monument énorme — par les rayonnements qui se dégagent
+          d’elle, restera, dans le cours des siècles, impérissable autant que le granit colossal de
+          Karnac.</p>
+        <p>Tumultueux, mais plein d’élans sublimes, il fut le héros génial qui, penché sur le
+          gouffre vers lequel, seuls, abordent les prophètes, vit aux lueurs des éclairs de son âme
+          le chemin qui conduit aux destins de l’Humanité.</p>
+        <p>Au lieu de la grâce maladive et pleureuse de quelques-uns des classiques de son siècle,
+          nous trouvons en lui une force vitale prodigieuse, un élan vers toujours plus de lumière
+          et plus de liberté.</p>
+        <p>C’est que le poète avait entrevu les horizons où, vibrante de foi, d’enthousiasme et de
+          virilité, s’achemine la jeunesse actuelle…</p>
+        <p>C’est que son souffle puissant et créateur avait déjà mis l’étincelle de vie au front de
+          la Cité future…</p>
+        <p>Et voilà justement où Hugo m’apparaît sublimement grand : c’est que tout en s’élevant à
+          des sommets inaccessibles dans la sphère de l’Infini, il fut celui qui, s’attelant au char
+          du Progrès, fit faire aux peuples un pas gigantesque dans la voie de l’émancipation.</p>
+      </div>
+      <div>
+        <docAuthor key="Berthou, Erwan (1861-1933)"/>
+        <head>Yves Berthou.</head>
+        <p>— Il est des moments dans ma vie, où, las de tout, las d’écrire, las de lire, j’ouvre <pb
+            n="87" xml:id="p87"/>à deux battants ma bibliothèque et, laissant errer mes yeux sur les
+          titres pressés qui se dissimulent là, je cherche les volumes les plus propres à dissiper
+          mon ennui.</p>
+        <p>J’en ouvre cinq, dix, vingt pour les refermer bientôt, ayant lu une page, deux pages, les
+          pages connues et préférées. Je ne citerai pas, à mon regret, le poète vivant dont je lis
+          toujours en entier les deux volumes : ce qu’on peut rêver de plus pur, de plus harmonieux
+          dans la simplicité des lignes, avec une personnalité si marquée ; je ne le citerai pas
+          puisque cela m’est défendu. Je serais d’ailleurs inquiet en lui donnant le premier rang :
+          pas de prince ! Mais il est, parmi les morts, un poète dont l’œuvre est à la fois suave,
+          héroïque, ingénue, capiteuse et dolente, irréelle et humaine à ce point que, quelle que
+          soit la nature de mon ennui et de mes dégoûts, je suis certain d’être par sa lecture,
+          radicalement guéri ou consolé.</p>
+        <p>Ce poète, c’est <hi rend="sc">Verlaine</hi>.</p>
+        <p>Que si j’ouvre Hugo que j’aime cependant pour sa puissance et sa virtuosité
+          incomparables, je suis rapidement rebuté par le ton doctoral qu’il prendra soudain. Je
+          déteste les pontificats. Une lecture de Hugo m’étonne mais ne me transforme pas, même
+          quand il me fait pleurer.</p>
+        <p>Une lecture de Verlaine m’émeut et me rend meilleur, même quand il me fait sourire.</p>
+        <p>Or, c’est là tout le rôle de la poésie : émouvoir et rendre bon.</p>
+        <p>Je ne dirai pas que Verlaine fut « toute la poésie du <num>xix<hi rend="sup"
+          >e</hi></num> siècle ».</p>
+        <p>Mais alors que tant d’autres et des plus cotés, ne furent dans le concert que des
+          suppléments, il en fut l’indispensable complément, à mon avis.</p>
+        <p>Mon poète est donc Verlaine.</p>
+      </div>
+      <div>
+        <pb n="88"/>
+        <docAuthor key="Blémont, Émile (1839-1927)"/>
+        <head>Émile Blémont.</head>
+        <p>— La question : « Quel est votre poète ? » que vous voulez bien m’adresser, présume un
+          état d’esprit qui n’est pas le mien. Je ne suis pas plus l’homme d’un seul poète que d’une
+          seule espèce de fleurs ou de fruits.</p>
+        <p>Tout vrai poète est « mon poète », oui, même le plus humble, à la page ou à la ligne
+          exquise. Je trouve autant de saveur, à l’occasion, dans <quote>« le vers su par hasard
+            d’un poète ignoré »</quote> que dans les plus illustres rimes. Je serais désolé de
+          perdre ou de négliger, n’importe où et n’importe quand, la moindre parcelle poétique.</p>
+        <p>Cela dit, je puis ajouter que <hi rend="sc">Victor Hugo</hi> me semble le souverain poète
+          du dix-neuvième siècle. Avec une merveilleuse puissance lyrique, il en exprime et il en
+          représente tous les rêves, toutes les épreuves, toutes les grandeurs. lien a rythmé l’âme
+          inquiète et le généreux tumulte. Il en restera le retentissement éternel.</p>
+        <p>Vigny l’a parfois devancé, parfois égalé ! Et combien d’autres poètes contemporains me
+          sont essentiellement chers, depuis Lamartine jusqu’à Verlaine, sans oublier le pauvre
+          Pierre Dupont, qu’on traite dédaigneusement de chansonnier ! Puissent les strophes pleines
+          de gloire ne pas trop éclipser ses modestes couplets, d’une beauté si simple et si
+          fraîche, si particulière et si pénétrante !</p>
+      </div>
+      <div>
+        <docAuthor key="Bocquet, Léon (1876-1954)"/>
+        <head>Léon Bocquet.</head>
+        <p>— Il est difficile de répondre d’une manière explicite. En poésie, il en va autrement
+          qu’en amour ; on n’a pas le droit d’être exclusif. L’éclectisme est de rigueur. Par suite,
+          il convient de ne pas être le fervent d’un seul poète, mais de plusieurs.</p>
+        <p>Tout véritable poète a le don d’émouvoir le lecteur et, s’il émeut, il s’impose à
+          l’admiration. Partant, ils <pb n="89" xml:id="p89"/>sont nombreux ceux dont il faut aimer
+          feuilleter et relire les livres. C’est un réel examen de conscience qu’exige votre
+          enquête ; seul, un casuiste, après mûre et réfléchie pesée du pour et du contre, pourrait
+          peut-être se prononcer avec assurance.</p>
+        <p>Tout au plus suis-je capable d’indiquer ici des préférences et des antipathies.</p>
+        <p>Les vrais poètes, je confesse les avoir aimés chaque et tous, selon l’heure et les états
+          d’âme.</p>
+        <p>Détaillons : Musset charma mon adolescence de 15 à 18 ans ; Lamartine eut son tour et fut
+          remplacé par Vigny (le Vigny des poèmes philosophiques s’entend) ; Mallarmé, première
+          manière, vint ensuite. Leconte de Lisle et Verlaine m’enthousiasmèrent fortement, et cela
+          continue. Aujourd’hui, <hi rend="sc">Samain</hi> a la préséance, à cause de sa complexité
+          sans doute, qui réunit la perfection d’art des uns et la sensibilité des autres. En chacun
+          de ses vers frémissent à la fois la pitié, la souffrance et l’amour, cette éternelle
+          trinité de toute poésie. En ce sens, le dernier venu des maîtres sera toujours le meilleur
+          et le plus affectionné, parce que très contemporain il peut satisfaire mieux aux exigences
+          de nos âmes de plus en plus diverses et impressionnables.</p>
+        <p>Quant à Hugo, malgré son génial mérite, il ne m’a jamais touché vivement.</p>
+        <p>Jongleur de mots et de rimes, il étonne, en impose par ses merveilleux tours d’acrobatie
+          versificatrice, sauf à communiquer le divin frisson poétique. Il n’a pas mis assez
+          d’humanité douloureuse et assez d’âme dans ses exercices de rhétorique et les boniments
+          antithétiques débités sous le masque d’un Ézéchiel, d’un prédicant ou d’un tribun. En
+          outre, parce qu’on veut nous l’imposer, je le récuse. Il se mêle trop de préoccupations
+          extra littéraires dans l’hugolâtrie de l’heure présente. Enfin, pour en faire un dieu aux
+          attributs sans limites, le mage gros de science et <pb n="90" xml:id="p90"/>d’avenir, les
+          universitaires l’ont accaparé : cela le classe et son génie.</p>
+      </div>
+      <div>
+        <docAuthor key="Boschot, Adolphe (1871-1955)"/>
+        <head>Adolphe Boschot.</head>
+        <p>— Votre question est fort aimable et fort indiscrète. Vous me demandez : « quel est <hi
+            rend="i">mon</hi> poète ? » Mais, c’est tous les poètes. Chaque poète, tour à tour,
+          devient pour moi <hi rend="i">le</hi> poète par excellence, dans les moments où il me met
+          en communion avec son génie.</p>
+        <p>On dit souvent : il n’y a pas de beauté absolue ; les philosophes disent ; pas de beau
+            <hi rend="i">en soi</hi>. Pour moi je préfère les faits, les faits de conscience, aux
+          divagations abstraites, et j’aime mieux dire ceci : quand j’ai la sensation d’une belle
+          chose, il arrive parfois que cette sensation intéresse, captive mon être tout entier.
+          Toute ma force d’être, toute ma Vie, tout le mystère que j’appelle « mon moi » se révèle
+          alors à moi-même sous la forme de cette sensation : tout ce que je suis semble, à ce
+          moment-là, être cela. Aussi, à ce moment, cette beauté <hi rend="i">particulière</hi> — et
+          si vous voulez <hi rend="i">relative</hi> — me paraît et m’apparaît <hi rend="i"
+            >absolue</hi>… Et je suis obligé de dire que <hi rend="i">chaque</hi> poète devient tour
+          à tour <hi rend="i">le</hi> poète. <hi rend="i">Chaque</hi> femme, au moment où on l’aime,
+          peut faire croire qu’elle révèle <hi rend="i">tout</hi> l’amour, car alors on oublie le
+          reste de la vie : c’est ainsi que chaque poète détache celui qu’il aime du reste des
+          choses ; il dissipe le souvenir des autres poètes ; chaque poète fait croire qu’il est à
+          lui seul toute la poésie… Mais les autres poètes en font autant, tour à tour, à mesure
+          qu’ils se font aimer.</p>
+        <p>Quant au « cas Hugo », n’en parlons pas aujourd’hui. Hugo devient l’objet d’une religion
+          nationale. On se fera donc, à propos de lui et de son œuvre, des idées de plus en plus
+          fausses, ou plutôt, il y aura de plus en plus de malentendus, à propos de ce génie
+          surhumain et monstrueux, entre les gens qui parleront avec une exactitude stricte et ceux
+          qui <pb n="91" xml:id="p91"/>parleront avec une foi illuminée. Pour ne pas être dupe avec
+          trop d’inélégance, il faudra savoir interpréter et transposer ces témoignages personnels,
+          — ou mieux encore, sans presque se soucier d’eux, il faudra continuer d’aimer Hugo et de
+          se livrer à lui en toute simplicité de cœur, quitte à se ressaisir et à reprendre toute
+          lucidité après le délire bienheureux…</p>
+      </div>
+      <div>
+        <docAuthor key="Botrel, Théodore (1868-1925)"/>
+        <head>Théodore Botrel.</head>
+        <p>— Le poète, le plus vraiment poète du <num>xix<hi rend="sup">e</hi></num> siècle, c’est
+            <hi rend="sc">Lamartine</hi> !</p>
+      </div>
+      <div>
+        <docAuthor key="Bouchaud, Pierre de (1862-1925)"/>
+        <head>Pierre de Bouchaud.</head>
+        <p>— Encore que la complexité de l’esprit moderne et les nombreuses impressions dont la
+          mémoire est constituée me rendent difficile de fixer mon choix sans hésitation et, que
+          dans le genre même qui est ma préférence, plusieurs noms sollicitent celle-ci, je crois ne
+          pas errer en spécifiant les qualités maîtresses que je demande à mes poètes favoris : la
+          clarté dans la grâce, et dans la grandeur la simplicité antique. En faut-il davantage pour
+          désigner à mon insignifiant suffrage Alfred de Vigny, élève de l’attique André Chénier,
+          Leconte de Lisle et le très pur Saint-Cyr de Raissac ?</p>
+        <p>Entre trois poètes si excellents, s’il faut en laisser, je reste avec Raissac. Nul n’eut
+          dans sa forme plus de couleur, dans sa pensée plus de délicatesse et dans sa vie, si
+          prématurément fauchée, plus d’heureuse harmonie.</p>
+      </div>
+      <div>
+        <docAuthor key="Bouyer, Georges"/>
+        <head>Georges Bouyer.</head>
+        <p>— Ce serait faire une sottise que de saluer Hugo comme le représentant de « toute la
+          pensée du <num>xix<hi rend="sup">e</hi></num> siècle ». Hugo n’eut rien d’un penseur, et
+          c’est précisément ce que nous lui reprocherons, si nous considérons la littérature comme
+          l’expression tout autant d’une intelligence que d’une <pb n="92" xml:id="p92"
+          />sensibilité, si tout poète, pour être grand, nous semble devoir se doubler d’un
+          philosophe.</p>
+        <p>Et, pour regarder la poésie sous cet angle, nous ne pouvons admirer entièrement les
+          écrivains du <num>xix<hi rend="sup">e</hi></num> siècle, qui ont substitué le pittoresque
+          à la pensée pure, la peinture et la musique à la littérature, et qui ont dirigé les
+          efforts littéraires dans cette voie néfaste qui devait aboutir aux aberrations de l’<hi
+            rend="i">Instrumentisme</hi> et du <hi rend="i">Magnificisme</hi>.</p>
+        <p>Et c’est pourquoi puisque cette enquête est restreinte aux limites du <num>xix<hi
+              rend="sup">e</hi></num> siècle, nous déclarerons notre très profonde sympathie pour
+            <hi rend="sc">Alfred de Vigny</hi> qui, lui, fut un penseur, et, surtout, un penseur
+          sans prétentions socialistes.</p>
+      </div>
+      <div>
+        <docAuthor key="Bouyer, Raymond (1862-1935)"/>
+        <head>Raymond Bouyer.</head>
+        <p>— La majorité nommera Victor Hugo « le poète souverain » du siècle <num>xix<hi rend="sup"
+              >e</hi></num> : mais puisque vous me demandez quel est <hi rend="i">mon</hi>
+          poète…</p>
+        <p>À tel rhétoricien qui fait l’école buissonnière au Louvre, demandez : « Quelle est la
+          femme ? » Il vous répondra : « La Samothrace ». Mais corrigez : « Quelle est votre
+          femme ? » Et sa reconnaissance ira d’instinct vers la modeste amie qui possède ce qui
+          manque aux déesses, même non dépourvues de tête et de bras : une physionomie ; dans les
+          paupières cillées, des prunelles.</p>
+        <p>À nos yeux d’iconoclastes, la physionomie vaut la beauté. Donc, permettez-moi de nommer
+          celui chez qui Victor Hugo lui-même a découvert <quote>« un frisson nouveau »</quote>,
+          celui qui dans sa prose d’artiste a deviné la suggestion d’Eugène Delacroix, la suprématie
+          de Richard Wagner : ce critique-là sera <hi rend="i">mon</hi> poète ; et sans remords, je
+          tiens à voter pour <hi rend="sc">Baudelaire</hi>.</p>
+        <p>P.-S. — Qu’est devenu le projet de souscription pour le monument de Baudelaire ?</p>
+      </div>
+      <div>
+        <pb n="93" xml:id="p93"/>
+        <docAuthor key="Braisne, Henry de (1855-19..)"/>
+        <head>Henry de Braisne.</head>
+        <p>— Certes, je les aime tous d’un amour chargé de gratitude, ceux qui de leurs chants
+          grandioses ou attendris bercèrent mes premiers âges. Les noms de Lamartine, Vigny, Musset,
+          feront toujours vibrer en moi des fibres filiales. Mais avoir su se créer une place du
+          vivant même de ce géant, Victor Hugo, avoir été si mal payé de ses efforts vers le mieux,
+          avoir si singulièrement préparé sa gloire, avoir recueilli tant de dédain, tant de
+          haussements d’épaules, me font considérer <hi rend="sc">Charles Baudelaire</hi> comme le
+          type du poète mort que je dois le plus vénérer. Je vote pour Baudelaire.</p>
+      </div>
+      <div>
+        <docAuthor key="Brandenburg, Albert-Jacques (1878-1934)"/>
+        <head>Albert G. Brandenburg.</head>
+        <p>— Tous les poètes sont tour à tour mon poète. Mais puisqu’il s’agit de donner ici un
+          suffrage : c’est vers <hi rend="sc">Victor Hugo</hi> — le père Hugo — que va ma dévotion,
+          et toute entière.</p>
+      </div>
+      <div>
+        <docAuthor key="Braun, Thomas (1876-1961)"/>
+        <head>Thomas Braun.</head>
+        <p>— Hugo est le poète de tous ; mais, des morts, <hi rend="sc">Verlaine</hi> est mon
+          poète.</p>
+      </div>
+      <div>
+        <docAuthor key="Briquel, Paul (1877-1922)"/>
+        <head>Paul Briquel.</head>
+        <p>— Toute la poésie et toute la pensée du <num>xix<hi rend="sup">e</hi></num> siècle ? Non
+          pas ; Hugo fut poète bien plus que penseur. Si dans l’admirable symphonie du dernier
+          siècle sa voix, la plus puissante, presque trop forte, domina toutes les voix, s’il lui
+          fut décerné le nom de « Père » cette puissance même de ses rythmes et de son souffle
+          parfois trop verbal masqua trop l’admirable polyphonie. Il fut l’orgue, riche de jeux
+          multiples, au clavier le plus étendu, mais trop sonore pour toujours vibrer. Et il me
+          plaît dans ces larges chœurs au-dessus desquels plane l’orgue de Victor Hugo, d’écouter
+          les chants d’<hi rend="sc">Alfred de Musset</hi>, soliste intensément humain.</p>
+      </div>
+      <div>
+        <pb n="94"/>
+        <docAuthor key="Buffenoir, Hippolyte (1847-1928)"/>
+        <head>Hippolyte Buffenoir.</head>
+        <p>— J’admire et j’aime profondément Victor Hugo, Lamartine et Alfred de Musset. Ces trois
+          grands génies ont formé le cœur et l’esprit des hommes de ma génération. Je dois
+          reconnaître toutefois qu’au contact de Musset j’ai frissonné avec une émotion plus
+          pénétrante, plus intime, plus douce à mon souvenir. Il est resté l’ami préféré de ma
+          pensée ; la flamme de ses vers est tellement mêlée à ma vie, à ma jeunesse, à mes amours,
+          à mes cris de liberté que je l’aime comme moi-même, et que je ne puis remonter le cours de
+          mes années sans me rappeler, à chaque aurore, l’attrait divin de ses poésies.</p>
+        <p>Si <hi rend="sc">Alfred de Musset</hi> garde à mes yeux ce prestige, c’est que ses
+          qualités maîtresses sont la clarté, l’élégance, la sincérité, et l’ironie, fille de la
+          raison ailée. Sachons-lui gré d’avoir fui les soi-disant écoles littéraires, de n’avoir
+          point enfermé son génie dans des formules prétentieuses, mais d’avoir simplement écouté
+          son cœur, et de nous avoir dit sans prétention, sans calcul, ses joies et ses tristesses,
+          ses espérances et ses amertumes, le charme d’un souvenir heureux, le mélancolique regret
+          des tendresses envolées.</p>
+        <p>La jeunesse se reconnaît plus spécialement dans la fièvre d’espérance de Musset, dans son
+          entraînement fougueux, dans ses colères et ses révoltes, dans son désir de tout
+          entreprendre, de tout réformer et de tout braver, c’est pourquoi il est et demeure mon
+          poète préféré. Il ne chante le plus souvent que les angoisses de son cœur ; mais il le
+          fait avec une telle intensité de pensée et de style que ses cris de douleur deviennent
+          comme impersonnels, et se transforment ainsi en chefs-d’œuvre, où nous reconnaissons nos
+          propres souffrances, nos secrètes convoitises, les passions de tous les siècles et de
+          toute la terre.</p>
+        <p><pb n="95" xml:id="p95"/>Musset me reste cher parce qu’il est éminemment français, et par
+          là je veux dire qu’il portait en lui les meilleures traditions de notre race, qu’il en
+          avait le sens profond, qu’il s’était nourri de la pensée de nos maîtres bien à nous,
+          depuis Mathurin Régnier, Molière, Racine, La Fontaine, jusqu’à André Chénier et
+          Beaumarchais, et qu’il avait puisé en eux cette clarté admirable, cette ironie mordante
+          devant la sottise prétentieuse, cette élégance primesautière et cette fière allure
+          d’indépendance, qui ont toujours été l’apanage de notre vieille terre des Gaules, et qui,
+          nous le voulons croire, resteront l’orgueil de la France contemporaine.</p>
+        <p>J’en aurai long à dire, mais il faut conclure : les vers de Musset ont enivré mes vingt
+          ans. Arrivé à l’âge d’homme, mon enthousiasme n’est point refroidi ; je dirai même qu’il
+          est plus vigoureux et plus ferme. Comme jadis je suis prêt à organiser encore des
+          pèlerinages en l’honneur de l’auteur de <title>Lucie</title>, du <title>Souvenir</title>,
+          des <title>Nuits</title>…</p>
+      </div>
+      <div>
+        <docAuthor key="Caussy, Fernand (1881-1959)"/>
+        <head>Fernand Caussy.</head>
+        <p>— Les poètes du <num>xix<hi rend="sup">e</hi></num> siècle sont trop particuliers pour
+          qu’on puisse avoir avec aucun d’eux des affinités complètes. Celles qu’on a, ou bien ne
+          sont pas assez proches pour qu’il faille en distinguer une des autres, ou bien sont trop
+          significatives pour que l’on ne se fasse pas délicatesse de rien dire. Il devrait y avoir
+          un autre cas, où l’on n’aurait rien de commun avec les bavards ni les efféminés.</p>
+      </div>
+      <div>
+        <docAuthor key="Chanvin, Charles (1877-1953)"/>
+        <head>Charles Chanvin.</head>
+        <p>— Par la <hi rend="i">quantité</hi>, le poids, Victor Hugo, incontestablement, c’est le
+          Phare, mais <quote>« le phare de l’océan du non-sens »</quote> (Nietzsche) ; le
+          « Monument » à l’intérieur duquel on ne trouve rien : en somme, parmi les gens du
+              <num>xix<hi rend="sup">e</hi></num> siècle au service <pb n="96" xml:id="p96"/>de la
+          poésie, une prodigieuse bonne à tout faire qui a fait le plus gros de l’ouvrage, mais
+          l’ouvrage le plus gros — cela dit avec une grande admiration.</p>
+        <p>Par la <hi rend="i">qualité</hi> et par tout ce qui est le contraire d’Hugo, <hi
+            rend="sc">Baudelaire</hi>. Je le retrouve toujours <hi rend="i">nouveau</hi>, toujours
+            <hi rend="i">savant</hi>, toujours <hi rend="i">moderne</hi>, jamais anachronique et
+          jamais épuisé.</p>
+      </div>
+      <div>
+        <docAuthor key="Clavié, Marcel (1873-1963)"/>
+        <head>Marcel Clavié.</head>
+        <p>— Je trouve que cette question ne peut être résolue que d’une manière générale.</p>
+        <p>Les poètes que vous citez et qui ont écrit <title>Éloa, Les Confidences, Les Nuits, Les
+            Fleurs du. Mal, Sagesse</title>, et <title>La Légende des Siècles</title>, ont à mon
+          avis, et croyez que j’en suis convaincu, chacun une personnalité remarquable.</p>
+        <p>Dans ces conditions, attendu que ces six splendides physionomies poétiques ont chacune
+          leur génie personnel, je trouve que mon poète est formé de l’agglomération de ces six
+          génies.</p>
+        <p>Mon poète n’est pas plus Alfred de Vigny qu’il n’est Paul Verlaine ou Victor Hugo, etc.
+          Non ! Il est défini par <hi rend="sc">Eux</hi>. Supprimez un de ces poètes (je me répète à
+          dessein), mon poète général : <hi rend="sc">Eux</hi>, est incomplet.</p>
+      </div>
+      <div>
+        <docAuthor key="Clerfeyt, René-Mary"/>
+        <head>René-Mary Clerfeyt.</head>
+        <p>— Est-il possible de vouer au fond de son cœur un culte exclusif à un unique poète ? Il
+          me semble plutôt que l’on soit porté vers l’un ou l’autre, au gré des dispositions
+          momentanées de l’esprit et de la sensibilité, influencés par le lieu, la saison, le jour
+          et l’heure.</p>
+        <p>Pour moi, ceux vers qui m’orientent surtout de secrètes affinités, ceux dont l’âme me
+          paraît cadrer le mieux avec le ciel en demi-teinte de mon pays wallon, ce sont Verlaine,
+          Rodenbach et Samain.</p>
+      </div>
+      <div>
+        <pb n="97"/>
+        <docAuthor key="Clerget, Fernand (1865-1931)"/>
+        <head>Fernand Clerget.</head>
+        <p>— <hi rend="sc">Victor Hugo</hi> — non pour toute son œuvre poétique, mais pour un
+          volume, à faire, de poésies choisies et d’extraits de son théâtre.</p>
+      </div>
+      <div>
+        <docAuthor key="Clouard, Albert (1866-1952)"/>
+        <head>Albert Cloüart.</head>
+        <p>— Mon poète ! Certes j’admire Hugo pour ses imageries somptueuses, son souffle d’ouragan,
+          sa belle allure épique, mais d’autres ont mieux su émouvoir les cordes secrètes de ma
+          sympathie : Lamartine, le pur et profond rêveur, Baudelaire, ce sensitif et ce voyant,
+          Laforgue, ce tendre et ce narquois… et surtout <hi rend="sc">Verlaine</hi>, surtout.</p>
+        <p>Poète sincère et spontané, inventeur d’une forme exquise, en des vers musicaux, nuancés
+          et fluides, il dit sa foi ingénue, son amour inquiet, sa saignante douleur. J’aime son âme
+          ardente et tourmentée, son génie si humain. J’aime son chuchotement mystique, sa grâce
+          d’enfant étonné, sa simplicité de pauvre homme, son charme naïf et familial de rimeur
+          populaire à qui se trouve lié — par quel don bienheureux ! — l’artiste le plus délicat.
+          Poète de sentiment et d’intimité profonde, sa brûlante douceur a touché pour jamais la
+          chair de notre cœur.</p>
+      </div>
+      <div>
+        <docAuthor key="Collin, Isi (1878-1931)"/>
+        <head>Isi Collin.</head>
+        <p>— Si j’en excepte quelques pièces de <title>La Légende des Siècles</title>, je ne peux
+          relire Hugo pour, seulement, jouir de la Beauté. Certes, dans son œuvre, tous les poètes
+          du siècle dernier se retrouvent un peu : ce peu ne suffira jamais à excuser cet
+          aphorisme : « Hugo fut toute la poésie et toute la pensée du <num>xix<hi rend="sup"
+            >e</hi></num> siècle. »</p>
+        <p>Il est de ceux que j’admire sans les aimer : j’admire moins et je hais Baudelaire (que je
+          puis relire) ; j’aime et admire <title>Sagesse, la Bonne Chanson, Jadis et
+          Naguère</title>, le noble et délicieux artiste qui cisela <title>Hérodiade</title>, mais
+          Mallarmé, Verlaine sont « poètes d’aujourd’hui ». Il m’est malaisé de choisir entre
+          Lamartine et <hi rend="sc">Leconte de Lisle</hi>. Prenez celui-ci.</p>
+      </div>
+      <div>
+        <pb n="98" xml:id="p98"/>
+        <docAuthor key="Croisset, Francis de (1877-1937)"/>
+        <head>Francis de Croisset.</head>
+        <p>— Vous me demandez « quel est mon poète ? »</p>
+        <p>Poète moi-même, j’aime l’un ou l’autre des grands poètes selon la pensée ou l’heure.</p>
+        <p>Faut-il définir par le mot brutal l’expression intime qui vient d’être formulée ?</p>
+        <p>J’essaye pourtant, mais c’est arbitraire : Vigny, le Rêve ; Lamartine, la Rêverie ;
+          Musset, l’Amour ; Baudelaire, la Volupté ; et Hugo ? <hi rend="sc">Hugo</hi>, c’est la
+          synthèse de tout cela, c’est la Vie.</p>
+        <p>Que dire de Verlaine ? Il n’y a pas un de nous qui ne l’adore.</p>
+        <p>Mais Hugo contient Verlaine dans sa mâle synthèse comme la couleur contient la
+          nuance.</p>
+        <p>M. Remy de Gourmont a raison de dire : <quote>« L’orgue n’est pas le violon. »</quote> Il
+          a raison… mais voilà… le violon chante dans l’orgue !</p>
+        <p>En France, crier : « Vive quelqu’un » implique l’idée : « À bas Machin. » C’est absurde
+          et bon pour des politiciens. Si Hugo n’est pas « toute la poésie et toute la pensée du
+              <num>xix<hi rend="sup">e</hi></num> siècle », c’est lui qui en donnera l’idée la plus
+          complète, la plus synthétique et par là, la plus durable à nos petits-neveux.</p>
+      </div>
+      <div>
+        <docAuthor key="Daudet, Julia (1844-1940)"/>
+        <head>Julia A. Daudet.</head>
+        <p>— À tous les poètes qui ont fait la gloire de la France dans le siècle qui vient de finir
+          et qui sont morts maintenant, Lamartine, Victor Hugo, Musset, de Vigny, je préfère
+          infiniment <hi rend="sc">Leconte de Lisle</hi> pour l’admirable concision de ses poèmes,
+          l’abnégation de sa personnalité et cette parfaite adaptation de notre langue poétique qui
+          fait que l’on ne pourrait changer une strophe ni un mot de ses beaux vers.</p>
+      </div>
+      <div>
+        <docAuthor key="Dauphin, Léopold (1847-1921)"/>
+        <head>Léopold Dauphin.</head>
+        <p>— Hugo, que le docteur Will, <pb n="99" xml:id="p99"/>vieux poète allemand, saluait de
+          ces mots, devenus historiques : <quote>« <hi rend="i">phus sêtes hune
+            grand’boîte</hi> »</quote>, eut été un bien plus grand poète encore — c’était du moins
+          ce que prétendait mon ami Paul Arène — s’il était allé au café.</p>
+        <quote>
+          <l>C’est à travers les vitres d’un café</l>
+          <l>Qu’il faut voir son siècle qui passe…</l>
+        </quote>
+        <p>Mais voilà ! Hugo n’y alla jamais (et c’est là probablement sa seule faiblesse).
+          Verlaine, lui, y allait toujours. Or je n’ose plus savoir lequel des deux est mon préféré,
+          quand heureusement M. Remy de Gourmont vient me tirer d’embarras : <quote>« <hi rend="i"
+              >Non</hi>, dit-il, <hi rend="i">l’orgue n’est pas toute la musique ; il n’est pas le
+              violon.</hi> »</quote> Je suis de son avis et me permets même de constater avec M. de
+          la Palice, que <hi rend="i">le violon n’est pas la petite flûte</hi>, afin que cette
+          constatation amène une réponse à votre question :</p>
+        <p>Quel est mon poète ?</p>
+        <p><hi rend="sc">Franc-Nohain</hi>.</p>
+        <p>Les motifs de mon choix ?…</p>
+        <p>Oh, bien simples.</p>
+        <p>Je choisis <hi rend="sc">Franc-Nohain</hi> parce qu’il est à la fois et le plus grand
+          poète du <num>xix<hi rend="sup">e</hi></num> siècle et… mon gendre (Ai-je l’esprit de
+          famille assez développé ?…)</p>
+        <p>Oh ! je ne m’illusionne pas ; il reste évident que, si vous demandez à celui-ci : Quel
+          est son poète, il ne me rendra pas ma politesse et vous répondra nettement qu’il préfère
+          de beaucoup les vers de Porto-Riche ou les siens à ceux de son beau-père.</p>
+        <p>Tous les goûts sont dans la nature et je sais pardonner aux erreurs d’autrui ; ces
+          divergences d’opinion n’altèrent pas les amitiés sincères.</p>
+        <p>Ceci dit, j’ajouterai que, pourtant, les Flûtes de Franc-Nohain ne sauraient me donner, à
+          elles seules, toute la poésie et qu’il m’arrive aussi d’éprouver avec <pb n="100"
+            xml:id="p100"/>quelques savoureux émois à l’audition des grandes et magistrales orgues
+          du Père — admiré — Hugo, et aux violons si câlinement tendres ou pervers du Fils — aimé —
+          Verlaine.</p>
+      </div>
+      <div>
+        <docAuthor key="Degron, Henri (18..-19..)"/>
+        <head>Henri Degron.</head>
+        <p>— Diablement difficile, votre question, savez-vous ?</p>
+        <p>Remy de Gourmont a mille fois raison : Victor Hugo n’est pas toute la poésie — c’est
+          d’une évidence parfaite…</p>
+        <p>Et cependant, l’œuvre de Hugo, c’est immense, grandiose, arc-de-triomphal !…</p>
+        <p>Le vieux Père a tout fait avec la plus absolue maîtrise, jusqu’à du plus pur symbolisme
+          (voir <title>l’Homme qui rit</title>). Il avait du génie, avec un grand G, et cela nous
+          mettra d’accord.</p>
+        <p>Mais enfin il y a ces questions si complexes, si indéfinissables, de direction
+          intellectuelle, de parenté psychique, de cousinage d’esprit, de tendance cérébrale, de
+          tempérament enfin… Or, en ce qui me concerne, mon admiration « cordiale », ma
+          reconnaissance intellectuelle, mon affection « d’âme » vont tout droit à celui qui, en
+          poésie, a créé la Musique, l’Harmonie, et qui a su si bien <hi rend="i">Aimer</hi> ! J’ai
+          dit : <hi rend="sc">Lamartine</hi> !</p>
+        <p>Et puis, j’ai tant aimé mon maître, Paul Verlaine, je l’aime tant encore que… je ne sais
+          plus ; et Verlaine, c’est si près qu’il n’en faut point parler. On nous taxerait de
+          parti-pris !</p>
+        <p>Savez-vous que cette question est diablement difficile ?</p>
+        <p>Pour terminer, il serait bon de rappeler à MM. les Naturistes qu’ils sont toujours en
+          retard… Il y a belle lurette (en 1893) que les dénommés Symbolistes ont célébré Hugo,
+          comme il convenait. Paul Meurice pourrait interroger les mânes de Vacquerie !</p>
+      </div>
+      <div>
+        <docAuthor key="Delattre, Floris (1880-1950)"/>
+        <head>Floris Delattre.</head>
+        <p><pb n="101" xml:id="p101"/>— Mon poète ! Ce sera l’âme fraternelle qui ressemble à la
+          mienne, qui rêve les mêmes rêveries, qu’impressionne le pareil fait extérieur. J’aime les
+          nuances vagues, la sourdine, le silence surtout et la solitude…</p>
+        <p>Mon poète, celui où je retrouve le plus de moi-même, c’est <hi rend="sc">Rodenbach</hi>,
+          un homme de nos Flandres, primitif parfois comme Memling, plus souvent compliqué comme une
+          jeune fille, un peu passif, qui sent d’abord plus qu’il ne pense, le poète des après-midi
+          d’ennui et des féminines tendresses. <title>La Jeunesse Blanche</title> me révéla à
+          moi-même ; j’appris par cœur <title>La Vocation</title>…</p>
+        <p>Mon poète, mon <quote>« grand frère aîné en Notre-Dame la Poésie »</quote>, c’est
+          Rodenbach.</p>
+      </div>
+      <div>
+        <docAuthor key="Delbousquet, Emmanuel (1874-1909)"/>
+        <head>Emmanuel Delbousquet.</head>
+        <p>— Plus que Baudelaire et Mallarmé, j’aime, entre tous les poètes du siècle, <hi rend="sc"
+            >Vigny</hi>. <hi rend="i">L’homme</hi> et son <hi rend="i">œuvre</hi> m’ont passionné
+          dès l’adolescence et je leur ai voué un culte enthousiaste et réfléchi.</p>
+        <p>Selon les heures, les paysages, les sursauts de passion, nous choisissons tour à tour
+          divers poètes dont le chant exalte notre joie ou se mêle instinctivement à notre douleur.
+          Pour moi, Vigny fut celui qui s’harmonise toujours à ma vie intérieure, à toutes les
+          heures, devant tous les paysages. J’y ai puisé ma plus pure émotion d’art et de
+          pensée.</p>
+        <p>Ses vers ont la triple force du Rythme, de, la langue et de l’idée.</p>
+        <p><title>La Maison du Berger</title>, par exemple, contient les plus belles strophes que je
+          sache et nul chant humain ne leur peut être comparé.</p>
+      </div>
+      <div>
+        <docAuthor key="Delisle, Henry"/>
+        <head>Henri Delisle.</head>
+        <p>— Il me serait à peu près <pb n="102" xml:id="p102"/>impossible de répondre d’une façon
+          nette et définitive à la question posée par votre enquête. Il s’agit de dire quel est,
+          parmi ceux du siècle dernier, mon poète ? Cela dépend des jours et des saisons, et aussi
+          des paysages. Hugo rue paraît surtout admirable aux bords de l’Océan, ou dans les
+          Montagnes, ou même dans ma chambre par des jours d’orage ou de grand vent. Je préfère
+          Verlaine quand je parcours les rues tristes des faubourgs ou les bois rouillés par
+          l’automne, quand j’entends la pluie chanter aux vitres. Mais les soirs d’austère solitude,
+          où je sens peser sur moi toute la gravité de la vie et les noirs nuages du destin, j’aime
+          Vigny religieusement.</p>
+        <p>« Mon poète » serait une synthèse de ces trois.</p>
+      </div>
+      <div>
+        <docAuthor key="Deubel, Léon (1879-1913)"/>
+        <head>Léon Deubel, co-directeur de la « <title><hi rend="i">Revue Verlainienne</hi></title> ».</head>
+        <p>Mon poète ?</p>
+        <p rend="center">LUI</p>
+      </div>
+      <div>
+        <docAuthor key="Docquois, Georges (1863-1927)"/>
+        <head>Georges Docquois.</head>
+        <lg><l>Vous demandez à chacun</l>
+        <l>De nous quel est <hi rend="i">son</hi> poète !</l>
+        <l>Quoi ? Dois-je n’en aimer qu’un !</l>
+        <l>Prétention cacoëthe !</l></lg>
+        <lg><l>Et puis, il faut qu’il soit mort ?</l>
+        <l>Voilà de la tyrannie !</l>
+        <l>Bien. Tout haut, j’en suis d’accord ;</l>
+        <l>Oui, mais, tout bas, je le crie.</l>
+        </lg>
+        <lg><l>Passons… Le mien au néant</l>
+        <l>S’en est retourné naguère.</l>
+        <l>Oh ! ce n’est pas un géant !</l>
+        <l>Mais c’est Gabriel Vicaire !</l></lg>
+        <lg><pb n="103" xml:id="p103"/><l>Ses vers ne sont pas d’airain.</l>
+        <l>Il chantait, loin de la lutte,</l>
+        <l>Son minuscule refrain</l>
+        <l>Dessus sa petite flûte.</l></lg>
+        <lg><l>Or, bien que parfois hanté</l>
+        <l>Par l’insondable problème.</l>
+        <l>Flûtiste, il a bien flûté.</l>
+        <l>Et voilà pourquoi je l’aime !</l></lg>
+      </div>
+      <div>
+        <docAuthor key="Ducoté, Edouard (1870-1929)"/>
+        <head>Édouard Ducoté.</head>
+        <p>— Grâce à Lamartine, Baudelaire, Verlaine, grâce à <hi rend="sc">Alfred de Vigny</hi>
+          auquel j’accorde toute préférence, Victor Hugo a fait du <num>xix<hi rend="sup"
+            >e</hi></num> siècle français un des plus grands âges poétiques du monde.</p>
+      </div>
+      <div>
+        <docAuthor key="Van Der Elst, Robert (1876-1947)"/>
+        <head>Robert van der Elst.</head>
+        <p>— S’il faut motiver ma réponse, je dirai, probablement après d’autres, que <hi rend="sc"
+            >Victor Hugo</hi> me semble notre plus grand poète parce qu’il a tiré le meilleur parti
+          des ressources propres au vers. D’autres peuvent avoir ému davantage ; leur cri lyrique a
+          peut-être été plus véhément, plus sincère ; leur sentimentalité peut avoir paru plus
+          profonde ; leur sens épique des vérités humaines ou surhumaines a peut-être été plus juste
+          ou plus « philosophique » ; mais aucun n’a plus compté sur les seuls effets du rythme
+          poétique ou sur les ressources verbales du vocabulaire poétique pour être lyrique,
+          sentimental ou épique. Et je suis plus sûr, quand Victor Hugo me frappe, d’être ému par un
+          poète, par des ressources de poète, que par des ressources d’écrivain. C’est un point de
+          vue peut-être étroit ; mais il paraît essentiel.</p>
+      </div>
+      <div>
+        <pb n="104" xml:id="p104"/>
+        <docAuthor key="Fabulet, Louis (1862-1933)"/>
+        <head>Louis Fabulet.</head>
+        <p>— Vous croyez donc que j’ai lu tous les poètes du <num>xix<hi rend="sup"
+          >e</hi></num> siècle ? Pas plus que tous ceux des autres siècles. J’aime trop la nature
+          pour cela, et c’est à peine si j’ai le temps d’écouter tout ce que, autour de moi, en moi,
+          elle chante. Je laisse aux érudits le soin d’avoir lu <hi rend="i">tous les Poètes</hi>,
+          et de juger, si un érudit, qui ne saurait être un poète, a droit de décider en cette
+          affaire. Je crains bien qu’il n’y ait là cercle vicieux.</p>
+        <p>J’ai lu un peu de Victor Hugo : cela m’a paru énorme et comme les visions de microscope,
+          et jamais je n’y trouvai d’enchantement. J’ai lu un peu de Vigny, de Baudelaire et de
+          Verlaine : cela m’a semblé vrai, et parfaitement répondre à ma vision des choses.</p>
+        <p>Et permettez que je ne commette pas la petite lâcheté de paraître ignorer Alfred de
+          Musset qui <hi rend="i">enchanta</hi> mes dix-huit ans, mais que j’avoue n’avoir jamais
+          relu depuis.</p>
+      </div>
+      <div>
+        <docAuthor key="Fagus (1872-1933)"/>
+        <head>F. Fagus.</head>
+        <p>— Il y a un jeu de jeunes filles : quelle est votre fleur préférée ? — Notre jugement
+          peut bien aller jusqu’à élire avec quelque équité le bouquet Lamartine, Hugo, Musset,
+          Vigny, Baudelaire, Verlaine, Mallarmé... parmi quoi c’est la nuance de notre teint qui
+          choisit. Puisqu’il faut donc qu’interviennent les raisons personnelles, c’est-à-dire
+          sentimentales, disons que notre cœur va vers ceux de qui l’œuvre est comme la
+          cristallisation suprême d’une âme héroïque : Hugo, avocat avec indifférence de toutes les
+          causes sonores, sous quoi, dénué de pensée réelle et de passion authentique, l’artiste se
+          fait voir impur et incomplet, et bénisseur et vindicatif, l’homme se fait voir petit ; à
+          notre admiration pour ses dons féeriques nous ne parviendrons à joindre ni sympathie ni
+            <pb n="105" xml:id="p105"/>estime. Et nous hésiterions entre les figures vénérables de
+            <hi rend="i">Vigny</hi> et <hi rend="i">Stéphane Mallarmé</hi>, si le profond,
+          multiforme et magnifique <hi rend="sc">Baudelaire</hi> en qui précisément tout son siècle
+          se résume et qui ouvre un siècle nouveau (car tous ceux qui sont venus après lui et ceux
+          qui viennent encore, datent de lui et « l’ont dans le sang »), si Baudelaire ne suffisait
+          à combler notre esprit, notre cœur et nos sens.</p>
+      </div>
+      <div>
+        <docAuthor key="Fleischmann, Hector (1882-1914)"/>
+        <head>Hector Fleischmann.</head>
+        <p>— M. Remy de Gourmont écrivait en effet une chose fort juste, en affirmant que Victor
+          Hugo ne synthétisait pas toute la poésie. Chaque poète voit avec un état d’âme qui lui est
+          particulier, ou chante sous l’influence d’un état d’âme qu’il sent bien et qu’il
+          s’assimile.</p>
+        <p>Et c’est ainsi que M. Alphonse de Lamartine personnifie bien, en lui seul, et surtout,
+          l’âme élégiaque de 1830, et que la grave et désespérante philosophie pessimiste se
+          retrouve toute entière en telles œuvres de M. Alfred de Vigny, tandis qu’Alfred de Musset
+          vit l’impertinence et la sentimentalité d’une fin de race, et que Baudelaire vient en
+          damné affirmer avec son génie furieux de fou la vie brutale et laide. Et Hugo réunit-il
+          donc à lui seul tout cela ? Synthétise-t-il cette époque d’élégie et de sentimentalité,
+          représente-t-il à lui seul ces divers tempéraments ? Et malgré l’affirmation de
+          M. Saint-Georges Lepelletier je ne crois pas encore que <quote>« <hi rend="i">le poète est
+              une pompeuse trompette</hi> ! »</quote> Donc Hugo est un, comme Vigny est un et comme
+          Lamartine.</p>
+        <p>Mon poète ? Mais tous, chacun pour son charme ou pour la joie infime retrouvée à leur
+          lecture, et mes sympathies sont tout aussi bien au poète inconnu — ou méconnu — qui chanta
+          dans la solitude de sa province lointaine, qu’à tel autre sacré dieu — ou plus. — Mais
+          puisque question il y a : <hi rend="sc">Verlaine</hi>, entre tous, Verlaine pour avoir
+          tenté et presque accompli la <pb n="106" xml:id="p106"/>synthèse poétique de la
+          philosophie de Vigny avec l’impertinente grâce de Musset. — <title>Fêtes galantes</title>
+          et <title>Poèmes Saturniens</title> — la grandiloquence de Hugo — <title>les
+          Voix</title> — et les glorieuses hontes de Villon — <title>Liturgies intimes</title> —
+          notre Verlaine enfin parce que Roi et vraiment le seul.</p>
+      </div>
+      <div>
+        <docAuthor key="Fleury, Albert (1875-1911)"/>
+        <head>Albert Fleury.</head>
+        <p>— Il est évident que <hi rend="i">toute</hi> la poésie du <num>xix<hi rend="sup"
+            >e</hi></num> siècle n’est pas. plus représentée par Hugo que par le romantisme, mais il
+          est certain que si jamais nom d’homme fut synonyme de <hi rend="i">Poète</hi>, c’est
+          celui-ci : <hi rend="i">Victor Hugo</hi>. On peut lui préférer pour des raisons
+          particulières, qui Lamartine, ou qui Verlaine, mais je ne crois point qu’on puisse nier, à
+          cause de la diversité de ses vues, de l’ampleur de son verbe, de l’énormité de sa
+          chaotique harmonie, la prépondérance en poésie du chantre de la Légende des Siècles.</p>
+        <p>Si vous nous appeliez à énoncer une simple préférence, ce serait peut-être différent,
+          mais il n’est question, n’est-ce pas, que de savoir qui a le plus souverainement
+          représenté la descendance, soit d’Orphée, soit d’Ézéchiel, soit de Jean de Pathmos ?
+          Donc : <hi rend="sc">Victor Hugo</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Fontainas, André (1865-1948)"/>
+        <head>André Fontainas.</head>
+        <p>— Je n’éprouve le besoin d’exclure aucune source d’extase ou d’émotion. L’océan sacré
+          renferme en soi toutes tes ondes tumultueuses et apaisées, mais je ne m’interdis pas de
+          rêver le long des fleuves grandioses non plus qu’auprès des torrents, des lacs silencieux
+          ou des plus humbles étangs.</p>
+        <p>Hugo universel et magnanime n’empêche pas que j’admire toujours à ses côtés et que j’aime
+          autant que lui, selon la nuance des heures et tour à tour : Vigny, Baudelaire, Leconte de
+          Lisle, Banville, Mallarmé, Verlaine, Rimbaud, Laforgue, Mikhaël, Samain…</p>
+        <p><pb n="107" xml:id="p107"/>Pouvez-vous imaginer un composé singulière ! diversement
+          mouvant de tous ces noms révérés joints à ceux de maints antérieurs comme de quelques-uns
+          qui vivent ? Vous aurez peut-être alors réuni les syllabes définitives du nom de « mon
+          Poète ».</p>
+      </div>
+      <div>
+        <docAuthor key="Fort, Paul (1872-1960)"/>
+        <head>Paul Fort.</head>
+        <p>— <hi rend="sc">Hugo</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Foulon de Vaulx, André (1873-1951)"/>
+        <head>André Foulon de Vaulx.</head>
+        <p>— Votre question m’embarrasse beaucoup. Je n’admire jamais un artiste au détriment de ses
+          égaux et je goûte souvent chez l’un le contraire de ce que je goûte chez l’autre. Les
+          maîtres que vous mentionnez dans votre lettre me sont tous chers et sacrés pour des
+          raisons diverses.</p>
+        <p>Si vous m’aviez demandé quel est selon moi le plus « grand » d’entre eux, je vous eusse
+          répondu sans hésiter Hugo. Mais vous me demandez quel est parmi eux, non celui que
+          j’admire le plus, mais celui que j’aime le mieux. Tout en sachant bien qu’il y a des
+          musiciens plus « grands » que Schumann, j’avoue cependant ma tendresse pour ce dernier
+          parce qu’il m’enveloppe, m’enserre et m’étreint plus étroitement que les autres. Bien que
+            <hi rend="sc">Musset</hi> ne me donne pas au même degré d’intensité cette impression,
+          presque physique, c’est peut-être lui qui est « mon poète » au sens où l’entend sans doute
+          votre question, c’est à dire que c’est lui qui joue le mieux avec le clavier de mes
+          sentiments. Je me rencontre dans cette opinion avec les femmes : mais cette rencontre,
+          n’est-ce pas ? ne sera jamais pour déplaire à un poète français.</p>
+      </div>
+      <div>
+        <docAuthor key="Gaubert, Ernest (1880-1945)"/>
+        <head>Ernest Gaubert.</head>
+        <p>— Sans retrancher rien d’une admiration profonde — et parfois étonnée — pour Victor Hugo,
+          je lui préfère <hi rend="sc">Alfred de Vigny</hi>. L’auteur des <title>Destinées</title>
+          me semble en effet avec Chateaubriand être le départ de toutes les routes poétiques <pb
+            n="108" xml:id="p108"/>dont Victor Hugo voulut être l’aboutissement. Et il me paraît
+          qu’on doit aimer de Vigny, pour cette dignité prudente du cœur, cette passion contenue,
+          cette ombre ardente où il se replia, et cette sincérité hautaine qui lui interdisaient la
+          gloire future des apothéoses.</p>
+        <p>Mais, à vrai dire, il est difficile, je crois, d’obtenir d’une génération de poètes qui
+          aima surtout la poésie, qu’elle fasse un choix parmi les ombres chères, de Musset,
+          Lamartine, Baudelaire, Mallarmé… (Leconte de Lisle est dans Vigny)…</p>
+      </div>
+      <div>
+        <docAuthor key="Garnier, Paul-Louis (1879-1916)"/>
+        <head>Paul-Louis Garnier.</head>
+        <p>— À une telle question quelle réponse faire qui ne soit avant tout le résultat d’une
+          inclination sentimentale étayée par des jugements plus ou moins fondés et rationnels. On
+          consent trop actuellement de considérer les artistes comme des individus auxquels un
+          talent d’inspiration et de labeur confère le droit à une autonomie rigoureuse. La pensée
+          d’un siècle, vue dans son ensemble, présuppose la synthèse des individus qui
+          l’exprimèrent ; or les artistes ne sont rien que les formes où se meut cette sève dont les
+          obscures origines ont germé dans des mouvements plus anonymes encore.</p>
+        <p>C’est dans ce sens purement extérieur qu’on peut dire d’<hi rend="sc">Hugo</hi> qu’il
+          représente une valeur esthétique plus variée, plus féconde et plus dense, de nature donc à
+          lui assurer une suprématie où tendirent avec des énergies inégales ceux qui vécurent dans
+          son temps.</p>
+      </div>
+      <div>
+        <docAuthor key="Ghéon, Henri (1875-1944)"/>
+        <head>Henri Ghéon.</head>
+        <p>— Mon poète ? Mais, presque tous, et de Laforgue à Lamartine, sans blasphème. Puis, toute
+          préférence sincère est par avance devinée et ainsi sans enseignement. J’eusse plutôt aimé
+          la question à rebours : « Quel <hi rend="i">n’est pas</hi> votre poète ? » Rien <pb
+            n="109" xml:id="p109"/>d’instructif comme une négation. Mais avec moi qui eut osé
+          répondre : Victor Hugo.</p>
+      </div>
+      <div>
+        <docAuthor key="Gide, André (1869-1951)"/>
+        <head>André Gide.</head>
+        <p>— Hugo, — hélas !</p>
+      </div>
+      <div>
+        <docAuthor key="Le Goffic, Charles (1863-1932)"/>
+        <head>Charles Le Goffic.</head>
+        <p>— J’ai raffolé de Musset à quinze ans, puis j’ai aimé tour à tour ou en même temps
+          Lamartine, Hugo, Vigny, Baudelaire, Verlaine, d’autres encore. Lequel préféré-je
+          aujourd’hui ? Je serais bien en peine de vous le dire. Et puis à quoi cela servirait-il ?
+          Les poètes, c’est comme les robes pour les femmes : il faut en avoir pour tous les temps
+          et pour tous les milieux et celui-là est le meilleur qui s’accommode le mieux à la nuance
+          passagère de votre âme.</p>
+      </div>
+      <div>
+        <docAuthor key="Grandmougin, Charles (1850-1930)"/>
+        <head>Charles Grandmougin.</head>
+        <p>— Certes Victor Hugo est le plus riche en pensées, le plus varié comme forme, le plus
+          prestigieux comme artiste. Mais il est des heures où l’on oublie un peu le Titan pour des
+          mélancoliques comme Brizeux, des maladifs comme Musset, des réalistes comme Max Buchon
+          sans compter les plus connus tels que le hongrois <hi rend="i">Petöfi</hi><note
+            resp="editor" place="bottom">[NdE] Orthographié <hi rend="i">Petoefi</hi>.</note><hi
+            rend="i"> Sandor</hi>, ce tzigane du verbe poétique. Les envolées d’âme de Lamartine
+          souvent entraînantes ne sont point non plus essors à dédaigner.</p>
+        <p>Si dans le grand banquet du Parnasse le « plat de résistance » (passez-moi le mot
+          vulgaire) est vraiment <hi rend="sc">Victor Hugo</hi>, nous n’avons pas le droit de
+          négliger certaines douceurs savoureuses, certains desserts de goût délicat qui complètent
+          le bonheur des convives.</p>
+      </div>
+      <div>
+        <docAuthor key="Gossez, Alphonse Marius (1878-1940)"/>
+        <head>A.-M. Gossez.</head>
+        <p>— Votre poète ? — Et frêles, des cahiers roses, ou mauves, ou bleus, dans les doigts des
+          jeunes filles, se tendent naïfs et jolis, gauches à réjouir l’âme douce de M. Francis
+          Jammes.</p>
+        <p><pb n="110" xml:id="p110"/>Mais voyons aux conséquences sérieuses : Que chacun se
+          reconnaisse disciple d’une école ? L’admiration pour Hugo exclut celle pour Vigny, pour
+          Laforgue ou bien Mallarmé ? Et cependant j’aime aussi Verlaine et Leconte de Lisle !</p>
+        <p>Mais en vérité savez-vous ce qui rôde en l’âme des jeunes hommes — au moins de certains —
+          à propos du « centenaire Hugo », et ce qu’a révélé l’ânerie relevée par M. de Gourmont ?
+          Le souci politique de jeunes arrivistes pour qui l’art est un moyen. N’en déplaise à
+          MM. De Miranda et de Bouhélier — je m’étonne que leur jacobinisme exaspéré ne soit point
+          allé jusqu’à châtrer leur nom ou pseudonyme de ces nobiliaires particules — et aux autres,
+          ce qui les intéresse chez Hugo, c’est d’user de son renom pour leur propre gloire
+          d’introduire « le socialisme » où il n’a que faire, dans l’art, plate imitation du Zola de
+            <title>Fécondité</title> ; digne au plus de l’humble poésie de M. Coppée.</p>
+        <p>Quand donc nos songe-creux se décideront-ils à la besogne d’améliorer le sort de la
+          classe salariée, quand se mettront-ils à l’étude de l’histoire économique et de l’économie
+          politique ? Ce sont des mots, du bafouillage, qui perdirent les républicains généreux,
+          mais niais, de 1848. Que nos jeunes socialistes lisent donc l’histoire qu’en écrivit alors
+          Karl Marx. <quote>« <hi rend="i">Donnez du pain d’abord</hi> »</quote> leur a crié un jour
+          M. Francis Vielé-Griffin. Et d’entre les ouvriers comme d’entre vous, jeunes bourgeois à
+          particules, l’un deviendra soucieux d’art et de lettres, s’il en a le loisir. Et, moins
+          stupide, celui-ci aura peut-être la sagesse de chercher et d’aimer, dans l’art, beauté des
+          formes et du geste, des couleurs et du rythme, la douceur des sentiments et la sauvage
+          grandeur du rêve ! Il n’ira point préférer un buste-en-plâtre-pour-mairie à l’éternelle
+          harmonie du monde.</p>
+      </div>
+      <div>
+        <pb n="111" xml:id="p111"/>
+        <docAuthor key="Gregh, Fernand (1873-1960)"/>
+        <head>Fernand Gregh.</head>
+        <p>— Non, sans doute, et M. Remy de Gourmont a raison de l’écrire, Hugo ne fut pas plus
+          toute la poésie du <num>xix<hi rend="sup">e</hi></num> que l’orgue n’est toute la musique.
+          Mais, comme l’orgue, Hugo fut tout un orchestre, et c’est pourquoi j’ai peut-être encore
+          plus d’admiration pour lui que pour les autres grands poètes du siècle. Il les contient,
+          et il est Hugo. Toutes les <title>Fêtes Galantes</title> par exemple, sont dans la
+            <title>Fête chez Thérèse</title>. La <title>Tristesse d’Olympio</title> est une
+          adaptation symphonique du lied lamartinien <title>le Lac</title>, etc. Et puis la question
+          est un peu étroite. Quel est mon poète ? Tous les grands à tour de rôle, quand je les lis,
+          ou quand j’y rêve.</p>
+      </div>
+      <div>
+        <docAuthor key="Guerne, André de (1853-1912)"/>
+        <head>A. de Guerne.</head>
+        <p>— La brièveté nécessaire, imposée aux réponses que vous sollicitez ne permet que la
+          simple affirmation d’un sentiment personnel, qu’il n’est possible ni de développer ni de
+          justifier. À mon sens, M. Remy de Gourmont proteste justement contre cette phrase « Hugo
+          fut toute la poésie et toute la pensée du <num>xix<hi rend="sup">e</hi></num> siècle. » La
+          question ainsi posée ne peut en effet recevoir qu’une seule réponse : non. Les autres
+          grands poètes que cite M. de Gourmont (je regrette qu’il ait omis le nom de Leconte de
+          Lisle) ont leur part magnifique et nécessaire dans l’œuvre poétique du <num>xix<hi
+              rend="sup">e</hi></num> siècle. Mais aucun ne me semble posséder à un égal degré les
+          dons de création, de vision, de variété et d’expression qui font de <hi rend="sc">Victor
+            Hugo</hi> non pas le seul, mais le plus grand Poète lyrique du dernier siècle et
+          peut-être de tous les temps.</p>
+      </div>
+      <div>
+        <docAuthor key="Herold, André-Ferdinand (1865-1940)"/>
+        <head>A. Ferdinand Hérold.</head>
+        <p>— Vous me demandez mon poète ? Je vous réponds sans hésiter : <hi rend="sc">Victor
+            Hugo</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Hirsch, Charles-Henry (1870-1948)"/>
+        <head>Charles-Henry Hirsch.</head>
+        <p>— S’il est téméraire <pb n="112" xml:id="p112"/>d’affirmer que Hugo « fut toute la poésie
+          et toute la pensée du <num>xix<hi rend="sup">e</hi></num> siècle », — il serait injuste de
+          proposer un nom, à l’exclusion du sien, pour désigner le poète prépondérant de l’époque.
+          Par l’universalité du lyrisme, — dans son œuvre poétique énorme : ses romans :
+            <title>Notre-Dame de Paris</title>, <title>Les Misérables</title>, <title>l’Homme qui
+            rit</title> ; sa critique : <title>William Shakespeare</title> ; ses drames : <title>Les
+            Burgraves</title>, <title>Hernani</title> — il occupe le premier rang. Le monde d’images
+          qu’il a créées donne le plus complet exemple de la force du génie appliqué à l’expression
+          intégrale de soi-même.</p>
+        <p>Or, l’artiste exerce une influence d’autant plus vaste qu’il consent davantage à
+          s’abstraire, au profit d’idées générales. Ce principe explique une prédilection pour
+          Baudelaire, beaucoup plus capable de s’adapter à des tempéraments très divers par son
+          intelligence précise des idées, des sensations et des mots.</p>
+        <p>L’œuvre de Victor Hugo est un musée où l’on pénètre toujours avec une émotion religieuse.
+          On y est saisi d’admiration. On en sort l’imagination éblouie par la richesse des
+          couleurs, la sonorité d’un vocabulaire surabondant et la prodigieuse variété du
+          spectacle ; — mais le merveilleux charme cesse avec le contact.</p>
+        <p>L’enseignement de Baudelaire persiste, par une continuelle répercussion de sa pensée et
+          la puissance de la forme stricte qui l’impose aux méditations.</p>
+      </div>
+      <div>
+        <docAuthor key="Jaloux, Edmond (1878-1949)"/>
+        <head>Edmond Jaloux.</head>
+        <p>— J’ai pour Victor Hugo l’admiration que tout homme lui doit, mais je lui préfère <hi
+            rend="sc">Alfred de Vigny</hi>. Hugo a possédé toute la magie et tout le prestige du
+          Mot ; Vigny, toute la grandeur et toute la sérénité douloureuse de la Pensée. Victor Hugo
+          a été, certes, un grand poète, mais il me semble que Vigny est, par excellence, le
+          Poète.</p>
+      </div>
+      <div>
+        <pb n="113" xml:id="p113"/>
+        <docAuthor key="Jammes, Francis (1868-1938)"/>
+        <head>Francis Jammes.</head>
+        <p>— Le poète qui m’émeut le plus, c’est Guy <hi rend="sc">de Maupassant</hi>
+          <hi rend="i">dans ses proses</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Joncières, Léonce de (1861-1947)"/>
+        <head>Léonce de Joncières.</head>
+        <p>— Si <hi rend="sc">Hugo</hi> ne fut pas toute la poésie du <num>xix<hi rend="sup"
+            >e</hi></num> siècle, j’estime qu’il en est la plus complète expression. Il rompit avec
+          toutes les formules surannées et la mesquine étiquette d’un style jusqu’alors prétendu
+          « noble ». Enrichissant la rime par la richesse de la pensée, rénovant ou inventant des
+          rythmes oubliés ou inconnus, tout en recherchant le mot propre, le pittoresque et la
+          couleur, il libéra enfin la poésie française des vaines entraves qui menaçaient de
+          l’étouffer et transforma totalement « l’art d’écrire en vers ». Nulle corde n’a manqué à
+          la lyre de celui qui, à la veille de mourir, put, devant la France entière, être salué, à
+          l’antique façon romaine, du nom vénérable de <hi rend="i">Père</hi> !</p>
+        <p>Quant à vous dire <hi rend="i">quel est mon poète</hi>, c’est autre chose. Vous consultez
+          un peintre qui a composé quelques poèmes… plastiques. Il a ses préférences… de peintre et
+          il pense, rêve et s’émeut devant les éblouissantes toiles de Th. Gautier et les marbres
+          splendides de Leconte de Lisle.</p>
+      </div>
+      <div>
+        <docAuthor key="Kinon, Victor (1873-1953)"/>
+        <head>Victor Kinon.</head>
+        <p>— À vrai dire, je n’ai pas de poète, aucun n’ayant écrit selon mon cœur. Mais j’admire
+          les vers de tous les vrais poètes, particulièrement ceux d’Hugo, de Musset et de Verlaine.
+            <title>La Fin de Satan</title> est le plus beau poème de la langue française ; dans les
+            <title>Nuits</title>, de Musset, le cœur humain palpite avec une intensité
+          merveilleuse ; et pourtant s’il me fallait à tout prix énoncer une préférence, je
+          désignerais <hi rend="sc">Verlaine</hi>. Certes, sa poésie, à peine littéraire, tremble et
+          trébuche, oscille entre le vagissement et le radotage sénile ; elle est l’expression
+          douloureusement fidèle du sang appauvri, des nerfs cassés, du cerveau affolé par la
+          corrosion des luxures. Mais de cette rhétorique hallucinée et malingre, émergent, <pb
+            n="114" xml:id="p114"/>çà et là, de miraculeuses strophes, suggestion des plus intimes
+          émotions, tel vers qui crépite comme un cierge devant le Saint-Sacrement, tel autre qui a
+          la suavité d’un lever de lune sur un paysage de prairies ; et les syllabes tombent, pures,
+          lumineuses, musicales, parfumées, tremblantes, — pareilles aux gouttes de rosée incendiées
+          par le matin.</p>
+        <p>Littérairement Verlaine est supérieur aux grands romantiques ; il balbutie, mais il lui
+          arrive de balbutier des choses divines. C’est pourquoi, moins grand poète, pauvre Lelian
+          est un plus grand révélateur de poésie.</p>
+      </div>
+      <div>
+        <docAuthor key="Klingsor, Tristan (1874-1966)"/>
+        <head>Tristan Klingsor.</head>
+        <p>— Assez d’écrivains, je l’espère, défendent contre l’imbécillité des cuistres
+          universitaires et des pseudo-socialos le cher et grand poète Verlaine, pour qu’il me soit
+          permis de désigner ici cet admirable <hi rend="sc">Aloysius Bertran</hi><num>d</num>, que
+          Baudelaire lui-même nomme son maître en tête de ses poèmes en prose. Et qu’on ne s’étonne
+          pas trop d’un tel choix puisque cette enquête est faite à propos du chef du romantisme.
+          Assurément, je ne prétends pas. placer Bertrand au-dessus d’Hugo, mais seulement dire que
+          ni <title>Bug-Jargal</title> ni les <title>Burgraves</title> ne m’ont procuré un plaisir
+          aussi complet que <title>Gaspard de la Nuit</title>. Qu’Aloysius Bertrand ait surtout
+          écrit en prose, cela n’importe ; ses proses ont la perfection des poèmes et cela console
+          un peu de ceux qui découpent leurs productions insipides et plates en lignes de douze
+          syllabes.</p>
+      </div>
+      <div>
+        <docAuthor key="Lantoine, Albert (1869-1949)"/>
+        <head>Albert Lantoine.</head>
+        <p>— Le journaliste, censuré par M. Remy de Gourmont, fut heureusement inspiré en écrivant
+          que « Victor Hugo fut toute la poésie et toute la pensée du <num>xix<hi rend="sup"
+            >e</hi></num> siècle ».</p>
+        <p><hi rend="sc">Victor Hugo</hi> symbolisa parfaitement ce siècle : bousculant toutes les
+          idées même les plus <pb n="115" xml:id="p115"/>antithétiques, religieux et antireligieux,
+          cocardier et méprisant la soldatesque, vulgaire et précieux, et dans tous les rythmes et
+          sur tous les modes procurant toutes les émotions, même les plus subtiles.</p>
+        <p>Victor Hugo eut même parfois le génie d’être grotesque, ce qui aurait dû rendre inutile
+          la découverte des Laforgue, des Corbière, des Rimbaud et des Stéphane Mallarmé — de ce
+          musée tératologique dont on nous exhibe les horreurs depuis plus de quinze ans.</p>
+      </div>
+      <div>
+        <docAuthor key="Lebesgue, Philéas (1869-1958)"/>
+        <head>Philéas Lebesgue.</head>
+        <p>— Ayant passé, en compagnie de plusieurs, de suaves et profondes minutes, j’hésite
+          aujourd’hui quelque peu sur le choix unique.</p>
+        <p>L’homme, d’ailleurs, est mobile, selon la vie qui l’emporte et ses sens qui le
+          renseignent. Il n’a pour diriger ses amours vers son Pressentiment que la certitude
+          passagère de ses émotions.</p>
+        <p>Je hais les cuivres ; mais quand l’âpreté des cordes expressives a cessé de rythmer
+          l’écho, je sais goûter un air de flûte ou de hautbois. Au reste les sonorités unies des
+          cordes et des bois sont pour moi le charme suprême.</p>
+        <p>L’instrument poétique dont je rêve, c’est la lyre de <hi rend="i">Lamartine</hi> accordée
+          par <hi rend="i">Vigny</hi> et que <hi rend="i">Brizeux</hi> emprunterait parfois, ou la
+          harpe de <hi rend="i">Leconte de Lisle</hi> assouplie par <hi rend="i">Verlaine</hi>, pour
+          vibrer ensuite aux doigts discrets d’<hi rend="i">Albert Samain</hi>.</p>
+        <p>Mais s’il faut à tout prix désigner celui d’entre ceux-là qui requiert en moi la plus
+          haute somme de songe intellectuel, je nomme hardiment l’auteur d’<title>Éloa</title> et de
+          la <title>Maison du Berger</title>, l’élégant et fier <hi rend="sc">Alfred de
+          Vigny</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Le Braz, Anatole (1859-1926)"/>
+        <head>Anatole Le Braz.</head>
+        <p>— « Quel est votre Poète ? » me demandez-vous. Laissez-moi vous dire que je plaindrais de
+          tout cœur ceux qui n’en auraient qu’un.</p>
+        <p><pb n="116" xml:id="p116"/>Pour moi, dans l’immense concert poétique, je ne sache pas une
+          grande voix qui ne me soit chère, et, si j’ai des préférences, je les ai, pour ainsi
+          parler, selon l’heure, c’est-à-dire mes dispositions du moment. Il y a temps pour
+          Lamartine, pour Vigny, pour Hugo, temps pour Musset, pour Baudelaire et pour Verlaine. Que
+          s’il faut cependant livrer le secret de nos propres goûts poétiques en marquant à quels
+          poètes nous devons nos émotions les plus profondes, — j’entends celles qui nous révèlent
+          tout entiers à nous-mêmes — je mettrai pour ma part, en première ligne : Lamartine et
+          Vigny ; Lamartine qui <quote>« ne sut que son âme »</quote> mais qui l’eut si riche et si
+          humaine ; Vigny, le seul poète peut-être qui ait pu donner aux songes de l’homme je ne
+          sais quelle grandeur cosmique, quel retentissement infini…</p>
+        <p>Et cela ne m’empêche point d’admirer autant que personne la magnificence d’Hugo ; mais
+          c’est déjà un autre sentiment.</p>
+      </div>
+      <div>
+        <docAuthor key="Lebey, André (1877-1938)"/>
+        <head>André Lebey.</head>
+        <p>— Il y a une sensible différence entre le poète toujours relu et celui qu’on juge le plus
+          grand. Mon choix personnel, dicté par mon plaisir et mes goûts, irait surtout à
+          Baudelaire, souvent à Lamartine ou à Vigny ; mon vote est pour Victor Hugo. — Je lui en
+          veux de son gongorisme, de sa brutalité quelquefois maladroite ; je me permets ds penser
+          sa politique au-dessous de la sottise la plus consommée, et je déplore chez lui certains
+          de ces côtés communs que Taine a seuls voulu envisager à l’exclusion des autres ; mais des
+          poèmes comme <title>Booz endormi</title>, les <title>Chevaliers Errants</title> et le
+            <title>Satyre</title>, comme l’<title>Hymne à Pégase</title> dans <title><hi rend="sc">les Chansons
+            des Rues et des Bois</hi></title>, comme <title>l’Élégie funèbre</title> de Gautier, de
+          telles pièces — choisies entre mille — contiennent un souffle, une vision, une force
+          poétiques dont aucun auteur du <num>xix<hi rend="sup">e</hi></num> siècle n’a doté les
+          lettres françaises. — Hugo <pb n="117" xml:id="p117"/>— <hi rend="sc">le père Hugo</hi> —
+          est un arbre immense, et les autres poètes sont autour de lui comme des fleurs. On peut
+          préférer les fleurs à juste titre, mais l’arbre les domine et souvent les protège de la
+          mort par l’ombre discrète dont il les rafraîchit.</p>
+      </div>
+      <div>
+        <docAuthor key="Le Cardonnel, Georges (1872-1941)"/>
+        <head>Georges Le Cardonnel.</head>
+        <p>— Si vous me demandiez quels sont mes poètes, je serais moins embarrassé. Je vous
+          répondrais : J’aime Vigny, Hugo, Lamartine, Musset, Baudelaire, Banville, Leconte de
+          Lisle, Verlaine, le Mallarmé du Parnasse, chacun pour ses qualités, sa manière
+          particulière de réagir au spectacle des choses. Je vais de l’un à l’autre selon l’heure.
+          Ils sont dans le <num>xix<hi rend="sup">e</hi></num> siècle, parmi les morts, nos poètes,
+          ceux qui me font comprendre et aimer le plus possible de la vie. On pourrait opposer, je
+          sais bien, le subjectivisme de l’un à l’objectivisme de l’autre : Lamartine à Hugo. Et
+          ainsi formuler des préférences. Mais pourquoi le feraient-ils, ceux qui, venus après tant
+          d’expériences, savent que tout est vain, hors d’être humain en demeurant un artiste ? Si
+          maintenant nous voulions assigner la première place au plus artiste de nos poètes, je
+          crois bien que c’est à Leconte de Lisle qu’il la faudrait donner. Mais il exista aussi un
+          Banville qui écrivit Erinna. Verlaine nous révéla des frissons humains inconnus. Le noble
+          Vigny rajeunit tous les jours.</p>
+        <p>Et puis, il y a ces prosateurs poètes : Chateaubriand, Flaubert, Villiers. Au-delà de
+          notre pays : Shelley, Tennyson nous appellent… et <hi rend="sc">Goethe</hi><note
+            resp="editor" place="bottom">[NdE] Orthographié <hi rend="sc">Gœthe</hi>.</note>, le
+          formidable Goethe qui exprima si puissamment l’inquiétude humaine, illumina tous ceux qui
+          le suivirent. S’il y a un « plus grand poète » l’homme qui écrivit les deux
+            <title>Faust</title>, n’est-il pas le plus grand du <num>xix<hi rend="sup"
+          >e</hi></num> siècle ?</p>
+      </div>
+      <div>
+        <docAuthor key="Le Cardonnel, Louis (1862-1936)"/>
+        <head>Louis Le Cardonnel.</head>
+        <p>— Si le plus grand poète d’un siècle est son plus grand <hi rend="i">écrivain en
+            vers</hi>, celui <pb n="118" xml:id="p118"/>qui a su enrichir des plus savants procédés
+          l’art poétique de son pays, et créé pour lui-même, comme pour ceux qui viennent après, un
+          clavier nouveau où ne manque aucune touche ; si c’est le virtuose génial, qui a réussi à
+          tirer des mots les plus diverses harmonies, nul plus que Hugo ne semble avoir droit à
+          cette gloire unique.</p>
+        <p>Mais si, comme je le crois, l’essentiel de la poésie est de dégager le Divin caché dans
+          les choses, d’être un chant pur, une flamme droite et blanche, brûlant presque sans
+          matière, une sorte de mystique Intuition de l’ineffable Unité que la création réfracte en
+          symboles, il me semble que <hi rend="sc">Shelley</hi>, malgré ses préjugés antichrétiens
+          et la vaine impiété de bien des tirades déclamatoires, a réalisé seul, dans toute sa
+          pureté, au commencement du dernier siècle, cette <hi rend="i">poésie essentielle</hi>,
+          dont tous les autres poètes que nous aimons ne semblent avoir reflété, à divers degrés,
+          que des lueurs.</p>
+      </div>
+      <div>
+        <docAuthor key="Leconte, Sébastien-Charles (1860-1934)"/>
+        <head>Sébastien-Charles Lecomte.</head>
+        <p>— Quel est mon poète ? <hi rend="sc">Hugo</hi>, précisément, parce qu’il contient tous
+          ses successeurs, non pas en synthèse, mais en puissance. En ce sens, il est <hi rend="i"
+            >panique</hi>. Et chez lui, j’admire tout, comme une brute.</p>
+      </div>
+      <div>
+        <docAuthor key="Lemoyne, André (1822-1907)"/>
+        <head>André Lemoyne.</head>
+        <p>— Victor Hugo, le clairon d’airain.</p>
+        <p>Lamartine, la grande lyre.</p>
+        <p>De Vigny, la harpe solennelle des vieux temps hébraïques.</p>
+        <p>De Musset, la viole d’amour.</p>
+        <p>Lequel préférer ? Les quatre.</p>
+      </div>
+      <div>
+        <docAuthor key="Lépine, Madeleine"/>
+        <head>Madeleine Lépine.</head>
+        <p>— Hugo, c’est la terre orgueilleuse de la force du tigre et du rhinocéros ; c’est la
+          terre enivrée qui jette au pied des montagnes <pb n="119" xml:id="p119"/>les grappes
+          violettes de raisins et les roses de pourpre et de feu ; c’est la terre qui montre
+          triomphante au soleil ses bosquets d’orangers, ses champs d’épis, et le splendide désordre
+          de ses forêts où s’entrecroisent des lianes, où des arbres puissants abritent la grâce du
+          colibri et le prudent sommeil du serpent : Hugo c’est la beauté de la Terre, mais
+          Lamartine chante comme un ange exilé : je donne ma voix à <hi rend="sc"
+          >Lamartine</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Lorrain, Jean (1855-1906)"/>
+        <head>Jean Lorrain.</head>
+        <p>— Je partage et j’approuve entièrement l’opinion émise par mon ami, M. Remy de
+          Gourmont.</p>
+        <p>Il est absolument ridicule de synthétiser toute la poésie d’un siècle dans un homme, Hugo
+          est un accident de la nature, un génie inconscient et terrible, une espèce d’éclosion,
+          d’éruption plutôt, de sève poétique et torrentiel à la façon d’un geyser et d’un volcan,
+          c’est un élémental comme Eschyle, Dante, Goethe, Wagner et Shakespeare que je préfère de
+          beaucoup (les deux derniers) à Hugo.</p>
+        <p>L’invention de Victor Hugo est le dernier puff des tréteaux de l’École Naturiste ;
+          M. Georges de Bouhélier et quelques jeunes inconnus ont trouvé le seul moyen de se faire
+          connaître ; ils ont lancé le ballon du <hi rend="i">génie de Victor Hugo</hi>, sûrs d’être
+          emportés dans la nacelle. Parbleu ! La mauvaise foi et l’idiotie de cet hommage posthume
+          sont confirmés par la présence en cette affaire de M. Catulle Mendès qui, fidèle à sa
+          vieille politique, acclame les poètes morts pour mieux étouffer les vivants. Nous nous
+          souvenons tous des salles d’exécution de jeunes organisées à l’Odéon sous la présidence de
+          M. Catulle !</p>
+        <p>Nous n’oublions pas non plus qu’il a osé comparer à Victor Hugo qui ne pouvait se
+          défendre le jeune et millionnaire, M. Edmond Rostand, seul entre tous les poètes modernes,
+          M. Catulle Mendès a proclamé M. Rostand, poète, lui le dénigreur acharné du métier de
+          Sardou !!!</p>
+        <p><pb n="120" xml:id="p120"/>Ceci dit, puisqu’il faut donner ici ses préférences, mon poète
+          est <hi rend="sc">Baudelaire</hi>, mais il m’est bien pénible de préférer ici publiquement
+          Baudelaire à Verlaine ou à Vigny.</p>
+      </div>
+      <div>
+        <docAuthor key="Loyson, Paul-Hyacinthe (1873-1921)"/>
+        <head>Paul-Hyacinthe Loyson.</head>
+        <l>S’il faut nommer celui de vous, mes blonds archanges,</l>
+        <l>Avec lequel j’ai fait le plus d’essors étranges</l>
+        <l>À travers la nuée opaque du réel</l>
+        <l>Dans l’élargissement magnifique du ciel,</l>
+        <l>Aspirant dans le gouffre où j’élançais ma tête</l>
+        <l>L’ivresse dont l’azur avive les planètes</l>
+        <l>Et de vierges désirs épandus dans les airs,</l>
+        <l>Qui se glissaient comme une musique en ma chair ;</l>
+        <l>S’il faut nommer celui des dieux dont la pensée</l>
+        <l>S’est à bouillons de pourpre en mon âme versée</l>
+        <l>Comme un vin exalté qui débordant d’ardeur</l>
+        <l>Inonde toute la poitrine du buveur</l>
+        <l>Et laisse dans la coupe une immortelle envie</l>
+        <l>D’être soi-même à tous un vin qu’on sacrifie ;</l>
+        <l>Ah ! s’il vous faut ce nom du suave et du fort.</l>
+        <l>Moi qui l’enfouissais en moi comme un trésor,</l>
+        <l>J’irai cueillir l’écume en fleur des Pacifiques,</l>
+        <l>Et le givre nouveau sur des sommets magiques,</l>
+        <l>Et la poussière en feu sur le brasier des bois,</l>
+        <l>Et les rubis de lave aux antres de l’effroi,</l>
+        <l>Puis quand le jour doré fond dans la nuit d’opale,</l>
+        <l>Mêlant tous ces joyaux aux premières étoilés</l>
+        <l>Sur le fronton d’argent du ciel immaculé.</l>
+        <l>J’en formerai ton nom miraculeux, <hi rend="sc">Shelley</hi> !</l>
+      </div>
+      <div>
+        <docAuthor key="Maeterlinck, Maurice (1862-1949)"/>
+        <head>Maurice Maeterlinck.</head>
+        <p>— Je craindrais l’homme d/un seul poète, autant que l’homme d’un seul livre. J’en compte
+          un peu plus de trente (les nommer serait trop long) qui contribuèrent, du moins je
+          l’imagine, à développer en moi un certain amour de la beauté et de l’harmonie. Victor Hugo
+          se trouve parmi eux. <pb n="121" xml:id="p121"/>Mais puisque vous demandez qu’on
+          restreigne son choix au <num>xix<hi rend="sup">e</hi></num> siècle, je vous avouerai
+          qu’Alfred de Vigny, Baudelaire, Verlaine, Mallarmé, certains Parnassiens, Rossetti,
+            Poe<note resp="editor" place="bottom">[NdE] Orthographié Poë.</note> et Robert Browning
+          eurent probablement sur moi une influence plus directe et plus profonde que celle
+          qu’exerça Victor Hugo !</p>
+      </div>
+      <div>
+        <docAuthor key="Delarue-Mardrus, Lucie (1874-1945)"/>
+        <head>Lucie Delarue-Mardrus.</head>
+        <p>— Risquer un choix entre les grands poètes serait commettre une réelle impertinence. Cela
+          reviendrait, en somme, à marquer des limites, décerner des couronnes, déposer des votes,
+          élever des statues, établir des hiérarchies et des classifications, alors que nous, ne
+          souhaitons rien de tout cela pour ceux qu’élit tour à tour notre silencieuse
+          admiration.</p>
+      </div>
+      <div>
+        <docAuthor key="Margueritte, Paul (1860-1918)"/>
+        <head>Paul et Victor Margueritte.</head>
+        <p>— Tous ceux qui parmi les poètes du siècle dernier le furent vraiment, nous sont chers,
+          de Chénier qui ouvrit le cycle à Mallarmé qui le ferma, et nous nous en voudrions d’être
+          ingrats aujourd’hui à tous nos cultes de jeunesse. Baudelaire, Vigny, Musset, Lamartine,
+          Gautier même, sans oublier Leconte de Lisle, et Banville et Verlaine, l’exquis de Nerval
+          aussi — et tant d’autres !</p>
+        <p>Mais il nous semble qu’<hi rend="sc">Hugo</hi> les domine tous comme la plus haute cime
+          une murmurante forêt.</p>
+      </div>
+      <div>
+        <docAuthor key="Marinetti, Filippo Tommaso (1876-1944)"/>
+        <head>F. T. Marinetti.</head>
+        <p>— J’aime entre tous, le poète</p>
+        <p rend="center"><hi rend="sc">Stéphane Mallarmé</hi></p>
+        <p rend="noindent">parce que, méprisant tout ce qu’il se prouva facile en des poèmes tels
+          que « <title>Les Fenêtres</title> » et « <title>Apparition</title> », il rêva de créer une
+          symphonie poétique aussi définitive et magique que celle exécutée par Richard Wagner, en
+          musique.</p>
+        <p><pb n="122" xml:id="p122"/>« <title>L’après-midi d’un Faune</title> » et
+            « <title>Hérodiade</title> », témoignages éblouissants de cet effort héroïque, sont les
+          poèmes les plus grands et les plus purs du <num>xix<hi rend="sup">e</hi></num> siècle, de
+          par leur puissance évocatrice, leur prodigieuse harmonie et leurs innombrables
+          sorcelleries verbales.</p>
+      </div>
+      <div>
+        <docAuthor key="Marlow, Georges (1872-1947)"/>
+        <head>Georges Marlow (Georges Armel).</head>
+        <p>— Vouer à un unique poète, fût-il Victor Hugo, nos multiples et diverses aspirations,
+          serait méconnaître cette sublime inquiétude et cette éternelle recherche de l’absolu qui
+          troublent en l’enchantant, l’âme humaine.</p>
+        <p>L’œuvre d’un homme ne peut jamais devenir une Bible.</p>
+        <p>Si à telles heures, l’esprit s’émerveille de la grande éloquence du poète de « <title>la
+            Fin de Satan</title> », à telles autres heures, il aimera saigner avec Baudelaire,
+          gronder avec Vigny, sourire avec Banville, sangloter avec Musset ou mêler sa chanson
+          légère à celle du subtil Verlaine.</p>
+        <p>Et c’est le chœur seul de ces voix qui le bercera dans ses voyages à travers
+          l’Infini.</p>
+      </div>
+      <div>
+        <docAuthor key="Mazel, Henri (1864-1947)"/>
+        <head>Henri Mazel.</head>
+        <p>— Gourmont a raison. L’Un n’est pas le Tout, sauf chez Parménide. Et d’autre part, les
+          six noms qu’il groupe contrebalancent, et davantage, tous les autres qu’on pourrait mettre
+          dans le plateau opposé. Quant à en choisir un, non, non, je les garde tous les six, un
+          pour chaque jour de la semaine ; d’abord le lunaire Vigny, puis le martial Hugo,
+          l’hermétique Baudelaire, le diurne Lamartine, l’amoureux Musset et le saturnien Verlaine.
+          Reste le jour d’Apollon : je le consacre à « Tous-les-autres » morts et vivants, peut-être
+          même surtout à un vivant, mais je me tais, puisque la question n’est pas posée.</p>
+      </div>
+      <div>
+        <docAuthor key="Mercier, Louis (1870-1951)"/>
+        <head>Louis Mercier.</head>
+        <p>— Mon poète… ? Ce sont <hi rend="i">mes</hi> poètes, que je puis vous désigner : Victor
+          Hugo, Lamartine, A. de Vigny, Baudelaire, Leconte de Lisle, <pb n="123" xml:id="p123"
+          />Verlaine, Heine, Shelley, et le grand poète en prose, Villiers de l’Isle-Adam, je les
+          aime tous et je les ai tous, parfois, préférés.</p>
+        <p>De l’alliage merveilleusement divers dont est fait la poésie contemporaine, Hugo, sans
+          doute, a fourni la matière la plus dense, mais d’autres, peut-être, ont apporté de plus
+          précieux métaux auxquels notre instrument devra ses sonorités les plus frémissantes.</p>
+        <p>Hugo est immense ; son œuvre est océan, mais elle n’est pas plus toute la poésie que
+          l’océan n’est tout l’Univers.</p>
+      </div>
+      <div>
+        <docAuthor key="Merlet, Jean-François-Louis (1945-1918)"/>
+        <head>J. F. Louis Merlet.</head>
+        <p>— Mon poète est <hi rend="sc">Paul Verlaine</hi>.</p>
+        <p>D’aucuns diront que je n’avais pas à justifier ce choix, mais il me paraît nécessaire de
+          noter ici pourquoi Verlaine est <hi rend="i">mon poète</hi>.</p>
+        <p>Il est pour moi une excuse à des faiblesses, je le dis sans hypocrisie et, comme une
+          indéfinissable bonté parfume l’œuvre du <hi rend="i">Pauvre Lelian</hi>, au-dessus des
+          péchés, des fautes, au-dessus d’une religiosité assez floue et peut-être facile, le poète
+          a été sincère.</p>
+        <p>Je pense que nul écrivain n’est toute la poésie d’un siècle. Il est la fleur éclatante ou
+          pâle d’un arbre auquel il a fallu des années et des années pour croître et se
+          développer.</p>
+        <p>Verlaine est proche de mon humanité, de ma mélancolie ou de ma joie. Lorsque j’ouvre un
+          livre, chaque feuillet harmonise avec charme une pensée, une heure vécue,
+          silencieusement…</p>
+      </div>
+      <div>
+        <docAuthor key="Mouquet, Jules (1878-1949)"/>
+        <head>Jules Mouquet.</head>
+        <p>— Mon poète ? — <hi rend="sc">Albert Samain</hi>. Il remplit bien les deux conditions :
+          il est du siècle et, hélas ! voici près de dix-huit mois qu’il est mort.</p>
+        <p><pb n="124" xml:id="p124"/>Pourquoi lui, plutôt que tel autre Musset, Baudelaire,
+          Mallarmé, Verlaine…, qui me sont chers également ?</p>
+        <p>Des goûts comme des couleurs on ne discute pas… Et puis ce serait trop long à expliquer ;
+          vingt-cinq lignes n’y suffiraient pas.</p>
+        <p>Vous l’avouerai-je ? l’intérêt de cette enquête — comme d’ailleurs de toutes les enquêtes
+          de ce genre — m’échappe. Que j’aime celui-ci ou celui-là, que je pense telle ou telle
+          chose, qu’est-ce que ça peut bien faire aux autres ? Pour moi, je n’ai nul souci
+          d’apprendre ce que les autres peuvent penser ou aimer en-général, et, en particulier, de
+          connaître quel est le poète de M. X… ou de M. Z.</p>
+      </div>
+      <div>
+        <docAuthor key="Muchart, Henry (1873-1954)"/>
+        <head>Henry Muchart.</head>
+        <label type="head">À VICTOR HUGO</label>
+        <lg><l>Tu présentas, brillants de gemmes et d’émaux,</l>
+        <l>De pauvres gens vêtus d’une robe de gloire,</l>
+        <l>Et, longtemps, Imposteur sublime ! tu fis croire</l>
+        <l>Que jaillissait l’idée au cliquetis des mots.</l></lg>
+        <lg><l>C’est vrai, tu ciselas de si belles amphores</l>
+        <l>Que l’eau claire, dorée à leur reflet vermeil,</l>
+        <l>Y brillait comme un vin saturé de soleil ;</l>
+        <l>Prince de l’antithèse et roi des métaphores.</l></lg>
+        <lg><l>Artiste enlumineur d’anciens contes naïfs !</l>
+        <l>Avec des vermillons, des azurs et des ocres,</l>
+        <l>Tu savais illustrer des pensers médiocres</l>
+        <l>Et prêter au vieux Faust des yeux méditatifs.</l></lg>
+        <lg><l>Mais nul ne déploya rythme plus magnifique,</l>
+        <l>Nul, mieux que toi, ne connut l’art essentiel</l>
+        <l>De marier aux sept notes de l’arc-en-ciel</l>
+        <l>Le bruit des vers et les sept notes de musique.</l></lg>
+        <lg><pb n="125" xml:id="p125"/><l>Tu peignis dans ta cathédrale à vaste nef</l>
+        <l>Le chaos ordonné de ces vivantes fresques</l>
+        <l>Où tu faisais saillir en rejets pittoresques</l>
+        <l>Un torse qui se cambre ou des bras en relief.</l></lg>
+        <lg><l>Tu sus faire chanter les flûtes pastorales</l>
+        <l>Et, lorsque tu soufflas aux conques de la mer,</l>
+        <l>Le tumulte des flots et l’ouragan amer</l>
+        <l>Vibrèrent à ton souffle en toutes leurs spirales,</l>
+        <l>Comme si quelque dieu commandait à la Mer.</l></lg>
+      </div>
+      <div>
+        <docAuthor key="Orliac, Antoine (1880-1958)"/>
+        <head>Antoine Orliac.</head>
+        <p>— Musset, Vigny, Hugo, Leconte de Lisle, Baudelaire ou Verlaine … Justifier une
+          préférence unique et marquée pour l’un d’entre eux, n’est-ce point chose hardie lorsqu’on
+          les a là, devant soi, tout entiers dans des œuvres qu’on ne s’est jamais lassé de relire,
+          dans des livres qu’on rouvre indistinctement toujours avec la même joie et, je dis plus,
+          qu’on voudrait éternellement près de son cœur. On a tant appris à les connaître et à les
+          chérir, on a tant pris pour habitude de les confondre dans un même et puissant amour qu’on
+          se fait presque un scrupule de placer l’un d’eux avant tous. Ne semble-t-il point qu’on va
+          briser d’un seul coup, comme des liens invisibles, toutes les correspondances subtiles qui
+          les relient les uns aux autres ?</p>
+        <p>Que Hugo ait synthétisé toute la poésie et surtout toute la pensée du <num>xix<hi
+              rend="sup">e</hi></num> siècle, voilà qui est fort contestable. Hugo a besoin d’être
+          complété par Baudelaire et par Verlaine. On ne peut nier toutefois qu’il ne se soit placé
+          au-dessus des autres poètes de son siècle et qu’il ne les domine simplement, sans effort
+          apparent, comme un pic domine d’autres pics.</p>
+        <p>Mais chaque heure a son état d’âme, chaque état d’âme a son poète. Si celui qui répond le
+          plus souvent au plus grand nombre de nos aspirations individuelles et de nos états d’âme
+          doit être l’élu, à <quote>« <hi rend="i">l’inlassable bourdon de cathédrale</hi> »</quote>
+          que fut Hugo, à la <pb n="126" xml:id="p126"/>cloche de génie que fut Baudelaire, cloche
+              <quote>« <hi rend="i">où des images de péché furent coulées dans le
+            métal</hi> »</quote> je préférerais pour mon propre compte, la petite cloche de cristal
+          de Verlaine, <quote>« <hi rend="i">impatiente du ciel</hi> »</quote>, vibrant
+            éperdument<note resp="editor" place="bottom">[NdE] Orthographié éperduement.</note> à
+          tous les sons sans sonorités fausses ou assourdies, en dépit des dires impudiques et
+          calomniateurs dont on s’est plu ces derniers temps à outrager ce poète.</p>
+      </div>
+      <div>
+        <docAuthor key="Payen, Louis (1875-1927)"/>
+        <head>Louis Payen.</head>
+        <p>— Non, certes, Victor Hugo ne fut pas « toute la poésie et toute la pensée » du
+              <num>xix<hi rend="sup">e</hi></num> siècle.</p>
+        <p><hi rend="i">Toute la pensée</hi> est assez bouffon ; si, au point de vue poétique, il
+          peut d’abord apparaître comme un dominateur énorme, il faut vite reconnaître qu’il y a
+          place à ses côtés pour d’autres génies.</p>
+        <p>Victor Hugo a la beauté des monstres. Fleuve vaste et impétueux, il étonne par le bruit
+          de ses eaux, par ses remous, ses tempêtes, son ardeur toujours renouvelée ; mais
+          admirez-le de loin, ne vous penchez pas trop sur lui, vous verrez bientôt que ces flots
+          sont lourds d’impureté, que tout ce bruit est vain, que les cailloux se mêlent trop
+          souvent aux perles dans cette cuve sans profondeur.</p>
+        <p>Combien <hi rend="sc">Leconte de Lisle</hi>, qui connut toutes les douleurs humaines, qui
+          les exprima dans une forme admirable de puissance et d’émotion concentrée, qui pensa
+          vraiment et dont l’apparente impassibilité fut faite de toutes les détresses éternelles,
+          me paraît mériter une plus hautaine et plus pure gloire !</p>
+      </div>
+      <div>
+        <docAuthor key="Philippe, Charles-Louis (1874-1909)"/>
+        <head>Charles-Louis Philippe.</head>
+        <p>— Victor Hugo.</p>
+      </div>
+      <div>
+        <docAuthor key="Philippe, Georges"/>
+        <head>Georges Philippe.</head>
+        <p>— Les premières <title>Méditations</title> que courbe l’angoisse de Werther et des poèmes
+          d’Ossian seront toujours mon plus sûr refuge. La mère du poète, dans le style des romans à
+          la mode <pb n="127" xml:id="p127"/>et des élégies du temps disait retrouver en ces pages
+            <quote>« la flamme du foyer bien ardent qu’elle avait dans son cœur »</quote> ; le
+          charme suranné de cet hommage est le plus pieux souvenir que je sache de l’aube
+          romantique.</p>
+      </div>
+      <div>
+        <docAuthor key="Pilon, Edmond (1874-1945)"/>
+        <head>Edmond Pilon.</head>
+        <p>— Choisir un poète entre tous les autres serait se refuser à soi-même, des plaisirs
+          différents, atténuer, de son gré, le bonheur de goûter à tout le lyrisme. Il eût fallu
+          simplement nous demander : quelle put être, dans le siècle dernier <hi rend="i">la plus
+            grande source de poésie</hi> ? Alors sérieusement, j’eus répondu : Je crois que c’est
+          Hugo…</p>
+        <p>Il a été, effectivement, cette source prodigieuse jaillie sous la forêt. Et, de toutes
+          parts, des poètes sont venus qui ont puisé à cette source, selon leur indigence. Les plus
+          riches en dons naturels ne lui ont pris que quelques ondes, à peine le creux d’un
+          coquillage ; les moins riches se sont contentés de venir avec des coupes et des amphores
+          et ils ont emporté de la source beaucoup plus d’eau ; quant aux très pauvres, accoudés au
+          rivage, ils y demeurent la bouche aux flots. Baudelaire, Verlaine, (la <title>Fête chez
+            Thérèse</title>) ont été des premiers. Aussi Mallarmé (comparer par exemple ce vers des
+            <title>Fleurs</title>) :</p>
+        <quote>
+          <l>Des avalanches d’or du vieil azur au jour</l>
+          <l>Premier…</l>
+        </quote>
+        <p rend="noindent">à celui-ci d’Hugo :</p>
+        <quote>
+          <l>Des avalanches d’or s’écroulaient dans l’azur…</l>
+          <bibl>(<title>Le Sacre de la Femme</title>, vers 8<hi rend="sup">e</hi>)</bibl>
+        </quote>
+        <p>Gautier, Banville et plusieurs autres, ont été des seconds. Quant aux troisièmes, les
+          Parnassiens, ils n’ont jamais quitté la source de leur jouvence. Nous autres nous ne nous
+          sommes pas approchés du bord aussi <pb n="128" xml:id="p128"/>près qu’eux. Aussi la belle
+          (source nous apparaît-elle <hi rend="i">de loin</hi>, sous la forêt, avec tout le torrent
+          argenté de ses belles ondes. Nous ne pensons pas qu’il en soit de plus tumultueuse et de
+          plus brillante.</p>
+      </div>
+      <div>
+        <docAuthor key="Pioch, Georges (1874-1953)"/>
+        <head>Georges Pioch.</head>
+        <p>— Mon poète serait celui que rêva sans doute Hugo en écrivant ce vers :</p>
+        <quote>
+          <l>Un poète est un monde enfermé dans un homme.</l>
+        </quote>
+        <p>Il serait la perfection de Spinoza, de Shakespeare, de Beethoven, de Rembrandt, de
+          Michel-Ange, de Bakounine et de Pasteur ; il ne résignerait jamais la révolte et ne
+          mépriserait point la bonté. Mais les termes mêmes de votre question limitent ma
+          réponse.</p>
+        <p>Nul homme n’étant l’expression intégrale d’un siècle — et c’est tant mieux, en somme,
+          pour l’humanité tout entière, qui n’a toujours que trop pâti des héros et des dieux — je
+          ne vois guère qui je pourrais appeler exclusivement mon poète en ce temps saturé de
+          journalisme. Tout grand poète est <hi rend="i">mon</hi> poète. L’ouvrier inconnu d’un seul
+          beau poème est parfois aussi <hi rend="i">mon</hi> poète. Je chéris en des talents aux
+          affirmations très espacées l’excellence de beautés admirées incomplètes chez les plus
+          grands génies. Et je suis aussi, avec confusion et piété, <hi rend="i">mon</hi> poète.
+          J’aime Vigny et j’adore Wagner ; Tolstoï — sa résignation et son déisme réfutés — me
+          semble suppléer avec avantage aux christs dont certains rêvent et qui fleurent
+          fâcheusement Gaudissart ou Edmond Lepelletier. Verlaine est souvent <hi rend="i">mon</hi>
+          poète, et Lamartine l’est parfois, quand il se relève de la chute d’un ange. Mais Hugo est
+          surtout <hi rend="i">mon</hi> poète. Dans ce monde qu’il rêva un peu vaniteusement de
+          condenser en un poète, il a valeur d’un mont lucide et couronné d’orages, d’un fleuve
+          scintillant, aux vagues de boue ; il y a aussi la valeur d’un homme. Il est formidable <pb
+            n="129" xml:id="p129"/>naturellement ; sa verbomanie, souvent pénible, est comme la
+          sueur inutile d’un géant. Car il porte, — pas très consciemment — la poésie du <num>xix<hi
+              rend="sup">e</hi></num> siècle, comme, en nos rêves d’enfants, Atlas étayait
+          l’univers. Devant la pensée de son temps, il fut comme Polyphème auprès de Galatée : il la
+          caresse avec superstition, puissance et gaucherie. Il ne l’admire jamais mieux que
+          lorsqu’il la contemple de très loin. Et rien n’est plus sublime. — Laissez-moi donc
+          répondre à votre question :</p>
+        <p rend="center"><hi rend="sc">Victor Hugo</hi></p>
+        <p rend="noindent">et vous remercier, comme lecteur et comme poète, d’avoir préalablement
+          épargné tout suffrage aux bardes vivants ; vous fîtes preuve d’indulgence et de prudence.
+          Au reste les eussiez-vous appelés au frêle panthéon de l’<title>Ermitage</title> — moins
+          fallacieux, à mon sens, que la boîte à Soufflot, — que ma réponse eût la même.</p>
+      </div>
+      <div>
+        <docAuthor key="Potez, Henri (1863-1946?)"/>
+        <head>Henri Potez.</head>
+        <p>— Je crois bien que <hi rend="sc">Victor Hugo</hi> est, en France, le poète souverain du
+              <num>xix<hi rend="sup">e</hi></num> siècle, et cela au moins autant par réflexion que
+          par enthousiasme. — Mais il n’est pas « toute la poésie du siècle », il s’en faut de
+          beaucoup. — Encore moins en est-il la pensée entière, et l’on ne saurait lui demander les
+          mêmes plaisirs qu’à Ernest Renan où à M. Lachelier par exemple.</p>
+        <p>Mais cette question est bien oiseuse. Vous avez entre les mains un beau poète. Il vous
+          ouvre une large fenêtre sur la splendeur du monde. Il vous donne l’ivresse des visions
+          éclatantes et des merveilleuses sonorités. Irez-vous lui demander ce qu’il pense du temps
+          et de l’espace, ou de l’avenir des sociétés ? Interrogez donc là-dessus votre maîtresse ou
+          votre pur-sang pendant que vous y êtes.</p>
+      </div>
+      <div>
+        <pb n="130" xml:id="p130"/>
+        <docAuthor key="Praviel, Armand (1875-1944)"/>
+        <head>Armand Praviel, directeur de l’<title>Âme Latine</title>.</head>
+        <p>— Sans oublier la puissante influence exercée par les grands romantiques, je dirai, que
+          mon poète préféré, au <num>xix<hi rend="sup">e</hi></num> siècle, est <hi rend="sc"
+            >Leconte de Lisle</hi>.</p>
+        <p>Il m’a séduit, d’abord, par son culte éperdu de l’Art, ses convictions intransigeantes,
+          sa personnalité faite d’un seul bloc, son mépris souverain de la foule et de son siècle,
+          de la popularité et du cabotinisme. Catholique, j’aime mieux cet Athée indépendant que
+          certains apostats.</p>
+        <p>À ceux qui s’étonneraient, je répondrai :</p>
+        <p>« Considérez que ce poète, peu lu et mal connu, jugé d’après ses théories étroites et
+          paradoxales, fut harmonieux comme Lamartine, profond comme Baudelaire, poignant comme
+          Musset, grave comme Alfred de Vigny et musical comme Verlaine ; songez que les
+            <title>Poèmes barbares</title> ont précédé la <title>Légende des Siècles</title> et la
+          surpassent certainement en largeur épique ; méditez enfin religieusement cette œuvre
+          parfaite, où la langue poétique n’a été maniée qu’avec ce respect sacré que possèdent
+          seuls les génies. Et alors, vous direz peut-être avec moi que, dans notre littérature, le
+          nom de Leconte de Lisle est le premier qui se doive balbutier à côté de celui du divin
+          Racine. »</p>
+      </div>
+      <div>
+        <docAuthor key="Querlon, Pierre de (1880-1904)"/>
+        <head>Pierre de Querlon.</head>
+        <p>— Est-il bien vrai que Victor Hugo soit <hi rend="i">orgue</hi> et non pas <hi rend="i"
+            >violon</hi> ? Il me semble qu’il est toutes sortes <hi rend="i">d’instruments de
+            musique</hi> ; et je voterais pour lui s’il s’agissait d’élire un <hi rend="i"
+            >homme-orchestre</hi>. Mais tel n’est pas votre but.</p>
+        <p>« Mon poète », j’ai une grande difficulté à vous le nommer. C’est, en général, celui que
+          je lis pour rêver ; je songe et il dit les paroles : mon esprit et ses vers s’identifient.
+          Il s’appelle tantôt Jean M…, tantôt Charles G…, tantôt Francis J…, et parfois il a un nom
+          tout à fait inconnu ; mais je ne puis imaginer un instant qu’il ait vécu en un autre temps
+          que le <pb n="131" xml:id="p131"/>mien. J’admire Vigny, Lamartine, Hugo, Musset,
+          Baudelaire, et d’autres ; mais ni l’un ni l’autre n’est « mon poète ». J’approuve qu’on
+          ait mis leur statue sur des places publiques ; mais je ne souffrirais pas leur buste dans
+          mon cabinet, sur ma table de travail, à côté de la photographie de ma bonne amie.</p>
+        <p>Tous ceux-là je les lis <quote>« comme des anciens grecs, latins, classiques en
+            général »</quote>, donc, peut-être, je lis <quote>« comme un vivant »</quote> celui-ci :
+            <hi rend="sc">Verlaine</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Rambosson, Yvanhoé (1872-1943)"/>
+        <head>Yvanhoë Rambosson.</head>
+        <p>— Il est difficile de répondre à votre question. Mon poète ? Je n’en ai pas au sens où
+          vous l’entendez. Mon poète, c’est un être imaginaire et colossal, puissant et doux, en
+          lequel se résument l’universelle bonté, le lyrisme total et toutes les supériorités
+          humaines et littéraires dont Lamartine, Hugo, Musset, Vigny, Gautier, Leconte de Lisle ont
+          reflété quelques rayons.</p>
+        <p>Peut-être, Baudelaire et Verlaine sont-ils plus près de notre âme ? Cela ne veut pas dire
+          qu’ils soient plus grands. C’est qu’ils ont éveillé dans la poésie moderne une Muse
+          nouvelle qui dormait depuis toujours, Belle au Bois-Dormant du rêve, dans la forêt
+          ténébreuse des rythmes<note resp="editor" place="bottom">[NdE] Orthographié
+            rhythmes.</note> et des rimes, et qu’avec son charme neuf, mystérieux encore, aussi
+          indéfini qu’ensorceleur, la Muse récente nous apparaît plus tentante et plus fatalement
+            <hi rend="i">maîtresse</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Rameau, Jean (1859-1942)"/>
+        <head>Jean Rameau.</head>
+        <p>— Hugo, Hugo, et encore Hugo !</p>
+        <p>J’ose penser que dans le plus mauvais livre de Victor Hugo, il y a des vers supérieurs
+          aux plus beaux des autres poètes.</p>
+        <p>Et j’ose penser que, si toutes les œuvres des autres poètes étaient détruites, la France
+          aurait encore, en conservant celles du seul Hugo, une moisson poétique aussi admirable que
+          celle de n’importe quelle nation.</p>
+      </div>
+      <div>
+        <docAuthor key="Raynaud, Ernest (1864-1936)"/>
+        <head>Ernest Raynaud.</head>
+        <p>— Votre question limitée aux poètes morts (et français, n’est-ce pas !) du <num>xix<hi
+              rend="sup">e</hi></num> siècle m’embarrasse fort, mes sympathies étant retenues
+          ailleurs, mais il m’agrée de répondre par ces quelques mots à ce qui m’apparaît comme la
+          plus pressante de vos préoccupations. Laissant de côté la séduisante erreur romantique,
+          dont l’esprit latin commence à se délivrer avec peine, je salue la noble figure du poète
+            <hi rend="sc">Écouchard Lebrun</hi> qui fut le maître et l’inspirateur d’André Chénier
+          et qui vécut assez pour conduire les Muses grecques à la cour de Bonaparte. Celui qui a
+          dit de Victor Hugo qu’il résumait à lui seul la poésie du <num>xix<hi rend="sup"
+            >e</hi></num> siècle a sans doute entendu marquer par là, d’une façon ironique et
+          piquante, qu’il avait passé sa vie à démarquer le système de ses plus illustres
+          contemporains. C’est l’esprit de Walter Scott, de Casimir Delavigne, de Ducis qui a
+          inspiré les « <title><hi rend="i">Odes et Ballades</hi></title> » et les « <title><hi rend="i">Orientales</hi></title> » ; l’esprit de Sainte-Beuve anime
+          les « <title><hi rend="i">Feuilles d’Automne</hi></title> », celui de Leconte de Lisle respire dans la « <title><hi rend="i">Légende des
+          Siècles</hi></title> » et Théophile Gautier a fourni la formule des « <title><hi rend="i">Chansons des rues et des bois</hi></title> ».
+          Je ne m’embarrasse pas d’avouer d’ailleurs que le Maître en les copiant, a souvent fait
+          pâlir ses modèles. De cette façon il résumerait à peu près son siècle s’il n’avait laissé
+          de côté (impuissance ou dédain) l’émotion de Lamartine, l’ironie de Musset, la fierté
+          hautaine de Vigny, la joie païenne de Banville, la sensualité mystique de Baudelaire.</p>
+        <p>Sa mise en œuvre exclusive des idées de la Révolution dont la banqueroute est prochaine,
+          son manque de sensibilité, son optimisme têtu l’éloignent de plus en plus des jeunes
+          esprits que travaillent les inquiétudes de l’heure présente et qui se montrent davantage
+          hospitaliers aux poèmes d’un Laforgue, d’un Verlaine, d’un Corbière, d’un Rimbaud dont la
+          blague fiévreuse ou l’apaisement triste, par leur outrance délicieuse, ont préparé les
+          voies à une renaissance classique.</p>
+        <p><pb n="133" xml:id="p133"/>Certes Victor Hugo fut illustre, mais si l’on mesure le génie
+          à la force des acclamations populaires, il faut lui égaler Népomucène Lemercier et l’abbé
+          Delille à qui les pouvoirs publics firent en 1813 de si imposantes funérailles et puisque
+          ma lettre vous parviendra à cette époque de l’année où il est d’usage de formuler des
+          vœux, laissez-moi goûter la douceur de celui-ci : c’est que le plus grand poète du
+              <num>xix<hi rend="sup">e</hi></num> siècle soit encore inconnu comme il advint d’André
+          Chénier, le plus grand poète du <num>xviii<hi rend="sup">e</hi></num> siècle, qui ne fut,
+          qu’au cours du siècle suivant, révélé à l’admiration des hommes.</p>
+      </div>
+      <div>
+        <docAuthor key="Retté, Adolphe (1863-1930)"/>
+        <head>Adolphe Retté.</head>
+        <p>— Mon poète, c’est <hi rend="sc">Victor Hugo</hi>. Non pas que je l’admire exclusivement,
+          mais parce qu’il est le poète du <num>xix<hi rend="sup">e</hi></num> siècle qui a su
+          émouvoir le plus d’hommes. Les esprits cultivés l’admirent pour certaines parties de son
+          œuvre, la foule pour des vers tels que ceux-ci :</p>
+        <quote>
+          <l>Oh ! la croix de ton père est là qui te regarde,</l>
+          <l>La croix du vieux soldat mort dans la vieille garde…</l>
+          <bibl>(<title>Regard jeté dans une mansarde</title>).</bibl>
+        </quote>
+        <p>Et les lettrés comme la foule ont raison.</p>
+        <p>Mais je l’aime surtout parce que, comme l’a très bien dit de Gourmont, il est une force
+          naturelle ; quand je le lis j’ai l’impression d’entendre les vents gronder et chanter dans
+          les ramures d’une forêt éternelle. Or nul autre ne m’a donné, au même degré, cette
+          impression.</p>
+        <p>Comme « Penseur » il est contestable. Mais comme rêveur il est incomparable et cela
+          suffit.</p>
+        <p>Donc : Vive à jamais le Père Hugo.</p>
+      </div>
+      <div>
+        <docAuthor key="Rictus, Jehan (1867-1933)"/>
+        <head>Jehan Rictus.</head>
+        <p>— Je suis bien de l’avis de Monsieur Remy de Gourmont en ce qui concerne Victor Hugo.</p>
+        <p><pb n="134" xml:id="p134"/>Je pensais que la terreur hugolâtre avait cessé de régner. Il
+          n’en est rien, paraît-il. Je le déplore. Selon moi, Baudelaire a écrit les plus beaux vers
+          de la langue française et je le préfère à Victor Hugo. <hi rend="sc">Baudelaire</hi> est
+          l’anneau qui relie et continue la chaîne des Poètes Français qui part d’Eustache Deschamps
+          pour aboutir à Verlaine en passant par Villon, Ronsard, La Fontaine et Musset.</p>
+        <p>Victor Hugo, plus orateur que poète, à mon humble avis, semble trouver sa verve dans une
+          inspiration castillane, magnifique certes, mais combien prudhommesque<note resp="editor"
+            place="bottom">[NdE] Orthographié prud’hommesque.</note> et solennelle. D’ailleurs
+          j’exècre la quincaillerie de son théâtre que M. Rostand s’obstine à nous restituer avec
+          tant d’originalité.</p>
+      </div>
+      <div>
+        <docAuthor key="Des Rieux, Lionel (1870-1915)"/>
+        <head>Lionel des Rieux.</head>
+        <p>— Vous avez défendu qu’on votât pour aucun poète vivant. Vous avez eu grand tort :
+          j’eusse voté pour vous, veuillez le croire, si vous m’aviez simplement promis de voter
+          pour moi. Mais il manque, même à Mistral, d’être mort pour qu’on soit libre de le
+          proclamer immortel. Et nous pouvons, n’est-ce-pas ? nous tenir contents d’une telle
+          compensation.</p>
+        <p>Une autre de vos conditions gênera le plus grand nombre des électeurs : « il ne doit
+          s’agir, leur dites-vous, que du <num>xix<hi rend="sup">e</hi></num> siècle ». Et les voilà
+          empêchés d’élire M. Edmond Rostand puisque (par un contretemps qu’on ne peut trop
+          déplorer) ce malheureux poète n’a été tué par l’impératrice de Russie qu’en
+          septembre 1901.</p>
+        <p>Ayant écrit et étant morts dans les délais par vous fixés je ne vois (presque tout le
+          reste n’est pas littérature) que quatre ou cinq poètes romantiques. Lequel est le plus
+          grand ? Cela dépend du hasard des pages. Cela peut varier au gré des heures. J’incline
+          cependant à croire que, sans même en excepter le <title>Lac</title>, le plus admirable des
+          poèmes de cette école est la <title>Maison du Berger</title>.</p>
+      </div>
+      <div>
+        <pb n="135" xml:id="p135"/>
+        <docAuthor key="Riotor, Léon (1865-1946)"/>
+        <head>Léon Riotor.</head>
+        <p>— Mon poète n’est peut-être pas toute la poésie et la pensée du <num>xix<hi rend="sup"
+              >e</hi></num> siècle.</p>
+        <p>Mais il parle à mon cœur, il vibre à l’unisson de mes douloureuses pensées. C’est une
+          lyre lointaine et triste, parfois amère. Elle me vient des confins du monde pour émouvoir
+          mes solitaires songeries.</p>
+        <p>Et peu m’importe qu’il y ait plus lyrique, ou plus historique, ou plus humain. L’harmonie
+          de nos deux <hi rend="i">âmes</hi> évoque toute l’harmonie.</p>
+        <p>Celui-là, c’est <hi rend="sc">Charles Baudelaire</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Rivoire, André (1872-1930)"/>
+        <head>André Rivoire.</head>
+        <p>— Non, certes, Hugo ne fut pas toute la poésie, ni, encore bien moins, toute la pensée du
+              <num>xix<hi rend="sup">e</hi></num> siècle. Il en fut, comme il l’a dit lui-même,
+            <quote>« l’écho sonore »</quote>. Il fut, en cela seulement, le poète universel,
+          ramassant en son œuvre innombrable l’inspiration de tous les autres. Il fut un prestigieux
+          virtuose, mais ce sont les mots qu’il a fait chanter bien plus que sa pensée et que son
+          cœur.</p>
+        <p>Vous me demandez quel est mon poète. Comment vous répondre ? On n’a pas un poète ; on a
+          tous les poètes, tour à tour, selon les années, selon les soirs. Pourtant si l’on cherche
+          le poète vraiment <hi rend="i">nouveau</hi>, l’homme de pensée du <num>xix<hi rend="sup"
+              >e</hi></num> siècle, il me semble bien, quant à moi, qu’on le trouverait, plus
+          qu’ailleurs, dans vingt pages d’<hi rend="sc">Alfred de Vigny</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Rouger, Henri (1865-19..)"/>
+        <head>Henri Rouger.</head>
+        <p>— Victor Hugo.</p>
+      </div>
+      <div>
+        <docAuthor key="Rollinat, Maurice (1846-1903)"/>
+        <head>Maurice Rollinat.</head>
+        <p>— Les grands poètes n’appartiennent pas à telle ou telle nation, mais à l’Humanité toute
+          entière : si donc j’aime et j’admire passionnément lord Byron, Lamartine et Baudelaire, il
+          n’y a vraiment que le surnaturel <hi rend="sc">Edgard Poe</hi> qui soit le sorcier de mes
+          songes, le cher démon familier de ma tristesse et de ma solitude !</p>
+      </div>
+      <div>
+        <pb n="136" xml:id="p136"/>
+        <docAuthor key="Roidot, Prosper (1878-1959)"/>
+        <head>Prosper Roidot.</head>
+        <p>— De Gourmont a mille fois raison. De telles synthèses sont aussi hardies qu’inexactes.
+          L’œuvre de Victor Hugo est un document de la pensée et de la poésie du siècle dernier,
+          — ce n’en est ni toute la pensée ni toute la poésie. Ce siècle, qui assista à une si
+          admirable montrée d’idées et de sentiments, n’eut pas (quel siècle l’eut positivement
+          d’ailleurs) ce poète essentiellement et totalement interprète de son immense et diverse
+          vitalité.</p>
+        <p>Toutes les œuvres de tous les poètes, de Lamartine à Rimbaud, de de Vigny à Mallarmé,
+          soit — une œuvre ; un poète — non. En vérité la tâche était trop lourde pour une seule
+          volonté, fût-ce celle d’Hugo. Tout ceci m’inquiète peu, au reste, dans la sélection d’un
+          poète. J’ignore si <hi rend="sc">Mallarmé</hi> a ou n’a pas imprimé dans son œuvre la
+          marque d’un siècle dont il se soucia peu, — mais je le désigne comme ayant laissé une
+          œuvre hautaine, harmonieuse, gonflée de pures pensées — digne de gloire et
+          d’immortalité.</p>
+      </div>
+      <div>
+        <docAuthor key="Rouquès, Amédée (1873-1935)"/>
+        <head>Amédée Rouquès.</head>
+        <p>— Vous voulez bien, à propos des lignes de M. Remy de Gourmont dans le <title>Mercure de
+            France</title>, me demander de vous désigner pour le <num>xix<hi rend="sup"
+          >e</hi></num> siècle « mon poète ». Vous spécifiez d’ailleurs qu’aucun poète vivant ne
+          doit être désigné.</p>
+        <p>Je ne croirais pas pouvoir observer cette réserve si le nom d’un vivant s’imposait
+          réellement à moi. Mais je suis en fait bien libre, et il vivrait encore, que c’est <hi
+            rend="i">Hugo</hi> que je vous nommerais. Je ne prétends pas que ce nom à lui seul
+          signifie « toute la poésie » du siècle dernier. Aucun homme ne me semble du reste avoir
+          résumé en lui toute la pensée, tout l’art, toute la poésie d’une époque ni d’une race.
+          Racine ne nie pas Corneille, et Schiller fut parfois plus grand que Goethe. Il y a des
+          poèmes d’amour de <pb n="137" xml:id="p137"/>Musset, de douleur de Baudelaire, des
+          élévations philosophiques de Vigny ou de Leconte de Lisle, des frissons de sensibilité
+          moderne de Verlaine ou de Samain dont je ne trouve pas l’équivalent dans Hugo. Mais quelle
+          œuvre plus vaste, plus haute, plus complète opposer en ce siècle à celle de <hi rend="sc"
+            >Hugo</hi> ?</p>
+        <p>Quand vingt préférences contradictoires, selon les affinités et les sympathies
+          personnelles, se seront affirmées avec enthousiasme et intransigeance, je ne doute pas
+          qu’une belle unanimité décerne au poète des <title>Châtiments</title>, de la
+            <title>Légende des Siècles</title>, des <title>Contemplations</title> et de la
+            <title>Fin de Satan</title> un « second rang » d’honneur, et c’est cette conviction
+          surtout que je voudrais exprimer en le mettant respectueusement dans mon admiration, au
+          premier.</p>
+      </div>
+      <div>
+        <docAuthor key="Sabatier, Antoine (1854-1937)"/>
+        <head>Antoine Sabatier.</head>
+        <p>— « Hugo fut toute la poésie et toute la pensée du <num>xix<hi rend="sup"
+          >e</hi></num> siècle. » J’observe aussitôt que la phrase n’est pas une. Elle contient une
+          double affirmation ; et l’on ne doit pas confondre les deux termes : poésie, pensée. Le
+          journaliste morigéné, et M. Remy de Gourmont qui tient la férule, me semblent cependant
+          commettre l’erreur. Or, tout le débat porte sur cette distinction première.</p>
+        <p>Je crois bien en effet que Hugo représente à peu près la pensée humaine au <num>xix<hi
+              rend="sup">e</hi></num> siècle, en ce sens qu’il a fait vibrer toutes les cordes d’une
+          lyre ; mais cette lyre était la sienne. Il n’est pas toute la poésie, parce qu’il ne
+          pouvait être toutes les lyres. Avec une poésie adéquate à leur âme, d’autres merveilleux
+          chanteurs ont sur des modes différents joué d’instruments véritablement personnels. Si
+          l’on suppose un thème imposé, quelles partitions originales auraient signées ces aèdes,
+          Vigny, Lamartine, Musset, Baudelaire, Verlaine, etc. ! Sur une trame, sur une pensée
+          identique ; quelles ondoyances du dessin d’art ! quelles variétés du rythme et de la
+          broderie poétique ! Au <pb n="138" xml:id="p138"/>surplus il n’est pas de pensées neuves.
+          Être soi, en orpaillant à son gré des pensées communes, c’est la seule ambition permise et
+          réalisable. Buvant l’ambroisie ou mâchant le foin coutumier, les âmes heureusement sont
+          multiples, feuilles ou grains de sable.</p>
+        <p>À mon usage, j’adore Vigny pour son orgueil et son élégance, Musset et Verlaine pour leur
+          souffrance, Hugo pour ses fureurs divines, mais Lamartine me fait dormir.</p>
+      </div>
+      <div>
+        <docAuthor key="Saint-Georges de Bouhélier (1876-1947)"/>
+        <head>Saint-Georges de Bouhélier.</head>
+        <p>— Que <hi rend="sc">Victor Hugo</hi>, l’emporte sur tous ses rivaux du <num>xix<hi
+              rend="sup">e</hi></num> siècle c’est, selon moi, incontestable, et l’expression me
+          manque pour définir, sans longueur, l’exceptionnel esprit qui n’a cessé de répandre avec
+          une profusion miraculeuse, pendant plus de soixante ans, les plus magnifiques joyaux dont
+          se soit jamais enrichi notre art français.</p>
+      </div>
+      <div>
+        <docAuthor key="Saisset, Frédéric (1873-1953)"/>
+        <head>Frédéric Saisset.</head>
+        <p>— Mon poète préféré est <hi rend="sc">Charles Baudelaire</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Sansot, Edward (1864-1926)"/>
+        <head>E. Sansot-Orland.</head>
+        <p>— Il m’est impossible, dans les termes où elle pose, de satisfaire à votre intéressante
+          enquête. J’ai vainement cherché — c’est dire que je ne n’avais pas d’avance trouvé — parmi
+          les défunts poètes du siècle écoulé, celui qui put vraiment réunir les qualités qui je
+          prédilecte : sentiment de la nature, émotion humaine, clarté, simplicité et harmonie
+          verbales. J’ai attendu, jusqu’à la dernière heure, pour vous adresser ma réponse dans
+          l’éventualité — non dans le désir — que fût dans cet extrême délai, par un imprévu trépas,
+          rayé du nombre des vivants, l’un de mes plus chers parmi les poètes qu’afflige encore le
+          mal de vivre. Ne pouvant, d’autre part, franchir la barrière antérieure du siècle écoulé,
+            <pb n="139" xml:id="p139"/>pour aller au déclin du dix-huitième, quérir André Chénier et
+          vous le présenter avec le bénéfice de ma sympathie, c’est un bulletin blanc que je dois
+          déposer dans votre urne.</p>
+      </div>
+      <div>
+        <docAuthor key="Scheffer, Robert (1863-1926)"/>
+        <head>Robert Scheffer.</head>
+        <p>— Lamartine a écrit quelque part — je cite de mémoire : <quote>« Victor Hugo est un grand
+            artiste ; pour moi je ne suis qu’un poète. »</quote> C’est très juste. <hi rend="sc"
+            >Lamartine</hi> est <hi rend="i">le</hi> poète. C’est mon poète. Ensuite, s’il faut
+          faire un choix entre plusieurs préférences : Leconte de Lisle, qui est le
+          poète-philosophe, et aux heures de crépuscule, Verlaine, ce musicien.</p>
+      </div>
+      <div>
+        <docAuthor key="Segard, Achille (1872-1936)"/>
+        <head>Achille Segard.</head>
+        <p>— L’homme qui exerça sur ma jeunesse une influence prépondérante fut le Titan Victor
+          Hugo. Et cependant je demeure fidèle au culte de <hi rend="sc">Verlaine</hi>, au Verlaine
+          de la <title>Bonne Chanson</title>, de <title>Sagesse</title>, de <title>Fêtes
+            galantes</title> et des <title>Romances sans paroles</title>.</p>
+        <p>Malgré la sensibilité charmante des premiers livres de Sully Prudhomme<note resp="editor"
+            place="bottom">[NdE] Orthographié Sully-Prud’homme.</note>, et la sereine beauté des
+          sonnets de Heredia<note resp="editor" place="bottom">[NdE] Orthographié Hérédia.</note>,
+          malgré le lyrisme de Vielé-Griffin dans les poèmes que je comprends, la tenue d’art des
+          livres d’Henri de Régnier, l’emportement magnifique de Verhaeren, la mélancolie de
+          Rodenbach et la délicatesse pénétrante d’Albert Samain, malgré la belle impeccabilité de
+          Moréas, dans le petit Panthéon que je m’étais construit nul poète n’a pris la place ou
+          trônèrent successivement Hugo, Musset, le divin Lamartine et Verlaine qui ne marcha pieds
+          nus comme les dieux que parce qu’il était de la race des Immortels 1 !</p>
+      </div>
+      <div>
+        <docAuthor key="Séverin, Fernand (1867-1931)"/>
+        <head>Fernand Séverin.</head>
+        <p>— Je suis, je l’avoue, très embarrassé de répondre à votre question, que je ne m’étais
+          jamais posée jusqu’à présent. Quand je lis la <pb n="140" xml:id="p140"/><title>Maison du
+            Berger</title>, mon poète est Vigny, quand je lis <title>Dies iræ</title>, c’est Leconte
+          de Lisle, quand je lis <title>Bénédiction</title>, c’est Baudelaire. Et Hugo, et
+          Lamartine, et Musset, et Verlaine lui-même, et d’autres poètes moins illustres ont tour à
+          tour été <hi rend="i">mon poète</hi>, sans qu’aucun d’eux ait réussi à le rester, pas même
+          Hugo, surtout pas Hugo.</p>
+        <p>Peut-être donnerais-je la palme à Alfred de Vigny, tout pénible et court d’haleine qu’il
+          puisse être, pour quelques vers, singulièrement sincères, profonds et humains qu’il a
+          écrits dans ses moments heureux et pour l’admirable attitude qu’il a gardée dans toute sa
+          vie. Mais peut-être me suffirait-il de lire quelques pages d’un autre poète, Leconte de
+          Lisle par exemple, pour changer d’avis.</p>
+      </div>
+      <div>
+        <docAuthor key="Souchon, Paul (1854-1923)"/>
+        <head>Paul Souchon.</head>
+        <p>— Mon poète et, à mon sens, le seul vrai poète du <num>xix<hi rend="sup"
+          >e</hi></num> siècle, c’est <hi rend="sc">Lamartine</hi>. Hugo écrit, mais Lamartine
+          chante. C’est l’âme la plus naturellement poétique des temps modernes avec Byron, Shelley,
+          Ronsard, Le Tasse.</p>
+      </div>
+      <div>
+        <docAuthor key="Souza, Robert de (1865-1946)"/>
+        <head>Robert de Souza.</head>
+        <p>— Certes cette question est habituelle et même, pour les raisons qui l’ont provoquée,
+          légitime ; elle n’en est pas moins surannée.</p>
+        <p>Les petites jeunes filles quotidiennes qui nous la posent ne se doutent point qu’on ne
+          peut être vraiment poète si l’on est en état d’y répondre.</p>
+        <p>L’idée qui grandit chaque jour en nous de l’art comme de la science nous rend presque
+          déshonnête — vis-à-vis non des poètes, mais de la poésie — la pensée d’un choix. Il n’a
+          jamais existé d’artiste, de savant, totalement représentatif (n’eût-ce été que pour son
+          époque) de la science ou de l’art — de <hi rend="i">son</hi> art ou de <hi rend="i"
+            >sa</hi> science.</p>
+        <p>Malheureusement les poètes, en majorité <pb n="141" xml:id="p141"/>aujourd’hui
+          politiciens de leur art, sont loin d’avoir atteint au scrupule des savants. M. Berthelot
+          ne se croit pas toute la chimie. Les hommages qu’on vient de lui rendre n’en ont été que
+          plus nobles et souverains. Concentrer en Hugo toute la poésie du <num>xix<hi rend="sup"
+              >e</hi></num> siècle ! (je ne retiens pas « et toute la pensée » pur non-sens
+          redondant) quelle chose monstrueuse, rabaissante pour le génie même du poète et pour
+          toutes les inventions admirables, mais justement, intensément <hi rend="i">partielles</hi>
+          dont il a surhaussé la poésie !…</p>
+        <p>Aux siècles passés, la question s’expliquait : <hi rend="i">Quel est votre poète</hi> ?
+          elle n’est qu’un souvenir atavique, déformé aujourd’hui, du temps où le poète était, avec
+          l’astrologue, le fou et le majordome, de la domesticité des princes. On avait son poète
+          comme on peut avoir encore son médecin ou son bottier. Mais pour l’aube qui se lève, c’est
+          pénible et trouble que la manière dont la manifestation prochaine a été fomentée comme par
+          des acteurs qui cherchent leurs gestes — et des gestes qui plaisent aux « maîtres ».</p>
+      </div>
+      <div>
+        <docAuthor key="Trarieux, Gabriel (1870-1940)"/>
+        <head>Gabriel Trarieux.</head>
+        <p>— Par ces mots : Quel est votre poète ? vous voulez désigner, je pense, non le plus grand
+          à notre avis (ce serait Hugo sans aucun doute) mais celui qui exprime le mieux l’idéal
+          intime, l’humeur, la sensibilité de tel d’entre nous. En ce sens je réponds : <hi
+            rend="sc">Alfred de Vigny</hi>.</p>
+      </div>
+      <div>
+        <docAuthor key="Varenne, Marc (1877-1968)"/>
+        <head>Marc Varenne.</head>
+        <p>— Je n’ai pas de poète préféré, je les aime tous. Savoir prendre l’ouvrage qui
+          s’harmonise bien avec notre état d’esprit, là gît le secret de trouver agréable la lecture
+          de poèmes divers.</p>
+        <p>Il est des heures, par exemple, que je passe avec Racine, d’autres où je feuillette
+          Lamartine et Musset, il est des moments où j’ouvre un Ronsard, il en est aussi où me
+          plaisent Rodenbach, Samain et Verlaine <pb n="142" xml:id="p142"/>et nombreux sont les
+          instants que je consacre à nos grands poètes d’oc disparus, Jasmin, Aubanel et Félix
+          Gras.</p>
+      </div>
+      <div>
+        <docAuthor key="Vandeputte, Henri (1877-1952)"/>
+        <head>Henri Vandeputte.</head>
+        <p>— Le journaliste attaqué par M. de Gourmont s’est mis le doigt dans l’œil, et
+          certainement la présente consultation le lui prouvera. Hé ! c’est un peu abuser d’un
+          siècle que de le verser ainsi, en une fois, tout entier, dans la poche d’un grand homme,
+          et puis dire : « N’en parlons plus ! Vive le grand homme. »</p>
+        <p>C’est toujours la légende propagée par les parnassiens et les autres pasticheurs
+          d’Hugo.</p>
+        <p>Quel est mon poète ?</p>
+        <p>Chénier, Hugo, Lamartine, Vigny, Desbordes, Leconte de Lisle, Baudelaire, Verlaine,
+          Corbière, Laforgue, Mallarmé, et quelques autres.</p>
+        <p>Mais s’il fallait absolument choisir, puérilement, comme pour une élection :</p>
+        <p>À Lamartine je donnerais le spectre poétique de la première moitié de mon dix-neuvième
+          siècle ; celui de la seconde à Mallarmé.</p>
+      </div>
+      <div>
+        <docAuthor key="Vanor, Georges (1865-1906)"/>
+        <head>Georges Vanor.</head>
+        <p>— <hi rend="sc">Victor Hugo</hi> et <hi rend="sc">Stéphane Mallarmé</hi> se partagent la
+          souveraineté poétique de toutes les époques et de toutes les régions ; ils sont toute la
+          poésie du monde comme Joseph Reinach en est toute l’horreur.</p>
+      </div>
+      <div>
+        <docAuthor key="Verhaeren, Émile (1855-1916)"/>
+        <head>Émile Verhaeren.</head>
+        <p>— Personne n’est toute la poésie ni toute la pensée de son siècle. Ni Dante, ni
+          Shakespeare, ni Rabelais, ni Goethe.</p>
+        <p>Dire qu’Hugo fut toute la pensée et toute la poésie du sien n’est qu’un raccourci violent
+          forgé par l’impérieux besoin de généralisation — j’allais écrire <pb n="143" xml:id="p143"
+          />d’injustice —que tout cerveau humain détient comme le plus infaillible moyen de se
+          tromper.</p>
+        <p>Et néanmoins il ne me répugne point d’admettre un tel jugement et je ne le veux ronger ni
+          de restrictions ni de réserves, convaincu que tout autre renfermerait une dose quasi
+          équivalente d’erreur.</p>
+        <p>Vous me demandez quel est mon poète. Sans hésiter je réponds que c’est lui : <hi
+            rend="sc">Hugo</hi>. Certes j’admire Vigny, Lamartine, Musset, Baudelaire, Verlaine. Ils
+          occupent chacun une avenue de mes enthousiasmes. Hugo les occupe toutes — mêmes les
+          leurs.</p>
+        <p>Son ombre ou sa clarté les visite et sa statue haute et large domine en outre le
+          carrefour où toutes aboutissent.</p>
+      </div>
+      <div>
+        <docAuthor key="Vielé-Griffin, Francis (1864-1937)"/>
+        <head>Francis Vielé-Griffin.</head>
+        <p>— Il m’est difficile de vous répondre autrement qu’en vous désignant mes lectures
+          favorites ; je vous les révèle, pour faire acte de bonne volonté : je relis donc de
+          préférence Vigny, Lamartine, Verlaine et Laforgue ; mais je ne m’interdis pas les mauvais
+          poètes dont je suis particulièrement friand. Seuls les médiocres, ceux du « Parnasse »
+          notamment, sont exclus de ma bibliothèque.</p>
+      </div>
+      <div>
+        <docAuthor key="Vignaud, Jean (1875-1962)"/>
+        <head>Jean Vignaud.</head>
+        <p>— Chacun des grands poètes du <num>xix<hi rend="sup">e</hi></num> siècle m’apparaît avec
+          son individualité propre et son génie particulier ; aussi chacun d’eux est-il pour des
+          raisons et des sentiments multiples, différents, contradictoires, <hi rend="i">mon poète
+            préféré</hi>. Tout dépend de ce qu’ils me donnent et de ce que je leur apporte à l’heure
+          même où je les lis. Enfin ne sont-ce pas les <hi rend="i">poetæ minores</hi> qui trouvent
+          souvent les accords les plus délicieux ? Je n’ai point de poète. Existe-t-il dans l’ordre
+          de la pensée une hiérarchie ?</p>
+        <p>Non, Hugo ne fut pas toute la pensée du <num>xix<hi rend="sup">e</hi></num> siècle.
+          Cependant au cours d’une enquête sur la lecture <pb n="144" xml:id="p144"/>dans les
+          milieux paysans, j’ai pu me rendre compte qu’il avait pénétré là où Racine, Corneille et
+          Molière étaient encore inconnus.</p>
+      </div>
+      <div>
+        <docAuthor key="Viguier, René (1880-1931)"/>
+        <head>Jules Viguier.</head>
+        <p>— Qu’on dise : « Victor Hugo est toute la poésie et tout la pensée du <num>xix<hi
+              rend="sup">e</hi></num> siècle », cela est bien ; mais qu’on ajoute : « Jules Verne en
+          est toute la science ».</p>
+        <p>Et s’il me faut préférer un poète, un des aspects de la pensée du siècle dernier dont
+          l’œuvre d’Hugo constitue la vulgarisation copieuse, j’opte pour la dignité studieuse et
+          pensive de <hi rend="sc">Vigny</hi>.</p>
+        <p>Je pense que Vigny est le poète le plus proche de notre pensée obstinément souriante. Et
+          l’effort qui soutient, inlassable, la joie — <title>la Joie</title> — de ceux des esprits
+          contemporains que nous aimons. Et cette parité ne nous est-elle une raison nouvelle de
+          saluer Vigny ?</p>
+      </div>
+      <div>
+        <docAuthor key="Le Minihy de La Villehervé, Robert (1849-1919)"/>
+        <head>Robert de la Villehervé.</head>
+        <p>— Vous me voulez bien demander quel poète je préfère parmi les poètes du <num>xix<hi
+              rend="sup">e</hi></num> siècle, non encore vivants parmi nous ? S’il ne faut en nommer
+          qu’un, aucune hésitation n’est possible, n’est-ce pas ? Je réponds <hi rend="sc"
+          >Hugo</hi>. Après Hugo, je n’hésiterais pas non plus, je dirais Banville dont m’enchantent
+          tous les poèmes à forme fixe et plus que ceux-ci encore son œuvre dernière où tant
+          d’esprit se marie à tant d’éclat, <title>Le Forgeron</title>.</p>
+      </div>
+      <div>
+        <docAuthor key="Viollis, Jean (1877-1932)"/>
+        <head>Jean Viollis.</head>
+        <p>— La forme de votre question est peut-être un peu absolue. Tout au plus vous
+          indiquerais-je une préférence. Mais notre enquête étant à peu près limitée en fait à la
+          période romantique, je ne vois guère le moyen de faire un choix de sympathie parmi des
+          gens qui ne m’émeuvent pas.</p>
+        <p><pb n="145" xml:id="p145"/>Hugo serait en tout cas le dernier que je pourrais nommer ;
+          comme poète, et c’est encore là qu’il fut le meilleur, il a rompu le vers sous prétexte de
+          l’émanciper, il a brisé la sensibilité française, délicate et logique, pour le remplacer
+          par un amas confus de déclamations outrées. Je ne parle pas de Musset ni de sa pauvreté
+          sentimentale. Dans les limites que vous indiquez — un poète mort du <num>xix<hi rend="sup"
+              >e</hi></num> siècle — je m’adresse à Lamartine ou à Desbordes-Valmore lorsque je veux
+          trouver une inspiration tendre et nuancée, à Baudelaire (bien qu’il ait eu toujours une
+          sensibilité artificielle) pour rencontrer l’un des rares faiseurs de vers qui aient eu le
+          sens de la métrique et connu la valeur des mots.</p>
+        <p>Mais ceux que <hi rend="i">j’aime</hi> sont un peu démodés : André Chénier… Jean Racine…
+          On ne fait plus aucune enquête sur leur cas : dirai-je que pour cette cause j’ai peut-être
+          pour eux un attachement plus affectueux et plus sincère ?</p>
+      </div>
+      <div>
+        <docAuthor key="Ermitage, L'"/>
+        <head>L’Ermitage.</head>
+        <p>— D’un ensemble de réponses où les opinions se manifestent si diverses, si complexes et
+          si nuancées, il paraît hasardeux de tirer une conclusion absolue. Aussi bien, n’avons-nous
+          pas souhaité que cette enquête aboutît à la brutale proclamation d’un scrutin. Et l’avis
+          motivé d’un grand nombre des poètes notoires de ce temps sera pour le lecteur attentif
+          d’un enseignement meilleur que le jeu de pointage auquel nous pourrions nous livrer.</p>
+        <p>Il s’agissait d’indiquer une préférence. Plusieurs poètes se sont refusés à choisir,
+          plusieurs ont distingué entre l’admiration et la sympathie ; beaucoup justifiant
+          l’intéressante remarque de M. Remy de Gourmont, ont désigné des noms à titre égal. La
+          plupart cependant ont formulé un choix précis.</p>
+        <p>Et voici l’ordre des préférences tel qu’il nous semble imposé par l’examen de toutes les
+          réponses.</p>
+        <p rend="center"><pb n="146" xml:id="p146"/>VICTOR HUGO</p>
+        <p rend="center">ALFRED DE VIGNY</p>
+        <p rend="center">PAUL VERLAINE</p>
+        <p rend="center">BAUDELAIRE</p>
+        <p rend="center">LAMARTINE</p>
+        <p rend="center">MUSSET</p>
+        <p rend="center">LECONTE DE LISLE</p>
+        <p rend="center">MALLARMÉ</p>
+        <p rend="center">ALBERT SAMAIN</p>
+        <p>Mais à ces noms, les plus souvent mentionnés, il convient d’ajouter ceux de Georges
+          Rodenbach, Théodore de Banville, Jules Laforgue, Théophile Gautier, Arthur Rimbaud,
+          Brizeux, Gérard de Nerval, Gabriel Vicaire, Desbordes-Valmore, Aloysius Bertrand, Villiers
+          de l’Isle-Adam, etc. Des poètes étrangers, Shelley notamment, ont obtenu des
+          suffrages.</p>
+        <p>Parmi les conclusions qui peuvent s’offrir à l’esprit, la plus sage serait peut-être une
+          louange au siècle admirable qui légua tant de morts glorieux à l’amour des poètes
+          d’aujourd’hui.</p>
+        <p>Et nous ne terminerons point sans avoir remercié M. Remy de Gourmont auquel nous
+          empruntâmes notre question, et les poètes qui vinrent en si grand nombre nous donner leur
+          opinion.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
