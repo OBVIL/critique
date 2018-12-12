@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-12T10:35:36+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Discours aux artistes. De la poésie de notre époque</title>
+        <author key="Leroux, Pierre (1797-1850)">Pierre Leroux</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/leroux_discours-aux-artistes/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Pierre Leroux</author>, <title>«<hi rend="i"> Second discours. Aux Artistes.
+              De la poésie de notre époque » [</hi>Revue encyclopédique<hi rend="i">, 1831], in
+            </hi>Œuvres de Pierre Leroux (1825-1850)</title>, <pubPlace>Paris</pubPlace>,
+            <publisher>Société typographique, Lesourd, Gustave Sandré, Louis Nétré</publisher>,
+            <date>1850</date>, <biblScope>t. I, p. 59-88</biblScope>. PDF : <ref
+            target="https://gallica.bnf.fr/ark:/12148/bpt6k5553h">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1831"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="60" xml:id="p60"/>
+        <head>Deuxième discours. Aux Artistes. <lb/>De la poésie de notre époque.</head>
+        <p>Nous donnons ce Discours tel qu’il parut, en 1831, dans la <title>Revue
+            Encyclopédique</title>, cahiers de novembre et de décembre. Le temps a manqué pour le
+          compléter. Ce titre <title>Aux Artistes</title> indique assez qu’il aurait dû être
+          question, dans ce Discours, de tous les beaux-arts, et non pas seulement de la poésie
+          proprement dite.</p>
+        <div>
+          <pb n="61" xml:id="p61"/>
+          <head>I.</head>
+          <p>Nous terminions notre précédent Discours en remarquant que toute la poésie de l’époque
+            est empreinte de ce caractère de profonde désolation qui ne peut manquer de se
+            manifester dans une crise de renouvellement. Les philosophes, disions-nous, ont engendré
+            le doute ; les poètes en ont senti l’amertume fermenter dans leur cœur, et ils chantent
+            le désespoir ; ils chantent, glorieux mais tristes, entre une tombe et un berceau, entre
+            un ordre social qui achève de s’écrouler et un nouveau monde qui va naître : et nous
+            leur reprochions de tenir plutôt les yeux tournés vers le passé que vers l’avenir.</p>
+          <p>Nous tenons à démontrer que tel est, en effet, le caractère de la poésie de notre
+            temps. Voulez-vous connaître, d’une époque, son essence même, sa pensée la plus intime,
+            sa vie intellectuelle, sa vie morale, prenez ses poètes : vous trouverez en eux tout
+            cela, et de plus vous y trouverez le germe de l’époque suivante. Les poètes sont des
+            hommes de désir, et c’est leur pensée qui engendre. Ainsi, pour prendre l’exemple le
+            plus rapproché de nous, le Dix-Huitième Siècle est, bien plus qu’on ne le croit, en
+            germe dans la poésie du Dix-Septième. Toutes les attaques des philosophes contre la
+            noblesse et l’inégalité des rangs avaient été devancées par les attaques aussi vives de
+            Boileau et de Molière. Si donc la poésie ne faisait pas entendre aujourd’hui ce concert
+              <pb n="62" xml:id="p62"/>de douleur qui annonce le besoin d’une régénération sociale,
+            et si en même temps elle ne jetait pas déjà, dans toutes les âmes capables de la sentir,
+            le germe de cette régénération ; si elle n’y versait pas, avec la douleur de ce qui est,
+            le désir de ce qui doit être ; en un mot si elle n’était pas, ce qu’elle a toujours été,
+            prophétique, nous aurions tort de représenter l’état actuel de la société comme une
+            crise qui doit enfanter une société nouvelle.</p>
+          <p>Or il semble, au premier coup d’œil, que les objections abondent contre notre manière
+            de juger la période poétique actuelle. On nous citera en foule des œuvres et des noms
+            d’artistes qui paraissent détruire cette opinion. Que faites-vous de Walter Scott,
+            dira-t-on ? que faites-vous de Cooper ? Oubliez-vous la chanson de Béranger ? Voilà des
+            œuvres qui n’ont pas ce caractère de tristesse, de doute, de scepticisme, dont vous
+            parlez. Béranger fait des odes comme Horace et Anacréon, et il n’est pas de poète plus
+            populaire que lui. Le poète et le siècle ne sont donc pas si tristes que vous les
+            faites. Walter Scott est si peu occupé d’une régénération sociale, qu’il est bien plutôt
+            tory que whig ; et cependant quelle immense influence ses écrits n’ont-ils pas eue sur
+            toute la littérature européenne depuis quinze ans ? Quant à Cooper, il fait le portrait
+            de la nature, et ses sauvages, ses forêts, ses mers, ont pour nous un charme comparable
+            à celui des plus grands poèmes. D’un autre côté, ajoutera-t-on, nierez-vous les poètes
+            chrétiens ? Oubliez-vous le plus grand de tous, oubliez-vous Lamartine ? Manzoni
+            n’a-t-il pas fait des hymnes sacrés ? Tous les poètes de la Restauration n’ont-ils pas
+            plus ou moins fait un retour vers le Christianisme ? Tous n’ont-ils pas subi plus ou
+            moins l’influence des écrits de M. de Chateaubriand ? Voyez, le siècle débute par le
+              <title>Génie du Christianisme</title> ; et à la suite de ce livre naît toute une
+            génération d’auteurs qui vivent de son inspiration. Loin donc que le siècle, quand on le
+            considère dans ses artistes, paraisse dévoré de tristesse et de spleen, on le dirait au
+            contraire soutenu doucement par la religion du Christ, tandis que ses yeux se promènent
+            avec délices sur les tableaux du passé ou sur les scènes de la nature que ses romanciers
+            sont continuellement occupés à lui peindre, et qu’à ses oreilles résonne la délicieuse
+            et enivrante musique de Rossini. Où donc, encore une fois, est cet accord de doute et de
+            tristesse que vous attribuez à l’art, ce besoin d’une régénération sociale, d’une
+            religion nouvelle, que vous lui supposez ? La plupart de nos artistes, suivant
+            capricieusement la pente naturelle de leur génie qui les porte à observer, à peindre,
+            s’abreuvent à ces deux grandes sources de l’art, la nature et l’histoire, tandis que les
+            plus rêveurs d’entre eux, les plus métaphysiciens, cherchent appui et consolation,
+            inspiration et lumière, dans la religion éternelle, la religion du Christ !</p>
+          <p>Voilà ce qu’on nous dira, et il faut répondre ; car nous ne sommes <pb n="63"
+              xml:id="p63"/>pas de ces barbares qui, prenant de travers de grandes prophéties
+            d’avenir, se déshéritent sans façon du passé, parlent de l’art de notre époque avec un
+            mépris qui fait rire, et nuisent ainsi, sans le savoir, aux vérités qui leur ont été
+            enseignées et qu’ils sont chargés de répandre.</p>
+          <p>Mais, pour dissiper tous les doutes et toutes les objections, il est nécessaire que
+            nous dissertions un peu sur l’art et sur la loi de son développement : sans cela nous
+            n’arriverions à rien de clair. Car si je vous dis que le caractère d’une époque poétique
+            est tel ou tel, et que vous me citiez en opposition des auteurs dramatiques ou des
+            romanciers, il faudra bien que je cherche ce qu’il y a de plus poétique en eux, la
+            pensée avec laquelle ils font du drame et des caractères, il faudra bien que je leur
+            demande leur pensée lyrique ; ce qui suppose que nous nous entendons, moi et le lecteur,
+            sur cette question : À quelle condition le drame et le roman sont-ils de l’art ? Ou
+            bien, si je parle, par exemple, de l’art du Moyen-Âge et du Christianisme, et que l’on
+            m’objecte la Renaissance, l’école de Ronsard, ou celle de Racine et de Boileau, il
+            faudra bien que je montre comment ces écoles se détachent du Moyen-Âge, et perdent à la
+            fois le sens moderne et l’originalité pour l’imitation. Ainsi on est toujours ramené à
+            ces deux questions : Qu’est-ce que l’art en lui-même, et comment se développe-t-il dans
+            le développement général de l’Humanité ?</p>
+          <p>Parlons donc un instant de l’art. L’art ! c’est un grand mot, que beaucoup célèbrent
+            avec enthousiasme, sans en avoir toujours une idée bien nette.</p>
+        </div>
+        <div>
+          <head>II. De l’art</head>
+          <p>L’homme a été placé sur la face de la terre pour achever l’œuvre que Dieu l’a chargé de
+            terminer. Sa main est celle de Dieu lui-même, et elle se promène avec une infatigable
+            persévérance sur la surface rude et ébauchée du globe pour la polir et l’achever ; et si
+            le monde terrestre est l’œuvre de Dieu, il est aussi l’œuvre de l’homme ; car partout
+            déjà sa volonté et sa puissance ont laissé leur trace et leur empreinte. Aux
+            broussailles et aux forêts qui hérissaient le front de la planète comme une chevelure
+            sauvage, succède une douce et ondoyante chevelure de moissons et de prairies ; les
+            fleuves obéissent à la voix et reçoivent de nouveaux lits ; les torrents vagabonds dans
+            la plaine se resserrent entre des rivages escarpés comme une digue de rochers ; de
+            nouvelles lignes d’eau se dessinent, et sillonnent la terre de leurs <pb n="64"
+              xml:id="p64"/>bassins et de leurs canaux ; les montagnes s’aplanissent ; les rochers,
+            frappés par la verge des sondeurs, laissent jaillir des fontaines ; et l’homme, devenu
+            créateur de lumière, éclaire dans la nuit la face de sa planète, qui, parée de ses
+            lanternes, se promène silencieuse parmi les ténèbres de l’espace.</p>
+          <p>Voilà l’<hi rend="i">industrie</hi>. Ce n’est plus la nature abandonnée à elle-même, ce
+            n’est plus l’industrie de la nature, si l’on peut parler ainsi ; c’est la nature
+            continuée par l’homme sous un de ses aspects.</p>
+          <p>Mais si l’homme continue la nature sous un rapport par l’industrie, il la continue
+            encore sous un autre rapport, par l’<hi rend="i">art</hi>.</p>
+          <p>Pensez à ces myriades de spectacles que la surface vivante de la terre, animée par le
+            contact des cieux, engendre à chaque instant de l’éternité, et qui n’attendent pas, pour
+            se produire toujours nouveaux, qu’un œil ou une oreille soient là pour les saisir. Que
+            de vie, que de beauté sans cesse renaissante dans le moindre horizon ! L’art est
+            virtuellement dans toute la nature ; la plante et l’animal ne sont pas les seuls êtres
+            qui le contiennent dans leurs harmonies et leurs proportions. Quand les nuages promènent
+            leurs mouvants bataillons autour d’une montagne, ou plongent en se courbant entre ses
+            cimes ; qu’on suit l’ombre et la lumière illuminant ou obscurcissant ses vallées, et
+            qu’on entend les eaux sourdre de ses flancs, que de proportions, d’harmonies, de beauté
+            dans cette portion de la nature promenant autour du mont immobile son éternelle
+            mobilité ! Et quanti l’homme était encore absent de la terre, quand son œil n’était pas
+            là pour jouir de ces décorations, qu’importe, elles se réfléchissaient dans l’œil des
+            animaux qui la peuplaient, et qui, en harmonie eux-mêmes avec la géométrie divine,
+            goûtaient de cette beauté du monde les rayons qu’ils pouvaient en saisir et qui les
+            animaient, comme encore aujourd’hui, sans qu’ils en eussent conscience, comme l’air
+            qu’ils respirent, la lumière qui les éclaire, la chaleur qui les échauffe, l’orage qui
+            les effraie. Et quand il n’y aurait eu ni hommes ni animaux sur la terre, sa beauté n’en
+            aurait pas moins contenu virtuellement l’<hi rend="i">art</hi>, qui devait se produire
+            quand, par la série du progrès et la marche continue de l’œuvre de Dieu, l’homme
+            apparaîtrait à sa surface.</p>
+          <p>Vouloir refaire la montagne serait insensé ; l’imiter en petit, comme les Chinois, est
+            une absurdité puérile ; la dessiner, la peindre pour elle-même, pour en retracer
+            exactement les formes, les proportions, les couleurs, c’est de l’habileté graphique, ce
+            n’est pas de l’art.</p>
+          <p>Mais tirer de la vue des forêts et des montagnes une inspiration créatrice, donner à
+            l’habitation où les hommes se réunissent pour adorer le Dieu infini quelque chose de
+            l’aspect de ces sublimes montagnes, et élever des temples qui s’harmonisent avec nos
+            grands végétaux comme <pb n="65" xml:id="p65"/>les petits temples de la Grèce
+            s’harmonisaient avec les lentisques et les orangers, voilà l’<hi rend="i">art</hi>.
+            C’est la montagne et la forêt changés en temple par l’homme, et reproduits par lui comme
+            il lui convient de les reproduire. La forêt, la montagne, étaient des monuments de la
+            nature : le temple, inspiré par elles, est un monument de l’homme. Et alors s’établit
+            dans le monde une nouvelle harmonie : l’homme ne peut plus voir les colonnades des
+            forêts et les autels des montagnes, sans que l’idée d’un temple à l’Éternel ne lui
+            revienne en mémoire. C’est ainsi que le monde tout entier, en y comprenant l’<hi
+              rend="i">art</hi>, qui en fait partie au même titre que les monuments naturels
+            auxquels il s’ajoute, devient <hi rend="i">symbolique</hi>.</p>
+          <p>Le symbole ! nous touchons ici au principe même de l’art.</p>
+          <p>En effet, est-ce seulement de la nature ce qu’on peut appeler <hi rend="i">beau</hi>
+            qui est la source et la semence de l’art ? Non : c’est aussi le laid, l’horrible, le
+            difforme ; c’est un ciel gris et terne, aussi bien qu’un ciel bleu ou un orage d’éclairs
+            et de foudres ; une terre aride, un champ de mort, un désert, comme une forêt vierge ;
+            des cris discordants, comme des sons harmonieux ; c’est tout enfin, c’est la vie
+            universelle. Or, comment la vie du monde devient-elle art en passant par l’homme ? Voilà
+            la grande question sur cette question de l’art ; voilà ce qui n’a guère été compris, ce
+            nous semble, et ce qui a engendré tant d’opinions diverses qui se combattent.</p>
+          <p>Les philosophes qui traitent de l’esthétique disent que l’industrie a pour principe
+            l’utile, et l’art pour principe le beau. Qu’est-ce que l’utile ? qu’est-ce que le beau ?
+            Ce sont, disent-ils, des idées primitives ; il n’y a rien à leur demander après cette
+            définition. Ils ne s’aperçoivent pas que les artistes peignent continuellement, et comme
+            à plaisir, des objets hideux, repoussants, horribles. Aussi que de discussions sont
+            sorties de cette considération superficielle ! que de disputes sur l’utile et le beau !
+            Il y a toujours eu une véritable guerre entre ceux qui sentaient l’art et ceux qui ne le
+            sentaient pas ; jamais cette guerre n’a été plus acharnée que de notre temps. Les
+            partisans de la doctrine de l’utile veulent que les artistes ne fassent des poèmes, des
+            statues, des tableaux que pour l’utilité sociale. Les artistes, de leur côté, réclament
+            fièrement leur indépendance. Le poète, disent-ils, est complètement libre, il fait ce
+            qui lui convient. Dieu l’a mis sur la terre en lui disant : Crée, et il crée. Quand il a
+            produit son œuvre, il demande au public : Est-ce bien ou mal ? mais il ne doit compte à
+            personne du but qu’il s’est proposé. — Au moins, répondent aux artistes ceux qui ne
+            sentent pas l’art, soyez donc fidèles à la règle du beau. Pourquoi tous ces monstres que
+            vous vous plaisez à nous peindre ? — Et l’on a poussé la folie jusqu’à demander de
+            quelle utilité était au monde l’<title>Othello</title> de Shakespeare<note
+              resp="editor" place="bottom">[NdE] Orthographié Shakspeare.</note> ; on a proposé sérieusement à
+            l’Humanité d’abolir le drame ; <pb n="66" xml:id="p66"/>car, le drame étant la peinture
+            de passions tristes ou coupables, on ne voyait pas quel avantage en résultait pour
+            l’Humanité. Il y a des gens qui croient sérieusement que l’avenir délaissera tous les
+            produits de l’art antérieur, de même que, lorsqu’on a inventé une nouvelle machine
+            supérieure à une autre, on laisse périr celle-ci ou on la brise. Il faut avouer que ceux
+            qui n’ont aucun sentiment de l’art sont très excusables de s’égarer aussi
+            singulièrement. Ils ne pourraient être ramenés que par des raisonnements : or
+            l’esthétique n’a pas encore une base assez claire pour eux, et la définition que nous
+            citions tout à l’heure n’est pas de nature à lui en donner une.</p>
+          <p>Voyons s’il ne s’offrirait pas naturellement une distinction plus large et plus nette,
+            qui, en nous faisant pénétrer dans le sens profond de ces mots, <hi rend="i">art</hi> et
+              <hi rend="i">industrie</hi>, dissiperait tout d’un coup les nuages et les controverses
+            sur l’utile et le beau.</p>
+          <p>Par tous nos sens, par toute notre vie de relation, nous recevons des impressions, des
+            images, nous éprouvons des attraits, des répulsions. C’est là le fonds commun de tous
+            les matériaux dont notre sensibilité, notre mémoire, notre imagination, notre intellect,
+            se composent. C’est ainsi que nous puisons notre vie à la vie universelle. Et de même
+            que notre vie de nutrition se développe et s’entretient en s’assimilant des parties
+            matérielles du monde extérieur, de même notre vie de relation se développe et
+            s’entretient en s’assimilant des impressions du même monde extérieur. Comment cette
+            double nutrition se fait-elle ? C’est le problème de la vie, aussi insoluble pour les
+            psychologues que pour les physiologistes. Mais il y a cette différence qu’à peine
+            avons-nous conscience dans certaines maladies des phénomènes de notre vie de nutrition,
+            tandis qu’à l’exception, au contraire, de certaines maladies et du sommeil complet, nous
+            avons conscience des phénomènes de notre vie intellectuelle. Celle-ci est donc, à
+            proprement parler, notre vie : l’autre nous est presque aussi étrangère que la vie du
+            monde extérieur. Or, véritablement, les actes que nous faisons pour modifier la vie du
+            monde extérieur doivent avoir un caractère tout autre que les actes qui se produisent
+            dans notre propre vie. L’industrie a pour objet notre action sur la vie qui est en
+            dehors de nous et que nous ne sentons pas, tandis que l’art est l’expression de la vie
+            qui est en nous. C’est dire qu’entre l’industrie et l’art il y a l’homme tout entier.
+            Dans l’industrie, d’où vient la vie ? De la nature, toujours d’elle. La vie du monde
+            extérieur coule sans cesse, et l’industrie humaine la gouverne comme nous poussons de
+            l’eau avec une rame. Par l’industrie, quelque merveilleuse qu’elle soit, l’homme ne fait
+            que diriger une vie qui n’est pas en lui. Mais l’art est l’expression de sa propre vie,
+            ou, mieux encore, sa-vie elle-même se réalisant, se communiquant aux autres hommes, et
+            faisant effort pour s’éterniser.</p>
+          <p>Or l’homme ne crée rien, en prenant le mot de création dans un sens absolu. Il n’a donc
+            pas d’autre moyen de réaliser le produit de sa vie intérieure que de l’incarner dans ce
+            qui existe déjà.</p>
+          <p>De là il soit que le principe unique de l’art est le <hi rend="i">symbole</hi>.</p>
+          <p>De l’homme à l’homme, il n’y a en effet que deux modes de communication.</p>
+          <p>Ou l’homme exprimera directement, mais très imparfaitement, par le langage <hi rend="i"
+              >abstrait</hi>, le résultat de sa vie intérieure ;</p>
+          <p>Ou il ira puiser dans le monde extérieur, à la source commune des impressions, dans
+            l’océan de vie où tous nous sommes plongés, des images capables de donner par
+            elles-mêmes les sensations, les sentiments, et jusqu’aux jugements qu’il veut
+            exprimer.</p>
+          <p>Le premier mode d’expression est, comme nous venons de le dire, le langage abstrait,
+            qui n’exclut ni l’éloquence, ni même le sublime.</p>
+          <p>Le second mode d’expression, c’est la poésie.</p>
+          <p>La poésie est cette aile mystérieuse qui plane à volonté dans le monde entier de l’âme,
+            dans cette sphère infinie dont une partie est couleurs, une autre sons, une autre
+            mouvements, une autre jugements, etc., mais qui toutes vibrent en même temps suivant
+            certaines lois, en sorte qu’une vibration dans une région se communique à une autre
+            région, et que le privilège de l’art est de sentir et d’exprimer ces rapports,
+            profondément cachés dans l’unité même de la vie. Car de ces vibrations harmoniques des
+            diverses régions de l’âme il résulte un <hi rend="i">accord</hi>, et cet accord c’est la
+            vie ; et quand cet accord est exprimé, c’est l’art ; or, cet accord exprimé, c’est le
+            symbole ; et la forme de son expression, c’est le rythme<note resp="editor" place="bottom">[NdE]
+              Orthographié rythme.</note>, qui participe lui-même du symbole : voilà pourquoi l’art
+            est l’expression de la vie, le retentissement de la vie, et la vie elle-même. La poésie,
+            qui prend pour instrument la parole, et qui rend par des mots le symbole et le rythme,
+            est un <hi rend="i">accord</hi>, comme la musique, comme la peinture, comme tous les
+            autres arts : en sorte que le principe fondamental de tout art est le même, et que tous
+            les arts se confondent dans l’art, toutes les poésies dans la poésie<note resp="author" place="bottom"
+                ><p>Racine analyse des sentiments, comme Condillac des pensées. Racine est plus
+                souvent éloquent que poète. L’amour de Roméo qui cherche ses rapports et ses
+                harmonies avec le ciel et la terre, avec le scintillement des étoiles et le chant du
+                rossignol, voilà la poésie.</p><p>Voltaire n’est pas poète quand, pour peindre
+                l’amour, il emploie tous les termes abstraits ou toutes les métaphores usées du
+                dictionnaire ; mais l’auteur du <title>Cantique des Cantiques</title>, dont Voltaire
+                se moquait, est poète quand il compare les dents de sa maîtresse à de petits moutons
+                blancs qui sortent en rang du lavoir.</p><p>On s’étonne de retrouver tant de poésies
+                primitives ; voilà un demi-siècle qu’on en déterre, et la mine semble encore
+                vierge ; on est surpris d’en trouver jusque chez les nègres et les sauvages de
+                l’Amérique du Nord. Vraiment l’admiration est naïve ; est-ce dans des maisons
+                closes, dans des villes, que le ciel se fait voir, qu’on entend les oiseaux, qu’on
+                voit les montagnes ?</p><p>Au surplus les considérations sur l’art, renfermées dans
+                ce Discours, auraient besoin d’être développées plus largement. Quant à la poésie du
+                  <hi rend="i">style</hi>, en particulier, nous l’avons déjà fait autrefois dans un
+                article inséré dans l’ancien <title>Globe</title>. — Voy. l’<hi rend="i"
+                  >Appendice</hi> a la suite de ces Discours [<title>De la poésie de
+                style</title>].</p></note>.</p>
+          <p><pb n="68" xml:id="p68"/>L’art n’est donc ni la reproduction, ni l’imitation de la
+            nature. Tant que l’homme ne fait que modifier la nature, imiter, tailler, déplacer des
+            parties de l’Univers, gouverner en un mot la vie qui est en dehors de lui, il fait de
+            l’industrie, il ne fait pas de l’art. Les absurdes théories qui ont pris pour base
+            l’imitation de la nature, même en indiquant pour but l’aspect du beau, ne méritent pas
+            qu’on s’y arrête.</p>
+          <p>Allons plus loin. De même que l’art n’est pas l’imitation de la nature — car à quoi bon
+            imiter la nature ? n’est-elle pas sous nos yeux, et pourrions-nous l’imiter sans la
+            défigurer ? d’ailleurs, si nous y parvenions, ce serait encore la nature et pas autre
+            chose, rien de nouveau, rien de produit, rien de créé, mais un monstre qui nous
+            tromperait par son identité avec la nature), — de même l’art n’est pas la reproduction
+            de l’art, car ce serait encore le même tort que pour l’imitation de la nature.</p>
+          <p>Mais de même que l’art, c’est le développement de la nature sous un de ses aspects, à
+            travers l’homme, une chose nouvelle et différente de l’art qui est dans la nature, de
+            même, à une époque donnée, l’art est l’art de cette époque, faisant suite à l’art des
+            époques antérieures.</p>
+          <p>L’art croît de génération en génération, comme un grand arbre qui chaque année ajoute à
+            sa taille et élève sa cime vers le ciel, en même temps qu’il plonge plus profondément sa
+            racine dans la terre.</p>
+          <p>Les œuvres des grands artistes, tous inspirés par leur époque, se succèdent, et cette
+            succession est <hi rend="i">le développement de l’art</hi>.</p>
+          <p>Mais s’inspirer uniquement du passé, refaire ce qui a été fait, c’est imiter, c’est
+            traduire, c’est manquer son époque ; c’est faire de l’art intermédiaire, de l’art qui
+            n’a pas sa place marquée dans la vie de l’art.</p>
+          <p>Goethe<note resp="editor" place="bottom">[NdE] Orthographié Gœthe.</note> refait les tragiques
+            grecs ; j’aime mieux les tragiques grecs.</p>
+          <p>Cet art intermédiaire ou d’imitation est à l’art vrai, c’est-à-dire à l’art inspiré par
+            une époque, ce que nous disions tout à l’heure que l’industrie était par rapport à l’art
+            lui-même. De même que dans l’industrie l’homme ne fait que modifier la nature, tailler,
+            greffer, déplacer, ou grouper ce qui est déjà ; ainsi, dans cet art intermédiaire, il ne
+            fait que modifier l’art qui existe déjà, en tailler des débris, en <pb n="69"
+              xml:id="p69"/>déplacer des portions, greffer dessus quelques inspirations d’un autre
+            âge ; et il n’arrive, la plupart du temps, qu’à défigurer et amoindrir les œuvres sur
+            lesquelles il travaille, comme l’industrie fait souvent d’un animal généreux un animal
+            timide et sans beauté, ou d’un arbre élancé et vigoureux un arbre rabougri ou monstrueux
+            dans sa forme.</p>
+          <p>Quelle est la conclusion à tirer de ces considérations sur l’art, que nous aurions
+            voulu supprimer, mais que rendait indispensable le dévergondage d’idées qui règne
+            aujourd’hui sur ces questions ? C’est que l’artiste est libre, mais non pas indépendant
+            au point que quelques-uns l’imaginent. Quel sera mon <hi rend="i">criterium</hi> pour
+            juger un produit de l’art, un tableau, une statue, un poème<note resp="editor" place="bottom">[NdE]
+              Orthographié poème.</note> ? Certes, je ne chercherai pas si l’objet qui est
+            représenté est beau ou laid, je ne ferai pas de sophisme pour soutenir qu’il y a de la
+            beauté jusque dans la laideur ; je ne demanderai pas si on peut tirer directement de cet
+            ouvrage une conclusion morale : non, mais j’écouterai l’impression qu’il fera sur ma
+            vie. L’art, c’est la vie qui s’adresse à la vie. Je dirai donc à l’artiste : Vous êtes
+            libre ; exprimez la vie qui est en vous ; réalisez-la poétiquement. Mais j’ajouterai :
+            Si, au lieu de vous inspirer de votre époque, vous vous faites le représentant d’un
+            autre âge, permettez que je range vos ouvrages avec les produits de l’époque antérieure
+            à laquelle vous vous reportez. Ou si, oubliant que l’art c’est la vie, vous faites de
+            l’art uniquement pour en faire, souffrez que je ne voie pas en vous le prophète, le <hi
+              rend="i">vates</hi> que l’Humanité a toujours cherché dans ses poètes.</p>
+        </div>
+        <div>
+          <head>III. Byron.</head>
+          <p>Si ces principes sont vrais, les objections contre le caractère que nous attribuons à
+            la poésie de notre temps seront facilement dissipées.</p>
+          <p>Cooper est un grand artiste qui symbolise admirablement la nature. Walter Scott est un
+            grand artiste qui symbolise admirablement des époques historiques dans des tableaux et
+            des caractères.</p>
+          <p>C’est l’Amérique, c’est l’Écosse qui ont produit Cooper et Walter Scott. Jamais homme
+            d’un génie égal au leur, mais ému par les profondes secousses de notre France, de notre
+            Europe, n’aurait pu avoir la patience de peindre pour peindre, sans beaucoup de lyrisme
+            au fond du cœur, comme Scott, avec une froide et étonnante impartialité ; ou, comme
+            Cooper, avec une mélancolie assez vague, une pensée sociale <pb n="70" xml:id="p70"
+            />incertaine et douteuse, et seulement le sentiment vif et profond de la nature
+            extérieure : un tel homme n’aurait pu s’intéresser, comme eux, à ces mille petites
+            nuances qui les intéressent ; et, tourmenté par les rudes problèmes qui occupent
+            l’Humanité de notre âge, il lui eût été impossible de relever curieusement les moindres
+            accidents de jour, de lumière, de paysages, de costumes. Il faut pour cela avoir le cœur
+            libre, la tête pas trop ardente ; il faut n’avoir pas la tradition et l’héritage de la
+            partie la plus vivante de l’Humanité. M. de Chateaubriand a voyagé dans l’Amérique du
+            Nord : il a fait <title>Atala</title> et <title>René</title>, où il est plus question de
+            la désolation de cœur laissée par les doctrines du Dix-Huitième Siècle et par la
+            Révolution Française que des sauvages qui y sont mis en scène. Et voilà, pour le dire en
+            passant, ce qui condamne la foule des imitateurs que Scott et Cooper ont trouvés, et
+            qui, nés sur le sol volcanisé par les Philosophes, les Jacobins et Napoléon, ont eu la
+            maladresse de vouloir contrefaire l’allure qui sied si bien à ces enfants de l’Amérique
+            et de l’Écosse, peignant d’après nature et selon leur propre nature. Aussi ces tableaux
+            du passé <hi rend="i">Walterscottisés</hi>, comme on dit, sont-ils la plupart sans vie.
+            Il n’a manqué à leurs auteurs que d’avoir été élevés dans quelque pays de civilisation
+            arriérée, et nourris dès leur enfance de ballades et d’histoires merveilleuses : avec
+            cela ils auraient pu faire des romans historiques, non seulement sur les traditions de
+            leur nourrice, mais sur d’autres pays et d’autres temps.</p>
+          <p>Je regarde donc Scott et Cooper comme des produits naturels de l’art de notre époque ;
+            leurs œuvres rentrent tout à fait dans le principe du développement de l’art. Ils ont
+            écrit par une inspiration aussi vraie, aussi actuelle que les auteurs de
+              l’<title>Iliade</title>, ou ceux du <title>Romancero</title>. L’Amérique du Nord, se
+            dépouillant de ses forêts et de ses habitants sauvages, a fait entendre un long soupir,
+            que Cooper a écouté et a su rendre ; l’Écosse a produit le génie observateur et
+            pittoresque de Scott, qui, se trouvant tout formé et tout grandi, s’est ensuite
+            transporté, quelquefois peu heureusement, hors de ses limites naturelles de temps et de
+            pays.</p>
+          <p>Mais qu’on ne parle pas de Scott et de Cooper pour nier le caractère général que nous
+            assignons à la poésie de ce temps. Ces deux écrivains ne sont pas placés au centre du
+            mouvement de notre âge ; ils sont à l’extrémité. Il est bien vrai qu’un lien d’étroite
+            affinité est déjà formé pour une grande partie de la famille humaine ; l’Écosse et
+            l’Amérique, toutes reculées qu’elles sont, reçoivent les pulsations du cœur ; et le
+            cœur, c’est la France. C’est en ce sens que Scott et Cooper font partie de l’art de
+            notre époque ; ils tiennent au mouvement général de l’Humanité comme leurs pays tiennent
+            à l’ensemble de la grande famille Américo-Européenne. Nous pouvons prendre un plaisir
+            infini à leurs ouvrages, comme nous en prenons à la lecture d’un drame indien, de <pb
+              n="71" xml:id="p71"/><title>Sacontala</title>, par exemple, et même ils ont avec nous
+            un rapport de parenté que n’aurait pas le drame indien ; mais ils ne peuvent faire
+            autorité dans la question qui nous occupe. Il est tout simple que l’Amérique du Nord,
+            naïve et virginale quand on la considère sous un de ses aspects, vieille, refrognée,
+            pédante et aristocrate quand on regarde sa civilisation exotique, produise la poésie de
+            son ciel et de ses forêts, en contraste avec la mesquinerie de ses colons. Il est tout
+            simple que la verdoyante Écosse, qui conserve, toute fraîche et toute vivante, la
+            tradition de ses clans et de ses petites guerres civiles, et où il reste mille traces du
+            Moyen-Âge qui n’est pas remplacé pour elle, ait donné au monde un génie conteur et
+            original, ami des traditions merveilleuses et des peintures du Moyen-Âge. Et il est tout
+            simple encore que la partie la plus avancée de l’Europe lise avec ravissement des écrits
+            qui lui font oublier un instant son spleen et son scepticisme.</p>
+          <p>Les ouvrages de Walter Scott et de Cooper sont, relativement à la question que nous
+            traitons, presque dans le même cas que toutes ces poésies primitives qui ont tant de
+            vogue aujourd’hui. Ils ne peuvent pas plus nous apprendre quelle est la tendance de
+            l’esprit humain, quel germe de progrès l’Humanité porte actuellement dans son sein,
+            quels désirs la tourmentent, quel est son sort aujourd’hui, quel sera son lendemain, que
+            ne le feraient des chants grecs ou illyriens. Nous dire cela ne peut être réservé qu’à
+            des poètes sortis directement des trois grands peuples qui se pressent l’un contre
+            l’autre au centre de l’Humanité, la France, l’Allemagne et l’Angleterre ; qu’à des
+            poètes qui auront porté avec douleur les graves pensées de notre âge ; qu’à des poètes
+            qui auront senti l’impulsion des philosophes du Dix-Huitième Siècle, ces prédécesseurs
+            des poètes actuels ; qu’à des poètes, enfin, qui nous montreront leur ligne de parenté
+            avec Rousseau, Diderot et Voltaire, la Révolution Française et Napoléon, soit qu’ils se
+            soient mis en lutte ouverte ou qu’ils vivent en harmonie avec tous ou quelques-uns de
+            ces grands colosses qui avaient dernièrement en eux la vie du monde, et qui, glacés dans
+            leur tombeau, tiennent encore en main le sceptre de l’avenir.</p>
+          <p>Depuis cinquante ans que la philosophie du Dix-Huitième Siècle a porté dans toutes les
+            âmes le doute sur toutes les questions de la religion, de la morale et de la politique,
+            et a ainsi donné naissance à la poésie mélancolique de notre siècle, deux ou trois
+            génies poétiques tout à fait hors de ligne apparaissent dans chacune des deux grandes
+            régions qui composent l’Europe, c’est-à-dire l’Angleterre et l’Allemagne, qui
+            représentent tout le nord, et la France qui représente toute la partie sud-occidentale,
+            le domaine particulier de l’ancienne civilisation romaine. Autour de ces grands hommes
+            gravitent, comme les planètes autour des soleils, une foule d’écrivains remarquables,
+            mais <pb n="72" xml:id="p72"/>d’un ordre inférieur. Byron, par la nature particulière de
+            son génie, par l’influence immense qu’il a exercée, par la franchise avec laquelle il a
+            accepté ce rôle de doute et d’ironie, d’enthousiasme et de spleen, d’espoir sans borne
+            et de désolation, réservé à la poésie de notre époque, méritera peut-être de la
+            postérité de donner son nom à cette période de l’art : en tout cas, ses contemporains
+            ont déjà commencé à lui rendre cet hommage. C’est que nul n’a su mieux que lui
+            reproduire, avec une parfaite originalité, l’effet de cette poésie Shakespearienne dont
+            l’Allemagne et la France sont aujourd’hui plus enthousiastes que l’Angleterre elle-même.
+            Goethe cependant l’avait précédé de bien des années ; mais Goethe, dans une vie plus
+            calme, se fit une religion de l’art, et l’auteur de <title>Werther</title> et de
+              <title>Faust</title>, devenu un demi-dieu pour l’Allemagne, honoré des faveurs des
+            princes, visité par les philosophes, encensé par les poètes, par les musiciens, par les
+            peintres, par tout le monde, disparut pour laisser voir un grand artiste qui paraissait
+            heureux, et qui, dans toute la plénitude de sa vie, au lieu de reproduire la pensée de
+            son siècle, s’amusait à chercher curieusement l’inspiration des âges écoulés ; tandis
+            que Byron, aux prises avec les ardentes passions de son cœur et les doutes effrayants de
+            son esprit, en butte à la morale pédante de l’aristocratie et du protestantisme de son
+            pays, blessé dans ses affections les plus intimes, exilé de son île, parce que son île
+            antilibérale, antiphilosophique, antipoétique, ne pouvait ni l’estimer comme homme, ni
+            le comprendre comme poète, menant sa vie errante de pays en pays, cherchant le souvenir
+            des ruines, voulant vivre de lumière, de lumière éclatante, et se rejetant dans la
+            nature comme autrefois Rousseau, fut franchement philosophe toute sa vie, ennemi des
+            prêtres, censeur des aristocrates, admirateur de Voltaire et de Napoléon ; toujours
+            actif, toujours en tête de son siècle, mais toujours malheureux, agité comme d’une
+            tempête perpétuelle, en sorte qu’en lui l’homme et le poète se confondent, que sa vie
+            intime répond à ses ouvrages ; ce qui fait de lui le type de la poésie de notre âge.</p>
+        </div>
+        <div>
+          <head>IV. Lamartine et Victor Hugo.</head>
+          <p>À quoi tient ce reflet de Christianisme, cette auréole de foi religieuse qui brille sur
+            les œuvres des deux grands poètes de la France ? Pourquoi semblent-ils faire antithèse
+            avec Goethe et Byron ? Comment, nés dans le pays qui a produit la philosophie la plus
+            audacieusement sceptique, et qui a presque entièrement accompli la destruction du <pb
+              n="73" xml:id="p73"/>Moyen-Âge social et religieux, ont-ils moins que ces fils de
+            l’Angleterre et de l’Allemagne cette affreuse tristesse d’un rêve qui ne s’achève pas,
+            et en même temps cette fierté de Satan et cette vie du désespoir, cette <hi rend="i"
+              >vitalité du poison</hi>, comme parle Byron<note resp="author" place="bottom"><quote><l
+                 > There is a very life in our despair,</l><l>Vitality
+                  of poison ; a quick root</l><l>Which feeds these deadly
+                    branches.</l><bibl><hi rend="sc"
+                      >Childe-Harold</hi>.</bibl></quote></note> ?</p>
+          <p>Cela tient en partie, selon nous, à l’époque politique où ils ont commencé à écrire. Et
+            d’un autre côté nous pensons que cette foi chrétienne n’a pas un caractère aussi profond
+            chez eux qu’on le croit généralement. C’est une parure de leur génie, à travers laquelle
+            percent le doute et l’incrédulité, comme l’orgueil d’Antisthène perçait à travers les
+            trous de son manteau.</p>
+          <p>C’est surtout pour Lamartine qu’il existe un préjugé qui le fait considérer comme un
+            poète chrétien, je dirais presque comme un poète sacré, et qui cache ainsi à la foule
+            séduite le véritable caractère de son œuvre. L’affinité qu’il a avec Byron disparaît
+            devant ce mensonge du Christianisme ; car qu’est-ce qu’un Christianisme tellement
+            affaibli ou transfiguré qu’il ressemble à un panthéisme encore obscur, sans lien avec
+            l’Humanité, sans application sociale ?</p>
+          <p>Vous appelez Lamartine chrétien, et moi je l’appelle sceptique ; il n’a du Chrétien que
+            la crainte devant Dieu. Panthéiste, de sentiment plutôt que d’intelligence, il voit tous
+            les êtres s’absorber dans l’Être des êtres ; et ne comprenant rien à l’Humanité, n’ayant
+            pas la révélation du plan providentiel qui la guide, tous les travaux des hommes lui
+            paraissent aussi futiles que l’ouvrage des fourmis qui soulèvent des grains de sable. Ce
+            n’est plus ni la terre ni le ciel des Chrétiens, unis entre eux par une chaîne à la fois
+            humaine et divine, visible et invisible : espérance, foi, charité, terre et ciel, tout a
+            disparu devant la solitaire contemplation de ce vaste océan de l’Être où tout va
+            s’engloutir. Et cette pensée de l’infini fait fléchir ses genoux ; et il cherche à
+            prier, et sa prière l’inonde de pleurs :</p>
+          <quote>
+            <l>Hélas ! pourquoi si haut mes yeux ont-ils monté ?</l>
+          </quote>
+          <p>Et il adore Dieu dans un tremblement continuel ; et il ne sait que répéter sans cesse
+            que tout est vanité et que toute pensée est une erreur. Vous l’appelez chrétien parce
+            qu’il a pris à la Bible quelques fleurs, au Christianisme quelques formes, comme il a
+            pris à Horace ses continuelles images de l’incertitude de la vie. Mais son idée fixe est
+            la terreur. L’univers pèse sur son cœur et l’accable. Tous ses chants sont plaintifs,
+            comme les murmures de la colombe sous la serre de l’aigle.</p>
+          <p><pb n="74" xml:id="p74"/>On peut être sceptique tout en s’occupant beaucoup de la
+            grandeur divine ; on peut vivre dans le doute et l’incertitude avec un sentiment
+            religieux très actif et très profond.</p>
+          <p>Quelques progrès qu’ait faits l’Humanité, le mystère l’enveloppe toujours ; quelque
+            grande que soit la carrière que nous pouvons lui mesurer, il y a toujours l’infini en
+            avant et en arrière ; quelque travail que nous puissions assigner à son activité dans
+            une période donnée, il reste toujours le début et le but final, le commencement et la
+            fin en Dieu, le <hi rend="i">pourquoi</hi> en Dieu. L’homme, pour être vraiment
+            religieux, doit avoir à la fois le sentiment de sa faiblesse et de sa force, le
+            sentiment de l’infini et du fini, de Dieu et de l’Humanité. Or c’est là précisément ce
+            que donnent les religions : elles jettent le pont entre nous et les autres hommes, entre
+            l’Humanité et Dieu. Mais quand les religions meurent, les hommes les plus religieux,
+            loin d’être consolés dans le sentiment de l’infini, sont écrasés par lui. C’est en ce
+            sens que Lamartine est un grand poète religieux, quoique dévoré de doute et
+            d’incrédulité. Mais sa religion, loin de soutenir et d’illuminer ses lecteurs, ne fait
+            que les abattre, les troubler, les prosterner, surtout quand leur esprit a de la vigueur
+            et de la portée ; et le Christianisme dont il la décore n’est qu’un Christianisme de
+            convention, comme on peut en faire encore quand tous les dogmes chrétiens sont dépassés
+            par la science humaine, quand toutes les institutions chrétiennes sont écroulées.</p>
+          <p>Est-ce à dire que le poète soit trompeur pour voiler ainsi sa pensée ? Assurément non.
+            Mais son idée religieuse avait besoin de revêtir une forme, et, dans son abandon, son
+            isolement, sa nudité, elle a pris le dernier vêtement usé et percé de trous qu’elle
+            avait sous la main.</p>
+          <p>Les grands hommes qui se succèdent d’une génération à la suivante ne se répètent
+            jamais ; mais lorsqu’ils semblent faire une œuvre opposée, souvent ils se continuent.
+            C’est peut-être parce que la France avait produit la Philosophie du Dix-Huitième Siècle
+            et la Révolution qui est cette Philosophie en action, que les deux poètes qui ont le
+            plus directement exprimé l’état d’anarchie et de désolation où mène cette Philosophie,
+            sans cependant lui rompre en visière, sans la nier ni la combattre, sont un Anglais et
+            un Allemand ; tandis que la France a produit, depuis trente ans, une nombreuse couronne
+            de penseurs et de poètes qui se sont rattachés au Christianisme. Ne croyez pas cependant
+            que le mouvement et l’inspiration du Dix-Huitième Siècle ne soient pas profondément
+            entrés dans leur sein. C’est au contraire parce qu’ils sentaient profondément la ruine
+            du monde social et religieux du Moyen-Âge, et parce que d’un autre côté ils ne pouvaient
+            concevoir comment il naîtrait de cette ruine un monde nouveau à la fois social et
+            religieux, qu’ils sont revenus vers le Christianisme.</p>
+          <p><pb n="75" xml:id="p75"/>Supposez un poète frappé de cette grande ruine du monde
+            social, comme Boulanger suppose que les générations post-diluviennes furent frappées,
+            après le cataclysme du monde physique, d’un effroi qui, suivant lui, a donné naissance à
+            toutes les religions. Il se rejettera plein de tristesse et d’amertume dans la nature ;
+            et c’est en effet la marche que notre littérature a suivie. Ainsi avons-nous vu faire et
+            à Jean-Jacques Rousseau, qui donna le signal de cette retraite dans la nature au milieu
+            même du Dix-Huitième Siècle, et à Bernardin de Saint-Pierre, et à M. de Chateaubriand ;
+            et c’est alors, c’est dans la solitude, au sein de la nature, que la poésie a pris ces
+            grands écrivains et les a emportés sur ses ailes. Voilà donc ce poète tombé dans la
+            contemplation de l’infini, de l’harmonie universelle, et ne comprenant pas l’anarchie de
+            l’Humanité. Il est bientôt attaqué de la maladie de Werther, de René, d’Oberman<note
+              resp="editor" place="bottom">[NdE] Orthographié Obermann.</note>. A-t-il de la
+            force, il résiste à cette effroyable tempête de scepticisme absolu ; mais il n’y résiste
+            qu’en sortant religieux de la lutte. Son esprit a plongé dans l’infiniment grand et dans
+            l’infiniment petit, et partout il a rencontré Dieu. Or tout homme qui commence à sentir
+            Dieu éprouve le besoin de se rapprocher de ceux qui l’ont senti avant lui. Le temps
+            vient où nous embrasserons, où nous relierons toutes les conceptions religieuses, et où,
+            de toutes les traditions, nous formerons la tradition universelle, la grande
+              <title>Bible</title> de l’Humanité. Mais cette œuvre, qui se commence maintenant,
+            n’était pas même soupçonnée du plus grand nombre des esprits supérieurs il y a dix ans.
+            Il devait donc arriver que les âmes les plus frappées de la tristesse de cette Humanité
+            livrée au hasard, et de cette incertitude de l’esprit humain en présence d’une science
+            en apparence purement critique et négative, rechercheraient les solutions chrétiennes,
+            et se rapprocheraient des hommes qui souffrirent les mêmes maux de l’âme dans une époque
+            analogue de l’Humanité. Y a-t-il rien en effet qui ressemble plus à ce que nous
+            souffrons que ce qu’ont souffert autrefois les Basile, les Jérôme et les Augustin ? Et
+            remarquez qu’il y avait eu avant ces Pères de l’Église, et qu’il y avait en même temps
+            qu’eux, des âmes généreuses qui souffraient comme eux du même mal, mais qui, n’ayant pu
+            apercevoir l’étoile nouvelle, mais encore petite et obscure, de l’avenir, cherchaient
+            leur lumière dans le passé éteint, et se réfugiaient dans le stoïcisme, dans les
+            souvenirs de la république, ou dans les <hi rend="i">mystères</hi>. C’est ainsi que,
+            sous l’impulsion même de la Philosophie du Dix-Huitième Siècle, mais en réaction
+            apparente contre elle, des âmes malades de philosophie sont revenues au Christianisme.
+            En l’absence des éléments, décomposés à jamais, de l’organisation théologique-féodale,
+            ils ont rêvé possible la restauration de la monarchie et du papisme ; en présence de la
+            science moderne, ils ont rêvé la restauration d’une foi fondée sur la <pb n="76"
+              xml:id="p76"/>science du passé. Ainsi s’explique la tendance rétrograde de beaucoup de
+            grands esprits de notre temps, tels que De Maistre, Lamennais, Chateaubriand, Ballanche,
+            Lamartine, Victor Hugo.</p>
+          <p>Quand le poète s’est une fois rapproché du Christianisme par le sentiment religieux, il
+            lui est assez naturel de se croire Chrétien, et il se fait un point d’honneur et une
+            gloire de le paraître. On s’humilie par grandeur même d’esprit, autant que par lassitude
+            de chercher et d’attendre. On dit à la science et à la philosophie qu’elles sont
+            menteuses, parce qu’en effet, en ce jour, à cette heure, elles ne sont pas encore
+            arrivées au point où, reliant leurs rameaux épars, et vivifiées par une charité
+            nouvelle, elles deviendront une religion, comme autrefois elles devinrent le
+            Christianisme. On repousse de son esprit tous les grands progrès faits depuis les Pères
+            de l’Église ; on voudrait presque s’en tenir à leur physique, à leur astronomie. On
+            adopte ou on allégorise les traditions qu’ils ont adoptées. On voudrait à toute force
+            voir le développement de l’Humanité, comme Bossuet, dans l’histoire hébraïque. Mais le
+            doute sur tous points reste au fond du cœur. De là ce Christianisme de décadence ou de
+            renaissance, comme on voudra l’appeler, qui court dans tant de livres de notre temps. On
+            voudrait faire tenir le monde agrandi des modernes dans l’étroit horizon d’une religion
+            faite il y a deux mille ans, ou bien on agrandit le cadre de cette religion pour que
+            tout puisse y entrer. On parle du <hi rend="i">Seigneur</hi>, comme si l’on conservait
+            la tradition du Dieu qui apparaissait dans un buisson ardent, et c’est du Dieu de
+            Galilée et d’Herschell que l’on veut parler. On a l’air de reporter continuellement sa
+            pensée sur le Sinaï, les rives du Jourdain et Jérusalem ; mais le Sinaï, le Jourdain et
+            Sion ne sont que des échos sonores pour donner à la parole du poète un accent de foi
+            religieuse. On se fait un paradis mystique et tout spiritualiste, bien différent du
+            paradis chrétien, du paradis <hi rend="i">sur la terre</hi>, où les corps devaient
+            renaître quand le règne de Dieu serait venu. Quant aux anges, on en parle à tout propos
+            sans y croire ; chacun en crée avec sa fantaisie ; quelques-uns même décrivent leurs
+            amours, et leur composent un langage de toutes les coquetteries du boudoir. Enfin on se
+            fait une religion vaporeuse, qui ne ressemble pas plus au Christianisme, quand il
+            vivait, que les muses et les nymphes de la poésie mythologique de Boileau et de Voltaire
+            ne ressemblaient au Paganisme. Aussi, pour apprécier les poètes chrétiens de notre
+            temps, les plus sérieusement religieux comme les plus légers, M. de Lamartine comme
+            Thomas Moore, il faut bien distinguer leur véritable inspiration, leur pensée lyrique,
+            leurs tristesses ou leurs joies, sous ces voiles chrétiens dont se pare leur muse. Il en
+            est pour qui la chose est sérieuse, pour qui c’est le tourment de leur âme de ne pas
+            trouver appui et consolation dans ces débris fantastiques du passé ; pour les autres,
+            c’est purement affaire d’art. La <pb n="77" xml:id="p77"/>mythologie païenne était usée,
+            Ronsard et Boileau l’avaient à deux fois inutilement restaurée ; que restait-il à
+            faire ? À tenter la nouveauté du Christianisme. Pour tous, c’est bien plutôt la matière
+            de l’art que l’art lui-même ; ce n’est pas leur vie franchement dévote qui s’exprime,
+            c’est leur vie douteuse, incrédule, affligée, qui cherche confort, et qui trouve cet
+            aliment.</p>
+          <p>Qu’on voie dans cette poésie chrétienne le bruit qui accompagne la chute de tout ce qui
+            s’écroule, le dernier soupir d’un mourant, les vives clartés que jette une lumière qui
+            s’éteint, ou, si l’on veut, le dernier chant du cygne, je le conçois : mais y voir la
+            vie, c’est-à-dire à la fois la vie du Christianisme et la vie du poète, une foi
+            véritable, une communion de l’un avec l’autre, comme le doux repos de l’enfant dans les
+            bras et sous les baisers de sa mère, ou comme la conversation d’un ami avec son ami,
+            voilà ce que je ne puis admettre. Je ne puis voir dans tous ces chants chrétiens qu’un
+            deuil, une pompe funéraire et la plainte dernière sur un mort. Quand les sauvages
+            pleurent un chef, les femmes chantent les louanges du mort, elles disent ses vertus et
+            ses combats, et par moments, en présence du cadavre, elles rêvent le héros marchant
+            encore dans sa force et dans sa beauté : ainsi font nos poètes avec leur fiction de
+            Christianisme ; ils commencent par la plainte, la désolation, puis leur vient le regret
+            de la dernière religion connue d’eux, et ils finissent quelquefois, en s’exaltant, par
+            s’imaginer qu’elle vit encore. Que si un fantôme d’elle alors leur apparaît et pose
+            devant eux, si une image du passé, se dérobant à la tombe, semble se relever et marcher,
+            est-il étonnant que ces âmes poétiques prennent leur rêve pour une réalité ? Or c’est là
+            précisément ce qui est arrivé à nos poètes chrétiens. La <hi rend="i">Restauration</hi>
+            a été le fantôme qui les a inspirés et qui les a fait croire ; et eux, de leur côté,
+            avec leur voix puissante et leur don créateur, ont communiqué à ce fantôme une sorte de
+            vie galvanique, une vie qui n’était pas en lui, mais que son aspect seul a suffi pour
+            éveiller dans le sein des poètes, et qui lui est revenue par eux.</p>
+          <p>Chez des politiques ou des théologiens comme De Maistre et M. de Lamennais, cette
+            empreinte de Christianisme, une fois prise, est tenace, et s’attachera à toute leur
+            existence. Ce sont avant tout des penseurs : ils n’ont pu se décider et se former que
+            par de longues considérations, de profondes études de faits et de raisonnements ;
+            changer, c’est une vie à refaire : aussi leur croyance survivra-t-elle même à la chute
+            définitive du fantôme qui les avait illusionnés. D’ailleurs les grandes métamorphoses de
+            l’Humanité ne se font pas si vite qu’il ne reste longtemps des masses d’hommes et des
+            peuples entiers aux défenseurs des religions déchues : si la France leur échappe, il
+            leur reste l’Espagne, la Belgique, l’Irlande : ainsi, quand les villes échappaient aux
+            dieux du Paganisme, les habitants des bourgs devinrent les païens. Quant à ceux <pb
+              n="78" xml:id="p78"/>qui tiennent à la fois du penseur et du poète, comme
+            M. de Chateaubriand et M. Ballanche, leur rêve de restauration du Christianisme ira
+            s’affaiblissant ou se transfigurant : l’un laissera la religion pour la politique, et
+            cherchera dans l’activité de chaque moment une continuelle distraction contre sa propre
+            incrédulité ; l’autre conservera obstinément le nom de Christianisme à toute la série
+            des initiations de l’Humanité. Mais les poètes purs sont plus changeants ou plus naïfs :
+            comme ils avaient délaissé et les arguments théologiques et les grands ensembles
+            d’idées, comme ils n’avaient pris de la religion déchue que des inspirations et des
+            images, surtout comme ils sont hommes de sentiment et de vie lyrique, quand leur vie
+            change, quand le doute les reprend, quand leur tristesse d’âme se prolonge malgré tous
+            les remèdes dont ils avaient vanté l’efficacité, ils le disent ou le font entendre à
+            tout le monde ; et ils ne pourraient faire autrement, ou ils seraient obligés de se
+            taire ; car l’art c’est la vie du poète qui s’exprime telle qu’elle est au moment où il
+            chante.</p>
+          <p>Il est aisé de remarquer en effet que le doute et l’incertitude sont devenus de plus en
+            plus visibles chez Lamartine à mesure que les années s’écoulaient. Ses premières
+              <title>Méditations</title> sont de tous ses ouvrages celui où les croyances
+            chrétiennes se font le plus sentir. On dirait alors que le poète habite encore les
+            frontières de ce monde à la fois social et religieux de Nicole et de Pascal, de Bossuet
+            et de Fénelon, dont un siècle de philosophie et de révolution nous sépare désormais pour
+            toujours.</p>
+          <p>Cette remarque s’applique également à l’autre grand poète dont la France est fière. On
+            l’a déjà dit avant nous, il y a bien plus de calme religieux, de croyance arrêtée dans
+            les odes de la première jeunesse de Victor Hugo, que dans ces <title>Feuilles
+              d’automne</title>, où sa rêverie, si puissante et si triste, creuse si
+            profondément.</p>
+          <p>C’est d’abord que leur pensée est devenue plus forte avec l’âge ; c’est ensuite que
+            tout a chancelé autour d’eux ; c’est qu’ils ont vu cette société qu’ils croyaient
+            rentrée dans la voie de la tradition s’en écarter de nouveau ; c’est que cette tentative
+            si bien nommée <hi rend="i">restauration</hi>, qui prétendait rendre à la France son
+            ancien ordre social et religieux, a déçu toutes leurs espérances, partagés qu’ils
+            étaient entre les sentiments de gloire et de liberté de notre âge, et cette gloire du
+            passé qui avait bien de quoi les séduire.</p>
+          <p>Eux et M. de Chateaubriand, trois poètes, ont été non seulement les chantres, les
+            bardes inspirés, mais aussi les hommes d’action et de courage de cette résurrection du
+            passé qu’ils auraient voulu grande, glorieuse et populaire.</p>
+          <p>M. de Chateaubriand s’est chargé de la Restauration de toute manière, comme religion et
+            comme société ; il l’a précédée, introduite dans le monde, exaltée tour à tour et
+            abaissée : il l’a corrigée comme une <pb n="79" xml:id="p79"/>mère corrige son enfant,
+            abandonnée comme on abandonne un fils ingrat ; et l’enfant s’étant tué à force de
+            folies, il en porte encore le deuil.</p>
+          <p>Lamartine fut plus spécialement le poète religieux de la Restauration, c’est-à-dire
+            qu’il essaya de refaire le ciel religieux du passé. Victor Hugo fit principalement la
+            terre de ce ciel ; et comme la monarchie qu’il avait sous les yeux ne répondait pas à la
+            grandeur de son génie, ni à son âme forte et indépendante, il remonta plus haut dans les
+            siècles, et sa lyre se passionna pour ce Moyen-Âge dont elle voyait le reflet dans notre
+            temps : c’était naïvement qu’elle se passionnait ainsi ; mais on aurait dit que c’était
+            pour dorer ce reflet, ces derniers rayons presque éteints, que sa poésie essayait de
+            rallumer le soleil du Moyen-Âge.</p>
+          <p>À la suite de ces deux grands maîtres, une foule de disciples et d’imitateurs se
+            lancèrent dans la voie qu’ils ouvraient. De là toute cette poésie de la Restauration,
+            dont le caractère général est un retour vers le passé, une exploration du passé, un
+            enthousiasme vrai ou faux pour le passé, sans élan, sans impulsion en avant : comme si,
+            après la philosophie novatrice et enthousiaste du Dix-Huitième Siècle, une réaction
+            d’immobilité et de rétrogradation fût nécessaire, afin que l’esprit humain, après avoir
+            reconquis son passé, revu son héritage et sa vie antérieure, pût, riche d’expérience et
+            de savoir, se lancer de nouveau, avec plus d’assurance et d’espoir, dans la voie de
+            l’avenir. Semblables donc à ces Doctrinaires qui prirent la Restauration pour les bornes
+            du monde, et qui arrangèrent la philosophie exprès pour elle, les poètes semblèrent
+            pendant longtemps faire de la poésie, non pour le Peuple, non pour l’Humanité, mais pour
+            la Restauration.</p>
+          <p>Oui, Lamartine et Hugo furent aussi, eux, les soutiens de la Restauration ; et ils
+            n’ont pas à en rougir. Ils en furent les soutiens comme des artistes, amants de la
+            gloire et du beau, et par ce côté-là aimant déjà le Peuple ; reliant d’ailleurs, dans
+            leurs idées religieuses, le pouvoir temporel à la bonté céleste, soumettant le devoir et
+            la grandeur des rois à la charité du Christianisme. C’était un rêve, un idéal qu’ils
+            poursuivaient, ne voyant pas, dans leur exaltation de poètes, combien les temps étaient
+            changés et combien ce rêve était absurde.</p>
+          <p>Mais à mesure que les années s’écoulaient, le rêve s’évanouissait. L’un s’éleva de plus
+            en plus vers les pensées infinies, à une hauteur qui ne lui permettait plus d’apercevoir
+            la terre. L’autre fit comme Goethe avait fait après <title>Werther</title> et
+              <title>Faust</title>, il prit l’art au point de vue absolu. Plus jeune, d’ailleurs,
+            élevé au bruit des batailles, admirateur de Napoléon, amant de la liberté, il sentit un
+            nouveau culte s’élever dans son cœur ; et, dans son indépendance, il porta de rudes
+            coups à ce fantôme du passé qu’il avait d’abord encensé. Et quand le <pb n="80"
+              xml:id="p80"/>fantôme a disparu, ils n’ont fait, ni l’un ni l’autre, comme ceux dont
+            nous parlions tout à l’heure, ils ne se sont pas attachés à un autre fantôme, essayant
+            de donner à celui-ci la ressemblance du premier. Ils sont restés avec le doute, qui
+            n’avait jamais entièrement abandonné leur cœur.</p>
+          <p>C’est ainsi que l’Humanité de notre temps ayant dépouillé définitivement la pensée
+            sociale et religieuse du Moyen-Âge, eux, qui ont voulu vivre de cette pensée et en faire
+            l’âme de leur poésie, n’ont pu y réussir, malgré l’illusion de la Restauration, qui les
+            a séduits comme un mirage trompe les matelots à la mer. Ils n’ont pu trouver un sol où
+            leur Christianisme prît racine, et d’où il tirât des sucs assez nourriciers pour couvrir
+            ensuite la terre de son ombrage. Il n’y avait point de ruche où l’abeille fît son miel ;
+            point de rocher solide où l’aigle déposât son nid : l’abeille a été entraînée par les
+            torrents de l’air, tenant dans ses pattes le suc odorant des fleurs, qui ne s’est pas
+            transformé en miel ; l’aigle a vécu solitaire, contemplant le soleil, sans compagne et
+            sans nid.</p>
+          <p>Que leur pensée religieuse puisse subir une métamorphose et revêtir une nouvelle forme,
+            c’est ce que nous croyons ; et nous pourrions dire sur quels signes, faibles encore,
+            nous nous fondons pour le croire. Mais c’est de leur œuvre passée que nous nous occupons
+            aujourd’hui ; c’est elle que nous voulons caractériser.</p>
+          <p>Laissez donc de côté, pour un moment, toute cette couleur de Christianisme qui est
+            comme le fard dont une femme malade voilerait sa pâleur ; entrez dans le fond de leur
+            pensée, et voyez ce qu’ils sont.</p>
+          <p>L’un ne sait chanter que la vie diffuse dans l’espace et le temps, coulant de forme en
+            forme dans le vaste océan de l’Être. Toujours abîmé dans la contemplation de la force
+            divine, les êtres finis ne lui apparaissent que sous des traits peu arrêtés, comme des
+            ondulations de la Vie générale. Ou il ne voit dans toutes ces formes que des chaînes qui
+            emprisonnent la vie, en empêchant chaque partie de se réunir à l’Être universel ; ou
+            bien, quand son cœur d’homme recommence à battre, quand la vie s’individualise un
+            instant pour lui, il les contemple avec effroi, comme des enveloppes trop faibles pour
+            préserver la vie qu’elles renferment contre l’océan de vie qui les bat et qui va les
+            briser, comme des digues impuissantes que le flot universel du temps et de l’espace
+            emporte. Voilà les deux seuls mouvements de sa poésie : semblable à la mer qui monte et
+            redescend, qui apporte un instant quelques corps sur le rivage, et bientôt les replonge
+            dans l’obscurité de son sein.</p>
+          <p>L’autre, au contraire, saisit la vie dans tous les moules qu’elle revêt ; il se place
+            dans un point de l’espace et du temps, et s’y enracine profondément ; il sépare, il
+            anime chaque objet qu’il touche ; il en projette <pb n="81" xml:id="p81"/>au loin les
+            reflets et les ombres ; il en décrit tous les rapports, toutes les harmonies et tous les
+            contrastes. Sa poésie est comme l’univers, dont Pascal a dit : Centre partout,
+            circonférence nulle part ; la <hi rend="i">vie</hi>, qui pour Lamartine est un tout, une
+            unité, un océan, paraît dans Victor Hugo comme la lumière qui inonde tous les corps,
+            mais qui, tout en les éclairant, en les baignant de ses flots, disparaît elle-même
+            devant eux, et ne se manifeste qu’en dessinant leurs contours et en peignant leurs
+            couleurs.</p>
+          <p>Lui aussi, quand il le veut, il peut, comme Lamartine, briser tous les moules et
+            généraliser la vie ; en vingt vers il peint l’extase devant la vie universelle : mais le
+            sentiment des êtres finis ne l’abandonne jamais, même quand il a le sentiment le plus
+            profond de l’infini. D’ailleurs il se livre rarement à cette contemplation ; son génie
+            le porte à individualiser la vie, c’est-à-dire à peindre toutes les formes de ce qu’on
+            appelle la matière et de ce qu’on appelle l’esprit ; à peindre des portraits, des
+            caractères et des passions.</p>
+          <p>En d’autres termes, l’un n’est que lyrique, et encore n’est lyrique que d’une seule
+            manière ; l’autre est à la fois lyrique et dramatique.</p>
+          <p>Par une conséquence nécessaire, la poésie de l’un se rapproche plus de la musique ;
+            celle de l’autre, de la sculpture et de l’architecture : ce qui ne veut pas dire que
+            l’un spiritualise la matière, et que l’autre matérialise l’esprit. Cette distinction,
+            qu’une critique superficielle a faite quelquefois entre eux, n’a aucun fondement. La
+            poésie de Victor Hugo n’est pas plus matérialiste ou matérielle que colle de Lamartine.
+            Je le répète, l’un généralise la vie, et l’autre l’individualise : voilà leur vraie et
+            fondamentale distinction. Et quant au procédé artistique, il est le même pour tous deux,
+            en ce sens que le symbole et le rythme étant les formes essentielles et uniques de
+            l’art, ces deux grands poètes ne diffèrent que dans l’emploi qu’ils en font.</p>
+          <p>Il est évident, en effet, que celui qui contemple toujours la vie universelle
+            symbolisera ses idées et les rythmes tout autrement que celui qui contemple la vie dans
+            ses formes particulières. L’un recherchera dans l’Univers tout ce qui, pour ainsi dire,
+            n’a pas de parties, c’est-à-dire les fluides impalpables ou tangibles dans lesquels les
+            parties tendent sans cesse à se rejoindre et à se réunir en un tout : l’air, les eaux,
+            les sons, les nuages. Et par une conséquence également nécessaire, son rythme sera
+            abondant, doux et fluide, mais souvent sans relief, traînant et vaporeux, comme les
+            objets qui lui fournissent ses images.</p>
+          <p>L’autre prendra surtout ses symboles dans l’univers visible. C’est de l’œil qu’il lui
+            faut. Les êtres que nous appelons vivants et ceux que nous regardons comme inanimés, les
+            édifices naturels que la terre présente à nos regards et les édifices que l’homme y a
+            ajoutés, seront les <pb n="82" xml:id="p82"/>miroirs où il lira et fera lire sa pensée.
+            Sa vue perçante saisit les lignes des montagnes et l’harmonie compliquée d’une
+            cathédrale du Moyen-Âge. Il regarde la Corse et Sainte-Hélène, et y lit la destinée de
+            Napoléon ; il voit cette destinée dans la bombe qui, partie de la terre, y revient après
+            avoir touché le ciel ; il la voit dans le Vésuve, que l’œil découvre toujours au milieu
+            de tous les sites et de toutes les merveilles de l’Italie ; et il rendra un culte
+            d’artiste aux pyramides et à la colonne où Napoléon lui-même, ce grand artiste, a
+            imprimé son sceau. Et non seulement son style peindra toujours, mais son rythme même
+            peindra, parce qu’il sera toujours l’enveloppe de son idée ou de son image, pareil à
+            l’argile qui dans les mains du mouleur prend toutes les formes. Aussi rejettera-t-il
+            avec dédain la mélopée insignifiante, et son rythme sera plein de relief et d’éclat,
+            mais brisant la lumière quand il le faudra, d’une science et d’une perfection que le
+            vulgaire ne comprendra pas.</p>
+          <p>Voilà, nous le répétons, le rapport fondamental et la distinction également
+            fondamentale de Victor Hugo et de Lamartine. La même inspiration panthéistique, le
+            sentiment le plus exalté et le plus profond de la vie universelle, la foi que dans le
+            monde tout est lié, tout est uni, accordé, qu’un anneau qui s’ébranle ébranle la chaîne,
+            qu’une corde qui vibre fait vibrer toutes les cordes de cette harpe infinie qui est
+            l’Univers ; voilà la grande pensée lyrique dans laquelle ils sont unis, et j’ose dire
+            que c’est la toute leur religion ; voilà aussi la partie vivante de leur œuvre ; voilà
+            ce qu’on découvre toujours sous l’enveloppe de leur poésie ; voilà le fond de leur âme
+            sous toutes les formes transitoires qu’ils ont pu ou qu’ils pourront revêtir. Et
+            remarquez que ces deux grands poètes, mis en parallèle sous le rapport de leurs
+            ressemblances comme sous celui de leurs contrastes, s’harmonisent admirablement, et
+            forment entre eux un parfait accord : car ils ont tous deux, au plus haut degré, le même
+            sentiment de la vie universelle, et, d’un autre côté, leurs génies sont tellement
+            opposés qu’ils expriment cette Vie par les deux faces, l’un de l’<hi rend="i"
+            >unité</hi>, et l’autre de la <hi rend="i">variété</hi>.</p>
+          <p>Mais non seulement ils sont harmoniques par ce que je regarde comme le fond de leur
+            nature et l’essence même de leur poesie ; ils s’harmonisent encore en ce que jusqu’ici
+            ils ont adopté tous deux le même monde de <hi rend="i">convention</hi>, le même système
+            social et religieux, la même <hi rend="i">révélation</hi>. En effet, sauf les
+            différences de leur génie et du point de vue où ils se placent, la terre est pour tous
+            deux une vallée de larmes, et la vie de la terre, prise même dans son ensemble et dans
+            la succession des générations, une chose transitoire et misérable, tandis qu’à ce monde
+            réel répond pour eux je ne sais quel monde mystérieux, qui est le monde divin. En cela
+            ils sont l’un et l’autre en complet désaccord avec eux-mêmes, avec leur conception de la
+            vie universelle et <pb n="83" xml:id="p83"/>de Dieu. Ils oublient le <quote><hi rend="i"
+                >in Deo sumus, in Deo vivimus</hi></quote>, de S. Paul, le <quote><hi rend="i"
+                >Jupiter est quodcumque vides</hi></quote> de Lucain ; ils s’oublient et se nient
+            eux-mêmes, ils publient le Dieu véritable, pour refaire un horizon à jamais dépassé par
+            l’Humanité, comme Lucain aurait pu s’oublier pour refaire, par besoin de forme
+            religieuse, le Styx et l’Achéron des poètes ses devanciers. Cependant, comme ils
+            présentent l’un et l’autre ce désaccord, leur rapport mutuel en devient plus
+            frappant.</p>
+          <p>Mais c’est aussi par là qu’ils diffèrent profondément de Byron et de tous les poètes
+            que j’appellerais volontiers <hi rend="i">Byroniens</hi>, qui, n’ayant pas admis ce
+            monde de convention, ce monde du passé, dont les deux termes étaient inégalité et
+            malheur sur la terre, égalité et bonheur dans le ciel, ne peuvent pas se reposer dans
+            une froide contemplation des misères de la terre, les étudier seulement pour les
+            peindre, ou les fuir pour se réfugier dans une sorte de stoïcisme divin.</p>
+          <p>Voyez, en effet ! le résultat est le même pour Hugo et pour Lamartine. L’un, dans sa
+            terreur de Dieu la plus vive, ou dans sa contemplation la plus calme, n’attache pas son
+            regard sur cette Humanité qu’il méprise. L’autre prend l’Humanité comme un spectacle
+            varié et infini, comme un théâtre pour faire briller la force de son génie. Il en
+            peindra hardiment toutes les misères, et les couleurs ne lui paraîtront jamais trop
+            fortes, les lignes trop arrêtées. De l’art, de l’art, toujours de l’art !</p>
+          <p>Ainsi ils arrivent tous deux au même vide et au même néant, par des routes diverses : :
+            l’un par la contemplation de la vie universelle, l’autre par la contemplation de la vie
+            dans ses formes particulières : l’un ne voyant que la vie générale, l’infini, l’absolu,
+            l’éternel, Dieu enfin, sans l’Humanité, et en Dieu même une œuvre de génération et de
+            destruction perpétuelle, sans but et sans résultat ; l’autre ne voyant que des êtres
+            jetés dans l’espace et le temps, sans lien, l’Humanité sans Dieu, et dans l’Humanité
+            même des forces isolées, des phénomènes transitoires, des générations sans succession,
+            des hommes enfin sans vie humanitaire, une Humanité sans but et sans résultat.</p>
+          <p>Si donc notre voix devait être entendue de ces deux grands poètes, nous dirions à
+            l’un :</p>
+          <p>« Le mystique lui-même, dans le Christianisme, ne concevait le cloître et le mysticisme
+            qu’unis au monde. L’Église était sur la terre la compagne mystique de Jésus ; par Jésus
+            et par l’Église la terre était unie au ciel. Le mysticisme du cloître avait sa place
+            dans l’Église, comme la prière dans la journée du chrétien. Mais qu’est-ce que le
+            mysticisme seul, le cloître seul, ou plutôt l’écho vaporeux du cloître, quand le cloître
+            même n’existe plus ?</p>
+          <p> » Ta poésie, en s’élevant de plus en plus à la contemplation de l’Être universel,
+            n’est pas pour cela devenue plus religieuse ; bien au <pb n="84" xml:id="p84"
+            />contraire, en devenant plus divine, si l’on peut parler ainsi, elle a de plus en plus
+            perdu la foi, l’espérance et la charité. Quittant la terre, et n’ayant qu’un
+            Christianisme incertain, sans dogmes, sans tradition, sans but providentiel pour
+            l’Humanité, elle ne jette pas le pont entre l’homme et l’homme, l’Humanité et Dieu ;
+            elle ne console pas, et n’excite pas à l’activité ; elle ne fait pas couler la vie du
+            petit monde en harmonie avec celle du grand monde : au contraire, elle la refoule dans
+            son cours, et ne l’agite si profondément que pour accumuler ses vagues sur notre cœur,
+            qui s’v noie. »</p>
+          <p>Et nous dirions à l’autre :</p>
+          <p>« Pourquoi cette apparence de calme religieux avec une pensée sceptique et incrédule,
+            ce culte idolâtre du passé avec un cœur bouillant d’avenir ? J’aime mieux la chrysalide
+            se développant dans le tombeau qu’elle s’est filé elle-même, préparant ses ailes
+            brillantes dans sa vieille peau, et paraissant cadavre au moment où elle va s’élancer
+            dans les airs, éclatante merveille de sa propre création ; j’aime mieux cela qu’une
+            pensée mélancolique, une pensée de mort et de renaissance, une pensée de ruine et de
+            construction nouvelle, qui va se loger dans les vieux débris du passé, dans les tours
+            des seigneurs du Moyen-Âge ou dans les églises gothiques, et qui dit : — Voilà mes
+            palais, j’ai retrouvé mon héritage ; — et qui ment en disant cela, puisqu’elle se
+            lamente en elle-même amèrement, et qu’elle désire autre chose d’un désir brûlant qui la
+            dévore.</p>
+          <p> » Veux-tu que le peuple aille habiter avec toi dans des tombeaux ? se plaira-t-il à
+            toute cette grandeur contre laquelle ses pères, vassaux révoltés, luttèrent pendant tant
+            de siècles, et qu’ils ont fini par traîner dans la poussière et dans le sang, contre
+            laquelle ses maîtres les philosophes ont prononcé un anathème et un arrêt de mort ?</p>
+          <p> » Ô malheur à l’artiste d’être ainsi en dehors de son temps ! ou plutôt malheur à
+            l’artiste qui, voyant son époque indécise flotter entre le passé et l’avenir, sans
+            destinée, se déchire ainsi lui-même, et finit par n’avoir pas d’autre religion sociale
+            que le culte de l’art, la religion de l’art !</p>
+          <p> » Oui, grand poète, tu sais dire la superstition de l’Arabe, qui croit voir, à travers
+            la vapeur de sable que soulève le simoun, l’ombre de Buonaberdi debout sur le sommet
+            d’une pyramide, ou l’illusion du matelot qui voit planer cette ombre, entourée de
+            nuages, sur le pic de Sainte-Hélène ; tu sais chanter la fée et la péri se disputant une
+            jeune âme au milieu du ciel, entre l’orient et l’occident, entre le merveilleux de la
+            matière et le merveilleux de l’esprit, entre le paradis des houris et le paradis
+            mystique des Chrétiens ; et quand les djinns funèbres passent en sifflant dans les airs,
+            ton vers, comme une onde sonore, associe tous les degrés du sentiment, depuis le calme
+            le plus <pb n="85" xml:id="p85"/>profond jusqu’à la terreur la plus vive, à tous les
+            degrés du son, depuis le souffle le plus léger jusqu’à la plus horrible tempête, par une
+            admirable combinaison d’harmonie que l’art n’avait pas su encore atteindre. Mais quand
+            tu laisses les superstitions du passé, quand tu ne fais plus de la poésie sur
+            l’histoire, quand tu parles en ton nom, tu es comme tous les hommes de ton époque, tu ne
+            sais rien dire sur le berceau ni sur la tombe. Pourquoi fais-tu réveiller ta jeune
+            Espagnole dans son tombeau par un affreux squelette, que tu nommes la Mort, et qui vient
+            convier ce fantôme à la danse des fantômes, en lui passant dans les cheveux ses doigts
+            longs et noueux de squelette ? Ainsi, suivant ton caprice, tantôt tu vois les âmes
+            sortir des corps avec des ailes d’or comme les séraphins ; tantôt, comme les mânes des
+            anciens, ce sont de tristes fantômes, des ombres du corps attachées comme lui à la
+            terre ; et, devant l’ombre silencieuse de ton Napoléon, passent et repassent sans cesse
+            les ombres silencieuses de ses capitaines. Mythologie usée, à laquelle le poète ne croit
+            pas, à laquelle personne ne saurait plus croire ; bonne dans les poèmes d’Homère ou dans
+            ceux d’Ossian, ou dans les légendes des moines du Moyen-Âge ; aujourd’hui froides
+            fictions, vain jeu de l’esprit, sorte de demi-rêve fantastique, qui n’a pas même
+            l’illusion que le sommeil prête à nos rêves !</p>
+          <p> » Voilà ce qui fait que ta poésie, quand on s’en approche intimement et qu’on la
+            recueille dans son cœur, est sombre et glaciale. Elle n’a pas de ciel et elle ne se lie
+            pas à la terre ; la foi, l’espérance et la charité lui manquent, comme à celle de
+            Lamartine. Poète, d’où vient l’Humanité, et où va-t-elle ? Voilà ce que tu ne sais pas ;
+            voilà ce que croyaient savoir, et ce que savaient en effet sous un voile prophétique,
+            tous les grands artistes du Moyen-Âge ; voilà ce que savaient ceux qui ont bâti les
+            cathédrales ; voilà ce que savaient Dante, Raphaël et Michel-Ange. »</p>
+        </div>
+        <div>
+          <head>V. Conclusion</head>
+          <p>Résumons-nous. Puisque tout est doute aujourd’hui dans l’âme de l’homme, les poètes qui
+            expriment ce doute sont les vrais représentants de leur époque ; et ceux qui font de
+            l’art uniquement pour faire de l’art sont comme des étrangers qui, venus on ne sait
+            d’où, feraient <pb n="86" xml:id="p86"/>entendre des instruments bizarres au milieu d’un
+            peuple étonné, ou qui chanteraient dans une langue inconnue à des funérailles. Leurs
+            chants ont beau être délicieux à mon oreille, le fond, le fond éternel de mon cœur est
+            le doute et la tristesse. Ce qu’il y a de réel pour moi, la poésie de Byron, poésie
+            ironique et désolante, qui soulève des abîmes où notre esprit se perd, et qui, comme les
+            harpies, salit, à l’instant même, tous les mets qui couvrent la table du festin. C’est
+            là le glas funèbre que ne me font pas oublier toutes ces harmonies qui s’élèvent des
+            Arabes ou des Persans, ou des châteaux du Moyen-Âge, ou des cathédrales gothiques. La
+            poésie que je sens encore dans sa réalité, c’est la poésie intime, la grande élégie de
+            Joseph Delorme : un enfant de génie, qui a cru à cette égalité dont on a assourdi ses
+            oreilles dès le berceau ; un homme qui se sent le cœur grand, les passions énergiques et
+            la tête puissante ; qui rêve, dans une société équitable, la gloire et les plaisirs qui
+            lui sont dus, et qui se trouve, lui poète, dans un hôpital, occupé à disséquer des
+            cadavres ; qui se plonge dans l’athéisme obscur de Bichat et de Cabanis, se dessèche
+            avec Locke et Condillac, jette un regard sur leurs successeurs parlant de liberté, de
+            devoir et de vertu, et ne trouve en eux que des sophistes ; homme du peuple, plein de
+            sympathie pour ce peuple qu’il voit traité comme un vil troupeau, plein de dégoût pour
+            toutes ces distinctions de rangs fondées sur une absurdité et sur une iniquité ;
+            cherchant avec enthousiasme la vertu pour l’honorer, et ne sachant à quel signe la
+            découvrir ; à la fois emblème de la souffrance de l’artiste et de celle du peuple ; et
+            qui finit par prendre en mépris le monde et l’Humanité, ne voit dans l’univers qu’un
+            destin aveugle, et, relevant sa tête hors du tombeau où il est déjà couché, et où, brisé
+            par la souffrance, il hésite devant le suicide, exhale ses derniers moments en sanglots
+            étouffés, en plaintes arides, en ironie amère, entremêlés de chants sublimes et
+            d’efforts qui touchent à la folie.</p>
+          <p>Byron dans tous ses ouvrages et dans toute sa vie, Goethe dans <title>Werther</title>
+            et <title>Faust</title>, Schiller dans les drames de sa jeunesse, Chateaubriand dans
+              <title>René</title>, Benjamin Constant dans <title>Adolphe</title>, Senancour<note
+              resp="editor" place="bottom">[NdE] Orthographié Sénancourt.</note> dans <title>Oberman</title>,
+            Sainte-Beuve dans le livre que nous venons de caractériser, une innombrable foule
+            d’écrivains anglais et allemands, et toute cette littérature de verve délirante,
+            d’audacieuse impiété et d’affreux désespoir qui remplit aujourd’hui nos romans, nos
+            drames et tous nos livres, voilà l’école ou plutôt la famille de poètes que nous
+            appelons <hi rend="i">Byronienne</hi> : poésie inspirée par le sentiment vif et profond
+            de la réalité actuelle, c’est-à-dire de l’état d’anarchie, de doute et de désordre où
+            l’esprit humain est aujourd’hui plongé par suite de la destruction de l’ancien ordre
+            social et religieux (l’ordre théologique-féodal) et de la <pb n="87" xml:id="p87"
+            />proclamation du principe de l’<hi rend="i">Égalité</hi>, qui doit engendrer une
+            société nouvelle. Et nous venons de voir comment, en face de cette école, fille directe
+            de la Philosophie du Dix-Huitième Siècle, est venue se placer une autre famille
+            poétique, dont Lamartine et Hugo sont les représentants et les chefs en France ; école
+            qui, au fond, est aussi sceptique, aussi incrédule, aussi dépourvue de religion que
+            l’école Byronienne, mais qui, adoptant le monde du passé, ciel, terre et enfer, comme un
+              <hi rend="i">datum</hi>, une convention, un axiome poétique, a pu paraître aussi
+            religieuse que la poésie de Byron paraissait impie, s’est faite <hi rend="i">ange</hi>
+            par opposition à l’autre qu’elle a traitée de <hi rend="i">démon</hi>, et cependant a
+            fait route de conserve avec elle pendant plus de quinze ans, à tel point que l’on a vu
+            les mêmes poètes passer alternativement de l’une à l’autre, sans même se rendre compte
+            de leurs variations ; tantôt incrédules et sataniques comme Byron, tantôt Chrétiens
+            résignés comme l’auteur de l’<title>Imitation</title>.</p>
+          <p>Ces deux poésies, qui se sont montrées simultanément en France, en Angleterre, en
+            Allemagne, rentrent tout à fait dans le principe que nous avons émis sur la loi du <hi
+              rend="i">développement de l’art</hi> ; car toutes deux sont l’expression de l’époque,
+            toutes deux ont été engendrées par la réalité actuelle, par la nature du temps où nous
+            vivons. Seulement l’une, la poésie que nous appelons <hi rend="i">Byronienne</hi>, sort
+            des entrailles mêmes de la société actuelle, si je puis m’exprimer ainsi ; elle découle
+            naturellement de la Philosophie du Dix-Huitième Siècle et de la Révolution Française ;
+            elle est le produit le plus vivant d’une ère de crise et de renouvellement, où tout a dû
+            être mis en doute, parce que, sur les ruines du passé, l’Humanité va commencer
+            l’édification d’un monde nouveau ; tandis que l’autre, bien que progressive en ce
+            qu’elle révèle le même besoin par son retour au Christianisme, est pour ainsi dire
+            l’inspiration du passé voulant vivre dans le présent, le résultat d’une reprise
+            momentanée de l’ancien ordre social et religieux dont l’Humanité, inquiète et reculant
+            d’effroi devant l’enfantement de ses destinées nouvelles, s’est donné à elle-même une
+            représentation avant de le délaisser à jamais : ainsi les Juifs dans le désert, marchant
+            vers la terre promise, recommencèrent un jour à adorer les dieux d’Égypte.</p>
+          <p>La distinction de ces deux poésies est aussi importante que facile à faire ; et avec
+            elle on se rend compte de toutes les oppositions, de tous les contrastes que présente la
+            littérature actuelle.</p>
+          <p>L’une répond à l’état vrai de l’Humanité de notre temps ; c’est le fond noir et profond
+            du cœur humain dans notre époque. L’autre est comme un nuage fantastique voltigeant sur
+            cet abîme : quand on le considère d’un pic élevé de montagne qui le domine, on aperçoit,
+            à travers sa légèreté transparente, l’abîme obscur par-dessous ; et ce nuage même, <pb
+              n="88" xml:id="p88"/>avec ses formes chimériques et ses teintes lumineuses qui
+            décomposent tous les rayons du ciel, c’est encore l’abîme qui, chauffé par le soleil,
+            lui a donné naissance, et s’en couvre comme d’un voile diaphane, jusqu’à ce que le voile
+            retombe en pluie froide dans le sein qui l’a produit.</p>
+          <trailer>FIN DU DISCOURS AUX ARTISTES.</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

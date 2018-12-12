@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-12T10:36:11+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Discours aux philosophes. De la situation actuelle de l’esprit humain</title>
+        <author key="Leroux, Pierre (1797-1850)">Pierre Leroux</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/leroux_discours-aux-philosophes/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Pierre Leroux</author>, <title><hi rend="i">« Premier discours. Aux
+              Philosophes. De la situation actuelle de l’esprit humain » [</hi>Revue indépendante<hi
+              rend="i">, 1841], in </hi>Œuvres de Pierre Leroux (1825-1850)</title>,
+            <pubPlace>Paris</pubPlace>, <publisher>Société typographique, Lesourd, Gustave Sandré,
+            Louis Nétré</publisher>, <date>1850</date>, <biblScope>t. I, p. 5-57</biblScope>.
+          Source : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5553h">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1841"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="6" xml:id="p6"/>
+        <head>Premier discours. Aux Philosophes. <lb/>De la situation actuelle de l’esprit
+          humain</head>
+        <p>Le fonds de ce Discours parut en 1831 dans la <title>Revue Encyclopédique</title>, cahier
+          d’août.</p>
+        <div>
+          <pb n="7" xml:id="p7"/>
+          <head>I.</head>
+          <p>Le Dix-Huitième Siècle tout entier peut, sous un certain aspect, se résumer dans une
+            idée. Les philosophes ont dit aux rois, aux nobles, et aux prêtres : « Vous n’êtes plus
+            dignes de gouverner les hommes ; car vous n’êtes ni les plus aimants, ni les plus
+            intelligents, ni les plus laborieux. » Les philosophes développèrent cette pensée sous
+            mille formes dans tous leurs ouvrages. Mais à peine les plus grands, Rousseau, Diderot,
+            Voltaire, étaient-ils descendus dans la tombe, le peuple, instruit par eux, brisait ces
+            rois, ces nobles et ces prêtres, qu’on lui avait représentés comme des tyrans et des
+            imposteurs.</p>
+          <p>Qu’en est-il résulté ? On appelait autrefois politique la politique des rois, la
+            politique des prêtres, la politique des nobles, et même la politique des bourgeois. Mais
+            depuis cette insurrection victorieuse de nos pères, il n’y a plus, pour la pensée
+            humaine, ni rois, ni prêtres, ni nobles, ni bourgeois. Il y a le peuple, il y a des
+            citoyens, des égaux, des hommes. La politique n’a donc plus qu’un principe, l’<hi
+              rend="i">égalité</hi>, source du droit ; un but, la <hi rend="i">liberté</hi>,
+            c’est-à-dire la liberté de chacun, le perfectionnement de chacun, la manifestation des
+            facultés de chacun ; enfin un moyen d’arriver à ce but, la <hi rend="i">fraternité</hi>.
+            Oui, nos pères, en proclamant cette formule <hi rend="i">Liberté, Égalité,
+              Fraternité</hi>, sur les ruines de tous les despotismes, ont proclamé la vérité.</p>
+          <p><pb n="8" xml:id="p8"/>Et nonobstant cette vérité qu’ils ont proclamée (ou plutôt à
+            cause même de cette vérité), tous ceux qui, depuis cette époque, ont jeté sur la société
+            un regard profond, se sont écriés : « La société est en poussière. » Les plus hardis des
+            jacobins, parvenus au sommet de leur œuvre sanglante, effrayés de cette mer qu’ils
+            avaient déchaînée, de <hi rend="i">ces flots que rien ne gouverne et n’arrête</hi>,
+            prirent des vertiges, et cherchèrent, mais en vain, un gouvernement qui pût convenir à
+            cette société nouvelle et affranchie. On essaya d’abord une fausse imitation de
+            l’antiquité grecque et romaine : c’était retourner à l’enfance. Le despotisme de la cité
+            antique pouvait-il nous convenir ? Est-ce que le monde n’a pas changé depuis deux mille
+            ans ? Ces formes sont tombées, deux mille ans ont passé, et on voulait les faire
+            renaître ! Mais rendez-nous donc et le Polythéisme, et la barbarie de mœurs, et le
+            fanatisme étroit de la cité grecque ou romaine ! Les anciens ont connu la liberté pour
+            quelques-uns ; ils n’ont pas connu l’égalité. Ils n’ont pas connu la fraternité humaine,
+            puisque le Christianisme a été nécessaire. Oublie-t-on que les citoyens de Sparte,
+            d’Athènes ou de Rome étaient nourris par des troupeaux d’esclaves ! Oublie-t-on que la
+            guerre était la condition de l’Humanité à cette époque ! Qu’arriva-t-il ? cette parodie
+            de la Rome républicaine fraya la route à un nouveau César. Napoléon, à son tour,
+            parcourant rapidement les phases de l’histoire, finit par prendre modèle sur le
+            Moyen-Âge et sur Charlemagne ; et, accomplissant au dehors son œuvre de conquérant et de
+            civilisateur, il garda la France militairement, comme on garde une ville en état de
+            siège. La Restauration vint ensuite essayer, par un adroit compromis avec nos idées de
+            89, de nous remettre dans le moule brisé de la vieille monarchie. Le roi se
+            considérerait comme le successeur de ses aïeux, le maître légitime de son peuple ; les
+            nobles se pavaneraient de leur noblesse, et seraient privilégiés ouvertement ou en
+            secret ; les prêtres entretiendraient la nation dans l’ignorance ; un pacte s’établirait
+            entre tous ces vieux débris de l’ancien régime et l’aristocratie de la richesse ; et
+            cependant le peuple, le peuple immense, travaillerait pour nourrir l’oisiveté, livré
+            lui-même héréditairement à l’immoralité, à l’abrutissement, à la misère. Et voilà ce que
+            des hommes d’esprit ont regardé comme définitif ; voilà ce qu’ils ont paré du langage
+            mystique du constitutionalisme ! Fictions, pures fictions, contre lesquelles tant
+            d’hommes généreux ont au contraire protesté de toute manière, et qu’un geste du peuple a
+            fait évanouir au soleil de juillet !</p>
+          <p>Ainsi la France, après avoir détruit l’ordre théologique et féodal, a été livrée à
+            trois séries d’expériences qui n’étaient toutes qu’une triste et impuissante
+            rétrogradation, qu’une parodie misérable de l’Antiquité, du Moyen-Âge et de la
+            Monarchie.</p>
+          <p>Depuis quarante ans, les formes politiques se succèdent, et croulent <pb n="9"
+              xml:id="p9"/>les unes sur les autres comme dans un abîme. Cependant le Sphinx de la
+            Révolution tient toujours écrit sur sa bandelette mystérieuse la formule du problème
+            posé par nos pères : <hi rend="i">Liberté, Égalité, Fraternité</hi>.</p>
+          <p>Vainement les générations fatiguées apportent les unes après les autres au pouvoir
+            leurs transfuges de liberté : toujours il surgit du sein du peuple de nouveaux
+            combattants qui réclament la promesse.</p>
+          <p>Certes, aujourd’hui encore il ne manque pas de gens qui voudraient relever les Actions
+            de la Restauration du milieu des pavés de Paris, leur rendre leur clinquant, nous
+            endormir, nous enchaîner, et reprendre eux-mêmes leur repos et leurs voluptés sur cet
+            abîme du peu pie où s’agitent tant de misères ! Mais ces prétentions rallument la haine
+            et la colère des hommes qui croyaient en avoir fini avec le passé, et la lutte continue
+            avec acharnement.</p>
+          <p>La lutte continuera, et les politiques bâtiront, comme a dit un poète, <quote><hi
+                rend="i">sur l’incertain du sable</hi></quote>. Nous sommes arrivés à une de ces
+            époques de renouvellement où, après la destruction d’un ordre social tout entier, un
+            nouvel ordre social commence.</p>
+          <p>La Révolution Française n’a pas seulement été une révolution politique, elle a été
+            aussi une révolution dans l’ordre moral : elle ne peut se terminer que par une
+            réorganisation morale. Hommes de la liberté, quand vous aurez bien combattu sur des
+            ruines, ce n’en seront pas moins des ruines. Hommes du pouvoir, vos efforts rétrogrades
+            sont jugés ; mais quand vous réussiriez quelque temps à faire de l’immobilité, ce ne
+            serait jamais de l’ordre, ce ne serait qu’un désordre caché. Le sable du désert peut,
+            sous une atmosphère lourde et chargée d’orage, rester immobile sans cesser d’être
+            poussière. La société est en poussière. Et il en sera ainsi tant qu’une foi commune
+            n’éclairera pas les intelligences et ne remplira pas les cœurs. Voyez ! un seul soleil
+            éclaire tous les hommes, et, leur donnant une même lumière, harmonise leurs mouvements ;
+            mais où est aujourd’hui, je vous le demande, le soleil moral qui luit pour toutes nos
+            consciences ?</p>
+        </div>
+        <div>
+          <head>II.</head>
+          <p>Ce n’est pas en vain qu’on a appelé <hi rend="i">Révolution</hi> la série d’événements
+            qui a commencé en 89, afin de marquer par ce mot que rien de pareil n’avait eu lieu
+            jusque-là dans notre histoire, qu’aucune des crises antérieures n’avait dépassé les
+            limites de l’ordre social et religieux du Moyen-Âge, et que, pour la première fois, cet
+            ordre était renversé.</p>
+          <p><pb n="10" xml:id="p10"/>Parcourez les douze siècles de l’histoire de l’Europe depuis
+            le moment où l’Église Chrétienne sortit des décombres de l’Empire Romain envahi par les
+            Barbares, jusqu’au moment où la Philosophie posa ses hardis problèmes, vous reconnaîtrez
+            d’une manière indubitable un caractère commun à toute cette époque. Vous verrez, pendant
+            ces douze siècles, le même esprit humain, pour ainsi dire, et par conséquent la même
+            constitution sociale, ayant ses accidents, ses crises, ses transformations, comme tout
+            ce qui a vie, mais conservant toujours les mêmes conditions d’existence ; toujours une,
+            quoique diverse et muable dans son développement. Là, comme dans tout être vivant, la
+            vie est une suite non interrompue de changements ; mais l’enfance, la jeunesse, la
+            virilité, la vieillesse, forment une série continue que vient terminer la mort. Que la
+            vie renaisse de la mort, cela est certain ; mais la mort est un terme après lequel les
+            conditions d’existence sont changées.</p>
+          <p>Les conditions fondamentales d’existence n’ont point changé pour la société pendant
+            tout le Moyen-Âge ; car cette société du Moyen-Âge, qui a eu son enfance, sa jeunesse,
+            sa virilité, sa vieillesse, et qui est morte aujourd’hui, peut se comprendre, malgré ses
+            périodes diverses, dans une seule formule que voici : « La terre, livrée au mal, était
+            considérée comme un lieu d’épreuves, et comme le vestibule d’un ciel où le mal serait
+            réparé. » Cette croyance a duré pendant tout le Moyen-Âge, et n’a été définitivement
+            détruite que dans le dernier siècle. Donc ce que j’appelle les conditions d’existence
+            pour la société n’a point changé pendant tout ce Moyen-Âge.</p>
+          <p>Il y a eu, pendant tout ce Moyen-Âge, un homme, c’est-à-dire l’homme, qui a cru que la
+            terre n’était qu’un lieu d’épreuves conduisant soit à l’enfer, soit au paradis. Et cet
+            homme a vécu conformément à cette foi ; et la société a été la conséquence de cet homme
+            ainsi limité ; et quand cette foi a dépéri, la société a dépéri ; et quand cette foi
+            s’est éteinte, la société s’est éteinte.</p>
+          <p>N’est-il pas vrai que les physiologistes, d’accord en cela avec le vulgaire,
+            distinguent quatre âges ou périodes dans la vie humaine, l’enfance, la jeunesse, la
+            virilité, la vieillesse ? Je diviserais volontiers l’histoire de l’Europe, pendant les
+            douze siècles dont je parle, en quatre âges correspondants à ces quatre âges de l’homme.
+            D’abord l’enfance, quand les Barbares se soumirent à la croyance du paradis et de
+            l’enfer : c’est l’âge des moines et de la papauté, du sixième au onzième siècle. Puis la
+            jeunesse, quand la société laïque commença à se former, et se mit à réfléchir, à
+            imaginer : c’est l’âge de la féodalité et de la scolastique, mais c’est l’âge aussi des
+            hérésies, depuis le douzième siècle jusqu’au quinzième. Ensuite la virilité, quand la
+            société produisit successivement la Renaissance, la Réforme, la Philosophie : c’est
+            l’âge de <pb n="11" xml:id="p11"/>la monarchie, mais c’est l’âge aussi des savants, des
+            artistes et des philosophes ; c’est le seizième et le dix-septième siècle, l’âge de
+            Raphaël et de Luther, de Shakespeare et de Galilée, de Molière et de Leibniz<note
+              resp="editor" place="bottom">[NdE] Orthographié Leibnitz.</note> : art, poésie,
+            science, philosophie, rien ne sort encore bien ostensiblement de la conception de la
+            terre considérée comme un lieu d’épreuves menant à l’enfer ou au paradis ; et pourtant
+            qui ne sent qu’on touche déjà à la limite de cette idée ? Enfin vient la vieillesse, où
+            la société abdique la pensée sous l’empire de laquelle elle s’est élevée et a vécu :
+            elle se rit des rêves de son enfance, des idées de son âge mûr ; elle se rit de l’enfer
+            et du paradis ! Est-ce donc qu’elle a conçu, pendant sa virilité, le germe de la société
+            nouvelle qui doit la remplacer ? Veut-elle renaître comme le papillon qui sort de la
+            chrysalide ? « Mourir, renaître, dit Shakespeare, voilà le problème ! » Ce qui est
+            certain, c’est qu’elle abdique sa pensée constitutive, et s’efforce de l’effacer comme
+            une erreur et un mensonge. C’est l’âge de la destruction du Christianisme et de la
+            Féodalité, du renversement des rois, des nobles et des prêtres ; c’est le Dix-Huitième
+            Siècle, c’est l’âge de Voltaire.</p>
+          <p>Oui, à travers toutes ces phases successives et au milieu de tous les faits qui les ont
+            marquées ; à travers cette première époque nébuleuse où l’Église soumit les Barbares
+            avec la peur de l’enfer et l’espérance du paradis, les forçant à mettre leurs framées au
+            service de cette idée ; comme à travers les luttes intestines de la féodalité, ou les
+            combats de la monarchie et de la bourgeoisie contre la noblesse d’abord et entre elles
+            ensuite ; comme à travers l’insurrection du pouvoir temporel contre la papauté, et de la
+            société laïque contre les ordres monastiques ; comme à travers les guerres des provinces
+            et des monarchies, et les débats sanglants des sectes religieuses entre elles ; au
+            milieu, dis-je, de tant d’élévations prodigieuses et de tant de chutes non moins
+            remarquables, toujours (pour qui comprend comment l’esprit humain engendre et renouvelle
+            la société), toujours la société, dans ce grand espace de temps, a été fondamentalement
+            la même. Bien des commotions, sans doute, et d’innombrables changements ont eu lieu dans
+            cet espace de temps si long ; les mœurs, les lois, les croyances, se sont modifiées sans
+            cesse : mais toutes ces évolutions s’accomplirent dans le sein du même ordre social et
+            religieux ; et, pendant qu’elles s’accomplissaient, le système lui-même, dans son
+            essence, restait immuable et vivait toujours de la même vie. Car la circonférence de
+            l’esprit humain restait la même ; la terre et le ciel ne changeaient pas : la terre
+            livrée à une inégalité consentie, le ciel ouvert à chacun suivant ses mérites.</p>
+          <p>Dans toute cette immense période, en effet, le préjugé des races exista ; tout homme
+            trouvait juste de relever de ses pères ; tous croyaient à la noblesse, à la supériorité
+            du rang ; l’égalité des hommes sur la <pb n="12" xml:id="p12"/>terre n’était pas même
+            soupçonnée. Mais tous croyaient fermement à cette égalité devant Dieu et dans l’Église.
+            Ainsi l’Église et la vie future qu’elle annonçait, et dont elle enseignait les voies,
+            étaient le complément ou la réparation de la vie séculière et de la vie terrestre. Pour
+            le cœur et l’esprit, la loi chrétienne était souveraine ; et si elle n’administrait pas
+            le monde matériel, elle le dirigeait et le dominait. Il n’y avait pas un incrédule sur
+            un million d’hommes. Aux affligés, aux malheureux, il restait (même après que tout leur
+            avait défailli) une croyance que rien ne troublait, savoir que cette vie n’était qu’un
+            passage vers la vie éternelle. Le juste et l’injuste étaient définis : quand un homme
+            violait la loi, on ne se demandait pas avec anxiété si la société n’était pas cause ou
+            complice de son crime ; on l’appelait méchant, et on le punissait. En un mot, toutes les
+            âmes avaient foi dans l’ordre politique et dans l’ordre religieux ; et cette foi se
+            manifestait dans tout ce que la poésie, c’est-à-dire le symbole, pouvait enfanter pour
+            la vue ou pour les oreilles : les cathédrales, les tableaux, les poèmes<note
+              resp="editor" place="bottom">[NdE] Orthographié poèmes.</note>. Ainsi l’homme tout
+            entier était rempli ; tous les problèmes que son esprit pouvait soulever avaient leur
+            solution ; toutes les maladies de son âme, leur remède.</p>
+          <p>Et qu’on ne croie pas que je veuille faire de ce Moyen-Âge une peinture agréable et
+            fausse. Je dirai, au contraire, que ce qui a fait imaginer ces grandes et sublimes
+            fables du Christianisme, c’est la souffrance horrible des hommes à cette époque. Plus la
+            condition des hommes était mauvaise, plus leur foi dans le ciel équitable devait être
+            grande. Le ciel et la terre se correspondaient et se suppléaient ; l’un était la
+            conséquence, la déduction sentimentale et logique de l’autre : tous deux étaient, pour
+            ainsi dire, le produit d’une pensée unique ; et tous deux devaient disparaître et tomber
+            en même temps.</p>
+          <p>Admirez, en effet, la logique de l’esprit humain durant tout le Moyen-Âge, ou, pour
+            mieux dire, depuis la venue du Christ jusqu’à la Révolution Française. Ce que l’homme
+            n’avait pas et ne concevait pas possible sur la terre, l’égalité, la justice, le
+            bonheur, il le plaçait dans le ciel, et en jouissait par anticipation. Ainsi la
+            conscience et l’intelligence humaines étaient satisfaites.</p>
+          <p>Mais, pour comprendre combien ce système était complet, il faut rapprocher du dogme du
+            paradis le dogme de la chute. L’inégalité de naissance et de races existait sur la
+            terre ; on était prédestiné de père en fils ; le fils souffrait à cause de son père :
+            pourquoi cette iniquité ? redoutable problème, dont voici la solution : C’est que toute
+            l’Humanité relève d’Adam, et a péché avec lui.</p>
+          <p>Puis encore nouveau problème et nouvelle solution ; car on se demandait comment
+            l’Humanité pourrait être sauvée. Entre la chute <pb n="13" xml:id="p13"/>originelle et
+            le paradis, il fallait bien un lien qui les unît, qui servît de pont à l’Humanité : de
+            là le dogme de l’incarnation de Jésus-Christ et sa passion.</p>
+          <p>On put alors dire aux hommes : «Vous vous plaignez de souffrir ; et le juste par
+            excellence, le Fils de l’Homme, le Fils de Dieu, n’a-t-il pas souffert aussi, n’a-t-il
+            pas souffert plus que vous ? Voyez sa croix ! Et n’est-il pas venu pour vous racheter,
+            vous et tous ceux qui souffrent ? Ne vous a-t-il pas ouvert, par sa mort, la porte d’un
+            séjour d’où la douleur sera bannie, et où tous seront rétribués suivant leur mérite et
+            pour leurs souffrances mêmes ? » Je le demande, comment l’esprit humain aurait-il pu
+            douter de ce ciel en voyant la terre, et comment aurait-il pu rejeter la loi terrestre
+            en voyant ce ciel ? Vous vous étonnez que l’Humanité ait pu rester si longtemps
+            emprisonnée dans ce redoutable cercle ; ah ! je m’étonne bien plus qu’elle ait pu en
+            sortir.</p>
+          <p>Oui, je le comprends nettement, tout le travail d’édification du Christianisme est en
+            germe dans la pensée que je viens d’énoncer. Pourquoi l’Humanité s’est-elle rattachée,
+            par tant de travaux et avec tant de soumission et d’amour, aux vieilles traditions du
+            Judaïsme ? c’est qu’elles seules pouvaient alors lui donner l’explication de son
+            origine, et en même temps la prophétie de sa destinée, en lui enseignant et l’unité de
+            Dieu et l’unité de la race humaine. Pourquoi l’Arianisme a-t-il été vaincu ? c’est parce
+            qu’il était impossible de concevoir que l’homme, puni et condamné par Dieu, pût se
+            sauver par lui-même : donc le Sauveur était Dieu.</p>
+          <p>Passé, présent, avenir de l’Humanité ; Adam, Jésus, le règne de Dieu, voilà les termes
+            d’une série où tout est clair, lié, enchaîné ; série où le monde réel d’alors, le monde
+            de l’inégalité et du malheur, se trouve expliqué, entre un passé qui l’a produit, et un
+            avenir réparateur. Douleur dans le présent, donc crime dans le passé, mais espérance et
+            justice dans l’avenir : c’est ainsi que le cœur humain a senti, que l’esprit humain a
+            raisonné ; et, recueillant avec joie dans l’univers entier tous les vestiges de son
+            histoire, s’inspirant de la terre, des cieux, et de tous les phénomènes tels que l’homme
+            les concevait alors, l’Humanité a bâti l’immense édifice du Christianisme, et elle y a
+            vécu.</p>
+          <p>Ne séparez donc pas la religion de la société : c’est comme si vous sépariez la tête
+            d’un homme de son corps, et que, me montrant ce cadavre, vous osiez me dire : Voilà un
+            homme. La société sans la religion, c’est une pure abstraction que vous faites, car
+            c’est une absurde chimère qui n’a jamais existé. La pensée humaine estime, et elle est à
+            la fois sociale et religieuse, c’est-à-dire qu’elle a deux faces qui se correspondent et
+            s’engendrent mutuellement. À telle terre répond tel ciel ; et réciproquement, le ciel
+            étant donné, la terre s’ensuit.</p>
+          <p>Cette vérité pourrait se démontrer pour toutes les périodes du <pb n="14" xml:id="p14"
+            />développement de l’Humanité, comme pour la période chrétienne. Mais peut-être est-on
+            tenté d’en douter en voyant ce qui se passe aujourd’hui, comme si l’état présent n’était
+            pas, au contraire, la plus éclatante démonstration qu’il n’y a point de société sans
+            religion. Vous demandez où est aujourd’hui la religion, et moi je vous demande où est
+            aujourd’hui la société. Ne voyez-vous pas que l’ordre social est détruit, comme l’ordre
+            religieux ? la ruine de l’un joint la ruine de l’autre. Encore une fois, l’édifice
+            humain est à la fois ciel et terre, qui s’élèvent, durent, et tombent en même temps.</p>
+        </div>
+        <div>
+          <head>III.</head>
+          <p>« Tu aimeras Dieu de toute ton âme et ton prochain comme toi-même. L’homme autrefois a
+            péché, et voilà pourquoi la vie terrestre est une vallée de larmes. Mais ce n’est qu’un
+            passage : il y aura une autre vie ; car Jésus, par sa mort, a racheté les hommes du
+            péché. » Avec cela, tout homme avait, pour ainsi dire, une boussole pour tous les
+            événements de sa vie. Pauvre ou riche, heureux ou malheureux, il avait la raison
+            suffisante de toute chose. Ainsi jalonné en avant et en arrière, il n’avait plus qu’à
+            harmoniser sa vie avec ce point de départ et ce but. Sa naissance, sa condition, était
+            un fait qu’il devait accepter tel qu’il lui était donné. Heureuse, elle ne devait lui
+            paraître qu’une occasion plus favorable de s’avancer vers la destinée éternelle par ses
+            mérites envers ses frères ; malheureuse, il n’avait pas le droit d’en murmurer.
+            L’inégalité des conditions, la rigueur incessante du sort pour le grand nombre, le
+            scandale de la richesse avec tous les vices chez quelques-uns, l’iniquité, la tyrannie
+            des gouvernants et des maîtres, tout ce chaos enfin qui pèse si atrocement sur nos âmes
+            et sur notre imagination, à nous que la Philosophie du Dix-Huitième Siècle et la
+            Révolution ont émancipés du passé en esprit, mais non pas en fait ; ce chaos, dis-je,
+            n’existait pas pour l’homme qui portait gravée dans son cœur, dès ses premiers pas dans
+            la vie, la solution chrétienne. Avec cette solution, il n’y avait même sur la terre
+            aucun mal absolu, puisque tout mal était amplement réparé. Tout, au contraire, était
+            épreuve et occasion de salut, pour cette autre vie qui absorbait les âmes. Ajoutez que
+            les institutions répondaient de toute part à cette éducation, et qu’à chaque instant il
+            ne tenait qu’à vous de fortifier et d’éclaircir votre foi, de la retremper, de la
+            regraver en vous-même, en vous adressant à l’Église, qui, incessamment, jour et nuit, et
+            par toutes sortes de voies, appelait chacun à venir se purifier et se reposer un instant
+            dans son sein ou s’y confier pour toujours.</p>
+          <p><pb n="15" xml:id="p15"/>Or, maintenant, je le demande, où sont les principes que vous
+            donnerez comme une boussole à vos jeunes générations ?</p>
+          <p>Croyez-vous, par hasard, qu’il n’en soit pas besoin, que ce soit chose superflue et
+            dont les hommes se passeront désormais ? Croyez-vous que l’homme, après s’être toujours
+            fait une solution du problème humain et divin, soit arrivé, de progrès en progrès, à une
+            époque où il vivra sur la terre, comme l’animal, sans conscience et sans souci de la
+            destinée générale ? et regardez-vous comme le dernier terme des lumières et de la raison
+            de réduire trente-deux millions d’hommes à une existence purement phénoménale ? Puis,
+            concevez-vous la société sans aucune base reconnue ? Jouir, diront les uns ; souffrir,
+            diront les autres ; hasard, fatalité, diront-ils tous en chœur. Mais n’entendez-vous pas
+            ceux-ci s’écrier en murmurant : Pourquoi toujours souffrir ?</p>
+          <p>Le stoïcisme et l’épicuréisme ont pu être, comme Montaigne le dit de l’épicuréisme du
+            doute, un oreiller doux et suffisant à quelques-uns, car l’orgueil calme du stoïcien a
+            aussi sa douceur. Mais ce n’est qu’une exception, un cas particulier infiniment rare.
+            L’immense majorité des têtes humaines est’ incapable de reposer sur cet oreiller. Il
+            faut pour s’y appuyer des dispositions innées toutes particulières. L’épicurien qui sait
+            vivre calme dans des bornes vertueuses est un prodige ; le stoïcien qui sait
+            religieusement souffrir en est un autre. Laissons donc les prodiges, les exceptions, et
+            considérons le grand nombre, la multitude, devant laquelle les exceptions sont comme si
+            elles n’existaient pas.</p>
+          <p>Or, sans même parler de l’immense multitude, abandonnée, comme un vil troupeau, à
+            l’instinct de ses passions aux prises avec la nécessité et le hasard social, qu’est-ce
+            aujourd’hui que l’éducation pour le petit nombre qui en reçoit ? C’est la lutte des
+            traditions du passé avec la science moderne, la lutte des dogmes chrétiens, auxquels la
+            société livre l’enfance (comme si le rebut des hommes mûrs était assez bon pour
+            l’enfance), et de la philosophie, qui ne sait encore que détruire ; c’est un mélange
+            hétérogène de toutes sortes de principes qui ne sont pas des principes, de vérités et
+            d’erreurs mêlées à dessein. La synthèse nouvelle, n’étant pas faite, laisse de toute
+            part un vide immense ; et, pour remplir le vide, on met à dessein l’erreur, comme si
+            elle pouvait tenir la place de la vérité, et comme si l’erreur et la vérité ne devaient
+            pas se combattre, en telle sorte que le tout devienne creux et vide. Ainsi se forment de
+            fragiles caractères, pleins de trouble et d’incohérence, ou de stériles et ingrates
+            natures, n’ayant d’autre règle que l’égoïsme. Et une fois la vie ainsi commencée, elle
+            continue de faux pas en faux pas. L’enfant devient homme, époux et père ; il voit
+            s’élever autour de lui des berceaux et des tombes ; et, à mesure, son cœur s’atrophie et
+            se resserre, ou se désole et se lamente amèrement ; <pb n="16" xml:id="p16"/>car plus sa
+            pensée devient grave, plus l’isolement se fait sentir, plus la misère de l’homme réduit
+            à ses propres forces dans la solitude de cette société devient pénible et affreuse. Sur
+            tous les grands mystères qui enserrent la vie humaine, comme sur tous les devoirs de
+            cette vie, la société silencieuse l’abandonne à lui-même : pas une leçon, pas un
+            conseil, pas un appui. Si son œil plonge dans la profondeur de son cœur, s’il se reporte
+            aux souvenirs de son enfance pour chercher les principes que la société lui a donnés,
+            afin de le préparer à ses lois, qu’y trouve-t-il ? Des puérilités, des mensonges, que
+            plus tard la société elle-même a effacés en s’en moquant. On s’est joué de ce qu’il y a
+            de plus saint au monde, la naïveté de l’âme humaine arrivant à la connaissance et à la
+            vie. Son imagination lui retrace des hommes noirs qui ont pris son enfance malléable et
+            crédule, et lui ont gravé dans la tête des idées superstitieuses ou des débris de
+            vérités antiques dont eux-mêmes n’avaient plus le sens. Voilà ceux qui lui ont dit
+            quelque chose sur la destinée générale, sur le pourquoi de la vie, sur le passé, sur
+            l’avenir ; voilà ceux qui lui ont parlé de Dieu ; et plus tard d’autres éducateurs, les
+            savants, les philosophes, le monde, l’ont pris à leur tour, et ont tout effacé. Ô
+            douleur de l’âme humaine, souillée d’abord des superstitions du passé, à l’âge où elle
+            est tendre et naïve, et ensuite détrompée et abandonnée ! Les Scythes, dit-on, crevaient
+            les yeux à leurs esclaves : de même faisons-nous à nos enfants ; nous les élevons
+            d’abord avec les dogmes du Christianisme, pour qu’ils restent ensuite toute leur vie
+            privés de la vue. Ainsi isolé au milieu de l’Humanité du dix-neuvième siècle, l’homme
+            est plus pauvre en science, en certitude, en morale, qu’il ne le fut jamais dans des
+            âges moins avancés de l’Humanité. Déjà la vie, déjà la mort l’assiègent de leurs
+            mystères ; à qui s’adressera-t-il ? Retournera-t-il vers ses éducateurs les hommes
+            noirs ? ira-t-il faire consacrer, par ces parias de la société qu’il méprise, et son
+            union sainte avec une femme, et ses enfants nouveau-nés ? et ne sentira-t-il pas un
+            froid mortel et une profonde horreur à entendre leurs prières stipendiées retentir sur
+            les bières de ceux qu’il a aimés ? Comme Young en terre étrangère, il est obligé
+            d’ensevelir lui-même les restes de ceux qui lui sont chers ; mais il n’a pas, comme lui,
+            en mémoire les rites de sa patrie et de sa religion ; il est au milieu des hommes, il
+            est sur sa terre natale, et il est seul en esprit sur la terre. Héritage de l’Humanité,
+            n’a-t-il donc pas droit à une part dans tes richesses ? science de l’Humanité, ne
+            devrais-tu pas le soutenir et l’illuminer ? art de l’Humanité, ne devrais-tu pas faire
+            couler dans son cœur quelques gouttes d’enthousiasme ? Pourquoi avez-vous vécu et
+            souffert, âmes généreuses qui dans tous les siècles avez pensé à la postérité ? Était-ce
+            donc pour-que l’Humanité aboutît à ce que tout homme fût seul en esprit sur la
+            terre ?</p>
+        </div>
+        <div>
+          <pb n="17" xml:id="p17"/>
+          <head>IV.</head>
+          <p>Il y a des hommes véritablement aveugles qui ne voient rien par le cœur ni par la
+            pensée, qui ne voient que des yeux du corps. Si vous leur demandez : Babylone ou Palmyre
+            ont-elles existé, et sont-elles détruites ? ils vous répondront : Oui ; car ils peuvent
+            vous montrer des ruines matérielles, des débris d’édifices enfouis dans le sable du
+            désert, des inscriptions brisées ou à demi effacées par le temps, et écrites dans des
+            langues qu’on ne parle plus. Mais si vous leur dites que la société actuelle est
+            détruite, ils ne vous comprendront pas, et se riront de vous, parce qu’ils voient de
+            tous côtés des champs cultivés, des maisons et des villes remplies d’hommes. Que dire à
+            ces aveugles, sinon ce que Jésus disait à leurs semblables : <quote><hi rend="i">Oculos
+                habentes, non videtis.</hi></quote></p>
+          <p>Au temps où prophétisait Jésus, Jérusalem aussi était pleine d’habitants ; Hérode
+            régnait, et les publicains percevaient l’impôt ; les marchands trafiquaient jusque dans
+            le temple, et les scribes et les pharisiens débitaient hardiment le mensonge. Mais le
+            Prophète, lisant au fond des cœurs, ne voyait dans ces hommes que des morts, ou, comme
+            il disait, des sépulcres blanchis ; et quand on lui montrait les hautes murailles du
+            temple et les maisons de Jérusalem pleines d’habitants, il gémissait sur les enfants et
+            sur les mères destinés à voir le temps de désolation.</p>
+          <p>Ce n’est pas quand tombent les murailles, quand les maisons s’écroulent, quand la
+            désolation est dans les villes, quand les habitants se livrent aux dernières convulsions
+            de la ruine des empires, non, ce n’est pas alors que la mort vient pour les sociétés ;
+            lorsque cela arrive, les sociétés sont déjà mortes. Quand la pensée constitutive de la
+            société est éteinte, on peut dire, comme Jésus, que Jérusalem périra jusque dans ses
+            maisons, parce que Jérusalem a péri dans le cœur des hommes.</p>
+          <p>Je ne m’adresse pas à ceux qui ne voient que des yeux du corps, je m’adresse à
+            l’intelligence. Quel est l’homme doué d’intelligence qui me niera que le ciel et la
+            terre dont je parlais tout à l’heure soient aujourd’hui détruits ? Où est-elle cette
+            pensée organique et constitutive de la société du moyen-âge, qui faisait du ciel le
+            supplément de la terre, et qui, réparant la terre par le ciel promis, satisfaisait ainsi
+            la justice ? Cette pensée est détruite ; ce ciel et cette terre n’existent plus pour
+            nous.</p>
+          <p>Aujourd’hui les croyances de nos pères sont ensevelies et dorment <pb n="18"
+              xml:id="p18"/>avec eux dans les tombeaux. Nous avons grandi, nous avons rejeté bien
+            des erreurs, découvert bien des vérités ; nous avons soulevé bien des voiles. Mais, de
+            pas en pas, à quelle nuit profonde nous sommes arrivés ! Ainsi, quand on s’élève au
+            sommet d’une haute montagne, il semble que l’œil, plus près des étoiles, va jouir d’une
+            éclatante lumière et de ravissants spectacles ; mais, arrivé au sommet, on est tout
+            étonné de se trouver dans les ténèbres, et le soleil qui brille dans cette obscurité
+            nous envoie une lumière qui nous blesse.</p>
+          <p>La terre est changée ou plutôt bouleversée, car l’inégalité suivant la naissance n’est
+            plus consentie. Écoutez ce que disent vos livres, vos codes, vos constitutions : « Le
+            préjugé des races est aboli ; plus de noblesse, plus de privilèges héréditaires ; tous
+            les hommes sont égaux » : voilà la clameur universelle. Mais montrez-moi donc cette
+            égalité réalisée sur la terre ; ne voyez-vous pas que le fait est en opposition avec le
+            droit, et que l’ordre ne sera rétabli que lorsque le fait marchera d’accord avec le
+            droit ou s’acheminera pour le rejoindre ?</p>
+          <p>Le ciel du moyen-âge aussi a disparu : la croyance au péché originel, à la rédemption,
+            et au paradis, est tombée. Il n’y a plus aujourd’hui qu’incrédulité pour ce
+            Christianisme si fermement cru par nos pères.</p>
+          <p>Comme l’eau qui bouillonne et brûle, et, à la fin, refoule tout à coup le poids de
+            l’atmosphère, et s’élance en souffle insensé : ainsi l’esprit humain, après avoir bien
+            bouillonné, a brisé les limites qu’il s’était données à lui-même : le ciel qui
+            comprimait la société, et la maintenait, et l’éclairait, et réchauffait, et la fécondait
+            de rosées, ce ciel est vaincu ; mais la société est détruite, et le doute, le doute
+            insensé, parcourt et sillonne la terre en tous sens.</p>
+          <p>Et comment en serait-il autrement ? La terre est toujours une vallée de larmes, mais
+            les malheureux n’ont plus le ciel ; et plus le cœur et l’intelligence humaine se sont
+            agrandis, plus le spectacle de cette Humanité sans paradis est repoussant et cruel.</p>
+        </div>
+        <div>
+          <head>V.</head>
+          <p>La vie présente, ainsi privée de ciel, est un labyrinthe où tout homme doué de
+            sympathie et d’intelligence est destiné à être dévoré par la douleur et le doute.</p>
+          <p>À quoi me sert que la vie antérieure de l’Humanité ait développé mes sympathies et
+            étendu mon intelligence, quand toutes mes sympathies sont blessées et mon intelligence
+            confondue ?</p>
+          <p>Inégalité sur la terre, mais égalité dans le ciel ; en d’autres termes, <pb n="19"
+              xml:id="p19"/>injustice sur la terre, mais justice dans le ciel, voilà ce qu’on disait
+            autrefois. Mais aujourd’hui, que l’égalité terrestre est proclamée, et que l’on ne croit
+            plus ni à l’enfer ni au paradis, que voulez-vous que fasse la logique humaine avec une
+            terre où règnent pourtant l’iniquité et l’inégalité !</p>
+          <p>Elle ne peut en conclure qu’une chose, cette logique : c’est que tout dépend du hasard
+            et de la fatalité ; qu’il n’y a par conséquent ni droit ni devoir ; que rien n’est vrai,
+            que rien n’est juste ; que vérité, vertu, justice, sont des mots et ne sont que des
+            mots.</p>
+          <p>Tous dites que tous les hommes sont égaux : dites-moi donc pourquoi tant d’hommes sont
+            marqués au front toute leur vie du stigmate de leur naissance ; expliquez-moi cette
+            horrible fatalité qui pèse sur les dix-neuf vingtièmes de l’espèce humaine. Quoi ! ne
+            voyez-vous pas que votre égalité devant la loi n’est qu’un leurre d’égalité véritable et
+            une absurde chimère, quand, pour la satisfaction d’oisifs, tant de millions d’hommes
+            travaillent sans relâche, n’avant pas un instant pour penser, pour s’élever à Dieu, pour
+            sentir, et sacrifiés à des machines quand celles-ci coûtent moins cher à ceux qui
+            exploitent et les hommes et les machines ! Que voulez-vous, dis-je, que conclue la
+            logique humaine de cet écrasant despotisme exercé par quelques privilégiés sur tout le
+            reste des hommes, sinon que les biens et les maux dans la société sont l’effet du
+            hasard ?</p>
+          <p>Le crime aussi, dans la société, est hasard, et la vertu hasard. Car quels sont ceux
+            qui peuplent les prisons, les bagnes, et dont le sang coule sur les échafauds ? Tous ces
+            criminels l’auraient-ils été, si le hasard de la naissance les avait favorisés ? et ne
+            seraient-ce pas les classes élevées, ces classes qui les méprisent, qui en ont horreur,
+            qui les jugent, ne seraient-ce pas elles qui paieraient le tribut au bourreau, si la
+            roue de la fortune avait tourné différemment ? Quel frein d’ailleurs avez-vous laissé à
+            ces misérables, et quelle règle de vie leur avez-vous donnée ? Vous avez effacé de leur
+            cœur Jésus-Christ, qui commandait aux hommes, au nom de Dieu, de s’aimer les uns les
+            autres, et qui promettait un port aux affligés. Mais savez-vous que c’est une horrible
+            chose que de conserver le bourreau après avoir ôté le confesseur !</p>
+          <p>Je porte mes yeux sur les heureux de la terre. Plus de caste guerrière, plus de caste
+            théocratique. Avec la croyance au ciel, les prêtres sont tombés ; avec la croyance à
+            l’inégalité terrestre, les nobles sont tombés. Mais qui les remplace ? Jésus chassait
+            les marchands du temple : aujourd’hui ce sont les marchands qui ont chassé Jésus du
+            temple. Le comptoir a aussi remplacé la lice. Je vois des hommes de lucre et de
+            propriété qui luttent avec acharnement les uns contre les autres, spéculent sur leur
+            ruine mutuelle, exploitent les misérables qui, sous <pb n="20" xml:id="p20"/>e nom de
+            prolétaires, ont succédé aux esclaves et aux serfs, et se livrent solitairement à leurs
+            passions. Pourquoi veut-on que je les honore ? Ne serais-je pas exposé, cent fois pour
+            une, à honorer la fraude, l’avarice, et la cupidité ? Et pourquoi d’ailleurs les
+            honorer ? ils n’ont travaillé que pour eux.</p>
+          <p>Ils n’ont travaillé que pour eux, ces puissants sur la terre aujourd’hui ! Le prêtre
+            travaillait ou était censé travailler à conduire ses frères dans le ciel. Le noble
+            travaillait ou était censé travailler à protéger sur la terre ses frères pendant leur
+            pénible acheminement vers le ciel. Mais les puissants d’aujourd’hui ne travaillent et
+            sont autorisés à ne travailler que pour eux, pour eux sur la terre, pour eux sans
+            l’attente d’un ciel reconnu chimérique.</p>
+          <p>Ce qui consolait de l’inégalité autrefois n’existe même donc plus. L’inférieur
+            autrefois pouvait respecter et aimer le supérieur, et nominalement le devait ; car
+            celui-ci n’érigeait pas en principe qu’il n’existait que pour lui-même, qu’il n’avait
+            d’objet que lui-même, de mobile que sa cupidité, de règle que son égoïsme. La société
+            laïque reposait, comme on l’a dit, sur l’honneur. Rendre l’honneur et le recevoir était
+            la satisfaction du cœur humain dans la période de l’inégalité consentie. Aujourd’hui ces
+            mots d’honneur et de considération n’ont plus même de sens, puisque, d’un côté,
+            l’inégalité n’est plus consentie quoiqu’elle subsiste, et que, d’un autre côté, le
+            supérieur n’a de règle que son égoïsme.</p>
+          <p>La société autrefois avait au moins d’une famille la forme et l’apparence. Les rois se
+            disaient les pères des peuples, les prêtres s’en disaient les éducateurs, les nobles
+            s’en disaient les aînés. Quel que fût donc le sort qui vous était échu en partage,
+            fussiez-vous serf et le plus illettré des hommes, vous vous trouviez relié à la famille
+            humaine, et vous aviez au moins le droit d’aimer vos maîtres. À l’inférieur aujourd’hui
+            on a enlevé jusqu’au droit d’estimer ses supérieurs.</p>
+          <p>L’honneur, comme le plus riche de tous les métaux, circulait dans la société, reliant
+            les hommes entre eux et leur servant de moyen d’échange. Le plus pauvre, en rendant
+            l’honneur, avait droit lui-même à la considération ; car cet honneur qu’il rendait était
+            une richesse de son âme, que reconnaissait celui qui acceptait cet honneur. Il n’y a
+            plus d’autre matière d’échange entre les hommes que l’or ; et celui qui en est privé n’a
+            rien à donner aux autres, et par conséquent rien à en recevoir.</p>
+          <p>Ainsi l’inégalité, qui n’a pas droit de régner, règne, et rien n’en console. Ce n’est
+            plus même l’homme qui règne sur l’homme, c’est du métal qui règne. C’est la propriété
+            qui règne, donc c’est de la matière qui règne ; c’est l’or, c’est l’argent ; c’est de la
+            terre, de la boue, du fumier. Supposez un amas de fumier couvrant dix lieues carrées de
+              <pb n="21" xml:id="p21"/>terrain ; quel que soit l’homme auquel appartiendrait cet
+            amas de fumier, cet homme serait un des princes de la terre aujourd’hui, et il aurait le
+            droit de faire passer à un autre, fût-ce un scélérat couvert de crimes, sa puissance.
+            Autrefois on possédait la matière parce qu’on avait un titre dans la société ;
+            aujourd’hui c’est l’inverse : on a titre dans la société à titre de la matière que l’on
+            possède. Donc, encore une fois, c’est la matière qui règne. La Bible nous représente les
+            Hébreux, tandis que Moïse, monté au Sinaï, demandait à Dieu invisible la vérité et la
+            loi, et se tenait prosterné au milieu des tonnerres et des éclairs, dans le silence et
+            dans la crainte, dansant eux autour du veau d’or. La société aujourd’hui danse ainsi
+            autour du veau d’or ; idolâtre comme les Juifs, après être sortie comme eux de l’Égypte
+            de domination où elle a été asservie si longtemps par des pharaons orgueilleux, des
+            prêtres charlatans, et des guerriers dominateurs.</p>
+          <p>Je ne veux pas adorer le veau d’or, s’écrie l’âme humaine, au milieu de cette société
+            qui l’adore. Je ne veux pas être à titre de matière ; je ne veux pas rendre honneur à
+            ceux qui n’existent qu’à ce titre. J’avais autrefois une richesse qui n’était pas
+            matière ; j’avais pour richesse l’estime dont je pouvais payer les travaux des autres. À
+            tout homme qui me servait en servant la société, roi, noble ou prêtre, je décernais
+            cette estime. Je payais un tribut de mon admiration, je donnais de l’amour, et je vivais
+            ainsi ; car aimer, sous tous les aspects, c’est véritablement vivre, et la vie n’est que
+            là. Rendez-moi donc ma richesse, rendez-moi mon droit de donner, même quand je ne veux
+            pas m’avilir à n’exister que par la matière, en vertu d’elle, et pour elle.</p>
+        </div>
+        <div>
+          <head>VI.</head>
+          <p>Aveugles, à qui le Christ disait : <quote><hi rend="i">Vous avez des yeux, mais vous ne
+                voyez point</hi> !</quote> m’objecterez-vous donc que la propriété n’est pas
+            d’aujourd’hui seulement, et qu’elle existait pendant tout ce moyen-âge que je compare à
+            notre état présent ? Elle existait sans doute, mais elle n’existait pas seule ; elle
+            existait avec une société et avec une religion. Or, vous n’avez plus aujourd’hui ni
+            religion ni société ; vous n’avez plus que cette propriété, ou, en d’autres termes, le
+            respect de la matière.</p>
+          <p>Aveugles ou sophistes, ne voyez-vous pas que ce qui n’était qu’une chose permise par la
+            religion et la société a pris aujourd’hui la place de la religion et de la société, et a
+            tout envahi, comme la mauvaise herbe qui pullule là où devait croître le bon grain !</p>
+          <p><pb n="22" xml:id="p22"/>Quand il y avait une religion et une société, la propriété
+            existait avec la sanction de cette religion et de cette société ; et ainsi placée à son
+            rang, à l’ombre de cette religion et de cette société, elle était légitime. Dépouillée
+            aujourd’hui de cet abri et de cette sanction, elle n’est plus qu’un fait sans droit, et,
+            en présence de l’égalité proclamée, qu’une sorte de spoliation des pauvres par les
+            riches.</p>
+          <p>Quand il y avait un autre droit, la propriété pouvait avoir droit. Mais aujourd’hui
+            qu’elle veut être le seul droit, elle n’a pas droit, et il n’y a pas de droit.</p>
+          <p>Puisqu’il n’y a plus rien sur la terre que des choses matérielles, des biens matériels,
+            de l’or ou du fumier, donnez-moi donc ma part de cet or et de ce fumier, a le droit de
+            vous dire tout homme qui respire.</p>
+          <p>— Ta part est faite, lui répond le spectre de société que nous avons aujourd’hui.</p>
+          <p>— Je la trouve mal faite , répond l’homme à son tour.</p>
+          <p>— Mais tu t’en contentais bien autrefois, dit le spectre.</p>
+          <p>— Autrefois, répond l’homme, il y avait un Dieu dans le ciel, un paradis à gagner, un
+            enfer à craindre. Il y avait aussi sur la terre une société. J’avais ma part dans cette
+            société ; car, si j’étais sujet, j’avais au moins le droit du sujet, le droit d’obéir
+            sans être avili. Mon maître ne me commandait pas sans droit, au nom de son égoïsme ; son
+            pouvoir sur moi remontait à Dieu, qui permettait l’inégalité sur la terre. Nous avions
+            la même morale, la même religion. Au nom de cette morale et de cette religion, servir
+            était mon lot, commander était le sien. Mais servir, c’était obéir à Dieu et payer de
+            dévouement mon protecteur sur la terre. Puis, si j’étais inférieur dans la société
+            laïque, j’étais l’égal de tous dans la société spirituelle qu’on appelait l’Église. Là,
+            ne régnait pas l’inégalité, là tous les hommes étaient frères. J’avais ma part dans
+            cette Église, ma part égale, à titre d’enfant de Dieu et de cohéritier du Christ. Et
+            cette Église encore n’était que le vestibule et l’image de la véritable Église, de
+            l’Église céleste, vers laquelle se portaient mes regards et mes espérances. J’avais ma
+            part promise dans le paradis promis, et devant ce paradis la terre s’effaçait à mes
+            yeux. Je reprenais courage dans mes souffrances, en contemplant dans mon âme ce bien
+            promis à mon âme ; je supportais pour mériter, je souffrais pour jouir de l’éternel
+            bonheur. Je n’étais pas pauvre alors, puisque je possédais le paradis en espérance.
+            J’étais riche, au contraire, de tous les biens que je n’avais pas sur la terre ; car le
+            fils de Dieu avait dit : <quote><hi rend="i">Bienheureux les pauvres sur la
+              terre</hi> !</quote> Et je voyais autour de moi toute une hiérarchie sociale qui,
+            prosternée aux pieds de ce Fils de Dieu, m’attestait la vérité de sa parole. Dans toutes
+            mes douleurs, dans toutes mes angoisses, dans toutes mes faiblesses, dans toutes mes <pb
+              n="23" xml:id="p23"/>passions, et jusque dans le crime, la société veillait sur moi ;
+            j’étais entouré d’hommes, mes égaux ou mes supérieurs, qui, comme moi, croyaient au
+            Christ, au paradis, à l’enfer. La milice de l’Église terrestre était à mon service, pour
+            me diriger et m’aider à gagner l’Église céleste. J’avais la prière, j’avais les
+            sacrements, j’avais le saint-sacrifice, j’avais le repentir et le pardon de mon Dieu.
+            J’ai perdu tout cela. Je n’ai plus de paradis à espérer ; il n’y a plus d’Église ; vous
+            m’avez appris que le Christ était un imposteur ; je ne sais s’il existe un Dieu, mais je
+            sais que ceux qui font la loi n’y croient guère, et font la loi comme s’ils n’y
+            croyaient pas. Donc, je veux ma part de la terre. Vous avez tout réduit à de l’or et à
+            du fumier, je veux ma part de cet or et de ce fumier.</p>
+          <p>— Travaille, lui dit encore le spectre qui représente aujourd’hui la société,
+            travaille, et tu auras ta part.</p>
+          <p>— Travailler ! Je vous entends : vous voulez que je continue à travailler pour des
+            maîtres, des supérieurs, comme je faisais autrefois. Mais je n’ai plus de maîtres, je ne
+            suis plus sujet. Nous sommes tous libres, tous égaux. N’est-ce pas vous-mêmes, mes
+            anciens maîtres, qui me l’avez appris ? Il y avait autrefois une raison pour qu’il y eût
+            des inférieurs dans la société : il n’y en a plus. Et vous voulez que j’obéisse encore !
+            Je le veux bien néanmoins, mais à condition que vous me montrerez ceux à qui je puis
+            légitimement obéir, obéir sans me dégrader, sans mentir à ma conscience, sans honte
+            enfin et sans infamie. J’obéissais au roi, et le roi s’appelait fils aîné de l’Église,
+            tenait son pouvoir de ses pères, et reconnaissait le tenir de Dieu. J’obéissais aux
+            nobles, qui eux-mêmes obéissaient au roi, et qui tenaient également leur puissance de
+            leurs pères, mais, comme le roi, se soumettaient, dans la morale et la religion, à
+            l’Église. J’obéissais aux prêtres, qui étaient les ministres de cette Église, et qui
+            servaient d’éducateurs à tous. Hors de là, je ne devais obéissance à personne. Je devais
+            au roi service pour la sûreté et les intérêts du royaume ou de la Chrétienté tout
+            entière, redevance aux nobles sur la terre desquels j’étais né, foi à l’Église et à ses
+            représentants. Mais jamais on ne me força d’obéir à des hommes de lucre et d’égoïsme, à
+            des hommes occupés de leur intérêt privé, à des hommes livrés à une seule passion,
+            l’avarice. Qu’un homme autrefois livrât son âme à l’avarice, cela n’en faisait pas
+            légitimement un des princes de la terre. Bien plus, il était obligé de se confesser de
+            son avarice, et le plus pauvre serviteur du Christ avait le droit de le moraliser.
+            Donnez-moi donc d’abord des supérieurs que je puisse respecter, ou souffrez que je
+            haïsse les supérieurs que vous me donnerez… Mais pourquoi parler d’obéissance, pourquoi
+            parler de maîtres, de supérieurs ? ces mots-là n’ont plus de sens. Vous avez proclamé
+            l’égalité de tous les hommes : donc je <pb n="24" xml:id="p24"/>n’ai plus de maître
+            parmi les hommes. Mais vous n’avez pas réalisé l’égalité proclamée ; donc je n’ai pas
+            même ce souverain abstrait que vous appelez, tantôt, par un mensonge, la nation ou le
+            peuple, et tantôt, par une autre fiction, la loi. Donc, puisqu’il n’y a plus ni rois, ni
+            nobles, ni prêtres, et que pourtant l’égalité ne règne pas, je suis à moi-même mon roi
+            et mon prêtre, seul et isolé que je suis de tous les hommes mes semblables, égal à
+            chacun de ces hommes, et égal à la société tout entière, laquelle n’est pas une société,
+            mais un amas d’égoïsmes, comme moi-même je suis un égoïsme. Et quand il y aurait, sous
+            ces noms de rois, de nobles et de prêtres, ou sous d’autres noms, des remplaçants de mes
+            anciens maîtres, je ne leur devrais pas obéissance ; car entre mes anciens maîtres et
+            moi, il y avait un contrat qui n’existe plus. Ceux-là reconnaissaient une religion que
+            je reconnaissais aussi. Au-dessus de nous tous, il y avait un juge ; et tous, même sur
+            la terre, nous faisions partie de la même cité, l’Église. Rendez-moi l’égalité dans
+            l’Église, ou donnez-moi l’égalité dans la cité laïque. Vous m’avez ôté le paradis dans
+            le ciel, je le veux sur la terre.</p>
+          <p>Vainement les sophistes gagés ou les partisans ingénus du propriétarisme ont répondu à
+            cet homme, qui réclame sa part intégrale dans le mobilier actuel de la société, que si
+            on obtempérait à sa demande, il ne serait pas dans le premier moment très riche, et
+            deviendrait bientôt fort pauvre ; que sa part serait, comme dans le conte de Voltaire,
+            de quelque <hi rend="i">cent écus</hi>, et qu’à tout prendre, il a plus de profit à
+            vivre dans la société telle qu’elle est, qu’à se faire octroyer la loi agraire.</p>
+          <p>Ah ! sophistes, ou bonnes gens, je vous remercie ; vous jetez là, sans le savoir, un
+            grand jour sur cette question de la propriété qui vous point si fort.</p>
+          <p>Oui, vous avez raison, chacun de nous serait pauvre, si la terre, et tout ce qui
+            compose le mobilier social, était divisé en parties égales entre tous les hommes. Chacun
+            de nous aurait à peine de quoi vivre quelques mois, une année peut-être, et bientôt nous
+            retomberions tous dans le dénuement<note resp="editor" place="bottom">[NdE] Orthographié
+              dénûment.</note> des sauvages. Vous avez raison, mille fois raison ; c’est la société,
+            c’est l’union des hommes entre eux, c’est l’organisation enfin qui produit la richesse.
+            Sans la société, la terre se couvrirait bientôt de ronces. Sans la société, l’homme
+            deviendrait bientôt stupide et féroce. Ce prolétaire qui se plaint, et qui réclame sa
+            part de l’héritage commun, a donc besoin de la société, comme vous, riches, en avez
+            besoin. Comment donc se pose la question entre vous et ce prolétaire ? C’est une
+            question de gouvernement, une question de politique, en même temps que d’économie
+            politique. Il vous dit : Je suis pauvre, je veux être riche, puisqu’il y a des riches ;
+            je ne suis pas libre, je veux être libre, puisqu’il y en a qui sont libres. Vous
+            répondez : Tu serais <pb n="25" xml:id="p25"/>plus pauvre encore et moins libre sans la
+            société. Alors il vous demande <hi rend="i">où est la société</hi>, c’est-à-dire où est
+            le droit, où est la sanction de votre richesse et de sa pauvreté, de votre liberté et de
+            son esclavage ? Vous ne pouvez pas le lui dire. Reste donc la conséquence : Pourquoi les
+            pauvres ne prendraient-ils pas la place des riches ? À cela vous ne répondez plus que
+            par le fait ; et c’est précisément ce fait qui est en question ! Vous êtes de mauvais
+            logiciens.</p>
+        </div>
+        <div>
+          <head>VII.</head>
+          <p>Les religions anciennes, en consacrant ou en permettant l’inégalité de fortune et de
+            conditions, reconnaissaient pourtant l’égalité humaine, puisque, par le ciel et le
+            paradis promis, elles réparaient, sur la terre, l’inégalité qu’elles autorisaient ; et
+            c’est ainsi qu’elles constituaient le <hi rend="i">droit</hi>, lequel, vu la similitude
+            de notre nature, ne peut être que l’égalité. Le droit restait ce qu’il est, ce qu’il est
+            en essence, <hi rend="i">l’égalité</hi> ; et pourtant <hi rend="i">l’inégalité des
+              conditions</hi> était de droit.</p>
+          <p>L’égalité reparaît donc aussitôt que la religion est enlevée au peuple. Le peuple alors
+            est dégagé de toute obéissance ; et voilà ce qu’ont entrevu grossièrement ceux qui ont
+            érigé cet axiome hypocrite d’une politique infâme : <hi rend="i">Il faut au peuple une
+              religion.</hi></p>
+          <p>Oui, il faut au peuple une religion… ou l’égalité ; c’est-à-dire que de toute façon il
+            faut à l’esprit humain, l’égalité, qui est sa loi. Il faut à l’homme, à l’esprit humain,
+            l’égalité par l’ordre ou l’égalité par le désordre ; l’égalité par le consentement
+            mutuel et l’harmonie, ou l’égalité par la discorde et l’anarchie ; l’égalité enfin par
+            la société, ou l’égalité par la dissolution de la société. Il faut au peuple l’égalité
+            la plus grossière, la plus matérielle, la plus fausse par conséquent et la plus
+            décevante, si vous ne pouvez pas constituer religieusement les différences qui existent
+            entre les hommes.</p>
+          <p>Dieu, en nous faisant tous semblables, en nous donnant à tous des besoins et des
+            facultés, non pas identiques, mais semblables, nous a donné pour principe unique du
+            droit l’égalité, et pour moyen de réaliser cette égalité la <hi rend="i"
+            >société</hi>.</p>
+          <p>À aucun instant de la durée de l’Humanité, <hi rend="i">l’identité des conditions</hi>
+            ne sera l’égalité véritable ; car nous ne sommes pas identiques. Nous n’avons
+            identiquement ni les mêmes besoins, ni les mêmes aptitudes, ni par conséquent les mêmes
+            droits. Cette prétendue égalité par identité serait la destruction de la liberté de
+            chacun.</p>
+          <p>Mais, pendant toute la durée de l’Humanité, <hi rend="i">l’égalité</hi> sera la base et
+              <pb n="26" xml:id="p26"/>le fondement du droit ; car si nous ne sommes pas identiques,
+            nous sommes semblables, et, étant semblables, nous avons virtuellement le même
+            droit.</p>
+          <p>Voici donc notre loi, notre loi éternelle, qui a été notre loi dans le passé, qui l’est
+            dans le présent, qui le sera dans l’avenir :</p>
+          <p><hi rend="i">Chacun a droit, tous ont droit</hi> ; unité et différenciation ; même
+            nature chez tous et personnalité de chacun ; similitude et non-identité ; liberté pour
+            tous et égalité de tous : voilà, je le répète, notre loi, la loi que Dieu nous a
+            faite.</p>
+          <p>Mais comment le droit peut-il s’accorder avec lui-même ? c’est-à-dire comment le droit
+            de l’un peut-il s’accorder avec le droit des autres ?</p>
+          <p>Vous le demandez au ciel, à la terre, à tous les échos, Politiques de mon temps ; mais
+            le ciel et la terre, et tous les échos, sont muets pour vous. <hi rend="i">Liberté…
+              égalité</hi> : voilà le terrible problème qui réduit à l’anarchie et met aux abois
+            votre prétendue société. C’est qu’il y a un troisième terme, <hi rend="i"
+              >fraternité</hi>, qui pourrait servir de lien aux deux autres, si tous les trois
+            étaient réunis dans une pensée qui a nom <hi rend="i">religion</hi>.</p>
+          <p>Malheureusement pour vous, avec la religion, la fraternité est remontée dans le ciel,
+            et a laissé aux prises sur la terre la liberté de l’un avec la liberté de l’autre,
+            c’est-à-dire les deux principes par eux-mêmes inassociables qu’on appelle aujourd’hui la
+            liberté et l’égalité.</p>
+          <p>Mais en a-t-il toujours été ainsi ? Eh ! non. Je viens de vous le montrer par l’exemple
+            du moyen-âge, tout grossier et imparfait qu’ait été ce moyen-âge. Vous l’avez bien vu,
+            que la religion harmonise ce que vous ne pouvez pas harmoniser sans elle, puisque, dans
+            ce moyen-âge, les conditions terrestres étaient les plus distinctes, les plus distantes
+            qu’on puisse imaginer, et que, pourtant, grâce à la religion, l’égalité restait le
+            droit.</p>
+          <p>C’est que nous n’avons pas que le présent, et que le problème, insoluble au point de
+            vue du fini absolu, est soluble au pointée vue de l’infini.</p>
+          <p>Ayez donc une religion, ou souffrez la réclamation de ceux sur qui pèse l’inégalité.
+            Vous ne pouvez pas me donner l’égalité par l’ordre, c’est-à-dire par une différenciation
+            consentie et fondée sur notre égalité même ou sur notre similitude de nature ; je
+            l’aurai par le désordre.</p>
+          <p>Au nom de la liberté même, de la liberté de chacun, c’est l’égalité qui est la loi de
+            tous. Donc, s’il y a dans la société un inférieur en puissance, en richesse, en quoi que
+            ce soit, il a droit de réclamer. Et si vous ne pouvez pas lui donner la raison de son
+            esclavage et de votre liberté, de son malheur et de votre prospérité, il a le droit de
+            se mettre à votre place et de vous mettre à la sienne ; en termes consacrés,
+            l’insurrection devient un droit. C’est ainsi que tout principe d’ordre et toute règle
+            d’obéissance est détruite aujourd’hui.</p>
+          <p><pb n="27" xml:id="p27"/>On entend un horrible bruit de combattants qui se heurtent et
+            se déchirent. Un spectre pâle et tremblant se présente, et dit : Rentrez dans l’ordre,
+            je suis la Société. Une multitude de voix s’écrient aussitôt : Vous dites que vous êtes
+            la Société, faites-nous donc justice ; nous souffrons, et en voici qui jouissent ;
+            donnez-nous autant, ou dites-nous pourquoi nous souffrons. Le spectre se tait, immobile
+            et la tête penchée vers la terre. Alors ces hommes, voyant que ce n’est qu’un fantôme
+            impuissant, s’écrient en reprenant leurs armes : À bas tout ce qui nous opprime !
+            Pourquoi les inférieurs ne renverseraient-ils pas leurs supérieurs ? pourquoi les
+            pauvres ne se mettraient-ils pas à la place des riches ? pourquoi des inférieurs,
+            pourquoi des pauvres ?</p>
+        </div>
+        <div>
+          <head>VIII.</head>
+          <p>L’anarchie civile et politique est donc la loi de notre temps. L’anarchie morale vient
+            s’y joindre.</p>
+          <p>Il est une moitié de l’Humanité qui a toujours partagé jusqu’ici le sort des parias,
+            des esclaves, et des prolétaires, en ce sens qu’elle a été, comme eux, dépouillée de son
+            droit d’égalité : ce sont les femmes. À ce sexe aussi vous ne pouvez plus promettre le
+            ciel, et vainement vous le menaceriez encore de l’enfer. Souffrez donc que ce sexe aussi
+            renonce à l’obéissance.</p>
+          <p>N’est-il pas vrai que c’est également un joli et moral axiome, dans le sens où on
+            l’entend communément, que celui-ci : <hi rend="i">Il faut une religion aux femmes.</hi>
+            Eh ! sans doute, mais par la même raison que je viens de montrer qu’il en faut une au
+            peuple, et non par une autre raison. Si bien que moi je dirais volontiers qu’il faut une
+            religion à tout le monde, aux hommes comme aux femmes, aux aristocrates comme au
+            peuple.</p>
+          <p>Les femmes, de même que tout ce qui a été asservi jusqu’ici sur la terre, trouvaient,
+            au sein de la religion, le nécessaire supplément à leur inégalité ; elles partageaient
+            en cela le sort du peuple. Comme lui, donc, elles sont aujourd’hui dégagées de
+            l’obéissance ; mais, comme lui, elles sentent plus que les autres portions de la société
+            l’absence d’une religion.</p>
+          <p>Esprits forts qui consentez à ce que les femmes et les enfants aient une religion, <hi
+              rend="i">il faut une religion aux femmes</hi> signifie, dans votre bouche, que vous
+            aurez le droit de satisfaire vos passions, mais qu’elles n’auront pas le droit d’écouter
+            les leurs. C’est comme <hi rend="i">il faut une religion au peuple</hi>, ce qui, pour
+            vous, signifie que vous voulez avoir <pb n="28" xml:id="p28"/>des esclaves dociles,
+            aveugles comme ceux des Scythes, et bien muselés.</p>
+          <p>Les honnêtes politiques qui veulent une religion pour les femmes et les enfants, mais
+            qui n’en veulent pas pour eux-mêmes, considèrent la religion comme un frein, comme le
+            mors avec lequel on gouverne un cheval fougueux. Souvent les femmes elles-mêmes
+            appellent la religion à leur secours, uniquement aussi comme un frein dont elles ont
+            besoin pour se gouverner. Cette idée qu’elles se font, ou qu’on leur donne de la
+            religion, est assez mesquine, mais elle est vraie : la religion était un frein, et ce
+            frein n’existe plus.</p>
+          <p>Seulement, pourquoi était-elle un frein, sinon parce qu’elle donnait satisfaction aux
+            légitimes désirs de bonheur et d’égalité qui sont dans l’âme de tous, des femmes comme
+            des hommes ? Mais allez donc aujourd’hui prendre un frein pour le plaisir d’en avoir un,
+            c’est-à-dire faites-vous esclave pour le plaisir d’être esclave !</p>
+          <p><quote>« Je serai ton serviteur sept ans, dit Jacob au père de Rachel ; mais au bout de
+              ces sept ans, tu me donneras ta fille en mariage. »</quote> On conçoit que les femmes
+            aient fait comme Jacob, et qu’espérant Rachel dans le ciel, elles aient servi Laban sur
+            la terre.</p>
+          <p>Après que la femme eut été longtemps traitée comme une proie et une chose matérielle,
+            on lui prêcha le dévouement, l’abnégation, et l’obéissance. Du harem oriental, du
+            gynécée de la Grèce, elle passa par le Christianisme dans le mariage. Mais remarquez
+            combien ce mariage suppose le ciel pour correctif. Voilà S. Paul qui explique ce grand
+            mot de la Bible : <quote>«Vous serez deux dans une même chair »</quote> ;
+            l’explique-t-il par l’égalité ? Non. Il l’explique par l’esclavage de la femme. Il est
+            bien vrai qu’il commande aux maris la fidélité ; mais il donne au mari l’empire, la
+            domination sur la femme, <hi rend="i">dominium</hi>. <quote>« L’homme, dit-il, est le
+              chef de la femme : <hi rend="i">Mulieris caput vir.</hi> »</quote> Or voyez les
+            conséquences de cette domination : L’homme est le chef de la femme ; donc la femme
+            dépendra de l’homme ; donc les pères disposeront de l’amour de leurs filles ; donc les
+            maris auront leurs femmes en propriété. Voilà l’esclavage de la femme sur la terre.
+            Aussi parcourez dans votre esprit les siècles de Christianisme : des deux commentaires
+            de S. Paul sur le précepte de la Bible, le second n’a-t-il pas anéanti le premier ?</p>
+          <p>Qu’il n’ait pas pu en être autrement, et que cette domination tempérée par le précepte
+            de la fidélité conjugale ait été supérieure à la polygamie et à la domination conjugale
+            antique, ce n’est pas la question. Je dis uniquement que la religion chrétienne venait,
+            avec son paradis, corriger cet esclavage qu’elle admettait comme la condition nécessaire
+            de la femme sur la terre. S. Augustin termine un sermon sur le mariage par montrer aux
+            femmes que le vrai mariage est celui qu’elles doivent contracter dans <hi rend="i">la
+              céleste Jérusalem</hi>. Tous <pb n="29" xml:id="p29"/>les prêtres chrétiens ont fait
+            comme S. Augustin. Tous ont dit à la femme : Souffre sur la terre, sers ton maître, ton
+            dominateur, ton chef, l’homme ; tu es l’épouse du Christ. Jacob, qui sert Laban pour
+            épouser Rachel, est ton image.</p>
+          <p>Mais aujourd’hui où est l’époux promis aux femmes par le Christianisme ? J’ai dit plus
+            haut, à propos de la justice, qu’il est horrible de conserver le bourreau après avoir
+            ôté le confesseur. Je dirai ici, du mariage, qu’il est absurde et inique de conserver
+            dans vos codes le serment d’obéissance de la femme, quand vous ne pouvez plus lui
+            montrer le prix de cette obéissance.</p>
+        </div>
+        <div>
+          <head>IX.</head>
+          <p>Ce qu’il y a de plus beau, suivant moi, dans la peinture que Michel-Ange nous a faite
+            du Jugement dernier, et ce qui corrige à mes yeux l’horreur d’un tableau où l’enfer
+            domine, où les damnés abondent, c’est le groupe de femmes, à la droite du Christ, qui
+            s’élèvent de terre et montent au ciel, non pas seules, mais en emportant des hommes avec
+            elles.</p>
+          <p>Comme si leurs souffrances, en tant que femmes, les avaient affranchies de ce lien de
+            la pesanteur qui attache les hommes à la terre, elles s’élèvent par leur propre poids,
+            pour ainsi dire, vers la céleste demeure, sans ailes et sans anges qui les supportent et
+            les aident à monter. Au contraire, elles-mêmes supportent et font monter avec elles des
+            frères, des amants. Ceux-ci, affaissés sur leurs épaules et sur leur sein, indiquent
+            bien la merveilleuse propriété qu’ont ces femmes de monter, comme s’élèverait un corps
+            plus léger que l’air, un aérostat par exemple, aussitôt que l’on aurait brisé sa
+            chaîne.</p>
+          <p>Pourquoi Michel-Ange, voulant peindre des êtres à cet état de charité qui leur fait
+            sauver les objets de leur amour, n’a-t-il donc représenté que des femmes ? Pourquoi pas
+            d’hommes embrassant ainsi et emportant au ciel leurs sœurs, leurs amantes ? Pourquoi ce
+            divin, poids vers le ciel, qui remplace l’attrait vers la terre, se trouve-t-il ainsi
+            l’apanage des femmes ? Je ne sais si je me trompe, et si, n’ayant pas le tableau sous
+            les yeux, je ne prête pas au peintre des idées qu’il n’a pas eues ; mais il me semble
+            que la nature particulière de la femme et sa condition particulière sur la terre pendant
+            la loi du Christianisme sont exprimées là avec un art sublime.</p>
+          <p>Souffrance, esclavage, subalternisation sur la terre ; mais <pb n="30" xml:id="p30"
+            />rédemption proportionnée lorsque la trompette du jugement dernier sonnera, et que le
+            Christ, le divin roi d’équité, paraîtra sur son trône, escorté de ses anges : voilà
+            l’arrêt du Christianisme sur la femme.</p>
+          <p>J’ai cité tout à l’heure le législateur S. Paul. Mais tous les monuments du
+            Christianisme, sans exception, sont unanimes pour abaisser la femme sur la terre, la
+            déclarer inférieure, sujette de l’homme et sa servante, non pas sa compagne.
+              <quote>« Homme, dit S. Augustin, tu es le maître, la femme est ta servante. Dieu t’a
+              fait pour commander, elle pour obéir. Sara obéissait à Abraham, qu’elle appelait son
+              maître. C’est saint Pierre qui le remarque, et saint Paul a souscrit à cette loi. Oui,
+              vos femmes sont vos servantes, vous êtes les maîtres de vos femmes<note resp="author"
+                place="bottom">Voici le passage tout entier : <quote>« Fratres mei, filii mei,
+                  estote casti, amate castitatem, amplectimini castitatem, diligite munditiam : quia
+                  Deus auctor munditiæ in templo suo, quod estis vos, eam quærit, procul a templo
+                  expellit immundos. Sufficiant vobis uxores vestræ, quia sufficere vos vultis
+                  uxoribus vestris. Non vis ab illa fiat aliquid præter te : noli facere aliquid
+                  præter ipsam. Tu dominus es, ilia ancilla : Deus fecit utrumque. Sara, inquit
+                  Scriptura (<hi rend="sc">Petr. iii</hi>, 6), obsequebatur Abrahæ, dominum eum
+                  vocans. Verum est : istis tabulis subscripsit Episcopus. Ancillæ vestræ sunt
+                  uxores vestræ, domini estis uxorum vestrarum, Sed quando venitur ad illud
+                  negotium, quo sexus discernitur, et sexus sibi uterque miscetur :<hi rend="i">Uxor
+                    non habet potestatem corporis sui, sed vir</hi>. Gaudebas, erigebas te, jactabas
+                  te. Bene dixit Apostolus, optime dixit Vas electionis : <hi rend="i">Uxor non
+                    habet potestatem corporis sui, sed vir</hi>. Quia ego sum Dominus. Laudasti :
+                  audi quod sequitur, audi quod non vis, rogo ut velis. Quid est hoc ? Audi : <hi
+                    rend="i">Similiter et vir</hi>, dominus ille, <hi rend="i">Similiter et vir non
+                    habet potestatem corporis sui, sed mulier</hi> (I. Cor., <hi rend="sc">vii</hi>,
+                  4). Hoc libenter audi. Vitium tibi tollitur, non dominium : adulteria tua
+                  prohibentur, non fœminæ subriguntur. Tu vir es, ostende. Vir enim a virtute, vel
+                  virtus a viro. Habes ergo virtutem ? Vince libidinem. <hi rend="i">Mulieris,
+                    inquit, caput vir</hi> (I. Cor., <hi rend="sc">xi</hi>, 3). Si caput es, duc, et
+                  sequatur : sed vide quo ducas. Caput es, duc quo sequatur : sed noli ire quo non
+                  vis ut sequatur. Ne in præcipitium ruas, vide ut recto tramite gradiaris. Sic vos
+                  parate intrare ad illam novam nuptam, ad illam pulchram, ornatam viro suo, non
+                  monitibus, sed virtutibus. Si enim casti, et sancti, et boni intraveritis, membra
+                  ipsius novæ nuptæ, beatæ et gloriosæ cœlestis Jerusalem, et vos eritis. »</quote>
+                  (<title>Sermo</title> 322, <title>in natali Martyrum</title>.)</note>… »</quote>
+            Que m’importe le tempérament que S. Augustin ajoute ensuite à sa sentence, en
+            recommandant, d’après S. Paul, la fidélité aux maris ? La sentence n’est pas moins
+            rendue.</p>
+          <p>En interprétant le mot de Jésus : <quote><hi rend="i">Ma royauté n’est pas encore
+                venue</hi></quote>, par <quote><hi rend="i">Mon royaume n’est pas de ce
+              monde</hi></quote>, le Christianisme avait accepté le fait de l’inégalité sur la terre
+            en général ; mais en interprétant le mythe hébreu de l’androgyne humain comme si Dieu
+            avait d’abord créé Adam et puis Ève de la côte d’Adam, il accepta et sanctifia en
+            particulier le fait d’inégalité de nature relativement à la femme<note resp="author"
+              place="bottom"><quote>« L’homme, dit S. Paul, est le chef de la femme… Car l’homme
+                (Adam) n’a pas été pris de la femme (Ève), mais la femme (Ève) a été prise de
+                l’homme (Adam), et l’homme n’a pas été créé pour la femme, mais la femme a été créée
+                pour l’homme. »</quote> (I. Cor., <num>xi</num>, v. 3, 8, 9.)</note>.</p>
+          <p><pb n="31" xml:id="p31"/>Vainement on essaierait de nier cette vérité. Si aujourd’hui
+            même, enfants illogiques et passablement barbares que nous sommes, nous avons conservé
+            dans notre Code la sentence de S. Paul sur le mariage, sans pourtant ni la sanction de
+            S. Paul, ni aucune sanction, n’est-ce pas parce que le Christianisme avait consacré
+            l’esclavage réel de la femme, et que nous qui avons rejeté le Christianisme de nos lois
+            comme de notre cœur, nous trouvons bon néanmoins d’accepter en cela son héritage,
+            faisant profit (misérable profit !) de ses taches et de ses imperfections ?</p>
+          <p>De tous les sacrements sociaux de l’ère précédente, nous n’avons conservé que le
+            mariage, et nous n’avons pu le conserver que parce que la sentence de S. Paul ne
+            rencontra point d’opposition dogmatique pendant toute la durée du Christianisme.</p>
+          <p>On peut même remarquer que le Protestantisme fut plus dur, plus intolérant pour la
+            femme que le Catholicisme. Le culte de la Vierge, si fervent du treizième au seizième
+            siècle, était évidemment un retour vers l’égalité des deux sexes ; mais les protestants
+            traitèrent la Vierge comme une Astarté et une Vénus païenne, et remirent le
+            Christianisme dans sa vraie jurisprudence. Est-ce qu’à chaque page, pour ainsi dire, du
+            dernier poète<note resp="editor" place="bottom">[NdE] Orthographié poëte.</note>
+            chrétien, de Milton, l’infériorité absolue de la femme n’est pas proclamée ? N’est-il
+            pas dit cent fois dans ce poème qu’elle est un appendice, une propriété de l’homme ;
+            qu’elle a dans l’homme sa raison d’être ; qu’elle ne peut s’élever directement à Dieu,
+            que l’homme seul a ce privilège :</p>
+          <quote>
+            <l>He for God only, she for God by him.</l>
+          </quote>
+          <p>Voyez comme Dieu lui-même, dans Milton, élève l’homme au-dessus de la femme. Après la
+            désobéissance, c’est par cette idée de la supériorité naturelle de l’homme sur la femme
+            que le poète trouve moyen d’introduire la damnation dans la bouche de Dieu :</p>
+          <quote>
+            <p><hi rend="sc">Adam</hi>. « Cette femme m’a présenté de cet arbre, et
+              moi j’ai mangé. »</p>
+            <p>La <hi rend="sc">Souveraine Puissance</hi> répliqua : « <hi rend="i"
+                >Était-elle ton égale</hi>, pour lui résigner ta dignité d’homme, ce haut rang où
+              Dieu t’éleva au-dessus d’elle ? Elle était faite de toi et <hi rend="i">pour</hi> toi,
+              toi dont les perfections excellaient si fort au-dessus d’elle en réelle dignité. Les
+              qualités dont elle a été comblée convenaient à la <hi rend="i">dépendance</hi>, loin
+              d’être destinées à la domination. L’autorité était ton partage, réservée à toi seul,
+              si tu avais su la connaître<note resp="author" place="bottom">Chant X.</note>. »</p>
+          </quote>
+          <p>Encore une fois, donc, rien n’est plus certain : le Christianisme n’avait pas seulement
+            accepté le fait de l’esclavage et de l’humiliation de la femme, il l’avait dogmatisé et
+            sanctionné. Il subalternisait la <pb n="32" xml:id="p32"/>femme à l’homme, et limitait,
+            d’une façon absolue, la femme à la condition que le hasard ou la force lui faisait sur
+            la terre. Tu serviras l’homme, lui disait-il ; tu n’auras pas de liberté ; tu
+            détourneras tes regards de ton propre cœur, tu feras abnégation de tes idées, comme de
+            tes désirs, comme de tes instincts ; l’homme fera la loi, et tu t’y assujettiras ; ton
+            père te choisira un époux, et tu suivras ton époux ; ton époux sera ton maître, tu lui
+            obéiras. Les autres esclaves ne sont pas esclaves par leur âme, mais seulement par leur
+            corps ; toi, tu seras esclave par l’âme, et en outre tu seras plus esclave par le corps
+            que ne le sont les autres esclaves ; tu donneras ton amour et ton corps en perpétuel
+            esclavage à celui qu’on t’aura imposé pour mari, et tu seras fidèle à ce contrat de
+            servitude tous les jours de ta vie (car la moindre infraction serait un crime sur la
+            terre, un crime dans le ciel), sans que ni les infidélités, ni les vices, ni les
+            dérèglements, ni aucun forfait, ni aucune abomination de l’homme, puissent briser ta
+            chaîne et te séparer de ton maître. Et c’est ainsi que vous serez deux dans une seule
+            chair.</p>
+          <p>Mais voyez l’admirable loi de compensation ! En même temps que le Christianisme
+            sanctionnait le plus atroce des esclavages, il rétablissait l’équilibre, la justice,
+            l’égalité, en disant à la femme : Je te connais, tu es un être de dévouement et
+            d’amour ; sache que j’ai pour toi une récompense digne de ton cœur. Dieu te veut pour
+            épouse ; tu seras l’épouse du Christ. N’est-il pas vrai que si tu aimais sur la terre,
+            tu saurais réellement aimer, que tu garderais ta foi, que tu subirais toutes les
+            tortures pour ton amant, que tu voudrais mourir pour lui à tous les instants de ta vie ?
+            Apprends donc mon secret, qui est le tien : cet amant existe, le plus grand, le plus
+            beau, le plus divin de tous ; et il veut que tu souffres pour lui. Garde-lui seulement
+            ta foi, et tu le verras un jour. Ne prends sur la terre de l’amour que ce que tu peux en
+            prendre là, une image, une ombre. Sers ton mari que l’on appelle ton maître ; mais tu
+            sais bien dans ton cœur que l’obéissance n’est pas l’amour, quoique rien ne soit plus
+            cher à l’amour que l’obéissance.</p>
+          <p>Et Michel-Ange, le sublime peintre, traduisait cette pensée, lorsqu’il représentait ces
+            femmes de son <title>Jugement dernier</title> qui s’élèvent naturellement vers le ciel,
+            comme le fer est attiré vers l’aimant.</p>
+        </div>
+        <div>
+          <head>X.</head>
+          <p>Mais aujourd’hui qu’il est détruit cet aimant qui les attirait vers le ciel, vers quoi
+            voulez-vous qu’elles gravitent ?</p>
+          <p>Je prends pour exemple la plus grande âme peut-être qui, depuis <pb n="33" xml:id="p33"
+            />l’apparition de Jésus, ait incarné l’esprit divin sur la terre, sainte Thérèse, et je
+            vous demande : Vers quoi voulez-vous que l’âme de Thérèse gravite ?</p>
+          <p><quote><hi rend="i">Ou souffrir, Seigneur, ou mourir</hi></quote>, était l’aphorisme de
+            cette femme qui porta l’amour divin au plus haut degré dont le cœur humain soit
+            capable.</p>
+          <p><hi rend="i">Ou souffrir, ou mourir</hi> ; c’est-à-dire, souffrir sur la terre, ou
+            mourir pour aimer dans le ciel ; c’est-à-dire encore, souffrir sur la terre, parce que
+            souffrir sur la terre c’est aimer dans le ciel, c’est aimer même actuellement ;
+            c’est-à-dire encore, toujours aimer, aimer actuellement en souffrant, ou aimer en
+            trouvant le véritable objet de son amour : voilà l’effusion de sainte Thérèse, voilà la
+            femme, et voilà aussi, comme je l’ai dit, la condition de la femme sous le
+            Christianisme.</p>
+          <p>Elle comprenait bien son arrêt, l’arrêt rendu par toi sur la femme, ô Christianisme,
+            cette sainte entre toutes les saintes qui forment ta couronne étoilée.</p>
+          <p>Mais, encore une fois, le Christianisme détruit, quel but d’un côté, et quel frein d’un
+            autre, donnez-vous à cette âme ?</p>
+          <p>Sainte Thérèse définissait les tourments de l’enfer en disant de Satan : <hi rend="i"
+              >Le malheureux ! il n’aime pas.</hi> En lui ôtant à elle-même Jésus-Christ à aimer,
+            n’est-il pas évident que vous la réduisez à l’enfer ?</p>
+          <p>Mais non, dites-vous, nous lui laissons l’amour ; nous lui laissons Dieu à aimer, sa
+            famille à aimer, son mari à aimer.</p>
+          <p>Dieu ! où voulez-vous qu’elle le trouve, quand vous l’avez banni de vos croyances, de
+            vos lois, et de vos mœurs ; quand toutes vos sciences matérialistes proclament que Dieu
+            est une erreur ; quand votre politique et votre industrialisme le proclament ; quand
+            vous détruisez vous-mêmes l’idée d’un culte véritable, en méprisant, pour votre propre
+            compte, comme pure superstition, la religion que vous laissez aux femmes, aux enfants,
+            et au peuple ? Croyez-vous que sainte Thérèse ne soit pas en état de vous comprendre, de
+            lire les livres de vos bibliothèques ; et lui interdirez-vous D’Holbach, Fréret,
+            Voltaire, ou Cabanis !</p>
+          <p>Encore une fois, où voulez-vous qu’elle trouve Dieu à aimer, quand votre athéisme
+            social semble donner raison à l’athéisme ? Elle pouvait comprendre et aimer Dieu,
+            lorsqu’elle pouvait avoir avec elle-même ce monologue sublime : <quote>« Cinq sous
+              restent à Thérèse ; cinq sous et Thérèse ce n’est rien ; mais cinq sous, Thérèse, et
+              Dieu, c’est tout. »</quote> Or, aujourd’hui, je vous le demande, qu’ajoute Dieu à cinq
+            sous ? Cinq sous avec ou sans Dieu, n’est-ce pas pour vous, Politiques et Industriels
+            d’aujourd’hui, absolument la même chose ? Donc, si les Lovelaces du jour rencontraient
+            Thérèse avec cinq sous, Thérèse jeune, belle, et digne de leurs désirs, ils pourraient
+            bien voir sa misère et chercher à en profiter, mais assurément ils ne verraient pas Dieu
+            à côté d’elle.</p>
+          <p><pb n="34" xml:id="p34"/>Le Christianisme avait fait de l’amour le frein même de
+            l’amour, en substituant l’amour de Dieu à l’amour de la terre. Alors pouvait venir une
+            femme aussi pleine d’amour que Thérèse ; le Christianisme ne la redoutait pas ; il lui
+            disait : Souffre ; et elle-même, traduisant aimer par souffrir, s’écriait : Non
+            seulement je consens à souffrir, mais <hi rend="i">je veux souffrir.</hi> Alors la
+            société pouvait lui donner un maître, un mari, et lui dire : Quels que soient les vices
+            de cet homme, quelle que soit sa bassesse de cœur, tu lui serviras d’esclave. Ou bien
+            elle-même pouvait dire : Je renonce à la terre, je renonce à aimer et à être aimée sur
+            la terre ; j’aimerai le ciel sur la terre ; mais je serai aimée dans le ciel.</p>
+          <p>L’amour est une forme de l’égalité ou de la justice, de même que l’égalité ou la
+            justice est une forme de l’amour. Le Christianisme donnait l’égalité, sous la forme de
+            l’amour, à la femme dans le paradis promis, comme il donnait l’égalité aux pauvres et
+            aux inférieurs en ce monde sous la forme des biens qu’il leur promettait.</p>
+          <p>Mais si vous dites aujourd’hui à cette âme où respire l’amour, c’est-à-dire encore
+            l’égalité : <hi rend="i">Tu serviras un maître</hi>, ne voyez-vous pas que l’amour se
+            révolte, et que l’égalité défie ses chaînes ?</p>
+          <p>Ne voyez-vous pas qu’au seul signal de cette tyrannie, tout le désordre de votre
+            société retombe de tout son poids sur le cœur de la sainte, et, comme la goutte d’eau
+            jetée sur un métal précieux que le feu a rougi, produit une explosion qui détruit et
+            renverse ?</p>
+          <p>De Maistre a dit : <quote>« Le cœur de la femme est l’instrument le plus actif et le
+              plus puissant pour le mal comme pour le bien. »</quote> De Maistre a raison.</p>
+          <p>De Maistre a dit encore : <quote>« S’il pouvait y avoir sur ce point du plus et du
+              moins, je dirais que les femmes sont plus redevables que nous au
+              Christianisme. »</quote> Il a encore raison, dans l’hypothèse de l’inégalité consentie
+            sur la terre ; il a raison dans le cercle de l’ère chrétienne, et pour toute l’étendue
+            de l’horizon embrassé jusqu’ici par l’esprit humain. Le Christianisme, comme je l’ai
+            dit, sanctionnait l’esclavage de la femme, mais il lui donnait une compensation
+            équitable ; et, cette compensation donnée, il devenait ainsi pour elle une règle, un
+            frein, et faisait produire plus de bien que de mal à « ce cœur, l’instrument » le plus
+            actif et le plus puissant pour le bien comme pour le mal ».</p>
+          <p>Il y a des penseurs, De Maistre entre autres, qui, prenant pour une base solide
+            l’imperfection du Christianisme relativement à la femme, ont, à l’exemple du
+            Christianisme, condamné la femme, ou du moins l’ont déclarée, sauf le salut par le
+            Christianisme, inférieure de nature à l’homme, et produisant plus directement le mal.
+            C’est une erreur, mais qui cache une vérité.</p>
+          <p>Vainement ces penseurs démontrent que quand le mal moral se répand sur la terre, c’est
+            par la femme, et que c’est d’elle que vient <pb n="35" xml:id="p35"/>principalement la
+            ruine des empires : il ne s’ensuit pas la condamnation de la femme comme ils
+            l’entendent. Mais le fait de la destruction des sociétés par la femme est vrai.
+            Vainement aussi les plus profonds ou les plus mystiques d’entre eux, remontant aux
+            mythes des antiques religions, voient leur idée confirmée par le péché d’Ève, qui
+            précéda et amena le péché d’Adam. On peut leur répondre que si Ève pécha la première, il
+            est dit dans la Bible qu’il est réservé à Ève d’écraser la tête du serpent. Mais ce qui
+            est vrai encore, c’est que la femme, étant douée en prédominance de sentiment ou
+            d’amour, devient, comme dit De Maistre, plus active et plus puissante que l’homme pour
+            le mal comme pour le bien. Donc, si le mal doit naître de la nature humaine, laquelle
+            est formée de l’homme et de la femme<note resp="author" place="bottom"><quote>« L’homme,
+                dit admirablement S. Paul, n’est pas sans la femme, ni la femme sans l’homme, en
+                notre Seigneur »</quote> (I. Cor. <num>xi</num>, 11). Voilà, en effet, le fond de la
+              nature humaine. S. Paul aurait dû en conclure l’égalité de ces deux aspects, indivis
+              de notre nature, l’homme et la femme. Il ne le fit pas. La Révélation est successive,
+              et le Christianisme n’a pas tout révélé.</note>, c’est par l’aspect de cette nature
+            que représente la femme qu’il naîtra, de même que le bien, si le bien doit naître. De là
+            le double mythe de la <title>Genèse</title>, le péché commençant par une femme, et le
+            salut définitif promis à une femme.</p>
+          <p>Les femmes sont inspiratrices en bien ou en mal.</p>
+          <p>La femme est le mal quand le mal existe autour d’elle ; elle est le mal quand la
+            société doit s’abîmer dans le mal.</p>
+          <p>La femme est le centre d’attraction de l’homme. C’est ainsi que la femme se trouve la
+            cause du mal, sans en être plus cause que l’homme. Encore une fois, le profond mythe
+            génésiaque n’a pas d’autre sens.</p>
+          <p>Quand le Christianisme naquit, les femmes furent sublimes ; elles produisirent plus de
+            martyrs à proportion que l’autre sexe, vu le peu de liberté qu’elles avaient. Mais quand
+            le Christianisme est tombé, elle se sont précipitées, et l’ont précipité avec elles. Les
+            Borgia trouvèrent dans leur propre sein une femme qui ferait douter si le mal vint pour
+            eux d’Alexandre VI ou de son fils César, ou de ses trois autres fils, tous dignes de
+            leur père, tous dignes de leur sœur ! Le dix-huitième siècle n’a pas su discerner quel
+            était le plus infâme et le plus souillé du Régent ou de sa fille, de Louis XV ou de ses
+            maîtresses.</p>
+          <p>Laissons donc De Maistre s’écrier : <quote>« Toutes les législations ont pris des
+              précautions plus ou moins sévères contre les femmes. De nos jours encore elles sont
+              esclaves sous l’Alcoran et bêtes de somme chez le sauvage. L’Évangile seul a pu les
+              élever au niveau de l’homme, en les rendant meilleures. Lui seul a pu proclamer les
+              droits de la femme après les avoir fait naître, et les faire naître en s’établissant
+              dans le cœur de la femme. »</quote> Il est faux que l’Évangile ait proclamé les droits
+            de la femme ; il a proclamé, au contraire, son <pb n="36" xml:id="p36"/>asservissement :
+            mais il est vrai qu’en ouvrant le paradis aux femmes et en répondant par l’amour à
+            l’amour qui est leur nature, il s’est établi dans leur cœur, et a développé leurs
+            droits, qu’il n’avait pas su tout d’abord reconnaître. Laissons, dis-je, à De Maistre
+            son anathème contre la femme, qu’il termine par ces paroles : <quote>« Aucun législateur
+              ne doit oublier cette maxime : <hi rend="i">Avant d’effacer l’Évangile, il faut
+                enfermer les femmes ou les accabler par des lois épouvantables telles que celles de
+                l’Inde.</hi> »</quote></p>
+          <p>Mais reconnaissons tout ce qu’il y a de profonde vérité dans ce qu’il ajoute :
+              <quote>« Éteignez, affaiblissez seulement jusqu’à un certain point dans un pays
+              chrétien l’influence de la loi divine, en laissant subsister la liberté qui en était
+              la suite pour les femmes ; bientôt vous verrez cette noble et touchante liberté
+              dégénérer en une licence honteuse. Elles deviendront les instruments funestes d’une
+              corruption universelle, qui atteindra en peu de temps les parties vitales de l’État.
+              Il tombera en pourriture, et sa gangreneuse décrépitude fera à la fois honte et
+              horreur. »</quote></p>
+        </div>
+        <div>
+          <head>XI.</head>
+          <p>Or vous avez <hi rend="i">effacé l’Évangile</hi>, et vous n’avez pas <hi rend="i"
+              >enfermé les femmes</hi>, comme le veut en ce cas De Maistre, ni vous ne les avez <hi
+              rend="i">accablées par des lois épouvantables telles que celles de l’Inde</hi>. Vous
+            n’avez pas seulement <hi rend="i">affaibli</hi>, mais vous avez <hi rend="i">éteint
+              l’influence de la loi divine, dans un pays chrétien</hi>, et pourtant vous avez <hi
+              rend="i">laissé subsister la liberté qui en était la suite pour les femmes</hi>.
+            Est-il étrange qu’étant ainsi devenues <hi rend="i">les instruments funestes d’une
+              corruption universelle qui a atteint les parties vitales de l’État</hi>, cet État <hi
+              rend="i">tombe en pourriture</hi>, et que <hi rend="i">sa gangreneuse décrépitude
+              fasse à la fois honte et horreur</hi> !</p>
+          <p>J’ai dit et prouvé que sous la loi du Christianisme, qui disait à la femme :
+            « Asservissement sur la terre, mais rédemption dans le ciel », l’aphorisme normal de la
+            femme devait être ce vœu, qui sortit en effet de l’âme de sainte Thérèse : <quote><hi
+                rend="i">Ou souffrir, Seigneur, ou mourir</hi> !</quote> vœu qui revient à
+            celui-ci : « <hi rend="i">Je veux souffrir</hi>, parce que souffrir en vue du ciel,
+            c’est aimer, et qu’aimer est ma loi. » Or, passez par-dessus deux siècles, et, de
+            l’époque de sainte Thérèse, arrivez à la Régence : que deviendra cette sublime formule
+            de l’âme de la femme, et comment se transformera-t-elle ? De Dieu, on n’en connaît plus.
+            Donc l’apostrophe à Dieu disparaîtra ; le terme de <hi rend="i">Seigneur</hi> sera
+            éliminé de la formule. Il resterait donc : <hi rend="i">souffrir ou mourir</hi>. Mais
+              <hi rend="i">souffrir</hi>, c’est une absurdité ! <pb n="37" xml:id="p37"/>Pourquoi
+            souffrir ? la loi naturelle des êtres est de chercher à jouir, et non pas à souffrir.
+            Aimer à souffrir, vouloir souffrir pour rien, c’est insensé. Donc, au lieu de <hi
+              rend="i">souffrir</hi>, il faut mettre dans la formule <hi rend="i">jouir</hi>. Cette
+            formule devient donc <hi rend="i">jouir ou mourir</hi>. Cela seul est raisonnable. On
+            aimerait mieux, sans doute, jouir et ne jamais mourir. Mais puisque mourir est une loi
+            nécessaire, l’effort des grandes âmes sera au moins de ne pas languir dans une triste
+            apathie, dans une morne existence, dans une demi-vie, dans une demi-mort. Donc, pour ces
+            âmes, point de milieu : <hi rend="i">jouir ou mourir</hi>.</p>
+          <p>Or, voyez comme la logique est intraitable, et comme l’histoire réalise exactement la
+            pensée humaine dans ses phases, semblable à un parfait miroir où l’esprit humain se
+            réfléchit. Quel est, je vous le demande, le grand mot de la Régence ? N’est-ce pas le
+            mot de la fille du Régent : <quote><hi rend="i">Courte et bonne</hi></quote>,
+            c’est-à-dire «jouir ou mourir ».</p>
+          <p>Ainsi sainte Thérèse voulait souffrir : la duchesse de Berry veut jouir. Sainte Thérèse
+            posait ce dilemme : <hi rend="i">ou souffrir ou mourir</hi> ; la duchesse de Berry ne
+            connaît que celui-ci : <hi rend="i">jouir ou mourir</hi>.</p>
+          <p>Ne voyez-vous pas la ruine de la société sortir de cet élan impétueux de la femme vers
+            le bonheur ! Pour rappeler encore le souvenir des mythes antiques, cette femme de la
+            Régence, n’est-ce pas Ève qui touche à l’arbre de la science avec une ardeur
+            insensée ?</p>
+          <p>L’homme aime la femme, et voici que la femme n’accepte plus la souffrance : donc
+            l’amour va bouleverser cette société qui s’oppose au désir de bonheur qu’a la femme. La
+            femme cherchera le bonheur, et l’homme, entraîné après elle dans cette recherche,
+            prendra avidement de sa main le poison qu’elle lui offrira. Que fut la Régence, que fut
+            le règne de Louis XV, sinon une bacchanale antique, où la femme, la bacchante, portait
+            le flambeau ?</p>
+          <p>L’homme fut bien inférieur à la femme dans cette orgie fameuse. La duchesse de Berry,
+            avec sa devise : <hi rend="i">Courte et bonne</hi>, est bien supérieure au marquis de
+            La Rochefoucauld, qui prépara cette Régence avec la sienne : <quote><hi rend="i"
+                >L’égoïsme est le mobile de tout.</hi></quote></p>
+          <p>On peut remarquer que l’aphorisme de La Rochefoucauld se forma absolument par la même
+            nécessité logique que l’aphorisme de la fille du Régent. La loi sous le Christianisme
+            était : « Tu aimeras Dieu de toute ton âme et ton prochain comme toi-même. » Ôtez Dieu,
+            quelle raison de conserver le prochain ? Donc il reste : <hi rend="i">Tu t’aimeras
+              toi-même</hi> : axiome de La Rochefoucauld.</p>
+          <p>Alors vient la fille du Régent, qui dit : Puisque l’égoïsme est le mobile de tout, et
+            que pourtant je me sens faite pour aimer, je veux du plaisir ou le néant.</p>
+          <p>Au fond, elle ne dit pas autre chose que sainte Thérèse ; elle dit qu’elle veut aimer,
+            et, même en professant l’égoïsme, elle proteste <pb n="38" xml:id="p38"/>contre
+            l’égoïsme ; car à La Rochefoucauld, qui lui dit de s’aimer soi-même, elle répond : Non ;
+            je ne peux point m’aimer moi-même ; ma loi est amour, il faut un objet à l’amour ; il
+            n’y a plus de ciel, donnez-moi la terre ; il n’y a plus de bonheur, je veux le plaisir ;
+            je veux au moins l’ombre de l’amour ; et, si je ne peux atteindre cette ombre, je ne
+            veux pas du supplice de m’aimer, du supplice de l’égoïsme, je veux mourir : ma loi est
+            d’aimer ou de mourir.</p>
+        </div>
+        <div>
+          <head>XII.</head>
+          <p>Un des grands traits de l’Évangile, un des grands caractères de son auteur, et auquel
+            l’Humanité a instinctivement reconnu en Jésus un inspiré de la vérité divine, c’est la
+            justification de cette loi de la femme.</p>
+          <p>Le Christianisme, comme je l’ai dit, transportant l’égalité dans le ciel, dont la venue
+            paraissait d’abord si voisine, maintint et consacra l’asservissement de la femme ; mais
+            le Christ proclama implicitement le droit de la femme, en justifiant son besoin
+            d’amour.</p>
+          <p>Pourquoi Jésus pardonne-t-il à la Pécheresse ? <quote><hi rend="i">Parce qu’elle a
+                beaucoup aimé</hi></quote><note resp="author" place="bottom">S. Luc,
+                c. <num>vii</num>, v. 47.</note>.</p>
+          <p>Et pourquoi ne condamne-t-il pas la Femme adultère<note resp="author" place="bottom"
+              >« Alors les scribes et les pharisiens lui amenèrent une femme qui avait été surprise
+              en adultère, et, l’ayant mise au milieu, ils lui dirent : Maître, cette femme a été
+              surprise commettant adultère. Or Moïse nous a ordonné, dans la loi, de lapider les
+              adultères. Toi donc, qu’en dis-tu ? — Ils disaient cela pour l’éprouver, afin de le
+              pouvoir accuser. Mais Jésus, s’étant baissé, écrivait avec le doigt sur la terre. Et
+              comme ils continuaient de l’interroger, s’étant redressé, il leur dit : Que celui de
+              vous qui est sans péché jette le premier la pierre contre elle. — Et s’étant encore
+              baissé, il écrivait sur la terre. Quand ils entendirent cela, se sentant repris par
+              leur conscience, ils sortirent l’un après l’autre, depuis les plus vieux jusqu’aux
+              derniers ; et Jésus demeura seul avec la femme, qui était là au milieu. Alors Jésus
+              s’étant redressé, et ne voyant personne que la femme, il lui dit : Femme, où sont ceux
+              qui t’accusaient ? personne ne t’a-t-il condamnée ? — Elle dit : Personne, Seigneur.
+              — Et Jésus lui dit : <hi rend="i">Je ne te condamne pas non plus</hi>. Va-t’en, et ne
+              pèche plus à l’avenir. (S. Jean, c. <num>viii</num>, v. 3-11.)</note> ? Parce que la
+            nature de la femme est d’aimer, et que la Femme adultère avait le droit d’adultère
+            devant une société adultère. La nature de la femme est d’aimer : donc ou la société
+            pourra lui donner la règle du bien, en lui montrant la voie véritable de l’amour, ou
+            elle ne le pourra pas. Dans ce dernier cas, la femme adultère est en droit l’égale de
+            ses juges ; <pb n="39" xml:id="p39"/>ils n’ont pas plus droit qu’elle : <quote>« Que
+              celui de vous qui est sans péché lui jette la première pierre. »</quote></p>
+          <p>La femme pécheresse, comme la courtisane dans S. Luc, ou comme l’adultère dans S. Jean,
+            a non seulement droit contre une société dépourvue d’idéal, mais elle a le droit au
+            pardon devant le maître de l’idéal, devant son vrai juge. Pourquoi ? C’est que le Christ
+            sait que cet amour même, qui l’a perdue, doit tôt ou tard la sauver ; que l’amour est sa
+            loi ; que c’est la lumière qu’elle a reçue primitivement du Créateur ; qu’elle a raison
+            de suivre cette lumière ; qu’elle n’a pas encore la vraie lumière, mais qu’elle a
+            pourtant la lumière, et qu’ainsi, si elle est condamnable dans l’idéal et par l’idéal,
+            elle est également pardonnable de droit, et par conséquent absoute, par la loi même de
+            cet idéal, puisque, encore une fois, c’est l’amour qui tôt ou tard doit la sauver :
+              « <hi rend="i">Parce que tu as beaucoup aimé</hi>, tes péchés te seront remis. »</p>
+          <p>La société aujourd’hui a-t-elle, en pareil cas, un droit quelconque de condamner ?</p>
+          <p>Je sais bien qu’elle condamne, de même qu’elle marie, et qu’elle fait prononcer serment
+            d’obéissance à la femme dans le mariage. Mais les forts, les puissants, se rient
+            ouvertement de la société sur ce chapitre du mariage. On s’en rit dans les livres, aux
+            spectacles, dans les salons, dans les tribunaux, partout ; et ainsi la société se rit
+            d’elle-même et de ses arrêts.</p>
+          <p>Non, je ne me ferai pas l’avocat du vice pour dire à la société qu’étant dépourvue de
+            religion, elle n’a aucun droit pour imposer à la femme l’esclavage.</p>
+          <p>Quel lien existe entre ces deux aspects de la nature humaine, l’homme et la femme ?
+            L’amour. Donc la seule règle que l’homme puisse donner à la femme doit être tirée de
+            l’amour. Donc, si la société ne peut pas donner à la femme l’idéal de l’amour, elle n’a
+            rien à imposer à la femme.</p>
+          <p>Voilà le jugement du Christ ; et, comme c’est la loi du Christ qui, en donnant à la
+            femme un idéal de l’amour, a établi le mariage, la loi du Christ étant détruite, le
+            mariage, en tant que servitude, est détruit du même coup.</p>
+        </div>
+        <div>
+          <head>XIII.</head>
+          <quote>
+            <p>« La corruption des mœurs », dit un sage de notre temps, « ne prête
+              cède pas celle de la religion ; elle n’en est qu’une conséquence… Où <pb n="40"
+                xml:id="p40"/>le matérialisme triomphe, où le profane a étouffé le sacré, comme le
+              lien conjugal n’est plus un sacrement, mais un bail, l’adultère n’est plus traduit que
+              devant le tribunal de l’avarice ; on le blâme comme une déloyauté commerciale,
+              obligeant un homme à débourser des frais qu’il ne devait pas faire, et à payer devant
+              la loi pour des enfants qu’il n’avait pas causés et dont la nourriture ne devait pas
+              être à sa charge. Dans une pareille société, l’adultère est flagrant, public, effréné,
+              frappant à toutes les portes ; il est reçu, salué, fêté ; on en rit : le mariage
+              n’existe plus. »</p>
+          </quote>
+          <p>Lorsque la femme, qui est le sentiment dans la nature humaine, se lance dans le mal,
+            parce qu’elle ne sait plus où est le bien, et que, l’ancien bien n’étant plus le bien,
+            la règle du bien lui fait défaut, il est impossible que la société ne s’abîme vite et
+            avec fracas.</p>
+          <p>L’égoïsme pour loi, le plaisir pour but : va, Société, avec ces deux pilotes tu ne peux
+            manquer de trouver bientôt le naufrage que tu cherches !</p>
+          <p>Mais ici vient se poser, en morale, la même question de droit qui s’est posée en
+            politique. De quel droit arrêter l’anarchie ?</p>
+          <p>Vainement, comme De Maistre, séparant dans la nature humaine ce qui est inséparable,
+            l’homme de la femme, le principe d’un sexe du principe de l’autre, appelleriez-vous
+            l’attention du législateur pour qu’il accablât le <hi rend="i">second sexe</hi> de lois
+            impitoyables. Le <hi rend="i">premier sexe</hi>, s’il faut l’appeler par ce nom, aussi
+            démoralisé que le second, et démoralisé avec lui (de quelque côté que vienne
+            primitivement le mal), consentira-t-il à accabler de lois impitoyables l’objet de son
+            amour ou de sa démoralisation ? Ah ! je crains bien que le législateur ne manque pour
+            une pareille œuvre, ou plutôt je suis certain qu’il manquerait ; car le vrai
+            législateur, dans des époques semblables, c’est l’égoïsme, et par conséquent la volupté
+            ou plutôt le vice.</p>
+          <p>Donc vous ne pouvez faire de cette question une question de force, de tyrannie, de
+            violence ; donc c’est le droit qu’il faut examiner.</p>
+          <p>Or quel droit, encore une fois, avez-vous à opposer à la liberté dans les mœurs poussée
+            jusqu’à la plus extrême licence ?</p>
+          <p>On dit, tout le monde dit : La société croule par les mœurs ; la volupté a tout
+            envahi ; l’amour du plaisir a tari toutes les sources pures où la vie sociale
+            s’alimentait. Après la cour de Louis XIV, la Régence ; après la Régence, le règne de
+            Louis XV. Avant 89 la corruption avait déjà atteint toutes les sommités de la société,
+            la cour, la noblesse, le haut clergé, la magistrature, la finance. La Révolution
+            suspendit peut-être un moment cette décomposition morale ; mais bientôt le Directoire
+            amena les saturnales dans la rue. L’Empire aussi parut une trêve, parce que la brutalité
+            était de mode, et que la guerre couvrait tout. Sous la Restauration, le libertinage se
+            cacha dans les oratoires et les <pb n="41" xml:id="p41"/>sacristies. Mais aujourd’hui
+            licence complète, toutes les barrières sont brisées. Il est évident qu’en un siècle et
+            demi le mal a été sans cesse croissant ; il semble aujourd’hui envahir la nation tout
+            entière. La littérature, expression de la société, révèle ce mal, et l’augmente
+            encore.</p>
+          <p>Tout cela est vrai, mais qu’y faire ? Vos remèdes, quand vous en trouvez, sont atroces
+            et pires que le mal. Sublime effort de la vertu et de la sagesse de nos législateurs !
+            Il restait du Christianisme l’asile ouvert par S. Vincent de Paul sous cette invocation
+            sublime : <quote><hi rend="i">Beatæ Mariæ Virgini Matri et Infantiæ Jesu</hi></quote>.
+            Ils l’ont fermé ! Vous croyez que vos statistiques vont voir diminuer le nombre des
+            enfants trouvés ; ce nombre croîtra, et vous aurez de plus créé l’infanticide.</p>
+          <p>Où poursuivez-vous le mal quand, sous prétexte d’argent et de budget, vous détruisez
+            ainsi la charité publique ? Je vous comprends : à défaut d’une loi morale, vous voulez,
+            comme dit De Maistre, remédier au mal par des lois impitoyables ; mais, au lieu de
+            séparer les deux sexes et de frapper le second sexe tout entier, vous tracez une ligne
+            entre les classes, et vous dites : D’un côté de cette ligne le vice sera permis, de
+            l’autre prohibé. Ainsi le vice n’est vice que parce qu’il vient de telle classe et non
+            de telle autre. Le vice, ce n’est pas le vice en lui-même, c’est le défaut d’argent.
+            Vous n’avez dans la tête que la fiscalité ! Vous craignez que le paupérisme ne
+            s’introduise en France sous cette forme de l’abandon des enfants, et vous voulez
+            interdire au peuple ce recours à la charité publique.</p>
+          <p>Mais laissons ces velléités cruelles. Vous sentez que le mal est au-dessus de toute
+            votre puissance, au-dessus de toutes vos lois. Le mal, il est en vous, il est dans votre
+            sein. La société aujourd’hui porte en elle la Régence et le siècle de Louis XV,
+            puisqu’elle n’a pas d’autre religion, d’autre lumière, d’autre frein. Seulement le mal
+            n’est plus çà et là, il n’est plus concentré dans une sphère, il est partout.</p>
+        </div>
+        <div>
+          <head>XIV.</head>
+          <p>Savez-vous où est précisément le mal ? De Maistre, que j’ai cité plus haut, vous l’a
+            dit. Il est dans la femme ; et moi j’ajoute : il est dans le droit de la femme.</p>
+          <p>Il est dans la femme, ce qui veut dire qu’il est aussi dans l’homme ; car la femme,
+            c’est le cœur de l’homme. La nature humaine a deux aspects unis et indivisibles, l’homme
+            et la femme. Si l’homme représente plus particulièrement la connaissance dans cette
+            unité, la femme représente plus particulièrement le sentiment. Le mal a donc envahi le
+            cœur humain, comme il a envahi la connaissance humaine. Quand l’homme, représentant de
+            la connaissance dans l’unité humaine, a dit : « Je ne vois d’autre loi que l’égoïsme » ;
+            la femme, représentant du sentiment dans cette même unité, a dû dire : « Je ne vois de
+            vie que dans la volupté et le plaisir. » Donc aujourd’hui l’unité humaine proclame par
+            ses deux aspects cette indivisible formule : <hi rend="i">Égoïsme, Volupté</hi>.</p>
+          <p>Si vous voulez condamner la formule tout entière, à la bonne heure. Ayez une religion,
+            ayez une société ; abandonnez l’égoïsme, et vous pourrez vous sauver de
+            l’immoralité.</p>
+          <p>Mais si, scindant la formule, vous dites : Nous voulons conserver l’égoïsme, et nous
+            voulons pourtant que les mœurs règnent, vous êtes d’absurdes tyrans.</p>
+          <p>Car si l’homme dit <hi rend="i">égoïsme</hi>, la femme, à l’instant même, dit <hi
+              rend="i">indépendance</hi>, liberté, plaisir, bonheur dans le présent, dans le fini ;
+            ce qui se traduit en fait par volupté, vice, débauche, immoralité.</p>
+          <p>Voyez donc ce qui est dans votre âme (car encore une fois, Homme, tu ne peux te séparer
+            de la femme ; la femme est en toi, elle fait partie de ta nature) : vous avez dans l’âme
+            deux maux synallagmatiques, si je puis employer cette expression des légistes :
+            l’égoïsme, et la volupté.</p>
+          <p>Et il m’est permis de les tourner l’un contre l’autre, afin de les détruire l’un par
+            l’autre. Il m’est permis de me faire le représentant du droit de la femme, et de vous
+            dire, en son nom : Puisque vous n’avez d’autre Dieu que l’égoïsme, je ne veux avoir
+            d’autre Dieu que le vôtre ; je marcherai donc, comme vous, sur la terre, à la lumière de
+            mes passions. Vous cherchez votre bonheur, je chercherai le mien. Votre science est
+            devenue la mienne. Vous ne connaissez que le présent, je ne connaîtrai plus l’avenir. Je
+            ne veux plus souffrir pour jouir dans l’autre monde. Vous ne croyez pas à l’autre
+            monde ; ni moi non plus. Quand je croyais à l’autre monde, je pouvais m’assujettir dans
+            celui-ci à la condition qu’on m’avait faite. Je rejette cette condition. Je n’ai plus
+            d’idéal, je ne veux plus de frein.</p>
+          <p>— Vois, peut-elle encore dire à l’homme, vois comme la terre serait triste, aride, et
+            dépouillée, si tu voulais me conserver mes anciennes chaînes. Songe, malheureux, que
+            puisque nous avons perdu les joies du ciel, au moins nous faut-il celles de l’enfer.
+            Confie-toi donc à moi, et à mon instinct de bonheur. Laisse-moi briser et brisons
+            ensemble les lois que, dans d’autres pensées, dans de chimériques espérances, nous nous
+            étions faites. Plus que toi j’ai besoin d’infini ; laisse-moi chercher au moins l’ombre
+            de cet infini qui m’est nécessaire dans le fini qui seul nous reste.</p>
+          <p><pb n="42" xml:id="p42"/>Et le Christ, cette pensée divine toujours vivante, dit encore
+            aujourd’hui à la femme : « Parce que tu as beaucoup aimé, tes péchés te seront
+            remis. »</p>
+        </div>
+        <div>
+          <head>XV.</head>
+          <p>Dans quelques générations, les hommes contempleront avec pitié cette France du
+            dix-neuvième siècle, que quelques-uns présenteraient volontiers comme le dernier terme
+            de la civilisation ; ils la considéreront, dis-je, avec la même tristesse et le même
+            dégoût que nous considérons la pourriture de l’empire romain ; et voyant nos masses de
+            prolétaires, vingt ou trente millions d’hommes sur trente-deux millions, déshérités de
+            tout dans une patrie qui depuis cinquante ans a écrit sur son drapeau le saint nom d’<hi
+              rend="i">Égalité</hi>, ils ne comprendront pas plus ce contraste que nous ne
+            comprenons l’esclavage antique. Mais ce n’est pas seulement la situation des masses
+            profondes et obscures de la nation qui frappera alors d’étonnement et de pitié : la
+            triste situation de cette petite couche d’aristocratie bourgeoise qui couvre et cache
+            tout le reste, n’inspirera pas moins d’étonnement et de commisération. Cette routine
+            aveugle d’hommes pleins de vices et de douleurs, et s’attachant à perpétuer dans leurs
+            enfants les mêmes vices et les mêmes douleurs ; cette lâcheté de l’esprit qui pose des
+            principes et qui ne conclut pas ; cette vie égoïste, individuelle, sans force contre les
+            fléaux qui assiègent l’Humanité, sans grandeur, sans variété, sans poésie, bornée au
+            gain, et toujours exposée à la ruine, courant après de sottes distinctions qui ne sont
+            fondées sur rien, pas même sur la naissance, sur la pureté du sang, sur la transmission
+            du courage et de la force par voie de génération : tout cela fera gémir profondément nos
+            descendants sur leurs pères. Quand la société sera ordonnée, que dira-t-on d’une société
+            où le hasard, comme la Folie qu’Érasme faisait reine du monde, décide de tout, préside à
+            tout ; où les inégalités naturelles et les différences de génie et d’inclinations, seuls
+            éléments véritables, sont à peine comptées pour quelque chose, et sont tout à fait
+            subalternisées par la <hi rend="i">naissance</hi>, que cependant toutes nos opinions
+            proclament un préjugé ? Concevra-t-on alors que l’habitude puisse nous fasciner au point
+            de ne pas voir la contradiction de nos principes, et nous cache tous les maux qui
+            résultent pour tous, exploitants ou exploités, maîtres ou esclaves, de cet étonnant
+            désordre et de cette lutte acharnée !</p>
+          <p>Biens de la terre, charmes du cœur, délices d’un amour partagé, science, honneur,
+            considération, gloire, c’est la fatalité qui distribue tous les lots.</p>
+          <p><pb n="43" xml:id="p43"/>Et pourtant jamais les sympathies humaines n’ont été plus
+            développées, jamais plus d’hommes généreux n’ont senti battre leur cœur de l’amour de
+            l’Humanité.</p>
+          <p>Mais, encore une fois, à quoi me sert-il d’avoir des sympathies plus larges et plus de
+            lumières que les hommes d’autrefois, quand tout, dans le spectacle que j’ai sous les
+            yeux, blesse mes sympathies et confond mon intelligence ?</p>
+          <p>Je voudrais voir le bonheur et la paix régner parmi les hommes, et je vois de toutes
+            parts la guerre et l’adversité. J’aime la justice, et je ne trouve que le hasard.</p>
+          <p>Par quelle fatalité se peut-il que la société ne repose que sur la lutte et l’égoïsme,
+            qu’elle fasse une loi à chacun de ne songer qu’à lui-même, que le malheur de l’un soit
+            exploité avidement par l’autre, que les riches y vivent somptueusement de la faim des
+            misérables, que les méchants y dominent sur les bons, que les plus généreux ne puissent
+            la plupart du temps enrichir et avancer l’Humanité qu’au prix de leurs souffrances, que
+            les sages soient gouvernés par les insensés, qu’un sexe tout entier soit encore tenu
+            dans l’abaissement, et qu’il y ait encore sous une apparence de liberté une multitude
+            innombrable d’esclaves ?</p>
+          <p>Ainsi la terre est devenue un inconcevable problème. Il semble que la nature avait
+            donné à chaque homme sa destination ; chacun avait un but à atteindre ; ils devaient y
+            marcher tous ensemble, se secourant, s’animant, se guidant les uns les autres : mais,
+            faute d’un soleil qui les éclaire, ils prennent chacun une route différente de celle que
+            la nature leur avait donnée ; ils se heurtent, se combattent, s’égorgent ; et les plus
+            heureux, marchant sur le corps de leurs frères, arrivent à la fin de leur vie sans avoir
+            vu autre chose qu’une horrible et ridicule mêlée dans d’épaisses ténèbres.</p>
+          <p>Oui, voilà la vie ; et, comme s’il fallait un signe pour en montrer l’aridité et le
+            froid glacial, vous entrez dans cette vie sans solennité, sans bénédiction, vous en
+            sortez de même. L’homme ne sait plus dire un seul mot sur le berceau ni sur la tombe ;
+            la statistique y a remplacé la religion et la poésie : quand un homme naît, quand un
+            homme meurt, on inscrit son nom sur un registre. Oh ! quel est celui qui ayant aimé, et
+            perdu l’objet de son amour, n’a pas senti sa tête s’égarer de folie en voyant comment se
+            consacre la double initiation de la vie et de la mort !</p>
+          <p>Et quel est celui qui a pu parcourir vos cimetières sans essuyer la sueur de son front
+            dévoré par la douleur et le doute ? La ville des morts ressemble à la ville des vivants.
+            Pour le riche, des inscriptions fastueuses, méprisées de ceux qui les lisent ; une
+            phrase chrétienne auprès d’une phrase athée ; d’absurdes légendes d’un culte <pb n="45"
+              xml:id="p45"/>mythologique, des mots abstraits dont on a fait des divinités : et pour
+            la multitude des pauvres, une fosse commune, qui engloutit en une minute tout souvenir
+            d’eux. Pour les riches, des tombeaux de toutes les formes, empruntés gauchement aux
+            siècles passés, indices d’un siècle qui n’a pas une pensée d’art à réaliser pour la
+            tombe ; des pyramides égyptiennes, des tombeaux romains, des pierres qui dessinent la
+            forme du cadavre, comme dans le moyen-âge ; des croix de bois fragiles et à demi brisées
+            sur de lourdes constructions de marbre ; d’obscurs emblèmes de résurrection pris aux
+            philosophies antiques ; et plus souvent encore, rien que des ossements figurés sur la
+            pierre. Non, il n’y a rien au fond de toute cette pompe, qui, sans la mort qu’elle
+            recèle, ne serait guère plus sérieuse qu’une décoration de théâtre ; il n’y a rien,
+            dis-je, qu’une épouvantable confusion, où vient se réfléchir dans toute sa hideur le
+            désordre de la société. Là, sur des cadavres, règnent encore l’injustice, le mensonge,
+            l’inégalité, la discorde ; le doute est gravé sur toutes ces pierres, et les paroles qui
+            s’élèvent des tombeaux se combattent entre elles dans leur silence éternel, sans qu’il
+            sorte de leur lutte aucune solution. Vainement vous avez choisi, pour déployer sous le
+            ciel vos tombes privilégiées, un site pittoresque, des coteaux couverts de gazons et
+            d’ifs funéraires : ce squelette d’une société sans foi, sans espérance, et sans charité,
+            n’en est que plus hideux dans sa fosse, et l’aspect de la nature contrastant avec cette
+            misère de l’homme et cette inanité de l’esprit humain n’en est que plus douloureux.</p>
+        </div>
+        <div>
+          <head>XVI.</head>
+          <p>Donc, Société actuelle, tu n’as rien dans ton sein que l’avenir, sans doute. Tu n’as ni
+            Dieu, ni droit, ni loi. Plus je te contemple, plus je vois que tu es folle et insensée.
+            Tu crois au hasard, et tu ne crois pas à autre chose. Tu ne veux plus du passé, et tu
+            t’efforces d’échapper à l’avenir qui t’invite et t’appelle. Tu es dans cet état
+            semblable à la mort qui précède et prépare la vie. Tu vis mécaniquement, comme un
+            automate, ou comme un homme endormi. Tu ressembles à la chrysalide, où le ver s’est
+            enfermé pour renaître un jour avec des ailes, et qui, en attendant la métamorphose,
+            n’est ni chenille, ni papillon, mais un être informe où les deux vies dont elle est le
+            centre se disputent pour ainsi dire et entrent en conflit. Les chimistes ont un axiome :
+                <quote><hi rend="i">Corpora non agunt nisi soluta</hi> : « La dissolution précède
+              nécessairement la formation de nouveaux corps. »</quote> Tu es cette dissolution, <pb
+              n="46" xml:id="p46"/>cette dissolution nécessaire, entre une société véritable et une
+            autre société véritable. Mais combien il est douloureux de te contempler, ô
+            Dissolution !</p>
+        </div>
+        <div>
+          <head>XVII.</head>
+          <p>Et si des hommes je passe à l’univers, si je porte mes regards vers l’infini, je trouve
+            encore le doute, toujours le doute.</p>
+          <p>Dès mon enfance, j’ai ouvert vos livres, ô Philosophes ! je m’en suis nourri vingt ans.
+            Jamais Babel ne vit une plus grande confusion et tant de discorde. Au milieu de tous vos
+            systèmes, rien n’est certain pour personne que l’incertitude de toute chose. Le <hi
+              rend="i">que sais-je</hi> ? de Montaigne, pris dans sa mauvaise acception, est devenu
+            l’axiome universel ; et la grande vérité du siècle est le proverbe espagnol : <quote><hi
+                rend="i">De las cosas mas seguras, la mas segura es dudar</hi></quote><note
+              resp="author" place="bottom">« Des choses les plus sûres, la plus sûre est de
+              douter. »</note>.</p>
+          <p>Je demande aux philosophes qui gouverne le monde ? Ils me répondent : Le hasard.</p>
+          <p>Quel est le mobile des actions humaines ? L’égoïsme.</p>
+          <p>Qu’est-ce donc que l’Humanité ? Nous n’en savons rien.</p>
+          <p>D’où vient-elle, où va-t-elle ? Nous n’en savons rien.</p>
+          <p>Quoi ! n’y a-t-il donc pas une vérité à laquelle je puisse m’attacher ? Pas une. La
+            terre est pleine de confusion et en proie à mille fléaux ; l’immense majorité des hommes
+            vit et meurt dans la souffrance ; on rencontre à chaque pas l’iniquité triomphante et la
+            vertu sacrifiée et méconnue : n’y a-t-il pas, oh ! n’y a-t-il pas quelque part un lieu
+            de réparation ? Non, me crient les philosophes ; et ma raison, éclairée par eux, est
+            obligée de convenir que le paradis des chrétiens est un monde imaginaire.</p>
+        </div>
+        <div>
+          <head>XVIII.</head>
+          <p>Fatalité donc ! Et voici la science elle-même qui est une éclatante révélation de cette
+            fatalité qui pèse aujourd’hui sur les hommes. En effet, après tant de travaux de la
+            philosophie matérialiste, qui pourrait nier que chacun de nous n’apporte en naissant des
+            déterminations, des <pb n="47" xml:id="p47"/>penchants, des facultés diverses ? La
+            fatalité n’est donc pas seulement hors de moi, elle est en germe en moi. Quand Gall émit
+            ses idées, on ne s’y trompa pas ; le monde eut un instant d’horreur et d’effroi ; on
+            sentit que la justice humaine telle qu’elle est aujourd’hui, distributive ou pénale,
+            n’avait plus de base.</p>
+          <p>Oui, Gall, ses devanciers, et ses successeurs, ont ramené parmi nous l’idée de la
+            fatalité antique. L’enfant est déterminé dès le ventre de sa mère. Il me semble que je
+            vois la main du physiologiste passer sur la tête de tout homme pour faire une horrible
+            expérimentation. « Va, lui dit-il, tu te crois un agent libre, mais j’ai découvert dans
+            les plis de ton cerveau les motifs de tes actions. Va, marche au milieu de ce monde
+            ennemi ou embarrassé d’obstacles ; tu portes en toi une force fatale, et il y a tout à
+            parier qu’elle ne produira que du mal. »</p>
+          <p>Aujourd’hui quand des têtes de criminels sont tombées sur des échafauds, nos savants
+            recueillent ces têtes, qui vont enrichir leurs précieuses collections. Ils les montrent
+            à leurs élèves dans leurs amphithéâtres, et disent : « L’homme qui avait ce cerveau a
+            obéi à sa nature ; il était déterminé fatalement au crime. » Bien, Docteurs ! vous
+            parlez au nom de la science ; mais pourquoi n’avez-vous pas paru au tribunal pour dire,
+            au nom de cette même science : « Cet homme, que vous allez condamner, a obéi à sa
+            nature ; il était déterminé fatalement au crime. »</p>
+          <p>Que, pour échapper au fatalisme, des sophistes s’épuisent à démontrer que la science de
+            Gall s’accorde parfaitement avec la liberté humaine, que m’importe leur bavardage ? Oui,
+            dans une autre société cette science pourrait s’accorder avec la liberté humaine, mais
+            non dans celle-ci. Vainement vous reculez, Matérialistes, devant vos propres
+            conceptions ; vainement, devenus lâches à force d’avoir été audacieux, vous essayez de
+            rassurer la conscience ébranlée du juge et du bourreau. Vous feriez mieux d’imiter les
+            plus forts d’entre vous, qui ont au moins la franchise de leur système.</p>
+          <p>Il y a deux sortes de liberté : la liberté naturelle, et la liberté qu’on appelle
+            morale.</p>
+          <p>La liberté naturelle est celle des animaux, qui obéissent à leurs instincts.</p>
+          <p>La liberté morale est celle de l’homme, qui dirige ses instincts.</p>
+          <p>Mais, pour diriger ses instincts, il faut pouvoir les comparer à quelque chose qui en
+            diffère. Pour se conduire, il faut une lumière. Toute force a besoin d’un point d’appui.
+            Donc, pour jouir de la liberté morale, il faut un idéal. Or, cet idéal, cette lumière,
+            ce point d’appui, ce terme de comparaison nécessaire, manque aujourd’hui à l’homme ;
+            l’homme ne sait plus ce que c’est que la vertu, la vérité, le devoir : donc la liberté
+            morale n’existe plus pour lui. Faire un calcul entre ses <pb n="48" xml:id="p48"
+            />passions, voilà tout ce qui lui reste ; mais calculer entre ses passions sans notion
+            supérieure, ce n’est pas être libre moralement, c’est au contraire être esclave
+            moralement ; c’est être au plus haut point esclave de son égoïsme.</p>
+          <p>L’homme, aujourd’hui, dénué de liberté morale, s’abandonne donc à la liberté naturelle.
+            Il cherche le bonheur dans la satisfaction de ses besoins, sans autre contrepoids, sans
+            autre lumière. Il n’a plus d’autel dans son cœur où il puisse immoler ses passions ; il
+            a un autel où il leur sacrifie. Mais qu’arrive-t-il ? Déclaré libre dans le sens de la
+            liberté naturelle, il ne rencontre, dans ce sens même, que des obstacles.</p>
+          <p>Ceux qui soutiennent que, dans l’état actuel de la société, la science de Gall ne
+            renverse pas fondamentalement la justice distributive ou pénale, devraient bien nous
+            montrer que l’homme est libre aujourd’hui de s’abandonner à sa liberté naturelle, ou, en
+            d’autres termes, que ces prédispositions fatales, qu’ils reconnaissent, peuvent être,
+            dans tous les cas, satisfaites sans crime au sein de la société actuelle. Ne voit-on pas
+            que, pour qu’ils eussent raison, il faudrait qu’une providence harmonisât les
+            déterminations intérieures de chaque homme avec les penchants des autres hommes et avec
+            le monde extérieur ? Or, cela est-il ? Jugez-en vous-mêmes : voyez vos codes, vos
+            gendarmes, vos prisons, vos bagnes, vos échafauds ; entendez la plainte universelle ; et
+            dites-moi si l’homme possède la liberté naturelle.</p>
+          <p>L’homme aujourd’hui ne possède donc ni la liberté morale ni la liberté naturelle. Mais
+            il a ses penchants innés, ses prédéterminations fatales. Donc la fatalité règne.</p>
+        </div>
+        <div>
+          <head>XIX.</head>
+          <p>Voyant qu’il n’y a plus de société véritable, je m’étais réfugié dans la famille.
+            J’avais rétréci mon cœur, et concentré toutes mes affections sur quelques êtres chéris.
+            Hors de ce cercle, tout était pour moi indifférent ou hostile. Je rapportais tout à
+            eux ; tout leur était sacrifié. N’aimant rien hors eux, ne connaissant ni Dieu ni
+            l’Humanité, mon amour était devenu monstrueux ; et cependant, comme Ugolin, à qui ses
+            enfants demandent à manger, et qui, dévoré lui-même par la faim, n’a que des larmes, je
+            n’avais que des doutes à donner à ceux que j’aimais ; et par eux ces doutes faisaient
+            encore mon supplice. Et comme ces objets de mon amour étaient tout pour moi, que pour
+            moi l’Humanité se bornait à eux, le temps à leur durée, toutes leurs misères, toutes
+            leurs imperfections déchiraient mon cœur, sans que la consolation pût <pb n="49"
+              xml:id="p49"/>me venir du dehors. Ah, malheureux ! je ne me suis attaché à rien
+            d’éternel. Ce que j’ai aimé, je l’ai tiré du monde, et j’ai dit : « Là est tout mon
+            amour, toute mon espérance, toute ma vie » ; et voilà que la douleur et la mort me
+            flétrissent ce que j’avais voulu sauver du naufrage universel de mes idées et de mes
+            sentiments ; et le monde tout entier n’est plus pour moi qu’un désert, et ces sphères
+            infinies qui remplissent l’espace sont le néant pour moi, et cette marche éternelle du
+            temps est pour moi le désespoir ; et je ne peux fixer mes regards ni sur le passé, ni
+            sur le présent, ni sur l’avenir. Je ne vois plus qu’une affreuse fatalité, des éléments
+            en désordre ou un mauvais génie qui rit d’un rire infernal sur les maux du genre
+            humain !</p>
+        </div>
+        <div>
+          <head>XX.</head>
+          <p>Avez-vous au moins des chants pour endormir mes douleurs ? Les philosophes ont engendré
+            le doute ; les poètes en ont senti l’amertume fermenter dans leur cœur, et ils chantent
+            le désespoir.</p>
+          <p>L’ordre social autrefois se peignait dans tous les arts ; l’art était comme un grand
+            lac qui n’est ni la terre ni le ciel, mais qui les réfléchit. Tous les arts qui sont
+            l’expression d’une société véritable font défaut aujourd’hui, comme cette société.
+            Hommes de mon temps, où sont vos fêtes religieuses où le cœur des hommes bat en commun ?
+            Vous vivez solitaires, vous n’avez plus de fêtes. Vous vous bâtissez des demeures
+            alignées géométriquement ; mais vous n’avez plus de temples. Vos architectes vivent de
+            plagiat ; vos peintres rendent la nature sans vérité et sans idéal, et aucune pensée ne
+            dirige leur pinceau. Mais, je le reconnais, la poésie de la parole est venue fleurir
+            dans vos ruines ; elle est venue, seule, célébrer des funérailles.</p>
+          <p>C’est Shakespeare<note resp="editor" place="bottom">[NdE] Orthographié
+              Shakspeare.</note> qui conduit le chœur des poètes, Shakespeare qui conçut le doute
+            dans son sein bien avant la philosophie. Werther et Faust, Child-Harold et don Juan,
+            suivent l’ombre d’Hamlet, suivis eux-mêmes d’une foule de fantômes désolés qui me
+            peignent toutes les douleurs, et qui semblent tous avoir lu la terrible devise de
+            l’enfer : <quote><hi rend="i">Lasciate ogni speranza.</hi></quote> Que tu es grand, ô
+            Byron, mais que tu es triste ! Et toi, Goethe<note resp="editor" place="bottom">[NdE]
+              Orthographié Gœthe.</note>, après avoir dit deux fois la terrible pensée de ton
+              siècle<note resp="author" place="bottom">Dans <title>Werther</title> et
+                <title>Faust</title>.</note>, tu sembles avoir voulu t’arracher au tourment qui
+            t’obsédait, en remontant les âges, te contentant de promener ton imagination passive de
+            siècle en siècle, et de répondre comme un écho à tous les poètes <pb n="50" xml:id="p50"
+            />des temps passés. D’autres, plus faibles, ont été moins sages. L’Angleterre a entendu,
+            autour de ses lacs, bourdonner, comme des ombres plaintives, un essaim de poètes abîmés
+            dans une mystique contemplation. Combien l’Allemagne a-t-elle vu de ses enfants
+            participer du puissant délire d’Hoffmann<note resp="editor" place="bottom">[NdE]
+              Orthographié Hoffman.</note> et de la folie de Werner !</p>
+          <p>Et la France, après avoir produit et répandu sur l’Europe la philosophie du doute, la
+            poésie du doute lui était bien due, quelque douloureuse qu’elle fût. Pour la première
+            fois notre langue a enfin connu la poésie lyrique. Ce ne sont plus, comme dans les
+            siècles précédents, quelques accents délicats et purs, quelques retours heureux à
+            l’antiquité, de l’analyse et de l’éloquence ; c’est la poésie elle-même qui a paru. Mais
+            contemplez ceux à qui nous la devons, sondez le fond de leur cœur : ne voyez-vous pas
+            que leur front est empreint de tristesse et de désolation ? C’est le doute qui les
+            assiège et qui les inspire, comme il inspira Goethe et Byron. Ou bien ils essaient
+            vainement de se rejeter en arrière et de se rattacher aux solutions du Christianisme ;
+            ou bien ils prodiguent leurs forces à peindre l’aspect matériel de l’univers ; et quand
+            il s’agit du divin, de l’absolu, de l’éternel, ils font du fantastique sans croyance,
+            uniquement pour faire de l’art.</p>
+        </div>
+        <div>
+          <head>XXI.</head>
+          <p>Que telle soit la misère profonde de l’homme en notre temps, c’est ce que personne
+            n’osera nier. Et qui le nierait ? Certes, ce ne sont ni les poètes, qui ont tant répété
+            sur toutes les variations ce cri de douleur : <hi rend="i">Mon âme est triste jusqu’à la
+              mort</hi> ; ni les philosophes, que tant de scepticisme accable ; ni les politiques,
+            que tant de perplexité dévore ; ni les moralistes, qui ne savent quelle base donner à la
+            morale ; ni les philanthropes, qui voient tous leurs efforts vains comme la fumée que le
+            vent disperse ; ni enfin aucun de ceux qui ont réfléchi attentivement sur le caractère
+            de notre époque. Doute, incertitude, fatalité, voilà la raison profonde de toute chose
+            en ce temps ; voilà la devise écrite à chaque page dans les livres et dans les journaux,
+            dans les émeutes des peuples comme dans les conseils des rois et dans les discussions
+            des parlements, dans les cours d’assises et à chaque foyer domestique.</p>
+          <p>Et cette plainte n<hi rend="sup"/> !est pas nouvelle : le Dix-Huitième Siècle commença
+            à la faire entendre au milieu des cris de guerre qu’il poussait contre le passé ; car
+            les philosophes pressentaient bien que l’Humanité à leur suite allait se trouver quelque
+            temps comme déshéritée. Toutes nos plaintes, à nous, et tous nos rires amers, ne sont
+            que l’écho prolongé <pb n="51" xml:id="p51"/>de cette moquerie de détresse de Voltaire,
+            se faisant manichéen, lorsqu’il quittait un instant ses armes de destruction, et de
+            cette lamentable voix de Jean-Jacques, disant anathème à la société, et se rejetant dans
+            la Nature, comme si la Nature sans l’Humanité, c’était le sein de Dieu. Unanimes
+            aujourd’hui, poètes, philosophes, et peuples, ne font que répéter d’une voix immense, et
+            comme à plein chœur, le rire sardonique et le gémissement de ces deux grands génies :
+            inquiets comme Jean-Jacques, ironiques comme Voltaire.</p>
+          <p>Or cet état peut-il durer ? Peut-on raisonnablement soutenir que la division et
+            l’anarchie dans la connaissance humaine soient l’état normal de la société ? Chaque
+            homme n’a-t-il pas le droit de dire à cette société, qui, prise collectivement, n’est
+            sur toute chose qu’une négation, un néant, et dont l’anarchie est telle, au moral comme
+            au physique, que tout homme qui y naît y puise nécessairement le germe d’une anarchie
+            qui dévore ensuite son cœur et fait de sa vie un long supplice : «Ou reconnaissez
+            l’antique religion, ou résumez votre science, vos lumières, votre philosophie, et donnez
+            à chacun de vos citoyens des principes qui puissent le guider. À cette condition
+            seulement il peut y avoir une patrie, une société. Sans cela, tout homme est libre dans
+            son cœur de nier vos lois, et, s’abandonnant à ses passions, de les violer.
+            Faux-semblant de société, ne parle pas d’honneur, tu ne peux en décerner ; ne parle pas
+            de honte, tu ne peux en infliger ; ne parle pas de justice ; car, aussi aveugle, aussi
+            dénuée de principes que le malheureux ou le coupable que tu condamnes, quand tu punis tu
+            n’es qu’une force brutale, et ton juge n’est qu’un bourreau. »</p>
+          <p>Chose singulière, contraste bizarre ! on en est arrivé à croire qu’il est utile à une
+            nation, et même qu’il serait utile au genre humain tout entier d’employer un système
+            uniforme de poids et de mesures, et en même temps à ne pas sentir qu’il y ait besoin
+            pour une nation, que dis-je ? pour deux hommes, d’avoir un système uniforme de croyance
+            morale, et un <hi rend="i">criterium</hi> commun de vérité et de certitude ! Voilà
+            l’époque, voilà où elle est tombée ; et voilà d’où elle doit sortir pour s’élever à la
+            plus haute forme d’association et de communion qui ait encore régné parmi les hommes et
+            mérité le nom de société.</p>
+        </div>
+        <div>
+          <head>XXII.</head>
+          <p>Aux grandes époques de rénovation, lorsqu’un ordre social tombe et qu’un monde nouveau
+            va naître, le génie du mal semble se déchaîner sur la terre. C’est que tous les éléments
+            de la pensée humaine luttent confusément, comme dans le chaos. Il y a alors une crise de
+              <pb n="52" xml:id="p52"/>douleur et d’enfantement, de misère morale et physique
+            excessive, de pleurs et de grincements de dents. C’est la dissolution qui précède la vie
+            nouvelle ; c’est l’agonie, la mort : mais c’est aussi l’indice certain de la
+            renaissance. Ce que l’Humanité attend, c’est l’initiation à une nouvelle vie, c’est le
+            programme de sa marche nouvelle, c’est le signal de son départ pour un nouveau ciel et
+            une nouvelle terre.</p>
+          <p>Quand les hommes commencent à douter de ce qu’ils ont cru, quand ils détruisent ce
+            qu’ils avaient élevé, ce travail s’appelle philosophie. Alors ceux qui ne pensent pas
+            comme les autres s’appellent les sages, les philosophes. Mais quand l’Humanité, après
+            avoir bien cherché avec les philosophes, a trouvé la solution du problème qui
+            l’occupait, elle se réunit, s’accorde dans cette solution ; et alors la philosophie
+            s’appelle une religion. Les philosophies détruisent les solutions incomplètes adoptées
+            par l’Humanité, et cette œuvre importante prépare les religions qui doivent leur
+            succéder et les ensevelir.</p>
+          <p>Oui, et j’en ai pour garant la même loi de compensation nécessaire et d’équilibre
+            inévitable dans l’esprit humain qui m’a servi de boussole et de preuve dans tout ce
+            Discours ; oui, cette douleur de notre époque annonce l’enfantement d’une société
+            nouvelle. L’esprit humain ne peut pas concevoir l’enfer tout seul, l’enfer sans
+            compensation, l’enfer sans paradis : donc, puisque la science lui a ravi son paradis
+            imaginaire, il cherchera de nouveau et trouvera ce paradis qui lui est nécessaire.
+            L’esprit humain ne peut pas concevoir le présent sans avenir : donc il délaissera
+            l’idolâtrie du présent pour chercher l’avenir. L’esprit humain ne peut pas concevoir la
+            réalité sans idéal : donc il reviendra à l’idéal. Il ne conçoit le désordre que parce
+            qu’il conçoit l’ordre : donc l’ordre renaîtra. Il ne croit au hasard que parce qu’il est
+            de sa nature de croire à la Providence : donc il abandonnera le culte du hasard pour le
+            culte de la Providence. Il n’est athée que parce qu’il est de sa nature de croire en
+            Dieu et d’aimer Dieu : donc il quittera l’athéisme et reviendra à Dieu. De même que
+            l’ombre n’existe que par la lumière et à cause d’elle, de même le fini et toutes ses
+            formes n’existent que par l’infini et à cause de lui. La mort est l’ombre de la vie, le
+            mal est l’ombre du bien, l’idée de hasard est l’ombre de l’idée de providence,
+            l’athéisme est l’ombre de la conception naturelle de Dieu. Toutes ces idées de fini
+            absolu, de présent absolu, de désordre absolu, de hasard absolu, d’athéisme enfin, sont
+            des idées négatives qui n’ont par elles-mêmes aucune existence. C’est, dans notre âme,
+            l’ombre d’un nuage qui passe entre Dieu et nous.</p>
+          <p>La vie reviendra à cette société, quand elle aura bien compris toute sa misère, et
+            goûté jusqu’à la lie son adversité. Croyez-vous que la longue série de nos malheurs
+            n’ait d’autre but que de fournir des récits à l’histoire, et n’ait pas un sens
+            providentiel pour nos âmes ?</p>
+          <p><pb n="53" xml:id="p53"/>Le mal est grand, me dira-t-on ; vous venez vous-même de le
+            prouver. L’excès du mal, répondrai-je de nouveau, amène le bien. Qui sait ? Dieu est
+            peut-être plus près de nous que nous n’oserions l’espérer. S. Paul était bien loin de
+            Dieu, lorsqu’il repoussait l’avenir en martyrisant les Chrétiens ; il rencontra Dieu, la
+            vérité, l’avenir, au chemin de Damas. S. Paul, c’est la société qui se transfigure.</p>
+          <p>Le Mosaïsme s’était déjà transfiguré en Jésus, et S. Paul ne l’avait pas compris. Eh !
+            que savez-vous si la vérité ancienne elle-même, nous apparaissant de nouveau, mais sans
+            voile et sous une nouvelle face, n’opérera pas notre résurrection et notre salut ?</p>
+          <p>Ne disons-nous pas nous-mêmes tous les jours que l’Humanité était fort abaissée quand
+            le Christianisme vint, et qu’elle se releva par le Christianisme ? Nous avons donc
+            encore conscience en nous-mêmes du Christianisme et de sa valeur, puisque nous parlons
+            ainsi. Il y a donc au fond de notre âme un je ne sais quoi de religieux qui est
+            invincible, quelque chose qui n’est pas le Christianisme et qui le juge et l’apprécie.
+            Que savez-vous si ce n’est pas le Christianisme lui-même qui se transfigure dans nos
+            âmes ?</p>
+          <p>Ce qui est certain, c’est que la connaissance que nous avons déjà de notre état est un
+            grand pas pour en sortir. Or que viens-je de dire de la société actuelle que chacun ne
+            pense et n’avoue ! Il suffit de rentrer en soi-même dans le silence des passions, pour
+            reconnaître qu’il n’y a dans ce triste tableau de l’époque où nous vivons ni exagération
+            ni mensonge.</p>
+          <p>Les Chrétiens faisaient, avec raison, descendre le pardon céleste sur le pécheur qui
+            examinait sa conscience. Telle est en effet la vérité psychologique. Dieu, le beau
+            éternel, le soleil de vie, éclaire instantanément l’âme qui se repent.</p>
+          <p>Et que faisons-nous encore chaque jour nous-mêmes, individuellement, quelque éloignés
+            que nous soyons du Christianisme et de son culte ? que faisons-nous dans nos fautes et
+            dans nos douleurs ? Nous rentrons en nous-mêmes, et nous nous livrons au repentir. Le
+            repentir nous lave et nous purifie. Ensuite la vie nous revient.</p>
+          <p>La vie reviendra pour la société quand elle se connaîtra bien elle-même, et que,
+            sentant le mal qui est en elle, elle se repentira.</p>
+        </div>
+        <div>
+          <head>XXIII.</head>
+          <p>Se repentira-t-elle comme l’entendent les prêtres de la religion déchue et tous les
+            partisans du passé soit politique, soit religieux ? Après <pb n="54" xml:id="p54"/>avoir
+            détruit ses idoles, les relèvera-t-elle ? Rentrera-t-elle dans la voie d’où elle est
+            sortie ? Reprendra-t-elle ses anciennes erreurs ? Va-t-elle de nouveau croire au ciel
+            comme elle y croyait ? Rêvera-t-elle encore un paradis, un enfer, et un purgatoire, en
+            dehors de la réalité ? Dira-t-elle encore que le royaume de Dieu n’est pas de ce monde ?
+            Aura-t-elle deux ordres d’idées essentiellement distincts, le règne de la nature et le
+            règne de la grâce ? Admettra-t-elle le mal absolu dans l’ordre de la nature, et en
+            conséquence concédera-t-elle encore l’inégalité sur la terre ? Va-t-elle donc réédifier
+            le passé, et rendre à la tiare et aux sceptres leur puissance ?</p>
+          <p>Oh ! non. Ces talismans ont perdu à jamais leur puissance, et ce n’est pas ainsi que la
+            société actuelle se régénérera. Encore une fois la terre et le ciel du passé, comme
+            l’homme les a compris, sont à jamais détruits.</p>
+          <p>Comment donc se régénérera-t-elle ?</p>
+          <p>L’homme, dit le mythe juif, mit la main sur l’arbre de la connaissance, et il perdit le
+            paradis. Mais Dieu lui-même prévit dès lors que l’homme retrouverait le paradis
+            perdu.</p>
+          <p>Ce qu’on appelle la chute est, dans la <title>Genèse</title>, un progrès en même temps
+            qu’une chute. L’homme arrive à la connaissance avec égoïsme, et voilà son péché ; c’est
+            par la manière dont il acquiert la connaissance qu’il y a chute. Mais la connaissance
+            qu’il a acquise n’en est pas moins un progrès ; et par elle l’homme, suivant la lettre
+            même du symbole, devient semblable à Dieu : <quote>« Et l’Éternel Dieu dit : Voici,
+              l’homme est devenu comme l’un de nous, sachant le bien et le mal<note resp="author"
+                place="bottom"><title>Genèse</title>, ch. III, v. 22.</note>. »</quote></p>
+          <p>Or que dit ensuite la <title>Genèse</title> ? Ce progrès, qui est un mal, un péché, une
+            chute à cause de l’inspiration qui l’a conçu, étant accompli, Dieu, suivant la Bible,
+            nous provoque à un divin combat : <quote>« Et l’Éternel Dieu dit : Voici, l’homme est
+              devenu comme l’un de nous, sachant le bien et le mal. Mais maintenant il faut prendre
+              garde qu’il n’avance sa main, et ne prenne aussi de l’arbre de vie, et qu’il n’en
+              mange et ne vive à toujours<note resp="author" place="bottom"><hi rend="i"
+                >Ibid.</hi></note>. »</quote> Ainsi Dieu lui-même nous incite à détruire l’effet du
+            péché sans détruire la science acquise, sans retourner aux ténèbres.</p>
+          <p>Et nous aussi, comme l’Adam de la <title>Genèse</title>, qui n’est que le type de
+            l’Humanité, nous sommes sortis de la demeure que le Christianisme nous avait faite, et
+            nous en sommes sortis en portant la main sur l’arbre de la science. L’Éden magique a
+            disparu à nos yeux, et nous sommes aujourd’hui errants sur la terre.</p>
+          <p>Mais nous ne retournerons pas pour cela aux ténèbres.</p>
+          <p><pb n="55" xml:id="p55"/>Qui nous a perdus ? Un progrès. — Qui nous sauvera ? Un
+            nouveau progrès.</p>
+          <p>Nous avons la science, ayons la vie. C’est sur l’arbre de la vie, dit la
+              <title>Genèse</title>, qu’il faut mettre la main quand on a porté la main sur l’arbre
+            de la science.</p>
+        </div>
+        <div>
+          <head>XXIV.</head>
+          <p>Ils sont bien vieux, me dira-t-on, ces mythes que vous alléguez pour nous donner
+            courage et confiance !</p>
+          <p>Il est vrai ; entre nous et ceux que nous supposons les avoir écrits, quatre mille ans
+            peut-être ! Mais qu’importe ? Vieux, ils sont jeunes : car la vérité est toujours la
+            même en essence, éternelle, infinie, immuable ; l’esprit humain aussi est le même en
+            essence. La lumière, donc, n’a pas changé, et l’œil reçoit toujours la lumière.</p>
+          <p>La science, c’est l’analyse.</p>
+          <p>La vie, c’est la synthèse.</p>
+          <p>Le mal, c’est la séparation, la division, la fragmentation, l’égoïsme.</p>
+          <p>Le bien, c’est l’unité.</p>
+        </div>
+        <div>
+          <head>XXV.</head>
+          <p>Ainsi, le cœur affligé des maux de notre époque, nous concevons cependant une grande
+            espérance, et nous pressentons, le temps où l’Humanité renaîtra en comprenant l’Unité ;
+            car l’Unité, c’est, la Vie.</p>
+          <p>Il en est de la société comme de tous les êtres, et aussi comme de toutes les œuvres du
+            génie de l’homme, de tous les ouvrages de l’art, de toutes les machines. La vie ne se
+            manifeste que dans l’<hi rend="i">unité</hi> ; elle disparaît quand l’unité cesse.
+              <quote>« Dans la vie, dit Hippocrate, tout concourt et tout consent. »</quote> C’est
+            une des plus profondes définitions qu’on ait encore données de la vie ; et elle
+            s’applique aussi bien à la vie collective ou sociale qu’à la vie organique de
+            l’individu ; elle est vraie de l’être métaphysique <hi rend="i">société</hi>, comme de
+            l’être physiologique qu’on appelle animal, elle est vraie de cette création secondaire
+            qui est donnée à l’homme, et dont le chef-d’œuvre est incontestablement la SOCIÉTÉ,
+            comme de la création divine, prise soit dans son ensemble, soit dans chacun de ses
+            détails ; elle est vraie, en un mot, que vous considériez <pb n="56" xml:id="p56"/>une
+            plante, un animal, une œuvre d’art, une machine, une société, ou l’univers.</p>
+          <p>Or il y a des époques où l’unité règne dans la connaissance humaine, d’autres où c’est
+            la discorde et l’anarchie. Dans le premier cas, il y a société ; dans l’autre, une
+            simple agglomération d’hommes, et une crise de douleur semblable à ces crises de notre
+            corps où les principes de deux âges différents luttent confusément dans tout l’organisme
+            et mettent l’existence en danger.</p>
+          <p>Alors gisent séparés les différents membres de la connaissance humaine, la politique
+            d’un côté, l’art d’un autre, la science d’un autre, et d’un autre encore l’industrie,
+            qui n’est qu’une application de la science à la nature extérieure. Rien ne concourt,
+            rien ne consent, pour répéter l’admirable expression d’Hippocrate. Ce n’est donc plus un
+            corps ; ce sont les membres séparés d’un cadavre, lesquels, en tant qu’on les considère
+            en eux-mêmes, peuvent encore vivre d’une vie propre, mais n’ont plus de vie commune. La
+            relation qui les unissait étant détruite, la société est par là même détruite, puisque
+            la vie, qui ne pouvait couler dans la société qu’à cause de cette relation, ne le peut
+            plus.</p>
+          <p>Quelle est la vie d’un membre séparé du corps, et ayant perdu les relations où il était
+            dans la vie générale du corps ? C’est de pourrir, de se décomposer, pour passer ensuite,
+            par ses éléments, dans de nouveaux corps. Et ces phénomènes, que nous appelons mort,
+            sont encore de la vie, de la vie <hi rend="i">à part</hi>, si je puis parler ainsi, mais
+            de la vie ; car la mort absolue est une pure conception de notre esprit.</p>
+          <p>Et de même, séparés et ayant perdu leurs connexions qui constituaient le corps social,
+            quelle est la vie <hi rend="i">à part</hi> de la politique, de l’art, de la science, de
+            l’industrie ?</p>
+          <p>L’industrie produit la richesse ; mais la richesse mal distribuée engendre tous les
+            vices et toutes les misères. La science amasse une immense érudition de faits, découvre
+            d’importantes vérités ; mais la science, absorbée dans les détails et privée de la vue
+            de l’ensemble, devient la plus aveugle des cécités, et la science sans la charité
+            produit tous les doutes et toutes les misères morales. L’art, c’est-à-dire le sentiment,
+            ne voyant autour de lui que cette décomposition du corps social, tombe dans le spleen et
+            dans l’athéisme, ou revient aux conceptions du passé, et produit mille monstres
+            semblables aux rêves du malade que la fièvre dévore dans une crise terrible… qui va le
+            sauver.</p>
+          <p>Quant à la politique, elle est nulle évidemment, puisque sa fonction était de présider
+            à cette unité qui n’existe plus, puisque c’était elle qui établissait dans la réalité
+            vivante ces relations, ce concours qui ne sont plus. Elle se réduit donc, pour les
+            hommes que l’on appelle encore gouvernants à de telles époques, et qui n’ont pas le sens
+            de la <pb n="57" xml:id="p57"/>restauration de la société, à je ne sais quelle agitation
+            égoïste, qui n’a d’autre mobile que leur intérêt ou leur vanité. Et néanmoins, quoique
+            alors la politique soit bien véritablement nulle et complètement anéantie, à tel point
+            même que son essence est niée et que son idée est tout à fait obscurcie pour tous, il
+            arrive cependant que toutes les douleurs que la société ressent dirigent presque
+            exclusivement son attention de ce côté ; et, chose singulière, mais évidemment
+            nécessaire, jamais on ne s’occupe tant de la politique que lorsque la politique est
+            anéantie.</p>
+          <p>Toute cette fermentation de la mort pour engendrer la vie, toute cette agitation
+            inquiète et sombre, hagarde et comme insensée, qui a lieu à ces époques, principalement
+            dans la sphère des idées politiques et dans l’art, peut tromper celui qui n’y regarde
+            pas de près ; il peut prendre les phénomènes qui se passent sous ses yeux pour de la
+            vie, son époque pour une époque semblable aux périodes antérieures. Mais celui qui
+            contemple attentivement n’en prononce pas moins que c’est la mort du corps social, et
+            sait en même temps que ces phénomènes sont nécessaires pour former l’unité nouvelle.</p>
+          <p>On répète tous les jours que les sociétés ne meurent pas ou ne meurent plus, par
+            opposition aux petites sociétés de l’antiquité. Autant vaudrait dire que rien ne meurt,
+            puisqu’en effet les éléments ne meurent pas. Certes les générations ne s’éteignent pas
+            sans se reproduire. L’erreur vient de ce qu’on ne considère pas ce qu’il faut entendre
+            par société. La société, ce ne sont pas les hommes, les individus qui composent un
+            peuple. C’est la relation générale de ces hommes entre eux, c’est cet être métaphysique,
+            harmonieuse unité formée par la science, l’art, l’industrie, et la politique, qui est la
+            société ; et c’est cet être qui <hi rend="i">meurt</hi>. Alors tout ce qui était
+            fonction de vie, tout ce qui concourait et consentait, devient fonction de décomposition
+            et de mort.</p>
+          <p>Ainsi un bel animal, chef-d’œuvre de la création : il marche, il s’élance, il franchit
+            les hautes montagnes ; il respire, il sent, il a de la mémoire, il aime, il engendre.
+            Considérez-le maintenant sous le scalpel de l’anatomiste : voilà son cœur et ses
+            artères, mais ils ne battent plus ; ses nerfs, ses muscles, ses os, mais plus de
+            mouvement, plus de vie ; au lieu de cette vie d’ensemble, de cette vie unitaire, une vie
+            de décomposition, une vie de mort, pour ainsi dire, a commencé partout. L’unité de son
+            être est détruite.</p>
+          <trailer>FIN DU DISCOURS AUX PHILOSOPHES.</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
