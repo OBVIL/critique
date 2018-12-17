@@ -447,8 +447,8 @@
         </p>
         <p>Je l’ai recueillie par commisération, et je la dépose aujourd’hui dans le <hi rend="i"
             >tour</hi> de la publicité.</p>
-        <label>! ¡ ! <lb/>SOUS UN CATALPA <lb/>——</label>
-        <label>PRÉFACE. <lb/>À L’ILLUSTRE ALPHONSE KARR, <lb/>romancier retiré <lb/><hi rend="i"
+        <label type="head">! ¡ ! <lb/>SOUS UN CATALPA <lb/>——</label>
+        <label type="head">PRÉFACE. <lb/>À L’ILLUSTRE ALPHONSE KARR, <lb/>romancier retiré <lb/><hi rend="i"
             >Présentement horticulteur à Nice</hi>,</label>
         <salute><hi rend="sc">Monsieur</hi>,</salute>
         <p>Vous avez inventé le <hi rend="sc">Roman à digressions</hi> et une variété de roses, la
@@ -546,7 +546,7 @@
             mon jardin</title>, j’écrirai un jour le <title>Voyage autour de ma terrine</title>.</p>
         <p>Personnages, à vos tabourets !</p>
         <p>Adieu, cher écrivain ; que vos orangers de Nice vous consolent de mes romans !…</p>
-        <label>! ¡ !</label>
+        <ab type="ornament">! ¡ !</ab>
         <p rend="center i">Il est mort, laissant une préface.</p>
         <p>Ah ! si Champfleury pouvait contempler — comme moi — la dernière ligne de ce manuscrit,
             <pb n="43"/>où la mort n’a pas laissé le temps de jeter le point final, certes son œil
@@ -2241,7 +2241,7 @@
             <castItem><role xml:id="derville"><hi rend="sc">Derville</hi></role>,<roleDesc> directeur de
               l’Odéon.</roleDesc></castItem>
             <castItem><role xml:id="francisque"><hi rend="sc">Francisque</hi></role>, <roleDesc>factotum de
-              I’Odéon. Signe particulier : Fait courir le bruit qu’il a « des intérêts dans le
+              l’Odéon. Signe particulier : Fait courir le bruit qu’il a « des intérêts dans le
               théâtre ».</roleDesc></castItem>
             <castItem><role xml:id="de-martray"><hi rend="sc">De Martray</hi></role>, <roleDesc>directeur de
               la Comédie-Française.</roleDesc></castItem>
@@ -2251,7 +2251,7 @@
           </castList>
           <stage type="setting" rend="center n">La scène est à Paris — en 1860.</stage>
           <pb n="179"/>
-          <label>LES ARRIERE-PETITS-FILS. <lb/>sotie parisienne</label>
+          <stage rend="sc">LES ARRIERE-PETITS-FILS. <lb/>sotie parisienne</stage>
         </div>
         <div type="act">
           <head>Premier tableau</head>
@@ -3176,8 +3176,8 @@
             jambes croisées, sur un tapis de Kashmir.</stage>
           <div type="scene">
             <head>Scène unique</head>
-            <label>ABDUL-THÉO, BERNAR-MED-LOPEZ, VILLEMOT-PACHA, MÉRY-ACHMET,
-              CHAMPFLEURY-PACHA</label>
+            <stage rend="sc">ABDUL-THÉO, BERNAR-MED-LOPEZ, VILLEMOT-PACHA, MÉRY-ACHMET,
+              CHAMPFLEURY-PACHA</stage>
             <sp who="abdul-theo">
               <speaker><hi rend="sc">Abdul-Théo</hi>, <stage>dans le bain</stage>.</speaker>
               <p>Eh bien ! vizir, as-tu découvert quelque chose ? Peux-tu me nommer les instigateurs
@@ -3446,7 +3446,7 @@
             de mouton, des boulettes de riz et des crêpes au miel.</stage>
           <div type="scene">
             <head>Scène première</head>
-            <label>Omer-Dinochau, Monselet-Pacha</label>
+            <stage rend="sc">Omer-Dinochau, Monselet-Pacha</stage>
             <sp who="omer-dinochau">
               <speaker><hi rend="sc">Omer-Dinochau</hi>. <stage>Il se promène avec
                   agitation.</stage></speaker>
@@ -3556,7 +3556,7 @@
           </div>
           <div type="scene">
             <head>Scène II</head>
-            <label>MONSELET-PACHA</label>
+            <stage rend="sc">MONSELET-PACHA</stage>
             <sp who="monselet-pacha">
               <speaker><hi rend="sc">Monselet-Pacha</hi>, <stage>seul</stage>.</speaker>
               <p>Elle va monter… mon cœur bat… La première fois que je la vis, la belle Grecque,
@@ -3569,8 +3569,8 @@
           </div>
           <div type="scene">
             <head>Scène III</head>
-            <label>MONSELET-PACHA, OMER-DINOCHAU, VILLEMOT-PACHA, PUIS MÉRY-ACHMET,
-              CHAMPFLEURY-PACHA, etc.</label>
+            <stage rend="sc">MONSELET-PACHA, OMER-DINOCHAU, VILLEMOT-PACHA, PUIS MÉRY-ACHMET,
+              CHAMPFLEURY-PACHA, etc.</stage>
             <sp who="villemot-pacha">
               <speaker><hi rend="sc">Villemot-Pacha</hi>.</speaker>
               <p><stage>Il montre Monselet. — </stage>Il n’en est pas, lui ?</p>
@@ -3989,7 +3989,7 @@
             — Si je vous présente à mon tour quelques <hi rend="i">types</hi>, <pb n="247"/>c’est
             que leur individualité se détache vivement de la trivialité de l’ensemble. J’écrème
             cette foule. Voici d’abord</p>
-          <label>L’INCONSOLABLE BOURGEOIS</label>
+          <label type="head">L’INCONSOLABLE BOURGEOIS</label>
           <p>Adolphe Maillet ne se mêle pas au flot des promeneurs. Il suit, solitaire, l’étroite
             lisière qui sépare les Allées Neuves de la chaussée. Ce n’est pas la musique qui le
             préoccupe, lui. Attentif, l’œil au guet, pas une voiture armoriée ne passe, qu’il ne
@@ -4016,7 +4016,7 @@
             des Allées Neuves — le Chanaan tant souhaité où s’épanouissent les couronnes comtales,
             — il n’y mettra jamais le pied !</p>
           <p>Un moment pourtant, Adolphe Maillet eut l’espérance de se faire adopter par</p>
-          <label>LE BARON DE FILOUZE</label>
+          <label type="head">LE BARON DE FILOUZE</label>
           <p>Ce baron, un fidèle des Allées Neuves, perdit son père à dix-huit ans — et sa fortune
             au lansquenet six mois plus tard. Il ne lui restait plus qu’à choisir entre un coup de
             pistolet et l’Amérique : il choisit l’Amérique. Après avoir été mousse sur un navire
@@ -4044,7 +4044,7 @@
             d’allumettes par douzaines : c’est une de ses consolations de songer qu’il aide un
             gentilhomme « à redorer son blason. »</p>
           <p>Filouze, grand contempteur, n’accorde son admiration qu’au journaliste</p>
-          <label>JACQUES MONLEAU</label>
+          <label type="head">JACQUES MONLEAU</label>
           <p>Il est vrai que Jacques Monleau l’appelle « crapule » quand il le coudoie — faisant le
             jeudi sur les Allées Neuves.</p>
           <p><pb n="252"/>Jacques Monleau est le grand homme incontesté de ***, bien que ce soit un
@@ -4095,7 +4095,7 @@
           <p>« J’aime mieux, me disait-il, être le premier à *** que — D’Audigier à Paris. »</p>
           <p>Jacques Monleau n’a qu’un ennemi. Mais, heureux jusqu’au bout, il ne soupçonne même pas
             l’existence de cet infiniment petit que j’appellerai</p>
-          <label>L’USURPATEUR</label>
+          <label type="head">L’USURPATEUR</label>
           <p>L’Usurpateur — Jules Minoret dans la vie privée — est un petit jeune homme effilé, aux
             allures doucereuses et félines. La nature en a fait un sot, la sottise en a fait un
             envieux. En <pb n="256"/>rhétorique, il haïssait et jalousait le <hi rend="i"
@@ -4146,7 +4146,7 @@
           <p><hi rend="i">Nota</hi>. Minoret a plus d’un confrère en province. On m’affirmait, tout
             dernièrement encore, que Théophile Gautier était un bourgeois de Lyon, sans ventre et
             sans barbe ; du reste, on n’a point ajouté qu’il fût chauve.</p>
-          <label>Le comte de Saint-Germain</label>
+          <label type="head">Le comte de Saint-Germain</label>
           <p>Depuis longtemps, sa physionomie étrange, extra-humaine, m’avait frappé.</p>
           <p>Il arrivait chaque soir, à la même heure — au même café, s’appuyant d’une main sur la
             large pomme d’ivoire d’une canne courte et trapue, — et de l’autre, sur un parapluie
@@ -4246,7 +4246,7 @@
         <div>
           <pb n="267"/>
           <head>Une ville incomprise</head>
-          <label><pb n="269"/>I. À M. X…, rue Mazarine, à Paris</label>
+          <label type="head"><pb n="269"/>I. À M. X…, rue Mazarine, à Paris</label>
           <dateline>Toulouse-la-Gaillarde, 2 mai.</dateline>
           <salute><hi rend="sc">Mon Ami</hi>,</salute>
           <p>Tu me demandes ce que c’est que Toulouse ? Je vais essayer de te le dire ; cela
@@ -4273,7 +4273,7 @@
           <p>Cette protestation n’est que de la résignation.</p>
           <p>Ce pittoresque n’est que de l’économie.</p>
           <ab type="ornament">* <lb/>*   *</ab>
-          <label rend="i">Les monuments.</label>
+          <label type="head" rend="i">Les monuments.</label>
           <p>1º <hi rend="sc">Capitolium</hi> : <hi rend="i">Capitole</hi>, en langue vulgaire. (Je
             traduis, pour rester à la portée des bonnes d’enfants qui n’ont pas été élevées à
             Saint-Denis.)</p>
