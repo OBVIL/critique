@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-17T16:25:18+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La poésie et l’empirisme (<hi rend="i">L’Ermitage</hi>)</title>
+        <author key="Ghéon, Henri (1875-1944)">Henri Ghéon</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/gheon_poesie-et-empirisme</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Henri Ghéon</author>, <title><hi rend="i">« La Poésie et l’Empirisme, conférence », </hi>L’Ermitage</title>, <biblScope>12e année, nº 4</biblScope>, <date>avril 1901</date>, <biblScope>p. 245-260</biblScope>. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k155760/f280.image">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1901"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="245" xml:id="p245"/>
+        <head>La Poésie et l’Empirisme<note resp="author" place="bottom">Conférence faite à la Libre Esthétique de Bruxelles, le 6 mars 1901.</note>, par Henri Ghéon.</head>
+      <salute><hi rend="sc">Mesdames, Messieurs</hi>,</salute>
+      <p>Le siècle qui n’est plus nous laisse un confus héritage. On a pu croire qu’en ces dix dernières années la frénésie de lettres eût atteint à son paroxysme suprême et qu’elle ne dût désormais que décroître pour la paix, la joie, le salut des véritables écrivains qui font leur œuvre sciemment, légitimement, en silence. — Mais on a cru… parce qu’on espérait. — La politique nous valut une trêve qu’on rêva bienfaisante et qui ne fit en somme, qu’aggraver la confusion. Ah ! le triste empire des lettres, pour manquer d’empereur reconnu et de princes, n’est point davantage une république ! Plus y <hi rend="i">chardonne</hi> l’anarchie que la liberté n’y verdoie : car tous ont le droit de parler, quoiqu’ils disent — et ceux qui disent quelque chose n’ont pas le droit de se faire entendre — car en même temps qu’eux parlent ceux qui ne disent rien.</p>
+      <p>Il y a pire. Ceux-là même qui devraient se rejoindre, se retrouver, s’unir, dans l’immense foule médiocre, ceux-là, ne se connaissant pas, ne se peuvent donc reconnaître ; — <hi rend="i">et puis, chacun d’eux a sa langue</hi>.</p>
+      <p>Nous assistons à ce spectacle, curieux autant <pb n="246" xml:id="p246"/>que lamentable, d’une élite intellectuelle dispersée, contradictoire, comme étrangère à elle-même.</p>
+      <p>L’individualisation, la spécialisation ont eu pour résultat premier, le divorce complet qui semble à l’heure actuelle officiellement proclamé, non seulement entre des esprits de haute valeur littéraire, mais entre les genres littéraires eux-mêmes, ceux-là qu’on voyait aux grandes époques se développer de concert.</p>
+      <p rend="i">Car voici que les dramaturges (et je parle ici des meilleurs), n’entendent plus les romanciers qui eux, ignorent tout à fait les poètes.</p>
+      <p>Balzac pouvait sentir Hugo, Racine Bossuet. Mais quel point de contact entre un Curel, un Rosny, et un Moréas par exemple ? — Quel point de contact <hi rend="i">artistique</hi> ? (Car sur telle vérité scientifique, sociale, humaine dont ils alimentent leurs productions, ils peuvent s’accorder — ou différer : cela n’importe), la question est celle-ci :</p>
+      <p/>
+      <p rend="i">Ont-ils un souci d’art commun ?</p>
+      <p/>
+      <p>Dans un sermon de Bossuet, Racine assurément, ne retrouvait rien moins que ses fines préoccupations psychologiques. — mais soyez sûrs qu’il y admirait en tout cas la <hi rend="i">même</hi> volonté de nombre, d’équilibre et d’harmonie ! — comme d’ailleurs Balzac, en dépit de sa hâte à créer, saluait un peu de son idéal personnel dans les plus achevés et les plus lointains poèmes de Hugo.</p>
+      <p>Allez ! ces grands hommes savaient que poème ou roman, discours ou tragédie, <hi rend="i">cela était de l’art</hi>, et <hi rend="i">du même art, le seul</hi>, celui que tous <pb n="247" xml:id="p247"/>ils pratiquaient, librement, mais également — et nos contemporains l’ignorent… ou du moins semblent l’ignorer : ils savent qu’ils sont romanciers, ou poètes, ou dramaturges, — mais que ce sont trois métiers différents. Et ils oublient qu’avant le drame, et le roman et le poème, il y a l’art, je le répète, l’art qui est unique ; et que si le même souci d’art ne les dirige pas, tous tant qu’ils sont, c’est que <hi rend="i">certains d’entre eux se trompent</hi>.</p>
+      <p>Ah ! discerner l’erreur ! et la comprendre ! — rétablir de l’art littéraire une notion plus universelle et plus juste ! y subordonner chaque genre en le faisant frère de tous les autres ! rétablir l’harmonieux règne des concordantes libertés !</p>
+      <p>Tel est, Mesdames et Messieurs, le problème vital qui aujourd’hui se pose. Je n’ai pas la prétention de le résoudre devant vous. J’en voudrais simplement examiner les termes, étudiant parallèlement les conditions esthétiques du drame, du roman et de la poésie, fixant leur réciproque position au seuil du nouveau siècle, — et découvrant ainsi peut-être — les raisons, il faut l’espérer, passagères, de leur éloignement présent.</p>
+      <p/>
+      <p>Je dirai et sans paradoxe : un poème est une œuvre d’art ou n’est pas ; un drame, un roman, une comédie peuvent n’être pas des œuvres d’art et pourtant être.</p>
+      <p/>
+      <p>Si l’on en croit les Grecs, le poète est celui qui <pb n="248" xml:id="p248"/>fait, celui qui crée ; il faut les croire ; — ΠΟΙΗΤΗΣ — dans ce simple mot tient tout son art et toute sa fonction.</p>
+      <p>C’est en vain qu’on altérera sa figure, que l’on exigera de lui un rôle national, social et humain. Il n’en acceptera point d’autre que celui-ci : <hi rend="i">s’employer à son œuvre</hi> ainsi que le moindre artisan, — pour en doter un jour sa patrie, son temps et les hommes. S’il doit quelque chose au monde ce n’est que de la beauté.</p>
+      <p>Que son chant élève les âmes ou émeuve les cœurs, contribue à la paix ou gagne des batailles, c’est par-delà sa volonté. L’acte du poète est intérieur à son chant ; le but de son chant n’est pas l’acte, mais son chant même.</p>
+      <p>Il représente l’art dans sa conception la plus haute, la plus pure, la plus affranchie de toutes conditions temporelles. On peut à la rigueur se l’imaginer seul au monde, constituant à lui tout seul le monde, et continuant à créer. Car — et j’exagère à dessein — par définition il crée son œuvre de toutes pièces, <hi rend="i">de rien</hi>, ainsi que Dieu créa le monde ; il <hi rend="i">tire de lui-même son monde</hi> : à ce point qu’on peut dire, que <quote>« à la poésie, il est une seule condition, le poète »</quote>.</p>
+      <p/>
+      <p>Aussi bien — et c’en est comme la réciproque fatale — aussi bien, il ne vaudra qu’autant qu’il aura créé — non pas indiqué, ébauché : créé.</p>
+      <p>Si hautes que semblent ses idées, si purs ses sentiments, si jeune sa vision et si nouveaux ses rêves, ils ne compteront pour rien s’il n’en a fait de la beauté : c’est-à-dire quelque chose qu’il appelle poème et qui est un monde en ce monde, <pb n="249" xml:id="p249"/>un corps entre les corps et parmi les êtres un être.</p>
+      <p>Non plus que s’il s’agissait d’un être de chair, on ne saura d’où vient à cet être de mots la vie. Mais on pourra déterminer ses conditions d’existence, découvrir la merveille intime d’une organisation où les parties se correspondent, se soutiennent et se renforcent, et se subordonnent enfin à une conception première, <hi rend="i">une préconception de beauté</hi>.</p>
+      <p>Alors, mais alors seulement, on jugera si le poète fut « sincère » et s’il « pensa » ! On discutera, on disputera de ses vertus philosophiques ou humaines, — mais il aura créé.</p>
+      <p>— Il faut se souvenir que le cerveau le moins humain et le plus faux de ce siècle aura été le cerveau d’un poète, et du plus grand !</p>
+      <p>Et certes nous préférerons ceux qui ont compris les hommes, qui ont puisé dans le monde la matière à repétrir ! — mais il faut dire et redire que la seule matière indispensable à un poète, c’est la <hi rend="i">langue</hi>.</p>
+      <p/>
+      <p>Plus complexe apparaît le cas du romancier, comme aussi le cas de l’homme de théâtre — car il vaut mieux pour l’instant les confondre, et les opposer au poète ensemble.</p>
+      <p>Que ce soit dans un livre ou bien sur une scène, ils sont nés pour <hi rend="i">représenter</hi>.</p>
+      <p>Mais quoi ? leurs imaginations ? leurs rêves ? rien que vaine fiction ? Leurs drames, leurs romans ne seront-ils encore que des poèmes ?</p>
+      <p>Ils ont en face d’eux l’univers qui les tente.</p>
+      <p><hi rend="i">Eux aussi vont créer.</hi> Mais non plus <pb n="250" xml:id="p250"/>seulement une œuvre : dans cette œuvre <hi rend="i">des hommes</hi> ; — et non plus selon l’art alors, selon la <hi rend="i">vie</hi>.</p>
+      <p>Dès l’origine, entre le poète et ceux-ci, la vie se dresse ainsi qu’une formidable barrière. Le poète a le droit de n’en pas tenir compte, — en tout cas c’est pour lui une secondaire pensée. Le romancier, le dramaturge en elle à jamais chériront la matière même de leurs créations, — s’ils n’y voient encore plus : le modèle, l’exemple.</p>
+      <p>Car tous les instincts et tous les vouloirs, tous les sentiments, toutes les pensées dont sont formés les hommes, ils auront à les découvrir, à les manier, et les joindre. Ils donneront à leurs personnages fictifs, un corps, des gestes, un visage : ils les mêleront ainsi que se mêlent les habitants d’une même cité.</p>
+      <p>Ne seront-ils un jour tentés de contrôler sur la nature la vérité de leurs créations ? Ne seront-ils amenés peu à peu, à ne désirer plus que tout simplement reproduire. Le danger permanent de leur art est ici : qu’ils préfèrent la vivante matière de cet art à cet art même !…</p>
+      <p/>
+      <p>Ce n’est pas tout. Issue des hommes, aux hommes va s’offrir leur œuvre. Pour eux sans doute ils chercheront à la rendre plus juste et plus convaincante et plus vraie. Le poète était seul. Ils œuvrent dans la foule. Leur effort ne déviera-t-il vers un rôle plus apparemment actif que le rôle de créateur ? leur désir d’action ne débordera-t-il leur œuvre ?</p>
+      <p>Hélas ! la <hi rend="i">beauté</hi>, but premier, risquera fort de s’effacer bientôt pour eux, devant les clartés éclatantes de la <hi rend="i">réalité</hi> et de la <hi rend="i">vérité</hi> ! Là, la <pb n="251" xml:id="p251"/>nature, ici la thèse primeront, supprimeront l’art ; — le pire sera qu’« eux » ne s’en aperçoivent.</p>
+      <p>Aussi bien leur faiblesse en face de la vie, fera leur force en face du public. Leur roman n’en sera pas moins roman, drame leur drame, — mais roman document, mais drame plaidoyer ; — et par là ils se sauveront, et par là ils vaudront encore — mais sans le moyen de l’art.</p>
+      <p/>
+      <p>Or, pour qu’il soit bien dit que drame et roman d’une part et d’autre part la poésie ont quelque chose <hi rend="i">d’essentiellement étranger, de foncièrement divergent</hi>, non seulement à l’état de santé, de puissance, mais aussi, mais surtout de maladie et d’amoindrissement, tandis que ceux-là perdant pied s’égareront dans <hi rend="i">l’empirisme</hi>, celle-ci au contraire, par respect de la tradition, s’attardera, s’enfoncera, et périra dans le <hi rend="i">formisme</hi>.</p>
+      <p>Et c’est ainsi. À chaque grande époque où naît, renaît, s’épanouit la poésie, il semble que les ressources de la langue, images, rhythmes, sons, se présentent vierges devant le poète. Instinctivement ou volontairement, il les approprie à l’idée, idée neuve et précise qu’il a de la beauté. Les conditions vitales de son œuvre c’est lui seul à nouveau qui les détermine. Et l’on ne saurait alors distinguer la forme de l’esprit qui semble l’animer ; la forme, c’est l’esprit lui-même.</p>
+      <p>Mais le temps vient où vieillit le poète ; il a perdu la fraîcheur d’âme indispensable au créateur. Ses œuvres vivent hors de lui. Il les considère objectivement, sans en saisir la raison d’art cachée ; la forme à ce moment quitte l’esprit, <pb n="252" xml:id="p252"/>s’isole, et désormais le poète déchu se borne à la remplir ainsi qu’une forme étrangère.</p>
+      <p>Que si pèse trop cette forme, à force de persuasive beauté, sur des contemporains, des descendants trop faibles, elle annihile en eux tout pouvoir nouveau de création. Ils eussent vu la beauté autrement peut-être ; ils eussent abouti, par le seul fait de leur libre effort individuel, à une forme — qui sait ? — toute voisine encore, mais légitime, obtenue légitimement !</p>
+      <p>Faute de cet effort naturel, les voici employés à une création inverse. Plutôt que d’enfanter ils ressuscitent un cadavre, qu’un nouveau grand poète bientôt enterrera.</p>
+      <p>Ainsi alternent dans l’histoire de la poésie, formisme et création. Ainsi naissent, ainsi vivent, se survivent des formes qu’il faut périodiquement anéantir.</p>
+      <p>Qu’était, après Villon, devenue l’allègre et fruste coupe qui convenait si bien à sa roture âpre et sincère ? Un pauvre jeu de rimes redoublées, croisées, répétées sans raison. Ronsard vint.</p>
+      <p>À quoi, passé l’époque racinienne, correspondait la pureté dépouillée de l’alexandrin ? Chacun y versa les pensées qu’il se crut forcé d’y avoir et qu’il n’eut jamais eues sans elle.</p>
+      <p>Mais vint Chénier, et puis Lamartine, et Hugo.</p>
+      <p>Et enfin, comment nos aînés voici quinze ou vingt ans reçurent-ils des mains des derniers Parnassiens, le vers encore si plein naguère, si puissant et si varié de la grande <title>Légende</title>, des <title>Poèmes Barbares</title>, des <title>Fleurs du Mal</title>, en quel état ? et descendu à quelle « inanité sonore » ?</p>
+      <p><pb n="253" xml:id="p253"/>Mais, nous voici naturellement amenés au centre historique de notre sujet, à la récente crise qui mit comme en présence, toutes les tendances toutes les formes, toutes les forces de nos lettres modernes, et cela à l’époque où précisément, par une coïncidence merveilleuse tandis que sur la poésie le formisme régnait, dans le domaine du roman trônait l’empirisme à son apogée. Il sembla que les genres eussent divergé de concert, afin d’atteindre en même temps chacun à sa limite extrême. Là, réalisme ; ici, Parnasse. <hi rend="i">Ici rien que la forme ; là, toute la matière.</hi> On vit l’art humain, l’art complet, dissocié, scindé en deux tronçons distincts, se croyant l’art chacun, chacun insoucieux de l’autre.</p>
+      <p>Mais tandis que le vieux Parnasse, ainsi qu’une ombre flasque se traînait, roi pompeux d’un royaume d’ombres, le Réalisme alors magnifié par vingt romanciers, prôné par autant de critiques, semblait vivre de la plus authentique des vies, de la plus saine, de la plus riche, de la plus organique, — et on l’eût pris pour l’Art, s’il n’eut été si près de la Science, et si semblable à la Critique.</p>
+      <p/>
+      <p>Dans une intéressante préface à la réédition complète de ses œuvres, M. Bourget, qui fut assurément un des esprits les plus conscients de son époque, transcrit à ce sujet une page de Taine, bien significative :</p>
+      <quote>
+        <p rend="lmarg1"><pb n="254" xml:id="p254"/>« Du roman à la critique et de la critique au roman, la distance aujourd’hui n’est pas grande. Si le roman s’emploie à nous montrer ce que nous sommes, la critique s’emploie à nous montrer ce que nous avons été. L’un et l’autre sont maintenant une grande enquête sur l’homme, sur toutes les variétés, toutes les situations, toutes les floraisons, toutes les dégénérescences de la nature humaine. Par leur sérieux, par leur méthode, par leur exactitude rigoureuse, par leur avenir et leurs espérances, tous deux se rapprochent de la Science. »</p>
+      </quote>
+      <p>Et M. Paul Bourget ajoute :</p>
+      <quote>
+        <p rend="lmarg1">« Je ne saurais les relire, ces lignes si simples, sans une émotion presque pieuse, et je crois que beaucoup des écrivains qui ont eu leurs vingt ans entre 1855 et 1880 y retrouveraient de même, en un raccourci puissant, ce qui fut la foi profonde de leur jeunesse. »</p>
+      </quote>
+      <p>Nous retiendrons ce mot : <hi rend="i">l’empirisme était devenu une foi</hi>.</p>
+      <p/>
+      <p>Et certes, je l’ai dit, le roman en naissant, en s’attaquant à la matière humaine, acceptait le danger de dévier aussi, et dans ce sens précis ; mais presque à son corps défendant, sans presque en prendre conscience. À priori, qui se pouvait douter, qu’un jour il accepterait l’empirisme comme une foi, pire : comme une méthode ?</p>
+      <p>L’essor spontané et soudain des sciences expérimentales n’eut point suffi à susciter cette hérésie. Il fallait au nouveau roman un précédent, un précédent artistique ; s’entend.</p>
+      <p>On pensa le trouver dans notre <pb n="255" xml:id="p255"/><title>Comédie Humaine</title> ; on l’y trouva — mais il n’y était pas.</p>
+      <p/>
+        <p>La production effrénée de Balzac, empêcha nombre de critiques de considérer son œuvre sous le point de vue de l’art. On sait comment il composait ses œuvres, les écrivant tout d’une haleine, les livrant à l’impression, et travaillant seulement sur épreuve, aux ciseaux. Si hâtivement qu’il créât pourtant, <hi rend="i">il créait</hi> ; il avait de l’art une conception instinctive qu’on retrouve à l’origine de ses plus véridiques productions. Entre lui et tel artiste enfermé des années dans un labeur très lent, il n’y eut guère plus qu’une différence de temps. Quand il « réussissait », rien ne semblait plus composé, plus nécessaire et plus classique que ses livres, qu’il s’agît de <title>César Birotteau</title> ou du <title>Cousin Pons</title>, des <title>Paysans</title> ou d’<title>Un Ménage de Garçon</title> ! Mais qui s’en avisa ? personne ! Comme en outre il faisait vrai, on ne considéra que la vérité de son œuvre, et l’on s’efforça à sa suite, de faire vrai, mais <hi rend="i">autrement</hi> : chez ceux-là qui s’en réclamèrent, sa large compréhension devint mesquine exactitude, sa sûre intuition, douteuse expérience.</p>
+      <p>Et l’on vit, la science aidant, d’aussi divers esprits que les Goncourt, Zola, Bourget, adopter, pratiquer, prêcher sous divers noms une doctrine unique. Le roman se fit impressionniste, ou naturaliste, ou psychologique. Disons empiriste, tout bonnement.</p>
+      <p/>
+      <p>Empiriste d’abord, le roman des Goncourt qui fut, qui plus qu’il ne fut encore, voulut être une notation successive d’instants, une sorte de <pb n="256" xml:id="p256"/>cinématographe littéraire, et dont le souci d’art réel resta extérieur, à fleur de peau, tout pittoresque.</p>
+      <p>Empiriste, l’abstrait roman de Paul Bourget, qui entassa, qui compila les petits faits de la vie intérieure, et fut artiste d’autant moins qu’il se montrait meilleur critique. Empiriste en principe, le roman de Zola qui s’appela documentaire, empiriste en dépit de Zola lui-même. Car celui-là naquit poète, apte au lyrisme, prompt comme aucun à généralises ; il fut perdu par un principe. Il construisit <hi rend="i">à priori</hi> toute son œuvre, — puis il y fit rentrer facticement les résultats de son expérimentation. Loin de se soumettre aux faits, il voulut qu’ils vinssent corroborer une idée préconçue : cette idée, par malheur, ne fut pas l’<hi rend="i">idée de beauté</hi> antérieure à toute production de l’art, mais une idée d’ordre scientifique, mais <hi rend="i">une vérité</hi>. Il eut pu peindre à fresque une harmonieuse, épique et rude société, il préféra faussement illustrer une théorie. — Qu’y gagna l’Art ? qu’y gagna la Science ? — Au lieu d’une œuvre il laisse des morceaux — mais que de documents !</p>
+      <p/>
+      <p>Auprès d’un empirisme à tel point volontaire, systématique et affirmé, étayé sur la science, représenté par des esprits si justement célèbres, le Parnasse sénile et son formisme inconsistant ne comptaient guère. Et aussi bien, la révolution nouvelle qui secoua alors les lettres engourdies se fit moins contre le Parnasse encore, que contre ce qu’on appela le Réalisme. Les jeunes combattants ne pouvaient se tromper sur la valeur des forces ennemies…</p>
+      <p>Car il est temps de rendre à la poussée lyrique dont la clameur emplit ces quinze ou vingt dernières années, son sens réel et sa juste physionomie. On affecta d’y voir comme une gamine rébellion de cénacle contre les tout-puissants du jour. On sacra ses représentants de noms grotesques et bizarres — décadents, symbolistes, d’autres — qu’ils acceptèrent en souriant.</p>
+      <p>Quel fou osa jamais grouper sous quelque nom générique d’école, des esprits aussi différents, aussi contraires, que ceux de Verlaine et de Mallarmé, de Vielé-Griffin et de Verhaeren, d’Henri de Régnier et de Jules Laforgue, de Jean Moréas et de Gustave Kahn — pour ne citer ici que les aînés. Groupement si l’on veut, mais groupement d’individualités conscientes qui s’élevèrent non point au nom d’une esthétique spéciale, d’un art à eux, sans passé et sans lendemain, mais au nom de l’art créateur et de l’art humain, au nom de <hi rend="i">l’art total</hi>, et contre le formisme et contre l’empirisme.</p>
+      <p/>
+      <p>Ils dirent au Parnasse :</p>
+      <quote>
+        <p rend="lmarg1">« Il n’est plus d’arbitraires règles. La forme en soi n’est rien. La forme et la pensée. Quiconque pensera formulera. »</p>
+      </quote>
+      <p>Et de là, la libération du vers, de l’inspiration, là, proclame pour tous le droit de créer, et selon soi-même.</p>
+      <p>Ils dirent encore :</p>
+      <quote>
+        <p rend="lmarg1">« Celui-ci chantera son rêve, et celui-là sa vie ; celui-ci sa chimère, celui-là sa simple douleur ; <pb n="258" xml:id="p258"/>cet autre la nature, et cet autre les hommes. Si le poète se peut passer de tout, <hi rend="i">tout cependant appartient au poète</hi>. Monde des idées et monde des corps, il saura célébrer toute chose créée… mais <hi rend="i">par le moyen artistique d’une nouvelle création</hi>. »</p>
+      </quote>
+      <p>Et les ennemis du Parnasse, aux pontifes de l’Empirisme jetaient ces derniers mots, soudain, comme un défi.</p>
+      <p>L’Art ouvre ses bras tout grands à la vie, mais pour l’étreindre, la faire sienne, pour la réduire à l’Art. En lui, vont se joindre, se fondre, se compléter, empirisme et formisme, la vérité et la beauté.</p>
+      <p>On a trop ri du « Symbolisme », d’aucuns en rient encore ; on le jugea sur ses folies. Quand on aura fini d’en rire, un beau jour on s’apercevra que ce fut comme le réveil, un peu trouble sans doute, de l’éternel esprit classique qui accepte le vrai, mais exige le beau.</p>
+      <p/>
+      <p>Cette révolution fut l’œuvre des poètes : eux seuls, hélas ! en bénéficièrent. Le Parnasse perdit le sceptre de la poésie. L’empirisme garda le sceptre du roman. Les Huysmans, les Rosny, avec tout leur talent ne firent que prolonger la carrière du roman expérimental. Au lieu de le transformer ils « ornèrent ». À des influences lyriques eux et leurs plus jeunes émules durent un souci d’art nouveau. Le malheur fut qu’ils le placèrent dans le détail et non dans la conception.</p>
+      <p>Les années passent, la crise s’accentue. Trop exploitée, mal exploitée, la matière humaine semble tristement s’épuiser. Et les romanciers <pb n="259" xml:id="p259"/>s’inquiètent, cherchent ailleurs, mais au hasard. — Tolstoï et Dostoïevsky<note resp="editor" place="bottom">[NdE] Orthographié Dostoïewsky.</note> les dominent, puissants, véridiques et « neufs ». Mais nos auteurs manquent trop de santé pour s’assimiler leur œuvre sans risques. Entre les poètes et eux subsiste la même incompréhension.</p>
+      <p>Et cependant, aucun ne songe à simplement appliquer au roman la simple loi du classicisme, la loi de tout art objectif, humain, qui tient dans cette brève formule :</p>
+      <quote>
+        <p rend="lmarg1">« <hi rend="i">Subordonner le plus de réalité possible à une idée préconçue de beauté.</hi> »</p>
+      </quote>
+      <p>Allez ! le roman n’est pas mort, une vaste carrière sûre s’ouvre encore devant lui : la carrière de l’Art. Et à ceux qui cherchent un guide, un maître, je dirai :</p>
+      <p>« Il en est un. Mais il vécut si solitaire, si dénué de théories, si absorbé par le culte exclusif de la beauté, que parmi ses contemporains on ne sait lui donner de place.</p>
+      <p>« Romantique il fit vrai, formiste il fit profond, réaliste il fit beau. Pour une œuvre de fantaisie il dépouilla cent volumes d’histoire. Ses romans de mœurs, il les <hi rend="i">inventa</hi>. Il sut donner à chacun de ses livres une vérité différente, une différente beauté, mais une perfection semblable. En vain les écoles se le disputèrent ; il fut de toutes et d’aucune ; contre toutes il eut seul raison. Il apparaît dès aujourd’hui le vrai classique, et dont le temps ne fait que commencer encore. »</p>
+      <p>J’ai nommé Gustave Flaubert.</p>
+      <p>On lit dans la <title>Correspondance</title>, à propos de deux livres d’amis, ces paroles :</p>
+      <quote>
+        <p rend="lmarg1"><pb n="260" xml:id="p260"/>« L’un a le charme et l’autre la force. Mais aucun des deux n’est préoccupé <hi rend="i">avant tout</hi> de ce qui fait pour moi le but de l’Art, à savoir : la beauté. Je me souviens d’avoir ressenti un plaisir violent en contemplant un mur de l’Acropole, un mur tout nu (celui qui est à gauche quand on monte aux Propylées). Eh bien, je me demande si un livre, indépendamment de ce qu’il dit, ne peut pas produire le même effet ? Dans la précision des assemblages, la rareté des éléments le poli de la surface, l’harmonie de l’ensemble, n’y a-t-il pas une vertu intrinsèque, une espèce de force divine, etc., etc. ? — La loi des nombres gouverne les sentiments et les images et ce qui paraît être l’extérieur est tout bonnement, le dedans. »</p>
+      </quote>
+      <p>J’ai cité cette page au hasard. On en trouverait cent, et de plus significatives, dans l’acte de foi inlassable qu’est la <title>Correspondance</title> de Gustave Flaubert.</p>
+      <p>Il faut les méditer, puiser dans l’œuvre et dans l’exemple de classiques leçons. Car le jour où refleurira la belle concordance des genres — poésie, roman, drame (et ce que j’ai dit du roman s’appliquait au drame, développement et conclusion) — tous se seront soumis ensemble à l’idée unique, à l’idée suprême de l’Art et de la Beauté.</p>
+      <signed>
+        <hi rend="sc">Henri Ghéon</hi>.
+      </signed>
+      </div>
+    </body>
+  </text>
+</TEI>

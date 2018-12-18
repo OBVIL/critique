@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-18T09:02:13+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Textes sur l’école romane] (<hi rend="i">Le Figaro</hi>)</title>
+        <author key="Moréas, Jean (1856-1910)">Jean Moréas</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/moreas_manifeste-ecole-romane/</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Le Masque de Fer</author>, <title><hi rend="i">« Une nouvelle École » [manifeste de l’école romane], </hi>Le Figaro</title>, <biblScope>37e année, 3e série, n° 256</biblScope>, <date>13 septembre 1891</date>, <biblScope>p. 2</biblScope>, PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k2816149">Gallica</ref> ; <title><hi rend="i">« Échos »</hi></title>, <biblScope>nº 257</biblScope>, <date>14 septembre 1891</date>, <biblScope>p. 2</biblScope>, PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k281615p">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1891"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+      <head>Une nouvelle École</head>
+        <dateline><docDate when="1891-09-13">13 septembre 1891</docDate>.</dateline>
+      <p>Le besoin se faisant sentir d’une nouvelle École, l’École <hi rend="i">Romanitas</hi> va se former, qui affirme que notre langue se meurt depuis le jour où, après Racine, elle s’est écartée du dialecte roman, père du dialecte français.</p>
+      <p>M. Jean Moréas, le poète des Cantilènes, l’inventeur du symbolisme et de tant de choses surprenantes, est le fondateur de cette École nouvelle.</p>
+      <p>M. Jean Moréas a dit à un de nos amis que les symbolistes n’avaient fait que ridiculiser depuis six ans sa conception :</p>
+      <quote>
+        <p>« N’en sont-ils pas aujourd’hui, a-t-il ajouté, paraît-il, à m’opposer un défunt : Jules Laforgue ! Eh bien, je ne veux plus me compromettre avec ces insignifiances ! Je fonde l’École romane française, où viendront ceux à qui l’amour de notre langue gréco-latine fera jeter de superbes rameaux de renaissance littéraire et morale. Oui ! tous ceux qui comprennent que le génie français doit être pur et non barbouillé d’obscurités septentrionales, me rejoindront !… Pour le détail, reportez-vous à mes préfaces, manifestes et interviews.</p>
+        <p>» Quant à ceux que j’admets dès aujourd’hui dans mon escorte, ils sont trois tout juste. Ce sont MM. Raymond de La Tailhède, ce merveilleux poète auquel Jules Tellier adressait l’exquis rondel : <title>Raymond, dis-nous des vers divins…</title> Maurice du Plessys et Charles Maurras.</p>
+        <p>» Nous sommes donc quatre en tout.</p>
+        <p>» D’autres se joindront à nous s’ils veulent, mais je ne saurai jamais admettre aucun de ces impuissants symbolistes qui m’ont déshonoré. »</p>
+      </quote>
+      </div>
+      <div>
+      <head>Échos</head>
+        <dateline><docDate when="1891-09-14">14 septembre 1891</docDate>.</dateline>
+        <p>M. Jean Moréas, le fondateur de la nouvelle École dont nous annoncions hier l’apparition, adresse la lettre suivante au <title>Figaro</title> :</p>
+      <quote>
+        <label type="salute">Monsieur le Rédacteur,</label>
+        <p>Le <title>Figaro</title> de ce matin m’attribue au sujet de l’<hi rend="i">École romane française</hi> une conversation dont je ne saurais assumer les termes violents. Vous me permettrez donc de donner en quelques mots les éclaircissements que voici :</p>
+        <p>L’<hi rend="i">École romane française</hi> revendique le principe gréco-latin, principe fondamental des Lettres françaises qui florit aux onzième, douzième et treizième siècles avec nos trouvères, au seizième avec Ronsard et son école, au dix-septième avec Racine et La Fontaine. Aux quatorzième et quinzième siècles, ainsi qu’au dix-huitième siècle, le principe gréco-latin cesse d’être une source vive d’inspiration et ne se manifeste que par la voix de quelques excellents poètes tels que Guillaume de Machaut, Villon et André Chénier. Ce fut le romantisme qui altéra ce principe dans la conception comme dans le style, frustrant ainsi les Muses françaises de leur héritage légitime.</p>
+        <p>Je ne puis m’étendre davantage sur cela dans cette courte lettre ; je dirai seulement que l’<hi rend="i">École romane française</hi> renoue la « chaîne gallique » rompue par le Romantisme et sa descendance parnassienne, naturaliste et symboliste.</p>
+        <p>J’ai déjà expliqué ailleurs pourquoi je me sépare du symbolisme que j’ai un peu inventé. Le symbolisme, qui n’a eu que l’intérêt d’un phénomène de transition, est mort. Il nous faut une poésie franche, vigoureuse et neuve, en un mot, ramenée à la pureté et à la dignité de son ascendance.</p>
+        <p>C’est dans ce noble but que les poètes Maurice du Plessys, Raymond de La Tailhède, Ernest Raynaud, et le savant critique Charles Maurras sont venus à moi, non en « escorte », mais pour avoir trouvé dans mon <title>Pèlerin passionné</title> les aspirations de leur race et notre commun idéal de <hi rend="i">Romanité</hi>.</p>
+        <p>Je finirai en disant que quant à feu Jules Laforgue, je ne pense pas que mes plus outrecuidés adversaires aient jamais songé à me l’opposer sérieusement.</p>
+        <label type="salute">Veuillez agréer, etc.</label>
+        <p rend="right">Jean <hi rend="sc">Moréas</hi>.</p>
+      </quote>
+      </div>
+    </body>
+  </text>
+</TEI>
