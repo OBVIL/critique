@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-19T09:25:50+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Thème à variations. Notes sur un art futur (<hi rend="i">L’Académie française</hi>)</title>
+        <author key="Saint-Georges de Bouhélier (1876-1947)">Saint-Georges de Bouhélier</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/saint-georges-de-bouhelier_theme-a-variations</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Saint-Georges de Bouhélier</author>, <title><hi rend="i">« Thème à Variations. Notes sur un art futur », </hi>L’Académie française</title>, <date>février 1893</date>, <biblScope>p. 10-13</biblScope>. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k113999j/f15.image">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1893"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="10" xml:id="p10"/>
+      <head>Thème à Variations 
+<lb/>(Notes sur un art futur)</head>
+      <p>C’est une opinion surannée, où vivent divers stylistes, que tout est dit, qu’il s’agit de prendre garde à la décoration de nos émotions, de peur que nos émotions n’expirent de l’indifférence universelle. Aussi négligent-ils les vierges floraisons, laissant leur âme en jachères. Comme si ces antinomies de la forme et du fonds n’avaient chance de se résoudre ! Francis Vielé-Griffin<note resp="editor" place="bottom">[NdE] Orthographié Viélé Griffin.</note>, Retté, Gourmont y atteignirent ; et Mauclair encore, et Gide, délicieux idéologues, exquis écrivains.</p>
+      <p>Assurément, chaque individu est un clavecin, tintant des cantiques ou des gavottes, — selon son cœur, ou selon l’heure.</p>
+      <p>Le grand art demeure donc à quiconque obtient des gammes d’amour ou de souffrance, que l’assonance propage, sans dissonance qui agace.</p>
+      <p>Par là, ce clavecin prend de la beauté ; les musiques de sensations d’essorent, grosses de délices.</p>
+      <p>Ce motif dirige la grande foule des écrivains, — qui ne s’avisent de littérature que pour <pb n="11" xml:id="p11"/>l’écriture : babillage excessif, où la niaiserie fuse avec élégance ; opinions pitoyables qui crèvent comme des bulles ; combinaisons de mots harmonieux ; sont babioles dont ils jouent — ces virtuoses ! —</p>
+      <p>La plastique les extasie ; ils se trouvent habiles à farder d’emphase de fragiles opinions, d’enfantins refrains très anciens.</p>
+      <p>Mais il ne convient pas que j’en parle plus longtemps ; car ne sont-ce de superficielles cervelles, celles qui froissent la pensée, pour des détails typographiques ?<note resp="editor" place="bottom"><p>En vérité, le style n’est qu’un détail typographique ; et de môme la joliesse plastique des choses, demeure une convention. La différencie chaque tempérament. Les Hottentots mésestiment évidemment la Vénus grecque. Les Chinois, ni les Tartares ne s’accordent sur l’esthétique objective. Les climats diversifient les caractères de cette beauté physique.</p><p>Alors pourquoi tant prendre soin, de ce qui est si mobile et si changeant ?</p></note></p>
+      <p>Pour nous, nulle ivresse verbale ne vaut des paradis spéculatifs. Le contour des objets ne nous ravit pas, ni le décor extérieur, ni l’évocation des paysages ; mais leur frisson de vie métaphysique, mais les cosmoramas de leur âme : le sentiment de l’inconnu nous trouble. Cette ardente nostalgie de l’au-delà ; les Primitifs la connurent aussi. Quant à l’expression plastique, ils la tinrent en disgrâce, et lui firent souffrir les pires viols. Extrême analogie de l’enfance et de la décadence. Car maintenant — encore que dans la fin d’un orageux déclin — nous sommes sans doute les Primitifs d’une race future.</p>
+      <p><pb n="12" xml:id="p12"/>L’art descriptif expire.</p>
+      <p>— Poème ou peinture — les artistes nouveaux sont friands de vie lyrique. Quels plus beaux hymnes au Soleil, que les paysages de Monet, de Signac, de Cros ? Quel plus admirable cantique de désolation, que le Pauvre Pêcheur, de Puvis de Chavannes ? ou certaine fresque de Séon ?</p>
+      <p>Car ils se penchent sur les apparences les transfigurent et les vivifient.</p>
+      <p>Car ils prennent garde que toutes choses vivent une vie métaphysique ; qu’il n’y a pas de si médiocre molécule qui ne soit le signe d’une existence abstraite ; que le visible demeure le symbole de l’invisible<note resp="author" place="bottom">Certains ont confondu l’art antique, dressant des symboles de sentiments, rendant concret l’abstrait : ainsi Vénus personnifiant la Volupté ; Éros : l’Amour, Pallas : la Sagesse ; … Mais cet art — que plagient les écrivains romans — était matérialiste. L’art symboliste rend abstrait le concret : il est chrétien.</note> ; que la beauté extérieure dénonce la beauté intime<note resp="author" place="bottom">Il faut donc admirer la beauté aux grandes lignes calmes et nobles, ainsi que de symbole de la grandeur morale ; mais non la gentillesse fardée.</note> ; que comme l’âme humaine est le miroir où reluit le monde, le monde est le miroir où reluit Dieu ; que tout s’exalte et tourbillonne dans un ouragan d’amour ; que tout halète et s’agenouille et prie pour l’offrande universelle au Seigneur.</p>
+      <p><pb n="13" xml:id="p13"/>Art de vie métaphysique et lyrique ! art cérébral et qui se résorbe en Dieu ! art d’un idéalisme aigu ! que prépara la séculaire mélancolie sceptique<note resp="author" place="bottom">Le pessimisme de Werther et de Rolla aboutit au suicide ; étant matérialiste. Notre pessimisme nous exile en notre moi, et nous exalte vers Dieu : car il est spiritualiste.</note>.</p>
+      <p>Le sentiment de l’inconnu nous trouble<note resp="author" place="bottom">Des dandys joignirent les doigts, et laissèrent cheoir de leur bouche une oraison fanée. Ce blasphème esthétique est plus vil que le blasphème de Renan. Le maître Paul Verlaine, qui écrivit de si prodigieux poèmes de chair de feu, demeure le seul grand poète catholique du siècle.</note> ; mais comme il brouillait toute ardeur de la Beauté en l’incroyant Renan, il dirige notre adolescence vers la clarté du songe intérieur et les violentes langueurs du mysticisme catholique.</p>
+      <p>Simplistes, nous voici tous éblouis d’adoration pour la Vierge et le Christ et le Paraclet. Si bien qu’ayant accompli la conciliation de la culture du moi, et de la communion mystique, de la communion mystique exaltée jusqu’à la mort — nous dirons notre âme et nous dirons Dieu,</p>
+      </div>
+    </body>
+  </text>
+</TEI>

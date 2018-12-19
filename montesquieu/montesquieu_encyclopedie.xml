@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Articles de l’<title>Encyclopédie</title></title>
+        <title>Articles de l’<hi rend="i">Encyclopédie</hi></title>
         <author key="Montesquieu (1689–1755)">Montesquieu</author>
       </titleStmt>
       <editionStmt>
@@ -16,13 +16,13 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/critique/montesquieu_encyclopedie/</idno>
         <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/montesquieu_encyclopedie.xml</idno>
         <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/montesquieu_encyclopedie.html</idno>
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/montesquieu_encyclopedie.epub</idno>
         <idno type="txt">http://obvil.paris-sorbonne.fr/corpus/critique/montesquieu_encyclopedie.txt</idno>
         <date when="2015"/>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -87,7 +87,7 @@
           <p>Si notre ame n’avoit point été unie au corps, elle auroit connu, mais il y a apparence qu’elle auroit aimé ce qu’elle auroit connu : à-présent nous n’aimons presque que ce que nous ne connoissons pas.</p>
           <p>Notre maniere d’être est entierement arbitraire ; nous pouvions avoir été faits comme nous sommes ou autrement ; mais si nous avions été faits autrement, nous aurions senti autrement ; un organe de plus ou de moins dans notre machine, auroit sait une autre éloquence, une autre poésie ; une contexture différente des mêmes organes auroit fait encore une autre poésie : par exemple, si la constitution de nos organes nous avoit rendu capables d’une plus longue attention, toutes les regles qui proportionnent la disposition du sujet à la mesure de notre attention, ne seroient plus ; si nous avions été rendus capables de plus de pénétration, toutes les regles qui sont fondées sur la mesure de notre pénétration, tomberoient de même ; enfin toutes les lois établies sur ce que notre machine est d’une certaine façon, seroient différentes si notre machine n’étoit pas de cette façon.</p>
           <p>Si notre vûe avoit été plus foible &amp; plus confuse, il auroit fallu moins de moulures &amp; plus d’uniformité dans les membres de l’Architecture : si notre vûe avoit été plus distincte, &amp; notre ame capable d’embrasser plus de choses à-la-fois, il auroit fallu dans l’Architecture plus d’ornemens. Si nos oreilles avoient été faites comme celles de certains animaux, il auroit fallu réformer bien de nos instrumens de Musique : je sais bien que les rapports que les choses ont entre elles auroient subsiste ; mais le rapport qu’elles ont avec nous ayant changé, les choses qui dans l’état présent font un certain effet sur nous, ne le feroient plus ; &amp; comme la perfection des Arts est de nous présenter les choses telles qu’elles nous fassent le plus de plaisir qu’il est possible, il faudroit qu’il y eût du changement dans les Arts, puisqu’il y en auroit dans la maniere la plus propre à nous donner du plaisir.</p>
-          <p>On croit d’abord qu’il suffiroit de connoître les diverses sources de nos plaisirs, pour avoir le <emph>goût</emph>, &amp; que quand on a lu ce que la Philosophie nous dit là-dessus, on a du <emph>goût</emph>, &amp; que l’on peut hardiment juger des ouvrages. Mais le <emph>goût</emph> naturel n’est pas une connoissance de théorie ; c’est une application prompte &amp; exquise des regles même que l’on ne connoît pas. Il n’est pas nécessaire de savoir que le plaisir que nous donne une certaine chose que nous trouvons belle, vient de la surprise ; ii suffit qu’elle nous surprenne &amp; qu’elle nous surprenne autant qu’elle le doit, ni plus ni moins.</p>
+          <p>On croit d’abord qu’il suffiroit de connoître les diverses sources de nos plaisirs, pour avoir le <emph>goût</emph>, &amp; que quand on a lu ce que la Philosophie nous dit là-dessus, on a du <emph>goût</emph>, &amp; que l’on peut hardiment juger des ouvrages. Mais le <emph>goût</emph> naturel n’est pas une connoissance de théorie ; c’est une application prompte &amp; exquise des regles même que l’on ne connoît pas. Il n’est pas nécessaire de savoir que le plaisir que nous donne une certaine chose que nous trouvons belle, vient de la surprise ; il suffit qu’elle nous surprenne &amp; qu’elle nous surprenne autant qu’elle le doit, ni plus ni moins.</p>
           <p>Ainsi ce que nous pourrions dire ici, &amp; tous les préceptes que nous pourrions donner pour former le <emph>goût</emph>, ne peuvent regarder que le <emph>goût</emph> acquis, c’est-à-dire ne peuvent regarder directement que ce <emph>goût</emph> acquis, quoiqu’il regarde encore indirectement le <emph>goût</emph> naturel : car le <emph>goût</emph> acquis affecte, change, augmente &amp; diminue le <emph>goût</emph> naturel, comme le <emph>goût</emph> naturel affecte, change, augmente &amp; diminue le <emph>goût</emph> acquis.</p>
           <p>La définition la plus générale du <emph>goût</emph>, sans considérer s’il est bon ou mauvais, juste ou non, est ce qui nous attache à une chose par le sentiment ; ce qui n’empêche pas qu’il ne puisse s’appliquer aux choses intellectuelles, dont la connoissance fait tant de plaisir à l’ame, qu’elle étoit la seule félicité que de certains philosophes pussent comprendre. L’ame connoît par ses idées &amp; par ses sentimens ; elle reçoit des plaisirs par ces idées &amp; par ces sentimens : car quoique nous opposions l’idée au sentiment, cependant lorsqu’elle voit une chose, elle la sent ; &amp; il n’y a point de choses si intellectuelles, qu’elle ne voye ou <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-763.jpeg" n="7:763"/> <cb n="1"/> ne croye voir, &amp; par conséquent qu’elle ne sente.</p>
           <p><emph>De l’esprit en général</emph>. L’esprit est le genre qui a sous lui plusieurs especes, le génie, le bon sens, le discernement, la justesse, le talent, le <emph>goût</emph>.</p>

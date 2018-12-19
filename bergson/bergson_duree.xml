@@ -400,11 +400,11 @@ Beaucoup d’équations n’ont pas pu être reprises.
           </figure> non pas en parties égale, mais en parties proportionnelles à <hi rend="i">c</hi>
           + <hi rend="i">v</hi> et <hi rend="i">c</hi> – <hi rend="i">v</hi>. Appelons x la première
           de ces deux parties. Nous aurons</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>et par conséquent</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure>.</p>
         <p>Ce qui revient à dire que, pour l’observateur immobile, le point M où l’on a marqué le
@@ -643,19 +643,19 @@ Beaucoup d’équations n’ont pas pu être reprises.
           enfin <hi rend="i">x, y, z</hi> sont les distances de ce même point aux trois plans
           rectangulaires fixes avec lesquels les trois plans mobiles se confondaient d’abord, on
           a :</p>
-        <p rend="center i"> x = x’+vt’ <lb/>y = y’ <lb/>z = z′. </p>
+        <p rend="center noindent"><hi rend="i"> x = x’+vt’ <lb/>y = y’ <lb/>z = z′. </hi></p>
         <p>Comme d’ailleurs le même temps se déroule invariablement pour tous les systèmes, on
           a :</p>
-        <p rend="center">t = t′.</p>
+        <p rend="center noindent">t = t′.</p>
         <p>Mais si le mouvement détermine des contractions de longueur, un ralentissement du temps,
           et fait que, dans le système à temps dilaté, les horloges ne marquent plus qu’une heure
           locale, il résulte des explications échangées entre Pierre et Paul qu’on aura :</p>
-        <p rend="center i"> x = <figure>
+        <p rend="center noindent"><hi rend="i"> x = <figure>
             <desc>équation</desc>
           </figure> (x’+vt′) <lb/>[1]    y = y’ <lb/>z = z’ <lb/>t =<figure>
             <desc>équation</desc>
           </figure>
-        </p>
+        </hi></p>
         <p>De là une nouvelle formule pour la composition des vitesses. Supposons en effet que le
           point M′ se meuve d’un mouvement uniforme, à l’intérieur de S′, parallèlement à O′X′, avec
           une vitesse <hi rend="i">v’</hi>, mesurée naturellement par <figure>
@@ -666,12 +666,12 @@ Beaucoup d’équations n’ont pas pu être reprises.
             <desc>équation</desc>
           </figure>, nous devons diviser membre à membre la première et la quatrième des équations
           ci-dessus, et nous aurons :</p>
-        <p rend="center"><hi rend="i">v″</hi> = <figure>
+        <p rend="center noindent"><hi rend="i">v″</hi> = <figure>
             <desc>équation</desc>
           </figure></p>
         <p>alors que jusqu’ici la mécanique posait :</p>
         <p/>
-        <p rend="center"><hi rend="i">v″</hi> = <hi rend="i">v</hi> + <hi rend="i">v′.</hi></p>
+        <p rend="center noindent"><hi rend="i">v″</hi> = <hi rend="i">v</hi> + <hi rend="i">v′.</hi></p>
         <p>Donc, si S est la rive d’un fleuve et S′ un bateau qui marche avec la vitesse <hi
             rend="i">v</hi> par rapport à la rive, un voyageur qui se déplace sur le pont du bateau
           dans la direction du mouvement avec la vitesse <hi rend="i">v’</hi> n’a pas, aux yeux du
@@ -699,25 +699,25 @@ Beaucoup d’équations n’ont pas pu être reprises.
             <desc>équation</desc>
           </figure>. Il en conclura que la vitesse à ajouter à <hi rend="i">v</hi> pour obtenir <hi
             rend="i">v″</hi> n’est pas <hi rend="i">v’</hi>, mais</p>
-        <p rend="center">
+        <p rend="center noindent">
           <figure>
             <desc>équation</desc>
           </figure>
         </p>
         <p/>
         <p>c’est-à-dire</p>
-        <p rend="center">
+        <p rend="center noindent">
           <figure>
             <desc>équation</desc>
           </figure>
         </p>
-        <p rend="center">
+        <p rend="center noindent">
           <figure>
             <desc>équation</desc>
           </figure>
         </p>
         <p>Il aura alors :</p>
-        <p rend="center">
+        <p rend="center noindent">
           <hi rend="i">v″ = v +</hi>
           <figure>
             <desc>équation</desc>
@@ -735,7 +735,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           fournies à Pierre pour lui permettre, connaissant <hi rend="i">x, y, z, t, v″</hi>, de
           calculer <hi rend="i">x′, y′, z′, t′, v’</hi>. Résolvons en effet les équations [1] par
           rapport à <hi rend="i">x′, y′, z′, t′, v’</hi> ; nous en tirons tout de suite :</p>
-        <p rend="center i"> x′ =<figure>
+        <p rend="center noindent"><hi rend="i"> x′ =<figure>
             <desc>équation</desc>
           </figure> (x - vt) <lb/>[2]    y = y’ <lb/>z = z’ <lb/>t′ =<figure>
             <desc>équation</desc>
@@ -743,7 +743,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           <lb/>v′ = <figure>
             <desc>équation</desc>
           </figure>
-        </p>
+        </hi></p>
         <p>équations qu’on donne plus habituellement pour la transformation de Lorentz <note
             place="bottom">Il importe de remarquer que, si nous venons de reconstituer les formules
             de Lorentz en commentant l’expérience Michelson-Morley, c’est en vue de montrer la
@@ -3409,7 +3409,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
               <desc>équation</desc>
             </figure>. Et par conséquent la longueur du bras, qui était <hi rend="i">l</hi> au
             repos, est devenue</p>
-          <p rend="center">
+          <p rend="center noindent">
             <figure>
               <desc>équation</desc>
             </figure>
@@ -3420,7 +3420,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           <p>On voit ce que signifie la contraction. L’identification du temps avec la ligne de
             lumière fait que le mouvement du système produit un double effet dans le temps :
             dilatation de la seconde, dislocation de la simultanéité. Dans la différence</p>
-          <p rend="center">
+          <p rend="center noindent">
             <figure>
               <desc>équation</desc>
             </figure>
@@ -3519,7 +3519,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
         <p>Si notre espace était à deux dimensions, réduit à la présente feuille de papier, si les
           deux points considérés étaient A′ et B′, dont les distances respectives aux deux axes
           O′ Y′ et O′ X′ sont x′₁, y′₁ et x′₂, y′₂, il est clair que nous aurions</p>
-        <p rend="center">
+        <p rend="center noindent">
           <figure>
             <desc>équation</desc>
           </figure>
@@ -3535,7 +3535,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           supposés alors dans le plan X′O′Y′ et étant cette fois définis par leurs distances x′₁,
           y′₁, z′₁, x′₂, y′₂, z′₂, aux trois faces d’un trièdre trirectangle dont le sommet est O′,
           on constaterait l’invariance de la somme</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>C’est par cette invariance même que s’exprimerait la fixité de la distance entre A′ et B′
@@ -3549,7 +3549,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
             >2.</hi> Le carré de la distance A′ B′ de nos deux points va d’ailleurs encore nous être
           donné par une somme de trois carrés qui sera</p>
         <p/>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>Mais, d’après les équations de Lorentz, si les deux derniers carrés de cette somme sont
@@ -3575,11 +3575,11 @@ Beaucoup d’équations n’ont pas pu être reprises.
             <desc>équation</desc>
           </figure></p>
         <p>de sorte que notre premier carré deviendra</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>et que notre primitive somme de trois carrés sera remplacée par</p>
-        <p rend="center">
+        <p rend="center noindent">
           <figure>
             <desc>équation</desc>
           </figure>
@@ -3593,43 +3593,43 @@ Beaucoup d’équations n’ont pas pu être reprises.
           qu’il surpasse <figure>
             <desc>équation</desc>
           </figure>de la quantité :</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>Or les équations de Lorentz donnent :</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>Nous avons donc</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>ou</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>ou enfin</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p/>
         <p>Résultat qui pourrait s’énoncer de la manière suivante : Si l’observateur en S′ avait
           considéré, au lieu de la somme de trois carrés</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>l’expression</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>où entre un quatrième carré, il eût rétabli, par l’introduction du Temps, l’invariance
           qui avait cessé d’exister dans l’Espace.</p>
         <p>Notre calcul aura paru un peu gauche. Il l’est effectivement. Rien n’eût été plus simple
           que de constater tout de suite que l’expression</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>ne change pas quand on fait subir la transformation de Lorentz aux termes qui la
@@ -3664,7 +3664,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           5, 6.... <hi rend="i">n</hi> carrés, chacun de ces carrés étant celui de la différence
           entre les distances des points A′ et B′ à l’un des 4, 5, 6..., <hi rend="i">n</hi> plans.
           Considérons alors notre expression</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>Si la somme des trois premiers termes était invariante, elle pourrait exprimer
@@ -3708,7 +3708,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           </figure> et appelons <figure>
             <desc>équation</desc>
           </figure> l’intervalle entre les deux points A′ et B′. Nous aurons :</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>Et dès lors rien ne nous empêchera de dire que <hi rend="i">s</hi> est une distance, ou
@@ -3721,13 +3721,13 @@ Beaucoup d’équations n’ont pas pu être reprises.
             <desc>équation</desc>
           </figure> deviendra alors un accroissement infinitésimal <hi rend="i">dx</hi>, et nous
           aurons l’équation différentielle :</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>d’où nous pourrons remonter par une sommation d’éléments infiniment petits, par
           « intégration », à l’intervalle s entre deux points d’une ligne cette fois quelconque,
           occupant à la fois de l’Espace et du Temps, que nous appellerons AB. Nous l’écrirons :</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p/>
@@ -4348,11 +4348,11 @@ Beaucoup d’équations n’ont pas pu être reprises.
             VI.</note> que <figure>
             <desc>équation</desc>
           </figure> devrait pour cela s’être dilaté en</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>quantité qui surpasse (x₂′ - x₁′)<hi rend="sup">2</hi> de</p>
-        <p rend="center">
+        <p rend="center noindent">
           <figure>
             <desc>équation</desc>
           </figure>
@@ -4363,13 +4363,13 @@ Beaucoup d’équations n’ont pas pu être reprises.
             <desc>équation</desc>
           </figure> est devenu <note place="bottom">Voir le septième paragraphes et suivants du
             chapitre VI.</note></p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>quantité qui surpasse <figure>
             <desc>équation</desc>
           </figure> de</p>
-        <p rend="center"><figure>
+        <p rend="center noindent"><figure>
             <desc>équation</desc>
           </figure></p>
         <p>De sorte que le carré du temps s’est accru d’une quantité qui, multipliée par <hi
@@ -4628,7 +4628,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
             par Paul, pour un même événement. Ici l’événement est la rencontre du boulet et de
             l’horloge du système Terre placée en M ; ses coordonnées sont, dans le système S′ du
             boulet, <hi rend="i">x’</hi> = 0, <hi rend="i">t’</hi> = 1 h ; la formule </p>
-          <p rend="center"><figure>
+          <p rend="center noindent"><figure>
               <desc>équation</desc>
             </figure></p>
           <p>
@@ -4967,7 +4967,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
             cette portion de matière, la distance spatiale entre deux événements concernant la
             portion de matière est toujours nulle. On a donc, dans ce système où dx = dy = dz =
             0,</p>
-          <p rend="center"><hi rend="i">ds</hi> = <hi rend="i">c d</hi><figure>
+          <p rend="center noindent"><hi rend="i">ds</hi> = <hi rend="i">c d</hi><figure>
               <desc>équation</desc>
             </figure>, </p>
           <p><figure>
@@ -5018,11 +5018,11 @@ Beaucoup d’équations n’ont pas pu être reprises.
               l’un des deux événements sur l’autre. Telle est précisément l’hypothèse où l’on se
               place ci-dessus.</note>
           </p>
-          <p rend="center"><figure>
+          <p rend="center noindent"><figure>
               <desc>équation</desc>
             </figure>, </p>
           <p>mais on a aussi</p>
-          <p rend="center"><figure>
+          <p rend="center noindent"><figure>
               <desc>équation</desc>
             </figure>, </p>
           <p><figure>
@@ -5032,7 +5032,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
                   <desc>équation</desc>
                 </figure></p></note>
           </p>
-          <p rend="center"><figure>
+          <p rend="center noindent"><figure>
               <desc>équation</desc>
             </figure>, </p>
           <p><hi rend="i">v</hi> étant la vitesse du Mobile M₂ à l’époque <hi rend="i">t</hi>,
@@ -5049,7 +5049,7 @@ Beaucoup d’équations n’ont pas pu être reprises.
           </p>
           <p>Nous n’avons pas encore tenu compte de la coïncidence absolue des mobiles M₁ (en
             translation uniforme) et M₂ (mouvement quelconque) aux événements A et B. Intégrons [1] </p>
-          <p rend="center"><figure>
+          <p rend="center noindent"><figure>
               <desc>équation</desc>
             </figure>, </p>
           <p><hi rend="i">plus le mouvement du mobile</hi> M₂, <hi rend="i">entre les

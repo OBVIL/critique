@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2018-12-19T09:25:35+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Manifeste naturiste (<hi rend="i">Le Figaro</hi>)</title>
+        <author key="Saint-Georges de Bouhélier (1876-1947)">Saint-Georges de Bouhélier</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Éric Thiébaud </name>
+          <resp>OCR, XML-TEI</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+        <date when="2018"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/saint-georges-de-bouhelier_manifeste-naturiste</idno>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons :
+              « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France
+              (CCBY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Saint-Georges de Bouhélier</author>, <title><hi rend="i">« Variétés
+              littéraires. Un manifeste », </hi>Le Figaro</title>, <biblScope>43e année, 3e série,
+            n° 10</biblScope>, <date>10 janvier 1897</date>, <biblScope>p. 4-5</biblScope>. PDF :
+            <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k2838871">Gallica</ref>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1897"/>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <pb n="4" xml:id="p4"/>
+        <head>Variétés littéraires. <lb/>Un manifeste</head>
+        <p>Il paraît que le « dernier bateau » de la littérature, c’est le <hi rend="i"
+            >Naturisme</hi>.</p>
+        <p>L’équipage qui le monte a pris pour Capitaine M. Saint-Georges de Bouhélier et pour
+          « patron » M. Émile Zola, l’un des pères du <hi rend="i">Naturalisme</hi> d’où l’on
+          informe que le <hi rend="i">Naturisme</hi> est issu.</p>
+        <p>Où vont ces jeunes gens — ou plutôt où retournent-ils ? Ils le disent à la simplicité, à
+          la clarté — à la nature. Ils sont contre Ibsen pour Zola, contre Nietzsche pour Diderot,
+          et contre Wagner pour Jean-Jacques. Après les hallucinations et les névroses du
+          symbolisme, il paraît que nous serions sur le point d’assister à une sorte de
+          convalescence des esprits… Voilà un beau programme, et que nous ne pouvions refuser à M.
+          Saint-Georges de Bouhélier la satisfaction d’exposer ici. Nous laissons donc, sans plus de
+          commentaires, la parole au jeune chef des « naturistes » :</p>
+        <p>La jeunesse contemporaine, à laquelle répugnent si évidemment les institutions de la
+          République, ne se trouve pas mieux satisfaite par tant de chimériques romances,
+          d’allégories et de drames languissants dont Richard Wagner, Tolstoï et Ibsen nous ont peu
+          à peu inspiré le goût, et qui menaçaient de détruire, chez nous, les dernières apparences
+          de l’esprit national. L’emphase germanique ne nous séduit plus. Ce qui caractérise les
+          jeunes hommes de vingt ans, c’est moins un charme de véhémence et de tendresse que leur
+          culte du sol et des traditions. Ce sentiment n’a rien de surprenant. Je crois qu’il nous
+          anime pour la plupart.</p>
+        <p>La résurrection des cultes nationaux n’est qu’un effet des nécessités historiques. Avec
+          l’éducation donnée, depuis dix ans, à toutes les personnes françaises, avec cette sanguine
+          énergie que nous ont transmise nos pères, comment pourrions-nous accueillir les poètes
+          septentrionaux ? La puissance ethnique nous domine. Ce n’est pas en vain qu’une nation
+          subit de telles guerres. La haine se communique de l’un à l’autre. Si des jeunes gens
+          contemporains paraissent si avides de gloire et d’exploits, c’est que la violence de leurs
+          pères, exaspérés par la déroute et par la période de l’insurrection, sut leur constituer,
+          en effet, un extraordinaire caractère de frénésie intellectuelle.</p>
+        <p>C’est pourquoi, quelle que soit la tristesse de la guerre, et si fâcheuses principalement
+          que purent être pour nous les défaites subies, je ne puis trop m’en désoler, tant est
+          grand l’amour que m’inspirent les lettres, en considération des magnifiques profits que
+          celles-ci en ont retirés. En effet, nul doute que les jeunes écrivains eussent tout à fait
+          pris goût à ces jeux de rythme et de sentiment où se complaisaient nos aînés, si les
+          aventures de la mort, de la déroute et de l’émeute n’avaient communiqué une tragique
+          véhémence à nos âmes, élevées dans ces souvenirs. De pareilles catastrophes recréent un
+          peuple. Tant de fêtes commémoratives qui formèrent nos spectacles d’enfant, les cérémonies
+          régionales en l’honneur des « héros morts pour la patrie », une telle activité civique n’a
+          pas été assurément sans accentuer le caractère de nos passions et sans en purifier
+          l’objet.</p>
+        <p>Cette surabondante énergie dont nous sommes aujourd’hui si oppressés, si fiévreux, si
+          brûlants, comment pourrions-nous la mettre en valeur quand la politique n’en nécessite
+          plus ? En outre, il semble que la jeunesse contemporaine soit portée bien davantage à
+          réclamer un dictateur quelconque qu’à se préoccuper des lois parlementaires ou des
+          démagogues comme Jaurès. Cet état d’âme est assez général. On conçoit que la politique ne
+          prête à un homme de talent qu’un emploi sans beauté, d’ailleurs tout à fait provisoire. Au
+          contraire, la littérature (qui peut nous mettre en valeur) nous permet aussi les exploits
+          auxquels nos facultés nous font prétendre. Il est également possible d’atteindre, grâce
+          aux odes et aux drames, à une sorte de puissance morale qui confine à la dictature, comme
+          Hugo, Wagner et Émile Zola en donnent l’exemple en ce siècle.</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Dans cette situation d’esprit, la jeunesse contemporaine que brûlent les plus violentes
+          ardeurs, n’était guère préparée aux légendes, germaniques, et aux délicates chevaleries à
+          l’aide desquelles les poètes précédents (Henri de Régnier, Maurice Maeterlinck) ont pris
+          l’habitude de se célébrer et d’éclaircir leur position morale. Quand nous primes contact
+          avec ces auteurs, leur talent ne nous toucha point. Au Pinde, à Amathonte, aux sonores
+          forêts de Thuringe, comme nous préférons la Brie et la Beauce ! Il faudrait se débarrasser
+          de cette pensée étrangère qui encombre encore notre esprit. Après le grand William
+          Shakespeare, de qui les barbares tragédies bouleversèrent toutes nos conceptions de la
+          Beauté vers le temps où les femmes se nommaient Corinne, Paméla — après Schopenhauer, si
+          noir, si hypocondre, en compagnie duquel nous nous sommes souillés d’une épaisse
+          tristesse, ce furent Wagner, Nietzsche et Ibsen qui nous tinrent dans une servitude
+          spirituelle. Nous ne voulons plus la subir. Le triomphe de ces étrangers sur la
+          littérature ethnique de nos pays nous semble plus terrible et mauvaise que l’invasion dos
+          conquérantes armées allemandes. Leur pensée qui nous accapare défigure l’esprit de la
+          race. Toutes nos déroutes militaires ne me paraissent pas aussi effrayantes que cette
+          conquête intellectuelle où sont parvenus récemment, malgré Zola, malgré Barrès, malgré
+          Bruneau et Gustave Charpentier, les dramaturges norvégiens et allemands.</p>
+        <p>Ah ! comme nous en avons souffert de cet esclavage moral où se sont soumis les
+          littérateurs, qui naquirent vers la fin du régime impérial ! La mode nous imposa des
+          romances, des odes, des allégories d’auteurs étrangers. Des personnes pourvues de talent
+          eurent le dessein d’égaler ces grands hommes, et chacun vit, à ses travaux, qu’un Vincent
+          d’Indy, par exemple, réussissait de ténébreux pastiches. Vous vous souvenez de cette
+          période qui pèse encore trop lourdement sur nous. La chimérique mélancolie qui
+          alanguissait les esprits aux environs de 1890, et depuis une dizaine d’années, les
+          passe-temps où ils se plaisaient, aucune de leurs occupations ni des émotions dont ils
+          s’ampoulaient, n’étaient susceptibles de convenir à de frémissants écrivains auxquels
+          leurs pères ont su transmettre un peu de ces haines généreuses qui les animaient avec
+          force pendant la guerre et après la Commune. Elsa, Kundry, Parsifal, comme vous nous
+          parûtes déplaisants ! Et, en effet, l’antipathie que l’Allemagne et les étrangers
+          inspirent à la masse populaire, nous la possédons également. Je pense que nous
+          l’emploierons contre Ibsen, Wagner, Tolstoï.</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Cependant, une telle frénésie qui agite les hommes de vingt ans, à cause de leur
+          éducation et par l’effet du profond tremblement dont fut marquée la terre française en
+          1870, à quoi pouvons-nous l’occuper ? Je souhaite que les événements en permettent le
+          paisible emploi, de peur que ces jeunes hommes ne s’en créent à leur guise.</p>
+        <p>Pour nous, épris seulement des divines muses, nous fatiguerons notre énergie à chanter
+          les exploits des hommes et à célébrer les fêtes du travail. Car de même qu’un
+          J.-J. Rousseau conta les amours de Julie, dans le but unique de tromper son cœur et
+          d’utiliser les flammes de sa passion, la plupart des auteurs ne composent des odes et des
+          tragédies que par une sorte de subterfuge à l’aide duquel ils oublient leur fortune, les
+          voluptés que leur refusent d’exquises amantes et les guerrières expéditions à quoi
+          semblaient les destiner leurs mérites et leurs sentiments.</p>
+        <p>En conséquence, cette époque nous contente, bien qu’elle nous plairait davantage si des
+          batailles la bouleversaient, si d’héroïques batailles en troublaient l’apathie. Cependant
+          on peut discerner dans les poèmes de quelques jeunes auteurs un caractère de véhémence qui
+          dénonce assez chez ceux-ci les généreuses fureurs dont ils sont animés.</p>
+        <p>Que l’on compare ces écrivains avec les délicieux dandys, de qui les esprits si confus
+          ont paru naguère touchés, à la fois, par les grondantes tempêtes rythmiques que déchaîne
+          l’orchestre de Wagner, et par tant de fades afféteries : à part Maurice Barrès, infiniment
+          lucide, solide et frémissant, je ne pense point qu’on trouve dans cette stérile génération
+          des hommes en qui tressaillent nos profondes énergies. Aussi n’est-ce point parmi eux que
+          nous prétendons rencontrer nos maîtres.</p>
+        <p>Zola, Rodin, Claude Monet, voilà les grands artistes que fréquentent les hommes nouveaux.
+          C’est une famille intellectuelle. Là survit l’esprit national. Ce sculpteur, ce peintre et
+          ce romancier sont, en quelque sorte, dans ce temps, les extraordinaires descendants de
+          cette race traditionnelle à laquelle ont appartenu Rabelais, Puget, Poussin, Denis
+          Diderot, Balzac ! Ceux-ci conservent le culte classique de la nature et de l’homme.</p>
+        <p>Quand les qualités d’ordonnance qui forment la base du caractère français (cela apparaît
+          assez dans notre architecture, la symétrie de nos jardins taillés et les lois de notre
+          équilibre, auxquelles se sont toujours soumis nos grands écrivains classiques) ; quand ces
+          qualités d’ordonnance semblaient tout à fait détruites, au contact de poètes allemands si
+          incohérents dans leur frénésie, Zola en garda le goût, et ses romans en portent
+          l’empreinte. Avec l’audace des conceptions, il possède d’une manière extrême le sentiment
+          de l’harmonie. Bien qu’il nous ait, parfois, conviés à assister aux pires situations du
+          monde, nous n’en conçûmes aucun dégoût, et si passionné qu’il pût être, il ne le fut
+          jamais au point de perdre le sens des solides proportions dont nous ont pourvus les
+          Latins.</p>
+        <p>Combien, aux homélies d’Ibsen, nous préférons la violente volupté, l’impudeur d’une
+          rustique et robuste héroïne, la fresque ardente où se répandent les hautes foules que créa
+          Zola ! Les puissantes statues de Rodin, en qui la sève des terres paraît frémir encore,
+          malgré leur force compacte et sombre, la mystérieuse torpeur du marbre ou de l’airain, le
+            <title>Saint-Jean</title>, le <title>Baiser</title>, les <title>Bourgeois de
+            Calais</title>, voilà aussi de surprenants éducateurs ! Par l’entremise de ces figures
+          nous ̃ avons connu que le monde terrestre nourrit des héros éternels, qu’ils songent,
+          ceux-ci, ténébreusement, au flanc des montagnes et qu’il suffirait d’un grand homme afin
+          d’en accoucher la terre. Claude Monet aussi nous instruit. Sur de miroitantes étendues,
+          cet homme fit poudroyer, pour nous, les riches teintes des sites maritimes, l’eau
+          sinueuse, la forêt, les saintes architectures, les prairies et de blanches collines.</p>
+        <p>D’ailleurs ces grands artistes ne <pb n="5" xml:id="p5"/>contentèrent point tout à fait
+          des hommes à qui la compagnie de Napoléon, des héros guerriers, des postes grecs et de
+          Wagner, ont, malgré tout, communiqué un sens plus étendu de la beauté humaine. L’art
+          prochain sera héroïque. Aussi, nous sommes-nous constitué une nouvelle conception du
+          monde. C’est que cette ivresse militaire qui exultait naguère si fortement nos pères s’est
+          transformée chez nous en une sorte de culte de la force, auquel personne ne pourra se
+          soustraire. Nous glorifierons les héros. Nous les souhaitons naturels. L’amour que nous
+          inspirent les statues de Rodin et les épopées de Zola garantit la véracité de ce désir.
+          C’est un fait constant que les jeunes poètes sont passionnés d’énergies. Ils en possèdent
+          de tumultueuses. Michel-Ange nous enthousiasme. Ce colossal créateur nous a violemment
+          imposé un monde d’archanges, de géants et de dieux. Notre esprit s’est éclairci en
+          présence d’un tel univers.</p>
+        <p>C’est donc dans ce sentiment que la plupart des juvéniles poètes sollicitent des
+          révolutions. Il est vrai que nous réclamons l’occasion d’offrir à notre énergie un emploi
+          plus naturel, où nous pourrions la dépenser magnifiquement. En attendant, nous créons des
+          poèmes. Au lieu d’évoquer de charmantes amantes et de suaves seigneurs chimériques, nous
+          chanterons les hautes fêtes de l’homme. Pour la splendeur de ce spectacle, les poètes
+          convoqueront les plantes, les étoiles, les vents et les graves animaux. Une littérature
+          naîtra qui glorifiera les marins, les laboureurs nés des entrailles du sol et les pasteurs
+          qui habitent près des aigles. De nouveau, les poètes se mêleront aux tribus. Aux premières
+          époques du monde, Hésiode fortifiait l’âme des laboureurs, et le chant qu’exhalait sa
+          flûte les instruisit en contant leurs travaux. Ainsi, nous ne craindrons pas de participer
+          aux luttes quotidiennes, de les décrire comme des exploits, de glorifier la paix de la
+          patrie à l’égal des expéditions et des victoires qui lui soumirent tant de provinces.</p>
+        <p>Je ne désire pas insister sur l’esprit poétique qui anime les jeunes écrivains. Il semble
+          qu’un culte nouveau soit près d’être installé. L’auteur de ces pages y a contribué de son
+          mieux. Je crois que nous assisterons à la naissance d’un art extrêmement beau. Quand la
+          paix règne sur la nation, nous ne pouvons qu’en décrire les délices, la joie auguste et le
+          charme solennel. Dans la pensée de quelques jeunes poètes, les travaux quotidiens de
+          l’homme paraissent mériter une consécration. De même que les exploits des rois, les actes
+          ordinaires de la vie et tant de journaliers labeurs, auxquels se soumettent les pêcheurs,
+          les boulangers et les bouviers, sont dignes de nos odes et de notre étude. Les hommes ne
+          sont pas moins touchants pendant le repos et pendant la guerre.</p>
+        <p>Depuis deux ou trois mille ans, les littérateurs n’appellent le public que pour lui
+          exposer des crimes, les plus tragiques conflits du monde, des aventures infiniment
+          mélancoliques, sur quoi ils veulent nous attendrir jusqu’à nous arracher des larmes. C’est
+          d’un art assez grossier. Mais à une époque de profond repos il faut de pacifiques poètes.
+          Aussi le sommes-nous, en effet. La littérature à laquelle plusieurs jeunes auteurs se sont
+          voués demeure infiniment violente; resplendissante et heureuse. M. Michel Abadie en a
+          donné, dans ses poèmes, de sonores et beaux modèles. Le charme de M. André Gide naît de
+          ces mêmes sentiments. C’est un génie tendre et ardent d’une suavité passionnée. On connaît
+          de M. Maurice Le Blond de grandes pages singulièrement pures. M. Paul Fort a écrit de
+          clairs hymnes. Ainsi toute une jeunesse se lève dans un solennel frémissement.</p>
+        <ab type="ornament">* <lb/>*   *</ab>
+        <p>Réveil de l’esprit national, culte de la terre et des héros, consécration des civiques
+          énergies, voilà donc les sentiments qui constituent à la jeunesse contemporaine un
+          caractère si singulier, si inattendu et admirable. Puisse-t-elle tenir ses promesses afin
+          que nous assistions au spectacle fortifiant d’une renaissance française !</p>
+        <signed>
+          <hi rend="b">Saint-Georges de Bouhélier.</hi>
+        </signed>
+      </div>
+    </body>
+  </text>
+</TEI>
