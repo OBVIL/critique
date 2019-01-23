@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <date when="1887">1887</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -66,14 +66,14 @@
         <p>Ce journal a été commencé le 2 décembre 1851, jour de la mise en vente de notre premier livre, qui parut le jour du coup d’État.</p>
         <p>Le manuscrit tout entier, pour ainsi dire, est écrit par mon frère, sous une dictée à deux : notre mode de travail pour ces Mémoires.</p>
         <p>Mon frère mort, regardant notre œuvre littéraire comme terminée, je prenais la résolution de cacheter le journal à la date du 20 janvier 1870, aux dernières lignes tracées par sa main. Mais alors j’étais mordu du désir amer de me raconter à moi-même les derniers mois et la mort du pauvre cher, et presque aussitôt les tragiques événements du siège et de la Commune m’entraînaient à continuer ce journal, qui est encore, de temps en temps, le confident de ma pensée.</p>
-          <p rend="right"><hi rend="sc">Edmond de Goncourt</hi>.</p>
-          <p rend="right">Schliersee, août 1872.</p>
-          <ab type="ornament">* * *</ab>
+          <byline><hi rend="sc">Edmond de Goncourt</hi>.</byline>
+          <dateline>Schliersee, août 1872.</dateline>
+          <postscript><ab type="ornament">* * *</ab>
         <p><pb n="p. VII"/>Ce journal ne devait paraître que vingt ans après ma mort. C’était, de ma part, une résolution arrêtée, lorsque l’an dernier, dans un séjour que je faisais à la campagne, chez Alphonse Daudet, je lui lisais un cahier de ce journal, que sur sa demande j’avais pris avec moi. Daudet prenait plaisir à la lecture, s’échauffait sur l’intérêt des choses racontées sous le coup de l’impression, me sollicitait d’en publier des fragments, mettait une douce violence à emporter ma volonté, en parlait à notre ami commun, Francis Magnard, qui avait l’aimable idée de les publier dans <hi rend="i">Le Figaro</hi>.</p>
         <p>Or voici ce journal, ou du moins la partie qu’il est possible de livrer à la publicité de mon vivant et du vivant de ceux que j’ai étudiés et peints <foreign xml:lang="lat"><hi rend="i">ad vivum</hi></foreign>.</p>
         <p>Ces mémoires sont absolument inédits, toutefois il m’a été impossible de ne pas à peu près rééditer, par-ci, par-là, tel petit morceau d’un roman ou d’une biographie contemporaine qui se trouve être une page du journal, employée comme document dans ce roman ou cette biographie.</p>
         <p>Je demande enfin au lecteur de se montrer indulgent pour les premières années, où nous n’étions pas encore maîtres de notre instrument, où nous n’étions que d’assez imparfaits rédacteurs de la <hi rend="i">note d’après nature</hi> ; puis, il voudra bien songer aussi qu’en ce temps de début, nos relations étaient très restreintes et, par conséquent, le champ de nos observations assez borné<note resp="author"> Je refonds dans notre <hi rend="i">Journal</hi> le petit volume des <hi rend="i">Idées et sensations</hi> qui en étaient tirées, en les remettant à leur place et à leur date.</note>.</p>
-          <signed><hi rend="sc">E. de</hi> G.</signed>
+          <signed><hi rend="sc">E. de</hi> G.</signed></postscript>
       </div>
       <div>
         <head>Année 1851</head>
@@ -182,7 +182,7 @@
           <p><pb n="21"/>Il demeurait dans tout cet homme quelque chose d’un grand principe tombé en enfance. C’était une bête généreuse, noble, vénérable, une bête de cœur et de race.</p>
           <p/>
             <ab type="ornament">* * *</ab>
-            <label><hi rend="sc">Gavarniana</hi>.</label>
+          <label type="head"><hi rend="sc">Gavarniana</hi>.</label>
           <p>— Je hais tout ce qui est <hi rend="i">cœur</hi> imprimé, mis sur du papier.</p>
           <p>— Je fais le bien, parce qu’il est un grand seigneur qui me paye cela, — et ce grand seigneur, c’est le plaisir de bien faire.</p>
           <p>— Le chemin de fer et sa vitesse relative, voilà un beau progrès, si vous avez décuplé chez l’homme le désir de la vitesse !</p>
@@ -326,7 +326,7 @@
           <ab type="ornament">* * *</ab>
           <p>— Le père de Terrien, qui fait le sport anglais au <hi rend="i">Paris</hi>, était, pendant la Terreur, le commandant de la frégate <hi rend="i">La Vertu</hi>, chargée de porter en Irlande des forçats et des loups, et qui avait à bord une petite guillotine d’acajou pour couper le cou aux poulets.</p>
           <ab type="ornament">* * *</ab>
-          <label><hi rend="sc">Gavarniana</hi>.</label>
+          <label type="head"><hi rend="sc">Gavarniana</hi>.</label>
           <p>— Gavarni nous dit aujourd’hui :</p>
           <p>« Vous ne savez pas ce que c’est que les mathématiques et l’<hi rend="i">empoignant</hi> qu’elles ont… La musique, n’est-ce pas, est le moins matériel des arts, mais encore il y a le <hi rend="i">tapement</hi> des ondes sonores contre le tympan… Les mathématiques sont bien autrement immatérielles, bien autrement poétiques que la musique… On pourrait dire d’elles que c’est la musique muette des nombres ! »</p>
           <p>Gavarni nous dit aujourd’hui :</p>
@@ -367,7 +367,7 @@
           <p>— Je veux que vous me le répétiez de vive voix.</p>
           <p><pb n="55"/>— Vous êtes trop <hi rend="i">romanesque</hi> pour moi.</p>
           <ab type="ornament">* * *</ab>
-          <p>— X…me disait qu’à l’hôpital, il attendait avec impatience la mort de son voisin le nº 6, par envie de sa table de nuit, et comme il demandait tous les matins au garçon de salle : « Eh bien, comment va-t-il ? » Le garçon de salle lui répondait : « Oh ! très bien, il ne passera pas la journée ! »</p>
+          <p>— X… me disait qu’à l’hôpital, il attendait avec impatience la mort de son voisin le nº 6, par envie de sa table de nuit, et comme il demandait tous les matins au garçon de salle : « Eh bien, comment va-t-il ? » Le garçon de salle lui répondait : « Oh ! très bien, il ne passera pas la journée ! »</p>
           <ab type="ornament">* * *</ab>
           <p>— Un beau mot dit à Leroy par Daumier un peu éméché, en sortant d’une soirée chez Boissard, à l’hôtel Pimodan :</p>
           <p>« Ah ! comme j’ai vieilli, autrefois les rues étaient trop étroites, je battais les deux murs… Maintenant, c’est à peine si j’accroche un volet ! »</p>
@@ -992,7 +992,7 @@
           <p>— Non, mais j’ai rencontré un médecin qui la soigne d’une maladie, d’une maladie… et à qui elle a donné deux pastels de Boucher qui viennent de sa maison de campagne à Château-Thierry. C’est une femme galante.</p>
           <p>La petite-fille de Boucher, femme galante… En effet, c’était un peu dans le sang du peintre des Grâces impures…</p>
           <ab type="ornament">* * *</ab>
-          <p>— O Jeunesse des écoles, jeunesse autrefois jeune, qui poussait de ses deux mains battantes le style à la gloire ! Jeunesse tombée à l’enthousiasme du plat bon sens ! Jeunesse comptable et coupable des succès de Ponsard !</p>
+          <p>— Ô Jeunesse des écoles, jeunesse autrefois jeune, qui poussait de ses deux mains battantes le style à la gloire ! Jeunesse tombée à l’enthousiasme du plat bon sens ! Jeunesse comptable et coupable des succès de Ponsard !</p>
           <ab type="ornament">* * *</ab>
           <p>— La Justice à deux degrés : chose absurde ! La Justice devrait apparaître infaillible comme le Pape. Voir ces jours-ci (affaire Hachette) un jugement de cour royale qui contredit et discrédite complètement un jugement de première instance.</p>
         </div>
@@ -1244,7 +1244,7 @@
           <p>Me voilà en plein rêve de bien des gens, à la campagne, de l’argent dans ma poche, avec une femme bon garçon, vieille amie qui me raconte ses amants ; libres tous les deux, n’ayant à craindre l’amour ni l’un ni l’autre, et bien à l’aise.</p>
           <p>Quelques jolis moments, comme de la voir dans la chambre en camisole, un peu de peau de-ci de-là, troussée et ballonnante, ou enfoncée dans un grand fauteuil avec des ronrons de chatte, ou bien encore, dans une allée retirée du parc, couchée tout de son <pb n="206"/>long, les bras arrondis en couronne, et sa robe ondoyant tout autour d’elle, — paresseuse et blanche, enviée du regard par la marchande de coco tannée qui passe.</p>
           <p>Mais la femme est femme. Celle-ci est parfaite à cela près, qu’elle est prise en mangeant d’une crise de narration. Dès que la soupe lui a ouvert la bouche, le dernier roman de <hi rend="i">La Patrie</hi> en découle, sans arrêt, sans suite au prochain numéro, à pleins bords. Et cela va jusqu’au légume, souvent jusqu’au dessert. L’étonnant est qu’elle mange, le miraculeux est qu’il finit par finir, l’insupportable est qu’elle veut être comprise.</p>
-          <p>Pour lui donner toutes les joies intellectuelles à sa portée, et nous nourrir avec elle de choses en situation, nous allons louer, au cabinet de lecture de l’endroit, le premier roman venu de Paul de Kock : <hi rend="i">L’Homme aux trois culottes</hi>. Elle lit cela le soir, les deux pieds allongés sur une chaise, un genou remonté entre le jupon et la jarretière rouge, scandant dramatiquement tout le mélodramatique de la chose, et nous avertissant par des temps, de formidables temps, de toute la couleur révolutionnaire du susdit romancier. O Providence, si tu existes, tes ironies sont d’un joli calibre… Dire que ça nous est infligé, à nous qui avons fait l’<hi rend="i">Histoire de la société pendant la Révolution</hi> !</p>
+          <p>Pour lui donner toutes les joies intellectuelles à sa portée, et nous nourrir avec elle de choses en situation, nous allons louer, au cabinet de lecture de l’endroit, le premier roman venu de Paul de Kock : <hi rend="i">L’Homme aux trois culottes</hi>. Elle lit cela le soir, les deux pieds allongés sur une chaise, un genou remonté entre le jupon et la jarretière rouge, scandant dramatiquement tout le mélodramatique de la chose, et nous avertissant par des temps, de formidables temps, de toute la couleur révolutionnaire du susdit romancier. Ô Providence, si tu existes, tes ironies sont d’un joli calibre… Dire que ça nous est infligé, à nous qui avons fait l’<hi rend="i">Histoire de la société pendant la Révolution</hi> !</p>
           <p>Un homme admirable, après tout, ce Paul de Kock, pour avoir appris au public la révolution des légendes Pitt et Cobourg, pour avoir immortalisé <pb n="207"/><hi rend="i">poncivement</hi> tous ces types consacrés qui traînent dans les mémoires idiotes, toutes ces vieilles connaissances du préjugé populaire, tous ces personnages du drame salé de gros rires et de larmes bêtes : l’émigré hautain, le jeune républicain sentimental, platonique et honnête, la femme, adultère déesse de la liberté, le portier dénonciateur dont le caractère moral est une queue de renard à son bonnet… Oh ! la belle chose de n’avoir rien dérangé dans l’instinct et l’idée préconçue du petit boutiquier, d’en avoir tiré toute sa fable, et d’avoir fait une révolution à côté de l’autre — une révolution plus typique, plus historique, et populaire à la façon d’une imagerie de canard.</p>
           <p>Et puis des cartes. Car il faut cela, Paul de Kock et des cartes. Deux tueurs de temps et deux amis de la femme restée femme du peuple sous la soie, et qui gagne sa vie avec le plaisir.</p>
           <p>Un curieux travail sur ce petit diable de Loudun que le champagne transvase dans la femme, sur cette petite bête hystérique qu’il déchaîne, qu’il lâche en elle et qui court jusqu’au bout de ses doigts, soudain frémissants et prêts à pincer, de ce rien de gaz qui met en folie sa matrice et sa cervelle, apporte un frétillement agressif à ses nerfs, un glapissement à sa voix.</p>
@@ -1780,7 +1780,7 @@
             <p>Je vais inviter Saint-Victor à dîner. Je l’invite pour vendredi : « Ah ! mon cher, c’est mon feuilleton, désolé, impossible ! — Samedi, alors ? — Pas possible plus que le vendredi. » Et il me montre des photographies de Memling qu’il appelle le Vinci flamand, et parle de la spiritualité de ses vierges, faite chez cet artiste avec la lymphe des Flandres.</p>
             <p>Et comme, à la fin, nous nous mettons à causer des deux livres auquels nous travaillons, lui aux <hi rend="i">Borgia</hi>, nous aux <hi rend="i">Maîtresses de Louis XIV</hi>, nous nous avouons que ce sont des sujets diantrement embarrassants, pour ne pas compromettre deux vieilles choses que nous respectons, — peut-être parce qu’elles sont vieilles — la Papauté et la Royauté.</p>
             <ab type="ornament">* * *</ab>
-            <p>— L’amour romain avait volé le soupir de l’amour grec. Il s’exhalait dans cette exclamation expirante du plaisir, dans ce mot ailé et palpitant, mourant sur le bord des lèvres : <seg xml:lang="gr">Ψυχή</seg>. « Mon âme. »</p>
+            <p>— L’amour romain avait volé le soupir de l’amour grec. Il s’exhalait dans cette exclamation expirante du plaisir, dans ce mot ailé et palpitant, mourant sur le bord des lèvres : <seg xml:lang="grc">Ψυχή</seg>. « Mon âme. »</p>
         </div>
         <div>
           <head>Novembre</head>
@@ -1992,7 +1992,7 @@
         </div>
         <div>
           <head>Jeudi 10 mai</head>
-          <p><pb n="325"/>…Ce soir Gavarni nous parle de ses amours réalisées et de ses amours ébauchées, de cent cinquante femmes environ, allant des créatures les plus quintessenciées aux dernières gourgandines, — dont il a aimé à fond la moitié, et courtisé de très près l’autre moitié. Parmi ces amantes, revient dans ses souvenirs une femme prise d’un vrai sentiment pour lui, et qu’il a toujours respectée à cause de relations avec sa famille. Et il raconte que, lorsque elle avait été bien sage, il l’emmenait déjeuner chez Bancelin, où il y avait un lit et des pantoufles dans les cabinets, et que la pauvre femme, à la vue de ces choses, qui n’étaient pas faites pour elle, se mettait à pleurer.</p>
+          <p><pb n="325"/>… Ce soir Gavarni nous parle de ses amours réalisées et de ses amours ébauchées, de cent cinquante femmes environ, allant des créatures les plus quintessenciées aux dernières gourgandines, — dont il a aimé à fond la moitié, et courtisé de très près l’autre moitié. Parmi ces amantes, revient dans ses souvenirs une femme prise d’un vrai sentiment pour lui, et qu’il a toujours respectée à cause de relations avec sa famille. Et il raconte que, lorsque elle avait été bien sage, il l’emmenait déjeuner chez Bancelin, où il y avait un lit et des pantoufles dans les cabinets, et que la pauvre femme, à la vue de ces choses, qui n’étaient pas faites pour elle, se mettait à pleurer.</p>
           <p>Nous lui demandons s’il a jamais compris une femme ? « Une femme, mais c’est impénétrable, non pas parce que c’est profond, mais parce que c’est creux ! » Nous lui demandons encore s’il a été jamais vraiment amoureux ? « Non, je n’ai aimé bien réellement que mon père, ma mère, mon enfant ! »</p>
           <ab type="ornament">* * *</ab>
           <p>— L’esprit ne dort pas dans le sommeil, mais il semble tomber, la nuit, sous l’esclavage des sensations physiques qui le régissent.</p>

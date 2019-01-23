@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,13 +46,13 @@
         <date when="1903">1903</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="Introduction">
+      <div type="introduction">
         <p><pb n="3"/>La poésie accomplit actuellement une évolution fort intéressante. D’une part, voici le groupe des poètes immuablement attachés aux règles classiques et parnassiennes ; d’autre part, voici les novateurs qui, avec M. Adolphe Boschot, réclament quelques adoucissements à la sévère intransigeance des règles prosodiques ; enfin, voici les partisans du vers libre qui, avec MM. Kahn et Vielé-Griffin, parmi bien d’autres, demandent l’entier rejet de règles imposant aux vers un nombre déterminé de pieds.</p>
       <p>À vrai dire, ces divergences ne sont pas <pb n="4"/>nouvelles. Il y eut de tout temps, en matière poétique, les novateurs et les conservateurs, les anciens et les modernes. Dans la <hi rend="i">Vraie Histoire comique de Francion</hi>, composée par Charles Sorel, sieur de Souvigny, vers 1622, on trouve ce passage caractérisant la lutte de Malherbe contre Ronsard et son école :</p>
       <quote>
@@ -158,7 +158,7 @@
             <l>Et s’écarte en chassant des graviers autour d’elle,</l>
             <l>Cependant qu’apparaît, plein de lys et d’ombelles,</l>
             <l>Le verger vert avec son odeur d’estragon.</l>
-            <l>(C<hi rend="sup">esse</hi> <hi rend="sc">de Noailles</hi>).</l>
+            <bibl>(C<hi rend="sup">esse</hi> <hi rend="sc">de Noailles</hi>).</bibl>
           </quote>
           <p>Franchement le lecteur et l’auditeur sont-ils choqués ? Les première et quatrième rimes : <hi rend="i">gonds</hi> au pluriel, <hi rend="i">estragon</hi> au singulier, ne sont-elles pas aussi riches que si ce dernier mot était terminé par un <hi rend="i">s</hi> ? J’ai lu souvent des vers dont les auteurs, en pareille occurrence, ne craignaient pas d’offenser la grammaire. Ils auraient, par exemple, bravement écrit :</p>
           <quote>
@@ -190,9 +190,9 @@
             <l>Qui d’un regard traistre escarté</l>
             <l>Les miens encores emprisonne</l>
             <l>Peu soucieux de liberté,</l>
-            <l><pb n="25"/><hi rend="i">Et qui me desroba, le cœur.</hi> </l>
-            <l rend="i">Pour le desseicher en langeur. </l>
-            <l>(<hi rend="i">Les Odes</hi>, II-8).</l>
+            <l><pb n="25"/><hi rend="i">Et qui me desroba, le cœur.</hi></l>
+            <l rend="i">Pour le desseicher en langeur.</l>
+            <bibl>(<hi rend="i">Les Odes</hi>, II-8).</bibl>
           </quote>
           <p>Il ne s’agit pas d’ailleurs de faire succéder aveuglément une rime masculine à une rime féminine. La rime doit être en rapport avec le sentiment exprimé. Il y a des rimes féminines très douces. Il y en a de douces aussi parmi les rimes masculines, celles, par exemple, qui sont suivies d’une consonne qui se prononce, comme <hi rend="i">amour, sœur</hi> ; dans le cas contraire, les rimes masculines sont énergiques. Pourquoi dès lors obliger un auteur à employer une rime forte quand c’est d’une douce qu’il a besoin ? En dehors de la <hi rend="i">stance</hi> où l’ordre des rimes doit être toujours le même (la stance était une « forme musicale » autrefois), pourquoi faire toujours succéder une rime féminine à une rime masculine. C’est une habitude contractée par analogie avec des pièces chantées.</p>
           <p>Voici par exemple le beau poème de Verlaine : <hi rend="i">En sourdine</hi> :</p>
@@ -231,21 +231,21 @@
           <quote>
             <l>Pourquoi, farouche, fuis-<hi rend="i">tu outre</hi></l>
             <l>Quand je veux approcher de toi ?</l>
-            <l>(<hi rend="sc">Ronsard</hi>).</l>
+            <bibl>(<hi rend="sc">Ronsard</hi>).</bibl>
             <l/>
             <l><pb n="28"/>Elle (la Muse) a perpétué ta gloire…</l>
             <l><hi rend="i">Et a</hi> fait égale aux dieux</l>
             <l>L’éternité de ta mémoire.</l>
-            <l>(<hi rend="sc">Ronsard</hi>).</l>
+            <bibl>(<hi rend="sc">Ronsard</hi>).</bibl>
             <l/>
             <l>Ce <hi rend="i">qui est</hi> ferme est par le temps détruit,</l>
             <l>Et ce qui fuit au temps fait résistance.</l>
-            <l>(<hi rend="sc">Du Bellay</hi>).</l>
+            <bibl>(<hi rend="sc">Du Bellay</hi>).</bibl>
             <l/>
             <l>On donne à l’officier les droits de son office,</l>
             <l>On donne au serviteur le gain de son service,</l>
             <l><hi rend="i">Et au</hi> docte poète on donne le laurier.</l>
-            <l>(<hi rend="sc">Du Bellay</hi>).</l>
+            <bibl>(<hi rend="sc">Du Bellay</hi>).</bibl>
           </quote>
           <p>Je pourrais trouver des hiatus chez Jodelle, Belleau, Baïf et autres. Mais à quoi bon multiplier les citations ? En somme, ce n’est point parce que Malherbe et Boileau, avec leur minutie exagérée de régents du Parnasse, ont prohibé l’hiatus qu’on doit le rejeter. Il ne s’agit pas, sans doute, de l’employer à tout coup, mais encore faut-il qu’on en ait, de temps à autre, la possibilité.</p>
           <p>On n’usera pas, bien entendu, de toutes sortes d’hiatus. On admettra ceux-là seuls dont la rencontre demeure douce à l’oreille. <quote>« J’accepte l’hiatus, dit M. Faguet, à condition qu’on ne le chérisse et poursuive point comme une beauté. »</quote> On ne réclame rien de tel ici, mais <pb n="29"/>seulement la simple facilité d’en user avec tact, le cas échéant, ce qui est fort différent.</p>
@@ -269,7 +269,7 @@
         </quote>
         <p>Qu’est-ce à dire, sinon qu’en matière poétique on doit, désormais, rejeter résolument le précepte indolent et commode formulé par Horace :</p>
         <quote>
-          <l rend="i">Quid sit futurum cras fuge quærere… </l>
+          <l rend="i">Quid sit futurum cras fuge quærere…</l>
         </quote>
       </div>
     </body>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1818">1818</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -98,7 +98,7 @@
         <head>[Épigraphe]</head>
         <epigraph>
           <p><pb n="13"/>Nihil est enim illi principi Deo, qui omnem hunc mundum regit, quod quidem in terris fiat, acceptius, quam concilia cœtusque hominum, jure sociati, quæ civitates appellantur : harum rectores et conservatores hinc profecti, huc revertuntur.</p>
-          <p>                                                          <hi rend="sc">Cic.</hi>, <hi rend="i">Somm. Scip.</hi></p>
+          <bibl><hi rend="sc">Cic.</hi>, <hi rend="i">Somm. Scip.</hi></bibl>
         </epigraph>
       </div>
       <div>

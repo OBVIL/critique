@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <date when="1863">1863</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -383,7 +383,7 @@
           <p>Quant à nous, nous persistons à croire que 1815 fut le désastre immérité d’une armée <pb n="79"/>vaillante et sublime, que Napoléon commanda mal ce jour-là des manœuvres tardives, et abandonna au hasard du reste de la journée sa fortune, c’est-à-dire la moitié du génie d’un conquérant.</p>
           <p>Nous laissons M. Hugo, M. Thiers, M. Quinet, M. Charras, mâcher et remâcher cette journée, revanche des vaincus au jeu des batailles, et nous disons : Il est plus beau d’accepter une défaite et de s’en relever, que de se révolter sans cesse contre la triste vérité, surtout devant sa capitale conquise, son empereur à Sainte-Hélène, son pays rançonné, et de soutenir au monde qu’on a marché de victoire en victoire, de Madrid à Toulon, de Moscou au Rhin, de Leipsik à Mayence, de Waterloo à Paris, à la suite d’un homme infaillible qui n’a pas fait un faux pas dans sa vie. La franchise a sa noblesse, et l’histoire a ses leçons.</p>
           <p/>
-          <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+          <signed><hi rend="sc">Lamartine</hi>.</signed>
           <trailer> (<hi rend="i">La suite au mois prochain.</hi>)</trailer>
         </div>
       </div>
@@ -700,7 +700,7 @@
           <head>XXXIII</head>
           <p><pb n="143"/>En matière de législation, on ne chante pas le progrès, on le calcule. C’est la <hi rend="i">mécanique céleste</hi> de Laplace, mais la mécanique appliquée. Une aspiration suffit au cœur ; mais à l’économie politique, cette astronomie des forces humaines, il faut le chiffre. Les aspirations de mille passagers sur le vaisseau social ne conduiront pas le navire au port ; il faut qu’un seul monte sur le pont et presse l’auteur pour donner la route. Victor Hugo ne la donne pas !</p>
           <p/>
-          <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+          <signed><hi rend="sc">Lamartine</hi>.</signed>
           <trailer> (<hi rend="i">La suite au mois prochain.</hi>)</trailer>
         </div>
       </div>
@@ -1093,7 +1093,7 @@
           <p>Prenez garde aux colères de la propriété et à l’effroi légitime de la terreur. Votre conventionnel est une mauvaise enseigne sur vos bonnes pensées. Effacez l’enseigne du sang, et chantez <hi rend="i">Cosette</hi>, cette idylle, la plus accomplie de la langue, qui fait oublier la tragédie !</p>
           <p>En résumé, les <hi rend="i">Misérables</hi> sont un sublime talent, une honnête intention, et un livre très dangereux de deux manières :</p>
           <p>Non seulement parce qu’il fait trop craindre aux heureux, mais parce qu’il fait trop espérer aux malheureux.</p>
-            <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+            <signed><hi rend="sc">Lamartine</hi>.</signed>
         </div>
       </div>
       <div>
@@ -1192,7 +1192,7 @@
         </div>
         <div>
           <head>XIV</head>
-          <p rend="right">Le 17 novembre.</p>
+          <dateline>Le 17 novembre.</dateline>
           <quote>
             <p>« Mimi<note resp="author"> On appelait quelquefois ainsi dans la famille l’autre sœur, <hi rend="i">Mimi, Mimin</hi> ou Marie.</note> m’a écrit. Cette chère Mimi me dit de charmantes et douces choses sur notre séparation, sur son retour, sur son ennui, car elle s’ennuie loin de moi comme je <pb n="248"/>m’ennuie sans elle. À tout moment, je vois, je sens qu’elle me manque, surtout la nuit où j’ai l’habitude de l’entendre respirer à mon oreille. Ce petit bruit me porte sommeil. Ne pas l’entendre me fait penser tristement. Je pense à la mort, qui fait aussi tout taire autour de nous, qui sera aussi une absence.</p>
             <p>« Ces idées de la nuit me viennent un peu de celles du jour. On ne parle que de maladies, que de morts ; la cloche d’Andillac n’a sonné que des glas ces jours-ci. C’est la fièvre maligne qui fait ses ravages comme tous les ans. Nous pleurons tous une jeune femme de mon âge, la plus belle, la plus vertueuse de la paroisse, enlevée en quelques jours. Elle laisse un tout petit enfant qui tétait. Pauvre petit ! C’était Marianne de Gaillard.</p>
@@ -1203,7 +1203,7 @@
         </div>
         <div>
           <head>XV</head>
-          <p rend="right"><pb n="250"/>Le 18 novembre.</p>
+          <dateline><pb n="250"/>Le 18 novembre.</dateline>
           <quote>
             <p>« Je suis furieuse contre la chatte grise. Cette méchante bête vient de m’enlever un petit pigeon que je réchauffais au coin du feu. Il commençait à revivre, le pauvre animal ; je voulais le priver, il m’aurait aimée, et voilà tout cela croqué par un chat ! Que de mécomptes dans la vie !</p>
             <p>« Cet événement et tous ceux du jour se sont passés à la cuisine ; c’est là que je fais demeure toute la matinée et une partie du soir depuis que je suis sans Mimi. Il faut surveiller la cuisinière ; papa quelquefois descend, et je lui lis près du fourneau ou au coin du feu quelques morceaux des <hi rend="i">Antiquités de l’Église anglo-saxonne</hi>. Ce gros livre étonnait Pierril. <foreign xml:lang="fro"><hi rend="i">Qué de mouts aqui dédins</hi></foreign><note resp="author"> En patois du pays : Que de mots là-dedans !</note>  ! Cet enfant est tout à fait drôle. Un soir il me <pb n="251"/>demanda si l’âme était immortelle ; puis après, ce que c’était qu’un philosophe. Nous étions aux grandes questions, comme tu vois. Sur ma réponse que c’était quelqu’un de sage et de savant : “Donc, Mademoiselle, vous êtes philosophe.” Ce fut dit avec un air de naïveté et de franchise qui aurait pu flatter Socrate, mais qui me fit tant rire que mon sérieux de catéchiste s’en alla pour la soirée.</p>
@@ -1211,7 +1211,7 @@
             <p>« Avec qui croirais-tu que j’étais ce matin au coin du feu de la cuisine ? Avec Platon : je n’osais pas le dire, mais il m’est tombé sous les yeux, et j’ai voulu faire sa connaissance. Je n’en suis qu’aux premières pages. Il me semble admirable, ce Platon : mais je lui trouve une singulière idée, c’est de placer la santé avant la beauté dans la nomenclature des biens que Dieu nous fait. S’il eût <pb n="252"/>consulté une femme, Platon n’aurait pas écrit cela : tu le penses bien ? Je le pense aussi, et cependant, me souvenant que <hi rend="i">je suis philosophe</hi>, je suis un peu de son avis. Quand on est au lit bien malade, on ferait volontiers le sacrifice de son teint ou de ses beaux yeux pour rattraper la santé et jouir du soleil. Il suffit d’ailleurs d’un peu de piété dans le cœur, d’un peu d’amour de Dieu pour renoncer bien vite à ces idolâtries, car une jolie femme s’adore. Quand j’étais enfant, j’aurais voulu être belle : je ne rêvais que beauté, parce que, me disais-je, maman m’aurait aimée davantage. Grâce à Dieu, cet enfantillage a passé, et je n’envie d’autre beauté que celle de l’âme. Peut-être même en cela suis-je enfant comme autrefois : je voudrais ressembler aux anges. Cela peut déplaire à Dieu : c’est aussi pour en être aimée davantage.</p>
             <p>« Que de choses me viennent, s’il ne fallait pas te quitter ! Mais mon chapelet, il faut que je le dise, la nuit est là : j’aime à finir le jour en prières. »</p>
           </quote>
-          <p rend="right"><pb n="253"/>Le 20 novembre.</p>
+          <dateline><pb n="253"/>Le 20 novembre.</dateline>
           <quote>
             <p>« J’aime la neige : cette blanche vue a quelque chose de céleste. La boue, la terre nue, me déplaisent, m’attristent ; aujourd’hui je n’aperçois que la trace des chemins et les pieds des petits oiseaux. Tout légèrement qu’ils se posent, ils laissent leurs petites traces qui font mille figures sur la neige. C’est joli à voir, ces petites pattes rouges comme des crayons de corail qui les dessinent. L’hiver a donc aussi ses jolies choses, ses agréments. On en trouve partout quand on y sait voir. <hi rend="i">Dieu répandit partout la grâce et la beauté.</hi></p>
             <p>« Il faut que j’aille voir ce qu’il y a d’aimable au coin du feu de la cuisine, des bluettes si je veux. Ceci n’est qu’un petit bonjour que je dis à la neige et à toi, au saut du lit. »……………………</p>
@@ -1232,7 +1232,7 @@
         <div>
           <head>XVII</head>
           <p><pb n="255"/>Le lendemain, le père et la petite sœur toujours absents, elle écrit pour elle seule.</p>
-          <p rend="right">Le 21 novembre.</p>
+          <dateline>Le 21 novembre.</dateline>
           <quote>
             <p>« La journée a commencé radieuse : un soleil d’été, un air doux qui invitait à la promenade. Tout me disait d’y aller, mais je n’ai fait que deux pas dehors et me suis arrêtée à l’écurie des moutons pour voir un agneau blanc qui venait de naître.</p>
             <p>« J’aime à voir ces petites bêtes qui font remercier Dieu de tant de douces créatures dont il nous environne. Puis Pierril est venu ; je l’ai fait déjeuner et ai causé quelque temps avec lui, sans m’ennuyer du tout de cette conversation. De combien d’assemblées on n’en dit pas autant !</p>
@@ -1284,14 +1284,14 @@
             <p>« Quand tu liras tout cela, mon ami, souviens-toi que c’est écrit le 1<hi rend="sup">er</hi> décembre, jour de pluie, d’obscurité, d’ennui, où le soleil ne s’est pas montré, où je n’ai vu que des corbeaux. »</p>
           </quote>
           <p>Le 3 décembre, un seul mot… <quote>« Il est sept heures, j’entends le ruisseau et j’aperçois une belle étoile qui se lève sur Mérin : tu n’as pas oublié ce hameau ? »</quote></p>
-          <p rend="right">Le 5 décembre.</p>
+          <dateline>Le 5 décembre.</dateline>
           <quote>
             <p>« Papa est parti ce matin pour Gaillac ; nous <pb n="263"/>voilà seules châtelaines, Mimi et moi, jusqu’à demain et maîtresses absolues. Cette régence ne me va pas mal et me plaît assez pour un jour, mais pas davantage. Les longs règnes sont ennuyeux. C’est assez pour moi de commander à Trilby et d’obtenir qu’elle vienne quand je l’appelle ou que je lui demande la patte.</p>
             <p>« Hier, fâcheux accident pour Trilbette. Comme elle dormait tranquille sous la cheminée de la cuisine, une courge qui séchait lui est tombée dessus. Le coup l’a étourdie, la pauvre bête est venue à nous au plus vite nous porter ses douleurs. Une caresse l’a guérie.</p>
             <p>« Il était nuit. Un coup de marteau se fait entendre, tout le monde accourt à la porte. Qui est là ? C’était Jean de Persac, notre ancien métayer, et que je n’avais pas vu depuis longtemps.</p>
             <p>« Il a été le bienvenu et a eu en entrant place au plat et à la bouteille. Puis nous l’avons fait jaser sur son pays d’à présent, sur ses enfants et sa femme. J’aime fort ces conversations et ces revoirs. Ces figures <pb n="264"/>d’autrefois font plaisir, il semble qu’elles ramènent la jeunesse. »</p>
           </quote>
-          <p rend="right">Le 6 décembre.</p>
+          <dateline>Le 6 décembre.</dateline>
           <quote>
             <p>« Je fis promettre à Jean de repasser ici ce soir ; je le reverrai, et puis je veux lui donner une lettre pour Gabrielle : c’est un de leurs métayers. <hi rend="i">Bri</hi> ne sera pas fâchée de ce souvenir inattendu ; je lui aurais écrit par la poste, et lui épargne ainsi huit sous qu’elle donnera de plus aux pauvres. Voilà donc une bonne œuvre que je fais faire.</p>
             <p>« Au reste, c’est un jour de bonnes actions aujourd’hui ; je viens de Cahuzac et, comme chaque fois, merveilleusement disposée à bien faire ; faire mal ce jour-là me semble impossible. Puis, c’est un calme étrange ! Remarque comme ces jours-là mon âme a l’air tranquille. Elle l’est en effet, car je ne dissimule pas avec toi et laisse tomber sur le papier tout ce qui me vient, même des larmes.</p>
@@ -1300,7 +1300,7 @@
             <p>« Presque tout ce qu’on fait pour la créature est perdu, à moins que la charité ne s’y mêle. C’est comme le sel qui préserve affections et actions de la corruption de la vie.</p>
             <p>« Voici papa. »</p>
           </quote>
-          <p rend="right">Le 7 décembre.</p>
+          <dateline>Le 7 décembre.</dateline>
           <quote>
             <p>« La soirée s’est passée hier à causer de Gaillac, des uns, des autres, de mille choses de la petite ville.</p>
             <p><pb n="266"/>« J’aime peu les nouvelles, mais celles des amis font toujours plaisir, et on les écoute avec plus d’intérêt que celles du monde et de l’ennuyeuse politique. Rien ne me fait aussi tôt bâiller qu’un journal. Il n’en était pas de même autrefois, mais les goûts changent et le cœur se déprend chaque jour de quelque chose.</p>
@@ -1309,7 +1309,7 @@
             <p>« Il est dimanche, je suis seule de retour de la première messe de Lentin, et je jouis dans ma chambrette du plus doux calme du monde, en union avec Dieu.</p>
             <p>« Le bonheur de la matinée me pénètre, s’écoule en mon âme et me transforme en <pb n="267"/>quelque chose que je ne puis dire. Je te laisse, il faut me taire. »</p>
           </quote>
-          <p rend="right">Le 8 décembre.</p>
+          <dateline>Le 8 décembre.</dateline>
           <quote>
             <p>« Je ne lis jamais aucun livre de piété que je n’y trouve des choses admirables et comme faites pour moi. En voici : “Ceux qui espèrent au Seigneur verront leurs forces se renouveler de jour en jour. Quand ils croiront être à bout et n’en pouvoir plus, tout d’un coup ils pousseront des ailes semblables à celles d’un aigle ; ils courront et ne se lasseront point, ils marcheront et ils seront infatigables.</p>
             <p>« “Marchez donc, âme pieuse, marchez, et, quand vous croirez n’en pouvoir plus, redoublez votre ardeur et votre courage, car le Seigneur vous soutiendra.”</p>
@@ -1320,7 +1320,7 @@
         </div>
         <div>
           <head>XXI</head>
-          <p rend="right">Le 10 décembre.</p>
+          <dateline>Le 10 décembre.</dateline>
           <quote>
             <p>« Givre, brouillards, air glacé, c’est tout ce que je vois aujourd’hui. Aussi je ne sortirai pas et vais me recoquiller au coin du feu avec mon ouvrage et mon livre. C’est tantôt l’un, tantôt l’autre ; cette variation me distrait.</p>
             <p>« Cependant j’aimerais à lire toute la journée ; mais il me faut faire autre chose, et le devoir passe avant le plaisir. J’appelle plaisir la lecture, qui n’est nullement essentielle pour moi.</p>
@@ -1331,7 +1331,7 @@
         </div>
         <div>
           <head>XXII</head>
-          <p rend="right">Le 25 décembre.</p>
+          <dateline>Le 25 décembre.</dateline>
           <quote>
             <p>« Voilà Noël, belle fête, celle que j’aime le <pb n="270"/>plus, qui me porte autant de joie qu’aux bergers de Bethléhem. Vraiment, toute l’âme chante à la belle venue de Dieu, qui s’annonce de tous côtés par des cantiques et par le joli carillon.</p>
             <p>« Rien à Paris ne donne l’idée de ce que c’est que Noël. Vous n’avez même pas la messe de minuit.</p>
@@ -1350,17 +1350,17 @@
           <head>XXIII</head>
           <p>Mais continuons.</p>
           <p>Noël passe, le jour de l’an renouvelle tout, excepté le cœur : le carnaval marche, finit ; voilà le mardi gras, avec ses grelots de folie,<pb n="274"/>qui passe aussi en chantant. Voyez la jeune et sainte solitaire.</p>
-          <p rend="right">Le 2 mars.</p>
+          <dateline>Le 2 mars.</dateline>
           <quote>
             <p>« Ce n’est pas la peine de parler d’aujourd’hui : rien n’est venu, rien n’a bougé, rien ne s’est fait dans notre solitude. Mon petit oiseau seul sautillait dans sa cage en gazouillant au soleil ; je l’ai regardé souvent, n’ayant rien de plus joli à voir dans ma chambre. Je n’en suis pas sortie ; tout mon temps s’est passé à coudre un peu, à lire, puis à réfléchir.</p>
             <p>« La belle chose que la pensée ! et quels plaisirs elle nous donne quand elle s’élève en haut ! C’est sa direction naturelle qu’elle reprend sitôt qu’elle est dégagée des objets terrestres. Entre le ciel et nous il y a une mystérieuse attraction : Dieu nous veut et nous voulons Dieu.</p>
             <p>« Je ne sais quel oiseau vole sur ma tête, je l’entends sans presque le voir, il est nuit. Ce n’est pas le temps des oiseaux nocturnes. Voilà qui me détourne et brouille le fil que je dévidais. Comme il faut peu ! Cette petite <pb n="275"/>apparition me fait quitter ma chambre, non pas de peur ; je vais dire à Mimi de venir voir cet oiseau. »</p>
           </quote>
-          <p rend="right">Le 3 mars.</p>
+          <dateline>Le 3 mars.</dateline>
           <quote>
             <p>« Qu’était-ce que cet oiseau d’hier au soir ? Il a disparu comme une vision dès que j’ai apporté la chandelle. On m’a ri au nez, disant que je l’avais vu dans ma tête. Cependant c’était bien de mes yeux que je l’avais vu ; je l’ai regardé plus de cinq minutes. »</p>
           </quote>
-          <p rend="right">Le 5 mars.</p>
+          <dateline>Le 5 mars.</dateline>
           <quote>
             <p>« Tout chantait ce matin pendant que je faisais la prière, mon pinson, mon pauvre linot. C’était comme au printemps, et ce soir voilà des nuages, du froid, du sombre, l’hiver encore, le triste hiver.</p>
             <p>« Je ne l’aime guère ; mais toute saison est bonne, puisque Dieu les a faites. Que le givre, le vent, la neige, le brouillard, le sombre, que tout temps soit donc le bienvenu !</p>
@@ -1372,12 +1372,12 @@
           <head>XXIV</head>
           <p>Puis voyez ce qu’est pour la vieille maison séculaire la position d’un de ces pauvres ustensiles que nous ne connaissons pas même dans nos villes : une plaque de foyer au fond de la cheminée de cuisine ! Que c’est touchant pour tous ceux qui en vivent et qui s’y réchauffent, <pb n="277"/>et qui espèrent s’y réchauffer jusqu’à leur dernier jour.</p>
           <p>Lisez ceci : c’est homérique ou biblique comme le trépied de Nausicaa ou comme le foyer de Jacob !</p>
-          <p rend="right">Le 7 mars.</p>
+          <dateline>Le 7 mars.</dateline>
           <quote>
             <p>« Aujourd’hui on a placé un âtre nouveau à la cuisine. Je viens d’y poser les pieds, et je marque ici cette sorte de consécration du foyer dont la pierre ne gardera point de trace.</p>
             <p>« C’est un événement ici que ce foyer, comme à peu près un nouvel autel dans une église. Chacun va le voir et se promet de passer de douces heures et une longue vie devant ce foyer de la maison (car il est à tous, maîtres et valets), mais qui sait ?… Moi peut-être, je le quitterai la première : ma mère s’en alla bientôt ! On dit que je lui ressemble. »</p>
           </quote>
-          <p rend="right">Le 8 mars.</p>
+          <dateline>Le 8 mars.</dateline>
           <quote>
             <p>« J’ai fait cette nuit un grand songe. L’Océan passait sous nos fenêtres. Je le voyais, <pb n="278"/>j’entendais ses vagues roulant comme des tonnerres, car c’était pendant une tempête que j’avais la vue de la mer, et j’avais peur.</p>
             <p>« Un ormeau qui s’est élevé avec un oiseau chantant dessus m’a détournée de la frayeur. J’ai écouté l’oiseau : plus d’Océan et plus de songe. »</p>
@@ -1386,21 +1386,21 @@
         <div>
           <head>XXV</head>
           <p>Le printemps approche, l’âme triste se rassérène ; pluie ou vent, chaud ou froid, voilà la température de ces âmes qui n’ont pas d’autre événement que l’influence du ciel sur elles.</p>
-          <p rend="right">Le 9 mars.</p>
+          <dateline>Le 9 mars.</dateline>
           <quote>
             <p>« La journée a commencé douce et belle ; point de pluie ni de vent. Mon oiseau chantait toute la matinée, et moi aussi, car j’étais contente et je pressentais quelque bonheur pour aujourd’hui. Le voilà, mon ami, c’est <pb n="279"/>une de tes lettres. Oh ! s’il m’en venait ainsi tous les jours !</p>
             <p>« Il faut que j’écrive à Louise.</p>
             <p>« Du temps que j’écrivais, les nuages, le vent, sont revenus. Rien n’est plus variable que le ciel et notre âme.</p>
             <p>« Bonsoir. »</p>
           </quote>
-          <p rend="right">Le 10 mars.</p>
+          <dateline>Le 10 mars.</dateline>
           <quote>
             <p>« Oh ! le beau rayon de lune qui vient de tomber sur l’évangile que je lisais ! »</p>
           </quote>
         </div>
         <div>
           <head>XXVI</head>
-          <p rend="right">Le 11 mars.</p>
+          <dateline>Le 11 mars.</dateline>
           <quote>
             <p>« Aujourd’hui, à cinq heures du matin, il y a eu cinquante-sept ans que notre père vint au monde.</p>
             <p>« Nous sommes allés, lui, Mimi et moi, à l’église en nous levant, célébrer cet anniversaire et entendre la messe.</p>
@@ -1414,7 +1414,7 @@
         </div>
         <div>
           <head>XXVII</head>
-          <p rend="right">Le 12 mars.</p>
+          <dateline>Le 12 mars.</dateline>
           <quote>
             <p>« C’était pour moi une véritable peine de m’en aller ; papa l’a su et m’a laissée. Il me dit hier au soir : “Fais comme tu voudras.” Je voulais demeurer et me sentais toute triste en pensant que ce soir je serais loin d’ici, loin de Mimi, loin de mon feu, loin de ma chambrette, loin de mes livres, loin de Trilby, loin de mon oiseau : tout, jusqu’aux <pb n="282"/>moindres choses, se présente quand on s’en va, et vous entoure si bien qu’on n’en peut sortir. Voilà ce qui m’arrive chaque fois qu’il est question de voyage : j’appelle voyage une sortie de huit jours. Comme la colombe, j’aime chaque soir revenir à mon nid. Nul endroit ne me fait envie. »</p>
           </quote>
@@ -1427,7 +1427,7 @@
             <p>« Deux petits enfants font aussi en chantant leur fagot de branches parmi les moutons. <pb n="283"/>Ils s’interrompent de temps en temps pour rire ou pour jouer, car tout cela leur échappe. J’aimerais à les voir faire et à écouter le merle qui chante dans la haie du ruisseau ; mais je veux lire.</p>
             <p>« C’est Massillon que je lis depuis que nous sommes en carême. J’admire son discours de vendredi <hi rend="i">sur la Prière</hi>, qui est vraiment un cantique. »</p>
           </quote>
-          <p rend="right">Le 18 mars.</p>
+          <dateline>Le 18 mars.</dateline>
           <quote>
             <p>« Le berger m’a annoncé ce matin l’arrivée des bergeronnettes. Une a suivi le troupeau toute la journée : c’est de bon augure, nous aurons bientôt des fleurs. On croit aussi que ces oiseaux portent bonheur aux troupeaux. Les bergers les vénèrent comme une sorte de génie et se gardent d’en tuer aucune. Si ce malheur arrivait, le plus beau mouton du troupeau périrait.</p>
             <p>« Je voudrais que cette naïve crédulité préservât de même tant d’autres petits oiseaux que nos paysans font périr inhumainement.</p>
@@ -1448,7 +1448,7 @@
         <div>
           <head>XXX</head>
           <p><pb n="286"/>Le commencement d’avril recommence les choses, mais la vie morale est si pleine qu’elle n’ennuie jamais. Voyez.</p>
-          <p rend="right">Le 1<hi rend="sup">er</hi> avril.</p>
+          <dateline>Le 1<hi rend="sup">er</hi> avril.</dateline>
           <quote>
             <p>« Voilà donc un mois de passé, moitié triste, moitié beau, comme à peu près toute la vie. Ce mois de mars a quelques lueurs de printemps qui sont bien douces, c’est le premier qui voit des fleurs, quelques pimprenelles qui s’ouvrent un peu au soleil, des violettes dans les bois sous les feuilles mortes, qui les préservent des gelées blanches. Les petits enfants s’en amusent et les appellent <hi rend="i">fleurs de mars</hi>.</p>
             <p>« Ce nom est très bien donné. On en fait sécher pour faire de la tisane. Cette fleur est bonne et douce pour les rhumes, et, <pb n="287"/>comme la vertu cachée, son parfum la décèle.</p>
@@ -1457,14 +1457,14 @@
         </div>
         <div>
           <head>XXXI</head>
-          <p rend="right">Le 2 avril.</p>
+          <dateline>Le 2 avril.</dateline>
           <quote>
             <p>« Mon âme s’en va tout aujourd’hui du ciel sur une tombe, car il y a seize ans que ma mère mourut à minuit. Ce triste anniversaire est consacré au deuil et à la prière. Je l’ai passé devant Dieu en regrets et en espérances ; tout en pleurant, je lève les yeux et vois le ciel où ma mère est heureuse sans doute, car elle a tant souffert !</p>
             <p>« Sa maladie fut longue et son âme patiente. Je ne me souviens pas qu’il lui soit échappé une plainte, qu’elle ait crié tant soit peu sous la douleur qui la déchirait : nulle chrétienne n’a mieux souffert. On voyait qu’elle l’avait appris devant la croix. Il lui serait venu de <pb n="288"/>sourire sur son lit de mort comme un martyr sur son chevalet. Son visage ne perdit jamais sa sérénité, et jusque dans son agonie elle semblait penser à une fête.</p>
             <p>« Cela m’étonnait, moi qui la voyais tant souffrir, moi qui pleurais au moindre mal, et qui ne savais pas ce que c’est que la résignation dans les peines. Aussi, quand on me disait qu’elle s’en allait mourir, je la regardais, et son air content me faisait croire qu’elle ne mourrait pas. Elle mourut cependant le 2 avril à minuit, à l’heure où je m’étais endormie au pied de son lit. Sa douce mort ne m’éveilla pas ; jamais âme ne sortit plus tranquillement de ce monde.</p>
             <p>« Ce fut mon père… Mon Dieu ! j’entends le prêtre, je vois les cierges allumés, une figure pâle, en pleurs ; je fus emmenée dans une autre chambre. »</p>
           </quote>
-          <p rend="right">Le 3 avril.</p>
+          <dateline>Le 3 avril.</dateline>
           <quote>
             <p>« À neuf heures du matin ma mère fut mise au tombeau. »</p>
           </quote>
@@ -1479,7 +1479,7 @@
             <p>« Voilà bien la peine de prendre de l’encre pour écrire de ces inutilités ! »</p>
           </quote>
           <p>Cette âme aimante épie toute chose pour l’aimer. Le 15, elle entend le premier rossignol.</p>
-          <p rend="right">Le 15 avril.</p>
+          <dateline>Le 15 avril.</dateline>
           <quote>
             <p>« À mon réveil, j’ai entendu le rossignol, mais rien qu’un soupir, un signe de voix. J’ai écouté longtemps sans jamais entendre autre chose. Le charmant musicien arrivait à peine et n’a fait que s’annoncer. C’était comme le premier coup d’archet d’un grand concert. Tout chante ou va chanter. »</p>
           </quote>
@@ -1510,7 +1510,7 @@
             <p>« C’est que l’ennui s’est posé sur moi, qu’il y demeure, et que tout ce qui prend de la durée met de l’éternité dans le temps. »</p>
           </quote>
           <p>L’ennui du printemps dans une âme de jeune fille éclate aussi dans les lignes suivantes :</p>
-          <p rend="right">Le 28 avril.</p>
+          <dateline>Le 28 avril.</dateline>
           <quote>
             <p>« Quand tout le monde est occupé et que je ne suis pas nécessaire, je fais retraite et viens ici à toute heure pour écrire, lire ou <pb n="294"/>prier. J’y mets aussi ce qui se passe dans l’âme et dans la maison, et de la sorte nous retrouverons jour par jour tout le passé.</p>
             <p>« Pour moi ce n’est rien, ce qui passe, et je ne l’écrirais pas ; mais je me dis : — Maurice sera bien aise de voir ce que nous faisions pendant qu’il était loin et de rentrer ainsi dans la vie de famille, — et je le marque pour toi. »</p>
@@ -1558,17 +1558,17 @@
         </div>
         <div>
           <head>XL</head>
-          <p rend="right">Sans date.</p>
+          <dateline>Sans date.</dateline>
           <quote>
             <p>« M’y revoici à ce cher Cayla !</p>
             <p>« Oh ! que ce fut un beau moment que le revoir <pb n="302"/>de la famille, de papa, de Mimi, d’Érembert (Éran), qui m’embrassaient si tendrement et me faisaient sentir si profond tout le bonheur d’être ainsi aimée ! »</p>
           </quote>
           <p>Le 17, elle a repris sa vie découragée, mais sensible toujours au bonheur d’autrui.</p>
-          <p rend="right">Le 18 avril.</p>
+          <dateline>Le 18 avril.</dateline>
           <quote>
             <p>« Qui aurait deviné ce qui vient de m’arriver aujourd’hui ? J’en suis surprise, occupée, bien aise. Je remercie, et regarde cent fois ma belle fortune : les poésies créoles, à moi adressées par un poète de l’Île de France. Demain j’en parlerai. Il est trop tard à présent, mais je n’ai pu dormir sans marquer ici cet événement de ma journée et de ma vie. »</p>
           </quote>
-          <p rend="right">Le 19 avril.</p>
+          <dateline>Le 19 avril.</dateline>
           <quote>
             <p>« Me voici à la fenêtre, écoutant un chœur de rossignols qui chantent dans la Moulinasse d’une façon ravissante.</p>
             <p><pb n="303"/>« Oh ! le beau tableau ! Oh ! le beau concert, que je quitte pour aller porter l’aumône à Annette la boiteuse ! »</p>
@@ -1576,16 +1576,16 @@
         </div>
         <div>
           <head>XLI</head>
-          <p rend="right">Le 22 avril.</p>
+          <dateline>Le 22 avril.</dateline>
           <quote>
             <p>« Mimi m’a quittée pour quinze jours ; elle est à ***, et je la plains au milieu de cette païennerie, elle si sainte et bonne chrétienne ! Comme me disait Louise une fois, elle me fait l’effet d’une bonne âme dans l’enfer ; mais nous l’en sortirons dès que le temps donné aux convenances sera passé.</p>
             <p>« De mon côté, il me tarde ; je m’ennuie de ma solitude, tant j’ai l’habitude d’être deux. Papa est aux champs presque tout le jour, Éran à la chasse : pour toute compagnie, il me reste Trilby et mes poulets qui font du bruit comme des lutins ; ils m’occupent sans me désennuyer, parce que l’ennui est le fond et le centre de mon âme aujourd’hui. Ce que <pb n="304"/>j’aime le plus est peu capable de me distraire. J’ai voulu lire, écrire, prier, tout cela n’a duré qu’un moment ; la prière même me lasse. C’est triste, mon Dieu ! Par bonheur, je me suis souvenue de ce mot de Fénelon : Si Dieu vous ennuie, dites-lui qu’il vous ennuie. »</p>
           </quote>
-          <p rend="right">Le 23 avril.</p>
+          <dateline>Le 23 avril.</dateline>
           <quote>
             <p>« Je viens de passer la nuit à t’écrire. Le jour a remplacé la chandelle, ce n’est pas la peine d’aller au lit. Oh ! si papa le savait ! »</p>
           </quote>
-          <p rend="right">Le 24 avril.</p>
+          <dateline>Le 24 avril.</dateline>
           <quote>
             <p>« Comme elle a passé vite, cette nuit passée à t’écrire ! l’aurore a paru que je me croyais à minuit ; il était trois heures pourtant, et j’avais vu passer bien des étoiles, car de ma table je vois le ciel, et de temps en temps je le regarde et le consulte ; et il me semble qu’un ange me dicte.</p>
             <p>« D’où me peuvent venir, en effet, que d’en <pb n="305"/>haut tant de choses tendres, élevées, douces, vraies, pures, dont mon cœur s’emplit quand je te parle ! Oui, Dieu me les donne, et je te les envoie.</p>
@@ -1599,18 +1599,18 @@
         </div>
         <div>
           <head>XLII</head>
-          <p rend="right">Le 28 mai.</p>
+          <dateline>Le 28 mai.</dateline>
           <quote>
             <p>« Notre ciel d’aujourd’hui est pâle et languissant comme un beau visage après la fièvre. Cet état de langueur a bien des charmes, et ce mélange de verdure et de débris, de fleurs qui s’ouvrent sur des <pb n="307"/>fleurs tombées, d’oiseaux qui chantent et de petits torrents qui coulent, cet air d’orage et cet air de mai, font quelque chose de chiffonné, de triste, de riant que j’aime.</p>
             <p>« Mais c’est l’Ascension aujourd’hui ; laissons la terre et le ciel de la terre, montons plus haut que notre demeure, et suivons Jésus-Christ où il est entré.</p>
             <p>« Cette fête est bien belle ; c’est la fête des âmes détachées, libres, célestes, qui se plaisent, au-delà du visible, où Dieu les attire. »</p>
           </quote>
-          <p rend="right">Le 29 mai.</p>
+          <dateline>Le 29 mai.</dateline>
           <quote>
             <p>« Jamais orage plus long, il dure encore, depuis trois jours le tonnerre et la pluie vont leur train. Tous les arbres s’inclinent sous ce déluge ; c’est pitié de leur voir cet air languissant et défait dans le beau triomphe de mai.</p>
             <p>« Nous disions cela ce soir, à la fenêtre de la salle, en voyant les peupliers du Pontet penchant leur tête tout tristement, comme <pb n="308"/>quelqu’un qui plie sous l’adversité. Je les plaignais ou peu s’en faut ; il me semble que tout ce qui paraît souffrir a une âme. »</p>
           </quote>
-          <p rend="right">Le 30 mai.</p>
+          <dateline>Le 30 mai.</dateline>
           <quote>
             <p>« Toujours, toujours la pluie. C’est un temps à faire de la musique ou de la poésie. Tout le monde bâille en comptant les heures qui jamais ne finissent.</p>
             <p>« C’est un jour éternel pour papa surtout qui aime tant le dehors et ses distractions. Le voilà comme en prison, feuilletant de temps en temps une vieille histoire de l’Académie de Berlin, porte-sommeil, assoupissante lecture !</p>
@@ -1624,7 +1624,7 @@
           <p><pb n="309"/>Les douleurs, ce chapelet de la vie, continuent à s’égrener sur le Cayla.</p>
           <p>Le 12 juin, meurt la bonne grand’mère, venue là pour y mourir.</p>
           <p>Jour de deuil, écrit Eugénie.</p>
-          <p rend="right">Le 17 juin.</p>
+          <dateline>Le 17 juin.</dateline>
           <quote>
             <p>« Jour de deuil. Nous avons perdu ma grand’mère. Ce matin, papa est venu de bonne heure dans ma chambre, s’est approché de mon lit et m’a pris la main qu’il a serrée en me disant :</p>
             <p>« — Lève-toi.</p>
@@ -1638,7 +1638,7 @@
         </div>
         <div>
           <head>XLIV</head>
-          <p rend="right"><pb n="310"/>Le 1<hi rend="sup">er</hi> août.</p>
+          <dateline><pb n="310"/>Le 1<hi rend="sup">er</hi> août.</dateline>
           <quote>
             <p>« Ce soir ma tourterelle est morte, je ne sais de quoi, car elle chantait encore ces jours-ci.</p>
             <p>« Pauvre petite bête ! voilà des regrets qu’elle me donne. Je l’aimais, elle était blanche, et chaque matin c’était la première voix que j’entendais sous ma fenêtre, tant l’hiver que l’été. Était-ce plainte ou joie ? je ne sais, mais ces chants me faisaient plaisir à entendre ; voilà un plaisir de moins. Ainsi, chaque jour, perdons-nous quelque jouissance.</p>
@@ -1650,13 +1650,13 @@
         <div>
           <head>XLV</head>
           <p>Le temps change, mais pas le cœur ; lisez son voyage à Cahuzac.</p>
-          <p rend="right"><pb n="312"/>Le 29 juin.</p>
+          <dateline><pb n="312"/>Le 29 juin.</dateline>
           <quote>
             <p>« Beau ciel, beau soleil, beau jour. C’est de quoi se réjouir, car le beau temps est rare à présent, et je le sens comme un bienfait. C’en est bien un, qu’une belle nature, un air pur, un ciel radieux, petites images du séjour céleste, et qui font penser à Dieu.</p>
             <p>« J’irai ce soir à Cahuzac, mon cher pèlerinage. En attendant, je vais m’occuper de mon âme et voir où elle en est dans ses rapports avec Dieu depuis huit jours. Cette revue éclaire, instruit et avance merveilleusement le cœur dans la connaissance de Dieu et de soi-même. N’y avait-il pas un philosophe qui ordonnait cet exercice trois fois le jour à ses disciples ? Et ses disciples le faisaient.</p>
             <p>« Je le veux faire aussi, à l’école de Jésus, pour apprendre à devenir sage, d’une sagesse chrétienne. »</p>
           </quote>
-          <p rend="right"><pb n="313"/>Le 30 juin.</p>
+          <dateline><pb n="313"/>Le 30 juin.</dateline>
           <quote>
             <p>« Je passai la journée d’hier à Cahuzac, et quelques heures seule dans la maison de notre grand’mère.</p>
             <p>« Je me mis d’abord à genoux sur un prie-Dieu où elle priait, puis je parcourus sa chambre, je regardai ses chaises, son fauteuil, ses meubles dérangés comme quand on déloge ; je vis son lit <hi rend="i">vide</hi> ; je passai partout où elle avait passé, et je me souvins de ces lignes de Bossuet : “Dans un moment on passera où j’étais, et l’on ne m’y trouvera plus. Voilà sa chambre, voilà son lit, dira-t-on, et de tout cela il ne restera plus que mon tombeau où l’on dira que je suis, et je <hi rend="i">n’y serai pas</hi>.” Oh ! quelle idée de notre néant dans cette absence même de la tombe, dans la dispersion si prompte de notre poussière dans les souterrains de la mort !</p>
@@ -1667,7 +1667,7 @@
         <div>
           <head>XLVI</head>
           <p>Le 1<hi rend="sup">er</hi> septembre elle y est, à Cahuzac, pour démeubler la maison vide de sa grand’mère. Écoutons-la respirer toute seule.</p>
-          <p rend="right">Le 1<hi rend="sup">er</hi> septembre.</p>
+          <dateline>Le 1<hi rend="sup">er</hi> septembre.</dateline>
           <quote>
             <p>« M’y voici, à Cahuzac, dans une autre chambrette, accoudée sur une petite table où j’écris.</p>
             <p>« Il me faut partout des tables et du papier, parce que partout mes pensées me suivent et se veulent répandre en un endroit, pour toi, mon ami. J’ai parfois l’idée que tu y trouveras quelque charme, et cette idée me sourit et me fait continuer.</p>
@@ -1676,14 +1676,14 @@
         </div>
         <div>
           <head>XLVII</head>
-          <p rend="right">Le 1<hi rend="sup">er</hi> décembre.</p>
+          <dateline>Le 1<hi rend="sup">er</hi> décembre.</dateline>
           <quote>
             <p>« Je pense à la tombe qui s’ouvre ce matin à Gaillac pour engloutir ces restes humains jusqu’à ce que Dieu les ravive. C’est notre sort à tous, il faut être jeté en terre et pourrir dans les sillons de la mort avant d’arriver à la floraison ; mais, alors, que nous serons heureux de vivre et même d’avoir vécu ! L’immortalité nous fera sentir le prix de la vie et tout ce que nous devons à Dieu pour nous avoir tirés du néant.</p>
             <p>« C’est un bienfait auquel nous ne pensons guère et dont nous jouissons sans presque nous en soucier, car la vie souvent ne fait aucun plaisir. Mais qu’importe pour le chrétien ? À travers larmes ou fêtes, il marche toujours vers le ciel ; son but est là, ce qu’il <pb n="316"/>rencontre ne peut guère l’en détourner. Crois-tu que, si je courais vers toi, une fleur sur mon chemin ou une épine au pied m’arrêtassent ?</p>
             <p>« Me voici au soir d’une journée remplie de mille pensées et choses diverses dont je me rends compte au coin du feu de ma chambre, à la clarté d’une petite lampe, ma seule compagne de nuit.</p>
             <p>« Sans le malheur arrivé à Gaillac, j’aurais Mimi à côté de moi, et nous causerions, et je lui dirais, à elle, ce que je dis mal ici à ce confident muet. »</p>
           </quote>
-          <p rend="right">Le 2 décembre.</p>
+          <dateline>Le 2 décembre.</dateline>
           <quote>
             <p>« Rien d’intéressant, que la venue d’un petit chien qui doit remplacer Lion au troupeau. Il est beau et fort caressant, je l’aime ; et je lui cherche un nom. Ce serait Polydore, en souvenir du chien de La Chênaie ; mais, pour un chien de berger, c’est un nom de luxe : mieux vaut Bataille, pour le combattant du troupeau.</p>
             <p>« L’air est doux ce matin, les oiseaux chantent <pb n="317"/>comme au printemps, et un peu de soleil visite ma chambrette. Je l’aime ainsi et m’y plais comme aux plus beaux endroits du monde, toute solitaire qu’elle est. C’est que j’en fais ce que je veux, un salon, une église, une académie. J’y suis quand je veux avec Lamartine, Chateaubriand, Fénelon : une foule d’esprits m’entoure ; ensuite ce sont des saints, sainte Thérèse, saint Louis, patron de mon amie Louise, et une petite image de l’Annonciation où je contemple un doux mystère et les plus pures créatures de Dieu, l’ange et la Vierge. Voilà de quoi me plaire ici et murer ma porte à tout ce qui se voit ailleurs. »</p>
@@ -1701,7 +1701,7 @@
           <head>XLIX</head>
           <p>Il nous reste de bien belles pages à feuilleter encore dans cette <hi rend="i">Imitation</hi> familière de l’ange solitaire du foyer.</p>
           <p>Cette littérature de l’âme a des pages qu’aucune autre littérature n’égalera jamais.</p>
-            <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+            <signed><hi rend="sc">Lamartine</hi>.</signed>
         </div>
       </div>
       <div>
@@ -1717,7 +1717,7 @@
           <head>II</head>
           <p>Quand son premier amour de famille ici-bas, son frère Maurice, fut mort entre ses bras au Cayla, et qu’elle-même fut morte après son père, on retrouva dans ses papiers ces dernières notes de son journal adressées à ce cher mort <hi rend="i">Maurice</hi>, et on les recueillit pour notre <pb n="323"/>édification intellectuelle comme des reliques que la flamme aurait profanées. En voici ; lisez encore.</p>
           <p>Elle est retirée dans sa petite chambre : elle sourit, et elle lui dit ou plutôt elle se dit à elle-même :</p>
-          <p rend="right">Le 12 mars 1836.</p>
+          <dateline>Le 12 mars 1836.</dateline>
           <quote>
             <p>« J’admirais tout à l’heure un petit paysage de ma chambrette qu’enluminait le soleil levant. Que c’était joli ! Jamais je n’ai vu de plus bel effet de lumière sur le papier, à travers des arbres en peinture. C’était diaphane, transparent ; c’était dommage pour mes yeux, ce devait être vu par un peintre. Mais Dieu ne fait-il pas le <hi rend="i">beau</hi> pour tout le monde ? Tous nos oiseaux chantaient ce matin, pendant que je faisais ma prière. Cet accompagnement me plaît, quoiqu’il me distraie un peu. Je m’arrête pour écouter ; puis je reprends, pensant que les oiseaux et moi nous faisons nos cantiques à Dieu, et que ces petites créatures chantent peut-être <pb n="324"/>mieux que moi. Mais le charme de la prière, le charme de l’entretien avec Dieu, ils ne le goûtent pas, il faut avoir une âme pour le sentir. J’ai ce bonheur que n’ont pas les oiseaux. Il n’est que neuf heures et j’ai déjà passé par l’heureux et par le triste. Comme il faut peu de temps pour cela ! L’heureux, c’est le soleil, l’air doux, le chant des oiseaux, bonheurs à moi ; puis une lettre de Mimi, qui est à Gaillac, où elle me parle de M<hi rend="sup">me</hi> Vialar, qui t’a vu, et d’autres choses riantes. Mais voilà que j’apprends parmi tout cela le départ de M. Bories, de ce bon et excellent père de mon âme. Oh ! que je le regrette ! quelle perte je vais faire en perdant ce bon guide de ma conscience, de mon cœur, de mon esprit, de tout moi-même que Dieu lui avait confié et que je lui laissais avec tant d’abandon ! Je suis triste d’une tristesse intérieure qui fait pleurer l’âme. Mon Dieu, dans mon désert, à qui avoir recours ? qui me soutiendra dans mes défaillances spirituelles ? qui me mènera au grand sacrifice ? C’est en ceci surtout que je regrette M. Bories. Il connaît ce que Dieu m’a <pb n="325"/>mis au cœur, j’avais besoin de sa force pour le suivre.</p>
             <p>« Toi, tu me comprendras ! »</p>
@@ -1732,7 +1732,7 @@
         </div>
         <div>
           <head>IV</head>
-          <p rend="right">Le 14 mars.</p>
+          <dateline>Le 14 mars.</dateline>
           <p><pb n="327"/>Un joli enfant vient la visiter.</p>
           <quote>
             <p>« Après avoir donné au petit Antoine tout ce qu’il a voulu, je lui ai demandé une boucle de ses cheveux, lui offrant une des miennes. Il m’a regardée, un peu surpris : “Non, m’a-t-il dit, les miennes sont plus jolies.” Il avait raison ; des cheveux de trente ans sont bien laids auprès de ses boucles blondes. Je n’ai donc rien obtenu qu’un baiser. Ils sont doux, les baisers d’enfant : il me semble qu’un lis s’est posé sur ma joue. »</p>
@@ -1746,7 +1746,7 @@
         </div>
         <div>
           <head>VI</head>
-          <p rend="right">Le 20 mars.</p>
+          <dateline>Le 20 mars.</dateline>
           <quote>
             <p><pb n="329"/>« Une petite lacune. Je saute du 14 au 20. Je trouve si peu de chose à dire de mes jours, qui se ressemblent souvent comme des gouttes d’eau, que je n’en dis rien. Ce n’est pas vraiment la peine d’employer l’encre et le temps à cela, et je ferais mieux peut-être de m’occuper d’autre chose. Mais aussi j’ai besoin d’écrire et d’un confident à toute heure. Je parle quand je veux à ce petit cahier ; je lui dis tout, pensées, peines, plaisirs, émotions, tout enfin, hormis ce qui ne peut se dire qu’à Dieu, et encore j’ai regret de ce que je laisse au fond du cœur. Mais cela, je ferais mal, je crois, de le produire, et la conscience se met entre la plume et mon papier. Alors je me tais. Si ceci t’étonne, mon ami, avec la vie que tu me connais, souviens-toi <pb n="330"/>que Marie l’Égyptienne était fort tourmentée dans la solitude. Il y a des esprits malins répandus dans l’air.</p>
             <p>« Aujourd’hui, et depuis même assez longtemps, je suis calme, paix de tête et de cœur, état de grâce dont je bénis Dieu. Ma fenêtre est ouverte ; comme il fait calme ! tous les petits bruits du dehors me viennent ; j’aime celui du ruisseau. Adieu, j’entends une horloge à présent, et la pendule qui lui répond. Ce tintement des heures dans le lointain et dans la salle prend dans la nuit quelque chose de mystérieux. Je pense aux trappistes qui se réveillent pour prier, aux malades qui comptent en souffrant toutes les heures, aux affligés qui pleurent, aux morts qui dorment glacés dans leur lit. Oh ! que la nuit fait venir des pensées graves ! »</p>
@@ -1755,12 +1755,12 @@
         <div>
           <head>VII</head>
           <p>Les soucis actifs de sa maison la submergent <pb n="331"/>en l’absence de son père ; elle emploie et nourrit quarante ouvriers des champs.</p>
-          <p rend="right">Le 22 mars.</p>
+          <dateline>Le 22 mars.</dateline>
           <quote>
             <p>« Hier s’est passé sans que j’aie pu te rien dire, à force d’occupations, de ces trains de ménage, de ces courants d’affaires qui emportent tous mes moments et tout moi-même, hormis le cœur qui monte dessus et s’en va du côté qu’il aime. C’est tantôt ici, tantôt là, à Paris, à Alby où est Mimi, aux montagnes, au ciel quelquefois, ou dans une église, enfin où je veux ; car je suis libre parmi mes entraves et je sens la vérité de ce que dit l’<hi rend="i">Imitation</hi>, qu’on peut passer comme sans soins à travers les soins de la vie. Mais ces soins-là pèsent à l’âme, ils la fatiguent, l’ennuient souvent, et c’est alors qu’elle aspire à la solitude. Oh ! le bienheureux état où l’on peut s’occuper uniquement de la seule chose nécessaire, où, du moins, les soins matériels n’occupent que légèrement et ne prennent pas la grande partie du jour ! <pb n="332"/>Voilà que pour quarante bêcheurs, ou menuisiers, ou je ne sais quoi, il m’a fallu rester tout le long du jour à la cuisine, les mains aux fourneaux et dans les <hi rend="i">oulos</hi>.</p>
             <p>« Oh ! que j’aurais bien mieux aimé être ici, avec un livre ou une plume ! Je t’aurais écrit, je t’aurais dit combien tes envois me sont agréables, et je ne sais quoi ensuite ; ce serait plus joli que des plats de soupe. Mais pourquoi se plaindre et perdre ainsi le mérite d’une contrariété ? Faisons ma soupe de bonne grâce ; les saints souriaient à tout, et l’on dit que sainte Catherine de Sienne faisait avec grande joie la cuisine. »</p>
           </quote>
-          <p rend="right">Le 11 avril.</p>
+          <dateline>Le 11 avril.</dateline>
           <quote>
             <p>« Je suis à mille choses qui remplissent tous mes moments de devoirs ou d’occupations. Ceci n’est qu’un délassement, un temps de reste que je te donne quand je puis, la nuit, le matin, à toute heure, car à toute heure on peut causer quand c’est avec le cœur que l’on parle. Une mouche, un bruit de porte, une <pb n="333"/>pensée qui vient, que sais-je ? tant de choses qu’on voit, qu’on touche, qu’on sent, feraient écrire des volumes. Je lisais hier au soir Bernardin, au premier volume des <hi rend="i">Études</hi>, qu’il commence par un fraisier, ce fraisier qu’il décrit avec tant de charme, tant d’esprit, tant de cœur, qui ferait, dit-il, écrire des volumes sans fin, dont l’étude suffirait pour remplir la vie du plus savant naturaliste par les rapports de cette plante avec tous les règnes de la nature. Mon ami, je suis ce fraisier en rapport avec la terre, avec l’air, avec le ciel, avec les oiseaux, avec tant de choses visibles et invisibles que je n’aurais jamais fini si je me mettais à me décrire, sans compter ce qui vit aux replis du cœur, comme ces insectes qui logent dans l’épaisseur d’une feuille. De tout cela, mon ami, quel volume !</p>
             <p>« Voilà sous ma plume une petite bête qui chemine, pas plus grosse qu’un point sur un <hi rend="i">i</hi>. Qui sait où elle va ? de quoi elle vit ? et si elle n’a pas quelque chagrin au cœur ? qui sait si elle ne cherche pas quelque Paris où elle a un frère ? elle va bien vite. Je m’arrête <pb n="334"/>sur son chemin : la voilà hors de la page ; comme elle est loin ! je la vois à peine, je ne la vois plus. Bon voyage, petite créature, que Dieu te conduise où tu veux aller ! Nous reverrons-nous ? T’ai-je fait peur ? Je suis si grande à tes yeux sans doute ! mais peut-être par cela même je t’échappe comme une immensité. Ma petite bête me mènerait loin, je m’arrête à cette pensée : qu’ainsi je suis, aux yeux de Dieu, petite et infiniment petite créature qu’il aime.</p>
@@ -1770,7 +1770,7 @@
         <div>
           <head>VIII</head>
           <p><pb n="335"/>Son père l’interroge quelquefois sur ses occupations solitaires dans sa chambre : elle lui lit pour le contenter quelques passages insignifiants de ses notes, mais elle lui dérobe tout ce qui pourrait l’affliger. Elle l’avoue à son frère qui n’est pas responsable de ce qui lui manque dans la vie. Voyez :</p>
-          <p rend="right">Sans date.</p>
+          <dateline>Sans date.</dateline>
           <quote>
             <p>« Le rossignol chante, le ciel est beau, choses toutes neuves dans ce printemps tardif. J’ai réfléchi après avoir écouté le rossignol ; j’ai calculé le nombre des minutes de mon existence.</p>
             <p>« C’est effrayant, 168 millions et quelques mille ! Déjà tant de temps dans ma vie ! J’en comprends mieux toute la rapidité, maintenant que je la mesure par parcelles. Le Tarn <pb n="336"/>n’accumule pas plus vite les grains de sable sur ses bords. Mon Dieu, qu’avons-nous fait de ces instants que vous devez aussi compter un jour ? S’en trouvera-t-il qui comptent pour la vie éternelle ? s’en trouvera-t-il beaucoup, s’en trouvera-t-il un seul ? <foreign xml:lang="lat"><hi rend="i">Si observaveris, Domine, Domine, quis sustinebit</hi></foreign> ? »</p>
@@ -1780,7 +1780,7 @@
             <p>« Il n’est pas bon qu’il les voie et qu’il connaisse autre chose de moi que le côté calme et serein. Une fille doit être si douce à son père ! Nous devons leur être à peu près ce que les anges sont à Dieu ! »</p>
           </quote>
           <p>Un jour après, elle écrit :</p>
-          <p rend="right">Le 5 mai 1837.</p>
+          <dateline>Le 5 mai 1837.</dateline>
           <quote>
             <p>« Pluie, vent froid, ciel d’hiver, le rossignol, qui de temps en temps chante sous <pb n="337"/>des feuilles mortes, c’est triste au mois de mai. Aussi suis-je triste en moi, malgré moi. Je ne voudrais pas que mon âme prît tant de part à l’état de l’air et des saisons, que, comme une fleur, elle s’épanouisse ou se ferme au froid ou au soleil. Je ne le comprends pas, mais il en est ainsi tant qu’elle est enfermée dans ce pauvre vase du corps.</p>
             <p>« Pour me distraire, j’ai feuilleté Lamartine, le cher poète. J’aime l’hymne au rossignol et bien d’autres de ces <hi rend="i">Harmonies</hi>, mais que c’est loin de l’effet que me faisaient ses <hi rend="i">Méditations</hi> ! C’étaient des ravissements, des extases ; j’avais seize ans : que c’était beau ! Le temps change bien des choses. Le grand poète ne me fait plus vibrer le cœur, il ne m’a pas même pu distraire aujourd’hui. »</p>
@@ -1805,7 +1805,7 @@
         </div>
         <div>
           <head>XI</head>
-          <p rend="right">Le 9 mai.</p>
+          <dateline>Le 9 mai.</dateline>
           <quote>
             <p>« Une journée passée à étendre une lessive laisse peu à dire. C’est cependant assez joli que d’étendre du linge blanc sur l’herbe ou de le voir flotter sur des cordes. On est, si l’on veut, la Nausicaa d’Homère ou une de ces princesses de la Bible qui lavaient les tuniques de leurs frères. Nous avons un lavoir, que tu n’as pas vu, à la Moulinasse, assez grand et plein d’eau, qui embellit cet enfoncement et attire les oiseaux qui aiment le frais pour chanter.</p>
             <p>« Notre Cayla est bien changé et change tous les jours. Tu ne verras plus le blanc pigeonnier de la côte, ni la petite porte de la terrasse, ni le corridor et le <hi rend="i">fenestroun</hi> où nous <pb n="344"/>mesurions notre taille quand nous étions petits. Tout cela est disparu et fait place à de grandes croisées, à de grands salons. C’est plus joli, ces choses nouvelles, mais pourquoi est-ce que je regrette les vieilles et replace de cœur les portes ôtées, les pierres tombées ? Mes pieds même ne se font pas à ces marches neuves, ils vont suivant leur coutume et font des faux pas où ils n’ont pas passé tout petits. Quel sera le premier cercueil qui sortira par ces portes neuves ? Soit nouvelles ou anciennes, toutes ont leurs dimensions pour cela, comme tout nid a son ouverture. Voilà qui désenchante cette demeure d’un jour et fait lever les yeux vers cette habitation qui n’est pas bâtie de main d’homme. »</p>
@@ -1815,7 +1815,7 @@
             <p>« Un chagrin : nous avons Trilby malade, si malade que la pauvre bête en mourra. Je l’aime, ma petite chienne, si gentille. Je me souviens aussi que tu l’aimais et la caressais, l’appelant coquine. Tout plein de souvenirs <pb n="345"/>s’attachent à Trilbette et me la font regretter. Petites et grandes affections, tout nous quitte et meurt à son tour. Notre cœur est comme un arbre entouré de feuilles mortes. »</p>
           </quote>
           <p>Ce frère tombe malade à Paris ; — elle l’apprend ; elle lui écrit sans oser lui envoyer la lettre, de crainte de froisser la nouvelle épouse.</p>
-          <p rend="right">Le 28 mai.</p>
+          <dateline>Le 28 mai.</dateline>
           <quote>
             <p>« Voilà ma journée : ce matin à la messe, écrire à Louise, lire un peu, et puis dans ma chambrette. Oh ! je ne dis pas tout ce que j’y fais. J’ai des fleurs dans un gobelet ; j’en ai longtemps regardé deux dont l’une penchait sur l’autre qui lui ouvrait son calice. C’était doux à considérer, et à se représenter l’épanchement de l’amitié dans ces deux petites fleurettes. Ce sont des stellaires, petites fleurs blanches à longue tige, des plus gracieuses de nos champs. On les trouve le long des haies, parmi le gazon. <pb n="346"/>Il y en a dans le chemin du moulin, à l’abri d’un tertre tout parsemé de leurs petites têtes blanches. C’est ma fleur de prédilection. J’en ai mis devant notre image de la Vierge. Je voudrais qu’elles y fussent quand tu viendras, et te faire voir les deux fleurs amies. Douce image, qui des deux côtés est charmante, quand je pense qu’une sœur est fleur de dessous ! Je crois, mon ami, que tu ne diras pas non. Cher Maurice, nous allons nous voir, nous entendre ! Ces cinq ans d’absence vont se retrouver dans nos entretiens, nos causeries, nos dires de tout instant. »</p>
           </quote>
@@ -1824,7 +1824,7 @@
           <head>XII</head>
           <p>De sombres pressentiments l’obsèdent ; elle ne les confie qu’au papier.</p>
           <p>Après un trop court séjour au Cayla, Maurice est reparti, mieux, mais pas guéri. Le journal reprend :</p>
-          <p rend="right">Le 26 janvier 1838.</p>
+          <dateline>Le 26 janvier 1838.</dateline>
           <quote>
             <p><pb n="347"/>« Je rentre pour la première fois dans cette chambrette où tu étais encore ce matin. Que la chambre d’un absent est triste ! On le voit partout sans le trouver nulle part. Voilà tes souliers sous le lit, ta table toute garnie, le miroir suspendu au clou, les livres que tu lisais hier au soir avant de t’endormir, et moi qui t’embrassais, te touchais, te voyais. Qu’est-ce que ce monde où tout disparaît ? Maurice, mon cher Maurice, oh ! que j’ai besoin de toi et de Dieu ! Aussi, en te quittant, suis-je allée à l’église où l’on peut prier et pleurer à son aise. Comment fais-tu, toi qui ne pries pas, quand tu es triste, quand tu as le cœur brisé ? Pour moi, je sens que j’ai besoin d’une consolation surhumaine, qu’il faut Dieu pour ami quand ce qu’on aime fait souffrir.</p>
             <p>« Que s’est-il passé aujourd’hui pour l’écrire ? Rien que ton départ ; je n’ai vu que toi s’en allant, que cette croix où nous nous <pb n="348"/>sommes quittés. Quand le roi serait venu, je ne m’en soucierais pas. »</p>
@@ -1832,7 +1832,7 @@
         </div>
         <div>
           <head>XIII</head>
-          <p rend="right">Le 3 février.</p>
+          <dateline>Le 3 février.</dateline>
           <quote>
             <p>« J’ai commencé ma journée par me garnir une quenouille bien ronde, bien bombée, bien coquette avec son nœud de ruban. Là, je vais filer avec un petit fuseau. Il faut varier travail et distractions ; lasse du bas, je prends l’aiguille, puis la quenouille, puis un livre. Ainsi le temps passe et nous emporte sur sa croupe.</p>
             <p>« Éran vient d’arriver. Il me tardait de le voir, de savoir quel jour tu étais parti de Gaillac. C’est donc vendredi, le même jour que d’ici. Ce fut un vendredi aussi que tu partis pour la Bretagne. Ce jour n’est pas heureux ; maman mourut un vendredi, et d’autres événements tristes que j’ai remarqués. Je ne <pb n="349"/>sais si l’on doit croire à cette fatalité des jours. »</p>
@@ -1844,7 +1844,7 @@
         </div>
         <div>
           <head>XV</head>
-          <p rend="right">Le 14 février.</p>
+          <dateline>Le 14 février.</dateline>
           <quote>
             <p>« Papa est mieux : il a eu la fièvre, peu dormi. Nous lui avons cédé notre chambre qui est plus chaude, et j’ai pris ton lit. Il y <pb n="350"/>a bien longtemps que je n’avais dormi là ; depuis, je crois que j’emportai de la tapisserie la main de l’homme qui allait défaire un nid qui s’y trouve peint. Je lui prêtais du moins cette mauvaise intention qui me mettait en colère à chaque réveil, et que je punis enfin par un acte de rigueur dont je fus punie à mon tour. On me gronda d’avoir déchiré le pauvre homme, sans écouter qu’il était méchant. Qui le voyait que moi ? Pour bien se conduire avec les enfants, il faut prendre leurs yeux et leur cœur, voir et sentir à leur portée et les juger là-dessus. On épargnerait bien des larmes qui coulent pour de fausses leçons. Pauvres petits enfants, comme je souffre quand je les vois malheureux, tracassés, contrariés ! Te souviens-tu du <hi rend="i">Pater</hi> que je disais dans mon cœur pour que papa ne te grondât pas à la leçon ? La même compassion me reste, avec cette différence que je prie Dieu de faire que les parents soient raisonnables.</p>
             <p>« Si j’avais un enfant à élever, comme je le ferais doucement, gaiement, avec tous les soins qu’on donne à une délicate petite <pb n="351"/>fleur ! Puis je leur parlerais du bon Dieu avec des mots d’amour ; je leur dirais qu’il les aime encore plus que moi, qu’il me donne tout ce que je leur donne, et, de plus, l’air, le soleil et les fleurs ; qu’il a fait le ciel et tant de belles étoiles. Ces étoiles, je me souviens comme elles me donnaient une belle idée de Dieu, comme je me levais souvent quand on m’avait couchée, pour les regarder à la petite fenêtre donnant aux pieds de mon lit, chez nos cousines, à Gaillac. On m’y surprit, et plus ne vis les beaux luminaires. La fenêtre fut clouée, car je l’ouvrais et m’y suspendais, au risque de me jeter dans la rue. Cela prouve que les enfants ont le sentiment du beau, et que par les œuvres de Dieu il est facile de leur inspirer la foi et l’amour.</p>
@@ -1854,11 +1854,11 @@
         <div>
           <head>XVI</head>
           <p><pb n="352"/>La saison change.</p>
-          <p rend="right">Le 1<hi rend="sup">er</hi> mars.</p>
+          <dateline>Le 1<hi rend="sup">er</hi> mars.</dateline>
           <quote>
             <p>« Je me sens portée aux larmes ; cependant je ne suis pas malheureuse. D’où cela vient-il donc ? De ce que, apparemment, notre âme s’ennuie sur la terre, pauvre exilée !… Voilà Mimi en prière ; je vais faire comme elle et dire à Dieu que je m’ennuie. Oh ! moi, que deviendrais-je sans la prière, sans la foi, la pensée du ciel, sans cette pitié de la femme qui se tourne en amour, en amour divin ? J’étais perdue et sans bonheur sur la terre. Tu peux m’en croire, je n’en ai trouvé encore en rien, en aucune chose humaine, pas même en toi. »</p>
           </quote>
-          <p rend="right">Le 15 mars.</p>
+          <dateline>Le 15 mars.</dateline>
           <quote>
             <p>« Une lettre, mais pas de toi ! C’est d’Euphrasie <pb n="353"/>qui me donne des nouvelles de Lili, tristes nouvelles qui me font craindre de perdre cette pauvre amie. Je vais à Cahuzac en faire part à ma tante. »</p>
           </quote>
@@ -1866,7 +1866,7 @@
         <div>
           <head>XVII</head>
           <p>La <hi rend="i">Vialarette</hi>, une bonne servante volontaire du hameau, vient à mourir. Écoutez :</p>
-          <p rend="right">Le 16 mars.</p>
+          <dateline>Le 16 mars.</dateline>
           <quote>
             <p>« La Vialarette ne te portera plus des marrons et des échaudés de Cordes ; la pauvre fille ! elle est morte la nuit dernière. Je la regrette pour ses qualités, sa fidélité, son attachement pour nous. Étions-nous malades ? elle était là ; fallait-il un service ? elle était prête, et puis d’une discrétion, d’une sûreté ! du petit nombre de personnes à qui l’on peut confier un secret. C’était le sublime de sa <pb n="354"/>condition, ce me semble, que cette religion du secret que l’éducation ne lui avait pas apprise. Je lui aurais tout confié.</p>
             <p>« L’enterrement était pénible à voir ; mais j’ai voulu accompagner jusque-là celle qui n’a ni frère ni sœur, celle qui a suivi sur ce cimetière tous ceux des nôtres qu’elle a vus mourir, celle qui a fait tant de pas pour nous, hélas ! à pareil jour, <hi rend="i">samedi</hi>. Enfin j’ai voulu lui donner cette marque d’affection et l’accompagner de mes prières jusqu’au bord de l’autre monde. J’ai entendu la messe à côté de son cercueil.</p>
@@ -1876,11 +1876,11 @@
         <div>
           <head>XVIII</head>
           <p>Elle raconte qu’elle va se chauffer au soleil, pendant l’office des morts, dans le cimetière du hameau.</p>
-          <p rend="right"><pb n="356"/>Le 7 avril.</p>
+          <dateline><pb n="356"/>Le 7 avril.</dateline>
           <quote>
             <p>« D’où diriez-vous que je viens, ma chère Marie ? Oh ! vous ne devineriez pas ; de me chauffer au soleil dans un cimetière. Lugubre foyer si l’on veut, mais où l’on se trouve au milieu de sa parenté. Là, j’étais avec mon grand-père, des oncles, des aïeux, une foule de morts aimés. Il n’y manquait que ma mère qui, hélas ! repose un peu loin d’ici. Mais pourquoi me trouvais-je là ? Me croyez-vous amante des tombeaux ? Pas plus qu’une autre, ma chère. C’est que je suis allée me confesser ce matin : et comme il y avait du monde, et que j’avais froid à l’église, je suis sortie et me suis assise au soleil dans le cimetière ; et là les réflexions sont venues, et les pensées vers l’autre monde, et le compte qu’on rend à Dieu. Le bon livre d’examen qu’une tombe ! Comme on y lit des vérités, comme on y trouve des lumières, comme les illusions, les rêves de la vie s’y dissipent, et tous les enchantements ! Au sortir de là, le monde est jugé, on y tient moins.</p>
             <l><pb n="357"/>Le pied sur une tombe, on tient moins à la terre.</l>
-            <l>(Lamartine)</l>
+            <bibl>(Lamartine)</bibl>
             <p>« Il n’est pas de danseuse qui ne quittât sa robe de bal et sa guirlande de fleurs, pas de jeune fille qui n’oubliât sa beauté, personne qui ne revînt meilleur de cette terre des morts. »</p>
           </quote>
         </div>
@@ -1888,7 +1888,7 @@
           <head>XIX</head>
           <p>Ainsi cela se poursuit parmi tous les événements de la vie, petits ou grands, tristes ou gais ; c’est la vicissitude éternelle, mais la vicissitude interprétée, sentie, comprise par une âme intelligente de ce qu’elle souffre et joyeuse de ce qu’elle cueille en passant sur le bord du chemin.</p>
           <p>Lisez cette note d’un de ses beaux jours où elle se promène avec son père et son petit <pb n="358"/>chien légué par <hi rend="i">Lili</hi>, une de ses amies qu’elle a récemment ensevelie :</p>
-          <p rend="right">Le 3 mai.</p>
+          <dateline>Le 3 mai.</dateline>
           <quote>
             <p>« Depuis ce matin, rien de joli que la naissance d’un agneau et ce cahier qui commence au chant du rossignol, devant deux vases de fleurs qui embaument ma chambrette. C’est un charme d’écrire dans ces parfums, d’y prier, d’y penser, d’y laisser aller l’âme.</p>
             <p>« Je suis fatiguée d’écriture, deux grandes lettres m’ont brisé la main. Aussi ne mettrai-je pas grand-chose ici ; mais je veux marquer un beau jour, calme, doux et frais, une vraie matinée de printemps. Tout chante et fleurit. Nous venons de la promenade, papa, moi et mon chien, le joli chien de Lili : chère petite bête ! il ne me quitte jamais : quand je m’assieds, il vient sur mes genoux ; si je marche, il suit mes pas. On dirait qu’il me comprend, qu’il sait que je remplace sa maîtresse. Nous avons rapporté des fleurs blanches, <pb n="359"/>violettes, bleues, qui nous font un bouquet charmant. J’en ai détaché deux pour envoyer à E***, dans une lettre : ce sont des <hi rend="i">dames de onze heures</hi> ; apparemment ce nom leur vient de ce qu’elles s’ouvrent alors, comme font d’autres à d’autres heures, charmantes horloges des champs, horloges de fleurs qui marquent de si belles heures. Qui sait si les oiseaux les consultent, s’ils ne règlent pas sur des fleurs leur coucher, leur repas, leurs rendez-vous ? Pourquoi pas ? tout s’harmonise dans la nature ; des rapports secrets unissent l’aigle et le brin d’herbe, les anges et nous dans l’ordre de l’intelligence. J’aurai un nid sous ma fenêtre ; une tourterelle vient de chanter sur l’acacia où il y avait un nid l’an dernier. C’est peut-être la même. Cet endroit lui a convenu, et, en bonne mère, elle y replace son berceau.</p>
@@ -1897,7 +1897,7 @@
         </div>
         <div>
           <head>XX</head>
-          <p rend="right"><pb n="360"/>Le 12 mai.</p>
+          <dateline><pb n="360"/>Le 12 mai.</dateline>
           <quote>
             <p>« Depuis cinq jours je n’ai pas écrit ici ; dans ce temps il est venu des feuilles, des fleurs, des roses. En voilà une sous mon front, qui m’embaume, la première du printemps. J’aime à marquer le jour de cette belle venue. Qui sait les printemps que je retrouve ainsi dans des livres, sur une feuille de rose où je date le jour et l’an ? Une de ces feuilles s’en fut à l’île de France, où elle fit bien plaisir à ce pauvre Philibert. Hélas ! elle aura disparu comme lui ! Quoique je le regrette, ce n’est pas cela, mais je ne sais quoi qui m’attriste, me tient dans la langueur aujourd’hui. Pauvre âme, pauvre âme, qu’as-tu donc ? que te faut-il ? Où est ton remède ? Tout verdit, tout fleurit, tout chante, tout l’air est embaumé comme s’il sortait d’une <pb n="361"/>fleur. Oh ! c’est si beau ! allons dehors. Non, je serais seule et la belle solitude ne vaut rien. Ève le fit voir dans Éden. Que faire donc ? Lire, écrire, prier, prendre une corbeille de sable sur la tête, comme ce solitaire, et marcher. Oui, le travail, le travail ! occuper le corps qui nuit à l’âme. Je suis demeurée trop tranquille aujourd’hui, ce qui fait mal, ce qui donne le temps de croupir à un certain ennui qui est en moi.</p>
             <p>« Pourquoi est-ce que je m’ennuie ? Est-ce que je n’ai pas tout ce qu’il me faut, tout ce que j’aime, hormis toi ? Quelquefois je pense que c’est la pensée du couvent qui fait cela, qui m’attire et m’attriste. J’envie le bonheur d’une sainte Thérèse, de sainte Paule à Bethléem. Si je pouvais me trouver dans quelque sainte solitude !… Le monde n’est pas mon endroit ; mon avenir serait fait alors, et je ne sais ce qu’il sera. »</p>
@@ -1916,7 +1916,7 @@
         <div>
           <head>XXIII</head>
           <p>Un autre jour la gaieté des champs la saisit.</p>
-          <p rend="right">Le 4 juin.</p>
+          <dateline>Le 4 juin.</dateline>
           <quote>
             <p>« Flageolet, hautbois, grosse caisse, rossignols, tourterelles, loriots, merles, pinsons, <pb n="365"/>belle et grotesque symphonie du moment. C’est, en l’honneur de la fête votive, la bruyante musique d’Andillac qui retentit jusqu’ici et se mêle à celle des oiseaux. Au moins ne manquons-nous pas de concerts dans nos champs ; tu aimes ceux de Paris sans pouvoir y aller toujours, et moi, sans y aller, je m’y trouve. C’est de tous côtés, de tous les arbres, des voix d’oiseaux, et mon charmant musicien, le rossignol de l’autre soir, chantant encore près du noyer du jardin. Ce sont pour moi des charmes, des plaisirs que je ne puis dire. Aussi quelqu’un me disait : “Vous êtes heureusement née pour habiter la campagne.” C’est vrai, je le sens, et que mon être s’harmonise avec les fleurs, les oiseaux, les bois, l’air, le ciel, tout ce qui vit dehors, grandes ou gracieuses œuvres de Dieu. »</p>
           </quote>
@@ -1929,11 +1929,11 @@
             <p>« Un chagrin. Mon cher petit chien, mon joli Bijou est malade, si malade que je crains qu’il n’en meure. Pauvre bête ! comme il est oppressé, comme il gémit, me lèche les mains et me dit : “Soulagez-moi ! ” Je ne sais que lui faire, il ne prend rien que quelques gouttes de sirop de gomme qu’il lèche sur mes doigts ; c’est ainsi que je le nourris, moitié sucre, moitié caresses. Hélas ! que sert d’aimer ? je ne le sauverai pas. Cela me ferait pleurer, si je ne renvoyais mes larmes. Pleurer une bête, c’est bête, mais le cœur n’a pas d’esprit ni trop d’amour-propre souvent. Puis mon Bijou est si joli, si gracieux, si gentil, si précieux, me venant de Lili ! Un chien, c’est si riant, si caressant, si tendre, si à nous ! Je crois que je pleurerai, mais ce sera ici dans ma chambrette où se passent mes secrets.</p>
             <p>« Une de mes amies demandait une fois des prières pour son chien malade ; je me moquai d’elle et trouvai sa dévotion mal placée. <pb n="368"/>Aujourd’hui j’en ferais comme elle, je ne trouve pas cette prière si étrange : tant le cœur change l’esprit ! Je n’aimais pas Bijou alors ; ma conscience ne s’offusque pas d’intéresser le bon Dieu à la conservation d’une bête. Y a-t-il rien d’indigne dans ses créatures, et ne peut-on pas lui demander la vie de celles que nous aimons ? Je suis portée à le croire et qu’on peut, excepté le mal, tout demander à Dieu, au <hi rend="i">bon Dieu</hi>. Ce nom familier, ce nom populaire de la Divinité m’inspire toute sorte de confiance. Qu’attendre d’un être inaccessible, si loin, si loin de l’homme qu’on ne peut pas l’aimer en l’adorant ? et le cœur, cependant, veut aimer ce qu’il adore et adorer ce qu’il aime ; ce qui s’est fait quand Dieu s’est fait chair, quand il a habité parmi nous. De cette condescendance infinie nous est venue notre foi confiante. Il faut que je retourne auprès de mon pauvre Bijou qui, certes, m’a menée assez loin. »</p>
           </quote>
-          <p rend="right"><pb n="369"/>Le 1<hi rend="sup">er</hi> juillet.</p>
+          <dateline><pb n="369"/>Le 1<hi rend="sup">er</hi> juillet.</dateline>
           <quote>
             <p>« Il est mort, mon cher petit chien. Je suis triste et n’ai guère envie d’écrire. »</p>
           </quote>
-          <p rend="right">Le 2 juillet.</p>
+          <dateline>Le 2 juillet.</dateline>
           <quote>
             <p>« Je viens de faire mettre Bijou dans la garenne des buis, parmi les fleurs et les oiseaux. Là je planterai un rosier qui s’appellera le <hi rend="i">rosier du Chien</hi>. J’ai gardé les deux petites pattes de devant si souvent posées sur ma main, sur mes pieds, sur mes genoux. Qu’il était gentil, gracieux dans ses poses de repos ou de caresses ! Le matin, il venait au pied du lit me lécher les pieds en me levant, puis il allait en faire autant à papa. Nous étions ses deux préférés. Tout cela me revient à présent. Les objets passés vont au cœur ; papa le regrette autant que moi. Il aurait donné, disait-il, dix moutons pour ce cher joli petit chien. Hélas ! il faut que tout nous quitte, ou tout quitter. »</p>
           </quote>
@@ -1957,11 +1957,11 @@
           <quote>
             <p>« En entrant dans ma chambrette ce soir à dix heures, je suis frappée de la blanche lumière de la lune qui se lève ronde derrière <pb n="372"/>un groupe de chênes aux Mérix ; la voilà plus haut, plus haut, toujours plus haut, chaque fois que je regarde. Elle va plus vite dans le ciel que ma plume sur ce papier, mais je puis la suivre des yeux ; merveilleuse faculté de <hi rend="i">voir</hi>, si élevée, si étendue, si jouissante ! On jouit du ciel quand on veut ; la nuit même, de sur mon chevet, j’aperçois, par la fente d’un contrevent, une petite étoile qui s’encadre là vers les onze heures et me rayonne assez longtemps pour que je m’endorme avant qu’elle soit passée ; je l’appelle aussi l’étoile du sommeil, et je l’aime. La pourrai-je voir à Paris ? Je pense que mes nuits et mes jours seront changés, et je n’y puis penser sans peine. Me tirer d’ici, c’est tirer Paule de sa grotte ; il faut bien que ce soit pour toi que je quitte mon désert, toi pour qui Dieu sait que j’irais au bout du monde. Adieu au clair de la lune, au chant des grillons, au <hi rend="i">glouglou</hi> du ruisseau ; j’avais de plus le rossignol naguère ; mais toujours quelque charme manque à nos charmes. À présent, plus rien qu’à Dieu, ma prière et le sommeil. »</p>
           </quote>
-          <p rend="right"><pb n="373"/>Le 9 août.</p>
+          <dateline><pb n="373"/>Le 9 août.</dateline>
           <quote>
             <p>« Dirais-tu ce qui me fait souffrir à présent en moi ? C’est cette petite reine Jeanne Gray, décapitée si jeune, si douce, si charmante, à qui je pense. »</p>
           </quote>
-          <p rend="right">Le 10 août.</p>
+          <dateline>Le 10 août.</dateline>
           <quote>
             <p>« Une compagne dans ma chambrette, une perdrix blessée à l’aile, mais bien leste encore, bien vive, bien gentille ; elle se coule comme un rat dans tous les coins de sa prison et se prive, s’accoutume à me voir, si bien qu’elle mange et boit à mes côtés. Je voudrais la porter à Charles.</p>
             <p>« Un peu de malaise m’a fait jeter sur ton lit, ce lit où tu as couché six mois dans la fièvre, où je t’ai vu si pâle, défait, mourant, d’où le bon Dieu t’a tiré par prodige. Tout cela s’est mis avec moi sur ce lit ; j’ai vu, revu, pensé, béni ; puis un petit sommeil et un rêve… »</p>
@@ -1975,18 +1975,18 @@
           <head>XXVIII</head>
           <p>Il faut lire, quand Maurice se marie, son extase de reconnaissance sur les cadeaux de noces venus des Indes, que sa belle-sœur lui envoie. — « Voilà pourtant ce qui nous arrive de Gaillac par le messager ; j’ajoute encore que ton frère me rapporte une perdrix qu’il a tuée et deux pauvres cailles blessées… Les souffrants sont pour moi et l’ont toujours été ; étant enfant, je m’emparais de tous les petits poulets blessés ; faire du bien, soulager, est la moelle du cœur d’une femme. »</p>
           <p>Suivons cette veine de gaieté au mariage de son frère.</p>
-          <p rend="right"><pb n="376"/>Le 20 août, à 10 heures du soir.</p>
+          <dateline><pb n="376"/>Le 20 août, à 10 heures du soir.</dateline>
           <quote>
             <p>« C’est trop joli, ce que je vois, pour ne pas te le dire : nos demoiselles, là-bas, le long du ruisseau, chantant, riant, se montrant çà et là sous des touffes d’arbres comme des nymphes de nuit, à la clarté d’un feu d’allumettes que fait Jeannot, leur fanal courant : c’est la pêche aux écrevisses, plaisir qu’Érembert a voulu donner à ces jeunes filles que tout amuse. J’ai mieux aimé être ici à les voir faire et te le dire. Je les entends rire et toujours rire ; cet âge est une joie permanente. Pour moi, j’ai besoin de repos, de me coucher au lieu d’errer sur le frais gazon d’un ruisseau. Adieu, Maurice ; nous avons bien parlé de toi en montrant les cadeaux de noce. Je ne voudrais pas te quitter, mais de force. Il y aurait de quoi passer la nuit ici à décrire ce qui se voit, s’entend, dans ma délicieuse chambrette, ce qui vient m’y visiter, de petits insectes, noirs comme la nuit, de petits papillons mouchetés, tailladés, volant <pb n="377"/>comme des fous autour de ma lampe. En voilà un qui brûle, en voilà un qui part, en voilà un qui vient, qui revient, et sur la table quelque chose comme un grain de poussière qui marche. Que d’habitants dans ce peu d’espace ! Un mot, un regard à chacun, une question sur leur famille, leur vie, leur contrée, nous mènerait à l’infini ; il vaut mieux faire ma prière ici devant ma fenêtre, devant l’infinité du ciel. »</p>
           </quote>
         </div>
         <div>
           <head>XXIX</head>
-          <p rend="right">Le 22 août.</p>
+          <dateline>Le 22 août.</dateline>
           <quote>
             <p>« M<hi rend="sup">me</hi> et M. de Faramond, une lettre de Louise, hier une d’Antoinette, plaisir et bonheur. Demain, je pars avec ces demoiselles. Adieu, cahier ; mais je le prendrai peut-être pour me trouver avec toi. »</p>
           </quote>
-          <p rend="right"><pb n="378"/>Le 25 août.</p>
+          <dateline><pb n="378"/>Le 25 août.</dateline>
           <quote>
             <p>« Oh ! les vieux châteaux, avec leurs grandes salles, leurs meubles antiques, leurs larges fenêtres d’où l’on voit tout le ciel, les portraits de belles dames et de grands seigneurs, cela fait je ne sais quel plaisir à voir, à s’y voir errant de chambre en chambre. Oh ! j’aime les vieux châteaux, et je me complais depuis un jour dans cette jouissance. C’est de Montels que je t’écris, dans une chambre écartée où j’ai, par bonheur, trouvé de l’encre ; j’avais oublié d’en prendre, et c’était grande privation de ne pouvoir rien tracer de tout ce qui se peint en moi dans cette demeure de mon goût. Je m’y plairais toujours, d’autant qu’à chaque endroit ce sont des souvenirs d’enfance, et tu sais comme ce passé fait plaisir. J’avais neuf ans quand je vins à Montels. En arrivant j’ai reconnu l’église sous son grand ormeau où j’allais sauter à l’ombre, puis la grande cour et puis la petite avec son puits, la porte à vitres du salon, et, dans ce salon, les grandes belles <pb n="379"/>dames que j’aimais tant à voir ; une à côté d’un capucin en méditation qui fait contraste, chose que je n’avais pas tant remarquée qu’à présent. Dans l’enfance, les effets de réflexion touchent peu. Nous sortons, nous courons. »</p>
           </quote>
@@ -1999,7 +1999,7 @@
         </div>
         <div>
           <head>XXXI</head>
-          <p rend="right"><pb n="381"/>Le 27 avril 1839.</p>
+          <dateline><pb n="381"/>Le 27 avril 1839.</dateline>
           <quote>
             <p>« Il fut un temps, il y a quelques armées, où la pensée d’écrire à un poète, à un grand nom, m’aurait ravie. Si, quand je lisais <hi rend="i">Prascovie</hi> ou <hi rend="i">le Lépreux</hi>, l’espoir d’en voir l’auteur ou de lui parler m’était venu, j’en aurais eu des enthousiasmes de bonheur. Ô jeunesse ! Et maintenant j’ai vu, écrit et parlé sans émotion, de sang-froid et sans plaisir, ou que bien peu, celui de la curiosité<note resp="author"><hi rend="i">Erreur</hi> (Ms.)</note>, le moindre, le dernier dans l’échelle des sensations. Curiosité encore, il faut le dire, un peu décharmée, étonnée seulement de ne voir rien d’étonnant. Un grand homme ressemble tant aux autres hommes ! Aurais-je cru cela, et qu’un Lamartine, un de Maistre, n’eussent pas quelque chose de plus qu’humain. <pb n="382"/>J’avais cru ainsi dans ma naïveté au Cayla, mais Paris m’a ôté cette illusion et bien d’autres. Voilà le mal de voir et de vivre, c’est de laisser toutes les plus jolies choses derrière. »</p>
           </quote>
@@ -2007,11 +2007,11 @@
         <div>
           <head>XXXII</head>
           <p>La pensée de l’état de son frère devenu sa propre pensée la suit toujours. On assiste par ce journal à cette permanence du sentiment.</p>
-          <p rend="right">Le 22 mai.</p>
+          <dateline>Le 22 mai.</dateline>
           <quote>
             <p>« Si jamais tu lis ceci, mon ami, tu auras l’idée d’une affection permanente, ce quelque chose pour quelqu’un qui vous occupe au coucher, au lever, dans le jour et toujours, qui fait tristesse ou joie, mobile et centre de l’âme. — En lisant un livre de géologie, j’ai rencontré un éléphant fossile découvert dans la Laponie, et une pirogue déterrée dans l’île des Cygnes, en creusant <pb n="383"/>les fondations du pont des Invalides. Me voilà sur l’éléphant, me voilà dans la pirogue, faisant le tour des mers du Nord et de l’île des Cygnes, voyant ces lieux du temps de ces choses : la Laponie chaude, verdoyante et peuplée, non de nains, mais d’hommes beaux et grands, de femmes s’en allant en promenade sur un éléphant, dans ces forêts, sous ces monts pétrifiés aujourd’hui ; et l’île des Cygnes, blanche de fleurs, et de leur duvet, oh ! que je la trouve belle ! Et ses habitants, qui sont-ils ? que font-ils dans ce coin du globe ? Descendant comme nous de l’exilé d’Éden, connaissent-ils sa naissance, sa vie, sa chute, sa lamentable et merveilleuse histoire ; cette Ève pour laquelle il a perdu le ciel, tant de malheur et de bonheur ensemble, tant d’espérances dans la foi, tant de larmes sur leurs enfants, tant et tant de choses que nous savons, que savait peut-être avant nous ce peuple dont il ne reste qu’une planche ? Naufrages de l’humanité que Dieu seul connaît, dont il a caché les débris dans les profondeurs de la terre, comme pour les dérober à notre curiosité ! <pb n="384"/>S’il en laisse voir quelque chose, c’est pour nous apprendre que ce globe est un abîme de malheurs, et que ce qu’on gagne à remuer ses entrailles, c’est d’y découvrir plus de cimetières. La mort est au fond de tout, et on creuse toujours comme qui cherche l’immortalité ! »</p>
           </quote>
-          <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+          <signed><hi rend="sc">Lamartine</hi>.</signed>
           <trailer> (<hi rend="i">La suite au prochain entretien.</hi>)</trailer>
         </div>
       </div>
@@ -2026,41 +2026,41 @@
           <p>Elle continue à lui écrire dans l’autre vie.</p>
           <p>Car, dit-elle, en m’empruntant ces deux vers :</p>
           <quote>
-            <l><pb n="386"/>…Où l’éternité réside</l>
+            <l><pb n="386"/>… Où l’éternité réside</l>
             <l>On retrouve jusqu’au passé !</l>
             <p>« Oh ! que nous avons prié ce matin sur ta tombe ! moi, ta femme, ton père et tes sœurs ! »</p>
           </quote>
           <p>Souvenir de l’enfance du mort.</p>
-          <p rend="right">Le 4 août.</p>
+          <dateline>Le 4 août.</dateline>
           <quote>
             <p>« À pareil jour vint au monde un frère que je devais bien aimer, bien pleurer, hélas ! ce qui va souvent ensemble. J’ai vu son cercueil dans la même chambre, à la même place où, toute petite, je me souviens d’avoir vu son berceau, quand on m’amena de Gaillac, où j’étais, pour son baptême. Ce baptême fut pompeux, plein de fête, plus qu’aucun autre de nous, marqué de distinction. Je jouai beaucoup et je repartis le lendemain, aimant fort ce petit enfant qui venait de naître. J’avais cinq ans. Deux ans après je revins, lui portant <pb n="387"/>une robe que je lui avais faite. Je lui mis sa robe et le menai par la main le long de la garenne du nord, où il fit quelques pas tout seul, les premiers, ce que j’allai annoncer en grande joie à ma mère : “Maurice, Maurice a marché seul ! ” Souvenir qui me vient tout mouillé de larmes. »</p>
           </quote>
-          <p rend="right">Le 6 août.</p>
+          <dateline>Le 6 août.</dateline>
           <quote>
             <p>« Journée de prières et de pieuse consolation : pèlerinage de ton ami, le saint abbé de Rivières, à Andillac, où il a dit la messe, où il est venu prier avec tes sœurs près de ta tombe. Oh ! que cela m’a touchée ; que j’ai béni dans mon cœur ce pieux ami agenouillé sur tes restes, dont l’âme, par-delà ce monde, soulageait la tienne souffrante, si elle souffre ! Maurice, je te crois au ciel. Oh ! j’ai cette confiance, que tes sentiments religieux me donnent, que la miséricorde de Dieu m’inspire. Dieu si bon, si compatissant, si aimant, si Père, n’aurait-il pas eu pitié et tendresse pour un fils revenu à lui ? Oh ! il y a trois <pb n="388"/>ans qui m’affligent ; je voudrais les effacer de mes larmes. Mon Dieu, tant de supplications ont été faites ! Mon Dieu, vous les avez entendues, vous les aurez exaucées. Ô mon âme, pourquoi es-tu triste et pourquoi me troubles-tu ? »</p>
           </quote>
-          <p rend="right">Le 13 août.</p>
+          <dateline>Le 13 août.</dateline>
           <quote>
             <p>« Besoin d’écrire, besoin de penser, besoin d’être seule, non pas seule, avec Dieu et toi. Je me trouve isolée au milieu de tous. Ô solitude vivante, que tu seras longue !</p>
           </quote>
-          <p rend="right">Le 17 août.</p>
+          <dateline>Le 17 août.</dateline>
           <quote>
             <p>« Commencé à lire les <hi rend="i">Saints Désirs de la mort</hi>, lecture de mon goût. Mon âme vit dans un cercueil. Oh ! oui, enterrée, ensevelie en toi, mon ami ; de même que je vivais en ta vie, je suis morte en ta mort. Morte à tout bonheur, à toute espérance ici-bas. J’avais <pb n="389"/>tout mis en toi, comme une mère en son fils ; j’étais moins sœur que mère. Te souviens-tu que je me comparais à Monique pleurant sur Augustin, quand nous parlions de mes afflictions pour ton âme, cette chère âme dans l’erreur ? Que j’ai demandé à Dieu son salut, prié, supplié ! Un saint prêtre me dit : “Votre frère reviendra.” Oh ! il est revenu, et puis il m’a quittée pour le ciel, pour le ciel, j’espère. Il y a eu des signes évidents de grâce, de miséricorde dans cette mort. Mon Dieu, j’ai plus à vous bénir qu’à me plaindre. Vous en avez fait un élu par les souffrances qui rachètent, par l’acceptation et la résignation qui méritent, par la foi qui sanctifie. Oh ! oui, cette foi lui était revenue vive et profonde ; cela s’est vu dans des actes religieux, des prières, des lectures, et dans ce baiser à la croix fait avec tant d’âme et d’amour un peu avant de mourir ! Oh ! moi qui le voyais faire, qui le regardais tant dans ses dernières actions, j’ai dit, mon Dieu, j’ai dit qu’il s’en allait en paradis. Ainsi finissent ceux qui s’en vont dans la vie meilleure.</p>
             <p>« Maurice, mon ami, qu’est ce que le ciel, ce <pb n="390"/>lieu des amis ? Jamais ne me donneras-tu signe de là ? Ne t’entendrai-je pas, comme on dit que quelquefois on entend les morts ? Oh ! si tu le pouvais, s’il existe quelque communication entre ce monde et l’autre, reviens ! Je n’aurai pas peur un soir de voir une apparition, quelque chose de toi à moi qui étions si unis. Toi au ciel et moi sur la terre, oh ! que la mort nous sépare ! J’écris ceci à la chambrette, cette chambrette tant aimée où nous avons tant causé ensemble, rien que nous deux. Voilà ta place et là la mienne. Ici était ton portefeuille si plein de secrets de cœur et d’intelligence, si plein de toi et de choses qui ont décidé de ta vie. Je le crois, je crois que les événements ont influé sur ton existence. Si tu étais demeuré ici, tu ne serais pas mort. <hi rend="i">Mort</hi> ! terrible et unique pensée de ta sœur. »</p>
           </quote>
-          <p rend="right">Le 20 août.</p>
+          <dateline>Le 20 août.</dateline>
           <quote>
             <p>« Hier allée à Cahuzac entendre la messe pour toi en union de celle que le prince de <pb n="391"/>Hohenlohe offrait en Allemagne pour demander à Dieu ta guérison, hélas ! demandée trop tard. Quinze jours après ta mort, la réponse est venue m’apporter douleurs au lieu d’espérance. Que de regrets de n’avoir pas pensé plus tôt à ce moyen de salut, qui en a sauvé tant d’autres ! C’est sur des faits bien établis que j’avais eu recours au saint thaumaturge, et je croyais tant au miracle ! Mon Dieu, j’y crois encore, j’y crois en pleurant. Maurice, un torrent de tristesse m’a passé sur l’âme aujourd’hui. Chaque jour agrandit ta perte, agrandit mon cœur pour les regrets. Seule dans le bois avec mon père, nous nous sommes assis à l’ombre, parlant de toi. Je regardais l’endroit où tu vins t’asseoir il y a deux ans, le premier jour, je crois, où tu fis quelques pas dehors. Oh ! quel souvenir de maladie et de guérison ! Je suis triste à la mort. Je voudrais te voir. Je prie Dieu à tout moment de me faire cette grâce. Ce ciel, ce ciel des âmes, est-il si loin de nous, le ciel du temps de celui de l’éternité ? Ô profondeur ! ô mystères de l’autre vie qui nous sépare ! Moi qui étais si en peine sur lui, qui cherchais <pb n="392"/>tant à tout savoir, où qu’il soit maintenant, c’est fini. Je le suis dans les trois demeures, je m’arrête aux délices, je passe aux souffrances, aux gouffres de feu. Mon Dieu, mon Dieu, non ! Que mon frère ne soit pas là, qu’il n’y soit pas ! Il n’y est pas ; son âme, l’âme de Maurice parmi les réprouvés !… Horrible crainte, non ! Mais au purgatoire où l’on souffre, où s’expient les faiblesses du cœur, les doutes de l’âme, les demi-volontés au mal. Peut-être mon frère est là qui souffre et nous appelle dans les gémissements comme il faisait dans les souffrances du corps : “Soulagez-moi, vous qui m’aimez.” Oui, mon ami, par la prière. Je vais prier ; je l’ai tant fait et le ferai toujours. Des prières, oh ! des prières pour les morts, c’est la rosée du purgatoire.</p>
             <p>« Sophie m’a écrit, cette Sophie, amie de Marie, qui m’aime en elle et vient me consoler. Mais rien d’humain ne console. Je voudrais aller en Afrique porter ma vie à quelqu’un, m’employer au salut des Arabes dans l’établissement de M<hi rend="sup">me</hi> Vialar. Mes jours ne me sembleraient pas vides, inutiles comme <pb n="393"/>ils sont. Cette idée de cloître qui s’en était allée, qui s’était retirée devant toi, me revient.</p>
             <p>« Le rosier, le petit rosier des Coques, a fleuri. Que de tristesses, de craintes, de souvenirs épanouis avec ces fleurs, renfermés dans ce vase donné par Marie, emporté dans notre voyage, avec nous dans la voiture de Tours à Bordeaux, de là ici ! Ce rosier te faisait plaisir ; tu te plaisais à le voir, à penser d’où il venait. Je voyais cela et comme étaient jolis ces petits boutons et cette petite verdure. »</p>
           </quote>
-          <p rend="right">Le 22 août.</p>
+          <dateline>Le 22 août.</dateline>
           <quote>
             <p>« Mis au doigt la bague antique que tu avais prise et mise ici il y a deux ans, cette bague qui nous avait tant de fois fait rire quand je te disais : “Et la bague ? ” Oh ! qu’elle m’est triste à voir et que je l’aime ! Mon ami, tout m’est relique de toi.</p>
             <p>« <hi rend="i">La mort nous revêtira de toute chose.</hi> Consolante parole que je viens de méditer, qui <pb n="394"/>me revêt le cœur d’espérance, ce pauvre cœur dépouillé.</p>
             <p>« Comme j’aime ses lettres, ces lettres qui ne viennent pas ! Mon Dieu, recevez ce que j’en souffre et toutes les douleurs de cette affection. Voilà que cette âme m’attriste, que son salut m’inquiète, que je souffrirais le martyre pour lui mériter le ciel. Exaucez, mon Dieu, mes prières : éclairez, attirez, touchez cette âme si faite pour vous connaître et vous servir ! Oh ! quelle douleur de voir s’égarer de si belles intelligences, de si nobles créatures, des êtres formés avec tant de faveur, où Dieu semble avoir mis toutes ses complaisances comme en des fils bien-aimés, les mieux faits à son image ! Ah ! qu’ils sont à plaindre ! que mon âme souvent les pleure avec Jésus venu pour les sauver ! Je voudrais le salut de tous, que tous profitent de la rédemption qui s’étend à tout le genre humain. Mais le cœur a ses élus, et pour ceux-là on a cent fois plus de désirs et de crainte. Cela n’est pas défendu. Jésus, n’aviez-vous pas votre Jean bien-aimé, dont les apôtres disaient que, par amour, vous feriez <pb n="395"/>qu’il ne mourrait pas ? Faites qu’ils vivent toujours, ceux que j’aime, qu’ils vivent de la vie éternelle ! Oh ! c’est pour cela, pas pour ici que je les aime. À peine, hélas ! si l’on s’y voit. Je n’ai fait que l’apercevoir ; mais l’âme reste dans l’âme. »</p>
           </quote>
-          <p rend="right">Le 25 août.</p>
+          <dateline>Le 25 août.</dateline>
           <quote>
             <p>« Tristesse et communion ; pleuré en Dieu ; écrit à ton ami ; lu Pascal, l’étonnant penseur. J’ai recueilli cette pensée sur l’amour de Dieu, qu’on aime sans le connaître : <hi rend="i">Le cœur a ses raisons que la raison ne comprend pas.</hi> Bien souvent j’ai senti cela. »</p>
           </quote>
@@ -2068,15 +2068,15 @@
         <div>
           <head>II</head>
           <p>Et comme elle désire que toute la nature en convulsion s’associe par un mouvement désordonné à la convulsion de sa douleur !</p>
-          <p rend="right"><pb n="396"/>Le 26 août.</p>
+          <dateline><pb n="396"/>Le 26 août.</dateline>
           <quote>
             <p>« Quelques gouttes de pluie sur la terre ardente. Peut-être orage ce soir, ramassé par ces vapeurs. Qu’il tonne, qu’il passe des torrents d’eau et de vent ! je voudrais du bruit, des secousses, tout ce qui n’est pas ce calme affaissant. — Si j’écrivais sa vie, cette vie si jeune, si riche, si rare, si rattachée à tant d’événements, à tant d’intérêts, à tant de cœurs ! peu de vies semblables. »</p>
           </quote>
-          <p rend="right">Le 27 août.</p>
+          <dateline>Le 27 août.</dateline>
           <quote>
             <p>« Je ne sais, sans mon père, j’irais peut-être joindre les sœurs de Saint-Joseph, à Alger. Au moins ma vie serait utile. Qu’en faire à présent ? Je l’avais mise en toi, pauvre frère ! Tu me disais de ne pas te quitter. En effet, je suis bien demeurée près de toi pour te voir mourir. Un <hi rend="i">ecce homo</hi>, l’homme de douleur, tous les autres derrière celui-là. Souffrances <pb n="397"/>de Jésus, saints désirs de la mort, uniques pensées et méditations. Écrit à Louise comme à Marie ; il fait bon écrire à celle-là. Et lui, pourquoi ne pas écrire, ton frère ? Serait-il mort aussi ? Mon Dieu, que le silence m’effraye à présent ! pardonnez-moi tout ce qui me fait peur. L’âme qui vous est unie, qu’a-t-elle à craindre ? Ne vous aimerais-je pas, mon Dieu, unique et véritable et éternel amour ? Il me semble que je vous aime, comme disait le timide Pierre, mais pas comme Jean, qui s’endormait sur votre cœur. Divin repos qui me manque ! Que vais-je chercher dans les créatures ? Me faire un oreiller d’une poitrine humaine, hélas ! j’ai vu comme la mort nous l’ôte. Plutôt m’appuyer, Jésus, sur votre couronne d’épines. »</p>
           </quote>
-          <p rend="right">Le 28 août.</p>
+          <dateline>Le 28 août.</dateline>
           <quote>
             <p>« Saint Augustin aujourd’hui, ce saint qui pleurait si tendrement son ami et d’avoir aimé Dieu si tard. Que je n’aie pas ces deux regrets : oh ! que je n’aie pas cette douleur <pb n="398"/>à deux tranchants, qui me fendrait l’âme à la mort ! Mourir sans amour, c’est mourir en enfer. Amour divin, seul véritable. Les autres ne sont que des ombres.</p>
             <p>« Accablement, poids de douleurs ; essayons de soulever ce mont de tristesse. Que faire ? Oh ! que l’âme est ignorante ! Il faut s’attacher à Dieu, à celui qui soulève et le vaisseau et la mer. Pauvre nacelle que je suis sur un océan de larmes ! »</p>
@@ -2085,7 +2085,7 @@
         <div>
           <head>III</head>
           <p>La sérénité revient avec la lumière et revient seule.</p>
-          <p rend="right">Le 30 août.</p>
+          <dateline>Le 30 août.</dateline>
           <quote>
             <p>« Qu’il faisait bon ce matin dans la vigne, cette vigne aux raisins chasselas que tu aimais ! En m’y voyant, en mettant le pied où tu l’avais mis, la tristesse m’a rempli l’âme. Je me suis assise à l’ombre d’un cerisier, et là, pensant au passé, j’ai pleuré. Tout <pb n="399"/>était vert, frais, doré de soleil, admirable à voir. Ces approches d’automne sont belles, la température adoucie, le ciel plus nuagé, des teintes de deuil qui commencent. Tout cela, je l’aime, je m’en savoure l’œil, m’en pénètre jusqu’au cœur, qui tourne aux larmes. <hi rend="i">Vu seule</hi>, c’est si triste ! Toi, tu vois le ciel ! Oh ! je ne te plains pas. L’âme doit goûter d’ineffables ravissements…</p>
             <p>« Le plus grand malheur de la vie, c’est d’en rompre les relations.</p>
@@ -2094,11 +2094,11 @@
         </div>
         <div>
           <head>IV</head>
-          <p rend="right">Le 6 octobre.</p>
+          <dateline>Le 6 octobre.</dateline>
           <quote>
             <p>« À l’heure qu’il est, midi, premier dimanche d’octobre, j’étais à Paris, j’étais dans ses <pb n="400"/>bras, place Notre-Dame-des-Victoires. Un an passé, mon Dieu ! — Que je fus frappée de sa maigreur, de sa toux, moi qui l’avais rêvé mort dans la route ! — Nous allâmes ensemble à Saint-Sulpice à la messe, à une heure. Aujourd’hui à Lentin, dans la pluie, les poignants souvenirs et la solitude… Mais, mon âme, apaise-toi avec ton Dieu que tu as reçu dans cette petite église. C’est ton frère, ton ami, le bien-aimé souverain que tu ne verras pas mourir, qui ne te manquera jamais ni en cette vie ni en l’autre. Consolons-nous dans cette espérance, et qu’en Dieu on retrouve tout ce qu’on a perdu. Si je pouvais m’en aller en haut ; si je trouvais dans ma poitrine ce souffle qui vient le dernier, ce souffle des mourants qui porte l’âme au ciel, oh ! je n’aurais pas beaucoup de regrets à la vie. Mais la vie, c’est une épreuve, et la mienne est-elle assez longue ; ai-je assez souffert ? Quand on se porte au Calvaire, on voit ce que coûte le ciel. Oh ! bien des larmes, des déchirements, des épines, du fiel et du vinaigre. Ai-je goûté de tout cela ? Mon Dieu, ôtez-moi la plainte, soutenez-moi dans le silence <pb n="401"/>et la résignation au pied de la Croix, avec Marie et les femmes qui vous aimèrent. »</p>
           </quote>
-          <p rend="right">Le 19 octobre.</p>
+          <dateline>Le 19 octobre.</dateline>
           <quote>
             <p>« Trois mois aujourd’hui de cette mort, de cette séparation. Oh ! la douloureuse date, que néanmoins je veux écrire chaque fois qu’elle reviendra. Il y a pour moi une si attachante tristesse dans ce retour du 19, que je ne puis le voir sans le marquer dans ma vie, puisque je note ma vie. Eh ! qu’y mettrais-je maintenant, si je n’y mettais mes larmes, mes souvenirs, mes regrets de ce que j’ai le plus aimé ? C’est tout ce qui vous viendra, ô vous qui voulez que je continue ces cahiers, mon <hi rend="i">tous les jours</hi> au Cayla. J’allais cesser de le faire, il y avait trop d’amertume à lui parler dans la tombe ; mais puisque vous êtes là, frère vivant, et avez plaisir de m’entendre, je continue ma causerie intime ; je rattache à vous ce qui restait là, tombé brisé par la mort. <hi rend="i">J’écrirai pour</hi> <pb n="402"/><hi rend="i">vous comme j’écrivais pour lui.</hi> Vous êtes mon frère d’adoption, mon frère de cœur. Il y a là-dedans illusion et réalité, consolation et tristesse : Maurice partout. C’est donc aujourd’hui 19 octobre que je date pour vous et que je marque ce jour comme une époque dans ma vie, ma vie d’isolement, de solitude, d’inconnue qui s’en va vers quelqu’un du monde, vers vous à Paris, comme à peu près, je vous l’ai dit, je crois, si Eustoquie, de son désert de Bethléem, eût écrit à quelque élégant chevalier romain. Le contraste est piquant, mais ne m’étonne pas. Quelqu’un, une femme, me disait qu’à ma place elle serait bien embarrassée pour vous écrire. Moi, je ne comprends pas pourquoi je le serais. Rien ne me gêne avec vous, en vérité, pas plus qu’avec Maurice ; vous m’êtes lui au cœur et à l’intelligence. C’est à ce point de vue que se met notre intimité. »</p>
           </quote>
@@ -2106,7 +2106,7 @@
         <div>
           <head>V</head>
           <p><pb n="403"/>Elle continue d’écrire à M. d’Aurevilly qu’aimait son frère et dont elle a fait son frère d’adoption. Évidemment elle l’eût aimé, elle l’aima peut-être en mémoire de celui qu’elle avait perdu. L’amour est comme toutes les passions, il a des retours inattendus.</p>
-          <p rend="right">Le 20 octobre.</p>
+          <dateline>Le 20 octobre.</dateline>
           <quote>
             <p>« La belle matinée d’automne ! Un air transparent, un lever du jour radieusement calme, des nuages en monceaux, du nord au midi, des nuages d’un éclat, d’une couleur molle et vive, du coton d’or sur un ciel bleu. C’était beau, c’était beau ! Je regrettais d’être seule à le voir. J’ai pensé à notre peintre et ami, M. Augier, lui qui sent si bien et prend sitôt le beau dans son âme d’artiste. Et puis Maurice, et puis vous, je vous aurais voulu <pb n="404"/>voir tous sous mon ciel du Cayla ; mais devons-nous nous rencontrer jamais plus sur la terre ?</p>
             <p>« En allant au Posadou, j’ai voulu prendre une fleur très jolie. Je l’ai laissée pour le retour, et j’ai passé par un autre chemin. Adieu ma fleur. Quand j’y reviendrais, où serait-elle ? Une autre fois je ne laisserai pas mes fleurs en chemin. Que de fois cependant cela n’arrive-t-il pas dans la vie ?</p>
@@ -2128,41 +2128,41 @@
             <l>Aux coups redoublés des vents :</l>
             <l>Un vent qui vient de la tombe</l>
             <l>Moissonne aussi les vivants.</l>
-            <l>(<hi rend="sc">Lamartine</hi>.)</l>
+            <bibl>(<hi rend="sc">Lamartine</hi>.)</bibl>
             <p>« Il y a peu d’années nous disions cela ; nous récitions ces vers, Maurice et moi, errant sur des feuilles sèches, le jour des Morts. Mon Dieu, le voilà tombé lui aussi, lui si jeune, le dernier né de la famille, que je comptais bien laisser en ce monde, entouré d’enfants qui m’auraient pleurée comme leur mère ! Au lieu de cela, c’est moi qui pleure ; c’est moi qui vois une tombe, où est renfermé tout ce que j’ai eu d’espérance, de bonheur en affection humaine. Oh ! que cela dépend de toutes choses et porte l’âme affligée loin de cette vie, vers le lieu où n’est pas la mort ! Prié, pleuré, écrit, rien autre chose aujourd’hui. Ô terrible fête des morts ! »</p>
           </quote>
         </div>
         <div>
           <head>VI</head>
           <p><pb n="409"/>Son amitié ambiguë pour M. d’Aurevilly se révèle en toute occasion et en toute circonstance.</p>
-          <p rend="right">Le 6 novembre.</p>
+          <dateline>Le 6 novembre.</dateline>
           <quote>
             <p>« Je n’ai pas écrit hier et n’écrirai pas de suite. Que feriez-vous de trois cent soixante-six de mes jours presque uniformes, à voir, un an durant, passer des flots pareils ? La diversion fait l’intérêt des yeux et de l’esprit, car nous ne nous plaisons qu’en curiosité. Où il n’y a pas de nouveau, on s’ennuie. Il y a eu tels jours d’immobilité où j’ai souhaité la foudre. Que serait donc pour vous mon calme perpétuel ? car, excepté ce qui me vient du cœur ou monte à la tête, rien ne fait mouvement dans ma vie.</p>
             <p><pb n="410"/>« Dans ce moment, je rentre d’une petite promenade au soleil, et rien ne bouge autour de moi, que quelques mouches qui bourdonnent à l’air chaud. Seule au grand monastère désert. Ce profond et complet isolement me fait vivre une heure comme ont vécu des années les ermites, hommes et femmes, ces âmes retirées du monde. Sans soins matériels, sans parole qu’intérieure, sans sentiments que d’intelligence, sans vie que celle de l’âme : il y a dans ce dégagement une liberté pleine de jouissances, un bonheur inconnu, que je crois bien que pour faire durer on puisse aller cacher à cent lieues du désert. Aussi en était-il qui quittaient la cour pour cela, comme saint Arsène et tant d’autres qui, ayant goûté des deux, ne voulurent pas retourner au monde. C’est que le monde occupe encore la vie, mais ne la remplit pas. »</p>
           </quote>
-          <p rend="right">Le 12 novembre.</p>
+          <dateline>Le 12 novembre.</dateline>
           <quote>
             <p>« Il fut un temps où je décrivais avec charme les moindres petites choses. Quatre pas dehors, <pb n="411"/>une course au soleil à travers champs ou dans les bois, me laissaient beaucoup à dire. Est-ce parce que je disais à Lui, et que le cœur fournit abondamment ? Je ne sais, mais, n’ayant plus le plaisir de lui faire plaisir, ce que je vois n’offre pas l’intérêt que j’y trouvais jadis. Cependant rien au dehors n’est changé, c’est donc moi au dedans. Tout me devient d’une même couleur triste, toutes mes pensées tournent à la mort. Ni envie ni pouvoir d’écrire. Qu’écrirais-je d’ailleurs qui vous fût bon, à vous à qui je voudrais tant de bien, à qui il est difficile d’en faire ?</p>
             <p>« Trouvé dans un livre une feuille de rose flétrie, qui sait depuis quand ? Je me le demande en revenant sur les printemps passés, sur les jours et les lieux où cette rose a fleuri ; mais rien ne revient de ces choses perdues. Ce n’est pas un malheur d’être une fleur sans date. Tout ce qui prend mystère a du charme. Cette feuille dans ce livre m’intéresse plus qu’elle n’eût pu faire sur sa rose et son rosier. J’en ai quitté de lire. Pour peu qu’on ait l’âme réfléchissante, il y a de quoi s’arrêter <pb n="412"/>à chaque instant et se mettre à penser sur ce qui se présente dans la vie. »</p>
           </quote>
-          <p rend="right">Le 14 novembre.</p>
+          <dateline>Le 14 novembre.</dateline>
           <quote>
             <p>« Revenue encore à ma solitude complète. Mon père est allé chercher quelques livres dans une bibliothèque voisine. Je ne sais ce qu’il apportera. J’ai demandé <hi rend="i">Notre-Dame de Paris</hi>, que jusqu’ici je n’avais pas voulu lire. Pourquoi le lirai-je à présent ? C’est que je me sens le cœur assez mort pour que rien ne lui puisse nuire ; qu’on dit qu’il y a des beautés là-dedans que j’ai envie de connaître, et qu’un homme de Dieu qui a du crédit sur moi m’a dit que je pouvais faire cette lecture, et que le mal est annulé par la façon de le voir. Le diable même, quand il déplaît, que peut-il ? Le rencontrer n’est pas le prendre. Peut-être serait-il mieux de rester dans l’ignorance de tout livre et de toute chose ; mais je ne me soucie pas non plus de savoir. Ce n’est pas pour m’instruire, c’est pour m’élever que je lis ; tout m’est échelle pour <pb n="413"/>le ciel, même ce petit cahier que j’attache à une pensée céleste. Dieu le connaît. Quand Dieu ne verrait pas tout, je lui ferais tout voir. Je ne saurais me passer de l’approbation divine en ma vie et mes affections, mais peu m’enquiers de celle des hommes, encore moins des femmes. »</p>
           </quote>
-          <p rend="right">Le 15 novembre.</p>
+          <dateline>Le 15 novembre.</dateline>
           <quote>
             <p>« Mon Dieu, mon Dieu, quel jour ! le jour de son mariage. À pareille heure, un an passé, nous étions à l’Abbaye-aux-Bois, lui, vous, moi, moi à côté de lui. Je viens d’une église aussi, et d’auprès de lui sur sa tombe. »</p>
           </quote>
-          <p rend="right">Le 16 novembre.</p>
+          <dateline>Le 16 novembre.</dateline>
           <quote>
             <p>« Plus rien mis hier après ces lignes. Il est des sentiments qui dépassent toute expression. Dieu sait dans quel abîme j’étais plongée et accablée des souvenances de noces. C’était lui et sa belle fiancée agenouillés devant <pb n="414"/>l’autel, le Père Buquet les bénissant et leur parlant d’avenir, la foule assistante, le chant de l’orgue, cette quête pour les pauvres où j’avais quelque embarras, la signature à la sacristie, tant de témoins de ce brillant contrat avec la mort. — La rencontre dehors d’un char funèbre ; le déjeuner à côté de vous où vous me disiez : “Que votre frère est beau ! ” où nous parlâmes tant de sa vie ; — la soirée, le bal où je dansai pour la première et dernière fois. Je dois à Maurice des choses uniques. Le plaisir de lui voir l’air content, d’être à sa fête, et au fond de cette joie des serrements de cœur, et cette horrible vision des cercueils autour du salon, — posés sur ces tabourets longs et drapés à franges d’argent. Oh ! que je fus glacée au sortir de leur chambre, en toilette avec des fleurs pour le bal, que cela me vînt ! J’en fermai les yeux. Journée, soirée si diversement mémorables, date de tant de douleurs, je n’en puis ôter mon âme. Je m’enfonce en toutes ces choses, et quand je songe à tout ce que j’avais mis de bonheur dans un être qui n’est plus maintenant qu’en souvenir, <pb n="415"/>j’en éprouve une inénarrable tristesse, et j’en apprends à ne faire fond sur aucune vie ni sur rien. Il y a un cercueil entre le monde et moi ; c’est fini du peu qui m’y pouvait plaire. J’ai des liens de cœur, plus aucun de bonheur, de fête. Maurice et moi nous nous tenions intérieurement par des rubans roses. Tout m’était riant en lui, tout me plaisait, jusqu’aux peines : mon Dieu ! mon Dieu ! avoir perdu cela ! que voulez-vous que j’aime à présent ? »</p>
           </quote>
-          <p rend="right">Le 17 novembre.</p>
+          <dateline>Le 17 novembre.</dateline>
           <quote>
             <p>« Belle journée radieuse, chaleureuse, un plein air de soleil. Cela ravive, fait du bien, tant à sentir qu’à jouir, qu’à admirer. Quoiqu’à présent je m’informe beaucoup moins de l’état du ciel qu’hélas ! il y a quelques mois, du temps du malade, je vois avec plaisir un beau jour, la seule jolie chose à voir à la campagne en novembre.</p>
             <p>« Ah ! hier au soir, belle surprise aussi de votre lettre. Je ne l’attendais pas sitôt, ni <pb n="416"/>presque si aimable, quoique ce ne soit pas surprenant ; mais toute distinction qui me touche me surprend toujours un peu. Je ne sais à quoi cela tient. Puis j’ai trouvé dans cette lettre des choses qui m’ont affligée, de ces chagrins chrétiens de l’âme pour une pauvre âme de frère, pour quelqu’un qui dit : <hi rend="i">Je ne prie pas.</hi> Dieu sait là-dessus ce que je pense, ce que je souffre. J’ai l’intérêt de la vie future de ceux que j’aime, et qui n’y croient pas, tant en croyance et tant à cœur, que, pour le leur procurer, je souffrirais avec joie le martyre. Ceci n’est pas une exagération, mais bien pris dans toute la raison et le sentiment de la foi. — Érembert, Marie qui arrivent ! »</p>
           </quote>
-          <p rend="right">Le 28 novembre.</p>
+          <dateline>Le 28 novembre.</dateline>
           <quote>
             <p>« Laissé enfermé depuis quinze jours. Que de choses dans cette lacune qui ne seront nulle part, pas même ici !… Repris pour noter une lettre de Marie, ma belle amie, qui tremble de me croire malade. Hélas ! non, <pb n="417"/>je ne souffre pas dans mon corps. Oh ! que je trouve inutile d’écrire ! »</p>
           </quote>
@@ -2170,7 +2170,7 @@
         <div>
           <head>VII</head>
           <p>Mille retours de sentiments consolés, graves, découragés, revenant en arrière, courant en avant, emportés, stagnants, soulevés, affaissés tour à tour, signalent cette période de sa vie.</p>
-          <p rend="right">Le 10 décembre.</p>
+          <dateline>Le 10 décembre.</dateline>
           <quote>
             <p>« Enfin pourrai-je écrire ? Que de fois j’ai pris la plume depuis huit jours, et la plume m’est tombée des doigts sans rien faire ! Il y a eu tant de tristesse dans mon âme, tant de secousses dans mon être ! Ô Dieu ! je semblais toucher à ma fin, à une sorte d’anéantissement moral. Que cet état est terrible ! Rien n’apaise, rien ne soutient : travail, repos, livres, hommes, tout est dégoût. On voudrait <pb n="418"/>mourir. Dans cette lutte, l’âme sans foi serait perdue, oh ! perdue, si Dieu ne se montre ; mais il ne manque pas, mais quelque chose d’inattendu vient d’en haut. »</p>
           </quote>
@@ -2208,7 +2208,7 @@
         </div>
         <div>
           <head>XI</head>
-          <p rend="right">Le 1<hi rend="sup">er</hi> juillet.</p>
+          <dateline>Le 1<hi rend="sup">er</hi> juillet.</dateline>
           <quote>
             <p>« J’entends la première cigale ; quel plaisir ! Je reçois un charmant billet de M. de Sainte-Beuve, cet homme exquis dont je reçois l’écriture vivante. »</p>
           </quote>
@@ -2217,7 +2217,7 @@
         <div>
           <head>XII</head>
           <p><pb n="425"/>La chambre s’égaye de deux nouveaux hôtes.</p>
-          <p rend="right">Le 28 juillet.</p>
+          <dateline>Le 28 juillet.</dateline>
           <quote>
             <p>« Deux petits oiseaux, deux compagnons de ma chambrette, les bienvenus, qui chanteront quand j’écrirai, me feront musique et accompagnement comme les pianos qui jouaient à côté de M<hi rend="sup">me</hi> de Staël quand elle écrivait. Le son est inspirateur ; je le comprends par ceux de la campagne, si légers, si aériens, si vagues, si au hasard, et d’un si grand effet sur l’âme. Que doit-ce être d’une harmonie de science et de génie, sur qui comprend cela, sur qui a reçu une organisation musicale, développée par l’étude et la connaissance de l’art ? Rien au monde n’est plus puissant sur l’âme, plus pénétrant. Je le comprends, mais ne le sens pas. Dans ma profonde ignorance, j’écouterais <pb n="426"/>avec autant de plaisir un grillon qu’un violon. Les instruments n’agissent pas sur moi ou bien peu. Il faut que j’y comprenne comme à un air simple ; mais les grands concerts, mais les opéras, mais les morceaux tant vantés, langue inconnue ! Quand je dis opéras, je n’en ai jamais ouï, seulement entendu des ouvertures sur les pianos. Parmi les fruits défendus de ce paradis de Paris, il est deux choses dont j’ai eu envie de goûter : l’Opéra et M<hi rend="sup">lle</hi> Rachel, surtout M<hi rend="sup">lle</hi> Rachel, qui dit si bien Racine, dit-on. Ce doit être si beau ! »</p>
           </quote>
@@ -2229,7 +2229,7 @@
             <p>« La prière me désaccable, une conversation, le grand air, les promenades dans les bois et <pb n="427"/>les champs. Ce soir, je me suis bien trouvée d’un repos sur la paille, au vent frais, à regarder les batteurs de blé, joyeuses gens qui toujours chantent. C’était joli de voir tomber les fléaux en cadence et les épis qui dansent, des femmes, des enfants, séparant la paille en monceaux, et le van qui tourne et vanne le grain qui se trie et tombe pur comme le froment de Dieu. Ces paisibles et riantes scènes font plaisir et plus de bien à l’âme que tous les livres de M. Hugo, quoique M. Hugo soit un puissant écrivain, mais il ne me plaît pas toujours. Je n’ai pas lu encore sa <hi rend="i">Notre-Dame</hi>, avec l’envie de la lire. Il est de ces désirs qu’on garde en soi. »</p>
           </quote>
           <p>Le lendemain, autre scène.</p>
-          <p rend="right">Sans date.</p>
+          <dateline>Sans date.</dateline>
           <quote>
             <p>« Huit jours de visites, de monde, de bruit, quelques conversations aimables, un épisode en ma solitude. C’est la saison où l’on vient nous voir, cette fois-ci c’était en foule des <hi rend="i">allons à la campagne</hi>, et la campagne est envahie, <pb n="428"/>le Cayla peuplé, bruyant, gai de jeunesse, la table entourée de convives inattendus, l’<hi rend="i">improvisé</hi> dispense de cérémonie. Mais nous n’en faisons pas, et qui vient nous voir ne doit s’attendre qu’au gracieux accueil, le meilleur qu’il nous soit possible dans la plus simple expression de forme. Ainsi nos salons tout blancs, sans glace ni trace de luxe aucun ; la salle à manger avec un buffet et des chaises, deux fenêtres donnant sur le bois du nord ; l’autre salon à côté avec un grand et large canapé ; au milieu une table ronde, des chaises de paille, un vieux fauteuil en tapisserie où s’asseyait mon frère, deux portes vitrées sur la terrasse ; cette terrasse sur un vallon vert où coule le ruisseau ! »</p>
           </quote>
@@ -2238,7 +2238,7 @@
         <div>
           <head>XIV</head>
           <p>Un autre devoir de famille la rappelle à Paris : lisez ses apprêts de voyage.</p>
-          <p rend="right"><pb n="429"/>Le 11 novembre.</p>
+          <dateline><pb n="429"/>Le 11 novembre.</dateline>
           <quote>
             <p>« La lune se lève à l’horizon où j’ai si souvent regardé : le vent souffle à ma fenêtre comme je l’ai si souvent entendu ; je vois ma chambrette, ma table, mes livres, mes écritures, la tapisserie et les saintes images, tout ce que j’ai vu si souvent et que je ne verrai plus bientôt. Je pars. Oh ! que je regrette tout ce que je laisse ici, et surtout mon père, et ma sœur, et mon frère ! Qui sait quand je les reverrai ? qui sait si je les reverrai jamais ? On court tant de dangers en voyage ! Cette route de Paris est si triste pour moi ! Il me semble que le malheur est au bout. Lequel maintenant ? Je l’ignore. »</p>
           </quote>
@@ -2249,12 +2249,12 @@
         <div>
           <head>XV</head>
           <p>Elle passe quelques heureux jours en Berry, au château de Saint-Martin, chez son amie, M<hi rend="sup">me</hi> de Maistre.</p>
-          <p rend="right">À Saint-Martin.</p>
+          <dateline>À Saint-Martin.</dateline>
           <quote>
             <p>« Lire, écrire, que faire dans ma chambre si bien disposée pour toutes choses de mon goût ? Un bon feu, des livres, une table avec encre, plume et papier, moyens et attraits. Écrivons. Mais quoi ? Eh ! ce petit Journal qui continuera ma pensée et ma vie, cette vie maintenant hors de son cours ordinaire, comme si notre ruisseau se trouvait transporté <pb n="431"/>sur les bords de la Loire, cette Loire, ce pays que je ne devais jamais voir, tant j’en étais née loin. Mais Dieu m’a portée ici. Je ne puis m’empêcher de voir la Providence claire comme un plein jour dans certain événements de la vie, non qu’elle ne soit en tous, mais plus ou moins manifestée.</p>
             <p>« Avec un peu plus de goût pour écrire j’aurais pu laisser ici un long mémorandum de mon séjour à Saint-Martin, si beau, si grand dans son parc et ses belles eaux. J’ai vu peu de lieux aussi distingués, aussi remarquables de nature et d’art. On voit que Lenôtre a passé par là. Je vais partir avec les souvenirs les plus agréables et les plus doux, tant du dedans que du dehors : famille charmante où je suis adoptée, où j’ai reçu les témoignages les plus touchants d’affection, affection si vraie puisqu’elle est désintéressée. Que leur revient-il de m’aimer ? Rien que d’être aimés à leur tour et de se faire bénir devant Dieu. Oh ! que cela me serait doux si je ne pensais pas à Maurice, à qui je dois ce bonheur dont je jouis après sa mort ! J’ai voulu voir sa chambre ; je ne fais pas un pas, <pb n="432"/>à la chapelle, dans le jardin, au salon, qu’il n’ait fait aussi. Hélas ! nous ne faisons que passer sur le pas des morts. »</p>
           </quote>
-          <p rend="right">Dernier décembre.</p>
+          <dateline>Dernier décembre.</dateline>
           <quote>
             <p>« Mon Dieu, que le temps est quelque chose de triste, soit qu’il s’en aille ou qu’il vienne ! et que le saint a raison qui a dit : “Jetons nos cœurs à l’éternité ! ” »</p>
           </quote>
@@ -2294,8 +2294,7 @@
           <p>Mais d’où vient ce style simple, pur et expressif comme l’émotion elle-même ? il vient <pb n="446"/>comme il est venu à M<hi rend="sup">me</hi> de Sévigné, à Gerson ; il vient, sans art, du cœur écouté seul par la jeune fille qui s’écrit elle-même devant le miroir de ses pensées. Nous avons vu souvent de grands peintres faire leur propre portrait en se contemplant devant une glace : mais la peinture ne peut rendre l’image du peintre que dans une seule expression, une seule attitude, tandis que la plume peint la nature morale dans toute sa mobilité, dans les mille émotions secrètes que la vie donne à ceux qui pensent, qui sentent, qui jouissent, qui souffrent, qui pleurent ou qui prient. Quelle différence ! Le portrait par la peinture, c’est un seul jour ; le portrait par la plume, c’est la vie entière ! M<hi rend="sup">lle</hi> de Guérin, c’est l’enfance et la maturité, la solitude et le monde, la vitalité et la mort, et après la mort l’espérance immortelle qui ressuscite tout ! Son livre est le voile pudique de l’âme, levé en présence de son Créateur par la sainte impudeur de la confession. Cela devait être brûlé : un heureux oubli de la mourante a tout laissé, l’amitié édifiée a tout trahi. Prêtez l’oreille et écoutez ces mystères de l’âme. Rien ne vous <pb n="447"/>scandalisera ; c’était une femme, mais c’était une sainte ! Vous vous sanctifierez en la lisant.</p>
           <p>Quant au style, après ce que nous vous avons si abondamment cité, nous n’avons rien à vous dire. C’est la nature elle-même ! Figurez-vous tout ce qu’il y a de naïf dans l’enfant, d’aimant dans la jeune vierge, de tendre dans la fille, de dévoué dans la sœur, d’affectueux dans l’amie, de religieux dans le sentiment, de pittoresque dans le coup d’œil, de délicat dans la perception, de nouveau dans le sens des choses morales et des paysages, sortant sans prétention, sans étude et sans effort, pendant vingt ans, d’une âme qui s’oublie elle-même pour se révéler à son Dieu, et qui trouve des accents, des images, des soupirs, des hymnes, comme l’éclair trouve son chemin dans les nuages, et comme l’abeille trouve son parfum dans les bouquets du printemps sur l’océan de fleurs de la prairie : voilà ce style !</p>
           <p>Ce n’est pas une forme de l’art, c’est une émanation de la vie qui monte à l’âme et qui l’enivre de charme et de sainteté, d’un charme et d’une sainteté tellement fondus ensemble qu’on ne peut pas discerner ce qui est amour <pb n="448"/>divin de ce qui serait amour terrestre, ce qui serait délire de ce qui est édification, et qu’en fermant un moment le livre pour le rouvrir bientôt après à une autre note, on ne peut en détacher ni son cœur ni son imagination : oui, voilà ce style ! Mille fois au-dessus de l’admiration, ce qu’il provoque, c’est l’étonnement d’abord, puis c’est l’amitié. Il est impossible de lire M<hi rend="sup">lle</hi> de Guérin sans se dire à soi-même : « C’est mon amie ! » Son âme est de même famille que la mienne, et, puisque Dieu m’a permis de la connaître dans cette confidence, cette âme ne me quittera plus jusqu’à mon dernier jour.</p>
-          <p/>
-          <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+          <signed><hi rend="sc">Lamartine</hi>.</signed>
           <label rend="b">FIN DU TOME QUINZIÈME.</label>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <date when="1888">1888</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -1663,7 +1663,7 @@
         <quote>
           <l>Mon voyage dépeint</l>
           <l>Vous sera d’un plaisir extrême.</l>
-          <l><pb n="85"/>Je dirai : « J’étais là ; telle chose m’advint : »</l>
+          <l><pb n="85"/>Je dirai : « J’étais là ; telle chose m’advint » :</l>
           <l>Vous y croirez être vous-même.</l>
         </quote>
         <p>Il est vrai qu’il dit cela à un ami, tandis que les faiseurs de mémoires écrivent pour
@@ -3713,7 +3713,8 @@
           notée elle-même d’incivisme. C’eût été là une généreuse folie, et M. de Florian n’était
           capable de folies d’aucune sorte. Il professait volontiers avec Parny que :</p>
         <quote>
-          <p>    Une indifférence paisible <lb/>Est la plus sage des vertus.</p>
+          <l>Une indifférence paisible</l>
+          <l>Est la plus sage des vertus.</l>
         </quote>
         <p>Il était trop prudent pour n’être pas un peu égoïste et il estimait, lui aussi, que, dans
           une pareille époque, c’est assez de vivre, sans rien de plus. Madame Le Sénéchal, qui ne

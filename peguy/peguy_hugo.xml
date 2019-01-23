@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -58,7 +58,7 @@
         <date when="1910">1910</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -1290,7 +1290,7 @@
           <l/>
           <l rend="i">C’est pour ces morts, dont l’ombre est ici bienvenue,</l>
           <l rend="i">Que le haut Panthéon élève dans la nue,</l>
-          <l><pb n="69"/><hi rend="i">Au-dessus de Paris, la ville aux mille tours</hi>, </l>
+          <l><pb n="69"/><hi rend="i">Au-dessus de Paris, la ville aux mille tours</hi>,</l>
           <l rend="i">La reine de nos Tyrs et de nos Babylones,</l>
           <l rend="i">       Cette couronne de colonnes</l>
           <l rend="i">Que le soleil levant redore tous les jours !</l>
@@ -1420,7 +1420,7 @@
           <l rend="i">             Demain, c’est le sapin du trône,</l>
           <l rend="i">             Aujourd’hui, c’en est le velours !</l>
           <l/>
-          <l><pb n="74"/><hi rend="i">Demain, c’est le cheval qui s’abat blanc d’écume.</hi></l>
+          <l rend="i"><pb n="74"/>Demain, c’est le cheval qui s’abat blanc d’écume.</l>
           <l rend="i">Demain, ô conquérant, c’est Moscou qui s’allume,</l>
           <l rend="i">             La nuit, comme un flambeau.</l>
           <l rend="i">C’est votre vieille garde au loin jonchant la plaine,</l>
@@ -1446,9 +1446,7 @@
           <l rend="i">Sire, vous pouvez prendre, à votre fantaisie,</l>
           <l rend="i">L’Europe à Charlemagne, à Mahomet l’Asie ;</l>
           <l rend="i">Mais tu ne prendras pas demain à l’Éternel !</l>
-          <l/>
-          <l rend="center i">III</l>
-          <l/>
+          <label type="head">III</label>
           <l rend="i">Ô revers ! ô leçon ! — Quand l’enfant de cet homme…</l>
         </quote>
         <p rend="noindent">Nous avons appris cela en quatrième, sous l’excellent M. Doret, en leçon
@@ -1642,7 +1640,7 @@
           Théocrite. C’en était même devenu comme un mot technique. Lui Hugo, il n’hésite point. Il
           cite, il rapporte au courant de la plume :</p>
         <quote>
-          <l><hi rend="i">À vous</hi>, <hi rend="b">ombre</hi><hi rend="i"> légère</hi>, </l>
+          <l><hi rend="i">À vous</hi>, <hi rend="b">ombre</hi><hi rend="i"> légère</hi>,</l>
         </quote>
         <p rend="noindent">Et tout de suite ça n’est plus ça du tout. Ça n’est plus, non seulement
           ça n’est plus du temps, mais ça n’est plus de la race, ça n’est plus de rien. Tout tombe.
@@ -1865,7 +1863,7 @@
             Céphise</hi>.</p>
         <quote>
           <l rend="i">Ah ! que je crains, Madame, un calme si funeste !</l>
-          <l rend="i">Et qu’il vaudroit bien mieux … </l>
+          <l rend="i">Et qu’il vaudroit bien mieux …</l>
           <l/>
           <label type="speaker" rend="i">Hermione</label>
           <l rend="i">                                                 Fais-tu venir Oreste ?</l>
@@ -1893,7 +1891,7 @@
           <l rend="i">Je l’ai vu tout sanglant, au milieu des batailles,</l>
           <l rend="i">Se faire un beau rempart de mille funérailles.</l>
           <l/>
-          <l><pb n="92"/><hi rend="i">Qu’elle-même sur soi renverse ses murailles</hi>, </l>
+          <l><pb n="92"/><hi rend="i">Qu’elle-même sur soi renverse ses murailles</hi>,</l>
           <l rend="i">Et de ses propres mains déchire ses entrailles !</l>
         </quote>
         <p rend="noindent">Même les vers à rimes attendues :</p>
@@ -2080,7 +2078,7 @@
           <l rend="i">Et toi qui, tout sortant encor de la victoire,</l>
           <l rend="i">Regardes mes travaux du séjour de la gloire,</l>
           <l/>
-          <l><pb n="99"/><hi rend="i">Cher Néarque, pour vaincre un si fort ennemi</hi>, </l>
+          <l><pb n="99"/><hi rend="i">Cher Néarque, pour vaincre un si fort ennemi</hi>,</l>
           <l rend="i">Prête du haut du ciel la main à ton ami.</l>
           <l/>
           <l rend="i">Et c’est là que bientôt, voyant Dieu face à face,</l>
@@ -2187,7 +2185,7 @@
           wurtembergeoise. <hi rend="i">Février 1823</hi>, il avait vingt-cinq ans ; il n’y avait
           pourtant que quatorze ans :</p>
         <quote>
-          <l rend="center i">V</l>
+          <label type="head">V</label>
           <l rend="i">C’est moi qui me tairais ! Moi qu’enivrait naguère</l>
           <l rend="i">Mon nom saxon, mêlé parmi des cris de guerre !</l>
           <l rend="i">Moi, qui suivais le vol d’un drapeau triomphant !</l>
@@ -2510,9 +2508,9 @@
             autem genuit Zorobabel.</p>
           <p rend="i">Zorobabel autem genuit Abiud. Abiud autem genuit Eliacim. Eliacim autem genuit
             Azor.</p>
-          <p xml:lang="en" rend="i">Azor autem genuit Sadoc. Sadoc autem genuit Achim. Achim autem
+          <p xml:lang="eng" rend="i">Azor autem genuit Sadoc. Sadoc autem genuit Achim. Achim autem
             genuit Eliud.</p>
-          <p xml:lang="en" rend="i">Eliud autem genuit Eleazar. Eleazar autem genuit Mathan. Mathan
+          <p xml:lang="eng" rend="i">Eliud autem genuit Eleazar. Eleazar autem genuit Mathan. Mathan
             autem genuit Jacob.</p>
           <p><hi rend="sc">Jacob autem genuit Joseph virum Mariae, de qua natus est JESUS, qui
               vocatur</hi> CHRISTUS.</p>
@@ -2521,7 +2519,7 @@
               generationes quatuordecim ; et a transmigratione Babylonis usque ad Christum,
               generationes quatuordecim.</hi></p>
           <p/>
-          <p xml:lang="en" rend="i">Christi autem generatio sic erat :</p>
+          <p xml:lang="eng" rend="i">Christi autem generatio sic erat :</p>
         </quote>
         <p rend="noindent">C’est donc une génération charnelle, mais c’est une génération charnelle
           essentiellement chrétienne.</p>
@@ -2584,7 +2582,7 @@
             Joseph, qui fuit Heli, qui fuit Mathat,</p>
           <p rend="i">Qui fuit Levi, qui fuit Melchi, qui fuit Janne, qui fuit Joseph,</p>
           <p><pb n="120"/><hi rend="i">Qui fuit Mathathiae, qui fuit Amos, qui fuit Nahum, qui fuit
-              Hesli, qui fuit Nagge</hi>, </p>
+              Hesli, qui fuit Nagge</hi>,</p>
           <p rend="i">Qui fuit Mahath, qui fuit Mathathiae, qui fuit Semei, qui fuit Joseph, qui
             fuit Juda,</p>
           <p rend="i">Qui fuit Joanna, qui fuit Resa, qui fuit Zorobabel, qui fuit Salathiel, qui
@@ -2595,22 +2593,22 @@
             Levi,</p>
           <p><hi rend="i">Qui fuit Simeon, qui fuit Juda, qui fuit Joseph, qui fuit Jona, qui
               fuit</hi>
-            <hi rend="b">Eliakim</hi>, </p>
+            <hi rend="b">Eliakim</hi>,</p>
           <p><hi rend="b">Qui</hi>
             <hi rend="i">fuit Melea, qui fuit Menna, qui fuit Mathatha, qui fuit Nathan,</hi>
             <hi rend="b">qui fuit David</hi>,</p>
           <p><hi rend="b">Qui</hi><hi rend="i"> fuit Jesse, qui fuit Obed</hi>, <hi rend="b">qui
-              fuit Booz</hi><hi rend="i">, qui fuit Salmon, qui fuit Naasson</hi>, </p>
+              fuit Booz</hi><hi rend="i">, qui fuit Salmon, qui fuit Naasson</hi>,</p>
           <p rend="i">Qui fuit Aminadab, qui fuit Aram, qui fuit Esron, qui fuit Phares, qui fuit
             Judae,</p>
           <p><hi rend="b">Qui fuit Jacob, qui fuit Isaac, qui fuit Abrahae</hi><hi rend="i">, qui
-              fuit Thare, qui fuit Nachor</hi>, </p>
+              fuit Thare, qui fuit Nachor</hi>,</p>
           <p rend="i">Qui fuit Sarug, qui fuit Ragau, qui fuit Phaleg, qui fuit Heber, qui fuit
             Sale,</p>
           <p><hi rend="i">Qui fuit Caïnan, qui fuit Arphaxad</hi>, <hi rend="b">qui fuit Sem</hi>,
-              <hi rend="b">qui fuit Noë</hi><hi rend="i">, qui fuit Lamech</hi>, </p>
+              <hi rend="b">qui fuit Noë</hi><hi rend="i">, qui fuit Lamech</hi>,</p>
           <p><hi rend="b">Qui fuit Mathusale</hi>, <hi rend="b">qui fuit Henoch</hi><hi rend="i">,
-              qui fuit Jared, qui fuit Malaleel, qui fuit Caïnan</hi>, </p>
+              qui fuit Jared, qui fuit Malaleel, qui fuit Caïnan</hi>,</p>
           <p><hi rend="i">Qui fuit Henos,</hi>
             <hi rend="b">qui fuit Seth</hi><hi rend="i">, qui fuit Adam, qui fuit Dei.</hi></p>
         </quote>
@@ -3581,7 +3579,7 @@
           <l><pb n="164"/><hi rend="i">Soyez fiers ; vous avez fait autant que vos
             pères.</hi></l>
           <l><hi rend="i">Les droits d’un peuple entier</hi><hi rend="b">conquis par tant de
-              guerres</hi>, </l>
+              guerres</hi>,</l>
           <l rend="i">Vous les avez tirés tout vivants du linceul.</l>
           <l rend="i">Juillet vous a donné, pour sauver vos familles, …</l>
           <l/>
@@ -3688,7 +3686,7 @@
             transporter les cendres de Napoléon sous la colonne de la place Vendôme.</p>
           <p><pb n="168"/><hi rend="i">Après une courte délibération, la Chambre passe à l’ordre
               du jour.</hi>
-          </p>
+         </p>
           <p rend="i">               (Chambre des députés, séance du 7 octobre 1830.)</p>
         </quote>
         <p rend="noindent">C’est le poème</p>
@@ -3716,7 +3714,7 @@
           <l rend="i">                          Ô temps où des peuples sans nombre</l>
           <l rend="i">Attendaient, prosternés sous un nuage sombre,</l>
           <l rend="i">        Que le ciel eût dit oui !</l>
-          <l><pb n="169"/><hi rend="i">Sentaient trembler sous eux les États centenaires</hi>, </l>
+          <l><pb n="169"/><hi rend="i">Sentaient trembler sous eux les États centenaires</hi>,</l>
           <l rend="i">Et regardaient le Louvre entouré de tonnerres,</l>
           <l rend="i">        Comme un mont Sinaï !</l>
           <l/>
@@ -3803,7 +3801,7 @@
           <l><hi rend="b">Quand vous commanderez</hi>, <hi rend="i"> vous serez</hi>
             <hi rend="b">obéi.</hi></l>
           <l><hi rend="b">Ma vie est votre bien.</hi><hi rend="i"> Vous voulez le</hi>
-            <hi rend="b">reprendre</hi> : </l>
+            <hi rend="b">reprendre</hi> :</l>
           <l><hi rend="i">Vos ordres</hi>
             <hi rend="b">sans détour</hi><hi rend="i"> pouvoient se faire entendre.</hi></l>
           <l>D’un œil <hi rend="b">aussi content</hi>, <hi rend="i">d’un</hi>
@@ -3896,7 +3894,7 @@
         <quote>
           <l rend="i">Et déjà, d’Ilion présageant la conquête,</l>
           <l rend="i">D’un triomphe si beau je préparois la fête.</l>
-          <l><pb n="176"/><hi rend="i">Je ne m’attendais pas que pour le commencer</hi>, </l>
+          <l><pb n="176"/><hi rend="i">Je ne m’attendais pas que pour le commencer</hi>,</l>
           <l rend="i">Mon sang fût le premier que vous dussiez verser.</l>
           <l rend="i">  Non que la peur du coup dont je suis menacée</l>
           <l rend="i">Me fasse rappeler votre bonté passée.</l>
@@ -4525,7 +4523,7 @@
           ordinaire et en même temps, ensemble elle est déjà comme une prière extraordinaire ; elle
           est une prière de la terre, une prière ordinaire de la terre et en même temps elle n’est
           déjà plus une prière de la terre, elle est une prière de la terre et déjà elle est une
-          prière du ciel. Elle intervient, elle intercède au cœur même de ce tragique débat : </p>
+          prière du ciel. Elle intervient, elle intercède au cœur même de ce tragique débat :</p>
         <quote>
           <l rend="i">Je te suis odieuse après m’être donnée !</l>
           <l/>
@@ -4547,7 +4545,7 @@
           <l rend="i">J’y pleurerai pour vous l’excès de vos malheurs ;</l>
           <l rend="i">Mais si, dans ce séjour de gloire et de lumière,</l>
           <l rend="i">Ce Dieu tout juste et bon peut souffrir ma prière,</l>
-          <l><pb n="204"/><hi rend="i">S’il y daigne écouter un conjugal amour</hi>, </l>
+          <l><pb n="204"/><hi rend="i">S’il y daigne écouter un conjugal amour</hi>,</l>
           <l rend="i">Sur votre aveuglement il répandra le jour.</l>
           <l rend="i">   Seigneur, de vos bontés il faut que je l’obtienne ;</l>
           <l rend="i">Elle a trop de vertus pour n’être pas chrétienne :</l>
@@ -5893,7 +5891,7 @@
           toutes parts des inscriptions.</p>
         <p/>
         <p>Je suis, je reste votre dévoué</p>
-        <p rend="right">PÉGUY</p>
+        <signed>PÉGUY</signed>
       </div>
     </body>
   </text>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -43,7 +43,7 @@
         <date when="1906">1906</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -142,12 +142,12 @@
         <p>Demandons-nous d’abord jusqu’à quel point elle est agréable. Le charme n’est pas la beauté ; mais il en est au moins une condition, et même le premier degré.</p>
         <p>Sur ce point, tous les rêveurs sont unanimes : ils parlent de la rêverie comme ayant par elle-même un charme incomparable.</p>
         <quote>
-          <l>    Quel esprit ne bat la campagne ?</l>
-          <l>    Qui ne fait châteaux en Espagne,</l>
-          <l>    Picrochole, Pyrrhus, la Laitière, enfin tous,</l>
-          <l>        Autant les sages que les fous ?</l>
-          <l>    Chacun songe en veillant : il n’est rien de plus doux.</l>
-          <l>            LA FONTAINE.</l>
+          <l>Quel esprit ne bat la campagne ?</l>
+          <l>Qui ne fait châteaux en Espagne,</l>
+          <l>Picrochole, Pyrrhus, la Laitière, enfin tous,</l>
+          <l>                        Autant les sages que les fous ?</l>
+          <l>Chacun songe en veillant : il n’est rien de plus doux.</l>
+          <bibl>LA FONTAINE.</bibl>
         </quote>
         <p>Est-il bien nécessaire de décrire et d’expliquer le charme particulier de cet état de rêverie ? Si nous voulons savoir jusqu’où peut aller le plaisir de rêver, il nous suffira de relire J.-J. Rousseau<note resp="author">Voir notamment les <hi rend="i">Rêveries du promeneur solitaire</hi> (5<hi rend="sup">e</hi> promenade) et la <hi rend="i">Lettre à M. de Malesherbes</hi>, 26 janvier 1762. Pour établir la balance du bonheur que peut nous apporter la rêverie, il faudrait montrer, chez J.-J. Rousseau même, la prostration qui suit ces élans de l’imagination. La rêverie, à ce degré, est une sorte d’ivresse qui se paie. Elle décolore la vie réelle et en éloigne. Elle n’augmente pas tant notre bonheur qu’elle ne le déplace, en le reportant tout entier dans notre vie d’imagination.</note>. Nul poète, nul écrivain ne l’a ressenti plus profondément, et ne l’a exprimé en termes plus poétiques.</p>
         <quote>
@@ -168,22 +168,22 @@
         <p>J’en dirai autant de ces figures idéales, qui parfois hantent nos rêveries. Telles que nous les imaginons, valent-elles l’admiration qu’elles nous inspirent ? Dans notre rêve nous les trouvons infiniment belles. En elles-mêmes, elles sont si vagues, si indécises de traits, qu’à peine pourrait-on les qualifier au point de vue esthétique. Aussi pâle est l’image que nous concevons quand dans un conte de fées apparaît une princesse<quote> « aussi belle que le jour »</quote>.</p>
         <p>Un des exemples les plus curieux et les plus typiques que l’on puisse citer de ces produits spontanés de l’imagination idéaliste, c’est ce personnage étrange qui hanta l’esprit de George Sand<note resp="author"><hi rend="i">Histoire de ma vie</hi>, 3<hi rend="sup">e</hi> partie, VIII.</note>. <quote>« Dès ma première enfance, j’avais besoin de me faire un monde intérieur à ma guise, un monde fantastique et poétique… Me voilà donc, enfant rêveur, candide, isolé, abandonnée à moi-même, lancée à la recherche d’un idéal et ne pouvant pas rêver un monde, une humanité idéalisée, sans placer au faîte un Dieu, l’idéal même… Et voilà qu’en rêvant la nuit, il me vint une figure et un nom. Le nom ne signifiait rien que je sache ; c’était un assemblage fortuit de syllabes comme il s’en forme dans le rêve. Mon fantôme s’appelait Corambé et ce nom lui resta… Je voulais l’aimer comme un ami, comme une sœur, en même temps que le révérer comme un Dieu. Je ne voulais pas le craindre et, à cet effet, je souhaitais qu’il eût quelques-unes de nos erreurs et de nos faiblesses. Je cherchai celle qui pouvait se concilier avec sa perfection et je trouvai l’excès de l’indulgence et de la bonté</quote><note resp="author">N’est-ce pas ainsi que Renan a composé sa vie de Jésus ?</note><quote>. Ceci me plut particulièrement et son existence, en se déroulant dans mon imagination (je n’oserais dire par l’effet de ma volonté, tant ces rêves me parurent bientôt se formuler d’eux-mêmes), m’offrit une série d’épreuves, de souffrances, de persécutions et de martyres… Le rêve arriva à une sorte d’hallucination douce, mais si fréquente et si complète parfois que j’en étais comme ravie hors du monde réel. »</quote> L’imagination de l’enfant s’exalte ; elle dresse un autel à l’objet secret de son adoration. Puis la vision commence à se dissoudre ; née de la libre rêverie, trop inconsistante pour durer longtemps, elle s’efface peu à peu, et <hi rend="i">Corambé</hi> rentre dans l’inconscient dont il était sorti<note resp="author" n="10"><p>A comparer, pour l’inconsistance et l’évanouissement progressif de l’idéal rêvé, ces vers de la C<hi rend="sup">tesse</hi> Mathieu de Noailles.</p>
           <quote>
-            <l>    Le visage de ceux qu’on n’aime pas encor</l>
-            <l>    Apparaît quelquefois aux fenêtres des rêves</l>
-            <l>    Et va s’illuminant sur de pâles décors</l>
-            <l>    Dans un argentement de lune qui se lève.</l>
-            <l>    Ils ont des gestes lents, doux et silencieux,</l>
-            <l>    Notre vie uniment vers leur attente afflue :</l>
-            <l>    Il semble que les corps s’unissent par les jeux</l>
-            <l>    Et que les âmes sont des pages qu’on a lues.</l>
-            <l>    Ce sont des frôlements dont on ne peut guérir,</l>
-            <l>    Où l’on se sent le cœur trop las pour se défendre,</l>
-            <l>    Où l’âme est triste ainsi qu’au moment de mourir ;</l>
-            <l>    Ce sont des unions lamentables et tendres...</l>
-            <l>    Et ceux-là resteront quand le rêve aura fui</l>
-            <l>    Mystérieusement les élus du mensonge,</l>
-            <l>    Ceux à qui nous aurons, dans le secret des nuits,</l>
-            <l>    Offert nos lèvres d’ombre, ouvert nos bras de songe.</l>
+            <l>Le visage de ceux qu’on n’aime pas encor</l>
+            <l>Apparaît quelquefois aux fenêtres des rêves</l>
+            <l>Et va s’illuminant sur de pâles décors</l>
+            <l>Dans un argentement de lune qui se lève.</l>
+            <l>Ils ont des gestes lents, doux et silencieux,</l>
+            <l>Notre vie uniment vers leur attente afflue :</l>
+            <l>Il semble que les corps s’unissent par les jeux</l>
+            <l>Et que les âmes sont des pages qu’on a lues.</l>
+            <l>Ce sont des frôlements dont on ne peut guérir,</l>
+            <l>Où l’on se sent le cœur trop las pour se défendre,</l>
+            <l>Où l’âme est triste ainsi qu’au moment de mourir ;</l>
+            <l>Ce sont des unions lamentables et tendres...</l>
+            <l>Et ceux-là resteront quand le rêve aura fui</l>
+            <l>Mystérieusement les élus du mensonge,</l>
+            <l>Ceux à qui nous aurons, dans le secret des nuits,</l>
+            <l>Offert nos lèvres d’ombre, ouvert nos bras de songe.</l>
             <l>            Le cœur innombrable.</l>
           </quote>
           <p>On trouverait, dans ce même recueil poétique, de beaux exemples de la poésie des objets familiers, qui, pour les âmes prosaïques, restent vulgaires.</p></note>.</p>
@@ -204,28 +204,29 @@
         <p>Il faut d’ailleurs le remarquer. Ce n’est pas en présence des objets réels que cette illusion tend à se produire. L’objet perçu dans sa réalité se prête mal à ces personnifications et ces métamorphoses.</p>
         <p>C’est dans les souvenirs du poète, c’est dans ses descriptions que la nature se transforme à ce point. Alors elle n’est plus que représentée par des images plastiques, transformables, que l’on peut modifier dans le sens du merveilleux ; et les êtres fictifs que la fantaisie du poète peut concevoir trouveront facilement place dans ce monde imaginaire. Quand sur le bord de l’océan je regarde les vagues qui déferlent sur la grève, j’y vois des masses d’eau croulantes ; quand je les imagine, je puis leur prêter une voix lamentable qui parle de naufrages et de morts :</p>
         <quote>
-          <l>    Où sont-ils, les marins sombres dans les nuits noires ?</l>
-          <l>    O flots, que vous savez de lugubres histoires,</l>
-          <l>    Flots profonds, redoutés des mères à genoux !</l>
-          <l>    Vous vous les racontez en montant les marées,</l>
-          <l>    Et c’est ce qui vous fait ces voix désespérées</l>
-          <l>    Que vous avez le soir, quand vous venez vers nous !</l>
-          <l>            V. HUGO.</l>
+          <l>Où sont-ils, les marins sombres dans les nuits noires ?</l>
+          <l>Ô flots, que vous savez de lugubres histoires,</l>
+          <l>Flots profonds, redoutés des mères à genoux !</l>
+          <l>Vous vous les racontez en montant les marées,</l>
+          <l>Et c’est ce qui vous fait ces voix désespérées</l>
+          <l>Que vous avez le soir, quand vous venez vers nous !</l>
+          <bibl>V. HUGO.</bibl>
         </quote>
         <p>Dans les représentations de ce genre, on peut constater une tendance presque fatale de l’imagination à l’anthropomorphisme.</p>
         <p>Animer la nature, ce sera toujours prêter aux choses ou aux êtres inférieurs des sentiments plus ou moins analogues à ceux de l’homme, les seuls que nous puissions nettement nous représenter ; et avec la représentation de tels sentiments apparaîtront presque fatalement, évoquées par analogie, recherchées par le poète pour rendre plus dramatique l’expression qu’il prête aux choses, des images de la forme humaine. Toute personnification intense des forces de la nature, par la pente naturelle de la rêverie, devient donc anthropomorphique.</p>
         <p>Cette tendance, que l’on a reprochée à la mythologie grecque, ne lui est pas spéciale : elle se retrouvera dans toute poésie.</p>
         <p>Nous avons renoncé aux formes du merveilleux antique, à Cybèle, à Phœbus, à Borée, à Amphitrite, aux Naïades, etc. Et nous avons bien fait d’y renoncer, parce que ce sont des formes surannées, dont l’art a épuisé, à force de s’en servir, toute la vertu suggestive : c’est à nous, si nous voulons faire vraiment œuvre de poésie, d’imaginer des mythes nouveaux. Mais nous aurons beau nous ingénier, par la force des choses nous reviendrons toujours à des procédés d’invention analogues. Dans nos personnifications se retrouvera forcément un rappel de la forme humaine. La nature sera représentée maternelle, berçant les hommes sur son sein ; ou cruelle, absorbée dans son œuvre, indifférente à nos joies ou nos tristesses, mais toujours avec quelque trait qui l’humanise. Le vent, ce sera le berger indolent, indécis dont parle Shelley, qui pousse devant lui le troupeau des nuages ; ou quand il s’irritera, il évoquera vaguement l’image d’une figure hurlante, d’un génie ailé qui passe emporté dans un tourbillon. Dans les litanies de la mer, qu’a chantées Richepin, reparaît jusqu’à l’obsession la forme féminine. Prenez une phrase poétique quelconque impliquant une personnification de la nature, et vous verrez s’y dessiner, plus ou moins effacée, parfois presque évanouissante, une image humaine.</p>
         <quote>
-          <l>    Le printemps inquiet paraît à l’horizon.</l>
-          <l><space/><space>        </space>A. DE MUSSET.</l>
-          <l/>
-          <l>    Et l’aube douce et pâle, en attendant son heure,</l>
-          <l>    Semble toute la nuit errer au bas du ciel.</l>
-          <l>            V. HUGO.</l>
+          <l>Le printemps inquiet paraît à l’horizon.</l>
+          <bibl>A. DE MUSSET.</bibl>
+        </quote>
+        <quote>
+          <l>Et l’aube douce et pâle, en attendant son heure,</l>
+          <l>            Semble toute la nuit errer au bas du ciel.</l>
+          <bibl>V. HUGO.</bibl>
         </quote>
         <p>Ce ne sont pas là de simples métaphores verbales, mais des <hi rend="i">figures de pensée</hi>, dans lesquelles l’image réaliste des choses tend à se métamorphoser en une image plus vivante, plus animée, avancée de plusieurs étapes dans la progression des êtres, et par conséquent plus rapprochée de l’homme.</p>
-        <p>Cette métamorphose comporte bien des degrés. On peut pousser le jeu plus ou moins avant, s’enfoncer dans le merveilleux ou s’en retirer. Dans la lutte d’Achille contre le Xanthe (Iliade, ch. XXI), d’abord le fleuve se personnifie pour parler d’une voix humaine, puis il se liquéfie en quelque sorte et n’est plus qu’un torrent débordé dont les eaux grondent et mugissent. Cette instabilité des images qui se succèdent en tableaux fondants a toutes les allures du rêve. De même dans les descriptions de nos modernes poètes, nous passons par transitions insensibles des personnifications les plus fantaisistes de la nature à sa représentation réaliste ; et parfois les deux modes de représentation se superposent, transparaissent l’un à travers l’autre, comme il arrive pour les deux courants de pensée qui se développent simultanément dans une phrase métaphorique.</p>
+        <p>Cette métamorphose comporte bien des degrés. On peut pousser le jeu plus ou moins avant, s’enfoncer dans le merveilleux ou s’en retirer. Dans la lutte d’Achille contre le Xanthe (<title>Iliade</title>, ch. XXI), d’abord le fleuve se personnifie pour parler d’une voix humaine, puis il se liquéfie en quelque sorte et n’est plus qu’un torrent débordé dont les eaux grondent et mugissent. Cette instabilité des images qui se succèdent en tableaux fondants a toutes les allures du rêve. De même dans les descriptions de nos modernes poètes, nous passons par transitions insensibles des personnifications les plus fantaisistes de la nature à sa représentation réaliste ; et parfois les deux modes de représentation se superposent, transparaissent l’un à travers l’autre, comme il arrive pour les deux courants de pensée qui se développent simultanément dans une phrase métaphorique.</p>
         <p>Ainsi le monde réel, en passant par notre esprit, s’y charge de poésie ; et c’est cette poésie qu’ensuite nous retrouvons dans les choses.</p>
         <p>Tout ce que nous avons mis de nous-mêmes dans la nature, toutes les rêveries qu’elle nous a suggérées, toutes les émotions qu’elle nous a données ou que nous lui avons prêtées, tout cela nous revient au cœur quand nous la contemplons. De là son attrait esthétique. Nos rêveries font les fleurs plus charmantes, le ciel plus profond, les couchants plus diaprés, les voix de la nature plus émouvantes. Elles embellissent le monde de toute la poésie dont elles le pénètrent.</p>
         <p>Y a-t-il des objets poétiques en eux-mêmes ? On le dit. On le croit. Mais ce n’est qu’une illusion. Un objet perçu dans sa réalité, si charmant, si admirable qu’il puisse être, ne donne jamais une impression de poésie. Nulle réalité matérielle n’est poétique. Il n’y a de poétique que l’imaginaire.</p>
@@ -245,8 +246,8 @@
         <p>Il ne faut d’ailleurs pas être injuste. Même considéré tel qu’il est, sans qu’il soit nécessaire de se faire illusion sur son compte, l’homme a sa noblesse et sa dignité. Dans l’existence la plus vulgaire il y a encore une place pour l’idéal. Il y a dans la vie, telle qu’elle est, un élément de poésie pure ; ce sont toutes les affections, toutes les tendresses, toutes les passions généreuses, toutes les nobles aspirations, dont seul un pessimisme injuste pourrait nier l’existence ; c’est toute la vie du cœur.</p>
         <p>On s’indigne parfois de ce qui se fait chez les hommes, on en détourne les yeux, on se réfugie dans la sérénité de la nature.</p>
         <quote>
-          <l>    Oh, laissez-moi fouler les feuilles desséchées</l>
-          <l>        Et m’égarer au fond des bois !</l>
+          <l>Oh, laissez-moi fouler les feuilles desséchées</l>
+          <l>            Et m’égarer au fond des bois !</l>
         </quote>
         <p>Dans la nature entière on ne trouvera rien qui vaille plus et mieux que ces êtres que l’on méprise.</p>
         <p>Que l’on cesse donc d’opposer, comme on le fait parfois, le prosaïsme de la vie humaine à la poésie de la nature. Tout peut être matière à poésie, et par excellence le spectacle de la vie humaine.</p>
@@ -286,7 +287,7 @@
         <p>Dans le chant, nous trouvons la musique unie à la poésie verbale. Le seul fait de cette union, si intime qu’il en résulte une œuvre d’une homogénéité parfaite, prouve entre les deux arts une singulière affinité de nature. Ce n’est pas seulement par la forme qu’ils se ressemblent, par la commune recherche de l’harmonie sonore, par l’aisance avec laquelle ils s’adaptent aux mêmes rythmes ; c’est bien par le fond et par leur essence intime. Il serait absolument impossible de mettre en musique une ligne de vraie prose, par exemple l’énoncé d’un théorème de géométrie ; des vers un peu prosaïques se laissent difficilement chanter ; les beaux vers semblent appeler d’eux-mêmes, pour développer toute leur poésie, l’expression musicale. Il y a donc affinité entre la poésie verbale dans ce qu’elle a de plus poétique, et la musique dans ce qu’elle a de plus musical. Les deux arts se rejoignent dans leur plus haute expression. En s’unissant à la poésie verbale, la musique donne, à tous les sentiments qu’exprime la parole, sa résonance profonde et prolongée ; elle donne à la voix humaine une richesse de timbre, une variété d’intonations, une vibration, une ampleur, une puissance à laquelle ne saurait atteindre le simple parler : elle augmente d’une façon étonnante la valeur expressive de chaque mot prononcé. En même temps, par son charme propre, par l’harmonie dans laquelle elle nous enveloppe, elle nous amène rapidement à une sorte d’extase et d’ivresse lyrique dans laquelle notre imagination est prête à réagir d’une manière intense à toute suggestion verbale. Dans de telles dispositions physiques et morales, les images surgissent d’elles-mêmes, et prennent le charme de la mélodie qui accompagne leur évocation. On s’explique ainsi que le vers chanté produise un effet poétique que la simple lecture ne lui donnerait pas.</p>
         <p>Mais la musique n’a pas besoin de l’aide de la parole pour exprimer ce qu’elle veut nous dire. Livrée à elle-même, par ses propres moyens, elle peut évoquer des images. A ce titre elle a droit d’être comptée parmi les arts <hi rend="i">représentatifs</hi>.</p>
         <p>Elle nous suggérera, par le moyen des sons, des images sonores. L’imagination auditive en effet joue un certain rôle dans la perception des sons eux-mêmes. Quand par exemple un instrumentiste veut nous faire entendre une note déterminée, ce que nous percevons, c’est moins le son réellement émis que la sonorité idéale qu’il a la prétention de représenter ; pourvu que l’exécution ne soit pas décidément trop défectueuse, nous nous contentons d’un à peu près dans la représentation ; nous rectifions mentalement la note, de même que lorsqu’on nous parle une langue qui nous est très familière, nous suppléons par la pensée aux défauts de l’émission vocale, et croyons entendre intégralement des mots dont on ne prononce que la moitié. C’est cette sorte de restitution mentale qui nous permet d’entendre avec plaisir un air joué sur un instrument un peu faux<note resp="author">V. Paul Roy, <hi rend="i">Enseignement rationnel de la musique</hi>, A.-H. Simon. Paris 1875, pp. 121 et 122.</note>. Même phénomène se produit pour toute imitation musicale. Il nous suffit de reconnaître le son que la musique veut imiter pour nous imaginer que nous le percevons vraiment : l’image sonore que l’on veut nous suggérer est tellement présente à notre esprit, qu’à peine nous apercevons-nous de l’insuffisance de l’imitation. Le musicien pourra donc dessiner des images sonores d’un trait musical aussi bref, aussi sommaire, aussi conventionnel que la ligne par laquelle le dessinateur représente une image visuelle ; notre imagination complète cette figure schématique, la remplit de ses représentations, et nous fait apparaître l’image intégrale de l’objet. C’est ainsi que la musique représente sans les reproduire tout à fait les bruits de la nature, les murmures de la forêt, le chant des oiseaux, le rythme des vagues, le sifflement du vent, le tonnerre, le grondement du canon, le tintement des cloches, les accents d’une voix joyeuse, irritée ou plaintive. On a beaucoup discuté sur la légitimité de ces imitations. Quelques esthéticiens sévères n’y veulent voir qu’un divertissement puéril. Je crois qu’à la critiquer ainsi ils perdent leur temps. En fait les plus grands musiciens, dans des œuvres très sérieuses, l’ont pratiquée. L’imitation musicale est possible, nous y prenons plaisir et nous sommes libres. Il n’est donc pas probable que nous y renoncions jamais. Quand elle ne serait qu’un jeu, l’art a droit au caprice. Tout ce que l’on peut lui demander, c’est d’être discrète, et plus symbolique que littérale. Mais il serait tout à fait injuste de méconnaître ce qu’il y a de poétique dans ces réminiscences de la nature qui passent de temps à autre dans la musique instrumentale.</p>
-        <p>Avec ces images sonores apparaîtront en même temps, évoquées par association d’idées, les images visuelles correspondantes. Ainsi une imitation même très discrète du bruit rythmé des vagues qui battent une falaise nous les fera voir, glauques, écumantes, bondissant à l’assaut des rochers. Nous ne pouvons entendre une marche funèbre sans nous représenter des images de deuil. Le timbre de certains instruments agit sur l’imagination visuelle d’une manière spéciale. <quote>« Les masses d’instruments de cuivre, dans les grandes symphonies militaires, éveillent l’idée d’une troupe guerrière couverte d’armures étincelantes, marchant à la gloire ou à la mort</quote><note resp="author">Berlioz, <hi rend="i">Grand traité d’instrumentation et d’orchestration modernes</hi>, p. 138.</note><quote>. »</quote> La harpe éveille des idées de triomphe, de gloire et de splendeur. <quote>« Les sons de la région aiguë ont un éclat cristallin et rayonnant, qui évoque à l’esprit l’idée de fêtes brillantes, de banquets magnifiques inondés de lumière, ou qui transporte notre imagination dans le monde gracieux de la féerie</quote><note resp="author">F.-A. Gevaert, <hi rend="i">Nouveau traité d’instrumentation</hi>, Lemerre 1885, p. 93.</note><quote>. »</quote> Le cor est un instrument essentiellement poétique. <quote>« Aucun instrument peut-être n’agit aussi puissamment sur la fantaisie de l’auditeur. Les sons du cor transportent l’esprit au loin, dans les libres espaces, au sein des vastes forêts, sous l’ombrage des chênes séculaires, ou dans les pays charmants du rêve et de la féerie, aux bords des claires fontaines où l’on entend par les belles nuits d’été résonner les notes mystérieuses du cor d’Obéron</quote><note resp="author"><hi rend="i">Ibid</hi>., p. 210.</note><quote> »</quote>.</p>
+        <p>Avec ces images sonores apparaîtront en même temps, évoquées par association d’idées, les images visuelles correspondantes. Ainsi une imitation même très discrète du bruit rythmé des vagues qui battent une falaise nous les fera voir, glauques, écumantes, bondissant à l’assaut des rochers. Nous ne pouvons entendre une marche funèbre sans nous représenter des images de deuil. Le timbre de certains instruments agit sur l’imagination visuelle d’une manière spéciale. <quote>« Les masses d’instruments de cuivre, dans les grandes symphonies militaires, éveillent l’idée d’une troupe guerrière couverte d’armures étincelantes, marchant à la gloire ou à la mort</quote><note resp="author">Berlioz, <hi rend="i">Grand traité d’instrumentation et d’orchestration modernes</hi>, p. 138.</note><quote>. »</quote> La harpe éveille des idées de triomphe, de gloire et de splendeur. <quote>« Les sons de la région aiguë ont un éclat cristallin et rayonnant, qui évoque à l’esprit l’idée de fêtes brillantes, de banquets magnifiques inondés de lumière, ou qui transporte notre imagination dans le monde gracieux de la féerie</quote><note resp="author">F.-A. Gevaert, <hi rend="i">Nouveau traité d’instrumentation</hi>, Lemerre 1885, p. 93.</note><quote>. »</quote> Le cor est un instrument essentiellement poétique. <quote>« Aucun instrument peut-être n’agit aussi puissamment sur la fantaisie de l’auditeur. Les sons du cor transportent l’esprit au loin, dans les libres espaces, au sein des vastes forêts, sous l’ombrage des chênes séculaires, ou dans les pays charmants du rêve et de la féerie, aux bords des claires fontaines où l’on entend par les belles nuits d’été résonner les notes mystérieuses du cor d’Obéron</quote><note resp="author"><hi rend="i">Ibid.</hi>, p. 210.</note><quote> »</quote>.</p>
         <p>Telle peut être la puissance de la suggestion musicale, que les images secondaires passent au premier plan de la conscience, et nous fassent oublier la musique même ; nous ne l’entendons plus que d’une oreille distraite, comme un accompagnement à notre rêverie ; ou bien encore nous la faisons entrer dans notre songe, dans lequel elle se fond et se transforme. Ainsi le dormeur qui rêve de batailles pendant que la pluie fouette les vitres perçoit ce bruit sans en avoir conscience ; il l’utilise en quelque sorte pour donner plus d’intensité à ses représentations ; et ce qu’il croit entendre réellement, c’est le crépitement de la fusillade.</p>
         <p>Jamais bien entendu ces suggestions de la musique n’auront la netteté que peut avoir une description verbale. La musique purement instrumentale ne doit même pas chercher à suggérer des images trop précises. Elle n’y réussirait que très difficilement, et pour l’avoir tenté risquerait d’être obscure. On peut dire que toujours, dans la musique descriptive à programme précis, quelque chose des intentions du musicien échappe à l’auditeur. Le mal ne serait pas très grand si la composition, abstraction faite de toute intention descriptive, restait assez musicale pour intéresser par elle-même. Mais cela précisément n’est possible que si l’auteur s’est abandonné à son inspiration sans chercher à rendre avec précision telle ou telle image, c’est-à-dire s’il n’a pas suivi un programme trop déterminé. S’il a voulu représenter formellement quelque chose, voilà des intentions, étrangères à la musique pure, qui interviennent dans son inspiration ; intentions qui peuvent donner à l’œuvre plus de richesse et d’intérêt si elles sont comprises, mais qui troublent et inquiètent l’auditeur si elles ne le sont pas. On ne se laisse plus aller à ses impressions. On sent bien que cette musique a des prétentions symboliques, qu’elle veut dire quelque chose, mais quoi ? Le sens échappe ; et si l’on renonce à le chercher, l’œuvre, prise au sens propre, écoutée comme de la pure musique, paraîtra bizarre et incohérente. La musique descriptive devra donc se contenter d’entraîner l’esprit de l’auditeur dans une certaine direction, en laissant toujours à la fantaisie individuelle un certain jeu. Dans l’<hi rend="i">Andante</hi> de la symphonie pastorale, il n’est pas douteux d’abord que Beethoven n’ait voulu donner à sa scène musicale un caractère représentatif ; il l’a bien située mentalement <hi rend="i">au bord du ruisseau</hi>, et je puis ajouter en toute certitude, d’après le caractère de la phrase mélodique qui donne son accent à toute la scène, <hi rend="i">dans la profondeur des bois</hi>. Maintenant s’est-il proposé cette gageure puérile, de figurer aussi exactement que possible, par le moyen des sons, un tableau déterminé ? Ce serait lui faire injure, car ce serait supposer qu’il n’était ni musicien, ni poète. Nous devons concevoir tout autrement, et l’état d’âme dans lequel il a composé son œuvre, et la nature des suggestions qu’il veut nous donner. Il s’est transporté en imagination, comme fait le poète, au sein de la nature ; il a prêté l’oreille au chant des oiseaux, à leur appel mélancolique, aux rumeurs profondes de la forêt ; il s’est rappelé ses rêveries de promeneur solitaire ; il a recueilli en lui-même, pour s’en pénétrer davantage, toutes les émotions qu’il en avait reçues. Et librement, pendant que passaient en lui ces images d’allégresse ou de mélancolie, il a chanté. Et de lui-même, parce que son âme était toute musicale, ce chant intérieur s’est mis en harmonie avec ces images. Il n’a voulu rendre ni le murmure du ruisseau, ni les rides légères qui passent à sa surface ; mais la mélodie qui s’est alors présentée spontanément à son esprit était celle que l’on peut concevoir, en pensant à ces choses ; elle était inspirée de ces rêveries, et elle les inspirait aussi, tantôt subordonnée, tantôt dominante, en sorte que parfois les réminiscences de la nature affleurent en quelque sorte dans la composition, que parfois elles s’effacent pour faire place à la musique pure. Qui pourrait déterminer le rapport qui s’établit entre ces images poétiques, fuyantes et mobiles, et le chant qui les accompagne ? Il doit être aussi variable que celui qui s’établit dans la parole émue, par exemple lorsque nous décrivons un spectacle émouvant auquel nous avons assisté, entre la pensée que nous voulons exprimer et les intonations de notre voix ; tantôt ces intonations répondent à l’émotion que nous avons éprouvée, tantôt par une sorte de mimique symbolique elles se font semblables aux objets dont nous parlons, elles en figurent de quelque manière le mouvement, la grandeur, le caractère et jusqu’à la forme même. Il ne faut donc pas se demander si tel effet musical exprime le miroitement de l’eau, ou son murmure, ou l’impression que nous en recevons ; il exprime un peu de tout cela, parce que tout cela était présent à l’esprit du musicien au moment de l’inspiration.</p>
         <p>Il doit en être de même dans une description musicale quelconque. Si elle est vraiment musicale, elle ne reproduira littéralement aucun des bruits que nous pouvons percevoir dans la réalité, la caractéristique de ces bruits étant de n’être pas musicaux ; elle les transposera ; elle ne nous en présentera qu’un équivalent. Et de même, ce sera par une transposition symbolique, par de véritables métaphores qu’elle représentera l’apparence visible des choses. Ce qu’elle nous fera percevoir en réalité, ce ne seront jamais que des notes, des accords musicaux, des mélodies et de l’harmonie, en un mot de la musique pure. Cette musique sera toujours de quelque manière en correspondance avec les visions qui l’ont inspirée. Mais le seul rapport constant que l’on puisse exiger entre ces deux termes, le seul d’ailleurs qui naturellement s’établisse, c’est un rapport d’<hi rend="i">harmonie</hi>. — Maintenant, que se passera-t-il dans l’esprit de l’auditeur, quand l’œuvre ainsi composée lui sera soumise ? Ici le mouvement psychique s’opère en sens inverse. Le compositeur allait de l’image au motif musical<note resp="author">Wagner a observé sur lui-même ce procédé de composition. Au sujet du prélude instrumental qui accompagne l’apparition d’Elsa sur le balcon, au deuxième acte de <hi rend="i">Lohengrin</hi>, il écrit à son ami Uhlig :<quote> « Je me suis rendu compte en revoyant ce passage de la façon dont les thèmes se forment en moi : ils se rattachent toujours à une apparition plastique et se conforment au caractère de celle-ci. » </quote>Cité par Maurice Kufferath. <hi rend="i">Le Théâtre de R. Wagner. Lohengrin</hi>, Paris, Fischbacher, 1891, p. 134.</note>; l’auditeur devra aller du motif musical, qui seul lui est donné, à l’image. Il a peu de chances pour la retrouver exactement telle que le compositeur l’avait conçue. Que cela ne nous tourmente pas. N’essayons pas de deviner. La musique a bien autre chose à faire que d’exercer notre sagacité. Laissons-nous aller, sans nous imposer aucun effort de pensée, à la simple contemplation. Écoutons cette phrase musicale qui nous enchante comme nous écouterions le bruissement du feuillage, sans plus nous préoccuper de lui trouver un sens. D’elle-même la pente de la rêverie entraînera notre imagination dans le sens voulu. Les images qui spontanément nous apparaîtront se mettront en accord avec la mélodie ; elles en prendront l’allure, le caractère, la teinte sentimentale ; et il se trouvera que sans l’avoir cherché nous nous représenterons des scènes de la nature, sinon identiques, du moins analogues à celles que le musicien avait conçues. Nous sommes ainsi entrés dans son œuvre plus profondément que nous n’aurions fait, si nous nous étions appliqués à l’interpréter : nous en avons retrouvé l’intime poésie.</p>
@@ -312,44 +313,44 @@
           <p>Je prendrai à dessein mes exemples dans des œuvres très connues, que chacun ait présentes à l’esprit et sur lesquelles il soit facile de refaire l’expérience.</p>
           <p>J’ouvre la <hi rend="i">Légende des siècles</hi>. Je relis le <hi rend="i">Petit roi de Galice</hi> :</p>
           <quote>
-            <l>    Ils sont là tous les dix, les enfants d’Asturie.</l>
-            <l>    La même affaire unit dans la même prairie</l>
-            <l>    Les cinq de Santillane aux cinq d’Oviedo.</l>
-            <l>    C’est midi ; les mulets, très las, ont besoin d’eau,</l>
-            <l>    L’âne a soif, le cheval souffle et baisse un œil terne,</l>
-            <l>    Et la troupe a fait halte auprès d’une citerne.</l>
+            <l>Ils sont là tous les dix, les enfants d’Asturie.</l>
+            <l>La même affaire unit dans la même prairie</l>
+            <l>Les cinq de Santillane aux cinq d’Oviedo.</l>
+            <l>C’est midi ; les mulets, très las, ont besoin d’eau,</l>
+            <l>L’âne a soif, le cheval souffle et baisse un œil terne,</l>
+            <l>Et la troupe a fait halte auprès d’une citerne.</l>
           </quote>
           <p>Quand je commence à lire ces vers, ma pensée est lucide, mon attention excitée. Il me faut interpréter ce texte, comprendre ce que le poète veut dire, me mettre au courant de la situation. Je suis encore moi. J’ai conscience d’être dans ma chambre, un livre en main. Je vois la page imprimée. J’articule en moi-même les mots que je lis. Mais bientôt la suggestion poétique tend à se produire. Des images m’apparaissent, encore vagues et indécises :</p>
           <quote>
-            <l>    Vers le Nord, le troupeau des nuages qui passe,</l>
-            <l>    Poursuivi par le vent, chien hurlant de l’espace,</l>
-            <l>    S’enfuit, à tous les pics laissant de sa toison.</l>
-            <l>    Le Corcova remplit le fond de l’horizon.</l>
+            <l>Vers le Nord, le troupeau des nuages qui passe,</l>
+            <l>Poursuivi par le vent, chien hurlant de l’espace,</l>
+            <l>S’enfuit, à tous les pics laissant de sa toison.</l>
+            <l>Le Corcova remplit le fond de l’horizon.</l>
           </quote>
           <p>Mais je m’enfonce davantage dans ma lecture. L’intérêt dramatique du poème devient plus intense ; la suggestion opère avec plus de force :</p>
           <quote>
-            <l>    Alerte ! Un cavalier passe dans le chemin.</l>
-            <l>    C’est l’heure où les soldats, aux yeux lourds, aux fronts blêmes,</l>
-            <l>    La sieste finissant, se réveillent d’eux-mêmes.</l>
-            <l>    Le cavalier qui passe est habillé de fer ;</l>
-            <l>    Il vient par le sentier du côté de la mer ;</l>
-            <l>    Il entre dans le val ; il franchit la chaussée ;</l>
-            <l>    Calme, il approche...</l>
+            <l>Alerte ! Un cavalier passe dans le chemin.</l>
+            <l>C’est l’heure où les soldats, aux yeux lourds, aux fronts blêmes,</l>
+            <l>La sieste finissant, se réveillent d’eux-mêmes.</l>
+            <l>Le cavalier qui passe est habillé de fer ;</l>
+            <l>Il vient par le sentier du côté de la mer ;</l>
+            <l>Il entre dans le val ; il franchit la chaussée ;</l>
+            <l>Calme, il approche...</l>
           </quote>
           <p>À partir de ce moment, le cours de ma pensée est décidément orienté dans le sens de la rêverie ; et ce moment précis, que l’on pourrait marquer dans toute œuvre d’imagination, est celui où le lecteur éprouve, pour un des personnages mis en scène, une émotion sympathique. Jusque-là, on pensait, on imaginait volontairement. À partir de ce moment, on est pris, saisi, entraîné. On entre dans l’état second, dans une sorte de transe, où l’on devient docile à toutes les suggestions. Nous nous plaçons au point de vue de ce personnage. Nous voyons de ses yeux, et avec la netteté que l’émotion donne à nos représentations, les événements qui vont se dérouler. Ces images visuelles, les premières apparues, vont amener les autres à leur suite. Quand s’engagera la scène épique, héroïque, où Roland, seul contre cent, tranchera de ses grands coups d’épée géants et bandits, je n’aurai plus conscience de me la figurer, je croirai la percevoir. Qu’elle soit merveilleuse, invraisemblable, peu importe maintenant, puisque j’y assiste ! J’entends les chocs d’armure, les gémissements, les clameurs de la bataille.</p>
           <quote>
-            <l>    Durandal, à tuer ces coquins s’ébréchant,</l>
-            <l>    Avait jonché de morts la terre, et fait ce champ</l>
-            <l>    Plus vermeil qu’un nuage où le soleil se couche ;</l>
-            <l>    Elle s’était rompue en ce labeur farouche ;</l>
-            <l>    Ce qui n’empêchait pas Roland de s’avancer ;</l>
-            <l>    Les bandits, le croyant prêt à recommencer,</l>
-            <l>    Tremblants comme des bœufs qu’on ramène à l’étable,</l>
-            <l>    A chaque mouvement de son bras redoutable,</l>
-            <l>    Reculaient, lui montrant de loin leurs coutelas ;</l>
-            <l>    Et, pas à pas, Roland, sanglant, terrible, las,</l>
-            <l>    Les chassait devant lui parmi les fondrières ;</l>
-            <l>    Et, n’ayant plus d’épée, il leur jetait des pierres.</l>
+            <l>Durandal, à tuer ces coquins s’ébréchant,</l>
+            <l>Avait jonché de morts la terre, et fait ce champ</l>
+            <l>Plus vermeil qu’un nuage où le soleil se couche ;</l>
+            <l>Elle s’était rompue en ce labeur farouche ;</l>
+            <l>Ce qui n’empêchait pas Roland de s’avancer ;</l>
+            <l>Les bandits, le croyant prêt à recommencer,</l>
+            <l>Tremblants comme des bœufs qu’on ramène à l’étable,</l>
+            <l>A chaque mouvement de son bras redoutable,</l>
+            <l>Reculaient, lui montrant de loin leurs coutelas ;</l>
+            <l>Et, pas à pas, Roland, sanglant, terrible, las,</l>
+            <l>Les chassait devant lui parmi les fondrières ;</l>
+            <l>Et, n’ayant plus d’épée, il leur jetait des pierres.</l>
           </quote>
           <p>Longtemps encore après que la lecture est terminée, on est hanté de cette tragique vision, d’autant plus obsédante qu’elle reste inachevée. Elle subsiste au plus profond de nous-mêmes alors même que nous n’y pensons plus, comme une chose réelle quand nous en détournons les yeux.</p>
           <p>La poésie, avons-nous remarqué, n’est pas inhérente à la forme du vers. Nous aurions pu tout aussi bien en demander des exemples à la prose. Il est des pages de J.-J. Rousseau, de Chateaubriand, de Guyau, de Loti, de Maeterlinck, qui ont un charme comparable à celui des plus beaux poèmes.</p>
@@ -363,23 +364,23 @@
           <p>Les poètes s’ingénient à donner à leurs œuvres les titres les plus divers ; ce seront des Harmonies, des Voix intérieures, des Chants du crépuscule, des Méditations, des Contemplations : en réalité, toutes pourraient aussi bien être intitulées des Rêveries, car elles ne sont pas autre chose.</p>
           <p>Les suggestions trop intenses nous émeuvent comme le ferait la réalité, mais elles ne nous semblent pas plus poétiques. Relisez un poème très dramatique, vous reconnaîtrez que l’impression poétique se produit surtout dans les instants où l’action se ralentit, et laisse la pensée prendre l’attitude contemplative : par exemple dans les descriptions qui servent de pause au récit. Alors les images se développent à loisir. Rappelons-nous quelques vers qui nous aient paru d’un charme poétique particulier : nous trouverons que ce sont des vers contemplatifs plutôt que dramatiques, qui ont dû être conçus dans un état de vague rêverie auquel ils nous ramènent.</p>
           <quote>
-            <l>    Elle voulut aller sur les flots de la mer,</l>
-            <l>    Et comme un vent bénin soufflait une embellie</l>
-            <l>    Nous nous prêtâmes tous à sa belle folie</l>
-            <l>    Et nous voilà marchant par le chemin amer.</l>
-            <l>    Le soleil luisait haut dans le ciel calme et lisse</l>
-            <l>    Et dans ses cheveux blonds c’étaient des rayons d’or</l>
-            <l>    Si bien que nous suivions son pas plus calme encor</l>
-            <l>    Que le déroulement des vagues, ô délice !</l>
-            <l>    Des oiseaux blancs volaient alentour mollement</l>
-            <l>    Et des voiles au loin s’inclinaient toutes blanches.</l>
-            <l>    Parfois de grands varechs filaient en longues branches,</l>
-            <l>    Nos pieds glissaient d’un pur et large mouvement.</l>
-            <l>    Elle se retourna, doucement inquiète</l>
-            <l>    De ne nous croire pas pleinement rassurés,</l>
-            <l>    Mais nous voyant joyeux d’être ses préférés,</l>
-            <l>    Elle reprit sa route et portait haut sa tête.</l>
-            <l>            VERLAINE, <hi rend="i">Romances sans paroles</hi>.</l>
+            <l>Elle voulut aller sur les flots de la mer,</l>
+            <l>Et comme un vent bénin soufflait une embellie</l>
+            <l>Nous nous prêtâmes tous à sa belle folie</l>
+            <l>Et nous voilà marchant par le chemin amer.</l>
+            <l>Le soleil luisait haut dans le ciel calme et lisse</l>
+            <l>Et dans ses cheveux blonds c’étaient des rayons d’or</l>
+            <l>Si bien que nous suivions son pas plus calme encor</l>
+            <l>Que le déroulement des vagues, ô délice !</l>
+            <l>Des oiseaux blancs volaient alentour mollement</l>
+            <l>Et des voiles au loin s’inclinaient toutes blanches.</l>
+            <l>Parfois de grands varechs filaient en longues branches,</l>
+            <l>Nos pieds glissaient d’un pur et large mouvement.</l>
+            <l>Elle se retourna, doucement inquiète</l>
+            <l>De ne nous croire pas pleinement rassurés,</l>
+            <l>Mais nous voyant joyeux d’être ses préférés,</l>
+            <l>Elle reprit sa route et portait haut sa tête.</l>
+            <bibl>VERLAINE, <hi rend="i">Romances sans paroles</hi>.</bibl>
           </quote>
           <p>Ce sont bien là de ces visions comme on en peut avoir, au cours d’une paisible traversée, en contemplant la mer bleue.</p>
           <p>De toutes les pages vraiment poétiques que nous avons pu lire, en prose ou en vers, prenons les plus délicates, les plus exquises, celles qui nous donnent la plus pure impression de poésie.</p>
@@ -409,34 +410,34 @@
           <p>Aussi nous garderons-nous de leur attribuer trop d’importance ; nous nous rappellerons qu’en poésie surtout les mots ne doivent pas attirer l’attention ; ils sont faits pour être oubliés ; seule importe la qualité poétique des représentations qu’ils nous auront suggérées, après leur passage dans l’esprit.</p>
         </div>
         <div>
-          <head>§ 3. – Valeur poétique du sentiment.</head>
+          <head>§ 3. — Valeur poétique du sentiment.</head>
           <p>Il nous reste à déterminer quel est dans la poésie littéraire le rôle du sentiment.</p>
           <p>Sur ce point les avis sont très partagés. Toute une école littéraire se refuserait à attribuer une réelle valeur poétique au sentiment. Elle concevrait plutôt la poésie comme un art de pure représentation, tout objectif, dont les sentiments personnels du poète devraient être autant que possible exclus. C’est une vieille idée d’Aristote. Le poète est par définition un imitateur. En composant sa fable, il doit se mettre les choses sous les yeux le plus exactement qu’il peut, et les décrire en termes tels, que nous nous imaginions assister à la réalité même. Personnellement il ne doit prendre la parole que le plus rarement qu’il peut ; car ce n’est point quand il parle en son nom qu’il est imitateur.</p>
           <p>Nous retrouvons ces mêmes idées dans Gœthe. La mission du poète est la représentation. Cette représentation est parfaite quand elle rivalise avec la réalité, c’est-à-dire quand ses peintures sont animées par le génie de manière à faire croire à la présence des objets. La poésie, à son plus haut degré d’élévation, est tout extérieure. Lorsqu’elle se retire au dedans de l’âme, elle est en voie de déclin. Le poète se mettrait donc au-dessus et en dehors de son œuvre ; il animerait ses personnages d’une vie intense et passionnée sans se départir lui-même de son olympienne sérénité. Pour conserver toute sa liberté de création, pour que les produits de son génie puissent se développer avec un calme artistique, dans la paix et l’harmonie, il s’affranchira de toute préoccupation pratique, il contemplera le monde d’un œil calme et libre.</p>
           <p>Je cherche ce qu’il peut y avoir de juste dans cette théorie. En l’examinant, j’y vois l’exagération de quelques idées justes, et finalement une méprise.</p>
           <p>Je lui donnerais raison si elle se contentait d’affirmer qu’il ne faut pas abuser de la poésie subjective et du sentiment personnel. Il est certain que trop de poètes restent enfermés dans leur Moi, s’analysant avec complaisance, épiant leurs moindres sensations pour nous les décrire, ramenant avec une regrettable insistance la conversation sur leurs peines de cœur et leurs déceptions en amour. Ces confidences intimes sont de la poésie ; elles ne peuvent être toute la poésie. La description d’un Moi est décidément un sujet trop mince. Le poète, reclus en lui-même, n’a plus aucune occasion de se renouveler, de se développer ; il tourne dans un cercle d’idées et de sentiments de plus en plus étroit. En même temps qu’il se retire de nous, il nous éloigne de lui. Quelle sympathie réelle peut nous porter vers cet homme qui n’a pas une pensée pour nous ? Il restera donc enfermé dans son splendide isolement, et perdra presque toute action sur les âmes. — Que le poète commence donc par vivre sa vie personnelle ; que jeune il chante son amour, ses désirs et ses mélancolies. Mais cette poésie de la vingtième année ne saurait lui suffire. Qu’ensuite il sorte de lui-même. Qu’il s’aperçoive que les hommes existent, qu’il y a d’autres intérêts que les siens, d’autres souffrances que les siennes. Qu’il nous parle de nous-mêmes ; qu’il s’intéresse à tous les problèmes pour lesquels se passionne l’humanité ; ou qu’il se fasse créateur, qu’il compose une œuvre épique ou romanesque ; qu’il donne à ces êtres de fiction qu’il met en scène une telle intensité de vie, qu’à jamais ils resteront dans la mémoire des hommes, plus vivants qu’aucun être réel. L’heure de la poésie objective est venue. On a raison d’y voir un élargissement et une forme supérieure de la poésie : jusqu’ici nous sommes pleinement d’accord. Mais de ce que le poète s’affranchit des égoïsmes du sentiment personnel, on conclut à son impassibilité. C’est ici que commence la méprise, et que nous devrons nous séparer. Ce qu’on ne voit pas, c’est que si le poète se détache ainsi de lui-même, ce n’est pas par indifférence, c’est par désintéressement et générosité de cœur. Ce passage à la poésie objective ne marque pas une restriction, mais au contraire une extension, un suprême épanouissement de la sensibilité. Comme le disait Guyau, dans son émouvant adieu à la poésie personnelle :</p>
           <quote>
-            <l>    Quand on s’oublie assez soi-même</l>
-            <l>    On tait sa joie et ses douleurs ;</l>
-            <l>    Les yeux tournés vers ceux qu’on aime</l>
-            <l>    On n’a d’autres maux que les leurs.</l>
-            <l>    L’art est trop vain, et solitaire ;</l>
-            <l>    Rêver est doux, agir meilleur ;</l>
-            <l>    En ce monde j’ai mieux à faire</l>
-            <l>    Que d’écouter battre mon cœur.</l>
-            <l>    Que l’amour aux autres me lie !…</l>
-            <l>    Dans le cœur d’autrui je me perds ;</l>
-            <l>    — Rires ou larmes de ma vie,</l>
-            <l>    Valiez-vous seulement un vers<note resp="author"><hi rend="i">Vers d’un philosophe</hi>. V. Alcan, 1896, derniers vers.</note> !</l>
+            <l>Quand on s’oublie assez soi-même</l>
+            <l>On tait sa joie et ses douleurs ;</l>
+            <l>Les yeux tournés vers ceux qu’on aime</l>
+            <l>On n’a d’autres maux que les leurs.</l>
+            <l>L’art est trop vain, et solitaire ;</l>
+            <l>Rêver est doux, agir meilleur ;</l>
+            <l>En ce monde j’ai mieux à faire</l>
+            <l>Que d’écouter battre mon cœur.</l>
+            <l>Que l’amour aux autres me lie !…</l>
+            <l>Dans le cœur d’autrui je me perds ;</l>
+            <l>— Rires ou larmes de ma vie,</l>
+            <l>Valiez-vous seulement un vers<note resp="author"><hi rend="i">Vers d’un philosophe</hi>. V. Alcan, 1896, derniers vers.</note> !</l>
           </quote>
           <p>Ce n’est pas d’un œil calme et libre que le poète contemple le monde ; c’est avec un intérêt passionné, avec une large sympathie. Sa fonction n’est pas de nous représenter les choses telles qu’elles sont, ou telles qu’elles nous apparaissent vues du dehors : un miroir y suffirait. Il faut qu’il nous présente une œuvre vivante et passionnée, qui frappe l’imagination en touchant le cœur ; il n’y réussira pas, s’il est lui-même rebelle à l’émotion et incapable d’aimer. L’impassibilité sied au savant, peut-être au philosophe. Elle conviendrait mal au poète.</p>
           <p>J’admets encore que la poésie ne requiert pas des émotions d’une intensité extrême. Trop poignantes, elles nous saisiraient avec tant de force que nous ne pourrions plus en faire un objet de contemplation, et que toute impression de beauté disparaîtrait. Nous sortirions de la poésie, pour rentrer dans la vie réelle. Le seul fait de composer un poème suppose un certain calme, une possession de soi, un souci d’art, incompatible avec les crises de la passion. La sensibilité indispensable au poète est une sensibilité d’artiste, qui dans ses émotions les plus sincères garde le besoin de l’harmonie et le sens de la beauté. Certains sentiments sont trop intenses pour se traduire en vers. L’extrême douleur s’exprimera par un cri, par une plainte, par des paroles amères, par un mouvement de révolte, non par de la poésie. C’est quatre ans après la mort de sa fille, que Victor Hugo pouvait écrire les vers sublimes où s’est exhalée sa douleur de père.</p>
           <quote>
-            <l>    Maintenant que du deuil qui m’a fait l’âme obscure</l>
+            <l>Maintenant que du deuil qui m’a fait l’âme obscure</l>
             <l>        Je sors pâle et vainqueur,</l>
-            <l>    Et que je sens la paix de l’immense nature</l>
+            <l>Et que je sens la paix de l’immense nature</l>
             <l>        Qui m’entre dans le cœur...</l>
-            <l>            <hi rend="i">Contemplations</hi> : à Villequier.</l>
+            <bibl><hi rend="i">Contemplations</hi> : à Villequier.</bibl>
           </quote>
           <p>Il fallait que sa douleur se fut apaisée, qu’elle fût devenue résignée, contemplative et comme stagnante pour comporter une expression poétique.</p>
           <p>Tout cela est vrai ; mais tout ce que l’on en peut conclure, c’est que le sentiment poétique ne doit pas avoir une violence telle, qu’il exclue la libre rêverie ou qu’il enlève au poète tout son sang-froid. De là jusqu’à l’impassibilité, il y a loin.</p>
@@ -471,7 +472,7 @@
       <div>
         <head>Chapitre VI<lb/>La composition poétique</head>
         <div>
-          <head>§ 1. – Méthode d’inspiration.</head>
+          <head>§ 1. — Méthode d’inspiration.</head>
           <p>Nous avons considéré l’œuvre poétique du dehors, cherchant à nous rendre compte de l’effet qu’elle produit au cours de la lecture sur notre imagination. Essayons de l’étudier du dedans, au cours de son élaboration, dans l’esprit du poète qui la compose.</p>
           <p>On dit bien quelquefois que la véritable œuvre d’art doit être conçue d’ensemble, par synthèse immédiate, non par élaboration progressive, et que cette composition instantanée, si étonnante, si mystérieuse, si miraculeuse qu’elle soit, est justement la caractéristique de l’invention esthétique.</p>
           <p>Je ne discuterai pas la possibilité de ce miracle ; je demanderais seulement qu’on voulût bien citer un seul exemple authentique d’une œuvre de quelque importance obtenue ainsi. L’inspiration apportera bien au poète un vers tout fait, une strophe peut-être, conçue tout d’un coup dans son ensemble, mais non un poème épique. Nous admettons ces intuitions d’ensemble ; nous croyons qu’elles sont en effet nécessaires à la composition de l’œuvre d’art ; nous aurons occasion de les signaler ; mais nous montrerons justement qu’elles exigent un effort de réflexion intense, et que ce qu’elles nous font apercevoir, ce n’est pas l’œuvre toute faite, toute élaborée, dans sa forme d’art définitive, mais l’œuvre encore abstraite et en voie de formation.</p>
@@ -482,9 +483,9 @@
           <p>Quelques écrivains affirment pourtant avoir obtenu l’idée initiale d’une œuvre littéraire par voie de déduction, en commençant par déterminer les conditions générales auxquelles l’œuvre devait répondre. Leur première attitude mentale serait donc celle du géomètre qui s’applique à résoudre un problème, c’est-à-dire l’effort de réflexion<note resp="author">Voir par exemple l’analyse que donne E. Poe de la genèse de son poème du Corbeau, ou les procédés de composition de Paul Hervieu (A. Binet, La création littéraire, <hi rend="i">Année psychologique</hi>, 1903).</note>. C’est bien possible. Il y a des types intellectuels très divers. La réflexion peut intervenir dans l’élaboration d’une œuvre d’art en toutes proportions, et à un moment quelconque.</p>
           <p>Mais en général l’idée première n’est pas obtenue par réflexion. Elle apparaît spontanément dans la libre rêverie. Tout ce que peut faire l’écrivain, pour en faciliter l’apparition, c’est de se mettre dans les conditions les plus favorables à la formation spontanée des images. L’imagination ne peut rien tirer du néant. Dans ses productions les plus originales on trouverait des réminiscences d’œuvres étrangères, un apport de l’expérience, des rappels de la réalité. L’invention poétique a besoin d’aliments. Pour être créateur, il faut que l’esprit soit nourri d’observations, de faits intéressants et suggestifs, de visions, de réminiscences de la nature et de la vie, tout cela bien assimilé, matière plastique qui s’organisera en formes nouvelles. Ces images latentes que le poète porte en lui se décomposent, se recomposent, se soudent l’une à l’autre dans un travail mystérieux dont la psychologie ignore encore les lois, mais où le hasard joue certainement un rôle. En nous s’élaborent incessamment des images confuses, incohérentes, que nous ne daignons pas remarquer et qui, à peine formées, se désagrègent, n’étant pas viables. Mais qu’au milieu de ces conceptions fantasques apparaisse une idée utilisable, nous la tirons à part, l’examinons un instant, et avant de la laisser aller, la marquons d’un effort d’attention pour la retrouver au besoin. Ainsi l’esprit du poète est hanté d’idées conçues par hasard, de projets d’œuvres auxquels il n’a pas donné suite, d’images qu’il a laissées à l’état d’ébauches. Exercé comme il l’est, par entraînement professionnel, à surveiller en lui-même l’apparition des idées et à retenir par un effort de mémoire spécial celles qui lui semblent comporter un développement artistique, il en a toujours en lui-même une réserve dans laquelle il n’a qu’à puiser. Le plus souvent, il a plutôt l’embarras de choisir entre les idées diverses qui le sollicitent.</p>
           <quote>
-            <l>    Dis-moi, quel songe d’or nos chants vont-ils bercer ?</l>
-            <l>    D’où vont venir les pleurs que nous allons verser,</l>
-            <l>    Chanterons-nous l’espoir, la tristesse ou la joie ?...</l>
+            <l>Dis-moi, quel songe d’or nos chants vont-ils bercer ?</l>
+            <l>D’où vont venir les pleurs que nous allons verser,</l>
+            <l>Chanterons-nous l’espoir, la tristesse ou la joie ?...</l>
           </quote>
           <p>Ainsi la Muse de la <hi rend="i">Nuit de mai</hi> fait passer dans l’esprit du poète une série d’images qu’elle développe un instant pour le tenter, symbole poétique de ces suggestions spontanées de l’inspiration. Très souvent les meilleures idées sont trouvées par distraction, pendant que l’on travaille à en développer d’autres, comme si par une sorte d’irradiation nerveuse l’excès d’activité d’un des lobes du cerveau se propageait aux lobes voisins et les mettait en activité à leur tour. Ou bien c’est au cours d’une promenade, pendant que l’on croit ne penser à rien ; les idées viennent, justement parce que l’esprit se laisse aller à la libre rêverie. Le fait est même si fréquent que l’on pourrait voir dans la marche un des procédés les plus usités pour stimuler la faculté d’invention<note resp="author"><p>Voici à ce sujet un certain nombre de témoignages : <quote>« La marche a quelque chose qui anime et avive mes idées ; je ne puis presque penser quand je suis en place ; il faut que mon corps soit en branle pour y mettre mon esprit. »</quote> J.-J. Rousseau, <hi rend="i">Confessions</hi>, 1<hi rend="sup">re</hi> partie, livre IX.</p>
           <p>G.Tarde trouve, <hi rend="i">au cours d’une promenade</hi>, sa théorie de l’imitation (Cité par F. Paulhan, <hi rend="i">Psychologie de l’invention</hi>, p. 19. F. Alcan, 1901).</p>
@@ -502,18 +503,18 @@
             <quote>
               <l>Pour moi quand je verrais dans les célestes plaines</l>
               <l>Les astres s’écartant de leurs roules certaines,</l>
-              <l>Dans les champs de l’éther l’un par l’autre heurtés, </l>
-              <l>Parcourir au hasard les cieux épouvantés ; </l>
-              <l>Quand j’entendrais gémir et se briser la terre ; </l>
-              <l>Quand je verrais son globe errant et solitaire, </l>
-              <l>Flottant loin des soleils, pleurant l’homme détruit, </l>
-              <l>Se perdre dans les champs de l’éternelle nuit ; </l>
-              <l>Et quand, dernier témoin de ces scènes funèbres, </l>
-              <l>Entouré du chaos, de la mort, des ténèbres, </l>
-              <l>Seul je serais debout, seul malgré mon effroi, </l>
-              <l>Être infaillible et bon, j’espérerais en toi, </l>
-              <l>Et, certain du retour de l’éternelle aurore, </l>
-              <l>Sur les mondes détruits je t’attendrais encore ! </l>
+              <l>Dans les champs de l’éther l’un par l’autre heurtés,</l>
+              <l>Parcourir au hasard les cieux épouvantés ;</l>
+              <l>Quand j’entendrais gémir et se briser la terre ;</l>
+              <l>Quand je verrais son globe errant et solitaire,</l>
+              <l>Flottant loin des soleils, pleurant l’homme détruit,</l>
+              <l>Se perdre dans les champs de l’éternelle nuit ;</l>
+              <l>Et quand, dernier témoin de ces scènes funèbres,</l>
+              <l>Entouré du chaos, de la mort, des ténèbres,</l>
+              <l>Seul je serais debout, seul malgré mon effroi,</l>
+              <l>Être infaillible et bon, j’espérerais en toi,</l>
+              <l>Et, certain du retour de l’éternelle aurore,</l>
+              <l>Sur les mondes détruits je t’attendrais encore !</l>
             </quote>
             <bibl><author>LAMARTINE</author> (<title>L’immortalité</title>).</bibl>
           </cit>
@@ -522,21 +523,20 @@
           <p>L’aisance avec laquelle un poème est composé n’est pas chose indifférente au point de vue artistique. Elle ajoute à l’attrait de l’œuvre. Elle lui donne de la grâce. Le lecteur en jouit par sympathie. Parlant de Virgile et de Racine, Lamennais remarque que <quote>« les lignes de leur style ondulent avec la même pureté, la même finesse, la même grâce exquise, que celles des plus belles statues grecques</quote><note resp="author"><hi rend="i">De l’art et du beau</hi>. Garnier, 1872, p. 170.</note><quote> »</quote>. Telle est bien l’impression que donne cette allure souple et naturelle de la pensée qui se laisse aller à l’inspiration. L’effet à produire sur l’esprit du lecteur étant de l’amener à l’état de contemplation rêveuse, on conçoit qu’il sera plus facile d’obtenir ce résultat quand le poème lui-même aura ce caractère de libre rêverie : alors il nous suffira d’en suivre le mouvement, d’en prendre l’unisson. En le lisant, nous n’y sentirons aucune contrainte, aucun effort. Etant œuvre de pure poésie, il nous donnera une impression plus purement poétique.</p>
           <p>Constatons encore que l’œuvre d’inspiration aura cette qualité éminente, la sincérité. Nous serons plus disposés à entrer dans l’état d’âme du poète, si nous sentons qu’il parle sans préparation, sans artifice, sous l’influence directe des sentiments qu’il exprime, dans la vision réelle des images qu’il nous décrit. — La poésie lyrique en particulier n’est possible que comme expression d’une effervescence intérieure, d’un sentiment exalté qui déborde en images. Elle ne saurait être préméditée, composée à froid. Soient par exemple ces belles stances lyriques.</p>
           <quote>
-            <l>    L’abîme, où les soleils sont les égaux des mouches,</l>
-            <l>    Nous tient ; nous n’entendons que des sanglots farouches</l>
+            <l>L’abîme, où les soleils sont les égaux des mouches,</l>
+            <l>Nous tient ; nous n’entendons que des sanglots farouches</l>
             <l>        Ou des rires moqueurs ;</l>
-            <l>    Vers la cible d’en haut qui dans l’azur s’élève,</l>
-            <l>    Nous lançons nos projets, nos vœux, l’espoir, le rêve,</l>
+            <l>Vers la cible d’en haut qui dans l’azur s’élève,</l>
+            <l>Nous lançons nos projets, nos vœux, l’espoir, le rêve,</l>
             <l>        Ces flèches de nos cœurs.</l>
-            <l>    Nous montons à l’assaut du temps comme une armée.</l>
-            <l>    Sur nos groupes confus que voile la fumée</l>
+            <l>Nous montons à l’assaut du temps comme une armée.</l>
+            <l>Sur nos groupes confus que voile la fumée</l>
             <l>        Des jours évanouis,</l>
-            <l>    L’énorme éternité luit, splendide et stagnante ;</l>
-            <l>    Le cadran, bouclier de l’heure rayonnante,</l>
+            <l>L’énorme éternité luit, splendide et stagnante ;</l>
+            <l>Le cadran, bouclier de l’heure rayonnante,</l>
             <l>        Nous terrasse éblouis !</l>
-            <l>            V. HUGO. <hi rend="i">Contemplations</hi>.</l>
-            <l>            <hi rend="i">Pleurs dans la nuit.</hi></l>
-          </quote>
+            <bibl>V. HUGO. <hi rend="i">Contemplations</hi>. <hi rend="i">Pleurs dans la nuit.</hi></bibl>
+            </quote>
           <p>La pièce a plus de 600 vers. D’un bout à l’autre c’est ainsi ; une suite ininterrompue de visions, évoquées avec une fécondité d’invention inouïe, chaque vers faisant surgir brusquement une image ; entre ces images, aucun lien ; elles se succèdent d’un mouvement indépendant, parfois glissant l’une sur l’autre, se fondant l’une dans l’autre de telle façon que l’une commence à se projeter sur le fond mental quand l’autre ne s’en est pas encore effacée, à peine reliées entre elles par ces rapports mystérieux d’association qui semblent tout naturels au rêveur et qui échappent à la pensée lucide ; dans la suite des strophes, aucune trace de plan. Évidemment le poète n’a rien prémédité. Ce qui achève de le prouver c’est que la pièce n’aboutit à aucune conclusion ; après quelques strophes de mise en train, elle atteint rapidement son maximum d’effet, et finit par épuisement. Comment le poète a-t-il procédé ? On peut se le représenter assez aisément. Il a senti s’abattre sur lui des idées sombres, et il a commencé à écrire ; les premières images qui se sont présentées à lui en ont appelé d’autres à leur suite, plus lamentables encore. Le rythme même de ses vers, le balancement monotone de la strophe ont fait sur lui l’impression d’un glas funèbre. Il s’est ainsi enfoncé dans une méditation de plus en plus lugubre. La réflexion n’avait pas à intervenir. C’est l’imagination, stimulée par une émotion intense, qui a tout fait. De là l’incohérence, l’illogisme, le caractère presque délirant des images ; de là leur puissance d’expression et leur incomparable lyrisme.</p>
           <p>Il est encore une occasion où la méthode d’inspiration s’impose : c’est dans le développement de l’action dramatique. Soit un personnage de tragédie ou de roman qui se trouve engagé dans une situation déterminée. Il s’agit de trouver ce qu’il doit penser, ce qu’il doit sentir, comment il doit s’exprimer. Cela n’est pas arbitraire. Les personnages dramatiques, si l’auteur disposait arbitrairement de leur vie intime, ne seraient plus des êtres vivants, mais de simples marionnettes dont il tirerait les fils. Mais d’autre part, il est impossible de déduire, du caractère que l’on a prêté au personnage, le détail des pensées qu’il concevrait, des sentiments qu’il éprouverait et qu’il exprimerait dans cette circonstance. Nous ne pouvons le savoir de science certaine, quelle que puisse être notre expérience de la vie et notre connaissance du cœur humain<note resp="author">Voir le développement de l’opinion contraire par Paul Janet, La psychologie dans les tragédies de Racine. <hi rend="i">Revue des Deux Mondes</hi>, 15 septembre 1875, p. 267.</note>.</p>
           <p>Telle est donc la situation paradoxale faite au poète ; dans le développement de l’action dramatique, il faut qu’il se conforme à des lois qu’il ignore. Ce problème, qui pour l’intelligence lucide serait insoluble, ne sera pour l’imagination qu’un jeu. Le romancier, le dramaturge s’efforcera d’entrer dans ses personnages, de s’identifiera eux ; il se pénétrera de leurs sentiments ; et puis il s’abandonnera au mouvement spontané des idées et des émotions que la situation lui suggérera<note resp="author">Sur l’objectivation des personnages dramatiques, voir F. de Curel (Lettre citée par A. Binet, <hi rend="i">Année psychologique</hi>, 1894, p. 133.) Ces observations, faites sur lui-même par F. de Curel, témoignent d’une remarquable faculté d’introspection et sont de précieux documents psychologiques. À remarquer tout ce qui a trait à l’utilisation de la rêverie, comme procédé d’invention.</note>. L’œuvre qu’il aura ainsi composée sera forcément vivante, puisqu’elle aura été réellement vécue. La suite des sentiments qu’il prêtera à ses personnages ne pourra manquer d’être conforme aux lois de la psychologie, puisqu’il aura fait jouer ces lois en lui-même.</p>
@@ -546,7 +546,7 @@
           <p>Nous avons admis qu’à la rigueur le sujet d’une œuvre pouvait être déduit de considérations abstraites ; mais il ne peut en être ainsi de toute la suite du développement ; autrement l’œuvre entière garderait ce caractère sec et abstrait ; à aucun moment elle ne serait artistique et vivante. Qu’une œuvre à composer se présente d’abord comme un problème à résoudre, soit. La réflexion peut poser le problème, ce n’est pas elle qui le résoudra. Cela est vrai d’un problème géométrique : si précises qu’en soient les données, la solution n’en ressort jamais par pure déduction : elle ne peut se trouver que par tâtonnement intellectuel, en choisissant parmi les idées qui se présenteront au hasard, dans cette méditation inconsciente qui est la rêverie du penseur. A plus forte raison cela sera-t-il vrai des problèmes d’art, qui sont autrement complexes, et ne comportent pas une solution déterminée, mais une infinité de solutions à peu près équivalentes. Pourquoi Edgar Poe, se proposant d’écrire un poème de l’effet poétique le plus intense, c’est-à-dire court, original, d’un caractère mélancolique, avec refrains, est-il justement tombé sur son poème du Corbeau ? C’est évidemment par une suite de hasards, c’est-à-dire parce que ces images se sont présentées spontanément à lui au cours de sa méditation, et lui ont paru répondre assez bien aux données du problème. Peut-être même cette idée le hantait-elle déjà, depuis quelque temps, et lui a-t-elle suggéré elle-même les raisons qu’il s’est données de la choisir. Si, partant de son intention initiale d’écrire un poème aussi esthétique que possible, il était vraiment arrivé par déduction rigoureuse à l’idée qu’il a mise en œuvre, il s’ensuivrait que le Corbeau est le poème par excellence, et que se proposant d’écrire un beau poème on n’en saurait écrire d’autre. En réalité, par la même méthode qu’a employée E. Boutroux pour démontrer la contingence des lois de la nature, on pourrait prouver que la genèse d’une œuvre d’art n’est jamais déterminée par une nécessité logique ; à chaque progrès qu’elle fait apparaissent en elle des éléments nouveaux, inattendus, produits de la pensée libre, qui pour son auteur même sont une surprise.</p>
         </div>
         <div>
-          <head>§ 2. – Méthode de réflexion.</head>
+          <head>§ 2. — Méthode de réflexion.</head>
           <p>Nous avons fait à l’inspiration sa part. Il nous reste à chercher quel rôle peut et doit jouer, dans la genèse de l’œuvre poétique, la pensée lucide et consciente.</p>
           <p>Certains théoriciens seraient disposés à ne lui en accorder aucun. <quote>« Le génie doit créer comme l’imagination travaille, obéissant à une loi, poursuivant un but sans avoir conscience de l’un ni de l’autre. Une œuvre d’art, où nous constaterons l’action d’une réflexion consciente sur la disposition de l’ensemble, nous paraîtra pauvre</quote><note resp="author">H. Helmholtz, <hi rend="i">Théorie physiologique de la musique</hi>, trad. Guéroult, Masson, 1868, p. 479.</note><quote>. »</quote> Ce serait donc précisément par la portion qui échappe aux aperçus conscients de l’intelligence que l’œuvre d’art produirait son effet esthétique.</p>
           <p>Nous reconnaîtrons volontiers que dans une œuvre d’art il ne doit pas subsister trace de l’effort intellectuel qu’elle a coûté ; et cela est vrai surtout de l’œuvre destinée à donner une impression de poésie. S’ensuit-il que l’effort soit inutile ? En dissuader le poète, ce serait le priver d’un de ses plus puissants instruments de travail. S’imaginer qu’une œuvre poétique de quelque importance, un drame, un poème épique, a jamais été obtenu par élaboration spontanée et inconsciente, sans calcul, ni réflexion, par une pure intuition du génie, c’est se placer en dehors de toute réalité. C’est supposer qu’un édifice peut se construire sans plan ni calcul, sans fondations ni échafaudages, à la façon dont s’édifiaient les palais d’Aladin. La production toute spontanée d’une grande œuvre poétique ne serait pas plus merveilleuse. Je me demande même comment cette étrange hypothèse a jamais pu être soutenue ; car enfin on devrait se douter de la façon dont les écrivains composent ; on les voit au travail ; on sait quel a été le labeur des grands romanciers et des grands poètes. Laissons donc de côté cette théorie du génie qui n’a avec la psychologie d’observation aucun rapport.</p>
@@ -597,12 +597,12 @@
           <p>Sans doute cette méthode est très pénible. L’inspiration est certainement plus commode : si elle suffisait toujours, il est bien évident qu’on ne se fatiguerait jamais la tête à réfléchir. Mais encore une fois, il est des cas où la réflexion est nécessaire. Au cours de la composition poétique, il est des opérations indispensables que seule elle peut effectuer.</p>
           <p>La pratique même indiquera à l’écrivain dans quels cas il doit y recourir. Au cours d’un long travail de composition, il ira d’une méthode à l’autre, selon les besoins du moment. Ce changement se fait d’instinct. On accueille l’idée qui se présente, si elle est de tout point satisfaisante ; si elle ne suffît pas, on cherche, on s’ingénie, on raisonne, on réfléchit jusqu’à ce qu’on ait trouvé. Mais surtout il faut résister à ce préjugé, en vertu duquel on attribue aux productions spontanées de l’imagination une supériorité littéraire. Un chef-d’œuvre ne se crée pas sans travail.</p>
           <quote>
-            <l>    Rien ne peut s’accomplir sans lutte et sans douleur.</l>
-            <l>    Quel patient effort pour que s’ouvre une fleur !</l>
-            <l>            M. BOUCHOR, <hi rend="i">Les Mystères d’Eleusis</hi>.</l>
+            <l>Rien ne peut s’accomplir sans lutte et sans douleur.</l>
+            <l>Quel patient effort pour que s’ouvre une fleur !</l>
+            <bibl>M. BOUCHOR, <hi rend="i">Les Mystères d’Eleusis</hi>.</bibl>
           </quote>
           <p>Le génie, c’est un grand effort.</p>
-          <p>Il se produit d’ailleurs, à la suite d’efforts cérébraux intenses, un phénomène psychique remarquable : c’est cette sorte d’excitation des facultés inventives, que finit par provoquer la réflexion même. L’inspiration, dit E. Pailleron, peut être comparée à la mise en train des hauts fourneaux : <quote>« quand c’est rouge, tout va bien</quote><note resp="author">Cité par A. Binet, <hi rend="i">Année psychologique</hi>, 1894, p. 100.</note><quote> »</quote>. Selon A. Daudet et quelques autres écrivains, ce phénomène se produirait soudainement, comme une crise. <quote>« Tout à coup, brusquement, sans qu’on sache pourquoi ni comment, la crise du travail commence. C’est comme un surcroît de chaleur vitale qui monte au cerveau ; on est pris, envahi par son sujet et on se met à écrire avec fièvre. Alors rien ne vous arrête ; l’encrier est vide, le crayon est cassé ; peu importe, on va toujours. On s’irrite contre la nuit qui tombe, et l’on se crève les yeux dans le crépuscule en attendant la lampe qui ne vient pas. On dispute le temps au sommeil et aux repas. S’il faut partir, aller à la campagne, faire un voyage, on ne peut pas se décider à quitter le travail, on écrit encore debout, sur un coin de sa malle</quote><note resp="author"><hi rend="i">Ibid</hi>., p. 92.</note><quote>. »</quote> Ainsi, à force de réflexion, on arrive à déterminer une sorte d’inspiration supérieure, parfois pénible encore, quelques écrivains en parlent comme d’un état d’obsession et de fièvre, mais productive, féconde, dans laquelle toutes les facultés s’exaltent à la fois.</p>
+          <p>Il se produit d’ailleurs, à la suite d’efforts cérébraux intenses, un phénomène psychique remarquable : c’est cette sorte d’excitation des facultés inventives, que finit par provoquer la réflexion même. L’inspiration, dit E. Pailleron, peut être comparée à la mise en train des hauts fourneaux : <quote>« quand c’est rouge, tout va bien</quote><note resp="author">Cité par A. Binet, <hi rend="i">Année psychologique</hi>, 1894, p. 100.</note><quote> »</quote>. Selon A. Daudet et quelques autres écrivains, ce phénomène se produirait soudainement, comme une crise. <quote>« Tout à coup, brusquement, sans qu’on sache pourquoi ni comment, la crise du travail commence. C’est comme un surcroît de chaleur vitale qui monte au cerveau ; on est pris, envahi par son sujet et on se met à écrire avec fièvre. Alors rien ne vous arrête ; l’encrier est vide, le crayon est cassé ; peu importe, on va toujours. On s’irrite contre la nuit qui tombe, et l’on se crève les yeux dans le crépuscule en attendant la lampe qui ne vient pas. On dispute le temps au sommeil et aux repas. S’il faut partir, aller à la campagne, faire un voyage, on ne peut pas se décider à quitter le travail, on écrit encore debout, sur un coin de sa malle</quote><note resp="author"><hi rend="i">Ibid.</hi>, p. 92.</note><quote>. »</quote> Ainsi, à force de réflexion, on arrive à déterminer une sorte d’inspiration supérieure, parfois pénible encore, quelques écrivains en parlent comme d’un état d’obsession et de fièvre, mais productive, féconde, dans laquelle toutes les facultés s’exaltent à la fois.</p>
         </div>
       </div>
       <div>
@@ -618,11 +618,11 @@
         <p>Je me rends compte que la parfaite précision du style, pour être maintenue, exige un effort, une maîtrise de soi, qui n’est pas compatible avec la rêverie ; on ne doit donc pas la demander au poète ; il ne doit même pas en donner l’impression. De tout temps on l’a autorisé à ne pas trop resserrer ses expressions, à leur donner un certain jeu. Il ne faudrait pourtant pas abuser de ce droit. L’usage trop constant de cette licence poétique aurait l’inconvénient de faire perdre à l’écrivain tout souci de précision dans l’expression de sa pensée. Il en viendrait à se complaire dans les transpositions de termes, dans les à-peu-près. La tentation est si forte ! Le mot juste est parfois si difficile à amener dans un vers !</p>
         <p>L’usage même de la métaphore incite les poètes à faire porter à faux leurs expressions ; et ce qui est le plus dangereux, c’est qu’il couvre toutes les négligences ; quand le poète a pris un mot pour l’autre, il en est quitte pour dire que c’est une métaphore. Les poètes d’inspiration sont particulièrement exposés à ces divagations de la parole. Quelques contemporains les ont recherchées systématiquement. Ils leur ont trouvé un charme particulier. Ils s’en sont fait un programme.</p>
         <quote>
-          <l>    Il faut aussi que tu n’ailles point</l>
-          <l>    Choisir tes mots sans quelque méprise :</l>
-          <l>    Rien de plus cher que la chanson grise</l>
-          <l>    Où l’Indécis au Précis se joint.</l>
-          <l>            VERLAINE.</l>
+          <l>Il faut aussi que tu n’ailles point</l>
+          <l>Choisir tes mots sans quelque méprise :</l>
+          <l>Rien de plus cher que la chanson grise</l>
+          <l>Où l’Indécis au Précis se joint.</l>
+          <bibl>VERLAINE.</bibl>
         </quote>
         <p>Ce procédé de style n’est pas tout à fait absurde. On en peut obtenir certains effets. Pour exprimer des idées très vagues, des sentiments très nébuleux, les mots les moins précis ont un sens trop déterminé encore. En posant franchement et de parti pris tous les mots à faux, on abaisse leur vertu suggestive à l’extrême limite, passée laquelle ils ne signifieraient plus rien du tout. Le lecteur perd l’habitude d’en interpréter aucun à la lettre ; la pensée se trouve ainsi délivrée de l’obligation de prendre une forme définie ; l’idée reste flottante, indécise et libre entre ces mots dont aucun n’a de prise sur elle. Il est en tout cas un état d’âme que cette façon d’écrire exprimera parfaitement : c’est celui du poète fatigué, qui n’a même plus la force de chercher ses mots.</p>
         <p>Les œuvres composées suivant ce système resteront comme un curieux exemple des effets littéraires que l’on peut tirer du <hi rend="i">laisser-aller</hi> verbal.</p>
@@ -631,7 +631,7 @@
         <p>D’où vient le plaisir particulier que nous éprouvons à lire ou entendre des vers ? A cette question, nous serions tentés de répondre immédiatement : de leur contenu poétique. S’ils produisent un tel effet esthétique, n’est-ce pas par la vertu qu’ils ont d’agir sur l’imagination, par la splendeur des visions qu’ils nous suggèrent, par ce luxe de comparaisons et de métaphores, par la profondeur ou la noblesse des sentiments qu’ils expriment, par leur poésie en un mot ? Rien de plus juste. Mais on n’a pas répondu à la question. La poésie en effet n’est pas chose essentielle au vers, et qui explique son attrait particulier. Comme nous l’avons constaté, on trouve aussi de la poésie dans la prose. D’autre part, le vers n’est pas nécessairement poétique ; il en est d’excellents qui valent par de tout autres qualités que celle-là.</p>
         <p>Dans ce vers de Racine qu’admirait tant Flaubert,</p>
         <quote>
-          <l>    La fille de Minos et de Pasiphaë !</l>
+          <l>La fille de Minos et de Pasiphaë !</l>
         </quote>
         <p>où est la poésie ?</p>
         <p>Peut-être la poésie produit-elle plus d’effet dans les vers que dans la prose, et s’y rencontre-t-elle plus fréquemment, pour des raisons qui restent à expliquer. Mais ce n’est pas dans cette prédominance que peut consister l’attrait très spécial des vers. Il le faut chercher dans quelque chose d’inhérent à la versification ; et cette chose est évidente ; elle saute aux yeux par la seule disposition typographique des vers ; c’est le rythme.</p>
@@ -650,9 +650,9 @@
         <p>Il serait très intéressant d’étudier, au point de vue de l’effet poétique, les divers systèmes de versification qui ont été successivement usités, depuis l’antiquité jusqu’à nos jours. En France même, actuellement, le poète dispose d’un grand nombre de combinaisons rythmiques, qui chacune ont leur expression particulière. Je dirai seulement quelques mots de notre alexandrin classique, qui reste jusqu’à nouvel ordre le vers typique et normal de la poésie française. Je voudrais répondre à une critique qu’on lui a adressée.</p>
         <p>Parce que sa mesure est très régulière, on l’a accusé de monotonie. Mais c’est cette régularité même qui permet d’obtenir des effets de rythme si variés et si puissants, par les diverses façons dont cette cadence uniforme du vers se combine avec le rythme propre et indéfiniment variable de la phrase. Tantôt en effet la phrase tombe parfaitement en mesure avec le vers ; tantôt elle est avec lui en différence de phase, et ce sont des effets de contretemps d’une singulière intensité d’expression. Soient ces lignes de prose : <quote>« Le duel reprend ; la mort plane ; le sang ruisselle. Durandal heurte et suit Closamont. L’étincelle jaillit. »</quote> C’est une phrase qui a son rythme propre, bref, saccadé, assez expressif, mais en somme de médiocre valeur esthétique. Soient maintenant ces vers :</p>
         <quote>
-          <l>    Le duel reprend, la mort plane, le sang ruisselle.</l>
-          <l>    Durandal heurte et suit Closamont. L’étincelle</l>
-          <l>    Jaillit...</l>
+          <l>Le duel reprend, la mort plane, le sang ruisselle.</l>
+          <l>Durandal heurte et suit Closamont. L’étincelle</l>
+          <l>Jaillit...</l>
         </quote>
         <p>C’est tout autre chose, et c’est bien mieux. Ici en effet vous avez deux rythmes, celui de la phrase et celui du vers, tantôt s’accordant, tantôt se contrariant comme deux forces indépendantes, et toujours s’accentuant l’un l’autre, par leurs oppositions aussi bien que par leurs rencontres. Quelle valeur incomparable prennent les mots par la façon dont ils tombent en mesure ou à contretemps, en fin de vers ou en rejet ! Tous ces effets de rythme disparaissent si l’on n’a pas constamment présente à l’esprit la cadence du vers, surtout aux moments où elle ne coïncide pas avec la coupe de la phrase<note resp="author">Voir à ce sujet d’excellentes analyses de Raoul de la Grasserie, <hi rend="i">Des principes esthétiques de la versification française</hi>, Maisonneuve, 1900. C’est un des traités les plus complets qui aient été publiés sur ce sujet.</note>. Le rythme régulier est la mesure normale.</p>
         <p>Il va de soi qu’on ne pourrait s’en contenter. Pour satisfaire à notre besoin de variété et pour les nécessités de l’expression, on pourra en déranger la cadence, la ralentir, la précipiter, et par instants même, pour porter l’émotion à son maximum, la briser brusquement. Mais pas un instant on ne nous la fera oublier. Les accidents rythmiques, les variations du mouvement sonore, sa plus ou moins grande rapidité n’ont évidemment d’expression que par rapport au mouvement normal, comme exception à une loi dont nous devons garder la notion. Et notre vers français, tel que l’ont forgé nos grands poètes, est précisément construit de manière à nous la conserver toujours.</p>

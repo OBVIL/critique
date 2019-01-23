@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Dante et Goethe : dialogues</title>
-        <author key="Agoult, Marie d’ (1805-1876)">Marie d’Agoult</author>
+        <author key="Agoult, Marie d’ (1805-1876)" ref="https://data.bnf.fr/fr/12161937/marie_de_flavigny_agoult/">Marie d’Agoult</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -59,7 +59,7 @@
         <date when="1866"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -304,7 +304,7 @@
           la sagesse de Dieu. La <hi rend="i">Comédie</hi> de Dante et la tragédie de Gœthe ont un
           même couronnement. Le dernier vers du poëme dantesque célèbre l’amour qui meut le soleil
           et les étoiles. <quote xml:lang="ita">« <hi rend="i">L’amor che muove il sole e l’altre stelle.</hi> »</quote> Le chœur mystique par qui
-          se termine le poëme goethéen chante <quote>« l’Éternel-Féminin, » « <foreign xml:lang="de"><hi rend="i">Das Ewig-Weibliche</hi></foreign>, »</quote> qui
+          se termine le poëme goethéen chante <quote>« l’Éternel-Féminin, » « <foreign xml:lang="deu"><hi rend="i">Das Ewig-Weibliche</hi></foreign>, »</quote> qui
           nous élève à Dieu. Seraient-ce là, Viviane, des analogies qu’il m’ait fallu chercher d’un
           esprit de paradoxe ?</p>
         <label type="speaker">VIVIANE.</label>
@@ -2067,9 +2067,9 @@
             >Comédie</hi>, dans cette première scène par qui s’ouvrent les deux chants les plus
           obscurs peut-être, les plus allégoriques de tout le poëme :</p>
         <quote>
-          <l>     Nel mezzo del cammin di nostra vita</l>
-          <l>     Mi ritrovai per una selva oscura</l>
-          <l>     Che la diritta via era smarrita…</l>
+          <l>Nel mezzo del cammin di nostra vita</l>
+          <l>Mi ritrovai per una selva oscura</l>
+          <l>Che la diritta via era smarrita…</l>
         </quote>
         <label type="speaker">MARCEL.</label>
         <p>Ah ! de grâce ! pitié pour les ignorants. Un peu de bon français, pour l’amour de Dieu ;
@@ -2157,9 +2157,9 @@
         <p>À la première tercine de l’enfer, que je vous priais de me traduire.</p>
         <label type="speaker">DIOTIME.</label>
         <quote>
-          <l>     Au milieu du chemin de notre vie,</l>
-          <l>     Je me trouvai dans une forêt obscure.</l>
-          <l>     Avant perdu la droite voie.</l>
+          <l>Au milieu du chemin de notre vie,</l>
+          <l>Je me trouvai dans une forêt obscure.</l>
+          <l>Avant perdu la droite voie.</l>
         </quote>
         <p>Quelle simplicité dans ce début, Viviane, quel mouvement rythmique ! Et comme aussitôt
           l’artiste se déclare dans la manière tout imagée dont il expose l’action ! Rien
@@ -2365,10 +2365,10 @@
           procession publique, toute la ville de Rome le voit et le raille.</p>
         <label type="speaker">ÉLIE.</label>
         <quote>
-          <l>     Que dirons-nous du bonhomme Virgile</l>
-          <l>     Que tu pendis, si vray que l’Évangile,</l>
-          <l>     Dans la corbeille jadis en ta fenestre</l>
-          <l>     Dont tant marry fut qu’estoit possible estre.</l>
+          <l>Que dirons-nous du bonhomme Virgile</l>
+          <l>Que tu pendis, si vray que l’Évangile,</l>
+          <l>Dans la corbeille jadis en ta fenestre</l>
+          <l>Dont tant marry fut qu’estoit possible estre.</l>
         </quote>
         <p>C’est le motif d’une des plus jolies gravures de Lucas de Leyde.</p>
         <label type="speaker">VIVIANE.</label>
@@ -2401,8 +2401,8 @@
           céleste Rome où Béatrice promet à Dante, que, avec elle, il sera citoyen dans
           l’éternité.</p>
         <quote>
-          <l>     E sarai meco senza fine cive</l>
-          <l>     Di quella Roma onde Cristo è Romano</l>
+          <l>E sarai meco senza fine cive</l>
+          <l>Di quella Roma onde Cristo è Romano</l>
         </quote>
         <p>Virgile ne joue qu’un rôle secondaire. Malgré la déférence avec laquelle Dante lui
           adresse la parole, ne l’appelant jamais que son maître et son seigneur, bien qu’il le
@@ -2416,9 +2416,9 @@
           d’adieu ; et Béatrice ne souffre même pas qu’il donne un regret, une larme, à ce guide si
           cher.</p>
         <quote>
-          <l>     Dante, perché Virgilio se ne vada</l>
-          <l>     Non piangere anco ; non piangere ancora,</l>
-          <l>     Che pianger ti convien per altra spada.</l>
+          <l>Dante, perché Virgilio se ne vada</l>
+          <l>Non piangere anco ; non piangere ancora,</l>
+          <l>Che pianger ti convien per altra spada.</l>
         </quote>
         <p>Et, sur cette parole presque dédaigneuse, sur cette défense de le pleurer, nous quittons
           le chantre de l’<hi rend="i">Énéide</hi>. Dante ne fait pas plus de façons pour congédier
@@ -2470,19 +2470,19 @@
           que la peinture du char sur lequel elle descend du ciel, ne peut s’appliquer qu’à une idée
           symbolisée. Mais nous n’en sommes pas là. Pour le moment, nous arrivons, avec Virgile et
           Dante, aux portes de l’enfer, où nous lisons l’inscription tragique :</p>
-        <p>Per me si va nella città dolente,</p>
-        <quote>
-          <l>     Par moi l’on va dans la cité dolente,</l>
+        <quote><l>Per me si va nella città dolente,</l>
+        </quote><quote>
+          <l>Par moi l’on va dans la cité dolente,</l>
           <l/>
-          <l>     Par moi l’on va dans l’éternelle douleur,</l>
-          <l>     Par moi l’on va chez la race perdue.</l>
-          <l>     La justice fut le mobile de mon grand Facteur ;</l>
+          <l>Par moi l’on va dans l’éternelle douleur,</l>
+          <l>Par moi l’on va chez la race perdue.</l>
+          <l>La justice fut le mobile de mon grand Facteur ;</l>
           <l/>
-          <l>     Me firent la divine puissance,</l>
-          <l>     La suprême sagesse et le premier amour.</l>
-          <l>     Avant moi il n’y eut point de choses créées,</l>
-          <l>     Sinon éternelles ; et éternellement je dure :</l>
-          <l>     Laissez toute espérance, vous qui entrez.</l>
+          <l>Me firent la divine puissance,</l>
+          <l>La suprême sagesse et le premier amour.</l>
+          <l>Avant moi il n’y eut point de choses créées,</l>
+          <l>Sinon éternelles ; et éternellement je dure :</l>
+          <l>Laissez toute espérance, vous qui entrez.</l>
         </quote>
         <label type="speaker">VIVIANE.</label>
         <p>Cette inscription est vraiment sinistre.</p>
@@ -2547,15 +2547,15 @@
           n’ai vu surpassé ni peut-être même égalé dans aucun art. Écoutez la musique enchanteresse
           de quelques-unes de ces tercines :</p>
         <quote>
-          <l>       Genti v’ eran con occhi tardi e gravi,</l>
-          <l>     Di grande autorità ne’ lor sembianti :</l>
-          <l>     Parlavan rado con voci soavi.</l>
-          <l>       Traemmoci così dall’ un de’ canti</l>
-          <l>     In luogo aperto, luminoso, e alto.</l>
-          <l>     Si che veder si potean tutti quanti</l>
-          <l>       Colà diritto supra ‘l verde smalto.</l>
-          <l>     Mi fur mostrati gli spiriti magni,</l>
-          <l>     Che di vederli in me stesso m’ esalto.</l>
+          <l>  Genti v’ eran con occhi tardi e gravi,</l>
+          <l>Di grande autorità ne’ lor sembianti :</l>
+          <l>Parlavan rado con voci soavi.</l>
+          <l>  Traemmoci così dall’ un de’ canti</l>
+          <l>In luogo aperto, luminoso, e alto.</l>
+          <l>Si che veder si potean tutti quanti</l>
+          <l>  Colà diritto supra ‘l verde smalto.</l>
+          <l>Mi fur mostrati gli spiriti magni,</l>
+          <l>Che di vederli in me stesso m’ esalto.</l>
         </quote>
         <label type="speaker">VIVIANE.</label>
         <p>C’est un bien grand charme que d’entendre les modulations si douces de votre voix virile,
@@ -2583,8 +2583,8 @@
             geste</hi>, est trop connu pour nous y arrêter. Lorsqu’il sort de sa défaillance, Dante
           est entouré de nouveaux tourments et de nouveaux tourmentés.</p>
         <quote>
-          <l>     Nuovi tormenti e nuovi tormentati</l>
-          <l>     Mi veggio intorno.</l>
+          <l>Nuovi tormenti e nuovi tormentati</l>
+          <l>Mi veggio intorno.</l>
         </quote>
         <p>Nous sommes avec lui au troisième cercle où tombe sur les pécheurs par gourmandise une
           pluie froide et lourde, mêlée de grêle et de neige. Notre poëte y est reconnu par un
@@ -2653,8 +2653,8 @@
           cardinaux, des clercs, des tonsurés de tous grades, qui, selon la dédaigneuse expression
           de Dante, se sont laissé tromper par « la courte moquerie des biens de la fortune. »</p>
         <quote>
-          <l>                 La corta buffa</l>
-          <l>     De’ ben, che son commessi alla Fortuna.</l>
+          <l>       La corta buffa</l>
+          <l>De’ ben, che son commessi alla Fortuna.</l>
         </quote>
         <p>Un peu plus bas, le Styx forme un marais stagnant que Dante traverse dans la barque de
           Phlégias, et où l’on voit, plongées sous les eaux fangeuses, les âmes des hommes colères
@@ -2700,19 +2700,19 @@
         <p>Pour voir ce phénomène étrange, un homme vivant dans l’enfer, Farinata s’est dressé dans
           son sépulcre :</p>
         <quote>
-          <l>     Ô Toscan qui, par la cité du feu,</l>
-          <l>     Vivant, t’en vas, ainsi parlant discrètement,</l>
-          <l>     Qu’il te plaise t’arrêter dans ce lieu.</l>
-          <l>     Ton langage te déclare manifestement</l>
-          <l>     Citoyen de cette noble patrie</l>
-          <l>     À laquelle, peut-être, je fus trop rigoureux.</l>
+          <l>Ô Toscan qui, par la cité du feu,</l>
+          <l>Vivant, t’en vas, ainsi parlant discrètement,</l>
+          <l>Qu’il te plaise t’arrêter dans ce lieu.</l>
+          <l>Ton langage te déclare manifestement</l>
+          <l>Citoyen de cette noble patrie</l>
+          <l>À laquelle, peut-être, je fus trop rigoureux.</l>
         </quote>
         <p>(Il faut savoir qu’après une bataille gagnée sur les guelfes, Farinata exerça dans
           Florence des représailles cruelles.) Ainsi parle le gibelin à Dante qui s’effraye et se
           serre contre son guide. Mais Virgile le pousse des deux mains vers la tombe où Farinata se
           tient, le front et la poitrine haute, « comme s’il avait l’enfer en grand dédain. »</p>
         <quote>
-          <l xml:lang="en">Com’ avesse lo inferno in gran dispitto.</l>
+          <l xml:lang="eng">Com’ avesse lo inferno in gran dispitto.</l>
         </quote>
         <p>Après qu’il a jeté sur notre poëte un regard hautain : « Qui furent tes ancêtres ? » lui
           dit-il. À peine quelques paroles sont échangées entre les deux Toscans que, d’une tombe
@@ -2781,8 +2781,8 @@
           contre nature, » Dante ne croyait assurément faire aucun tort à son honneur. La compagnie
           qu’il lui donne est celle des hommes les plus lettrés, les plus en renom de son temps.</p>
         <quote>
-          <l>          Tutti fur cherci,</l>
-          <l>     E letterati grandi e di gran fama.</l>
+          <l>Tutti fur cherci,</l>
+          <l>E letterati grandi e di gran fama.</l>
         </quote>
         <p>Dans le vingt-sixième chant du Purgatoire, il fait expier ce même vice à Guido Guinicelli
           qu’il appelle <hi rend="i">il padre mio e degli altri miei miglior</hi>. On avait alors à
@@ -2799,13 +2799,13 @@
         <p>En effet. Le peuple, en ses chansons, parle très gaiement de l’enfer, où il suppose très
           nombreuse et très bonne compagnie.</p>
         <quote>
-          <l>     Son’ andato all’ inferno, e son’ tornato,</l>
-          <l>     Misericordia, la gente che c’era !</l>
+          <l>Son’ andato all’ inferno, e son’ tornato,</l>
+          <l>Misericordia, la gente che c’era !</l>
         </quote>
         <p>Les amoureux s’y donnaient de tendres baisers :</p>
         <quote>
-          <l>     Ora caro mio ben, bacciami in bocca</l>
-          <l xml:lang="en">     Bacciami tanto ch’ io contenta sia !</l>
+          <l>Ora caro mio ben, bacciami in bocca</l>
+          <l xml:lang="eng">     Bacciami tanto ch’ io contenta sia !</l>
         </quote>
         <p>Le Callimaque de Machiavel, lorsqu’il s’exhorte à n’avoir ni peur ni vergogne d’aller en
           enfer, se dit qu’il y rencontrera tant de gens de bien !</p>
@@ -2848,8 +2848,8 @@
           disciple. Il tend vers lui les bras ; il le prie de permettre qu’il fasse quelques pas à
           ses côtés, et Dante baisse la tête en signe de révérence.</p>
         <quote>
-          <l>     Il capo chino</l>
-          <l>     Tenea, com’ uom che riverente vada.</l>
+          <l>Il capo chino</l>
+          <l>Tenea, com’ uom che riverente vada.</l>
         </quote>
         <p>Et alors Brunetto l’interroge avec un accent de tendresse paternelle, sur lui-même, sur
           Virgile ; puis il lui prédit sa gloire future : « Si tu suis ton étoile (vous vous
@@ -2860,7 +2860,7 @@
           Brunetto, cet ingrat et méchant peuple qui descendit de Fiesole aux temps anciens, et qui
           tient de la montagne et de la pierre, se fera, à cause de ta vertu, ton ennemi.</p>
         <quote>
-          <l xml:lang="en">Ti si fara, per tuo ben far, nimico.</l>
+          <l xml:lang="eng">Ti si fara, per tuo ben far, nimico.</l>
         </quote>
         <p>Remarquez, Viviane, cette façon pittoresque de parler : pour exprimer que les Florentins
           sont durs et hautains, ils tiennent de la montagne et de la pierre, dit Brunetto. « Race
@@ -2909,7 +2909,7 @@
           monstrueuse de celui qui fut le premier des traîtres : de Lucifer, le plus beau des anges
           devenu l’empereur du royaume douloureux,</p>
         <quote>
-          <l xml:lang="en">Lo Imperador del doloroso regno.</l>
+          <l xml:lang="eng">Lo Imperador del doloroso regno.</l>
         </quote>
         <p>Dans ses trois gueules énormes il broie éternellement les trois plus grands traîtres qui
           furent sur la terre : Judas, Brutus et Cassius.</p>
@@ -2933,16 +2933,16 @@
           religieuse, il les considérait à leur place, dans leur relation mutuelle, au sein de
           l’immensité, dans la <hi rend="i">grande mer de l’Être</hi>.</p>
         <quote>
-          <l xml:lang="en">Per lo gran’ mar dell’ Essere :</l>
+          <l xml:lang="eng">Per lo gran’ mar dell’ Essere :</l>
         </quote>
         <p>toutes, il les voyait, dans leur évolution sidérale, morale ou politique, surgissant, se
           développant, s’élevant, par une réciproque influence, des ténèbres à la lumière, de
           l’inertie à la liberté, à l’amour, c’est-à-dire à la conformité de plus en plus libre et
           parfaite des esprits et des destinées aux lois de la sagesse éternelle,</p>
         <quote>
-          <l>     Io che era al divino dall’ umano.</l>
-          <l>     Ed all’ eterno dal tempo venuto,</l>
-          <l>     E di Fiorenza in popol ginsto e sano.</l>
+          <l>Io che era al divino dall’ umano.</l>
+          <l>Ed all’ eterno dal tempo venuto,</l>
+          <l>E di Fiorenza in popol ginsto e sano.</l>
         </quote>
         <p>dit-il au trente et unième chant du Paradis.</p>
         <p>C’est la grande pensée des temps modernes ; c’est la pensée qui pénètre de part en part
@@ -2981,8 +2981,8 @@
           vers Dante, à travers les airs, d’une aile ouverte et ferme, ainsi que vers leur nid deux
           colombes pressées par le désir.</p>
         <quote>
-          <l>     Quali colombe dal disio chiamate,</l>
-          <l>     Con l’ali apert e ferme, al dolce nido.</l>
+          <l>Quali colombe dal disio chiamate,</l>
+          <l>Con l’ali apert e ferme, al dolce nido.</l>
         </quote>
         <p>Il eût fallu, d’une main plus délicate, m’essayer à vous rendre tant d’images fraîches et
           gracieuses, tirées de la lumière du jour, de l’attitude des plantes, des mœurs des
@@ -3085,18 +3085,18 @@
         <p>Nous revoyons le ciel. Sa douce couleur de saphir oriental rend la joie aux yeux de
           Dante.</p>
         <quote>
-          <l>     Dolce color d’ oriental zaffiro,</l>
-          <l xml:lang="en">     Che s’accoglieva nel sereno aspetto</l>
-          <l xml:lang="en">     Dell’ aer puro infino al primo giro,</l>
-          <l xml:lang="en"/>
+          <l>Dolce color d’ oriental zaffiro,</l>
+          <l xml:lang="eng">     Che s’accoglieva nel sereno aspetto</l>
+          <l xml:lang="eng">     Dell’ aer puro infino al primo giro,</l>
+          <l xml:lang="eng"/>
           <l>Agli occhi miei ricominciò diletto.</l>
         </quote>
         <p>Les astres reparaissent à sa vue ; mais ce sont les astres d’un autre hémisphère où
           brille d’un éclat merveilleux la <hi rend="i">Croix du Sud, il Crociero</hi>. Dante salue
           avec transport cette constellation inconnue aux hommes du Septentrion.</p>
         <quote>
-          <l>     O settentrional vedovo sito</l>
-          <l>     Poichè privato se’ di mirar quelle !</l>
+          <l>O settentrional vedovo sito</l>
+          <l>Poichè privato se’ di mirar quelle !</l>
         </quote>
         <label type="speaker">ÉLIE.</label>
         <p>Comment Dante a-t-il pu parler de la Croix du Sud, découverte plus de trois cents ans
@@ -3144,8 +3144,8 @@
           voudrais revenir encore avec vous à ce que nous disions des opinions catholiques et
           monarchiques de Dante. Avec son <hi rend="i">droit de la monarchie</hi>,</p>
         <quote>
-          <l>     Jura Monarchiæ, superos, Phlegelonta, lacusque</l>
-          <l>     Lustrando, cecini, voluerunt fata quousque.</l>
+          <l>Jura Monarchiæ, superos, Phlegelonta, lacusque</l>
+          <l>Lustrando, cecini, voluerunt fata quousque.</l>
         </quote>
         <p>avec son empire céleste et son empire terrestre, son césar et son pontife, Dante n’en
           garde pas moins pour idéal suprême la liberté. En ses commencements, c’était aussi l’idéal
@@ -3162,11 +3162,11 @@
           dessein Dante vient en ces lieux, le chantre de l’<hi rend="i">Énéide</hi> dit ces beaux
           vers souvent cités :</p>
         <quote>
-          <l>     Libertà va cercando, ch’è si cara,</l>
-          <l>     Come sa chi per lei vita rifiuta.</l>
+          <l>Libertà va cercando, ch’è si cara,</l>
+          <l>Come sa chi per lei vita rifiuta.</l>
           <l/>
-          <l>     Il va cherchant la liberté, qui est si chère,</l>
-          <l>     Comme sait celui qui pour elle a quitté la vie.</l>
+          <l>Il va cherchant la liberté, qui est si chère,</l>
+          <l>Comme sait celui qui pour elle a quitté la vie.</l>
         </quote>
         <p>C’est au nom de l’amour encore, en rappelant les chastes yeux de Murcie,</p>
         <quote>
@@ -3181,22 +3181,22 @@
           ange céleste. Là, plus de cris, plus de hurlements, mais les soupirs, les larmes, les
           chants pieux des humbles et amoureuses espérances :</p>
         <quote>
-          <l>     Luogo è laggiù non tristo da martiri</l>
-          <l>     Ma di tenebre solo, ove i lamenti.</l>
-          <l>     Non suonan com guai, ma son sospiri.</l>
+          <l>Luogo è laggiù non tristo da martiri</l>
+          <l>Ma di tenebre solo, ove i lamenti.</l>
+          <l>Non suonan com guai, ma son sospiri.</l>
         </quote>
         <p>Au premier cercle ou anté-purgatoire sont les âmes négligentes et tardives au repentir.
           Puis, ainsi que dans l’Enfer, nos poëtes passent en revue les sept péchés capitaux. De
           degré en degré, avec une fatigue moindre, ils montent jusqu’au sommet où s’offrent à leur
           vue les ombrages délicieux du paradis terrestre :</p>
         <quote>
-          <l>             Questa montagna è tale</l>
-          <l>     Che sempre al cominciar di sotto è grave.</l>
-          <l>     E quanto nom più va su, e men fa male :</l>
+          <l>   Questa montagna è tale</l>
+          <l>Che sempre al cominciar di sotto è grave.</l>
+          <l>E quanto nom più va su, e men fa male :</l>
           <l/>
-          <l>             Cette montagne est telle</l>
-          <l>     Que toujours au commencement, en bas, elle est plus pénible ;</l>
-          <l>     Et plus l’homme monte, moins il a de peine à monter.</l>
+          <l>   Cette montagne est telle</l>
+          <l>Que toujours au commencement, en bas, elle est plus pénible ;</l>
+          <l>Et plus l’homme monte, moins il a de peine à monter.</l>
         </quote>
         <p>dit Virgile, exprimant ainsi, avec une simplicité naïve, une des plus hautes doctrines de
           l’éthique chrétienne.</p>
@@ -3224,16 +3224,16 @@
         <p>C’est là qu’il rencontre son ami Casella, qui lui chante une de ses propres <hi rend="i"
             >canzoni</hi> :</p>
         <quote>
-          <l>     <hi rend="i">Amor che nella mente mi ragiona</hi>,</l>
-          <l>     Cominciò egli allor si dolcemente</l>
-          <l>     Che la dolcezza ancor dentro mi suona.</l>
+          <l><hi rend="i">Amor che nella mente mi ragiona</hi>,</l>
+          <l>Cominciò egli allor si dolcemente</l>
+          <l>Che la dolcezza ancor dentro mi suona.</l>
         </quote>
         <p>Et les ombres, attirées par ce chant délicieux, s’assemblent autour de Casella, s’y
           oublient, ainsi que des colombes autour de l’oiselier.</p>
         <quote>
-          <l>     Come quando, cogliendo biada o loglio,</l>
-          <l>     Gli colombi adunati alla pastura.</l>
-          <l>     Queti, senza mostrar l’usato orgoglio.</l>
+          <l>Come quando, cogliendo biada o loglio,</l>
+          <l>Gli colombi adunati alla pastura.</l>
+          <l>Queti, senza mostrar l’usato orgoglio.</l>
         </quote>
         <p>Un peu plus loin, Belacqua, le fameux guitariste, Sordello, le troubadour aimé des
           femmes, Arnaldo Daniello, <hi rend="i">gran’ maestro d’amor</hi> ; puis aussi ce doux
@@ -3252,7 +3252,7 @@
           dans les beaux jours d’hiver, croit le printemps venu, et s’en va sifflant par les
           bois.</p>
         <quote>
-          <l xml:lang="en">Come fe il merlo per poca bonaccia.</l>
+          <l xml:lang="eng">Come fe il merlo per poca bonaccia.</l>
         </quote>
         <p>Et cet Oderisi, le miniaturiste, l’<hi rend="i">enlumineur</hi> célèbre, l’<hi rend="i"
             >honneur d’Agubbio</hi>, qui proclame la gloire de Giotto au-dessus de Cimabue ! Comment
@@ -3269,19 +3269,19 @@
           artiste pour ne pas en sauver la monotonie par de hardis contrastes. Ainsi, par exemple,
           l’apostrophe de Sordello :</p>
         <quote>
-          <l>     Ahi serva Italia, di dolore ostello.</l>
-          <l>     Nave senza nocchiero in gran tempesta !</l>
-          <l xml:lang="en"/>
-          <l>     Hélas serve Italie, asile de douleur,</l>
-          <l>     Nef sans nocher dans la grande tempête.</l>
+          <l>Ahi serva Italia, di dolore ostello.</l>
+          <l>Nave senza nocchiero in gran tempesta !</l>
+          <l xml:lang="eng"/>
+          <l>Hélas serve Italie, asile de douleur,</l>
+          <l>Nef sans nocher dans la grande tempête.</l>
         </quote>
         <p>et la description du cours de l’Arno par Guido del Duca ; ainsi encore, au
           vingt-troisième chant, la menace aux dévergondées Florentines qui, si elles savaient ce
           qui les attend dans l’enfer, « ouvriraient déjà la bouche pour hurler. »</p>
         <quote>
-          <l>     Ma se le svergognate fosser certe</l>
-          <l>     Di quel che’l ciel veloce loro ammanna,</l>
-          <l>     Gia per urlare avrian le bocche aperte.</l>
+          <l>Ma se le svergognate fosser certe</l>
+          <l>Di quel che’l ciel veloce loro ammanna,</l>
+          <l>Gia per urlare avrian le bocche aperte.</l>
         </quote>
         <label type="speaker">MARCEL.</label>
         <p>Les Florentines avaient donc de bien mauvaises mœurs ?</p>
@@ -3333,45 +3333,45 @@
           qu’en artiste, les images apocalyptiques. Ce char descend du ciel. Une lueur soudaine
           resplendit dans les airs d’où se dégage une douce mélodie.</p>
         <quote>
-          <l>     Ed una melodia dolce correva</l>
-          <l>     Per l’ aer luminoso.</l>
+          <l>Ed una melodia dolce correva</l>
+          <l>Per l’ aer luminoso.</l>
         </quote>
         <p>Sept flambeaux, radieux comme les sept étoiles du char de David, vingt-quatre vieillards
           vêtus de blanc, quatre animaux ailés, tels que les a peints Ézéchiel, nous dit le poëte,
           ouvrent un céleste cortège.</p>
         <quote>
-          <l>     Ventiquattro seniori, a due a due,</l>
-          <l>     Coronati venian di fiordaliso.</l>
-          <l>     Tutti cantavan : Benedetta tue</l>
-          <l>     Nelle figlie d’Adamo : e benedette</l>
-          <l>     Sieno in eterno le bellezze tue !</l>
+          <l>Ventiquattro seniori, a due a due,</l>
+          <l>Coronati venian di fiordaliso.</l>
+          <l>Tutti cantavan : Benedetta tue</l>
+          <l>Nelle figlie d’Adamo : e benedette</l>
+          <l>Sieno in eterno le bellezze tue !</l>
         </quote>
         <p>Mais il faut que je vous lise ce passage dans la traduction en vers de Louis Ratisbonne.
           Il l’a faite avec beaucoup de soin, aidé des conseils de Manin, et avec un don très rare
           de souplesse dans l’art des rimes. Je ne crois pas qu’il soit possible de mieux
           faire :</p>
         <quote>
-          <l>     Sous ce beau ciel paré comme pour une fête,</l>
-          <l>     Vingt-quatre beaux vieillards, de lis ceignant leur tête,</l>
-          <l>     S’avançaient deux à deux en ordre régulier.</l>
-          <l>     Ils chantaient tous en chœur : « Ô toi, fille choisie</l>
-          <l>     Entre les filles d’Ève, à jamais sois bénie !</l>
-          <l>     Sois bénie à jamais dans tes belles vertus ! »</l>
-          <l>     Puis, quand le gazon frais et la flore irisée,</l>
-          <l>     Qui brillaient devant moi sur la rive opposée,</l>
-          <l>     Ne furent plus foulés par ce troupeau d’élus,</l>
-          <l>     Comme au ciel un éclair après l’autre flamboie,</l>
-          <l>     Vinrent quatre animaux après eux dans la voie.</l>
-          <l>     Tous quatre couronnés de rameaux verdoyants.</l>
-          <l>     Et chacun d’eux avait six ailes admirables</l>
-          <l>     Que parsemaient des yeux aux yeux d’Argus semblables,</l>
-          <l>     Si les mille yeux d’Argus pouvaient être vivants.</l>
-          <l>     Mais je ne perdrai plus de vers à les décrire,</l>
-          <l>     Ô lecteur ! il me faut répandre ailleurs ma lyre,</l>
-          <l>     Et force m’est ici de me restreindre un peu.</l>
-          <l>     Mais lis Ézéchiel qui nous dépeint ces bêtes,</l>
-          <l>     Comme il les vit du fond du nord et des tempêtes</l>
-          <l>     Venir avec le vent, la nuée et le feu.</l>
+          <l>Sous ce beau ciel paré comme pour une fête,</l>
+          <l>Vingt-quatre beaux vieillards, de lis ceignant leur tête,</l>
+          <l>S’avançaient deux à deux en ordre régulier.</l>
+          <l>Ils chantaient tous en chœur : « Ô toi, fille choisie</l>
+          <l>Entre les filles d’Ève, à jamais sois bénie !</l>
+          <l>Sois bénie à jamais dans tes belles vertus ! »</l>
+          <l>Puis, quand le gazon frais et la flore irisée,</l>
+          <l>Qui brillaient devant moi sur la rive opposée,</l>
+          <l>Ne furent plus foulés par ce troupeau d’élus,</l>
+          <l>Comme au ciel un éclair après l’autre flamboie,</l>
+          <l>Vinrent quatre animaux après eux dans la voie.</l>
+          <l>Tous quatre couronnés de rameaux verdoyants.</l>
+          <l>Et chacun d’eux avait six ailes admirables</l>
+          <l>Que parsemaient des yeux aux yeux d’Argus semblables,</l>
+          <l>Si les mille yeux d’Argus pouvaient être vivants.</l>
+          <l>Mais je ne perdrai plus de vers à les décrire,</l>
+          <l>Ô lecteur ! il me faut répandre ailleurs ma lyre,</l>
+          <l>Et force m’est ici de me restreindre un peu.</l>
+          <l>Mais lis Ézéchiel qui nous dépeint ces bêtes,</l>
+          <l>Comme il les vit du fond du nord et des tempêtes</l>
+          <l>Venir avec le vent, la nuée et le feu.</l>
         </quote>
         <label type="speaker">MARCEL.</label>
         <p>Voilà, ne vous déplaise, une fort belle traduction et qui me dispense de prendre un
@@ -3387,18 +3387,18 @@
           vit, au triomphe d’Auguste ou bien de l’Africain, char plus beau ; celui même du soleil
           eût semblé pauvre auprès.</p>
         <quote>
-          <l>     Non che Roma di carro cosi bello</l>
-          <l>     Rallegrasse Africano, ovvero Augusto :</l>
-          <l>     Ma quel del sol saria pover con ello.</l>
+          <l>Non che Roma di carro cosi bello</l>
+          <l>Rallegrasse Africano, ovvero Augusto :</l>
+          <l>Ma quel del sol saria pover con ello.</l>
         </quote>
         <p>À la droite et à la gauche du char, sept dames forment une danse sacrée. Après le char
           s’avancent deux vénérables vieillards, dont l’un porte à la main un glaive flamboyant,
           quatre autres encore, d’une humble contenance, puis, à distance et seul, un vieillard au
           front lumineux, qui marche les yeux clos.</p>
         <quote>
-          <l>     Et quand fut vis-à-vis de moi le char insigne</l>
-          <l>     Un tonnerre éclata…</l>
-          <l>     Et cortège et flambeaux, soudain tout s’arrêta.</l>
+          <l>Et quand fut vis-à-vis de moi le char insigne</l>
+          <l>Un tonnerre éclata…</l>
+          <l>Et cortège et flambeaux, soudain tout s’arrêta.</l>
         </quote>
         <p>Disons brièvement que ce char symbolique sur lequel descend Béatrice est regardé par les
           commentateurs comme le char de l’Église et de l’État ensemble, l’antique <hi rend="i"
@@ -3415,8 +3415,8 @@
           premier jour, sent l’esprit de vie tressaillir au plus secret foyer de son âme. Il
           reconnaît de l’antique amour la grande puissance :</p>
         <quote>
-          <l>     Per occulta virtù, che da lei mosse</l>
-          <l>     D’antico amor senti la gran potenza.</l>
+          <l>Per occulta virtù, che da lei mosse</l>
+          <l>D’antico amor senti la gran potenza.</l>
         </quote>
         <p>Et Béatrice abaisse vers lui les yeux. « Regarde-moi bien : je suis, je suis
           Béatrice. »</p>
@@ -3435,9 +3435,9 @@
           moyen de l’en arracher demeurant inutile, elle a voulu lui faire voir le royaume des
           damnés.</p>
         <quote>
-          <l>     Tanto giù cadde, che tutti argomenti</l>
-          <l>     Alla salute sua eran già corti,</l>
-          <l>     Fuor che mostrargli le perdute genti.</l>
+          <l>Tanto giù cadde, che tutti argomenti</l>
+          <l>Alla salute sua eran già corti,</l>
+          <l>Fuor che mostrargli le perdute genti.</l>
         </quote>
         <p>Et Dante place une vision fort compliquée, dans laquelle il annonce, aussi peu
           intelligiblement qu’il l’a fait en enfer pour le lévrier sauveur, la venue d’un grand
@@ -3478,16 +3478,16 @@
         <p>Il y a dans les poésies de ce pauvre Musset des vers qui rendent, à sa manière juvénile,
           ce système planétaire et psychologique de Dante :</p>
         <quote>
-          <l>     J’aime ! voilà le mot de la nature entière…</l>
-          <l>     ........................</l>
-          <l>     Oh ! vous le murmurez dans vos sphères sacrées,</l>
-          <l>     Étoiles du matin, ce mot triste et charmant.</l>
-          <l>     La plus faible de vous, quand Dieu vous a créées,</l>
-          <l>     A voulu traverser les plaines éthérées</l>
-          <l>     Pour chercher le soleil, son immortel amant.</l>
-          <l>     Elle s’est élancée au sein des nuits profondes,</l>
-          <l>     Mais une autre l’aimait elle-même — et les mondes</l>
-          <l>     Se sont mis en voyage autour du firmament.</l>
+          <l>J’aime ! voilà le mot de la nature entière…</l>
+          <l>……………………………………………………………………………</l>
+          <l>Oh ! vous le murmurez dans vos sphères sacrées,</l>
+          <l>Étoiles du matin, ce mot triste et charmant.</l>
+          <l>La plus faible de vous, quand Dieu vous a créées,</l>
+          <l>A voulu traverser les plaines éthérées</l>
+          <l>Pour chercher le soleil, son immortel amant.</l>
+          <l>Elle s’est élancée au sein des nuits profondes,</l>
+          <l>Mais une autre l’aimait elle-même — et les mondes</l>
+          <l>Se sont mis en voyage autour du firmament.</l>
         </quote>
         <label type="speaker">VIVIANE.</label>
         <p>Ils sont charmants, ces vers. Mais continuez, Diotime.</p>
@@ -3531,8 +3531,8 @@
         <label type="speaker">DIOTIME.</label>
         <p>En effet.</p>
         <quote>
-          <l>     Bene operando l’ uom, di giorno in giorno,</l>
-          <l>     S’accorge che la sua virtute avanza.</l>
+          <l>Bene operando l’ uom, di giorno in giorno,</l>
+          <l>S’accorge che la sua virtute avanza.</l>
         </quote>
         <p>Comme Dante a toujours besoin d’exprimer par une image ses idées les plus abstraites, de
           même qu’il a dit, en décrivant la montagne du Purgatoire, que plus on monte moins on a de
@@ -3543,7 +3543,7 @@
           hauteurs éthérées, il monte avec elle, par la vertu de l’attraction divine, à travers les
           airs.</p>
         <quote>
-          <l xml:lang="en">Beatrice in suso, ed io in lei guardava.</l>
+          <l xml:lang="eng">Beatrice in suso, ed io in lei guardava.</l>
         </quote>
         <p>Admirez encore ici, Viviane, le génie de notre poëte : en un seul vers, en une image, la
           plus simple du monde, il fait voir en quelque sorte toute la théorie de l’amour
@@ -3559,8 +3559,8 @@
           contraire de Béatrice, Ève reste subordonnée et ne saurait voir Dieu que dans Adam.</p>
         <label type="speaker">ÉLIE.</label>
         <quote>
-          <l xml:lang="en">         He for God only</l>
-          <l>     She for God in him.</l>
+          <l xml:lang="eng">         He for God only</l>
+          <l>She for God in him.</l>
         </quote>
         <label type="speaker">DIOTIME.</label>
         <p>Dans les trois planètes inférieures que Dante visite en premier lieu, sont les âmes les
@@ -3569,20 +3569,20 @@
           Forese, à qui, au Purgatoire, en un seul vers, il a donné le plus enviable renom que
           puisse souhaiter une femme ici-bas :</p>
         <quote>
-          <l>         Tra bella e buona</l>
-          <l>     Non so qual fosse più,</l>
+          <l>    Tra bella e buona</l>
+          <l>Non so qual fosse più,</l>
         </quote>
         <p>et dont le front resplendit au séjour des bienheureux d’<hi rend="i">un non so chè
             divino</hi>. Là, Béatrice explique à Dante le problème de la liberté, le plus grand don,
           dit-elle, que Dieu, dans sa largesse, ait fait au monde :</p>
         <quote>
-          <l>     Lo maggior don, che Dio per sua larghezza,</l>
-          <l>     Fesse creando, e alla sua bontate</l>
-          <l>     Più conformato, e quel ch’ ei più apprezza.</l>
+          <l>Lo maggior don, che Dio per sua larghezza,</l>
+          <l>Fesse creando, e alla sua bontate</l>
+          <l>Più conformato, e quel ch’ ei più apprezza.</l>
           <l/>
-          <l>     Fu della volontà la libertate,</l>
-          <l>     Di che le creature intelligenti,</l>
-          <l>     Et tutte e sole furo e son dotate.</l>
+          <l>Fu della volontà la libertate,</l>
+          <l>Di che le creature intelligenti,</l>
+          <l>Et tutte e sole furo e son dotate.</l>
         </quote>
         <p>Au chant sixième, dans la planète de Mercure, Dante se trouve en présence de l’empereur
           Justinien. Il entend de sa bouche un récit grandiose, fait à la façon de Bossuet, des
@@ -3595,15 +3595,15 @@
             >quel giusto</hi>, et, après l’avoir loué des grands services rendus à son maître, il
           ajoute avec émotion :</p>
         <quote>
-          <l>     Mais alors il partit, pauvre et tout chargé d’âge.</l>
-          <l>     Si le monde savait ce qui’il eut de courage</l>
-          <l>     En mendiant son pain, et morceau par morceau,</l>
+          <l>Mais alors il partit, pauvre et tout chargé d’âge.</l>
+          <l>Si le monde savait ce qui’il eut de courage</l>
+          <l>En mendiant son pain, et morceau par morceau,</l>
           <l/>
           <l>Son renom déjà grand serait encor plus beau.</l>
           <l/>
-          <l>     Indi partissi povero e vetusto.</l>
-          <l>     E se ‘l mondo sapesse il cuor ch’ egli ebbe</l>
-          <l>     Mendicando sua vita a frusto a frusto.</l>
+          <l>Indi partissi povero e vetusto.</l>
+          <l>E se ‘l mondo sapesse il cuor ch’ egli ebbe</l>
+          <l>Mendicando sua vita a frusto a frusto.</l>
           <l/>
           <l>Assai lo loda, e più lo loderebbe.</l>
         </quote>
@@ -3631,19 +3631,19 @@
           Xerxès, dit le poëte, ou Melchisédech, ou Dédale ; mais la société n’a point égard à ces
           vocations naturelles.</p>
         <quote>
-          <l>     Si le monde observait pour chaque créature</l>
-          <l>     Le premier fondement que pose la nature</l>
-          <l>     Et s’il s’y conformait, il aurait de bon grain :</l>
+          <l>Si le monde observait pour chaque créature</l>
+          <l>Le premier fondement que pose la nature</l>
+          <l>Et s’il s’y conformait, il aurait de bon grain :</l>
           <l/>
-          <l>     Mais en religion pour le froc on élève</l>
-          <l>     Tel que le ciel avait fait naître pour le glaive ;</l>
-          <l>     L’on fait un roi de tel qui naquit pour prêcher.</l>
+          <l>Mais en religion pour le froc on élève</l>
+          <l>Tel que le ciel avait fait naître pour le glaive ;</l>
+          <l>L’on fait un roi de tel qui naquit pour prêcher.</l>
           <l/>
           <l>De là vient qu’au hasard on vous voit trébucher.</l>
           <l/>
-          <l>     Ma voi torcete alla religione</l>
-          <l>     Tal che fu nato a cingersi la spada ;</l>
-          <l>     E fate re di tal ch’è da sermona.</l>
+          <l>Ma voi torcete alla religione</l>
+          <l>Tal che fu nato a cingersi la spada ;</l>
+          <l>E fate re di tal ch’è da sermona.</l>
           <l/>
           <l>Onde la traccia vostra è fuor di strada.</l>
         </quote>
@@ -3750,8 +3750,8 @@
           ses ennemis, un Averroës, un Frédéric II, qui célèbre les prophètes de sa ruine, un
           Joachim de Flore,</p>
         <quote>
-          <l>     Il calavrese abate Giovacchino.</l>
-          <l>     Di spirito profetico dotato.</l>
+          <l>Il calavrese abate Giovacchino.</l>
+          <l>Di spirito profetico dotato.</l>
         </quote>
         <p>Dante semble tout inspiré du souffle qui plane sur Assise. Comme son ami Giotto, il peint
           avec prédilection saint François, et je ne doute pas, à son style, qu’il n’ait lu et relu
@@ -3778,34 +3778,34 @@
         <label type="speaker">DIOTIME.</label>
         <p>C’est lui-même. Au quatorzième chant, Dante arrive dans le ciel de Mars, où sont les âmes
           de ceux qui ont glorieusement péri dans les guerres justes. Son bisaïeul Cacciaguida
-          s’empresse vers lui : « O mon sang ! <hi rend="i">õ sanguis meus</hi> ! » s’écrie-t-il, du
+          s’empresse vers lui : « Ô mon sang ! <hi rend="i">õ sanguis meus</hi> ! » s’écrie-t-il, du
           plus loin qu’il l’aperçoit. En très beaux vers et dans un style d’une simplicité épique,
           le patricien toscan fait à son petit-fils l’histoire de leur maison. La <hi rend="i"
             >racine</hi> parle à la <hi rend="i">feuille</hi>.</p>
         <quote>
-          <l>     O fronda mia in che io compiacemmi</l>
-          <l>     Pure aspettando, io fui la tua radice.</l>
+          <l>O fronda mia in che io compiacemmi</l>
+          <l>Pure aspettando, io fui la tua radice.</l>
         </quote>
         <p>Cacciaguida retrace à Dante les mœurs anciennes. Florence sobre et pudique, le <hi
             rend="i">beau vivre</hi> des citoyens.</p>
         <quote>
-          <l>     A cosi bello</l>
-          <l>     Viver di cittadini, e cosi fida</l>
-          <l>     Cattadinanza, a cosi dolce ustello.</l>
-          <l>     Maria mi diè…</l>
+          <l>A cosi bello</l>
+          <l>Viver di cittadini, e cosi fida</l>
+          <l>Cattadinanza, a cosi dolce ustello.</l>
+          <l>Maria mi diè…</l>
         </quote>
         <p>Il fait un tableau tout hellénique, et d’une grâce surprenante dans la bouche d’un vieux
           guerrier, de ces mères florentines attentives au berceau, qui consolaient l’enfant dans le
           doux idiome natal, et, filant la quenouille, discouraient en famille des gestes des
           Troyens, de Fiesole et de Rome.</p>
         <quote>
-          <l>     L’una vegghiava a studio della culla</l>
-          <l>     E consolando usava l’ idioma</l>
-          <l>     Che pria li padri e le madri trastulla.</l>
+          <l>L’una vegghiava a studio della culla</l>
+          <l>E consolando usava l’ idioma</l>
+          <l>Che pria li padri e le madri trastulla.</l>
           <l/>
-          <l>     L’altra, traendo alla rocca la chioma.</l>
-          <l>     Favoleggiava con la sua famigllia</l>
-          <l>     De’ Troiani, e di Fiesole, e di Roma.</l>
+          <l>L’altra, traendo alla rocca la chioma.</l>
+          <l>Favoleggiava con la sua famigllia</l>
+          <l>De’ Troiani, e di Fiesole, e di Roma.</l>
         </quote>
         <p>C’est dans cet entretien, au début du seizième chant, que Dante fait une réflexion sur la
           noblesse du sang qui révèle de quelle nature était en lui le sentiment aristocratique. La
@@ -3826,27 +3826,27 @@
           dans son poëme de L’<hi rend="i">Esprit pur</hi> que la critique a blâmé comme trop peu
           modeste :</p>
         <quote>
-          <l>     C’est en vain que d’eux tous le sang m’a fait descendre.</l>
-          <l>     Si j’écris leur histoire ils descendront de moi.</l>
+          <l>C’est en vain que d’eux tous le sang m’a fait descendre.</l>
+          <l>Si j’écris leur histoire ils descendront de moi.</l>
         </quote>
         <label type="speaker">DIOTIME.</label>
         <p>Sans doute. — C’est Cacciaguida, vous vous le rappelez, Viviane, qui fait à Dante cette
           prédiction, si souvent citée, de sa gloire future et de l’exil où il mangera le pain amer
           et montera l’escalier d’autrui :</p>
         <quote>
-          <l>       Tu lascerai ogni cosa diletta</l>
-          <l>     Più caramente : e questu è quello strale</l>
-          <l>     Che l’ arco dell’ esitio pria saetta.</l>
+          <l>  Tu lascerai ogni cosa diletta</l>
+          <l>Più caramente : e questu è quello strale</l>
+          <l>Che l’ arco dell’ esitio pria saetta.</l>
           <l/>
-          <l>     Tu proverai sì come sa di sale</l>
-          <l>     Lo pane altruì, e com’ è duro calle</l>
-          <l>     Lo scendere e ‘l salir per l’ altrui scale.</l>
+          <l>Tu proverai sì come sa di sale</l>
+          <l>Lo pane altruì, e com’ è duro calle</l>
+          <l>Lo scendere e ‘l salir per l’ altrui scale.</l>
         </quote>
         <p>C’est par Cacciaguida que Dante se fait approuver d’avoir quitté la compagnie des
           factieux guelfes ou gibelins, et de s’être fait à lui seul son propre parti :</p>
         <quote>
-          <l>             A te fia bello</l>
-          <l>     Averti fatto parte per le stesso.</l>
+          <l>        A te fia bello</l>
+          <l>Averti fatto parte per le stesso.</l>
         </quote>
         <p>C’est à ce noble aïeul que notre poëte demande conseil pour savoir s’il devra taire ou
           révéler à son retour ici-bas la vision qu’il a eue des choses éternelles. Dante craint,
@@ -3859,9 +3859,9 @@
         <p>Mais il craint encore davantage, « s’il est un timide amant du vrai, » de perdre sa vie
           dans la postérité :</p>
         <quote>
-          <l>       E s’io al vero son timido amico.</l>
-          <l>     Temo di perder vita tra coloro</l>
-          <l>     Che questo tempo chiameranno antico.</l>
+          <l>  E s’io al vero son timido amico.</l>
+          <l>Temo di perder vita tra coloro</l>
+          <l>Che questo tempo chiameranno antico.</l>
         </quote>
         <p>Cette question de Dante à Cacciaguida : Les droits de la justice ou les devoirs de la
           bienveillance doivent-ils l’emporter dans les témoignages que chacun de nous porte au
@@ -3876,8 +3876,8 @@
           conscience ; mais quoi qu’il en soit, écarte tout mensonge et manifeste toute ta
           vision :</p>
         <quote>
-          <l>     Ma nondimen, ranossa ogni menzogna.</l>
-          <l>     Tutta tua vision fa manifesta.</l>
+          <l>Ma nondimen, ranossa ogni menzogna.</l>
+          <l>Tutta tua vision fa manifesta.</l>
         </quote>
         <p>Et il résume son opinion par une de ces sentences proverbiales, par une de ces images
           triviales et cyniques qui abondent dans les livres saints :</p>
@@ -3888,9 +3888,9 @@
           Cacciaguida à Dante, fera comme le vent qui assaille avec le plus de fureur les cimes les
           plus hautes. Et ce ne sera pas pour toi un honneur médiocre. »</p>
         <quote>
-          <l>     Questo tuo grido farà come vento</l>
-          <l>     Che le più alte cime più percuote.</l>
-          <l>     E ciò non fia d’ onor poco argomento.</l>
+          <l>Questo tuo grido farà come vento</l>
+          <l>Che le più alte cime più percuote.</l>
+          <l>E ciò non fia d’ onor poco argomento.</l>
         </quote>
         <p>Vous le voyez, mes amis, n’y eût-il dans toute la <hi rend="i">Comédie</hi> que ce seul
           discours de Cacciaguida qui se rapportât au but du poëte, aucun doute ne pourrait
@@ -3906,8 +3906,8 @@
           voix, qui, en parlant, dit, <hi rend="i">je</hi> et <hi rend="i">moi</hi>, quand sa pensée
           est <hi rend="i">nous</hi> et <hi rend="i">notre</hi>,</p>
         <quote>
-          <l>             Nella voce ed <hi rend="i">to</hi> e <hi rend="i">Mio</hi></l>
-          <l>     Quand’ era nel concetto <hi rend="i">Noi</hi> e’ <hi rend="i">Nostro</hi>.</l>
+          <l>        Nella voce ed <hi rend="i">to</hi> e <hi rend="i">Mio</hi></l>
+          <l>Quand’ era nel concetto <hi rend="i">Noi</hi> e’ <hi rend="i">Nostro</hi>.</l>
         </quote>
         <p>qui n’a qu’un même amour, a paru à quelques interprètes de Dante l’emblème de ce que nous
           appellerions aujourd’hui la vie collective de l’humanité, de ce qui s’appela longtemps en
@@ -3961,8 +3961,8 @@
           et mérité le ciel.</p>
         <p>Quant au Troyen Riphée, de qui Virgile a dit :</p>
         <quote>
-          <l>              Justissimus unus</l>
-          <l>     Qui fuit in Teucris et servantissimus æqui,</l>
+          <l>         Justissimus unus</l>
+          <l>Qui fuit in Teucris et servantissimus æqui,</l>
         </quote>
         <p>Dante le baptise de ce <hi rend="i">baptême de désir</hi> que l’Église accordait aux
           païens vertueux, parce qu’ils avaient pressenti obscurément, disait-elle, la rédemption
@@ -3978,19 +3978,19 @@
           selon Ptolémée, le séjour des solitaires contemplatifs. Là Béatrice devient si radieuse
           qu’elle n’oserait plus sourire :</p>
         <quote>
-          <l>     Ed ella non ridea : ma : S’ io ridessi.</l>
-          <l>     Mi comincio, tu ti faresti quale</l>
-          <l>     Fu Semelè quando di cener fessi.</l>
+          <l>Ed ella non ridea : ma : S’ io ridessi.</l>
+          <l>Mi comincio, tu ti faresti quale</l>
+          <l>Fu Semelè quando di cener fessi.</l>
         </quote>
         <p>Saint Damien et saint Benoit parlent à Dante. Le premier, en quelques vers d’une
           causticité shakespearienne, fait un parallèle satirique entre les anciens pasteurs de
           l’Église et ceux d’aujourd’hui : les uns, dit-il, saint Pierre et Saint Paul, s’en allant
           par le monde,</p>
         <quote>
-          <l>                     Maigres et pieds nus,</l>
-          <l>     Sous n’importe quel toit mangeant au jour le jour :</l>
-          <l>                       Magri e sealzi,</l>
-          <l>     Prendendo il cibo di qualunque ostello ;</l>
+          <l>                Maigres et pieds nus,</l>
+          <l>Sous n’importe quel toit mangeant au jour le jour :</l>
+          <l>                  Magri e sealzi,</l>
+          <l>Prendendo il cibo di qualunque ostello ;</l>
         </quote>
         <p>les autres, si engraissés, si lourds, qu’il leur faut des serviteurs en avant et en
           arrière, qui les hissent et les soutiennent sur leurs palefrois couverts de riches
@@ -4005,17 +4005,17 @@
           d’où le poëte jette un regard sur les sept planètes qu’il vient de parcourir. En voyant la
           terre si petite, il sourit :</p>
         <quote>
-          <l>     E vidi questo globo</l>
-          <l>     Tal, ch’ io sorrisi del suo vil sembiante.</l>
+          <l>E vidi questo globo</l>
+          <l>Tal, ch’ io sorrisi del suo vil sembiante.</l>
         </quote>
         <p>Vous vous rappelez que Dante est né sous cette constellation, propice aux esprits doctes.
           Il invoque ces astres glorieux ; il leur rend grâces, en très beaux vers, de
           l’intelligence, <hi rend="i">quelle qu’elle soit</hi>, qu’il a reçue d’eux tout
           entière,</p>
         <quote>
-          <l>     Oh gloriose stelle, oh lume pregno</l>
-          <l>     Di gran virtù, dal quale io riconosco</l>
-          <l>     Tutto (qual che si sia) il mio ingegno.</l>
+          <l>Oh gloriose stelle, oh lume pregno</l>
+          <l>Di gran virtù, dal quale io riconosco</l>
+          <l>Tutto (qual che si sia) il mio ingegno.</l>
         </quote>
         <p>Cependant nous approchons du dénouement. Dante, qui a senti, d’étoile en étoile, se
           fortifier sa puissance de vision, peut maintenant soutenir l’éclat du sourire de Béatrice.
@@ -4024,13 +4024,13 @@
           fixement et prévient d’un ardent désir le lever du soleil, guettant les premières lueurs
           de l’aube sous la nocturne feuillée.</p>
         <quote>
-          <l>     Come l’augello, intra l’amate fronde,</l>
-          <l>     Posatu al nido de’ suoi dolie nati,</l>
-          <l>     La notte che le cose ei nascoade.</l>
+          <l>Come l’augello, intra l’amate fronde,</l>
+          <l>Posatu al nido de’ suoi dolie nati,</l>
+          <l>La notte che le cose ei nascoade.</l>
           <l/>
-          <l>     Previene’, tempo in su l’aperta frasca.</l>
-          <l>     E con ardente affetto il Sole aspetta.</l>
-          <l>     Fiso guardando, pur che l’alba nasea.</l>
+          <l>Previene’, tempo in su l’aperta frasca.</l>
+          <l>E con ardente affetto il Sole aspetta.</l>
+          <l>Fiso guardando, pur che l’alba nasea.</l>
         </quote>
         <p>Soudain, les voici tous deux illuminés d’une lumière « à qui rien ne résiste. »
           Jésus-Christ apparaît, suivi de la vierge Marie et d’un cortège triomphal d’âmes
@@ -4049,20 +4049,20 @@
           sauraient supporter toute la splendeur, et que Dieu seul, lui qui l’a créée, en peut jouir
           entièrement.</p>
         <quote>
-          <l>     La bellezza ch’ io vidi si trasmoda</l>
-          <l>     Non par di là da noi, ma certo io credo</l>
-          <l>     Che solo il suo Fattor tutta la goda.</l>
+          <l>La bellezza ch’ io vidi si trasmoda</l>
+          <l>Non par di là da noi, ma certo io credo</l>
+          <l>Che solo il suo Fattor tutta la goda.</l>
         </quote>
         <p>Quant à lui, qui du premier jour où elle lui apparut ici-bas, l’a suivie, et chantée, il
           sent que désormais la tâche est au-dessus de ses forces et de son art.</p>
         <quote>
-          <l>     Dal primo giorno ch’ io vidi il suo viso</l>
-          <l>     In questa vita, insino a questa vista,</l>
-          <l>     Non è ‘l seguire al mio cantar preciso ;</l>
+          <l>Dal primo giorno ch’ io vidi il suo viso</l>
+          <l>In questa vita, insino a questa vista,</l>
+          <l>Non è ‘l seguire al mio cantar preciso ;</l>
           <l/>
-          <l>     Ma or convien, che’l mio seguir desista.</l>
-          <l>     Più dietro a sua bellezza, poetando,</l>
-          <l>     Come all’ ultimo suo ciascuno artista.</l>
+          <l>Ma or convien, che’l mio seguir desista.</l>
+          <l>Più dietro a sua bellezza, poetando,</l>
+          <l>Come all’ ultimo suo ciascuno artista.</l>
         </quote>
         <p>Béatrice montre à Dante les abords de la cité céleste, l’immense amphithéâtre où siègent
           sur des trônes les bienheureux qui ont là leur demeure fixe et ne font qu’apparaître
@@ -4071,13 +4071,13 @@
           souverain qui voulut relever de son abaissement l’Italie, mais avant qu’elle y fût
           disposée.</p>
         <quote>
-          <l>     In quel gran seggio, a che tu gli occhi tieni,</l>
-          <l>     Per la corona che già v’ è su posta.</l>
-          <l>     Prima che tu a queste nozze ceni,</l>
+          <l>In quel gran seggio, a che tu gli occhi tieni,</l>
+          <l>Per la corona che già v’ è su posta.</l>
+          <l>Prima che tu a queste nozze ceni,</l>
           <l/>
-          <l xml:lang="en">     Sederà l’ alma, che fia giù agosta,</l>
-          <l>     Dell’ alto Arrigo, ch’ a drizzare ltalia</l>
-          <l>     Verrà in prima ch’ ella sia disposta.</l>
+          <l xml:lang="eng">     Sederà l’ alma, che fia giù agosta,</l>
+          <l>Dell’ alto Arrigo, ch’ a drizzare ltalia</l>
+          <l>Verrà in prima ch’ ella sia disposta.</l>
         </quote>
         <p>Et pendant que Dante s’absorbe dans le souvenir du grand Henri, pendant qu’il regarde,
           ébloui, la divine assemblée, Béatrice va se rasseoir sur son trône, entre Rachel et Lia,
@@ -4085,7 +4085,7 @@
           l’interroger, il ne la voit plus à ses côtés, elle a disparu ; saint Bernard a pris sa
           place. « Où donc est-elle ? » s’écrie le poëte,</p>
         <quote>
-          <l xml:lang="en">Ed : Ella ov’ è ? di subito diss’ io.</l>
+          <l xml:lang="eng">Ed : Ella ov’ è ? di subito diss’ io.</l>
         </quote>
         <p>Et saint Bernard lui ordonne de lever les yeux. Alors Dante voit dans sa gloire la femme
           qui fut ici-bas son amour, sa passion, son culte, son salut. Et instantanément de son cœur
@@ -4101,8 +4101,8 @@
           pied ne fit qu’effleurer la terre et dont le berceau fut la tombe ; le saint proclame les
           noms des grands patriciens de l’empire éternel,</p>
         <quote>
-          <l>     I gran patrici</l>
-          <l>     Di questo imperio giustissimo e pio.</l>
+          <l>I gran patrici</l>
+          <l>Di questo imperio giustissimo e pio.</l>
         </quote>
         <p>Il invoque la Reine du ciel, afin que, par son intercession, Dante puisse soutenir
           l’éclat formidable de la face de Dieu et que sa raison ne soit pas submergée dans la
@@ -4111,8 +4111,8 @@
           âmes et des mondes. Il sent son désir, sa volonté, attirés invinciblement dans l’immense
           orbite de l’amour éternel « qui meut le soleil et les étoiles. »</p>
         <quote>
-          <l>     Ma già volgeva il mio disiro, e ‘l <hi rend="i">cette</hi>,</l>
-          <l>     Si come ruota, che igualmente è mossa,</l>
+          <l>Ma già volgeva il mio disiro, e ‘l <hi rend="i">cette</hi>,</l>
+          <l>Si come ruota, che igualmente è mossa,</l>
           <l/>
           <l>L’Amor che muove il Sole e l’ altre stelle.</l>
         </quote>
@@ -4168,7 +4168,7 @@
           fille releva le front, son front pâle et pur ; puis, d’un léger mouvement, l’ayant dégagé
           des longues boucles blondes qui l’offusquaient :</p>
         <quote>
-          <l>O Béatrice, dolce guida e cara !</l>
+          <l>O Beatrice, dolce guida e cara !</l>
         </quote>
         <p>dit-elle, en attachant ses beaux yeux sur les yeux de Diotime.</p>
       </div>
@@ -4334,7 +4334,7 @@
           génie apparu à mon enfance, dans le jardin maternel ; à ce génie bienfaisant que j’ai
           senti là toujours, près de moi, dans mes peines les plus cruelles, que je n’ai jamais
           invoqué en vain dans mes délaissements, et vers qui, à cette heure, réconciliée avec le
-          sort et récompensée par vous, je m’écrie du fond de l’âme : O mon père Gœthe, vous du
+          sort et récompensée par vous, je m’écrie du fond de l’âme : Ô mon père Gœthe, vous du
           moins, vous jamais, vous ne m’avez abandonnée !</p>
         <p>Diotime se leva et fit quelques pas sur la grève. On feignit de n’y pas prendre garde.
           Elle avait de ces brusques retours sur elle-même, au réveil de poignantes tristesses que
@@ -4709,7 +4709,7 @@
           <l>Sauve-moi ! je souffre l’éternel tourment de la mort vengeresse !</l>
           <l>Autrefois j’ai pu le haïr d’une haine ardente et farouche,</l>
           <l>Aujourd’hui je ne le saurais plus ; et cela aussi m’est une terrible angoisse.</l>
-          <l>     Oh ! que je suis broyée !…</l>
+          <l>Oh ! que je suis broyée !…</l>
         </quote>
         <p>Et le cri de détresse d’Adramalech éclate ; et le barbier épouvanté laisse choir le plat
           à barbe, et l’eau savonneuse inonde la vénérable poitrine quasi nue du conseiller
@@ -5352,7 +5352,7 @@
           des moralistes. Il proteste contre l’imitation de son héros, et lui met dans la bouche des
           vers pleins de sagesse où, s’adressant au lecteur, il lui défend de le suivre :</p>
         <quote>
-          <l xml:lang="en">Sey ein Mann, und folge mir nicht nach.</l>
+          <l xml:lang="eng">Sey ein Mann, und folge mir nicht nach.</l>
         </quote>
         <p>Quoi qu’il en soit, pendant quelque temps, Wolfgang repaît son esprit de projets de
           suicide. Chaque soir il place sous son chevet un poignard ; dans les ténèbres de la nuit,
@@ -6453,9 +6453,9 @@
           si Dante ignorait le doute ! Il le fait naître et pousser comme un surgeon au pied de
           toute vérité.</p>
         <quote>
-          <l>     Nasce per quello, a guisa di rampollo,</l>
-          <l>     Appie del vero il dubbio : ed è nutura</l>
-          <l>     Ch’ al sommo pinge noi di collo in collo.</l>
+          <l>Nasce per quello, a guisa di rampollo,</l>
+          <l>Appie del vero il dubbio : ed è nutura</l>
+          <l>Ch’ al sommo pinge noi di collo in collo.</l>
         </quote>
         <p>C’est exactement, comme nous allons le voir, la pensée qui inspire à Gœthe son
           Méphistophélès. N’avons-nous pas déjà constaté, d’ailleurs, dans la vie du poëte allemand,
@@ -6917,9 +6917,9 @@
           mouvement. C’est la vague qui l’emportera comme Dante « dans la grande mer de l’Être » ;
           c’est le char de feu qui le ravira jusqu’aux sphères célestes :</p>
         <quote>
-          <l>     Zu neuen Ufera lockt ein neuer Tag,</l>
-          <l>     Ein Feuerwagen schwebt, auf leichten Schwingen,</l>
-          <l>     An mich heran !</l>
+          <l>Zu neuen Ufera lockt ein neuer Tag,</l>
+          <l>Ein Feuerwagen schwebt, auf leichten Schwingen,</l>
+          <l>An mich heran !</l>
         </quote>
         <p>Le suicide de Faust a plus de grandeur encore que le suicide de Caton ; car, en rejetant
           la vie, Faust ne proteste pas seulement, comme le vertueux Latin, contre l’esclavage
@@ -7065,8 +7065,8 @@
         <p>J’en doute ; comme aussi du plaisir qui s’accroît dans les âmes bienheureuses quand elles
           peuvent satisfaire aux questions de Dante,</p>
         <quote>
-          <l>     Per allegrezza nuova che s’accrebbe,</l>
-          <l>     Quand’ io parlai, all’ allegrezze sue.</l>
+          <l>Per allegrezza nuova che s’accrebbe,</l>
+          <l>Quand’ io parlai, all’ allegrezze sue.</l>
         </quote>
         <p>C’est le sentiment que nous verrons exprimé aussi dans le ciel de <hi rend="i">Faust</hi>
           quand le <hi rend="i">Père Séraphique</hi> et les jeunes anges s’exaltent dans la joie de
@@ -7090,26 +7090,26 @@
           la femme aimée, qui l’a conduit de la servitude à la liberté, des choses mortelles aux
           choses divines, de la perdition au salut. »</p>
         <quote>
-          <l>     Dal tuo podere e dalla tua bontate</l>
-          <l>     Riconosco la grazia e la virtute.</l>
-          <l>     Tu m’hai di servo tratto a libertate</l>
-          <l>     Per tutte quelle vie, per tutt’ i modi</l>
-          <l>     Che di eio fare avean la potestate.</l>
+          <l>Dal tuo podere e dalla tua bontate</l>
+          <l>Riconosco la grazia e la virtute.</l>
+          <l>Tu m’hai di servo tratto a libertate</l>
+          <l>Per tutte quelle vie, per tutt’ i modi</l>
+          <l>Che di eio fare avean la potestate.</l>
         </quote>
         <p>C’est le même idéal de la grâce féminine qui inspire à Gœthe, au quatrième acte de <hi
             rend="i">Faust</hi>, les vers admirables où il décrit l’apparition céleste de
           Marguerite, ce mystérieux regard, cette forme pure qui s’élève dans l’éther et qui attire
           à elle « le meilleur de son âme. »</p>
         <quote>
-          <l>     Wie Seelenschönheit steigert sich die holde Form.</l>
-          <l>     Lös’t sich nicht auf, erhebt sich in den Aether hin,</l>
-          <l>     Und zieht das Beste meines Innern mit sich fort.</l>
+          <l>Wie Seelenschönheit steigert sich die holde Form.</l>
+          <l>Lös’t sich nicht auf, erhebt sich in den Aether hin,</l>
+          <l>Und zieht das Beste meines Innern mit sich fort.</l>
         </quote>
         <p>Et cette conception platonicienne de la beauté, de l’amour, Gœthe la met à la fin de son
           poëme dans la bouche de la Reine du ciel :</p>
         <quote>
-          <l>     Komm ! hebe dich zu höhern Sphären !</l>
-          <l>     Wenn er dich ahnet, folgl er nach.</l>
+          <l>Komm ! hebe dich zu höhern Sphären !</l>
+          <l>Wenn er dich ahnet, folgl er nach.</l>
         </quote>
         <p>« Viens, élève-toi vers des sphères supérieures ; s’il te pressent, il te suivra, » dit
           la <hi rend="i">Mater Gloriosa</hi> à Marguerite déjà transfigurée.</p>
@@ -7136,8 +7136,8 @@
           encore des splendeurs célestes, elle est appelée à l’initier aux clartés du jour
           nouveau.</p>
         <quote>
-          <l>     Vergönne mir ihn zu belehren.</l>
-          <l>     Noch blendet ihn der neue Tag.</l>
+          <l>Vergönne mir ihn zu belehren.</l>
+          <l>Noch blendet ihn der neue Tag.</l>
         </quote>
         <label type="speaker">MARCEL.</label>
         <p>Je vous avoue que je trouve cet idéal tout chrétien assez étrange et fort peu d’accord
@@ -7271,14 +7271,14 @@
           animaux, esprits mauvais, hiboux, crapauds, limaces, feux des marécages, manches à balai,
           fourches et boues immondes, toute l’engeance satanique.</p>
         <quote>
-          <l>     Cela se presse et se pousse, glisse et clapote,</l>
-          <l>     Siffle et grouille, live et jacasse,</l>
-          <l>     Cela reluit, écume et pue et flambe.</l>
-          <l>     Un vrai train de sorcellerie !</l>
-          <l>     Das drängt und stösst, das rutscht und klappert,</l>
-          <l>     Das zischt und quirlt, das zieht und plappert !</l>
-          <l>     Das teuchtet, sprüht und stinkt und brennt !</l>
-          <l>     Ein wahres Hexenelement !</l>
+          <l>Cela se presse et se pousse, glisse et clapote,</l>
+          <l>Siffle et grouille, live et jacasse,</l>
+          <l>Cela reluit, écume et pue et flambe.</l>
+          <l>Un vrai train de sorcellerie !</l>
+          <l>Das drängt und stösst, das rutscht und klappert,</l>
+          <l>Das zischt und quirlt, das zieht und plappert !</l>
+          <l>Das teuchtet, sprüht und stinkt und brennt !</l>
+          <l>Ein wahres Hexenelement !</l>
         </quote>
         <p>dit Méphistophélès avec un incroyable accent de réalité imitative. Et ces paroles sont
           tout l’abrégé du vertige sabbatique où le poëte a voulu nous montrer la contrepartie et
@@ -7299,7 +7299,7 @@
           s’arrache aux bras de Faust. Elle se jette en arrière ; elle s’abandonne à la justice de
           Dieu.</p>
         <quote>
-          <l xml:lang="en">Gericht Gottes, dir hab’ ich mich übergeben !</l>
+          <l xml:lang="eng">Gericht Gottes, dir hab’ ich mich übergeben !</l>
         </quote>
         <p>Elle appelle à son secours le chœur des anges. Sa voix est entendue au ciel.</p>
         <p>— Elle est jugée, dit froidement Méphistophélès.</p>
@@ -7336,7 +7336,7 @@
           Les voiles se gonflent ; les horizons s’ouvrent. Comme Dante, au sortir de l’enfer, Gœthe
           semble ici se placer sous l’invocation de la muse épique :</p>
         <quote>
-          <l>          … alza le vele</l>
+          <l>     … alza le vele</l>
           <l>Omai la navicella del mio ingegno.</l>
         </quote>
         <p>L’affreux cachot où Faust a « laissé toute espérance » est derrière nous. Nous voici au
@@ -7358,15 +7358,15 @@
           par Virgile qu’une dame céleste est venue qui l’a emporté, tout endormi, au lieu où il
           s’éveille.</p>
         <quote>
-          <l>     Venne una donna, e disse : l’ son Lucia :</l>
-          <l>     Lasciatemi pigliar costui che dorme.</l>
-          <l>     Si l’ aggevolerò per la sua via.</l>
-          <l>     …………………………..</l>
-          <l>     Poi ella e’l sonno ad una se n’andaro.</l>
+          <l>Venne una donna, e disse : l’ son Lucia :</l>
+          <l>Lasciatemi pigliar costui che dorme.</l>
+          <l>Si l’ aggevolerò per la sua via.</l>
+          <l>…………………………..</l>
+          <l>Poi ella e’l sonno ad una se n’andaro.</l>
         </quote>
         <p>Pendant le cours des heures nocturnes, le chœur des bons génies, sensible au malheur de
           l’amant de Marguerite, a calmé les agitations de son âme ; il a détourné de lui « la
-          flèche acérée du remords : » il a rafraîchi son front brûlant dans la rosée du Léthé.</p>
+          flèche acérée du remords » : il a rafraîchi son front brûlant dans la rosée du Léthé.</p>
         <label type="speaker">ÉLIE.</label>
         <p>Ce Léthé m’étonne dans les deux poëmes. Quelle peut être sa signification morale ? Nos
           auteurs entendraient-ils dire qu’il faut n’avoir ni remords ni souvenir du mal qu’on a
@@ -7379,8 +7379,8 @@
           salut, c’est la résolution énergique de « tendre incessamment à la vie la plus
           haute, »</p>
         <quote>
-          <l>            Ein kræftiges Beschliessen</l>
-          <l>     Zum hœchsten Daseyn immerfort zu streben.</l>
+          <l>       Ein kræftiges Beschliessen</l>
+          <l>Zum hœchsten Daseyn immerfort zu streben.</l>
         </quote>
         <p>en apprenant toujours et en communiquant incessamment à ses semblables, dans une
           généreuse et bienfaisante activité, tout ce qu’on a en soi de meilleur. Selon cette
@@ -7401,8 +7401,8 @@
           morale, la vraie justice ici-bas, c’était une inépuisable compassion. Qu’il soit saint,
           qu’il soit méchant, nous plaignons l’infortuné ;</p>
         <quote>
-          <l>     Ob er heilig, ob er büse,</l>
-          <l>     Jammert sie der Unglücksmann.</l>
+          <l>Ob er heilig, ob er büse,</l>
+          <l>Jammert sie der Unglücksmann.</l>
         </quote>
         <p>chante le chœur des sylphes avec une mélancolie pleine de tendresse. Il y a là un
           sentiment de doute miséricordieux qui n’existe pas au même degré, tant s’en faut, dans les
@@ -7426,10 +7426,10 @@
           au sein du crépuscule, nous rappelle ces graves problèmes, est soudain interrompu par une
           explosion de lumière. C’est le char du soleil qui s’avance avec une majesté homérique.</p>
         <quote>
-          <l>     Horchet ! horcht ! dem Sturm der Horen !</l>
-          <l>     ……………………………….</l>
-          <l>     Phœbus’ Ræder rollen prasselnd ;</l>
-          <l>     Welch Getœse bringt das Licht !</l>
+          <l>Horchet ! horcht ! dem Sturm der Horen !</l>
+          <l>……………………………….</l>
+          <l>Phœbus’ Ræder rollen prasselnd ;</l>
+          <l>Welch Getœse bringt das Licht !</l>
         </quote>
         <p>L’imagination de Dante, vous vous le rappelez, conçoit ainsi la lumière retentissante de
           l’astre du jour, et dit hardiment au début de l’Enfer qu’il est repoussé par la panthère
@@ -7441,8 +7441,8 @@
           sein et dans le sein de la terre. Il se sent renouvelé comme les feuilles et les fleurs
           que baigne la rosée du matin.</p>
         <quote>
-          <l>             Come piante novelle</l>
-          <l>     Rinnovellate di novella fronda.</l>
+          <l>        Come piante novelle</l>
+          <l>Rinnovellate di novella fronda.</l>
         </quote>
         <p>a dit l’Allighieri. Faust chante avec amour l’hymne à la lumière. Son regard est attiré
           vers les hantes cimes où resplendissent les premiers feux du jour. <hi rend="i"
@@ -7462,9 +7462,9 @@
           ordonnant à Dante de lever les yeux vers la gloire céleste, le poëte sent son œil ébloui,
           blessé par les rayons perçants, incapable d’en supporter l’éclat.</p>
         <quote>
-          <l>         Io credo per l’ acume ch’ io soffersi</l>
-          <l>     Del vivo raggio, ch’ io sarei smarrito</l>
-          <l>     Se gli occhi mici da lui fossero aversi.</l>
+          <l>    Io credo per l’ acume ch’ io soffersi</l>
+          <l>Del vivo raggio, ch’ io sarei smarrito</l>
+          <l>Se gli occhi mici da lui fossero aversi.</l>
         </quote>
         <p>Cette première scène de la seconde partie du poëme de Gœthe, ce chant des esprits
           aériens, ce monologue à la fois si solennel et si doux, célèbrent dans le plus beau
@@ -7480,8 +7480,8 @@
           femme, médiateur et sauveur, que l’on pressent dès l’entrée de ce purgatoire où déjà Faust
           est, comme les ombres à qui parle Dante, assuré de voir la lumière suprême.</p>
         <quote>
-          <l>             O gente sicura.</l>
-          <l>     Incominciai, di veder l’ alto lume.</l>
+          <l>        O gente sicura.</l>
+          <l>Incominciai, di veder l’ alto lume.</l>
         </quote>
         <p>Du moment que Faust est maître de lui, il est maître aussi du démon. Il va lui commander
           plus impérieusement des choses plus difficiles. Il va se faire conduire à la cour de
@@ -7513,15 +7513,15 @@
           sacré des oracles. Il en revient vêtu des ornements pontificaux. Il a puissance
           d’évocation sur le royaume des ombres.</p>
         <quote>
-          <l>     Im Priesterkleid, bekrænzt, ein Wundermann,</l>
-          <l>     Der nun vollbringt was er getrost begann.</l>
-          <l>     Ein Dreifuss steigt mit ihm aus hohler Gruft.</l>
+          <l>Im Priesterkleid, bekrænzt, ein Wundermann,</l>
+          <l>Der nun vollbringt was er getrost begann.</l>
+          <l>Ein Dreifuss steigt mit ihm aus hohler Gruft.</l>
         </quote>
         <p>Faust ne comprend la vie, il n’en conçoit la beauté que depuis sa vocation.</p>
         <quote>
-          <l>     Wie war die Welt mir nichtig, unerschlossen !</l>
-          <l>     Was ist sie nun seit meiner Priesterschaft ?</l>
-          <l>     Erst wünschenswerth, gegründet, dauerhaft !</l>
+          <l>Wie war die Welt mir nichtig, unerschlossen !</l>
+          <l>Was ist sie nun seit meiner Priesterschaft ?</l>
+          <l>Erst wünschenswerth, gegründet, dauerhaft !</l>
         </quote>
         <label type="speaker">ÉLIE.</label>
         <p>Vous venez de dire que Faust descend chez les <hi rend="i">Mères</hi> ; voilà pour moi
@@ -7754,7 +7754,7 @@
           sur les vagues en lueurs phosphorescentes, célèbrent symboliquement l’union éternelle de
           l’amour et de la beauté. Le chœur chante le règne d’<hi rend="i">Éros</hi> par qui tout a
           commencé :</p>
-        <quote xml:lang="de">
+        <quote xml:lang="deu">
           <l>So herrsche denn Eros, der alles begonnen !</l>
         </quote>
         <p>Cependant Méphistophélès, bien qu’étonné, se plaît à ce romantisme de l’antiquité
@@ -7847,18 +7847,18 @@
           entièrement, d’une épreuve, d’une initiation nouvelle. De la vie de contemplation et de
           spéculation, de la vie amoureuse et poétique, il faut que Faust s’élève à la vie d’action,
           à la vie bienfaisante et héroïque.</p>
-        <quote xml:lang="de">
-          <l>         Im anfang war die <hi rend="i">That</hi>.</l>
-          <l>     Au commencement était l’action.</l>
+        <quote xml:lang="deu">
+          <l>    Im anfang war die <hi rend="i">That</hi>.</l>
+          <l>Au commencement était l’action.</l>
         </quote>
         <p>C’est ainsi qu’il comprenait, qu’il traduisait, au début de la tragédie, le sens
           véritable de l’Évangile de saint Jean. Son désir, lorsqu’il voulait hâter par le suicide
           la fin de sa carrière terrestre, c’était d’entrer plus vite dans une existence supérieure,
           où il pourrait témoigner, par de nobles actes, que la dignité de l’homme ne le cède pas à
           la grandeur des dieux.</p>
-        <quote xml:lang="de">
-          <l>     Hier ist es Zeit durch Thaten zu beweisen</l>
-          <l>     Dass Manneswürde nicht der Gœlterhœhe weicht.</l>
+        <quote xml:lang="deu">
+          <l>Hier ist es Zeit durch Thaten zu beweisen</l>
+          <l>Dass Manneswürde nicht der Gœlterhœhe weicht.</l>
         </quote>
         <p>Faust n’ignore donc pas que la vocation de l’homme, que son devoir, c’est d’agir. Il
           sait, comme le noble empereur à qui parlait Minerve, « qu’il n’y a pas dans le ciel un
@@ -7867,9 +7867,9 @@
           pour effectuer de grandes choses, il est nécessaire que l’homme s’unisse à l’homme ; il
           faut que, ensemble associés, ils concertent, ils combinent toutes les forces de leur
           intelligence et de leur volonté pour lutter contre le destin.</p>
-        <quote xml:lang="de">
-          <l>     Gesellig nur læsst sich Gefahr erproben</l>
-          <l>     Wenn einer wirkt, die andern loben.</l>
+        <quote xml:lang="deu">
+          <l>Gesellig nur læsst sich Gefahr erproben</l>
+          <l>Wenn einer wirkt, die andern loben.</l>
         </quote>
         <p>C’est la parole de Chiron à Faust en lui vantant l’expédition des Argonautes. C’est le
           sentiment de l’excellence de l’association qui pénètre de part en part le roman de <hi
@@ -7879,7 +7879,7 @@
           lui-même et sur son passé ; quand Méphistophélès vient encore une fois le tenter en lui
           offrant toutes les richesses, toutes les voluptés d’un Sardanapale, avec la gloire que
           donnent les poëtes, Faust lui répond : La gloire n’est rien ; l’action est tout.</p>
-        <quote xml:lang="de">
+        <quote xml:lang="deu">
           <l>Die That ist alles, nichts der Ruhm.</l>
         </quote>
         <p>Il sent en lui les deux grandes forces de l’âme, selon Spinosa : l’intrépidité et la
@@ -8010,8 +8010,8 @@
           l’âme, m’a singulièrement ému quand j’ai lu pour la première fois la tragédie de Gœthe. Ne
           trouvez-vous pas qu’il rappelle le passage des <hi rend="i">Confessions</hi> où saint
           Augustin, méditant <hi rend="i">sur les plaisirs de la vue</hi>, s’écrie tout d’un coup,
-          dans un élan lyrique admirable : « O lumière que voyait Tobie, lorsqu’étant aveugle des
-          yeux du corps, il enseignait à son fils le véritable chemin de la vie ! O lumière que
+          dans un élan lyrique admirable : « Ô lumière que voyait Tobie, lorsqu’étant aveugle des
+          yeux du corps, il enseignait à son fils le véritable chemin de la vie ! Ô lumière que
           voyait Jacob… »</p>
         <label type="speaker">DIOTIME.</label>
         <p>Vous avez raison. Le sentiment qui inspire nos deux auteurs, nos deux poëtes, car saint
@@ -8066,14 +8066,14 @@
         <label type="speaker">DIOTIME.</label>
         <p>La vraie gueule d’enfer de la légende. Gœthe la décrit d’un pinceau dantesque. Il nous
           fait voir tout au fond la cité infernale.</p>
-        <quote xml:lang="de">
-          <l>          Dem Gewœlb des Schlundes</l>
+        <quote xml:lang="deu">
+          <l>     Dem Gewœlb des Schlundes</l>
           <l>Entquillt der Feuerstrom in Wuth ;</l>
           <l>Und in dem Siedequalm des Hintergrundes</l>
           <l>Seh’ ich die Flammenstadt in ew’ger Gluth.</l>
         </quote>
         <quote>
-          <l>          Des profondeurs du gouffre</l>
+          <l>     Des profondeurs du gouffre</l>
           <l>Se précipite, en fureur, le fleuve de feu ;</l>
           <l>Et plus loin, par-delà le bouillonnement,</l>
           <l>J’aperçois, dans son éternelle ardeur, la cité des flammes.</l>
@@ -8097,10 +8097,10 @@
           l’âme du comte de Montefeltro, sauvé pour une « toute petite larme » de repentir qu’il a
           versée en mourant.</p>
         <quote xml:lang="ita">
-          <l>     L’angel di Dio mi prese ; e quel d’inferno</l>
-          <l>     Gridava : tu dal ciel, perchè mi privi ?</l>
-          <l>     Tu te ne porti di costui l’eterno</l>
-          <l>     Per una lagrimetta ch’ I mi toglie.</l>
+          <l>L’angel di Dio mi prese ; e quel d’inferno</l>
+          <l>Gridava : tu dal ciel, perchè mi privi ?</l>
+          <l>Tu te ne porti di costui l’eterno</l>
+          <l>Per una lagrimetta ch’ I mi toglie.</l>
         </quote>
         <p>Dans le combat selon Gœthe, les anges dispersent les démons en répandant sur eux des
           roses célestes ; la grâce écarte avec douceur la malfaisance. Ils remontent vers le ciel,
@@ -8118,7 +8118,7 @@
             >dégermanise</hi> ainsi, et qu’il s’en retourne de belle humeur en enfer, comme le
           ferait un diable de Voltaire.</p>
         <label type="speaker">DIOTIME.</label>
-        <p><hi rend="i">O buono Apollo</hi> ! O bon Apollon ! s’écrie l’Allighieri au début de sa
+        <p><hi rend="i">O buono Apollo</hi> ! Ô bon Apollon ! s’écrie l’Allighieri au début de sa
           troisième Cantique ; et il demande au dieu des poëtes de l’assister en ce dernier labeur,
             <hi rend="i">all’ ultimo lavoro</hi>, afin que, en ses chants, il se rende digne du
           laurier divin. Gœthe, lorsqu’il eut mis la dernière main à l’épilogue de sa tragédie, à ce
@@ -8162,42 +8162,42 @@
         <p>Ils entrent ensemble au ciel de la pure lumière, dans l’allégresse amoureuse de la
           vérité.</p>
         <quote>
-          <l>               Al ciel ch’è pura luce ;</l>
-          <l>     Luce intellettual piena d’amore,</l>
-          <l>     Amor di vero ben pien’ di letizia.</l>
+          <l>          Al ciel ch’è pura luce ;</l>
+          <l>Luce intellettual piena d’amore,</l>
+          <l>Amor di vero ben pien’ di letizia.</l>
         </quote>
         <p>L’amour de la créature pour son Dieu et l’amour de Dieu, <hi rend="i">il primo
             amante</hi>, pour sa créature se rencontrent. Le salut de l’homme est accompli. Et de
           même que l’Allighieri déclare ce qu’il a vu au-dessus de toute parole humaine,</p>
         <quote>
-          <l>               Il mio veder lu maggio</l>
-          <l>     Che il parlar nostro…</l>
+          <l>          Il mio veder lu maggio</l>
+          <l>Che il parlar nostro…</l>
           <l/>
-          <l>     … e vidi cose che ridire</l>
-          <l>     Nè sa, nè può qual di lassù discende.</l>
+          <l>… e vidi cose che ridire</l>
+          <l>Nè sa, nè può qual di lassù discende.</l>
         </quote>
         <p>ainsi le chœur mystique par qui se termine le poëme de <hi rend="i">Faust</hi>, exalte
             l’<hi rend="i">inexprimable</hi>, l’<hi rend="i">indescriptible</hi> béatitude du
           royaume céleste, et le mystère insondable qui relie à la vérité permanente de la vie
           divine les apparences fugitives de notre vie mortelle.</p>
         <quote>
-          <l>     Tout ce qui passe</l>
-          <l>     N’est que symbole ;</l>
-          <l>     L’impénétrable</l>
-          <l>     Ici s’accomplit :</l>
-          <l>     L’indescriptible</l>
-          <l>     Ici se manifeste ;</l>
-          <l>     L’Éternel féminin</l>
-          <l>     Nous attire en haut.</l>
+          <l>Tout ce qui passe</l>
+          <l>N’est que symbole ;</l>
+          <l>L’impénétrable</l>
+          <l>Ici s’accomplit :</l>
+          <l>L’indescriptible</l>
+          <l>Ici se manifeste ;</l>
+          <l>L’Éternel féminin</l>
+          <l>Nous attire en haut.</l>
           <l/>
-          <l>     Alles vergængliche</l>
-          <l>     Ist nur ein Gleichniss ;</l>
-          <l>     Das Unzugængliche</l>
-          <l>     Hier wird’s Ereigniss :</l>
-          <l>     Das Unbeschreibliche.</l>
-          <l>     Hier ist es gethan ;</l>
-          <l>     Das Ewig-Weibliche</l>
-          <l>     Zicht uns hinan !</l>
+          <l>Alles vergængliche</l>
+          <l>Ist nur ein Gleichniss ;</l>
+          <l>Das Unzugængliche</l>
+          <l>Hier wird’s Ereigniss :</l>
+          <l>Das Unbeschreibliche.</l>
+          <l>Hier ist es gethan ;</l>
+          <l>Das Ewig-Weibliche</l>
+          <l>Zicht uns hinan !</l>
         </quote>
         <p>Diotime cessa de parler. Mais après quelques instants, voyant que tout le monde se
           taisait, et ne voulant pas laisser ses jeunes amis sous l’impression trop grave de ses
@@ -8319,7 +8319,7 @@
         <label type="speaker">DIOTIME.</label>
         <p>Un règne fort traversé de rébellions, Marcel, et auquel certaines humiliations même ne
           furent point épargnées. À son retour d’Italie, Gœthe nous dit que l’Allemagne l’avait
-          oublié, « ne voulait plus entendre parler de lui : » il se plaint que la critique traite
+          oublié, « ne voulait plus entendre parler de lui » : il se plaint que la critique traite
           ses œuvres « avec la dernière barbarie. » On tente, à force d’ironie et de dédain, de
           déconcerter à la fois son génie et sa bonté. On s’attaque, avec un acharnement presque
           sans exemple, à ses livres et à sa personne. Objet du haine à la fois pour les partis les
@@ -8382,10 +8382,10 @@
           l’espace. C’étaient deux cors de chasse qui se renvoyaient l’un à l’autre le refrain
           mélancolique aimé de la Bretagne :</p>
         <quote>
-          <l>     Ma sœur, qu’ils étaient beaux ces jours</l>
-          <l>               De France !</l>
-          <l>     O mon pays, sois mes amours</l>
-          <l>               Toujours.</l>
+          <l>Ma sœur, qu’ils étaient beaux ces jours</l>
+          <l>          De France !</l>
+          <l>Ô mon pays, sois mes amours</l>
+          <l>          Toujours.</l>
         </quote>
         <p>Ce fut le signal du départ. On avait oublié les heures rapides et la distance. La lune
           était déjà très-haut à l’horizon. Pendant qu’Élie et Marcel s’occupaient aux préparatifs

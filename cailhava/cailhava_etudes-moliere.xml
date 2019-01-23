@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -67,7 +67,7 @@
         <date when="1802"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -2431,9 +2431,9 @@
                 Séville, ou le Convié de Pierre</hi>. </head>
             <quote>
               <p><pb n="123"/><hi rend="i">La Scène est à Naples.</hi>
-              </p>
+             </p>
               <p/>
-              <label>PREMIÈRE JOURNÉE.</label>
+              <label type="head">PREMIÈRE JOURNÉE.</label>
               <p>Dom <hi rend="i">Juan</hi>, instruit que dom <hi rend="i">Octave</hi> doit passer
                 la nuit avec la duchesse <hi rend="i">Isabelle</hi>, va prendre la place de l’amant
                 favorisé ; la belle ne s’aperçoit de la tromperie qu’en reconduisant dom <hi
@@ -2450,7 +2450,7 @@
                 sort en criant, <hi rend="i">au feu, à l’eau</hi> ; <hi rend="i">son âme brûle
                   d’amour et du chagrin d’avoir été déshonorée</hi>.</p>
               <p/>
-              <label>SECONDE JOURNÉE.</label>
+              <label type="head">SECONDE JOURNÉE.</label>
               <p>Le marquis de la <hi rend="i">Mota</hi> doit avoir un tête-à-tête, pendant la nuit,
                 avec dona <hi rend="i">Anna</hi> ; il fait confidence de son bonheur à dom <hi
                   rend="i">Juan</hi>, celui-ci court chez <pb n="124"/>dona <hi rend="i">Anna</hi>,
@@ -2462,7 +2462,7 @@
                 il fait des réprimandes à son fils, qui les reçoit très mal, et se mêle à une noce
                 champêtre pour séduire la mariée.</p>
               <p/>
-              <label>TROISIÈME JOURNÉE.</label>
+              <label type="head">TROISIÈME JOURNÉE.</label>
               <p>Dom <hi rend="i">Juan</hi> s’introduit dans la chambre de la jeune épouse, lui dit
                 que son mari lui a permis de prendre sa place, elle lui demande un serment, il
                 consent, s’il ne dit pas vrai, <hi rend="i">à être tué par un mort</hi>.</p>
@@ -2758,9 +2758,9 @@
               <l>Et qu’un homme est pendable après les avoir faits.</l>
             </quote>
             <p>Ce trait paraît imité de <hi rend="i">Malherbe</hi>, qui, <pb n="140"/>consulté par
-              un jeune homme, lui dit : <quote>« avez-vous l’alternative de faire ces vers ou
-                d’être pendu ? À moins de cela, vous ne devez pas exposer votre réputation, en
-                produisant une pièce si ridicule »</quote>.</p>
+              un jeune homme, lui dit : <quote>« avez-vous l’alternative de faire ces vers ou d’être
+                pendu ? À moins de cela, vous ne devez pas exposer votre réputation, en produisant
+                une pièce si ridicule »</quote>.</p>
           </div>
           <div>
             <head>Sentiment sur la pièce.</head>
@@ -2837,7 +2837,7 @@
               monde, aussi la multitude préféra-t-elle longtemps <hi rend="i">Jodelet, maître et
                 valet</hi>, et <hi rend="i">Dom Japhet d’Arménie</hi>, au <hi rend="i"
                 >Misanthrope</hi> ; mais que penser de <hi rend="i">Racine</hi><note resp="author"
-                >Et de Jean-Jacques ; <hi rend="i">voyez</hi> sa lettre à d’Alembert. </note>, quand
+                >Et de Jean-Jacques ; <hi rend="i">voyez</hi> sa lettre à d’Alembert.</note>, quand
               nous lisons dans l’abbé <hi rend="i">du Bos</hi> : <quote>« <hi rend="i"
                   >Despréaux</hi>, après avoir vu la troisième représentation du <hi rend="i"
                   >Misanthrope</hi>, soutint à <hi rend="i">Racine</hi>, qui n’était pas fâché du
@@ -3847,10 +3847,10 @@
                 flatter, le jargon de la dévotion ; ce n’est point par habitude qu’il le parle, mais
                 avec dessein, et selon qu’il lui est utile, et jamais quand il ne servirait qu’à le
                 rendre très ridicule… Il ne pense point à profiter de <pb n="196"/>toute la
-                succession de son ami, ni à s’attirer une donation générale de tous ses biens… Il
-                ne se joue point à la ligne directe, et il ne s’insinue jamais dans une famille où
-                se trouvent à la fois une fille à pourvoir et un fils à établir ; il y a là des
-                droits trop forts et trop inviolables… »</quote></p>
+                succession de son ami, ni à s’attirer une donation générale de tous ses biens… Il ne
+                se joue point à la ligne directe, et il ne s’insinue jamais dans une famille où se
+                trouvent à la fois une fille à pourvoir et un fils à établir ; il y a là des droits
+                trop forts et trop inviolables… »</quote></p>
             <p>Monsieur de la Bruyère, faites des portraits pour être lus, et ne critiquez pas ceux
               qui sont faits pour être mis en action ; vous ne savez pas les apprécier.</p>
           </div>
@@ -3965,9 +3965,9 @@
               ne détruit pas l’illusion, et remplace, par un dialogue charmant, l’ennui d’un long
               monologue ; cependant <hi rend="i">Boileau</hi> préférait le prologue latin<note
                 resp="author"><p>Plaute, dans la première scène de son <hi rend="i">Amphitryon</hi>,
-                  fait dire par Mercure, à la Nuit qui n’est point en scène :</p><quote><l>Pergè
-                    nox, ut occœpisti, gere patri morem meo ;</l><l><hi rend="i">Obtumè, obtumo,
-                      obtumam operam das datam pulchrè</hi>locas.</l></quote><p>Molière a su
+                  fait dire par Mercure, à la Nuit qui n’est point en scène :</p><quote><l rend="i">Pergè
+                    nox, ut occœpisti, gere patri morem meo ;</l><l rend="i">Obtumè, obtumo,
+                      obtumam operam das datam pulchrè locas.</l></quote><p>Molière a su
                   trouver, dans ce peu de mots, toutes les grâces de son prologue.</p></note>. <hi
                 rend="i">Baile</hi> était loin de partager ce sentiment, lorsqu’il dit :
                 <quote>« Par la seule comparaison des prologues on peut connaître que l’avantage est
@@ -4272,7 +4272,7 @@
             <quote>
               <p><hi rend="i">Tenaces nimiùm dominos nostra ætas tulit, </hi><pb n="217"/><hi
                   rend="i">quos harpagones, harpigias et tantalos, vocare soleo.</hi>
-              </p>
+             </p>
             </quote>
             <p>C’est donc à <hi rend="i">Antonius Codrus</hi> que Molière doit le nom de son
               héros.</p>
@@ -4648,12 +4648,14 @@
             l’auteur seulement : je puis démentir cette erreur ; et je date ma réfutation de la
             bibliothèque nationale, où j’ai sous mes yeux un exemplaire <hi rend="i">in-4º</hi> de
             ce poème, orné de belles estampes, sur lequel je lis :</p>
-          <label>LA GLOIRE DU VAL-DE-GRACE, <lb/>
-            <lb/><hi rend="sc">poëme.</hi>
-            <lb/>
-            <lb/><hi rend="i">Imprimé pour la première fois, à Paris, chez Pierre le Petit, en</hi>
-            1669.</label>
           <p/>
+          <quote rend="center">
+            <p rend="noindent">LA GLOIRE DU VAL-DE-GRACE, <lb/>
+              <lb/><hi rend="sc">poëme.</hi>
+              <lb/>
+              <lb/><hi rend="i">Imprimé pour la première fois, à Paris, chez Pierre le Petit,
+                en</hi> 1669.</p>
+          </quote>
           <label>Lisez le poème.</label>
           <p><hi rend="i">Bret</hi> dit <quote>« qu’Avignon fut le lieu où <hi rend="i">Molière</hi>
               connut le célèbre <hi rend="i">Mignard</hi>, qui, revenant d’Italie, s’occupait, dans
@@ -4900,16 +4902,13 @@
                 et don <hi rend="i">Alvare de Lune</hi>, grands de Castille, sont épris de leur
                 souveraine, qui, forcée de choisir entre eux, remet sa bague à <hi rend="i"
                   >Carlos</hi>, et lui dit :</p>
-              <l>                                Marquis, prenez ma bague, et la donnez pour
-                marque,</l>
-              <l>                                Au plus digne des trois, pour en faire un
-                monarque.</l>
+              <l>Marquis, prenez ma bague, et la donnez pour marque,</l>
+              <l>Au plus digne des trois, pour en faire un monarque.</l>
               <p>Dans la superbe scène qui suit celle-ci, <hi rend="i">Carlos</hi> s’explique en ces
                 termes avec ses trois rivaux :</p>
-              <l>                                De cet anneau dépend le diadème,</l>
-              <l>                                Il vaut bien un combat, vous avez tous du cœur,</l>
-              <l>                                Et je le garde. — À qui, Carlos ? — À mon
-                vainqueur.</l>
+              <l>De cet anneau dépend le diadème,</l>
+              <l>Il vaut bien un combat, vous avez tous du cœur,</l>
+              <l>Et je le garde. — À qui, Carlos ? — À mon vainqueur.</l>
               <p>Carlos est reconnu pour prince d’Aragon, il s’unit à la reine de Castille.</p>
             </quote>
             <label><hi rend="sc">Lisez la pièce de Molière.</hi></label>
@@ -5049,7 +5048,7 @@
                     vers :</p><quote><l>Rien ne manque à sa gloire, il manquait à la
                   nôtre.</l></quote><p>Je publiai, dans le même temps, une brochure
                   intitulée :</p><p rend="i">Discours prononcé par Molière, le jour de sa réception
-                  posthume à l’Académie française. </p></note>, n’est plus un bourgeois voulant
+                  posthume à l’Académie française.</p></note>, n’est plus un bourgeois voulant
               trancher du grand seigneur, mais le plus stupide des <pb n="259"/>hommes ? Comment
               excuser encore les coups de bâton que <hi rend="i">Cléonte</hi> fait donner à celui
               dont il veut obtenir la fille ? Cette galanterie est nouvelle.</p>
@@ -6066,10 +6065,10 @@
                 Molière, qui lui a valu la palme académique, a pu connaître si mal son maître, son
                 héros, et publier l’anecdote dont il est question ? Si elle parvient jusque chez les
                 morts, Molière dira sans doute :</p>
-              <l>                     Que voulez-vous faire à cela ?</l>
-              <l>                     Les écrivains font à leur guise ;</l>
-              <l>                     Ce n’est pas la seule sottise</l>
-              <l>                     Qu’on voit faire à ces messieurs-là<note resp="author"
+              <l>Que voulez-vous faire à cela ?</l>
+              <l>Les écrivains font à leur guise ;</l>
+              <l>Ce n’est pas la seule sottise</l>
+              <l>Qu’on voit faire à ces messieurs-là<note resp="author"
                   >Prologue d’<hi rend="i">Amphitryon</hi>.</note>. »</l>
             </quote>
           </div>
@@ -6252,7 +6251,7 @@
             l’ouverture de votre école. Je pourrai me permettre, dans mes leçons, moins de gravité
             que vous ; je lis dans vos regards que vous acceptez ma proposition, je tousse, je
             commence.</p>
-          <label><hi rend="sc">Le professeur</hi>.</label>
+          <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
           <p>Vous, qui vous destinez aux jeux de Thalie, approchez ; nous jurons d’écarter loin de
             nous les perfides bandeaux de Plutus, de l’Amitié, même celui de l’Amour, et nous
             exigeons, sans ménagement pour les vieux protecteurs, pour les jeunes protégées, que
@@ -6262,33 +6261,33 @@
             de <hi rend="i">Cléante</hi> ?</p>
           <div>
             <head>Le rôle de Cléante.</head>
-            <label>Un élève.</label>
+            <label type="speaker"><hi rend="sc">Un élève</hi>.</label>
             <p>Mon extérieur, mon son de voix, ont-ils quelque chose qui vous déplaise ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p><pb n="323"/>Non ; vous avez de la grâce, de la jeunesse, du maintien, de l’assurance
               sans fatuité, et voilà ce qu’il faut pour votre rôle.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Et surtout pour cette scène charmante, dans laquelle, en feignant de raconter le
               sujet d’une pièce, je rappelle avec volupté à mon amante, en présence même de son père
               et de mon rival, l’événement qui donna naissance à notre tendresse mutuelle.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Quoi ! vous débiterez le roman tout entier, sans craindre qu’il paraisse long ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Oui, certainement, parce que, bien pénétré de ma situation, je parlerai le rôle, au
               lieu de le papilloter.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Vous promettez un <hi rend="i">Cléante</hi> comme on n’en voit plus ; passez à ma
               droite.</p>
           </div>
           <div>
             <head>Le rôle d’Argan.</head>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p><pb n="324"/>Qui veut jouer le rôle d’<hi rend="i">Argan</hi> ? Je vous préviens que
               si trop de maigreur et une voix grêle ne contrastent pas assez avec l’accoutrement
               d’un malade, d’un autre côté, trop d’embonpoint ressemble à de la bouffissure.</p>
-            <label>Un élève.</label>
+            <label type="speaker"><hi rend="sc">Un élève</hi>.</label>
             <p>Puis-je me présenter ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Pourquoi pas ? Rien en vous ne peut nuire à l’illusion, et c’est déjà beaucoup. <hi
                 rend="i">Bonneval</hi>, assez médiocre comédien, jouait à merveille le rôle de <hi
                 rend="i">Malade imaginaire</hi>, parce que, ni trop gras ni trop maigre, assez
@@ -6296,10 +6295,10 @@
               accoutumé, dans ses accès, à s’emporter et à se radoucir bien vite pour solliciter des
               soins, il ne lui manquait absolument rien pour remplir le rôle d’<hi rend="i"
                 >Argan</hi>.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Il faudra donc, mon cher professeur, que <pb n="325"/>j’aille prier feu<hi rend="i">
                 Bonneval</hi> de me communiquer sa goutte.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Oui, mon cher élève ; et si vous êtes réellement appelé au théâtre, <hi rend="i"
                 >Bonneval</hi> vous communiquera sa goutte, comme nos anciens débauchés
               communiquèrent jadis à <hi rend="i">Bellecour</hi>, qui ne buvait presque pas de vin,
@@ -6308,16 +6307,16 @@
           </div>
           <div>
             <head>Le rôle d’Angélique.</head>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Approchez, ma belle enfant, vous qui me paraissez si bien faite pour jouer le rôle
                 d’<hi rend="i">Angélique</hi>.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Hélas ! vous me flattez sans doute ; on m’a si fort intimidée en me disant que
               mademoiselle <hi rend="i">Gaussin</hi> était, dans une même scène, polie avec les <hi
                 rend="i">Diafoirus</hi>, tendre et reconnaissante avec <hi rend="i">Cléante</hi>,
               prudente et réservée avec sa belle-mère, jusqu’à la désespérer ; <pb n="326"/>vous
               m’avouerez que tout cela est fort décourageant.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Au contraire ; c’est en se proposant de pareils modèles, qu’une élève peut espérer de
               parvenir un jour à voir couronner sa noble audace ; et vous êtes digne qu’on vous
               offre de nouvelles difficultés : apprenez avec quelle adresse les bonnes actrices
@@ -6329,90 +6328,93 @@
               mais qui se suivaient avec la rapidité d’un éclair ; le premier peignait la terreur,
               le dernier portait subitement dans l’âme du spectateur les sentiments délicieux qui
               s’emparent de celle de l’actrice, au moment où elle est si heureusement détrompée.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Ah ! je respire ; comme vous me soulagez, <pb n="327"/>en me parlant ainsi ! combien
                 d’<hi rend="i">Angélique</hi>, croyant pousser des cris comme mademoiselle <hi
                 rend="i">Gaussin</hi>, ne font que crier ! Et je m’imaginais être obligée de les
               imiter.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Allez joindre <hi rend="i">Cléante</hi>, ma belle écolière ; vous êtes dignes l’un de
               l’autre.</p>
           </div>
           <div>
             <head>Le rôle de Béralde.</head>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Quelqu’un se présente-t-il ?</p>
-            <label>Un élève.</label>
+            <label type="speaker"><hi rend="sc">Un élève</hi>.</label>
             <p>Moi.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Vous avez l’air bien assuré ; songez-vous qu’il n’est ni facile de parler raison à un
               malade imaginaire, sans être un froid raisonneur, ni de repousser des tyrans à
               seringue, gaîment et sans brusquerie ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>C’est ainsi que j’ai jugé le rôle, et je m’en charge, vous dis-je.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p><pb n="328"/>Puisque vous jugez si bien, passez à ma droite.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Une seule chose m’embarrasse ; l’un de nos derniers <hi rend="i">Béralde</hi> se
               dandinait de manière qu’il paraissait danser ce rôle, plutôt que le jouer : faut-il
               suivre son exemple ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Que me demandez-vous là ? quoi ! vous ne voyez pas que si l’on n’y prend garde, la
               danse, non contente d’avoir tué l’Opéra, finira par jouer le même tour à la Comédie ?
               Je me ravise, et, jusqu’à nouvel ordre, placez-vous entre ma droite et ma gauche.</p>
           </div>
           <div>
             <head>Le rôle de Béline.</head>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Vous paraissez, belle dame, vouloir vous mettre sur les rangs.</p>
-            <p rend="sc">une élève. </p>
+            <p rend="sc">une élève.</p>
             <p>Oui ; et j’espère qu’on me saura gré, à mon âge, de me consacrer aux <hi rend="i"
                 >caractères</hi>.</p>
-            <label><pb n="329"/><hi rend="sc">Le professeur</hi>.</label>
+            <pb n="329"/>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Qu’entendez-vous par les <hi rend="i">caractères</hi> ? Car les comédiens ont
               quelquefois un jargon qu’on ne sait trop comment expliquer hors des coulisses.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Nous appelons les <hi rend="i">caractères</hi>, à la Comédie-Française, ce qu’on
               nomme les <hi rend="i">duègnes</hi> à l’Opéra-Comique.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Ah ! je comprends ; mais le genre auquel vous paraissez vouloir vous dévouer, ne
               serait-il pas mieux défini par le titre de <hi rend="i">Femmes exagérées</hi> ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Qu’importe le titre ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Plus qu’on ne croit, puisque celui-ci peut vous faire sentir à quoi il vous oblige :
               parcourez tous les rôles auxquels vous vous destinez ; vous n’y verrez que
               l’exagération des torts, des ridicules, des passions, des travers, des tons, des
               minauderies : ce sont autant de rides…</p>
-            <label><pb n="330"/>L’<hi rend="sc">élève.</hi></label>
+            <pb n="330"/>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Fi ! des rides !</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Oui, des rides, qu’il faut rendre sensibles, sans cependant laisser voir toute leur
               laideur ; au reste, le rôle de <hi rend="i">Béline</hi> n’est pas dans la classe de
               ceux dont nous venons de parler.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Ne le voyez-vous pas jouer tous les jours par les douairières de la
               Comédie-Française ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Elles ont tort de s’en emparer, et les jeunes actrices ont plus grand tort encore de
               le leur abandonner.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Croyez-vous ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Je fais mieux ; je le prouve. <hi rend="i">Béline</hi> avoue qu’elle ne veut pas
               avoir perdu ses plus belles années auprès d’<hi rend="i">Argan</hi> : quelles sont les
               plus belles années d’une femme ?</p>
-            <label><pb n="331"/>L’<hi rend="sc">élève.</hi></label>
+            <pb n="331"/>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Depuis dix-huit jusqu’à vingt-cinq, disent les gens sévères<note resp="author"
                 >L’illusion du théâtre permet à un comédien de se donner dix ans de plus ou de moins
                 qu’il n’a réellement, mais pas davantage.</note>.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Quel âge a la petite <hi rend="i">Louison</hi>, fille de la première femme d’<hi
                 rend="i">Argan</hi> ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Elle est encore enfant, puisqu’on essaie de lui persuader que <hi rend="i">le petit
                 doigt de son père l’a trahie</hi>.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p><hi rend="i">Béline</hi> ne pouvant être mariée avec<hi rend="i"> Argan</hi> que
               depuis peu de temps, <hi rend="i">Béline</hi> parlant encore de ses plus belles
               années, ne doit donc avoir qu’environ trente ans ; aussi, madame <hi rend="i"
@@ -6423,18 +6425,18 @@
               vieil époux, sont plus comiques ; enfin, si <hi rend="i">Béline</hi> était vieille,
               aurait-elle autant de raisons pour se féliciter d’être veuve, et ne ferait-elle pas
               horreur ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Je vois que je m’étais trompée.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Comme tant d’autres ; placez-vous…</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Un moment ; n’avez-vous pas le rôle de <hi rend="i">Louison</hi> à distribuer ? Je me
               charge…</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>De le jouer ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Non pas ; mais de le montrer à ma fille.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Prenez garde à ses difficultés ; je ne connais, dans tout notre théâtre, que deux
               rôles d’enfant : celui de <hi rend="i">Joas</hi>, et celui de la <hi rend="i">petite
                 Louison</hi>. Le rôle de <hi rend="i">Joas</hi>, soutenu par la <pb n="333"/>majesté
@@ -6480,23 +6482,23 @@
                   si le père de la comédie n’était plus <hi rend="i">de mode</hi> dans le pays qui
                   le vit naître, l’admiration des nations étrangères le vengeait
               bien.</p></note>.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Je sens tout ce que vous me faites remarquer ; ma fille le prouvera.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>À la bonne heure ; et c’est sous cette condition que je vous place entre ma gauche et
               ma droite.</p>
           </div>
           <div>
             <head>Le rôle de Purgon.</head>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Qui de vous, s’il a vu jouer ce rôle par <hi rend="i">Préville</hi>, osera s’en
               charger sans se promettre de se rappeler scrupuleusement jusqu’à ses moindres
               intentions, et de les prendre pour autant de leçons ? Car, certainement, nous ne
               saurions vous en donner d’aussi précieuses. <pb n="335"/>Comme, en paraissant sur la
               scène, il était bouffi de colère contre l’audacieux rebelle à ses ordonnances !</p>
-            <label>Un élève.</label>
+            <label type="speaker"><hi rend="sc">Un élève</hi>.</label>
             <p><pb n="336"/>Il est vrai qu’il faisait rire avant d’ouvrir la bouche.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Oui ; mais pourquoi ? Parce que son visage et toute sa personne annonçaient
                 d’avance<note resp="author">Laporte, le souffleur de ce temps-là, m’a dit : je vois
                 d’avance, lorsque les acteurs en scène vont avoir besoin de mon secours, Mol… fait
@@ -6505,41 +6507,40 @@
                 l’air de le préparer, et que je m’y trompe journellement.</note> la manière dont il
               allait prendre parti pour un de ses enfants chéris, pour ce <hi rend="i">clystère</hi>
               qu’il <quote><hi rend="i">avait pris plaisir à composer lui-même</hi></quote>.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Après un si parfait modèle, il est hardi sans doute de jouer ce rôle ; mais ses
               successeurs n’y ont-ils pas ajouté des beautés ?</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Et quelles ! s’il vous plaît ?</p>
-            <label><pb n="337"/>L’<hi rend="sc">élève.</hi></label>
+            <pb n="337"/>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p><hi rend="i">Préville</hi> se bornait à suivre exactement le texte, à menacer <hi
                 rend="i">Argan</hi> d’une demi-douzaine de maladies en <hi rend="i">ie</hi> ;
               parlez-moi des acteurs qui en ajoutent de leur invention, telles que la <hi rend="i"
                 >philosophie</hi>, l’<hi rend="i">astrologie</hi>, la <hi rend="i">marqueterie</hi>,
               et plusieurs autres de cette gentillesse-là.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Bravo ! Et pour marcher dignement sur leurs traces, n’oubliez pas d’y joindre la <hi
                 rend="i">gaucherie</hi>, la <hi rend="i">bouffonnerie</hi>.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Je n’y manquerai pas.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Fort bien. J’ai des projets sur vous ; passez à ma gauche.</p>
           </div>
           <div>
             <head>Le rôle de Toinette.</head>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>À Toinette, maintenant ; je vois là-bas une mine friponne, un nez en l’air qui
               promettent.</p>
-            <label>
-              <hi rend="sc">Une élève.</hi>
-            </label>
+            <label type="speaker">Une élève.</label>
             <p><pb n="338"/>Et qui tiendront ce qu’ils promettent, je l’espère.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Oh ! oh ! vous paraissez bien sûre de votre fait.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>C’est que j’ai travaillé, j’ai décomposé mon rôle.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Peste ! voilà de grands mots.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Oui, travaillé, décomposé ; nous avons des soubrettes qui confondent le rôle de <hi
                 rend="i">Toinette</hi> avec celui de <hi rend="i">Dorine</hi>, dans le <hi rend="i"
                 >Tartuffe</hi> ; eh ! quelle différence ! Toutes les deux protègent à la vérité une
@@ -6547,44 +6548,45 @@
                 >Dorine</hi> lutte contre un père entêté qu’il faut brusquer, et <hi rend="i"
                 >Toinette</hi> contre un père faible qu’elle doit ramener à la nature, en lui
               soutenant qu’il est bon, et ne voudra pas faire le malheur de sa fille.</p>
-            <label><pb n="339"/><hi rend="sc">Le professeur</hi>.</label>
+            <pb n="339"/>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Très bien ! continuez.</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Molière veut surtout qu’en épiant la belle-mère, fléau de la maison, et qu’en la
               démasquant, <hi rend="i">Toinette</hi> amène un dénouement heureux.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Tudieu, la belle enfant ! qui vous en a tant appris ?</p>
-            <label>L’élève.</label>
+            <label type="speaker"><hi rend="sc">L’élève</hi>.</label>
             <p>Madame <hi rend="i">Bellecour</hi>, que par malheur je viens de perdre, et qui
               m’avouait franchement tenir tout ce qu’elle savait de l’inimitable mademoiselle <hi
                 rend="i">Dangeville</hi>.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Vous étiez en bonnes mains. Puisse votre maîtresse vous avoir communiqué sa franche
               gaîté, en même temps que ses principes ! Allez joindre <hi rend="i">Angélique</hi> et
               son amant.</p>
           </div>
           <div>
             <head>Les rôles de MM. Diafoirus.</head>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Diafoirus</hi> <hi rend="i">père.</hi>
             </label>
             <p><pb n="340"/>Je vous présente mon fils, que la nature semble avoir fait exprès pour
               rendre le rôle de <hi rend="i">Thomas</hi>, à miracle.</p>
-            <label><hi rend="sc">Le professeur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
             <p>Il est vrai que le voilà tout <hi rend="i">craché</hi>, si, comme le dit l’<hi
                 rend="i">Histoire des théâtres</hi>, Molière a tiré ce personnage d’une farce
               intitulée <hi rend="i">Le Grand Flandrin de fils</hi>.</p>
-            <label><hi rend="sc">Diafoirus</hi> <hi rend="i">père</hi>.</label>
+            <label type="speaker"><hi rend="sc">Diafoirus</hi> <hi rend="i">père</hi>.</label>
             <p>Remerciez, <hi rend="i">mon fils Thomas</hi>, et dites de quelle manière vous vous
               proposez de jouer.</p>
-            <label><hi rend="sc">Thomas</hi>.</label>
+            <label type="speaker"><hi rend="sc">Thomas</hi>.</label>
             <p>De manière à me faire admirer par nos modernes connaisseurs, et comme le fut
               dernièrement le modèle que je veux suivre, surtout dans la scène où <hi rend="i"
                 >Argan</hi> fait donner des sièges à la compagnie.</p>
-            <label><hi rend="sc">Diafoirus</hi> <hi rend="i">père</hi>.</label>
+            <label type="speaker"><hi rend="sc">Diafoirus</hi> <hi rend="i">père</hi>.</label>
             <p>Vous allez voir la finesse des moyens qu’il emploie ! Parlez, <hi rend="i">mon fils
                 Thomas</hi>.</p>
-            <label><hi rend="sc">Thomas</hi>.</label>
+            <label type="speaker"><hi rend="sc">Thomas</hi>.</label>
             <p><pb n="341"/>L’acteur que je me propose d’imiter s’entend avec la soubrette qui lui
               apporte une chaise d’enfant, de sorte que ses longues jambes, dont il ne sait que
               faire, et ses genoux, plus élevés que son menton, commencent à faire rire aux éclats.
@@ -6592,7 +6594,7 @@
               sa poche successivement un gobelet, une bouteille d’osier, avec un biscuit qu’il met
               tremper dans du vin, et que <hi rend="i">Toinette</hi> lui enlève finement, dans le
               temps qu’il déploie un mouchoir en guise de serviette.</p>
-            <label><hi rend="sc">Diafoirus</hi> <hi rend="i">père</hi>.</label>
+            <label type="speaker"><hi rend="sc">Diafoirus</hi> <hi rend="i">père</hi>.</label>
             <p>Eh ! qu’en dites-vous ? N’est-ce pas s’emparer adroitement de l’attention générale,
               et dans l’une des scènes les plus importantes ?</p>
             <label type="speaker"><hi rend="sc">Le professeur</hi>.</label>
@@ -6697,7 +6699,7 @@
           <label type="head">PLACET de LA VEUVE MOLIÈRE.</label>
           <p/>
           <p rend="i">À <hi rend="sc">Monseigneur</hi> l’illustrissime et révérendissime <hi
-              rend="sc">Archevesque</hi> de Paris. </p>
+              rend="sc">Archevesque</hi> de Paris.</p>
           <p/>
           <p><hi rend="sc">Supplie</hi> humblement Élizabeth Claire Grasin de Béjart, veuve de feu
             Jean-Baptiste Pocquelin de Molière, vivant valet-de-chambre tapissier du roi, et l’un
@@ -6740,7 +6742,7 @@
           <p rend="i">ORDONNANCE de <hi rend="sc">monseigneur de Harlay</hi>, Archevêque de Paris,
             pour l’inhumation du corps de Jean-Baptiste Pocquelin de Molière, comédien du roi, en
             conséquence de laquelle l’inhumation s’en est faite dans le cimetière de l’église de
-            Saint-Joseph, succursale de Saint-Eustache. </p>
+            Saint-Joseph, succursale de Saint-Eustache.</p>
           <p/>
           <p>Vue ladite requête, ayant aucunement égard aux preuves résultantes de l’enquête faite
             par mon ordonnance, nous avons permis au sieur curé de Saint-Eustache de donner la
@@ -6756,7 +6758,7 @@
           <p>Collationné en son original en papier, ce fait rendu par les notaires au Châtelet de
             Paris, soussignez, le vingt-unième mars mille six cent soixante-treize.</p>
           <p/>
-          <p rend="sc">Le Vasseur. </p>
+          <p rend="sc">Le Vasseur.</p>
         </quote>
         <ab type="ornament">*</ab>
         <quote>
@@ -6792,20 +6794,18 @@
         <p>M. <hi rend="i">Huet</hi>, évêque d’Avranches, en fit une qui a le mérite de la
           brièveté :</p>
         <quote>
-          <l><hi rend="i">Plaudebat, Moleri, tibi plenis aula theatris</hi>,</l>
-          <l>
-            <hi rend="i">Nunc eadem moerens, post tua fata, gemit.</hi>
-          </l>
-          <l><hi rend="i">Si risum nobis movisses partius olim</hi>,</l>
-          <l><hi rend="i">Parcius heu ! lacrymis tingeret ora dolor</hi><note resp="author">Parmi
+          <l rend="i">Plaudebat, Moleri, tibi plenis aula theatris,</l>
+          <l rend="i">Nunc eadem moerens, post tua fata, gemit.</l>
+          <l rend="i">Si risum nobis movisses partius olim,</l>
+          <l rend="i">Parcius heu ! lacrymis tingeret ora dolor<note resp="author">Parmi
               les mille épitaphes, les élégies, les comédies dans lesquelles Molière fut loué après
               sa mort, beaucoup méritent des éloges ; mais nous n’avons pas contracté l’engagement
-              de faire un recueil de pièces fugitives.</note> . </l>
+              de faire un recueil de pièces fugitives.</note> .</l>
         </quote>
         <p><pb n="352"/>Nous devons les vers suivants à <hi rend="i">Chapelle</hi> :</p>
         <quote>
           <l>Puisqu’à Paris on dénie</l>
-          <l> La terre après le trépas</l>
+          <l>La terre après le trépas</l>
           <l>À ceux qui, durant leur vie,</l>
           <l>Ont joué la comédie,</l>
           <l>Pourquoi ne jette-t-on pas</l>
@@ -6868,8 +6868,8 @@
           vers :</p>
         <quote>
           <l>C’est un homme… qui… ah !… un homme… un homme enfin.</l>
-          <l>                                                          <hi rend="sc">Tartuffe</hi>,
-              <hi rend="i">acte I, scène <num>vi</num></hi>.</l>
+          <bibl><hi rend="sc">Tartuffe</hi>,
+              <hi rend="i">acte I, scène <num>vi</num></hi>.</bibl>
         </quote>
         <trailer>FIN.</trailer>
       </div>

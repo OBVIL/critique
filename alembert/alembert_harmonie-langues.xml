@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Sur l’harmonie des langues, et en particulier sur celle qu’on croit sentir dans les
           langues mortes</title>
-        <author key="Alembert, D’ (1717-1783)">D’Alembert</author>
+        <author key="Alembert, D' (1717-1783)" ref="https://data.bnf.fr/fr/11888370/d__alembert/">D’Alembert</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -68,7 +68,7 @@
         <date when="1767">1767</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -632,7 +632,7 @@
             laxatos, paulatim et quibusdam quasi gradibus revocandos esse ad seria, nec protinus
             gravi tale sermonis alienandos, Nimirùm fastidit animus vel optima quæque, nisi
             tempestive se offerant ; nec facile admittit severitatem, cum semel occupavit hilaritas.
-          </p>
+         </p>
         </quote>
         <p>On peut s’assurer que tout le reste du discours, et même les autres harangues prononcées
           par ce professeur, sont dans ce goût de latinité. Voyez le recueil intitulé : <hi rend="i"
@@ -660,7 +660,7 @@
           <l>Accurrant jussi condendo in carmine risus.</l>
           <l>« Jam sordent mihi magna poemata, Flaccius inquit,</l>
           <l>« Nescio quæ major lepidis est gratia nugis ;</l>
-          <l xml:lang="en">« Has curo solas deinceps, et totus in his sum. »</l>
+          <l xml:lang="eng">« Has curo solas deinceps, et totus in his sum. »</l>
           <l>Si recte possis, laudo, et non est melius quid.</l>
           <l>Verum age, dum calamos et scrinia in versibus aptas</l>
           <l>Digna tuis, Flacci, bonus accipe, pauca loquamur.</l>
@@ -687,10 +687,10 @@
           <l>Fata hominum ; variique suo stant ordine casus,</l>
           <l>Quæ lux quemque solo inducet, quæ tradita cuique</l>
           <l>Sint vitæ spatia, et quæ meta nouissima vitæ.</l>
-          <l><hi rend="i">Ast animæ illus tres, et clarum in nomen ituræ</hi>, </l>
+          <l><hi rend="i">Ast animæ illus tres, et clarum in nomen ituræ</hi>,</l>
           <l>Seu quas imperii decus olim, orbisque regendi</l>
           <l>Cura manet, seu quas factorum gloria, et ardens</l>
-          <l xml:lang="en">Evehet ad superos per mille pericula virtus,</l>
+          <l xml:lang="eng">Evehet ad superos per mille pericula virtus,</l>
           <l>Semotæ turbâ et satis popularibus, omnes</l>
           <l>Distinctas habuere paresque laboribus aulas.</l>
         </quote>

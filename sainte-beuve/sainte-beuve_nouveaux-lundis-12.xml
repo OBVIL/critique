@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -67,7 +67,7 @@
         <date when="1870">1870</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -2246,8 +2246,8 @@
             m’arrivent, et que je lis tard, m’en apprennent plus que je ne veux. Quand les choses ne
             vont pas comme on le comprend, le mieux est d’attendre et d’y peu penser. Le bonhomme La
             Fontaine a dit :</p>
-          <l>                     Patience et longueur de temps</l>
-          <l>                     Font plus que force ni que rage.</l>
+          <quote><l>Patience et longueur de temps</l>
+          <l>Font plus que force ni que rage.</l></quote>
           <p>« J’adopte cette opinion, et je crois que M. Mollien fait tout comme moi. — Je me suis
             mis à lire les articles littéraires des journaux qui arrivent ici, et j’en serai très
             probablement bientôt dégoûté. Ne croyez-vous pas que Sainte-Aulaire lui-même doive être
@@ -2259,7 +2259,7 @@
             la journée. Chez vous, au contraire, on voit tout en beau, et je crois que cela ne
             changerait pas, même quand on aurait des rhumatismes, tant la disposition est douce.
             J’ai retrouvé dans ma mémoire un vers qui va à ces deux si différentes humeurs :</p>
-          <l>                     Le malheur est partout, mais le bonheur aussi.</l>
+          <quote><l>Le malheur est partout, mais le bonheur aussi.</l></quote>
           <p>« Pessimistes et optimistes doivent s’arranger de ce vers-là : n’est-ce pas
             singulier ?… — la princesse (<hi rend="i">Poniatowska</hi> ?) va demain faire une course
             à Néris ; elle y passera vingt-quatre heures. J’en suis bien aise parce qu’elle me dira
@@ -2381,16 +2381,16 @@
             quelques-uns. Voici une strophe que j’ai placée dans ma mémoire. — Je la trouve très
             belle : vous direz si j’ai tort ou raison ; je vous croirai. C’est en sortant du Jardin
             des Plantes qu’il a fait l’ode d’où cette strophe est tirée.</p>
-          <l>                          Loin du rivage de Golconde,</l>
-          <l>                          L’hôte géant de ces déserts,</l>
-          <l>                          De sa solitude profonde</l>
-          <l>                          Chérit l’image dans ses fers.</l>
-          <l>                          Jamais son épouse enchaînée</l>
-          <l>                          Ne veut d’un servile hyménée</l>
-          <l>                          Subir les honteuses douceurs ;</l>
-          <l>                          L’amour en vain gronde et l’accuse ;</l>
-          <l>                          Sa jalouse fierté refuse</l>
-          <l>                          Des sujets à ses oppresseurs… »</l>
+          <quote><l>                          Loin du rivage de Golconde,</l>
+          <l>L’hôte géant de ces déserts,</l>
+          <l>De sa solitude profonde</l>
+          <l>Chérit l’image dans ses fers.</l>
+          <l>Jamais son épouse enchaînée</l>
+          <l>Ne veut d’un servile hyménée</l>
+          <l>Subir les honteuses douceurs ;</l>
+          <l>L’amour en vain gronde et l’accuse ;</l>
+          <l>Sa jalouse fierté refuse</l>
+          <l>Des sujets à ses oppresseurs… »</l></quote>
         </quote>
         <p>— Il s’agit vraisemblablement de l’éléphant du Jardin des Plantes et de sa femelle, qui
           ne reproduisait pas dans l’état de captivité. Mais comment un esprit si net et si juste en
@@ -3891,7 +3891,7 @@
           rentre dans le thème qui lui était familier, — le déchirement d’un amour brisé, d’une
           blessure dont on craint de remuer et de rouvrir la profondeur.</p>
         <quote>
-          <label type="head" rend="center">LES SÉPARÉS.</label>
+          <label type="head">LES SÉPARÉS.</label>
           <l>N’écris pas. Je suis triste, et je voudrais m’éteindre.</l>
           <l>Les beaux étés sans toi, c’est la nuit sans flambeau.</l>
           <l>J’ai refermé mes bras qui ne peuvent t’atteindre,</l>
@@ -4725,7 +4725,7 @@
               l’expression de courage ressort naturellement de cette lecture, non exempte d’une
               certaine teinte de gaieté, la gaieté de la résignation.</note> ! »</p>
         </quote>
-        <p> M. de Latour, en excellent professeur qu’il était et nourri aux sources classiques,
+        <p>M. de Latour, en excellent professeur qu’il était et nourri aux sources classiques,
           avait remarqué dans les vers de M<hi rend="sup">me</hi> Valmore des négligences, des
           faiblesses, ou même peut-être des préciosités d’expression, des semblants de recherche,
           qui pouvaient nuire quelquefois à l’effet d’une inspiration toujours sincère. Il entreprit
@@ -4736,7 +4736,7 @@
           autre : cette originalité, même avec ses fautes, ne vaut-elle pas de plus correctes
           beautés ?</p>
         <quote>
-          <p> « Lyon, 7 février 1837.</p>
+          <p>« Lyon, 7 février 1837.</p>
           <p>« …..Vous êtes ingénieux à cacher les fautes ou à leur créer des excuses, et j’en ai
             pleuré de reconnaissance, car tout ce que j’écris doit être, en effet, monstrueux
             d’incohérence, de mots impropres et mal placés. J’en aurais honte si j’y pensais
@@ -4830,12 +4830,12 @@
           <l>Dieu l’a vu. Dieu cueillait comme des fleurs froissées</l>
           <l>Les femmes, les enfants qui s’envolaient aux cieux.</l>
           <l>Les hommes… les voilà dans le sang jusqu’aux yeux.</l>
-          <l>L’air n’a pu balayer tant d’âmes courroucées <note resp="author">
-              <p> Ce vers me rappelle celui de d’Aubigné exprimant les massacres de la
+          <l>L’air n’a pu balayer tant d’âmes courroucées<note resp="author">
+              <p>Ce vers me rappelle celui de d’Aubigné exprimant les massacres de la
                 Saint-Barthélemy et cette buée de sang qui s’exhale des carnages,</p>
-              <p> À l’heure que le ciel <hi rend="i">fume de sang et d'âmes.</hi></p>
+              <p>À l’heure que le ciel <hi rend="i">fume de sang et d'âmes.</hi></p>
               <p>L’un et l’autre vers qui se rencontrent dans une même image sont tout simplement
-                sublimes.</p></note>. </l>
+                sublimes.</p></note>.</l>
           <l/>
           <l>Elles ne veulent pas quitter leurs membres morts.</l>
           <l>Le prêtre est là marquant le prix des funérailles,</l>
@@ -4934,7 +4934,7 @@
           Valmore débutait par cet apologue à la manière du poète persan Saadi, dont elle avait lu
           quelque chose et que, disait-elle, elle adorait :</p>
         <quote>
-          <p> « Monsieur,</p>
+          <p>« Monsieur,</p>
           <p>« Il est dit dans un livre qu’un pauvre oiseau jeté à terre et roulé dans le vent de
             l’orage fut relevé par une créature charitable et puissante, qui lui remit son aile
             malade comme eût fait Dieu lui-même ; après quoi l’oiseau retourna où vont les oiseaux,
@@ -5099,7 +5099,7 @@
           circonstance heureuse en rompt la note uniforme et triste : le mariage de sa fille Ondine,
           si tôt suivi d’une fin funeste.</p>
         <quote>
-          <p> « (24 décembre 1849)… Mon bon Richard, si votre amitié n’est pas sans inquiétude sur
+          <p>« (24 décembre 1849)… Mon bon Richard, si votre amitié n’est pas sans inquiétude sur
             nous et notre silence, je suis tout à fait de même sur tout ce qui vous concerne ; et
             quoique je ne sache de quel côté donner de la tête, je prends sur la nuit pour vous
             écrire, — la nuit de Noël, mon cher Richard, qui changerait les destinées de ce triste
@@ -5204,7 +5204,7 @@
             m’envoies le charmant écho dans cette vraie colombe dont tu traduis la langue avec
               émotion<note resp="author">Il s’agissait d’une femme poète, Carolina Coronado, dont M.
               Hippolyte Valmore avait traduit une pièce de vers passionnée et mystique : <title>El
-                amor de los amores.</title></note> ; mais c’est du calme, de l’air, sans sonnette
+                amor de los amores</title>.</note> ; mais c’est du calme, de l’air, sans sonnette
             aux portes, sans pianos, sans bonnet grec dans un grenier. — Ici tout va de plain-pied…
             du moins à la surface des prés que j’ai parcourus. La mélancolie y est sans volupté,
             sans trop d’épines non plus. Les poètes n’y font pas de nids, et les tourterelles
@@ -5255,7 +5255,7 @@
           <p>« Pourquoi vous l’écrire ? parce que rien n’est plus difficile pour moi que d’écrire en
             ce moment. Appuyer ma pensée, c’est la trahir. Écrire autrement, c’est mentir, — chose
             impossible avec vous.</p>
-          <p> « Tout ce qui est alentour et devant moi est vraiment aimable. — L’air, le ciel et les
+          <p>« Tout ce qui est alentour et devant moi est vraiment aimable. — L’air, le ciel et les
             arbres suffiraient bien, sans la maison très-confortable et riante<note resp="author"
               >C’était dans une maison de la rue de la Pompe, aujourd’hui détruite. L’avenue de
               l’impératrice a depuis passé par là.</note> ; mais on dirait que j’y suis en rêve ; je
@@ -5307,7 +5307,7 @@
             ne pas tomber dans la dernière indigence, les ailes de l’âme se replient et remettent
             tous les élans à l’avenir. »</p>
         </quote>
-        <p> Dans des lettres à une amie, M<hi rend="sup">me</hi> Derains, elle revient sur cette
+        <p>Dans des lettres à une amie, M<hi rend="sup">me</hi> Derains, elle revient sur cette
           misère des logements à trouver, et elle exprime en vives images le trouble moral et le
           bouleversement de pensées qui résulte de ces déplacements continuels :</p>
         <quote>
@@ -5408,7 +5408,7 @@
         <head>Madame Desbordes-Valmore.</head>
         <head type="sub"> Sa vie et sa correspondance (suite)</head>
         <dateline><docDate when="1869-05-04">Mardi 4 mai 1869</docDate></dateline>
-        <p> Il me reste à indiquer des portions de correspondance qui offrent des tons un peu plus
+        <p>Il me reste à indiquer des portions de correspondance qui offrent des tons un peu plus
           variés, à montrer pourtant jusqu’à la fin la note fondamentale, et aussi à recueillir les
           principaux hommages qui n’ont pas manqué de son vivant à ce tendre et sympathique
           génie.</p>
@@ -5518,8 +5518,8 @@
           également tendre, et celle-ci de toute la vie, c’était M<hi rend="sup">me</hi> Pauline
           Duchambge, auteur de douces mélodies que nos mères savaient par cœur et soupiraient du
           temps de l’impératrice Joséphine et depuis aux belles années de la Restauration.
-            <title>Paroles de M<hi rend="sup">me</hi> Desbordes-Valmore</title>,<title> musique de
-              M<hi rend="sup">me</hi> Pauline Duchambge</title>, cela se voyait à son heure sur tous
+            <hi rend="i">Paroles de M<hi rend="sup">me</hi> Desbordes-Valmore, musique de
+              M<hi rend="sup">me</hi> Pauline Duchambge</hi>, cela se voyait à son heure sur tous
           les pianos. Mais ce n’était point seulement à cause de cette collaboration aimable,
           c’était en raison d’une union, d’une unisson plus intime que M<hi rend="sup">me</hi>
           Valmore pouvait dire avec vérité à M<hi rend="sup">me</hi> Duchambge : <quote>« Ne
@@ -5596,7 +5596,7 @@
           <l>En gémissant d’être colombe,</l>
           <l>Je rends grâces aux dieux de n’être pas vautour.</l>
         </quote>
-        <p> Le nom de M<hi rend="sup">me</hi> Dorval revient plus d’une fois entre elles deux. Cette
+        <p>Le nom de M<hi rend="sup">me</hi> Dorval revient plus d’une fois entre elles deux. Cette
           grande actrice, qui dans la seconde partie de sa carrière, et quand il était déjà tard,
           avait trouvé tout son talent et le cri vrai de la passion, ne ressemblait guère d’ailleurs
           aux deux tendres amies qui, jusque dans leur sensibilité la plus épanchée, étaient toute
@@ -5646,7 +5646,7 @@
           nuances de sentiment qu’il aurait fallu et les grâces du cœur ? Vers la fin, elle y
           mettait sans doute aussi de la réserve et se privait de les voir, sentant qu’elle vivait
           d’une tout autre vie.</p>
-        <p> M<hi rend="sup">me</hi> Duchambge, que je n’ai connue que déjà passée, qui avait dû être
+        <p>M<hi rend="sup">me</hi> Duchambge, que je n’ai connue que déjà passée, qui avait dû être
           des plus agréables, et qui, toute ridée qu’elle était, rappelait, par les mille petits
           plis de son fin et mignon visage, certaine jolie vieille de l’Anthologie :</p>
         <quote>
@@ -5671,7 +5671,7 @@
             éclater en sanglots devant ces âmes harmonieuses qui chantent pour consoler le monde.
             J’ai horreur d’interrompre ces grands missionnaires de Dieu. »</p>
         </quote>
-        <p> Quant à Brizeux, sa personne, son profil reparaît et disparaît sans cesse dans la
+        <p>Quant à Brizeux, sa personne, son profil reparaît et disparaît sans cesse dans la
           correspondance. M<hi rend="sup">me</hi> Duchambge aimait la lecture ; elle aimait à être
           au courant des choses de l’esprit, et même à s’instruire dans le passé. M<hi rend="sup"
             >me</hi> Valmore était bien peu à même de satisfaire à ses curiosités et à ses demandes
@@ -5696,7 +5696,7 @@
           comment, que Brizeux, qui s’était oublié en Italie entrait au cloître et se faisait
           moine :</p>
         <quote>
-          <p> « (Le 22 février 1851)… Le parti pris, dit-on, par notre Brizeux n’est pas dans la
+          <p>« (Le 22 février 1851)… Le parti pris, dit-on, par notre Brizeux n’est pas dans la
             nature fiévreuse de M. Lacaussade ; mais il est si malheureux qu’il comprend le <hi
               rend="i">sauve qui peut</hi> des âmes qui ne se jettent pas dans la lutte, et qui vont
             s’enfermer, croyant tout fuir… Ce serait là pour nous l’erreur la plus funeste ; et
@@ -5747,7 +5747,7 @@
               plus tendres soins et le traita en poète et en frère. Ses derniers moments furent du
               moins consolés et adoucis autant qu’ils pouvaient l’être.</note> »</p>
         </quote>
-        <p> Alfred de Musset fait lacune dans les relations de M<hi rend="sup">me</hi> Valmore. Je
+        <p>Alfred de Musset fait lacune dans les relations de M<hi rend="sup">me</hi> Valmore. Je
           crois qu’excepté lui, aucun des noms célèbres du temps ne manque à sa couronne poétique.
           Lamartine, Béranger, Hugo, Vigny, on le verra, l’avaient tous prévenue et saluée à leur
           heure. Elle était dans une vraie intimité avec Alexandre Dumas, qui mit, en 1838, une
@@ -5894,7 +5894,7 @@
             durement par notre cher Créateur ; car il est impossible que sa justice punisse ainsi
             sans cause, et cette pensée achève bien souvent de m’accabler. »</p>
         </quote>
-        <p> Chaque cœur croyant a, ainsi, un jour ou l’autre, son heure de tentation et de doute,
+        <p>Chaque cœur croyant a, ainsi, un jour ou l’autre, son heure de tentation et de doute,
           son délaissement et sa sueur froide, son jardin des Olives. L’aspect nu de la réalité,
           tout ce qu’elle a d’inexorable et de fatal, revient assaillir, bon gré mal gré, ces âmes
           aimantes qui veulent espérer, et les envahit, les remplit de douleurs profondes. C’est
@@ -5976,7 +5976,7 @@
               rend="i">vivants</hi><note resp="author">Elle dit <quote>« le meilleur des hommes <hi
                   rend="i">vivants</hi> »</quote> par égard pour M<hi rend="sup">me</hi> Derains
               qui, veuve, gardait un culte pour son mari, mort cruellement, victime innocente des
-              guerres civiles. – M. Derains était avocat. Il fut tué lors du massacre du coup
+              guerres civiles. — M. Derains était avocat. Il fut tué lors du massacre du coup
               d’État, en décembre 1851, sur la voie publique, à Paris, pendant qu’il se rendait,
               inoffensif et sans armes, au palais de justice. Son corps, recouvré par l’infortunée
               veuve, avait été troué de six balles.</note> vient de m’accorder un si grand bienfait
@@ -5993,7 +5993,7 @@
         <head>Madame Desbordes-Valmore.</head>
         <head type="sub"> Sa vie et sa correspondance (suite et fin.)</head>
         <dateline><docDate when="1869-05-05">Mercredi 5 mai 1869</docDate>.</dateline>
-        <p> Il faut bien en venir pourtant aux hommages littéraires, à commencer par le plus
+        <p>Il faut bien en venir pourtant aux hommages littéraires, à commencer par le plus
           magnifique et le plus royal de tous, celui de Lamartine. Lui seul en eut l’initiative, et
           un quiproquo y aida. Il y avait dans les dernières années de la Restauration un poète
           errant et des plus bohèmes, Franc-Comtois d’origine ou à peu près, resté de tout temps
@@ -6024,7 +6024,7 @@
           seconde vue, et du premier coup d’œil il avait tout compris de cette existence, il avait
           tout exprimé en images vivantes et dans un tableau immortel :</p>
         <quote>
-          <l> Ils n’ont, disais-je, dans la vie</l>
+          <l>Ils n’ont, disais-je, dans la vie</l>
           <l>Que cette tente et ces trésors ;</l>
           <l>Ces trois planches sont leur patrie.</l>
           <l>Et cette terre en vain chérie</l>
@@ -6060,7 +6060,7 @@
           <l>L’oiseleur les épargne et laisse</l>
           <l>Grandir leurs plumes dans les nids !</l>
           <l/>
-          <l> Mais l’oiseau que ta voix imite</l>
+          <l>Mais l’oiseau que ta voix imite</l>
           <l>T’a prêté sa plainte et ses chants,</l>
           <l>Et plus le vent du nord agite</l>
           <l>La branche où ton malheur s’abrite,</l>
@@ -6095,7 +6095,7 @@
           <l>Et chacune de ses blessures</l>
           <l>Lui donne un plus sublime accord !…</l>
         </quote>
-        <p> Qu’ajouter à de tels accents ? et combien aux années heureuses et innocentes, avant la
+        <p>Qu’ajouter à de tels accents ? et combien aux années heureuses et innocentes, avant la
           politique, il lui a été donné de verser de semblables chants dans les âmes souffrantes,
           lui, le grand consolateur à qui il doit être tant pardonné ! En même temps que cette pièce
           de vers, M<hi rend="sup">me</hi> Valmore recevait la lettre que voici :</p>
@@ -6124,7 +6124,7 @@
           <l>Oh ! n’as-tu pas dit le mot <hi rend="i">gloire ? </hi><lb/>Et ce mot, je ne l’entends
             pas :</l>
           <l/>
-          <l> Car je suis une faible femme,</l>
+          <l>Car je suis une faible femme,</l>
           <l>Je n’ai su qu’aimer et souffrir ;</l>
           <l>Ma pauvre lyre, c’est mon âme,</l>
           <l>Et toi seul découvres la flamme</l>
@@ -6283,7 +6283,7 @@
           <p>« F.-V. RASPAIL.</p>
           <p>« Stalle-sous-Uccle, 28 juillet 1859. »</p>
         </quote>
-        <p> M<hi rend="sup">me</hi> Valmore mourut dans la nuit du 22 au 23 juillet 1859. Elle
+        <p>M<hi rend="sup">me</hi> Valmore mourut dans la nuit du 22 au 23 juillet 1859. Elle
           habitait en dernier lieu rue de Rivoli, 73, au coin de la rue Étienne. Elle venait d’avoir
           soixante-treize ans.</p>
         <p>Le 4 août suivant, la ville de Douai accomplissait un devoir douloureux envers son cher
@@ -6331,7 +6331,7 @@
             rend="i"> M<hi rend="sup">me</hi> de Staël et Guillaume Schlegel ;</hi> —<hi rend="i"
               > M<hi rend="sup">me</hi> de Staël et M. de Barante</hi>, etc., etc. Malheureusement
           nombre de ces séries ont été détruites. Une bienveillance toute particulière, une
-          confiance dont je me sens honoré <note resp="author">Je dois cette communication à M.
+          confiance dont je me sens honoré<note resp="author">Je dois cette communication à M.
             Arthur de Gravillon, petit fils de Camille Jordan, qui, à la demande de mon ami M. R. de
             Chantelauze, a bien voulu rechercher, dans ses papiers de famille, tout ce qui pouvait
             m’intéresser. M. A. de Gravillon est lui-même un esprit cultivé, ami des lettres, digne
@@ -6431,7 +6431,7 @@
             force et la pudeur violée par la brutalité. J’ai vu des citoyens paisibles tout à coup
             assaillis par une horde de brigands ; le sexe le plus intéressant et le plus faible
             devenu l’objet d’une persécution féroce, nos femmes et nos filles traînées dans les
-            boues de nos rues, publiquement fouettées et horriblement outragées. O image qui ne
+            boues de nos rues, publiquement fouettées et horriblement outragées. Ô image qui ne
             s’effacera jamais de ma mémoire ! j’ai vu l’une d’entre elles baignée de pleurs,
             dépouillée de ses vêtements, le corps renversé, la tête dans la fange. Des hommes de
             sang l’environnaient ; ils froissaient de leurs mains impures ses membres délicats, ils
@@ -6484,7 +6484,7 @@
             condamnent ? quelle est l’opinion qui les accuse ? Un Louvet ne se réfugia-t-il pas en
             Suisse, un Talleyrand en Angleterre ? Et, pour citer de plus nobles exemples, qui d’entre
             vous, Lyonnais, ne chercha point à dérober sa tête à la hache du bourreau ? On nous
-            appelle émigrés à ce titre ! Oh ! la belle émigration ! oh ! l’honorable proscription!
+            appelle émigrés à ce titre ! Oh ! la belle émigration ! oh ! l’honorable proscription !
             Et c’est ainsi que nos droits eux-mêmes à la confiance du peuple sont devenus les
             prétextes pour nous calomnier auprès de lui… »</p>
         </quote>
@@ -6679,7 +6679,7 @@
             l’humanité de ces vertueux citoyens ! Une telle doctrine affecte même leur sensibilité.
             Il ne suffit pas qu’on convienne avec eux que la vengeance est défendue, ils ne peuvent
             pas même entendre qu’elle est naturelle. Leur nature bienfaisante se révolte à cette
-            pensée. O vous que le ciel doua d’une âme si expansive et si tendre, cette erreur est
+            pensée. Ô vous que le ciel doua d’une âme si expansive et si tendre, cette erreur est
             belle sans doute, elle fait honneur à vos cœurs ; mais c’est une erreur cependant, et la
             raison ne saurait perdre ses immuables droits. Retenez donc bien que la nature humaine,
             telle qu’elle est faite chez nous, comporte des sentiments quelquefois illégitimes et
@@ -7220,7 +7220,7 @@
             j’ai lu ; mais j’ai eu l’orgueil de trouver là tant de réponses à mes sentiments les
             plus intimes, qu’il me semblait que tout pouvait être d’accord. Ma vengeance se borne
             maintenant à désirer qu’en lisant <hi rend="i">Delphine</hi><note resp="author">Le roman
-              de <title>Delphine</title> parut à la fin de 1802.</note>vous regrettiez le projet
+              de <title>Delphine</title> parut à la fin de 1802.</note> vous regrettiez le projet
             évanoui. J’ai vu assez souvent M<hi rend="sup">me</hi> de Krüdner. Je la trouve toujours
             distinguée ; mais elle raconte une si grande quantité d’histoires de gens qui se sont
             tués pour elle, que sa conversation a l’air d’une gageure, et que, sans être précisément
@@ -7347,7 +7347,7 @@
           écrit dans ses <title>Dix années d’exil</title>. On l’y voit tourmentée surtout par son
           imagination et ne sachant pas prendre dès l’abord son parti d’une persécution qui,
           mesquine assurément dans son principe, aurait pu être supportée avec plus de calme et de
-          simplicité s mais il faut accepter les natures comme elles sont, et celle de M<hi
+          simplicité ; mais il faut accepter les natures comme elles sont, et celle de M<hi
             rend="sup">me</hi> de Staël, orageuse, sentimentale et digne, rachetant quelque
           faiblesse par beaucoup de courage, mérite qu’on fasse pour elle toutes les exceptions.
           Arrivée à Metz et s’y reposant quelques jours avant de mettre le pied en Allemagne, elle
@@ -7641,7 +7641,7 @@
             revoir. Adieu, cher Camille, je vous trouverais bien aimable de répondre promptement à
             toutes mes questions, et, si vous m’annonciez que nous vous verrons, je ne puis dire
             comme j’en serais heureuse.</p>
-          <p rend="right">« J (uliette) R. »</p>
+          <p rend="right">« J(uliette) R. »</p>
         </quote>
         <p>Et dans la même lettre, sur le même papier, M<hi rend="sup">me</hi> de Staël ajoutait,
           revenant sur ses précédentes exhortations, et en personne d’excellent conseil pour tout ce
@@ -7904,7 +7904,7 @@
             vous rattraperai quelque part…</p>
           <p>« Faites que mes compliments soient agréables à M<hi rend="sup">me</hi> Camille.
             — Mille impérissables sentiments. — Adieu.</p>
-          <p>« Prosper<note resp="author">Prosper de Barante.</note>est ici depuis trois
+          <p>« Prosper<note resp="author">Prosper de Barante.</note> est ici depuis trois
             semaines. »</p>
         </quote>
         <p>On aura remarqué ce qu’elle dit de ses sentiments religieux et de ceux de Camille
@@ -8210,7 +8210,7 @@
           le considère de près et qu’on l’étudie, on reconnaît qu’il suivit toujours la même ligne
           de principes, le même ordre d’inspirations, puisées aux mêmes sources morales ; mais il
           était en progrès. Sous le Directoire, au conseil des Cinq-Cents, il avait voulu civiliser,
-          humaniser la Révolution et tirer de cette Constitution de l’an m la véritable liberté, la
+          humaniser la Révolution et tirer de cette Constitution de l’an III la véritable liberté, la
           véritable égalité et la justice. Le lendemain du vote pour le Consulat à vie, il avait
           essayé de montrer que cette autre Constitution de l’an vin était perfectible, et qu’avec
           un peu de bonne volonté on pouvait en tirer des institutions, des garanties, tout un ordre
@@ -10602,7 +10602,7 @@
                 rend="i">gelidis a stellis axis</hi>)</quote> l’impressionnait toujours. Il redisait
             de beaux vers de Lucrèce qu’il savait par cœur : il l’avait commenté bien avant Homère,
             peut-être avant Virgile ; il s’en était nourri dès l’adolescence<note resp="author"
-                  ><quote><l> Quand Rome s’écroulait sous le fer des tyrans,</l><l>Que, sortis de
+                  ><quote><l>Quand Rome s’écroulait sous le fer des tyrans,</l><l>Que, sortis de
                   son sein, de rebelles enfants</l><l>Par une guerre impie ensanglantaient leur
                   mère,</l><l>Et vainqueurs ou vaincus accroissaient sa misère,</l><l>Un poète parut
                   qui, d’une austère voix,</l><l>Chantant de l’univers le principe et les
@@ -10772,46 +10772,46 @@
               nombre, mais décisifs, quoique pris au hasard.</p>
             <p>« Lucrèce conseille à l’adolescence d’éloigner tout ce qui peut alimenter
               l’amour :</p>
-            <l>                     …………………………………… Pabula amoris</l>
-            <l>                     Absterrere sibi, atque alio convertere mentem ;</l>
-            <l>                     Et jacere humorem conlectum in corpora quæque…</l>
-            <l>                     ………………………………………………………………………</l>
-            <l>                     Ulcus enim vivescit, et inveterascit alendo,</l>
-            <l>                     Inque dies gliscit furor, atque ærumna gravescit,</l>
-            <l>                     Si non prima novis conturbes volnera plagis,</l>
-            <l>                     Volgivagaque vagus Venere ante recentia cures,</l>
-            <l>                     Aut alio possis animi traducere motus.</l>
+            <quote><l>…………………………………… Pabula amoris</l>
+            <l>Absterrere sibi, atque alio convertere mentem ;</l>
+            <l>Et jacere humorem conlectum in corpora quæque…</l>
+            <l>………………………………………………………………………</l>
+            <l>Ulcus enim vivescit, et inveterascit alendo,</l>
+            <l>Inque dies gliscit furor, atque ærumna gravescit,</l>
+            <l>Si non prima novis conturbes volnera plagis,</l>
+            <l>Volgivagaque vagus Venere ante recentia cures,</l>
+            <l>Aut alio possis animi traducere motus.</l></quote>
             <p>« M. de Pongerville traduit :</p>
-            <l>                     Ah ! fuyons de l’amour <hi rend="i">le charme
+            <quote><l>Ah ! fuyons de l’amour <hi rend="i">le charme
               suborneur</hi> :</l>
-            <l>                     Dès qu’il règne en tyran, il détruit le bonheur.</l>
-            <l>                     Affaiblis donc ses feux par <hi rend="i">un heureux
+            <l>Dès qu’il règne en tyran, il détruit le bonheur.</l>
+            <l>Affaiblis donc ses feux par <hi rend="i">un heureux
               partage</hi>,</l>
-            <l>                     Il faut, même en aimant, redouter l’esclavage.</l>
-            <l>                     Tour à tour <hi rend="i">chaque belle</hi> enflamme mes
+            <l>Il faut, même en aimant, redouter l’esclavage.</l>
+            <l>Tour à tour <hi rend="i">chaque belle</hi> enflamme mes
               désirs,</l>
-            <l>                     Et j’effleure en courant la coupe des plaisirs.</l>
-            <l>                     Qui peut flatter l’amour en devient la victime ;</l>
-            <l>                     Sa blessure légère aussitôt s’envenime.</l>
-            <l>                     Que son trait, par un autre à l’instant remplacé,</l>
-            <l>                     Ne laisse aucune empreinte au cœur qu’il a blessé !</l>
-            <l>                     Asservissons l’amour à nos <hi rend="i">tendres
+            <l>Et j’effleure en courant la coupe des plaisirs.</l>
+            <l>Qui peut flatter l’amour en devient la victime ;</l>
+            <l>Sa blessure légère aussitôt s’envenime.</l>
+            <l>Que son trait, par un autre à l’instant remplacé,</l>
+            <l>Ne laisse aucune empreinte au cœur qu’il a blessé !</l>
+            <l>Asservissons l’amour à nos <hi rend="i">tendres
               caprices</hi> ;</l>
-            <l>                     Une sage inconstance ajoute à ses délices.</l>
+            <l>Une sage inconstance ajoute à ses délices.</l></quote>
             <p>« De la sorte, l’énergique et brutal conseil de Caton l’Ancien fait place aux
               galantes fadaises de Dorat, et, au lieu des mœurs de la vieille Rome, le lecteur
               n’entrevoit que l’âge brillant des <hi rend="i">cinq maîtresses</hi>.</p>
             <p>« Lucrèce, parlant toujours de la passion amoureuse, dit qu’il est plus aisé de
               prévenir le mal que de le guérir :</p>
-            <l>                     Nam vitare plagas in amoris ne jaciamur,</l>
-            <l>                     Non ita difficile est, quam captum retibus ipsis</l>
-            <l>                     Exire, et validos Veneris perrumpere nodos.</l>
+            <quote><l>Nam vitare plagas in amoris ne jaciamur,</l>
+            <l>Non ita difficile est, quam captum retibus ipsis</l>
+            <l>Exire, et validos Veneris perrumpere nodos.</l></quote>
             <p>« Et M. de Pongerville :</p>
-            <l>                     Des ruses de l’amour prévenons les succès ;</l>
-            <l>                     Car il est plus aisé d’éviter ses filets</l>
-            <l>                     Que d’<hi rend="i">épurer un cœur par lui rendu
+            <quote><l>Des ruses de l’amour prévenons les succès ;</l>
+            <l>Car il est plus aisé d’éviter ses filets</l>
+            <l>Que d’<hi rend="i">épurer un cœur par lui rendu
               coupable</hi>,</l>
-            <l>                     Et de rompre les fers dont Vénus nous accable.</l>
+            <l>Et de rompre les fers dont Vénus nous accable.</l></quote>
             <p>« Tout le vers : <hi rend="i">que d’épurer un cœur</hi>, etc., est à la fois une
               faute grossière de style, car il n’y a nulle analogie pour l’image <hi rend="i">entre
                 filets, épurer</hi> et <hi rend="i">rendu coupable</hi> ; et un contresens formel,
@@ -10820,44 +10820,44 @@
               tortures que cause la passion.</p>
             <p>« Lucrèce continue d’énumérer les dangers auxquels l’amour entraîne les jeunes
               gens :</p>
-            <l>                     Adde quod absumunt nervos, pereuntque labore ;</l>
-            <l>                     Adde quod alterius sub nutu degitur ætas.</l>
-            <l>                     Labitur interea res, et vadimonia fiunt ;</l>
-            <l>                     Languent officia, atque ægrotat fama vacillans.</l>
+            <quote><l>Adde quod absumunt nervos, pereuntque labore ;</l>
+            <l>Adde quod alterius sub nutu degitur ætas.</l>
+            <l>Labitur interea res, et vadimonia fiunt ;</l>
+            <l>Languent officia, atque ægrotat fama vacillans.</l></quote>
             <p>« Ce qui devient, en passant sous la plume du traducteur :</p>
-            <l>                     Que dis-je ! ô Memmius, <hi rend="i">à cet affreux
+            <quote><l>Que dis-je ! ô Memmius, <hi rend="i">à cet affreux
               supplice</hi></l>
-            <l>                     Ajoute la fatigue et la honte du vice,</l>
-            <l>                     <hi rend="i">D’un lâche égarement le cruel souvenir</hi>,</l>
-            <l>                     La dette, <hi rend="i">affreux serpent qui ronge
+            <l>Ajoute la fatigue et la honte du vice,</l>
+            <l><hi rend="i">D’un lâche égarement le cruel souvenir</hi>,</l>
+            <l>La dette, <hi rend="i">affreux serpent qui ronge
               l’avenir</hi>,</l>
             <l>Un honneur chancelant, le remords implacable</l>
-            <l>                     <hi rend="i">À revoir le passé forçant un cœur
-              coupable.</hi></l>
+            <l><hi rend="i">À revoir le passé forçant un cœur
+              coupable.</hi></l></quote>
             <p>« Au début du second chant, Lucrèce gourmande les hommes de ne pas s’en tenir aux
               vrais plaisirs que la nature leur offre à si peu de frais : « Si vous n’avez, leur
               dit-il, ni statues d’or tenant à la main des flambeaux dans vos vestibules, ni lambris
               dorés, ni musique retentissante, vous avez les bois, le gazon qu’arrosent les
               ruisseaux, etc., etc. »</p>
-            <l>                     Si non aurea sunt juvenum simulacra per ædes,</l>
-            <l>                     Lampadas igniferas manibus retinentia dextris,</l>
-            <l>                     Lumina nocturnis epulis ut suppeditentur, etc., etc.</l>
+            <quote><l>Si non aurea sunt juvenum simulacra per ædes,</l>
+            <l>Lampadas igniferas manibus retinentia dextris,</l>
+            <l>Lumina nocturnis epulis ut suppeditentur, etc., etc.</l></quote>
             <p>« Et M. de Pongerville nous donne en échange :</p>
-            <l>                     Ô toi, mortel heureux, dans ta noble indigence,</l>
-            <l>                     Si du luxe trompeur la magique élégance</l>
-            <l>                     N’a point, pour soutenir tes superbes flambeaux,</l>
-            <l>                     En statue avec art transformé les métaux, etc., etc.</l>
+            <quote><l>Ô toi, mortel heureux, dans ta noble indigence,</l>
+            <l>Si du luxe trompeur la magique élégance</l>
+            <l>N’a point, pour soutenir tes superbes flambeaux,</l>
+            <l>En statue avec art transformé les métaux, etc., etc.</l></quote>
             <p>« Lucrèce veut prouver que l’enfer n’existe point ailleurs qu’en ce monde et dans le
               cœur des méchants :</p>
-            <l>                     Sed Tityos nobis hic est, in amore jacentem</l>
-            <l>                     Quem volucres lacerant, atque exest anxius angor,</l>
-            <l>                     Aut alia quavis scindunt turpedine curæ.</l>
+            <quote><l>Sed Tityos nobis hic est, in amore jacentem</l>
+            <l>Quem volucres lacerant, atque exest anxius angor,</l>
+            <l>Aut alia quavis scindunt turpedine curæ.</l></quote>
             <p>« Et M. de Pongerville :</p>
-            <l>                     Titye est ce mortel que le crime déchire ;</l>
-            <l>                     Qui, par <hi rend="i">des goûts honteux</hi> sans cesse <hi
+            <quote><l>Titye est ce mortel que le crime déchire ;</l>
+            <l>Qui, par <hi rend="i">des goûts honteux</hi> sans cesse <hi
                 rend="i">captivé</hi>,</l>
-            <l>                     <hi rend="i">Couve d’affreux</hi> remords dans son cœur <hi
-                rend="i">dépravé</hi>.</l>
+            <l><hi rend="i">Couve d’affreux</hi> remords dans son cœur <hi
+                rend="i">dépravé</hi>.</l></quote>
             <p>« <hi rend="i">Des goûts honteux, captivé, couve, dépravé</hi>, n’ont aucune analogie
               avec le vautour de Titye, ni avec les expressions latines qui y correspondent, <hi
                 rend="i">lacerant, exest, angor, scindunt</hi>.</p>
@@ -10872,23 +10872,23 @@
             <p>« Lucrèce dit qu’en un cœur coupable sont tous les fouets, tous les aiguillons de
               l’enfer ; et que le méchant, ne voyant aucun terme à ses tortures, les prolonge et les
               aggrave en idée après cette vie : d’où naît la crainte chimérique du Tartare :</p>
-            <l>                     ……………………… At mens sibi conscia facti,</l>
-            <l>                     Præmetuens », adhibet stimulos torretque flagellis</l>
-            <l>                     Mec videt interea, qui terminus esse malorum</l>
-            <l>                     Possit, nec quæ sit pœnarum denique finis ;</l>
-            <l>                     Atque eadem metuit magis hæc ne in morte gravescant</l>
-            <l>                     Hinc Acherusia fit stultorum denique vita.</l>
+            <quote><l>……………………… At mens sibi conscia facti,</l>
+            <l>Præmetuens », adhibet stimulos torretque flagellis</l>
+            <l>Mec videt interea, qui terminus esse malorum</l>
+            <l>Possit, nec quæ sit pœnarum denique finis ;</l>
+            <l>Atque eadem metuit magis hæc ne in morte gravescant</l>
+            <l>Hinc Acherusia fit stultorum denique vita.</l></quote>
             <p>« Découvre qui pourra cette pensée dans les vers suivants :</p>
-            <l>                     En vain il (<hi rend="i">le méchant</hi>) se confie <hi rend="i"
+            <quote><l>En vain il (<hi rend="i">le méchant</hi>) se confie <hi rend="i"
                 >au secret protecteur</hi> !</l>
-            <l>                     Le mal conduit au mal et punit son auteur ;</l>
-            <l>                     Ajoute à cette <hi rend="i">horrible</hi> et <hi rend="i"
+            <l>Le mal conduit au mal et punit son auteur ;</l>
+            <l>Ajoute à cette <hi rend="i">horrible</hi> et <hi rend="i"
                 >longue</hi> inquiétude</l>
-            <l>                     D’un avenir <hi rend="i">cruel</hi> l’<hi rend="i">affreuse</hi>
+            <l>D’un avenir <hi rend="i">cruel</hi> l’<hi rend="i">affreuse</hi>
               incertitude.</l>
-            <l>                     L’homme <hi rend="i">faible</hi> et <hi rend="i">pervers</hi>,
+            <l>L’homme <hi rend="i">faible</hi> et <hi rend="i">pervers</hi>,
               artisan de ses maux,</l>
-            <l>                     A creusé sous ses pas les gouffres infernaux.</l>
+            <l>A creusé sous ses pas les gouffres infernaux.</l></quote>
             <p>« Il fallait nécessairement : <hi rend="i">Ainsi l’homme</hi> a creusé, etc, etc.</p>
             <p>« Nous ne pousserons pas plus loin cette critique fastidieuse et facile ; ce n’est
               même qu’à regret que nous l’avons entreprise. M. de Pongerville nous est

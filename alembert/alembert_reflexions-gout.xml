@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Réflexions sur le goût</title>
-        <author key="Alembert, D’ (1717-1783)">D’Alembert</author>
+        <author key="Alembert, D' (1717-1783)" ref="https://data.bnf.fr/fr/11888370/d__alembert/">D’Alembert</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>Alembert, D’ (1717-1783), « Réflexions sur l’usage et l’abus de la philosophie dans les matières de goût, lues à l’Académie française le 14 mars 1757 » [<hi rend="i">Mélanges</hi>, 1759, tome IV, p. 399-420], in <hi rend="i">Œuvres de d’Alembert</hi>, tome IV, deuxième partie, Paris, A. Belin, Bossange père et fils, Bossange frères, 1822, p. 326-333. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k6473194f">Gallica</ref>. Graphies modernisées.</bibl>
+        <bibl>D’Alembert, « Réflexions sur l’usage et l’abus de la philosophie dans les matières de goût, lues à l’Académie française le 14 mars 1757 » [<hi rend="i">Mélanges</hi>, 1759, tome IV, p. 399-420], in <hi rend="i">Œuvres de d’Alembert</hi>, tome IV, deuxième partie, Paris, A. Belin, Bossange père et fils, Bossange frères, 1822, p. 326-333. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k6473194f">Gallica</ref>. Graphies modernisées.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +46,7 @@
         <date when="1757">1757</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>

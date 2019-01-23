@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1911">1911</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -522,22 +522,23 @@
             <label type="speaker">La voce del còmito</label>
             <l>Salpa ! Salpa ! Alla gòmona ! Arma l’argano !</l>
             <l>Su ! Vira a picco ! Vira a lassa ! Fuori</l>
-            <l>l’àncora ! Vira !</l>
+            <l part="I">l’àncora ! Vira !</l>
             <label type="speaker">I compagni navali.</label>
-            <l>                                      Oh tira ! Oh saglia ! Oh tira !</l>
-            <l>Oh saglia !</l>
+            <l part="F">Oh tira ! Oh saglia ! Oh tira !</l>
+            <l part="I">Oh saglia !</l>
+            <pb n="277"/>
             <label type="speaker">Il mulinaro.</label>
-            <l><pb n="277"/>                                      Giorgio Magadiso leva</l>
+            <l part="F">Giorgio Magadiso leva</l>
             <l>l’àncora per Ravenna. Porta il sale</l>
-            <l>ai Greci.</l>
+            <l part="I">ai Greci.</l>
             <label type="speaker">La voce del còmito.</label>
-            <l>                                      Vira ! Avanti, avanti ! Volta</l>
+            <l part="F">Vira ! Avanti, avanti ! Volta</l>
             <l>Issa, all’ aiuto di Nostro Signore</l>
             <l>Gesù Cristo e di Sire Santo Ermàgora !</l>
             <label type="speaker">I compagni navali.</label>
-            <l>Oh tira ! Oh saglia ! Oh tira ! Oh saglia !</l>
+            <l part="I">Oh tira ! Oh saglia ! Oh tira ! Oh saglia !</l>
             <label type="speaker">Il mulinaro.</label>
-            <l>                                      A braccia !</l>
+            <l part="F">A braccia !</l>
             <l>A braccia ! Macinate forte, schiavi,</l>
             <l>ch’ io vi darò per cena orzuola intrisa</l>
             <l>con la crusca e condita d’olio glasso.</l>
@@ -547,13 +548,13 @@
             <l>mentre ti guasta le ruote la furia</l>
             <l>dell’acque. E rotti gli argini son anco</l>
             <l>alle saline. Di farina e sale</l>
-            <l>si patirà. Ma giova altr’ arte.</l>
+            <l part="I">si patirà. Ma giova altr’ arte.</l>
             <label type="speaker">La voce del còmito.</label>
-            <l>                                      Strozza !</l>
+            <l part="F">Strozza !</l>
             <l>Alla gru di cappone ! Incoccia ! Trinca !</l>
-            <l>Serrabbozze alle marre e fuso !</l>
+            <l part="I">Serrabbozze alle marre e fuso !</l>
             <label type="speaker">I compagni navali</label>
-            <l>                                      Oh leva !</l>
+            <l part="F">Oh leva !</l>
             <l>Oh serra !</l>
           </quote>
           <p>Et ce concert de mots inintelligibles pour quiconque n’a pas eu soin d’apporter au théâtre un dictionnaire <pb n="278"/>de l’Art naval, continue encore… <quote><hi rend="i">Oh issa ! Oh saglia ! Oh issa ! Oh saglia</hi><note resp="author">Le lecteur m’opposera sans doute le chapitre des <hi rend="i">Travailleurs de la mer</hi> où Hugo a entassé aussi les expressions techniques. Ce chapitre est une de ces exagérations trop fréquentes chez Hugo ; mais enfin il est d’allure bien épique et a un but psychologique précis : faire sentir l’énorme difficulté du travail entrepris par Gilliatt.</note> !</quote></p>

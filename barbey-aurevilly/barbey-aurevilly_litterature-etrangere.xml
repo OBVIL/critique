@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,16 +46,16 @@
         <date when="1890">1890</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div>
-        <head>Préface<note resp="author"><p>Ces lignes précèdent, dans le IV<hi rend="sup">e</hi> vol. des <hi rend="i">Œuvres et des Hommes</hi> (1<hi rend="sup">re</hi> série : <hi rend="i">Les Romanciers</hi>, 1865), trois chapitres : <hi rend="sc">Edgar Poe</hi>, G.-<hi rend="sc">A. Lawrence, Gogol</hi>, que l’auteur, préparant, en octobre 1888, la suite de la 11<hi rend="sup">e</hi> série de ses critiques, en retira pour les placer ici. <hi rend="i">(Note de l’Éditeur.)</hi></p><p> Le fameux article qui fit tant de bruit quand il parut, en 1858, dans <hi rend="i">Le Réveil</hi>, sous ce titre : <hi rend="i">Le Roi des Bohèmes</hi> ! (<hi rend="i">id.</hi>)</p></note></head>
+        <head>Préface<note resp="author"><p>Ces lignes précèdent, dans le IV<hi rend="sup">e</hi> vol. des <hi rend="i">Œuvres et des Hommes</hi> (1<hi rend="sup">re</hi> série : <hi rend="i">Les Romanciers</hi>, 1865), trois chapitres : <hi rend="sc">Edgar Poe</hi>, G.-<hi rend="sc">A. Lawrence, Gogol</hi>, que l’auteur, préparant, en octobre 1888, la suite de la 11<hi rend="sup">e</hi> série de ses critiques, en retira pour les placer ici. <hi rend="i">(Note de l’Éditeur.)</hi></p><p>Le fameux article qui fit tant de bruit quand il parut, en 1858, dans <hi rend="i">Le Réveil</hi>, sous ce titre : <hi rend="i">Le Roi des Bohèmes</hi> ! (<hi rend="i">id.</hi>)</p></note></head>
         <p><hi rend="i">Il faudrait peut-être rappeler ici que nous avons mis le nom du <num>xix<hi rend="sup">e</hi></num> siècle à la tête du livre intitulé</hi> : « Les Œuvres et les Hommes ». <hi rend="i">Quoique la littérature française tienne pour nous, Français, la plus large place dans la littérature de notre temps, et que cet ouvrage soit plus particulièrement consacré à la littérature française, cependant, quand, dans les autres littératures contemporaines, marquera, à tort ou à raison, une</hi> œuvre <hi rend="i">ou un</hi> homme, <hi rend="i">nous les regarderons par-dessus leur frontière… À quoi bon, d’ailleurs, parler de frontière ? L’originalité des races et des institutions n’est plus. Malheur énorme pour l’imagination ! à une certaine hauteur, toutes les sociétés se ressemblent. Quand on dit</hi> : littérature Française, littérature Anglaise, littérature Russe, <hi rend="i">etc., peut-être n’est-il plus temps d’entendre que</hi> LITTÉRATURE EUROPÉENNE, <hi rend="i">tant, à l’exception des langues, qui entreront aussi un jour dans la mêlée universelle, les littératures modernes sont en train de</hi> faire de l’unité monstrueuse <hi rend="i">dans leurs conceptions et leurs manières de sentir</hi> !</p>
-        <p rend="right">J. B. d’A.</p>
+        <byline>J. B. d’A.</byline>
       </div>
       <div>
         <head>Shakespeare</head>
@@ -691,7 +691,7 @@
           <p>Que dirait donc Lord Byron à présent ? Que dirait-il, quand il apprendrait qu’au fond il était, voyez-vous cela ! un librettiste d’opéra-comique, lequel ne se doutait pas de son talent, mais qui pouvait avoir du succès si les princes du genre, bons comme des princes, lui venaient en aide et le tailladaient un peu.. Et pas moyen d’empêcher cela, à ce qu’il paraît ! Tout au plus peut-on en rire… car rien n’est plus risible. <hi rend="i">Flanquer</hi> le <hi rend="i">Lara</hi> de Lord Byron en opéra-comique est tout à la fois une de ces spéculations et de ces caricatures qui dépassent en ridicule cette <hi rend="i">Histoire romaine</hi> en rondeaux de Benserade, dont le fort bon sens de Despréaux se moquait !</p>
           <p>Ah ! ce n’est pas tout profit que d’être un grand homme. Pauvre grand Byron ! Il n’est pas heureux en France, depuis quelques années… On l’a mis en chansons… mais avant d’être la proie des musiciens (il n’aimait pas la musique, et peut-être était-ce là un pressentiment de ce qui devait lui arriver !), Byron avait déjà baissé dans l’opinion publique de France. Il s’était rencontré une École, et une École qui n’a que du <hi rend="i">son</hi> dans le ventre (sans calembour) :</p>
           <quote>
-            <l>…On pourrait aisément s’y tromper !),</l>
+            <l>… On pourrait aisément s’y tromper !),</l>
           </quote>
           <p>laquelle a trouvé que lui, Byron, l’auteur du <hi rend="i">Corsaire</hi>, de <hi rend="i">Lara</hi>, du <hi rend="i">Giaour</hi>, de <hi rend="i">Don Juan</hi>, et de tant d’autres chefs-d’œuvre, était, en termes de cette École : horriblement <hi rend="i">poncif</hi> ; que ses Turcs et ses Grecs ressemblaient à des sujets de pendule ; que tout cela était vieux et <hi rend="i">passé</hi> comme le turban de madame de Staël, comme le Malek-Adel de madame Cottin… Ah ! les Cottins, c’étaient ceux qui disent de telles choses ! Les Cottins, race inépuisable ! On croit qu’il n’y en a plus : il y en a toujours. C’est la sainte Ampoule de la bêtise. Est-ce qu’il n’en pointe pas d’autres maintenant, heureusement encore à deux pouces de terre, qui insultent au génie d’Alfred de Musset, le byronien charmant, le poète de la jeunesse, mort dans son enfance, que je ne comparerai pas à son père, mais qui rappelle parfois son père au point de se faire adorer ! Eh bien, c’est contre cette opinion qui a filtré assez obscurément et assez honteusement dans la littérature et qui a fini par y faire mare, — comme parfois fait la mer dans les sables, après y avoir imperceptiblement <hi rend="i">tortillonné</hi>, — c’est contre cette opinion, à qui il faut essayer de clore le bec, que je veux m’inscrire en rappelant à ceux qui aiment le génie et même à ceux qui aiment l’opéra-comique, quel fut le génie de Byron. Il y a des jours où la Critique, qui, le plus souvent, savonne des nègres et frotte du Ruolz avec sa manche pour bien s’attester que ce n’est pas de l’or, est, au contraire, obligée de dorer l’or vrai et de blanchir les lys ! Et ce ne sont pas là les plus mauvais jours.</p>
         </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,7 +64,7 @@
         <date when="1920">1920</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -359,9 +359,8 @@
           nouvelle, chez qui Huysmans a pris l’idée de son Des Esseintes : le comte Robert de
           Montesquiou :</p>
         <quote>
-          <l>                        REVIVISCENCE<note resp="author"><hi rend="i">La Plume</hi>,
-              nº 276.</note></l>
-          <l/>
+          <label type="head">REVIVISCENCE<note resp="author"><hi rend="i">La Plume</hi>,
+              nº 276.</note></label>
           <l>Les Héroïnes disparaissent en cohortes</l>
           <l>Comme si les chassait un étrange aquilon :</l>
           <l>Sombre Lorenzaccio, pâle Hamlet, blanc Aiglon,</l>
@@ -425,8 +424,7 @@
           Marsolleau, levé, quittait sa pipe, et récitait d’une voix dolente des vers
           charmants :</p>
         <quote>
-          <l>                                        MOI</l>
-          <l/>
+          <label type="head">MOI</label>
           <l>J’ai dans mon sang le sang des époques hautaines,</l>
           <l>Je suis le petit-fils des marquises lointaines</l>
           <l>Et des trouvères blonds, de grâce revêtus,</l>
@@ -582,8 +580,7 @@
             >Lutèce</hi> que débutèrent Charles Vignier, Paul Adam, Rachilde, Georges d’Esparbès,
           Henri de Régnier, Francis Vielé-Griffin. J’y débutai moi-même avec ce sonnet :</p>
         <quote>
-          <l>                            À TRIANON</l>
-          <l/>
+          <label type="head">À TRIANON</label>
           <l>Je trouve un charme étrange à tes longues allées</l>
           <l>Qui s’ouvrent en ogive à l’horizon vermeil,</l>
           <l>À tes bassins de pierre usée où le soleil</l>
@@ -959,9 +956,9 @@
               >Attendue</hi> et <hi rend="i">le Rêve de la Reine</hi>, de Louis Le Cardonnel. Ce
             dernier poème vaut d’autant mieux d’être reproduit qu’il ne figure pas dans le recueil
             des <hi rend="i">Poèmes</hi> paru depuis :</p>
+          <pb n="51"/>
           <quote>
-            <l><pb n="51"/>                      LE RÊVE DE LA REINE</l>
-            <l/>
+            <label type="head">LE RÊVE DE LA REINE</label>
             <l>La reine aux cheveux d’ambre, à la bouche sanglante,</l>
             <l>Tient de sa dextre longue ouvert le vitrail d’or,</l>
             <l>Pensant que l’heure coule ainsi qu’une eau trop lente.</l>
@@ -1062,8 +1059,7 @@
             Mallarmé. Il en <pb n="56"/>était resté tellement ébloui qu’il risquait de s’y
             perdre.</p>
           <quote>
-            <l>                                SONNET.</l>
-            <l/>
+            <label type="head">ONNET.</label>
             <l>Mais leurs ventres éclats de la nuit des Tonnerres !</l>
             <l>Désuétude d’un grand heurt de primes cieux</l>
             <l>Une aurore perdant le sens des chants hymnaires</l>
@@ -1081,10 +1077,10 @@
             <l>Pour n’avoir pas songé vers de hauts soirs de glaives</l>
             <l>Que de leurs flancs pouvait naître le Rédempteur</l>
             <l>Qui doit sortir des Temps inconnus de nos rêves.</l>
-            <l>       <hi rend="i">Août 1886</hi>.</l>
-            <l/>
-            <l>                     SONNET.</l>
-            <l/>
+            <label type="dateline"><hi rend="n"><hi rend="i">Août 1886</hi>.</hi></label>
+          </quote>
+          <quote>
+            <label type="head">SONNET.</label>
             <l>Ma Triste, les oiseaux de rire</l>
             <l>Même l’été ne volent pas</l>
             <l>Au Mutisme de mort de glas</l>
@@ -1102,8 +1098,8 @@
             <l>Tandis que derrière leur soir</l>
             <l>Un souvenir de Train qui roule</l>
             <l>Au loin propage l’inespoir.</l>
-            <l>                                                <hi rend="sc">René Ghil</hi>.</l>
-            <l>       <hi rend="i">Septembre 1886</hi>.</l>
+            <p rend="right"><hi rend="sc">René Ghil</hi>.</p>
+            <label type="dateline"><hi rend="n"><hi rend="i">Septembre 1886</hi>.</hi></label>
           </quote>
         </div>
         <div>
@@ -1239,9 +1235,7 @@
             nous, les marquises marchant à la guillotine avec un sourire et le souci de ne pas
             déranger leur coiffure C’est l’art de mourir en beauté. C’est d’ailleurs <pb n="65"/>ce
             sentiment qui m’a dicté le sonnet que vous connaissez :</p>
-          <p/>
-          <l>         Je suis l’Empire à la fin de la décadence.</l>
-          <p/>
+          <quote><l>Je suis l’Empire à la fin de la décadence.</l></quote>
           <p>« Il y a aussi dans ce mot une part de langueur faite d’impuissance résignée, et
             peut-être du regret de n’avoir pu vivre aux époques robustes et grossières de foi
             ardente, à l’ombre des cathédrales. Nous pouvons faire une application ironique et
@@ -1712,10 +1706,8 @@
         </quote>
         <p>Voici quelques échantillons de cette littérature :</p>
         <quote>
-          <l>                 OMEGA BLASPHÉMATOIRE.</l>
-          <l/>
-          <l>                                       <hi rend="i">À bord de l’Alcimadure.</hi></l>
-          <l/>
+          <label type="head">OMEGA BLASPHÉMATOIRE.</label>
+          <p rend="right"><hi rend="i">À bord de l’Alcimadure.</hi></p>
           <l>Cypris ne chante plus sur les ondes…</l>
           <l>À l’arbre de la Croix pendent les dieux latins,</l>
           <l>Car l’Oingt est advenu… les roses</l>
@@ -1733,10 +1725,11 @@
           <l>Ah ! si tu veux la nuit douce, rends les Étoiles !</l>
           <l>Moi je vais sur la mer en des canots sans voiles</l>
           <l>Goûter l’iode brun interdit aux iris.</l>
-          <l/>
-          <l>                               LE LIMAÇON</l>
-          <l/>
-          <l><pb n="92"/>L’Insénescence de l’humide argent accule</l>
+        </quote>
+        <pb n="92"/>
+        <quote>
+          <label type="head">LE LIMAÇON</label>
+          <l>L’Insénescence de l’humide argent accule</l>
           <l>La glauque vision des possibilités</l>
           <l>Où s’insurgent, par telles prases abrités,</l>
           <l>Les frissons verts de la benoîte Renoncule.</l>
@@ -1753,9 +1746,9 @@
           <l>Mais tandis que l’abject Amphictyon expire,</l>
           <l>Éclot, nouvel orgueil de votre pourpre, ô Saints !</l>
           <l>Le lys ophélial orchestré pour Shakespeare.</l>
-          <l/>
-          <l>                                 SONNET</l>
-          <l/>
+        </quote>
+        <quote>
+          <label type="head">SONNET</label>
           <l>Il splendit sous le bleu·d’athlétiques natures</l>
           <l>Dont le roc a fourni les éléments altiers :</l>
           <l>Les fontes et l’airain de leurs musculatures</l>
@@ -1913,10 +1906,9 @@
           <l>Mais Vanier, à la fin des fins,</l>
           <l>Eut seul de la chance à la pêche.</l>
           <l>Nous sommes les bons écrivains.</l>
-          <l/>
-          <l>                        <hi rend="i">Envoi</hi></l>
-          <l/>
-          <l><pb n="99"/>Rien que la bourse chez nous pèche.</l>
+          <pb n="99"/>
+          <label type="head"><hi rend="i">Envoi</hi></label>
+          <l>Rien que la bourse chez nous pèche.</l>
           <l>Princes, régnons, doux et divins.</l>
           <l>Quoi que l’on pense ou que l’on prêche,</l>
           <l>Nous sommes les bons écrivains<note resp="author"><p>Au même moment, M. Georges
@@ -1924,8 +1916,8 @@
                 cette ballade sans venin, dans, <hi rend="i">la Jeune France</hi>, revue libre où
                 Maurice Barrès publia des fragments de <hi rend="i">Sous l’œil des barbares.</hi> Le
                 directeur de cette revue, fondée en 1878, était alors (janvier 1888) Paul Demeny, et
-                le secrétaire de la rédaction Victor-Émile Michelet.</p><quote><l>        <hi
-                    rend="sc">Ballade pour les décadents</hi>.</l><l/><l>Sceptre à la main, comme un
+                le secrétaire de la rédaction Victor-Émile Michelet.</p><quote><label type="head"><hi
+                    rend="sc">Ballade pour les décadents</hi>.</label><l/><l>Sceptre à la main, comme un
                   ânier,</l><l>Vanier nous mène à la cravache.</l><l>Faute de mieux, très
                   casanier,</l><l>Verlaine boit de la bourrache.</l><l>L’idéal dont il
                   s’amourache</l><l>Nourrit seul ses longs ramadans.</l><l>Ce n’est pas là ce qui
@@ -1937,11 +1929,10 @@
                   sachons cogner</l><l>Sur la « gloirette » et le panache.</l><l>Intelligibles, au
                   panier !</l><l>Banville n’est qu’une ganache,</l><l>Zola… pouah !… V. Hugo…
                   macache !</l><l>Seuls régnons divins et pédants.</l><l>Baju ! troussons-nous la
-                  moustache,</l><l>Nous sommes les bons
-                    décadents.</l><l/><l>                            <hi rend="i"
-                  >Envoi</hi>.</l><l/><l>Du Plessys, esthète sans tache,</l><l>Prête-moi ta trompe
-                  d’Eustache,</l><l>J’ai cinq mots à glisser dedans :</l><l>Nous sommes les bons
-                  décadents.</l></quote></note>.</l>
+                  moustache,</l><l>Nous sommes les bons décadents.</l><label type="head"><hi
+                    rend="i">Envoi</hi>.</label><l>Du Plessys, esthète sans tache,</l><l>Prête-moi
+                  ta trompe d’Eustache,</l><l>J’ai cinq mots à glisser dedans :</l><l>Nous sommes
+                  les bons décadents.</l></quote></note>.</l>
         </quote>
       </div>
       <div>
@@ -1953,10 +1944,8 @@
           s’y publiait de beaux vers, mais <hi rend="i">le Décadent</hi> pouvait supporter la
           comparaison. À preuve, ce sonnet que j’y cueille, au hasard :</p>
         <quote>
-          <l>                                  SONNET.</l>
-          <l/>
-          <l>                                               <hi rend="i">À Auguste Fourès.</hi></l>
-          <l/>
+          <label type="head">SONNET.</label>
+          <label type="salute"><hi rend="i">À Auguste Fourès.</hi></label>
           <l>Les nostalgiques citronniers, aux feuilles blêmes,</l>
           <l>S’étiolent et leurs parfums, avec ennui,</l>
           <l>Meurent dans le Jardin peuplé de Chrysanthèmes :</l>
@@ -1974,17 +1963,14 @@
           <l>Et c’est le crépuscule automnal des années</l>
           <l>Que, d’un encens trop vain, fait resplendir encor</l>
           <l>La mémoration des corolles fanées.</l>
-          <l/>
-          <l>                                                 <hi rend="sc">Laurent
-            Tailhade</hi>.</l>
+          <p rend="right"><hi rend="sc">Laurent Tailhade</hi>.</p>
         </quote>
         <p>J’en pourrais citer d’autres, et aussi des proses du même écrivain et de divers, mais la
           plupart de ces choses ont été reprises en volumes par leurs auteurs, et les curieux
           pourront retrouver ce qui reste à la source. Je me bornerai à reproduire, pour leur
           rareté, deux sonnets de Jules Renard.</p>
         <quote>
-          <l>                              TRISTESSE.</l>
-          <l/>
+          <label type="head">TRISTESSE.</label>
           <l>Ce soir il court dans l’air des tristesses plus douces.</l>
           <l>Le cœur, comme endormi dans un bain, s’affadit,</l>
           <l>On ne se souvient plus de tout ce qu’Elle a dit,</l>
@@ -2002,10 +1988,11 @@
           <l>La rêverie aux mots s’offre comme une branche.</l>
           <l>On pleure bien un peu. Mais le vers ne vient pas</l>
           <l>Et la première page humide reste blanche.</l>
-          <l/>
-          <l>                           MORVANDELLE.</l>
-          <l/>
-          <l><pb n="103"/>Je rêve d’être, sous ton corps,</l>
+        </quote>
+        <pb n="103"/>
+        <quote>
+          <label type="head">MORVANDELLE.</label>
+          <l>Je rêve d’être, sous ton corps,</l>
           <l>Une barque fragile et neuve.</l>
           <l>Tu ne vivras qu’entre mes bords</l>
           <l>Plus solitaire qu’une veuve.</l>
@@ -2070,7 +2057,7 @@
             les enrégimente <pb n="106"/>ou les lie, dans le seul but de provoquer une émotion, de
             sorte qu’une ligne construite ainsi :</p>
           <p/>
-          <l>            Sicile ! Cour d’honneur ! Tulipes ! Propylées !</l>
+          <l>Sicile ! Cour d’honneur ! Tulipes ! Propylées !</l>
           <p/>
           <p>sera davantage évocatoire et qu’un album de vues photographiées ou d’aquarelles fera
             pâlir les plus beaux vers. Cette conséquence rigoureuse de votre système le condamne.
@@ -2081,7 +2068,7 @@
             naissent en nous de la sensation ; or, par l’exposé d’une Idée, j’ai la conviction
             d’éveiller la sensation correspondante. Je m’exclamerai, parlant de la femme :</p>
           <p/>
-          <l>            Si tu n’étais fausse, eh ! serais-tu vraie ?</l>
+          <l>Si tu n’étais fausse, eh ! serais-tu vraie ?</l>
           <p/>
           <p>« N’y a-t-il pas dans cette idée une émotion d’une acuité douloureuse pour certains ?
             Comme une pierre jetée dans l’eau, elle troublera l’intimé de l’Être, éveillant des
@@ -2333,18 +2320,18 @@
             faiblement. Pierre Dupont, qu’il est temps de revendiquer, tant même l’élite est
             ingrate ! dans ses chansons si musicales, en dehors, bien entendu, des airs charmants
             qu’il y adaptait, rime faiblement :</p>
-          <p/>
-          <l>                                    Ô mon amante,</l>
-          <l>                                    Ô mon désir,</l>
-          <l>                                    Sachons cueillir</l>
-          <l>                                    L’heure charmante.</l>
-          <p/>
+          <quote>
+            <l>Ô mon amante,</l>
+            <l>Ô mon désir,</l>
+            <l>Sachons cueillir</l>
+            <l>L’heure charmante.</l>
+          </quote>
           <p>« Combien d’entre nous n’eussent pas mis <hi rend="i">choisir</hi> pour la rime, c’est
             le cas de le dire ? Et alors, n’est-ce pas que j’ai eu quelque lieu de m’écrier en
             considérant de tels abus encore possibles :</p>
-          <p/>
-          <l>              Oh ! qui dira les torts de la rime ?</l>
-          <p/>
+          <quote>
+            <l>Oh ! qui dira les torts de la rime ?</l>
+          </quote>
           <p>« Ce que, par exemple, je proscris de tous mes vœux, c’est la rime mauvaise. Par rime
             mauvaise, je veux dire, pour illustrer immédiatement mes raisons, des horreurs comme
             celles-ci, qui ne sont pas plus “pour l’oreille” (malgré <pb n="123"/>le Voltaire déjà
@@ -2355,19 +2342,20 @@
             scandales. Vous ne trouverez pas non plus chez eux ces rimes en <hi rend="i">anq</hi> et
             en <hi rend="i">ant</hi>, en <hi rend="i">anc</hi> et en <hi rend="i">and</hi>, que ne
             sauve pas la consonne d’appui, même dans ces magnifiques vers de Victor Hugo :</p>
-          <p/>
-          <l>Un flot rouge, un sanglot de pourpre, éclaboussant</l>
-          <l>Les convives, le trône et la table, de sang.</l>
-          <p/>
+          <quote>
+            <l>Un flot rouge, un sanglot de pourpre, éclaboussant</l>
+            <l>Les convives, le trône et la table, de sang.</l>
+          </quote>
           <p>ni la rime artésienne ou picarde, <hi rend="i">pomme</hi> et <hi rend="i">Bapaume</hi>,
             ni la méridionale, <hi rend="i">Grasse</hi> (la ville) et <hi rend="i">grâce</hi>, ni
             même la normande, <hi rend="i">aimer</hi> et <hi rend="i">mer</hi>, bien que consacrée
             par Corneille et aussi par Racine. Il n’y a plus guère que M. Vacquerie, disciple en
             ceci de ce dernier, et d’ailleurs normand comme Corneille, qui ait osé de nos jours un
             provincialisme comme :</p>
-          <p/>
-          <l>                 J’aurais fini par supporter</l>
-          <l>                      Un chœur d’Esther ».</l>
+          <quote>
+            <l>J’aurais fini par supporter</l>
+            <l>Un chœur d’Esther ».</l>
+          </quote>
         </quote>
         <p>Et Paul Verlaine finissait par laisser entendre qu’à son avis, rimer mal ou assoner était
           une marque d’impuissance.</p>
@@ -2814,8 +2802,8 @@
           <l>   rituel que Roqu’laure,</l>
           <l>Sait, avec art, tirer parti</l>
           <l>   Des chroniqu’s de Roch’fore…</l>
-          <l xml:lang="en">Dreling, dreling, dreling, dreling…</l>
-          <l xml:lang="en">Marcel Legay s’enflamme,</l>
+          <l>Dreling, dreling, dreling, dreling…</l>
+          <l>Marcel Legay s’enflamme,</l>
           <l>Et tendre ou fougueux, son refrain</l>
           <l>Fait un bruit d’grelots ou d’tocsin</l>
         </quote>
@@ -2949,10 +2937,9 @@
           ballade dont on voudra bien me pardonner le ton humoristique, tellement de
           circonstance :</p>
         <quote>
-          <l>                               BALLADE</l>
-          <l>                <hi rend="sc">des portraits de Verlaine</hi>.</l>
-          <l/>
-          <l><pb n="155"/>Bons décadents qui, ce jour de janvier,</l>
+          <pb n="155"/>
+          <label type="head">BALLADE <hi rend="sc">des portraits de Verlaine</hi>. </label>
+          <l>Bons décadents qui, ce jour de janvier,</l>
           <l>Suiviez, unis à la Fleur du Symbole,</l>
           <l>Notre cher Maître à son logis dernier,</l>
           <l>Au cimetière, au fond des Batignolles ;</l>
@@ -2990,11 +2977,7 @@
           <l>Mais plus nature, en tête de ses vers<note resp="author">Les derniers jours de Paul
               Verlaine <hi rend="i">(Mercure de France).</hi></note>,</l>
           <l>F.-A. Cazals nous a rendu Verlaine.</l>
-          <l/>
-          <l>
-            <hi rend="i">                                  Envoi.</hi>
-          </l>
-          <l/>
+          <label type="head"><hi rend="i">Envoi.</hi></label>
           <l>Pères conscrits, qu’on nous ôte de là</l>
           <l>Ce faux Otto (peccavit Chantalat)<note resp="author">Il s’agit du portrait de Verlaine,
               introduit au Luxembourg et qu’a signé le peintre Chantalat, médiocre image, qui semble
@@ -3704,7 +3687,7 @@
           <p>Paul Verlaine : <hi rend="i">Dédicaces</hi>.</p>
           <p>Edmond Rostand : <hi rend="i">Les Musardises</hi>.</p>
           <p>Stéphane Mallarmé : <hi rend="i">Pages</hi>.</p>
-          <p>Jean Mor2as : <hi rend="i">Le Pèlerin passionné</hi>.</p>
+          <p>Jean Moréas : <hi rend="i">Le Pèlerin passionné</hi>.</p>
           <p>Maurice Bouchor : <hi rend="i">Noël</hi>.</p>
           <p>Jules Laforgue : <hi rend="i">Derniers vers</hi>.</p>
           <p>Émile Verhaeren : <hi rend="i">Les Flambeaux noirs</hi>.</p>

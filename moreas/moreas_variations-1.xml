@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1910">1910</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -741,9 +741,7 @@
         </quote>
         <p>Une strophe finissait sans éclat :</p>
         <quote>
-          <l>
-            <hi rend="i">Chanta ces tristes mots.</hi>
-          </l>
+          <l rend="i">Chanta ces tristes mots.</l>
         </quote>
         <p>Nous lisons maintenant :</p>
         <quote>
@@ -2022,9 +2020,9 @@
       <div>
         <head>Fagots</head>
         <epigraph>
-          <p>Je veux citer les différents fagots</p>
-          <p>Que chacun fait dans cette courte vie…</p>
-          <p>                   <hi rend="i">Almanach des Muses</hi>.</p>
+          <l>Je veux citer les différents fagots</l>
+          <l>Que chacun fait dans cette courte vie…</l>
+          <bibl><hi rend="i">Almanach des Muses</hi>.</bibl>
         </epigraph>
         <p><pb n="248"/>Les lettres — publiées il n’y a pas longtemps — que Champfleury écrivit à sa famille au moment de ses débuts dans la littérature, renseignent sur plus d’un petit côté de toute une époque.</p>
         <p>La première moitié du siècle passé se déroule empanachée de romantisme, bigarrée de bohème, secouée d’insurrections.</p>
@@ -2275,17 +2273,17 @@
         <p>Il existe une pièce, moitié tragédie moitié drame, dont les péripéties se déroulent au temps de Marion Delorme. Elle fut composée par Népomucène Lemercier, poète jadis aussi fameux que décrié.</p>
         <p>Dans cette pièce, le Roi s’entretient avec Richelieu. Et voici en quels termes :</p>
         <quote>
-          <label>LE ROI</label>
+          <label type="speaker">LE ROI</label>
           <l>Vous soufflez aux voisins le feu du calvinisme.</l>
-          <label>RICHELIEU</label>
+          <label type="speaker">RICHELIEU</label>
           <l>Oui, comme en vos États j’en ruine le schisme.</l>
-          <label>LE ROI</label>
+          <label type="speaker">LE ROI</label>
           <l>Vous privez les seigneurs de leurs gouvernements.</l>
-          <label>RICHELIEU</label>
+          <label type="speaker">RICHELIEU</label>
           <l>Oui, si pour vous combattre ils font des armements.</l>
-          <label>LE ROI</label>
+          <label type="speaker">LE ROI</label>
           <l>Vos rigueurs ont sévi sur mes parents eux-mêmes.</l>
-          <label>RICHELIEU</label>
+          <label type="speaker">RICHELIEU</label>
           <l><pb n="289"/>Oui, quand ils s’alliaient à d’autres diadèmes.</l>
         </quote>
         <p>Tout cela est assez pauvre et coriace ; mais Népomucène Lemercier avait eu des dons et une espèce de fougue avortée.</p>

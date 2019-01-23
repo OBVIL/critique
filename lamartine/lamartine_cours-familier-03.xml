@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <date when="1857">1857</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -795,9 +795,9 @@
             <l><pb n="127"/>Des lambeaux pleins de sang, et des membres affreux,</l>
             <l>Que des chiens dévorants se disputaient entre eux.</l>
             <label type="speaker" rend="sc">Abner.</label>
-            <l>Grand Dieu !</l>
+            <l part="I">Grand Dieu !</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>                        Dans ce désordre à mes yeux se présente</l>
+            <l part="F">Dans ce désordre à mes yeux se présente</l>
             <l>Un jeune enfant couvert d’une robe éclatante,</l>
             <l>Tels qu’on voit des Hébreux les prêtres revêtus.</l>
             <l>Sa vue a ranimé mes esprits abattus ;</l>
@@ -842,26 +842,26 @@
             <stage><pb n="129"/>(Montrant Joas.)</stage>
             <l>Épouse de Joad, est-ce là votre fils ?</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>Qui, lui, madame ?</l>
+            <l part="I">Qui, lui, madame ?</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>                                Lui ?</l>
+            <l part="M">Lui ?</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>                                         Je ne suis point sa mère.</l>
-            <p rend="i">(Montrant Zacharie.)</p>
-            <l>Voilà mon fils.</l>
+            <l part="F">Je ne suis point sa mère.</l>
+            <stage>(Montrant Zacharie.)</stage>
+            <l part="I">Voilà mon fils.</l>
             <label type="speaker">
               <hi rend="sc">Athalie</hi>
               <hi rend="i">, à Joas.</hi>
             </label>
-            <l>                          Et vous, quel est donc votre père ?</l>
-            <l>Jeune enfant, répondez.</l>
+            <l part="F">Et vous, quel est donc votre père ?</l>
+            <l part="I">Jeune enfant, répondez.</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>                                      Le Ciel jusque aujourd’hui...</l>
+            <l part="F">Le Ciel jusque aujourd’hui...</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>Pourquoi vous pressez-vous de répondre pour lui ?</l>
-            <l>C’est à lui de parler.</l>
+            <l part="I">C’est à lui de parler.</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>                                  Dans un âge si tendre,</l>
+            <l part="F">Dans un âge si tendre,</l>
             <l>Quel éclaircissement en pouvez-vous attendre ?</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l><pb n="130"/>Cet âge est innocent ; son ingénuité</l>
@@ -873,23 +873,23 @@
             </label>
             <l>Daigne mettre, grand Dieu ! ta sagesse en sa bouche !</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>Comment vous nommez-vous !</l>
+            <l part="I">Comment vous nommez-vous !</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                                    J’ai nom Éliacin.</l>
+            <l part="F">J’ai nom Éliacin.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>Votre père ?</l>
+            <l part="I">Votre père ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                    Je suis, dit-on, un orphelin,</l>
+            <l part="F">Je suis, dit-on, un orphelin,</l>
             <l>Entre les bras de Dieu jeté dès ma naissance,</l>
             <l>Et qui de mes parents n’eus jamais connaissance.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>Vous êtes sans parents ?</l>
+            <l part="I">Vous êtes sans parents ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                       Ils m’ont abandonné.</l>
+            <l part="F">Ils m’ont abandonné.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l><pb n="131"/>Comment ! et depuis quand ?</l>
+            <l part="I"><pb n="131"/>Comment ! et depuis quand ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                                  Depuis que je suis né.</l>
+            <l part="F">Depuis que je suis né.</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>Ne sait-on pas au moins quel pays est le vôtre ?</l>
             <label type="speaker" rend="sc">Joas.</label>
@@ -899,9 +899,9 @@
             <label type="speaker" rend="sc">Joas.</label>
             <l>Parmi des loups cruels prêts à me dévorer.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>Qui vous mit dans ce temple ?</l>
+            <l part="I">Qui vous mit dans ce temple ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                                 Une femme inconnue,</l>
+            <l part="F">Une femme inconnue,</l>
             <l>Qui ne dit point son nom, et qu’on n’a point revue.</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>Mais de vos premiers ans quelles mains ont pris soin ?</l>
@@ -922,9 +922,9 @@
             <l>À moins que la pitié, qui semble vous troubler,</l>
             <l>Ne soit ce coup fatal qui vous faisait trembler.</l>
             <label type="speaker"><hi rend="sc">Athalie</hi>,<hi rend="i"> à Joas et à Josabeth.</hi></label>
-            <l>Vous sortez ?</l>
+            <l part="I">Vous sortez ?</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>                       Vous avez entendu sa fortune.</l>
+            <l part="F">Vous avez entendu sa fortune.</l>
             <l>Sa présence à la fin pourrait être importune.</l>
             <label type="speaker"><hi rend="sc">Athalie</hi>,<hi rend="i"> à Joas.</hi></label>
             <l>Non ; revenez… Quel est tous les jours votre emploi ?</l>
@@ -933,17 +933,17 @@
             <l>Dans son livre divin on m’apprend à la lire,</l>
             <l>Et déjà de ma main je commence à l’écrire.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>Que vous dit cette loi ?</l>
+            <l part="I">Que vous dit cette loi ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                        Que Dieu veut être aimé ;</l>
+            <l part="F">Que Dieu veut être aimé ;</l>
             <l>Qu’il venge tôt ou tard son saint nom blasphémé ;</l>
             <l>Qu’il est le défenseur de l’orphelin timide ;</l>
             <l>Qu’il résiste au superbe et punit l’homicide.</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>J’entends. Mais tout ce peuple enfermé dans ce lieu,</l>
-            <l>À quoi s’occupe-t-il ?</l>
+            <l part="I">À quoi s’occupe-t-il ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                    Il loue, il bénit Dieu.</l>
+            <l part="F">Il loue, il bénit Dieu.</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>Dieu veut-il qu’à toute heure on prie, on le contemple ?</l>
             <label type="speaker" rend="sc">Joas.</label>
@@ -964,31 +964,31 @@
             <label type="speaker" rend="sc">Athalie.</label>
             <l>Non, je ne vous veux pas contraindre à l’oublier.</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>Vous ne le priez point.</l>
+            <l part="I">Vous ne le priez point.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>                                     Vous pourrez le prier.</l>
+            <l part="F">Vous pourrez le prier.</l>
             <label type="speaker" rend="sc">Joas.</label>
             <l>Je verrais cependant en invoquer un autre.</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>J’ai mon dieu que je sers ; vous servirez le vôtre ;</l>
-            <l>Ce sont deux puissants dieux.</l>
+            <l part="I">Ce sont deux puissants dieux.</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                                Il faut craindre le mien ;</l>
+            <l part="F">Il faut craindre le mien ;</l>
             <l><pb n="135"/>Lui seul est Dieu, Madame, et le vôtre n’est rien.</l>
             <label type="speaker" rend="sc">Athalie.</label>
             <l>Les plaisirs près de moi vous chercheront en foule.</l>
             <label type="speaker" rend="sc">Joas.</label>
             <l>Le bonheur des méchants comme un torrent s’écoule.</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>Ces méchants, qui sont-ils ?</l>
+            <l part="I">Ces méchants, qui sont-ils ?</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>                                             Eh, Madame ! Excusez</l>
-            <l>Un enfant.</l>
+            <l part="F">Eh, Madame ! Excusez</l>
+            <l part="I">Un enfant.</l>
             <label type="speaker">
               <hi rend="sc">Athalie</hi>
               <hi rend="i">, à Josabeth</hi>.
             </label>
-            <l>                 J’aime à voir comme vous l’instruisez…</l>
+            <l part="F">J’aime à voir comme vous l’instruisez…</l>
             <l>Enfin, Éliacin, vous avez su me plaire ;</l>
             <l>Vous n’êtes point sans doute un enfant ordinaire.</l>
             <l>Vous voyez, je suis reine, et n’ai point d’héritier.</l>
@@ -998,16 +998,16 @@
             <l>À ma table, partout à mes côtés assis,</l>
             <l><pb n="136"/>Je prétends vous traiter comme mon propre fils.</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>Comme votre fils !</l>
+            <l part="I">Comme votre fils !</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>                               Oui… Vous vous taisez ?</l>
+            <l part="M">Oui… Vous vous taisez ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                                                       Quel père</l>
-            <l>Je quitterais ! Et pour...</l>
+            <l part="F">Quel père</l>
+            <l part="I">Je quitterais ! Et pour...</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>                                      Hé bien ?</l>
+            <l part="M">Hé bien ?</l>
             <label type="speaker" rend="sc">Joas.</label>
-            <l>                                                      Pour quelle mère !</l>
+            <l part="F">Pour quelle mère !</l>
           </quote>
           <p>On conçoit la fureur d’Athalie à cette réponse ; elle se retire pour aller préparer la vengeance contre les chefs lévites instigateurs de ce dangereux enfant. Le chœur, cette fois, fait partie lyrique du drame ; il chante, dans des strophes enfantines et pieuses, les bonheurs de l’innocence, la protection de Dieu sur les siens, sa vengeance sur ses ennemis. Racine s’y <pb n="137"/>rapproche, autant que les temps et la langue le permettent, de la componction de David. Il est véritablement le David chrétien.</p>
         </div>
@@ -1101,11 +1101,11 @@
             <l>Qui changera mes yeux en deux sources de larmes</l>
             <l>    Pour pleurer ton malheur ?</l>
             <label type="speaker" rend="sc">Azarias.</label>
-            <l>Ô saint temple !</l>
+            <l part="I">Ô saint temple !</l>
             <label type="speaker" rend="sc">Josabeth.</label>
-            <l>                          Ô David !</l>
+            <l part="M">Ô David !</l>
             <label type="speaker" rend="sc">Le chœur.</label>
-            <l>                                           Dieu de Sion ! Rappelle,</l>
+            <l part="F">Dieu de Sion ! Rappelle,</l>
             <l>Rappelle en sa faveur tes antiques bontés.</l>
             <stage>(La symphonie recommence encore ; et Joad, un moment après, l’interrompt.)</stage>
             <label type="speaker" rend="sc">Joad.</label>
@@ -1191,14 +1191,14 @@
             <l>Voilà ton roi, ton fils, le fils d’Ochosias.</l>
             <l>Peuples, et vous, Abner, reconnaissez Joas.</l>
             <label type="speaker" rend="sc">Abner.</label>
-            <l>Ciel !</l>
+            <l part="I">Ciel !</l>
             <label type="speaker">
               <hi rend="sc">Athalie</hi>
               <hi rend="i">, à Joas</hi>.
             </label>
-            <l>         Perfide !</l>
+            <l part="M">Perfide !</l>
             <label type="speaker" rend="sc">Joad.</label>
-            <l>                       Vois-tu cette Juive fidèle</l>
+            <l part="F">Vois-tu cette Juive fidèle</l>
             <l>Dont tu sais bien qu’alors il suçait la mamelle ?</l>
             <l>Il fut par Josabeth à ta rage enlevé ;</l>
             <l><pb n="146"/>Ce temple le reçut et Dieu l’a conservé.</l>
@@ -1222,15 +1222,15 @@
             <l>Quoi ! la peur a glacé mes indignes soldats !</l>
             <l>Lâche Abner, dans quel piège as-tu conduit mes pas ?</l>
             <label type="speaker" rend="sc">Abner.</label>
-            <l>Reine, Dieu m’est témoin...</l>
+            <l part="I">Reine, Dieu m’est témoin...</l>
             <label type="speaker" rend="sc">Athalie.</label>
-            <l>                                             <pb n="147"/>Laisse là ton Dieu, traître,</l>
-            <l>Et venge-moi.</l>
+            <l part="F"><pb n="147"/>Laisse là ton Dieu, traître,</l>
+            <l part="I">Et venge-moi.</l>
             <label type="speaker">
               <hi rend="sc">Abner</hi>
               <hi rend="i">, se jetant aux pieds de Joas.</hi>
             </label>
-            <l>                       Sur qui ? Sur Joas ! sur mon maître !</l>
+            <l part="F">Sur qui ? Sur Joas ! sur mon maître !</l>
           </quote>
           <p>C’en est fait à ce mot ; l’épée d’Athalie s’est brisée dans sa main.</p>
           <quote>
@@ -1373,9 +1373,7 @@
             <l>Et sur le seuil désert de la ruche engourdie,</l>
             <l>Quelque abeille en retard qui sort et qui mendie,</l>
             <l>Rentre lourde de miel dans sa chaude prison.</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="170"/>Viens, reconnais la place où ta vie était neuve,</l>
             <l>N’as-tu point de douceur, dis-moi, pauvre âme veuve,</l>
             <l>À remuer ici la cendre des jours morts ?</l>
@@ -1392,10 +1390,8 @@
             <l>Sur la pente douce au midi,</l>
             <l>La vigne qui nous fit éclore</l>
             <l>Ramper sur le roc attiédi.</l>
-            <l>
-              
-            </l>
-            <l><pb n="171"/>Contemple la maison de pierre,</l>
+            <l/>
+           <l><pb n="171"/>Contemple la maison de pierre,</l>
             <l>Dont nos pas usèrent le seuil :</l>
             <l>Vois-la se vêtir de son lierre</l>
             <l>Comme d’un vêtement de deuil.</l>
@@ -1414,9 +1410,7 @@
             <l>Autour du banc rongé du ver,</l>
             <l>Il contourne sa branche torse</l>
             <l>Comme un serpent frappé du fer.</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="172"/>Autrefois, ses pampres sans nombre</l>
             <l>S’entrelaçaient autour du puits,</l>
             <l>Père et mère goûtaient son ombre,</l>
@@ -1436,9 +1430,7 @@
             <l>Les grives, sur la grappe en deuil,</l>
             <l>Ont oublié ces beaux grains d’ambre</l>
             <l>Qu’enfant nous convoitions de l’œil.</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="173"/>Le rayon du soir la transperce</l>
             <l>Comme un albâtre oriental,</l>
             <l>Et le sucre d’or qu’elle verse</l>
@@ -1465,8 +1457,7 @@
             <l>Pourquoi ramènes-tu mes regrets sur leur trace ?</l>
             <l>Des bonheurs disparus se rappeler la place,</l>
             <l>C’est rouvrir des cercueils pour revoir des trépas !</l>
-            <l/>
-            <l rend="center">I</l>
+            <label type="head">I</label>
             <l>Le mur est gris, la tuile est rousse,</l>
             <l>L’hiver a rongé le ciment ;</l>
             <l><pb n="175"/>Des pierres disjointes la mousse</l>
@@ -1488,9 +1479,7 @@
             <l>Les vitraux brisés par les grêles</l>
             <l>Livrent aux vieilles hirondelles</l>
             <l>Un libre passage à leur nid !</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="176"/>Leur gazouillement sur les dalles</l>
             <l>Couvertes de duvets flottants</l>
             <l>Est la seule voix de ces salles</l>
@@ -1501,15 +1490,12 @@
             <l>Et cette ombre, couchée et morte,</l>
             <l>Est la seule chose qui sorte</l>
             <l>Tout le jour de cette maison !</l>
-            <l/>
-            <l rend="center">II</l>
+            <label type="head">II</label>
             <l>Efface ce séjour, ô Dieu ! de ma paupière,</l>
             <l>Ou rends-le-moi semblable à celui d’autrefois,</l>
             <l>Quand la maison vibrait comme un grand cœur de pierre</l>
             <l>De tous ces cœurs joyeux qui battaient sous ses toits !</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="177"/>À l’heure où la rosée au soleil s’évapore</l>
             <l>Tous ces volets fermés s’ouvraient à sa chaleur,</l>
             <l>Pour y laisser entrer, avec la tiède aurore,</l>
@@ -1529,9 +1515,7 @@
             <l>Sur ces fronts inégaux se penchait tour à tour,</l>
             <l>Comme la poule heureuse assemble sa couvée,</l>
             <l>Leur apprenant les mots qui bénissent le jour.</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="178"/>Moins de balbutiements sortent du nid sonore,</l>
             <l>Quand, aux rayons d’été qui vient la réveiller</l>
             <l>L’hirondelle au plafond qui les abrite encore,</l>
@@ -1546,9 +1530,9 @@
             <l>Sous des doigts de quinze ans répétant leur leçon,</l>
             <l>Les claviers résonnaient ainsi que des cigales</l>
             <l>Qui font tinter l’oreille au temps de la moisson  !</l>
-            <l/>
-            <l rend="center">III</l>
-            <l><pb n="179"/>        Puis ces bruits d’année en année</l>
+            <pb n="179"/>
+            <label type="head">III</label>
+            <l>        Puis ces bruits d’année en année</l>
             <l>Baissèrent d’une vie, hélas ! et d’une voix.</l>
             <l>Une fenêtre en deuil, à l’ombre condamnée,</l>
             <l>        Se ferma sous le bord des toits.</l>
@@ -1562,15 +1546,13 @@
             <l>        Le cercueil tardif de l’aïeul,</l>
             <l>Puis un autre, et puis deux, et puis dans la demeure</l>
             <l>        Un vieillard morne resta seul !</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="180"/>Puis la maison glissa sur la pente rapide</l>
             <l>        Où le temps entasse les jours ;</l>
             <l>Puis la porte à jamais se ferma sur le vide,</l>
             <l>        Et l’ortie envahit les cours !…</l>
             <l/>
-            <l rend="center">IV</l>
+            <label type="head">IV</label>
             <l>…………………………………………………</l>
             <l>…………………………………………………</l>
             <l>…………………………………………………</l>
@@ -1640,12 +1622,13 @@
             <l>Sans savoir s’il est né d’un homme</l>
             <l>Ou s’il est fils d’un meurtrier !…</l>
             <l/>
-            <l rend="center">V</l>
-            <l><pb n="184"/>Dieu ! qui révèle aux cœurs mieux qu’à l’intelligence !</l>
+            <pb n="184"/>
+            <label type="head">V</label>
+            <l>Dieu ! qui révèle aux cœurs mieux qu’à l’intelligence !</l>
             <l>Resserre autour de nous, faits de joie et de pleurs,</l>
             <l>Ces groupes rétrécis où de ta providence</l>
             <l>Dans la chaleur du sang nous sentons les chaleurs ;</l>
-            <l>*</l>
+            <ab type="ornament">*</ab>
             <l>Où, sous la porte bien close,</l>
             <l>La jeune nichée éclose</l>
             <l>Des saintetés de l’amour,</l>
@@ -1659,7 +1642,7 @@
             <l>Ô soirs ! ô douces veillées</l>
             <l><pb n="185"/>Dont les images mouillées</l>
             <l>Flottent dans l’eau de nos yeux !</l>
-            <l>*</l>
+            <ab type="ornament">*</ab>
             <l>Oui, je vous revois tous, et toutes, âmes mortes !</l>
             <l>Ô chers essaims groupés aux fenêtres, aux portes !</l>
             <l>Les bras tendus vers vous, je crois vous ressaisir,</l>
@@ -1672,9 +1655,7 @@
             <l>Pour faire confluer, là-bas, en un seul cours</l>
             <l>Le passé, l’avenir, ces deux moitiés de vie</l>
             <l>Dont l’une dit jamais et l’autre dit toujours.</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="186"/>Ce passé, doux Éden dont notre âme est sortie,</l>
             <l>De notre éternité ne fait-il pas partie ?</l>
             <l>Où le temps a cessé tout n’est-il pas présent ?</l>
@@ -1695,9 +1676,7 @@
             <l>Où le père gouverne, où la mère aime et prie,</l>
             <l>Où dans ses petits-fils l’aïeule est réjouie</l>
             <l>        De voir multiplier son sein !</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="187"/>Toi qui permets, ô père ! aux pauvres hirondelles</l>
             <l>De fuir sous d’autres cieux la saison des frimas,</l>
             <l>N’as-tu donc pas aussi pour tes petits sans ailes</l>
@@ -1712,9 +1691,7 @@
             <l>Si courte dans cette saison,</l>
             <l>L’ombre de la chère demeure</l>
             <l>S’allongeait sur le froid gazon ;</l>
-            <l>
-              
-            </l>
+            <l/>
             <l><pb n="188"/>Mais de cette ombre sur la mousse</l>
             <l>L’impression funèbre et douce</l>
             <l>Me consolait d’y pleurer seul,</l>
@@ -2015,9 +1992,9 @@
             <l>J’ai demeuré pour toi dans un humble silence,</l>
             <l>Ce n’est pas que mon cœur vainement suspendu</l>
             <l>Balance pour t’offrir un encens qui t’est dû ;</l>
-            <l>Mais je sais peu louer…</l>
+            <l part="I">Mais je sais peu louer…</l>
             <l/>
-            <l>                   Je mesure mon vol à mon faible génie,</l>
+            <l part="F">Je mesure mon vol à mon faible génie,</l>
             <l>Plus sage en mon respect que ces hardis mortels</l>
             <l>Qui d’un indigne encens profanent tes autels,</l>
             <l>Qui, dans ce champ d’honneur où le gain les amène,</l>
@@ -2107,21 +2084,21 @@
           <quote>
             <l>Le sommeil sur mes yeux commence à s’épancher.</l>
             <l>Debout ! dit l’Avarice, il est temps de marcher !</l>
-            <l> — Eh ! laisse-moi ! — Debout ! — Un moment ! — Tu répliques !</l>
-            <l> — À peine le soleil fait ouvrir les boutiques.</l>
-            <l> — N’importe, lève-toi ! — Pourquoi faire, après tout ?</l>
-            <l> — Pour courir l’Océan de l’un à l’autre bout,</l>
+            <l>— Eh ! laisse-moi ! — Debout ! — Un moment ! — Tu répliques !</l>
+            <l>— À peine le soleil fait ouvrir les boutiques.</l>
+            <l>— N’importe, lève-toi ! — Pourquoi faire, après tout ?</l>
+            <l>— Pour courir l’Océan de l’un à l’autre bout,</l>
             <l>Chercher jusqu’au Japon la porcelaine et l’ambre,</l>
             <l>Rapporter de <hi rend="i">Goa</hi> le poivre et le gingembre.</l>
-            <l> — Mais j’ai des biens en foule et je puis m’en passer !</l>
-            <l> — On n’en peut trop avoir, et pour en amasser</l>
+            <l>— Mais j’ai des biens en foule et je puis m’en passer !</l>
+            <l>— On n’en peut trop avoir, et pour en amasser</l>
             <l>Il ne faut épargner ni crime ni parjure,</l>
             <l>Il faut souffrir la faim et coucher sur la dure,</l>
             <l>Avoir plus de trésors que n’en perdit Galet,</l>
             <l>N’avoir dans sa maison ni meubles ni valet,</l>
             <l>Parmi des tas de blé vivre de seigle et d’orge,</l>
             <l>De peur de perdre un liard souffrir qu’on vous égorge.</l>
-            <l> — Et pourquoi cette épargne enfin ? — L’ignores-tu ?</l>
+            <l>— Et pourquoi cette épargne enfin ? — L’ignores-tu ?</l>
             <l>Afin qu’un héritier, bien nourri, bien vêtu,</l>
             <l>Profitant d’un trésor en tes mains inutile,</l>
             <l>De son train quelque jour embarrasse la ville !</l>
@@ -2487,7 +2464,7 @@
           <p>Les créations infinies et de dates immémoriales de Dieu dans les profondeurs sans mesure de ces espaces qu’il remplit de lui seul par ses œuvres ; les firmaments déroulés sous les firmaments ; les étoiles, soleils avancés d’autres cieux, dont on n’aperçoit que les bords, ces caps d’autres continents célestes, éclairés par des phares entrevus à des distances énormes ; cette poussière de globes lumineux ou crépusculaires où se reflétaient de l’un à l’autre les splendeurs empruntées à des soleils ; leurs évolutions dans des orbites tracées par le doigt divin ; leur apparition à l’œil de l’astronomie, comme si le ciel les avait enfantés pendant la nuit et comme s’il y avait aussi là-haut des fécondités de sexes entre les astres et des enfantements de mondes ; leur disparition après des siècles, comme si la mort atteignait également là-haut ; le vide que ces globes disparus comme une lettre de l’alphabet laissent dans la page des cieux ; la vie sous d’autres <pb n="361"/>formes que celles qui nous sont connues, et avec d’autres organes que les nôtres, animant vraisemblablement ces géants de flamme ; l’intelligence et l’amour, apparemment proportionnés à leur masse et à leur importance dans l’espace, leur imprimant sans doute une destination morale en harmonie avec leur nature ; le monde intellectuel aussi intelligible à l’esprit que le monde de la matière est visible aux yeux ; la sainteté de cette âme, parcelle détachée de l’essence divine pour lui renvoyer l’admiration et l’amour de chaque atome créé ; la hiérarchie de ces âmes traversant des régions ténébreuses d’abord, puis les demi-jours, puis les splendeurs, puis les éblouissements des vérités, ces soleils de l’esprit ; ces âmes montant et descendant d’échelons en échelons sans base et sans fin, subissant avec mérite ou avec déchéance des milliers d’épreuves morales dans des pérégrinations de siècles et dans des transformations d’existences sans nombre, enfers, purgatoires, paradis symbolique de <hi rend="i">la Divine Comédie</hi> des terres et des cieux ;</p>
           <p>Tout cela, dis-je, m’apparut, en une ou deux heures d’hallucination contemplative, avec autant de clarté et de palpabilité qu’il y en <pb n="362"/>avait sur les échelons flamboyants de l’échelle de Jacob dans son rêve, ou qu’il y en eut pour le Dante au jour et à l’heure où, sur un sommet de l’Apennin, il écrivit le premier vers fameux de son œuvre :</p>
           <quote>
-            <l><foreign xml:lang="it"><hi rend="i">Nel mezzo del cammin di nostra vita</hi></foreign>,</l>
+            <l><foreign xml:lang="ita"><hi rend="i">Nel mezzo del cammin di nostra vita</hi></foreign>,</l>
           </quote>
           <p>et où son esprit entra dans la forêt obscure pour en ressortir par la porte lumineuse.</p>
         </div>
@@ -2632,7 +2609,7 @@
           <quote>
             <l>Esser conviene</l>
             <l><foreign xml:lang="lat"><hi rend="i">Amor sementa in voi d’ogni virtute</hi></foreign>.</l>
-            <l>(<hi rend="sc">Chant</hi> 17<hi rend="sup">e</hi> <hi rend="i">du Purgatoire</hi>.)</l>
+            <bibl>(<hi rend="sc">Chant</hi> 17<hi rend="sup">e</hi> <hi rend="i">du Purgatoire</hi>.)</bibl>
             <l>« Que l’amour soit en vous la semence de toute vertu. »</l>
           </quote>
           <p>La plus belle des œuvres d’Ozanam, la société fondée pour l’assistance des misères du peuple, sous les auspices du saint de la charité moderne, Vincent de Paul, ne fut-elle pas une œuvre d’amour impartial qu’on s’efforcerait vainement de méconnaître ou de rétrécir aujourd’hui ?</p>
@@ -2710,7 +2687,7 @@
           <p>La vie est lourde, il faut la soulever quelquefois avec des ailes, fût-ce avec des ailes de papillon ; le temps si court dans sa durée est souvent bien long dans son passage, bien lent dans le cours inégal des heures ; il faut l’aider à passer plus vite et plus agréablement d’un lever du jour à un coucher de soleil. L’esprit <pb n="422"/>se lasse aisément, il faut le détendre, le distraire, l’amuser pour lui rendre, après ces courbatures de la vie, l’élasticité, la souplesse et même la <hi rend="i">gaieté</hi> de son ressort. C’est le plaisir en tout genre (et puisque nous ne parlons ici que de littérature), c’est le plaisir littéraire qui est chargé de rendre à l’esprit cette élasticité, cette <hi rend="i">gaieté</hi> de notre ressort moral, nécessaire à l’homme de toute condition pour faire, comme disait Mirabeau, son <hi rend="i">métier gaiement</hi>.</p>
           <p>L’oisiveté rêveuse, l’amitié épanchée, l’amour heureux, la causerie familière avec des esprits inattendus et étincelants de verve, la plaisanterie douce, l’ironie légère, le badinage décent, la chanson rieuse, le vin même versé à petites coupes dans les festins sont les muses sans ceintures (<quote xml:lang="lat"><hi rend="i">discinctæ</hi></quote>, comme disent les Latins), quelquefois même un peu débraillées de cette littérature du plaisir ou du passe-temps. Le vin aussi est chanteur de sa nature. Il y a une poésie comprimée sous le liége qui bouche la bouteille au long col du vin de Champagne, comme sous la feuille de figuier qui ferme la jarre au large ventre des vins de Chypre ou de Samos. C’est de cette <pb n="423"/>poésie dont <hi rend="i">Horace</hi>, le poète sobre de la treille, disait :</p>
           <quote>
-            <l rend="i">Nardi parvus onyx eliciet cadum. </l>
+            <l rend="i">Nardi parvus onyx eliciet cadum.</l>
           </quote>
         </div>
         <div>

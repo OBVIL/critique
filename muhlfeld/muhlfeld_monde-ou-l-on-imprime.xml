@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Lucien Muhlfeld</author>, <title> Le Monde où l’on imprime : regards sur quelques lettrés et divers illettrés contemporains</title>, <pubPlace>Paris</pubPlace>, <publisher>Perrin</publisher>, <date>1897</date>, 308 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1112535">Gallica</ref>.</bibl>
+        <bibl><author>Lucien Muhlfeld</author>,  <title>Le Monde où l’on imprime : regards sur quelques lettrés et divers illettrés contemporains</title>, <pubPlace>Paris</pubPlace>, <publisher>Perrin</publisher>, <date>1897</date>, 308 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1112535">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +46,7 @@
         <date when="1897">1897</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -56,9 +56,9 @@
         <head>Chapitre premier.
 <lb/>La critique et la vie littéraire</head>
         <epigraph>
-          <p>Ce n’est plus ce qu’on</p>
-          <p>Appelle une vie.</p>
-          <p>     <hi rend="sc">Verlaine</hi>.</p>
+          <l>Ce n’est plus ce qu’on</l>
+          <l>Appelle une vie.</l>
+          <bibl><hi rend="sc">Verlaine</hi>.</bibl>
         </epigraph>
         <div>
           <head>I</head>
@@ -195,7 +195,7 @@
           <quote>
             <l>En tête, les grands dieux : Hor, Knoum, Ptah, Neith, Hator</l>
             <l>………………………………………………………………</l>
-            <l> Le blason de Hizen ou de Tokungawa,</l>
+            <l>Le blason de Hizen ou de Tokungawa,</l>
           </quote>
           <p>les sonnets orientaux sont très loin de tous les autres. <quote>« C’en serait assez pour illustrer une autre vie que la sienne, mais pour lui c’est le premier pas de sa course. »</quote></p>
           <p>Autre truisme erroné. Heredia serait le plus parfait parnassien parce qu’il serait le plus serein, le plus marmoréen, pour ne pas dire le plus pétrifié.</p>

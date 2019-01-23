@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <date when="1892">1892</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -285,7 +285,7 @@
             Lévy sont d’un commerce agréable et sûr. Certes l’héritage de travail et d’honneur
             laissé par leur père ne saurait être mieux placé qu’en leurs mains.</p>
           <p rend="right">A. F.</p>
-          <p rend="right">Mai 1892.</p>
+          <label type="dateline"><hi rend="n">Mai 1892.</hi></label>
         </quote>
       </div>
       <div>
@@ -410,34 +410,43 @@
         <p>Rappelez-vous le chœur des <hi rend="i">Malheureux</hi>, qui ne veulent pas renaître,
           même pour goûter la béatitude éternelle, mais tardive.</p>
         <quote>
-          <l>     Près de nous la jeunesse a passé les mains vides, <lb/>     Sans nous avoir fêtés,
-            sans nous avoir souri. <lb/>     Les sources de l’amour sur nos lèvres avides,
-            <lb/>     Comme une eau fugitive, au printemps ont tari. <lb/>     Dans nos sentiers
-            brûlés pas une fleur ouverte, <lb/>     Si, pour aider nos pas, quelque soutien chéri
-            <lb/>     Parfois s’offrait à nous sur la route déserte, <lb/>     Lorsque nous les
-            touchions, nos appuis se brisaient ; <lb/>     Tout devenait roseau quand nos cœurs s’y
-            posaient. <lb/>     Au gouffre que pour nous creusait la Destinée, <lb/>     Une
-            invisible main nous poussait acharnée : <lb/>     Comme un bourreau, craignant de nous
-            voir échapper, <lb/>     À nos côtés marchait le Malheur inflexible. <lb/>     Nous
-            portions une plaie à chaque endroit sensible, <lb/>     Et l’aveugle Hasard savait où
-            nous frapper.</l>
+          <l>Près de nous la jeunesse a passé les mains vides,</l>
+          <l>Sans nous avoir fêtés, sans nous avoir souri.</l>
+          <l>Les sources de l’amour sur nos lèvres avides,</l>
+          <l>Comme une eau fugitive, au printemps ont tari.</l>
+          <l>Dans nos sentiers brûlés pas une fleur ouverte,</l>
+          <l>Si, pour aider nos pas, quelque soutien chéri</l>
+          <l>Parfois s’offrait à nous sur la route déserte,</l>
+          <l>Lorsque nous les touchions, nos appuis se brisaient ;</l>
+          <l>Tout devenait roseau quand nos cœurs s’y posaient.</l>
+          <l>Au gouffre que pour nous creusait la Destinée,</l>
+          <l>Une invisible main nous poussait acharnée :</l>
+          <l>Comme un bourreau, craignant de nous voir échapper,</l>
+          <l>À nos côtés marchait le Malheur inflexible.</l>
+          <l>Nous portions une plaie à chaque endroit sensible,</l>
+          <l>Et l’aveugle Hasard savait où nous frapper.</l>
           <l/>
-          <l>     Peut-être aurions-nous droit aux célestes délices ; <lb/>     Non ! ce n’est point
-            à nous de redouter l’enfer, <lb/><pb n="8"/>     Car nos fautes n’ont pas mérité de
-            supplices ; <lb/>     Si nous avons failli, nous avons tant souffert  <lb/>     Eh
-            bien ! nous renonçons même à cette espérance <lb/>     D’entrer dans ton royaume et de
-            voir tes splendeurs ; <lb/>     Seigneur nous refusons jusqu’à ta récompense,
-            <lb/>     Et nous ne voulons pas du prix de nos douleurs.</l>
+          <l>Peut-être aurions-nous droit aux célestes délices ;</l>
+          <l>Non ! ce n’est point à nous de redouter l’enfer,</l>
+          <pb n="8"/><l>Car nos fautes n’ont pas mérité de supplices ;</l>
+          <l>Si nous avons failli, nous avons tant souffert </l>
+          <l>Eh bien ! nous renonçons même à cette espérance</l>
+          <l>D’entrer dans ton royaume et de voir tes splendeurs ;</l>
+          <l>Seigneur nous refusons jusqu’à ta récompense,</l>
+          <l>Et nous ne voulons pas du prix de nos douleurs.</l>
           <l/>
-          <l>     Nous le savons, tu peux donner encor des ailes <lb/>     Aux âmes qui ployaient
-            sous un fardeau trop lourd ; <lb/>     Tu peux, lorsqu’il te plaît, loin des sphères
-            mortelles <lb/>     Les élever à toi dans la grâce et l’amour ; <lb/>     Tu peux, parmi
-            les chœurs qui chantent tes louanges, <lb/>     À tes pieds, sous tes yeux, nous mettre
-            au premier rang, <lb/>     Nous faire couronner par la main de tes anges, <lb/>     Nous
-            revêtir de gloire en nous transfigurant, <lb/>     Tu peux nous pénétrer d’une vigueur
-            nouvelle, <lb/>     Nous rendre le désir que nous avions perdu… <lb/>     Oui, mais le
-            Souvenir, cette ronce immortelle <lb/>     Attachée à nos cœurs, l’en
-            arracheras-tu ?</l>
+          <l>Nous le savons, tu peux donner encor des ailes</l>
+          <l>Aux âmes qui ployaient sous un fardeau trop lourd ;</l>
+          <l>Tu peux, lorsqu’il te plaît, loin des sphères mortelles</l>
+          <l>Les élever à toi dans la grâce et l’amour ;</l>
+          <l>Tu peux, parmi les chœurs qui chantent tes louanges,</l>
+          <l>À tes pieds, sous tes yeux, nous mettre au premier rang,</l>
+          <l>Nous faire couronner par la main de tes anges,</l>
+          <l>Nous revêtir de gloire en nous transfigurant,</l>
+          <l>Tu peux nous pénétrer d’une vigueur nouvelle,</l>
+          <l>Nous rendre le désir que nous avions perdu…</l>
+          <l>Oui, mais le Souvenir, cette ronce immortelle</l>
+          <l>Attachée à nos cœurs, l’en arracheras-tu ?</l>
         </quote>
         <ab type="ornament">     ………………………………………</ab>
         <p>Rappelez-vous les imprécations de l’homme à la nature :</p>
@@ -462,7 +471,7 @@
           <l>La distance est trop grande et trop profond l’abîme</l>
           <l>      Entre ta pensée et tes flancs.</l>
           <l/>
-          <l><pb n="9"/>La mort est le seul fruit qu’en tes crises futures</l>
+          <pb n="9"/><l>La mort est le seul fruit qu’en tes crises futures</l>
           <l>Il te sera donné d’atteindre et de cueillir ;</l>
           <l>Toujours nouveau débris, toujours des créatures</l>
           <l>    Que tu devras ensevelir !</l>
@@ -1029,7 +1038,7 @@
         <head>Mysticisme et science</head>
         <epigraph>
           <p><pb n="39"/><hi rend="i">Dic nobis Maria…</hi>
-          </p>
+         </p>
         </epigraph>
         <p>Je ne suis, qu’un rêveur et sans doute je ne perçois les choses humaines que dans le
           demi-sommeil de la méditation, mais il me semble que la saison où nous sommes, l’équinoxe
@@ -1069,7 +1078,7 @@
             dans l’univers, est utile, à moins que tout ne soit qu’illusion et vanité ; ces deux
             idées sont également philosophiques. Mais les oiseaux croient que les oiseaux sont
             nécessaires et ils agissent en conséquence. »</quote>
-        </p>
+       </p>
         <p>Voilà le dialogue des orgues et des oiseaux tel que je l’ai entendu en passant devant une
           église de village, le matin de Pâques. Il m’a paru très religieux.</p>
         <p>Dans tous les pays et dans tous les siècles, le solstice du printemps a mêlé ainsi, dans
@@ -1778,19 +1787,23 @@
               que des coups et sert de souffre-douleur aux compagnons madrés et aux rusées commères.
               Le bon Dieu, lui aussi, fait parfois, pour se distraire, un tour dans ce beau pays de
               Gascogne. Il prend un peu d’argent, sachant que c’est le grand viatique en ce monde
-              sublunaire, et suivi de saint Pierre, il court les chemins. <quote>« Un jour, comme
-                ils chevauchaient tous deux, ils rencontrèrent une charrette de foin versée. À
-                genoux sur la route, le bouvier pleurait et criait : <lb/>— Mon Dieu ! ayez pitié de
-                moi ! Relevez ma charrette. Ayez pitié de moi ! <lb/>— Bon Dieu, dit saint Pierre ;
-                n’aurez-vous pas pitié de ce pauvre homme ? <lb/>— Non, saint Pierre. Marchons.
-                Celui qui ne s’aide pas ne mérite pas d’être aidé. <lb/>« Un peu plus loin, ils
-                rencontrèrent une autre charrette de foin versée. Le bouvier faisait son possible
-                pour la remettre sur ses roues et criait : « À l’ouvrage, f… ! Ha ! Mascaret, ha !
-                Mulet ! (c’étaient les noms de ses bœufs). Ho ! Hardi ! mille dieux ! <lb/>— Bon
-                Dieu, passons vite, dit saint Pierre. Ce bouvier jure comme un païen ; il ne mérite
-                aucune pitié. » <lb/> » Mais le bon Dieu lui répondit : <lb/>— Tais-toi, saint
-                Pierre. Celui qui s’aide mérite d’être aidé. <lb/> » Il mit pied à terre et tira le
-                bouvier d’embarras. »</quote></p>
+              sublunaire, et suivi de saint Pierre, il court les chemins.</p>
+            <quote><p>« Un jour, comme ils chevauchaient tous deux, ils rencontrèrent une charrette
+                de foin versée. À genoux sur la route, le bouvier pleurait et criait :</p>
+              <p>— Mon Dieu ! ayez pitié de moi ! Relevez ma charrette. Ayez pitié de moi !</p>
+              <p>— Bon Dieu, dit saint Pierre ; n’aurez-vous pas pitié de ce pauvre homme ?</p>
+              <p>— Non, saint Pierre. Marchons. Celui qui ne s’aide pas ne mérite pas d’être
+                aidé.</p>
+              <p>« Un peu plus loin, ils rencontrèrent une autre charrette de foin versée. Le
+                bouvier faisait son possible pour la remettre sur ses roues et criait : « À
+                l’ouvrage, f… ! Ha ! Mascaret, ha ! Mulet ! (c’étaient les noms de ses bœufs). Ho !
+                Hardi ! mille dieux !</p>
+              <p>— Bon Dieu, passons vite, dit saint Pierre. Ce bouvier jure comme un païen ; il ne
+                mérite aucune pitié. »</p>
+              <p>» Mais le bon Dieu lui répondit :</p>
+              <p>— Tais-toi, saint Pierre. Celui qui s’aide mérite d’être aidé.</p>
+              <p>» Il mit pied à terre et tira le bouvier d’embarras. »</p>
+            </quote>
             <p>M. Bladé a réuni séparément, sous le titre de <pb n="80"/><hi rend="i">Traditions
                 gréco-latines</hi>, quatre contes dont le sujet se retrouve, en effet, dans les
               mythes des deux antiquités. Il n’a peut-être pas eu beaucoup raison de faire cette
@@ -1817,17 +1830,20 @@
               un moment, les trois frères gisaient à terre, saignés comme des porcs. Alors le
               seigneur salua sa femme et lui dit :</p>
             <quote>
-              <p>— Madame, vous voyez comme je travaille. Que me donnerez-vous en payement ? <lb/>—
-                Pauvre, je te donnerai la moitié de mon bien. <lb/>— Madame, ce n’est pas assez. Il
-                faut que vous soyez ma femme. <lb/>— Non, pauvre. Jamais je ne serai ta femme.
-                <lb/>— Madame, vous voyez comme je travaille. Dites non encore une fois, et je vous
-                saigne aussi, vous et votre enfant. <lb/>— À la volonté du bon Dieu ! Non, je n’ai
-                pas voulu de ces trois galants. Je ne veux pas de toi. Saigne-nous, moi et mon fils.
-                <lb/>— Madame, j’aurais tort, car vous êtes ma femme et cet enfant est mon fils.
-                <lb/>— Pauvre, si je suis ta femme, si cet enfant est ton fils, prouve que tu as dit
-                vrai. <lb/>— Femme, voici la moitié de mon contrat de mariage. Montre la tienne.
-                <lb/>(Ils avaient coupé le contrat en deux au moment du départ.). <lb/>— C’est vrai.
-                Vous êtes mon mari.</p>
+              <p>— Madame, vous voyez comme je travaille. Que me donnerez-vous en payement ?</p>
+              <p>— Pauvre, je te donnerai la moitié de mon bien.</p>
+              <p>— Madame, ce n’est pas assez. Il faut que vous soyez ma femme.</p>
+              <p>— Non, pauvre. Jamais je ne serai ta femme.</p>
+              <p>— Madame, vous voyez comme je travaille. Dites non encore une fois, et je vous
+                saigne aussi, vous et votre enfant.</p>
+              <p>— À la volonté du bon Dieu ! Non, je n’ai pas voulu de ces trois galants. Je ne
+                veux pas de toi. Saigne-nous, moi et mon fils.</p>
+              <p>— Madame, j’aurais tort, car vous êtes ma femme et cet enfant est mon fils.</p>
+              <p>— Pauvre, si je suis ta femme, si cet enfant est ton fils, prouve que tu as dit
+                vrai.</p>
+              <p>— Femme, voici la moitié de mon contrat de mariage. Montre la tienne.</p>
+              <p>(Ils avaient coupé le contrat en deux au moment du départ.).</p>
+              <p>— C’est vrai. Vous êtes mon mari.</p>
               <p>Alors le seigneur embrassa sa femme et son fils. Tous trois se mirent à table et
                 soupèrent de bon appétit.</p>
             </quote>
@@ -1870,46 +1886,57 @@
               idée en citant textuellement une ou deux scènes. Le roi, qui était bon justicier,
               mourut.</p>
             <quote>
-              <p>On l’enterra le lendemain. <lb/>Son fils donna beaucoup d’or et d’argent, pour les
-                aumônes et les prières. Au retour du cimetière, il dit aux gens du château : <lb/>—
-                Valets, faites mon lit dans la chambre de mon pauvre père. <lb/>— Roi, vous serez
-                obéi. <lb/>Le nouveau roi s’enferma dans la chambre de son <pb n="84"/>pauvre père.
-                Il se mit à genoux et pria Dieu bien longtemps. Cela fait, il se jeta, tout vêtu,
-                sur le lit et s’endormit. Le premier coup de minuit le réveilla. Un fantôme le
-                regardait sans rien dire. <lb/>Le mort prit son fils par la main et le mena, dans la
-                nuit, à l’autre bout de château. Là, il ouvrit une cachette et montra du doigt une
-                fiole à moitié pleine : <lb/>— Ta mère m’a empoisonné. Tu es roi. Fais-moi justice !
-                <lb/>À cette nouvelle, le jeune roi descend à l’écurie, selle son meilleur cheval et
+              <p>On l’enterra le lendemain.</p>
+              <p>Son fils donna beaucoup d’or et d’argent, pour les aumônes et les prières. Au
+                retour du cimetière, il dit aux gens du château :</p>
+              <p>— Valets, faites mon lit dans la chambre de mon pauvre père.</p>
+              <p>— Roi, vous serez obéi.</p>
+              <p>Le nouveau roi s’enferma dans la chambre de son <pb n="84"/>pauvre père. Il se mit
+                à genoux et pria Dieu bien longtemps. Cela fait, il se jeta, tout vêtu, sur le lit
+                et s’endormit. Le premier coup de minuit le réveilla. Un fantôme le regardait sans
+                rien dire.</p>
+              <p>Le mort prit son fils par la main et le mena, dans la nuit, à l’autre bout de
+                château. Là, il ouvrit une cachette et montra du doigt une fiole à moitié
+                pleine :</p>
+              <p>— Ta mère m’a empoisonné. Tu es roi. Fais-moi justice !</p>
+              <p>À cette nouvelle, le jeune roi descend à l’écurie, selle son meilleur cheval et
                 part dans la nuit noire. Il charge un de ses amis de dire à sa fiancée qu’elle ne le
                 verra plus et qu’elle doit entrer dans un couvent, et il se retire parmi les aigles,
                 sur une montagne, où il boit l’eau des sources et mange des baies sauvages. Là, son
                 père lui apparaît et, pour la deuxième et pour la troisième fois, le somme de le
-                venger. <lb/>— Père, vous serez obéi. <lb/>Au coucher du soleil, il frappait à la
-                porte de son château. <lb/>— Bonsoir, ma mère, ma pauvre mère. <lb/>— Bonsoir, mon
-                fils. D’où viens-tu ? Je veux le savoir. <lb/>— Ma mère, ma pauvre mère, je vous le
-                dirai à souper. Je vous le dirai quand nous serons seuls. À table ! J’ai faim.
-                <lb/>Ils s’attablèrent tous deux. Quand ils furent seuls, le roi dit : <lb/>— Ma
-                mère, ma pauvre mère, vous voulez savoir d’où je viens. Je viens de voir du pays. Je
-                viens d’épouser ma maîtresse. Demain, vous l’aurez ici.</p>
+                venger.</p>
+              <p>— Père, vous serez obéi.</p>
+              <p>Au coucher du soleil, il frappait à la porte de son château.</p>
+              <p>— Bonsoir, ma mère, ma pauvre mère.</p>
+              <p>— Bonsoir, mon fils. D’où viens-tu ? Je veux le savoir.</p>
+              <p>— Ma mère, ma pauvre mère, je vous le dirai à souper. Je vous le dirai quand nous
+                serons seuls. À table ! J’ai faim.</p>
+              <p>Ils s’attablèrent tous deux. Quand ils furent seuls, le roi dit :</p>
+              <p>— Ma mère, ma pauvre mère, vous voulez savoir d’où je viens. Je viens de voir du
+                pays. Je viens d’épouser ma maîtresse. Demain, vous l’aurez ici.</p>
             </quote>
             <p>Pour comprendre ce qui suit, il faut savoir que l’idée d’avoir une bru à qui elle
               cédera son pouvoir est depuis longtemps intolérable à la méchante reine.</p>
             <quote>
-              <p>La reine écoutait sans rien dire. Elle sortit, et revint un moment après. <lb/><pb
-                  n="85"/>— Ta femme arrive demain. Tant mieux ! Buvons à sa santé. <lb/>Alors le
-                roi tira son épée et la posa sur la table. <lb/>— Écoutez, ma mère, ma pauvre mère.
-                Vous voulez m’empoisonner. Je vous pardonne. Mais mon père, lui, ne vous pardonne
-                pas. Par trois fois il est revenu de l’autre monde et m’a dit : « Ta mère m’a
-                empoisonné. Tu es roi. Fais-moi justice. » Hier j’ai répondu : « Père, vous serez
-                obéi. » Ma mère, ma pauvre mère, priez Dieu qu’il ait pitié de votre âme. Regardez
-                cette épée ; regardez-la bien. Le temps de dire un <hi rend="i">Pater</hi> et je
-                vous tranche la tête, si vous n’avez pas bu le poison que vous m’avez versé. Buvez,
-                buvez jusqu’au fond, ma mère, ma pauvre mère. <lb/>La reine vida le verre jusqu’au
-                fond. Cinq minutes après, elle était verte comme l’herbe. <lb/>— Pardonnez-moi, ma
-                mère, ma pauvre mère. <lb/>— Non. <lb/>La reine tomba sous la table. Elle était
-                morte. Alors le roi s’agenouilla et pria Dieu. Puis il descendit doucement,
-                doucement à l’écurie, sauta sur son cheval et partit au grand galop dans la nuit
-                noire. <lb/>On ne l’a revu jamais, jamais.</p>
+              <p>La reine écoutait sans rien dire. Elle sortit, et revint un moment après.</p>
+              <p><pb n="85"/>— Ta femme arrive demain. Tant mieux ! Buvons à sa santé.</p>
+              <p>Alors le roi tira son épée et la posa sur la table.</p>
+              <p>— Écoutez, ma mère, ma pauvre mère. Vous voulez m’empoisonner. Je vous pardonne.
+                Mais mon père, lui, ne vous pardonne pas. Par trois fois il est revenu de l’autre
+                monde et m’a dit : « Ta mère m’a empoisonné. Tu es roi. Fais-moi justice. » Hier
+                j’ai répondu : « Père, vous serez obéi. » Ma mère, ma pauvre mère, priez Dieu qu’il
+                ait pitié de votre âme. Regardez cette épée ; regardez-la bien. Le temps de dire un
+                  <hi rend="i">Pater</hi> et je vous tranche la tête, si vous n’avez pas bu le
+                poison que vous m’avez versé. Buvez, buvez jusqu’au fond, ma mère, ma pauvre
+                mère.</p>
+              <p>La reine vida le verre jusqu’au fond. Cinq minutes après, elle était verte comme
+                l’herbe.</p>
+              <p>— Pardonnez-moi, ma mère, ma pauvre mère.</p>
+              <p>— Non.</p>
+              <p>La reine tomba sous la table. Elle était morte. Alors le roi s’agenouilla et pria
+                Dieu. Puis il descendit doucement, doucement à l’écurie, sauta sur son cheval et
+                partit au grand galop dans la nuit noire.</p>
+              <p>On ne l’a revu jamais, jamais.</p>
             </quote>
             <p>Je ne sais, mais il me semble bien qu’ici, par la hauteur du ton et du sentiment, le
               conte touche à l’épopée et que ce récit des veillées de Cazeneuve ou de Sainte-Eulalie
@@ -1972,13 +1999,13 @@
               quatrains sur l’enfant Jésus à Bethléem ?</p>
             <quote>
               <l>Il est dans la crèche,</l>
-              <l>Couché tout du long. </l>
-              <l>Dans le ciel les anges </l>
+              <l>Couché tout du long.</l>
+              <l>Dans le ciel les anges</l>
               <l>Jouent du violon.</l>
               <l/>
-              <l>Le bœuf et la mule </l>
-              <l>Lui respirent dessus. </l>
-              <l>Voilà le réchauffement </l>
+              <l>Le bœuf et la mule</l>
+              <l>Lui respirent dessus.</l>
+              <l>Voilà le réchauffement</l>
               <l>Du divin Jésus.</l>
             </quote>
             <p>Ces poésies populaires de la Gascogne sont infiniment variées de ton et de manière.
@@ -1992,19 +2019,19 @@
               cette poésie instinctive le « petit <hi rend="i">Pater</hi> » que récitent les femmes
               d’Agen, pour gagner le ciel :</p>
             <quote>
-              <l>Notre Seigneur s’est levé, </l>
+              <l>Notre Seigneur s’est levé,</l>
               <l>Par neuf chambres il est passé,</l>
-              <l>Neuf Maries il a trouvé. </l>
+              <l>Neuf Maries il a trouvé.</l>
               <l>— Neuf Maries, que faites-vous ?</l>
-              <l>— Nous baptisons le fils de Dieu. </l>
-              <l>— Neuf Maries, que portez-vous ? </l>
+              <l>— Nous baptisons le fils de Dieu.</l>
+              <l>— Neuf Maries, que portez-vous ?</l>
               <l>— De l’huile, du chrême et le saint rosier.</l>
               <l>Sous cet arbre, les fleurettes</l>
-              <l>          N’ont ni ombre </l>
+              <l>          N’ont ni ombre</l>
               <l>          Ni couleurs</l>
               <l>          Sombres.</l>
-              <l>Notre Seigneur est monté sur l’escalier de Dieu, </l>
-              <l>Pleuré sur terre des morts et des vivants. </l>
+              <l>Notre Seigneur est monté sur l’escalier de Dieu,</l>
+              <l>Pleuré sur terre des morts et des vivants.</l>
               <l>       Un angelot de Dieu.</l>
             </quote>
             <p>Ce petit <hi rend="i">Pater</hi> a été condamné par l’Église comme entaché de
@@ -2018,28 +2045,28 @@
               de ce bijou de village, de ce saint-Esprit, dont M. Bladé a monté les pierres, comme
               un bon joaillier.</p>
             <quote>
-              <l>— Marie-Madeleine, </l>
-              <l>Pécheresse de Dieu, </l>
+              <l>— Marie-Madeleine,</l>
+              <l>Pécheresse de Dieu,</l>
               <l>Pourquoi avez-vous péché ?</l>
-              <l>— Jésus, mon Dieu Jésus, </l>
+              <l>— Jésus, mon Dieu Jésus,</l>
               <l>Je ne me connais aucun péché.</l>
               <l/>
               <l>     — Marie-Madeleine,</l>
               <l>Sept ans dans les montagnes</l>
-              <l>Vous irez demeurer… </l>
-              <l>Au bout de sept années, </l>
+              <l>Vous irez demeurer…</l>
+              <l>Au bout de sept années,</l>
               <l>Elle se retira.</l>
               <l/>
               <l>     Marie-Madeleine</l>
-              <l>S’en va dans les montagnes. </l>
-              <l>Sept ans elle y a demeuré. </l>
-              <l>Au bout de sept années, </l>
+              <l>S’en va dans les montagnes.</l>
+              <l>Sept ans elle y a demeuré.</l>
+              <l>Au bout de sept années,</l>
               <l>Proche d’un ruisseau elle s’en va.</l>
               <l/>
-              <l>Marie-Madeleine, </l>
+              <l>Marie-Madeleine,</l>
               <l>Les mains au courant de l’eau,</l>
               <l>Les mains s’en va se laver.</l>
-              <l>Quand elle se les a lavées, </l>
+              <l>Quand elle se les a lavées,</l>
               <l>Elle les admire.</l>
               <l/>
               <l>— Marie-Madeleine,</l>
@@ -2048,9 +2075,11 @@
               <l>— Jésus, mon Dieu Jésus.</l>
               <l>Tant que vous voudrez.</l>
               <l/>
-              <l>Marie-Madeleine, </l>
+              <l>Marie-Madeleine,</l>
               <l>Au bout de sept années,</l>
-              <l>Jésus l’alla trouver : <lb/>— Marie-Madeleine, <lb/>Au ciel il faut aller.</l>
+              <l>Jésus l’alla trouver :</l>
+              <l>— Marie-Madeleine,</l>
+              <l>Au ciel il faut aller.</l>
             </quote>
             <p>Il y aurait beaucoup à dire sur cette belle adorante qui lave ses mains blanches dans
               les ruisseaux des saintes solitudes. On la retrouve en Provence, en Catalogne, <pb
@@ -2158,9 +2187,10 @@
             ces belles paroles d’un poète :</p>
           <quote>
             <p>« La littérature qui se sépare dédaigneusement du peuple est comme une plante
-              déracinée… <lb/> » C’est dans le cœur du peuple que doivent se retremper <pb n="96"
-              />sans cesse la poésie et l’art, pour rester verts et florissants. Là est leur
-              fontaine de Jouvence. »</p>
+              déracinée…</p>
+            <p>» C’est dans le cœur du peuple que doivent se retremper <pb n="96"/>sans cesse la
+              poésie et l’art, pour rester verts et florissants. Là est leur fontaine de
+              Jouvence. »</p>
           </quote>
           <p>Ainsi parle M. Émile Blémont dans son esthétique de la tradition, petit livre fort
             éloquent et plein de philosophie. Et c’est bien parler. Surtout ne condamnons pas les
@@ -2784,8 +2814,8 @@
             point de ce jour que date ma vision éblouie. Ce n’est pas non plus du jour où j’ai
             entendu M. José Maria de Heredia réciter son suave et brillant sonnet du Cydnus :</p>
           <quote>
-            <l>Sous l’azur triomphal, au soleil qui flamboie, </l>
-            <l>La trirème d’argent blanchit le fleuve noir, </l>
+            <l>Sous l’azur triomphal, au soleil qui flamboie,</l>
+            <l>La trirème d’argent blanchit le fleuve noir,</l>
             <l>Et son sillage y laisse un parfum d’encensoir,</l>
             <l>Avec des chants de flûte et des frissons de soie.</l>
             <l/>
@@ -2873,8 +2903,9 @@
             défaillante, le diadème autour de la tête. Un des soldats d’Octave lui cria avec
             fureur :</p>
           <quote>
-            <p>— Voilà qui est beau, Charmion ! <lb/>— Très beau, en effet, répondit-elle, et digne
-              de la fille de tant de rois ! <lb/>Et elle tomba morte au pied du lit.</p>
+            <p>— Voilà qui est beau, Charmion !</p>
+            <p>— Très beau, en effet, répondit-elle, et digne de la fille de tant de rois !</p>
+            <p>Et elle tomba morte au pied du lit.</p>
           </quote>
           <p>Cette scène est si noblement tragique qu’on ne peut se la représenter sans un
             frémissement d’admiration. Il faut savoir gré à celle qui en prépara le spectacle et qui
@@ -2918,18 +2949,19 @@
             et de Charles Baudelaire, dans le petit tableau de l’<hi rend="i">Empereur</hi>, par
             exemple :</p>
           <quote>
-            <label>L’EMPEREUR</label>
-            <l>Sur un trône d’or neuf, le Fils du Ciel, éblouissant de pierreries, est assis au
-              milieu des mandarins ; il semble un soleil environné d’étoiles. <lb/><pb n="135"
-              />     Les mandarins parlent gravement de graves choses ; mais la pensée de l’empereur
-              s’est enfuie par la fenêtre ouverte.</l>
-            <l>Dans son pavillon de porcelaine, comme une fleur éclatante entourée de feuillage,
-              l’impératrice est assise au milieu de ses femmes.</l>
-            <l>Elle songe que son bien-aimé demeure trop longtemps au conseil et, avec ennui, elle
-              agite son éventail. <lb/>Une bouffée de parfums caresse le visage de l’empereur.
-              <lb/>« Ma bien-aimée, d’un coup de son éventail m’envoie le parfum de sa bouche. » Et
+            <label type="head">L’EMPEREUR</label>
+            <p>Sur un trône d’or neuf, le Fils du Ciel, éblouissant de pierreries, est assis au
+              milieu des mandarins ; il semble un soleil environné d’étoiles.</p>
+            <p><pb n="135"/>Les mandarins parlent gravement de graves choses ; mais la pensée de
+              l’empereur s’est enfuie par la fenêtre ouverte.</p>
+            <p>Dans son pavillon de porcelaine, comme une fleur éclatante entourée de feuillage,
+              l’impératrice est assise au milieu de ses femmes.</p>
+            <p>Elle songe que son bien-aimé demeure trop longtemps au conseil et, avec ennui, elle
+              agite son éventail.</p>
+            <p>Une bouffée de parfums caresse le visage de l’empereur.</p>
+            <p>« Ma bien-aimée, d’un coup de son éventail m’envoie le parfum de sa bouche. » Et
               l’empereur, tout rayonnant de pierreries, marche vers le pavillon de porcelaine,
-              laissant se regarder en silence les mandarins étonnés.</l>
+              laissant se regarder en silence les mandarins étonnés.</p>
           </quote>
           <p>Dès lors, Judith Gautier avait trouvé sa forme ; elle avait un style à elle, un style
             tranquille et sûr, riche et placide, comme celui de Théophile Gautier, moins robuste,
@@ -3127,7 +3159,7 @@
         <quote>
           <l>Je naquis au bord d’une mer dont la couleur passe</l>
           <l>En douceur le saphir oriental. Des lys</l>
-          <l>Y poussent dans le sable………….</l>
+          <l>Y poussent dans le sable…………</l>
         </quote>
         <p>Il descend, si j’en crois ses biographes, du navarque Tombazis, que les marins de
           l’Archipel nomment encore <pb n="146"/>dans leurs chansons, et de Papadiamontopoulos, qui
@@ -3552,24 +3584,24 @@
             par terre, roué de coups, et y aurait perdu la vie, si Montufar, par une présence
             d’esprit admirable, n’eût pris sa protection, le couvrant de son corps, écartant les
             plus échauffés à le battre et s’exposant même à leurs coups.</p>
-          <p>« Mes frères, s’écriait-il de toute sa force, laissez-le en paix pour
-            l’amour du Seigneur ; apaisez-vous, pour l’amour de la sainte Vierge. »</p>
-            <p>Ce peu de paroles apaisa cette grande tempête, et le peuple fit
-            place à frère Martin qui s’approcha du malheureux gentilhomme, bien aise en son âme de
-            le voir si maltraité, mais faisant paraître sur son visage qu’il en avait un extrême
-            déplaisir ; il le releva de terre où on l’avait jeté, l’embrassa et le baisa, tout plein
-            qu’il était de sang et de boue, et fit une rude réprimande au peuple.</p>
-          <p>« Je suis le méchant, disait-il à ceux qui le voulurent
-            entendre ; je suis le pécheur, je suis celui qui n’a jamais rien fait d’agréable aux
-            yeux de Dieu. Pensez-vous, continuait-il, parce que vous me voyez vêtu en homme <pb
-              n="169"/>de bien que je n’aie pas été toute ma vie un larron, le scandale des autres
-            et la perdition de moi-même ? Vous vous êtes trompés, mes frères ; faites-moi le but de
-            vos injures et de vos pierres, et tirez sur moi vos épées. »</p>
-          <p>Après avoir dit ces paroles avec une fausse douceur, il s’alla jeter avec
-            un zèle encore plus faux aux pieds de son ennemi, et, les lui baisant, non seulement il
-            lui demanda pardon, mais aussi, il alla ramasser son épée, son manteau et son chapeau,
-            qui s’étaient perdus dans la confusion. Il les rajusta sur lui, et, l’ayant ramené par
-            la main jusqu’au bout de la rue, se sépara de lui après lui avoir donné plusieurs
+          <p>« Mes frères, s’écriait-il de toute sa force, laissez-le en paix pour l’amour du
+            Seigneur ; apaisez-vous, pour l’amour de la sainte Vierge. »</p>
+          <p>Ce peu de paroles apaisa cette grande tempête, et le peuple fit place à frère Martin
+            qui s’approcha du malheureux gentilhomme, bien aise en son âme de le voir si maltraité,
+            mais faisant paraître sur son visage qu’il en avait un extrême déplaisir ; il le releva
+            de terre où on l’avait jeté, l’embrassa et le baisa, tout plein qu’il était de sang et
+            de boue, et fit une rude réprimande au peuple.</p>
+          <p>« Je suis le méchant, disait-il à ceux qui le voulurent entendre ; je suis le pécheur,
+            je suis celui qui n’a jamais rien fait d’agréable aux yeux de Dieu. Pensez-vous,
+            continuait-il, parce que vous me voyez vêtu en homme <pb n="169"/>de bien que je n’aie
+            pas été toute ma vie un larron, le scandale des autres et la perdition de moi-même ?
+            Vous vous êtes trompés, mes frères ; faites-moi le but de vos injures et de vos pierres,
+            et tirez sur moi vos épées. »</p>
+          <p>Après avoir dit ces paroles avec une fausse douceur, il s’alla jeter avec un zèle
+            encore plus faux aux pieds de son ennemi, et, les lui baisant, non seulement il lui
+            demanda pardon, mais aussi, il alla ramasser son épée, son manteau et son chapeau, qui
+            s’étaient perdus dans la confusion. Il les rajusta sur lui, et, l’ayant ramené par la
+            main jusqu’au bout de la rue, se sépara de lui après lui avoir donné plusieurs
             embrassements et autant de bénédictions. Le pauvre homme était comme enchanté et de ce
             qu’il avait vu et de ce qu’on lui avait fait, et si plein de confusion qu’on ne le vit
             pas paraître dans les rues, tant que ses affaires le retinrent à Séville. Montufar
@@ -3586,7 +3618,7 @@
           <l>Pourquoi, sur un tel fait, m’être si favorable ?</l>
           <l>Savez-vous, après tout, de quoi je suis capable ?</l>
         </quote>
-        <ab type="ornament">     ..........................</ab>
+        <ab type="ornament">     …………………….</ab>
         <quote>
           <l>Oui, mon cher fils, parlez, traitez-moi de perfide,</l>
           <l>D’infâme, de perdu, de voleur, d’homicide ;</l>
@@ -3677,7 +3709,7 @@
         <quote>
           <l>Mon Dieu, le plus souvent l’apparence déçoit ;</l>
           <l>Il ne faut pas toujours juger sur ce qu’on voit.</l>
-          <l>(Acte V, sc. III.)</l>
+          <bibl>(Acte V, sc. III.)</bibl>
         </quote>
         <p>Par contre, Scarron, qui traduit très librement, a ajouté au caractère de l’hypocrite un
           trait qui manquait à l’original. Il dit que Montufar « baissait les yeux à la rencontre
@@ -3710,8 +3742,8 @@
             l’accompagna chez lui, que la belle veuve lui donnait dans la vue et que de bon cœur il
             aurait donné un doigt de sa main pour être déjà marié avec elle, parce qu’il n’avait
             jamais trouvé de femme qui fût plus son fait que celle-là, quoiqu’à la vérité il
-            prétendit qu’après le mariage elle ne vivrait pas avec tant d’ostentation et de luxe.
-              <lb/><pb n="175"/>Elle vit plutôt en princesse qu’en femme d’un particulier, disait le
+            prétendit qu’après le mariage elle ne vivrait pas avec tant d’ostentation et de luxe.</p>
+          <p><pb n="175"/>Elle vit plutôt en princesse qu’en femme d’un particulier, disait le
             prudent don Marcos au dissimulé Gamara, et elle ne considère pas que les meubles qu’elle
             a, mis en argent, et que cet argent joint à celui que j’ai nous peuvent faire une bonne
             rente que nous pourrons mettre en réserve, et, par l’industrie que Dieu m’a donnée, en
@@ -3753,13 +3785,13 @@
           qu’il y met sa marque.</p>
       </div>
       <div>
+        <pb n="177"/>
         <head>Jules Tellier (1863-1889)<note resp="author"><hi rend="i">Reliques de Jules
-              Tellier</hi>, 1 vol.</note>
-          <lb/></head>
+              Tellier</hi>, 1 vol.</note></head>
         <quote>
-          <p><pb n="177"/>« C’était un grand garçon de vingt-deux ans, maigre et pâle, aux yeux
-            caves et aux moustaches brunes. Il avait dans la physionomie quelque chose de hagard et
-            dans l’allure quelque chose d’abandonné. »</p>
+          <p>« C’était un grand garçon de vingt-deux ans, maigre et pâle, aux yeux caves et aux
+            moustaches brunes. Il avait dans la physionomie quelque chose de hagard et dans l’allure
+            quelque chose d’abandonné. »</p>
         </quote>
         <p>Ainsi Jules Tellier se figurait ce Tristan Noël, étudiant de la Faculté de Rouen<note
             resp="author">On sait qu’il n’y a pas de facultés à Rouen. Tellier place un étudiant
@@ -3925,8 +3957,8 @@
           jouissent d’un sort bien enviable encore : ils sont destinés au plaisir des délicats. Il
           ne me convient pas d’être tranchant en matière de goût. Mais il me semble que la <hi
             rend="i">Prière</hi> de Jules Tellier<note resp="author"><p>Voici la pièce
-                entière.</p><quote><label>PRIÈRE</label><l>Fantôme qui nous dois dans la tombe
-                enfermer,</l>
+                entière.</p><quote><label type="head">PRIÈRE</label><l>Fantôme qui nous dois dans la
+                tombe enfermer,</l>
               <l>Mort dont le nom répugne et dont l’image effraie,</l>
               <l>Mais qu’à force de crainte on finit par aimer,</l>
               <l>Puisque la vie est vaine et que toi seule es vraie ;</l><l>Ô Mort, qui fais qu’on
@@ -3974,7 +4006,7 @@
           pourraient dès aujourd’hui recueillir. Ils seraient bien avisés, <pb n="187"/>à mon gré,
           de ne point oublier non plus le sonnet que voici :</p>
         <quote>
-          <label>LE BANQUET</label>
+          <label type="head">LE BANQUET</label>
           <l>Au banquet de Platon, après que tour à tour,</l>
           <l>Coupe en main, loin des yeux du vulgaire profane,</l>
           <l>Diotime, Agathon, Socrate, Aristophane,</l>
@@ -3984,8 +4016,8 @@
           <l>Ivre à demi, sous sa couronne qui se fane,</l>
           <l>Alcibiade, jeune et beau comme le jour.</l>
           <l>— Ma vie est un banquet fini, qui se prolonge,</l>
-          <l>Seul, parmi les causeurs assoupis, comme en songe, <lb/>     J’ouvre et promène encor
-            un regard étonné ;</l>
+          <l>Seul, parmi les causeurs assoupis, comme en songe,</l>
+          <l>J’ouvre et promène encor un regard étonné ;</l>
           <l>Les fronts sur les coussins ont fait de lourdes chutes :</l>
           <l>Verrai-je survenir, de roses couronné,</l>
           <l>Alcibiade avec ses joueuses de flûtes ?</l>
@@ -3998,31 +4030,34 @@
           voici, intitulé <hi rend="i">Nocturne</hi> :</p>
         <quote>
           <p>Nous quittâmes la Gaule sur un vaisseau qui partait de Massalia un soir d’automne, à la
-            tombée de la nuit. <lb/>Et cette nuit-là et la suivante, je restai seul éveillé sur le
-            pont, tantôt écoutant gémir le vent sur la mer et <pb n="188"/>songeant à des regrets,
-            et tantôt aussi contemplant les flots nocturnes et me perdant en d’autres rêves.
-            <lb/>Car c’est la mer sacrée, la mer mystérieuse où il y a trente siècles le subtil et
+            tombée de la nuit.</p>
+          <p>Et cette nuit-là et la suivante, je restai seul éveillé sur le pont, tantôt écoutant
+            gémir le vent sur la mer et <pb n="188"/>songeant à des regrets, et tantôt aussi
+            contemplant les flots nocturnes et me perdant en d’autres rêves.</p>
+          <p>Car c’est la mer sacrée, la mer mystérieuse où il y a trente siècles le subtil et
             malheureux Ulysse agita ses longues erreurs ; le subtil Ulysse qui, délivré des périls
             marins, devait encore, d’après Tirésias, parcourir des terres nombreuses, portant une
             rame sur l’épaule, jusqu’à ce qu’il rencontrât des hommes si ignorants de la navigation
             qu’ils prissent ce fardeau pour une aile de moulin à vent<note resp="author"> Voir sur
-              cette phrase l’article suivant intitulé <hi rend="i">la Rame d’Ulysse</hi>.</note>.
-            <lb/>C’est la mer que sillonnaient jadis sur les galères et les trirèmes les vieux
-            poètes et les vieux sages ; et comme ils se tenaient debout à la poupe, au milieu des
-            matelots attentifs, attentive elle-même, elle a écouté, en des nuits pareilles, les
-            chansons d’Homère et les paroles de Solon. <lb/>Et c’est aussi la mer où, dans les
-            premiers siècles de l’erreur chrétienne, alors que le règne de la sainte nature
-            finissait et que commençait celui de l’ascétisme cruel, le patron d’une barque africaine
-            entendit des voix dans l’ombre, et l’une d’entre elles l’appeler par son nom et lui
-            dire : « Le grand Pan est mort ! Va-t’en parmi les hommes et annonce-leur que le grand
-            Pan est mort ! » <lb/>Et par la mystérieuse nuit sans étoiles, sur le chaos noir de la
-            mer et sous le noir chaos du ciel, il y avait quelque chose de triste et d’étrange à
-            songer que peut-être l’endroit innomé, mouvant et obscur que traversait notre vaisseau
-            avait vu passer tous ces fantômes et qu’il n’en avait rien gardé ! <lb/>Et c’est parce
-            que cette pensée me vint, et qu’elle me parut étrange et triste, et qu’elle troubla
-            longtemps mon cœur de rhéteur ennuyé, qu’il m’est possible encore, entre tant d’heures
-            oubliées, d’évoquer ces lointaines heures noires où je rêvais seul sur le pont du <pb
-              n="189"/>navire parti de Massalia, un soir d’automne, à la tombée de la nuit.</p>
+              cette phrase l’article suivant intitulé <hi rend="i">la Rame d’Ulysse</hi>.</note>.</p>
+          <p>C’est la mer que sillonnaient jadis sur les galères et les trirèmes les vieux poètes et
+            les vieux sages ; et comme ils se tenaient debout à la poupe, au milieu des matelots
+            attentifs, attentive elle-même, elle a écouté, en des nuits pareilles, les chansons
+            d’Homère et les paroles de Solon.</p>
+          <p>Et c’est aussi la mer où, dans les premiers siècles de l’erreur chrétienne, alors que
+            le règne de la sainte nature finissait et que commençait celui de l’ascétisme cruel, le
+            patron d’une barque africaine entendit des voix dans l’ombre, et l’une d’entre elles
+            l’appeler par son nom et lui dire : « Le grand Pan est mort ! Va-t’en parmi les hommes
+            et annonce-leur que le grand Pan est mort ! »</p>
+          <p>Et par la mystérieuse nuit sans étoiles, sur le chaos noir de la mer et sous le noir
+            chaos du ciel, il y avait quelque chose de triste et d’étrange à songer que peut-être
+            l’endroit innomé, mouvant et obscur que traversait notre vaisseau avait vu passer tous
+            ces fantômes et qu’il n’en avait rien gardé !</p>
+          <p>Et c’est parce que cette pensée me vint, et qu’elle me parut étrange et triste, et
+            qu’elle troubla longtemps mon cœur de rhéteur ennuyé, qu’il m’est possible encore, entre
+            tant d’heures oubliées, d’évoquer ces lointaines heures noires où je rêvais seul sur le
+            pont du <pb n="189"/>navire parti de Massalia, un soir d’automne, à la tombée de la
+            nuit.</p>
         </quote>
         <p>Puisque les <hi rend="i">Reliques</hi> de Jules Tellier ne se trouvent pas chez
           l’éditeur, nous avons dû donner cette page à la suite de notre article, <hi rend="i">en
@@ -4070,15 +4105,15 @@
           pour plus de clarté, l’endroit dont il est question.</p>
         <quote>
           <p>Nous quittâmes (c’est Tellier qui parle) la Gaule sur un vaisseau qui partait de
-            Massalia, un soir d’automne, à la tombée de la nuit. <lb/>Et cette nuit-là et la
-            suivante je restai seul éveillé sur le pont, tantôt écoutant gémir le vent sur la mer et
-            songeant à des regrets, et tantôt aussi contemplant les flots nocturnes et me perdant en
-            d’autres rêves. <lb/>Car c’est la mer sacrée, la mer mystérieuse où, il y a trente
-            siècles, le subtil et malheureux Ulysse agita ses longues erreurs ; le subtil Ulysse
-            qui, délivré des périls marins devait encore, d’après Tirésias, parcourir des terres
-            nombreuses, portant une rame sur l’épaule, jusqu’à ce qu’il rencontrât des hommes si
-            ignorants de la navigation qu’ils prissent ce fardeau pour une aile de moulin à
-            vent.</p>
+            Massalia, un soir d’automne, à la tombée de la nuit.</p>
+          <p>Et cette nuit-là et la suivante je restai seul éveillé sur le pont, tantôt écoutant
+            gémir le vent sur la mer et songeant à des regrets, et tantôt aussi contemplant les
+            flots nocturnes et me perdant en d’autres rêves.</p>
+          <p>Car c’est la mer sacrée, la mer mystérieuse où, il y a trente siècles, le subtil et
+            malheureux Ulysse agita ses longues erreurs ; le subtil Ulysse qui, délivré des périls
+            marins devait encore, d’après Tirésias, parcourir des terres nombreuses, portant une
+            rame sur l’épaule, jusqu’à ce qu’il rencontrât des hommes si ignorants de la navigation
+            qu’ils prissent ce fardeau pour une aile de moulin à vent.</p>
         </quote>
         <p>Je n’apprendrai rien à personne en disant que Jules Tellier rappelle ici la prédiction
           que le devin Tirésias fit à Ulysse, chez les Cimmériens, toujours enveloppés de brumes et
@@ -4253,7 +4288,7 @@
           quarante siècles et la voilà retrouvée aux mains des paysans de cette Grèce française qui
           est la Provence. Frédéric Mistral et Paul Arène l’ont reconnue, et ils ont récité des vers
           de l’<hi rend="i">Odyssée</hi> sous les cyprès de Maillanne. Quelle aimable scolie à
-          mettre en marge du <num>xi<hi rend="sup">e</hi></num> chant de l’Odyssée ! </p>
+          mettre en marge du <num>xi<hi rend="sup">e</hi></num> chant de l’Odyssée !</p>
         <p><pb n="201"/>Imprimée dans le journal le <hi rend="i">Temps</hi>, cette causerie sur la
           rame d’Ulysse, qui n’avait de mérite assurément que celui d’encadrer le billet exquis de
           M. Paul Arène, a amusé beaucoup plus de lecteurs que je n’aurais cru. Il y a encore en
@@ -4388,7 +4423,7 @@
         <p>Θρώς χωσιν χυαμοι μελαυόχροες, ή ερεϐινθοι,</p>
         <p>Πνοιή ϋπο λγυρή ααί λιχμητηρος ερωη.</p>
         <p rend="i">Comme dans une aire étendue les noires fèves ou les pois s’élancent du large van
-          sous le souffle bruyant et l’effort du vanneur. </p>
+          sous le souffle bruyant et l’effort du vanneur.</p>
         <p>Il n’y a pas de synonymes absolus, en grec, ni ailleurs, il est donc clair que les deux
           mots άθηρηλοιγός et πτυον désignent des instruments différents, tous deux connus <pb
             n="206"/>du poète, qui sait ce qu’il dit. Le van est le premier, πτυον. — Je découvris
@@ -4985,9 +5020,11 @@
           bonne foi qui faisait le fond de son caractère, si les œufs de merle nous paraissaient
           bleus.</p>
         <quote>
-          <l>— À mes yeux, ajouta-t-il, ils sont gris. <lb/>Il resta pensif un moment, répéta
-            plusieurs fois : <lb/>— Ils sont gris, ils sont gris !… <lb/>Puis il reprit avec un
-            soupir : <lb/>— Chateaubriand était bien heureux de les voir bleus !</l>
+          <p>— À mes yeux, ajouta-t-il, ils sont gris.</p>
+          <p>Il resta pensif un moment, répéta plusieurs fois :</p>
+          <p>— Ils sont gris, ils sont gris !…</p>
+          <p>Puis il reprit avec un soupir :</p>
+          <p>— Chateaubriand était bien heureux de les voir bleus !</p>
         </quote>
         <p>Mon professeur avait raison : les poètes sont heureux ; ils vivent dans un univers
           enchanté ; ils voient tout en bleu et en rose. Autant et plus qu’un autre, M. de Banville
@@ -5389,7 +5426,7 @@
             un ciel serein et pur, je quittais tout pour aller admirer les beautés célestes. Absorbé
             dans cette contemplation, je n’entendais plus ceux qui me parlaient et je perdais
             conscience de moi-même. »</quote>
-        </p>
+       </p>
         <p>Personne ne contestera la sincérité de ces effusions. Julien était un homme religieux.
           Cela ne fait point de doute. On s’accorde moins bien sur le caractère de la religion qu’il
           professait. M. Gaston Boissier y veut voir un culte nouveau, artificiel, dont Julien était
@@ -5454,7 +5491,7 @@
               terre, maintenant qu’un dieu véritable, sous l’apparence d’un homme, gouverne le
               monde, que les feux se rallument sur les autels, que l’air est purifié par la fumée
               des sacrifices. »</quote>
-          </p>
+         </p>
         </quote>
         <p>Il serait permis du moins de rechercher si la tentative de Julien était aussi insensée
           qu’on a dit. Il semble qu’elle n’eut pas de commencements malheureux. L’enthousiasme était
@@ -5938,31 +5975,31 @@
             cours d’éloquence et de poésie… n’est possible, il n’échappe à l’ennui de la trivialité
             vide, il n’a de substance et de prix que s’il est l’œuvre commune de l’auditoire et du
             maître…</p>
-          <p>Mon auditoire d’Aix-en-Provence m’a rendu pour
-            toujours classique. C’était environ deux cents personnes de tout âge, depuis seize ans
-            jusqu’à soixante, la plupart de condition moyenne, un fonds d’étudiants…, des
-            conseillers à la cour et des magistrats de tout grade, des intendants et des officiers
-            d’intendance…, un certain nombre de femmes… Tout cela formait un auditoire attentif et
-            redoutable, en qui la nourriture était riche et solide, dont le goût surgissait par
-            éclairs, prompt et fin. Le jeudi, vers quatre heures de l’après-midi, je traversais le
-            Cours, principale artère de la ville, pour me rendre au coin retiré et silencieux où
-            s’abritait la salle des conférences de la Faculté. Le soleil dardait encore ; ses rayons
-            expiraient, mais violemment, et je pouvais quelquefois me demander si l’excès de la
-            chaleur n’aurait pas retenu une partie de mon public. Mais ils étaient tous là, mes
-            fidèles auditeurs, si appropriés aux choses dont j’allais les entretenir, si munis pour
-            m’y approprier moi-même par toute la curiosité intelligente qui s’échappait de leurs
-            physionomies ! Au-dessus de nos têtes, entre eux et moi, une muse flottait, invisible et
-            transparente sous son éther, semant le feu poétique qui allume les âmes et qui les
-            transporte ou les tient au niveau des hauts et profonds poètes ou des poètes dégagés,
-            qui nous met à l’unisson de leurs grandes paroles, de leurs jeux et de leurs ris, qui
-            nous fait créer à nouveau les belles œuvres dans le moment que nous les lisons, les
-            sentons et les expliquons. Cet état d’esprit apparaissait alors libre et discipliné tout
-            ensemble, cohérent, et, de plus, dans une réunion de deux cents personnes de toute
-            condition et de tout âge, il n’est pas commun. Je ne me flattais pas de l’avoir éveillé…
-            Il était le produit d’un esprit plus général créé et entretenu par l’éducation qu’avait
-            donnée pendant quarante ans l’Université aux enfants des classes <pb n="286"/>aisées ou
-            cultivées de la nation, aux enfants de tous ceux qui cherchaient à s’élever vers
-            l’aisance ou la culture par le travail continu et l’épargne acharnée.</p>
+          <p>Mon auditoire d’Aix-en-Provence m’a rendu pour toujours classique. C’était environ deux
+            cents personnes de tout âge, depuis seize ans jusqu’à soixante, la plupart de condition
+            moyenne, un fonds d’étudiants…, des conseillers à la cour et des magistrats de tout
+            grade, des intendants et des officiers d’intendance…, un certain nombre de femmes… Tout
+            cela formait un auditoire attentif et redoutable, en qui la nourriture était riche et
+            solide, dont le goût surgissait par éclairs, prompt et fin. Le jeudi, vers quatre heures
+            de l’après-midi, je traversais le Cours, principale artère de la ville, pour me rendre
+            au coin retiré et silencieux où s’abritait la salle des conférences de la Faculté. Le
+            soleil dardait encore ; ses rayons expiraient, mais violemment, et je pouvais
+            quelquefois me demander si l’excès de la chaleur n’aurait pas retenu une partie de mon
+            public. Mais ils étaient tous là, mes fidèles auditeurs, si appropriés aux choses dont
+            j’allais les entretenir, si munis pour m’y approprier moi-même par toute la curiosité
+            intelligente qui s’échappait de leurs physionomies ! Au-dessus de nos têtes, entre eux
+            et moi, une muse flottait, invisible et transparente sous son éther, semant le feu
+            poétique qui allume les âmes et qui les transporte ou les tient au niveau des hauts et
+            profonds poètes ou des poètes dégagés, qui nous met à l’unisson de leurs grandes
+            paroles, de leurs jeux et de leurs ris, qui nous fait créer à nouveau les belles œuvres
+            dans le moment que nous les lisons, les sentons et les expliquons. Cet état d’esprit
+            apparaissait alors libre et discipliné tout ensemble, cohérent, et, de plus, dans une
+            réunion de deux cents personnes de toute condition et de tout âge, il n’est pas commun.
+            Je ne me flattais pas de l’avoir éveillé… Il était le produit d’un esprit plus général
+            créé et entretenu par l’éducation qu’avait donnée pendant quarante ans l’Université aux
+            enfants des classes <pb n="286"/>aisées ou cultivées de la nation, aux enfants de tous
+            ceux qui cherchaient à s’élever vers l’aisance ou la culture par le travail continu et
+            l’épargne acharnée.</p>
         </quote>
         <p>Ce cours dans lequel J.-J. Weiss traita de la comédie en France eut un vif succès. Je
           n’imagine pas ce que pouvait être la parole du jeune professeur, car il est impossible de
@@ -6088,8 +6125,9 @@
           <l>Dit dans cette assemblée</l>
           <l>Qu’il paraissait si doux</l>
           <l>Et d’un air fort honnête,</l>
-          <l>Quoique peut-être bête. <lb/>  Mais qu’après tout, pour elle, un tel mari 
-            <lb/>    Était un bon parti.</l>
+          <l>Quoique peut-être bête.</l>
+          <l>Mais qu’après tout, pour elle, un tel mari</l>
+          <l>    Était un bon parti.</l>
         </quote>
         <p>Mademoiselle de la Vergne, avec beaucoup d’esprit et tout le latin que lui avait enseigné
           Ménage, n’était pas d’un établissement facile. Son bien était petit. Elle avait perdu son
@@ -6315,7 +6353,7 @@
           <l>Je voudrais mourir à présent</l>
           <l>Pour vous avoir près de ma couche.</l>
         </quote>
-        <ab type="ornament">….....……………………..</ab>
+        <ab type="ornament">…….…………………….</ab>
         <quote>
           <l>     Jasmins d’Aden, oeillets d’Hydra,</l>
           <l>Ou roses blanches de l’Écosse,</l>
@@ -6393,17 +6431,18 @@
           <l>Les pieds saignants, l’œil radieux ; …</l>
           <l>Poète errant ou bateleur</l>
           <l>À qui l’hôte ferme la porte,</l>
-          <l>Tu dormais en plein champ ? Qu’importe <lb/>Lorsque la luzerne est en fleur !…</l>
+          <l>Tu dormais en plein champ ? Qu’importe</l>
+          <l>Lorsque la luzerne est en fleur !…</l>
           <l>Tu buvais l’eau des sources vives,</l>
           <l>Tu t’attablais aux noisetiers ;</l>
           <l>Maigre festin ; mais vous étiez,</l>
           <l>La fauvette et toi, les convives.</l>
-          <l><pb n="308"/>Si, rousse et rouge, te bouda</l>
+          <pb n="308"/><l>Si, rousse et rouge, te bouda</l>
           <l>La maritorne de l’auberge,</l>
           <l>Tu voyais en leur neige vierge</l>
           <l>Les trois déesses de l’Ida !…</l>
         </quote>
-        <p>C’est Catulle Mendés qui invoquait avec ce lyrisme fraternel le poète dont il fut le
+        <p>C’est Catulle Mendès qui invoquait avec ce lyrisme fraternel le poète dont il fut le
           confrère et l’ami au temps ancien du Parnasse et des parnassiens.</p>
         <p>Albert Glatigny n’est mort que depuis dix-huit ans, mais son existence semble reculée
           dans un passé profond, et il semble plus proche de Destin et de l’Étoile que des comédiens
@@ -6517,10 +6556,12 @@
             >Andromaque</hi> et en ajouta deux autres tout à fait étrangers au texte :
             <quote>« Gardez, dit-il, </quote></p>
         <quote>
-          <l>Gardez qu’avant le coup votre dessein n’éclate ; <lb/>Oubliez jusque-là qu’Hermione est
-            ingrate ; <lb/>Oubliez votre amour. Elle vient, je la <hi rend="i">vois</hi>
-            <lb/>Et si <hi rend="i">celle</hi> du sang n’est point une chimère, <lb/>Tombe aux pieds
-            de ce sexe à qui tu dois ta mère.</l>
+          <l>Gardez qu’avant le coup votre dessein n’éclate ;</l>
+          <l>Oubliez jusque-là qu’Hermione est ingrate ;</l>
+          <l>Oubliez votre amour. Elle vient, je la <hi rend="i">vois</hi>
+         </l>
+          <l>Et si <hi rend="i">celle</hi> du sang n’est point une chimère,</l>
+          <l>Tombe aux pieds de ce sexe à qui tu dois ta mère.</l>
         </quote>
         <p>L’effet de ces deux derniers vers, soudés au texte de Racine, fut merveilleux. Les
           lettrés de la petite ville se sentirent transportés d’admiration, et le sous-préfet
@@ -6818,7 +6859,8 @@
             attrapa les rimes ; contentons-nous d’affirmer que l’ombre du bonhomme Chrysale, lui
             tenant lieu de muse, en fournit l’inspiration. Le poète y désignait, sans la nommer</p>
           <quote>
-            <l>cette savante, <lb/>Qu’estime Roberval et que Sauveur fréquente.</l>
+            <l>                              cette savante,</l>
+            <l>Qu’estime Roberval et que Sauveur fréquente.</l>
           </quote>
           <p><pb n="329"/>Et, dans son envie de piquer la savante à l’endroit sensible, il s’avisa
             de dire que l’astronomie lui fatiguait les yeux et lui gâtait le teint. D’où vient,
@@ -7012,7 +7054,7 @@
               raisonner sur un homme entre les mains de qui je suis par l’ordre de Dieu, puisque j’y
               suis par le vôtre, je vous dirai pourtant que je suis convaincue que c’est ce qu’il me
               falloit.</p>
-            <p>..................................</p>
+            <p>……………………………</p>
             <p><pb n="338"/>Pour vous abréger dans ma dernière confession, je me trouvois dans un
               tel état à ses pieds que le sang me monta à la tête. Il me prit un saignement de nez
               et je souffris ce que je ne puis vous représenter.</p>
@@ -7345,8 +7387,8 @@
         <p>Et il ajoute un peu plus loin :</p>
         <quote>
           <l>Ne vous figurez point que de cette contrée</l>
-          <l>Par d’éternels remparts Rome soit séparée. <lb/><pb n="354"/>Je sais tous les chemins
-            par où je dois passer,</l>
+          <l>Par d’éternels remparts Rome soit séparée.</l>
+          <pb n="354"/><l>Je sais tous les chemins par où je dois passer,</l>
           <l>Et si la mort bientôt ne me vient traverser,</l>
           <l>Sans reculer plus loin l’effet de ma parole,</l>
           <l>Je vous rends dans trois mois au pied du Capitole.</l>
@@ -7511,7 +7553,7 @@
           cette scène de femmes empoisonnées, étouffées, égorgées par un eunuque révèle mieux
           peut-être que tous les récits de guerre le vrai Mithridate, le vieux sultan de Pont, le
           despote, l’Oriental.</p>
-        <p rend="b">FIN </p>
+        <p rend="b">FIN</p>
       </div>
     </body>
   </text>

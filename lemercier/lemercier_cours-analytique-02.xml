@@ -62,7 +62,7 @@
         <head>[Épigraphe]</head>
         <epigraph>
           <p>Summa sequar fastigia rerum.</p>
-          <p>            <hi rend="sc">Virg</hi>. <title>Æneid.</title></p>
+          <bibl><hi rend="sc">Virg.</hi> <title>Æneid.</title></bibl>
         </epigraph>
       </div>
       <div>
@@ -694,7 +694,7 @@
                 modérés, parmi lesquels se rencontra le fameux Racine, qui lui-même fut presque
                 ingrat à ses services. Cependant il ne le punit, de quelques malins procédés envers
                 lui, que par sa bonté, qui protégea de ses louanges nobles et sincères la comédie
-                  <title>des Plaideurs</title>. Riche des fruits de ses travaux et d’un répertoire
+                  des <title>Plaideurs</title>. Riche des fruits de ses travaux et d’un répertoire
                 qu’il avait entièrement créé, il consacra ses biens à l’établissement des membres
                 pauvres de sa famille, à l’entretien de ses acteurs, dont il s’était fait des
                 enfants et des frères, et au secours des indigents, au nombre desquels il en
@@ -850,10 +850,8 @@
         <div>
           <pb n="47" xml:id="p47"/>
           <head>[Avertissement.]</head>
-          <p>
-            <hi rend="i">Cet avertissement, relatif à un paragraphe de mon introduction, précéda
-              l’ouverture de la Séance qui va suivre.</hi>
-          </p>
+          <p rend="i">Cet avertissement, relatif à un paragraphe de mon introduction, précéda
+              l’ouverture de la Séance qui va suivre.</p>
           <salute><hi rend="sc">Messieurs</hi>,</salute>
           <p>Avant que d’entrer en matière, permettez-moi de satisfaire à une obligation
             indispensable dans cette séance. Il m’importe de détruire un bruit publiquement répandu,
@@ -4279,8 +4277,8 @@
                 <l>« Ne font pas la vertu des femmes et des filles :</l>
                 <l>« C’est l’honneur qui les doit tenir dans le devoir,</l>
                 <l>« Non la sévérité que nous leur faisons voir,</l>
-                <l><pb n="202" xml:id="p202"/>« C’est une étrange chose, à vous parler sans
-                  feinte,</l>
+                <pb n="202" xml:id="p202"/>
+                <l>« C’est une étrange chose, à vous parler sans feinte,</l>
                 <l>« Qu’une femme qui n’est sage que par contrainte.</l>
                 <l>« En vain sur tous ses pas nous prétendons régner,</l>
                 <l>« Je trouve que le cœur est ce qu’il faut gagner ;</l>
@@ -4288,8 +4286,8 @@
                 <l>« Mon honneur guère sur aux mains d’une personne</l>
                 <l>« À qui, dans les désirs qui pourraient l’assaillir,</l>
                 <l>« Il ne manquerait rien qu’un moyen de faillir.</l>
-                <l>« — Chansons que tout cela !</l>
-                <l>                                                « — Soit : mais je tiens sans
+                <l part="I">« — Chansons que tout cela !</l>
+                <l part="F">« — Soit : mais je tiens sans
                   cesse</l>
                 <l>« Qu’il nous faut en riant instruire la jeunesse,</l>
                 <l>« Reprendre ses défauts avec grande douceur,</l>
@@ -7158,8 +7156,9 @@
             <p>En le voyant si effrayé l’on n’est pas surpris de l’entendre se plaindre de la
               commission qu’il a reçue de son maître : les réflexions qui suivent ses plaintes sur
               le danger de son message viennent là comme il faut.</p>
+            <pb n="320" xml:id="p320"/>
             <quote>
-              <l><pb n="320" xml:id="p320"/>              « Sosie, à quelle servitude</l>
+              <l>              « Sosie, à quelle servitude</l>
               <l>              « Tes jours sont-ils assujettis ?</l>
               <l>              « Notre sort est beaucoup plus rude</l>
               <l>              « Chez les grands que chez les petits.</l>
@@ -7188,8 +7187,9 @@
               espèce de domesticité. Ce langage leur est également convenable à tous. Bientôt Sosie
               aperçoit la maison où loge Alcmène : sa frayeur cède alors à l’embarras de lui faire
               un récit des victoires d’Amphitryon.</p>
+            <pb n="321" xml:id="p321"/>
             <quote>
-              <l><pb n="321" xml:id="p321"/>                  « Pour jouer mon rôle sans peine</l>
+              <l>                  « Pour jouer mon rôle sans peine</l>
               <l>                  « Je le veux un peu repasser.</l>
               <l>« Voici la chambre où j’entre en courrier que l’on mène ;</l>
               <l>                  « Et cette lanterne est Alcmène</l>
@@ -7310,8 +7310,8 @@
               <quote>
                 <l>« Puisque vous le voulez, que je perde la vie</l>
                 <l>« Lorsque de vous parler je reprendrai l’envie,</l>
-                <l>« — Tant mieux. C’est m’obliger.</l>
-                <l>                                                        « — Non, non, n’ayez pas
+                <l part="I">« — Tant mieux. C’est m’obliger.</l>
+                <l part="F">« — Non, non, n’ayez pas
                   peur</l>
                 <l>« Que je fausse parole…</l>
               </quote>
@@ -7357,12 +7357,13 @@
                 fortement, que tandis qu’ils continuent à déchirer, tous deux, lettres sur lettres,
                 le valet encourage l’un dans sa colère, et la suivante excite l’autre dans la
                 sienne.</p>
+              <pb n="327" xml:id="p327"/>
               <quote>
-                <l><pb n="327" xml:id="p327"/>« Enfin voilà le reste !</l>
+                <l part="I">« Enfin voilà le reste !</l>
               </quote>
               <p rend="noindent">s’écrie Lucile,</p>
               <quote>
-                <l>                                                   « Et grâce au ciel ! c’est
+                <l part="F">« Et grâce au ciel ! c’est
                   tout.</l>
               </quote>
               <p rend="noindent">s’écrie Éraste ; ils se disent mutuellement adieu : c’en est fait
@@ -9323,7 +9324,7 @@
                 <l>« Nous nous introduirons par force ou par adresse ;</l>
                 <l>« S’il est plus à propos, pour nos desseins conçus,</l>
                 <l>« De faire un siège ouvert, ou former un blocus.</l>
-                <l>CI-Tu te sers à propos de termes militaires ;</l>
+                <l>« Tu te sers à propos de termes militaires ;</l>
                 <l>« Tu reviens de la guerre. — En toutes les affaires,</l>
                 <l>« La tête doit toujours agir avant le bras.</l>
                 <l>« Ce n’est pas d’aujourd’hui que je vois des combats ;</l>
@@ -9484,10 +9485,10 @@
                   <title>Plaideurs</title>. Le juge Dandin veut siéger de jour et de nuit à son
                 tribunal ; son fils l’arrête au sortir de son logis, et l’interroge.</p>
               <quote>
-                <l>« — Mais qui vous nourrira ?</l>
-                <l>                               « — Le buvetier, je pense.</l>
-                <l>« — Mais où dormirez-vous, mon père ?</l>
-                <l>                                           « — À l’audience.</l>
+                <l part="I">« — Mais qui vous nourrira ?</l>
+                <l part="F">« — Le buvetier, je pense.</l>
+                <l part="I">« — Mais où dormirez-vous, mon père ?</l>
+                <l part="F">« — À l’audience.</l>
               </quote>
               <p>Ce trait de dialogue vaut le meilleur discours suivi : voilà de ces mots qui
                 frappent, et qui font rire. Les débats entre Harpagon et sa fille, les querelles

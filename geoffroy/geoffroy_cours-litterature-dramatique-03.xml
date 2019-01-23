@@ -3,7 +3,7 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,7 +52,7 @@
         <date when="1814">1814</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -617,7 +617,7 @@
           Vitavi deniquè
            culpam</hi>,
 </l>
-              <l xml:lang="it" rend="i">Non laudem merui.</l>
+              <l xml:lang="ita" rend="i">Non laudem merui.</l>
             </quote>
             <p>Ce qui est louable, c’est d’avoir donné à Zopire un caractère ferme et inflexible ; c’est dommage que ce caractère ne se déploie qu’en paroles et n’agisse point : le Sénat et le shérif de la Mecque sont la plus pitoyable chose du monde. Si Zopire, dans le tête-à-tête, paraît supérieur à Mahomet par le bon sens et la droiture, Mahomet à son tour écrase absolument Zopire par la force et par l’activité. Un autre défaut non moins essentiel, c’est que dans la pièce le scélérat, le monstre, est l’adorateur et le prédicateur d’un seul Dieu ; l’honnête homme est le païen et l’idolâtre.</p>
             <p>Rien n’égale l’admiration et l’enthousiasme de J.-J. Rousseau pour la scène entre Mahomet et Zopire : <quote><hi rend="i">Il fallait</hi>, dit-il,<hi rend="i"> un auteur qui sentît bien sa force pour oser mettre vis-à-vis l’un de l’autre deux pareils interlocuteurs.</hi></quote> Chacun doit faire ici-bas son métier : le philosophe Jean-Jacques n’était point littérateur ; il avait l’esprit faux, parce qu’il avait fait ses études dans des romans : la scène qu’il regarde coin me le grand œuvre du génie tragique, était au contraire facile ; elle présentait une opposition brillante entre un ambitieux et un honnête homme : il ne fallait qu’un écolier pour la saisir, et il n’était nullement nécessaire de <hi rend="i">bien sentir sa force</hi> pour oser tenter une entreprise dont le succès était sûr. Il eût été difficile de mal faire une pareille scène : Voltaire, il est vrai, l’a traitée avec une grande supériorité ; il avait l’espèce de talent qui convient à ces antithèses de caractères. Rousseau éprouve ici ce qui arrive à presque tous les amateurs qui ne connaissent point un art, c’est de supposer la difficulté où elle n’est pas : l’ignorant en musique admire un morceau d’harmonie très compliqué ; il ne sait pas que le moindre petit air naturel et mélodieux exige beaucoup plus de génie.</p>
@@ -657,10 +657,9 @@
               <l>De votre rang toute la bienséance,</l>
               <l>Humilier ainsi voire naissance,</l>
               <l rend="i">Et, dans la honte où vos sens sont plongés,</l>
-              <l>Braver l’honneur ?</l>
-              <l/>
-              <label type="speaker" rend="sc">Le Comte.</label>
-              <l>Dites les préjugés.</l>
+              <l part="I">Braver l’honneur ?</l>
+              <label type="speaker">LE COMTE.</label>
+              <l part="F">Dites les préjugés.</l>
               <l>Je ne prends point, quoi qu’on en puisse croire,</l>
               <l>La vanité pour l’honneur et la gloire.</l>
               <l>L’éclat vous plaît ; vous mettez la grandeur</l>
@@ -684,8 +683,7 @@
             <p>C’est une maxime cynique ; il y a souvent beaucoup de bassesse à braver le vulgaire : les scélérats, les fous, les charlatans bravent aussi le vulgaire. Dans quelle classe de philosophes faut-il les ranger ? La baronne réplique :</p>
             <quote>
               <l>Vous êtes fou ; quoi ! le public, l’usage !…</l>
-              <l/>
-              <label type="speaker" rend="sc">Le Comte.</label>
+              <label type="speaker">LE COMTE.</label>
               <l>L’usage est fait pour le mépris du sage :</l>
               <l>Je me conforme à ses ordres gênants</l>
             </quote>
@@ -756,7 +754,7 @@
           </quote>
           <p>Le gouvernement se trahit lui-même par ce malheureux système de bascule et de contrepoids toujours si dangereux. Après avoir permis qu’on démasquât les philosophes ligués contre les institutions et les mœurs de la nation, il crut aussi qu’il fallait laisser insulter le seul homme qui avait le courage de les défendre ; il autorisa la représentation de <hi rend="i">L’Écossaise</hi>, qu’on regardait comme la réponse à la comédie des <hi rend="i">Philosophes</hi> : traitant ainsi de la même manière ses amis et ses ennemis, à l’exemple du sot Jupiter de la fable :</p>
           <quote>
-            <l xml:lang="it" rend="i">Tros Rutulus ve fugat, nullo discrimine habebo.</l>
+            <l xml:lang="ita" rend="i">Tros Rutulus ve fugat, nullo discrimine habebo.</l>
           </quote>
           <p>Quelle différence entre ces deux comédies ! elle était presque aussi grande que la différence qu’il y avait entre les deux causes. Palissot confond une secte ennemie de la société ; Voltaire insulte un homme de lettres qui n’a d’autre crime que de ne pas tout admirer et tout croire dans ses ouvrages : Palissot dénonce à la nation d’affreux principes, une doctrine désolante et meurtrière ; Voltaire, n’ayant rien à reprocher à celui qu’il outrage, que son zèle à défendre le gouvernement et le culte de son pays, se trouve réduit a d’infâmes impostures, à d’atroces calomnies que les lois punissent dans tous les états policés : Palissot se nomme, comme le doit tout accusateur honnête ; Voltaire se cache comme un lâche calomniateur, comme un vil libelliste ; il a recours à toutes ces honteuses fourberies, à tous ces déguisements méprisables d’un criminel que sa conscience condamne.</p>
           <p>Qui pourrait aujourd’hui balancer entre M. de Voltaire qui conspire la ruine de sa patrie, et M. Fréron qui, pour la secourir, se dévoue à tous les traits d’une secte implacable ? Ce n’est ici ni le poète ni l’écrivain qu’il faut considérer ; avant de faire des vers ou de la prose, il faut être citoyen, il faut être honnête homme : de bonnes actions valent mieux que de bons poèmes ; le talent dont on abuse mérite plus de haine et de mépris que d’éloges, au jugement de J.-J. Rousseau ; l’esprit n’est rien en comparaison des mœurs et de la vertu. M. Fréron succombant victime de son devoir, dédaigné du gouvernement qu’il a soutenu, en butte à la rage des sophistes dont il a dévoilé les complots, sans autre consolation que sa conscience, me paraît bien supérieur à Voltaire applaudi, triomphant, célébrant sa victoire au milieu d’une troupe de sectaires et de conjurés armés contre les lois et les mœurs de leur pays. Ce contraste me rappelle Bayard mourant au pied d’un arbre, en brave et vertueux chevalier, tandis que le connétable de Bourbon, infidèle à son roi, traître envers sa patrie, enivré de son coupable triomphe, se croit au comble de la gloire, quand il a perdu l’honneur, et s’imagine faire envie, quand il n’excite que le mépris et la pitié.</p>
@@ -1238,10 +1236,10 @@
             <p><hi rend="i">Me jette en ce palais</hi> : c’est ainsi qu’on jette à sa porte ou dans sa rue une personne que l’on ramène en voiture. <hi rend="i">Éplorée, incertaine</hi> ; quel arrangement d’épithètes ! <hi rend="i">Incertaine</hi> appartient à la rime ; autrement on ne la placerait pas après <hi rend="i">éplorée</hi>.</p>
             <p>Voyez que de négligences, que de choses plates, faibles et communes ; que de fautes, en un mot, dans un récit qu’on voudrait nous faire admirer comme un chef-d’œuvre ! bien débité, il séduit au théâtre par une apparence de vivacité et de chaleur, par ce prestige banal d’une foule de mots prononcés avec volubilité ; mais, quand on l’examine, il est prolixe et traînant. Le style de Voltaire est bien éloigné d’avoir, comme on le dit, l’impétuosité d’un torrent ; c’est un ruisseau qui n’a ni profondeur, ni largeur, ni rapidité, mais qui roule une onde assez limpide. Ce style est de l’eau claire : voilà pourquoi les partisans de Voltaire vantent prodigieusement sa clarté. Cependant, de même qu’il y a un naturel trivial, une simplicité, une brièveté sans art, il y a aussi une clarté sans mérite, laquelle n’empêche pas que la versification ne soit flasque, commune et prosaïque. On remarque avec surprise, dans la plus belle scène de <hi rend="i">Mérope</hi>, cette tournure bouffonne :</p>
             <quote>
-              <label type="speaker" rend="sc">Égisthe.</label>
-              <l>Moi, votre fils ?</l>
-              <label type="speaker" rend="sc">Mérope.</label>
-              <l>                          <hi rend="i">Tu l’es</hi>………</l>
+              <label type="speaker">ÉGISTHE.</label>
+              <l part="I">Moi, votre fils ?</l>
+              <label type="speaker">MÉROPE.</label>
+              <l part="F"><hi rend="i">Tu l’es</hi>………</l>
             </quote>
             <p>On a blâmé avec raison, comme une sentence fausse et dangereuse, les vers qui terminent le second acte : <hi rend="i">Quand on a tout perdu</hi>, etc. On peut reprendre comme boursoufflés, emphatiques et vides de sens, ceux que débite Mérope à la fin du quatrième acte :</p>
             <quote>
@@ -1393,7 +1391,7 @@
             <p>Il est donc bon de juger l’auteur autant et plus que l’ouvrage ; et quand l’auteur est reconnu n’employer son esprit, son imagination et ses grâces, que pour saper les fondements de la morale et renverser les principes de l’ordre social, c’est un acte de civisme de ne témoigner qu’une bien faible estime pour cet esprit dont il abuse, pour cette imagination si perfide et ces grâces si dangereuses. Il est fort doux sans doute de pleurer à une tragédie, de rire à une comédie ; mais il est infiniment plus doux de vivre tranquille dans ses foyers, de jouir de ses propriétés et de ne pas voir le glaive sur sa tête : quant à moi, pour établir la sécurité et la confiance, pour maintenir la société et les lois, je sifflerais, s’il le fallait, jusqu’aux tragédies de Corneille et de Racine.</p>
             <p>Quand le public abusé luttait contre les mesures du gouvernement, et opposait à sa prudente sévérité à l’égard de Voltaire, des applaudissements factieux, le public ne savait pas qu’il préparait la ruine de la monarchie ; et personne alors n’y songeait et ne la désirait, pas même les philosophes.</p>
             <quote>
-              <l xml:lang="it" rend="i">O vanas hominum mentes ! ô pectora cæca !</l>
+              <l xml:lang="ita" rend="i">O vanas hominum mentes ! ô pectora cæca !</l>
             </quote>
             <p>Ô vanité de l’esprit humain ! ô aveuglement des cœurs corrompus ! qu’il est rare de savoir ce que l’on fait ! Et ce n’est point ici un regret inutile, inconsidéré, pour cette monarchie qui n’est plus (on sait assez que mon grand principe de morale et de politique est l’attachement et la soumission au gouvernement établi) ; mais c’est un avis salutaire pour tous les gouvernements, qui ne peuvent subsister s’ils lâchent les rênes à l’inquiétude des esprits, s’ils permettent aux arts d’altérer les mœurs, et s’ils sacrifient à des mots harmonieux les principes sur lesquels repose toute autorité. Que les chefs des républiques ne s’assurent point sur la force physique ; elle ne résiste pas longtemps à la force morale.</p>
           </div>
@@ -1557,9 +1555,9 @@
           <p>Parmi les tirades, on distingue celle sur l’esprit, par le rapport particulier qu’elle paraît avoir avec un ridicule aujourd’hui très dominant. Madame Argant représente à son mari qu’il n’y a point de sacrifice qu’on ne doive faire pour son fils le marquis, parce qu’il est homme d’esprit. Le bonhomme répond :</p>
           <quote>
             <l>                             Qui diable ne l’est pas ?</l>
-            <label type="speaker" rend="sc">Madame Argant.</label>
+            <label type="speaker">MADAME ARGANT</label>
             <l>Homme d’esprit ?</l>
-            <label type="speaker" rend="sc">M. Argant.</label>
+            <label type="speaker">M. ARGANT.</label>
             <l>Mais, oui, rien n’est plus ordinaire ;</l>
             <l>C’est un titre banal : on ne peut faire un pas,</l>
             <l>Qu’on ne voie accorder ce titre imaginaire</l>
@@ -1667,11 +1665,11 @@
         <p>Il était très possible que le roi de Prusse n’eût pas saisi sur-le-champ ces tours fins et délicats, ce ton exquis, cette fleur d’élégance et d’urbanité qui charme les connaisseurs dans <hi rend="i">Le Méchant</hi> ; ces beautés légères et subtiles avaient pu s’évaporer dans le trajet de Paris à Berlin. Il y a des expressions dont on ne sent bien la valeur que dans les cercles brillants où elles sont nées : <hi rend="i">prendre un homme, avoir une femme</hi>, ne signifient en Prusse que se marier, être marié ; dans la capitale de la France, cela veut dire au contraire transporter à l’amant les droits du mari, vivre avec sa maîtresse comme avec sa femme. <hi rend="i">Quitter un homme, quitter une femme</hi>, présentent l’idée d’une séparation légale, et cependant n’exprimaient alors qu’une brouillerie, une rupture entre les amants.</p>
         <p>Lorsque le roi de Prusse entendait Cléon dire à Valère :</p>
         <quote>
-          <l>Et Cidalise ?</l>
-          <label type="speaker" rend="sc">Valère.</label>
-          <l>                    Mais…</l>
-          <label type="speaker" rend="sc">Cléon.</label>
-          <l>                                C’est une affaire faite ?</l>
+          <l part="I">Et Cidalise ?</l>
+          <label type="speaker">VALÈRE.</label>
+          <l part="M">ais…</l>
+          <label type="speaker">CLÉON.</label>
+          <l part="F">C’est une affaire faite ?</l>
           <l>Sans doute vous l’avez ?…</l>
         </quote>
         <p rend="noindent">il imaginait sans doute que Cléon demandait à Valère s’il était marié avec Cidalise. Lorsque le même Cléon dit en parlant de lui-même :</p>
@@ -1899,7 +1897,7 @@
           <l><hi rend="i">L’honneur est dans notre âme, et, quoi qu’on entreprenne</hi> ;</l>
           <l rend="i">C’est avec notre aveu qu’il faut qu’on l’y surprenne</l>
           <l>Quand un cœur noble et pur par la force est vaincu,</l>
-          <l rend="i">Sa défaite devient un titre de vertu. </l>
+          <l rend="i">Sa défaite devient un titre de vertu.</l>
         </quote>
         <p>On n’ose presque approfondir ces niaiseries immorales et dangereuses, ces sophismes absurdes dont l’objet est de justifier le vice et même de l’ériger en vertu. On peut présumer que de pareilles idées exciteraient aujourd’hui une risée générale, et que le mépris public ferait justice d’une philosophie aussi plate que perfide.</p>
         <p>Le bon Crébillon est bien plaisant avec sa <hi rend="i">pleine catholicité</hi> ; s’il vivait aujourd’hui, il verrait cette <hi rend="i">pleine catholicité</hi> pleinement et ouvertement bafouée par nos sages dans toutes les assemblées publiques ; on le traiterait d’hypocrite dans tous les journaux, et on le dénoncerait comme un fanatique ennemi du gouvernement.</p>
@@ -2001,8 +1999,8 @@
             <p><hi rend="i">Zelmire</hi> fut aussi fortunée que <hi rend="i">Titus</hi> avait été malheureux. Du Belloi, irrité contre les anciens principes dramatiques auxquels il attribuait sa chute, avait flatté dans <hi rend="i">Zelmire</hi> toute la corruption du goût moderne ; il y avait entassé les coups de théâtre, les aventures, les situations incroyables, en un mot, tous les prestiges, tous les pièges du charlatanisme théâtral ; il avait fait de <hi rend="i">Zelmire</hi> le roman le plus absurde ; le public n’y pouvait pas tenir : ce fut un succès forcé.</p>
             <p>Jusque-là imitateur de Métastase, du Belloi osa se confier enfin à son talent, et devint original. Il aura un nom dans les fastes du théâtre, pour avoir le premier fait réussir sur la scène un sujet national :</p>
             <quote>
-              <l xml:lang="it" rend="i">……………………………… Vestigia græca</l>
-              <l xml:lang="it" rend="i">Ausus deserere, et celebrare domestica facta.</l>
+              <l xml:lang="ita" rend="i">……………………………… Vestigia græca</l>
+              <l xml:lang="ita" rend="i">Ausus deserere, et celebrare domestica facta.</l>
             </quote>
             <p>Après tant de héros grecs et romains, il introduisit des héros français et même des bourgeois qui valaient des héros. Il n’y a point d’exemple d’un enthousiasme pareil à celui qu’excita <hi rend="i">Le Siège de Calais</hi> dans toute la France. Voltaire n’avait jamais reçu tant d’honneur : le vieillard de Ferney, qui avait épousé la renommée, fut consterné d’une pareille infidélité, quoique les vieux maris soient assez sujets à cette disgrâce : tout le parti philosophique en fut horriblement scandalisé. D’ailleurs, cet amour, cette idolâtrie de la nation française pour les souverains, déplaisait à des républicains et déconcertait leur politique ; ils affectaient de rougir de ce dévouement, qu’ils appelaient un fanatisme servile d’esclaves pour leur maître : c’était donc en vain que Voltaire avait combattu le despotisme, si du Belloi le consacrait en faisant une vertu de la servitude.</p>
             <p>Le triomphe de du Belloi ne dura qu’un moment, et empoisonna le reste de sa vie. La secte alors occupée à corrompre l’Europe, ne pardonna jamais à l’auteur du <hi rend="i">Siège de Calais</hi> ni sa gloire ni ses opinions. Le moindre mérite de du Belloi était de faire des tragédies ; il était honnête homme, point intrigant, point conspirateur ; il avait le cœur français, et n’avait puisé dans l’école de Voltaire que ses principes littéraires et dramatiques ; mais sa morale, sa politique étaient celles de ses pères : c’était un homme à noyer. Les philosophes y travaillèrent avec un zèle vraiment patriotique. Cette corporation, plus puissante que ne l’avait jamais été celle des jésuites, fournissait des directeurs à toutes les bonnes maisons : ces directeurs firent agir leurs dévotes, et bientôt l’admiration pour <hi rend="i">Le Siège de Calais</hi> devint un ridicule ; il fut clair pour tout Paris que <hi rend="i">Le Siège de Calais</hi> était une mauvaise pièce, écrite en vers barbares, et qui n’avait pu être applaudie que par des sots. La vérité est que <hi rend="i">Le Siège de Calais</hi> est un ouvrage où il y a plus d’invention, de nerf et de verve, plus d’art et de profondeur que dans la plupart des prétendus chefs-d’œuvre de Voltaire, qui n’ont que l’avantage d’une décoration plus élégante et d’un vernis plus brillant.</p>
@@ -2730,7 +2728,7 @@
             <l><hi rend="i">Sur ses tremblantes mains il les sentit couler</hi> ;</l>
             <l><hi rend="i">Sur ses tremblantes mains, dont il pressait les miennes</hi>,</l>
             <l rend="i">M
-          es larmes en torrent couraient chercher les siennes. </l>
+          es larmes en torrent couraient chercher les siennes.</l>
           </quote>
           <p>Ces détails ne sont-ils pas plaisants dans une tragédie ? Et ces <hi rend="i">larmes qui vont en torrent chercher les mains tremblantes de l’amant</hi>, ne sont-elles pas du style le plus burlesque ? La plus grande partie de la pièce est écrite dans ce goût. Je ne citerai plus qu’une tirade ; c’est la réponse de Montcassin à Contarini, qui prétend que blanche sa fille a promis sa foi à un autre :</p>
           <quote>
@@ -2764,11 +2762,11 @@
           <p>Un autre exemple d’affectation se trouve à la fin de la pièce, mais ce n’est au moins qu’une puérilité sans conséquence et sans danger. Le marin, après avoir uni sa belle-fille avec Lussan, dit :</p>
           <quote>
             <l>Il est bien doux de se retrouver en paix avec ses amis.</l>
-            <label type="speaker" rend="sc">Lussan.</label>
+            <label type="speaker">LUSSAN.</label>
             <l>Avec ses voisins.</l>
-            <label type="speaker" rend="sc">Élise.</label>
+            <label type="speaker">ÉLISE.</label>
             <l>Avec sa famille.</l>
-            <label type="speaker" rend="sc">Catherine.</label>
+            <label type="speaker">CATHERINE.</label>
             <l>Avec soi-même.</l>
           </quote>
           <p>Chaque acteur, comme on voit, a son mot : l’un a <hi rend="i">ses amis</hi>, l’autre <hi rend="i">ses voisins</hi>, celle-ci <hi rend="i">sa famille</hi>, celle-là <hi rend="i">soi-même</hi>. Le mot de l’un pouvait être le mot de l’autre : il semble que chacun ait tiré le sien à la loterie : il y a dans cette distribution une afféterie mesquine, une recherche misérable.</p>

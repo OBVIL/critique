@@ -3,7 +3,7 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -48,7 +48,7 @@
         <date when="1914">1914</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -328,15 +328,15 @@
           <p>On dirait qu’elle marche pieds nus.</p>
         </quote>
         <p>Ce dernier trait suffit. Et pourtant, qui aurait cru que, pour rendre mieux visible la démarche d’une poule, il faudrait comparer ses pattes légères à des pieds humains ? Mais voilà justement l’un des moyens les plus familiers à Jules Renard et l’un des secrets de son ironie. Il ramène les animaux à l’humanité, non pas en leur attribuant, selon la manière de La Fontaine, nos actes et les mobiles de nos actes, mais en décrivant les leurs comme s’il s’agissait des nôtres. Regardez la cane qui s’avance <quote>« comme à un rendez-vous d’affaires »</quote>, la dinde qui <quote>« ne sort jamais sans son ombrelle »</quote>. L’esprit de Jules Renard n’est souvent qu’un esprit de mots. Une locution familière suggère tout le petit poème de la pintade, <quote>« qui ne rêve que plaies à cause de sa bosse »</quote>, ou du porc qui, criblé de grêlons, grogne : <quote>« Encore leurs sales perles ! »</quote> Le paon, dans cette mythologie rustique, devient un personnage officiel, toujours en costume de gala ; le cheval a des incisives d’anglaise ; la sauterelle est le gendarme des insectes, et les violettes sont toutes officiers d’académie. Désormais, il vous arrivera de sourire, dans vos promenades, au souvenir de ces comparaisons imprévues. Certaines sont forcées. On y sent trop l’artifice, le labeur accompli en vue du trait qui vient, typographiquement, à la fin d’un morceau, mais qui, dans la réalité, en précéda et en commanda la composition. Je n’aime guère cette rose qui accueille la chenille comme un cadeau et qui, <quote>« pressentant qu’il fera froid cette nuit, est bien aise de se mettre un boa autour du cou »</quote>. Mais ailleurs, comme Jules Renard sait achever, à l’aide des mots les plus simples, un petit tableau merveilleux de fine observation :</p>
-        <label>LE CHAT</label>
         <quote>
+          <label type="head">LE CHAT</label>
           <p>Le mien ne mange pas les souris ; il n’aime pas ça. Il n’en attrape une que pour jouer avec.</p>
           <p>Quand il a bien joué, il lui fait grâce de la vie, et il va rêver ailleurs, l’innocent, assis dans la boucle de sa queue, la tête bien fermée comme un poing.</p>
           <p>Mais, à cause des griffes, la souris est morte.</p>
         </quote>
         <p>Si la nature n’est plus seulement, dans les livres, un thème de déclamation, nous le devons pour une grande part à Jules Renard. Il a su la regarder sans en être ébloui, s’y promener sans tomber à chaque pas dans le délire panthéiste, en parler sans emphase. Il ignore la stupeur qui envahit le boutiquier parisien dès qu’il passe les fortifications. Il aime la campagne avec familiarité, un peu à la manière des paysans qui vivent d’elle et ne songent guère cependant à chanter ses louanges. Il ne la revêt pas des couleurs de l’imagination ; il s’applique à la peindre minutieusement telle qu’elle est, car c’est la réalité qui l’intéresse, et non pas son imagination. Quand elle est laide, il raille. Quand elle est belle, il laisse entendre, sans entasser d’inutiles épithètes, qu’il l’a trouvée belle. Le sentiment de la nature lui inspire des pages comme celle-ci :</p>
-        <label>UNE FAMILLE D’ARBRES</label>
         <quote>
+          <label type="head">UNE FAMILLE D’ARBRES</label>
           <p>C’est après avoir traversé une plaine brûlée de soleil que je les rencontre.</p>
           <p>Ils ne demeurent pas au bord de la route, à cause du bruit. Ils habitent les champs incultes, sur une source, comme des oiseaux seuls.</p>
           <p>De loin, ils semblent impénétrables. Dès que j’approche, leurs troncs se desserrent. Ils m’accueillent avec prudence. Je peux me reposer, me rafraîchir, mais je devine qu’ils m’observent et se défient.</p>
@@ -637,7 +637,7 @@
       <div>
         <head>La Maîtresse et l’Amie<note resp="author">par Jean-Louis Vaudoyer (Calmann-Lévy, éditeur).</note></head>
         <dateline>[<hi rend="i">Gil Blas</hi>, <docDate when="1912-08-25">25 août 1912</docDate>.]</dateline>
-        <label>Personnages :</label>
+        <label type="head">Personnages :</label>
         <p>La Maîtresse de la Maison.</p>
         <p>Le Maître de la Maison.</p>
         <p>Le Romancier psychologue.</p>
@@ -645,45 +645,45 @@
         <p>Un Agathonien.</p>
         <p>Une Femme de chambre.</p>
         <p rend="right">(<hi rend="i">Après le dîner, dans un château</hi>)</p>
-        <label>Le maître de la maison.</label>
+        <label type="speaker">Le maître de la maison.</label>
         <p>Excusez-moi. La chasse m’a fatigué. Quel livre me conseillez-vous d’emporter dans ma chambre, cher maître, si je veux incliner ma pensée à des songes heureux ?</p>
-        <label>L’Agathonien</label>
+        <label type="speaker">L’Agathonien</label>
         <p>N’en prenez aucun. Nous mourons de trop lire et de trop rêver. Ayez soin seulement de ne point oublier vos exercices suédois.</p>
-        <label>Le romancier psychologue.</label>
+        <label type="speaker">Le romancier psychologue.</label>
         <p>J’ai terminé ce matin <hi rend="i">la Maîtresse et l’Amie</hi>. C’est une étude d’âme féminine. Il y est question de Mozart et de Beethoven, du Louvre et des rues d’Utrecht, et aussi du Poussin, que l’on y appelle Nicolas, tant il se mêle d’honnête familiarité à l’admiration que les personnages de M. Jean-Louis Vaudoyer professent envers les maîtres. Je dois à la vérité de dire que cent pages au moins du livre ont trait au sujet, qui est l’aventure amoureuse d’un jeune musicien et d’une belle femme aux sens silencieux. Il est d’ailleurs fâcheux, selon moi, que M. Jean-Louis Vaudoyer ait ajouté cette anecdote de réalisme psychologique à son œuvre, car le cœur humain est un organe fragile et compliqué. Il en faut abandonner l’étude aux spécialistes.</p>
-        <label>L’Agathonien.</label>
+        <label type="speaker">L’Agathonien.</label>
         <p>M. Jean-Louis Vaudoyer n’en est-il pas un ? Je l’ai rencontré. Il est élégant et parle volontiers de l’Italie. Sa personne et son œuvre m’apparaissent comme un unique phénomène, très insolite et très précieux. En lisant les romans de M. Jean-Louis Vaudoyer, si j’étais littérateur ou tout au moins peintre, sculpteur ou musicien, je goûterais une satisfaction sans mélange, car ils propagent cette opinion que le monde, en y comprenant les femmes du monde, s’offre comme un verger à la fantaisie des artistes et des écrivains. L’humanité qui ne tient ni l’ébauchoir, ni la palette, ni le porte-plume, est aux yeux de M. Jean-Louis Vaudoyer comme si elle n’existait pas. Quand un être de la race privilégiée traverse les rues en compagnie de la femme qu’il aime, il semble que toute vie contemporaine s’abolisse. Le cabaretier disparaît en même temps que le terrassier, le manœuvre et le passant qui vaque à des travaux sans noblesse. Et toutes ces rues sont bondées de boutiques d’antiquaires. Et toutes ces rues mènent à Rome, quand elles ne s’arrêtent point à Utrecht ou à Munich.</p>
-        <label>La femme du romancier psychologue.</label>
+        <label type="speaker">La femme du romancier psychologue.</label>
         <p>C’est sans doute que M. Jean-Louis Vaudoyer n’ignore point combien l’amour est une chose misérable, quand il ne se rehausse pas de tous les prestiges de l’art.</p>
-        <label>Le romancier psychologue.</label>
+        <label type="speaker">Le romancier psychologue.</label>
         <p>Mais un vrai psychologue eût montré que l’amour, loin de naître des émotions esthétiques, les crée. En tout cas, ni l’art ni l’amour ne gagnent beaucoup à ces jeux compliqués. Le héros de M. Jean-Louis Vaudoyer m’étonne. Voici comment l’auteur nous raconte la première visite de Georges Lendrieux chez Madame de Jussey : <quote>« Georges regardait l’antichambre aux lourdes colonnes de marbre rouge, et le départ d’un escalier pompeux et sombre, au bas duquel se dressait une statue froide et digne, qu’il attribua machinalement à Simart ou à Pradier. »</quote> Ailleurs, quand il s’agit d’exprimer le ravissement de deux cœurs unis par la plus tendre amitié, M. Jean-Louis Vaudoyer nous montre Georges et Cécile se promenant par les rues d’Utrecht, et ajoute : <quote>« Ils finirent la journée dans un petit magasin, près de la cathédrale… »</quote> Et vous devinez que des meubles et les bibelots qui s’y trouvent seront aux deux amants platoniques d’un grand secours pour exprimer l’état de leur âme. Nos pères ont imaginé l’amour peintre ou l’amour médecin. Grâce à M. Jean-Louis Vaudoyer, nous avons maintenant l’amour gardien de musée.</p>
-        <label>L’Agathonien.</label>
+        <label type="speaker">L’Agathonien.</label>
         <p>Et dans ce musée, nous rangerons bientôt l’amour lui-même, tel que le conçoit M. Vaudoyer, et qui, plutôt que de Vénus aux belles fesses, semble le fruit de l’hymen improbable de M. Georges Ohnet et d’une marchande italienne de cartes postales illustrées. Le temps est passé des vaines mélancolies, et l’amour n’occupe qu’une chapelle dans le temple où nous rendons un culte à la force et à l’énergie. Si nous laissons à l’enfant capricieux ses ailes, c’est pour bien marquer que nous honorons surtout en lui un précurseur : l’aviateur du temps passé.</p>
-        <label>La maîtresse de la maison.</label>
+        <label type="speaker">La maîtresse de la maison.</label>
         <p>Pour moi, monsieur, je ne me rangerai jamais parmi les fidèles d’une pareille religion, et je crains que beaucoup de femmes ne m’imitent. Georges Lendrieux, je l’avoue, me plaît fort. Il réalise à peu près notre idéal à toutes et l’on ne nous décidera que malaisément à dédaigner un garçon si délicat et plein de cette tendresse dont nous avons besoin plus que de toute autre chose.</p>
-        <label>La femme du romancier psychologue.</label>
+        <label type="speaker">La femme du romancier psychologue.</label>
         <p>Sa délicatesse ne l’empêche pas de tromper vilainement Cécile.</p>
-        <label>Le romancier psychologue.</label>
+        <label type="speaker">Le romancier psychologue.</label>
         <p>C’est en quoi M. Jean-Louis Vaudoyer montre qu’il connaît les hommes ; mais, je le répète, il connaît beaucoup moins les femmes. Je ne le chicanerai pas sur le caractère de son héroïne. On assure qu’il existe de ces femmes belles et glacées. Stendhal le dit : <quote>« Quelques femmes vertueuses et tendres n’ont presque pas l’idée des plaisirs physiques ; elles y sont rarement exposées, si je puis dire, et même alors les transports de l’amour-passion ont presque fait oublier les plaisirs du corps. »</quote> Mais c’est la logique sentimentale de Cécile que je ne saisis pas bien. Quand Cécile apprend que Georges l’a trompée, la piqûre de la jalousie lui révèle que sa chair n’est pas insensible. Chez cette femme si noble et si fine, un obscur amour-propre s’éveille. Elle veut se prouver et prouver à Georges que même dans les plaisirs que recherchent les hommes, elle ne le céderait point à la femme qu’on lui préféra. Elle se décide à appartenir à Georges, une seule fois. Elle se donne avec une ardeur désespérée ; mais l’auteur ne nous cache point qu’à ce moment elle participe aux joies qu’elle dispense. Or, malgré cet éblouissement, elle s’en va et elle se tue.</p>
-        <label>La maîtresse de la maison.</label>
+        <label type="speaker">La maîtresse de la maison.</label>
         <p>Oui, et la fin de ce livre m’a arraché des larmes. M. Vaudoyer a écrit là, il me semble, quelques-unes de ses meilleures pages. J’en aime la poésie tout ensemble intime et solennelle. Mais pourquoi vous étonner si Cécile se tue ? Son acte la replonge dans la vie, dont elle éprouve soudain la grandeur et la mystérieuse noblesse. Qu’elle continue de vivre, il lui en faudra découvrir la médiocrité quotidienne. N’a-t-elle pas connu l’amour ? Il est naturel que, pour ne pas souiller la belle image, elle l’emporte avec soi dans la mort.</p>
-        <label>Le romancier psychologue.</label>
+        <label type="speaker">Le romancier psychologue.</label>
         <p>M. Jean-Louis Vaudoyer est un poète, un rêveur exquis. La psychologie la plus élémentaire l’eût incité à nous montrer son héroïne non pas se suicidant, mais se rattachant à la vie, à la médiocrité quotidienne trouée d’éclairs éblouissants. Et M. Jean-Louis Vaudoyer, en veine de réalisme, nous peindrait une Cécile moins désolée lorsque, comme cela arrive à la page 236, elle <quote>« gagne la pièce voisine et se contraint aux soins les plus humiliants »</quote>.</p>
-        <label>L’Agathonien.</label>
+        <label type="speaker">L’Agathonien.</label>
         <p>Parfaitement ! Au moins, ce livre servirait à propager le goût de l’hydrothérapie qui, avec le sport, peut seule remédier à la dégénérescence de la race.</p>
-        <label>Le maître de la maison.</label>
+        <label type="speaker">Le maître de la maison.</label>
         <p>Votre science du cœur, cher maître, perce quelques illusions consolantes, mais je la crois exacte. Ah ! quel don Juan l’on doit être, quand on connaît si bien les femmes !</p>
-        <label>La femme du romancier.</label>
+        <label type="speaker">La femme du romancier.</label>
         <p>N’est-ce pas ? C’est inquiétant.</p>
-        <label>Le maître de la maison.</label>
+        <label type="speaker">Le maître de la maison.</label>
         <p>Où donc est le volume de M. Jean-Louis Vaudoyer ? (<hi rend="i">Bas, à la femme du romancier.</hi>) À bientôt, ma chérie.</p>
-        <label>La maîtresse de la maison, <hi rend="i">bas à l’Agathonien</hi>.</label>
+        <label type="speaker">La maîtresse de la maison, <hi rend="i">bas à l’Agathonien</hi>.</label>
         <p>À minuit juste. La porte sera entrouverte.</p>
-        <label>L’Agathonien, <hi rend="i">de même</hi>.</label>
+        <label type="speaker">L’Agathonien, <hi rend="i">de même</hi>.</label>
         <p>Prenez garde que je ne vous trouve pas en compagnie de M. Georges Lendrieux.</p>
-        <label>La maîtresse de la maison, <hi rend="i">de même</hi>.</label>
+        <label type="speaker">La maîtresse de la maison, <hi rend="i">de même</hi>.</label>
         <p>Petite canaille, faut-il que je t’aime !</p>
-        <label>Le romancier psychologue.</label>
+        <label type="speaker">Le romancier psychologue.</label>
         <p>Vous ne retrouvez pas la <hi rend="i">Maîtresse et l’Amie</hi> ? Tenez, voici le <hi rend="i">Lys Rouge</hi>, d’Anatole France. Emportez donc ça. (<hi rend="i">Tous sortent ; entre une femme de chambre. Don Juan s’assure que nul ne le voit ; puis il lutine la servante.</hi>)</p>
       </div>
       <div>
@@ -723,56 +723,56 @@
         <div>
           <head>II. Introduction à la vie comme-il-faut<note resp="author">Ollendorff, éditeur.</note></head>
           <dateline>[<hi rend="i">Gil Blas</hi>, <docDate when="1912-10-16">16 octobre 1912</docDate>.]</dateline>
-          <label>Personnages :</label>
+          <label type="head">Personnages :</label>
           <p>Une jeune femme.</p>
           <p>Un Critique.</p>
-          <label>Une jeune femme.</label>
+          <label type="speaker">Une jeune femme.</label>
           <p>On m’a dit que M. Marcel Boulenger était notre arbitre des élégances ; je viens d’acheter son petit livre : <hi rend="i">Introduction à la vie comme-il-faut</hi>. Je pense y trouver des conseils précieux, dont profiteront mes fils, quand ils auront vingt ans. Me trompé-je ?</p>
-          <label>Un critique.</label>
+          <label type="speaker">Un critique.</label>
           <p>Je peux vous répondre depuis un instant. J’ai eu longtemps entre les mains le livre de M. Marcel Boulenger, mais quand la certitude du plaisir que j’y prendrais me poussait à le lire, j’étais retenu par le souci d’avoir à en parler. Enfin, je viens de le terminer.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Eh ! quoi, était-il donc si pénible de confesser tout uniment votre bonne impression ? Et faut-il croire ces jaloux qui se répandent en propos amers, touchant le caractère des critiques ?</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Il est toujours profitable de croire les hommes, quand ils disent du mal de leurs semblables ; cependant, rien n’expliquerait la malveillance des critiques à l’endroit de M. Marcel Boulenger. Il est de notre compagnie. Nous critiquons les livres ; il critique les mœurs. Aussi nul ne songe-t-il à malmener cet écrivain charmant et se borne-t-on à le craindre. <quote><hi rend="i">Timeo hominem unius libri</hi></quote>, chère madame ; permettez-moi de ne pas traduire puisque, comme tout le monde, vous avez lu <hi rend="i">Cornélie ou le latin sans pleurs</hi>. Cette forte parole semble n’avoir été prononcée que pour fournir une devise aux critiques, je parle de ceux qui accomplissent scrupuleusement leur tâche, car, pour les autres, rien n’est si précieux que l’homme d’un seul livre. Vous saisissez tout de suite pourquoi.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Sans doute. À l’écrivain d’un seul livre correspond le critique d’un même article toujours répété.</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Or, j’ai déjà écrit plusieurs articles sur M. Marcel Boulenger. J’ai noté l’heureuse influence de son esprit sur les jeunes gens qui s’en imprègnent. M. Marcel Boulenger est un moraliste, mais à rencontre de ses émules, — et Dieu sait s’ils sont nombreux ! — il ne commence point l’exposé de son système par un résumé de tous les systèmes qui l’ont précédé. Ignorance ou dédain, je n’en saurais décider, mais peut-être un peu de l’un, un peu de l’autre. Cela est excellent. M. Marcel Boulenger ne démontre pas, il montre : il montre un exemple aimable d’honnête homme à la française, et cette méthode d’éducation paraît bien la meilleure.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Tout ce que vous dites là me le rend fort sympathique. Si vous voulez mon humble avis de femme, je vous avouerai qu’il se fait, à mon sens, un très grand abus de doctrines et de systèmes. Je me suis laissé dire que certains professeurs se mêlent d’expliquer aux enfants, avec syllogismes à l’appui, comment le patriotisme, par exemple, est fondé en raison, et pourquoi il vaut mieux être homme de bien que fripon. J’en tremble, car qui peut, en ces matières, démontrer le pour, n’est pas éloigné d’admettre qu’on lui puisse démontrer le contre, et les discussions de ce genre offrent pour moi quelque chose d’inhumain et même de diabolique.</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Vous leur faites bien de l’honneur, mais je vous donne cent fois raison, et M. Marcel Boulenger vous applaudirait, d’abord parce que vous êtes femme, et aussi parce qu’il juge exactement comme vous. Au reste, il juge toujours un peu comme font les femmes, dont toute la science n’est qu’un appel incessant à l’instinct. Mais il s’agit ici d’un instinct longuement poli, celui qui nous indique une incontestable hiérarchie des êtres, des idées et des choses, et grâce auquel nous préférons un délicat à un rustre, un Français à un Allemand, et Marcel Boulenger à M. Ferdinand Brunot, réformateur de l’orthographe.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Pour mes fils, dont je veux faire de bons petits français, je ne choisirai pas d’autre maître que M. Marcel Boulenger.</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Le choix est bon !</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Encore un coup, pourquoi balanciez-vous à l’écrire ?</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>C’est que je l’ai écrit déjà, vous dis-je, et que je ne puis me répéter sans cesse, ne possédant pas le souple talent d’un Marcel Boulenger. Malgré moi, j’eusse été amené à revenir sur mon jugement, à piquer des épigrammes sur la guirlande que j’avais tressée. Cette sagesse cavalière, cette aimable assurance dont j’ai noté l’utilité et le charme dans toutes les affaires qui concernent la règle de notre vie et le gouvernement de notre sensibilité, qui sait si je n’aurais pas indiqué ce qu’elle peut présenter, en certaines occasions, d’insuffisant ? La nature et le cours des siècles nous enseignent la meilleure manière de nous comporter, dans le petit champ où nous plaça le hasard, et nous invitent à ne point briser notre chaîne pour aller cueillir hors du pré…</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>… Des herbes empoisonnées peut-être ? Ce serait folie.</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>… Ou les fleurs de la haie, pour obéir à la voix de la fantaisie divine !</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Rappelez-vous la chèvre dont parle Alphonse Daudet !</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Ah ! soyez sûre que M. Seguin devait lui réciter tous les jours les préceptes de l’<hi rend="i">Introduction à la vie comme-il-faut</hi>, revue et mise à la portée des chevrettes. Pauvre petite ! Elle a voulu s’encanailler, comme une grande dame ; c’est un instinct aussi qui criait en elle, un instinct exactement opposé à celui dont nous parlions tout à l’heure, mais aussi vieux que lui. Grâce au premier, le monde continue d’exister, mais c’est grâce au second qu’il vaut de ne point disparaître. Je crains que M. Marcel Boulenger, qui aime si fort tout ce qu’il aime, ne dédaigne trop de choses, contrairement à ce que conseille Leibnitz. Dieu me garde d’une esthétique qui pour tout principe ne connaît que l’appel aux entrailles ! Mais je crois que certaines œuvres qui me remuent jusqu’à l’âme le laissent assez indifférent, et qu’en retour, bien des choses auxquelles il attache un grand prix me paraissent billevesées. Je lui reproche quelque excès, si l’on peut dire, dans la mesure, et de risquer par là de gâter tout le fruit que l’on est en droit d’attendre de ses leçons. Quand je cause avec ce puriste, je redoute toujours qu’il ne découvre une faute de français sur le plastron de ma chemise : un enfant qui l’écouterait, par esprit de contradiction serait tenté de se barbouiller d’encre les mains et le visage.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Un critique ne doit pas céder à l’esprit de contradiction.</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Sans doute, mais il y faut un effort, qui vous explique ma gêne et mon retard à lire le dernier ouvrage de M. Marcel Boulenger. Je l’ai porté, durant tout un voyage, comme un remords. Il m’accompagna en wagon, en bateau, en voiture et même en gondole. Je l’ai posé sur des banquettes de café et sur des tables d’hôtel. Dans ma main, il franchit le seuil des églises et jusqu’à la porte des cloîtres. Ainsi ce petit livre, tout plein des voix du siècle, contribua à mon avancement spirituel, en me rappelant le devoir. Dans le cloître de San-Zeno, tandis que je regardais les petits lézards cuire au soleil, sur les pierres séculaires, et que je sentais pénétrer en moi cette calme allégresse que partout, dans Vérone, on respire avec l’air, le mélancolique avertissement qu’échangent les moines montait, à peine modifié, des pages du livre à mon oreille : « Frère, disait-il, frère, il faut écrire ! »</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Écrire, mais ce doit être une joie !</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>Écrire comme M. Marcel Boulenger, oh ! oui, le bel exercice ! Ses phrases ont un air de finesse et je dirais de propreté, qui enchante : pas un grain de poussière. Savez-vous à quoi je pense, en le lisant ? À ces jolies machines qui actionnent les bateaux et dont on voit, de l’entrepont, les organes nus et luisants. Ou bien ce style évoque encore l’image d’un de ces admirables lévriers qu’aime M. Marcel Boulenger tout muscles et cependant gracieux et légers. Quand vos fils auront vingt ans, Madame, tous les petits Français penseront, je l’espère, comme M. Marcel Boulenger ; ils n’auront plus besoin de ses conseils de morale pratique, mais ils gagneront toujours à le lire, pour apprendre ce qu’est le bon langage.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>Mais enfin, qu’enseigne l’<hi rend="i">Introduction à la vie comme-il-faut</hi> ?</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>C’est un ouvrage ironique, une démonstration par l’absurde. M. Marcel Boulenger nous présente deux snobs d’aujourd’hui et leur indique le moyen d’être plus complètement ridicules encore et un peu odieux.</p>
-          <label>La jeune femme.</label>
+          <label type="speaker">La jeune femme.</label>
           <p>J’entends bien. Il espère par là inciter les jeunes gens à réaliser en tout un contraste complet avec ces grotesques. Mais, voyez-vous, ces grotesques-là ont survécu aux railleries de Molière. M. Marcel Boulenger prétend-il les exterminer ? Non ? Alors, que ne les laisse-t-il tranquilles et ne s’occupe-t-il d’autre chose ? Que ne dénonce-t-il des ridicules ou des maux auxquels il n’est pas impossible de porter remède, parce qu’ils ne tiennent pas à l’humaine nature, mais à l’organisation sociale ?</p>
-          <label>Le critique.</label>
+          <label type="speaker">Le critique.</label>
           <p>C’est justement ce que je me propose de demander à cet écrivain parfait, qui fut souvent un pamphlétaire redoutable : vous venez de m’indiquer le sujet de mon article. Merci.</p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,7 +47,7 @@
         <date when="1895"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -434,8 +434,7 @@
           <p>Il est très délicat d’écrire, quand on se montre si sévère à ceux qui écrivent. On s’expose à de dures représailles. M. Laurent Tailhade, qui se rend compte du danger, y a peu prêté le flanc. En vingt ans de labeur (je suppose qu’il a rimé ses premiers vers à dix-huit ans, ainsi que le commun des mortels), M. Laurent Tailhade a produit deux ou trois minces plaquettes : le <hi rend="i">Jardin du rêve, Voyage au pays du mufle, Vitraux</hi>. Je n’ai pu me procurer le <hi rend="i">Jardin du rêve</hi>, dont l’édition se trouve épuisée. Mais j’ai pu savourer les beautés du <hi rend="i">Pays du mufle</hi>.</p>
           <p><pb n="53"/>L’ouvrage est ainsi nommé parce qu’il renferme de violents assauts contre les littérateurs et les bourgeois, les uns et les autres peuplant, au dire de l’auteur, le <hi rend="i">Pays du mufle</hi>… Flaubert s’attaquait surtout aux « bourgeois », M. Laurent Tailhade s’en prend de préférence aux « littérateurs ». Il ne hait pas les « bourgeois », il les juge ridicules ; au contraire, les littérateurs lui inspirent une aversion profonde. Comparons et jugeons. Voici d’abord une pièce où M. Joseph Prud’homme est fort galamment drapé :</p>
           <quote>
-            <l>                             RUS</l>
-            <l/>
+            <label type="head">RUS</label>
             <l>Ce qui fait que l’ancien bandagiste renie</l>
             <l>Le comptoir dont le faste alléchait les passants,</l>
             <l>C’est son jardin d’Auteuil où, veufs de tout encens,</l>
@@ -461,8 +460,7 @@
           <p><pb n="54"/>Seulement Coppée s’attendrit sur la simplicité des petits bourgeois, tandis que M. Laurent Tailhade leur lance des traits barbelés ; l’ironie de Coppée est bienveillante, celle de M. Laurent Tailhade est méprisante.</p>
           <p>Prenons un autre sonnet, dirigé contre « un confrère », qui est, je crois, M. Jean Rameau :</p>
           <quote>
-            <l>                   CHORÈGE</l>
-            <l/>
+            <label type="head">CHORÈGE</label>
             <l>Claudicator ayant découvert qu’il existe</l>
             <l>Des comtesses ailleurs qu’aux romans de Balzac,</l>
             <l>A  chaussé des gants paille et revêtu le frac :</l>
@@ -649,9 +647,8 @@
           <p>Voulant donner la sensation des calmes demeures, où la solitude est seulement troublée par le tic-tac de l’horloge, il dira :</p>
           <quote>
             <l>Solitude du soir dans la vaste maison</l>
-            <l>
-              <hi rend="i">Où bat le pouls de la pendule qui s’ennuie.</hi>
-            </l>
+            <l rend="i">Où bat le pouls de la pendule qui s’ennuie.
+           </l>
           </quote>
           <p>Voulant rendre le charme mystérieux du crépuscule, alors que l’obscurité envahit la chambre, il écrit :</p>
           <quote>
@@ -677,9 +674,7 @@
             <l>Que tu tremblas comme au contact d’un clavier mort.</l>
             <l>Et muets, nous sentions, dans cette chambre étrange</l>
             <l>Avec qui notre joie était en désaccord,</l>
-            <l>
-              <hi rend="i">L’hostilité d’un grand silence qu’on dérange !…</hi>
-            </l>
+            <l rend="i">L’hostilité d’un grand silence qu’on dérange !…</l>
           </quote>
           <p>M. Rodenbach a intitulé son premier livre <hi rend="i">le Règne du Silence</hi>. J’eusse voulu qu’il le nommât : <hi rend="i">les Voix du Silence</hi>. Et en effet ce sont des voix qui s’envolent des feuillets, voix de choses qui sont mortes, mais auprès desquelles on a vécu, et qui ont conservé comme l’écho lointain et pensif de ces vies disparues. Il reste un peu d’âme aux louches d’un clavecin sur lequel des mains — autrefois — se sont posées. Les vieux fauteuils gardent dans leurs plis de vagues parfums ; le tic-tac des anciennes horloges boite comme le pas d’un vieillard. Ces <pb n="85"/>objets évoquent des idées, des souvenirs et, pour tout dire, des sensations qui varient selon le degré d’imagination et de culture de l’observateur. M. Rodenbach vibre d’une façon surprenante. Et il se reconnaît au milieu des impressions qu’il éprouve ; il les classe, il les analyse, il les décompose avec une merveilleuse lucidité. Et il trouve les mots qui traduisent exactement les nuances qu’il veut exprimer. Et ces nuances sont le plus souvent des <hi rend="i">nuances de nuances</hi>, des reflets fuyants, des rapprochements entr’aperçus, des silhouettes presque insaisissables. Et enfin (c’est par là qu’il est poète) ce travail n’est point aride. Le vers de M. Rodenbach n’est pas un vers de logicien, c’est un vers de voyant. C’est un miroir infiniment mobile, où apparaissent les divers aspects des choses ; et c’est en même temps une symphonie. Le poète nous montre des images et il nous dit, aussi, quelle émotion éveillent en lui ces images, et il nous fait partager son émotion.</p>
           <p>Tout cela est d’une combinaison assez compliquée. Et M. Rodenbach se complaît à ces jeux de dilettante ; il jouit des difficultés vaincues ; il les exagère. S’il n’y prend garde, ses qualités, en s’exaspérant, se changeront en défauts. Il tombera de la précision dans la minutie, de la subtilité dans l’afféterie, et il redoutera tellement d’être banal qu’il deviendra inintelligible. (Un autre de ses recueils, <hi rend="i">les Yeux</hi>, justifie ces craintes et renferme de fâcheuses <pb n="86"/>obscurités)… Ajoutons que M. Rodenbach est d’un voisinage dangereux pour ses confrères. Il en est de ses poèmes, comme des aliments assaisonnés d’étranges épices, auprès desquels les mets simples et sains paraissent fades.</p>
@@ -708,7 +703,7 @@
             <p>Soldats de vingt ans, fleur de mon pays, je ne suis qu’un homme vieilli et malade, qui, le jour du départ, ne <pb n="96"/>pourrait vous suivre jusqu’à la première étape. Mais je sais bien qu’en vous est le suprême espoir, le salut de la France, et de toute la chaleur de mon âme, je vous aime et je vous bénis !</p>
           </quote>
           <p>Ces sentiments sont hautement respectables. Peut-être y entre-t-il un soupçon de redondance. On croit voir un bon vieillard à cheveux bouclés qui lève vers le ciel des yeux pleins de larmes et des mains tremblantes. — Adorant son pays, Coppée doit haïr nos ennemis séculaires. Il a horreur de l’Allemand, non seulement de l’empereur Guillaume et du prince de Bismarck, mais des Tudesques plus ou moins inoffensifs qui servent comme garçons de restaurant dans les hôtels cosmopolites et qu’il accuse de préparer <quote>« l’invasion et le pillage de l’avenir et de choisir déjà leurs pendules<note resp="author"><hi rend="i">Mon franc-parler</hi>, p. 101.</note> »</quote>. Paul Déroulède applaudirait des deux mains à ce langage…</p>
-          <p><hi rend="i">Le bourgeois</hi>. — Si Coppée aime les batailles, il ne déteste pas les douceurs du coin du feu. Et en cela il est bien de la race de Désaugiers et de Jérôme Paturot. Il ne comprend pas que l’on sorte de cette bonne France pour aller courir au loin les aventures. Au lit d’auberge il préfère le lit familial garni de draps qui fleurent la lavande ou la bergamote. Aux maisons à quinze étages de Chicago il préfère l’humble toit où naquirent et moururent ses <pb n="97"/>aïeux<note resp="author"><hi rend="i">Mon franc-parler</hi>, p. 107.</note>. Et toujours, comme les vrais bourgeois de Paris, il repousse avec violence tout ce qui nous vient de l’étranger, les mots anglais, les mets exotiques, les modes et les mœurs américaines. Vive le haricot de mouton de nos grand’mères ! Vive la musique de Boïeldieu ! Il déclare (non sans raison) que la moitié des spectateurs qui vont écouter la <hi rend="i">Walkyrie</hi> ont l’air de s’y pâmer par snobisme, mais n’y entendent goutte et s’y ennuient<note resp="author"><hi rend="i">Ibid</hi>., p. 197.</note>. Et il proteste contre cette admiration de commande. Et il épanche sa mauvaise humeur sur Wagner, sur Ibsen, sur Maeterlinck, sur les Norvégiens, les Suédois, les Flamands qui tournent la cervelle aux jeunes littérateurs.</p>
+          <p><hi rend="i">Le bourgeois</hi>. — Si Coppée aime les batailles, il ne déteste pas les douceurs du coin du feu. Et en cela il est bien de la race de Désaugiers et de Jérôme Paturot. Il ne comprend pas que l’on sorte de cette bonne France pour aller courir au loin les aventures. Au lit d’auberge il préfère le lit familial garni de draps qui fleurent la lavande ou la bergamote. Aux maisons à quinze étages de Chicago il préfère l’humble toit où naquirent et moururent ses <pb n="97"/>aïeux<note resp="author"><hi rend="i">Mon franc-parler</hi>, p. 107.</note>. Et toujours, comme les vrais bourgeois de Paris, il repousse avec violence tout ce qui nous vient de l’étranger, les mots anglais, les mets exotiques, les modes et les mœurs américaines. Vive le haricot de mouton de nos grand’mères ! Vive la musique de Boïeldieu ! Il déclare (non sans raison) que la moitié des spectateurs qui vont écouter la <hi rend="i">Walkyrie</hi> ont l’air de s’y pâmer par snobisme, mais n’y entendent goutte et s’y ennuient<note resp="author"><hi rend="i">Ibid.</hi>, p. 197.</note>. Et il proteste contre cette admiration de commande. Et il épanche sa mauvaise humeur sur Wagner, sur Ibsen, sur Maeterlinck, sur les Norvégiens, les Suédois, les Flamands qui tournent la cervelle aux jeunes littérateurs.</p>
           <p><hi rend="i">Le poète</hi>. — Il ne saurait disparaître, fût-ce au cours des brûlantes polémiques. Il surgit çà et là, entre deux lamentations sur les maux du siècle, et module un air de flûte infiniment agréable. Tantôt il chante la mélancolie des cloches bretonnes, conviant à la prière les veuves et les filles des pêcheurs :</p>
           <quote>
             <p>Sonnez, sonnez, cloches de Bretagne ! C’est vous qui avez raison. Sonnez pour appeler les pauvres, malgré leurs faiblesses et leurs vices, et pour leur parler de repentir et d’espérance ! Dites-leur qu’il est une miséricorde supérieure à la justice et toujours prête à leur pardonner leurs fautes. Sonnez dans vos clochers à jour, <pb n="98"/>vieux asiles des hirondelles ; sonnez, cloches chrétiennes, et continuez de répandre sur ceux qui souffrent un peu d’illusion et de rêve !</p>
@@ -1390,14 +1385,14 @@
               <l>Veux-tu planer plus haut que la sombre nature ?</l>
               <l>Veux-tu dans la lumière inconcevable et pure</l>
               <l>Ouvrir tes yeux, par l’ombre affreuse appesantis ?</l>
-              <l>Le veux-tu ? Réponds.</l>
-              <l>                                     — Oui ! criai-je.</l>
-              <l>                                                                Et je sentis</l>
+              <l part="I">Le veux-tu ? Réponds.</l>
+              <l part="M">— Oui ! criai-je.</l>
+              <l part="F">Et je sentis</l>
               <l>Que la création tremblait comme une toile.</l>
               <l>Alors, levant un bras et un pan de son voile,</l>
               <l>Couvrant tous les objets terrestres disparus,</l>
-              <l>Il me loucha le front du doigt.</l>
-              <l>                                                Et je mourus.</l>
+              <l part="I">Il me loucha le front du doigt.</l>
+              <l part='F'>t je mourus.</l>
             </quote>
             <p>Ainsi se termine le poème sur cet épisode mystérieux, où semble planer l’imagination du Dante…</p>
             <p>Pas plus en ce volume que dans <hi rend="i">Toute la lyre</hi> nous ne trouvons d’idées neuves. L’angoisse du doute, l’impuissance de comprendre l’univers, la nécessité de l’existence de Dieu, l’objection tirée de la présence du mal sur la terre : ce sont là ce qu’on appelle d’admirables lieux communs. Si ces banalités philosophiques étaient développées en style vulgaire, la lecture en serait purement insoutenable. <pb n="172"/>Elles sont sauvées par la virtuosité d’Hugo, par son incomparable habileté à manier les mots et les verbes. <hi rend="i">Dieu</hi> est, à cet égard, un prodigieux monument de rhétorique. Dans aucun autre ouvrage, la verve d’Hugo ne fut plus abondante, plus prestigieuse…</p>
@@ -1455,20 +1450,20 @@
           <p>Tout au contraire des autres, Maurice Maeterlinck s’applique à laisser dans l’ombre ce qu’ils placent en plein jour. En quelle année de quel siècle se passe son drame ? Nous n’en savons rien. Il se déroule dans un château qui peut être gothique, à moins qu’il ne soit arabe, ou goth, ou visigoth, ou persan… Qu’est-ce que Golaud ? C’est le <hi rend="i">fils du roi</hi>, comme dans les contes de fées. Et ce roi, le vieil Arkel, nous apparaît sous l’aspect vénérable d’un burgrave beaucoup plus calme et philosophe, et beaucoup moins phraseur que le Magnus et le Job de Victor Hugo… Pelléas et Mélisande représentent le couple éternel des amoureux contrariés par la destinée ; mais cette Juliette et ce Roméo ne sont pas, comme ceux de Shakespeare, deux adolescents ardents à vivre, des créatures de chair et de sang, aimant comme aiment les hommes, et écoutant chanter le rossignol jusqu’au lever de l’aurore. Ce sont de pâles fantômes qui se murmurent des choses tristes et douces sous les rayons de la lune. Et nous ne savons rien d’eux, si ce n’est que Mélisande semble symboliser la femme avec ses roueries instinctives, ses mensonges ingénus et ses retours de franchise, et que Pelléas nous rend visible la possession <pb n="180"/>d’une âme neuve et sans défense par le tout-puissant Amour….</p>
           <p>Ces personnages aux formes indécises errant dans un décor irréel, éclairés d’une lumière d’étoiles, frappent notre imagination et paraissent aisément plus grands que nature. C’est un procédé bien connu des artistes : la sensation de grandeur obtenue par l’extrême simplification des figures. M. Puvis de Chavannes s’inspire de cette méthode dans ses compositions décoratives, et vous savez avec quel succès. M. Maeterlinck complète cet artifice en supprimant le discours, ou, du moins, en le réduisant à sa plus simple expression. Son dialogue est d’une naïveté qui, par endroits, frise le gazouillage enfantin. Lorsque Golaud découvre Mélisande dans la forêt, voici les propos qu’ils échangent :</p>
           <quote>
-            <p><num>m</num><hi rend="sc">élisande</hi>. — Ne me touchez pas ! ne me touchez pas !</p>
-            <p><hi rend="sc">golaud</hi>. — N’ayez pas peur… Je ne vous ferai pas… Oh ! vous êtes belle !</p>
-            <p><num>m</num><hi rend="sc">élisande</hi>. — Ne me touchez pas ! ne me touchez pas ! ou je me jette à l’eau !…</p>
-            <p><hi rend="sc">golaud</hi>. — Je ne vous touche pas… Voyez, je resterai ici, contre l’arbre. N’ayez pas peur. Quelqu’un vous a-t-il fait du mal ?</p>
-            <p><hi rend="sc">mélisande</hi>. — Oh ! oui ! oui ! oui !</p>
-            <p>(Elle sanglote profondément.)</p>
-            <p><hi rend="sc">golaud</hi>. — Qui est-ce qui vous a fait du mal ?</p>
-            <p><hi rend="sc">mélisande</hi>. — Tous ! tous !</p>
-            <p><hi rend="sc">golaud</hi>. — Quel mal vous a-t-on fait ?</p>
-            <p><num>m</num><hi rend="sc">élisande</hi>. — Je ne veux pas le dire ! je ne peux pas le dire !…</p>
-            <p><pb n="181"/><hi rend="sc">golaud</hi>. — Voyons ! ne pleurez pas ainsi. D’où venez-vous ?</p>
-            <p><num>m</num><hi rend="sc">élisande</hi>. — Je me suis enfuie !… enfuie… enfuie…</p>
-            <p><hi rend="sc">golaud</hi>. — Oui ; mais d’où vous êtes-vous enfuie ?</p>
-            <p><hi rend="sc">mélisande</hi>. — Je suis perdue !… perdue !… Oh ! oh ! perdue ici…</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Ne me touchez pas ! ne me touchez pas !</p>
+            <p><label type="speaker">GOLAUD. — </label>. — N’ayez pas peur… Je ne vous ferai pas… Oh ! vous êtes belle !</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Ne me touchez pas ! ne me touchez pas ! ou je me jette à l’eau !…</p>
+            <p><label type="speaker">GOLAUD. — </label>. — Je ne vous touche pas… Voyez, je resterai ici, contre l’arbre. N’ayez pas peur. Quelqu’un vous a-t-il fait du mal ?</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Oh ! oui ! oui ! oui !</p>
+            <stage>(Elle sanglote profondément.)</stage>
+            <p><label type="speaker">GOLAUD. — </label>. — Qui est-ce qui vous a fait du mal ?</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Tous ! tous !</p>
+            <p><label type="speaker">GOLAUD. — </label>. — Quel mal vous a-t-on fait ?</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Je ne veux pas le dire ! je ne peux pas le dire !…</p>
+            <p><pb n="181"/><label type="speaker">GOLAUD. — </label>. — Voyons ! ne pleurez pas ainsi. D’où venez-vous ?</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Je me suis enfuie !… enfuie… enfuie…</p>
+            <p><label type="speaker">GOLAUD. — </label>. — Oui ; mais d’où vous êtes-vous enfuie ?</p>
+            <p><label type="speaker">MÉLISANDE. — </label>Je suis perdue !… perdue !… Oh ! oh ! perdue ici…</p>
           </quote>
           <p>En lisant ces phrases, nous avons envie de sourire de leur puérilité, mais en même temps, quand nous les rapprochons de ce qui précède et de ce qui suit, elles éveillent en nous l’image d’une créature très frêle et très primitive. Nous croyons voir Mélisande, nous la voyons. C’est une petite bergère des temps anciens, elle ressemble à la sainte Geneviève de Puvis ; elle a les prunelles claires, la taille longue, les cheveux épars sur les épaules et les mains jointes et les coudes serrés au corps ; et elle parle d’une voix limpide comme un murmure de source….</p>
           <p>Ne vous y trompez pas, cela n’est point le fait du premier venu. Les poètes seuls possèdent ce pouvoir d’évocation. Or, incontestablement, Maurice Maeterlinck est poète. Il a le sens de l’au-delà, des faiblesses et des fragilités de la vie, des incertitudes de la condition humaine, et des fatalités qui pèsent sur elle (passions, instincts aveugles, impuissance de la volonté). Il renouvelle, en l’assombrissant, en l’entourant de plus de mystère, la conception que les anciens avaient du Destin, cette force contre laquelle se brisent nos énergies.</p>
@@ -1952,7 +1947,7 @@
           <p>7º M. Charles Saunier. — On accuse les Français <pb n="367"/>d’être frivoles. C’est que tous les Français ne ressemblent pas à M. Charles Saunier. Croiriez-vous que ce jeune homme a poussé la conscience jusqu’à <quote>« apprendre le japonais pour déchiffrer les légendes des Outamaros »</quote> ! N’est-ce pas admirable ? Seulement M. Charles Saunier a consacré tant de jours à l’étude du japonais qu’il n’a pas encore eu le temps d’écrire son premier livre…</p>
           <p>Je pourrais prolonger cette analyse et vous présenter plusieurs douzaines de grands hommes non moins authentiques. Je suppose que vous êtes suffisamment édifiés… Et remarquez que, dans ce volume, où tant de médiocrités célèbrent réciproquement leur gloire, on ne trouve le nom ni de Jules Lemaître, ni d’Anatole France, ni de Sully-Prudhomme, ni de Coppée, ni de Paul Bourget, ni d’Alphonse Daudet, ni de Zola, ni de Lavedan, ni de Paul Margueritte, ni de Bouchor, ni de Marcel Prévost, ni d’aucun des artistes qui sont l’honneur de la nouvelle génération. Pour les doyens, on les traite avec le plus révoltant mépris : Vacquerie n’existe pas, Ernest Legouvé est un épicier de lettres, Sarcey mérite qu’on le pende (<hi rend="i">vade retro Satanas</hi>). En général tous les écrivains dont le public se détourne et dont les ouvrages se vendent mal sont portés aux nues ; tous ceux qui ont obtenu la consécration du succès matériel excitent de jalouses et sourdes colères. Ainsi juge cette petite église où la majorité se compose d’envieux, d’impuissants et de ratés…</p>
           <p><pb n="368"/>Et ne croyez pas que leur haine ne s’attache qu’aux individualités supérieures. Ils s’abhorrent entre eux. À lire les notices qu’ils se consacrent, on les croirait animés d’un tendre esprit de sympathie et de confraternité. Mais interrogez-les séparément ; arrachez-leur des confidences ; et vous verrez comme ils s’entendent à draper leurs camarades, avec quelle clairvoyance acérée ils apprécient mutuellement leurs productions. Le sirop des dithyrambes tourne au vinaigre. Les applaudissements de théâtres font place aux conversations de couloirs. C’est l’éternelle histoire des perfidies et des lâchetés humaines…</p>
-          <p>Réjouissons-nous de la publication des <hi rend="i">Portrait</hi>s <hi rend="i">du prochain siècle</hi>. Ce volume restera comme le témoignage d’un certain état d’esprit particulier à notre époque. Il fournira un piquant sujet d’article aux chroniqueurs du vingtième siècle qui, par hasard, le retrouveront dans l’étalage des bouquinistes et qui prendront en pitié nos vanités maladives. Ils liront, avec stupeur, ces complaisants éloges, décernés à des auteurs dont la renommée fut circonscrite entre le jardin du Luxembourg et le boulevard Saint-Michel. Et ce navrant exemple servira d’enseignement aux poètes d’alors, qui, selon toute apparence, ne seront pas moins infatués d’eux-mêmes ni moins ridicules que les contemporains de M. Jean Moréas…</p>
+          <p>Réjouissons-nous de la publication des <hi rend="i">Portraits du prochain siècle</hi>. Ce volume restera comme le témoignage d’un certain état d’esprit particulier à notre époque. Il fournira un piquant sujet d’article aux chroniqueurs du vingtième siècle qui, par hasard, le retrouveront dans l’étalage des bouquinistes et qui prendront en pitié nos vanités maladives. Ils liront, avec stupeur, ces complaisants éloges, décernés à des auteurs dont la renommée fut circonscrite entre le jardin du Luxembourg et le boulevard Saint-Michel. Et ce navrant exemple servira d’enseignement aux poètes d’alors, qui, selon toute apparence, ne seront pas moins infatués d’eux-mêmes ni moins ridicules que les contemporains de M. Jean Moréas…</p>
         </div>
         <div>
           <head>Voyage sentimental au pays latin</head>

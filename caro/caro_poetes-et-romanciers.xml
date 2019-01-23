@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Elme-Marie Caro</author>, <title>Poètes et romanciers</title>, <pubPlace>Paris</pubPlace>, <publisher>Librairie Hachette et Cie</publisher>, <date>1888</date>, 373 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k255770j.r=caro+poetes+et+romanciers.langFR">Gallica</ref>. </bibl>
+        <bibl><author>Elme-Marie Caro</author>, <title>Poètes et romanciers</title>, <pubPlace>Paris</pubPlace>, <publisher>Librairie Hachette et Cie</publisher>, <date>1888</date>, 373 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k255770j.r=caro+poetes+et+romanciers.langFR">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +46,7 @@
         <date when="1888">1888</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -491,8 +491,8 @@
             <l>— L’amour n’arrive au but qu’en traversant la mort !</l>
             <l>— Attendons, dans l’extase où notre âme est ravie,</l>
             <l>Attendons cette mort sans rentrer dans la vie !</l>
-            <l>— La vie est un devoir.</l>
-            <l>                                      — Vivons dans ces beaux lieux.</l>
+            <l part="I">— La vie est un devoir.</l>
+            <l part="F">— Vivons dans ces beaux lieux.</l>
             <l>— Vivons où Dieu nous place, au poste périlleux.</l>
             <l>La vie est un combat ; ici l’on se repose :</l>
             <l>Sur ce Thabor d’un jour on se métamorphose,</l>
@@ -561,13 +561,13 @@
         </quote>
         <p>Je trouve ce vers isolé à dessein, escortant le mot sublime, en vedette :</p>
         <quote>
-          <l>                              III</l>
+          <label type="head">II</label>
           <l>Car le roi masque Dieu même dans son église,</l>
           <l>L’azur,</l>
         </quote>
         <p rend="noindent">et la tirade recommence :</p>
         <quote>
-          <l>                              IV</l>
+          <label type="head">IV</label>
           <l>— Écoutez-moi, j’ai vécu, j’ai songé.</l>
         </quote>
         <p>Quel solennel enfantillage ! et faut-il que le poète s’arrête et nous arrête sur un mot, comme le chanteur sur sa roulade ? Ceci est le procédé typographique. Il se rencontre à chaque instant.</p>
@@ -746,7 +746,7 @@
           <l>Dans les ténèbres des berceaux ;</l>
           <l>Son effrayant doigt invisible</l>
           <l>Écrit sous leur crâne <hi rend="i">la Bible</hi></l>
-          <l rend="i">Des arbres, des monts et des eaux. </l>
+          <l rend="i">Des arbres, des monts et des eaux.</l>
         </quote>
         <p>Je résume le reste de la pièce, ne pouvant tout citer. — Ces hommes, ce sont les poètes, âmes envahies par les grandes brumes du sort, yeux où la lumière entre, fronts d’où le rayon sort, têtes vers qui monte l’océan de l’idée. Ce sont les sévères artistes que l’aube attire à ses blancheurs, les savants, les inventeurs, les puiseurs d’ombre, les chercheurs, ceux qui ramassent dans les ténèbres les faits, les chiffres, le nombre, le doute et tous les morceaux noirs qui tombent du grand fronton de l’inconnu. Le poète <hi rend="i">s’adosse</hi> à l’arche. C’est David qui ouvre la procession. Nous avons déjà fait connaissance avec le grand prêtre fauve des forêts, métaphore qui s’étonne de désigner Hésiode. Il ne faut pas oublier Homère dont l’océan de l’idée lave les pieds nus avec un flot d’éternité. Dans un ordre un peu confus (mais c’est un dithyrambe) apparaissent Moïse, immense créature, Manès, Jean de Patmos, Apollonius de Tyane, Eschyle, Milton, Shakespeare. Tous ces grands noms sont salués d’apostrophes très vives et tout à fait neuves :</p>
         <quote>
@@ -1120,7 +1120,7 @@
           <p>Ce trait caractéristique, ce trait fondamental de la physionomie de Béranger, c’est directement dans sa <hi rend="i">Biographie</hi>, écrite par lui-même, que nous irons le chercher. Nous écarterons tous ces intermédiaires officieux, toutes ces vanités si empressées à exploiter une mort illustre. Il y a une foule de petits livres publiés au lendemain des funérailles, où Béranger n’est que le prétexte sous lequel s’abritent les plus étranges prétentions. L’un n’a d’autre intérêt que de nous révéler l’admiration du grand poète pour une <hi rend="i">Muse jeune et belle</hi> qui signe le livre, où ces compliments et bien d’autres sont rapportés avec un incomparable sang-froid. On nous assure que Béranger n’aurait pas voulu mourir sans voir achever le <hi rend="i">Poème de la Femme</hi>. Je crois sans peine que ce fut là son plus vif regret en mourant. D’autre part arrive M. Savinien Lapointe avec ses apostrophes et ses adieux à celui qu’il appelle son maître. Ce n’est plus au <hi rend="i">Poème de la Femme</hi>, c’est aux <hi rend="i">Échos de la rue</hi> qu’est dévolue maintenant l’admiration de Béranger. Avec M<hi rend="sup">me</hi> Collet, Béranger adorait les <hi rend="i">Belles Muses</hi> ; avec M. Lapointe, il s’en moque. Le changement à vue est complet. Il y a même un passage très irrévérencieux sur les <hi rend="i">Muses et Musettes</hi>, que je me garderai bien de transcrire. En revanche, Béranger porte aux nues les ouvriers-poètes. Dans le livre de M. Eugène Noël, ce sont de tout autres souvenirs, c’est une autre chronique. Chacun écrit ainsi, avec un zèle excessif, les mémoires de son amour-propre, croyant de bonne foi écrire ceux de Béranger. Il est donc prudent de nous tenir à la <hi rend="i">Biographie</hi>, aux préfaces et aux lettres. On est sûr au moins que c’est ici Béranger qui parle, et non plus, par sa bouche, une voix de muse ou un écho de la rue.</p>
           <p>Cette biographie est écrite avec charme et simplicité. Je ne prétends pas pour cela que l’art en soit absent. Il y a un ordre lumineux dans l’ensemble, un soin dans le détail, une justesse continue d’expression, une habileté aisée dans la manière de parler de soi, qui révèlent l’art, et un art exquis ; mais le comble de cet art est précisément de se dissimuler et de laisser agir le naturel dans son gracieux abandon, dirigé, non comprimé. — Je ne prétends pas non plus que cette biographie soit complètement désintéressée. Il est bien clair que Béranger ne l’a pas entreprise pour s’humilier et s’amoindrir aux yeux de la postérité : on n’écrit pas ses souvenirs intimes contre soi-même. Mais, dans cette délicate épreuve, seul de tous ses contemporains obstinés à se raconter eux-mêmes et à se confesser au public, Béranger a su garder la mesure, ne rien dire de trop, s’arrêter au mot juste, au-delà duquel on donne prise aux autres sur soi. Chaque fois qu’il rencontre l’écueil, il l’élude avec un bonheur, une aisance incomparables. Ce n’est pas précisément de la modestie, c’est de la modération, c’est du goût. Il réussit à donner au lecteur le sentiment juste de son mérite et des services qu’il a rendus, sans avoir l’air de s’en douter lui-même, ou, s’il s’en doute, sans avoir l’air de s’en préoccuper. La brièveté même de cette biographie aide au charme. Quel contraste avec ces interminables séries de volumes où un orgueil bavard éternise son tête-à-tête avec le public et noie l’intérêt dans le déluge des petits faits ! Ici, tout a son effet prévu, tout va au but. C’est une causerie, mais pleine de sens, de tact, et qui s’arrête bien en deçà de la fatigue du lecteur. Il en est de la biographie de Béranger comme de ses chansons : vous arrivez au terme toujours trop tôt. L’art de finir à temps, voilà ce qui manque à nos poètes comme à nos romanciers. Combien peu y en a-t-il qui sachent se faire regretter ! Cet art, personne ne le possède à un degré plus élevé que Béranger. Il finit toujours avant que l’on songe même à s’apercevoir qu’il y a longtemps qu’il a commencé. Sa biographie s’arrête comme sa vie publique, comme sa vie chantante, à peu près en 1830. Ses vingt-sept dernières années ne seront racontées que par ses lettres. Il semble qu’il veuille se réserver à soi et à ses amis toute cette partie de son existence, pendant laquelle, ne se mêlant plus, comme autrefois, à la lutte, il se contente d’y assister en simple spectateur, légèrement satirique. Il rentre dans son droit à la vie privée, et personne mieux que lui, avec plus d’ingénieuse fermeté, ne sut maintenir ce droit contre les indiscrétions de la sympathie publique.</p>
           <p>Suivons donc cette honnête et aimable biographie dans les principaux détails qu’elle nous donne, la résumant tour à tour et la citant le plus possible ; puis, nous verrons s’il n’y a pas lieu de conclure avec quelque certitude sur le véritable caractère de l’homme qui l’a écrite.</p>
-          <p>Ce que Béranger marque avec soin, c’est la nature tout intime et personnelle de ses mémoires. Il n’a pas la prétention d’étendre ses récits et ses réflexions au-delà du cercle que lui trace le litre unique qu’il ambitionne, celui de chansonnier. Aux grands hommes les grandes choses et les grands écrits, dit-il, non, je suppose, sans un malicieux sourire, en songeant à tous les <hi rend="i">grands hommes</hi> de son temps qui se mesurent à la taille de leurs récits : <quote>« Ceci n’est que l’histoire d’un faiseur de chansons. »</quote>.</p>
+          <p>Ce que Béranger marque avec soin, c’est la nature tout intime et personnelle de ses mémoires. Il n’a pas la prétention d’étendre ses récits et ses réflexions au-delà du cercle que lui trace le titre unique qu’il ambitionne, celui de chansonnier. Aux grands hommes les grandes choses et les grands écrits, dit-il, non, je suppose, sans un malicieux sourire, en songeant à tous les <hi rend="i">grands hommes</hi> de son temps qui se mesurent à la taille de leurs récits : <quote>« Ceci n’est que l’histoire d’un faiseur de chansons. »</quote>.</p>
           <p>Nous n’insisterons pas sur les détails de sa première enfance, très connus par plusieurs petits chefs-d’œuvre populaires, comme <hi rend="i">Le Tailleur et la Fée, Ma nourrice</hi>. Le bon vieux grand-père Champy, la nourrice et le père nourricier d’Auxerre, je crois même la rue Montorgueil, sont associés à l’immortalité des gais refrains. Ce que les chansons ne disent pas, c’est dans quelle étrange famille le hasard fit naître Béranger. Si sa jeunesse révéla des pensées trop libres et peu aristocratiques dans le choix de leurs objets, il faut lui pardonner beaucoup en songeant de quels exemples son berceau fut entouré. Si de bonne heure, dans la vie sérieuse, il montra tant de finesse, de raison et de justesse piquante de bon sens, il faut lui en savoir gré. Ce n’était pas un héritage de famille.</p>
           <p>Béranger s’exprime avec discrétion sur le compte de sa mère, mais cette discrétion même laisse deviner bien des choses : <quote>« Une jeune fille de dix-neuf ans, vive, mignonne, bien tournée, passait tous les matins devant la porte de l’épicier chez lequel mon père tenait les livres. Mon père s’en éprit, la demanda et l’obtint du tailleur Champy, qui avait six autres enfants… Après six mois de mariage et de prodigalités, les deux époux se séparaient, mon père pour aller en Belgique, ma mère pour se retirer chez ses parents : elle travailla de son état de modiste et ne regretta guère l’absence d’un mari pour qui elle n’eut jamais beaucoup d’affection, quoiqu’il fût bon, aimable et d’un extérieur agréable. Ma naissance faillit coûter la vie à ma mère. »</quote> Cette mère, d’ailleurs, ne l’était guère, que de nom. Elle quitta sa famille et son enfant pour aller vivre seule. <quote>« De temps à autre (vers l’âge de neuf ans), j’allais passer huit ou quinze jours auprès d’elle près du Temple, ce qui apportait un étrange changement à la vie que je menais rue Montorgueil. Souvent elle me conduisait aux théâtres du boulevard, ou à quelques bals ou à des parties de campagne. J’écoutais beaucoup et je parlais peu. J’apprenais bien des choses, mais je n’apprenais pas à lire. »</quote> L’indifférence de sa mère ne fit que s’accroître avec l’âge. Béranger essaye de l’excuser par une opposition complète de nature et de goûts. Elle mourut jeune. <quote><hi rend="i">Ses imprudences</hi></quote>, dit Béranger, mirent un terme à sa vie, qui n’atteignit pas trente-sept ans.</p>
           <p>Son père est le type accompli de l’extravagance. Né dans un cabaret de village, il affectait des prétentions à la noblesse. Tout ce qu’il laissa à son fils, ce fut une généalogie armoriée à laquelle, dit plaisamment Béranger, il ne manque que des pièces justificatives, l’exactitude historique et les vraisemblances morales. Tour à tour teneur de livres à Paris, coureur d’aventures en Belgique, notaire à Durtal, <hi rend="i">M. de Béranger de Mersix</hi> passe en Bretagne, où il devient intendant de la comtesse de Bourmont. <quote><hi rend="i">Son vieux sang noble</hi></quote> se réveille et il se jette à corps perdu dans les intrigues royalistes. Arrêté comme fédéraliste, relâché, après plusieurs mois de captivité, le lendemain du 9 thermidor, il finit par jouer à Paris un certain rôle à la fois comme agioteur et banquier des conspirations royalistes. Ce fut son plus beau moment, mais le moment fut court. Sa maison croule ; il fait l’acquisition d’un cabinet de lecture rue Saint-Nicaise, où il végète obscurément, perdu dans d’infimes complots, jusqu’au jour où une attaque d’apoplexie vient terminer cette vie agitée. Cœur excellent, vaniteuse et légère cervelle, ambition vulgaire et remuante, activité tracassière, esprit d’intrigue subalterne, moins pour un résultat positif que pour le plaisir d’agiter son existence et celle des autres, tel fut l’homme étrange que l’ironie du sort donna pour père à Béranger. On peut bien dire que son fils ne lui ressembla guère. Personne moins que le fils ne devait avoir ce goût des émotions dangereuses, cette passion du complot, cette manie d’importance à tout prix qui rendirent le père si malheureux de cette sorte de malheur le plus triste de tous, le malheur ridicule.</p>
@@ -1396,8 +1396,7 @@
         <p>Il y a comme deux courants distincts dans la poésie de M. Manuel : l’un vient du fond d’une vie sincère, souvent troublée, mais plus forte que ses troubles, et d’une âme virilement attachée au devoir, défendue par lui contre les lâches défaillances ; l’autre vient non plus de ces profondeurs émues de l’existence humaine, mais des hauteurs de la pensée pure, de ces sommets sacrés où l’esprit se sent plus voisin de l’infini. Bien que l’une de ces deux inspirations domine, elles se rencontrent à plusieurs reprises, sans se confondre, dans l’émotion du poète : chacune a son contrecoup distinct dans l’âme du lecteur.</p>
         <p>À la première source d’inspirations se rattachent certaines pièces exquises, telles que <hi rend="i">Le Soufflet, Mythologie, Immaculée</hi> surtout, où est traité si délicatement un problème de physiologie morale, et de charmantes scènes d’intérieur, dans lesquelles murmure une douleur discrète, <hi rend="i">Déménagement, Le Berceau</hi>. C’est de toutes ces émotions intimes de la vie que s’est formée plus de la moitié du volume, comme nous le dit cette poétique préface qui, en racontant l’origine du livre, en donne bien l’accent :</p>
         <quote>
-          <l>               AU LECTEUR</l>
-          <l/>
+          <label type="head">AU LECTEUR</label>
           <l>Sous la mousse et sous les roseaux</l>
           <l>L’avez-vous parfois rencontrée</l>
           <l>La petite source ignorée,</l>

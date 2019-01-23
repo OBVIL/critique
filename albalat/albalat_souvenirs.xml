@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_souvenirs" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="albalat_souvenirs" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Souvenirs de la vie littéraire : Nouvelle édition augmentée d’une
           préface-réponse.</title>
-        <author key="Albalat, Antoine (1856-1935)">Antoine Albalat</author>
+        <author key="Albalat, Antoine (1856-1935)" ref="https://data.bnf.fr/fr/12449353/antoine_albalat/">Antoine Albalat</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -60,7 +60,7 @@
         <date when="1924">1924</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -79,7 +79,7 @@
           les anecdotes et, parmi les anecdotes, qu’il préférait, celle où il imaginait trouver une
           peinture vraie des mœurs et des caractères, à une époque donnée. »‌</p>
         <p>« L’anecdote qui est un fait, disait Remy de Gourmont, a un intérêt à quoi ne peut
-          prétendre le jugement du meilleur professeur <note n="1" resp="author">cité par Misdrac
+          prétendre le jugement du meilleur professeur<note n="1" resp="author">cité par Misdrac
               Ibrovac<hi rend="i">. J.M. Heredia</hi>, t. I, Avant-Propos</note>. »</p>
         <p>La gloire de Stendhal est précisément d’avoir créé de la psychologie vivante uniquement
           par l’anecdote et le menu fait. « Notez-moi sur un cahier, disait-il, tous les actes de
@@ -122,10 +122,10 @@
           introduit une amourette inutile dans son <hi rend="i">Œdipe</hi>. On pourrait croire qu’il
           a manqué de goût. On se tromperait. Une anecdote nous apprend que ce sont les comédiens
           qui, pour rendre plus attrayante une tragédie sans amour, forcèrent Voltaire à ajouter ce
-          romanesque épisode <note n="2" resp="author">cité par Georges Renard, dans son livre sur
+          romanesque épisode<note n="2" resp="author">cité par Georges Renard, dans son livre sur
               <hi rend="i">l’Histoire littéraire scientifique</hi></note>.‌</p>
         <p>Sans doute, on abuse de l’anecdote, on bavarde, on rabâche… Mais les messieurs à idées
-          générales n’abusent-ils pas, eux aussi ? <hi rend="i">Philosophie de l’histoire, Evolution
+          générales n’abusent-ils pas, eux aussi ? <hi rend="i">Philosophie de l’histoire, Évolution
             des littératures, Sociologies transcendantes, Métaphysique, Synthèses</hi>, que de
           volumes indigestes ! Quelle lourdeur et quel ennui !‌</p>
         <p>Nos ancêtres connaissaient bien le prix du menu fait. Les titres seuls des recueils d’<hi
@@ -200,7 +200,7 @@
           ennemis qu’on se fait en racontant la simple vérité.</p>
         <p>Je n’ai pas parlé une seule fois de la vie privée de Moréas ; je me suis borné à raconter
           des anecdotes de café qui montraient son caractère et sa tournure d’esprit. On m’a traité
-          de blasphémateur et on m’a couvert de malédictions <note n="3" resp="author">On me Fait
+          de blasphémateur et on m’a couvert de malédictions<note n="3" resp="author">On me Fait
             dire ce que je n’ai jamais dit. On me prête, pour me discréditer, les opinions les plus
             saugrenues. On prétend que je « préfère Jean Aicard à Jean Moréas », bien que je n’aie
             jamais écrit nulle part une pareille sottise. On m’a même reproché d’avoir froidement
@@ -218,7 +218,7 @@
           Raynaud du stupéfiant article de la <hi rend="i">Revue des Deux Mondes</hi>, paru après le
           sien, où M. Albalat revient à la charge et dénigre systématiquement Moréas, sous prétexte
           de souvenirs sur sa vie de café ? M. Albalat, lui, est un critique. Il n’a pas d’excuse,
-          Mais il a des devanciers <note n="4" resp="author">Paris-Midi, 8 fév. 1920</note>. »‌</p>
+          Mais il a des devanciers<note n="4" resp="author">Paris-Midi, 8 fév. 1920</note>. »‌</p>
         <p>Or je n’ai dit nulle part qu’Heredia avait déclaré que « Moréas n’existait pas. » J’ai
           seulement dit qu’Heredia, qui était un latiniste et un lettré, répétait souvent, comme une
           simple constatation, cette phrase textuelle : « Moréas est un charmant garçon. Je l’aime
@@ -243,7 +243,7 @@
         <p>Ainsi j’ai parlé presque tous les jours pendant vingt ans avec Moréas et, au bout de ces
           vingt années de conversations, je n’ai compris ni ce qu’il pensait, ni ce qu’il disait, ni
           ce qu’il faisait ! « Il ne suffit pas, dit sévèrement M. Souday, d’avoir dégusté avec lui
-          beaucoup d’apéritifs et de demi-tasses pour connaître le cœur d’un poète <note n="5"
+          beaucoup d’apéritifs et de demi-tasses pour connaître le cœur d’un poète<note n="5"
             resp="author">Le Temps, 2 février 1920</note>. » Mon Dieu, oui, cela ne signifie pas
           grand chose que de prendre des apéritifs ; mais avec Moréas prendre des apéritifs, c’était
           rester longtemps avec lui ; c’était assister à des scènes et à des discussions qui se
@@ -253,7 +253,7 @@
           avoir la prétention de le mieux connaître ? Faut-il poser en principe qu’on ne comprend
           bien que les personnes qu’on ne fréquente pas ?</p>
         <p>Ces messieurs ont beau s’indigner, non seulement je crois avoir compris Moréas aussi bien
-          que n’importe qui; mais je suis fermement convaincu que c’est encore dans mon livre qu’on
+          que n’importe qui ; mais je suis fermement convaincu que c’est encore dans mon livre qu’on
           retrouvera la plus fidèle image du poète, ses manières, sa vie, ses gestes, son vrai
           caractère. Je n’ai mis, quoi qu’on dise, aucune espèce de « dénigrement systématique » à
           raconter des faits qui se sont passés publiquement devant tous ses amis et qui
@@ -270,7 +270,7 @@
           peuvent obscurcir la glorieuse physionomie de Moréas. Voudrait-on supprimer de la vie de
           La Fontaine les anecdotes qui nous montrent sa naïveté et sa bonhomie un peu puériles ?
           Méprise-t-on Ampère, en rappelant son originalité et ses distractions ? J’ai raconté les
-          mêmes anecdotes sur Emile Faguet. M’a-t-on accusé de manquer de respect au grand
+          mêmes anecdotes sur Émile Faguet. M’a-t-on accusé de manquer de respect au grand
           critique ? Ce n’est pas en rapportant des traits de caractère qu’on diminue les grands
           hommes, c’est quand on fouille leur oie privée, leurs amours, leurs vices, comme on l’a
           fait pour Musset, George Sand, Chateaubriand ou Verlaine. Mais qui s’en est ému ? Ces
@@ -286,7 +286,7 @@
           question. M. Albalat n’y a pas mis de malice, mais son désir de faire vrai et vivant l’a
           emporté trop loin. »‌</p>
         <p>J’eusse été, en effet, très digne de blâme, si j’avais profité de ma familiarité avec
-          Moréas pour divulguer d’indiscrètes anecdotes sur sa vie privée; mais est-ce vraiment a
+          Moréas pour divulguer d’indiscrètes anecdotes sur sa vie privée ; mais est-ce vraiment a
           abuser de la familiarité » que de raconter ce qui s’est passé dans un café, ce que vingt
           personnes ont vu et entendu tous les jours ? Ceux qui ont connu Moréas savent qu’il a se
           livrait tout cru au public beaucoup plus librement que je ne l’ai livré moi-même.</p>
@@ -300,7 +300,7 @@
           amis, et j’avoue franchement, au risque d’attirer sur ma tête la réprobation qu’Albalat
           supporte d’un front si serein, que le sens général continue de m’en paraître excellent et
           fort respectueux, tant de la mémoire que du talent de Moréas, fort respectueux et fort
-          juste <note n="6" resp="author">L’Œuvre, 1<hi rend="sup">er</hi> mars 1920</note>. »‌</p>
+            juste<note n="6" resp="author">L’Œuvre, 1<hi rend="sup">er</hi> mars 1920</note>. »‌</p>
         <p>Loin de me condamner, il suffisait, en effet, d’un peu de bon sens et d’impartialité pour
           reconnaître que j’avais parfaitement le droit de dire ce que j’ai dit.</p>
         <p>« Sur les écrivains qu’il a fréquentés, fait remarquer M. Henri Bachelin, M. Albalat ne
@@ -314,10 +314,10 @@
           spectateurs, qui assistent au défilé de la « Division des lettres, » devront lire ce livre
           aussi intéressant que bon nombre de romans, même écrits par leurs auteurs préférés. Ils
           pourront le refermer en oubliant, si tant est qu’ils ont pu l’y apprendre, que l’adjudant
-          a la manie de bomber le torse et que le cheval du capitaine rue <note n="7" resp="author"
-            >L’Echo littéraire du Boulevard, mai 1920</note>. »</p>
+          a la manie de bomber le torse et que le cheval du capitaine rue<note n="7" resp="author"
+            >L’Écho littéraire du Boulevard, mai 1920</note>. »</p>
         <p>Au fond, mon grand crime, ce qu’on ne me pardonne pas, c’est de ne pas avoir proclamé
-          Moréas le plus grand poète de son temps; c’est d’avoir fait des réserves ; c’est d’être de
+          Moréas le plus grand poète de son temps ; c’est d’avoir fait des réserves ; c’est d’être de
           ceux qui croient qu’il entre dans son talent beaucoup de procédés de transposition et
           d’imitation ; c’est d’avoir rappelé ce que Moréas doit à Racine, à Lamartine, à Ronsard.
           C’est pour avoir dit cela surtout que je suis un « cuistre » un «  pédant », un
@@ -346,10 +346,10 @@
           poésie mélancolique et individualiste, moins passionnée, mais aussi navrante, moins
           désordonnée, mais aussi désolante que les lamentations de Musset et les gémissements de
           Verlaine. Et combien au-dessous des angoisses métaphysiques ou se débat, tragiquement,
-          l’âme tourmentée du grand Baudelaire ! <note n="8" resp="author"><hi rend="i">Les Mauvais
+          l’âme tourmentée du grand Baudelaire !<note n="8" resp="author"><hi rend="i">Les Mauvais
               Maîtres</hi>, p.267</note> »‌</p>
         <p>M. Pierre Lièvre, à son tour, dans deux articles publiés par le Divan s’est montré
-          extrêmement sévère pour l’œuvre de Jean Moréas <note n="9" resp="author">Ces articles ont
+          extrêmement sévère pour l’œuvre de Jean Moréas<note n="9" resp="author">Ces articles ont
             récemment paru en volume</note>.‌</p>
         <p>« Rarement, dit M. Pierre Lièvre, l’alexandrin fut manié avec plus de lourdeur et de
           gaucherie que par l’auteur des <hi rend="i">Stances</hi>.‌</p>
@@ -383,7 +383,7 @@
           maître. »</p>
         <p>Et M. Pierre Lièvre conclut en ces termes :</p>
         <p>«  Moréas est un aimable vignettiste, un ingénieux chansonnier, un joueur de petit air de
-          viole <note n="10" resp="author">M. Pierre Lièvre. Le Divan, février 1923</note>, un
+            viole<note n="10" resp="author">M. Pierre Lièvre. Le Divan, février 1923</note>, un
           imitateur assez lettré, rien de plus. Il a beau donner à ses petites peintures une couleur
           sombre, à ses petits airs un son funèbre, il a beau par un certain roucoulement de gorge
           donner à entendre une sorte de sanglot étouffé, il ne nous guide jamais vers le lointain
@@ -410,7 +410,7 @@
       <div>
         <pb/>
 
-        <head>Chapitre premier <note n="11" resp="author">Les cinq premiers chapitres de ce volume
+        <head>Chapitre premier<note n="11" resp="author">Les cinq premiers chapitres de ce volume
             ont paru, avec des suppressions et des coupures, dans la <hi rend="i">Revue des Deux
               Mondes</hi> (1<hi rend="sup">er</hi> février 1920), <hi rend="i">Revue
               Hebdomadaire</hi> (4 oct. 1919), <hi rend="i">Revue bleue</hi> (1<hi rend="sup"
@@ -428,17 +428,17 @@
           esprit tout en étendue et en profondeur et qui fut non seulement un créateur d’art, mais
           qui eut vraiment de la vie une compréhension totale, complète, atteignant tous les
           domaines de la sensibilité physique et morale.</p>
-        <p>A mesure que la mort fait son œuvre et que s’allonge la liste des disparus; maintenant
+        <p>A mesure que la mort fait son œuvre et que s’allonge la liste des disparus ; maintenant
           que j’arrive à l’âge où, selon le mot de Flaubert, on se promène dans ses souvenirs comme
           un spectre parmi des ruines, Alphonse Daudet est peut-être l’homme qui est resté en moi le
           plus vivant, le plus présent, celui dont la voix ne s’est jamais tue et qui, aux heures
           décourageantes, revient incessamment éclairer ma nuit du rayonnement de sa bonté. La
-          fréquentation de pareils hommes dépasse la littérature ; elle atteint l’âme à sa source;
+          fréquentation de pareils hommes dépasse la littérature ; elle atteint l’âme à sa source ;
           elle alimente les forces secrètes qui nous sont nécessaires pour entretenir en nous le
           culte de la foi et de l’idéal.</p>
         <p>J’ai connu Alphonse Daudet en 1883, à l’époque où il habitait avenue de l’Observatoire,
           puis rue Bellechasse, et enfin rue de l’Université, où il est mort. Je venais alors une
-          fois par an passer un mois à Paris. Je fus tout de suite un fidèle habitué de ses jeudis;
+          fois par an passer un mois à Paris. Je fus tout de suite un fidèle habitué de ses jeudis ;
           mais les meilleures visites étaient celles de la matinée, celles qu’il vous autorisait à
           lui faire un peu au hasard. J’arrivais de si loin et pour si peu de temps, qu’il
           consentait presque toujours à me recevoir. J’emportais ensuite dans ma solitude le
@@ -531,7 +531,7 @@
         <p>Les êtres sont allés à lui bien plus qu’il n’est allé à eux. Il resta toute sa vie un
           grand idéaliste, et Zola s’illusionnait étrangement, quand il affirmait sur sa tombe que
           son ami avait collaboré à la même œuvre que lui. Les romans de Daudet n’ont rien de commun
-          avec le Naturalisme; ils sont avant tout des productions de sensibilité personnelle ; et
+          avec le Naturalisme ; ils sont avant tout des productions de sensibilité personnelle ; et
           c’est cette sensibilité qui explique sa passion des choses vécues, sa compréhension de la
           souffrance, la transposition qu’il en a faite dans ses livres et les épisodes romanesques
           avec lesquels il était heureux d’adoucir son observation implacable. Il a parlé comme il a
@@ -559,7 +559,7 @@
           Barrès : « Je ne passe pas une journée sans que se présente à mon esprit ce que m’a
           raconté un jour Alphonse Daudet d’un père assis au chevet de son petit garçon, très
           malade, et qu’il entendit soudain dire dans le silence : « Père, cela m’ennuie de mourir
-            <note n="12" resp="author"><hi rend="i">Lamort de Venise</hi>, p. 112</note>. »‌</p>
+            <note n="12" resp="author"><hi rend="i">La mort de Venise</hi>, p. 112</note>. »‌</p>
         <p>Quoique religieux d’esprit et de cœur, Alphonse Daudet, au fond, ne croyait pas à grand
           chose. Mais son scepticisme était un gémissement bien plus qu’une révolte. J’entends
           encore de quel ton douloureux il concluait une discussion sur la destinée humaine : « La
@@ -588,11 +588,11 @@
           le monde, il faut le dire, n’avait pas la faiblesse de prendre Daudet pour un simple
           amuseur. J’ai moi-même prêché d’exemple, en publiant un volume, d’ailleurs médiocre, sur
             <hi rend="i">L’Amour chez Alphonse Daudet</hi>, titre un peu étourdi qu’Edmond
-          Deschaumes avait raison de plaisanter dans <hi rend="i">l’Evénement</hi>. Avec plus de
+          Deschaumes avait raison de plaisanter dans <hi rend="i">l’Événement</hi>. Avec plus de
           talent et plus de lourdeur, les Allemands ont patiemment analysé l’œuvre du grand
           romancier. L’auteur de <hi rend="i">Sapho</hi> me montra un jour un ouvrage qu’il venait
           de recevoir d’Allemagne. Ce travail, le plus complet qu’on ait publié sur lui, comprend
-          deux volumes de 500 pages et porte ce titre  : <hi rend="i">AIphonse Daudet, sa vie et ses
+          deux volumes de 500 pages et porte ce titre  : <hi rend="i">Alphonse Daudet, sa vie et ses
             œuvres jusqu’au mois de janvier 1883</hi>, par Adolf Gerstmann. L’existence du romancier
           est minutieusement étudiée, depuis les premières années de sa jeunesse à Nîmes.
           L’influence de la vie sur l’œuvre, l’explication de l’écrivain par l’homme, la formation,
@@ -625,16 +625,16 @@
             >Lettres de mon Moulin</hi>, des <hi rend="i">Contes du Lundi</hi>, du <hi rend="i"
             >Petit Chose</hi>. Le <hi rend="i">Nabab</hi>, les <hi rend="i">Rois en exil</hi>
           caractérisent sa deuxième manière, la phrase arborescente et pailletante. Enfin <hi
-            rend="i">Sapho, L’Immortel</hi>, et <hi rend="i">l’Evangéliste</hi> représentent sa
+            rend="i">Sapho, L’Immortel</hi>, et <hi rend="i">l’Évangéliste</hi> représentent sa
           troisième manière, le raccourci lapidaire qui l’apparente à Saint Simon et dont Colette
           Willy a directement hérité.‌</p>
         <p>Daudet vous expliquait comment il travaillait, la peine qu’il prenait, le sens qu’il
           fallait donner au reproche qu’on lui adressait  : Il n’a pas d’imagination.</p>
         <quote><p>« Eh oui, disait-il, je n’ai pas d’imagination. Je copie tout ». Il empruntait à
-            la vie ses personnages et son sujet; ses livres sont presque tous des romans à clef. Il
+            la vie ses personnages et son sujet ; ses livres sont presque tous des romans à clef. Il
             n’était pas rare de rencontrer chez lui quelque rancunier personnage venant protester
             contre une ressemblance qu’il jugeait compromettante. Je fus, un jour, presque témoin
-            d’une scène de ce genre. <hi rend="i">L’Evangéliste</hi> venait de paraître. Un monsieur
+            d’une scène de ce genre. <hi rend="i">L’Évangéliste</hi> venait de paraître. Un monsieur
             réclamait au nom d’un ami qui se prétendait photographié sous les traits paradeurs et
             naïfs du sous-préfet Lorie. « C’est absurde, répliquait Daudet. Je fais d’après nature.
             Je ne m’en cache pas. Chacun peut se reconnaître dans mes bouquins, et tout le monde, à
@@ -688,7 +688,7 @@
           tasse de thé à la main. Je profitai de l’occasion pour lui parler de sa traduction
           d’Homère, que je lisais alors et qui me paraît encore aujourd’hui la meilleure, malgré sa
           barbarie archaïque, et je lui posai la question qui me tourmentait  : « Pourquoi
-          n’avez-vous pas aussi traduit Virgile ? <hi rend="i">L’Enéide</hi> pouvait offrir bien des
+          n’avez-vous pas aussi traduit Virgile ? L’<hi rend="i">Énéide</hi> pouvait offrir bien des
           beautés originales à exprimer en français ». Il arrêta une minute sur moi son monocle  :
           « Non, dit-il, j’ai jugé inutile de traduire Virgile. Virgile n’est pas intéressant. Il
           n’est que le clair de lune d’Homère… Toutes les beautés qu’il contient sont dans Homère ».
@@ -701,8 +701,8 @@
           trait à mon enfance, c’est en provençal que je suis toujours tenté d’écrire ». Le charme
           de ses premiers contes, les <hi rend="i">Lettres de mon Moulin</hi>, entre autres, c’est
           d’être précisément des récits provençaux dont Daudet a filtré la langue dans la plus
-          spirituelle des transpositions. Chez Paul Arène, le phénomène est plus curieux encore  : il
-          n’y a plus transposition, le provençal est intact ; la saveur du terroir a passé tout
+          spirituelle des transpositions. Chez Paul Arène, le phénomène est plus curieux encore  :
+          il n’y a plus transposition, le provençal est intact ; la saveur du terroir a passé tout
           entière dans la langue française.‌</p>
         <p>Bien que je l’aie quelquefois interrogé à ce sujet, je n’ai jamais bien pu discerner le
           véritable sentiment d’Alphonse Daudet sur la littérature provençale et sa portée
@@ -731,12 +731,12 @@
           voyageurs purent entendre cette phrase vengeresse  : « Nous ne sommes pas des voleurs à
           Tarascon. Voilà votre sou, monsieur… Daudet ! » Je ne vois guère, dans le répertoire
           classique, que les imprécations de Camille qui peuvent être comparées à la véhémente
-          apostrophe de cette marchande de journaux <note n="13" resp="author">H. D’Alméras. <hi
+          apostrophe de cette marchande de journaux<note n="13" resp="author">H. D’Alméras. <hi
               rend="i">Journal des Instituteurs</hi>, 26 décembre 1897</note>. »‌</p>
         <p/>
         <p>Daudet voulait savoir quelquefois ce qu’on pensait en Provence de ses livres. Il y avait
-          alors dans nos petites villes du midi un public spécial  : avocats, notaires ou jeunes gens
-          (ce public doit encore exister) qui lisait avidement ses œuvres. Quelques-uns ne lui
+          alors dans nos petites villes du midi un public spécial  : avocats, notaires ou jeunes
+          gens (ce public doit encore exister) qui lisait avidement ses œuvres. Quelques-uns ne lui
           pardonnaient pas son indépendance et l’accusaient crûment de nous avoir trahis pour faire
           sa cour aux Parisiens. De tous ses <hi rend="i">Tartarin</hi>, son <hi rend="i">Tartarin
             sur les Alpes</hi> nous semblait le plus amusant et le plus profond. En résumé, le mal
@@ -746,14 +746,14 @@
           ville. Il me disait d’un air gourmand  : « Vous devez avoir des types autour de vous, des
           maniaques, des originaux. » Il les crayonnait en pensée, je lui en citai quelques-uns,
           entre autres un de nos amis, excellent prêtre, peintre et poète provençal, qui me disait
-          avec une conviction profonde  : « La Fontaine manque surtout de naturel », ou bien encore  :
-          « Ce pauvre Lamartine ! quand il entreprend une strophe, il n’en sort plus ! » ; et ce
-          conducteur des ponts et chaussées qui me dit sérieusement  : « Vous prenez Montaigne pour
-          un écrivain ? » Daudet riait d’un beau rire de jeunesse. Le rire et l’émotion flottaient
-          toujours sur ses lèvres. « Nous restons tous de grands enfants, disait-il. La vieillesse
-          ne nous change pas ». Un jour que l’on parlait du manque de sensibilité et d’imagination,
-          il eut ce mot  : « Il y a tant d’êtres inhabités », et celui-ci, qu’il répétait souvent;
-          « Il y a tant de fous qui vivent en liberté ».‌</p>
+          avec une conviction profonde  : « La Fontaine manque surtout de naturel », ou bien
+          encore  : « Ce pauvre Lamartine ! quand il entreprend une strophe, il n’en sort plus ! » ;
+          et ce conducteur des ponts et chaussées qui me dit sérieusement  : « Vous prenez Montaigne
+          pour un écrivain ? » Daudet riait d’un beau rire de jeunesse. Le rire et l’émotion
+          flottaient toujours sur ses lèvres. « Nous restons tous de grands enfants, disait-il. La
+          vieillesse ne nous change pas ». Un jour que l’on parlait du manque de sensibilité et
+          d’imagination, il eut ce mot  : « Il y a tant d’êtres inhabités », et celui-ci, qu’il
+          répétait souvent ; « Il y a tant de fous qui vivent en liberté ».‌</p>
         <p>Alphonse Daudet était un enchanteur. Il racontait comme il écrivait. Qui l’a lu l’a
           entendu. Il parlait en souriant, les narines fiévreuses, sur un ton de confidence câline,
           avec des gestes enveloppeurs, s’examinant les doigts un à un, de son regard frôleur et
@@ -761,8 +761,8 @@
           récits étaient de véritables créations inspirées par le sens de la vie ou le sentiment de
           la nature, qu’il éprouvait jusqu’à la souffrance.</p>
         <p>Il évoquait des souvenirs qu’on eût pu imprimer sans y changer un mot, entre autres une
-          visite au bastidon de son oncle  : «  J’étais tout petit. J’allais avec lui. Il faisait une
-          chaleur terrible. Tout brûlait. Les cigales ronflaient. J’entends encore le bruit que
+          visite au bastidon de son oncle  : «  J’étais tout petit. J’allais avec lui. Il faisait
+          une chaleur terrible. Tout brûlait. Les cigales ronflaient. J’entends encore le bruit que
           faisait la clef que mon oncle introduisait dans la serrure du vieux portail de fer, d’où
           s’envolaient des abeilles  ». Ou bien c’était un épisode de la guerre de 1870  : « De
           grands incendies brûlaient au loin dans le silence du crépuscule… Pour échapper aux coups
@@ -806,11 +806,11 @@
           ait mis dans son œuvre tarit de cartonnage et de papier peint. Il y a vraiment trop de
           fées, de chars et de cygnes en carton. Ce n’est pas la peine d’avoir brisé les conventions
           de l’ancien répertoire pour s’encombrer d’un pareil bric-à-brac ».</p>
-        <p>Daudet a toujours vécu dans les meilleurs termes avec Emile Zola, dont il ne partageait
-          pas les idées et dont la production lui inspirait souvent de l’antipathie  : « Il n’y a pas
-          de raison, disait-il, après la publication de la <hi rend="i">Bête Humaine</hi>, pour ne
-          pas faire systématiquement un volume sur chaque branche du commerce et de l’industrie, un
-          volume sur les cuirassés, un autre sur les ballons, un autre sur le Creusot ». Il
+        <p>Daudet a toujours vécu dans les meilleurs termes avec Émile Zola, dont il ne partageait
+          pas les idées et dont la production lui inspirait souvent de l’antipathie  : « Il n’y a
+          pas de raison, disait-il, après la publication de la <hi rend="i">Bête Humaine</hi>, pour
+          ne pas faire systématiquement un volume sur chaque branche du commerce et de l’industrie,
+          un volume sur les cuirassés, un autre sur les ballons, un autre sur le Creusot ». Il
           ajoutait, quand on le poussait : « Oui, c’est entendu, il a du talent ». Alphonse Daudet
           avait trop de loyauté et de bon sens pour ne pas hausser les épaules devant les
           prétentions de ce fameux Naturalisme, dont Flaubert lui-même se moquait et avec lequel
@@ -856,13 +856,13 @@
           gloire aura été de nous avoir donné dans plusieurs de ses livres (<hi rend="i">La Mort de
             Venise, Du Sang et de la Volupté</hi>, etc.), quelques accents impérissables d’une âme
           épuisée de satiété et d’infini. C’est en cela qu’il m’apparaît parfois comme le plus grand
-          écrivain de notre temps. Il me dit un jour, en parlant de Chateaubriand  : « Ah ! celui-là,
-          il nous a tous créés. » Barrès est notre Chateaubriand en réduction. Avec plus de
-          préciosité, il a le même désabusement, et son style a souvent la même image illuminatrice
-          et hautaine. L’homme est déconcertant. Mélange de familiarité et d’ironie, Barrès a
-          toujours l’air de se prêter, non de se donner. Il condescend, il ne se livre pas. Il est
-          aimable pour ceux qui l’aiment, sans que l’admiration qu’on lui témoigne l’incline à
-          connaître de plus près ses admirateurs. Je n’ai eu avec lui, pour ma part, que des
+          écrivain de notre temps. Il me dit un jour, en parlant de Chateaubriand  : « Ah !
+          celui-là, il nous a tous créés. » Barrès est notre Chateaubriand en réduction. Avec plus
+          de préciosité, il a le même désabusement, et son style a souvent la même image
+          illuminatrice et hautaine. L’homme est déconcertant. Mélange de familiarité et d’ironie,
+          Barrès a toujours l’air de se prêter, non de se donner. Il condescend, il ne se livre pas.
+          Il est aimable pour ceux qui l’aiment, sans que l’admiration qu’on lui témoigne l’incline
+          à connaître de plus près ses admirateurs. Je n’ai eu avec lui, pour ma part, que des
           relations agréables. Il m’a même fait un cadeau qui m’a causé le plus grand plaisir. Il
           m’a offert les placards d’épreuves, avec corrections manuscrites, de son <hi rend="i"
             >Voyage de Sparte</hi>. Je me propose de publier quelque jour les curieuses leçons de
@@ -870,16 +870,16 @@
         <p>On rencontrait chez Alphonse Daudet les gens d’opinions les plus opposées. N’attachant
           d’importance qu’à la question de talent, l’auteur du <hi rend="i">Petit Chose</hi> avait
           des relations dans tous les partis ; il était l’ami de Barrès comme il fut l’ami de
-          Gambetta, et l’on sait dans quels termes il a parlé de la Politique  : « O politique, je te
-          hais. Je te hais, parce que tu es grossière, injuste, haineuse, criarde et bavarde ; parce
-          que tu es l’ennemi de l’art et du travail ; parce que tu sers d’étiquette à toutes les
-          sottises, à toutes les ambitions, à toutes les paresses. Aveugle et passionnée, tu sépares
-          de braves cœurs faits pour être unis ; tu lies au contraire des êtres tout à fait
+          Gambetta, et l’on sait dans quels termes il a parlé de la Politique  : « Ô politique, je
+          te hais. Je te hais, parce que tu es grossière, injuste, haineuse, criarde et bavarde ;
+          parce que tu es l’ennemi de l’art et du travail ; parce que tu sers d’étiquette à toutes
+          les sottises, à toutes les ambitions, à toutes les paresses. Aveugle et passionnée, tu
+          sépares de braves cœurs faits pour être unis ; tu lies au contraire des êtres tout à fait
           dissemblables. Tu es le grand dissolvant des consciences, tu donnes l’habitude du
           mensonge, du subterfuge, et, grâce à toi, on voit des honnêtes gens devenus amis des
           coquins, pourvu qu’ils soient du même parti. Je te hais surtout, ô politique, parce que tu
           en es arrivée à tuer dans nos cœurs l’idée de patrie, parce que j’ai vu des démocrates se
-          frotter les mains en apprenant les désastres de Forbach et de Reischofïen, et des
+          frotter les mains en apprenant les désastres de Forbach et de Reischoffen, et des
           impérialistes, après le 4 septembre, ne pas essayer de dissimuler leur joie à chaque
           nouvelle défaite de Chanzy ou de Trochu. »‌</p>
         <p>Les dîners du jeudi étaient, pour les débutants comme nous, une véritable fête. Edmond de
@@ -887,7 +887,7 @@
           la famille, semblait présider ces dîners avec plus d’autorité que le maître de la maison.
           Toujours plein d’égards pour lui, Daudet ne disait jamais que  : « Mon vieux Goncourt. »
           Cet ancêtre illustre, ce Chateaubriand du Réalisme, était alors en pleine renommée. On
-          admirait <hi rend="i">la Fille Elisa, Zemgahno et Chérie</hi>, et j’ai moi-même subi, à ce
+          admirait <hi rend="i">la Fille Élisa, Zemganno et Chérie</hi>, et j’ai moi-même subi, à ce
           moment-là, comme tout le monde, le dangereux prestige de cet art d’écrire dont tous les
           défauts se retrouvent dans les <hi rend="i">Mémoires d’Outre-tombe</hi>, le livre de
           chevet des Goncourt.‌</p>
@@ -901,7 +901,7 @@
           impeccable, semblait poser pour le grand homme, il lui fallait dépenser des trésors de
           diplomatie, afin de ne pas laisser voir les réserves que lui suggérait son esprit fin et
           pénétrant, chaque fois que son noble ami répétait le nous, qui à ses yeux représentait le
-            <hi rend="i">summum</hi> du talent littéraire <note n="14" resp="author">Maurice
+            <hi rend="i">summum</hi> du talent littéraire<note n="14" resp="author">Maurice
             Dreyfous. <hi rend="i">Ce qu’il me reste à dire</hi>, p. 278</note>. »‌</p>
         <p>Edmond de Goncourt était, d’ailleurs, le type du parfait gentilhomme, aimable par
           éducation plus que par nature et sachant très bien concilier le sourire et la politesse
@@ -913,7 +913,7 @@
           phrase vagabonde ; mais cette faiblesse fut passagère, et je ne serais pas étonné que les
           excès de l’école Goncourt eussent contribué à lui donner, après <hi rend="i">Les Rois en
             exil</hi>, ce besoin de condensation et de raccourci qui aboutit à <hi rend="i"
-            >l’Evangéliste</hi> et à l’inimitable <hi rend="i">Sapho</hi>. « Goncourt, nous dit-il,
+            >l’Évangéliste</hi> et à l’inimitable <hi rend="i">Sapho</hi>. « Goncourt, nous dit-il,
           se plaint de l’école décadente. Il ne voit pas que c’est lui qui a engendré ces
           bistourneurs de phrases, ces paradeurs de foire, ces avaleurs d’étoupe enflammée. » Cela
           n’empêchait pas l’auteur du Nabab de rendre justice au talent de son « vieux Goncourt ».
@@ -971,8 +971,8 @@
           son nom et la protection de son œuvre. Sa fierté de gentilhomme ne lui fit jamais perdre
           de vue le soin de la publicité et de la réclame. Quand parut La Faustin, j’ai vu de mes
           yeux, boulevard des Italiens, tendue d’un arbre à l’autre, à la hauteur d’un deuxième
-          étage, une énorme banderole portant l’inscription  : <hi rend="i">Vient de paraître. Edmond
-            de Goncourt. La Faustin.</hi>‌</p>
+          étage, une énorme banderole portant l’inscription  : <hi rend="i">Vient de paraître.
+            Edmond de Goncourt. La Faustin.</hi>‌</p>
         <p>Jules Vallès, en refusant de faire partie de son Académie, écrivit une page qui fit
           scandale à cette époque. « Comment ! disait-il, Goncourt se moque de l’Académie des 40 et
           il veut fonder l’Académie des 10 !… Mais elle sera plus sotte et plus injuste, plus
@@ -984,7 +984,7 @@
         <p>Après avoir déclaré que son fameux <hi rend="i">Journal</hi> ne paraîtrait qu’après sa
           mort, Edmond de Goncourt ne put résister à la tentation de le publier de son vivant, ce
           qui déchaîna bien des froissements d’amour-propre. Alphonse Daudet lui-même eut à souffrir
-          de ces indiscrétions. Je le vois encore, tenant à la main un numéro de <hi rend="i">l’Echo
+          de ces indiscrétions. Je le vois encore, tenant à la main un numéro de <hi rend="i">l’Écho
             de Paris</hi>, qui donnait je ne sais plus quel passage de ces <hi rend="i"
             >Mémoires</hi>, où l’on dépeignait Daudet content de porter un pantalon gris, et autres
           enfantillages de ce genre. Je me rappelle son air découragé et de quel ton sans rancune il
@@ -997,7 +997,7 @@
           « tout doit être vérifié », un chaos de renseignements très curieux pour l’histoire des
           Lettres françaises au <num>xix<hi rend="sup">e</hi></num> siècle.‌</p>
         <p>Il y avait aux dîners d’Alphonse Daudet des luttes d’esprit, des conversations
-          pittoresques, quelquefois même des discussions orageuses; le plus souvent la causerie
+          pittoresques, quelquefois même des discussions orageuses ; le plus souvent la causerie
           était générale, agréable et de bon ton. On parlait un soir de Stanley et de ses voyages.
           C’était l’époque où l’impitoyable explorateur arrachait de force le sédentaire Emin Pacha
           aux délices de Khartoum. Un des convives, M. Hanotaux, qui devait bientôt, comme ministre,
@@ -1065,7 +1065,7 @@
         <p>On le retrouvait ainsi tous les jours, infatigable, sa courte pipe entre ses doigts
           grelottants, frôlant de ses yeux myopes le papier et les livres. C’est dans cette attitude
           d’abandon résigné, de « déliement suprême », si bien rendue par la statue des
-          Champs-Elysées, que les amis d’Alphonse Daudet reverront éternellement le cher grand
+          Champs-Élysées, que les amis d’Alphonse Daudet reverront éternellement le cher grand
           écrivain, assis devant le bureau de travail qu’il n’abandonna jamais. Terrassé, mais non
           vaincu, reprenant la plume au moindre répit, il avait quitté la rue Bellechasse et venait
           à peine de s’installer rue de l’Université, quand un soir, pendant le repas, il eut un
@@ -1083,7 +1083,7 @@
         <head rend="sc">Les Samedis d’Heredia</head>
         <p>Vivre, c’est être quitté des autres ; mourir, c’est en être oublié. Le cœur de l’homme se
           révolte contre la mort et contre l’oubli, qui effacent du même dédain rapide la mémoire
-          des grands artistes et celle des plus humbles créatures. Evoquer les êtres supérieurs
+          des grands artistes et celle des plus humbles créatures. Évoquer les êtres supérieurs
           qu’on a eu la joie de connaître, redonner aux autres la sensation de leur présence, c’est
           non seulement interrompre la prescription d’un injuste oubli et entretenir un culte pieux,
           mais c’est encore ajouter à leurs œuvres deux choses infiniment précieuses  : je veux dire
@@ -1131,8 +1131,8 @@
           avec parfois dans la parole une hésitation qui donne aux mots plus de valeur, l’accueil
           cordial, l’air heureux, et dans toute l’attitude un je ne sais quoi de conquérant, M. de
           Heredia, comme on l’a dit, plaît par une sorte d’exubérance tropicale, par un curieux
-          mélange de hidalgo et de bon garçon <note n="15" resp="author"><hi rend="i">Débats</hi>,
-            31 mai 1895</note> »‌</p>
+          mélange de hidalgo et de bon garçon<note n="15" resp="author"><hi rend="i">Débats</hi>, 31
+            mai 1895</note> »‌</p>
         <p>Le méridionalisme d’Heredia n’avait rien de la hâblerie provençale ; le sentiment de sa
           supériorité ne lui inspira jamais ni une attitude ni un rôle. Il captivait par sa seule
           bonhomie. Le secret de son influence, je dirais même de sa popularité, venait non pas de
@@ -1143,7 +1143,7 @@
           de pondéré.</p>
         <p>Les générations d’aujourd’hui, moins éprises de direction et d’autorité, comprendront
           difficilement le bonheur que nous éprouvions à aller chez Heredia. Cette journée du samedi
-          avait pour nous l’attrait d’une journée de vacances. On se disait la veiIle : « A demain,
+          avait pour nous l’attrait d’une journée de vacances. On se disait la veille : « A demain,
           chez Heredia. » On y songeait le matin  : « Aujourd’hui, on va chez Heredia. » On rentrait
           rue Balzac à trois heures, on y restait jusqu’à sept. L’idée d’échanger de libres
           sentiments et de chères opinions éveillait chez les visiteurs fraternellement mêlés une
@@ -1154,9 +1154,9 @@
           d’aller chez l’auteur des Trophées, parce qu’il vous donnait la flatteuse illusion de
           faire un peu partie du monde littéraire. A force de parler littérature, on finissait par
           croire que la poésie était une sorte d’état social qui en valait bien un autre. Il fallait
-          entendre de quel ton le maître disait : « Le poète fait ceci… Le poète a le droit… Le poète
-          se moque… » On admirait sa fière allocution à l’empereur de Russie  : « Car le poète seul
-          peut tutoyer les rois. »</p>
+          entendre de quel ton le maître disait : « Le poète fait ceci… Le poète a le droit… Le
+          poète se moque… » On admirait sa fière allocution à l’empereur de Russie  : « Car le poète
+          seul peut tutoyer les rois. »</p>
         <p>Les débutants allaient demander à Heredia des lumières sur leur vocation et des conseils
           sur leur métier. Il était une leçon vivante. Les faux esthètes, pour qui le poète est un
           vaticinateur dédaigneusement debout sur son trépied, apprenaient à son école les
@@ -1227,8 +1227,8 @@
           je voudrais savoir ce qu’on dira d’un pareil mariage… Parlez-moi franchement… » —
           « Diable ! reprit-le poète, après une minute d’hésitation. Est-ce que cette personne est
           riche ?… » — « Très riche… » — « Eh bien ! mon cher, c’est bien simple… On dira que vous
-          êtes un m………. » (Il lâcha le mot). L’homme de lettres voulut protester. Heredia l’arrêta  :
-          « Vous m’avez dit de vous parler franchement. Je vous parle franchement ».</p>
+          êtes un m………. » (Il lâcha le mot). L’homme de lettres voulut protester. Heredia
+          l’arrêta  : « Vous m’avez dit de vous parler franchement. Je vous parle franchement ».</p>
         <p>Il nous attendait le samedi dans son cabinet de travail, qu’il ne quittait que pour faire
           quelques courtes apparitions au salon, où M<hi rend="sup">me</hi> Heredia recevait ses
           amies. Le poète commençait par vous montrer le pot à tabac toujours posé sur la cheminée.
@@ -1244,10 +1244,10 @@
         <p>On dit que les bègues sont timides. Heredia n’était pas timide, et cependant, il
           bégayait. Cette hésitation, loin d’être ridicule, forçait, au contraire, agréablement
           l’attention. Il ne dédoublait pas les syllabes, mais les différait, les faisait attendre,
-          et cela produisait de curieux effets. Comment dirai-je ? Heredia se servait d’un pont  : il
-          laissait un intervalle entre les mots, et se simple artifice donnait à ce qu’il disait ou
-          à ce qu’il lisait une sorte d’amplitude captivante. Il récitait d’abord quelques vers sans
-          broncher; puis, arrêté soudain, il se mettait à battre des paupières et à relever les
+          et cela produisait de curieux effets. Comment dirai-je ? Heredia se servait d’un pont  :
+          il laissait un intervalle entre les mots, et se simple artifice donnait à ce qu’il disait
+          ou à ce qu’il lisait une sorte d’amplitude captivante. Il récitait d’abord quelques vers
+          sans broncher ; puis, arrêté soudain, il se mettait à battre des paupières et à relever les
           sourcils. Grâce à quelques consonnes, il franchissait l’obstacle et repartait de plus
           belle. Ceux qui l’ont entendu savent avec quel plaisir on l’écoutait. Les vers prenaient
           dans sa bouche une sorte d’harmonie allongée, comme celui-ci, qu’il citait souvent : « Une
@@ -1264,7 +1264,7 @@
           n’hésita pas une fois. Il fut porté, en quelque sorte, par la solennité d’une diction qui
           lui permit d’amplifier son débit, et personne ne s’aperçut qu’il était bègue. Il racontait
           fièrement cette victoire.</p>
-        <p>Heredia n’était pas superstitieux et s’occupait peu de religion; mais, comme tous les
+        <p>Heredia n’était pas superstitieux et s’occupait peu de religion ; mais, comme tous les
           poètes, l’énigme des choses l’attirait. Il nous racontait, à ce propos, une anecdote qui
           prouve bien que les phénomènes les plus mystérieux s’expliquent quelquefois le plus
           naturellement du monde. La famille de Callias habitait, rue Balzac, l’étage au-dessous du
@@ -1335,8 +1335,8 @@
           près dans les mêmes termes  : a Lamartine est à part. Il a eu des intuitions dont la
           clairvoyance déconcertait les hommes d’Etat. Il a deviné la fortune mobilière, la
           puissance de l’Association, les chemins de fer, l’artillerie. Il a préconisé l’alliance
-          anglaise et l’alliance russe. Il a dénoncé la Prusse : « 80 millions d’Allemands groupés en
-          une seule puissance active contre 36 millions de Français, unité destructive de tout
+          anglaise et l’alliance russe. Il a dénoncé la Prusse : « 80 millions d’Allemands groupés
+          en une seule puissance active contre 36 millions de Français, unité destructive de tout
           équilibre et de toute paix, unité de l’extermination. L’unité allemande, que serait-ce
           autre chose que la coalition en permanence contre la France ». Quel éclair ! Quel
           jugement ! Quelle formule ! »</p>
@@ -1352,8 +1352,8 @@
           ignore à peu près tout des théâtres parisiens. Au fait, pourquoi pas ?… On me citait des
           noms d’inspecteurs  : « Un tel… Un idiot… Tel autre… Un imbécile… » Si ces renseignements
           étaient sûrs, je pouvais sans fausse modestie me mettre à mon tour sur les rangs.
-          Quelqu’un me dit cependant : « J’ai idée qu’il doit falloir bien des protections ». ! Je le
-          dis à Heredia. Il réfléchit une minute. « C’est évident. Voulez-vous une lettre pour
+          Quelqu’un me dit cependant : « J’ai idée qu’il doit falloir bien des protections ». ! Je
+          le dis à Heredia. Il réfléchit une minute. « C’est évident. Voulez-vous une lettre pour
           Catulle Mendès ? Mendès a beaucoup de relations dans le monde des Théâtres. C’est un
           ami ». J’emportai précieusement la lettre qu’il griffonna devant moi, et, à quelques jours
           de là, je me rendis chez Catulle Mendès. L’auteur de la Maison de la Vieille habitait
@@ -1376,7 +1376,7 @@
           large, et, tout en parlant, s’interrompre de temps à autre pour avaler de grands bocks de
           bière et cracher ensuite tranquillement devant lui, sur le tapis de son propre cabinet de
           travail. J’emportai de ma visite ce beau trait de mœurs parisiennes.‌</p>
-        <p>Heredia, on le voit, n’était peut-être pas toujours un homme pratique; mais il n’y avait
+        <p>Heredia, on le voit, n’était peut-être pas toujours un homme pratique ; mais il n’y avait
           pas de sa faute, s’il ne réussissait pas à rendre service.</p>
         <p>L’auteur des <hi rend="i">Trophées</hi> fut l’ami et l’élève préféré de Leconte de Lisle
           qui, entre autres souvenirs, lui légua par testament son habit d’académicien. Heredia le
@@ -1384,7 +1384,7 @@
           voir, ce jour-là, rue Balzac. Je ne me souviens plus si c’était bien un samedi ; je sais
           seulement qu’il me reçut et que nous restâmes seuls quelques instants. « Je suis à vous,
           me cria-t-il, de la pièce voisine. Je vais vous montrer mon habit ». Il entra, content
-          comme un enfant, en grand costume vert; et, se tournant et se retournant, il m’expliqua
+          comme un enfant, en grand costume vert ; et, se tournant et se retournant, il m’expliqua
           les transformations qu’avait subies le vêtement de Leconte de Lisle. « Vous voyez  : il me
           va tout à fait bien. J’en suis ravi ». Le bon conquistador était parfaitement à son aise
           dans cet habit brodé qui mettait en valeur sa belle stature espagnole. « Il est
@@ -1501,12 +1501,12 @@
           qu’il avait beaucoup connu et dont il aimait sincèrement le talent. Il se plaisait à
           répéter les vers connus :</p>
         <quote>
-          <l>O Corse à cheveux plats, que la France était belle, </l>
+          <l>Ô Corse à cheveux plats, que la France était belle,</l>
           <l>Au grand Soleil de Messidor !</l>
-          <l>C’était une cavale indomptable et rebelle, </l>
+          <l>C’était une cavale indomptable et rebelle,</l>
           <l>Sans freins d’acier ni rênes d’or…</l>
           <l/>
-          <l>Non, non, la Liberté n’est pas une Comtesse </l>
+          <l>Non, non, la Liberté n’est pas une Comtesse</l>
           <l>Du noble faubourg Saint-Germain, etc.</l>
         </quote>
         <p>— « Ce sont, disait Heredia, de beaux vers, écrits dans une langue commune. Barbier est
@@ -1517,9 +1517,9 @@
         <quote>
           <l>Tu mourus longuement, plein de gloire et d’ennui.</l>
         </quote>
-        <p>Il ajoutait  : « Ce Barbier était l’homme le plus bête que j’aie connu. Il était tellement
-          bête, qu’on se demandait comment il avait pu faire de pareils vers. Il est vrai qu’on n’a
-          pas besoin d’être intelligent pour être bon poète ».</p>
+        <p>Il ajoutait  : « Ce Barbier était l’homme le plus bête que j’aie connu. Il était
+          tellement bête, qu’on se demandait comment il avait pu faire de pareils vers. Il est vrai
+          qu’on n’a pas besoin d’être intelligent pour être bon poète ».</p>
         <p>Les sonnets du <hi rend="i">Pianto</hi> sont en effet, fort beaux. Quelques-uns peuvent
           passer pour les premiers modèles des grands sonnets retentissants qui font la gloire des
           Trophées.‌</p>
@@ -1608,7 +1608,7 @@
           beaux vers qui n’ont aucun sens ». Ce maître de précision admettait les valeurs
           d’adoucissement, les nécessités d’ombre, les hésitations de pensée qui ont séduit de très
           bons poètes. « Il n’est point nécessaire, pour nous émouvoir, qu’un poème soit clair », a
-          dit Barrès <note n="16" resp="author"><hi rend="i">Amori et dolori sacrum</hi>, p.
+          dit Barrès<note n="16" resp="author"><hi rend="i">Amori et dolori sacrum</hi>, p.
             251</note>. Mais Heredia était trop jalousement artiste pour accepter comme des
           principes ces pures concessions de forme. Il faisait ses réserves même sur Mallarmé, qu’il
           avait beaucoup connu. Il raillait notamment ses idées sur la ponctuation, et, s’il parlait
@@ -1710,7 +1710,7 @@
           beaux vers qui n’ont aucun sens ». Ce maître de précision admettait les valeurs
           d’adoucissement, les nécessités d’ombre, les hésitations de pensée qui ont séduit de très
           bons poètes. « Il n’est point nécessaire, pour nous émouvoir, qu’un poème soit clair », a
-          dit Barrès <note n="16" resp="author"><hi rend="i">Amori et dolori sacrum</hi>, p.
+          dit Barrès<note n="16" resp="author"><hi rend="i">Amori et dolori sacrum</hi>, p.
             251</note>. Mais Heredia était trop jalousement artiste pour accepter comme des
           principes ces pures concessions de forme. Il faisait ses réserves même sur Mallarmé, qu’il
           avait beaucoup connu. Il raillait notamment ses idées sur la ponctuation, et, s’il parlait
@@ -1787,7 +1787,7 @@
         <p>On pense si notre grand ami fut entouré de sollicitations, quand il fut nommé directeur
           littéraire du Journal. Il prit d’abord ce rôle de censeur très au sérieux, mais il ne
           tarda pas à nous confier ses déceptions. Il avait pour mission de choisir les « 
-          nouvelles » que le <hi rend="i">Journal</hi> devait publier; pour tout le reste, on ne le
+          nouvelles » que le <hi rend="i">Journal</hi> devait publier ; pour tout le reste, on ne le
           consultait même pas, et il était là, disait-il, a comme un pavillon destiné à couvrir la
           marchandise ». Désespérant d’avoir aucune espèce d’autorité, il se résigna à n’avoir
           aucune espèce d’initiative. M. Hanotaux finit par le tirer de cette situation, en le
@@ -1814,8 +1814,8 @@
           « Je les quitte. Je les reprends. » Il nous récita un jour le commencement d’un sonnet sur
           Cicéron et les Rostres, qui était admirable de ton et de majesté antiques. Il ne cachait
           pas ses efforts d’assimilation et ce qu’il empruntait aux autres. Loin de s’attribuer le
-          mérite du fameux vers final d’<hi rend="i">Antoine et Cléôpatre  : Toute une mer immense où
-            fuyaient des galères</hi>, il nous faisait remarquer que cette image était contenue
+          mérite du fameux vers final d’<hi rend="i">Antoine et Cléôpatre  : Toute une mer immense
+            où fuyaient des galères</hi>, il nous faisait remarquer que cette image était contenue
           toute entière dans Plutarque.‌</p>
         <p>La modestie d’Heredia éclate, si on peut dire, dans la qualité même de son œuvre, si
           scrupuleusement impersonnelle. On discute encore la question de savoir dans quelle mesure
@@ -1898,10 +1898,10 @@
         <p>« Paul Hervieu, qui est mort prématurément de la guerre, me disait un jour avec ce
           sérieux qui ne l’abandonnait jamais et qui est la marque des grands ambitieux : —
           Croyez-vous que le théâtre de Musset vivra ?… Si j’avais eu quelque à-propos, j’aurais pu
-          lui répondre  : — Pas autant que le vôtre, évidemment, mon cher maître, mais je n’ai jamais
-          eu que l’esprit de l’escalier, qui contredit tout à propos. Par le silence je me contentai
-          de marquer ma stupéfaction qu’un doute pareil pût s’offrir à la pensée d’un homme
-          généralement considéré comme un écrivain. »‌</p>
+          lui répondre  : — Pas autant que le vôtre, évidemment, mon cher maître, mais je n’ai
+          jamais eu que l’esprit de l’escalier, qui contredit tout à propos. Par le silence je me
+          contentai de marquer ma stupéfaction qu’un doute pareil pût s’offrir à la pensée d’un
+          homme généralement considéré comme un écrivain. »‌</p>
         <p>La vocation littéraire de Paul Hervieu datait de loin. Entré au cabinet Freyssinet et aux
           Affaires Etrangères vers 1880, nommé plus tard Secrétaire d’ambassade à Mexico, où il
           refusa de se rendre, Hervieu démissionna et alla rédiger à Melun le journal local de M. de
@@ -1913,8 +1913,8 @@
             rend="i">Une maîtresse femme, l’Ultimatum</hi>, etc., et qui a bien voulu me laisser
           feuilleter la collection de lettres et de manuscrits écrits par son ami, au cours de
           longues années de correspondance et d’intimité. On y trouve des pages savoureuses. Hervieu
-          avait débuté par faire des vers dans le genre Musset, comme ceux-ci, qui sont de 1875 : (Il
-          était né en 1857).‌</p>
+          avait débuté par faire des vers dans le genre Musset, comme ceux-ci, qui sont de 1875 :
+          (Il était né en 1857).‌</p>
         <p>« Ce qui est intéressant dans cette version, c’est qu’elle comporte une répétition de
           moins du verbe faire, et qu’elle atténue ainsi le reproche mérité par la version usuelle
           que vous donnez dans votre <hi rend="i">Art d’écrire</hi> et beaucoup d’autres personnes
@@ -1938,7 +1938,7 @@
         <p>On pense si notre grand ami fut entouré de sollicitations, quand il fut nommé directeur
           littéraire du Journal. Il prit d’abord ce rôle de censeur très au sérieux, mais il ne
           tarda pas à nous confier ses déceptions. Il avait pour mission de choisir les « 
-          nouvelles » que le <hi rend="i">Journal</hi> devait publier; pour tout le reste, on ne le
+          nouvelles » que le <hi rend="i">Journal</hi> devait publier ; pour tout le reste, on ne le
           consultait même pas, et il était là, disait-il, a comme un pavillon destiné à couvrir la
           marchandise ». Désespérant d’avoir aucune espèce d’autorité, il se résigna à n’avoir
           aucune espèce d’initiative. M. Hanotaux finit par le tirer de cette situation, en le
@@ -1965,8 +1965,8 @@
           « Je les quitte. Je les reprends. » Il nous récita un jour le commencement d’un sonnet sur
           Cicéron et les Rostres, qui était admirable de ton et de majesté antiques. Il ne cachait
           pas ses efforts d’assimilation et ce qu’il empruntait aux autres. Loin de s’attribuer le
-          mérite du fameux vers final d’<hi rend="i">Antoine et Cléôpatre  : Toute une mer immense où
-            fuyaient des galères</hi>, il nous faisait remarquer que cette image était contenue
+          mérite du fameux vers final d’<hi rend="i">Antoine et Cléôpatre  : Toute une mer immense
+            où fuyaient des galères</hi>, il nous faisait remarquer que cette image était contenue
           toute entière dans Plutarque.‌</p>
         <p>La modestie d’Heredia éclate, si on peut dire, dans la qualité même de son œuvre, si
           scrupuleusement impersonnelle. On discute encore la question de savoir dans quelle mesure
@@ -2049,10 +2049,10 @@
         <p>« Paul Hervieu, qui est mort prématurément de la guerre, me disait un jour avec ce
           sérieux qui ne l’abandonnait jamais et qui est la marque des grands ambitieux : —
           Croyez-vous que le théâtre de Musset vivra ?… Si j’avais eu quelque à-propos, j’aurais pu
-          lui répondre  : — Pas autant que le vôtre, évidemment, mon cher maître, mais je n’ai jamais
-          eu que l’esprit de l’escalier, qui contredit tout à propos. Par le silence je me contentai
-          de marquer ma stupéfaction qu’un doute pareil pût s’offrir à la pensée d’un homme
-          généralement considéré comme un écrivain. »‌</p>
+          lui répondre  : — Pas autant que le vôtre, évidemment, mon cher maître, mais je n’ai
+          jamais eu que l’esprit de l’escalier, qui contredit tout à propos. Par le silence je me
+          contentai de marquer ma stupéfaction qu’un doute pareil pût s’offrir à la pensée d’un
+          homme généralement considéré comme un écrivain. »‌</p>
         <p>La vocation littéraire de Paul Hervieu datait de loin. Entré au cabinet Freyssinet et aux
           Affaires Etrangères vers 1880, nommé plus tard Secrétaire d’ambassade à Mexico, où il
           refusa de se rendre, Hervieu démissionna et alla rédiger à Melun le journal local de M. de
@@ -2064,24 +2064,24 @@
             rend="i">Une maîtresse femme, l’Ultimatum</hi>, etc., et qui a bien voulu me laisser
           feuilleter la collection de lettres et de manuscrits écrits par son ami, au cours de
           longues années de correspondance et d’intimité. On y trouve des pages savoureuses. Hervieu
-          avait débuté par faire des vers dans le genre Musset, comme ceux-ci, qui sont de 1875 : (Il
-          était né en 1857).‌</p>
+          avait débuté par faire des vers dans le genre Musset, comme ceux-ci, qui sont de 1875 :
+          (Il était né en 1857).‌</p>
         <quote>
-          <l>Chanterai-je l’amour ? C’est la corde sensible </l>
+          <l>Chanterai-je l’amour ? C’est la corde sensible</l>
           <l>Qu’il faudrait caresser d’un doigt souple et léger. ‌</l>
           <l>Ah ! ne rougissez pas sans prétexte plausible. ‌</l>
           <l>Je ne vois pas de mots couverts à corriger.‌</l>
           <l/>
-          <l>Je parlais simplement des amours platoniques </l>
-          <l>Et des amours pensifs sons les balcons dorés, </l>
-          <l>Des serments confiés aux oreilles pudiques, </l>
+          <l>Je parlais simplement des amours platoniques</l>
+          <l>Et des amours pensifs sons les balcons dorés,</l>
+          <l>Des serments confiés aux oreilles pudiques,</l>
           <l>Et des regards perdus dans les cœurs azurés.</l>
         </quote>
         <p>En 1874, sans le connaître, il adressait les vers suivants à Victor Hugo  :</p>
         <quote>
-          <l>Maître, pardonnez-moi, si ma plume ose écrire </l>
-          <l>A celui qu’Appollon Musagète entretient ; </l>
-          <l>Mais je n’ai pas vingt ans, et votre fière lyre </l>
+          <l>Maître, pardonnez-moi, si ma plume ose écrire</l>
+          <l>A celui qu’Appollon Musagète entretient ;</l>
+          <l>Mais je n’ai pas vingt ans, et votre fière lyre</l>
           <l>M’a rendu fou d’amour pour le Dieu qui la tient.</l>
         </quote>
         <p>Le premier roman d’Hervieu, <hi rend="i">l’Inconnu</hi>, fut présenté et refusé à <hi
@@ -2099,24 +2099,24 @@
           que ses phrases fussent toujours très bien faites. Cette difficulté de s’exprimer le
           rendait timide et l’empêchait de parler en public. Il lisait ses discours. Un jour, étant
           délégué à Berlin, il prononça quelques mots choisis, qui enthousiasmèrent ses auditeurs
-          boches  : « Dites-nous souvent de ces jolies choses. » Hervieu eût très bien pu tirer parti
-          de ses habitudes de silence et de mutisme. Il eût été, dans une monarchie, un diplomate
-          distingué.</p>
-        <p>Il ne se liait pas facilement; mais, quand il se donnait, c’était la fidélité même. Son
+          boches  : « Dites-nous souvent de ces jolies choses. » Hervieu eût très bien pu tirer
+          parti de ses habitudes de silence et de mutisme. Il eût été, dans une monarchie, un
+          diplomate distingué.</p>
+        <p>Il ne se liait pas facilement ; mais, quand il se donnait, c’était la fidélité même. Son
           sens du comique lui faisait rechercher certains originaux. C’est ainsi qu’il connut au
           Helder un nommé Lebourg, disparu sans laisser de traces,</p>
         <p>Hervieu n’aimait pas les gens ennuyeux. Il répondit à quelqu’un qui lui demandait le nom
           d’un individu coudoyé dans un cercle  : « C’est le seul survivant d’un groupe qui se
           rencontrait ici. Tous sont morts. C’est lui qui a hérité de tout. Ils avaient fondé une
           tontine de raseurs. »</p>
-        <p>Il écrivait un jour à son ami Gavarry  : « Je me suis livré ces jours-ci à une besogne qui
-          t’aurait sans doute autant intéressé que moi. Après une perte de 250 francs au baccarat,
-          qui avait précédé un gain de 140 francs, j’ai découvert un Grec. Depuis lors, sans
-          provoquer le moindre éclat (car ce Grec était piémontais et probablement styliste, au pire
-          sens du mot) je me suis fait l’ombre de mon bourreau devenu ma victime. Je lui ai montré
-          que je suivais ses regards, ses mains, ses manches, ses poches. Il vient de perdre, par
-          impuissance de réagir et pour sauver les apparences, 1.200 francs. Et, en fin de compte,
-          je viens de le voir filer avec ses malles en tape-cul. Je couche ce soir sur les
+        <p>Il écrivait un jour à son ami Gavarry  : « Je me suis livré ces jours-ci à une besogne
+          qui t’aurait sans doute autant intéressé que moi. Après une perte de 250 francs au
+          baccarat, qui avait précédé un gain de 140 francs, j’ai découvert un Grec. Depuis lors,
+          sans provoquer le moindre éclat (car ce Grec était piémontais et probablement styliste, au
+          pire sens du mot) je me suis fait l’ombre de mon bourreau devenu ma victime. Je lui ai
+          montré que je suivais ses regards, ses mains, ses manches, ses poches. Il vient de perdre,
+          par impuissance de réagir et pour sauver les apparences, 1.200 francs. Et, en fin de
+          compte, je viens de le voir filer avec ses malles en tape-cul. Je couche ce soir sur les
           positions. Un doute seul gâte ma joie  : Ce Grec était-il vraiment un Grec ? »</p>
         <p>Le souvenir de Paul Hervieu est resté pour moi inséparable d’Heredia.</p>
         <p>C’est encore chez Heredia que j’ai connu André Theuriet, l’auteur de <hi rend="i"
@@ -2173,7 +2173,7 @@
           Louys, qui venait de publier Aphrodite et qui accueillait avec modestie l’ouragan de
           gloire déchaîné par l’article de Coppée ; Emile Pouvillon, charmant conteur, qui se
           plaignait de ne pouvoir retrouver la verve de ses premiers romans, <hi rend="i"
-            >l’Innocent</hi> et <hi rend="i">Jean de Jeanne</hi> ; Henri Mazel, qui débutait et
+            >l’Innocent</hi> et <hi rend="i">Jean de Jeanne</hi> ; Henri Mazel, qui débutait et
           fondait <hi rend="i">l’Ermitage</hi> en 1890, avec Laurent Tailhade et Bernard Lazare ; Le
           Vicomte de Guerne, auteur des <hi rend="i">Siècles morts</hi>, espèces de <hi rend="i"
             >Légendes des Siècles</hi> écrites en vers majestueusement parnassiens ; M. d’Avenel,
@@ -2185,10 +2185,10 @@
           débuts à la <hi rend="i">Revue des Deux-Mondes</hi> ; le glorieux général Dodds, si simple
           d’accueil et de manières ; le vieux peintre Jules Breton, ami personnel d’Heredia ; Porto
           Riche, l’Auteur d’amoureuse, dont on nous vantait l’imagination passionnelle ; le docteur
-          Mardrus, dont Heredia disait  : « Comment !… Vous ne connaissez pas ce Levantin… subtil ? »
-          Musurus Bey, qui faisait lui-même de très beaux sonnets ; Auguste Angellier, auteur de
-          parfaits poèmes ; l’historien Du Bled, le souriant conférencier, Léon Séché, l’infatigable
-          érudit, etc.‌</p>
+          Mardrus, dont Heredia disait  : « Comment !… Vous ne connaissez pas ce Levantin…
+          subtil ? » Musurus Bey, qui faisait lui-même de très beaux sonnets ; Auguste Angellier,
+          auteur de parfaits poèmes ; l’historien Du Bled, le souriant conférencier, Léon Séché,
+          l’infatigable érudit, etc.‌</p>
         <p>Le poète et romancier Charles Le Goffic venait aussi rue Balzac. Ecrivain de talent,
           aujourd’hui en pleine renommée, ayant encore grandi son nom par de belles œuvres
           douloureuses et patriotiques Charles Le Goffic est un Breton qui incarne le type
@@ -2208,8 +2208,8 @@
           d’en faire la remarque. Edouard Gallon lui expliqua alors en souriant le sens des vers qui
           pouvaient sembler obscurs. Heredia se déclara satisfait et ne fit plus d’objection. Callon
           était un homme fort instruit, qui se donnait un mal du diable pour exécuter ces
-          merveilleux casse-têtes, parus plus tard en volume sous le titre  : <hi rend="i">Visions et
-            Raisons</hi>. Il habitait, rue de Birague, un bel appartement, dans un vieil hôtel
+          merveilleux casse-têtes, parus plus tard en volume sous le titre  : <hi rend="i">Visions
+            et Raisons</hi>. Il habitait, rue de Birague, un bel appartement, dans un vieil hôtel
           donnant sur la place des Vosges. Au courant de tout ce qui touchait la librairie et
           l’érudition, il avait chez lui une vaste bibliothèque, uniquement composée de beaux livres
           reliés, qui faisaient honneur à son goût bibliophilique. Après avoir fréquenté pendant
@@ -2217,8 +2217,8 @@
           soignait avec la même application minutieuse qu’il apportait à écrire ses hermétiques
           sonnets. A ceux qui critiquaient son mode de travail, Callon répondait victorieusement  :
           « Heredia travaille bien plus que moi. » L’auteur des <hi rend="i">Trophées</hi> savait
-          qu’on lui faisait ce reproche, et il disait avec un certain dédain  : « Il y a des gens qui
-          ont du génie. Moi, je n’ai que du talent. C’est plus rare. » A cette époque, comme
+          qu’on lui faisait ce reproche, et il disait avec un certain dédain  : « Il y a des gens
+          qui ont du génie. Moi, je n’ai que du talent. C’est plus rare. » A cette époque, comme
           aujourd’hui, ses sonnets avaient leurs admirateurs et leurs détracteurs. On citait
           malicieusement les deux vers d’Henri Becque :</p>
         <quote>
@@ -2227,9 +2227,9 @@
         </quote>
         <p>Et ce méchant quatrain, qui n’était pas bien méchant :</p>
         <quote>
-          <l>Tu crois descendre d’un routier </l>
-          <l>Qui jadis conquit Carthagène ; </l>
-          <l>Détrompe-toi, noble indigène, </l>
+          <l>Tu crois descendre d’un routier</l>
+          <l>Qui jadis conquit Carthagène ;</l>
+          <l>Détrompe-toi, noble indigène,</l>
           <l>Tu descends de ton cocotier.</l>
         </quote>
         <p>Le dénigrement et la louange sont les deux pôles oscillatoires de toute grande réputation
@@ -2310,9 +2310,10 @@
           France quelques années auparavant, lui exprima sa surprise de ne pas l’avoir rencontré à
           Paris. « Ça ne m’étonne pas, dit tranquillement Moréas, je ne vais voir personne. »‌</p>
         <p>Quand il renonçait au paradoxe, il avait des idées droites et justes et de parfait bon
-          sens. On disait devant lui d’un ouvrage  : « C’est sincère. » — « Etre sincère, dit Moréas,
-          ne signifie rien. On peut écrire des banalités et être sincère. Un imbécile aussi est
-          sincère. J’aimerais mieux qu’on ne soit pas sincère et qu’on fasse de beaux vers. »</p>
+          sens. On disait devant lui d’un ouvrage  : « C’est sincère. » — « Etre sincère, dit
+          Moréas, ne signifie rien. On peut écrire des banalités et être sincère. Un imbécile aussi
+          est sincère. J’aimerais mieux qu’on ne soit pas sincère et qu’on fasse de beaux
+          vers. »</p>
         <p>Moréas essaya quelquefois de voyager. Il disparaissait subitement. A peine dans la
           banlieue, il rebroussait chemin, revenait le soir et ne parlait pas de sa tentative
           d’évasion. Il fit cependant une excursion dans le Midi de la France. Le pays de Bandol et
@@ -2339,7 +2340,7 @@
           qu’au grand air et dans la rue.</p>
         <p>Théophile Gautier a fait des habitudes de café une peinture peu flatteuse, mais qui peut
           donner une idée de nos réunions à cette époque. « Régulièrement, à l’heure dite, ils
-          arrivent, ils vont s’asseoir à leur table; elle est retenue à côté des mêmes habitués… En
+          arrivent, ils vont s’asseoir à leur table ; elle est retenue à côté des mêmes habitués… En
           face de la même sempiternelle glace, piquée de mouches, ils accrochent leurs chapeaux à la
           même patère, et le même garçon leur sert invariablement le même moka au jus de réglisse,
           dans d’horribles tasses-bocks, pareilles à des cornets de tric-trac. Pour horizons une
@@ -2363,7 +2364,7 @@
           plus. Il est plus facile de railler que de guérir l’habitude d’aller au café. Il y aurait
           bien des distinctions à faire dans les sentiments de réprobation que peuvent mériter les
           habitués de ces établissements publics. Certaines personnes vont au café pour boire ;
-          d’autres y vont jouer et fumer ; d’autres discuter et pérorer; il y en a qui vont au café
+          d’autres y vont jouer et fumer ; d’autres discuter et pérorer ; il y en a qui vont au café
           pour retrouver leurs amis, pour savoir ce qui se dit, ce qui se passe, et parce qu’on est
           esclave d’un besoin de sociabilité qui est une habitude comme une autre. « On ne va pas
           seulement au café parce qu’on a soif, dit Maxime Rude, mais parce que chaque café est un
@@ -2378,7 +2379,7 @@
           par Paul de Saint Victor. « Il y saigna, dit Bergerat, tout le sang de son corps déraciné.
           Paul de Saint Victor le traînait comme à la laisse. Il suivait son maître en soupirant et,
           devant les plus beaux Raphaëls, il gémissait en regardant sa montre  : « Midi. Qui est-ce
-          qui me prend mon coin au Café Riche ? » <note n="18" resp="author">Bergerat. <hi rend="i"
+          qui me prend mon coin au Café Riche ? »<note n="18" resp="author">Bergerat. <hi rend="i"
               >Souvenirs d’un enfant de Paris</hi>, p. 221.</note> C’est le même sentiment qui
           faisait dire à Verlaine causant avec un ami qui venait le voir dans son hôpital, par un
           beau jour, tout éclatant de soleil  : « Comme on serait bien au fond d’un café ! »‌</p>
@@ -2390,9 +2391,9 @@
         <p>C’est comme le tabac, ajoutait-il, en regardant sa pipe avec mépris… Autrefois je fumais
           vingt-cinq à trente pipes par jour… A la bonne heure… »</p>
         <p>Trouvait-il peu de monde au café, Moréas fronçait les sourcils et, effilant sa moustache
-          entre ses doigts, il finissait par dire  : « Il n’y a donc personne aujourd’hui ? Qu’est-ce
-          qu’ils peuvent bien faire ? », ne comprenant pas qu’on pût être autre part qu’au café, à
-          jouer, à boire ou à discuter. La réunion était-elle au complet, sa satisfaction se
+          entre ses doigts, il finissait par dire  : « Il n’y a donc personne aujourd’hui ?
+          Qu’est-ce qu’ils peuvent bien faire ? », ne comprenant pas qu’on pût être autre part qu’au
+          café, à jouer, à boire ou à discuter. La réunion était-elle au complet, sa satisfaction se
           trahissait rien qu’à la façon de dire : « Bonjour Messieurs… » Prenant sa place dans son
           coin, il attisait la conversation par des taquineries improvisées ou un mot aimable pour
           chacun. Faisait-on mine de sortir, il se fâchait  : « Où allez-vous ? Quelle bêtise !
@@ -2416,11 +2417,11 @@
         <p>Quand il déjeunait au Vachette, il commençait par renvoyer tous les plats. Tout était
           « infect » « Le gérant s’inclinait en souriant. On faisait mine de lui changer son
           « infecte » côtelette, et on la lui rapportait un instant après. Il la regardait
-          attentivement  : « A la bonne heure ! » S’il demandait de la fine champagne, il flairait la
-          bouteille  : «  — Qu’est-ce que c’est que cette plaisanterie ? Apportez-moi de la vraie ».
-          On tâchait de lui persuader qu’il se trompait; mais, comme il n’entendait pas raison, le
-          gérant finissait par aller chercher une bouteille, qu’on débouchait solennellement. Il la
-          humait  : « Très bien !… » C’était la même.</p>
+          attentivement  : « A la bonne heure ! » S’il demandait de la fine champagne, il flairait
+          la bouteille  : «  — Qu’est-ce que c’est que cette plaisanterie ? Apportez-moi de la
+          vraie ». On tâchait de lui persuader qu’il se trompait ; mais, comme il n’entendait pas
+          raison, le gérant finissait par aller chercher une bouteille, qu’on débouchait
+          solennellement. Il la humait  : « Très bien !… » C’était la même.</p>
         <p>Pendant des années il prit ses repas au premier étage d’un marchand de vin ayant pour
           enseigne A la côte d’or et qui se trouve en face de l’Odéon, au coin de la rue de
           Vaugirard et de la rue Corneille. Il y eut là des discussions qui dépassent tout ce qu’on
@@ -2493,8 +2494,8 @@
           hôte, la vieille dame ouvrit un bureau rempli d’une poussiéreuse correspondance. « Ce sont
           ses lettres, dit-elle. Chaque semaine il m’écrivait ainsi sept ou huit pages. Quand, pour
           la première fois depuis trente ans, le vendredi matin, je ne reçus point de lettres de
-          Paris, je compris que mon pauvre Jean était bien malade <note n="19" resp="author">Les <hi
-              rend="i">Soirées de Paris</hi>, n°1. </note>. »</p>
+          Paris, je compris que mon pauvre Jean était bien malade<note n="19" resp="author">Les <hi
+              rend="i">Soirées de Paris</hi>, n°1.</note>. »</p>
         <p>Caractère faible, incapable de vaincre ses instincts, Moréas était, comme Rolla, la proie
           des puissances extérieures. Etranger à toute espèce de préoccupation philosophique ou
           morale, il rabaissait de parti-pris tous les sujets de conversation qui pouvaient
@@ -2506,8 +2507,8 @@
           sourcils. Quelques jours après, me voyant dans les mains un autre livre du même genre, il
           parut inquiet et me dit ironiquement  : — « Alors ça vous amuse, ces histoires-là ? » —
           « Mais oui, lui dis-je, beaucoup. » Il renifla et ôta son monocle, n’osant dire toute sa
-          pensée. La troisième fois qu’il me prit sur le fait, il dit en riant  : « Je crois que vous
-          le faites exprès. »</p>
+          pensée. La troisième fois qu’il me prit sur le fait, il dit en riant  : « Je crois que
+          vous le faites exprès. »</p>
         <p>Il niait de parti-pris tout ce qui choquait ses idées. Ainsi il savait que je faisais
           tous les jours, par n’importe quel temps, une dizaine de kilomètres à pied. Je le quitte
           un jour d’hiver à la porte du café. Le thermomètre depuis une semaine marquait huit ou dix
@@ -2516,9 +2517,9 @@
           rire et refusa de discuter. « Laissez-moi donc tranquille. » Or, j’allai précisément ce
           jour-là à pied jusqu’aux abattoirs, par la rue de Flandre ; et, pour bien lui montrer que
           je n’avais pas menti, je m’amusai à lui envoyer heure par heure des cartes postales, mises
-          aux boites des débits de tabac que je rencontrai, avec un mot signé  : « Deux heures, temps
-          vif… » « Trois heures, brise fraîche… Quatre heures, 10 degrés… » Moréas reçut tout le
-          paquet le lendemain au café. Il n’en parla à personne, pas même à moi.</p>
+          aux boites des débits de tabac que je rencontrai, avec un mot signé  : « Deux heures,
+          temps vif… » « Trois heures, brise fraîche… Quatre heures, 10 degrés… » Moréas reçut tout
+          le paquet le lendemain au café. Il n’en parla à personne, pas même à moi.</p>
         <p>Il n’aimait que la poésie. La poésie absorbait toutes les puissances de son être. Il
           connaissait admirablement les poètes du XVI<hi rend="sup">e</hi> siècle. Je le plaisantais
           quelquefois  : « Moréas, vous n’aimez pas la littérature. Vous n’aimez que la poésie. » II
@@ -2527,8 +2528,8 @@
           bien sans le savoir. Un poète ne sait jamais ce qu’il fait… Il produit des vers comme le
           rosier donne des roses… Vous êtes certainement le seul à ne pas comprendre les <hi
             rend="i">Stances</hi> ». Ce paradoxe trouvait grâce à ses yeux. Il effilait sa
-          moustache. « Après tout, c’est peut-être vrai ». Mais son sourire signifiait  : « J’en sais
-          plus long que vous là-dessus. »‌</p>
+          moustache. « Après tout, c’est peut-être vrai ». Mais son sourire signifiait  : « J’en
+          sais plus long que vous là-dessus. »‌</p>
         <p>Moréas fut exclusivement un poète, un homme de fantaisie, de choix, d’indolence, toujours
           en quête de rimes, de mots et de citations. Il vous disait brusquement  : « Savez-vous de
           qui est ce vers ? » On cherchait, on ne trouvait pas. « — Mais vous ne savez donc rien !
@@ -2636,12 +2637,12 @@
           <l/>
           <l>Tout s’est-il envolé ? Je suis seul, je suis las ; ‌</l>
           <l>J’appelle sans qu’on me réponde ;‌</l>
-          <l>O vents ! ô flots ! ne suis-je aussi qu’un souffle, hélas ! ‌</l>
+          <l>Ô vents ! ô flots ! ne suis-je aussi qu’un souffle, hélas ! ‌</l>
           <l>Hélas ! ne suis-je aussi qu’une onde ?…‌</l>
           <l/>
           <l>Et je reste parfois, couché sans me lever, ‌</l>
           <l>Sur l’herbe rare de la dune,‌</l>
-          <l>Jusqu’à l’heure où l’on voit apparaître et rêver </l>
+          <l>Jusqu’à l’heure où l’on voit apparaître et rêver</l>
           <l>Les yeux sinistres de la lune…</l>
         </quote>
         <p>« Voilà la vraie poésie, disait Moréas. Voilà le vrai Victor Hugo ! » Ce n’est pas qu’il
@@ -2650,21 +2651,21 @@
           comme des é aigus :‌</p>
         <quote>
           <l>Castibelza, l’homme à la carabine,</l>
-          <l>Chantait ainsi  : </l>
-          <l>Quelqu’un a-t-il connu dona Sabine, </l>
+          <l>Chantait ainsi  :</l>
+          <l>Quelqu’un a-t-il connu dona Sabine,</l>
           <l>Quelqu’un d’ici…</l>
           <l/>
           <l>Chantez, villageois, la nuit gagne</l>
-          <l rend="margin">Le mont Falou… </l>
-          <l rend="margin">Le vent qui souffle à travers la montagne </l>
+          <l rend="margin">Le mont Falou…</l>
+          <l rend="margin">Le vent qui souffle à travers la montagne</l>
           <l rend="margin">Me rendra fou…</l>
         </quote>
         <p>Puis c’était le tour du <hi rend="i">Pas d’armes du roi Jean</hi> :</p>
         <quote>
-          <l>Notre Dame ! </l>
-          <l>Que c’est beau ! </l>
+          <l>Notre Dame !</l>
+          <l>Que c’est beau !</l>
           <l>Par mon âme ‌</l>
-          <l>De Corbeau, </l>
+          <l>De Corbeau,</l>
           <l>Voudrais être ‌</l>
           <l>Clerc ou prêtre ‌</l>
           <l>Pour y mettre ‌</l>
@@ -2673,7 +2674,7 @@
         <p>Il y avait un vers de Musset, qu’il citait souvent, et toujours d’un air terrible, avec
           un grondement d’ouragan :</p>
         <quote>
-          <l>A Venise, à l’affrrreux Lido, </l>
+          <l>A Venise, à l’affrrreux Lido,</l>
           <l>Mourir la pâââle Adriatique.</l>
         </quote>
         <p>Moréas entreprenait quelquefois de vous expliquer ce que c’était que la poésie. Il se
@@ -2706,13 +2707,13 @@
         <quote>
           <l>Apollon, à portes ouvertes, ‌</l>
           <l>Laisse indifféremment cueillir ‌</l>
-          <l>Les belles feuilles toujours vertes </l>
-          <l>Qui gardent les fronts de vieillir ; </l>
+          <l>Les belles feuilles toujours vertes</l>
+          <l>Qui gardent les fronts de vieillir ;</l>
           <l>Mais l’art d’en faire des couronnes ‌</l>
           <l>N’est pas su de toutes personnes, ‌</l>
-          <l>Et trois ou quatre seulement, </l>
-          <l>Au nombre desquels on me range, </l>
-          <l>Peuvent donner une louange </l>
+          <l>Et trois ou quatre seulement,</l>
+          <l>Au nombre desquels on me range,</l>
+          <l>Peuvent donner une louange</l>
           <l>Qui demeure éternellement.‌</l>
         </quote>
         <p>On ne peut pas dire que Moréas fût de ses propres vers <hi rend="i">lecteur
@@ -2726,13 +2727,13 @@
           moustache et remonté son épaule, il commençait quelqu’une de ses truculentes poésies,
           comme le <hi rend="i">Ruffian</hi> ou la <hi rend="i">Dame du vieux Tintoret</hi> :</p>
         <quote>
-          <l>Quelle est cette aubade câline, </l>
-          <l>Chantée on dirait en bateau ; </l>
-          <l>Et quel est ce pizzicato </l>
-          <l>De guitare et de mandoline ? </l>
-          <l>Et cette dame, quelle est-elle, </l>
-          <l>Cette dame que l’on dirait </l>
-          <l>Peinte par le vieux Tintoret </l>
+          <l>Quelle est cette aubade câline,</l>
+          <l>Chantée on dirait en bateau ;</l>
+          <l>Et quel est ce pizzicato</l>
+          <l>De guitare et de mandoline ?</l>
+          <l>Et cette dame, quelle est-elle,</l>
+          <l>Cette dame que l’on dirait</l>
+          <l>Peinte par le vieux Tintoret</l>
           <l>Dans sa robe de brocatelle ?</l>
         </quote>
         <p>Moréas savait donner aux vers toute leur plénitude retentissante. Il en détaillait chaque
@@ -2741,8 +2742,8 @@
           Desrousseaux l’accompagnait au piano comme il pouvait, regrettant de ne pas être bon
           pianiste. Un jour qu’il essayait de jouer je ne sais plus quel air, il laissa retomber ses
           bras de découragement, et se tournant vers son ami le musicien Dubreuilh, il dit en
-          martelant les mots avec conviction  : « — Je n’ai pas de fortune  : mais, si j’en avais, je
-          la donnerais toute entière pour savoir jouer du piano. »</p>
+          martelant les mots avec conviction  : « — Je n’ai pas de fortune  : mais, si j’en avais,
+          je la donnerais toute entière pour savoir jouer du piano. »</p>
         <p>Ces soirées chez Putois-Crété sont restées parmi les plus gais souvenirs de cette vie du
           quartier latin, qui a duré quelques années et qui est si loin maintenant… Les uns sont
           morts, les autres dispersés, et le fougueux Desrousseaux était hier encore, sous le nom de
@@ -2810,7 +2811,7 @@
           Moréas fronce les sourcils : « — Non, pas celui-là. — Pourquoi ? — Ce cheval ne me plaît
           pas. Il nous arrivera quelque chose. — Quelle idée ! Voyons, décide-toi ». Moréas
           résistait en mâchonnant son cigare. Enfin il se résigna en disant : « — Soit ; mais nous
-          aurons une histoire. » On monte, le cheval part; au bout de cent mètres, la voiture
+          aurons une histoire. » On monte, le cheval part ; au bout de cent mètres, la voiture
           oscille et dépose nos deux amis sur le trottoir. Moréas se relève sans lâcher son cigare
           et, debout, remettant tranquillement son monocle, il se contente de faire cette
           réflexion  : « — Je te l’avais bien dit, »</p>
@@ -2873,8 +2874,9 @@
         <p>Esprit pondéré, ennemi du bruit, discret de sourire et de manières, Boylesve, comme
           toutes les personnes bien élevées, avait des superstitions et des manies. Pour rien au
           monde, il n’eût pris part à un dîner de treize couverts. Il arriva un soir en retard à un
-          repas d’amis qui comptait douze convives. On s’écria joyeusement  : « Voilà le treizième ».
-          Boylesve ne riait pas. Il refusa de s’asseoir et se fit servir à une petite table.</p>
+          repas d’amis qui comptait douze convives. On s’écria joyeusement  : « Voilà le
+          treizième ». Boylesve ne riait pas. Il refusa de s’asseoir et se fit servir à une petite
+          table.</p>
         <p>Georges Doncieux doit être aussi compté parmi les amis de Moréas et les disparus du
           Vachette. Ironique figure de Méphisto, fils de l’ancien préfet de Vaucluse sous l’Ordre
           Moral, Doncieux représentait bien le type de l’homme du monde qui a fait de brillantes
@@ -2906,14 +2908,14 @@
           peut-être pas existé… tandis que moi j’existe… »</p>
         <p>A la pension Laveur, il eut un soir pour voisin un homme de lettres qui faisait
           profession d’aimer la poésie. « — Ah ! dit Moréas soupçonneux. Et quel est le poète que
-          vous préférez ? » L’autre répondit  : « — Oh ! moi, en poésie, je suis éclectique. » « — Il
-          ne faut pas être éclectique », dit sévèrement Moréas lui tournant le dos.</p>
+          vous préférez ? » L’autre répondit  : « — Oh ! moi, en poésie, je suis éclectique. » « —
+          Il ne faut pas être éclectique », dit sévèrement Moréas lui tournant le dos.</p>
         <p>Quand il avait fini de réciter une de ses poésies, il fronçait les sourcils et, avec un
-          petit relèvement d’épaules satisfait, il vous disait confidentiellement  : « — N’est-ce pas
-          que ce sont des vers de grand poète ? »</p>
+          petit relèvement d’épaules satisfait, il vous disait confidentiellement  : « — N’est-ce
+          pas que ce sont des vers de grand poète ? »</p>
         <p>Il n’admettait l’éloge des autres qu’avec des réserves rassurantes pour sa propre gloire.
           Baragnon ayant un jour déclaré (ce que nous pensions tous) que Mistral était le plus grand
-          poète du siècle, Moréas ne dit rien et effila sa moustache d’un air pensif; puis, prenant
+          poète du siècle, Moréas ne dit rien et effila sa moustache d’un air pensif ; puis, prenant
           Baragnon à part, la voix radoucie, insinuante  : « Alors, vraiment, dit-il, vous trouvez
           que Mistral est un aussi grand poète que ça ? — Mais oui, dit Baragnon, et bien plus grand
           encore. — Voyons… un aussi grand poète que moi ? — Oui », dit Baragnon, qui pourtant
@@ -2941,8 +2943,8 @@
           Faguet ? » (Il s’agissait d’<hi rend="i">Iphigénie</hi>). « — Faguet ne m’a jamais dit que
           du bien de vous… » « — Oui, je sais, mais enfin ? » Il fut à peine rassuré, le jour où,
           rendant compte d’Iphigénie dans les Débats, Faguet citait élogieusement quelques passages
-          de la pièce  : « Oui, dit Moréas, en fronçant les sourcils… Oui, c’est très bien », du même
-          ton qu’il eût dit  : « De sa part, c’est déjà beaucoup ».‌</p>
+          de la pièce  : « Oui, dit Moréas, en fronçant les sourcils… Oui, c’est très bien », du
+          même ton qu’il eût dit  : « De sa part, c’est déjà beaucoup ».‌</p>
         <p>Il aurait voulu vous persuader qu’aucune supériorité ne manquait à sa poésie. Il disait à
           notre ami Gillouin le philosophe  : « — Vous savez qu’il n’y a rien de plus philosophique
           que mes vers », et à notre ami Vulliaud, qui s’occupait d’ésotérisme  : « Il y a aussi de
@@ -2986,7 +2988,7 @@
           Je l’attendais devant la porte d’une pâtisserie, où il entrait vers sept heures. Il
           mangeait là, d’affilée, dix ou douze gâteaux. Cela fait, il disait magnifiquement à la
           pâtissière  : « Et maintenant, Madame, je viendrai vous payer demain. » Puis on allait au
-          café, et, au petit jour, on parlait encore de Ronsard <note n="20" resp="author">Georges
+          café, et, au petit jour, on parlait encore de Ronsard<note n="20" resp="author">Georges
             Docquois. <hi rend="i">Nos émotions pendant la guerre</hi>, p.23</note>. » Grand
           travailleur, peintre épique de notre époque industrielle, Paul Adam ne continua pas
           longtemps cette vie de paresse, et ne tarda pas à perdre de vue son ancien ami du
@@ -3084,13 +3086,13 @@
           sous la coupole  : « C’est bien simple. Moréas commencera par une phrase dans ce genre  :
           Messieurs, Sophocle, Racine et peut-être moi… »</p>
         <p>J’ai rarement entendu Moréas parler de la mort, de l’énigme humaine, de la vie future. Il
-          a écrit quelque part  : « O monts de l’Attique, ô Phalère aux blancs rivages ! Il sied que
+          a écrit quelque part  : « Ô monts de l’Attique, ô Phalère aux blancs rivages ! Il sied que
           je vous admire sans tendresse désormais. Je touche à la perfection et à la mort. Mais la
           mort est une sottise. » En quoi la mort est-elle une sottise ? Il ne l’expliquait pas. Il
           me dit un jour  : « La vie et la mort, au fond, c’est la même chose, puisque, quand on est
           mort, on n’en sait rien. » Un autre jour, il ajouta avec gravité  : « Vous savez ce que
           j’ai dit de la mort dans <hi rend="i">Feuillets</hi> ? — Non, je ne me rappelle plus. — Je
-          dis ceci… » Et, se reculant, un doigt levé pour solenniser sa parole  : « O mort, je ne te
+          dis ceci… » Et, se reculant, un doigt levé pour solenniser sa parole  : « Ô mort, je ne te
           crains plus. Je te connais trop bien. » Et, comme cette déclaration me laissait perplexe,
           il reprit en souriant  : « — Vous ne savez pas… Vous ne pouvez pas comprendre. » Il
           prononçait ainsi très souvent des phrases sybillines auxquelles il donnait une mystérieuse
@@ -3123,9 +3125,9 @@
           instant la haute cheminée d’usine d’où sortait une épaisse fumée noire : c’était l’âme de
           Moréas qui s’en allait, comme il l’avait souhaité dans les Stances  :</p>
         <quote>
-          <l>« Compagne de l’éther, indolente fumée, </l>
+          <l>« Compagne de l’éther, indolente fumée,</l>
           <l>Je te ressemble un peu…</l>
-          <l>Sans plus nous soucier et sans jamais descendre, </l>
+          <l>Sans plus nous soucier et sans jamais descendre,</l>
           <l>Evanouissons-nous… »</l>
         </quote>
         <p>Oui, son être mortel s’est évanoui ; mais son œuvre ne périra pas, et c’est par là qu’il
@@ -3167,7 +3169,7 @@
           bohème et bon diable La Jeunesse, qui eut son heure de célébrité ; Etienne Rey, moraliste
           sérieux et auteur dramatique folâtre ; les frères Tharaud, impeccables prosateurs et gais
           compagnons ; le caustique Dyssord, qui cherche la stabilité dans le journalisme comme on
-          cherche la quadrature du cercle; Raymond Clauzel, qui venait à Paris se documenter sur
+          cherche la quadrature du cercle ; Raymond Clauzel, qui venait à Paris se documenter sur
           Robespierre et Philippe II ; Tardieu, qui a donné au <hi rend="i">Figaro</hi> de vivantes
           sensations de guerre ; Curnonsky, l’homme le plus spirituel et le plus sympathique que
           j’aie connu ; Dubreuilh, délicat musicien qui savait par cœur tous les vers de Moréas ;
@@ -3192,12 +3194,12 @@
           musical du Figaro ; Paul Souchon, poète et prosateur de la bonne école ; le sentimental
           toujours absent et souriant Eugène Montfort, qui fonda l’originale <hi rend="i">Revue des
             Marges</hi> ; le doux Mitty, qui se délectait à écrire la langue du <num>xvii<hi
-              rend="sup">e</hi></num> siècle; Jean Carrère, poète et journaliste, le premier qui ait
+              rend="sup">e</hi></num> siècle ; Jean Carrère, poète et journaliste, le premier qui ait
           décrit les ruines de Messine dans sa tragique <hi rend="i">Terre d’épouvante</hi> et que
             <hi rend="i">le Matin</hi> envoya sur place suivre la guerre des Boers ; Carrère, au
           quartier latin, à l’époque des émeutes de 1893, acclamé par les étudiants, blessé,
           transporté à l’hôpital et retiré aujourd’hui à Rome comme correspondant du <hi rend="i"
-            >Temps</hi> ; Guerbert, à qui je proposai pour ses <hi rend="i">Poèmes du Monde</hi> ce
+            >Temps</hi> ; Guerbert, à qui je proposai pour ses <hi rend="i">Poèmes du Monde</hi> ce
           vers qu’il a adopté et mis sur la couverture  : « J’habite l’infini, mais j’y suis à
           l’étroit » ; Jean Giraudoux, qui n’avait pas encore publié ses charmants volumes
           humoristiques et qui arrivait tous les jours avec une nouvelle épigramme, dans le genre de
@@ -3213,7 +3215,7 @@
           recommandant la lecture de l’œuvre de Dumas père, comme la meilleure conseillère de
           droiture, de discipline et de patriotisme ; et tant d’autres, qu’on rencontrait plus
           rarement et qui n’ont fait que passer. Stuart Merril, Duplessis, Louis Thomas, Loyson, qui
-          devait se révéler si ardemment patriote; Dumas, l’homme le mieux renseigné sur Auguste
+          devait se révéler si ardemment patriote ; Dumas, l’homme le mieux renseigné sur Auguste
           Comte ; le discret Maura, aujourd’hui directeur du Conservatoire de musique de
           Saint-Etienne ; l’aimable et vif écrivain Casella ; Paul Morisse, traducteur de Goethe et
           de Novalis et alors secrétaire du Mercure, etc., etc.</p>
@@ -3243,10 +3245,10 @@
           certainement pris la place que devait occuper le Mercure de France, et Mazel y eût tenu le
           rôle de maître de chœur, au milieu d’une pléiade de jeunes écrivains qui se sont tous fait
           un nom dans <hi rend="i">les Arts, la Philosophie</hi> ou <hi rend="i">la
-          Littérature</hi>  : Régnier, Germain, Valin Bouyer, Robert Ritter, Soulier, Moréas, Merill,
-          Viélé-Griffin, Herold, Bernard Lazare, Quillard, Pierre Louys, Retté, Dorchain, Lemoyne,
-          Paul Masson, Jules Renard, Béranger, Boylesve, Rebell, Gide, Paul Fort, Des Gâchons,
-          etc.‌</p>
+          Littérature</hi>  : Régnier, Germain, Valin Bouyer, Robert Ritter, Soulier, Moréas,
+          Merill, Viélé-Griffin, Herold, Bernard Lazare, Quillard, Pierre Louys, Retté, Dorchain,
+          Lemoyne, Paul Masson, Jules Renard, Béranger, Boylesve, Rebell, Gide, Paul Fort, Des
+          Gâchons, etc.‌</p>
         <p>C’est par Mazel que j’ai connu le philosophe Gabriel Tarde. Ils arrivaient souvent
           ensemble au café Vachette, Mazel avec son air de plaisantin souriant, Tarde avec sa
           silhouette de chef d’orchestre tzigane, grand, maigre, l’air artiste, longs cheveux noirs
@@ -3258,7 +3260,7 @@
           lequel il avait publié une plaquette dont il fit toujours état dans ses œuvres, tandis
           qu’il en avait supprimé un livre de contes et de poèmes. Tarde, en effet, n’était qu’un
           égaré en sociologie ; les psychologues professionnels ne venaient pour lui qu’au second
-          plan; il aimait par-dessus tout la belle poésie, la poésie subtile et travaillée. Il avait
+          plan ; il aimait par-dessus tout la belle poésie, la poésie subtile et travaillée. Il avait
           écrit beaucoup de vers français et périgourdins. La faiblesse de sa vue l’ayant obligé de
           restreindre ses lectures, Tarde ne lisait que les très bons auteurs et avait beaucoup
           pensé, beaucoup réfléchi par lui-même. Un mot de Taine lui fit découvrir Cournot, qui
@@ -3306,11 +3308,11 @@
           matériaux mal dégrossis. Toujours mécontent de son style, il passait des années à se
           raturer. Nous avions les mêmes idées sur cette nécessité du travail, et il approuvait sans
           réserves les livres d’enseignement pratique que j’ai écrits sur ce sujet. Jamais son œuvre
-          ne lui semblait à point; il n’était jamais pressé de la publier. Il écrivait à son ami
+          ne lui semblait à point ; il n’était jamais pressé de la publier. Il écrivait à son ami
           Fréjaville  : « Mon cher ami, que la province est maussade et qu’on y est seul ! Déjà
           l’automne, chère aux cœurs amers, arbore ses feuillages formés de métaux inconnus. Les
           roses sont froides et les marrons tombent dans le silence des jardins. Pourtant ne
-          m’espérez pas trop cet hiver; ma lyre prend racine ici. Que voulez-vous ? Le coin du feu,
+          m’espérez pas trop cet hiver ; ma lyre prend racine ici. Que voulez-vous ? Le coin du feu,
           une ville qu’on parcourt en dix minutes, ce sont d’invincibles attraits pour la
           nonchalance. Et puis, à quoi bon ? Je suis de ceux que la gloire n’excite pas. Mon
           prochain livre de vers ne paraîtra que dans l’automne prochain. J’y travaille fort ! Oh !
@@ -3336,7 +3338,7 @@
           publiât. Rimée ou non, la malice n’était pas son fait. Je ne suis pas sûr que cette
           épitaphe n’ait pas été donnée quelque part :</p>
         <quote>
-          <l>Ci-git Ferdinand Brunetière, </l>
+          <l>Ci-git Ferdinand Brunetière,</l>
           <l>Avec son œuvre toute entière.</l>
         </quote>
         <p>Charles Guérin n’eut que des amis, et aucun d’eux, je puis le dire, ne l’a oublié. Son
@@ -3416,7 +3418,7 @@
           idées qu’on aurait pu lui contester par ignorance ou, ce qui est pis, par défaut
           d’intelligence. Il fallait qu’il fût vraiment sûr d’être en communauté d’opinions avec
           vous pour se laisser aller à vous communiquer les siennes. Du reste, il ne recherchait pas
-          les esprits distingués; les plus humbles fréquentations suffisaient à l’ordinaire de sa
+          les esprits distingués ; les plus humbles fréquentations suffisaient à l’ordinaire de sa
           vie.</p>
         <p>Mon intention non plus n’est pas de faire ici de la littérature et de juger, après tant
           d’autres, le talent d’un homme dont les ouvrages sont entre toutes les mains. Je suis de
@@ -3481,7 +3483,7 @@
           ni sa vie.</p>
         <p>Non seulement Faguet était la simplicité même, mais il avait la manie de se plaire plus
           particulièrement avec des inférieurs. Je ne prétends pas que la stupidité eût le privilège
-          de l’attirer, comme le Saint Antoine de Flaubert; en tous cas, elle ne le gênait pas et il
+          de l’attirer, comme le Saint Antoine de Flaubert ; en tous cas, elle ne le gênait pas et il
           était avec elle parfaitement à son aise. Je l’ai vu s’entretenir complaisamment avec des
           gens dont la nullité eût découragé les plus intrépides, « Il se levait, dit la <hi
             rend="i">Vie Parisienne</hi>, été comme hiver, à sept heures, chaussait immédiatement
@@ -3513,7 +3515,7 @@
           pour ce style et qui seul avait assez de noblesse et de talent pour se faire pardonner des
           phrases comme celle-ci  : « Ça en bouche un coin à Racine. » Ecrivant avec cette facilité,
           on comprend que Faguet ait toujours à peu près écrit sans ratures, j’estime qu’il a eu
-          tort et nous reviendrons là-dessus; mais, en procédant autrement, il n’eût guère laissé
+          tort et nous reviendrons là-dessus ; mais, en procédant autrement, il n’eût guère laissé
           que quelques volumes, tandis que sa méthode lui a permis de publier une centaine
           d’ouvrages.</p>
         <p>Ce don d’improvisation, qui le dispensait du travail, ne laissait pas de préoccuper
@@ -3521,7 +3523,7 @@
           restât toujours insensible aux inconvénients qui résultaient d’une production hâtive et
           sans discipline. Il savait, aussi bien que Montesquieu, que « rien de ce qui se fait bien
           ne se fait vite » et que la perfection ne va jamais sans labeur. Il s’est un jour expliqué
-          là-dessus. « Depuis longtemps déjà, constate M. Strowski <note n="21" resp="author"><hi
+          là-dessus. « Depuis longtemps déjà, constate M. Strowski<note n="21" resp="author"><hi
               rend="i">Correspondant</hi> du 25 juin 1916</note>, Faguet avait renoncé au travail
           délicat et minutieux du style. C’est ici même dans le <hi rend="i">Correspondant</hi>, en
           1905, qu’il a fait sa profession de foi, à propos d’un livre de M. Albalat ». Et M.
@@ -3529,23 +3531,23 @@
             >Correspondant</hi> :</p>
         <p>« A ce propos, M. Albalat me raille agréablement moi-même, sachant que je ne me rature
           jamais. Qui est-ce qui le lui a dit ? Enfin c’est vrai, ne nous dérobons point. Et donc,
-          il me dit, ou tout au moins il me fait entendre  : « Parce que vous avez reconnu que, comme
-          Stendhal, vous ne gagnerez rien à vous corriger, il n’en faut pas conclure que beaucoup
-          d’autres sont comme vous. Et qui sait si, vous-même, vous n’écririez pas un peu moins mal,
-          si vous vous efforciez d’écrire mieux. Oui, vous-même, et par conséquent il n’est personne
-          qui ne soit capable d’écrire un peu moins mal en se corrigeant, même ceux à qui a été le
-          plus complètement refusé le don du style.</p>
+          il me dit, ou tout au moins il me fait entendre  : « Parce que vous avez reconnu que,
+          comme Stendhal, vous ne gagnerez rien à vous corriger, il n’en faut pas conclure que
+          beaucoup d’autres sont comme vous. Et qui sait si, vous-même, vous n’écririez pas un peu
+          moins mal, si vous vous efforciez d’écrire mieux. Oui, vous-même, et par conséquent il
+          n’est personne qui ne soit capable d’écrire un peu moins mal en se corrigeant, même ceux à
+          qui a été le plus complètement refusé le don du style.</p>
         <p>« Eh bien, M. Albalat a raison. Je ne me rature presque jamais, parce que j’aime mieux
-          écrire beaucoup qu’écrire bien; parce que je m’imagine avoir beaucoup de choses à dire;
+          écrire beaucoup qu’écrire bien ; parce que je m’imagine avoir beaucoup de choses à dire ;
           aussi parce que j’aime remuer des idées et que, un article fini, une autre idée me
           sollicite tout de suite et m’interdit de m’attarder et de m’appesantir sur la précédente ;
-          aussi, et c’est la vraie raison, parce que « faire du travail de style » m’ennuie  : or, ce
-          n’est qu’en corrigeant qu’on fait du travail de style et uniquement du travail de style.
-          Enfin, je n’aime pas corriger. Mais il m’est arrivé, malgré tout, deux ou trois fois, de
-          remanier et presque de refaire un travail. Eh bien, que M. Albalat triomphe sur ce faible
-          sujet, de mon avis et de l’avis de juges très qualifiés, c’était beaucoup moins mauvais.
-          Qui sait ? Si au lieu d’écrire trente volumes, j’en avais écrit trois, je serais peut-être
-          un bon écrivain. J’en doute, du reste, et maintenant il est trop tard pour faire
+          aussi, et c’est la vraie raison, parce que « faire du travail de style » m’ennuie  : or,
+          ce n’est qu’en corrigeant qu’on fait du travail de style et uniquement du travail de
+          style. Enfin, je n’aime pas corriger. Mais il m’est arrivé, malgré tout, deux ou trois
+          fois, de remanier et presque de refaire un travail. Eh bien, que M. Albalat triomphe sur
+          ce faible sujet, de mon avis et de l’avis de juges très qualifiés, c’était beaucoup moins
+          mauvais. Qui sait ? Si au lieu d’écrire trente volumes, j’en avais écrit trois, je serais
+          peut-être un bon écrivain. J’en doute, du reste, et maintenant il est trop tard pour faire
           l’épreuve. »</p>
         <p>Non, il n’était pas trop tard, mais je me demande si Faguet eût été vraiment capable d’un
           effort si contraire à sa nature. Que son style y eût gagné, c’est l’évidence même. Du
@@ -3587,7 +3589,7 @@
           dans un récit satirique les conséquences du mariage d’Arnolphe de <hi rend="i">l’Ecole des
             Femmes</hi> avec sa pupille Agnès, élevée dans la plus stupide ignorance. Le Maître
           interrogé déclara qu’il avait écrit, non pas un roman, mais une simple étude. On fut déçu.
-          Emile Faguet était un très bon psychologue; il l’a prouvé dans‌</p>
+          Emile Faguet était un très bon psychologue ; il l’a prouvé dans‌</p>
         <p>ses <hi rend="i">Amours d’hommes de lettres</hi>, et il nous eût certainement donné une
           œuvre de fine observation.‌</p>
         <p>Je reviens à la question qui se pose toujours à propos de ses ouvrages  : Pourquoi cet
@@ -3652,8 +3654,8 @@
           senti le besoin d’avoir une retraite intime où il pût avoir le plaisir de se réfugier et
           d’où il pût avoir le plaisir de sortir. Il a vécu l’âme ouverte, et sa physionomie était
           bien en cela l’image de son âme. La pensée, la parole et le geste n’étaient pas pour lui
-          trois choses ; ils étaient éminemment substantiels <note n="22" resp="author">7 avril
-            1910. Réponse au discours de réception de M. René Douane</note>. »‌</p>
+          trois choses ; ils étaient éminemment substantiels<note n="22" resp="author">7 avril 1910.
+            Réponse au discours de réception de M. René Douane</note>. »‌</p>
         <p>Ce manque de retraite intime ou plus simplement cette répugnance à montrer ses opinions
           personnelles est certainement une des causes qui épargnèrent à Emile Faguet la tentation
           facile de faire de la politique et de la polémique. Rien ne l’indignait. Il ne souffrait
@@ -3665,7 +3667,7 @@
           pour l’<hi rend="i">intelligere</hi> avait détruit chez lui les autres mesquines passions
           qui sont l’apanage du commun des hommes. « Il ressemblait aussi peu que possible à son ami
           Brunetière, dont l’humeur pourfendeuse excita, plus d’une fois, sa causticité. Brunetière
-          disait un jour  : « La critique, c’est un buisson le long d’une route; chaque mouton qui
+          disait un jour  : « La critique, c’est un buisson le long d’une route ; chaque mouton qui
           passe y laisse un peu de sa toison ». « Oui, poursuivait Faguet ; mais quand c’est un
           critique comme vous, c’est un buisson qui marche droit au mouton. Vous êtes un fragment de
           la forêt de Macbeth. » Lui, tout au contraire, c’était le buisson se retirant devant le
@@ -3673,7 +3675,7 @@
           le buisson pour en disperser à tous les vents les branches, voici que le buisson
           merveilleux, pareil à celui du Moriah sous l’œil étonné d’Abraham, retenait le fier bélier
           par les cornes, le forçant à courber la tête, mais sans qu’il en coûtât la moindre
-          bouffette à sa blanche toison. C’était toute sa vengeance <note n="23" resp="author">Paul
+          bouffette à sa blanche toison. C’était toute sa vengeance<note n="23" resp="author">Paul
             Bernard. <hi rend="i">Etudes</hi>, 20 octobre 1916</note>. »‌</p>
         <p>N’aimant ni la nature, ni les voyages, Emile Faguet ne quittait Paris qu’une fois par an
           pour aller à Poitiers passer un mois en famille avec sa sœur. C’est dans cette ville qu’il
@@ -3713,15 +3715,15 @@
           des <hi rend="i">Débats</hi>, venant annoncer la nécessité où il se trouvait de cesser sa
           chronique dramatique. Il avait l’air hagard et morne d’un homme qui se sent atteint et se
           voit obligé de renoncer à sa seule raison de vivre. Il surmonta, pourtant cette crise, et,
-          au lieu de changer d’habitude, il reprit sa vie exténuante. Nous lui disions  : « Vous vous
-          tuez ». Il souriait et s’obstinait.‌</p>
+          au lieu de changer d’habitude, il reprit sa vie exténuante. Nous lui disions  : « Vous
+          vous tuez ». Il souriait et s’obstinait.‌</p>
         <p>Emile Faguet n’est pas le seul écrivain victime du sédentarisme. Les littérateurs n’ont
           pas beaucoup de goût pour l’exercice physique. Flaubert haïssait la locomotion et se
-          vantait de n’être jamais allé jusqu’au bout de son jardin  : il fut emporté par une attaque
-          d’apoplexie. Balzac travaillait dix-huit heures par jour et prenait du café la nuit  : il
-          gagna à ce régime la maladie de cœur dont il mourut. Victor Hugo est un des rares
-          écrivains qui ont su concilier le travail et l’hygiène et qui, couché tôt et levé tôt,
-          atteignit une extrême vieillesse. Le D<hi rend="sup">r</hi> Brissaud, qui ne croyait
+          vantait de n’être jamais allé jusqu’au bout de son jardin  : il fut emporté par une
+          attaque d’apoplexie. Balzac travaillait dix-huit heures par jour et prenait du café la
+          nuit  : il gagna à ce régime la maladie de cœur dont il mourut. Victor Hugo est un des
+          rares écrivains qui ont su concilier le travail et l’hygiène et qui, couché tôt et levé
+          tôt, atteignit une extrême vieillesse. Le D<hi rend="sup">r</hi> Brissaud, qui ne croyait
           qu’aux remèdes naturels, me dit un jour  : « Les trois quarts des gens se tuent parce
           qu’ils mangent trop et ne marchent pas assez. Aucun exercice ne vaut la marche à pied. La
           bicyclette essouffle et fatigue. L’escrime est de l’exercice en vase clos. Seule la marche
@@ -3753,7 +3755,7 @@
           candidat à l’Académie et qui dut s’en retourner sans avoir vu le critique.</p>
         <p>Un autre jour, le même éditeur va le voir et sonne comme d’habitude. Faguet arrive en
           pantoufles et lui dit derrière la porte  : « Désolé, mon cher ami ; la bonne m’a enfermé.
-          Elle est allée au marché et a emporté la clef. Voyez la concierge; elle doit en avoir
+          Elle est allée au marché et a emporté la clef. Voyez la concierge ; elle doit en avoir
           une. »</p>
         <p>Faguet avait beaucoup d’esprit, non seulement dans ses livres, mais dans sa conversation,
           et ses livres ou sa conversation, c’était à peu près la même chose. Etincelle d’un feu
@@ -3761,16 +3763,17 @@
           mots.</p>
         <p>Quelques-uns sont très connus  : « Voltaire  : Un chaos d’idées claires… Michelet  : Un
           poète sensible et un garde national… Lamartine : Un homme de génie qui pouvait se passer
-          d’avoir du talent… Tocqueville  : un patricien libéral… Joseph de Maistre  : un prétorien du
-          Vatican… Stendhal  : Un Saint-Simon de table d’hôte… Balzac  : un tempérament d’artiste et
-          un esprit de commis-voyageur… Edgar Quinet  : Un de Maistre protestant… La philosophie de
-          Wagner  : Une philosophie de chef d’orchestre… »</p>
+          d’avoir du talent… Tocqueville  : un patricien libéral… Joseph de Maistre  : un prétorien
+          du Vatican… Stendhal  : Un Saint-Simon de table d’hôte… Balzac  : un tempérament d’artiste
+          et un esprit de commis-voyageur… Edgar Quinet  : Un de Maistre protestant… La philosophie
+          de Wagner  : Une philosophie de chef d’orchestre… »</p>
         <p>Je demandai un jour à Faguet ce qu’il pensait d’un écrivain très connu, qui passe pour un
           insupportable cuistre. « C’est bien simple, me dit-il, de sa petite voix en fausset, c’est
-          un homme qui est déplacé partout où il se trouve. Quand je le vois, je n’ai qu’une envie  :
-          c’est de lui donner des gifles. Je m’en abstiens, parce que ça le fâcherait, et nous
-          sommes très bien ensemble. » La réponse de Faguet au discours de réception de M. Doumic
-          est un chef-d’œuvre d’esprit, dans la bonne tradition des Labiche et des Dumas fils.</p>
+          un homme qui est déplacé partout où il se trouve. Quand je le vois, je n’ai qu’une
+          envie  : c’est de lui donner des gifles. Je m’en abstiens, parce que ça le fâcherait, et
+          nous sommes très bien ensemble. » La réponse de Faguet au discours de réception de
+          M. Doumic est un chef-d’œuvre d’esprit, dans la bonne tradition des Labiche et des Dumas
+          fils.</p>
         <p>Les mots de Faguet ont couru la presse le jour de sa mort. Beaucoup sont apocryphes et
           font honneur à l’imagination des journalistes. En voici un qu’une Revue a publié et qui a
           bien là marque du Maître  : « Un jour que, désireux d’incognito, il dînait dans un petit
@@ -3789,8 +3792,8 @@
           détresse qu’il n’ait secourue.</p>
         <p>Faguet a écrit un joli petit livre sur l’amitié, et nul n’a mieux senti le charme de ce
           sentiment si nécessaire à l’homme et qui faisait dire à Baudelaire  : « Je souffre du
-          manque d’amitié », et à Montesquieu  : « Je suis amoureux de l’amitié ». Je doute cependant
-          que Faguet ait jamais eu un véritable ami, sauf peut-être Brunetière, dont il a
+          manque d’amitié », et à Montesquieu  : « Je suis amoureux de l’amitié ». Je doute
+          cependant que Faguet ait jamais eu un véritable ami, sauf peut-être Brunetière, dont il a
           magnifiquement parlé. En tout cas, ce n’est pas pour voir ses amis qu’il venait au café.
           Il se contentait d’y lire ses journaux. Trouvait-il là quelque figure de connaissance, il
           causait avec grand plaisir, et, si cette personne revenait le lendemain, il causait avec
@@ -3888,7 +3891,7 @@
           qu’il faut beaucoup d’attention pour bien comprendre en quoi il consiste.</p>
         <p>Ouvrez n’importe quel livre de critique  : vous êtes toujours en présence d’un homme qui
           écrit. Chez Jules Lemaître, au contraire, phrase et diction sont toujours d’un homme qui
-          vous parle. Faguet, Brunetière et les autres disent ce qu’ils pensent; Jules Lemaître dit
+          vous parle. Faguet, Brunetière et les autres disent ce qu’ils pensent ; Jules Lemaître dit
           ce qu’il sent. La sensibilité prenant la place du jugement, voilà son originalité. Il sent
           de toute la force de son être, presque en malade, et il vous dit ses sensations et ses
           impressions telles qu’elles sont.</p>
@@ -3931,13 +3934,13 @@
           Volmar, le mari de l’<hi rend="i">Héloïse</hi> de Rousseau, il fait cette brusque
           réflexion  : « Il en a une santé, ce Volmar ! » Il dit de Chateaubriand  : « Il se maria.
           Pourquoi ? Pourquoi ? Pourquoi ? » Ailleurs, se trouvant un peu sévère, il se reprend  :
-          « Mais je suis bon là avec mes objections… » Ou encore  : « Voilà ce qu’ont su faire Gervex
-          et Stevens. Tout simplement. » Un jour, dans une conférence, discourant sur la mort et le
-          néant, il s’interrompt en disant  : « Si nous parlions d’autre chose ? » Ces familiarités
-          ne choquent pas chez lui, parce qu’elles viennent d’une conviction profonde » et qu’elles
-          n’ont rien de commun, encore une fois, avec la gaminerie de Faguet, écrivant dans un
-          feuilleton des <hi rend="i">Débats</hi>, à propos de <hi rend="i">Corneille
-          amoureux</hi>  : « Ça en bouche un coin à Racine. »‌</p>
+          « Mais je suis bon là avec mes objections… » Ou encore  : « Voilà ce qu’ont su faire
+          Gervex et Stevens. Tout simplement. » Un jour, dans une conférence, discourant sur la mort
+          et le néant, il s’interrompt en disant  : « Si nous parlions d’autre chose ? » Ces
+          familiarités ne choquent pas chez lui, parce qu’elles viennent d’une conviction profonde »
+          et qu’elles n’ont rien de commun, encore une fois, avec la gaminerie de Faguet, écrivant
+          dans un feuilleton des <hi rend="i">Débats</hi>, à propos de <hi rend="i">Corneille
+            amoureux</hi>  : « Ça en bouche un coin à Racine. »‌</p>
         <p>Jules Lemaître était un être de bonté et de malice. Un pauvre diable de bohème alla le
           voir un jour avec un ami — « Je vais, dit-il, lui emprunter cinq louis. Je lui dirai que
           c’est pour me marier. Il est très sensible à ces choses-là. Je suis sûr qu’il me les
@@ -4011,12 +4014,12 @@
         <p>Tous ceux qui ont connu Mistral ont été frappés par l’expression de simplicité et de
           grandeur que dégageait sa personne. Mistral était naturellement grand et simple, et aussi,
           je crois, naturellement indifférent. Je suis persuadé qu’il a toujours eu le sentiment
-          très vif de sa valeur personnelle; mais il est également très possible qu’il ait aimé et
+          très vif de sa valeur personnelle ; mais il est également très possible qu’il ait aimé et
           recherché les hommages sans en avoir été tout à fait dupe. On sait qu’on lui a élevé sur
           une place d’Arles une statue qui n’est peut-être pas d’une inspiration très heureuse. On
           l’a représenté coiffé d’un chapeau de feutre, pardessus sur le bras et en tenue de voyage.
-          Passant un jour de fête devant cette statue, Mistral fit cette réflexion : « Dire que c’est
-          moi, cet imbécile-là !… Il ne lui manque que la valise. »</p>
+          Passant un jour de fête devant cette statue, Mistral fit cette réflexion : « Dire que
+          c’est moi, cet imbécile-là !… Il ne lui manque que la valise. »</p>
         <p>Je ne redirai pas ici les raisons de mon admiration pour Mistral. J’ai essayé d’expliquer
           ailleurs le génie et les procédés du divin poète provençal. En dehors de son influence
           littéraire, son programme de revendications décentralisatrices a le mérite de résumer les
@@ -4037,7 +4040,7 @@
           territoires de Provence, leurs coutumes, légendes, mœurs et traditions. Les lettres de ses
           nombreux correspondants ont été conservées et doivent être, à cet égard, du plus haut
           intérêt. Cette langue provençale, qui était jusqu’alors seulement parlée, Mistral l’a
-          étudiée, l’a perfectionnée; il y a ajouté des adjectifs, des diminutifs, des participes,
+          étudiée, l’a perfectionnée ; il y a ajouté des adjectifs, des diminutifs, des participes,
           les créations et les surprises de style que se permettent toujours les vrais artistes, et
           c’est avec cette langue qu’il a écrit <hi rend="i">Mireille</hi>. Or, malgré tous ses
           efforts, l’instrument qu’il voulait ennoblir est resté trivial. A chaque instant dans ses
@@ -4126,20 +4129,20 @@
           ignore <hi rend="i">Mireille</hi> et ne l’a jamais lu ; a peine connaît-il le nom de
           l’auteur.‌</p>
         <p>L’accueil que nous fit Mistral fut, à part cela, très aimable. Je lui demandai ce qu’il y
-          avait de curieux à voir à Maillane. Il répondit  : « Il y a moi d’abord ; ensuite le Mas du
-          Juge où je suis né, et enfin le pavillon de la Reine Jeanne, dont j’ai fait mon tombeau.
-          Vous me permettrez de ne pas vous accompagner. » Nous passâmes dans la salle à manger; on
-          servit le champagne et on but à la gloire de la Provence. J’aurais voulu risquer une
-          dernière question ; mais celle-là eût froissé le poète, parce qu’il s’agissait de son
-          œuvre, que j’admire, et de son pays que j’aime autant que le mien. Maintenant que Mistral
-          est mort, je n’ai aucune raison de garder pour moi les objections que je n’osais lui
-          soumettre.</p>
+          avait de curieux à voir à Maillane. Il répondit  : « Il y a moi d’abord ; ensuite le Mas
+          du Juge où je suis né, et enfin le pavillon de la Reine Jeanne, dont j’ai fait mon
+          tombeau. Vous me permettrez de ne pas vous accompagner. » Nous passâmes dans la salle à
+          manger ; on servit le champagne et on but à la gloire de la Provence. J’aurais voulu
+          risquer une dernière question ; mais celle-là eût froissé le poète, parce qu’il s’agissait
+          de son œuvre, que j’admire, et de son pays que j’aime autant que le mien. Maintenant que
+          Mistral est mort, je n’ai aucune raison de garder pour moi les objections que je n’osais
+          lui soumettre.</p>
         <p>Grâce au prestige de <hi rend="i">Mireille</hi>, la région d’Arles, Avignon, la Crau a
           été présentée au monde entier comme la véritable Provence, au détriment de l’autre
           Provence, la plus ancienne et qui fut toujours à l’Est du Rhône. La vraie Provence, c’est
           Aix, sa capitale historique, Aix avec son roi René, son parlement, ses légendes, ses
           traditions, la Crèche, la Fête-Dieu, les Chivaou-Fru. La vrai Provence, c’est Brignoles,
-          où le Parlement et les grandes familles se transportaient en temps de peste; c’est
+          où le Parlement et les grandes familles se transportaient en temps de peste ; c’est
           Marseille, Toulon, le littoral, Forcalquier, patrie et résidence de Raymond Béranger, la
           montagne, Barjols, Cotignac, Draguignan, l’Esterel, les Maures, La Garde-Freinet,
           St-Tropez… Or, cette Provence-là, on l’ignore, et on l’ignore parce qu’on l’a supprimée,
@@ -4200,7 +4203,7 @@
           d’idéal, qui écartait par ses éclats de rire les illusions et les rêves, comme on fait le
           moulinet avec sa canne pour éloigner les malfaiteurs. Il avait des superstitions
           inexplicables, la peur des incendies surtout. Il habitait un rez-de-chaussée, au coin de
-          la rue Richepanse, exprès, disait-il, pour pouvoir se sauver en cas d’incendie; et il lui
+          la rue Richepanse, exprès, disait-il, pour pouvoir se sauver en cas d’incendie ; et il lui
           arrivait, en se promenant avec vous sur le boulevard, de vous quitter brusquement, pour
           aller voir si le feu n’était pas chez lui. Certains jours, ce forcené rieur avait des
           accès de tristesse dont ne parvenaient à le distraire ni les pirouettes, ni les
@@ -4235,7 +4238,7 @@
           bout à l’autre de la table. Aucune conversation n’était possible quand il était là. C’est
           toujours lui qui parlait. Il rapportait tout à lui. Il disait sérieusement  : « Tous ceux
           qui se désorbitent de moi en meurent », et il citait les gens  : « Un tel s’est brouillé
-          avec moi; un an après il était mort… Un tel m’a tourné le dos; il n’est pas mort, il est
+          avec moi ; un an après il était mort… Un tel m’a tourné le dos ; il n’est pas mort, il est
           fonctionnaire, c’est la même chose… Un tel ne m’a plus fréquenté depuis deux ans, il est
           devenu gaga… » Il avait toute une série d’exemples…</p>
         <p>Mariéton s’était donné le rôle d’un baladin grandiose vivant en perpétuelle mascarade.
@@ -4244,47 +4247,47 @@
           circonstances ou les personnes. Lui reprochait-on cette manie, il répondait  : « Je m’en
           f…, comme disait le pape au cardinal Rampolla. » Racontant la mort de je ne sais plus quel
           embassadeur, qui avait demandé à voir sa maîtresse. « Il est mort, disait-il, avec sa
-          connaissance ». Il déclara, un jour qu’on vantait la supériorité des hôtels Suisses  : « Il
-          ne faudrait pourtant pas nous faire prendre l’Helvétie pour des lanternes ». Il appelait
-          le docteur Doyen  : « Le Cancer classique, le Cancer Européen. » Le surprenait-on en train
-          de mettre de l’ordre dans ses papiers  : « je pense, disait-il, donc j’essuie ». On citait
-          une gaffe de Massenet  : « Mauvaise note pour un musicien ». Il appelait les anarchistes
-          des « entrepreneurs de bombes funèbres ». Il déclarait aimer les voyages, mais le Pôle
-          Nord le laissait froid. Il disait que, « parmi les romanciers, il y en a beaucoup d’épelés
-          et peu de lus ». Il n’oubliait jamais de répéter en s’en allant  : « Filons… historien
-          juif ». Il dit d’un ami qui lui empruntait de l’argent avec des phrases prudhomesques  :
-          « C’est le tapeur pompier », et, le soir, il appelait cela du tapage nocturne. Il était
-          chauve comme un genou, et j’aurais eu mauvaise grâce à le plaisanter, faisant partie
-          moi-même de ce qu’il appelait a les hommes de la pierre polie ». Cette calvitie inspirait
-          sa verve  : « Les chauves sourient… Chauve qui peut… » « Quelqu’un, raconte Léon Daudet,
-          lui conseillant un jour de porter perruque, cette proposition l’indigna  : — Vous n’y
-          pensez pas ! dit-il. Ma calvitie fait partie intégrante de ma personne. Que dirait mon
-          concierge ? » Le fait est que sa calvitie et son concierge jouaient un grand rôle dans sa
-          vie. Son concierge était son valet de chambre, et la calvitie une inépuisable source de
-          plaisanterie.</p>
+          connaissance ». Il déclara, un jour qu’on vantait la supériorité des hôtels Suisses  :
+          « Il ne faudrait pourtant pas nous faire prendre l’Helvétie pour des lanternes ». Il
+          appelait le docteur Doyen  : « Le Cancer classique, le Cancer Européen. » Le surprenait-on
+          en train de mettre de l’ordre dans ses papiers  : « je pense, disait-il, donc j’essuie ».
+          On citait une gaffe de Massenet  : « Mauvaise note pour un musicien ». Il appelait les
+          anarchistes des « entrepreneurs de bombes funèbres ». Il déclarait aimer les voyages, mais
+          le Pôle Nord le laissait froid. Il disait que, « parmi les romanciers, il y en a beaucoup
+          d’épelés et peu de lus ». Il n’oubliait jamais de répéter en s’en allant  : « Filons…
+          historien juif ». Il dit d’un ami qui lui empruntait de l’argent avec des phrases
+          prudhomesques  : « C’est le tapeur pompier », et, le soir, il appelait cela du tapage
+          nocturne. Il était chauve comme un genou, et j’aurais eu mauvaise grâce à le plaisanter,
+          faisant partie moi-même de ce qu’il appelait a les hommes de la pierre polie ». Cette
+          calvitie inspirait sa verve  : « Les chauves sourient… Chauve qui peut… » « Quelqu’un,
+          raconte Léon Daudet, lui conseillant un jour de porter perruque, cette proposition
+          l’indigna  : — Vous n’y pensez pas ! dit-il. Ma calvitie fait partie intégrante de ma
+          personne. Que dirait mon concierge ? » Le fait est que sa calvitie et son concierge
+          jouaient un grand rôle dans sa vie. Son concierge était son valet de chambre, et la
+          calvitie une inépuisable source de plaisanterie.</p>
         <p>Mariéton entre un jour dans un restaurant avec un ami, à 9 heures du soir — « Quel est le
           prix du dîner ? demande-t-il au gérant, avec son plus beau sourire.</p>
         <p>—    Dix francs, Monsieur. — Et le prix du déjeuner ?</p>
         <p>—    Cinq francs — Très bien, mon ami. Servez-nous à déjeuner. Il prétendait qu’on avait
-          voulu le marier  : « Les familles s’étaient invitées. Ça n’a pas abouti  : on a <hi rend="i"
-            >échangé deux bals sans résultat</hi> ». Il dit d’une actrice parisienne qui s’était
-          jetée du haut d’un pont  : « Mauvaise entrée en scène ». Quelqu’un affirmait qu’il y avait
-          toujours eu en Autriche des femmes d’Etat. « En France, dit Mariéton, il y a seulement des
-          tas de femmes. ». Il appelait la belle Otéro « la belle Otarie » et Pierre Loti lieutenant
-          de vaisseau « Pierre Loteau lieutenant de vessie ». Je crois que c’est lui qui lança le
-          mot  : « Le bluff à la mode ». Il vivait en camarade avec son père et allait souvent passer
-          quelques jours dans sa villa d’Antibes. Après son départ, son père lui télégraphiait
-          régulièrement  : « Tu m’as encore pris des chemises ». Mariéton ayant tiré sur lui une
-          traite un peu forte, son père lui télégraphia  : « Je reçois traite 10.000 francs. Que
-          faut-il faire ? » Mariéton répondit par télégramme  : « Payez ». Son plus beau mot fut
-          celui qu’il dit à son père, un jour qu’il se disputait avec lui  : « Après tout, de quoi te
-          plains-tu ? Je t’ai donné… un nom. »‌</p>
+          voulu le marier  : « Les familles s’étaient invitées. Ça n’a pas abouti  : on a <hi
+            rend="i">échangé deux bals sans résultat</hi> ». Il dit d’une actrice parisienne qui
+          s’était jetée du haut d’un pont  : « Mauvaise entrée en scène ». Quelqu’un affirmait qu’il
+          y avait toujours eu en Autriche des femmes d’Etat. « En France, dit Mariéton, il y a
+          seulement des tas de femmes. ». Il appelait la belle Otéro « la belle Otarie » et Pierre
+          Loti lieutenant de vaisseau « Pierre Loteau lieutenant de vessie ». Je crois que c’est lui
+          qui lança le mot  : « Le bluff à la mode ». Il vivait en camarade avec son père et allait
+          souvent passer quelques jours dans sa villa d’Antibes. Après son départ, son père lui
+          télégraphiait régulièrement  : « Tu m’as encore pris des chemises ». Mariéton ayant tiré
+          sur lui une traite un peu forte, son père lui télégraphia  : « Je reçois traite 10.000
+          francs. Que faut-il faire ? » Mariéton répondit par télégramme  : « Payez ». Son plus beau
+          mot fut celui qu’il dit à son père, un jour qu’il se disputait avec lui  : « Après tout,
+          de quoi te plains-tu ? Je t’ai donné… un nom. »‌</p>
         <p>Incapable de faire de la peine à quelqu’un, Mariéton sacrifiait tout à un trait d’esprit.
           Il lançait la flèche, quitte à la retirer ensuite et à panser la plaie II dit un jour à
           Mme de Thèbes la célèbre divinatrice qui lisait vos destinées dans vos mains  : « Vous
           êtes, Madame, une manucure supérieure ». Mme de Thèbes ne trouva pas cela très drôle. Il
-          répétait  : « Je m’extériorise. Je dis sérieusement des choses gaies et gaiement des choses
-          tristes ».</p>
+          répétait  : « Je m’extériorise. Je dis sérieusement des choses gaies et gaiement des
+          choses tristes ».</p>
         <p>Rien ne peut donner une idée du désorde qui régnait dans son appartement de la rue
           Richepanse. Les deux premières pièces étaient tellement encombrées de livres, que la
           chambre à coucher lui servait de cabinet de travail. A mesure qu’une pièce se remplissait,
@@ -4306,12 +4309,12 @@
           Sand et Pagello. Le D<hi rend="sup">r</hi> Pagello surtout l’enthousiasmait. Il en avait
           des bégaiements extatiques. Au restaurant il m’interpellait  : « Vous disiez-donc,
           Pagello ? » Il me présenta en ces termes à plusieurs personnes, heureusement étrangères à
-          la Littérature  : « Mon ami, le docteur Pagello ». Ces facéties lui donnaient des frénésies
-          de rire. — « Je vous en supplie, lui disais-je, soyez sérieux ; on ne peut pas tirer de
-          vous un mot raisonnable. » Un jour que je lui parlais de choses graves, et qu’il répondait
-          par des calembredaines, je finis par me fâcher et gagnai la porte. — (Il était au lit). Où
-          allez-vous ? cria-t-il. Je répondis au hasard  : — N’importe où… Dans la vie… — La vie ?
-          bégaya-t-il. La porte à droite. En sortant.‌</p>
+          la Littérature  : « Mon ami, le docteur Pagello ». Ces facéties lui donnaient des
+          frénésies de rire. — « Je vous en supplie, lui disais-je, soyez sérieux ; on ne peut pas
+          tirer de vous un mot raisonnable. » Un jour que je lui parlais de choses graves, et qu’il
+          répondait par des calembredaines, je finis par me fâcher et gagnai la porte. — (Il était
+          au lit). Où allez-vous ? cria-t-il. Je répondis au hasard  : — N’importe où… Dans la vie…
+          — La vie ? bégaya-t-il. La porte à droite. En sortant.‌</p>
         <p>Mariéton, en vrai Tartarin, se déballait aussi rapidement qu’il s’emballait et ne donnait
           plus alors que des signes d’approbation silencieuse.</p>
         <p>Un jour, à propos d’une affaire d’insertion, nous déjeunâmes ensemble chez Lapérouse avec
@@ -4432,7 +4435,7 @@
             rend="i">Journal</hi>, alors dirigé par M. Fasquelle.‌</p>
         <p>Ce souvenir me revient en mémoire chaque fois qu’on dénonce l’égoïsme de Maupassant. Les
           faits qui composent la biographie officielle d’un auteur comptent certainement pour
-          quelque chose; mais on pourrait aussi facilement en trouver d’autres qui formeraient une
+          quelque chose ; mais on pourrait aussi facilement en trouver d’autres qui formeraient une
           biographie tout aussi véridique. La vie de travail que je menais en province avait
           intéressé l’auteur de la Maison Tellier, qui fut toujours attiré par l’étude des
           existences provinciales. Ce robuste Normand avouait que la peinture de la vie parisienne
@@ -4448,8 +4451,8 @@
           François Coppée, par exemple, ou que M. Anatole France. »</p>
         <p>C’est dans la peinture des mœurs de province, en effet, que Maupassant a montré le plus
           de talent, et, au fond, il ne travaillait vraiment bien qu’en province. A ma première
-          visite, comme j’admirais son active production, il me dit en souriant  : « Mais non ; je ne
-          travaille pas énormément… Deux ou trois heures par jour, pas davantage. » L’habitude du
+          visite, comme j’admirais son active production, il me dit en souriant  : « Mais non ; je
+          ne travaille pas énormément… Deux ou trois heures par jour, pas davantage. » L’habitude du
           labeur mesuré et familier lui venait de ses premières années de fonctionnarisme.
           Maupassant, on le sait, fut un bureaucrate modèle, qui tenait à sa place et la garda
           précieusement, tant que la littérature ne lui rapporta pas ce qu’il rêvait. La
@@ -4464,7 +4467,7 @@
           un impérieux besoin de ne plus entendre parler de littérature, de n’en plus faire, de n’en
           plus vivre et d’aller respirer au loin un air moins artistique que le nôtre ». Il devait
           lutter cinq ou six ans encore contre cette contrainte, et cet effort finit bientôt par
-          « altérer son humeur et lui détraquer les nerfs <note n="24" resp="author">D’Alméras. <hi
+          « altérer son humeur et lui détraquer les nerfs<note n="24" resp="author">D’Alméras. <hi
               rend="i">Avant la gloire</hi>, I, 71</note> ».‌</p>
         <p>Maupassant fut un écrivain de puissance et d’audace, un de ceux qui, à l’exemple de Zola,
           poussèrent jusqu’à la brutalité la copie de la vie réelle. Il n’inventait rien. Il se
@@ -4489,7 +4492,7 @@
           indéfiniment, sans qu’ils se soient jamais révélés, et qui soudain un soir, à propos de
           rien, se mettent à bavarder sans fin, à raconter tout leur être et leur intimité, qu’on ne
           soupçonnait nullement.</p>
-        <p>Et je vais de l’un à l’autre avec de légères secousses au cœur; je me dis  : « Tiens j’ai
+        <p>Et je vais de l’un à l’autre avec de légères secousses au cœur ; je me dis  : « Tiens j’ai
           brisé cela, le soir où Paul est parti pour Lyon » ; ou bien  : « Voilà la petite lanterne
           de maman, dont elle se servait pour aller au Salut, les soirs d’hiver. »</p>
         <quote><label type="head">UNE VIE (p. 294, 295)</label>
@@ -4519,8 +4522,8 @@
           qu’on crut qu’il allait avoir une congestion. Hélène proposa au comte italien de le mettre
           en rapport avec un grand tapissier qui se chargerait de son installation. Le comte Gavarry
           se retira vers 11 heures, feignant d’amener avec lui une femme qu’on avait fait passer
-          pour la maîtresse d’Hervieu, ce qui fit dire à Hélène  : — Quel ignoble type, cet Hervieu !
-          Il a vendu son amie au comte italien !</p>
+          pour la maîtresse d’Hervieu, ce qui fit dire à Hélène  : — Quel ignoble type, cet
+          Hervieu ! Il a vendu son amie au comte italien !</p>
         <p>Cette anecdote eût pu figurer dans le livre de souvenirs publiés par le valet de chambre
           de « M. Guy ». L’auteur de <hi rend="i">Boule de Suif</hi> passait pour un gentilhomme de
           lettres qui gardait généralement ses distances. Le livre de son valet de chambre nous le
@@ -4532,7 +4535,7 @@
           déplaisait pas, par exemple, de se faire passer pour anthropophage. « J’ai mangé de la
           chair de femme, c’est exquis ; j’en ai redemandé, dit-il à Mme Lecomte du Nouy. » Dans une
           étude physiologique publiée en 1913, le D<hi rend="sup">r</hi> Maurice Pillet épilogue
-          avec un grand sérieux sur l’anthropophagie de Maupassant <note n="25" resp="author"><hi
+          avec un grand sérieux sur l’anthropophagie de Maupassant<note n="25" resp="author"><hi
               rend="i">Maupassant romancier de soi-même</hi>, par Deffoux et Zavie, p.17</note>.</p>
         <p>On a reproché à Maupassant sa brutalité et sa vanité. On a voulu, d’autre part, suivre
           dans son œuvre la trace grandissante de sa folie. Il faudrait s’entendre. J’ai vu
@@ -4540,18 +4543,18 @@
           constaté chez lui des puérilités, des mensonges, des actes de mégalomanie, à mesure que se
           développait son terrible mai, c’est possible ; mais pourquoi l’en rendre responsable et en
           accuser son caractère ? Je ne suis pas de ceux qui pensent qu’on peut retrouver jusque
-          dans ses premiers récits les signes avant-coureurs de son futur état physiologique <note
+          dans ses premiers récits les signes avant-coureurs de son futur état physiologique<note
             n="26" resp="author">Dr Lagriffe, <hi rend="i">Guy de Maupassant, étude de psychologie
               pathologique</hi></note>. Une si longue évolution me paraît bien exagérée. Je me
-          refuse surtout à voir dans ces beaux récits  : <hi rend="i">Sur l’eau, Fou</hi> et même <hi
-            rend="i">le Horla</hi>, des manifestations positives d’une maladie quelconque. Non,
-          l’homme qui a écrit ces pages n’avait pas perdu conscience de son être; sa lucidité
+          refuse surtout à voir dans ces beaux récits  : <hi rend="i">Sur l’eau, Fou</hi> et même
+            <hi rend="i">le Horla</hi>, des manifestations positives d’une maladie quelconque. Non,
+          l’homme qui a écrit ces pages n’avait pas perdu conscience de son être ; sa lucidité
           restait entière, et il n’était pas plus fou que Zola faisant dans la <hi rend="i">Joie de
             vivre</hi> son effroyable peinture de la peur de la mort.‌</p>
         <p>Plusieurs années après la mort de Maupassant, la nièce de Gustave Flaubert, alors Mme
           Commanville, qui connaissait mon admiration pour l’auteur de la Maison Tellier, me proposa
           de me donner un mot d’introduction pour sa mère, qui vivait à Nice. « Elle est malade, me
-          dit-elle; elle ne quitte plus le lit. C’est une femme charmante. Elle sera heureuse de
+          dit-elle ; elle ne quitte plus le lit. C’est une femme charmante. Elle sera heureuse de
           parler de son fils. »</p>
         <p>De passage à Nice, je m’empressai de me rendre chez Mme de Maupassant. Elle habitait, du
           côté de l’avenue Mirabeau, une villa entourée d’un modeste jardin. On me fit entrer dans
@@ -4575,11 +4578,11 @@
           de pareilles choses ? Depuis ce moment, j’ai senti que ma vie était finie. La mort me sera
           douce. Je l’attends tous les jours. » Clouée au lit depuis des années, essoufflée au
           moindre effort, elle savait que son mal ne lui pardonnerait pas et que son tour allait
-          bientôt venir. « Je ne puis presque plus faire de mouvements, disait-elle; mon cœur est
+          bientôt venir. « Je ne puis presque plus faire de mouvements, disait-elle ; mon cœur est
           déplacé. Il est remonté dans ma poitrine. Les médecins ne peuvent rien. Je suis résignée.
           Tout m’est égal. Je n’ai pas peur du néant. Le plus tôt sera le mieux. » Et, comme je
-          hasardai des paroles d’espoir sur l’incertitude même du néant, elle haussa les épaules  : —
-          « Non, dit-elle. Je suis bien tranquille. La vie n’aurait aucun sens, si Dieu existait.
+          hasardai des paroles d’espoir sur l’incertitude même du néant, elle haussa les épaules  :
+          — « Non, dit-elle. Je suis bien tranquille. La vie n’aurait aucun sens, si Dieu existait.
           Et, s’il existe nous verrons bien. Il a des comptes à me rendre. » Elle parlait avec une
           implacable tranquillité, soulignant de ses mains impuissantes ses cris de révolte et de
           dénégation, étranges à entendre dans cette chambre, devant le beau ciel de Nice que
@@ -4635,8 +4638,8 @@
         <p>On rencontrait à ces dîners de la rue Commaille d’abord les fidèles et vieux amis, le
           peintre Rochegrosse, illustrateur de <hi rend="i">Salammbô</hi>, taciturne et brun
           Assyrien ; le père Funck-Brentano, esprit difficile et original, toujours en colère contre
-          Taine ; le philosophe Izoulet, aimable, sursautant et empressé; le galant conférencier
-          Victor Du Bled; Auguste Sabatier, le vieux camarade de Flaubert. Rédacteur au <hi rend="i"
+          Taine ; le philosophe Izoulet, aimable, sursautant et empressé ; le galant conférencier
+          Victor Du Bled ; Auguste Sabatier, le vieux camarade de Flaubert. Rédacteur au <hi rend="i"
             >Temps</hi>, doyen de la Faculté de Théologie protestante, auteur d’ouvrages historiques
           remarquables, Auguste Sabatier avait l’aspect d’un bon pasteur de campagne, la douceur
           pensive d’un homme habitué à peser le pour et le contre et qui avait fait du libre-examen
@@ -4680,7 +4683,7 @@
             écrivains</hi>. J’ai été, je crois, un des premiers à étudier les brouillons de Flaubert
           et à publier ses ratures. Ces après-midi passées dans le cabinet de travail de la rue
           Alboni sont un des plus vifs souvenirs de ma modeste vie littéraire. J’avais la permission
-          de m’installer pendant l’absence de l’aimable propriétaire; et, seul avec l’énorme
+          de m’installer pendant l’absence de l’aimable propriétaire ; et, seul avec l’énorme
           manuscrit de <hi rend="i">Mme Bovary</hi> posé sur le bureau, je me livrais au terrible
           travail du chiffrement. Quelque chose de l’âme de Flaubert se dégageait de ces
           inextricables pages et m’entourait d’une ivresse intellectuelle que comprendront aisément
@@ -4745,7 +4748,7 @@
           Paris, je quittai à Nice le père Didon. Je le revis quelque temps après rue Saint-Jacques,
           à Paris. Il me reçut et m’encouragea aimablement  : « Quelle que soit, me dit-il, la part
           de talent que Dieu vous a donnée, suivez votre voie. Vous aimez la littérature ? Faites de
-          la littérature. » Je ne sais si le conseil était bon; il m’a toujours été impossible d’en
+          la littérature. » Je ne sais si le conseil était bon ; il m’a toujours été impossible d’en
           suivre un autre.</p>
         <p>Le père Didon fut le type de l’apôtre moderne, de l’éducateur nouveau jeu. Son influence
           sur la jeunesse a été bienfaisante. Ecrivain sans éclat, émouvant orateur, il se fit une
@@ -4841,7 +4844,7 @@
           Sand avait fait la connaissance de Jean-Jacques Rousseau, quand le sauvage philosophe
           consentit enfin à venir chez son mari. « Ma toilette finie, dit-elle, je vais au salon,
           j’aperçois un petit homme assez mal vêtu et comme renfrogné, qui se levait lourdement, qui
-          mâchonnait des mots confus. Je le regarde et je divine; je crie, je veux parler, et je
+          mâchonnait des mots confus. Je le regarde et je divine ; je crie, je veux parler, et je
           fonds en larmes. Jean-Jacques, étourdi de cet accueil, veut me remercier et fond en
           larmes. Francueil veut nous remettre l’esprit et fond en larmes. Nous ne pûmes rien nous
           dire. »</p>
@@ -4912,10 +4915,10 @@
           qu’on pouvait tirer à volonté avec une ficelle rejoignant la chambre du second étage où il
           couchait. On imagine l’effroi de la confiante marraine, quand elle sentit, au milieu de la
           nuit, danser sur son nez une invisible bête frôlante qu’on manœuvrait comme un pantin.
-          Elle jette des cris, on accourt. Il ne fut pas difficile de trouver le coupable  : on n’eut
-          qu’à suivre la ficelle… Tels étaient les aimables jeux auxquels se livrait à Gif le plus
-          incorrigible des pessimistes.‌</p>
-        <p>J’ai peu connu Pierre Loti; je ne l’ai vu que deux ou trois fois, rapidement, entre deux
+          Elle jette des cris, on accourt. Il ne fut pas difficile de trouver le coupable  : on
+          n’eut qu’à suivre la ficelle… Tels étaient les aimables jeux auxquels se livrait à Gif le
+          plus incorrigible des pessimistes.‌</p>
+        <p>J’ai peu connu Pierre Loti ; je ne l’ai vu que deux ou trois fois, rapidement, entre deux
           appareillages, comme il disait.</p>
         <p>A la suite d’une étude que j’avais publiée sur son œuvre, l’auteur de <hi rend="i">Mon
             frère Yves</hi> me donna rendez-vous à l’Hôtel du Bon Lafontaine, rue de Grenelle, où il
@@ -4956,7 +4959,7 @@
           s’en cachait pas. Je l’ai supplié cent fois de mettre en valeur par l’effort et la
           retouche les qualités d’imagination et de verve que lui avait prodiguées la Nature.
           « C’est inutile, disait-il. Je ne peux pas. Il faut me prendre comme je suis. » Aicard
-          écrivait ses romans d’un seul jet, la plupart du temps dans son lit; les pages se
+          écrivait ses romans d’un seul jet, la plupart du temps dans son lit ; les pages se
           succédaient, il changeait quelques mots et le livre était fait. Au Moyen-Age, il eût
           chanté, lyre en main, dans la cour des vieux manoirs, ou assis aux tables des châtelains
           hospitaliers. N’a-t-il pas parcouru la France en lisant ses propres vers ? Aicard
@@ -5054,9 +5057,9 @@
           souvent parlé de ce livre, à l’époque où il songeait à l’écrire, et il a même utilisé pour
           son héros quelques traits que j’avais observés chez un homme très ordinaire, sorte de
           terrassier de l’amour et qui se croyait un don Juan. Ce garçon, commis-voyageur en
-          librairie, me racontait ses conquêtes féminines  : « Les femmes, me disait-il, je n’ai qu’à
-          les regarder  : elles tombent comme des mouches. » C’était déjà <hi rend="i">Maurin des
-            Maures</hi>.‌</p>
+          librairie, me racontait ses conquêtes féminines  : « Les femmes, me disait-il, je n’ai
+          qu’à les regarder  : elles tombent comme des mouches. » C’était déjà <hi rend="i">Maurin
+            des Maures</hi>.‌</p>
         <p>Jean Aicard, on le sait, fut encouragé et soutenu par la fidèle amitié de
           Sully-Prudhomme, qui fut son parrain, comme Mme Adam avait été sa marraine. Type de
           bourgeois poétique parfait, Sully-Prudhomme était un être exquis… et redoutable. Je n’ai
@@ -5095,11 +5098,11 @@
           par mon œuvre elle-même. Quand on me demande une pièce de vers inédite, comme je ne fais
           plus guère de vers, je prends au hasard dans un tiroir une pièce inachevée, et tout de
           suite les premières rimes me remettent dans l’état d’esprit où j’étais au moment où je la
-          commençai; ma jeunesse s’évoque et, le sentiment éprouvé jadis soudain gonfle mon cœur et
+          commençai ; ma jeunesse s’évoque et, le sentiment éprouvé jadis soudain gonfle mon cœur et
           ravive la source aveuglée… Et je finis facilement ces poèmes jadis entrepris, puis rejetés
           à cause de la moindre difficulté. Quand on est jeune, on hésite à refaire une strophe, à
           raturer, c’est une paresse et un scrupule. Plus tard on corrige, parce que l’on ose
-          sacrifier et condamner le mot, le vers qui formait l’obstacle <note n="27" resp="author"
+          sacrifier et condamner le mot, le vers qui formait l’obstacle<note n="27" resp="author"
               ><hi rend="i">Souvenirs autour d’un groupe littéraire</hi>, par M<hi rend="sup"
               >me</hi> Alphonse Daudet, p. 218</note>. »</p>
         <p>Sully-Prudhomme lui-même, malgré sa facilité, reconnaissait la nécessité du travail du
@@ -5137,7 +5140,7 @@
           fois par semaine, dans le grand salon qu’elle habite depuis cinquante ans et où elle n’a
           pas encore trouvé le temps de mettre un peu d’ordre. Comme elle n’est pas riche, elle
           n’offre pas de thé et n’allume qu’une bougie, et on trouve cela tout naturel, parce que
-          c’est elle. Sa présence suffit à ses amis; ils ne lui demandent que d’être là. Elle n’a
+          c’est elle. Sa présence suffit à ses amis ; ils ne lui demandent que d’être là. Elle n’a
           pour plaire qu’à laisser rayonner sa nature captivante et maternelle.</p>
         <p>Mlle Read eut toute sa vie la passion des chats. Elle a hérité du beau chat siamois de
           Coppée, et de Démonette, la favorite de Barbey d’Aurevilly. Elle vit entourée d’une
@@ -5172,8 +5175,8 @@
           c’est le légendaire et souriant Coppée, debout en veston dans son cabinet de travail, se
           passant la main dans les cheveux, roulant des cigarettes, racontant d’impayables
           histoires, la voix caverneuse, le rire fendu jusqu’aux oreilles. Rien n’était plus drôle
-          que sa conversation. Il avait une singulière manie  : il ne cessait pas de se regarder dans
-          une glace. Il dit un jour à Larguier  : « Je me suis toujours déplu. » Peut-être
+          que sa conversation. Il avait une singulière manie  : il ne cessait pas de se regarder
+          dans une glace. Il dit un jour à Larguier  : « Je me suis toujours déplu. » Peut-être
           cherchait-il tout simplement à se réconcilier avec son image.‌</p>
         <p>J’avais publié, sur les origines de la poésie de Coppée, une étude où je tâchais de
           suivre à travers son œuvre l’évolution d’un genre familier qu’on découvre en germe dans
@@ -5222,7 +5225,7 @@
         <p>Un journal a raconté que François Coppée avait toujours sur sa table un dictionnaire de
           rimes, et cela a étonné les simples, qui se figurent que la poésie est une inspiration qui
           vous arrive sans qu’on la cherche et qu’on entretient sans travail. Coppée eût pu se
-          passer de ce secours; mais, comme Victor Hugo, il aimait trop son art pour négliger
+          passer de ce secours ; mais, comme Victor Hugo, il aimait trop son art pour négliger
           l’effort qui le perfectionne. Chose curieuse, le poète qui a peut-être le plus travaillé,
           Boileau, méprisait les dictionnaires. Un ami entre chez lui et le trouve embarrassé pour
           faire un vers — « Voulez-vous, lui dit-il, que j’aille chercher un dictionnaire de rimes ?
@@ -5288,8 +5291,8 @@
             journal de notre pays commun, les Ardennes. Je vous envoie les chroniques, en vous
             priant de vouloir bien me les retourner. Vous y trouverez sans doute ce que vous
             cherchez.</p>
-          <p>Je vous adresse également deux listes de mes romans  : l’une divisée par genres, l’autre
-            qui vous renseignera sur les journaux où ces romans ont été publiés.</p>
+          <p>Je vous adresse également deux listes de mes romans  : l’une divisée par genres,
+            l’autre qui vous renseignera sur les journaux où ces romans ont été publiés.</p>
           <p>Que vous dirai-je encore ? Mes habitudes de travail ? Elles sont très régulières. D’un
             bout de l’année à l’autre, la matinée est pour moi une chose sacrée, intangible. Ce qui
             ne m’empêche pas de travailler aussi l’après-midi et le soir.</p>
@@ -5330,15 +5333,15 @@
           ouvrage avait été fait pour démontrer, au contraire, que l’art d’écrire exige des années
           d’efforts et de travail. Quand mon contradicteur eut tout dit, je publiai un petit livre
           qui est une réponse aux objections et où je crois avoir à peu près définitivement réfuté
-          tous ces délicieux et encombrants paradoxes. <note n="28" resp="author">
+          tous ces délicieux et encombrants paradoxes.<note n="28" resp="author">
             <p>Je disais dans mon premier ouvrage qu’à force d’assimilation et de volonté, Taine
               était parvenu à modifier son style. Remy de Gourmont prétendait qu’on ne change pas
               son style. A l’époque où Gourmont écrivait ceci, la correspondance de Taine n’avait
               pas encore paru. Or c’est Taine lui-même qui m’a donné raison, en racontant par quel
               travail il avait réussi à se créer un style descriptif et par quels procédés il
               croyait lui aussi qu’on pouvait enseigner le style.</p>
-            <p>(Corresp., t. II, p. 76, 77, 240, 250, 81, 248, 250, 261).</p>
-          </note>‌</p>
+            <bibl>(Corresp., t. II, p. 76, 77, 240, 250, 81, 248, 250, 261).</bibl>
+         </note>‌</p>
         <p>Je n’ai jamais eu l’occasion de faire la connaissance de Remy de Gourmont. Bien que la
           manie de la contradiction l’ait parfois poussé jusqu’à nier l’évidence, il ne faudrait
           pourtant pas croire qu’il ait toujours été dupe des thèses qu’il soutenait. Il avait vu
@@ -5394,7 +5397,8 @@
             néammoins, qui mérite d’être reproduite comme un curieux échantillon d’originalité
             macabre. Elle m’a été adressée par un inconnu qui fait appel à ma prétendue compétence
             littéraire pour lui rendre un service d’un genre tout à fait imprévu.</p>
-          <p rend="right">Paris, 17, rue de Châteaudun<lb/>17 mars 1914.</p>
+          <label type="dateline"><hi rend="n">Paris, 17, rue de Châteaudun<lb/>17 mars
+            1914.</hi></label>
         </quote>
         <quote>
           <p>Monsieur,</p>
@@ -5420,7 +5424,7 @@
           <p>Ce que faisant, cher maître, vous aurez rendu un nouveau service à celui que si souvent
             Vous avez déjà ravi par vos ouvrages et, jusqu’au service demandé, il vous en aura une
             infinie reconnaissance.</p>
-          <l rend="right">Croyez-moi votre bien dévoué,‌</l>
+          <label type="salute"><hi rend="n">Croyez-moi votre bien dévoué,</hi>‌</label>
           <l rend="right">Paul Badet, 58 ans</l>
         </quote>
         <p>Je répondis à cette lettre en exprimant l’espoir que mon admirateur inconnu sortirait

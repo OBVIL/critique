@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +42,7 @@
         <date when="1823"/>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -138,7 +138,7 @@
 <lb/><hi rend="i">Le Rire</hi></head>
         <epigraph>
           <p>Que ferez-vous, Monsieur, du nez d’un marguillier ?</p>
-          <p>                                                           <hi rend="sc">Regnard</hi>.</p>
+          <bibl><hi rend="sc">Regnard</hi>.</bibl>
         </epigraph>
         <p><pb n="28"/>Un prince d’Allemagne, connu par son amour pour les lettres, vient de proposer un prix pour la meilleure dissertation philosophique sur le <hi rend="i">rire</hi>. J’espère que le prix sera remporté par un Français. Ne serait-il pas ridicule que nous fussions vaincus dans cette carrière ? Il me semble que l’on fait plus de plaisanteries à Paris pendant une seule soirée, que dans toute l’Allemagne en un mois.</p>
         <p>C’est cependant en allemand qu’est écrit le programme concernant le <hi rend="i">rire</hi>. Il s’agit d’en faire connaître la nature et les nuances ; il faut répondre clairement et nettement à cette question ardue : <hi rend="i">Qu’est-ce que le rire</hi> ?</p>

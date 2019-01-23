@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <date when="1856">1856</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -760,59 +760,59 @@
           <head>XXVI</head>
           <p>La tragédie de <hi rend="i">Judith</hi>, celle de <hi rend="i">Cléopâtre</hi>, élevèrent son style poétique au-dessus de l’élégie, à la hauteur de la scène antique. Des vers tels que ceux-ci dans sa <hi rend="i">Cléopâtre</hi> ont le grandiose d’une scène de Racine. L’âge et l’étude avaient affermi sa main. Qu’on en juge par le tableau de l’Égypte que fait Cléopâtre à sa confidente Iras, dans l’ennui de l’attente d’Antoine.</p>
           <quote>
-            <label><hi rend="sc">Cléopâtre</hi>.</label>
-            <l><pb n="140"/>Iras doute des dieux, mais non de sa puissance. </l>
-            <l>Il reviendra par mer. Un messager romain </l>
-            <l>A dû le rencontrer dès hier en chemin. </l>
-            <l>Deux vaisseaux de César l’attendent dans la rade. </l>
-            <l>Peut-être il a voulu passer par l’Heptastade, </l>
-            <l>Afin de recevoir les envoyés au port… </l>
-            <l>Mais que lui veut César ? Dieux ! S’ils étaient d’accord ! </l>
-            <l>Pour chasser de ses mers l’héritier de Pompée, </l>
-            <l>Et reprendre sur lui la Sicile usurpée, </l>
-            <l>Il a besoin d’Antoine… il presse son retour. </l>
-            <l>Rome, qui me connaît, a peur de son amour… </l>
-            <l>J’ai hâte de le voir… Oh ! Comme l’heure est lente ! </l>
-            <l>Et que cette chaleur sans air est accablante ! </l>
-            <l>Pas un nuage frais dans ce ciel toujours pur, </l>
-            <l>Pas une larme d’eau dans l’implacable azur ! </l>
-            <l>Ce ciel n’a point d’hiver, de printemps, ni d’automne ; </l>
-            <l>Rien ne vient altérer sa splendeur monotone… </l>
-            <l>Toujours ce soleil rouge à l’horizon désert, </l>
-            <l>Comme un grand œil sanglant sur vous toujours ouvert. </l>
-            <l>De ce constant éclat l’esprit rêveur s’ennuie ; </l>
-            <l>Et moi, pour voir tomber une goutte de pluie, </l>
-            <l>Iras, je donnerais ces perles, ce bandeau… </l>
-            <l>Ah ! la vie en Égypte est un pesant fardeau. </l>
-            <l>Va, ce riche pays, à tant de droits célèbre, </l>
-            <l>Est pour moi, jeune reine, un royaume funèbre… </l>
-            <l>On vante ses palais, ses monuments si beaux ; </l>
-            <l>Mais les plus merveilleux ne sont que des tombeaux. </l>
-            <l>Si l’on marche, l’on sent, sous la terre endormies, </l>
-            <l>Des générations d’immobiles momies. </l>
-            <l><pb n="141"/>On dirait un pays de meurtre et de remords : </l>
-            <l>Le travail des vivants, c’est d’embaumer les morts. </l>
-            <l>Partout dans la chaudière un corps qui se consume ; </l>
-            <l>Partout l’âcre parfum du naphte et du bitume ; </l>
-            <l>Partout l’orgueil humain, follement excité, </l>
-            <l>Luttant dans sa misère avec l’éternité… </l>
-            <l>Des peuples disparus qu’importent ces vestiges ? </l>
-            <l>Art monstrueux, je hais tes vains et faux prodiges. </l>
-            <l>Tout dans ce pays, tout est odieux pour moi ; </l>
-            <l>Tout, jusqu’à ses beautés, m’inspire de l’effroi ; </l>
-            <l>Jusqu’à son fleuve illustre, énigme dans sa course, </l>
-            <l>Dont, depuis trois mille ans, on cherche en vain la source. </l>
-            <l>Son bonheur même a l’air d’une calamité ; </l>
-            <l>Car le sombre secret de sa fertilité </l>
-            <l>N’est pas le don du sol, l’heureux bienfait d’un astre : </l>
-            <l>Cette fécondité naît encor d’un désastre. </l>
-            <l>Il faut, pour qu’il obtienne un éclat passager, </l>
-            <l>Que son fleuve orgueilleux daigne le ravager. </l>
-            <l>Il perdrait tout, sa gloire et sa fortune étrange, </l>
-            <l>Si ce fleuve, un seul jour, lui refusait sa fange. </l>
-            <l>Oh ! C’est triste pour moi d’avoir devant les yeux </l>
-            <l>Toujours ce fleuve morne aux flots silencieux, </l>
-            <l>Et, regardant monter cette onde sans rivages, </l>
+            <label type="speaker"><hi rend="sc">Cléopâtre</hi>.</label>
+            <l><pb n="140"/>Iras doute des dieux, mais non de sa puissance.</l>
+            <l>Il reviendra par mer. Un messager romain</l>
+            <l>A dû le rencontrer dès hier en chemin.</l>
+            <l>Deux vaisseaux de César l’attendent dans la rade.</l>
+            <l>Peut-être il a voulu passer par l’Heptastade,</l>
+            <l>Afin de recevoir les envoyés au port…</l>
+            <l>Mais que lui veut César ? Dieux ! S’ils étaient d’accord !</l>
+            <l>Pour chasser de ses mers l’héritier de Pompée,</l>
+            <l>Et reprendre sur lui la Sicile usurpée,</l>
+            <l>Il a besoin d’Antoine… il presse son retour.</l>
+            <l>Rome, qui me connaît, a peur de son amour…</l>
+            <l>J’ai hâte de le voir… Oh ! Comme l’heure est lente !</l>
+            <l>Et que cette chaleur sans air est accablante !</l>
+            <l>Pas un nuage frais dans ce ciel toujours pur,</l>
+            <l>Pas une larme d’eau dans l’implacable azur !</l>
+            <l>Ce ciel n’a point d’hiver, de printemps, ni d’automne ;</l>
+            <l>Rien ne vient altérer sa splendeur monotone…</l>
+            <l>Toujours ce soleil rouge à l’horizon désert,</l>
+            <l>Comme un grand œil sanglant sur vous toujours ouvert.</l>
+            <l>De ce constant éclat l’esprit rêveur s’ennuie ;</l>
+            <l>Et moi, pour voir tomber une goutte de pluie,</l>
+            <l>Iras, je donnerais ces perles, ce bandeau…</l>
+            <l>Ah ! la vie en Égypte est un pesant fardeau.</l>
+            <l>Va, ce riche pays, à tant de droits célèbre,</l>
+            <l>Est pour moi, jeune reine, un royaume funèbre…</l>
+            <l>On vante ses palais, ses monuments si beaux ;</l>
+            <l>Mais les plus merveilleux ne sont que des tombeaux.</l>
+            <l>Si l’on marche, l’on sent, sous la terre endormies,</l>
+            <l>Des générations d’immobiles momies.</l>
+            <l><pb n="141"/>On dirait un pays de meurtre et de remords :</l>
+            <l>Le travail des vivants, c’est d’embaumer les morts.</l>
+            <l>Partout dans la chaudière un corps qui se consume ;</l>
+            <l>Partout l’âcre parfum du naphte et du bitume ;</l>
+            <l>Partout l’orgueil humain, follement excité,</l>
+            <l>Luttant dans sa misère avec l’éternité…</l>
+            <l>Des peuples disparus qu’importent ces vestiges ?</l>
+            <l>Art monstrueux, je hais tes vains et faux prodiges.</l>
+            <l>Tout dans ce pays, tout est odieux pour moi ;</l>
+            <l>Tout, jusqu’à ses beautés, m’inspire de l’effroi ;</l>
+            <l>Jusqu’à son fleuve illustre, énigme dans sa course,</l>
+            <l>Dont, depuis trois mille ans, on cherche en vain la source.</l>
+            <l>Son bonheur même a l’air d’une calamité ;</l>
+            <l>Car le sombre secret de sa fertilité</l>
+            <l>N’est pas le don du sol, l’heureux bienfait d’un astre :</l>
+            <l>Cette fécondité naît encor d’un désastre.</l>
+            <l>Il faut, pour qu’il obtienne un éclat passager,</l>
+            <l>Que son fleuve orgueilleux daigne le ravager.</l>
+            <l>Il perdrait tout, sa gloire et sa fortune étrange,</l>
+            <l>Si ce fleuve, un seul jour, lui refusait sa fange.</l>
+            <l>Oh ! C’est triste pour moi d’avoir devant les yeux</l>
+            <l>Toujours ce fleuve morne aux flots silencieux,</l>
+            <l>Et, regardant monter cette onde sans rivages,</l>
             <l>De mettre mon espoir en d’éternels ravages.</l>
           </quote>
         </div>
@@ -820,42 +820,42 @@
           <head>XXVII</head>
           <p>Le monologue d’Antoine après la bataille d’Actium a des accents de Corneille.</p>
           <quote>
-            <l><pb n="142"/>Actium !… Actium ! Depuis ce jour je pleure… </l>
-            <l>Implacable destin !… rends-moi, rends-moi cette heure. </l>
-            <l>Ce moment ne peut-il jamais être effacé ?… </l>
-            <l>Ne pouvons-nous jamais rien reprendre au passé ?… </l>
-            <l>Je donnerais ma vie et mes trente ans de gloire </l>
-            <l>Pour arracher ce jour aux pages de l’histoire ! </l>
-            <l>La gloire, c’était là mon rêve le plus beau, </l>
-            <l>La gloire qui fait vivre au-delà du tombeau. </l>
-            <l>Être pour l’avenir un immortel exemple, </l>
-            <l>Avoir dans son pays une colonne, un temple, </l>
-            <l>C’était là mon orgueil… et j’étais parvenu </l>
-            <l>À gravir dans la gloire un sommet inconnu. </l>
-            <l>Tout jeune, je faisais admirer mon courage ; </l>
-            <l>Comme un vaillant aiglon, j’aspirais à l’orage… </l>
-            <l>Ma mère (il m’en souvient, j’étais encore enfant) </l>
-            <l>Me contait les exploits d’Hercule triomphant… </l>
-            <l>Au superbe récit de cette noble vie, </l>
-            <l>Mes yeux brillaient d’orgueil, d’espérance et d’envie ; </l>
-            <l>Et ma mère joyeuse, en me tendant les bras, </l>
-            <l>Disait : « C’est ton aïeul, et tu l’égaleras. » </l>
-            <l>Et moi, j’entrevoyais une sublime tâche !… </l>
-            <l>Qui t’aurait dit alors que tu couvais un lâche, </l>
-            <l>Et que ce fils, objet d’un orgueilleux amour, </l>
-            <l>Dans un combat fameux devait s’enfuir un jour ?… </l>
-            <l>Il est heureux pour toi de dormir dans la tombe !… </l>
-            <l>Mais pour grandir Octave, il faut bien que je tombe !… </l>
-            <l>Ma lâcheté d’un jour fait sa valeur à lui ; </l>
-            <l>Et s’il a triomphé, c’est parce que j’ai fui. </l>
-            <l>Ô Cicéron ! Jamais ta haineuse invective </l>
-            <l>Ne descendit si bas que l’opprobre où j’arrive. </l>
-            <l>Tu m’accusais d’orgueil, de rêve ambitieux, </l>
-            <l><pb n="143"/>D’infâmes cruautés, de vols audacieux, </l>
-            <l>D’attentats qui souillaient la majesté romaine. </l>
-            <l>Jouis !… J’ai dépassé les désirs de ta haine ! </l>
-            <l>Triomphe dans ma honte, implacable orateur : </l>
-            <l>C’est moi qui me suis fait mon propre accusateur !… </l>
+            <l><pb n="142"/>Actium !… Actium ! Depuis ce jour je pleure…</l>
+            <l>Implacable destin !… rends-moi, rends-moi cette heure.</l>
+            <l>Ce moment ne peut-il jamais être effacé ?…</l>
+            <l>Ne pouvons-nous jamais rien reprendre au passé ?…</l>
+            <l>Je donnerais ma vie et mes trente ans de gloire</l>
+            <l>Pour arracher ce jour aux pages de l’histoire !</l>
+            <l>La gloire, c’était là mon rêve le plus beau,</l>
+            <l>La gloire qui fait vivre au-delà du tombeau.</l>
+            <l>Être pour l’avenir un immortel exemple,</l>
+            <l>Avoir dans son pays une colonne, un temple,</l>
+            <l>C’était là mon orgueil… et j’étais parvenu</l>
+            <l>À gravir dans la gloire un sommet inconnu.</l>
+            <l>Tout jeune, je faisais admirer mon courage ;</l>
+            <l>Comme un vaillant aiglon, j’aspirais à l’orage…</l>
+            <l>Ma mère (il m’en souvient, j’étais encore enfant)</l>
+            <l>Me contait les exploits d’Hercule triomphant…</l>
+            <l>Au superbe récit de cette noble vie,</l>
+            <l>Mes yeux brillaient d’orgueil, d’espérance et d’envie ;</l>
+            <l>Et ma mère joyeuse, en me tendant les bras,</l>
+            <l>Disait : « C’est ton aïeul, et tu l’égaleras. »</l>
+            <l>Et moi, j’entrevoyais une sublime tâche !…</l>
+            <l>Qui t’aurait dit alors que tu couvais un lâche,</l>
+            <l>Et que ce fils, objet d’un orgueilleux amour,</l>
+            <l>Dans un combat fameux devait s’enfuir un jour ?…</l>
+            <l>Il est heureux pour toi de dormir dans la tombe !…</l>
+            <l>Mais pour grandir Octave, il faut bien que je tombe !…</l>
+            <l>Ma lâcheté d’un jour fait sa valeur à lui ;</l>
+            <l>Et s’il a triomphé, c’est parce que j’ai fui.</l>
+            <l>Ô Cicéron ! Jamais ta haineuse invective</l>
+            <l>Ne descendit si bas que l’opprobre où j’arrive.</l>
+            <l>Tu m’accusais d’orgueil, de rêve ambitieux,</l>
+            <l><pb n="143"/>D’infâmes cruautés, de vols audacieux,</l>
+            <l>D’attentats qui souillaient la majesté romaine.</l>
+            <l>Jouis !… J’ai dépassé les désirs de ta haine !</l>
+            <l>Triomphe dans ma honte, implacable orateur :</l>
+            <l>C’est moi qui me suis fait mon propre accusateur !…</l>
             <l>……………………………………………………</l>
           </quote>
         </div>
@@ -1758,26 +1758,26 @@
             <p>— « Oui, grand prince », dit l’ermite, « cette gazelle est nourrie dans notre ermitage. Que le ciel écarte de son flanc le trait du chasseur ! Une flèche dans un corps aussi tendre serait comme la flamme dans une touffe de coton. Qu’est-ce que l’existence fugitive de ce frêle animal, comparée à la pointe acérée de tes traits ?</p>
             <p>« Replace donc promptement dans le carquois cette flèche meurtrière. Vos armes, ô rois ! ne doivent être employées que pour protéger le faible, et non pour donner la mort à l’innocent.</p>
             <label type="speaker"><hi rend="sc">Douchmanta</hi><hi rend="i">, avec respect.</hi></label>
-            <p>La voici dans le carquois. </p>
+            <p>La voici dans le carquois.</p>
             <stage>(Il l’y replace en effet.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">L’Ermite</hi>
               <hi rend="i">, avec joie.</hi>
             </label>
-            <p>Pouvait-on moins attendre d’un noble descendant de Pourou, d’un monarque aussi accompli ? Non, tu ne démens pas cette illustre origine. Puisse le ciel t’accorder un fils doué [p. 361) de toutes les vertus, un fils digne de régner un jour sur le monde entier ! </p>
-            <label><hi rend="sc">Le Disciple</hi>.</label>
+            <p>Pouvait-on moins attendre d’un noble descendant de Pourou, d’un monarque aussi accompli ? Non, tu ne démens pas cette illustre origine. Puisse le ciel t’accorder un fils doué [p. 361) de toutes les vertus, un fils digne de régner un jour sur le monde entier !</p>
+            <label type="speaker"><hi rend="sc">Le Disciple</hi>.</label>
             <p>Puisse le sceptre de ton fils s’étendre sur les deux mondes !</p>
-            <label><hi rend="sc">Douchmanta</hi>, <hi rend="i">avec respect.</hi></label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>, <hi rend="i">avec respect.</hi></label>
             <p>Je reçois avec reconnaissance ce vœu d’un vénérable brahmane.</p>
-            <label><hi rend="sc">Les Deux Ermites</hi>.</label>
+            <label type="speaker"><hi rend="sc">Les Deux Ermites</hi>.</label>
             <p>Nous sommes occupés à ramasser du bois dans cette forêt ; là, sur les bords du Malini vous pouvez apercevoir l’ermitage de notre maître spirituel Canoua, où il habite avec Sacountala, dépôt précieux que lui a confié le destin. Si d’autres soins n’exigent ailleurs votre présence, daignez entrer dans cette humble retraite, où vous recevrez tous les honneurs dus à un hôte. C’est là qu’à la vue des austérités effrayantes et sans bornes que s’infligent une foule d’anachorètes, vous jugerez si ces vertueux solitaires méritent que pour les protéger votre bras soit incessamment froissé <pb n="362"/>par le nerf toujours tendu de votre arc invincible.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Vénérable brahmane, le chef de la famille est sans doute dans cet ermitage ?</p>
-            <label><hi rend="sc">Les Deux Ermites</hi>.</label>
+            <label type="speaker"><hi rend="sc">Les Deux Ermites</hi>.</label>
             <p>Non, prince ; il vient de partir pour Somatirtha, où il se rend dans l’intention d’invoquer les dieux, pour détourner de la tête de Sacountala des malheurs dont la menace le destin ; mais, avant de s’éloigner, il a chargé sa fille de rendre aux hôtes qui pourraient survenir tous les devoirs de l’hospitalité.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Eh bien ! je la verrai donc ; et, satisfait de mon zèle, j’espère qu’au retour du vénérable Canoua, elle me fera connaître à lui sous l’aspect le plus favorable.</p>
-            <label><hi rend="sc">Les Deux Ermites</hi>.</label>
+            <label type="speaker"><hi rend="sc">Les Deux Ermites</hi>.</label>
             <p>Seigneur, vous en êtes le maître, et nous cependant nous allons reprendre nos occupations.</p>
             <stage>(Le brahmane sort avec son disciple.)</stage>
           </quote>
@@ -1785,27 +1785,27 @@
         <div>
           <head>XVII</head>
           <quote>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p><pb n="363"/>Allons, fais avancer le char ; que la vue de l’ermitage purifie nos âmes !</p>
-            <label><hi rend="sc">L’Écuyer</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Écuyer</hi>.</label>
             <p>Ainsi que le roi l’ordonne.</p>
             <stage>(Il imprime au char un mouvement rapide.)</stage>
-            <label><hi rend="sc">Douchmanta</hi>, <hi rend="i">jetant les yeux autour de lui.</hi></label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>, <hi rend="i">jetant les yeux autour de lui.</hi></label>
             <p>Certes, sans qu’on me l’eût dit, j’aurais aisément conjecturé que cette retraite paisible devait être consacrée à l’accomplissement des plus sévères austérités.</p>
-            <label><hi rend="sc">L’Écuyer</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Écuyer</hi>.</label>
             <p>À quels signes donc ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Comment, ils ne frappent pas ta vue ! N’aperçois-tu pas çà et là, épars au pied des arbres, <pb n="364"/>ces grains de riz consacré, échappés du bec des jeunes perroquets encore dépourvus de plumes, au moment où leurs mères leur portent la becquée ? Ici sont des pierres tout onctueuses de l’huile de l’<hi rend="i">ingoudi</hi>, dont elles viennent de servir à broyer les fruits ; là, de jeunes gazelles, habituées à la voix de l’homme, ne se détournent pas à son approche ; et ailleurs ces lignes humides, tracées sur la poussière, et qui partent de divers bassins, ne doivent-elles pas leur origine aux gouttes d’eau distillées des vases nouvellement purifiés ?</p>
             <p>Vois encore ces jeunes arbres, dont les racines sont abreuvées par des canaux d’une eau limpide, que ride à peine le souffle adouci des vents ; vois l’éclat de ces tendres bourgeons, obscurci par la fumée qui s’élève des oblations aux dieux ; et, près de nous, ces faons légers qui, sans aucune crainte, se jouent au milieu de ces tas de cousa nouvellement coupé pour un sacrifice, et rassemblés sur la terre à l’entrée du jardin.</p>
-            <label><hi rend="sc">L’Écuyer</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Écuyer</hi>.</label>
             <p>Oui, je vois en effet tout cela.</p>
-            <label><hi rend="sc">Douchmanta</hi>, <hi rend="i">après s’être approché un peu plus de l’enceinte.</hi></label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>, <hi rend="i">après s’être approché un peu plus de l’enceinte.</hi></label>
             <p><pb n="365"/>Mais gardons-nous de profaner cette sainte retraite ; arrête promptement le char, que je puisse en descendre.</p>
-            <label><hi rend="sc">L’Écuyer</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Écuyer</hi>.</label>
             <p>Prince, je retiens les rênes ; vous pouvez mettre pied à terre.</p>
-            <label><hi rend="sc">Douchmanta</hi>, <hi rend="i">étant descendu, et jetant un regard sur lui-même.</hi></label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>, <hi rend="i">étant descendu, et jetant un regard sur lui-même.</hi></label>
             <p>C’est sous de modestes vêtements que je dois pénétrer en ce lieu consacré à la piété. Débarrasse-moi donc de tout cet attirail du luxe, et de cet arc qui ne peut m’être ici d’aucune utilité. <stage>(Il remet entre les mains de son écuyer ses armes et ses joyaux.)</stage> Cependant, en attendant que je revienne, après avoir visité les habitants de cet ermitage, aie soin de faire rafraîchir et baigner les chevaux.</p>
-            <label><hi rend="sc">L’Écuyer</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Écuyer</hi>.</label>
             <p>Prince, vos ordres seront accomplis.</p>
             <stage>(Il sort.)</stage>
           </quote>
@@ -1815,14 +1815,14 @@
           <p><pb n="366"/>Le prince entre dans l’enclos de l’ermitage ; ses sens sont ravis par la beauté agreste et recueillie du site, et par la vue d’un groupe de jeunes filles consacrées au culte des dieux. L’entretien de ces jeunes filles entre elles, que le prince entend sans être vu, est une scène de pastorale qui égale Théocrite, <hi rend="i">l’Aminte</hi>, ou Gesner, ce Théocrite des Alpes :</p>
           <quote>
             <p>« Chère Sacountala », dit une des jeunes compagnes de la fille de Canoua, qui arrose les plantes du jardin de l’ermitage ; « chère Sacountala, ne dirait-on pas que ces jeunes arbustes, ornements de l’ermitage de notre père, te sont plus chers que ta propre vie, quand on voit la peine que tu prends à remplir d’eau les bassins creusés à leurs pieds, toi dont la délicatesse égale celle de la fleur de <hi rend="i">malica</hi> nouvellement épanouie ?</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Que veux-tu ? ce n’est pas seulement pour complaire à notre vénérable père que je prends <pb n="367"/>tous ces soins ; je t’assure que je ressens pour ces jeunes plantes l’amitié d’une sœur.</p>
             <stage>(Elle les arrose.)</stage>
-            <label><hi rend="sc">Une jeune compagne de Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Une jeune compagne de Sacountala</hi>.</label>
             <p>Mais, mon amie, les plantes que nous venons d’arroser sont au moment de fleurir. Arrosons donc aussi celles qui ont déjà donné leurs fleurs ; nos soins désintéressés ainsi pour elles n’en auront que plus de mérite aux yeux des dieux.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Parfaitement senti, ma chère Preyamvada !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le héros Douchmanta</hi>
               <hi rend="i">, à part.</hi>
             </label>
@@ -1830,154 +1830,153 @@
             <p>Assujettir une telle beauté à de pareilles austérités, une beauté qui, sans aucun artifice, enlève à l’instant tous les cœurs, c’est <pb n="368"/>être aussi insensé que si l’on voulait fendre le tronc de fer de l’arbre <hi rend="i">lami</hi> avec le tranchant délicat de la feuille du lotus ! »</p>
             <stage>(La jeune fille, qui se croit inaperçue, fait desserrer par sa compagne le tissu d’écorce qui gêne sa respiration.)</stage>
             <p>« Quoique formé de petites mailles très-serrées », continue à chanter le héros, « le tissu d’écorces, négligemment jeté sur ses blanches épaules, ne peut déguiser entièrement les contours de sa taille : telle la fleur à demi voilée par les feuilles jaunissantes déjà flétries autour de son calice. La coupe du lotus, entrevue à travers le réseau verdâtre des plantes aquatiques, n’est pas moins ravissante ; les taches disséminées sur le disque argenté de la lune font davantage ressortir sa splendeur. Ainsi, cette belle fille, sous son voile d’écorce, n’en paraît que plus séduisante à mes yeux.</p>
-            <label><hi rend="sc">Sacountala</hi>, <hi rend="i">sans voir le héros.</hi></label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>, <hi rend="i">sans voir le héros.</hi></label>
             <p>Ô mes chères sœurs ! ce charmant arbuste ne semble-t-il pas me faire signe de ses rameaux flexibles, que l’on prendrait pour autant de jolis doigts dans la mobilité que leur <pb n="369"/>imprime le zéphyr ? Voyons, il faut que je m’en approche.</p>
             <stage>(Elle y court.)</stage>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>Chère Sacountala, oh ! Repose-toi, de grâce, quelques instants à son ombre.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Eh ! Pourquoi donc ?</p>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>C’est qu’en te voyant ainsi appuyée contre lui, ce bel arbre, comme s’il était uni à une liane élégante, en acquiert encore plus de grâce.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Es-tu plus digne de ce nom gracieux de <hi rend="i">Preyamvada</hi>, toi dont les paroles sont remplies de tant de douceur ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Oui, Preyamvada, tu viens de dire une grande vérité. Ses lèvres ont l’incarnat de la rose ; ses bras, comme deux tendres rameaux, s’arrondissent avec souplesse, et la fleur attrayante <pb n="370"/>de la jeunesse répand sur toute sa personne un charme inexprimable.</p>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p>Sacountala, vois comme cette jolie malica a choisi pour son époux ce bel arbre, qu’elle entoure de ses rameaux en fleurs.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, s’approchant et regardant avec joie.</hi>
             </label>
             <p>Ah ! Qu’elle est ravissante cette saison où les arbres eux-mêmes semblent s’unir dans de tendres embrassements ! Ne dirait-on pas que cette jeune plante ait mis à dessein, sous la protection de cet arbre robuste et tout chargé de fruits, ses fleurs si tendres et si délicates ?</p>
             <stage>(Elle s’arrête à le contempler avec admiration.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Preyamvada</hi>
               <hi rend="i">, souriant.</hi>
             </label>
             <p>Sais-tu, Anousouya, pourquoi Sacountala attache si longtemps ses regards sur cette petite plante ?</p>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p>Non, en vérité ; je voudrais bien le savoir.</p>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>« Ainsi que cette jolie malica est unie à ce <pb n="371"/>bel amra, que ne puis-je de même être unie à un époux digne de moi ! » Voilà, je t’assure, la pensée qui occupe en cet instant notre jeune amie.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, souriant.</hi>
             </label>
             <p>Allons, petite folle, voilà encore de tes extravagances.</p>
             <stage>(Elle fait jouer son arrosoir.)</stage>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p>Chère Sacountala, vois, tu oubliais cette charmante madhavi, quoiqu’elle ait crû en même temps que toi, par les soins que ton père Canoua se plaît à vous prodiguer à toutes deux.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Va, je m’oublierai plutôt moi-même. <stage>(Elle s’approche de l’arbuste, le regarde, puis s’écrie, transportée de joie :)</stage> Miracle ! Miracle ! Preyamvada, ah ! Que tu vas être heureuse !</p>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>Comment cela, ma douce amie ?</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p><pb n="372"/>Vois, cette liane est toute couverte de fleurs, depuis la racine jusqu’au sommet des rameaux les plus élevés, quoique ce ne soit pas le temps de la floraison.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Toutes deux</hi>
               <hi rend="i">accourant.</hi>
             </label>
             <p>Dis-tu vrai ? Dis-tu vrai ?</p>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>En ce cas, ma douce amie, c’est toi que je vais rendre heureuse ; car ce pronostic ne t’annonce rien moins que la possession prochaine d’un héros pour époux.</p>
-            <label><hi rend="sc">Sacountala</hi><hi rend="i">, d’un air fâché</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi><hi rend="i">, d’un air fâché</hi>.</label>
             <p>F. de toutes ces plaisanteries ! Je ne veux plus prêter l’oreille à vos propos.</p>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>Mais ne crois pas que je parle en plaisantant ; car, d’après ce que j’ai entendu plusieurs fois de la bouche du vénérable Canoua lui-même, un pareil signe ne peut être pour toi que l’annonce de l’événement le plus heureux.</p>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p><pb n="373"/>Ah ! Voilà qui m’explique le zèle que mettait notre amie à arroser cette plante chérie !…</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Méchante ! Cette plante est pour moi comme une sœur : pourquoi chercherais-tu d’autres motifs à mes soins ?</p>
             <stage>(Elle continue à l’arroser.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le héros</hi>
               <hi rend="i">, à part.</hi>
             </label>
             <p>Certes, si elle appartient à la caste de Canoua, toute union lui est interdite avec celle des Kchatriyas. Que faire donc ? — Mais peut-être aussi… — Eh ! Pourquoi me tourmenter par de semblables doutes ?… Oui, la chose est certaine. Mon esprit incline vers elle avec tant de violence, qu’il est impossible qu’elle ne puisse devenir mon épouse ! — D’ailleurs, dans les choses sujettes au doute, l’événement est toujours favorable aux pressentiments du sage. Ainsi, je l’obtiendrai, je l’obtiendrai !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, avec précipitation.</hi>
             </label>
             <p>Ah, ah ! Une abeille, échappée du calice de <pb n="374"/>cette malica, voltige autour de ma figure et semble vouloir s’attacher à mes lèvres !</p>
             <stage>(Elle fait semblant de chasser une abeille.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, la contemplant avec le plus vif plaisir.</hi>
             </label>
             <p>Qu’elle est ravissante !</p>
             <p>Sur tous les points où voltige cet insecte léger, plus légère que lui, avec quelle grâce elle le chasse sans relâche ! Mais si c’est par une crainte réelle que cette belle fille imprime aujourd’hui à ses sourcils une contraction si délicieuse, ne se ressouviendra-t-elle pas de la leçon, et ne la mettra-t-elle pas plus tard en pratique, lorsque, sans aucun motif de crainte, elle feindra cependant l’effroi pour déployer dans son regard toutes les ressources de la séduction.</p>
             <p>Trop heureux insecte, tu peux donc dans ton vol effleurer l’angle de cet œil à demi fermé, où la crainte excite un tremblement enchanteur ; faire entendre à cette oreille charmante un murmure semblable à ces petits mots furtifs d’une amie à l’oreille d’une amie ; puiser un torrent de délices sur ces lèvres divines, dont une main délicate cherche en vain à t’éloigner ? <pb n="375"/>Hélas ! nous mourons dans le doute de jamais pouvoir la posséder ; et toi, petite abeille, tu t’enivres de volupté.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Ô mes compagnes ! Délivrez-moi de cet insecte audacieux, qui brave tous mes efforts.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Toutes les deux</hi>
               <hi rend="i">, en souriant.</hi>
             </label>
             <p>Eh ! Qu’y pourrions-nous faire ? Appelle Douchmanta à ton secours : n’est-ce pas au roi à protéger les habitants de cet ermitage ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Excellente occasion pour me montrer !… Ne craignez…… <stage>(Il n’achève pas, et continue à se tenir caché.)</stage> Non, on me reconnaîtrait pour être le roi ; il vaut mieux que je me présente sous l’aspect d’un voyageur demandant l’hospitalité.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>L’impudent ne cesse de m’assaillir ; il faut que je cherche une autre place. <stage>(Jetant les yeux derrière elle tout en courant.)</stage> Comment ! Il me poursuit encore ? Ah ! De grâce, délivrez-moi de son importunité.</p>
-            <label>
+            <label type="speaker">
               
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, survenant tout à coup.</hi>
             </label>
             <p><pb n="376"/>Comment donc !… quel est l’insolent qui, sous le règne d’un des descendants de Pourou, de Douchmanta, cet ennemi déclaré du vice, ose insulter les filles innocentes des pieux ermites ?</p>
             <stage>(Toutes, à la vue du roi, éprouvent un moment de trouble.)</stage>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p>Seigneur, personne ici n’est coupable d’une action criminelle : seulement, notre jeune amie se défendait contre une abeille obstinée à la poursuivre.</p>
             <stage>(Elle montre du doigt Sacountala.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, s’approchant de Sacountala.</hi>
             </label>
             <p>Jeune fille, puisse votre vertu prospérer !</p>
             <stage>(Sacountala baisse les yeux avec modestie.)</stage>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p>Allons ! Rendons promptement à notre hôte tous les devoirs de l’hospitalité.</p>
-            <label><hi rend="sc">Preyamvada</hi>.</label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi>.</label>
             <p>Seigneur, soyez le bienvenu ! Toi, chère Sacountala, va, sans perdre de temps, à l’ermitage, <pb n="377"/>chercher des fruits dignes d’être offerts à notre hôte : cette eau, en attendant, peut servir à rafraîchir ses pieds fatigués.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Il n’en est pas besoin ; le charme de vos paroles est pour moi la plus agréable offrande.</p>
-            <label><hi rend="sc">Anousouya</hi>.</label>
+            <label type="speaker"><hi rend="sc">Anousouya</hi>.</label>
             <p>Eh bien ! Honorable étranger, daignez au moins vous reposer à l’ombre sur ce siège recouvert de gazon, d’une admirable fraîcheur, et où vous ne tarderez pas à oublier votre lassitude.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Mais vous-mêmes, charmantes filles, vous devez être fatiguées par toutes vos attentions pour moi : serais-je assez heureux pour que vous vous asseyiez un moment à mes côtés ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Preyamvada</hi>
               <hi rend="i">, bas à Sacountala.</hi>
             </label>
             <p>Vois, ma Sacountala, nous ne pourrions honnêtement nous refuser au désir de notre hôte ; viens donc, prenons place près de lui.</p>
             <stage>(Toutes s’asseyent près du roi.)</stage>
-            <label>
-              
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, à part.</hi>
             </label>
             <p><pb n="378"/>Depuis que mes yeux se sont portés sur cet étranger, j’éprouve une émotion tout à fait contraire au calme parfait que devrait seule inspirer cette sainte retraite !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, les regardant avec le plus tendre intérêt.</hi>
             </label>
             <p>Charmantes filles, combien cette douce intimité qui règne entre vous s’accorde admirablement avec votre jeunesse et vos grâces !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Preyamvada</hi>
               <hi rend="i">, bas à Anousouya.</hi>
             </label>
             <p>Ma chère, quel peut donc être cet étranger qui, tant par ses traits profondément empreints d’une majesté calme, que par ses discours où règne la politesse la plus aimable, se montre digne d’occuper le plus haut rang ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Anousouya</hi>
               <hi rend="i">, bas à Preyamvada.</hi>
             </label>
             <p>Ma curiosité n’est pas moins vive que la tienne, je t’assure ; voyons, il faut nous éclaircir. <stage>(Haut, en s’adressant au roi.)</stage> Seigneur, la douce familiarité qui règne dans votre conversation m’enhardit à vous faire quelques questions : Pourrions-nous savoir de quelle noble famille <pb n="379"/>vous faites l’ornement ; quelle contrée est actuellement dans le deuil, à cause de votre absence ; et quel motif, vous, dont toutes les manières annoncent une délicatesse exquise, a pu vous déterminer à entreprendre un voyage pénible, pour visiter cette forêt consacrée aux plus rudes austérités ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, à part.</hi>
             </label>
             <p>Ne palpite pas ainsi, ô mon cœur ! toutes ces pensées tumultueuses qui t’agitent avec tant de violence, ma chère Anousouya les dirigera.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, en lui-même.</hi>
             </label>
@@ -2055,9 +2054,9 @@
           <p>L’anachorète apprend d’elle-même qu’une union secrète, mais approuvée par la religion et les lois, l’unit au héros, et qu’elle porte dans son sein un gage de son union, roi futur du royaume. Le saint ermite approuve tout, et comble Sacountala de présents pour la faire reconduire dignement à son époux.</p>
           <p>La description de ces présents de noce est aussi pittoresque qu’elle est poétique. Les divinités même invisibles y apportent leur tribut. Les compagnes de la jeune mère s’écrient : <quote>« Nous apercevons, flottant aux branches d’un grand arbre, un voile céleste, du lin le plus fin, imitant dans sa blancheur la lumière argentée de la lune, sûr présage du bonheur qui attend Sacountala. »</quote> Un autre arbuste distillait une laque admirable, destinée à teindre du plus beau rouge ses pieds délicats ; tandis que, de tous côtés, de petites mains charmantes, qui rivalisaient d’éclat avec les plus <pb n="393"/>belles fleurs, se faisant jour à travers le feuillage, répandaient autour de nous ces joyaux de toute espèce, dignes de briller sur le front d’une reine.</p>
           <quote>
-            <label><hi rend="sc">Preyamvada</hi><hi rend="i">, regardant Sacountala.</hi></label>
+            <label type="speaker"><hi rend="sc">Preyamvada</hi><hi rend="i">, regardant Sacountala.</hi></label>
             <p>C’est ainsi que nous voyons l’abeille quitter le creux de l’arbre où elle a établi sa demeure, pour venir fêter la fleur du lotus, qui l’attire par son miel parfumé.</p>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Les déesses, par cette faveur, ne déclarent-elles pas que la fortune du roi est désormais attachée à ta personne, et que tu vas pour toujours la fixer dans son palais ? »</p>
             <stage>(Sacountala baisse modestement les yeux.)</stage>
           </quote>
@@ -2071,22 +2070,22 @@
           <quote>
             <p>« Ô père », dit-elle à l’ermite, « lorsque cette charmante gazelle, qui n’ose se hasarder loin de l’ermitage, et dont la marche est ralentie par le poids du petit qu’elle porte dans ses flancs, sera devenue mère, ah ! N’oubliez pas de m’en instruire !</p>
             <p>« Mais qui donc », continue la jeune fille, « marche ainsi sur mes pas et s’attache aux pans de ma robe ? »</p>
-            <label><hi rend="sc">L’Ermite</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Ermite</hi>.</label>
             <p>Tu le vois, ma fille : c’est ton petit faon chéri, ton enfant adoptif, dont si souvent tu as guéri les blessures avec l’huile d’ingoudi, lorsqu’il accourait vers toi, les lèvres ensanglantées par les pointes acérées du cousa. Se souvenant avec quel soin tu lui faisais manger dans ta propre main les grains savoureux du syamoca, il ne peut abandonner les traces de sa bienfaitrice.</p>
             <stage>(Sacountala le baise, les yeux humides de larmes.)</stage>
             <p>Pauvre petit, pourquoi t’attacher encore à <pb n="396"/>une ingrate qui se résout ainsi à abandonner le compagnon de ses jeux ? Va, de même que je t’ai recueilli lorsque, au moment de ta naissance, tu vins à perdre ta mère, à présent que tu souffres de ma part un second abandon, notre bon père va te prodiguer les soins les plus tendres.</p>
             <stage>(Elle pleure sans pouvoir avancer.)</stage>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Essuie, essuie tes larmes, ma chère fille ; prends courage, et jette un regard ferme sur le chemin que tu as à parcourir.</p>
             <p>Viens-tu à surprendre sur ta paupière humide une larme qui chercherait à détruire l’effet de tes résolutions ? Dissipe-la aussitôt par le plus noble effort. Songe, mon enfant, que, dans la route inégale de la vie, la plus mâle fermeté se trouve souvent exposée aux plus rudes épreuves, et que, de les surmonter, c’est en cela que consiste la vertu.</p>
-            <label><hi rend="sc">Sarngarava</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sarngarava</hi>.</label>
             <p>Vénérable ermite, vous vous rappelez sans doute ce texte de la loi sacrée : <hi rend="i">Accompagne ton</hi> <pb n="397"/><hi rend="i">ami jusqu’à ce que tu rencontres de l’eau</hi> ! Or, nous voici près de l’étang ; congédiez-nous, et retournez à l’ermitage !</p>
-            <label><hi rend="sc">L’Ermite</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Ermite</hi>.</label>
             <p>Vois, chère Sacountala, comme tout être, pour peu qu’il soit sensible, prend part à la douleur qu’occasionne ton départ.</p>
             <p>En vain la femelle du tchairavaca, couchée derrière une touffe de lotus, fait entendre le cri d’amour à son mâle, qui, les yeux attentivement fixés sur toi, et le bec entrouvert, d’où s’échappent de longs filaments de verdure qu’il vient d’arracher, néglige de lui répondre.</p>
-            <label><hi rend="sc">Sacountala</hi><hi rend="i">, enlaçant ses bras autour de l’ermite.</hi></label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi><hi rend="i">, enlaçant ses bras autour de l’ermite.</hi></label>
             <p>Ô mon père ! Quand reverrai-je cette forêt sacrée ?</p>
-            <label><hi rend="sc">L’Ermite</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’Ermite</hi>.</label>
             <p>Ma fille, lorsqu’après avoir été pendant de longues années l’objet des soins de ton époux, qui ne seront partagés qu’entre toi et le gouvernement de son vaste empire, il remettra sa puissance au jeune héros que tu lui auras <pb n="398"/>donné, tu reviendras alors avec lui achever de couler des jours tranquilles au sein de cette retraite, consacrée à la vertu.</p>
             <stage>(Sacountala disparaît derrière les roseaux de l’étang.)</stage>
           </quote>
@@ -2103,11 +2102,11 @@
           <p>Mais une divinité jalouse avait enlevé par <pb n="402"/>un maléfice la mémoire au héros son époux. Quand elle se présente au palais, il l’admire, mais il ne la reconnaît pas. Pour comble de malheur, l’infortunée Sacountala avait laissé glisser de son doigt l’anneau nuptial, signe auquel le héros avait juré de la reconnaître toujours. Les scènes de cette reconnaissance, en vain implorée par l’épouse, cruellement refusée par le héros, sont aussi déchirantes que pittoresques. Elles rappellent avec moins de simplicité et autant de pathétique les scènes de l’histoire de Joseph dans la Bible. Sacountala réveille tous les souvenirs à demi effacés des temps heureux qu’elle a passés avec le héros dans les délices de l’ermitage.</p>
           <quote>
             <p>« Voyons, dit le héros, quelle fable vas-tu inventer encore pour me convaincre ? »</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Ressouviens-toi du jour où, sous un berceau formé des branches flexibles de l’arbuste vétasa, tu recueillis dans le creux de ta main une eau limpide que contenait le calice surnageant d’un brillant lotus.</p>
-            <label><hi rend="sc">Le héros</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le héros</hi>.</label>
             <p>Eh bien ! Eh bien ! Après ?</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p><pb n="403"/>Dans cet instant, mon petit faon favori était auprès de nous : « Bois le premier », lui dis-tu avec douceur, en lui tendant la coupe végétale ; mais le timide animal, peu habitué à ta vue, n’osa pas s’incliner pour boire, tandis qu’il but sans défiance quand je pris la coupe de ta main, et que je la lui tendis dans la mienne. Sur quoi tu t’écrias en souriant : « Il est donc bien vrai qu’on ne se fie qu’à ceux qu’on aime, et tous deux vous êtes habitants des mêmes bois ! »</p>
           </quote>
           <p>Le héros toujours incrédule, se retournant vers les femmes âgées témoins de cette scène :</p>
@@ -2118,7 +2117,7 @@
           <quote>
             <p>« Brahmanes ! » leur dit le roi, « n’entretenez pas cette jeune femme dans son erreur, jamais je ne fus son époux. Voyez », ajouta-t-il en empruntant au règne végétal de ces climats une de ses plus conjugales images :</p>
             <p>« Voyez : l’astre des nuits se contente de faire épanouir de sa douce lumière la fleur odorante du <hi rend="i">conmonda</hi>, sans toucher de ses rayons le lotus azuré, que l’astre du jour seul réveille à son lever par la chaleur de ses regards. Ainsi l’homme vertueux et maître de ses passions doit détourner avec soin, comme je le fais, ses regards de la femme étrangère ! »</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Ô terre, engloutis-moi pour cacher ma honte !</p>
           </quote>
           <p>Elle se retire, recueillie comme une mendiante dans la maison d’un brahmane hospitalier.</p>
@@ -2127,106 +2126,106 @@
           <head>II</head>
           <p><pb n="405"/>Le sixième acte s’ouvre par un dialogue entre un pauvre pêcheur enchaîné et les gardes de police qui le traînent en prison.</p>
           <quote>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Les gardes</hi>
               <hi rend="i">, frappant leur prisonnier.</hi>
             </label>
             <p>Pourrais-tu nous dire où tu as volé cet anneau précieux, sur la pierre inestimable duquel nous voyons gravé en toutes lettres le nom auguste du roi ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le prisonnier</hi>
               <hi rend="i">, témoignant la plus grande frayeur.</hi>
             </label>
             <p>Pardonnez, illustres seigneurs, je ne me suis pas rendu coupable d’une action si indigne.</p>
-            <label><hi rend="sc">Un des gardes</hi>.</label>
+            <label type="speaker"><hi rend="sc">Un des gardes</hi>.</label>
             <p>Ah ! Sans doute, tu seras quelque vénérable brahmane que le roi aura voulu récompenser par ce magnifique présent ?</p>
-            <label><hi rend="sc">Le prisonnier</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le prisonnier</hi>.</label>
             <p>Écoutez-moi, de grâce ; je ne suis qu’un malheureux pêcheur habitant de Sacrâvatâra.</p>
-            <label><hi rend="sc">L’autre garde</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’autre garde</hi>.</label>
             <p>Eh ! misérable ! Que nous importent et ta parenté et le lieu de ta demeure ?</p>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p><pb n="406"/>Laisse-le s’expliquer, et ne le tourmente pas de la sorte.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Les deux gardes</hi>
               <hi rend="i">, à la fois.</hi>
             </label>
             <p>Ainsi que notre chef l’ordonne. — Allons ! Misérable, parle.</p>
-            <label><hi rend="sc">Le pêcheur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le pêcheur</hi>.</label>
             <p>Eh bien donc ! Voyez en moi un pauvre homme, qui, avec son filet et ses hameçons, cherche, au moyen de la pêche, à soutenir sa nombreuse famille.</p>
-            <label>L’<hi rend="sc">officier</hi><hi rend="i">, souriant.</hi></label>
+            <label type="speaker">L’<hi rend="sc">officier</hi><hi rend="i">, souriant.</hi></label>
             <p>Beau métier, vraiment, et bien honorable ! Surtout.</p>
-            <label><hi rend="sc">Le pêcheur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le pêcheur</hi>.</label>
             <p>Seigneur, ne parlez pas ainsi :</p>
             <p>Quelque vil que puisse paraître l’état auquel nous avons été destinés par nos pères, nous ne devons pas nous y soustraire ; et d’ailleurs, quoique l’action de donner la mort à un animal soit, avec justice, considérée comme cruelle, cependant il n’est pas rare de trouver dans le boucher lui-même une âme tendre et accessible à la compassion.</p>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p><pb n="407"/>Poursuis, poursuis.</p>
-            <label><hi rend="sc">Le pêcheur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le pêcheur</hi>.</label>
             <p>Or, un beau jour qu’ayant pris un superbe poisson, j’étais occupé à le dépecer, tout à coup je trouve dans son ventre cet anneau merveilleux ; et comme, dans ma joie, je venais de l’exposer pour le vendre, vos seigneuries ont mis la main sur moi. Voilà, je vous le jure, comment il est tombé en ma possession : maintenant vous êtes les maîtres de me battre ou de me tuer.</p>
-            <label>L’<hi rend="sc">officier</hi><hi rend="i">, portant la bague à ses narines.</hi></label>
+            <label type="speaker">L’<hi rend="sc">officier</hi><hi rend="i">, portant la bague à ses narines.</hi></label>
             <p>Cet anneau, sans aucun doute, a été renfermé dans le corps d’un poisson, à en juger par l’odeur de mer qui s’en exhale ; reste à savoir comment le fait a pu avoir lieu. Avancez donc, je vais trouver quelqu’un des familiers du roi.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Les gardes</hi>
               <hi rend="i">, au pêcheur.</hi>
             </label>
             <p>En avant, misérable coupeur de bourses, en avant !</p>
             <stage>(Ils marchent ensemble.)</stage>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p>Attendez-moi ici près de la porte de la ville, et faites la plus grande attention à votre prisonnier, jusqu’à ce qu’ayant pris à la cour les informations nécessaires, je revienne vous trouver.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Les deux gardes</hi>
               <hi rend="i">, à la fois.</hi>
             </label>
             <p>Puisse notre seigneur recevoir du roi l’accueil le plus favorable !</p>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p>Je l’espère.</p>
             <stage>(Il sort.)</stage>
-            <label><hi rend="sc">Le garde</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le garde</hi>.</label>
             <p>Le bout des doigts me démange furieusement… <stage>(Jetant un regard farouche sur le pêcheur.) </stage>Je ne sais à quoi il tient que je n’étrangle ce maraud.</p>
-            <label><hi rend="sc">Le pêcheur</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le pêcheur</hi>.</label>
             <p>Vous ne voudriez pas donner la mort à un innocent ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le garde</hi>
               <hi rend="i">, regardant.</hi>
             </label>
             <p>Ah ! Voici déjà notre chef de retour avec l’ordre du roi : ainsi, notre ami, bientôt tu vas être rendu à tes chers poissons, ou servir de proie aux chacals et aux vautours.</p>
-            <label>L’<hi rend="sc">officier de police</hi><hi rend="i">, rentrant.</hi></label>
+            <label type="speaker">L’<hi rend="sc">officier de police</hi><hi rend="i">, rentrant.</hi></label>
             <p>Allons, vite, que cet homme…</p>
-            <label>
+            <label type="speaker">
               
               <hi rend="sc">Le pêcheur</hi>
               <hi rend="i">, pâle d’effroi.</hi>
             </label>
             <p><pb n="409"/>Grands dieux ! Je suis mort.</p>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p>Soit délivré de ses liens ! Le roi n’a pas hésité à reconnaître pour vraies toutes les circonstances relatives à la manière dont le pêcheur a retrouvé l’anneau, telles qu’il nous en fait le récit.</p>
-            <label><hi rend="sc">Le garde</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le garde</hi>.</label>
             <p>Soit fait ainsi que notre chef l’ordonne. Va ! l’ami, tu peux te vanter d’avoir vu de près la triste demeure de la mort.</p>
             <stage>(Il met le pêcheur en liberté.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le pêcheur</hi>
               <hi rend="i">, s’inclinant profondément devant l’officier.</hi>
             </label>
             <p>Ô seigneur ! Vous me rendez la vie.</p>
             <stage>(Il tombe à ses pieds.)</stage>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p>Relève-toi, relève-toi, et apprends que, dans l’excès de sa joie, le roi m’a chargé de te remettre cette somme, égale à la valeur de l’anneau que tu lui as retrouvé ; elle est toute pour toi.</p>
             <stage>(Il lui met une bourse dans la main.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le pêcheur</hi>
               <hi rend="i">, transporté de joie.</hi>
             </label>
             <p>Ô heureux mortel que je suis !</p>
-            <label><hi rend="sc">Le garde</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le garde</hi>.</label>
             <p><pb n="410"/>Tout fier des faveurs du roi, ce misérable, à peine réchappé de la potence, n’a-t-il pas l’air de se pavaner, comme s’il était porté en triomphe sur les épaules d’un superbe éléphant ? « <hi rend="i">Le roi, dans l’excès de sa joie</hi> », dites-vous ? Il faut donc que notre monarque attache un grand prix à ce joyau ?</p>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p>Ah ! ce n’est pas tant la vue de la pierre précieuse dont il est orné qui a pu exciter l’émotion du roi, que…</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Les deux gardes</hi>
               <hi rend="i">, ensemble.</hi>
             </label>
             <p>Et quel autre charme pouvez-vous lui attribuer ?</p>
-            <label>L’<hi rend="sc">officier</hi>.</label>
+            <label type="speaker">L’<hi rend="sc">officier</hi>.</label>
             <p>Je ne sais, mais je soupçonne que cet anneau a, dans l’instant même, rappelé à son souvenir quelque objet tendrement aimé ; car, à peine l’eut-il considéré, que notre souverain, naturellement si profond et si calme, a trahi dans tous ses traits le trouble de son âme.</p>
-            <label><hi rend="sc">Le garde</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le garde</hi>.</label>
             <p>Ainsi, notre maître a procuré un grand plaisir <pb n="411"/>au roi, afin que tout le profit en revînt à ce misérable !</p>
           </quote>
         </div>
@@ -2262,78 +2261,78 @@
           <p>On voit, à cette description du char prêté au héros par <hi rend="i">Indra</hi>, ce qu’on voit plus formellement encore dans les traditions de la Chine primitive, que cette antiquité avait ses navires aériens et ses aéronautes.</p>
           <quote>
             <p>« Nous touchons la terre », lui dit son guide, « et nous allons apercevoir bientôt sur la montagne la demeure habitée par le divin fils de Maritchi. »</p>
-            <label><hi rend="sc">Le héros</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le héros</hi>.</label>
             <p>Comment ! L’essieu n’a pas rendu le moindre <pb n="417"/>son ? Je ne vois pas s’élever le plus léger nuage de poussière ; je n’ai ressenti aucun choc, et, quoique touchant à la terre, le char cependant n’en a pas éprouvé le moindre contrecoup… Et dans quelle partie de la montagne habite donc le divin anachorète ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le guide</hi>
               <hi rend="i">, la lui indiquant du doigt.</hi>
             </label>
             <p>Là où vous apercevez ce pieux solitaire, fixant, dans une immobilité parfaite, le disque radieux du soleil ; le corps déjà à moitié plongé dans un monticule de sable, que les termites amoncellent sans crainte autour de lui ; portant, au lieu du cordon brahmanique, la peau hideuse d’un énorme serpent : pour collier, les branches entrelacées d’arbrisseaux épineux, dont il ne ressent pas même les blessures, et recélant, parmi ses cheveux relevés en partie en un énorme faisceau sur le sommet de sa tête et flottant en partie sur ses larges épaules, une foule d’oiseaux qui, pleins de confiance, y ont construit leurs nids comme dans un arbre touffu.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, le contemplant avec une sorte de terreur religieuse.</hi>
             </label>
             <p>Vénération à l’être capable de se livrer à d’aussi effroyables austérités !</p>
-            <label>
+            <label type="speaker">
               
               <hi rend="sc">Le guide</hi>
               <hi rend="i">, retenant les rênes.</hi>
             </label>
             <p><pb n="418"/>Prince ! Nous voici parvenus à l’ermitage de l’immortel Canoua.</p>
             <stage>(Ils descendent du char.)</stage>
-            <label><hi rend="sc">Le guide</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le guide</hi>.</label>
             <p>Par ici, grand roi, par ici ! Admirez cette terre sacrée, théâtre où les saints solitaires se livrent constamment aux exercices pieux de la dévotion la plus austère.</p>
-            <label><hi rend="sc">Le héros</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le héros</hi>.</label>
             <p>Mon admiration est également excitée à la fois par le spectacle de cet asile vénérable, et par celui des êtres vertueux qui l’habitent. En voyant ces purs esprits sans cesse plongés dans la plus profonde contemplation, à l’ombre de ces arbres immortels ; tantôt occupés à se purifier dans une eau limpide et toute brillante de la poussière dorée du nénuphar sacré ; tantôt ravis en extase au sein de ces grottes silencieuses ornées par la nature elle-même de roches étincelantes, je m’écrie : « Oui ! Ce n’est que dans ce séjour qu’habite la sainteté. »</p>
             <p>Le héros, descendu dans les bois qui entourent l’asile sacré, aperçoit un enfant <stage>(c’est son fils, le fils de Sacountala réfugié et élevé </stage><pb n="419"/><stage>dans cet asile)</stage>. L’enfant joue avec de petits lionceaux, malgré les reproches de deux jeunes filles du monastère qui s’efforcent de le faire obéir à leur voix.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le héros</hi>
               <hi rend="i">, regardant du côté d’où il a entendu partir les voix.</hi>
             </label>
             <p>Quoi ! C’est un enfant (mais un enfant qui déjà semble déployer la vigueur d’un homme) ; il se révolte contre deux jeunes filles de l’ermitage qui cherchent en vain à le faire obéir. Le voilà qui, d’une main nerveuse, entraîne malgré lui un petit lionceau qu’il vient d’arracher à moitié repu à la mamelle de sa mère, et dont la crinière est encore tout en désordre.</p>
-            <label><hi rend="sc">L’enfant</hi>, <hi rend="i">souriant.</hi></label>
+            <label type="speaker"><hi rend="sc">L’enfant</hi>, <hi rend="i">souriant.</hi></label>
             <p>Allons, petit lionceau, ouvre ta gueule bien grande, que je compte tes dents.</p>
             <stage>(Les femmes continuent en vain à gourmander l’enfant.)</stage>
-            <label><hi rend="sc">Une femme</hi>.</label>
+            <label type="speaker"><hi rend="sc">Une femme</hi>.</label>
             <p>Petit mutin, c’est donc ainsi que tu feras sans cesse le tourment de ces jeunes animaux, placés comme nous sous la protection de notre divin Gourou. Dans ton humeur farouche, on dirait que tu ne respires que guerre et combats !</p>
-            <label><hi rend="sc">Le héros</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le héros</hi>.</label>
             <p><pb n="420"/>Chose étonnante ! je sens tout mon cœur incliner vers cet enfant, comme s’il était mon propre fils. <stage>(Après un moment de réflexion.)</stage> Hélas ! Je n’ai point de fils !…… pensée cruelle qui ajoute à mon attendrissement.</p>
-            <label><hi rend="sc">Une femme</hi>.</label>
+            <label type="speaker"><hi rend="sc">Une femme</hi>.</label>
             <p>Mais la lionne furieuse va se jeter sur toi, si tu ne lui rends son petit.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">L’enfant</hi>
               <hi rend="i">, souriant.</hi>
             </label>
             <p>Ah ! Oui, j’en ai bien peur, vraiment !</p>
             <stage>(Il se mord la lèvre.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Le héros</hi>
               <hi rend="i">, dans le plus grand étonnement.</hi>
             </label>
             <p>Cet enfant fait briller à mes yeux le germe d’une grandeur héroïque, semblable à une vive étincelle qui doit bientôt s’étendre en un vaste incendie.</p>
-            <label><hi rend="sc">La première femme</hi>.</label>
+            <label type="speaker"><hi rend="sc">La première femme</hi>.</label>
             <p>Cher petit ! si tu quittes ce jeune lion, je te donnerai un autre hochet.</p>
-            <label><hi rend="sc">L’enfant</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’enfant</hi>.</label>
             <p>Voyons, voyons, donne-le d’abord.</p>
             <stage>(Il tend sa main.)</stage>
-            <label>
+            <label type="speaker">
               
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, considérant la paume de sa main.</hi>
             </label>
             <p><pb n="421"/>Ô prodige ! sa petite main porte distinctement les lignes mystérieuses, pronostic certain de la souveraineté : je les vois briller, ces lignes, légèrement entrelacées en réseau le long de ses doigts délicats, tandis qu’il les étend pour saisir avec avidité l’objet qu’il désire. C’est ainsi que le lotus trahit le précieux trésor que renferme son sein, lorsqu’il l’entrouvre au lever de l’aurore pour recevoir les rayons du soleil.</p>
-            <label><hi rend="sc">L’autre femme</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’autre femme</hi>.</label>
             <p>Ma chère Louora ! Ce n’est pas là un enfant que l’on puisse amuser avec de belles paroles. Va donc, de grâce, à ma chaumière ; tu y trouveras un paon moulé en terre parfaitement colorée : prends-le, et reviens promptement avec ce trésor.</p>
-            <label><hi rend="sc">Louora</hi>.</label>
+            <label type="speaker"><hi rend="sc">Louora</hi>.</label>
             <p>J’y cours. <stage>(Elle sort.)</stage></p>
-            <label><hi rend="sc">L’enfant</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’enfant</hi>.</label>
             <p>Eh bien ! moi, en attendant, je vais toujours m’amuser avec le petit lion.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">La seconde femme</hi>
               <hi rend="i">, le regardant en souriant.</hi>
             </label>
             <p>Veux-tu bien le quitter ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p><pb n="422"/>Que cette mutinerie m’enchante ! (Soupirant) Ah ! mille fois heureux les pères, lorsque, en soulevant dans leurs bras un enfant chéri qui brûle de se réfugier dans leur sein, et tout couverts de la poussière de ses petits pieds, ils contemplent, à travers son gracieux sourire, la blancheur éblouissante de ses dents pures comme les fleurs, et prêtent une oreille complaisante à son petit babil, composé de mots à demi formés !</p>
           </quote>
           <p>Le héros s’informe de la naissance de cet enfant dont la force rappelle l’Hercule indien Rustem. Une des femmes lui apprend qu’il est fils d’une nymphe réfugiée dans cet asile.</p>
@@ -2341,110 +2340,110 @@
           <p><quote>« Dieux ! C’est ma propre histoire »</quote>, se dit le héros à lui-même. D’autres signes de reconnaissance lui révèlent que l’enfant est son fils.</p>
           <p>Sacountala, avertie par les nourrices des interrogations de l’étranger et des transports du héros qui presse son fils dans ses bras, paraît. <pb n="423"/>Les ténèbres de l’intelligence du héros se dissipent à la vue et à la voix de l’enfant ; il reconnaît la mère.</p>
           <quote>
-            <label><hi rend="sc">Le héros</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le héros</hi>.</label>
             <p>Est-ce donc là Sacountala ? s’écrie-t-il à l’aspect de la jeune mère ; Sacountala, vêtue des habits de la douleur ; ses beaux cheveux sans ornements, réunis en une seule tresse, signe de veuvage ; son teint flétri par les larmes !… Quelle douce résignation se peint dans tous ses traits ! Quelle affection elle semble encore prête à témoigner au barbare qui l’a condamnée à un si terrible abandon !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, jetant les yeux sur le roi en proie au plus amer repentir, à part.</hi>
             </label>
             <p>Si ce n’est pas là le fils de mon seigneur, quel autre pourrait impunément souiller mon fils par son contact, malgré le charme qui le protège ?</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">L’enfant</hi>
               <hi rend="i">, courant à sa mère.</hi>
             </label>
             <p>Ma mère, cet étranger me commande comme si j’étais son fils !</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Chère Sacountala ! J’ai été bien cruel envers <pb n="424"/>toi ; mais vois comme cette horrible ingratitude a fait place dans mon cœur à la plus sincère affection, et ne refuse pas de me reconnaître pour ton époux.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, à part.</hi>
             </label>
             <p>Reprends courage, ô mon cœur ! Le destin, trop longtemps courroucé contre moi, a enfin pitié de la pauvre Sacountala. Oui, c’est bien là le fils de mon seigneur.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Délivré de ces odieuses ténèbres qui si longtemps, dans ma folie, ont obscurci ma mémoire, je puis donc enfin te reconnaître, ô la plus belle des femmes ! M’enivrer de ta vue ! C’est ainsi qu’au sortir d’une profonde éclipse, l’astre brillant des nuits retrouve de nouveau sa chère Rohini, et qu’ils confondent ensemble leurs rayons argentés.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Puisse la victoire !…</p>
             <stage>(Suffoquée par les larmes, elle ne peut achever.)</stage>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Va, chère Sacountala, quoique mon nom <pb n="425"/>se soit égaré dans ce flot de larmes, ton vœu est parfaitement accompli… Oui ! J’augure de ma victoire, et par ce front pudique dépouillé d’ornements, et par cette pâleur qui a remplacé l’incarnat de ta bouche divine.</p>
-            <label><hi rend="sc">L’enfant</hi>.</label>
+            <label type="speaker"><hi rend="sc">L’enfant</hi>.</label>
             <p>Ma mère, quel est donc cet étranger ?</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Pauvre enfant ! demande-le au destin.</p>
             <stage>(Elle pleure.)</stage>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Eh quoi ! Pourrais-tu craindre encore d’être de nouveau abandonnée par moi ? Chasse, chasse cette cruelle pensée bien loin de ton cœur ! N’en accuse que cette inconcevable folie qui troublait ma raison !</p>
             <p>Plongé dans d’aussi profondes ténèbres, quel usage l’homme le plus prudent lui-même pourrait-il faire de son discernement ? Vois l’aveugle rejeter, plein de terreur, loin de lui la couronne de fleurs dont une main amie vient de parer sa tête, et que, dans son erreur, il prend pour un odieux serpent.</p>
             <stage>(Il tombe à ses pieds.)</stage>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p><pb n="426"/>Ah ! relève-toi, ô mon époux, relève-toi. Oui, j’ai été longtemps bien malheureuse ; mais dans ce moment ma joie surpasse tous les maux que j’ai soufferts, puisque le fils de mon seigneur daigne avoir pitié de moi. <stage>(Le roi se relève.)</stage> Mais comment le souvenir de cette infortunée a-t-il pu renaître dans l’esprit de son époux ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Chère Sacountala, je te ferai le récit de cette aventure ; mais attends que la blessure de mon cœur soit un peu fermée : cependant laisse-moi essuyer cette larme, reste de celles que t’a fait répandre ma fausse erreur ; cette larme qui dépare ta figure ravissante. Puissé-je, en la faisant disparaître de ta paupière humide, faire disparaître avec elle le poids de mes remords ?</p>
             <stage>(Il l’essuie délicatement.)</stage>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, jetant dans ce moment les yeux sur l’anneau du roi.</hi>
             </label>
             <p>Cher époux, le voilà donc ce fatal anneau !</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Oui, cet anneau retrouvé d’une manière tout à fait miraculeuse, et à la vue duquel le retour de ma mémoire était sans doute attaché.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p><pb n="427"/>Combien ne doit-il pas m’être précieux, puisque je lui dois d’avoir enfin regagné la confiance du fils de mon seigneur !</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Eh bien ! Qu’il brille donc de nouveau à ton doigt, comme une fleur éclatante dont se pare une jeune plante au retour du printemps.</p>
-            <label><hi rend="sc">Sacountala</hi>.</label>
+            <label type="speaker"><hi rend="sc">Sacountala</hi>.</label>
             <p>Non, non, je n’ose plus me fier à lui : c’est au fils de mon seigneur qu’il convient de le garder.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Canoua</hi>
               <hi rend="i">, les considérants tour à tour.</hi>
             </label>
             <p>Vertueuse Sacountala, noble enfant, prince magnanime, ou plutôt la fidélité même, la fortune, la puissance réunies : voilà le trio enchanteur sur lequel se promènent avec avidité mes regards satisfaits.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Divinité puissante ! l’homme en est ordinairement réduit à former longtemps des vœux ardents avant d’obtenir la possession de l’objet désiré ; mais, dans l’excès de vos bontés, vous avez <pb n="428"/>même prévenu tous mes souhaits. D’abord paraît la fleur, et ensuite vient le fruit ; ce n’est qu’après la formation des nuages que la pluie descend en rosée sur la terre : mais, par la plus flatteuse exception, avant même le plus léger indice, je me suis senti comblé de vos faveurs.</p>
-            <label><hi rend="sc">Un religieux</hi>.</label>
+            <label type="speaker"><hi rend="sc">Un religieux</hi>.</label>
             <p>Prince, c’est ainsi que les dieux dispensent leurs bienfaits.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Et les méritai-je ces faveurs, moi qui, après avoir pris une épouse légitime selon les rites <hi rend="i">Gandharva</hi>, l’ai méconnue ensuite, dans le trouble inconcevable de ma mémoire ; lorsqu’elle me fut amenée par ses parents, je la renvoyai inhumainement, en me rendant ainsi coupable du plus grand crime envers elle et son vénérable père adoptif ! Cependant, la simple vue de cet anneau m’ayant rendu plus tard la mémoire, je me rappelai alors avec amertume les moindres circonstances de cette union, et la manière indigne dont j’avais traité Sacountala. Toute cette conduite de ma part excite encore en moi le plus grand étonnement : <pb n="429"/>n’en ai-je pas agi aussi follement qu’un homme qui, après s’être refusé obstinément à reconnaître un éléphant, tant que la masse bien distincte de cet animal lui frappait la vue, ne se serait ensuite laissé convaincre qu’à l’inspection de la trace énorme de ses pas ?</p>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Cesse, ô mon fils ! De te reprocher un crime dont tu n’es point coupable, et qui a été le produit d’un charme irrésistible. Sache qu’au moment où Ménacâ, descendue près de l’étang des nymphes, en ramena avec elle Sacountala désespérée de ton abandon, et la confia aux tendres soins d’Aditi, je reconnus aussitôt, par la puissance de la méditation, que toute ta conduite à l’égard de la plus vertueuse des femmes était due à l’imprécation qu’avait lancée contre elle l’irascible Dourvasa, et que le charme ne pourrait cesser qu’à la vue de ton anneau.</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Douchmanta</hi>
               <hi rend="i">, soupirant d’aise, à part.</hi>
             </label>
             <p>Ah ! me voici enfin délivré du poids de mes remords !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Sacountala</hi>
               <hi rend="i">, à part.</hi>
             </label>
             <p>Dieux ! il est donc vrai que c’était involontairement <pb n="430"/>que le fils de mon seigneur m’a rejetée de son sein, puisqu’il ne pouvait me reconnaître !… Il faut que cette imprécation ait été lancée contre moi dans un moment où mon âme était toute concentrée dans l’objet de mon amour, et que mes compagnes seules l’aient entendue ; car je me rappelle fort bien ces paroles qu’elles m’ont dites à mon départ, d’un ton de voix qui trahissait leur inquiétude : « Si le roi refusait de te reconnaître, n’oublie pas de lui montrer son anneau. » Hélas ! Pourquoi ne les ai-je pas alors questionnées davantage !… Mais cela était-il en mon pouvoir ? Déjà, sans doute, ma langue était enchaînée par l’imprécation du redoutable Dourvasa !</p>
-            <label>
+            <label type="speaker">
               <hi rend="sc">Canoua</hi>
               <hi rend="i">, se tournant vers Sacountala.</hi>
             </label>
             <p>Ma fille ! Instruite actuellement de la vérité tout entière, tu ne dois plus conserver le moindre ressentiment pour un époux qui, de sa pleine volonté, n’eût jamais cessé de te chérir.</p>
             <p>La seule imprécation qui lui avait fait perdre la mémoire a été cause du traitement injurieux qu’il t’a fait éprouver ; et, dès que le charme a été rompu, vois comme, à l’instant même, tu as repris ton empire sur son cœur. <pb n="431"/>Tel un miroir dont la surface est ternie ne peut recevoir l’image d’un objet qui s’y peint ensuite avec la plus grande fidélité, dès qu’on lui a rendu son premier poli.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Oh ! Voilà bien l’expression fidèle de tout ce qui s’est passé dans mon âme.</p>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Mon fils ! As-tu embrassé ce charmant enfant que t’a donné Sacountala, et sur lequel j’ai voulu accomplir moi-même les cérémonies usitées à la naissance ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Divinité bienfaisante ! je vois dans cette insigne faveur un gage assuré de l’illustration de ma race.</p>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Sache que cet enfant est destiné à se rendre un jour, par sa valeur, maître du monde entier.</p>
             <p>Oui, quelques années encore, et, porté sur un char si rapide que, volant sur les mers, il toucherait à peine la sommité de leurs flots, <pb n="432"/>ce héros invincible conquerra les sept îles dont se compose la terre ; il sera connu sous le nom de Bharata, nom à jamais célèbre que lui décerneront les peuples reconnaissants de la protection dont ils jouiront sous son empire.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>À quelles hautes destinées n’est pas réservé l’être auquel, dès sa naissance, la Divinité elle-même a daigné prodiguer d’aussi tendres soins !</p>
-            <label><hi rend="sc">Canoua</hi>, <hi rend="i">s’adressant au roi.</hi></label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>, <hi rend="i">s’adressant au roi.</hi></label>
             <p>Douchmanta ! il est temps que tu remontes sur le char d’Indra, ton protecteur, avec ton épouse et ton fils, et que tu retournes occuper le siège de ton empire.</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Ainsi que l’ordonne le maître des dieux.</p>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Puisse Indra, satisfait de tes nombreux sacrifices, entretenir par des pluies abondantes la fertilité dans tes vastes États ; et, dans cette lutte généreuse, puissiez-vous constamment l’un et l’autre assurer à jamais le bonheur des deux mondes !</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p><pb n="433"/>Divinité puissante ! Comment ne ferais-je pas tous mes efforts pour me rendre digne de semblables bienfaits ?</p>
-            <label><hi rend="sc">Canoua</hi>.</label>
+            <label type="speaker"><hi rend="sc">Canoua</hi>.</label>
             <p>Mon fils ! Est-il quelque autre faveur que je puisse t’accorder ?</p>
-            <label><hi rend="sc">Douchmanta</hi>.</label>
+            <label type="speaker"><hi rend="sc">Douchmanta</hi>.</label>
             <p>Ô mon divin protecteur ! Puisque votre bonté inépuisable me permet encore de former un vœu :</p>
             <p>Que les rois de la terre ne désirent donc de régner que pour faire le bonheur de leurs peuples ! Que la déesse Sarasouati soit constamment honorée par les saints brahmanes ; et qu’en mon particulier, le souverain être existant par lui-même, le tout-puissant Siva, satisfait de mon zèle à le servir, me délivre à jamais des liens d’une seconde naissance !</p>
           </quote>
@@ -2529,23 +2528,23 @@
           <p><quote>« Simplicité de cœur, sobriété de paroles, modestie de maintien, innocence même de pensées, pureté d’imagination, affections pieuses, voilà la vertu »</quote>, dit l’anachorète en recevant le tribut de la nymphe.</p>
           <p>Elle demande au vieillard quelle est la cause de l’agitation qu’elle voit dans la contrée habitée par les sages.</p>
           <quote>
-            <label><hi rend="sc">Le vieillard</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le vieillard</hi>.</label>
             <p>Nymphe ! Je vais vous dire quels événements troublent nos pieuses méditations… Deux petits enfants, apportés par quelque divinité dans ces forêts, sont arrivés dans nos ermitages et ont détourné nos religieux de leurs graves études. Les animaux eux-mêmes, par leur attitude à l’aspect de ces enfants mystérieux, exprimaient leur étonnement et leur attrait.</p>
-            <label><hi rend="sc">La nymphe</hi>.</label>
+            <label type="speaker"><hi rend="sc">La nymphe</hi>.</label>
             <p>Et leur nom ?</p>
-            <label><hi rend="sc">Le vieillard</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le vieillard</hi>.</label>
             <p><pb n="456"/>Ils se nomment l’un <hi rend="i">Cousa</hi>, l’autre <hi rend="i">Lava</hi> : ce sont les noms que leur avait donnés leur céleste nourrice ; et, pour preuve qu’ils sont d’une origine plus qu’humaine, ils avaient à côté d’eux des armes divines. Le maître des sages les adopta, les éleva, leur fit enseigner l’usage des armes, puis, lorsqu’ils comptèrent un plus grand nombre d’étés, il les revêtit du cordon de la secte des saints, et mit dans leurs mains les <hi rend="i">Védas</hi> sacrés…</p>
             <p>Une autre raison encore a dérangé nos pieuses études. Le sage Valmiki, un jour qu’il se promenait sur les bords du paisible et brillant Tamasâ, vit un oiseleur abattre d’un coup mortel un oiseau qui, à côté de sa douce compagne, faisait retentir la rive de ses accents amoureux. Affligé à ce triste spectacle, le sage exhala par des mots son indignation, et, inspiré par la déesse de l’éloquence, il exprima sa pensée dans un distique improvisé : « N’espère point, barbare, prolonger tes jours, toi dont la main a pu frapper un coup si cruel, et détruire un innocent oiseau qui a trouvé la mort quand il ne songeait qu’à l’amour. »</p>
             <p>— Mais, reprend la nymphe, qu’est-il survenu <pb n="457"/>à l’infortunée Sita depuis qu’elle a été conduite dans la forêt ?</p>
-            <label><hi rend="sc">Le vieillard</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le vieillard</hi>.</label>
             <p>On l’ignore.</p>
-            <label><hi rend="sc">La nymphe</hi>.</label>
+            <label type="speaker"><hi rend="sc">La nymphe</hi>.</label>
             <p>Et que fait Rama ? Je tremble qu’il n’épouse une nouvelle reine ?</p>
-            <label><hi rend="sc">Le vieillard</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le vieillard</hi>.</label>
             <p>Vous le jugez mal : une statue d’or de sa chère Sita est sans cesse sous ses yeux.</p>
-            <label><hi rend="sc">La nymphe</hi>.</label>
+            <label type="speaker"><hi rend="sc">La nymphe</hi>.</label>
             <p>Bien ! Il garde sa foi ! Oh ! Qu’il est difficile de connaître le cœur de l’homme ! Que de contradictions se rencontrent dans celui-là même qui passe pour le plus pur ! Comment la même main peut-elle allier à la rudesse de manier le fer homicide, la délicatesse de palper le velouté d’une fleur ?…</p>
-            <label><hi rend="sc">Le vieillard</hi>.</label>
+            <label type="speaker"><hi rend="sc">Le vieillard</hi>.</label>
             <p>Mais éloignons-nous ? Je vais vous servir de guide… Le soleil, en ce moment, échauffe le ciel de ses rayons les plus ardents, et force à venir se réfugier sous l’ombrage les chantres <pb n="458"/>silencieux de la clairière. Seule, au milieu des rameaux les plus élevés, la colombe répète ses doux murmures. Les branches entrelacées répandent une ombre fraîche, sous laquelle se repose l’éléphant appuyé contre un arbre antique ; ou bien il étend sa trompe au sein du riant berceau, et fait tomber, en la retirant, une pluie de feuilles et de boutons fleuris, que l’on prendrait pour une offrande présentée au torrent sacré dont les ondes, pures comme le cristal, coulent paisiblement sous ce dôme de verdure.</p>
           </quote>
         </div>
@@ -2628,10 +2627,11 @@
         <p><pb n="475"/>Nous avons lu comme tout le monde les deux volumes de poésies intitulés <hi rend="i">Contemplations</hi>, que M. Victor Hugo vient de publier. Il ne sied pas à un poète de juger l’œuvre d’un poète, son contemporain et son ancien ami. La critique serait suspecte de rivalité, l’éloge paraîtrait une adulation aux deux plus grandes puissances que nous reconnaissons sur la terre, le génie et le malheur.</p>
         <p>Nous nous sommes contenté de jouir en silence des beautés de sentiments qui débordent <pb n="476"/>de ces pages, de pleurer avec le père, de remonter avec l’époux et l’ami le courant des jours évanouis où nous nous sommes rencontrés en poésie à nos premiers vers. Mais, hier, une circonstance heureuse et imprévue nous a, pour ainsi dire, contraint à nous souvenir que nous avions été poète aussi, et de répondre par un bien faible écho à la voix qui nous vient de l’Océan.</p>
         <p>Les poètes, les écrivains, les amis particuliers de madame Victor Hugo, ont eu l’idée de faire magnifiquement relier, pour elle, le volume de poésies de son mari, d’insérer dans ce volume quelques pages blanches, de couvrir ces pages blanches de leurs noms, et de quelques lignes de prose ou de vers attestant leur souvenir et leur affection pour cette illustre et vertueuse femme. L’un d’eux m’a apporté hier ma page à remplir ; cette page et sa destination m’ont inspiré ce matin les vers qui suivent. Je les donne ici, non comme un modèle de littérature, mais comme un témoignage de respect à madame Victor Hugo, et de souvenir affectueux de nos jeunesses à un ancien ami. Mais je les donne en demandant excuse à l’antiquité.</p>
+        <pb n="477"/>
         <quote>
-          <label><hi rend="sc">À madame Victor Hugo, 
+          <label type="head"><hi rend="sc">À madame Victor Hugo, 
 <lb/>souvenir de ses noces</hi>.</label>
-          <l><pb n="477"/>Le jour où cet époux, comme un vendangeur ivre,</l>
+          <l>Le jour où cet époux, comme un vendangeur ivre,</l>
           <l>Dans son humble maison t’entraîna par la main,</l>
           <l>Je m’assis à la table où Dieu vous menait vivre,</l>
           <l>Et le vin de l’ivresse arrosa notre pain.</l>
@@ -2672,7 +2672,7 @@
           <l>Le stupide Océan hurler contre un écueil !</l>
           <l/>
           <l>N’importe ; asseyons-nous ! Il est fier, tu fus tendre !</l>
-          <l> — Que vas-tu nous servir, ô femme de douleurs ?</l>
+          <l>— Que vas-tu nous servir, ô femme de douleurs ?</l>
           <l>Où brûlèrent deux cœurs, il reste un peu de cendre :</l>
           <l>Trempons-la d’une larme ! — Et c’est le pain des pleurs !</l>
         </quote>

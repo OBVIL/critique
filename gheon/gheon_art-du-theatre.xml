@@ -3,7 +3,7 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -48,7 +48,7 @@
         <date when="1923">1923</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -57,7 +57,7 @@
       <div>
         <head>À mes amis canadiens</head>
         <p><pb n="5"/>En 1923, Jacques Copeau me demanda d’exposer devant ses acteurs, ses élèves et son public, au Vieux Colombier, ma conception du théâtre, si proche de la sienne, il ne l’ignorait pas. Ces quatre causeries n’ont jamais été publiées en France. Le Canada en aura la primeur. Ce sera le moyen d’acquitter en partie ma dette envers ces Français d’outre-mer dont je n’oublierai pas l’accueil. Si ces pages stimulent chez eux le goût inné du beau et grand théâtre et leur prouvent que leurs frères s’y intéressent encore, qu’ils travaillent à le relever en esprit de foi et de poésie, je n’aurai pas perdu ma peine ni mon temps.</p>
-        <p rend="right">Henri Ghéon</p>
+        <byline>Henri Ghéon</byline>
       </div>
       <div>
         <head>I. Conditions de l’art dramatique</head>
@@ -227,7 +227,7 @@
           <quote>
             <p rend="i">Traître ! insolent ! trompeur ! lâche ! coquin ! pendard ! gueux ! bélître ! fripon ! maraud ! voleur !</p>
           </quote>
-          <label>SGANARELLE <hi rend="i">levant le bâton</hi></label>
+          <label type="speaker">SGANARELLE <hi rend="i">levant le bâton</hi></label>
           <quote>
             <p><pb n="89"/><hi rend="i">Ah ! vous en voulez donc</hi> ! (Le bâton frappe)</p>
           </quote>
@@ -278,7 +278,7 @@
         <div>
           <head>II</head>
           <p><pb n="117"/>Ce n’est qu’un intermède. Un seul poète contre le réalisme envahissant. Il n’aura pas de descendants, sinon pour un instant, Banville. Une sorte de tragédie teintée de romantisme qu’on appelle « la pièce en vers » représentera seule au cours du siècle finissant, et abusivement à mon sens, la poésie. Genre faux ; et dans l’ensemble œuvres honnêtes et médiocres.</p>
-          <p>Le dramaturge-poète Musset écrivait en prose ; le plus poète de théâtre, c’est pourtant lui. Mais convient-il déjà de présenter ma pensée sur ce point ? Jusqu’à l’avènement du théâtre bourgeois, tous les dramaturges sont des poètes. Non pas <pb n="118"/>parce qu’ils écrivent en vers — voyez Molière — mais parce qu’ils transposent la réalité sur un plan d’ordre, d’harmonie, de simplification, de sublimation, de beauté rythmique, de beauté plastique, j’ajouterai de gratuité qui la met en valeur et lui confère une noblesse qu’elle n’a pas à l’état brut. Dans la tragédie, dans la comédie. Chez les Grecs, chez les médiévaux, chez Shakespeare, chez Calderon, chez nos classiques. Pour toucher le public, on le dépayse ; avec un recul calculé dans le temps ou l’espace, on lui propose des exemples particuliers de la plus grande généralité humaine, mais selon l’esprit de son temps. La scène est un miroir où il se voit non dans son apparence passagère, mais dans son fonds permanent, éternel. Non photographié, mais non plus déformé : transfiguré, si j’ose dire. C’est tout l’opposé du naturalisme, et sans dommage pour le naturel ; car, celui-ci, on ne l’altère pas, mais on l’ordonne. Cette transposition nécessaire — souvenez-vous de la première <pb n="119"/>scène du <hi rend="i">Médecin malgré lui</hi> —porte sur les mots, sur les gestes, sur les mouvements, sur les groupements, et par extension sur les couleurs, pour composer une fresque mouvante, image exacte de l’action entièrement suscitée par le texte écrit, inscrite dans ce texte même. Tel fut et tel est le théâtre ; telle fut à toutes les époques, sous tous les ciels, et telle doit être aujourd’hui ce que j’appelle la poésie de théâtre sans laquelle le théâtre ne sera plus ce qu’il a toujours été. Musset l’avait compris.</p>
+          <p>Le dramaturge-poète Musset écrivait en prose ; le plus poète de théâtre, c’est pourtant lui. Mais convient-il déjà de présenter ma pensée sur ce point ? Jusqu’à l’avènement du théâtre bourgeois, tous les dramaturges sont des poètes. Non pas <pb n="118"/>parce qu’ils écrivent en vers — voyez Molière — mais parce qu’ils transposent la réalité sur un plan d’ordre, d’harmonie, de simplification, de sublimation, de beauté rythmique, de beauté plastique, j’ajouterai de gratuité qui la met en valeur et lui confère une noblesse qu’elle n’a pas à l’état brut. Dans la tragédie, dans la comédie. Chez les Grecs, chez les médiévaux, chez Shakespeare, chez Calderon, chez nos classiques. Pour toucher le public, on le dépayse ; avec un recul calculé dans le temps ou l’espace, on lui propose des exemples particuliers de la plus grande généralité humaine, mais selon l’esprit de son temps. La scène est un miroir où il se voit non dans son apparence passagère, mais dans son fonds permanent, éternel. Non photographié, mais non plus déformé : transfiguré, si j’ose dire. C’est tout l’opposé du naturalisme, et sans dommage pour le naturel ; car, celui-ci, on ne l’altère pas, mais on l’ordonne. Cette transposition nécessaire — souvenez-vous de la première <pb n="119"/>scène du <hi rend="i">Médecin malgré lui</hi> — porte sur les mots, sur les gestes, sur les mouvements, sur les groupements, et par extension sur les couleurs, pour composer une fresque mouvante, image exacte de l’action entièrement suscitée par le texte écrit, inscrite dans ce texte même. Tel fut et tel est le théâtre ; telle fut à toutes les époques, sous tous les ciels, et telle doit être aujourd’hui ce que j’appelle la poésie de théâtre sans laquelle le théâtre ne sera plus ce qu’il a toujours été. Musset l’avait compris.</p>
           <p>Le théâtre lui tourne le dos. Car voici « la pièce moderne » ; mi-partie drame, mi-partie comédie, on ne saurait lui donner un nom plus précis.</p>
           <p>Issue, je le répète, des essais mort-nés de Diderot — mais qui a lu le <hi rend="i">Père Prodigue</hi> ? —, de la comédie larmoyante de Nivelle de la Chaussée, elle expulse d’autorité <pb n="120"/>la fiction et le passé, les héros de la légende et les héros de l’histoire, les créations de la fantaisie et l’héritage de la tradition. Il n’y a plus de bon à peindre que l’homme de la rue, tel qu’il se présente à nous tous les jours, avec ses habits, avec son parler, avec ses gestes ordinaires et sans aucune modification.</p>
           <p>Voici, du moins, le but. On n’y parviendra pas du premier coup. Durant un siècle, on ne cessera pas d’y tendre.</p>

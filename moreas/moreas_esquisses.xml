@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1908"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -609,7 +609,7 @@
           <p>Mais aussitôt, il observe : <quote>« … <pb n="99"/>Un inconvénient est à craindre dans ces productions lyriques trop fréquentes, surtout quand on tient à les rattacher, ainsi que fait l’auteur, à des cadres distincts et composés : c’est qu’au lieu de réfléchir fidèlement dans les vers les nuances vraies qui se succèdent dans l’âme, on ne crée, on ne force un peu, on n’achève exprès des nuances qui ne sont qu’ébauchées encore… »</quote></p>
           <p>Lorsque Sainte-Beuve soutient que Victor Hugo n’avait point le sens de la perfection grecque, il a tout à fait raison.</p>
           <quote>
-            <p>« M. Hugo, écrit-il, loin d’avoir en rien l’organisation grecque, est plutôt comme un Franc énergique et subtil, devenu vite habile et passé maître aux richesses latines de la décadence, un Goth revenu d’Espagne, qui s’est fait Romain, très raffiné même en grammaire, savant en style du Bas-Empire et à toute l’ornementation byzantine <note resp="author">Il paraît que quelqu’un a dit de Victor Hugo, fort plaisamment : <quote>« En fait d’ordres grecs, il entend surtout le cyclopéen. »</quote></note>. »</p>
+            <p>« M. Hugo, écrit-il, loin d’avoir en rien l’organisation grecque, est plutôt comme un Franc énergique et subtil, devenu vite habile et passé maître aux richesses latines de la décadence, un Goth revenu d’Espagne, qui s’est fait Romain, très raffiné même en grammaire, savant en style du Bas-Empire et à toute l’ornementation byzantine<note resp="author">Il paraît que quelqu’un a dit de Victor Hugo, fort plaisamment : <quote>« En fait d’ordres grecs, il entend surtout le cyclopéen. »</quote></note>. »</p>
           </quote>
           <p>Sainte-Beuve a dit encore de Victor Hugo :</p>
           <quote>
@@ -1066,7 +1066,7 @@
             <l>Des oiseaux, car voici la nuit.</l>
             <l>Sans vous envier ni vous plaindre,</l>
             <l>Je regarde le jour s’éteindre</l>
-            <l> Sur les tertres de croix semés,</l>
+            <l>Sur les tertres de croix semés,</l>
             <l>Ô pâles morts, où vous dormez.</l>
           </quote>
           <p>… J’ai vu le cimetière de Montmartre du haut du <pb n="178"/>pont Caulaincourt. J’étais jeune, j’allais à des rendez-vous d’amour et je méprisais les morts.</p>
@@ -1094,24 +1094,18 @@
           <p>Je possède plusieurs lettres de Mallarmé ; je cherche sans les trouver toutes : mes paperasses sont brouillées comme mon âme.</p>
           <p>Voici cependant ce qu’il m’écrivait à l’apparition du <hi rend="i">Pèlerin passionné</hi> :</p>
           <quote>
-            <p>Paris, 5 janvier 1891.</p>
-            <p/>
-            <p>Mon cher ami,</p>
-            <p/>
-            <p><hi rend="i">La page, où s’évapore, en quelle rareté de voix et du coloris, votre mélodie écrite, me paraît vierge, autour de mots, même les modernes, qui gardent un air que vous ay ez été le seul à les proférer, et n’est-ce avant tout le charme que cette allure, pour le Vers, d’étranger, toujours, en vrai terroir ! Vous excellez ainsi. Et pour la première fois, il me semble, donnez à penser qu’appartient séculairement et comme son patrimoine libre de toute daté et de tout lieu, à la corporation des</hi><pb n="183"/><hi rend="i">poètes, un langage à eux propre, et perpétuel. Tout cela est neuf, exact, suggestif, me retient, et, voyez, enchante de tous côté s ; j’en suis heureux, cher Moréas, vous remercie de ce Pèlerin passionné et dis à bientôt pour vous en parler.</hi>
-            </p>
-            <p/>
-            <p>                                          Votre main</p>
+            <label type="dateline"><hi rend="n">Paris, 5 janvier 1891.</hi></label>
+            <label type="salute"><hi rend="n">Mon cher ami,</hi></label>
+            <p><hi rend="i">La page, où s’évapore, en quelle rareté de voix et du coloris, votre mélodie écrite, me paraît vierge, autour de mots, même les modernes, qui gardent un air que vous ay ez été le seul à les proférer, et n’est-ce avant tout le charme que cette allure, pour le Vers, d’étranger, toujours, en vrai terroir ! Vous excellez ainsi. Et pour la première fois, il me semble, donnez à penser qu’appartient séculairement et comme son patrimoine libre de toute daté et de tout lieu, à la corporation des</hi><pb n="183"/><hi rend="i">poètes, un langage à eux propre, et perpétuel. Tout cela est neuf, exact, suggestif, me retient, et, voyez, enchante de tous côté s ; j’en suis heureux, cher Moréas, vous remercie de ce Pèlerin passionné et dis à bientôt pour vous en parler.</hi></p>
+            <label type="salute">                                          <hi rend="n">Votre main</hi></label>
             <p>STÉPHANE MALLARMÉ.</p>
           </quote>
           <p>Lorsque je publiai <hi rend="i">Ériphyle</hi>, il y avait déjà longtemps que je m’étais éloigné de Mallarmé. J’ai la chance et le malheur de brusquer et mes idées et mes façons et tout mon être.</p>
           <p>Ecoutez cette pénétrante appréciation de mon poème :</p>
           <quote>
-            <p>Paris, 11 novembre 1894.</p>
-            <p/>
+            <label type="dateline"><hi rend="n">Paris, 11 novembre 1894.</hi></label>
             <p><hi rend="i">La malice du destin selon lequel je n’ai mis la main qu’en rentrant, ici, les derniers jours, sur</hi> Ériphyle<hi rend="i"> espérée impatiemment, mon cher Moréas, vaudrait qu’on se la dît ou qu’on se rencontrât ; mais je tiens les beaux vers et, pardon, remercie tard. Au fond, vous trichez avec les siècles, mais j’adore cela qui est, peut-être, l’acte principal du poète : vous projetez à un futur inappréciable mais certain, avec le caractère de perpétuité pris alors</hi>, <pb n="184"/><hi rend="i">des écrits qui sourdent maintenant d’une vie neuve spirituelle ; et quoi déplus enchantant que ce mélange et d’ingénuité et de vétusté — à travers votre maîtrise</hi> ?</p>
-            <p/>
-            <p>                                          Toujours votre</p>
+            <label type="salute">                                          <hi rend="n">Toujours votre</hi></label>
             <p>STÉPHANE MALLARMÉ.</p>
           </quote>
           <p>Avez-vous remarqué ce passage de la première lettre : <quote><hi rend="i">qu’appartient séculairement et comme son patrimoine libre de toute date et de tout lieu, à la corporation des poètes, un langage à eux propre et perpétuel</hi></quote> ? Et cet autre de la seconde ; <quote><hi rend="i">Au fond, vous trichez avec les siècles, mais j’adore cela qui est, peut-être, l’acte principal du poète</hi></quote> ?</p>
@@ -1120,9 +1114,8 @@
           <p>Ne dites pas, je vous prie, sur un ton conciliant :</p>
           <p>— Oui, oui, Mallarmé… Il y a ses premières poésies de l’époque parnassienne…</p>
           <p>Aimez, si vous voulez, cet <hi rend="i">air</hi> de sa seconde manière presque :</p>
-          <quote>
-            <l><pb n="185"/>                         SAINTE</l>
-            <l/>
+          <pb n="185"/><quote>
+            <label type="head">SAINTE</label>
             <l>À la fenêtre recélant</l>
             <l>Le santal vieux qui se dédore</l>
             <l>De sa viole étincelant</l>
@@ -1146,8 +1139,7 @@
           <p>N’oublions pas la surfine églogue de <hi rend="i">l’Après-midi d’un faune</hi>, mais…</p>
           <p>aimons, aimons et honorons, avec Verlaine, <quote>« d’une sorte d’horreur panique »</quote></p>
           <quote>
-            <l>                          LE TOMBEAU D’EDGAR POE</l>
-            <l/>
+            <label type="speaker">LE TOMBEAU D’EDGAR POE</label>
             <l>Tel qu’en Lui-même enfin l’éternité le change,</l>
             <l>Le Poète suscite avec un glaive nu</l>
             <l>Son siècle épouvanté de n’avoir pas connu</l>
@@ -1816,7 +1808,7 @@
               <p>… Le mouvement se ralentit sur le port.</p>
               <p>Le couchant est rose tendre sur la mer et sur les nappes d’eau que de petits torrents laissent près du rivage.</p>
               <p/>
-              <p><pb n="250"/>…Je viens de visiter, dans la voiture du bon Tobie, une partie de la forêt du Dom de Bormes, sur les montagnes des Maures.</p>
+              <p><pb n="250"/>… Je viens de visiter, dans la voiture du bon Tobie, une partie de la forêt du Dom de Bormes, sur les montagnes des Maures.</p>
               <p>On traverse, avant d’y arriver, un pays plein d’oliviers, de gros châtaigniers, d’aubépines, de saules qui dressent leurs branches nues comme des glaives ardents. La route est bordée d’asphodèles et de bruyères blanches. De petites cascades tombent des rochers. Tout à coup, derrière un mimosa ou un néflier du Japon, une maisonnette apparaît avec ses volets verts et sa <hi rend="i">noria</hi> où peine quelque âne.</p>
               <p>La forêt domaniale, fort belle, plantée de pins et de chênes lièges, s’étend sur un assez grand espace, avec des vallons et des ravins.</p>
               <p>Nous avons bu à la <hi rend="i">Cantine du Dom</hi>, un vin couleur de rubis, mélangé avec de la limonade gazeuse.</p>
@@ -2108,7 +2100,7 @@
         </div>
         <div>
           <head>V. Tristesse dans un jardin</head>
-          <p>La maison qu’habite M. X…aux environs d’Athènes est entourée d’un vaste jardin bien dessiné. On y admire des arbres de toutes sortes, et parmi les plus <pb n="290"/>beaux, d’antiques oliviers noblement tordus, des mûriers à l’ombre épaisse, de hauts platanes qui versent la fraîcheur et dont le tronc tacheté s’enguirlande de roses grimpantes.</p>
+          <p>La maison qu’habite M. X… aux environs d’Athènes est entourée d’un vaste jardin bien dessiné. On y admire des arbres de toutes sortes, et parmi les plus <pb n="290"/>beaux, d’antiques oliviers noblement tordus, des mûriers à l’ombre épaisse, de hauts platanes qui versent la fraîcheur et dont le tronc tacheté s’enguirlande de roses grimpantes.</p>
           <p>Mille fleurs émaillent le parterre. A côté de la ménagerie, qui est suffisamment approvisionnée, s’ouvre un puits profond, que les enfants s’amusent à faire résonner en parlant la tête couchée sur la margelle.</p>
           <p>J’arrivai chez M. X… dans l’après-midi, par un temps couvert et mélancolique, car cette année, année singulière et néfaste pour la Grèce, le printemps y fut aussi singulier : la pluie tomba fréquemment, obscurcissant l’azur du ciel, et l’on vit l’éclatant fils d’Hypérion lancer des traits amortis.</p>
           <p>On causait sous la véranda, et c’était naturellement de la guerre. Le plus grand nombre blâmait vivement la conduite de l’état-major et des chefs ; trois ou quatre personnes d’âge cherchaient à pallier.</p>
@@ -2240,7 +2232,7 @@
           <head>IX. Colone</head>
           <p>Je foule le sol sacré de Colone qui t’a vu naître, ô Sophocle !</p>
           <quote>
-            <p>« …Là, le rossignol mélodieux (qui s’y plaît) chante dans de frais vallons, hantant le lierre vineux et la dure feuillée aux mille fruits, à l’abri du <pb n="301"/>soleil et du vent, que Dionysos le forcené aime à parcourir avec les déesses, ses nourrices.</p>
+            <p>« … Là, le rossignol mélodieux (qui s’y plaît) chante dans de frais vallons, hantant le lierre vineux et la dure feuillée aux mille fruits, à l’abri du <pb n="301"/>soleil et du vent, que Dionysos le forcené aime à parcourir avec les déesses, ses nourrices.</p>
             <p>Là, sous la rosée céleste, sans cesse s’ouvrent, couronnes antiques et divines, et le narcisse qui a de belles grappes et le safran qui ressemble à l’or du matin. Les Ilots du Céphise, errants et sans sommeil, sont prompts à féconder cette terre au large sein, que les Muses et Aphrodite ne haïssent point.</p>
             <p>Sur cette terre croît un arbre qui vient de lui-même… c’est l’olivier au feuillage azuré… »</p>
           </quote>
@@ -2286,12 +2278,12 @@
             <p>complainte</p>
             <p/>
             <p><hi rend="i">… Une flamme tremblote — dans les ténèbres là-bas. — Elle meurt pour renaître, — ô feux</hi><pb n="307"/><hi rend="i">mélancoliques ! c’est le phare d’Hydra. — Je regarde ce phare — qui guide le nocher — et me souviens, Hydra, — des jours de mon enfance ; — je n’avais pas quinze ans — lorsque je vins passer — sur ta montagne haute — au milieu de parents — les jours chauds de l’été. — Jamais je n’oublierai — cette course nocturne — qu’avec les domestiques — de mon oncle je fis ; nous étions tous montés — sur de tout petits ânes — et nous allions au pas — tout le long du rivage. — Aux rayons de la lune — les flots se doraient — les algues chargeaient — la brise d’amertume… — Nous venons à passer — devant une fontaine — ombragée d’un figuier. — Alors un vieux farceur — dont la famille était — chez mon oncle en service — de père en fils, je crois, — se mit à raconter — pour occuper le temps — ou pour me faire peur — comment la Néréide, — sorte de Mélusine, — arrête les passants — près des blanches fontaines… — Hydra je me souviens, — je me souviens aussi — de choses plus réelles ; — je veux parler des cailles — qu’une vieille servante — rôtissait en plein air — sur un doux feu de branches — et que je dévorais — d’un si bon appétit.</hi>
-            </p>
+           </p>
             <p/>
             <p>autre complainte</p>
             <p/>
             <p><pb n="308"/><hi rend="i">… Moi qui mangeais des cailles — dessus le mont d’Hydra, — même j’en mange ailleurs, — me voilà tout ému — pour avoir sur le pont — de notre paquebot — trouvé un oiseau mort. — Ô mystères du cœur, — de l’estomac arcanes ! — Mais il ne sert à rien — de ratiociner, — le pauvre oiseau est mort— et bien mort, il me semble ; — il s’était trop fié, — l’imprudent, ci ses ailes. — Au milieu du bocage, — caché dans le feuillage — du frêne ou du bouleau, — il ne chantera plus — tio, tio, totoloto ; — il ne chantera plus tio, tio, tio ni tiotinx. — Je le prends par la patte — et le jette à la mer. — Peut être qu’un requin — ou quelque autre poisson — est friand d’un tel mets.</hi>
-            </p>
+           </p>
             <p/>
             <p>autre complainte</p>
             <p/>
@@ -2311,7 +2303,7 @@
           <p>J’ai vu l’Arno couler opaque et verdâtre. N’est-il pas comme le miroir des violentes armoiries des Gianfigliacchi ?</p>
           <quote>
             <l><pb n="311"/>E como’ io riguardando tra lor vegno.</l>
-            <l xml:lang="en">In una borsa gialla vidi azzurro ;</l>
+            <l xml:lang="eng">In una borsa gialla vidi azzurro ;</l>
             <l>Che di lione avea faccia e contegno…</l>
           </quote>
           <p>Le Tibre est pareil aux portiques romains. Il est noble sans grâce.</p>
@@ -2565,7 +2557,7 @@
             <l>Ô merveille des îles,</l>
             <l>Ô Zante où je suis né,</l>
             <l>Avec les dons des Muses</l>
-            <l> Le jour tu m’as donné.</l>
+            <l>Le jour tu m’as donné.</l>
             <l/>
             <l>Et toi reçois cet hymne,</l>
             <l>Car les dieux n’aiment pas</l>

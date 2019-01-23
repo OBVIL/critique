@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1908">1908</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -233,8 +233,8 @@
           <l>Se mêler et se démêler</l>
           <l>Dans leur couche profonde ;</l>
           <l>Là je les vois (Dieu, quels attraits !)</l>
-          <l><hi rend="i">Se promenant dans l’onde,</hi></l>
-          <l><hi rend="i">Se promener dans les forêts.</hi></l>
+          <l rend="i">Se promenant dans l’onde,</l>
+          <l rend="i">Se promener dans les forêts.</l>
         </quote>
         <p>À cause, vous entendez bien, des feuillages qui se reflètent dans l’eau. Cela est beaucoup plus imaginé et concerté que vu : c’est tout à fait du Théophile.</p>
         <p>Je suis sûr que ces petits vers, si l’enfant les lui montra, ne déplurent point au bon M. Hamon, qui, comme j’ai dit, avait l’imagination riante, et qui mettait dans ses méditations spirituelles, pour en tirer de subtiles comparaisons à la manière de saint François de Sales, beaucoup de fleurs, d’arbres et d’animaux. Mais surtout M. Hamon dut goûter ces strophes de l’ode deuxième :</p>
@@ -304,7 +304,7 @@
         <p>Et donc, après avoir loué le latin de Quillet, Racine continue ainsi :</p>
         <quote>
           <p>Vous vous fâcherez peut-être de voir tant de ratures (dans sa lettre), mais vous les devez pardonner à un homme qui sort de table. Vous savez que ce n’est pas le temps le plus propre pour concevoir les choses bien nettement, et je puis dire, avec autant de raison que M. Quillet, qu’il ne se faut pas mettre à travailler sitôt après le repas :</p>
-          <l>     Nimirum crudam si ad lœta cubilia portas</l>
+          <l>     Nimirum crudam si ad læta cubilia portas</l>
           <l>Perdicem, incoctaque agitas genitalia cœna,</l>
           <l>Heu ! tenue effundes semen…</l>
         </quote>
@@ -960,8 +960,8 @@
         <p>Le succès de la pièce fut très grand. Racine l’avait fort bien préparé par des lectures dans de grandes maisons. Quatre représentations en furent données à Versailles ou à Saint-Germain, devant le roi et la cour. Le roi adopta l’<hi rend="i">Alexandre</hi> et en accepta la dédicace. On parla beaucoup de la nouvelle tragédie. Saint-Évremond, dans son exil de Londres, se la fit envoyer. Il la critiqua dans une dissertation adressée à une dame, mais destinée à passer de main en main. Critique sévère, clairvoyante sur presque tous les points, et dont Racine aura l’esprit de profiter, — mais où, enfin, Saint-Évremond rendait assez justice au jeune auteur. <quote>« Depuis que j’ai lu <hi rend="i">le Grand Alexandre</hi>, écrivait-il, la vieillesse de Corneille me donne bien moins d’alarmes, et je n’appréhende plus tant de voir finir avec lui la tragédie ; mais je voudrais que, avant sa mort, il adoptât l’auteur de cette pièce, pour former avec la tendresse d’un père son vrai successeur. »</quote> Vœu assez naïf de la part d’un sceptique et d’un observateur. Ce vœu ne devait guère être entendu. Corneille, à qui Racine avait soumis sa tragédie, avait déclaré que le jeune homme <pb n="118"/>était doué pour la poésie, non pour le théâtre. C’est un de ces jugements qui ne se pardonnent pas. Et les premiers succès d’un jeune rival ne sont pas non plus faciles à pardonner. Corneille et Racine se sont cordialement détestés, voilà le fait. Nous y reviendrons.</p>
         <p>Boileau fut sublime d’amitié. Bien des choses devaient lui déplaire dans <hi rend="i">Alexandre</hi>. Il était alors en train d’écrire son <hi rend="i">Dialogue sur les héros de romans</hi>. À coup sûr, le héros de Racine devait lui paraître amoureux hors de propos. Mais Boileau aimait Racine. Et alors, dans sa satire du <hi rend="i">Repas ridicule</hi> qu’il écrivit cette année même, il fit dire au sot campagnard :</p>
         <quote>
-          <l>Je ne sais pas pourquoi l’on vante l’<hi rend="i">Alexandre,</hi></l>
-          <l><hi rend="i">Ce n’est qu’un glorieux qui ne dit rien de tendre</hi>.</l>
+          <l>Je ne sais pas pourquoi l’on vante l’<hi rend="i">Alexandre</hi>,</l>
+          <l rend="i">Ce n’est qu’un glorieux qui ne dit rien de tendre.</l>
           <l>Les héros chez Quinault parlent bien autrement.</l>
         </quote>
         <p>Comme si, en effet, le défaut du héros de Racine était la rudesse ! L’excellent Boileau, qui ne le croyait pas, voulait le faire croire ; et cela est admirable.</p>
@@ -1447,7 +1447,7 @@
         <p>Réfléchissez que c’est exactement comme si, chez nous, dans le courant de la conversation, quelqu’un se mettait à dire :</p>
         <p>J’allais tous les jours au Bois de Boulogne, ce rendez-vous élégant de l’opulence parisienne ; c’est un coup d’œil fort brillant. Des messieurs en jaquette ou en veston se promènent dans leur automobile ; des hommes de sport conduisent leur mail…</p>
         <p>Et ainsi de suite…</p>
-        <p>Eh bien, c’est ça, la « couleur locale » dans <pb n="181"/>le théâtre romantique<note resp="author">M. Jules Troubat m’écrit : <quote>« … Votre commentaire sur le Bois de Boulogne m’a rappelé qu’un jour, à mes débuts chez Sainte-Beuve, je voulus déclamer au maître la fameuse tirade de M. de Saint-Vallier ; je la savais par cœur, et j’y mettais de la conviction. Arrivé au vers :<hi rend="i"> Diane de Poitiers, comtesse de Brézé,</hi>Sainte-Beuve m’arrêta et me dit : « C’est exactement comme si, pour vous appeler, je vous disais : Jules Troubat, né à Montpellier. Il me donna une leçon de… couleur locale. »</quote></note>. C’est un peu mieux présenté chez les maîtres : mais c’est bien ça, ou ce n’est guère autre chose. C’est comme si les personnages, atteints d’une manie spéciale, éprouvaient, à certains moments, le besoin irrésistible de nommer et de se décrire les uns aux autres les objets de l’usage le plus familier, et des choses auxquelles personne ne fait plus attention dans la vie réelle : tels les petits enfants, lorsqu’ils commencent à parler, prennent plaisir à nommer par leurs noms, avec émerveillement, les ustensiles dont ils se servent. Oui, on dirait parfois que les personnages du drame romantique découvrent, stupéfaits et charmés, la civilisation où ils vivent… Et la conclusion, c’est qu’à cet égard comme à beaucoup d’autres, la tragédie classique, en s’abstenant presque totalement de cette fameuse « couleur locale », est beaucoup moins loin de la vérité…</p>
+        <p>Eh bien, c’est ça, la « couleur locale » dans <pb n="181"/>le théâtre romantique<note resp="author">M. Jules Troubat m’écrit : <quote>« … Votre commentaire sur le Bois de Boulogne m’a rappelé qu’un jour, à mes débuts chez Sainte-Beuve, je voulus déclamer au maître la fameuse tirade de M. de Saint-Vallier ; je la savais par cœur, et j’y mettais de la conviction. Arrivé au vers : <hi rend="i">Diane de Poitiers, comtesse de Brézé</hi>, Sainte-Beuve m’arrêta et me dit : « C’est exactement comme si, pour vous appeler, je vous disais : Jules Troubat, né à Montpellier. Il me donna une leçon de… couleur locale. »</quote></note>. C’est un peu mieux présenté chez les maîtres : mais c’est bien ça, ou ce n’est guère autre chose. C’est comme si les personnages, atteints d’une manie spéciale, éprouvaient, à certains moments, le besoin irrésistible de nommer et de se décrire les uns aux autres les objets de l’usage le plus familier, et des choses auxquelles personne ne fait plus attention dans la vie réelle : tels les petits enfants, lorsqu’ils commencent à parler, prennent plaisir à nommer par leurs noms, avec émerveillement, les ustensiles dont ils se servent. Oui, on dirait parfois que les personnages du drame romantique découvrent, stupéfaits et charmés, la civilisation où ils vivent… Et la conclusion, c’est qu’à cet égard comme à beaucoup d’autres, la tragédie classique, en s’abstenant presque totalement de cette fameuse « couleur locale », est beaucoup moins loin de la vérité…</p>
         <p>Et comme aussi je sais gré à Racine de s’être abstenu de « spectacle » et, par exemple, de <pb n="182"/>n’avoir pas mis en scène le dîner où Britannicus est empoisonné ! Notez que Racine l’eût pu faire sans manquer gravement à la règle de l’unité de lieu. Mais il ne l’a pas fait, d’abord, si vous voulez, parce que la scène n’était pas assez grande, étant rétrécie, comme vous savez, par des banquettes où venaient s’asseoir des jeunes gens à la mode ; mais surtout il ne l’a pas fait par bon jugement, je pense, et parce qu’il savait que la réalisation, forcément sommaire et grossière, d’une scène de ce genre, eût été un peu ridicule. L’assassinat, invisible et proche, annoncé par un tumulte, et par la fuite de Burrhus éperdu, puis raconté dans un rapide détail, nous est assurément plus présent que si nous l’avions sous les yeux. Et quels figurants, par exemple, eussent bien rendu l’attitude marquée par ces deux vers :</p>
         <quote>
           <l>Mais ceux qui de la cour ont un plus long usage</l>
@@ -1556,7 +1556,7 @@
           <l>Un mot. — Non. — Dans quel trouble elle jette mon âme !</l>
           <l>Ma princesse, d’où vient ce changement soudain ?</l>
           <l>— C’en est fait. <hi rend="i">Vous voulez que je parte demain.</hi></l>
-          <l><hi rend="i">Et moi j’ai résolu, de partir tout à l’heure,</hi></l>
+          <l rend="i">Et moi j’ai résolu, de partir tout à l’heure,</l>
           <l><hi rend="i">Et je pars</hi>. — Demeurez…</l>
         </quote>
         <p>C’est parfaitement le ton de la comédie en vers de Molière dans ses plus nobles parties. Cela est même plus simple de style que, par exemple, le couplet d’Alceste jaloux au quatrième acte du <hi rend="i">Misanthrope</hi>. Mais tout de suite, et par le mouvement le plus naturel, la poésie reparaît :</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,7 +51,7 @@
         <date when="1889">1889</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -162,7 +162,7 @@
               amants passionnés des Grecs et des Latins, qui voudraient nous faire quitter la plume
               en nous mettant, s’ils le pouvaient, dans le désespoir de les pouvoir jamais
                 atteindre<note place="bottom" resp="author"><title>Traité pour juger des poètes
-                  grecs et latins</title>. </note>. »</quote></p>
+                  grecs et latins</title>.</note>. »</quote></p>
           <p>Ce cri de guerre était d’un homme accoutumé à emboucher la trompette épique. Son défi
             n’eut pas de réponse. Il se piqua au jeu, et l’année suivante il revint à la charge,
             assisté d’un champion déjà plus que blessé, son <title>Clovis</title> réimprimé. Un
@@ -176,7 +176,7 @@
             de se taire. Son adversaire avait quatre-vingts ans, et mourait deux ans après avoir
             lancé contre son jeune vainqueur le trait de Priam,</p>
           <quote>
-            <l rend="i">…Telum imbelle sine ictu.</l>
+            <l rend="i">… Telum imbelle sine ictu.</l>
           </quote>
           <p>Desmarets ne nous intéresse que comme un type. Il appartient à cette classe d’écrivains
             qui se servent de la plume de tout le monde pour ne dire que ce que tout le monde dit.
@@ -624,7 +624,7 @@
             de futilité la poésie tout en faisant des volumes de vers, mis en prose les vers de
               <title>Mithridate</title>, essayé de l’ode sans vers. Ce qu’il y a d’esprit véritable
             derrière son savoir-faire, et de l’honnête homme dans le <hi rend="i">papelard</hi>
-            <note place="bottom" resp="author"><quote><l> Tout doucement venait
+           <note place="bottom" resp="author"><quote><l>Tout doucement venait
                   Lamotte-Houdart,</l><l>Lequel disait d’un ton de papelard :</l><l>Ouvrez,
                   messieurs, c’est mon <title>Œdipe</title> en prose ;</l><l>Mes vers sont durs,
                   d’accord, mais forts de chose.</l></quote><p><hi rend="i">(Voltaire</hi>, le
@@ -744,7 +744,8 @@
             Fontenelle, et j’y mets d’autant moins de scrupule qu’à côté du mauvais il y a un bon,
             et que le bon a certainement plus servi l’esprit français que le mauvais n’a nui aux
             anciens.</p>
-          <label>Le bon Fontenelle</label>
+          <div>
+          <head>Le bon Fontenelle</head>
           <p>Le bon Fontenelle perce en plus d’un endroit sous le mauvais, dans le petit écrit sur
             les anciens et les modernes. La Fontaine avait dit :</p>
           <quote>
@@ -766,8 +767,10 @@
           <p>Le bon Fontenelle se montra tout à fait le jour où, entrant dans sa vraie voie, il eut
             l’idée d’initier le public aux vérités des sciences, de les mettre à la mode sans les
             abaisser. Les lettres françaises doivent à ce beau dessein deux ouvrages charmants, la
-              <title>Pluralité des mondes</title> et les <title>Éloges des savants</title>. </p>
-          <label>La pluralité des mondes</label>
+              <title>Pluralité des mondes</title> et les <title>Éloges des savants</title>.</p>
+          </div>
+          <div>
+          <head>La pluralité des mondes</head>
           <p>Le cadre de la <title>Pluralité des mondes</title> est des plus heureux. Peut-on même
             dire, qu’il y ait un cadre là où les choses se passent si naturellement ? Une femme du
             monde ; curieuse, comme on l’était alors, des découvertes de la philosophie nouvelle,
@@ -815,9 +818,8 @@
             Bruyère écrivait les belles pages où il fait servir les vérités de l’astronomie à la
             démonstration de l’existence de Dieu. Qui sait si la première idée ne lui en était pas
             venue de <hi rend="i">Cydias</hi> ?</p>
-          <label>
-            <hi rend="i">Les Éloges des savants.</hi>
-          </label>
+            <div>
+          <head>Les <title>Éloges des savants</title>.</head>
           <p>Il reste à peine quelques traces du mauvais Fontenelle dans les <title>Éloges des
               savants</title>. Faire siéger dans la même Académie, à côté des savants français, les
             savants étrangers, c’est une des plus grandes idées inspirées à Louis XIV par Colbert.
@@ -888,6 +890,8 @@
             durables. Mais ces ouvrages sont de ceux qu’on goûte et qu’on n’admire pas. Fontenelle
             n’a pas voulu de l’admiration pour les autres ; sa punition est de n’en pas inspirer
             pour lui-même.</p>
+            </div>
+          </div>
         </div>
         <div>
           <head>§   V. Guerre contre l’antiquité chrétienne. — les trois sortes de doutes. — La
@@ -1242,7 +1246,7 @@
             auteurs que par le vrai, et le vrai, au lieu de n’être que le bon, est le tout. Allez
             donc dire à un lecteur de Quintilien, à La Fontaine, par exemple, quand il le lit avec
             une sorte de ravissement<note place="bottom" resp="author"><title>Épître à
-              Huet</title>. </note> : Ce qui vous charme n’est que le bon ; le beau est
+              Huet</title>.</note> : Ce qui vous charme n’est que le bon ; le beau est
             ailleurs !</p>
           <p>Le bon mis en ragoût pour en faire le beau est un pire conseil que le <hi rend="i">vrai
               orné</hi> de Bouhours. Dans la doctrine du <hi rend="i">vrai orné</hi>, il y a du
@@ -1638,8 +1642,8 @@
             voit, dans les portraits imités des anciens, plus souvent l’envie de briller que
             d’instruire. Pour les discours, il ne souffre que les authentiques, qu’il faut, dit-il,
             rapporter mot pour mot, comme la partie de l’histoire la plus utile. De quel droit
-            fait-on dire à un homme ce qu’il n’a pas dit <note place="bottom" resp="author"
-                ><title>Dictionnaire philosophique, art. Histoire</title>. </note>? C’était pousser
+            fait-on dire à un homme ce qu’il n’a pas dit<note place="bottom" resp="author"
+                ><title>Dictionnaire philosophique, art. Histoire</title>.</note>? C’était pousser
             loin le conseil de s’affranchir de la tradition classique ; mais l’excès d’indépendance
             vaut mieux que la superstition.</p>
           <p>Il y a dans <hi rend="i">Charles XII</hi> un bel exemple du respect de Voltaire pour la
@@ -1774,9 +1778,9 @@
             l’ouïe et le toucher. Nobles démentis donnés à la philosophie de la sensation, dans le
             temps que Voltaire mettait à la mode Locke,</p>
           <quote>
-            <l>Dont la main courageuse </l>
+            <l>Dont la main courageuse</l>
             <l><hi>A de l’esprit humain posé la borne heureuse</hi><hi>…</hi>
-            </l>
+           </l>
           </quote>
           <p rend="noindent">ce qui veut dire : qui a appris à l’esprit humain à ne pas nier que la
             matière soit capable de penser.</p>
@@ -1854,7 +1858,7 @@
             à peu le futur fait place au présent et au passé ; tout ce que Buffon supposait existe ;
             tout ce qui devra être a été. <quote>« Peu à peu, dit-il, les matières molles dont les
               éminences étaient d’abord composées <hi rend="i">ont fait</hi> ces énormes amas de
-              rochers et de cailloux d’où l’on tire le cristal et les pierres précieuses…Toutes sont
+              rochers et de cailloux d’où l’on tire le cristal et les pierres précieuses… Toutes sont
               posées par lits… Les plus pesantes <hi rend="i">sont</hi> dans les argiles et dans les
               pierres, et elles <hi rend="i">sont</hi> remplies de la matière même des pierres et
               des terres où elles <hi rend="i">sont</hi> renfermées ; preuve incontestable qu’elles
@@ -1935,7 +1939,7 @@
               lettres ; que de toutes ses dettes celle qu’il paya le plus fidèlement, ce fut la
               pension qu’il avait faite à Lesage dès son début dans les lettres, et qu’enfin nous
               lui devons d’avoir mis l’auteur de <title>Turcaret</title> sur la voie de <title>Gil
-                Blas</title>. </note>. Il lui fit lire les auteurs espagnols. Lesage les lut avec un
+                Blas</title>.</note>. Il lui fit lire les auteurs espagnols. Lesage les lut avec un
             goût formé par Molière. Les précieux et les précieuses du dix-septième siècle n’y
             avaient cherché qu’un tour d’esprit à imiter ; l’abbé de Lyonne y montrait à Lesage la
             vie humaine dont les peintures, aux beaux temps de l’Espagne, ont la solidité et le
@@ -2196,7 +2200,7 @@
             de Clermont, un homme qui savait avec profondeur et goût tous les bons maîtres sacrés et
             profanes, et d’une vie non moins exemplaire que son mérite<note place="bottom"
               resp="author">Le père Cossart.</note>. Des mains de ce maître vénéré il était passé
-            dans celles d’un jurisconsulte profond <note place="bottom" resp="author">M. de
+            dans celles d’un jurisconsulte profond<note place="bottom" resp="author">M. de
               Gaumont.</note>, qui, magistrat en retraite, consentait, à la prière de sa Compagnie,
             à siéger au parlement, <quote>« pour rendre justice par charité pour les
               parties. »</quote> Par M. de Gaumont, Fleury connut Lefèvre d’Ormesson, Lamoignon,
@@ -2298,7 +2302,7 @@
             peut se dire. Où Quintilien, parlant de l’affection que le maître doit porter à ses
             élèves, dit : <quote>« Qu’il prenne avant tout des sentiments de père pour ses
               disciples, et qu’il se regarde comme tenant la place de ceux qui lui ont confié leurs
-                enfants<note place="bottom" resp="author"><foreign xml:lang="la"><hi rend="i">Sumat ante
+                enfants<note place="bottom" resp="author"><foreign xml:lang="lat"><hi rend="i">Sumat ante
                   omnia parentis erga discipulos suos animum, ac succedere se in locum a quibus sibi
                   liber i traduntur existimet.</hi></foreign></note>, »</quote> Rollin traduit :
               <quote>« Qu’il prenne avant tout <hi rend="i">et par-dessus tout la place de
@@ -2309,8 +2313,8 @@
               emprunter la douceur, la patience et les entrailles de bonté et de tendresse qui lui
               sont naturelles. »</quote> Ailleurs Quintilien, sur un autre devoir du maître, dit
             avec la même netteté un peu sèche : <quote>« Qu’il réponde volontiers à leurs
-              questions ; et s’ils n’en font point, qu’il les y provoque <note place="bottom"
-                resp="author"><foreign xml:lang="la"><hi rend="i">Interrogantibus libenter respondeat; non
+              questions ; et s’ils n’en font point, qu’il les y provoque<note place="bottom"
+                resp="author"><foreign xml:lang="lat"><hi rend="i">Interrogantibus libenter respondeat; non
                   interrogantes percontetur ultro</hi></foreign>. — <title>Institution oratoire</title>, liv.
               I.</note>. »</quote> Sous la plume du traducteur, la prescription technique a
             l’onction d’une exhortation touchante. <quote>« <hi rend="i">Qu’il se fasse un
@@ -2372,9 +2376,9 @@
             parmi toutes les fleurs, de celles qui donnent le miel ; puis l’idée d’un travail dont
             le profit est pour les autres. Pourquoi Jupiter donna-t-il aux abeilles une parcelle de
             l’âme divine ? Enfant, elles l’avaient nourri dans l’antre de Dircé<note place="bottom"
-              resp="author"><quote xml:lang="la"><l> .... Pro qua mercede, canoros</l><l>Curetum
+              resp="author"><quote xml:lang="lat"><l>.... Pro qua mercede, canoros</l><l>Curetum
                   soutins erepitantiaque cera secutæ,</l><l>Dircœo cœli regern pavere sub
-                antro.</l></quote><p>(Géorg., IV, 150.)</p></note>. Choix sans méprise, travail
+                    antro.</l><bibl>(Géorg., IV, 150.)</bibl></quote></note>. Choix sans méprise, travail
             désintéressé, ces deux idées sont inséparables de l’idée d’abeille.</p>
           <p>C’est tout le <title>Traité des études</title>. Comme l’abeille, Rollin va droit aux
             plus belles fleurs de l’art. Comme elle, il travaille pour les autres. Mais, à la
@@ -2475,7 +2479,7 @@
             aimable. Mais le plaisir au dix-huitième siècle, c’est l’ingénieux qui amuse.</p>
           <p>Le dix-septième siècle avait dit :</p>
           <quote>
-            <l>Bien n’est beau que le vrai, le vrai seul est aimable. </l>
+            <l>Bien n’est beau que le vrai, le vrai seul est aimable.</l>
           </quote>
           <p rend="noindent">La devise du dix-huitième est : <hi rend="i">Tous les genres sont bons,
               hors le genre ennuyeux</hi> ; maxime qui mènera loin, qui fera craindre à l’auteur de
@@ -2576,8 +2580,8 @@
             voulait nullement d’avoir mis en vers sa perruque. Parlant de correction, il avait
             dit :</p>
           <quote>
-            <l>Vingt fois sur le métier remettez votre ouvrage, </l>
-            <l>Polissez-le sans cesse et le repolissez. </l>
+            <l>Vingt fois sur le métier remettez votre ouvrage,</l>
+            <l>Polissez-le sans cesse et le repolissez.</l>
           </quote>
           <p rend="noindent">Pris au figuré, ce précepte n’en dit pas trop ; pris à la lettre, si
             c’est un poète qui l’exécute, il s’y éteindra. Est-ce pour cela que le poème de
@@ -2592,10 +2596,10 @@
             l’art, et du même coup l’abaissant, écrivait dans son <title>Êpître à
             Marot</title> :</p>
           <quote>
-            <l>Le jeu d’échecs ressemble au jeu des vers. </l>
+            <l>Le jeu d’échecs ressemble au jeu des vers.</l>
             <l><hi>Savoir la marche est chose très unie</hi>   <hi>;</hi>
-            </l>
-            <l>Jouer le jeu, c’est le fruit du génie. </l>
+           </l>
+            <l>Jouer le jeu, c’est le fruit du génie.</l>
           </quote>
           <p rend="noindent">Comparer, même dans une pièce marotique, l’art des vers à un jeu n’est
             pas d’un poète. Boileau avait parlé de la <hi rend="i">hauteur de l’art des vers</hi> ;
@@ -2604,13 +2608,13 @@
             fut « son premier docteur. » Il dit avoir compris tout d’abord qu’aux œuvres du
             génie</p>
           <quote>
-            <l>L’âme toujours a la première part, </l>
-            <l>Et que le cœur ne parle point par art. </l>
+            <l>L’âme toujours a la première part,</l>
+            <l>Et que le cœur ne parle point par art.</l>
           </quote>
           <p rend="noindent">J’aimerais mieux pour lui qu’il n’eût pas trahi dans ces vers froids et
             sans accent le dessein de se couvrir de la belle maxime de Boileau :</p>
           <quote>
-            <l>Le vers se sent toujours des bassesses du cœur. </l>
+            <l>Le vers se sent toujours des bassesses du cœur.</l>
           </quote>
           <p rend="noindent">Il n’est pas besoin d’être prévenu contre sa mémoire, pour s’apercevoir
             que le disciple a converti en procédés de versification les grandes doctrines du maître.
@@ -2678,7 +2682,7 @@
             muse artificielle de J.-B. Rousseau. Depuis que l’ode a franchi les limites que lui
             trace l’<title>Art poétique</title>, et qu’elle nous est apparue non comme le seul genre
               <quote>« ou le poète soit poète de profession<note place="bottom" resp="author"
-                >Lamotte, <title>Discours sur l’ode</title>. </note>, »</quote> mais comme celui où
+                >Lamotte, <title>Discours sur l’ode</title>.</note>, »</quote> mais comme celui où
             il est le plus poète d’inspiration, J.-B. Rousseau est tombé des qualifications de <hi
               rend="i">grand poète</hi>, de <hi rend="i">grand Rousseau</hi>, d’<title>Orphée de la
               France</title>, qui lui sont prodiguées par les menus lyriques du dix-huitième siècle,
@@ -2832,9 +2836,9 @@
             de cette chaire bâtarde près de laquelle il n’y a point d’autel, et où l’on se croit par
             moments à la comédie. Il y a là une mise en scène, des machines, du merveilleux même,
             et, pour ajouter au scandale, du merveilleux chrétien :</p>
-          <quote><l>Un de ces esprits que le souverain Être </l><l>Plaça près de son trône et fit
+          <quote><l>Un de ces esprits que le souverain Être</l><l>Plaça près de son trône et fit
               pour le connaître<note place="bottom" resp="author">Discours II<hi rend="sup"
-                >e</hi>.</note> . </l></quote>
+                >e</hi>.</note> .</l></quote>
           <p rend="noindent">Autrement dit un ange, car c’en est un. Pour en venir là, comme il a
             fallu que Voltaire sortît de lui-même !</p>
           <p>Il y rentre dans la partie morale. C’est en effet sa morale à lui. Celle des païens est
@@ -2842,7 +2846,7 @@
             chercher à percer l’obscurité des choses, me fait songer à Virgile chantant le bonheur
             de connaître les secrets de la nature :</p>
           <quote><l><hi>Félix qui potuit rerum cognoscere causas</hi>   <hi>!…</hi>
-            </l></quote>
+           </l></quote>
           <p rend="noindent">Le discours septième nous enseigne que la bienfaisance est la vraie
             vertu. Sénèque lui-même, qui a tant raffiné sur les bienfaits, ne bornait pas la vraie
             vertu à être bienfaisant. Le sixième veut que, nous reconnaissions Dieu à nos plaisirs ;
@@ -2933,16 +2937,16 @@
             une des couronnes de l’Académie ; pauvre, les gens de lettres en renom l’avaient
             rebuté :</p>
           <quote>
-            <l>Insensé, jusqu’ici croyant que la science </l>
-            <l>Donnait à l’homme un cœur compatissant, </l>
+            <l>Insensé, jusqu’ici croyant que la science</l>
+            <l>Donnait à l’homme un cœur compatissant,</l>
             <l>Je courus à vos pieds plongé dans l’indigence ;</l>
-            <l>Vous vîtes mes douleurs et mon besoin pressant. </l>
+            <l>Vous vîtes mes douleurs et mon besoin pressant.</l>
             <l>Qu’en reçus-je ? des dons ? non, des refus, la honte…<note place="bottom"
                 resp="author"><title>Stances à M. d’Arnaud</title>.</note></l>
           </quote>
           <p rend="noindent">Ailleurs il s’avoue tourmenté par</p>
           <quote>
-            <l>L’ambition de l’or, la jalousie impure. </l>
+            <l>L’ambition de l’or, la jalousie impure.</l>
           </quote>
           <p>Certes ces Muses-là ne sont pas bonnes conseillères. Et pourtant Gilbert, aigri,
             repoussé, satirique par rancune plutôt que de génie, est clairvoyant, par cela seul
@@ -2952,10 +2956,10 @@
             choses. Tout à l’heure je me fâchais contre les <title>Saisons</title> de
             Saint-Lambert ; que ne laissais-je la parole à Gilbert :</p>
           <quote>
-            <l>Saint-Lambert, noble auteur dont la muse pédante </l>
-            <l>Fait des vers fort vantés par Voltaire qu’il vante, </l>
-            <l>Qui, du nom de poème ornant de plats sermons, </l>
-            <l>En quatre points mortels a rimé les saisons. </l>
+            <l>Saint-Lambert, noble auteur dont la muse pédante</l>
+            <l>Fait des vers fort vantés par Voltaire qu’il vante,</l>
+            <l>Qui, du nom de poème ornant de plats sermons,</l>
+            <l>En quatre points mortels a rimé les saisons.</l>
           </quote>
           <p>C’est ce que nous pensons, ou plutôt c’est ce que nous nous épargnons de penser, en ne
             lisant point Saint-Lambert.</p>
@@ -2986,16 +2990,16 @@
             d’honneur à la nature humaine. André Chénier eut tous les grands sentiments où se
             nourrit la poésie durable, droiture, candeur, désintéressement,</p>
           <quote>
-            <l>Une muse naïve et de haines exempte. </l>
+            <l>Une muse naïve et de haines exempte.</l>
           </quote>
           <p>De son temps on aimait l’Amitié ; on l’apostrophait dans tous les poèmes ; c’était un
             des dieux de la mythologie d’alors. André Chénier aime ses amis :</p>
           <quote>
             <l><hi>Où sont donc mes amis, objets chéris et doux</hi>   <hi>?</hi>
-            </l>
+           </l>
             <l><hi>Je souffre, ô mes amis</hi><hi> !</hi><hi> Ciel</hi><hi> !</hi><hi> où donc
                 êtes-vous</hi><hi> ?</hi>
-            </l>
+           </l>
           </quote>
           <p rend="noindent">Voilà un cœur qui parle. Aimer ses amis, c’est le trait qui achève le
             caractère de l’homme de bien.</p>
@@ -3036,13 +3040,13 @@
             alors à titre de louange, et pouvait, du consentement de tous, dire de son bonheur en
             ménage :</p>
           <quote>
-            <l>Le bonheur m’attendait dans les bras de la gloire. </l>
+            <l>Le bonheur m’attendait dans les bras de la gloire.</l>
           </quote>
           <p rend="noindent">On ne trouvait rien de trop avantageux dans ces vers à son fils :</p>
           <quote>
-            <l>Émule généreux des aigles du Parnasse, </l>
-            <l>Ton père quelquefois atteignit leur audace <note place="bottom" resp="author"
-                  ><title>Épître à mon fils</title>. </note> . </l>
+            <l>Émule généreux des aigles du Parnasse,</l>
+            <l>Ton père quelquefois atteignit leur audace<note place="bottom" resp="author"
+                  ><title>Épître à mon fils</title>.</note> .</l>
           </quote>
           <p rend="noindent">André Chénier sut être l’ami de l’homme sans imiter le poète. Il
             apportait avec lui tout le trésor de sa poésie dans un cœur de vingt ans, et dans un
@@ -3070,8 +3074,8 @@
             goûter ; il n’y a de différent et de personnel que l’accent de chacun.</p>
           <p>Les premiers goûts poétiques d’André Chénier furent pour le bucolique :</p>
           <quote>
-            <l>Vous savez si toujours, dès mes plus jeunes ans, </l>
-            <l>Mes rustiques souhaits m’ont porté vers les champs. </l>
+            <l>Vous savez si toujours, dès mes plus jeunes ans,</l>
+            <l>Mes rustiques souhaits m’ont porté vers les champs.</l>
           </quote>
           <p rend="noindent">Le fond de l’Idylle, qu’il ne faut pas confondre avec sa recette, ce
             sont ces trois amours qui les premiers s’éveillent dans l’âme du vrai poète : l’amour de
@@ -3143,7 +3147,7 @@
             l’ambroisie qui s’exhale de sa chevelure, André Chénier a vu du bois voisin l’aimable
             manège des Naïades qui entraînent le jeune Hylas</p>
           <quote>
-            <l>En un lit de joncs frais et de mousses nouvelles. </l>
+            <l>En un lit de joncs frais et de mousses nouvelles.</l>
           </quote>
           <p rend="noindent">Quand la mère, dans <title>le Jeune Malade</title>, invoque le dieu à
             l’arc d’or, nous nous associons à sa prière. André Chénier est devenu païen, parce qu’il
@@ -3155,7 +3159,7 @@
             style, où il a la noblesse du grand siècle, sans en avoir l’étiquette. S’il eût vécu en
             ce temps-là, Boileau l’eût peut-être rendu plus difficile sur la correction ; mais en
             retour il eût appris à Boileau un idéal de l’élégie et de l’idylle bien autrement
-            aimable que celui de l’<title>Art poétique</title>. </p>
+            aimable que celui de l’<title>Art poétique</title>.</p>
           <p>Que dire de <title>la Jeune Captive</title>, et des beautés vengeresses de ces <hi
               rend="i">ïambes</hi>, qu’il envoyait à son père, de la prison de Saint-Lazare, avec
             son linge, écrits sur de petites bandes de papier enroulées, d’une écriture si serrée et
@@ -3388,7 +3392,7 @@
             des banquettes, et de s’y faire voir. Voltaire y réussit<note place="bottom"
               resp="author">Dans la préface de <title>l’Écossaise</title>, il remercie M. de
               Lauraguais de la suppression des banquettes, « indécence, dit-il, qui subsistait
-              encore à l’époque où fut jouée <title>Sémiramis</title>.»</note>.</p>
+              encore à l’époque où fut jouée <title>Sémiramis</title>. »</note>.</p>
           <p>Ce sont là des innovations durables et à l’honneur de Voltaire. Mais ces libertés
             données à l’art avaient leur péril. Dans une réforme de ce genre, où s’arrêter ? Comment
             faire que l’attention du spectateur ne dégénère pas en curiosité impatiente ? Comment
@@ -3471,7 +3475,7 @@
             me fait voir, <quote>« dans cette île où les triumvirs firent les proscriptions et le
               partage du monde, la scène s’obscurcir, les éclairs sillonner la nue, et Julie
               paraître dans l’enfoncement, couchée entre des rochers<note place="bottom"
-                resp="author">Préface du <title>Triumvirat</title>. </note>, » </quote>je m’y prête
+                resp="author">Préface du <title>Triumvirat</title>.</note>, » </quote>je m’y prête
             très volontiers, pourvu que le tonnerre ne soit pas une machine qui remplace la
             terreur ; que la scène ne s’obscurcisse pas pour porter dans mes sens un trouble que la
             pièce ne porte pas dans mon esprit ; pourvu que cet enfoncement, ces rochers, où est
@@ -3538,7 +3542,7 @@
             cri :</p>
           <quote>
             <l><hi>Pardonnez-moi, chrétiens, </hi><hi>qui ne l’aurait aimé</hi>   <hi>?</hi>
-            </l>
+           </l>
           </quote>
           <p>Zaïre ne peut plus être à Orosmane ; mais elle l’aime encore. Il vient, il la presse ;
             il prend ses hésitations pour l’embarras de la pudeur. Zaïre balbutie ; sa foi n’est pas
@@ -3573,15 +3577,15 @@
             pas en même temps prier et se faire craindre. Elle dit plus d’une chose vaine :</p>
           <quote>
             <l><hi>Quoi</hi><hi> !</hi><hi> ce jour que j’abhorre,</hi>
-            </l>
+           </l>
             <l><hi>Ce soleil luit pour moi</hi>   <hi>! Mérope vit encore</hi>   <hi>!</hi>
-            </l>
+           </l>
           </quote>
           <p rend="noindent">et plus loin :</p>
           <quote>
             <l><hi>Ne</hi><hi> m’ôtez </hi><hi>pas la douceur de le voir</hi>   <hi>;</hi>
-            </l>
-            <l>Rendez-le à mon amour, à mon vain désespoir. </l>
+           </l>
+            <l>Rendez-le à mon amour, à mon vain désespoir.</l>
           </quote>
           <p rend="noindent">C’est peut-être de la rhétorique maternelle ; j’y cherche vainement
             l’éloquence d’une mère. L’âme de Voltaire n’était pas assez tendre pour inventer dans un
@@ -3686,7 +3690,7 @@
             lecteurs de ses drames reconnaîtront des frères et des amis.</p>
           <p><quote>« Une des premières règles, dit Voltaire, est de peindre les héros connus tels
               qu’ils sont ou plutôt tels que le public les imagine<note place="bottom" resp="author"
-                >Préface de <title>Marianne</title>. </note>. »</quote> C’est en vertu de cette règle
+                >Préface de <title>Marianne</title>.</note>. »</quote> C’est en vertu de cette règle
             que nous refusons de reconnaître Mahomet, Cicéron, César, aux portraits défigurés que
             Voltaire en a tracés. Il n’y a là ni ce que nous savons de ces grands hommes, ni ce que
             nous en imaginons. Nul ne s’est représenté Mahomet sous les traits d’un charlatan qui se
@@ -3702,8 +3706,8 @@
             Témugin, et l’invitant à divorcer avec Zamore pour devenir sultane ; car,
             remarque-t-il :</p>
           <quote>
-            <l>Le trône a quelques charmes, </l>
-            <l>Et le bandeau des rois peut essuyer des larmes. </l>
+            <l>Le trône a quelques charmes,</l>
+            <l>Et le bandeau des rois peut essuyer des larmes.</l>
           </quote>
           <p rend="noindent">Que Gengis-kan redevienne un moment Témugin, que Mahomet arrête sa
             course victorieuse pour parler d’amour à une esclave, soit : nous avons passé à Racine
@@ -3806,7 +3810,7 @@
             assez poète dans ses tragédies.</p>
           <p>Cependant Voltaire voulait faire bien, et il croyait n’y rien négliger en corrigeant
               beaucoup<note place="bottom" resp="author">Il écrit à un de ses amis : « Je corrige
-              tout, excepté moi.»</note>. Mais ces corrections, aussi rapides que sa première
+              tout, excepté moi. »</note>. Mais ces corrections, aussi rapides que sa première
             rédaction, ne fortifiaient pas son travail ; il enjolivait la façade d’une maison qui
             péchait par les fondements. Trompé par sa sévérité même, il pensait créer à nouveau ce
             qu’il ne faisait que rhabiller, et, en mettant sous le joug sa muse légère, il se
@@ -3921,7 +3925,7 @@
             événements leur ont mises sur les bras. <quote>« Qu’est-ce qu’un roman mis en action et
               en vers ? »</quote> disait excellemment Voltaire<note place="bottom" resp="author"
               >Épître à M<hi rend="sup">me</hi> du Châtelet, en tête
-            d’<title>Alzire</title>. </note>. Rien, même avec le talent de Voltaire.</p>
+            d’<title>Alzire</title>.</note>. Rien, même avec le talent de Voltaire.</p>
           <p>Telle est toutefois la difficulté de ce grand art et la séduction des beaux vers, ne
             fussent-ils que brillants, que l’œuvre des imitateurs de Voltaire doit être mentionnée
             avec honneur dans une histoire des lettres françaises. On n’est pas un poète tragique
@@ -3949,7 +3953,7 @@
             point incapable de politique ni d’affaires ; il avait beaucoup de cet esprit qu’il a si
             bien défini :</p>
           <quote>
-            <l>Esprit, raison qui finement s’exprime. </l>
+            <l>Esprit, raison qui finement s’exprime.</l>
           </quote>
           <p rend="noindent">Versificateur ingénieux, il ne quitte guère la rhétorique, mais il n’en
             abuse pas. Un peu plus qu’habile dans la prose où il a de bonnes pages, sensées et d’un
@@ -4011,7 +4015,7 @@
             aux mains des poètes philosophes<note place="bottom" resp="author">Le succès de
                 <title>Roméo et Juliette</title>, représenté en 1772, fut un des derniers chagrins
               littéraires de Voltaire. C’est à ce propos qu’il écrivait au comte d’Argental : « Tout
-              Paris est devenu Welche.» La même année, il avait écrit, pour la lecture, les
+              Paris est devenu Welche. » La même année, il avait écrit, pour la lecture, les
                 <title>Lois de Minos</title>. L’envie lui vint de faire jouer la pièce. « Mais,
               disait-il, il faut laisser les Welches dégorger leur <title>Roméo</title> et leur
                 <title>Juliette</title>. » Septembre 1772. L’œuvre de Ducis ne valait pas tout ce
@@ -4093,8 +4097,8 @@
         <div>
           <head>§ I.</head>
           <argument>
-            <p><title>Le Joueur</title>de Regnard. — Dufresny. — Dancourt.
-                — <title>Turcaret</title>. </p>
+            <p><title>Le Joueur</title> de Regnard. — Dufresny. — Dancourt.
+                — <title>Turcaret</title>.</p>
           </argument>
           <div>
             <head><title>Le Joueur</title> de Regnard</head>
@@ -4116,7 +4120,7 @@
               de jouer. Bourdaloue, dans une peinture éloquente des ravages du jeu, parle de gens
                 <quote>« que la nécessité des temps force d’apporter quelque tempérament à leur
                   jeu<note place="bottom" resp="author"><title>Sermon sur les divertissements du
-                    monde</title>. </note>. »</quote> On joue donc plus ou moins selon les temps : le
+                    monde</title>.</note>. »</quote> On joue donc plus ou moins selon les temps : le
               jeu peut donc être une affaire de mode. Pour un joueur qui l’est par passion, combien
               le sont pour faire comme les autres ! Regnard avait eu, dans sa jeunesse, la fureur du
               jeu. Plus tard il s’y modéra. Où l’on peut se modérer, il n’est pas impossible qu’on
@@ -4128,7 +4132,7 @@
                 <quote>« le jeu effroyable, continuel, sans retenue, sans borne, » dont parle la
                 Bruyère, « où l’on expose sur une carte ou à la fortune du dé la fortune de sa femme
                 et de ses enfants<note place="bottom" resp="author"><title>Les Biens de
-                    fortune</title>. </note>. »</quote> Le jeu poussé jusqu’à cette fureur est une
+                    fortune</title>.</note>. »</quote> Le jeu poussé jusqu’à cette fureur est une
               seconde nature ; c’est tout l’homme. Mais alors il faut le renvoyer au drame.</p>
             <p>Le Joueur de Regnard n’est qu’un de ces jeunes étourdis qui jouent par imitation et
               que l’âge corrige.</p>
@@ -4325,7 +4329,7 @@
               théâtre de Marivaux est plus aisé que son roman, et quoique là encore le fini y touche
               souvent au précieux, on se délasse et on se détend du Marivaux de
                 <title>Marianne</title> dans le Marivaux des <title>Jeux de l’amour et du
-                hasard</title> et des <title>Fausses confidences</title>. </p>
+                hasard</title> et des <title>Fausses confidences</title>.</p>
             <p>Ces pièces sont loin pourtant d’être de la force de <title>Turcaret</title>.  Turcaret
               est un caractère ; il est toujours de ce monde. Parlez au premier venu de Turcaret, le
               nom évoque l’homme ; plus d’un qui n’a pas la pièce de Lesage connaît pourtant
@@ -4375,7 +4379,7 @@
               et dont il réserve d’ailleurs les grâces minaudières pour ses valets.</p>
           </div>
           <div>
-            <label>Destouches.</label>
+            <head>Destouches.</head>
             <p>Vers le temps ou Paris applaudissait les pièces de Marivaux, un homme doué de cet
               esprit du monde qui est plutôt le tact que le sentiment du ridicule et le talent de le
               peindre, Destouches, d’abord diplomate, puis auteur par passe-temps, crut avoir
@@ -4471,7 +4475,7 @@
             le génie du petit vers de collège. Molière apprit à Piron qu’il valait mieux que ses
             épigrammes ; à Gresset, que l’art sérieux du <title>Méchant</title> ne ferait pas tort
             aux aimables mignardises de <title>Vert-Vert</title> et de <title>la
-            Chartreuse</title>. </p>
+            Chartreuse</title>.</p>
           <p>Piron semble avoir écrit <title>la Métromanie</title> devant quelque image de Molière,
             les yeux fixés sur le visage du contemplateur, lui demandant le secret de créer un
             caractère. Mais il a tort de croire que Molière eût trouvé son sujet fécond. La passion
@@ -4505,7 +4509,7 @@
             Damis. Celui-là déteste la manie des vers, et ne veut pas laisser son bien à un
             métromane. Ce n’est qu’une esquisse, mais l’esquisse est vraie. Aussi les meilleurs vers
             de la pièce sont-ils dans la bouche de Baliveau. Molière n’eût pas désavoué cette
-            apostrophe à Damis qui parle de chercher fortune « au Temple de mémoire : »</p>
+            apostrophe à Damis qui parle de chercher fortune « au Temple de mémoire » :</p>
           <quote>
             <l>Où vas-tu la chercher ? Ce temple prétendu</l>
             <l>(Pour parler ton jargon) n’est qu’un pays perdu,</l>
@@ -4545,7 +4549,7 @@
             pas à ce que ses méchancetés lui profitent ?</p>
           <p>La première fois qu’on joua <title>le Méchant</title>, Cléon ne parut qu’un homme comme
             tout le monde. J.-J. Rousseau note le fait<note place="bottom" resp="author">Préface de
-                <title>Narcisse</title>. </note>, comme une preuve, selon lui, de l’influence
+                <title>Narcisse</title>.</note>, comme une preuve, selon lui, de l’influence
             corruptrice des lettres sur les mœurs. Si les spectateurs ne trouvaient pas Cléon assez
             méchant, dit-il, c’est qu’ils l’étaient plus que lui. Rousseau se trompe. De ce que le
             parterre ne trouva pas Cléon assez méchant, il ne s’ensuit ni qu’il fût plein de
@@ -4593,7 +4597,7 @@
             <l>On est en garde, on doute enfin si l’on rira :</l>
             <l>L’esprit qu’on veut avoir gâte celui qu’on a.</l>
             <l>De la joie et du cœur on perd l’heureux langage</l>
-            <l>Pour l’absurbe talent du triste persiflage <note place="bottom" resp="author">Acte
+            <l>Pour l’absurbe talent du triste persiflage<note place="bottom" resp="author">Acte
                 IV, scène VII.</note>.</l>
           </quote>
           <p>C’est bien dit. L’Ariste de l’<title>École des maris</title> eût dit mieux ; mais, pour
@@ -4602,7 +4606,7 @@
             génie.</p>
           <p><title>La Métromanie</title> et <title>le Méchant</title> ont l’honneur de mettre
             Voltaire de mauvaise humeur. Il a tort de dire de la première, qu’il appelle <title>la
-              Piromanie</title>, qu’elle ne doit son succès passager qu’à le Franc et à lui <note
+              Piromanie</title>, qu’elle ne doit son succès passager qu’à le Franc et à lui<note
               place="bottom" resp="author">Lettre à Thiriot, du 22 mars 1738.</note>. Elle le doit à
             « l’esprit et aux beaux vers » qu’il a le bon goût d’y louer lui-même, et ensuite à
             Molière. Pour <title>le Méchant</title>, je veux bien accorder à Voltaire que Gresset,
@@ -4758,7 +4762,7 @@
             devine pas à nos visages si nous avons ri ou pleuré.</p>
           <p>Dans la <hi rend="i">comédie sérieuse</hi> de Diderot, le caractère n’étant que
             l’accessoire, je m’attends bien à cette maxime : « C’est aux situations à décider des
-            caractères : » et à celle-ci : « Le plan d’un drame peut être fait et bien fait sans que
+            caractères » : et à celle-ci : « Le plan d’un drame peut être fait et bien fait sans que
             le poète sache rien du caractère qu’il donnera à ses personnages<note place="bottom"
               resp="author"><title>De la poésie dramatique</title>, XIII.</note>. »</p>
           <p>Je n’exhume pas ces paradoxes d’un livre oublié, pour me donner le vain plaisir de
@@ -4908,7 +4912,7 @@
               maître. « Je veux, dit le disciple, que la situation des personnages soit
               continuellement en opposition avec leurs désirs, leurs intérêts, leurs
               caractères. »</quote>
-          </p>
+         </p>
           <p rend="noindent">Soit. A l’œuvre nous allons juger de la doctrine. La recette mitigée de
             Diderot a produit <title>le Fils naturel</title> et <title>le Père de famille</title> ;
             la recette renforcée de Beaumarchais nous donnera <title>Eugénie</title>. Un mélange
@@ -5098,7 +5102,7 @@
               de mes ouvrages<note place="bottom" resp="author"><p>Ce vers était d’autant plus
                   applaudi qu’il indiquait le dénoûment d’une situation embarrassée. C’est un oncle
                   disant de son neveu, pour lequel on l’implore :</p><quote><l>Mais qu’on le voie au
-                    moins, s’il veut qu’on lui pardonne. </l></quote></note>. »</quote></p>
+                    moins, s’il veut qu’on lui pardonne.</l></quote></note>. »</quote></p>
           <p>La gaieté vraie, celle qui n’a besoin, pour assaisonnement, du chagrin de personne, la
             bonne humeur de deux jeunes poètes à qui les jolis vers arrivent sans effort, tel est le
             caractère et presque toute l’invention de la première pièce née de cette amitié,
@@ -5167,7 +5171,8 @@
             célébrité était hors de sa portée ; la réputation à laquelle il a borné ses désirs
             attirera toujours quelques lecteurs de choix vers le coin modeste qu’il occupe dans le
             temple.</p>
-          <p><label>Fabre d’églantine. — Le Philinte de Molière.</label></p>
+          <div>
+          <head>Fabre d’Églantine. — Le <title>Philinte de Molière</title>.</head>
           <p>De son vivant, cette réputation lui suscita un envieux à qui la jalousie, chose triste
             à dire, inspira la meilleure comédie de la fin du siècle. C’est Fabre d’Églantine.
             Longtemps sifflé sur le même théâtre où Collin d’Harleville était applaudi, Fabre y fit
@@ -5196,7 +5201,7 @@
             d’improbité dont il est victime :</p>
           <quote>
             <l>Je me perds, je m’égare.</l>
-            <l>O perfidie ! ô siècle et pervers et barbare !</l>
+            <l>Ô perfidie ! ô siècle et pervers et barbare !</l>
             <l>Hommes vils et sans foi ! Que vais-je devenir ?</l>
             <l>Rage, fureur, vengeance ! Il faut… on doit punir,</l>
             <l>Exterminer…</l>
@@ -5204,7 +5209,7 @@
           <p rend="noindent"><quote>« C’est bien là l’égoïste, dit très judicieusement la Harpe. Les
               autres souffrent, tout est dans l’ordre ; le mal vient-il jusqu’à lui, le monde entier
               est confondu. »</quote>
-          </p>
+         </p>
           <p>Si le temps a pu tourner en égoïsme l’indifférente sagesse du jeune Philinte, pourquoi
             n’aurait-il pas changé en générosité active la stérile misanthropie du jeune Alceste ?
             C’est ainsi que Fabre a complété le héros de Molière, et la vérité n’y répugne point.
@@ -5227,6 +5232,7 @@
             caractères ; par l’étude des caractères, vous connaîtrez et développerez votre fond ;
             par votre fond seulement vous aurez un style, et vous vous élèverez aux créations qui ne
             périssent pas.</p>
+        </div>
         </div>
       </div>
       <div type="chapter">
@@ -5392,7 +5398,7 @@
                 blessures, et tire ses mains déchirées de tout le poids de son corps antérieurement
                 abattu par la perte du sang ; qui, parmi cet excès de peine, ne semble élevé si haut
                 que pour découvrir de loin un peuple infini qui se moque, qui remue la tête, qui
-                fait un sujet de risée d’une extrémité si déplorable <note place="bottom"
+                fait un sujet de risée d’une extrémité si déplorable<note place="bottom"
                   resp="author">Troisième sermon sur la Passion.</note> ! »</quote></p>
             <p>J’ai reconnu le Dieu de Bossuet dans le Dieu de Michel-Ange, son Christ dans le
               Christ de Léonard de Vinci : je reconnais dans sa Marie les vierges de Raphaël.
@@ -5826,7 +5832,7 @@
               à fruit. De vaines subdivisions où il a renchéri sur la subtilité de Bourdaloue<note
                 place="bottom" resp="author">Ainsi, dans le sermon sur <title>la Conception de la
                   Vierge</title>, il admire dans Marie « la fidélité de précaution et la fidélité de
-                correspondance,» et dans cette seconde sorte de fidélité, « une correspondance de
+                correspondance », et dans cette seconde sorte de fidélité, « une correspondance de
                 perfection, une correspondance d’état, une correspondance de persévérance. »</note>,
               servent à marquer l’ordre du discours, et sont comme des jalons plantés à l’aventure
               dans un terrain vague et sans bornes. Cette incertitude du premier dessein se fait
@@ -6206,7 +6212,7 @@
               de conduite. En quel dégoût il prend tout d’abord cette orgie de bel esprit !
               Donnez-lui donc un homme sans esprit, avec lequel il ne faudra pas à toute force en
               avoir, de quelle ardeur il ira se réfugier dans son entretien, contre le jargon et les
-              épigrammes des gens à la mode ! <quote>« O charmante simplicité ! s’écrie-t-il,
+              épigrammes des gens à la mode ! <quote>« Ô charmante simplicité ! s’écrie-t-il,
                 j’abandonnerais tout pour marcher sur vos traces ! »</quote></p>
             <p>Aussi goûte-t-il médiocrement certaines admirations de son temps. La principale,
               c’était Fontenelle auquel il a grand’peine à pardonner la préférence ouverte ou
@@ -6299,7 +6305,7 @@
                 entre tant d’écrivains qui ne sont qu’élégants. »</quote> Vauvenargues osa réclamer
               en faveur de Pascal et de Fénelon, dépouillés au profit de Bossuet<note place="bottom"
                 resp="author"><title>Réflexions sur quelques ouvrages de M. de
-                Voltaire</title>. </note>. Voltaire effaça la phrase. Une autre fois, au bas d’un
+                Voltaire</title>.</note>. Voltaire effaça la phrase. Une autre fois, au bas d’un
               passage où Vauvenargues parlait de « la vérité » dont Bossuet <quote>« fait sentir
                 despotiquement l’ascendant, »</quote> — <hi rend="i">de la vérité ! oh</hi> ! avait
               écrit en note Voltaire. Vauvenargues lit la note et maintient sa phrase, n’approuvant
@@ -6550,7 +6556,7 @@
             moi-même. Les <title>Considérations</title> me laisseraient croire que je n’ai point à
             m’aider pour être bien gouverné, et que ceux qui gouvernent m’ont pris ma place. Aussi,
             ne faut-il entrer dans les <title>Considérations</title> qu’armé contre leurs
-            séductions de la sagesse supérieure du <title>Discours</title>. </p>
+            séductions de la sagesse supérieure du <title>Discours</title>.</p>
           <p>Je ne compare pas ces deux grands monuments pour élever l’un aux dépens de l’autre. La
             comparaison sert à faire voir non des infériorités, mais des différences dont la vérité
             historique, la morale et la langue ont profité. Seulement, on me pardonnera de garder
@@ -6702,7 +6708,7 @@
             n’est, pas ce qui flatte le moins le lecteur qui pour tout demi-mot s’estime bon
             entendeur. Cela me mène à l’épithète qui caractérise le style de Montesquieu : c’est un
             style flatteur. Les obscurités même n’en déplaisent pas : on y voit des avances faites à
-            notre sagacité ; elles ont prouvé des panégyristes <note place="bottom" resp="author">Et
+            notre sagacité ; elles ont prouvé des panégyristes<note place="bottom" resp="author">Et
               pas parmi les premiers venus. D’Alembert défend les obscurités de Montesquieu comme
               volontaires, comme n’en étant pas pour « ceux que l’auteur a en vue. » (<title>Éloge
                 de Montesquieu</title>.)</note>.</p>
@@ -6719,7 +6725,7 @@
               l’<title>Esprit des lois</title> des promesses si semblables à des menaces. Je
             croirais plutôt qu’il a pris plus de peine pour manquer de méthode que pour en avoir.
             Son mot : <quote>« Mon livre sera plus apprécié que lu<note place="bottom" resp="author"
-                  ><title>Pensées diverses</title>. </note>, »</quote> est d’un auteur qui craint de
+                  ><title>Pensées diverses</title>.</note>, »</quote> est d’un auteur qui craint de
             demander trop au public. Montesquieu connaissait son lecteur ; il lui avait appris tout
             le premier à chercher dans les livres le plaisir sans la peine. Sa théorie du goût<note
               place="bottom" resp="author">Voir plus haut, chap. III, § V.</note> menait là un
@@ -6967,8 +6973,8 @@
             avait effarouché sa douce raison, outre peut-être un désir secret de s’absoudre de
             certaines pages des <title>Lettres persanes</title>.</p>
           <p rend="noindent">Il l’a accusée de vouloir détruire et non régler les sentiments de
-            l’homme, de parler à l’entendement et nom à l’âme <note place="bottom" resp="author"
-                ><title>Pensées diverses</title>. </note> ; critique injuste, contre laquelle
+            l’homme, de parler à l’entendement et nom à l’âme<note place="bottom" resp="author"
+                ><title>Pensées diverses</title>.</note> ; critique injuste, contre laquelle
             témoigne la popularité sans vicissitudes de ces moralistes soi-disant outrés. L’œuvre du
             dix-septième siècle a été soumise à plus d’une révision, et je ne sache pas d’écrivain
             qui n’y ait perdu, gagné, ou reperdu quelque chose ; ces retours n’ont rien ôté à la
@@ -7064,7 +7070,7 @@
           <p>Voltaire lui-même avait eu, dans sa jeunesse, sa part de la prévention universelle. Il
             avait loué Fouquet,</p>
           <quote>
-            <l>…Dont Thémis fut le guide ;</l>
+            <l>… Dont Thémis fut le guide ;</l>
             <l>Du vrai mérite appui ferme et solide,</l>
             <l>Tant regretté, tant pleuré des neufs sœurs,</l>
             <l>Le grand Fouquet…<note place="bottom" resp="author">Épitre à l’abbé
@@ -7600,7 +7606,7 @@
             chrétiens lui cache les beautés les plus intimes des écrivains du dix-septième siècle.
             Ses craintes intermittentes pour la gloire de ses tragédies le rendent injuste pour
             Boileau, comme si l’<title>Art poétique</title> avait prédit et préparé leur
-              décadence<note place="bottom" resp="author"><quote><l> Boileau, correct auteur de
+              décadence<note place="bottom" resp="author"><quote><l>Boileau, correct auteur de
                   quelques bons écrits,</l><l>Zoïle de Quinault et flatteur de
               Louis...</l></quote></note>. Il critique Montesquieu, Buffon, J.-J. Rousseau, parce
             qu’ils font trop parler d’eux.</p>
@@ -7669,7 +7675,7 @@
             Description physique et morale de l’homme. — Chasteté du pinceau de Buffon. — § III.
               <title>Histoire naturelle des animaux</title>. — Les dégoûts de Buffon. — § IV.
               <title>Les Époques de la nature</title>. — Le <title>Discours sur le
-            style</title>. </p>
+            style</title>.</p>
         </argument>
         <div>
           <head>§. I. <title>Histoire naturelle de l’homme</title>. Variétés des races humaines ;
@@ -7679,7 +7685,7 @@
             sciences naturelles, et l’éloquence de combat pour l’éloquence tranquille de la
             démonstration scientifique.</p>
           <p>Aucune littérature n’en offre un plus majestueux monument que l’<title>Histoire
-              naturelle de l’homme</title>. </p>
+              naturelle de l’homme</title>.</p>
           <p>Avant Buffon, on n’étudiait que l’individu, on négligeait l’espèce ; il apprit à mieux
             étudier l’un, et il créa la science de l’autre. Aristote et Pline ont cru aux monstres.
             Même au temps de Buffon, les Portugais ne reconnaissaient pas un homme dans le nègre, et
@@ -7916,7 +7922,7 @@
             passé. De là aussi ses vives peintures de leurs propriétés, qui sont à ses yeux comme
             des reflets confus du caractère de l’homme.</p>
           <p>Il les gourmande ou les loue ; singulière contradiction dans un livre qui explique
-            l’âme des bêtes par un système d’ébranlements organiques de la mécanique animale!</p>
+            l’âme des bêtes par un système d’ébranlements organiques de la mécanique animale !</p>
           <p>L’<title>Histoire naturelle des animaux</title> n’a pas de plus belles pages que celles
             où Buffon, philosophe du dix-huitième siècle, mais non encyclopédiste, apporte sa part à
             l’œuvre de réforme. Discret sur les choses établies, respectant les croyances d’autrui,
@@ -8185,8 +8191,8 @@
               disait-il à Bernardin de Saint-Pierre, qu’on ait fait ce que je demandais ; on se
               jette toujours dans les extrémités. J’ai parlé contre ceux qui faisaient ressentir aux
               enfants leur tyrannie, et ce sont eux, à présent, qui tyrannisent leurs gouvernantes
-              et leurs précepteurs <note place="bottom" resp="author">Bernardin de Saint-Pierre,
-                  <title>Essai sur J.-J. Rousseau</title>. </note>. »</quote> Fénelon avait été forcé
+              et leurs précepteurs<note place="bottom" resp="author">Bernardin de Saint-Pierre,
+                  <title>Essai sur J.-J. Rousseau</title>.</note>. »</quote> Fénelon avait été forcé
             de gourmander, lui aussi, certaines âmes pour leur trop grand attachement à sa doctrine
             du pur amour.</p>
           <p>Dans le même temps que J.-J. Rousseau faisait des constitutions pour les peuples et des
@@ -8210,11 +8216,11 @@
             en était immense. Rousseau en est poursuivi jusqu’en Angleterre. <quote>« J’ai du monde
               de tous les états, écrit-il à du Peyrou, depuis l’instant où je me lève jusqu’à celui
               où je me couche, et je suis forcé de m’habiller en public<note place="bottom"
-                resp="author">Lettre du 1<hi rend="sup">er</hi> Janvier 1766. </note>. »</quote>
+                resp="author">Lettre du 1<hi rend="sup">er</hi> Janvier 1766.</note>. »</quote>
             Enfin il avait ses fanatiques. <quote>« Ne m’amenez pas votre camarade, disait-il à
               Bernardin de Saint-Pierre, il m’a fait peur ; il m’a écrit une lettre où il me mettait
               an-dessus de Jésus-Christ<note place="bottom" resp="author">Bernardin de
-                  Saint-Pierre,<title>Essai sur J.-J. Rousseau</title>. </note>. »</quote> Après sa
+                  Saint-Pierre,<title>Essai sur J.-J. Rousseau</title>.</note>. »</quote> Après sa
             mort, on peut dire que ses idées formèrent une partie de l’opinion publique dans notre
             pays. La révolution de 1789 en mit les plus sensées à l’expérience. Dès le mois de
             décembre 1790, l’Assemblée constituante lui votait une statue. Les gens de lettres
@@ -8540,7 +8546,7 @@
             voluptueux restent.</p>
           <p>Nous sommes peut-être plus délicats que les dames romaines du temps d’Epictète, qui
             lisaient <title>la République</title> de Platon pour les pages où il recommande la
-            communauté des femmes <note place="bottom" resp="author">Epictète,
+            communauté des femmes<note place="bottom" resp="author">Epictète,
                 <title>Fragments</title>, 53.</note> ; mais si nous ne demandons pas aux romans des
             excuses pour nos vices, tout au moins nous y sommes attirés par leurs complaisances pour
             nos faiblesses. Rousseau, en traçant les tableaux voluptueux de <title>la Nouvelle
@@ -8558,7 +8564,7 @@
             l’homme, mais de la nature. Venu au monde bon et libre, c’est la société qui le rend
             esclave et méchant. Rapprocher l’enfant, par une éducation appropriée, de cet homme
             idéal ; attaquer la société dans tout ce qu’elle a fait pour le gâter, telle est la
-            pensée de l’<title>Émile</title>. </p>
+            pensée de l’<title>Émile</title>.</p>
           <p>Jusqu’à cet homme de la nature, on en connaissait depuis fort longtemps un autre sur
             lequel, chose imposante ! le paganisme et le christianisme sont d’accord : à savoir, un
             être également capable de mal et de bien, et libre de choisir. Toutefois le penchant au
@@ -8815,11 +8821,11 @@
               <title>Confessions</title> : <quote>« La vie m’était en horreur ; je ne voulais pas
               vivre, réduit à la moitié de moi-même ; et peut-être craignais-je de mourir, de peur
               qu’avec moi ne mourût tout entier celui que j’avais tant aimé<note place="bottom"
-                resp="author"><foreign xml:lang="la"><hi rend="i">Et ideo forte metuebam ne totus ille
+                resp="author"><foreign xml:lang="lat"><hi rend="i">Et ideo forte metuebam ne totus ille
                   moreretur quem multum amaveram.</hi></foreign>(<title>Confessions</title>, livre IV, chap.
                 6.)</note>. »</quote> Plus tard, dans ses <title>Rétractations</title>, revenant sur
             ce passage : <quote>« C’est plutôt une légère déclamation, dit-il, qu’une confession
-              sérieuse <note place="bottom" resp="author"><title>Retractationum</title> lib. II,
+              sérieuse<note place="bottom" resp="author"><title>Retractationum</title> lib. II,
                 cap. 6.</note>. »</quote> La phrase sent en effet la subtilité. Il s’en aperçoit, en
             relisant son livre, et il s’en accuse ; grande preuve de la difficulté d’une confession,
             puisque l’effort qu’elle coûte à l’orgueil humain n’en chasse pas le bel esprit qui
@@ -8841,7 +8847,7 @@
             s’est pas connu. Descartes avait en vue ce type d’esprit, quand il écrivait cette phrase
             si significative : <quote>« Ce sont ceux qui se connaissent le moins qui sont le plus
               sujets à s’enorgueillir et à s’humilier plus qu’ils ne doivent<note place="bottom"
-                resp="author"><title>Traité des passions de l’âme, article 160</title>. </note>. »
+                resp="author"><title>Traité des passions de l’âme, article 160</title>.</note>. »
             </quote>Se connaître n’est pas chose facile, même à ceux qui se cherchent. Se chercher
             n’est guère plus aisé. Les plus sincères s’y trompent et ne se cherchent pas toujours où
             ils se trouveraient. C’est à la fois la faiblesse et l’honneur de l’homme. Il a soif de
@@ -8871,7 +8877,7 @@
                 d’Escherny.</note>. »</quote> Plus que sexagénaire, il étonnait Bernardin de
             Saint-Pierre par sa vigueur, faisant à pied le tour du bois de Boulogne, sans qu’à la
             fin de cette promenade il parût fatigué<note place="bottom" resp="author"><title>Essai
-                sur J.-J. Rousseau</title>. </note>. Se croire malade est une ignorance de soi-même
+                sur J.-J. Rousseau</title>.</note>. Se croire malade est une ignorance de soi-même
             fort commune. Chez la plupart, c’est l’effet de trop d’amour pour leur corps ; chez
             Rousseau, c’était cette soif de l’attention publique qui lui eût fait préférer la
             persécution à l’oubli. Il se crut le plus malade des hommes, par le même orgueil qui lui
@@ -8993,7 +8999,7 @@
               soustraire ses enfants à une société qui n’en eût fait que des décrotteurs ou des
               bandits, ou qui ne les eût protégés qu’au prix d’infamies. »</quote> Et il ajoute :
               <quote>« C’est l’état des riches, c’est votre état qui vole au mien le pain de nos
-              enfants <note place="bottom" resp="author">Lettre à madame de Francueil, du 30 avril
+              enfants<note place="bottom" resp="author">Lettre à madame de Francueil, du 30 avril
                 1750.</note>. »</quote> Voilà bien l’utopiste essayant de cacher le père sans
             entrailles ; il y a, dans ces paroles sauvages, la mauvaise humeur d’un homme qui a
             conservé assez d’honnêteté pour s’attacher, avec une sorte de rage, à un sophisme qui
@@ -9004,7 +9010,7 @@
               <quote>« Le caractère naturel de Rousseau était la sincérité, la confiance, la
               générosité ; en entrant dans la société, il y prend un caractère social ; il y devient
               méfiant, lâche, bas, sauvage<note place="bottom" resp="author"><title>Essai sur J.-J.
-                  Rousseau</title>. </note>. »</quote> La théorie de Bernardin de Saint-Pierre est
+                  Rousseau</title>.</note>. »</quote> La théorie de Bernardin de Saint-Pierre est
             d’un utopiste qui en excuse un autre. La société peut modifier les caractères : les
             changer, non. Rien n’est plus commun d’entendre dire de tel ou tel homme : Il est dans
             le monde ce qu’il était au collège, homme ce qu’il était enfant. C’est là l’expérience ;
@@ -9034,7 +9040,7 @@
             d’abandonner ses enfants à la charité publique.</p>
           <p>Ainsi, une jeunesse où se rencontrent l’apostasie, le vol domestique, des innocents
             dénoncés, un ami malade abandonné dans la rue, le tort de vivre aux dépens d’une femme
-            menacée de la pauvreté <note place="bottom" resp="author">« Je désirais de la retrouver,
+            menacée de la pauvreté<note place="bottom" resp="author">« Je désirais de la retrouver,
               dit-il, non seulement pour le <hi rend="i">besoin de ma subsistance</hi>, mais bien
               plus pour le besoin de mon cœur. » (<title>Confessions</title>, partie I, liv.
               6.)</note> ; un âge mûr qui débute par la plus grande des fautes ; un peu de folie
@@ -9278,7 +9284,7 @@
               brièveté ? Plusieurs articles sont remplis de déclamations, paradoxes, idées
               hasardées, dont le contraire est souvent vrai ; phrases ampoulées, exclamations qu’on
               sifflerait dans une académie de province,
-              etc</quote><stage>.</stage><stage> </stage><stage>»</stage> A quoi d’Alembert répond :
+              etc. »</quote> A quoi d’Alembert répond :
               <quote>« Vous avez bien raison de dire qu’on a employé trop de manœuvres à cet
               ouvrage… C’est un habit d’arlequin, où il y a quelques morceaux de bonne étoffe et
               trop de haillons. »</quote> Nous le pensions bien ; mais il nous plaît que ce soient
@@ -9300,7 +9306,7 @@
               >D’Alembert, qui s’était retiré, eût bien voulu que Diderot en fît autant, et il eut
               un secret dépit de voir celui-ci prendre la charge à lui tout seul, <quote>« Diderot,
                 dit-il, s’acharne toujours à vouloir faire
-              <title>l’Encyclopédie</title>.»</quote></note>.</p>
+              <title>l’Encyclopédie</title>. »</quote></note>.</p>
         </div>
         <div>
           <head>§ II. D’Alembert. </head>
@@ -9659,7 +9665,7 @@
                 nations, les nations au monde, et le monde à Dieu<note place="bottom" resp="author"
                       ><p><title>Aimé-Martin</title>, <title>Notice sur Bernardin de
                       Saint-Pierre</title>. 
-                  </p><p><title>Mémoires d’outre-tombe</title>. </p></note>. » </quote>Si Bernardin
+                 </p><p><title>Mémoires d’outre-tombe</title>.</p></note>. » </quote>Si Bernardin
               de Saint-Pierre avait à attendre sa gloire jusqu’au jour où le monde sera d’accord
               avec son apologiste sur « la pensée supérieure » des <title>Études</title>, il
               l’attendrait longtemps. Bien lui a pris de la demander à un petit livre moins
@@ -9763,7 +9769,7 @@
               >« J’entre dans une sainte colère, écrit-il à Fontanes, quand on veut rapprocher les
               auteurs du dix-huitième siècle et les écrivains du dix-septième, et même à présent que
               je vous en parle, ce seul souvenir est prêt à m’emporter la raison hors des gonds,
-              comme dit Pascal.»</note>. C’est encore par l’imagination qu’il ramenait le public au
+              comme dit Pascal. »</note>. C’est encore par l’imagination qu’il ramenait le public au
             dix-septième siècle. Qu’importe, pourvu qu’on y revînt ? Les choses anciennes ont tant
             besoin de protection dans notre pays, qu’elles ne doivent pas dédaigner même celle des
             nouveautés. Pour moi, le service est si grand, qu’il rachète les défauts justement
@@ -9916,9 +9922,9 @@
           personnes, peut rester témoin véridique des œuvres ; un esprit capable de regarder la
           gloire elle-même, comme l’aigle le soleil, sans en être ébloui. Ce fut, au temps
           d’Auguste, Quinctilius Varus, ce fin critique, l’ami d’Horace, qui disait aux poètes :
-          « Corrigez ceci et cela<note place="bottom" resp="author"><quote><l> ... Corrige,
-                sodes,</l><l>Hoc aiebat et hoc...</l></quote><p>(Horace, <title>Ép. aux
-                Pisons</title>.)</p></note>, » et renvoyait les mauvais vers à l’enclume. Au
+          « Corrigez ceci et cela<note place="bottom" resp="author"><quote><l>... Corrige,
+            sodes,</l><l>Hoc aiebat et hoc...</l><bibl>(Horace, <title>Ép. aux
+              Pisons</title>.)</bibl></quote></note>, » et renvoyait les mauvais vers à l’enclume. Au
           dix-septième siècle, c’est Boileau. Boileau a pensé des auteurs de son temps ce que, deux
           siècles après lui, libres des préventions et des surprises dont il eut à se défendre, nous
           en pensons à notre tour, sans effort et presque sans mérite. Plus législateur en cela que
@@ -10152,7 +10158,7 @@
             promeneur solitaire et qui répondrait à ses secrets sentiments. L’image est aussi juste
             qu’aimable. Chant est le mot qui convient à ces choses à la fois si profondes et si
               légères<note place="bottom" resp="author">Légères, dans le sens du mot de Platon :
-                <quote>« Le poète est chose légère, ailée et sacrée.»</quote>
+                <quote>« Le poète est chose légère, ailée et sacrée. »</quote>
               <hi rend="i">Ion</hi>.</note>. Il y a en effet les paroles, expression des pensées, et
             un musicien invisible qui les accompagne avec un instrument sans nom, plus riche, plus
             doux et plus mélodieux que le plus parfait qui ait été fabriqué de main d’homme.</p>
@@ -10246,9 +10252,9 @@
             Casimir Delavigne est plutôt un talent imposant qu’un vrai poète. Chez lui tout est
             combinaison, habileté, travail ingénieux ; il lui manque « la veine riche, » sans
             laquelle, au dire d’Horace, qui s’y connaissait, le travail ne peut rien<note
-              place="bottom" resp="author"><quote xml:lang="la" rend="i"><l> …Ego nec studium sine
+              place="bottom" resp="author"><quote xml:lang="lat" rend="i"><l>… Ego nec studium sine
                   divine vena,</l><l>Nec rude quid possit video
-                  ingenium.</l></quote><p>(<title>Epître aux Pisons</title>.)</p></note>. Je ne vois
+                    ingenium.</l><bibl>(<title>Epître aux Pisons</title>.)</bibl></quote></note>. Je ne vois
             ses poésies ni dans les mains des jeunes gens, qui sont tout aux nouveautés
             retentissantes, ni dans les mains des pères, qui relisent les œuvres durables. Une seule
             chose est de source dans Casimir Delavigne, c’est l’esprit ; et cet esprit, joint à un

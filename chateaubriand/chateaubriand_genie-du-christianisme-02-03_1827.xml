@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +42,7 @@
         <date when="1827"/>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -765,28 +765,28 @@
             </quote>
             <p>Et c’est cette passion chrétienne, c’est cette querelle immense entre les amours de la terre et les amours du ciel, que Corneille a peint dans cette scène de Polyeucte<note place="bottom">Acte <num>iv</num>, scène <num>iii</num>.</note> (car ce grand homme, moins délicat que les esprits du jour, n’a pas trouvé le christianisme au-dessous de son génie).</p>
             <quote>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>………………………………………………</l>
               <l>………………………………………………</l>
               <l>Si mourir pour son prince est un illustre sort,</l>
               <l>Quand on meurt pour son Dieu, quelle sera la mort !</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Quel Dieu ?</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>                    Tout beau, Pauline, il entend vos paroles ;</l>
               <l>Et ce n’est pas un Dieu comme vos dieux frivoles,</l>
               <l>Insensibles et sourds, impuissants, mutilés,</l>
               <l>De bois, de marbre ou d’or, comme vous le voulez ;</l>
               <l>C’est le Dieu des chrétiens, c’est le mien, c’est le vôtre ;</l>
               <l>Et la terre et le ciel n’en connoissent point d’autre.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Adorez-le dans l’âme, et n’en témoignez rien.</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>Que je sois tout ensemble idolâtre et chrétien !</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Ne feignez qu’un moment, laissez partir Sévère,</l>
               <l>Et donnez lieu d’agir aux bontés de mon père.</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>Les bontés de mon Dieu sont bien plus à chérir.</l>
               <l>Il m’ôte des dangers que j’aurois pu courir ;</l>
               <l>Et sans me laisser lieu de tourner en arrière,</l>
@@ -802,65 +802,65 @@
               <l>Pour ne vous pas connoître et ne vous pas aimer,</l>
               <l>Pour vivre des enfers esclave infortunée,</l>
               <l>Et sous leur triste joug mourir comme elle est née !</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Que dis-tu, malheureux ! qu’oses-tu souhaiter ?</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>Ce que de tout mon sang je voudrois acheter.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Que plutôt !…</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>C’est en vain qu’on se met en défense :</l>
               <l>Ce Dieu touche les cœurs lorsque moins on y pense.</l>
               <l>Ce bienheureux moment n’est pas encore venu,</l>
               <l>Il viendra, mais le temps ne m’en est pas connu.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Quittez cette chimère, et m’aimez.</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>                                                       Je vous aime,</l>
               <l>Beaucoup moins que mon Dieu, mais bien plus que moi-même.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Au nom de cet amour, ne m’abandonnez pas.</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>Au nom de cet amour, daignez suivre mes pas.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>C’est peu de me quitter, tu veux donc me séduire ?</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>C’est peu d’aller au ciel, je veux vous y conduire.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Imaginations !</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>                        Célestes vérités !</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Étrange aveuglement !</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>                                    Éternelles clartés !</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Tu préfères la mort à l’amour de Pauline !</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>Vous préférez le monde à la bonté divine, etc., etc.</l>
             </quote>
             <p>Voilà ces admirables dialogues, à la manière de Corneille, où la franchise de la repartie, la rapidité du tour et la hauteur des sentiments ne manquent jamais de ravir le spectateur. Que Polyeucte est sublime dans cette scène ! Quelle grandeur d’âme, quel divin enthousiasme, quelle dignité ! La gravité et la noblesse du caractère chrétien sont marquées jusque dans ces <hi rend="i">vous</hi> opposés aux <hi rend="i">tu</hi> de la fille de Félix : cela seul met déjà tout un monde entre le martyr Polyeucte et la païenne Pauline.</p>
             <p>Enfin, Corneille a déployé la puissance de la passion chrétienne, dans ce <hi rend="i">dialogue admirable et toujours applaudi</hi>, comme parle Voltaire.</p>
             <p>Félix propose à Polyeucte de sacrifier aux faux dieux ; Polyeucte le refuse.</p>
             <quote>
-              <label>FÉLIX.</label>
+              <label type="speaker">FÉLIX.</label>
               <l>Enfin ma bonté cède à ma juste fureur :</l>
               <l>Adore-les, ou meurs !</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>                                   Je suis chrétien.</l>
-              <label>FÉLIX.</label>
+              <label type="speaker">FÉLIX.</label>
               <l>                                                             Impie !</l>
               <l>Adore-les, te dis-je, ou renonce à la vie !</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>Je suis chrétien.</l>
-              <label>FÉLIX.</label>
+              <label type="speaker">FÉLIX.</label>
               <l>                          Tu l’es ? Ô cœur trop obstiné !</l>
               <l>Soldats, exécutez l’ordre que j’ai donné.</l>
-              <label>PAULINE.</label>
+              <label type="speaker">PAULINE.</label>
               <l>Où le conduisez-vous ?</l>
-              <label>FÉLIX.</label>
+              <label type="speaker">FÉLIX.</label>
               <l>                                      À la mort.</l>
-              <label>POLYEUCTE.</label>
+              <label type="speaker">POLYEUCTE.</label>
               <l>                                                       À la gloire<note place="bottom">Acte <num>v</num>, scène <num>iii</num>.</note> !</l>
             </quote>
             <p>Ce mot, <hi rend="i">je suis chrétien</hi>, deux fois répété, égale les plus beaux mots des <hi rend="i">Horaces</hi>. Corneille, qui se connaissait si bien en sublime, a senti que l’amour pour la religion pouvait s’élever au dernier degré d’enthousiasme, puisque le chrétien aime Dieu comme sa souveraine beauté, et le Ciel comme sa patrie.</p>
@@ -1278,7 +1278,7 @@
             <quote>
               <p>In principio creavit Deus cœlum et terram.</p>
               <p>Terra autem erat inanis et vacua, et tenebræ erant super faciem abyssi ; et spiritus Dei ferebatur super aquas.</p>
-              <p><hi rend="i">Dixitque Deus : Fiat lux. Et facta est lux. Et vi dit Deus lucem quod esset bona : et divisit lucem à tenebrí s</hi><note place="bottom"><hi rend="i">Voyez</hi> la note H à la fin du volume.</note> . </p>
+              <p><hi rend="i">Dixitque Deus : Fiat lux. Et facta est lux. Et vi dit Deus lucem quod esset bona : et divisit lucem à tenebrí s</hi><note place="bottom"><hi rend="i">Voyez</hi> la note H à la fin du volume.</note> .</p>
             </quote>
             <p>On ne montre pas comment un pareil style est beau ; et si quelqu’un le critiquait, on ne saurait que répondre. Nous nous contenterons d’observer que Dieu qui voit la lumière, et qui, comme un <hi rend="i">homme</hi> content de son ouvrage, s’applaudit lui-même et la trouve bonne, est un de ces traits qui ne sont point dans l’ordre des choses humaines ; cela ne tombe point naturellement dans l’esprit. Homère et Platon, qui parlent des dieux avec tant de sublimité, n’ont rien de semblable à cette naïveté imposante : c’est Dieu qui s’abaisse au langage des hommes, pour leur faire comprendre ses merveilles, mais c’est toujours Dieu.</p>
             <p>Quand on songe que Moïse est le plus ancien historien du monde ; quand on remarque qu’il n’a mêlé aucune fable à ses récits ; quand on le considère comme le libérateur d’un grand peuple, comme l’auteur d’une des plus belles législations connues, et comme l’écrivain le plus sublime qui ait jamais existé ; lorsqu’on le voit flotter dans son berceau sur le Nil, se cacher ensuite dans les déserts pendant plusieurs années, puis revenir pour entrouvrir la mer, faire couler les sources du rocher, s’entretenir avec Dieu dans la nue, et disparaître enfin sur le sommet d’une montagne, on entre dans un grand étonnement. Mais lorsque, sous les rapports chrétiens, on vient à penser que l’histoire des Israélites est non seulement l’histoire réelle des anciens jours, mais encore la figure des temps modernes ; que chaque fait est double, et contient en lui-même une <hi rend="i">vérité historique</hi> et un <hi rend="i">mystère</hi> ; que le peuple juif est un abrégé symbolique de la race humaine, représentant, dans ses aventures, tout ce qui est arrivé et tout ce qui doit arriver dans l’univers ; que Jérusalem doit être toujours prise pour une autre cité, Sion pour une autre montagne, la Terre Promise pour une autre terre, et la vocation d’Abraham pour une autre vocation ; lorsqu’on fait réflexion que l’homme <hi rend="i">moral</hi> est aussi caché sous l’homme <hi rend="i">physique</hi> dans cette histoire ; que la chute d’Adam, le sang d’Abel, la nudité violée de Noé, et la malédiction de ce père sur un fils, se manifestent encore aujourd’hui dans l’enfantement douloureux de la femme, dans la misère et l’orgueil de l’homme, dans les flots de sang qui inondent le globe depuis le fratricide de Caïn, dans les races maudites descendues de Cham, qui habitent une des plus belles parties de la terre<note place="bottom">Les Nègres.</note> ; enfin, quand on voit le Fils promis à David venir à point nommé rétablir la vraie morale et la vraie religion, réunir les peuples,
@@ -1407,7 +1407,7 @@
               <p>« Ville pleine de tumulte, ville pleine de peuple, ville triomphante ? Les enfants sont tués, et ils ne sont point morts par l’épée ; ils ne sont point tombés par la guerre…</p>
               <p>« Le Seigneur vous couronnera d’une couronne de maux. Il vous jettera comme une balle dans un champ large et spacieux. Vous mourrez là ; et c’est à quoi se réduira le char de votre gloire<note place="bottom">Is., chap. <num>xii</num>, v. 1-2, 18.</note>. »</p>
             </quote>
-            <p>Dans quel monde inconnu le prophète vous jette tout à coup ! Où vous transporte-t-il ? Quel est celui qui parle, et à qui la parole est-elle adressée ? Le mouvement suit le mouvement, et chaque verset s’étonne du verset qui l’a précédé. La ville n’est plus un assemblage d’édifices, c’est une femme, ou plutôt un personnage mystérieux, car son sexe n’est pas désigné. Il monte sur <hi rend="i">les toits pour gémir</hi> ; le prophète, partageant son désordre, lui dit au singulier, <hi rend="i">pourquoi montes-tu</hi> ? et il ajoute, <hi rend="i">en foule</hi>, collectif. « Il vous jettera <hi rend="i">comme une balle</hi> dans <hi rend="i">un champ spacieux</hi>, et c’est <hi rend="i">à quoi se réduira le char de votre gloire</hi> : » voilà des alliances de mots et une poésie bien extraordinaires.</p>
+            <p>Dans quel monde inconnu le prophète vous jette tout à coup ! Où vous transporte-t-il ? Quel est celui qui parle, et à qui la parole est-elle adressée ? Le mouvement suit le mouvement, et chaque verset s’étonne du verset qui l’a précédé. La ville n’est plus un assemblage d’édifices, c’est une femme, ou plutôt un personnage mystérieux, car son sexe n’est pas désigné. Il monte sur <hi rend="i">les toits pour gémir</hi> ; le prophète, partageant son désordre, lui dit au singulier, <hi rend="i">pourquoi montes-tu</hi> ? et il ajoute, <hi rend="i">en foule</hi>, collectif. « Il vous jettera <hi rend="i">comme une balle</hi> dans <hi rend="i">un champ spacieux</hi>, et c’est <hi rend="i">à quoi se réduira le char de votre gloire</hi> » : voilà des alliances de mots et une poésie bien extraordinaires.</p>
             <p>Homère a mille façons sublimes de peindre une mort violente ; mais l’Écriture les a toutes surpassées par ce seul mot : <quote>« <hi rend="i">Le premier-né de la mort</hi> dévorera sa beauté. »</quote></p>
             <p><hi rend="i">Le premier-né de la mort</hi>, pour dire <hi rend="i">la mort la plus affreuse</hi>, est une de ces figures qu’on ne trouve que dans la Bible. On ne sait pas où l’esprit humain a été chercher cela ; les routes pour arriver à ce sublime sont inconnues<note place="bottom">Job, chap. <num>xviii</num>, v. 13. Nous avons suivi le sens de l’hébreu avec la Polyglotte de Ximenès, les versions de Sanctes Pagnin, d’Arius Montanus, etc. La Vulgate porte, <quote><hi rend="i">la mort aînée, primogenia mors</hi></quote>.</note>.</p>
             <p>C’est ainsi que l’Écriture appelle encore la mort, <hi rend="i">le roi des épouvantements</hi> ; c’est ainsi qu’elle dit, en parlant du méchant. <quote>« <hi rend="i">Il a conçu la douleur et enfanté l’iniquité</hi><note place="bottom"><hi rend="i">Id.</hi>, chap. <num>xv</num>, v. 35.</note>. »</quote></p>
@@ -1487,7 +1487,7 @@
             <p>Ulysse fait à Télémaque un long raisonnement pour lui prouver qu’il est son père : Joseph n’a pas besoin de tant de paroles avec les fils de Jacob. Il <hi rend="i">les appelle auprès de lui</hi> : car s’il a <hi rend="i">élevé</hi> la voix <hi rend="i">assez haut</hi> pour être entendu de toute la maison de Pharaon, lorsqu’il a dit, <hi rend="i">je suis Joseph</hi>, ses frères doivent être maintenant les <hi rend="i">seuls</hi> à entendre l’explication qu’il va ajouter à <hi rend="i">voix basse</hi> : <quote><hi rend="i">ego sum, Joseph</hi>, <hi rend="sc">frater vester, quem vendidistis in Ægyptum</hi></quote> : c’est la délicatesse, la générosité et la simplicité poussées au plus haut degré.</p>
             <p>N’oublions pas de remarquer avec quelle bonté Joseph console ses frères, les excuses qu’il leur fournit en leur disant que, loin de l’avoir rendu misérable, ils sont au contraire la cause de sa grandeur. C’est à quoi l’Écriture ne manque jamais : de placer la Providence dans la perspective de ses tableaux. Ce grand conseil de Dieu, qui conduit les affaires humaines, alors qu’elles semblent le plus abandonnées aux lois du hasard, surprend merveilleusement l’esprit. On aime cette main cachée dans la nue, qui travaille incessamment les hommes ; on aime à se croire quelque chose dans les projets de la Sagesse, et à sentir que le moment de notre vie est un dessein de l’éternité.</p>
             <p>Tout est grand avec Dieu, tout est petit sans Dieu : cela s’étend jusque sur les sentiments. Supposez que tout se passe dans l’histoire de Joseph comme il est marqué dans la Genèse ; admettez que le fils de Jacob soit aussi bon, aussi sensible qu’il l’est, mais qu’il soit <hi rend="i">philosophe</hi> ; et qu’ainsi, au lieu de dire, je <hi rend="i">suis ici par la volonté du</hi> Seigneur, il dise, la <hi rend="i">fortune m’a été favorable</hi>, les objets diminuent, le cercle se rétrécit, et le pathétique s’en va avec les larmes.</p>
-            <p>Enfin, Joseph embrasse ses frères, comme Ulysse embrasse Télémaque, mais il commence par Benjamin. Un auteur moderne n’eût pas manqué de le faire se jeter de préférence au cou du frère le plus coupable, afin que son héros fût un vrai personnage de tragédie. La Bible a mieux connu le cœur humain : elle a su comment apprécier cette exagération de sentiment, par qui un homme a toujours l’air de s’efforcer d’atteindre à ce qu’il croit une grande chose, ou de dire ce qu’il pense un grand mot. Au reste, la comparaison qu’Homère a faite des sanglots de Télémaque et d’Ulysse, aux cris d’un aigle et de ses aiglons (comparaison que nous avons supprimée), nous semble encore de trop dans ce lieu ; « et, <hi rend="i">s’étant jeté au cou, de Benjamin pour l’embrasser, il pleura ; et Benjamin pleura aussi, en le tenant embrassé</hi> : » c’est là la seule magnificence de style, convenable en de telles occasions.</p>
+            <p>Enfin, Joseph embrasse ses frères, comme Ulysse embrasse Télémaque, mais il commence par Benjamin. Un auteur moderne n’eût pas manqué de le faire se jeter de préférence au cou du frère le plus coupable, afin que son héros fût un vrai personnage de tragédie. La Bible a mieux connu le cœur humain : elle a su comment apprécier cette exagération de sentiment, par qui un homme a toujours l’air de s’efforcer d’atteindre à ce qu’il croit une grande chose, ou de dire ce qu’il pense un grand mot. Au reste, la comparaison qu’Homère a faite des sanglots de Télémaque et d’Ulysse, aux cris d’un aigle et de ses aiglons (comparaison que nous avons supprimée), nous semble encore de trop dans ce lieu ; « et, <hi rend="i">s’étant jeté au cou, de Benjamin pour l’embrasser, il pleura ; et Benjamin pleura aussi, en le tenant embrassé</hi> » : c’est là la seule magnificence de style, convenable en de telles occasions.</p>
             <p>Nous trouverions dans l’Écriture plusieurs autres morceaux de narration, de la même excellence que celui de Joseph ; mais le lecteur peut aisément en faire la comparaison avec des passages d’Homère. Il comparera, par exemple, le livre de Ruth, et le livre de la réception d’Ulysse chez Eumée. Tobie offre des ressemblances touchantes avec quelques scènes de l’Iliade et de l’Odyssée : Priam est conduit par Mercure, sous la forme d’un jeune homme, comme le fils de Tobie l’est par un ange, sous le même déguisement. Il ne faut pas oublier le chien qui court annoncer à de vieux parents le retour d’un fils chéri ; et cet autre chien qui, resté fidèle parmi des serviteurs ingrats, accomplit ses destinées, dès qu’il a reconnu son maître sous les lambeaux de l’infortune. Nausicaa et la fille de Pharaon vont laver leurs robes aux fleuves : l’une y trouve Ulysse, et l’autre Moïse.</p>
             <p>Il y a surtout dans la Bible de certaines façons de s’exprimer, plus touchantes, selon nous, que toute la poésie d’Homère. Si celui-ci veut peindre la vieillesse, il dit :</p>
             <quote>
@@ -1973,9 +1973,9 @@
             <p>Sur l’isthme de Panama en Amérique, le cénobite peut contempler du faîte de son couvent les deux mers qui baignent les deux rives du Nouveau-Monde : l’une souvent agitée quand l’autre repose, et présentant aux méditations le double tableau du calme et de l’orage.</p>
             <p>Les couvents situés dans les Andes voient s’aplanir au loin les flots de l’océan Pacifique. Un ciel transparent abaisse le cercle de ses horizons sur la terre et sur les mers, et semble enfermer l’édifice de la religion sous un globe de cristal. La fleur capucine, remplaçant le lierre religieux, brode de ses chiffres de pourpre les murs sacrés ; le Lamaz traverse le torrent sur un pont flottant de lianes, et le Péruvien infortuné vient prier le Dieu de Las Casas.</p>
             <p>Tout le monde a vu en Europe de vieilles abbayes cachées dans les bois, où elles ne se décèlent aux voyageurs que par leurs clochers perdus dans la cime des chênes. Les monuments ordinaires reçoivent leur grandeur des paysages qui les environnent ; la religion chrétienne embellit au contraire le théâtre où elle place ses autels et suspend ses saintes décorations. Nous avons parlé des couvents européens dans l’histoire de René et retracé quelques-uns de leurs effets au milieu des scènes de la nature ; pour achever de montrer au lecteur ces monuments, nous lui donnerons ici un morceau précieux que nous devons à l’amitié. L’auteur y a fait de si grands changements, que c’est, pour ainsi dire, un nouvel ouvrage. Ces beaux vers prouveront aux poètes que leurs Muses gagneraient plus à rêver dans les cloîtres, qu’à se faire l’écho de l’impiété.</p>
-            <label>LA CHARTREUSE DE PARIS.</label>
             <quote>
-              <l>Vieux cloître où de Bruno les disciples cachés</l>
+              <label type="head">LA CHARTREUSE DE PARIS.</label>
+            <l>Vieux cloître où de Bruno les disciples cachés</l>
               <l>Renferment tous leurs vœux sur le ciel attachés ;</l>
               <l>Cloître saint, ouvre-moi tes modestes portiques !</l>
               <l>Laisse-moi m’égarer dans ces jardins rustiques</l>
@@ -2243,13 +2243,13 @@
           <quote>
             <p>« Les véritables philosophes n’auraient pas prétendu, comme l’auteur du <hi rend="i">Système de la Nature</hi>, que le jésuite Needham eût créé des anguilles, et que Dieu n’avait pu créer l’homme. Needham ne leur aurait pas paru philosophe, et l’auteur du <hi rend="i">Système de la Nature</hi> n’eût été regardé que comme un discoureur par l’empereur Marc-Aurèle. »</p>
           </quote>
-          <bibl>(<title>Quest. encycl. tom. VI, art.</title> Philosoph.)</bibl>
+          <bibl>(<title>Quest. encycl.</title>, tom. VI, art. Philosoph.)</bibl>
           <p>Dans un autre endroit, combattant les athées, il dit, à propos des Sauvages qu’on croyait sans Dieu :</p>
           <quote>
             <p>« Mais on peut insister, on peut dire : Ils vivent en société, et ils sont sans Dieu ; donc on peut vivre en société sans religion.</p>
             <p> » En ce cas, je répondrai que les loups vivent ainsi, et que ce n’est pas une société qu’un assemblage de barbares anthropophages, tels que vous les supposez : et je vous demanderai toujours si, quand vous avez prêté votre argent à quelqu’un de votre société, vous voudriez que ni votre débiteur, ni votre procureur, ni votre notaire, ni votre juge, ne crussent en Dieu ? »</p>
           </quote>
-          <bibl>(<title>Ib., tom. II, art.</title> Ath.)</bibl>
+          <bibl>(<hi rend="i">Ib.</hi>, tom. II, art. Ath.)</bibl>
           <p>Tout cet article sur l’athéisme mérite d’être par couru. En poétique, <hi rend="i">Voltaire</hi> montre le même mépris de toutes ces vaines théories qui troublent le monde. <quote>« Je n’aime pas le gouvernement de la canaille, »</quote> répète-t-il en cent endroits. (Voyez <hi rend="i">les Lettres au roi de Prusse</hi>.) Ses plaisanteries sur les républiques populacières, son indignation contre les excès des peuples, tout enfin dans ses ouvrages prouve qu’il haïssait de bonne foi les charlatans de la philosophie.</p>
           <p>C’est ici le lieu de mettre sous les yeux du lecteur un certain nombre de passages tirés de la correspondance de Voltaire, qui prouvent que je n’ai pas trop hasardé, lorsque j’ai dit qu’il haïssait secrètement les sophistes. Du moins l’on sera forcé de conclure (si on n’est pas convaincu) que, Voltaire ayant soutenu éternellement le <hi rend="i">pour</hi> et le <hi rend="i">contre</hi>, et varié sans cesse dans ses sentiments, son opinion en morale, en philosophie, et en religion, doit être comptée pour peu de chose.</p>
           <div>
@@ -2260,7 +2260,7 @@
             <quote>
               <p>« <hi rend="i">Contre les philosophes et le philosophisme. Je n’ai rien de commun avec les philosophes modernes</hi>, que cette horreur pour le fanatisme intolérant. »</p>
             </quote>
-            <bibl>(<title>Corresp. gén., tom. X, pag.</title> 337.)</bibl>
+            <bibl>(<title>Corresp. gén.</title>, tom. X, pag. 337.)</bibl>
           </div>
           <div>
             <head>
@@ -2270,11 +2270,11 @@
             <quote>
               <p>« La supériorité qu’une physique sèche et abstraite a usurpée sur les belles-lettres commence à m’indigner. Nous avions, il y a cinquante ans, de bien plus grands hommes en physique et en géométrie qu’aujourd’hui, et à peine parlait-on d’eux. Les choses ont bien changé. J’ai aimé la physique tant qu’elle n’a point voulu dominer sur la poésie ; à présent qu’elle a écrasé tous les arts, je ne veux plus la regarder que comme un tyran de mauvaise compagnie. Je viendrai à Paris faire abjuration entre vos mains. Je ne veux plus d’autre étude que celle qui peut rendre la société plus agréable, et le déclin de la vie plus doux. On ne saurait parler physique un quart d’heure et s’entendre. On peut parler poésie, musique, histoire, littérature, tout le long du jour, etc. »</p>
             </quote>
-            <bibl>(<title>Correspondance gén., tom. III, pag.</title> 170.)</bibl>
+            <bibl>(<title>Correspondance gén.</title>, tom. III, pag. 170.)</bibl>
             <quote>
               <p>« Les mathématiques sont fort belles ; mais, hors une vingtaine de théorèmes utiles pour la mécanique et l’astronomie, le reste n’est qu’une curiosité fatigante. »</p>
             </quote>
-            <bibl>(<title>Tom. IX, pag.</title> 484.)</bibl>
+            <bibl>(Tom. IX, pag. 484.)</bibl>
           </div>
           <div>
             <head>
@@ -2284,11 +2284,11 @@
             <quote>
               <p>« J’entends par <hi rend="i">peuple</hi> la populace, qui n’a que ses bras pour vivre. Je doute que cet ordre de citoyens ait jamais le temps ni la capacité de s’instruire ; ils mourraient de faim avant de devenir philosophes. Il me paraît essentiel qu’il y ait des gueux ignorants. Si vous faisiez valoir comme moi une terre, et si vous aviez des charrues, vous seriez bien de mon avis. »</p>
             </quote>
-            <bibl>(<title>Tom. X, pag.</title> 396.)</bibl>
+            <bibl>(Tom. X, pag. 396.)</bibl>
             <quote>
               <p> » J’ai lu quelque chose d’une antiquité dévoilée, ou plutôt très voilée. L’auteur commence par le déluge, et finit toujours par le chaos : j’aime mieux, mon cher confrère, un seul de vos contes que tout ce fatras.</p>
             </quote>
-            <bibl>(<title>Tom. X, pag.</title> 409.)</bibl>
+            <bibl>(Tom. X, pag. 409.)</bibl>
           </div>
           <div>
             <head>
@@ -2300,7 +2300,7 @@
               <p> » Je ne réprouve pas moins ce livre comme citoyen : l’auteur paraît trop ennemi des puissances. Des hommes qui penseraient comme lui ne formeraient qu’une anarchie.</p>
               <p> » Ma coutume est d’écrire sur la marge de mes livres ce que je pense d’eux : vous verrez, quand vous daignerez venir à Ferney, les marges du <hi rend="i">Christianisme dévoilé</hi> chargées de remarques, qui prouvent que l’auteur s’est trompé sur les faits les plus essentiels. »</p>
             </quote>
-            <bibl>(<title>Correspondance gén., tom. XI, pag.</title> 143.)</bibl>
+            <bibl>(<title>Correspondance gén.</title>, tom. XI, pag. 143.)</bibl>
           </div>
           <div>
             <head>
@@ -2313,7 +2313,7 @@
               <p>« Les frères doivent toujours respecter la morale et le trône. La morale est trop blessée dans le livre d’Helvétius, et le trône est trop peu respecté dans le livre qui lui est dédié. (<hi rend="i">Le despotisme oriental</hi>.)</p>
               <p>» Il dit plus haut, en parlant de ce même ouvrage : On dira que l’auteur veut qu’on ne soit gouverné ni par Dieu, ni par les hommes.</p>
             </quote>
-            <bibl>(<title>Tom. VIII, pag.</title> 148.)</bibl>
+            <bibl>(Tom. VIII, pag. 148.)</bibl>
           </div>
           <div>
             <head>
@@ -2325,7 +2325,7 @@
             <quote>
               <p>« Mon cher marquis, il n’y a rien de bon dans l’athéisme. Ce système est fort mauvais dans le physique et dans le moral. Un honnête homme peut fort bien s’élever contre la superstition et contre le fanatisme ; il peut détester la persécution ; il rend service au genre humain s’il répand les principes de la tolérance : mais quel service peut-il rendre s’il répand l’athéisme ? Les hommes en seront-ils plus vertueux, pour ne pas reconnaître un Dieu qui ordonne la vertu ? Non, sans doute. Je veux que les princes et leurs ministres en reconnaissent un, et même un Dieu qui punisse et qui pardonne. Sans ce frein, je les regarderai comme des animaux féroces qui, à la vérité, ne me mangeront pas quand ils sortiront d’un long repas, et qu’ils digéreront doucement sur un canapé avec leurs maîtresses, mais qui certainement me mangeront, s’ils me rencontrent sous leurs griffes quand ils auront faim, et qui, après m’avoir mangé, ne croiront pas seulement avoir fait une mauvaise action. »</p>
             </quote>
-            <bibl>(<title>Tom. XII, pag.</title> 349)</bibl>
+            <bibl>(Tom. XII, pag. 349)</bibl>
           </div>
           <div>
             <head>
@@ -2335,7 +2335,7 @@
             <quote>
               <p>« Je ne suis point du tout de l’avis de Sanderson, qui nie un Dieu, parce qu’il est né aveugle. Je me trompe peut-être ; mais j’aurais, à sa place, reconnu un être très intelligent, qui m’aurait donné tant de suppléments de la vue ; et, en apercevant, par la pensée, des rapports infinis dans toutes les choses, j’aurais soupçonné un ouvrier infiniment habile. Il est fort impertinent de deviner qui il est et pourquoi il a fait tout ce qui existe ; mais il me paraît bien hardi de nier qu’il est. »</p>
             </quote>
-            <bibl>(<title>Corresp. gén., tom. IV, pag.</title> 14.)</bibl>
+            <bibl>(<title>Corresp. gén.</title>, tom. IV, pag. 14.)</bibl>
           </div>
           <div>
             <head>
@@ -2346,11 +2346,11 @@
               <p>« Il me paraît absurde de faire dépendre l’existence de Dieu d’<hi rend="i">a</hi> plus <hi rend="i">b</hi>, divisé par <hi rend="i">z</hi>.</p>
               <p>» Où en serait le genre humain, s’il fallait étudier la dynamique et l’astronomie pour connaître l’Être-Suprême ? Celui qui nous a créés tous doit être manifesté à tous, et les preuves les plus communes sont les meilleures, par la raison qu’elles sont les plus communes ; il ne faut que des yeux et point d’algèbre pour voir le jour. »</p>
             </quote>
-            <bibl>(<title>Corresp. gén., tom. IV, pag.</title> 463.)</bibl>
+            <bibl>(<title>Corresp. gén.</title>, tom. IV, pag. 463.)</bibl>
             <quote>
               <p>« Mille principes se dérobent à nos recherches, parce que tous les secrets du Créateur ne sont pas faits pour nous. On a imaginé que la nature agit toujours par le chemin le plus court, qu’elle emploie le moins de force et la plus grande économie possible : mais que répondraient les partisans de cette opinion, à ceux qui leur feraient voir que nos bras exercent une force de près de cinquante livres pour lever un poids d’une seule livre ; que le cœur en exerce une immense pour exprimer une goutte de sang ; qu’une carpe fait des milliers d’œufs pour produire une ou deux carpes ; qu’un chêne donne un nombre innombrable de glands, qui souvent ne font pas naître un seul chêne ? Je crois toujours, comme je vous le mandais il y a longtemps, qu’il y a plus de profusion que d’économie dans la nature. »</p>
             </quote>
-            <bibl>(<title>Tom. IV, pag.</title> 463.)</bibl>
+            <bibl>(Tom. IV, pag. 463.)</bibl>
           </div>
         </div>
         <div>
@@ -2437,8 +2437,8 @@
         </div>
         <div>
           <head>Note F, page 208. [II<hi rend="sup">e</hi> partie, liv. IV, chap. 9]</head>
-          <label>IMITATION DE VOLTAIRE.</label>
           <quote>
+            <label type="head">IMITATION DE VOLTAIRE.</label>
             <l>« Toi sur qui mon tyran prodigue ses bienfaits,</l>
             <l>Soleil ! astre de feu, jour heureux que je hais,</l>
             <l>Jour qui fais mon supplice, et dont mes yeux s’étonnent,</l>
@@ -2547,13 +2547,13 @@
         </div>
         <div>
           <head>Note H, page 251. [II<hi rend="sup">e</hi> partie, liv. V, chap. 2]</head>
-          <label>Fragment du sermon de Bossuet sur le bonheur du ciel.</label>
           <quote>
-            <p>Si l’apôtre saint Paul a dit<note place="bottom">Cor, <num>iv</num>, 6.</note> que les fidèles sont un spectacle au monde, aux anges et aux hommes, nous pouvons encore ajouter qu’ils sont un spectacle à Dieu même. Nous apprenons de Moïse que ce grand et sage architecte, diligent contemplateur de son propre ouvrage, à mesure qu’il bâtissait ce bel édifice du monde, en admirait toutes les parties<note place="bottom">Gen., <num>i</num>, 4.</note> : <hi rend="i">Vidit Deus lucem quod esset bona</hi> : « Dieu vit que la lumière était bonne : » qu’en ayant composé le tout, parce qu’en effet la beauté de l’architecture paraît dans le tout, et dans l’assemblage plus encore que dans les parties détachées, il avait encore enchéri et l’avait trouvé parfaitement beau<note place="bottom"><hi rend="i">Id.</hi>, <num>i</num>, 31.</note>. <hi rend="i">Et erant valdè bona</hi> : et enfin, qu’il s’était contenté lui-même en considérant dans ses créatures les traits de sa sagesse et l’effusion de sa bonté. Mais comme le juste et l’homme de bien est le miracle de sa grâce et le chef-d’œuvre de sa main puissante, il est aussi le spectacle le plus agréable à ses yeux<note place="bottom">Psalm., <num>xxxiii</num>, 15.</note> : <hi rend="i">Oculi Domini super justos</hi> : « Les yeux de Dieu, dit le saint psalmiste, sont attachés sur les justes, » non seulement parce qu’il veille sur eux pour les protéger, mais encore parce qu’il aime à les regarder du plus haut des cieux comme le plus cher objet de ses complaisances<note place="bottom">Job, <num>i</num>, 8.</note>. « N’avez-vous point vu, dit-il, mon serviteur Job, comme il est droit et juste, et craignant Dieu, comme il évite le mal avec soin, et n’a point son semblable sur la terre ? »</p>
+            <label type="head">Fragment du sermon de Bossuet sur le bonheur du ciel.</label>
+            <p>Si l’apôtre saint Paul a dit<note place="bottom">Cor, <num>iv</num>, 6.</note> que les fidèles sont un spectacle au monde, aux anges et aux hommes, nous pouvons encore ajouter qu’ils sont un spectacle à Dieu même. Nous apprenons de Moïse que ce grand et sage architecte, diligent contemplateur de son propre ouvrage, à mesure qu’il bâtissait ce bel édifice du monde, en admirait toutes les parties<note place="bottom">Gen., <num>i</num>, 4.</note> : <hi rend="i">Vidit Deus lucem quod esset bona</hi> : « Dieu vit que la lumière était bonne » : qu’en ayant composé le tout, parce qu’en effet la beauté de l’architecture paraît dans le tout, et dans l’assemblage plus encore que dans les parties détachées, il avait encore enchéri et l’avait trouvé parfaitement beau<note place="bottom"><hi rend="i">Id.</hi>, <num>i</num>, 31.</note>. <hi rend="i">Et erant valdè bona</hi> : et enfin, qu’il s’était contenté lui-même en considérant dans ses créatures les traits de sa sagesse et l’effusion de sa bonté. Mais comme le juste et l’homme de bien est le miracle de sa grâce et le chef-d’œuvre de sa main puissante, il est aussi le spectacle le plus agréable à ses yeux<note place="bottom">Psalm., <num>xxxiii</num>, 15.</note> : <hi rend="i">Oculi Domini super justos</hi> : « Les yeux de Dieu, dit le saint psalmiste, sont attachés sur les justes, » non seulement parce qu’il veille sur eux pour les protéger, mais encore parce qu’il aime à les regarder du plus haut des cieux comme le plus cher objet de ses complaisances<note place="bottom">Job, <num>i</num>, 8.</note>. « N’avez-vous point vu, dit-il, mon serviteur Job, comme il est droit et juste, et craignant Dieu, comme il évite le mal avec soin, et n’a point son semblable sur la terre ? »</p>
             <p>Que le soldat est heureux qui combat ainsi sous les yeux de son capitaine et de son roi, à qui sa valeur invincible prépare un si beau spectacle ! Que si les justes sont le spectacle de Dieu, il veut aussi à son tour être leur spectacle : comme il se plaît à les voir, il veut aussi qu’ils le voient : il les ravit par la claire vue de son éternelle beauté, et leur montre à découvert sa vérité même dans une lumière si pure qu’elle dissipe toutes les ténèbres et tous les nuages.</p>
             <p>………………………………………………………………………………………………</p>
             <p>Mais, mes frères, ce n’est pas à moi de publier ces merveilles, pendant que le Saint-Esprit nous représente si vivement la joie triomphante de la céleste Jérusalem par la bouche du prophète Isaïe. « Je créerai, dit le Seigneur, un nouveau ciel et une nouvelle terre, et toutes les angoisses seront oubliées, et ne reviendront jamais : mais vous vous réjouirez, et votre âme nagera dans la joie durant toute l’éternité dans les choses que je crée pour votre bonheur : car je ferai que Jérusalem sera toute transportée d’allégresse, et que son peuple sera dans le ravissement : et moi-même je me réjouirai en Jérusalem, et je triompherai de joie dans la félicité de mon peuple<note place="bottom"><quote><p>Oblivioni traditæ sunt angustiæ priores, et non ascendent super cor.</p><p>Gaudebitis et exaltabitis usque in sempiternum, in his quæ ego creo.</p><p>Quia ecce ego creo Jerusalem exultationem, et populum ejus gaudium.</p><p>Et exaltabo in Jerusalem, et gaudebo in populo meo.</p></quote><bibl>(Is. 63, 17 et suiv.)</bibl></note>. »</p>
-            <p>Voilà de quelle manière le Saint-Esprit nous représente les joies de ses enfants bienheureux. Puis, se tournant à ceux qui sont sur la terre, à l’Église militante, il les invite ; en ces termes, à prendre part aux transports de la sainte et triomphante Jérusalem. « Réjouissez-vous, dit-il avec elle, ô vous qui l’aimez !, réjouissez-vous avec elle d’une grande joie, et sucez avec elle par une foi vive la mamelle de ses consolations divines, afin que vous abondiez en délices spirituelles, parce que le Seigneur a dit : Je ferai couler sur elle un fleuve de paix ; et ce torrent se débordera avec abondance : toutes les nations de la terre y auront part ; et avec la même tendresse qu’une mère caresse son enfant, ainsi je vous consolerai, dit le Seigneur<note place="bottom"><quote><p>Lætamini cum Jerusalem, et exultate in eâ omnes qui diligitis eam : gaudete cum eâ gaudio… Ut sugatis et repleamini ab ubere consolationis ejus ; ut mulgeatis et deliciis affluatis ab omni modâ gloriâ ejus. Quia hæc dicit Dominus : Ecce ego declinabo super eam quasi fluvium pacis, et quasi torrentem inundantem gloriam gentium… Quomodò si cui mater blandiatur, ita ego consolabor vos.</p></quote><bibl>Is. 66, 10 et suiv. </bibl></note>. »</p>
+            <p>Voilà de quelle manière le Saint-Esprit nous représente les joies de ses enfants bienheureux. Puis, se tournant à ceux qui sont sur la terre, à l’Église militante, il les invite ; en ces termes, à prendre part aux transports de la sainte et triomphante Jérusalem. « Réjouissez-vous, dit-il avec elle, ô vous qui l’aimez !, réjouissez-vous avec elle d’une grande joie, et sucez avec elle par une foi vive la mamelle de ses consolations divines, afin que vous abondiez en délices spirituelles, parce que le Seigneur a dit : Je ferai couler sur elle un fleuve de paix ; et ce torrent se débordera avec abondance : toutes les nations de la terre y auront part ; et avec la même tendresse qu’une mère caresse son enfant, ainsi je vous consolerai, dit le Seigneur<note place="bottom"><quote><p>Lætamini cum Jerusalem, et exultate in eâ omnes qui diligitis eam : gaudete cum eâ gaudio… Ut sugatis et repleamini ab ubere consolationis ejus ; ut mulgeatis et deliciis affluatis ab omni modâ gloriâ ejus. Quia hæc dicit Dominus : Ecce ego declinabo super eam quasi fluvium pacis, et quasi torrentem inundantem gloriam gentium… Quomodò si cui mater blandiatur, ita ego consolabor vos.</p></quote><bibl>Is. 66, 10 et suiv.</bibl></note>. »</p>
             <p>Quel cœur serait insensible à ses divines tendresses ? Aspirons à ces joies célestes, qui seront d’autant plus touchantes qu’elles seront accompagnées d’un parfait repos, parce que nous ne les pourrons jamais perdre.</p>
           </quote>
           <bibl>(<title>Sermons de Bossuet</title>, tom. III.)</bibl>
@@ -2575,7 +2575,7 @@
         <div>
           <head>Note K, page 310. [III<hi rend="sup">e</hi> partie, liv. 1, chap. 4]</head>
           <p>Voici le catalogue de Pline :</p>
-          <label><hi rend="i">Peintres des trois grandes Écoles</hi>, Ionique, Sicyonienne et Attique.</label>
+          <label type="head"><hi rend="i">Peintres des trois grandes Écoles</hi>, Ionique, Sicyonienne et Attique.</label>
           <p><hi rend="i">Polygnote de Thasos</hi> peignit un guerrier avec son bouclier. Il peignit, de plus, le temple de Delphes, et le portique d’Athènes, en concurrence avec Mylon.</p>
           <p><hi rend="i">Apollodore d’Athènes</hi>. Un Prêtre en adoration. Ajax tout enflammé des feux de la foudre.</p>
           <p><hi rend="i">Zeuxis</hi>. Une Alcmène. Un dieu Pan. Une Pénélope. Un Jupiter assis sur son trône, et entouré des Dieux, qui sont debout. Hercule enfant, étouffant deux serpents, en présence d’Amphitryon et d’Alcmène qui pâlit d’effroi. Junon Sacinienne. Le Tableau des raisins. Une Hélène et un Marsyas.</p>
@@ -2589,9 +2589,9 @@
           <p><hi rend="i">Asclépiodore</hi>. Les douze grands Dieux.</p>
           <p><hi rend="i">Nicomaque</hi>. L’Enlèvement de Proserpine. Une Victoire s’élevant dans les airs sur un char. Un Ulysse. Un Apollon. Une Diane. Une Cybèle assise sur un lion. Des Bacchantes et des Satyres. La Scylla.</p>
           <p><hi rend="i">Philoxène d’Érétrie</hi>. La Bataille d’Alexandre contre Darius. Trois Silènes.</p>
-          <label>Genre grotesque et peinture à fresque.</label>
+          <label type="head">Genre grotesque et peinture à fresque.</label>
           <p>Ici Pline parle de Pyréicus, qui peignit, dans une grande perfection, des boutiques de barbiers, de cordonniers, des ânes, etc. C’est l’École flamande. Il dit ensuite qu’Auguste fit représenter, sur les murs des palais et des temples, des paysages et des marines. Parmi les peintures à fresque de ce genre, la plus célèbre était connue sous le nom de <hi rend="i">Marachers</hi>. C’étaient des paysans à l’entrée d’un village, faisant prix avec des femmes pour les porter sur leurs épaules à travers une mare, etc. Ce sont les seuls paysages dont il soit fait mention dans l’antiquité, et encore n’était ce que des peintures à fresque. Nous reviendrons dans une autre note sur ce sujet.</p>
-          <label>Peinture encaustique.</label>
+          <label type="head">Peinture encaustique.</label>
           <p><hi rend="i">Pausanias de Sicyone</hi>. L’Hémérésios, ou l’enfant. Glycère assise et couronnée de fleurs. Une Hécatombe.</p>
           <p><hi rend="i">Euphranor</hi>. Un Combat équestre. Les douze Dieux.</p>
           <p><hi rend="i">Thésée</hi>. Un Ulysse contrefaisant l’insensé. Un Guerrier remettant son épée dans le fourreau.</p>
@@ -2842,135 +2842,135 @@
         </div>
         <div>
           <head>Note G, page 89. [III<hi rend="sup">e</hi> partie, liv. IV, chap. 5]</head>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Les Encyclopédistes sont une secte de soi-disant philosophes, formée de nos jours ; ils se croient supérieurs à tout ce que l’antiquité a produit en ce genre. À l’effronterie des cyniques, ils joignent la noble impudence de débiter tous les paradoxes qui leur tombent dans l’esprit ; ils se targuent de géométrie, et soutiennent que ceux qui n’ont pas étudié cette science ont l’esprit faux ; que par conséquent ils ont seuls le don de bien raisonner : leurs discours les plus communs sont farcis de termes scientifiques. Ils diront, par exemple, que telles lois sont sagement établies en raison inverse du carré des distances ; que telle puissance, prête à former une alliance avec une autre, se sent attirer à elle par l’effet de l’attraction, et que bientôt les deux nations seront assimilées. Si on leur propose une promenade, c’est le problème d’une courbe à résoudre. S’ils ont une colique néphrétique, ils s’en guérissent par les règles de l’hydrostatique. Si une puce les a mordus, ce sont des infiniment petits du premier ordre qui les incommodent. S’ils font une chute, c’est pour avoir perdu le centre de gravité. Si quelque folliculaire a l’audace de les attaquer, ils le noient dans un déluge d’encre et d’injures ; ce crime de lèse-philosophie est irrémissible.</p>
-          <label>EUGÈNE.</label>
+          <label type="speaker">EUGÈNE.</label>
           <p>Mais quel rapport ont ces fous avec notre nom, avec le jugement qu’on porte de nous ?</p>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Beaucoup plus que vous ne croyez, parce qu’ils dénigrent toutes les sciences, hors celle de leurs calculs. Les poésies sont des frivolités dont il faut exclure les fables : un poète ne doit rimer avec énergie que les équations algébriques. Pour l’histoire, ils veulent qu’on l’étudie à rebours, à commencer de nos temps pour remonter avant le déluge. Les gouvernements, ils les réforment tous : la France doit devenir un état républicain, dont un géomètre sera le législateur, et que des géomètres gouverneront en soumettant toutes les opérations de la nouvelle république au calcul infinitésimal. Cette république conservera une paix constante, et se soutiendra sans armée… Ils affectent tous une sainte horreur pour la guerre… S’ils haïssent les armées et les généraux qui se rendent célèbres, cela ne les empêche pas de se battre à coups de plume, et de se dire souvent des grossièretés dignes des halles ; et, s’ils avaient des troupes, ils les feraient marcher les unes contre les autres… En leur style, ces beaux propos s’appellent des libertés philosophiques ; il faut penser tout haut, toute vérité est bonne à dire ; et comme, selon leur sens, ils sont seuls les dépositaires des vérités, ils croient pouvoir débiter toutes les extravagances qui leur viennent dans l’esprit, sûrs d’être applaudis.</p>
-          <label>MARLBOROUGH.</label>
+          <label type="speaker">MARLBOROUGH.</label>
           <p>Apparemment qu’il n’y a plus en Europe de Petites-Maisons ; s’il en restait, mon avis serait d’y loger ces messieurs, pour qu’ils fussent les législateurs des fous leurs semblables.</p>
-          <label>EUGÈNE.</label>
+          <label type="speaker">EUGÈNE.</label>
           <p>Mon avis serait de leur donner à gouverner une province qui méritât d’être châtiée ; ils apprendraient par leur expérience, après qu’ils y auraient tout mis sens dessus dessous, qu’ils sont des ignorants, que la critique est aisée, mais l’art difficile ; et surtout qu’on s’expose à dire force sottises, quand on se mêle de parler de ce qu’on n’entend pas.</p>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Des présomptueux n’avouent jamais qu’ils ont tort. Selon leurs principes, le sage ne se trompe jamais ; il est le seul éclairé ; de lui doit émaner la lumière qui dissipe les sombres vapeurs dans lesquelles croupit le vulgaire imbécile et aveugle : aussi Dieu sait comment ils l’éclairent. Tantôt c’est en lui découvrant l’origine des préjugés, tantôt c’est un livre sur l’esprit, tantôt le système de la nature ; cela ne finit point. Un tas de polissons, soit par air ou par mode, se comptent parmi leurs disciples ; ils affectent de les copier, et s’érigent en sous-précepteurs du genre humain ; et, comme il est plus facile de dire des injures que d’alléguer des raisons, le ton de leurs élèves est de se déchaîner indécemment en toute occasion contre les militaires.</p>
-          <label>EUGÈNE.</label>
+          <label type="speaker">EUGÈNE.</label>
           <p>Un fat trouve toujours un plus fat qui l’admire ; mais les militaires souffrent-ils les injures tranquillement ?</p>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Ils laissent aboyer ces roquets, et continuent leur chemin.</p>
-          <label>MARLBOROUGH.</label>
+          <label type="speaker">MARLBOROUGH.</label>
           <p>Mais pourquoi cet acharnement contre la plus noble des professions, contre celle, sous l’abri de laquelle les autres peuvent s’exercer en paix ?</p>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Comme ils sont tous très ignorants dans l’art de la guerre, ils croient rendre cet art méprisable en le déprimant ; mais, comme je vous l’ai dit, ils décrient généralement toutes les sciences, et ils élèvent la seule géométrie sur ces débris, pour anéantir toute gloire étrangère, et la concentrer uniquement sur leurs personnes.</p>
-          <label>MARLBOROUGH.</label>
+          <label type="speaker">MARLBOROUGH.</label>
           <p>Mais nous n’avons méprisé ni la philosophie, ni la géométrie, ni les belles-lettres, et nous nous sommes contentés d’avoir du mérite dans notre genre.</p>
-          <label>EUGÈNE.</label>
+          <label type="speaker">EUGÈNE.</label>
           <p>J’ai plus fait. À Vienne j’ai protégé tous les savants, et les ai distingués lors même que personne n’en faisait aucun cas.</p>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Je le crois bien, c’est que vous étiez de grands hommes, et ces soi-disant philosophes ne sont que des polissons, dont la vanité voudrait jouer un rôle : cela n’empêche pas que les injures si souvent répétées ne fassent du tort à la mémoire des grands hommes. On croit que raisonner hardiment de travers, c’est être philosophe, et qu’avancer des paradoxes, c’est emporter la palme. Combien n’ai-je pas entendu, par de ridicules propos, condamner vos plus belles actions, et vous traiter d’hommes qui avaient usurpé une réputation dans un siècle d’ignorance qui manquait de vrais appréciateurs du mérite !</p>
-          <label>MARLBOROUGH.</label>
+          <label type="speaker">MARLBOROUGH.</label>
           <p>Notre siècle, un siècle d’ignorance ! ah ! je n’y tiens plus.</p>
-          <label>LICHTENSTEIN.</label>
+          <label type="speaker">LICHTENSTEIN.</label>
           <p>Le siècle présent est celui des philosophes.</p>
           <bibl>(<title>Œuvres de Frédéric II</title>.)</bibl>
         </div>
         <div>
           <head>Note H, page 92. [III<hi rend="sup">e</hi> partie, liv. IV, chap. 5]</head>
-          <label>PORTRAITS DE J.-J. ROUSSEAU ET DE VOLTAIRE, <lb/>par la harpe.</label>
           <quote>
-            <p>………………………………………………………</p>
-            <p>    Deux surtout dont le nom, les talents, l’éloquence,</p>
-            <p>Faisant aimer l’erreur ont fondé sa puissance,</p>
-            <p>Préparèrent de loin des maux inattendus,</p>
-            <p>Dont ils auraient frémi, s’ils les avaient prévus.</p>
-            <p>Oui, je le crois, témoins de leur affreux ouvrage,</p>
-            <p>Ils auraient des François désavoué la rage.</p>
-            <p>Vaine et tardive excuse aux fautes de l’orgueil !</p>
-            <p>Qui prend le gouvernail doit connaître l’écueil.</p>
-            <p>La faiblesse réclame un pardon légitime,</p>
-            <p>Mais de tout grand pouvoir l’abus est un grand crime.</p>
-            <p>Par les dons de l’esprit placés aux premiers rangs,</p>
-            <p>Ils ont parlé d’en haut aux peuples ignorants ;</p>
-            <p>Leur voix montait au Ciel pour y porter la guerre ;</p>
-            <p>Leur parole hardie a parcouru la terre.</p>
-            <p>Tous deux ont entrepris d’ôter au genre humain</p>
-            <p>Le joug sacré qu’un Dieu n’imposa pas en vain ;</p>
-            <p>Et des coups que ce Dieu frappe pour les confondre,</p>
-            <p>Au monde, leur disciple, ils auront à répondre.</p>
-            <p>Leurs noms, toujours chargés de reproches nouveaux,</p>
-            <p>Commenceront toujours le récit de nos maux.</p>
-            <p>Ils ont frayé la route à ce peuple rebelle ;</p>
-            <p>De leurs tristes succès la honte est immortelle.</p>
-            <p/>
-            <p>L’un qui, dès sa jeunesse errant et rebuté,</p>
-            <p>Nourrit dans les affronts son orgueil révolté,</p>
-            <p>Sur l’horizon des arts sinistre météore,</p>
-            <p>Marqua par le scandale une tardive aurore,</p>
-            <p>Et, pour premier essai d’un talent imposteur,</p>
-            <p>Calomnia les arts, ses seuls titres d’honneur,</p>
-            <p>D’un moderne cynique affecta l’arrogance,</p>
-            <p>Du paradoxe altier orna l’extravagance,</p>
-            <p>Ennoblit le sophisme, et cria <hi rend="i">vérité</hi> ;</p>
-            <p>Mais par quel art honteux s’est-il accrédité ?</p>
-            <p>Courtisan de l’envie, il la sert, la caresse,</p>
-            <p>Va dans les derniers rangs en flatter la bassesse,</p>
-            <p>Jusques aux fondements de la société</p>
-            <p>Il a porté la faux de son <hi rend="i">égalité</hi> ;</p>
-            <p>Il sema, fit germer, chez un peuple volage,</p>
-            <p>Cet esprit novateur, le monstre de notre âge,</p>
-            <p>Qui couvrira l’Europe et de sang et de deuil.</p>
-            <p>Rousseau fut parmi nous l’apôtre de l’orgueil :</p>
-            <p>Il vanta son enfance à Genève nourrie,</p>
-            <p>Et pour venger un livre, il troubla sa patrie,</p>
-            <p>Tandis qu’en ses écrits, par un autre travers,</p>
-            <p>Sur sa ville chétive il réglait l’univers.</p>
-            <p>J’admire ses talents, j’en déteste l’usage ;</p>
-            <p>Sa parole est un feu, mais un feu qui ravage,</p>
-            <p>Dont les sombres lueurs brillent sur des débris.</p>
-            <p>Tout, jusqu’aux vérités, trompe dans ses écrits ;</p>
-            <p>Et du faux et du vrai ce mélange adultère</p>
-            <p>Est d’un sophiste adroit le premier caractère.</p>
-            <p>Tour à tour apostat de l’une et l’autre loi,</p>
-            <p>Admirant l’Évangile, et réprouvant la foi,</p>
-            <p>Chrétien, déiste, armé contre Genève et Rome,</p>
-            <p>Il épuise à lui seul l’inconstance de l’homme,</p>
-            <p>Demande une statue, implore une prison ;</p>
-            <p>Et l’amour-propre enfin, égarant sa raison,</p>
-            <p>Frappe ses derniers ans du plus triste délire :</p>
-            <p>Il fuit le monde entier qui contre lui conspire,</p>
-            <p>Il se confesse au monde, et, toujours plein de soi,</p>
-            <p>Dit hautement à Dieu : <hi rend="i">Nul n’est meilleur que moi.</hi></p>
-            <p/>
-            <p>L’autre, encor plus fameux, plus éclatant génie,</p>
-            <p>Fut pour nous, soixante ans, le dieu de l’harmonie.</p>
-            <p>Ceint de tous les lauriers, fait pour tous les succès,</p>
-            <p>Voltaire a de son nom fait un titre aux François.</p>
-            <p>Il nous a vendu cher ce brillant héritage,</p>
-            <p>Quand, libre en son exil, rassuré par son âge,</p>
-            <p>De son esprit fougueux l’essor indépendant</p>
-            <p>Prit sur l’esprit du siècle un si haut ascendant.</p>
-            <p>Quand son ambition, toujours plus indocile,</p>
-            <p>Prétendit détrôner le Dieu de l’Évangile,</p>
-            <p>Voltaire dans Ferney, son bruyant arsenal,</p>
-            <p>Secouait sur l’Europe un magique fanal,</p>
-            <p>Que pour embraser tout trente ans on a vu luire.</p>
-            <p>Par lui l’impiété, puissante pour détruire,</p>
-            <p>Ébranla, d’un effort aveugle et furieux,</p>
-            <p>Les trônes de la terre appuyés dans les cieux.</p>
-            <p>Ce flexible Protée était né pour séduire :</p>
-            <p>Fort de tous les talents, et de plaire et de nuire,</p>
-            <p>Il sut multiplier son fertile poison ;</p>
-            <p>Armé du ridicule, éludant la raison,</p>
-            <p>Prodiguant le mensonge, et le sel, et l’injure,</p>
-            <p>De cent masques divers il revêt l’imposture,</p>
-            <p>Impose à l’ignorant, insulte à l’homme instruit ;</p>
-            <p>Il sut jusqu’au vulgaire abaisser son esprit,</p>
-            <p>Faire du vice un jeu, du scandale une école.</p>
-            <p>Grâce à lui, le blasphème, et piquant et frivole,</p>
-            <p>Circulait embelli des traits de la gaîté ;</p>
-            <p>Au bon sens il ôta sa vieille autorité,</p>
-            <p>Repoussa l’examen, fit rougir du scrupule,</p>
-            <p>Et mit au premier rang le titre d’incrédule.</p>
+            <label type="head">PORTRAITS DE J.-J. ROUSSEAU ET DE VOLTAIRE, <lb/>par La Harpe.</label>
+            <l>………………………………………………………</l>
+            <l>    Deux surtout dont le nom, les talents, l’éloquence,</l>
+            <l>Faisant aimer l’erreur ont fondé sa puissance,</l>
+            <l>Préparèrent de loin des maux inattendus,</l>
+            <l>Dont ils auraient frémi, s’ils les avaient prévus.</l>
+            <l>Oui, je le crois, témoins de leur affreux ouvrage,</l>
+            <l>Ils auraient des François désavoué la rage.</l>
+            <l>Vaine et tardive excuse aux fautes de l’orgueil !</l>
+            <l>Qui prend le gouvernail doit connaître l’écueil.</l>
+            <l>La faiblesse réclame un pardon légitime,</l>
+            <l>Mais de tout grand pouvoir l’abus est un grand crime.</l>
+            <l>Par les dons de l’esprit placés aux premiers rangs,</l>
+            <l>Ils ont parlé d’en haut aux peuples ignorants ;</l>
+            <l>Leur voix montait au Ciel pour y porter la guerre ;</l>
+            <l>Leur parole hardie a parcouru la terre.</l>
+            <l>Tous deux ont entrepris d’ôter au genre humain</l>
+            <l>Le joug sacré qu’un Dieu n’imposa pas en vain ;</l>
+            <l>Et des coups que ce Dieu frappe pour les confondre,</l>
+            <l>Au monde, leur disciple, ils auront à répondre.</l>
+            <l>Leurs noms, toujours chargés de reproches nouveaux,</l>
+            <l>Commenceront toujours le récit de nos maux.</l>
+            <l>Ils ont frayé la route à ce peuple rebelle ;</l>
+            <l>De leurs tristes succès la honte est immortelle.</l>
+            <l/>
+            <l>L’un qui, dès sa jeunesse errant et rebuté,</l>
+            <l>Nourrit dans les affronts son orgueil révolté,</l>
+            <l>Sur l’horizon des arts sinistre météore,</l>
+            <l>Marqua par le scandale une tardive aurore,</l>
+            <l>Et, pour premier essai d’un talent imposteur,</l>
+            <l>Calomnia les arts, ses seuls titres d’honneur,</l>
+            <l>D’un moderne cynique affecta l’arrogance,</l>
+            <l>Du paradoxe altier orna l’extravagance,</l>
+            <l>Ennoblit le sophisme, et cria <hi rend="i">vérité</hi> ;</l>
+            <l>Mais par quel art honteux s’est-il accrédité ?</l>
+            <l>Courtisan de l’envie, il la sert, la caresse,</l>
+            <l>Va dans les derniers rangs en flatter la bassesse,</l>
+            <l>Jusques aux fondements de la société</l>
+            <l>Il a porté la faux de son <hi rend="i">égalité</hi> ;</l>
+            <l>Il sema, fit germer, chez un peuple volage,</l>
+            <l>Cet esprit novateur, le monstre de notre âge,</l>
+            <l>Qui couvrira l’Europe et de sang et de deuil.</l>
+            <l>Rousseau fut parmi nous l’apôtre de l’orgueil :</l>
+            <l>Il vanta son enfance à Genève nourrie,</l>
+            <l>Et pour venger un livre, il troubla sa patrie,</l>
+            <l>Tandis qu’en ses écrits, par un autre travers,</l>
+            <l>Sur sa ville chétive il réglait l’univers.</l>
+            <l>J’admire ses talents, j’en déteste l’usage ;</l>
+            <l>Sa parole est un feu, mais un feu qui ravage,</l>
+            <l>Dont les sombres lueurs brillent sur des débris.</l>
+            <l>Tout, jusqu’aux vérités, trompe dans ses écrits ;</l>
+            <l>Et du faux et du vrai ce mélange adultère</l>
+            <l>Est d’un sophiste adroit le premier caractère.</l>
+            <l>Tour à tour apostat de l’une et l’autre loi,</l>
+            <l>Admirant l’Évangile, et réprouvant la foi,</l>
+            <l>Chrétien, déiste, armé contre Genève et Rome,</l>
+            <l>Il épuise à lui seul l’inconstance de l’homme,</l>
+            <l>Demande une statue, implore une prison ;</l>
+            <l>Et l’amour-propre enfin, égarant sa raison,</l>
+            <l>Frappe ses derniers ans du plus triste délire :</l>
+            <l>Il fuit le monde entier qui contre lui conspire,</l>
+            <l>Il se confesse au monde, et, toujours plein de soi,</l>
+            <l>Dit hautement à Dieu : <hi rend="i">Nul n’est meilleur que moi.</hi></l>
+            <l/>
+            <l>L’autre, encor plus fameux, plus éclatant génie,</l>
+            <l>Fut pour nous, soixante ans, le dieu de l’harmonie.</l>
+            <l>Ceint de tous les lauriers, fait pour tous les succès,</l>
+            <l>Voltaire a de son nom fait un titre aux François.</l>
+            <l>Il nous a vendu cher ce brillant héritage,</l>
+            <l>Quand, libre en son exil, rassuré par son âge,</l>
+            <l>De son esprit fougueux l’essor indépendant</l>
+            <l>Prit sur l’esprit du siècle un si haut ascendant.</l>
+            <l>Quand son ambition, toujours plus indocile,</l>
+            <l>Prétendit détrôner le Dieu de l’Évangile,</l>
+            <l>Voltaire dans Ferney, son bruyant arsenal,</l>
+            <l>Secouait sur l’Europe un magique fanal,</l>
+            <l>Que pour embraser tout trente ans on a vu luire.</l>
+            <l>Par lui l’impiété, puissante pour détruire,</l>
+            <l>Ébranla, d’un effort aveugle et furieux,</l>
+            <l>Les trônes de la terre appuyés dans les cieux.</l>
+            <l>Ce flexible Protée était né pour séduire :</l>
+            <l>Fort de tous les talents, et de plaire et de nuire,</l>
+            <l>Il sut multiplier son fertile poison ;</l>
+            <l>Armé du ridicule, éludant la raison,</l>
+            <l>Prodiguant le mensonge, et le sel, et l’injure,</l>
+            <l>De cent masques divers il revêt l’imposture,</l>
+            <l>Impose à l’ignorant, insulte à l’homme instruit ;</l>
+            <l>Il sut jusqu’au vulgaire abaisser son esprit,</l>
+            <l>Faire du vice un jeu, du scandale une école.</l>
+            <l>Grâce à lui, le blasphème, et piquant et frivole,</l>
+            <l>Circulait embelli des traits de la gaîté ;</l>
+            <l>Au bon sens il ôta sa vieille autorité,</l>
+            <l>Repoussa l’examen, fit rougir du scrupule,</l>
+            <l>Et mit au premier rang le titre d’incrédule.</l>
           </quote>
         </div>
         <div>
@@ -2988,29 +2988,29 @@
           <quote>
             <p>« C’est Racine qui est véritablement grand, et d’autant plus grand, qu’il ne paraît jamais chercher à l’être. C’est l’auteur d’<hi rend="i">Athalie</hi> qui est l’homme parfait. »</p>
           </quote>
-          <bibl>(<title>Corresp. gén.</title>, tom. <num>viii</num>, pag. 465.)</bibl>
+          <bibl>(<title>Corresp. gén.</title>, tom. VIII, pag. 465.)</bibl>
           <quote>
             <p>« J’avais cru que Racine serait ma consolation, mais il est mon désespoir. C’est le comble de l’insolence de faire une tragédie après ce grand homme. Aussi après lui je ne connais que de mauvaises pièces, et avant lui que quelques bonnes scènes. »</p>
           </quote>
-          <bibl>(<title>Ibid.</title>, tom. <num>viii</num>, pag. 467.)</bibl>
+          <bibl>(<title>Ibid.</title>, tom. VIII, pag. 467.)</bibl>
           <quote>
             <p>« Je ne peux me plaindre de la bonté avec laquelle vous parlez d’un <hi rend="i">Brutus</hi> et d’un <hi rend="i">Orphelin</hi> ; j’avouerai même qu’il y a quelques beautés dans ces deux ouvrages ; mais encore une fois, vive Jean (Racine) ! plus on le lit, et plus on lui découvre un talent unique, soutenu par toutes les finesses de l’art : en un mot, s’il y a quelque chose sur la terre qui approche de la perfection, c’est Jean. »</p>
           </quote>
-          <bibl>(<title>Ibid.</title>, tom. <num>viii</num>, pag. 501.)</bibl>
+          <bibl>(<title>Ibid.</title>, tom. VIII, pag. 501.)</bibl>
           <quote>
             <p>« La mode est aujourd’hui de mépriser Colbert et Louis XIV ; cette mode passera, et ces deux hommes resteront à la postérité avec Boileau. »</p>
           </quote>
-          <bibl>(<title>Ibid.</title>, tom. <num>xv</num>, pag. 108.)</bibl>
+          <bibl>(<title>Ibid.</title>, tom. XV, pag. 108.)</bibl>
           <quote>
             <p>« Je prouverais bien que les choses passables de ce temps-ci sont toutes puisées dans les bons écrits du siècle de Louis XIV. Nos mauvais livres sont moins mauvais que les mauvais que l’on faisait du temps de Boileau, de Racine et de Molière, parce que dans ces plats ouvrages d’aujourd’hui, il y a toujours quelques morceaux tirés visiblement des auteurs du règne du bon goût. Nous ressemblons à des voleurs qui changent et qui ornent ridiculement les habits qu’ils ont dérobés, de peur qu’on ne les reconnaisse. À cette friponnerie s’est jointe la rage de la dissertation et celle du paradoxe ; le tout compose une impertinence qui est d’un ennui mortel. »</p>
           </quote>
-          <bibl>(<title>Ibid.</title>, tom. <num>xiii</num>, pag. 219.)</bibl>
+          <bibl>(<title>Ibid.</title>, tom. XIII, pag. 219.)</bibl>
           <quote>
             <p>« Accoutumez-vous à la disette des talents en tout genre, à l’esprit devenu commun, et au génie devenu rare, à une inondation de livres sur la guerre pour être battus, sur les finances pour n’avoir pas un sou, sur la population pour manquer de recrues et de cultivateurs, et sur tous les arts pour ne réussir dans aucun. »</p>
           </quote>
-          <bibl>(<title>Ibid.</title>, tom. <num>vi</num>, pag. 391.)</bibl>
+          <bibl>(<title>Ibid.</title>, tom. VI, pag. 391.)</bibl>
           <p>Enfin, Voltaire a dit dans sa belle Lettre à milord Hervey, tout ce qu’on a répété moins bien et redit mille fois, depuis, sur le siècle de Louis XIV. Voici cette lettre à milord Hervey, en 1740.</p>
-          <label><hi rend="i">Année</hi> 1740.</label>
+          <label type="head"><hi rend="i">Année</hi> 1740.</label>
           <quote>
             <p>« … Mais, surtout, Mylord, soyez moins fâché contre moi de ce que j’appelle le siècle dernier le siècle de Louis XIV. Je sais bien que Louis XIV n’a pas eu l’honneur d’être le maître ni le bienfaiteur d’un Bayle, d’un Newton, d’un Halley, d’un Addison, d’un Dryden : mais dans le siècle qu’on nomme de Léon X, ce pape avait-il tout fait ? N’y avait-il pas d’autres princes qui contribuèrent à polir et à éclairer le genre humain ? Cependant le nom de Léon X a prévalu, parce qu’il encouragea les arts, plus qu’aucun autre. Hé ! quel roi a donc, en cela, rendu plus de services à l’humanité que Louis XIV ? quel roi a répandu plus de bienfaits, a marqué plus de goût, s’est signalé par de plus beaux établissements ? Il n’a pas fait tout ce qu’il pouvait faire, sans doute, parce qu’il était homme ; mais il a fait plus qu’aucun autre, parce qu’il était un grand homme : ma plus forte raison pour l’estimer beaucoup, c’est qu’avec des fautes connues, il a plus de réputation qu’aucun de ses contemporains, c’est que, malgré un million d’hommes dont il a privé la France, et qui tous ont été intéressés à le décrier, toute l’Europe l’estime et le met au rang des plus grands et des meilleurs monarques.</p>
             <p>» Nommez-moi donc, Mylord, un souverain qui ait attiré chez lui plus d’étrangers habiles, et qui ait plus encouragé le mérite dans ses sujets. Soixante savants de l’Europe reçurent à la fois des récompenses de lui, étonnés d’en être connus.</p>
@@ -3025,7 +3025,7 @@
             <p>» Je ne considère pas seulement Louis XIV parce qu’il a fait du bien aux Français, mais parce qu’il a fait du bien aux hommes : c’est comme homme, et non comme sujet que j’écris ; je veux peindre le dernier siècle, et non pas simplement un prince. Je suis las des histoires où il n’est question que des aventures d’un roi, comme s’il existait seul, ou que rien n’existât que par rapport à lui ; en un mot, c’est encore plus d’un grand siècle que d’un grand roi que j’écris l’histoire.</p>
             <p>» Pélisson eût écrit plus éloquemment que moi ; mais il était courtisan, et il était payé. Je ne suis ni l’un ni l’autre ; c’est à moi qu’il appartient de dire la vérité. »</p>
           </quote>
-          <bibl>(<title>Corresp. gén.</title>, tom. <num>iii</num>, pag. 53.)</bibl>
+          <bibl>(<title>Corresp. gén.</title>, tom. III, pag. 53.)</bibl>
         </div>
         <div>
           <head>Note L, page 101. [III<hi rend="sup">e</hi> partie, liv. V, chap. 2]</head>
@@ -3120,8 +3120,8 @@
         </div>
         <div>
           <head>Note O, page 123.</head>
-          <label>AUTRE FRAGMENT DES CLOÎTRES EN RUINES.</label>
           <quote>
+            <label type="head">AUTRE FRAGMENT DES CLOÎTRES EN RUINES.</label>
             <l>……………………………………………</l>
             <l>Mais de plus fiers débris appellent mes pinceaux…</l>
             <l>Courons vers ces rochers, noir berceau des orages,</l>

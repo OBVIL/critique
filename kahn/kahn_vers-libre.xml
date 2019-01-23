@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,16 +29,29 @@
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/kahn_vers-libre.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution — Pas d’Utilisation Commerciale — Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gustave Kahn</author>, <title>Le Vers libre</title>, <edition>3<hi rend="sup">e</hi> éd.</edition>, <pubPlace>Paris</pubPlace>, <publisher>Eugène Figuière et Cie</publisher>, Collection de « Vers et Prose », <date>1912</date>, 41 p. Source : <ref target="https://archive.org/details/leverslibre00kahn">Internet Archive</ref>.</bibl>
+        <bibl><author>Gustave Kahn</author>, <title>Le Vers libre</title>, <edition>3<hi rend="sup"
+              >e</hi> éd.</edition>, <pubPlace>Paris</pubPlace>, <publisher>Eugène Figuière et
+            Cie</publisher>, Collection de « Vers et Prose », <date>1912</date>, 41 p. Source : <ref
+            target="https://archive.org/details/leverslibre00kahn">Internet Archive</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,144 +59,519 @@
         <date when="1912">1912</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
       <div>
-        <head>Le vers libre.
-        <lb/><hi rend="i">(Conférence donnée à la Maison des Étudiants</hi>)</head>
+        <head>Le vers libre. <lb/><hi rend="i">(Conférence donnée à la Maison des
+          Étudiants</hi>)</head>
         <salute>Messieurs les Étudiants,</salute>
-        <p><pb n="5"/>C’est avec plaisir que je viens au milieu de vous, avec joie que je vous entretiendrai d’un sujet qui me tient fort à cœur : <hi rend="i">le vers libre</hi>.</p>
-        <p>J’étais étudiant comme vous, j’avais votre âge, lorsque s’ébauchèrent pour moi, parmi les enthousiasmes et les désenchantements littéraires des vingt ans, les premiers linéaments du rêve familier qu’est pour un poète, la poésie.</p>
-        <p>Quand je commençais à publier ce fut parmi les étudiants que je trouvai mes premiers lecteurs.</p>
-        <p>Ma revue : <hi rend="i">la Vogue</hi>, avait soixante-quatre fidèles ; — à leur début les jeunes revues n’en <pb n="6"/>ont habituellement guère plus, et l’on pourrait connaître personnellement tous ses lecteurs. Je regrette que cela n’ait pas eu lieu pour moi à ce moment, mais depuis je les ai pour la plupart rencontrés.</p>
-        <p>Il y avait parmi eux des poètes en nombre mais aussi des orientalistes qui faisaient venir le mince fascicule jusqu’en des chancelleries d’Extrême-Orient et des jeunes hommes en le lisant se délassaient de la vue des cartons verts dans les ministères ; les autres vivaient à l’École normale ou s’intéressaient à notre effort entre deux cours des Hautes Études ou de la Sorbonne.</p>
-        <p>Mais ne croyez pas que nos soixante-quatre numéros ne représentaient que soixante-quatre lecteurs ! Je n’aurais pu mettre sur une affiche comme tel grand quotidien : <hi rend="i">La Vogue</hi>, un million de lecteurs ! Mais il y en avait bien quelques centaines.</p>
-        <p>On se prêtait la revue parmi les jeunes, on la prenait en mains sous les galeries de l’Odéon. J’avoue que parmi nos acheteurs, tous ne pensaient point nous adresser des lauriers !</p>
-        <p><pb n="7"/>J’ai ouï-dire que sitôt le fascicule paru, le samedi de chaque semaine, un jeune Parnassien se saisissait d’un numéro qu’il portait chez François Coppée et qu’on se réunissait à dix, jeunes gens et hommes mûrs, autour de cet exemplaire unique pour se gaudir d’abord, puis alterner les lamentations sur la décadence de la langue française et le toupet inouï de ces jeunes barbares qui démantelaient l’ancien alexandrin, tendre chez Racine, épique chez Victor Hugo, sourcilleux chez Leconte de Lisle et devenu sous l’archet de nos railleurs si tranquille et un peu valétudinaire.</p>
-        <p>Ils n’étaient pas les seuls. Jamais mouvement ne souleva plus de clameurs ! Il semblait qu’en touchant à l’alexandrin nous dévalisions la diligence des saines lettres françaises et détournions les mandats-poste des romanciers feuilletonistes !</p>
-        <p>On mobilisait contre nous les plus vieilles gloires ; ainsi on obtint un anathème écrit de Gustave Nadaud.</p>
-        <p>Les tirailleurs de la petite presse nous trouvaient <pb n="8"/>dangereux et comiques ; nous fûmes victimes d’agressions écrites d’Henry Fouquier, pleines de lapsus et de blâmes apitoyés de Dubrujeaud et autres.</p>
-        <p>Des poètes du Parnasse nous maudirent, nous exorcisèrent et, parmi eux, ceux qui faisaient le moins bien le vers parnassien.</p>
-        <p>Bref, si la vigueur et l’utilité d’un mouvement peuvent se mesurer à l’injustice des attaques dont il est la cible, nous aurions pu être fiers ; mais une sage modestie nous faisait nous souvenir que les romantiques, les parnassiens et les naturalistes en avaient reçu tout autant sur le coin… de leur art.</p>
-        <p>Quoi qu’on pense de notre technique et de nos poèmes, tout le monde aujourd’hui s’accorde à dire qu’en 1885 la poésie française avait besoin d’un révulsif violent. Elle sommeillait.</p>
+        <p><pb n="5"/>C’est avec plaisir que je viens au milieu de vous, avec joie que je vous
+          entretiendrai d’un sujet qui me tient fort à cœur : <hi rend="i">le vers libre</hi>.</p>
+        <p>J’étais étudiant comme vous, j’avais votre âge, lorsque s’ébauchèrent pour moi, parmi les
+          enthousiasmes et les désenchantements littéraires des vingt ans, les premiers linéaments
+          du rêve familier qu’est pour un poète, la poésie.</p>
+        <p>Quand je commençais à publier ce fut parmi les étudiants que je trouvai mes premiers
+          lecteurs.</p>
+        <p>Ma revue : <hi rend="i">la Vogue</hi>, avait soixante-quatre fidèles ; — à leur début les
+          jeunes revues n’en <pb n="6"/>ont habituellement guère plus, et l’on pourrait connaître
+          personnellement tous ses lecteurs. Je regrette que cela n’ait pas eu lieu pour moi à ce
+          moment, mais depuis je les ai pour la plupart rencontrés.</p>
+        <p>Il y avait parmi eux des poètes en nombre mais aussi des orientalistes qui faisaient
+          venir le mince fascicule jusqu’en des chancelleries d’Extrême-Orient et des jeunes hommes
+          en le lisant se délassaient de la vue des cartons verts dans les ministères ; les autres
+          vivaient à l’École normale ou s’intéressaient à notre effort entre deux cours des Hautes
+          Études ou de la Sorbonne.</p>
+        <p>Mais ne croyez pas que nos soixante-quatre numéros ne représentaient que soixante-quatre
+          lecteurs ! Je n’aurais pu mettre sur une affiche comme tel grand quotidien : <hi rend="i"
+            >La Vogue</hi>, un million de lecteurs ! Mais il y en avait bien quelques centaines.</p>
+        <p>On se prêtait la revue parmi les jeunes, on la prenait en mains sous les galeries de
+          l’Odéon. J’avoue que parmi nos acheteurs, tous ne pensaient point nous adresser des
+          lauriers !</p>
+        <p><pb n="7"/>J’ai ouï-dire que sitôt le fascicule paru, le samedi de chaque semaine, un
+          jeune Parnassien se saisissait d’un numéro qu’il portait chez François Coppée et qu’on se
+          réunissait à dix, jeunes gens et hommes mûrs, autour de cet exemplaire unique pour se
+          gaudir d’abord, puis alterner les lamentations sur la décadence de la langue française et
+          le toupet inouï de ces jeunes barbares qui démantelaient l’ancien alexandrin, tendre chez
+          Racine, épique chez Victor Hugo, sourcilleux chez Leconte de Lisle et devenu sous l’archet
+          de nos railleurs si tranquille et un peu valétudinaire.</p>
+        <p>Ils n’étaient pas les seuls. Jamais mouvement ne souleva plus de clameurs ! Il semblait
+          qu’en touchant à l’alexandrin nous dévalisions la diligence des saines lettres françaises
+          et détournions les mandats-poste des romanciers feuilletonistes !</p>
+        <p>On mobilisait contre nous les plus vieilles gloires ; ainsi on obtint un anathème écrit
+          de Gustave Nadaud.</p>
+        <p>Les tirailleurs de la petite presse nous trouvaient <pb n="8"/>dangereux et comiques ;
+          nous fûmes victimes d’agressions écrites d’Henry Fouquier, pleines de lapsus et de blâmes
+          apitoyés de Dubrujeaud et autres.</p>
+        <p>Des poètes du Parnasse nous maudirent, nous exorcisèrent et, parmi eux, ceux qui
+          faisaient le moins bien le vers parnassien.</p>
+        <p>Bref, si la vigueur et l’utilité d’un mouvement peuvent se mesurer à l’injustice des
+          attaques dont il est la cible, nous aurions pu être fiers ; mais une sage modestie nous
+          faisait nous souvenir que les romantiques, les parnassiens et les naturalistes en avaient
+          reçu tout autant sur le coin… de leur art.</p>
+        <p>Quoi qu’on pense de notre technique et de nos poèmes, tout le monde aujourd’hui s’accorde
+          à dire qu’en 1885 la poésie française avait besoin d’un révulsif violent. Elle
+          sommeillait.</p>
         <p>Notez bien que je ne songe nullement à vous dire du mal du Parnasse.</p>
-        <p>Personne n’admire plus que moi la beauté des fresques évocatrices de Leconte de Lisle, personne autant que moi n’admire chez Banville un <pb n="9"/>magnifique poète et un conteur presque unique dans toute littérature, car je ne connais qu’Edgar Poe dans une couleur d’images différente, pour avoir fait tenir dans quelques volumes de contes brefs autant de vie et autant d’idées.</p>
-        <p>Personne plus que moi n’admire notre grand Léon Dierx, et n’est sensible à ses magnifiques musiques verbales.</p>
-        <p>La gloire de Villiers de l’Isle-Adam date des symbolistes. Mais enfin le gros des œuvres de ces maîtres était fait, nous n’avions pas à les imiter lorsque nous naquîmes (littérairement parlant).</p>
-        <p>Je ne veux pas dire non plus que parmi les tenants de la technique parnassienne il n’y avait pas, parmi les poètes encore dans la lutte, de très hauts talents. Ce serait méconnaître la force, la fécondité et l’abondance variée de Catulle Mendès, oublier Heredia et son souci du style et de la belle vision brève ; ignorer Gabriel Vicaire qui a retrouvé aux gerbes de la chanson populaire française quelques frais bouquets de bleuets !</p>
-        <p><pb n="10"/>Il y avait aussi ceux qu’on appelait les vivants : Jean Richepin, solide rhétoriqueur, doué de tant de verve et de goût, Théocrite des gueux, Don César de Bazan des bohèmes, dépenaillé d’or et de pourpre.</p>
-        <p>Mais la question n’était pas là ; ces beaux talents étaient isolés dans une masse turbulente et grise.</p>
-        <p>Tous les jours l’homme qui bêche (celui qui travaille sur les couvertures des livres de Lemerre) soulevait de terre des paniers de tessons de bouteilles rejetés des palais des maîtres, et de ce verre cassé faisait des volumes de vers.</p>
+        <p>Personne n’admire plus que moi la beauté des fresques évocatrices de Leconte de Lisle,
+          personne autant que moi n’admire chez Banville un <pb n="9"/>magnifique poète et un
+          conteur presque unique dans toute littérature, car je ne connais qu’Edgar Poe dans une
+          couleur d’images différente, pour avoir fait tenir dans quelques volumes de contes brefs
+          autant de vie et autant d’idées.</p>
+        <p>Personne plus que moi n’admire notre grand Léon Dierx, et n’est sensible à ses
+          magnifiques musiques verbales.</p>
+        <p>La gloire de Villiers de l’Isle-Adam date des symbolistes. Mais enfin le gros des œuvres
+          de ces maîtres était fait, nous n’avions pas à les imiter lorsque nous naquîmes
+          (littérairement parlant).</p>
+        <p>Je ne veux pas dire non plus que parmi les tenants de la technique parnassienne il n’y
+          avait pas, parmi les poètes encore dans la lutte, de très hauts talents. Ce serait
+          méconnaître la force, la fécondité et l’abondance variée de Catulle Mendès, oublier
+          Heredia et son souci du style et de la belle vision brève ; ignorer Gabriel Vicaire qui a
+          retrouvé aux gerbes de la chanson populaire française quelques frais bouquets de
+          bleuets !</p>
+        <p><pb n="10"/>Il y avait aussi ceux qu’on appelait les vivants : Jean Richepin, solide
+          rhétoriqueur, doué de tant de verve et de goût, Théocrite des gueux, Don César de Bazan
+          des bohèmes, dépenaillé d’or et de pourpre.</p>
+        <p>Mais la question n’était pas là ; ces beaux talents étaient isolés dans une masse
+          turbulente et grise.</p>
+        <p>Tous les jours l’homme qui bêche (celui qui travaille sur les couvertures des livres de
+          Lemerre) soulevait de terre des paniers de tessons de bouteilles rejetés des palais des
+          maîtres, et de ce verre cassé faisait des volumes de vers.</p>
         <p>Il y avait partout des poètes qui tous faisaient le même vers.</p>
-        <p>J’ai conté jadis qu’un très brave homme, qui n’était pas un lyrique énorme, Emmanuel des Essarts, en avait fait pour la gloire du Parnasse le dénombrement. Après avoir cité ceux de Paris en un long article, il énumérait dans un plus long article ceux de province.</p>
-        <p>Il y en avait dans toutes les villes ; on eût pu, grâce à lui, réviser <hi rend="i">le Dictionnaire des communes de France</hi> en ajoutant, après le nom de la ville <pb n="11"/>et de ses spécialités industrielles, le nom de son poète :</p>
+        <p>J’ai conté jadis qu’un très brave homme, qui n’était pas un lyrique énorme, Emmanuel des
+          Essarts, en avait fait pour la gloire du Parnasse le dénombrement. Après avoir cité ceux
+          de Paris en un long article, il énumérait dans un plus long article ceux de province.</p>
+        <p>Il y en avait dans toutes les villes ; on eût pu, grâce à lui, réviser <hi rend="i">le
+            Dictionnaire des communes de France</hi> en ajoutant, après le nom de la ville <pb
+            n="11"/>et de ses spécialités industrielles, le nom de son poète :</p>
         <p>Pithiviers, pâté d’alouettes : poète Jules Béor.</p>
         <p>Nevers, faïenceries : poète Achille Millien.</p>
         <p>Morcens, buffet célèbre : poète Evariste Carrance, etc., etc…</p>
-        <p>Les Parnassiens ont déclaré s’être ligués sur une technique volontaire et close par horreur des Lamartiniens, tout en admirant Lamartine.</p>
-        <p>Nous avions le même motif de haïr une technique tombée au pire chez les zélateurs ininspirés de Hugo, de Banville et de leurs amis.</p>
-        <p>Il y avait des Baudelairiens qui paraissaient ne connaître de Baudelaire que la charogne et travaillaient dans le nauséabond. Il y avait trop de Mussettistes-Mendésiens et d’Hugolâtres époumonnés. Il y avait trop d’imitations.</p>
-        <p>On a dit aussi que nous avons haï le naturalisme, ce qui est abusif. Nous savions fort bien quel était le génie d’Émile Zola, nous savions trouver une place dans nos admirations à côté de Flaubert indiscuté pour ces puissants travailleurs, ces stylistes éminents : les Goncourt ; nous <pb n="12"/>trouvions du bon aux Médanais, nous ne nous détournions que des plats copistes et des écrivains scatologiques.</p>
-        <p>Parmi les romanciers de talent, nous n’avions à nous plaindre que du seul Huysmans, qui fut d’ailleurs notre ami à tous. Mais cet homme de grande bonne foi, de parfaite bonne volonté, avait d’un seul coup fourni à nos adversaires, dans <hi rend="i">À rebours</hi>, d’après quelques aimables dilettantes, et surtout d’après son imagination tourmentée et grossissante, de quoi nous persifler longtemps.</p>
-        <p>Il avait accumulé sur un seul héros toutes les extravagances, les dandysmes, les manies, les afféteries qu’on allait nous reprocher à nous, soi-disant décadents, à nous les simples, les bons bûcheurs ou les bons flâneurs qui vivions bien tranquilles à l’instar de la plupart de nos aînés parnassiens : à la bibliothèque le jour, au café le soir.</p>
+        <p>Les Parnassiens ont déclaré s’être ligués sur une technique volontaire et close par
+          horreur des Lamartiniens, tout en admirant Lamartine.</p>
+        <p>Nous avions le même motif de haïr une technique tombée au pire chez les zélateurs
+          ininspirés de Hugo, de Banville et de leurs amis.</p>
+        <p>Il y avait des Baudelairiens qui paraissaient ne connaître de Baudelaire que la charogne
+          et travaillaient dans le nauséabond. Il y avait trop de Mussettistes-Mendésiens et
+          d’Hugolâtres époumonnés. Il y avait trop d’imitations.</p>
+        <p>On a dit aussi que nous avons haï le naturalisme, ce qui est abusif. Nous savions fort
+          bien quel était le génie d’Émile Zola, nous savions trouver une place dans nos admirations
+          à côté de Flaubert indiscuté pour ces puissants travailleurs, ces stylistes éminents : les
+          Goncourt ; nous <pb n="12"/>trouvions du bon aux Médanais, nous ne nous détournions que
+          des plats copistes et des écrivains scatologiques.</p>
+        <p>Parmi les romanciers de talent, nous n’avions à nous plaindre que du seul Huysmans, qui
+          fut d’ailleurs notre ami à tous. Mais cet homme de grande bonne foi, de parfaite bonne
+          volonté, avait d’un seul coup fourni à nos adversaires, dans <hi rend="i">À rebours</hi>,
+          d’après quelques aimables dilettantes, et surtout d’après son imagination tourmentée et
+          grossissante, de quoi nous persifler longtemps.</p>
+        <p>Il avait accumulé sur un seul héros toutes les extravagances, les dandysmes, les manies,
+          les afféteries qu’on allait nous reprocher à nous, soi-disant décadents, à nous les
+          simples, les bons bûcheurs ou les bons flâneurs qui vivions bien tranquilles à l’instar de
+          la plupart de nos aînés parnassiens : à la bibliothèque le jour, au café le soir.</p>
         <p>C’étaient les mêmes bibliothèques et les mêmes cafés.</p>
-        <p>Nous pardonnâmes à Huysmans, le mal n’était pas aussi grand qu’il en avait l’air ; car si l’on ne <pb n="13"/>nous avait taxé de cravatisme exaspéré on aurait trouvé quelque autre chose plus désobligeant encore pour éviter de discuter sérieusement avec nous. C’est le propre, d’ailleurs, des nouveautés d’art de déchaîner d’incompréhensibles tempêtes.</p>
-        <p>Cela est vrai pour tous les arts. Si l’on ne s’explique plus devant des Claude Monet ou des Renoir les rafales de rire des anciennes expositions d’impressionnistes, encore moins peut-on s’imaginer comment en 1875 des personnes amoureuses de musique se dirigeaient vers le Châtelet avec des sifflets quand on y devait donner la <hi rend="i">Danse macabre</hi>, comment <hi rend="i">Carmen</hi> échoua, comment jadis des hommes d’intelligence pratique réelle eurent horreur d’<hi rend="i">Hernani</hi>, comment Baudelaire scandalisa, comment Flaubert froissa ; et je ne cite que des nouveautés où l’élément d’art était le seul en question, admettant que le naturalisme fut d’abord discuté simplement au nom de la morale, et que le patriotisme seul amena les Parisiens à manifester contre <hi rend="i">Lohengrin</hi>… En tout cas, le jour de <hi rend="i">Tannhauser</hi> ils n’avaient encore d’autres raisons que l’<hi rend="i">horreur du nouveau</hi>.</p>
-        <p><pb n="14"/>Bref, pour l’historien littéraire qui considère un mouvement littéraire du passé, l’optique n’est pas la même que pour le contemporain.</p>
-        <p>Que dit à propos des novateurs le contemporain s’il est sérieux, vaste, pondéré, décoré, employé dans le régime, ou ce qui revient au même, quelque chose dans la haute opposition ? Il dit, il répète : « Tout s’en va, il n’y a rien, plus de style, plus de goût, plus de France, plus de tradition. »</p>
-        <p>Le novateur dit : « Mais la tradition c’est moi qui la maintiens, je vais essayer de le prouver. » Alors les esprits ouverts et conciliants, les témoins bienveillants, les sages qui ont du goût pour le passé et quelque tendresse vis-à-vis de l’avenir disent aux novateurs : « On a eu tort vis-à-vis de vous, on vous méconnaît ! mais ne craignez-vous pas d’aller un peu loin ! ne coupez pas la queue du chien éternel d’Alcibiade, soyez prudents, modérez-vous. Si vous continuez, vous aurez des torts… Eh, que diable, la tradition ! ça ne se bouscule pas ! »</p>
-        <p>Mais l’historien qui vingt ans après jette <pb n="15"/>un coup d’œil d’ensemble, qui fait rentrer dans ses catégories les uns et les autres, les Hugo et les Nisard, les Flaubert et les Pinard, les Berlioz et les Fétis, les Manet et les Albert Wolff, l’historien constate que les mouvements nouveaux furent moins nouveaux, moins artistes qu’ils ne le parurent, que presque toujours ils restent en route.</p>
-        <p>L’historien a du mal à s’expliquer pourquoi les novateurs n’allèrent pas plus loin, et surtout il s’explique difficilement l’acharnement de la résistance contre une nouveauté qui de loin apparaît comme l’aboutissement logique d’anciennes nouveautés, déjà devenues de la tradition.</p>
-        <p>Et non seulement les historiens quasi lointains constatent cette insuffisance des mouvements qui ne furent pas excessifs, mais encore ceux-là mêmes qui firent partie de ces mouvements.</p>
+        <p>Nous pardonnâmes à Huysmans, le mal n’était pas aussi grand qu’il en avait l’air ; car si
+          l’on ne <pb n="13"/>nous avait taxé de cravatisme exaspéré on aurait trouvé quelque autre
+          chose plus désobligeant encore pour éviter de discuter sérieusement avec nous. C’est le
+          propre, d’ailleurs, des nouveautés d’art de déchaîner d’incompréhensibles tempêtes.</p>
+        <p>Cela est vrai pour tous les arts. Si l’on ne s’explique plus devant des Claude Monet ou
+          des Renoir les rafales de rire des anciennes expositions d’impressionnistes, encore moins
+          peut-on s’imaginer comment en 1875 des personnes amoureuses de musique se dirigeaient vers
+          le Châtelet avec des sifflets quand on y devait donner la <hi rend="i">Danse macabre</hi>,
+          comment <hi rend="i">Carmen</hi> échoua, comment jadis des hommes d’intelligence pratique
+          réelle eurent horreur d’<hi rend="i">Hernani</hi>, comment Baudelaire scandalisa, comment
+          Flaubert froissa ; et je ne cite que des nouveautés où l’élément d’art était le seul en
+          question, admettant que le naturalisme fut d’abord discuté simplement au nom de la morale,
+          et que le patriotisme seul amena les Parisiens à manifester contre <hi rend="i"
+            >Lohengrin</hi>… En tout cas, le jour de <hi rend="i">Tannhauser</hi> ils n’avaient
+          encore d’autres raisons que l’<hi rend="i">horreur du nouveau</hi>.</p>
+        <p><pb n="14"/>Bref, pour l’historien littéraire qui considère un mouvement littéraire du
+          passé, l’optique n’est pas la même que pour le contemporain.</p>
+        <p>Que dit à propos des novateurs le contemporain s’il est sérieux, vaste, pondéré, décoré,
+          employé dans le régime, ou ce qui revient au même, quelque chose dans la haute
+          opposition ? Il dit, il répète : « Tout s’en va, il n’y a rien, plus de style, plus de
+          goût, plus de France, plus de tradition. »</p>
+        <p>Le novateur dit : « Mais la tradition c’est moi qui la maintiens, je vais essayer de le
+          prouver. » Alors les esprits ouverts et conciliants, les témoins bienveillants, les sages
+          qui ont du goût pour le passé et quelque tendresse vis-à-vis de l’avenir disent aux
+          novateurs : « On a eu tort vis-à-vis de vous, on vous méconnaît ! mais ne craignez-vous
+          pas d’aller un peu loin ! ne coupez pas la queue du chien éternel d’Alcibiade, soyez
+          prudents, modérez-vous. Si vous continuez, vous aurez des torts… Eh, que diable, la
+          tradition ! ça ne se bouscule pas ! »</p>
+        <p>Mais l’historien qui vingt ans après jette <pb n="15"/>un coup d’œil d’ensemble, qui fait
+          rentrer dans ses catégories les uns et les autres, les Hugo et les Nisard, les Flaubert et
+          les Pinard, les Berlioz et les Fétis, les Manet et les Albert Wolff, l’historien constate
+          que les mouvements nouveaux furent moins nouveaux, moins artistes qu’ils ne le parurent,
+          que presque toujours ils restent en route.</p>
+        <p>L’historien a du mal à s’expliquer pourquoi les novateurs n’allèrent pas plus loin, et
+          surtout il s’explique difficilement l’acharnement de la résistance contre une nouveauté
+          qui de loin apparaît comme l’aboutissement logique d’anciennes nouveautés, déjà devenues
+          de la tradition.</p>
+        <p>Et non seulement les historiens quasi lointains constatent cette insuffisance des
+          mouvements qui ne furent pas excessifs, mais encore ceux-là mêmes qui firent partie de ces
+          mouvements.</p>
         <p>Prenons un exemple d’un historien de la poésie et de la rythmique.</p>
-        <p>Ce n’est point moi le vers-libriste qui ai dit le premier que Victor Hugo dans sa libération du rythme n’avait pas été assez loin, c’est Banville, <pb n="16"/>le plus savant rythmeur qui nous vint du romantisme et qui enfantait le Parnasse pour qu’il ajoutât quelques observances nouvelles aux libertés édictées par Victor Hugo.</p>
-        <p>Et remarquez une nuance qui a son prix : Banville, publiant son <hi rend="i">Traité de poésie française</hi> rédigé vers 1878 alors que ses meilleurs recueils de vers ont paru, touche aux règles de son art avec une infinie prudence ; sa religion garde comme éclaireur fidèle son scepticisme. Il termine sa prosodie en donnant des exemples d’un mètre qu’il a quelques pages auparavant déclaré impossible. Sans doute, pendant le temps des épreuves il y essaya de nouveau et s’y satisfit. C’est dans un haut dessein qu’il publie son erreur éphémère et le démenti qu’il se donne ; c’est pour que les poètes parnassiens (il ne s’adresse pas à d’autres) qui le liront, sachent qu’il faut obéir aux règles dans leur esprit et non dans leur lettre ; c’est pour leur faire comprendre qu’il n’est point de règles immuables, <hi rend="i">que demain peut toujours bouleverser hier</hi>.</p>
-        <p>Son livre écrit de ce style diapré, qui rend <pb n="17"/>la lecture de Banville si charmante à tout poète garde pour nous en dehors de sa séduction de forme une haute valeur ; pour deux raisons : d’abord pour cette affirmation de liberté, qu’il faut qu’un nouveau poète détruise des barrières que Victor Hugo a laissées debout et par un conseil vrai inclus dans son chapitre <hi rend="i">l’Inversion</hi> et ainsi lapidaire : il n’en faut jamais.</p>
-        <p>C’est la base même de notre phrase poétique et de notre système de la strophe. Le vers français ne veut pas d’inversion, la strophe s’y refuse, car la strophe c’est la phrase, rien que la phrase, rien de plus rien de moins.</p>
-        <p>Si vous admettez l’inversion vous détruisez le rythme de la strophe qui doit, comme la phrase, donner au lecteur l’ordre des idées.</p>
-        <p>Pas d’inversion, voilà une grosse différence de construction entre la strophe ancienne et la strophe moderne.</p>
+        <p>Ce n’est point moi le vers-libriste qui ai dit le premier que Victor Hugo dans sa
+          libération du rythme n’avait pas été assez loin, c’est Banville, <pb n="16"/>le plus
+          savant rythmeur qui nous vint du romantisme et qui enfantait le Parnasse pour qu’il
+          ajoutât quelques observances nouvelles aux libertés édictées par Victor Hugo.</p>
+        <p>Et remarquez une nuance qui a son prix : Banville, publiant son <hi rend="i">Traité de
+            poésie française</hi> rédigé vers 1878 alors que ses meilleurs recueils de vers ont
+          paru, touche aux règles de son art avec une infinie prudence ; sa religion garde comme
+          éclaireur fidèle son scepticisme. Il termine sa prosodie en donnant des exemples d’un
+          mètre qu’il a quelques pages auparavant déclaré impossible. Sans doute, pendant le temps
+          des épreuves il y essaya de nouveau et s’y satisfit. C’est dans un haut dessein qu’il
+          publie son erreur éphémère et le démenti qu’il se donne ; c’est pour que les poètes
+          parnassiens (il ne s’adresse pas à d’autres) qui le liront, sachent qu’il faut obéir aux
+          règles dans leur esprit et non dans leur lettre ; c’est pour leur faire comprendre qu’il
+          n’est point de règles immuables, <hi rend="i">que demain peut toujours bouleverser
+            hier</hi>.</p>
+        <p>Son livre écrit de ce style diapré, qui rend <pb n="17"/>la lecture de Banville si
+          charmante à tout poète garde pour nous en dehors de sa séduction de forme une haute
+          valeur ; pour deux raisons : d’abord pour cette affirmation de liberté, qu’il faut qu’un
+          nouveau poète détruise des barrières que Victor Hugo a laissées debout et par un conseil
+          vrai inclus dans son chapitre <hi rend="i">l’Inversion</hi> et ainsi lapidaire : il n’en
+          faut jamais.</p>
+        <p>C’est la base même de notre phrase poétique et de notre système de la strophe. Le vers
+          français ne veut pas d’inversion, la strophe s’y refuse, car la strophe c’est la phrase,
+          rien que la phrase, rien de plus rien de moins.</p>
+        <p>Si vous admettez l’inversion vous détruisez le rythme de la strophe qui doit, comme la
+          phrase, donner au lecteur l’ordre des idées.</p>
+        <p>Pas d’inversion, voilà une grosse différence de construction entre la strophe ancienne et
+          la strophe moderne.</p>
         <p>Il en est d’autres.</p>
-        <p>Mais je sens que je deviens bien technique, d’ailleurs il le faut, et pour ne l’être qu’un instant dans la soirée, je vais vous demander la <pb n="18"/>permission d’être pendant cinq ou six minutes très ennuyeux.</p>
+        <p>Mais je sens que je deviens bien technique, d’ailleurs il le faut, et pour ne l’être
+          qu’un instant dans la soirée, je vais vous demander la <pb n="18"/>permission d’être
+          pendant cinq ou six minutes très ennuyeux.</p>
         <p>Après, le plus tôt possible, nous passerons à l’audition des poèmes.</p>
-        <p>Quoique résolu à vous en expliquer l’esthétique, je pense que seuls les poèmes ont qualité pour y bien réussir.</p>
-        <p>J’entre donc dans le détail théorique et pour ce faire je vous citerai ce que je publiais sur la question en 1888 dans <hi rend="i">la Revue Indépendante</hi><note resp="author">Voir aussi la préface de mes <hi rend="i">Premiers Poèmes</hi>, éd. du <hi rend="i">Mercure de France</hi>.</note> :</p>
+        <p>Quoique résolu à vous en expliquer l’esthétique, je pense que seuls les poèmes ont
+          qualité pour y bien réussir.</p>
+        <p>J’entre donc dans le détail théorique et pour ce faire je vous citerai ce que je publiais
+          sur la question en 1888 dans <hi rend="i">la Revue Indépendante</hi><note resp="author"
+            >Voir aussi la préface de mes <hi rend="i">Premiers Poèmes</hi>, éd. du <hi rend="i"
+              >Mercure de France</hi>.</note> :</p>
         <quote>
-          <p>« Il faut bien admettre que, ainsi des mœurs et des modes, les formes poétiques se développent et meurent, qu’elles évoluent d’une liberté initiale à un dessèchement, puis à une inutile virtuosité ; et qu’alors elles disparaissent devant l’effort des nouveaux lettrés préoccupés, ceux-ci, d’une pensée plus complexe, par conséquent plus difficile à rendre au moyen de formules d’avance circonscrites et fermées.</p>
-          <p>On sait aussi qu’après avoir trop servi les formes <pb n="19"/>demeurent comme effacées ; leur effet primitif est perdu, et les écrivains capables de les renouveler considèrent comme inutile de se soumettre à des règles dont ils savent l’origine empirique et les débilités. Ceci est vrai pour l’évolution de tous les arts en tous les temps. Il n’y a aucune raison pour que cette vérité s’infirme en 1888, car notre époque ne paraît nullement la période d’apogée du développement intellectuel. Ceci dit pour établir la légitimité d’un effort vers une nouvelle forme de poésie.</p>
+          <p>« Il faut bien admettre que, ainsi des mœurs et des modes, les formes poétiques se
+            développent et meurent, qu’elles évoluent d’une liberté initiale à un dessèchement, puis
+            à une inutile virtuosité ; et qu’alors elles disparaissent devant l’effort des nouveaux
+            lettrés préoccupés, ceux-ci, d’une pensée plus complexe, par conséquent plus difficile à
+            rendre au moyen de formules d’avance circonscrites et fermées.</p>
+          <p>On sait aussi qu’après avoir trop servi les formes <pb n="19"/>demeurent comme
+            effacées ; leur effet primitif est perdu, et les écrivains capables de les renouveler
+            considèrent comme inutile de se soumettre à des règles dont ils savent l’origine
+            empirique et les débilités. Ceci est vrai pour l’évolution de tous les arts en tous les
+            temps. Il n’y a aucune raison pour que cette vérité s’infirme en 1888, car notre époque
+            ne paraît nullement la période d’apogée du développement intellectuel. Ceci dit pour
+            établir la légitimité d’un effort vers une nouvelle forme de poésie.</p>
           <p>Comment cet effort fut-il conçu ? brièvement, voici :</p>
-          <p>Il fallait d’abord comprendre la vérité profonde des tentatives antérieures et se demander pourquoi les poètes s’étaient bornés dans leurs essais de réforme. Or, il appert que si la poésie marche très lentement dans la voie de l’émancipation c’est qu’on a négligé de s’enquérir de son unité principale (analogue de l’élément organique) et que si on perçut quelquefois cette unité élémentaire, on négligea de s’y arrêter et même d’en profiter. Ainsi les romantiques, pour augmenter <pb n="20"/>les moyens d’expression de l’alexandrin ou plus généralement des vers à jeu de syllabes pairs, inventèrent le rejet qui consiste en un trompe-l’œil transmutant deux vers de douze pieds en un vers de quatorze ou quinze et un de neuf ou dix. Il y a là dissonance et bien résolution de la dissonance. Mais s’ils avaient cherché à analyser le vers classique, avant de se précipiter sur n’importe quel moyen de le varier, ils eussent vu que dans le distique :</p>
-          <p/>
-          <l>    Oui, je viens dans son temple adorer l’Éternel,</l>
-          <l>    Je viens selon l’usage antique et solennel</l>
-          <p>le premier vers se compose de deux vers de six pieds dont le premier est un vers blanc</p>
-          <p/>
-          <l>               Oui, je viens dans son temple</l>
-          <p/>
+          <p>Il fallait d’abord comprendre la vérité profonde des tentatives antérieures et se
+            demander pourquoi les poètes s’étaient bornés dans leurs essais de réforme. Or, il
+            appert que si la poésie marche très lentement dans la voie de l’émancipation c’est qu’on
+            a négligé de s’enquérir de son unité principale (analogue de l’élément organique) et que
+            si on perçut quelquefois cette unité élémentaire, on négligea de s’y arrêter et même
+            d’en profiter. Ainsi les romantiques, pour augmenter <pb n="20"/>les moyens d’expression
+            de l’alexandrin ou plus généralement des vers à jeu de syllabes pairs, inventèrent le
+            rejet qui consiste en un trompe-l’œil transmutant deux vers de douze pieds en un vers de
+            quatorze ou quinze et un de neuf ou dix. Il y a là dissonance et bien résolution de la
+            dissonance. Mais s’ils avaient cherché à analyser le vers classique, avant de se
+            précipiter sur n’importe quel moyen de le varier, ils eussent vu que dans le
+            distique :</p>
+          <quote><l>Oui, je viens dans son temple adorer l’Éternel,</l>
+            <l>Je viens selon l’usage antique et solennel</l></quote>
+          <p>le premier vers se compose de deux vers de six pieds dont le premier est un vers
+            blanc</p>
+          <quote><l part="I">Oui, je viens dans son temple</l></quote>
           <p>et dont l’autre</p>
-          <p/>
-          <p>                         adorer l’Éternel</p>
-          <p/>
-          <p>serait également blanc, si, par habitude, on n’était sûr de trouver la rime au vers suivant,  c’est-à-dire <pb n="21"/>au quatrième des vers de six pieds groupés en un distique.</p>
-          <p>Donc à premier examen ce distique se compose de quatre vers de six pieds dont deux seulement riment. Si l’on pousse plus loin l’investigation on découvre que les vers sont ainsi scandés</p>
-          <p/>
-          <l>          3                          3                     3                3</l>
-          <l>Oui je viens — dans son temple — adorer — l’Éternel</l>
-          <l>     2                   4                      2                    4</l>
-          <l>Je viens — selon l’usage — antique — et solennel</l>
-          <p/>
-          <p>soit un premier vers composé de quatre éléments de trois pieds ternaires, et un second vers scandé 2, 4, 2, 4. — Il est évident que tout grand poète ayant perçu d’une façon plus ou moins théorique les conditions élémentaires du vers, Racine a empiriquement ou instinctivement appliqué les règles fondamentales et nécessaires de la poésie et que c’est selon notre théorie que ses vers doivent se scander. La question de césure, chez les maîtres de la poésie classique, ne se pose même pas<note resp="author">Ce fut Boileau qui la posa.</note>.</p>
-          <p><pb n="22"/>Dans les vers précités, l’unité vraie n’est pas le <hi rend="i">nombre</hi> conventionnel du vers, mais un arrêt simultané du sens et du rythme sur toute fraction organique du vers et de la pensée. Cette unité consiste en un nombre ou rythme de voyelles et de consonnes qui sont cellule organique et indépendante. Il en résulte que les libertés romantiques, dont l’exagération (plaisante) se trouverait dans des vers comme ceux-ci</p>
-          <p/>
-          <l>                   les demoiselles chez Ozy</l>
-          <l>                               menées</l>
-          <l>                   ne doivent plus songer aux hy-</l>
-          <l>                               ménées</l>
-          <p/>
-          <p>sont fausses dans leur intention, parce qu’ils comportent un arrêt pour l’oreille que ne motive aucun arrêt du sens.</p>
-          <p>L’unité du vers peut se définir encore : un fragment le plus court possible figurant un arrêt de voix et un arrêt de sens.</p>
-          <p>Pour assembler ces unités et leur donner la cohésion de façon qu’elles forment un vers il les faut apparenter. Les parentés s’appellent allitérations, <pb n="23"/>soit union de consonnes parentes ou assonances par des voyelles similaires. On obtient par assonances et allitérations des vers comme celui-ci :</p>
-          <p/>
-          <l>Des mirages | de leur visage | garde | le lac | de mes yeux.</l>
-          <p/>
-          <p>Tandis que le vers classique ou romantique n’existe qu’à la condition d’être suivi d’un second vers, ou d’y correspondre à brève distance, ce vers pris comme exemple possède son existence propre et intérieure. Comment l’apparenter à d’autres vers ? par la construction logique de la strophe se constituant d’après les mesures intérieures du vers qui dans cette strophe contient la pensée principale ou le point essentiel de la pensée.</p>
-          <p>Ce que j’aurais à dire sur l’emploi des strophes fixes, soit les plus anciennes, et des strophes libres serait la répétition de ce que je viens d’énoncer à propos du vers fixe ; il est aussi inutile de s’astreindre au sonnet ou à la ballade traditionnels <pb n="24"/>que de s’astreindre aux divisions empiriques du vers.</p>
-          <p>L’importance de cette technique nouvelle, en dehors de la mise en valeur d’harmonies forcément négligées, sera de permettre à tout poète de concevoir en lui son vers ou plutôt sa strophe originale, et d’écrire son rythme propre et individuel au lieu d’endosser un uniforme taillé d’avance et qui le réduit à n’être que l’élève de tel glorieux prédécesseur.</p>
-          <p>D’ailleurs employer les ressources de l’ancienne poétique reste souvent loisible. Cette poétique possède sa valeur et la conserve en tant que cas particulier de la nouvelle comme celle-ci est destinée à n’être plus tard qu’un cas particulier d’une poétique plus générale ; l’ancienne poésie différait de la prose par une certaine ordonnance ; la nouvelle voudrait s’en différencier par la musique, il se peut très bien qu’en une poésie libre on trouve des alexandrins et des strophes en alexandrins, mais alors ils sont en leur place sans exclusion de rythmes plus complexes… »</p>
+          <quote><l part="F">                         adorer l’Éternel</l></quote>
+          <p>serait également blanc, si, par habitude, on n’était sûr de trouver la rime au vers
+            suivant, c’est-à-dire <pb n="21"/>au quatrième des vers de six pieds groupés en un
+            distique.</p>
+          <p>Donc à premier examen ce distique se compose de quatre vers de six pieds dont deux
+            seulement riment. Si l’on pousse plus loin l’investigation on découvre que les vers sont
+            ainsi scandés</p>
+          <quote><l>          3                          3                     3                3</l>
+            <l>Oui je viens — dans son temple — adorer — l’Éternel</l>
+            <l>     2                   4                      2                    4</l>
+            <l>Je viens — selon l’usage — antique — et solennel</l></quote>
+          <p>soit un premier vers composé de quatre éléments de trois pieds ternaires, et un second
+            vers scandé 2, 4, 2, 4. — Il est évident que tout grand poète ayant perçu d’une façon
+            plus ou moins théorique les conditions élémentaires du vers, Racine a empiriquement ou
+            instinctivement appliqué les règles fondamentales et nécessaires de la poésie et que
+            c’est selon notre théorie que ses vers doivent se scander. La question de césure, chez
+            les maîtres de la poésie classique, ne se pose même pas<note resp="author">Ce fut
+              Boileau qui la posa.</note>.</p>
+          <p><pb n="22"/>Dans les vers précités, l’unité vraie n’est pas le <hi rend="i">nombre</hi>
+            conventionnel du vers, mais un arrêt simultané du sens et du rythme sur toute fraction
+            organique du vers et de la pensée. Cette unité consiste en un nombre ou rythme de
+            voyelles et de consonnes qui sont cellule organique et indépendante. Il en résulte que
+            les libertés romantiques, dont l’exagération (plaisante) se trouverait dans des vers
+            comme ceux-ci</p>
+          <quote rend="center"><l>les demoiselles chez Ozy</l>
+            <l>menées</l>
+            <l>ne doivent plus songer aux hy-</l>
+            <l>ménées</l></quote>
+          <p>sont fausses dans leur intention, parce qu’ils comportent un arrêt pour l’oreille que
+            ne motive aucun arrêt du sens.</p>
+          <p>L’unité du vers peut se définir encore : un fragment le plus court possible figurant un
+            arrêt de voix et un arrêt de sens.</p>
+          <p>Pour assembler ces unités et leur donner la cohésion de façon qu’elles forment un vers
+            il les faut apparenter. Les parentés s’appellent allitérations, <pb n="23"/>soit union
+            de consonnes parentes ou assonances par des voyelles similaires. On obtient par
+            assonances et allitérations des vers comme celui-ci :</p>
+          <quote><l>Des mirages | de leur visage | garde | le lac | de mes yeux.</l></quote>
+          <p>Tandis que le vers classique ou romantique n’existe qu’à la condition d’être suivi d’un
+            second vers, ou d’y correspondre à brève distance, ce vers pris comme exemple possède
+            son existence propre et intérieure. Comment l’apparenter à d’autres vers ? par la
+            construction logique de la strophe se constituant d’après les mesures intérieures du
+            vers qui dans cette strophe contient la pensée principale ou le point essentiel de la
+            pensée.</p>
+          <p>Ce que j’aurais à dire sur l’emploi des strophes fixes, soit les plus anciennes, et des
+            strophes libres serait la répétition de ce que je viens d’énoncer à propos du vers
+            fixe ; il est aussi inutile de s’astreindre au sonnet ou à la ballade traditionnels <pb
+              n="24"/>que de s’astreindre aux divisions empiriques du vers.</p>
+          <p>L’importance de cette technique nouvelle, en dehors de la mise en valeur d’harmonies
+            forcément négligées, sera de permettre à tout poète de concevoir en lui son vers ou
+            plutôt sa strophe originale, et d’écrire son rythme propre et individuel au lieu
+            d’endosser un uniforme taillé d’avance et qui le réduit à n’être que l’élève de tel
+            glorieux prédécesseur.</p>
+          <p>D’ailleurs employer les ressources de l’ancienne poétique reste souvent loisible. Cette
+            poétique possède sa valeur et la conserve en tant que cas particulier de la nouvelle
+            comme celle-ci est destinée à n’être plus tard qu’un cas particulier d’une poétique plus
+            générale ; l’ancienne poésie différait de la prose par une certaine ordonnance ; la
+            nouvelle voudrait s’en différencier par la musique, il se peut très bien qu’en une
+            poésie libre on trouve des alexandrins et des strophes en alexandrins, mais alors ils
+            sont en leur place sans exclusion de rythmes plus complexes… »</p>
         </quote>
-        <p>Nous avons bien en français un accent tonique ; <pb n="25"/>mais il est faible et cela tient à l’amalgame que fit Paris des prononciations excessives et différentes des provinces, les usant pour en constituer une langue modérée, calme, juste milieu, quant au retentissement des consonnes et au chant des voyelles, neutre de préférence à bariolée. Cet accent tonique, qu’on pourrait relever dans les mots, en les laissant immobiles, soit en les citant à la file, en exemples, disparaît à la conversation, à la déclamation, ou mieux, il ne disparaît point, mais se modifie. Il y a donc un accent général qui, dans la conversation ou la déclamation, dirige toute une période, ou toute une strophe, y fixe la longueur des valeurs auditives, ainsi que les timbres des mots. Cet accent semblable chez tout le monde, en ce sens que chaque passion, chez tous, produit à peu près le même phénomène, accélération ou ralentissement, semblable au moins en son essence, cet accent est communiqué aux mots, par le sentiment qui agite le causeur ou le poète, uniquement, sans souci d’accent tonique ou de n’importe quelle valeur fixe qu’ils possédaient en <pb n="26"/>eux-mêmes. Cet <hi rend="i">accent d’impulsion</hi> dirige l’harmonie du vers principal de la strophe, ou d’un vers initial qui donne le mouvement, et les autres vers, à moins qu’on ne recherche un effet de contraste, se doivent modeler sur les valeurs de ce vers telles que les a fixées l’accent d’impulsion. C’est cette loi fondamentale que MM. Mockel et de Souza ont discernée à leur tour, en étudiant le rythme poétique et qu’ils dénomment l’accent oratoire.</p>
-        <p>Une autre différence entre la sonorité du vers régulier et du vers nouveau découle de la façon différente dont on y évalue les <hi rend="i">e</hi> muets. Le vers régulier compte l’<hi rend="i">e</hi> à valeur entière quoiqu’il ne s’y prononce point tout à fait, sauf à la fin d’un vers. Pour nous, qui considérons, non la finale rimée, mais les divers éléments assonancés et allitérés qui constituent le vers, nous n’avons aucune raison de ne pas le considérer comme finale de chaque élément et de le scander alors, comme à la fin d’un vers régulier. Qu’on veuille bien remarquer que, sauf le cas d’élision, cet élément, l’<hi rend="i">e</hi> muet, ne disparaît jamais même à la <pb n="27"/>fin du vers ; on l’entend fort peu, mais on l’entend. Il nous paraît donc plausible de le scander, en le considérant entre les syllabes environnantes comme un simple intervalle, et en cela nous sommes d’accord avec la déclamation instinctive du langage qui est la vraie base de la rythmique, et même la constitue dès qu’elle se met d’accord avec l’accent d’impulsion qui est son élément de variation, et l’intonation poétique, subordonnée à l’accent d’impulsion, accent et intonation qui comptent, puisque le vers et la strophe sont tout ou partie de phrase chantée et sont de la parole avant d’être une ligne écrite.</p>
-        <p>En vertu de notre définition, tous les artifices typographiques utilisés pour l’homologation de deux vers (rime pour l’œil) sont d’un coup écartés. Le poète parle et écrit pour l’oreille et non pour les yeux, de là une des modifications que nous faisons subir à la rime, et un de nos principaux, désaccords d’avec Banville, car notre conception du vers logiquement mais mobilement vertébré nous écarte tout de suite et sans discussion de cet axiome <quote>« qu’on n’entend dans le vers que le <pb n="28"/>mot qui est la rime »</quote>. Il est vrai que Banville possédait une façon féerique et charmante de dire les choses, qui enlève de la rigueur à ses axiomes, surtout quand il les formule si nets et si courts ; quand il est certain d’avoir enclos une loi scientifique dans la brièveté d’un verset de décalogue, c’est le plus souvent un trait heureux qu’il nous a donné. C’est ici le cas. Je veux bien que l’auditeur bercé par un grand discours en vers, surtout déclamé au théâtre par des gens qui disent mal, se raccroche aux rimes, pour distinguer si l’on entend des vers ou de la prose, et c’est vrai pour le vers pseudo-classique. Un continuateur de Banville pourrait m’objecter qu’avec le vers libre la difficulté ne fait que changer et que l’aphorisme de Banville demeure entier : soit : si le vers pseudo-classique ou le vers romantique faible ne se distingue que par la rime, et peut être confondu avec de la prose, le vers libre, plus flottant, pourra être confondu avec une prose poétique, rythmée et nombrée, avec une sorte de musique. Qu’on en convienne, cela serait déjà mieux, et remplirait davantage notre <pb n="29"/>but. D’ailleurs nous ne proscrivons pas la rime ; nous la libérons, nous la réduisons parfois et volontiers à l’assonance ; nous évitons le coup de cymbale à la fin du vers, trop prévu, mais nous soutenons notre rime telle quelle par des assonances, nous plaçons des rimes complètes, à l’intérieur d’un vers correspondant à d’autres rimes intérieures, partout où la rythmique nous convie à les placer, la rythmique fidèle au sens et non la symétrie, ou, si vous voulez, une symétrie plus compliquée que l’ordinaire.</p>
-        <p>La rime et l’assonance doivent donc être des plus mobiles, soit que le poème soit conçu en strophes fermées, ou qu’on utilise la formule dénommée depuis laisse rythmique ou parfois strophe analytique dont le premier exemple se trouve dans les <hi rend="i">Palais Nomades</hi>, celle qui se rapproche le plus des discours classiques, la plus propre à un long énoncé de sentiments, ou bien qu’on emploie la brève évocation des lieds.</p>
-        <p>Nous ne distinguerons pas d’autres modules de strophes. Le vers libre est essentiellement mobile et ne doit point codifier de strophes. C’est <pb n="30"/>l’accent d’impulsion et son appropriation à l’importance, à la durée du sentiment évoqué, ou de la sensation à traduire qui en est la déterminante.</p>
-        <p>Les poètes du vers libre ne doivent point calquer leurs strophes sur celles dont ils se sont donnés eux-mêmes le modèle. Évidemment à mouvement semblable, strophe semblable, mais la règle ne doit pas aller plus loin, elle doit être élastique et flexible.</p>
-        <p>Un mot encore sur la technique. Des grands vers dépassent le nombre de douze syllabes ; et pourquoi pas ? Pourquoi la durée serait-elle restreinte à douze, à quatorze syllabes ? Sans admettre que le vers devienne un verset complet, et là le goût et l’oreille sont suffisants pour avertir le poète, on peut grouper en un seul vers trois ou quatre éléments ayant intérêt à ce que leur jaillissement soit resserré. Le vers obtient ainsi une valeur résumante, analogue à celle du dernier vers de la terza rima, mais plus réel, plus obtenu au moyen du vers même, sans ressource empruntée à la typographie, ou au point d’orgue de la terminaison <pb n="31"/>de poème. Évidemment il y aurait bien des menues difficultés à élucider, mais ce serait une prosodie, et je n’en veux point faire une ici.</p>
+        <p>Nous avons bien en français un accent tonique ; <pb n="25"/>mais il est faible et cela
+          tient à l’amalgame que fit Paris des prononciations excessives et différentes des
+          provinces, les usant pour en constituer une langue modérée, calme, juste milieu, quant au
+          retentissement des consonnes et au chant des voyelles, neutre de préférence à bariolée.
+          Cet accent tonique, qu’on pourrait relever dans les mots, en les laissant immobiles, soit
+          en les citant à la file, en exemples, disparaît à la conversation, à la déclamation, ou
+          mieux, il ne disparaît point, mais se modifie. Il y a donc un accent général qui, dans la
+          conversation ou la déclamation, dirige toute une période, ou toute une strophe, y fixe la
+          longueur des valeurs auditives, ainsi que les timbres des mots. Cet accent semblable chez
+          tout le monde, en ce sens que chaque passion, chez tous, produit à peu près le même
+          phénomène, accélération ou ralentissement, semblable au moins en son essence, cet accent
+          est communiqué aux mots, par le sentiment qui agite le causeur ou le poète, uniquement,
+          sans souci d’accent tonique ou de n’importe quelle valeur fixe qu’ils possédaient en <pb
+            n="26"/>eux-mêmes. Cet <hi rend="i">accent d’impulsion</hi> dirige l’harmonie du vers
+          principal de la strophe, ou d’un vers initial qui donne le mouvement, et les autres vers,
+          à moins qu’on ne recherche un effet de contraste, se doivent modeler sur les valeurs de ce
+          vers telles que les a fixées l’accent d’impulsion. C’est cette loi fondamentale que
+          MM. Mockel et de Souza ont discernée à leur tour, en étudiant le rythme poétique et qu’ils
+          dénomment l’accent oratoire.</p>
+        <p>Une autre différence entre la sonorité du vers régulier et du vers nouveau découle de la
+          façon différente dont on y évalue les <hi rend="i">e</hi> muets. Le vers régulier compte
+            l’<hi rend="i">e</hi> à valeur entière quoiqu’il ne s’y prononce point tout à fait, sauf
+          à la fin d’un vers. Pour nous, qui considérons, non la finale rimée, mais les divers
+          éléments assonancés et allitérés qui constituent le vers, nous n’avons aucune raison de ne
+          pas le considérer comme finale de chaque élément et de le scander alors, comme à la fin
+          d’un vers régulier. Qu’on veuille bien remarquer que, sauf le cas d’élision, cet élément,
+            l’<hi rend="i">e</hi> muet, ne disparaît jamais même à la <pb n="27"/>fin du vers ; on
+          l’entend fort peu, mais on l’entend. Il nous paraît donc plausible de le scander, en le
+          considérant entre les syllabes environnantes comme un simple intervalle, et en cela nous
+          sommes d’accord avec la déclamation instinctive du langage qui est la vraie base de la
+          rythmique, et même la constitue dès qu’elle se met d’accord avec l’accent d’impulsion qui
+          est son élément de variation, et l’intonation poétique, subordonnée à l’accent
+          d’impulsion, accent et intonation qui comptent, puisque le vers et la strophe sont tout ou
+          partie de phrase chantée et sont de la parole avant d’être une ligne écrite.</p>
+        <p>En vertu de notre définition, tous les artifices typographiques utilisés pour
+          l’homologation de deux vers (rime pour l’œil) sont d’un coup écartés. Le poète parle et
+          écrit pour l’oreille et non pour les yeux, de là une des modifications que nous faisons
+          subir à la rime, et un de nos principaux, désaccords d’avec Banville, car notre conception
+          du vers logiquement mais mobilement vertébré nous écarte tout de suite et sans discussion
+          de cet axiome <quote>« qu’on n’entend dans le vers que le <pb n="28"/>mot qui est la
+            rime »</quote>. Il est vrai que Banville possédait une façon féerique et charmante de
+          dire les choses, qui enlève de la rigueur à ses axiomes, surtout quand il les formule si
+          nets et si courts ; quand il est certain d’avoir enclos une loi scientifique dans la
+          brièveté d’un verset de décalogue, c’est le plus souvent un trait heureux qu’il nous a
+          donné. C’est ici le cas. Je veux bien que l’auditeur bercé par un grand discours en vers,
+          surtout déclamé au théâtre par des gens qui disent mal, se raccroche aux rimes, pour
+          distinguer si l’on entend des vers ou de la prose, et c’est vrai pour le vers
+          pseudo-classique. Un continuateur de Banville pourrait m’objecter qu’avec le vers libre la
+          difficulté ne fait que changer et que l’aphorisme de Banville demeure entier : soit : si
+          le vers pseudo-classique ou le vers romantique faible ne se distingue que par la rime, et
+          peut être confondu avec de la prose, le vers libre, plus flottant, pourra être confondu
+          avec une prose poétique, rythmée et nombrée, avec une sorte de musique. Qu’on en
+          convienne, cela serait déjà mieux, et remplirait davantage notre <pb n="29"/>but.
+          D’ailleurs nous ne proscrivons pas la rime ; nous la libérons, nous la réduisons parfois
+          et volontiers à l’assonance ; nous évitons le coup de cymbale à la fin du vers, trop
+          prévu, mais nous soutenons notre rime telle quelle par des assonances, nous plaçons des
+          rimes complètes, à l’intérieur d’un vers correspondant à d’autres rimes intérieures,
+          partout où la rythmique nous convie à les placer, la rythmique fidèle au sens et non la
+          symétrie, ou, si vous voulez, une symétrie plus compliquée que l’ordinaire.</p>
+        <p>La rime et l’assonance doivent donc être des plus mobiles, soit que le poème soit conçu
+          en strophes fermées, ou qu’on utilise la formule dénommée depuis laisse rythmique ou
+          parfois strophe analytique dont le premier exemple se trouve dans les <hi rend="i">Palais
+            Nomades</hi>, celle qui se rapproche le plus des discours classiques, la plus propre à
+          un long énoncé de sentiments, ou bien qu’on emploie la brève évocation des lieds.</p>
+        <p>Nous ne distinguerons pas d’autres modules de strophes. Le vers libre est essentiellement
+          mobile et ne doit point codifier de strophes. C’est <pb n="30"/>l’accent d’impulsion et
+          son appropriation à l’importance, à la durée du sentiment évoqué, ou de la sensation à
+          traduire qui en est la déterminante.</p>
+        <p>Les poètes du vers libre ne doivent point calquer leurs strophes sur celles dont ils se
+          sont donnés eux-mêmes le modèle. Évidemment à mouvement semblable, strophe semblable, mais
+          la règle ne doit pas aller plus loin, elle doit être élastique et flexible.</p>
+        <p>Un mot encore sur la technique. Des grands vers dépassent le nombre de douze syllabes ;
+          et pourquoi pas ? Pourquoi la durée serait-elle restreinte à douze, à quatorze syllabes ?
+          Sans admettre que le vers devienne un verset complet, et là le goût et l’oreille sont
+          suffisants pour avertir le poète, on peut grouper en un seul vers trois ou quatre éléments
+          ayant intérêt à ce que leur jaillissement soit resserré. Le vers obtient ainsi une valeur
+          résumante, analogue à celle du dernier vers de la terza rima, mais plus réel, plus obtenu
+          au moyen du vers même, sans ressource empruntée à la typographie, ou au point d’orgue de
+          la terminaison <pb n="31"/>de poème. Évidemment il y aurait bien des menues difficultés à
+          élucider, mais ce serait une prosodie, et je n’en veux point faire une ici.</p>
         <p>D’ailleurs faut-il une prosodie ?</p>
-        <p>Oui, sans doute, pour se conformer aux usages et se cramponner (c’est notre devoir) à la tradition.</p>
+        <p>Oui, sans doute, pour se conformer aux usages et se cramponner (c’est notre devoir) à la
+          tradition.</p>
         <p>Mais la faut-il tout de suite ?</p>
-        <p>Peut-être que non ! on ne saurait dire le plus tard possible, mais pourtant on en aurait bien envie. Il semble qu’une prosodie complète bien faite serait lourde à porter. En tout cas, ne nous dissimulons pas qu’elle serait fort difficile à faire, car les cas de rythmique, choisis déjà dans la langue par les vers-libristes, sont nombreux, il en est de ténus, de délicats, il en est d’éphémères. La poésie traditionnelle a créé une foule de rapports constants, qui sont justement de par là-même, tantôt exacts, tantôt trop accusés, et deviennent brutaux et tyranniques. Cet aspect de zinc d’art qu’on prend ou qu’on veut faire prendre souvent pour du marbre (<quote>« marbre, airain, pureté, montrez voir ? »</quote> disent Vildrac et <pb n="32"/>Duhamel) tient à cette exagération de l’emploi de moyens constamment employés ; à cette utilisation hors de propos d’une ressource utile dans un cas particulier, et à cette utilisation répétée tient cet aspect de littérature à bras tendu et à bras fatigué qu’offre trop souvent le poème en vers réguliers et surtout à strophes fixes. Il serait bon que nous demeurions encore quelque temps très libres, sans lisières ; on n’en a pas besoin. Donc pas encore de prosodie, à peine une poétique, et mieux encore, simplement, des réflexions personnelles sur la technique. Je sens bien qu’en fin de compte il faudra faire une prosodie, mais ne sera-ce point plutôt pour répondre à des objections, pour convaincre des adversaires, pour la propagande pour ainsi dire !</p>
-        <p>Ce n’est point que je ne saisisse l’intérêt et le mérite des efforts tentés pour expliquer scientifiquement le vers libre. Dès les premiers jours, forts de la vérité de l’instinct lyrique, nous avons dit que les travaux de laboratoire donneraient raison à nos théories, et l’on ne peut que savoir gré à Robert de Souza de son application à en <pb n="33"/>essayer la laborieuse confirmation. Sur ce terrain même, on verra certainement avec le temps, se produire d’autres recherches, d’autres comparaisons, d’autres études de scansion. Tous ces efforts partiels tentés scientifiquement convergeront à justifier la dernière synthèse du rythme poétique.</p>
-        <p>Peut-être cela se produira-t-il assez rapidement ! On ne le saurait prévoir. Mais il y a intérêt à ce que parmi les poètes, surtout parmi les plus jeunes, ceux qui ayant trouvé le vers libre installé, et vis-à-vis de lui, en excellente posture, la réaction parnassienne, ou le Parnasse renouvelé et progressiste (comme vous voudrez) qu’on lui opposait, quelques-uns des plus doués aient choisi le vers libre.</p>
-        <p>Ils s’en sont donné des raisons. Ils l’ont fait à leurs risques et périls, très consciemment, car on ne renonce pas sans motifs à tous les menus avantages, à toutes les facilités d’accès, à toutes les primes dont bénéficient les poètes à vers obstinément réguliers. Ces jeunes écrivains sont donc très intéressants à consulter de ce chef et <pb n="34"/>c’est une excellente initiative qu’ont prise Vildrac et Duhamel de nous renseigner sur ce qu’ils trouvent de bon chez les premiers vers-libristes, et de nous indiquer non seulement comment ils les comprennent, mais ce qu’ils y ajoutent et quelle est pour eux la suite logique du principe.</p>
-        <p>Naturellement ils ne formulent pas de règles nouvelles. Ils s’en garderaient bien : ils ont trop foncièrement compris notre conseil de liberté et de franchise vis-à-vis de soi-même. Ils concluent comme nous que le poète doit plus de confiance à son oreille qu’à l’institut phonétique et ils terminent comme nous, et aussi comme Banville (la vraie tradition est sacrée à tous les bons esprits) : mais d’abord il faut être un poète. Dans le détail ils semblent surtout accentuer nos libertés, et c’est en ce sens que leur apport compte.</p>
-        <p>Nous avons donné à l’<hi rend="i">e</hi> muet une valeur variable d’intervalle <hi rend="i">ad libitum</hi>. Ils le constatent et ajoutent : <quote>« Cette grande élasticité a transformé l’ancien obstacle en un précieux instrument »</quote> et c’est vrai. Nous avons souvent rimé par des mots consonants semblablement mais à voyelles <pb n="35"/>finales différentes : <quote>« Jules Romains tendrait à codifier qu’il faut mettre à la place de la rime un rapport de sonorité plus inédit, plus frais, plus approprié aux circonstances métriques. »</quote> C’est dire, en somme, qu’il suffit de suggérer la rime pour qu’elle existe, et cela est vrai ; les poèmes libres en offrent de nombreux exemples.</p>
-        <p>Nos jeunes confrères indiquent dans leur désir d’un instrument rythmique plus libre qu’il est inutile d’attribuer un sexe aux rimes, ils expliquent comment on peut dissoner sur les vieilles habitudes en prolongeant les masculines sur les féminines pour résoudre au gré de l’alternance classique, mais au moment choisi par le poète, ce qui donne un effet agréable de surprise euphonique ; ils citent les allitérations et les arabesques de voyelles, et signalent l’existence d’équilibres phonétiques, plus curieux parfois que l’allitération et l’assonance pure (l’allitération qui n’a pas l’air d’allitérer)… bref tous moyens employés pour remplacer une symétrie au métronome, dure et pesante, par une symétrie très complexe, consistant non point dans la <pb n="36"/>répétition régulière en coups de marteau de forge des mêmes sonorités, mais dans des effleurements ingénieusement variés des sonorités semblables à des intervalles dictés non plus par l’arithmétique, ou plutôt la numération, mais par un instinct de musicien qui manierait tantôt des leitmotiv, tantôt des rappels de timbre. Sous l’appel de l’émotion, les leitmotiv peuvent être précipités, ainsi on peut rimer en fin de vers et de la même rime une strophe ou diluer les rappels de sonorités à intervalles lointains dans le corps du poème, selon le sens et le goût, surtout d’après le sens (les rappels pour le sens sont nécessaires), mais aussi en arabesque, selon les timbres, les consonances, les allitérations, au gré du poète, à distance du machinalisme et de l’écholalie.</p>
+        <p>Peut-être que non ! on ne saurait dire le plus tard possible, mais pourtant on en aurait
+          bien envie. Il semble qu’une prosodie complète bien faite serait lourde à porter. En tout
+          cas, ne nous dissimulons pas qu’elle serait fort difficile à faire, car les cas de
+          rythmique, choisis déjà dans la langue par les vers-libristes, sont nombreux, il en est de
+          ténus, de délicats, il en est d’éphémères. La poésie traditionnelle a créé une foule de
+          rapports constants, qui sont justement de par là-même, tantôt exacts, tantôt trop accusés,
+          et deviennent brutaux et tyranniques. Cet aspect de zinc d’art qu’on prend ou qu’on veut
+          faire prendre souvent pour du marbre (<quote>« marbre, airain, pureté, montrez
+            voir ? »</quote> disent Vildrac et <pb n="32"/>Duhamel) tient à cette exagération de
+          l’emploi de moyens constamment employés ; à cette utilisation hors de propos d’une
+          ressource utile dans un cas particulier, et à cette utilisation répétée tient cet aspect
+          de littérature à bras tendu et à bras fatigué qu’offre trop souvent le poème en vers
+          réguliers et surtout à strophes fixes. Il serait bon que nous demeurions encore quelque
+          temps très libres, sans lisières ; on n’en a pas besoin. Donc pas encore de prosodie, à
+          peine une poétique, et mieux encore, simplement, des réflexions personnelles sur la
+          technique. Je sens bien qu’en fin de compte il faudra faire une prosodie, mais ne sera-ce
+          point plutôt pour répondre à des objections, pour convaincre des adversaires, pour la
+          propagande pour ainsi dire !</p>
+        <p>Ce n’est point que je ne saisisse l’intérêt et le mérite des efforts tentés pour
+          expliquer scientifiquement le vers libre. Dès les premiers jours, forts de la vérité de
+          l’instinct lyrique, nous avons dit que les travaux de laboratoire donneraient raison à nos
+          théories, et l’on ne peut que savoir gré à Robert de Souza de son application à en <pb
+            n="33"/>essayer la laborieuse confirmation. Sur ce terrain même, on verra certainement
+          avec le temps, se produire d’autres recherches, d’autres comparaisons, d’autres études de
+          scansion. Tous ces efforts partiels tentés scientifiquement convergeront à justifier la
+          dernière synthèse du rythme poétique.</p>
+        <p>Peut-être cela se produira-t-il assez rapidement ! On ne le saurait prévoir. Mais il y a
+          intérêt à ce que parmi les poètes, surtout parmi les plus jeunes, ceux qui ayant trouvé le
+          vers libre installé, et vis-à-vis de lui, en excellente posture, la réaction parnassienne,
+          ou le Parnasse renouvelé et progressiste (comme vous voudrez) qu’on lui opposait,
+          quelques-uns des plus doués aient choisi le vers libre.</p>
+        <p>Ils s’en sont donné des raisons. Ils l’ont fait à leurs risques et périls, très
+          consciemment, car on ne renonce pas sans motifs à tous les menus avantages, à toutes les
+          facilités d’accès, à toutes les primes dont bénéficient les poètes à vers obstinément
+          réguliers. Ces jeunes écrivains sont donc très intéressants à consulter de ce chef et <pb
+            n="34"/>c’est une excellente initiative qu’ont prise Vildrac et Duhamel de nous
+          renseigner sur ce qu’ils trouvent de bon chez les premiers vers-libristes, et de nous
+          indiquer non seulement comment ils les comprennent, mais ce qu’ils y ajoutent et quelle
+          est pour eux la suite logique du principe.</p>
+        <p>Naturellement ils ne formulent pas de règles nouvelles. Ils s’en garderaient bien : ils
+          ont trop foncièrement compris notre conseil de liberté et de franchise vis-à-vis de
+          soi-même. Ils concluent comme nous que le poète doit plus de confiance à son oreille qu’à
+          l’institut phonétique et ils terminent comme nous, et aussi comme Banville (la vraie
+          tradition est sacrée à tous les bons esprits) : mais d’abord il faut être un poète. Dans
+          le détail ils semblent surtout accentuer nos libertés, et c’est en ce sens que leur apport
+          compte.</p>
+        <p>Nous avons donné à l’<hi rend="i">e</hi> muet une valeur variable d’intervalle <hi
+            rend="i">ad libitum</hi>. Ils le constatent et ajoutent : <quote>« Cette grande
+            élasticité a transformé l’ancien obstacle en un précieux instrument »</quote> et c’est
+          vrai. Nous avons souvent rimé par des mots consonants semblablement mais à voyelles <pb
+            n="35"/>finales différentes : <quote>« Jules Romains tendrait à codifier qu’il faut
+            mettre à la place de la rime un rapport de sonorité plus inédit, plus frais, plus
+            approprié aux circonstances métriques. »</quote> C’est dire, en somme, qu’il suffit de
+          suggérer la rime pour qu’elle existe, et cela est vrai ; les poèmes libres en offrent de
+          nombreux exemples.</p>
+        <p>Nos jeunes confrères indiquent dans leur désir d’un instrument rythmique plus libre qu’il
+          est inutile d’attribuer un sexe aux rimes, ils expliquent comment on peut dissoner sur les
+          vieilles habitudes en prolongeant les masculines sur les féminines pour résoudre au gré de
+          l’alternance classique, mais au moment choisi par le poète, ce qui donne un effet agréable
+          de surprise euphonique ; ils citent les allitérations et les arabesques de voyelles, et
+          signalent l’existence d’équilibres phonétiques, plus curieux parfois que l’allitération et
+          l’assonance pure (l’allitération qui n’a pas l’air d’allitérer)… bref tous moyens employés
+          pour remplacer une symétrie au métronome, dure et pesante, par une symétrie très complexe,
+          consistant non point dans la <pb n="36"/>répétition régulière en coups de marteau de forge
+          des mêmes sonorités, mais dans des effleurements ingénieusement variés des sonorités
+          semblables à des intervalles dictés non plus par l’arithmétique, ou plutôt la numération,
+          mais par un instinct de musicien qui manierait tantôt des leitmotiv, tantôt des rappels de
+          timbre. Sous l’appel de l’émotion, les leitmotiv peuvent être précipités, ainsi on peut
+          rimer en fin de vers et de la même rime une strophe ou diluer les rappels de sonorités à
+          intervalles lointains dans le corps du poème, selon le sens et le goût, surtout d’après le
+          sens (les rappels pour le sens sont nécessaires), mais aussi en arabesque, selon les
+          timbres, les consonances, les allitérations, au gré du poète, à distance du machinalisme
+          et de l’écholalie.</p>
         <ab type="ornament">*</ab>
-        <p>Observons que si la méthode rythmique a changé cela ne procède point seulement d’une volonté de varier les rythmes et les timbres du chant, mais encore d’une façon nouvelle d’envisager (à côté de l’unité rythmique), l’unité de beauté du vers. <pb n="37"/>La poésie doit <hi rend="i">chanter</hi> sous peine de n’être point la poésie. Elle doit former son tissu avec des comparaisons. Qu’est-ce que le poète sinon celui qui transpose dans le domaine intellectuel tous les faits et toutes les sensations qu’il connaît et qu’il ressent. Pour transposer il a recours à la métaphore. Une poésie n’est qu’une suite de métaphores, une suite logique certes, mais il y a plusieurs façons d’être logique. On peut déduire la métaphore, la détailler, l’expliquer tout entière, ou la faire apparaître sous des aspects divers, sur des plans variés.</p>
-        <p>Théophile Gautier, que nous aimons et connaissons plus et mieux que les fils de Parnasse, disait : <quote>« Je vois le monde extérieur et j’écris des métaphores qui se suivent. »</quote> Nous, nous avons cherché à voir le mieux possible le monde extérieur, à traduire quelques nuances, (le plus possible) du monde intérieur, ce qu’on en peut saisir, chacun dans les limites de ses forces, et nous avons cherché à créer des métaphores qui s’engendrent les unes les autres ; nous n’avons pas souvent tenu à les exprimer entièrement mais pour <pb n="38"/>ainsi dire à les citer, à les énumérer. Plutôt que de donner toutes les racines et toutes les lignes d’une métaphore, nous préférons évoquer toute la série mobile des métaphores qu’une sensation entraîne avec elle, encore une fois, dans les limites de nos forces. Et d’ailleurs il faut toujours dans cette évocation multiple, qui fait la marge de rêverie de nos poèmes, et leur donne ou veut leur donner un accent prolongé (ainsi seulement la métaphore est complète, comme un accord n’est complet qu’avec son prolongement) donner quelque vibration qui émane du texte sans y être absolument énoncée, ou tout à fait épuisée. C’est ce qu’on nous a parfois reproché en nous disant que nous manquions de carrure, que nous n’appuyions pas assez, mais quand on nous accordait la carrure (que nous savions obtenir aussi) on nous jetait à la tête la monotonie de nos moyens, et si c’était trop étrange, on se rattrapait en nous rejetant à la tête les <hi rend="i">rythmes boiteux</hi>. Le rythme était boiteux parce que non régulier. Les intéressés préféraient dire boiteux au lieu de dire libres. Il y a dans cette différence d’expression toutes nos <pb n="39"/>différences de théories, aussi ne fûmes-nous jamais affligés lorsque ce reproche nous fut adressé même pour la première fois, et depuis cette première fois, nous nous sommes très aguerris.</p>
+        <p>Observons que si la méthode rythmique a changé cela ne procède point seulement d’une
+          volonté de varier les rythmes et les timbres du chant, mais encore d’une façon nouvelle
+          d’envisager (à côté de l’unité rythmique), l’unité de beauté du vers. <pb n="37"/>La
+          poésie doit <hi rend="i">chanter</hi> sous peine de n’être point la poésie. Elle doit
+          former son tissu avec des comparaisons. Qu’est-ce que le poète sinon celui qui transpose
+          dans le domaine intellectuel tous les faits et toutes les sensations qu’il connaît et
+          qu’il ressent. Pour transposer il a recours à la métaphore. Une poésie n’est qu’une suite
+          de métaphores, une suite logique certes, mais il y a plusieurs façons d’être logique. On
+          peut déduire la métaphore, la détailler, l’expliquer tout entière, ou la faire apparaître
+          sous des aspects divers, sur des plans variés.</p>
+        <p>Théophile Gautier, que nous aimons et connaissons plus et mieux que les fils de Parnasse,
+          disait : <quote>« Je vois le monde extérieur et j’écris des métaphores qui se
+            suivent. »</quote> Nous, nous avons cherché à voir le mieux possible le monde extérieur,
+          à traduire quelques nuances, (le plus possible) du monde intérieur, ce qu’on en peut
+          saisir, chacun dans les limites de ses forces, et nous avons cherché à créer des
+          métaphores qui s’engendrent les unes les autres ; nous n’avons pas souvent tenu à les
+          exprimer entièrement mais pour <pb n="38"/>ainsi dire à les citer, à les énumérer. Plutôt
+          que de donner toutes les racines et toutes les lignes d’une métaphore, nous préférons
+          évoquer toute la série mobile des métaphores qu’une sensation entraîne avec elle, encore
+          une fois, dans les limites de nos forces. Et d’ailleurs il faut toujours dans cette
+          évocation multiple, qui fait la marge de rêverie de nos poèmes, et leur donne ou veut leur
+          donner un accent prolongé (ainsi seulement la métaphore est complète, comme un accord
+          n’est complet qu’avec son prolongement) donner quelque vibration qui émane du texte sans y
+          être absolument énoncée, ou tout à fait épuisée. C’est ce qu’on nous a parfois reproché en
+          nous disant que nous manquions de carrure, que nous n’appuyions pas assez, mais quand on
+          nous accordait la carrure (que nous savions obtenir aussi) on nous jetait à la tête la
+          monotonie de nos moyens, et si c’était trop étrange, on se rattrapait en nous rejetant à
+          la tête les <hi rend="i">rythmes boiteux</hi>. Le rythme était boiteux parce que non
+          régulier. Les intéressés préféraient dire boiteux au lieu de dire libres. Il y a dans
+          cette différence d’expression toutes nos <pb n="39"/>différences de théories, aussi ne
+          fûmes-nous jamais affligés lorsque ce reproche nous fut adressé même pour la première
+          fois, et depuis cette première fois, nous nous sommes très aguerris.</p>
         <ab type="ornament">*</ab>
-        <p rend="i">Des poèmes furent dits alors excellemment par M<hi rend="sup">me</hi> Marie Marcilly et Cecilia Cellini, par MM. Paul Rameau et Edmond Menaud. Des mélodies furent chantées par le compositeur Michel-Maurice Lévy, poèmes et mélodies accompagnées de quelques commentaires inutiles à publier ici, Puis vint la conclusion de la conférence. </p>
+        <p rend="i">Des poèmes furent dits alors excellemment par M<hi rend="sup">me</hi> Marie
+          Marcilly et Cecilia Cellini, par MM. Paul Rameau et Edmond Menaud. Des mélodies furent
+          chantées par le compositeur Michel-Maurice Lévy, poèmes et mélodies accompagnées de
+          quelques commentaires inutiles à publier ici, Puis vint la conclusion de la conférence.</p>
         <p/>
-        <p>Et maintenant, mesdames, messieurs, je vous remercie de l’accueil amical et patient que vous avez fait à mes théories, des applaudissements que vous avez bien voulu donner à mes vers et dont je reporte la plus grande part à leurs excellents interprètes.</p>
-        <p>S’il m’était permis de désirer qu’une impression, entre autres, vous restât de cette causerie c’est que ce qu’il y a de plus essentiel dans le vers <pb n="40"/>libre <hi rend="i">c’est sa liberté</hi>. C’en est le principe même. Chacun doit trouver en lui-même sa force rythmique.</p>
-        <p>Le grand maître de prosodie c’est la vie, ses enseignements se trouvent dans la pensée et dans la passion. Tous les peuvent entendre ; les lettrés y doivent trouver les moyens de donner la forme stricte de leur idée, les sentimentaux la forme de leur rêverie.</p>
-        <p>J’ai la certitude que le vers libre durera parce que libre et à cause de cette élasticité qui lui a permis dès le début de s’enrichir de toutes les améliorations, je ne dis point seulement de beauté mais de technique que lui apportaient dès la première heure avec leur génie propre, d’abord Jules Laforgue, mon frère d’armes des temps de jeunesse, puis les Vielé-Griffin, Mockel, Verhaeren, Régnier, Stuart Merrill, Saint-Pol-Roux, Ferdinand Hérold, Henry Bataille, Paul Fort, Marinetti, Fontainas, Edmond Pilon, Klingsor, George Périn, Souza, Albert Saint-Paul. Roinard, et tant d’autres, — bref les premiers en date de toute la belle pléiade de poètes du <hi rend="i">Mercure de France</hi>, <pb n="41"/>cette Revue qui a commencé presque comme <hi rend="i">la Vogue</hi>, qui a grandi comme la <hi rend="i">Revue des Deux-Mondes</hi> et qui enfin vient d’entrer un peu à l’Académie Française.</p>
-        <p>À ces poètes se sont joints, et toujours apportant des nouveautés de rythme et d’idées, toute cette autre jeune pléiade des Vildrac, A. Mercereau, Arcos, G.-Ch. Cros, André Spire, Fernand Divoire, Castiaux, Martin-Barzun, Georges Gaudion, Louis Mandin et leurs amis ardents et pleins de talent qui s’unissent fraternellement à leurs aînés dans la largeur même du principe.</p>
-        <p>C’est l’adhésion de ces jeunes groupes qui fortifie notre confiance dans l’avenir, comme ce sont les paroles de sympathie qu’ils nous ont apportées à propos de nos poèmes qui nous font croire que notre temps n’a pas été tout à fait perdu.</p>
-        <p>D’autres encore viendront qui apporteront, qui doivent apporter du neuf, qui doivent servir la cause de la liberté esthétique, et nous les attendons, et certes je ne serai pas le dernier à m’en réjouir !</p>
+        <p>Et maintenant, mesdames, messieurs, je vous remercie de l’accueil amical et patient que
+          vous avez fait à mes théories, des applaudissements que vous avez bien voulu donner à mes
+          vers et dont je reporte la plus grande part à leurs excellents interprètes.</p>
+        <p>S’il m’était permis de désirer qu’une impression, entre autres, vous restât de cette
+          causerie c’est que ce qu’il y a de plus essentiel dans le vers <pb n="40"/>libre <hi
+            rend="i">c’est sa liberté</hi>. C’en est le principe même. Chacun doit trouver en
+          lui-même sa force rythmique.</p>
+        <p>Le grand maître de prosodie c’est la vie, ses enseignements se trouvent dans la pensée et
+          dans la passion. Tous les peuvent entendre ; les lettrés y doivent trouver les moyens de
+          donner la forme stricte de leur idée, les sentimentaux la forme de leur rêverie.</p>
+        <p>J’ai la certitude que le vers libre durera parce que libre et à cause de cette élasticité
+          qui lui a permis dès le début de s’enrichir de toutes les améliorations, je ne dis point
+          seulement de beauté mais de technique que lui apportaient dès la première heure avec leur
+          génie propre, d’abord Jules Laforgue, mon frère d’armes des temps de jeunesse, puis les
+          Vielé-Griffin, Mockel, Verhaeren, Régnier, Stuart Merrill, Saint-Pol-Roux, Ferdinand
+          Hérold, Henry Bataille, Paul Fort, Marinetti, Fontainas, Edmond Pilon, Klingsor, George
+          Périn, Souza, Albert Saint-Paul. Roinard, et tant d’autres, — bref les premiers en date de
+          toute la belle pléiade de poètes du <hi rend="i">Mercure de France</hi>, <pb n="41"/>cette
+          Revue qui a commencé presque comme <hi rend="i">la Vogue</hi>, qui a grandi comme la <hi
+            rend="i">Revue des Deux-Mondes</hi> et qui enfin vient d’entrer un peu à l’Académie
+          Française.</p>
+        <p>À ces poètes se sont joints, et toujours apportant des nouveautés de rythme et d’idées,
+          toute cette autre jeune pléiade des Vildrac, A. Mercereau, Arcos, G.-Ch. Cros, André
+          Spire, Fernand Divoire, Castiaux, Martin-Barzun, Georges Gaudion, Louis Mandin et leurs
+          amis ardents et pleins de talent qui s’unissent fraternellement à leurs aînés dans la
+          largeur même du principe.</p>
+        <p>C’est l’adhésion de ces jeunes groupes qui fortifie notre confiance dans l’avenir, comme
+          ce sont les paroles de sympathie qu’ils nous ont apportées à propos de nos poèmes qui nous
+          font croire que notre temps n’a pas été tout à fait perdu.</p>
+        <p>D’autres encore viendront qui apporteront, qui doivent apporter du neuf, qui doivent
+          servir la cause de la liberté esthétique, et nous les attendons, et certes je ne serai pas
+          le dernier à m’en réjouir !</p>
       </div>
     </body>
   </text>

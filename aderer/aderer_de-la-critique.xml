@@ -3,12 +3,12 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>De la critique littéraire</title>
-        <author key="Aderer, Adolphe (1832-1886)">Adolphe Aderer</author>
+        <author key="Aderer, Adolphe (1832-1886)" ref="https://data.bnf.fr/fr/12440582/adolphe_aderer/">Adolphe Aderer</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -48,7 +48,7 @@
         <date when="1864">1864</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

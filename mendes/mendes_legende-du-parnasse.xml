@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1884">1884</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -107,7 +107,7 @@
         <quote>
           <p><foreign xml:lang="lat"><hi rend="i">Nos patriam fugimus, nos dulcia linquimus arva</hi></foreign>
              !
-          </p>
+         </p>
         </quote>
         <p>Souffleur, comédien, toujours pauvre, jamais triste, combien de temps dura cette vie ? Quatre ou cinq années, je crois. Elle ne semblait pas près de s’interrompre lorsque, un jour, à Alençon, le vagabond rencontra l’éditeur Poulet-Malassis et Charles Asselineau, le regretté bibliophile qui fut le plus cher ami de l’un de nos plus chers maîtres. Ils lurent ses premiers vers, ils furent étonnés et ravis. Ce cabotin dont on parlait dans la ville comme d’un fou, était un vrai poète. « Il faut aller à Paris », lui dirent-ils. <quote>« C’est bien, dit Glatigny, j’y vais ! »</quote> et il partit, à pied, naturellement.</p>
         <p>Que venait-il faire dans la grande ville ? La conquérir. Et il était grand temps en effet que Glatigny fit la conquête de Paris, car alors, pendant que Victor Hugo était là-bas, dans l’Ile, les choses allaient assez mal au point de vue poétique dans la capitale de la littérature française.</p>
@@ -157,7 +157,7 @@
         <p>Certainement, ce premier recueil, étourdi, violent, en désordre, et où se montre trop visiblement l’influence directe de Théodore de Banville et de Charles Baudelaire, ne saurait être comparé aux vers achevés plus tard par Glatigny, lorsque, viril et devenu grave, moins peut-être à cause de ses longues souffrances qu’à cause du bonheur de s’en voir consolé par une aimante et dévouée épouse, il put recueillir son cœur et son esprit dans des poèmes plus proches de la sorte de perfection à laquelle il lui était permis d’aspirer. Mais que d’éclat déjà et de luxe ! Quel magnifique lyrisme dans ces strophes parisiennes et païennes ! Je l’ai dit : la nouvelle Muse avait le tort de venir après celle de Théodore de Banville ; mais, pour être de la suite de Diane, les nymphes de Thrace n’en sont pas moins belles. À l’époque où il fut publié, ce livre dépourvu de la niaise sensiblerie qui déshonorait alors la poésie, et révélant un artiste soucieux des nobles formes, dut paraître remarquable et l’était en effet. Il conserve l’honneur démarquer une date heureuse dans l’histoire poétique de ces dernières années.</p>
         <p>Vous entendrez avec plaisir quelques fragments des <hi rend="i">Vignes folles</hi>.</p>
         <quote>
-          <label>À RONSARD</label>
+          <label type="head">À RONSARD</label>
           <l/>
           <l>Afin d’oublier cette prose</l>
           <l>Dont notre siècle nous arrose,</l>
@@ -178,7 +178,7 @@
           <l>Dans tes Odes, comme un parfum,</l>
           <l>Et tu jetas les pierreries</l>
           <l>Qui constellaient tes rêveries</l>
-          <l>Avec faste, aux yeux de chacun I</l>
+          <l>Avec faste, aux yeux de chacun !</l>
           <l/>
           <l>Que t’importaient les bruits du monde !</l>
           <l>Que t’importait la terre immonde,</l>
@@ -259,7 +259,7 @@
         </quote>
         <p>Vous aimerez plus encore une pièce intitulée <hi rend="i">les Bohémiens</hi>, où bat vraiment le cœur de Glatigny.</p>
         <quote>
-          <label>LES BOHÉMIENS</label>
+          <label type="head">LES BOHÉMIENS</label>
           <l/>
           <l>Vous dont les rêves sont les miens,</l>
           <l>Vers quelle terre plus clémente,</l>
@@ -404,7 +404,7 @@
         </quote>
         <p>Ce fut seulement après huit jours de tortures et de craintes qui devenaient d’heure en heure plus sérieuses, que Glatigny, et Cosette, brisés et rompus, pitoyables, furent mis en liberté, grâce à l’intervention de M. Géry, alors préfet de la Corse. Et, je vous le répète, il n’y a rien d’imaginaire dans cette extraordinaire aventure. J’ai sous les yeux le texte du procès-verbal dressé par l’étonnant gendarme Thessein. Vous allez voir que, lu par un acteur comique, il aurait de quoi faire pouffer de rire, et je ne sais pas de vaudeville où il s’en trouve de plus grotesque.</p>
         <quote>
-          <label>Procès-verbal</label>
+          <label type="head">Procès-verbal</label>
           <p>Me trouvant en permission de quatre jours à Bocognano, chez mon beau-frère Muffraggi (Paul), maître d’hôtel, il s’est présenté vers sept heures du soir en notre domicile un individu dont son aspect m’a semblé fugitif.</p>
           <p>L’ayant interpellé sur sa présence à Bocognano, il m’a répondu, avec hésitation, sur plusieurs questions que je lui ai posées ; lui ayant demandé les pièces identiques, il ma présenté un engagement contracté au bureau d’agence théâtrale, pièces que j’ai parfaitement reconnues mensongères.</p>
           <p>Voyant que cet individu se trouvait en contravention aux articles 287 du I<hi rend="sup">re</hi> mars 1854 et 275 du même décret, j’ai fait parvenir immédiatement la brigade de la résidence pour opérer l’identité de cet individu.</p>
@@ -418,7 +418,7 @@
         <p>Mais voyez comme était douce et bonne l’âme de Glatigny. On lui conseilla de porter plainte. Le poète borna sa vengeance à publier le récit de son aventure et à rimer une complainte intitulée : <hi rend="i">L’Infâme Glatigny</hi>, qui est fort plaisante, et que par malheur le temps m’empêche de vous lire.</p>
         <p>De retour à Paris, Albert Glatigny connut le plus grand, le vrai, le seul bonheur de sa vie tourmentée. Il épousa une jeune femme, pauvre comme lui. Ils s’aimèrent tendrement et fidèlement. Ce furent des mois heureux, des années heureuses. Certes, la misère tenait toujours Glatigny, mais il avait la joie au cœur. Et bien qu’il fût obligé par les nécessités de sa vie de comédien, à transporter son petit ménage de ville en ville, de bourgade en bourgade, il trouvait dans ce foyer errant l’oubli de toutes les peines avec le doux orgueil du devoir accompli. Un court poème, qui n’a pas été publié dans ses œuvres complètes, vous dira avec quelle pureté, avec quelle tendre caresse le poète adorait sa jeune femme.</p>
         <quote>
-          <label>AUBADE</label>
+          <label type="head">AUBADE</label>
           <l/>
           <l>Voici la chanson de la bien-aimée,</l>
           <l>Que l’aube m’apporte et que je redis,</l>
@@ -469,7 +469,7 @@
         <p>Ces vers ne sont-ils pas frais et jolis comme un matin de fiançailles ? Ce fut, du reste, à cette époque qu’Albert Glatigny mûri par l’âge et rasséréné par le bonheur, publia ses meilleurs poèmes, ceux grâce auxquels son nom ne périra pas ; les <hi rend="i">Flèches d’or</hi>, son plus beau recueil, sont un livre dont s’honorera toujours la poésie française.</p>
         <p>Je voudrais vous citer quelques-unes des longues pièces, où s’affirme, personnel et virilisé, le grand talent lyrique d’Albert Glatigny. Je dois de me borner à de courtes citations.</p>
         <quote>
-          <label>LA NORMANDE</label>
+          <label type="head">LA NORMANDE</label>
           <l/>
           <l>Elle est belle vraiment, la Normande robuste</l>
           <l>Avec son large col implanté grassement,</l>
@@ -503,7 +503,7 @@
         </quote>
         <p>Ne pourrait-on pas écrire au bas de ce poème : Millet <hi rend="i">pinxit</hi> ? Voici deux autres pièces où l’art parfait du poète triomphe malgré la frivolité des sujets.</p>
         <quote>
-          <label>L’ART POÉTIQUE DE THÉRÈSE</label>
+          <label type="head">L’ART POÉTIQUE DE THÉRÈSE</label>
           <l/>
           <l>Hier, penchant sur moi ta mignonne tête</l>
           <l>Blonde, où tout sourit et paraît joyeux,</l>
@@ -560,13 +560,13 @@
           <l>Disent en hochant gravement la tête :</l>
           <l>« Ça n’est pas utile au bien de l’État ! »</l>
           <l/>
-          <label>MARITORNE</label>
+          <label type="head">MARITORNE</label>
           <l/>
           <l>C’est la servante de l’auberge</l>
           <l>Qui braille là, tout à côté :</l>
           <l>Le soir, un peuple s’y goberge</l>
           <l>De fins matois mis en gaîté.</l>
-          <l> </l>
+          <l/>
           <l>Aux gars qui lui pincent la taille</l>
           <l>En descendant les escaliers,</l>
           <l>Elle peut bien livrer bataille :</l>
@@ -630,7 +630,7 @@
         <ab type="ornament">*</ab>
         <p>Donc Glatigny était heureux, malgré les poches et les tiroirs vides, à cause du cœur plein. Ce bonheur, la destinée le lui envia. Il ne lui fut pas donné de voir la réussite de ses camarades du Parnasse, dont il eût justement partagé le succès. À force de jours sans pain et de nuits sans gîte, la maladie lui était venue. Il était phtisique. Il souffrait, il se cachait pour souffrir. De sorte que nous le pensions à peine malade, lorsqu’il était déjà mourant. Il n’était pas de ceux qui font des élégies sur leur mort prochaine ; il avait de plus belles fiertés. C’est à peine si je trouve une expression de douleur dans une lettre en vers, toute familière, qu’il écrivit à notre cher compagnon, Stéphane Mallarmé. Je vais vous lire cette lettre. Vous verrez comme la plainte s’y voile et s’y fait souriante, malgré la vision de la mort.</p>
         <quote>
-          <label>LETTRE A STÉPHANE MALLARMÉ</label>
+          <label type="head">LETTRE A STÉPHANE MALLARMÉ</label>
           <l/>
           <l>Votre lettre bien venue</l>
           <l>Est arrivée au moment</l>
@@ -711,7 +711,7 @@
           <l>De moi, plus tard, je reprends</l>
           <l>La besogne familière :</l>
           <l>J’arrête les vers errants.</l>
-          <l> </l>
+          <l/>
           <l>Je redemande à la lyre</l>
           <l>Une meilleure chanson,</l>
           <l>Pendant que son bon sourire</l>
@@ -800,7 +800,7 @@
         <p>Et cependant nous les envions, ces magnifiques incomplets, parce qu’il y a en eux, en dépit des chutes et des avortements, une sublimité réelle quoique fugace, et l’<hi rend="i">aurea mediocritas</hi> des artistes excellents ne vaut pas, non ne vaut pas, leurs cruelles et belles alternatives de misère et d’opulence !</p>
         <p>Jugé avec sévérité et d’après les seules œuvres qu’il a données au public, Villiers de l’lsle-Adam pourrait être considéré comme un demi-génie. Mais nous, qui connaissons ses drames, ses romans encore inédits, nous croyons fermement que l’heure n’est pas lointaine où il affirmera incontestablement et dans sa plénitude les hautes facultés dont il n’a montré encore qu’une partie. Il ne pourra être définitivement jugé qu’après la publication d’<hi rend="i">Axel</hi>, la grandiose épopée dramatique à laquelle il travaille depuis bien des années. Je suis convaincu qu’après la lumière incertaine du croissant ce sera l’astre dans sa plénitude ! En attendant lisez <hi rend="i">Isis, Elen, Morgane</hi>, — je vous donne là un conseil difficile à suivre, car Villiers de l’Isle-Adam a éparpillé un peu partout et n’importe où les œuvres de sa jeunesse, — lisez la <hi rend="i">Révolte</hi>, les vers publiés çà et là dans des revues, et ce livre extraordinaire appelé les Contes cruels. Je vous dirai quelques-uns des vers de Villiers de l’Isle-Adam, les plus doux, non les plus hautains, et vous croirez entendre, selon l’expression de Victor Hugo, <hi rend="i">une flûte invisible « Soupirer dans le verger</hi> ».</p>
         <quote>
-          <label>ÉBLOUISSEMENT</label>
+          <label type="head">ÉBLOUISSEMENT</label>
           <l/>
           <l>La Nuit, sur le grand mystère,</l>
           <l>Entr’ouvre ses écrins bleus :</l>
@@ -818,7 +818,7 @@
           <l>Mon amour et ta beauté !</l>
           <l/>
           <l/>
-          <label>L’AVEU</label>
+          <label type="head">L’AVEU</label>
           <l/>
           <l>J’ai perdu la forêt, la plaine</l>
           <l>Et les frais avrils d’autrefois…</l>
@@ -835,7 +835,7 @@
           <l>Oh ! Cache-moi dans ton sein pâle !</l>
           <l>Ce sera le calme des nuits !</l>
           <l/>
-          <label>LES PRÉSENTS</label>
+          <label type="head">LES PRÉSENTS</label>
           <l/>
           <l>Si tu me parles, quelque soir.</l>
           <l>Du secret de mon cœur malade,</l>
@@ -855,10 +855,10 @@
         <p>Je veux vous lire aussi une page des <hi rend="i">Contes cruels</hi>, ce livre qui n’aurait pas d’analogue en France, si Baudelaire n’avait traduit les <hi rend="i">Histoires extraordinaires</hi> d’Edgard Poe. On y trouve à côté des plus exquises rêveries, des subtilités les plus profondes ou les plus ténues de la pensée, des contes d’une bouffonnerie froide et amère, « pince-sans-rire » comme disait l’auteur des <hi rend="i">Fleurs du mal</hi>. <quote>« Villiers de l’Isle-Adam, écrit M. Henry Laujol, aime la plaisanterie funèbre et féroce. Quelles secrètes souffrances, quelles longues rancunes, quelles vieilles haines extravasées n’a-t-il pas fallu pour que cet amant de la Beauté ait consenti à ces contorsions convulsives ! Par bonheur, un mot se trouve toujours au détour d’une page pour racheter la phrase mauvaise, et l’on découvre aisément, quand on a des yeux, le fonds de grande et sincère pitié qui est au cœur du poète. On se rappelle alors l’admirable parole de Sainte-Beuve à Baudelaire : « Vous avez bien dû souffrir, mon cher enfant. »</quote></p>
         <p>Pour rester absolument d’accord avec cette appréciation de M. Henry Laujol, il faudrait surtout vous lire les <hi rend="i">Demoiselles de Bienfilâtre, mais j’avoue que je n’ose pas, car ce conte est</hi> terrible. En voici un, d’un ton moins cruel.</p>
         <quote>
-          <label>L’AFFICHAGE CÉLESTE.</label>
+          <label type="head">L’AFFICHAGE CÉLESTE.</label>
           <p rend="right"><seg xml:lang="lat">« Eritis sicut Dii »</seg><lb/>
           <hi rend="sc">(Ancien Testament)</hi>
-          </p>
+         </p>
           <p>Chose étrange et capable d’éveiller le sourire chez un financier : il s’agit du Ciel ! Mais entendons-nous : du ciel considéré au point de vue industriel et sérieux.</p>
           <p>Certains événements historiques, aujourd’hui scientifiquement avérés et expliqués (ou tout comme), par exemple le <hi rend="i">Labarum</hi> de Constantin, les croix répercutées sur les nuages par des plaines de neige, les phénomènes de réfraction du mont Brocken et certains effets de mirage dans les contrées boréales, ayant singulièrement intrigué et, pour ainsi dire, piqué au jeu, un savant ingénieur méridional, M. Grave, celui-ci conçut, il y a quelques années, le projet lumineux d’utiliser les vastes étendues de la nuit, et d’élever, en un mot, le ciel à la hauteur de l’époque.</p>
           <p>À quoi bon, en effet, ces voûtes azurées qui ne servent à rien, qu’à défrayer les imaginations maladives des derniers songe-creux ? Ne serait-ce pas acquérir de légitimes droits à la reconnaissance publique, et disons-le (pourquoi pas ?), à l’admiration de la Postérité, que de convertir ces espaces stériles en spectacles réellement instructifs. Que de faire valoir ces landes immenses et de rendre, finalement, d’un bon rapport, ces Solognes indéfinies et transparentes ?</p>
@@ -883,7 +883,7 @@
         <p>Cette réserve, ce désir de n’être pas vu, ni entendu, vous les retrouverez dans les livres de Sully Prudhomme. Il est, sinon l’un des plus vastes, du moins l’un des plus délicats esprits du dix-neuvième siècle. Aucun fracas, aucune turbulence excessive, aucune contorsion grimaçante de désespoir. Il est, paisiblement, avec un dandysme serein qui rappelle celui d’Alfred de Vigny, le songeur subtil et raffiné, celui qui, troublé par l’éternel mystère de l’infini et de l’inconnu, — que cet infini, que cet inconnu se dérobe dans la profonde nature ou dans le cœur plus profond de la femme, — s’élance perpétuellement à la poursuite de l’insaisissable et parfois le saisit, veut exprimer l’inexprimable, et quelquefois l’exprime. Il existe encore quelques personnes, m’assure-t-on, qui, lorsqu’on leur parle de Sully Prudhomme, s’écrient, malgré sa gloire incontestée, malgré l’Académie elle-même : « Ah ! Oui ! Sully Prudhomme, l’auteur du <hi rend="i">Vase brisé</hi>. » Elles ignorent donc que le <hi rend="i">Vase brisé</hi>, cet espèce de sonnet d’Arvers, n’est qu’une romance sentimentale, jolie, — qui dit le contraire ? — mais une romance ! Ils n’ont donc pas lu l’œuvre considérable, et qui s’accroîtra encore, du poète des <hi rend="i">Épreuves</hi> ? De l’homme qui mieux qu’aucun autre, oui, mieux qu’aucun autre ! à mystérieusement chanté dans une langue douce et claire comme un crépuscule toutes les amères angoisses de l’âme qui cherche l’amour, de l’esprit qui cherche le beau ? — et souvent dans la chaîne harmonieuse de son vers il a étreint la fugace chimère. Toi, Sphinx, tu le redoutes, car tu sais bien avec quelle tendre et adroite patience il t’interroge et te confond. J’accorde, soit ! que l’auteur de <hi rend="i">La Justice</hi>, trop fréquemment, a essayé de faire entrer, par une effraction de rythmes, la science dans la poésie et pris l’expression technique pour l’expression précise. Mais qu’importe l’erreur d’un instant ? De toutes les œuvres poétiques des poètes nouveaux, celle de Sully Prudhomme, considérée dans son ensemble, est certainement la mieux faite pour troubler, charmer et par moments satisfaire la triste âme moderne assoiffée, quoi qu’on en dise, d’idéal et affamée d’impossible.</p>
         <p>En dépit des quelques personnes qui en sont restées au <hi rend="i">Vase brisé</hi>, les poèmes de Sully Prudhomme sont connus à tel point que je ne sais si j’en dois lire. Je ne puis cependant résister au plaisir de citer une page des <hi rend="i">Vaines Tendresses</hi>, — un des plus tendres et des plus admirables sonnets que je sache !</p>
         <quote>
-          <label>LES INFIDÈLES.</label>
+          <label type="head">LES INFIDÈLES.</label>
           <l/>
           <l>Je t’aime, en attendant mon éternelle épouse,</l>
           <l>Celle qui doit venir à ma rencontre un jour,</l>
@@ -942,7 +942,7 @@
         <p><hi rend="i">Philoméla</hi>, en toute sincérité, me paraît un ouvrage fort médiocre. Je sais bien que mes jeunes amis — j’ai le grand plaisir d’en compter plusieurs parmi les poètes tout nouveaux et parmi les poètes de demain — ont la bonté de ne pas être de mon avis. Ils me jugent trop sévère et témoignent de la sympathie pour mes piètres essais. Cette sympathie s’explique. <hi rend="i">Philoméla</hi>, œuvre de jeunesse, est de leur âge à eux ; ils s’y retrouvent, ils s’y reconnaissent, parce que j’étais alors ce qu’ils sont aujourd’hui ; ce sont des nouveau-nés qui se plaisent à mes bégaiements. Étant hardis et hasardeux et un peu frivoles, comme s’il n’est pas coupable de l’être dans les fraîches années de la vie, cela leur plaît de retrouver chez moi, avec quelque désordre, leurs propres hardiesses, leur amour des hasards, et leurs rêves légers. Mais moi qui ai vieilli, je considère les choses d’autre sorte ; c’est avec des yeux qui s’éblouissent moins facilement que je relis les vers d’autrefois, et en vérité je crois que je mépriserais totalement <hi rend="i">Philoméla</hi> et que je ne lui aurais pas donné place dans le recueil de mes Poésies, si, à défaut de toute autre mérite, mon livre de début me révélait du moins un très honnête et très fier amour de l’art et des belles formes, le soin de la langue et le souci du rythme. Dans l’enfant que j’étais, il y avait quelqu’un qui voulait devenir un artiste.</p>
         <p>Voici l’une des pièces de <hi rend="i">Philoméla</hi>. Je l’ai choisie un peu au hasard ; elle n’est ni la pire, ni la moins mauvaise.</p>
         <quote>
-          <label>LE ROSSIGNOL</label>
+          <label type="head">LE ROSSIGNOL</label>
           <l/>
           <l>C’était un soir du mois où les grappes sont mûres,</l>
           <l>Et celle que je pleure était encore là.</l>
@@ -986,7 +986,7 @@
         </quote>
         <p>Voici deux sonnets en tout petit vers :</p>
         <quote>
-          <label>LA TRAVERSÉE GALANTE</label>
+          <label type="head">LA TRAVERSÉE GALANTE</label>
           <l>À une jeune dame qui me voulait persuader de faire un voyage aux Îles.</l>
           <l/>
           <l>Tout est bien. Je ne veux pas mieux</l>
@@ -1008,7 +1008,7 @@
           <l>Aborde à l’Île du Baiser,</l>
         </quote>
         <quote>
-          <label>SONNET DANS LE GOÛT ANCIEN</label>
+          <label type="head">SONNET DANS LE GOÛT ANCIEN</label>
           <l>Pour la même dame, qui avait résolu de faire pénitence de ses fautes et des miennes.</l>
           <l/>
           <l>Quoi ! Philis, sommes-nous fâchés ?</l>
@@ -1031,7 +1031,7 @@
         </quote>
         <p>Cependant je ne dois point laisser croire que tout le livre est d’un ton langoureux comme <hi rend="i">le Rossignol</hi> ou minaude comme ces deux sonnets. À côté de l’adolescent rêveur et du petit abbé de cour, il y avait un lyrique, fort chétif sans doute, mais un lyrique en somme. Parmi les pièces les moins indignes d’être conservées se trouve un long poème intitulé <hi rend="i">Pantéléia, Pantéléia</hi>, c’est-à-dire toute parfaite. Par une rencontre assez bizarre, il y a, au ciel et dans les livres d’astronomie, une étoile qui porte ce nom. Je l’ignorais alors et sans doute je n’eusse pas osé donner sciemment un titre aussi lumineux à une œuvre aussi peu éclatante. Dans <hi rend="i">Pantéléia</hi>, créature idéale et chimérique, j’avais rêvé de faire vivre, de rendre sensible l’idée de la Beauté éternelle. Pantéléia, errant nue dans les forêts mystérieuses, parmi les bêtes sauvages qui l’adorent et les petits oiseaux qui la chantent, c’était tout le rêve humain, toute la perfection jalouse qui se refuse, hélas ! à l’ambition des hommes. Tout ce qui vit, tout ce qui respire, tout ce qui végète l’admire, la convoite et l’implore. Mais elle demeure seule, éternellement vierge dans sa froide solitude. Ce plan me paraissait alors avoir quelque grandeur et je crus un moment ne point lavoir trop mal exécuté. Combien je me trompais ! Je ne vous dirai qu’une page de ce poème, celle où je voulais exprimer que tous les types suprêmes de beauté conçus par l’homme sous des noms divers, — Vénus, Astarté, Freya, Madeleine, — s’étaient incarnés en Pantéléia.</p>
         <quote>
-          <label>PANTÉLEIA</label>
+          <label type="head">PANTÉLEIA</label>
           <l/>
           <l>Cypris, fille de l’onde, adorable chimère,</l>
           <l>Immortelle aux yeux noirs, Reine au cœur indulgent,</l>
@@ -1157,7 +1157,7 @@
           <p rend="right">
             <foreign xml:lang="lat">Incessu paluit avis, colore flo.</foreign>
             <lb/><hi rend="sc">Joachim du Bellay.</hi>
-          </p>
+         </p>
           <l>Elle marche d’un pas distrait,</l>
           <l>Légèrement, comme une oiselle ;</l>
           <l/>
@@ -1179,7 +1179,7 @@
           <p rend="right">
             <seg xml:lang="lat">Florinda perdió su flor.</seg>
             <lb/><hi rend="i">Romancero del rey</hi>.
-          </p>
+         </p>
           <l>Le matin riait, ingénu ;</l>
           <l>Tu m’as dit : Viens ! Je suis venu.</l>
           <l/>
@@ -1238,8 +1238,7 @@
         </quote>
         <p>Vous le voyez, malgré le ton puéril de ces petits poèmes qui imitaient des chansons populaires, il s’y glissait parfois des amertumes et je ne sais quoi d’amer et de fatal, — Berquin Werther. Je m’en suis excusé dans le <hi rend="i">Finale</hi> qui est la dernière pièce que je vous lirai.</p>
         <quote>
-          <trailer>FINALE</trailer>
-          <l/>
+          <label type="head">FINALE</label>
           <l>Je n’ai jamais commis de crime.</l>
           <l>On ne m’a pas assassiné.</l>
           <l>Mon remords fut imaginé</l>
@@ -1307,8 +1306,7 @@
         <p>Il y a dans une île de la Seine, à Courbevoie, tout près du pont, un petit édifice aux grêles colonnes ioniennes, qui, de loin, a un peu de l’air d’un débris de temple antique. Que fait-il là, étrange et joli, païen en pleine banlieue parisienne, tandis que les canotiers aux vareuses rayées passent rapidement dans leurs fines yoles ? Je ne sais, mais j’ai toujours pensé que c’était là le temple de la muse d’Albert Mérat. Et sans doute, dès que le soir monte et que tremblotent au ciel les yeux blancs des étoiles, les Faunes de rue de Croissy, avec les Naïades de la Grenouillère s’en viennent vers elle en folles théories, et, lui jetant pour offrande des violettes des bois qui sentent la poudre de riz, forment autour d’elle des chœurs, sur le rythme de la dernière valse d’Olivier Métra.</p>
         <p>C’est qu’en effet, Albert Mérat est, avant tout et surtout, le poète des environs de Paris. Mieux qu’aucun autre, il chante cette nature si spirituellement artificielle où les arbres ont l’air de figurer dans une forêt de féerie au théâtre du Châtelet, où les horizons se piquent de ressembler à des décors. Il dit tous les mystères à deux voix qui chuchotent sous les cerisiers de Montmorency, et les bavardages derrière les tonnelles des guinguettes, et les jolis mensonges des lèvres roses, plus roses de s’être mouillées dans le vin de bois de campêche qui usurpe le nom d’Argenteuil. Mais, remarquez-le bien, malgré la modernité familière de son vers, il ne s’encanaille jamais dans la banalité de la chanson. Il sait voir le côté d’élégance et de poésie des dimanches à la campagne et, grâce à son art tout à fait charmant, les Asnières et les Meudon qu’il célèbre sont dignes d’une oaristys.</p>
         <quote>
-          <label>LA NUIT</label>
-          <l/>
+          <label type="head">LA NUIT</label>
           <l>C’était sur la Seine, à minuit,</l>
           <l>Le soir d’un dimanche de fête :</l>
           <l>Et Bougival faisait un bruit</l>
@@ -1356,8 +1354,7 @@
         </quote>
         <p>Cependant Albert Mérat, troublé d’une ambition hautaine, a voulu par instants s’échapper des paysages parisiens et partir pour les longs voyages. Il a gravi les Alpes, changeant contre un bâton de touriste la branche d’aubépine que l’on porte à la main au retour de Clamart. Pour se promener sur les lagunes vénitiennes, son canot a pris des airs de gondole. Et lui, que charme entre toutes choses une maisonnette aux volets verts parmi les arbres, rosée de soleil levant, il s’est pris d’enthousiasme pour l’Italie aux cités de marbre. Rien de plus légitime ! Mais quoi ! chacun ne doit-il pas rester dans son sentier, et la poésie d’Albert Mérat, aile et ramage de fauvette, est-elle bien sûre de savoir voleter sans effroi et de pouvoir être entendue dans l’immensité des espaces ? Certainement nous devons à cette fantaisie voyageuse de l’auteur des <hi rend="i">Poèmes de Paris</hi> bien des pages d’un sentiment élevé et d’une noble facture, mais comme il fait bien pourtant de revenir de Florence à Louveciennes, et des Cascines à la rue Monsieur-le-Prince ! Vous aimerez cette exquise petite pièce :</p>
         <quote>
-          <label>LES FENÊTRES FLEURIES</label>
-          <l/>
+          <label type="head">LES FENÊTRES FLEURIES</label>
           <l>Les Parisiens, entendus</l>
           <l>Aux riens charmants plus qu’au bien-être,</l>
           <l>Se font des jardins suspendus</l>
@@ -1411,8 +1408,7 @@
         </quote>
         <p>Ce qu’il chante de préférence, ce sont les amours discrètes des cœurs sans passion, les rêveries qui se formulent à peine, s’ébauchent un instant, s’effacent. Il ne sera pas tenté par les belles violences des pleins midis, ni par l’intensité des ténèbres. Les heures qui lui sont chères, ce sont les matins qui ne sont pas encore le jour, et les soirs qui ne sont pas encore la nuit. Dans quels limbes se meut le fantôme de ce sonnet ?</p>
         <quote>
-          <label>L’AVENUE</label>
-          <l/>
+          <label type="head">L’AVENUE</label>
           <l>Nos âmes tant de fois s’oublièrent, bercées</l>
           <l>Sous ces grands arbres noirs de la chanson du vent !</l>
           <l>Le long de ces vieux murs, elle et moi, si souvent</l>
@@ -1433,8 +1429,7 @@
         </quote>
         <p>Même quand il se dérobe un instant aux souvenirs, aux rêves moroses, Léon Valade garde cette langueur, et son sourire hésite, presque inachevé, sa bonne humeur se pose à peine comme un papillon qui tremble. S’il lui arrive de peindre des choses qu’il a vues, il se gardera bien des tons violents. Le frais tableau que voici est un pastel si tendre qu’on n’ose le regarder de près, de peur de faire s’en enlever, par son haleine, les couleurs :</p>
         <quote>
-          <label>AU LEVER</label>
-          <l/>
+          <label type="head">AU LEVER</label>
           <l>Charmante, les yeux bruns de mollesse baignés,</l>
           <l>Dans le désordre exquis des cheveux non peignés,</l>
           <l>Jeune fille déjà, l’air d’une enfant encore</l>
@@ -1473,8 +1468,7 @@
         </quote>
         <p>Quoi de plus délicieusement ténu que cette <hi rend="i">Miniature</hi> :</p>
         <quote>
-          <label>I</label>
-          <l/>
+          <label type="head">I</label>
           <l>C’est parce qu’elle était petite</l>
           <l>Et charmante fragilement,</l>
           <l>Qu’elle m’eut encore plus vite</l>
@@ -1495,7 +1489,7 @@
           <l>J’avais, plus facile et plus pleine,</l>
           <l>L’illusion qu’il était mien…</l>
           <l/>
-          <l> — Et c’est aussi que son caprice</l>
+          <l>— Et c’est aussi que son caprice</l>
           <l>Mettait tant de flamme à ses yeux,</l>
           <l>Qu’il fallait bien que je le prisse</l>
           <l>Ainsi qu’un ordre impérieux.</l>
@@ -1505,8 +1499,7 @@
           <l>Si frêles ! Elle avait dans l’âme</l>
           <l>L’indomptable fierté des forts.</l>
           <l/>
-          <label>II</label>
-          <l/>
+          <label type="head">II</label>
           <l>C’était, du bout de la bottine</l>
           <l>Jusqu’à la pointe des cheveux,</l>
           <l>Une nature exquise et fine,</l>
@@ -1517,8 +1510,7 @@
           <l>Et vibrait sous une caresse</l>
           <l>Comme un violon sous l’archet.</l>
           <l/>
-          <label>III</label>
-          <l/>
+          <label type="head">III</label>
           <l>Passagère et mignonne hôtesse !</l>
           <l>D’où vient qu’elle semble tenir,</l>
           <l>Du seul droit de sa petitesse,</l>
@@ -1559,8 +1551,7 @@
           <l>La suivait, parfois distancée</l>
           <l>Et fidèle non sans tourment.</l>
           <l/>
-          <label>IV</label>
-          <l/>
+          <label type="head">IV</label>
           <l>Réminiscences mal bannies !</l>
           <l>Ô chers prestiges regrettés,</l>
           <l>Faits de nuances infinies,</l>
@@ -1625,8 +1616,7 @@
         <p>François Coppée fut célèbre très vite. Le <hi rend="i">Reliquaire</hi>, les <hi rend="i">Intimités</hi>, ces tendres et subtils poèmes d’amour où s’affirmèrent plus particulièrement les qualités distinctives de son talent, le firent connaître et aimer de tous les artistes ; le Passant fut le commencement de sa popularité toujours croissante. Et à l’heure actuelle, après tant d’œuvres déjà que tant d’œuvres suivront, sa renommée rendue universelle par des triomphes de théâtre est une des gloires les plus solidement établies de la littérature actuelle.</p>
         <p>Vous dirai-je des vers de François Coppée, des vers nouveaux ? Non. Il n’est personne qui les ignore et vous les relisez si souvent. Mais peut-être, ingrats que vous êtes, ne vous souvenez-vous pas si bien de ses poèmes de jadis, déjà si charmants ou si beaux ? Mon ami a eu cette rare chance, d’être, tout de suite après l’apprentissage, un artiste complet, et vous entendrez avec une émotion heureuse l’une de ses premières pages, qui fut écrite à ce moment de la légende parnassienne où nous sommes arrivés.</p>
         <quote>
-          <label>RÉDEMPTION</label>
-          <l/>
+          <label type="head">RÉDEMPTION</label>
           <l>Pour aimer une fois encor, mais une seule,</l>
           <l>Je veux, libertin repentant,</l>
           <l>La vierge qui, rêveuse aux genoux d’une aïeule,</l>
@@ -1758,8 +1748,7 @@
         <p>Ce fut un lieu assez étrange pendant un temps que la petite boutique du passage Choiseul, bientôt passage Lemerre. Ce n’était pas encore le grand magasin d’aujourd’hui où viennent des académiciens et des romanciers illustres, où on voit le buste de Leconte de Lisle et le buste de François Coppée. Une toute petite boutique, presque une échoppe, avec un entresol très bas où l’on montait par un escalier, qui tourne. Juste assez de livres pour être une librairie, et juste assez de place pour la visite quotidienne des poètes.</p>
         <p>Car nous y venions tous les jours, avec fierté. Songez donc ! À vingt ans, nous, pauvres diables de rimeurs, qu’aucun éditeur alors n’eût accueillis, nous qui n’osions pas passer devant la boutique de Michel Lévy de peur qu’à la seule vue de nos chevelures extravagantes, les commis de la librairie ne surgissent au seuil de la porte en brandissant des balais plus formidables que le glaive de l’archange, nous à qui la maison Hachette apparaissait dans un rêve comme un paradis chimérique où ne sont admis que les dieux, nous, Parnassiens, nous avions un libraire à nous, tout à fait à nous ! Notre joie se traduisait en joyeuses causeries dans la chère échoppe hospitalière, et je ne sais pas de lieu au monde où il ait été échangé de plus ardentes espérances et récité plus de vers. Des triolets de M. Gabriel Marc, un de nos camarades d’antan, ont raconté la boutique d’Alphonse Lemerre. Les voici ; c’est une fantaisie peu prétentieuse et gaie.</p>
         <quote>
-          <label>L’ENTRESOL DU PARNASSE.</label>
-          <l/>
+          <label type="head">L’ENTRESOL DU PARNASSE.</label>
           <l>Dans ce poétique entresol,</l>
           <l>Hugo règne à côté d’Homère.</l>
           <l>Les beaux vers émaillent le sol,</l>
@@ -1839,12 +1828,11 @@
         <p>Au premier rang, — puisque j’ai déjà nommé François Coppée et Sully Prudhomme, — doit être placé Léon Dierx.</p>
         <p>Je le dis, avec la conviction d’émettre une vérité qui paraîtra évidente à l’avenir, Léon Dierx, dont l’œuvre considérable reste presque ignorée de la foule, dont le talent n’est estimé à sa juste valeur que par les artistes et les lettrés, Léon Dierx est véritablement un des plus purs et des plus nobles esprits de la fin du dix-neuvième siècle. Je ne crois pas qu’il ait jamais existé un homme plus intimement, plus essentiellement poète que lui. La poésie est la fonction naturelle de son âme, et les vers sont la seule langue possible de sa pensée. Il vit dans la rêverie éternelle de la beauté et de l’amour. Les réalités basses sont autour de lui comme des choses qu’il ne voit pas, ou, s’il les aperçoit, ce n’est que de très haut, très vagues, très confuses, et dépouillées par l’éloignement de leurs tristes laideurs. Au contraire tout ce qui est beau, tout ce qui est tendre et fier, la mélancolie hautaine des vaincus, la candeur des vierges, la sérénité des héros, et aussi la douceur infinie des paysages forestiers traversés de lune et des méditerranées d’azur où tremble une voile pâle au loin, — l’impressionne incessamment, le pénètre, le remplit, devient comme l’atmosphère où respire heureusement sa vie intérieure. S’il était permis au regard humain de pénétrer dans le mystère des pensées, ce que l’on verrait dans la sienne, ce serait le plus souvent, parmi la langueur éparse du soir, des Songes habillés de blanc qui passent deux à deux en parlant tout bas de regret ou d’espoir, tandis qu’une cloche au loin tinte douloureusement dans les brumes d’une vallée. Écoutez ce paysage automnal.</p>
         <quote>
-          <label>SOIR D’OCTOBRE</label>
-          <l/>
+          <label type="head">SOIR D’OCTOBRE</label>
           <l>Un long frisson descend des coteaux, aux vallées ;</l>
           <l>Des coteaux et des bois, dans la plaine et les champs,</l>
           <l>Le frisson de la nuit passe vers les allées.</l>
-          <l> — Oh ! L’angelus du soir dans les soleils couchants ! —</l>
+          <l>— Oh ! L’angelus du soir dans les soleils couchants ! —</l>
           <l>Sous une haleine froide au loin meurent les champs.</l>
           <l>Les rires et les chants dans les brumes épaisses.</l>
           <l>Dans la brume qui monte ondule un souffle lent ;</l>
@@ -1863,7 +1851,7 @@
           <l>Ses adieux frémissants sous les feuillages pâles.</l>
           <l>Nostalgiques enfants des soleils radieux.</l>
           <l>Les jours frileux et courts arrivent. C’est l’automne.</l>
-          <l> — Comme elle vibre en nous la cloche qui bourdonne !</l>
+          <l>— Comme elle vibre en nous la cloche qui bourdonne !</l>
           <l>L’automne, avec la pluie et les neiges, demain</l>
           <l>Versera les regrets et l’ennui monotone ;</l>
           <l>Le monotone ennui de vivre est en chemin !</l>
@@ -1876,17 +1864,17 @@
           <l>Les couples chuchotants dont le cœur bat et brûle.</l>
           <l>Qui vont la joue en feu, les bras entrelacés.</l>
           <l>Les bras entrelacés quand le soleil décline.</l>
-          <l> — La cloche lentement tinte sur la colline. — </l>
+          <l>— La cloche lentement tinte sur la colline. — </l>
           <l>Adieu, la ronde ardente, et les rires d’enfants.</l>
           <l>Et les vierges le long du sentier qui chemine.</l>
           <l>Rêvant d’amour tout bas sous les cieux étouffants !</l>
-          <l> — Âme de l’homme, écoute en frémissant comme elle</l>
+          <l>— Âme de l’homme, écoute en frémissant comme elle</l>
           <l>L’âme immense du monde autour de toi frémir !</l>
           <l>Ensemble frémissez d’une douleur jumelle.</l>
           <l>Vois les pâles reflets des bois qui vont jaunir ;</l>
           <l>Savoure leur tristesse et leurs senteurs dernières,</l>
           <l>Les dernières senteurs de l’été disparu ;</l>
-          <l> — Et le son de la cloche au milieu des chaumières ! — </l>
+          <l>— Et le son de la cloche au milieu des chaumières ! — </l>
           <l>L’été meurt ; son soupir glisse dans les lisières.</l>
           <l>Sous le dôme éclairci des chênes a couru</l>
           <l>Leur râle entrechoquant les ramures livides.</l>
@@ -1910,8 +1898,7 @@
         </quote>
         <p>Est-il un homme qui puisse demeurer insensible à la pénétrante harmonie de ces vers, délicieusement berceurs comme le vent d’automne, et ne sont-ce pas tous nos rêves et tous nos amours de jadis qui fuient, tournoient et reviennent pour fuir encore dans l’obsession circulaire du rythme ? Je veux vous lire quelques vers encore.</p>
         <quote>
-          <label>AU JARDIN</label>
-          <l/>
+          <label type="head">AU JARDIN</label>
           <l>Le soir fait palpiter plus mollement les plantes</l>
           <l>Autour d’un groupe assis de femmes indolentes</l>
           <l>Dont les robes, ainsi que d’amples floraisons,</l>
@@ -1941,8 +1928,7 @@
         </quote>
         <p>Voici un autre poème intitulé <hi rend="i">Forêt d’hiver</hi> ; c’est, je le crois, une des plus superbes pages de la poésie contemporaine.</p>
         <quote>
-          <label>FORÊT D’HIVER</label>
-          <l/>
+          <label type="head">FORÊT D’HIVER</label>
           <l>Seront-ils toujours là quand nous disparaîtrons ?</l>
           <l>Les voilà, roidissant leurs vénérables troncs</l>
           <l>Qui des vents boréens ont lassé les colères.</l>
@@ -1985,8 +1971,7 @@
         <p>À vrai dire, une entente aussi profonde de la vague rêverie des choses ne va pas toujours chez Léon Dierx sans un peu de vague dans les idées, sans quelque indécision dans les contours de la phrase. Si ces défauts sont comme un charme de plus dans le <hi rend="i">Soir d’octobre</hi> ou dans <hi rend="i">Au jardin</hi> que je vous lisais tout à l’heure, et dans d’autres morceaux tels que <hi rend="i">Juin, la Nuit d’été, les Remous, les Filaos</hi>, il faut bien avouer qu’ils trouvent un emploi moins heureux dans les œuvres où la précision et la clarté de la conception primitive exigeraient une expression non moins nette et non moins directe. C’est peut-être à ce trouble un peu crépusculaire où se disperse parfois l’inspiration de Léon Dierx qu’il faut attribuer, dans certaine mesure, l’espèce d’indifférence qu’ont trop longtemps témoigné à ce poète les gens épris avant tout du tangible et de l’immédiat. Pour l’aimer, pour la comprendre, cette âme exquise et comme lointaine, il faut aller vers elle, la chercher, la violenter presque, car elle ne s’offre pas brutalement, s’effare, se cache, veut rester ignorée. Mais, si vous la surprenez, si vous allez avec elle dans les brouillards légers du matin et du soir pareils aux crépuscules de Corot, quel délice vous éprouverez à la voir si chaste, si noble et si belle. D’ailleurs, Léon Dierx qui croit et qui a raison de croire que l’inspiration doit être fécondée et dirigée par l’art, a su réagir contre sa naturelle tendance à la rêverie confuse. Acharné à la rude besogne, il a réalisé en très grand nombre des poèmes savamment et clairement composés, solidement construits, nets, aux contours robustes.</p>
         <p>Voici l’un de ces fermes et beaux morceaux :</p>
         <quote>
-          <label>LAZARE</label>
-          <l/>
+          <label type="head">LAZARE</label>
           <l>À la voix de Jésus, Lazare s’éveilla ;</l>
           <l>Livide, il se dressa debout dans les ténèbres ;</l>
           <l>Il sortit tressaillant dans ses langes funèbres,</l>
@@ -2042,7 +2027,7 @@
           <l>As-tu subi deux fois l’étreinte qui terrasse.</l>
           <l>Pour regagner l’azur qui vers toi refluait ?</l>
           <l/>
-          <l> — Oh ! Que de fois, à l’heure où l’ombre emplit l’espace</l>
+          <l>— Oh ! Que de fois, à l’heure où l’ombre emplit l’espace</l>
           <l>Loin des vivants, dressant sur le fond d’or du ciel</l>
           <l>Ta grande forme aux bras levés vers l’Éternel ;</l>
           <l>Appelant par son nom l’ange attardé qui passe ;</l>
@@ -2057,8 +2042,7 @@
         <p>Un poète tout différent de Léon Dierx, c’est José-Maria de Heredia. Chez lui, au lieu de la rêverie harmonieuse, toute la robustesse avec un fracas de métal, et au lieu de teintes crépusculaires, le flamboiement aveuglant de midi.</p>
         <p>La fureur rouge des cactus, le resplendissement des incendies nocturnes, l’azur vert du ciel persan et les pourpres et les ors de Paul Véronèse ou de Delacroix, n’ont que des teintes pâles, en regard des strophes éclatantes de José-Maria de Heredia. Ne lui demandez pas la grâce familière de François Coppée ni la philosophie subtile de Sully Prudhomme. Né sous le ciel chaud de Cuba, ce qui lui plaît et ce qu’il vous offre, ce sont de farouches floraisons de couleurs. Dans son poème intitulé <hi rend="i">la Détresse d’Atahualpa</hi> mais surtout dans ses sonnets, dans ses sonnets retentissants et superbes, où l’on voit les chasseresses de l’Hémus traîner leurs chevaux roux dans le sang des bêtes égorgées et les Conquistadors partir dans la gloire du couchant pour de fauves Amériques, il verse prodigieusement les chromes, les vermillons, les ocres rouges, et en vérité pas un, non ! Pas un, n’excelle autant que lui à faire jaillir de la sonorité des mots des fanfares lumineuses. Des mots ? Sont-ce bien des mots, en effet, qu’il emploie ? On dirait plutôt que dans la monture infrangible de son vers il sertit des rubis, des escarboucles, des béryls et des chrysoprases, et chacun de ses sonnets est comme une éblouissante et solide mosaïque de pierreries.</p>
         <quote>
-          <label>LES CONQUÉRANTS</label>
-          <l/>
+          <label type="head">LES CONQUÉRANTS</label>
           <l>Comme un vol de gerfauts hors du charnier natal,</l>
           <l>Fatigués de porter leurs misères hautaines.</l>
           <l>De Palos de Moguer, routiers et capitaines</l>
@@ -2078,8 +2062,7 @@
           <l>Du fond de l’Océan des étoiles nouvelles.</l>
           <l/>
           <l/>
-          <label>VENDANGE</label>
-          <l/>
+          <label type="head">VENDANGE</label>
           <l>Les vendangeurs lassés ayant rompu leurs lignes,</l>
           <l>Des voix claires sonnaient dans l’air vibrant du soir</l>
           <l>Et les femmes en chœur marchant vers le pressoir</l>
@@ -2098,8 +2081,7 @@
           <l>Du pampre ensanglanté des antiques mystères</l>
           <l>La noire chevelure et la crinière d’or.</l>
           <l/>
-          <label>NÉMÉE</label>
-          <l/>
+          <label type="head">NÉMÉE</label>
           <l>Depuis que le Dompteur entra dans la forêt</l>
           <l>En suivant sur le sol la formidable empreinte,</l>
           <l>Seul, un rugissement a trahi leur étreinte.</l>
@@ -2118,8 +2100,7 @@
           <l>Fait, sous horrible peau qui flotte autour d’Hercule,</l>
           <l>Mêlant l’homme à la bête, un monstrueux héros.</l>
           <l/>
-          <label>LE SAMOURAÏ</label>
-          <l/>
+          <label type="head">LE SAMOURAÏ</label>
           <l>« C’était un homme à deux sabres. »</l>
           <l/>
           <l>D’un doigt distrait frôlant la sonore bîva,</l>
@@ -2142,8 +2123,7 @@
         </quote>
         <p>Je terminerai ces citations par un sonnet encore, non moins resplendissant que les autres, mais d’où se dégage, dans un mystérieux symbole, la pitié de la nature pour les dieux déchus.</p>
         <quote>
-          <label>SUR UN MARBRE BRISÉ</label>
-          <l/>
+          <label type="head">SUR UN MARBRE BRISÉ</label>
           <l>La mousse fut pieuse en fermant ses yeux mornes,</l>
           <l>Car, dans ce bois inculte, il chercherait en vain</l>
           <l>La vierge qui versait le lait pur et le vin</l>
@@ -2185,8 +2165,7 @@
         <p>C’est plein de cet amour pour la légende que j’ai écrit la plupart de mes poèmes : <hi rend="i">Pantéléia, Pagode</hi>, les <hi rend="i">Contes épiques, Hespérus, Le Soleil de Minuit.</hi></p>
         <p>Je dirai un court poème où j’ai exprimé de mon mieux ce regret du passé divin.</p>
         <quote>
-          <label>LA DERNIÈRE ÂME</label>
-          <l/>
+          <label type="head">LA DERNIÈRE ÂME</label>
           <l>Le ciel était sans dieux, la terre sans autels.</l>
           <l>Nul réveil ne suivait les existences brèves.</l>
           <l>L’homme ne connaissait, déchu des anciens rêves,</l>
@@ -2234,8 +2213,7 @@
         </quote>
         <p>Je vous lirai maintenant quelques-uns de mes petits <hi rend="i">Contes Épiques</hi> :</p>
         <quote>
-          <label>LE LION</label>
-          <l/>
+          <label type="head">LE LION</label>
           <l>Comme elle était chrétienne et n’avait pas voulu,</l>
           <l>Pour de vains dieux d’argile ou de bois vermoulu,</l>
           <l>Allumer de l’encens ni célébrer des fêtes,</l>
@@ -2266,7 +2244,7 @@
           <l>On le vit se coucher, doux et silencieux ;</l>
           <l>Et, comme elle était nue, il ferma les deux yeux.</l>
           <l/>
-          <label>PENTHÉSILÉE</label>
+          <label type="head">PENTHÉSILÉE</label>
           <l>Reine des Amazones</l>
           <l/>
           <l>La reine au cœur viril a quitté les cieux froids</l>
@@ -2279,8 +2257,8 @@
           <l>Elle, un désir la mord, indocile aux retards,</l>
           <l>De vaincre le plus fort, le plus beau des Hellènes,</l>
           <l>Achille ! Et son cheval bondit, les crins épars,</l>
-          <l> Et l’emporte vers la mêlée,</l>
-          <l> Et le cri de Penthésilée</l>
+          <l>        Et l’emporte vers la mêlée,</l>
+          <l>        Et le cri de Penthésilée</l>
           <l>S’ajoute au bruit montant des armes et des chars !</l>
           <l/>
           <l>« Achille ! Achille ! Achille ! ô héros ! Voici l’heure</l>
@@ -2301,7 +2279,7 @@
           <l>Mais frémis à ton tour ! Le glaive enfin se dresse</l>
           <l>Qui percera ton sein comme un sein d’enfant nu ;</l>
           <l>Car l’amazone vient qui n’a jamais connu</l>
-          <l> La peur ni la tendresse ! »</l>
+          <l>        La peur ni la tendresse ! »</l>
           <l/>
           <l>Telle en sa course, hélas ! Qui n’eut point de retour,</l>
           <l>Par dessus les fracas criait la vierge fière ;</l>
@@ -2309,9 +2287,9 @@
           <l>Mourante, elle mordrait la sanglante poussière,</l>
           <l>En jetant au vainqueur beau comme une guerrière</l>
           <l>Un regard moins chargé de haine que d’amour !</l>
-          <l/>
-          <label>LA DERNIÈRE ABEILLE</label>
-          <l> </l>
+          </quote>
+        <quote>
+          <label type="head">LA DERNIÈRE ABEILLE</label>
           <l>Vents, pluie, éclairs faisaient rage de telle sorte</l>
           <l>Qu’on n’avait jamais vu de tempête aussi forte.</l>
           <l>Sous l’épaisseur des bois par la bise ployés,</l>
@@ -2330,9 +2308,9 @@
           <l>L’essuya d’un baiser et la mit dans son sein</l>
           <l>Pour qu’elle y réchauffât ses deux ailes vermeilles.</l>
           <l>Sans cela, les étés n’auraient plus eu d’abeilles.</l>
-          <l/>
-          <label>LA FEMME ADULTÈRE</label>
-          <l/>
+          </quote>
+        <quote>
+          <label type="head">LA FEMME ADULTÈRE</label>
           <l>Un vieillard est assis dans l’ombre sur un banc.</l>
           <l>Autour de lui la salle est immense et déserte.</l>
           <l>On pourrait voir au loin par la fenêtre ouverte</l>
@@ -2383,17 +2361,17 @@
           <l>Puis, les deux bras au ciel, et reculant d’un pas :</l>
           <l>« Dieu de Jacob, dit-il, que nous veut cette morte ?</l>
           <l/>
-          <l> — Morte ? Non, prêtez-moi l’oreille, ouvrez les yeux.</l>
+          <l>— Morte ? Non, prêtez-moi l’oreille, ouvrez les yeux.</l>
           <l>J’étais morte en naissant, mais ce jour me délivre,</l>
           <l>Et mille nouveau-nés ont moins d’heures à vivre</l>
           <l>Que je ne compterai de siècles dans les cieux !</l>
           <l/>
-          <l> — Tu vis ! Qui l’a permis ? Par quels juges absoute,</l>
+          <l>— Tu vis ! Qui l’a permis ? Par quels juges absoute,</l>
           <l>Offenses-tu mon seuil de ton pied criminel ?</l>
           <l>Ô Seigneur ! N’est-il plus de lois dans Israël ?</l>
           <l>Ô peuple ! N’est-il plus de pierres sur la route ?</l>
           <l/>
-          <l> — Un nouveau laboureur ensemence les champs</l>
+          <l>— Un nouveau laboureur ensemence les champs</l>
           <l>Le Fils pardonne à ceux que le Père châtie,</l>
           <l>Et pour que son Église, un jour, en soit bâtie,</l>
           <l>Les cailloux du chemin ne seront plus méchants.</l>
@@ -2403,17 +2381,17 @@
           <l>Un scribe qui tenait un pavé la lâché ;</l>
           <l>Et sur les pieds du Christ j’ai béni la poussière.</l>
           <l/>
-          <l> — Le Christ, dis-tu ? Quel est ce prophète subtil</l>
+          <l>— Le Christ, dis-tu ? Quel est ce prophète subtil</l>
           <l>Qui du péché de l’un fait à l’autre un refuge ?</l>
           <l>C’est la Loi qui condamne, et, parce que le juge</l>
           <l>N’était pas innocent, le coupable l’est-il ?</l>
           <l/>
-          <l> — Aux yeux du Rédempteur ineffable qui donne</l>
+          <l>— Aux yeux du Rédempteur ineffable qui donne</l>
           <l>À notre antique nuit l’aube d’un nouveau jour,</l>
           <l>Et qui, haï de tous, offre à tous son amour,</l>
           <l>Le pardon est meilleur que l’équité n’est bonne.</l>
           <l/>
-          <l> — Moi seul, à qui justice était due en effet,</l>
+          <l>— Moi seul, à qui justice était due en effet,</l>
           <l>J’aurais pu pardonner. Mais lui, d’où vient qu’il l’ose ?</l>
           <l>De quel droit se fait-il arbitre dans ma cause,</l>
           <l>Puisqu’il n’a pas souffert du mal que tu m’as fait ?</l>
@@ -2458,12 +2436,12 @@
           <l>Écrasés par la roue et blanchis par les pluies,</l>
           <l>Devenus des jouets aux enfants du chemin !</l>
           <l/>
-          <l> — Hélas ! Pardonnez-la, comme il l’a pardonnée,</l>
+          <l>— Hélas ! Pardonnez-la, comme il l’a pardonnée,</l>
           <l>L’injure que j’ai faite à lui bien plus qu’à vous !</l>
           <l>Puisqu’il vous a montré l’exemple d’être doux,</l>
           <l>Laissez au repentir ma jeune destinée.</l>
           <l/>
-          <l> — Le péché qu’une femme a commis contre lui,</l>
+          <l>— Le péché qu’une femme a commis contre lui,</l>
           <l>Il peut le pardonner, si telle est sa pensée.</l>
           <l>Mais puisqu’enfin sa loi n’est pas seule offensée,</l>
           <l>Qu’il laisse agir en paix la justice d’autrui ! »</l>
@@ -2487,8 +2465,7 @@
         <p>Voici maintenant un poète charmant et frivole : Ernest d’Hervilly. Anglais par l’humour, Japonais par la bizarrerie, il est en même temps le plus parisien des parisiens. Il a tant d’esprit que l’on se demande parfois s’il n’en a pas trop ; car l’ironie épigrammatique n’est sans doute pas ce qui convient au vers. Si habile artisan qu’il soit, Ernest d’Hervilly, plus d’une fois, à trop vouloir mettre en saillie les pointes, a déchiré la rotondité du rythme. En même temps l’affectation du flegme britannique interrompt trop souvent chez lui la naïveté du lyrisme. Mais il a tant de grâce et sait si bien faire sourire que la critique est vite désarmée.</p>
         <p>Dans un de ses plus aimables recueils, intitulé <hi rend="i">le Harem</hi>, Ernest d’Hervilly évoque les belles femmes de tous les pays, et chacune nous apparaît, bizarrement exotique, avec ses attributs de race et de climat, dans le milieu qui lui est particulier. Rien de plus varié, ni de plus singulièrement coloré que ce voyage d’amour.</p>
         <quote>
-          <label>SUR LES BORDS DU SAUBAT.</label>
-          <l/>
+          <label type="head">SUR LES BORDS DU SAUBAT.</label>
           <l>Fille des durs Nouers, négresse callipyge,</l>
           <l>J’habite pour jamais ta case au toit pointu.</l>
           <l>Adieu, Paris ! — Amis, si quelqu’une s’afflige,</l>
@@ -2608,8 +2585,7 @@
         <p>Tout d’abord, il importe d’établir une distinction. Dans ce poète il y a deux poètes : celui de jadis et celui d’à présent. Déjà très subtil autrefois, chercheur des singularités du rêve, et des raffinements infinis, il était cependant d’une clarté parfaite et vous entendrez avec plaisir (entendre, dans les deux sens du mot) quelques-uns des premiers poèmes de notre ami.</p>
         <p>Voici d’adorables strophes sur la création des fleurs.</p>
         <quote>
-          <label>LES FLEURS</label>
-          <l/>
+          <label type="head">LES FLEURS</label>
           <l>Des avalanches d’or du vieil azur, au jour</l>
           <l>Premier, et de la neige éternelle des astres,</l>
           <l>Mon Dieu, tu détachas les grands calices pour</l>
@@ -2642,8 +2618,7 @@
         </quote>
         <p>Écoutez encore cet amer et déchirant poème :</p>
         <quote>
-          <label>LES FENÊTRES</label>
-          <l/>
+          <label type="head">LES FENÊTRES</label>
           <l>Las du triste hôpital et de l’encens fétide</l>
           <l>Qui monte en la blancheur banale des rideaux</l>
           <l>Vers le grand crucifix ennuyé du mur vide,</l>
@@ -2680,7 +2655,7 @@
           <l>Que dore le matin chaste de l’Infini,</l>
           <l/>
           <l>Je me mire et me vois ange ! Et je meurs, et j’aime</l>
-          <l> — Que la vitre soit l’art, soit la mysticité, — </l>
+          <l>— Que la vitre soit l’art, soit la mysticité, — </l>
           <l>À renaître portant mon rêve en diadème,</l>
           <l>Au ciel antérieur où fleurit la Beauté !</l>
           <l/>
@@ -2692,7 +2667,7 @@
           <l>Est-il moyen, mon Dieu qui voyez l’amertume,</l>
           <l>D’enfoncer le cristal par le monstre insulté,</l>
           <l>Et de m’enfuir, avec mes deux ailes sans plume,</l>
-          <l> — Au risque de tomber pendant l’éternité ?</l>
+          <l>— Au risque de tomber pendant l’éternité ?</l>
         </quote>
         <p>Je ne puis pas vous lire toutes les premières poésies de Stéphane Mallarmé ; mais les morceaux que vous venez d’entendre ne suffisent-ils pas à révéler un adorable et délicat esprit, un peu tourmenté sans doute, mais si clair et si précis dans l’expression même des plus fugitives rêveries ?</p>
         <p>Je ne chercherai pas à dissimuler que Stéphane Mallarmé a quelque peu modifié sa manière primitive, et qu’il s’est rendu moins aisément intelligible, surtout dans une églogue sensuelle, très païenne et si moderne, qu’il a intitulée <hi rend="i">L’après-midi d’un Faune</hi>. Raconter ce poème ? Il serait plus aisé peut-être de noter le chant d’un rossignol. L’impression qu’on en garde, c’est d’avoir été Faune soi-même, de s’être mêlé aux voix des eaux amoureuses, aux langueurs de l’heure fauve, à la luxure des roseaux souples qui gardent depuis la disparition des baigneuses la forme d’un enlacement vide, et l’on est sur le point de s’écrier avec le rôdeur des marécages siciliens :</p>
@@ -2750,15 +2725,14 @@
         </quote>
         <p>Il ajoute :</p>
         <quote>
-          <l> — L’eau regarde : — et l’aurore éveille,</l>
+          <l>— L’eau regarde : — et l’aurore éveille,</l>
           <l>Dans ce regard lent et discret,</l>
           <l>Comme l’étonnement secret</l>
           <l>D’un jeune esprit qui s’émerveille.</l>
         </quote>
         <p>Et les étoiles aussi le regardent. De quel regard terrible ! Écoutez le poème intitulé : <hi rend="i">les Astres</hi>, où se montrent si admirablement les qualités principales d’Armand Silvestre : la magnificence des images, l’ample et profonde harmonie des vers.</p>
         <quote>
-          <label>LES ASTRES</label>
-          <l/>
+          <label type="head">LES ASTRES</label>
           <l>Comme au front monstrueux d’une bête géante</l>
           <l>Des yeux, des yeux sans nombre, effroyables, hagards.</l>
           <l>Les Astres, dans la nue impassible et béante.</l>

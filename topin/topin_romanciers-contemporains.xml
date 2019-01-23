@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +38,7 @@
         <date when="1876"/>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -48,7 +48,7 @@
         <head>[Épigraphe]</head>
         <epigraph>
           <p>Il y a une sorte de critique qui ne se pique point d’être un genre, et qui en refuserait l’éloge. L’art de lire les bons livres serait son vrai nom. Elle parle plus volontiers de ses plaisirs que de ses dégoûts ; elle tient plus à nous faire aimer les beautés des livres qu’à nous rendre trop délicats sur les défauts des écrivains.</p>
-          <p>                                                                      <hi rend="sc">D. Nisard</hi>.</p>
+          <bibl><hi rend="sc">D. Nisard</hi>.</bibl>
         </epigraph>
       </div>
       <div>
@@ -854,13 +854,11 @@
         <p>Ici, il décrit en termes exquis ce que sont les bois pendant la nuit, qui leur donne une physionomie plus originale et plus intime.</p>
         <quote>
           <p>Dans le jour, traversés de rayons, égayés par les chants des oiseaux ou l’éclat des voix humaines, ils semblent s’imprégner de la vie des autres ; à la nuit, ils sont livrés à eux-mêmes et vivent de leur vie propre. Sous leur ombre, mille bruits insaisissables pendant les heures lumineuses redeviennent perceptibles ; on y distingue le frisson des feuilles de tremble sans cesse agitées et nerveuses, le frôlement des fougères qui se redressent, le son mat d’un gland tombant sur la mousse, ou le faible sanglot d’une source microscopique filtrant goutte à goutte entre les racines. Tous ces murmures s’unissent pour former une harmonie grave et pénétrante. Ainsi, au milieu des ténèbres douloureuses qui enveloppaient le cœur de Gérard, mille menues impressions, étouffées jusque-là par le tumulte des joies de la semaine passée, ressuscitaient pour ainsi dire et unissaient leurs voix frêles. Il retrouvait dans sa mémoire les moindres mots d’Hélène, ses gestes les plus insignifiants, les plus rapides variations de sa figure spirituelle et mobile. Le bruissement du vent dans les pins lui rappelait la musique du bal de Salvanches… Il revit Hélène tournant lentement sous la lumière des lustres, avec ses lèvres rieuses et sa longue jupe traînante, puis s’asseyant au piano et chantant de sa voix nette et bien timbrée la chanson des <hi rend="i">Ramiers</hi>…</p>
-          <p/>
-          <l>                            Dans les chemins creux</l>
+          <quote><l>                            Dans les chemins creux</l>
           <l>                            Leur chanson vagabonde</l>
           <l>                            Semble la voix profonde</l>
-          <l>                            Des printemps amoureux…</l>
-          <p/>
-          <p>Hélas ! cette nuit, dans les combes de la forêt, ce n’était pas la voix amoureuse des ramiers qui résonnait ; seule, la plainte funèbre de la <hi rend="i">hulette</hi> s’élevait par intervalle, comme l’appel désespéré d’un enfant perdu. Cette lamentation retentissante courait d’arbre en arbre, et allait mourir au loin dans les massifs. Chaque fois qu’elle traversait la futaie, les petits grillons tapis dans l’herbe faisaient soudain silence, et Gérard s’imaginait entendre la propre voix de son bonheur évanoui lui crier de loin : « Je ne reviendrai jamais plus, jamais plus ! » Il pressa le pas ; les ténèbres du bois l’oppressaient <note place="bottom"><hi rend="i">Le Mariage de Gérard</hi>, p. 120.</note>.</p>
+          <l>                            Des printemps amoureux…</l></quote>
+          <p>Hélas ! cette nuit, dans les combes de la forêt, ce n’était pas la voix amoureuse des ramiers qui résonnait ; seule, la plainte funèbre de la <hi rend="i">hulette</hi> s’élevait par intervalle, comme l’appel désespéré d’un enfant perdu. Cette lamentation retentissante courait d’arbre en arbre, et allait mourir au loin dans les massifs. Chaque fois qu’elle traversait la futaie, les petits grillons tapis dans l’herbe faisaient soudain silence, et Gérard s’imaginait entendre la propre voix de son bonheur évanoui lui crier de loin : « Je ne reviendrai jamais plus, jamais plus ! » Il pressa le pas ; les ténèbres du bois l’oppressaient<note place="bottom"><hi rend="i">Le Mariage de Gérard</hi>, p. 120.</note>.</p>
         </quote>
         <p>Là il montre ce que sont les chaudes après-midi de juin, sous bois :</p>
         <quote>

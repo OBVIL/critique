@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,7 +45,7 @@
         <date when="1912">1912</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -366,7 +366,7 @@
           <p>« Nous lirons demain quand on nous donnera quelque chose à lire de nouveau. Nous nous instruisons, en attendant, au théâtre ; nous apprenons à comprendre l’évolution d’où sortira le monde futur. Le livre est immortel, le théâtre n’est qu’une école. Attendons avec patience que les écoliers d’aujourd’hui, devenus des hommes nouveaux, écrivent des livres dignes de ceux que l’on écrivait hier.</p>
           <p rend="right">« G. de <hi rend="sc">Pawlowski</hi> » (<hi rend="i">Comœdia</hi>).</p>
         </quote>
-        <label>Les jours se suivent…</label>
+        <label type="head">Les jours se suivent…</label>
         <quote>
           <p>« Que pensez-vous du goût de la société contemporaine pour le théâtre ? nous demande la revue <hi rend="i">Les Marges</hi>. Ce goût constitue-t-il, à vos yeux, un indice de progrès intellectuel ou de décadence ? Est-il bien une forme du goût de la Littérature ? Préféreriez-vous qu’on eût gardé le goût des livres ? etc. »</p>
           <p><hi rend="i">Les Marges</hi> posent une question classique. On sait d’avance la réponse qu’il convient d’y faire, ce qui est bien commode. Déclarez que l’art dramatique est un art inférieur, et toutes les petites revues rendront hommage à la supériorité de votre esprit.</p>

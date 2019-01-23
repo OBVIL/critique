@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Horace de Lagardie,(pseud. de Peyronnet, Caroline de)</author>,<title> Causeries parisiennes : [première série (juin 1861 à juin 1862)]</title>, <pubPlace>Paris</pubPlace>, <publisher>Charpentier</publisher>, <date>1863</date>, II-423 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k6378166f">Gallica</ref>. Graphies modernisées.</bibl>
+        <bibl><author>Horace de Lagardie,(pseud. de Peyronnet, Caroline de)</author>, <title>Causeries parisiennes : [première série (juin 1861 à juin 1862)]</title>, <pubPlace>Paris</pubPlace>, <publisher>Charpentier</publisher>, <date>1863</date>, II-423 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k6378166f">Gallica</ref>. Graphies modernisées.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +46,7 @@
         <date when="1863">1863</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -415,42 +415,42 @@
           <p>On s’est demandé avec effroi s’il était possible qu’en 1864 un simple maire pût à ce point régner en despote sur ses administrés, et si le ministère public était réellement fondé à le désigner comme <quote>« celui qui a si longtemps tenu sous son joug de fer le canton de Coulonges, qui se faisait un jeu de l’honneur et de la liberté des citoyens, dont la <pb n="215"/>colère faisait trembler, et dont le nom faisait pâlir »</quote>. Est-il possible, se disait-on, que dans le canton qu’il administrait <quote>« aucune lettre n’eût pour lui de secret ; que les habitants de Coulonges se plaignissent et que nul ne les entendît, et que la vie fût devenue insupportable dans ce malheureux bourg »</quote> ? Tous les habitants infortunés de Coulonges étaient-ils en effet condamnés <quote>« à être les amis du maire et à s’associer à ses méfaits, ou bien à être ses ennemis et alors à être brisés »</quote> ? Peut-on croire « <quote>qu’aucun cabaret n’était ouvert, qu’aucun enfant n’était admis à l’école gratuite, si la mère ou la sœur ne payait le bienfaiteur de son honneur »</quote> ? Enfin, faut-il voir tous les habitants de Coulonges comme <quote>« le peuple en larmes de la tragédie grecque, le rameau des suppliants à la main, conjurant les dieux de les délivrer des iléaux et des monstres qui les déciment »</quote> ?</p>
           <p>En faisant une large part au lyrisme auquel M. Mouton s’est abandonné, il reste encore une situation déplorable pour ce malheureux petit coin de pays. La population, divisée en deux factions dont l’une tient pour le maire et l’autre le déteste, se combattant par tous les moyens ; des luttes électorales où l’on ne voit percer nul souci des intérêts du pays, ni même des intérêts de <pb n="216"/>clocher ; rien que des haines et des ambitions personnelles : tout cela compose un triste tableau qu’on aimerait à croire exagéré. Espérons que les étrangers ne formeront pas, d’après ces révélations de la vie de province, leur jugement sur la manière dont fonctionnent chez nous le suffrage universel et nos institutions municipales. Espérons qu’ils tiendront compte de ce verre grossissant que le barreau applique volontiers à tout ce qu’il présente, soit à notre admiration, soit à notre blâme. Si les mots d’enflure étaient bannis du reste de la littérature française, on les retrouverait dans les plaidoyers de nos avocats. Je vois même un certain danger pour notre langue des salons, si nette, si vive, si concise, dans la fréquentation trop suivie de cette autre langue boursouflée et tendue des tribunaux. L’habitude de l’emphase et de l’exagération pourra bien être un des inconvénients résultant de l’étude trop continuelle des drames judiciaires et de l’attention que leur accorde même le monde des salons, au préjudice de tout autre sujet de conversation.</p>
           <p>En comptant bien, je m’aperçois que j’ai parlé de deux procès seulement (seulement !), tandis qu’il y en a trois qui ont occupé tout Paris. Je suis consciencieux, mais je ne voudrais pas être trop <pb n="217"/>ennuyeux. Je suis donc tenté, puisque j’ai écrit tout à l’heure le mot de conversation, de faire raconter ce dernier procès par d’autres, comme je l’ai entendu raconter moi-même. Ce sera, si vous voulez bien, une photographie.</p>
-          <label>(La scène se passe dans un salon de Paris. !</label>
-          <label>UN MONSIEUR (<hi rend="i">le journal du soir à la main</hi>).</label>
+          <stage rend="center">(La scène se passe dans un salon de Paris. !</stage>
+          <label type="speaker">UN MONSIEUR (<hi rend="i">le journal du soir à la main</hi>).</label>
           <p>Avez-vous suivi le procès de M. de Flers ?</p>
-          <label>UN CURIEUX.</label>
+          <label type="speaker">UN CURIEUX.</label>
           <p>Suivi !… c’est facile à dire. Je l’ai suivi comme on suit un domino au bal masqué. Vous savez que les journaux ne peuvent pas en rendre compte.</p>
-          <label>UN ÉTRANGER.</label>
+          <label type="speaker">UN ÉTRANGER.</label>
           <p>J’ai lu cela dans <hi rend="i">le Nord</hi> ; c’est très curieux.</p>
-          <label>LA MAÎTRESSE DE MAISON (<hi rend="i">qui n’a entendu que le dernier mot, mais qui cherche un Curtius pour le gouffre de la conversatio</hi>n).</label>
+          <label type="speaker">LA MAÎTRESSE DE MAISON (<hi rend="i">qui n’a entendu que le dernier mot, mais qui cherche un Curtius pour le gouffre de la conversatio</hi>n).</label>
           <p>Ah ! c’est curieux ! Contez-nous donc cela.</p>
-          <label>LE MONSIEUR (<hi rend="i">d’un ton sentencieux et en jetant de temps en temps un coup d’œil sur le journal</hi>).</label>
+          <label type="speaker">LE MONSIEUR (<hi rend="i">d’un ton sentencieux et en jetant de temps en temps un coup d’œil sur le journal</hi>).</label>
           <p>Le marquis de Flers est un conseiller référendaire à la Cour des comptes, qui a été inculpé du délit d’entretien d’intelligence à l’étranger, dans le but de troubler la paix publique ou d’exciter <pb n="218"/>à la haine et au mépris du gouvernement de l’empereur. Art. 2 de la loi du 27 février 1858, dite de sûreté générale.</p>
-          <label>UN VIEUX GÉNÉRAL DU PREMIER EMPIRE (<hi rend="i">un peu sourd</hi>)</label>
+          <label type="speaker">UN VIEUX GÉNÉRAL DU PREMIER EMPIRE (<hi rend="i">un peu sourd</hi>)</label>
           <p>Intelligence à l’étranger… Avec les Chinois, sans doute… Nous n’avons pas d’autre guerre.</p>
-          <label>UN MAUVAIS PLAISANT.</label>
+          <label type="speaker">UN MAUVAIS PLAISANT.</label>
           <p>Il y a plusieurs manières d’entretenir l’intelligence, et il en est plus d’une qui n’est pas légale. M. de Flers était le correspondant de plusieurs journaux étrangers, le <hi rend="i">Journal de Genève</hi>, la <hi rend="i">Gazette d’Augsbourg</hi> et l’<hi rend="i">Indépendance belge</hi>, entre autres. Il paraît qu’il parlait du gouvernement…</p>
-          <label>LA MAÎTRESSE DE MAISON (<hi rend="i">interrompant vivement</hi>).</label>
+          <label type="speaker">LA MAÎTRESSE DE MAISON (<hi rend="i">interrompant vivement</hi>).</label>
           <p>Enfin, à quoi est-il condamné, ce monsieur ?</p>
-          <label>LE MONSIEUR.</label>
+          <label type="speaker">LE MONSIEUR.</label>
           <p>À deux mois d’emprisonnement et à deux mille francs d’amende.</p>
-          <label>LE VIEUX GÉNÉRAL (<hi rend="i">sourd</hi>).</label>
+          <label type="speaker">LE VIEUX GÉNÉRAL (<hi rend="i">sourd</hi>).</label>
           <p>De mon temps on l’eût fusillé… S’entendre avec l’ennemi !</p>
-          <label>UN BON ENFANT.</label>
+          <label type="speaker">UN BON ENFANT.</label>
           <p>Deux mille francs d’amende, deux mois de prison : il n’y a rien à dire. Il en a été quitte à bon marché.</p>
-          <label>LE MONSIEUR (<hi rend="i">qui a repris son journal et qui lit</hi>).</label>
+          <label type="speaker">LE MONSIEUR (<hi rend="i">qui a repris son journal et qui lit</hi>).</label>
           <p><pb n="219"/>Il convient d’ajouter que cette condamnation entraîne des conséquences graves prévues par l’article 5 de la loi de sûreté générale. <quote>« Tout individu condamné pour un des délits prévus par la présente loi peut être, par une mesure de sûreté générale, interné dans un des départements de l’empire. »</quote></p>
-          <label>UNE JEUNE FEMME (<hi rend="i">qui vient de passer six mois en province</hi>).</label>
+          <label type="speaker">UNE JEUNE FEMME (<hi rend="i">qui vient de passer six mois en province</hi>).</label>
           <p>Quelle horreur ! c’est indigne !</p>
-          <label>LE MONSIEUR (<hi rend="i">reprenant majestueusement</hi>).</label>
+          <label type="speaker">LE MONSIEUR (<hi rend="i">reprenant majestueusement</hi>).</label>
           <p>… Ou en Algérie, ou expulsé du territoire français.</p>
-          <label>UN ADMINISTRATEUR DE CHEMIN DE FER (<hi rend="i">qui vient de lire les articles du docteur Véron</hi>).</label>
+          <label type="speaker">UN ADMINISTRATEUR DE CHEMIN DE FER (<hi rend="i">qui vient de lire les articles du docteur Véron</hi>).</label>
           <p>C’est bien fait ! quelle démangeaison d’écrire ! quelle rage universelle de se faire imprimer ! À quoi bon ?</p>
-          <label>UN VIEUX PUBLICISTE LIBÉRAL DE LA RESTAURATION (<hi rend="i">vivement</hi>)</label>
+          <label type="speaker">UN VIEUX PUBLICISTE LIBÉRAL DE LA RESTAURATION (<hi rend="i">vivement</hi>)</label>
           <p>À nous empêcher de mourir étouffés comme dans une machine pneum… (<hi rend="i">Il se fait un grand silence. Le vieux publiciste rougit, balbutie, et se tait</hi>.)</p>
-          <label>L’ADMINISTRATEUR (<hi rend="i">s’animant</hi>).</label>
+          <label type="speaker">L’ADMINISTRATEUR (<hi rend="i">s’animant</hi>).</label>
           <p><pb n="220"/>Écrire sur tout ! à propos de tout !. Qu’a-t-on besoin de savoir tout ce qui se passe ! À quoi bon ?</p>
-          <label>H. L.</label>
+          <signed>H. L.</signed>
           <p>En effet… à quoi bon ?</p>
         </div>
       </div>

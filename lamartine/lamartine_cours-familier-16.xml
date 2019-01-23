@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <date when="1863">1863</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -114,7 +114,7 @@
           </quote>
           <p><pb n="20"/>Rentré le soir à l’hôtellerie, à Ferrare, et encore tout ému de mes impressions dans le cachot du Tasse, j’écrivis les strophes suivantes qui n’ont jamais, je crois, été imprimées.</p>
           <quote>
-            <l><hi rend="sc">Le cachot du Tasse</hi>.</l>
+            <label type="head"><hi rend="sc">Le cachot du Tasse</hi>.</label>
             <l>Homme ou Dieu, tout génie est promis au martyre :</l>
             <l>Du supplice plus tard on baise l’instrument ;</l>
             <l>L’homme adore la croix où sa victime expire</l>
@@ -757,8 +757,8 @@
           <head>IX</head>
           <p>Les premiers vers qu’il laissa transpirer furent, selon moi, les plus parfaits de ses vers. Les voici : que le lecteur les juge !</p>
           <quote>
-            <l><hi rend="sc">Moïse</hi>.
-<lb/>(poème.)</l>
+            <label type="head"><hi rend="sc">Moïse</hi>.
+<lb/>(poème.)</label>
             <l>Le soleil prolongeait sur la cime des tentes</l>
             <l>Ces obliques rayons, ces flammes éclatantes,</l>
             <l>Ces larges traces d’or qu’il laisse dans les airs,</l>
@@ -783,9 +783,7 @@
             <l>Où sa tombe, il le sait, ne sera point admise.</l>
             <l>Il voit, sur les Hébreux étend sa grande main,</l>
             <l>Puis vers le haut du mont il reprend son chemin.</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>Or, des champs de Moab couvrant la vaste enceinte,</l>
             <l>Pressés au large pied de la montagne sainte,</l>
             <l>Les enfants d’Israël s’agitaient au vallon</l>
@@ -806,11 +804,7 @@
             <l>Tels qu’un bois de cyprès sur le sable qui roule,</l>
             <l>Du peuple avec la harpe accompagnant les voix,</l>
             <l>Dirigeaient vers le ciel l’hymne du Roi des Rois.</l>
-            <l>
-              
-            </l>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l><pb n="240"/>Et, debout devant Dieu, Moïse ayant pris place,</l>
             <l>Dans le nuage obscur lui parlait face à face.</l>
             <l/>
@@ -824,9 +818,7 @@
             <l>De vous à lui qu’un autre accepte l’entremise,</l>
             <l>Au coursier d’Israël qu’il attache le frein ;</l>
             <l>Je lui lègue mon livre et la verge d’airain.</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>« Pourquoi vous fallut-il tarir mes espérances,</l>
             <l>Ne pas me laisser homme avec mes ignorances,</l>
             <l>Puisque du mont Horeb jusques au mont Nébo</l>
@@ -841,9 +833,7 @@
             <l>Ma main fait et défait les générations. — </l>
             <l>Hélas ! je suis, Seigneur, puissant et solitaire,</l>
             <l>Laissez-moi m’endormir du sommeil de la terre !</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>« Hélas ! je sais aussi tous les secrets des cieux,</l>
             <l>Et vous m’avez prêté la force de vos yeux.</l>
             <l><pb n="241"/>Je commande à la nuit de déchirer ses voiles ;</l>
@@ -864,9 +854,7 @@
             <l>Et cependant, Seigneur, je ne suis pas heureux ;</l>
             <l>Vous m’avez fait vieillir puissant et solitaire,</l>
             <l>Laissez-moi m’endormir du sommeil de la terre.</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>« Sitôt que votre souffle a rempli le berger,</l>
             <l>Les hommes se sont dit : Il nous est étranger ;</l>
             <l>Et leurs yeux se baissaient devant mes yeux de flamme,</l>
@@ -883,9 +871,7 @@
             <l>Et, quand j’ouvre les bras, on tombe à mes genoux.</l>
             <l>Ô Seigneur ! j’ai vécu puissant et solitaire,</l>
             <l>Laissez-moi m’endormir du sommeil de la terre. »</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>Or le peuple attendait, et, craignant son courroux,</l>
             <l>Priait sans regarder le mont du Dieu jaloux ;</l>
             <l>Car, s’il levait les yeux, les flancs noirs du nuage</l>
@@ -896,14 +882,14 @@
             <l>Il fut pleuré. — Marchant vers la terre promise,</l>
             <l>Josué s’avançait pensif et pâlissant,</l>
             <l>Car il était déjà l’élu du Tout-Puissant.</l>
-            <l>Écrit en 1822.</l>
+            <label type="dateline"><hi rend="n">Écrit en 1822.</hi></label>
           </quote>
-          <l>Que dire après un pareil début ?</l>
-          <l>Qu’un grand poète vient de naître ;</l>
-          <l>Que ce poète ne ressemble à personne ;</l>
-          <l>Que les sentiments exprimés dans son poème sont aussi neufs que grandioses ;</l>
-          <l>Que la mélancolie du génie qui fait subir sa solitude à un grand homme n’a jamais trouvé ni un pareil type ni une expression si neuve et si excentrique ;</l>
-          <l>Que les vers sont dignes du stérile Nébo, et que l’éternel Jéhova les a inspirés comme il les <pb n="243"/>a entendus retentir dans les échos sonores du désert.</l>
+          <p>Que dire après un pareil début ?</p>
+          <p>Qu’un grand poète vient de naître ;</p>
+          <p>Que ce poète ne ressemble à personne ;</p>
+          <p>Que les sentiments exprimés dans son poème sont aussi neufs que grandioses ;</p>
+          <p>Que la mélancolie du génie qui fait subir sa solitude à un grand homme n’a jamais trouvé ni un pareil type ni une expression si neuve et si excentrique ;</p>
+          <p>Que les vers sont dignes du stérile Nébo, et que l’éternel Jéhova les a inspirés comme il les <pb n="243"/>a entendus retentir dans les échos sonores du désert.</p>
           <p>Toutes les oreilles capables de les supporter en restèrent retentissantes. Quant à moi, je ne pus jamais les oublier. Byron n’avait rien de plus désespéré ; Hugo, rien de plus stoïque ; Moïse semblait avoir ressuscité pour se plaindre de sa grandeur. Vigny laissa se prolonger pendant toute sa vie ce retentissement de sa grande âme. Sa mère se réjouit d’avoir porté, dans l’exil de Babylone, l’enfant qui réveillait sa patrie par des accents si sacrés.</p>
         </div>
         <div>
@@ -913,10 +899,10 @@
           <p>En ce temps-là il en écrivait beaucoup, mais lentement, comme on doit écrire pour la postérité. Le temps présent lui importait peu ; il visait longtemps et très haut.</p>
           <p>Indépendamment de quelques poèmes très courts, mais très parfaits d’exécution, tels que <hi rend="i">le Cor</hi>, où l’on retrouve l’instinct musical de son âme, et qu’il écrivit pendant un voyage dans les Pyrénées avec sa mère, et que voici :</p>
           <quote>
-            <l><hi rend="sc">Le Cor</hi>.
-<lb/>(poème.)</l>
+            <label type="head"><hi rend="sc">Le Cor</hi>.
+<lb/>(poème.)</label>
             <l/>
-            <l>I.</l>
+            <label type="head">I.</label>
             <l><pb n="246"/>J’aime le son du cor, le soir, au fond des bois,</l>
             <l>Soit qu’il chante les pleurs de la biche aux abois,</l>
             <l>Ou l’adieu du chasseur que l’écho faible accueille,</l>
@@ -945,8 +931,7 @@
             <l>Est-ce vous qui parlez avec la voix du cor ?</l>
             <l>Roncevaux ! Roncevaux ! dans ta sombre vallée</l>
             <l>L’ombre du grand Roland n’est donc pas consolée ?</l>
-            <l/>
-            <l>II.</l>
+            <label type="head">II.</label>
             <l>« Tous les preux étaient morts, mais aucun n’avait fui.</l>
             <l>Il reste seul debout, Olivier près de lui,</l>
             <l>L’Afrique sur les monts l’entoure et tremble encore.</l>
@@ -963,8 +948,7 @@
             <l>Et jusqu’au pied des monts le roulant d’une main,</l>
             <l>Sur le roc affermi comme un géant s’élance,</l>
             <l>Et, prête à fuir, l’armée à ce seul pas balance.</l>
-            <l/>
-            <l>III.</l>
+            <label type="head">III.</label>
             <l>« Tranquilles cependant, Charlemagne et ses preux</l>
             <l>Descendaient la montagne et se parlaient entre eux.</l>
             <l>À l’horizon déjà, par leurs eaux signalées,</l>
@@ -997,9 +981,9 @@
             <l>Appelle à son secours, ce doit être en mourant.</l>
             <l>Arrière, chevaliers, repassons la montagne !</l>
             <l>Tremble encor sous nos pieds, sol trompeur de l’Espagne !</l>
-            <l/>
-            <l>IV.</l>
-            <l><pb n="249"/>« Sur le plus haut des monts s’arrêtent les chevaux ;</l>
+            <pb n="249"/>
+            <label type="head">IV.</label>
+            <l>« Sur le plus haut des monts s’arrêtent les chevaux ;</l>
             <l>L’écume les blanchit ; sous leurs pieds, Roncevaux</l>
             <l>Des feux mourants du jour à peine se colore.</l>
             <l>À l’horizon lointain fuit l’étendard du More.</l>
@@ -1008,11 +992,9 @@
             <l>Tous deux sont écrasés par une roche noire ;</l>
             <l>Le plus fort, dans sa main, élève un cor d’ivoire,</l>
             <l>Son âme en s’exhalant nous appela deux fois. »</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>« Dieu ! que le son du cor est triste au fond des bois ! »</l>
-            <l>Écrit à Pau, en 1825.</l>
+            <label type="dateline"><hi rend="n">Écrit à Pau, en 1825.</hi></label>
           </quote>
           <p>Il méditait un poème plus étendu sur le mode amer et mystérieux de lord Byron : <hi rend="i">Dolorida</hi>. C’est une beauté trahie qui empoisonne par jalousie son amant, qui jouit de ses tortures dont il ignore la cause, et qui au moment de son dernier soupir lui révèle son crime, par un vers qui éclate comme la lueur d’un poignard tiré du fourreau :</p>
           <quote>
@@ -1029,7 +1011,7 @@
           <quote>
             <l>………………………………………………………</l>
             <l>………………………………………………………</l>
-            <l> « Souvent parmi les monts qui dominent la terre</l>
+            <l>« Souvent parmi les monts qui dominent la terre</l>
             <l>S’ouvre un puits naturel, profond et solitaire ;</l>
             <l>L’eau qui tombe du ciel s’y garde, obscur miroir</l>
             <l>Où, dans le jour, on voit les étoiles du soir.</l>
@@ -1065,9 +1047,7 @@
             <l>Pareille à ces divans où dort la molle Asie.</l>
             <l>Là, comme un Ange assis, jeune, triste et charmant,</l>
             <l>Une forme céleste apparut vaguement.</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
+            <ab type="ornament">* * *</ab>
             <l>« Quelquefois un enfant de la Clyde écumeuse,</l>
             <l>En bondissant parcourt sa montagne brumeuse,</l>
             <l>Et chasse un daim léger que son cor étonna,</l>
@@ -1088,10 +1068,8 @@
             <l>Sous ses doigts transparents la harpe vaporeuse ;</l>
             <l><pb n="254"/>Il cherche alors comment Ossian la nomma,</l>
             <l>Et, debout sur sa roche, appelle Évir-Coma.</l>
-            <l/>
-            <l>* * *</l>
-            <l/>
-            <l> « Non moins belle apparut, mais non moins incertaine,</l>
+            <ab type="ornament">* * *</ab>
+            <l>« Non moins belle apparut, mais non moins incertaine,</l>
             <l>De l’Ange ténébreux la forme encor lointaine,</l>
             <l>Et des enchantements non moins délicieux</l>
             <l>De la Vierge céleste occupèrent les yeux.</l>
@@ -1175,8 +1153,8 @@
             <p>« Les étrangers ont bien voulu en traduire les mots par les mots de leur langue, et leurs pays m’ont ainsi prêté l’oreille. Parmi les hommes qui m’ont écouté, les uns ont applaudi la composition des trois drames suspendus à un même principe, comme trois tableaux à un même support ; les autres ont approuvé la manière dont se nouent les arguments aux preuves, les règles aux exemples, <pb n="272"/>les corollaires aux propositions ; quelques-uns se sont attachés particulièrement à considérer les pages où se pressent les idées laconiques, serrées comme les combattants d’une épaisse phalange ; d’autres ont souri à la vue des couleurs chatoyantes ou sombres du style ; mais les cœurs ont-ils été attendris ? — Rien ne me le prouve. L’endurcissement ne s’amollit point tout à coup par un livre. Il fallait Dieu lui-même pour ce prodige. Le plus grand nombre a dit en jetant ce livre : Cette idée pouvait en effet se défendre. Voilà qui est un assez bon plaidoyer ! — Mais la cause, ô grand Dieu ! la cause pendante à votre tribunal, ils n’y ont plus pensé !</p>
             <p>« La cause ? c’est le martyre perpétuel et la perpétuelle immolation du Poëte. — La cause ? c’est le droit qu’il aurait de vivre. — La cause ? c’est le pain qu’on ne lui donne pas. — La cause ? c’est la mort qu’il est forcé de se donner.</p>
             <p>« D’où vient ce qui se passe ? Vous ne cessez de vanter l’intelligence, et vous tuez les plus intelligents. Vous les tuez, en leur refusant le pouvoir de vivre selon les conditions de leur nature. — On croirait, à vous voir <pb n="273"/>en faire si bon marché, que c’est une chose commune qu’un Poëte. — Songez donc que lorsqu’une nation en a deux en dix siècles, elle se trouve heureuse et s’enorgueillit. Il y a tel peuple qui n’en a pas un, et n’en aura jamais. D’où vient donc ce qui se passe ? Pourquoi tant d’astres éteints dès qu’ils commençaient à poindre ? C’est que vous ne savez pas ce que c’est qu’un Poëte, et vous n’y pensez pas.</p>
-            <l>                    Auras-tu donc toujours des yeux pour ne pas voir,</l>
-            <l>                    Jérusalem !</l>
+            <quote><l>Auras-tu donc toujours des yeux pour ne pas voir,</l>
+            <l>Jérusalem !</l></quote>
             <p>« Trois sortes d’hommes, qu’il ne faut pas confondre, agissent sur les sociétés par les travaux de la pensée, mais se remuent dans des régions qui me semblent éternellement séparées.</p>
             <p>« L’homme habile aux choses de la vie, et toujours apprécié, se voit, parmi nous, à chaque pas. Il est convenable à tout et convenable en tout. Il a une souplesse et une facilité qui tiennent du prodige. Il fait justement ce qu’il a résolu de faire, et dit proprement et nettement ce qu’il veut dire. Rien n’empêche que sa vie soit prudente et <pb n="274"/>compassée comme ses travaux. Il a l’esprit libre, frais et dispos, toujours présent et prêt à la riposte. Dépourvu d’émotions réelles, il renvoie promptement la balle élastique des bons mots. Il écrit les affaires comme la littérature, et rédige la littérature comme les affaires. Il peut s’exercer indifféremment à l’œuvre d’art et à la critique, prenant dans l’une la forme à la mode, dans l’autre la dissertation sentencieuse. Il sait le nombre de paroles que l’on peut réunir pour faire les apparences de la passion, de la mélancolie, de la gravité, de l’érudition et de l’enthousiasme. Mais il n’a que de froides velléités de ces choses, et les devine plus qu’il ne les sent ; il les respire de loin comme de vagues odeurs de fleurs inconnues. Il sait la place du mot et du sentiment, et les chiffrerait au besoin. Il se fait le langage des genres, comme on se fait le masque des visages. Il peut écrire la comédie et l’oraison funèbre, le roman et l’histoire, l’épître et la tragédie, le couplet et le discours politique. Il monte de la grammaire à l’œuvre, au lieu de descendre de l’inspiration au style ; il sait façonner tout dans un goût vulgaire et joli, et <pb n="275"/>peut tout ciseler avec agrément, jusqu’à l’éloquence de la passion. — C’est l’HOMME DE LETTRES.</p>
             <p>« Cet homme est toujours aimé, toujours compris, toujours en vue ; comme il est léger et ne pèse à personne, il est porté dans tous les bras où il veut aller ; c’est l’aimable roi du moment, tel que le dix-huitième siècle en a tant couronnés. — Cet homme n’a nul besoin de pitié.</p>
@@ -1203,11 +1181,11 @@
             <p>« L’infirmité de l’inspiration est peut-être ridicule et malséante ; je le veux. Mais on pourrait ne pas laisser mourir cette sorte de malades. Ils sont toujours peu nombreux, et je ne puis me refuser à croire qu’ils ont <pb n="285"/>quelque valeur, puisque l’humanité est unanime sur leur grandeur, et les déclare immortels sur quelques vers : quand ils sont morts, il est vrai.</p>
             <p>« Je sais bien que la rareté même de ces hommes inspirés et malheureux semblera prouver contre ce que j’ai écrit. — Sans doute, l’ébauche imparfaite que j’ai tentée de ces natures divines ne peut retracer que quelques traits des grandes figures du passé. On dira que les symptômes du génie se montrent sans enfantement ou ne produisent que des œuvres avortées ; que tout homme jeune et rêveur n’est pas poète pour cela ; que des essais ne sont pas des preuves ; que quelques vers ne donnent pas des droits. — Et qu’en savons-nous ? Qui donc nous donne à nous-mêmes le droit d’étouffer le gland en disant qu’il ne sera pas chêne ?</p>
             <p>« Je dis, moi, que quelques vers suffiraient à les faire reconnaître de leur vivant, si l’on savait y regarder. Qui ne dit à présent qu’il eût donné tout au moins une pension alimentaire à André Chénier sur l’ode de <hi rend="i">la Jeune Captive</hi> seulement, et l’eût déclaré poète sur les trente vers de <hi rend="i">Myrto</hi> ? Mais je suis assuré que, durant sa vie (et il n’y a pas <pb n="286"/>longtemps de cela), on ne pensait pas ainsi ; car il disait :</p>
-            <l>                    Las du mépris des sots qui suit la pauvreté,</l>
-            <l>                    Je regarde la tombe, asile souhaité.</l>
+            <quote><l>Las du mépris des sots qui suit la pauvreté,</l>
+            <l>Je regarde la tombe, asile souhaité.</l></quote>
             <p>« Jean La Fontaine a gravé pour vous d’avance sur sa pierre avec son insouciance désespérée :</p>
-            <l>                    Jean s’en alla comme il était venu,</l>
-            <l>                    Mangeant son fonds avec son revenu.</l>
+            <quote><l>Jean s’en alla comme il était venu,</l>
+            <l>Mangeant son fonds avec son revenu.</l></quote>
             <p>« Mais, sans ce <hi rend="i">fonds</hi>, qu’eût-il fait ? à quoi, s’il vous plaît, <hi rend="i">était-il bon</hi> ? Il vous le dit : à dormir et ne rien faire. Il fût infailliblement mort de faim.</p>
             <p>« Les beaux vers, il faut dire le mot, sont une marchandise qui ne plaît pas au commun des hommes. Or la multitude seule multiplie le salaire ; et, dans les plus belles des nations, la multitude ne cesse qu’à la longue d’être <hi rend="i">commune</hi> dans ses goûts et d’aimer ce qui est <hi rend="i">commun</hi>. Elle ne peut arriver qu’après une lente instruction donnée par les esprits d’élite ; et, en attendant, elle écrase sous tous ses pieds les talents naissants, dont elle n’entend même pas les cris de détresse.</p>
             <p>« Eh ! n’entendez-vous pas le bruit des pistolets <pb n="287"/>solitaires ? Leur explosion est bien plus éloquente que ma faible voix. N’entendez-vous pas ces jeunes désespérés qui demandent le pain quotidien, et dont personne ne paye le travail ? Eh quoi ! les nations manquent-elles à ce point de superflu ? Ne prendrons-nous pas, sur les palais et les milliards que nous donnons, une mansarde et un pain pour ceux qui tentent sans cesse d’idéaliser leur nation malgré elle ? Cesserons-nous de leur dire : Désespère et meurs ; <foreign xml:lang="eng"><hi rend="i">despair and die</hi></foreign> ? — C’est au législateur à guérir cette plaie, l’une des plus vives et des plus profondes de notre corps social ; c’est à lui qu’il appartient de réaliser dans le présent une partie des jugements meilleurs de l’avenir, en assurant quelques années d’existence seulement à tout homme qui aurait donné un seul gage du talent divin. Il ne lui faut que deux choses : la vie et la rêverie ; le PAIN et le TEMPS.</p>
@@ -1232,12 +1210,12 @@
           <head>XV</head>
           <p><pb n="293"/>M. de Vigny, cependant, ébranlé par les secousses de la révolution qui vient d’éclater, à son insu possédé par la haine féodale contre ceux qui viennent d’expulser son roi et dont il est heureux de se venger, prend en main la cause de ce coupable et malheureux Chatterton, le compose comme la cause d’un poète et d’un homme <hi rend="i">incompris</hi>, et en fait un dangereux chef-d’œuvre, un manifeste socialiste touchant, contre le sens commun et contre la société de droit et de devoir commun aussi. Mais il le compose avec génie. Voyons ce génie, et, tout en blâmant l’auteur, étudions l’ouvrage ; et, si nous ne connaissions pas Chatterton, voyons si nous n’aurions pas pleuré !</p>
           <quote>
-            <label>CHATTERTON</label>
-            <label>ACTE PREMIER.</label>
+            <label type="head">CHATTERTON</label>
+            <label type="head">ACTE PREMIER.</label>
             <p><pb n="294"/><hi rend="i">La scène représente un vaste appartement ; arrière-boutique opulente et confortable de la maison de John Bell. À gauche du spectateur, une cheminée pleine de charbon de terre allumé. À droite, la porte de la chambre à coucher de Kitty Bell. Au fond, une grande porte vitrée : à travers les petits carreaux on aperçoit une riche boutique ; un grand escalier tournant conduit à plusieurs portes étroites et sombres, parmi lesquelles se trouve la porte de la petite chambre de Chatterton.</hi></p>
             <p rend="i">Le Quaker lit dans un coin de la chambre, à gauche du spectateur. À droite est assise Kitty Bell ; à ses pieds un enfant assis sur un tabouret ; une jeune fille debout à côté d’elle.</p>
-            <label>SCENE PREMIERE.</label>
-            <label>LE QUAKER, KITTY BELL, RACHEL.</label>
+            <label type="head">SCENE PREMIERE.</label>
+            <stage rend="center">LE QUAKER, KITTY BELL, RACHEL.</stage>
             <label type="speaker">Kitty Bell,<hi rend="i"> à sa fille, qui montre un livre à son frère</hi>.</label>
             <p>Il me semble que j’entends parler monsieur ; ne faites pas de bruit, enfants.</p>
             <p rend="i">Au Quaker.</p>
@@ -1275,8 +1253,8 @@
             <label type="speaker">Le Quaker.</label>
             <p>Ah ! je sais ce qui monte à la tête de votre seigneur et maître : c’est une querelle avec les ouvriers de sa fabrique. — Ils viennent de lui envoyer, de Norton à Londres, une députation pour demander la grâce d’un de leurs compagnons. Les pauvres gens ont fait bien vainement une lieue à pied ! — Retirez-vous tous les trois… vous êtes inutiles ici. — Cet homme-là vous tuera… c’est une espèce de vautour qui écrase sa couvée.</p>
             <p rend="i">Kitty Bell sort, la main sur son cœur, en s’appuyant sur la tête de son fils, qu’elle emmène avec Rachel.</p>
-            <label>SCENE II.</label>
-            <label>LE QUAKER, JOHN BELL, <hi rend="sc">un groupe d’ouvriers</hi>.</label>
+            <label type="head">SCENE II.</label>
+            <stage rend="center">LE QUAKER, JOHN BELL, <hi rend="sc">un groupe d’ouvriers</hi>.</stage>
             <label type="speaker">Le Quaker,<hi rend="i"> seul, regardant arriver John Bell</hi>.</label>
             <p>Le voilà en fureur… Voilà l’homme riche, le spéculateur heureux ; voilà l’égoïste par excellence, le juste selon la loi.</p>
             <label type="speaker">John Bell,<hi rend="i"> vingt ouvriers le suivent en silence et s’arrêtent contre la porte</hi>.</label>
@@ -1329,9 +1307,9 @@
           <p>Chatterton, pâli par les études d’une longue nuit d’insomnie, paraît. Le deuxième acte est <pb n="303"/>simple et naïf, d’un effet immense et cependant sans événement. Il y a dans la maison un vieux médecin quaker, ami de Chatterton, protecteur de M<hi rend="sup">me</hi> Kitty Bell, femme du bourgeois. Chatterton, en se promenant avec son ami le quaker, rencontre quelques jeunes lords ; revoyant lord Talbot, un de ses camarades de collège, il craint d’en être reconnu et manifeste au quaker ses sinistres pressentiments. En effet lord Talbot et ses amis entrent quelques moments après chez M. et M<hi rend="sup">me</hi> Bell, ils ont à demi-voix un entretien railleur avec Chatterton ; s’étonnant de le trouver logé si pauvrement, ils devinent qu’il aime la femme innocente du bourgeois. Le bourgeois ne s’alarme pas trop de ces insinuations. Il espère que l’amitié de Chatterton lui vaudra la faveur de cette riche et puissante cohue de grands seigneurs. Il les invite à souper. Kitty Bell parle pour la première fois à son hôte, qu’elle croit riche aussi maintenant, et le prie de prendre un appartement plus convenable à sa fortune. Je suis <hi rend="i">ouvrier en livres : cet atelier me suffit</hi>, répond-il. Elle se retire ; Chatterton délibère avec le quaker à la manière de Werther avec Charlotte. Le suicide transpire dans tous ses mots. Le quaker, après sa demi-confidence, <pb n="304"/>jette des soupçons dans l’âme pure de Kitty Bell.</p>
           <p>L’acte III<hi rend="sup">e</hi> n’est au commencement qu’un long et sublime monologue de Chatterton s’efforçant à travailler dans sa chambre froide. Nous le donnons ici tout entier comme un chef-d’œuvre de la douleur, le voici :</p>
           <quote>
-            <label>ACTE TROISIEME.</label>
+            <label type="head">ACTE TROISIEME.</label>
             <p rend="i">La chambre de Chatterton, sombre, petite, pauvre, sans feu ; un lit misérable et en désordre.</p>
-            <label>SCENE PREMIERE.</label>
+            <label type="head">SCENE PREMIERE.</label>
             <label type="speaker">Chatterton. <hi rend="i">Il est assis sur le pied de son lit et écrit sur ses genoux.</hi></label>
             <p>Il est certain qu’elle ne m’aime pas. — Et moi, je n’y veux plus penser. — Mes mains sont glacées, ma tête est brûlante. — Me voilà seul en face de mon travail. — Il ne s’agit plus de sourire et d’être bon ! de saluer et de serrer la main ! toute cette comédie est jouée : j’en commence une autre avec moi-même. — Il faut, à cette heure, que ma volonté soit assez forte pour saisir mon âme, et l’emporter tour à tour dans le cadavre ressuscité des personnages que j’évoque, et dans le fantôme de ceux que j’invente ! Ou bien il faut que, devant Chatterton malade, devant Chatterton qui a froid, qui a faim, ma volonté fasse poser <pb n="305"/>avec prétention un autre Chatterton, gracieusement paré pour l’amusement du public, et que celui-là soit décrit par l’autre ; le troubadour par le mendiant. Voilà les deux poésies possibles, ça ne va pas plus loin que cela ! Les divertir ou leur faire pitié ; faire jouer de misérables poupées, ou l’être soi-même et faire trafic de cette singerie ! Ouvrir son cœur pour le mettre en étalage sur un comptoir ! S’il a des blessures, tant mieux ! il a plus de prix : tant soit peu mutilé, on l’achète plus cher !</p>
             <p rend="i">Il se lève.</p>
@@ -1353,7 +1331,7 @@
             <p>L’épais brouillard ! il est tendu au dehors de ma fenêtre comme un rideau blanc, ou comme un linceul. — Il était pendu ainsi à la fenêtre de mon père la nuit de sa mort.</p>
             <p rend="center noindent"><hi rend="i">L’horloge sonne trois quarts. </hi></p>
             <p>Encore ! le temps me presse : et rien n’est écrit !</p>
-            <p rend="i">Il lit. </p>
+            <p rend="i">Il lit.</p>
             <p>Harold ! Harold !… ô Christ ! Harold… le duc Guillaume…</p>
             <p>Eh ! que me fait cet Harold, je vous prie ? — Je ne puis comprendre comment j’ai écrit cela. —</p>
             <p rend="center noindent"><hi rend="i">Il déchire le manuscrit en parlant. — Un peu de délire le prend. </hi></p>
@@ -1387,11 +1365,11 @@
             <p>Allez, nobles pensées écrites pour tous ces ingrats <pb n="311"/>dédaigneux, purifiez-vous dans la flamme et remontez au ciel avec moi !</p>
             <p rend="center noindent"><hi rend="i">Il lève les yeux au ciel et déchire lentement ses poèmes, dans l’attitude grave et exaltée d’un homme qui fait un sacrifice solennel. </hi></p>
             <label rend="sc">SCÈNE VIII.</label>
-            <label>CHATTERTON, KITTY BELL.</label>
+            <stage rend="center">CHATTERTON, KITTY BELL.</stage>
             <label type="speaker">Kitty Bell<hi rend="i"> sort lentement de sa chambre, s’arrête, observe Chatterton, et va se placer entre la cheminée et lui. — Il cesse tout à coup de déchirer ses papiers</hi>.</label>
             <label type="speaker">Kitty Bell,<hi rend="i"> à part.</hi></label>
             <p>Que fait-il donc ? je n’oserai jamais lui parler ! Que brûle-t-il ? cette flamme me fait peur, et son visage éclairé par elle est lugubre.</p>
-            <p rend="i">À Chatterton. </p>
+            <p rend="i">À Chatterton.</p>
             <p>N’allez-vous pas rejoindre mylord ?</p>
             <label type="speaker">Chatterton<hi rend="i"> laisse tomber ses papiers ; tout son corps frémit</hi>.</label>
             <p>Déjà ! — Ah ! c’est vous ! — Ah ! madame ! à genoux ! par pitié ! oubliez-moi.</p>
@@ -1495,7 +1473,7 @@
             <label type="speaker">Kitty Bell,<hi rend="i"> à genoux, les mains au ciel</hi>.</label>
             <p>Puissances du ciel ! grâce pour lui.</p>
             <label type="speaker">Chatterton.</label>
-            <label>Allez-vous-en… Adieu !</label>
+            <p>Allez-vous-en… Adieu !</p>
             <label type="speaker">Kitty Bell,<hi rend="i"> tombant</hi>.</label>
             <p>Je ne le puis plus…</p>
             <label type="speaker">Chatterton.</label>
@@ -1505,8 +1483,8 @@
             <p>Ah ! — Grand Dieu !</p>
             <p rend="center noindent"><hi rend="i">Elle ouvre la fiole. </hi></p>
             <p>Qu’est-ce que cela ? — Mon Dieu ! pardonnez-lui.</p>
-            <label>SCÈNE IX.</label>
-            <label>KITTY BELL, LE QUAKER.</label>
+            <label type="head">SCÈNE IX.</label>
+            <stage rend="center">KITTY BELL, LE QUAKER.</stage>
             <label type="speaker">Le Quaker,<hi rend="i"> accourant</hi>.</label>
             <p>Vous êtes perdue… Que faites-vous ici ?</p>
             <label type="speaker">Kitty Bell,<hi rend="i"> renversée sur les marches de l’escalier</hi>.</label>
@@ -1524,7 +1502,7 @@
             <p rend="i">Elle se met en marche et vient s’asseoir lisant sa Bible et balbutiant tout bas des paroles qu’on n’entend pas. Ses enfants accourent et s’attachent à sa robe.</p>
             <label type="speaker">Le Quaker,<hi rend="i"> du haut de l’escalier</hi>.</label>
             <p>L’a-t-elle vu mourir ? l’a-t-elle vu ?</p>
-            <p rend="i">Il va près d’elle. </p>
+            <p rend="i">Il va près d’elle.</p>
             <p>Ma fille ! ma fille !</p>
             <label type="speaker">John Bell,<hi rend="i"> entrant violemment et montant deux marches de l’escalier</hi>.</label>
             <p>Que fait-elle ici ? Où est ce jeune homme ? Ma volonté est qu’on l’emmène !</p>
@@ -1540,12 +1518,10 @@
             <p>Arrêtez, monsieur, c’est assez d’effroi pour une femme.</p>
             <p rend="center noindent"><hi rend="i">Il la regarde et la voit mourante. </hi></p>
             <p>Monsieur, emmenez ses enfants ! Vite, qu’ils ne la voient pas.</p>
-            <p rend="i">Il arrache les enfants des pieds de Kitty, les passe à John Bell, et prend leur mère dans ses bras. John Bell les prend à part et reste stupéfait. Kitty Bell meurt dans les bras du Quaker. </p>
+            <p rend="i">Il arrache les enfants des pieds de Kitty, les passe à John Bell, et prend leur mère dans ses bras. John Bell les prend à part et reste stupéfait. Kitty Bell meurt dans les bras du Quaker.</p>
             <label type="speaker">John Bell,<hi rend="i"> avec épouvante</hi>.</label>
             <p><pb n="319"/>Eh bien ! eh bien ! Kitty ! Kitty ! qu’avez-vous ?</p>
-            <label>
-              <hi rend="i">Il s’arrête en voyant le Quaker s’agenouiller.</hi>
-            </label>
+            <stage rend="i">Il s’arrête en voyant le Quaker s’agenouiller.</stage>
             <label type="speaker">Le Quaker,<hi rend="i"> à genoux</hi>.</label>
             <p>Oh ! dans ton sein ! dans ton sein, Seigneur, reçois ces deux martyrs !</p>
             <p rend="center noindent"><hi rend="i">Le Quaker reste à genoux, les yeux tournés vers le ciel jusqu’à ce que le rideau soit baissé</hi>.</p>

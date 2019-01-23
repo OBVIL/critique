@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,7 +51,7 @@
         <date when="1904">1904</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -67,7 +67,7 @@
           <l>« Sur les plans éloignés, qu’un brouillard d’oubli cache,</l>
           <l>« Une époque, un détail nettement se détache,</l>
           <l>« Et revit à mes yeux trompés. »</l> 
-          <p rend="right">Théophile <hi rend="sc">Gauthier</hi></p>
+          <bibl>Théophile <hi rend="sc">Gauthier</hi></bibl>
         </epigraph>
       </div>
       <div>
@@ -577,7 +577,7 @@
         <p>On ouvrit le carton et on en tira une fraîche et délicieuse capote en satin rose !…</p>
         <p>— Hein ! elle est jolie ?…</p>
         <p>Et l’empoignant de ses longs doigts hâlés, tante Mion se la campa sur la tête, en se faisant des mines dans la glace. Lili et Zoé échangeaient des regards effarés et se retenaient à grand-peine de pouffer de rire. Elles essayèrent quelques objections : c’était bien fragile, bien voyant, peut-être un peu trop jeune tout de même, et puis cette couleur rose n’allait pas à tout le monde… Mais tante Mion ne voulait pas se rendre.</p>
-        <p>– Vous autres Parisiens, vous avez des idées toutes faites, disait-elle, ce n’est pas comme chez nous : je suis sûre qu’à Avignon ça plairait…</p>
+        <p>— Vous autres Parisiens, vous avez des idées toutes faites, disait-elle, ce n’est pas comme chez nous : je suis sûre qu’à Avignon ça plairait…</p>
         <p>Tout à coup elle me chercha des yeux.</p>
         <p>— Tiens ! c’est la mignonne qui va décider, s’écria-t-elle, allons, dis-le franchement comment me trouves-tu ?</p>
         <p>Je n’avais pas envie de rire, tant j’étais stupéfiée par ce que je voyais : cette vieille figure bistrée, dans le rose tendre du satin semblait tout à fait noire, et il y avait de quoi faire peur.</p>
@@ -835,7 +835,7 @@
         <p>— Est-ce qu’on te lave au moins ?… dit-il.</p>
         <p>Il en voulait probablement à saint Labre et tenait en suspicion les couvents, lui, à qui j’entendis redire, plus tard, bien souvent, qu’il ne pouvait comprendre les religieux… « qui se réunissent pour puer de compagnie, en l’honneur d’un Dieu qui a créé dix mille espèces de parfums… »</p>
         <p>La mère Marie-Jésus était là, derrière le grillage ; elle chuchotait, de sa voix mielleuse et, à cause de la présence d’un homme, son voile baissé ne laissait voir que son menton fin et pointu et un peu de sa bouche mince. Elle donnait toutes sortes d’explications, touchant les leçons de musique, l’excellente nourriture, les soins attentifs… Ma mère souriait d’un air enchanté ; mais à la façon dont mon père examinait la religieuse, à travers son monocle, je compris qu’elle lui inspirait peu de sympathie et qu’il était d’ailleurs hostile à tout ce qui l’entourait. Il ne se mêla à la conversation que pour jeter cette phrase :</p>
-        <p>– Je désire que ma fille prenne un bain toutes les semaines ; si cette clause n’était pas remplie, je me verrais obligé de la retirer.</p>
+        <p>— Je désire que ma fille prenne un bain toutes les semaines ; si cette clause n’était pas remplie, je me verrais obligé de la retirer.</p>
         <p>Et quand il m’embrassa, pour prendre congé, il me souffla dans l’oreille :</p>
         <p>— Tu sais, si tu t’ennuies trop ici, dis-le moi.</p>
         <p>J’eus envie de lui crier : « Emmène-moi tout de suite » ; mais comme il parlait bas, je compris qu’il craignait d’être entendu, et que, pour l’instant, il fallait se taire.</p>
@@ -1204,7 +1204,7 @@
         <p>— Voyons ?…</p>
         <p>Très sûre de ma mémoire, sans embarras, je me suis mis à réciter d’une petite voix monotone :</p>
         <quote>
-          <label>Le Chant du Grillon</label>
+          <label type="head">Le Chant du Grillon</label>
           <l>Souffle, bise ! tombe à flots, pluie</l>
           <l>Dans mon palais tout noir de suie</l>
           <l>Je ris de la pluie et du vent :</l>

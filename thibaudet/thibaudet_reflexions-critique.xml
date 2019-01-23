@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <date when="1939"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -2890,19 +2890,14 @@
             l’ironie. Le poète veut-il faire ressortir combien le Français se rend ridicule en se
             laissant griser par l’antiquité, qui prend la forme du grotesque dieu du vin, tandis que
             son sol lui fournit une boisson plus saine et plus conforme à sa nature ?</p>
-          <p/>
-          <l>                        <hi rend="i">Il porte le haubert que portait Salomon</hi>,</l>
-          <p/>
+          <quote><l rend="i">Il porte le haubert que portait Salomon,</l></quote>
           <p>le moraliste, le sage, la personnification de la raison et de la vertu ? (Le point
             d’interrogation est de M. Vodoz et signifie qu’il doute non de son raisonnement, mais de
             la vertu de Salomon.) Inutile d’insister sur le sens de cette image. La raison
             n’était-elle pas la faculté maîtresse des Classiques ? N’étaient-ils pas, eux aussi, à
             leur façon, des moralistes ? Corneille ne prêchait-il pas la vertu ? et, dans ses
             pièces, le vice n’est-il pas toujours puni, tandis que la vertu est récompensée ?</p>
-          <p/>
-          <l>                        <hi rend="i">Son casque est enfoui sous les ailes d’une
-              hydre.</hi></l>
-          <p/>
+          <quote><l rend="i">Son casque est enfoui sous les ailes d’une hydre.</l></quote>
           <p>« Les Classiques, eux aussi, rendaient un certain culte au merveilleux mythologique…
             Olivier a gravé son nom sur son estoc afin qu’on s’en souvienne. La vanité des
             Classiques est assez connue, ce qui ne veut pas dire que les Romantiques eussent été
@@ -4181,9 +4176,7 @@
           <l>Malheureux il aspire à la félicité ;</l>
           <l>Il veut sonder le monde, et le monde est débile ;</l>
           <l>Il veut aimer toujours, ce qu’il aime est fragile !</l>
-          <l>
-            <hi rend="i">Tout mortel est semblable à l’exilé d’Éden…</hi>
-          </l>
+          <l rend="i">Tout mortel est semblable à l’exilé d’Éden…</l>
         </quote>
         <p>Sept vers, sept notes.</p>
         <p>1<hi rend="sup">er</hi> vers. — <quote><hi rend="i">Mystère</hi> est pris au sens de la
@@ -4365,8 +4358,8 @@
           laisser ou donner au <hi rend="i">Réveil des Morts</hi> figure de reportage, de choses
           vues et fixées directement. Un reporter ne sait pas bien aujourd’hui si son carnet de
           notes deviendra dieu, table ou cuvette, et s’il le présentera nature ou en sauce, je veux
-          dire s’il en fera du journalisme direct ou s’il en tirera un roman. Excellent terrain
-          pour étudier cet impérialisme vorace du roman, qui césarise aujourd’hui toute la
+          dire s’il en fera du journalisme direct ou s’il en tirera un roman. Excellent terrain pour
+          étudier cet impérialisme vorace du roman, qui césarise aujourd’hui toute la
           littérature.</p>
         <p>En voici un exemple. M. Londres dédie son roman à ses camarades de métier, au premier
           rang desquels il met avec justice M. Ludovic Naudeau, qui inaugura en France l’école du
@@ -5095,9 +5088,7 @@
           de Mallarmé</p>
         <quote>
           <l>Solitude, récif, étoile,</l>
-          <l>
-            <hi rend="i">À n’importe ce qui valut</hi>
-          </l>
+          <l rend="i">À n’importe ce qui valut</l>
           <l>Le blanc souci de notre toile.</l>
         </quote>
         <p>Et voilà, comme le flair sacerdotal de M. Bremond l’a subodoré, la vraie littérature de
@@ -6888,428 +6879,443 @@
         <p><pb n="249"/>Voici l’étude que Marcel Proust écrivit à la suite d’<hi rend="i">Une
             querelle littéraire sur le style de Flaubert</hi>, et à laquelle répond la <hi rend="i"
             >Lettre à Marcel Proust sur le style de Flaubert</hi> :</p>
-        <label>À propos du « style » de Flaubert</label>
-        <p>Je lis seulement à l’instant (ce qui m’empêche d’entreprendre une étude approfondie)
-          l’article du distingué critique de la <hi rend="i">Nouvelle Revue Française</hi> sur « le
-          Style de Flaubert ». J’ai été stupéfait, je l’avoue, de voir traiter de peu doué pour
-          écrire, un homme qui par l’usage entièrement nouveau et personnel qu’il a fait du passé
-          défini, du passé indéfini, du participe présent, de certains pronoms et de certaines
-          prépositions, a renouvelé presque autant notre vision des choses que Kant, avec ses
-          Catégories, les théories de la Connaissance et de la Réalité du monde extérieur<note
-            resp="author">Je sais bien que Descartes avait commencé avec son « bon sens », qui n’est
-            pas autre chose que les principes rationnels. On apprenait cela autrefois en classe.
-            Comment M. Reinach, qui différant au moins en cela des Émigrés, a tout appris et n’a
-            rien oublié, ne le sait-il pas et peut-il croire que Descartes a fait preuve d’une
-              <quote>« ironie délicieuse »</quote>, en disant que le bon sens est la chose du monde
-            la mieux partagée. Cela signifie dans Descartes que l’homme le plus bête use malgré soi
-            du principe de causalité, etc. Mais le <num>xvii<hi rend="sup">e</hi></num> siècle
-            français avait une manière très simple de dire les choses profondes. Quand j’essaye dans
-            mes romans de me mettre à son école, des philosophes me reprochent d’employer dans le
-            sens courant le mot « intelligence », etc.</note>. Ce n’est pas que j’aime entre tous
-          les livres de Flaubert, ni même le style de Flaubert. Pour des raisons qui seraient trop
-          longues à développer ici, je crois que la métaphore seule peut donner une sorte d’éternité
-          au style, et il n’y a peut-être pas dans tout Flaubert une seule belle métaphore. Bien
-          plus, ses images sont généralement si faibles <pb n="250"/>qu’elles ne s’élèvent guère
-          au-dessus de celles que pourraient trouver ses personnages les plus insignifiants. Sans
-          doute quand, dans une scène sublime, M<hi rend="sup">me</hi> Arnoux et Frédéric échangent
-          des phrases telles que : <quote>« Quelquefois vos paroles me reviennent comme un écho
-            lointain, comme le son d’une cloche apporté par le vent. — J’avais toujours au fond de
-            moi-même la musique de votre voix et la splendeur de vos yeux »</quote>, sans doute
-          c’est un peu <hi rend="i">trop bien</hi> pour une conversation entre Frédéric et M<hi
-            rend="sup">me</hi> Arnoux. Mais Flaubert, si, au lieu de ses personnages, c’était lui
-          qui avait parlé, n’aurait pas trouvé beaucoup mieux. Pour exprimer d’une façon qu’il croit
-          évidemment ravissante, dans la plus parfaite de ses œuvres, le silence qui régnait dans le
-          château de Julien, il dit que <quote>« l’on entendait le frôlement d’une écharpe ou l’écho
-            d’un soupir »</quote>. Et à la fin, quand celui que porte saint Julien devient le
-          Christ, cette minute ineffable est décrite à peu près ainsi : <quote>« Ses yeux prirent
-            une clarté d’étoiles, ses cheveux s’allongèrent comme les rais du soleil, le souffle de
-            ses narines avait la douceur des roses »</quote>, etc… Il n’y a là-dedans rien de
-          mauvais, aucune chose disparate, choquante ou ridicule comme dans une description de
-          Balzac ou de Renan ; seulement il semble que, même sans le secours de Flaubert, un simple
-          Frédéric Moreau aurait presque pu trouver cela. Mais enfin la métaphore n’est pas tout le
-          style. Et il n’est pas possible à quiconque est un jour monté sur ce grand <hi rend="i"
-            >Trottoir Roulant</hi> que sont les pages de Flaubert, au défilement continu, monotone,
-          morne, indéfini, de méconnaître qu’elles sont sans précédent dans la littérature. Laissons
-          de côté, je ne dis même pas les simples inadvertances, mais la correction grammaticale ;
-          c’est une qualité utile mais négative (un bon élève, chargé de relire les épreuves de
-          Flaubert, eût été capable d’en effacer bien des fautes). En tout cas il y a une beauté
-          grammaticale (comme il y a une beauté morale, dramatique, etc.) qui n’a rien à voir avec
-          la correction. C’est d’une beauté de ce genre que Flaubert devait accoucher
-          laborieusement. Sans doute cette beauté pouvait tenir parfois à la manière d’appliquer
-          certaines règles de syntaxe. Et Flaubert était ravi quand il retrouvait dans les écrivains
-          du passé une anticipation de Flaubert, dans Montesquieu, par exemple : <quote>« Les vices
-            d’Alexandre étaient extrêmes comme ses vertus ; il était terrible <pb n="251"/>dans la
-            colère ; elle le rendait cruel. »</quote> Mais si Flaubert faisait ses délices de telles
-          phrases, ce n’était évidemment pas à cause de leur correction, mais parce qu’en permettant
-          de faire jaillir du cœur d’une proposition l’arceau qui ne retombera qu’en plein milieu de
-          la proposition suivante, elles assuraient l’étroite, l’hermétique continuité du style.
-          Pour arriver à ce même but, Flaubert se sert souvent des règles qui régissent l’emploi du
-          pronom personnel. Mais dès qu’il n’a pas ce but à atteindre les mêmes règles lui
-          deviennent complètement indifférentes. Ainsi dans la deuxième ou troisième page de l’<hi
-            rend="i">Éducation sentimentale</hi>, Flaubert emploie « il » pour désigner Frédéric
-          Moreau quand ce pronom devrait s’appliquer à l’oncle de Frédéric, et quand il devrait
-          s’appliquer à Frédéric pour désigner Arnoux. Plus loin, le « ils » qui se rapporte à des
-          chapeaux veut dire des personnes, etc. Ces fautes perpétuelles sont presque aussi
-          fréquentes chez Saint-Simon. Mais dans cette deuxième page de l’<hi rend="i"
-            >Éducation</hi>, s’il s’agit de relier deux paragraphes pour qu’une vision ne soit pas
-          interrompue, alors le pronom personnel, à renversement pour ainsi dire, est employé avec
-          une rigueur grammaticale, parce que la liaison des parties du tableau, le rythme régulier
-          particulier à Flaubert, sont en jeu :</p>
         <quote>
-          <p>« La colline qui suivait à droite le cours de la Seine s’abaissa, et il en surgit une
-            autre, plus proche, sur la rive opposée.</p>
-          <p>« Des arbres la couronnaient », etc…</p>
+          <label type="head">À propos du « style » de Flaubert</label>
+          <p>Je lis seulement à l’instant (ce qui m’empêche d’entreprendre une étude approfondie)
+            l’article du distingué critique de la <hi rend="i">Nouvelle Revue Française</hi> sur
+            « le Style de Flaubert ». J’ai été stupéfait, je l’avoue, de voir traiter de peu doué
+            pour écrire, un homme qui par l’usage entièrement nouveau et personnel qu’il a fait du
+            passé défini, du passé indéfini, du participe présent, de certains pronoms et de
+            certaines prépositions, a renouvelé presque autant notre vision des choses que Kant,
+            avec ses Catégories, les théories de la Connaissance et de la Réalité du monde
+              extérieur<note resp="author">Je sais bien que Descartes avait commencé avec son « bon
+              sens », qui n’est pas autre chose que les principes rationnels. On apprenait cela
+              autrefois en classe. Comment M. Reinach, qui différant au moins en cela des Émigrés, a
+              tout appris et n’a rien oublié, ne le sait-il pas et peut-il croire que Descartes a
+              fait preuve d’une <quote>« ironie délicieuse »</quote>, en disant que le bon sens est
+              la chose du monde la mieux partagée. Cela signifie dans Descartes que l’homme le plus
+              bête use malgré soi du principe de causalité, etc. Mais le <num>xvii<hi rend="sup"
+                  >e</hi></num> siècle français avait une manière très simple de dire les choses
+              profondes. Quand j’essaye dans mes romans de me mettre à son école, des philosophes me
+              reprochent d’employer dans le sens courant le mot « intelligence », etc.</note>. Ce
+            n’est pas que j’aime entre tous les livres de Flaubert, ni même le style de Flaubert.
+            Pour des raisons qui seraient trop longues à développer ici, je crois que la métaphore
+            seule peut donner une sorte d’éternité au style, et il n’y a peut-être pas dans tout
+            Flaubert une seule belle métaphore. Bien plus, ses images sont généralement si faibles
+              <pb n="250"/>qu’elles ne s’élèvent guère au-dessus de celles que pourraient trouver
+            ses personnages les plus insignifiants. Sans doute quand, dans une scène sublime, M<hi
+              rend="sup">me</hi> Arnoux et Frédéric échangent des phrases telles que :
+              <quote>« Quelquefois vos paroles me reviennent comme un écho lointain, comme le son
+              d’une cloche apporté par le vent. — J’avais toujours au fond de moi-même la musique de
+              votre voix et la splendeur de vos yeux »</quote>, sans doute c’est un peu <hi rend="i"
+              >trop bien</hi> pour une conversation entre Frédéric et M<hi rend="sup"
+            >me</hi> Arnoux. Mais Flaubert, si, au lieu de ses personnages, c’était lui qui avait
+            parlé, n’aurait pas trouvé beaucoup mieux. Pour exprimer d’une façon qu’il croit
+            évidemment ravissante, dans la plus parfaite de ses œuvres, le silence qui régnait dans
+            le château de Julien, il dit que <quote>« l’on entendait le frôlement d’une écharpe ou
+              l’écho d’un soupir »</quote>. Et à la fin, quand celui que porte saint Julien devient
+            le Christ, cette minute ineffable est décrite à peu près ainsi : <quote>« Ses yeux
+              prirent une clarté d’étoiles, ses cheveux s’allongèrent comme les rais du soleil, le
+              souffle de ses narines avait la douceur des roses »</quote>, etc… Il n’y a là-dedans
+            rien de mauvais, aucune chose disparate, choquante ou ridicule comme dans une
+            description de Balzac ou de Renan ; seulement il semble que, même sans le secours de
+            Flaubert, un simple Frédéric Moreau aurait presque pu trouver cela. Mais enfin la
+            métaphore n’est pas tout le style. Et il n’est pas possible à quiconque est un jour
+            monté sur ce grand <hi rend="i">Trottoir Roulant</hi> que sont les pages de Flaubert, au
+            défilement continu, monotone, morne, indéfini, de méconnaître qu’elles sont sans
+            précédent dans la littérature. Laissons de côté, je ne dis même pas les simples
+            inadvertances, mais la correction grammaticale ; c’est une qualité utile mais négative
+            (un bon élève, chargé de relire les épreuves de Flaubert, eût été capable d’en effacer
+            bien des fautes). En tout cas il y a une beauté grammaticale (comme il y a une beauté
+            morale, dramatique, etc.) qui n’a rien à voir avec la correction. C’est d’une beauté de
+            ce genre que Flaubert devait accoucher laborieusement. Sans doute cette beauté pouvait
+            tenir parfois à la manière d’appliquer certaines règles de syntaxe. Et Flaubert était
+            ravi quand il retrouvait dans les écrivains du passé une anticipation de Flaubert, dans
+            Montesquieu, par exemple : <quote>« Les vices d’Alexandre étaient extrêmes comme ses
+              vertus ; il était terrible <pb n="251"/>dans la colère ; elle le rendait
+              cruel. »</quote> Mais si Flaubert faisait ses délices de telles phrases, ce n’était
+            évidemment pas à cause de leur correction, mais parce qu’en permettant de faire jaillir
+            du cœur d’une proposition l’arceau qui ne retombera qu’en plein milieu de la proposition
+            suivante, elles assuraient l’étroite, l’hermétique continuité du style. Pour arriver à
+            ce même but, Flaubert se sert souvent des règles qui régissent l’emploi du pronom
+            personnel. Mais dès qu’il n’a pas ce but à atteindre les mêmes règles lui deviennent
+            complètement indifférentes. Ainsi dans la deuxième ou troisième page de l’<hi rend="i"
+              >Éducation sentimentale</hi>, Flaubert emploie « il » pour désigner Frédéric Moreau
+            quand ce pronom devrait s’appliquer à l’oncle de Frédéric, et quand il devrait
+            s’appliquer à Frédéric pour désigner Arnoux. Plus loin, le « ils » qui se rapporte à des
+            chapeaux veut dire des personnes, etc. Ces fautes perpétuelles sont presque aussi
+            fréquentes chez Saint-Simon. Mais dans cette deuxième page de l’<hi rend="i"
+              >Éducation</hi>, s’il s’agit de relier deux paragraphes pour qu’une vision ne soit pas
+            interrompue, alors le pronom personnel, à renversement pour ainsi dire, est employé avec
+            une rigueur grammaticale, parce que la liaison des parties du tableau, le rythme
+            régulier particulier à Flaubert, sont en jeu :</p>
+          <quote>
+            <p>« La colline qui suivait à droite le cours de la Seine s’abaissa, et il en surgit une
+              autre, plus proche, sur la rive opposée.</p>
+            <p>« Des arbres la couronnaient », etc…</p>
+          </quote>
+          <p>Le rendu de sa vision sans, dans l’intervalle, un mot d’esprit ou un trait de
+            sensibilité, voilà en effet ce qui importe de plus en plus à Flaubert, au fur et à
+            mesure qu’il dégage mieux sa personnalité et devient Flaubert. Dans <hi rend="i">Madame
+              Bovary</hi>, tout ce qui n’est pas lui n’a pas encore été éliminé ; les derniers
+            mots : <quote>« Il vient de recevoir la croix d’honneur »</quote> font penser à la fin
+            du <hi rend="i">Gendre de Monsieur Poirier</hi> : <quote>« Pair de France en
+              48. »</quote> Et même dans l’<hi rend="i">Éducation Sentimentale</hi> (titre si beau
+            par sa solidité, — titre qui conviendrait d’ailleurs aussi bien à <hi rend="i">Madame
+              Bovary</hi> — mais qui n’est guère correct au point de vue grammatical) se glissent
+            encore çà et là des restes, infimes d’ailleurs, de ce qui n’est pas Flaubert
+              (<quote>« sa pauvre petite gorge »</quote>), etc. Malgré cela, dans l’<hi rend="i"
+              >Éducation Sentimentale</hi>, la révolution est accomplie ; ce qui jusqu’à Flaubert
+            était action devient impression. Les choses ont autant de vie <pb n="252"/>que les
+            hommes, car c’est le raisonnement qui après assigne à tout phénomène visuel des causes
+            extérieures, mais dans l’impression première que nous recevons cette cause n’est pas
+            impliquée. Je reprends dans la deuxième page de l’<hi rend="i">Éducation
+              Sentimentale</hi> la phrase dont je parlais tout à l’heure ; <quote>« La colline qui
+              suivait à droite le cours de la Seine s’abaissa, et il en surgit une autre, plus
+              proche, sur la rive opposée. »</quote> Jacques Blanche a dit que dans l’histoire de la
+            peinture une invention, une nouveauté se décèlent souvent en un simple rapport de ton,
+            en deux couleurs juxtaposées. Le subjectivisme de Flaubert s’exprime par un emploi
+            nouveau des temps des verbes, des prépositions, des adverbes, les deux derniers n’ayant
+            presque jamais dans sa phrase qu’une valeur rythmique. Un état qui se prolonge est
+            indiqué par l’imparfait. Toute cette deuxième page de l’<hi rend="i">Éducation</hi>
+            (page prise absolument au hasard) est faite d’imparfaits, sauf quand intervient un
+            changement, une action, une action dont les protagonistes sont généralement des choses
+              (<quote>« la colline s’abaissa »</quote>, etc.). Aussitôt, l’imparfait reprend :
+              <quote>« Plus d’un enviait d’en être le propriétaire »</quote>, etc. Mais souvent le
+            passage de l’imparfait au parfait est indiqué par un participe présent, qui indique la
+            manière dont l’action se produit, ou bien le moment où elle se produit. Toujours
+            deuxième page de l’<hi rend="i">Éducation</hi> : <quote>« Il contemplait des clochers,
+              etc…, et bientôt, <hi rend="i">Paris disparaissant</hi>, il poussa un gros
+              soupir »</quote>. (L’exemple est du reste très mal choisi et on en trouverait dans
+            Flaubert de bien plus significatifs.) Notons en passant que cette activité des choses,
+            des bêtes, puisqu’elles sont le sujet des phrases (au lieu que ce sujet soit des
+            hommes), oblige à une grande variété des verbes. Je prends absolument au hasard et en
+            abrégeant beaucoup : <quote>« Les hyènes marchaient derrière lui, le taureau balançait
+              la tête, tandis que la panthère bombant son dos avançait à pas de velours…, etc. Le
+              serpent sifflait, les bêtes puantes bavaient, le sanglier, etc… Pour l’attaque du
+              sanglier il y avait quarante griffons, etc… Des mâtins de Barbarie… étaient destinés à
+              poursuivre les aurochs. La robe noire des épagneuls luisait comme du satin, le
+              jappement des talbots valait celui des bugles chanteurs »</quote>, etc. Et cette
+            variété des verbes gagne les hommes qui dans cette vision continue, homogène, ne sont
+            pas plus que les choses, mais pas moins : <quote>« une illusion <pb n="253"/>à
+              décrire »</quote>. Ainsi : <quote>« il aurait voulu courir dans le désert après les
+              autruches, être caché dans les bambous à l’affût des léopards, traverser des forêts
+              pleines de rhinocéros, atteindre au sommet des monts pour viser les aigles et sur les
+              glaçons de la mer combattre les ours blancs. Il se voyait… »</quote> Cet éternel
+            imparfait (on me permettra bien de qualifier d’éternel un passé indéfini, alors que les
+            trois quarts du temps, chez les journalistes, « éternel » désigne non pas, et avec
+            raison, un amour, mais un foulard ou un parapluie. Avec son <hi rend="i">éternel
+              foulard</hi>, — bien heureux si ce n’est pas avec son <hi rend="i">foulard
+              légendaire</hi> — est une expression « consacrée ») ; donc, cet éternel imparfait,
+            composé en partie des paroles des personnages que Flaubert rapporte habituellement en
+            style indirect pour qu’elles se confondent avec le reste (<quote>« L’État devait
+              s’emparer de la Bourse. Bien d’autres mesures étaient bonnes encore. Il fallait que
+              les nourrices et les accoucheuses fussent salariées par l’État. Dix mille citoyennes
+              avec de bons fusils pouvaient faire trembler l’Hôtel de Ville… »</quote>, tout cela ne
+            signifie pas que Flaubert pense et affirme cela, mais que Frédéric, la Vatnaz ou Sénécal
+            le disent et que Flaubert a résolu d’user le moins possible des guillemets) ; donc, cet
+            imparfait, si nouveau dans la littérature, change entièrement l’aspect des choses et des
+            êtres, comme font une lampe qu’on a déplacée, l’arrivée dans une maison nouvelle,
+            l’ancienne si elle est presque vide et qu’on est en plein déménagement. C’est ce genre
+            de tristesse, fait de la rupture des habitudes et de l’irréalité du décor, que donne le
+            style de Flaubert, ce style si nouveau quand ce ne serait que par là. Cet imparfait sert
+            à rapporter non seulement les paroles, mais toute la vie des gens. L’<hi rend="i"
+              >Éducation Sentimentale</hi><note resp="author">L’<hi rend="i">Éducation
+                Sentimentale</hi> à laquelle, de par la volonté de Flaubert certainement, on
+              pourrait souvent appliquer cette phrase de la quatrième page du livre lui-même :
+                <quote>« Et l’ennui vaguement répandu semblait rendre l’aspect des personnages plus
+                insignifiant encore. »</quote></note> est un long rapport de toute une vie, sans que
+            les personnages prennent pour ainsi dire une part active à l’action. Parfois le parfait
+            interrompt l’imparfait, mais devient alors comme lui quelque chose d’indéfini qui se
+            prolonge : <quote>« Il voyagea, il connut la mélancolie des paquebots, etc…, il eut
+              d’autres amours encore »</quote>, et dans ce cas, <pb n="254"/>par une sorte de
+            chassé-croisé, c’est l’imparfait qui vient préciser un peu : <quote>« mais la violence
+              du premier les lui rendait insipides »</quote>. Quelquefois même, dans le plan incliné
+            et tout en demi-teinte des imparfaits, le présent de l’indicatif opère un redressement,
+            met un furtif éclairage de plein jour qui distingue des choses qui passent une réalité
+            plus durable : <quote>« Ils habitaient le fond de la Bretagne… <hi rend="i">C’était</hi>
+              une maison basse, avec un jardin montant jusqu’au haut de la colline, d’où l’on <hi
+                rend="i">découvre</hi> la mer. »</quote> La conjonction « et » n’a nullement dans
+            Flaubert l’objet que la grammaire lui assigne. Elle marque une pause dans une mesure
+            rythmique et divise un tableau. En effet, partout où on mettrait « et », Flaubert le
+            supprime. C’est le modèle et la coupe de tant de phrases admirables. <quote>« (Et) les
+              Celtes regrettaient trois pierres brutes, sous un ciel pluvieux, dans un golfe rempli
+              d’îlots »</quote> ; (C’est peut-être <hi rend="i">semé</hi> au lieu de <hi rend="i"
+              >rempli</hi>, je cite de mémoire.) <quote>« C’était à Mégara, faubourg de Carthage,
+              dans les jardins d’Hamilcar. »« Le père et la mère de Julien habitaient un château, au
+              milieu des bois, sur la pente d’une colline. »</quote> Certes la variété des
+            prépositions ajoute à la beauté de ces phrases ternaires. Mais dans d’autres d’une coupe
+            différente, jamais de « et ». J’ai déjà cité (pour d’autres raisons) : <quote>« Il
+              voyagea, il connut la mélancolie des paquebots, les froids réveils sous la tente,
+              l’étourdissement des paysages et des ruines, l’amertume des sympathies
+              interrompues. »</quote> Mais cet « et »-là, le grand rythme de Flaubert ne le comporte
+            pas. En revanche, là où personne n’aurait l’idée d’en user, Flaubert remploie. C’est
+            comme l’indication qu’une autre partie du tableau commence, que la vague refluante de
+            nouveau va se reformer. Tout à fait au hasard d’une mémoire qui a très mal fait ses
+            choix : <quote>« La place du Carrousel avait un aspect tranquille. L’Hôtel de Nantes s’y
+              dressait toujours solitairement ; <hi rend="i">et</hi> les maisons par derrière, le
+              dôme du Louvre en face, la longue galerie de bois à droite…, etc., étaient comme noyés
+              dans la couleur grise de l’air…, etc., tandis que, à l’autre bout de la place,
+              etc… »</quote> En un mot, chez Flaubert, « et » commence toujours une phrase
+            secondaire et ne termine presque, jamais une énumération. (Notons au passage que le
+            « tandis que » de la phrase que je viens de citer ne marque pas, c’est toujours ainsi
+            chez Flaubert, un temps, mais est un de ces artifices assez naïfs qu’emploient <pb
+              n="255"/>tous les grands descriptifs dont la phrase serait trop longue et qui ne
+            veulent pas cependant séparer les parties du tableau. Dans Leconte de Lisle il y aurait
+            à marquer le rôle similaire des « non loin », des « plus loin », des « au fond », des
+            « plus bas », des « seuls », etc. La très lente acquisition, je le veux bien, de tant de
+            particularités grammaticales (et la place me manque pour indiquer les plus importantes
+            que tout le monde notera sans moi) prouve à mon avis, non pas, comme le prétend le
+            critique de la <hi rend="i">Nouvelle Revue Française</hi>, que Flaubert n’est pas
+              <quote>« un écrivain de race »</quote>, mais au contraire qu’il en est un. Ces
+            singularités grammaticales traduisant en effet une vision nouvelle, et que d’application
+            ne fallait-il pas pour bien fixer cette vision, pour la faire passer de l’inconscient
+            dans le conscient, pour l’incorporer enfin aux diverses parties du discours ! Ce qui
+            étonne seulement chez un tel maître, c’est la médiocrité de sa correspondance.
+            Généralement, les grands écrivains qui ne savent pas écrire (comme les grands peintres
+            qui ne savent pas dessiner) n’ont fait en réalité que renoncer leur « virtuosité », leur
+            « facilité » innées, afin de créer, pour une vision nouvelle, des expressions qui
+            tâchent peu à peu de s’adapter à elle. Or, dans la correspondance où l’obéissance
+            absolue à l’idéal intérieur, obscur, ne les soumet plus, ils redeviennent ce que, moins
+            grands, ils n’auraient cessé d’être. Que de femmes, déplorant les œuvres d’un écrivain
+            de leurs amis, ajoutent : <quote>« Et si vous saviez quels ravissants billets il écrit
+              quand il se laisse aller ! Ses lettres sont infiniment supérieures à ses
+              livres. »</quote> En effet, c’est un jeu d’enfant de montrer de l’éloquence, du
+            brillant, de l’esprit, de la décision dans le trait, pour qui d’habitude manque de tout
+            cela seulement parce qu’il doit se modeler sur une réalité tyrannique à laquelle il ne
+            lui est pas permis de changer quoi que ce soit. Cette hausse brusque et apparente que
+            subit le talent d’un écrivain dès qu’il improvise (ou d’un peintre qui <quote>« dessine
+              comme Ingres »</quote> sur l’album d’une dame, laquelle ne comprend pas ses tableaux),
+            cette hausse devrait être sensible dans la Correspondance de Flaubert. Or, c’est plutôt
+            une baisse qu’on enregistre. Cette anomalie se complique de ceci que tout grand artiste
+            qui volontairement laisse la réalité s’épanouir dans ses livres se prive de laisser
+            paraître en eux une intelligence, un jugement <pb n="256"/>critique qu’il tient pour
+            inférieurs à son génie. Mais tout cela, qui n’est pas dans son œuvre, déborde dans sa
+            conversation, dans ses lettres. Celles de Flaubert n’en font rien paraître. Il nous est
+            impossible d’y reconnaître, avec M. Thibaudet, les <quote>« idées d’un cerveau de
+              premier ordre »</quote>, et cette fois ce n’est pas par l’article de « M. Thibaudet,
+            c’est par la Correspondance de Flaubert que nous sommes déconcertés. Mais enfin puisque
+            nous sommes avertis du génie de Flaubert seulement par la beauté de son style et les
+            singularités immuables d’une syntaxe déformante, notons encore une de ces singularités :
+            par exemple, un adverbe finissant non seulement une phrase, une période, mais un livre.
+            (Dernière phrase d’<hi rend="i">Hérodias</hi> : <quote>« Comme elle était très lourde
+              (la tête de saint Jean), ils la portaient alternativement. »</quote>) Chez lui comme
+            chez Leconte de Lisle, on sent le besoin de la solidité, fût-elle un peu massive, par
+            réaction contre une littérature sinon creuse, du moins très légère, dans laquelle trop
+            d’interstices, de vides, s’insinuaient. D’ailleurs, les adverbes, locutions adverbiales,
+            etc., sont toujours placés dans Flaubert de la façon à la fois la plus laide, la plus
+            inattendue, la plus lourde, comme pour maçonner ces phrases compactes, boucher les
+            moindres trous. M. Homais dit : <quote>« Vos chevaux, <hi rend="i">peut-être</hi>, sont
+              fougueux. »</quote> Hussonnet : <quote>« Il serait temps, <hi rend="i">peut-être</hi>,
+              d’aller instruire les populations. »</quote> Les « après tout », les « cependant »,
+            les « du moins » sont toujours placés ailleurs qu’où ils l’eussent été par quelqu’un
+            d’autre que Flaubert en parlant ou en écrivant. <quote>« Une lampe en forme de colombe
+              brûlait dessus <hi rend="i">continuellement</hi>. »</quote> Pour la même raison,
+            Flaubert ne craint pas la lourdeur de certains verbes, de certaines expressions un peu
+            vulgaires (en contraste avec la variété de verbes que nous citions plus haut, le verbe
+            « avoir », si solide, est employé constamment, là où un écrivain de second ordre
+            chercherait des nuances plus fines : <quote>« Les maisons avaient des jardins en
+              pente. »« Les quatre tours avaient des toits pointus. »</quote> C’est le fait de tous
+            les grands inventeurs en art, au moins au <num>xix<hi rend="sup">e</hi></num> siècle,
+            que tandis que des esthètes montraient leur filiation avec le passé, le public les
+            trouva vulgaires. On dira tant qu’on voudra que Manet, Renoir qu’on enterre demain,
+            Flaubert, furent non pas des initiateurs, mais la dernière descendance de Vélasquez et
+            de Goya, de Boucher et de Fragonard, voire de Rubens et même <pb n="257"/>de la Grèce
+            antique, de Bossuet et de Voltaire, leurs contemporains les trouvèrent un peu communs ;
+            et, malgré tout, nous nous doutons parfois un peu de ce qu’ils entendaient par ce mot
+            « commun ». Quand Flaubert dit : <quote>« Une telle confusion d’images l’étourdissait,
+              bien qu’il y trouvât du charme, <hi rend="i">pourtant</hi> »</quote> ; quand Frédéric
+            Moreau, qu’il soit avec la Maréchale ou avec M<hi rend="sup">me</hi> Arnoux, <quote>« se
+              met à leur dire des tendresses »</quote>, nous ne pouvons penser que ce « pourtant »
+            ait de la grâce, ni ce <quote>« se mettre à dire des tendresses »</quote> de la
+            distinction. Mais nous les aimons, ces lourds matériaux que la phrase de Flaubert
+            soulève et laisse retomber avec le bruit intermittent d’un excavateur. Car si, comme on
+            l’a écrit, la lampe nocturne de Flaubert faisait aux mariniers l’effet d’un phare, on
+            peut dire aussi que les phrases lancées par son « gueuloir » avaient le rythme régulier
+            de ces machines qui servent à faire les déblais. Heureux ceux qui sentent ce rythme
+            obsesseur ; mais ceux qui ne peuvent s’en débarrasser, qui, quelque sujet qu’ils
+            traitent, soumis aux coupes du maître, font invariablement « du Flaubert », ressemblent
+            à ces malheureux des légendes allemandes qui sont condamnés à vivre pour toujours
+            attachés au battant d’une cloche. Aussi, pour ce qui concerne l’intoxication
+            flaubertienne, je ne saurais trop recommander aux écrivains la vertu purgative,
+            exorcisante, du pastiche. Quand on vient de finir un livre, non seulement on voudrait
+            continuer à vivre avec ses personnages, avec M<hi rend="sup">me</hi> de Beauséant, avec
+            Frédéric Moreau, mais encore notre voix intérieure qui a été disciplinée pendant toute
+            la durée de la lecture à suivre le rythme d’un Balzac, d’un Flaubert, voudrait continuer
+            à parler comme eux. Il faut la laisser faire un moment, laisser la pédale prolonger le
+            son, c’est-à-dire faire un pastiche volontaire pour pouvoir, après cela, redevenir
+            original, ne pas faire toute sa vie du pastiche involontaire. Le pastiche volontaire,
+            c’est de façon toute spontanée qu’on le fait ; on pense bien que quand j’ai écrit jadis·
+            un pastiche, détestable d’ailleurs, de Flaubert, je ne m’étais pas demandé si le chant
+            que j’entendais en moi tenait à la répétition des imparfaits ou des participes présents.
+            Sans cela je n’aurais jamais pu le transcrire. C’est un travail inverse que j’ai
+            accompli aujourd’hui en cherchant <pb n="258"/>à noter à la hâte ces quelques
+            particularités du style de Flaubert. Notre esprit n’est jamais satisfait s’il n’a pu
+            donner une claire analyse de ce qu’il avait d’abord inconsciemment produit, ou une
+            récréation vivante de ce qu’il avait d’abord patiemment analysé. Je ne me lasserais pas
+            de faire remarquer les mérites, aujourd’hui si contestés de Flaubert. L’un de ceux qui
+            me touchent le plus, parce que j’y retrouve l’aboutissement des modestes recherches que
+            j’ai faites, est qu’il sait donner avec maîtrise l’impression du Temps. À mon avis, la
+            chose la plus belle de l’<hi rend="i">Éducation Sentimentale</hi>, ce n’est pas une
+            phrase, mais un blanc. Flaubert vient de décrire, de rapporter pendant de longues pages,
+            les actions les plus menues de Frédéric Moreau. Frédéric voit un agent marcher avec son
+            épée sur un insurgé qui tombe mort. <quote>« Et Frédéric, béant, reconnut
+              Sénécal ! »</quote> Ici un « blanc », un énorme « blanc » et, sans l’ombre d’une
+            transition, soudain la mesure du temps devenant, au lieu de quarts d’heure, des années,
+            des décades (je reprends les derniers mots que j’ai cités pour montrer cet
+            extraordinaire changement de vitesse, sans préparation) :</p>
+          <quote>
+            <p>« Et Frédéric, béant, reconnut Sénécal.</p>
+            <p>« Il voyagea. Il connut la mélancolie des paquebots, les froids réveils sous la
+              tente, etc… Il revint.</p>
+            <p>« Il fréquenta le monde, etc…</p>
+            <p>« Vers la fin de l’année 1867, etc… »</p>
+          </quote>
+          <p>Sans doute, dans Balzac, nous avons bien souvent : <quote>« En 1817, les Séchard
+              étaient… »</quote>, etc. Mais chez lui, ces changements de temps ont un caractère
+            actif ou documentaire. Flaubert, le premier, les débarrasse du parasitisme des anecdotes
+            et des scories de l’histoire. Le premier, il les met en musique.</p>
+          <p>Si j’écris tout cela pour la défense (au sens où Joachim du Bellay l’entend) de
+            Flaubert, que je n’aime pas beaucoup, si je me sens si privé de ne pas écrire sur bien
+            d’autres que je préfère, c’est que j’ai l’impression que nous ne savons plus lire<note
+              resp="author">Les exceptions se rencontrent quelquefois dans de grands livres
+              systématiques, où on n’attendait pas de critique littéraire. Une nouvelle critique
+              littéraire découle de l’<hi rend="i">Heredo</hi> et du <hi rend="i">Monde des
+                Images</hi>, ces livres admirables et si grands de conséquence de M. Léon Daudet,
+              comme une nouvelle physique, une nouvelle médecine, de la philosophie cartésienne.
+              Sans doute les vues profondes de M. Léon Daudet sur Molière, sur Hugo, sur Baudelaire,
+              etc., sont plus belles encore si on les rattache par les lois de la gravitation à ces
+              sphères que sont les Images, mais en elles-mêmes, et détachées du système, elles
+              prouvent la vivacité et la profondeur du goût littéraire.</note>. M. Daniel Halévy a
+            écrit dernièrement <pb n="259"/>dans les <hi rend="i">Débats</hi> un très bel article
+            sur le centenaire de Sainte-Beuve. Mais, à mon avis bien mal inspiré ce jour-là,
+            n’a-t-il pas eu l’idée de citer Sainte-Beuve comme un des grands guides que nous avons
+            perdus. (N’ayant ni livres ni journaux sous la main au moment où j’improvise en
+            « dernière heure » mon étude, je ne réponds pas de l’expression exacte qu’a employée
+            Halévy, mais c’était le sens). Or, je me suis permis plus qu’aucun de véritables
+            débauches avec la délicieuse mauvaise musique qu’est le langage parlé, perlé, de
+            Sainte-Beuve, mais quelqu’un a-t-il jamais manqué autant que lui à son office de guide ?
+            La plus grande partie de ses <hi rend="i">Lundis</hi> sont consacrés à des auteurs de
+            quatrième ordre, et quand il a à parler d’un de tout premier, d’un Flaubert ou d’un
+            Baudelaire, il rachète immédiatement les brefs éloges qu’il leur accorde en laissant
+            entendre qu’il s’agit d’un article de complaisance, l’auteur étant de ses amis
+            personnels. C’est uniquement comme d’amis personnels qu’il parle des Goncourt, qu’on
+            peut goûter plus ou moins, mais qui sont en tous cas infiniment supérieurs aux objets
+            habituels de l’admiration de Sainte-Beuve. Gérard de Nerval, qui est assurément un des
+            trois ou quatre plus grands écrivains du <num>xix<hi rend="sup">e</hi></num> siècle, est
+            dédaigneusement traité de <hi rend="i">gentil Nerval</hi>, à propos d’une traduction de
+            Goethe. Mais qu’il ait écrit des œuvres personnelles semble avoir échappé à
+            Sainte-Beuve. Quant à Stendhal romancier, au Stendhal de <hi rend="i">La
+            Chartreuse</hi>, notre « guide » en sourit, et il voit là les funestes effets d’une
+            espèce d’entreprise (vouée à l’insuccès) pour ériger Stendhal en romancier, à peu près
+            comme la célébrité de certains peintres semble due à une spéculation de marchands de
+            tableaux. Il est vrai que Balzac, du vivant même de Stendhal, avait salué son génie,
+            mais c’était moyennant une rémunération. Encore l’auteur lui-même trouva-t-il (selon
+            Sainte-Beuve, interprète inexact d’une lettre que ce n’est pas le lieu de commenter ici)
+            qu’il en avait plus que pour son argent. Bref, je me chargerais, si je n’avais pas <pb
+              n="260"/>des choses moins importantes à faire, de « brosser », comme eût dit
+            M. Cuvillier-Fleury, d’après Sainte-Beuve, un « Tableau de la Littérature Française au
+                <num>xix<hi rend="sup">e</hi></num> siècle » à une certaine échelle, et où pas un
+            grand nom ne figurerait, où seraient promus grands écrivains des gens dont tout le monde
+            a oublié qu’ils écrivirent. Sans doute, il est permis de se tromper, et la valeur
+            objective de nos jugements artistiques n’a pas grande importance. Flaubert a cruellement
+            méconnu Stendhal, qui lui-même trouvait affreuses les plus belles églises romanes et se
+            moquait de Balzac. Mais l’erreur est plus grave chez Sainte-Beuve, parce qu’il ne cesse
+            de répéter qu’il est facile de porter un jugement juste sur Virgile ou La Bruyère, sur
+            des auteurs depuis longtemps reconnus et classés, mais que le difficile, la fonction
+            propre du critique, ce qui lui vaut vraiment son nom de critique, c’est de mettre à leur
+            rang les auteurs contemporains. Lui-même, il faut l’avouer, ne l’a jamais fait une seule
+            fois, et c’est ce qui suffit pour qu’on lui refuse le titre de guide. Peut-être le même
+            article de M. Halévy — article remarquable d’ailleurs — me permettrait-il, si je l’avais
+            sous les yeux, de montrer que ce n’est pas seulement la prose que nous ne savons plus
+            lire, mais les vers. L’auteur retient deux vers de Sainte-Beuve. L’un est plutôt un vers
+            de M. André Rivoire que de Sainte-Beuve. Le second :</p>
+          <quote>
+            <l>Sorrente m’a rendu mon doux rêve infini</l>
+          </quote>
+          <p rend="noindent">est affreux si on le grasseye, et ridicule si on roule les <hi rend="i"
+              >r</hi>. En général, la répétition voulue d’une voyelle ou d’une consonne peut donner
+            de grands effets (Racine : <hi rend="i">Iphigénie, Phèdre</hi>). Il y a une labiale qui,
+            répétée six fois dans un vers de Hugo, donne cette impression de légèreté aérienne que
+            le poète veut produire :</p>
+          <quote>
+            <l>Les souffles de la nuit flottaient sur Galgala.</l>
+          </quote>
+          <p>Hugo, lui, a su se servir même de la répétition des <hi rend="i">r</hi>, qui est au
+            contraire peu harmonieuse en français. Il s’en est servi avec bonheur, mais dans des
+            conditions assez différentes. En tout cas, et quoi qu’il en soit des vers, nous ne
+            savons plus lire la prose ; dans l’article sur le style de <pb n="261"/>Flaubert,
+            M. Thibaudet, lecteur si docte et si avisé, cite une phrase de Chateaubriand. Il n’avait
+            que l’embarras du choix. Combien sont nombreuses celles sur quoi il y a à s’extasier !
+            M. Thibaudet (voulant, il est vrai, montrer que l’usage de l’anacoluthe allège le style)
+            cite une phrase du moins beau Chateaubriand, du Chateaubriand rien qu’éloquent, et sur
+            le peu d’intérêt de laquelle mon distingué confrère aurait pu être averti par le plaisir
+            même que M. Guizot avait à la déclamer. En règle générale, tout ce qui dans
+            Chateaubriand continue ou présage l’éloquence politique du <num>xviii<hi rend="sup"
+                >e</hi></num> et du <num>xix<hi rend="sup">e</hi></num> siècle n’est pas du vrai
+            Chateaubriand. Et nous devons mettre quelque scrupule, quelque conscience, dans notre
+            appréciation des diverses œuvres d’un grand écrivain. Quand Musset, année par année,
+            branche par branche, se hausse jusqu’aux <hi rend="i">Nuits</hi>, et Molière jusqu’au
+              <hi rend="i">Misanthrope</hi>, n’y a-t-il pas quelque cruauté à préférer aux
+            premières :</p>
+          <quote>
+            <l><hi rend="i">À Saint Bl aise, à la Zuecca</hi>,</l>
+            <l>Nous étions, nous étions bien aise,</l>
+          </quote>
+          <p rend="noindent">au second les <hi rend="i">Fourberies de Scapin</hi> ? D’ailleurs nous
+            n’avons qu’à lire les maîtres, Flaubert comme les autres, avec plus de simplicité. Nous
+            serons étonnés de voir comme ils sont toujours vivants, près de nous, nous offrant mille
+            exemples réussis de l’effort que nous avons nous-mêmes manqué. Flaubert choisit M<hi
+              rend="sup">e</hi> Senard pour le défendre ; il aurait pu invoquer le témoignage
+            éclatant et désintéressé de tous les grands morts. Je puis, pour finir, citer de cette
+            survie protectrice des grands écrivains, un exemple qui m’est tout personnel. Dans <hi
+              rend="i">Du Côté de chez Swann</hi>, certaines personnes, même très lettrées,
+            méconnaissant la composition rigoureuse bien que voilée (et peut-être plus difficilement
+            discernable parce qu’elle était à large ouverture de compas et que le morceau symétrique
+            d’un premier morceau, la cause et l’effet, se trouvaient à un grand intervalle l’un de
+            l’autre) crurent que mon roman était une sorte de recueil de souvenirs s’enchaînant
+            selon les lois fortuites de l’association des idées. Elles citèrent à l’appui de cette
+            contre-vérité, des pages où quelques miettes de madeleine trempées dans une infusion, me
+            rappellent (ou du moins rappellent au narrateur qui <pb n="262"/>dit « je » et qui n’est
+            pas toujours moi) tout un temps de ma vie, oublié dans la première partie de l’ouvrage.
+            Or, sans parler en ce moment de la valeur que je trouve à ces ressouvenirs insconscients
+            sur lesquels j’asseois, dans le dernier volume — non encore publié — de mon œuvre, toute
+            ma théorie de l’art, et pour m’en tenir au point de vue de la composition, j’avais
+            simplement, pour passer d’un plan à un autre plan, usé non d’un fait, mais de ce que
+            j’avais trouvé plus pur, plus précieux comme jointure, un phénomène de mémoire. Ouvrez
+            les <hi rend="i">Mémoires d’Outre-Tombe</hi> ou les <hi rend="i">Filles du Feu</hi> de
+            Gérard de Nerval. Vous verrez que les deux grands écrivains qu’on se plaît — le second
+            surtout — à appauvrir et à dessécher par une interprétation purement formelle, connurent
+            parfaitement ce procédé de brusque transition. Quand Chateaubriand est — si je me
+            souviens bien — à Montboissier, il entend tout à coup chanter une grive. Et ce chant,
+            qu’il écoutait si souvent dans sa jeunesse, le fait tout aussitôt revenir à Combourg,
+            l’incite à changer et à faire changer le lecteur avec lui, de temps et de province. De
+            même, la première partie de <hi rend="i">Sylvie</hi> se passe devant une scène et décrit
+            l’amour de Gérard de Nerval pour une comédienne. Tout à coup, ses yeux tombent sur une
+            annonce : <quote>« Demain, les archers de Loisy »</quote>, etc… Ces mots évoquent un
+            souvenir, ou plutôt deux amours d’enfance : aussitôt le lieu de la nouvelle est déplacé.
+            Ce phénomène de mémoire a servi de transition à Nerval, à ce grand génie dont presque
+            toutes les œuvres pourraient avoir pour titre celui que j’avais donné d’abord à une des
+            miennes : <hi rend="i">Les Intermittences du Cœur</hi>. Elles avaient un autre caractère
+            chez lui, dira-t-on, dû surtout au fait qu’il était fou. Mais, du point de vue de la
+            critique littéraire, on ne peut proprement appeler folie un état qui laisse subsister la
+            perception juste (bien plus, qui aiguise et aiguille le sens de la découverte) des
+            rapports les plus importants entre les images, entre les idées. Cette folie n’est
+            presque que le moment où les habituelles rêveries de Gérard de Nerval deviennent
+            ineffables. Sa folie est alors comme un prolongement de son œuvre ; il s’en évade
+            bientôt pour recommencer à écrire. Et la folie, aboutissant de l’œuvre précédente,
+            devient point de départ et matière même de l’œuvre qui suit. Le poète n’a pas plus honte
+            de l’accès terminé que nous ne rougissons chaque jour d’avoir <pb n="263"/>dormi, que
+            peut-être, un jour, nous ne serons confus d’avoir passé un instant par la mort. Et il
+            s’essaye à classer et à décrire des rêves alternés. Nous voilà bien loin du style de <hi
+              rend="i">Madame Bovary</hi> et de l’<hi rend="i">Éducation Sentimentale</hi>. En
+            raison de la hâte avec laquelle j’écris ces pages, le lecteur excusera les fautes du
+            mien.</p>
         </quote>
-        <p>Le rendu de sa vision sans, dans l’intervalle, un mot d’esprit ou un trait de
-          sensibilité, voilà en effet ce qui importe de plus en plus à Flaubert, au fur et à mesure
-          qu’il dégage mieux sa personnalité et devient Flaubert. Dans <hi rend="i">Madame
-            Bovary</hi>, tout ce qui n’est pas lui n’a pas encore été éliminé ; les derniers mots :
-            <quote>« Il vient de recevoir la croix d’honneur »</quote> font penser à la fin du <hi
-            rend="i">Gendre de Monsieur Poirier</hi> : <quote>« Pair de France en 48. »</quote> Et
-          même dans l’<hi rend="i">Éducation Sentimentale</hi> (titre si beau par sa solidité,
-          — titre qui conviendrait d’ailleurs aussi bien à <hi rend="i">Madame Bovary</hi> — mais
-          qui n’est guère correct au point de vue grammatical) se glissent encore çà et là des
-          restes, infimes d’ailleurs, de ce qui n’est pas Flaubert (<quote>« sa pauvre petite
-            gorge »</quote>), etc. Malgré cela, dans l’<hi rend="i">Éducation Sentimentale</hi>, la
-          révolution est accomplie ; ce qui jusqu’à Flaubert était action devient impression. Les
-          choses ont autant de vie <pb n="252"/>que les hommes, car c’est le raisonnement qui après
-          assigne à tout phénomène visuel des causes extérieures, mais dans l’impression première
-          que nous recevons cette cause n’est pas impliquée. Je reprends dans la deuxième page de
-            l’<hi rend="i">Éducation Sentimentale</hi> la phrase dont je parlais tout à l’heure ;
-            <quote>« La colline qui suivait à droite le cours de la Seine s’abaissa, et il en surgit
-            une autre, plus proche, sur la rive opposée. »</quote> Jacques Blanche a dit que dans
-          l’histoire de la peinture une invention, une nouveauté se décèlent souvent en un simple
-          rapport de ton, en deux couleurs juxtaposées. Le subjectivisme de Flaubert s’exprime par
-          un emploi nouveau des temps des verbes, des prépositions, des adverbes, les deux derniers
-          n’ayant presque jamais dans sa phrase qu’une valeur rythmique. Un état qui se prolonge est
-          indiqué par l’imparfait. Toute cette deuxième page de l’<hi rend="i">Éducation</hi> (page
-          prise absolument au hasard) est faite d’imparfaits, sauf quand intervient un changement,
-          une action, une action dont les protagonistes sont généralement des choses (<quote>« la
-            colline s’abaissa »</quote>, etc.). Aussitôt, l’imparfait reprend : <quote>« Plus d’un
-            enviait d’en être le propriétaire »</quote>, etc. Mais souvent le passage de l’imparfait
-          au parfait est indiqué par un participe présent, qui indique la manière dont l’action se
-          produit, ou bien le moment où elle se produit. Toujours deuxième page de l’<hi rend="i"
-            >Éducation</hi> : <quote>« Il contemplait des clochers, etc…, et bientôt, <hi rend="i"
-              >Paris disparaissant</hi>, il poussa un gros soupir »</quote>. (L’exemple est du reste
-          très mal choisi et on en trouverait dans Flaubert de bien plus significatifs.) Notons en
-          passant que cette activité des choses, des bêtes, puisqu’elles sont le sujet des phrases
-          (au lieu que ce sujet soit des hommes), oblige à une grande variété des verbes. Je prends
-          absolument au hasard et en abrégeant beaucoup : <quote>« Les hyènes marchaient derrière
-            lui, le taureau balançait la tête, tandis que la panthère bombant son dos avançait à pas
-            de velours…, etc. Le serpent sifflait, les bêtes puantes bavaient, le sanglier, etc…
-            Pour l’attaque du sanglier il y avait quarante griffons, etc… Des mâtins de Barbarie…
-            étaient destinés à poursuivre les aurochs. La robe noire des épagneuls luisait comme du
-            satin, le jappement des talbots valait celui des bugles chanteurs »</quote>, etc. Et
-          cette variété des verbes gagne les hommes qui dans cette vision continue, homogène, ne
-          sont pas plus que les choses, mais pas moins : <quote>« une illusion <pb n="253"/>à
-            décrire »</quote>. Ainsi : <quote>« il aurait voulu courir dans le désert après les
-            autruches, être caché dans les bambous à l’affût des léopards, traverser des forêts
-            pleines de rhinocéros, atteindre au sommet des monts pour viser les aigles et sur les
-            glaçons de la mer combattre les ours blancs. Il se voyait… »</quote> Cet éternel
-          imparfait (on me permettra bien de qualifier d’éternel un passé indéfini, alors que les
-          trois quarts du temps, chez les journalistes, « éternel » désigne non pas, et avec raison,
-          un amour, mais un foulard ou un parapluie. Avec son <hi rend="i">éternel foulard</hi>,
-          — bien heureux si ce n’est pas avec son <hi rend="i">foulard légendaire</hi> — est une
-          expression « consacrée ») ; donc, cet éternel imparfait, composé en partie des paroles des
-          personnages que Flaubert rapporte habituellement en style indirect pour qu’elles se
-          confondent avec le reste (<quote>« L’État devait s’emparer de la Bourse. Bien d’autres
-            mesures étaient bonnes encore. Il fallait que les nourrices et les accoucheuses fussent
-            salariées par l’État. Dix mille citoyennes avec de bons fusils pouvaient faire trembler
-            l’Hôtel de Ville… »</quote>, tout cela ne signifie pas que Flaubert pense et affirme
-          cela, mais que Frédéric, la Vatnaz ou Sénécal le disent et que Flaubert a résolu d’user le
-          moins possible des guillemets) ; donc, cet imparfait, si nouveau dans la littérature,
-          change entièrement l’aspect des choses et des êtres, comme font une lampe qu’on a
-          déplacée, l’arrivée dans une maison nouvelle, l’ancienne si elle est presque vide et qu’on
-          est en plein déménagement. C’est ce genre de tristesse, fait de la rupture des habitudes
-          et de l’irréalité du décor, que donne le style de Flaubert, ce style si nouveau quand ce
-          ne serait que par là. Cet imparfait sert à rapporter non seulement les paroles, mais toute
-          la vie des gens. L’<hi rend="i">Éducation Sentimentale</hi><note resp="author">L’<hi
-              rend="i">Éducation Sentimentale</hi> à laquelle, de par la volonté de Flaubert
-            certainement, on pourrait souvent appliquer cette phrase de la quatrième page du livre
-            lui-même : <quote>« Et l’ennui vaguement répandu semblait rendre l’aspect des
-              personnages plus insignifiant encore. »</quote></note> est un long rapport de toute
-          une vie, sans que les personnages prennent pour ainsi dire une part active à l’action.
-          Parfois le parfait interrompt l’imparfait, mais devient alors comme lui quelque chose
-          d’indéfini qui se prolonge : <quote>« Il voyagea, il connut la mélancolie des paquebots,
-            etc…, il eut d’autres amours encore »</quote>, et dans ce cas, <pb n="254"/>par une
-          sorte de chassé-croisé, c’est l’imparfait qui vient préciser un peu : <quote>« mais la
-            violence du premier les lui rendait insipides »</quote>. Quelquefois même, dans le plan
-          incliné et tout en demi-teinte des imparfaits, le présent de l’indicatif opère un
-          redressement, met un furtif éclairage de plein jour qui distingue des choses qui passent
-          une réalité plus durable : <quote>« Ils habitaient le fond de la Bretagne… <hi rend="i"
-              >C’était</hi> une maison basse, avec un jardin montant jusqu’au haut de la colline,
-            d’où l’on <hi rend="i">découvre</hi> la mer. »</quote> La conjonction « et » n’a
-          nullement dans Flaubert l’objet que la grammaire lui assigne. Elle marque une pause dans
-          une mesure rythmique et divise un tableau. En effet, partout où on mettrait « et »,
-          Flaubert le supprime. C’est le modèle et la coupe de tant de phrases admirables.
-            <quote>« (Et) les Celtes regrettaient trois pierres brutes, sous un ciel pluvieux, dans
-            un golfe rempli d’îlots »</quote> ; (C’est peut-être <hi rend="i">semé</hi> au lieu de
-            <hi rend="i">rempli</hi>, je cite de mémoire.) <quote>« C’était à Mégara, faubourg de
-            Carthage, dans les jardins d’Hamilcar. »« Le père et la mère de Julien habitaient un
-            château, au milieu des bois, sur la pente d’une colline. »</quote> Certes la variété des
-          prépositions ajoute à la beauté de ces phrases ternaires. Mais dans d’autres d’une coupe
-          différente, jamais de « et ». J’ai déjà cité (pour d’autres raisons) : <quote>« Il
-            voyagea, il connut la mélancolie des paquebots, les froids réveils sous la tente,
-            l’étourdissement des paysages et des ruines, l’amertume des sympathies
-            interrompues. »</quote> Mais cet « et »-là, le grand rythme de Flaubert ne le comporte
-          pas. En revanche, là où personne n’aurait l’idée d’en user, Flaubert remploie. C’est comme
-          l’indication qu’une autre partie du tableau commence, que la vague refluante de nouveau va
-          se reformer. Tout à fait au hasard d’une mémoire qui a très mal fait ses choix :
-            <quote>« La place du Carrousel avait un aspect tranquille. L’Hôtel de Nantes s’y
-            dressait toujours solitairement ; <hi rend="i">et</hi> les maisons par derrière, le dôme
-            du Louvre en face, la longue galerie de bois à droite…, etc., étaient comme noyés dans
-            la couleur grise de l’air…, etc., tandis que, à l’autre bout de la place, etc… »</quote>
-          En un mot, chez Flaubert, « et » commence toujours une phrase secondaire et ne termine
-          presque, jamais une énumération. (Notons au passage que le « tandis que » de la phrase que
-          je viens de citer ne marque pas, c’est toujours ainsi chez Flaubert, un temps, mais est un
-          de ces artifices assez naïfs qu’emploient <pb n="255"/>tous les grands descriptifs dont la
-          phrase serait trop longue et qui ne veulent pas cependant séparer les parties du tableau.
-          Dans Leconte de Lisle il y aurait à marquer le rôle similaire des « non loin », des « plus
-          loin », des « au fond », des « plus bas », des « seuls », etc. La très lente acquisition,
-          je le veux bien, de tant de particularités grammaticales (et la place me manque pour
-          indiquer les plus importantes que tout le monde notera sans moi) prouve à mon avis, non
-          pas, comme le prétend le critique de la <hi rend="i">Nouvelle Revue Française</hi>, que
-          Flaubert n’est pas <quote>« un écrivain de race »</quote>, mais au contraire qu’il en est
-          un. Ces singularités grammaticales traduisant en effet une vision nouvelle, et que
-          d’application ne fallait-il pas pour bien fixer cette vision, pour la faire passer de
-          l’inconscient dans le conscient, pour l’incorporer enfin aux diverses parties du
-          discours ! Ce qui étonne seulement chez un tel maître, c’est la médiocrité de sa
-          correspondance. Généralement, les grands écrivains qui ne savent pas écrire (comme les
-          grands peintres qui ne savent pas dessiner) n’ont fait en réalité que renoncer leur
-          « virtuosité », leur « facilité » innées, afin de créer, pour une vision nouvelle, des
-          expressions qui tâchent peu à peu de s’adapter à elle. Or, dans la correspondance où
-          l’obéissance absolue à l’idéal intérieur, obscur, ne les soumet plus, ils redeviennent ce
-          que, moins grands, ils n’auraient cessé d’être. Que de femmes, déplorant les œuvres d’un
-          écrivain de leurs amis, ajoutent : <quote>« Et si vous saviez quels ravissants billets il
-            écrit quand il se laisse aller ! Ses lettres sont infiniment supérieures à ses
-            livres. »</quote> En effet, c’est un jeu d’enfant de montrer de l’éloquence, du
-          brillant, de l’esprit, de la décision dans le trait, pour qui d’habitude manque de tout
-          cela seulement parce qu’il doit se modeler sur une réalité tyrannique à laquelle il ne lui
-          est pas permis de changer quoi que ce soit. Cette hausse brusque et apparente que subit le
-          talent d’un écrivain dès qu’il improvise (ou d’un peintre qui <quote>« dessine comme
-            Ingres »</quote> sur l’album d’une dame, laquelle ne comprend pas ses tableaux), cette
-          hausse devrait être sensible dans la Correspondance de Flaubert. Or, c’est plutôt une
-          baisse qu’on enregistre. Cette anomalie se complique de ceci que tout grand artiste qui
-          volontairement laisse la réalité s’épanouir dans ses livres se prive de laisser paraître
-          en eux une intelligence, un jugement <pb n="256"/>critique qu’il tient pour inférieurs à
-          son génie. Mais tout cela, qui n’est pas dans son œuvre, déborde dans sa conversation,
-          dans ses lettres. Celles de Flaubert n’en font rien paraître. Il nous est impossible d’y
-          reconnaître, avec M. Thibaudet, les <quote>« idées d’un cerveau de premier
-          ordre »</quote>, et cette fois ce n’est pas par l’article de « M. Thibaudet, c’est par la
-          Correspondance de Flaubert que nous sommes déconcertés. Mais enfin puisque nous sommes
-          avertis du génie de Flaubert seulement par la beauté de son style et les singularités
-          immuables d’une syntaxe déformante, notons encore une de ces singularités : par exemple,
-          un adverbe finissant non seulement une phrase, une période, mais un livre. (Dernière
-          phrase d’<hi rend="i">Hérodias</hi> : <quote>« Comme elle était très lourde (la tête de
-            saint Jean), ils la portaient alternativement. »</quote>) Chez lui comme chez Leconte de
-          Lisle, on sent le besoin de la solidité, fût-elle un peu massive, par réaction contre une
-          littérature sinon creuse, du moins très légère, dans laquelle trop d’interstices, de
-          vides, s’insinuaient. D’ailleurs, les adverbes, locutions adverbiales, etc., sont toujours
-          placés dans Flaubert de la façon à la fois la plus laide, la plus inattendue, la plus
-          lourde, comme pour maçonner ces phrases compactes, boucher les moindres trous. M. Homais
-          dit : <quote>« Vos chevaux, <hi rend="i">peut-être</hi>, sont fougueux. »</quote>
-          Hussonnet : <quote>« Il serait temps, <hi rend="i">peut-être</hi>, d’aller instruire les
-            populations. »</quote> Les « après tout », les « cependant », les « du moins » sont
-          toujours placés ailleurs qu’où ils l’eussent été par quelqu’un d’autre que Flaubert en
-          parlant ou en écrivant. <quote>« Une lampe en forme de colombe brûlait dessus <hi rend="i"
-              >continuellement</hi>. »</quote> Pour la même raison, Flaubert ne craint pas la
-          lourdeur de certains verbes, de certaines expressions un peu vulgaires (en contraste avec
-          la variété de verbes que nous citions plus haut, le verbe « avoir », si solide, est
-          employé constamment, là où un écrivain de second ordre chercherait des nuances plus
-          fines : <quote>« Les maisons avaient des jardins en pente. »« Les quatre tours avaient des
-            toits pointus. »</quote> C’est le fait de tous les grands inventeurs en art, au moins au
-              <num>xix<hi rend="sup">e</hi></num> siècle, que tandis que des esthètes montraient
-          leur filiation avec le passé, le public les trouva vulgaires. On dira tant qu’on voudra
-          que Manet, Renoir qu’on enterre demain, Flaubert, furent non pas des initiateurs, mais la
-          dernière descendance de Vélasquez et de Goya, de Boucher et de Fragonard, voire de Rubens
-          et même <pb n="257"/>de la Grèce antique, de Bossuet et de Voltaire, leurs contemporains
-          les trouvèrent un peu communs ; et, malgré tout, nous nous doutons parfois un peu de ce
-          qu’ils entendaient par ce mot « commun ». Quand Flaubert dit : <quote>« Une telle
-            confusion d’images l’étourdissait, bien qu’il y trouvât du charme, <hi rend="i"
-              >pourtant</hi> »</quote> ; quand Frédéric Moreau, qu’il soit avec la Maréchale ou avec
-            M<hi rend="sup">me</hi> Arnoux, <quote>« se met à leur dire des tendresses »</quote>,
-          nous ne pouvons penser que ce « pourtant » ait de la grâce, ni ce <quote>« se mettre à
-            dire des tendresses »</quote> de la distinction. Mais nous les aimons, ces lourds
-          matériaux que la phrase de Flaubert soulève et laisse retomber avec le bruit intermittent
-          d’un excavateur. Car si, comme on l’a écrit, la lampe nocturne de Flaubert faisait aux
-          mariniers l’effet d’un phare, on peut dire aussi que les phrases lancées par son
-          « gueuloir » avaient le rythme régulier de ces machines qui servent à faire les déblais.
-          Heureux ceux qui sentent ce rythme obsesseur ; mais ceux qui ne peuvent s’en débarrasser,
-          qui, quelque sujet qu’ils traitent, soumis aux coupes du maître, font invariablement « du
-          Flaubert », ressemblent à ces malheureux des légendes allemandes qui sont condamnés à
-          vivre pour toujours attachés au battant d’une cloche. Aussi, pour ce qui concerne
-          l’intoxication flaubertienne, je ne saurais trop recommander aux écrivains la vertu
-          purgative, exorcisante, du pastiche. Quand on vient de finir un livre, non seulement on
-          voudrait continuer à vivre avec ses personnages, avec M<hi rend="sup">me</hi> de
-          Beauséant, avec Frédéric Moreau, mais encore notre voix intérieure qui a été disciplinée
-          pendant toute la durée de la lecture à suivre le rythme d’un Balzac, d’un Flaubert,
-          voudrait continuer à parler comme eux. Il faut la laisser faire un moment, laisser la
-          pédale prolonger le son, c’est-à-dire faire un pastiche volontaire pour pouvoir, après
-          cela, redevenir original, ne pas faire toute sa vie du pastiche involontaire. Le pastiche
-          volontaire, c’est de façon toute spontanée qu’on le fait ; on pense bien que quand j’ai
-          écrit jadis· un pastiche, détestable d’ailleurs, de Flaubert, je ne m’étais pas demandé si
-          le chant que j’entendais en moi tenait à la répétition des imparfaits ou des participes
-          présents. Sans cela je n’aurais jamais pu le transcrire. C’est un travail inverse que j’ai
-          accompli aujourd’hui en cherchant <pb n="258"/>à noter à la hâte ces quelques
-          particularités du style de Flaubert. Notre esprit n’est jamais satisfait s’il n’a pu
-          donner une claire analyse de ce qu’il avait d’abord inconsciemment produit, ou une
-          récréation vivante de ce qu’il avait d’abord patiemment analysé. Je ne me lasserais pas de
-          faire remarquer les mérites, aujourd’hui si contestés de Flaubert. L’un de ceux qui me
-          touchent le plus, parce que j’y retrouve l’aboutissement des modestes recherches que j’ai
-          faites, est qu’il sait donner avec maîtrise l’impression du Temps. À mon avis, la chose la
-          plus belle de l’<hi rend="i">Éducation Sentimentale</hi>, ce n’est pas une phrase, mais un
-          blanc. Flaubert vient de décrire, de rapporter pendant de longues pages, les actions les
-          plus menues de Frédéric Moreau. Frédéric voit un agent marcher avec son épée sur un
-          insurgé qui tombe mort. <quote>« Et Frédéric, béant, reconnut Sénécal ! »</quote> Ici un
-          « blanc », un énorme « blanc » et, sans l’ombre d’une transition, soudain la mesure du
-          temps devenant, au lieu de quarts d’heure, des années, des décades (je reprends les
-          derniers mots que j’ai cités pour montrer cet extraordinaire changement de vitesse, sans
-          préparation) :</p>
-        <quote>
-          <p>« Et Frédéric, béant, reconnut Sénécal.</p>
-          <p>« Il voyagea. Il connut la mélancolie des paquebots, les froids réveils sous la tente,
-            etc… Il revint.</p>
-          <p>« Il fréquenta le monde, etc…</p>
-          <p>« Vers la fin de l’année 1867, etc… »</p>
-        </quote>
-        <p>Sans doute, dans Balzac, nous avons bien souvent : <quote>« En 1817, les Séchard
-            étaient… »</quote>, etc. Mais chez lui, ces changements de temps ont un caractère actif
-          ou documentaire. Flaubert, le premier, les débarrasse du parasitisme des anecdotes et des
-          scories de l’histoire. Le premier, il les met en musique.</p>
-        <p>Si j’écris tout cela pour la défense (au sens où Joachim du Bellay l’entend) de Flaubert,
-          que je n’aime pas beaucoup, si je me sens si privé de ne pas écrire sur bien d’autres que
-          je préfère, c’est que j’ai l’impression que nous ne savons plus lire<note resp="author"
-            >Les exceptions se rencontrent quelquefois dans de grands livres systématiques, où on
-            n’attendait pas de critique littéraire. Une nouvelle critique littéraire découle de
-              l’<hi rend="i">Heredo</hi> et du <hi rend="i">Monde des Images</hi>, ces livres
-            admirables et si grands de conséquence de M. Léon Daudet, comme une nouvelle physique,
-            une nouvelle médecine, de la philosophie cartésienne. Sans doute les vues profondes de
-            M. Léon Daudet sur Molière, sur Hugo, sur Baudelaire, etc., sont plus belles encore si
-            on les rattache par les lois de la gravitation à ces sphères que sont les Images, mais
-            en elles-mêmes, et détachées du système, elles prouvent la vivacité et la profondeur du
-            goût littéraire.</note>. M. Daniel Halévy a écrit dernièrement <pb n="259"/>dans les <hi
-            rend="i">Débats</hi> un très bel article sur le centenaire de Sainte-Beuve. Mais, à mon
-          avis bien mal inspiré ce jour-là, n’a-t-il pas eu l’idée de citer Sainte-Beuve comme un
-          des grands guides que nous avons perdus. (N’ayant ni livres ni journaux sous la main au
-          moment où j’improvise en « dernière heure » mon étude, je ne réponds pas de l’expression
-          exacte qu’a employée Halévy, mais c’était le sens). Or, je me suis permis plus qu’aucun de
-          véritables débauches avec la délicieuse mauvaise musique qu’est le langage parlé, perlé,
-          de Sainte-Beuve, mais quelqu’un a-t-il jamais manqué autant que lui à son office de
-          guide ? La plus grande partie de ses <hi rend="i">Lundis</hi> sont consacrés à des auteurs
-          de quatrième ordre, et quand il a à parler d’un de tout premier, d’un Flaubert ou d’un
-          Baudelaire, il rachète immédiatement les brefs éloges qu’il leur accorde en laissant
-          entendre qu’il s’agit d’un article de complaisance, l’auteur étant de ses amis personnels.
-          C’est uniquement comme d’amis personnels qu’il parle des Goncourt, qu’on peut goûter plus
-          ou moins, mais qui sont en tous cas infiniment supérieurs aux objets habituels de
-          l’admiration de Sainte-Beuve. Gérard de Nerval, qui est assurément un des trois ou quatre
-          plus grands écrivains du <num>xix<hi rend="sup">e</hi></num> siècle, est dédaigneusement
-          traité de <hi rend="i">gentil Nerval</hi>, à propos d’une traduction de Goethe. Mais qu’il
-          ait écrit des œuvres personnelles semble avoir échappé à Sainte-Beuve. Quant à Stendhal
-          romancier, au Stendhal de <hi rend="i">La Chartreuse</hi>, notre « guide » en sourit, et
-          il voit là les funestes effets d’une espèce d’entreprise (vouée à l’insuccès) pour ériger
-          Stendhal en romancier, à peu près comme la célébrité de certains peintres semble due à une
-          spéculation de marchands de tableaux. Il est vrai que Balzac, du vivant même de Stendhal,
-          avait salué son génie, mais c’était moyennant une rémunération. Encore l’auteur lui-même
-          trouva-t-il (selon Sainte-Beuve, interprète inexact d’une lettre que ce n’est pas le lieu
-          de commenter ici) qu’il en avait plus que pour son argent. Bref, je me chargerais, si je
-          n’avais pas <pb n="260"/>des choses moins importantes à faire, de « brosser », comme eût
-          dit M. Cuvillier-Fleury, d’après Sainte-Beuve, un « Tableau de la Littérature Française au
-              <num>xix<hi rend="sup">e</hi></num> siècle » à une certaine échelle, et où pas un
-          grand nom ne figurerait, où seraient promus grands écrivains des gens dont tout le monde a
-          oublié qu’ils écrivirent. Sans doute, il est permis de se tromper, et la valeur objective
-          de nos jugements artistiques n’a pas grande importance. Flaubert a cruellement méconnu
-          Stendhal, qui lui-même trouvait affreuses les plus belles églises romanes et se moquait de
-          Balzac. Mais l’erreur est plus grave chez Sainte-Beuve, parce qu’il ne cesse de répéter
-          qu’il est facile de porter un jugement juste sur Virgile ou La Bruyère, sur des auteurs
-          depuis longtemps reconnus et classés, mais que le difficile, la fonction propre du
-          critique, ce qui lui vaut vraiment son nom de critique, c’est de mettre à leur rang les
-          auteurs contemporains. Lui-même, il faut l’avouer, ne l’a jamais fait une seule fois, et
-          c’est ce qui suffit pour qu’on lui refuse le titre de guide. Peut-être le même article de
-          M. Halévy — article remarquable d’ailleurs — me permettrait-il, si je l’avais sous les
-          yeux, de montrer que ce n’est pas seulement la prose que nous ne savons plus lire, mais
-          les vers. L’auteur retient deux vers de Sainte-Beuve. L’un est plutôt un vers de M. André
-          Rivoire que de Sainte-Beuve. Le second :</p>
-        <quote>
-          <l>Sorrente m’a rendu mon doux rêve infini</l>
-        </quote>
-        <p rend="noindent">est affreux si on le grasseye, et ridicule si on roule les <hi rend="i"
-            >r</hi>. En général, la répétition voulue d’une voyelle ou d’une consonne peut donner de
-          grands effets (Racine : <hi rend="i">Iphigénie, Phèdre</hi>). Il y a une labiale qui,
-          répétée six fois dans un vers de Hugo, donne cette impression de légèreté aérienne que le
-          poète veut produire :</p>
-        <quote>
-          <l>Les souffles de la nuit flottaient sur Galgala.</l>
-        </quote>
-        <p>Hugo, lui, a su se servir même de la répétition des <hi rend="i">r</hi>, qui est au
-          contraire peu harmonieuse en français. Il s’en est servi avec bonheur, mais dans des
-          conditions assez différentes. En tout cas, et quoi qu’il en soit des vers, nous ne savons
-          plus lire la prose ; dans l’article sur le style de <pb n="261"/>Flaubert, M. Thibaudet,
-          lecteur si docte et si avisé, cite une phrase de Chateaubriand. Il n’avait que l’embarras
-          du choix. Combien sont nombreuses celles sur quoi il y a à s’extasier ! M. Thibaudet
-          (voulant, il est vrai, montrer que l’usage de l’anacoluthe allège le style) cite une
-          phrase du moins beau Chateaubriand, du Chateaubriand rien qu’éloquent, et sur le peu
-          d’intérêt de laquelle mon distingué confrère aurait pu être averti par le plaisir même que
-          M. Guizot avait à la déclamer. En règle générale, tout ce qui dans Chateaubriand continue
-          ou présage l’éloquence politique du <num>xviii<hi rend="sup">e</hi></num> et du
-              <num>xix<hi rend="sup">e</hi></num> siècle n’est pas du vrai Chateaubriand. Et nous
-          devons mettre quelque scrupule, quelque conscience, dans notre appréciation des diverses
-          œuvres d’un grand écrivain. Quand Musset, année par année, branche par branche, se hausse
-          jusqu’aux <hi rend="i">Nuits</hi>, et Molière jusqu’au <hi rend="i">Misanthrope</hi>, n’y
-          a-t-il pas quelque cruauté à préférer aux premières :</p>
-        <quote>
-          <l><hi rend="i">À Saint Bl aise, à la Zuecca</hi>, </l>
-          <l>Nous étions, nous étions bien aise,</l>
-        </quote>
-        <p rend="noindent">au second les <hi rend="i">Fourberies de Scapin</hi> ? D’ailleurs nous
-          n’avons qu’à lire les maîtres, Flaubert comme les autres, avec plus de simplicité. Nous
-          serons étonnés de voir comme ils sont toujours vivants, près de nous, nous offrant mille
-          exemples réussis de l’effort que nous avons nous-mêmes manqué. Flaubert choisit M<hi
-            rend="sup">e</hi> Senard pour le défendre ; il aurait pu invoquer le témoignage éclatant
-          et désintéressé de tous les grands morts. Je puis, pour finir, citer de cette survie
-          protectrice des grands écrivains, un exemple qui m’est tout personnel. Dans <hi rend="i"
-            >Du Côté de chez Swann</hi>, certaines personnes, même très lettrées, méconnaissant la
-          composition rigoureuse bien que voilée (et peut-être plus difficilement discernable parce
-          qu’elle était à large ouverture de compas et que le morceau symétrique d’un premier
-          morceau, la cause et l’effet, se trouvaient à un grand intervalle l’un de l’autre) crurent
-          que mon roman était une sorte de recueil de souvenirs s’enchaînant selon les lois
-          fortuites de l’association des idées. Elles citèrent à l’appui de cette contre-vérité, des
-          pages où quelques miettes de madeleine trempées dans une infusion, me rappellent (ou du
-          moins rappellent au narrateur qui <pb n="262"/>dit « je » et qui n’est pas toujours moi)
-          tout un temps de ma vie, oublié dans la première partie de l’ouvrage. Or, sans parler en
-          ce moment de la valeur que je trouve à ces ressouvenirs insconscients sur lesquels
-          j’asseois, dans le dernier volume — non encore publié — de mon œuvre, toute ma théorie de
-          l’art, et pour m’en tenir au point de vue de la composition, j’avais simplement, pour
-          passer d’un plan à un autre plan, usé non d’un fait, mais de ce que j’avais trouvé plus
-          pur, plus précieux comme jointure, un phénomène de mémoire. Ouvrez les <hi rend="i"
-            >Mémoires d’Outre-Tombe</hi> ou les <hi rend="i">Filles du Feu</hi> de Gérard de Nerval.
-          Vous verrez que les deux grands écrivains qu’on se plaît — le second surtout — à appauvrir
-          et à dessécher par une interprétation purement formelle, connurent parfaitement ce procédé
-          de brusque transition. Quand Chateaubriand est — si je me souviens bien — à Montboissier,
-          il entend tout à coup chanter une grive. Et ce chant, qu’il écoutait si souvent dans sa
-          jeunesse, le fait tout aussitôt revenir à Combourg, l’incite à changer et à faire changer
-          le lecteur avec lui, de temps et de province. De même, la première partie de <hi rend="i"
-            >Sylvie</hi> se passe devant une scène et décrit l’amour de Gérard de Nerval pour une
-          comédienne. Tout à coup, ses yeux tombent sur une annonce : <quote>« Demain, les archers
-            de Loisy »</quote>, etc… Ces mots évoquent un souvenir, ou plutôt deux amours
-          d’enfance : aussitôt le lieu de la nouvelle est déplacé. Ce phénomène de mémoire a servi
-          de transition à Nerval, à ce grand génie dont presque toutes les œuvres pourraient avoir
-          pour titre celui que j’avais donné d’abord à une des miennes : <hi rend="i">Les
-            Intermittences du Cœur</hi>. Elles avaient un autre caractère chez lui, dira-t-on, dû
-          surtout au fait qu’il était fou. Mais, du point de vue de la critique littéraire, on ne
-          peut proprement appeler folie un état qui laisse subsister la perception juste (bien plus,
-          qui aiguise et aiguille le sens de la découverte) des rapports les plus importants entre
-          les images, entre les idées. Cette folie n’est presque que le moment où les habituelles
-          rêveries de Gérard de Nerval deviennent ineffables. Sa folie est alors comme un
-          prolongement de son œuvre ; il s’en évade bientôt pour recommencer à écrire. Et la folie,
-          aboutissant de l’œuvre précédente, devient point de départ et matière même de l’œuvre qui
-          suit. Le poète n’a pas plus honte de l’accès terminé que nous ne rougissons chaque jour
-          d’avoir <pb n="263"/>dormi, que peut-être, un jour, nous ne serons confus d’avoir passé un
-          instant par la mort. Et il s’essaye à classer et à décrire des rêves alternés. Nous voilà
-          bien loin du style de <hi rend="i">Madame Bovary</hi> et de l’<hi rend="i">Éducation
-            Sentimentale</hi>. En raison de la hâte avec laquelle j’écris ces pages, le lecteur
-          excusera les fautes du mien.</p>
-        <byline>Marcel <hi rend="sc">Proust.</hi></byline>
-        <dateline>(<hi rend="i">N.R.F.</hi>, janvier 1920.)</dateline>
+        <byline><docAuthor key="Proust, Marcel (1871-1922)">Marcel <hi rend="sc"
+            >Proust.</hi></docAuthor></byline>
+        <dateline>(<hi rend="i">N.R.F.</hi>, janvier <docDate when="1920"
+          >1920</docDate>.)</dateline>
       </div>
     </body>
   </text>

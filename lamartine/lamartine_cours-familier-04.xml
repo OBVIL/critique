@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <date when="1857">1857</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -350,9 +350,9 @@
             <l>Qu’un pêcheur ; que demain, qu’après, et que sans cesse</l>
             <l>Je serai ce pêcheur. Songez bien que tous deux</l>
             <l>Avant qu’il soit longtemps nous allons être vieux.</l>
-            <l>Que je mourrai peut-être avant vous.</l>
+            <l part="I">Que je mourrai peut-être avant vous.</l>
             <l/>
-            <l>                                                  — Dieu rassemble</l>
+            <l part="F">— Dieu rassemble</l>
             <l>Les amants, dit Portia ; nous partirons ensemble.</l>
             <l>Ton ange en t’emportant me prendra dans ses bras.</l>
             <l/>
@@ -1458,7 +1458,7 @@
           <p>C’est une des idées philosophiques les plus naturelles à l’humanité que celle d’un lieu d’épreuve continuée après cette vie, et d’achèvement de la destinée des âmes dans un séjour de purification et d’initiation appelé <hi rend="i">Purgatoire</hi>.</p>
           <p>On a toujours eu une peine, pour ne pas dire une impossibilité, d’esprit à admettre une éternité de supplices infinis et irrémédiables <pb n="116"/>en punition de fautes temporaires, bornées dans leur durée, dans leur portée comme dans leur criminalité même ; on n’a pu, sans une répugnance invincible de l’esprit et du cœur, associer à l’idée de la bonté divine du Rémunérateur suprême une continuité et une éternité de supplices qui excluraient de l’Être divin une partie essentielle et nécessaire de cet Être, la miséricorde. La plus douce vertu de la terre, la pitié, exclue ainsi du ciel, a révolté les cœurs tendres ; les supplices indescriptibles de ses créatures faisant partie de la félicité du Créateur ont rendu le dogme des enfers à perpétuité un des textes de la foi moderne les plus difficiles à inculquer dans le cœur des chrétiens les plus orthodoxes. Beaucoup de commentateurs des dogmes chrétiens ont cherché par des définitions et par des distinctions atténuantes à réduire les enfers à une privation douloureuse de la présence et de la lumière de Dieu dans des climats éternels toujours chargés de nuages ; beaucoup d’autres écrivains ou prédicateurs religieux ont déclaré ne comprendre le mot <hi rend="i">éternel</hi> appliqué à ce supplice que comme expression d’une longue durée ; mais ils n’ont pas interdit au rayon de la miséricorde infinie de traverser une fois ces cachots <pb n="117"/>des mondes surnaturels, et d’apporter aux crimes expiés le pardon divin. M. de Chateaubriand lui-même, dans son poème chrétien des <hi rend="i">Martyrs</hi>, cite l’autorité des Pères de l’Église pour expliquer en ce sens l’éternité des peines et pour effacer de la porte de l’enfer ce vers infernal du Dante :</p>
           <quote>
-            <l rend="sc">Abandonnez toute espérance, vous qui entrez ! </l>
+            <l rend="sc">Abandonnez toute espérance, vous qui entrez !</l>
           </quote>
           <div>
             <head>XII</head>
@@ -1872,7 +1872,7 @@
           <p>Enfin le véritable poète pindarique ne chante que des vérités absolues et divines, dont la sainteté et la vertu se communiquent, pour ainsi dire, à son génie. La poésie politique, la poésie de parti surtout, est obligée de chanter souvent le sophisme et le mensonge convenus des gouvernements ou des oppositions, pour que ses vers servent d’armes offensives ou défensives au gouvernement qu’elle sert ou aux oppositions qu’elle caresse. Ces vérités conventionnelles, <pb n="199"/>ces sophismes, ces mensonges du moment, périssent avec les passions qui les fomentent. La beauté même des vers qui les contiennent ne les préserve pas toujours de l’évaporation. Malheur aux poésies politiques dans la postérité ! Comprises par les contemporains, elles ne le sont plus par les descendants. La critique historique, vraie, arrive avec le temps ; elle souffle sur toutes ces vérités de convention, inventées par les factions régnantes à leur usage, et elle plaint le grand poète qui leur a prêté un jour son génie. La postérité est impartiale, et c’est pour cela qu’elle est véridique.</p>
           <p>Et cependant ce n’est pas tout. Le poète pindarique s’adresse, dans sa pensée et dans ses œuvres, à l’auditoire le plus vaste, le plus élevé de cœur et d’esprit, le plus universel et le plus éternel qu’il puisse concevoir. Ses chants doivent porter dans tous les temps et dans tous les lieux.</p>
           <quote>
-            <l rend="i">Homo sum ! humani nihil a me alienum puto. </l>
+            <l rend="i">Homo sum ! humani nihil a me alienum puto.</l>
             <l>« Homme je suis, rien de ce qui est de l’homme ne doit rester étranger à moi. »</l>
           </quote>
           <p><pb n="200"/>Telle est, à Paris comme à Rome, la devise du poète lyrique ou épique, être essentiellement collectif pour rester unanimement compris, universellement sympathique.</p>
@@ -2046,9 +2046,9 @@
             <l>Quittez votre coursier, les chemins sont étroits ;</l>
             <l>Allons, et soutenez ma marche appesantie.</l>
             <label type="speaker" rend="sc">Le conquérant.</label>
-            <l>Te serais-je inconnu ?</l>
+            <l part="I">Te serais-je inconnu ?</l>
             <label type="speaker" rend="sc">Le vieillard.</label>
-            <l>                                    Jamais je ne vous vis…</l>
+            <l part="F">Jamais je ne vous vis…</l>
             <label type="speaker" rend="sc">Le conquérant.</label>
             <l>À défaut de mes traits tu connais mon histoire ?</l>
             <label type="speaker" rend="sc">Le vieillard.</label>
@@ -2057,9 +2057,9 @@
             <l>Depuis vingt ans le monde est rempli de ma gloire ;</l>
             <l>C’est moi dont le courage a soumis tant d’États</l>
             <l><pb n="248"/>Que mon nom, prononcé dans la paix, dans la guerre,</l>
-            <l>Fait trembler l’univers.</l>
+            <l part="I">Fait trembler l’univers.</l>
             <label type="speaker" rend="sc">Le vieillard.</label>
-            <l>                                      Je ne vous connais pas !</l>
+            <l part="F">Je ne vous connais pas !</l>
             <l>Mes bras sont pourtant las de cultiver la terre.</l>
             <label type="speaker" rend="sc">Le conquérant.</label>
             <l>Homme qui me confonds, quel est donc ton destin ?</l>
@@ -2069,10 +2069,10 @@
             <l>Six chèvres et nos bras, voilà notre richesse ;</l>
             <l>Elle nous a suffi : nous en bénissons Dieu.</l>
             <l>Mais voici le chemin, seigneur, et je vous laisse.</l>
-            <l>Pardonnez à mon âge…</l>
+            <l part="I">Pardonnez à mon âge…</l>
             <label type="speaker" rend="sc">Le conquérant.</label>
-            <l>                                      Heureux vieillard, adieu.</l>
-            <p rend="right sc">J. P. de Béranger.</p>
+            <l part="F">Heureux vieillard, adieu.</l>
+            <bibl><hi rend="sc">J. P. de Béranger</hi>.</bibl>
           </quote>
         </div>
         <div>
@@ -2988,7 +2988,7 @@
           <head>XXVII</head>
           <p><pb n="332"/>Je ne tardai pas moi-même, non pas à me retirer du service de mon pays, mais à être écarté par mes concitoyens. L’obscurité m’abrita salutairement sans que j’eusse la peine et peut-être la faiblesse de la chercher. L’adversité ne m’y laissa pas le repos, cet <foreign xml:lang="lat"><hi rend="i">otium cum dignitate</hi></foreign> qui est l’oreiller des disgrâces, loisir et silence que Béranger, plus sage que moi, avait eu la prévoyance et la modération de désirs de préparer à sa retraite. Cette adversité, qui attirait Béranger comme la bonne fortune attire le commun des hommes, le rapprocha plus assidûment et plus intimement de moi. Dès que j’eus besoin d’un consolateur il me prodigua sa présence, son intérêt, sa tendresse. La reconnaissance lui ouvrit mon cœur tout entier. Il se forma insensiblement entre nous une de ces amitiés tardives qui n’ont pas les primeurs d’âme et les soudainetés d’attrait de celles de la jeunesse, mais qui ont les souvenirs, les recueillements, les retours en arrière, les sérénités et les mélancolies des jours avancés. Les expériences, les confidences, les repentirs <pb n="333"/>y tombent de plus haut de l’âme de l’un dans l’âme de l’autre, comme les grandes ombres des montagnes dont parle Virgile tombent sur leurs pieds à mesure que le soleil baisse :</p>
           <quote>
-            <l rend="i">Majoresque cadunt altis de montibus umbræ. </l>
+            <l rend="i">Majoresque cadunt altis de montibus umbræ.</l>
           </quote>
           <p>Ce fut alors que j’appris à connaître le vrai caractère de ce grand homme de cœur et les vraies opinions de ce grand homme de sens.</p>
         </div>
@@ -3093,7 +3093,7 @@
           <p>On passera ainsi successivement dans une revue immobilisée par le ciseau de nos grands statuaires toutes les heures ressuscitées de cette vie étrange d’homme d’élite et d’homme de foule, qui, par un privilège unique, a touché aux faîtes et aux profondeurs de sa nation et de son siècle.</p>
           <p>Et puisse un de ces statuaires amis m’ébaucher moi-même, dans le dernier et dans le plus obscur de ces médaillons, agenouillé au pied de cette tombe, et pleurant dans l’ombre, non des larmes politiques, mais des larmes cordiales sur l’ami que je ne reverrai plus que là où il n’y a plus de larmes !</p>
           <p/>
-          <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
+          <signed><hi rend="sc">Lamartine</hi>.</signed>
           <p>Adam Salomon, auteur de la naïve et sublime statuette en bas-relief de Béranger, à Fontainebleau.</p>
         </div>
       </div>
@@ -3391,12 +3391,12 @@
           <head>XIV</head>
           <p>Quelquefois aussi je composais en silence des psaumes enfantins, à l’imitation de ceux de David que j’entendais sans cesse murmurer par le père Varlet récitant son bréviaire. J’en ai conservé quelques strophes incomplètes que j’avais données à mes sœurs en revenant à la maison aux vacances, et que j’ai retrouvées, il n’y a pas longtemps, en feuilletant les modèles d’écriture et de dessin livrés aux <pb n="403"/>rats dans un cabinet noir de notre maison paternelle. Les voici : on y verra la pente et la première goutte de ce ruisseau de poésie qui devint plus tard des <hi rend="i">Harmonies</hi>. L’enfant est le germe d’un homme.</p>
           <quote>
-            <label>
+            <label type="head">
               <hi rend="sc">Cantique sur le torrent de Tuisy</hi>
               <lb/>
               <hi rend="sc">près de Belley.</hi>
             </label>
-            <l rend="center">I</l>
+            <label type="head">I</label>
             <l>Qu’as-tu donc vu là-haut, torrent suant d’écume,</l>
             <l>Pour reculer d’effroi comme un coursier rétif,</l>
             <l>Pour te cabrer d’horreur dans le ravin qui fume,</l>
@@ -3409,8 +3409,7 @@
             <l>             Aux branches du <hi rend="i">tremble</hi>.</l>
             <l>             Appelle et rassemble</l>
             <l>Ses petits, tout trempés de la poudre des eaux !</l>
-            <l/>
-            <l rend="center">II</l>
+            <label type="head">II</label>
             <l>L’aigle seul, assez fort pour lutter avec l’onde,</l>
             <l>Se précipite en bas du sommet du rocher ;</l>
             <l><pb n="404"/>Il se rit de ta peur, il te brave, il te sonde,</l>
@@ -3423,8 +3422,7 @@
             <l>             Le cri qu’il te jette ;</l>
             <l>             Son duvet reflète</l>
             <l>L’éclair de son soleil, qu’il porte dans ta nuit !</l>
-            <l/>
-            <l rend="center">III</l>
+            <label type="head">III</label>
             <l>As-tu donc vu là-haut ton Dieu dans le nuage,</l>
             <l>Torrent épouvanté, pour te sauver ainsi ?</l>
             <l>Du Jéhovah des eaux as-tu vu le visage ?</l>
@@ -3437,8 +3435,7 @@
             <l>             À son peuple ingrat qui doute,</l>
             <l>             Prit la mer, et la tint toute</l>
             <l>             Un jour au creux de sa main !</l>
-            <l/>
-            <l rend="center">IV</l>
+            <label type="head">IV</label>
             <l>Tu n’es qu’un élément, mais moi, je suis un homme !</l>
             <l>Tu fuis, et moi j’adore, ô stupide torrent !</l>
             <l><pb n="405"/>Quoi ! tu ne sais donc pas le nom dont il se nomme ?</l>
@@ -3451,8 +3448,7 @@
             <l>             Qui luisent sur les collines,</l>
             <l>             Majuscules cristallines</l>
             <l>Dont l’étoile l’imprime au bleu du firmament.</l>
-            <l/>
-            <l rend="center">V</l>
+            <label type="head">V</label>
             <l>Ah ! si tu le savais, flot sans yeux et sans âme,</l>
             <l>Tu ne t’enfuirais pas avec ces cris d’horreur,</l>
             <l>Tu ne te fondrais pas comme l’eau sur la flamme,</l>
@@ -3465,8 +3461,7 @@
             <l>             Lui feraient monter ta brume</l>
             <l>             Comme l’encens qu’on allume</l>
             <l>Monte en sentant le feu du creux de l’encensoir.</l>
-            <l/>
-            <l rend="center">VI</l>
+            <label type="head">VI</label>
             <l>Et des petits oiseaux l’harmonieuse troupe</l>
             <l>Aux soupirs de tes bords viendrait s’unir en chœur,</l>
             <l><pb n="406"/>Boirait ta goutte d’eau comme dans une coupe,</l>
@@ -3479,8 +3474,7 @@
             <l>             Ta vague, en sa main bercée,</l>
             <l>             Serait, comme ma pensée,</l>
             <l>Tout lumière au dehors, au dedans tout repos !</l>
-            <l/>
-            <l rend="center">VII</l>
+            <label type="head">VII</label>
             <l>Et les enfants viendraient, penchés sur tes eaux vives,</l>
             <l>Regarder ce que Dieu sous la vague accomplit,</l>
             <l>Et le sacré vieillard qui me guide à tes rives</l>
@@ -3493,8 +3487,7 @@
             <l>             Le chaume qui les protège,</l>
             <l>             On voit dehors, sur la neige,</l>
             <l>Au seuil de leurs maisons jouer de blonds enfants !</l>
-            <l/>
-            <l rend="center">VIII</l>
+            <label type="head">VIII</label>
             <l>Mais tu ne me réponds que par des coups de foudre ;</l>
             <l>Tu ne fais que du vent, de l’écume et du bruit ;</l>
             <l><pb n="407"/>Ton flot semble pressé de se réduire en poudre</l>
@@ -3507,8 +3500,7 @@
             <l>             Par un vague instinct chassées,</l>
             <l>             Et qui semblent si pressées</l>
             <l>             D’échapper à Jéhovah !</l>
-            <l/>
-            <l rend="center">IX</l>
+            <label type="head">IX</label>
             <l>Mais moi, l’enfant du Père, et que ce nom rassure,</l>
             <l>Je m’y sens attiré d’un invincible aimant.</l>
             <l>Ce nom chante pour moi dans toute la nature,</l>
@@ -3528,8 +3520,9 @@
           </quote>
         </div>
         <div>
+          <pb n="408"/>
           <head>XV</head>
-          <p><pb n="408"/>Je montrai un jour, en revenant à la ville, ce petit cantique au vieux prêtre. Il ne put s’empêcher de dérider les plis toujours un peu sévères de sa bouche ; il applaudit même à deux ou trois de mes images, surtout à celle des saintes pensées des vieillards comparés à des enfants qui jouent en hiver sur la neige sans sentir le froid, et à celle de l’enfant de chœur assoupi qui laisse pencher le cierge sans que la flamme cesse de monter à Dieu.</p>
+          <p>Je montrai un jour, en revenant à la ville, ce petit cantique au vieux prêtre. Il ne put s’empêcher de dérider les plis toujours un peu sévères de sa bouche ; il applaudit même à deux ou trois de mes images, surtout à celle des saintes pensées des vieillards comparés à des enfants qui jouent en hiver sur la neige sans sentir le froid, et à celle de l’enfant de chœur assoupi qui laisse pencher le cierge sans que la flamme cesse de monter à Dieu.</p>
           <p>Il me demanda de lui écrire plus correctement ce cantique pour le faire lire au père Debrosse, supérieur du collège, mais il ne le lut point à ses élèves dans la classe, sans doute de peur de manquer à la discipline antipoétique de nos leçons.</p>
           <p>Les jésuites cependant en eurent connaissance ; ils m’en firent plusieurs fois compliment depuis pendant les récréations, et, après leur dispersion, on dut retrouver cette ébauche, parmi les papiers du père Debrosse, dans les balayures des greniers du collège.</p>
           <p>Cette ébauche ne méritait pas un autre <pb n="409"/>sort. La poésie se compose de trois choses : sentiment, peinture, musique. Dans ce cantique d’enfant, il n’y avait encore que de la musique et un peu de peinture ; le rythme m’enivrait déjà ; mais le rythme seul ressemble à ce chef d’orchestre qui bat la mesure avec son archet pendant les silences de la mélodie.</p>
@@ -3631,9 +3624,9 @@
           <p>Je m’écriai tout de suite en la lisant : Voilà le poète<quote> !</quote> Cette révélation donna malgré moi le ton à plusieurs des essais de poésie vague et informe que j’écrivais au hasard dans mes heures d’adolescence.</p>
           <p>On en retrouvera quelque trace dans l’élégie intitulée <hi rend="i">la Fille du pêcheur</hi>, qui n’a jamais été ni achevée ni publiée par moi. Je l’achève et je la publie ici pour la première fois. On a lu avec indulgence une page en prose de mes <hi rend="i">Confidences</hi> sous le nom de <pb n="438"/><hi rend="i">Graziella</hi>. J’ai dit, dans cette demi-confidence de première jeunesse, que, pendant notre séjour dans l’île, j’écrivais de temps en temps des vers mentalement adressés à la charmante fille du pêcheur, bien qu’elle ignorât ce que c’était que des vers et dans quelle langue ces vers étaient écrits. <hi rend="i">La Fille du pêcheur</hi> est une de ces élégies que j’esquissai au crayon sous le figuier et sous la treille dorée par le soleil de l’île ; on y retrouvera, à travers les réminiscences grecques de Théocrite et d’Anacréon, quelque pressentiment d’André Chénier, mais avant que la muse d’André Chénier eût pleuré, et quand elle jouait encore sur le sable de la mer d’Ionie avec les bas-reliefs et les débris des Vénus grecques roulés par les flots.</p>
           <quote>
-            <label rend="sc">La Fille du pêcheur.
+            <label rend="sc">La Fille du pêcheur. 
 <lb/>Graziella.</label>
-            <l rend="center">I</l>
+            <label type="head">I</label>
             <l>Quand ton front brun fléchit sous la cruche à deux anses</l>
             <l>Où tu rapportes l’eau du puits pour le gazon ;</l>
             <l>Quand, la nuit, aux lueurs de la lune, tu danses</l>
@@ -3642,8 +3635,7 @@
             <l>Pinçant d’un ongle aigu les cordes de laiton,</l>
             <l>Fait gronder la guitare ainsi qu’un hanneton,</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">II</l>
+            <label type="head">II</label>
             <l>L’autre jour je te vis (tu ne me voyais pas) ;</l>
             <l>Tu portais sur ton front ta cruche toute pleine ;</l>
             <l>Son poids de tes pieds nus rapetissait les pas,</l>
@@ -3654,8 +3646,7 @@
             <l>Il s’approcha de toi, son rosaire à la main ;</l>
             <l>Toi tu compris sa soif et t’arrêtas soudain.</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">III</l>
+            <label type="head">III</label>
             <l>Avant qu’il eût parlé, tu lisais sa requête ;</l>
             <l>Tu levas tes deux bras, anses de ton beau corps ;</l>
             <l>Tu descendis la cruche au niveau de sa tête,</l>
@@ -3666,11 +3657,9 @@
             <l>Ruisselait de sa lèvre et de sa barbe blanche,</l>
             <l>Comme à travers les joncs s’égoutte l’eau d’un pré.</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l>
-              
-            </l>
-            <l rend="center">IV</l>
-            <l><pb n="440"/>Moi, cependant, caché par la vigne et l’érable,</l>
+            <pb n="440"/>
+            <label type="head">IV</label>
+            <l>Moi, cependant, caché par la vigne et l’érable,</l>
             <l>Je regardais, muet, la scène d’Orient,</l>
             <l>L’ombre que ce beau groupe allongeait sur le sable,</l>
             <l>Ton visage confus, le vieillard souriant ;</l>
@@ -3680,8 +3669,7 @@
             <l>Et toi, courbant ton cou sous sa manche de bure,</l>
             <l>Tu plias les genoux et tu baisas sa main.</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">V</l>
+            <label type="head">V</label>
             <l>Je retenais de peur mon haleine insensible ;</l>
             <l>Je pensais voir en toi sous ces cieux éclatants</l>
             <l>Une apparition d’Homère ou de la Bible :</l>
@@ -3691,8 +3679,7 @@
             <l>Au Dieu qui du même œil voit l’opale ou l’argile</l>
             <l>Donnant mille trésors dans une goutte d’eau !…</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">VI</l>
+            <label type="head">VI</label>
             <l>Ah ! que ne suis-je né pêcheur comme ton frère ?</l>
             <l>Que n’ai-je eu pour berceau ces récifs inconnus ?</l>
             <l><pb n="441"/>Pour berceuse la mer dont l’écume légère</l>
@@ -3703,8 +3690,7 @@
             <l>Le filet, tout gonflé d’écaille au jour changeant,</l>
             <l>Tombe lourd sur la grève, avec un son d’argent ?</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">VII</l>
+            <label type="head">VII</label>
             <l>Sans sonder l’horizon qui s’enfuit sous la brume,</l>
             <l>Sans rêver au-delà je ne sais quel grand sort,</l>
             <l>Dans ton île, au soleil toute enceinte d’écume,</l>
@@ -3715,8 +3701,7 @@
             <l>Tantôt cousant la voile, ou tressant les corbeilles</l>
             <l>Pour porter à deux mains la feuille au chevreau noir ?</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">VIII</l>
+            <label type="head">VIII</label>
             <l>Ou bien sous le figuier, de son sucre prodigue,</l>
             <l>Assise sur le toit entre l’ombre et le fruit,</l>
             <l>Éplucher en automne et retourner la figue</l>
@@ -3728,8 +3713,7 @@
             <l>Entrevue à demi derrière ce réseau,</l>
             <l>Passer et repasser comme une ombre sous l’eau ?</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">IX</l>
+            <label type="head">IX</label>
             <l>Ou sur le bord moussu de la fontaine obscure</l>
             <l>T’asseoir, te croyant seule, à la fin du soleil,</l>
             <l>Comme un moineau son cou, lisser ta chevelure,</l>
@@ -3740,8 +3724,7 @@
             <l>Et d’une gouttelette avec elle sortie</l>
             <l>Teindre d’un peu de sang la fleur d’or du lotus ?</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">X</l>
+            <label type="head">X</label>
             <l>Sous la grotte où jaillit le seul ruisseau d’eau douce,</l>
             <l>Une figure en marbre est taillée au ciseau,</l>
             <l>Vierge ou nymphe, on ne sait ; de sa conque de mousse</l>
@@ -3751,9 +3734,9 @@
             <l>Tout près de son oreille est collé sur sa joue</l>
             <l>Comme pour lui chanter les chansons de la mer.</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">XI</l>
-            <l><pb n="443"/>De lichens et de joncs sordidement vêtue,</l>
+            <pb n="443"/>
+            <label type="head">XI</label>
+            <l>De lichens et de joncs sordidement vêtue,</l>
             <l>De ses habits mouillés le flot s’égoutte en vain ;</l>
             <l>Dans ses haillons verdis la charmante statue</l>
             <l>Sous l’outrage du sort conserve un front divin ;</l>
@@ -3763,8 +3746,7 @@
             <l>Et, quand il a rempli mille cruches d’argile,</l>
             <l>Va jusque dans la mer se perdre à petit flot.</l>
             <l>Jeune fille aux longs yeux, sais-tu ce que je pense ?</l>
-            <l/>
-            <l rend="center">XII</l>
+            <label type="head">XII</label>
             <l>Eh bien ! je crois te voir dans cet humble symbole,</l>
             <l>Toi, source de mon cœur !… Quand tes filets pliés</l>
             <l>Dégouttent d’eau de mer sur ton bras, où les colle</l>

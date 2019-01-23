@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1890">1890</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -112,17 +112,17 @@
           <p>Telle est, ce me semble, je le dis sans trop l’affirmer, l’intention générale de toutes ces scènes comico-tragiques et ce qui en fait l’unité. Il importait d’en dégager le sens philosophique pour qu’on ne vît pas là un simple jeu d’esprit et de la fantaisie sans objet et sans portée. Si cette explication est la vraie, on comprend du même coup comment toute une série de portraits est poussée à la charge et jusqu’aux dernières limites du grotesque. Voilà le pourquoi du grand-duc Cocorico et du roi Kaperdulaboula. Tout en me rendant compte de ces étranges disparates, je m’étonne que le grand poète n’ait pas reculé, en dépit du plaisir de la rancune satisfaite, devant l’énormité de certaines caricatures. Quoi ! ces difformités, ces gibbosités, ces obésités, ces monstruosités, ces tumeurs, ces verrues, ces pustules, tout cela n’a pas révolté ses délicatesses d’artiste ? Il ne s’est pas même demandé si de telles intempérances de crayon et de pinceau ne devaient pas nuire à sa thèse. N’était-il pas plus habile d’enlaidir légèrement ses adversaires ? En les défigurant, on s’expose à ce que les curieux qui visiteront la galerie se récrient : Mais non, ce ne sont pas eux ! Il fallait en faire des Chinois, pas des magots.</p>
           <p>Mais il en a fait des magots, et quels magots ! Allez les voir et je suis assuré d’avance que vous serez de ceux qui protestent : Ah ! bien non, par exemple ! Regardez celui-ci dans le tableau qui porte cette inscription sur le cartouche : <hi rend="i">Mangeront-ils</hi> ? C’est un roi face à face avec un coupeur de bourses. Écoutez-les parler :</p>
           <quote>
-            <label>LE ROI.</label>
-            <l>Je suis un potentat.</l>
-            <label>LE BRIGAND.</label>
-            <l>                               Moi je suis un voleur.</l>
-            <label>LE ROI.</label>
+            <label type="speaker">LE ROI.</label>
+            <l part="I">Je suis un potentat.</l>
+            <label type="speaker">LE BRIGAND.</label>
+            <l part="F">Moi je suis un voleur.</l>
+            <label type="speaker">LE ROI.</label>
             <l>On peut s’entendre.</l>
           </quote>
           <p>Ailleurs, le même potentat cherchant à séduire le même coupeur de bourses qu’il veut emmener à sa cour :</p>
           <quote>
-            <l>Je te fais prince. Viens.</l>
-            <l>                                      — Non. Faites-vous voleur.</l>
+            <l part="I">Je te fais prince. Viens.</l>
+            <l part="F"> Non. Faites-vous voleur.</l>
             <l>— Crûment ? Non. Je suis roi. Ça suffit.</l>
           </quote>
           <p>« On se dit ces choses-là à soi-même », réclamerait Bridoison. Les rois se disent peut-être ces choses-là à eux-mêmes, mais ils ne les disent pas d’eux-mêmes à autrui et en présence de témoins. Je pourrais détacher cent traits du même genre, tout aussi invraisemblables et contre nature. Le vrai, c’est qu’aucun de ces fantoches ne dit ce qu’il devrait dire ; c’est le poète qui parle par leur bouche. Il parle longuement. À chaque instant, une dissertation, soit paradoxe, soit lieu commun, en un langage tantôt trivial, tantôt enflé. Un simple pâtre de la montagne se transforme en orateur-poète en même temps philosophé, et, une fois l’écluse ouverte aux métaphores, c’est un déluge. La même idée se représentera sous vingt formes différentes avec des cliquetis d’antithèses, des scintillements d’images et de couleurs dont les yeux seront pour longtemps éblouis, les oreilles assourdies. Jamais le style de Victor Hugo n’a été assez sobre pour le théâtre ; ici, sur ce théâtre en liberté, il ne cherche même plus à se modérer : c’est de l’intempérance. On le sent d’autant plus vivement cependant, que la scène étroite où s’agitent ces étranges petits personnages, que le ton général de l’œuvre, qui confine à l’opérette, sembleraient exiger un dialogue d’allure vive et pressée.</p>

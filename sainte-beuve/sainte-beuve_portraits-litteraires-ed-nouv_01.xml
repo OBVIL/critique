@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="sainte-beuve_portraits-01" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="sainte-beuve_portraits-01" xml:lang="fre">
   <!--
     VJ
     * pb des retours lignes
@@ -72,7 +72,7 @@
         <date when="1862">1862</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -657,10 +657,8 @@
             pièce qui suit, d’avoir présente à la mémoire l’Épître VI de Boileau à M. de Lamoignon,
             dans laquelle il parle de Bâville et de la vie qu’on y mène.</note></head>
         <quote>
-          <lg>
-            <l>ÉPÎTRE</l>
-            <l>À MADAME LA COMTESSE MOLÉ.</l>
-          </lg>
+          <label type="head">ÉPÎTRE 
+            <lb/>À MADAME LA COMTESSE MOLÉ.</label>
           <lg>
             <l>Dans les jours d’autrefois qui n’a chanté Bâville ?</l>
             <l>Quand septembre apparu délivrait de la ville</l>
@@ -685,7 +683,7 @@
             <l>L’agrément sérieux, l’à-propos et les grâces.</l>
           </lg>
           <lg>
-            <l>O toi dont, un seul jour, j’osai nier la loi,</l>
+            <l>Ô toi dont, un seul jour, j’osai nier la loi,</l>
             <l>Veux-tu bien, Despréaux, que je parle de toi,</l>
             <l>Que j’en parle avec goût, avec respect suprême,</l>
             <l>Et comme t’ayant vu dans ce cadre qui t’aime !</l>
@@ -1039,9 +1037,7 @@
               valoir à merveille. On y surprend le vieux Corneille, un peu amoureux, mais encore
               plus glorieux et grondeur :</p>
             <quote>
-              <lg>
-                <l>STANCES.</l>
-              </lg>
+              <label type="head">STANCES.</label>
               <lg>
                 <l>Marquise, si mon visage</l>
                 <l>A quelques traits un peu vieux,</l>
@@ -2516,7 +2512,7 @@
               Lorsque Pompée, usant du droit de conquête, entra dans le Saint des Saints, il observa
               avec étonnement, dit Tacite, qu’il n’y avait aucune image et que le sanctuaire était
               vide. C’était un dicton populaire, en parlant des Juifs, que « <hi rend="i">Nil
-                praeter nubes et cœli numen adorant</hi>. » </note> ; il y marche sans cesse avec
+                praeter nubes et cœli numen adorant</hi>. »</note> ; il y marche sans cesse avec
             précaution entre le naïf du sublime et le naïf du gracieux, et s’interdit soigneusement
             l’un et l’autre. Il ne dit pas comme Lamartine :</p>
           <quote>
@@ -2549,7 +2545,7 @@
           </quote>
           <p>Il ne dirait pas davantage :</p>
           <quote>
-            <l>O tombeau ! vous êtes mon père ;</l>
+            <l>Ô tombeau ! vous êtes mon père ;</l>
             <l>Et je dis aux vers de la terre :</l>
             <l>Vous êtes ma mère et mes sœurs.</l>
           </quote>
@@ -2613,7 +2609,7 @@
               profession, c’est que ce monastère persécuté ne pouvait plus depuis longtemps recevoir
               pensionnaires, novices, ni religieuses. Fontaine, vieil ami de Port-Royal, sur lequel
               il a laissé de bien touchants Mémoires, et réfugié alors à Melun, assista à toutes les
-              cérémonies de vêture. </note> ; il n’avait cessé de <hi rend="i">sangloter</hi>
+              cérémonies de vêture.</note> ; il n’avait cessé de <hi rend="i">sangloter</hi>
             pendant tout l’office : ainsi, de ce cœur brisé, des trésors d’amour, des effusions
             inexprimables s’échappaient par ces sanglots ; c’était comme l’huile versée du vase de
             Marie. Fénelon lui écrivit exprès pour le consoler. Avec cette facilité excessive aux
@@ -2782,13 +2778,9 @@
             pièce de vers qu’il ne nous est pas permis de louer, mais que nous insérons ici comme
             achevant de mettre en lumière notre point de vue critique.</p>
           <quote>
-            <lg>
-              <l>LES LARMES DE RACINE.</l>
-            </lg>
-            <lg>
-              <l rend="i">Racine, qui veut pleurer, viendra à la profession de la sœur Lalie.</l>
-              <l rend="i">(Madame de Maintenon.)</l>
-            </lg>
+            <label type="head">LES LARMES DE RACINE.</label>
+            <quote><l rend="i">Racine, qui veut pleurer, viendra à la profession de la sœur Lalie.</l>
+              <bibl>(Madame de Maintenon.)</bibl></quote>
             <lg>
               <l>Jean Racine, le grand poëte,</l>
               <l>Le poëte aimant et pieux,</l>
@@ -2867,7 +2859,7 @@
               <l>Qu’en pleurant la sœur de Lazare</l>
               <l>De ses longs cheveux essuya ;</l>
               <l>Pleurs abondants comme les vôtres,</l>
-              <l>O le plus tendre des apôtres,</l>
+              <l>Ô le plus tendre des apôtres,</l>
               <l>Avant le jour d’Alleluia !</l>
             </lg>
             <lg>
@@ -2916,7 +2908,7 @@
               <l>Son holocauste et ses combats,</l>
               <l>Le Maître qui tient la balance</l>
               <l>N’a compris que mieux son silence :</l>
-              <l>O mortels, ne le blâmez pas !</l>
+              <l>Ô mortels, ne le blâmez pas !</l>
             </lg>
             <lg>
               <l>Celui qu’invoquent nos prières</l>
@@ -4521,7 +4513,7 @@
             poésie est entre toutes ces Vénus, ces Ganymèdes et ces Bacchus; c’est là son monde. Sa
             jeune <hi rend="i">Tarentine</hi> y appartient exactement, et je ne cessais de l’y voir
             en figure. —La poésie d’André Chénier est l’accompagnement sur la flûte et sur la lyre
-            de tout cet art de marbre retrouvé. » </note> ; un Alcibiade candide et modeste, nourri
+            de tout cet art de marbre retrouvé. »</note> ; un Alcibiade candide et modeste, nourri
           de poésie, d’amitié et d’amour. Sa sensibilité est vive et tendre ; mais, tout en
           s’attristant à l’aspect de la mort, il ne s’élève pas au-dessus des croyances de Tibulle
           et d’Horace :</p>
@@ -4682,7 +4674,7 @@
             <hi rend="i">Alizons</hi> ou des <hi rend="i">Jeannes</hi> vulgaires en de fétides
           réduits. Il nous introduit au boudoir de Glycère ; et la belle Amélie, et Rose à la danse
           nonchalante, et Julie au rire étincelant, arrivent à la fête ; l’orgie est complète et
-          durera jusqu’au matin. O Dieu ! si Camille le savait ! Qu’est-ce donc que cette Camille si
+          durera jusqu’au matin. Ô Dieu ! si Camille le savait ! Qu’est-ce donc que cette Camille si
           sévère ? Mais, dans l’une des nuits précédentes, son amant ne l’a-t-il pas surprise
           elle-même aux bras d’un rival ? Telles sont les femmes d’André Chénier, des Ioniennes de
           Milet, de belles courtisanes grecques, et rien de plus. Il le sentait bien, et ne se
@@ -4782,7 +4774,7 @@
             parcourir le <hi rend="i">Journal de Paris</hi> de 90 et 91 ; sa signature s’y retrouve
             fréquemment, et d’ailleurs sa marque est assez sensible. —Relire aussi comme témoignage
             de ses pensées intimes et combattues, vers le même temps, l’admirable ode : <hi rend="i"
-              >O Versailles, ô bois, ô portiques</hi> ! etc., etc.</note>, Chénier ne sentit guère
+              >Ô Versailles, ô bois, ô portiques</hi> ! etc., etc.</note>, Chénier ne sentit guère
           tout le parti qu’on peut tirer du laid dans l’art, ou du moins il répugnait à s’en salir.
           Nous citerons un remarquable exemple où évidemment ce scrupule nuisit à son génie, et où
           la touche de Regnier lui fit faute. Notre poète, cédant à des considérations de fortune et
@@ -5115,7 +5107,7 @@
           montagnes :</p>
         <quote>
           <l rend="i">Et velus inventa est in montibus anchora summis.</l>
-          <p>(<hi rend="i">Ovide</hi>, Mét., liv. XV.)</p>
+          <bibl>(<hi rend="i">Ovide</hi>, Mét., liv. XV.)</bibl>
         </quote>
         <p>La ville d’<hi rend="i">Ancyre</hi> fut fondée sur une montagne où l’on trouva une
           ancre. » Il voulait peindre les autels de pierre, alors posés au bord de la mer, et qui se
@@ -5259,7 +5251,7 @@
           « Les néophytes répétaient les airs, dit-il, comme des oiseaux privés chantent pour
           attirer dans les rets de l’oiseleur les oiseaux sauvages. »</p>
         <p>Le poëte, pour compléter ses tableaux, aurait parlé prophétiquement de la découverte du
-          Nouveau-Monde : « O Destins, hâtez-vous d’amener ce grand jour qui… qui… ; mais non,
+          Nouveau-Monde : « Ô Destins, hâtez-vous d’amener ce grand jour qui… qui… ; mais non,
           Destins, éloignez ce jour funeste, et, s’il se peut, qu’il n’arrive jamais ! » Et il
           aurait flétri les horreurs qui suivirent la conquête. Il n’aurait pas moins présagé Gama
           et triomphé avec lui des périls amoncelés que lui opposa en vain</p>
@@ -5269,14 +5261,14 @@
         <p>On a l’épilogue de l’<hi rend="i">Hermès</hi> presque achevé : toute la pensée
           philosophique d’André s’y résume et s’y exhale avec ferveur :</p>
         <quote>
-          <l>O mon fils, mon <hi rend="i">Hermès</hi>, ma plus belle espérance ;</l>
-          <l>O fruit des longs travaux de ma persévérance,</l>
+          <l>Ô mon fils, mon <hi rend="i">Hermès</hi>, ma plus belle espérance ;</l>
+          <l>Ô fruit des longs travaux de ma persévérance,</l>
           <l>Toi, l’objet le plus cher des veilles de dix ans,</l>
           <l>Qui m’as coûté des soins et si doux et si lents ;</l>
           <l>Confident de ma joie et remède à mes peines ;</l>
           <l>Sur les lointaines mers, sur les terres lointaines,</l>
           <l>Compagnon bien-aimé de mes pas incertains,</l>
-          <l>O mon fils, aujourd’hui quels seront tes destins ?</l>
+          <l>Ô mon fils, aujourd’hui quels seront tes destins ?</l>
           <l>Une mère longtemps se cache ses alarmes ;</l>
           <l>Elle-même à son fils veut attacher ses armes :</l>
           <l>Mais quand il faut partir, ses bras, ses faibles bras</l>
@@ -5349,7 +5341,7 @@
         </quote>
         <p>et cette autre épigramme d’Anyté :</p>
         <quote>
-          <l>O Sauterelle, à toi, rossignol des fougères, etc.<note n="59" resp="author"><hi
+          <l>Ô Sauterelle, à toi, rossignol des fougères, etc.<note n="59" resp="author"><hi
                 rend="i">Ibid.</hi>, page 344.</note>,</l>
         </quote>
         <p>qu’il imite en même temps d’Argentarius. La petite épitaphe qui commence par ce
@@ -5420,7 +5412,7 @@
         <p>Et il se promet bien de la traduire dans ses <hi rend="i">Bucoliques</hi>. Ainsi tout lui
           servait à ses fins ingénieuses ; il extrayait de partout la Grèce.</p>
         <p>Est-ce un emprunt, est-ce une idée originale que ces lignes riantes que je trouve parmi
-          les autres et sans plus d’indication ? « O ver luisant lumineux, … petite étoile
+          les autres et sans plus d’indication ? « Ô ver luisant lumineux, … petite étoile
           terrestre, … ne te retire point encore…. prête-moi la clarté de ta lampe pour aller
           trouver ma mie qui m’attend dans le bois ! »</p>
         <p>Pindare, cité par Plutarque au <hi rend="i">Traité de l’Adresse et de l’Instinct des
@@ -5572,7 +5564,7 @@
             <l>Le voyageur, passant en ces fraîches campagnes,</l>
             <l>Dit<note n="66" resp="author">Ce voyageur est-il le même que le berger du
                 commencement ? ou entre-t-il comme personnage dans la chanson du berger ? Je le
-                croirais plutôt, mais ce n’est pas bien clair. </note> : O les beaux oiseaux ! ô les
+                croirais plutôt, mais ce n’est pas bien clair.</note> : Ô les beaux oiseaux ! ô les
               belles compagnes !</l>
             <l>Il s’arrêta longtemps à contempler leurs jeux ;</l>
             <l>Puis, reprenant sa route et les suivant des yeux,</l>
@@ -5606,7 +5598,7 @@
           voit au bord d’un ruisseau une jeune femme échevelée, tout en pleurs, assise sur un
           tombeau, une main appuyée sur la pierre, l’autre sur ses yeux. Elle s’enfuit à l’approche
           du voyageur qui lit sur la tombe cette épitaphe. Alors il prend des fleurs et de jeunes
-          rameaux, et les répand sur cette tombe en disant : O jeune infortunée… (quelque chose de
+          rameaux, et les répand sur cette tombe en disant : Ô jeune infortunée… (quelque chose de
           tendre et d’antique) ; puis il remonte à cheval, et s’en va la tête penchée et
           mélancoliquement, il s’en va</p>
         <quote>
@@ -5707,7 +5699,7 @@
             <l>Parent de nos cités les brillants carrefours.</l>
           </lg>
           <lg>
-            <l>O gardes de Louis, sous les voûtes royales</l>
+            <l>Ô gardes de Louis, sous les voûtes royales</l>
             <l>Par nos ménades déchirés,</l>
             <l>Vos têtes sur un fer ont, pour nos bacchanales,</l>
             <l>Orné nos portes triomphales,</l>
@@ -6045,7 +6037,7 @@
             pour un Écossais, » a dit de lui M. de Latouche (<hi rend="i">Vallée-aux-Loups</hi>). Ce
             trait est saisi d’après nature, il peint tout Farcy au physique et résume les plus
             minutieuses descriptions qu’on pourrait faire de lui : Écossais de physionomie et aussi
-            de philosophie, c’est juste cela. </note> ; mais avec cela un cœur d’homme ouvert à
+            de philosophie, c’est juste cela.</note> ; mais avec cela un cœur d’homme ouvert à
           l’attendrissement et capable au besoin de stoïcisme : un front pudique comme celui d’une
           jeune fille, et d’abord rougissant aisément ; l’adoration du beau, de l’honnête ;
           l’indignation généreuse contre le mal ; sa narine s’enflant alors et sa lèvre se relevant,
@@ -6585,7 +6577,7 @@
           personne, nous profiterons ; c’est donc à nous d’y prendre part et d’y aider<note n="80"
             resp="author">C’est tout à fait le même raisonnement généreux qui anime, dans Homère,
             Sarpédon s’adressant à Glaucus au moment de l’assaut du camp (<hi rend="i">Iliade</hi>,
-            XII) : « O Glaucus, pourquoi sommes-nous entre tous honorés en Lycie et par le siége, et
+            XII) : « Ô Glaucus, pourquoi sommes-nous entre tous honorés en Lycie et par le siége, et
             par les mets et les coupes d’honneur ? pourquoi tous nous considèrent-ils comme des
             dieux, et à quel titre, aux rives du Xanthe, possédons-nous notre grand domaine, riche
             en vergers et en terres fécondes ? C’est pour cela qu’aujourd’hui il nous faut faire
@@ -6629,22 +6621,18 @@
                   Procida</hi>,  <lb/>Sur le bord de la mer un matin m’aborda, <lb/>Me parla de
                 Paris, de nos amis de France, <lb/>De Rome qu’il quittait, puis de quelque
                 souffrance… <lb/>Et s’asseyant au seuil d’une blanche maison, <lb/>Lut dans André
-                Chénier : <hi rend="i">O Sminthée Apollon ! </hi>
+                Chénier : <hi rend="i">Ô Sminthée Apollon ! </hi>
                 <lb/>Et quand il eut fini cette belle lecture, <lb/>Ému par le climat et la douce
                 nature, <lb/>Se leva brusquement, et me tendant la main, <lb/>Grimpa, comme un
                 chevreau, sur le coteau voisin.</p>
             </quote>
             <p>M. Brizeux a dit :</p>
             <quote>
-              <lg>
-                <l>A LA MÉMOIRE DE GEORGE FARCY.</l>
-              </lg>
-              <lg>
-                <l>Il adorait</l>
+              <label type="head">A LA MÉMOIRE DE GEORGE FARCY.</label>
+              <quote><l>Il adorait</l>
                 <l>La France, la Poésie et la Philosophie.</l>
                 <l>Que la patrie conserve son nom !</l>
-                <l>(Victor Cousin.)</l>
-              </lg>
+                <bibl>(Victor Cousin.)</bibl></quote>
               <lg>
                 <l>Oui ! toujours j’enviai, Farcy, de te connaître,</l>
                 <l>Toi que si jeune encore on citait comme un maître.</l>
@@ -6694,7 +6682,7 @@
           fait de bien mourir ! —Disons seulement, en usant d’un mot du chœur antique : « Ah ! si
           les belles et bonnes âmes comme la sienne pouvaient avoir deux jeunesses<note n="83"
             resp="author">Euripide, <hi rend="i">Hercules furens</hi> (édit. de Boissonade, v. 648).
-          </note> ! »</p>
+         </note> ! »</p>
         <dateline>
           <docDate when="1831-06">Juin 1831</docDate></dateline>
         <postscript>
@@ -6904,7 +6892,7 @@
           métaphysique quelques larges lambeaux, quelques pages sublimes et lumineuses que
           Malebranche ou Leibnitz auraient pu signer avec orgueil s’ils n’eussent été chrétiens<note
             n="84" resp="author"><hi rend="i">Chrétiens</hi> ? cela est plus vrai de Malebranche que
-            de Leibnitz. </note> ; esprit d’intelligence, de hardiesse et de conjecture, alternant
+            de Leibnitz.</note> ; esprit d’intelligence, de hardiesse et de conjecture, alternant
           du fait à la rêverie, flottant de la majesté au cynisme, bon jusque dans son désordre, un
           peu mystique dans son incrédulité, et auquel il n’a manqué, comme à son siècle, pour avoir
           l’harmonie, qu’un rayon divin, un <hi rend="i">fiat lux</hi>, une idée régulatrice, un
@@ -7251,14 +7239,14 @@
             torrent de feu qui les engloutit pour jamais. Il y en a seulement un très-petit nombre
             de sages qui cherchent avec soin ce sentier, et qui, l’ayant découvert, y marchent avec
             grande circonspection, et, trouvant ainsi le moyen de passer le torrent, arrivent enfin
-            à un lieu de sûreté et de repos. » L’image de Nicole n’est pas consolante ; au chapitre
+            à un lieu de sûreté et de repos. » L’image de Nicole n’est pas consolante ; au chapitre
             V du traité <hi rend="i">de la Crainte de Dieu</hi>, on peut chercher une autre scène de
               <hi rend="i">carnage spirituel</hi>, dans laquelle n’éclate pas moins ce qu’on a droit
             d’appeler le <hi rend="i">terrorisme de la Grâce</hi> : on conçoit que Diderot ait
             trouvé ces doctrines funestes à l’humanité, et qu’il ait voulu faire à son tour, sous
             image d’île et d’océan, une contre-partie au tableau de Nicole. —Il y a aussi dans
             Pascal une comparaison du monde avec une île déserte, et les hommes y sont également de
-              <hi rend="i">misérables égarés</hi>. </note> ? —Tantôt, comme dans une lettre à
+              <hi rend="i">misérables égarés</hi>.</note> ? —Tantôt, comme dans une lettre à
           mademoiselle Voland, c’est un moine, galant homme et point du tout enfroqué, avec qui son
           ami Damilaville l’a fait dîner. On parla de l’amour paternel. Diderot dit que c’était une
           des plus puissantes affections de l’homme : « Un cœur paternel, repris-je ; non, il n’y a
@@ -8248,7 +8236,7 @@
           dans une de ces pages merveilleuses qui s’échappent brillamment du sein prophétique de la
           jeunesse et qui sont comme un programme idéal qu’on ne remplit jamais, — le plus calme, le
           plus lumineux esprit de cette élite écrivait en 1823<note n="107" resp="author">L’article,
-            écrit en 1823, n’a été publié qu’en 1825, dans <hi rend="i">le Globe</hi>. </note> :
+            écrit en 1823, n’a été publié qu’en 1825, dans <hi rend="i">le Globe</hi>.</note> :
           « Une génération nouvelle s’élève qui a pris naissance au sein du scepticisme dans le
           temps où les deux partis avaient la parole. Elle a écouté et elle a compris… Et déjà ces
           enfants ont dépassé leurs pères et senti le vide de leurs doctrines. Une foi nouvelle
@@ -8411,7 +8399,7 @@
           tenir compte de l’action, de l’impulsion communiquée aux hommes par les hommes, à ne
           croire que médiocrement à l’efficacité d’un génie individuel vivement employé. L’énergie
           des forces initiales l’atteint peu. Il est trop question avec lui, au point de vue où il
-          se place, de se croiser les bras et de regarder, —avec lui qui, à l’heure la plus ardente
+          se place, de se croiser les bras et de regarder, — avec lui qui, à l’heure la plus ardente
           de sa jeunesse, peignant la noble élite dont il faisait partie, écrivait : « L’espérance
           des nouveaux jours est en eux ; ils en sont les apôtres prédestinés, et c’est dans leurs
           mains qu’est le salut du monde… Ils ont foi à la vérité et à la vertu, ou plutôt, par une
@@ -8464,7 +8452,7 @@
             ce sentiment d’observation contemplative; car, s’il veut tirer le poisson hors de l’eau,
             s’il agite sa ligne, comme, en cette sorte de pêche, le poisson, c’est sa propre image,
             c’est soi-même, au moindre effort et au moindre ébranlement, tout se trouble, la proie
-            s’évanouit, le phénomène à saisir n’est déjà plus. </note> ; c’est l’homme seulement que
+            s’évanouit, le phénomène à saisir n’est déjà plus.</note> ; c’est l’homme seulement que
           nous voulons de lui, l’écrivain, le penseur, une des figures intéressantes et assez
           mystérieuses qui nous reviennent inévitablement dans le cercle de notre époque, un
           personnage qui a beaucoup occupé notre jeune inquiétude contemplative, une parole qui
@@ -8566,7 +8554,7 @@
           de leurs ombres ? et l’hiver, dans la tempête, les tourbillons de neige soulevés, les
           chemins disparus sous de nouvelles montagnes, l’aigle et le corbeau qui planent au plus
           haut de l’air, les loups sans asile, hurlant de faim et de froid, tandis que les familles
-          s’assemblent au bruit des toits ébranlés, et prient Dieu pour le voyageur ? O mon pays que
+          s’assemblent au bruit des toits ébranlés, et prient Dieu pour le voyageur ? Ô mon pays que
           je regrette, quand vous reverrai-je ? »</p>
         <p>En 1820, ayant perdu son père, il revit ce Jura tant désiré, et toute sa chère Helvétie.
           Il fit ce voyage avec M. Dubois, qui, placé alors à Besançon, et lui-même atteint de
@@ -8860,7 +8848,7 @@
           Jouffroy a justifié ce qu’on attendait de lui ; mais pour ceux qui l’ont entendu dans
           l’enseignement privé, rien n’a rendu ni ne rendra le charme et l’ascendant d’alors<note
             n="113" resp="author">Voir, si l’on veut, dans les poésies de Joseph Delorme deux pièces
-            adressées à M. Jouffroy, qui n’y est pas nommé, l’une à M*** : <hi rend="i">O vous qui
+            adressées à M. Jouffroy, qui n’y est pas nommé, l’une à M*** : <hi rend="i">Ô vous qui
               lorsque seul</hi>, etc., etc. ; et l’autre qui a pour titre : <hi rend="i">Le Soir de
               la Jeunesse</hi>. Nous ne croyons pas nous tromper en disant que cette dernière pièce
             a été également inspirée par lui. — Dans une dernière édition de <hi rend="i">Joseph
@@ -9186,7 +9174,7 @@
           entamait aussi le grec. Il y a une description célèbre du cheval chez Homère, Virgile et
           le Tasse<note n="119" resp="author">Homère, Iliade, VI; Virgile, Énéide, XI; et le Tasse,
             probablement Jérusalem délivrée, chant IX, lorsque Argilan, libre enfin de sa prison,
-            est comparé au coursier belliqueux qui rompt ses liens. </note> : il aimait à la réciter
+            est comparé au coursier belliqueux qui rompt ses liens.</note> : il aimait à la réciter
           successivement dans les trois langues.</p>
         <p>Le sentiment de la nature vivante et champêtre lui créait en ces moments toute une
           nouvelle existence dont il s’enivrait. Circonstance piquante et qui est bien de lui !
@@ -9626,8 +9614,7 @@
         </quote>
         <p>(Suivent les deux versets :)</p>
         <quote>
-          <l>Multa flagella peccatoris, sperantem autem in Domino misericordia</l>
-          <l>circumdabit.</l>
+          <l>Multa flagella peccatoris, sperantem autem in Domino misericordia circumdabit.</l>
           <l>Firmabo super te oculos meos et instruam te in via hac qua gradieris.</l>
           <l>Amen.</l>
         </quote>
@@ -9644,7 +9631,7 @@
             etc. J’espère en vous, ô mon Dieu ! mais je serai soumis à votre arrêt, quel qu’il soit.
             J’eusse préféré la mort ; mais je ne méritais pas le ciel, et vous n’avez pas voulu me
             plonger dans l’enfer. Daignez me secourir pour qu’une vie passée dans la douleur me
-            mérite une bonne mort dont je me suis rendu indigne. O Seigneur, Dieu de miséricorde,
+            mérite une bonne mort dont je me suis rendu indigne. Ô Seigneur, Dieu de miséricorde,
             daignez me réunir dans le ciel à ce que vous m’aviez permis d’aimer sur la terre !</p>
         </quote>
         <p>Ce serait mentir à la mémoire de M. Ampère que d’omettre de telles pièces quand on les a
@@ -10030,7 +10017,7 @@
           Degérando, il se mit à leur exposer le système du monde ; il parla treize heures avec une
           lucidité continue ; et comme le monde est infini, et que tout s’y enchaîne, et qu’il le
           savait de cercle en cercle en tous les sens, il ne cessait pas, et si la fatigue ne
-          l’avait arrêté, il parlerait, je crois, encore. O Science ! voilà bien à découvert ta pure
+          l’avait arrêté, il parlerait, je crois, encore. Ô Science ! voilà bien à découvert ta pure
           source sacrée, bouillonnante ! —Ceux qui l’ont entendu, à ses leçons, dans les dernières
           années au collège de France, se promenant le long de sa longue table comme il eût fait
           dans l’allée de Polémieux, et discourant durant des heures, comprendront cette perpétuité
@@ -10245,7 +10232,7 @@
             comme on le peut lire page 334, t. 1<hi rend="sup">er</hi> des <hi rend="i">Nouveaux
               Mémoires d’Histoire, de Critique et de Littérature</hi>, par l’abbé d’Arligny ? Grande
             question sur laquelle les avis sont partagés. (Voir les mêmes <hi rend="i"
-            >Mémoires</hi>, t. VII, page 47.) </note> ! l’infidélité est un trait de ces esprits
+            >Mémoires</hi>, t. VII, page 47.)</note> ! l’infidélité est un trait de ces esprits
           divers et intelligents ; ils reviennent sur leurs pas, ils prennent tous les côtés d’une
           question, ils ne se font pas faute de se réfuter eux-mêmes et de retourner la tablature.
           Combien de fois Bayle n’a-t-il pas changé de rôle, se déguisant tantôt en nouveau
@@ -10319,7 +10306,7 @@
                 >e</hi></num> libre et non académique; il ne s’en défit jamais. En avançant pourtant
             et à force d’écrire, sa phrase, si riche d’ailleurs de gallicismes, ne laissa pas de se
             former; elle s’épura, s’allégea beaucoup, et souvent même se troussa fort lestement.
-          </note> ; en avance par son dégagement d’esprit et son peu de préoccupation pour les
+         </note> ; en avance par son dégagement d’esprit et son peu de préoccupation pour les
           formes régulières et les doctrines que le <num>xvii<hi rend="sup">e</hi></num> siècle
           remit en honneur après la grande anarchie du <num>xvi<hi rend="sup">e</hi></num>. De
           Toulouse à Genève, de Genève à Sedan, de Sedan à Rotterdam, Bayle contourne, en quelque
@@ -10596,7 +10583,7 @@
           analyses exactes, ingénieuses, et même par les petites notes qui, bien faites, ont du
           prix, et dont la tradition et la manière seraient perdues depuis longtemps, si on n’en
           retrouvait des traces encore à la fin du <hi rend="i">Journal</hi> actuel <hi rend="i">des
-            Savants</hi><note n="132" resp="author">Dirigé par M. Daunou. </note> ; petites notes où
+            Savants</hi><note n="132" resp="author">Dirigé par M. Daunou.</note> ; petites notes où
           chaque mot est pesé dans la balance de l’ancienne et scrupuleuse critique, comme dans
           celle d’un honnête joaillier d’Amsterdam. Cette critique modeste de Bayle, qui est
           républicaine de Hollande, qui va à pied, qui s’excuse de ses défauts auprès du public sur
@@ -11039,7 +11026,7 @@
             rend="i">Onuphre</hi> est irréprochable<note n="147" resp="author">La Motte a dit :
             « Dans son tableau de <hi rend="i">l’Hypocrite</hi>, La Bruyère commence toujours par
             effacer un trait du <hi rend="i">Tartufe</hi>, et ensuite il en <hi rend="i"
-              >recouche</hi> un tout contraire. » </note> : de même pour sa conduite, il pense à
+              >recouche</hi> un tout contraire. »</note> : de même pour sa conduite, il pense à
           tout et se conforme à ses maximes, à son expérience. Molière est poëte, entraîné,
           irrégulier, mélange de naïveté et de feu, et plus grand, plus aimable peut-être par ses
           contradictions mêmes : La Bruyère est sage. Il ne se maria jamais : « Un homme libre,
@@ -11166,7 +11153,7 @@
                 directement au-dessous de rien</hi>. Certes, l’exemple de telles injustices
               appliquées aux plus délicats et aux plus fins modèles serait capable de consoler ceux
               qui ont du moins le culte du passé, de toutes les grossièretés qu’eux-mêmes ils ont
-              souvent à essuyer dans le présent. </note> ? Benserade, à qui le signalement de <hi
+              souvent à essuyer dans le présent.</note> ? Benserade, à qui le signalement de <hi
               rend="i">Théobalde</hi> sied assez, était mort ; était-ce Boursault qui, sans
             appartenir à l’Académie, avait pu se coaliser avec quelques-uns du dedans ? Était-ce le
             vieux Boyer<note n="151" resp="author">Ce serait plutôt Boursault que Boyer ; car je me
@@ -11316,7 +11303,7 @@
             >Caractères</hi> avant la publication ; mais Voltaire ne paraît pas s’en être soucié. Il
           convenait à un esprit calme et fin comme l’était Suard, de réparer cette négligence
           injuste, avant qu’elle s’autorisât<note n="154" resp="author">On peut voir au tome II des
-            Mémoires de Garât sur Suard, p. 268 et suiv., avec quel à-propos celui-ci cita et
+            Mémoires de Garat sur Suard, p. 268 et suiv., avec quel à-propos celui-ci cita et
             commenta un jour le chapitre des <hi rend="i">Grands</hi> dans le salon de M. De
             Vaines.</note>. Aujourd’hui, La Bruyère n’est plus à remettre à son rang. On se révolte,
           il est vrai, de temps à autre, contre ces belles réputations simples et hautes, conquises
@@ -11657,7 +11644,7 @@
           à la veille suprême, comme Gilbert et André Chénier :</p>
         <quote>
           <l>Compagnons dispersés de mon triste voyage,</l>
-          <l>O mes amis, ô vous qui me fûtes si chers !</l>
+          <l>Ô mes amis, ô vous qui me fûtes si chers !</l>
           <l>De mes chants imparfaits recueillez l’héritage,</l>
           <l>Et sauvez de l’oubli quelques-uns de mes vers.</l>
           <l>Et vous par qui je meurs, vous à qui je pardonne.</l>
@@ -11667,7 +11654,7 @@
           la mort ; l’extrême langueur s’exhale dans cette voix parfaitement distincte, mais
             affaiblie<note n="160" resp="author">Un critique ingénieux l’a exprimé plus
             énergiquement que nous : « Millevoye a fait de charmantes choses, mais la force lui
-            manque; c’est Narcisse qui s’écoule en eau par amour. » </note> ; il n’a pas su dire à
+            manque; c’est Narcisse qui s’écoule en eau par amour. »</note> ; il n’a pas su dire à
           temps comme un élégiaque plus récent, qui s’écrie sous une inspiration semblable :</p>
         <quote>
           <l>Ôtez, ôtez bien loin toute grâce émouvante,</l>
@@ -12045,7 +12032,7 @@
         <quote>
           <l>Or se’ lu quel Virgilio, e quella fonte</l>
           <l>Che spande di parlar si largo tiume ? </l>
-          <l>* * * * *</l>
+          <ab type="ornament">* * * * *</ab>
           <l>Vagliami ’l lungo studio e ’l grande amore</l>
           <l>Che m’ lian fatto cercar lo tuo volume ;</l>
           <l>Tu se’ lo mio maestro, e ’l mio autore…,</l>
@@ -12400,7 +12387,7 @@
           montagnard élancé à haute et large poitrine, de même que dans celui d’autrefois et
           jusqu’en sa pleine force, on dut entrevoir toujours quelque chose de ce qui a promptement
           fléchi. Les Francs-Comtois transplantés ne sont-ils pas volontiers comme cela<note n="169"
-            resp="author">Jouffroy, par exemple. </note> ?</p>
+            resp="author">Jouffroy, par exemple.</note> ?</p>
         <p>Quoi qu’il en soit, lui, il était tel lorsque ses premiers séjours à Paris agrandirent
           sous ses pas bondissants le cercle des aventures. J’ajourne pour un instant les échappées
           politiques : littérairement on le possède dès ce moment-là, d’une manière complète et
@@ -12416,7 +12403,7 @@
             été réimprimé en 1820 (<hi rend="i">Stella</hi> ou <hi rend="i">les Proscrits</hi>).
             L’auteur l’a rejeté depuis avec raison, comme trop juvénile et peu digne de ses <hi
               rend="i">œuvres complètes</hi>. Les autres ouvrages dont je parle en dispensent.
-          </note> ; mais j’y joins celui d’<hi rend="i">Adèle</hi>, qui, publié beaucoup plus tard,
+         </note> ; mais j’y joins celui d’<hi rend="i">Adèle</hi>, qui, publié beaucoup plus tard,
           remonte pour la première idée et l’ébauche de la composition à ces années de prélude. En
           relisant ces divers écrits, en tâchant, s’il se peut, pour les <hi rend="i">Essais d’un
             jeune Barde</hi> et pour <hi rend="i">les Tristes</hi>, de ressaisir l’édition originale
@@ -12767,7 +12754,7 @@
             <l>Les arbres que j’aimais ne croissent point ici.</l>
           </lg>
           <lg>
-            <l>O riant Quintigny, vallon rempli de grâces,</l>
+            <l>Ô riant Quintigny, vallon rempli de grâces,</l>
             <l>Temple de mes amours, trône de mon printemps,</l>
             <l>Séjour que l’espérance offrait à mes vieux ans,</l>
             <l>Tes sentiers mal frayés ont-ils gardé mes traces ?</l>
@@ -13066,7 +13053,7 @@
           <l>Loué soit Dieu ! puisque dans ma misère,</l>
           <l>De tous les biens qu’il voulut m’enlever,</l>
           <l>Il m’a laissé le bien que je préfère :</l>
-          <l>O mes amis, quel plaisir de rêver,</l>
+          <l>Ô mes amis, quel plaisir de rêver,</l>
           <l>De se livrer au cours de ses pensées,</l>
           <l>Par le hasard l’une à l’autre enlacées,</l>
           <l>Non par dessein : le dessein y nuirait !</l>
@@ -13095,9 +13082,7 @@
           de vers : c’est une petite Poétique, telle, ce me semble, qu’à deux ou trois mots près
           l’aurait pu signer La Fontaine.</p>
         <quote>
-          <lg>
-            <l>DU STYLE.</l>
-          </lg>
+          <label type="head">DU STYLE.</label>
           <lg>
             <l>« Tout bon habitant du Marais</l>
             <l>Fait des vers qui ne coûtent guère,</l>
@@ -13427,9 +13412,7 @@
           chanté en des vers délicieux, peu connus et que nous demandons à citer, comme exemple du
           jeu facile et habituel de cette fantaisie sensible :</p>
         <quote>
-          <lg>
-            <l>LE SOMMEIL.</l>
-          </lg>
+          <label type="head">LE SOMMEIL.</label>
           <lg>
             <l>Depuis que je vieillis, et qu’une femme, un ange,</l>
             <l>Souffre sans s’émouvoir que je baise son front ;</l>
@@ -13539,7 +13522,7 @@
             qui lui arrivaient en foule et ne cessèrent plus, dès qu’on le sut en danger : « Qui
             est-ce qui dirait, à voir tout cela, que je n’ai toujours été qu’un pauvre
             diable ? »—Comme Cherubini dans le tableau d’Ingre il ne voyait pas la Muse immortelle
-            qui debout était derrière. </note> ;</p>
+            qui debout était derrière.</note> ;</p>
         <p>Nodier allait être déjà un mort illustre. C’est un honneur de ce pays-ci et de cette
           France, on l’a remarqué, que l’esprit, à lui seul, y tienne tant de place, que, dès qu’il
           y a eu sur un talent ce rayon du ciel, la grâce et le charme, il soit finalement compris,
@@ -13853,7 +13836,7 @@
           et de gaieté, qui firent de lui, selon le mot de Chaulieu, un successeur de Villon,
           quoiqu’à dire vrai Voltaire n’eût peut-être jamais lu Villon, et que, pour un convive du
           Temple, il parlât trop lestement de La Fontaine…</p>
-        <label rend="center">FIN DU TOME PREMIER.</label>
+        <trailer>FIN DU TOME PREMIER.</trailer>
       </div>
     </body>
   </text>

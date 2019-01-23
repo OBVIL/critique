@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,7 +64,7 @@
         <date when="1890">1890</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -76,7 +76,7 @@
             seconde a été de n’avoir plus le moindre droit aux ménagements respectueux qu’on doit à
             la femme. Vous entendez, Mesdames ? Quand on a osé se faire amazone, on ne doit pas
             craindre les massacres sur le Thermodon.</p>
-          <p rend="right">J. BARBEY D’AUREVILLY.</p>
+          <bibl>J. BARBEY D’AUREVILLY.</bibl>
         </epigraph>
       </div>
       <div>
@@ -590,7 +590,7 @@
           pourrait signer princesse Mertchersky), applique à une de ses héroïnes le vers de
           Slowacki :</p>
         <quote>
-          <l>O flot… flot infidèle, et pourtant si fidèle.</l>
+          <l>Ô flot… flot infidèle, et pourtant si fidèle.</l>
         </quote>
         <p>Je songe au « Perfide comme l’onde », et je me demande si les hâtifs donneurs
           d’explications auraient raison et si l’âme slave serait particulièrement féminine.</p>
@@ -630,7 +630,7 @@
           <l>Ils ignorent la terre où dormiront leurs os :</l>
           <l>Ta race est un collier d’où s’égrènent les perles</l>
           <l>Qui roulent sur le sable, ou sombrent sous les flots.</l>
-          <l rend="b">. ……………………. </l>
+          <l rend="b">. …………………….</l>
           <l>Le mur de leur orgueil est l’horizon sans borne</l>
           <l>Dont leur âme est l’oiseau superbe et plein de cris.</l>
           <l>Père des sans-famille et de ceux que l’on chasse</l>
@@ -641,7 +641,7 @@
           <l>Viens nous frayer, ô Toi, maudit par les Ancêtres,</l>
           <l>Enfant d’Agar, superbe esclave, égal aux rois,</l>
           <l>Des sentiers inconnus vers des plaines sans Maîtres,</l>
-          <l>O Pasteur du troupeau libre et puissant des Êtres</l>
+          <l>Ô Pasteur du troupeau libre et puissant des Êtres</l>
           <l>Que jamais n’effleura nulle honte et nul poids.</l>
         </quote>
         <p>Malgré la construction peu aimable de la dernière période, malgré ces vocatifs
@@ -1064,10 +1064,10 @@
         <quote>
           <l>Un autre moi railleur se tient à ma fenêtre</l>
           <l>Et fixe sur mon âme un regard obstiné.</l>
-          <l rend="b">. …………………….. </l>
+          <l rend="b">. ……………………..</l>
           <l>Il ne peut jamais croire à ma sincérité.</l>
           <l>Dans mes plus chers amours il voit l’indifférence.</l>
-          <l rend="b">. …………………….. </l>
+          <l rend="b">. ……………………..</l>
           <l>Il chasse d’un sourire et la joie et le rêve.</l>
         </quote>
         <p>Quelle poésie ou même quelle vie pourrait subsister en la pauvre âme démolie à ce point
@@ -1276,7 +1276,7 @@
           philosophique, sages dissertations bien correctes, bien plates, où les abstractions sont
           exprimées directement, sans même l’élégance de <pb n="69"/>quelque symbole
           sully-prud’hommesque. Elle est d’autant plus coupable qu’elle sent ce qu’a de ridiculement
-          prosaïque son effort d’« enchâsser des pensées dans des vers : »</p>
+          prosaïque son effort d’« enchâsser des pensées dans des vers » :</p>
         <quote>
           <l>Hélas ! mes durs sonnets les tiennent oppressées ;</l>
           <l>Elles perdent en eux leur sève et leurs senteurs.</l>
@@ -1688,7 +1688,7 @@
         <quote>
           <l>J’offrirais notre amour à Dieu, pour qu’il me fasse</l>
           <l>bonne, comme ton cœur se plût à me rêver</l>
-          <l rend="b">. ………………………. </l>
+          <l rend="b">. ……………………….</l>
           <l>et qu’il mette en mes yeux une lueur discrète</l>
           <l>qui soit comme une douce lampe à ton foyer.</l>
         </quote>
@@ -1710,7 +1710,7 @@
         <head>VII <lb/>Les cantinières</head>
         <epigraph>
           <p>Ah ! mille millions de tonnerres, c’en est !</p>
-          <p rend="right">(PAUL DÉROULÈDE).</p>
+          <bibl>(PAUL DÉROULÈDE).</bibl>
         </epigraph>
         <p>Tout ce qui exprime l’oubli de nos bas intérêts a sa beauté. La patrie, — quand on
           comprend sous ce vocable un grand État aggloméré par le hasard des conquêtes et des
@@ -1931,7 +1931,7 @@
         <quote>
           <l>Si jamais défaites pareilles</l>
           <l>Chez nous ramenaient l’Étranger,</l>
-          <l>O Vin, fais sauter les bouteilles</l>
+          <l>Ô Vin, fais sauter les bouteilles</l>
           <l>Et sois perdu pour nous venger !</l>
         </quote>
         <p>Tout n’est pas ridicule dans <hi rend="i">l’Ame française</hi>. Le vers ne retrouve
@@ -1954,15 +1954,13 @@
           <l>Depuis ce « <hi rend="i">Væ Victis</hi> » dit à Rome à genoux</l>
           <l>Qui, s’il jeta d’un brenn l’épée en la balance,</l>
           <l>Par le fer de César est retombé sur nous !</l>
-          <l rend="b"> . ………………….. </l>
-          <l>O sauvage désir de vengeance farouche !</l>
+          <l rend="b"> . …………………..</l>
+          <l>Ô sauvage désir de vengeance farouche !</l>
           <l>Si, punis aujourd’hui, demain voulant punir,</l>
           <l>Le venin dans le cœur et l’écume à la bouche,</l>
           <l>Sur eux nous nous ruons… — C’est à ne plus finir !</l>
-          <l>
-            <pb n="100"/>
-          </l>
-          <l>Guerre sur guerre encor, — revanche de revanche !</l>
+          <pb n="100"/><l/>
+           <l>Guerre sur guerre encor, — revanche de revanche !</l>
           <l>Et toujours morts pour morts, sac pour sac, feu pour feu,</l>
           <l>Massacre à tout jamais, en tout siècle, en tout lieu !</l>
           <l>C’est de l’égorgement la roulante avalanche !</l>
@@ -3616,10 +3614,9 @@
           <l>De me voir préféré le poison de Nicot ?</l>
           <l>Cela ne sera pas ! Qu’il fume son havane,</l>
           <l>Et qu’à son bras, s’il veut, s’appuie et se pavane</l>
-          <l>
-            <pb n="197"/>
-          </l>
-          <l>Une épouse à son goût, éprise du tabac,</l>
+          <pb n="197"/>
+          <l/>
+         <l>Une épouse à son goût, éprise du tabac,</l>
           <l>Moi, l’odeur en répugne à mon faible estomac,</l>
           <l>Et je n’accepte pas une lutte inégale</l>
           <l>Entre moi, s’il vous plaît, et cette herbe fatale !</l>
@@ -4555,7 +4552,7 @@
         <p>Pas très poétique. Je suis mal tombé. Tournons des pages… Je rencontre ce final :</p>
         <quote>
           <l>Viens chaque soir,</l>
-          <l>O bel œil noir,</l>
+          <l>Ô bel œil noir,</l>
           <l>A mes yeux bleus</l>
           <l>Ouvrir les cieux !</l>
         </quote>
@@ -4687,7 +4684,7 @@
         <ab type="ornament">***</ab>
         <p>Si je n’étais si fatigué, quelles jolies et abondantes perles je détacherais des
           coquilles de Maurice de Souillac et de Pierre Dax. Je veux cependant signaler une des plus
-          belles. O Edmond Rocher, ô Paul Cirou, ô tous les habiles dessinateurs, essayez de
+          belles. Ô Edmond Rocher, ô Paul Cirou, ô tous les habiles dessinateurs, essayez de
           représenter les yeux qu’imagine Pierre Dax, ces yeux merveilleux qui, au besoin, savent
           donner l’oreille : « Deux yeux de turquoise, bordés de velours noir, allaient de l’un à
           l’autre des convives, caressaient, encourageaient, ponctuaient, avec cette attitude
@@ -4813,7 +4810,7 @@
         <p>On reproche souvent aux formules leur pauvreté et <pb n="265"/>leur vague. Ces blâmes
           sont mal fondés quand la formule est précisée par tout un livre, enrichie de mille
           observations de détail. J’essaie donc encore cette conclusion :</p>
-        <p rend="i">La femme est l’élément passif de l’humanité. </p>
+        <p rend="i">La femme est l’élément passif de l’humanité.</p>
         <p>Mais je supplie le lecteur de ne pas entendre autour du mot « passif » des harmoniques
           injurieuses. Le néant est inconcevable et les termes négatifs en apparence expriment de
           simples relations. « Passif » ne signifie même pas « moins actif » ; il veut dire : « dont

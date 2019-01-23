@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>L’esthétique naturaliste</title>
+        <title>L’esthétique naturaliste. Article de la Revue des deux mondes</title>
         <author key="Bigot, Charles (1870-1893)">Charles Bigot</author>
       </titleStmt>
       <editionStmt>
@@ -38,22 +38,23 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Charles Bigot</author>, <title>« L’esthétique naturaliste »</title>, <hi rend="i">Revue des deux mondes</hi>, 3<hi rend="sup">e</hi> période, tome XXXV, <date>15 septembre 1879</date>, p. 415-432.</bibl>
+        <bibl><author>Charles Bigot</author>, « <title><hi rend="i">L’esthétique naturaliste</hi></title> », <hi rend="i">Revue des deux mondes</hi> (<pubPlace>Paris</pubPlace>, <publisher>Revue des deux mondes)</publisher>), <biblScope unit="series">3</biblScope><hi rend="sup">e</hi> période, tome <biblScope unit="tome">XXXV</biblScope>, 15 septembre <date>1879</date>, p. <biblScope unit="page">415-432</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1879">1879</date>
+        <date when="1879-09-15"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <body>
+      <pb n="415"/>
       <div>
-        <p><pb n="415"/>Nous voici en présence d’une école littéraire nouvelle. On nous l’assure du moins. L’enfant s’appelle le naturalisme. Il fait son entrée dans le monde à la façon ordinaire des enfants, en criant beaucoup. Si une forte voix est signe d’une bonne constitution, celui-ci paraîtrait doué d’une constitution robuste. Pour l’instant, on n’entend guère que lui. J’imagine que, si le petit Jupiter de la fable avait fait autant de tapage, les corybantes ne seraient pas venus à bout de couvrir sa voix et de cacher son existence au vieux Saturne. La comparaison est d’ailleurs assez inexacte, selon la coutume des comparaisons. Le Saturne actuel n’a nullement envie de dévorer son fils et ne paraît avoir nulle crainte d’être détrôné par lui. Il est très fier au contraire de sa progéniture et très désireux de lui voir faire son chemin. Il se constitue le chantre de ses vertus et le trompette de sa renommée. Sans médire des poumons de l’enfant, on peut bien ajouter qu’il occuperait moins nos oreilles sans le concours que lui prête le trombone puissant et infatigable de monsieur son père.</p>
+        <p>Nous voici en présence d’une école littéraire nouvelle. On nous l’assure du moins. L’enfant s’appelle le naturalisme. Il fait son entrée dans le monde à la façon ordinaire des enfants, en criant beaucoup. Si une forte voix est signe d’une bonne constitution, celui-ci paraîtrait doué d’une constitution robuste. Pour l’instant, on n’entend guère que lui. J’imagine que, si le petit Jupiter de la fable avait fait autant de tapage, les corybantes ne seraient pas venus à bout de couvrir sa voix et de cacher son existence au vieux Saturne. La comparaison est d’ailleurs assez inexacte, selon la coutume des comparaisons. Le Saturne actuel n’a nullement envie de dévorer son fils et ne paraît avoir nulle crainte d’être détrôné par lui. Il est très fier au contraire de sa progéniture et très désireux de lui voir faire son chemin. Il se constitue le chantre de ses vertus et le trompette de sa renommée. Sans médire des poumons de l’enfant, on peut bien ajouter qu’il occuperait moins nos oreilles sans le concours que lui prête le trombone puissant et infatigable de monsieur son père.</p>
         <p>M. Zola eût pu, tout comme un antre, se borner à faire des romans, les meilleurs qu’il eût dépendu de lui. Il était né avec assez de talent pour se conquérir ainsi une place parmi ses contemporains et exercer par son exemple une réelle influence. Mais cette gloire n’était pas pour lui suffire. Son ambition était d’être un chef d’école et sa prétention d’apporter au monde la formule complète, — et jusqu’à lui vainement cherchée, — de la vérité littéraire moderne. À côté de l’artiste, il avait senti en lui dès sa jeunesse un critique et un théoricien. Depuis le grand succès de <hi rend="i">L’Assommoir</hi>, Gusman ne connaît plus d’obstacle. Du haut de ses soixante-deux éditions, — c’est le dernier chiffre officiel en attendant la suite, — il regarde en pitié et son siècle et les siècles qui <pb n="416"/>l’ont précédé. Il est venu, il a vu, il a vaincu : il promène un regard hautain sur le passé, un regard triomphant sur l’avenire. Les temps du naturalisme sont venus ; une voix a été entendue annonçant que le règne des faux dieux était passé et que le grand Pan est mort.</p>
         <p>Pourtant il est des morts qu’il faut qu’on tue encore, et M. Zola s’y emploie consciencieusement. Oncques ne vit-on iconoclaste plus intrépide. C’est merveille de le voir s’escrimer de sa lourde masse d’armes et briser les idoles que le peuple avait naguère la folie d’adorer. Sans doute il n’a point empêché la foule de courir à la reprise de <hi rend="i">Ruy Blas</hi>, mais du moins il a dit vertement leur fait à M. Victor Hugo et au romantisme ; si l’on ne voit pas après cela que les pieds du colosse sont d’argile, l’apôtre a accompli son devoir et sa conscience n’a rien à lui reprocher. En même temps que d’une main M. Zola détruit, de l’autre il édifie. S’il est l’ange terrible qui chasse de l’Éden ceux dont la présence le souillait, il est aussi le bon saint Pierre qui ouvre la porte du paradis à ceux qui sont dignes d’y pénétrer. Hors du naturalisme point de salut, ni pour les écrivains ni même pour les gouvernements. Mais avec le naturalisme tout change. Recevez le baptême et vous serez sauvés. Ce n’est pas sans doute qu’il n’y ait des degrés parmi les élus. J’imagine que là même le talent personnel gardera quelques droits. Il y aura les petits saints et les grands. Tout le monde ne pourra pas prétendre à une place d’honneur : on distinguera jusqu’en cet olympe nouveau les grands dieux et les demi-dieux ; mais en tout cas, au noble banquet, ceux-là seuls seront admis à s’abreuver du nectar qui auront communié d’abord ici-bas dans la formule sacro-sainte de l’art nouveau.</p>
         <p>Je ne voudrais pas plaisanter plus qu’il ne convient. C’est le métier de la critique de prendre au sérieux tout ce qui autour d’elle est pris sérieusement. Or tel est incontestablement le cas du naturalisme. D’abord il se prend lui-même effroyablement au sérieux ; il n’admet pas le moindre mot pour rire, et c’est pour de bon qu’il pontifie. Ensuite il a trouvé force gens qui l’ont pris comme il se donnait ; si le temps était encore au martyre, il se pourrait qu’il trouvât des martyrs. Parlons donc raison et raison seule ; voyons clair, s’il se peut.</p>

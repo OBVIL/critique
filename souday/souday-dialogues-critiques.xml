@@ -3,7 +3,7 @@
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,7 +40,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Paul Souday</author>, <title>Dialogues critiques</title>, <pubPlace>Paris</pubPlace>, <publisher>Edition des Cahiers libres</publisher>, <date>1929</date>, 135 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1412637.r=">Gallica</ref>. </bibl>
+        <bibl><author>Paul Souday</author>, <title>Dialogues critiques</title>, <pubPlace>Paris</pubPlace>, <publisher>Edition des Cahiers libres</publisher>, <date>1929</date>, 135 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1412637.r=">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -48,7 +48,7 @@
         <date when="1929">1929</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -341,7 +341,7 @@
         <label type="speaker" rend="sc">M. Pierre</label>
         <p>Vous qui n’admettez cartésiennement que les idées claires et distinctes, vous parlez par énigmes.</p>
         <label type="speaker" rend="sc">M. Paul</label>
-        <p>Je vous rappelle tout simplement le principe de contradiction. Aimer, admirer, ou affirmer une chose — l’amour n’est qu’une affirmation énergique — c’est nécessairement haïr, mépriser ou nier son contraire. Entre A et non-A, entre le signe <hi rend="i">plus</hi> (+) et le signe <hi rend="i">moins</hi> (–), il faut choisir.</p>
+        <p>Je vous rappelle tout simplement le principe de contradiction. Aimer, admirer, ou affirmer une chose — l’amour n’est qu’une affirmation énergique — c’est nécessairement haïr, mépriser ou nier son contraire. Entre A et non-A, entre le signe <hi rend="i">plus</hi> (+) et le signe <hi rend="i">moins</hi> (—), il faut choisir.</p>
         <label type="speaker" rend="sc">M. Pierre</label>
         <p>Cependant Hegel…</p>
         <label type="speaker" rend="sc">M. Paul</label>

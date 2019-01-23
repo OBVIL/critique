@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1889">1889</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -217,29 +217,41 @@
           <p>Ici je demande la permission de vous faire assister à mon petit <hi rend="sc">Intermède</hi> tiré d’un précieux livre : le <hi rend="i">Traité de poésie française</hi>, où M. Théodore de Banville fait pousser impitoyablement, tel le dieu de Claros, de monstrueuses oreilles d’âne sur la tête de maint Midas.</p>
           <p>Attention !</p>
           <p>Les personnages qui parlent dans la pièce sont :</p>
-          <p rend="i sc">Un Détracteur de l’École symbolique</p>
-          <p rend="i sc">M. Théodore de Banville</p>
-          <p rend="i sc">Érato</p>
-          <label rend=" b">Scène Première</label>
-          <p><hi rend="sc">Le Détracteur</hi>. — Oh ! ces décadents ! Quelle emphase ! Quel galimatias ! Comme notre grand Molière avait raison quand il a dit :</p>
+          <list>
+            <item><hi rend="sc">Un Détracteur de l’École symbolique</hi></item>
+          <item><hi rend="sc">M. Théodore de Banville</hi></item>
+          <item><hi rend="sc">Érato</hi></item>
+          </list>
+          <label type="head">Scène Première</label>
+          <label type="speaker"><hi rend="sc">Le Détracteur</hi>.</label>
+          <p>Oh ! ces décadents ! Quelle emphase ! Quel galimatias ! Comme notre grand Molière avait raison quand il a dit :</p>
           <quote>
             <l>Ce style figuré dont on fait vanité</l>
             <l>Sort du bon caractère et de la vérité.</l>
           </quote>
-          <p><hi rend="sc">Théodore de Banville</hi>. — Notre grand Molière commit là deux mauvais vers qui eux-mêmes sortent autant que possible du bon caractère. De quel bon caractère ? De quelle vérité ? Le désordre apparent, la démence éclatante l’emphase passionnée sont la vérité même de la poésie lyrique. Tomber dans l’excès des figures et de la couleur <pb n="36"/>le mal n’est pas grand et ce n’est pas par là que périra notre littérature. Aux plus mauvais jours, quand elle expire décidément, comme par exemple sous le premier Empire, ce n’est pas l’emphase et l’abus des ornements qui la tuent, c’est la platitude. Le goût, le naturel sont de belles choses assurément moins utiles qu’on ne le pense à la poésie. Le <hi rend="i">Roméo et Juliette</hi> de Shakespeare est écrit d’un bout à l’autre dans un style aussi affecté que celui du marquis de Mascarille ; celui de Ducis brille par la plus heureuse et la plus naturelle simplicité.</p>
-          <p><hi rend="sc">Le Détracteur</hi>. — Mais la césure, la césure ! On viole la césure !!</p>
-          <p><hi rend="sc">Théodore de Banville</hi>. — Dans sa remarquable prosodie publiée en 1844, M. Wilhelm Tenint établit que le vers alexandrin admet douze combinaisons différentes, en partant du vers qui a sa césure après la première syllabe, pour arriver au vers qui a sa césure après la onzième syllabe. Cela revient à dire qu’en réalité, la césure peut être placée après n’importe quelle syllabe du vers alexandrin. De même, il établit que les vers de six, de sept, de huit, de neuf, de dix syllabes admettent des césures variables et diversement placées. Faisons plus ; osons proclamer la liberté complète et dire qu’en ces questions complexes l’oreille décide seule. On périt toujours non pour avoir été trop hardi mais pour n’avoir pas été assez hardi.</p>
-          <p><hi rend="sc">Le Détracteur</hi>. — Horreur ! Ne pas respecter l’alternance des rimes ! Savez-vous, Monsieur, que les décadents osent se permettre même l’hiatus ! même l’hi-a-tus !!</p>
-          <p><hi rend="sc">Théodore de Banville</hi>. — L’hiatus, la diphtongue <pb n="37"/>faisant syllabe dans le vers, toutes les autres choses qui ont été interdites et surtout l’emploi facultatif des rimes masculines et féminines fournissaient au poète de génie mille moyens d’effets délicats toujours variés, inattendus, inépuisables. Mais pour se servir de ce vers compliqué et savant, il fallait du génie et une oreille musicale, tandis qu’avec les règles fixes, les écrivains les plus médiocres peuvent, en leur obéissant fidèlement, faire, hélas ! des <hi rend="i">vers passables</hi> ! Qui donc a gagné quelque chose à la réglementation de la poésie ? Les poètes médiocres. Eux seuls !</p>
-          <p><hi rend="sc">Le Détracteur</hi>. — Il me semble pourtant que la révolution romantique…</p>
-          <p><hi rend="sc">Théodore de Banville</hi>. — Le romantisme a été une révolution incomplète. Quel malheur que Victor Hugo, cet Hercule victorieux aux mains sanglantes, n’ait pas été un révolutionnaire tout à fait et qu’il ait laissé vivre une partie des monstres qu’il était chargé d’exterminer avec ses flèches de flammes !</p>
-          <p><hi rend="sc">Le Détracteur</hi>. — Toute rénovation est folie ! L’imitation de Victor Hugo, voilà le salut de la poésie française !</p>
-          <p><hi rend="sc">Théodore de Banville</hi>. — Lorsque Hugo eut affranchi le vers, on devait croire qu’instruits à son exemple les poètes venus après lui voudraient être libres et ne relever que d’eux-mêmes. Mais tel est en nous l’amour de la servitude que les nouveaux poètes copièrent et imitèrent à l’envi les formes, les combinaisons et les coupes les plus habituelles de Hugo, au lieu de s’efforcer d’en trouver de nouvelles. C’est ainsi que, façonnés pour le joug, <pb n="38"/>nous retombons d’un esclavage dans un autre, et qu’après les <hi rend="i">poncifs classiques</hi>, il y a eu des <hi rend="i">poncifs romantiques</hi>, poncifs de coupes, poncifs de phrases, poncifs de rimes ; et le poncif, c’est-à-dire le lieu commun passé à l’état chronique, en poésie comme en toute autre chose, c’est la Mort. Au contraire, osons vivre ! et vivre c’est respirer l’air du ciel et non l’haleine de notre voisin, ce voisin fût-il un dieu !</p>
-          <label rend=" b">Scène II</label>
-          <p/>
-          <p><hi rend="sc">Érato</hi> (<hi rend="i">invisible</hi>) — Votre <hi rend="i">Petit traité de poésie française</hi> est un ouvrage délicieux, maître Banville. Mais les jeunes poètes ont du sang jusques aux yeux en luttant contre les <hi rend="i">monstres</hi> affenés par Nicolas Boileau ; on vous réclame au champ d’honneur, et vous vous taisez, maître Banville !</p>
+          <label type="speaker"><hi rend="sc">Théodore de Banville</hi>.</label>
+          <p>Notre grand Molière commit là deux mauvais vers qui eux-mêmes sortent autant que possible du bon caractère. De quel bon caractère ? De quelle vérité ? Le désordre apparent, la démence éclatante l’emphase passionnée sont la vérité même de la poésie lyrique. Tomber dans l’excès des figures et de la couleur <pb n="36"/>le mal n’est pas grand et ce n’est pas par là que périra notre littérature. Aux plus mauvais jours, quand elle expire décidément, comme par exemple sous le premier Empire, ce n’est pas l’emphase et l’abus des ornements qui la tuent, c’est la platitude. Le goût, le naturel sont de belles choses assurément moins utiles qu’on ne le pense à la poésie. Le <hi rend="i">Roméo et Juliette</hi> de Shakespeare est écrit d’un bout à l’autre dans un style aussi affecté que celui du marquis de Mascarille ; celui de Ducis brille par la plus heureuse et la plus naturelle simplicité.</p>
+          <label type="speaker"><hi rend="sc">Le Détracteur</hi>.</label>
+          <p>Mais la césure, la césure ! On viole la césure !!</p>
+            <label type="speaker"><hi rend="sc">Théodore de Banville</hi>.</label>
+            <p>Dans sa remarquable prosodie publiée en 1844, M. Wilhelm Tenint établit que le vers alexandrin admet douze combinaisons différentes, en partant du vers qui a sa césure après la première syllabe, pour arriver au vers qui a sa césure après la onzième syllabe. Cela revient à dire qu’en réalité, la césure peut être placée après n’importe quelle syllabe du vers alexandrin. De même, il établit que les vers de six, de sept, de huit, de neuf, de dix syllabes admettent des césures variables et diversement placées. Faisons plus ; osons proclamer la liberté complète et dire qu’en ces questions complexes l’oreille décide seule. On périt toujours non pour avoir été trop hardi mais pour n’avoir pas été assez hardi.</p>
+          <label type="speaker"><hi rend="sc">Le Détracteur</hi>.</label>
+          <p>Horreur ! Ne pas respecter l’alternance des rimes ! Savez-vous, Monsieur, que les décadents osent se permettre même l’hiatus ! même l’hi-a-tus !!</p>
+            <label type="speaker"><hi rend="sc">Théodore de Banville</hi>.</label>
+            <p>L’hiatus, la diphtongue <pb n="37"/>faisant syllabe dans le vers, toutes les autres choses qui ont été interdites et surtout l’emploi facultatif des rimes masculines et féminines fournissaient au poète de génie mille moyens d’effets délicats toujours variés, inattendus, inépuisables. Mais pour se servir de ce vers compliqué et savant, il fallait du génie et une oreille musicale, tandis qu’avec les règles fixes, les écrivains les plus médiocres peuvent, en leur obéissant fidèlement, faire, hélas ! des <hi rend="i">vers passables</hi> ! Qui donc a gagné quelque chose à la réglementation de la poésie ? Les poètes médiocres. Eux seuls !</p>
+          <label type="speaker"><hi rend="sc">Le Détracteur</hi>.</label>
+          <p>Il me semble pourtant que la révolution romantique…</p>
+            <label type="speaker"><hi rend="sc">Théodore de Banville</hi>.</label>
+            <p>Le romantisme a été une révolution incomplète. Quel malheur que Victor Hugo, cet Hercule victorieux aux mains sanglantes, n’ait pas été un révolutionnaire tout à fait et qu’il ait laissé vivre une partie des monstres qu’il était chargé d’exterminer avec ses flèches de flammes !</p>
+          <label type="speaker"><hi rend="sc">Le Détracteur</hi>.</label>
+          <p>Toute rénovation est folie ! L’imitation de Victor Hugo, voilà le salut de la poésie française !</p>
+            <label type="speaker"><hi rend="sc">Théodore de Banville</hi>.</label>
+            <p>Lorsque Hugo eut affranchi le vers, on devait croire qu’instruits à son exemple les poètes venus après lui voudraient être libres et ne relever que d’eux-mêmes. Mais tel est en nous l’amour de la servitude que les nouveaux poètes copièrent et imitèrent à l’envi les formes, les combinaisons et les coupes les plus habituelles de Hugo, au lieu de s’efforcer d’en trouver de nouvelles. C’est ainsi que, façonnés pour le joug, <pb n="38"/>nous retombons d’un esclavage dans un autre, et qu’après les <hi rend="i">poncifs classiques</hi>, il y a eu des <hi rend="i">poncifs romantiques</hi>, poncifs de coupes, poncifs de phrases, poncifs de rimes ; et le poncif, c’est-à-dire le lieu commun passé à l’état chronique, en poésie comme en toute autre chose, c’est la Mort. Au contraire, osons vivre ! et vivre c’est respirer l’air du ciel et non l’haleine de notre voisin, ce voisin fût-il un dieu !</p>
+          <label type="head">Scène II</label>
+          <label type="speaker"><hi rend="sc">Érato</hi> (<hi rend="i">invisible</hi>)</label>
+          <p>Votre <hi rend="i">Petit traité de poésie française</hi> est un ouvrage délicieux, maître Banville. Mais les jeunes poètes ont du sang jusques aux yeux en luttant contre les <hi rend="i">monstres</hi> affenés par Nicolas Boileau ; on vous réclame au champ d’honneur, et vous vous taisez, maître Banville !</p>
           <p><hi rend="sc">Théodore de Banville</hi>  (<hi rend="i">rêveur</hi>). — Malédiction ! Aurais-je failli à mon devoir d’aîné et de poète lyrique !</p>
-          <p>(L’auteur des <hi rend="i">Exilées</hi> pousse un soupir lamentable et l’intermède finit.)</p>
+          <stage>(L’auteur des <hi rend="i">Exilées</hi> pousse un soupir lamentable et l’intermède finit.)</stage>
           <ab type="ornament">*
             <lb/>*  *</ab>
           <p>La prose, — romans, nouvelles, contes, fantaisies, — évolue dans un sens analogue à celui de la poésie. Des éléments en apparence hétérogènes, y concourent : Stendhal apporte sa psychologie translucide, Balzac sa vision exorbitée, Flaubert ses cadences de phrases aux amples volutes, M. Edmond de Goncourt son impressionnisme modernement suggestif.</p>

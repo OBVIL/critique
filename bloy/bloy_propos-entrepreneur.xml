@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1884">1884</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -247,7 +247,7 @@
         <pb n="67"/>
         <head>L’Étiquette de France et la Guillotine</head>
         <head type="sub"><hi rend="i">Pour l’anniversaire de la mort de Marie-Antoinette, guillotinée le 16 octobre 1793, comme chacun sait.</hi></head>
-        <label>FRAGMENT</label>
+        <label type="head">FRAGMENT</label>
         <p>Quant à cette pauvre Marie-Antoinette, elle vint en France comme ce délicieux arc-en-ciel du matin qui présage, dit-on, le mauvais temps. Elle arriva juste au moment qu’il fallait pour relier et fondre ensemble les deux rhétoriques : la rhétorique du trumeau et la rhétorique du couperet ; et, de ces deux rhétoriques, celle qui lui trancha la tête fut assurément la plus miséricordieuse. La simple mécanique de Guillotin lui fut moins cruelle, en somme, que la mécanique compliquée <pb n="68"/>de l’Étiquette de Versailles et produisit en elle un moindre raccourcissement Cette grande Porphyrogénète fleurdelisée dont le prince de Ligne a dit : <quote>« qu’il ne lui avait jamais vu une journée parfaitement heureuse »</quote>, fut emprisonnée, dès le premier jour, dans le cérémonial de la Cour de France comme une libellule dans un tourbillon. L’Étiquette portée naguère par Louis XIV, comme ce monarque porta toutes choses, au sommet de sa vaste perruque, sans qu’un seul poil en fût dérangé, l’Étiquette, non ensevelie avec le grand roi, s’était appesantie comme une bagatelle accablante sur ses lamentables successeurs.</p>
         <p>Louis XIV n’avait pas été seulement le roi de France, il avait été la plus haute et la plus accomplie formule de la Monarchie dans les temps modernes. La formule royale apparut incarnée en cet homme médiocre, dans l’équilibre superbe d’un très long règne, magnifiquement pondérée par toutes les formules subalternes de l’obéissance et du respect de douze siècles accumulés en piédestal sous les quatre pieds de son trône d’or. Il eut le rayonnement surnaturel de la Fonction suprême et l’impassibilité quasi divine de l’Investiture de toutes les souverainetés chrétiennes vassales de lui. Le grand miracle de Louis XIV est d’avoir résisté à la mythologie de sa prodigieuse situation. Il demeura un homme, après tout, ce Salomon, parfois <pb n="69"/>même un homme humilié et tremblant dans sa gloire, et il mérita pour ce fait d’être regardé comme le thaumaturge de l’humilité impossible.</p>
         <p>Quand Versailles, cette exorbitante miniature de ses rêves, fut habité par lui, un immense besoin d’uniformité naquit dans le silence solennel de cet horizon de bois et l’Étiquette, passablement lâche et facile dans les jours troublés de la Fronde, devint cette règle rigide, austère, difficile, inexorable, qui rappelle le renoncement monastique et dont Louis XIV fut le fondateur ou, tout au moins, le réformateur. Il faut lire Saint-Simon et, surtout, les <hi rend="i">Mémoires</hi> du marquis de Luynes pour avoir une idée de cette Trappe royale de la Stricte Observance dont on s’est moqué fort inconsidérément, car c’était une chose réellement profonde et qui ne tendait à rien moins qu’à l’exclusion de tous les réfractaires à l’obéissance et de tous les ambitieux sans <hi rend="i">vocation</hi>.</p>
@@ -769,12 +769,12 @@
           <p>Eh bien ! le croira-t-on ? les cocasseries du rite maçonnique l’ont embrasé d’enthousiasme. Il en est à déplorer sincèrement l’assassinat d’Adoniram, architecte du temple de Salomon, par les trois Compagnons jaloux, Jubelas, Jubelos et Jubelum ; il peut prononcer sans éclater de rire des noms de loges tels que ceux-ci : les <hi rend="i">Admirateurs de l’Univers</hi>, les <hi rend="i">Zélés Philanthropes</hi>, le <hi rend="i">Saint Antoine du Parfait Contentement</hi>, les <hi rend="i">Amis Triomphants</hi>, la <hi rend="i">Clémente Amitié Cosmopolite</hi>, les <hi rend="i">Disciples de Memphis</hi>, la <hi rend="i">Rose du Parfait Silence</hi>, la <hi rend="i">Ruche Philosophique</hi>, les <hi rend="i">Trinosophes de Bercy</hi>, etc.</p>
           <p>C’est avec un attendrissement tout symbolique qu’il a remplacé le langage français par l’argot de la secte, argot inouï et inqualifiable qui veut que le pain soit appelé <hi rend="i">pierre brute</hi> ; le vin, <hi rend="i">poudre forte</hi> (<hi rend="i">blanche</hi> ou <hi rend="i">rouge</hi>) ; les bouteilles et carafes, <pb n="248"/><hi rend="i">barriques</hi> ; les verres, <hi rend="i">canons</hi> ; l’eau, <hi rend="i">poudre faible</hi> ; les liqueurs, <hi rend="i">poudre fulminante</hi> ; les bougies allumées, <hi rend="i">étoiles</hi> ; les serviettes, <hi rend="i">drapeaux</hi> ; les assiettes, <hi rend="i">tuiles</hi> ; les plats, <hi rend="i">plateaux</hi> ; les cuillers, <hi rend="i">truelles</hi> ; les fourchettes, <hi rend="i">pioches</hi> ; les couteaux, <hi rend="i">glaives</hi> ; le sel, <hi rend="i">sable</hi> ; le poivre, <hi rend="i">sable jaune</hi> ; les aliments, <hi rend="i">matériaux</hi> ; les chaises, <hi rend="i">stalles</hi>.</p>
           <p>Enfin, ce malheureux poète est ému jusqu’aux larmes quand la voix avinée d’un marchand de cirage ou d’un graveur sur bois entonne ces deux couplets du <hi rend="i">cantique</hi> de clôture de tout banquet maçonnique.</p>
-          <p>        Frères et Compagnons</p>
-          <p>        De la Maçonnerie,</p>
-          <p>        Sans chagrin, jouissons</p>
-          <p>        Des plaisirs de la vie.</p>
           <quote>
-            <l>        Munis d’un rouge bord,</l>
+            <l>        Frères et Compagnons</l>
+          <l>        De la Maçonnerie,</l>
+          <l>        Sans chagrin, jouissons</l>
+          <l>        Des plaisirs de la vie.</l>
+          <l>        Munis d’un rouge bord,</l>
             <l>Que par trois fois le signal de nos verres</l>
             <l>        Soit une preuve que d’accord</l>
             <l>        Nous buvons à nos frères.</l>
@@ -914,7 +914,8 @@
           <p>Maurice Rollinat n’en est plus à demander l’ivresse à quoi que ce soit. La souffrance l’a fait humble, malgré les cris effrayants de sa détresse. Il ne demande qu’une goutte d’eau et il la demande à la nature. Il se fait le mendiant des solitudes, le mendiant des arbres et des rochers, de la nue et du vent. Il s’agenouille devant cette mélancolique image verte de l’espérance, non pour l’adorer, mais pour lui dire de considérer combien il est pauvre, combien il est nu et combien il souffre. Alors, l’Innocente de soixante siècles, tout accablée elle-même de l’antique malédiction, répand maternellement sur lui quelque chose de sa paix si tristement douce et si résignée…</p>
           <p>Écoutez le chant de gratitude et d’apaisement du poète :</p>
           <quote>
-            <p><pb n="285"/>BALLADE DE L’ARC-EN-CIEL D’AUTOMNE</p>
+            <pb n="285"/>
+            <label type="head">BALLADE DE L’ARC-EN-CIEL D’AUTOMNE</label>
             <l>La végétation, le marais et le sol</l>
             <l>Ont fini d’éponger les larmes de la pluie ;</l>
             <l>L’insecte reparaît, l’oiseau reprend son vol</l>
@@ -947,8 +948,8 @@
             <l>Dans une paix <hi rend="i">mystique</hi> et que rien ne dérange,</l>
             <l>On voit s’effacer l’arc impossible à plier,</l>
             <l>Bleu, rouge, indigo, vert, violet, jaune, orange !</l>
-            <l/>
-            <l><pb n="286"/>                       ENVOI.</l>
+            <pb n="286"/>
+            <label type="head">ENVOI.</label>
             <l>Ô toi, le cœur sur qui mon cœur s’est appuyé</l>
             <l>Dans l’orage du sort qui m’a terrifié,</l>
             <l>Quand tu m’es apparue en rêve comme un ange,</l>

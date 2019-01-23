@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +68,7 @@
         <date when="1860">1860</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -3763,8 +3763,8 @@
             ses lots parmi ses concitoyens ; et alors qu’on lise le petit poème lyrique intitulé <hi
               rend="i">les Vendanges</hi> :</p>
           <quote>
-            <l>Saint-Point, octobre 185...</l>
-            <l><hi rend="sc">À un ami</hi>.</l>
+            <label type="dateline"><hi rend="n">Saint-Point, octobre 185...</hi></label>
+            <p rend="right"><hi rend="sc">À un ami</hi>.</p>
             <l>Ami ! je poursuis seul notre pèlerinage</l>
             <l>Aux grands maîtres vivants ou morts que nous aimons ;</l>
             <l>Guidé par un poète, un ami de mon âge,</l>

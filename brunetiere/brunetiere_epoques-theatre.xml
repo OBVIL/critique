@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +38,7 @@
         <date when="1896"/>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -51,7 +51,7 @@
 <lb/><num>d</num><hi rend="sc">irecteur du Théâtre National de l’Odéon</hi></p>
         <p rend="i">c
         omme 
-        un témoignage de vive reconnaissance et de sincère amitié, je dédie le recueil de ces quinze conférences. </p>
+        un témoignage de vive reconnaissance et de sincère amitié, je dédie le recueil de ces quinze conférences.</p>
         <signed><hi rend="sc">Ferdinand Brunetière</hi>.</signed>
         <dateline>Mai 1892.</dateline>
       </div>
@@ -88,23 +88,23 @@
           <p>Car, d’admettre un seul instant que Corneille ait tout inventé, tout créé dans son <hi rend="i">Cid</hi>, vous savez, Messieurs, quelle erreur ce serait ! N’a-t-on pas même fait remarquer, et on a eu raison, que la pièce de Guillen de Castro était belle, avec je ne sais quoi de plus espagnol, — naturellement, — de plus chevaleresque encore, de plus empanaché, de plus romantique, de plus conforme peut-être à notre goût contemporain que celle de Corneille ? D’un autre côté, Corneille n’était pas le premier qui se fût avisé de chercher des motifs d’inspiration dans la littérature espagnole, ou plutôt, depuis qu’il existait un hôtel de Rambouillet, depuis que le trône de France était occupé par une princesse espagnole, tout, en France et surtout à Paris, était à l’espagnole : les mœurs, le costume, le ton de la conversation et celui de la galanterie. Vous n’avez aussi bien, pour vous en assurer, qu’à lire les <hi rend="i">Lettres</hi> de Balzac ou celles de Voiture, qu’à parcourir le répertoire de Hardy, de Mairet, de Rotrou, de Scudéri.</p>
           <p>On y apprend également que beaucoup de prétendues innovations, dont les historiens de la littérature ne continuent pas moins de faire honneur à Corneille, ne lui appartiennent pas en propre, ne sont à lui que comme à ses contemporains. C’est ainsi que la manière dont il a traité dans son dialogue les idées générales, les lieux communs de la morale ou de la politique, les cas de conscience encore, faisant un caractère éminent de son style, on s’imagine assez volontiers qu’il en a le premier porté l’expression sur la scène. Mais de nombreux exemples nous prouveraient qu’il n’en est rien. Voici, deux confidents qui discutent entre eux s’ils exécuteront un meurtre que leur prince vient de leur commander :</p>
           <quote>
-            <label>SYLLAR</label>
+            <label type="speaker">SYLLAR</label>
             <l>En dédisant son Roi, quelque juste apparence</l>
             <l>Que puisse prendre un peuple, il commet une offense.</l>
             <l>Comme les Dieux au ciel, sur la terre les Rois</l>
             <l>Établissent aussi des souveraines lois :</l>
             <l>À la grandeur des Dieux leur grandeur se figure</l>
             <l>Comme au vouloir des Dieux leur vouloir se mesure.</l>
-            <label>DEUXIS</label>
+            <label type="speaker">DEUXIS</label>
             <l>Il faut leur obéir, si leur commandement</l>
             <l>Imite ceux des Dieux, qui font tout justement.</l>
-            <label>SYLLAR</label>
+            <label type="speaker">SYLLAR</label>
             <l>Enquérir leur secret tient trop du téméraire,</l>
             <l>C’est aux Rois à le dire, et à nous à le faire.</l>
             <l>S’ils ont mal commandé, l’homicide commis</l>
             <l>Tombera sur leur tête, et nous sera remis<note place="bottom"><p>Comparez Corneille.</p><quote><l>Et l’on doit ce respect au pouvoir absolu</l><l>De n’examiner rien quand un roi l’a voulu.</l></quote></note>.</l>
           </quote>
-          <p>Voilà, Messieurs, des vers dont l’allure est déjà toute cornélienne. Ils sont pourtant de 1617, — Corneille avait onze ans alors, — et je les emprunte à cette tragi-comédie de <hi rend="i">Pyrame et Thisbé</hi>, du poète Théophile, laquelle a succombé, comme vous le savez, sous une citation maligne de Boileau<note place="bottom"><quote><l> Ah ! voici le poignard qui du sang de son maître</l><l>S’est souillé lâchement ! <hi rend="i">Il en rougit, le traître</hi> !</l></quote><p>Cf. les vers du <hi rend="i">Cid</hi> même.</p><quote><label>RODRIGUE</label><l>Après, ne me réponds qu’avec que cette épée.</l><label>CHIMÈNE</label><l>Quoi ! du sang de mon père en cor toute trempée !</l><label>RODRIGUE</label><l>… Plonge-la dans le mien,</l><l>Et fais-lui perdre ainsi la teinture du tien.</l></quote></note>.</p>
+          <p>Voilà, Messieurs, des vers dont l’allure est déjà toute cornélienne. Ils sont pourtant de 1617, — Corneille avait onze ans alors, — et je les emprunte à cette tragi-comédie de <hi rend="i">Pyrame et Thisbé</hi>, du poète Théophile, laquelle a succombé, comme vous le savez, sous une citation maligne de Boileau<note place="bottom"><quote><l>Ah ! voici le poignard qui du sang de son maître</l><l>S’est souillé lâchement ! <hi rend="i">Il en rougit, le traître</hi> !</l></quote><p>Cf. les vers du <hi rend="i">Cid</hi> même.</p><quote><label type="speaker">RODRIGUE</label><l>Après, ne me réponds qu’avec que cette épée.</l><label type="speaker">CHIMÈNE</label><l>Quoi ! du sang de mon père en cor toute trempée !</l><label type="speaker">RODRIGUE</label><l>… Plonge-la dans le mien,</l><l>Et fais-lui perdre ainsi la teinture du tien.</l></quote></note>.</p>
           <p>En voici d’autres, qui sont de 1628, huit ans avant <hi rend="i">le Cid</hi>, douze ans avant <hi rend="i">Horace</hi>. C’est Massinissa, le roi numide, qui se tue sur le cadavre de sa Sophonisbe, — dans la tragédie de Mairet — et il s’exprime ainsi :</p>
           <quote>
             <l>Cependant, en mourant, ô peuple ambitieux</l>
@@ -134,7 +134,7 @@
             <l>Je n’ai trouvé que l’air au lieu de son visage.</l>
             <l>Voilà quel est mon songe !</l>
           </quote>
-          <p>Même coupe, vous le voyez, et presque mêmes mots ; et combien d’autres exemples ne pourrais-je pas citer, si je ne craignais de vous en fatiguer<anchor xml:id="footnote3"/><note place="bottom"><p>Tel est encore le début de <hi rend="i">la Mort de Crispe</hi> :</p><quote><l>Doux et cruels tyrans de mon âme insensée</l><l>Qui mettez tant de trouble en ma triste pensée,</l><l>Chères impressions qui causez ma douleur,</l><l>Inimitables traits d’esprit et de valeur...</l></quote><p>Cf. le début de <hi rend="i">Cinna</hi> :</p><quote><l>Impatients désirs d’une illustre vengeance</l><l>À qui la mort d’un père a donné la naissance…</l></quote><p>Il semblerait d’ailleurs que l’auteur même de <hi rend="i">Phèdre</hi> et d’<hi rend="i">Athalie</hi> n’ait dédaigné de lire ni <hi rend="i">Mariamne</hi>, ni <hi rend="i">la Mort de Crispe</hi>.</p></note> !</p>
+          <p>Même coupe, vous le voyez, et presque mêmes mots ; et combien d’autres exemples ne pourrais-je pas citer, si je ne craignais de vous en fatiguer<anchor xml:id="footnote3"/><note place="bottom"><p>Tel est encore le début de <hi rend="i">la Mort de Crispe</hi> :</p><quote><l>Doux et cruels tyrans de mon âme insensée</l><l>Qui mettez tant de trouble en ma triste pensée,</l><l>Chères impressions qui causez ma douleur,</l><l>Inimitables traits d’esprit et de valeur…</l></quote><p>Cf. le début de <hi rend="i">Cinna</hi> :</p><quote><l>Impatients désirs d’une illustre vengeance</l><l>À qui la mort d’un père a donné la naissance…</l></quote><p>Il semblerait d’ailleurs que l’auteur même de <hi rend="i">Phèdre</hi> et d’<hi rend="i">Athalie</hi> n’ait dédaigné de lire ni <hi rend="i">Mariamne</hi>, ni <hi rend="i">la Mort de Crispe</hi>.</p></note> !</p>
           <p>Mais, puisque la nouveauté du <hi rend="i">Cid</hi> n’est ainsi ni dans le choix ni dans la nature du sujet, ni dans la disposition de l’intrigue, ni dans la facture du vers, — et bien moins encore, assurément, dans l’observation des « règles », — où dirons-nous donc qu’elle soit ? À la question posée en ces termes on peut, je crois, répondre d’un seul mot. La nouveauté du <hi rend="i">Cid</hi> consiste essentiellement en ceci que, de <hi rend="i">romanesque</hi>, ou, si je puis ainsi parler, d’<hi rend="i">aventurière</hi> qu’elle avait été jusqu’alors, Corneille y a rendu la tragédie vraiment <hi rend="i">tragique</hi> pour la première fois. Comment cela ? De trois manières, ou par trois moyens, qu’il nous faut essayer maintenant de préciser.</p>
         </div>
         <div>
@@ -199,10 +199,10 @@
           <quote>
             <l>Ah ! laisse à mon amour un peu de jalousie</l>
             <l>Non pas pour les mortels, car je peux m’assurer</l>
-            <l>Que tu n’aimes que moi.</l>
-            <label>THISBÉ</label>
-            <l>                                         Tu peux bien le jurer.</l>
-            <label>PYRAME</label>
+            <l part="I">Que tu n’aimes que moi.</l>
+            <label type="speaker">THISBÉ</label>
+            <l part="F">Tu peux bien le jurer.</l>
+            <label type="speaker">PYRAME</label>
             <l>Mais je me sens jaloux de tout ce qui te touche,</l>
             <l>De l’air qui si souvent entre et sort par ta bouche.</l>
             <l>…………………………………………………….</l>
@@ -283,15 +283,15 @@
           </quote>
           <p>Oui, je sais, — et je vais le redire tout à l’heure, — je sais que cela ne va pas très profondément, et ce n’est, si vous le voulez, que le langage ou le jargon habituel de la galanterie du temps ; mais, déjà, quelle élégance, et quelle grâce, et quelle facilité de tour ! Ainsi parlait-on sans doute à l’hôtel de Rambouillet, et c’était de semblables propos que Louis XIII échangeait avec Mme de Hautefort, celle qui fut depuis la maréchale de Schomberg et l’une des premières protectrices de Bossuet. Voici, de <hi rend="i">la Veuve</hi>, un autre passage, d’un tout autre genre, spirituel et agréablement malicieux, où la désinvolture du vers s’associe à l’expression de ce que la vie mondaine a de plus futile et de plus léger. C’est une jeune fille, qui cause avec sa mère d’un « prétendu » qu’on leur a présenté dans un bal :</p>
           <quote>
-            <label>DORIS</label>
+            <label type="speaker">DORIS</label>
             <l>… Ah ! Dieu, que c’est un cajoleur étrange,</l>
             <l>Ce fut paisiblement, de vrai, qu’il m’entretint :</l>
             <l>…………………………………………………</l>
             <l>Il me mena danser deux fois sans me rien dire.</l>
-            <label>CHRYSANTE</label>
-            <l>Mais, ensuite ?</l>
-            <label>DORIS</label>
-            <l>                        La suite est digne qu’on l’admire.</l>
+            <label type="speaker">CHRYSANTE</label>
+            <l part="I">Mais, ensuite ?</l>
+            <label type="speaker">DORIS</label>
+            <l part="F">La suite est digne qu’on l’admire.</l>
             <l>Mon baladin muet se retranche en un coin</l>
             <l>Pour faire mieux jouer la prunelle de loin.</l>
             <l>Après m’avoir de là longtemps considérée,</l>
@@ -397,37 +397,37 @@
           </quote>
           <p>Est-ce que vous ne croirez pas, Messieurs, que, dans un couplet célèbre du <hi rend="i">Misanthrope</hi>, Molière, autant que des vers bien connus de Lucrèce, se soit ressouvenu de ceux de Desmarets, dont, sans doute, il avait lui-même au cours de ses pérégrinations en province, joué plus d’une fois <hi rend="i">les Visionnaires</hi><note place="bottom"><p>J’ajoutais ici que, dans tout <hi rend="i">le Menteur</hi>, on ne trouverait pas une scène dont Molière se fût plus manifestement inspiré. L’affirmation en ces termes avait quelque chose de trop absolu, et j’avais l’air d’oublier la scène de Dorante et de son père (acte V, sc. <num>iii</num>) :</p><quote><l>Êtes-vous gentilhomme ? etc.</l></quote><p>sur le dessin de laquelle Molière a calqué la scène correspondante de <hi rend="i">Don Juan</hi>.</p></note> ? C’est des mêmes <hi rend="i">Visionnaires</hi> encore qu’il a tiré la Bélise des <hi rend="i">Femmes savantes</hi>, et, tandis qu’il y était, quelques traits aussi de son Vadius et de son Trissotin. Jugez-en plutôt :</p>
           <quote>
-            <label>FILIDAN</label>
+            <label type="speaker">FILIDAN</label>
             <l>Ah ! qu’elle est rigoureuse à son amant fidèle !</l>
-            <label>AMIDOR</label>
+            <label type="speaker">AMIDOR</label>
             <l>Ah ! que pour les savants la saison est cruelle !</l>
-            <label>FILIDAN</label>
+            <label type="speaker">FILIDAN</label>
             <l>Beauté, si tu pouvais savoir tous mes travaux !</l>
-            <label>AMIDOR</label>
+            <label type="speaker">AMIDOR</label>
             <l>Siècle, si tu pouvais savoir ce que je vaux !</l>
-            <label>FILIDAN</label>
+            <label type="speaker">FILIDAN</label>
             <l>J’aurais en ton amour une place authentique.</l>
-            <label>AMIDOR</label>
-            <l><hi rend="i">J’aurais une statue en la place publique</hi><note place="bottom"><p>Cf. <hi rend="i">Femmes savantes</hi> :</p><quote><l>Si le siècle rendait justice aux beaux esprits....</l><l>On verrait le public vous dresser des statues…</l></quote></note>
+            <label type="speaker">AMIDOR</label>
+            <l><hi rend="i">J’aurais une statue en la place publique</hi><note place="bottom"><p>Cf. <hi rend="i">Femmes savantes</hi> :</p><quote><l>Si le siècle rendait justice aux beaux esprits…</l><l>On verrait le public vous dresser des statues…</l></quote></note>
           .
 </l>
-            <label>HESPÉRIE</label>
+            <label type="speaker">HESPÉRIE</label>
             <l>J’ai pitié de les voir en cette égalité</l>
             <l>L’un se plaindre du temps, l’autre de ma beauté.</l>
-            <label>SESTIANE, <hi rend="i">sœur d’Hespérie</hi>.</label>
+            <label type="speaker">SESTIANE, <hi rend="i">sœur d’Hespérie</hi>.</label>
             <l>Non, c’est un dialogue, Amidor l’étudie</l>
             <l>Pour en faire une scène en quelque comédie.</l>
-            <label>HESPÉRIE</label>
+            <label type="speaker">HESPÉRIE</label>
             <l>Ah ! ne le croyez pas, l’un et l’autre, en effet,</l>
             <l>Ont du temps et de moi l’esprit mal satisfait.</l>
             <l>………………………………………………</l>
             <stage>À Filidan.</stage>
             <l>Doncques, vous vous plaignez d’une ingrate maîtresse.</l>
-            <label>FILIDAN</label>
+            <label type="speaker">FILIDAN</label>
             <l>S’il est quelque pitié naissante en votre cœur</l>
             <l>Qui vous fasse enquérir quel trait fut mon vainqueur !</l>
             <l>Sachez qu’il vint d’un œil que j’adore en mon cœur.</l>
-            <label>HESPÉRIE</label>
+            <label type="speaker">HESPÉRIE</label>
             <l>Voyez qu’il est adroit à me conter sa flamme…</l>
           </quote>
           <p>Je ne veux pas inutilement prolonger les citations, et je vous renvoie, non pas même à la comédie des <hi rend="i">Visionnaires</hi>, mais à la liste seulement des personnages où Hespérie est ainsi désignée : <quote>« Hespérie, qui croit que chacun l’aime »</quote>.</p>
@@ -538,9 +538,9 @@
           <quote>
             <l>………… Bailli, votre fortune est grande</l>
             <l>Puisque vous m’avez plu.</l>
-            <label>LE BAILLI</label>
+            <label type="speaker">LE BAILLI</label>
             <l>Le bon Dieu vous le rende.</l>
-            <label>DOM JAPHET</label>
+            <label type="speaker">DOM JAPHET</label>
             <l>Peut-être ignorez-vous encore qui je suis :</l>
             <l>Je veux vous l’expliquer autant que je le puis,</l>
             <l>Car la chose n’est pas fort aisée à comprendre.</l>
@@ -565,11 +565,11 @@
           <p>Car on a pu poétiser le « comédien de campagne » et en s’inspirant du roman de Scarron, on a pu nous le montrer courant d’aventure en aventure, bohème heureux de sa misère, n’y voyant que le prix dont il paie son indépendance, jouant aujourd’hui les rois dans une grange, et les valets, demain, dans un château… La réalité est plus triste ; elle l’était surtout alors ; elle l’a été particulièrement pour Molière. Rappelez-vous plutôt ses débuts, sa rupture avec les siens, sa fuite de la maison paternelle, son <hi rend="i">Illustre Théâtre</hi>, la faillite, l’expatriation ou l’exil en province, pour le Parisien qu’il était, comme Boileau, bourgeois, fils de bourgeois, orgueilleux de sa grande ville. Songez aux humiliations de toute sorte : la requête aux magistrats, la curiosité plutôt hostile des habitants, les sifflets, les pommes cuites, les couchers à l’auberge, le voyage en roulotte tout le long des grandes routes, la concurrence du bateleur ou du montreur d’ours, la familiarité, la promiscuité de la valetaille, que sais-je encore ? Voilà ce que la vie de « comédien de campagne » a été pour Molière, — nous en avons des preuves, — voilà les souvenirs qu’il rapportait du fond de la province ; et, comme formées de tout cela, voilà, Messieurs, l’origine de cette tristesse et de cette amertume sans lesquelles, assurément, ni sa plaisanterie n’aurait eu cette force, ni sa satire cette âpreté, ni sa comédie, enfin, cette profondeur et cette portée qui la distinguent non seulement de tout ce qui l’avait elle-même précédée, mais encore, — je crois que nous pouvons le dire sans en être démenti par personne, — de tout ce qui devait aussi la suivre<note place="bottom"><p>On a prodigieusement écrit sur les <hi rend="i">Années d’apprentissage et de voyage</hi> de Molière, et quelques « points » de ses pérégrinations à travers la province ne sont pas encore parfaitement éclaircis. En attendant qu’ils le soient, trois ouvrages parus dans ces dernières années résument tous les travaux antérieurs, et dispenseront d’y recourir tous ceux qui ne font pas publiquement profession de moliérisme. Ce sont :</p><p>1º La <hi rend="i">Biographie et Bibliographie</hi> formant le tome I de l’édition des <hi rend="i">Œuvres de Molière</hi>, donnée chez l’éditeur Garnier par M. Louis Moland. Paris, 1885 ;</p><p>2º <hi rend="i">La comédie de Molière, l’auteur et le milieu</hi>, par M. Gustave Larroumet. Paris, 1887. Hachette ;</p><p><hi rend="sup">3</hi>º La <hi rend="i">Biographie</hi> de Molière formant le tome X de l’édition de ses <hi rend="i">Œuvres</hi> dans la collection des <hi rend="i">Grands écrivains de la France</hi>, par M. Paul Mesnard. Paris, 1890. Hachette.</p></note>.</p>
           <p>Cependant, de retour à Paris, et placé sous la protection de Monsieur, frère du roi, rassuré sur l’avenir, il regarde, il observe, il songe. Les basses plaisanteries, dans la manière de Scarron et des « turlupins », l’écœurent et le dégoûtent. N’est-ce pas lui-même, Messieurs, qui vous le disait tout à l’heure<note place="bottom">La <hi rend="i">Critique de l’École des femmes</hi> a été jouée ce jour-là avant <hi rend="i">l’École des femmes</hi>.</note> ?</p>
           <quote>
-            <label>ÉLISE</label>
+            <label type="speaker">ÉLISE</label>
             <p>Mais à propos d’extravagants, ne voulez-vous pas me défaire de votre marquis incommode ? Pensez-vous toujours me le laisser sur les bras et que je puisse durer à ses turlupinades perpétuelles ?</p>
-            <label>URANIE</label>
+            <label type="speaker">URANIE</label>
             <p>Ce langage est à la mode.</p>
-            <label>ÉLISE</label>
+            <label type="speaker">ÉLISE</label>
             <p>Tant pis pour ceux… qui se tuent tout le jour à parler ce jargon obscur. La belle chose de faire entrer aux conversations du Louvre <hi rend="i">de vieilles équivoques ramassées parmi les boues des Halles et de la place Maubert</hi>. La jolie façon de plaisanter, et qu’un homme montre d’esprit lorsqu’il vient vous dire : « Madame, vous êtes dans la place Royale, et tout le monde vous voit de trois lieues de Paris, car chacun vous voit de bon œil », à cause que Boneuil est un village à trois lieues d’ici ! <hi rend="i">Cela n’est-il pas bien galant et bien spirituel</hi> ?</p>
           </quote>
           <p>Si les scarronnades l’écœurent, il ne donne pas non plus dans les grands sentiments, comme en ayant sans doute lui-même assez éprouvé la fragilité. C’est le vrai sens du couplet de Dorante ; et par-delà ses imitateurs, c’est Corneille même, — nous le savons et tout le monde l’entendait bien ainsi en 1662, — c’est Corneille, c’est l’auteur de <hi rend="i">Rodogune</hi> et de <hi rend="i">Pompée, de Polyeucte</hi> et <hi rend="i">d’Horace</hi>, à qui Molière s’en prend ouvertement :</p>
@@ -600,7 +600,7 @@
           <p>Bourgeoise donc l’intrigue, et bourgeois sont aussi les détails de l’action, comme il convient entre marchands ou bons rentiers de l’hôtel de ville ; bourgeois, le discours de Chrysalde, au premier acte, et très bourgeois, ou trop bourgeois. Bourgeois encore, s’il en fut, les préjugés d’Arnolphe. Et bourgeois également, si je puis ainsi dire, le petit chat d’Agnès, et le ruban, et les chemises de nuit… Tout cela nous rend, exprime, ressuscite pour nous une façon de vivre très différente, si je ne me trompe, de celle dont <hi rend="i">le Menteur</hi> même nous donnait l’idée, plus voisine de la réalité, plus terre à terre, plus enfoncée dans la matière. Car, jusqu’aux personnages d’Alain et de Georgette, avec leur bêtise originelle mêlée d’astuce paysanne, ne pensez-vous pas bien que les Dorante ou les Clarice de Corneille les eussent renvoyés aux champs ? Ce ne sont plus ici des valets de comédie, des Mascarille ni des Cliton, mais le vrai courtaud de boutique, et la fille encore « nice » que le coche a débarquée d’hier. Ajoutez, Messieurs, que si les bourgeois sont moqués ici dans la personne d’Arnolphe, outre que d’autre part ils triomphent en celle de Chrysalde, c’est entre eux qu’ils sont moqués, et par eux, non plus raillés par le marquis, — comme le sera M. Dimanche dans <hi rend="i">Don Juan</hi>, ou M. Jourdain dans <hi rend="i">le Bourgeois gentilhomme</hi>, — et qu’autant que moqués, ou même avant que de l’être, ils sont étudiés.</p>
           <p>Rappelez-vous à cet égard un mot de Dorante dans <hi rend="i">la Critique</hi> :</p>
           <quote>
-            <label>DORANTE</label>
+            <label type="speaker">DORANTE</label>
             <p>Pour ce qui est des « enfants par l’oreille », ils ne sont plaisants que par réflexion à Arnolphe, et l’auteur, n’a pas mis cela pour être de soi un bon mot, <hi rend="i">mais seulement pour une chose qui caractérise l’homme et qui peint son extravagance</hi>.</p>
           </quote>
           <p>Et plus loin :</p>
@@ -652,9 +652,9 @@
           </quote>
           <p>Puis à ces madrigaux, succédaient des rugissements de fureur :</p>
           <quote>
-            <label>HONORINE</label>
+            <label type="speaker">HONORINE</label>
             <l>Tu pourrais être lâche et cruel jusque-là !</l>
-            <label>ATTILA</label>
+            <label type="speaker">ATTILA</label>
             <l>Encore plus, s’il le faut, mais toujours Attila !</l>
             <l>Toujours l’heureux objet de la haine publique,</l>
             <l>Fidèle au grand dépôt du pouvoir tyrannique !…</l>
@@ -779,7 +779,7 @@
           <p rend="noindent">n’est-ce pas Molière en personne, là, qui s’irrite, qui murmure, et qui gronde ? Et le portrait de ce <quote>« franc scélérat »</quote> contre lequel il faut qu’Alceste plaide :</p>
           <quote>
             <l>Au travers de son masque on voit à plein le traître,</l>
-            <l> Partout il est connu pour tout ce qu’il peut être ;</l>
+            <l>Partout il est connu pour tout ce qu’il peut être ;</l>
             <l>Et ses roulements d’yeux et son ton radouci</l>
             <l>N’imposent qu’à des gens qui ne sont pas d’ici ;</l>
           </quote>
@@ -838,7 +838,7 @@
           <p>Il y en a plus d’une raison, dont la plus générale est sans doute celle-ci, que l’on n’approfondit pas les caractères, — celui du misanthrope, celui de l’avare, ou celui de l’hypocrite, — sans se trouver tôt ou tard en face de quelque chose de <hi rend="i">premier</hi>, d’essentiel, et comme qui dirait d’une force de la nature. Or, les forces de la nature, de quelque nom qu’on les appelle, elles nous imposent, et nous n’en rions pas ! Nous n’en rions du moins qu’en tremblant, et, tout en riant d’elles, nous continuons de les redouter. L’impression qu’elles nous laissent est quelquefois d’horreur ; elle est généralement de crainte ou au moins de défiance ; elle est rarement de ridicule, — et elle ne l’est jamais longtemps. Précisons les idées par deux ou trois noms propres : on ne rit pas longtemps, on ne se « moque » point d’Octave, de Cromwell ou de Robespierre. Ce qu’ils ont de « plaisant » ou de « comique » ne frappe point la vue, n’apparaît pas même à la réflexion, et au contraire, plus on les connaît, moins on les trouve « ridicules » et surtout « risibles ». N’en est-il pas ainsi de Tartufe ? Si nous rions de ses déconvenues, il n’en reste pas moins un « fourbe renommé », dont nous avons au total plus de peur que d’envie de rire ; — et si l’on veut qu’il soit comique, il l’est sans doute, Messieurs, d’une façon qui n’appartient qu’à lui…</p>
           <p>Qu’est-ce à dire, sinon que, dans son <hi rend="i">Tartufe</hi>, en portant à sa perfection, de tous les genres de comique, le plus rare et le plus fort, Molière a porté la comédie même jusqu’au point qu’elle ne pouvait plus dépasser sans cesser d’être elle-même ? Ainsi, n’est-ce pas quand le fruit a touché son point de maturité qu’il est déjà tout près de se gâter ? Et nous-mêmes, quand nous atteignons le midi de notre âge, n’est-ce pas déjà la vieillesse qui commence pour nous ? Il n’y a rien que de mouvant ou d’instable : tout se transforme et rien ne demeure. C’est pourquoi la comédie française après <hi rend="i">Tartufe</hi>, — ou si vous l’aimez mieux, la comédie classique<note place="bottom">J’introduis ici cette restriction nécessaire pour qu’on ne me dise pas demain : « Et le théâtre d’Augier, qu’en faites-vous ? et celui de M. Dumas ? et celui de M. Victorien Sardou ? etc., etc. » J’ai déjà dit pour quelles raisons je ne répondrais point à cette question dans ces conférences, ni même dans les notes que je crois pouvoir y ajouter. Chaque chose vient en son temps ; et c’est bien le moins que la critique ou l’histoire demeurent maîtresses de leurs conclusions jusqu’à ce qu’elles les aient formulées.</note> — ayant en quelque sorte atteint tout ce que comportait sa notion, ne pouvait plus que descendre au-dessous d’elle-même ? Et Molière lui-même n’en est-il pas une preuve ? Car enfin, — et sans compter que je ne suis pas de ceux qui mettent le <hi rend="i">Misanthrope</hi> au même rang que <hi rend="i">Tartufe</hi>, — Molière lui-même a pu s’égaler, si l’on veut, dans <hi rend="i">l’Avare</hi>, dans <hi rend="i">les Femmes savantes</hi>, ou dans <hi rend="i">le Malade imaginaire</hi>, que les bouffonneries de la fin n’empêchent pas d’être une de ses comédies les plus fortes : il ne s’est point surpassé !</p>
           <p>C’est ce que prouve bien mieux encore l’exemple de ses successeurs. Un seul d’entre eux, Destouches, essayera de faire des comédies de caractères, et ne réussira qu’à mettre des vers d’épître sur des situations romanesques. Les autres, plus prudents, réduiront leur ambition tout d’abord, comme Dancourt, comme Le Sage, à la comédie de mœurs, ou, comme Regnard, à la comédie d’intrigue ; et ils y ajouteront sans doute chacun quelque chose de son fonds ; et ils y mettront surtout quelque chose de leur temps, ils perfectionneront au besoin quelques parties de l’art laissées par le maître comme à l’état d’indication ou d’ébauche ; mais, de peindre des caractères, c’est ce qu’ils n’auront garde de prétendre faire, et c’est à Marivaux, celui de tous nos auteurs comiques qui a le plus différé de Molière, qu’ils laisseront ce soin, comme à Beaumarchais l’audace et l’honneur de se hasarder à la satire sociale. J’essayerai, Messieurs, de vous dire comment ils s’y sont pris l’un et l’autre.</p>
-          <p>Croirons-nous donc avec Voltaire que les « caractères » s’épuisent ? qu’il n’y en ait dans la nature humaine <quote>« qu’une douzaine tout au plus de vraiment comiques, marqués de grands traits<note place="bottom"><p>On sait que la même idée se retrouve dans les vers de <hi rend="i">la Métromanie</hi> :</p><quote><label>DAMIS</label><l>On m’ignore et je rampe encore à l’âge heureux</l><l>Où Corneille et Racine étaient déjà fameux.</l><l>…………………………………………………..</l><label>M. BALIVEAU</label><l>Mais les beautés de l’art ne sont pas infinies.</l><l>Du moins tu m’avoueras que ces rares génies,</l><l>Outre le don qui fut leur principal appui,</l><l>Moissonnaient à leur aise où l’on glane aujourd’hui.</l><label>DAMIS</label><l>Ils ont dit, il est vrai, presque tout ce qu’on pense,</l><l>Leurs écrits sont des vols qu’ils nous ont fait d’avance, etc.</l></quote><p>Sur quoi nous ferons observer que, si Racine n’avait pas existé, Quinault, en se comparant à Corneille, aurait pu raisonner exactement de la même manière.</p></note> »</quote> ? et que l’art en soit réduit, quand ces caractères sont une fois traités, à <quote>« imiter ou à s’égarer »</quote> ? Non, pas précisément ; et nous verrons prochainement le contraire. L’esprit humain a par bonheur plus de ressources et de fécondité.</p>
+          <p>Croirons-nous donc avec Voltaire que les « caractères » s’épuisent ? qu’il n’y en ait dans la nature humaine <quote>« qu’une douzaine tout au plus de vraiment comiques, marqués de grands traits<note place="bottom"><p>On sait que la même idée se retrouve dans les vers de <hi rend="i">la Métromanie</hi> :</p><quote><label type="speaker">DAMIS</label><l>On m’ignore et je rampe encore à l’âge heureux</l><l>Où Corneille et Racine étaient déjà fameux.</l><l>…………………………………………………..</l><label type="speaker">M. BALIVEAU</label><l>Mais les beautés de l’art ne sont pas infinies.</l><l>Du moins tu m’avoueras que ces rares génies,</l><l>Outre le don qui fut leur principal appui,</l><l>Moissonnaient à leur aise où l’on glane aujourd’hui.</l><label type="speaker">DAMIS</label><l>Ils ont dit, il est vrai, presque tout ce qu’on pense,</l><l>Leurs écrits sont des vols qu’ils nous ont fait d’avance, etc.</l></quote><p>Sur quoi nous ferons observer que, si Racine n’avait pas existé, Quinault, en se comparant à Corneille, aurait pu raisonner exactement de la même manière.</p></note> »</quote> ? et que l’art en soit réduit, quand ces caractères sont une fois traités, à <quote>« imiter ou à s’égarer »</quote> ? Non, pas précisément ; et nous verrons prochainement le contraire. L’esprit humain a par bonheur plus de ressources et de fécondité.</p>
           <p>Mais il me semblerait plutôt que la comédie de caractères, telle que j’ai tâché de vous la définir, — et telle que vous la reconnaîtrez, je l’espère, dans <hi rend="i">Tartufe</hi>, — tendait naturellement et d’elle-même au drame, à un certain genre de drame, à la tragédie bourgeoise, telle que la comprendront Diderot, Sedaine, Mercier, Beaumarchais, telle qu’ils s’efforceront de la réaliser, dans <hi rend="i">le Père de famille</hi> ou dans le <hi rend="i">Philosophe sans le savoir</hi>. Et puis, et surtout, Mesdames et Messieurs, c’est qu’après Molière, comme autrefois en Grèce après Aristophane, la liberté de la satire sociale allait promptement devenir incompatible avec des conditions et des exigences nouvelles, avec le développement de l’esprit de société, avec la perfection même de la politesse, du savoir-vivre mondain :</p>
           <quote>
             <l>Mieux qu’un sermon, l’aimable comédie</l>
@@ -888,13 +888,13 @@
           <p>Oui, les sens ici participent à la satisfaction de l’esprit ; ou plutôt encore, âme et sens, cœur et corps, nous vibrons tout entiers à l’unisson des sentiments du poète et de son héroïne…</p>
           <p>Mais, Messieurs, je veux parler de qualités encore plus intérieures ou plus secrètes ; et d’abord, de la netteté, de la précision singulière avec laquelle ce style, sans avoir l’air presque d’y toucher, dessine jusqu’aux attitudes et jusqu’aux moindres gestes des personnages ? Vous vous rappelez les beaux vers du <hi rend="i">Cid</hi>, si vrais et si humains :</p>
           <quote>
-            <label>CHIMÈNE</label>
-            <l>Rodrigue, qui l’eût cru !</l>
-            <label>RODRIGUE</label>
-            <l>                                         Chimène qui l’eût dit !</l>
-            <label>CHIMÈNE</label>
+            <label type="speaker">CHIMÈNE</label>
+            <l part="I">Rodrigue, qui l’eût cru !</l>
+            <label type="speaker">RODRIGUE</label>
+            <l part="F">Chimène qui l’eût dit !</l>
+            <label type="speaker">CHIMÈNE</label>
             <l>Que notre heur fût si proche et sitôt se perdit !</l>
-            <label>RODRIGUE</label>
+            <label type="speaker">RODRIGUE</label>
             <l>Et que, si près du port, contre toute apparence,</l>
             <l>Un orage si prompt brisât notre espérance !</l>
           </quote>
@@ -1103,33 +1103,33 @@
           <p>Vous avez reconnu le langage de Mme Jourdain : <quote>« Je veux un homme qui m’ait obligation de ma fille, et à qui je puisse dire : mettez-vous là, mon gendre, et dînez avec moi. »</quote> Mais voici peut-être une imitation plus directe encore :</p>
           <quote>
             <stage>GÉRONTE, ISABELLE, LISETTE</stage>
-            <label>GÉRONTE</label>
+            <label type="speaker">GÉRONTE</label>
             <l>Ah ! vous voilà, ma fille ! Eh quoi ! toujours rêveuse !</l>
             <l>Qu’avez-vous, dites-moi ? Ne soyez point honteuse !</l>
-            <label>ISABELLE</label>
-            <l>Moi ! qu’aurais-je, mon père ?</l>
-            <label>GÉRONTE</label>
-            <l>                                                 Ah ! vous dissimulez !</l>
+            <label type="speaker">ISABELLE</label>
+            <l part="I">Moi ! qu’aurais-je, mon père ?</l>
+            <label type="speaker">GÉRONTE</label>
+            <l part="F">Ah ! vous dissimulez !</l>
             <l>Ouvrez-moi votre cœur. Que vous faut-il ? Parlez !</l>
-            <label>LISETTE</label>
+            <label type="speaker">LISETTE</label>
             <l>La chose à deviner n’est pas bien difficile.</l>
-            <label>GÉRONTE</label>
+            <label type="speaker">GÉRONTE</label>
             <l>Je ne vous parle pas ! Vous êtes trop habile.</l>
             <stage>(À Isabelle.)</stage>
             <l>Vous savez l’amitié que j’eus toujours pour vous.</l>
-            <label>ISABELLE</label>
+            <label type="speaker">ISABELLE</label>
             <l>Il est vrai ! C’est pour moi le bonheur le plus doux.</l>
-            <label>GÉRONTE</label>
-            <l>Vous êtes inquiète !</l>
-            <label>LISETTE</label>
-            <l>                                Ô la grande merveille</l>
+            <label type="speaker">GÉRONTE</label>
+            <l part="I">Vous êtes inquiète !</l>
+            <label type="speaker">LISETTE</label>
+            <l part="F">Ô la grande merveille</l>
             <l>Qu’une fille à vingt ans ait la puce à l’oreille !</l>
-            <label>GÉRONTE</label>
+            <label type="speaker">GÉRONTE</label>
             <l>Pourquoi me réponds tu ? je ne te parle pas.</l>
-            <label>LISETTE</label>
-            <l>Je me réponds à moi.</l>
-            <label>GÉRONTE</label>
-            <l>                                   Réponds-toi donc tout bas…</l>
+            <label type="speaker">LISETTE</label>
+            <l part="I">Je me réponds à moi.</l>
+            <label type="speaker">GÉRONTE</label>
+            <l part="F">Réponds-toi donc tout bas…</l>
           </quote>
           <p>J’abrège la citation, et vous avez encore reconnu le modèle. C’était là de ces « effets sûrs », dont nos pères ne se choquaient point, si même on ne doit dire que, dans la déférence avec laquelle on les reproduisait, ils voyaient un hommage au maître qui les avait trouvés ou développés le premier…</p>
           <p>Vous le voyez, Messieurs, si on le voulait, rien ne serait plus facile que de ramener ainsi trente ou quarante années de l’histoire de la comédie française à l’unique inspiration de Molière ; et, sans doute, si nous le faisions, nous n’aurions pas complètement tort. Car jamais homme, en vérité, n’a pesé sur ses successeurs d’un poids plus considérable, plus lourd, et plus difficile à secouer que Molière, si ce n’est peut-être, de nos jours, Balzac sur les romanciers qui l’ont suivi. Allons plus loin ! nous le pouvons ; et disons qu’après cinquante ans écoulés bientôt, de même qu’un bon roman est celui qui se rapproche le plus du roman de Balzac, — d’<hi rend="i">Eugénie Grandet</hi> ou d’un <hi rend="i">Ménage de Garçon</hi>, — à la seule condition d’être un peu mieux écrit<note place="bottom">J’éprouve toujours quelque gêne, sinon quelque remords, à parler ainsi du « « style » de Balzac ; et cependant je ne puis le nier, s’il y a un art de « bien écrire », il écrit mal. Mais s’il écrivait mieux, je veux dire plus correctement, plus simplement, moins prétentieusement — d’un style qui fit moins l’effet, selon le mot de Sainte-Beuve, <quote>« d’être brisé comme le corps d’un mime asiatique »</quote>, — serait-il Balzac, le peintre de la <hi rend="i">Comédie humaine</hi> et le génie même du roman de mœurs contemporain ? C’est une question qu’en passant je soumets à ceux qui savent combien de fois, et avec combien d’apparence de raison, on a reproché aussi leur « mauvais style » à Molière et à Saint-Simon, ces deux grands peintres de la vie.</note>, de même en France, une bonne comédie, fût-elle de Labiche ou d’Augier, sera toujours celle qui nous rappellera le plus la comédie de Molière ; et nous ne la louerons peut-être jamais mieux qu’en montrant comment, par où, par quels mérites, et au besoin par quels défauts, elle rappelle celle de Molière<note place="bottom">C’est ainsi qu’au moment même où je faisais ces <hi rend="i">Conférences</hi> les auteurs du Théâtre Libre se réclamaient de Molière, et peut-être qu’ils n’avaient pas tort. <hi rend="i">Les Corbeaux</hi> de M. Henri Becque sont assurément plus voisins que <hi rend="i">Mademoiselle de la Seiglière</hi> ou que même <hi rend="i">Maître Guérin</hi> de la facture du <hi rend="i">Malade imaginaire</hi>.</note>.</p>
@@ -1181,35 +1181,35 @@
           <p>Or, au commencement du <num>xviii<hi rend="sup">e</hi></num> siècle, le roman, vous le savez, prenait justement conscience de lui-même… Roman de mœurs avec <hi rend="i">Gil Blas</hi>, roman d’amour ou de passion avec <hi rend="i">Manon Lescaut</hi>, roman psychologique avec <hi rend="i">Marianne</hi>, le roman, d’un genre inférieur qu’il avait été jusqu’alors, et regardé comme uniquement bon à divertir les enfants et les femmes, s’élevait à la dignité d’un genre littéraire. Pour que la comédie soutînt la concurrence, il lui eût fallu d’autres défenseurs que Le Sage ; il eût fallu surtout que l’auteur de <hi rend="i">Turcaret</hi> ne fût pas en même temps celui de <hi rend="i">Gil Blas</hi> ! Elle allait donc chercher des directions nouvelles, et, en les cherchant, elle allait essayer, comme il arrive toujours, d’emprunter d’abord au roman lui-même quelques-uns des moyens qui le faisaient réussir.</p>
           <p>Dufresny, si on le voulait, en pourrait servir d’exemple, ce Dufresny dont je vous disais tout à l’heure qu’il avait essayé le premier de secouer l’influence de Molière. Je lis en effet, dans le <hi rend="i">Prologue</hi> du <hi rend="i">Négligent</hi>, sa première pièce, les curieuses réflexions que voici. M. Oronte, riche bourgeois, voulant donner la comédie chez lui, s’entretient avec « un poète » dont la pièce ne lui a pas plu :</p>
           <quote>
-            <label>ORONTE</label>
+            <label type="speaker">ORONTE</label>
             <p>Monsieur, je suis surpris que vous ayez fait une comédie en prose, puisque vous avez tant de facilité à faire des vers.</p>
-            <label>LE POÈTE</label>
+            <label type="speaker">LE POÈTE</label>
             <l>Cette facilité ne fait rien à la chose :</l>
             <l>Je ne plains ni peine ni temps</l>
             <l>Pour réussir quand je compose,</l>
             <l>Et voici comment je m’y prends.</l>
             <p/>
             <p>D’abord, pour ne point me gêner l’esprit, j’ébauche grossièrement mon sujet en vers alexandrins, et, petit à petit, en léchant mon ouvrage, je corromps avec soin la cadence des vers, et je parviens enfin à réduire le tout en prose naturelle.</p>
-            <label>ORONTE</label>
+            <label type="speaker">ORONTE</label>
             <p>Vous croyez donc qu’une comédie est plus parfaite en prose qu’en vers ?</p>
-            <label>LE POÈTE</label>
+            <label type="speaker">LE POÈTE</label>
             <p>Oui, sans doute ; et il n’est pas naturel qu’on parle en vers dans une comédie…</p>
           </quote>
           <p>Un autre passage n’est pas moins intéressant :</p>
           <quote>
-            <label>LE POÈTE</label>
+            <label type="speaker">LE POÈTE</label>
             <p>Que manque-t-il donc à ma pièce ?</p>
-            <label>ORONTE</label>
+            <label type="speaker">ORONTE</label>
             <p>Des caractères, monsieur, des caractères… et des portraits.</p>
-            <label>LE POÈTE</label>
+            <label type="speaker">LE POÈTE</label>
             <p>Ah ! ah ! nous y voilà ! des caractères, des portraits…</p>
             <p>Votre discours me fait soupçonner… que vous êtes un peu <hi rend="i">Moliériste</hi>.</p>
           </quote>
           <p>Vous voyez, Messieurs, que le mot n’est pas d’hier !</p>
           <quote>
-            <label>ORONTE</label>
+            <label type="speaker">ORONTE</label>
             <p>Je ne m’en défends point, et je tiens qu’on ne peut réussir sur le théâtre qu’en suivant Molière pas à pas…</p>
-            <label>LE POÈTE</label>
+            <label type="speaker">LE POÈTE</label>
             <p>Molière a bien gâté le théâtre. Si l’on donne dans son goût : Bon, dit aussitôt le critique, cela est pillé, c’est Molière tout pur ; s’en écarte-t-on un peu : Oh ! ce n’est pas là Molière.</p>
           </quote>
           <p>Dufresny s’en écarta, mettant même quelque amour-propre, quelque coquetterie d’auteur à donner, sous le titre de <hi rend="i">la Malade sans maladie</hi>, telle comédie dont ce titre ne fait précisément qu’accuser la différence avec <hi rend="i">le Malade imaginaire</hi>. Il essaya surtout de varier l’intrigue, de la rendre déjà plus « intéressante » ; et il est vrai qu’ayant moins d’invention que de bonne envie d’en avoir, il y a rarement réussi. Mais c’était une indication, et ses successeurs en allaient profiter.</p>
@@ -1231,7 +1231,7 @@
           <p>La mort impitoyable l’en a précipité…</p>
         </quote>
         <p>C’est, Messieurs, en ces termes — je ne veux pas dire emphatiques, mais un peu trop éloquents peut-être, — qu’il y a cent trente ans, le 22 janvier 1763, un homme d’infiniment d’esprit, l’aimable abbé de Voisenon, l’heureux successeur à la fois du maréchal de Saxe dans les bonnes grâces de Mme Favart, et de Prosper Jolyot de Crébillon à l’Académie française, célébrait la mémoire toute récente encore du moins glorieux de ses deux prédécesseurs… subsiste en tout cas du jugement de Voisenon, homme de théâtre lui-même, et ce qu’il est tout d’abord intéressant d’en retenir, c’est, en premier lieu, l’estime singulière que vous voyez que l’on faisait encore, en 1763, de Crébillon le tragique<note place="bottom">On l’appelle « Crébillon le tragique » pour le distinguer de son fils, que l’on pourrait appeler « Crébillon le polisson ». Ils furent d’ailleurs tous les deux « Crébillon le Censeur ».</note> ; et c’est, en second lieu, cette remarque, assez importante pour l’histoire du théâtre, qu’au témoignage des meilleurs juges, en 1763, — non plus encore, mais déjà ! — on ne trouvait à nommer, entre Racine, qui avait cessé d’écrire en 1677, et Voltaire, dont la première tragédie, son <hi rend="i">Œdipe</hi>, est de 1718, on ne trouvait à citer que le seul Crébillon. Tous les autres avaient disparu…</p>
-        <p>Ce n’est pas, à la vérité, que l’on n’ait essayé plus d’une fois depuis lors de combler, de remplir, de diminuer au moins ce long intervalle de près de cinquante ans ; et, sans reparler ici de Pradon ni de Longepierre, de l’abbé Abeille ni de l’abbé Genest, on a réclamé tour à tour pour Campistron, dont l’<hi rend="i">Andronic</hi>, — son prétendu chef-d’œuvre, — est de 1685, ou pour La Fosse, dont le <hi rend="i">Manlius Capitolinus</hi> parut en 1698. Jusque dans les dernières années de la Restauration, Villemain, par exemple, mettait encore <hi rend="i">Manlius</hi> fort au-dessus du médiocre. Même, il y trouvait des parties admirables, et quelques-unes de « sublimes ». L’honneur en revenait sans doute à Talma. Mais aujourd’hui, Messieurs, si j’essayais de vous donner une idée de cette pièce « admirable », si je vous en lisais quelques vers seulement, vous seriez… dégoûtés, j’ose le dire, de ce qu’elle offre de ressemblances vraiment trop scandaleuses avec tout ce qui l’avait elle-même précédée<anchor xml:id="footnote30"/><note place="bottom"><p>Villemain avait vu Talma dans <hi rend="i">Manlius</hi> ; il nous le dit lui-même ; et sans doute le génie de l’acteur l’a trompé sur la valeur de la pièce. Voici quelques vers de <hi rend="i">Manlius</hi> :</p><quote><l>Je viens savoir de vous, Seigneur, ce qu’il faut croire.</l><l>D’un bruit qui se répand et blesse votre gloire...</l></quote><p>C’est le discours d’Achille dans <hi rend="i">Iphigénie</hi> :</p><quote><l>Un bruit assez étrange est venu jusqu’à moi....</l></quote><p>On lit plus loin :</p><quote><l>Et suis-je criminel quand, par un doux accueil,</l><l>J’apaise leur courroux qu’irrite son orgueil ?</l></quote><p>C’est du Molière, dans le <hi rend="i">Misanthrope</hi> :</p><quote><l>Puis-je empêcher les gens de me trouver aimable ?</l><l>Et lorsque pour me voir ils font de doux efforts,    </l><l>Dois-je prendre un bâton pour les mettre dehors ?</l></quote><p>Continuons :</p><quote><l>Ainsi, père cruel, ainsi ta barbarie,</l><l>En éclatant sur moi tombe sur Valérie !</l></quote><p>C’est du Corneille :</p><quote><l>Père barbare, achève, achève ton ouvrage,</l><l>Cette seconde hostie est digne de ta rage !</l></quote><p>Terminons par un dernier exemple :</p><quote><l>Ah ! si le seul récit m’a pu faire frémir,</l><l>Quel serai-je, grands Dieux, au spectacle terrible</l><l>De tout ce qui peut rendre une vengeance horrible !</l><l>Ah ! fuyons, dérobons nos mains à ces forfaits ?</l><l>Mais où fuir ?...</l></quote><p>C’est le passage assez connu de <hi rend="i">Phèdre</hi>.</p><p>Tel est La Fosse quand il imite ; mais quand il est livré à lui-même, trois vers entre cent autres, suffiront pour donner une idée de son style :</p><quote><l><hi rend="i">Je sais</hi> qu’en nos projets l’ardeur qui nous inspire</l><l> Vous <hi rend="i">saura</hi> suggérer tout ce qu’il faudra dire.</l><l>Ce n’est pas tout encore, vous <hi rend="i">avez su</hi>, je croi,</l><l>Qu’hier Servilius est arrivé chez moi.</l></quote><p>Voyez sur <hi rend="i">Manlius</hi> une lettre de Voltaire à d’Argental, datée du mois de juillet 1751.</p></note>.</p>
+        <p>Ce n’est pas, à la vérité, que l’on n’ait essayé plus d’une fois depuis lors de combler, de remplir, de diminuer au moins ce long intervalle de près de cinquante ans ; et, sans reparler ici de Pradon ni de Longepierre, de l’abbé Abeille ni de l’abbé Genest, on a réclamé tour à tour pour Campistron, dont l’<hi rend="i">Andronic</hi>, — son prétendu chef-d’œuvre, — est de 1685, ou pour La Fosse, dont le <hi rend="i">Manlius Capitolinus</hi> parut en 1698. Jusque dans les dernières années de la Restauration, Villemain, par exemple, mettait encore <hi rend="i">Manlius</hi> fort au-dessus du médiocre. Même, il y trouvait des parties admirables, et quelques-unes de « sublimes ». L’honneur en revenait sans doute à Talma. Mais aujourd’hui, Messieurs, si j’essayais de vous donner une idée de cette pièce « admirable », si je vous en lisais quelques vers seulement, vous seriez… dégoûtés, j’ose le dire, de ce qu’elle offre de ressemblances vraiment trop scandaleuses avec tout ce qui l’avait elle-même précédée<anchor xml:id="footnote30"/><note place="bottom"><p>Villemain avait vu Talma dans <hi rend="i">Manlius</hi> ; il nous le dit lui-même ; et sans doute le génie de l’acteur l’a trompé sur la valeur de la pièce. Voici quelques vers de <hi rend="i">Manlius</hi> :</p><quote><l>Je viens savoir de vous, Seigneur, ce qu’il faut croire.</l><l>D’un bruit qui se répand et blesse votre gloire…</l></quote><p>C’est le discours d’Achille dans <hi rend="i">Iphigénie</hi> :</p><quote><l>Un bruit assez étrange est venu jusqu’à moi…</l></quote><p>On lit plus loin :</p><quote><l>Et suis-je criminel quand, par un doux accueil,</l><l>J’apaise leur courroux qu’irrite son orgueil ?</l></quote><p>C’est du Molière, dans le <hi rend="i">Misanthrope</hi> :</p><quote><l>Puis-je empêcher les gens de me trouver aimable ?</l><l>Et lorsque pour me voir ils font de doux efforts,    </l><l>Dois-je prendre un bâton pour les mettre dehors ?</l></quote><p>Continuons :</p><quote><l>Ainsi, père cruel, ainsi ta barbarie,</l><l>En éclatant sur moi tombe sur Valérie !</l></quote><p>C’est du Corneille :</p><quote><l>Père barbare, achève, achève ton ouvrage,</l><l>Cette seconde hostie est digne de ta rage !</l></quote><p>Terminons par un dernier exemple :</p><quote><l>Ah ! si le seul récit m’a pu faire frémir,</l><l>Quel serai-je, grands Dieux, au spectacle terrible</l><l>De tout ce qui peut rendre une vengeance horrible !</l><l>Ah ! fuyons, dérobons nos mains à ces forfaits ?</l><l>Mais où fuir ?…</l></quote><p>C’est le passage assez connu de <hi rend="i">Phèdre</hi>.</p><p>Tel est La Fosse quand il imite ; mais quand il est livré à lui-même, trois vers entre cent autres, suffiront pour donner une idée de son style :</p><quote><l><hi rend="i">Je sais</hi> qu’en nos projets l’ardeur qui nous inspire</l><l>Vous <hi rend="i">saura</hi> suggérer tout ce qu’il faudra dire.</l><l>Ce n’est pas tout encore, vous <hi rend="i">avez su</hi>, je croi,</l><l>Qu’hier Servilius est arrivé chez moi.</l></quote><p>Voyez sur <hi rend="i">Manlius</hi> une lettre de Voltaire à d’Argental, datée du mois de juillet 1751.</p></note>.</p>
         <p>Je me bornerai donc à vous signaler en passant la seule raison que j’eusse de nommer <hi rend="i">Manlius</hi> et <hi rend="i">Andronic</hi> : c’est que ce sont deux des premières pièces où, sous le déguisement des noms grecs et romains, on ait essayé de traiter, comme autrefois Racine en son <hi rend="i">Bajazet</hi>, des sujets presque modernes. <hi rend="i">Manlius</hi> en effet… c’est <hi rend="i">Manlius</hi> : mais c’est aussi la conjuration des Espagnols contre Venise, et le sujet déjà traité par l’Anglais Thomas Otway seize ans auparavant dans sa <hi rend="i">Venice preserved</hi> ; de même qu’<hi rend="i">Andronic</hi> c’est, si l’on veut, une intrigue de la cour de Byzance, mais c’était aussi l’histoire de don Carlos et de Philippe II, et c’est le sujet que Schiller traitera plus tard dans son <hi rend="i">Don Carlos</hi>. Il ne vous paraîtra pas indifférent, après cela, de savoir que l’un et l’autre sujet sont empruntés de l’abbé de Saint-Réal, un historien romancier presque plus oublié lui-même que La Fosse et que Campistron, mais plus injustement peut-être. C’est un nouvel exemple de cette pénétration réciproque du roman et du théâtre dont nous avons eu l’occasion de dire déjà quelques mots en parlant de <hi rend="i">Turcaret</hi> ; — et les deux genres vont faire entre eux maintenant des échanges plus nombreux tous les jours.</p>
         <p>Non que Corneille et Racine eux-mêmes, une ou deux fois, n’eussent dérivé leur inspiration de cette source inférieure, — Corneille en son <hi rend="i">Don Sanche d’Aragon</hi>, et Racine en son <hi rend="i">Bajazet</hi>, peut-être même en son <hi rend="i">Mithridate</hi>, — mais enfin, d’une manière générale, et par opposition à leurs contemporains, ou surtout à leurs prédécesseurs, l’histoire leur avait en général suffi, comme la nature à Molière, je veux dire Tite-Live et Tacite, la poésie, la mythologie, les <hi rend="i">Actes des Martyrs</hi>, l’Ancien Testament. Et, en effet, l’expérience le prouve, le mélange du roman et du drame, utile ou même avantageux quelquefois au roman qu’il « nourrit » pour ainsi dire, et dont il fortifie l’intrigue, est au contraire presque toujours dangereux au drame, et toujours funeste à la tragédie. C’est précisément ce que nous allons voir en nous occupant de <hi rend="i">Rhadamiste</hi> et de Crébillon. Grand liseur de romans, admirateur passionné de ce Gascon de La Calprenède, c’est du théâtre romanesque, si jamais il en fut, que Crébillon a fait ; — et rien que du théâtre <hi rend="i">romanesque</hi>. Même quand on croirait qu’il s’inspire de l’histoire, comme justement dans <hi rend="i">Rhadamiste</hi>, c’est un roman qu’il a sous les yeux pour modèle, dont il essaye d’imiter le genre d’intérêt. Et là, dans cette perpétuelle confusion des moyens du drame avec ceux du roman, là est d’abord son originalité, sa fâcheuse originalité d’ailleurs, mais enfin son originalité.</p>
         <p>Voulez-vous le voir à l’œuvre ? Il n’y a rien de plus aisé : c’est un bon homme, de ceux dont on dit qu’ils n’y entendent point malice, et ses procédés ne sont guère moins transparents que ceux de Regnard. Au cours de ses lectures, en caressant ses chats ou en fumant sa pipe, une aventure de roman l’a donc frappé : celle de Zénobie, je suppose, que l’on a prétendu parfois qu’il avait tirée de la <hi rend="i">Cléopâtre</hi> de La Calprenède, ce qui est une erreur, ou des <hi rend="i">Annales</hi> de Tacite<note place="bottom"><p>On lit, dans une <hi rend="i">Notice</hi> de M. Auguste Vitu sur Crébillon : <quote>« <hi rend="i">Rhadamiste et Zénobie</hi>, qui se place médiatement après <hi rend="i">Électre</hi> dans l’ordre chronologique, est évidemment la seule tragédie de Crébillon qu’on puisse qualifier de romanesque : <hi rend="i">cela ne suffit pas à justifier la prédilection qu’on lui attribue pour les fictions de La Calprenède</hi>, qui, cinquante ans après la mort de ce célèbre auteur gascon, <hi rend="i">devaient être singulièrement oubliées et démodées</hi>. Un biographe fantaisiste a découvert qu’il serait curieux de rechercher et de transcrire les passages de La Calprenède imités par Crébillon ; que ne les recherchait-il et ne les transcrivait-il lui-même ? Je crois qu’il y aurait perdu son temps. Ce n’est ni dans les dix volumes de <hi rend="i">Cassandre, ni dans les vingt-trois volumes de Cléopâtre</hi> que Crébillon puisa la première idée de <hi rend="i">Rhadamiste</hi>, mais tout simplement dans les <hi rend="i">Annales</hi> de Tacite. »</quote></p><p>De dire qu’il y ait dans ce passage presque autant d’erreurs que de lignes, ce serait exagérer, mais il ne s’en faut de guère. <hi rend="i">Rhadamiste et Zénobie</hi> n’est pas <quote>« la seule tragédie de Crébillon qu’on puisse qualifier de romanesque »</quote>, on le verra de reste, et tout de suite, si seulement on s’entend sur le sens du mot <hi rend="i">romanesque</hi> ; et son <hi rend="i">Idoménée</hi>, son <hi rend="i">Atrée</hi>, son <hi rend="i">Électre</hi>, son <hi rend="i">Pyrrhus</hi> ne sont pas moins romanesques que son <hi rend="i">Rhadamiste</hi>.</p><p><quote>« La prédilection <hi rend="i">qu’on</hi> attribue à Crébillon pour les romans de La Calprenède »</quote> nous est attestée par son fils, dans un <hi rend="i">Éloge historique</hi> qu’il a fait de son père ; et si ce fils unique, âgé de plus de cinquante ans quand son père mourut, n’en connaissait pas les « prédilections » et les goûts, je demande à quels témoins l’histoire se fiera désormais ?</p><p>Il est d’ailleurs possible que <quote>« les fictions de La Calprenède <hi rend="i">dussent</hi> être singulièrement oubliées et démodées, cinquante ans après sa mort »</quote>, mais elles ne l’étaient pas, voilà le fait ; et nous en avons pour preuve les deux rééditions de <hi rend="i">Cassandre</hi> mentionnées par Quérard sous les dates de 1731 et de 1752, comme aussi les trois abrégés qu’on a donnés de <hi rend="i">Cléopâtre</hi>, en 1753, 1769, et 1789. Joignez-y les longues analyses de la <hi rend="i">Bibliothèque des romans</hi>. Les grands conteurs de la famille de La Calprenède et de M<hi rend="sup">lle</hi> de Scudéri, ne sont précipités dans l’oubli que par d’autres grands conteurs, comme un Prévost, qui passait encore aussi, lui, vers 1830, pour un maître du roman, jusqu’à ce qu’il eût à son tour été détrôné par Dumas et par George Sand.</p><p>La <hi rend="i">Cléopâtre</hi> de La Calprenède n’a jamais eu vingt-trois volumes mais <hi rend="i">douze</hi> seulement ; et il semble que ce soit assez.</p><p>Enfin, il est bien vrai que Tacite a raconté, dans ses <hi rend="i">Annales</hi> — XII, 45 à 51, et XIII, 37, — la romanesque histoire de <hi rend="i">Rhadamiste et Zénobie</hi>, mais ce n’est point dans les <hi rend="i">Annales</hi> que Crébillon l’a puisée, c’est dans la <hi rend="i">Bérénice</hi> de Segrais. L’<hi rend="i">Histoire de Zénobie</hi>, racontée par elle-même, en remplit presque entièrement les deux premiers volumes ; et si l’on veut la preuve que Crébillon s’est bien inspiré du roman, la voici : c’est qu’il n’est fait mention dans les <hi rend="i">Annales</hi> ni de la ville d’Artanisse, autant qu’il me souvienne, ni du personnage de <quote>« Mitrane, capitaine des gardes de Rhadamiste »</quote>, lequel figure précisément dans le roman de Segrais, sous ce titre singulièrement romanesque.</p><p>Au surplus, pour rétablir la vérité sur tous ces points, je n’ai pas eu de longues recherches à faire, et, voulant parler de Crébillon, il m’a suffi de relire l’<hi rend="i">Éloge</hi> qu’en a fait d’Alembert, où, sans y attacher d’ailleurs aucune importance, il indique la <hi rend="i">Cléopâtre</hi>, ou la <hi rend="i">Bérénice</hi>, comme la source du sujet de <hi rend="i">Rhadamiste</hi>. Voyez aussi les frères Parfaict, et Barbier : <hi rend="i">Dictionnaire des Anonymes</hi>.</p><p>Je finirai cette longue note en disant que si j’ai cru devoir la faire si longue, c’est qu’à ma connaissance la <hi rend="i">Notice</hi> de M. Vitu, avec une <hi rend="i">Étude</hi> de M. G. d’Hugues, professeur à la faculté de lettres de Dijon, — dont je dois la communication à l’obligeance de M. Stephen Liégeard, — est la seule un peu récente qu’il y ait sur Crébillon.</p></note>, ce qui en est une autre : il l’a tirée d’un roman en plusieurs volumes, qui parut de 1648 à 1651, sous le titre de <hi rend="i">Bérénice</hi>, sans nom d’auteur, et que les bibliographes attribuent généralement à Segrais. Il ne vaut ni plus ni moins que tant de romans du même genre et de la même époque…</p>
@@ -1335,31 +1335,31 @@
           <p>C’est le temps de la querelle des anciens et des modernes ; — et je vous en prie, Mesdames et Messieurs, n’allez pas vous figurer, sous cette appellation pédantesque, une dispute ridicule, où des savants en <hi rend="i">us</hi> échangeraient entre eux moins d’arguments que d’injures, et de raisons que de horions, non ! mais voyez-y ce qu’il y faut voir : le commencement ou les symptômes d’une révolution des esprits qui, de nos jours même, n’a pas encore épuisé ni produit toutes ses conséquences. Il ne s’agissait, en effet, à vrai dire, de rien de moins que de savoir si les Grecs et les Latins demeureraient éternellement nos maîtres, les régulateurs de nos jugements, et les modèles de notre art. On commençait à se demander s’ils avaient atteint et réalisé pour toujours la perfection en tout genre ; ou, au contraire, si peut-être un Bossuet, dans ses <hi rend="i">Oraisons funèbres</hi> ; n’avait pas égalé les chefs-d’œuvre d’un Cicéron et d’un Démosthène ; si Racine, avec son <hi rend="i">Andromaque</hi> ou son <hi rend="i">Iphigénie</hi>, n’avait pas surpassé les Euripide et les Sophocle ; si Molière n’avait pas laissé loin derrière lui les Plaute et les Térence. Disons encore quelque chose de plus : la question se posait déjà de savoir si nous dépenserions à continuer d’étudier « les anciens » un temps qu’il semblait que l’on pût employer d’une manière plus naturelle et plus utile à observer le présent ou à préparer l’avenir. Et vous le voyez, Messieurs, à l’heure qu’il est, au moment même où je parle, il n’est guère de question plus « actuelle », ni plus controversée, ni peut-être enfin plus vitale. C’est dans les dernières années du <num>xvii<hi rend="sup">e</hi></num> siècle qu’on a commencé de l’agiter presque pour la première fois ; — et les modernes, qui en ont trouvé beaucoup d’autres, n’ont pas trouvé de partisan ou de défenseur plus convaincu que Marivaux, si l’écho de ses convictions a passé jusque dans le dialogue de ses comédies.</p>
           <p>Écoutez plutôt ce bout de scène de <hi rend="i">la Fausse suivante</hi> :</p>
           <quote>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>Un beau matin, je me trouvai sans un sou ; comme j’avais besoin d’un prompt secours, et qu’il n’y avait point de temps à perdre, un de mes amis que je rencontrai me proposa de me mener chez un honnête particulier, qui était marié et qui passait sa vie à étudier des langues mortes… Je rentrai chez lui… Là, je n’entendis parler que de sciences, et je remarquai que mon maître était épris de passion pour certains quidams, qu’il appelait des Anciens, et qu’il avait une souveraine antipathie pour d’autres, qu’il appelait des Modernes…</p>
-            <label>FRONTIN</label>
+            <label type="speaker">FRONTIN</label>
             <p>Et qu’est-ce que c’est que les Anciens et les Modernes ?</p>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>Les Anciens… attends ; il y en a un dont je sais le nom et qui est le capitaine de la bande : c’est comme qui dirait un Homère. Connais-tu cela ?</p>
-            <label>FRONTIN</label>
+            <label type="speaker">FRONTIN</label>
             <p>Non.</p>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>C’est dommage, car c’était un homme qui parlait bien grec</p>
-            <label>FRONTIN</label>
+            <label type="speaker">FRONTIN</label>
             <p>Il n’était donc pas Français, cet homme-là ?</p>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>Oh ! que non ! Je pense qu’il était de Québec, quelque part dans cette Égypte, et qu’il vivait du temps du déluge. Nous avons de lui de fort belles Satires, et mon maître l’aimait beaucoup, lui et tous les honnêtes gens de son temps, comme Virgile, Néron, Plutarque, Ulysse et Diogène.</p>
-            <label>FRONTIN</label>
+            <label type="speaker">FRONTIN</label>
             <p>Je n’ai jamais entendu parler de cette race-là, mais voilà de vilains noms.</p>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>De vilains noms ! C’est que tu n’y es pas accoutumé ! Sais-tu bien qu’il y a plus d’esprit dans ces noms-là que dans tout le royaume de France ?</p>
-            <label>FRONTIN</label>
+            <label type="speaker">FRONTIN</label>
             <p>Je le crois… Et que veulent dire les Modernes ?</p>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>Tu m’écartes de mon sujet, mais n’importe : les Modernes, c’est comme qui dirait… toi, par exemple.</p>
-            <label>FRONTIN</label>
+            <label type="speaker">FRONTIN</label>
             <p>Ho, ho ! je suis un Moderne, moi !</p>
-            <label>TRIVELIN</label>
+            <label type="speaker">TRIVELIN</label>
             <p>Oui vraiment, tu es un Moderne, et des plus Modernes : il n’y a que l’enfant qui vient de naître qui l’est plus que toi, car il ne fait que d’arriver…</p>
           </quote>
           <p>Je ne vous donne pas ces plaisanteries, Mesdames et Messieurs, pour-être de bien bon goût, ou plutôt, avouons-le, ce Trivelin, quand il se joue, a vraiment la main lourde ; mais elles sont caractéristiques ; et, sans doute, pour les mettre à la scène, pour les y développer avec tant de complaisance, — car je ne vous ai pas tout lu, — il fallait que la question tînt bien au cœur de Marivaux.</p>
@@ -1393,31 +1393,31 @@
           <p>Ce n’est pourtant pas tout encore, et voici, je crois, une autre analogie. Rien que d’avoir pris, comme Racine, les passions de l’amour pour matière de sa comédie, c’est ce qui a permis à Marivaux de pousser plus avant que personne avant lui, sauf Racine, ne l’avait fait, l’étude, l’analyse, et comme on disait alors, l’<hi rend="i">anatomie</hi> du cœur. C’est effectivement un trésor d’observations que l’œuvre de Marivaux, d’observations fines, souvent subtiles, souvent profondes, qui ne sont pas moins vraies pour être exprimées d’une façon quelquefois singulière, ou plutôt, Mesdames et Messieurs, dont j’oserai dire que l’expression paraîtrait moins singulière, si l’observation, moins ingénieuse et moins délicate, était moins neuve elle-même. <quote>« Qu’on me trouve un auteur célèbre, ayant approfondi l’âme, et qui dans ses peintures de nous et de nos passions, n’ait pas le style singulier. »</quote> Lorsque Marivaux se défendait ainsi lui-même contre les plaisanteries que ses contemporains faisaient de son style métaphysique, il oubliait précisément Racine, qui n’est jamais, lui, moins singulier que lorsqu’il est peut-être le plus neuf ou le plus profond. Mais ce don de dire des choses neuves dans la langue de tout le monde n’appartient, vous le savez sans doute, qu’aux très grands écrivains ; et s’il n’a pas pu les dire avec la même force et la même simplicité, reprocherons-nous à Marivaux d’avoir mieux aimé dire des choses neuves d’une façon singulière que des choses banales d’une manière commune ?</p>
           <p>Et vous remarquerez enfin que, chez lui comme chez Racine, le style, la psychologie et l’action ne font qu’un. Pas ou peu d’incidents, rien qui vienne du dehors, mais une succession d’<hi rend="i">états d’âmes</hi> qui s’opposent ou se contrarient, — comme, par exemple, dans <hi rend="i">le Jeu de l’Amour et du Hasard</hi>, — jusqu’à ce qu’ils finissent par se concilier ; ou qui se succèdent en se précisant, — comme dans <hi rend="i">les Fausses Confidences</hi>, — jusqu’à ce qu’ils parviennent à se connaître eux-mêmes.</p>
           <quote>
-            <label>ARAMINTE</label>
+            <label type="speaker">ARAMINTE</label>
             <p>Mais, Marton, il a si bonne mine pour un intendant, que je me fais quelque scrupule de le prendre : n’en dirait-on rien ?</p>
-            <label>MARTON</label>
+            <label type="speaker">MARTON</label>
             <p>Et que voulez-vous qu’on dise ? <hi rend="i">Est-on obligé de n’avoir que des intendants mal faits</hi> ?</p>
           </quote>
           <p>Ce n’est encore, vous le voyez, qu’une disposition générale et vague, incertaine et flottante. Araminte est veuve : on la persécute pour se remarier ; elle <quote>« aimerait à aimer »</quote> ; elle n’aime pas encore ; elle trouve seulement que Dorante <quote>« a bonne mine »</quote> ; — et pourquoi voudrait-on qu’elle s’en interdît la vue ? Ce n’est pas un crime, après tout de trouver que Dorante a bonne mine. Elle installe donc Dorante dans la place. Sur quoi, Mme Argante, dont il dérange les plans, presse sa fille de s’en défaire.</p>
           <quote>
-            <label>ARAMINTE</label>
+            <label type="speaker">ARAMINTE</label>
             <p>Je ne vois pas le sujet de me défaire d’un homme qui m’est donné de bonne main, qui est un homme de quelque chose, qui me sert bien, et que trop bien peut-être.</p>
-            <label>MADAME ARGANTE</label>
+            <label type="speaker">MADAME ARGANTE</label>
             <p>Que vous êtes aveugle !</p>
-            <label>ARAMINTE</label>
+            <label type="speaker">ARAMINTE</label>
             <p>Pas tant ; chacun a ses lumières… Si l’on me donne des motifs raisonnables de renvoyer cet intendant… il ne restera pas longtemps chez moi ; <hi rend="i">sans quoi on aura la bonté de trouver bon que je le garde, en attendant qu’il me déplaise à moi</hi>.</p>
           </quote>
           <p>Le progrès, Mesdames, est sensible : Dorante ne s’en ira pas ; on ne l’aime point encore, mais on le <hi rend="i">préfère</hi> déjà ; et peut-être n’est-ce pas lui qu’on épousera, mais sûrement ce n’est pas « le Comte »… Faisons donc le dernier effort, et qu’Araminte achève <quote>« de voir clair dans son cœur »</quote> :</p>
           <quote>
-            <label>MADAME ARGANTE</label>
+            <label type="speaker">MADAME ARGANTE</label>
             <p>Vous dites que vous le garderez : vous n’en ferez rien.</p>
-            <label>ARAMINTE <hi rend="i">froidement</hi>.</label>
+            <label type="speaker">ARAMINTE <hi rend="i">froidement</hi>.</label>
             <p>Il restera, je vous assure.</p>
-            <label>MADAME ARGANTE</label>
+            <label type="speaker">MADAME ARGANTE</label>
             <p>Point du tout, vous ne sauriez. <hi rend="i">Seriez-vous humeur à garder un intendant qui vous aime</hi> !</p>
-            <label>M. REMY</label>
+            <label type="speaker">M. REMY</label>
             <p>Eh ! à qui voulez-vous donc qu’il s’attache ?</p>
-            <label>ARAMINTE</label>
+            <label type="speaker">ARAMINTE</label>
             <p>Mais, en effet, pourquoi faut-il que mon intendant me haïsse ?</p>
           </quote>
           <p>Et nous, Messieurs, qu’avons-nous besoin d’entendre ou d’attendre davantage ? Le mariage vaut fait maintenant. À la sympathie d’une jeune veuve pour un intendant bien fait a succédé d’abord un goût de préférence, puis la préférence est devenue de l’amour… La comédie est terminée ; et si chaque progrès de l’action nous en a fait faire un dans la connaissance du cœur d’une belle indolente, n’avions-nous pas raison de dire que, dans le théâtre de Marivaux, comme dans celui de Racine, action et psychologie se confondent ?</p>
@@ -1675,32 +1675,32 @@
           <p>Il a vu le premier que, si la peinture du caractère ne laissait pas de pouvoir se mêler à celle des conditions, cependant c’étaient là deux objets différents et, en un certain sens, inverses. Nouvelle preuve, en passant, Messieurs, que le <num>xviii<hi rend="sup">e</hi></num> siècle ne s’est pas du tout proposé de <hi rend="i">mélanger</hi>, mais seulement de confondre ou de fondre les genres, disons, si vous le voulez, de les <hi rend="i">transposer</hi> bien plutôt que de les détruire. Et quant au principe de la subordination des caractères aux situations, vous avez également vu que Diderot ne l’a pas inventé, puisque c’est le principe même de la tragédie cornélienne et, à plus forte raison, de la tragi-comédie des contemporains de Corneille. Eux aussi, comme Diderot le demande, ils avaient arrêté le plan de leur drame avant de savoir quels caractères ils y engageraient<note place="bottom"><quote>« Le plan d’un drame peut être fait et bien fait, — a-t-il dit textuellement, — sans que le poète ne sache rien encore du caractère qu’il attachera à ses personnages. »</quote> Corneille eût, sans doute, approuvé la formule. On a vu que Molière et Racine avaient fait, eux, justement le contraire. Ils attachaient d’abord un « caractère » à leurs personnages, et le reste ne venait qu’ensuite.</note>. Mais c’est Diderot encore le premier qui donne au principe tout son sens et toute sa portée ; c’est lui qui en voit la liaison avec les questions qu’il propose à l’auteur dramatique d’agiter sur la scène ; <quote>« celle du suicide, celle de l’honneur, celle du duel, celle de la fortune, celle de la dignité et cent autres »</quote> ; et, Messieurs, depuis cinquante ans, à l’envi les uns des autres, n’est-ce pas après lui ce qu’ont fait nos dramaturges modernes<note place="bottom">Comparez plutôt à l’<hi rend="i">Essai sur la poésie dramatique</hi> les mémorables <hi rend="i">Préfaces</hi> de M. Alexandre Dumas.</note> ?</p>
           <p>Malheureusement, et au contraire de Voltaire, ce qui manquait le plus à Diderot, c’était le don du théâtre, l’aptitude originelle ; et, pour nous en apercevoir, il n’est que de prendre au hasard une scène de son <hi rend="i">Fils naturel</hi> ou de son <hi rend="i">Père de famille</hi> :</p>
           <quote>
-            <label>SCÈNE VII</label>
+            <label type="speaker">SCÈNE VII</label>
             <stage>LE PÈRE DE FAMILLE, UN INCONNU</stage>
             <stage>Tandis que le père de famille erre, accablé de tristesse, entre un inconnu, vêtu comme un homme du peuple, en redingote et en veste, les bras cachés sous sa redingote et le chapeau rabattu et enfoncé sur les yeux. Il paraît plongé dans la peine et la rêverie. Il traverse sans apercevoir personne.</stage>
-            <label>LE PÈRE DE FAMILLE, <hi rend="i">qui le voit venir à lui, l’attend, l’arrête par le bras et lui dit</hi> :</label>
+            <label type="speaker">LE PÈRE DE FAMILLE, <hi rend="i">qui le voit venir à lui, l’attend, l’arrête par le bras et lui dit</hi> :</label>
             <p>Qui êtes-vous ? où allez-vous ?</p>
-            <label>L’INCONNU, <hi rend="i">point de réponse.</hi></label>
-            <label>LE PÈRE DE FAMILLE</label>
+            <label type="speaker">L’INCONNU, <hi rend="i">point de réponse.</hi></label>
+            <label type="speaker">LE PÈRE DE FAMILLE</label>
             <p>Qui êtes-vous ? où allez-vous ?</p>
-            <label>L’INCONNU, <hi rend="i">point de réponse encore.</hi></label>
-            <label>LE PÈRE DE FAMILLE, <hi rend="i">relève lentement le chapeau de l’inconnu, reconnaît son fils, et s’écrie</hi> :</label>
+            <label type="speaker">L’INCONNU, <hi rend="i">point de réponse encore.</hi></label>
+            <label type="speaker">LE PÈRE DE FAMILLE, <hi rend="i">relève lentement le chapeau de l’inconnu, reconnaît son fils, et s’écrie</hi> :</label>
             <p>Ciel !… C’est lui !… C’est lui !… Mes funestes pressentiments, les voilà donc accomplis !… Ah !…</p>
             <stage>(Il pousse des accents douloureux ; il s’éloigne ; il revient ; il dit :)</stage>
             <p>Je veux lui parler… Je tremble de l’entendre… Que vais-je savoir ?… J’ai trop vécu, j’ai trop vécu !</p>
-            <label>SAINT-ALBIN, <hi rend="i">en s’éloignant de son père, et soupirant de douleur.</hi></label>
+            <label type="speaker">SAINT-ALBIN, <hi rend="i">en s’éloignant de son père, et soupirant de douleur.</hi></label>
             <p>Ah !</p>
-            <label>LE PÈRE DE FAMILLE, <hi rend="i">le suivant.</hi></label>
+            <label type="speaker">LE PÈRE DE FAMILLE, <hi rend="i">le suivant.</hi></label>
             <p>Qui es-tu ? D’où viens-tu ?… Aurais-je eu le malheur ?</p>
-            <label>SAINT-ALBIN, <hi rend="i">s’éloignant encore.</hi></label>
+            <label type="speaker">SAINT-ALBIN, <hi rend="i">s’éloignant encore.</hi></label>
             <p>Je suis désespéré.</p>
-            <label>LE PÈRE DE FAMILLE</label>
+            <label type="speaker">LE PÈRE DE FAMILLE</label>
             <p>Grand Dieu ! que faut-il que j’apprenne ?</p>
-            <label>SAINT-ALBIN, <hi rend="i">revenant et s’adressant à son père.</hi></label>
+            <label type="speaker">SAINT-ALBIN, <hi rend="i">revenant et s’adressant à son père.</hi></label>
             <p>Elle pleure, elle soupire, elle songe à s’éloigner, et, si elle s’éloigne, je suis perdu.</p>
-            <label>LE PÈRE DE FAMILLE</label>
+            <label type="speaker">LE PÈRE DE FAMILLE</label>
             <p>Qui, elle ?</p>
-            <label>SAINT-ALBIN</label>
+            <label type="speaker">SAINT-ALBIN</label>
             <p>Sophie… Non, Sophie, non…, je périrai plutôt !</p>
           </quote>
           <p>Si vous songez qu’il ne s’agit ici que d’un grand garçon qui a passé la nuit hors de la maison paternelle, peut-être ces exclamations vous paraîtront-elles exagérées, comme le désespoir de ce brave homme. <quote>« J’ai trop vécu… J’ai trop vécu… »</quote> Que dirait-il, en effet, de plus, ou de quel ton plus pénétré, si son fils venait de le déshonorer ? Mais ce qui est plus extraordinaire, et surtout moins dramatique encore que cet étalage de sensibilité, c’est, je crois, la facture de ce « petit morceau » ; ce sont ces propos interrompus ; c’est ce dialogue entrecoupé qui retarde l’action, bien loin de la faire avancer ; et qui non seulement ne « caractérise » pas les personnages, mais qui les rend, au contraire, à chaque mot qu’ils échangent, plus semblables les uns aux autres, moins individuels, et plus généraux. En réalité, dans son <hi rend="i">Père de famille</hi> et dans son <hi rend="i">Fils naturel</hi>, Diderot a passé le but, — ce qui est sans doute l’un des plus sûrs moyens qu’on sache de le manquer, — et, de tout ce qu’il a cru représenter dans ses drames, nous n’y retrouverions rien, s’il n’avait écrit ses <hi rend="i">Entretiens avec Dorval</hi> ou son <hi rend="i">Essai sur la poésie dramatique</hi>. Ce ne sont pas les drames de Diderot qui prouvent ou qui éclairent ses théories dramatiques, mais bien ses théories qui éclairent et précisent, au contraire ce qu’il y aurait, sans elles, d’obscur, de vague, et d’indéterminé dans ses drames.</p>
@@ -1736,9 +1736,9 @@
           <p rend="noindent">disait Voltaire, mais bien plus encore quand on a besoin d’argent, semble ajouter Mercier. Et ce n’est pas absolument vrai… il y a des exceptions ! Mais dans la mesure où c’est vrai, y a-t-il rien de plus banal ? que l’expérience ait vérifié plus souvent ? et pour qui nous prend on, de faire une pièce en trois actes, à la seule fin de nous le démontrer ? On n’écrit pas trois actes de drame pour établir que les enfants doivent aimer leurs parents, ou que les mères doivent donner à leurs filles l’exemple des vertus domestiques. Ces lieux communs de morale, qui peuvent bien s’insinuer à l’occasion dans un drame ou dans une comédie, n’en sauraient former la matière. À force de vouloir ici moraliser, le drame tourne à l’anecdote édifiante ; et, en vérité, pourtant de prétentions, ne voilà-t-il pas, Messieurs, une belle chute ? S’il y avait encore quelque sentiment de l’art dans le drame de Sedaine ou de Diderot, vous le voyez, l’évolution est désormais accomplie ; — et rien ne manque davantage à <hi rend="i">la Brouette du vinaigrier</hi>.</p>
           <p>Je me reprocherais de ne pas ajouter qu’il y a, comme toujours, quelques lueurs parmi ce fatras, et voici telle idée dont l’expression pourra peut-être, en effet, vous intéresser.</p>
           <quote>
-            <label>DOMINIQUE, père</label>
+            <label type="speaker">DOMINIQUE, père</label>
             <p>Voici la troisième année qui court, depuis que je l’ai fait revenir de l’étranger, où je l’ai fait voyager de bonne heure. N’ai-je pas pris là le meilleur parti ? J’avais un parent, préfet de collège qu’on disait savant, et à qui je ne trouvais pas, moi, le sens commun ; il me disait toujours d’un ton rogue : « Sans le latin, votre fils ne parviendra jamais à rien… — Tudieu ! mon cousin, lui répondis-je, vous avez beau dire, on ne parle plus de latin dans aucune maison du royaume. Si mon fils avait besoin d’une autre langue que la sienne, c’est en anglais, c’est en allemand qu’il lui serait utile et agréable de savoir s’expliquer ; il trouverait des gens pour lui répondre… » et je vous l’envoyai sur-le-champ, dans ces pays-là, dès l’âge de douze ans. Il demeura chez des braves gens qui le formèrent au commerce, et qui de plus tirent beaucoup de mon vinaigre.</p>
-            <label>M. DELOMER.</label>
+            <label type="speaker">M. DELOMER.</label>
             <p>Vous avez bien fait : les voyages forment tout autrement que la jeunesse. On ne sait que faire trop souvent de ces beaux latinistes ; ils ne possèdent que des choses inutiles, croient tout savoir, sont tout et ne sont rien…</p>
           </quote>
           <p>La querelle des anciens et des modernes a cessé d’être littéraire, ou même philosophique ; elle est devenue sociale, pour ainsi dire ; et cependant, Messieurs, nous ne sommes encore qu’aux environs de 1775. Parce qu’il a eu quelquefois de semblables idées, Mercier passe pour un précurseur, comme Diderot ; et je ne veux certes pas leur disputer ce titre ! J’aimerais seulement qu’en louant les « précurseurs » de celles de leurs prédictions qui se sont réalisées depuis eux, on notât quelques-unes aussi de celles que l’événement a démenties. Car si je suis tenté d’admirer la perspicacité de l’auteur de <hi rend="i">la Brouette</hi>, quand je le vois qui réclame, il y a plus de cent ans passés, l’éducation professionnelle, j’en rabats, Mesdames et Messieurs, quand je le vois, dans son <hi rend="i">Tableau de Paris</hi>, à la veille des journées de la Révolution, nous démontrer l’impossibilité physique de l’émeute dans les rues de la capitale…</p>
@@ -1807,7 +1807,7 @@
           <p>C’est ce qui suffirait pour assurer la durée de son œuvre. Mais il faut tout de suite ajouter, et vous le savez, Messieurs, que, si jamais œuvre littéraire a été  l’expression de son temps, c’est <hi rend="i">le Mariage de Figaro</hi>, Même j’en connais peu dont la date soit moralement plus certaine, et, ni quinze ou vingt ans plus tôt, ni dix ou douze ans plus tard, Beaumarchais n’eût pu l’écrire, Elle ne pouvait pas être de 1760, s’il fallait que l’auteur de <hi rend="i">la Nouvelle Héloïse</hi> et de l’<hi rend="i">Émile</hi> eût au préalable comme enflammé les passions de ses contemporains, et communiqué la fièvre de son lyrisme à la littérature entière de la fin du siècle. Elle ne pouvait pas être de 1790, car déjà, dans ces premières années de la Révolution, le tonnerre de Mirabeau, si je puis ainsi dire, eût étouffé le rire de Beaumarchais. Non ! mais elle ne pouvait être que de ces années heureuses, où, selon le mot célèbre, on a senti comme jamais le prix et la douceur de vivre ; où, fatigué d’avoir tant pleuré, on se reprenait à rire de tout, même des choses les plus sérieuses ; et où l’on voyait de jour en jour approcher la Révolution, mais où l’on croyait encore que les révolutions se font à l’eau de roses…</p>
           <p>Elle ne pouvait être également que de son auteur, si, comme nous l’allons voir, Beaumarchais s’y est mis tout entier lui-même ; et si cette présence de l’auteur dans son œuvre n’en fait ni le moindre attrait ni la moindre originalité.</p>
           <p>En effet, ce n’était pas encore l’habitude en son temps ; et les Voltaire, les Racine, les Molière, n’ont mis d’eux-mêmes dans leur œuvre, — dans <hi rend="i">Zaïre</hi> ou dans <hi rend="i">Bajazet</hi>, dans <hi rend="i">l’École des femmes</hi> ou dans <hi rend="i">l’Avare</hi>, — qu’une seule partie, l’intellectuelle, et rien ou presque rien de leurs opinions particulières ou de leur personne privée. Qui ne connaîtrait par ailleurs la biographie de Racine ou de Molière, je le défierais bien, s’il ne disposait que de leurs œuvres, de reconstituer leur physionomie morale ! L’art du <num>xvii<hi rend="sup">e</hi></num> siècle était « impersonnel », et se glorifiait de l’être. Tragédie, comédie, fable, épître ou discours, on croyait que l’œuvre d’art devait avoir une valeur indépendante, et comme détachée de la-personne de son auteur. Le mérite en devait être uniquement fondé sur la ressemblance qu’elle offrait avec la réalité, avec la vie, avec la raison. On ne demandait point au Néron de Racine d’être le « sien », mais celui de l’histoire ; et on ne se souciait pas de savoir si Molière avait eu des motifs à lui d’attaquer « les femmes savantes », mais seulement s’il en avait bien saisi les ridicules. De leur côté, les auteurs avaient sur l’article une espèce de pudeur ; ils croyaient avec Pascal que <quote>« le moi est haïssable »</quote> ; ils n’eussent pas osé se mettre en scène eux-mêmes. Rousseau, dont nous parlions, ne leur avait pas conquis le droit de se confesser en public, et de nous entretenir de leurs affaires, de leurs amours, de leur santé<note place="bottom">Les <hi rend="i">Confessions</hi> de Rousseau n’ont commencé de paraître qu’en 1782, après sa mort ; et on s’était à peine aperçu de son vivant que son <hi rend="i">Héloïse</hi> ou son <hi rend="i">Émile</hi> n’étaient que les « mémoires » de ses amours et de ses préceptorats.</note>…</p>
-          <p>Mais Beaumarchais, lui, n’a plus de ces scrupules, ni ne comprend l’art de cette manière. Comme il s’est donc mis dans ses <hi rend="i">Mémoires</hi>, il se mettra dans sa comédie, et c’est de sa vie à lui, non de leur vie à eux, que vivront ses personnages : Chérubin, Almaviva, Figaro. Car, vous le savez sans doute, il en a lui-même rempli les rôles dans la vie réelle avant que de les traduire à la scène, et, pour les peindre, il n’a eu qu’à se souvenir… Oui, c’est lui, c’est bien lui, Chérubin, par exemple ; et, polisson précoce, il lui a suffi, pour dessiner le personnage du petit page, de se revoir tel qu’il était à treize ans, lui-même, Pierre-Augustin Caron, racontant à ses sœurs l’histoire de ses premières amours<note place="bottom"><p>Voici un fragment d’une lettre de lui qu’il nous a conservée lui-même et qu’il écrivait à ses sœurs :</p><quote><p>« Votre lettre m’a fait un plaisir infini, et m’a tiré d’une mélancolie qui m’obsédait depuis quelque temps, me rendait sombre, et me fait vous dire,</p><p/><l>        Que souvent il me prend envie</l><l>        D’aller au bout de l’univers,</l><l>        Éloigné des hommes pervers,</l><l>        Passer le reste de ma vie.</l><p/><p>Mais… sans perdre l’idée de ma retraite, il me semble qu’un compagnon de sexe différent ne laisserait pas de répandre des charmes dans ma vie privée :</p><p/><l>        À ce projet l’esprit se monte,</l><l>        Le cœur aussi trouve son compte ;</l><l>        Et, dans ses châteaux en Espagne,</l><l>        Voudrait avoir gente compagne</l><l>        Qui joignit à mille agréments</l><l>        De l’esprit et des traits charmants,</l><l>        Beau corsage à couleur d’ivoire,</l><l>        De ces yeux sûrs de leur victoire…, etc., etc. »</l></quote><p>Il avait alors treize ans.</p></note>. <quote>« Une fille, une femme, ah ! que ces noms sont doux ! »</quote></p>
+          <p>Mais Beaumarchais, lui, n’a plus de ces scrupules, ni ne comprend l’art de cette manière. Comme il s’est donc mis dans ses <hi rend="i">Mémoires</hi>, il se mettra dans sa comédie, et c’est de sa vie à lui, non de leur vie à eux, que vivront ses personnages : Chérubin, Almaviva, Figaro. Car, vous le savez sans doute, il en a lui-même rempli les rôles dans la vie réelle avant que de les traduire à la scène, et, pour les peindre, il n’a eu qu’à se souvenir… Oui, c’est lui, c’est bien lui, Chérubin, par exemple ; et, polisson précoce, il lui a suffi, pour dessiner le personnage du petit page, de se revoir tel qu’il était à treize ans, lui-même, Pierre-Augustin Caron, racontant à ses sœurs l’histoire de ses premières amours<note place="bottom"><p>Voici un fragment d’une lettre de lui qu’il nous a conservée lui-même et qu’il écrivait à ses sœurs :</p><quote><p>« Votre lettre m’a fait un plaisir infini, et m’a tiré d’une mélancolie qui m’obsédait depuis quelque temps, me rendait sombre, et me fait vous dire,</p><quote><l>Que souvent il me prend envie</l><l>D’aller au bout de l’univers,</l><l>Éloigné des hommes pervers,</l><l>Passer le reste de ma vie.</l></quote><p>Mais… sans perdre l’idée de ma retraite, il me semble qu’un compagnon de sexe différent ne laisserait pas de répandre des charmes dans ma vie privée :</p><quote><l>À ce projet l’esprit se monte,</l><l>Le cœur aussi trouve son compte ;</l><l>Et, dans ses châteaux en Espagne,</l><l>Voudrait avoir gente compagne</l><l>Qui joignit à mille agréments</l><l>De l’esprit et des traits charmants,</l><l>Beau corsage à couleur d’ivoire,</l><l>De ces yeux sûrs de leur victoire…, etc., etc. »</l></quote></quote><p>Il avait alors treize ans.</p></note>. <quote>« Une fille, une femme, ah ! que ces noms sont doux ! »</quote></p>
           <p>C’est lui encore, Almaviva, <quote>« avec sa haute stature, sa taille svelte et bien prise ; la régularité de ses traits ; son teint vif et animé, son regard assuré, son air dominant, et cette ardeur involontaire… »</quote>. Je suis obligé, Messieurs, d’interrompre ici la citation, mais ce que je puis dire, c’est que Beaumarchais se maria trois fois, et trois fois ce ne fut pas lui qui demanda sa femme, ce furent ses femmes qui le demandèrent. La première, — il était âgé de vingt-trois ans, et, dans la boutique paternelle, rue Saint-Denis, il faisait encore alors son métier d’horloger, — vint le prier d’arranger sa montre. Je ne me rappelle pas comment s’y prit la seconde. Mais la troisième, — c’était au lendemain de l’affaire Goëzman, — lui fît demander, par un ami commun, de lui prêter sa harpe<note place="bottom">M. de Loménie a raconté l’histoire du premier de ces trois mariages. On trouvera celle du second et du troisième dans le livre déjà cité de Gudin.</note>… <quote>« Un des plus grands torts que j’aie connus à Beaumarchais, nous dit à ce propos son ami Gudin, c’était de paraître tellement aimable aux femmes qu’il était toujours préféré, ce qui lui faisait autant d’ennemis qu’elles avaient d’aspirants à leur plaire. »</quote> Vous voyez, Messieurs, qu’en fait de moyens de séductions, ni le Lindor du <hi rend="i">Barbier</hi>, ni l’Almaviva du <hi rend="i">Mariage</hi> n’avaient rien à lui envier, et que, pour les peindre, il n’a eu, comme nous le disions, qu’à se regarder lui-même dans son miroir.</p>
           <p>Mais Figaro encore, Figaro surtout, n’est-ce pas lui, le Figaro du <hi rend="i">Mariage</hi> ? Car, comme Figaro, quel métier n’a-t-il pas fait ? Horloger, maître de harpe de Mesdames de France, filles de Louis XV, — Coche, Loque, Chiffe et Graille, ainsi que les appelait familièrement leur père, — financier, homme d’affaires, magistrat, homme de cour, auteur dramatique, agent secret, espion diplomatique, éditeur, manufacturier, fournisseur, que sais-je encore ? Et de quelles ressources n’a-t-il pas fait preuve : trois ou quatre fois emprisonné, toujours en procès, plusieurs fois ruiné, gravement compromis, traité de « drôle » en Autriche, « blâmé », — c’est-à-dire privé de tous ses droits civiques, — par le parlement Maupeou, faisant tête de tous les côtés, triomphant des critiques, d’une cour souveraine, du roi même, retournant et passionnant l’opinion ; et, parmi tout cela, donnant en somme quelques-uns des plus beaux exemples qu’il y ait de présence d’esprit, de sang-froid, d’aplomb, d’impertinence, de dignité même ? Mais quelle activité n’a-t-il pas quarante ans déployée, conduisant à la fois deux, trois, quatre ou cinq intrigues, d’affaires et d’amour, de politique et de finance, de littérature et d’industrie, <quote>« loué par ceux-ci, blâmé par ceux-là »</quote>, ne s’inquiétant ni des uns ni des autres, <quote>« orateur selon le danger, poète par délassement, musicien par occasion, amoureux par folles bouffées »</quote>, au demeurant, — selon le mot de Carlyle, je crois — l’une des plus belles espèces d’homme qu’on pût voir, je ne dis pas si la moralité ne lui avait fait étrangement défaut, mais s’il eût eu seulement quelques scrupules sur le choix des moyens<note place="bottom">Voyez <hi rend="i">Beaumarchais und Sonnenfels</hi>, de M. A. d’Arneth ; Vienne, 1868 ; <hi rend="i">Beaumarchais en Allemagne</hi>, de M. Paul Huot, Paris, 1869 ; les lettres de Marie-Thérèse à Mercy, dans la <hi rend="i">Correspondance</hi> publiée par MM. d’Arneth et Geoffroy, sous l’année 1774 ; et une note de M. Maurice Tourneux, dans son édition de l’<hi rend="i">Histoire de Beaumarchais</hi>, de Gudin.</note> ?… Vous entendez, au moins, Messieurs, que ce dernier trait n’est pas pour altérer, mais au contraire pour achever la ressemblance de Beaumarchais avec son Figaro.</p>
           <p>Aussi ne saurais-je à ce propos me ranger de l’opinion de ceux qui trouvent que le fameux monologue de Figaro, celui du cinquième acte, fait longueur dans la pièce, qu’il en ralentit l’intérêt, qu’il en suspend l’action, qu’il y trompe la curiosité… J’aimerais autant, sans comparer pour cela les deux œuvres, que l’on dît du monologue d’Hamlet qu’il fait longueur dans le drame de Shakespeare… À mes yeux, au contraire, dans cette nuit du cinquième acte, au moment décisif et critique, c’est là, qu’avant de se dénouer, viennent comme se rattacher tous les fils de l’action. S’il y a une « philosophie » dans la pièce, elle est là. Et c’est ce monologue enfin qui donne au chef-d’œuvre sa portée supérieure et unique. Ôtez le monologue : Figaro n’est plus qu’un valet comique, plus habile, mais aussi plus prétentieux que les autres, un Frontin ou un Crispin de plus haute volée, le roi des fourbes, un Mascarille ou un Gil Blas. Mettez le monologue : il se tire de pair, et devient, sinon le prophète ou le précurseur, mais l’avant-courrier, le trompette ou le clairon de la Révolution prochaine. C’est autre chose encore, Messieurs, c’est la protestation de la ruse, mais aussi de l’intelligence ou de l’esprit, contre la force et contre l’iniquité. Que dis-je ! c’est un symbole de la résistance ou de la révolte de la liberté humaine contre la fortune qui l’accable et la matière qui l’opprime… Et voilà pourquoi, Messieurs, soyez-en sûrs, le <hi rend="i">Mariage</hi> sans le monologue serait encore une des pièces les plus amusantes et, comme on dit, les plus mouvementées de notre répertoire, il ne serait pas <hi rend="i">le Mariage de Figaro</hi>, — quelque chose d’absolument original, et d’incomparable, et d’inimitable, et d’unique.</p>
@@ -1882,26 +1882,26 @@
           </quote>
           <p>Il me semble, Messieurs, que voilà du pittoresque et de la mise en scène, sinon de la couleur locale. Mais attendez… Car ce n’est rien encore. On lit en effet, dans une courte <hi rend="i">Observation</hi> que le scrupuleux Pixérécourt a mise en tête de sa pièce : <quote>« Je me suis attaché particulièrement à conserver les mots techniques et peindre ce qu’on peut appeler<hi rend="i">les mœurs d’un vaisseau</hi>. J’ai mis le même soin, dans le troisième acte, <hi rend="i">à l’imitation des usages, costumes et signes caractéristiques des sauvages</hi>. Tout y est strictement conforme à la vérité. <hi rend="i">Le public pensera sans doute comme moi qu’il eût été complètement ridicule de prêter notre langage à des hommes qui voient pour la première fois des Européens.</hi> J’ai donc donné aux habitants de l’île Guanahani l’idiome des Antilles, que j’ai puisé dans le <hi rend="i">Dictionnaire caraïbe</hi> composé par le R. P. Raymond Breton, et imprimé à Auxerre. »</quote> Et, conformément à cette belle déclaration, — dont on pourrait, en vérité, rapprocher quelques lignes d’Hugo sur son <hi rend="i">Ruy Blas</hi><note place="bottom"><quote>« Du reste, et cela va sans dire, il n’y a pas dans <hi rend="i">Ruy Blas</hi> un détail de vie privée et publique, d’intérieur, d’ameublement, de son, d’étiquette, de biographie, de chiffre ou de topographie qui ne soit scrupuleusement exact. »</quote> On consultera sur cette « exactitude » le curieux chapitre que M. Morel-Fatio, dans le premier volume de ses <hi rend="i">Études sur l’Espagne</hi>, Paris, 1888, Bouillon, a consacré à l’<hi rend="i">Histoire dans Ruy Blas</hi>.</note>, — voici, Mesdames, les scènes 3 et 4 du troisième acte de <hi rend="i">Christophe Colomb</hi> :</p>
           <quote>
-            <label>SCÈNE III</label>
+            <label type="speaker">SCÈNE III</label>
             <stage>ORANKO, KARAKA, sauvages, puis KÉRÉBEK.</stage>
-            <label>ORANKO</label>
+            <label type="speaker">ORANKO</label>
             <l>Cati louma !</l>
-            <label>KARAKA</label>
+            <label type="speaker">KARAKA</label>
             <l>Amouliaka Azakia Kérébek.</l>
-            <label>ORANKO</label>
+            <label type="speaker">ORANKO</label>
             <l>Inalaki… Chicalamai.</l>
             <l/>
-            <label>SCÈNE IV</label>
+            <label type="speaker">SCÈNE IV</label>
             <stage>AZAKIA, ORANKO, KÉRÉBEK, KARAKA, sauvages.</stage>
-            <label>ORANKO</label>
+            <label type="speaker">ORANKO</label>
             <l>Itara a moutou Koubé ouëkelli.</l>
-            <label>AZAKIA <hi rend="i">ne répond pas</hi>.</label>
-            <label>ORANKO</label>
+            <label type="speaker">AZAKIA <hi rend="i">ne répond pas</hi>.</label>
+            <label type="speaker">ORANKO</label>
             <l>Areskoui, Azakia Karaïtiti-arou.</l>
             <stage>(On entend un coup de canon.)</stage>
-            <label>TOUS</label>
+            <label type="speaker">TOUS</label>
             <l>Anakilika.</l>
-            <label>ORANKO</label>
+            <label type="speaker">ORANKO</label>
             <l>Oüallou hougourou.</l>
           </quote>
           <p>Une pantomime soigneusement réglée aidait le spectateur à comprendre qu’il s’agissait là des apprêts d’un mariage caraïbe, tout à coup dérangés par le canon de Colomb. En vérité, je vous le demande, qu’est-ce, auprès de ces deux scènes, que le peu d’espagnol dont Victor Hugo a égayé quelques-uns de ses drames ! Ce qui m’étonne seulement, c’est qu’allant jusqu’au bout, Pixérécourt n’ait pas fait parler Colomb en italien, ou ses officiers en espagnol… Tant il est vrai qu’on ne trouvera donc jamais un homme qui soit conséquent avec lui-même, et qui ait le courage de « tomber », plutôt que de transiger avec les principes !…</p>
@@ -1971,7 +1971,7 @@
           <p>Et il se moque, mais il dit vrai pourtant ; et, en un mot comme en cent, le romantisme, c’est le lyrisme, vous l’apprenez ici de la bouche du plus raisonnable des romantiques, c’est l’imagination, c’est la personnalité ; c’en est, de bonne heure aussi, devenu l’excès et l’abus.</p>
           <p>N’est-ce pas, Messieurs, ce qui vous explique, dans l’histoire du théâtre contemporain, en 1843, au lendemain de la chute retentissante des <hi rend="i">Burgraves</hi>, le prodigieux succès de la <hi rend="i">Lucrèce</hi> de François Ponsard ? Oh ! ce n’était pas un chef-d’œuvre que cette <hi rend="i">Lucrèce</hi>, non plus qu’<hi rend="i">Agnès de Méranie</hi>, qui la suivit de près ; et le romantisme ou le lyrisme avaient passé par là, — un romantisme timide, presque honteux de lui-même, et un lyrisme artificiel, mais le lyrisme pourtant :</p>
           <quote>
-            <label>LA NOURRICE</label>
+            <label type="speaker">LA NOURRICE</label>
             <l>Ne laissez pas ainsi pendre en paix vos fuseaux,</l>
             <l>Jeunes filles ; chargez de laine vos roseaux.</l>
             <l>Vous qui tressez les fils en croisant les aiguilles,</l>
@@ -1979,7 +1979,7 @@
             <l>Que la maille, ajoutée aux mailles, laisse voir</l>
             <l>Le tissu dans vos mains s’allongeant chaque soir.</l>
             <l>— Hâtez-vous. Finissons cet habit militaire.</l>
-            <label>LUCRÈCE</label>
+            <label type="speaker">LUCRÈCE</label>
             <l>Le guerrier dort souvent sur une froide terre ;</l>
             <l>Ses membres sont glacés, il lui faut la chaleur</l>
             <l>Que d’un bon vêtement lui conserve l’ampleur.</l>
@@ -1998,18 +1998,18 @@
           <p rend="noindent">et vous savez les plaisanteries qu’on en a faites, que l’on en fait encore tous les jours.</p>
           <p>Mais croyez-vous qu’il fût bien difficile de trouver de ces beautés naïves, je ne dis pas dans les vers, je dis dans la prose d’Alexandre Dumas ?</p>
           <quote>
-            <label>ACHARD, <hi rend="i">s’affaiblissant.</hi></label>
+            <label type="speaker">ACHARD, <hi rend="i">s’affaiblissant.</hi></label>
             <p>En son nom, madame, en son nom… Je m’engage… je jure…</p>
-            <label>LA MARQUISE, <hi rend="i">se courbant sur lui, et suivant les progrès de la mort.</hi></label>
+            <label type="speaker">LA MARQUISE, <hi rend="i">se courbant sur lui, et suivant les progrès de la mort.</hi></label>
             <p>Tu t’engages, tu jures… et sur ta parole, tu veux que je joue les années qui me restent à vivre contre les minutes qui te restent à mourir.</p>
           </quote>
           <p>Ou encore :</p>
           <quote>
-            <label>PAUL</label>
+            <label type="speaker">PAUL</label>
             <p>… Le capitaine Paul est le même que l’Anglais Jones ; et l’Anglais Jones est le gentilhomme que vous avez devant les yeux.</p>
-            <label>EMMANUEL.</label>
+            <label type="speaker">EMMANUEL.</label>
             <p>Et aujourd’hui, monsieur, que vous plaît-il d’être ?</p>
-            <label>PAUL</label>
+            <label type="speaker">PAUL</label>
             <p>Moi-même, car aujourd’hui je n’ai aucun motif pour me cacher. Cependant, si vous avez quelque préférence pour une nation, je serai ce que vous voudrez… Français, Américain, Anglais ou Espagnol. Dans laquelle de ces langues vous plaît-il que je continue la conversation ?</p>
           </quote>
           <p>Notez, Messieurs, que je n’attribue aucune importance à ces ellipses un peu vives… Ce que je reprocherais plutôt à ce bout de dialogue, — si je vous parlais de <hi rend="i">Paul Jones</hi>, — ce serait d’être absolument inutile à l’action. Je reprocherais encore au drame, si vous étiez curieux de le lire, ce que Dumas y a comme entassé d’invraisemblances laborieuses pour n’en tirer qu’une seule situation. Mais enfin, il faut être juste, et ne pas laisser croire que les négligences de Scribe n’appartiendraient qu’à lui.</p>

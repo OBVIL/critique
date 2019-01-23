@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="lemaitre_impressions-09" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="lemaitre_impressions-09" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <date when="1896">1896</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -1362,7 +1362,7 @@
           froidement, qu’il meure « de sa belle mort », qui sera la plus longue et la plus
           effroyable des morts. Et, les choses ayant ainsi suivi leur cours normal, dix mois après,
           sans qu’aucune, convenance s’y oppose et, à ce qu’il croit, sans qu’aucun scrupule
-          l’inquiète, épouser publiquement Eliane, Eliane dont il est aimé, la posséder… O joie !
+          l’inquiète, épouser publiquement Eliane, Eliane dont il est aimé, la posséder… Ô joie !
           ivresse !… Evidemment, c’est ce second parti qui est le bon, et de toutes manières.</p>
         <p>Mais la joie même qu’il ressent à l’envisager avertit Edouard qu’il fait, moralement,
           fausse route. Une méfiance lui vient sur un devoir si avantageux… Naguère, à propos d’une
@@ -3227,7 +3227,7 @@
         <p>Au troisième acte, après quelques scènes sans grand intérêt et une autre scène, peut-être
           superflue, entre la duchesse, Zaccharia et l’inévitable quatuor des inutiles seigneurs,
           Gismonda, troublée (car le spectre agréable et exigeant d’Almério hante ses nuits), veut
-          voir son prisonnier en tête-à-tête. O l’admirable morceau ! et comment vous le résumer ?
+          voir son prisonnier en tête-à-tête. Ô l’admirable morceau ! et comment vous le résumer ?
           La petite duchesse dit à Almério (plus longuement) : « Tu es beau, tu es brave, et je t’ai
           les plus grandes obligations. J’ajouterai à ton comté de Soula d’autres terres et d’autres
           châteaux, et je te marierai à la plus jolie de mes filles d’honneur, qui est riche et qui
@@ -3477,19 +3477,19 @@
         <p>Ici, la grande scène qui a soulevé la salle. — Michel est venu relever le guetteur, et il
           attend Othorgul. C’est Constantin qui se présente.</p>
         <quote>
-          <l>Que viens-tu faire ici ?</l>
+          <l part="I">Que viens-tu faire ici ?</l>
         </quote>
         <p>demande le père.</p>
         <quote>
-          <l>                                         Qu’y faites-vous vous-même ?</l>
+          <l part="F">Qu’y faites-vous vous-même ?</l>
         </quote>
         <p>répond le fils. Michel reprend :</p>
         <quote>
-          <l>Que viens-tu faire ici ?</l>
+          <l part="I">Que viens-tu faire ici ?</l>
         </quote>
         <p>Et Constantin :</p>
         <quote>
-          <l>                                         Mon devoir ; je sais tout.</l>
+          <l part="F">Mon devoir ; je sais tout.</l>
         </quote>
         <p>Il vient faire « son devoir », c’est-à-dire allumer le bûcher et par là sauver, du même
           coup, son pays et l’honneur de son père… Mais ici je voudrais vous indiquer du moins le
@@ -3499,21 +3499,17 @@
           — Je ne te dois pas de comptes. Va-t’en. Obéis. — Ainsi, c’est donc vrai ? Eh bien, je
           viens vous sauver de la honte.</p>
         <quote>
-          <l>Place ! Je veux saisir cette torche !</l>
-          <l>                                                              — Jamais !</l>
+          <l part="I">Place ! Je veux saisir cette torche !</l>
+          <l part="F">— Jamais !</l>
         </quote>
-        <p>Alors le fils : « — Je le vois bien, je devais vous dénoncer. Je n’en ai pas eu le
-          courage. Je n’ai pu supporter l’idée de votre déshonneur. Mon père, ne me faites pas
-          repentir de ma faiblesse. » — Mais le père : « — Tant pis pour toi ! Moi, ce que j’ai
-          résolu, je le fais.</p>
+        <p>Alors le fils : « — Je le vois bien, je devais vous dénoncer. Je n’en ai pas eu le courage. Je n’ai pu supporter l’idée de votre déshonneur. Mon père, ne me faites pas repentir de ma faiblesse. » — Mais le père : « — Tant pis pour toi ! Moi, ce que j’ai résolu, je le fais.</p>
         <quote>
           <l>Et je ne permets pas qu’on touche à ce bûcher !</l>
         </quote>
         <p>La chrétienté a été ingrate. Dieu s’est moqué de moi… Je veux être roi, et je le serai. »
           Sur quoi le fils :</p>
         <quote>
-          <l>                                                                      …
-            — Peut-être !</l>
+          <l>                                            …— Peut-être !</l>
           <l>La couronne est parfois trop large au front du traître,</l>
           <l>Elle peut tout à coup, nouveau roi du Balkan,</l>
           <l>Vous tomber sur l’épaule et devenir carcan !</l>

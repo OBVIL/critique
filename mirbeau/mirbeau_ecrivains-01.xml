@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +46,7 @@
         <date when="1925">1925</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -522,189 +522,101 @@
         <p><hi rend="i">La Princesse Maleine</hi> est un drame écrit, ainsi que le déclare l’auteur, pour un théâtre de fantoches. Raconter ce drame dans ses détails ? Je ne le puis. Ce serait en gâter le charme immense, en atténuer l’immense terreur où il jette les âmes. Il faut le lire et, quand on l’a lu, le relire encore. Je crois que, pour ma part, je le relirai toujours. Jamais, dans aucun ouvrage tragique, le tragique n’atteignit cette hauteur vertigineuse de l’épouvante et de la pitié. Depuis la première scène jusqu’à la dernière, c’est un crescendo d’horreur qui ne se ralentit pas une seconde et se renouvelle sans cesse. Et, le livre fermé, cela vous hante, vous laisse effaré et pantelant, et charmé aussi par la grâce infinie, par la suavité triste et jolie qui circule à travers cet effroi. Pour arriver à cette impression d’effroi total, M. Maurice Maeterlinck n’emploie aucun des moyens en usage dans le théâtre. Ses personnages ne débitent aucune tirade. Ils ne sont compliqués en rien, ni dans le crime, ni dans le vice, ni dans l’amour. Ce sont, tous, de petites âmes embryonnaires qui vagissent de petites plaintes et poussent de petits cris. Et il se trouve que les petites plaintes et les petits cris de ces petites âmes sont ce que je connais de plus terrible, de plus profond et de plus délicieux, au-delà de la vie et au-delà du rêve. C’est en cela que je crois <hi rend="i">La Princesse Maleine</hi> supérieure à n’importe lequel des immortels ouvrages de Shakespeare. Plus tragique que <hi rend="i">Macbeth</hi>, plus extraordinaire de pensée que <hi rend="i">Hamlet</hi>, elle est d’une simplicité, d’une familiarité — si je puis dire — par où M. Maurice Maeterlinck se montre un artiste consommé, sous l’admirable instinctif qu’il est : et la poésie qui encadre chacune de ces scènes d’horreur en est tout à fait originale et nouvelle ; plus que cela : véritablement visionnaire.</p>
         <p>Le sujet de <hi rend="i">La Princesse Maleine</hi> est pareil au sujet des contes que content, le soir, aux petits enfants, les nourrices. C’est l’histoire d’une petite princesse, fille de roi, fiancée à un prince, fils de roi, et qui, après une suite d’incroyables malheurs, meurt étranglée par une méchante reine. Devant l’absolue beauté de cette œuvre, je ne puis rien dire de plus. Pour prouver que je n’ai rien exagéré dans mon admiration, il faudrait citer, citer encore, n’importe quelle scène, au hasard, car toutes offrent des surprises et d’incomparables grandeurs. À mon regret, cela m’est impossible. Je me contenterai de reproduire la dernière scène qui donnera une idée de ce qu’est ce drame en son entier.</p>
         <p>La princesse Maleine est morte, étranglée par la reine Anne, et le vieux prince, Hjalmar, a été forcé par sa femme d’assister à l’étranglement et d’y aider. Son fils, fiancé à Maleine, l’a vengée en tuant la reine Anne, et lui-même s’est poignardé. Il ne reste plus rien au vieux Hjalmar, rien que ces trois cadavres et l’horreur de cette nuit de meurtre.</p>
-        <label>LE ROI</label>
         <quote>
-          <p>Oh oh oh ! Je n’avais plus pleuré depuis le déluge… Mais maintenant je suis dans l’enfer jusqu’aux yeux. Mais regardez leurs yeux… Ils vont sauter sur moi comme des grenouilles.</p>
-        </quote>
-        <label>ANGUS</label>
-        <quote>
-          <p>Il est fou.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Non, non… mais j’ai perdu courage… Et c’est à faire pleurer les pavés de l’enfer.</p>
-        </quote>
-        <label>ANGUS</label>
-        <quote>
-          <p>Emmenez-le… Il ne peut plus voir cela.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Non, non, laissez-moi… je n’ose plus rester seul… Où donc est la belle reine Anne ?… Anne ? Anne ? Elle est toute tordue… Je ne l’aime plus du tout… Mon Dieu, qu’on a l’air pauvre quand on est mort… Je ne voudrais plus l’embrasser maintenant… Mettez quelque chose sur elle…</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Et sur Maleine aussi… Maleine, Maleine ? Oh oh oh !</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Je n’embrasserai plus personne, dans ma vie, depuis que j’ai vu tout ceci… Où donc est notre pauvre petite Maleine ? (Il prend la main de Maleine.) Oh ! elle est froide comme un ver de terre… Elle descendait comme un ange dans mes bras… Mais c’est le vent qui l’a tuée…</p>
-        </quote>
-        <label>ANGUS</label>
-        <quote>
-          <p>Emmenons-le, pour Dieu… Emmenons-le…</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Oui, oui…</p>
-        </quote>
-        <label>UN SEIGNEUR</label>
-        <quote>
-          <p>Attendons un instant.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Avez-vous des plumes noires ?… Il faudrait des plumes noires pour savoir si la reine vit encore… C’était une belle femme, vous savez… Entendez-vous mes dents ?…</p>
-          <p rend="right i">(Le petit jour entre dans la chambre.) </p>
-        </quote>
-        <label>TOUS</label>
-        <quote>
-          <p>Quoi ?</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Entendez-vous mes dents ?</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Ce sont les cloches, seigneur…</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Mais c’est mon cœur alors… Oui, je les aimai bien, tous les trois, voyez-vous… Je voudrais boire un peu.</p>
-        </quote>
-        <label>LA NOURRICE, <hi rend="i">apportant un verre d’eau</hi></label>
-        <quote>
-          <p>Voici de l’eau.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Merci.</p>
-          <p rend="right i">(Il boit avidement.) </p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Ne buvez pas ainsi… Vous êtes en sueur.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>J’ai si soif.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Venez, mon pauvre seigneur… Je vais essuyer votre front.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Oui… Aïe, vous m’avez fait mal…</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Venez, venez… allons-nous-en.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Ils vont avoir froid sur les dalles… Elle a été maman et puis, oh oh oh… C’est dommage, n’est-ce pas ? Une pauvre petite fille… Mais c’est le vent… Oh ! n’ouvrez jamais les fenêtres… Il faut que cela soit le vent… Il y avait des vautours aveugles dans le vent, cette nuit… Mais ne laissez pas traîner ses petites mains sur les dalles… Vous allez marcher sur ses petites mains… Oh ! oh !… prenez garde.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Venez, venez. Il faut se mettre au lit… Il est temps… Venez.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Oui, oui, il fait trop chaud ici… Éteignez les lumières, nous allons au jardin ; il fera frais sur la pelouse, après la pluie. J’ai besoin d’un peu de repos… Oh ! voilà le soleil.</p>
-          <p rend="right i">(Le soleil entre dans la chambre.) </p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Venez, venez, nous allons au jardin.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Mais il faut enfermer le petit Allan… Je ne veux plus qu’il vienne m’épouvanter.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Oui, oui, nous l’enfermerons. Venez, venez…</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Avez-vous la clef ?</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Oui, venez.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Aidez-moi… J’ai un peu de peine à marcher… Je suis un pauvre petit vieux… Les jambes ne vont plus… Mais la tête est solide… <hi rend="i">(S’appuyant sur la nourrice.)</hi> Je ne vous fais pas mal ?</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Non, non, appuyez hardiment.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Il ne faut pas m’en vouloir, n’est-ce pas ? Moi qui suis le plus vieux, j’ai du mal à mourir… Voilà, voilà… À présent, c’est fini… Je suis heureux que ce soit fini, car j’avais tout le monde sur le cœur.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Venez, mon pauvre seigneur…</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Mon Dieu ! Mon Dieu ! Elle attend à présent sur les quais de l’enfer.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Venez, venez.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Y a-t-il quelqu’un ici qui ait peur de la malédiction des morts ?</p>
-        </quote>
-        <label>ANGUS</label>
-        <quote>
-          <p>Oui, sire, moi…</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Eh bien, fermez leurs yeux, alors, et allons-nous-en.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Oui, oui, venez.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Je viens, je viens…Oh ! comme je vais être seul maintenant. Et me voilà dans le malheur jusqu’aux oreilles. À soixante-dix-sept ans… Où donc êtes-vous ?</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Ici, ici.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Vous ne m’en voudrez pas ?… Nous allons déjeuner ; y aura-t-il de la salade ?… Je voudrais un peu de salade.</p>
-        </quote>
-        <label>LA NOURRICE</label>
-        <quote>
-          <p>Oui… oui… il y en aura.</p>
-        </quote>
-        <label>LE ROI</label>
-        <quote>
-          <p>Et je ne sais pas pourquoi, je suis un peu triste aujourd’hui… Mon Dieu, mon Dieu, que les morts ont donc l’air malheureux.</p>
-          <p rend="right i">(Il sort avec la nourrice.) </p>
+          <label type="speaker">LE ROI</label>
+        <p>Oh oh oh ! Je n’avais plus pleuré depuis le déluge… Mais maintenant je suis dans l’enfer jusqu’aux yeux. Mais regardez leurs yeux… Ils vont sauter sur moi comme des grenouilles.</p>
+        <label type="speaker">ANGUS</label>
+        <p>Il est fou.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Non, non… mais j’ai perdu courage… Et c’est à faire pleurer les pavés de l’enfer.</p>
+        <label type="speaker">ANGUS</label>
+        <p>Emmenez-le… Il ne peut plus voir cela.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Non, non, laissez-moi… je n’ose plus rester seul… Où donc est la belle reine Anne ?… Anne ? Anne ? Elle est toute tordue… Je ne l’aime plus du tout… Mon Dieu, qu’on a l’air pauvre quand on est mort… Je ne voudrais plus l’embrasser maintenant… Mettez quelque chose sur elle…</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Et sur Maleine aussi… Maleine, Maleine ? Oh oh oh !</p>
+        <label type="speaker">LE ROI</label>
+        <p>Je n’embrasserai plus personne, dans ma vie, depuis que j’ai vu tout ceci… Où donc est notre pauvre petite Maleine ? <stage>(Il prend la main de Maleine.)</stage> Oh ! elle est froide comme un ver de terre… Elle descendait comme un ange dans mes bras… Mais c’est le vent qui l’a tuée…</p>
+        <label type="speaker">ANGUS</label>
+        <p>Emmenons-le, pour Dieu… Emmenons-le…</p>
+        <label type="speaker">LA NOURRICE</label>
+       <p>Oui, oui…</p>
+        <label type="speaker">UN SEIGNEUR</label>
+        <p>Attendons un instant.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Avez-vous des plumes noires ?… Il faudrait des plumes noires pour savoir si la reine vit encore… C’était une belle femme, vous savez… Entendez-vous mes dents ?…</p>
+          <stage rend="right i">(Le petit jour entre dans la chambre.)</stage>
+        <label type="speaker">TOUS</label>
+        <p>Quoi ?</p>
+        <label type="speaker">LE ROI</label>
+        <p>Entendez-vous mes dents ?</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Ce sont les cloches, seigneur…</p>
+        <label type="speaker">LE ROI</label>
+        <p>Mais c’est mon cœur alors… Oui, je les aimai bien, tous les trois, voyez-vous… Je voudrais boire un peu.</p>
+        <label type="speaker">LA NOURRICE, <hi rend="i">apportant un verre d’eau</hi></label>
+        <p>Voici de l’eau.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Merci.</p>
+          <stage rend="right i">(Il boit avidement.) </stage>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Ne buvez pas ainsi… Vous êtes en sueur.</p>
+        <label type="speaker">LE ROI</label>
+        <p>J’ai si soif.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Venez, mon pauvre seigneur… Je vais essuyer votre front.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Oui… Aïe, vous m’avez fait mal…</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Venez, venez… allons-nous-en.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Ils vont avoir froid sur les dalles… Elle a été maman et puis, oh oh oh… C’est dommage, n’est-ce pas ? Une pauvre petite fille… Mais c’est le vent… Oh ! n’ouvrez jamais les fenêtres… Il faut que cela soit le vent… Il y avait des vautours aveugles dans le vent, cette nuit… Mais ne laissez pas traîner ses petites mains sur les dalles… Vous allez marcher sur ses petites mains… Oh ! oh !… prenez garde.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Venez, venez. Il faut se mettre au lit… Il est temps… Venez.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Oui, oui, il fait trop chaud ici… Éteignez les lumières, nous allons au jardin ; il fera frais sur la pelouse, après la pluie. J’ai besoin d’un peu de repos… Oh ! voilà le soleil.</p>
+          <stage rend="right i">(Le soleil entre dans la chambre.) </stage>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Venez, venez, nous allons au jardin.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Mais il faut enfermer le petit Allan… Je ne veux plus qu’il vienne m’épouvanter.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Oui, oui, nous l’enfermerons. Venez, venez…</p>
+        <label type="speaker">LE ROI</label>
+        <p>Avez-vous la clef ?</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Oui, venez.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Aidez-moi… J’ai un peu de peine à marcher… Je suis un pauvre petit vieux… Les jambes ne vont plus… Mais la tête est solide… <stage>(S’appuyant sur la nourrice.)</stage> Je ne vous fais pas mal ?</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Non, non, appuyez hardiment.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Il ne faut pas m’en vouloir, n’est-ce pas ? Moi qui suis le plus vieux, j’ai du mal à mourir… Voilà, voilà… À présent, c’est fini… Je suis heureux que ce soit fini, car j’avais tout le monde sur le cœur.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Venez, mon pauvre seigneur…</p>
+        <label type="speaker">LE ROI</label>
+        <p>Mon Dieu ! Mon Dieu ! Elle attend à présent sur les quais de l’enfer.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Venez, venez.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Y a-t-il quelqu’un ici qui ait peur de la malédiction des morts ?</p>
+        <label type="speaker">ANGUS</label>
+        <p>Oui, sire, moi…</p>
+        <label type="speaker">LE ROI</label>
+        <p>Eh bien, fermez leurs yeux, alors, et allons-nous-en.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Oui, oui, venez.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Je viens, je viens… Oh ! comme je vais être seul maintenant. Et me voilà dans le malheur jusqu’aux oreilles. À soixante-dix-sept ans… Où donc êtes-vous ?</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Ici, ici.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Vous ne m’en voudrez pas ?… Nous allons déjeuner ; y aura-t-il de la salade ?… Je voudrais un peu de salade.</p>
+        <label type="speaker">LA NOURRICE</label>
+        <p>Oui… oui… il y en aura.</p>
+        <label type="speaker">LE ROI</label>
+        <p>Et je ne sais pas pourquoi, je suis un peu triste aujourd’hui… Mon Dieu, mon Dieu, que les morts ont donc l’air malheureux.</p>
+          <stage rend="right i">(Il sort avec la nourrice.)</stage>
         </quote>
         <ab type="ornament">***</ab>
         <p>Et depuis plus de six mois que ce livre a paru, obscur, inconnu, délaissé, aucun critique ne s’est honoré en en parlant. Ils ne savent pas. Et comme dit un personnage de <hi rend="i">La Princesse Maleine</hi> : <quote>« Les pauvres ne savent jamais rien. »</quote></p>

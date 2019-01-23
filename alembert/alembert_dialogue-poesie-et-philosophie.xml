@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Dialogue entre la Poésie et la Philosophie [posth.]</title>
-        <author key="Alembert, D’ (1717-1783)">D’Alembert</author>
+        <author key="Alembert, D' (1717-1783)" ref="https://data.bnf.fr/fr/11888370/d__alembert/">D’Alembert</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -46,7 +46,7 @@
         <date when="1799">1799</date>
       </creation>
       <langUsage>
-        <language ident="fr">fre</language>
+        <language ident="fre">fre</language>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -55,93 +55,93 @@
       <div>
         <head>Dialogue entre la Poésie et la Philosophie,
           <lb/><hi rend="i">pour servir de préliminaire et de base à un traité de paix et d’amitié perpétuelle entre l’une et l’autre</hi></head>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>J’ai besoin d’avoir un petit éclaircissement avec vous : il faut commencer par vous dire mon nom ; vous ne me connaissez guères, quoique vous vous mêliez de me juger. <hi rend="i">Je suis la Poésie.</hi></p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Ah Dieu ! vous allez me dire encore des vers.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Non, non, ne craignez rien ; cependant si je prenais la liberté de vous aborder avec des vers semblables à ceux que vous venez d’entendre, je ne vous conseillerais pas, pour votre honneur, de vous montrer si difficile. Mais encore une fois ne craignez rien, notre conférence sera en prose ; je veux bien m’abaisser jusque-là, sans tirer à conséquence pour la prééminence de la poésie.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Vous ressemblez à ces princes qui, en faisant avec la France leurs traités de paix en langue française, ont bien soin de stipuler <hi rend="i">que, par l’usage de cette langue, ils ne prétendent reconnaître aucune supériorité dans la nation qui la parle</hi>. Ils ne voient pas l’avantage qu’ils accordent à la France par cet excès même de précaution. Mais n’importe, je consens que la poésie s’attribue toute la supériorité qu’elle voudra, pourvu qu’elle nous permette la prose. Le genre humain n’est déjà que trop inondé de méchants vers ; que deviendrait-il, s’il était réduit aux vers pour tout aliment ? Mais au fait sachons ce qui vous amène.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Nous sommes bien mal ensemble.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>C’est ce que je ne sais pas ; je puis être mal avec vous, mais vous n’êtes point du tout mal avec moi. On m’a bien parlé de quelques épigrammes de votre façon, dont j’ai ri toute la première de plaisir quand je les ai trouvées bonnes, de pitié quand elles m’ont paru mauvaises. Mais bien loin d’en être offensée, je puis vous protester que je vous veux beaucoup de bien.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Vos protestations pourraient bien ressembler au vers de Britannicus :</p>
         <quote>
           <l>J’embrasse mon rival, mais c’est pour l’étouffer.</l>
         </quote>
         <p>Si vous me voulez tant de bien, pourquoi donc me décriez-vous sans cesse ? Pourquoi répétez-vous continuellement qu’on ne veut plus de vers ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Moi <hi rend="i">décrier la poésie</hi> ! moi <hi rend="i">dire qu’on ne veut plus de vers</hi> ! Je ne suis ennemie jusqu’à ce point, ni du plaisir des autres, ni du mien propre. Je me souviens même d’avoir lu, il n’y a pas bien longtemps, une pièce de vers qui aurait réconcilié Platon même avec la poésie. Cette pièce avait pour titre, <hi rend="i">De l’Éducation d’un prince</hi><note resp="author">Ce dialogue fut fait dans le temps où le conte de Voltaire, <hi rend="i">sur l’éducation d’un prince</hi>, venait de paraître.</note> : tout m’a charmé dans cet ouvrage ; pensées, sentiments, images, harmonie, facilité, noblesse, mais surtout de grandes leçons, et des vérités utiles, qui n’en ont que plus de mérite pour être mises en beaux vers, parce qu’à leur mérite propre elles en joignent deux autres, celui de la difficulté vaincue sans que l’empreinte du travail y reste, et celui d’être exprimées dans un langage sonore qui les rend plus faciles à retenir. Voilà ce que j’ai trouvé dans cette pièce et dans mille autres du même auteur ; et quand je trouverai des vers pareils à ceux-là, je me garderai bien de dire que je n’en veux plus.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Avouez cependant que vous ne lisez guère de vers ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Je l’avoue, et ce n’est pas sans raison. J’en ai beaucoup lu autrefois, mais j’y ai été tant attrapée, que je ne m’y expose presque plus. Je me souviens de la réponse faite à ce grand seigneur qui ayant envie, comme M. Jourdain, <quote><hi rend="i">de se connaître aux belles choses</hi></quote>, demandait à un homme de lettres le moyen de se connaître en vers : <quote><hi rend="i">Monsieur</hi>, lui dit celui qu’il consultait, <hi rend="i">vous n’avez qu’à dire toujours</hi> qu’ils sont mauvais ; <hi rend="i">il y a</hi> cent<hi rend="i"> contre</hi> un<hi rend="i"> à parier que vous ne vous tromperez pas.</hi></quote> Je pars de là ; et quand une pièce de vers me tombe sous la main, je ne la lis guère, à moins que je ne sois prévenue qu’elle le mérite ou par elle-même, ou par son auteur.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Il faudrait pourtant avoir un peu d’indulgence. Si vous connaissiez les difficultés de l’art, vous vous relâcheriez de cette sévérité.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Voilà à quoi je ne puis me résoudre. Les difficultés de l’art sont faites pour ajouter au mérite des bons vers, mais non pour faire excuser les médiocres, parce qu’il n’y a point d’ordre du roi qui oblige personne à versifier.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Tout cela est à merveille ; mais en feignant de n’attaquer que les mauvais artistes, c’est à l’art même que vous en voulez.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Faites donc le même reproche à Horace, que vous n’accuserez pas de n’avoir point aimé les vers, et qui a prescrit aux poètes des lois aussi sévères que moi.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Oui, mais ce même Horace a prouvé le goût qu’il avait pour les vers, en prenant la peine d’en faire d’excellents ; et vous, tout ce qui ne vous instruit pas, tout ce qui ne vous apprend rien, en un mot, tout ce qui n’est pas lecture utile, ne peut obtenir votre suffrage.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Ce reproche est un peu chargé. Il est certain que les ouvrages qui joignent l’instruction à l’agrément, ont la première place auprès de moi ; et ce même Horace, que je ne me lasserai point de vous citer, pensait aussi de même : souvenez-vous de l’<quote><hi rend="i">omne tulit punctum qui miscuit utile dulci</hi></quote>. Mais je ne proscris pas les poésies de pur agrément, pourvu qu’elles contiennent des beautés <hi rend="i">propres à l’auteur</hi>, et par conséquent <hi rend="i">nouvelles</hi> ; je dirai, si vous voulez, en ce sens, <hi rend="i">que la poésie même me déplaît quand elle ne m’apprend rien</hi>.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Vous faites plus que d’exiger des beautés nouvelles, vous n’en voulez que d’une certaine espèce : nierez-vous, par exemple, que vous êtes l’<hi rend="i">ennemie des images</hi>, qui sont pourtant l’âme de la poésie ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Moi l’<hi rend="i">ennemie des images</hi> ! oui, de celles que les barbouilleurs débitent, et que le peuple recherche, mais non pas des dessins du Poussin et de Raphaël. Donnez-moi des images poétiques semblables à celles de la ceinture de Vénus, à celles des prières dans Homère, de la Renommée dans Virgile, de Didon mourante et ouvrant les yeux pour les refermer, et mille autres aussi belles que je pourrais citer encore, j’admirerai le poète avec enthousiasme. Mais pour ces <hi rend="i">images surannées</hi> qui ne font que répéter ce qu’on a entendu cent fois, voilà, je vous l’avoue, ce qui est fastidieux à mourir. Est-ce la peine de parler en rimes et en cadences pour ne dire que des choses rebattues et triviales ? je ne crains pas que le petit nombre de bons poètes soit offensé d’un dégoût si légitime ; mais je m’attends bien qu’il soulèvera contre moi tout le bas Parnasse, des auteurs de pièces sifflées, des rimailleurs qui ont manqué le prix de l’Académie Française, et qui le manqueraient pendant cent ans, quoique les juges n’y soient pas toujours difficiles ; en un mot, qui défendent leur art aussi mal qu’ils l’exercent ; voilà mes redoutables adversaires. Je ne prendrai pas la liberté d’entrer en lice avec eux ; je les laisserai paisiblement profaner la rime dans leurs vers, et outrager la raison dans leur prose. J’avoue pourtant qu’ils ont quelque raison d’avoir de l’humeur : ils entendent dire de tous côtés, <hi rend="i">les vers m’ennuient</hi> ; et dès qu’il en paraît de bons, ils voient que tout le monde les lit avidement. Comme ils ont <hi rend="i">beaucoup de justesse d’esprit</hi>, ils en concluent que ce ne sont pas les vers, en tant que vers, qui font bâiller tant de lecteurs, mais les vers vides de choses et d’idées, qui ne disent rien, qui n’expriment rien, où il n’y a rien ni à retenir, ni à remarquer, où l’on ne trouve, si je puis parler de la sorte, <hi rend="i">que les haillons usés de la poésie, et Zéphyre et Flore, et les ailes de l’Amour, et la montagne au double sommet, et l’Hippocrène où il faudrait noyer</hi> tous les mauvais vers, et peut-être aussi les mauvais poètes. C’est la répétition éternelle de ces trivialités dont on a été ennuyé tant de fois, qui cause le dégoût de notre siècle pour les vers en général, dégoût qu’il est impossible de se dissimuler. Un de ces rimeurs fastidieux, qu’on appelait <hi rend="i">la Bouquetière</hi>, à cause de la ressource que Flore lui fournissait souvent pour ses poésies, avait fait dire de lui, que <quote><hi rend="i">si on avait coupé les ailes à Zéphyre et à l’Amour, on lui aurait coupé les vivres</hi></quote>.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Est-ce que vous proscrivez absolument <hi rend="i">ces images</hi>, si agréables en elles-mêmes ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Elles l’étaient beaucoup dans leur nouveauté ; aujourd’hui elles ne doivent reparaître que sous une forme nouvelle. La bouquetière Glycère, puisqu’il est question de bouquetière, employait toujours les mêmes fleurs, dit l’histoire ou la fable ; <hi rend="i">mais elle avait soin de les varier</hi>, et c’est ce que ne font pas la plupart de nos poètes.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>À la bonne heure ; mais convenez que vous préférez les <hi rend="i">pensées</hi> aux <hi rend="i">images</hi>.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>D’abord, car j’aime la justesse, expliquons-nous un peu sur cette proposition, <hi rend="i">que les images sont l’âme de la poésie</hi>. On dit et on nous répète partout, <hi rend="i">que le propre du poète est de peindre, que la poésie est une peinture parlante</hi>, et d’après cette définition, il n’y a point au bas de l’Hélicon de barbouilleur qui ne se croie un Raphaël : je demanderai d’abord ce qu’on entend par peindre ; c’est sans doute <hi rend="i">représenter l’objet à l’imagination, avec la même vivacité que si on l’avait devant les yeux</hi>. En ce cas le talent de peindre n’est pas particulier au poète. L’orateur et l’historien même doivent peindre. Dira-t-on que le poète doit toujours peindre, et les autres quelquefois seulement ? cela n’est pas vrai. Combien d’excellents vers on peut citer ou il n’y a pas l’ombre d’image ? combien même y en a-t-il, comme les vers de sentiment, que toute espèce d’image affaiblirait, qui n’ont que l’expression la plus simple, et qui n’en valent que mieux ? Corneille, Racine, La Fontaine, Quinault surtout, en fourniraient cent exemples.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Convenez aussi, et par cette même raison, que ce sont les vers de <hi rend="i">sentiment</hi> que vous aimez de préférence, que vous les préférez même aux vers <hi rend="i">pensés</hi>, et que les vers d’<hi rend="i">image</hi> n’ont auprès de vous que la dernière place.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Expliquons-nous encore. Je crois que <hi rend="i">toute image poétique</hi>, pour être vraiment belle, doit renfermer <hi rend="i">une pensée</hi> ; et sur ce pied-là je préfère <hi rend="i">les vers d’image</hi>, dignes de ce nom, aux vers qui ne renfermeraient qu’<hi rend="i">une pensée sans image</hi>, quoique ces derniers puissent avoir aussi beaucoup de mérite. Serez-vous d’un avis contraire ?</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Mais avouez du moins que vous préférez les <hi rend="i">beaux vers de sentiment</hi> aux plus <hi rend="i">beaux vers d’image</hi> ; en quoi je pense que vous avez tort.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Si, dans les vers dont vous me parlez, l’<hi rend="i">image</hi> se joint au <hi rend="i">sentiment</hi> et ne l’affaiblit pas, c’est le plus grand charme de la poésie ; et je préfère, ainsi que vous apparemment, ces vers-là à tous les autres : si le sentiment est de nature à exiger la plus grande simplicité dans l’expression, les vers de cette espèce n’ont rien de commun avec les vers d’image, ni par conséquent aucun terme de comparaison avec eux ; on sera plus touché des uns ou des autres, selon qu’on sera plus sensible à ce qui touche ou à ce qui étonne. Mais ce serait porter un jugement ridicule, que de donner en général la préférence aux uns ou aux autres. Tout dépend de la nature du sujet, de l’endroit où est placé le vers, soit de sentiment, soit d’image, et surtout du genre de sensibilité de celui qui lit. Voyez Horace, qui nous fournit des modèles de beautés poétiques de toute espèce : vous trouvez dans ses épîtres et ses satires, des vers qui ne sont que <hi rend="i">pensés</hi> ; dans quelques-unes de ses odes le <hi rend="i">sentiment</hi> domine, dans d’autres ce sont les <hi rend="i">images</hi>. Je vous demande lesquelles de ces pièces vous préférez. Vous seriez bien fâchée qu’Horace n’en eût fait que d’une seule espèce.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Mais puisque vous admettez dans les vers tant de genre de beautés et d’ornements, dont aucun ne les caractérise, puisque aucun n’y est essentiel, quelle est donc selon vous la marque distinctive des bons vers ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Elle est bien simple ; quand on a lu des vers, on n’a qu’à se demander : <hi rend="i">voudrais-je les savoir par cœur</hi> ? Voilà la pierre de touche pour s’assurer s’ils sont bons.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>J’entends ; mais qu’est-ce qui fait, selon vous, que des vers méritent d’être retenus ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Le voici : c’est d’abord <hi rend="i">quand ils offrent des idées heureuses ou neuves</hi> ; c’est en second lieu <hi rend="i">quand l’expression est propre et juste sans être commune</hi>. C’est là le grand mérite de Racine, la cause du charme qu’on éprouve en le lisant ; il a fort enrichi la langue, non par des expressions nouvelles, qu’il faut toujours hasarder très sobrement, <hi rend="i">mais par l’art heureux avec lequel il sait réunir ensemble des expressions connues, pour donner à son vers ou plus de force ou plus de grâce ; par la finesse avec laquelle il sait relever une</hi> expression commune, <hi rend="i">en y joignant une</hi> expression noble ; <hi rend="i">enfin par la simplicité unie partout à la noblesse, à la facilité et à l’harmonie</hi>. Voilà le dieu de l’art des vers, voilà le maître chez lequel il faut l’apprendre.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Vous êtes plus raisonnable que je ne pensais : mais Racine a-t-il toute votre estime ? n’en gardez-vous point pour les autres ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Je pense que Corneille est moins pur, moins correct, moins élégant que Racine ; mais je pense <hi rend="i">que quand il fait bien les vers, personne ne les fait mieux que lui</hi>. Je pense que Molière, indépendamment de ses autres qualités inestimables dont il est inutile de parler, en a une dont on ne parle pas assez, et dont on ne lui tient pas assez de compte ; c’est d’être celui de nos écrivains où l’on trouve le plus la <hi rend="i">vraie langue française, les tours et la manière qui lui sont propres</hi> ; que les ouvrages de Despréaux sont <hi rend="i">le code du bon goût</hi> ; que La Fontaine <hi rend="i">a donné à la langue un tour naïf et original</hi> ; et qu’enfin Quinault, méprisé par Despréaux si injustement, <hi rend="i">est non seulement le plus naturel et le plus tendre de nos poètes, mais le plus pur et le plus correct de tous</hi>, mérite dont on ne lui sait pas assez de gré, et qu’on n’a peut-être pas assez remarqué en lui. Après cela faites-moi dire, si vous l’osez, que nos bons poètes ne méritent pas d’être lus.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Leur prose même mérite beaucoup moins d’être lue que leurs vers.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Vous avez raison ; c’est encore une chose singulière, mais cependant très vraie, que chez toutes les nations il y a eu de bons poètes avant de bons prosateurs, et que ce sont toujours les poètes qui ont formé les langues. J’en trouverais peut-être la raison dans les efforts que les poètes sont obligés de faire. Ces efforts leur font chercher, et trouver quand ils ont du génie, les expressions les plus justes et les tours les plus heureux dont leur langue soit susceptible.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Sur ce principe vous ne voudriez donc pas <hi rend="i">affranchir notre poésie des entraves qu’on lui a données, y permettre plus de licence, introduire les tragédies en prose et les vers sans rimes</hi> ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Quant aux tragédies en prose, cette discussion nous mènerait trop loin ; et si j’y entrais avec vous, j’ose croire que vous ne seriez pas mécontente de moi : mais quant à la sévérité des lois poétiques, je n’en voudrais rien relâcher ; et quant à la rime, malgré la monotonie qu’elle cause dans nos vers, je la crois indispensablement nécessaire à notre poésie, qui sans cela ne me paraîtrait plus distinguée de la prose.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Il est vrai que la poésie des Grecs et des Latins avait de grands avantages ; mais vous ne voudriez pas pour cela que les Français s’amusassent à faire <hi rend="i">des vers latins</hi> ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Qu’ils s’en gardent bien ! je pense qu’on ne peut jamais savoir parfaitement qu’une seule langue ; c’est la sienne propre : encore cela est-il rare ; et je me souviens que Despréaux avait fait une espèce de dialogue satirique contre les versificateurs latins modernes, qu’il supprima de son vivant, pour ne point blesser trois ou quatre latinistes de ses amis, et surtout de ses admirateurs, qui avaient pris la peine de mettre en vers latins son ode sur Namur ; ouvrage d’ailleurs si faible et si défectueux, que les traductions même, toutes latines qu’elles sont, ne paraissent pas au-dessous de l’original.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Je vois qu’on m’avait donné une très injuste opinion de vous ; vous me paraissez dans les bons principes, et je suis prête à signer tout ce que vous venez de me dire.</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Et pourquoi la poésie et la philosophie seraient-elles mal ensemble ? les premiers philosophes ont été poètes ; Horace est <hi rend="i">le bréviaire des philosophes</hi> ; Molière, par sa connaissance des hommes et du cœur humain, Corneille, par la force du raisonnement, étaient <hi rend="i">ou grands philosophes, ou faits pour l’être</hi>. Celui qui nous a donné la meilleure poétique est un des plus grands philosophes de l’antiquité ; les vers du Virgile de nos jours sont remplis d’une philosophie aussi solide qu’agréable ; enfin j’ai vu un roi, qui pour avoir gagné douze batailles n’en était pas moins philosophe et homme de lettres, avoir auprès de lui, sur la même table, <hi rend="i">Athalie</hi> et les <hi rend="i">Commentaires de César</hi>, et douter lequel des deux ouvrages il aimerait mieux avoir fait. Je sais que Platon a banni les poètes de sa république ; mais entre nous, et je ne vous dis cela qu’à l’oreille, Platon était un ingrat, bien plus digne encore d’être compté parmi les poètes que parmi les philosophes. Je sais aussi que Pascal a dit qu’il n’y avait point de <hi rend="i">beauté poétique</hi>, mais j’en suis fâché pour l’honneur de ce grand génie, qui après tout était peut-être excusable, s’il ne jugeait de la poésie que sur le grand nombre de vers de son temps. Vous voyez que je vous abandonne de bonne grâce les philosophes qui ont eu des torts réels avec vous ; abandonnez-moi de même les mauvais poètes. Après cette explication, si vous n’êtes pas contente de ce que je pense de vous, votre amour-propre est bien difficile.</p>
-        <label>LA POÉSIE.</label>
+        <label type="speaker">LA POÉSIE.</label>
         <p>Pour nous réconcilier parfaitement, je voudrais bien vous faire entendre quelques fables qui me paraissent devoir être tout à fait de votre goût, et où la philosophie la plus éclairée, la plus utile, la plus pleine de sentiment, se trouve jointe à la poésie la plus agréable<note resp="author">Le duc de Nivernais devait terminer par la lecture de quelques-unes de ses fables, la séance publique où l’on se proposait de lire ce dialogue.</note>. C’est l’ouvrage d’un homme distingué par son rang, qui, après avoir utilement servi sa patrie<note resp="author">Ce même duc a rempli avec succès, dans plusieurs cours étrangères, les fonctions d’ambassadeur.</note>, n’a pas cru s’avilir en cultivant les lettres. Mais je ne sais si vous pourrez forcer sa modestie ; et qui sait d’ailleurs si ses pareils ne trouveront pas qu’il se dégrade ?</p>
-        <label>LA PHILOSOPHIE.</label>
+        <label type="speaker">LA PHILOSOPHIE.</label>
         <p>Alexandre, César, ce roi philosophe dont je viens de vous parler, <hi rend="i">tous d’aussi bonne maison que ces messieurs</hi>, et à ce que je crois, <hi rend="i">un peu plus grands hommes</hi>, seraient d’un autre avis, plus juste et plus flatteur pour celui dont je parle ; et le public, plus fort que tous les gens à la mode, le dédommagera, par son suffrage, de ceux qu’il n’aurait pas le bonheur d’obtenir : ce public, un peu dur quelquefois, mais toujours respectable, prendrait la liberté de dire à ses frivoles censeurs : <hi rend="i">Rien n’est si ridicule que de vouloir attacher du ridicule aux talents, et de paraître dédaigner ce qu’on n’est pas en état de faire.</hi></p></div>
     </body>
   </text>

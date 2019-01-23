@@ -2,7 +2,7 @@
 <!--2012-12-26T12:56:47+01:00-->
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="bergson_france" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="bergson_france" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,11 +13,11 @@
         <edition>Édition TEI</edition>
         <respStmt>
           <name xml:id="FG" ref="glorieux@algone.net">Frédéric Glorieux</name>
-          <resp>2012 – encodage TEI</resp>
+          <resp>2012 — encodage TEI</resp>
         </respStmt>
         <respStmt>
           <name xml:id="VJ" ref="jolivet@algone.net">Vincent Jolivet</name>
-          <resp>2012 – encodage TEI</resp>
+          <resp>2012 — encodage TEI</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -40,7 +40,7 @@
     </fileDesc>
     <profileDesc>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
       <creation>
         <date when="1915">1915</date>
@@ -70,7 +70,7 @@
         <p>Les recherches et les réflexions de Lamarck avaient d’ailleurs été préparées en France par beaucoup de travaux originaux sur la nature et la vie. Bornons-nous à rappeler les noms de Buffon <note place="bottom">1707-1788.</note> et de Bonnet <note place="bottom">1720-1793. Charles Bonnet, lié à Genève, appartenait à une famille française.</note>.</p>
         <p>D’une manière générale, les penseurs français du XVIII<hi rend="sup">e</hi> siècle ont fourni les éléments de certaines théories de la nature qui devaient se constituer au siècle suivant. Nous venons de parler du problème de l’origine des espèces. Celui de la relation de l’esprit à la matière, abordé dans un sens plutôt matérialiste, fut posé cependant par les philosophes français du XVIII<hi rend="sup">e</hi> siècle avec une précision telle qu’il appelait aussi bien, dès lors, d’autres solutions. Il faut citer ici les noms de La Mettrie <note place="bottom">1709-1751.</note>, de Cabanis <note place="bottom">1757-1808.</note>, etc., et encore celui de Charles Bonnet.</p>
         <p>On montrerait sans peine que leurs recherches sont à l’origine de la psycho-physiologie qui s’est développée pendant le XIX<hi rend="sup">e</hi> siècle. Mais la psychologie elle-même, entendue comme une idéologie, c’est-à-dire comme une reconstruction de l’esprit avec des éléments simples, — la psychologie telle que l’a comprise l’école « associationiste » du siècle dernier, — est sortie, en partie, des travaux français du XVIII<hi rend="sup">e</hi> siècle, notamment de ceux de Condillac. Il est juste de reconnaître que les Anglais y ont contribué pour une part plus large encore, et que la doctrine de Locke n’avait pas été sans influence sur l’idéologie française. Mais Locke n’avait-il pas été influencé lui-même par Descartes ? Anticipant sur ce que nous aurons à dire du XIX<hi rend="sup">e</hi> siècle, nous pouvons dès maintenant faire remarquer que l’œuvre psychologique de Taine, son analyse de l’intelligence, dérive en partie de l’idéologie du XVIII<hi rend="sup">e</hi> siècle, plus spécialement de Condillac.</p>
-        <p>Nous n’avons pas à parler ici de la philosophie sociale. Tout le monde sait comment s’élaborèrent en France, au cours du XVIII<hi rend="sup">e</hi> siècle, les principes de la science politique en général, et plus particulièrement les idées qui devaient amener une transformation de la société. À Montesquieu <note place="bottom">1689-1755.</note>, à Turgot <note place="bottom">1727-1781.</note>, à Condorcet <note place="bottom">1713-1794.</note>, est dû l’approfondissement des concepts de loi, de gouvernement, de progrès, etc., comme aux encyclopédistes en général (d’Alembert <note place="bottom">1717-1783.</note>, Diderot <note place="bottom">1713-1781.</note>, La Mettrie <note place="bottom">1709-1751.</note>, Helvetius <note place="bottom">17l5-1771.</note>, d’Holbach <note place="bottom">1723-1789.</note>) le mouvement qui aboutit à, « rationaliser » l’humanité et à la tourner aussi du côté des arts mécaniques.</p>
+        <p>Nous n’avons pas à parler ici de la philosophie sociale. Tout le monde sait comment s’élaborèrent en France, au cours du XVIII<hi rend="sup">e</hi> siècle, les principes de la science politique en général, et plus particulièrement les idées qui devaient amener une transformation de la société. À Montesquieu <note place="bottom">1689-1755.</note>, à Turgot <note place="bottom">1727-1781.</note>, à Condorcet <note place="bottom">1713-1794.</note>, est dû l’approfondissement des concepts de loi, de gouvernement, de progrès, etc., comme aux encyclopédistes en général (d’Alembert <note place="bottom">1717-1783.</note>, Diderot <note place="bottom">1713-1781.</note>, La Mettrie <note place="bottom">1709-1751.</note>, Helvetius <note place="bottom">1715-1771.</note>, d’Holbach <note place="bottom">1723-1789.</note>) le mouvement qui aboutit à, « rationaliser » l’humanité et à la tourner aussi du côté des arts mécaniques.</p>
         <p>Mais la plus puissante des influences qui se soient exercées sur l’esprit humain depuis Descartes, — de quelque manière d’ailleurs qu’on la juge, — est incontestablement celle de Jean-Jacques Rousseau <note place="bottom">Né à Genève, d’une famille d’origine française, en 1712. Mort en 1778.</note>. La réforme qu’il opéra dans le domaine de la pensée pratique fut aussi radicale que l’avait été celle de Descartes dans le domaine de la spéculation pure. Lui aussi remit tout en question ; il voulut remodeler la société, la morale, l’éducation, la vie entière de l’homme sur des principes « naturels ». Ceux mêmes qui ne se sont pas ralliés à ses idées ont dû adopter quelque chose de sa méthode. Par l’appel qu’il a lancé au sentiment, à l’intuition, à la conscience profonde, il a encouragé une certaine manière de penser que l’on trouvait déjà chez Pascal (dirigée, il est vrai, dans un sens tout différent), mais qui n’avait pas encore droit de cité en philosophie. Quoiqu’il n’ait pas construit un système, il a inspiré en partie les systèmes métaphysiques du XIX<hi rend="sup">e</hi> siècle : le Kantisme d’abord, puis le « romantisme » de la philosophie allemande lui durent beaucoup. L’art et la littérature lui doivent au moins autant. Son œuvre apparaît à chaque génération nouvelle sous quelque nouvel aspect. Elle agit encore sur nous <note place="bottom">Voltaire (1691-1778) appartient à l’histoire des lettres plutôt qu’à celle de la philosophie. Nous nous attachons surtout, dans le présent travail, à ceux qui furent, en philosophie, les créateurs d’idées et de méthodes nouvelles.</note>.</p>
         <p>Dans le coup d’œil que nous venons de jeter sur la philosophie française du XVII<hi rend="sup">e</hi> et du XVIII<hi rend="sup">e</hi> siècles, nous avons pris une vue d’ensemble ; nous avons dû laisser de côté un grand nombre de penseurs et ne considérer que les plus importants d’entre eux. Que sera-ce pour le XIX<hi rend="sup">e</hi> siècle ? Il n’y a guère de savant français, ni même d’écrivain français, qui n’ait apporté sa contribution à la philosophie.</p>
         <p>Si les trois siècles précédents avaient vu naître et se développer les sciences abstraites et concrètes de la matière inorganique, — mathématiques, mécanique, astronomie, physique et chimie, — le XIX<hi rend="sup">e</hi> siècle devait approfondir en outre les sciences de la vie : vie organique et même, jusqu’à un certain point, vie sociale. Ici encore les Français furent des initiateurs. On leur doit la théorie de la méthode, et une partie importante des résultats. Nous faisons allusion surtout à Claude Bernard, et à Auguste Comte.</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -67,7 +67,7 @@
         <date when="1814">1814</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -8767,7 +8767,7 @@
                 Ses pièces même qui n’ont pas réussi sont pleines de jolies choses, et se lisent
                 avec plaisir, parce que le dialogue amuse. Il a trop donné dans l’anatomie du cœur ;
                 on peut le regarder comme le maître de Marivaux dans cette partie. Il a une comédie
-                dont le litre paraîtrait aujourd’hui plaisant : <hi rend="i">la Fille inquiète</hi>,
+                dont le titre paraîtrait aujourd’hui plaisant : <hi rend="i">la Fille inquiète</hi>,
                 ou <hi rend="i">le Besoin d’aimer</hi> ; on passe ces inquiétudes et ce besoin au
                 petit page du <hi rend="i">Mariage de Figaro</hi>.</p>
               <p>Cet auteur excellait aussi dans les couplets libres et satiriques : vivant dans la
@@ -11046,7 +11046,7 @@
               demandait, et se trouve tout à la fois le bienfaiteur du père et l’amant chéri de la
               fille. Tout l’intérêt de la pièce consiste dans le plaisir qu’on trouve à voir berner
               un sot.</p>
-            <p>La comtesse est celle qui rit le plus haut de la disgrâce de son cher baron ; elle
+            <p>La comtesse est celle qui rit le plus haut de la disgrâce de son cher baron ; elle
               n’a cessé, dans le cours de la pièce, de le détourner du mariage en le menaçant du
               ridicule ; elle avait même déjà composé son épithalame :</p>
             <quote>
@@ -11451,8 +11451,10 @@
               précision, mais il est souvent dénué de l’harmonie et de la couleur poétique : celui
               de Voltaire est plus élégant, plus doux, plus brillant ; mais souvent il est flasque,
               diffus, gonflé d’épithètes, et voisin du galimatias.</p>
-            <p rend="right">28 juin 1808</p>
-            <p/>
+          </div>
+          <div>
+            <head>III</head>
+            <dateline><docDate when="1808">28 juin 1808</docDate>.</dateline>
             <p>Le vice secret des tragédies qui roulent sur des conspirations, c’est que le
               spectateur ne sait s’il doit prendre parti pour ou contre les conspirateurs. Il n’y a
               pas lieu de douter dans la conjuration de Catilina : c’est pour Rome qu’on doit

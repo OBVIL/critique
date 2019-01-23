@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,22 +23,41 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.paris-sorbonne.fr/corpus/nomcorpus/kahn_preface-vers-libre/</idno>
-        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.xml</idno>
-        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.html</idno>
-        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.txt</idno>
-        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.epub</idno>
+        <idno type="tei"
+          >http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.xml</idno>
+        <idno type="html"
+          >http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.html</idno>
+        <idno type="text"
+          >http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.txt</idno>
+        <idno type="epub"
+          >http://obvil.paris-sorbonne.fr/corpus/critique/kahn_preface-vers-libre.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
-            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution — Pas d’Utilisation Commerciale — Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
-            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
-            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
-            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+            <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
+              « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+            <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur
+              les bases de données (L341-1) est mise à disposition de la communauté scientifique
+              internationale par l’OBVIL, selon les termes de la licence Creative Commons : «
+              Attribution — Pas d’Utilisation Commerciale — Pas de Modification 3.0 France (CC
+              BY-NC-ND 3.0 FR) ».</p>
+            <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée
+              de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse
+              Internet de la ressource.</p>
+            <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute
+              utilisation commerciale est interdite.</p>
+            <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource
+              électronique, notamment en intégrant toutes les contributions extérieures, la
+              diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
           </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gustave Kahn</author>, <title>« Préface »</title>, in <hi rend="i">Premiers poèmes, avec une préface sur le vers libre. Les Palais nomades — Chansons d’amant — Domaine de fée</hi>, <edition>2<hi rend="sup">e</hi> éd.</edition>, <pubPlace>Paris</pubPlace>, Société du Mercure de France, <date>1897</date>, p. 3-38. Source : <ref target="https://archive.org/details/premierspomes00kahngoog">Google Books</ref>.</bibl>
+        <bibl><author>Gustave Kahn</author>, <title>« Préface »</title>, in <hi rend="i">Premiers
+            poèmes, avec une préface sur le vers libre. Les Palais nomades — Chansons d’amant
+            — Domaine de fée</hi>, <edition>2<hi rend="sup">e</hi> éd.</edition>,
+            <pubPlace>Paris</pubPlace>, Société du Mercure de France, <date>1897</date>, p. 3-38.
+          Source : <ref target="https://archive.org/details/premierspomes00kahngoog">Google
+            Books</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,7 +65,7 @@
         <date when="1897">1897</date>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -55,89 +74,512 @@
       <head>Préface</head>
       <div>
         <head>I</head>
-        <p><pb n="3"/>Il a paru opportun à plusieurs personnes qu’en tête de ces <hi rend="i">Palais Nomades</hi>, qui furent, il y a dix ans, le livre d’origine du vers libre, l’auteur inscrivît à nouveau, sinon avec plus de détails, au moins avec plus d’ensemble, ce qu’il eut à dire sur la formule nouvelle de la poésie française ; et l’auteur admet que cela peut avoir quelque utilité, non seulement (il ne le cèle point) parce qu’il éprouve quelque fierté d’avoir donné le signal et l’orientation de ce mouvement poétique, mais aussi parce qu’il tient à assumer de cette tentative, bonne ou mauvaise, vis-à-vis des adversaires, toute sa part de responsabilité. Qu’on l’excuse donc si, dans ces pages, il est contraint de parler un peu trop (c’est toujours trop) de lui-même.</p>
-        <p><pb n="4"/>Nous maintenons cette étiquette, Vers libre ; d’abord parce que ce fut celle qui s’imposa d’elle-même, spontanée, à nos premiers efforts ; elle dit mieux le sens de notre essai de rajeunissement que cet affreux mot, vers polymorphe, inventé par la critique hostile, et qui fait penser à quelque terme d’une nomenclature scientifique, déplacé d’ailleurs en matière d’esthétique du vers. C’est aussi parce que nous jugerions trop lourd, au seuil de poèmes, un exposé pédant, que nous éviterons de donner ici, sur la structure du vers, trop de renseignements techniques ; aussi bien nous ne tentons pas en cette préface un traité de prosodie, ni un traité complet du vers libre. On se contentera de quelques éclaircissements historiques et de paroles d’un poète à ses confrères. M. Anatole France a dit quelque part (en substance) que les poètes trouvaient leurs rythmes, et se forgeaient leur langue, assez inconsciemment, et qu’ils étaient disgracieux, s’essoufflant à démonter les rouages de leur strophe ; c’est fort possible, et il faut émettre en principe qu’on fait d’abord ses vers, et qu’on s’en précise ensuite la rythmique. Mais n’est-ce point-là, déjà, <pb n="5"/>une différence entre les poètes nouveaux, sûrs de leur accent et de leur chanson, et tels nourrissons qui vont près du Pinde, épelant le modèle, et comptant les syllabes comme les pas d’une faction ?</p>
-        <p>Ah ! ceci n’est point une attaque contre les poètes du passé : nous déclarions récemment que le symbolisme était une conséquence logique et fatale du romantisme ; nous n’aurions garde de renier nos aïeux, ni nos grands aînés, et si nous avions des sévérités, ce serait uniquement contre des imitateurs qui les suivraient de trop près, et se conformeraient à eux, mots et idées. Nous n’irons même pas jusqu’à invoquer contre les prédécesseurs les arguments d’indépendance auxquels Banville a recours contre les classiques. Nous admettons, comme lui, que Corneille, Racine, Molière et La Fontaine ont écrit des chefs-d’œuvre, malgré leur rythmique, <quote>« bien qu’ils n’eussent qu’un mauvais outil à leur disposition »</quote>. Nous ne parlerions pas ainsi des romantiques ; ils eurent un outil excellent qui leur servit à faire d’admirables choses (et pour nous Romantisme enclot Parnasse), mais on peut en avoir un meilleur. Nous sommes si d’accord avec Banville <pb n="6"/>que nous admettons sa définition : <quote>« Le Vers est la parole humaine rythmée de façon à pouvoir être chantée, et, à proprement parler, il n’y a pas de poésie et de vers en dehors du chant. »</quote> Mais, si l’oreille des romantiques différait de celle des classiques, la nôtre a d’autres besoins que les leurs. Le sens des couleurs change, le sens de la cadence poétique change aussi ; insensiblement, sans doute ! mais il y a toujours un moment où l’on s’en aperçoit, et l’évolution assez prolongée est devenue suffisamment nette, pour s’appeler une transformation. Sans doute, si l’évolution de la musique pure ou du poème suivait pas à pas cette modification du sens auditif, les changements de rythmique seraient lents, successifs, comme ceux qui se produisent à l’intérieur même d’une école : exemple, la tension que fit subir au vers romantique un groupe, le Parnasse, opérant sur son patrimoine. Mais généralement, dans la vérité, il n’en est pas ainsi :</p>
-        <p><num>iº</num> Parce que l’oreille des poètes, après avoir été très sensible, lors de leur période de formation, de débrouillement, et pendant l’aurore de la production où tout se colore d’une lumière propre si belle à <pb n="7"/>nous-mêmes qu’elle en paraît nouvelle, s’habitue à un certain nombre de cadences et que le sens auditif du plus subtil s’endort, s’amortit, un peu comme celui d’un auditeur de bonne musique, qui ne sait plus se réjouir que de cadences connues ;</p>
-        <p>2° Que, pendant que ces poètes restent techniquement stationnaires, une génération nouvelle se lève, parmi laquelle plusieurs poètes sentent confusément la nécessité d’une révolution et qu’un au moins la ressent précisément et l’ose.</p>
-        <p>De là, luttes, antagonismes, coalitions, réclamations de ceux qui n’entendent point de leurs propres oreilles, et veulent rester fidèles auditeurs d’artistes qu’ils avaient eu déjà bien du mal à comprendre ; puis triomphe du point de vue nouveau, tant qu’il est bon, tant qu’une nouv elle transformation ne s’impose. L’art évolue, comme l’âme se modifie, incessamment, comme toutes les apparences, comme tous les phénomènes, et comme sans doute la substance. Pourquoi les draconismes des rhétoriques survivraient-ils à leurs causes déterminantes, et surtout à leurs causes extrinsèques (nous reviendrons sur cela) ? Au cas présent, et pour expliquer <pb n="8"/>combien notre oreille est dissemblable de celle de nos plus proches aînés, notons que la plupart des romantiques et des parnassiens fréquentaient surtout comme art voisin, la peinture ; et la peinture où l’impressionnisme naissait à peine (Turner leur était inconnu) les gardait accoutumés aux contours stricts, et délimités, découpés, presque sculptés. La génération suivante fut submergée de musique, et plus tentée de polyphonie et de détours multiples. L’objection, qui se présente de suite, la voici : « Mais vous n’eûtes point les prémisses de ces musiques. Baudelaire connut l’œuvre wagnérienne, l’illustra de belles pages, et Mendès très longtemps orna le wagnérisme. » On répondra que Baudelaire en 1862 — date de sa connaissance du Tannhauser et de son étude critique — était âgé de quarante ans, fatigué de son bel effort, qu’il pouvait éprouver des plaisirs esthétiques nouveaux, et les traduire, admirablement, sans que cela l’induisît à modifier une formule de vers qui était déjà une conquête sur le passé ; et si la même raison ne peut valoir pour Mendès, quoi d’étonnant à ce que celui-ci soit, car son éducation poétique, quoique moins avancée, était <pb n="9"/>déjà faite, resté fidèle à un idéal technique, dont il ne pouvait encore percevoir la caducité, puisqu’elle n’existait pas encore, et qui lui laissait toute la place pour ses réalisations encore neuves. Je suis persuadé et sûr, quant à ce qui me regarde, que l’influence de la musique nous amena à la perception d’une forme poétique, à la fois plus fluide et précise, et que les sensations musicales de la jeunesse, (non seulement Wagner, mais Beethoven et Schumann) influèrent sur ma conception du vers lorsque je fus capable d’articuler une chanson personnelle.</p>
-        <p>Les objections se suscitent les unes les autres ; je prévois : Verlaine avait-il quelque goût pour la musique ? Mais procédons par ordre. Quel était l’idéal du vers romantique, celui qui dominait nos dernières et plus agréables lectures de vers ?</p>
-        <p>Le type du vers romantique est le vers binaire, aux jeux pairs de syllabes, dans sa dimension la plus grande admise, l’alexandrin. Banville dit : <quote>« Le vers de douze syllabes, ou vers alexandrin, qui correspond à l’hexamètre des Latins, a été inventé au <hi rend="sc">xii<hi rend="sup">e</hi></hi> siècle par un poète normand, Alexandre de Bernay ; c’est celui de tous nos mètres qui a été le <pb n="10"/>plus long à se perfectionner, et c’est de nos jours seulement qu’il a atteint toute l’ampleur, toute la souplesse, toute la variété et tout l’éclat dont il est susceptible. »</quote> C’est un des fondateurs du Parnasse, qui nous explique qu’il admet l’alexandrin, mais non le classique, l’alexandrin modifié (il le rencontre d’avance, avec joie dans <hi rend="i">les Plaideurs</hi>, c’est vrai, mais utilisé pour la farce) par le romantisme.</p>
-        <p>L’alexandrin est donc un vers qui, en une forme bien différente de celle qu’il affectait antérieurement, comptait, quand naquit le vers libre, un peu plus de soixante ans d’existence. Il n’y a donc pas lieu d’arguer contre nous d’un passé de sept siècles. Une invention de lettré, l’alexandrin de Bernay, s’est produite au <num>xv<hi rend="sup">e</hi></num> siècle ; elle a été modifiée, chemin faisant, plusieurs fois à en être méconnaissable ; on ne l’a pas allongée, c’est vrai, mais, à part cela, sa forme primitive a tout subi. Ce vers est devenu le vers de douze syllabes, avec dix césures possibles, avec césure obligée, car il n’y a pas de mots de douze syllabes : ce qui est presque l’abolition de la césure. Ce vers, qui suffit soixante <pb n="11"/>ou soixante-dix ans, ne nous suffit plus. Est-ce à dire, comme on l’a cru, que nous le détruisions ? Nous le modifions seulement. J’ai voulu dire que nous n’avions pas affaire à un phénomène immuable, et qu’on pouvait s’y attaquer. Je sais bien qu’en France il fut longtemps plus difficile de discuter le sonnet que la loi de la gravitation universelle, d’attenter aux Trois Unités qu’à la liberté politique ; mais les temps viennent toujours. Cette règle respectable des trois unités, et ses vicissitudes sont, en ce moment, d’un excellent exemple, applicable aux destinées de la métrique.</p>
-        <p>Exécrable et même mauvaise, cette règle ne l’est certainement pas ; elle ne repose, a-t-on dit, sur rien, moins que rien, sur des interprétations erronées ou inutiles d’Aristote. Elle a pourtant le mérite d’avoir présidé à de belles œuvres serrées, à de nobles tragédies ; elle suggère, par son existence, l’idée d’une étude de crise morale, sans péripéties, à beaux plis simples, brève, serrée comme la nature ; elle peut fournir au théâtre aussi bien que l’esthétique diverse et variée du drame. Les deux théories sont donc également logiques ? Oui, à condition <pb n="12"/>d’exister parallèlement, d’être non pas deux recettes, mais deux guides.</p>
-        <p>Le tort ne fut point à qui s’avisa qu’une tragédie pouvait gagner à être resserrée en mêmes lieu, temps et espace, mais au pédant qui en fit une règle générale, de même qu’un pédant du drame aurait tort de proscrire une action rapide et vraisemblable en une seule journée. Il en est de plusieurs règles poétiques et des prohibitions de la prosodie, comme de la règle des Trois Unités. Sans doute, elles reposent toutes à un moment donné sur quelque chose d’exact ou de spécieux. Je ne doute pas qu’avant que le romantisme eût régénéré le lyrisme, la poésie, auparavant dite légère, ne tirât sa minime raison d’être que de la difficulté vaincue ; ne pouvant être émouvant, ni poétique, on était ingénieux ; on jouait à un jeu de bague avec chances égalisées pour tous par la règle. Que Banville a raison dans son texte contre Malherbe et Boileau : les règles draconiennes édictées par le seul Boileau ne se fondent sur rien de sérieux, c’est du pur arbitraire, c’est la volonté d’un critique gâté, s’imposant sans raison ; et Banville dit encore mille <pb n="13"/>fois plus juste quand il déclare, que seule la lâcheté humaine fit qu’on déféra à cette loi, que c’est de par cette lâcheté et cet amour de la servitude qu’après Lamartine, Hugo, Gautier, Leconte de l’Isle, on en discutait encore. Mais il y avait, au temps de Boileau, une cause extrinsèque, une cause profonde pour Boileau, fondée au moins sur un sentiment. En ce temps de centralisation, quand les derniers rameaux de pouvoir féodal qui gênaient les belles allées du pouvoir royal furent ébranchés, en ce temps de Le Nôtre, il fallut, pour toutes choses, un jardinier aux plans rectilignes ; on ne s’occupa nullement, pour donner l’apparat et la noblesse au vers français (cette noblesse, chape de plomb, manteau lourd et sans forme aux épaules de la Muse) que la règle fût juste ; on la rechercha suffisante mais surtout uniforme et majestueuse ; il y eut une flexion sur un jarret pendant un pas majestueux : l’hémistiche ; et cette règle de Boileau est antipoétique, parce qu’elle ne naît pas des besoins du poème, qu’elle découle, fausse, d’une visée sociale.</p>
+        <p><pb n="3"/>Il a paru opportun à plusieurs personnes qu’en tête de ces <hi rend="i">Palais
+            Nomades</hi>, qui furent, il y a dix ans, le livre d’origine du vers libre, l’auteur
+          inscrivît à nouveau, sinon avec plus de détails, au moins avec plus d’ensemble, ce qu’il
+          eut à dire sur la formule nouvelle de la poésie française ; et l’auteur admet que cela
+          peut avoir quelque utilité, non seulement (il ne le cèle point) parce qu’il éprouve
+          quelque fierté d’avoir donné le signal et l’orientation de ce mouvement poétique, mais
+          aussi parce qu’il tient à assumer de cette tentative, bonne ou mauvaise, vis-à-vis des
+          adversaires, toute sa part de responsabilité. Qu’on l’excuse donc si, dans ces pages, il
+          est contraint de parler un peu trop (c’est toujours trop) de lui-même.</p>
+        <p><pb n="4"/>Nous maintenons cette étiquette, Vers libre ; d’abord parce que ce fut celle
+          qui s’imposa d’elle-même, spontanée, à nos premiers efforts ; elle dit mieux le sens de
+          notre essai de rajeunissement que cet affreux mot, vers polymorphe, inventé par la
+          critique hostile, et qui fait penser à quelque terme d’une nomenclature scientifique,
+          déplacé d’ailleurs en matière d’esthétique du vers. C’est aussi parce que nous jugerions
+          trop lourd, au seuil de poèmes, un exposé pédant, que nous éviterons de donner ici, sur la
+          structure du vers, trop de renseignements techniques ; aussi bien nous ne tentons pas en
+          cette préface un traité de prosodie, ni un traité complet du vers libre. On se contentera
+          de quelques éclaircissements historiques et de paroles d’un poète à ses confrères.
+          M. Anatole France a dit quelque part (en substance) que les poètes trouvaient leurs
+          rythmes, et se forgeaient leur langue, assez inconsciemment, et qu’ils étaient
+          disgracieux, s’essoufflant à démonter les rouages de leur strophe ; c’est fort possible,
+          et il faut émettre en principe qu’on fait d’abord ses vers, et qu’on s’en précise ensuite
+          la rythmique. Mais n’est-ce point-là, déjà, <pb n="5"/>une différence entre les poètes
+          nouveaux, sûrs de leur accent et de leur chanson, et tels nourrissons qui vont près du
+          Pinde, épelant le modèle, et comptant les syllabes comme les pas d’une faction ?</p>
+        <p>Ah ! ceci n’est point une attaque contre les poètes du passé : nous déclarions récemment
+          que le symbolisme était une conséquence logique et fatale du romantisme ; nous n’aurions
+          garde de renier nos aïeux, ni nos grands aînés, et si nous avions des sévérités, ce serait
+          uniquement contre des imitateurs qui les suivraient de trop près, et se conformeraient à
+          eux, mots et idées. Nous n’irons même pas jusqu’à invoquer contre les prédécesseurs les
+          arguments d’indépendance auxquels Banville a recours contre les classiques. Nous
+          admettons, comme lui, que Corneille, Racine, Molière et La Fontaine ont écrit des
+          chefs-d’œuvre, malgré leur rythmique, <quote>« bien qu’ils n’eussent qu’un mauvais outil à
+            leur disposition »</quote>. Nous ne parlerions pas ainsi des romantiques ; ils eurent un
+          outil excellent qui leur servit à faire d’admirables choses (et pour nous Romantisme
+          enclot Parnasse), mais on peut en avoir un meilleur. Nous sommes si d’accord avec Banville
+            <pb n="6"/>que nous admettons sa définition : <quote>« Le Vers est la parole humaine
+            rythmée de façon à pouvoir être chantée, et, à proprement parler, il n’y a pas de poésie
+            et de vers en dehors du chant. »</quote> Mais, si l’oreille des romantiques différait de
+          celle des classiques, la nôtre a d’autres besoins que les leurs. Le sens des couleurs
+          change, le sens de la cadence poétique change aussi ; insensiblement, sans doute ! mais il
+          y a toujours un moment où l’on s’en aperçoit, et l’évolution assez prolongée est devenue
+          suffisamment nette, pour s’appeler une transformation. Sans doute, si l’évolution de la
+          musique pure ou du poème suivait pas à pas cette modification du sens auditif, les
+          changements de rythmique seraient lents, successifs, comme ceux qui se produisent à
+          l’intérieur même d’une école : exemple, la tension que fit subir au vers romantique un
+          groupe, le Parnasse, opérant sur son patrimoine. Mais généralement, dans la vérité, il
+          n’en est pas ainsi :</p>
+        <p><num>iº</num> Parce que l’oreille des poètes, après avoir été très sensible, lors de leur
+          période de formation, de débrouillement, et pendant l’aurore de la production où tout se
+          colore d’une lumière propre si belle à <pb n="7"/>nous-mêmes qu’elle en paraît nouvelle,
+          s’habitue à un certain nombre de cadences et que le sens auditif du plus subtil s’endort,
+          s’amortit, un peu comme celui d’un auditeur de bonne musique, qui ne sait plus se réjouir
+          que de cadences connues ;</p>
+        <p>2° Que, pendant que ces poètes restent techniquement stationnaires, une génération
+          nouvelle se lève, parmi laquelle plusieurs poètes sentent confusément la nécessité d’une
+          révolution et qu’un au moins la ressent précisément et l’ose.</p>
+        <p>De là, luttes, antagonismes, coalitions, réclamations de ceux qui n’entendent point de
+          leurs propres oreilles, et veulent rester fidèles auditeurs d’artistes qu’ils avaient eu
+          déjà bien du mal à comprendre ; puis triomphe du point de vue nouveau, tant qu’il est bon,
+          tant qu’une nouv elle transformation ne s’impose. L’art évolue, comme l’âme se modifie,
+          incessamment, comme toutes les apparences, comme tous les phénomènes, et comme sans doute
+          la substance. Pourquoi les draconismes des rhétoriques survivraient-ils à leurs causes
+          déterminantes, et surtout à leurs causes extrinsèques (nous reviendrons sur cela) ? Au cas
+          présent, et pour expliquer <pb n="8"/>combien notre oreille est dissemblable de celle de
+          nos plus proches aînés, notons que la plupart des romantiques et des parnassiens
+          fréquentaient surtout comme art voisin, la peinture ; et la peinture où l’impressionnisme
+          naissait à peine (Turner leur était inconnu) les gardait accoutumés aux contours stricts,
+          et délimités, découpés, presque sculptés. La génération suivante fut submergée de musique,
+          et plus tentée de polyphonie et de détours multiples. L’objection, qui se présente de
+          suite, la voici : « Mais vous n’eûtes point les prémisses de ces musiques. Baudelaire
+          connut l’œuvre wagnérienne, l’illustra de belles pages, et Mendès très longtemps orna le
+          wagnérisme. » On répondra que Baudelaire en 1862 — date de sa connaissance du Tannhauser
+          et de son étude critique — était âgé de quarante ans, fatigué de son bel effort, qu’il
+          pouvait éprouver des plaisirs esthétiques nouveaux, et les traduire, admirablement, sans
+          que cela l’induisît à modifier une formule de vers qui était déjà une conquête sur le
+          passé ; et si la même raison ne peut valoir pour Mendès, quoi d’étonnant à ce que celui-ci
+          soit, car son éducation poétique, quoique moins avancée, était <pb n="9"/>déjà faite,
+          resté fidèle à un idéal technique, dont il ne pouvait encore percevoir la caducité,
+          puisqu’elle n’existait pas encore, et qui lui laissait toute la place pour ses
+          réalisations encore neuves. Je suis persuadé et sûr, quant à ce qui me regarde, que
+          l’influence de la musique nous amena à la perception d’une forme poétique, à la fois plus
+          fluide et précise, et que les sensations musicales de la jeunesse, (non seulement Wagner,
+          mais Beethoven et Schumann) influèrent sur ma conception du vers lorsque je fus capable
+          d’articuler une chanson personnelle.</p>
+        <p>Les objections se suscitent les unes les autres ; je prévois : Verlaine avait-il quelque
+          goût pour la musique ? Mais procédons par ordre. Quel était l’idéal du vers romantique,
+          celui qui dominait nos dernières et plus agréables lectures de vers ?</p>
+        <p>Le type du vers romantique est le vers binaire, aux jeux pairs de syllabes, dans sa
+          dimension la plus grande admise, l’alexandrin. Banville dit : <quote>« Le vers de douze
+            syllabes, ou vers alexandrin, qui correspond à l’hexamètre des Latins, a été inventé au
+              <hi rend="sc">xii<hi rend="sup">e</hi></hi> siècle par un poète normand, Alexandre de
+            Bernay ; c’est celui de tous nos mètres qui a été le <pb n="10"/>plus long à se
+            perfectionner, et c’est de nos jours seulement qu’il a atteint toute l’ampleur, toute la
+            souplesse, toute la variété et tout l’éclat dont il est susceptible. »</quote> C’est un
+          des fondateurs du Parnasse, qui nous explique qu’il admet l’alexandrin, mais non le
+          classique, l’alexandrin modifié (il le rencontre d’avance, avec joie dans <hi rend="i">les
+            Plaideurs</hi>, c’est vrai, mais utilisé pour la farce) par le romantisme.</p>
+        <p>L’alexandrin est donc un vers qui, en une forme bien différente de celle qu’il affectait
+          antérieurement, comptait, quand naquit le vers libre, un peu plus de soixante ans
+          d’existence. Il n’y a donc pas lieu d’arguer contre nous d’un passé de sept siècles. Une
+          invention de lettré, l’alexandrin de Bernay, s’est produite au <num>xv<hi rend="sup"
+              >e</hi></num> siècle ; elle a été modifiée, chemin faisant, plusieurs fois à en être
+          méconnaissable ; on ne l’a pas allongée, c’est vrai, mais, à part cela, sa forme primitive
+          a tout subi. Ce vers est devenu le vers de douze syllabes, avec dix césures possibles,
+          avec césure obligée, car il n’y a pas de mots de douze syllabes : ce qui est presque
+          l’abolition de la césure. Ce vers, qui suffit soixante <pb n="11"/>ou soixante-dix ans, ne
+          nous suffit plus. Est-ce à dire, comme on l’a cru, que nous le détruisions ? Nous le
+          modifions seulement. J’ai voulu dire que nous n’avions pas affaire à un phénomène
+          immuable, et qu’on pouvait s’y attaquer. Je sais bien qu’en France il fut longtemps plus
+          difficile de discuter le sonnet que la loi de la gravitation universelle, d’attenter aux
+          Trois Unités qu’à la liberté politique ; mais les temps viennent toujours. Cette règle
+          respectable des trois unités, et ses vicissitudes sont, en ce moment, d’un excellent
+          exemple, applicable aux destinées de la métrique.</p>
+        <p>Exécrable et même mauvaise, cette règle ne l’est certainement pas ; elle ne repose,
+          a-t-on dit, sur rien, moins que rien, sur des interprétations erronées ou inutiles
+          d’Aristote. Elle a pourtant le mérite d’avoir présidé à de belles œuvres serrées, à de
+          nobles tragédies ; elle suggère, par son existence, l’idée d’une étude de crise morale,
+          sans péripéties, à beaux plis simples, brève, serrée comme la nature ; elle peut fournir
+          au théâtre aussi bien que l’esthétique diverse et variée du drame. Les deux théories sont
+          donc également logiques ? Oui, à condition <pb n="12"/>d’exister parallèlement, d’être non
+          pas deux recettes, mais deux guides.</p>
+        <p>Le tort ne fut point à qui s’avisa qu’une tragédie pouvait gagner à être resserrée en
+          mêmes lieu, temps et espace, mais au pédant qui en fit une règle générale, de même qu’un
+          pédant du drame aurait tort de proscrire une action rapide et vraisemblable en une seule
+          journée. Il en est de plusieurs règles poétiques et des prohibitions de la prosodie, comme
+          de la règle des Trois Unités. Sans doute, elles reposent toutes à un moment donné sur
+          quelque chose d’exact ou de spécieux. Je ne doute pas qu’avant que le romantisme eût
+          régénéré le lyrisme, la poésie, auparavant dite légère, ne tirât sa minime raison d’être
+          que de la difficulté vaincue ; ne pouvant être émouvant, ni poétique, on était ingénieux ;
+          on jouait à un jeu de bague avec chances égalisées pour tous par la règle. Que Banville a
+          raison dans son texte contre Malherbe et Boileau : les règles draconiennes édictées par le
+          seul Boileau ne se fondent sur rien de sérieux, c’est du pur arbitraire, c’est la volonté
+          d’un critique gâté, s’imposant sans raison ; et Banville dit encore mille <pb n="13"/>fois
+          plus juste quand il déclare, que seule la lâcheté humaine fit qu’on déféra à cette loi,
+          que c’est de par cette lâcheté et cet amour de la servitude qu’après Lamartine, Hugo,
+          Gautier, Leconte de l’Isle, on en discutait encore. Mais il y avait, au temps de Boileau,
+          une cause extrinsèque, une cause profonde pour Boileau, fondée au moins sur un sentiment.
+          En ce temps de centralisation, quand les derniers rameaux de pouvoir féodal qui gênaient
+          les belles allées du pouvoir royal furent ébranchés, en ce temps de Le Nôtre, il fallut,
+          pour toutes choses, un jardinier aux plans rectilignes ; on ne s’occupa nullement, pour
+          donner l’apparat et la noblesse au vers français (cette noblesse, chape de plomb, manteau
+          lourd et sans forme aux épaules de la Muse) que la règle fût juste ; on la rechercha
+          suffisante mais surtout uniforme et majestueuse ; il y eut une flexion sur un jarret
+          pendant un pas majestueux : l’hémistiche ; et cette règle de Boileau est antipoétique,
+          parce qu’elle ne naît pas des besoins du poème, qu’elle découle, fausse, d’une visée
+          sociale.</p>
         <p/>
-        <p>Nous ne confondrons point le vif génie de Banville <pb n="14"/>avec le pesant talent de Boileau ; ce sera la noblesse perpétuelle du maître de Florise, ses reproches à Hugo de n’avoir point brisé les barrières, ses dits, qu’on est encore timide quand on se croit le plus audacieux, l’hésitation, le doute sur lequel il conclut sa prosodie, sa vision que la rythmique romantique n’était pas éternelle. Nous ne saurions pas davantage attribuer à cette rythmique le caractère pesant et illogique de la règle classique. L’instruction que nous laissèrent les romantiques est pleine de choses excellentes, apprises du <num>xvi<hi rend="sup">e</hi></num> siècle, et aussi découvertes au <num>xix<hi rend="sup">e</hi></num> ; mais comme les règles des trois unités, excellentes en certains cas, elle ne peut s’appliquer à tous. Devenant une règle <hi rend="i">ne varietur</hi>, elle garrotterait le lyrisme tout comme une autre.</p>
-        <p>Il y a quinze ans environ, parmi les poètes déjà notoires, d’aucuns cherchaient déjà à réformer, à modifier leur procédé poétique ; deux méthodes se présentaient, grâce à plusieurs poètes. M. Stéphane Mallarmé, qui pensait que le vers manquait d’euphémisme et de fluidité, ne cherchait point à le libérer, bien au contraire ; pour ainsi dire, il l’essentialisait ; c’était affaire de fonds et de choix de <pb n="15"/>syllabes. Les personnes que l’harmonie douce de Lamartine requiert ne pouvaient, en bonne justice, ne point admirer les beaux vers publiés dans le premier Parnasse, et la chuchotante, magique, illuminée harmonie de <hi rend="i">l’Après-midi d’un Faune</hi>. D’un autre côté, Verlaine et Rimbaud s’étaient avisés de briser le vers, de le disloquer, de donner droit de cité aux rythmes impairs. C’est il y a onze ans que <hi rend="i">Jadis et Naguère</hi> nous vint apporter tant de courbes gracieuses et flexibles, et peu après, la bienveillance de Verlaine me mettait en possession du manuscrit des <hi rend="i">Illuminations</hi> que je publiais immédiatement dans <hi rend="i">la Vogue</hi>. Les vers de Rimbaud, qui faisaient partie des <hi rend="i">Illuminations</hi>, affranchis de bien des entraves, n’étaient point le vers libre, non plus que ceux de Verlaine. De très habiles dissonances sur la métrique ancienne donnaient l’apparence qu’un instrument nouveau chantait, mais apparence illusoire ; c’était, avec bien du charme et de la ductilité en plus, avec un sens très critique, l’ancienne rythmique : je dis bien rythmique et non poésie, car je m’occupe ici de la forme et non de la gamme toute neuve d’idées qui frissonnait en ces <pb n="16"/>deux poètes. Leur vers est le vers <quote>« délicieusement faux exprès »</quote>. Depuis longtemps je cherchais autre chose que ce que m’apportaient ces nouveaux livres et celui de Corbière glorieusement ressuscité. Il me semblait insuffisant de mettre au sonnet la tête en bas, de jouer sur le rythme, d’agrandir les perspectives de la symétrie. Depuis longtemps je cherchais à trouver en moi un rythme personnel suffisant pour interpréter mes lyrismes avec l’allure et l’accent que je leur jugeais indispensables ; à mes yeux, l’ancienne métrique devait n’être plus qu’un cas particulier d’une métrique nouvelle, l’englobant et la dépassant, et se privant des formes fixes gauchies par un trop long usage, et fatiguées de traditions. Si un livre de vers libres ne parut point avant les <hi rend="i">Palais Nomades</hi>, ce n’est point tant la forme que j’en jugeais insuffisante pour être présentée au public que le fond. Laforgue, depuis nos vingt ans simultanés, connaissait mes théories ; mais à l’application de mes principes encore embryonnaires, désirs plus que système, mais contenant en germe les développements à venir, nos vers furent bien différents de par nos organisations et nos buts dissemblables. Dans un affranchissement du vers, je cherchais une musique plus complexe, et Laforgue s’inquiétait d’un mode de donner la sensation même, la vérité plus stricte, plus lacée, sans chevilles aucunes, avec le plus d’acuité possible et le plus d’accent personnel, comme parlé. Quoiqu’il y ait beaucoup de mélodie dans les complaintes, Laforgue, se souciant moins de musique (sauf pour évoquer quelque ancien refrain de la rue), négligeait de parti-pris l’unité strophe, ce qui causa que beaucoup de ses poèmes parurent relever, avec des rythmes neufs à foison, et tant de beautés, de l’école qui tendait seulement à sensibiliser le vers, soit celle de Verlaine, Rimbaud et quelques poètes épris de questions de césure, doués dans la recherche d’un vocabulaire rare et renouvelé. Je crois que dès ce moment, et à ce moment (surtout), mes efforts porteront surtout sur la construction de la strophe, et Laforgue s’en écartait délibérément, volontairement, vers une liberté idéologique plus grande qui le devait conduire à cette phrase mobile et transparente, poétique certes, des poignantes <hi rend="i">Fleurs de bonne volonté</hi>.</p>
-        <p><pb n="18"/>La tentative formelle des <hi rend="i">Palais Nomades</hi> est, quant à son essence, appréciée clairement par M. Albert Mockel, dans ses <hi rend="i">Propos de littérature</hi>, travail qui est, dès qu’il touche aux généralités, remarquable. <quote>« M. Gustave Kahn, dit-il, innova une strophe ondoyante et libre dont les vers, appuyés sur des syllabes toniques, créaient jusqu’en sa perfection la réforme attendue ; il ne leur manquait qu’un peu de force rythmique, à telles places, et une harmonie sonore plus ferme, et plus continue que remplaçait d’ailleurs une heureuse harmonie de tons lumineux. La publication de ces vers fut immédiatement suivie, en Belgique et en France, de poèmes conçus selon des formes voisines. M. Vielé-Griffin, après avoir hésité, semble-t-il, s’élança joyeusement au plus fort de la bataille. M. de Régnier suivit, mais de plus loin ; comme la plupart des littérateurs d’à présent ; ces deux poètes ont rejeté la camisole de force de l’alexandrin, mais celui-là plus définitivement que celui-ci, etc… »</quote> J’ai cité de M. Mockel les éloges qu’il m’adresse à cause de ses atténuations sans doute justes. Son historique de la question est d’ailleurs exact, et il a vu <pb n="19"/>la différence entre le vers libéré, verlainien, et le vers libre fort nettement, s’il s’est un peu borné en sa nomenclature des poètes participant au premier de ses mouvements, assez parents tous deux pour que le groupe symboliste avec ses aînés admirés et tels prosateurs fût suffisamment uni quelque temps par une similitude momentanée de vues ; les idées d’affranchissement et de complexité plus grande prêtant le terrain commun.</p>
+        <p>Nous ne confondrons point le vif génie de Banville <pb n="14"/>avec le pesant talent de
+          Boileau ; ce sera la noblesse perpétuelle du maître de Florise, ses reproches à Hugo de
+          n’avoir point brisé les barrières, ses dits, qu’on est encore timide quand on se croit le
+          plus audacieux, l’hésitation, le doute sur lequel il conclut sa prosodie, sa vision que la
+          rythmique romantique n’était pas éternelle. Nous ne saurions pas davantage attribuer à
+          cette rythmique le caractère pesant et illogique de la règle classique. L’instruction que
+          nous laissèrent les romantiques est pleine de choses excellentes, apprises du <num>xvi<hi
+              rend="sup">e</hi></num> siècle, et aussi découvertes au <num>xix<hi rend="sup"
+            >e</hi></num> ; mais comme les règles des trois unités, excellentes en certains cas,
+          elle ne peut s’appliquer à tous. Devenant une règle <hi rend="i">ne varietur</hi>, elle
+          garrotterait le lyrisme tout comme une autre.</p>
+        <p>Il y a quinze ans environ, parmi les poètes déjà notoires, d’aucuns cherchaient déjà à
+          réformer, à modifier leur procédé poétique ; deux méthodes se présentaient, grâce à
+          plusieurs poètes. M. Stéphane Mallarmé, qui pensait que le vers manquait d’euphémisme et
+          de fluidité, ne cherchait point à le libérer, bien au contraire ; pour ainsi dire, il
+          l’essentialisait ; c’était affaire de fonds et de choix de <pb n="15"/>syllabes. Les
+          personnes que l’harmonie douce de Lamartine requiert ne pouvaient, en bonne justice, ne
+          point admirer les beaux vers publiés dans le premier Parnasse, et la chuchotante, magique,
+          illuminée harmonie de <hi rend="i">l’Après-midi d’un Faune</hi>. D’un autre côté, Verlaine
+          et Rimbaud s’étaient avisés de briser le vers, de le disloquer, de donner droit de cité
+          aux rythmes impairs. C’est il y a onze ans que <hi rend="i">Jadis et Naguère</hi> nous
+          vint apporter tant de courbes gracieuses et flexibles, et peu après, la bienveillance de
+          Verlaine me mettait en possession du manuscrit des <hi rend="i">Illuminations</hi> que je
+          publiais immédiatement dans <hi rend="i">la Vogue</hi>. Les vers de Rimbaud, qui faisaient
+          partie des <hi rend="i">Illuminations</hi>, affranchis de bien des entraves, n’étaient
+          point le vers libre, non plus que ceux de Verlaine. De très habiles dissonances sur la
+          métrique ancienne donnaient l’apparence qu’un instrument nouveau chantait, mais apparence
+          illusoire ; c’était, avec bien du charme et de la ductilité en plus, avec un sens très
+          critique, l’ancienne rythmique : je dis bien rythmique et non poésie, car je m’occupe ici
+          de la forme et non de la gamme toute neuve d’idées qui frissonnait en ces <pb n="16"/>deux
+          poètes. Leur vers est le vers <quote>« délicieusement faux exprès »</quote>. Depuis
+          longtemps je cherchais autre chose que ce que m’apportaient ces nouveaux livres et celui
+          de Corbière glorieusement ressuscité. Il me semblait insuffisant de mettre au sonnet la
+          tête en bas, de jouer sur le rythme, d’agrandir les perspectives de la symétrie. Depuis
+          longtemps je cherchais à trouver en moi un rythme personnel suffisant pour interpréter mes
+          lyrismes avec l’allure et l’accent que je leur jugeais indispensables ; à mes yeux,
+          l’ancienne métrique devait n’être plus qu’un cas particulier d’une métrique nouvelle,
+          l’englobant et la dépassant, et se privant des formes fixes gauchies par un trop long
+          usage, et fatiguées de traditions. Si un livre de vers libres ne parut point avant les <hi
+            rend="i">Palais Nomades</hi>, ce n’est point tant la forme que j’en jugeais insuffisante
+          pour être présentée au public que le fond. Laforgue, depuis nos vingt ans simultanés,
+          connaissait mes théories ; mais à l’application de mes principes encore embryonnaires,
+          désirs plus que système, mais contenant en germe les développements à venir, nos vers
+          furent bien différents de par nos organisations et nos buts dissemblables. Dans un
+          affranchissement du vers, je cherchais une musique plus complexe, et Laforgue s’inquiétait
+          d’un mode de donner la sensation même, la vérité plus stricte, plus lacée, sans chevilles
+          aucunes, avec le plus d’acuité possible et le plus d’accent personnel, comme parlé.
+          Quoiqu’il y ait beaucoup de mélodie dans les complaintes, Laforgue, se souciant moins de
+          musique (sauf pour évoquer quelque ancien refrain de la rue), négligeait de parti-pris
+          l’unité strophe, ce qui causa que beaucoup de ses poèmes parurent relever, avec des
+          rythmes neufs à foison, et tant de beautés, de l’école qui tendait seulement à
+          sensibiliser le vers, soit celle de Verlaine, Rimbaud et quelques poètes épris de
+          questions de césure, doués dans la recherche d’un vocabulaire rare et renouvelé. Je crois
+          que dès ce moment, et à ce moment (surtout), mes efforts porteront surtout sur la
+          construction de la strophe, et Laforgue s’en écartait délibérément, volontairement, vers
+          une liberté idéologique plus grande qui le devait conduire à cette phrase mobile et
+          transparente, poétique certes, des poignantes <hi rend="i">Fleurs de bonne
+          volonté</hi>.</p>
+        <p><pb n="18"/>La tentative formelle des <hi rend="i">Palais Nomades</hi> est, quant à son
+          essence, appréciée clairement par M. Albert Mockel, dans ses <hi rend="i">Propos de
+            littérature</hi>, travail qui est, dès qu’il touche aux généralités, remarquable.
+            <quote>« M. Gustave Kahn, dit-il, innova une strophe ondoyante et libre dont les vers,
+            appuyés sur des syllabes toniques, créaient jusqu’en sa perfection la réforme attendue ;
+            il ne leur manquait qu’un peu de force rythmique, à telles places, et une harmonie
+            sonore plus ferme, et plus continue que remplaçait d’ailleurs une heureuse harmonie de
+            tons lumineux. La publication de ces vers fut immédiatement suivie, en Belgique et en
+            France, de poèmes conçus selon des formes voisines. M. Vielé-Griffin, après avoir
+            hésité, semble-t-il, s’élança joyeusement au plus fort de la bataille. M. de Régnier
+            suivit, mais de plus loin ; comme la plupart des littérateurs d’à présent ; ces deux
+            poètes ont rejeté la camisole de force de l’alexandrin, mais celui-là plus
+            définitivement que celui-ci, etc… »</quote> J’ai cité de M. Mockel les éloges qu’il
+          m’adresse à cause de ses atténuations sans doute justes. Son historique de la question est
+          d’ailleurs exact, et il a vu <pb n="19"/>la différence entre le vers libéré, verlainien,
+          et le vers libre fort nettement, s’il s’est un peu borné en sa nomenclature des poètes
+          participant au premier de ses mouvements, assez parents tous deux pour que le groupe
+          symboliste avec ses aînés admirés et tels prosateurs fût suffisamment uni quelque temps
+          par une similitude momentanée de vues ; les idées d’affranchissement et de complexité plus
+          grande prêtant le terrain commun.</p>
       </div>
       <div>
         <head>II</head>
-        <p>L’influence de Verlaine vis-à-vis du vers libre a été contée et plutôt magnifiée ; l’influence de M. Stéphane Mallarmé n’a pas été bien caractérisée. À côté de l’emprise exercée par les livres, il existe toujours, en même temps, des puissances orales. Celle de M. Mallarmé fut considérable. Ce fut du contact de ses idées et d’idées proches d’écrivains plus jeunes que naquit le mot symbolisme. Pratiquement, par l’exemple, il orientait contre le naturalisme, <pb n="20"/>et vers l’idée d’une poésie pure ; on ne trouverait point trace de son voisinage chez les meilleurs d’entre nous, à tel ou tel vers, mais peut-être dans des tenues générales d’un livre. Il enhardit à ne point craindre toute complication d’idées, sous prétexte d’obscurité, à renoncer à la carrure vulgaire dans la mise en page d’une idée. Son contact verbal était éminemment idéologique. Il est un des chaînons qui nous rattachent à Baudelaire, car Baudelaire fut un précurseur, non seulement par les enluminures qui parent les <hi rend="i">Fleurs du Mal</hi>, mais aussi surtout pour sa recherche d’une forme intermédiaire entre la poésie et la prose qu’il ne réussit parfaitement qu’une fois, mais admirablement, dans <hi rend="i">les Bienfaits de la Lune</hi> (Mendès a aussi, au moins une fois, retrouvé avec bonheur cette formule composée) ; et de comparer les parties rythmiques des <hi rend="i">Fleurs du Mal</hi> et des <hi rend="i">Poèmes en prose</hi> nous avait donné l’idée d’un livre mixte où les deux formes de phrases chantées eussent logiquement alterné. Le demeurant de cette préoccupation se retrouve dans la disposition des <hi rend="i">Palais Nomades</hi> ; ce ne fut d’ailleurs qu’une étape, car le <pb n="21"/>vers libre a le devoir de tout rendre suffisamment dans le corps des poèmes ; mais ceci marque le point de raccord avec la tradition. Parmi les éléments du vers libre, celui-ci existe, il en contient d’autres, et bien d’autres ambitions, car quel est le novateur qui, tout en sachant ses origines (sans cela il ne serait point conscient), ne rêve une totale reconstruction de tout, d’autant que tout critique sérieux se rend compte qu’en ébranlant un pan de la façade artistique on touche à toute la façade sociale ; c’est ce qui explique que, lorsque les revendications d’art se présentent, elles rencontrent d’aussi agressives résistances. Les gardiens du constitué sont d’accord sur toute la ligne ; les Académies de poésie, de musique, de danse et de morale et tous les octrois de la muraille de Chine mobilisent toutes leurs forces, et si l’on se demande plus tard comment l’union hétérogène du symbolisme put durer quelques années, forte, nous l’avons dit, de poètes dissemblables, de romanciers comme Adam, fréquentée de peintres comme Seurat, c’est que toutes les idées nouvelles se solidarisent en raison de l’identique et solidarisée résistance. Le <pb n="22"/>Wagnérianisme était foi, pour ceux du symbolisme alliés à ceux de l’impressionnisme, si partagés pourtant, si distants, si opposés. Au temps de <hi rend="i">la Vogue</hi> et de <hi rend="i">la Revue indépendante</hi>, pour le vrai lecteur (minorité que nous aimions nous figurer une élite), la littérature nouvelle commençait à Goncourt, égrégé du naturalisme, passait par Villiers de l’Isle-Adam, et nous englobait tous, nous autres du moins sur les confins, disait-on métaphoriquement. C’était bien l’avis de la grosse critique ; la plus fine, M. Anatole France et M. Lemaître distinguaient mieux, ce qui leur permettait de nous aimer moins. Choses d’autrefois (je ne veux pas dire qu’ils en soient venus à la dilection), nous ne comptions d’affection dans la grande presse qu’auprès de Mirbeau. Mais c’est assez de souvenirs : le vers libre ne date pas de cent ans, mais de dix.</p>
+        <p>L’influence de Verlaine vis-à-vis du vers libre a été contée et plutôt magnifiée ;
+          l’influence de M. Stéphane Mallarmé n’a pas été bien caractérisée. À côté de l’emprise
+          exercée par les livres, il existe toujours, en même temps, des puissances orales. Celle de
+          M. Mallarmé fut considérable. Ce fut du contact de ses idées et d’idées proches
+          d’écrivains plus jeunes que naquit le mot symbolisme. Pratiquement, par l’exemple, il
+          orientait contre le naturalisme, <pb n="20"/>et vers l’idée d’une poésie pure ; on ne
+          trouverait point trace de son voisinage chez les meilleurs d’entre nous, à tel ou tel
+          vers, mais peut-être dans des tenues générales d’un livre. Il enhardit à ne point craindre
+          toute complication d’idées, sous prétexte d’obscurité, à renoncer à la carrure vulgaire
+          dans la mise en page d’une idée. Son contact verbal était éminemment idéologique. Il est
+          un des chaînons qui nous rattachent à Baudelaire, car Baudelaire fut un précurseur, non
+          seulement par les enluminures qui parent les <hi rend="i">Fleurs du Mal</hi>, mais aussi
+          surtout pour sa recherche d’une forme intermédiaire entre la poésie et la prose qu’il ne
+          réussit parfaitement qu’une fois, mais admirablement, dans <hi rend="i">les Bienfaits de
+            la Lune</hi> (Mendès a aussi, au moins une fois, retrouvé avec bonheur cette formule
+          composée) ; et de comparer les parties rythmiques des <hi rend="i">Fleurs du Mal</hi> et
+          des <hi rend="i">Poèmes en prose</hi> nous avait donné l’idée d’un livre mixte où les deux
+          formes de phrases chantées eussent logiquement alterné. Le demeurant de cette
+          préoccupation se retrouve dans la disposition des <hi rend="i">Palais Nomades</hi> ; ce ne
+          fut d’ailleurs qu’une étape, car le <pb n="21"/>vers libre a le devoir de tout rendre
+          suffisamment dans le corps des poèmes ; mais ceci marque le point de raccord avec la
+          tradition. Parmi les éléments du vers libre, celui-ci existe, il en contient d’autres, et
+          bien d’autres ambitions, car quel est le novateur qui, tout en sachant ses origines (sans
+          cela il ne serait point conscient), ne rêve une totale reconstruction de tout, d’autant
+          que tout critique sérieux se rend compte qu’en ébranlant un pan de la façade artistique on
+          touche à toute la façade sociale ; c’est ce qui explique que, lorsque les revendications
+          d’art se présentent, elles rencontrent d’aussi agressives résistances. Les gardiens du
+          constitué sont d’accord sur toute la ligne ; les Académies de poésie, de musique, de danse
+          et de morale et tous les octrois de la muraille de Chine mobilisent toutes leurs forces,
+          et si l’on se demande plus tard comment l’union hétérogène du symbolisme put durer
+          quelques années, forte, nous l’avons dit, de poètes dissemblables, de romanciers comme
+          Adam, fréquentée de peintres comme Seurat, c’est que toutes les idées nouvelles se
+          solidarisent en raison de l’identique et solidarisée résistance. Le <pb n="22"
+          />Wagnérianisme était foi, pour ceux du symbolisme alliés à ceux de l’impressionnisme, si
+          partagés pourtant, si distants, si opposés. Au temps de <hi rend="i">la Vogue</hi> et de
+            <hi rend="i">la Revue indépendante</hi>, pour le vrai lecteur (minorité que nous aimions
+          nous figurer une élite), la littérature nouvelle commençait à Goncourt, égrégé du
+          naturalisme, passait par Villiers de l’Isle-Adam, et nous englobait tous, nous autres du
+          moins sur les confins, disait-on métaphoriquement. C’était bien l’avis de la grosse
+          critique ; la plus fine, M. Anatole France et M. Lemaître distinguaient mieux, ce qui leur
+          permettait de nous aimer moins. Choses d’autrefois (je ne veux pas dire qu’ils en soient
+          venus à la dilection), nous ne comptions d’affection dans la grande presse qu’auprès de
+          Mirbeau. Mais c’est assez de souvenirs : le vers libre ne date pas de cent ans, mais de
+          dix.</p>
       </div>
       <div>
         <head>III</head>
-        <p>Je disais en 1888, dans <hi rend="i">la Revue indépendante</hi>, à propos d’un article de M. Brunetière donnant l’occasion de clarifier quelques notions :</p>
+        <p>Je disais en 1888, dans <hi rend="i">la Revue indépendante</hi>, à propos d’un article de
+          M. Brunetière donnant l’occasion de clarifier quelques notions :</p>
         <quote>
-          <p><pb n="23"/>« Il faut bien admettre que, ainsi des mœurs et des modes, les formes poétiques se développent et meurent, qu’elles évoluent d’une liberté initiale à un dessèchement, puis à une inutile virtuosité ; et qu’alors elles disparaissent devant l’effort des nouveaux lettrés préoccupés, ceux-ci, d’une pensée plus complexe, par conséquent plus difficile à rendre au moyen de formules d’avance circonscrites et fermées.</p>
-          <p>On sait aussi qu’après avoir trop servi les formes demeurent comme effacées ; leur effet primitif est perdu, et les écrivains capables de les renouveler considèrent comme inutile de se soumettre à des règles dont ils savent l’origine empirique et les débilités. Ceci est vrai pour l’évolution de tous les arts en tous les temps. Il n’y a aucune raison pour que cette vérité s’infirme en 1888, car notre époque ne paraît nullement la période d’apogée du développement intellectuel. — Ceci dit pour établir la légitimité d’un effort vers une nouvelle forme de poésie.</p>
+          <p><pb n="23"/>« Il faut bien admettre que, ainsi des mœurs et des modes, les formes
+            poétiques se développent et meurent, qu’elles évoluent d’une liberté initiale à un
+            dessèchement, puis à une inutile virtuosité ; et qu’alors elles disparaissent devant
+            l’effort des nouveaux lettrés préoccupés, ceux-ci, d’une pensée plus complexe, par
+            conséquent plus difficile à rendre au moyen de formules d’avance circonscrites et
+            fermées.</p>
+          <p>On sait aussi qu’après avoir trop servi les formes demeurent comme effacées ; leur
+            effet primitif est perdu, et les écrivains capables de les renouveler considèrent comme
+            inutile de se soumettre à des règles dont ils savent l’origine empirique et les
+            débilités. Ceci est vrai pour l’évolution de tous les arts en tous les temps. Il n’y a
+            aucune raison pour que cette vérité s’infirme en 1888, car notre époque ne paraît
+            nullement la période d’apogée du développement intellectuel. — Ceci dit pour établir la
+            légitimité d’un effort vers une nouvelle forme de poésie.</p>
           <p>Comment cet effort fut-il conçu ? brièvement voici :</p>
-          <p>Il fallait d’abord comprendre la vérité profonde <pb n="24"/>des tentatives antérieures et se demander pourquoi les poètes s’étaient bornés dans leurs essais de réforme. Or, il appert que si la poésie marche très lentement dans la voie de l’émancipation c’est qu’on a négligé de s’enquérir de son unité principale (analogue de l’élément organique) et que si on perçut quelquefois cette unité élémentaire, on négligea de s’y arrêter et même d’en profiter. Ainsi les romantiques, pour augmenter les moyens d’expression de l’alexandrin ou plus généralement des vers à jeu de syllabes pairs, inventèrent le rejet qui consiste en un trompe-l’œil transmutant deux vers de douze pieds en un vers de quatorze ou quinze et un de neuf ou dix. Il y a là dissonance et bien résolution de la dissonance. Mais s’ils avaient cherché à analyser le vers classique, avant de se précipiter sur n’importe quel moyen de le varier, ils eussent vu que dans le distique :</p>
-          <p/>
-          <l>                Oui, je viens dans son temple adorer l’Éternel,</l>
-          <l>                Je viens selon l’usage antique et solennel</l>
-          <p/>
-          <p>le premier vers se compose de deux vers de six pieds dont le premier est un vers blanc</p>
-          <p/>
-          <l>                           Oui, je viens dans son temple</l>
-          <p/>
+          <p>Il fallait d’abord comprendre la vérité profonde <pb n="24"/>des tentatives antérieures
+            et se demander pourquoi les poètes s’étaient bornés dans leurs essais de réforme. Or, il
+            appert que si la poésie marche très lentement dans la voie de l’émancipation c’est qu’on
+            a négligé de s’enquérir de son unité principale (analogue de l’élément organique) et que
+            si on perçut quelquefois cette unité élémentaire, on négligea de s’y arrêter et même
+            d’en profiter. Ainsi les romantiques, pour augmenter les moyens d’expression de
+            l’alexandrin ou plus généralement des vers à jeu de syllabes pairs, inventèrent le rejet
+            qui consiste en un trompe-l’œil transmutant deux vers de douze pieds en un vers de
+            quatorze ou quinze et un de neuf ou dix. Il y a là dissonance et bien résolution de la
+            dissonance. Mais s’ils avaient cherché à analyser le vers classique, avant de se
+            précipiter sur n’importe quel moyen de le varier, ils eussent vu que dans le
+            distique :</p>
+          <quote>
+            <l>Oui, je viens dans son temple adorer l’Éternel,</l>
+            <l>Je viens selon l’usage antique et solennel</l></quote>
+          <p>le premier vers se compose de deux vers de six pieds dont le premier est un vers
+            blanc</p>
+          <quote>
+            <l>Oui, je viens dans son temple</l>
+          </quote>
           <p><pb n="25"/>et dont l’autre</p>
-          <p/>
-          <l>                           adorer l’Éternel</l>
-          <p/>
-          <p>serait également blanc, si, par habitude, on n’était sûr de trouver la rime au vers suivant, c’est-à-dire au quatrième des vers de six pieds groupés en un distique.</p>
-          <p>Donc à premier examen ce distique se compose de quatre vers de six pieds dont deux seulement riment. Si l’on pousse plus loin l’investigation on découvre que les vers sont ainsi scandés</p>
-          <p/>
-          <l>                 3 3  3 3</l>
-          <l>                Oui je viens — dans son temple — adorer — l’Éternel</l>
-          <l>                2 4 2 4</l>
-          <l>                Je viens — selon l’usage — antique — et solennel</l>
-          <p/>
-          <p>soit un premier vers composé de quatre éléments de trois pieds ternaires, et un second vers scandé 2,4, 2,4. — Il est évident que tout grand poète ayant perçu d’une façon plus ou moins théorique les conditions élémentaires du vers, Racine a empiriquement ou instinctivement appliqué les règles fondamentales et nécessaires de la poésie et que c’est selon notre théorie que ses vers doivent se <pb n="26"/>scander. La question de césure, chez les maîtres de la poésie classique, ne se pose même pas<note resp="author">Ce fut Boileau qui la posa.</note>.</p>
-          <p>Dans les vers précités, l’unité vraie n’est pas le <hi rend="i">nombre</hi> conventionnel du vers, mais un arrêt simultané du sens et du rythme sur toute fraction organique du vers et de la pensée. Cette unité consiste en un nombre ou rythme de voyelles et de consonnes qui sont cellule organique et indépendante. Il en résulte que les libertés romantiques, dont l’exagération (plaisante) se trouverait dans des vers comme ceux-ci</p>
-          <p/>
-          <l>                Les demoiselles chez Ozy</l>
-          <l>                            menées</l>
-          <l>                ne doivent plus songer aux hy</l>
-          <l>                            ménées</l>
-          <p/>
-          <p>sont fausses dans leur intention, parce qu’ils comportent un arrêt pour l’oreille que ne motive aucun arrêt du sens.</p>
-          <p>L’unité du vers peut se définir encore : un fragment le plus court possible figurant un arrêt de voix et un arrêt de sens.</p>
-          <p><pb n="27"/>Pour assembler ces unités et leur donner la cohésion de façon qu’elles forment un vers il les faut apparenter. Les parentés s’appellent allitérations, soit l’union de consonnes parentes ou assonances par des voyelles similaires. On obtient par assonances et allitérations des vers comme celui-ci :</p>
-          <p/>
-          <l>                            Des mirages | de leur visage | garde | le lac | de mes yeux</l>
-          <p/>
-          <p>Tandis que le vers classique ou romantique n’existe qu’à la condition d’être suivi d’un second vers, ou d’y correspondre à brève distance, ce vers pris comme exemple possède son existence propre et intérieure. Comment l’apparenter à d’autres vers ? par la construction logique de la strophe se constituant d’après les mesures intérieures du vers qui dans cette strophe contient la pensée principale, ou le point essentiel de la pensée.</p>
-          <p>Ce que j’aurais à dire sur l’emploi des strophes fixes, soit les plus anciennes, et des strophes libres serait la répétition de ce que je viens d’énoncer à propos du vers fixe ; il est aussi inutile de s’astreindre au sonnet ou à la ballade traditionnels que de s’astreindre aux divisions empiriques du vers.</p>
-          <p><pb n="28"/>L’importance de cette technique nouvelle, en dehors de la mise en valeur d’harmonies forcément négligées, sera de permettre à tout poète de concevoir en lui son vers ou plutôt sa strophe originale, et d’écrire son rythme propre et individuel au lieu d’endosser un uniforme taillé d’avance et qui le réduit à n’être que l’élève de tel glorieux prédécesseur.</p>
-          <p>D’ailleurs employer les ressources de l’ancienne poétique reste souvent loisible. Cette poétique possède sa valeur et la conserve en tant que cas particulier, de la nouvelle comme celle-ci est destinée à n’être plus tard qu’un cas particulier d’une poétique plus générale ; l’ancienne poésie différait de la prose par une certaine ordonnance ; la nouvelle voudrait s’en différencier par la musique, il se peut très bien qu’en une poésie libre on trouve des alexandrins et des strophes en alexandrins, mais alors ils sont en leur place sans exclusion de rythmes plus complexes… »</p>
+          <quote><l>adorer l’Éternel</l></quote>
+          <p>serait également blanc, si, par habitude, on n’était sûr de trouver la rime au vers
+            suivant, c’est-à-dire au quatrième des vers de six pieds groupés en un distique.</p>
+          <p>Donc à premier examen ce distique se compose de quatre vers de six pieds dont deux
+            seulement riment. Si l’on pousse plus loin l’investigation on découvre que les vers sont
+            ainsi scandés</p>
+          <quote><l>3 3 3 3</l>
+            <l>Oui je viens — dans son temple — adorer — l’Éternel</l>
+            <l>2 4 2 4</l>
+            <l>Je viens — selon l’usage — antique — et solennel</l></quote>
+          <p>soit un premier vers composé de quatre éléments de trois pieds ternaires, et un second
+            vers scandé 2,4, 2,4. — Il est évident que tout grand poète ayant perçu d’une façon plus
+            ou moins théorique les conditions élémentaires du vers, Racine a empiriquement ou
+            instinctivement appliqué les règles fondamentales et nécessaires de la poésie et que
+            c’est selon notre théorie que ses vers doivent se <pb n="26"/>scander. La question de
+            césure, chez les maîtres de la poésie classique, ne se pose même pas<note resp="author"
+              >Ce fut Boileau qui la posa.</note>.</p>
+          <p>Dans les vers précités, l’unité vraie n’est pas le <hi rend="i">nombre</hi>
+            conventionnel du vers, mais un arrêt simultané du sens et du rythme sur toute fraction
+            organique du vers et de la pensée. Cette unité consiste en un nombre ou rythme de
+            voyelles et de consonnes qui sont cellule organique et indépendante. Il en résulte que
+            les libertés romantiques, dont l’exagération (plaisante) se trouverait dans des vers
+            comme ceux-ci</p>
+          <quote><l>Les demoiselles chez Ozy</l>
+            <l>            menées</l>
+            <l>ne doivent plus songer aux hy</l>
+            <l>            ménées</l></quote>
+          <p>sont fausses dans leur intention, parce qu’ils comportent un arrêt pour l’oreille que
+            ne motive aucun arrêt du sens.</p>
+          <p>L’unité du vers peut se définir encore : un fragment le plus court possible figurant un
+            arrêt de voix et un arrêt de sens.</p>
+          <p><pb n="27"/>Pour assembler ces unités et leur donner la cohésion de façon qu’elles
+            forment un vers il les faut apparenter. Les parentés s’appellent allitérations, soit
+            l’union de consonnes parentes ou assonances par des voyelles similaires. On obtient par
+            assonances et allitérations des vers comme celui-ci :</p>
+          <quote><l>Des mirages | de leur visage | garde | le lac | de mes yeux</l></quote>
+          <p>Tandis que le vers classique ou romantique n’existe qu’à la condition d’être suivi d’un
+            second vers, ou d’y correspondre à brève distance, ce vers pris comme exemple possède
+            son existence propre et intérieure. Comment l’apparenter à d’autres vers ? par la
+            construction logique de la strophe se constituant d’après les mesures intérieures du
+            vers qui dans cette strophe contient la pensée principale, ou le point essentiel de la
+            pensée.</p>
+          <p>Ce que j’aurais à dire sur l’emploi des strophes fixes, soit les plus anciennes, et des
+            strophes libres serait la répétition de ce que je viens d’énoncer à propos du vers
+            fixe ; il est aussi inutile de s’astreindre au sonnet ou à la ballade traditionnels que
+            de s’astreindre aux divisions empiriques du vers.</p>
+          <p><pb n="28"/>L’importance de cette technique nouvelle, en dehors de la mise en valeur
+            d’harmonies forcément négligées, sera de permettre à tout poète de concevoir en lui son
+            vers ou plutôt sa strophe originale, et d’écrire son rythme propre et individuel au lieu
+            d’endosser un uniforme taillé d’avance et qui le réduit à n’être que l’élève de tel
+            glorieux prédécesseur.</p>
+          <p>D’ailleurs employer les ressources de l’ancienne poétique reste souvent loisible. Cette
+            poétique possède sa valeur et la conserve en tant que cas particulier, de la nouvelle
+            comme celle-ci est destinée à n’être plus tard qu’un cas particulier d’une poétique plus
+            générale ; l’ancienne poésie différait de la prose par une certaine ordonnance ; la
+            nouvelle voudrait s’en différencier par la musique, il se peut très bien qu’en une
+            poésie libre on trouve des alexandrins et des strophes en alexandrins, mais alors ils
+            sont en leur place sans exclusion de rythmes plus complexes… »</p>
         </quote>
       </div>
       <div>
         <head>IV</head>
         <p><pb n="29"/>Qu’ajouterai-je à ce trop bref et ancien exposé ?</p>
-        <p>Nous avons bien en français un accent tonique ; mais il est faible et cela tient à l’amalgame que fit Paris des prononciations excessives et différentes des provinces, les usant pour en constituer une langue modérée, calme, juste-milieu, quant au retentissement des consonnes et au chant des voyelles, neutre de préférence à bariolée. Cet accent tonique qu’on pourrait relever dans les mots, en les laissant immobiles, soit en les citant à la file, en exemples, disparaît à la conversation, à la déclamation, ou mieux, il ne disparaît point, mais se modifie. Il y a donc un accent général qui, dans la conversation ou la déclamation, dirige toute une période, ou toute une strophe, y fixe la longueur des valeurs auditives, ainsi que les timbres des mots. Cet accent semblable chez tout le monde, en ce sens que chaque passion, chez tous, produit à peu près le même phénomène, accélération <pb n="30"/>ou ralentissement, semblable au moins en son essence, cet accent est communiqué aux mots, par le sentiment qui agite le causeur ou le poète, uniquement, sans souci d’accent tonique ou de n’importe quelle valeur fixe qu’ils possédaient en eux-mêmes. Cet <hi rend="i">accent d’impulsion</hi> dirige l’harmonie du vers principal de la strophe, ou d’un vers initial qui donne le mouvement, et les autres vers, à moins qu’on ne recherche un effet de contraste, se doivent modeler sur les valeurs de ce vers telles que les a fixées l’accent d’impulsion. C’est cette loi fondamentale que MM. Mockel et de Souza ont discernée à leur tour, en étudiant le rythme poétique et qu’ils dénomment l’accent oratoire.</p>
-        <p>Une autre différence entre la sonorité du vers régulier et du vers nouveau découle de la façon différente dont on y évalue les <hi rend="i">e</hi> muets. Le vers régulier compte l’<hi rend="i">e</hi> à valeur entière quoiqu’il ne s’y prononce point tout à fait, sauf à la fin d’un vers. Pour nous, qui considérons, non la finale rimée, mais les divers éléments assonancés et allitérés qui constituent le vers, nous n’avons aucune raison de ne pas le considérer comme final de chaque <pb n="31"/>élément et de le scander alors, comme à la fin d’un vers régulier. Qu’on veuille bien remarquer que, sauf le cas d’élision, cet élément, l’<hi rend="i">e</hi> muet, ne disparaît jamais même à la fin du vers ; on l’entend fort peu, mais on l’entend. Il nous paraît donc plausible de le scander, en le considérant entre les syllabes environnantes comme un simple intervalle, et en cela nous sommes d’accord avec la déclamation instinctive du langage qui est la vraie base de la rythmique, et même la constitue dès qu’elle se met d’accord avec l’accent d’impulsion qui est son élément de variation, et l’intonation poétique, subordonnée à l’accent d’impulsion, accent et intonation qui comptent, puisque le vers et la strophe sont tout ou partie de phrase chantée et sont de la parole avant d’être une ligne écrite.</p>
-        <p>En vertu de notre définition, tous les artifices typographiques utilisés pour l’homologation de deux vers (rime pour l’œil) sont d’un coup écartés. Le poète parle et écrit pour l’oreille et non pour les yeux, de là une des modifications que nous faisons subir à la rime, et un de nos principaux désaccords d’avec Banville, car notre conception du <pb n="32"/>vers logiquement mais mobilement vertébré nous écarte tout de suite et sans discussion de cet axiome <quote>« qu’on n’entend dans le vers que le mot qui est la rime »</quote>. Il est vrai que Banville possédait une façon féerique et charmante de dire les choses, qui enlève de la rigueur à ses axiomes, surtout quand il les formule si net et si court ; quand il est certain d’avoir enclos une loi scientifique dans la brièveté d’un verset de décalogue, c’est le plus souvent un trait heureux qu’il nous a donné. C’est ici le cas. Je veux bien que l’auditeur bercé par un grand discours en vers, surtout déclamé au théâtre par des gens qui disent mal, se raccroche aux rimes, pour distinguer si l’on entend des vers ou de la prose, et c’est vrai pour le vers pseudo-classique. Un continuateur de Banville pourrait m’objecter qu’avec le vers libre la difficulté ne fait que changer et que l’aphorisme de Banville demeure entier : soit : si le vers pseudo-classique ou le vers romantique faible ne se distingue que par la rime, et peut être confondu avec de la prose, le vers libre, plus flottant, pourra être confondu avec une prose poétique, rythmée et nombrée, avec une sorte de musique. Qu’on en convienne, <pb n="33"/>cela serait déjà mieux, et remplirait davantage notre but. D’ailleurs nous ne proscrivons pas la rime ; nous la libérons, nous la réduisons parfois et volontiers à l’assonance ; nous évitons le coup de cymbale à la fin du vers, trop prévu, mais nous soutenons notre rime telle quelle par des assonances, nous plaçons des rimes complètes, à l’intérieur d’un vers correspondant à d’autres rimes intérieures, partout où la rythmique nous convie à les placer, la rythmique fidèle au sens et non la symétrie, ou, si vous voulez, une symétrie plus compliquée que l’ordinaire.</p>
-        <p>La rime ou l’assonance doivent donc être des plus mobiles, soit que le poème soit conçu en strophes fermées, ou qu’on utilise la formule dénommée depuis les laisses rythmiques, dont le premier exemple se trouve dans les <hi rend="i">Palais Nomades</hi> p. 129, celle qui se rapproche le plus des discours classiques, la plus propre à un long énoncé de sentiments, ou bien qu’on emploie la brève évocation des lieds.</p>
-        <p>Nous ne distinguerons pas d’autres modules de strophes. Le vers libre est essentiellement mobile <pb n="34"/>et ne doit point codifier de strophes. C’est l’accent d’impulsion et son appropriation à l’importance, à la durée du sentiment évoqué, ou de la sensation à traduire qui en est la déterminante. Nous considérons les strophes incluses en ce volume et dans nos autres livres comme des agencements, utiles momentanément, rendus stricts pour cette seule occasion. Les poètes du vers libre ne doivent point calquer leurs strophes sur celles dont ils se sont donnés eux-mêmes le modèle. Évidemment à mouvement semblable strophe semblable, mais la règle ne doit pas aller plus loin, elle doit être élastique et flexible.</p>
-        <p>Un mot encore sur la technique. Des grands vers dépassent le nombre de douze syllabes ; et pourquoi pas ? Pourquoi la durée serait-elle restreinte à douze, à quatorze syllabes ? Sans admettre que le vers devienne un verset complet, et là le goût et l’oreille sont suffisants pour avertir le poète, on peut grouper en un seul vers trois ou quatre éléments ayant intérêt à ce que leur jaillissement soit resserré. Le vers obtient ainsi une valeur résumante, analogue à celle du dernier vers de la terza rima, mais <pb n="35"/>plus réel, plus obtenu au moyen du vers même, sans ressource empruntée à la typographie, ou au point d’orgue de la terminaison de poème. Évidemment il y aurait bien des menues difficultés à élucider, mais ce serait une prosodie, et je n’en veux point faire une ici.</p>
+        <p>Nous avons bien en français un accent tonique ; mais il est faible et cela tient à
+          l’amalgame que fit Paris des prononciations excessives et différentes des provinces, les
+          usant pour en constituer une langue modérée, calme, juste-milieu, quant au retentissement
+          des consonnes et au chant des voyelles, neutre de préférence à bariolée. Cet accent
+          tonique qu’on pourrait relever dans les mots, en les laissant immobiles, soit en les
+          citant à la file, en exemples, disparaît à la conversation, à la déclamation, ou mieux, il
+          ne disparaît point, mais se modifie. Il y a donc un accent général qui, dans la
+          conversation ou la déclamation, dirige toute une période, ou toute une strophe, y fixe la
+          longueur des valeurs auditives, ainsi que les timbres des mots. Cet accent semblable chez
+          tout le monde, en ce sens que chaque passion, chez tous, produit à peu près le même
+          phénomène, accélération <pb n="30"/>ou ralentissement, semblable au moins en son essence,
+          cet accent est communiqué aux mots, par le sentiment qui agite le causeur ou le poète,
+          uniquement, sans souci d’accent tonique ou de n’importe quelle valeur fixe qu’ils
+          possédaient en eux-mêmes. Cet <hi rend="i">accent d’impulsion</hi> dirige l’harmonie du
+          vers principal de la strophe, ou d’un vers initial qui donne le mouvement, et les autres
+          vers, à moins qu’on ne recherche un effet de contraste, se doivent modeler sur les valeurs
+          de ce vers telles que les a fixées l’accent d’impulsion. C’est cette loi fondamentale que
+          MM. Mockel et de Souza ont discernée à leur tour, en étudiant le rythme poétique et qu’ils
+          dénomment l’accent oratoire.</p>
+        <p>Une autre différence entre la sonorité du vers régulier et du vers nouveau découle de la
+          façon différente dont on y évalue les <hi rend="i">e</hi> muets. Le vers régulier compte
+            l’<hi rend="i">e</hi> à valeur entière quoiqu’il ne s’y prononce point tout à fait, sauf
+          à la fin d’un vers. Pour nous, qui considérons, non la finale rimée, mais les divers
+          éléments assonancés et allitérés qui constituent le vers, nous n’avons aucune raison de ne
+          pas le considérer comme final de chaque <pb n="31"/>élément et de le scander alors, comme
+          à la fin d’un vers régulier. Qu’on veuille bien remarquer que, sauf le cas d’élision, cet
+          élément, l’<hi rend="i">e</hi> muet, ne disparaît jamais même à la fin du vers ; on
+          l’entend fort peu, mais on l’entend. Il nous paraît donc plausible de le scander, en le
+          considérant entre les syllabes environnantes comme un simple intervalle, et en cela nous
+          sommes d’accord avec la déclamation instinctive du langage qui est la vraie base de la
+          rythmique, et même la constitue dès qu’elle se met d’accord avec l’accent d’impulsion qui
+          est son élément de variation, et l’intonation poétique, subordonnée à l’accent
+          d’impulsion, accent et intonation qui comptent, puisque le vers et la strophe sont tout ou
+          partie de phrase chantée et sont de la parole avant d’être une ligne écrite.</p>
+        <p>En vertu de notre définition, tous les artifices typographiques utilisés pour
+          l’homologation de deux vers (rime pour l’œil) sont d’un coup écartés. Le poète parle et
+          écrit pour l’oreille et non pour les yeux, de là une des modifications que nous faisons
+          subir à la rime, et un de nos principaux désaccords d’avec Banville, car notre conception
+          du <pb n="32"/>vers logiquement mais mobilement vertébré nous écarte tout de suite et sans
+          discussion de cet axiome <quote>« qu’on n’entend dans le vers que le mot qui est la
+            rime »</quote>. Il est vrai que Banville possédait une façon féerique et charmante de
+          dire les choses, qui enlève de la rigueur à ses axiomes, surtout quand il les formule si
+          net et si court ; quand il est certain d’avoir enclos une loi scientifique dans la
+          brièveté d’un verset de décalogue, c’est le plus souvent un trait heureux qu’il nous a
+          donné. C’est ici le cas. Je veux bien que l’auditeur bercé par un grand discours en vers,
+          surtout déclamé au théâtre par des gens qui disent mal, se raccroche aux rimes, pour
+          distinguer si l’on entend des vers ou de la prose, et c’est vrai pour le vers
+          pseudo-classique. Un continuateur de Banville pourrait m’objecter qu’avec le vers libre la
+          difficulté ne fait que changer et que l’aphorisme de Banville demeure entier : soit : si
+          le vers pseudo-classique ou le vers romantique faible ne se distingue que par la rime, et
+          peut être confondu avec de la prose, le vers libre, plus flottant, pourra être confondu
+          avec une prose poétique, rythmée et nombrée, avec une sorte de musique. Qu’on en
+          convienne, <pb n="33"/>cela serait déjà mieux, et remplirait davantage notre but.
+          D’ailleurs nous ne proscrivons pas la rime ; nous la libérons, nous la réduisons parfois
+          et volontiers à l’assonance ; nous évitons le coup de cymbale à la fin du vers, trop
+          prévu, mais nous soutenons notre rime telle quelle par des assonances, nous plaçons des
+          rimes complètes, à l’intérieur d’un vers correspondant à d’autres rimes intérieures,
+          partout où la rythmique nous convie à les placer, la rythmique fidèle au sens et non la
+          symétrie, ou, si vous voulez, une symétrie plus compliquée que l’ordinaire.</p>
+        <p>La rime ou l’assonance doivent donc être des plus mobiles, soit que le poème soit conçu
+          en strophes fermées, ou qu’on utilise la formule dénommée depuis les laisses rythmiques,
+          dont le premier exemple se trouve dans les <hi rend="i">Palais Nomades</hi> p. 129, celle
+          qui se rapproche le plus des discours classiques, la plus propre à un long énoncé de
+          sentiments, ou bien qu’on emploie la brève évocation des lieds.</p>
+        <p>Nous ne distinguerons pas d’autres modules de strophes. Le vers libre est essentiellement
+          mobile <pb n="34"/>et ne doit point codifier de strophes. C’est l’accent d’impulsion et
+          son appropriation à l’importance, à la durée du sentiment évoqué, ou de la sensation à
+          traduire qui en est la déterminante. Nous considérons les strophes incluses en ce volume
+          et dans nos autres livres comme des agencements, utiles momentanément, rendus stricts pour
+          cette seule occasion. Les poètes du vers libre ne doivent point calquer leurs strophes sur
+          celles dont ils se sont donnés eux-mêmes le modèle. Évidemment à mouvement semblable
+          strophe semblable, mais la règle ne doit pas aller plus loin, elle doit être élastique et
+          flexible.</p>
+        <p>Un mot encore sur la technique. Des grands vers dépassent le nombre de douze syllabes ;
+          et pourquoi pas ? Pourquoi la durée serait-elle restreinte à douze, à quatorze syllabes ?
+          Sans admettre que le vers devienne un verset complet, et là le goût et l’oreille sont
+          suffisants pour avertir le poète, on peut grouper en un seul vers trois ou quatre éléments
+          ayant intérêt à ce que leur jaillissement soit resserré. Le vers obtient ainsi une valeur
+          résumante, analogue à celle du dernier vers de la terza rima, mais <pb n="35"/>plus réel,
+          plus obtenu au moyen du vers même, sans ressource empruntée à la typographie, ou au point
+          d’orgue de la terminaison de poème. Évidemment il y aurait bien des menues difficultés à
+          élucider, mais ce serait une prosodie, et je n’en veux point faire une ici.</p>
       </div>
       <div>
         <head>Les objections contre le vers libre</head>
-        <p>La première consiste à dire : « Le vers libre n’est pas une nouveauté dans la poésie française ; on s’étonne des étonnements accueillant une chose si ancienne ; ce fut le vers de La Fontaine, et Molière l’utilisa à merveille. » Il serait doux de pouvoir se réclamer de si glorieux patrons, mais malheureusement la chose est de tous points inexacte ; les poètes le savent trop, pour qu’on le leur développe, ils l’ont toujours pressenti d’instinct. Sans doute, ils connaissent l’admirable beauté intérieure (malgré l’uniformité de la coupe et de la rime du vers de Corneille, <pb n="36"/>de celui de Racine, le charme de ceux de La Fontaine, et leurs ressources oubliées). Mais Molière et La Fontaine ne voyaient dans ce qu’il serait plus juste de dénommer chez eux le vers familier, qu’un choix de mètres, joliets, souples, à cadence soigneusement distincte de celle du vers héroïque, de l’alexandrin en longues traînes de périodes ; c’est par convenance, respects des opinions, et même des fantômes de préjugés de leurs délicats qu’ils furent amenés à varier leur jeu toujours sans dissonances. Ce sont, si vous voulez, de belles choses qu’on a voulu dire en petits vers, pour rester dans le comique aimable et l’apologue clair. Garder le grand vers eût été une indication qu’on voulait pousser jusqu’à la farce, à la parodie, ce que fit Corneille dans <hi rend="i">l’Illusion comique</hi> où le Matamore parle la langue même qui servira au Cid. Et les chefs-d’œuvre, en ces modes légers, du <num>xvii<hi rend="sup">e</hi></num> siècle n’ont nulle parenté ascendante de formule avec les essais de vers nouveau.</p>
-        <p>Voici une autre objection plus grave ; c’est d’ailleurs un grand poète qui la présente. Le vers libre, à son sens, serait la technique désignée pour l’autobiographie <pb n="37"/>du soi, la fixation d’états d’âmes, pour l’arabesque personnelle que le poète doit tracer autour de son caractère propre. Mais pour aborder les grands sujets, pour célébrer les rites fondamentaux de la vie et de l’intelligence, il conviendrait de recourir aux grandes orgues de l’alexandrin. En somme, le vers libre serait l’aboutissement nécessaire du poème en prose, créant une poésie à côté, des proses et des cantiques, à côté de la loi et des liturgies.</p>
-        <p>Sans doute nous ne pourrions désigner aucune des œuvres du vers libre comme pouvant prétendre à être un de ces grands chants impersonnels auxquels allusionne M. Stéphane Mallarmé. L’objection se dresse donc pour l’avenir, encore que peut-être déjà, par de l’imprimé, combattue, mais non résolue. Elle touche d’ailleurs à la destinée de cette technique qui ne doit pas rester confinée à la poésie personnelle ou à la poésie décorative. C’est l’absence de cette grande œuvre qui nous fait conclure à un léger temps d’arrêt dans le développement de notre poésie ; c’est à dépasser nos limites que nous devons tendre, et quelqu’un trouvera <pb n="38"/>l’argument victorieux à l’objection — soit un livre. Mais j’admettrai plutôt que ces grandes œuvres, loin de se limiter à une technique restreinte, en un but d’unité, chercheront à réunir toutes les ressources les plus variées de l’art poétique. Car qui songerait, lors d’un effort suprême, à se démunir de ses ressources ? L’existence de nouvelles œuvres très belles, hautes, complexes, venant s’ajouter au glorieux passé de l’alexandrin, n’objecteraient rien de concluant pour l’avenir. Et fussent-elles assez puissantes, pour, par leur présence, résumer en leur sens la question, elles n’empêcheraient pas que le lendemain de nouvelles recherches se montreraient au jour, plus instruites, plus souples et plus tenaces, dans leur volonté d’exprimer le plus possible avec le moins d’entraves techniques.</p>
+        <p>La première consiste à dire : « Le vers libre n’est pas une nouveauté dans la poésie
+          française ; on s’étonne des étonnements accueillant une chose si ancienne ; ce fut le vers
+          de La Fontaine, et Molière l’utilisa à merveille. » Il serait doux de pouvoir se réclamer
+          de si glorieux patrons, mais malheureusement la chose est de tous points inexacte ; les
+          poètes le savent trop, pour qu’on le leur développe, ils l’ont toujours pressenti
+          d’instinct. Sans doute, ils connaissent l’admirable beauté intérieure (malgré l’uniformité
+          de la coupe et de la rime du vers de Corneille, <pb n="36"/>de celui de Racine, le charme
+          de ceux de La Fontaine, et leurs ressources oubliées). Mais Molière et La Fontaine ne
+          voyaient dans ce qu’il serait plus juste de dénommer chez eux le vers familier, qu’un
+          choix de mètres, joliets, souples, à cadence soigneusement distincte de celle du vers
+          héroïque, de l’alexandrin en longues traînes de périodes ; c’est par convenance, respects
+          des opinions, et même des fantômes de préjugés de leurs délicats qu’ils furent amenés à
+          varier leur jeu toujours sans dissonances. Ce sont, si vous voulez, de belles choses qu’on
+          a voulu dire en petits vers, pour rester dans le comique aimable et l’apologue clair.
+          Garder le grand vers eût été une indication qu’on voulait pousser jusqu’à la farce, à la
+          parodie, ce que fit Corneille dans <hi rend="i">l’Illusion comique</hi> où le Matamore
+          parle la langue même qui servira au Cid. Et les chefs-d’œuvre, en ces modes légers, du
+              <num>xvii<hi rend="sup">e</hi></num> siècle n’ont nulle parenté ascendante de formule
+          avec les essais de vers nouveau.</p>
+        <p>Voici une autre objection plus grave ; c’est d’ailleurs un grand poète qui la présente.
+          Le vers libre, à son sens, serait la technique désignée pour l’autobiographie <pb n="37"
+          />du soi, la fixation d’états d’âmes, pour l’arabesque personnelle que le poète doit
+          tracer autour de son caractère propre. Mais pour aborder les grands sujets, pour célébrer
+          les rites fondamentaux de la vie et de l’intelligence, il conviendrait de recourir aux
+          grandes orgues de l’alexandrin. En somme, le vers libre serait l’aboutissement nécessaire
+          du poème en prose, créant une poésie à côté, des proses et des cantiques, à côté de la loi
+          et des liturgies.</p>
+        <p>Sans doute nous ne pourrions désigner aucune des œuvres du vers libre comme pouvant
+          prétendre à être un de ces grands chants impersonnels auxquels allusionne M. Stéphane
+          Mallarmé. L’objection se dresse donc pour l’avenir, encore que peut-être déjà, par de
+          l’imprimé, combattue, mais non résolue. Elle touche d’ailleurs à la destinée de cette
+          technique qui ne doit pas rester confinée à la poésie personnelle ou à la poésie
+          décorative. C’est l’absence de cette grande œuvre qui nous fait conclure à un léger temps
+          d’arrêt dans le développement de notre poésie ; c’est à dépasser nos limites que nous
+          devons tendre, et quelqu’un trouvera <pb n="38"/>l’argument victorieux à l’objection
+          — soit un livre. Mais j’admettrai plutôt que ces grandes œuvres, loin de se limiter à une
+          technique restreinte, en un but d’unité, chercheront à réunir toutes les ressources les
+          plus variées de l’art poétique. Car qui songerait, lors d’un effort suprême, à se démunir
+          de ses ressources ? L’existence de nouvelles œuvres très belles, hautes, complexes, venant
+          s’ajouter au glorieux passé de l’alexandrin, n’objecteraient rien de concluant pour
+          l’avenir. Et fussent-elles assez puissantes, pour, par leur présence, résumer en leur sens
+          la question, elles n’empêcheraient pas que le lendemain de nouvelles recherches se
+          montreraient au jour, plus instruites, plus souples et plus tenaces, dans leur volonté
+          d’exprimer le plus possible avec le moins d’entraves techniques.</p>
       </div>
     </body>
   </text>
