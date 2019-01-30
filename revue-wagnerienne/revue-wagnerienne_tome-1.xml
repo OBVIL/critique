@@ -26,11 +26,11 @@
       </editionStmt>
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-1.xml/</idno>
-        <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-1.xml</idno>
-        <idno type="html">http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-1.html</idno>
-        <idno type="text">http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-1.txt</idno>
-        <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-1.epub</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-1.xml/</idno>
+        <idno type="tei">http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-1.xml</idno>
+        <idno type="html">http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-1.html</idno>
+        <idno type="text">http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-1.txt</idno>
+        <idno type="epub">http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-1.epub</idno>
         <date when="2013"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
@@ -1924,8 +1924,7 @@
           <p>Bruxelles. — Le concert Wagner annoncé pour le 10 avril a eu lieu le 3 mai. Le compte-rendu en sera publié la prochaine fois. Il faut constater, dès à présent, le très grand succès de ce concert.</p>
           <p>L’analyse de la <title>Revue de Bayreuth</title> (Bayreuther Blætter) sera donnée dans le numéro suivant.</p>
           <p>Le Directeur-gérant : Edouard Dujardin.</p>
-          <pb/>
-        </div>
+                  </div>
       </div>
       <div>
         <head type="h1">Paris, 8 juin 1885.</head>
@@ -2230,8 +2229,7 @@
           <l><hi rend="i">Les Dieux d’autrefois</hi>, 6 planches.</l>
           <p/>
           <p>En vente chez M. L. Dumont, quai des Grands-Augustin, 21.</p>
-          <pb/>
-        </div>
+                  </div>
       </div>
       <div>
         <head type="h1">Paris, 8 juillet 1885.</head>
@@ -2491,8 +2489,7 @@
           <p>6° <hi rend="i">Bayreuth</hi> (suite), l’Association Wagnérienne.</p>
           <p>7° <hi rend="i">Beethoven</hi>, par Richard Wagner (suite).</p>
           <p>8° Mois Wagnérien ; publications nouvelles ; correspondances.</p>
-          <pb/>
-        </div>
+                  </div>
       </div>
       <div>
         <head type="h1">Paris, 8 août 1885.</head>
@@ -2682,8 +2679,7 @@
           <p>Outre les représentations Wagnériennes du mois de septembre à Munich, un Cycle Wagnérien sera donné en décembre, au théâtre de Francfort, et un autre, probablement, au théâtre de Leipzig.</p>
           <p>Pendant la saison prochaine, le <title>German Opéra</title> de New-York jouera <title>Rienzi, Tannhaeuser, Lohengrin, les Maîtres, la Walkure</title>, et <title>Goetterdaemmerung</title>, sous la direction du jeune capellmeister, M. Anton Seidl.</p>
           <p>Le Directeur gérant : Edouard dujardin.</p>
-          <pb/>
-        </div>
+                  </div>
       </div>
       <div>
         <head type="h1">Paris, 8 octobre 1885.</head>
@@ -3283,23 +3279,95 @@
           <p/>
           <p>BRUXELLES. — Le théâtre de la Monnaie va représenter cet hiver, en français pour la première fois, <title>la Walkure</title>, traduite par M. Victor Wilder.</p>
           <p>Voici un tableau des représentations d’Opéra de Vienne et Berlin, en 1884 :</p>
-          <p/>
-          <l><space> </space>a Vienne <space> </space>a Berlin.</l>
-          <l><space> </space>nombre d’œuvres. <space> </space>de représent. <space> </space>d’œuvres. <space> </space>de représent.</l>
-          <l>Wagner. <space> </space>10 <space> </space>53 <space> </space>7 <space> </space>10</l>
-          <l>Meyerbeer. <space> </space>5 <space> </space>36 <space> </space>4 <space> </space>16</l>
-          <l>Verdi. <space> </space>5 <space> </space>  26 <space> </space>3 <space> </space>9</l>
-          <l>Donizetti. <space> </space>5 <space> </space>20 <space> </space>3 <space> </space>8</l>
-          <l>Auber. <space> </space>4 <space> </space>17 <space> </space>2 <space> </space>8</l>
-          <l>Rossini. <space> </space>2 <space> </space>15 <space> </space>2 <space> </space>9</l>
-          <l>Gounod. <space> </space>2 <space> </space>11 <space> </space>1 <space> </space>7</l>
-          <l>Mozart. <space> </space>3 <space> </space>9 <space> </space>4 <space> </space>15</l>
-          <l>Weber. <space> </space>1 <space> </space>3 <space> </space>4 <space> </space>18</l>
-          <l>Beethoven.     <space> </space>1 <space> </space>3 <space> </space>1 <space> </space>6</l>
-          <p/>
+          <table>
+            <row>
+              <cell></cell>
+              <cell>à Vienne.</cell>
+              <cell></cell>
+              <cell>à Berlin.</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell>nombre d’œuvres.</cell>
+              <cell>de représent.</cell>
+              <cell>d’œuvres.</cell>
+              <cell>de représent.</cell>
+            </row>
+          <row>
+            <cell>Wagner</cell>
+            <cell>10</cell>
+            <cell>53</cell>
+            <cell>7</cell>
+            <cell>10</cell>
+          </row>
+          <row>
+            <cell>Meyerbeer</cell>
+            <cell>5</cell>
+            <cell>36</cell>
+            <cell>4</cell>
+            <cell>16</cell>
+          </row>
+          <row>
+            <cell>Verdi</cell>
+            <cell>5</cell>
+            <cell>26</cell>
+            <cell>3</cell>
+            <cell>9</cell>
+          </row>
+          <row>
+            <cell>Donizetti</cell>
+            <cell>5</cell>
+            <cell>20</cell>
+            <cell>3</cell>
+            <cell>8</cell>
+          </row>
+         <row>
+              <cell>Auber</cell>
+              <cell>4</cell>
+              <cell>17</cell>
+              <cell>2</cell>
+              <cell>8</cell>
+            </row>
+            <row>
+              <cell>Rossini</cell>
+              <cell>2</cell>
+              <cell>15</cell>
+              <cell>2</cell>
+              <cell>9</cell>
+            </row>
+            <row>
+              <cell>Gounod</cell>
+              <cell>2</cell>
+              <cell>11</cell>
+              <cell>1</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>Mozart</cell>
+              <cell>3</cell>
+              <cell>9</cell>
+              <cell>4</cell>
+              <cell>15</cell>
+            </row>
+            <row>
+              <cell>Weber</cell>
+              <cell>1</cell>
+              <cell>3</cell>
+              <cell>4</cell>
+              <cell>18</cell>
+            </row>
+           <row>
+             <cell>Beethoven</cell>
+              <cell>1</cell>
+              <cell>3</cell>
+              <cell>1</cell>
+              <cell>6</cell>
+            </row>
+            </table>
+            <p/>
           <p>Le Directeur gérant : Edouard Dujardin.</p>
-          <pb/>
-        </div>
+                  </div>
       </div>
       <div>
         <head type="h1">Paris, 8 novembre 1885.</head>
@@ -3523,7 +3591,8 @@
           <l>26 Août Opéra : <title>Le Hollandais volant</title>.</l>
         </div>
         <div>
-          <head type="h2">Correspondances<note resp="editor">Hermann Levi (1839-1900) est un chef d’orchestre allemand. Proche du compositeur, il crée <hi rend="i">Parsifal</hi> à Bayreuth en 1882 et le dirige jusqu’en 1894. Felix Mottl (1856-1911) est un chef d’orchestre et compositeur autrichien. Élève de Bruckner, il est remarqué par Wagner lui-même et devient son assistant au festival de Bayreuth en 1876. Il y dirige à partir de 1885, ce qui lui vaut une réputation de grand wagnérien dans l’Europe entière. Il meurt en 1911 en dirigeant Tristan. Anton Seidl (1850-1898) est un chef d’orchestre hongrois né à Budapest. Il est engagé comme copiste à Bayreuth en 1872 et collabore à la première de la <hi rend="i">Tétralogie</hi> en 1876. [NdE]</note></head> <p>BAYREUTH. — Nous publierons la prochaine fois les dates exactes et les conditions des représentations de Fête en juillet-août 1886. Pour <title>Parsifal</title>, l’orchestre sera connue précédemment conduit par M. Lévi de Munich ; pour <title>Tristan</title>, tour à tour par MM. Richter de Vienne et Mottl de Karlsruhe ; on a parlé aussi de M. Seidl. Le choix des interprètes n’est pas encore définitif.</p> <p>DRESDE. — La première représentation de <title>Siegfried</title> à Dresde vient d’être donnée. Nous recevons à ce sujet, — trop tard pour la publier, — de notre collaborateur M. H. S. Chamberlain, une correspondance dont nous extrayons quelques notes : Orchestre admirable, sous la direction très chaleureuse de M. Schuch ; Gudehus (Siegfried) excellent chanteur ; Mlle Malten en tous points excellente ; et toujours une mise en scène médiocre ! Il est malheureux aussi que le public de l’Opéra de Dresde n’ait pas toujours le recueillement habituel aux publics allemands. En somme, une chose absolument hors de pair, l’orchestre de Schuch.</p> <p>MUNICH. — Dernier mot sur le cycle Wagnérien de septembre : le succès de <title>Tristan</title> aurait été encore plus grand que celui de la Tétralogie ; quelques Parisiens étaient restés à Munich pour cette représentation, entre autres, M. Chevillard<note resp="editor">Camille Chevillard, (1859-1923) est un chef d’orchestre français qui succède à Charles Lamoureux (dont il est le beau-fils) en 1897 à la tête des concerts qui portent le même nom, et défend les compositeurs allemands. Il deviendra également directeur musical de l’Opéra de Paris en 1914. Willy rendra compte de façon savoureuse l’atmosphère de ces concerts dans ses <hi rend="i">Lettres de l’ouvreuse</hi> (1890). [NdE]</note>, dont notre correspondant avait oublié le nom.</p> <p>ANVERS. — La société de symphonie a donné dimanche octobre son 3<hi rend="sup">e</hi> concert dans la salle des fêtes de l’Exposition : un concert Wagner. Au mois prochain le programme.</p> <pb/> </div>
+          <head type="h2">Correspondances<note resp="editor">Hermann Levi (1839-1900) est un chef d’orchestre allemand. Proche du compositeur, il crée <hi rend="i">Parsifal</hi> à Bayreuth en 1882 et le dirige jusqu’en 1894. Felix Mottl (1856-1911) est un chef d’orchestre et compositeur autrichien. Élève de Bruckner, il est remarqué par Wagner lui-même et devient son assistant au festival de Bayreuth en 1876. Il y dirige à partir de 1885, ce qui lui vaut une réputation de grand wagnérien dans l’Europe entière. Il meurt en 1911 en dirigeant Tristan. Anton Seidl (1850-1898) est un chef d’orchestre hongrois né à Budapest. Il est engagé comme copiste à Bayreuth en 1872 et collabore à la première de la <hi rend="i">Tétralogie</hi> en 1876. [NdE]</note></head> <p>BAYREUTH. — Nous publierons la prochaine fois les dates exactes et les conditions des représentations de Fête en juillet-août 1886. Pour <title>Parsifal</title>, l’orchestre sera connue précédemment conduit par M. Lévi de Munich ; pour <title>Tristan</title>, tour à tour par MM. Richter de Vienne et Mottl de Karlsruhe ; on a parlé aussi de M. Seidl. Le choix des interprètes n’est pas encore définitif.</p> <p>DRESDE. — La première représentation de <title>Siegfried</title> à Dresde vient d’être donnée. Nous recevons à ce sujet, — trop tard pour la publier, — de notre collaborateur M. H. S. Chamberlain, une correspondance dont nous extrayons quelques notes : Orchestre admirable, sous la direction très chaleureuse de M. Schuch ; Gudehus (Siegfried) excellent chanteur ; Mlle Malten en tous points excellente ; et toujours une mise en scène médiocre ! Il est malheureux aussi que le public de l’Opéra de Dresde n’ait pas toujours le recueillement habituel aux publics allemands. En somme, une chose absolument hors de pair, l’orchestre de Schuch.</p> <p>MUNICH. — Dernier mot sur le cycle Wagnérien de septembre : le succès de <title>Tristan</title> aurait été encore plus grand que celui de la Tétralogie ; quelques Parisiens étaient restés à Munich pour cette représentation, entre autres, M. Chevillard<note resp="editor">Camille Chevillard, (1859-1923) est un chef d’orchestre français qui succède à Charles Lamoureux (dont il est le beau-fils) en 1897 à la tête des concerts qui portent le même nom, et défend les compositeurs allemands. Il deviendra également directeur musical de l’Opéra de Paris en 1914. Willy rendra compte de façon savoureuse l’atmosphère de ces concerts dans ses <hi rend="i">Lettres de l’ouvreuse</hi> (1890). [NdE]</note>, dont notre correspondant avait oublié le nom.</p> <p>ANVERS. — La société de symphonie a donné dimanche octobre son 3<hi rend="sup">e</hi> concert dans la salle des fêtes de l’Exposition : un concert Wagner. Au mois prochain le programme.</p>
+        </div>
       </div>
       <div>
         <head type="h1">Paris, le 8 décembre 1885.</head>
@@ -3783,8 +3852,7 @@
           <l>Mal tû par l’encre même en sanglots sibyllins.</l>
           <p/>
           <l>Stéphane Mallarmé.</l>
-          <pb/>
-          <label type="head">II</label>
+                    <label type="head">II</label>
           <label type="head">PARSIFAL</label>
           <quote>
             <l>Dedit et tristibus sanguinis poculum.</l>
@@ -3815,8 +3883,7 @@
           </list>
           <p/>
           <p>Paul Verlaine.</p>
-          <pb/>
-          <label type="head">III</label>
+                    <label type="head">III</label>
           <label type="head">HYMEN</label>
           <label type="head">la musique :</label>
           <l>« Tu parleras, mourant, quand mon soir nuptial</l>
@@ -3838,8 +3905,7 @@
           <l>Je ne sais quel vœu vague et mortuaire existe. »</l>
           <p/>
           <p>René Ghil.</p>
-          <pb/>
-          <label type="head">IV</label>
+                    <label type="head">IV</label>
           <l>À l’Instant auroral, Hymne vague d’éveil</l>
           <l>Où les flûtes de Tout modulent leurs murmures,</l>
           <l>L’âme des violons sourdant sous les ramures.</l>
@@ -3859,8 +3925,7 @@
           <l>Remémore l’horreur de l’Idéal des rêves.</l>
           <p/>
           <p>Stuart Merrill.</p>
-          <pb/>
-          <label type="head">V</label>
+                    <label type="head">V</label>
           <l>Aurore au bord de mes ténèbres… C’est la joie.</l>
           <l>C’est la Vie. Ô vibrant hosanna de l’éveil !</l>
           <l>Cours belliqueux de chars enivrés de soleil !</l>
@@ -3882,8 +3947,7 @@
           <l>S’essore de ses flots éclatants et chantants.</l>
           <p/>
           <p>Charles Morice.</p>
-          <pb/>
-          <label type="head">VI</label>
+                    <label type="head">VI</label>
           <l>Un séculaire lys offre son âme amie</l>
           <l>Sans se lasser de trépasser ; plus blême encor,</l>
           <l>Le vol des songes, où se complaît l’Endormie</l>
@@ -3903,8 +3967,7 @@
           <l>Pièges éventés, dans les ténèbres augustes.</l>
           <p/>
           <p>Charles Vignier.</p>
-          <pb/>
-          <label type="head">VII</label>
+                    <label type="head">VII</label>
           <label type="head">SIEGFRIED-IDYLL</label>
           <label type="head">Programme</label>
           <l>Endormez-vous ! l’éveil des rêves embaumés</l>
@@ -3928,8 +3991,7 @@
           <l>Et le Joyeux Orgueil s’épand aux bleus sommets !</l>
           <p/>
           <p>Teodor de Wysewa.</p>
-          <pb/>
-          <label type="head">VIII</label>
+                    <label type="head">VIII</label>
           <l>Ainsi le morne Dieu connaissant la Fin proche,</l>
           <l>Entrevoyant la fin des grands Ors superflus,</l>
           <l>S’acheminait vers les achèvements voulus ;</l>
@@ -3955,8 +4017,7 @@
           <l>Et l’idée où se meut l’autre et l’autre univers !</l>
           <p/>
           <p>Edouard Dujardin.</p>
-          <pb/>
-        </div>
+                  </div>
         <div>
           <head type="h2">Notes sur Lohengrin</head>
           <epigraph>

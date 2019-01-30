@@ -25,15 +25,15 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/reymond_corneille-shakespeare-goethe/</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe/</idno>
         <idno type="tei"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/reymond_corneille-shakespeare-goethe.xml</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.xml</idno>
         <idno type="html"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/reymond_corneille-shakespeare-goethe.html</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.html</idno>
         <idno type="text"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/reymond_corneille-shakespeare-goethe.txt</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.txt</idno>
         <idno type="epub"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/reymond_corneille-shakespeare-goethe.epub</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -4292,7 +4292,7 @@
           mit plus de sobriété, et l’on peut citer entre autres sa traduction du <hi rend="i">Roi de
             Thulé</hi> comme l’une des mieux réussies :</p>
         <quote>
-          <l>Le Roi de Thulé.</l>
+          <label type="head">Le Roi de Thulé.</label>
           <l>Il était un roi de Thulé,</l>
           <l>À qui son amante fidèle</l>
           <l>Légua, comme souvenir d’elle,</l>
@@ -4791,29 +4791,26 @@
           Don Carlos reproche à son père le sacrifice qu’il allait lui faire, celui de son amour
           pour la reine. Le roi s’en irrite :</p>
         <quote>
-          <l>Le Roi.</l>
+          <label type="speaker">Le Roi.</label>
           <l>Perfide, oubliez-vous que je suis votre maître ?</l>
-          <l/>
-          <l>Don Carlos.</l>
+          <label type="speaker">Don Carlos.</label>
           <l>Et <hi rend="i">le père</hi>, à mes yeux, quand voudra-t-il paraître</l>
           <l>Le père ! — auprès de vous je l’ai cherché souvent,</l>
           <l>Carlos n’a point de père, et Philippe est vivant !</l>
           <l>Mais l’émotion l’emporte, et il descend de nouveau à la prière :</l>
           <l>Laissez-moi conquérir, apporter en ces lieux</l>
-          <l>Bien plus que les états soumis à vos aïeux 5</l>
-          <l>Bien plus que le Potose et ses mines fécondes ;</l>
+          <l>Bien plus que les états soumis à vos aïeux,</l>
+          <l>Bien plus que le Potose et ses mines fécondes,</l>
           <l>Plus que tous vos vaisseaux, vos deux mers, vos deux mondes,</l>
           <l><pb n="200"/>Laissez-moi vous donner le premier bien : la paix ;</l>
           <l>Le plus grand des trésors : l’amour de vos sujets :</l>
           <l>C’est le prix que j’attends à vos pieds que j’embrasse,</l>
           <l>Si ce n’est pas un prix, que ce soit une grâce ;</l>
           <l>Mon père, exaucez-moi, mon triomphe est certain.</l>
-          <l/>
-          <l>Philippe <hi rend="i">(sortant)</hi>.</l>
-          <l>Jamais.</l>
-          <l/>
-          <l>Carlos <hi rend="i">(se relevant désespéré)</hi>.</l>
-          <l>Jamais ! ce mot a fixé mon destin.</l>
+          <label type="speaker">Philippe <hi rend="i">(sortant)</hi>.</label>
+          <l part="I">Jamais.</l>
+          <label type="speaker">Carlos <hi rend="i">(se relevant désespéré)</hi>.</label>
+          <l part="F">Jamais ! ce mot a fixé mon destin.</l>
         </quote>
         <p>Au moment de partir, surpris par son père au milieu de ses adieux à la reine, Don Carlos,
           accusé par Albe et Spinola, est condamné à mort, et boit le poison qui lui est présenté
@@ -6984,8 +6981,7 @@
           d’Alfred de Musset et de Lamartine. Cette dernière est intitulée <hi rend="i">la
             Marseillaise de la Paix</hi>.</p>
         <quote>
-          <l>Der deutsche Rhein</l>
-          <l/>
+          <label type="head">Der deutsche Rhein</label>
           <l>Sie sollen ihn nicht haben,</l>
           <l>Den freien deutschen Rhein,</l>
           <l>Ob sie wie gier’ge Raben</l>
@@ -7020,7 +7016,7 @@
           <l>Den freien deutschen Rhein,</l>
           <l>Bis seine Fluth begraben</l>
           <l>Des letzten Manns Gebein !</l>
-          <l>Nicolaus Becker. 1840.</l>
+          <p rend="right">Nicolaus Becker. 1840.</p>
         </quote>
         <ab type="ornament">* * *</ab>
         <quote>

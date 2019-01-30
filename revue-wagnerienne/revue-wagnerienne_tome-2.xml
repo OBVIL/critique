@@ -27,15 +27,15 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-3.xml/</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-3.xml/</idno>
         <idno type="tei"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-3.xml</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-3.xml</idno>
         <idno type="html"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-3.html</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-3.html</idno>
         <idno type="text"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-3.txt</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-3.txt</idno>
         <idno type="epub"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/revue-wagnerienne_tome-3.epub</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/revue-wagnerienne_tome-3.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -688,9 +688,8 @@
                 Sud. [NdE]</note>, critique de génie et compositeur remarquable, qui fut l’ami
               personnel de Wagner, et qui a le premier tenté chez nous d’introduire la musique
               wagnérienne.</p>
-            <p/>
-            <p rend="right">Wladimir Iznoskow</p>
-            <p rend="right">Pétersbourg, le 6/18 janvier 1886</p>
+            <byline>Wladimir Iznoskow</byline>
+            <dateline>Pétersbourg, le 6/18 janvier 1886</dateline>
           </div>
         </div>
         <div>
@@ -1588,7 +1587,7 @@
             <p>Le 24, la lettre suivante était adressée à quelques notabilités :</p>
             <p/>
             <quote>
-              <p rend="right">Paris, le 24 décembre 1885</p>
+              <label type="dateline"><hi rend="n">Paris, le 24 décembre 1885</hi></label>
               <p>LA NOUVELLE REVUE</p>
               <p>25, boulevard Poissonnière</p>
               <p>PARIS</p>
@@ -4088,8 +4087,8 @@
           <div>
             <head>I — Sur le choix de la ville de Bayreuth</head>
             <quote>
-              <p>Lettre à un ami : 1<hi rend="sup">er</hi> novembre 1871</p>
-            </quote>
+              <label type="head">Lettre à un ami :</label>
+              <label type="dateline"><hi rend="n">1<hi rend="sup">er</hi> novembre 1871</hi></label>
             <p>« … Lorsque j’aurai dit les conditions que j’exige pour l’emplacement du théâtre, il
               ne sera pas difficile, de deviner pourquoi j’ai choisi justement Bayreuth. Le lieu ne
               devait être ni une capitale ayant un théâtre permanent, ni une ville d’eau qui,
@@ -4107,11 +4106,11 @@
               perdre de vue qu’ici il ne s’agit pas d’une entreprise théâtrale de commerce : les
               représentations ne seront données que pour des invités et pour les patrons de
               l’œuvre ; aucune place ne sera vendue. »</p>
+            </quote>
           </div>
           <div>
             <head>II — Annonce des Fêtes</head>
-            <p>12 mai 1871</p>
-            <p/>
+            <dateline>12 mai 1871</dateline>
             <p>« La pièce de Fête, l’Anneau du Nibelung, doit être représentée, sous ma direction
               spéciale, en quatre soirées consécutives, et cela trois fois, en trois semaines
               consécutives. Cette représentation, qui se fera pendant l’été de 1873, aura lieu à

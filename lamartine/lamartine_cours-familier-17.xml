@@ -22,15 +22,15 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2015"/>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-17/</idno>
+        <idno>http://obvil.sorbonne-universite.site/corpus/critique/lamartine_cours-familier-17/</idno>
         <idno type="tei"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-17.xml</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/lamartine_cours-familier-17.xml</idno>
         <idno type="html"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-17.html</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/lamartine_cours-familier-17.html</idno>
         <idno type="text"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-17.txt</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/lamartine_cours-familier-17.txt</idno>
         <idno type="epub"
-          >http://obvil.paris-sorbonne.fr/corpus/critique/lamartine_cours-familier-17.epub</idno>
+          >http://obvil.sorbonne-universite.site/corpus/critique/lamartine_cours-familier-17.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -5845,12 +5845,15 @@
             <l>………………………………………………………</l>
           </quote>
           <ab type="ornament">* * *</ab>
+          <pb n="363"/>
           <quote>
-            <l>À M. A… DE L… (LAMARTINE).</l>
-            <l>Ces chantres sont de race divine : ils possèdent le seul <lb/>talent incontestable
-              dont le Ciel ait fait présent à la terre. <lb/><hi rend="i">René</hi>.</l>
-            <l/>
-            <l><pb n="363"/>Ô toi qui sais ce que la terre</l>
+            <label type="head">À M. A… DE L… (LAMARTINE).</label>
+            <quote>
+              <p>Ces chantres sont de race divine : ils possèdent le seul <lb/>talent incontestable
+              dont le Ciel ait fait présent à la terre.</p>
+              <bibl><hi rend="i">René</hi>.</bibl>
+            </quote>
+            <l>Ô toi qui sais ce que la terre</l>
             <l>Enferme de triste aux humains,</l>
             <l>Qui sais la vie et son mystère,</l>
             <l>Et qui fréquentes, solitaire,</l>
@@ -6956,7 +6959,7 @@
             <l>Envisager la vie et ses biens et leur terme,</l>
             <l>Et ce grave penser, qui ramène au Seigneur,</l>
             <l>Soutient l’âme et console au milieu du bonheur.</l>
-            <l>Mai 1829.</l>
+            <label type="dateline"><hi rend="n">Mai 1829.</hi></label>
           </quote>
           <ab type="ornament">* * *</ab>
           <quote>
@@ -7099,7 +7102,7 @@
             <l>De bonne heure aspirer et se fonder plus haut,</l>
             <l>Et croire en Celui seul qui, dès qu’on le supplie,</l>
             <l>Ne nous fait jamais faute, et qui jamais n’oublie.</l>
-            <l>Juillet 1829.</l>
+            <label type="dateline"><hi rend="n">Juillet 1829.</hi></label>
           </quote>
         </div>
         <div>
@@ -7309,7 +7312,7 @@
             <l>M’oublier, ou de près m’apercevoir à peine,</l>
             <l>Ailleurs, ici, toujours, vous serez tout pour moi :</l>
             <l>— Couple heureux et brillant, je ne vis plus qu’en toi.</l>
-            <l>Saint-Maur, août 1829.</l>
+            <label type="dateline"><hi rend="n">Saint-Maur, août 1829.</hi></label>
           </quote>
           <p>Puis-je lire sans reconnaissance cette dernière <hi rend="i">Consolation</hi>, qui me
             fut adressée après sept années d’absence, et qui me rappelait un mot de nos
