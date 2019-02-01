@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -25,10 +25,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/lievre_esquisses-critiques-01</idno>
-        <idno type="tei">http://obvil.sorbonne-universite.site/corpus/critique/lievre_esquisses-critiques-01.xml</idno>
-        <idno type="html">http://obvil.sorbonne-universite.site/corpus/critique/lievre_esquisses-critiques-01.html</idno>
-        <idno type="text">http://obvil.sorbonne-universite.site/corpus/critique/lievre_esquisses-critiques-01.txt</idno>
-        <idno type="epub">http://obvil.sorbonne-universite.site/corpus/critique/lievre_esquisses-critiques-01.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -93,38 +89,24 @@
         <quote>
           <l>(Par l’éblouissement des blonds Champs-Élysées,</l>
           <l>devers la cinquième heure, errent, localisées,</l>
-          <l>les filles à la mode…)</l>
-        </quote>
-        <p rend="noindent">qui apparaissent aussi dans d’autres de ses livres comme dans les <hi rend="i">Hortensias</hi></p>
+          <l>les filles à la mode…)</l> </quote><p rend="noindent">qui apparaissent aussi dans d’autres de ses livres comme dans les <hi rend="i">Hortensias</hi></p>
         <quote>
-          <l>(La nue est couleur d’un gant de soirée).</l>
-        </quote>
-        <p>En outre, les dédicaces qu’ils contiennent font voir à quel point l’auteur se trouvait mêlé au mouvement mondain. Tout ce qui, de ce point de vue spécial, compte ou a compté, est inscrit entre ces pages comme dans un prestigieux livre d’adresses — et nous ne voulons pas ici faire allusion à l’aristocratie qui est le milieu natal de M. de Montesquiou. Mais les autres aristocraties, celle de l’intelligence, de l’esprit, de la beauté, du bluff aussi comme de la réclame et de l’argent, sont également hantées par M. de Montesquiou, et parmi ses dédicataires on voit pêle-mêle des peintres mondains, des comédiens, des chirurgiens, des femmes de lettres, des virtuoses oubliés : Tout-Paris.</p>
+          <l>(La nue est couleur d’un gant de soirée).</l> </quote><p>En outre, les dédicaces qu’ils contiennent font voir à quel point l’auteur se trouvait mêlé au mouvement mondain. Tout ce qui, de ce point de vue spécial, compte ou a compté, est inscrit entre ces pages comme dans un prestigieux livre d’adresses — et nous ne voulons pas ici faire allusion à l’aristocratie qui est le milieu natal de M. de Montesquiou. Mais les autres aristocraties, celle de l’intelligence, de l’esprit, de la beauté, du bluff aussi comme de la réclame et de l’argent, sont également hantées par M. de Montesquiou, et parmi ses dédicataires on voit pêle-mêle des peintres mondains, des comédiens, des chirurgiens, des femmes de lettres, des virtuoses oubliés : Tout-Paris.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Après l’influence des maîtres, et le reflet de la vie mondaine, <hi rend="i">Les Hortensias</hi> révèlent encore ce goût du bibelot, cette passion collectionneuse dont fut saisie la société environ qu’ils paraissaient et qui possèdent M. de Montesquiou. De nombreux poèmes y sont consacrés à de raffinés décors d’appartement, à des richesses de vitrines ou d’étagères. Art japonais, <num>xviii<hi rend="sup">e</hi></num> siècle (comme chez les Goncourt) sont à l’envi célébrés dans ce recueil précieux et de très justes notations y rendent sensibles le plaisir de manier de curieuses porcelaines ou de voir le jour glisser sur quelque laque antique</p>
         <quote>
-          <l>aux petits casiers d’or étoilés de pivoines.</l>
-        </quote>
-        <p>Mais il émane de ce livre quelque autre chose plus profonde. Un sentiment de la vie et de la mort qui peut surprendre d’un homme qui n’habitue guère son public aux confidences ni aux effusions de sensibilité. L’écoulement du temps et des choses,</p>
+          <l>aux petits casiers d’or étoilés de pivoines.</l> </quote><p>Mais il émane de ce livre quelque autre chose plus profonde. Un sentiment de la vie et de la mort qui peut surprendre d’un homme qui n’habitue guère son public aux confidences ni aux effusions de sensibilité. L’écoulement du temps et des choses,</p>
         <quote>
           <l>(craignez qu’on vous appelle avant la fin du livre,</l>
-          <l>hâtez-vous d’écouter, de regarder, de vivre)</l>
-        </quote>
-        <p rend="noindent">l’inanité de la vie,</p>
+          <l>hâtez-vous d’écouter, de regarder, de vivre)</l> </quote><p rend="noindent">l’inanité de la vie,</p>
         <quote>
           <l>(je n’ai que peu d’amour pour les choses qui durent</l>
           <l>………………………………………………………</l>
-          <l>ce que j’aime surtout, c’est les choses qui meurent)</l>
-        </quote>
-        <p rend="noindent">la cruauté de la mort,</p>
+          <l>ce que j’aime surtout, c’est les choses qui meurent)</l> </quote><p rend="noindent">la cruauté de la mort,</p>
         <quote>
-          <l>(que c’est triste mourir, oh, que mourir est triste)</l>
-        </quote>
-        <p rend="noindent">l’insensibilité de la nature,</p>
+          <l>(que c’est triste mourir, oh, que mourir est triste)</l> </quote><p rend="noindent">l’insensibilité de la nature,</p>
         <quote>
-          <l>(Ô nature, on a bien raison de te haïr)</l>
-        </quote>
-        <p rend="noindent">ces thèmes — l’essence de toute poésie élevée — circulant dans les profondeurs de l’ouvrage comme dans l’âme du poète, lui confèrent l’élévation et la solidité. C’est à leur présence qu’il doit son éminente dignité.</p>
+          <l>(Ô nature, on a bien raison de te haïr)</l> </quote><p rend="noindent">ces thèmes — l’essence de toute poésie élevée — circulant dans les profondeurs de l’ouvrage comme dans l’âme du poète, lui confèrent l’élévation et la solidité. C’est à leur présence qu’il doit son éminente dignité.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Quelque lumière que jettent sur le tempérament de M. de Montesquiou les traits que nous venons de noter, ils ne nous introduisent pas très avant dans la connaissance de son talent. Essayons de le pénétrer.</p>
         <p>Représentant une époque aussi complexe, il ne saurait être simple. En effet il manque à l’être, et semble pétri de contradictions. Ainsi l’on sent incontestablement que s’il écrit en vers c’est pour obéir à un impérieux besoin d’user de ce mode d’expression — et cependant jamais sa poésie ne semble spontanée ou jaillissante. Une impression de labeur, de difficulté affrontée et surmontée, émane de ses poèmes. Il en est fort peu qui semblent venus d’un seul jet, comme une tige végétale, issue nette et lisse d’un bon sol. Mais, nouvelle contradiction, si les poèmes de M. de Montesquiou se présentent ainsi, c’est par volonté réfléchie. Son art poétique exige le heurt et le trébuchement. Ce qu’il recherche, ce qu’il veut offrir,</p>
@@ -137,18 +119,14 @@
           <l>c’est ainsi qu’il s’avance avec sa grâce gauche</l>
           <l>de femme qui <hi rend="i">trébuche</hi> à monter l’escalier</l>
           <l>empêtrée de sa traîne encombrante où s’ébauche</l>
-          <l>un pied chaussé de soie et mi-hors du soulier.</l>
-        </quote>
-        <p>Cela grince autant que cela chante : il y a là-dedans non seulement de la grâce, mais la moquerie même de cette grâce.</p>
+          <l>un pied chaussé de soie et mi-hors du soulier.</l> </quote><p>Cela grince autant que cela chante : il y a là-dedans non seulement de la grâce, mais la moquerie même de cette grâce.</p>
         <p>Autre contradiction : ce n’est pas seulement de sa grâce que se moque le vers de M. de Montesquiou, mais de tous ses sentiments profonds. Il est plein d’ironie, mais ne l’exerce jamais plus vivement qu’aux dépens de sa propre désolation. Sa voix est stridente à la fois et brisée de sanglots. L’artificieux violoniste s’amuse à jouer faux — et pour se contredire une fois de plus, c’est d’un vers parfaitement régulier et toujours exact, du moins en apparence, qu’il tire cette musique déconcertante.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>On a dit, de Laforgue, je crois, qu’il nous avait initiés au charme certain du vers faux. À vrai dire, c’est à Mallarmé même qu’il faut faire remonter cette initiation. La hardiesse des coupes mallarméennes, la singulière situation choisie pour les toniques, donnent à ces grands alexandrins réguliers l’air d’être tout autre chose qu’ils ne sont. Leur surprenante nouveauté enfanta ce qu’on nomme le <hi rend="i">vers libre</hi>, monstre bizarre qui n’a point la figure de sa mère, car si le vers libre expose en plein jour l’usage qu’il fait de toutes les coupes rythmiques, le vers mallarméen révèle toutes ces mêmes coupes, secrètes et cachées en lui-même.</p>
         <p>Les premiers disciples du maître, à son exemple, écrivirent librement tout en respectant le cadre du vers. Rodenbach, par exemple, brisa l’alexandrin avec une extrême virtuosité avant d’aboutir dans ses derniers recueils à ces vers libres que nous étiquetterons volontiers du nom de M. Gustave Kahn qui en essaya la théorie.</p>
         <p>M. de Montesquiou, parmi les disciples, parvint lui aussi à la suprême désarticulation du vers classique. Les hardiesses romantiques sont pauvretés au prix des leurs. Des césures anticipées ou différées, tandis que la fondamentale césure du sixième pied s’atténue ou disparaît ; des rejets démesurés qui mettent à cheval sur deux vers successifs un vers composé de leurs éléments et qui n’a point de rapport avec eux ; d’autres recherches encore dénaturent totalement l’ancien alexandrin, que la rime seule, parfois, permet d’identifier, car d’habitude elle est retentissante. M. de Montesquiou rime de manière à surprendre, sinon toujours,</p>
         <quote>
-          <l>Honnêtement, avec la consonne d’appui<note resp="author"><hi rend="sc">Émile Bergerat</hi>.</note>,</l>
-        </quote>
-        <p rend="noindent">du moins presque toujours avec luxe et singularité.</p>
+          <l>Honnêtement, avec la consonne d’appui<note resp="author"><hi rend="sc">Émile Bergerat</hi>.</note>,</l> </quote><p rend="noindent">du moins presque toujours avec luxe et singularité.</p>
         <p>Lui aussi cultive le mot rare. Non pas ce fâcheux néologisme que nous aurons souvent l’occasion de condamner, mais le mot spécifiquement rare, le mot peu employé, une fois rencontré et qui se dérobe dans un coin de la mémoire ou du dictionnaire, le mot <hi rend="i">curiosité verbale</hi>. Pour le trouver et en user, il est maître d’un lexique fort étendu. Il connaît toutes les ressources du vocabulaire. Une ample <hi rend="i">copia verborum</hi> lui fournit à point voulu le terme inattendu qui peut servir de quatrième rime dans un sonnet (mélangée, rangée, frangée, hydrangée). Il dispose de deux cent quatre-vingt-sept épithètes pour le mot offrande<note resp="author"><hi rend="i">Sabliers et lacrymatoires</hi>.</note>, et raille très cruellement<note resp="author"><hi rend="i">La Petite Mademoiselle</hi>.</note> ceux qui ignorent que <hi rend="i">cachalong</hi> est le nom (d’origine mongolique) d’une certaine chalcédoine. Il possède tant de mots et de noms propres, que parfois même pour éclairer le lecteur il doit en mettre la définition dans une note au bas de la page<note resp="author"><quote>Trou de serrure de la forme et de la grandeur d’une violette</quote> (<hi rend="i">Les Chauves-souris</hi>, p. 278). <quote>Nom du Sybarite qu’offensait le pli d’un pétale de rose</quote> (<hi rend="i">Les Hortensias bleus</hi>, p. 166).</note>.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>La belle rime n’est pas la seule vieille chose qu’en, ses vers très modernes respecte ce très moderne poète. Il tient compte de toutes les traditionnelles obligations de la prosodie et s’il arrive qu’il les enfreigne, c’est par exception et d’une manière évidemment délibérée<note resp="author">Au cours de cette pièce (dit-il précieusement dans <hi rend="i">les Chauves-Souris</hi>, p. 306, pour justifier l’usage d’assonances), l’œil lettré distinguera sans peine par quel artifice prosodique, d’une seule voyelle faisant de deux en deux vers chavirer la rime, l’auteur a tenté de représenter mécaniquement la claudication de ce caractère tout de soubresauts et de sursauts, d’anomalies et d’incohérences, ballotté du meilleur au pire du suprême à l’extrême, d’une alternance incurable.</note>. Les rimes féminines et masculines se suivent, se croisent ou s’embrassent avec une parfaite exactitude. Les pluriels ne s’apparentent point avec les singuliers et l’on recherchera malaisément, je crois, un coupable hiatus à travers cette longue suite de poèmes.</p>
@@ -156,23 +134,17 @@
         <p>En revanche l’œuvre y gagne en solidité architecturale, et la production ancienne de M. de Montesquiou ne manque pas d’une certaine majesté massive, avec ces trois ouvrages carminaux : les <hi rend="i">Hortensias bleus</hi>, les <hi rend="i">Chauves-Souris</hi>, le <hi rend="i">Parcours du Rêve au Souvenir</hi> qui en forment le centre, et que flanquent deux poèmes <quote><hi rend="i">à la fois intégrants et épisodiques</hi></quote>, les <hi rend="i">Paons</hi> consacrés aux pierreries, le <hi rend="i">Chef des odeurs suaves</hi> aux fleurs.</p>
         <p>Comme il convient, la massivité n’est que dans l’ordonnance. Le détail est d’une délicatesse, d’une recherche infinie, dans la forme non moins que <hi rend="i">dans les sentiments.</hi> Avec une extrême virtuosité, le poète entreprend et réussit de menus tours de force pleins d’agréments. Ici il s’amuse dans quatre strophes successives à faire occuper tour à tour les quatre places du quatrain, par un vers de Virgile, dont il retranche un mot, sans en altérer le sens, afin qu’il se nombre et se coupe comme un alexandrin :</p>
         <quote>
-          <l>Majoresque cadunt de montibus umbræ<note resp="author"><hi rend="i">Bucoliques</hi>, I, 83.</note>.</l>
-        </quote>
-        <p>Ailleurs, dans un treizain fermé, l’on voit le second hémistiche de chaque vers devenir le premier de son suivant :</p>
+          <l>Majoresque cadunt de montibus umbræ<note resp="author"><hi rend="i">Bucoliques</hi>, I, 83.</note>.</l> </quote><p>Ailleurs, dans un treizain fermé, l’on voit le second hémistiche de chaque vers devenir le premier de son suivant :</p>
         <quote>
           <l>et sinistre la nuit descend sur le couchant,</l>
           <l>descend sur le couchant où maint arbre changeant,</l>
-          <l>où maint arbre changeant semble… etc.</l>
-        </quote>
-        <p rend="noindent">ou bien il s’exerce à la lourde monotonie des coupes ternaires.</p>
+          <l>où maint arbre changeant semble… etc.</l> </quote><p rend="noindent">ou bien il s’exerce à la lourde monotonie des coupes ternaires.</p>
         <quote>
           <l>sur les roseaux — qui sont ses cils — le lac regarde</l>
           <l>de son œil vert — l’azur léger — du firmament.</l>
           <l>………………………………………………………</l>
           <l>les rameaux — semblent des — balançoires</l>
-          <l>le lotus — paraît un — encensoir<note resp="author">Les tirets (—) sont dans l’original.</note>.</l>
-        </quote>
-        <p>Tout cela, d’un maniérisme extrême, d’une subtile préciosité, correspond à une constante recherche qui démontre le raffinement de cette âme et de cette intelligence de poète. On n’en saurait imaginer qui soit plus étrangère au vulgaire, plus éloignée de lui. Son aspect littéraire présente une attachante singularité. Le précieux et l’altier se mêlent en lui ; il ne se soucie point d’être accessible ; il ne va pas au-devant du succès, et s’il l’obtint un temps ce fut hasard.</p>
+          <l>le lotus — paraît un — encensoir<note resp="author">Les tirets (—) sont dans l’original.</note>.</l> </quote><p>Tout cela, d’un maniérisme extrême, d’une subtile préciosité, correspond à une constante recherche qui démontre le raffinement de cette âme et de cette intelligence de poète. On n’en saurait imaginer qui soit plus étrangère au vulgaire, plus éloignée de lui. Son aspect littéraire présente une attachante singularité. Le précieux et l’altier se mêlent en lui ; il ne se soucie point d’être accessible ; il ne va pas au-devant du succès, et s’il l’obtint un temps ce fut hasard.</p>
         <p>Ce qui l’individualise nettement encore, c’est qu’on le sent déterminé, en art du moins, plutôt par sa sensibilité que par ses sentiments. Il confesse ses goûts, non point ses passions. Son œuvre ne livre point de documents sur sa vie. Il n’est point de ceux qui tirent des in-8 des aventures de leurs cœurs — ni même <quote><hi rend="i">des chansonnettes de leurs grands chagrins</hi></quote>. Il ne se livre point, et par là son esthétique pourrait paraître relever de l’impassibilité parnassienne.</p>
         <p>Mais cet impassible est un sensitif sur les nerfs de qui agissent curieusement les spectacles du monde. Il recherche éperdument les sensations, surtout rares, surtout extrêmes. Il les poursuit dans l’art, dans la nature, dans les êtres, et les aiguise par les savantes ressources d’une culture compliquée.</p>
         <p>La culture étendue est encore une caractéristique du talent de M. de Montesquiou et de sa personnalité. Toutes les époques, toutes les formes de littérature et d’art l’ont éduqué. Chacune lui a enseigné quelque imprévu raffinement, l’a doté d’un besoin, augmenté d’une façon de comprendre, de sentir ou de désirer.</p>
@@ -363,22 +335,14 @@
           <l>Les jardins réguliers aux belles ordonnances</l>
           <l>et que peuple le chœur des dieux de marbre blanc.</l>
           <l/>
-          <l>Les talus de gazon bordent le canal clair.</l>
-        </quote>
-        <p rend="noindent">il rencontre parfois une image qui semble exacte comme la description même :</p>
+          <l>Les talus de gazon bordent le canal clair.</l> </quote><p rend="noindent">il rencontre parfois une image qui semble exacte comme la description même :</p>
         <quote>
-          <l>l’âpre déferlement des chevaux de la mer</l>
-        </quote>
-        <p>Il sait encore ramasser heureusement dans une phrase nerveuse un détail pittoresque et significatif. On pourrait trouver maint exemple de ces vers heureux où les mots finement choisis jouent avec bonheur pour rendre sensible une charmante fantaisie d’imagination :</p>
+          <l>l’âpre déferlement des chevaux de la mer</l> </quote><p>Il sait encore ramasser heureusement dans une phrase nerveuse un détail pittoresque et significatif. On pourrait trouver maint exemple de ces vers heureux où les mots finement choisis jouent avec bonheur pour rendre sensible une charmante fantaisie d’imagination :</p>
         <quote>
-          <l>… et des singes pelés se jetaient des noix d’or.</l>
-        </quote>
-        <p>D’ailleurs ses procédés descriptifs sont les procédés mêmes qu’emploierait un décorateur de l’ordre plastique. Ce ne sont qu’énumérations précises comme des alignements d’architecture, oppositions alternatives qui s’équilibrent comme des parties symétriques. Il établit souvent ses poèmes sur un indicatif présent, solide comme une base de colonne (<quote><hi rend="i">les hauts buis d’alentour bordent un rond-point d’eau</hi></quote>) et les couronnes d’un vers développé ou contourné comme les volutes d’un chapiteau ionique (<quote><hi rend="i">le jet d’eau qui décroît accroître le silence</hi></quote>). Des propositions équivalentes se répondent et se font contrepoids comme les ailes d’un bâtiment pompeux ou comme ses avant-corps (<quote><hi rend="i">l’un qui tient un miroir, l’autre qui s’y voit nue, la solitude assise et le passé qui rôde</hi></quote>) et leur correspondance rigoureuse s’atténue souvent jusqu’à n’être plus qu’un grand balancement harmonieux. Ce n’est plus alors qu’une ample sonorité dont le battement agite la surface de la phrase (<quote><hi rend="i">car tes yeux n’avaient pas le regard qui défend et ta main n’avait pas le geste qui repousse</hi></quote>), une grande ondulation oratoire en quoi l’on retrouve, assoupie et amortie, l’ampleur de l’antithèse romantique,</p>
+          <l>… et des singes pelés se jetaient des noix d’or.</l> </quote><p>D’ailleurs ses procédés descriptifs sont les procédés mêmes qu’emploierait un décorateur de l’ordre plastique. Ce ne sont qu’énumérations précises comme des alignements d’architecture, oppositions alternatives qui s’équilibrent comme des parties symétriques. Il établit souvent ses poèmes sur un indicatif présent, solide comme une base de colonne (<quote><hi rend="i">les hauts buis d’alentour bordent un rond-point d’eau</hi></quote>) et les couronnes d’un vers développé ou contourné comme les volutes d’un chapiteau ionique (<quote><hi rend="i">le jet d’eau qui décroît accroître le silence</hi></quote>). Des propositions équivalentes se répondent et se font contrepoids comme les ailes d’un bâtiment pompeux ou comme ses avant-corps (<quote><hi rend="i">l’un qui tient un miroir, l’autre qui s’y voit nue, la solitude assise et le passé qui rôde</hi></quote>) et leur correspondance rigoureuse s’atténue souvent jusqu’à n’être plus qu’un grand balancement harmonieux. Ce n’est plus alors qu’une ample sonorité dont le battement agite la surface de la phrase (<quote><hi rend="i">car tes yeux n’avaient pas le regard qui défend et ta main n’avait pas le geste qui repousse</hi></quote>), une grande ondulation oratoire en quoi l’on retrouve, assoupie et amortie, l’ampleur de l’antithèse romantique,</p>
         <quote>
           <l>Il n’avait pas d’enfer dans le feu de sa forge</l>
-          <l>Il n’avait pas de fange en l’eau de son moulin.</l>
-        </quote>
-        <p>On pourrait imaginer que toute cette architecture verbale doit donner une incontestable froideur aux œuvres où elle s’emploie. Il n’en est rien.</p>
+          <l>Il n’avait pas de fange en l’eau de son moulin.</l> </quote><p>On pourrait imaginer que toute cette architecture verbale doit donner une incontestable froideur aux œuvres où elle s’emploie. Il n’en est rien.</p>
         <p>Malgré ce qu’il y a de rigoureux et de volontaire dans cette construction, on discerne à travers ces arabesques une âme qui frémit — mais qui ne s’intéresse qu’à soi — une intelligence sensible qui fait de soi sa seule étude. (D’ailleurs n’est-ce pas pour <hi rend="i">soi-même</hi> que M. de Régnier écrivit certains de ses contes qui font le plus heureusement rêver.)</p>
         <p>Peut-on s’étonner de cette attitude spirituelle chez un très proche cadet de M. Barrès<note resp="author">Peut-on d’ailleurs oublier que l’école symboliste donnait sa première floraison au moment où entrait dans la célébrité l’auteur de <hi rend="i">Bérénice</hi>, si fort impressionné lui-même par l’impérieuse influence de Mallarmé.</note> ?</p>
         <p>Sans doute y a-t-il loin des doctrines barrésiennes aux œuvres de M. de Régnier dont tout esprit de système est absent. Mais on aperçoit cependant un lien subtil entre cette morale individualiste à l’excès, et cette poésie qu’alimente l’unique considération de soi. Voit-on jamais M. de Régnier essayer de traduire quelqu’un de ces sentiments altruistes qui parfois animent si chaleureusement d’autres poètes. Quelques vaines interrogations sur les destinées humaines, quelques plaintes sur l’irrémédiable écoulement du temps, voilà toute sa philosophie, voilà comme il manifeste l’inquiétude que lui inspire le spectacle de l’univers — et encore ces méditations sont-elles bien égoïstes. Certes il sait voir <quote><hi rend="i">le tourbillonnement des forces de la vie</hi></quote>, mais ce tourbillonnement se résume en lui et s’y ramène. On ne le saurait comparer à l’immense pitié lyrique qui déborde de l’œuvre d’un Victor Hugo, non plus qu’à ce perpétuel conflit avec l’univers dans lequel vit et se consume un Baudelaire. M. de Régnier n’a pas sucé le lait de la tendresse humaine et son œuvre semblerait essentiellement égocentrique, si elle n’était par ailleurs toute emplie par la peinture de la réalité matérielle que selon son humeur il transpose ou représente.</p>
@@ -388,9 +352,7 @@
         <quote>
           <l>le sortilège enseveli</l>
           <l>cendres sans phénix par la flamme</l>
-          <l>isole sous le ciel pâli…, etc.</l>
-        </quote>
-        <p>Mais avec quelque attention, on remarque bientôt que chez lui cette influence se ressent principalement dans l’écriture. On remarque ensuite que la nature même de son talent objectif, sinon extérieur, le conduit à choisir, pour se l’assimiler, chez les auteurs susceptibles d’agir sur lui, plutôt ce qui fait leur dehors que leur fond, et l’on arrive à comprendre comment à l’influence de Mallarmé s’est peu à peu substituée, chez M. de Régnier, celle d’un autre auteur, Heredia, qui vaut essentiellement par la forme.</p>
+          <l>isole sous le ciel pâli…, etc.</l> </quote><p>Mais avec quelque attention, on remarque bientôt que chez lui cette influence se ressent principalement dans l’écriture. On remarque ensuite que la nature même de son talent objectif, sinon extérieur, le conduit à choisir, pour se l’assimiler, chez les auteurs susceptibles d’agir sur lui, plutôt ce qui fait leur dehors que leur fond, et l’on arrive à comprendre comment à l’influence de Mallarmé s’est peu à peu substituée, chez M. de Régnier, celle d’un autre auteur, Heredia, qui vaut essentiellement par la forme.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>On est obligé de s’étonner en constatant qu’un écrivain du goût et de l’intelligence de M. de Régnier a pu se dégager d’une influence comme celle de Mallarmé pour en accepter une comme celle de Heredia, car ces deux écrivains sont de tailles trop inégales pour qu’on puisse songer à les mettre en comparaison ni en parallèle.</p>
         <p>Ils n’ont aucun point commun mais semblent au contraire s’opposer trait par trait. La poésie de Mallarmé est pleine de mystère, celle de Heredia en est vide. Mallarmé se plaît dans une demi-obscurité qui ouvre un champ indéfini à la rêverie, Heredia la limite étroitement dans l’aveuglante clarté où il se meut.</p>
@@ -418,9 +380,7 @@
           <l>Mon esprit n’admet point un pompeux barbarisme</l>
           <l>Ni d’un vers ampoulé l’orgueilleux solécisme,</l>
           <l>Sans la langue, en un mot, l’auteur le plus divin</l>
-          <l>Est toujours, quoi qu’il fasse, un méchant écrivain.</l>
-        </quote>
-        <p>Nous serons toujours enclins à voir en M. de Régnier un auteur divin, plutôt qu’un méchant écrivain, et ce n’est pas des barbarismes voulus que nous signalions plus haut que nous voulons lui faire un nouveau grief, non plus que de ces solécismes raffinés que nous citions au même lieu.</p>
+          <l>Est toujours, quoi qu’il fasse, un méchant écrivain.</l> </quote><p>Nous serons toujours enclins à voir en M. de Régnier un auteur divin, plutôt qu’un méchant écrivain, et ce n’est pas des barbarismes voulus que nous signalions plus haut que nous voulons lui faire un nouveau grief, non plus que de ces solécismes raffinés que nous citions au même lieu.</p>
         <p>Non, ce que nous lui reprochons c’est d’écrire difficilement le français et d’offenser continuellement la grammaire, c’est d’employer des tournures vicieuses<note resp="author"><quote><hi rend="i">Nul que moi… ne pourra dire mieux</hi></quote>, quand il veut faire entendre : nul mieux que moi ne pourra dire (<hi rend="i">La Sandale ailée</hi>, p. 24).</note>, ou ambiguës<note resp="author"><quote><hi rend="i">Ton jour radieux, qui d’une Nymphe nue anime le feuillage…</hi></quote> le feuillage de la Nymphe, sans doute (<hi rend="i">Id. loc.</hi>)</note> ; c’est de mal construire ses périodes, de suspendre à des propositions principales trop grêles des subordonnées trop volumineuses<note resp="author"><quote><l>Et maintenant — mes yeux, ma bouche et tout mon être</l><l>ivres d’un sang nouveau</l><l>d’où ma force en mon corps avec lui va renaître —</l><l>je jette ce roseau</l><bibl>(<hi rend="i">Id. loc.</hi>)</bibl></quote></note>, c’est de ne pas serrer d’assez près le sens qu’il poursuit<note resp="author"><quote><hi rend="i">Ma tristesse me vient de plus loin que moi-même</hi></quote>. Que veut dire ce vers, assurément beau, ceci sans doute, si on l’analyse de près : <hi rend="i">Ma tristesse me vient de plus loin que je ne me viens moi-même</hi> (<hi rend="i">Id. loc.</hi>, p. 30).</note>, de ne point persévérer dans ses constructions<note resp="author">Et la colombe rauque y roucoule et se pose, quand il faudrait et s’y pose (<hi rend="i">Id. loc.</hi>, p. 54).</note>, d’abuser des plus affligeantes inversions<note resp="author"><quote><l rend="i">auprès de la fontaine où sous l’ombre solide</l><l>                        est si froide ton eau</l><l>que frissonnent mes mains <hi rend="i">en y cueillant humide</hi></l><l>                        <hi rend="i">la tige du roseau</hi>.</l><bibl>(<hi rend="i">Id. loc.</hi>, p. 22).</bibl></quote></note>. On pourrait continuer sans fin ces agaçantes critiques. À quoi bon ? Je ne sais s’il est plus triste de voir que M. de Régnier les mérite ou d’observer qu’il mérite sa réputation malgré elles. Car pour tirer une observation générale de ces pénibles remarques, nous devons noter qu’il n’appartient qu’à notre temps d’avoir à adresser de pareils reproches à un éminent écrivain — car nous tenons M. de Régnier pour tel — alors que dans les époques antérieures et jusqu’au début du <num>xix<hi rend="sup">e</hi></num> siècle les écrivains même médiocres écrivaient avec correction.</p>
         <p>C’est d’ailleurs principalement quand il écrit en vers réguliers que M. de Régnier contrevient de la sorte aux convenances du langage. On relève beaucoup moins de fautes pareilles dans ses vers libres, et sa prose en est à peu près exempte. Elle est même souvent drue et de bonne sorte. Ce qu’on y rencontre de surprenant semble l’effet d’une recherche d’archaïsme plutôt que d’erreurs involontaires. M. de Régnier ne donne pas toujours l’impression d’avoir rencontré l’exactitude dans ces recherches, en sorte que ce mélange de modernité et de pastiche, tout en ayant des charmes, a je ne sais quoi de chancelant à la fois et d’apprêté qui lasse et qui déçoit.</p>
         <p>Que nous voici loin du style coulant et facile de Tallemant des Réaux, à qui l’on doit toujours revenir quand on étudie cette partie de l’œuvre de M. de Régnier, en notant à ce propos comme il est particulier et satisfaisant de voir qu’un artiste aussi nettement mêlé au mouvement le plus neuf de son époque soit par ailleurs si étroitement uni à la période la plus classique de notre littérature<note resp="author">Comparer à ce propos l’analogie de sonorité et de mouvement qu’il y a entre ces morceaux que nous empruntons à <hi rend="i">la Double Maîtresse</hi> et aux <hi rend="i">Historiettes</hi> : <quote>La Noue Bras de fer avait fort mauvaise mine et était toujours vêtu de chamois… Dès son jeune âge, Hubert de Mausseuil s’était montré paillard et ivrogne… Elle vivait là fort solitaire, vêtue de grosse laine, vaquant aux soins du ménage, un trousseau de clefs à la main. Elle surveillait la cuisine aimant à manger finement… En ce temps-là elle avait de plaisants ragoûts. Elle mangeait du pain, après l’avoir tenu longtemps à la fumée d’un fagot vert…</quote></note>.</p>
@@ -532,18 +492,12 @@
         <ab type="ornament">* <lb/>*    *</ab>
         <p>M. Bataille, quand Marcel Schwob le préfaçait, était un poète délicat et incertain. Une exquise simplicité imprégnait ses vers nuancés. Nous ne réprouvons pas, à plus de vingt ans de distance, le goût que nous inspirait ce <quote><hi rend="i">petit livre tout blanc, tout tremblant, tout balbutiant</hi></quote>. L’écho de ses complaintes amorties continue à nous charmer. Nous répétons volontiers leurs anciens rythmes :</p>
         <quote>
-          <l>Les miroirs ont gardé ton ombre, Aloïda,</l>
-        </quote>
-        <p rend="noindent">ou bien :</p>
+          <l>Les miroirs ont gardé ton ombre, Aloïda,</l> </quote><p rend="noindent">ou bien :</p>
         <quote>
-          <l>Les doux mots que morte et passée.</l>
-        </quote>
-        <p>Le souffle de Verlaine influençait alors l’atmosphère littéraire. M. Bataille le respirait comme les autres, et celui de Sully-Prudhomme aussi :</p>
+          <l>Les doux mots que morte et passée.</l> </quote><p>Le souffle de Verlaine influençait alors l’atmosphère littéraire. M. Bataille le respirait comme les autres, et celui de Sully-Prudhomme aussi :</p>
         <quote>
           <l>J’ai rêvé quelque monde, asile</l>
-          <l>d’un tas de petits orphelins</l>
-        </quote>
-        <p>C’était très bien. On avait tordu son cou à l’éloquence. On était simple. Sans trop encore d’affectation.</p>
+          <l>d’un tas de petits orphelins</l> </quote><p>C’était très bien. On avait tordu son cou à l’éloquence. On était simple. Sans trop encore d’affectation.</p>
         <p>Si M. Francis Jammes et M. Bataille, que Marcel Schwob plaçait côte à côte, avaient persévéré dans cette voie délicieuse, peut-être eussent-ils laissé une empreinte ineffaçable sur la littérature de leur temps.</p>
         <p>Mais on sait quel déplaisant artifice est devenue la simplicité de M. Jammes. Quant à M. Bataille, il a dès longtemps renoncé à cette grâce divine, mais modeste.</p>
         <ab type="ornament">* <lb/>*    *</ab>
@@ -578,9 +532,7 @@
         <quote>
           <l>Le singulier me touche et l’étrange me charme ;</l>
           <l>J’excuse le bizarre et me sens fort épris</l>
-          <l>Du rare…</l>
-        </quote>
-        <p>Bref, c’est un esprit qui semblerait se porter vers l’étude des curiosités intellectuelles et des névroses cérébrales et non pas vers celle des mouvements de l’inconscient.</p>
+          <l>Du rare…</l> </quote><p>Bref, c’est un esprit qui semblerait se porter vers l’étude des curiosités intellectuelles et des névroses cérébrales et non pas vers celle des mouvements de l’inconscient.</p>
         <p>Ceux qui virent ses débuts le prenaient pour quelque tardif ressortissant de Baudelaire (le plus grand des poètes français selon son jugement, qui est le nôtre aussi) et pensaient que sous cette influence il deviendrait quelque chose comme un second Jean Lorrain, moins réellement poète, moins richement doué, et qui eût analysé avec minutie des Phocas, des Bougrelon et des Baringhel plutôt que des Femme Nue, des Vierge Folle ou des Phalène.</p>
         <p>Entre la nature de l’auteur, entre son tempérament et l’objet de son étude, il y a désaccord. Le spectateur attentif le remarque et s’étonne de ne le pas voir plus nettement mis en lumière par la critique, car il est certainement à l’origine de la gêne insurmontable et du déplaisir profond que l’on ressent en présence de ces œuvres.</p>
         <ab type="ornament">* <lb/>*    *</ab>
@@ -591,9 +543,7 @@
         <p>Or, chose étrange, ce n’est point par faiblesse mais par volonté que M. Bataille se présente ainsi. Il se complaît dans toutes ces attitudes qui nous semblent si choquantes. Elles composent sa règle et sa doctrine : en écrivant de la sorte il se conforme à son idéal du beau.</p>
         <p>Il l’explique avec détails dans un des articles contestables à tant d’égards qu’il a consacrés à certains maîtres et à lui-même, et réunis dans son volume <hi rend="i">Écrits sur le Théâtre</hi>. Dans ce petit morceau qui s’applique à Becque et à <quote><hi rend="i">ses congénères</hi></quote> (<hi rend="i">sic</hi>) et qui est assez curieux pour être cité, il dit :</p>
         <quote>
-          <p rend="i">Les caractéristiques de ces sortes d’écrivains sont d’habitude : l’horreur des métaphores, du néologisme, le refus à tout impressionnisme, l’amour du terme propre, des syntaxes simples, la pauvreté voulue du vocabulaire, les idées concrètes, les traits ramassés (dégoût des mots qui ne sont point des termes de conversation comme frissonnant, ulcéré, etc…) la crainte du qualificatif poussée jusqu’à la manie, l’anatomie ramassée de la phrase.</p>
-        </quote>
-        <p>Après avoir lu ces lignes où sont énumérés sur le ton du persiflage les traits auxquels se reconnaît justement le bon langage, on n’aura plus aucun étonnement quand on rencontrera chez M. Bataille des métaphores incohérentes, des néologismes hasardeux, des essais d’impressionnisme, des mots impropres, des syntaxes équivoques, un vocabulaire riche en mots inusités dans la conversation, bref tout ce qui constitue proprement le mauvais style<note resp="author">Sans vouloir fatiguer le lecteur par un choix trop abondant d’exemples tirés des divers ouvrages de M. Bataille, nous cueillons au hasard des livres feuilletés des choses telles que celles-ci : Je suis dans un abîme de perplexité. S’essorer (dans le sens de prendre son essor). Le sol desséché du livre. Se donner comme un cri. Je vais terminer mon petit papier pour le journal qui doit être porté avant dîner par le groom. Miroirs apâlis.</note>. Mais on ne saurait le lui reprocher, car l’on voit trop nettement que c’est exprès qu’il agit ainsi, et par choix.</p>
+          <p rend="i">Les caractéristiques de ces sortes d’écrivains sont d’habitude : l’horreur des métaphores, du néologisme, le refus à tout impressionnisme, l’amour du terme propre, des syntaxes simples, la pauvreté voulue du vocabulaire, les idées concrètes, les traits ramassés (dégoût des mots qui ne sont point des termes de conversation comme frissonnant, ulcéré, etc…) la crainte du qualificatif poussée jusqu’à la manie, l’anatomie ramassée de la phrase.</p> </quote><p>Après avoir lu ces lignes où sont énumérés sur le ton du persiflage les traits auxquels se reconnaît justement le bon langage, on n’aura plus aucun étonnement quand on rencontrera chez M. Bataille des métaphores incohérentes, des néologismes hasardeux, des essais d’impressionnisme, des mots impropres, des syntaxes équivoques, un vocabulaire riche en mots inusités dans la conversation, bref tout ce qui constitue proprement le mauvais style<note resp="author">Sans vouloir fatiguer le lecteur par un choix trop abondant d’exemples tirés des divers ouvrages de M. Bataille, nous cueillons au hasard des livres feuilletés des choses telles que celles-ci : Je suis dans un abîme de perplexité. S’essorer (dans le sens de prendre son essor). Le sol desséché du livre. Se donner comme un cri. Je vais terminer mon petit papier pour le journal qui doit être porté avant dîner par le groom. Miroirs apâlis.</note>. Mais on ne saurait le lui reprocher, car l’on voit trop nettement que c’est exprès qu’il agit ainsi, et par choix.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Certains auteurs se mettent à l’abri de la critique par un tour qui n’est pas sans adresse.</p>
         <p>Leur dit-on qu’ils écrivent mal ?</p>
@@ -751,16 +701,12 @@
           <l>Le haut bûcher de mon délire</l>
           <l>     où le dressera-t-on ?</l>
           <l>La flamme s’envole. Ouvre ton</l>
-          <l>     Kimono, Déjanire<note resp="author"><hi rend="sc">Jean Pellerin</hi>, <hi rend="i">Le Divan</hi>, juillet 1919.</note>,</l>
-        </quote>
-        <p rend="noindent">ou comme ceux que voilà :</p>
+          <l>     Kimono, Déjanire<note resp="author"><hi rend="sc">Jean Pellerin</hi>, <hi rend="i">Le Divan</hi>, juillet 1919.</note>,</l> </quote><p rend="noindent">ou comme ceux que voilà :</p>
         <quote>
           <l>Marcelle fait claquer la porte</l>
           <l>     au nez d’un rouge anglais,</l>
           <l>Et l’infante à la rose morte</l>
-          <l>     s’endort loin du palais<note resp="author"><hi rend="sc">Philippe Chabaneix</hi>, <hi rend="i">Les Marges</hi>, janvier 1920.</note>,</l>
-        </quote>
-        <p rend="noindent">nous avons eu le sentiment très net que les jeunes écrivains qui les ont si ingénieusement construits ne leur auraient peut-être pas exactement donné ce tour qui nous arrête, si avant eux, M. P.-J. Toulet n’avait ouvragé tant de phrases curieuses, ni ces vers qui résonnent d’une façon particulière, déconcertante et douce,</p>
+          <l>     s’endort loin du palais<note resp="author"><hi rend="sc">Philippe Chabaneix</hi>, <hi rend="i">Les Marges</hi>, janvier 1920.</note>,</l> </quote><p rend="noindent">nous avons eu le sentiment très net que les jeunes écrivains qui les ont si ingénieusement construits ne leur auraient peut-être pas exactement donné ce tour qui nous arrête, si avant eux, M. P.-J. Toulet n’avait ouvragé tant de phrases curieuses, ni ces vers qui résonnent d’une façon particulière, déconcertante et douce,</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Plus peut-être que les façons de penser ou de sentir, celle d’écrire apparente entre eux les auteurs d’une même école. Il est vrai que le style montre en quelque sorte le visage des pensées et des sentiments. L’on ne saurait concevoir qu’un style original correspondît avec une pensée vulgaire et l’on comprend parfaitement qu’en acceptant certaines façons de penser que nos devanciers nous ont enseignées, nous les revêtions d’un style qui ressemble au leur. Un poète dont Baudelaire aurait éduqué la sensibilité ne saurait traduire ses émotions en fluides vers libres, un Claudélien ne pourrait réaliser ses fureurs dans des tragédies qu’il écrirait en alexandrins réguliers.</p>
         <p>Pareillement, les jeunes gens à qui M. P.-J. Toulet a transmis l’usage d’une certaine ironie acérée, et de tel sentiment poétique complexe et délicat, sont tenus d’employer un langage où l’on trouve une ressemblance au contournement de ses phrases ou de ses strophes.</p>
@@ -784,9 +730,7 @@
         <p>Au reste, l’obscur ne nous rebute plus.</p>
         <p>Nous devons remarquer d’ailleurs qu’il n’est pas une nouveauté dans les lettres françaises et, longtemps avant que Mallarmé nous ait familiarisés avec ses charmes et ses prestiges La Rochefoucauld (pour nous en tenir à un nom que nous avons eu déjà l’occasion de citer dans cette esquisse) avait formulé des maximes et des sentences qui par leur ellipticité n’apparaissaient point à première vue comme parfaitement claires. À vrai dire, c’est à celles de La Rochefoucauld plutôt qu’à celles de Mallarmé que font songer les obscurités de M. P.-J. Toulet, puisque lorsqu’on les a élucidées, on tient une pensée nette, directe et vigoureuse, tandis qu’au contraire, chez Mallarmé, aussi loin qu’avance la compréhension, ce n’est jamais pour parvenir à une entière limpidité : la pensée y dérobe toujours quelque chose d’elle-même, et le doute s’y <hi rend="i">achève</hi></p>
         <quote>
-          <l>en maint rameau subtil…</l>
-        </quote>
-        <ab type="ornament">* <lb/>*    *</ab>
+          <l>en maint rameau subtil…</l> </quote><ab type="ornament">* <lb/>*    *</ab>
         <p>Cependant, la souveraine influence de Mallarmé s’est exercée elle aussi d’incontestable façon sur M. P.-J. Toulet. Ce n’est qu’à elle que l’on peut attribuer certains contours indéterminés, une sorte de repliement de la phrase sur elle-même qui a été fort heureusement comparé <quote><hi rend="i">à l’enroulement d’un coquillage délicat</hi></quote><note resp="author"><hi rend="sc">Jacques Boulenger</hi>, <hi rend="i">Le Divan</hi>, juillet-août 1914.</note>, et quelque autre chose encore, que d’une terme verlainien, nous nommerons sans la plus définir <hi rend="i">la solubilité dans l’air</hi>.</p>
         <p>Cette singulière qualité tient à de fines nuances, à des manières d’être de l’écriture qui donnent à la phrase je ne sais quoi de fléchissant et d’incertain, d’hésitant ou de suspendu. À certains moments, par exemple, les définis et les indéfinis se substituent les uns aux autres de manière à surprendre l’esprit comme par une agaçante câlinerie<note resp="author">Mais allons, Doralice, chassons ces rêves. À quoi bon parler <hi rend="i">de la fenêtre</hi>, où parmi les roses pendantes le matin se parfume et ne vous éveillera plus ? Ni de <hi rend="i">cette mouche</hi> bleue qui…</note>. D’autre fois, à la faveur d’une conjonction, il supprime une préposition qu’il devrait répéter<note resp="author">Je vous vois toutes assises <hi rend="i">à l’ombre et l’odeur</hi> du tilleul.</note>, à moins qu’opérant à l’inverse et surchargeant au lieu d’alléger, il redouble l’effet d’un possessif par celui d’un pronom<note resp="author">La machinerie dont l’odeur <hi rend="i">lui</hi> augmentait son mal de mer.</note>. Ailleurs notre déconcertement provient de l’usage qu’il fait d’une construction étrangère, un anglicisme, un latinisme, qui, transposée en notre langage, s’acclimate sans doute, mais non pas au point de couler avec une parfaite douceur, et se remarque<note resp="author">On ne la revit plus, ayant levé l’ancre presque aussitôt.</note>. Plus loin, il s’amuse (et nous du même coup) à équivoquer sur un mot, comme un musicien qui hésiterait entre les différents tons dans lesquels un même accord peut nous introduire<note resp="author">Cet hymen tourna mal, et Jason au libertinage. — Sanche en perdit plusieurs bouchées et le fil de son récit.</note> ou qui réaliserait un passage par en harmonie.</p>
         <p>Au reste, nombre de traits dans cette prose singulière — et dans ces vers aussi — donnant des impressions musicales. Nous ne voulons point parler du nombre et de la sonorité de la phrase, ni de ce qui constitue la musicalité littéraire. Non, intrinsèquement semble-t-il, ce style évoque la musique sinon la plus récente, du moins au juste celle de Debussy.</p>
@@ -818,16 +762,12 @@
           <l>Mais peut-être qu’à d’autres yeux</l>
           <l>      l’autre côté déploie</l>
           <l>le rêve et les fleurs de la joie</l>
-          <l>      d’un dessin merveilleux.</l>
-        </quote>
-        <p>L’accident personnel, chez M. P.-J. Toulet, peut-être est-ce son tempérament moraliste qui le suscite. Il voit ; tellement clair, s’observe si cruellement lui-même qu’il est retenu de se laisser aller à tristesse, comme par crainte d’un ridicule dont il n’est peut-être pas sans apercevoir la trace dans la grande attitude déclamatoire de Moréas — tout son admirateur qu’il soit<note resp="author"><quote><l>Si ta grande ombre, Ô Moréas,</l><l>revient au cabaret des Halles…</l></quote></note> ; et la mélancolique odelette que nous venons de citer s’achève en raillerie :</p>
+          <l>      d’un dessin merveilleux.</l> </quote><p>L’accident personnel, chez M. P.-J. Toulet, peut-être est-ce son tempérament moraliste qui le suscite. Il voit ; tellement clair, s’observe si cruellement lui-même qu’il est retenu de se laisser aller à tristesse, comme par crainte d’un ridicule dont il n’est peut-être pas sans apercevoir la trace dans la grande attitude déclamatoire de Moréas — tout son admirateur qu’il soit<note resp="author"><quote><l>Si ta grande ombre, Ô Moréas,</l><l>revient au cabaret des Halles…</l></quote></note> ; et la mélancolique odelette que nous venons de citer s’achève en raillerie :</p>
         <quote>
           <l>Tel Fô, que l’or noir des tisanes</l>
           <l>      enivre, ou bien ses vers,</l>
           <l>chante et s’en va tout de travers</l>
-          <l>      entre deux courtisanes,</l>
-        </quote>
-        <p rend="noindent">pour détourner qu’on en prenne l’amertume au tragique. M. P.-J. Toulet, est là tout entier, dans ce mouvement qui le dérobe, et dont Moréas n’eût pas été capable.</p>
+          <l>      entre deux courtisanes,</l> </quote><p rend="noindent">pour détourner qu’on en prenne l’amertume au tragique. M. P.-J. Toulet, est là tout entier, dans ce mouvement qui le dérobe, et dont Moréas n’eût pas été capable.</p>
         <p>C’est du reste, à Horace plutôt qu’à Moréas qu’il nous force à penser bien souvent. Non seulement à cause de cette forme très stricte qu’il a adoptée, qui fait ressouvenir de celle de certaines odes — elles imposaient aussi ce style dense et compliqué, qui rend difficiles ces deux auteurs — mais encore à cause de tant d’allusions qui ne sont pas toujours immédiates, comme aussi d’un sentiment de la nature à la fois direct et raffiné.</p>
         <quote>
           <l>Qua pinus ingens, albaque populus</l>
@@ -838,24 +778,18 @@
           <l>Huc vina, et unguenta, et nimium brevis</l>
           <l>flores amœnos ferre jube rosæ ;</l>
           <l>      dum res, et ætas, et sororum</l>
-          <l>      fila trium patiuntur atra<note resp="author"><hi rend="sc">Horace</hi>, II, 3.</note>.</l>
-        </quote>
-        <p>Y a-t-il rien à quoi ressemblent davantage certains petits poèmes descriptifs de M. P.-J. Toulet ?</p>
+          <l>      fila trium patiuntur atra<note resp="author"><hi rend="sc">Horace</hi>, II, 3.</note>.</l> </quote><p>Y a-t-il rien à quoi ressemblent davantage certains petits poèmes descriptifs de M. P.-J. Toulet ?</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Au vieux poète latin, notre contemporain s’apparente encore par cette insigne tendresse qui les incline l’un et l’autre vers la grâce féminine. Mais quelle que soit l’exquisité des traits par lesquels Horace la traduit,</p>
         <quote>
           <l>insignem tenui fronte Lycorida</l>
-          <l>Cyri torret amor…<note resp="author"><hi rend="sc">Horace</hi>, I, 33.</note>,</l>
-        </quote>
-        <p>M. P.-J. Toulet remporte quand il dépeint les femmes.</p>
+          <l>Cyri torret amor…<note resp="author"><hi rend="sc">Horace</hi>, I, 33.</note>,</l> </quote><p>M. P.-J. Toulet remporte quand il dépeint les femmes.</p>
         <p>Il a une vision infiniment sensible de leurs formes, de leurs aspects, de leurs attitudes, une intelligence extrême de leurs humeurs, de leurs mobiles, de leurs façons. Il les contemple avec une sensualité attendrie, en amateur plutôt qu’en amoureux ; il est leur connaisseur et non point leur esclave. Il emmêle la peinture de leurs agréments à celle de leurs travers de manière à faire sentir la complexité de leurs résolutions qui contredit à leur vide de cervelle.</p>
         <p>Du linge à l’âme elles appellent son étude, et si elles ont de quoi rattacher, du moins leur manque-t-il de l’aveugler. Sans doute en dirait-il volontiers avec l’Ecclésiaste qu’elles sont <quote><hi rend="i">plus amères que la mort</hi></quote> (puisque le titre de l’un de ses poèmes est précisément : <hi rend="i">la très amère</hi><note resp="author"><quote><l>Est-ce moi qui pleurais ainsi</l><l>— ou des veaux qu’on empoigne — </l><l>d’écouter ton pas qui s’éloigne,</l><l>beauté mon cher souci.</l></quote></note>) et certes il n’infirmerait point sa constatation : <quote><hi rend="i">de mille hommes j’en ai trouvé un bon, et de toutes les femmes pas une</hi></quote><note resp="author"><hi rend="sc">Ecclésiaste</hi>, VII, 28.</note>.</p>
         <p>Ne trouve-t-il pas d’ailleurs, pour décrire Nane, <quote><hi rend="i">aux lèvres sinueuses</hi></quote>, les accents d’une éloquence quasiment sacrée :</p>
         <quote>
           <p rend="i">elle était plus que cela, un signe écrit sur la muraille, l’hiéroglyphe même de la vie : en elle j’ai cru contempler le monde.</p>
-          <p rend="i">Non, les ondulations du fleuve Océan, ni les nœuds de la vipère ivre de chaleur qui dort au soleil, toute noire, ne sont plus perfides que ses étreintes. Au plus beau verger de France, par l’automne doré, quel fruit te saurait rafraîchir comme ses baisers désaltéraient mon cœur.</p>
-        </quote>
-        <p>Tout cela pour une gentille grue.</p>
+          <p rend="i">Non, les ondulations du fleuve Océan, ni les nœuds de la vipère ivre de chaleur qui dort au soleil, toute noire, ne sont plus perfides que ses étreintes. Au plus beau verger de France, par l’automne doré, quel fruit te saurait rafraîchir comme ses baisers désaltéraient mon cœur.</p> </quote><p>Tout cela pour une gentille grue.</p>
         <p>On voit comment opère la transposition magique du style, et comment l’imagination poétique magnifie l’objet qu’elle se représente.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Elle fait un même effet quand elle s’applique à dépeindre la nature. Le sentiment qu’en a M. P.-J. Toulet est intime, profond, suave, et la façon dont il l’exprime suscite d’interminables rêveries. Tout paysage qu’il trace, soit d’un trait, soit à loisir, ouvre au songe une fenêtre <quote><hi rend="i">où parmi les roses pendantes le matin se parfume</hi></quote>. Les arômes, les couleurs, la lumière, s’amalgament par l’artifice de ce devin. Les choses prennent un nouvel aspect, et devant les yeux de l’âme surgit un monde parent de celui où les rêveries de Schumann nous introduisent. On subit une griserie que l’on craint de goûter, qui ne rassure point, mais semble contenir je ne sais quoi de funeste et de mortel. Sous tant de fleurs embaumées gît un principe d’inquiétude — un serpent est caché dans l’herbe… <quote><hi rend="i">latet anguis in herba</hi></quote>.</p>
@@ -866,9 +800,7 @@
           <l>(sous-sol dont les vapeurs vineuses</l>
           <l>          encensaient nos adieux</l>
           <l>tandis que lui perlaient aux yeux</l>
-          <l>          ses larmes vénéneuses.)</l>
-        </quote>
-        <p>Tout ce qui contient un venin a eu prise sur ce cœur. Le spectacle des passions malsaines, celui des vices, l’entente de l’inadmissible, du défendu semblent l’avoir empoisonné. Sans doute s’en est-il d’abord curieusement diverti. Il a ri de ce mal, mais il l’a dénoncé, comme mal à la fois, et comme risible. Il l’a fait non point en vue de corriger les mœurs, non plus de préserver, de garantir ou de sauver, mais par instinct de les observer jusqu’au tréfond quelles qu’elles puissent être — avec répugnance peut-être, mais sans insurmontable dégoût, sans être dupe — et c’est ce qui explique le sourire équivoque des figures compliquées qu’il a peintes, les infamies empreintes sur ces visages suaves ou flétris, l’amertume qu’on ne peut lénifier de ces maximes tordues et recourbées comme des cimeterres dangereux ; ce qui explique enfin (il faut bien répéter, et répéter ce que l’on répète) ce désenchantement, ce désabusement sans borne.</p>
+          <l>          ses larmes vénéneuses.)</l> </quote><p>Tout ce qui contient un venin a eu prise sur ce cœur. Le spectacle des passions malsaines, celui des vices, l’entente de l’inadmissible, du défendu semblent l’avoir empoisonné. Sans doute s’en est-il d’abord curieusement diverti. Il a ri de ce mal, mais il l’a dénoncé, comme mal à la fois, et comme risible. Il l’a fait non point en vue de corriger les mœurs, non plus de préserver, de garantir ou de sauver, mais par instinct de les observer jusqu’au tréfond quelles qu’elles puissent être — avec répugnance peut-être, mais sans insurmontable dégoût, sans être dupe — et c’est ce qui explique le sourire équivoque des figures compliquées qu’il a peintes, les infamies empreintes sur ces visages suaves ou flétris, l’amertume qu’on ne peut lénifier de ces maximes tordues et recourbées comme des cimeterres dangereux ; ce qui explique enfin (il faut bien répéter, et répéter ce que l’on répète) ce désenchantement, ce désabusement sans borne.</p>
         <p>Le désenchantement, voilà ce qui adultère la satisfaction que pourrait donner cette poésie immatérielle et supérieure. C’est lui qui la mélange d’ironie. Il trouble son goût et donne son ambiguïté monstrueusement adorable à cette œuvre qui apporte tous les plaisirs esthétiques, mais point de réconfort. Elle fournirait plutôt des raisons de chanceler évanoui. Elle aussi est amère, la très-amère, et de goût cendreux — et le désenchanté moraliste de l’Imitation n’est pas plus désenchanté — <quote><hi rend="i">et il songea mélancolique à tout le temps que les hommes perdent en plaisir</hi></quote>…<note resp="author"><hi rend="i">Le Mariage de Don Quichotte.</hi></note></p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Voici donc qu’une fois encore à propos de M. P.-J. Toulet nous citons quelqu’un !</p>
@@ -920,9 +852,7 @@
         <p>On y retrouve en effet cette puissance et cette tristesse dont l’étrange union donne à tout ce qu’il imagine sa singulière couleur, car il semble au premier abord qu’il y ait une antinomie entre la puissance et la tristesse, puisque la tristesse est une diminution d’être. On sait bien cependant que leur alliance se trouve réalisée, sinon souvent, quelquefois du moins, et par les artistes mêmes qui ont atteint les suprêmes sommets de l’art. On n’ose prononcer leurs noms à propos de qui que ce soit, tant sont redoutables certaines comparaisons, et l’on sait bien qu’il faut qu’un homme soit mort pour que l’on reconnaisse qu’il s’aventura lui aussi, par ces <hi rend="i">lieux vagues</hi> où l’on voit</p>
         <quote>
           <l>Des fantômes puissants qui dans les crépuscules</l>
-          <l>Déchirent leur suaire en étirant leurs doigts<note resp="author"><hi rend="sc">Baudelaire</hi>, <hi rend="i">Les Phares</hi>.</note>.</l>
-        </quote>
-        <ab type="ornament">* <lb/>*    *</ab>
+          <l>Déchirent leur suaire en étirant leurs doigts<note resp="author"><hi rend="sc">Baudelaire</hi>, <hi rend="i">Les Phares</hi>.</note>.</l> </quote><ab type="ornament">* <lb/>*    *</ab>
         <p>L’impression de puissance que produisent les écrivains tient à différentes qualités que l’on reconnaît chez eux. Les uns, Balzac, Hugo, Zola — noms que l’on s’étonnera peut-être de voir réunis — tracent un tableau d’une incomparable ampleur où les évolutions de masses énormes de figurants n’empêchent pas que l’on aperçoive le mouvement des individus brassés par le tumulte qu’ils ont entrepris de dépeindre. D’autres, Stendhal Flaubert, concentrent une lumière intense sur des figures isolées ou peu nombreuses : M<hi rend="sup">me</hi> Bovary, la Sanseverina.</p>
         <p>C’est dans cette famille d’auteurs et non dans la première qu’il conviendrait de placer M. Montfort. Un petit nombre de personnages suffit pour occuper la scène de ses romans. Parfois, même, dans la <hi rend="i">Turque</hi> par exemple, ou dans la <hi rend="i">Belle Enfant</hi>, le livre entier tourne et se développe autour d’une seule figure dressée en son centre. Les épisodes et les événements mettent successivement en valeur ses différentes caractéristiques comme une lampe, tournant autour d’une statue qu’elle éclaire, y dessine de grands pans d’ombre et de lumière déplacés selon son mouvement.</p>
         <p>Cette manière de faire donne aux œuvres où elle s’emploie une majestueuse simplicité. L’art de M. Montfort tend d’ailleurs toujours à la simplicité. Son récit s’élance parfois d’un mouvement si allègre et si juste que le lecteur doute s’il est séparé des personnages auxquels il s’intéresse par l’interposition d’une sensibilité étrangère à la sienne. Les premiers chapitres des <hi rend="i">Noces Folles</hi> offrent un exemple typique de cet incomparable ton narratif. Par des pages limpides et transparentes, ils vous introduisent dans un récit passionné dont le dessin a cette sobriété, cette netteté dans les contours qui forment le signe de parenté auquel se reconnaissent entre elles les conceptions de M. Montfort et qui les lient les unes aux autres.</p>
@@ -940,18 +870,12 @@
         <p>Ce qu’il poursuit, c’est une beauté idéalement vierge, une humanité plus alerte, moins civilisée, dont la vie serait plus différenciée et que le progrès n’aurait pas uniformément standarisée.</p>
         <quote>
           <l>J’aime le souvenir, <hi rend="i">semble-t-il-dire</hi>, de ces époques nues</l>
-          <l>Dont Phébus se plaisait à dorer les statues.</l>
-        </quote>
-        <p>Il a ressenti d’une façon poignante cette anxieuse nostalgie baudelairienne.</p>
+          <l>Dont Phébus se plaisait à dorer les statues.</l> </quote><p>Il a ressenti d’une façon poignante cette anxieuse nostalgie baudelairienne.</p>
         <quote>
           <l>L’homme élégant, robuste et fort avait le droit</l>
-          <l>D’être fier des beautés qui le nommaient leur roi.</l>
-        </quote>
-        <p rend="noindent">et ce sentiment a de quoi surprendre chez un homme épris par ailleurs de modernisme qui trouve au lieu de ce qu’il cherchait</p>
+          <l>D’être fier des beautés qui le nommaient leur roi.</l> </quote><p rend="noindent">et ce sentiment a de quoi surprendre chez un homme épris par ailleurs de modernisme qui trouve au lieu de ce qu’il cherchait</p>
         <quote>
-          <l>Des visages rongés par des chancres du cœur</l>
-        </quote>
-        <p rend="noindent">et qui lui aussi les chérit singulièrement.</p>
+          <l>Des visages rongés par des chancres du cœur</l> </quote><p rend="noindent">et qui lui aussi les chérit singulièrement.</p>
         <ab type="ornament">* <lb/>*    *</ab>
         <p>Ainsi, il va et vient sans cesse de ce qu’il y a d’extrême dans la civilisation de notre temps à ce qui peut demeurer dans notre époque de spontanéité naïve — et qu’il va rechercher aux confins du Maroc, dans les campagnes d’Italie ou d’Espagne, dans quelque îlot perdu sur l’océan. Pareil à un matelot que tourmente en mer l’appétit des escales et que le large appelle lorsqu’il revient à terre, une passion alternative, un double goût, le torturant sans fin, déterminent la tristesse incurable qui s’exhale de son œuvre. Bien irrémédiablement en effet, puisqu’en dernière analyse, ce qui opprime ses personnages, aussi bien la <hi rend="i">Turque</hi> pitoyable que Lina des <hi rend="i">Noces Folles</hi> ou que Didier Cassenoir, c’est l’excès de cette civilisation à quoi l’on ne peut échapper, et dont on ne peut pas plus remonter le cours que celui des jours.</p>
         <p>Il est dur de ne pouvoir supporter le présent.</p>

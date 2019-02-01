@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -25,10 +25,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/mennechet_matinees-litteraires/</idno>
-        <idno type="tei">http://obvil.sorbonne-universite.site/corpus/critique/mennechet_matinees-litteraires.xml</idno>
-        <idno type="html">http://obvil.sorbonne-universite.site/corpus/critique/mennechet_matinees-litteraires.html</idno>
-        <idno type="text">http://obvil.sorbonne-universite.site/corpus/critique/mennechet_matinees-litteraires.txt</idno>
-        <idno type="epub">http://obvil.sorbonne-universite.site/corpus/critique/mennechet_matinees-litteraires.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -85,9 +81,7 @@
         <p>Disons-le donc avec confiance, le goût n’est pas un principe arbitraire, <pb n="14"/>capricieux et variable. Il a les mêmes bases dans tous les esprits, la nature et la vérité. Laissons déclamer sur les caprices et l’incertitude du goût, et reconnaissons que le cœur de l’homme a des cordes que l’on ne touche jamais en vain, et qu’il est des beautés éternelles qui brillent à toutes les intelligences, comme le soleil à tous les yeux.</p>
         <p>Ainsi, dans l’appréciation des œuvres du génie, nous ne séparerons point l’homme de ses écrits, ni des temps et des lieux où il a vécu. Nous nous ferons les concitoyens, les contemporains de ces puissants génies qui ont éclairé le monde, afin de les mieux comprendre, et de les voir de plus près qu’à travers les siècles. Nous nous transporterons à Athènes, à Rome, partout où la gloire des lettres brillera à nos yeux d’un plus vif éclat, afin d’en mieux pénétrer les mystérieuses inspirations. Souvent même une forme dramatique viendra à notre aide pour rendre moins sèche et moins aride la critique littéraire ; nous tâcherons, en un mot, de suivre le conseil de l’écrivain le plus judicieux de l’antiquité, de Plutarque.</p>
         <quote>
-          <p>« Les jeunes gens et les jeunes personnes, nous dit-il, prennent plus de plaisir, obéissent plus volontiers, et se laissent plus facilement entraîner aux discours de la philosophie, qui tiennent moins du philosophe, et qui semblent plutôt être dits en jouant qu’à bon escient. Quand ils reçoivent l’instruction parmi des contes faits à plaisir, ils sont, par manière de dire, ravis d’aise et de joie. »</p>
-        </quote>
-        <p>Pénétré de cette vérité, nous avons mis tous nos soins à nous dépouiller de la gravité des écoles ; et, sans prétendre à vous ravir d’aise et de joie, comme le veut le philosophe de Chéronée, notre ambition sera satisfaite si nous parvenons à vous inspirer quelque intérêt pour nos études, et quelque bienveillance pour nous-même.</p>
+          <p>« Les jeunes gens et les jeunes personnes, nous dit-il, prennent plus de plaisir, obéissent plus volontiers, et se laissent plus facilement entraîner aux discours de la philosophie, qui tiennent moins du philosophe, et qui semblent plutôt être dits en jouant qu’à bon escient. Quand ils reçoivent l’instruction parmi des contes faits à plaisir, ils sont, par manière de dire, ravis d’aise et de joie. »</p> </quote><p>Pénétré de cette vérité, nous avons mis tous nos soins à nous dépouiller de la gravité des écoles ; et, sans prétendre à vous ravir d’aise et de joie, comme le veut le philosophe de Chéronée, notre ambition sera satisfaite si nous parvenons à vous inspirer quelque intérêt pour nos études, et quelque bienveillance pour nous-même.</p>
       </div>
       <div>
         <head>Études sur la lecture à haute voix, le débit oratoire, et la déclamation dramatique. <lb/><hi rend="i">Introduction</hi></head>

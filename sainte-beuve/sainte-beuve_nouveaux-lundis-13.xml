@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
@@ -41,9 +41,9 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
+        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/sainte-beuve_nouveaux-lundis-13/</idno>
         <date when="2016"/>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -84,13 +84,13 @@
       <div>
         <head>[Note de l’éditeur]</head>
         <p>Nous ne pouvons mieux faire que de mettre en tête de ce volume, au lendemain de la mort
-          de M. Sainte-Beuve, le fragment suivant, trouvé dans ses papiers. C’est un <anchor
-            xml:id="_GoBack"/>brouillon, écrit ou dicté à la hâte, et qui est resté à l’état de
-          premier jet. Nous n’y changerons rien. Les points de repère qu’il contient, jusqu’à la
-          date où s’arrête cette courte Esquisse, seront peut-être utiles, dans l’avenir, à
-          l’exactitude d’une Biographie plus étendue. Et tout d’abord, nous avons pensé à l’offrir
-          (telle que M. Sainte-Beuve l’a laissée) à celui qui doit très prochainement prononcer son
-          Éloge à l’Académie française, à M. Jules Janin.</p>
+          de M. Sainte-Beuve, le fragment suivant, trouvé dans ses papiers. C’est un brouillon,
+          écrit ou dicté à la hâte, et qui est resté à l’état de premier jet. Nous n’y changerons
+          rien. Les points de repère qu’il contient, jusqu’à la date où s’arrête cette courte
+          Esquisse, seront peut-être utiles, dans l’avenir, à l’exactitude d’une Biographie plus
+          étendue. Et tout d’abord, nous avons pensé à l’offrir (telle que M. Sainte-Beuve l’a
+          laissée) à celui qui doit très prochainement prononcer son Éloge à l’Académie française, à
+          M. Jules Janin.</p>
       </div>
     </front>
     <body>
@@ -218,7 +218,8 @@
           M. Dubois, qui m’y appliqua aussitôt et m’y essaya à quantité de petits articles. Ils sont
           signés <hi rend="i">S.-B.</hi>, et il est facile à tout biographe d’y suivre mes
           tâtonnements et mes commencements. A un certain jour, M. Dubois me dit :
-            <quote>« Maintenant vous savez écrire, et vous pouvez aller seul. » </quote></p>
+            <quote>« Maintenant vous savez écrire, et vous pouvez aller seul. »</quote>
+        </p>
         <p>Mes premiers articles un peu remarquables furent sur les premiers volumes de
             l’<title>Histoire de la Révolution</title> de M. Thiers et sur le <hi rend="i"
             >Tableau</hi> de la même époque par M. Mignet. C’est vers ce temps aussi que, M. Dubois
@@ -586,12 +587,12 @@
               de Rouen, expurgée — cela va sans dire — à l’usage des classes, et publiée par un
               jésuite, <hi rend="i">Josephus Juvencius, S. J</hi>., 1736). M. Cloüet a écrit sur la
               garde de ce petit livre des pensées littéraires de lui sur <quote>« le plus parfait
-                des poètes latins après Virgile », </quote>suivies de vers de Gresset et de Voltaire
+                des poètes latins après Virgile »</quote>, suivies de vers de Gresset et de Voltaire
               à l’éloge d’Horace.Ces deux pages de la main du professeur sont datées de
-                <quote>« vendredi 31 8<hi rend="sup">bre</hi> 1817. » </quote>Le jeune élève a mis
+                <quote>« vendredi 31 8<hi rend="sup">bre</hi> 1817. »</quote> Le jeune élève a mis
               deux fois sa signature au-dessous de celle de son maître : <quote>« Sainte-Beuve, 1<hi
                   rend="sup">er</hi> mai 1818 »</quote> ; c’était l’année de son départ pour Paris ;
-                — <quote>« Sainte-Beuve. 19 janvier 1822 » ; </quote>il était bien près de quitter
+                — <quote>« Sainte-Beuve. 19 janvier 1822 »</quote> ; il était bien près de quitter
               ayant définitivement l’école et le collège cette année-là. — Un autre <hi rend="i"
                 >Horace</hi> de 1760, en deux volumes et traduit en français, ayant également
               appartenu à M. Cloüet, porte quelques lignes de la plus jeune écriture de
@@ -624,15 +625,14 @@
                 <l>Ite mei fletus, et vos cum fletibus ite</l>
                 <l>Carmina, inæquali carmina capta pede.</l>
                 <l>Occidit heu ! Biturix…..etc.    »</l>
-              </quote>
-              <p><hi rend="i">Inæquali carmina capta pede ;</hi> — à l’imitation de l’antique,
-                l’écolier indiquait en quels vers (hexamètre et pentamètre) il avait écrit sa
-                composition. — Il y eut encore, paraît-il, à Charlemagne, un nouveau prix de
-                semestre, offert l’année d’après par la ville de Paris, et cette fois à l’occasion
-                du baptême de M. le duc de Bordeaux, M. Sainte-Beuve obtint le premier prix
-                d’excellence en rhétorique de première année (30 avril 1821). L’ouvrage qu’on lui
-                donna et qui a conservé sur la garde l’inscription du collège avait son à-propos en
-                ce moment-là : c’est la brochure toute de circonstance de Chateaubriand,
+              </quote><p><hi rend="i">Inæquali carmina capta pede ;</hi> — à l’imitation de
+                l’antique, l’écolier indiquait en quels vers (hexamètre et pentamètre) il avait
+                écrit sa composition. — Il y eut encore, paraît-il, à Charlemagne, un nouveau prix
+                de semestre, offert l’année d’après par la ville de Paris, et cette fois à
+                l’occasion du baptême de M. le duc de Bordeaux, M. Sainte-Beuve obtint le premier
+                prix d’excellence en rhétorique de première année (30 avril 1821). L’ouvrage qu’on
+                lui donna et qui a conservé sur la garde l’inscription du collège avait son à-propos
+                en ce moment-là : c’est la brochure toute de circonstance de Chateaubriand,
                   <title>Mémoires, Lettres et Pièces authentiques touchant la vie et la mort du duc
                   de Berry</title> (1820). — La Restauration n’abreuvait pas moins les <hi rend="i"
                   >chers élèves</hi> de l’université de son culte que le régime impérial précédent
@@ -670,9 +670,8 @@
               <quote>
                 <l>Arrêtons-nous sur la colline</l>
                 <l>À l’heure où partageant les jours, etc.</l>
-              </quote>
-              <p>Je ne puis oublier la voix de M. Sainte-Beuve redisant presque de souvenir la
-                strophe entière :</p>
+              </quote><p>Je ne puis oublier la voix de M. Sainte-Beuve redisant presque de souvenir
+                la strophe entière :</p>
               <quote>
                 <l>Reconnais-tu ce beau rivage ?</l>
                 <l>Cette mer aux flots argentés,</l>
@@ -684,9 +683,8 @@
                 <l>Malheureux ! quel nom tu prononces !</l>
                 <l>Ne vois-tu pas parmi ces ronces</l>
                 <l>Ce nom gravé sur un cercueil ?…</l>
-              </quote>
-              <p>On eût cru que M. Sainte-Beuve se redisait à lui-même le chant funèbre de plus
-                d’une illusion, à la fin de sa vie.</p>
+              </quote><p>On eût cru que M. Sainte-Beuve se redisait à lui-même le chant funèbre de
+                plus d’une illusion, à la fin de sa vie.</p>
             </note>.</p>
           <p>« En 1821, l’institution de M. Landry ayant changé de quartier et s’étant transportée
             rue Blanche (Chaussée-d’Antin), le jeune Sainte-Beuve suivit les classes du collège
@@ -835,22 +833,21 @@
             volumes se fit à partir de 1851, sous le titre de <title>Causeries du Lundi</title>, et
             elle se continua pendant les années suivantes au point de former en définitive quinze
             volumes in-18<note resp="author">La Table générale analytique qui se trouvait à la fin
-              du <num>xi<hi rend="sup">e</hi></num> volume a été supprimée comme ne
-              remplissant plus son objet par suite des éditions nouvelles de l’ouvrage, à chacune
-              desquelles M. Sainte-Beuve ajoutait quelque chose dans ses articles ; enfin les trois
-              volumes qui ont porté de onze à quinze le chiffre de la collection des <hi rend="i"
-                >Causeries</hi> nécessitaient une nouvelle Table, qui n’a point encore été faite.
-              M. Sainte-Beuve l’a remplacée dans le <num>xi<hi rend="sup">e</hi></num>
-              volume par une centaine de pages des plus piquantes, intitulées <hi rend="i">Notes et
-                Pensées</hi>, dans lesquelles, comme il disait, <quote>« il a vidé tous ses
-                cahiers. »</quote> Ce sont des jugements et éclaircissements sur ses Contemporains,
-              des pages de Mémoires. — M. Paul Chéron, auteur de la première Table, a composé par
-              cartes la Bibliographie de M. Sainte-Beuve encore inédite. Nous devons signaler, parmi
-              ce que M. Sainte-Beuve a omis d’indiquer, les quatre articles sur <hi rend="i"
-                >Proudhon</hi>, de la <hi rend="i">Revue contemporaine</hi> (octobre, novembre et
-              décembre 1865), qui seront prochainement réunis en volumes. — Nous avons eu à publier,
-              depuis la mort de M. Sainte-Beuve, un dernier et nouvel article sur M<hi rend="sup"
-                >me</hi>
+              du <num>xi<hi rend="sup">e</hi></num> volume a été supprimée comme ne remplissant plus
+              son objet par suite des éditions nouvelles de l’ouvrage, à chacune desquelles
+              M. Sainte-Beuve ajoutait quelque chose dans ses articles ; enfin les trois volumes qui
+              ont porté de onze à quinze le chiffre de la collection des <hi rend="i">Causeries</hi>
+              nécessitaient une nouvelle Table, qui n’a point encore été faite. M. Sainte-Beuve l’a
+              remplacée dans le <num>xi<hi rend="sup">e</hi></num> volume par une centaine de pages
+              des plus piquantes, intitulées <hi rend="i">Notes et Pensées</hi>, dans lesquelles,
+              comme il disait, <quote>« il a vidé tous ses cahiers. »</quote> Ce sont des jugements
+              et éclaircissements sur ses Contemporains, des pages de Mémoires. — M. Paul Chéron,
+              auteur de la première Table, a composé par cartes la Bibliographie de M. Sainte-Beuve
+              encore inédite. Nous devons signaler, parmi ce que M. Sainte-Beuve a omis d’indiquer,
+              les quatre articles sur <hi rend="i">Proudhon</hi>, de la <hi rend="i">Revue
+                contemporaine</hi> (octobre, novembre et décembre 1865), qui seront prochainement
+              réunis en volumes. — Nous avons eu à publier, depuis la mort de M. Sainte-Beuve, un
+              dernier et nouvel article sur M<hi rend="sup">me</hi>
               <hi rend="i">Tastu</hi>, qui lui avait été demandé par les éditeurs des <hi rend="i"
                 >Causeries</hi>, MM. Garnier, pour l’un des deux volumes extraits de ce Recueil,
                 <title>Galerie de Femmes célèbres</title><hi rend="i">. —</hi> M. Sainte-Beuve s’est
@@ -959,7 +956,7 @@
               (dans la discussion d’un projet de nouvelle organisation de l’armée où la garde
               nationale et la ligne devaient se confondre). — Chasles interrompait presque chaque
               mot. — Louvet dit à Chasles : « Il n’est point questiond’organiser un corps de
-              chanoines ; taisez-vous » ; — et Chasles parle toujours. » </quote>— Chasles, en
+              chanoines ; taisez-vous » ; — et Chasles parle toujours. »</quote> — Chasles, en
             effet, avait été chanoine au chapitre de Chartres avant La Révolution. Et Louvet, dans
             sa pointe, se montrait bien toujours le digne auteur de
           <title>Faublas</title>.</note>.</p>
@@ -1460,18 +1457,18 @@
               rend="sup">e</hi></num> siècle. Maurice de Saxe, un guerrier par nature et par génie,
           se mettant à dicter ses <hi rend="i">Rêveries</hi>, pouvait dire :</p>
         <quote>
-          <p>« La guerre est une science couverte de ténèbres, dans l’obscurité desquelles on
-              ne marche pas d’un pas assuré : la routine et les préjugés en font la base, suite
-              naturelle de l’ignorance. — Toutes les sciences ont des principes et des règles, la
-              guerre seule n’en a point… La guerre a des règles dans les parties de détail, mais
-              elle n’en a point dans les sublimes… Les grands capitaines qui en ont écrit ne nous en
-              donnent point. Il faut être consommé pour les entendre ; et il est impossible de se
-              former le jugement sur les historiens qui ne parlent de la guerre que selon qu’elle se
-              peint à leur imagination… — Gustave-Adolphe a créé une méthode que ses disciples ont
-              suivie, et tous ont fait de grandes choses. Depuis ce temps-là nous avons dérogé
-              successivement, parce que ce n’était que par routine que l’on avait appris : de là
-              vient la confusion des usages où chacun a augmenté ou retranché… Il n’y a plus que des
-              usages dont les principes nous sont inconnus… »</p>
+          <p>« La guerre est une science couverte de ténèbres, dans l’obscurité desquelles on ne
+            marche pas d’un pas assuré : la routine et les préjugés en font la base, suite naturelle
+            de l’ignorance. — Toutes les sciences ont des principes et des règles, la guerre seule
+            n’en a point… La guerre a des règles dans les parties de détail, mais elle n’en a point
+            dans les sublimes… Les grands capitaines qui en ont écrit ne nous en donnent point. Il
+            faut être consommé pour les entendre ; et il est impossible de se former le jugement sur
+            les historiens qui ne parlent de la guerre que selon qu’elle se peint à leur
+            imagination… — Gustave-Adolphe a créé une méthode que ses disciples ont suivie, et tous
+            ont fait de grandes choses. Depuis ce temps-là nous avons dérogé successivement, parce
+            que ce n’était que par routine que l’on avait appris : de là vient la confusion des
+            usages où chacun a augmenté ou retranché… Il n’y a plus que des usages dont les
+            principes nous sont inconnus… »</p>
         </quote>
         <p>Cela n’empêchait pas les raisonnements à perte de vue ; le chevalier de Folard ne s’en
           privait pas ; il y avait dans ses écrits fatras et mélange. Puységur donnait et compilait
@@ -1581,13 +1578,13 @@
           sortir les fautes et les exagérations du système nouveau et du génie qui l’avait conçu ;
           il dira alors, en rentrant dans la parfaite vérité :</p>
         <quote>
-          <p>« Loin de moi la pensée de décider si le <hi rend="i">roi légitime</hi> de la
-              Prusse, ne voulant que défendre son trône et son pays, pouvait provoquer, dès 1756,
-              cette révolution immense dans l’art militaire qu’un soldat audacieux autant qu’habile
-              introduisit, quarante ans après, par la force des événements qui l’entraînait ! Je
-              reconnaîtrai même que Frédéric n’était point dans une situation à <hi rend="i">jouer
-                un si gros jeu</hi>, et qu’en bornant ses plans à gagner du temps et à empêcher tout
-              concert entre ses formidables ennemis, il prit le parti le plus sage. »</p>
+          <p>« Loin de moi la pensée de décider si le <hi rend="i">roi légitime</hi> de la Prusse,
+            ne voulant que défendre son trône et son pays, pouvait provoquer, dès 1756, cette
+            révolution immense dans l’art militaire qu’un soldat audacieux autant qu’habile
+            introduisit, quarante ans après, par la force des événements qui l’entraînait ! Je
+            reconnaîtrai même que Frédéric n’était point dans une situation à <hi rend="i">jouer un
+              si gros jeu</hi>, et qu’en bornant ses plans à gagner du temps et à empêcher tout
+            concert entre ses formidables ennemis, il prit le parti le plus sage. »</p>
         </quote>
         <p>Ce qu’il avait retiré à Frédéric comme général, il le lui rendait amplement comme
           politique et comme caractère.</p>
@@ -1624,14 +1621,14 @@
           d’apostilles pressantes :</p>
         <quote>
           <p>« Le 21 frimaire an <num>xiii</num> (12 décembre 1804). M. Jomini est un officier
-              extrêmement distingué sous tous les rapports militaires ; il a surtout un talent rare
-              comme officier d’état-major. »</p>
+            extrêmement distingué sous tous les rapports militaires ; il a surtout un talent rare
+            comme officier d’état-major. »</p>
         </quote>
         <p>Autre apostille de Ney (janvier 1805) :</p>
         <quote>
-          <p>« M. Jomini est susceptible par ses talents et son dévouement d’être utilement
-              employé. Je prie Son Exc. le ministre de la guerre de le placer près de moi comme aide
-              de camp capitaine. »</p>
+          <p>« M. Jomini est susceptible par ses talents et son dévouement d’être utilement employé.
+            Je prie Son Exc. le ministre de la guerre de le placer près de moi comme aide de camp
+            capitaine. »</p>
         </quote>
         <p>Les demandes de Ney devinrent plus instantes au moment où la campagne d’Ulm fut entamée.
           Ney écrivait de Gunzburg à l’Empereur, le 20 vendémiaire an <num>xiv</num> (12 octobre
@@ -1684,8 +1681,8 @@
                   Sa Majesté, et qui a mérité la continuation de son activité par ceux qu’il a déjà
                   rendus à la France à l’époque critique de l’an
                   <num>vii</num>.</quote></p><p><quote>« Salzbourg, le 21 frimaire an
-                  <num>xiv</num>. </quote></p><p><quote><hi rend="sc">« Le</hi> Maréchal <hi
-                    rend="sc">Ney. »</hi>
+                  <num>xiv</num>.</quote>
+              </p><p><quote><hi rend="sc">« Le</hi> Maréchal <hi rend="sc">Ney. »</hi>
                 </quote></p></quote></note>, et un décret daté de Schœnbrunn, 27 décembre 1805,
           nomma Jomini adjudant-commandant, et l’attacha à l’état-major du 6<hi rend="sup">e</hi>
           corps. Le 31 août 1806, Ney annonçait à Berthier, ministre de la guerre, qu’il avait pris
@@ -1798,7 +1795,7 @@
               d’être deviné dans ses ordres confidentiels par Jomini, et les explications que
               celui-ci donna à l’appui d’un premier mot, échappé comme naturellement de ses lèvres,
               ne durent pas nuire dans l’esprit de l’Empereur à l’idée qu’il se fit dès lors de sa
-              sagacité stratégique.</note><quote>. »</quote></p>
+              sagacité stratégique.</note>. »</p>
         </quote>
         <p>Bien que toujours aide de camp titulaire du maréchal Ney, Jomini fut donc pendant cette
           campagne attaché à l’état-major de l’Empereur ; ce qui n’empêcha point que, dès la
@@ -1858,32 +1855,32 @@
           camp, et en général comment le service des ordonnances se faisait dans la grande armée.
           Cela est à notre portée, et il est bon d’en dire quelque chose.</p>
         <quote>
-          <p>« Le maréchal Ney nous tenait à une grande distance de lui. Dans les marches, il
-              était seul en avant et ne nous adressait jamais la parole sans nécessité. L’aide de
-              camp du jour n’entrait dans sa chambre que pour affaire de service, ou bien quand il
-              était appelé, et c’était la chose la plus rare que de voir le maréchal causer avec
-              aucun d’entre nous. Il mangeait seul, sans inviter une fois aucun de ses aides de
-              camp. Cette fierté tenait à sa nouvelle situation, au désir de garder son rang. Les
-              premiers maréchaux nommés en 1804 étaient des généraux de la République : la
-              transition était brusque. En 1797, à l’époque du 18 fructidor, le général Augereau
-              reprochait aux officiers de s’appeler <hi rend="i">Monsieur</hi> : et quelques années
-              plus tard, les généraux républicains devenaient eux-mêmes maréchaux, ducs et princes.
-              Ce changement embarrassa quelquefois le nouveau maréchal, qui d’ailleurs croyait avec
-              raison que son élévation excitait l’envie. Il crut ne pouvoir se faire respecter qu’à
-              force de hauteur, et il alla quelquefois trop loin à cet égard. Toutefois la
-              familiarité aurait eu de plus graves inconvénients, et, au défaut de la juste mesure,
-              toujours difficile à observer, peut-être a-t-il pris le meilleur parti. Les aides de
-              camp ne s’en plaignaient pas ; ils se trouvaient plus à leur aise en vivant ensemble,
-              et se livraient sans contrainte à la gaieté qui caractérise la jeunesse, la jeunesse
-              française, la jeunesse militaire. Nous faisions très bonne chère, car suivant les
-              circonstances on ne manquait ni de force pour s’emparer des vivres, ni d’argent pour
-              les payer. J’ai souvent admiré comment, en arrivant le soir dans une misérable cabane,
-              le cuisinier trouvait moyen, au bout de deux heures, de nous donner un excellent dîner
-              de Paris. Mais cette manière de vivre avait de grands inconvénients pour notre
-              service : restant étrangers à tout ce qui se passait, n’ayant communication d’aucun
-              ordre, nous ne pouvions ni nous instruire de notre métier, ni bien remplir les
-              missions dont nous étions chargés<note resp="author"><title>Souvenirs militaires de
-                  1804 à 1814</title>, par M. le duc de Fezensac (1863), page 116.</note> »</p>
+          <p>« Le maréchal Ney nous tenait à une grande distance de lui. Dans les marches, il était
+            seul en avant et ne nous adressait jamais la parole sans nécessité. L’aide de camp du
+            jour n’entrait dans sa chambre que pour affaire de service, ou bien quand il était
+            appelé, et c’était la chose la plus rare que de voir le maréchal causer avec aucun
+            d’entre nous. Il mangeait seul, sans inviter une fois aucun de ses aides de camp. Cette
+            fierté tenait à sa nouvelle situation, au désir de garder son rang. Les premiers
+            maréchaux nommés en 1804 étaient des généraux de la République : la transition était
+            brusque. En 1797, à l’époque du 18 fructidor, le général Augereau reprochait aux
+            officiers de s’appeler <hi rend="i">Monsieur</hi> : et quelques années plus tard, les
+            généraux républicains devenaient eux-mêmes maréchaux, ducs et princes. Ce changement
+            embarrassa quelquefois le nouveau maréchal, qui d’ailleurs croyait avec raison que son
+            élévation excitait l’envie. Il crut ne pouvoir se faire respecter qu’à force de hauteur,
+            et il alla quelquefois trop loin à cet égard. Toutefois la familiarité aurait eu de plus
+            graves inconvénients, et, au défaut de la juste mesure, toujours difficile à observer,
+            peut-être a-t-il pris le meilleur parti. Les aides de camp ne s’en plaignaient pas ; ils
+            se trouvaient plus à leur aise en vivant ensemble, et se livraient sans contrainte à la
+            gaieté qui caractérise la jeunesse, la jeunesse française, la jeunesse militaire. Nous
+            faisions très bonne chère, car suivant les circonstances on ne manquait ni de force pour
+            s’emparer des vivres, ni d’argent pour les payer. J’ai souvent admiré comment, en
+            arrivant le soir dans une misérable cabane, le cuisinier trouvait moyen, au bout de deux
+            heures, de nous donner un excellent dîner de Paris. Mais cette manière de vivre avait de
+            grands inconvénients pour notre service : restant étrangers à tout ce qui se passait,
+            n’ayant communication d’aucun ordre, nous ne pouvions ni nous instruire de notre métier,
+            ni bien remplir les missions dont nous étions chargés<note resp="author"
+                ><title>Souvenirs militaires de 1804 à 1814</title>, par M. le duc de Fezensac
+              (1863), page 116.</note> »</p>
         </quote>
         <p>Une première remarque à faire et qui vient aussitôt à l’esprit, c’est combien, dans cet
           état-major de Ney ainsi gouverné, la situation de Jomini, admis continuellement auprès du
@@ -2012,7 +2009,7 @@
         <p>Les mouvements des Russes en effet nous obligeaient, bon gré, mal gré, à une seconde
           campagne d’hiver. Napoléon, dans la situation extrême où il s’était placé, n’avait plus le
           choix ni l’initiative de l’action, et <quote>« c’était l’ennemi cette fois, qui le forçait
-            à lever ses quartiers. » </quote>Il forma aussitôt un grand plan dans ses données
+            à lever ses quartiers. »</quote> Il forma aussitôt un grand plan dans ses données
           habituelles : attirer par Bernadotte l’armée russe sur l’extrême gauche, marcher sur ses
           derrières, la couper de ses communications, l’acculer à la mer, l’anéantir ; — en un mot,
           recommencer Iéna. Mais on n’avait pas compté sur les contretemps. Un aide de camp dépêché
@@ -2363,7 +2360,7 @@
               en erreur sur le vrai résultat de la bataille de Talavera ; on lui avait adressé des
               rapports complaisants et mensongers ; ce n’est que le 25 juin 1809 que l’Empereur
               écrivait de Schœnbrunn à Clarice, ministre de la guerre : <quote>« Le fait est que
-                j’ai perdu la bataille de Talavera. » </quote>Ceci peut préciser la date de la
+                j’ai perdu la bataille de Talavera. »</quote> Ceci peut préciser la date de la
               conversation avec Jomini.</note>. »</p>
         </quote>
         <p>Ici se produit un fait grave dans la carrière de Jomini, et dont on n’a pas l’explication
@@ -2637,7 +2634,7 @@
             l’adoucir un peu. Le général n’y était désigné que par une initiale J… Au lieu de ces
             mots <quote>« <hi rend="i">s’il</hi> dort et <hi rend="i">s’il</hi> pleure »</quote>, il
             avait mis : <quote>« si l’<hi rend="i">on</hi> dort et si l’<hi rend="i">on</hi>
-              pleure. » </quote>La table des matières, à l’article <hi rend="i">Jomini</hi>, ne
+              pleure. »</quote> La table des matières, à l’article <hi rend="i">Jomini</hi>, ne
             portait point l’indication de cet endroit désobligeant. Le trait n’était pas moins allé
             à son adresse.</note>, et il y a répondu avec un accent de poignante amertume dans une
           note d’un de ses écrits<note resp="author">Au tome IV, page 2, de la <hi rend="i">Vie
@@ -2697,27 +2694,27 @@
               ainsi, ou goûtait dans le calme le plus parfait les douceurs d’un jour de repos ; et
               quelques provisions que le général Jomini avait réservées pour le passage de l’armée
               nous furent d’autant plus agréables, que depuis Smolensk nous n’avions reçu aucune
-              distribution… » </quote></note>. Les services de Jomini dans cette retraite furent
-          d’un autre ordre : il avait étudié le pays et savait les endroits moins ravagés, les
-          chemins qu’on pouvait prendre pour avoir chance d’éviter l’ennemi, ou du moins pour le
-          trouver moins en force. Ce fut lui qui indiqua le chemin de traverse de Zembin pour
-          rejoindre plus sûrement la grande route de Wilna. Consulté par l’Empereur sur le point où
-          l’on pouvait franchir la Bérésina, il donna un bon avis, dissuada d’une manœuvre
-          militaire, d’une concentration de forces dont Napoléon eut l’idée un moment, et qui eût
-          été facile en Souabe ou en Lombardie, mais qui n’était plus de saison dans les
-          circonstances présentes. Jomini fut adjoint au général Eblé pour procéder à
-          l’établissement des ponts sur la Bérésina et surprendre le passage. Il faillit y rester.
-          Pris d’une fluxion de poitrine et d’une fièvre ardente, il gisait étendu sur la paille
-          dans une des cabanes près des ponts. Le général Eblé, peu content de l’adjonction qu’on
-          lui avait faite d’un général son cadet, et qui n’était pas de son arme, partit, sans plus
-          s’inquiéter de lui ; d’autres le recueillirent. J’abrège les misères de cette retraite,
-          ces affreuses scènes <quote>« dont le souvenir seul, disait-il, fait dresser les
-            cheveux. » </quote>— Berthier écrivait de Kœnigsberg au ministre Clarke, à la date du 27
-          décembre, pour le prévenir qu’un congé de convalescence de trois mois était accordé à
-          Jomini pour se rendre à Paris. Il aurait bien voulu rester quelques mois dans une ville de
-          Prusse pour se refaire ; mais, mandé de nouveau à Paris par Berthier pour y prendre les
-          ordres du ministre sur sa destination ultérieure, il écrivait, dès son arrivée, au duc de
-          Feltre (28 janvier 1813) :</p>
+              distribution… »</quote>
+          </note>. Les services de Jomini dans cette retraite furent d’un autre ordre : il avait
+          étudié le pays et savait les endroits moins ravagés, les chemins qu’on pouvait prendre
+          pour avoir chance d’éviter l’ennemi, ou du moins pour le trouver moins en force. Ce fut
+          lui qui indiqua le chemin de traverse de Zembin pour rejoindre plus sûrement la grande
+          route de Wilna. Consulté par l’Empereur sur le point où l’on pouvait franchir la Bérésina,
+          il donna un bon avis, dissuada d’une manœuvre militaire, d’une concentration de forces
+          dont Napoléon eut l’idée un moment, et qui eût été facile en Souabe ou en Lombardie, mais
+          qui n’était plus de saison dans les circonstances présentes. Jomini fut adjoint au général
+          Eblé pour procéder à l’établissement des ponts sur la Bérésina et surprendre le passage.
+          Il faillit y rester. Pris d’une fluxion de poitrine et d’une fièvre ardente, il gisait
+          étendu sur la paille dans une des cabanes près des ponts. Le général Eblé, peu content de
+          l’adjonction qu’on lui avait faite d’un général son cadet, et qui n’était pas de son arme,
+          partit, sans plus s’inquiéter de lui ; d’autres le recueillirent. J’abrège les misères de
+          cette retraite, ces affreuses scènes <quote>« dont le souvenir seul, disait-il, fait
+            dresser les cheveux. »</quote> — Berthier écrivait de Kœnigsberg au ministre Clarke, à
+          la date du 27 décembre, pour le prévenir qu’un congé de convalescence de trois mois était
+          accordé à Jomini pour se rendre à Paris. Il aurait bien voulu rester quelques mois dans
+          une ville de Prusse pour se refaire ; mais, mandé de nouveau à Paris par Berthier pour y
+          prendre les ordres du ministre sur sa destination ultérieure, il écrivait, dès son
+          arrivée, au duc de Feltre (28 janvier 1813) :</p>
         <quote>
           <p>« Rien ne s’opposera à ce que dans deux ou trois mois je reprenne une destination à la
             grande armée, non pas à l’état-major où il n’y a pas de milieu entre un service que je
@@ -3578,15 +3575,15 @@
           guerroyer au besoin comme Bonchamp, d’Elbée, les Vendéens et les Espagnols. »</quote>
         <p>Et après quelques conseils précis et topiques sur la formation d’un bon état-major, il
           ajoutait :</p>
-        <quote>« Si, malgré le soin que je mettrai à garder l’anonyme, on parvenait à deviner
-          l’auteur de ces vœux patriotiques, je ne les désavouerai point, et on sera facilement
-          convaincu de leur désintéressement. Destiné par le sort à vivre loin de mes pénates, mon
-          avis n’en est que plus impartial et plus méritoire. Je n’ambitionne rien dans mon pays que
-          l’honneur d’être appelé au jour du danger à commander son avant-garde, dussé-je même subir
-          le sort du respectable général d’Erlachl</quote>
-        <note resp="author">D’Erlach périt en mars 4798, en résistant à l’invasion de l’armée
-          républicaine commandée par Brune.</note>
-        <quote> »</quote>
+        <quote><p>« Si, malgré le soin que je mettrai à garder l’anonyme, on parvenait à deviner
+            l’auteur de ces vœux patriotiques, je ne les désavouerai point, et on sera facilement
+            convaincu de leur désintéressement. Destiné par le sort à vivre loin de mes pénates, mon
+            avis n’en est que plus impartial et plus méritoire. Je n’ambitionne rien dans mon pays
+            que l’honneur d’être appelé au jour du danger à commander son avant-garde, dussé-je même
+            subir le sort du respectable général d’Erlachl<note resp="author">D’Erlach périt en mars
+              4798, en résistant à l’invasion de l’armée républicaine commandée par
+            Brune.</note> »</p>
+        </quote>
         <p>Ce dernier vœu assez inattendu, ce soudain souhait d’une mort patriotique et guerrière
           nous ouvre un jour sur l’âme de Jomini, sur sa plaie secrète, sur les ennuis dont il
           n’était pas venu à bout de triompher, et que nous révèle encore mieux une lettre intime
@@ -4354,7 +4351,7 @@
               en ce cas, Fauriel ne fit que l’exhorter à s’y remettre.</note>. C’est Ampère qui fit
             faire à M. Mérimée la connaissance de Fauriel. La première fois que M. Mérimée le vit,
             Fauriel avait sur sa table un ouvrage qu’il lui montra. <quote>« Voici, dit-il, deux
-              volumes de poésies serbes qu’on m’envoie ; apprenez le serbe. » </quote>C’est ainsi
+              volumes de poésies serbes qu’on m’envoie ; apprenez le serbe. »</quote> C’est ainsi
             que ce vrai savant, ennemi des à peu près et des faux semblants, adressait chacun aux
             sources mêmes. Ampère, selon ceux qui l’ont le mieux connu, avait une aptitude
             particulière pour la linguistique. Il saisissait tout de suite, dans une grammaire qui
@@ -4666,7 +4663,7 @@
                 question, et qui aura été aussi inintelligible pour vos lecteurs que pour moi ; j’en
                 suis encore à chercher ce que j’aurais pu vouloir dire en prétendant <hi rend="i"
                   >sérieusement</hi> qu’ailleurs que chez les Hottentots on ne sût pas ce que
-                c’était qu’un secrétaire… » </quote>Ampère va trop loin : il avait bien réellement
+                c’était qu’un secrétaire… »</quote> Ampère va trop loin : il avait bien réellement
               fait la plaisanterie, et chercher ensuite à donner le change en insinuant qu’il a dû y
               avoir une faute d’impression, c’est compter sur trop de complaisance de notre part, et
               de la sienne c’est se jouer un peu de la vérité.</note>.</p>
@@ -4894,8 +4891,8 @@
             s’était livré, n’ait point pris la forme d’une œuvre suivie et définitive, d’un
             monument, et que ce qui était fait et comme bâti déjà n’ait pas été cimenté et fixé.</p>
           <p>Je sais bien qu’on a trois volumes, l’<title>Histoire littéraire de la France avant le
-                <num>xii<hi rend="sup">e</hi></num> siècle</title> (1839-1840) ; mais ces
-            trois volumes n’étaient qu’une introduction, une première assise, une sorte de coupe
+                  <num>xii<hi rend="sup">e</hi></num> siècle</title> (1839-1840) ; mais ces trois
+            volumes n’étaient qu’une introduction, une première assise, une sorte de coupe
             architecturale dessinant de profonds et laborieux fondements ; la langue et la
             littérature française sortaient à peine de terre à la fin du troisième volume. Ampère
             allait commencer véritablement et dresser le corps de l’édifice lorsqu’il se découragea.
@@ -5934,9 +5931,9 @@
           réunir ce qu’on a récemment trouvé de nouveau à son sujet, en indiquant ce qui serait à
           faire encore (1864).</p>
         <p>Un travail d’un tout autre genre, et qui offre un caractère didactique, est un
-            <title>Essai sur l’histoire de la Versification française au <num>xvi<hi
-                rend="sup">e</hi></num> siècle</title>, que M. Frédéric Chavannes a inséré, en 1847,
-          dans la <title>Revue suisse</title>, qui se publiait à Neufchâtel. J’allais omettre une
+            <title>Essai sur l’histoire de la Versification française au <num>xvi<hi rend="sup"
+                >e</hi></num> siècle</title>, que M. Frédéric Chavannes a inséré, en 1847, dans la
+            <title>Revue suisse</title>, qui se publiait à Neufchâtel. J’allais omettre une
           spirituelle dissertation sur <title>Ronsard et Malherbe</title>, que le professeur Amiel
           écrivait pour les collèges et gymnase de Genève, à l’ouverture de l’année scolaire
           1849-1850 ; nouvelle preuve de l’intérêt que les pays circonvoisins et de langue française
@@ -5974,26 +5971,26 @@
           des carrefours et qui tendait à devenir la comédie des honnêtes gens. Cette sorte de
           comédie un peu artificielle, qui procédait d’intention et de propos délibéré plus que de
           génie, a aussi sa place dans l’ouvrage de M. C. Lenient, <title>De la Satire en France ou
-            de la Littérature militante au <num>xvi<hi rend="sup">e</hi></num>
-            siècle</title> (1866) ; mais surtout la forme nouvelle de la satire philosophique,
-          politique, morale, y est suivie de près dans les œuvres de Du Bellay, Ronsard, Grévin,
-          Jean de La Taille, Rapin, Passerai, d’Aubigné, jusqu’à Vauquelin de La Fresnaye et
-          Mathurin Régnier. Toutes ces études convergent à vue d’œil, se croisent et se rejoignent
-          de manière à ne laisser rien échapper. Ce n’est qu’en ces dernières années qu’on a vu des
-          hommes très au fait de l’ancienne et première poésie du moyen âge, et dont ç’avait été
-          d’abord le point de vue préféré, se porter successivement sur celle du <num>xvi<hi
-              rend="sup">e</hi></num> siècle, en observant pour ainsi dire les étages et les
-          gradations, en ne prenant pas la file à un moment quelconque, mais en suivant la chaîne
-          dans toute son étendue. On y a gagné en largeur d’idées, et l’on s’est mieux rendu compte
-          des révolutions ou revirements du goût. MM. d’Héricault et de Montaiglon ont rendu ce
-          genre de service par les publications d’auteurs et de poètes du <num>xv<hi rend="sup"
-              >e</hi></num> et du <num>xvi<hi rend="sup">e</hi></num> siècle qu’ils ont données dans
-          la très-utile <title>Bibliothèque elzèvirienne</title> de M. Jannet et qu’ils ont
-          accompagnées de notes et notices appropriées. Nous reconnaissons le même procédé critique
-          (sauf des exagérations peut-être sur quelques points) dans les notices qui ont accompagné
-          le choix intitulé <title>Les Poètes français</title>, dirigé par M. Crépet. Nous y
-          retrouvons fréquemment le nom estimable de M. d’Héricault, du moins pour les poètes de la
-          première moitié du <num>xvi<hi rend="sup">e</hi></num> siècle.</p>
+            de la Littérature militante au <num>xvi<hi rend="sup">e</hi></num> siècle</title>
+          (1866) ; mais surtout la forme nouvelle de la satire philosophique, politique, morale, y
+          est suivie de près dans les œuvres de Du Bellay, Ronsard, Grévin, Jean de La Taille,
+          Rapin, Passerai, d’Aubigné, jusqu’à Vauquelin de La Fresnaye et Mathurin Régnier. Toutes
+          ces études convergent à vue d’œil, se croisent et se rejoignent de manière à ne laisser
+          rien échapper. Ce n’est qu’en ces dernières années qu’on a vu des hommes très au fait de
+          l’ancienne et première poésie du moyen âge, et dont ç’avait été d’abord le point de vue
+          préféré, se porter successivement sur celle du <num>xvi<hi rend="sup">e</hi></num> siècle,
+          en observant pour ainsi dire les étages et les gradations, en ne prenant pas la file à un
+          moment quelconque, mais en suivant la chaîne dans toute son étendue. On y a gagné en
+          largeur d’idées, et l’on s’est mieux rendu compte des révolutions ou revirements du goût.
+          MM. d’Héricault et de Montaiglon ont rendu ce genre de service par les publications
+          d’auteurs et de poètes du <num>xv<hi rend="sup">e</hi></num> et du <num>xvi<hi rend="sup"
+              >e</hi></num> siècle qu’ils ont données dans la très-utile <title>Bibliothèque
+            elzèvirienne</title> de M. Jannet et qu’ils ont accompagnées de notes et notices
+          appropriées. Nous reconnaissons le même procédé critique (sauf des exagérations peut-être
+          sur quelques points) dans les notices qui ont accompagné le choix intitulé <title>Les
+            Poètes français</title>, dirigé par M. Crépet. Nous y retrouvons fréquemment le nom
+          estimable de M. d’Héricault, du moins pour les poètes de la première moitié du <num>xvi<hi
+              rend="sup">e</hi></num> siècle.</p>
         <p>Quant à ce qui est des poètes de la seconde moitié du siècle et qui forment ce qu’on a
           appelé la Pléiade, c’est d’aujourd’hui seulement que, grâce à M. Marty-Laveaux, va se
           dresser le compte régulier, le bilan de ce qu’ils ont apporté de nouveau, de ce qu’ils ont
@@ -6171,7 +6168,7 @@
           négociateur, et faisant, presque à chaque ligne, allusion à quelque irait de l’Antiquité,
           il dira par exemple : <quote>« D’une si grande chose (le mérite du cardinal), il vaut trop
             mieux, <hi rend="i">comme de Carthage disoit Tite-Live</hi>, se taire du tout que d’en
-            dire peu… » </quote>Il y a ici une inadvertance, et M. Marty-Laveaux nous rappelle que
+            dire peu… »</quote> Il y a ici une inadvertance, et M. Marty-Laveaux nous rappelle que
           ce n’est pas Tite-Live, mais Salluste, dans la <title>Guerre de Jugurtha</title>, qui a
           parlé-ainsi de Carthage : <quote>« <hi rend="i">De Carthagine silere melius puio, quam
               parum dicere.</hi> »</quote> Avec un auteur comme Du Bellay, dont tout le discours est
@@ -6192,9 +6189,9 @@
           laquelle Rivarol, par un instinct remarquable, disait : <quote>« Il faut qu’une langue
             s’agite jusqu’à ce qu’elle se repose dans son propre génie, et ce principe explique un
             fait assez extraordinaire, c’est qu’aux <num>xiii<hi rend="sup">e</hi></num> et
-              <num>xiv<hi rend="sup">e</hi></num> siècles la langue française était plus
-            près d’une certaine perfection qu’elle ne le fut au <num>xvi<hi rend="sup"
-                >e</hi></num>. »</quote> Combien cette langue du <num>xiii<hi rend="sup">e</hi></num>
+                <num>xiv<hi rend="sup">e</hi></num> siècles la langue française était plus près
+            d’une certaine perfection qu’elle ne le fut au <num>xvi<hi rend="sup"
+            >e</hi></num>. »</quote> Combien cette langue du <num>xiii<hi rend="sup">e</hi></num>
           siècle, et presque européenne alors, avait perdu de terrain au commencement du <num>xvi<hi
               rend="sup">e</hi></num>, on le voit par les termes mêmes de la tentative de Du
           Bellay ; il importe, pour apprécier équitablement cette tentative, qui fut celle de tous
@@ -8740,7 +8737,7 @@
             introduit la greffe, l’art de greffer dans notre poésie : <hi rend="i">Miraturque novas
               frondes et non sua poma…</hi><quote> « Les autres avant lui, a dit Godeau, dans leur
               excès de passion pour les Anciens, pillaient les pensées plus qu’ils ne les
-              choisissaient. » </quote>Malherbe a su choisir. Aussi Horace était-il son livre de
+              choisissaient. »</quote> Malherbe a su choisir. Aussi Horace était-il son livre de
             chevet, et il l’appelait son <hi rend="i">bréviaire.</hi></p>
           <quote>
             <l>Qui, vieil comme je suis, revint contre nature</l>
@@ -9538,7 +9535,7 @@
                 naissance ou par leur mérite. Jamais personne n’a eu si bon esprit, ni plus d’esprit
                 qu’elle. Elle est plus philosophe qu’Épicure ; les approches de la mort ne l’ont
                 point fait changer de sentiment, et je la connais assez pour croire qu’elle fera ce
-                fâcheux pas sans aucune faiblesse. » </quote>Voilà un annotateur et un témoin
+                fâcheux pas sans aucune faiblesse. »</quote> Voilà un annotateur et un témoin
               original qui nous donne bien envie de connaître son nom.</p></note> !</p>
         <p>En publiant les morceaux de choix de son auteur, M. Giraud s’est fort attaché à en fixer
           la date première, tant celle de la composition que de l’impression. Bon nombre de ces
@@ -10036,7 +10033,7 @@
             variations politiques, toujours aimable et papillonnant, il fit asseoir à notre entrée
             M. Sainte-Beuve près de lui, et, lui tapant amicalement et familièrement sur le genou,
             il lui dit, comme une chose qui allait de soi : <quote>« Eh bien, Sainte-Beuve, à quand
-              l’article ? — Quel article ? — Eh ! sur </quote>César<quote> : est-ce qu’il peut être
+              l’article ? — Quel article ? — Eh ! sur</quote> César<quote> : est-ce qu’il peut être
               question d’un autre article en ce moment ? Je l’ai promis ce matin à Conti : vous le
               ferez, n’est-ce pas ? — Mais vous savez bien que non, répondit M. Sainte-Beuve ; je
               m’en suis déjà expliqué avec vous. »</quote> — Et comme M. Limayrac n’avait pas l’air

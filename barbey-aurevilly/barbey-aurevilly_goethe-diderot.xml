@@ -2,13 +2,6 @@
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="barbey-aurevilly_goethe-diderot" xml:lang="fre">
-  <!--
-    VJ
-    * header OK
-    * validation teibook OK
-    * bien pour les @resp
-    * revoir les q
-  -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -34,14 +27,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2014"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_goethe-diderot/</idno>
-        <idno type="tei"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_goethe-diderot.xml</idno>
-        <idno type="html"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_goethe-diderot.html</idno>
-        <idno type="text"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_goethe-diderot.txt</idno>
-        <idno type="epub"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_goethe-diderot.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -2506,9 +2491,7 @@
             les feuilles dispersées sortaient de l’antre de la Sibylle, et il pouvait dire, en
             pirouettant sur son trépied :</p>
           <quote>
-            <l>Le moment où je parle est déjà loin de moi.</l>
-          </quote>
-          <p>C’était rigoureusement exact. Sa plume, rapide comme sa parole, ne laissait pas plus de
+            <l>Le moment où je parle est déjà loin de moi.</l> </quote><p>C’était rigoureusement exact. Sa plume, rapide comme sa parole, ne laissait pas plus de
             trace que des mots évanouis.</p>
           <p>Eh bien, franchement, la gloire d’un homme doit coûter un peu plus cher que ça !… Et
             voilà, quand je pense à Diderot, ce qui me fait trouver de l’impertinence dans sa
@@ -2567,9 +2550,7 @@
               fait une <hi rend="i">grande découverte</hi> en proposant le <hi rend="i">drame
                 honnête, la tragédie domestique</hi>, le <hi rend="i">drame sérieux</hi>, mais, <hi
                 rend="sc">sous tant d’affiches</hi> différentes, c’était tout uniment le drame de la
-              Chaussée, <hi rend="i">moins la versification et le mélange de comique…</hi> »</p>
-          </quote>
-          <p>Ainsi, ce n’était plus seulement du la Chaussée, c’était du la Chaussée réduit. On ne
+              Chaussée, <hi rend="i">moins la versification et le mélange de comique…</hi> »</p> </quote><p>Ainsi, ce n’était plus seulement du la Chaussée, c’était du la Chaussée réduit. On ne
             pouvait guères descendre plus bas… Honteux peut-être d’une copie qu’on lui reprochait et
             qui mutilait et dégradait un si chétif modèle, Diderot se réfugia dans les idées
             générales, si chères aux esprits sans précision, et cet inventeur à bon marché affirma
@@ -2634,9 +2615,7 @@
                 philosophiques</hi> étaient à la mode. Ce drame est tombé avec la philosophie qui
               l’avait mis en crédit. Nous avons reconnu par une funeste expérience que quarante ans
               de déclamation et de pathos sur l’humanité, la sensibilité, la bienfaisance, n’avaient
-              servi qu’à préparer les cœurs à tous les excès de la barbarie. »</p>
-          </quote>
-          <p>Il y a certainement de la colère dans ce mépris terrible de Geoffroy, et cette colère,
+              servi qu’à préparer les cœurs à tous les excès de la barbarie. »</p> </quote><p>Il y a certainement de la colère dans ce mépris terrible de Geoffroy, et cette colère,
             quand, en 1811, on touchait encore au bois sanglant des échafauds, était légitime ; mais
             le temps, qui a glacé ce mépris furieux, ne l’a pas effacé.</p>
           <p>Il n’était pas, d’ailleurs, besoin du souvenir de la révolution française, fille de la
@@ -2718,9 +2697,7 @@
                 >l’importance de leur ministère.</hi> Tous les peuples <hi rend="i">ont leurs
                 sabbats</hi>, et nous aurons aussi les nôtres. Dans ces jours solennels on
               représentera une belle tragédie qui apprenne aux hommes à redouter les passions ; une
-              bonne comédie qui les instruise de leur devoir et qui leur en inspire le goût. »</p>
-          </quote>
-          <p>Voilà pourtant à quel point il était tombé dans la foi niaise à cette comédie qui n’a
+              bonne comédie qui les instruise de leur devoir et qui leur en inspire le goût. »</p> </quote><p>Voilà pourtant à quel point il était tombé dans la foi niaise à cette comédie qui n’a
             jamais corrigé personne. Mais l’enthousiasme, même du cabotin le plus effréné, n’excuse
             pas la bêtise quand elle a cette grosseur. En supposant que Diderot fût de bonne foi en
             écrivant ces incroyables sottises, ce dont je doute, connaissez-vous rien de plus
@@ -2741,15 +2718,11 @@
             <l>La nature n’a fait ni serviteurs ni maîtres.</l>
             <l>Je ne veux ni donner ni recevoir des lois,</l>
             <l>Et mes mains ourdiraient les entrailles du prêtre</l>
-            <l>A défaut de cordon pour étrangler les rois !</l>
-          </quote>
-          <p>La Révolution, il est vrai, qui raccourcissait tout, a raccourci ces vers pour les
+            <l>A défaut de cordon pour étrangler les rois !</l> </quote><p>La Révolution, il est vrai, qui raccourcissait tout, a raccourci ces vers pour les
             chanter sur un mode plus vif et plus pratique que Diderot ; elle a dit, elle, avec une
             décision charmante :</p>
           <quote>
-            <l>Et du boyau du dernier prêtre Serrons le cou du dernier roi !</l>
-          </quote>
-          <p>Mais les éditeurs d’aujourd’hui n’ont pas voulu que les autres vers de Diderot fussent
+            <l>Et du boyau du dernier prêtre Serrons le cou du dernier roi !</l> </quote><p>Mais les éditeurs d’aujourd’hui n’ont pas voulu que les autres vers de Diderot fussent
             oubliés. Ils ont voulu nous donner un Diderot complet et sous toutes ses faces. Au
                 <num>ix<hi rend="sup">e</hi></num> volume de leur collection, destiné presque tout
             entier à un mémoire sur les mathématiques et à tout un énorme traité de physiologie, ils
@@ -3556,9 +3529,7 @@
             ait de ces garçons d’admiration en service ordinaire auprès des grands hommes que nous
             n’avons pas connus :</p>
           <quote>
-            <l>Monsieur, je suis <hi rend="i">garçon</hi> de Votre apothicaire !</l>
-          </quote>
-          <p>M. Sainte-Beuve, l’adorateur de Gœthe, le Lama, s’attendrit beaucoup sur Eckermann.
+            <l>Monsieur, je suis <hi rend="i">garçon</hi> de Votre apothicaire !</l> </quote><p>M. Sainte-Beuve, l’adorateur de Gœthe, le Lama, s’attendrit beaucoup sur Eckermann.
             M. Sainte-Beuve, qui a des secrétaires qui le jugent, — et, par ma foi ! très bien !
             — trouve très douce et a l’air de beaucoup envier cette invention de garçons
             d’admiration à poste fixe auprès des personnes considérables. Il faudrait seulement que
@@ -3676,9 +3647,7 @@
                 jouer ici-bas un rôle convenable</hi> (jouer des rôles, c’est toujours pour lui la
               grande affaire !), <hi rend="i">et qui par conséquent est astreint à travailler,
                 abandonne le monde futur à son sort et dans  celui-ci travaille</hi> à se rendre
-              utile… »</p>
-          </quote>
-          <p>Certes ! ne voilà-t-il pas une grande parole ! Pensez-vous qu’on ait jamais vu un
+              utile… »</p> </quote><p>Certes ! ne voilà-t-il pas une grande parole ! Pensez-vous qu’on ait jamais vu un
             utilitarisme plus écervelé que celui de Gœthe, si vraiment il croit à l’immortalité et
             si sa réserve n’est pas la précaution d’un lâche ? Franchement, au point de vue de la
             grandeur et de la poésie, j’aime mieux Pascal. Je le trouve plus fort… Matérialiste
@@ -3713,9 +3682,7 @@
               l’avons vu, nous !) C’est un esprit <hi rend="i">clairvoyant, calme</hi>, <hi
                 rend="sc">mais</hi> ferme, (le <hi rend="i">mais</hi> est-il de Gœthe ?), et qu’on
               ne saurait assez apprécier si on le compare à la mobilité française. <hi rend="sc"
-                >C’est précisément l’homme qu’il faut a la nation ! »</hi></p>
-          </quote>
-          <p>On n’est pas plus absolu dans l’oracle, et on ne s’est jamais plus magistralement
+                >C’est précisément l’homme qu’il faut a la nation ! »</hi></p> </quote><p>On n’est pas plus absolu dans l’oracle, et on ne s’est jamais plus magistralement
             trompé. Quand il lisait les premières élucubrations du jeune Ampère, alors à la fleur de
             son printemps : « Ampère, — dit-il page 158, — tellement supérieur que les préjugés
             nationaux, que les appréhensions de l’esprit borné d’un grand nombre de ses compatriotes

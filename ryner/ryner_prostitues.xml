@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -21,10 +21,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/ryner_prostitues</idno>
-        <idno type="tei">http://obvil.sorbonne-universite.site/corpus/critique/ryner_prostitues.xml</idno>
-        <idno type="html">http://obvil.sorbonne-universite.site/corpus/critique/ryner_prostitues.html</idno>
-        <idno type="text">http://obvil.sorbonne-universite.site/corpus/critique/ryner_prostitues.txt</idno>
-        <idno type="epub">http://obvil.sorbonne-universite.site/corpus/critique/ryner_prostitues.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -242,25 +238,17 @@
           <p>M. Montégut est un incompressible poète, un orgue de barbarie monté pour cinquante ans et, s’il ne se défendait contre son génie prosodique, ses romans seraient d’interminables mirlitonnades à la François Coppée. Mais il se défend et ne grince que toutes les cinq minutes un alexandrin bébête :</p>
           <quote>
             <l>Il ne tarissait pas au cours des épithètes…</l>
-            <l>Saurait bien retrouver la Mouche dans son vol.</l>
-          </quote>
-          <p>Quelquefois il laisse échapper la paire :</p>
+            <l>Saurait bien retrouver la Mouche dans son vol.</l> </quote><p>Quelquefois il laisse échapper la paire :</p>
           <quote>
             <l>Sarah le promena sur les routes fleuries</l>
-            <l>Devant la perspective immense de la mer.</l>
-          </quote>
-          <p>Je relève encore, dans la même page, ces trois vers de mesure grandissante :</p>
+            <l>Devant la perspective immense de la mer.</l> </quote><p>Je relève encore, dans la même page, ces trois vers de mesure grandissante :</p>
           <quote>
             <l>         Comme il était très opulent,</l>
             <l>         On le supportait ; Sarah la première,</l>
-            <l>Par un respect ancien pour les grandes fortunes.</l>
-          </quote>
-          <p>Souvent aussi le ridicule versificateur se souvient, mais trop tard, qu’il exécute une commande de prose, et il démolit des vers déjà faits. Toujours parle même procédé, en ajoutant une épithète inutile. Le malheureux est obligé de cheviller pour se mettre en prose !</p>
+            <l>Par un respect ancien pour les grandes fortunes.</l> </quote><p>Souvent aussi le ridicule versificateur se souvient, mais trop tard, qu’il exécute une commande de prose, et il démolit des vers déjà faits. Toujours parle même procédé, en ajoutant une épithète inutile. Le malheureux est obligé de cheviller pour se mettre en prose !</p>
           <quote>
             <l>N’ont-ils pas eux aussi (pillé), rançonné sans merci ?…</l>
-            <l>Murmurait de son ton d’enfant (soumis), reconnaissant.</l>
-          </quote>
-          <p>Rien de plus agaçant que le heurt continuel contre ces hexamètres qui sonnent creux. M. Montégut serait avisé de se faire traduire en vers par M. Viélé-Griffin. Après cette opération, quelque lecteur indulgent croirait peut-être lire de la prose.</p>
+            <l>Murmurait de son ton d’enfant (soumis), reconnaissant.</l> </quote><p>Rien de plus agaçant que le heurt continuel contre ces hexamètres qui sonnent creux. M. Montégut serait avisé de se faire traduire en vers par M. Viélé-Griffin. Après cette opération, quelque lecteur indulgent croirait peut-être lire de la prose.</p>
         </div>
         <div>
           <head>[Albert Boissière]</head>
@@ -304,31 +292,21 @@
           <p>Il disait à lui-même et à son amie :</p>
           <quote>
             <l>Quant au monde, qu’il soit envers nous irascible</l>
-            <l>          Ou doux, que nous feront ses gestes ?</l>
-          </quote>
-          <p>Descartes ne voulait pas savoir s’il y avait eu des hommes avant lui. Celui-ci, le plus souvent, ignore même qu’il y a des hommes autour de lui. Il oublie leur présence curieuse et dangereuse, non seulement quand il écrit, mais encore quand il vit.</p>
+            <l>          Ou doux, que nous feront ses gestes ?</l> </quote><p>Descartes ne voulait pas savoir s’il y avait eu des hommes avant lui. Celui-ci, le plus souvent, ignore même qu’il y a des hommes autour de lui. Il oublie leur présence curieuse et dangereuse, non seulement quand il écrit, mais encore quand il vit.</p>
           <p>Il lui arriva quelquefois, sans doute, d’avoir l’originalité moindre et forcée, celle qui sait comment les autres font et qui veut faire autrement. Alors, il protesta contre les habitudes prosodiques, pour la joie de protester ; il inventa des rythmes bizarres et boiteux qui lui plurent pour leur bizarrerie boiteuse. Son âme, simple et profonde, ne put s’enfermer en ces formes créées par son esprit compliqué et puéril : il écrivit des <hi rend="i">Romances sans paroles</hi>.</p>
           <p>Mais, presque toujours, il est lui-même, franchement, candidement.</p>
           <p>Dans la plus grande partie des <hi rend="i">Poèmes Saturniens</hi>, il échappe à l’influence parnassienne et nous chante, en toute simplicité, son âme mélancolique et charmante de ce temps-là. Il consent à vivre sa vie comme un inéluctable cauchemar. Ce rêve noir, il le dit en des vers qui ne s’irritent jamais, qui sourient souvent, qui parfois s’amusent. D’autres jours, il se plaint d’une voix enfantine, ou se réfugie en quelque amour qu’il voudrait plus tendre que passionné, qu’il désirerait pensif, câlin et maternel.</p>
           <p>Pourtant, ses plus pénétrants chefs-d’œuvre sont des chants de joie douce et de lumière attendrie :</p>
           <quote>
             <l>Ni brume, ni soleil ! le soleil deviné,</l>
-            <l>Pressenti…</l>
-          </quote>
-          <p>Il n’est pas de sourire plus charmant que la <hi rend="i">Bonne Chanson, Sagesse, Amour, Bonheur</hi>. La Bien-Aimée lui donna une heure de joie ; la Foi lui donna des heures de joie. Le bonheur le plus largement tranquille, c’est dans les murs étroits d’une prison qu’il le trouva. Il le dut surtout au calme du séjour qui dilatait son âme ; à la vie assurée et défendue contre les hostilités et les curiosités du dehors. Il se félicitait encore d’être protégé contre ses propres faiblesses de malheureux à qui il faut des joies quelles qu’elles soient ; contre les faiblesses de son cœur affamé qui cherchait partout, même dans le ruisseau, l’indispensable pain d’amour. Comme il la chante merveilleusement, la paix de la tour protectrice,</p>
+            <l>Pressenti…</l> </quote><p>Il n’est pas de sourire plus charmant que la <hi rend="i">Bonne Chanson, Sagesse, Amour, Bonheur</hi>. La Bien-Aimée lui donna une heure de joie ; la Foi lui donna des heures de joie. Le bonheur le plus largement tranquille, c’est dans les murs étroits d’une prison qu’il le trouva. Il le dut surtout au calme du séjour qui dilatait son âme ; à la vie assurée et défendue contre les hostilités et les curiosités du dehors. Il se félicitait encore d’être protégé contre ses propres faiblesses de malheureux à qui il faut des joies quelles qu’elles soient ; contre les faiblesses de son cœur affamé qui cherchait partout, même dans le ruisseau, l’indispensable pain d’amour. Comme il la chante merveilleusement, la paix de la tour protectrice,</p>
           <quote>
-            <l>La paix où l’on aspire alors qu’on est bien soi !</l>
-          </quote>
-          <p>Comme il les aime,</p>
+            <l>La paix où l’on aspire alors qu’on est bien soi !</l> </quote><p>Comme il les aime,</p>
           <quote>
-            <l>Ce lit dur, cette chaise unique et cette table !…</l>
-          </quote>
-          <p>À ce moment, le pauvre être qui avait péché, sans y prendre garde, par « fureur d’aimer », eut la volupté du remords chrétien. Il se convertit en pleurant :</p>
+            <l>Ce lit dur, cette chaise unique et cette table !…</l> </quote><p>À ce moment, le pauvre être qui avait péché, sans y prendre garde, par « fureur d’aimer », eut la volupté du remords chrétien. Il se convertit en pleurant :</p>
           <quote>
             <l>Oh ! qu’il fut heureux, mais, là, promptement, tout de suite !</l>
-            <l>Que de larmes ! Quelle joie !</l>
-          </quote>
-          <p>On a osé comparer à Villon notre Verlaine sans malice et sans âpreté, notre Verlaine dont l’érotisme même n’est que rire et bonhomie. — On a voulu faire de lui un poète triste, sans doute pour que notre abandon eût cette excuse d’avoir rendu plus douce et plus profonde sa poésie.</p>
+            <l>Que de larmes ! Quelle joie !</l> </quote><p>On a osé comparer à Villon notre Verlaine sans malice et sans âpreté, notre Verlaine dont l’érotisme même n’est que rire et bonhomie. — On a voulu faire de lui un poète triste, sans doute pour que notre abandon eût cette excuse d’avoir rendu plus douce et plus profonde sa poésie.</p>
           <p>Eh bien ! non, il faut l’avouer, notre crime est double : contre l’homme et contre l’artiste. Le rossignol chanta moins bien, les yeux crevés. Verlaine ne fut pas harmonieux à cause de ses douleurs ; il fut harmonieux malgré ses douleurs.</p>
           <p>Nous n’avons pu l’empêcher d’être un poète. Nous avons tué cet être que Dieu n’avait pas encore créé et qu’il ne créera probablement plus : le grand Poète de la Joie que Verlaine serait devenu à si bon marché.</p>
         </div>
@@ -336,9 +314,7 @@
           <head>[José-Maria de Heredia]</head>
           <p>Combien « les hommes des grandes villes », qui « n’ont pas trouvé malin » le pauvre Lélian, doivent admirer l’habileté de M. de Heredia. Je ne parle pas seulement de l’habileté prosodique, la moins populaire de toutes ; je parle aussi, je parle surtout de ce merveilleux esprit pratique grâce à quoi le versificateur,</p>
           <quote>
-            <l>Ruminant un sonnet, rumine un évêché.</l>
-          </quote>
-          <p>Celui-ci rumine et digère tous les évêchés et tous les bénéfices modernes. Il dort, moyennant nuances, à l’Arsenal et à l’Académie. Il loue fort cher son nom bruyant et ses bégaiements de faux bonhomme, utiles à la devanture du <hi rend="i">Journal</hi> comme sur une maison de passe l’enseigne honorable d’une marchande de gants. Et, si l’administration des Beaux-Arts avait des crédits pour empêcher de mourir de faim les écrivains pauvres, soyez certains que ce riche avide y volerait chaque année une somme suffisante pour faire vivre deux Verlaine.</p>
+            <l>Ruminant un sonnet, rumine un évêché.</l> </quote><p>Celui-ci rumine et digère tous les évêchés et tous les bénéfices modernes. Il dort, moyennant nuances, à l’Arsenal et à l’Académie. Il loue fort cher son nom bruyant et ses bégaiements de faux bonhomme, utiles à la devanture du <hi rend="i">Journal</hi> comme sur une maison de passe l’enseigne honorable d’une marchande de gants. Et, si l’administration des Beaux-Arts avait des crédits pour empêcher de mourir de faim les écrivains pauvres, soyez certains que ce riche avide y volerait chaque année une somme suffisante pour faire vivre deux Verlaine.</p>
           <p>Puissant par sa situation personnelle, puissant par ses gendres, il est assuré, quoi qu’il fasse, de tous les respects. Qui s’attaquerait à cette force d’aujourd’hui et de demain ? Qui braverait tout ensemble le pouvoir actuel que vaut à cette famille un demi-siècle d’intrigue et la rancune durable de trois aventuriers qui ont le temps devant eux ?</p>
           <p>Sur ce vieillard honoré et méprisable il est donc courageux de cracher la vérité, même la simple vérité littéraire. Il faut une bravoure inconnue des contemporains pour dire que le vide des <hi rend="i">Trophées</hi> crie le vide de cet esprit et de cette âme. Nul n’ose proclamer cette vérité sentie de tous : José-Maria de Heredia est la plus belle illustration de l’affirmation de Banville — encore un grand poète viager dont les vers furent enterrés en même temps que son cadavre, — que la discipline parnassienne peut faire du premier imbécile venu un versificateur correct et sonore.</p>
           <p>Ce parnassien se croit le premier des sonnettistes français. Un Soulary récent et si complètement oublié nous apprend combien ça dure en France un prince du sonnet. D’ailleurs Heredia se trompe sur la place qu’il mérite dans le petit genre artificiel. Après comme avant les <hi rend="i">Trophées</hi>, le premier des sonnettistes français, — et ce n’est pas un bien grand homme — s’appelle Maynard. Ce Maynard fut le meilleur élève de Malherbe. Il mit en sonnets les lieux communs philosophiques de Malherbe, et son époque le proclama poète. Notre José-Maria mit en sonnets les lieux communs historiques de Leconte de Lisle et obtint le même résultat immédiat. Les contemporains aiment récompenser les bons élèves qui abaissent les maîtres à la portée de toutes les sympathies. On leur accorde beaucoup plus qu’aux maîtres qu’ils vulgarisent et familiarisent. Je n’ai pas besoin de vérifier les dates pour avancer que José-Maria de Heredia, ce Leconte de Lisle de poche, est entré à l’Académie plus jeune que Leconte de Lisle.</p>
@@ -363,9 +339,7 @@
           <p>Elle doit causer souvent avec sa concierge ; car elle m’a raconté des histoires du quartier, quelconques. Il paraît que, hier, le petit épicier d’à côté est mort ou qu’il s’est marié (je ne sais plus bien) ; avant-hier, sur un banc de jardin public, un tourlourou embrassa une payse et, quoique ce fussent deux pauvres diables, leur baiser a dû être presque aussi bon que celui d’un rupin et d’une comtesse. Ah ! à propos, dimanche les orphelines ont passé par notre rue, deux à deux, les yeux baissés, bien sages, bien laides et bien tristes.</p>
           <p>Lamentable, le vide de cette prétendue poésie ! D’ici, de là, un peu d’amour du silence, et du calme, et des <hi rend="i">intimités</hi> : c’est avec une honnête femme et une bonne ménagère que nous sommes. Quelquefois aussi un mot de pitié banale pour les <hi rend="i">humbles</hi>. Et encore la pitié est un sentiment pénible contre lequel, instinctivement, la petite femme se défend. Après tout, ils ne sont pas plus malheureux que les autres, les pauvres ! Ils ont leurs joies comme les riches, et leur poésie. En plein air, ils se donnent des baisers qui ne sont pas si ridicules. Voyez-vous, monsieur, ma grand’mère avait bien raison de me répéter :</p>
           <quote>
-            <l>Ni l’or ni la grandeur ne nous rendent heureux !</l>
-          </quote>
-          <p>Mais quoique, selon un conseil de son grand-père maternel, la muse de M. Coppée regarde souvent au-dessous de soi pour apprécier son bonheur, elle garde toujours un accent plaintif, sans qu’on puisse deviner de quoi elle se plaint. Une pauvre petite bourgeoise anémique et geignarde, voilà, au fond, ce qu’est la femme à la démarche d’un rythme souple, aux boucles d’oreilles trop riches.</p>
+            <l>Ni l’or ni la grandeur ne nous rendent heureux !</l> </quote><p>Mais quoique, selon un conseil de son grand-père maternel, la muse de M. Coppée regarde souvent au-dessous de soi pour apprécier son bonheur, elle garde toujours un accent plaintif, sans qu’on puisse deviner de quoi elle se plaint. Une pauvre petite bourgeoise anémique et geignarde, voilà, au fond, ce qu’est la femme à la démarche d’un rythme souple, aux boucles d’oreilles trop riches.</p>
           <p>M. Coppée pourtant ne fut pas dépourvu de tout génie. Il n’avait rien et savait paraître riche. Pauvre qui vivait d’expédients, il faisait envier son opulence. Il convient d’admirer son habileté et de s’intéresser à sa carrière littéraire comme au plus adroitement composé des romans picaresques.</p>
         </div>
         <div>
@@ -441,9 +415,7 @@
           <p>Léon Bloy est un des rares écrivains et un des rares hommes de notre temps. Naturellement, il est beaucoup moins connu que le vil Paul Bourget ou l’inepte Georges Ohnet, et il est très méconnu, et il est très calomnié. Mon premier mouvement — avec quelle joie j’y céderais ! — serait de proclamer sa puissance et sa beauté et de crier l’infamie de ceux qui l’attaquent. Mais, dans le livre, je ne fais pas de polémique ; je m’efforce d’être ceci qu’on ne trouve plus nulle part : un critique littéraire. Je dois avoir la virilité de dire tout et de marquer les fautes chez ceux que j’aime aussi bien que les hasards heureux chez ceux que je méprise. Voici donc toute la vérité :</p>
           <p>Je ne crois pas que Léon Bloy ait écrit un livre : bien peu aujourd’hui sont de force à édifier l’œuvre. Mais il est de ceux, déjà bien extraordinaires, qui laisseront des pages et je ne sais guère de contemporains capables de nous donner l’équivalent de <hi rend="i">La Femme Pauvre</hi>. Il est aussi de ceux que leur unité permet de voir et de définir. Parmi les vagues et fuyantes et sales gélatines que sont les âmes actuelles, il dresse le roc d’un caractère. D’une tenue moins hautaine et moins sévère que son ami Barbey d’Aurevilly, trapu et plébéien et souvent grossier, il donne l’idée d’une force plus grande et, moins étonnant peut-être, il est plus sympathique de sincérité brutale. La destinée l’a d’ailleurs plongé dans une pauvreté plus laide et il apparaît extérieurement souillé, tel un Hercule à demi vaincu par les écuries d’Augias.</p>
           <quote>
-            <l>… Tout homme énergique au dieu Terme est pareil</l>
-          </quote>
-          <p rend="noindent">et nul ne choisit les fatalités qui le paralysent : la gaine de Léon Bloy est faite de je ne sais quel fumier incrustant et tenace.</p>
+            <l>… Tout homme énergique au dieu Terme est pareil</l> </quote><p rend="noindent">et nul ne choisit les fatalités qui le paralysent : la gaine de Léon Bloy est faite de je ne sais quel fumier incrustant et tenace.</p>
           <p>J’aime d’admiration Léon Bloy. (Peut-être va-t-il m’interdire naïvement de l’aimer et de l’admirer, moi qui ne suis pas catholique, et qui fais des réserves, et qui aime et admire autant des puissances et des beautés égales et différentes : mais mes sentiments ne dépendent ni de lui ni de moi). J’aime d’admiration <quote>« <hi rend="i">le mendiant ingrat</hi> »</quote>, énergie invaincue, noble d’une noblesse rugueuse qui ne ressemble pas à celle que je voudrais réaliser, mais qui est assez étonnante pour dépasser la compréhension des gens de maintenant. J’aime d’admiration l’écrivain paradoxal et vigoureux, le métaphysicien qui prolonge parfois le dogme catholique en des profondeurs de vertige et de ténèbres ; mais on sent soudain une main rude et forte vous soutenir et, brusques éclairs qui traversent l’abîme, des images inattendues fulgurent devant vos yeux de la menace et de la clarté. J’avoue que le pamphlétaire m’est un compagnon moins précieux : il se laisse aller à trop de lyrisme excrémentiel ; trop volontiers il inflige aux condamnés de sa conscience le supplice du pal et, avec une insistance barbarement joyeuse, il nous montre que les culs qu’il va transpercer ne sont pas propres. Voilà le reproche personnel que j’adresse à Léon Bloy bourreau. D’autres blâmes s’agitent en mes mains impatientes, mais qui doivent cingler tous les tortionnaires catholiques du <num>xix<hi rend="sup">e</hi></num> et du <num>xx<hi rend="sup">e</hi></num> siècles.</p>
           <p>Des « philosophes » avaient proclamé qu’il est impossible à un catholique de penser. Sans doute la conversion, l’adhésion de l’adulte à une doctrine étrangère et arrêtée, marque toujours faiblesse et lâcheté intellectuelles. Il n’en est pas de même de la fidélité à un préjugé initial. Le dogme n’envahit pas tout l’espace : on peul, avec ce port d’attache, voyager sur un large océan et dans l’abîme même du port on fait parfois des découvertes. Mais les pamphlétaires catholiques ne sont pas moins injustes que leurs ennemis quand ils retournent le reproche non seulement contre les libres-penseurs mais encore contre les penseurs libres, quand ils attaquent chez tout non-catholique le <hi rend="i">penseur</hi>. Ce fut la grande taquinerie de Veuillot contre Hugo, qui n’est pas un Spinoza assurément, mais qui pense tout autant que Veuillot, c’est-à-dire assez pour être un grand polémiste ou un très grand poète. Barbey d’Aurevilly, écrivain et poseur admirable, noble sans doute, mais plus hautain que noble, et puissant par l’image, et par l’expression trouvée, et par le rythme bruyant et empanaché, et par la verve méprisante, mais dont la pensée est un squelette dont on entend à peine le pauvre cliquettement sous les pourpres triomphales qui le drapent, reproche continuellement lui aussi aux non-catholiques de ne point penser. Et aujourd’hui voici que Léon Bloy abuse de ce moyen polémique, peut-être un peu usé.</p>
           <p>Or les catholiques ont plusieurs façons de démontrer que Dieu leur a réservé le singulier privilège de penser. Rencontrent-ils chez un adversaire une idée un peu nouvelle, aussitôt leur rire éclate, leurs mains claquent bruyantes sur leurs cuisses et ils entraînent le bon badaud à se gausser avec eux d’une aussi joyeuse folie. Si, au contraire, on dit une chose déjà dite complètement ou à demi ; si on admet, même en la renouvelant ou la prolongeant, une doctrine dont on n’est pas l’inventeur, ils reprochent avec véhémence ou soulignent avec ironie un tel manque d’originalité. Il y a pourtant — heureusement pour les catholiques — des esprits auxquels un dogme est un soutien et qui trouvent en profondeur dans un domaine déjà délimité. Je ne vois pas que la tradition catholique, la tradition protestante ou la tradition évolutionniste empêchent Malebranche, Leibnitz et Spencer d’être de grandes et fécondes intelligences. Et la page de <hi rend="i">La Femme Pauvre</hi> qui méprise toute la philosophie allemande, sous prétexte qu’elle est venue depuis Luther, n’est peut-être pas exempte de tout ridicule. Il est vraiment impossible à quelqu’un d’impartial, à quelqu’un qui fait profession d’hostilité et contre les catholiques et contre les libres-penseurs de troupeau, à quelqu’un qui vit en dehors des temps et qui refuse de se mêler aux laideurs des luttes pratiques, de confondre l’orthodoxie de la pensée avec sa puissance ou avec sa faiblesse.</p>
@@ -463,21 +435,15 @@
           <p>Il me serait trop pénible d’étudier le Léon Daudet d’aujourd’hui. Je reviens à l’époque où on ignorait la pente de cette matière en fusion et qu’elle irait se refroidir en un moule connu. Comme on évoque, avec leur escorte d’émotions incertaines, les heures où l’on ne distinguait pas encore dans la bien-aimée la courtisane ou l’empoisonneuse, je reviens au passé frémissant de Léon Daudet, à l’époque où je l’aimais d’espérance. On est toujours obligé de reconnaître qu’on s’est laissé duper presque volontairement. Aussi de telles méditations humiliantes ont peut-être, outre leur charme inquiet, quelque utilité.</p>
           <p>À travers une affection qui me cachait la plupart des signes défavorables, Léon Daudet m’apparaissait, à ses débuts, une énergie violente, énorme, superbe malgré les incohérences et l’absence de maîtrise. Je l’admirais comme un orage dont l’angoisse s’illumine à la brusque splendeur des éclairs ou parfois à je ne sais quels vastes frémissements lumineux. J’aimais <hi rend="i">Le voyage de Shakspeare</hi>, étude curieuse de la formation d’un génie, et <hi rend="i">l’Astre noir</hi>, étude âpre de l’écrivain génial dans sa pleine et complexe maturité. J’aimais aussi des pamphlets extérieurement hardis et généreux, <hi rend="i">les Morticoles</hi> et même — Dieu me pardonne ! — <hi rend="i">les Kamtchatka</hi>. Pourtant, au plus fort de mon admiration, je m’inquiétais :</p>
           <quote>
-            <p>« Ses études de psychologie tératologique semblent presque approuver ce qu’il condamne violemment dans ses satires. Le Malauve de <hi rend="i">l’Astre noir</hi> n’est point blâmé de ses ignominies ; elles apparaissent comme des nécessités de son génie et l’auteur n’ose pas détester ici nettement ce qu’il appellera ailleurs “abominable supériorité intellectuelle”. En son Shakspeare qui aime avec peu de sincérité et de loyauté ; qui, sous prétexte de mieux étudier la nature, se crée d’artificiels sentiments, M. Léon Daudet semble parfois admirer un Kamtchatka<note resp="author"><hi rend="i">Demain</hi>, 9 février 1896.</note>. »</p>
-          </quote>
-          <p>Je ne voyais pas, je ne voulais pas voir que Léon Daudet, quand il étudiait un homme de génie, avait la naïveté de faire de l’auto-psychologie et de dire, ébloui, ce qu’il découvrait en Léon Daudet.</p>
+            <p>« Ses études de psychologie tératologique semblent presque approuver ce qu’il condamne violemment dans ses satires. Le Malauve de <hi rend="i">l’Astre noir</hi> n’est point blâmé de ses ignominies ; elles apparaissent comme des nécessités de son génie et l’auteur n’ose pas détester ici nettement ce qu’il appellera ailleurs “abominable supériorité intellectuelle”. En son Shakspeare qui aime avec peu de sincérité et de loyauté ; qui, sous prétexte de mieux étudier la nature, se crée d’artificiels sentiments, M. Léon Daudet semble parfois admirer un Kamtchatka<note resp="author"><hi rend="i">Demain</hi>, 9 février 1896.</note>. »</p> </quote><p>Je ne voyais pas, je ne voulais pas voir que Léon Daudet, quand il étudiait un homme de génie, avait la naïveté de faire de l’auto-psychologie et de dire, ébloui, ce qu’il découvrait en Léon Daudet.</p>
           <p>Néanmoins <hi rend="i">le Voyage de Shakspeare</hi> reste le moins décevant de ses livres. Large tableau d’histoire, il ressuscite la vie du <num>xvi<hi rend="sup">e</hi></num> siècle sans trop appauvrir cette énorme puissance combative. La vaste tempête agite d’innombrables catastrophes individuelles. Par malheur ces aventures tragiques restent dispersées et Shakspeare en est trop souvent le témoin, trop rarement le héros.</p>
           <p>Mais, si le roman d’aventures est mal composé, ce collier dénoué d’épisodes n’est pas tout le livre. Voici, assez curieux et assez original, un roman de critique littéraire. Avec des aveuglements singuliers et tout à coup d’étonnantes clairvoyances, Léon Daudet étudie la genèse du génie shakspearien. Chacun des drames rencontrés dans la vie contribue à former le futur dramaturge ; chacun des personnages vus et entendus se transforme en l’esprit du jeune Shakspeare, s’harmonise et grandit jusqu’à l’intensité tragique. Il est intéressant de voir la matière première de ce qui deviendra poésie.</p>
           <p>Quand je lisais pour la première fois ce livre aux âpretés incertaines et aux violences troubles, je me charmais surtout à considérer Léon Daudet, être équivoque dont je ne devinais point l’avenir banal. Un an plus tard paraissait <hi rend="i">Suzanne</hi>, le livre de transition vers le catholicisme, le <hi rend="i">En route</hi> de ce jeune Huysmans. Tout en refusant encore de voir, je m’irritais et je reprochais à l’auteur d’obéir à une mode<note resp="author"><hi rend="i">Demain</hi>, 18 janvier 1897.</note> :</p>
           <quote>
-            <p>« Une conversion est considérée depuis quelque temps, comme le plus élégant des dénouements : au lieu de marier ses héros ou de les tuer, on les agenouille. Mais, un livre achevé, on songe à en faire un autre et, comme dit M. de La Palice, on ne peut pas commencer par la fin. Il n’y a pas à craindre que Bourget, Huysmans ou Léon Daudet soient chrétiens dans les deux cents premières pages de leur prochain roman. »</p>
-          </quote>
-          <p>Je me trompais. Après des calculs de commerçant, Bourget, ce Léo Taxil ennuyeux, allait opter. L’ancienne clientèle refusait décidément des rossignols toujours semblances et chaque fois moins réussis ; il ferait appel à l’argent catholique. Huysmans et Léon Daudet, pauvres êtres sans équilibre, ne verraient bientôt contre la folie menaçante d’autre refuge que le catholicisme. Léon Daudet surtout est une âme désemparée, un mélange de révolte exaspérée et de soif d’obéir, un chaos d’ambitions vers le repos moral et d’âpres désirs de pécher. Ses perversités contradictoires ne peuvent se désaltérer qu’au catholicisme, seul pays où le péché soit un fruit savoureux et le remords une boisson capiteuse.</p>
+            <p>« Une conversion est considérée depuis quelque temps, comme le plus élégant des dénouements : au lieu de marier ses héros ou de les tuer, on les agenouille. Mais, un livre achevé, on songe à en faire un autre et, comme dit M. de La Palice, on ne peut pas commencer par la fin. Il n’y a pas à craindre que Bourget, Huysmans ou Léon Daudet soient chrétiens dans les deux cents premières pages de leur prochain roman. »</p> </quote><p>Je me trompais. Après des calculs de commerçant, Bourget, ce Léo Taxil ennuyeux, allait opter. L’ancienne clientèle refusait décidément des rossignols toujours semblances et chaque fois moins réussis ; il ferait appel à l’argent catholique. Huysmans et Léon Daudet, pauvres êtres sans équilibre, ne verraient bientôt contre la folie menaçante d’autre refuge que le catholicisme. Léon Daudet surtout est une âme désemparée, un mélange de révolte exaspérée et de soif d’obéir, un chaos d’ambitions vers le repos moral et d’âpres désirs de pécher. Ses perversités contradictoires ne peuvent se désaltérer qu’au catholicisme, seul pays où le péché soit un fruit savoureux et le remords une boisson capiteuse.</p>
           <p><hi rend="i">Suzanne</hi> déjà, par sa perversité naïve et par la conversion finale, est un livre deux fois catholique : une <hi rend="i">diabolique</hi> qui finit bien. À propos de l’inceste qui est le sujet de ce roman, j’écrivais ces lignes d’homme qui voit presque et qui refuse de voir tout à fait :</p>
           <quote>
-            <p>« Léon Daudet n’a pas compris la véritable faute de ses héros. Suzanne n’aime pas Guillaume ; elle veut son père. Guillaume est moins séduit par la beauté de Suzanne que par l’idée de l’inceste. Leur baiser est un acte de révolte. Ils font, sans amour, le geste d’amour. Or le seul crime est de se préoccuper de la loi ; mais il y a deux façons de le commettre : obéir aux conventions ou les violer pour le plaisir enfantin de les violer. Suzanne et Guillaume commencent par la seconde puérilité, tombent ensuite dans la première. Ils ne savent jamais être eux-mêmes sincèrement, tranquillement, ignorer en toute innocence que des gens se sont permis de formuler des règles morales universelles. »</p>
-          </quote>
-          <p>Je n’aurai pas la cruauté de juger après sa chute un esprit dont j’aimai le départ hésitant. Le Léon Daudet des <hi rend="i">Parlementeurs</hi> et de tant d’autres banalités hurlantes n’intéresse personne, sauf peut-être Édouard Drumont, qui insulta Alphonse Daudet et que Léon Daudet, pratiquant non sans quelque intérêt immédiat l’oubli des injures, proclame <quote>« prophète en son pays »</quote>.</p>
+            <p>« Léon Daudet n’a pas compris la véritable faute de ses héros. Suzanne n’aime pas Guillaume ; elle veut son père. Guillaume est moins séduit par la beauté de Suzanne que par l’idée de l’inceste. Leur baiser est un acte de révolte. Ils font, sans amour, le geste d’amour. Or le seul crime est de se préoccuper de la loi ; mais il y a deux façons de le commettre : obéir aux conventions ou les violer pour le plaisir enfantin de les violer. Suzanne et Guillaume commencent par la seconde puérilité, tombent ensuite dans la première. Ils ne savent jamais être eux-mêmes sincèrement, tranquillement, ignorer en toute innocence que des gens se sont permis de formuler des règles morales universelles. »</p> </quote><p>Je n’aurai pas la cruauté de juger après sa chute un esprit dont j’aimai le départ hésitant. Le Léon Daudet des <hi rend="i">Parlementeurs</hi> et de tant d’autres banalités hurlantes n’intéresse personne, sauf peut-être Édouard Drumont, qui insulta Alphonse Daudet et que Léon Daudet, pratiquant non sans quelque intérêt immédiat l’oubli des injures, proclame <quote>« prophète en son pays »</quote>.</p>
         </div>
         <div>
           <head>[Abbé Delfour]</head>
@@ -485,7 +451,7 @@
           <p>D’après l’abbé Delfour, le critique est surtout un <quote>« informateur littéraire »</quote>, un reporter spécial, qui, pour nous dispenser du voyage, va voir ce qui se passe dans les livres. Sans lui, nous serions souvent <quote>« engagés dans des conversations embarrassantes »</quote>. Heureusement, il nous permet de tenir notre place en société et de dire notre mot, <quote>« un mot juste, sensé, pratique »</quote>, sur des choses que nous n’avons point lues. Il continue ce précieux père Mestre qui nous permit de passer le bachot sans ouvrir « nos auteurs ». Grâce à lui, nous avons la « satisfaction », sans jamais prendre la peine de connaître ce dont il s’agit, d’en <quote>« tirer une leçon morale, chrétienne, intéressante et substantielle »</quote>.</p>
           <p>La leçon arrive toujours, en effet, gauchement amenée, peu fondue avec la « critique » et les anecdotes qui la doivent faire passer. Ce brave homme fourre du christianisme dans la littérature des autres, comme Jules Verne enveloppe de la science dans du roman. Mais les catholiques sont aussi malicieux que les enfants : ils lèchent le sucre qui est dessus et ne touchent pas à l’amertume centrale de la pilule.</p>
           <p>Parfois M. Delfour cesse de conter ou de sermonner et essaie de juger comme un critique qui ne serait ni un simple informateur, ni un catéchiste. Il lui faut alors un modèle : il a choisi Sarcey. Souvent il pastiche, avec un respect familier, celui qu’il appelle encore « l’oncle ». Pour lui aussi, « français » est le mot qui manifeste la plus haute admiration. Mais, au lieu de battre la grosse caisse devant l’esprit si français, — hélas ! — de M. Gandillot, ce bon prêtre vante <quote>« les enseignements précis et <hi rend="i">très français</hi> du catéchisme »</quote>. J’espère qu’en son prochain volume, M. Delfour découvrira que Jésus est né à Paris ou à Nîmes.</p>
-          <p>Pour nous faire prendre patience, il découvre aujourd’hui que Veuillot — dont personne, certes, ne nie plus le talent volontaire et vigoureux — est <quote>« un homme de génie » </quote>et <quote>« le plus grand prosateur du <num>xix<hi rend="sup">e</hi></num> siècle »</quote>. Il s’écrie, devant une phrase banalement oratoire et académique du duc de Broglie : <quote>« Dieu ! que c’est beau, <hi rend="i">plastique, sculptural</hi> ! »</quote> Et chez le fils de l’immortel mort depuis peu et oublié depuis longtemps, il salue le <quote>« digne héritier d’une grande dynastie littéraire »</quote>.</p>
+          <p>Pour nous faire prendre patience, il découvre aujourd’hui que Veuillot — dont personne, certes, ne nie plus le talent volontaire et vigoureux — est <quote>« un homme de génie »</quote> et <quote>« le plus grand prosateur du <num>xix<hi rend="sup">e</hi></num> siècle »</quote>. Il s’écrie, devant une phrase banalement oratoire et académique du duc de Broglie : <quote>« Dieu ! que c’est beau, <hi rend="i">plastique, sculptural</hi> ! »</quote> Et chez le fils de l’immortel mort depuis peu et oublié depuis longtemps, il salue le <quote>« digne héritier d’une grande dynastie littéraire »</quote>.</p>
           <p>Allons ! ce n’est pas grand-chose, la « critique catholique », telle que l’entend le chanoine Delfour. C’est aussi bête, aussi flagorneur et aussi lâche que la critique sans épithète, quand un Jules Lemaître et un Gaston Deschamps s’en font un honnête moyen de parvenir en rampant ou y montrent souriants, sous le voile incertain des sottises qu’on leur apprit, la solidité primitive de leur sottise foncière.</p>
         </div>
         <div>
@@ -523,7 +489,7 @@
           <p>N’est-ce pas la Bretagne elle-même, ce cabaret des larmes, voisin de l’église et du cimetière ; voisin de la mer surtout et que pénètre <quote>« sa large lamentation »</quote> — De <quote>« tristes buveurs »</quote> s’y attablent et dans l’exil d’une <quote>« tristesse morose »</quote> s’évadent de la prison aujourd’hui. L’un apporte <quote>« dans ses grands cheveux l’odeur parfumée des haies »</quote>. L’autre a sur ses habits les senteurs dorées de la lande. Celui-ci arrive de l’église, imprégné d’encens. La plupart tirent de leur poche et versent sur le comptoir un à un des sous qui sentent la mer.</p>
           <p>Tous ils s’abandonnent à ce délicieux et déchirant <quote>« mal de rêver qui est le génie des Bretons »</quote>. Tous, de <quote>« leurs grands yeux bretons, malades d’idéal et de passion voilée »</quote>, ils regardent, dans le verre plein, le paysage d’hier et l’émotion qui s’y attache.</p>
           <p>Ils aiment l’Océan <quote>« comme l’aiment les goélands et le grand cygne sauvage »</quote>. Souvent leur pensée se réfugie, douleur farouche et qui se cache, dans <quote>« le pan maternel de la robe glauque de la mer »</quote>. C’est à la mer aussi que sourient leurs joies et ils comparent l’étrangeté de ses trésors vivants aux richesses sauvages de leurs âmes. Si, au mystère de leur cœur grandit un amour secret, ils sentent sa force douce éclore en eux <quote>« comme un lis de mer s’épanouit au fond des eaux tièdes de l’Océan »</quote>.</p>
-          <p>Ils s’égaient un instant à regarder <quote>« les eaux dansantes »</quote> des petits ruisseaux s’échapper, enfants joueurs, de la fontaine maternelle. Mais ils s’émeuvent longuement devant telle rivière <quote>« immobile et pâle », </quote>et dont la tristesse miroitante leur semble <quote>« pareille à une femme morte couronnée, par la lune, d’un diadème de perles »</quote>. Ils frissonnent en songeant que sur ses bords leur pauvre âme déçue se sentit prise à <quote>« l’embûche formidable de la nuit »</quote> et de l’amour.</p>
+          <p>Ils s’égaient un instant à regarder <quote>« les eaux dansantes »</quote> des petits ruisseaux s’échapper, enfants joueurs, de la fontaine maternelle. Mais ils s’émeuvent longuement devant telle rivière <quote>« immobile et pâle »</quote>, et dont la tristesse miroitante leur semble <quote>« pareille à une femme morte couronnée, par la lune, d’un diadème de perles »</quote>. Ils frissonnent en songeant que sur ses bords leur pauvre âme déçue se sentit prise à <quote>« l’embûche formidable de la nuit »</quote> et de l’amour.</p>
           <p>Ou bien leur souvenir traverse un jour torride : sous les lumières farouches du soleil et d’une violente passion, ils revoient une lande épineuse et odorante. <quote>« Le genêt rajeuni balançait ses branches fleuries semblables à des rayons qui lanceraient des parfums ; et le soleil avait tant de force qu’on entendait déjà au midi, dans le pré, chanter le grillon noir dont la carapace est sculptée de signes étranges… »</quote></p>
           <p>Mais ils se sont égarés en quelque ancien chemin abandonné, creux comme un lit de torrent, et <quote>« où les racines des vieux chênes mettaient à la hauteur du front des passants le geste menaçant de leurs griffes tortueuses, de leurs serres noires ouvertes… »</quote> Arrivés, un peu effrayés, à la forêt, ils se sont enfoncés en quelqu’une de ces <quote>« cavernes glauques que formaient les trouées de verdure où s’entassait la fraîcheur »</quote>. Leur cœur de fièvre ne leur permet pas un long repos. Bientôt ils fuient le taillis et, parmi la clairière où vit <quote>« dans une virginale paix un peuple de digitales »</quote>, leur corps s’allonge <quote>« au milieu des fleurs empoisonnées, comme une herbe fauchée »</quote>. On ne sait quel pressentiment hagard les redresse. Ils se sont éloignés inquiets ; à un carrefour ils ont vu <quote>« passer des lumières que personne ne portait ; et des cloches tintaient en avant, comme celles que l’on fait sonner devant les cercueils »</quote>. Celui qui eut une telle vision est perdu. Il a rencontré son présage de mort, son <hi rend="i">intersigne</hi>, et toutes choses lui deviennent des menaces. <quote>« Qu’est ceci qui traîne à terre ? Un grand rameau couvert de lichen blanc qui semble un spectre, et là une coulée de marguerites fleuries et si pressées qu’elles simulent un linceul déroulé. »</quote> Avant que le condamné ait pu regagner sa maison, le soir est venu, et les <quote>« miasmes fantômes, semences ailées de la mort qui montent dans l’humidité nocturne »</quote>. <quote>« Par-delà le mystère des ombrages »</quote>, il entend <quote>« l’appel perfide des ruisseaux »</quote>. Et voici que son tâtonnement épeuré a <quote>« pénétré dans les régions inviolables où repose, majestueux et néfaste, le souvenir des âges perdus »</quote>.</p>
           <p>Le décor passionné que dessine Jacques Fréhel n’est pas toujours un paysage. Elle nous ouvre parfois un intérieur qu’ennoblissent des <quote>« meubles sculptés en chêne luisant, donnant aux choses un air d’église »</quote>. D’ordinaire le spectacle qui dans l’un ou l’autre cadre s’agite, c’est un être isolé, une âme de profondeur et d’émotion. D’autres fois s’y développe un mouvement nombreux et rythmique. C’est, se déroulant parmi une campagne à chaque détour variée, la théorie attristée d’un pèlerinage, <quote>« de grandes figures noires barbouillées de larmes et de poussière, qui s’en allaient, dans l’éclat du jour, avec les yeux clignotants »</quote>. Ou bien c’est une noce. Les richesses barbares des costumes font les gestes éclatants de couleur. Et <quote>« le son grave des bombardes »</quote> s’harmonise avec <quote>« le perçant appel du biniou »</quote>.</p>
@@ -564,13 +530,9 @@
             <l>J’ai compris la beauté sereine de l’Armor,</l>
             <l>Ses madones de bois, ses christs sur le Calvaire ;</l>
             <l>Mes doigts ont égrené les perles du rosaire</l>
-            <l>Dans la lande d’ajoncs, parmi les genêts d’or.</l>
-          </quote>
-          <p>Sans nulle malice, mais avec une rare inconscience, Armand Silvestre félicite celui dont</p>
+            <l>Dans la lande d’ajoncs, parmi les genêts d’or.</l> </quote><p>Sans nulle malice, mais avec une rare inconscience, Armand Silvestre félicite celui dont</p>
           <quote>
-            <l><hi rend="i">Les</hi> doigts ont égrené les perles du rosaire</l>
-          </quote>
-          <p rend="noindent">devinez de quoi ?… De son <quote>« sentiment païen »</quote>. Et une phrase embrouillée loue chez Émile Boissier, qui a <quote>« compris la beauté sereine de l’Armor »</quote>, et aussi chez l’auteur des <hi rend="i">Fêtes galantes</hi>, et encore chez Laurent Tailhade, des qualités diverses telles <quote>« un art très délicat »</quote> et une grande <quote>« intensité de grâce latine »</quote>. Voilà transformé en un être de grâce le brutal Laurent Tailhade et voici des latins bien inattendus découverts en Paul Verlaine le fuyant lorrain et en Boissier, breton, comme l’Océan sur les côtes du Finistère ou comme la brume sur la lande.</p>
+            <l><hi rend="i">Les</hi> doigts ont égrené les perles du rosaire</l> </quote><p rend="noindent">devinez de quoi ?… De son <quote>« sentiment païen »</quote>. Et une phrase embrouillée loue chez Émile Boissier, qui a <quote>« compris la beauté sereine de l’Armor »</quote>, et aussi chez l’auteur des <hi rend="i">Fêtes galantes</hi>, et encore chez Laurent Tailhade, des qualités diverses telles <quote>« un art très délicat »</quote> et une grande <quote>« intensité de grâce latine »</quote>. Voilà transformé en un être de grâce le brutal Laurent Tailhade et voici des latins bien inattendus découverts en Paul Verlaine le fuyant lorrain et en Boissier, breton, comme l’Océan sur les côtes du Finistère ou comme la brume sur la lande.</p>
           <p>Silvestre me fait songer à un homme qui n’aurait connu et aimé que des brunes. Il rencontre une blonde dont la beauté le frappe et, comme il veut dire son émotion avec quelque détail, il loue chez la nouvelle venue ce qu’il loua chez les autres. Il trouve chaude la fraîcheur exquise de son teint ; les yeux tristes, tendres et profonds deviennent dans ses litanies brillants et malicieux ; chez la svelte et souple enfant, il vante les qualités majestueuses et le puissant équilibre des matrones.</p>
           <p>Dès le premier jour, un instinct sûr a éloigné Boissier du vers-formule, du vers frappé comme une médaille. Il a presque toujours senti, le délicieux poète du rêve et de la brume, qu’il n’était point fait pour les nettetés et les précisions. Mais l’inconscient préfacier trouve que dans son œuvre <quote>« abondent les vers de poète, ceux en qui se formule une pensée dans une image »</quote>. Le voilà pris sur le fait l’inepte syllogisme du critique aveugle : Les seuls vers de poète sont ceux en qui se formule une pensée dans une image ; or je sens bien que Boissier est un vrai poète ; donc Boissier doit faire beaucoup de vers-formules. — Mes expériences antérieures m’apprennent que les belles femmes sont brunes ; or vous êtes belle ; donc vous êtes brune.</p>
           <p>Il vient de dire que les vers solides et précis abondent dans le livre. Consciencieusement, il les cherche. Il n’en trouve guère ; il s’étonne, et il se reprend comme il peut : <quote>« Dans une œuvre toute de charme, j’ai tenu cependant à louer, avant tout, cette qualité maîtresse d’en contenir quelques-uns. »</quote> — C’est étrange, madame, à vous mieux regarder, je ne puis plus analyser votre beauté. Vous n’êtes pas brune, en effet, et me voici bien dérouté. Mais parmi votre chevelure je découvre deux cheveux un peu plus sombres que les autres et ce sont eux que j’ai tenu à louer avant tout. — On ne saurait mieux avouer qu’on n’a compris du poète que ce qu’il a de moins personnel, ses tentatives à moitié heureuses pour sortir de son domaine et ses rares efforts presque grinçants pour dire autre chose que ce qu’il peut dire.</p>
@@ -584,28 +546,18 @@
           <p>Je suis bien embarrassé pour faire connaître cet admirable poème. L’analyse va nécessairement préciser et rapprocher l’action si lointaine, si vague, si délicieusement estompée. Ces nuages flottants, je vais, comme s’ils étaient de lourdes pierres de taille, en tracer l’architecture avec l’équerre et le compas.</p>
           <p>Le poète, abandonné d’une infidèle, songe</p>
           <quote>
-            <l>Dans sa chambre déserte où survit le Passé.</l>
-          </quote>
-          <p>Il écoute la nuit,</p>
+            <l>Dans sa chambre déserte où survit le Passé.</l> </quote><p>Il écoute la nuit,</p>
           <quote>
-            <l>Un silence peuplé de mille bruits légers.</l>
-          </quote>
-          <p>Et voici que son attention persistante donne, en effet, au silence une voix. La Nuit, dans un discours d’une beauté lente et d’une douceur qui apaise, lui offre le remède du songe. Mais en vain son <quote>« hymne géant »</quote></p>
+            <l>Un silence peuplé de mille bruits légers.</l> </quote><p>Et voici que son attention persistante donne, en effet, au silence une voix. La Nuit, dans un discours d’une beauté lente et d’une douceur qui apaise, lui offre le remède du songe. Mais en vain son <quote>« hymne géant »</quote></p>
           <quote>
-            <l>Clamait vers l’Infini l’ivresse de renaître.</l>
-          </quote>
-          <p>Le poète contemplait la ville endormie ; elle lui paraissait <quote>« hantée par des souvenirs d’autrefois »</quote> rien ne dissipait son ennui. Inutilement aussi il fuyait la fenêtre, se réfugiait au plus profond de la petite chambre. Trop de remembrances l’y poursuivaient :</p>
+            <l>Clamait vers l’Infini l’ivresse de renaître.</l> </quote><p>Le poète contemplait la ville endormie ; elle lui paraissait <quote>« hantée par des souvenirs d’autrefois »</quote> rien ne dissipait son ennui. Inutilement aussi il fuyait la fenêtre, se réfugiait au plus profond de la petite chambre. Trop de remembrances l’y poursuivaient :</p>
           <quote>
             <l>D’ailleurs, je sais ton spectre épars aux moindres choses,</l>
             <l>C’est ton âme qui meurt dans le parfum des roses,</l>
             <l>L’oreiller se souvient des courbes de ton bras</l>
-            <l>Et mon lit a gardé ta forme aux plis des draps.</l>
-          </quote>
-          <p>Il quitte sa chambre, il quitte la ville et, <quote>« pèlerin maudit du Doute et de l’Amour »</quote>, descend le long de la chute calme d’un fleuve vers le calme frissonnant de la forêt. La Volupté essaie de le retenir : ses conseils et ses promesses sont écartés dédaigneusement comme les promesses et les conseils de la Nuit. Le poète arrive au repos d’un lac <quote>« endormi comme un regard d’argent »</quote>. Une troisième courtisane, celle dont le baiser enchaîne plus fidèlement, la reine des définitifs oublis, la Mort, vient lui offrir mieux que les insuffisants léthés du songe et du plaisir. Mais, la repoussant, elle aussi, avec un courage hautain, il continue sa marche vers les Demains</p>
+            <l>Et mon lit a gardé ta forme aux plis des draps.</l> </quote><p>Il quitte sa chambre, il quitte la ville et, <quote>« pèlerin maudit du Doute et de l’Amour »</quote>, descend le long de la chute calme d’un fleuve vers le calme frissonnant de la forêt. La Volupté essaie de le retenir : ses conseils et ses promesses sont écartés dédaigneusement comme les promesses et les conseils de la Nuit. Le poète arrive au repos d’un lac <quote>« endormi comme un regard d’argent »</quote>. Une troisième courtisane, celle dont le baiser enchaîne plus fidèlement, la reine des définitifs oublis, la Mort, vient lui offrir mieux que les insuffisants léthés du songe et du plaisir. Mais, la repoussant, elle aussi, avec un courage hautain, il continue sa marche vers les Demains</p>
           <quote>
-            <l>Qui sacreront en <hi rend="i">lui</hi> l’apôtre de l’Idée.</l>
-          </quote>
-          <p><hi rend="i">Le Chemin de la douleur</hi> fait suite au <hi rend="i">Chemin de l’Irréel</hi>.</p>
+            <l>Qui sacreront en <hi rend="i">lui</hi> l’apôtre de l’Idée.</l> </quote><p><hi rend="i">Le Chemin de la douleur</hi> fait suite au <hi rend="i">Chemin de l’Irréel</hi>.</p>
           <p>Le poète, délivré des préjugés représentés par la Nuit, la Volupté et la Mort, s’est élevé jusqu’à l’Idée. De la cime de son rêve il contemple, heureux, le spectacle élargi. Car les choses lui disent de toutes parts la beauté et la puissance d’un renouveau, et il marche, aspirant la force qui monte des sèves. Mais, comme il va dans une extase, il se trouve tout à coup en face d’un calvaire. Au pied du Christ qui pleura, une femme pleure ; ces deux images de la souffrance passée et de la souffrance actuelle semblent crier l’éternité de la douleur. Le poète écoute, dans la prière désolée de la femme, la grande plainte de toujours. Il la relève, il la rappelle à l’espoir. Il dit la puissance de renouvellement de la nature, et que l’hiver est la préparation secrète du prochain printemps, et que toute souffrance réelle est le creuset d’une joie de bientôt. Mais il faut rejeter les douleurs imaginaires et l’humanité doit marcher libre, débarrassée de la croix qui pèse sur elle depuis trop de siècles.</p>
           <p>Vous devinez que ce premier chant est un hymne panthéiste à la nature. Mais ce qu’on ne saurait deviner et ce qu’on ne saurait dire, c’est la beauté noble de son mouvement lyrique.</p>
           <p>Le second chant commence par l’idylle à travers la forêt. Le poète et la bien-aimée vont regardant dans leurs yeux le reflet de la joie des choses et oublieux de l’humanité mauvaise et dolente. Bientôt des inquiétudes pénètrent leur bonheur et, comme la mer immense envahit peu à peu une barque frêle, les voix des douleurs arrivent à eux et les troublent. Va-t-elle donc, agonie qui se débat, sombrer dans l’universelle souffrance, la pauvre barque de leur bonheur. Non, ce sera mieux. Ils iront d’eux-mêmes, apôtres de la pitié, vers la foule. Ils lui diront le nouvel évangile et que l’heure est enfin sonnée où doit régner la religion de la joie.</p>
@@ -618,21 +570,15 @@
           <quote>
             <l>Dont les bras sont armés pour la Croisade austère.</l>
             <l>L’Avenir sourira, limpide, dans leurs yeux</l>
-            <l>Et, quand ils parleront, la foule doit se taire.</l>
-          </quote>
-          <p>Oui, il faut nous taire à la voix des poètes. Mais non pour attendre d’eux le conseil de salut : je crois bien que les indications arriveraient multiples et contradictoires. Il faut les écouter pour le charme qui émane de leur parole. Leur devoir c’est d’être des chanteurs mélodieux. Lorsque, comme au <hi rend="i">Chemin de l’Irréel</hi> et au <hi rend="i">Chemin de la Douleur</hi>, leurs mélopées éveillent en nous des sentiments nobles, nous leur devons double reconnaissance. Mais n’allons pas leur demander la pensée précise et originale. Souvent, par besoin inconscient de renouveler leur musique, ils chantent des théories jeunes encore ; mais ils n’ont pas la puissance de les créer eux-mêmes. Ils s’éprennent des nouveaux gazouillements entendus et des dernières ailes aperçues voltigeantes dans le ciel ; mais ils ne sont point les couleurs des générations successives de doctrines. Quand ils s’efforcent à l’universel, ils lui apportent l’imprécision et leur harmonie sonore est payée par l’inharmonie logique.</p>
+            <l>Et, quand ils parleront, la foule doit se taire.</l> </quote><p>Oui, il faut nous taire à la voix des poètes. Mais non pour attendre d’eux le conseil de salut : je crois bien que les indications arriveraient multiples et contradictoires. Il faut les écouter pour le charme qui émane de leur parole. Leur devoir c’est d’être des chanteurs mélodieux. Lorsque, comme au <hi rend="i">Chemin de l’Irréel</hi> et au <hi rend="i">Chemin de la Douleur</hi>, leurs mélopées éveillent en nous des sentiments nobles, nous leur devons double reconnaissance. Mais n’allons pas leur demander la pensée précise et originale. Souvent, par besoin inconscient de renouveler leur musique, ils chantent des théories jeunes encore ; mais ils n’ont pas la puissance de les créer eux-mêmes. Ils s’éprennent des nouveaux gazouillements entendus et des dernières ailes aperçues voltigeantes dans le ciel ; mais ils ne sont point les couleurs des générations successives de doctrines. Quand ils s’efforcent à l’universel, ils lui apportent l’imprécision et leur harmonie sonore est payée par l’inharmonie logique.</p>
           <p>Les poèmes de Boissier échappent à cette critique générale parce qu’ils sont surtout œuvres d’imagination et de rêve. Leur philosophie est faite d’un sentiment noble plus que d’une idée nette. Cependant les rares petites taches qu’y découvre une lecture sévère sont des fautes du penseur, tandis que le rêveur et le musicien nous satisfont toujours.</p>
           <p>J’ai cité au courant de l’analyse, quelques images délicieusement fleuries ou chantantes. Je pourrais en cueillir tout un bouquet dans chaque page. Je relis, pour cette joie, l’hymne aux cloches qui chante au commencement du <hi rend="i">Chemin de l’Irréel</hi> et les louanges du Songe</p>
           <quote>
-            <l>Dont les pâles regards sont des lys inéclos.</l>
-          </quote>
-          <p>Les discours de la Nuit, de la Volupté et de la Mort dans le premier poème ; dans le second tous les discours du Poète et de la Bien-Aimée sont particulièrement riches à ce point de vue. Mais ces grands morceaux valent surtout d’ensemble. Je n’ose détacher de l’éclatante rivière un de ces diamants qui se font valoir les uns les autres. Et je ne vois aucune raison de choisir. Ils me paraissent tous d’une beauté égale, absolue. Au hasard, celui-ci, dans le discours de la Nuit. Elle dit de la femme :</p>
+            <l>Dont les pâles regards sont des lys inéclos.</l> </quote><p>Les discours de la Nuit, de la Volupté et de la Mort dans le premier poème ; dans le second tous les discours du Poète et de la Bien-Aimée sont particulièrement riches à ce point de vue. Mais ces grands morceaux valent surtout d’ensemble. Je n’ose détacher de l’éclatante rivière un de ces diamants qui se font valoir les uns les autres. Et je ne vois aucune raison de choisir. Ils me paraissent tous d’une beauté égale, absolue. Au hasard, celui-ci, dans le discours de la Nuit. Elle dit de la femme :</p>
           <quote>
             <l>C’est par moi que fleurit l’ivresse de ses flancs</l>
             <l>Et mes doigts caresseurs s’entr’ouvrent les lits blancs</l>
-            <l>         Aux rayons bleus du clair de lune.</l>
-          </quote>
-          <p>J’ai peur qu’on me trouve long. Il m’est pourtant impossible de passer sous silence l’autre grand mérite d’Émile Boissier : il est poète par la musique autant que par l’imagination. Et chez lui — coïncidence heureuse — les deux qualités ont les mêmes limites : il lui manque l’image belliqueuse et triomphante bruyamment ; et son orchestre n’a pas de cuivres. Presque toujours son instinct lui fait éviter les fanfares, et les violences, et les mouvements brusques ou rapides. Dans le <hi rend="i">Chemin de l’Irréel</hi> il a, une fois, dépassé son talent. Il a voulu décrire la danse macabre : je ne sais rien de moins vertigineux que son rythme et de moins évocateur que les détails choisis. Mais dans les langueurs heureuses, et dans les lenteurs charmantes, et dans les visions douces et lointaines, je ne connais pas de poète à lui comparer.</p>
+            <l>         Aux rayons bleus du clair de lune.</l> </quote><p>J’ai peur qu’on me trouve long. Il m’est pourtant impossible de passer sous silence l’autre grand mérite d’Émile Boissier : il est poète par la musique autant que par l’imagination. Et chez lui — coïncidence heureuse — les deux qualités ont les mêmes limites : il lui manque l’image belliqueuse et triomphante bruyamment ; et son orchestre n’a pas de cuivres. Presque toujours son instinct lui fait éviter les fanfares, et les violences, et les mouvements brusques ou rapides. Dans le <hi rend="i">Chemin de l’Irréel</hi> il a, une fois, dépassé son talent. Il a voulu décrire la danse macabre : je ne sais rien de moins vertigineux que son rythme et de moins évocateur que les détails choisis. Mais dans les langueurs heureuses, et dans les lenteurs charmantes, et dans les visions douces et lointaines, je ne connais pas de poète à lui comparer.</p>
           <p>Il y a deux mètres qu’il manie avec une sûreté rare. Ses strophes d’octosyllabes sont inférieures ; mais il sait user mieux que personne des diverses stances d’alexandrins, et je n’hésite pas à le considérer comme notre meilleur chanteur de vers libres.</p>
           <p>Au hasard, quelques exemples de l’une et de l’autre harmonie.</p>
           <p>Où trouver des grands vers plus chantants que ceux-ci :</p>
@@ -640,9 +586,7 @@
             <l>Les roses ont ouvert leurs lèvres de satin</l>
             <l>Devant la volupté des caresses nocturnes ;</l>
             <l>Et les lys, inclinant la blancheur de leurs urnes,</l>
-            <l>Tendent leur pistil d’or au baiser clandestin.</l>
-          </quote>
-          <p>Écoutez encore cette mélodie :</p>
+            <l>Tendent leur pistil d’or au baiser clandestin.</l> </quote><p>Écoutez encore cette mélodie :</p>
           <quote>
             <l>Nous irons devant nous de prairie en prairie</l>
             <l>Insoucieux de l’homme injuste et de sa loi.</l>
@@ -654,9 +598,7 @@
             <l>Je t’apprendrai le sens secret de mes paroles</l>
             <l>Et quand, dans le sommeil, nos lèvres s’uniront,</l>
             <l>Le songe effeuillera la pudeur des corolles</l>
-            <l>Sur la limpidité mystique de ton front.</l>
-          </quote>
-          <p>Presque tous les hexamètres des deux <hi rend="i">Chemins</hi> sont d’une telle beauté musicale.</p>
+            <l>Sur la limpidité mystique de ton front.</l> </quote><p>Presque tous les hexamètres des deux <hi rend="i">Chemins</hi> sont d’une telle beauté musicale.</p>
           <p>Et cependant les vers libres me charment davantage, plus délicieux encore et plus souples. J’ouvre n’importe où le <hi rend="i">Chemin de l’irréel</hi> et j’y cueille les premiers vers libres rencontrés :</p>
           <quote>
             <l>Et les Adolescents passèrent sous les branches</l>
@@ -673,9 +615,7 @@
             <l>                 Où se miraient le soir,</l>
             <l>          — Présagé par des flûtes lointaines,</l>
             <l>                     Ils avaient vu l’Espoir</l>
-            <l>Leur sourire au-delà des vallons et des plaines.</l>
-          </quote>
-          <p>Je fais subir la même épreuve au <hi rend="i">Chemin de la Douleur</hi> :</p>
+            <l>Leur sourire au-delà des vallons et des plaines.</l> </quote><p>Je fais subir la même épreuve au <hi rend="i">Chemin de la Douleur</hi> :</p>
           <quote>
             <l>L’heure semblait verser une calme indolence</l>
             <l>            Sur le recueillement des bois.</l>
@@ -688,38 +628,26 @@
             <l>                  Par la brise et l’espace —</l>
             <l>               Les clochettes d’un lent troupeau</l>
             <l>               Conduit par le berger qui passe</l>
-            <l>       En effleurant du doigt sa flûte de sureau.</l>
-          </quote>
-          <p>Je m’arrête d’écrire pour relire encore une fois. Je ne me lasse point d’entendre l’exquise symphonie. Je ne sais pas aujourd’hui de poète en vers — non pas même le génial Verhaeren, — auquel je doive des joies aussi complètes, aussi nobles et aussi pénétrantes que celles goûtées au <hi rend="i">Chemin de l’Irréel</hi> et au <hi rend="i">Chemin de la Douleur</hi>.</p>
+            <l>       En effleurant du doigt sa flûte de sureau.</l> </quote><p>Je m’arrête d’écrire pour relire encore une fois. Je ne me lasse point d’entendre l’exquise symphonie. Je ne sais pas aujourd’hui de poète en vers — non pas même le génial Verhaeren, — auquel je doive des joies aussi complètes, aussi nobles et aussi pénétrantes que celles goûtées au <hi rend="i">Chemin de l’Irréel</hi> et au <hi rend="i">Chemin de la Douleur</hi>.</p>
         </div>
         <div>
           <head>[Adolphe Lacuzon]</head>
           <p>Adolphe Lacuzon est coupable de rester si longtemps le poète d’<hi rend="i">Éternité</hi>. Toute puissance crée un devoir et Lacuzon est mon débiteur pour les nobles vers dont il me prive quand, au lieu de travailler, il s’acagnarde auprès de vagues sculpteurs qui, de leurs idées baroquement larvaires et de leur ignorance prétentieuse, déshonorent Baudelaire ou Vigny.</p>
           <p><hi rend="i">Éternité</hi>, <quote>« très simple poème de rêve fait… de souffrance et d’infinie tendresse »</quote>, est précédé d’une préface combattive et hautaine. J’aime, ici et là, celui qui peut dire avec <quote>« l’accent des certitudes »</quote> et sans que sa parole sonne faux :</p>
           <quote>
-            <l>Ma vie et sa ferveur, mon geste et sa fierté.</l>
-          </quote>
-          <p>Mais en prose la phrase encombrée de Lacuzon se presse, piétinante parfois, comme à une porte trop étroite une foule affolée. Au contraire, son vers <quote>« qui se nombre et <hi rend="i">son</hi> chant qui s’éploie »</quote>, toujours émus et presque toujours sûrs, réussissent souvent à</p>
+            <l>Ma vie et sa ferveur, mon geste et sa fierté.</l> </quote><p>Mais en prose la phrase encombrée de Lacuzon se presse, piétinante parfois, comme à une porte trop étroite une foule affolée. Au contraire, son vers <quote>« qui se nombre et <hi rend="i">son</hi> chant qui s’éploie »</quote>, toujours émus et presque toujours sûrs, réussissent souvent à</p>
           <quote>
             <l>…… grandir jusqu’à la prophétie</l>
-            <l>Le rêve tout-puissant de <hi rend="i">son</hi> vœu de beauté.</l>
-          </quote>
-          <p>Lacuzon insulte de brocards amusants la <quote>« coalition pathologique »</quote> des symbolistes d’école. Il ne méprise pas moins les simplistes qui se croient simples, les superficiels qui se proclament sincères, les naturistes qui s’affirment naturels.</p>
+            <l>Le rêve tout-puissant de <hi rend="i">son</hi> vœu de beauté.</l> </quote><p>Lacuzon insulte de brocards amusants la <quote>« coalition pathologique »</quote> des symbolistes d’école. Il ne méprise pas moins les simplistes qui se croient simples, les superficiels qui se proclament sincères, les naturistes qui s’affirment naturels.</p>
           <p>Aux uns et aux autres il enseigne des vérités, simples comme tout ce qui est profond, claires comme le soleil, mais que les yeux aveugles des faux poètes ne sauraient voir. La vraie sincérité, celle qui n’est pas une attitude vaine d’arriviste politique ou littéraire, celle qui est dans la vie et non dans les professions de foi, dans les mœurs et non dans les mœurs oratoires, celle qui est <quote>« l’horreur du servilisme, de la palinodie et des concessions hypocrites »</quote>, loin de se montrer banale comme une préface de Saint-Georges de Bouhélier, <quote>« ne semble plus que la vertu des seuls prédestinés »</quote>. D’elle, d’elle seule, vient la noble simplicité, celle qu’il ne faut pas confondre, ô Francis Jammes, <quote>« avec l’indigence du vocabulaire ou la vulgarité de l’expression »</quote>. Ce qui est vraiment simple <quote>« ne s’improvisa jamais »</quote>. L’improvisation est <quote>« le témoignage immédiat de l’impuissance créatrice »</quote>. La simplicité est exigeante ; elle demande qu’on s’absorbe <quote>« aux profondeurs de la pensée et du sentiment pour essayer d’en dégager le signe essentiel »</quote>.</p>
           <p>La poésie est donc simple grâce à un effort prolongé du poète. Elle est <quote>« révélatrice »</quote>. Elle est <quote>« la réalisation de ce miracle : l’expression de l’ineffable »</quote>. Quel sera l’instrument du miracle ? Le symbole. Mais, pour Lacuzon, le symbole ne se constitue pas, comme le veut une école récente, <quote>« d’invraisemblables métaphores d’une complexité déroutante, sinon d’un agrément de rébus »</quote>. Synthèse vivante, union mystérieuse du subjectif et de l’objectif, le symbole dit à la fois la nature avec sa poésie immanente et l’émotion de cœur et d’esprit du poète, son <quote>« immense extase de conviction »</quote>, sa <quote>« compréhension véritablement affective »</quote>. <quote>« Sur les confins extrêmes des réalités sensorielles »</quote>, cette incantation puissante <quote>« découvre à l’âme humaine son infini nostalgique »</quote>.</p>
           <p>Pas plus que le grand méditatif de <hi rend="i">La Maison du Berger</hi>, l’auteur d’<hi rend="i">Eternité</hi> ne vient rêver seul devant la nature. Une Eva, plus imprécise encore que celle de Vigny et plus puérile, se presse contre lui pendant que le ciel n’est à ses yeux</p>
           <quote>
-            <l>Qu’un vaste embrasement de prière exaucée.</l>
-          </quote>
-          <p>Un baiser semble unir <quote>« la vie au rêve »</quote>. Mais ici, le plus faible des deux amants tremble de froid, de solitude invaincue et aussi, soudain, d’une présence effroyable et douce, de plus en plus envahissante, car</p>
+            <l>Qu’un vaste embrasement de prière exaucée.</l> </quote><p>Un baiser semble unir <quote>« la vie au rêve »</quote>. Mais ici, le plus faible des deux amants tremble de froid, de solitude invaincue et aussi, soudain, d’une présence effroyable et douce, de plus en plus envahissante, car</p>
           <quote>
-            <l>Tout rêve est un regard infini vers la mort.</l>
-          </quote>
-          <p>Elle sentait bien, la pauvrette, que, malgré la main de pitié vague qui caressait sa main peureuse, le poète n’était plus là. Elle l’appelait inutilement ; elle cherchait en vain son regard. Lui, cependant, perdu dans un songe lointain,</p>
+            <l>Tout rêve est un regard infini vers la mort.</l> </quote><p>Elle sentait bien, la pauvrette, que, malgré la main de pitié vague qui caressait sa main peureuse, le poète n’était plus là. Elle l’appelait inutilement ; elle cherchait en vain son regard. Lui, cependant, perdu dans un songe lointain,</p>
           <quote>
-            <l>Sur le fond de la nuit vit ces fresques mouvantes.</l>
-          </quote>
-          <p>L’éternité telle qu’il la comprend, c’est un grand mouvement cyclique et ce qui le frappe le plus dans la Nature, c’est son évolution. Il semble parfois, darwinien éperdu, appeler Nature l’histoire elle-même. Il lui crie : « Ô nature,</p>
+            <l>Sur le fond de la nuit vit ces fresques mouvantes.</l> </quote><p>L’éternité telle qu’il la comprend, c’est un grand mouvement cyclique et ce qui le frappe le plus dans la Nature, c’est son évolution. Il semble parfois, darwinien éperdu, appeler Nature l’histoire elle-même. Il lui crie : « Ô nature,</p>
           <quote>
             <l>… Je vois la terre et l’onde à tes époques neuves,</l>
             <l>Les édens primitifs, et les cycles barbares,</l>
@@ -734,23 +662,17 @@
             <l>Et droits sur leurs chevaux cabrés qu’un rut enlève,</l>
             <l>Tes grands conquérants noirs, au profil surhumain,</l>
             <l>Qui, déployant leur geste avec l’éclair d’un glaive,</l>
-            <l>Engouffrent dans la nuit leurs cavaliers d’airain.</l>
-          </quote>
-          <p>D’un geste à chaque instant varié, et toujours noble, et toujours évocateur, il nous montre les empires qui grandissent et les décadences, les églises qui triomphent ou qui se meurent :</p>
+            <l>Engouffrent dans la nuit leurs cavaliers d’airain.</l> </quote><p>D’un geste à chaque instant varié, et toujours noble, et toujours évocateur, il nous montre les empires qui grandissent et les décadences, les églises qui triomphent ou qui se meurent :</p>
           <quote>
             <l>Les Tribuns ont couvert la voix des patriarches</l>
             <l>Qui, des cathèdres d’or, outragés au Concile,</l>
             <l>Entraînent dans leur robe où choit leur pas sénile</l>
-            <l>Les grands flambeaux éteints qui roulent sur les marches.</l>
-          </quote>
-          <p>Quelques vers cités disent mieux que tout commentaire l’admirable talent du poète. Il est fait de gravité dans la pensée, de noblesse dans le sentiment ; il est fait surtout d’une étonnante puissance de voir vite et de faire voir vite. Le penseur, cet être rare, existe chez Lacuzon. Et il y a une âme dans son verbe. Mais le visionnaire est grand. La pensée s’embarrasse parfois et hésite comme à des lèvres de bègue une émotion trop intense. Mais la vision est toujours précise comme du présent ; le tableau, achevé en quelques vers qui, chez un autre, suffiraient à peine à l’indiquer, s’impose comme un de ces rêves plus obsédants que le réel, parce qu’ils sont du réel condensé. Parfois même, la vision s’entend et le cri devient visible :</p>
+            <l>Les grands flambeaux éteints qui roulent sur les marches.</l> </quote><p>Quelques vers cités disent mieux que tout commentaire l’admirable talent du poète. Il est fait de gravité dans la pensée, de noblesse dans le sentiment ; il est fait surtout d’une étonnante puissance de voir vite et de faire voir vite. Le penseur, cet être rare, existe chez Lacuzon. Et il y a une âme dans son verbe. Mais le visionnaire est grand. La pensée s’embarrasse parfois et hésite comme à des lèvres de bègue une émotion trop intense. Mais la vision est toujours précise comme du présent ; le tableau, achevé en quelques vers qui, chez un autre, suffiraient à peine à l’indiquer, s’impose comme un de ces rêves plus obsédants que le réel, parce qu’ils sont du réel condensé. Parfois même, la vision s’entend et le cri devient visible :</p>
           <quote>
             <l>Et sur les horizons blanchis d’aube lustrale</l>
             <l>Monte, profil d’un cri, qui de bourg en cité,</l>
             <l>Tout en roc et granit se fût répercuté,</l>
-            <l>L’hymne piaculaire et fier des cathédrales…</l>
-          </quote>
-          <p>Si j’essayais, pour définir Lacuzon, l’œuvre vaine des rapprochements, il me ferait penser uniquement à des puissances nobles, à des sommets abrupts que les foules ne graviront point : à Vigny dont la pensée s’exprime plus claire, moins précieuse, mais non plus grave ou plus hautaine ; à Leconte de Lisle dont le vers n’est pas plus solide, ni les évocations plus précises. Plutôt encore, grâce sans doute à quelque lointain atavisme, ce franc-comtois est un espagnol à la tête droite, au regard franc, à la parole grandiloquente jusque dans le concept. Sur le fond de la nuit, fuyant tout à l’heure, solide maintenant, son geste dessine d’étranges tableaux. Ils vivent par l’intensité de la couleur, par la violence des ombres et l’éclat soudain des lumières, par la brusquerie rapide du mouvement qui les précipite en un vertige, chassés qu’ils sont par toute une armée d’autres tableaux aussi vibrants et passionnés.</p>
+            <l>L’hymne piaculaire et fier des cathédrales…</l> </quote><p>Si j’essayais, pour définir Lacuzon, l’œuvre vaine des rapprochements, il me ferait penser uniquement à des puissances nobles, à des sommets abrupts que les foules ne graviront point : à Vigny dont la pensée s’exprime plus claire, moins précieuse, mais non plus grave ou plus hautaine ; à Leconte de Lisle dont le vers n’est pas plus solide, ni les évocations plus précises. Plutôt encore, grâce sans doute à quelque lointain atavisme, ce franc-comtois est un espagnol à la tête droite, au regard franc, à la parole grandiloquente jusque dans le concept. Sur le fond de la nuit, fuyant tout à l’heure, solide maintenant, son geste dessine d’étranges tableaux. Ils vivent par l’intensité de la couleur, par la violence des ombres et l’éclat soudain des lumières, par la brusquerie rapide du mouvement qui les précipite en un vertige, chassés qu’ils sont par toute une armée d’autres tableaux aussi vibrants et passionnés.</p>
         </div>
         <div>
           <head>[Paul Redonnel]</head>
@@ -770,30 +692,22 @@
           <p>Voulez-vous des beautés de précision ?</p>
           <quote>
             <l>Les rayons du ponant accrochent au passage</l>
-            <l>Les nuages en haut, en bas les hautes branches.</l>
-          </quote>
-          <p><quote>« Les oliviers au tronc busqué doivent à l’inclinaison du sol de paraître des êtres prêts à se mettre à genoux ou qui s’en relèvent lentement. »</quote></p>
+            <l>Les nuages en haut, en bas les hautes branches.</l> </quote><p><quote>« Les oliviers au tronc busqué doivent à l’inclinaison du sol de paraître des êtres prêts à se mettre à genoux ou qui s’en relèvent lentement. »</quote></p>
           <p>De crainte de m’attarder, je tourne cent pages et je rencontre cette définition à laquelle semblent avoir collaboré un mathématicien puissant et un profond théologien : <quote>« Dieu est un point minéral dont la densité est le cube de l’unité. »</quote></p>
           <p>Je me fais violence pour ne point jeter ici à pleines mains l’or sonore des vers bien frappés et de poids. Le poète, par exemple, dit de son âme élancée vers la matière :</p>
           <quote>
             <l>Ce fut la nef que nul récif ne désempare,</l>
             <l>Et dont on adorna la coque de métal.</l>
             <l>Un par un j’enrôlai, du traînard au captal,</l>
-            <l>Les blasphèmes très doux et les baisers sans tare.</l>
-          </quote>
-          <p>Et la comparaison continue, ferme, solide, sans une hésitation ni une bavure.</p>
+            <l>Les blasphèmes très doux et les baisers sans tare.</l> </quote><p>Et la comparaison continue, ferme, solide, sans une hésitation ni une bavure.</p>
           <p>Un symbole plus souriant. Une coquette parle :</p>
           <quote>
-            <p>« Je me promène parfois rien que pour le plaisir de voir, selon le contour des sentes, mon ombre rôder à mon entour pour s’unir à moi ou me fuir, puis disparaître à gauche et, un pas plus loin, renaître à droite ; ici me précéder, tel un héraut, et là me suivre, tel un page. Et je pense alors, poète, que c’est votre âme qui tourne ainsi autour de moi, jouant à cache-cache, ayant de lancinants regrets de s’éloigner et de vifs désirs, aussitôt exaucés, de revenir vite… »</p>
-          </quote>
-          <p>Je voudrais bien aussi vous faire admirer — mais on n’enferme pas un chêne dans un herbier — le morceau merveilleux :</p>
+            <p>« Je me promène parfois rien que pour le plaisir de voir, selon le contour des sentes, mon ombre rôder à mon entour pour s’unir à moi ou me fuir, puis disparaître à gauche et, un pas plus loin, renaître à droite ; ici me précéder, tel un héraut, et là me suivre, tel un page. Et je pense alors, poète, que c’est votre âme qui tourne ainsi autour de moi, jouant à cache-cache, ayant de lancinants regrets de s’éloigner et de vifs désirs, aussitôt exaucés, de revenir vite… »</p> </quote><p>Je voudrais bien aussi vous faire admirer — mais on n’enferme pas un chêne dans un herbier — le morceau merveilleux :</p>
           <quote>
             <l>C’était « <hi rend="sc">un de ces fols</hi> », n’ayant pas de demeure</l>
             <l>Et faisant peine à voir comme un pauvre qui pleure.</l>
             <l>Il s’en allait des jours entiers à travers champs,</l>
-            <l>Le cœur en peine et la pensée à l’aventure.</l>
-          </quote>
-          <p>J’ai eu doublement tort de citer. De ce livre il faut tout lire et relire. Il faut s’intéresser à chaque détail, beau ou étrange, toujours caractéristique. Le poème terminé, il faut s’arrêter longuement, comme au sommet d’une montagne et, en une joie puissante, tourné vers le chemin parcouru, contempler la largeur et l’harmonie du paysage où nous sourirent l’un après l’autre tant de grands arbres et tant de fleurettes.</p>
+            <l>Le cœur en peine et la pensée à l’aventure.</l> </quote><p>J’ai eu doublement tort de citer. De ce livre il faut tout lire et relire. Il faut s’intéresser à chaque détail, beau ou étrange, toujours caractéristique. Le poème terminé, il faut s’arrêter longuement, comme au sommet d’une montagne et, en une joie puissante, tourné vers le chemin parcouru, contempler la largeur et l’harmonie du paysage où nous sourirent l’un après l’autre tant de grands arbres et tant de fleurettes.</p>
         </div>
       </div>
       <div type="chapter">
@@ -877,9 +791,7 @@
           <quote>
             <p>« Le liseron de Coppée,</p>
             <l>                     Un liseron, Madame, aimait une fauvette,</l>
-            <p>grimpait avec un sans-façon si souple et si charmant, qu’il devait atteindre sans peine le perron ou balcon académique. »</p>
-          </quote>
-          <p>Sachez que Déroulède <quote>« est tricolore, ainsi que sa cocarde »</quote>. Et Trolliet, si vous vous prêtez à ses bavardages ingénieux et puérils, vous apprendra ce que « marque » le rouge de la cocarde et du cocardier, et leur bleu, et leur blanc. Je crois me rappeler qu’il y a du sang, de la pureté et d’<quote>« éloquentes envolées dans l’utopie possible ! »</quote> L’instrument dont s’accompagnent les <hi rend="i">Chants du soldat</hi> n’est pas moins extraordinaire que Déroulède lui-même. <quote>« Sa lyre est surtout un clairon… Elle est monotone, ou <hi rend="i">monocuivre</hi>, plutôt qu’heptacorde »</quote>. — Regardez comme André Lemoyne s’applique à la <quote>« requête ou conquête de l’expression juste »</quote>, et soyez certains que M. Le Braz n’en voudra pas au critique indiscret de se livrer à une <quote>« enquête qui montre sa conquête »</quote>. Prenez une loupe pour étudier le charme de Theuriet, car <quote>« ce charme soutenu est parfois un charme ténu »</quote>. Reniflez maintenant. Vous ne sentez rien ? Pourtant, au détour de cette page, vient de passer Madeleine, <quote>« l’adorante et odorante amie du Christ »</quote>.</p>
+            <p>grimpait avec un sans-façon si souple et si charmant, qu’il devait atteindre sans peine le perron ou balcon académique. »</p> </quote><p>Sachez que Déroulède <quote>« est tricolore, ainsi que sa cocarde »</quote>. Et Trolliet, si vous vous prêtez à ses bavardages ingénieux et puérils, vous apprendra ce que « marque » le rouge de la cocarde et du cocardier, et leur bleu, et leur blanc. Je crois me rappeler qu’il y a du sang, de la pureté et d’<quote>« éloquentes envolées dans l’utopie possible ! »</quote> L’instrument dont s’accompagnent les <hi rend="i">Chants du soldat</hi> n’est pas moins extraordinaire que Déroulède lui-même. <quote>« Sa lyre est surtout un clairon… Elle est monotone, ou <hi rend="i">monocuivre</hi>, plutôt qu’heptacorde »</quote>. — Regardez comme André Lemoyne s’applique à la <quote>« requête ou conquête de l’expression juste »</quote>, et soyez certains que M. Le Braz n’en voudra pas au critique indiscret de se livrer à une <quote>« enquête qui montre sa conquête »</quote>. Prenez une loupe pour étudier le charme de Theuriet, car <quote>« ce charme soutenu est parfois un charme ténu »</quote>. Reniflez maintenant. Vous ne sentez rien ? Pourtant, au détour de cette page, vient de passer Madeleine, <quote>« l’adorante et odorante amie du Christ »</quote>.</p>
           <p>Quelquefois Trolliet s’excuse de tant d’esprit et de tant de grâce : <quote>« Je ne voudrais pas fonder une appréciation sur un jeu de mots pourtant je ne peux lire les vers de Rivoire, sans qu’ils me donnent l’impression d’une rivière. »</quote> Un chapitre s’intitule : <hi rend="i">Le Bataillon des Symbolistes</hi>. Pourquoi « bataillon » ? Pour amener cette formule jolie : <quote>« Il n’a pas gagné et ne pouvait gagner complètement la victoire, étant très mal armé… »</quote> Hélas ! la phrase ne finit pas sur ce mot, et ce mot précieux passera peut-être inaperçu. Rassurez-vous : les professeurs savent l’art des parenthèses et celui-ci s’interrompt pour déclarer, très grave : <quote>« Je vous prie de croire que je ne fais pas de jeux de mots. »</quote></p>
           <p>Non, Trolliet, nous n’aurons pas la cruauté de vous croire. Il serait trop triste que votre sottise ne fût pas faite surtout d’assonances, comme les non-sens des rondes enfantines, quand vous déclarez, par exemple : <quote>« Les strophes de ce Hugues rappellent sans trop de désavantage celles de Hugo »</quote> ; ou encore : <quote>« L’auteur de l’<hi rend="i">Aiglon</hi> pourrait bien être demain l’aigle de la poésie française ! »</quote></p>
           <p>Voici qu’après avoir relu <hi rend="i">Médaillons de poètes</hi>, je suis tenté de souscrire pour le monument Trolliet. Ce sera le monument non d’un homme, mais d’une espèce : aussi éloquemment qu’une aimable statue de caniche, il dira la platitude et le sourire servile du fonctionnaire.</p>
@@ -906,9 +818,7 @@
           <p>La première de ces deux phrases est négligée, comme presque toutes les phrases de Faguet ; on y entend traîner de vieilles pantoufles misée en savates. La seconde est de la lourdeur en toilette et l’auteur croit écrire à la mode du <num>xvii<hi rend="sup">e</hi></num> siècle. Cette prétention se montre quelquefois chez lui. Elle lui porte malheur plus encore qu’à Brunetière. Souvent une invraisemblable ignorance le rend incorrect pour aujourd’hui et pour autrefois. Les reliques dont il est chargé sont apocryphes et ni Vaugelas ni Littré ne salueront le porteur. La Fontaine ayant écrit :</p>
           <quote>
             <l>Disant qu’il ferait que sage</l>
-            <l>De garder le coin du feu</l>
-          </quote>
-          <p>Faguet se met à braire : <quote>« Il <hi rend="i">ne</hi> peut faire que sage. »</quote></p>
+            <l>De garder le coin du feu</l> </quote><p>Faguet se met à braire : <quote>« Il <hi rend="i">ne</hi> peut faire que sage. »</quote></p>
           <p>Philaminte, irritée de cette absurde négation, chasserait Faguet de son écurie. Chrysale, blessé des prétentions du cuistre, ne le défendrait sûrement pas. Mais l’académie des Vandal et des Costa de Beauregard a suffisamment oublié le français pour serrer Faguet sur son vieux sein.</p>
         </div>
         <div>
@@ -936,91 +846,57 @@
           <p>Chez moi, déclare-t-il d’un ton railleur,</p>
           <quote>
             <l>Point de ces vers brutaux, cadencés, drus, solides,</l>
-            <l>Et qu’on dirait cousins des grandes pyramides.</l>
-          </quote>
-          <p>Son vers n’est que grâce envolée. Il est <quote>« plus doux, plus féminin »</quote>.</p>
+            <l>Et qu’on dirait cousins des grandes pyramides.</l> </quote><p>Son vers n’est que grâce envolée. Il est <quote>« plus doux, plus féminin »</quote>.</p>
           <quote>
-            <l>Il a des tons de nacre et des roseurs de chair,</l>
-          </quote>
-          <p>Sa langue offre <quote>« des charmes indécis »</quote>.</p>
+            <l>Il a des tons de nacre et des roseurs de chair,</l> </quote><p>Sa langue offre <quote>« des charmes indécis »</quote>.</p>
           <p>Les mots qui le séduisent sont ceux</p>
           <quote>
-            <l>Qui laissent deviner le sens, mais non sans peine.</l>
-          </quote>
-          <p>Un peu d’obscurité n’est pas faite pour lui déplaire :</p>
+            <l>Qui laissent deviner le sens, mais non sans peine.</l> </quote><p>Un peu d’obscurité n’est pas faite pour lui déplaire :</p>
           <quote>
-            <l>Un paysage est beau quelquefois sous la brume.</l>
-          </quote>
-          <p>Peut-être même est-ce la brume seule qui est belle. Si elle supprime le paysage au lieu de l’estomper, le poète ne s’en plaindra pas, car</p>
+            <l>Un paysage est beau quelquefois sous la brume.</l> </quote><p>Peut-être même est-ce la brume seule qui est belle. Si elle supprime le paysage au lieu de l’estomper, le poète ne s’en plaindra pas, car</p>
           <quote>
             <l>C’est donner dans le plus enfantin des travers</l>
-            <l>Que de vouloir ainsi chercher un sens aux vers.</l>
-          </quote>
-          <p>La joliesse harmonieusement mariée des vocables ne suffit-elle pas ?</p>
+            <l>Que de vouloir ainsi chercher un sens aux vers.</l> </quote><p>La joliesse harmonieusement mariée des vocables ne suffit-elle pas ?</p>
           <quote>
             <l>… De voir un auteur jongler avec les mots,</l>
             <l>Les faire travailler, sans un autre propos</l>
-            <l>Que de remplir le personnage d’acrobate,</l>
-          </quote>
-          <p rend="noindent">cela semble bien valoir quelques applaudissements.</p>
+            <l>Que de remplir le personnage d’acrobate,</l> </quote><p rend="noindent">cela semble bien valoir quelques applaudissements.</p>
           <p>Je suis reconnaissant à Charles-Brun de n’être pas allé dans la pratique jusqu’au bout de sa théorie et d’avoir toujours fait dire à ses vers peu de chose sans doute, quelque chose cependant. Ni pensée, ni sentiment. M. Charles-Brun évite avec grand soin de telles banalités,</p>
           <quote>
             <l>Car tout le monde a, plus ou moins, perdu son père,</l>
             <l>Été trahi par une femme, ou bien encor</l>
             <l>Eu mal aux dents un jour qu’il ventait un peu fort ;</l>
             <l>Et faire là-dessus une fade élégie,</l>
-            <l>C’est une chose en soi qui n’entend point magie,</l>
-          </quote>
-          <p>Ce n’est pas que M. Charles-Brun bannisse du vers toute émotion.</p>
+            <l>C’est une chose en soi qui n’entend point magie,</l> </quote><p>Ce n’est pas que M. Charles-Brun bannisse du vers toute émotion.</p>
           <quote>
-            <l>Mais nous l’aimons qui soit légère et de bon goût.</l>
-          </quote>
-          <p>Il veut</p>
+            <l>Mais nous l’aimons qui soit légère et de bon goût.</l> </quote><p>Il veut</p>
           <quote>
             <l>Peindre des sentiments que nul ne pense avoir,</l>
-            <l>Raffiner sa couleur et compliquer sa tâche.</l>
-          </quote>
-          <p>Il veut surtout <quote>« chercher aux parfums des sens cachés »</quote> ; et il nous chante <quote>« le poème des parfums »</quote>.</p>
+            <l>Raffiner sa couleur et compliquer sa tâche.</l> </quote><p>Il veut surtout <quote>« chercher aux parfums des sens cachés »</quote> ; et il nous chante <quote>« le poème des parfums »</quote>.</p>
           <p>Ce raffiné méprise <quote>« les formes arrêtées »</quote>. S’il admet les couleurs, il ne consent à voir que les plus pâles et il les pâlit encore d’allitérations mièvres. Pour qu’il daigne regarder une fleur, il faut qu’elle soit</p>
           <quote>
-            <l>Pâle éperdument de chères pâleurs</l>
-          </quote>
-          <p rend="noindent">et une jeune fille ne le troublera que par une <quote>« pâleur divine »</quote> sœur de la pâleur des lys.</p>
+            <l>Pâle éperdument de chères pâleurs</l> </quote><p rend="noindent">et une jeune fille ne le troublera que par une <quote>« pâleur divine »</quote> sœur de la pâleur des lys.</p>
           <p>À vrai dire les nuances les moins vives lui sont encore trop brutales :</p>
           <quote>
             <l>… Sans me prendre au charme des couleurs</l>
-            <l>C’est grâce à leurs parfums que j’ai chéri les fleurs.</l>
-          </quote>
-          <p>Ils sont, ces parfums adorés, l’ébauche des sons et des musiques. Ils sont une expression bégayée, et séduisante, et comme enfantine, de l’univers ;</p>
+            <l>C’est grâce à leurs parfums que j’ai chéri les fleurs.</l> </quote><p>Ils sont, ces parfums adorés, l’ébauche des sons et des musiques. Ils sont une expression bégayée, et séduisante, et comme enfantine, de l’univers ;</p>
           <quote>
-            <l>Tout peut, loin du réel, être enclos aux senteurs</l>
-          </quote>
-          <p>Il aime <quote>« leur puéril symbolisme »</quote> et leur mensonge. Ils lui créent des illusions aimables, font sourire devant ses yeux heureux des vierges aux <quote>« charmes pâles »</quote></p>
+            <l>Tout peut, loin du réel, être enclos aux senteurs</l> </quote><p>Il aime <quote>« leur puéril symbolisme »</quote> et leur mensonge. Ils lui créent des illusions aimables, font sourire devant ses yeux heureux des vierges aux <quote>« charmes pâles »</quote></p>
           <quote>
-            <l>Atténués aux teintes vagues des lointains.</l>
-          </quote>
-          <p>Et M. Charles-Brun, d’un geste qui de sa part semble un peu vif, se jette à genoux en poussant ce cri d’amour :</p>
+            <l>Atténués aux teintes vagues des lointains.</l> </quote><p>Et M. Charles-Brun, d’un geste qui de sa part semble un peu vif, se jette à genoux en poussant ce cri d’amour :</p>
           <quote>
-            <l>Ô femme, toi qui n’es qu’une senteur perverse !</l>
-          </quote>
-          <p>Où diable ça peut-il aller mettre le nez, un professeur ?…</p>
+            <l>Ô femme, toi qui n’es qu’une senteur perverse !</l> </quote><p>Où diable ça peut-il aller mettre le nez, un professeur ?…</p>
           <p>Celui-ci se relève pour continuer, intarissable et subtil, à commenter les vers de Baudelaire :</p>
           <quote>
             <l>Comme de longs échos qui de loin se confondent</l>
             <l>Dans une ténébreuse et profonde unité,</l>
             <l>Vaste comme la nuit et comme la clarté,</l>
-            <l>Les parfums, les couleurs et les sons se répondent.</l>
-          </quote>
-          <p>Assez adroit ouvrier de mots et de nombres, Charles-Brun n’aurait pas grand-chose à apprendre pour devenir un poète. Mais il aurait tellement à oublier ! Or un professeur ne perd jamais rien, mais épaissit chaque jour sa couenne d’érudition.</p>
+            <l>Les parfums, les couleurs et les sons se répondent.</l> </quote><p>Assez adroit ouvrier de mots et de nombres, Charles-Brun n’aurait pas grand-chose à apprendre pour devenir un poète. Mais il aurait tellement à oublier ! Or un professeur ne perd jamais rien, mais épaissit chaque jour sa couenne d’érudition.</p>
           <p>Charles-Brun est un esprit curieux et inconstant, capable partout d’une médiocrité agréable, mais à qui son habileté et même son talent ne créent jamais qu’une personnalité fuyante. Aussi volontiers que des vers pastichés, il écrit des opinions critiques, pourvu qu’elles ne soient pas compromettantes. Il lui arriva pourtant en une brochurette lourde de méthode sur <hi rend="i">l’Évolution Félibréenne</hi> de dire quelques paroles peut-être courageuses :</p>
           <quote>
-            <p>« Beaucoup, déclare-t-il, sont entrés dans le mouvement félibréen qui ne détestaient point une façon de plus de s’imposer à l’estime de leurs concitoyens ou qui tenaient à écrire dans leur idiome local des vers qui n’auraient pas mieux valu en français. »</p>
-          </quote>
-          <p>Et encore :</p>
+            <p>« Beaucoup, déclare-t-il, sont entrés dans le mouvement félibréen qui ne détestaient point une façon de plus de s’imposer à l’estime de leurs concitoyens ou qui tenaient à écrire dans leur idiome local des vers qui n’auraient pas mieux valu en français. »</p> </quote><p>Et encore :</p>
           <quote>
-            <p>« Que le félibrige soit tombé en discrédit et, pour ne rien céder, se soit même rendu un peu ridicule, il est regrettable qu’il y ait des félibres à ne s’en être point aperçus. »</p>
-          </quote>
-          <p>Charles-Brun est félibre ; il n’appartient pas du moins au ridicule <hi rend="i">félibrige de Paris</hi> où pontifient toutes les semaines cinquante grotesques dont les plus connus sont Maurice Faure, ce sénateur ; Albert Tournier, ce député ; Batisto Bonnet, cette canaille ; Sextius Michel, ce gaga.</p>
+            <p>« Que le félibrige soit tombé en discrédit et, pour ne rien céder, se soit même rendu un peu ridicule, il est regrettable qu’il y ait des félibres à ne s’en être point aperçus. »</p> </quote><p>Charles-Brun est félibre ; il n’appartient pas du moins au ridicule <hi rend="i">félibrige de Paris</hi> où pontifient toutes les semaines cinquante grotesques dont les plus connus sont Maurice Faure, ce sénateur ; Albert Tournier, ce député ; Batisto Bonnet, cette canaille ; Sextius Michel, ce gaga.</p>
           <p>Mais Charles-Brun est surtout le plus adroit des conférenciers. Son esprit souriant à tout et son âme indifférente à tout lui permettent de s’assimiler rapidement n’importe quel sujet et de le traiter précisément avec les grâces de langage qu’attend son public. Il s’occupe volontiers des hommes et des choses d’oc. S’il en parle à Paris, il revêt l’air détaché et demi-railleur qui convient. En Occitanie, l’enthousiasme populaire et le son de sa propre voix suffisent à l’émouvoir jusqu’aux larmes. Et il a cette étonnante souplesse qui me paraît la marque même du conférencier : si une fée transformait l’auditoire d’un coup de baguette et, au moment où Charles-Brun pleure en phrases rythmées, lui jouait le tour de métamorphoser ses bons limousins émus en parisiens gouailleurs, immédiatement Charles-Brun s’apercevrait du changement, et immédiatement Charles-Brun serait à l’unisson. L’applaudissement qui, tout à l’heure payait un accent convaincu, continuerait, rémunérant une clownerie de pensée ou d’expression. On ne saurait trop louer de telles vertus et moi aussi j’applaudis, comme au cirque.</p>
           <p>Il a publié en plaquette deux harangues qui appartiennent à sa manière limousine et enthousiaste. Elles chantent en termes lyriques Bernard de Ventadour, <quote>« le poète ineffable de l’amour »</quote>. Immédiatement après cette qualification grandiloquente mais un peu vague, Charles-Brun, qui prévoit jusqu’aux moindres objections, s’écrie : <quote>« Et je n’entends point le perdre de la sorte dans une troupe mélodieuse de troubadours occitans qui chantèrent aussi la passion souveraine. »</quote> Cette phrase me fit espérer une définition critique du talent de Bernard de Ventadour. Mais un conférencier avisé sait combien son public appartient à l’instant et combien il craint tout effort intellectuel. Les promesses sont toujours chaudement accueillies. Les réalités fatigueraient peut-être et Charles-Brun est un discoureur trop intelligent pour donner à son public autre chose que ce qu’il demande.</p>
         </div>
@@ -1122,9 +998,7 @@
         <div>
           <head>[Anatole France]</head>
           <quote>
-            <p>« Je me suis toujours incliné à comprendre, dit M. Bergeret, et j’y ai perdu des énergies précieuses. Je découvre sur le tard que c’est une grande force que de ne pas comprendre. Cela permet parfois de conquérir le monde. Si Napoléon avait été aussi intelligent que Spinoza, il aurait écrit quatre volumes dans une mansarde. »</p>
-          </quote>
-          <p>Fuyant M. Bergeret, vous les prenez donc pour <quote>« des énergies précieuses »</quote>, les basses avidités ouvertes vers les misérables et fangeux royaumes qui sont de ce monde — Votre intelligence vive, alerte, capable de tout comprendre successivement, inégale à la vue synthétique qui seule donne la sérénité, hésite entre Spinoza qui put tirer de ses richesses intérieures un univers harmonieux et le pauvre Napoléon dont l’Europe conquise ne remplissait pas le vide décidément incurable. Vous y voyez mal, M. Bergeret, et vous demanderiez pour vous le supplice d’une Danaïde qui fait passer des fleuves par son tonneau sans fond plutôt que la destinée aimable de l’enfant dont la moindre fontaine remplit l’urne légère.</p>
+            <p>« Je me suis toujours incliné à comprendre, dit M. Bergeret, et j’y ai perdu des énergies précieuses. Je découvre sur le tard que c’est une grande force que de ne pas comprendre. Cela permet parfois de conquérir le monde. Si Napoléon avait été aussi intelligent que Spinoza, il aurait écrit quatre volumes dans une mansarde. »</p> </quote><p>Fuyant M. Bergeret, vous les prenez donc pour <quote>« des énergies précieuses »</quote>, les basses avidités ouvertes vers les misérables et fangeux royaumes qui sont de ce monde — Votre intelligence vive, alerte, capable de tout comprendre successivement, inégale à la vue synthétique qui seule donne la sérénité, hésite entre Spinoza qui put tirer de ses richesses intérieures un univers harmonieux et le pauvre Napoléon dont l’Europe conquise ne remplissait pas le vide décidément incurable. Vous y voyez mal, M. Bergeret, et vous demanderiez pour vous le supplice d’une Danaïde qui fait passer des fleuves par son tonneau sans fond plutôt que la destinée aimable de l’enfant dont la moindre fontaine remplit l’urne légère.</p>
           <p>Fuyant M. Bergeret, tu crois peut-être m’échapper en souriant. Mais je sais le sens complexe de ton sourire.</p>
           <p>Quel rhéteur naïf soutiendrait encore après t’avoir lu que l’ironie veut faire entendre uniquement le contraire de ce qu’elle dit ? Sous les reflets trompeurs de ton ironie, la lettre vit d’un peu de l’esprit et l’esprit s’alourdit d’un peu de la lettre. Délicieux M. Bergeret, ta phrase ne méprise pas tout à fait Napoléon quand tes mots le glorifient. Et la preuve c’est que malade des petites vanités de nos petits Napoléons, tu as fait, tout comme Hanotaux, le nécessaire pour être de l’Académie française. Te dirai-je ma pensée entière, séducteur que quelques-uns proclament divin parce que tu es féminin, toi dont la langue lumineuse fait rêver de loin aux splendeurs de Platon et qui, regardé de près, n’es plus que madame Renan ?…</p>
           <p>Renan diminué, Renan plus joli, Renan de salon, Renan journaliste, ô gracieux Renanet, tu as plus de vanité intellectuelle que de joie intellectuelle. Frôleur d’idées, faiseur d’idées demi-vierges, tu ne fécondas jamais aucune de tes épouses d’une heure. Quand tu couches avec la blonde, tu songes à la brune ; et tu te prouves ingénieusement que la belle est laide ou que la laide est belle.</p>
@@ -1143,9 +1017,7 @@
         <div>
           <head>[Frédéric Nietzsche]</head>
           <quote>
-            <p>« Je vais vous dire, annonce Zarathoustra, trois métamorphoses de l’esprit : comment l’esprit devient chameau, comment le chameau devient lion, et enfin comment le lion devient enfant. »</p>
-          </quote>
-          <p>Le chameau, c’est <quote>« l’esprit patient et vigoureux en qui domine le respect »</quote>. Il réclame, vaillant et dévoué, les règles les plus pénibles, les fardeaux les plus lourds et, <quote>« sitôt chargé, se hâte vers le désert. Mais, au fond du désert le plus solitaire, s’accomplit la seconde métamorphose : ici, l’esprit devient lion, il veut conquérir la liberté et être maître de son propre désert »</quote>. Il rugit : <quote>« Je veux »</quote>, et il lutte contre le dragon qui s’appelle <quote>« Tu dois »</quote>. Il déchire les vieilles morales, détruit les <quote>« valeurs anciennes »</quote>. Mais, ayant opposé <quote>« une divine négation, même au devoir »</quote>, il devient enfant pour <quote>« la sainte affirmation »</quote> qui créera des <quote>« valeurs nouvelles »</quote>.</p>
+            <p>« Je vais vous dire, annonce Zarathoustra, trois métamorphoses de l’esprit : comment l’esprit devient chameau, comment le chameau devient lion, et enfin comment le lion devient enfant. »</p> </quote><p>Le chameau, c’est <quote>« l’esprit patient et vigoureux en qui domine le respect »</quote>. Il réclame, vaillant et dévoué, les règles les plus pénibles, les fardeaux les plus lourds et, <quote>« sitôt chargé, se hâte vers le désert. Mais, au fond du désert le plus solitaire, s’accomplit la seconde métamorphose : ici, l’esprit devient lion, il veut conquérir la liberté et être maître de son propre désert »</quote>. Il rugit : <quote>« Je veux »</quote>, et il lutte contre le dragon qui s’appelle <quote>« Tu dois »</quote>. Il déchire les vieilles morales, détruit les <quote>« valeurs anciennes »</quote>. Mais, ayant opposé <quote>« une divine négation, même au devoir »</quote>, il devient enfant pour <quote>« la sainte affirmation »</quote> qui créera des <quote>« valeurs nouvelles »</quote>.</p>
           <p>La philosophie de Nietzsche commence, en effet, par être libératrice. Ce héros veut nous affranchir non seulement <quote>« de tous les maîtres qui ne se moquent pas d’eux-mêmes »</quote>, mais encore de notre propre passé, de toute continuité personnelle, de la crainte naïve et tyrannique de nous contredire. Non content de délivrer l’individu de <quote>« l’instinct de troupeau »</quote>, il le libère de toute préoccupation d’harmonie dans sa vie et dans sa pensée. Il n’est pas satisfait quand il lui a dit d’être lui-même. Il lui recommande d’être celui de cette heure, non celui d’hier. Il proclame, avec une joie fière et un peu ricaneuse : <quote>« Mon présent réfute mon passé. »</quote> Le lion rugit : Vis dans la joie de ce moment !</p>
           <p>Affranchir l’individu ne suffit pas à Nietzche. Il délivre aussi l’univers. Il le délivre de Dieu, qui est « mort » ; il le délivre de la causalité et de la finalité.</p>
           <p>Mais il va bientôt, de lion destructeur devenu un enfant qui joue <quote>« le jeu divin de la création »</quote>, forger au monde et à l’individu des chaînes aussi lourdes que les anciennes.</p>

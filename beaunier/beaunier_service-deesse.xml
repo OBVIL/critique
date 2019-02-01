@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -25,10 +25,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/critique/beaunier_service-deesse/</idno>
-        <idno type="tei">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_service-deesse.xml</idno>
-        <idno type="html">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_service-deesse.html</idno>
-        <idno type="text">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_service-deesse.txt</idno>
-        <idno type="epub">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_service-deesse.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -74,7 +70,7 @@
         <p>Mauvais ? Cela vous chagrine : vous aimez beaucoup la plupart de ces écrivains. Vous n’avez pas tant de chagrin que M. Jean Carrère, qui les adore tous. On dirait qu’il a rigoureusement choisi, pour les châtier, ses préférés. Voyez un peu.</p>
         <p>Rousseau ? <quote>« Dire qu’il est un des plus grands génies dont la parole ait agité le monde, dire, etc… dire enfin qu’il est un grand écrivain et un grand homme, eh ! qui donc s’y pourrait refuser ? »</quote> Avec tout ça, un mauvais maître !</p>
         <p>Chateaubriand ? Le <quote>« prince de la prose française »</quote> : un mauvais maître !</p>
-        <p>Balzac ? <quote>« Quel colosse !… » </quote>Son génie tient de la magie. On l’écoute : on lui appartient. Cependant, délivrez-vous, rompez vos liens : vous êtes chez un mauvais maître !</p>
+        <p>Balzac ? <quote>« Quel colosse !… »</quote> Son génie tient de la magie. On l’écoute : on lui appartient. Cependant, délivrez-vous, rompez vos liens : vous êtes chez un mauvais maître !</p>
         <p>Stendhal ? M. Jean Carrère ne le lit pas <quote>« sans être remué dans les bas-fonds mystérieux et inexplorés »</quote> de son être. Un mauvais maître !</p>
         <p>M<hi rend="sup">me</hi> Sand ? <quote>« Pleinement sympathique »</quote>, une femme étonnante. Et cependant, un mauvais maître !</p>
         <p>Musset ? Chacun de ses vers <quote>« frémit, pleure et s’épand comme les cascatelles d’eau vive qui tremblent et bondissent dans les forêts »</quote>. Ajoutez <quote>« une solide éducation classique »</quote>. Néanmoins, un mauvais maître !</p>
@@ -109,7 +105,7 @@
         <p>Principalement, l’influence de la littérature n’agit pas toute seule et ne forme pas toute seule les générations humaines. M. Jean Carrère, pour la commodité de ses démonstrations, néglige les autres éléments de la vie sociale. Un adolescent, même le plus adonné au vain plaisir de la lecture, a d’autres maîtres que les romanciers et les poètes. Je suppose qu’on l’a bien élevé, qu’on l’a mis au courant de ses devoirs et que les circonstances de sa vie l’informent de ses obligations. Je ne le confie point au seul Baudelaire.</p>
         <p>Mais voici précisément ce qu’on fait : on feint que la littérature ait mission d’accomplir, dans l’État, toute la besogne : la besogne du pédagogue et du prédicateur, celle du législateur aussi. Veuillot reproche à Molière de n’avoir pas déconseillé au Roi les pratiques de galanterie. Quand le régime ne va pas, on dit que c’est la faute à Rousseau. Et M. Jean Carrère veut que les poètes soient des conducteurs d’âmes.</p>
         <p>S’ils les conduisent à la promenade, ils sont dans leur rôle aimable et utile.</p>
-        <p>Craignez, en traitant de mauvais maîtres si influents les romanciers et les poètes, de leur monter la tête : plutôt, laissez-les à un badinage innocent. La littérature était jadis <quote>« un jeu de lettrés »</quote>, dit M. Jean Carrère ; il ajoute : <quote>« Dans le conflit mondial des idées et des races, toute œuvre qui ne sera pas universelle périra… Nous devons de plus en plus renoncer à dominer et à survivre par le seul talent. » </quote>Eh ! moi non plus, je n’en sais rien. Mais, s’il en est ainsi, je le regrette. Veuillent, en attendant les temps nouveaux, poètes et romanciers continuer l’ancien usage et anodin, de « plaire », comme disait Racine, aux honnêtes gens !</p>
+        <p>Craignez, en traitant de mauvais maîtres si influents les romanciers et les poètes, de leur monter la tête : plutôt, laissez-les à un badinage innocent. La littérature était jadis <quote>« un jeu de lettrés »</quote>, dit M. Jean Carrère ; il ajoute : <quote>« Dans le conflit mondial des idées et des races, toute œuvre qui ne sera pas universelle périra… Nous devons de plus en plus renoncer à dominer et à survivre par le seul talent. »</quote> Eh ! moi non plus, je n’en sais rien. Mais, s’il en est ainsi, je le regrette. Veuillent, en attendant les temps nouveaux, poètes et romanciers continuer l’ancien usage et anodin, de « plaire », comme disait Racine, aux honnêtes gens !</p>
       </div>
       <div>
         <head>II. Les tribulations d’Homère<note resp="author"><hi rend="i">Un mensonge de la science allemande, les Prolégomènes à Homère de Fr. Aug. Wolf</hi>, par Victor Bérard. Cf., du même auteur, <hi rend="i">Les Phéniciens et l’Odyssée</hi>, deux volumes (1902-1903) ; — <hi rend="i">Les théories dramatiques au <num>xvii<hi rend="sup">e</hi></num> siècle, étude sur la vie et les œuvres de l’abbé d’Aubignac</hi>, par Charles Arnaud (1888) ; — <hi rend="i">Pour mieux connaître Homère</hi>, par Michel Bréal (1906).</note></head>

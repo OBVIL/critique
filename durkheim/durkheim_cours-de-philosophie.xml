@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
@@ -394,7 +394,7 @@
           <p>On compte généralement cinq sens : <hi rend="i">le toucher, l’odorat, le goût, la vue et l’ouïe</hi>. Il ne faut pas entendre uniquement par sens les organes sensibles qui sont les intermédiaires entre le monde extérieur et le moi ; il faut les définir seulement : Certaines sources d’information relatives au monde extérieur. En effet, il y a des sens qui ne sont point situés. Il en est deux, connus depuis peu, qui n’ont point d’organe spécial : ce sont, d’abord le <hi rend="i">sens musculaire</hi> par lequel nous sentons, l’état, la position, la fatigue de nos muscles ; puis le sens vital, qui nous fait seulement connaître l’état général du corps, le bien-être ou le malaise sans siège déterminé. <quote>« C’est comme une sorte de toucher intérieur. »</quote><note n="4" place="bottom"> Albert Lemoine</note> C’est ce que l’on nommait au moyen-âge <hi rend="i">sensus vagus</hi>. <quote>« Quand c’est à l’œil que j’ai mal ou à l’oreille, ce n’est pas de la vue ou par la vue, ce n’est pas de l’ouïe ou par l’ouïe que je souffre. Les cinq sens n’ont rien à voir dans la production de sensations pareilles. Elles dépendent d’une autre puissance de la sensibilité. »</quote></p>
           <p>Il y a lieu maintenant de se demander quelle est la valeur relative de ces différents sens. Les uns nous donnent évidemment des sensations, des renseignements plus précis ou plus abondants que les autres.</p>
           <p>Il faut évidemment mettre au degré le plus bas de l’échelle les sens de <hi rend="i">l’odorat</hi> et du <hi rend="i">goût</hi>. Ils sont si pauvres que, hormis les affections sensibles, il n’y a presque rien d’appréciable dans ces sensations. Elles sont purement affectives et ce n’est qu’après une longue éducation qu’ils nous donnent de véritables connaissances.</p>
-          <p>Après, nous placerons le <hi rend="i">sens vital</hi>. C’est là se mettre en désaccord avec l’inventeur, Albert Lemoine, qui affirme que <quote>« grâce à lui seul nous connaissons le monde extérieur. » </quote>C’est qu’on voit bien que toutes les indications du sens vital contiennent une grande part d’affection sensible, et peu de renseignements précis.</p>
+          <p>Après, nous placerons le <hi rend="i">sens vital</hi>. C’est là se mettre en désaccord avec l’inventeur, Albert Lemoine, qui affirme que <quote>« grâce à lui seul nous connaissons le monde extérieur. »</quote> C’est qu’on voit bien que toutes les indications du sens vital contiennent une grande part d’affection sensible, et peu de renseignements précis.</p>
           <p>Plus haut, on mettra <hi rend="i">la vue</hi> et <hi rend="i">l’ouïe</hi>. Ces deux sens sont les sens esthétiques. C’est là ce qui fait leur supériorité.</p>
           <p>Au quatrième degré viendra le <hi rend="i">toucher</hi>, à qui nous devons une foule de notions très précises. Il peut remplacer la vue, l’ouïe parfois. L’antiquité reconnaissait bien la supériorité de ce sens ; Anaxagore disait que c’est grâce à la main que l’homme a le privilège de penser.</p>
           <p>Au sommet de l’échelle vient le sens musculaire, qui nous donne les notions les plus précises. Avec le toucher, il nous donne la connaissance de l’étendue. C’est en outre dans la sensation de l’effort musculaire que l’homme se distingue le mieux du monde extérieur.</p>
@@ -1200,9 +1200,7 @@
           <p>Cette figuration est commode pour la théorie du syllogisme. Elle est exprimée dans les deux vers :</p>
           <quote>
             <l>Asserit A, negat E, verum generaliter ambo ;</l>
-            <l>Asserit I, negat O, sed particulariter ambo.</l>
-          </quote>
-          <p>On appelle conversion d’une proposition la transposition du sujet et de l’attribut, la proposition demeurant vraie, par exemple : « Tout homme est un animal = certains animaux sont des hommes. »</p>
+            <l>Asserit I, negat O, sed particulariter ambo.</l> </quote><p>On appelle conversion d’une proposition la transposition du sujet et de l’attribut, la proposition demeurant vraie, par exemple : « Tout homme est un animal = certains animaux sont des hommes. »</p>
           <p>Voici les règles qui déterminent la nouvelle quantité de la proposition :</p>
           <p>La proposition <hi rend="i">universelle affirmative</hi> devient <hi rend="i">particulière affirmative</hi>. En effet l’attribut étant dans la première forme plus vaste que le sujet, il faut qu’il le soit moins dans la seconde.</p>
           <p>La proposition <hi rend="i">particulière ne change pas</hi> de quantité. « Quelques hommes sont mortels = quelques mortels sont hommes ». Attribut et sujet ayant tous deux une extension restreinte se remplacent sans changements.</p>
@@ -1232,9 +1230,7 @@
           <quote>
             <p>Tous les hommes (M) sont mortels (T) ;</p>
             <p>Or, Paul (t) est un homme (M) ;</p>
-            <p>Donc, Paul (t) est mortel (T).</p>
-          </quote>
-          <p>La dernière proposition renferme deux termes et l’attribut y a une extension plus grande que le sujet. Il s’appelle à cause de cela <hi rend="i">grand terme</hi> (T). Le sujet porte au contraire le nom de <hi rend="i">petit terme</hi> (t). Enfin dans les deux premières propositions se trouve un terme commun, auquel sont comparés tour à tour les deux termes déjà examinés ; ce terme est nommé <hi rend="i">moyen terme</hi> (M).</p>
+            <p>Donc, Paul (t) est mortel (T).</p> </quote><p>La dernière proposition renferme deux termes et l’attribut y a une extension plus grande que le sujet. Il s’appelle à cause de cela <hi rend="i">grand terme</hi> (T). Le sujet porte au contraire le nom de <hi rend="i">petit terme</hi> (t). Enfin dans les deux premières propositions se trouve un terme commun, auquel sont comparés tour à tour les deux termes déjà examinés ; ce terme est nommé <hi rend="i">moyen terme</hi> (M).</p>
           <p>La troisième proposition d’un syllogisme porte le nom de question ou de conclusion, suivant qu’on l’envisage avant ou après la démonstration. Les deux premières propositions sont les prémisses. Celle où le grand terme est comparé au moyen se nomme majeure, celle où se trouve le petit, mineure.</p>
           <p>Étudions maintenant le mécanisme du syllogisme. Il a pour objet de démontrer la question ou conclusion. Or, toute proposition comprend deux termes : un sujet, un attribut affirmé de ce sujet ; si, pour être établie, la proposition demande démonstration, c’est qu’on ignore si ces deux termes se conviennent. Pour le savoir, on cherche un troisième terme qui permette de décider. Il faut démontrer que T contient t — au point de vue de l’extension, bien entendu — ce que nous pouvons écrire T &gt; t. Pour cela, comparons T à M. Nous trouvons que M est contenu dans T. On a T &gt; M (Les hommes sont compris dans la classe des êtres mortels). Comparons maintenant M à t. On trouve M &gt; t (Paul est compris dans la classe des hommes). Nous avons, d’une part T &gt; M, de l’autre M &gt; t ; d’où l’on tire T &gt; M &gt; t ; T &gt; t (Paul est compris dans la classe des êtres mortels).</p>
           <p>Telle est la théorie du syllogisme au point de vue de l’extension. Si l’on voulait en faire la théorie au point de vue de la compréhension, il n’y aurait qu’à renverser l’ordre des inégalités précédentes. Il suffit pour le voir de se rapporter à la loi : L’extension est en raison inverse de la compréhension. Ainsi, si au point de vue de l’extension T &gt; t, au point de vue de la compréhension on a t &gt; T. Il est évident que le nombre des caractères qui définissent Paul est plus grand que le nombre de caractères qui définissent mortel.</p>
@@ -1244,44 +1240,32 @@
           <quote>
             <p>Nul homme n’est immortel ;</p>
             <p>Or, Paul est un homme ;</p>
-            <p>Donc, Paul n’est pas immortel,</p>
-          </quote>
-          <p>on aurait en désignant homme, immortel, Paul, par les cercles H, I, P, la figure suivante, d’après la méthode d’Euler :</p>
+            <p>Donc, Paul n’est pas immortel,</p> </quote><p>on aurait en désignant homme, immortel, Paul, par les cercles H, I, P, la figure suivante, d’après la méthode d’Euler :</p>
           <p>Ce qui montre immédiatement que P est extérieur à I : l’idée d’immortel ne convient donc pas à l’idée de Paul.</p>
           <p>Soit le syllogisme général :</p>
           <quote>
             <p>Quelque A est B ;</p>
             <p>Tout B est C ;</p>
-            <p>Donc, quelque A est C</p>
-          </quote>
-          <p>on le figurerait ainsi : [?]</p>
+            <p>Donc, quelque A est C</p> </quote><p>on le figurerait ainsi : [?]</p>
           <p>Soit encore le syllogisme contraire :</p>
           <quote>
             <p>Quelque A n’est pas B</p>
             <p>Tout A est C</p>
-            <p>Donc, quelque C n’est pas B</p>
-          </quote>
-          <p>On aurait : [?]</p>
+            <p>Donc, quelque C n’est pas B</p> </quote><p>On aurait : [?]</p>
           <p>Cette figuration a l’avantage de bien faire comprendre quelle est l’essence du syllogisme. Ce n’est pas de comparer des quantités inégales comme semble le faire voir la figuration algébrique que nous avons indiquée plus haut, mais de marquer un rapport de contenant à contenu. De plus, cette méthode montre nettement que le syllogisme est purement formel. Mettez telles propositions qu’il vous plaira à la place des lettres des exemples précédents, le syllogisme en lui-même n’en sera pas moins rigoureux, quand bien même les prémisses seraient fausses, quand bien même elles n’auraient aucun sens. Voici pour le prouver, divers exemples de syllogismes qui, en eux-mêmes, sont parfaitement exacts, et qui, figurés par la méthode d’Euler, donneraient trois cercles concentriques représentant le plus grand, le grand terme ; le second, le moyen terme ; le troisième, le petit terme. Comme syllogismes, ils sont donc irréprochables et n’en sont pas moins faux, soit dans leurs prémisses, soit dans leurs conséquences.</p>
           <p>Le premier énonce trois propositions fausses :</p>
           <quote>
             <p>Tout sentiment courageux est louable ;</p>
             <p>Or, l’imprudence est un sentiment courageux ;</p>
-            <p>Donc, l’imprudence est louable.</p>
-          </quote>
-          <p>Cet autre de deux prémisses fausses tire une conclusion vraie :</p>
+            <p>Donc, l’imprudence est louable.</p> </quote><p>Cet autre de deux prémisses fausses tire une conclusion vraie :</p>
           <quote>
             <p>Ma tabatière est dans la lune ;</p>
             <p>La lune est dans ma poche ;</p>
-            <p>Donc ma tabatière est dans ma poche.</p>
-          </quote>
-          <p>Le troisième se compose de deux prémisses vrais, d’une conclusion fausse :</p>
+            <p>Donc ma tabatière est dans ma poche.</p> </quote><p>Le troisième se compose de deux prémisses vrais, d’une conclusion fausse :</p>
           <quote>
             <l>Tout rat mange du lard ;</l>
             <l>Or, rat est une syllabe ;</l>
-            <l>Donc, une syllabe mange du lard.</l>
-          </quote>
-          <p>Nous verrons plus loin la cause qui peut faire tirer de deux prémisses vraies une conclusion fausse. Ces exemples n’en démontrent pas moins combien le syllogisme est formel.</p>
+            <l>Donc, une syllabe mange du lard.</l> </quote><p>Nous verrons plus loin la cause qui peut faire tirer de deux prémisses vraies une conclusion fausse. Ces exemples n’en démontrent pas moins combien le syllogisme est formel.</p>
           <p>Quel est le principe qui préside au mécanisme du syllogisme ? C’est le <hi rend="i">principe d’identité</hi>. En effet, la conclusion y est conçue comme comprise dans les prémisses ; elle est vraie, parce qu’elle est identique à une partie des prémisses admises comme vraies.</p>
           <p>Les modes du syllogisme dépendent de la quantité et de la qualité des propositions composantes. Or nous avons vu qu’il y avait quatre sortes de propositions à ce double point de vue, et avons vu qu’elles étaient désignées par les lettres A E I O. On a calculé qu’elles pouvaient se combiner de 64 façons différentes. Il y aurait alors 64 modes de syllogisme. Mais en appliquant un certain nombre de règles générales auxquelles doit se conformer un syllogisme pour être juste, on trouve que 54 de ces modes sont faux. Il n’en reste dès lors que dix possibles.</p>
           <p>Ces règles du syllogisme, dont nous venons de parler, étaient selon l’Ecole qui les énonçait en vers au nombre de 7. Hamilton en a réduit le nombre à 3 :</p>
@@ -1290,15 +1274,11 @@
           <quote>
             <l>Certains ouvrages d’art ont la forme cubique ;</l>
             <l>Or, un tableau est un ouvrage d’art ;</l>
-            <l>Donc, un tableau a la forme cubique.</l>
-          </quote>
-          <p>En outre, la mineure doit être affirmative ; en effet elle énonce l’application à la question présente de la règle générale fournie par la majeure. Elle doit donc affirmer qu’elle convient à cette question. C’est par cela qu’on ne saurait employer sans erreur un syllogisme de la forme de celui-ci :</p>
+            <l>Donc, un tableau a la forme cubique.</l> </quote><p>En outre, la mineure doit être affirmative ; en effet elle énonce l’application à la question présente de la règle générale fournie par la majeure. Elle doit donc affirmer qu’elle convient à cette question. C’est par cela qu’on ne saurait employer sans erreur un syllogisme de la forme de celui-ci :</p>
           <quote>
             <l>Tout homme est un animal ;</l>
             <l>Or, nul cheval n’est homme ;</l>
-            <l>Donc, nul cheval n’est animal.</l>
-          </quote>
-          <p>3. La conclusion doit s’accorder en quantité avec la mineure, en qualité avec la majeure. En effet, d’abord, la conclusion a pour sujet le petit terme, et le grand pour attribut. Mais comme leur relation entre eux est déterminée par leurs relations avec le moyen terme, et que celui-ci est comparé avec le grand terme dans la majeure, la mineure devant d’autre part être toujours positive, il s’ensuit nécessairement que la conclusion devra toujours être positive si la majeure est positive, négative si elle est négative.</p>
+            <l>Donc, nul cheval n’est animal.</l> </quote><p>3. La conclusion doit s’accorder en quantité avec la mineure, en qualité avec la majeure. En effet, d’abord, la conclusion a pour sujet le petit terme, et le grand pour attribut. Mais comme leur relation entre eux est déterminée par leurs relations avec le moyen terme, et que celui-ci est comparé avec le grand terme dans la majeure, la mineure devant d’autre part être toujours positive, il s’ensuit nécessairement que la conclusion devra toujours être positive si la majeure est positive, négative si elle est négative.</p>
           <p>En outre, le petit terme, dans la mineure, est affirmé comme contenu dans le moyen terme. Or, dans la conclusion, le grand terme ne peut être attribué à un plus grand nombre d’individus que n’en contient le moyen terme. Donc, si l’une de ces propositions est particulière, l’autre devra l’être aussi ; universelle au contraire, si elle est universelle.</p>
           <p>Le syllogisme peut prendre différentes figures. Elles dépendent de la place qu’occupe le moyen terme dans les prémisses. Il peut être attribut dans la majeure et dans la mineure, sujet dans toutes les deux, attribut dans la première et sujet dans la seconde, et vice versa. On peut donc distinguer ainsi quatre figures de syllogismes.</p>
           <p>Le syllogisme type que nous avons indiqué est susceptible de changements qui l’abrègent ou le complètent. Les différentes formes qu’il peut revêtir ainsi sont ce qu’on nomme les différentes espèces de syllogisme.</p>
@@ -1306,16 +1286,12 @@
           <quote>
             <l>S’il y a un Dieu, il faut l’aimer ;</l>
             <l>Or, il y a un Dieu ;</l>
-            <l>Donc, il faut l’aimer.</l>
-          </quote>
-          <p>Dans ce syllogisme, la majeure se divise en deux parties : la première est l’antécédent, la deuxième le conséquent.</p>
+            <l>Donc, il faut l’aimer.</l> </quote><p>Dans ce syllogisme, la majeure se divise en deux parties : la première est l’antécédent, la deuxième le conséquent.</p>
           <p>Les syllogismes « disjonctifs » sont ceux où la prémisse proposition pose une alternative.</p>
           <quote>
             <l>Ceux qui ont tué César sont ou parricides ou défenseurs de la liberté ;</l>
             <l>Or, ils ne sont pas parricides ;</l>
-            <l>Donc, ils sont défenseurs de la liberté.</l>
-          </quote>
-          <p>Il faut dans ce cas que la division soit exacte et complète et que la première proposition énumère tous les cas possibles. Une disjonction est fausse quand on a omis un terme.</p>
+            <l>Donc, ils sont défenseurs de la liberté.</l> </quote><p>Il faut dans ce cas que la division soit exacte et complète et que la première proposition énumère tous les cas possibles. Une disjonction est fausse quand on a omis un terme.</p>
           <p/>
           <p>Le raisonnement peut encore revêtir d’autres formes, mais qui toutes peuvent se ramener au syllogisme.</p>
           <p>1. <hi rend="i">L’Enthymème</hi>, syllogisme dont une proposition est sous-entendue : <hi rend="i">Plus d’amour, partout plus de joie</hi>.</p>
@@ -1328,14 +1304,10 @@
             <l>Ce qui remue n’est pas gelé ;</l>
             <l>Ce qui n’est pas gelé est liquide ;</l>
             <l>Ce qui est liquide plie sous le faix ;</l>
-            <l>Donc cette rivière qui fait du bruit pliera sous le faix.</l>
-          </quote>
-          <p>5. Le <hi rend="i">Dilemme</hi> a pour majeure une disjonctive de deux membres et dans laquelle on conclut par rapport au tout ce qu’on avait déjà conclu par rapport à chaque partie de la disjonctive. Tel est le raisonnement que faisait un ministre anglais, pour exiger de l’argent des évêques :</p>
+            <l>Donc cette rivière qui fait du bruit pliera sous le faix.</l> </quote><p>5. Le <hi rend="i">Dilemme</hi> a pour majeure une disjonctive de deux membres et dans laquelle on conclut par rapport au tout ce qu’on avait déjà conclu par rapport à chaque partie de la disjonctive. Tel est le raisonnement que faisait un ministre anglais, pour exiger de l’argent des évêques :</p>
           <quote>
             <l>Si tu dépenses beaucoup, tu es riche ; tu dois payer ;</l>
-            <l>Si tu ne dépenses rien, c’est que tu fais des économies ; paye encore.</l>
-          </quote>
-          <p>Quelle est la valeur du syllogisme ? À l’époque de la scolastique, le syllogisme est l’instrument presque unique des philosophes. La Renaissance commence une réaction contre lui : Bacon et Descartes l’attaquent vivement. De nos jours, Stuart Mill a cherché lui aussi à diminuer la valeur du syllogisme. Il n’apprend rien, dit-il, puisqu’il n’y a rien de plus dans la conclusion que dans les prémisses ; tout syllogisme se réduit, en fin de compte, à une tautologie. <hi rend="i">L’induction</hi> a seule une valeur logique, car seule elle peut nous fournir les principes de la déduction : quand on affirme que <hi rend="i">tous les hommes sont mortels</hi>, on affirme virtuellement que <hi rend="i">Paul est mortel</hi>. Le syllogisme, qui ne sert qu’à dégager cette seconde proposition de la première, ne donne donc rien de nouveau.</p>
+            <l>Si tu ne dépenses rien, c’est que tu fais des économies ; paye encore.</l> </quote><p>Quelle est la valeur du syllogisme ? À l’époque de la scolastique, le syllogisme est l’instrument presque unique des philosophes. La Renaissance commence une réaction contre lui : Bacon et Descartes l’attaquent vivement. De nos jours, Stuart Mill a cherché lui aussi à diminuer la valeur du syllogisme. Il n’apprend rien, dit-il, puisqu’il n’y a rien de plus dans la conclusion que dans les prémisses ; tout syllogisme se réduit, en fin de compte, à une tautologie. <hi rend="i">L’induction</hi> a seule une valeur logique, car seule elle peut nous fournir les principes de la déduction : quand on affirme que <hi rend="i">tous les hommes sont mortels</hi>, on affirme virtuellement que <hi rend="i">Paul est mortel</hi>. Le syllogisme, qui ne sert qu’à dégager cette seconde proposition de la première, ne donne donc rien de nouveau.</p>
           <p>Toutefois, bien qu’il soit par lui-même tout formel et insuffisant, il est autre chose qu’une pétition de principe ou une tautologie. Sans doute la conclusion est dans les prémisses. Mais elle n’y est qu’en puissance ; il faut l’en dégager : c’est l’œuvre du syllogisme : il lie en moi deux idées qui auparavant n’étaient pas attachées ; en ce sens au moins, il fait donc connaître quelque chose de nouveau. D’ailleurs, son importance est suffisamment établie pour les sciences <hi rend="i">mathématiques</hi> : chacune d’elle est un immense prosyllogisme, et, à moins de nier leur utilité, et de prétendre qu’il n’y a rien de plus dans les formules les plus élevées auxquelles elles arrivent que dans les quelques définitions qui leur servent de base, il faut bien reconnaître l’utilité du raisonnement syllogistique.</p>
         </div>
         <div>
@@ -1360,9 +1332,7 @@
           <quote>
             <l>L’âne, le mulet, le cheval vivent longtemps ;</l>
             <l>Or, ce sont là tous les animaux sans fiel ;</l>
-            <l>Donc, tous les animaux sans fiel vivent longtemps.</l>
-          </quote>
-          <p><hi rend="i">On passe là d’un fait à une loi</hi> ; il semblerait donc que le raisonnement inductif put se ramener au syllogisme, qu’il n’y eut par le fait qu’un seul raisonnement ; le raisonnement déductif.</p>
+            <l>Donc, tous les animaux sans fiel vivent longtemps.</l> </quote><p><hi rend="i">On passe là d’un fait à une loi</hi> ; il semblerait donc que le raisonnement inductif put se ramener au syllogisme, qu’il n’y eut par le fait qu’un seul raisonnement ; le raisonnement déductif.</p>
           <p>Mais en étudiant le syllogisme d’Aristote, on remarque qu’il a un caractère bien particulier : <hi rend="i">le moyen terme et le petit terme y ont une égale extension</hi>. La mineure affirme que tous les individus chez qui se trouvent les caractères généralisés dans la conclusion ont été observés. Mais presque toujours, l’induction généralise sans avoir observé tous les individus. On a déterminé les lois de la pesanteur sans avoir pu les vérifier par l’observation de tous les corps pesants. Or, le syllogisme inductif d’Aristote n’est vrai que si tous les cas possibles ont été observés et sont énumérés dans la mineure, ce qui est pour ainsi dire impossible.</p>
           <p>L’induction ne peut donc pas se ramener à la déduction ; elle consiste à passer du particulier au général, ce qu’on ne saurait expliquer par le seul principe d’identité. Entre le particulier et le général, il y a un abîme ; l’induction le franchit ; mais au moyen de quel principe ?</p>
           <p>Suivant Reid et les Écossais, ce principe n’est autre chose qu’une <hi rend="i">croyance instinctive</hi> de l’esprit humain à la <hi rend="i">stabilité des lois de la nature</hi>. Voilà ce qui nous permet de généraliser le particulier. Si nous croyons que, en tout lieu et en tout temps, les corps pesants obéissent aux mêmes lois, c’est que nous croyons la nature immuable.</p>
@@ -1389,9 +1359,7 @@
             <quote>
               <l>Les faiseurs de projet ne méritent pas de confiance ;</l>
               <l>Or, cet homme a fait un projet ;</l>
-              <l>Donc, il ne mérite pas confiance.</l>
-            </quote>
-          </div>
+              <l>Donc, il ne mérite pas confiance.</l> </quote></div>
           <div>
             <head>Sophismes d’induction :</head>
             <p>1. <seg xml:lang="lat">Post hoc, ergo propter hoc</seg>. Prendre pour cause ce qui n’est qu’un antécédent. Ainsi prendre pour cause de la mort d’un grand personnage, un phénomène astronomique qui coïncidait avec elle.</p>

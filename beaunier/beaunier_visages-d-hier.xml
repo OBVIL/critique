@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -25,10 +25,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/beaunier_visages-d-hier/</idno>
-        <idno type="tei">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_visages-d-hier.xml</idno>
-        <idno type="html">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_visages-d-hier.html</idno>
-        <idno type="text">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_visages-d-hier.txt</idno>
-        <idno type="epub">http://obvil.sorbonne-universite.site/corpus/critique/beaunier_visages-d-hier.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
@@ -268,27 +264,21 @@
         <p>À notre littérature du moyen âge et de la renaissance, il emprunta — des légendes, oui, — mais surtout des mots et des tours de phrases. Et il écrivit : <quote>« Ce sont les grâces et mignardises de cet âge verdissant, lesquelles, rehaussées de la vigueur syntaxique du seizième siècle, nous constitueront, par l’ordre et la liaison inéluctable des choses, une langue digne de vêtir les plus nobles chimères de la pensée créatrice. »</quote> Tel fut le programme savant et industrieux de l’École romane.</p>
         <p>Moréas fut sensible savamment au subtil génie de Thibaut de Champagne, <quote>« le grand Thibaut, mon maître »</quote> ; et bientôt il devint, par la grâce un peu maniérée, l’insigne habileté, le frère de ces poètes, <quote>« honneur de la docte Provence, Jaufred que fine amour a point, et ce Guillaume Gabesteint qui aima Sorismonde »</quote>. Surtout, il s’apparente à Ronsard et à du Bellay. Son allégresse de promoteur enthousiaste et de rénovateur rappelle celle qu’il y a dans la <hi rend="i">Défense et illustration de la langue française</hi>. Comme du Bellay ses troupes, il encourage les siennes. Sur un ton martial, il anime ses lieutenants, Du Plessys, La Tailhède, rimeurs illustres. À Du Plessys, il indique les ennemis qu’il faut combattre, ces pédants qui vantent <quote>« la Minerve tudesque et l’Anglais de gravité l’hoir »</quote>. Mais Du Plessys, habile à mener les muses grecques vers les rives de la Seine et du Loir, au son de ses romanes chansons, ne craindra pas ces hostilités vaines et <quote>« saura mourir ainsi qu’il sait vivre »</quote>. À La Tailhède, il ne dissimule pas qu’il sied de lutter contre <quote>« le rustre, l’immonde ignorant »</quote>. Ils ne transigeront pas ; et ils continueront à cultiver, en dépit des uns et des autres, cet art qui est si bien appris</p>
         <quote>
-          <l>À couvrir de beauté la misère du monde !…</l>
-        </quote>
-        <p>Et Jean Moréas écrivit son chef-d’œuvre, ce petit poème qu’il a décerné à l’exquise <hi rend="i">Ériphyle</hi>, infortunée et menue créature qu’Énée rencontre aux enfers, non loin de Phèdre et de Procris. Pour une parure qu’on lui proposait, elle céda aux instances du jeune Polynice et elle dévoila, étourdiment, la cachette où Amphiaraüs, son mari, se dissimulait. Celui-ci dut aller combattre devant Thèbes ; et il fut tué. Le fils d’Amphiaraüs, pour venger son père, tua Ériphyle… Ce fantôme passe dans l’œuvre du « Mantouan fameux ». Il est, dans le poème de Moréas, délicieux, chargé de son antique tristesse et de sa grâce inaltérable.</p>
+          <l>À couvrir de beauté la misère du monde !…</l> </quote><p>Et Jean Moréas écrivit son chef-d’œuvre, ce petit poème qu’il a décerné à l’exquise <hi rend="i">Ériphyle</hi>, infortunée et menue créature qu’Énée rencontre aux enfers, non loin de Phèdre et de Procris. Pour une parure qu’on lui proposait, elle céda aux instances du jeune Polynice et elle dévoila, étourdiment, la cachette où Amphiaraüs, son mari, se dissimulait. Celui-ci dut aller combattre devant Thèbes ; et il fut tué. Le fils d’Amphiaraüs, pour venger son père, tua Ériphyle… Ce fantôme passe dans l’œuvre du « Mantouan fameux ». Il est, dans le poème de Moréas, délicieux, chargé de son antique tristesse et de sa grâce inaltérable.</p>
         <quote>
           <l>         Essence pareille au vent léger,</l>
           <l>                       J’erre</l>
           <l>         Depuis que la vie a quitté</l>
           <l>                       Mon corps.</l>
           <l>Mais, les souillures et les maux du corps,</l>
-          <l>             La mort ne les efface.</l>
-        </quote>
-        <p>Et elle se remémore son aventure. Ah ! ce n’est pas la ceinture dorée, qui l’a vaincue, mais Cypris. Et son époux, fils d’Oïclée, sans doute fut un héros…</p>
+          <l>             La mort ne les efface.</l> </quote><p>Et elle se remémore son aventure. Ah ! ce n’est pas la ceinture dorée, qui l’a vaincue, mais Cypris. Et son époux, fils d’Oïclée, sans doute fut un héros…</p>
         <quote>
           <l>Mais sa barbe était, à son menton,</l>
           <l>                       Chenue et dure.</l>
           <l>Et l’autre, quand il vint, il était</l>
           <l>             Dans sa jeunesse tendre !</l>
           <l>             Ô jeunesse, tes bras</l>
-          <l>Sont comme lierre autour des chênes !</l>
-        </quote>
-        <p>Avec un enfantillage émouvant, elle narre son amour ancien, la petite amoureuse défunte, dont frémit encore l’ombre au rappel des ivresses passées. De quelle pitié grave et charmée l’accompagne, à travers les ombrages souterrains, le poète qui, se faisant, après Virgile et Dante, évocateur des mânes, se trouble à la vue de cette petite Ériphyle et de ses compagnes <quote>« qui sont mortes d’aimer »</quote> ! Il s’est inspiré de Virgile et de Dante ; mais, moins austère que ses maîtres, plus compatissant, il laisse au puéril fantôme sa coquetterie et sa légèreté. Et le poème est admirable, à cause de la majesté de la mort, qui se joint à cette grâce fragile.</p>
+          <l>Sont comme lierre autour des chênes !</l> </quote><p>Avec un enfantillage émouvant, elle narre son amour ancien, la petite amoureuse défunte, dont frémit encore l’ombre au rappel des ivresses passées. De quelle pitié grave et charmée l’accompagne, à travers les ombrages souterrains, le poète qui, se faisant, après Virgile et Dante, évocateur des mânes, se trouble à la vue de cette petite Ériphyle et de ses compagnes <quote>« qui sont mortes d’aimer »</quote> ! Il s’est inspiré de Virgile et de Dante ; mais, moins austère que ses maîtres, plus compatissant, il laisse au puéril fantôme sa coquetterie et sa légèreté. Et le poème est admirable, à cause de la majesté de la mort, qui se joint à cette grâce fragile.</p>
         <p>Ainsi triompha merveilleusement l’art excellent de l’École romane.</p>
         <ab type="ornament">*
 <lb/>*    *</ab>
@@ -300,9 +290,7 @@
           <l>Tantôt semblable à l’onde et tantôt monstre ou tel</l>
           <l>L’infatigable feu, ce vieux pasteur étrange</l>
           <l>(Ainsi que nous l’apprend un ouvrage immortel)</l>
-          <l>Se muait. Comme lui, plus qu’à mon tour, je change</l>
-        </quote>
-        <p>En fait, ses changements ne sont pas une simple fantaisie, un jeu ; mais il suivait spontanément une sorte d’impérieuse logique, celle qui mène à la tradition négligée et splendide un sincère et un véritable novateur. Si, au temps de l’École romane, nous le voyons chercher curieusement la tradition la plus ancienne, un peu plus tard, poète des <hi rend="i">Stances</hi>, il va, en pleine conscience de ses volontés, à la tradition la plus complète, disons encore la plus parfaite. Le chemin qu’il a fait est le meilleur et le plus intelligent.</p>
+          <l>Se muait. Comme lui, plus qu’à mon tour, je change</l> </quote><p>En fait, ses changements ne sont pas une simple fantaisie, un jeu ; mais il suivait spontanément une sorte d’impérieuse logique, celle qui mène à la tradition négligée et splendide un sincère et un véritable novateur. Si, au temps de l’École romane, nous le voyons chercher curieusement la tradition la plus ancienne, un peu plus tard, poète des <hi rend="i">Stances</hi>, il va, en pleine conscience de ses volontés, à la tradition la plus complète, disons encore la plus parfaite. Le chemin qu’il a fait est le meilleur et le plus intelligent.</p>
         <p>On lui objectera que, de cette manière, il n’est pas beaucoup de son époque. Certes !… Mais aussi, la poésie n’était pas de son époque : et il l’a senti de telle sorte que, dans toute son œuvre, on n’aperçoit aucun effort d’actualité. Son œuvre est, bel et bien, réactionnaire, puisqu’il l’a dédiée et consacrée à la tradition française, en des jours où l’on méconnut, et voire détesta, cette tradition de nos lettres nationales.</p>
         <p>C’est un grand exemple et c’est une leçon profitable que vint nous donner ce nourrisson des muses helléniques. Il ne la donna pas tout de go et il ne réalisa pas tout de suite son idéal. Nous avons assisté à ses tentatives ; elles sont édifiantes : ses étapes sont justement celles par où passeront les plus loyaux et purs artistes d’un siècle qui n’est par celui de l’art le plus sain, le plus beau ni le plus fier, d’un siècle qui n’est pas celui de l’art.</p>
         <p>Les <hi rend="i">Stances</hi> sont graves et mélancoliques, hautaines, charmantes et comme voilées de deuil. Elles font une ample, solennelle et forte musique, pareille à celle du plain-chant, dépourvue des fades gentillesses auxquelles nos contemporains ont l’air de s’amuser davantage. Elles sont une plainte digne des muses qui ne sont plus jeunes, muses savantes, qui se réfugient dans leurs bosquets d’autrefois, loin des foules frivoles, et qui, sages, ayant à leur dam compris la vanité de chercher du nouveau parmi le tumulte des barbares, chantent selon le mode éprouvé, sur les lyres anciennes, le grand et l’immortel chagrin de leur exil.</p>
@@ -318,9 +306,7 @@
           <l>L’homme, pour subsister, en recueillant la cendre,</l>
           <l>                       Qu’il use ses genoux !</l>
           <l>Sans plus nous soucier et sans jamais descendre,</l>
-          <l>                       Évanouissons-nous !</l>
-        </quote>
-        <p>La légère fumée se dissipa dans la clarté d’un soleil digne de l’Attique lumineux.</p>
+          <l>                       Évanouissons-nous !</l> </quote><p>La légère fumée se dissipa dans la clarté d’un soleil digne de l’Attique lumineux.</p>
       </div>
       <div>
         <head>Albert Vandal</head>
@@ -591,9 +577,7 @@
         <p>Quand tu regardes avec des yeux émerveillés le champ de ton père, c’est probablement que tu y es revenu de très loin, après avoir beaucoup vagabondé dans la nature et dans le rêve.</p>
         <p>Mais alors, un paysage vaut un autre paysage. La magnificence ou la bizarrerie des sites n’est pas indispensable. Toute la beauté de la nature est dans le moindre village. Il suffit qu’on regarde, avec des yeux qui sachent s’étonner, les pudiques prairies se voiler, à l’aube, de nuées blanches et courir dans les bois le doux visage de la lune. Il suffit d’un arbre qui se mire sur l’eau ; il suffit des chaumières qui, le soir, s’endorment ; il suffit des labours qui boivent la pluie.</p>
         <quote>
-          <p>« Je ne peux pas me figurer, dit Nanette, que les bêtises de notre pays intéressent tes Parisiens ! »</p>
-        </quote>
-        <p>Nanette ne sait pas. La vieille Nanette, hélas ! est tout usée par l’habitude. Et, à nous aussi, l’habitude a gâté le regard. Il nous faut, pour voir naïvement, le secours de l’art le plus fin, le plus délicat. Et Jules Renard nous est un habile montreur des paysages familiers. Il les découvre : — il les découvre de ce voile que l’habitude quotidienne et séculaire y avait posé.</p>
+          <p>« Je ne peux pas me figurer, dit Nanette, que les bêtises de notre pays intéressent tes Parisiens ! »</p> </quote><p>Nanette ne sait pas. La vieille Nanette, hélas ! est tout usée par l’habitude. Et, à nous aussi, l’habitude a gâté le regard. Il nous faut, pour voir naïvement, le secours de l’art le plus fin, le plus délicat. Et Jules Renard nous est un habile montreur des paysages familiers. Il les découvre : — il les découvre de ce voile que l’habitude quotidienne et séculaire y avait posé.</p>
         <ab type="ornament">*
 <lb/>*    *</ab>
         <p>Jules Renard a été le parfait littérateur d’un temps où abondaient et les rhéteurs et les barbouilleurs de toutes sortes. Quand se prodiguent ainsi les primaires, un bon écrivain s’enferme avec plus d’assiduité dans l’amour de son art. Il s’y cantonne ; il s’y emprisonne. Têtu, il n’en sortira pas. On l’appellera pédant ; et il sera content de l’injure, il en sera fier.</p>
@@ -734,9 +718,7 @@
           <l>Si j’adorais, trop tôt poète,</l>
           <l>         Vos petits pieds,</l>
           <l>Trop tôt belle, vous me courbiez</l>
-          <l>              La tête.</l>
-        </quote>
-        <p>Mais il semblait bien étonné de ce qu’il lisait.</p>
+          <l>              La tête.</l> </quote><p>Mais il semblait bien étonné de ce qu’il lisait.</p>
         <p>Il parla de la science, avec une compétence plus assurée. Il fut modeste, pour elle, et assura que jamais elle ne porterait atteinte au mystère : <quote>« Si loin qu’elle pousse ses conquêtes, son domaine sera toujours limité. »</quote> Bonne réponse à des gens qui, entichés de leurs petites trouvailles, annoncent qu’il n’y a plus de mystère pour eux. Ils disent que la science est faite ; mais la science les a refaits.</p>
         <p>Quand on a réduit les mathématiques à leurs vraies possibilités, on ne se laisse pas imposer par les menues déclarations de quelques positivistes pressés.</p>
         <p>Qu’est-ce que la réalité ? — Une image ; et, cette image, <quote>« nous l’avons faite à la mesure de notre entendement »</quote>. Ainsi, la réalité n’est pas une brute ; et nous pouvons demeurer près d’elle.</p>
@@ -1230,9 +1212,7 @@
       <div>
         <head>Jules Lemaître</head>
         <quote>
-          <p>« Beaucoup de choses sont obscures, pour les hommes ; mais rien, pour eux, n’est plus obscur que leur propre esprit. »</p>
-        </quote>
-        <p>Cette mélancolique et judicieuse pensée, un homéride la formula voici deux mille cinq cents ans, à une époque qui nous semble être la jeunesse du monde et où il paraît que florissaient déjà la sagesse et l’expérience éprouvée des sceptiques. Cette parole excellente nous engage à éviter l’erreur où se laissent aller les psychologues trop confiants. Et l’on est sage, on est content de la citer d’abord, comme une excuse ou, au moins, comme une précaution, lorsqu’on va tracer le portrait de l’un des esprits les plus divers de ce temps.</p>
+          <p>« Beaucoup de choses sont obscures, pour les hommes ; mais rien, pour eux, n’est plus obscur que leur propre esprit. »</p> </quote><p>Cette mélancolique et judicieuse pensée, un homéride la formula voici deux mille cinq cents ans, à une époque qui nous semble être la jeunesse du monde et où il paraît que florissaient déjà la sagesse et l’expérience éprouvée des sceptiques. Cette parole excellente nous engage à éviter l’erreur où se laissent aller les psychologues trop confiants. Et l’on est sage, on est content de la citer d’abord, comme une excuse ou, au moins, comme une précaution, lorsqu’on va tracer le portrait de l’un des esprits les plus divers de ce temps.</p>
         <p>L’âme d’un autre, et qui a participé à la vie actuelle, si multiple et absurde, et fût-ce la plus simple des âmes que nous ayons entrevues, est difficile à résumer. Mais un Jules Lemaître ! Un Jules Lemaître, poète, critique, auteur dramatique, essayiste, romancier, journaliste, un Jules Lemaître qu’on a pris pour un sceptique, et voire pour un humoriste, et qui soudain se mêle avec ardeur à la plus violente politique de son époque, un Jules Lemaître qu’ont ému toutes les littératures et toutes les idéologies, comment l’attraper et comment fixer sa ressemblance ? Parmi ses physionomies nombreuses, comment choisir, et laquelle ?</p>
         <p>En fin de compte, s’il nous échappe, nous invoquerons la tutélaire objection du vieil homéride.</p>
         <ab type="ornament">*
@@ -1256,9 +1236,7 @@
         <p>C’est le caractère qu’on trouve d’abord à l’œuvre de Jules Lemaître. Avec tout l’art possible, avec une délicate ingéniosité, il ne cherche qu’à rendre sa pensée de la façon la plus analogue à cette pensée même. Les phrases, les jolies phrases qu’il fait, ne sont pas un ornement, une parure vaine pour l’idée ; souples, elles suivent tous les contours de l’idée, elles l’accompagnent, elles y adhèrent et elles n’ont pas d’autre office que de la révéler…</p>
         <quote>
           <l>Que je t’aime dans cette robe</l>
-          <l>Qui te déshabille si bien !…</l>
-        </quote>
-        <p>Quand il a trouvé, quand il a justement agencé les mots qui parlent ou chantent selon la voix même et le rythme de sa pensée, il est content.</p>
+          <l>Qui te déshabille si bien !…</l> </quote><p>Quand il a trouvé, quand il a justement agencé les mots qui parlent ou chantent selon la voix même et le rythme de sa pensée, il est content.</p>
         <p>Il veut que son art, à son exemple, soit naturel. Peut-être ne déteste-t-il vraiment que les sentiments guindés et les propos menteurs. Pour les formes diverses que prend la sincérité des hommes et des femmes, il a ou de la tendresse ou de l’indulgence.</p>
         <ab type="ornament">*
 <lb/>*    *</ab>

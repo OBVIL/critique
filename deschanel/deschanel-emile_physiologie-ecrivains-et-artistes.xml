@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xml:id="deschanel_physiologie" xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -24,9 +24,9 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <idno>http://obvil.sorbonne-universite.site/corpus/critique/deschanel-emile_physiologie-ecrivains-et-artistes/</idno>
+       <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
+         <idno>http://obvil.sorbonne-universite.site/corpus/critique/deschanel-emile_physiologie-ecrivains-et-artistes/</idno>
         <date when="2013"/>
-        <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2013 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -48,9 +48,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Émile Deschanel</author>, <title>Physiologie des écrivains et des artistes ou
-            Essai de critique naturelle</title>. Paris : Librairie de L. Hachette et Cie, 1864. sur
-          Gallica. </bibl>
+        <bibl><author>Émile Deschanel</author>, <title>Physiologie des écrivains et des artistes ou Essai de critique naturelle</title>, <pubPlace>Paris</pubPlace>, Librairie de L. <publisher>Hachette</publisher> et Cie, <date>1864</date>. PDF : <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k76423m">Gallica</ref>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -65,7 +63,7 @@
   <text>
     <body>
       <div>
-                <head>Première partie</head>
+        <head>Première partie</head>
         <div>
           <head>L’âme et le corps</head>
           <p><hi rend="i">Ame</hi> et <hi rend="i">Corps</hi> : — on ne sait ce que ces mots veulent
@@ -226,7 +224,7 @@
             antipathique à tous.</p>
         </div>
         <div>
-                    <head>Le siècle</head>
+          <head>Le siècle</head>
           <p>Nous disons donc qu’il est facile, dans une œuvre de cette sorte, de reconnaître,
             premièrement, le siècle de l’auteur.</p>
           <p>« Chaque siècle, dit Fontenelle, a son tour d’esprit. »</p>
@@ -404,7 +402,7 @@
             parfois comme les ouvriers des Gobelins, qui font leurs tapisseries à l’envers.</p>
         </div>
         <div>
-                    <head>Le climat</head>
+          <head>Le climat</head>
           <p>Si, la plupart du temps, il ne faut qu’une page, ou moins encore, pour reconnaître à
             quelle époque appartient un écrit, parfois il n’en faudra pas beaucoup plus pour dire
             également sous quel <hi rend="i">climat</hi>, dans quel pays, telle œuvre de style s’est
@@ -487,9 +485,7 @@
             l’homme prend toujours quelque chose du milieu dans lequel il vit. Boileau lui-même le
             reconnaît :</p>
           <quote>
-            <p>Les climats font souvent les diverses humeurs.</p>
-          </quote>
-          <p>Est-il donc étonnant que ces humeurs diverses se manifestent jusque dans les ouvrages
+            <p>Les climats font souvent les diverses humeurs.</p> </quote><p>Est-il donc étonnant que ces humeurs diverses se manifestent jusque dans les ouvrages
             de l’esprit ? « Qui ne sait, dit M. de Sacy, que les teintes du climat se reflètent, en
             quelque sorte, dans les monuments de la littérature ? »</p>
           <p>La même observation que nous avons faite tout à l’heure à propos du siècle, doit se
@@ -501,17 +497,13 @@
             tourmente le soleil. Et c’est Virgile en effet qui s’écrie :</p>
           <quote>
             <l>… O qui me gelidis in vallibus Haemi</l>
-            <l>Sistat, et ingenti ramorum protegat umbra ?</l>
-          </quote>
-          <p>Un tel souhait fait frissonner les gens du Nord. Eux, dans leurs poésies, ne rêvent que
+            <l>Sistat, et ingenti ramorum protegat umbra ?</l> </quote><p>Un tel souhait fait frissonner les gens du Nord. Eux, dans leurs poésies, ne rêvent que
             soleil, et chantent avec Victor Hugo :</p>
           <quote>
             <l>Quand vient l’été, le pauvre adore !</l>
             <l>L’été, c’est la saison de feu ;</l>
             <l>C’est l’air pur et la tiède aurore :</l>
-            <l>L’été, c’est le regard de Dieu !</l>
-          </quote>
-          <p>On rêve toujours ce que l’on n’a pas. Notre idéal est toujours loin de nous.</p>
+            <l>L’été, c’est le regard de Dieu !</l> </quote><p>On rêve toujours ce que l’on n’a pas. Notre idéal est toujours loin de nous.</p>
           <p>Idéal de beauté, idéal de laideur, n’importe ! Dans les croyances des nègres, le
             diable, dit-on, est un blanc. — Et cela, par la même raison que, dans les croyances des
             blancs, — des blancs qui croient au diable, — le diable est un noir.</p>
@@ -550,7 +542,7 @@
                 rend="i">Appendice</hi> à la fin du volume.</note>. »</p>
         </div>
         <div>
-                  <head>Le sol, la race</head>
+          <head>Le sol, la race</head>
           <p>Avec le climat, avons-nous dit, on voit se réfléchir, dans la littérature et dans les
             arts, le sol, la race, et le caractère de la nation,</p>
           <p>Les esprits du Nord ont plus de vigueur ; ceux du Midi ont plus de grâce. Ceux-ci ont
@@ -917,7 +909,7 @@
           <p>Mais c’est assez parler de l’influence du climat, du sol, et de la race.</p>
         </div>
         <div>
-                    <head>Le sexe</head>
+          <head>Le sexe</head>
           <p>Nous avons avancé que le <hi rend="i">sexe</hi> lui-même se reconnaît parfois dans le
             style.</p>
           <p>Marivaux disait : « Le style a un sexe, et l’on reconnaîtrait les femmes à une
@@ -1051,9 +1043,7 @@
             vie du poète. Tout est retombé dans la nuit ; mais il reste un reflet, une auréole, — et
             l’aube</p>
           <quote>
-            <p>Semble toute la nuit errer au bas du ciel.</p>
-          </quote>
-          <p>On a dit avec esprit que, comme chacun des livres de l’histoire d’Hérodote est désigné
+            <p>Semble toute la nuit errer au bas du ciel.</p> </quote><p>On a dit avec esprit que, comme chacun des livres de l’histoire d’Hérodote est désigné
             par le nom d’une des neuf muses, de même La Rochefoucauld aurait pu désigner chacune des
             périodes de sa vie par le nom de la femme qui en avait décidé où qui y avait présidé ;
             premièrement Mme de Chevreuse, ensuite Mme de Longueville, un peu plus tard Mme de
@@ -1177,9 +1167,7 @@
               couché et endormi, et voici les clefs. Je vais trouver le roi et lui notifier que je
               vous ai ainsi remis mes fonctions.</p>
             <label type="speaker"><name>Le premier assassin</name>. </label>
-            <p>Vous le pouvez, Monsieur ; c’est un acte sage. Portez-vous bien.</p>
-          </quote>
-          <p>Brakenbury sort. Au moment où les assassins vont frapper Clarence, il se réveille ; un
+            <p>Vous le pouvez, Monsieur ; c’est un acte sage. Portez-vous bien.</p> </quote><p>Brakenbury sort. Au moment où les assassins vont frapper Clarence, il se réveille ; un
             dialogue s’engage, et, après quelque hésitation, les assassins avouent pourquoi ils sont
             venus et se disposent à en finir. Clarence proteste, et sa protestation est encore bien
             anglaise : « Quel est mon crime ? Où est la preuve qui m’accuse ? Quel jury légal a
@@ -1207,9 +1195,7 @@
             <p>Je vous le rachète.</p>
             <label type="speaker"><name>Lartius</name>. </label>
             <p>Moi, je ne veux ni le vendre ni le donner ; mais je vous le prête… pour cinquante
-              ans.</p>
-          </quote>
-          <p>Ainsi devisent ces <hi rend="i">gentlemen</hi> de Rome. Souvent ils se donnent du <hi
+              ans.</p> </quote><p>Ainsi devisent ces <hi rend="i">gentlemen</hi> de Rome. Souvent ils se donnent du <hi
               rend="i">Cher Monsieur</hi>. Les Volsques de même : <hi rend="i">Dear Sir !</hi>
             Coriolan jure <hi rend="i">Sang-Dieu !</hi> comme s’il disait : <hi rend="i">Sang du
               Christ !</hi> Et les Volsques disent de lui : « C’est le démon ! »</p>
@@ -1266,7 +1252,7 @@
             public.</p>
         </div>
         <div>
-                    <head>L’âge</head>
+          <head>L’âge</head>
           <p>Outre le sexe, nous avons prétendu que <hi rend="i">l’âge</hi> de l’auteur, du moins la
             saison de sa vie, se marquait ordinairement dans son ouvrage.</p>
           <p>Les quatre saisons ou les quatre âges de la vie humaine ont été décrits tour à tour par
@@ -1318,9 +1304,7 @@
             serait-il pas plus agréable de récolter des revenus que des querelles et des injures ?
             On regarde du côté des grands et des princes,</p>
           <quote>
-            <p>Quaerit opes et amicitias, inservit honori ;</p>
-          </quote>
-          <p>on cherche les honneurs et les honoraires, au lieu de ne songer qu’à l’honneur, comme
+            <p>Quaerit opes et amicitias, inservit honori ;</p> </quote><p>on cherche les honneurs et les honoraires, au lieu de ne songer qu’à l’honneur, comme
             on avait fait jusque-là. On était Alceste, on devient Philinte. On disait :</p>
           <p>Je suis rustique et fier, et j’ai l’âme grossière !</p>
           <p>on oublie ce beau vers, on devient courtisan. — Bref, on n’écrit plus que deux ou trois
@@ -1331,9 +1315,7 @@
             avait qualifié durement celui-ci :</p>
           <quote>
             <p>Quoi donc ? A votre avis, est-ce un fou qu’Alexandre ? —</p>
-            <p>Qui ? cet écervelé qui mit l’Asie en cendre !</p>
-          </quote>
-          <p>On amène encore l’éloge du roi dans le <hi rend="i">Lutrin</hi>, et on le place
+            <p>Qui ? cet écervelé qui mit l’Asie en cendre !</p> </quote><p>On amène encore l’éloge du roi dans le <hi rend="i">Lutrin</hi>, et on le place
             flatteusement dans la bouche d’un personnage fictif, inventé tout exprès, la Mollesse,
             qui se plaint de l’activité de Louis et regrette le temps des rois fainéants. On cherche
             et l’on trouve une occasion de lire ce morceau à Mme de Thianges, sœur de la favorite,
@@ -1342,11 +1324,10 @@
             chants du <hi rend="i">Lutrin</hi> et la première <hi rend="i">Epître</hi>.</p>
           <p>C’est là que le poète, après avoir fait mine encore de blâmer doucement l’amour des
             conquêtes, vante les bienfaits de la paix, et finit par offrir sa plume et demander une
-            pension… Ah ! je reconnais l’âge mûr ! <anchor xml:id="bookmark11"/></p>
-          <p>A la vérité, dès l’âge de vingt-quatre ans et dans<anchor xml:id="bookmark12"/> sa
-            première <hi rend="i">Satire</hi>, il avait déjà glissé quelques vers<anchor
-              xml:id="bookmark13"/> sur les gratifications du roi aux poètes ; mais, dans<anchor
-              xml:id="bookmark14"/> la première <hi rend="i">Epître</hi>, c’est bien autre chose !
+            pension… Ah ! je reconnais l’âge mûr !</p>
+          <p>A la vérité, dès l’âge de vingt-quatre ans et dans sa première <hi rend="i"
+            >Satire</hi>, il avait déjà glissé quelques vers sur les gratifications du roi aux
+            poètes ; mais, dans la première <hi rend="i">Epître</hi>, c’est bien autre chose !
             Écoutez et jugez :</p>
           <quote>
             <l>C’est par toi qu’on va voir les Muses enrichies,</l>
@@ -1382,9 +1363,7 @@
             <l>Boileau qui, dans ses vers pleins de sincérité,</l>
             <l>Jadis à tout son siècle a dit la vérité,</l>
             <l>Qui mit à tout blâmer son étude et sa gloire,</l>
-            <l>A pourtant de ce roi parlé comme l’histoire !</l>
-          </quote>
-          <p>Afin qu’il en parle encore mieux <hi rend="i">comme l’histoire</hi>, ou l’histoire
+            <l>A pourtant de ce roi parlé comme l’histoire !</l> </quote><p>Afin qu’il en parle encore mieux <hi rend="i">comme l’histoire</hi>, ou l’histoire
             comme lui, le roi le charge de foire l’histoire elle-même, et le nomme son
             historiographe. Il <hi rend="i">ouvre ses trésors</hi> à cette muse solliciteuse,
             c’est-à-dire qu’il la fait inscrire sur la feuille des bénéfices.</p>
@@ -1393,9 +1372,7 @@
             plaisamment :</p>
           <quote>
             <l>Satirique flatteur ! toi qui pris tant de peine</l>
-            <l>Pour chanter que Louis n’a point passé le Rhin !</l>
-          </quote>
-          <p>Il est curieux, alors, d’observer notre poète moraliste, muni de ses bonnes grosses
+            <l>Pour chanter que Louis n’a point passé le Rhin !</l> </quote><p>Il est curieux, alors, d’observer notre poète moraliste, muni de ses bonnes grosses
             maximes philosophiques traduites de l’Antiquité, essayant de les accommoder avec ses
             progrès à la cour et avec ses obligations de poète courtisan et d’historiographe. Par
             exemple, dans la cinquième <hi rend="i">Épître</hi>, il développe cette idée, fort
@@ -1421,9 +1398,7 @@
             <l>L’âge viril, plus mûr, inspire un air plus sage ;</l>
             <l>Se pousse auprès des grands, s’intrigue, se ménage ;</l>
             <l>Contre les coups du sort songe à se maintenir,</l>
-            <l>Et loin dans le présent regarde l’avenir.</l>
-          </quote>
-          <p>On raconte que Louis XIV invitait Boileau à lui lire ses vers, à mesure qu’il les
+            <l>Et loin dans le présent regarde l’avenir.</l> </quote><p>On raconte que Louis XIV invitait Boileau à lui lire ses vers, à mesure qu’il les
             composait. Lorsque le poète vint à ce passage, le roi le lui fit répéter. Était-ce une
             malice du grand roi ?</p>
           <p>Cela dit, n’exagérons rien, et n’allons pas flatter la morale elle-même au préjudice de
@@ -1524,9 +1499,7 @@
             <l>Il est vrai que du ciel la prudence infinie</l>
             <l>Départ à chaque peuple un différent génie ;</l>
             <l>Mais il n’est pas moins vrai que cet ordre des cieux</l>
-            <l>Change selon les temps comme selon les lieux.</l>
-          </quote>
-          <p>Oui, ce que nous avons observé de chaque saison de la vie humaine peut se remarquer
+            <l>Change selon les temps comme selon les lieux.</l> </quote><p>Oui, ce que nous avons observé de chaque saison de la vie humaine peut se remarquer
             aussi, ou à peu près, de chaque saison de la vie d’un peuple. La poésie étant la langue
             de la jeunesse, tous les peuples parlent d’abord en vers ; partout les chants et les
             poèmes précèdent la prose, qui ne peut naître qu’avec l’esprit d’analyse, de réflexion
@@ -1550,7 +1523,7 @@
             choisi pour réveiller un public fatigué.</p>
         </div>
         <div>
-                    <head>Le tempérament</head>
+          <head>Le tempérament</head>
           <p>Outre le siècle, le climat, le pays, la race, le sexe même et l’âge de l’écrivain ou de
             l’artiste, l’œuvre nous révèle encore et surtout sa <hi rend="i">complexion</hi>, son
               <hi rend="i">tempérament</hi>. Elle en est l’expression directe. — C’est ici le cœur
@@ -1658,9 +1631,7 @@
                 il fait lui-même</hi>, pour le bien du monde ; et il leur fait voir, en la retirant,
                 <hi rend="i">que toute leur majesté est empruntée</hi>, et que, <hi rend="i">pour
                 être</hi> assis sur le trône, ils n’en sont pas moins <hi rend="i">sous sa main</hi>
-              et sous son autorité suprême. »</p>
-          </quote>
-          <p>Par conséquent, sous notre autorité aussi, et sous notre main, à nous, évêques, qui
+              et sous son autorité suprême. »</p> </quote><p>Par conséquent, sous notre autorité aussi, et sous notre main, à nous, évêques, qui
             sommes ses ministres et ses interprètes ; ne l’oubliez pas, Monseigneur ! ni vous tous,
             grands, qui m’écoutez !</p>
           <p>Voilà évidemment ce qu’ajoutaient le ton, la physionomie et le geste de l’orateur.
@@ -1781,9 +1752,7 @@
             pourrions hasarder de dire, pour résumer Bossuet et Pascal :</p>
           <quote>
             <p>Bossuet est un orateur et un politique dans un théologien nervoso-sanguin. ‌</p>
-            <p>Pascal est un poète lyrique en prose dans un géomètre nervoso-bilieux.‌</p>
-          </quote>
-          <p>Autres exemples :</p>
+            <p>Pascal est un poète lyrique en prose dans un géomètre nervoso-bilieux.‌</p> </quote><p>Autres exemples :</p>
           <p>Qu’est-ce que La Rochefoucauld ? Nous le voyons dans ses <hi rend="i">Maxime</hi>, nous
             n’aurions pas besoin de lire ses <hi rend="i">Mémoires</hi>, ni tous ceux de ses
             contemporains. C’est un autre nervoso-bilieux, malade, dégoûté, fatigué, revenu de ses
@@ -1915,9 +1884,7 @@
             vieillesse :</p>
           <quote>
             <l>Un petit Français très étique,</l>
-            <l>Tel que je suis, sans me louer.</l>
-          </quote>
-          <p>Qu’est-ce que Lamennais, disciple de Rousseau ? Un nervoso-bilieux, comme son maître. —
+            <l>Tel que je suis, sans me louer.</l> </quote><p>Qu’est-ce que Lamennais, disciple de Rousseau ? Un nervoso-bilieux, comme son maître. —
             De plus, Breton, comme Chateaubriand, — autre élément déjà noté.</p>
           <p>Il arrive quelquefois qu’un accident modifie le tempérament. Je ne veux ni abuser ni
             même user de l’anecdote que raconte Helvétius sur la mésaventure du petit Despréaux,
@@ -1974,7 +1941,7 @@
               rend="i">des Airs, des Eaux et des Lieux</hi>, s’étend beaucoup sur ce sujet.</p>
         </div>
         <div>
-                    <head>Le caractère</head>
+          <head>Le caractère</head>
           <p>Si, comme je crois l’avoir indiqué suffisamment, on peut, dans le style d’un écrivain
             véritable, reconnaître sa complexion et son tempérament, à plus forte raison y
             verra-t-on son caractère, qui tient de fort près à l’une et à l’autre, s’il n’en est pas
@@ -2052,9 +2019,7 @@
             <l>Pensez-y, belle Marquise :</l>
             <l>Quoiqu’un grison fasse effroi,</l>
             <l>Il vaut bien qu’on le courtise</l>
-            <l>Quand il est fait comme moi.</l>
-          </quote>
-          <p>Le sujet est léger, le rythme court ; mais on y retrouve la fierté de l’homme, et aussi
+            <l>Quand il est fait comme moi.</l> </quote><p>Le sujet est léger, le rythme court ; mais on y retrouve la fierté de l’homme, et aussi
             l’ampleur du tragique.</p>
           <p>Oui, c’est bien là le vieux Corneille, dit M. Sainte-Beuve, « le vieux Corneille un peu
             amoureux, mais encore plus glorieux et grondeur… Que dites-vous de ce ton ? Comme il est
@@ -2062,7 +2027,7 @@
             autrement. »</p>
         </div>
         <div>
-                    <head>La profession</head>
+          <head>La profession</head>
           <p>Ce n’est pas seulement le caractère de l’homme qu’on peut reconnaître dans le style,
             c’est l’état même et la profession : car celui qui écrit n’est pas toujours uniquement
             homme de lettres.</p>
@@ -2083,9 +2048,7 @@
             pure et douce… »</p>
           <quote>
             <l>Largior hic campos aether et lumine vestit</l>
-            <l>Purpureo…</l>
-          </quote>
-          <p>Mais, d’autre part, voici que les rayons chrétiens vont se mêler à cette lumière
+            <l>Purpureo…</l> </quote><p>Mais, d’autre part, voici que les rayons chrétiens vont se mêler à cette lumière
             élyséenne, et cela en continuant l’image même empruntée à Virgile : « Une lumière pure
             et douce se répand autour des corps de ces hommes <hi rend="i">justes</hi>, et les
             environne de ses rayons comme d’un vêtement. Cette lumière n’est point semblable à la
@@ -2357,9 +2320,7 @@
             <p>Très-bien dit. Mais peux-tu me marquer précisément ce temps où tu as cru ne pas
               savoir ce que c’est que le juste et l’injuste ? Voyons, était-ce l’année passée que tu
               le cherchais, croyant l’ignorer ? ou croyais-tu le savoir ? Réponds exactement, afin
-              que notre conversation ne soit pas vaine…</p>
-          </quote>
-          <p>Et un peu plus loin dans le même dialogue :</p>
+              que notre conversation ne soit pas vaine…</p> </quote><p>Et un peu plus loin dans le même dialogue :</p>
           <quote>
             <label type="speaker"><name>Socrate</name>. </label>
             <p>Réponds seulement à mes questions.</p>
@@ -2376,9 +2337,7 @@
             <p>Il me semble.</p>
             <label type="speaker"><name>Socrate</name>. </label>
             <p>Réponds-moi donc alors, et, si tu n’apprends pas de toi-même que le juste est
-              toujours utile, ne le crois jamais sur la foi d’un autre…</p>
-          </quote>
-          <p>Voyez-vous l’accoucheur à l’œuvre ! et comme il fait sortir le fruit ! <hi rend="i"
+              toujours utile, ne le crois jamais sur la foi d’un autre…</p> </quote><p>Voyez-vous l’accoucheur à l’œuvre ! et comme il fait sortir le fruit ! <hi rend="i"
               >fructum ventris tui !</hi></p>
           <p>D’autre part, fils du statuaire Sophronisque, ah ! comme il sait sculpter les beaux
             discours, et la fine dialectique, et les hautes idées morales ! Il avait commencé par
@@ -2407,7 +2366,7 @@
             moins sommairement : <hi rend="i">l’hérédité physique et morale.</hi></p>
         </div>
         <div>
-                    <head>L’hérédité physique et morale</head>
+          <head>L’hérédité physique et morale</head>
           <p>Dès avant notre naissance, on pourrait même dire dès avant celle de notre père et de
             notre mère (et jusqu’où ne faudrait-il pas remonter ?), les destinées de chacun de nous
             subissent des influences multiples qui les font incliner dans tel ou tel sens, Ce que
@@ -2447,9 +2406,7 @@
                 pensait de même. Voir sa <hi rend="i">Correspondance</hi>, publiée en 1860, vol. I,
                 p. 196.</note>. Je n’ose guère me mettre dans ce rang ; mais je puis bien dire que
               les aimables encouragements de ma mère ont eu une grande part aux développements de
-              mon enfance et de mon adolescence. »</p>
-          </quote>
-          <p>Avant notre naissance même, dis-je, pendant la période de la vie utérine, l’embryon,
+              mon enfance et de mon adolescence. »</p> </quote><p>Avant notre naissance même, dis-je, pendant la période de la vie utérine, l’embryon,
             qui sera nous, se forme et s’organise sous l’influence de mille causes, qui déposent en
             lui le germe obscur des maux ou des biens à venir. De là, selon les circonstances
             futures, pourront éclore les talents ou les maladies. Car le plus ou le moins décide des
@@ -2536,7 +2493,7 @@
             gauloise. »</p>
         </div>
         <div>
-                    <head>La santé</head>
+          <head>La santé</head>
           <p>L’état de santé de l’auteur, état qui est presque toujours héréditaire, se marque
             ordinairement dans son ouvrage.</p>
           <p>Ce point a été touché en passant, lorsqu’à propos de la complexion nous avons parlé de
@@ -2638,14 +2595,10 @@
             s’en tenir là-dessus. Sa poésie était bien différente, selon qu’il avait plus ou moins
             fêté Bacchus. Boileau même en fait la remarque :</p>
           <quote>
-            <l>Horace a bu son soûl quand il voit les Ménades,</l>
-          </quote>
-          <p>et du reste Boileau, dans ce vers, ne fait que traduire Juvénal :</p>
+            <l>Horace a bu son soûl quand il voit les Ménades,</l> </quote><p>et du reste Boileau, dans ce vers, ne fait que traduire Juvénal :</p>
           <quote>
             <l>[…]</l>
-            <l>Satur est quum dicit Horatius : Evoe !</l>
-          </quote>
-          <p>Un peu plus ou un peu moins de santé, un peu plus ou un peu moins de chaleur dans le
+            <l>Satur est quum dicit Horatius : Evoe !</l> </quote><p>Un peu plus ou un peu moins de santé, un peu plus ou un peu moins de chaleur dans le
             sang, change singulièrement les choses. « La disposition des organes fait tout, dit
             Voltaire ; la manière dont on digère décide presque toujours de notre manière de penser…
             On a une fluxion sur l’âme comme sur les dents. »</p>
@@ -2706,9 +2659,7 @@
             <l>C’est qu’à son insu même il est une des âmes</l>
             <l>Que l’Orient lointain teignait de vagues flammes ;</l>
             <l>C’est qu’il est un des cœurs que déjà, sous les cieux,</l>
-            <l>Dorait le jour naissant du Christ mystérieux.</l>
-          </quote>
-          <p>M. Renan, dans sa <hi rend="i">Vie de Jésus</hi>, que tout le monde lit en ce moment
+            <l>Dorait le jour naissant du Christ mystérieux.</l> </quote><p>M. Renan, dans sa <hi rend="i">Vie de Jésus</hi>, que tout le monde lit en ce moment
             avec un intérêt si passionné, n’a eu garde d’oublier ce doux Virgile, qui seul, parmi ce
             monde romain si dur, semble un des précurseurs de l’Évangile, « Le monde, dit-il,
             distrait par d’autres spectacles, n’a nulle connaissance de ce qui se passe en ce coin
@@ -2725,7 +2676,7 @@
             fait la force, demande des nerfs trop raides pour pouvoir penser. »</p>
         </div>
         <div>
-                    <head>Le livre du docteur Moreau</head>
+          <head>Le livre du docteur Moreau</head>
           <p>Exagérant et généralisant outre mesure cette idée de Boerhaave, le spirituel docteur J.
             Moreau, de Tours, médecin à l’hospice de Bicêtre, publia, en 1859, un livre très
             paradoxal, mais très curieux, dans lequel il essayait de démontrer que le génie est une
@@ -2789,9 +2740,7 @@
             <l>On les persécute, on les tue ;</l>
             <l>Sauf, après un lent examen,</l>
             <l>A leur dresser une statue,</l>
-            <l>Pour la gloire du genre humain !</l>
-          </quote>
-          <p>Le docteur Moreau ne manque pas de prendre au pied de la lettre cette dénomination
+            <l>Pour la gloire du genre humain !</l> </quote><p>Le docteur Moreau ne manque pas de prendre au pied de la lettre cette dénomination
             ironique, et de considérer le génie comme une simple variété de la folie. Selon lui,
             l’homme médiocre seul se trouve dans les conditions normales qui assurent la santé ;
             seul il peut réaliser l’axiome : <hi rend="i">Mens sana in corpore sano</hi>. Mais
@@ -2972,7 +2921,7 @@
             moitié de la moitié.</p>
         </div>
         <div>
-                    <head>L’état mixte</head>
+          <head>L’état mixte</head>
           <p>Pour nous, sans nous attacher exclusivement au point de vue pathologique, nous étudions
             en général la physiologie de la pensée, et nous ne perdons pas de vue pour cela les
             explications psychologiques et morales. Nous disons simplement ceci ; Si l’on veut
@@ -3148,7 +3097,7 @@
             joignent, c’est un régal. Après cela, on peut en prendre et en laisser.</p>
         </div>
         <div>
-                    <head>Le régime, les habitudes</head>
+          <head>Le régime, les habitudes</head>
           <p>La santé, qui dépend foncièrement de la complexion héréditaire, peut toutefois se
             modifier selon le régime que l’on suit. Comment donc <hi rend="i">le régime</hi>
             n’aurait-il pas aussi son influence sur les œuvres de l’écrivain ou de l’artiste ?</p>
@@ -3653,7 +3602,7 @@
             conséquent, la physiologie pourrait-elle être séparée de la critique ?</p>
         </div>
         <div>
-                    <head>Récapitulation et suite</head>
+          <head>Récapitulation et suite</head>
           <p>Pour récapituler ce que nous avons dit jusqu’à présent, je crois, par cette série de
             détails et d’exemples, avoir suffisamment fait voir ce que j’avais avancé : comme quoi,
             dans une page et quelquefois moins, mais en général dans le style et dans la manière
@@ -3808,7 +3757,7 @@
         </div>
       </div>
       <div>
-                <head>Deuxième partie</head>
+        <head>Deuxième partie</head>
         <div>
           <head>La musique</head>
           <p>Kant appelle la musique « un beau jeu de sensations. » Cette définition de l’illustre
@@ -4215,9 +4164,7 @@
               donner, à Bonn ; mais la mode l’a rendu si hors de mode<note n="40" resp="author"
                 >Cette répétition volontaire existe dans la phrase allemande.</note> que je ne puis
               plus en rien faire, que de le conserver dans une armoire à habits, comme un objet qui
-              m’est très cher parce qu’il vient de vous… »</p>
-          </quote>
-          <p>Par une autre lettre adressée à la même, nous voyons qu’au lieu de lui envoyer un
+              m’est très cher parce qu’il vient de vous… »</p> </quote><p>Par une autre lettre adressée à la même, nous voyons qu’au lieu de lui envoyer un
             second gilet de poil de lapin (comment trouvez-vous ces petits cadeaux germaniques, à la
             Charlotte ? cela vaut bien le jupon de flanelle anglaise de Mme d’Épinay à
             Jean-Jacques), Éléonore envoya à Beethoven une belle cravate. Il l’en remercie en ces
@@ -4520,7 +4467,7 @@
             je ferai voir rapidement.</p>
         </div>
         <div>
-                    <head>La peinture</head>
+          <head>La peinture</head>
           <p>Selon Voltaire, « il n’en est pas de la peinture comme de la musique et de la poésie :
             une nation peut avoir un chant qui ne plaise qu’à elle, parce que le génie de sa langue
             n’en admettra pas d’autre ; mais les peintres doivent représenter la nature, qui est la
@@ -4842,9 +4789,7 @@
             se jouant paresseusement comme dans les jardins des harems.</p>
           <quote>
             <l>Le soleil et les bois, dans ces bocages sombres,</l>
-            <l>Des feuilles sur leurs fronts faisaient flotter les ombres.</l>
-          </quote>
-          <p>Il a saisi au vol ces reflets ondoyants et les a fixés sur la toile dans leur mobilité
+            <l>Des feuilles sur leurs fronts faisaient flotter les ombres.</l> </quote><p>Il a saisi au vol ces reflets ondoyants et les a fixés sur la toile dans leur mobilité
             flottante, — comme on voit, aux batailles de Salvator Rosa, les combattants, à travers
             la fumée des arquebusades et la poussière de la mêlée, paraître et disparaître tour à
             tour. — Magie ! prestige !… Images voluptueuses, qui n’ont d’ailleurs pas beaucoup de
@@ -5017,9 +4962,7 @@
             école sévère et chagrine</p>
           <quote>
             <l>Qui fièrement assise et la tête immobile</l>
-            <l>Traitait tous ses honneurs d’impiété servile.</l>
-          </quote>
-          <p>En Suisse, en Prusse, en Hollande, les Protestants gardent leur caractère. Moralement,
+            <l>Traitait tous ses honneurs d’impiété servile.</l> </quote><p>En Suisse, en Prusse, en Hollande, les Protestants gardent leur caractère. Moralement,
             Claude et Jurieu sont au-dessus de Bossuet ; littérairement, ils peuvent lui être
             opposés sans trop d’indignité : c’est déjà la pratique et les procédés de la science qui
             entrent dans la théologie, mais aux dépens de la poésie et même un peu de l’éloquence.
@@ -5290,7 +5233,7 @@
             psycho-physiologiques.</p>
         </div>
         <div>
-                    <head>La sculpture</head>
+          <head>La sculpture</head>
           <p>Pour la facilité de l’analyse, nous essayerons de séparer, dans notre étude, la
             sculpture et l’architecture ; mais il sera quelquefois impossible de ne pas les mêler
             ensemble, comme dans la réalité, c’est-à-dire dans l’art.</p>
@@ -5476,9 +5419,7 @@
             <l>La notte che tu vedi in si dolci atti</l>
             <l>Dormir, fu da un Angelo scolpita</l>
             <l>In questo sasso, e perchè dorme ha vita ;</l>
-            <l>Destala se nol credi, e parleratti.</l>
-          </quote>
-          <p>« La Nuit, que tu vois plongée dans un si doux sommeil, fut sculptée en ce marbre par
+            <l>Destala se nol credi, e parleratti.</l> </quote><p>« La Nuit, que tu vois plongée dans un si doux sommeil, fut sculptée en ce marbre par
             la main d’un Ange, et, puisqu’elle dort, elle est vivante. Si tu en doutes, éveille-la,
             elle te parlera. »</p>
           <p>Michel-Ange écrivit au-dessous cette réplique, où il mit son âme :</p>
@@ -5486,14 +5427,10 @@
             <l>Grato m’è il sonno, e più l’esser di sasso,</l>
             <l>Mentre che’l danno e la vergogna dura,</l>
             <l>Non veder, non sentir, m’è gran ventura,</l>
-            <l>Pero non mi destar ! deh ! parla basso !</l>
-          </quote>
-          <quote>
+            <l>Pero non mi destar ! deh ! parla basso !</l> </quote><quote>
             <p>« Il m’est doux de dormir, et encore plus d’être de marbre. Tant que dure le règne de
               la honte et de la tyrannie, ne pas voir, ne pas sentir, m’est un bonheur suprême. Ne
-              m’éveille donc point, oh ! parle bas. »</p>
-          </quote>
-          <p>Le <hi rend="i">Saint Matthieu</hi>, à Santa-Maria-del-Fiore, Michel-Ange lui-même
+              m’éveille donc point, oh ! parle bas. »</p> </quote><p>Le <hi rend="i">Saint Matthieu</hi>, à Santa-Maria-del-Fiore, Michel-Ange lui-même
             reconnut qu’il avait une posture trop contournée, et l’abandonna. Derrière <hi rend="i"
               >la Madone</hi>, qui est à la Tribune de Florence, il a mis quelques figures nues dont
             il s’est amusé à détailler tous les muscles, en dépit de la perspective aérienne.
@@ -5700,9 +5637,7 @@
             et l’amollit : c’est de l’Antiquité mignardisée. Thorwaldsen, sculpteur danois, c’est de
             l’Antiquité germanisée ; — du vin de Lesbos, mais glacé au souffle du Nord.</p>
           <quote>
-            <p>… Finduntque securibus humida vina.</p>
-          </quote>
-          <p>Ainsi, vous le voyez, la nationalité, le tempérament, le caractère, les habitudes des
+            <p>… Finduntque securibus humida vina.</p> </quote><p>Ainsi, vous le voyez, la nationalité, le tempérament, le caractère, les habitudes des
             individus et des peuples se marquent dans la sculpture comme dans les autres arts. —
             J’en citerai un dernier exemple assez curieux :</p>
           <p>Pourquoi la principale fontaine de Bruxelles, fontaine dont l’histoire particulière se
@@ -5750,9 +5685,7 @@
             chanson :</p>
           <quote>
             <l>Il aime à rire, il aime à boire,</l>
-            <l>Il aime à chanter comme nous !</l>
-          </quote>
-          <p>Si d’aventure il me dément, ce sera par fausse pudeur. Et, en tout cas, ce démenti des
+            <l>Il aime à chanter comme nous !</l> </quote><p>Si d’aventure il me dément, ce sera par fausse pudeur. Et, en tout cas, ce démenti des
             classes aristocratiques serait désavoué par le vrai peuple belge. — Deux faits
             achèveront de le prouver.</p>
           <p>Un jour, les brasseurs de Bruxelles voulurent augmenter d’un centime le prix du verre
@@ -5776,7 +5709,7 @@
             petit train de plaisir.</p>
         </div>
         <div>
-                    <head>L’architecture</head>
+          <head>L’architecture</head>
           <p>Le climat, la religion, la race, le tempérament le caractère des peuples et des
             individus ne se marquent pas moins dans l’architecture que dans tous les autres
             arts.</p>
@@ -6080,9 +6013,7 @@
           <quote>
             <l>Dies irae, dies illa</l>
             <l>Solvet saeclum in favilla,</l>
-            <l>Teste David cum Sibylla !</l>
-          </quote>
-          <p>Il vit à genoux, la tête perpétuellement penchée sur un tombeau<note n="70"
+            <l>Teste David cum Sibylla !</l> </quote><p>Il vit à genoux, la tête perpétuellement penchée sur un tombeau<note n="70"
               resp="author">Eugène Pelletan, <hi rend="i">Heures de travail</hi>, tome II</note>. »
             Souvent l’église principale couve une seconde église mystérieusement cachée aux
             entrailles du sol, la <hi rend="i">Crypte</hi>, image des catacombes.</p>
@@ -6295,7 +6226,7 @@
             la liberté.</p>
         </div>
         <div>
-                    <head>Réserves et conclusions</head>
+          <head>Réserves et conclusions</head>
           <p>Ainsi se marquent, dans tous les arts comme dans les littératures, la physionomie et la
             physiologie des individus et des peuples, l’influence des tempéraments, des races, des
             climats et des siècles.</p>
@@ -6923,7 +6854,7 @@
         </div>
       </div>
       <div>
-                <head>Appendice</head>
+        <head>Appendice</head>
         <p><hi rend="i">Voir</hi> la fin du chapitre sur le climat.</p>
         <p>Dans une des séances du comité pour la nouvelle Encyclopédie que l’on prépare en ce
           moment, M. Duruy, après avoir rappelé cette idée de Cuvier, ajoutait :</p>

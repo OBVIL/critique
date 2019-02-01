@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -25,14 +25,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/frommel_esquisses-contemporaines/</idno>
-        <idno type="tei"
-          >http://obvil.sorbonne-universite.site/corpus/critique/frommel_esquisses-contemporaines.xml</idno>
-        <idno type="html"
-          >http://obvil.sorbonne-universite.site/corpus/critique/frommel_esquisses-contemporaines.html</idno>
-        <idno type="text"
-          >http://obvil.sorbonne-universite.site/corpus/critique/frommel_esquisses-contemporaines.txt</idno>
-        <idno type="epub"
-          >http://obvil.sorbonne-universite.site/corpus/critique/frommel_esquisses-contemporaines.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -474,9 +466,7 @@
           humaine :</p>
         <quote>
           <l>Et l’homme seul répond à l’homme épouvanté<note resp="author">Paul Bourget, <hi
-                rend="i">Les Aveux : désespoir en Dieu</hi>, p. 264.</note>.</l>
-        </quote>
-        <p>Malgré tout son charme, l’œuvre de Pierre Loti est une œuvre de mort, elle nous fait
+                rend="i">Les Aveux : désespoir en Dieu</hi>, p. 264.</note>.</l> </quote><p>Malgré tout son charme, l’œuvre de Pierre Loti est une œuvre de mort, elle nous fait
           assister au déclin de la personnalité ; car la personnalité ne peut être que spirituelle
           et ne saurait se trouver en dehors de la morale et de la religion. Le vouloir se meurt
           dans cette atmosphère énervante des sensations raffinées ; les croyances ne subsistent
@@ -923,9 +913,7 @@
               volupté, réunissant les joies de l’être et du non-être, état qui n’est plus ni
               réflexion, ni volonté, qui est au-dessus de l’existence morale et de l’existence
               intellectuelle, qui est le retour à l’unité, la rentrée dans le plérôme, la vision de
-              Plotin et de Proclus, l’aspect désirable du Nirvâna. »</p>
-          </quote>
-          <p>Ces lignes nous introduisent dans une sphère nouvelle de la vie d’Amiel, celle où,
+              Plotin et de Proclus, l’aspect désirable du Nirvâna. »</p> </quote><p>Ces lignes nous introduisent dans une sphère nouvelle de la vie d’Amiel, celle où,
             cessant de regarder au dehors, il concentre sur lui-même toute son attention. Car s’il
             est apte aux hymens mystiques avec la vie de la nature, il sait aussi couper les mille
             relations qui nous unissent à elle, il sait pénétrer dans l’homme, rien que dans l’homme
@@ -1150,9 +1138,7 @@
             <l>Ah ! ne sonde jamais, qu’elle soit humble ou fière,</l>
             <l>Une âme en lui disant : Belle Âme, quelle es-tu ?</l>
             <l>Le centre du soleil n’est pas de la lumière,</l>
-            <l>Le fond de nos vertus n’est pas de la vertu !</l>
-          </quote>
-          <p rend="noindent">s’écrie l’auteur du <hi rend="i">Penseroso</hi>.</p>
+            <l>Le fond de nos vertus n’est pas de la vertu !</l> </quote><p rend="noindent">s’écrie l’auteur du <hi rend="i">Penseroso</hi>.</p>
           <p>Néanmoins, une extrême bienveillance l’empêche de se plaindre de personne. Il garde
             pour lui ses plus amers reproches et s’accuse surtout de ses propres manquements :
               <quote>« C’est toujours contre le dégoût de moi-même que j’ai à lutter. La conscience
@@ -1165,9 +1151,7 @@
             crier avec un poète contemporain<note resp="author">Haraucourt, <hi rend="i">L’âme
                 nue</hi>, p. 248.</note> :</p>
           <quote>
-            <l>J’aspire après la mort qui guérit d’être un homme !</l>
-          </quote>
-          <p>La nature de son esprit prédestinait Amiel à ressentir vivement les atteintes de ce
+            <l>J’aspire après la mort qui guérit d’être un homme !</l> </quote><p>La nature de son esprit prédestinait Amiel à ressentir vivement les atteintes de ce
             mal. Voici deux passages tirés du <hi rend="i">Journal intime</hi>, qui, pour être moins
             amers que le cri du poète, n’en sont pas moins significatifs. Ils témoignent d’une
             détresse toute pareille : <quote>« Il y a deux degrés d’orgueil ; l’un où l’on
@@ -1638,9 +1622,7 @@
             bâtir des systèmes que j’ai laissé tomber avec assez d’indifférence, j’ai vu les
             difficultés se dresser l’une au-dessus de l’autre : j’ai compris que je n’avais réponse
             à rien, mais je n’ai jamais douté. Nous sommes aimés, Dieu nous veut quand même : je le
-            crois quand même, c’est bien le moins ! »</p>
-        </quote>
-        <p><quote>« Je n’avais réponse à rien, mais je n’ai jamais douté »</quote>, parole
+            crois quand même, c’est bien le moins ! »</p> </quote><p><quote>« Je n’avais réponse à rien, mais je n’ai jamais douté »</quote>, parole
           touchante, dont il faut prendre garde de sourire ! Aveu candide qui, tombant d’une bouche
           quelconque, resterait profondément respectable, mais qui prend une valeur immense dans
           celle d’un philosophe de la taille du nôtre ! Expression naïve d’une foi qui n’a point
@@ -2057,20 +2039,14 @@
             <l>Et sur son aile errante, l’heure</l>
             <l>Emporte, avec le soir d’été,</l>
             <l>Le cœur gai, triste ou dégoûté</l>
-            <l>Vers la même obscure demeure.</l>
-          </quote>
-          <p>Il faudrait lire aussi, dans le même ordre d’idées, la romance :</p>
+            <l>Vers la même obscure demeure.</l> </quote><p>Il faudrait lire aussi, dans le même ordre d’idées, la romance :</p>
           <quote>
             <l>J’écrivis un nom sur la grève,</l>
-            <l>Mais le flot l’eut vite effacé…</l>
-          </quote>
-          <p>Et encore les sonnets qui ont titre : <hi rend="i">Indifférence, En lisant l’Évangile,
+            <l>Mais le flot l’eut vite effacé…</l> </quote><p>Et encore les sonnets qui ont titre : <hi rend="i">Indifférence, En lisant l’Évangile,
               Mortuæ, Désespoir en Dieu</hi> ; surtout celui que termine cette sentence vraiment
             bouddhique :</p>
           <quote>
-            <l>Je songe qu’aucun but ne vaut aucun effort.</l>
-          </quote>
-          <p>Prosateur, M. Bourget est certainement plus complet que poète. Toutefois ses romans
+            <l>Je songe qu’aucun but ne vaut aucun effort.</l> </quote><p>Prosateur, M. Bourget est certainement plus complet que poète. Toutefois ses romans
             aussi offrent un singulier exemple d’incohérence et d’incertitude. Il s’y montre fort
             inégal. Une distance sépare <hi rend="i">Cruelle énigme d’André Cornélis, Crime
               d’amour</hi> de <hi rend="i">Mensonges</hi>, plus grande encore que celle qui existe
@@ -2228,9 +2204,7 @@
             <p>« À chaque sorte d’imagination correspond une sorte particulière de sensibilité. Nous
               ne jouissons et nous ne souffrons que de ce que nous sentons réel, et cela seul est
               réel pour nous qui reparaît dans notre solitude, quand, fermant les yeux et ramenant
-              notre âme sur elle-même, nous évoquons notre mirage personnel de l’univers. »</p>
-          </quote>
-          <p>Nous ne pensons pas nous tromper beaucoup en affirmant que, dans cet état, la vision
+              notre âme sur elle-même, nous évoquons notre mirage personnel de l’univers. »</p> </quote><p>Nous ne pensons pas nous tromper beaucoup en affirmant que, dans cet état, la vision
             intérieure de M. Paul Bourget diffère de celle du commun et même de celle de la majorité
             de nos écrivains. Ce qu’il sent réel, ce ne sont pas les grandes masses d’idées et les
             théories spéculatives qui hantent la méditation de M. Taine ; ce n’est pas davantage la
@@ -2433,9 +2407,7 @@
             <l>Ainsi qu’un médecin fait d’un mort d’hôpital,</l>
             <l>Les membres déchirés de leur corps idéal ;</l>
             <l>Et cependant j’éprouve à le regarder faire,</l>
-            <l>Plus d’attrait curieux que je n’ai de colère.</l>
-          </quote>
-          <p>Cet « attrait curieux », M. Bourget le porte à tout spectacle, soit interne, soit
+            <l>Plus d’attrait curieux que je n’ai de colère.</l> </quote><p>Cet « attrait curieux », M. Bourget le porte à tout spectacle, soit interne, soit
             externe, mais de préférence à ceux de l’ordre psychologique. Ses poésies montrent quelle
             monotone patience il met à l’examen de son cœur ; ses <hi rend="i">Essais de
               psychologie</hi> font voir le même examen dirigé sur la pensée d’autrui. L’œil qui
@@ -2533,13 +2505,9 @@
           <quote>
             <l>Ah ! que n’est-il une eau lustrale, un bain puissant,</l>
             <l>Ô femme ! pour guérir l’âme passionnée</l>
-            <l>Ou pour te rajeunir et te laver le sang !</l>
-          </quote>
-          <p>Ailleurs il se plaint de sentir s’épuiser en lui</p>
+            <l>Ou pour te rajeunir et te laver le sang !</l> </quote><p>Ailleurs il se plaint de sentir s’épuiser en lui</p>
           <quote>
-            <l>Ce qui reste de l’eau divine du baptême.</l>
-          </quote>
-          <p>Que l’on relise à ce point de vue <hi rend="i">Cruelle énigme</hi> et <hi rend="i"
+            <l>Ce qui reste de l’eau divine du baptême.</l> </quote><p>Que l’on relise à ce point de vue <hi rend="i">Cruelle énigme</hi> et <hi rend="i"
               >Crime d’amour</hi>. De ces deux histoires parallèles, l’une s’abaisse vers la chute,
             l’autre monte vers la régénération. La portée de ces tentatives ne nous semble pas avoir
             été suffisamment comprise par la critique. On s’est quelquefois moqué de cette
@@ -2613,9 +2581,7 @@
               bien, me fait horreur… Croyez-moi, conclut-il, en montrant à l’écrivain la croix
               dressée au-dessus de la porte de l’église du couvent des Carmes, personne n’en dira
               plus que Celui-là sur la souffrance et sur les passions, et vous ne trouverez pas le
-              remède ailleurs. »</p>
-          </quote>
-          <p>Et le prêtre, par le seul rayonnement de sa valeur morale et par cette supériorité
+              remède ailleurs. »</p> </quote><p>Et le prêtre, par le seul rayonnement de sa valeur morale et par cette supériorité
             intrinsèque que donne le christianisme à ceux qui le vivent, fait rendre les armes à
             Claude Larcher et lui arrache cet aveu : <quote>« Vous êtes un juste, monsieur l’abbé,
               c’est encore là le plus beau des talents et le plus sûr »</quote></p>
@@ -3076,9 +3042,7 @@
               nombreuses discussions engagées sous ma présidence, ne nous aient pas rapprochés sur
               le terrain de la théorie confessionnelle, l’intérêt que je prenais à un élève si
               évidemment hors ligne me faisait sentir de plus en plus qu’il y avait quelque chose
-              qui au fond m’unissait à lui. »</p>
-          </quote>
-          <p>Scherer obtint son baccalauréat théologique en 1839 et se maria peu après. Il passa ses
+              qui au fond m’unissait à lui. »</p> </quote><p>Scherer obtint son baccalauréat théologique en 1839 et se maria peu après. Il passa ses
             examens de licence et prit son grade de docteur (1843) par une thèse fameuse sur <hi
               rend="i">les Prolégomènes à la Dogmatique de l’Église réformée</hi>. Dans
             l’intervalle, le 11 avril 1840, il avait reçu la consécration au saint ministère. Le
@@ -3161,9 +3125,7 @@
               à peu tout se transformait aux yeux du chercheur consciencieux. Combien n’en ai-je pas
               connu qui, cédant à l’évidence, voyaient douloureusement disparaître des articles de
               foi auxquels ils tenaient plus qu’à leur vie, mais auxquels ils avaient le courage de
-              préférer le vrai. »</p>
-          </quote>
-          <p>Ce n’est pas que les difficultés où se débat Scherer aient jamais entièrement échappé à
+              préférer le vrai. »</p> </quote><p>Ce n’est pas que les difficultés où se débat Scherer aient jamais entièrement échappé à
             ses prédécesseurs. Depuis longtemps on parlait des « contradictions apparentes » de la
             Bible. Mais on les tenait pour apparentes seulement ; on s’imaginait les concilier par
             des artifices de raisonnement et des distinctions subtiles qui, parfois, touchaient de
@@ -3263,9 +3225,7 @@
             <p>« Malheureusement, continue Scherer, le propre des arguments à priori est d’être
               aussi trompeurs que spécieux. La question n’est pas de savoir ce qui doit être selon
               notre conception des choses, mais ce qui est, et tous les raisonnements du monde ne
-              peuvent pas plus établir un fait qu’ils ne peuvent le renverser. »</p>
-          </quote>
-          <p>Il conclut en disant : <quote>« La croyance à l’inspiration<note resp="author">Par où
+              peuvent pas plus établir un fait qu’ils ne peuvent le renverser. »</p> </quote><p>Il conclut en disant : <quote>« La croyance à l’inspiration<note resp="author">Par où
                 il faut entendre l’inspiration plénière.</note> ne s’appuie donc sur rien. Semblable
               à l’infaillibilité de l’Église dans le catholicisme, elle doit prouver tout le reste
               et ne peut se prouver elle-même : de sorte que l’on est réduit à l’accepter les yeux
@@ -3312,9 +3272,7 @@
               demeure avec les siens jusqu’à la fin du monde. L’Église l’adore et le prie ; elle
               reconnaît que son Sauveur règne dans les cieux et sur la terre, et que la
               réconciliation s’est accomplie par lui parce qu’elle s’est accomplie en lui, à savoir
-              dans l’union même de Dieu et de l’homme. »</p>
-          </quote>
-          <p>Après avoir marqué la place prépondérante que fait la nouvelle théologie à la personne
+              dans l’union même de Dieu et de l’homme. »</p> </quote><p>Après avoir marqué la place prépondérante que fait la nouvelle théologie à la personne
             morale, humaine et divine de Jésus-Christ, Scherer indique ainsi colle qui revient au
             document sacré : <quote>« C’est parce que la foi est essentiellement un commerce et une
               communion avec Jésus-Christ, que l’Écriture tient une place si capitale dans la vie de
@@ -3561,9 +3519,7 @@
               péché, ou, ce qui revient au même, la confiance que le péché n’est que relatif… On le
               voit, la foi évangélique a l’intuition immédiate et profonde de cette vérité : que le
               péché n’est là que pour être nié, en d’autres termes, qu’il n’est qu’une condition du
-              développement spirituel de l’humanité. »</p>
-          </quote>
-          <p>Vous l’avez entendu : l’Évangile, la Bonne Nouvelle, c’est que <quote>« le péché
+              développement spirituel de l’humanité. »</p> </quote><p>Vous l’avez entendu : l’Évangile, la Bonne Nouvelle, c’est que <quote>« le péché
               n’existe qu’afin d’être nié »</quote>, — non pardonné, mais nié ! — c’est
               <quote>« qu’il n’est que relatif »</quote>, c’est <quote>« qu’il n’est qu’une
               condition du développement spirituel de l’humanité »</quote> ! Et voilà comment on
@@ -3614,9 +3570,7 @@
               conscience du moi. De là vient que nous sommes convaincus de la réalité de la liberté
               toutes les fois que nous rentrons dans notre conscience personnelle, tandis que nous
               jugeons sans cesse les hommes et la société au point de vue du déterminisme. On se
-              croit libre, mais on reconnaît facilement que les autres ne le sont pas. »</p>
-          </quote>
-          <p>C’était affirmer le déterminisme psychologique le plus complet, et saper par la base
+              croit libre, mais on reconnaît facilement que les autres ne le sont pas. »</p> </quote><p>C’était affirmer le déterminisme psychologique le plus complet, et saper par la base
             les conditions mêmes de la foi chrétienne. Prenons-y garde cependant. Le raisonnement
             est correct et n’offre d’extraordinaire ou de nouveau que l’extrême rigueur d’une
             analyse incorruptible. La démonstration est irréfutable et parfaitement conduite. De
@@ -3792,9 +3746,7 @@
               transformation universelle comme la nôtre ; mes sympathies sont pour le passé, et
               cependant, je le sens, “il y a dans les choses humaines une certaine pente que l’on ne
               remonte point”. Ainsi je me vois entraîné par les convictions de mon esprit vers un
-              avenir qui ne m’inspire ni intérêt ni confiance. »</p>
-          </quote>
-          <p>Le dialogue se termine sur cette impression et ne conclut pas. Cela est aussi
+              avenir qui ne m’inspire ni intérêt ni confiance. »</p> </quote><p>Le dialogue se termine sur cette impression et ne conclut pas. Cela est aussi
             dramatique que navrant. Scherer regrette un passé qu’il ne renie point, mais dont il se
             sépare avec une lente et ferme résolution. La route est ouverte, il faut qu’il y
             marche ; il le sait et il y marchera. Superbe et solitaire, cuirassé d’indifférence et
@@ -3842,9 +3794,7 @@
               vérité définitive. Il n’y a que des vérités qui se préparent en se détruisant. Ainsi
               la science porte en soi sa critique. La classification rationnelle des systèmes est
               leur succession, et le seul jugement équitable et utile qu’on puisse prononcer sur eux
-              est celui qu’ils prononcent sur eux-mêmes en se transformant. »</p>
-          </quote>
-          <p>Cette enthousiaste consécration du fait, — du fait sensible extérieur, remarquons-le,
+              est celui qu’ils prononcent sur eux-mêmes en se transformant. »</p> </quote><p>Cette enthousiaste consécration du fait, — du fait sensible extérieur, remarquons-le,
             par lui-même toujours légitime et toujours normatif, recèle néanmoins un idéalisme
             inavoué. Il y avait entre les phénomènes une corrélation et une harmonie profondes,
             parce que Scherer entrevoyait l’organisme du monde et que cet organisme, il le concevait
@@ -3930,9 +3880,7 @@
               ne souffre pas moins, on s’irrite moins de sa souffrance ; les tristesses ne se mêlent
               plus d’aigreur, les regrets d’emportement. La protestation de la moralité subsiste,
               c’est à désirer, mais elle perd la forme fébrile et enfantine de la révolte. “Ô
-              univers, disait saint Marc-Aurèle, je veux ce que tu veux !” »</p>
-          </quote>
-          <p>C’est l’abdication totale de la personne et de la dignité humaines. Que survit-il
+              univers, disait saint Marc-Aurèle, je veux ce que tu veux !” »</p> </quote><p>C’est l’abdication totale de la personne et de la dignité humaines. Que survit-il
             encore, je le demande, de ce qui fait de l’homme un homme ? Quelles inspirations, quels
             enthousiasmes ? quelles puissances d’amour ou de haine, de lutte et de victoire ? Le
             ressort vital est brisé. Rien ne sépare du néant que les hasards de l’existence

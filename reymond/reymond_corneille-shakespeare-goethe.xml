@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
   schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
@@ -26,14 +26,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2016"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe/</idno>
-        <idno type="tei"
-          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.xml</idno>
-        <idno type="html"
-          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.html</idno>
-        <idno type="text"
-          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.txt</idno>
-        <idno type="epub"
-          >http://obvil.sorbonne-universite.site/corpus/critique/reymond_corneille-shakespeare-goethe.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2016 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -306,9 +298,7 @@
           où, dit Béranger :</p>
         <quote>
           <l>                        Troubadours et Trouvères</l>
-          <l>Au nez des rois vidaient gaiement leurs verres.</l>
-        </quote>
-        <p>Au <num>xvi<hi rend="sup">e</hi></num> siècle l’esprit gaulois subit sa première éclipse.
+          <l>Au nez des rois vidaient gaiement leurs verres.</l> </quote><p>Au <num>xvi<hi rend="sup">e</hi></num> siècle l’esprit gaulois subit sa première éclipse.
           Au moment même où il s’épanouissait dans tout son éclat et dans toute son originalité avec
           Rabelais, Montaigne et Marot, la Renaissance l’affubla de la toge antique, et il s’y drapa
           galamment au son de la lyre de Ronsard. En même temps, comme la Renaissance lui était
@@ -524,9 +514,7 @@
           comme les ifs et les charmilles de Versailles. Aussi le pauvre Racine n’eut-il qu’une fois
           peut-être un élan vers la vraie nature. Le cri de Phèdre :</p>
         <quote>
-          <l>Dieux ! que ne suis-je assise à l’ombre des forêts !</l>
-        </quote>
-        <p rend="noindent">fut le seul rayon de soleil, la seule échappée sur la campagne qui vînt
+          <l>Dieux ! que ne suis-je assise à l’ombre des forêts !</l> </quote><p rend="noindent">fut le seul rayon de soleil, la seule échappée sur la campagne qui vînt
           réjouir les portiques froids et solennels de la tragédie classique.</p>
         <p>Ce qui, avant tout, fait le charme de Racine, c’est l’harmonie du vers, la plénitude, la
           grâce et la pureté du style. Et c’est aussi le mérite que les étrangers sont le moins
@@ -631,9 +619,7 @@
             préjugés surannés avaient élevée entre les deux peuples, une large brèche, si bien
             qu’au-delà du Rhin, et bientôt au-delà du canal, on s’informa plus exactement de nous,
             ce qui ne pouvait manquer de nous assurer une grande influence sur tout l’occident de
-            l’Europe. »</p>
-        </quote>
-        <p>Nous examinerons aussi l’action de M. de Chateaubriand, parce qu’il révéla à la poésie
+            l’Europe. »</p> </quote><p>Nous examinerons aussi l’action de M. de Chateaubriand, parce qu’il révéla à la poésie
           des horizons infinis, qu’il rasséréna l’air de l’époque en l’ouvrant aux vents de l’océan,
           aux bruits mystérieux des solitudes vierges du nouveau monde, en même temps qu’il enrichit
           l’imagination française de la poésie du christianisme, et la langue d’une foule
@@ -728,9 +714,7 @@
             qu’inspirait le sujet même, étaient si remplies de sentiment, de pensées profondes,
             d’éclairs de génie, de finesse d’observation psychologique ; la langue en était devenue
             si souple et si puissante, si délicate et si passionnée, que ces productions devaient
-            nécessairement communiquer l’ivresse et l’éblouissement. »</p>
-        </quote>
-        <p><pb n="24"/>Tel était le prestige qu’exerçait notre Romantisme sur les jeunes
+            nécessairement communiquer l’ivresse et l’éblouissement. »</p> </quote><p><pb n="24"/>Tel était le prestige qu’exerçait notre Romantisme sur les jeunes
           imaginations allemandes. Telle était, du reste, la manière dont la France rendait en 1830
           à l’Allemagne, les emprunts qu’elle lui avait faits sous la Restauration.</p>
         <p>Mais je n’ai ni le droit, ni le pouvoir d’aller aussi loin. C’est aux auteurs allemands
@@ -851,9 +835,7 @@
             et de conjecture, alternant du fait à la rêverie, flottant de la majesté au cynisme, bon
             jusque dans son désordre, un peu mystique dans son incrédulité, et auquel il n’a manqué,
             comme à son siècle, pour avoir l’harmonie, qu’un rayon divin, un <hi rend="i">fiat
-              lux</hi>, une idée régulatrice, un Dieu. »</p>
-        </quote>
-        <p>C’est ainsi que Diderot, tout en travaillant à l’<hi rend="i">Encyclopédie</hi>, à la <hi
+              lux</hi>, une idée régulatrice, un Dieu. »</p> </quote><p>C’est ainsi que Diderot, tout en travaillant à l’<hi rend="i">Encyclopédie</hi>, à la <hi
             rend="i">Correspondance</hi> que Grimm adressait à quelques souverains allemands ; tout
           en écrivant ses Sa<hi rend="i">l</hi>ons qui n’ont paru qu’après sa mort, était toujours
           prêt à communiquer ses idées à ses amis, aux jeunes écrivains qui venaient le consulter.
@@ -887,9 +869,7 @@
             d’en être persuadés, qui vivent comme s’ils l’étaient, <hi rend="i">ce sont les
               fanfarons du parti</hi>. Je déteste les fanfarons, ils sont faux, je plains les vrais
             athées, <hi rend="i">toute consolation me semble morte pour eux</hi>, et je prie Dieu
-            pour les sceptiques, ils manquent de lumière. »</p>
-        </quote>
-        <p>Diderot n’était point athée, car il avait soif de Dieu, et ne cessa de le chercher toute
+            pour les sceptiques, ils manquent de lumière. »</p> </quote><p>Diderot n’était point athée, car il avait soif de Dieu, et ne cessa de le chercher toute
           sa vie. Et dans ce <pb n="32"/>sens, nous pouvons le considérer comme un des continuateurs
           de la Réforme en France. Pour lui, attaquer le christianisme c’était attaquer la doctrine
           catholique dont le dépôt, comme on l’a dit, était confié d’une part aux jésuites
@@ -908,9 +888,7 @@
           <p>« Je ne puis me le dissimuler, il y avait là tout à côté d’une haine aveugle, le
             légitime besoin d’exhumer, du sein des éléments théocratiques, <hi rend="i">l’élément
               humain</hi> qui s’y trouvait enfoui, semblable à ces monuments de l’Égypte à moitié ou
-            entièrement disparus sous les sables amoncelés. »</p>
-        </quote>
-        <p>Loin d’être athée Diderot était panthéiste, voyait Dieu partout, dans la nature, dans la
+            entièrement disparus sous les sables amoncelés. »</p> </quote><p>Loin d’être athée Diderot était panthéiste, voyait Dieu partout, dans la nature, dans la
           vie, dans le monde, dans le mouvement de la matière vivante et créatrice. Il ne rejetait
           que les dogmes, et cela en cherchant à en fonder de nouveaux sur le sentiment, sur l’amour
             <pb n="33"/>de l’humanité, sur l’admiration du beau et de la vertu.</p>
@@ -946,9 +924,7 @@
             système dramatique dans toute son étendue : La comédie gaie qui a pour objet le ridicule
             et le vice ; la comédie sérieuse qui a pour objet la vertu et les devoirs de l’homme ;
             la tragédie qui aurait pour objet nos malheurs domestiques ; et enfin la tragédie qui a
-            pour objet les catastrophes publiques et les malheurs des Grands. »</p>
-        </quote>
-        <p>C’était le second et le troisième genre qu’il voulait créer.</p>
+            pour objet les catastrophes publiques et les malheurs des Grands. »</p> </quote><p>C’était le second et le troisième genre qu’il voulait créer.</p>
         <quote>
           <p>« Ce ne sont pas des mots, ajoutait-il, que je veux remporter du théâtre, mais des
             impressions. Pour moi je ne fais pas plus de cas d’une passion, d’un caractère qui se
@@ -956,9 +932,7 @@
             combinaisons d’incidents dont on forme le tissu d’une pièce où les personnages et les
             spectateurs sont également ballotés. Il me semble que le bon goût les dédaigne et que
             les grands effets ne s’en accommodent pas. Voilà cependant ce que nous appelons du
-            mouvement. »</p>
-        </quote>
-        <p>Diderot, comme on le voit, faisait alors une critique qui pourrait s’appliquer à notre
+            mouvement. »</p> </quote><p>Diderot, comme on le voit, faisait alors une critique qui pourrait s’appliquer à notre
           théâtre actuel, aussi bien en Allemagne qu’en France.</p>
         <p><pb n="35"/>Voltaire était loin de partager les idées de Diderot :</p>
         <quote>
@@ -966,9 +940,7 @@
             tâche d’intéresser par des aventures bourgeoises attendrissantes : il n’a pas le don du
             comique, il cherche à y suppléer par l’intérêt : il ne peut s’élever au <hi rend="i"
               >cothurne</hi> (à la tragédie), il rehausse un peu le <hi rend="i">brodequin</hi> (la
-            comédie). »</p>
-        </quote>
-        <p>En général les nouvelles idées n’étaient guère goûtées en France, dans ce pays de la
+            comédie). »</p> </quote><p>En général les nouvelles idées n’étaient guère goûtées en France, dans ce pays de la
           centralisation et de l’autorité religieuse, politique et littéraire. Elles étaient trop
           avancées pour le temps. On comprend aujourd’hui que Diderot se soit demandé pour quelle
           raison il ne devait y avoir au théâtre que deux genres, l’un qui tendît constamment à
@@ -1150,9 +1122,7 @@
             la littérature du midi. — Les ouvrages anglais, les ouvrages allemands, et quelques
             écrits des <pb n="44"/>Danois et des Suédois doivent être classés dans la littérature du
             nord, dans celle qui a commencé par les bardes écossais, les fables islandaises, et les
-            poésies scandinaves. »</p>
-        </quote>
-        <p>Or c’est précisément dans cette littérature du nord que M<hi rend="sup">me</hi> de Staël
+            poésies scandinaves. »</p> </quote><p>Or c’est précisément dans cette littérature du nord que M<hi rend="sup">me</hi> de Staël
           constate l’existence de la mélancolie, comme un élément essentiel qui donne à la poésie
           plus de grandeur, de profondeur et de portée philosophique et morale.</p>
         <p>En outre la poésie du nord est celle de la liberté, l’indépendance étant <quote>« le
@@ -1257,9 +1227,7 @@
             manifester son esprit dans toutes les nuances par l’accent, le geste, le regard, enfin
             de produire à volonté comme une sorte d’électricité qui fait jaillir des étincelles,
             soulage les uns de l’excès même de leur vivacité, et réveille les autres d’une apathie
-            pénible.</p>
-        </quote>
-        <p>Aussi a-t-on pu dire que la conversation était pour les Français ce qu’est la méditation
+            pénible.</p> </quote><p>Aussi a-t-on pu dire que la conversation était pour les Français ce qu’est la méditation
           pour les Allemands : C’est une méditation à haute voix. En causant, les idées abondent,
           les arguments qu’on ne trouverait pas, la <pb n="49"/>plume à la main, dans son cabinet
           jaillissent d’eux-mêmes dans l’improvisation de la causerie, et ce qui fait que les
@@ -1292,9 +1260,7 @@
             âme. Mais si l’on voulait discipliner les écrivains allemands d’après les lois
             prohibitives de la-littérature française, ils ne sauraient comment naviguer au milieu
             des écueils qu’on leur aurait indiqués ; ils regretteraient la pleine mer, et leur
-            esprit serait plus troublé qu’éclairé. »</p>
-        </quote>
-        <p>C’est ainsi que M<hi rend="sup">me</hi> de Staël cherchait à former un trait d’union
+            esprit serait plus troublé qu’éclairé. »</p> </quote><p>C’est ainsi que M<hi rend="sup">me</hi> de Staël cherchait à former un trait d’union
           entre les deux littératures, et à préparer le terrain à la fusion que le Romantisme devait
           opérer.</p>
         <p>Ce nom même de <hi rend="i">romantisme</hi> fut prononcé pour la première fois en France
@@ -1319,9 +1285,7 @@
           soumettent sans murmurer leur inspiration à cette police sévère qu’entretiennent autour
           d’eux l’autorité des modèles et le despotisme du public. Le</p>
         <quote>
-          <l>Odi profanum vulgus, et arceo…</l>
-        </quote>
-        <p rend="noindent">n’a point d’écho chez eux, si ce n’est par exception, et en excitant de
+          <l>Odi profanum vulgus, et arceo…</l> </quote><p rend="noindent">n’a point d’écho chez eux, si ce n’est par exception, et en excitant de
           grandes colères, auxquelles un petit nombre seulement, tels que Victor Hugo et les
           romantiques, ont pu résister.</p>
         <p>L’enthousiasme individuel est une qualité tout allemande qu’aucune autorité ne peut
@@ -1331,9 +1295,7 @@
             invisible, et de l’intérêt à ce qui n’a point d’action immédiate sur notre bien-être
             dans ce monde ; il n’y a donc point de sentiment plus propre à la recherche des vérités
             abstraites : aussi sont-elles cultivées en Allemagne avec une ardeur et une loyauté
-            remarquables. »</p>
-        </quote>
-        <p><pb n="52"/>Et plus loin : <quote>« Les Allemands n’ont point à lutter chez eux contre
+            remarquables. »</p> </quote><p><pb n="52"/>Et plus loin : <quote>« Les Allemands n’ont point à lutter chez eux contre
             les ennemis de l’enthousiasme, et c’est un grand obstacle de moins pour les hommes
             distingués. L’esprit s’aiguise dans le combat ; mais le talent a besoin de confiance. Il
             faut croire à l’admiration, à la gloire, à l’immortalité, pour éprouver l’inspiration du
@@ -1359,9 +1321,7 @@
             inspirât même le mépris des périls, à quoi vous serviraient votre beau ciel, vos esprits
             si brillants, votre nature si féconde ? Une intelligence active, une impétuosité savante
             vous rendraient les maîtres du monde ; mais vous n’y laisseriez que la trace des
-            torrents de sable, terribles comme les flots, arides comme le désert ! »</p>
-        </quote>
-        <p>Tel fut ce livre qui fonda en France une littérature nouvelle. On l’admira sans doute,
+            torrents de sable, terribles comme les flots, arides comme le désert ! »</p> </quote><p>Tel fut ce livre qui fonda en France une littérature nouvelle. On l’admira sans doute,
           mais on n’y crut pas. Demander à la France de partager de confiance l’enthousiasme d’une
           femme exaltée pour tant d’auteurs inconnus et inaccessibles à la lecture, c’eût été trop
           exiger. M. Villemain, l’habile rhéteur qu’on a pris longtemps et qu’on prend encore pour
@@ -1452,9 +1412,7 @@
             il est vrai de dire aussi que huit années de résidence dans la grande Bretagne,
             précédées d’un voyage en Amérique, qu’une longue habitude de parler, d’écrire et même de
             penser en Anglais, avaient nécessairement influé sur le tour et l’expression de mes
-            idées. »</p>
-        </quote>
-        <p>Les études qu’il avait dû faire pour composer le <hi rend="i">Génie du Christianisme</hi>
+            idées. »</p> </quote><p>Les études qu’il avait dû faire pour composer le <hi rend="i">Génie du Christianisme</hi>
           l’avaient amené à un examen plus approfondi de la littérature anglaise. Il rassembla ses
           observations sur ce sujet, à bâtons rompus, et en fit deux volumes qui manquent de
           liaison, et ne peuvent être comparés avec le livre <hi rend="i">de l’Allemagne</hi>. Chose
@@ -1490,9 +1448,7 @@
             conversations avec des hommes de rangs divers, les objets variés qui ont passé sous ses
             yeux, le bal et le convoi, le festin du riche et la détresse du pauvre ; quiconque aura
             écrit d’heure en heure son journal aura fait un drame à la manière du poète
-            anglais. »</p>
-        </quote>
-        <p>En somme, c’est bien moins comme critique que comme poète que M. de Chateaubriand
+            anglais. »</p> </quote><p>En somme, c’est bien moins comme critique que comme poète que M. de Chateaubriand
           contribua à introduire en France les éléments de la littérature anglaise, et eut sa part
           dans la réforme poétique de notre siècle.</p>
         <p>Sa traduction du <hi rend="i">Paradis perdu</hi> de Milton fut la première qui
@@ -1601,9 +1557,7 @@
             fait l’homme à son image et a donné à la nature des lois analogues. Tout se ressemble,
             tout s’enchaine, rien n’est complètement uni… Le panthéisme d’ailleurs est l’idée
             d’unité appliquée au monde, à la matière ; — le spiritualisme est l’idée d’unité
-            appliquée à Dieu. »</p>
-        </quote>
-        <p>Mais ce n’était là qu’une subtilité fort transparente. Que la nature soit Dieu ou que
+            appliquée à Dieu. »</p> </quote><p>Mais ce n’était là qu’une subtilité fort transparente. Que la nature soit Dieu ou que
           Dieu soit la nature, cela paraît à peu près indifférent. Bonnet blanc et blanc
           bonnet !</p>
         <p>Néanmoins le reproche fit réfléchir M. Cousin. Il avait débuté par l’enthousiasme, mais
@@ -1683,9 +1637,7 @@
           <p>« Il le dit du moins ajoute M. Taine. Mais se figure-t-on l’étonnement d’un chimiste,
             ou d’un naturaliste qui lit ce morceau, surtout si jusqu’ici il a cru (sur parole) que
             la philosophie est une science ? Il découvre qu’elle est une harangue, moyen de
-            pédagogie et de gouvernement. »</p>
-        </quote>
-        <p>M. Cousin est l’homme de notre époque qui a été le plus discuté. Cela tient non seulement
+            pédagogie et de gouvernement. »</p> </quote><p>M. Cousin est l’homme de notre époque qui a été le plus discuté. Cela tient non seulement
           à l’importance des matières auxquelles il a touché, à ses nombreuses variations
           philosophiques, à sa passion pour le pouvoir, mais aussi à une grande bonhomie dont j’ai
           eu pour ma part l’occasion de faire l’expérience.</p>
@@ -1805,9 +1757,7 @@
             adhésion passive aux terreurs de l’Autriche et à l’ambition moscovite ; indépendante,
             elle doit aimer la liberté, vivifier et protéger les petits états de l’Allemagne, et
             estimer la France. Si elle était infidèle au génie de Frédéric, nous pourrions nous
-            rappeler celui de Richelieu »</p>
-        </quote>
-        <p>Un germaniste beaucoup plus sérieux, plus savant, et supérieur à M. Lerminier par le
+            rappeler celui de Richelieu »</p> </quote><p>Un germaniste beaucoup plus sérieux, plus savant, et supérieur à M. Lerminier par le
           style et l’imagination, M. Edgar Quinet, vint de bonne heure en Allemagne où il étudia
           plus particulièrement Herder et <hi rend="i">la philosophie de l’histoire</hi> qu’il
           introduisit la première fois en France. Son imagination poétique se réchauffa au contact
@@ -1872,9 +1822,7 @@
             devant les yeux se déroulent des perspectives infinies ; des continents entiers
             s’étalent embrassés d’un coup d’œil ; et l’on se croirait arrivé au sommet de la science
             et au point de vue du monde, si là-bas, sur un coin de la table, on n’apercevait un
-            volume de Voltaire posé sur un volume de Condillac. »</p>
-        </quote>
-        <p>Ici, ce qui perce surtout à travers les nuages, c’est l’esprit français qui, semblable
+            volume de Voltaire posé sur un volume de Condillac. »</p> </quote><p>Ici, ce qui perce surtout à travers les nuages, c’est l’esprit français qui, semblable
           aux chats, retombe toujours sur ses pattes. En philosophie, les Français, sont des gens de
           terre, les Allemands des marins. Les espaces infinis, les longues solitudes, et surtout
           les vagues qui s’entrechoquent donnent aux premiers le mal de mer. Les Allemands, au
@@ -1907,9 +1855,7 @@
             j’appellerais volontiers le ton de notre être, soit de plus en plus heureux.</p>
           <p>« Cet état d’aspiration est réellement ce qui distingue les hommes entre eux, ce qui
             les sépare par des barrières infranchissables, ce qui les fait différents, ce qui
-            constitue le moi, la personnalité des êtres.</p>
-        </quote>
-        <p>Et ailleurs : <quote>« Les créatures n’ont pas été faites pour être heureuses. Les
+            constitue le moi, la personnalité des êtres.</p> </quote><p>Et ailleurs : <quote>« Les créatures n’ont pas été faites pour être heureuses. Les
             plaisirs et les biens de tout genre <pb n="79"/>ne sont tout au plus qu’un moyen de
             perfectionner indirectement la situation fondamentale de notre âme… En cherchant la
             pierre philosophale, on a découvert la chimie ; en cherchant le souverain bien,
@@ -1980,9 +1926,7 @@
           <p>« L’auteur des <hi rend="i">Templiers</hi> (Raynouard) a dû ajouter à son ouvrage des
             notes explicatives, tandis que Schiller dans sa <hi rend="i">Jeanne d’Arc</hi>, sujet
             français, qu’il présentait à un public allemand, était sûr de rencontrer dans ses
-            auditeurs assez de connaissances pour le dispenser de tout commentaire. »</p>
-        </quote>
-        <p>J’ai voulu citer jusqu’au bout ces sincères aveux, qui indiquent bien le degré
+            auditeurs assez de connaissances pour le dispenser de tout commentaire. »</p> </quote><p>J’ai voulu citer jusqu’au bout ces sincères aveux, qui indiquent bien le degré
           d’ignorance où l’on était alors de l’histoire ou de la littérature allemandes. Si les
           Allemands en sourient, ils trouveront de plus une occasion facile de rendre à Benjamin
           Constant les épigrammes qu’il leur a décochées, en lisant les mauvais vers de son <hi
@@ -2009,9 +1953,7 @@
             par quelque chose de plus noble et de plus grand, par quelque chose de surnaturel, et
             que la France est digne de sentir et d’admirer, même dans un ennemi, — l’exaltation
             religieuse et patriotique d’un grand peuple qui reconquiert son indépendance, son génie
-            et son caractère national. »</p>
-        </quote>
-        <p>Le reste du livre se compose de souvenirs de voyage, et de notices sur les anciens poèmes
+            et son caractère national. »</p> </quote><p>Le reste du livre se compose de souvenirs de voyage, et de notices sur les anciens poèmes
           épiques des Germains, sur la littérature moderne, ou sur la philosophie.</p>
         <p>Ce livre qui tendait à faire connaître l’Allemagne par ses mœurs, et à expliquer par le
           caractère des habitants celui de la littérature, ne resta pas isolé. M. <hi rend="i"
@@ -2216,9 +2158,7 @@
           <p>« Le mot <hi rend="i">philosophie</hi>, dans le langage de l’Europe, dit-il, me semble
             correspondre au mot <hi rend="i">solitude</hi> dans l’idiome des sauvages. Or comment la
               <hi rend="i">philosophie</hi> remplira-t-elle le vide de vos jours ? Comble-t-on le
-            désert avec le désert ? »</p>
-        </quote>
-        <p>Quel triomphe pour Dussault et son école que ce jugement sévère prononcé par l’auteur du
+            désert avec le désert ? »</p> </quote><p>Quel triomphe pour Dussault et son école que ce jugement sévère prononcé par l’auteur du
             <hi rend="i">Génie du Christianisme</hi> contre son émule en innovation ! Aussi ne
           tarda-t-il pas à en abuser dans ses critiques ultérieures. Dussault profita de
           l’apparition du livre <hi rend="i">de l’Allemagne</hi> pour battre en brèche les
@@ -2232,9 +2172,7 @@
           <l>Quand l’œillet, le narcisse et les roses vermeilles</l>
           <l>Ont prodigué leurs sucs aux trompes des abeilles,</l>
           <l>Les bourdons, sur le soir, y vont chercher en vain</l>
-          <l>Ces parfums épuisés, qui plaisaient au matin…</l>
-        </quote>
-        <p>Ce qui indigne le plus Dussault, c’est le mot de <hi rend="i">pétrifications</hi> que
+          <l>Ces parfums épuisés, qui plaisaient au matin…</l> </quote><p>Ce qui indigne le plus Dussault, c’est le mot de <hi rend="i">pétrifications</hi> que
             M<hi rend="sup">me</hi> de Staël applique aux productions de <pb n="94"/>la littérature
           classique. Nommer <hi rend="i">pétrification</hi> ce qu’il appelle, lui, <hi rend="i"
             >perfection</hi>, n’est-ce pas le comble de l’impertinence ! — Comment se fait-il que
@@ -2261,9 +2199,7 @@
             laborieuses ? Que nous ont-ils offert jusqu’à présent ? les plus insipides et les plus
             ennuyeux <pb n="95"/>recueils que puisse enfanter l’union d’une patience infatigable et
             d’un zèle vétilleux » … « quel profit la littérature et le goût peuvent-ils tirer de
-            cette espèce de charlatanisme ? »</p>
-        </quote>
-        <p>Ce que Dussault appelait du charlatanisme, ce n’était autre chose que l’érudition qui
+            cette espèce de charlatanisme ? »</p> </quote><p>Ce que Dussault appelait du charlatanisme, ce n’était autre chose que l’érudition qui
           renaissait alors de tous côtés, avec Sainte-Palaye, Raynouard, Fauriel, etc., et allait
           chercher dans le moyen âge les sources de l’histoire ou les inspirations de la poésie.
           Cela ne faisait point du tout l’affaire des critiques de l’Empire pour lesquels, au-delà
@@ -2334,9 +2270,7 @@
           <l>    La raison en est toute prête :</l>
           <l>En mérite, en esprit, en bonnes qualités,</l>
           <l>On souffre mieux cent morts au-dessus de sa tête</l>
-          <l>    Qu’un seul vivant à ses côtés.</l>
-        </quote>
-        <p>— Vous avez mis le doigt dessus, dit l’abbé.</p>
+          <l>    Qu’un seul vivant à ses côtés.</l> </quote><p>— Vous avez mis le doigt dessus, dit l’abbé.</p>
         <p>Cette querelle des anciens et des modernes fut reprise plus tard par Lamotte et
           Fontenelle, et surtout, vers la fin du <num>xviii<hi rend="sup">e</hi></num> siècle, par
           Mercier, qui plaça le premier la question sur son vrai terrain. Il s’élève entre autres
@@ -2356,9 +2290,7 @@
             pour vous pénétrer de sa manière grande et aisée, simple, naturelle, <pb n="99"/>forte,
             éloquente ; étudiez-le comme le fidèle interprète de la nature, et vous verrez bientôt
             toutes ces petites tragédies étranglées, uniformes, sans plan vrai et sans mouvement, ne
-            plus vous offrir qu’une sécheresse et une maigreur hideuse. »</p>
-        </quote>
-        <p>Ce conseil fut écouté par quelques auteurs dramatiques dont nous aurons à nous occuper.
+            plus vous offrir qu’une sécheresse et une maigreur hideuse. »</p> </quote><p>Ce conseil fut écouté par quelques auteurs dramatiques dont nous aurons à nous occuper.
           La critique elle-même le releva, et MM. Letourneur, Villemain et Guizot se chargèrent de
           faire connaître ce Shakespeare que Mercier recommandait comme un grand modèle, et dont on
           n’avait eu jusqu’alors en France qu’une idée fort imparfaite. Ils étendirent même leurs
@@ -2385,9 +2317,7 @@
             un sacrilège, il le saisit, il l’étend, il le lie sur une croix horizontale, il lève le
             bras ; alors, il se fait un silence horrible, et l’on n’entend plus que le cri des os
             qui éclatent sous la barre, et les hurlements de la victime. Il la détache, il la porte
-            sur une roue : les membres fracassés s’enlacent sur les rayons »… etc.</p>
-        </quote>
-        <p>Et voilà le tableau dans lequel M. Villemain signale <quote>« <hi rend="i">un
+            sur une roue : les membres fracassés s’enlacent sur les rayons »… etc.</p> </quote><p>Et voilà le tableau dans lequel M. Villemain signale <quote>« <hi rend="i">un
               faux-goût</hi> qui, même dans une école que l’on devrait croire attachée aux doctrines
             spiritualistes, n’agit que par un grossier matérialisme d’imagination »</quote> !</p>
         <p>Il est impossible, vous l’avouerez, de se placer plus complètement à côté de la question.
@@ -2416,9 +2346,7 @@
             Elles lui substituent des mœurs factices, des sentiments de convention. Or ce monde
             artificiel où elles vivent est bien moins étendu que le monde réel. Des lois sévères en
             bannissent une foule d’actions, d’idées, de goûts simples et vrais, dont l’art tire les
-            plus grands avantages. »</p>
-        </quote>
-        <p>C’est ainsi que l’art se resserre, se farde et se fausse, comme en France, au siècle de
+            plus grands avantages. »</p> </quote><p>C’est ainsi que l’art se resserre, se farde et se fausse, comme en France, au siècle de
           Louis XIV, où il ne s’adressait qu’à une seule classe de la société.</p>
         <p>En Angleterre, au contraire, l’art dramatique est resté populaire et a conservé ainsi
           plus d’ampleur, de force et de vérité. Shakespeare se sert du monde comme d’un champ sans
@@ -2441,9 +2369,7 @@
             peuvent s’asseoir leurs fondements se laisse déjà découvrir. Ce terrain n’est pas celui
             de Corneille ou de Racine ; ce n’est pas celui de Shakespeare, c’est le nôtre ; mais le
             système de Shakespeare peut seul fournir, ce me semble, les plans d’après lesquels le
-            génie doit travailler. »</p>
-        </quote>
-        <p>Ainsi M. Guizot visait à devenir le Calvin de la réforme romantique, et joignait son
+            génie doit travailler. »</p> </quote><p>Ainsi M. Guizot visait à devenir le Calvin de la réforme romantique, et joignait son
           action littéraire à l’action politique qu’il déployait dans <hi rend="i">le
           Globe</hi>.</p>
         <p><pb n="103"/>Ce journal, de fondation récente, s’était fait l’organe de l’opposition
@@ -2464,9 +2390,7 @@
           <p>« J’étais, dit M. Guizot dans ses <hi rend="i">Mémoires</hi>, le chef du parti. J’étais
             en même temps libéral et antirévolutionnaire, dévoué aux principes fondamentaux de la
             nouvelle société française, et animé pour la vieille France d’un respect
-            affectueux. »</p>
-        </quote>
-        <p>Telle était la manière dont les hommes nouveaux en France comprenaient la constitution
+            affectueux. »</p> </quote><p>Telle était la manière dont les hommes nouveaux en France comprenaient la constitution
           anglaise qu’ils se donnaient pour modèle !</p>
         <p>Cependant <hi rend="i">le Globe</hi> n’avait d’abord été fondé que dans un but purement
           littéraire. Ce n’était que peu à peu qu’il s’était élevé jusqu’à devenir l’organe
@@ -2561,9 +2485,7 @@
             exclusive et jalouse, le même sentiment, la même horreur qui reste au forçat contre les
             fers durs et glacés rivés sur ses membres, et dont il croit éprouver encore la froide et
             meurtrissante impression quand il entend le cliquetis d’une chaîne. Les mathématiques
-            étaient les chaînes de la pensée humaine. Je respire ; elles sont brisées ! »</p>
-        </quote>
-        <p>Dès ce moment, M. de Lamartine se sentit vivre, il entendit son cœur battre pour la
+            étaient les chaînes de la pensée humaine. Je respire ; elles sont brisées ! »</p> </quote><p>Dès ce moment, M. de Lamartine se sentit vivre, il entendit son cœur battre pour la
           première fois, il s’élança vers les régions idéales, et tandis qu’il jetait l’harmonie de
           ses vers sur la France ravie, il décrivait, en prose, le caractère de la poésie dans le
           morceau suivant :</p>
@@ -2589,9 +2511,7 @@
             s’éteindra jamais dans le monde ; car ce n’est pas l’homme qui l’a inventée. C’est Dieu
             même qui la lui a donnée, et c’est le premier cri qui est remonté à lui de l’humanité.
             Ce sera aussi le dernier cri que le Créateur entendra s’élever de son œuvre, quand il la
-            brisera ; sortie de lui, elle remontera à lui. »</p>
-        </quote>
-        <p>Dans ses théories esthétiques, M. de Lamartine n’alla pas plus loin, car, jusqu’au moment
+            brisera ; sortie de lui, elle remontera à lui. »</p> </quote><p>Dans ses théories esthétiques, M. de Lamartine n’alla pas plus loin, car, jusqu’au moment
           où il écrivit le <hi rend="i">Conseiller du peuple</hi>, il n’eut point l’ambition d’être
           un critique — il méprisa même la critique qu’il appelait <quote>« <hi rend="i">la
               puissance des impuissants</hi> »</quote>.</p>
@@ -2635,9 +2555,7 @@
             humaines ; comme Dieu, le vrai poète est partout présent dans ses œuvres. Il restaure ce
             que les annalistes ont tronqué, harmonise ce qu’ils ont dépareillé, devine les omissions
             et les répare. Le but de l’art est presque divin. Les auteurs ont le droit d’oser, de
-            hasarder, de créer, d’inventer leur style et de mener en laisse la grammaire. »</p>
-        </quote>
-        <p>Ne retrouve-t-on pas dans cet immense orgueil du <hi rend="i">Moi</hi>, fût-ce du moi
+            hasarder, de créer, d’inventer leur style et de mener en laisse la grammaire. »</p> </quote><p>Ne retrouve-t-on pas dans cet immense orgueil du <hi rend="i">Moi</hi>, fût-ce du moi
           poétique, l’influence évidente de la philosophie de Fichte et de Hegel ?</p>
         <p>Le fait est qu’on s’empressa d’en abuser, que grâce à la liberté illimitée accordée aux
           poètes, tout le monde crut avoir du génie, et pensa que l’expansion complète de son
@@ -2806,9 +2724,7 @@
             objet digne de votre pitié ; mais quoique vous puissiez penser de René, ce tableau vous
             offre l’image de son caractère et de son existence : c’est ainsi que toute ma vie j’ai
             eu devant les yeux une création à la fois immense et imperceptible, et un abîme ouvert à
-            mes côtés. »</p>
-        </quote>
-        <p>Ce <hi rend="i">René</hi> était une inspiration manifeste de <hi rend="i">Werther</hi>.
+            mes côtés. »</p> </quote><p>Ce <hi rend="i">René</hi> était une inspiration manifeste de <hi rend="i">Werther</hi>.
           Chateaubriand y peignait comme Goethe les effets d’une maladie d’imagination qui naissait
           de l’orgueil de la solitude et dont il décrit ainsi les symptômes :</p>
         <quote>
@@ -2822,9 +2738,7 @@
             sur la montagne, appelant de toute la force de mes désirs l’idéal objet d’une flamme
             future ; je l’embrassais dans les vents ; je croyais l’entendre dans les gémissements du
             fleuve ; tout était ce fantôme imaginaire, et les astres dans les cieux et le principe
-            même de la vie dans l’univers. »</p>
-        </quote>
-        <p>Certes, si nous pouvons regretter l’idéal, ce n’est pas cette vague et lâche
+            même de la vie dans l’univers. »</p> </quote><p>Certes, si nous pouvons regretter l’idéal, ce n’est pas cette vague et lâche
           contemplation dont la perte doit nous toucher !</p>
         <p>M. de Rémusat, dans ses <hi rend="i">Mélanges</hi> fait la comparaison suivante entre <hi
             rend="i">René</hi> et <hi rend="i">Werther</hi> : <quote>« Considéré indépendamment du
@@ -2894,15 +2808,11 @@
             l’explication ? C’en est du moins une partie. Il faudrait peut-être chercher l’autre
             dans les souvenirs instinctifs et les habitudes originelles de ces races sorties des
             forêts de la Germanie ; les petits-fils demeurent atteints à leur insu et sont repris
-            par accès de la nostalgie paternelle. »</p>
-        </quote>
-        <p>Ne peut-on aussi attribuer en partie l’origine de la mélancolie à l’influence de ce
+            par accès de la nostalgie paternelle. »</p> </quote><p>Ne peut-on aussi attribuer en partie l’origine de la mélancolie à l’influence de ce
           paysage du Nord triste et désolé, n’offrant aucune nourriture aucun miroir à
           l’imagination, et inspirant à tout habitant de ces froides régions le cri de Mignon :</p>
         <quote>
-          <l>Connais-tu le pays où les citronniers fleurissent ?</l>
-        </quote>
-        <p>Un poète que j’ai beaucoup connu quand j’étais <pb n="124"/>jeune, exprimait dans les
+          <l>Connais-tu le pays où les citronniers fleurissent ?</l> </quote><p>Un poète que j’ai beaucoup connu quand j’étais <pb n="124"/>jeune, exprimait dans les
           vers suivants le sentiment de répulsion que lui inspirait cette pâle nature du Nord qu’il
           voyait pour la première fois, et les regrets qu’elle fait naître :</p>
         <quote>
@@ -2922,9 +2832,7 @@
           <l/>
           <l>Par les ruisseaux des monts fraîchement arrosée,</l>
           <l>Je sais plus d’une fleur, brillante de rosée,</l>
-          <l>Qui reluit plus que toi, pâle soleil du Nord !</l>
-        </quote>
-        <p>On a rattaché à l’influence de René et de Werther d’autres œuvres telles que <hi rend="i"
+          <l>Qui reluit plus que toi, pâle soleil du Nord !</l> </quote><p>On a rattaché à l’influence de René et de Werther d’autres œuvres telles que <hi rend="i"
             >Valérie</hi> de M<hi rend="sup">me</hi> de Krüdener, cette Madeleine mystique qui
           voulait réformer le monde par la chaleur de ses repentirs ; l’<hi rend="i">Adolphe</hi> de
           Benjamin Constant, <hi rend="i">le Peintre de Salzbourg</hi> de Charles Nodier ;
@@ -2952,9 +2860,7 @@
             choses comme dans les grandes. Il ne peut voir une aurore sans regretter l’aube, l’aube
             sans regretter la nuit, ni une belle nuit sans regretter le tomber du jour. Il se gâte
             tout et se complaît à se gâter tout. À force d’être ennuyé Oberman court risque à la
-            longue de devenir ennuyeux. »</p>
-        </quote>
-        <p>D’ailleurs de Sénancour n’avait point imité René, il l’avait au contraire précédé, avec
+            longue de devenir ennuyeux. »</p> </quote><p>D’ailleurs de Sénancour n’avait point imité René, il l’avait au contraire précédé, avec
           ses <hi rend="i">Rêveries sur la Nature primitive de l’Homme</hi>, lesquelles avaient eu
           pour prototype les <hi rend="i">Rêveries du Promeneur solitaire</hi>, de Rousseau. <pb
             n="126"/>La mélancolie n’était point seulement un <hi rend="i">genre</hi>, une mode,
@@ -3162,9 +3068,7 @@
             fatigue et quelle misère quand on voit un si bel esprit ne plus s’occuper qu’à arranger,
             à combiner, à déranger des sacs plus ou moins remplis jusqu’à la gueule, et n’être gai
             et n’être heureux, et n’être soi-même qu’au beau milieu d’un coffre-fort ! L’argent sera
-            le malheur des livres de M. de Balzac, l’argent en est déjà le fléau. »</p>
-        </quote>
-        <p>Ainsi, tandis que le fantastique d’Hoffmann semble procéder de l’ivresse, celui de Balzac
+            le malheur des livres de M. de Balzac, l’argent en est déjà le fléau. »</p> </quote><p>Ainsi, tandis que le fantastique d’Hoffmann semble procéder de l’ivresse, celui de Balzac
           touche à la folie. Le premier est gai, léger, imprégné de soleil et d’harmonie, quelque
           fois terrible, mais par surprise et comme en passant. Celui de Balzac est fatal, sombre,
           décourageant, produit l’impression d’une profonde démoralisation, et donne la terreur de
@@ -3252,9 +3156,7 @@
           s’abstenir de lire le récit tout plein de réticences qui y conduit. C’est un genre, je le
           veux bien et</p>
         <quote>
-          <l>Tous les genres sont bons, hors le genre ennuyeux,</l>
-        </quote>
-        <p rend="noindent">mais je ne pense pas qu’on puisse opposer Edgar Poe à Hoffmann, comme l’a
+          <l>Tous les genres sont bons, hors le genre ennuyeux,</l> </quote><p rend="noindent">mais je ne pense pas qu’on puisse opposer Edgar Poe à Hoffmann, comme l’a
           fait M. William Hughes dans son élégante traduction des <hi rend="i">Nouveaux
           Contes</hi> : <quote>« Tandis que Théodore Hoffmann, également amoureux de
             l’hallucination, s’arrête à ce qu’elle lui montre, et, comme s’il craignait de faire
@@ -3557,9 +3459,7 @@
           <l>Je siège sur le trône où Jupiter réside,</l>
           <l>C’est moi qui mets la foudre aux mains du roi des dieux,</l>
           <l>Et j’ombrage en dormant, de mon aile intrépide</l>
-          <l>Le sceptre redouté qui gouverne les cieux.</l>
-        </quote>
-        <p><pb n="154"/>Ces vers qui ont conservé la monotonie de l’alexandrin classique n’étaient
+          <l>Le sceptre redouté qui gouverne les cieux.</l> </quote><p><pb n="154"/>Ces vers qui ont conservé la monotonie de l’alexandrin classique n’étaient
           sans doute que les premiers bégaiements de la poésie romantique. Quoique les <hi rend="i"
             >Études poétiques</hi> de Chênedollé n’eussent paru que deux ans après les premières <hi
             rend="i">Méditations</hi> de Lamartine, elles avaient cependant le mérite d’avoir été
@@ -3627,17 +3527,13 @@
           <l>La colombe gémissante</l>
           <l>Me demande par pitié</l>
           <l>       Sa moitié</l>
-          <l>Sa moitié loin d’elle absente.</l>
-        </quote>
-        <p>Cette moitié c’est la rime, la rime rebelle, dont le despotisme enlève à la poésie
+          <l>Sa moitié loin d’elle absente.</l> </quote><p>Cette moitié c’est la rime, la rime rebelle, dont le despotisme enlève à la poésie
           française la souplesse et la liberté des poésies germaniques, mais qui, sous la plume des
           vrais poètes devient, comme le dit M. Sainte-Beuve, une fée,</p>
         <quote>
           <l>Qui mène le char des vers</l>
           <l>       Dans les airs</l>
-          <l>Par deux sillons de lumière.</l>
-        </quote>
-        <p>Les vers alexandrins même, ces vers pompeux et monotones, marchant deux à deux, à pas
+          <l>Par deux sillons de lumière.</l> </quote><p>Les vers alexandrins même, ces vers pompeux et monotones, marchant deux à deux, à pas
           mesurés, <quote>« comme les bœufs »</quote>, selon l’expression d’un poète de l’époque,
           combien ne changent-ils pas de tournure et d’expression sous la plume des romantiques ?
           C’est comme <pb n="157"/>un instrument nouveau, et cependant c’est toujours celui sur
@@ -3663,9 +3559,7 @@
           <l/>
           <l>J’étais dans ce concert un sublime instrument ;</l>
           <l>Homme, je me sentais plus grand qu’un élément,</l>
-          <l>Et Dieu parlait en moi plus haut que dans l’orage.</l>
-        </quote>
-        <p>Charles Nodier, le charmant conteur, contribua beaucoup aussi à la reconstitution de la
+          <l>Et Dieu parlait en moi plus haut que dans l’orage.</l> </quote><p>Charles Nodier, le charmant conteur, contribua beaucoup aussi à la reconstitution de la
           langue poétique en France. <quote>« Tout le monde, disait-il, tous les soleils, toute la
             création pour une pensée, et toutes les pensées de l’homme avec tout le reste pour un
             sentiment ! La poésie du vulgaire, ce n’est pas cela peut-être, mais la poésie du poète,
@@ -3757,9 +3651,7 @@
           <l>Descends du rang des dieux qu’usurpait ton audace,</l>
           <l>Tout est bien, tout est bon, tout est grand à sa place ;</l>
           <l>Aux regards de celui qui fit l’immensité</l>
-          <l>L’insecte vaut un monde : ils ont autant coûté. »</l>
-        </quote>
-        <p>C’était bien là une inspiration byronienne. M. de Lamartine, classique encore par la
+          <l>L’insecte vaut un monde : ils ont autant coûté. »</l> </quote><p>C’était bien là une inspiration byronienne. M. de Lamartine, classique encore par la
           forme régulière du vers, s’enthousiasmait pour cette musique nouvelle, pour ces accords
           déchirants qui sortaient d’une âme puissante et blessée, comme les clameurs de Laocoon,
           pour cette <pb n="161"/>poésie du désespoir qui osait s’attaquer à toutes les conventions
@@ -3802,9 +3694,7 @@
           <l>Viens reprendre ton rang dans ta splendeur première,</l>
           <l>Parmi ces purs enfants de gloire et de lumière,</l>
           <l>Que d’un souffle choisi Dieu voulut animer,</l>
-          <l>Et qu’il fit pour chanter, pour croire et pour aimer !</l>
-        </quote>
-        <p>Ainsi, ce qui avait frappé M. de Lamartine dans la voix de Byron, c’était la sincérité de
+          <l>Et qu’il fit pour chanter, pour croire et pour aimer !</l> </quote><p>Ainsi, ce qui avait frappé M. de Lamartine dans la voix de Byron, c’était la sincérité de
           l’émotion, l’écho des grandes voix de la nature, l’étrangeté de l’accent, la puissance du
           timbre, mais le poète chrétien ne suivait pas plus loin le poète sceptique. Du haut de son
           autel il le regardait tournoyer dans l’abîme et se contentait de prier pour lui. Son
@@ -3875,9 +3765,7 @@
             poète et quelquefois sublime. On ne se rit point de ces génies audacieux, dont la
             mission, comme celle d’Attila, est de tout renverser et de tout détruire. Ainsi nous
             apparaît Hugo, plein de son œuvre, fier et habile destructeur, immolant sans pitié les
-            nobles Muses de la Seine au délire sauvage de sa Muse en courroux. »</p>
-        </quote>
-        <p>En effet, plus semblable aux poètes germaniques que Lamartine, V. Hugo ajoutait aux
+            nobles Muses de la Seine au délire sauvage de sa Muse en courroux. »</p> </quote><p>En effet, plus semblable aux poètes germaniques que Lamartine, V. Hugo ajoutait aux
           révoltes de la forme, les révoltes de la pensée. Ce n’était pas encore la profondeur de
           Byron ou de Goethe. Les problèmes humains ne se posaient pas devant lui avec le même
           fatalisme, disons-le franchement : avec le même sérieux. V. Hugo n’était pas précisément
@@ -3908,9 +3796,7 @@
               <hi rend="i">l’obscurité indispensable</hi>, ce qui est obscur et confusément révélé.
             Ses œuvres abondent en traits extraordinaires de ce genre, que nous pourrions appeler
             des tours de force, si nous ne savions pas qu’ils lui sont essentiellement
-            naturels. »</p>
-        </quote>
-        <p>M. Baudelaire veut-il dire que Victor Hugo excelle dans <hi rend="i">la perspective
+            naturels. »</p> </quote><p>M. Baudelaire veut-il dire que Victor Hugo excelle dans <hi rend="i">la perspective
             aérienne</hi>, dans l’art de placer chaque objet à son plan ? <quote><hi rend="i">Ut
               pictura poesis</hi> !</quote></p>
         <p>Laissons-le continuer : <quote>« Le vers de Victor Hugo sait traduire pour l’âme humaine
@@ -3985,9 +3871,7 @@
           <p>« Eh bien, cela pourrait suffire. La France et l’Allemagne sont essentiellement
             l’Europe. L’Allemagne est le cœur, la France est la tête. L’Allemagne et la France sont
             essentiellement la civilisation. <hi rend="i">L’Allemagne sent, la France pense.</hi> Le
-            sentiment et la pensée, c’est tout l’homme civilisé. »</p>
-        </quote>
-        <p>Quelle que soit la part faite à l’une et à l’autre des deux nations dans cette
+            sentiment et la pensée, c’est tout l’homme civilisé. »</p> </quote><p>Quelle que soit la part faite à l’une et à l’autre des deux nations dans cette
           distribution des facultés de l’homme civilisé, et quoiqu’il semble que le contraire du mot
           de Victor Hugo serait bien plus vrai, ces paroles prouvent du moins combien le chef du
           Romantisme <pb n="171"/>s’était profondément plongé dans le sentiment du génie germanique.
@@ -4020,9 +3904,7 @@
           <l>Joindraient tes mains enchaînées</l>
           <l>Aux vieilles mains décharnées</l>
           <l>De leurs Naïades fanées,</l>
-          <l>Mortes depuis deux mille ans !</l>
-        </quote>
-        <p><pb n="172"/>Dans <hi rend="i">les Orientales, les Feuilles d’Automne</hi>, les <hi
+          <l>Mortes depuis deux mille ans !</l> </quote><p><pb n="172"/>Dans <hi rend="i">les Orientales, les Feuilles d’Automne</hi>, les <hi
             rend="i">Chants du Crépuscule</hi>, les <hi rend="i">Voix intérieures, les Rayons et les
             Ombres</hi> il est poursuivi, çà et là, par des réminiscences ou plutôt par des
           aspirations germaniques, car il ne connut l’Allemagne que plus tard, et l’on put retrouver
@@ -4094,9 +3976,7 @@
           <l>          Dans le mal triomphants,</l>
           <l>De jamais voir, Seigneur ! l’été sans fleurs nouvelles,</l>
           <l>La cage sans oiseaux, la ruche sans abeilles,</l>
-          <l>          La maison sans enfants !</l>
-        </quote>
-        <p><pb n="174"/>Malgré cette espèce d’affinité que Victor Hugo semble manifester pour
+          <l>          La maison sans enfants !</l> </quote><p><pb n="174"/>Malgré cette espèce d’affinité que Victor Hugo semble manifester pour
           l’élément germanique, il est étrange qu’il soit si peu goûté en Allemagne, et que la
           nation la mieux faite pour le comprendre le connaisse si mal et lui rende si peu justice.
           M. Julian Schmidt dans son <hi rend="i">Histoire de la Littérature française</hi>, livre
@@ -4181,14 +4061,10 @@
           <l>Pour en faire plus tard notre sang et notre âme,</l>
           <l>Nous aspirons à flots ta lumière et ta flamme,</l>
           <l>Les feuillages, les monts, les prés verts, le ciel bleu,</l>
-          <l>Toi, sans te déranger, tu rêves à ton Dieu !</l>
-        </quote>
-        <p>Dans ses Odes, dans quelques pièces célèbres telle que celle intitulée <hi rend="i"
+          <l>Toi, sans te déranger, tu rêves à ton Dieu !</l> </quote><p>Dans ses Odes, dans quelques pièces célèbres telle que celle intitulée <hi rend="i"
             >Fantômes</hi> :</p>
         <quote>
-          <l>Hélas ! que j’en ai vu mourir de jeunes filles !…</l>
-        </quote>
-        <p rend="noindent">dans l’admirable pièce de <hi rend="i">Napoléon II</hi> qui d’un bout à
+          <l>Hélas ! que j’en ai vu mourir de jeunes filles !…</l> </quote><p rend="noindent">dans l’admirable pièce de <hi rend="i">Napoléon II</hi> qui d’un bout à
           l’autre est un chef-d’œuvre de sentiment, de mouvement lyrique et de splendeur poétique,
           où l’on trouve de ces vers :</p>
         <quote>
@@ -4206,9 +4082,7 @@
           <l>Victoire aux ailes embrasées,</l>
           <l>Ambitions réalisées,</l>
           <l>Ne sont jamais sur nous posées,</l>
-          <l>Que comme l’oiseau sur nos toits !</l>
-        </quote>
-        <p rend="noindent"><pb n="178"/>dans l’élégie enivrante qui a pour titre <hi rend="i">la
+          <l>Que comme l’oiseau sur nos toits !</l> </quote><p rend="noindent"><pb n="178"/>dans l’élégie enivrante qui a pour titre <hi rend="i">la
             Tristesse d’Olympio</hi> :</p>
         <quote>
           <l>— Les champs n’étaient point noirs, les cieux n’étaient point mornes</l>
@@ -4233,9 +4107,7 @@
           <l>N’existons-nous donc plus ? avons-nous eu notre heure ?</l>
           <l>Rien ne la rendra-t-il à nos cris superflus ?</l>
           <l>L’air joue avec la branche au moment où je pleure ;</l>
-          <l>Ma maison me regarde et ne me connaît plus.</l>
-        </quote>
-        <p rend="noindent">partout, en un mot, où Victor Hugo, entraîné par un sentiment profond et
+          <l>Ma maison me regarde et ne me connaît plus.</l> </quote><p rend="noindent">partout, en un mot, où Victor Hugo, entraîné par un sentiment profond et
           vrai, répand avec le lyrisme le plus élevé, les effusions de l’âme auxquelles son
           imagination donne une expression si poignante et si pure, il échappe à la critique, il
           plane au-dessus des philosophes et des penseurs à des hauteurs que peu de poètes, même de
@@ -4321,9 +4193,7 @@
           <l><pb n="182"/>Il la vit tourner dans l’eau noire,</l>
           <l>La vague en s’ouvrant fit un pli,</l>
           <l>Le roi pencha son front pâli…</l>
-          <l>Jamais on ne le vit plus boire.</l>
-        </quote>
-        <p>M. Arsène Houssaye fut, à côté de Th. Gautier, le plus élégant des fantaisistes.
+          <l>Jamais on ne le vit plus boire.</l> </quote><p>M. Arsène Houssaye fut, à côté de Th. Gautier, le plus élégant des fantaisistes.
           M. Monselet publia un volume de chansons bachiques dans le rythme des <hi rend="i"
             >Lieder</hi> allemands, qu’il intitula <hi rend="i">Les Vignes du Seigneur</hi>.
           M. Boulmier tenta de transporter en français la prosodie allemande, en faisant des vers
@@ -4348,17 +4218,13 @@
           <l>Ô la bière,</l>
           <l>Vaste bière,</l>
           <l>Où le cœur</l>
-          <l>Dort vainqueur, etc.</l>
-        </quote>
-        <p>Comme correctif, citons de lui les vers suivants qui rappellent la grande manière de
+          <l>Dort vainqueur, etc.</l> </quote><p>Comme correctif, citons de lui les vers suivants qui rappellent la grande manière de
           Victor Hugo :</p>
         <quote>
           <l>Beaux comme ces héros que l’on voit dans les rêves,</l>
           <l>Deux vieillards au grand front, sous le ciel pâle et bleu,</l>
           <l>L’un vers l’autre penché, causaient au bord des grèves.</l>
-          <l>L’un c’était l’Océan et l’autre c’était Dieu.</l>
-        </quote>
-        <p>Des poètes modernes tels que MM. Bouilhet, Baudelaire, de Banville, sont restés fidèles à
+          <l>L’un c’était l’Océan et l’autre c’était Dieu.</l> </quote><p>Des poètes modernes tels que MM. Bouilhet, Baudelaire, de Banville, sont restés fidèles à
           la manière du maître, ce qui ne les empêche pas d’avoir chacun un talent fort différent.
           En se perfectionnant, le vers romantique est devenu plus souple, et l’exagération s’efface
           à mesure qu’on s’éloigne des jours de la lutte. Hélas ! les <hi rend="i">poètes
@@ -4371,9 +4237,7 @@
           <l>Redoutons l’anglomanie,</l>
           <l>Elle a gâté tout.</l>
           <l>N’allons pas en Germanie</l>
-          <l>Chercher les règles du goût !</l>
-        </quote>
-        <p rend="noindent"><pb n="184"/>il y eut à cette époque un autre poète qui sut se placer à
+          <l>Chercher les règles du goût !</l> </quote><p rend="noindent"><pb n="184"/>il y eut à cette époque un autre poète qui sut se placer à
           côté des maîtres en se traçant une route originale ; ce fut Alfred de Musset.</p>
         <p>Romantique comme les autres, on put croire, à ses débuts, qu’il prendrait place à côté
           d’Émile Deschamps, par ses <hi rend="i">Contes d’Espagne et d’Italie</hi>, ou à la suite
@@ -4394,9 +4258,7 @@
           <l>Tu peux m’entrer au ventre et m’empoisonner l’âme,</l>
           <l>Ainsi que d’une plaie on arrache une lame,</l>
           <l>Plutôt que comme un lâche on me voie en souffrir,</l>
-          <l>Je t’en arracherai quand j’en devrais mourir.</l>
-        </quote>
-        <p>Mais il eut beau faire, l’amour vint, et il en souffrit plus qu’aucun autre, car il en
+          <l>Je t’en arracherai quand j’en devrais mourir.</l> </quote><p>Mais il eut beau faire, l’amour vint, et il en souffrit plus qu’aucun autre, car il en
           mourut.</p>
         <p>Une fois qu’il eût jeté au vent sa première verve cavalière et rêveuse, Alfred de Musset
           comprit qu’il valait encore mieux rêver que de vivre dans la réalité :</p>
@@ -4413,33 +4275,25 @@
           <l>Ne trouvait pas toujours la nature insensible</l>
           <l>Qui lui heurte le front contre un pilier d’airain !</l>
           <l>Si l’on pouvait se faire une armure insensible !</l>
-          <l>Si l’on rassasiait l’amour comme la faim !</l>
-        </quote>
-        <p>Plus d’une note douloureuse commença alors à résonner sur cette guitare sur laquelle
+          <l>Si l’on rassasiait l’amour comme la faim !</l> </quote><p>Plus d’une note douloureuse commença alors à résonner sur cette guitare sur laquelle
           jusqu’alors le poète avait chanté avec tant de verve <hi rend="i">la marquesa d’Amaegui,
             Pepa, Deidamia, Mona Belcolore, la Camargo, Ninon et Ninette</hi>, et cette <hi rend="i"
             >Juana</hi> à laquelle il disait :</p>
         <quote>
           <l>Quand un cœur vous a contenue,</l>
           <l>Juana, la place est devenue</l>
-          <l>Trop vaste pour un autre amour.</l>
-        </quote>
-        <p>Déjà, avant que <hi rend="i">Rolla</hi> eût paru, on avait crié à l’imitation de Byron.
+          <l>Trop vaste pour un autre amour.</l> </quote><p>Déjà, avant que <hi rend="i">Rolla</hi> eût paru, on avait crié à l’imitation de Byron.
           Le poète avait répondu :</p>
         <p>Byron, me direz-vous, m’a servi de modèle ;</p>
         <quote>
-          <l>Vous ne savez donc pas qu’il imitait Pulci.</l>
-        </quote>
-        <p>Et ailleurs :</p>
+          <l>Vous ne savez donc pas qu’il imitait Pulci.</l> </quote><p>Et ailleurs :</p>
         <quote>
           <l>Je ne fais pas grand cas pour moi, de la critique.</l>
           <l>Toute mouche qu’elle est, c’est rare qu’elle pique.</l>
           <l>On m’a dit l’an passé que j’imitais Byron :</l>
           <l>Vous qui me connaissez, vous savez bien que non.</l>
           <l>Je hais comme la mort l’état de plagiaire ;</l>
-          <l>Mon verre n’est pas grand, mais je bois dans mon verre.</l>
-        </quote>
-        <p>Le poème de <hi rend="i">Rolla</hi>, c’était le premier grand cri de douleur de ce poète
+          <l>Mon verre n’est pas grand, mais je bois dans mon verre.</l> </quote><p>Le poème de <hi rend="i">Rolla</hi>, c’était le premier grand cri de douleur de ce poète
           ardent et désenchanté, avide d’amour <pb n="186"/>et sans croyance. Rolla est un Don Juan
           à la française, jeune homme qui s’est ruiné dans la débauche et qui veut se tuer dans une
           dernière nuit de plaisir. Le poète compare son héros à Faust :</p>
@@ -4480,9 +4334,7 @@
           <l>Sous la tiède oasis du désert embaumé,</l>
           <l>Baigne ses fruits dorés de myrrhe et d’ambroisie,</l>
           <l>Et pour féconder l’air, comme un palmier d’Asie,</l>
-          <l>N’a qu’à jeter au vent son voile parfumé !</l>
-        </quote>
-        <p>Quelle ravissante poésie ! Quel élan ! quelle grâce ! et en même temps quelle
+          <l>N’a qu’à jeter au vent son voile parfumé !</l> </quote><p>Quelle ravissante poésie ! Quel élan ! quelle grâce ! et en même temps quelle
           simplicité ! On conçoit que toute la jeune génération s’enflammât pour cette muse de la
           jeunesse dorée, pour cette fantaisie qui rappelait tout autant l’adorable fantaisie de
           Shakespeare que les bizarres divagations de Byron. Certes Alfred de Musset ne contribua
@@ -4550,9 +4402,7 @@
           <l>    Qui vous perd n’a pas tout perdu.</l>
           <l>Jetez au vent notre amour consumée ;</l>
           <l>Éternel Dieu ! toi que j’ai tant aimée,</l>
-          <l>    Si tu pars, pourquoi m’aimes-tu ?</l>
-        </quote>
-        <p>On voudrait tout citer quand on en revient à cet enchanteur de nos jeunes années, et on
+          <l>    Si tu pars, pourquoi m’aimes-tu ?</l> </quote><p>On voudrait tout citer quand on en revient à cet enchanteur de nos jeunes années, et on
           le compare involontairement à un autre grand lyrique de notre âge qui, lui aussi, a séduit
           toute une génération. Je veux parler de Henri Heine qu’il faut avoir lu dans sa langue
           pour apprécier pleinement. On prend trop en France Henri Heine pour un railleur paradoxal
@@ -4570,9 +4420,7 @@
           <l>C’était dans la nuit brune</l>
           <l>Sur le clocher jauni</l>
           <l>      La lune,</l>
-          <l>Comme un point sur un i,</l>
-        </quote>
-        <p>Henri Heine faisait des gorges chaudes de Tieck, des frères Schlegel, de Platen, du roi
+          <l>Comme un point sur un i,</l> </quote><p>Henri Heine faisait des gorges chaudes de Tieck, des frères Schlegel, de Platen, du roi
           Louis de Bavière, de Koerner, de tous les héros gothiques du romantisme allemand<note
             resp="author">Comme on le sait, Goethe et Schiller ne sont point considérés en Allemagne
             comme des romantiques : ils sont au contraire les classiques par excellence. Du reste,
@@ -4587,9 +4435,7 @@
           <l>         N’efface pas la trace altière</l>
           <l>Des pieds de nos chevaux marqués dans votre sang<note resp="author">Voir à la fin du
               volume la pièce de Becker et les réponses d’Alfred de Musset et de
-            Lamartine.</note> !</l>
-        </quote>
-        <p>Henri Heine répliquait, dans son <hi rend="i">Conte d’Hiver</hi> :</p>
+            Lamartine.</note> !</l> </quote><p>Henri Heine répliquait, dans son <hi rend="i">Conte d’Hiver</hi> :</p>
         <quote>
           <p>« Ô ne crains pas, mon père Rhin, la raillerie des Français ; ce ne sont plus les mêmes
             que tu as connus, ils portent d’autres culottes.</p>
@@ -4604,9 +4450,7 @@
           <p>« Alfred de Musset est encore, il est vrai, un gamin des rues ; mais ne crains rien,
             nous lui lierons son infâme langue railleuse.</p>
           <p>« Et s’il te tambourine quelque mauvaise plaisanterie, nous lui en sifflerons une pire,
-            nous lui sifflerons ce qui lui est arrivé chez les jolies femmes. »</p>
-        </quote>
-        <p>Seulement, comme on le voit, Heine est bien plus libre, bien plus familier dans son
+            nous lui sifflerons ce qui lui est arrivé chez les jolies femmes. »</p> </quote><p>Seulement, comme on le voit, Heine est bien plus libre, bien plus familier dans son
           style, grâce aux licences de la poésie allemande. Au fond, il est aussi plus amer, plus
           roué, <hi rend="i">plus fort</hi>, comme on dirait dans un certain monde, que son émule
           français. Alfred de Musset a naïvement souffert, et sur la fin de sa vie brisé, découragé,
@@ -4732,9 +4576,7 @@
             familières troublait Catherine de Médicis et la faisait hésiter sur une mauvaise action,
             que fait-il dans le drame de Chénier ? il parle bien, il parle élégamment, il ressemble
             un peu au Burrhus de Racine ; ce n’est pas le chancelier de l’Hôpital retrouvé,
-            ressuscité, rhabillé devant le public. »</p>
-        </quote>
-        <p>On peut en dire autant des autres tragédies de cet auteur, de <hi rend="i"
+            ressuscité, rhabillé devant le public. »</p> </quote><p>On peut en dire autant des autres tragédies de cet auteur, de <hi rend="i"
             >Henri VIII</hi>, de <hi rend="i">la Mort de Calas</hi>, de <hi rend="i">Caïus
             Gracchus</hi>, et de <hi rend="i">Timoléon</hi> dans laquelle il peignit la tyrannie
           avec des couleurs si vigoureuses que les terroristes s’y reconnurent et en firent brûler
@@ -4746,9 +4588,7 @@
           <l>Usurpant sans pudeur le nom de liberté,</l>
           <l>Roule au sein de Corinthe un char ensanglanté…</l>
           <l>Il est temps d’abjurer ces coupables maximes,</l>
-          <l>Il faut des lois, des mœurs, et non pas des victimes.</l>
-        </quote>
-        <p>Quelque exalté que fût Chénier pour la révolution, il l’était dans le bon sens. Il en
+          <l>Il faut des lois, des mœurs, et non pas des victimes.</l> </quote><p>Quelque exalté que fût Chénier pour la révolution, il l’était dans le bon sens. Il en
           adorait les principes, mais il en maudissait les erreurs. Dans sa pièce de <hi rend="i"
             >Caïus Gracchus</hi> il faisait dire à Cornélie, la mère des deux tribuns défenseurs du
           peuple :</p>
@@ -4760,9 +4600,7 @@
           <l>Qu’il faut de l’indigent soulager les misères,</l>
           <l>Que des patriciens les plébéiens sont frères,</l>
           <l>Que l’homme en tout pays naît pour la liberté</l>
-          <l>Et qu’il n’est de grandeur que dans l’égalité.</l>
-        </quote>
-        <p>C’est en vertu de ces idées généreuses que Marie-Joseph Chénier fut amené à tenter le
+          <l>Et qu’il n’est de grandeur que dans l’égalité.</l> </quote><p>C’est en vertu de ces idées généreuses que Marie-Joseph Chénier fut amené à tenter le
           sujet de Philippe II, qui a été traité supérieurement par deux autres poètes, Schiller et
           Alfieri.</p>
         <p>Ce sujet prête d’autant plus au drame qu’il est moins connu dans l’histoire. Les
@@ -4810,9 +4648,7 @@
           <label type="speaker">Philippe <hi rend="i">(sortant)</hi>.</label>
           <l part="I">Jamais.</l>
           <label type="speaker">Carlos <hi rend="i">(se relevant désespéré)</hi>.</label>
-          <l part="F">Jamais ! ce mot a fixé mon destin.</l>
-        </quote>
-        <p>Au moment de partir, surpris par son père au milieu de ses adieux à la reine, Don Carlos,
+          <l part="F">Jamais ! ce mot a fixé mon destin.</l> </quote><p>Au moment de partir, surpris par son père au milieu de ses adieux à la reine, Don Carlos,
           accusé par Albe et Spinola, est condamné à mort, et boit le poison qui lui est présenté
           par un vieux soldat de Charles-Quint. Il meurt. La reine accable le roi de reproches, et
           la pièce finit par ces mots qu’elle adresse à Philippe II :</p>
@@ -4820,9 +4656,7 @@
           <l>Carlos m’attend. J’accours à sa voix gémissante ;</l>
           <l>Je recueille la mort sur sa bouche innocente,</l>
           <l>Et mon âme, fuyant ton pouvoir odieux,</l>
-          <l>À l’époux de mon choix se rejoint dans les cieux.</l>
-        </quote>
-        <p>On le voit, la tragédie de Marie-Joseph Chénier est beaucoup plus simple que l’admirable
+          <l>À l’époux de mon choix se rejoint dans les cieux.</l> </quote><p>On le voit, la tragédie de Marie-Joseph Chénier est beaucoup plus simple que l’admirable
           drame de Schiller, mais à l’exception des créations originales du Marquis de Posa et de la
           princesse Eboli, les personnages et la fable sont à peu près les mêmes. Tous les avantages
           d’ailleurs sont du côté de la pièce allemande, non seulement par la supériorité du drame
@@ -4888,16 +4722,12 @@
           <l>Qui réglant les destins des têtes couronnées,</l>
           <l>Des monarques anglais rompant les hyménées,</l>
           <l>Du pontife romain leur imposent les fers</l>
-          <l>Et troublent saintement la paix de l’univers !</l>
-        </quote>
-        <p>Ce dernier vers serait encore aujourd’hui d’une piquante actualité.</p>
+          <l>Et troublent saintement la paix de l’univers !</l> </quote><p>Ce dernier vers serait encore aujourd’hui d’une piquante actualité.</p>
         <p>D’autres fois c’est la femme de Colomb qui s’écrie :</p>
         <quote>
           <l>                                     Dieu daigne préserver</l>
           <l>Toute femme qui veut être heureuse en sa vie,</l>
-          <l>De ces fous… appelés des hommes de génie !</l>
-        </quote>
-        <p>Quant au caractère de Colomb, il est développé avec profondeur et se montre surtout dans
+          <l>De ces fous… appelés des hommes de génie !</l> </quote><p>Quant au caractère de Colomb, il est développé avec profondeur et se montre surtout dans
           une scène dans laquelle le prêtre Salvador et le médecin Pharmacos entreprennent de
           prouver au grand homme, l’un qu’il <pb n="204"/>est impie ou fou, l’autre qu’il est
           malade, et finissent par céder à son éloquence, par embrasser ses vues et par vouloir
@@ -5042,13 +4872,9 @@
           théâtrale.</p>
         <p>— Pourquoi, dit-elle un jour au jeune auteur, faites-vous dire à Dona Sol :</p>
         <quote>
-          <l>Vous êtes <hi rend="i">mon lion</hi> superbe et généreux ?</l>
-        </quote>
-        <p>Voulez-vous qu’on dise que je suis une lionne ? Ne pourriez-vous mettre :</p>
+          <l>Vous êtes <hi rend="i">mon lion</hi> superbe et généreux ?</l> </quote><p>Voulez-vous qu’on dise que je suis une lionne ? Ne pourriez-vous mettre :</p>
         <quote>
-          <l>Vous êtes <hi rend="i">mon seigneur</hi> superbe et généreux ?</l>
-        </quote>
-        <p>— Madame, répondit V. Hugo, j’ai rayé le titre de <hi rend="i">seigneur</hi> de mon
+          <l>Vous êtes <hi rend="i">mon seigneur</hi> superbe et généreux ?</l> </quote><p>— Madame, répondit V. Hugo, j’ai rayé le titre de <hi rend="i">seigneur</hi> de mon
           dictionnaire.</p>
         <p>— Mais on sifflera.</p>
         <p>— On en aura le droit, Madame, mais cela ne me fera pas changer d’avis.</p>
@@ -5113,9 +4939,7 @@
           <l>                      Croyez-vous donc qu’on soit si bien dans cette armoire ?</l>
           <p>la salle ne se possédait déjà plus. Elle fut enlevée par la scène des tableaux, et le
             fameux monologue l’acheva. Si le drame avait eu six actes, nous tombions tous asphyxiés.
-            L’auteur y mit de la discrétion ; nous en fûmes quittes pour quelques courbatures. »</p>
-        </quote>
-        <p>Mais les railleurs ne furent pas les derniers à rire : la cause de la réforme triompha.
+            L’auteur y mit de la discrétion ; nous en fûmes quittes pour quelques courbatures. »</p> </quote><p>Mais les railleurs ne furent pas les derniers à rire : la cause de la réforme triompha.
           La glace était rompue. Le public avait compris que le nouveau système dramatique lui
           offrirait bien plus d’attrait que les maigres conceptions classiques qu’il s’était
           jusqu’alors habitué à applaudir sur la foi de l’autorité et de la tradition. Il sentait
@@ -5131,9 +4955,7 @@
           grand empereur :</p>
         <quote>
           <l>Le bleu manteau des rois pourrait gêner vos pas,</l>
-          <l>La pourpre vous va mieux, le sang n’y paraît pas,</l>
-        </quote>
-        <p rend="noindent">dans <hi rend="i">Marion Delorme</hi> le poète continuait le même système
+          <l>La pourpre vous va mieux, le sang n’y paraît pas,</l> </quote><p rend="noindent">dans <hi rend="i">Marion Delorme</hi> le poète continuait le même système
           de contrastes. Cette fois c’était l’amour le plus pur qu’il plaçait dans le cœur d’une
           femme galante. On trouvait dans cette pièce une poésie pleine d’élan, mais qui avait le
           défaut d’être trop lyrique, au point qu’on en a pu dire, comme de plusieurs autres qui
@@ -5253,9 +5075,7 @@
             héros vaniteux et <pb n="220"/>déclamateur, homme sans loi et sans cœur, plein d’une
             haine féroce contre la société, chez qui la passion a l’accent de la fureur, chez qui
             l’amour rugit comme un instinct sauvage, et qui, acharné à sa proie jusqu’à la
-            persécution et presque au viol, couronne son œuvre de brutalité par l’assassinat ! »</p>
-        </quote>
-        <p>Quelque exagéré que paraisse le type d’Antony aux critiques timorés, le succès prolongé
+            persécution et presque au viol, couronne son œuvre de brutalité par l’assassinat ! »</p> </quote><p>Quelque exagéré que paraisse le type d’Antony aux critiques timorés, le succès prolongé
           qu’obtint la pièce prouve que ce type flottait dans l’air de l’époque, avec ceux de <hi
             rend="i">René</hi> et de <hi rend="i">Werther</hi>. Il est facile de crier au scandale
           vingt ans après, quand le temps a refroidi l’enthousiasme et changé du tout au tout
@@ -5464,24 +5284,18 @@
             admirable sens commun que nous avons au plus haut degré — comme aussi d’un sentiment
             inné de la couleur, de l’image, de la forme, d’une aspiration insatiable vers toutes les
             choses idéales et divines que nous n’avons jamais eus, — résulte la poésie de Goethe
-            dans sa plus imposante harmonie. »</p>
-        </quote>
-        <p>Voilà pour l’inspiration que Goethe doit à la France. Quant à son aspiration vers
+            dans sa plus imposante harmonie. »</p> </quote><p>Voilà pour l’inspiration que Goethe doit à la France. Quant à son aspiration vers
           l’élément gaulois, agissant et chevaleresque, je ne la vois nulle part plus clairement
           exprimée que dans le poème de <hi rend="i">Faust</hi>. À quoi tend essentiellement Faust
           dans le long monologue par lequel il débute, si ce n’est à sortir de cette science
           abstraite représentée par l’allemand-type Wagner, surtout dans ce vers
           caractéristique :</p>
         <quote>
-          <l>« Je sais beaucoup, il est vrai, mais je voudrais tout savoir »,</l>
-        </quote>
-        <p rend="noindent">à quoi Faust répond :</p>
+          <l>« Je sais beaucoup, il est vrai, mais je voudrais tout savoir »,</l> </quote><p rend="noindent">à quoi Faust répond :</p>
         <quote>
           <p>« Comment l’espérance n’abandonne-t-elle pas une tête qui s’obstine à rester collée à
             une manière insipide, creuse le sol de ses mains avides pour y découvrir un trésor, et
-            se réjouit d’y trouver un ver de terre ! »</p>
-        </quote>
-        <p>À quoi tend ce philosophe rassasié d’abstractions et de science inféconde, si ce n’est à
+            se réjouit d’y trouver un ver de terre ! »</p> </quote><p>À quoi tend ce philosophe rassasié d’abstractions et de science inféconde, si ce n’est à
           l’action, à la vie extérieure, à l’élément pratique ? Écoutons-le lorsque, ranimé par une
           promenade au milieu de la foule, il entreprend la traduction du <hi rend="i">Nouveau
             Testament</hi> :</p>
@@ -5496,9 +5310,7 @@
           <p>« Il devrait y avoir : “Au commencement était <hi rend="i">la Force</hi>.” Cependant,
             tandis que j’écris ceci, quelque chose m’avertit de ne point m’en tenir là. L’Esprit
             vient à mon aide ! Cette fois je me sens bien conseillé, et j’écris en toute confiance :
-              “<hi rend="i">Au commencement était l’Action</hi>.” »</p>
-        </quote>
-        <p>C’était donc là la grande préoccupation du poète : <hi rend="i">l’action</hi>, l’action
+              “<hi rend="i">Au commencement était l’Action</hi>.” »</p> </quote><p>C’était donc là la grande préoccupation du poète : <hi rend="i">l’action</hi>, l’action
           qui seule constitue la vie, et qui renferme toujours la pensée, l’action qui est la vertu
           de cette race romane vers laquelle tendit sans cesse l’esprit si lumineux, si clair, pour
           ne pas dire si peu germanique de Goethe.</p>
@@ -5536,9 +5348,7 @@
             compliquée et de nous montrer, <pb n="233"/>unies dans le même homme, l’ironie de la
             science et l’ironie de l’amour<note resp="author">« L’Art dramatique en Allemagne » par
               William Reymond. (<hi rend="i">Revue contemporaine</hi>. Nº du
-              15 septembre 1858.)</note>. »</p>
-        </quote>
-        <p>Après la cave d’Auerbach, arrive l’épisode si touchant de Marguerite. — Qu’est-ce que
+              15 septembre 1858.)</note>. »</p> </quote><p>Après la cave d’Auerbach, arrive l’épisode si touchant de Marguerite. — Qu’est-ce que
           Marguerite ? — Une fille séduite, type cent fois reproduit. Seulement, Goethe qui
           comprenait tout, pour avoir tout étudié, même le cœur des jeunes filles, à leurs dépens, a
           su donner plus de parfum à l’innocence, plus d’intensité à la passion, plus de grandeur au
@@ -5577,9 +5387,7 @@
               rend="i">comment</hi>. Tandis que je parcourrai un petit coin de la terre, je
             découvrirai peut-être le point sur l’i. Alors le grand but sera atteint ; ce sera la
             juste récompense d’une pareille aspiration ; l’or, les honneurs, la gloire, une longue
-            vie, la santé, et peut-être aussi la science et la vertu. Adieu ! »</p>
-        </quote>
-        <p>Le mariage de Faust et d’Hélène accompli au milieu des souvenirs de la guerre de Troie,
+            vie, la santé, et peut-être aussi la science et la vertu. Adieu ! »</p> </quote><p>Le mariage de Faust et d’Hélène accompli au milieu des souvenirs de la guerre de Troie,
           et pour ainsi dire <pb n="235"/>sous le patronage d’Homère, couronne les aspirations
           toujours plus hautes, plus sereines et plus harmonieuses du poète. Euphorion, le fils
           d’Hélène et de Faust, c’est la poésie de l’avenir, mélange d’anthropomorphisme et de
@@ -5648,9 +5456,7 @@
             arrière, volontiers ailleurs, — errantes.</p>
           <p>« La littérature classique ne se plaint pas, ne gémit pas, ne <hi rend="i"
               >s’ennuie</hi> pas. Quelquefois on va plus loin avec la douleur et par la douleur,
-            mais la beauté est plus tranquille. »</p>
-        </quote>
-        <p>Oui, parce que cette tranquillité c’est trop souvent de l’indifférence, de
+            mais la beauté est plus tranquille. »</p> </quote><p>Oui, parce que cette tranquillité c’est trop souvent de l’indifférence, de
           l’insensibilité, de l’égoïsme. Que les Grecs sous Périclès, les Romains sous Auguste, ou
           les <pb n="239"/>Français sous Louis XIV aient eu le loisir de s’adonner tout entiers aux
           douces et sereines impressions de l’art, ç’a été sans doute un beau spectacle, et les
@@ -5731,9 +5537,7 @@
             apparences, pour aujourd’hui et pour toujours. Ce joyeux ouvrier, sans popularité ou
             provocation du dehors, tirant de son propre sein son mobile et son plan, s’imposa à
             lui-même une tâche de géant, et travailla, pendant quatre-vingts ans, sans relâche ni
-            repos (sauf pour alterner son labeur), avec le zèle persistant de son début.” »</p>
-        </quote>
-        <p>Schiller plus sensible, plus exalté, se laissait entraîner par toutes les idées
+            repos (sauf pour alterner son labeur), avec le zèle persistant de son début.” »</p> </quote><p>Schiller plus sensible, plus exalté, se laissait entraîner par toutes les idées
           généreuses, sans toujours les peser à la balance de la vérité. Goethe ne s’était livré
           qu’une fois, dans <hi rend="i">Werther</hi> ; Schiller a toujours son âme <pb n="243"/>sur
           les lèvres. Les héros de ses tragédies lui ressemblent tous. Comme lui, ils sont possédés
@@ -5974,9 +5778,7 @@
             de la <hi rend="i">communauté</hi> en Église, et c’est parce que notre protestation a
             été vaine que nous avons rejeté le nom même de l’Église et que nous sommes devenus <hi
               rend="i">libres communes</hi><note resp="author"><hi rend="i">Sonntagsblatt</hi>.
-              1852.</note>. »</p>
-        </quote>
-        <p>Voilà pour l’Église protestante ! quant à l’Église catholique, M. Jules Simon la condamne
+              1852.</note>. »</p> </quote><p>Voilà pour l’Église protestante ! quant à l’Église catholique, M. Jules Simon la condamne
           ainsi dans son admirable livre de <hi rend="i">la Liberté</hi> : <quote>« Non seulement,
             dit-il, l’Église est une monarchie absolue ; elle est, en outre, une aristocratie : les
             prêtres y sont en respect et en humilité devant leur évêque, dont ils dépendent de la
@@ -6168,9 +5970,7 @@
           <p>« Le style, dit Buffon, n’est que l’ordre et le mouvement qu’on met dans ses pensées.
             Si on les enchaîne étroitement, si on les serre, le style devient ferme, nerveux et
             concis ; si on les laisse se succéder lentement, et ne se joindre qu’à la faveur des
-            mots, quelque élégants qu’ils soient, le style sera diffus, lâche et traînant. »</p>
-        </quote>
-        <p><pb n="264"/><quote>« La pensée, dit à son tour M. de Barante, est comme la fille de
+            mots, quelque élégants qu’ils soient, le style sera diffus, lâche et traînant. »</p> </quote><p><pb n="264"/><quote>« La pensée, dit à son tour M. de Barante, est comme la fille de
             Jupiter qui sortit toute armée de son cerveau. »</quote> Les armes de la pensée
           allemande manquent généralement de poli et d’élégance, mais du moins elles sont de fer,
           parce qu’elles ont à protéger une poitrine humaine, tandis qu’en France où elles
@@ -6304,9 +6104,7 @@
             bafoue les régenteurs de la langue et l’enrichit d’expressions pittoresques, tandis que
             le lamentateur s’abandonne à des plaintes que le vent emporte. La hardiesse dans
             l’expression suppose la hardiesse de la pensée… La langue est à celui qui sait la faire
-            obéir. »</p>
-        </quote>
-        <p>J’ajouterai à ces extraits mon propre jugement sur le <hi rend="i">Réalisme</hi>, tel que
+            obéir. »</p> </quote><p>J’ajouterai à ces extraits mon propre jugement sur le <hi rend="i">Réalisme</hi>, tel que
           j’ai eu l’occasion de l’exposer dans le Nº de <hi rend="i">l’Artiste</hi> du
           15 janvier 1860 :</p>
         <quote>
@@ -6786,9 +6584,7 @@
           <p>« Je voudrais, pour notre plus prompte régénération, que musées, cathédrales, palais,
             salons, boudoirs, avec tout leur mobilier ancien et moderne, fussent jetés aux flammes,
             avec défense aux artistes, pendant cinquante ans, de s’occuper de leur art. Le passé
-            oublié, nous ferions quelque chose. »</p>
-        </quote>
-        <p>En attendant, l’art tend à se répandre de jour en jour davantage dans les populations, et
+            oublié, nous ferions quelque chose. »</p> </quote><p>En attendant, l’art tend à se répandre de jour en jour davantage dans les populations, et
           pour cela il se fait petit : au lieu de jeter de l’or dans la circulation, il ne jette
           guère que de la monnaie de cuivre. C’est ainsi que la gravure sur acier a d’abord succédé
           à la peinture, puis la lithographie à la gravure sur acier, et maintenant la photographie
@@ -6825,9 +6621,7 @@
             reprises touché presque la perfection, sont retombés au-dessous de leur niveau ; les
             littératures imitent plus qu’elles ne créent ; la solution des problèmes de la vie
             sociale et de ceux même de la vie morale est cherchée aux pôles opposés. Et pourtant, ce
-            que le peu que nous sommes a coûté d’efforts inouïs fait frémir. »</p>
-        </quote>
-        <p>Soyons, en effet, justes avec nous-mêmes. Sans doute, il ne manque pas d’optimistes
+            que le peu que nous sommes a coûté d’efforts inouïs fait frémir. »</p> </quote><p>Soyons, en effet, justes avec nous-mêmes. Sans doute, il ne manque pas d’optimistes
           superficiels qui s’écrient avec le docteur Pangloss : <quote>« Tout est pour le mieux dans
             le meilleur des mondes possible ! »</quote> Ceux-là, encouragés par leurs succès, par
           leur réussite, par une de ces heureuses veines que le hasard ou la Providence accorde à
@@ -6877,9 +6671,7 @@
           <l>Le monde sera propre et net, comme une écuelle,</l>
           <l>L’Humanitairerie en fera sa gamelle,</l>
           <l>Et le globe rasé, sans barbe et sans cheveux</l>
-          <l>Comme un grand potiron roulera dans les cieux. »</l>
-        </quote>
-        <p><pb n="298"/>Certes, voilà un tableau peu séduisant de l’avenir, et ce n’est point celui
+          <l>Comme un grand potiron roulera dans les cieux. »</l> </quote><p><pb n="298"/>Certes, voilà un tableau peu séduisant de l’avenir, et ce n’est point celui
           que je rêve. Mais je crois, à en juger par les civilisations antérieures, que la nôtre
           pour être complète a besoin de poser sur sa tête la couronne éclatante de l’art.</p>
         <p>Je pense que le <num>xix<hi rend="sup">e</hi></num> siècle finira par prendre un
@@ -6928,9 +6720,7 @@
             frères.</p>
           <p/>
           <p rend="right">Le ministre de l’intérieur de la République française, <lb/><hi rend="sc"
-              >Roland</hi>.</p>
-        </quote>
-        <ab type="ornament">* * *</ab>
+              >Roland</hi>.</p> </quote><ab type="ornament">* * *</ab>
         <quote>
           <p rend="center noindent"><pb n="302"/>À <hi rend="sc">M. Gille, publiciste allemand.</hi>
             <lb/>LOI <lb/>Qui confère le titre de citoyen français à plusieurs étrangers.</p>
@@ -6974,9 +6764,7 @@
           <p rend="right">Certifié conforme à l’original, <lb/><hi rend="sc">Danton</hi>.</p>
           <p>S. S.</p>
           <label type="dateline" rend="center"><hi rend="n">À PARIS, <lb/>De l’imprimerie nationale exécutive du Louvre,
-            <lb/>1792.</hi></label>
-        </quote>
-        <p><pb n="304"/>Nous donnons ici, ainsi que nous l’avons annoncé p. 190, <hi rend="i">le
+            <lb/>1792.</hi></label> </quote><p><pb n="304"/>Nous donnons ici, ainsi que nous l’avons annoncé p. 190, <hi rend="i">le
             Rhin allemand</hi> de Becker, dans les deux langues, et les réponses, si différentes,
           d’Alfred de Musset et de Lamartine. Cette dernière est intitulée <hi rend="i">la
             Marseillaise de la Paix</hi>.</p>
@@ -7016,9 +6804,7 @@
           <l>Den freien deutschen Rhein,</l>
           <l>Bis seine Fluth begraben</l>
           <l>Des letzten Manns Gebein !</l>
-          <p rend="right">Nicolaus Becker. 1840.</p>
-        </quote>
-        <ab type="ornament">* * *</ab>
+          <p rend="right">Nicolaus Becker. 1840.</p> </quote><ab type="ornament">* * *</ab>
         <quote>
           <p rend="center noindent"><hi rend="sc">Le Rhin allemand</hi>.</p>
           <p/>
@@ -7035,9 +6821,7 @@
           <p><pb n="306"/>Aussi longtemps que dans ses profondeurs un poisson se soulèvera sur ses
             nageoires ; aussi longtemps qu’un chant animera la bouche de ses chanteurs.</p>
           <p>Ils ne l’auront pas, le libre Rhin allemand, jusqu’à ce que ses flots aient enseveli
-            les ossements du dernier homme !</p>
-        </quote>
-        <ab type="ornament">* * *</ab>
+            les ossements du dernier homme !</p> </quote><ab type="ornament">* * *</ab>
         <quote>
           <label type="head"><hi rend="sc">Le Rhin allemand</hi>. <lb/>Réponse à la chanson de Becker.</label>
           <l>Nous l’avons eu, votre Rhin allemand.</l>
@@ -7075,9 +6859,7 @@
           <l>      S’y reflètent modestement ;</l>
           <l>      Mais craignez que vos airs bachiques ?</l>
           <l>Ne réveillent les morts de leur repos sanglant.</l>
-          <bibl><hi rend="sc">Alfred de Musset</hi>. <lb/>1841.</bibl>
-        </quote>
-        <ab type="ornament">* * *</ab>
+          <bibl><hi rend="sc">Alfred de Musset</hi>. <lb/>1841.</bibl> </quote><ab type="ornament">* * *</ab>
         <quote>
           <label type="head"><hi rend="sc">La Marseillaise de la paix</hi>.</label>
           <l>Roule, libre et superbe entre tes larges rives,</l>
@@ -7236,9 +7018,7 @@
           <l>Et que les sept couleurs qui teignent nos bannières,</l>
           <l>Arc-en-ciel de la paix, serpentent dans tes eaux !</l>
           <label type="dateline"><hi rend="n">Saint-Point, 28 mars 1847.</hi></label>
-          <p rend="right"><hi rend="sc">Lamartine</hi>.</p>
-        </quote>
-      </div>
+          <p rend="right"><hi rend="sc">Lamartine</hi>.</p> </quote></div>
     </body>
   </text>
 </TEI>

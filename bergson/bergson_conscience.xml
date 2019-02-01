@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI n="bergson_conscience" xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -22,15 +22,6 @@
       <publicationStmt>
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/bergson_conscience/</idno>
-        <idno type="tei"
-          >http://obvil.sorbonne-universite.site/corpus/critique/bergson_conscience.xml</idno>
-        <idno type="html"
-          >http://obvil.sorbonne-universite.site/corpus/critique/bergson_conscience.html</idno>
-        <idno type="text"
-          >http://obvil.sorbonne-universite.site/corpus/critique/bergson_conscience.txt</idno>
-        <idno type="epub"
-          >http://obvil.sorbonne-universite.site/corpus/critique/bergson_conscience.epub</idno>
-        <date when="2014"/>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -68,7 +59,7 @@
   <text>
     <body>
       <div n="ch0">
-        <head type="h1">Avant-propos</head>
+        <head>Avant-propos</head>
         <p>À M. Jules Lachelier</p>
         <p>Membre de l’Institut</p>
         <p>Inspecteur général de l’Instruction publique</p>
@@ -97,7 +88,7 @@
         <dateline>Février 1888.</dateline>
       </div>
       <div n="ch1" type="article">
-        <head type="h1">Chapitre I.<lb/>De l’intensité des états psychologiques</head>
+        <head>Chapitre I.<lb/>De l’intensité des états psychologiques</head>
         <p>On admet d’ordinaire que les états de conscience, sensations, sentiments, passions,
           efforts, sont susceptibles de croître et de diminuer ; quelques-uns assurent même qu’une
           sensation peut être dite deux, trois, quatre fois plus intense qu’une autre sensation de
@@ -1352,7 +1343,7 @@
           posent.</p>
       </div>
       <div n="ch2" type="article">
-        <head type="h1">Chapitre II.<lb/>De la multiplicité des états de conscience<note
+        <head>Chapitre II.<lb/>De la multiplicité des états de conscience<note
             place="bottom"> Notre travail était entièrement terminé quand nous avons lu dans la <hi
               rend="i">Critique philosophique</hi> (années 1883 et 1884) une bien remarquable
             réfutation, par M. F. PILLON, d’un intéressant article de M. G. Noël sur la solidarité
@@ -2486,7 +2477,7 @@
           moi réel, le moi concret, à sa représentation symbolique.</p>
       </div>
       <div n="ch3" type="article">
-        <head type="h1">Chapitre III.<lb/>De l’organisation des états de conscience. La
+        <head>Chapitre III.<lb/>De l’organisation des états de conscience. La
           liberté</head>
         <p>Il n’est pas difficile de comprendre pourquoi la question de la liberté met aux prises
           ces deux systèmes opposés de la nature, mécanisme et dynamisme. Le dynamisme part de
@@ -3914,7 +3905,7 @@
           dans une langue où elle est évidemment intraduisible.</p>
       </div>
       <div n="ch4">
-        <head type="h1">Conclusion</head>
+        <head>Conclusion</head>
         <p>Pour résumer ce qui précède, nous laisserons d’abord de côté la terminologie et même la
           doctrine de Kant, sur lesquelles nous reviendrons plus loin, et nous nous placerons au
           point de vue du sens commun. Nous dirons que la psychologie actuelle nous a paru surtout
