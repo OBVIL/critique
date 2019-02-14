@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
-  <!-- VJ * erreurs identiques à sont précédent header * @key fautive du author * bibl lacunaire (recherche documentaire à faire) * scories ODT (@type="h2", bookmark, etc.) * indentation à revoir * aucune erreur teibook * bien pour @resp sur les notes * revoir q vs quote * revoir les emph * encodage simple répondant aux atten,tes du sujet -->
+  <!-- VJ * erreurs identiques à sont précédent header * @key fautive du author * scories ODT (@type="h2", bookmark, etc.) * indentation à revoir * encodage simple répondant aux atten,tes du sujet -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,14 +28,6 @@
         <publisher>Université Paris-Sorbonne, LABEX OBVIL</publisher>
         <date when="2014"/>
         <idno>http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_poesie/</idno>
-        <idno type="tei"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_poesie.xml</idno>
-        <idno type="html"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_poesie.html</idno>
-        <idno type="text"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_poesie.txt</idno>
-        <idno type="epub"
-          >http://obvil.sorbonne-universite.site/corpus/critique/barbey-aurevilly_poesie.epub</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
             <p>Copyright © 2014 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence
@@ -57,8 +49,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Jules Barbey d’Aurevilly</author>, <title>Les œuvres et les hommes XXIII,
-            Poésie et poètes</title>, <pubPlace>Paris</pubPlace>, <date>1860-1902</date>.</bibl>
+        <bibl><author>Jules Barbey d’Aurevilly</author>, <title>Les Œuvres et les Hommes XXIII.
+            Poésie et poètes</title>, <pubPlace>Paris</pubPlace>, <publisher>A. Lemerre</publisher>,
+            <date>1906</date>, 327 p.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -450,8 +443,7 @@
             <p>« Il est certain que le maître de la prison, le gouverneur, nous eût fait savoir,
               s’il l’eût voulu, et notre procès et notre arrêt.</p>
             <p>« Puisqu’il ne l’a pas voulu et ne le voudra jamais… <hi rend="i">nous ne sommes pas
-                sûrs de tout savoir au sortir du cachot, mais sûrs de ne rien savoir dedans.</hi> »
-            </p>
+                sûrs de tout savoir au sortir du cachot, mais sûrs de ne rien savoir dedans.</hi> »</p>
           </quote>
         </div>
         <div>
@@ -483,9 +475,7 @@
               la plus difficile est celle de notre ignorance. Pourquoi nous résignons-nous à tout,
               excepté à ignorer les mystères de l’éternité ? A cause de l’espérance qui est la
               source de toutes nos lâchetés. Nous inventons une foi, nous nous la persuadons, nous
-              voulons la persuader aux autres, nous les frappons pour les y contraindre… »</p>
-          </quote>
-          <p>Sentez-vous le cavalier de marbre ? Sentez-vous sa fixité, sa pesanteur, son despotisme
+              voulons la persuader aux autres, nous les frappons pour les y contraindre… »</p> </quote><p>Sentez-vous le cavalier de marbre ? Sentez-vous sa fixité, sa pesanteur, son despotisme
             de marbre ? Mais l’âme se cabre et pousse son cri :</p>
           <quote>
             <p>« Et pourquoi — reprend-il — ne pas dire : Je sens sur ma tête le poids d’une
@@ -495,9 +485,7 @@
               maux et je vous bénis à la fin de chaque jour lorsqu’il s’est passé sans malheur. — Je
               n’espère rien de ce monde et je vous rends grâce de m’avoir donné la puissance du
               travail, qui fait que je puis oublier entièrement en lui mon ignorance
-              éternelle. »</p>
-          </quote>
-        </div>
+              éternelle. »</p> </quote></div>
         <div>
           <head>IX</head>
           <p>Le cri est-il assez aigu d’abord, et finit-il par s’étouffer assez sous la pression
@@ -651,14 +639,10 @@
             <title>Chants du Passé</title> tous les veuvages de sa jeunesse :</p>
         <quote>
           <l>Je <hi rend="i">comptais</hi> retrouver cette épouse de fer</l>
-          <l> Que de ma destinée une erreur a disjointe.</l>
-        </quote>
-        <quote>
+          <l> Que de ma destinée une erreur a disjointe.</l> </quote><quote>
           <l>Épée, on peut sur toi reposer ses amours :</l>
           <l>Car, sanglante et ternie, un éclair à ta pointe,</l>
-          <l>Pour répondre au regard, se redresse toujours.</l>
-        </quote>
-        <p>Et ce deuil militaire est sublime. De tous les deuils de la pensée du poète, c’est celui
+          <l>Pour répondre au regard, se redresse toujours.</l> </quote><p>Et ce deuil militaire est sublime. De tous les deuils de la pensée du poète, c’est celui
           dont l’expression revient le plus dans ses poésies, et il est si beau, et il y jette un
           éclat d’idéal si sévère, qu’on n’en voudrait pas d’autre à côté. Malheureusement, il y en
           a. Ce poète d’une race finie et d’une cause perdue, ce Redgauntlet poétique des Stuarts de
@@ -670,25 +654,17 @@
           <l>Ce fut un vaillant cœur, simple, correct, austère ;</l>
           <l>Un homme des vieux jours, taillé dans le plein bloc,</l>
           <l>Sincère comme l’or et droit comme un estoc,</l>
-          <l>Dont rien ne détrempa le mâle caractère.</l>
-        </quote>
-        <quote>
+          <l>Dont rien ne détrempa le mâle caractère.</l> </quote><quote>
           <l>Chassant loin du devoir l’intérêt adultère,</l>
           <l>Avec sa conscience il ne fit point de troc ;</l>
           <l>Il affronta sans peur le plus terrible choc,</l>
-          <l>Et, le danger fini, sut noblement se taire.</l>
-        </quote>
-        <quote>
+          <l>Et, le danger fini, sut noblement se taire.</l> </quote><quote>
           <l>Sous l’antique bannière ardent à se ranger,</l>
           <l>Il n’en garda pas moins sa haine à l’étranger :</l>
-          <l>Gentilhomme, il resta sujet du roi de France.</l>
-        </quote>
-        <quote>
+          <l>Gentilhomme, il resta sujet du roi de France.</l> </quote><quote>
           <l>Et partout, sur le Rhin, en Vendée, à Lyon,</l>
           <l>Il nourrit de son sang sa loyale espérance,</l>
-          <l>Fidèle jusqu’au bout et sans transaction.</l>
-        </quote>
-        <p>en place d’autres d’une inspiration moins élevée, mais qui sont encore du passé pour lui.
+          <l>Fidèle jusqu’au bout et sans transaction.</l> </quote><p>en place d’autres d’une inspiration moins élevée, mais qui sont encore du passé pour lui.
           Seulement, autant, quand il reste le poète d’une cause et des traditions de son berceau,
           il est au-dessus de l’imitation et des reflets de la Renaissance et trouve sans la
           chercher cette forme qui n’est ni un vêtement, ni un ornement, mais la splendeur de la
@@ -701,25 +677,17 @@
           <l>Ne me demandez pas si sa prunelle est peinte</l>
           <l>Ou du céleste azur ou du bleu de la nuit ;</l>
           <l>Quelle nuance d’or, de jaspe ou d’hyacinthe</l>
-          <l>A ses tempes se joue, en sa tresse reluit ;</l>
-        </quote>
-        <quote>
+          <l>A ses tempes se joue, en sa tresse reluit ;</l> </quote><quote>
           <l>D’albâtre ou d’incarnat si sa joue est empreinte ;</l>
           <l>Si c’est grâce chez elle ou beauté qui séduit ;</l>
           <l>Ne me demandez pas quel espoir, quelle crainte,</l>
-          <l>Se mêlant à mes feux, me guide ou me poursuit !</l>
-        </quote>
-        <quote>
+          <l>Se mêlant à mes feux, me guide ou me poursuit !</l> </quote><quote>
           <l>Car son regard, ainsi qu’un voile de lumière</l>
           <l>Sur ses yeux, fait ployer et frémir ma paupière ;</l>
-          <l>Car l’auréole flambe à son front innocent ;</l>
-        </quote>
-        <quote>
+          <l>Car l’auréole flambe à son front innocent ;</l> </quote><quote>
           <l>Car elle m’apparaît, toujours transfigurée ;</l>
           <l>Car elle est moins aimée encore qu’adorée,</l>
-          <l>Et je voudrais pouvoir l’empourprer de mon sang !</l>
-        </quote>
-        <p>Certainement il y a là du talent, et beaucoup de talent encore, mais ce talent éclatant
+          <l>Et je voudrais pouvoir l’empourprer de mon sang !</l> </quote><p>Certainement il y a là du talent, et beaucoup de talent encore, mais ce talent éclatant
           et chaud est moins original et moins fort que celui des simples et nerveux sonnets
           historiques consacrés aux Héros de la Vendée et de la Bretagne ; car le talent est comme
           les vierges : ce qui fait sa force, c’est sa pureté.</p>
@@ -733,9 +701,7 @@
             d’opale</hi> de sa maîtresse et ses</p>
         <quote>
           <l>… cheveux dont l’or <hi rend="i">blême</hi> frisonne</l>
-          <l>Et <hi rend="i">se poudre d’argent</hi> sous les <hi rend="i">rais</hi> du soleil…</l>
-        </quote>
-        <p>cesse tout à coup, dans le dernier livre de ses sonnets de jouer cette gageure enragée
+          <l>Et <hi rend="i">se poudre d’argent</hi> sous les <hi rend="i">rais</hi> du soleil…</l> </quote><p>cesse tout à coup, dans le dernier livre de ses sonnets de jouer cette gageure enragée
           qu’exprimait Shakespeare quand il parlait de <hi rend="i">dorer l’or</hi> et de <hi
             rend="i">blanchir les lys</hi>, et le voilà qui n’a plus souci que de la seule qualité
           d’expression que Dieu ait permise aux poètes ! Évidemment, l’auteur des <title>Chants du
@@ -843,9 +809,7 @@
           <l>— Ah ! bien, vous le plaignez, s’écrie une commère,</l>
           <l>Coupable ou malheureux, n’avait-il pas sa mère ?</l>
           <l>Et, morne, le penseur, quittant ce triste lieu :</l>
-          <l>S’il n’avait pas sa mère, il avait toujours Dieu !</l>
-        </quote>
-        <p>Est-ce que cette reprise ne vous paraît pas, comme à nous, d’une naïve et profonde
+          <l>S’il n’avait pas sa mère, il avait toujours Dieu !</l> </quote><p>Est-ce que cette reprise ne vous paraît pas, comme à nous, d’une naïve et profonde
           beauté ? Le genre du talent de Bouniol est là tout entier, dans ces quelques vers où de la
           vulgarité du détail sort tout à coup la grandeur de la réflexion, comme dans la vie. Ce
           talent, du reste, bien mâle pour ce temps, aura-t-il du succès ? Fera-t-il son sillon de
@@ -1002,9 +966,7 @@
             Seigneur</title>) :</p>
           <quote>
             <l>L’estomac ruiné de champagne</l>
-            <l>Et le cœur abîmé d’amour !</l>
-          </quote>
-          <p>Et dites si tout cela n’appartient pas, corps et biens, depuis des siècles, à l’auteur
+            <l>Et le cœur abîmé d’amour !</l> </quote><p>Et dites si tout cela n’appartient pas, corps et biens, depuis des siècles, à l’auteur
               d’<title>Émaux et Camées</title> et de <title>La Comédie de la mort</title> ? La seule
             différence qu’il y ait entre l’imitateur et le modèle, c’est que Monselet a l’amour de
             la nature, que Gautier met presque un singulier orgueil à ne point avoir. Seulement, si
@@ -1023,9 +985,7 @@
             en lambeaux, de poésies qui ont <hi rend="i">timbré</hi> les siennes, comme un cachet
               <hi rend="i">timbre</hi> la cire :</p>
           <quote>
-            <l>Haillons rattachés avec des saphirs,</l>
-          </quote>
-          <p>ne suffisent pas pour faire cet être <hi rend="i">sui generis</hi> qui est le poète. Il
+            <l>Haillons rattachés avec des saphirs,</l> </quote><p>ne suffisent pas pour faire cet être <hi rend="i">sui generis</hi> qui est le poète. Il
             y a partout, et même dans tout ce qu’on ne lit plus, des vers charmants. Monselet le
             sait bien, lui qui est un panier fleuri<note n="11" place="bottom" resp="editor">
               Monselet se serait-il souvenu de cette comparaison quand il intitula <title>Panier
@@ -1040,9 +1000,7 @@
             <l>Phares des tours du ciel, lampes inextinguibles,</l>
             <l>Qui rendent, sans rien voir, toutes choses visibles !</l>
             <l>Celui qui va le jour, celle qui va la nuit,</l>
-            <l>La mère du silence et le père du bruit !… etc.</l>
-          </quote>
-          <p>Eh bien, en somme, Monselet n’est pas plus poète que le P. Pierre de Saint-Louis ! Sa
+            <l>La mère du silence et le père du bruit !… etc.</l> </quote><p>Eh bien, en somme, Monselet n’est pas plus poète que le P. Pierre de Saint-Louis ! Sa
             vocation intellectuelle n’est pas de ce côté, malgré la fascination qui l’y entraîne.
             Qui peut dire qu’on ne sera pas poète un jour comme on peut être atteint par la
             foudre ?… Mais jusqu’à ce coup de foudre qui allume la poussière d’un homme et en fait
@@ -1120,9 +1078,7 @@
             le monde et retrouve tous les personnages de sa vie antérieure, affublés comme lui de
             formes nouvelles :</p>
           <quote>
-            <l>Voici monsieur Dubois plaisamment fagoté !</l>
-          </quote>
-          <p>Individualisé de la sorte par la fantaisie de l’auteur, cet Amour passa en zigzag dans
+            <l>Voici monsieur Dubois plaisamment fagoté !</l> </quote><p>Individualisé de la sorte par la fantaisie de l’auteur, cet Amour passa en zigzag dans
             le <num>xix<hi rend="sup">e</hi></num> siècle, et il en oppose les particularités et les
             mœurs aux mœurs et aux particularités de la société d’autrefois. Telle est la donnée que
             Monselet a cru faire accepter à l’Imagination moderne, cette grande dégoûtée, mais, <hi
@@ -1222,41 +1178,31 @@
             <l>De gloire,</l>
             <l>Et, comme un hochet,</l>
             <l>Ont jeté l’archet</l>
-            <l>D’ivoire !</l>
-          </quote>
-          <quote>
+            <l>D’ivoire !</l> </quote><quote>
             <l>Au rhythme ailé d’or</l>
             <l>Il fallait encor</l>
             <l>Un maître</l>
             <l>Fou de volupté,</l>
             <l>Alors j’ai dompté</l>
-            <l>Le Mètre !</l>
-          </quote>
-          <quote>
+            <l>Le Mètre !</l> </quote><quote>
             <l>J’ai repris mon luth,</l>
             <l>Et, suivant mon but</l>
             <l>Féerique,</l>
             <l>Je m’en vais cherchant</l>
             <l>Le secret du chant</l>
-            <l>Lyrique.</l>
-          </quote>
-          <quote>
+            <l>Lyrique.</l> </quote><quote>
             <l>Œil épanoui,</l>
             <l>Je peins, ébloui</l>
             <l>Ou triste,</l>
             <l>Le ciel radieux,</l>
             <l>Et, mélodieux</l>
-            <l>Artiste,</l>
-          </quote>
-          <quote>
+            <l>Artiste,</l> </quote><quote>
             <l>Près du fleuve grec</l>
             <l>Murmurant avec</l>
             <l>Les cygnes</l>
             <l>Fiers de leur candeur,</l>
             <l>Je dis la splendeur</l>
-            <l>Des lignes.</l>
-          </quote>
-          <p>Toutes les <title>Odelettes</title> de Théodore de Banville ont cette légèreté, ce
+            <l>Des lignes.</l> </quote><p>Toutes les <title>Odelettes</title> de Théodore de Banville ont cette légèreté, ce
             linéament d’arabesque à peine appuyé, cette grâce de bulle de savon dans le vent, cette
             transparence de dentelle qui recouvre… absolument rien, et la petitesse du volume,
             précédé pourtant d’une dédicace solennelle à Sainte-Beuve, montre assez que le livre en
@@ -1466,9 +1412,7 @@
             jolie vignette, par exemple : <title>La Nuit de Printemps</title> :</p>
           <quote>
             <l>C’était la veille de Mai,</l>
-            <l>Un soir souriant de fête…</l>
-          </quote>
-          <p>ne sont pas des qualités assez fortes pour sauver de l’oubli ce qui s’évapore le plus
+            <l>Un soir souriant de fête…</l> </quote><p>ne sont pas des qualités assez fortes pour sauver de l’oubli ce qui s’évapore le plus
             vite de la mémoire des hommes, — des sons et des mots !</p>
         </div>
         <div>
@@ -1495,24 +1439,16 @@
             <l>Le chant de l’Orgie avec des cris au loin proclame</l>
             <l>Le beau Lyœus, le Dieu paré comme une femme,</l>
             <l>Qui, le thyrse en main, passe rêveur et triomphant,</l>
-            <l>A demi couché sur le dos nu d’un éléphant, etc., etc,</l>
-          </quote>
-          <p>et, avec plus d’éloges encore, la pièce appelée <title>Désespérance</title>, où
+            <l>A demi couché sur le dos nu d’un éléphant, etc., etc,</l> </quote><p>et, avec plus d’éloges encore, la pièce appelée <title>Désespérance</title>, où
             l’assonance la plus inattendue a presque sur l’esprit puissance de pensée, et dissout
             les nerfs dans la plus noble des mélancolies :</p>
           <quote>
             <l>Tombez dans mon cœur, souvenirs confus,</l>
-            <l>Du haut des branches touffues !</l>
-          </quote>
-          <quote>
+            <l>Du haut des branches touffues !</l> </quote><quote>
             <l>Oh ! parlez-moi d’elle, antres et rochers,</l>
-            <l>Retraites à tous cachées !</l>
-          </quote>
-          <quote>
+            <l>Retraites à tous cachées !</l> </quote><quote>
             <l>Parlez, parlez d’elle, ô sentiers fleuris !</l>
-            <l>Bois, ruisseaux, vertes prairies ! etc., etc.</l>
-          </quote>
-          <p>Nous regrettons de ne pouvoir citer tout entière cette pièce singulière et délicieuse ;
+            <l>Bois, ruisseaux, vertes prairies ! etc., etc.</l> </quote><p>Nous regrettons de ne pouvoir citer tout entière cette pièce singulière et délicieuse ;
             mais, nous ne craignons pas de le répéter, de tels prestiges par les mots, leur choix,
             leur distribution et leur place, cette espèce d’harmonica littéraire joué sur des verres
             (ou vers, pardon !) à moitié vides ou tout à fait vides, comme l’autre harmonica, ne
@@ -1533,26 +1469,18 @@
               >hagard</hi>,</l>
             <l>Ta lèvre <hi rend="i">sans sourire</hi> et tes yeux sans regard,</l>
             <l>Laissas <hi rend="i">couler</hi> un jour de ta main gigantesque</l>
-            <l>Toute l’Antiquité, comme une grande fresque !</l>
-          </quote>
-          <quote>
+            <l>Toute l’Antiquité, comme une grande fresque !</l> </quote><quote>
             <l>Nul ne le sut. Tu vins, et d’un ton <hi rend="i">compassé</hi>,</l>
             <l>Un pied sur l’avenir, l’autre sur le passé,</l>
-            <l>Tu chantas à grands flots ces créations pures…</l>
-          </quote>
-          <quote>
+            <l>Tu chantas à grands flots ces créations pures…</l> </quote><quote>
             <l>Pour la beauté d’abord tu nous donnas Hélène,</l>
             <l>Forme terrible et pure, en <hi rend="i">son manteau de laine</hi>,</l>
             <l>Pour laquelle à <hi rend="i">jamais</hi> les hommes et les Dieux</l>
-            <l>Se livrent <hi rend="i">sans relâche</hi> un combat odieux…</l>
-          </quote>
-          <quote>
+            <l>Se livrent <hi rend="i">sans relâche</hi> un combat odieux…</l> </quote><quote>
             <l>Hélène qui, riant sur sa couche fatale,</l>
             <l>Tuait dans un baiser l’Asie orientale,</l>
             <l>Et serrant sur son sein l’enfant aux blonds cheveux,</l>
-            <l>Étouffait un empire entre ses bras <hi rend="i">nerveux</hi> !</l>
-          </quote>
-          <p>Ceci va jusqu’à la faute de tactique. Les amis et les admirateurs de Banville (car il y
+            <l>Étouffait un empire entre ses bras <hi rend="i">nerveux</hi> !</l> </quote><p>Ceci va jusqu’à la faute de tactique. Les amis et les admirateurs de Banville (car il y
             en a), les puritains passionnés du style pour le style, les haïsseurs de la cheville,
             les sacrificateurs à la rime sévère, tous les hommes qui aiment la langue comme un beau
             vase, dût-on ne mettre rien dedans, trouveront ici leur théorie de la forme et du
@@ -1646,9 +1574,7 @@
             <l>Tu la surpris, baignant ses pieds polis dans l’eau,</l>
             <l>Et lorsqu’elle fuyait, confuse d’être nue,</l>
             <l>Par quels discours charmants elle fut retenue !</l>
-            <l rend="i">Sans doute, tu lui dis…</l>
-          </quote>
-          <p>Ce « sans doute tu lui dis » est Augier tout entier dans un seul mot et donne, sans
+            <l rend="i">Sans doute, tu lui dis…</l> </quote><p>Ce « sans doute tu lui dis » est Augier tout entier dans un seul mot et donne, sans
             plus nous faire attendre, une idée de son tour poétique et des ressources de la langue
             qu’il parle. Il faut bien le dire : cette langue n’a ni invention, ni vie, ni formes
             nouvelles. Quand on est d’un temps où une école sans idées, mais non pas sans talent, a
@@ -1940,9 +1866,7 @@
             dans le cœur :</p>
           <quote>
             <l>Ah ! Seigneur ! donnez-moi la force et le courage</l>
-            <l>De contempler mon cœur et mon corps sans dégoût !</l>
-          </quote>
-          <p>Cependant, nous devons l’avouer, ces inconséquences, presque fatales, sont assez rares
+            <l>De contempler mon cœur et mon corps sans dégoût !</l> </quote><p>Cependant, nous devons l’avouer, ces inconséquences, presque fatales, sont assez rares
             dans le livre de Baudelaire. L’artiste, vigilant et d’une persévérance inouïe dans la
             fixe contemplation de son idée, n’a pas été trop vaincu.</p>
         </div>
@@ -1990,9 +1914,7 @@
             <l>Alors, ô ma beauté ! dites à la vermine</l>
             <l>Qui vous mangera de baisers,</l>
             <l>Que j’ai gardé la forme et l’essence divine</l>
-            <l>De mes amours décomposés !</l>
-          </quote>
-          <p>on se souvient d’Auguste Barbier… partout ailleurs l’auteur des <title>Fleurs du
+            <l>De mes amours décomposés !</l> </quote><p>on se souvient d’Auguste Barbier… partout ailleurs l’auteur des <title>Fleurs du
               mal</title> est lui-même et tranche fièrement sur tous les talents de ce temps. Un
             critique le disait l’autre jour (Thierry, du <title>Moniteur</title>), dans une
             appréciation supérieure : pour trouver quelque parenté à cette poésie implacable, à ce
@@ -2352,9 +2274,7 @@
               — (l’auteur écrivait en 1849), — l’imagination se couche ; c’est l’heure d’éteindre sa
               lumière, et de couvrir son foyer. Ceux qui viendront demain ne seront peut-être pas
               fâchés, si l’hiver ou la nuit dure encore, de retrouver, pour rallumer leur falourde
-              ou leur lampe, quelques charbons sous nos cendres…  »</p>
-          </quote>
-          <p>Certainement, tout cela est vrai, triste, bien tourné, joli dans sa tristesse, mais ne
+              ou leur lampe, quelques charbons sous nos cendres…  »</p> </quote><p>Certainement, tout cela est vrai, triste, bien tourné, joli dans sa tristesse, mais ne
             se verrait pas sans le commentaire préalable ; et dans ce <title>Couvre-feu</title>,
             puisque ainsi le livre est nommé, c’est le feu du titre qui serait couvert, c’est-à-dire
             sa lumière. Eh bien, disons-le tout d’abord, nous qui croyons que toute notre âme pèse
@@ -2503,9 +2423,7 @@
             <l>Les empires défunts, les forêts, les cités,</l>
             <l>Et des fleuves taris les Ilots ressuscités,</l>
             <l>Et des océans morts les flottes vagabondes,</l>
-            <l>Et non pas seulement la terre, mais les mondes ?</l>
-          </quote>
-          <p>Évidemment, voilà de la poésie méditative et philosophique qui ne manque ni de largeur
+            <l>Et non pas seulement la terre, mais les mondes ?</l> </quote><p>Évidemment, voilà de la poésie méditative et philosophique qui ne manque ni de largeur
             ni de force, ni même de simplicité, si vous exceptez ce <hi rend="i">vent de la colère
               de Dieu</hi>, qui est <hi rend="i">pasteur</hi> et qui est <hi rend="i"
             >justicier</hi>, — ce qui est beaucoup pour le vent. Mais n’y a-t-il pas dans cette
@@ -2658,9 +2576,7 @@
             <l>……… pauvre <hi rend="i">muse égarée ;</hi></l>
             <l rend="i">Nous souffrirons encore et ne nous plaindrons pas.</l>
             <l>Envolons-nous tous deux vers la plaine azurée,</l>
-            <l rend="i">Et retournons à Dieu qui pardonne aux ingrats.</l>
-          </quote>
-          <p>Mais on ne vit pas longtemps hors des habitudes de sa pensée, et où qu’on fuie, elles
+            <l rend="i">Et retournons à Dieu qui pardonne aux ingrats.</l> </quote><p>Mais on ne vit pas longtemps hors des habitudes de sa pensée, et où qu’on fuie, elles
             savent nous reprendre de leurs traîtresses mains de velours ! Justement, à trois pièces
             de distance de cette <title>Impression</title>, le pauvre poète, avec cette nonchalance
             que ne connaissent point ceux qui se convertissent, retombe de ce ciel qui n’était pour
@@ -2675,15 +2591,11 @@
             que le niveau dont il avait compris la bassesse. Il avait commencé par l’inspiration de
             Desportes ; il finit par celle de Dorât. Il s’amenuise et peint des pastels :</p>
           <quote>
-            <l>Belle, vous deviez naître au temps de la Régence, ce <hi rend="i">bon temps</hi>,</l>
-          </quote>
-          <p>— dit-il, — qui <hi rend="i">ne reviendra pas</hi> ! A quelle belle dit-on de ces
+            <l>Belle, vous deviez naître au temps de la Régence, ce <hi rend="i">bon temps</hi>,</l> </quote><p>— dit-il, — qui <hi rend="i">ne reviendra pas</hi> ! A quelle belle dit-on de ces
             compliments-là ?… Il prophétise l’amour aux petites filles et leur colorie des
             almanachs :</p>
           <quote>
-            <l>Petite fille, un jour, tu seras grande et belle !</l>
-          </quote>
-          <p>et, enfin, s’il échappe à Dorat, qui tient trop de place dans ce recueil, et veut
+            <l>Petite fille, un jour, tu seras grande et belle !</l> </quote><p>et, enfin, s’il échappe à Dorat, qui tient trop de place dans ce recueil, et veut
             remonter vers Desportes, il chante Raphaël. Oui ! mais autant la Fornarina que sa
             gloire, autant d’être mort où vous savez que d’avoir vécu dans l’assomption du travail,
             son astral pinceau à la main ! Non ! la personnalité du poète qui a dit cela n’est
@@ -2710,9 +2622,7 @@
             crie :</p>
           <quote>
             <l rend="i">Et suspends le travail du mal et du malheur ;</l>
-            <l><hi rend="i">Fais</hi> qu’à la loi d’amour l’humanité réponde !</l>
-          </quote>
-          <p>ou c’est encore, comme dans <title>Consolatrix afflictorum</title> : <quote><hi
+            <l><hi rend="i">Fais</hi> qu’à la loi d’amour l’humanité réponde !</l> </quote><p>ou c’est encore, comme dans <title>Consolatrix afflictorum</title> : <quote><hi
                 rend="i">le Dieu qu’on trouve sur la colline</hi></quote>, — et si ce n’est pas le
             fils de Pan, celui-là ! ce doit être son neveu.</p>
           <p>Car le poète est naturaliste, et c’est sa manière d’être religieux. Il applique la
@@ -2732,9 +2642,7 @@
             plus beaux du recueil, — et ceux-là encore qui finissent, à chaque strophe, par ce
             mouvement d’un désespoir si doux et d’une si magnifique lassitude :</p>
           <quote>
-            <l>O ! Sommeil, ouvre-moi tes bras, et prends ma vie !</l>
-          </quote>
-          <p>n’est pas séparé de la poésie individuelle par grand’chose… Il a l’instrument ; il a la
+            <l>O ! Sommeil, ouvre-moi tes bras, et prends ma vie !</l> </quote><p>n’est pas séparé de la poésie individuelle par grand’chose… Il a l’instrument ; il a la
             main. Dans ce recueil, la langue est prête. Comme une cire vermeille et parfumée, qui
             bout ici et flambe là, elle est prête à recevoir le cachet qui lui donnera son
             empreinte. Elle a partout de la souplesse et de grasses et opulentes plénitudes. Le
@@ -2932,9 +2840,7 @@
             <l>Ici mon cœur souffrant en pleurs vient s’épancher…</l>
             <l>Mes pleurs vont s’amasser dans le creux du rocher…</l>
             <l>Si vous passez ici, colombes passagères,</l>
-            <l>Gardez-vous de ces eaux : les larmes sont amères ;</l>
-          </quote>
-          <p>parce que de Guérin a quelques-uns de ces vers finis parmi les vers non finis, mais
+            <l>Gardez-vous de ces eaux : les larmes sont amères ;</l> </quote><p>parce que de Guérin a quelques-uns de ces vers finis parmi les vers non finis, mais
             charmants dans leur ébauche, qu’il nous a laissés, il n’est pas pour cela le jumeau
             posthume d’André Chénier dans un genre différent, et l’appeler l’André Chénier du
             panthéisme est même une expression contradictoire. Il a pu y avoir, sans doute, par
@@ -2966,9 +2872,7 @@
             <l>Et le mystère qui se passe</l>
             <l>En ce point vague de l’espace</l>
             <l>Où le ciel et les flots amers</l>
-            <l>S’entre-baisent dans les jours clairs.</l>
-          </quote>
-          <p>S’il a parfois, comme les rivages qui ont des anses et les forêts qui ont des
+            <l>S’entre-baisent dans les jours clairs.</l> </quote><p>S’il a parfois, comme les rivages qui ont des anses et les forêts qui ont des
             clairières, de petits coins de descriptions bornées qui ravissent les contemplateurs au
             microscope comme Sainte-Beuve, il n’en est pas moins vrai qu’il est particulièrement le
             poète du mystérieux et de l’immense ; quand, au contraire, André Chénier, le graveur sur
@@ -3087,9 +2991,7 @@
           <p>Dans ce temps de démentis, de ces démentis qu’on s’allonge avec une grâce et une
             facilité qui honorent étrangement la littérature,</p>
           <quote>
-            <l>Parbleu ! je veux me mettre aussi de la partie !</l>
-          </quote>
-          <p>j’en veux donner un à mon tour, non à Pontmartin, mais à Roger de Beauvoir. Il appelle
+            <l>Parbleu ! je veux me mettre aussi de la partie !</l> </quote><p>j’en veux donner un à mon tour, non à Pontmartin, mais à Roger de Beauvoir. Il appelle
             le volume qu’il vient de publier : <title>Les meilleurs fruits de mon
               panier</title><note n="32" place="bottom" resp="author"> Michel Lévy.</note>. Eh bien,
             cela n’est pas ! Roger de Beauvoir est trop modeste. C’est peut-être la première fois de
@@ -3116,23 +3018,15 @@
             <l>Ah ! ce titre est de mon libraire ;</l>
             <l>Il est le parrain de l’affaire.</l>
             <l>Moi, je ne suis qu’un jardinier</l>
-            <l>Aspirant à vous satisfaire.</l>
-          </quote>
-          <quote>
+            <l>Aspirant à vous satisfaire.</l> </quote><quote>
             <l>Un libraire aujourd’hui peut tout ;</l>
             <l>Il vous baptise ou débaptise,</l>
             <l>L’enseigne luit, l’affiche est mise.</l>
-            <l>Cependant le mien a du goût…</l>
-          </quote>
-          <p>Je ne dis pas non, mais le titre est mauvais !</p>
+            <l>Cependant le mien a du goût…</l> </quote><p>Je ne dis pas non, mais le titre est mauvais !</p>
           <quote>
-            <l>Je le laisse faire à sa guise !</l>
-          </quote>
-          <p>Tant pis, alors ! Du reste, c’est peut-être vrai comme :</p>
+            <l>Je le laisse faire à sa guise !</l> </quote><p>Tant pis, alors ! Du reste, c’est peut-être vrai comme :</p>
           <quote>
-            <l>Et la collation avecque la musique,</l>
-          </quote>
-          <p>de cet autre poète, que Corneille, qui n’y faisait pas tant de façons, appelle le
+            <l>Et la collation avecque la musique,</l> </quote><p>de cet autre poète, que Corneille, qui n’y faisait pas tant de façons, appelle le
               <title>Menteur</title>, dans un titre brutal. Mais n’importe ! C’est bien dit, c’est
             facile, c’est aimable, c’est négligé, et de cette négligence de grand seigneur, peu
             paternel, qui commet le soin de ses enfants aux autres. Dès les premiers mots, on sent
@@ -3143,39 +3037,29 @@
             <l>Pastèques, oranges, grenades,</l>
             <l>Des sonnets et des sérénades,</l>
             <l>Force vers à la Maruja</l>
-            <l>Et des sifflets pour les alcades !</l>
-          </quote>
-          <quote>
+            <l>Et des sifflets pour les alcades !</l> </quote><quote>
             <l>Mes fruits et mes vers ont mûri</l>
             <l>A ce beau soleil des Espagnes.</l>
             <l>Étonnez-vous qu’à ces campagnes</l>
             <l>Tout d’abord ma lèvre ait souri :</l>
-            <l>J’ai bu du lait de ses montagnes.</l>
-          </quote>
-          <quote>
+            <l>J’ai bu du lait de ses montagnes.</l> </quote><quote>
             <l>A Montreuil pourtant, Couturier</l>
             <l>Nous vend des pêches odorantes ;</l>
             <l>Paris connaît son espalier ;</l>
             <l>De Madrid, on vient le prier</l>
-            <l>Pour en greffer chez les infantes !</l>
-          </quote>
-          <p>Certes ! c’est bien là de l’Alfred de Musset. C’est son revenant, et ce n’est pas son
+            <l>Pour en greffer chez les infantes !</l> </quote><p>Certes ! c’est bien là de l’Alfred de Musset. C’est son revenant, et ce n’est pas son
             fantôme. Écoutez encore :</p>
           <quote>
             <l>Les fruits de France valent bien</l>
             <l>Les plus beaux fruits d’Andalousie ;</l>
             <l>Mais, terre entre toutes choisie,</l>
             <l>Moitié more et moitié chrétien,</l>
-            <l>Ton jardin est ma fantaisie !</l>
-          </quote>
-          <quote>
+            <l>Ton jardin est ma fantaisie !</l> </quote><quote>
             <l>Si du moins mes vers étaient faits</l>
             <l>De la senteur qui te parfume,</l>
             <l>Comme un doux narghileh qui fume,</l>
             <l>Si tous tes arômes parfaits</l>
-            <l>Se retrouvaient en mon volume !</l>
-          </quote>
-          <p>Hélas ! ils y sont, ces aromes, et même ils y sont trop… Nous les avons trop respirés
+            <l>Se retrouvaient en mon volume !</l> </quote><p>Hélas ! ils y sont, ces aromes, et même ils y sont trop… Nous les avons trop respirés
             dans cette ardente cassolette d’or et de jais qui s’appelle <title>Les Contes d’Espagne
               et d’Italie</title>, pour ne pas être un peu blasés sur le parfum vieilli de ce flacon
             qui fut étincelant et enivrant  et qu’on a respiré autrefois, et que vous retrouvez
@@ -3186,9 +3070,7 @@
             <l>Grimaçant à peine un sourire,</l>
             <l>J’accomplis mon rude martyre.</l>
             <l>Ton masque ainsi buvait tes pleurs,</l>
-            <l>Ô Scarron, quand tu faisais rire !</l>
-          </quote>
-          <p>car ce cri final (daté de 1862), qui n’est plus de l’Alfred de Musset amoureux, mais du
+            <l>Ô Scarron, quand tu faisais rire !</l> </quote><p>car ce cri final (daté de 1862), qui n’est plus de l’Alfred de Musset amoureux, mais du
             Roger de Beauvoir trahi par la vie, ce cri qui promettait un poète nouveau dans le poète
             connu, dans le poète de <title>Cape et d’Epée</title> et même dans le poète de
               <title>Colombes et Couleuvres</title>, déjà si personnel et presque profond, ce cri
@@ -3237,9 +3119,7 @@
             <l>Que l’on retrouve un jour au fond d’un vieux tiroir ;</l>
             <l>La figure y grimace, et la glace brisée</l>
             <l>Nous y montre des traits dignes de la risée…</l>
-            <l>Tombez, vieux chênes morts ! passez, oiseaux sans voix !</l>
-          </quote>
-          <p>Malgré la beauté du mouvement dans le dernier vers, ce sont là des chagrins de <hi
+            <l>Tombez, vieux chênes morts ! passez, oiseaux sans voix !</l> </quote><p>Malgré la beauté du mouvement dans le dernier vers, ce sont là des chagrins de <hi
               rend="i">beau</hi>, des pleurs de jeune <hi rend="i">premier</hi> de la vie, qui se
             regrette parce qu’il faut passer dans les seconds. Ce ne sont pas là les larmes fières
             ou virilement désolées que j’aurais voulu voir tomber des yeux d’un poète qui a eu
@@ -3270,17 +3150,13 @@
             <l>Tout cédait à son gai délire,</l>
             <l>Le plus morose le fêtait ;</l>
             <l>Comme il buvait, comme il chantait !</l>
-            <l>Cet ami s’appelait le Rire…</l>
-          </quote>
-          <quote>
+            <l>Cet ami s’appelait le Rire…</l> </quote><quote>
             <l>Nous montions aux mêmes balcons,</l>
             <l>Nous vidions les mêmes flacons.</l>
             <l>Il était si beau dans l’ivresse !</l>
             <l>A l’aube, il pâlissait un peu…</l>
             <l>Nous nous quittions, et pour adieu,</l>
-            <l>Moi je lui laissais ma maîtresse !</l>
-          </quote>
-          <p>Je voudrais pouvoir citer la pièce tout entière ; un tel poète, de cette fraîcheur
+            <l>Moi je lui laissais ma maîtresse !</l> </quote><p>Je voudrais pouvoir citer la pièce tout entière ; un tel poète, de cette fraîcheur
             d’accent, ne peut pas être, ne peut jamais devenir ce dévergondé cynique qui montrait à
             la vie, son bourreau, ce que les polissons de Naples montrent au Vésuve pour le
             narguer ! On n’est pas Scarron que jusqu’à la ceinture ; on n’est pas Scarron parce
@@ -3293,17 +3169,11 @@
             pensent et chantent tant de vers comme ceux-ci :</p>
           <quote>
             <l>Le cœur, lys éternel, fleurit dans tous les temps ;</l>
-            <l>Le bonheur est un dieu qui vaut bien le printemps !…</l>
-          </quote>
-          <quote>
-            <l>Et la rose du soir sur tant de folles têtes…</l>
-          </quote>
-          <p>ce n’est pas, enfin,</p>
+            <l>Le bonheur est un dieu qui vaut bien le printemps !…</l> </quote><quote>
+            <l>Et la rose du soir sur tant de folles têtes…</l> </quote><p>ce n’est pas, enfin,</p>
           <quote>
             <l>Un cœur blessé, quand il fut tendre</l>
-            <l>Un fou tué sous son esprit,</l>
-          </quote>
-          <p>qui peut jamais être cette grotesque gargouille de Scarron, qui vomissait l’esprit
+            <l>Un fou tué sous son esprit,</l> </quote><p>qui peut jamais être cette grotesque gargouille de Scarron, qui vomissait l’esprit
             comme les gargouilles des toits vomissent l’eau sale ! La gaîté de Scarron ne lui coûta
             probablement pas un sou de courage. Et puis, il avait, pour lui mettre son manteau sur
             les épaules et de la ouate autour du cœur, les deux belles mains dévouées de celle qui
@@ -3324,13 +3194,9 @@
             poésie de castagnettes jouant les <title>Folies d’Espagne</title>, de ces castagnettes
             dont il parle encore si bien aujourd’hui, l’incorrigible !</p>
           <quote>
-            <l>L’agile castagnette à l’appel triomphant !</l>
-          </quote>
-          <quote>
+            <l>L’agile castagnette à l’appel triomphant !</l> </quote><quote>
             <l>Le masque en main, les castagnettes</l>
-            <l>Formant l’orage sous tes pieds,</l>
-          </quote>
-          <p>et je le conjurai d’aborder la poésie des sentiments les plus profonds de l’âme
+            <l>Formant l’orage sous tes pieds,</l> </quote><p>et je le conjurai d’aborder la poésie des sentiments les plus profonds de l’âme
             humaine. J’aurais désiré lui persuader qu’il était temps de cesser d’être un beau jeune
             homme en poésie et d’y être un homme tout à fait. Je lui rappelai ce qui donne à la Muse
             le plus magnifique accent qu’elle puisse avoir, c’est-à-dire l’inspiration chrétienne,
@@ -3911,24 +3777,18 @@
             panthéiste qui a osé écrire de lui-même ;</p>
           <quote>
             <l>Et je sens bien qu’en moi lentement s’élabore</l>
-            <l rend="i">La cristallisation d’un Dieu !</l>
-          </quote>
-          <p>l’optimiste halluciné qui annonce le monde nouveau ;</p>
+            <l rend="i">La cristallisation d’un Dieu !</l> </quote><p>l’optimiste halluciné qui annonce le monde nouveau ;</p>
           <quote>
             <l>Ainsi, l’homme est partout, — partout est la pensée ;</l>
             <l>L’adorable Espérance à jamais est fixée :</l>
             <l>Ses ailes sont prises aux fleurs !…</l>
             <l>Tout est bon ; tout est beau… La pauvre race humaine</l>
             <l>A force de pleurer son âme sur sa chaîne</l>
-            <l>L’a dissoute au sel de ses pleurs…</l>
-          </quote>
-          <p>l’enivré d’espoir impossible qui s’écrie :</p>
+            <l>L’a dissoute au sel de ses pleurs…</l> </quote><p>l’enivré d’espoir impossible qui s’écrie :</p>
           <quote>
             <l>C’est ainsi qu’écartant la vieillesse et l’enfance</l>
             <l>Nous referons la vie… et, grisé de jouvence,</l>
-            <l>Le monde aura toujours vingt ans !…</l>
-          </quote>
-          <p>ce divinisateur même de Dieu, de Dieu qui, dans l’agrandissement forcené de tout, doit
+            <l>Le monde aura toujours vingt ans !…</l> </quote><p>ce divinisateur même de Dieu, de Dieu qui, dans l’agrandissement forcené de tout, doit
               <hi rend="i">devenir</hi> Dieu davantage, est, certes ! bien heureux d’avoir à son
             service la faculté de l’enthousiasme, cette expression du feu du cœur qui se tord autour
             de son idée, et qui en cache, au moins, dans sa flamme, l’absurdité !</p>
@@ -3945,9 +3805,7 @@
             cœur qui ne battrait peut-être pas plus fort quand ce serait pour la vérité ! Il l’a dit
             lui-même, dans un vers splendide comme il en sait faire :</p>
           <quote>
-            <l>Le battement du cœur frappe aux portes du ciel !</l>
-          </quote>
-          <p>Le sien y frappe. Mais les forcera-t-il ?… C’est surtout par l’enthousiasme et l’âme,
+            <l>Le battement du cœur frappe aux portes du ciel !</l> </quote><p>Le sien y frappe. Mais les forcera-t-il ?… C’est surtout par l’enthousiasme et l’âme,
             et l’émotion, qu’il est poète. L’âme fait tout pardonner. Religieuse envers et contre
             toutes les philosophies qui l’ont dépravée, la sienne est tellement altérée de la soif
             du dieu <hi rend="i">personnel</hi>, appelé par lui le dieu <hi rend="i">inconnu</hi>,
@@ -4042,9 +3900,7 @@
             effets de cacophonie aussi étonnants que celui-ci :</p>
           <quote>
             <l>Il se revêt de chair comme l’arbre d’écorce,</l>
-            <l>Et comme de <hi rend="i">sa coque l’œuf</hi> !</l>
-          </quote>
-          <p>Ce « de sa coque l’œuf  », il est vrai, semble décisif contre sa théorie et la brise
+            <l>Et comme de <hi rend="i">sa coque l’œuf</hi> !</l> </quote><p>Ce « de sa coque l’œuf  », il est vrai, semble décisif contre sa théorie et la brise
             comme l’œuf dans sa coque. Elle nous rappelle, cette théorie, celle de ces singuliers
             grammairiens qui voulaient, il y a quelques années, traiter l’orthographe comme
             Rousselot veut traiter la prosodie. Ils prétendaient qu’il fallait affranchir aussi
@@ -4172,9 +4028,7 @@
             Croyez-vous qu’il y ait au monde une seconde personne qui vaille la troisième que
             voici :</p>
           <quote>
-            <l>… Pour moi, PARIS, C’ÉTAIT SURTOUT HUGO !</l>
-          </quote>
-          <p>Y a-t-il un « vous », si velouté et si idolâtre qu’on puisse le moduler, qui vaille
+            <l>… Pour moi, PARIS, C’ÉTAIT SURTOUT HUGO !</l> </quote><p>Y a-t-il un « vous », si velouté et si idolâtre qu’on puisse le moduler, qui vaille
             cette brusque troisième personne… « C’était surtout Hugo ! »</p>
           <p>Et quand il tient cette ingénieuse troisième personne en parlant de lui-même, comme il
             la tient ! comme il en joue ! comme il l’étreint ! comme il en exprime tout ce qu’il y
@@ -4183,9 +4037,7 @@
             <l>Mes monuments, mes parcs, mes princes et mes femmes,</l>
             <l>C’étaient ses <hi rend="i">vers</hi>, c’étaient <hi rend="i">ses romans</hi> et <hi
                 rend="i">ses drames</hi> ;</l>
-            <l rend="sc">Les tours de Notre-Dame étaient l’H de son nom !</l>
-          </quote>
-          <p>Ici, c’est l’épanouissement de la fusée ! le compliment halluciné ! Et comme c’est Hugo
+            <l rend="sc">Les tours de Notre-Dame étaient l’H de son nom !</l> </quote><p>Ici, c’est l’épanouissement de la fusée ! le compliment halluciné ! Et comme c’est Hugo
             par la pensée ! car Hugo pense tout cela de lui-même, et de ses vers et de ses drames et
             de ses romans, mais n’oserait peut-être pas le dire à la première personne ; seulement,
             comme Figaro, qui dit : « Ce qu’on ne peut pas parler, on le chante ! » ce qu’il ne peut
@@ -4195,25 +4047,18 @@
             car Victor Hugo est un bien meilleur faiseur de fagots que Sganarelle ; mais, vraiment,
             il en a fait rarement de pareils !</p>
           <quote>
-            <l>C’est <hi rend="sc">lui</hi> que je venais habiter, à vrai dire.</l>
-          </quote>
-          <quote>
+            <l>C’est <hi rend="sc">lui</hi> que je venais habiter, à vrai dire.</l> </quote><quote>
             <l>Ce fut ma bienvenue et mon bouquet de fête</l>
             <l>De te trouver <hi rend="i">logé dans le même poète.</hi></l>
             <l>Notre amitié naquit de l’admiration.</l>
-            <l>Et nous vécûmes là…</l>
-          </quote>
-          <p>(dans le poète, — comme aux Petites-Maisons !)</p>
+            <l>Et nous vécûmes là…</l> </quote><p>(dans le poète, — comme aux Petites-Maisons !)</p>
           <quote>
             <l>… d’art et d’affection,</l>
-            <l>Habitants du <hi rend="i">granit hautain</hi> (Hugo !!), deux hirondelles.</l>
-          </quote>
-          <quote>
+            <l>Habitants du <hi rend="i">granit hautain</hi> (Hugo !!), deux hirondelles.</l> </quote><quote>
             <l>Et nous nous en allions dans l’espace, fidèles</l>
             <l>Et libres, comprenant dès notre premier pas</l>
-            <l><hi rend="i">Qu’on</hi> <hi rend="sc">n’imitait Hugo qu’en ne l’imitant pas !</hi></l>
-          </quote>
-          <p>Aveu formel, pour le coup, et révélateur ! Certes ! ce n’est pas Vacquerie, que tout le
+            <l><hi rend="i">Qu’on</hi> <hi rend="sc">n’imitait Hugo qu’en ne l’imitant
+              pas !</hi></l> </quote><p>Aveu formel, pour le coup, et révélateur ! Certes ! ce n’est pas Vacquerie, que tout le
             monde connaît pour l’imitateur, le plus pieux imitateur de Victor Hugo, qui voudrait
             cracher comme Hugo, qui se mouche comme Hugo, qui voudrait faire… tout ce qui est
             humainement possible comme Hugo ; ce n’est pas Vacquerie qui aurait pu jamais écrire
@@ -4244,36 +4089,26 @@
             <l>La feuille croît peu</l>
             <l>Dans l’œuvre <hi rend="i">qu’il gêne.</hi></l>
             <l>Shakspeare est un chêne,</l>
-            <l>Racine <hi rend="sc">est un pieu !</hi></l>
-          </quote>
-          <p>Et il l’empale, — sur ce pieu, — à la turque, et l’y laisse, après cinquante strophes
+            <l>Racine <hi rend="sc">est un pieu !</hi></l> </quote><p>Et il l’empale, — sur ce pieu, — à la turque, et l’y laisse, après cinquante strophes
             pour arriver à ce pieu ! Il s’y montre l’irrévérent Hugo pour Molière à propos des
             femmes, le Hugo Trissotin quand il s’agit de sauver les Bélise et les. Philaminte :</p>
           <quote>
             <l>Avec ces vers on fit de toi, <hi rend="i">pauvre génie</hi>,</l>
             <l>Le <hi rend="i">complice</hi> du <hi rend="i">vieux préjugé bestial</hi></l>
             <l>Qui voudrait empêcher l’ascension bénie</l>
-            <l>Des femmes vers le beau, <hi rend="i">l’azur</hi> et <hi rend="i">l’idéal</hi> !</l>
-          </quote>
-          <p>A cela près de la rime qui a raté (bestial et idéal), du Hugo toujours ! Enfin, il s’y
+            <l>Des femmes vers le beau, <hi rend="i">l’azur</hi> et <hi rend="i">l’idéal</hi> !</l> </quote><p>A cela près de la rime qui a raté (bestial et idéal), du Hugo toujours ! Enfin, il s’y
             montre le Hugo des derniers temps, le Hugo sans fierté, à plat ventre devant Paris,
             quoique <hi rend="i">Paris, pour lui, ce soit surtout Hugo</hi> !</p>
           <quote>
             <l>Que suis-je pour la ville à qui tout grand artiste,</l>
             <l>Célèbre ailleurs, s’en vient demander s’il existe ?</l>
             <l>Nul, à quelque hauteur que son nom ait monté,</l>
-            <l>Ne <hi rend="i">croit en soi</hi> s’il n’a chez toi droit de cité ;</l>
-          </quote>
-          <quote>
+            <l>Ne <hi rend="i">croit en soi</hi> s’il n’a chez toi droit de cité ;</l> </quote><quote>
             <l>Quand la grande cité ne l’a pas faite sienne,</l>
-            <l part="I">Leur œuvre…</l>
-          </quote>
-          <p>(aux plus puissants artistes)</p>
+            <l part="I">Leur œuvre…</l> </quote><p>(aux plus puissants artistes)</p>
           <quote>
             <l part="F">… est dans la nuit.</l>
-            <l rend="i">La gloire est parisienne.</l>
-          </quote>
-          <p>Eh bien, n’est-ce pas le Hugo complet que nous connaissons tous, cette voix-là ?… Je ne
+            <l rend="i">La gloire est parisienne.</l> </quote><p>Eh bien, n’est-ce pas le Hugo complet que nous connaissons tous, cette voix-là ?… Je ne
             puis malheureusement tout citer de ce nouveau livre pour prouver qu’il n’est pas de
             Vacquerie ; mais qu’on me permette de citer encore, de l’auteur des <hi rend="i">Djinns
               vacquerisé</hi>, cette pièce entière. On en sera heureux ! Je suis sûr qu’on en sera
@@ -4284,40 +4119,36 @@
             <l>Pis qu’un soir</l>
             <l>De Norvège.</l>
             <l/>
-          <l>Oh ! Rêvé-je,</l>
+            <l>Oh ! Rêvé-je,</l>
             <l>Quel flot noir</l>
             <l>Va donc choir ?</l>
             <l>— Paul, il neige.</l>
             <l/>
-          <l>Ce flot blanc !</l>
+            <l>Ce flot blanc !</l>
             <l>Du noir flanc !</l>
             <l>La terrasse</l>
             <l/>
-          <l>Va changeant,</l>
+            <l>Va changeant,</l>
             <l>Ciel, <hi rend="sc">ta crasse</hi></l>
             <l>En argent !</l>
             <l/>
-          <l>Le souci</l>
+            <l>Le souci</l>
             <l>Du nuage</l>
             <l>Qui voyage</l>
-            <l>Rit ici !</l>
-          </quote>
-          <p>Oh ! <hi rend="i">rit ici</hi> !</p>
+            <l>Rit ici !</l> </quote><p>Oh ! <hi rend="i">rit ici</hi> !</p>
           <quote>
             <l>Ciel noirci,</l>
             <l>Blanche plage.</l>
             <l>Neige ! Outrage !</l>
             <l>Gloire aussi !</l>
             <l/>
-          <l>Quoi ! la place</l>
+            <l>Quoi ! la place</l>
             <l>Change et classe</l>
             <l>Les objets</l>
             <l/>
             <l>Et (que croire ?)</l>
             <l>Fait le jais</l>
-            <l>Et l’ivoire !</l>
-          </quote>
-          <p>Ah ! ce n’est plus là le petit bout d’oreille du lion, mais la griffe du lion Hugo tout
+            <l>Et l’ivoire !</l> </quote><p>Ah ! ce n’est plus là le petit bout d’oreille du lion, mais la griffe du lion Hugo tout
             entière, griffant, griffant les mots, les riens, le rien ; ce sont les rugissements du
             lion Hugo que j’entends dans ce turlututu sublime ! Doutez-vous encore ?… Croyez-vous
             toujours que ce soit un homme qui ne soit pas Hugo qui ait pu écrire de ces choses de
@@ -4429,9 +4260,7 @@
             frémissement de plaisir, et la publication du livre que voici, il y a plus de dix ans !
             et dix ans :</p>
           <quote>
-            <l>… Dix ans ! c’est bien long dans la vie,</l>
-          </quote>
-          <p>a dit tristement un autre poète, qui ne le fut, lui, qu’un jour. Pendant ces dix ans et
+            <l>… Dix ans ! c’est bien long dans la vie,</l> </quote><p>a dit tristement un autre poète, qui ne le fut, lui, qu’un jour. Pendant ces dix ans et
             plus, quelle a été la vie de Gères ? Dix ans et plus entraînent tant de choses ! Dans
             l’introduction de son nouveau volume, écrite avec la distinction qui est le caractère de
             cette plume toujours à cent pieds de la chose ou de l’expression vulgaire, Gères ne nous
@@ -4564,9 +4393,7 @@
             avant tout, un rêveur, et la rêverie <hi rend="i">ne se scinde pas</hi>. C’est le rêveur
             qui a écrit :</p>
           <quote>
-            <l>L’inconnu n’a pas de fenêtre.</l>
-          </quote>
-          <p>Mais à la rêverie il sait très bien allier la précision, nette et presque coupante, du
+            <l>L’inconnu n’a pas de fenêtre.</l> </quote><p>Mais à la rêverie il sait très bien allier la précision, nette et presque coupante, du
             détail. <title>L’Arbre devenu vieux</title>, le chef-d’œuvre du volume, réunit ces deux
             qualités qui semblent s’exclure, — et qui s’excluent dans des écrivains moins doués. Un
             jour, madame de Girardin, qui était poète, quoique <hi rend="i">bas bleu</hi> (cela peut
@@ -4592,9 +4419,7 @@
             moins auguste, moins sacerdotale, et surtout plus impatiente, c’est aussi un peu la
             mélancolie du <title>Moïse</title> de Vigny :</p>
           <quote>
-            <l>Seigneur, vous m’avez fait puissant et solitaire !</l>
-          </quote>
-          <p>C’est, comme peinture, de la grasse abondance de Lamartine, mais avec une langue
+            <l>Seigneur, vous m’avez fait puissant et solitaire !</l> </quote><p>C’est, comme peinture, de la grasse abondance de Lamartine, mais avec une langue
             scientifique, une langue technique que Lamartine, cet ignorant divin, ne connaissait
             pas, et dont son génie n’avait pas besoin… Il n’y aurait eu, en français, qu’un
             dictionnaire de quatre mots, il n’y aurait eu dans la langue, comme disent les
@@ -4616,17 +4441,13 @@
             mélancolie, ayant la séduction amère et douce de la mélancolie :</p>
           <quote>
             <l>Cette séduction intime, sœur des larmes,</l>
-            <l>Et qui va droit au cœur de quiconque a pleuré.</l>
-          </quote>
-          <p>Jules de Gères y va toujours. A chaque instant, il a, sur son rosier, de ces bourgeons
+            <l>Et qui va droit au cœur de quiconque a pleuré.</l> </quote><p>Jules de Gères y va toujours. A chaque instant, il a, sur son rosier, de ces bourgeons
             noirs qui s’entrouvrent parmi ses roses pâles.</p>
           <quote>
             <l>Il est des jours de chant comme il est des regrets,</l>
             <l>Des souvenirs cruels, des sanglots toujours prêts ;</l>
             <l>Comme il est des soucis, dont l’aile humide et noire</l>
-            <l>Flotte et tourne en spirale en haut de la mémoire !</l>
-          </quote>
-          <p>Je voudrais pourtant, avant de finir, vous donner <hi rend="i">l’impression</hi> de
+            <l>Flotte et tourne en spirale en haut de la mémoire !</l> </quote><p>Je voudrais pourtant, avant de finir, vous donner <hi rend="i">l’impression</hi> de
             l’accent de Gères, et je ne trouve à pouvoir insérer ici que cette pièce charmante qu’il
             a appelée <title>Les deux Lierres</title> :</p>
           <quote>
@@ -4678,9 +4499,7 @@
             <l>Et, comme ce bois mort couvrant</l>
             <l>De frais bouquets sa souche noire,</l>
             <l>Qu’on vous sauve en vous entourant</l>
-            <l>Des lierres d’or de la mémoire !</l>
-          </quote>
-          <p>Oui ! cela est charmant et cela serait parfait sans les deux débilités que j’ai
+            <l>Des lierres d’or de la mémoire !</l> </quote><p>Oui ! cela est charmant et cela serait parfait sans les deux débilités que j’ai
             soulignées ; mais ce n’est qu’un cil dans un bel œil bleu. On souffle, et l’œil, nacre
             et azur, a repris sa limpidité première. Ce n’est que charmant, et il y a des choses
             superbes dans le recueil de Gères. Lisez-les. Moi, je les ai relues, et elles sont
@@ -5114,9 +4933,7 @@
             Ninon, et qui est adressée à la même Ninon :</p>
           <quote>
             <l>Avec tout votre esprit, la belle indifférente,</l>
-            <l>Avec tous vos grands airs de rigueur nonchalante, etc. ;</l>
-          </quote>
-          <p>excepté une phrase superbe du <title>Poète déchu</title> (un roman détruit), — mais
+            <l>Avec tous vos grands airs de rigueur nonchalante, etc. ;</l> </quote><p>excepté une phrase superbe du <title>Poète déchu</title> (un roman détruit), — mais
             Alfred de Musset n’est pas à cela près d’une belle phrase ! — il n’y a dans cette
             biographie rien de plus que de ce qu’on sait et ce qu’on ignore. Nous ne sortons pas du
             clair-obscur. Les plus suaves tendresses d’Alfred de Musset, de ce poète de l’Amour et
@@ -5183,7 +5000,7 @@
             de rien ! Ce fut pour avoir écrit un peu plus tard <title>Namouna</title>,
               <title>Rolla</title> et <title>Mardoche</title>, qu’on l’accusa d’imiter Byron, les
             veines de ces trois marbres ressemblant aux veines de ces trois autres :
-            <title>Manfred</title>, <title>Beppo</title>, <title>Don Juan</title>… Seulement,
+              <title>Manfred</title>, <title>Beppo</title>, <title>Don Juan</title>… Seulement,
             pourquoi n’aurait-il pas <hi rend="i">byronisé</hi> de nature aussi bien que
             d’imitation ?… Pourquoi n’aurait-il pas été un frère jumeau de Byron, à distance ?…
             Fatalement, l’atmosphère du temps saturée de poésie byronienne dut pénétrer jusqu’au
@@ -5300,25 +5117,17 @@
             <l>Les dieux et les héros ne sont plus de ce temps ;</l>
             <l>Et, désormais fermés aux grandes espérances,</l>
             <l>Nous vivons trop nos deuils, nos plaisirs, nos souffrances,</l>
-            <l>Pour sonder du regard les cieux inquiétants.</l>
-          </quote>
-          <quote>
+            <l>Pour sonder du regard les cieux inquiétants.</l> </quote><quote>
             <l>Nous sommes fossoyeurs et nous enterrons tout !</l>
             <l>Nous ne sourcillons pas, et nous sommes si crânes</l>
             <l>Que nous jonglons avec des fémurs et des <hi rend="i">crânes</hi></l>
-            <l>Et que ce métier-là, nous le faisons par goût.</l>
-          </quote>
-          <quote>
+            <l>Et que ce métier-là, nous le faisons par goût.</l> </quote><quote>
             <l>Puis, nous oublions vite, et ce <hi rend="i">travail</hi> nous plaît ;</l>
             <l>Le ciel est d’un bleu clair et flambe sur nos têtes,</l>
             <l>Et quand le vent d’été chasse un rire de fêtes,</l>
-            <l>Nous avons la gaîté des fossoyeurs d’Hamlet !</l>
-          </quote>
-          <quote>
+            <l>Nous avons la gaîté des fossoyeurs d’Hamlet !</l> </quote><quote>
             <l>Et nous avons pour tous, vilains, bourgeois et nobles,</l>
-            <l>Le même coup de bêche et la même chanson.</l>
-          </quote>
-          <p>ces <hi rend="i">jongleurs</hi>, comme ils s’appellent eux-mêmes, s’emparent, <hi
+            <l>Le même coup de bêche et la même chanson.</l> </quote><p>ces <hi rend="i">jongleurs</hi>, comme ils s’appellent eux-mêmes, s’emparent, <hi
               rend="i">pour jongler</hi>, de la légende du Diable, et voudraient, les voluptueux !
             s’en donner un peu le frisson. Pardieu ! ils ne sont pas dégoûtés ! Mais on ne joue pas
             avec la légende du Diable sans bientôt y croire. Cette vieille légende dont on se moque,
@@ -5370,9 +5179,7 @@
             que plus frappant et plus sublime…</p>
           <quote>
             <l>Il combattit jusqu’à l’aurore…</l>
-            <l>Et c’était l’Esprit du Seigneur !</l>
-          </quote>
-          <p>Maurice Bouchor combat, partout, l’ange qu’il a dans la pensée, mais l’ange est partout
+            <l>Et c’était l’Esprit du Seigneur !</l> </quote><p>Maurice Bouchor combat, partout, l’ange qu’il a dans la pensée, mais l’ange est partout
             son vainqueur.</p>
           <p>Il est son vainqueur. Mais comme le poète gagne à être vaincu ! Imitateur, — je
             n’écrirai jamais servile, — esclave peut-être, mais esclave frémissant, dans la
@@ -5400,27 +5207,19 @@
             <l>Aussi, dans quelque lieu que je porte mes pas,</l>
             <l>L’ennui marche avec moi ; si, dans la nuit en fête,</l>
             <l>Les étoiles du ciel s’allument sur ma tête,</l>
-            <l>Je me tais, sachant bien qu’elles n’entendent pas.</l>
-          </quote>
-          <p>Est-il assez malheureux, cet athée, de n’être entendu ni des étoiles ni de Celui qui
+            <l>Je me tais, sachant bien qu’elles n’entendent pas.</l> </quote><p>Est-il assez malheureux, cet athée, de n’être entendu ni des étoiles ni de Celui qui
             est derrière elles !!</p>
           <quote>
             <l>Jamais au clair soleil je ne tendrai les bras,</l>
             <l>Car il ne connaît point les rayons qu’il nous jette ;</l>
             <l>Rien ne peut animer notre sol qui végète…</l>
-            <l>Sans savoir que tu meurs, ô terre, tu mourras !</l>
-          </quote>
-          <quote>
+            <l>Sans savoir que tu meurs, ô terre, tu mourras !</l> </quote><quote>
             <l>Et moi, mon âme est comme une glace limpide</l>
             <l>Où se réfléchirait, en sa course rapide,</l>
-            <l>Le Temps qui dans ses bras emporte l’univers !</l>
-          </quote>
-          <quote>
+            <l>Le Temps qui dans ses bras emporte l’univers !</l> </quote><quote>
             <l>Rien ne pouvant répondre à cette âme lassée</l>
             <l>Dont les ennuis par nulle autre ne sont soufferts,</l>
-            <l>Je fléchis sous le poids de ma propre pensée.</l>
-          </quote>
-        </div>
+            <l>Je fléchis sous le poids de ma propre pensée.</l> </quote></div>
         <div>
           <head>IV</head>
           <p>A ces vers d’une inspiration si accablée, j’en pourrais ajouter beaucoup d’autres,
@@ -5785,9 +5584,7 @@
               disparaître a leur dernier castillan d’or. Des deux mois de solde qui leur avaient été
               payés à leur arrivée, il ne restait plus une blanque, plus un maravedi. Ils étaient en
               train, comme dit énergiquement Oviedo, de manger leurs capes dans les hôtelleries.
-              L’enchanteresse Séville n’avait plus de charmes pour eux. Ils avaient tout vu… »</p>
-          </quote>
-        </div>
+              L’enchanteresse Séville n’avait plus de charmes pour eux. Ils avaient tout vu… »</p> </quote></div>
         <div>
           <head>III</head>
           <p>Quelle fresque ! mais on est obligé de s’arrêter, tant elle se prolonge ! et tout est
@@ -5920,9 +5717,7 @@
             de sa connaissance :</p>
           <quote>
             <l>Et le vent des hauteurs, qui <hi rend="i">souffle</hi> par rafales,</l>
-            <l><hi rend="i">Tordrait</hi> superbement ses franges triomphales !</l>
-          </quote>
-        </div>
+            <l><hi rend="i">Tordrait</hi> superbement ses franges triomphales !</l> </quote></div>
       </div>
     </body>
   </text>

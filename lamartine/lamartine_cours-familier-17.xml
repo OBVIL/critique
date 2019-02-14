@@ -162,7 +162,7 @@
             <p>« Pendant qu’il court le monde, la comtesse d’Albany passe l’été et l’automne à
               Genzano, dans une retraite enchantée d’où elle aperçoit devant elle les sommets du
               mont Albano et à ses pieds le lac de Némi,</p>
-            <l>Le beau lac de Némi qu’aucun souffle ne ride.</l>
+            <quote><l>Le beau lac de Némi qu’aucun souffle ne ride.</l></quote>
             <p>« C’est là qu’elle recevait les lettres d’Alfieri, c’est de là qu’elle envoyait ses
               consolations à cette âme impétueuse. Si nous ne possédons pas cette correspondance où
               tant de choses sans doute nous seraient révélées, on montre du moins à Florence un
@@ -3413,17 +3413,17 @@
               que je tirai des ferrures de ma porte avec les dents, et dont je fis une espèce
               d’encre, j’écrivis sur le bord d’une des pages de ma Bible, au moment où la lumière
               m’apparut, le dialogue suivant entre mon corps et mon âme :</p>
-            <p/>
-            <p>Le Corps.</p>
+            <quote>
+            <label type="speaker">Le Corps.</label>
             <l>Pourquoi veux-tu te séparer de moi ?</l>
             <l>Ô mon âme ! le ciel m’a-t-il joint avec toi</l>
             <l>Pour me quitter, s’il t’en prenait l’envie ?</l>
             <l>Ne pars point, sa rigueur semble s’être adoucie !</l>
-            <p>L’Âme.</p>
+            <label type="speaker">L’Âme.</label>
             <l><pb n="220"/>Puisque le ciel m’en impose la loi,</l>
             <l>Je serai ta compagne encore ;</l>
             <l>Oui, des jours plus heureux vont se lever, je croi,</l>
-            <l>Et déjà j’en ai vu l’aurore.</l>
+            <l>Et déjà j’en ai vu l’aurore.</l></quote>
             <p>« Ayant donc repris courage par mes propres forces, et continuant de lire la Bible,
               je m’étais tellement accoutumé à l’obscurité de ma prison, qu’au lieu d’une heure et
               demie, j’en pouvais employer trois à mes lectures. Je considérais avec étonnement
@@ -5274,7 +5274,7 @@
               occasion de noter un fait de plus dans l’histoire de cette âme souffrante. Après avoir
               essayé de retracer l’enivrement d’un cœur de poète à l’entrée de la vie, Joseph
               continue en ces mots :</p>
-            <l><pb n="340"/>Songe charmant, douce espérance !</l>
+            <quote><l><pb n="340"/>Songe charmant, douce espérance !</l>
             <l>Ainsi je rêvais à quinze ans ;</l>
             <l>Aux derniers reflets de l’enfance,</l>
             <l>À l’aube de l’adolescence,</l>
@@ -5403,7 +5403,7 @@
             <l>— Ainsi parlait Milton ; et ma voix plus sévère,</l>
             <l>Par degrés élevant son accent jusqu’au sien,</l>
             <l>Après lui murmurait : « Oui, la France est ma mère,</l>
-            <l>       Et le poète est citoyen. »</l>
+            <l>       Et le poète est citoyen. »</l></quote>
             <p>« Tout ce discours de Milton révèle assez quelle fièvre patriotique fermentait au
               cœur de Joseph, et combien les souffrances du pays ajoutèrent aux siennes propres,
               tant que la <pb n="345"/>cause publique fut en danger. C’était le seul sentiment assez
@@ -5420,16 +5420,18 @@
               Révolution dont il adorait les principes et dont il admirait les hommes, combien de
               fois il lui arrivait de s’écrier avec lord Ormond dans <hi rend="i"
               >Cromwell</hi> :</p>
-            <l>Triste et commun effet des troubles domestiques !</l>
+            <quote><l>Triste et commun effet des troubles domestiques !</l>
             <l>À quoi tiennent, mon Dieu, les vertus politiques ?</l>
             <l><pb n="346"/>Combien doivent leur faute à leur sort rigoureux,</l>
             <l>Et combien semblent purs qui ne furent qu’heureux !</l>
+            </quote>
             <p>Et qu’il enviait au divin poète d’avoir pu dire, parlant à sa lyre tant chérie :</p>
+            <quote>
             <l>Des partis l’haleine glacée</l>
             <l>Ne t’inspira point tour à tour :</l>
             <l>Aussi chaste que la pensée,</l>
             <l>Nul souffle ne t’a caressée,</l>
-            <l>Excepté celui de l’amour !</l>
+            <l>Excepté celui de l’amour !</l></quote>
             <p>« Par ses goûts, ses études et ses amitiés, surtout à la fin, Joseph appartenait
               d’esprit et de cœur à cette jeune école de poésie qu’André Chénier légua au
               dix-neuvième siècle du pied de l’échafaud, et dont Lamartine, Alfred de Vigny, Victor
@@ -5541,8 +5543,10 @@
             son domaine.</p>
           <quote>
             <label type="head">LES RAYONS JAUNES.</label>
-            <quote><l><foreign xml:lang="lat"><hi rend="i">Lurida præterea fiunt
-                  quæcumque</hi></foreign>… <lb/><hi rend="sc">Lucrèce</hi>, liv. IV.</l></quote>
+            <quote xml:lang="lat">
+              <l rend="i">Lurida præterea fiunt quæcumque…</l>
+              <bibl><hi rend="sc">Lucrèce</hi>, liv. IV.</bibl>
+            </quote>
             <l><pb n="352"/>Les dimanches d’été, le soir, vers les six heures,</l>
             <l>Quand le peuple empressé déserte ses demeures</l>
             <l>                 Et va s’ébattre aux champs,</l>
@@ -5663,7 +5667,8 @@
               rend="i">Promenade</hi>. Relisez-la, mon ami. C’est encore vous à vingt ans :</p>
           <quote>
             <label type="head">PROMENADE.</label>
-            <quote><l rend="i">…… Silvas inter reptare salubres.</l>
+            <quote xml:lang="lat">
+              <l rend="i">…… Silvas inter reptare salubres.</l>
               <bibl><hi rend="sc">Horace</hi>.</bibl>
             </quote><quote><l rend="i">Reptare per limitem.</l>
               <bibl><hi rend="sc">Pline le Jeune</hi>.</bibl></quote>
@@ -5734,11 +5739,9 @@
         <div>
           <head>XI</head>
           <p>En voici une qui m’alla au cœur comme une voix de mère :</p>
-          <quote>
-            <l><foreign xml:lang="lat"><hi rend="i">Tacendo il nome di questa
-                gentilissima</hi></foreign><lb/><hi rend="sc">Dante</hi>, <hi rend="i">Vita
-                nuova</hi>.</l>
-            <l/>
+          <quote xml:lang="lat">
+            <l rend="i">Tacendo il nome di questa gentilissima</l>
+            <bibl><hi rend="sc">Dante</hi>, <hi rend="i">Vita nuova</hi>.</bibl>
             <l>Toujours je la connus pensive et sérieuse :</l>
             <l>Enfant, dans les ébats de l’enfance joueuse</l>
             <l>Elle se mêlait peu, parlait déjà raison ;</l>
@@ -5815,14 +5818,13 @@
           </quote>
           <ab type="ornament">* * *</ab>
           <quote>
-            <l>L’ENFANT RÊVEUR.</l>
-            <l/>
-            <l>Abandonnant tout à coup mes jeunes compagnons, <lb/>j’allais m’asseoir à l’écart pour
-              contempler la nue <lb/>fugitive, ou entendre la pluie tomber sur le feuillage.
-                <lb/><hi rend="i">René</hi>.</l>
-            <l/>
-            <l>À mon ami ***</l>
-            <l/>
+            <label type="head">L’ENFANT RÊVEUR.</label>
+            <quote>
+              <p>Abandonnant tout à coup mes jeunes compagnons, j’allais m’asseoir à l’écart pour
+                contempler la nue fugitive, ou entendre la pluie tomber sur le feuillage.</p>
+              <bibl><hi rend="i">René</hi>.</bibl>
+            </quote>
+            <label type="salute"><hi rend="n">À mon ami ***</hi></label>
             <l>Où vas-tu, bel enfant ? tous les jours je te vois,</l>
             <l>Au matin, t’échapper par la porte du bois,</l>
             <l>Et, déjà renonçant aux jeux du premier âge,</l>
@@ -5840,10 +5842,11 @@
           <quote>
             <label type="head">À M. A… DE L… (LAMARTINE).</label>
             <quote>
-              <p>Ces chantres sont de race divine : ils possèdent le seul <lb/>talent incontestable
-                dont le Ciel ait fait présent à la terre.</p>
+              <p>Ces chantres sont de race divine : ils possèdent le seul talent incontestable dont
+                le Ciel ait fait présent à la terre.</p>
               <bibl><hi rend="i">René</hi>.</bibl>
-            </quote><l>Ô toi qui sais ce que la terre</l>
+            </quote>
+            <l>Ô toi qui sais ce que la terre</l>
             <l>Enferme de triste aux humains,</l>
             <l>Qui sais la vie et son mystère,</l>
             <l>Et qui fréquentes, solitaire,</l>
@@ -6065,7 +6068,7 @@
               d’élévation ou de pureté. Si l’on cherchait <pb n="375"/>le lien, le point d’union ou
               d’embranchement des deux recueils, j’indiquerais la pièce de <hi rend="i">Joseph
                 Delorme</hi> :</p>
-            <l>Toujours je la connus pensive et sérieuse…</l>
+            <quote><l>Toujours je la connus pensive et sérieuse…</l></quote>
             <p>comme celle d’où est née et sortie, en quelque sorte, cette nouvelle veine plus
               épurée. C’est ce côté que je n’avais qu’atteint et touché dans <hi rend="i">Joseph
                 Delorme</hi>, qui se trouve développé dans les <hi rend="i">Consolations</hi>.</p>
@@ -6246,7 +6249,8 @@
               d’abord, et ensuite vous m’avez porté à la source de toute consolation ; car vous
               l’avez vous-même appris dès la jeunesse, les autres eaux tarissent, et ce n’est qu’aux
               bords de cette Siloé céleste qu’on peut s’asseoir pour toujours et s’abreuver :</p>
-            <l>Voici la vérité qu’au monde je révèle :</l>
+            <quote>
+              <l>Voici la vérité qu’au monde je révèle :</l>
             <l>Du Ciel dans mon néant je me suis souvenu :</l>
             <l>Louez Dieu ! La brebis vient quand l’agneau l’appelle ;</l>
             <l>J’appelais le Seigneur, le Seigneur est venu.</l>
@@ -6255,6 +6259,7 @@
             <l>Ma tige a reverdi de sève et de verdeur ;</l>
             <l>Seigneur, je vous bénis ! à ma lampe mourante</l>
             <l>Votre souffle vivant a rendu sa splendeur.</l>
+            </quote>
             <p>« Dieu donc et toutes ses conséquences ; Dieu, l’immortalité, la rémunération et la
               peine ; dès ici-bas le devoir et l’interprétation du visible par l’invisible : ce sont
               les consolations les plus réelles après le malheur, et l’âme, qui une fois y a pris
@@ -6533,48 +6538,48 @@
             <p>« Quelle fut donc ma surprise quand je reçus de lui, avec qui je n’avais eu
               d’ailleurs que des relations assez rares et de rencontre, une lettre ainsi
               conçue :</p>
-            <p>« Après avoir lu <hi rend="i">les Consolations</hi>
-              <lb/>trois heures et demie de suite, le vendredi 26 mars (1830).</p>
-            <p>« S’il y avait un Dieu, j’en serais bien aise, car il me payerait de son paradis pour
-              être honnête homme comme je suis.</p>
-            <p><pb n="405"/>« Ainsi je ne changerais rien à ma conduite, et je serais récompensé
-              pour faire précisément ce que je fais.</p>
-            <p>« Une chose cependant diminuerait le plaisir que j’ai à rêver avec les douces larmes
-              que fait couler une bonne action : cette idée d’en être <hi rend="i">payé</hi> par une
-              récompense, un paradis.</p>
-            <p>« Voilà, monsieur, ce que je vous dirais en vers si je savais en faire aussi bien que
-              vous. Je suis choqué que vous autres qui <hi rend="i">croyez en Dieu</hi>, vous
-              imaginiez que, pour être <hi rend="i">au désespoir</hi> trois ans de ce qu’une
-              maîtresse vous a quittés, il faille croire en Dieu. De même un Montmorency s’imagine
-              que, pour être brave sur le champ de bataille, il faut s’appeler Montmorency.</p>
-            <p>« Je vous crois appelé, monsieur, aux plus grandes destinées littéraires, mais je
-              trouve encore un peu d’affectation dans vos vers. Je voudrais qu’ils ressemblassent
-              davantage à ceux de la Fontaine. Vous parlez trop de gloire. On aime à travailler,
-              mais Nelson (lisez sa <hi rend="i">Vie</hi> par l’infâme Southey), Nelson ne se fait
-              tuer que pour devenir <hi rend="i">pair d’Angleterre</hi>. Qui diable sait si la
-              gloire viendra ! Voyez Diderot promettre l’immortalité à M. Falconet, sculpteur.</p>
-            <p><pb n="406"/>« La Fontaine disait à la Champmeslé : Nous aurons la gloire, moi pour
-              écrire, et vous pour réciter. » Il a deviné. Mais pourquoi parler de ces choses-là ?
-              La passion a sa pudeur : pourquoi révéler ces choses intimes ? pourquoi des noms ?
-              Cela a l’air d’une prônerie, d’un <hi rend="i">puff</hi>.</p>
-            <p>« Voilà, monsieur, ma pensée, et toute ma pensée. Je crois qu’on parlera de vous en
-              1890. Mais vous ferez mieux que les <hi rend="i">Consolations</hi>, quelque chose de
-              plus <hi rend="i">fort</hi> et de plus <hi rend="i">pur</hi>. »</p>
-            <p/>
+            <quote>
+              <p>« Après avoir lu <hi rend="i">les Consolations</hi>
+                <lb/>trois heures et demie de suite, le vendredi 26 mars (1830).</p>
+              <p>« S’il y avait un Dieu, j’en serais bien aise, car il me payerait de son paradis
+                pour être honnête homme comme je suis.</p>
+              <p><pb n="405"/>« Ainsi je ne changerais rien à ma conduite, et je serais récompensé
+                pour faire précisément ce que je fais.</p>
+              <p>« Une chose cependant diminuerait le plaisir que j’ai à rêver avec les douces
+                larmes que fait couler une bonne action : cette idée d’en être <hi rend="i"
+                  >payé</hi> par une récompense, un paradis.</p>
+              <p>« Voilà, monsieur, ce que je vous dirais en vers si je savais en faire aussi bien
+                que vous. Je suis choqué que vous autres qui <hi rend="i">croyez en Dieu</hi>, vous
+                imaginiez que, pour être <hi rend="i">au désespoir</hi> trois ans de ce qu’une
+                maîtresse vous a quittés, il faille croire en Dieu. De même un Montmorency s’imagine
+                que, pour être brave sur le champ de bataille, il faut s’appeler Montmorency.</p>
+              <p>« Je vous crois appelé, monsieur, aux plus grandes destinées littéraires, mais je
+                trouve encore un peu d’affectation dans vos vers. Je voudrais qu’ils ressemblassent
+                davantage à ceux de la Fontaine. Vous parlez trop de gloire. On aime à travailler,
+                mais Nelson (lisez sa <hi rend="i">Vie</hi> par l’infâme Southey), Nelson ne se fait
+                tuer que pour devenir <hi rend="i">pair d’Angleterre</hi>. Qui diable sait si la
+                gloire viendra ! Voyez Diderot promettre l’immortalité à M. Falconet, sculpteur.</p>
+              <p><pb n="406"/>« La Fontaine disait à la Champmeslé : Nous aurons la gloire, moi pour
+                écrire, et vous pour réciter. » Il a deviné. Mais pourquoi parler de ces choses-là ?
+                La passion a sa pudeur : pourquoi révéler ces choses intimes ? pourquoi des noms ?
+                Cela a l’air d’une prônerie, d’un <hi rend="i">puff</hi>.</p>
+              <p>« Voilà, monsieur, ma pensée, et toute ma pensée. Je crois qu’on parlera de vous en
+                1890. Mais vous ferez mieux que les <hi rend="i">Consolations</hi>, quelque chose de
+                plus <hi rend="i">fort</hi> et de plus <hi rend="i">pur</hi>. »</p>
+            </quote>
             <p>« Ce même Beyle, quelques mois après et au lendemain de la révolution de Juillet,
               nommé consul à Trieste, et se croyant prêt à partir (il n’obtint pas l’<hi rend="i"
                 >exequatur</hi>), m’écrivait cet autre billet tout aimable, qui me prouvait une fois
               le plus qu’il augurait bien de moi et qu’il ne tenait pas à lui que je ne devinsse
               quelque chose :</p>
-            <p>« 71, rue Richelieu, ce 29 septembre 1830.</p>
-            <p>« Monsieur, on m’assure à l’instant que je viens d’être nommé consul à Trieste. On
-              dit la nature belle en ce pays. Les îles de l’Adriatique sont pittoresques. Je fais le
-              premier acte de consulat en vous engageant à passer six mois ou un an dans la maison
-              du consul. Vous <pb n="407"/>seriez, monsieur, aussi libre qu’à l’auberge ; nous ne
-              nous verrions qu’à table. Vous seriez tout à vos inspirations poétiques.</p>
-            <p>« Agréez, monsieur, l’assurance de mes sentiments les plus distingués.</p>
-            <p>« <hi rend="sc">Beyle</hi>. »</p>
-            <p/>
+            <quote><p>« 71, rue Richelieu, ce 29 septembre 1830.</p>
+              <p>« Monsieur, on m’assure à l’instant que je viens d’être nommé consul à Trieste. On
+                dit la nature belle en ce pays. Les îles de l’Adriatique sont pittoresques. Je fais
+                le premier acte de consulat en vous engageant à passer six mois ou un an dans la
+                maison du consul. Vous <pb n="407"/>seriez, monsieur, aussi libre qu’à l’auberge ;
+                nous ne nous verrions qu’à table. Vous seriez tout à vos inspirations poétiques.</p>
+              <p>« Agréez, monsieur, l’assurance de mes sentiments les plus distingués.</p>
+              <p>« <hi rend="sc">Beyle</hi>. »</p></quote>
             <p>« C’était aux <hi rend="i">Consolations</hi> et aux espérances qu’elles donnaient que
               je devais tous ces témoignages.</p>
             <p>« Parmi mes amis du <hi rend="i">Globe</hi> ou qui appartenaient par leurs idées à ce
@@ -6872,11 +6877,11 @@
             un sacrilège, et, s’il <pb n="427"/>se complaît à écrire ce qu’il éprouve en la voyant,
             c’est ainsi qu’il écrit :</p>
           <quote>
-            <l>À MADAME V. H.</l>
-            <l/>
-            <l>Notre bonheur n’est qu’un malheur plus ou moins consolé. <lb/><hi rend="sc"
-                >Ducis</hi>.</l>
-            <l/>
+            <label type="head">À MADAME V. H.</label>
+            <quote>
+              <l>Notre bonheur n’est qu’un malheur plus ou moins consolé.</l>
+              <bibl><hi rend="sc">Ducis</hi>.</bibl>
+            </quote>
             <l>Oh ! que la vie est longue aux longs jours de l’été,</l>
             <l>Et que le temps y pèse à mon cœur attristé !</l>
             <l>Lorsque midi surtout a versé sa lumière,</l>
@@ -6952,15 +6957,15 @@
             <label type="dateline"><hi rend="n">Mai 1829.</hi></label>
           </quote>
           <ab type="ornament">* * *</ab>
+          <pb n="430"/>
           <quote>
-            <l>À M. VIGUIER.</l>
-            <l/>
-            <l><pb n="430"/><seg xml:lang="lat" rend="i">Dicebam hæc et flebam amarissime
-                contritione <lb/>cordis mei ; et ecce audio vocem de vicina domo <lb/>cum cantu
-                dicentis et crebro repetentis, quasi pueri <lb/>an puellæ nescio</seg> : Tolle,
-              lege ! tolle, lege ! <lb/><hi rend="sc">Saint Augustin</hi>, <hi rend="i"
-                >Confess.</hi>, liv. VIII.</l>
-            <l/>
+            <label type="head">À M. VIGUIER.</label>
+            <quote xml:lang="lat">
+              <p rend="i">Dicebam hæc et flebam amarissime contritione cordis mei ; et ecce audio
+                vocem de vicina domo cum cantu dicentis et crebro repetentis, quasi pueri an puellæ
+                nescio : Tolle, lege ! tolle, lege !</p>
+              <bibl><hi rend="sc">Saint Augustin</hi>, <hi rend="i">Confess.</hi>, liv. VIII.</bibl>
+            </quote>
             <l>Au temps des Empereurs, quand les dieux adultères,</l>
             <l>Impuissants à garder leur culte et leurs mystères,</l>
             <l>Pâlissaient, se taisaient sur l’autel ébranlé</l>
@@ -7007,12 +7012,11 @@
             nature agreste de Bretagne par Chateaubriand. Lisez encore, et réfléchissez à la
             profondeur naïve de ce talent :</p>
           <quote>
-            <l>À M. AUGUSTE LE PREVOST.</l>
-            <l/>
-            <l><foreign xml:lang="lat"><hi rend="i">Quis memorabitur tui post mortem, et quis orabit
-                  pro te</hi></foreign> ? <lb/><hi rend="i">De Imit. Christi</hi>, lib. I,
-                cap. <num>xxiii</num>.</l>
-            <l/>
+            <label type="head">À M. AUGUSTE LE PREVOST.</label>
+            <quote xml:lang="lat">
+              <p rend="i">Quis memorabitur tui post mortem, et quis orabit pro te ?</p>
+              <bibl><hi rend="i">De Imit. Christi</hi>, lib. I, cap. <num>xxiii</num>.</bibl>
+            </quote>
             <l>Dans l’île Saint-Louis, le long d’un quai désert,</l>
             <l>L’autre soir je passais : le ciel était couvert,</l>
             <l>Et l’horizon brumeux eût paru noir d’orages,</l>
@@ -7216,14 +7220,14 @@
               >Consolation</hi> ?</p>
           <p>Lisez :</p>
           <quote>
-            <l>À DEUX ABSENTS.</l>
-            <l/>
-            <l>Vois ce que tu es dans cette maison ! tout pour toi. Tes amis <lb/>te considèrent :
-              tu fais souvent leur joie, et il semble à ton cœur <lb/>qu’il ne pourrait exister sans
-              eux. Cependant, si tu partais, si tu <lb/>t’éloignais de ce cercle, sentiraient-ils le
-              vide que ta perte causerait <lb/>dans leur destinée ? et combien de temps ? <lb/><hi
-                rend="i">Werther</hi>.</l>
-            <l/>
+            <label type="head">À DEUX ABSENTS.</label>
+            <quote>
+              <p>Vois ce que tu es dans cette maison ! tout pour toi. Tes amis te considèrent : tu
+                fais souvent leur joie, et il semble à ton cœur qu’il ne pourrait exister sans eux.
+                Cependant, si tu partais, si tu t’éloignais de ce cercle, sentiraient-ils le vide
+                que ta perte causerait dans leur destinée ? et combien de temps ?</p>
+              <bibl><hi rend="i">Werther</hi>.</bibl>
+            </quote>
             <l>Couple heureux et brillant, vous qui m’avez admis</l>
             <l>Dès longtemps comme un hôte à vos foyers amis,</l>
             <l>Qui m’avez laissé voir en votre destinée</l>
@@ -7325,162 +7329,162 @@
               en les entourant de traits qui peuvent le peindre. — À lui, au sein des mers
               brillantes où ils ne lui parviendront pas, nous les lui envoyons, ces vers, comme un
               vœu d’ami dans le voyage. »</p>
-            <l>Un jour, c’était au temps des oisives années,</l>
-            <l>Aux dernières saisons, de poésie ornées</l>
-            <l>Et d’art, avant l’orage où tout s’est dispersé,</l>
-            <l>Et dont le vaste flot, quoique rapetissé,</l>
-            <l>Avec les rois déchus, les trônes à la nage.</l>
-            <l>…………………………………………………</l>
-            <l>…………………………………………………</l>
-            <l>De retour à Paris après sept ans, je crois,</l>
-            <l>De soleils de Toscane ou d’ombre sous tes bois.</l>
-            <l><pb n="445"/>Comptant trop sur l’oubli, comme durant l’absence,</l>
-            <l>Tu retrouvais la gloire avec reconnaissance.</l>
-            <l>Ton merveilleux laurier sur chacun de tes pas</l>
-            <l>Étendait un rameau que tu n’espérais pas ;</l>
-            <l>L’écho te renvoyait tes paroles aimées ;</l>
-            <l>Les moindres des chansons anciennement semées</l>
-            <l>Sur ta route en festons pendaient comme au hasard ;</l>
-            <l>Les oiseaux par milliers, nés depuis ton départ,</l>
-            <l>Chantaient ton nom, un nom de tendresse et de flamme,</l>
-            <l>Et la vierge, en passant, le chantait dans son âme.</l>
-            <l>Non, jamais toit chéri, jaloux de te revoir,</l>
-            <l>Jamais antique bois où tu reviens t’asseoir,</l>
-            <l>Milly, ses sept tilleuls ; Saint-Point, ses deux collines,</l>
-            <l>N’ont envahi ton cœur de tant d’odeurs divines,</l>
-            <l>Amassé pour ton front plus d’ombrage, et paré</l>
-            <l>De plus de nids joyeux ton sentier préféré !</l>
-            <l/>
-            <l>Et dans ton sein coulait cette harmonie humaine,</l>
-            <l>Sans laisser d’autre ivresse à ta lèvre sereine</l>
-            <l>Qu’un sourire suave, à peine s’imprimant ;</l>
-            <l>Ton œil étincelait sans éblouissement,</l>
-            <l>Et ta voix mâle, sobre et jamais débordée,</l>
-            <l>Dans sa vibration marquait mieux chaque idée !</l>
-            <l/>
-            <l>Puis, comme l’homme aussi se trouve au fond de tout,</l>
-            <l>Tu ressentais parfois plénitude et dégoût.</l>
-            <l>— Un jour donc, un matin, plus las que de coutume,</l>
-            <l>De tes félicités repoussant l’amertume,</l>
-            <l>Un geste vers le seuil qu’ensemble nous passions :</l>
-            <l>« Hélas ! t’écriais-tu, ces admirations,</l>
-            <l><pb n="446"/>« Ces tributs accablants qu’on décerne au génie,</l>
-            <l>« Ces fleurs qu’on fait pleuvoir quand la lutte est finie,</l>
-            <l>« Tous ces yeux rayonnants éclos d’un seul regard,</l>
-            <l>Ces échos de sa voix, tout cela vient trop tard !</l>
-            <l>« Le dieu qu’on inaugure en pompe au Capitole,</l>
-            <l>« Du dieu jeune et vainqueur n’est souvent qu’une idole !</l>
-            <l>« L’âge que vont combler ces honneurs superflus,</l>
-            <l>« S’en repaît, — les sent mal, — ne les mérite plus !</l>
-            <l>« Oh ! qu’un peu de ces chants, un peu de ces couronnes,</l>
-            <l>« Avant les pâles jours, avant les lents automnes,</l>
-            <l>« M’eût été dû plutôt à l’âge efflorescent</l>
-            <l>« Où, jeune, inconnu, seul avec mon vœu puissant,</l>
-            <l>« Dans ce même Paris cherchant en vain ma place,</l>
-            <l>« Je n’y trouvais qu’écueils, fronts légers ou de glace,</l>
-            <l>« Et qu’en diversion à mes vastes désirs,</l>
-            <l>« Empruntant du hasard l’or qu’on jette aux plaisirs,</l>
-            <l>« Je m’agitais au port, navigateur sans monde,</l>
-            <l>« Mais aimant, espérant, âme ouverte et féconde !</l>
-            <l>« Oh ! que ces dons tardifs où se heurtent mes yeux</l>
-            <l>« Devaient m’échoir alors, et que je valais mieux ! »</l>
-            <l/>
-            <l>Et le discours bientôt sur quelque autre pensée</l>
-            <l>Échappa, comme une onde au caprice laissée ;</l>
-            <l>Mais ce qu’ainsi la bouche aux vents avait jeté,</l>
-            <l>Mon souvenir profond l’a depuis médité.</l>
-            <l/>
-            <l>Il a raison, pensais-je, il dit vrai, le poète !</l>
-            <l>La jeunesse emportée et d’humeur indiscrète</l>
-            <l>Est la meilleure encor ; sous son souffle jaloux</l>
-            <l>Elle aime à rassembler tout ce qui flotte en nous</l>
-            <l><pb n="447"/>De vif et d’immortel ; dans l’ombre ou la tempête</l>
-            <l>Elle attise en marchant son brasier sur sa tête :</l>
-            <l>L’encens monte et jaillit ! Elle a foi dans son vœu ;</l>
-            <l>Elle ose la première à l’avenir en feu,</l>
-            <l>Quand chassant le vieux Siècle un nouveau s’initie,</l>
-            <l>Lire ce que l’éclair lance de prophétie.</l>
-            <l>Oui, la jeunesse est bonne ; elle est seule à sentir</l>
-            <l>Ce qui, passé trente ans, meurt ou ne peut sortir,</l>
-            <l>Et devient comme une âme en prison dans la nôtre ;</l>
-            <l>La moitié de la vie est le tombeau de l’autre ;</l>
-            <l>Souvent tombeau blanchi, sépulcre décoré,</l>
-            <l>Qui reçoit le banquet pour l’hôte préparé.</l>
-            <l>C’est notre sort à tous ; tu l’as dit, ô grand homme !</l>
-            <l>Eh ! n’étais-tu pas mieux celui que chacun nomme,</l>
-            <l>Celui que nous cherchons, et qui remplis nos cœurs,</l>
-            <l>Quand par-delà les monts d’où fondent les vainqueurs,</l>
-            <l>Dès les jours de Wagram, tu courais l’Italie,</l>
-            <l>De Pise à Nisita promenant ta folie,</l>
-            <l>Essayant la lumière et l’onde dans ta voix,</l>
-            <l>Et chantant l’oranger pour la première fois ?</l>
-            <l>Oui, même avant la corde ajoutée à ta lyre,</l>
-            <l>Avant le Crucifix, le Lac, avant Elvire,</l>
-            <l>Lorsqu’à regret rompant tes voyages chéris,</l>
-            <l>Retombé de Pæstum aux étés de Paris,</l>
-            <l>Passant avec Jussieu<note resp="author"> M. Laurent de Jussieu, l’un des plus anciens
-                amis de Lamartine.</note> tout un jour à Vincennes</l>
-            <l>À tailler en sifflets l’aubier des jeunes chênes ;</l>
-            <l><pb n="448"/>De Talma, les matins, pour Saül, accueilli ;</l>
-            <l>Puis retournant cacher tes hivers à Milly,</l>
-            <l>Tu condamnais le sort, — oui, dans ce temps-là même</l>
-            <l>(Si tu ne l’avais dit, ce serait un blasphème),</l>
-            <l>Dans ce temps, plus d’amour enflait ce noble sein,</l>
-            <l>Plus de pleurs grossissaient la source sans bassin,</l>
-            <l>Plus de germes errants pleuvaient de ta colline,</l>
-            <l>Et tu ressemblais mieux à notre Lamartine !</l>
-            <l>C’est la loi : tout poète à la gloire arrivé,</l>
-            <l>À mesure qu’au jour son astre s’est levé,</l>
-            <l>A pâli dans son cœur. Infirmes que nous sommes !</l>
-            <l>Avant que rien de nous parvienne aux autres hommes,</l>
-            <l>Avant que ces passants, ces voisins, nos entours,</l>
-            <l>Aient eu le temps d’aimer nos chants et nos amours,</l>
-            <l>Nous-mêmes déclinons ! comme au fond de l’espace</l>
-            <l>Tel soleil voyageur qui scintille et qui passe,</l>
-            <l>Quand son premier rayon a jusqu’à nous percé,</l>
-            <l>Et qu’on dit : <hi rend="i">Le voilà</hi>, s’est peut-être éclipsé !</l>
-            <l/>
-            <l>Ainsi d’abord pensais-je ; armé de ton oracle,</l>
-            <l>Ainsi je rabaissais le grand homme en spectacle ;</l>
-            <l>Je niais son midi manifeste, éclatant,</l>
-            <l>Redemandant l’obscur, l’insaisissable instant.</l>
-            <l>Mais en y songeant mieux, revoyant sans fumée,</l>
-            <l>D’une vue au matin plus fraîche et ranimée,</l>
-            <l>Ce tableau d’un poète harmonieux, assis</l>
-            <l>Au sommet de ses ans, sous des cieux éclaircis,</l>
-            <l>Calme, abondant toujours, le cœur plein, sans orage,</l>
-            <l>Chantant Dieu, l’univers, les tristesses du sage,</l>
-            <l><pb n="449"/>L’humanité lancée aux océans nouveaux…</l>
-            <l>— Alors je me suis dit : Non, ton oracle est faux,</l>
-            <l>Non, tu n’as rien perdu ; non, jamais la louange,</l>
-            <l>Un grand nom, — l’avenir qui s’entr’ouvre et se range,</l>
-            <l>Les générations qui murmurent : <hi rend="i">C’est lui</hi> !</l>
-            <l>Ne furent mieux de toi mérités qu’aujourd’hui ;</l>
-            <l>Dans sa source et son jet, c’est le même génie ;</l>
-            <l>Mais de toutes les eaux la marche réunie,</l>
-            <l>D’un flot illimité qui noierait les déserts,</l>
-            <l>Égale, en s’y perdant, la majesté des mers.</l>
-            <l>Tes feux intérieurs sont calmés, tu reposes ;</l>
-            <l>Mais ton cœur reste ouvert au vif esprit des choses.</l>
-            <l>L’or et ses dons pesants, la Gloire qui fait roi,</l>
-            <l>T’ont laissé bon, sensible, et loin autour de toi</l>
-            <l>Répandant la douceur, l’aumône et l’indulgence.</l>
-            <l>Ton noble accueil enchante, orné de négligence.</l>
-            <l>Tu sais l’âge où tu vis et ses futurs accords ;</l>
-            <l>Ton œil plane ; ta voile, errant de bords en bords,</l>
-            <l>Glisse au cap de Circé, luit aux mers d’Artémise ;</l>
-            <l>Puis l’Orient t’appelle, et sa terre promise,</l>
-            <l>Et le Mont trois fois saint des divines rançons !</l>
-            <l>Et de là nous viendront tes dernières moissons,</l>
-            <l>Peinture, hymne, lumière immensément versée,</l>
-            <l>Comme un soleil couchant ou comme une Odyssée !</l>
-            <l/>
-            <l>Oh ! non, tout n’était pas dans l’éclat des cheveux,</l>
-            <l>Dans la grâce et l’essor d’un âge plus nerveux,</l>
-            <l>Dans la chaleur du sang qui s’enivre ou s’irrite !</l>
-            <l>Le Poëte y survit, si l’Âme le mérite ;</l>
-            <l><pb n="450"/>Le Génie au sommet n’entre pas au tombeau,</l>
-            <l>Et son soleil qui penche est encor le plus beau !</l>
+            <quote><l>Un jour, c’était au temps des oisives années,</l>
+              <l>Aux dernières saisons, de poésie ornées</l>
+              <l>Et d’art, avant l’orage où tout s’est dispersé,</l>
+              <l>Et dont le vaste flot, quoique rapetissé,</l>
+              <l>Avec les rois déchus, les trônes à la nage.</l>
+              <l>…………………………………………………</l>
+              <l>…………………………………………………</l>
+              <l>De retour à Paris après sept ans, je crois,</l>
+              <l>De soleils de Toscane ou d’ombre sous tes bois.</l>
+              <l><pb n="445"/>Comptant trop sur l’oubli, comme durant l’absence,</l>
+              <l>Tu retrouvais la gloire avec reconnaissance.</l>
+              <l>Ton merveilleux laurier sur chacun de tes pas</l>
+              <l>Étendait un rameau que tu n’espérais pas ;</l>
+              <l>L’écho te renvoyait tes paroles aimées ;</l>
+              <l>Les moindres des chansons anciennement semées</l>
+              <l>Sur ta route en festons pendaient comme au hasard ;</l>
+              <l>Les oiseaux par milliers, nés depuis ton départ,</l>
+              <l>Chantaient ton nom, un nom de tendresse et de flamme,</l>
+              <l>Et la vierge, en passant, le chantait dans son âme.</l>
+              <l>Non, jamais toit chéri, jaloux de te revoir,</l>
+              <l>Jamais antique bois où tu reviens t’asseoir,</l>
+              <l>Milly, ses sept tilleuls ; Saint-Point, ses deux collines,</l>
+              <l>N’ont envahi ton cœur de tant d’odeurs divines,</l>
+              <l>Amassé pour ton front plus d’ombrage, et paré</l>
+              <l>De plus de nids joyeux ton sentier préféré !</l>
+              <l/>
+              <l>Et dans ton sein coulait cette harmonie humaine,</l>
+              <l>Sans laisser d’autre ivresse à ta lèvre sereine</l>
+              <l>Qu’un sourire suave, à peine s’imprimant ;</l>
+              <l>Ton œil étincelait sans éblouissement,</l>
+              <l>Et ta voix mâle, sobre et jamais débordée,</l>
+              <l>Dans sa vibration marquait mieux chaque idée !</l>
+              <l/>
+              <l>Puis, comme l’homme aussi se trouve au fond de tout,</l>
+              <l>Tu ressentais parfois plénitude et dégoût.</l>
+              <l>— Un jour donc, un matin, plus las que de coutume,</l>
+              <l>De tes félicités repoussant l’amertume,</l>
+              <l>Un geste vers le seuil qu’ensemble nous passions :</l>
+              <l>« Hélas ! t’écriais-tu, ces admirations,</l>
+              <l><pb n="446"/>« Ces tributs accablants qu’on décerne au génie,</l>
+              <l>« Ces fleurs qu’on fait pleuvoir quand la lutte est finie,</l>
+              <l>« Tous ces yeux rayonnants éclos d’un seul regard,</l>
+              <l>Ces échos de sa voix, tout cela vient trop tard !</l>
+              <l>« Le dieu qu’on inaugure en pompe au Capitole,</l>
+              <l>« Du dieu jeune et vainqueur n’est souvent qu’une idole !</l>
+              <l>« L’âge que vont combler ces honneurs superflus,</l>
+              <l>« S’en repaît, — les sent mal, — ne les mérite plus !</l>
+              <l>« Oh ! qu’un peu de ces chants, un peu de ces couronnes,</l>
+              <l>« Avant les pâles jours, avant les lents automnes,</l>
+              <l>« M’eût été dû plutôt à l’âge efflorescent</l>
+              <l>« Où, jeune, inconnu, seul avec mon vœu puissant,</l>
+              <l>« Dans ce même Paris cherchant en vain ma place,</l>
+              <l>« Je n’y trouvais qu’écueils, fronts légers ou de glace,</l>
+              <l>« Et qu’en diversion à mes vastes désirs,</l>
+              <l>« Empruntant du hasard l’or qu’on jette aux plaisirs,</l>
+              <l>« Je m’agitais au port, navigateur sans monde,</l>
+              <l>« Mais aimant, espérant, âme ouverte et féconde !</l>
+              <l>« Oh ! que ces dons tardifs où se heurtent mes yeux</l>
+              <l>« Devaient m’échoir alors, et que je valais mieux ! »</l>
+              <l/>
+              <l>Et le discours bientôt sur quelque autre pensée</l>
+              <l>Échappa, comme une onde au caprice laissée ;</l>
+              <l>Mais ce qu’ainsi la bouche aux vents avait jeté,</l>
+              <l>Mon souvenir profond l’a depuis médité.</l>
+              <l/>
+              <l>Il a raison, pensais-je, il dit vrai, le poète !</l>
+              <l>La jeunesse emportée et d’humeur indiscrète</l>
+              <l>Est la meilleure encor ; sous son souffle jaloux</l>
+              <l>Elle aime à rassembler tout ce qui flotte en nous</l>
+              <l><pb n="447"/>De vif et d’immortel ; dans l’ombre ou la tempête</l>
+              <l>Elle attise en marchant son brasier sur sa tête :</l>
+              <l>L’encens monte et jaillit ! Elle a foi dans son vœu ;</l>
+              <l>Elle ose la première à l’avenir en feu,</l>
+              <l>Quand chassant le vieux Siècle un nouveau s’initie,</l>
+              <l>Lire ce que l’éclair lance de prophétie.</l>
+              <l>Oui, la jeunesse est bonne ; elle est seule à sentir</l>
+              <l>Ce qui, passé trente ans, meurt ou ne peut sortir,</l>
+              <l>Et devient comme une âme en prison dans la nôtre ;</l>
+              <l>La moitié de la vie est le tombeau de l’autre ;</l>
+              <l>Souvent tombeau blanchi, sépulcre décoré,</l>
+              <l>Qui reçoit le banquet pour l’hôte préparé.</l>
+              <l>C’est notre sort à tous ; tu l’as dit, ô grand homme !</l>
+              <l>Eh ! n’étais-tu pas mieux celui que chacun nomme,</l>
+              <l>Celui que nous cherchons, et qui remplis nos cœurs,</l>
+              <l>Quand par-delà les monts d’où fondent les vainqueurs,</l>
+              <l>Dès les jours de Wagram, tu courais l’Italie,</l>
+              <l>De Pise à Nisita promenant ta folie,</l>
+              <l>Essayant la lumière et l’onde dans ta voix,</l>
+              <l>Et chantant l’oranger pour la première fois ?</l>
+              <l>Oui, même avant la corde ajoutée à ta lyre,</l>
+              <l>Avant le Crucifix, le Lac, avant Elvire,</l>
+              <l>Lorsqu’à regret rompant tes voyages chéris,</l>
+              <l>Retombé de Pæstum aux étés de Paris,</l>
+              <l>Passant avec Jussieu<note resp="author"> M. Laurent de Jussieu, l’un des plus
+                  anciens amis de Lamartine.</note> tout un jour à Vincennes</l>
+              <l>À tailler en sifflets l’aubier des jeunes chênes ;</l>
+              <l><pb n="448"/>De Talma, les matins, pour Saül, accueilli ;</l>
+              <l>Puis retournant cacher tes hivers à Milly,</l>
+              <l>Tu condamnais le sort, — oui, dans ce temps-là même</l>
+              <l>(Si tu ne l’avais dit, ce serait un blasphème),</l>
+              <l>Dans ce temps, plus d’amour enflait ce noble sein,</l>
+              <l>Plus de pleurs grossissaient la source sans bassin,</l>
+              <l>Plus de germes errants pleuvaient de ta colline,</l>
+              <l>Et tu ressemblais mieux à notre Lamartine !</l>
+              <l>C’est la loi : tout poète à la gloire arrivé,</l>
+              <l>À mesure qu’au jour son astre s’est levé,</l>
+              <l>A pâli dans son cœur. Infirmes que nous sommes !</l>
+              <l>Avant que rien de nous parvienne aux autres hommes,</l>
+              <l>Avant que ces passants, ces voisins, nos entours,</l>
+              <l>Aient eu le temps d’aimer nos chants et nos amours,</l>
+              <l>Nous-mêmes déclinons ! comme au fond de l’espace</l>
+              <l>Tel soleil voyageur qui scintille et qui passe,</l>
+              <l>Quand son premier rayon a jusqu’à nous percé,</l>
+              <l>Et qu’on dit : <hi rend="i">Le voilà</hi>, s’est peut-être éclipsé !</l>
+              <l/>
+              <l>Ainsi d’abord pensais-je ; armé de ton oracle,</l>
+              <l>Ainsi je rabaissais le grand homme en spectacle ;</l>
+              <l>Je niais son midi manifeste, éclatant,</l>
+              <l>Redemandant l’obscur, l’insaisissable instant.</l>
+              <l>Mais en y songeant mieux, revoyant sans fumée,</l>
+              <l>D’une vue au matin plus fraîche et ranimée,</l>
+              <l>Ce tableau d’un poète harmonieux, assis</l>
+              <l>Au sommet de ses ans, sous des cieux éclaircis,</l>
+              <l>Calme, abondant toujours, le cœur plein, sans orage,</l>
+              <l>Chantant Dieu, l’univers, les tristesses du sage,</l>
+              <l><pb n="449"/>L’humanité lancée aux océans nouveaux…</l>
+              <l>— Alors je me suis dit : Non, ton oracle est faux,</l>
+              <l>Non, tu n’as rien perdu ; non, jamais la louange,</l>
+              <l>Un grand nom, — l’avenir qui s’entr’ouvre et se range,</l>
+              <l>Les générations qui murmurent : <hi rend="i">C’est lui</hi> !</l>
+              <l>Ne furent mieux de toi mérités qu’aujourd’hui ;</l>
+              <l>Dans sa source et son jet, c’est le même génie ;</l>
+              <l>Mais de toutes les eaux la marche réunie,</l>
+              <l>D’un flot illimité qui noierait les déserts,</l>
+              <l>Égale, en s’y perdant, la majesté des mers.</l>
+              <l>Tes feux intérieurs sont calmés, tu reposes ;</l>
+              <l>Mais ton cœur reste ouvert au vif esprit des choses.</l>
+              <l>L’or et ses dons pesants, la Gloire qui fait roi,</l>
+              <l>T’ont laissé bon, sensible, et loin autour de toi</l>
+              <l>Répandant la douceur, l’aumône et l’indulgence.</l>
+              <l>Ton noble accueil enchante, orné de négligence.</l>
+              <l>Tu sais l’âge où tu vis et ses futurs accords ;</l>
+              <l>Ton œil plane ; ta voile, errant de bords en bords,</l>
+              <l>Glisse au cap de Circé, luit aux mers d’Artémise ;</l>
+              <l>Puis l’Orient t’appelle, et sa terre promise,</l>
+              <l>Et le Mont trois fois saint des divines rançons !</l>
+              <l>Et de là nous viendront tes dernières moissons,</l>
+              <l>Peinture, hymne, lumière immensément versée,</l>
+              <l>Comme un soleil couchant ou comme une Odyssée !</l>
+              <l/>
+              <l>Oh ! non, tout n’était pas dans l’éclat des cheveux,</l>
+              <l>Dans la grâce et l’essor d’un âge plus nerveux,</l>
+              <l>Dans la chaleur du sang qui s’enivre ou s’irrite !</l>
+              <l>Le Poëte y survit, si l’Âme le mérite ;</l>
+              <l><pb n="450"/>Le Génie au sommet n’entre pas au tombeau,</l>
+              <l>Et son soleil qui penche est encor le plus beau !</l></quote>
           </quote>
         </div>
         <div>
@@ -7816,8 +7820,9 @@
               précédentes (je parle de celle de l’auteur anglais), on a pu le reconnaître, ce n’est,
               après tout, que la prose du paysage décrit par Virgile lui-même en ces vers harmonieux
               de la première églogue :</p>
-            <l><foreign xml:lang="lat"><hi rend="i">Fortunate senex, hic inter flumina
-                nota</hi></foreign>…</l>
+            <quote xml:lang="lat">
+              <l rend="i">Fortunate senex, hic inter flumina nota…</l>
+            </quote>
             <p>« Que tous ceux, et ils sont encore nombreux, <pb n="471"/>qui savent par cœur ces
               vers ravissants, se les redisent.</p>
             <p>« Ainsi Virgile est surtout sensible à la fraîcheur profonde d’un doux paysage
