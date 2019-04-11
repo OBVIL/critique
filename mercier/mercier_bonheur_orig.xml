@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Le bonheur des gens de lettres : discours [graphies originales]</title>
+                <author key="Mercier, Louis-Sébastien (1740-1814)"
+                    ref="https://data.bnf.fr/fr/11915633/louis-sebastien_mercier/">Louis-Sébastien
+                    Mercier</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>saisie, XML-TEI</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Eric Thiébaud</name>
+                    <resp>édition TEI</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.fr/corpus/critique/mercier_bonheur_orig</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Louis-Sébastien Mercier, <hi rend="i">Le Bonheur des gens de lettres :
+                        discours</hi>, <pubPlace>Paris</pubPlace>, <publisher>Cailleau</publisher>,
+                        <date>1766</date>, in-8, 56 p. PDF : <ref
+                        target="http://gallica.bnf.fr/ark:/12148/bpt6k62709511"
+                    >Gallica</ref>. Graphies originales</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1766"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="preface">
+                <pb n="iij" xml:id="piij"/>
+                <head>Avertissement.</head>
+                <p rend="i">On a les Traités de <hi rend="i">Pierrius Valerianus</hi>, &amp; de <hi rend="i">Cornelius Tollius</hi> : <hi rend="i">De
+                    infelicitate Litteratorum</hi>. Je ne sçais si ces deux Ecrivains
+                        s’étoient rendus malheureux dans leur Profession, mais leurs Ouvrages ne
+                        sont rien moins que concluans. Parmi plus de quinze cent faits, à peine s’en
+                        trouve-t-il trois ou quatre qui offrent quelque chose digne de remarque. Il
+                        n’est point de revers particuliers attachés aux Gens de Lettres, &amp; s’ils
+                        sont poursuivis par la haine, l’envie ou la tyrannie, c’est un malheur
+                        commun à toute espéce de Talent. Tous les hommes sont exposés aux mêmes
+                        infortunes, &amp; pourquoi les Sçavans croiroient ils devoir être exempts
+                        des calamités qui affligent leurs semblables. Je vois beaucoup d’avantages
+                        liés à la Profession des Lettres ; je les sens encore mieux. N’est ce rien
+                        que de suivre son goût, &amp; de se livrer tout <pb n="iv" xml:id="piv"
+                        />entier au charme qui nous flatte ? J’ai donc peint ce que j’éprouvois,
+                        &amp; je crois que plusieurs Ecrivains sentent comme moi. Mon but a été
+                        aussi de rendre hommage aux Gens de Lettres, &amp; d’éclairer certains
+                        hommes sur leur injustice envers des hommes qui se sacrifient pour leur être
+                        utiles. La mode est venue de calomnier les Arts &amp; les Gens de Lettres,
+                        &amp; l’on se dispense ainsi de l’admiration &amp; de la reconnoissance,
+                        deux fardeaux bien pesans pour le cœur ingrat de l’homme, &amp; l’on seroit
+                        en droit avec ce faux mépris de rejetter leurs leçons. Je ne parle point
+                        pour ces ames insensibles &amp; farouches, ou pour celles qui n’ont qu’un
+                        chagrin superbe, je parle pour ceux qui sçavent apprécier les vertus &amp;
+                        les talens. On ne confondra peut-être pas parmi les Gens de Lettres qui
+                        méritent ce nom, ceux qui l’usurpent. On distinguera facilement ceux qui
+                        honorent leur siécle d’avec ceux qui se déshonorent eux-mêmes.</p>
+            </div1>
+            <div1 type="book">
+                <pb n="5" xml:id="p5"/>
+                <head>Le Bonheur des gens de lettres.</head>
+                <p>Quel spectacle pour l’œil d’un Philosophe que le détail curieux de la variété des
+                    esprits, de la prodigieuse différence des talens, des états &amp; des
+                    combinaisons infinies qui naissent de ces rapports mutuels ! Ici le souffle du
+                    Génie donne à l’homme une vie &amp; une force nouvelles, là, ses facultés sont
+                    engourdies dans la nuit de l’ignorance &amp; de la superstition. Tour à tour le
+                    Philosophe admire &amp; sourit de pitié. Il considére cet amas de caractères
+                    opposés ; la folie &amp; la sagesse qui s’unissent dans une même nation, qui
+                    subsistent sans se faire un obstacle insurmontable, <pb n="6" xml:id="p6"/>qui
+                    semblent enfin naître &amp; vivre l’une par l’autre. Il voit toutes les
+                    largesses de la Nature accumulées sur un seule tête, tandis qu’une foule immense
+                    ne rassemble pas un seul de ses dons précieux. L’aigle superbe des Sciences, la
+                    colombe gémissante de la Poësie, le compas d’Euclide, le Télescope de
+                    l’Astronome, la Boussole du Navigateur, le Métaphysicien méditatif, les Rois qui
+                    favorisent les Artistes &amp; reçoivent d’eux en échange une gloire immortelle
+                    &amp; le troupeau qui suit leurs leçons ou leurs ordres, tout dans ce systême
+                    inégal, qui forme un tout régulier, lui paroît lié d’une chaîne forte &amp;
+                    indestructible, qui réunit ces emplois divers sans confusion &amp; sans
+                    désordre.</p>
+                <p>Mais si les regards sont fatigués de tomber trop fréquemment sur des hommes
+                    tellement opprimés qu’ils ne sentent plus leurs chaînes, ou sur d’autres
+                    insensibles à ce qui fait les délices des ames tendres &amp; sublimes, il
+                    s’arrêtera avec complaisance sur ce petit nombre de Sages répandus sur la terre,
+                    qui vivent libres par la pensée, dont la sensibilité éclate en traits de flamme,
+                    qui parlent hautement pour l’intérêt des hommes, &amp; qui malgré les discordes
+                    des États, entretiennent une <pb n="7" xml:id="p7"/>correspondance utile au
+                    monde. A sa vûe élevée, les Rois, les combats, les Tyrans vont disparoître, il
+                    ne verra plus que les Oracles de l’Univers qui donnent asyle à la Vérité &amp; à
+                    la Vertu fugitive. Leurs travaux seront à ses yeux les travaux les plus
+                    honorables, leur gloire la plus pure ; elle leur appartiendra toute entiere, car
+                    ils l’auront créée, &amp; elle vivra dans les siécles les plus reculés.</p>
+                <p>Telle est la gloire des Gens de Lettres ; s’ils vivent dans la retraite, s’ils
+                    vivent séparés, ils n’en forment pas moins un Corps, tôt ou tard rédoutable à
+                    ses Tyrans, qui tel que le feu répandu dans les différentes parties de la terre,
+                    sert à éclairer ceux mêmes qui se refusoient à la lumiere, &amp; qui doué d’une
+                    activité &amp; d’une force invincibles, brave le despotisme qui voudroit
+                    l’anéantir ou l’étouffer.</p>
+                <p>C’est dans ce siécle philosophique où le mérite fait l’homme, où l’on distingue
+                    les talens de la puissance, où le respect extérieur s’accorde aux Dignités,
+                    &amp; le respect véritable au Génie, que ma raison libre vient leur rendre
+                    hommage. Puisse ma reconnoissance leur rendre un tribut digne d’eux. Si j’étois
+                    Roi, j’écouterois leurs leçons, je n’ai que ma voix, elle <pb n="8" xml:id="p8"
+                    />leur est consacrée. Leurs opinions diverses, leurs systêmes opposés, leurs
+                    combats, le dirai-je, leur foiblesse s’évanouissent à mes yeux. Je ne vois plus
+                    que leurs bienfaits qui sont imprimés sur la face des Empires, &amp; qui
+                    subsisteront après eux. Je vais les peindre, ces hommes, noblement ambitieux,
+                    qui ont aggrandi la sphere de notre entendement, &amp; qui voulant surprendre
+                    les premiers secrets de la Nature, ont du moins touché le voile redoutable qui
+                    les couvre, en attendant que des mains plus heureuses le déchirent. Si la pensée
+                    est utile à l’homme, nous leur devons tout ; ils ont éteints les torches du
+                    Fanatisme, ils ont poli les mœurs des Nations, ils ont applani les chemins qui
+                    menent aux grandes découvertes, ils ne jugent point la terre, mais ils
+                    l’éclairent en silence. Sans doute ils ont reçu de la Nature cette ame étendue
+                    &amp; active qui s’éveille à toutes les sensations &amp; saisit avidement leurs
+                    rapports, mais qui les soutient dans leurs travaux sans cette renaissans ? Quel
+                    bien les dédommage des fureurs de l’Envie qui les poursuit jusqu’au fond du
+                    tombeau que la rage détruit encore ? Quel charme leur fait supporter le poids de
+                    l’adversité, leur fait mépriser les dons de la Fortune ? <pb n="9" xml:id="p9"
+                    />Qui les rend insensibles à l’ingratitude de leurs siécles, aux cris éternels
+                    des lâches Zoïles qui les outragent ? Comment renoncent-ils à la faveur des
+                    rangs, à cette douce paresse dont la pente est si facile, à ces plaisirs qui les
+                    sollicitent d’autant plus qu’ils les fuient ? Qui les attache au silence, à la
+                    solitude, à la méditation ? La Gloire, dira-t-on. O Gloire ! je sens ce que tu
+                    vaux, mobile des grandes ames, tu récompenses lorsque le genre humain ne peut
+                    plus payer ; on te desire, on te poursuit, on fait tout pour toi ; mais qui peut
+                    se flatter de goûter tes faveurs ? Toujours contestée, rarement pure, jamais
+                    universelle, fugitive &amp; trompeuse, tes adorateurs comprennent eux-mêmes
+                    qu’il n’appartient qu’à la mort d’y mettre le sceau ; &amp; qu’il faut dormir
+                    dans la tombe, pour être compté parmi les grands hommes. Il est donc un attrait
+                    plus présent, plus cher, plus sensible qui anime l’homme de Lettres : sans doute
+                    lorsqu’il peint le grand, le beau, le sublime, le gracieux, il éprouve les
+                    transports d’une douce émotion ; il saisit, il embrasse son magnifique sujet, il
+                    s’identifie avec ce qu’il traite ; &amp; voilà, selon moi, sa plus heureuse
+                    récompense, la seule qu’il doive attendre, ou plutôt, voilà <pb n="10"
+                        xml:id="p10"/>le charme impérieux qui fait fuir les heures, qui éleve sa
+                    pensée, la colore, l’échauffe d’un feu divin &amp; le console de tout,
+                    quelquefois même de son obscurité.</p>
+                <p>Malheur à celui qui ne trouveroit pas dans ses occupations la source de ses plus
+                    cheres délices, il ne seroit rien de grand rien d’élevé. Il ressembleroit à
+                    l’Artisan qui se fatigue depuis l’aurore jusqu’au coucher du Soleil, n’ayant en
+                    perspective qu’un gain servile. Les travaux d’un homme de Lettres ont un motif
+                    plus noble ; son génie le subjugue, il ne lui est pas permis de chérir avec
+                    modération, il sera entrainé par les idées mâles &amp; sublimes que son cœur
+                    enfante. Il s’enflammera pour l’ordre, la justice, la vertu, &amp; s’indignera
+                    aussi puissamment contre le vice, la tyrannie &amp; le méchant.</p>
+                <p>Je tracerai donc la sorte de félicité qui accompagne l’homme de Lettres, digne de
+                    ce nom. Hommes tyranniques, vils, envieux, frivoles comtempteurs, frémissés ! Il
+                    est un bonheur que vous ne lui pouvez arracher. Il existe pour lui
+                    indépendamment de vos caprices, de vos traits amers, de vos basses calomnies ;
+                    il lui appartient comme à vous, l’affreux sentiment de la haine. Il boit le
+                    nectar des Muses, &amp; vous vous <pb n="11" xml:id="p11"/>nourrissez de serpens.
+                    L’homme de Lettres vit libre dans une noble indépendance ; l’homme de Lettres
+                    goûte des plaisirs délicats inconnus au vulgaire. Ah ! s’il se trouvoit
+                    quelqu’Ecrivain qui regardât ce bonheur comme un beau rêve, je le plaindrois ;
+                    il me prouveroit combien il est malheureux dans l’exercice de ses talens &amp;
+                    le choix de ses études.</p>
+                <div2 type="chapter">
+                    <head>Premiere partie.</head>
+                    <p>L’Homme est jetté dans l’Univers avec un esprit, des sens &amp; des passions.
+                        Il me semble que j’entends l’Auteur de la Nature qui lui crie : Je t’ai doué
+                        de ce qui t’étoit nécessaire pour la mesure de ton bonheur. Ouvre les yeux,
+                        examine &amp; choisis ton fort. La foule des hommes en s’éveillant, ne voit
+                        que ce qui frappe leur instinct grossier ; ils existent sans être émûs.
+                        Satisfaire quelques besoins, comparer avec peine deux objets, voilà où se
+                        réduisent leur desir &amp; leur curiosité : mais l’homme de génie ouvre à
+                        peine les yeux, qu’il reçoit à la fois une idée &amp; un sentiment. Tous les
+                        êtres s’empressent autour de lui &amp; lui disent : Nous t’attendions, c’est
+                        pour toi que nous existons : que tardes tu à nous <pb n="12" xml:id="p12"
+                        />interroger ? nous allons tous te répondre. Il fixe alors cette vaste
+                        étendue du Ciel, cette immense Nature, qui, fiere dans toutes ses
+                        productions n’a point fait d’esclaves, elle n’a point bâti de murs, elle n’a
+                        point forgé de chaînes ; cet oiseau qui sur une aîle hardie, franchit
+                        l’espace, cet animal des bois qui erre sans guide au gré de son instinct,
+                        l’ouragan qui passe, tout parle éloquemment à son cœur, &amp; il apperçoit
+                        au milieu de l’Univers la liberté, &amp; il s’écrie : c’est à toi que
+                        j’adresse mes vœux, ame des nobles travaux, mere des vertus &amp; des
+                        talens ; toi qui formes les ames vigoureuses, les esprits élevés &amp;
+                        lumineux ; toi qui ne faisant point d’opprimé, ne fais point d’oppresseur ;
+                        toi dont la main sacrée grave dans le cœur de l’homme le caractère primitif
+                        de la Justice ; c’est à toi que je voue mes jours, conduis mes pas &amp; ma
+                        langue ; je le sens, tu éleveras ma pensée, tu la rendras digne de
+                        l’Univers. Je ne dépendrai point du regard des hommes, je ne porterai point
+                        les fers qu’ils se forgent, &amp; si ma mâle indépendance, offense le vice,
+                        qui veut être despote, elle plaira à la vertu qui fait l’homme, en ne
+                        s’assujettissant qu’aux Loix. Aussitôt il se sent un homme nouveau, sa <pb
+                            n="13" xml:id="p13"/>vue plane, il ne se laisse pas surcharger de ces
+                        Loix inutiles que la sottise ajoute aux Loix nécessaires à la société ; il
+                        ne se prépare pas des remords en se créant des devoirs arbitraires<note
+                            n="(a)" place="bottom">On entend par loix inutiles, ces loix d’usage
+                            &amp; de convention reçues dans le monde, &amp; qui sont aussi
+                            fatiguantes qu’elles sont ridicules.</note>. Il épure sa raison pour se
+                        préserver de l’erreur ; éclairé sur la valeur réelle des objets, il sçait
+                        les apprécier ; au-dessus des illusions du monde, on ne le verra point se
+                        passionner pour de petits objets, vendre son tems &amp; son existence,
+                        épouser de misérables quérelles, se plonger dans le cahos d’affaires
+                        épineuses qui se succédent comme les flots d’une mer agitée, son ame égale
+                        &amp; tranquille cherche a vérité, loin du bruit &amp; du tumulte, &amp;
+                        rejette les funestes préjugés qui tourmentent ceux qui se prosternent devant
+                        eux.</p>
+                    <p>Mais s’il use de cette sage liberté qui donne tant de ressort à l’ame, &amp;
+                        sans laquelle on ne produit rien de grand, il méconnoît cette indépendance
+                        superbe qui se met au-dessus des Loix, &amp; veut briser les liens qui
+                        unissent les hommes ; la licence qui égare l’esprit est l’idole des
+                        scélérats, elle est l’opposé de la liberté ; peut-elle avoir des attraits
+                        pour un cœur <pb n="14" xml:id="p14"/>raisonnable ? La vraie liberté
+                        consiste à ne dépendre que de ses devoirs, à jouir des droits d’homme &amp;
+                        de citoyen, &amp; à rejetter avec courage les Loix capricieuses de ces
+                        esprits minutieux &amp; despotiques, qui feroient à un citoyen l’outrage de
+                        penser que les Loix de l’honneur ne suffisent pas<note n="(a)"
+                            place="bottom">Par ce mot, liberté, on ne veut exprimer que le droit
+                            légitime de conduire sa vie privée selon ses goûts, en n’offensant ni
+                            les Loix politiques, ni celles de l’Etat.</note>.</p>
+                    <p>Ne nous étonnons pas si le génie est singuliérement ami de la liberté, il a
+                        en horreur le despotisme, il redoute ses caprices &amp; ses absurdités ; il
+                        lui faut des objets qui puissent nourrir &amp; fortifier sa propre
+                        élevation ; voilà pourquoi il a fleuri sous le Ciel pur de la Grece, &amp;
+                        qu’il a fui ces Etats où un seul homme est tout, &amp; où par conséquent
+                        tout le reste est vil<note n="(b)" place="bottom">Ceci regarde les
+                            Orientaux, Peuples soumis à la volonté arbitraire d’un seul homme, &amp;
+                            qui d’après l’expérience n’ont jamais excellé dans les Arts qui font
+                            l’honneur de l’humanité.</note>. La main qui touche la Lyre, &amp; celle
+                        qui trace les devoirs de l’homme, doivent être libres, pour répondre
+                        dignement à la noblesse de leur emploi. Le Génie n’a jamais été &amp; ne
+                        peut être le partage d’un esclave ; ces coups de pinceau majestueux, ces
+                        nuances de grandeur &amp; de justice qui <pb n="15" xml:id="p15"/>doivent
+                        animer les tableaux de l’Ecrivain philosophique, où les puiseroit-il ? Les
+                        vertus &amp; les talens ne germent point dans des ames basses &amp;
+                        rampantes, &amp; quiconque a pû tendre les mains aux fers de la servitude, a
+                        dégradé son être &amp; s’est avili d’avance aux yeux de la postérité <note
+                            n="(a)" place="bottom">On veut dire que quiconque a rampé pour l’interet
+                            de sa fortune n’a rien à prétendre à la gloire.</note>.</p>
+                    <p>Je l’entends, cette voix forte &amp; puissante, qui, comme un tonnerre qui
+                        roule dans la nue réveille les esprits les plus engourdis ; non ce n’est
+                        plus un homme, c’est un Dieu tutelaire qui s’est chargé des intérêts de la
+                        patrie, &amp; qui défend la cause honorable de l’humanité ; d’une main il
+                        foudroye le vice, de l’autre il dresse des Autels à la vertu, déploye toute
+                        l’indignation d’une ame sensible contre d’injustes Tyrans, il rejette le cri
+                        insensé de l’opinion pour faire parler la voix immortelle de la raison. Que
+                        tous les hommes se rangent du parti de l’erreur, que le despotisme emploie
+                        son bras d’airain <note n="(b)" place="bottom">Quand des esprits aveugles
+                            s’obstinent à condamner un homme vertueux ; cet homme vertueux n’en sera
+                            pas moins attaché à ses devoirs. Voilà le sens que présentent ces
+                            mots.</note> pour la faire triompher, il le défiera de réduire en
+                        servitude sa pensée. Il cédera plutôt aux clameurs de l’envie, il <pb n="16"
+                            xml:id="p16"/>fuira ses persécuteurs jusqu’au fond des forêts, &amp;
+                        préférera, s’il le faut, le commerce des Tygres à celui des hommes ; mais du
+                        fond des déserts il ne les oubliera point, il les servira, tout ingrats
+                        qu’ils sont, attendrit sur les nouveaux malheurs qui les menacent, il fera
+                        entendre sa voix désintéressée &amp; expirante, &amp; consumera ses derniers
+                        jours à instruire une Société qui la rejette de son sein.</p>
+                    <p>Que ces esprits indifférens sur le désordre qui ne les touche pas, que ceux
+                        dont la foible prudence méconnoit cette vertu supérieure à toute crainte,
+                        l’appellent un insensé, ou le regardent comme un misantrope qui se livre au
+                        triste plaisir d’exercer une censure amere ; ce n’est pas à eux de sentir
+                        qu’il est impossible à l’homme vertueux de garder le silence, tandis que les
+                        cris plaintifs des victimes de l’oppression retentissent à son oreille &amp;
+                        frappent son cœur sensible, tandis que les droits éternels de la Justice
+                        sont violés pour satisfaire quelques monstres avides, tandis qu’un peuple
+                        entier vit dans les larmes, ayant tout perdu jusqu’au droit lamentable
+                        d’élever ses soupirs ; ah ! le desir généreux de venger ses freres de
+                        l’attentat des méchans enflamme <pb n="17" xml:id="p17"/>son courage<note
+                            n="(a)" place="bottom">On a voulu dire que le citoyen généreux
+                            embrassoit la défense du foible opprimé, lorsque sa voix anéantie, pour
+                            ainsi dire, par la misere, ne pouvoit s’élever jusqu’à ceux qui doivent
+                            reparer ses maux.</note>, &amp; si vous croyez que la vanité seule
+                        conduit sa plume, hommes ingrats, regardez les persécutions qu’il essuie,
+                        son exil, sa vie errante, ses malheurs. Où est son intérêt ? Quel bien lui
+                        revient-il ? S’il est coupable, pourquoi donc la gloire demeure-t-elle
+                        attachée à ses pas &amp; devient-elle le prix de sa noble audace ? c’est que
+                        la gloire qui ne connoît ni les tems, ni les lieux, ni les conventions
+                        arbitraires des hommes, juge d’avance comme la postérité.</p>
+                    <p>Hommes de Lettres, vous n’êtes pas toujours assez heureux pour avoir de tels
+                        sacrifices à faire à la vérité, mais dans tous les tems de votre vie, vous
+                        avez des nœuds chers à briser. Les plaisirs vous invitent, la volupté
+                        devient plus séduisante lorsque vous vous refusez à ses attraits, il faut,
+                        nouveaux Ulisses fermer l’oreille au chant des trompeuses Sirennes, vous
+                        couvrir de votre solitude comme d’un Egide impénétrable, fuir le monde pour
+                        lui devenir utile, embrasser la retraite autant par goût que par raison ;
+                        c’est là que votre ame ne se renferme pas dans le cercle étroit du <pb
+                            n="18" xml:id="p18"/>présent qui s’échappe, mais s’élance dans ces
+                        espaces immenses qui la rapprochent des Ecrivains de tous les tems. Je vous
+                        vois parcourir le vaste miroir des siécles écoulés, examiner les ressorts
+                        qui changent la face des Empires, pénétrer le jeu rapide des révolutions de
+                        la Fortune, percer les intrigues de l’Ambition, par les événemens passés
+                        prédire les événemens futurs, alors tout sert à vous affermir dans vos
+                        heureux principes ; vous les jugez, ces foibles humains, vous les jugez sans
+                        passion, vous les voyez tels qu’ils sont, composés de grandeur &amp; de
+                        foiblesse, de vertus et de vices, mais qui doivent peut-être leurs crimes
+                        non à la Nature, qui a caché dans leurs cœurs le doux sentiment de la pitié,
+                        principe des vertus, mais à la Tyrannie, à l’affreuse Tyrannie, qui
+                        aggravant sur leur tête un joug humiliant les a fait gémir, haïr, détester
+                        leur existence &amp; les a forcés d’être méchans en les rendant malheureux.
+                        Vous pleurez en voyant dans tous les tems les plaies faites à l’humanité par
+                        ceux qui puissans &amp; redoutés, méritoient d’en être l’opprobre &amp; le
+                        jouet. Vous pleurez en voyant ces mêmes Loix qui sembloient devoir arrêter
+                        le cours de tant de maux, devenir terribles &amp; écraser <pb n="19"
+                            xml:id="p19"/>d’un double poids, le foible qu’elles devoient protéger.
+                        Votre œil s’étend, votre vûe plane &amp; profondément émus, vous vous écriez
+                        d’une commune voix : O ! Qui sçaura aimer dignement les hommes ? Qui verra
+                        disparoître l’enceinte des murs, les habis, les coutumes, &amp; les mœurs ;
+                        &amp; dans une affection généreuse &amp; universelle, frappera cette barbare
+                        intolérance<note n="a" place="bottom">On entend ici par intolérance ces
+                            opinions particulieres, que l’orgueil de quelques hommes voudroient
+                            donner pour de Loix générales, &amp; la persécution qu’ils suscitent
+                            contre ceux qui n’encensent point des rêveries puériles inutiles à la
+                            société.</note>, qui oppose Loix à Loix, homme à homme, &amp; qui le
+                        rend à la fois aveugle &amp; furieux ?</p>
+                    <p>Que l’ignorance confonde l’homme de Lettres avec ces hommes livrés à la
+                        paresse sous le nom de repos, qui se dérobent à l’agitation générale pour
+                        vivre dans le desœuvrement, qui dorment mollement sur des fleurs, en
+                        s’abandonnant au cours enchanteur d’une riante imagination ennemie du
+                        travail, &amp; amie de la paix, dont la longue carrière peut être considerée
+                        comme un doux rêve, &amp; qui tombent dans les bras de la mort, sans avoir
+                        daigné graver sur la terre le souvenir de leur existence ; cette injustice
+                        ne m’étonnera point, <pb n="20" xml:id="p20"/>elle sera digne d’elle : mais
+                        l’œil qui aura suivi les travaux de l’homme de Lettres jugera différemment,
+                        il le verra souvent insensiblement miné par de longues études, périr victime
+                        de son amour pour les Arts, tomber en poursuivant avec trop d’ardeur la
+                        vérité, comme l’oiseau harmonieux des bois tombe de la branche au milieu de
+                        ses chants, ou plutôt comme ces illustres Artistes dont la main intrépide
+                        interrogeant dans la région enflammée de l’air le phénomene électrique,
+                        couronnent tout à coup leur vie par une mort fatale &amp; glorieuse.</p>
+                    <p>C’est ainsi qu’un charme profond captive sous son empire l’homme de Lettres.
+                        Entouré des génies les plus rares, c’est à eux qu’il rend son hommage, &amp;
+                        non aux idoles de la Fortune. Il brûle l’encens devant ces Auteurs illustres
+                        qui ont éternisé leur ame pour l’instruction des siécles, &amp; dédaigne ces
+                        hommes qui fiers de leur opulence, croyent tout posséder avec elle. Le
+                        tranquille Observateur assis sur la pointe d’un roc qui domine l’Océan,
+                        représente le Sage, qui d’un lieu élevé regarde les agitations qui troublent
+                        les mortels. Les flots de la tempête se brisent à ses pieds. On ne le verra
+                        passe livrer à une mer <pb n="21" xml:id="p21"/>orageuse &amp; incertaine.
+                        Que d’autres comme accablés d’eux-mêmes vendent leur existence ; son ame qui
+                        redoute jusqu’à l’ombre de la servitude se refuse également aux voies
+                        obliques de l’intrigue, à la souplesse du manége, à la moindre démarche qui
+                        sente la flatterie. Amoureux &amp; fier de sa liberté, doué d’une aversion
+                        insurmontable pour tout ce qui la blesse, il est riche sans bien, célèbre
+                        sans dignités, heureux sans adulateurs.</p>
+                    <p>Mais au sein de la retraite, on l’appelle dans le tourbillon du monde ; ceux
+                        qui se livrent aux plaisirs tumultueux veulent avoir le suffrage de la
+                        présence ; jettez-vous dans le tourbillon, frivoles Ecrivains, qui pour
+                        écrire n’avez pas besoin de penser, vous y perfectionnerez cet esprit léger
+                        tout fier d’idées sémillantes, il vous faut des éclairs, il vous faut un
+                        langage brillant qui puisse servir de voile à vos connoissances
+                        superficielles ; promenez-vous avec la folie, vous n’avez rien à gâter ;
+                        mais toi homme de génie qui as sçu méditer, poser des principes, affermir ta
+                        marche, &amp; comme d’un tronc fertile, en suivre toutes les conséquences,
+                        toi qui vois en grand, garde-toi d’asservir tes mâles talens au goût des
+                        Sociétés ; elles corromproient ton éloquence, <pb n="22" xml:id="p22"/>tes
+                        vues hardies &amp; sublimes, ton héroïsme vertueux. C’est aux feux
+                        étincelans &amp; legers que dresse l’artifice à recréer les yeux de
+                        l’enfance dans l’enceinte des Villes ? C’est au volcan à lancer des colomnes
+                        de flamme jusqu’aux Cieux, à tonner majestueusement dans les Deserts, à
+                        inspirer une admiration voisine de l’effroi.</p>
+                    <p>O ! que l’homme s’abuse sur les objets de la volupté, qu’il se trompe dans le
+                        choix de ses plaisirs, qu’il s’égare dans le tortueux dédale des desirs de
+                        son cœur. Il ne sent plus que d’une maniere incertaine, &amp; il devient le
+                        jouet infortuné du premier caprice qu’il vient de se forger. Voilà le
+                        précipice ou conduisent les passions factices ; l’homme de génie les
+                        méconnoit, il n’a que celles de la Nature, toujours bienfaisante en
+                        elle-même. Mais me dira-t-on, par quel privilége seroit-il exempt des
+                        sentimens chers &amp; terribles qui portent la tempête dans le cœur du
+                        Philosophe qui recherche l’origine de ces mêmes passions. Cette étendue
+                        d’esprit, cette force d’imagination, cette activité d’ame, ne donnent-elles
+                        pas plus de prise à ce feu qui semble d’autant plus redoutable qu’on ose le
+                        combattre, &amp; ne voila-t-il pas cet homme si orgueil, <pb n="23"
+                            xml:id="p23"/>leux de sa sagesse, esclave comme un autre ; non. Nos
+                        passions ne sont tyranniques qu’autant que nous les carressons, c’est notre
+                        foiblesse qui fait leur amorce, c’est notre complaisance qui les déifie ;
+                        l’oisiveté les nourrit, les enflamme, l’amour du travail les enchaîne, les
+                        amortit ; la dissipation augmente leur délire, étend leur racines ; la
+                        raison affoiblit l’enchantement ; &amp; les beaux rayons de la gloire
+                        viennent enfin par leur éclat faire pâlir ces feux mensongers, comme à
+                        l’approche d’un jour pur se dissipent les horreurs d’un incendie qui jettoit
+                        une lueur affreuse parmi les ténébres. Mais si l’attrait de la beauté
+                        subjugue l’homme de Lettres, il ne sera pas du moins avili, il brisera ses
+                        fers s’ils sont honteux, il sera semblable au lion enchaîné, qui ne paroît
+                        pas esclave au moment même où il se trouve captif.</p>
+                    <p>Il est un autre fleau de l’humanité qui le détruit en détail, poison rongeur
+                        de l’ame qui l’attaque au milieu de la pompe &amp; des grandeurs, ou plutôt
+                        qui la livre à elle-même, &amp; la contraint à se dévorer, maladie commune
+                        aux Grands, sombre vapeur qui étend un voile lugubre autour de nous &amp;
+                        flétrit l’Univers, état cruel qui sans avoir les traits aigus de la douleur
+                        nous l’a <pb n="24" xml:id="p24"/>fait presque désirer pour sortir du moins
+                        de l’affreux dégoût d’une insipide existence, ce fleau est l’ennui qu’on
+                        peut appeller un demi trépas ; l’homme de Lettres a le secret de chasser ce
+                        monstre ténébreux. Oseroit-il approcher, lorsqu’il se trouve en société avec
+                        Homére, Tacite &amp; Leibnitz ; il respire leur ame, il s’attendrit ou il
+                        s’indigne. Les différentes générations d’hommes, &amp; leurs opinions
+                        diverses passent sous ses yeux avec leurs Villes, leurs mœurs, leur culte
+                        &amp; leurs loix. Un spectacle succede à un autre ; dans ces champs antiques
+                        s’élevent de nouvelles Cités, elles tombent &amp; d’autres s’asseyent sur
+                        leurs débris. Où est l’instant ou son esprit actif a pû retomber sur
+                        lui-même, il a parcouru l’Univers &amp; a déposé dans sa mémoire une suite
+                        magnifique de tableaux qui se reproduiront à son imagination, lorsque
+                        l’homme oisif &amp; importun venant le tyranniser prendra son silence
+                        méditatif, pour la preuve non équivoque d’une attention qu’il ne mérite
+                        point.</p>
+                    <p>Il est une autre piége qu’il évite aussi habilement ; ce sont ces Grands qui
+                        par vanité daignent quelquefois lui sourire. Semblables à ces Magiciens
+                        qu’on nous peint évoquant les paisibles habitans des <pb n="25" xml:id="p25"
+                        />tombeaux, ils sont fiers d’arracher l’homme de génie à sa retraite, &amp;
+                        de le transporter dans des murs étonnés de le voir. Ils semblent vouloir
+                        jouir de sa défaite, ou tirer de lui quelque aveu favorable à leur
+                        puissance, mais si cet homme opulent n’est qu’un protecteur ou un être
+                        ennuyé, qui veut tenter le dernier remede à ses maux, l’homme de génie n’est
+                        pas longtems sans se délier, &amp; il le laisse avec ses statues, son parc
+                        immense, &amp; les cordons qui le chamarrent. Mais n’outrons rien, ceux qui
+                        ont le malheur d’être grands, peuvent être justes, modérés, sensibles, &amp;
+                        indépendamment de leur nom, l’homme de Lettres se lie avec ceux qu’un même
+                        goût pour les Arts enflamme, &amp; qui déposant l’appareil fastueux de leurs
+                        dignités, ne le reprennent qu’au moment où ils sont forcés d’aller jouer
+                        leur rôle sur la scene du monde. Tel Horace vivoit familièrement avec Mecene
+                        en homme libre, &amp; non en homme protegé. Ainsi parmi nous Condé honoroit
+                        Corneille ; c’étoit la gloire qui faisoit sa cour au génie : Ainsi dans tous
+                        les tems les grands dignes de ce nom ont fait les premiers pas vers les
+                        Ecrivains qui arrêtoient les regards de leur siécle. Ces grands sentoient
+                        bien que leurs noms <pb n="26" xml:id="p26"/>devant passer ensemble à la
+                        postérité, elle auroit lieu de s’étonner si elle ne les trouvoit pas
+                        unis.</p>
+                    <p>L’homme de Lettres ne se refusera donc pas à la Société, lorsqu’elle ne
+                        pourra point effeminer son génie ? Que dis-je c’est lui qui doit y porter le
+                        plus d’agrémens. Cette aimable gayeté compagne de l’innocence &amp; de la
+                        liberté animera ses discours, leur prêtera cette fleur naturelle qui annonce
+                        je ne sçais quoi d’ingénieux &amp; de solide, &amp; qui unit une clarté pure
+                        à une profondeur heureuse. Ce sera lui qui étendra les idées des autres
+                        hommes, qui sous la forme du sentiment, développera les pensées qui
+                        reposoient au fond de leurs cœurs, &amp; qui placera sur leurs lévres cette
+                        expression juste &amp; facile dont il leur aura donné l’exemple. Cet aliment
+                        de la malignité humaine, cette vile ressource des esprits bornés, ce petit
+                        orgueil vain &amp; puéril qu’on nomme médisance lui sera inconnu. Trop grand
+                        pour s’occuper sérieusement d’objets frivoles, &amp; s’il faut le dire trop
+                        amoureux de la gloire pour daigner rabaisser quiconque ignore qu’il en est
+                        une, il ne jugera dignes de ses coups que ceux qui par leur puissance
+                        influent sur la destinée des Etats, &amp; s’il médit, ce ne<pb n="27"
+                            xml:id="p27"/> fera des Rois de leurs Ministres &amp; du vice des
+                        Empires.</p>
+                    <p>Inhabile à flatter, incapable d’offrir à la Fortune le sacrifice de ses
+                        pensées, il renonce à ces places où il faut adopter un esprit de corps,
+                        c’est à-dire de cupidité, &amp; c’est ici le vrai triomphe de l’homme de
+                        Lettres. La plupart des hommes ne pensent que d’après l’habit qu’il
+                        portent ; leur profession crée leurs idées ; celui qui a rompu les liens
+                        nuisibles au progrès de la raison paroît seul posséder un jugement libre que
+                        rien ne tyrannise : Accoutumé à renfermer ses desirs dans le cercle de ses
+                        besoins réels il n’en aura point d’illimités. Il sent que les dons de la
+                        Nature les seuls biens véritables sont la santé, la joie, la tendresse, la
+                        tranquillité de l’ame, &amp; il soutiendra sans douleur toute autre
+                        privation, parce que sa raison aura reglé cette intempérance d’imagination
+                        qui fait l’inquiétude des autres hommes. Avouons-le cependant ; l’indigence
+                        est affreuse, un ancien Poëte nous la représente sous l’image d’une femme
+                        échevelée, abandonnée sur un rocher désert, qui tantôt lutte contre le
+                        désespoir, tantôt mesure l’abîme effroyable ou elle va se précipiter ; mais
+                        l’indigence n’a jamais surpris l’homme de <pb n="28" xml:id="p28"/>Lettres
+                        laborieux, il pourra être pauvre, &amp; ce sera là le gage de ses vertus,
+                        &amp; de la noble fierté de son ame. A ce mot je vois frémir les ames
+                        foibles qui redoutent la vie ; ames infortunées qui n’existent plus dès que
+                        les molles voluptés les abandonnent ; tristes victimes de leur lâcheté,
+                        dévouées à la crainte &amp; nées pour l’impuissance ; sans doute elle ne
+                        sont point faites pour connoître ce courage mâle qui émousse la pointe de
+                        l’infortune, résiste aux revers, triomphe des evénemens, &amp; met au rang
+                        des plus précieux trésors l’indépendance &amp; l’honneur.</p>
+                    <p>Tel est le partage de celui qui a médité sur l’art de changer les maux en
+                        biens, d’opposer la patience aux coups du sort, &amp; de le dompter par la
+                        force &amp; l’étendue de son esprit. Envain la Fortune veut se venger des
+                        dons qu’il a reçus de la Nature, envain elle l’accable de ces traits qui
+                        flétrissent l’ame, il refusera constamment de plier un genou servile devant
+                        ses idoles, ou ses favoris. Donnerai-je ici la liste de ces beaux génies
+                        persécutés par elle, &amp; qui contens dans leur noble independance ont
+                        rejetté tout esclavage, &amp; ont opposé une ame inébranlable aux coups de
+                        l’adversité. Je les entends, ils s’écrient d’une voix <pb n="29"
+                            xml:id="p29"/>unanime : nous dédaignons les richesses, elles sont le
+                        prix de la bassesse. Elles amolissent l’ame en l’enchaînant à de nouveaux
+                        besoins. Elles se sont avilies à nos yeux à force d’être l’instrument du
+                        crime, &amp; d’appartenir à des hommes méprisables ; que l’or, germe de tous
+                        les maux, soit pour eux, la médiocrité &amp; la gloire seront pour nous.</p>
+                    <p>Quelle foule d’Ecrivains sublimes &amp; pauvres depuis Socrate jusqu’à
+                        Descartes, &amp; depuis Homére jusqu’à Milton ! L’héroïsme a été le partage
+                        des plus vastes génies, jamais l’intérêt n’a souillé leur plume, jamais la
+                        crainte n’a fait pâlir leur front ; jamais le remord n’a succédé aux accens
+                        de leur voix libre. Ici Lucrece sonde la Nature, analyse l’homme &amp; le
+                        rassure contre de vaines chimères, heureux, si l’erreur ne se plaçoit pas à
+                        côté des plus utiles vérités ; là, Juvenal arme sa main de la verge de la
+                        satyre, porte le flambeau dans les ténébres épaisses ou se cache le crime,
+                        &amp; sert l’humanité en démasquant le vice. Je te vois fier Lucain, c’est
+                        sous un Néron que tu composes ton Poëme ; c’est à son orgueil barbare que tu
+                        osas disputer la palme de la Poësie, c’est toi qui péris à vingt-sept ans
+                        pour la liberté ; les flots de ton sang rougissent ton bain, tu souris,
+                        &amp; tu <pb n="30" xml:id="p30"/>abandonnes un monde où ne pouvoit plus
+                        respirer un homme. Qui ne sent frémir la partie la plus sensible de lui-même
+                        à la touche énergique d’un Tacite, il peint &amp; il écrase les tyrans,
+                        &amp; du même trait les dévoue à l’opprobre. Sans l’amour sacré de la
+                        liberté &amp; d’une noble vengeance, où auroit-il trouvé le courage d’écrire
+                        l’histoire de monstres paîtris de sang &amp; de boue ? Que vois-je sur ce
+                        vaisseau malheureux, ouvert de toutes parts aux coups de la tempête, qui se
+                        précipite dans cette mer profonde ? C’est le Virgile des Portugais, qui fier
+                        &amp; intrépide, lutte d’une main contre les flots ; de l’autre souleve son
+                        Poëme son plus cher trésor, il le protége, le sauve, &amp; s’écrie
+                        transporté de joie, je n’ai rien perdu, j’ai préservé du naufrage le gage de
+                        mon immortalité.</p>
+                    <p>A ces grands traits la froide dérision est prête à naître sur les lévres de
+                        l’homme vulgaire. S’il lui faut de plus grands exemples, ou plutôt des
+                        exemples faits pour lui, je citerai des Rois qui sur le trône ont eu la
+                        passion dominante des Arts, &amp; d’autres qui en sont descendus pour se
+                        débarrasser de leurs chaînes, &amp; contenter uniquement la soif d’apprendre
+                        qui les dévoroit. Titus, Marc-Aurele &amp; Julien furent <pb n="31"
+                            xml:id="p31"/>des Empereurs Philosophes, l’antique vœu de Planton fût
+                        rempli, &amp; sous leur régne paisible les hommes sentirent le bonheur
+                        d’être gouvernés par des Chefs éclairés, &amp; par conséquent échauffés de
+                        l’amour de l’humanité. Héraclite céde à son frere le trône d’Ephese, absorbé
+                        dans une méditation profonde, il s’enferme dans les tombeaux de ses
+                        ancêtres ; c’est dans l’horreur d’un lugubre &amp; majestueux silence qu’il
+                        entreprend de percer le voile qui couvre les sciences profondes. Le Créateur
+                        des Russies jaloux de transporter les Arts dans le sol ingrat de sa Patrie,
+                        va les chercher à travers les dangers, &amp; les travaux ; il saisit la
+                        hache du matelot pour porter plus dignement le poids du Sceptre, &amp; dans
+                        l’étendue de l’Europe rien n’échappe à ses avides regards. Elizabeth de
+                        Bohême, Princesse Palatine refuse la main de Ladislas IV. roi de Pologne
+                        pour cultiver la Philosophie &amp; les Mathématiques, &amp; s’honnorer du
+                        nom de disciple &amp; d’amie de Descartes. Christine dépose le Diadême,
+                        quitte de vils flatteurs pour s’entretenir avec des êtres pensans, &amp;
+                        tandis que les autres Souverains demeurent comme empoisonnés dans leurs
+                        vastes Royaumes, elle parcourt l’Italie, théatre superbe <pb n="32"
+                            xml:id="p32"/>d’antiques monumens dont les débris portent encore dans
+                        l’ame un sentiment involontaire d’admiration &amp; de respect. Et sur les
+                        ruines magnifiques de la dominatrice de l’Univers, elle oublie ce trône
+                        qu’elle occupoit. Je sçais que la Philosophie oblige les Rois de porter
+                        pendant toute leur vie le triste fardeau du Sceptre qu’un destin fatal leur
+                        a imposé ; je sçais qu’elle leur défend d’oser s’élever à un état plus
+                        heureux, mais elle est aussi trop severe. Retenir l’empire de la puissance
+                        est un héroïsme trop grand pour qu’il ne soit pas aussi peu rare, &amp; qui
+                        peut blamer Christine parce que à sa place il auroit eu le courage de ne
+                        point abandonner l’autorité suprême, le Philosophe sera-t’il toujours
+                        orgueilleux de la trempe heureuse de son ame, &amp; exigera-t-il sans cesse
+                        des Souverains cette même fermeté qu’il auroit pû avoir.</p>
+                    <p>Je ne veux point que vous renonciez à l’empire des Graces, vous sexe aimable,
+                        qui pouvez partager le bonheur qu’enfante la culture des Lettres. Jouissez
+                        toujours du don flatteur de la beauté qui adoucit l’homme le plus sauvage,
+                        &amp; qui est l’heureux lien de la Société, mais connoissez aussi vos autres
+                        avantages. Dignes <pb n="33" xml:id="p33"/>compagnes de l’homme, osez penser
+                        avec lui ; la Nature vous a donné le même esprit. Vos lumieres dirigées par
+                        le sentiment apporteront à l’homme une félicité nouvelle, &amp; peut être
+                        ajouteront à l’éclat de vos charmes. Nous ne redouterons pas vos talens,
+                        lorsqu’ils contribueront à embellir ce qui nous environne ; je m’éleverai
+                        contre cette coutume barbare qui étouffe dans les jeunes personnes de votre
+                        sexe les germes précieux des plus rares talens. Pourquoi ne pas donner une
+                        égale éducation à des esprits également doués de raison ? celles qui doivent
+                        adoucir les amertumes de notre vie, peuvent-elles se passer d’être
+                        instruites ? l’ignorance leur prêteroit-elle de nouveaux attraits ? Qu’elle
+                        inhumanité les prive de l’avantage que procure le goût des Arts ? Ce Sexe
+                        l’ornement de la terre destiné à élever nos premiers ans, sera-t il toujours
+                        condamné à la frivolité ? Si leur esprit étoit plus enrichi, notre éducation
+                        y gagneroit. Quel plus doux emploi pour une mere que de verser dans les ames
+                        neuves &amp; tendres de ses enfans les premieres impressions du beau &amp;
+                        du vrai. Que ses paroles sont insinuantes &amp; se gravent profondément !
+                        Que la vertu est douce &amp; riante dans sa bouche ! Hommes injustes quel
+                        dons profanez-vous ? Pourquoi ne pas cultiver le <pb n="34" xml:id="p34"
+                        />sentiment exquis de leur ame ? Pourquoi ne pas tourner la souplesse &amp;
+                        la vivacité de leur imagination sur des objets utiles ? Pourquoi enfin, leur
+                        interdisant toute noble carrière, leur envions nous encore les jeux &amp;
+                        les plaisirs de l’esprit ? Est-ce l’effet d’un préjugé aveugle, où plutôt
+                        notre jalousie secrette prévoit-elle que nous serions bientôt
+                        surpassés ?</p>
+                    <p>Mais ce seroit peu d’avoir exposé la liberté dont jouit l’homme de Lettres,
+                        si je ne dévoilois les plaisirs délicats qui l’accompagnent à chaque instant
+                        qu’il les appelle.</p>
+                </div2>
+                <div2 type="chapter">
+                    <head>Seconde partie.</head>
+                    <p>Homme de génie n’accuse point la Nature ; ne te plains point d’avoir reçu en
+                        naissant ce feu sacré qui te presse, te domine, te rend utile &amp; cher à
+                        l’ Univers. Est-ce à toi de vendre tes services ? Est-ce à toi d’attendre
+                        ton destin des hommes ? Si l’envie s’attache à tes pas, si l’imbécile
+                        superstition te poursuit de contrées en contrées <note n="(a)" place="bottom"
+                            >C’est cette haine aveugle &amp; opiniâtre que l’envieux conçoit pour
+                            l’homme éclairé ; c’est cette jalousie que ressentent les ames basses
+                            incapables de l’égaler.</note> si la calomnie exhale les poisons de sa
+                        bouche ; que peuvent de tels monstres contre toi ? Est-ce à toi de les <pb
+                            n="35" xml:id="p35"/>craindre. Que peuvent-ils contre ton cœur dont le
+                        témoignage consolant te récompense d’avoir suivi ce qui étoit juste &amp;
+                        grand ? Aimerois-tu mieux grossir la classe des hommes vils &amp; lâches
+                        dont la fureur triomphe ? Préférerois-tu une molle inaction à l’honneur même
+                        dangéreux de parler devant le genre humain ? Songe que c’est lui qui est
+                        juge ; rappelle à ce Tribunal sacré, &amp; tache d’honorer toujours
+                        dignement en toi la cause de l’homme. Songe que tu tiens entre tes mains les
+                        intérêts de toute ame noble &amp; généreuse ; plaide avec courage, &amp; en
+                        présence du méchant même, il frémira à ta voix, les remords secrets
+                        déchireront son cœur, &amp; tu liras ton triomphe sur son front abattu. Tu
+                        es malheureux, persécuté ; eh ! Dis moi qui ne l’est pas ? Echapperois-tu
+                        dans l’obscurité à la haine ? Non : tu trouverois dans la poussiere des
+                        insectes ténébreux qui te tourmenteroient, &amp; tu aurois de moins tes
+                        talens, tes vertus &amp; ta renommée. Que te font ces cris odieux ? Te
+                        ravissent-ils l’honneur ? Ta gloire en devient souvent plus grande. As-tu
+                        toujours suivi l’inspiration secrette de cette voix qui nous dirige ?
+                        N’as-tu jamais été l’interpréte du mensonge, l’instrument de la haine ?
+                        N’as-tu rien donné au ressentiment ? Si tu t’es trompé, <pb n="36"
+                            xml:id="p36"/>est-ce de bonne foi ? Tes erreurs ne tiennent-elles qu’à
+                        ton extrême sensibilité. Leve encore une tête superbe, &amp; marche au
+                        milieu de tes semblables ; comme un Roi généreux que précédent les
+                        bienfaits, marche au milieu de ses vastes domaines.</p>
+                    <p>Ami, ne te regarde pas comme une victime préparée pour le seul bonheur
+                        d’autrui : la Nature n’a pû te sauver les peines inévitables attachées à la
+                        condition humaine ; mais vois aussi toutes les qualités dont elle t’a doué
+                        avec une magnificence digne d’elle &amp; de toi. Elle t’a donné ce sentiment
+                        exquis, ce discernement prompt &amp; vif, cette ame honnête &amp; sensible
+                        qui s’enflamme pour le beau, &amp; le goûte avec transport. Il existe entre
+                        l’Univers &amp; toi une relation intime, ou plutôt l’Univers est créé pour
+                        tes yeux. C’est à toi d’analyser &amp; de peindre ses beautés. Tu seras
+                        saisi de respect, d’admiration &amp; d’enthousiasme, lorsque le vulgaire ne
+                        sera pas même ému ; tu seras pour ainsi dire le point vivant ou viendront se
+                        refléchir les merveilles diverses de la Nature, &amp; ton amour invincible
+                        pour le vrai, pour le bon, te donnera chaque jour une idée flatteuse de la
+                        sublimité de ton ame.</p>
+                    <p>Ce que la volupté a de délicieux elle le reçoit de l’esprit, ses délices sont
+                        pures &amp; <pb n="37" xml:id="p37"/>immortelles comme lui, c’est une source
+                        heureuse qui ne tarit point. L’image du beau, ainsi que celle de la vertu
+                        est gravée au fond de nos cœurs ; il n’appartient qu’à nous de la contempler
+                        sans cesse ; voilà la véritable jouissance de l’ame, &amp; le plaisir
+                        inaltérable ; aussi les gens de Lettres sçavent trouver en eux-mêmes une
+                        satisfaction douce &amp; continue, qui n’agite point le cœur, qui ne
+                        réfroidit point l’imagination, tandis que les autres hommes jamais
+                        détrompés, embrassent dans une volupté passagere un phosphore brillant qui
+                        se dissipe.</p>
+                    <p>Qu’est-ce que le bonheur ? Le bonheur est l’ouvrage de la raison, c’est le
+                        parfait accord de nos desirs &amp; de notre pouvoir. Or, l’homme de Lettres
+                        amoureux dès l’enfance, de tout ce qui porte l’empreinte de la pensée &amp;
+                        du sentiment, s’éclaire à la lumiere de l’une, &amp; s’échauffe à la douce
+                        chaleur de l’autre. Il trouve des charmes variés ou les autres
+                        n’apperçoivent qu’une couleur triste &amp; uniforme. Il n’a pas besoin de
+                        recourir à des objets étrangers ; il n’a qu’à descendre en lui-même qu’à
+                        fouiller cette mine riche &amp; profonde qui recéle des trésors inconnus.
+                        Son ame est dans l’équilibre, par ce qu’elle ne poursuit pas plus qu’elle ne
+                        peut obtenir ; elle sera heureuse <pb n="38" xml:id="p38"/>par le sentiment
+                        qu’elle a de connoître, d’embrasser divers rapports, &amp; de jouir d’une
+                        foule de tableaux. Il n’est point de plaisirs flatteurs s’ils n’affectent le
+                        sentiment : c’est la partie divine de notre être, elle saisit ce qui est
+                        inaccessible aux sens, elle se passionne, s’attendrit, s’enflamme, sa
+                        subtilité inconcevable pénetre les objets les plus éloignés ; elle est la
+                        créatrice &amp; la dépositaire des plaisirs de l’homme de Lettres, plaisirs
+                        aussi vifs peut être que ceux que procurent les passions, mais sans
+                        contredits plus fréquens, plus vrais &amp; plus durables.</p>
+                    <p>O ! vous qui m’entendez, qui possedez ce sentiment rare, ce tact fin &amp;
+                        délicat, ce feu subtil inconnu, vous me dispenserez de définir ce que vous
+                        sentez avec transport. Ce n’est pas pour vous que je parle ames froides
+                        &amp; bornées qui n’avez jamais fait usage de vos facultés intellectuelles ;
+                        il faut frapper vos sens pour réveiller votre langueur. La science est pour
+                        l’homme de Lettres un océan immense, où il se plonge avec volupté ; il étend
+                        de tout côté la sphere de son bonheur, &amp; devient sensible à des plaisirs
+                        qui échapent au reste des hommes. Descartes qui s’emprisonne trente années
+                        fondant la Terre &amp; les Cieux ; Mallebranche loin de ce monde lorsqu’il
+                        médite ; <pb n="39" xml:id="p39"/>Corneille dans l’enthousiasme jusqu’au
+                        lever de l’aurore ; la Fontaine assis un jour entier au pied d’un arbre,
+                        exposé à l’inclémence d’un Ciel pluvieux ; Archiméde qui n’apperçoit point
+                        la main qui va l’assassiner ; voilà le charme invincible &amp; profond qui
+                        retient dans ses chaînes invisibles l’ame du Poëte, &amp; du Philosophe ;
+                        qui la pénétre, la remplit sans la fatiguer, qui accroît sa force &amp; lui
+                        découvre des régions nouvelles étincelantes de beautés neuves &amp;
+                        sublimes. Quelle joie plus pure en effet que celle que donne la découverte
+                        d’une utile vérité ? Est-il un transport plus vif que celui qu’inspire le
+                        sentiment rapide du beau ? Où est le contentement préférable à celui qui
+                        couronne d’honorables travaux ? Alors je ne sçais quel transport noble,
+                        &amp; non orgueilleux rend à l’homme de Lettres un témoignage consolant de
+                        la grandeur de son génie, parce qu’il a sçu l’appliquer à ce qui est utile,
+                        décent &amp; honnête.</p>
+                    <p>Rien ne lui est étranger, tout ce que l’esprit humain a pensé vient se
+                        peindre à son esprit, son gout en devient plus étendu, &amp; plus sûr, son
+                        intelligence plus nerveuse. Il jouit tour à tour des systêmes élevés &amp;
+                        profonds de la Métaphisique, des sublimes préceptes de la Morale, des
+                        immuables vérité de la Géométrie, des tableaux <pb n="40" xml:id="p40"
+                        />attachans de l’Histoire, du pinceau de Rubens, du cizeau de Bouchardon, du
+                        charme inexprimable de l’éloquence, &amp; de celui de la Poësie le premier,
+                        le plus beau des Arts, qui frappant par excellence le cœur de l’homme, lui
+                        procure le plaisir d’être délicieusement ému, &amp; embellit à ses yeux tous
+                        les objets de l’Univers.</p>
+                    <p>Ainsi la méditation qui paroît sombre &amp; severe, &amp; qui est le supplice
+                        d’un esprit superficiel devient la passion chérie d’un homme de Lettres ;
+                        son esprit profond parcourt successivement la chaîne qui lie les êtres,
+                        monte, descend, s’arrête, compare les rapports, les juge, &amp; est fier des
+                        traits épars &amp; lumineux qu’il saisit dans sa course rapide. Une premiere
+                        vérité l’enhardit à en connoître une seconde, &amp; si sa vie n’étoit pas
+                        bornée, sans doute, tél homme de génié auroit embrassé le cercle des
+                        connoissances humaines.</p>
+                    <p>Faut-il s’étonner s’il dédaigne tout spectacle de vanité &amp; de luxe, s’il
+                        chérit cette simplicité, vrai caractère de la grandeur, soit dans les Arts
+                        soit dans les mœurs. Qu’à-t-il besoin des mœurs factices &amp; artificieuses
+                        de son siécle ? Sa Société est la Société des grands hommes de tous les
+                        tems. Que seront à ses yeux les foibles imitations d’un Art limité ? Son
+                        spectacle et <pb n="41" xml:id="p41"/>celui de la Nature, c’est-là qu’il
+                        prépare ses pinceaux, &amp; qu’il broye ses couleurs. Il se plaît dans les
+                        contrastes les plus frappans, dans les phénomenes les plus terribles qui
+                        font l’école du génie. Il admire également la clarté brillante d’un jour pur
+                        &amp; serein, &amp; les nuages orageux portés sur les aîles des tempêtes,
+                        &amp; le calme auguste de la Nature qui se tait dans le fond des Forêts,
+                        &amp; l’écho du Tonnerre qui du haut de son trône terrible &amp; ténébreux,
+                        gronde avec majesté sous un Ciel déchiré par l’éclair, &amp; le fleuve
+                        majestueux qui promenant lentement ses eaux, répete ses bords enchantés,
+                        &amp; les vagues mugissantes qui frappent &amp; blanchissent d’arides
+                        rochers de leur écume, &amp; l’aspect magnifique d’un vaste &amp; superbe
+                        Palais, &amp; les débris antiques des colomnes renversées &amp; rongées par
+                        la lime des tems.</p>
+                    <p>Mais l’ombre de la nuit survient, il se dérobe au sommeil ; à la lueur d’un
+                        flambeau qui le plonge dans une volupté douce, il converse avec ces morts
+                        illustres, ces sages de l’antiquité, réverés &amp; bienfaisans comme les
+                        Dieux, héros donnés à l’humanité pour sa gloire &amp; son bonheur.</p>
+                    <p>Alors dans les vastes pensées d’une sublime méditation, le livre antique lui
+                        tombe des mains, le soufle inspirateur se <pb n="42" xml:id="p42"/>répand
+                        dans son ame, son cœur s’échauffe ; son imagination s’allume, un
+                        frémissement délicieux coule dans ses veines, l’enthousiasme le saisit ; sur
+                        des aîles de feu, son esprit s’élance, il franchit les limites du monde, il
+                        plane au haut des Cieux : là, il contemple, il embrasse la vertu dans sa
+                        perfection, il s’enflamme pour elle jusqu’au ravissement &amp; à l’extase, je
+                        vois son front riant tourné vers le Ciel, des larmes de joie coulent de ses
+                        yeux, l’amour sacré du genre humain pénetre son cœur d’une vive tendresse,
+                        son sang bouillonne ; la rapidité de ses esprits entraîne celles de ses
+                        idées ; c’est alors qu’il peint avec sentiment, qu’il lance les foudres
+                        d’une mâle éloquence, qu’il crée ces chefs-d’œuvres l’admiration des
+                        siécles ; il donne l’ame, la vie, ou plutôt il embrâse tout ce qu’il touche.
+                        Que lui manque-t-il alors pour rétablir l’ordre dans l’Univers ? Il ne lui
+                        manque que la puissance ; il a le droit d’aimer, de hair ; il a vû tout ce
+                        qui blessoit cet ordre, la maladie des Empires, la contradiction des Loix,
+                        la Force égorgeant l’Equité ; il a frémi à la fois d’un mouvement de
+                        tendresse &amp; d’indignation ; il a voulu terminer les débats antiques de
+                        l’horrible oppresseur, &amp; du foible opprimé ; &amp; si dans l’excès de
+                        son zèle, il s’est égaré dans ses vûes sublimes, <pb n="43" xml:id="p43"/>du
+                        moins les succès du crime ne lui en ont point imposé, &amp; n’ont point
+                        fatigué sa constante vertu.</p>
+                    <p>Ce seroit ici le lieu de peindre l’ivresse qui pénetre son ame, lorsqu’aux
+                        acclamations des Citoyens satisfaits, la gloire aux aîles brillantes,
+                        descend sur sa tête la couronne qu’il a méritée ; lorsqu’un Peuple éclairé
+                        &amp; sensible lui prodigue ces applaudissemens qui font pâlir l’Envie ;
+                        lorsque la reconnoissance multiplie son nom dans toutes les bouches, &amp;
+                        que plus heureux encore il voit la flamme généreuse qui embrâse ses écrits
+                        se répandre dans tous les cœurs, &amp; qu’ils se remplissent des principes
+                        vertueux qu’il a établis pour le bonheur des hommes. Alors il dit, j’ai fait
+                        quelque bien sur la terre, mon existence n’a point été méprisable, elle
+                        m’est chere, puisqu’elle a été utile à quelqu’autre. O gloire ! ô amour de
+                        l’estime ! C’est toi qui satisfais le penchant le plus digne de nous ; tu
+                        nous écartes des routes de la molesse pour nous faire marcher sur les pas
+                        des grands hommes ; tu ravis au néant le souvenir des nobles travaux ; sois
+                        toujours la passion la plus forte, la plus durable, la plus agissante dans
+                        l’homme de Lettres. Quiconque ne te sent pas ne s’élevera point même
+                        jusqu’au médiocre.</p>
+                    <p><pb n="44" xml:id="p44"/>C’est ainsi que sont payés les momens que l’homme de
+                        Lettres a passé dans la solitude. Le tems écoulé &amp; perdu pour l’homme de
+                        Lettres a passé dans la solitude. Le tems écoulé &amp; perdu pour l’homme
+                        vulgaire existe encore pour lui. Il se reproduit sous ses yeux, &amp; le
+                        remords d’un jour inutile n’entre point dans son cœur ; le calme, la
+                        tranquilité, enfans de la modération des desirs, deviennent son partage. La
+                        tendre amitié lui sourit. Que les hommes durs la dédaignent ; que les
+                        tristes raisonneurs la calomnient ; il la trouve parce qu’il l’invite. Il ne
+                        cherche point dans son ami un flatteur ou une victime de ses caprices, mais
+                        une ame honnête où il puisse délicieusement épancher la sienne, établir une
+                        communication intime de toutes ses pensées, s’élever, s’embellir
+                        mutuellement dans un commerce qui ne souille point le mélange impur de
+                        l’intérêt. Le don de la parole devient pour eux le lien de leurs cœurs, ils
+                        s’entendent, se préviennent &amp; se perfectionnent l’un par l’autre.
+                        L’expression naïve de leurs sentimens vole sans effort sur leurs lévres, ils
+                        osent se montrer tels qu’ils sont ; la confiance s’établit, le rapport de
+                        goût se fortifie, l’amitié les unit à jamais, ils pensent ensemble, &amp;
+                        ils n’ont point à craindre que la cupidité vienne briser des nœuds dont le
+                        charme fait toute la force.</p>
+                    <p><pb n="45" xml:id="p45"/>O ! qu’il est doux dans le sein de cette auguste
+                        amitié, de n’obéir qu’à la voix du génie, de suivre ses inspirations
+                        secrettes, de nourrir chaque jour ce feu sacré des beaux Arts, ce goût épuré
+                        qui forme une trempe d’ame également vigoureuse &amp; sensible. Quelle
+                        source de délices de s’élever avec Corneille, de pleurer avec Racine, de
+                        rire avec Moliere, depenser avec Montesquieu, Buffon, &amp; Rousseau. O
+                        douces illusions de la Poësie ! Vous n’avez pas moins de charmes pour moi
+                        que la vérité ; puissiez-vous me toucher &amp; me plaire jusques dans les
+                        derniers instans de ma vie. Que je lise avec le même ravissement ce que les
+                        Muses immortelles ont chanté, que j’oublie les passions orageuses qui
+                        tourmentent l’homme inquiet pour m’élever aux pensées riantes ou
+                        majestueuses qui font disparoître tout ce qui n’est pas elles. Dans mes
+                        promenades solitaires, je te suivrai dans les combats impétueux, Homére
+                        &amp; tes héros me paroîtront aussi grands que tes Dieux. Tu peindras
+                        l’amour sacré de la Patrie, la valeur qu’il inspire ; la gloire qui
+                        accompagne l’homme courageux, l’opprobre inévitable qui atteint le lâche. Je
+                        goûterai tes images tour à tour sublimes &amp; gracieuses, &amp; cette
+                        chaîne d’or qui tient l’Univers suspendu devant le maître <pb n="46"
+                            xml:id="p46"/>des Dieux, &amp; la ceinture de la mere des graces, &amp;
+                        le sang immortel de Venus qui coule sous la lance du fougueux Diomede, &amp;
+                        Junon qui sur le mont Ida enveloppé d’un nuage impénétrable aux rayons du
+                        Soleil, désarme dans ses bras le Dieu qui lance la foudre ; tout sera pour
+                        moi un tableau de la Nature, tout m’offrira sous d’aimables fictions
+                        l’emblême de la vérité. Je te méditerai comme Platon inimitable, La
+                        Fontaine, toi dont la naïveté cachoit tant de profondeur, j’aimerai à
+                        reconnoître l’empreinte de ce cœur sans fiel, de cette ame si simple, mais
+                        si noble qui défendit Fouquet, &amp; ne connut jamais le moindre détour.
+                        Assis sous un ombrage frais, couché près du cristal des eaux, tu souriois à
+                        la Nature, &amp; la Nature te couronnoit de ses fleurs. Je ne t’oublirai pas
+                        énergique la Bruyere, toi qui portas une vûe si pénétrante dans les replis
+                        du cœur humain ; en apprenant à me connoître, j’apprendrai à pardonner aux
+                        hommes ; mais quand la nuit étendra ses voiles sombres, que les mortels
+                        fatigués se livreront au repos, au milieu du silence des nuits, tu
+                        m’entraineras hors des limites du monde, audacieux Milton, un voile
+                        impénétrable couvroit ta paupiere, mais ton œil intellectuel apperçut cet
+                        esprit qui porté sur <pb n="47" xml:id="p47"/>les eaux appella l’Univers de
+                        l’abîme du néant. Tu me peins le jour pompeux de la création, la terre
+                        couronnée de verdure s’échappant des mains du Tout-Puissant ; il allume le
+                        Soleil, il déploye l’auguste pavillon du firmament. Tu me transportes dans
+                        le Jardin d’Eden ; tu me fais voir le régne fortuné de l’innocence, la
+                        beauté majestueuse d’Adam, les graces pudiques de la chaste compagne.
+                        Bientôt je traverse l’empire de l’informe Cahos, je descends dans les
+                        gouffres brûlans creusés par la Justice Divine. Là, tu me réprésentes les
+                        esprits de révolte étendus sur le lac enflammé ; leur Chef porte sur son
+                        front cicatrisé l’empreinte de la foudre ; j’entends les blasphêmes
+                        respectueux qu’il vomit dans son audace, aussi étonnante que coupable ;
+                        soudain tu me ravis aux Cieux, je vois les légions aîlées qui entourent le
+                        trône de l’Eternel ; il parle, tout s’ébranle ; les milices du Dieu vivant
+                        s’élancent pour venger sa puissance outragée. Le Ciel &amp; l’Enfer se
+                        choquent ; l’Enfer a soulevé ses feux, le Ciel a fait pleuvoir ses foudres,
+                        la victoire est suspendue dans ce combat terrible ; mais quel moment
+                        formidable ; le char du fils de l’Eternel franchit les plaines de
+                        l’immensité ; les carreaux vengeurs qui partent de ses mains, précipitent,
+                        écrasent &amp; <pb n="48" xml:id="p48"/>poursuivent ces innombrables légions
+                        de rébelles ; ô Milton ! Je les vois tomber dans le gouffre immense de la
+                        désolation ; j’entends les portes de l’effroyable abîme se refermer pour
+                        jamais, &amp; je te vois un instant près du vainqueur, couronné des rayons
+                        de sa gloire, &amp; environné de l’éclat de mille Soleils.</p>
+                    <p>Active imagination, tu es la source &amp; la gardienne de nos plaisirs ; ce
+                        n’est qu’à toi que nous devons l’agréable illusion qui nous flatte ; tu
+                        sçais fournir à notre cœur les plaisirs dont il a besoin ; tu rappelles nos
+                        voluptés passées, &amp; tu nous fais jouir de celles que l’avenir nous
+                        promet ; tu plais sur-tout à l’esprit ; c’est ta flamme subtile &amp; légere
+                        qui colore &amp; les Cieux &amp; la terre &amp; les Mers ; sans toi l’ame se
+                        refroidit, la fleur la plus précieuse de notre sensibilité tombe, se fanne,
+                        &amp; tous les charmes de la vie disparoissent ; tu distingues dans les Arts
+                        celui qui est né avec du génie ; la pensée la plus profonde s’évanouit, si
+                        elle n’est revêtue de tes couleurs ; tu as peut-être découvert plus de
+                        vérités que la raison même, car tu joins la force à l’agrément, la
+                        persuasion à l’autorité ; tout ce qui est vif, délicat, riant est de ton
+                        ressort ; oui, tu es le miroir heureux où se peignent, se multiplient, <pb
+                            n="49" xml:id="p49"/>s’embellissent tous les objets de la Nature.</p>
+                    <p>Aimable imagination, souveraine de nos esprits, dès qu’on se livre à ton vol
+                        enchanteur, l’infortune fuit, les rayons de l’espérance dorent la
+                        perspective du bonheur ; l’homme de génie échauffé par toi, se trouve dans
+                        son malheureux destin au-dessus de ses revers, &amp; même il les oublie ; il
+                        porte en lui un trésor que ne peut lui arracher la Fortune : Animé d’un feu
+                        céleste, il exerce sa pensée, elle se repose sur les objets les plus
+                        sublimes ou les plus rians, &amp; l’image de ses maux est effacée. Baçon
+                        emprisonné sous la voûte d’un cachot, commandoit à son ame de franchir ces
+                        murs épais, elle méditoit l’ordre éternel de l’Univers, le mélange
+                        inévitable de bien &amp; de mal, la succession nécessaire du plaisir &amp;
+                        de la douleur. Eh, que lui faisoient alors ces chaînes, qui ne pouvoient
+                        captiver la plus noble partie de lui-même ? Chantre de Tancrede &amp;
+                        d’Armide, je te suis dans tous les lieux où t’entraîne le destin le plus
+                        bizarre, je vois le charme de la Poësie, comme un baume vivifiant, ranimer
+                        ton ame flétrie par la douleur ; tu braves le sort &amp; les ennemis en te
+                        jettant dans les bras des Muse ; la mort s’avance &amp; tu ne l’apperçois
+                        pas ; ton œil ne <pb n="50" xml:id="p50"/>se porte que vers l’immortalité.
+                        Je vois Tompson monté sur un Vaisseau prêt à fondre dans l’abîme ; il semble
+                        oublier le péril, il contemple les superbes images de cette horrible
+                        tempête, ce sombre effrayant qui colore la Nature attristée, &amp; la lueur
+                        rapide des éclairs réfléchie sur les eaux ; passionné pour son Art, il
+                        s’écrie : O ! Le beau spectacle, ô la magnifique tempête ! Ovide est exilé
+                        loin de Rome, dans les affreux Déserts de la Scithie. Une Nature sauvage
+                        s’embellit de sa présence. Il confie à sa Lyre les chagrins de son ame,
+                        &amp; par une magie puissante, ses malheurs s’effacent, tandis qu’il
+                        s’occupe à les peindre. Il épanche sa douleur dans ses vers éloquens ; il se
+                        plaît dans ses plaintes, le succès de son esprit trompe son cœur, &amp; il
+                        rend vaine la vengeance de son Tyran.</p>
+                    <p>Amour des beaux Arts, que n’enflammes-tu tous les cœurs ? Tu serois un
+                        secours toujours présent contre l’ennui &amp; contre l’infortune ; les
+                        mortels désabusés ne connoîtroient plus d’autre ambition que celle de
+                        reculer les bornes de l’esprit humain ; attendris par vos leçons, ils ne
+                        deviendroient sensibles qu’aux charmes éternels du beau. Est-il rien deplus
+                        délicieux que de pouvoir jouir de la Nature, en tous les tems, en tous les
+                        lieux ; d’ouvrir son ame aux objets enchanteurs qui la décorent ? <pb n="51"
+                            xml:id="p51"/>Quelle source inépuisable d’agrémens que ce qui flatte
+                        notre goût intérieur, faculté distincte des autres sensations, &amp; qui
+                        nous rend sensible à la beauté, à l’ordre, à l’harmonie ! Alors les mœurs
+                        prennent l’empreinte de ces occupations douces &amp; utiles. Tandis que
+                        l’ennemi des beaux Arts sur le déclin de ses années, à charge à lui-même
+                        &amp; aux autres, éprouvera un vuide affreux, n’envisageant que le spectre
+                        de l’ennui, &amp; les ombres horribles de la mort : l’homme éclairé jouira
+                        du spectacle de sa vie passée ; il aura sçû apprécier, ce que vaut
+                        l’existence, &amp; fort par sa pensée, il ne redoutera point l’instant
+                        inévitable qui doit terminer sa carrière : ainsi le généreux Fénélon, qui
+                        montra à l’Univers le caractère rare &amp; sacré d’une ame remplie à la fois
+                        d’une extrême vertu &amp; d’une extrême douceur, ne perdit point dans les
+                        Cours la simplicité de ses mœurs, &amp; conserva dans son exil cette égalité
+                        d’ame que rien ne pût corrompre. Ainsi, Fontenelle, ce Nestor, qui illustra
+                        deux siécles, calme, tranquille, modéré jusqu’à sa derniere heure, vit fuir
+                        le songe de la vie comme un Sage du haut d’une colline élevée voit mourir
+                        les derniers rayons du Soleil.</p>
+                    <p>Que ne puis-je placer ici les noms de ces Ecrivains non moins distingués par
+                            <pb n="52" xml:id="p52"/>leurs vertus que par leurs talens ? Je ferois
+                        voir que le feu du véritable génie n’embrâsa presque jamais que des ames
+                        sublimes. Je prouverois par les écrits &amp; les actions de ces hommes
+                        immortels combien leur cœur étoit pénétré de cette vertu douce dont ils se
+                        sont efforcés d’étendre l’empire. Alors mes foibles accens rendus plus forts
+                        par la mâle éloquence de ce bienfaiteur de l’humanité iroient porter la
+                        honte &amp; le remord dans le sein de leur persécuteurs ; alors l’Envie
+                        étonnée de se trouver sensible laisseroit tomber ses fléches empoisonnées ;
+                        &amp; ses lâches Ministres réduits au silence, ne jouiroient plus du
+                        coupable plaisir de rabaisser un mérite qui les offusque.</p>
+                    <p>Pourquoi ne puis-je dissimuler ici le vice de la Littérature moderne ? Je
+                        l’avouerai elle est fouillée par des Auteurs mercenaires &amp; méprisables,
+                        dignes milices de l’ignorance &amp; de la calomnie dont ils suivent les
+                        mouvemens désordonnés. Au milieu de cette triste &amp; dévorante anarchie,
+                        je ne ferai point entendre ma voix, mais je m’adresserai à vous qu’une
+                        émulation trop ardente, un amour excessif de la gloire conduisent à dépriser
+                        de trop dignes rivaux. Il appartient sans doute à la raison de dissiper les
+                        prestiges de l’orgueil <pb n="53" xml:id="p53"/>malheureusement si naturel à
+                        l’homme, &amp; de faire voir qu’on ne s’éleve point en abaissant autrui. Ma
+                        voix est foible, mais du moins elle sera l’interpréte de l’honnêteté ; &amp;
+                        je dirai : ô vous qui courez la carriere de l’immortalité, oubliez-vous
+                        qu’ayant l’honneur de parler aux hommes, ils ont droit d’attendre de vous
+                        une vertu mâle, severe, courageuse, qui sçache prononcer contre vous-même
+                        lorsque l’intérêt général le demandera. Oubliez-vous qu’on ne pardonne pas à
+                        l’envieux, &amp; au méchant même en faveur de son génie, &amp; que le
+                        souverain mépris s’allie quelquefois à l’admiration des plus rares talens.
+                        Oubliez-vous que si la malice humaine sourit quelquefois aux traits
+                        ingénieux de la Satyre, elle passe avec la foule interessée à le recevoir,
+                        &amp; que l’équité proscrit bientôt cette petite vengeance en marquant du
+                        sçeau du mépris le jaloux censeur. Eh ! Que veulent dire cette haine, ce
+                        fiel, cette animosité qui vont bientôt vous confondre avec le plus vil des
+                        hommes. Le Forgeron hait le Forgeron, la faim lui dicte son inimitié ; mais
+                        vous qui pretendez à la gloire, imiterez-vous l’homme venal dont l’ame
+                        répond à la bassesse de son état ? Que craignez-vous ? L’estime publique est
+                        inépuisable, &amp; la gloire tient des couronnes <pb n="54" xml:id="p54"
+                        />toutes prêtes pour chaque espece de mérite. Doit-on être l’objet de vos
+                        éternelles vengeance pour oser courir la même carrière ou vous vous
+                        rencontrez ? Ne devez-vous donc arriver au but que couvert de lauriers
+                        arrachés avec fureur des mains de vos concurrens, &amp; déja flétris par la
+                        honte ainsi que par les reproches des Spectateurs ? Songez que vous êtes
+                        tous égaux lorsque vous volez dans la lice. Qui de vous en effet oseroit se
+                        flatter d’être déclaré vainqueur par la voix de la postérité ? Elle jugera,
+                        &amp; vos cris ne seront point entendus, &amp; tous ces téméraires critiques
+                        disparoîtront, heureux si l’oubli ne les dérobe à l’opprobre. Que ces têtes
+                        étroites, ces ames mal nées indifférentes sur l’intérêt général, concentrées
+                        dans leurs petits intérêts ne voyent que ce qui les blesse, vous hommes de
+                        Lettres &amp; dignes de ce nom, vous ne profanerez point une plume qui ne
+                        doit être consacrée qu’au bien public, en la faisant servir à l’orgueil
+                        d’immoler un rival ; c’est à vous de donner l’exemple de ce généreux
+                        désintéressement, de cette impartialité qu’on est en droit d’attendre de
+                        vous, &amp; que vous exigeriez pour vous même.. L’éloge d’un homme de génie,
+                        n’est-il pas la plus douce récompense d’un autre homme de génie <pb n="55"
+                            xml:id="p55"/>dites c’est mon frere qu’on admire, qu’on loue, qu’on
+                        persécute, je dois le consoler, le défendre, puisque les méchans le
+                        punissent d’être éclairé &amp; vertueux ; pour jouir de l’estime de mes
+                        contemporains, il me faudra un jour passer par les mêmes épreuves. Oui,
+                        hommes de Lettres vous ne formez qu’un corps, vos intérêts sont les mêmes,
+                        rendez-vous respectables ; l’union seule peut concentrer vos forces. Vous
+                        serez invincibles en unissant vos lumières. Si vous vous isolez vous ne
+                        serez plus que de foibles ruisseaux, qui se déssecheront d’eux-mêmes, tandis
+                        que vous auriez pû former un fleuve vaste, imposant &amp; d’un cours
+                        majestueux &amp; immortel. Eh ! La gloire elle-même vaut-elle le plaisir
+                        réel &amp; sensible, de vous communiquer vos idées, d’aggrandir mutuellement
+                        vos connoissances, de mêler les trésors de vos ames, de vivre en freres, en
+                        amis, honorés &amp; vertueux. Que l’amour propre est petit &amp; méprisable
+                        auprès de cette élevation d’ame qui fait disparoître toute rivalité !
+                        Périssent donc les odieux monumens érigés à l’Envie : que sur leurs débris
+                        s’éleve un autel à la paix ; venez-y serrer les nœuds d’une amitié utile
+                        &amp; douce. Que l’émulation n’excite plus parmi vous que de ces disputes
+                        dont les Arts puissent s’<pb n="56" xml:id="p56"/>enrichir. Si votre cause
+                        exige quelque chaleur, que ce soit avec noblesse avec honnêteté ; vos
+                        raisons ne perdront rien de leur force lorsqu’elle seront présentées avec
+                        modération ; on y reconnoîtra mieux le ton de la vérité. Songez enfin que la
+                        justice, la générosité, la grandeur d’ame doivent vous animer si vous voulez
+                        les peindre avec force, &amp; les faire passer dans les cœurs de ceux qui
+                        vous écoutent. Distingués du reste des mortels par vos lumières, montez
+                        votre ame au ton de votre génie, il en sera plus grand, plus fier, plus
+                        sublime, plus cher à la Nation, à l’humanité, &amp; la foule envieuse ne
+                        saisira plus le prétexte de vous refuser son hommage pour exercer le triste
+                        droit de calomnier vos mœurs, &amp; vous mépriserez les sourds complots du
+                        Fanatisme, &amp; de l’ignorance, &amp; affermis sur la colomne inébranlable
+                        de la probité jointe à l’honneur, vous verrez vos ennemis réduits à garder
+                        un silence qui fera leur supplice &amp; leur honte.</p>
+                </div2>
+                <trailer rend="i">FIN.</trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>
