@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Discours sur le progrès des lettres en France</title>
+                <author key="Rigoley de Juvigny, Jean-Antoine (17..-1788)"
+                    ref="https://data.bnf.fr/fr/12074114/jean-antoine_rigoley_de_juvigny/"
+                    >Jean-Antoine Rigoley de Juvigny</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>Saisie, TEI-XML</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>Édition XML</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+              <idno>http://obvil.sorbonne-universite.fr/corpus/critique/rigoley-de-juvigny_discours-progres-des-lettres_1772</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Jean-Antoine Rigoley de Juvigny, <hi rend="i">Discours sur le progrès des
+                        lettres en France</hi>, <pubPlace>Paris</pubPlace>, <publisher>Saillant et
+                        Nyon : M. Lambert</publisher>, 1772, <biblScope>in-8, 190 p.</biblScope>
+                    PDF : <ref target="https://books.google.fr/books?id=tlcTAAAAQAAJ"
+                    >Google</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1772"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <head><hi rend="uc">Discours <hi rend="i">sur le progrès</hi> des Lettres en
+                        France</hi>.<note n="(*)" place="bottom">Ce Discours est à la tête de la
+                        nouvelle Edition des Bibliothèques françoises de la Croix du Maine &amp; de
+                        du Verdier, Sieur de Vauprivas, <hi rend="sc">dédiée au Roi</hi>, &amp;
+                        donnée par M. <hi rend="i">Rigoley de Juvigny</hi> avec des remarques
+                        critiques historiques &amp; littéraires.</note></head>
+                <p><hi rend="big">L</hi><hi rend="sc">a France</hi> étoit depuis longtemps ensevelie
+                    dans les ténèbres de l’ignorance &amp; de la barbarie, lorsque <hi rend="sc"
+                        >Charles</hi>&#xA0;V appela près de lui les hommes les plus éclairés de <pb
+                        n="2" xml:id="p2"/>l’Europe, &amp; les encouragea autant par son exemple,
+                    que par les honneurs &amp; les récompenses dont il les combla. Son règne annonça
+                    les beaux jours qui devoient éclairer, quelques siècles après, les Sciences
+                    &amp; les Arts. Mais leurs progrès furent insensibles sous les successeurs de ce
+                    sage Monarque, soit par les malheureuses circonstances des temps&#xA0;; soit
+                    parce qu’ils ne sentirent pas comme lui, l’utilité de la culture des Lettres, ni
+                    combien elles contribuent à rendre un Royaume florissant. Enfin <hi rend="sc"
+                        >François</hi>&#xA0;I les ranima, &amp; mérita d’être surnommé leur Père
+                    &amp; leur restaurateur, titre peut-être moins flatteur pour l’orgueil du
+                    maître, mais plus cher à sa nation &amp; plus précieux à <pb n="3" xml:id="p3"
+                    />l’humanité. C’est à cette époque mémorable, que la lumière succéda pour
+                    toujours aux ténèbres, &amp; que l’étude des Lettres produisit enfin des hommes.
+                    On sentit le besoin qu’on avoit d’être instruit, &amp; l’émulation devint
+                    générale. Les livres se multiplièrent, &amp; déjà leur nombre étoit assez
+                    considérable au seizième siècle, pour faire naître l’idée de former, du nom seul
+                    des Auteurs &amp; du titre de leurs Ecrits, un ouvrage non moins utile
+                    qu’intéressant.</p>
+                <p/>
+                <p><hi rend="sc">Les Bibliothèques Françoises</hi> de <hi rend="sc">la Croix du
+                        Maine</hi>, &amp; de <hi rend="sc">Duverdier</hi>, Sieur <hi rend="sc">de
+                        Vauprivas</hi>, sont en ce genre le premier monument élevé à la gloire de la
+                        <pb n="4" xml:id="p4"/>Littérature Françoise. Ces deux Auteurs, sans se
+                    connoître, &amp; sans s’être communiqué leur dessein, conçurent le même projet,
+                    l’exécutèrent, &amp; se disputèrent à l’envi le mérite &amp; l’honneur de
+                    l’invention. Mais, sans examiner ici lequel des deux a eu le premier cette idée,
+                    nous devons également leur savoir gré de leur travail, &amp; nous avouerons que,
+                    si les Auteurs dont ils nous ont conservé les noms &amp; indiqué les ouvrages,
+                    ne méritent pas tous l’espèce d’immortalité qu’ils leur ont procurée, ils en ont
+                    du moins parlé avec une impartialité digne d’éloge.</p>
+                <p/>
+                <p><hi rend="sc">Pour peu</hi> qu’on jette les yeux sur les ouvrages des anciens <pb
+                        n="5" xml:id="p5"/>Ecrivains François, on voit quels obstacles ils eurent à
+                    vaincre, soit pour rendre leurs propres pensées, soit pour faire passer dans une
+                    langue, encore au berceau, les beautés de deux langues, dont le sort étoit fixé,
+                    &amp; la supériorité reconnue depuis tant de siècles. Les modèles que
+                    l’Antiquité Grecque &amp; Latine présentoit à ces premiers Littérateurs,
+                    devoient en même temps exciter en eux le sentiment de l’admiration, &amp; celui
+                    du désespoir de les imiter&#xA0;; mais le goût naissoit à mesure qu’ils les
+                    étudioient. La langue Françoise, timide, grossière, embarrassée, n’osoit encore
+                    s’élever jusqu’aux Arts &amp; aux Sciences&#xA0;; elle étoit même obligée
+                    d’emprunter <pb n="6" xml:id="p6"/>pour l’histoire, pour les Actes &amp; les
+                    Traités publics, le langage de l’ancienne Rome. Des Fables, des Romans, des
+                    Récits de faits &amp; gestes fabuleux furent long-temps son partage,
+                    c’est-à-dire, ses seuls objets &amp; tous ses fruits&#xA0;: elle étoit trop peu
+                    féconde pour en produire d’autres, trop pauvre pour atteindre à la richesse
+                    d’expression qu’exigent les grands sujets, trop barbare &amp; trop rude, pour
+                    peindre avec succès les nuances délicates des sujets d’agrément. Mais lorsqu’on
+                    eût appris à penser dans les Ecrits d’Athènes &amp; de Rome&#xA0;; lorsque le
+                    génie éclairé par ces guides immortels eût pris son essor, &amp; que l’esprit
+                    solidement nourri ne se laissa plus <pb n="7" xml:id="p7"/>entraîner au hasard,
+                    ou emporter aux caprices de la fantaisie, avec quelle fierté la langue Françoise
+                    ne brisa-t-elle pas ses entraves&#xA0;? Enrichie des dépouilles de ses deux
+                    rivales, elle est enfin parvenue aujourd’hui à les surpasser en clarté, &amp; à
+                    les égaler presque pour l’énergie, l’expression, la douceur &amp; l’harmonie.
+                    Elle seroit encore privée de tous ces avantages, sans l’étude que des hommes,
+                    nés pour saisir le beau &amp; le vrai, ont faite de l’Antiquité&#xA0;; &amp;, si
+                    les Grecs &amp; les Romains existoient aujourd’hui dans toute leur splendeur, ne
+                    seroit-ce pas à bien plus juste titre, qu’ils se diroient encore les Maîtres du
+                    Monde&#xA0;? En effet, à quel haut degré de perfection <pb n="8" xml:id="p8"
+                    />n’auroient-ils pas porté nos découvertes, utiles ou agréables, si elles
+                    cussent été faites de leur temps&#xA0;? Par conséquent, quelles richesses leurs
+                    langues n’auroient-elles pas acquises&#xA0;? Plus les connoissances augmentent,
+                    plus les idées naissent en nombre, se développent, s’étendent, s’agrandissent,
+                    &amp; plus les images qui les expriment, varient, s’animent &amp; se
+                    multiplient. La variété, l’abondance &amp; la richesse d’une langue dépendent
+                    donc des connoissances plus ou moins étendues que nous possédons. La langue est
+                    nécessairement pauvre chez un peuple sauvage, dont les idées ne sont, pour ainsi
+                    dire, que des sensations, &amp; dont les réflexions &amp; les connoissances ne
+                    s’étendent pas <pb n="9" xml:id="p9"/>au-delà de ce qui le touche ou
+                    l’environne. Soumis &amp; livré aux seuls besoins de la nature, sans eux à peine
+                    s’appercevroit-il de son existence. Quoique plus à plaindre, il n’en est guère
+                    plus malheureux&#xA0;: car ce malheur de l’état d’ignorance, quelque réel qu’il
+                    soit, n’est ni apprécié ni senti que par ceux qui s’élèvent au-dessus. Le
+                    Sauvage, &amp; même le peuple des nations policées, a peu d’idée de son
+                    ignorance, &amp; n’en a point du tout du savoir qui lui manque.</p>
+                <p/>
+                <p><hi rend="sc">Les Arts agréables</hi> sont les enfans de nos plaisirs&#xA0;; les
+                    Arts utiles sont le produit du hasard ou de la nécessité&#xA0;; les sciences au
+                    contraire sont le fruit de nos travaux &amp; de <pb n="10" xml:id="p10"/>nos
+                    veilles. Tous ont leur germe au sein de la nature, ils n’attendent que le
+                    souffle du génie pour éclore. C’est le génie qui distingua particulièrement les
+                    Grecs des autres peuples de la terre. Dès qu’ils furent sortis de la barbarie,
+                    qu’ils cessèrent d’être errans &amp; pauvres, &amp; qu’ils purent jouir de leurs
+                    conquêtes, ils cherchèrent les moyens de respirer en paix sous l’heureux climat
+                    qu’ils avoient choisi. Avides de s’instruire, ils allèrent puiser chez les
+                    Phéniciens &amp; les Egyptiens les connoissances qui leur manquoient, les Arts
+                    dont ils avoient besoin&#xA0;; &amp; ils ne tardèrent pas à surpasser leurs
+                    maîtres. Ils adoptèrent une partie de leur Théogonie &amp; de leurs cérémonies
+                        <pb n="11" xml:id="p11"/>religieuses. Leurs Poëtes, après un long séjour en
+                    Egypte, où ils s’étoient fait initier dans les Mystères des Dieux du pays, de
+                    retour dans leur patrie, chantèrent les premiers ces Divinités étrangères. Ils
+                    furent écoutés avec transport par des hommes dont l’imagination brûlante
+                    s’enflammoit aisément. La Grèce fut bientôt remplie de Dieux de toute
+                    espèce&#xA0;: le Ciel, la Terre, les Elémens, tout dans la nature, jusques aux
+                    passions mêmes, eut des Temples, des Prêtres &amp; des Autels. Tant il est vrai
+                    que l’esprit humain, abandonné à ses seules lumières, est facile à séduire,
+                    &amp; sujet à s’égarer.</p>
+                <p/>
+                <p><hi rend="sc">Homère</hi> vivoit à-peu-près dans <pb n="12" xml:id="p12"/>le
+                    temps que ce culte nouveau étoit encore dans toute sa splendeur. Quel vaste
+                    champ, pour ce génie sublime &amp; fécond, que ces fables où l’orgueil humain
+                    trouvoit à s’exalter, où les passions jouoient un si grand rôle, où le
+                    merveilleux éclipsoit la raison, où le mensonge &amp; l’erreur, ingénieusement
+                    travestis, &amp; triomphans de la vérité, excitoient, augmentoient sans cesse
+                    l’enthousiasme d’un peuple amoureux de son origine, en lui rappelant le souvenir
+                    des Héros dont il croyoit descendre&#xA0;! Quoi de plus susceptible d’images
+                    agréables, qu’une Religion faite exprès, où tout invitoit les sens à jouir, où
+                    la volupté présidoit aux mystères, où <pb n="13" xml:id="p13"/>l’imagination
+                    enfin créoit à son gré des Déesses &amp; des Dieux&#xA0;! C’est avec ces
+                    matériaux si légers, si brillans, si propres à la Poësie, qu’Homère jeta les
+                    fondemens de sa gloire, &amp; qu’il composa ces Ouvrages immortels, dans
+                    lesquels il déploya toute la grandeur &amp; toute la beauté de son génie. Depuis
+                    ce Poëte divin, quelle foule de grands hommes la Grèce n’a-t-elle pas
+                    produits&#xA0;? Poëtes, Orateurs, Historiens, Philosophes, tous trouvoient dans
+                    leur langue abondante, énergique, harmonieuse &amp; sonore, l’expression propre
+                    à chaque Art &amp; à chaque Science&#xA0;: elle exprimoit, elle animoit, elle
+                    représentoit tout&#xA0;; en un mot, elle étoit en tout genre le pinceau du
+                    génie.</p>
+                <pb n="14" xml:id="p14"/>
+                <p><hi rend="sc">Il</hi> s’en faut bien que la langue Latine ait eu le même
+                    avantage. Les foibles commencemens de la République Romaine ne permirent pas à
+                    cette langue d’atteindre d’abord à la perfection. Il importoit, avant tout, aux
+                    Romains d’affermir un Empire, qu’ils avoient conquis par les armes. L’austérité
+                    de leurs premières mœurs n’admettoit ni jeux, ni spectacles publics&#xA0;; &amp;
+                    leur langue se ressentit long-temps de cette austérité. Les intervalles de repos
+                    que laissoit la victoire à ce peuple belliqueux, étoient employés à la culture
+                    des terres&#xA0;; &amp; cette vie champêtre, si favorable à l’innocence &amp; si
+                    conforme à la sagesse, en tempérant les mœurs, fit perdre insensiblement à <pb
+                        n="15" xml:id="p15"/>ce peuple, une certaine férocité, inséparable du
+                    tumulte des armes &amp; de la fureur des combats. Les dépouilles des vaincus,
+                    partagées entre les familles de l’Etat &amp; le Trésor public, n’eurent pas
+                    plutôt formé un patrimoine aux particuliers, &amp; assuré un fonds à la
+                    République, qu’il fallut des Loix. Les Romains eurent recours aux Grecs, qui
+                    virent bientôt leurs Dieux avoir un culte &amp; des autels dans Rome, leurs
+                    Sciences &amp; leurs Arts y jeter de profondes racines, leurs loix servir de
+                    base aux loix Romaines, &amp; le Sénat se former à l’imitation de l’Aréopage.
+                    Rome néanmoins, uniquement occupée de sa gloire, n’emprunta des Grecs que ce qui
+                    pouvoit contribuer <pb n="16" xml:id="p16"/>à son élévation &amp; à son
+                    agrandissement. Un gouvernement sage, une politique habile &amp; profonde, une
+                    suite non interrompue de victoires, des mœurs que le luxe n’avoit point encore
+                    amollies ni corrompues, rendoient sans doute les Romains un peuple illustre
+                    &amp; redoutable&#xA0;; mais c’est aux Arts &amp; aux Sciences de la Grèce, dont
+                    ils firent une étude suivie, qu’ils doivent la portion la plus estimable de leur
+                    gloire, &amp; celle que le temps respectera toujours.</p>
+                <p/>
+                <p><hi rend="sc">Ils firent</hi> donc entrer, dans le plan de l’éducation de la
+                    jeunesse, l’étude de la langue Grecque, &amp; cette étude étoit la première de
+                    toutes. <pb n="17" xml:id="p17"/>Cependant la fierté Romaine, en faisant l’aveu
+                    de la nécessité d’apprendre le Grec, ne souffroit pas qu’on le parlât
+                    publiquement. Il étoit juste que la langue Latine eût la préférence, puisqu’elle
+                    étoit la langue de la nation. Cette préférence, loin de lui nuire, lui servit
+                    beaucoup, par l’application que l’on mit à étudier les principes de l’une &amp;
+                    de l’autre langue à la fois. Cette étude n’étoit pas seulement celle de la
+                    jeunesse, elle l’étoit encore de l’âge avancé. Caton en faisoit les délices de
+                    sa vieillesse&#xA0;; &amp; Cicéron lui-même, le plus éloquent des Romains, eût
+                    été peut-être moins admiré, moins digne de l’être, sans les leçons qu’il prit
+                    des Rhéteurs &amp; des Philosophes Grecs.</p>
+                <pb n="18" xml:id="p18"/>
+                <p><hi rend="sc">C’est ainsi</hi> que les Romains, non moins ingénieux, non moins
+                    spirituels que les Grecs, les reconnoissoient cependant pour leurs maîtres. Ils
+                    l’étoient en effet, par la longue habitude qu’ils avoient des sciences &amp; des
+                    Arts&#xA0;; source de l’abondance &amp; de la richesse de leur langue, dont nous
+                    ignorons l’origine &amp; l’accroissement, puisqu’elle étoit dans toute sa
+                    perfection &amp; dans toute sa beauté du temps d’Homére, le modèle de tous ceux
+                    qui ont écrit après lui&#xA0;: on ne voit pas du moins qu’elle ait varié
+                    depuis&#xA0;; au lieu qu’on ne peut fixer l’époque de la perfection de la langue
+                    Latine, qu’au siècle d’Auguste. Avant cette époque, elle avoit sans doute de la
+                    force &amp; de la majesté, <pb n="19" xml:id="p19"/>parce que c’étoient des
+                    Républicains qui la parloient&#xA0;; mais elle n’avoit pas cette douceur, cette
+                    élégance, cette urbanité, qu’une Cour polie &amp; voluptueuse sut y
+                    répandre&#xA0;; car les mœurs influent sur la langue, autant que le génie,
+                    témoin l’Atticisme &amp; le Laconisme&#xA0;: l’un étoit le fruit de tous les
+                    Arts &amp; de toutes les Sciences dont Athènes étoit l’asile&#xA0;; l’autre
+                    répondoit à la sévérité des mœurs de Lacédémone, où l’on ne cultivoit que les
+                    vertus du plus austère patriotisme.</p>
+                <p/>
+                <p><hi rend="sc">La langue Latine</hi> n’a donc pu se perfectionner que lentement,
+                    &amp; à mesure que le luxe adoucissoit les mœurs, &amp; les corrompoit. Ce fut
+                        <pb n="20" xml:id="p20"/>la suite de la conquête de la Grèce par les
+                    Romains. Alors la Tragédie &amp; la Comédie abandonnèrent Athènes, &amp; se
+                    réfugièrent dans Rome, où elles reprirent un nouvel éclat. Les Poëtes Tragiques
+                    &amp; Comiques trouvèrent dans les Grecs des modèles admirables, &amp; en
+                    profitèrent. Nous ne pouvons guères juger de la Tragédie Latine, que sur les
+                    pièces qui nous restent sous le nom de Séneque, bien inférieures en tout aux
+                    Tragédies Grecques. La Comédie, au contraire, eut un sort plus heureux, &amp; ne
+                    démentit point son origine. Elle eut à la vérité ses différens âges <hi rend="i"
+                        >tirés de la rudesse ou de la politesse des plumes qui la traitèrent</hi>,
+                    comme le remarque le P. Brumoy <pb n="21" xml:id="p21"/>dans son Discours sur la
+                    Comédie Grecque. Livius Andronicus, Nevius, Ennius même, étoient à l’égard des
+                    Romains du siècle d’Auguste, ce que sont aujourd’hui pour nous les Jodelles
+                    &amp; les Garniers. Pacuvius, Cecilius &amp; Accius, remplissent l’intervalle du
+                    second âge jusqu’à Plaute. Le bel âge de la scène Comique Latine ne commença
+                    qu’à ce Poëte, qui mérita les suffrages de son temps, malgré les défauts &amp;
+                    les irrégularités de ses pièces, par l’enjouement &amp; le sel de la satire
+                    qu’il sut y répandre, par la fertilité de son génie, par la simplicité de ses
+                    sujets, par ses saillies plaisantes &amp; par ses bons mots, qu’Horace cependant
+                    ne <pb n="22" xml:id="p22"/>paroît pas approuver<note n="(*)" place="bottom">At
+                        vestri Proavi Plautinos &amp; numeros &amp; Laudavêre Sales, nimiùm
+                        patienter utrumque Nè dicam stultè mirati… <hi rend="sc">Hor</hi>. <hi
+                            rend="i">de Arte Poët</hi>.</note>. Mais Térence, dont le style simple,
+                    noble, élégant &amp; poli, joint à la connoissance parfaite des mœurs, &amp; à
+                    la vérité frappante des caractères, fit dire à l’envie que Scipion &amp; Lælius
+                    avoient plus de part que lui à ses Comédies&#xA0;; Térence, dis-je, en copiant
+                    Ménandre, fut le premier qui donna le modèle de la bonne Comédie, &amp; la fit
+                    goûter. Cependant, quoiqu’il possédât seul le talent de faire passer dans
+                    l’idiome Latin, toute la douceur de l’idiome Grec, il ne put pas en rendre toute
+                    la richesse &amp; toutes les <pb n="23" xml:id="p23"/>beautés. Virgile lui-même,
+                    le seul Poëte digne de traduire Homère, éprouva les mêmes difficultés. Ces
+                    difficultés proviennent, suivant Quintilien<note n="(*)" place="bottom"
+                        ><quote>«&#xA0;His illa potentiora, quod res plurimæ carent appellationibus, ut eas
+                        necesse sit <hi rend="i">transferre</hi> aut <hi rend="i"
+                            >circumire&#xA0;:</hi> etiam in iis quæ denominata sunt, summa paupertas
+                        in eadem nos frequentissimè revolvit. At illis, non verborum modò, sed
+                        linguarum etiam inter se differentium copia est&#xA0;»<bibl>. <hi rend="sc"
+                            >Quint</hi>. L.&#xA0;XII, Cap.&#xA0;10.</bibl></quote></note>, de ce que la langue
+                    Latine, peu riche &amp; peu féconde, est obligée de se servir de métaphores
+                    &amp; de circonlocutions, pour exprimer beaucoup de choses qui n’ont point de
+                    nom propre&#xA0;; &amp; dans celles, ajoute cet excellent Rhéteur, qui ont une
+                    dénomination, la disette de la langue est si grande, <pb n="24" xml:id="p24"
+                    />qu’elle ramène souvent les mêmes termes&#xA0;; au lieu que les Grecs étoient
+                    riches, non-seulement en mots, mais en idiomes tous différens les uns des
+                    autres. Tels sont les défauts qu’on reprochoit à la langue Latine&#xA0;; aussi
+                    les Ecrivains, pour les éviter, se servoient-ils de termes Grecs<note n="(*)"
+                        place="bottom"><quote>«&#xA0;Itaque tantò est sermo Græcus Latino jucundior, ut
+                        nostri Poëtæ, quoties dulce carmen esse voluerunt, illorum id nominibus
+                        exornent&#xA0;»<bibl>. <hi rend="i">Id. Ibid</hi>.</bibl></quote></note> toutes les fois qu’ils
+                    vouloient donner, à leur prose ou à leurs vers, plus de douceur &amp;
+                    d’harmonie. Ce n’étoit pas le seul avantage qu’ils en tiroient&#xA0;: ils
+                    trouvoient encore chez les Grecs des modèles en tout genre, de sorte qu’écrire
+                    &amp; parler <pb n="25" xml:id="p25"/>attiquement, c’étoit écrire &amp; parler
+                    de la manière la plus pure. <hi rend="i">Atticè dicere, esse optimè dicere</hi>.
+                    Or, si les Maîtres de l’éloquence, les Cicéron, les Hortensius, les
+                    Quintilien&#xA0;; si les plus grands Poëtes &amp; les plus beaux génies de Rome,
+                    Virgile &amp; Horace, embellissoient leurs ouvrages, en imitant les Grecs,
+                    pourquoi négligeons-nous si fort aujourd’hui ces mêmes modèles, toujours
+                    également admirables&#xA0;? Tant de chef-d’œuvres parvenus jusqu’à nous d’âge en
+                    âge, &amp; qui font depuis tant de siècles les délices &amp; l’admiration des
+                    gens de Lettres, vraiment dignes de ce nom, prouvent bien la supériorité des
+                    Grecs &amp; des Romains&#xA0;; &amp; si leurs langues sont devenues celles du
+                    monde <pb n="26" xml:id="p26"/>savant, c’est moins encore par leur beauté, leur
+                    richesse &amp; leur énergie, que par le génie, le goût, le naturel &amp; le
+                    sublime, qui brillent dans les ouvrages immortels que ces grands hommes nous ont
+                    laissés. Disons plus, ces deux langues ont été conservées de préférence à celles
+                    de tant d’autres peuples contemporains, parce que la Providence, en permettant
+                    qu’elles servissent de barrière contre l’ignorance, les avoit destinées en même
+                    temps à transmettre les oracles des divines Ecritures, &amp; à devenir l’une
+                    &amp; l’autre par ce moyen, la langue universelle de toutes les Nations
+                    éclairées par la lumière de l’Evangile<note n="(*)" place="bottom">Aucune langue
+                        des anciens peuples ne subsiste. Elles sont toutes ensevelies dans la nuit
+                        des temps. Les Juifs mêmes, après leur longue captivité à Babylone,
+                        oublièrent leur propre langue, &amp; apprirent le Chaldéen, dont le génie
+                        étoit à-peu-près le même que celui de l’Hébreu. Depuis ce temps, on ne
+                        trouve plus chez les Juifs l’Ecriture Sainte qu’en lettres Chaldaïques. Ils
+                        formèrent alors un Grec mêlé d’Hébraïsmes, qu’on appelle le <hi rend="i"
+                            >langage Hellenistique&#xA0;:</hi>la version des Septante est en ce
+                        langage. Les Samaritains seuls ont conservé le Pentateuque en anciens
+                        caractères Hébraïques. Quant à nous, les Saintes Ecritures ne nous ont été
+                        transmises qu’en Grec ou en Latin&#xA0;; les seules langues que l’Eglise ait
+                        adoptées.</note>.</p>
+                <pb n="27" xml:id="p27"/>
+                <p><hi rend="sc">Les Auteurs Grecs</hi> furent connus des Gaulois, presque en même
+                    temps que des Latins. Marseille, fondée par une Colonie de Phocéens sortis de
+                    l’Ionie, ressentit la première l’heureuse influence des sciences &amp; des arts.
+                    Son Académie, tout-à-coup <pb n="28" xml:id="p28"/>célèbre, devint bientôt la
+                    rivale de celle d’Athènes, &amp; même rivale préférée. L’alliance des Romains
+                    avec la République de Marseille, leur facilita la conquête des Gaules, qu’ils
+                    méditèrent long-temps avant que de l’entreprendre. Ainsi les Gaulois n’ont connu
+                    les ouvrages de l’Antiquité Latine, que sous la domination des Romains,
+                    accoutumés à imposer aux vaincus la nécessité d’apprendre, de parler &amp;
+                    d’écrire la langue des vainqueurs&#xA0;; car leur politique étoit d’étendre
+                    l’usage de leur langue aussi loin que leurs conquêtes&#xA0;: politique négligée
+                    par les Grecs, &amp; à laquelle la langue Latine est redevable de la gloire
+                    d’être constamment demeurée la langue vulgaire <pb n="29" xml:id="p29"/>de tous
+                    les gens de Lettres&#xA0;; tandis que la langue Grecque n’est aujourd’hui bien
+                    connue que d’un petit nombre de Savans.</p>
+                <p/>
+                <p><hi rend="sc">Quoi qu’il en soit</hi>, les Gaulois, en subissant la loi du
+                    vainqueur, y trouvèrent un très-grand avantage. Instruits déjà, ils joignirent
+                    de nouvelles connoissances à celles qu’ils avoient acquises. La langue Latine,
+                    dans laquelle ils se perfectionnèrent, jusqu’à la parler avec l’élégance &amp;
+                    la pureté la plus grande, remplaça peu-à-peu l’idiome vulgaire, &amp; leur
+                    ouvrit le chemin des honneurs &amp; des dignités. On les vit bientôt occuper les
+                    premières places de la République, qui ne se donnoient qu’au <pb n="30"
+                        xml:id="p30"/>mérite, &amp; qu’on ne peut en effet remplir dignement, que
+                    lorsqu’on fait penser &amp; parler assez bien, pour faire penser les autres.</p>
+                <p/>
+                <p><hi rend="sc">L’étude</hi> des Belles-Lettres, cultivée de tout temps dans les
+                    Gaules, étoit négligée, ou pour mieux dire, tout-à-fait ignorée des Romains. Les
+                    Gaulois leur en inspirèrent le goût. Toute la Littérature se bornoit alors à la
+                    Rhétorique &amp; à la Poëtique. Les Romains, toujours sous les armes, accoutumés
+                    à des exercices violens, ne connoissoient point ceux du paisible Lycée. Ils
+                    étoient plus Soldats que Poëtes &amp; Orateurs&#xA0;; mais ils le devinrent par
+                    la suite. Ils établirent des Ecoles publiques, où <pb n="31" xml:id="p31"/>ils
+                    se plaisoient à venir entendre les leçons des Gaulois. On peut juger de la
+                    célébrité de ces Ecoles, du mérite &amp; de l’habileté des maîtres qui y
+                    présidoient, par leurs disciples, au nombre desquels on trouve les noms
+                    illustres de Cesar &amp; de Cicéron. Temps heureux, où pour entrer dans les
+                    charges, pour parvenir aux premières dignités &amp; commander aux autres, il
+                    falloit un mérite réel &amp; des talens reconnus&#xA0;! Il étoit donc de
+                    l’intérêt des Gaulois d’étudier avec soin la langue Latine, puisque, sans cette
+                    étude, leur éloquence leur devenoit inutile&#xA0;: d’ailleurs la nécessité leur
+                    en faisoit une loi. Comment auroient-ils pu défendre dans les Tribunaux, dont
+                    les Juges étoient <pb n="32" xml:id="p32"/>Romains, leur innocence ou leurs
+                    droits attaqués&#xA0;? Indépendamment de ce motif de nécessité, ils en avoient
+                    un autre d’émulation&#xA0;; ils étoient assurés, en possédant bien cette langue,
+                    de devenir membres de la République, &amp; par conséquent de pouvoir prétendre
+                    aux charges les plus éminentes du gouvernement. Si les Gaulois n’eussent été
+                    qu’un peuple ignorant &amp; guerrier, une fois vaincus, ils eussent honteusement
+                    langui sous la domination Romaine&#xA0;; mais l’amour des sciences élevoit trop
+                    leur ame, pour ne pas leur inspirer une noble émulation, &amp; c’est par-là
+                    qu’ils se firent respecter de leurs vainqueurs. Rome, toute guerrière encore,
+                    &amp; ne connoissant d’autre <pb n="33" xml:id="p33"/>gloire que celle des
+                    armes, apprit ainsi des Gaulois, qu’il étoit une autre gloire plus digne du sage
+                    &amp; plus utile, celle des Lettres. Telle est la force de l’exemple, le génie
+                    le saisit en maître. Les Romains profitèrent des instructions des Gaulois&#xA0;:
+                    les Gaulois à leur tour perfectionnèrent leurs connoissances dans le commerce
+                    établi entre eux &amp; les Romains&#xA0;: l’ardeur pour les Lettres étoit
+                    générale, &amp; Rome &amp; les Gaules pouvoient à l’envi se disputer l’avantage
+                    de produire &amp; de posséder dans leur sein le plus grand nombre d’hommes
+                    illustres.</p>
+                <p/>
+                <p><hi rend="sc">Ces beaux jours</hi> s’éclipsèrent à la chûte de l’Empire Romain.
+                    Les <pb n="34" xml:id="p34"/>Gaules devinrent la proie d’hommes sauvages &amp;
+                    féroces, sortis des antres du Nord &amp; des bois de la Germanie. Elles se
+                    trouvèrent infestées de ces Barbares, qui, tour-à-tour, leur imposoient des
+                    fers&#xA0;; &amp; les Francs furent les derniers qui s’en emparèrent pour
+                    toujours. Peu sensibles aux charmes des Lettres, ces nouveaux Maîtres, après
+                    avoir exterminé les hommes de leur temps, mutilèrent encore les générations à
+                    venir, en brûlant les livres &amp; détruisant les monumens qui auroient pu faire
+                    revivre le goût &amp; le génie. Les Gaulois, accablés sous le joug, ne
+                    s’occupèrent plus qu’à le rendre moins dur, &amp; à se procurer la subsistance.
+                    Ainsi commença la décadence des <pb n="35" xml:id="p35"/>Lettres&#xA0;: l’esprit
+                    de la nation Gauloise s’abâtardit insensiblement, &amp; des siècles ont à peine
+                    suffi pour réparer une perte si fatale aux Arts &amp; aux Sciences.</p>
+                <p/>
+                <p><hi rend="sc">Malgré</hi> les ténèbres de l’ignorance qui paroissoient se
+                    répandre de plus en plus, malgré cette fureur grossière &amp; barbare qui
+                    sembloit devoir tout détruire, la Providence veilloit à la conservation des
+                    précieux ouvrages de l’Antiquité, en inspirant à de pieux Solitaires le soin
+                    d’en copier les originaux. Les sublimes productions des plus grands génies
+                    d’Athènes &amp; de Rome, trouvèrent un asile assuré dans les retraites de la
+                    Religion&#xA0;; &amp; c’est de-là qu’elles ont <pb n="36" xml:id="p36"/>passé de
+                    siècle en siècle jusqu’à nous. L’Eglise qui avoit adopté les langues Grecque
+                    &amp; Latine, les parla toujours&#xA0;; &amp; sans elle, l’ignorance eût
+                    prévalu. Mais il falloit des hommes retirés du monde, consacrés à la retraite
+                    par choix, à l’étude par goût, au travail par devoir, animés du même esprit
+                    &amp; du même zèle, vivant en commun sous un même régime, qui voulussent
+                    employer les loisirs de leur solitude à la fastidieuse occupation de transcrire
+                    sans cesse. C’est pour le bonheur des sciences &amp; des lettres, que ces Corps
+                    ont subsisté&#xA0;: jamais des Particuliers, dissipés par les affaires
+                    domestiques, détournés par celles du dehors, n’auroient pu se livrer à un
+                    travail si long &amp; si <pb n="37" xml:id="p37"/>pénible&#xA0;; &amp; c’est un
+                    des grands avantages qu’on ait tiré de ces laborieux &amp; savans Solitaires,
+                    qui, du fond de leur retraite, éclairoient le monde qu’ils avoient quitté.</p>
+                <p/>
+                <p><hi rend="sc">Les Moines</hi> possédoient &amp; conservoient tous ces
+                    chef-d’œuvres de l’esprit humain, &amp; en jouissoient autant que leur état
+                    pouvoit le permettre, tandis que les Grands &amp; toute la Nation croupissoient
+                    dans la plus honteuse ignorance. Un jargon barbare succéda à la langue divine
+                    des Homère &amp; des Virgile, des Démosthène &amp; des Cicéron. Comme celle-ci
+                    ne conduisoit plus aux dignités &amp; aux récompenses, elle fut entièrement
+                    oubliée. Alors plus <pb n="38" xml:id="p38"/>d’émulation, plus d’empressement,
+                    plus d’attrait pour les sciences. Chaque jour hâtoit leur ruine&#xA0;; &amp;,
+                    s’il se trouvoit encore des hommes qui voulussent se distinguer par leur savoir,
+                    entraînés par le mauvais goût, incapables de consulter les originaux, ils
+                    abandonnoient ces guides sûrs, pour ne suivre que des abréviateurs infidèles.
+                    Cette négligence, ou plutôt ce mépris pour les bons modèles, porta la corruption
+                    du goût à un tel excès, qu’il sembloit que les ouvrages de l’Antiquité n’eussent
+                    jamais existé, ou qu’ils dussent être pour toujours ensevelis dans la poussière
+                    des Cloîtres.</p>
+                <p/>
+                <p><hi rend="sc">On n’eut pas</hi> seulement à <pb n="39" xml:id="p39"/>alors la
+                    perte des Arts &amp; des Lettres, on eut à gémir encore sur l’oubli des Loix
+                    &amp; sur la ruine entière des mœurs&#xA0;; suites inévitables de l’ignorance,
+                    dont les ravages sont d’autant plus funestes, que, par-tout où elle règne, il
+                    n’existe point de vertu, &amp; qu’au contraire le vice y domine dans toute sa
+                    force, sans frein &amp; sans remords.</p>
+                <p/>
+                <p><hi rend="sc">Quels que</hi> soient les avantages de l’homme sur tous les autres
+                    Êtres de la nature, il a besoin que l’instruction développe les facultés de son
+                    ame, féconde son esprit, touche son cœur, fixe ses idées morales &amp;
+                    physiques, lui démontre la nécessité d’obéir à la raison, lui apprenne à <pb
+                        n="40" xml:id="p40"/>connoître la justice, à se la rendre à lui même &amp;
+                    aux autres, en domptant ses passions &amp; en évitant les actions nuisibles à la
+                    société&#xA0;: de-là naîtra l’amour de la sagesse, fondé sur le sentiment
+                    lumineux du vrai, du juste&#xA0;; sentiment qui seul peut lui servir de guide
+                    pour marcher constamment dans le sentier de la vertu, &amp; le détourner de la
+                    voie du vice. S’il n’est pas éclairé, de combien d’illusions &amp; d’erreurs son
+                    esprit brut ne sera-t-il pas offusqué&#xA0;? Quels devoirs remplira-t-il, s’il
+                    les ignore&#xA0;? Et il les ignorera, s’il n’est conduit que par un instinct
+                    aveugle. Pour qui aura-t-il de l’amour &amp; de la reconnoissance, de
+                    l’obéissance &amp; du respect, si son cœur vide de sentiment <pb n="41"
+                        xml:id="p41"/>n’en connoît pas la nécessité &amp; n’en sait pas même
+                    apprécier la valeur&#xA0;? Borné par sa nature à ses seuls appétits, semblable
+                    aux animaux par ses besoins, qu’aura-t-il au-dessus d’eux, s’il n’a pas même la
+                    honte de leur ressembler&#xA0;? C’est-là pourtant l’état auquel voudroit nous
+                    réduire un de ces Philosophes nouveaux, qui emploie toute son éloquence à
+                    soutenir les plus étonnans paradoxes. Quoi&#xA0;! parce que quelques hommes, se
+                    disant sages, &amp; qui ne sont qu’orgueilleux &amp; hardis, abusent de leur
+                    talent pour corrompre les esprits, &amp; déraciner ces principes si nécessaires
+                    à notre bonheur&#xA0;: qu’il est des vertus à pratiquer &amp; des vices à
+                    fuir&#xA0;! Quoi&#xA0;! parce qu’ils osent combattre la vérité <pb n="42"
+                        xml:id="p42"/>par des argumens puisés dans les sources impures du mensonge,
+                    &amp; qu’ennemis nés de la société ils se plaisent à jeter le trouble dans les
+                    ames foibles, pour les abandonner ensuite au tourment affreux du doute ou du
+                    désespoir&#xA0;! Enfin parce qu’eux-mêmes, punis d’avance par les reproches
+                    secrets de leur propre conscience, cachent en faux braves l’inquiétude qui les
+                    dévore, &amp; fiers de leurs vaines lumières, ne cherchent à les répandre que
+                    pour éblouir &amp; pour égarer les victimes qu’ils surprennent&#xA0;; semblables
+                    à ces feux trompeurs, dont la funeste clarté ne sert pendant la nuit, qu’à
+                    augmenter la terreur de celui qui voyage, &amp; à redoubler l’horreur de
+                    l’obscurité&#xA0;; il faudra <pb n="43" xml:id="p43"/>bannir de l’univers toute
+                    vertu &amp; toute vraie science, rompre tous les liens de la société, vivre
+                    esclaves de l’ignorance &amp; de nos passions, abjurer en un mot pour toujours
+                    les droits sacrés de l’humanité&#xA0;! Non, si la science est une arme fatale,
+                    ce n’est qu’entre leurs mains. Elle ne nous est donnée que pour nous conduire,
+                    &amp; ne leur a servi que pour les égarer. Le goût de la vérité, l’amour de la
+                    sagesse, voilà la vraie science de l’homme&#xA0;; c’est d’elle que dépend notre
+                    bonheur, la paix du cœur la suit, &amp; l’ame du sage qu’elle gouverne, libre
+                    &amp; calme au milieu de la prison qu’elle habite, jouit déjà de l’immortalité
+                    qui l’attend.</p>
+                <pb n="44" xml:id="p44"/>
+                <p>C’<hi rend="sc">est</hi> au sein de l’ignorance, que naquirent les désordres qui
+                    désolèrent toutes les conditions. Elle enfanta les premières erreurs qui
+                    affligèrent l’Eglise, &amp; tout concourut au progrès du mal. L’éducation, si
+                    celle qu’on donnoit alors mérite d’être honorée de ce nom, consistoit à
+                    apprendre à lire, encore n’étoient-ce que ceux qu’on destinoit à l’Etat
+                    Ecclésiastique, qui la recevoient. On avoit entièrement oublié l’usage de la
+                    langue Latine, &amp; l’on ne parloit, on n’écrivoit plus qu’en langue Romance,
+                    ou rustique&#xA0;; c’est-à-dire, dans un idiome barbare, mêlé d’un Latin
+                    corrompu. Aussi quels écrits vit-on éclore&#xA0;? Comme le goût tient <pb n="45"
+                        xml:id="p45"/>à la vérité, &amp; qu’il étoit perdu depuis long-temps, le
+                    faux prit la place du vrai. L’Histoire travestie perdit son exactitude &amp; sa
+                    sévérité&#xA0;; les Romans, digne nourriture des esprits vides &amp;
+                    inappliqués, pleins d’un merveilleux absurde, firent les délices d’une imbécille
+                    oisiveté. Le succès de ce nouveau genre d’écrits, dont la durée fut longue, n’a
+                    rien qui doive étonner. Quoique l’homme soit né pour connoître &amp; pour aimer
+                    la vérité&#xA0;; l’erreur, l’illusion &amp; le mensonge assiégent son berceau.
+                    Comment les en écarter, si ce n’est par l’instruction&#xA0;? Quiconque est sans
+                    principes, est nécessairement sans goût, sans sagesse &amp; sans vertu. Séduit
+                    par ses sens, il s’abandonne à la <pb n="46" xml:id="p46"/>pente la plus facile,
+                    &amp; c’est celle du vice. Envain portons-nous en nous-mêmes le germe des plus
+                    belles qualités, il faut le féconder&#xA0;; la raison veut être éclairée, &amp;
+                    si le nom sacré de la vérité n’a jamais frappé notre oreille &amp; pénétré
+                    jusqu’à notre ame, tout ce qui nous environne a droit de nous séduire &amp; de
+                    nous tromper. L’éducation est notre sauve-garde &amp; peut seule nous garantir
+                    de ce danger&#xA0;: or elle manquoit dans ces temps barbares&#xA0;; il n’est
+                    donc pas surprenant que les fables &amp; les contes les plus absurdes aient été
+                    préférés à la vérité, l’ignorance y conduisoit, le supposoit, l’exigeoit&#xA0;;
+                    au lieu que chez les Grecs &amp; les Romains, les Fables, ou plutôt les
+                    Apologues <pb n="47" xml:id="p47"/>moraux, étoient le fruit d’une imagination
+                    brillante, de la politesse &amp; de l’érudition, comme l’ont judicieusement
+                    remarqué les Auteurs de l’Histoire Littéraire de la France<note n="(*)"
+                        place="bottom">Hist. Litt. de la France, Tom. VI, p.&#xA0;12.</note>.</p>
+                <p/>
+                <p><hi rend="sc">Ce n’est pas</hi> néanmoins que quelques Princes n’aient tenté de
+                    favoriser les Lettres&#xA0;; mais les obstacles qu’ils avoient à vaincre, se
+                    renouvelant sans cesse, rendirent leurs efforts inutiles. L’ignorance avoit jeté
+                    de trop profondes racines, pour pouvoir facilement arrêter ses progrès.</p>
+                <p/>
+                <p><hi rend="sc">La Poésie</hi> est peut-être le seul Art auquel nous soyons <pb
+                        n="48" xml:id="p48"/>redevables de la conservation des Lettres. On ne la
+                    cultive pas sans un peu de goût &amp; de génie. Quelque ignorant ou malheureux
+                    que soit un peuple, il chante même ses malheurs&#xA0;; &amp; c’est à l’aide de
+                    la Poësie qu’il charme ses ennuis, calme ses inquiétudes, oublie sa misère,
+                    célèbre ses plaisirs, &amp; rend hommage à la Divinité. Le Poëte alors choisit
+                    un langage moins vulgaire pour s’exprimer, &amp; ce langage imparfait &amp;
+                    grossier s’épure &amp; s’adoucit insensiblement, sur-tout quand c’est un homme
+                    de génie qui l’emploie. Si d’un côté les Romans nuisirent à l’Histoire, de
+                    l’autre ils furent favorables à la Poësie, étant presque tous écrits en vers. Ce
+                    goût pour la poësie est naturel aux François&#xA0;: <pb n="49" xml:id="p49"/>on
+                    a même remarqué que le moindre évènement, sérieux ou comique, étoit toujours le
+                    sujet d’une Chanson&#xA0;; &amp; c’est de-là qu’est né le Vaudeville.</p>
+                <p/>
+                <p><hi rend="sc">Les Tournois</hi><note n="(*)" place="bottom">Voy. Les excellens
+                            <hi rend="i">Mémoires</hi> de M. de la Curne de Sainte-Palaye <hi
+                            rend="i">sur l’ancienne Chevalerie</hi>.</note>, cette espèce de jeux
+                    militaires, presqu’aussi meurtriers que la guerre, qui tiroient leur origine de
+                    l’ancienne Chevalerie, contribuèrent également à faire fleurir le règne de la
+                    Poësie. Le sang qu’on y répandoit en éloigna d’abord les femmes&#xA0;: mais
+                    lorsque ce sexe, sensible à la gloire autant qu’à la galanterie, fait pour
+                    n’éprouver &amp; n’inspirer que de douces émotions, <pb n="50" xml:id="p50"/>eût
+                    surmonté sa répugnance, il accourut en foule à ces spectacles&#xA0;; l’honneur
+                    &amp; l’amour devinrent l’ame de ces combats. Les Chevaliers, armés par les
+                    Dames, parés de leurs dons, animés par leur présence, faisoient des prodiges de
+                    valeur &amp; d’adresse. On leur disoit avant la joûte&#xA0;:</p>
+                <quote><l>Servants d’amour, regardez doucement</l>
+                    <l>Aux échaffauts, Anges de Paradis,</l>
+                    <l>Lors joûterez fort &amp; joyeusement,</l>
+                    <l>Et vous serez honorés &amp; chéris.</l></quote>
+                <p>Le Tournoi fini, ils se présentoient, couverts d’une glorieuse poussière, pour
+                    recevoir de la Beauté, souveraine de ces jeux solennels, le prix de leur
+                    victoire. Leurs hauts faits d’armes devenoient bientôt le sujet des
+                    conversations publiques &amp; <pb n="51" xml:id="p51"/>particulières, &amp;
+                    l’objet des poëmes &amp; des chansons que chantoient les Dames &amp; les
+                    Demoiselles, accompagnées du son des instrumens. Ces jeux, devenus les
+                    spectacles les plus intéressans de la nation, se célébroient avec autant
+                    d’appareil, que de magnificence. Ils étoient annoncés par des Héraults&#xA0;:
+                    les Chevaliers s’y préparoient long-temps d’avance, &amp; il falloit être sans
+                    reproche pour y être admis. Le concours de la noblesse de tous les pays du
+                    monde, &amp; de la plus belle jeunesse, composoit la plus nombreuse &amp; la
+                    plus brillante assemblée. La beauté des Dames, l’éclat &amp; la richesse de
+                    leurs atours &amp; de leurs habillemens, (dont elles se dépouilloient
+                    quelquefois pour en revêtir <pb n="52" xml:id="p52"/>les Chevaliers), la valeur
+                    &amp; le nom des Héros, tout devoit animer la Poësie, &amp; l’inviter à joindre
+                    ses chants aux acclamations publiques. Mais si la Poësie y trouva tant
+                    d’avantages, les mœurs y gagnèrent aussi (du moins tant qu’on observa
+                    rigoureusement les loix de la Chevalerie) par l’extrême attention qu’apporta la
+                    jeune Noblesse, à ne rien faire qui pût ternir sa gloire, &amp; lui fermer
+                    l’entrée de la barrière.</p>
+                <p/>
+                <p><hi rend="sc">Cet attrait</hi> pour la Poësie réveilla l’indolence des
+                    Provençaux, plongés, comme tous les autres peuples de la Gaule, dans la plus
+                    profonde ignorance. Les <hi rend="i">Trouvers</hi> ou <hi rend="i"
+                        >Troubadours</hi> (les premiers Poëtes que <pb n="53" xml:id="p53"/>la
+                    Provence ait produits) après avoir composé leurs Poëmes, alloient de ville en
+                    ville, où ils étoient reçus chez les plus grands Seigneurs, les réciter ou les
+                    chanter, accompagnés de leurs <hi rend="i">Ménestrels</hi> ou <hi rend="i"
+                        >Jongleurs</hi>. Cette vie errante, qui ressembloit assez à celle des
+                    anciens Poëtes Grecs, n’avoit rien de deshonorant&#xA0;; mais elle prouve que de
+                    tout temps, les favoris des Muses n’ont jamais été ceux de la fortune. Par-tout
+                    où passoient les Troubadours, ils étoient défrayés, &amp; on les payoit en <hi
+                        rend="i">armes, habits ou chevaux</hi><note n="(*)" place="bottom">Voy.
+                        Œuvres de Fontenelle, T.&#xA0;III, p.&#xA0;6.</note>, <hi rend="i">&amp;
+                        même en argent</hi>. Les personnes de la plus haute naissance, les Princes
+                    mêmes, ne dédaignoient pas d’embrasser cette profession, qui, <pb n="54"
+                        xml:id="p54"/>ayant commencé vers le milieu du onzième siècle, prolongea sa
+                    durée jusques vers le milieu du treizième. L’amour &amp; la galanterie étoient
+                    presque toujours la base de leurs Contes ou de leurs Chansons, &amp; souvent les
+                    faveurs des Dames étoient la récompense de leurs chants. Quelle imagination ne
+                    se seroit pas enflammée à ce prix&#xA0;? Mais aussi ce n’étoit qu’aux bons
+                    Poëtes qu’il étoit permis d’y prétendre. Dans ces temps de loyauté, l’esprit
+                    avoit autant d’empire sur le sexe, que les richesses, la bonne mine &amp;
+                    l’éclat d’un grand nom, en ont aujourd’hui. Il faut l’avouer, si l’envie de
+                    plaire aux femmes, donne presque toujours atteinte à l’innocence des mœurs, elle
+                    inspire <pb n="55" xml:id="p55"/>du moins la politesse &amp; l’urbanité. La
+                    différence de ces siècles au nôtre, c’est que la fidélité, la franchise &amp; la
+                    discrétion étoient le partage des amans, &amp; que depuis, ces vertus ont
+                    disparu, &amp; même cédé la place aux vices opposés.</p>
+                <p/>
+                <p><hi rend="sc">L’exemple</hi> des Troubadours s’étendit jusques dans les Provinces
+                    les plus éloignées. Ils ont la gloire d’avoir inspiré les Muses d’Italie&#xA0;:
+                    ils apprirent à Pétrarque à chanter la belle Laure, &amp; nous leur sommes
+                    redevables de la régularité de la rime inconnue avant eux. Mais quand on jette
+                    les yeux sur leurs productions, on ne sauroit s’empêcher d’y remarquer
+                    l’empreinte profonde de <pb n="56" xml:id="p56"/>l’ignorance. On est dévoré
+                    d’ennui, avant que de trouver dans ces sortes de Poësies, quelques endroits
+                    passables. On y rencontre pourtant quelquefois de ces heureux élans de l’ame, de
+                    ces expressions naïves du sentiment, que l’esprit tenteroit en vain
+                    d’imiter&#xA0;: comment ne leur seroit-il pas échappé de ces expressions
+                    heureuses, ils avoient la nature &amp; l’amour pour maîtres&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">On se lasse</hi> à la fin de suivre les mêmes traces. Les
+                    Troubadours, d’abord unis entre-eux, se partagèrent. Les uns continuèrent à
+                    chanter leurs vers &amp; à les accompagner de la harpe ou de la vielle&#xA0;;
+                    les autres se mirent à composer des espèces de <pb n="57" xml:id="p57"/>scènes
+                    en Dialogues, qu’ils jouoient eux-mêmes. Ces Dialogues étoient, ou des satyres,
+                    dans lesquelles ils reprenoient avec la plus grande liberté les vices du
+                    temps&#xA0;; (il est aisé de croire qu’alors la profession de Troubadour ne
+                    servoit plus à enrichir&#xA0;;) ou des récits de quelques hauts faits, &amp; des
+                    louanges adressées aux Dames &amp; aux Seigneurs devant lesquels ils étoient
+                    déclamés. De-là on les nomma <hi rend="i">Comiques</hi> ou <hi rend="i"
+                        >Comédiens</hi>&#xA0;; &amp;, à proprement parler, telle est la naissance de
+                    la Tragédie &amp; de la Comédie parmi nous. Enfin le règne des Troubadours
+                    passa. Ils s’avilirent de façon, &amp; se livrèrent à une telle licence, que les
+                    derniers qui portèrent ce nom, <pb n="58" xml:id="p58"/>craints &amp; méprisés,
+                    furent chassés honteusement.</p>
+                <p/>
+                <p><hi rend="sc">Les siècles</hi> s’écouloient, &amp; l’ignorance régnoit toujours.
+                    Les Troubadours, les Jongleurs, les Mimes &amp; Pantomimes, ainsi que les
+                    Farceurs, ayant été proscrits, on leur substitua un nouveau genre de spectacle,
+                    digne de la grossière simplicité de ces temps-là. Les traces de la savante
+                    Antiquité étoient tellement effacées, qu’on n’en avoit pas même conservé la plus
+                    légère idée. Quels sujets pouvoit-on choisir, pour amuser l’oisiveté des Grands,
+                    &amp; délasser le Peuple de ses travaux&#xA0;? Au défaut des sources profanes,
+                    la Religion servit les Poëtes. Leur choix étoit <pb n="59" xml:id="p59"
+                    />d’autant plus naturel, que l’Eglise condamnoit les spectacles, &amp; qu’elle
+                    avoit, long-temps auparavant, blâmé, prohibé les Tournois, ainsi que les Farces,
+                    tant à cause du sang humain qu’on répandoit dans les uns, que de la trop grande
+                    licence qui régnoit dans les autres. On joua donc les Mystères, les Actes des
+                    Martyrs &amp; des Saints. La dévotion inspiroit les Auteurs, animoit les
+                    Acteurs. Ces pièces étoient partagées en plusieurs journées, &amp; les
+                    Représentans qui y faisoient les personnages, étoient souvent des gens
+                    distingués, &amp; même des Ecclésiastiques<note n="(*)" place="bottom"
+                        ><quote>«&#xA0;L’an 1437, lorsque Conrad Bayer, Evêque de Metz, fit exécuter le
+                        Mystère de la Passion en la Plaine de Veximiel près cette Ville, fut Dieu un
+                        Sire, appelé Seigneur Nicolle Don Neufchatel en Touraine, lequel étoit Curé
+                        de Saint Victour de Metz, lequel fut presque mort en la croix, s’il n’avoit
+                        été secouru, &amp; convint que un autre Prêtre fût mis en la croix pour
+                        parfaire le personnage du crucifiement, &amp; le lendemain ledit Curé de
+                        Saint Victour parfit la résurrection, &amp; fit très-hautement son
+                        personnage…. Un autre Prêtre, qui s’appeloit Messire Jean de Nicey, qui
+                        étoit Chapelain du Métrange, fut Judas, lequel fut presque mort en pendant,
+                        car le cuer lui faillit, &amp; fut bien hastivement despendu &amp; porté en
+                        voye&#xA0;». <hi rend="i">Voy</hi>. Histoire du Théâtre François,
+                        Tom.&#xA0;II, pag.&#xA0;285 &amp; 286.</quote></note>.</p>
+                <pb n="60" xml:id="p60"/>
+                <p><hi rend="sc">Nous jugeons</hi> aujourd’hui, peut-être avec un peu trop de
+                    sévérité &amp; de dédain, ces sortes de spectacles&#xA0;: le mélange indécent
+                    des plus grossières bouffonneries avec les choses les plus sacrées, a sans doute
+                    de quoi révolter. Mais si les Auteurs n’avoient <pb n="61" xml:id="p61"/>d’autre
+                    dessein que de toucher &amp; d’attendrir, si les spectateurs étoient en effet
+                    touchés, attendris jusqu’aux larmes, si quelques-uns même d’entr’eux revenoient
+                    de ce spectacle avec la résolution de changer leurs mœurs, pouvons-nous, sans
+                    injustice, les accuser les uns &amp; les autres de profanation &amp;
+                    d’impiété&#xA0;? En quoi sont-ils donc blâmables&#xA0;? Abstraction faite des
+                    sujets qu’ils choisissoient, &amp; qui doivent être l’objet, plutôt de nos
+                    méditations &amp; de notre respect, que de notre amusement, ils saisissoient le
+                    vrai but de la Tragédie, qui est de toucher, d’émouvoir &amp; d’intéresser. Ce
+                    seroit avec bien plus de raison qu’ils nous blâmeroient, s’ils pouvoient revenir
+                    aujourd’hui &amp; assister <pb n="62" xml:id="p62"/>à nos pièces de
+                    théâtre&#xA0;: avec quel étonnement, quelle indignation même, entendroient-ils
+                    les applaudissemens donnés aux tirades impies, scandaleuses &amp; déplacées de
+                    nos Tragédies&#xA0;! Ils frémiroient à ces maximes hardies qui attaquent
+                    également &amp; le Trône &amp; l’Autel. Quel jugement porteroient-ils des
+                    Auteurs &amp; des spectateurs&#xA0;? Nos spectacles seroient donc, avec plus de
+                    fondement pour eux, un sujet de scandale, que leurs jeux ne le doivent être pour
+                    nous. Au reste, en ne considérant les choses que du côté de l’Art, la naissance
+                    de la Tragédie chez nos Ayeux, fut la même que chez les Grecs. Les uns &amp; les
+                    autres ont puisé leurs premiers sujets de Tragédies dans les sources <pb n="63"
+                        xml:id="p63"/>sacrées de la Religion, avec cette différence, que les
+                    Mystères respectables de la nôtre ne laissent à l’imagination aucune liberté,
+                    tandis que les Grecs pouvoient à leur gré parler de leurs Divinités, embellir
+                    leurs fables, &amp; donner l’essor à leur génie. Tel a toujours été le caractère
+                    distinctif du mensonge, il est susceptible de toutes les altérations possibles,
+                    au lieu que la vérité est inaltérable. Aujourd’hui que l’art est perfectionné,
+                    nous avons le même avantage que les Grecs. La Fable &amp; l’Histoire nous
+                    fournissent des sujets, &amp; l’Art seroit encore dans l’enfance, sans les
+                    ressources qu’elles nous ont procurées.</p>
+                <p/>
+                <p><hi rend="sc">Tout informes</hi>, tout grossiers <pb n="64" xml:id="p64"
+                    />qu’étoient les spectacles dans ces temps barbares, on sait avec quel
+                    empressement les Grands &amp; le Peuple s’y rendoient en foule. Doit-on en être
+                    étonné&#xA0;? C’étoit le seul délassement qu’ils eussent, ils ne pouvoient en
+                    avoir d’autres. La simplicité des mœurs, une dévotion peu éclairée, les objets
+                    de notre vénération mis en action sous les yeux, tout concouroit à porter dans
+                    l’ame la plus vive impression &amp; le plus grand intérêt. Aujourd’hui la
+                    lecture de ces sortes de pièces n’est pas supportable, non pas tant à cause de
+                    la rudesse de l’ancien langage&#xA0;; mais parce qu’on n’y trouve ni sel, ni
+                    génie, ni beautés, &amp; que le mauvais goût &amp; la grossiéreté des images,
+                    sont, de tous les <pb n="65" xml:id="p65"/>défauts, ceux qui rebutent le
+                    plus.</p>
+                <p/>
+                <p><hi rend="sc">Quand</hi> on réfléchit sur la nature de l’esprit humain, qu’il est
+                    aisé d’humilier son orgueil, &amp; de le réduire à ses justes dimensions&#xA0;!
+                    Privé de toute instruction, il est nul. L’éclair qui l’annonce, les idées qu’il
+                    conçoit, les pensées qui l’agitent ou qu’il produit, le jugement qui le
+                    conseille, le goût qui le guide, l’imagination qui l’embellit en agrandissant
+                    tous les objets intellectuels ou sensibles, la mémoire, ce miroir utile &amp;
+                    officieux, qui les lui rappelle à son gré&#xA0;; toutes ces admirables qualités
+                    ne sont-elles pas relatives au plus ou moins d’instruction, &amp; par conséquent
+                    bornées au produit de <pb n="66" xml:id="p66"/>l’éducation&#xA0;? Que sont-elles
+                    donc par leur nature, &amp; que deviennent-elles en effet, quand elles sont
+                    enveloppées des voiles épais de l’ignorance&#xA0;? Fiers de la vaine parure
+                    d’une fausse Philosophie, nous regardons avec mépris ces siècles peu éclairés.
+                    Mais n’avons-nous pas à craindre, malgré de si grandes lumières acquises depuis,
+                    d’éprouver un jour le même sort&#xA0;? Ces spectacles, qui nous paroissent avec
+                    raison si ridicules &amp; si contraires au goût, n’étoient pas tels aux yeux de
+                    nos Ancêtres. Aussi les <hi rend="i">Mystères</hi> furent-ils représentés
+                    pendant plus de cent cinquante ans de suite. Les <hi rend="i">Moralités</hi>
+                    &amp; les <hi rend="i">Farces</hi> ou <hi rend="i">Sotties</hi> eurent-leur
+                    tour. La moralité n’étoit autre chose qu’un Dialogue, où les <pb n="67"
+                        xml:id="p67"/>Interlocuteurs représentoient, tantôt des personnages
+                    illustres &amp; vertueux, vrais ou feints, dont les actions ne pouvoient
+                    qu’inspirer les bonnes mœurs&#xA0;; tantôt c’étoit une simple Allégorie, servant
+                    également à l’instruction des spectateurs. La <hi rend="i">Farce</hi> ou <hi
+                        rend="i">Sottie</hi> étoit livrée au contraire à la licence la plus
+                    dissolue&#xA0;; les actions &amp; les paroles les plus obscènes y étoient
+                    admises, exemple frappant du rapport qu’ont entr’eux les mauvaises mœurs &amp;
+                    le mauvais goût&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">On ne peut</hi> retenir sa surprise, en parcourant cet intervalle
+                    immense de plus de douze siècles, de ce qu’ils n’offrent pas, du moins de temps
+                    en temps, quelque rayon de lumière. Si <pb n="68" xml:id="p68"/>par hasard on en
+                    apperçoit, il est si foible, qu’il ne peut percer la profonde obscurité qui les
+                    couvre. Le jour qui devoit la dissiper étoit loin encore, lorsque l’Art de
+                    l’Imprimerie fut inventé.</p>
+                <p/>
+                <p><hi rend="sc">Cet Art</hi> par excellence, qui peut seul, d’âge en âge,
+                    transmettre tous les autres Arts à la postérité la plus reculée, &amp; qui,
+                    dépositaire des pensées, des opinions &amp; des sentimens divers des hommes,
+                    fixe invariablement l’esprit de tous les siècles, ressuscita les Lettres, en
+                    tirant de l’oubli, &amp; répandant de tous côtés les restes précieux de
+                    l’Antiquité. C’est par lui qu’ils reçurent une nouvelle vie&#xA0;: ses progrès
+                    réparèrent avec <pb n="69" xml:id="p69"/>rapidité les pertes des siècles
+                    précédens, &amp; les bons Auteurs, multipliés par l’impression, trouvèrent
+                    bientôt une foule de lecteurs, en état de les entendre &amp; de les lire avec
+                    fruit. Chaque moment qui s’écouloit depuis la découverte de l’Imprimerie, hâtoit
+                    celui qui devoit opérer la révolution favorable aux Arts &amp; aux
+                    Sciences&#xA0;; mais il étoit réservé à <hi rend="sc">François</hi>&#xA0;I de
+                    les faire renaître. Il fut le Dieu tutélaire des Savans, qu’il aima, qu’il
+                    encouragea, &amp; qu’il protégea toujours. Après plus de douze cens ans écoulés
+                    &amp; perdus dans l’ignorance, on ouvrit enfin les yeux, &amp; l’on sortit de la
+                    plus honteuse léthargie. Cette aurore du bon goût, qui brilla d’abord sur les
+                    heureuses <pb n="70" xml:id="p70"/>contrées de l’Italie, où régnoient les
+                    Médicis, répandit bientôt sa lumière sur toute l’Europe&#xA0;; &amp;, pour
+                    parler le langage du Président Hénault, ce fut deux fois le sort de la Grèce
+                    d’instruire &amp; d’embellir l’Occident.</p>
+                <p/>
+                <p><hi rend="sc">On reprit</hi> donc l’étude des Anciens, l’amour des Sciences se
+                    ralluma, tous les genres de Littérature furent également cultivés. Le génie
+                    sentit ses forces &amp; les essaya&#xA0;; l’esprit, auparavant aride &amp;
+                    paresseux, tenta d’heureux efforts&#xA0;; &amp; l’imagination&#xA0;; plus sage
+                    &amp; mieux réglée, n’en devint que plus brillante &amp; plus solide. Un
+                    changement si subit fut l’ouvrage de la protection du Prince&#xA0;; mais la
+                    promptitude inexprimable avec laquelle il <pb n="71" xml:id="p71"/>s’opéra, fut
+                    la suite de l’ardeur que l’on mit à étudier les Anciens. On se les rendit
+                    bientôt assez familiers, pour oser les faire passer, soit Grecs, soit Latins,
+                    dans notre langue, toute barbare qu’elle étoit encore. Quelque imparfaites que
+                    fussent ces Traductions, elles donnoient du moins une idée de l’Antiquité, &amp;
+                    inspiroient le desir de connoître les originaux &amp; de les consulter. Les
+                    Grands alors, loin de rougir d’ajouter à leurs titres celui de Savans, étoient
+                    de tous les gens de Lettres les plus instruits&#xA0;; ils le seroient encore
+                    aujourd’hui, s’ils vouloient se persuader, que l’éclat d’un beau nom ne suffit
+                    pas pour acquérir une véritable considération&#xA0;; que destinés par leur
+                    naissance à <pb n="72" xml:id="p72"/>former la Cour des Rois, ils sont faits
+                    aussi pour entrer dans leurs Conseils&#xA0;; que là, autant leurs talens &amp;
+                    leur mérite sont utiles au Prince, à l’Etat, aux Peuples, autant leur ignorance
+                    est préjudiciable au bien public&#xA0;; enfin, que plus ils sont élevés
+                    au-dessus des autres hommes, plus ils doivent s’efforcer de mériter de l’être,
+                    &amp; faire cesser ce murmure jaloux, qui réclame sans cesse les droits de
+                    l’égalité, &amp; ceux du mérite négligé, contre les caprices d’une aveugle
+                    fortune.</p>
+                <p/>
+                <p><hi rend="sc">A mesure</hi> que la carrière des sciences s’étendoit, la nature se
+                    hâtoit de former des hommes dignes de la parcourir&#xA0;: l’éloquence devenoit
+                    plus <pb n="73" xml:id="p73"/>mâle &amp; plus pure&#xA0;; une critique plus
+                    éclairée, discutant les faits, rétablissoit l’Histoire dans son ancienne
+                    splendeur&#xA0;; la Poësie s’embellissoit des larcins qu’elle faisoit aux Muses
+                    Grecques &amp; Latines&#xA0;; &amp; les Arts commençoient à briller sous une
+                    forme plus élégante &amp; plus belle.</p>
+                <p/>
+                <p><hi rend="sc">Cependant</hi> la langue Françoise ne triomphoit point encore de sa
+                    rudesse &amp; de sa grossiéreté. Dénuée qu’elle étoit de graces, d’élégance
+                    &amp; de précision, les Ecrivains n’osoient s’en servir, sur-tout pour les
+                    ouvrages dont les sujets nobles, utiles &amp; intéressans, demandoient à être
+                    présentés avec grandeur, &amp; traités avec soin. Si elle se fût perfectionnée
+                        <pb n="74" xml:id="p74"/>tout-à-coup, peut-être alors auroit-elle nui à
+                    l’étude des langues d’Athènes &amp; de Rome. Ses défauts au contraire engagèrent
+                    les Savans à s’appliquer avec encore plus d’ardeur à cette étude importante.
+                    Aussi les ouvrages les plus estimés qui nous soient restés de ces temps-là
+                    sont-ils écrits dans l’une de ces deux langues&#xA0;; preuve évidente que les
+                    Ecrivains ne pouvoient s’exprimer dans la leur. Une autre raison décisive pour
+                    faire usage de ces langues anciennes, c’est qu’il falloit s’instruire, &amp;
+                    qu’il n’existoit aucun ouvrage en François, dont il fût possible de tirer la
+                    moindre utilité. Il étoit donc nécessaire de recourir aux véritables sources du
+                    goût &amp; du génie. Notre langue devoit à la <pb n="75" xml:id="p75"/>fin
+                    s’épurer, mais c’étoit l’affaire du temps&#xA0;; il falloit commencer par
+                    éclairer l’esprit, parce que l’art de s’exprimer n’a jamais précédé, mais a
+                    toujours suivi l’art de penser. Ce n’est pas que quelques Auteurs ne
+                    cherchassent les moyens d’enrichir la langue Françoise, &amp; de lui donner une
+                    certaine harmonie&#xA0;; mais ce n’étoit encore qu’un mélange barbare de mots
+                    Grecs ou Latins, qu’on tâchoit de naturaliser. Ces efforts ne furent pas
+                    tout-à-fait inutiles&#xA0;; ils accoutumèrent du moins à une sorte de cadence
+                    &amp; de mesure dans le style, dont il étoit auparavant entièrement dépourvu.
+                    Ajoutons, que la simplicité des mœurs ne contribua pas peu à la lenteur des
+                    progrès de la langue.</p>
+                <pb n="76" xml:id="p76"/>
+                <p><hi rend="sc">La lumière</hi> croissoit toujours, &amp; répandoit un nouvel éclat
+                    sur la République des Lettres, lorsque Jodelle<note n="(*)" place="bottom">Voy.
+                            <hi rend="i">Recherches sur les Théâtres</hi>, Premier âge du Théâtre
+                        François, pag.&#xA0;20, Ed. <hi rend="i">in-</hi> 4°.</note>, sentant tout
+                    le ridicule de la représentation des Mystères, des Moralités, des Farces &amp;
+                    des Sotties, imagina de composer des Tragédies &amp; des Comédies d’après celles
+                    de l’Antiquité. Son exemple fut suivi par ses successeurs. On n’invoqua plus que
+                    les noms des Eschyle, des Sophocle &amp; des Euripide&#xA0;; les pieuses &amp;
+                    ridicules Moralités &amp; les indécentes Sotties furent bannies du
+                    théâtre&#xA0;; la Scène Tragique s’ennoblit&#xA0;; la Scène Comique renversa ses
+                    tréteaux, rompit ses masques, &amp; <pb n="77" xml:id="p77"/>lança ses traits
+                    avec plus de décence&#xA0;; une foule de Poëtes de tout rang &amp; de tous états
+                    faisoient l’ornement du Parnasse François<note n="(*)" place="bottom">Voy. <hi
+                            rend="i">Recherches</hi> de Pâquier, Liv.&#xA0;VII, Chap.&#xA0;<hi
+                            rend="sc">vi</hi>.</note>, &amp; le Monarque même ne dédaignoit pas d’y
+                    monter avec eux.</p>
+                <p/>
+                <p><hi rend="sc">Tandis que</hi>les Muses faisoient retentir au loin leurs concerts,
+                    les Loix fleurissoient, reprenoient une nouvelle vigueur, &amp; trouvoient des
+                    interprètes fidèles &amp; savans. La sphère des idées s’agrandissoit de jour en
+                    jour&#xA0;; les connoissances se multiplioient&#xA0;; les progrès de l’esprit
+                    humain devenoient de plus en plus sensibles&#xA0;; la Nature mieux connue, plus
+                        <pb n="78" xml:id="p78"/>exactement observée, offroit un vaste champ aux
+                    méditations du Philosophe&#xA0;; chaque art, &amp; chaque science étoient mieux
+                    employés, plus approfondis&#xA0;; on jugeoit plus méthodiquement &amp; sur des
+                    principes&#xA0;; le raisonnement acquéroit plus de force &amp; de
+                    solidité&#xA0;; mais le goût manquoit encore.</p>
+                <p/>
+                <p><hi rend="sc">Le goût</hi>, ce sentiment exquis de l’ame, ce tact si délicat
+                    &amp; si prompt, que la nature accorde quelquefois sans efforts, qu’elle refuse
+                    également à son gré, &amp; qu’on n’acquiert pas toujours, même par l’étude la
+                    plus opiniâtre, pouvoit bien en effet être négligé par des hommes plus occupés à
+                    jouir, qu’à penser aux moyens de joindre l’agréable à l’utile. Voisins <pb
+                        n="79" xml:id="p79"/>encore de la barbarie, &amp; rougissant pour leurs
+                    Ayeux, ils se hâtoient d’entasser richesses sur richesses, &amp; de les
+                    prodiguer. C’étoit même une affaire d’amour-propre &amp; de vanité, qui tournoit
+                    entièrement au profit des Sciences &amp; des Lettres, par l’émulation qu’elle
+                    inspiroit. On cherchoit moins en effet à briller par les finesses de l’Art, que
+                    par un prodigieux étalage d’érudition. On citoit à tout propos les Auteurs Grecs
+                    ou Latins. Cette affectation nuisoit sans doute à l’Eloquence, &amp; nous
+                    blâmons avec raison ce défaut de goût&#xA0;; mais convenons qu’alors, la plus
+                    grande partie des auditeurs ou des lecteurs, n’avoit pas besoin
+                    d’interprète&#xA0;: à peine au contraire, trouveroit-on aujourd’hui <pb n="80"
+                        xml:id="p80"/>dans une assemblée nombreuse, quelques personnes assez
+                    instruites, pour pouvoir s’en passer. Malheureusement nous avons réformé l’abus
+                    par un abus plus grand, en perdant entièrement l’usage des langues savantes.</p>
+                <p/>
+                <p><hi rend="sc">Quoi qu’il en soit</hi>, la langue Françoise surmontoit, lentement
+                    à la vérité, les obstacles qui retardoient ses progrès. Elle acquéroit
+                    insensiblement plus de nombre &amp; plus d’harmonie&#xA0;; on étoit plus sévère
+                    sur le choix des mots&#xA0;; l’éloquence étaloit des charmes inconnus
+                    jusqu’alors&#xA0;; mais c’étoit aux dépens de la noble simplicité. On employoit,
+                    pour exprimer les choses les plus communes, <pb n="81" xml:id="p81"/>des termes
+                    ampoulés, on prodiguoit les métaphores &amp; les comparaisons les plus
+                    outrées&#xA0;; &amp;, comme l’oreille étoit flattée, on ne s’appercevoit pas de
+                    ces défauts&#xA0;; on faisoit plus, on les admiroit. Tandis que la Prose se
+                    chargeoit ainsi d’ornemens confus &amp; déplacés, la Poësie se paroit de graces
+                    naturelles &amp; prenoit un vol sublime. <hi rend="sc">Malherbe</hi> enfin
+                    toucha sa lyre&#xA0;; ses accords réguliers, ses chants, pleins d’une harmonie
+                    nouvelle, triomphèrent de la dureté de la langue, &amp; n’en firent sentir que
+                    la douceur &amp; les beautés.</p>
+                <p/>
+                <p><hi rend="sc">Les temps</hi>où le goût devoit naître étoient arrivés. Tout
+                    annonçoit l’époque la plus brillante de la <pb n="82" xml:id="p82"/>Littérature.
+                    La génération qui l’avoit précédée étoit enfin parvenue à détruire l’ignorance
+                    &amp; la barbarie&#xA0;: elle avoit vaincu toutes les difficultés, surmonté tous
+                    les obstacles, &amp; contente de la gloire qu’elle avoit acquise au prix de tant
+                    de travaux &amp; de peines, elle laissoit à la génération suivante le plaisir
+                    &amp; le soin de recueillir le fruit de ses veilles. En effet, quelles
+                    obligations n’avons-nous pas à tant d’illustres Savans, dont les recherches,
+                    aussi laborieuses qu’utiles, ont fait revivre les ouvrages de l’Antiquité, en
+                    ont éclairci ou rétabli les textes, &amp; nous ont mis à portée d’en
+                    profiter&#xA0;? Sans les efforts de ces hommes courageux &amp; vraiment doctes,
+                    que nous estimons trop peu aujourd’hui, <pb n="83" xml:id="p83"/>parce que nous
+                    croyons n’en avoir plus besoin, nous serions peut-être encore plongés dans
+                    l’ignorance, ou du moins nos progrès auroient été beaucoup plus lents. L’amour
+                    qu’ils avoient inspiré pour l’étude des Anciens, demeura dans toute sa
+                    vigueur&#xA0;; mais il étoit bien plus aisé de suivre &amp; d’embellir la route
+                    qu’ils avoient tracée, que de l’ouvrir &amp; de la frayer.</p>
+                <p/>
+                <p><hi rend="sc">Il</hi> ne s’agissoit plus que d’épurer le goût, &amp; de réfléchir
+                    sur les beautés qu’offrent en foule les modèles de l’Antiquité. Ce n’est pas
+                    qu’ils n’eussent déjà servi de guides à plusieurs Ecrivains, mais c’étoit sans
+                    discernement &amp; sans choix. Ces <pb n="84" xml:id="p84"/>Ecrivains luttoient
+                    contre le mauvais goût de leur siècle&#xA0;; &amp; si, malgré leurs efforts, la
+                    victoire leur est échappée, ils ont du moins la gloire d’avoir combattu les
+                    premiers, &amp; nous devons leur savoir gré de l’exemple qu’ils nous ont donné.
+                    Si Jodelle n’eût pas tenté de substituer aux ridicules spectacles de son temps
+                    des spectacles plus réguliers, il est presque certain que les Mystères, les
+                    Moralités &amp; les Sotties auroient peut-être fait, pendant des siècles encore,
+                    l’amusement d’un peuple toujours également ignorant. Il avoit cependant à
+                    détruire, comme le remarque l’auteur des Recherches sur les Théâtres, une
+                    prévention d’autant plus difficile à vaincre, qu’elle étoit fondée sur
+                    l’ignorance &amp; sur <pb n="85" xml:id="p85"/>une longue habitude. Jodelle ne
+                    fut point effrayé de l’obstacle&#xA0;: son génie &amp; ses talens le servirent
+                    également bien. Sa hardiesse eut heureusement des imitateurs, qui, à leur tour,
+                    en ont eu, d’âge en âge, jusqu’à nous.</p>
+                <p/>
+                <p><hi rend="sc">Le Cardinal de Richelieu</hi>, Ministre dont les vastes desseins ne
+                    tendoient qu’à élever sur les fondemens les plus solides la gloire de son Maître
+                    &amp; de la Monarchie, fut le premier qui sentit la nécessité de s’occuper
+                    particulièrement du soin de polir la langue Françoise &amp; de la
+                    perfectionner&#xA0;; passionnée pour tout ce qui pouvoit contribuer à l’utilité
+                    de l’Etat, peut-être entra-t-il autant de politique, que d’amour pour les <pb
+                        n="86" xml:id="p86"/>Lettres, dans l’établissement qu’il forma en leur
+                    faveur. Un Royaume, quelque riche &amp; puissant qu’il soit, quelque supériorité
+                    qu’il ait sur ses voisins par la politique &amp; par les armes, est loin encore
+                    de la véritable puissance, s’il n’est pas également supérieur par les lumières.
+                    L’homme ne peut qu’autant qu’il sait&#xA0;: la Nation la plus instruite doit
+                    bientôt être la plus puissante&#xA0;; la France l’étoit dès lors, &amp; n’avoit
+                    plus qu’un pas à faire, pour être la rivale d’Athènes &amp; de Rome.</p>
+                <p/>
+                <p><hi rend="sc">Richelieu</hi>, en formant l’Académie Françoise, anima par son
+                    exemple &amp; par ses bienfaits les membres dont il la composa. Occupé des plus
+                        <pb n="87" xml:id="p87"/>vastes projets au milieu de l’administration la
+                    plus orageuse, chargé seul de tout le poids des affaires, sans cesse en butte au
+                    ressentiment des Grands qu’il avoit abaissés, impatiemment supporté par son
+                    Maître, il trouvoit encore des momens à donner aux Muses. Mais quelque attention
+                    qu’il eût, de n’admettre dans son établissement que des hommes d’un mérite rare,
+                    ils ne pouvoient avoir que celui de leur siècle. On n’étoit encore que savant,
+                    &amp; l’on ne connoissoit ni l’art de l’Orateur, ni la manière d’écrire avec
+                    goût, ni le goût même.</p>
+                <p/>
+                <p><hi rend="sc">Cependant</hi> la langue Françoise acquit sous ces nouveaux
+                    maîtres, <pb n="88" xml:id="p88"/>plus de douceur &amp; d’harmonie. Les Auteurs
+                    qui travailloient alors pour le Théâtre, étoient plus féconds, qu’élégans &amp;
+                    corrects. On commençoit, il est vrai, à observer les règles Dramatiques, à
+                    dessiner mieux un plan, à soutenir davantage les caractères&#xA0;; mais on
+                    ignoroit l’art de <hi rend="i">joindre</hi><note n="(*)" place="bottom">Voy. la
+                        Préface du Tom.&#xA0;IV de l’Histoire du Théâtre François,
+                        pag.&#xA0;6.</note>
+                    <hi rend="i">à ces mêmes règles la majesté de la Tragédie, la noblesse des
+                        caractères &amp; la force de la versification</hi>.
+                    <hi rend="sc">Corneille</hi> parut&#xA0;: la langue Françoise étoit avant lui
+                    dénuée de graces &amp; de force, il la rendit sublime. Son essai<note n="(**)"
+                        place="bottom">Medée.</note>, quoiqu’imparfait, étonna. On vit éclore un art
+                    nouveau. Ce <pb n="89" xml:id="p89"/>grand homme, rempli d’Aristote &amp;
+                    d’Horace, tira de son génie créateur, &amp; puisa dans l’élévation de son ame,
+                    toutes les beautés mâles dont brillent ses ouvrages. Le Cid acheva d’éclipser
+                    pour toujours la gloire de ses rivaux&#xA0;; Richelieu même en fut jaloux, &amp;
+                    lui suscita des critiques qui ne servirent qu’à relever davantage l’excellence
+                    de cette pièce. Pour juger des motifs de cette jalousie, il suffit de dire que
+                    le Cardinal de Richelieu se glorifia d’être Auteur, &amp; malheureusement il
+                    n’en avoit que l’amour-propre, &amp; non le talent. La nature l’avoit d’ailleurs
+                    trop bien doté, pour qu’il eût à se plaindre de ne pouvoir joindre à sa couronne
+                    le stérile &amp; vain laurier d’Apollon. Il eut <pb n="90" xml:id="p90"
+                    />pourtant la foiblesse de le desirer, &amp; c’est de lui que nous vient cet
+                    usage, si commun &amp; si nécessaire aujourd’hui, de s’assurer du suffrage d’un
+                    grand nombre de spectateurs complaisans pour applaudir<note n="(*)"
+                        place="bottom"><quote>«&#xA0;Mirame, Tragédie du Cardinal de Richelieu, tomba à la
+                        première représentation. Ce Ministre s’étant retiré seul à Ruel le soit même
+                        du mauvais succès de sa pièce, envoya chercher Desmarests qui soupoit avec
+                        Petit son ami. Desmarets se doutant que l’entrevue seroit orageuse, pria
+                        Petit de l’accompagner….. Hé bien, leur dit le Cardinal, dès qu’il les vit,
+                        les François n’auront jamais de goût pour les belles choses, ils n’ont point
+                        été charmés de Mirame.&#xA0;–&#xA0;Monseigneur, répondit Petit, ce n’est
+                        point la faute de la pièce, qui est admirable, mais celle des Comédiens.
+                        Votre Eminence ne s’est-elle point apperçue, que non-seulement ils ne
+                        savoient point leurs rôles, mais qu’ils étoient tous yvres&#xA0;?
+                        Effectivement, reprit le Cardinal, je me rappelle qu’ils ont joué d’une
+                        manière pitoyable… De retour à Paris Desmarets &amp; Petit ne manquèrent
+                        point d’aller prévenir les Comédiens, &amp; de s’assurer du suffrage de
+                        plusieurs des spectateurs, ensorte qu’à la seconde représentation de Mirame
+                        on n’entendit que des applaudissemens&#xA0;»<bibl>. <hi rend="i">Recherc. sur les
+                            Théâtres</hi>, Troisième âge du Théâtre François, pag.&#xA0;142, Ed. <hi
+                            rend="i">in</hi>-4°.</bibl></quote></note>. Usage perfide, <pb n="91" xml:id="p91"/>qui
+                    suspend un moment la chûte d’un emauvaise pièce, pour la rendre ensuite plus
+                    certaine &amp; plus éclatante.</p>
+                <p/>
+                <p><hi rend="sc">L’injustice</hi> du Ministre envers Corneille étoit trop peu fondée
+                    pour durer toujours. Richelieu céda enfin à l’Auteur du Cid la palme qu’il avoit
+                    osé lui disputer. Corneille continua de parcourir en maître la carrière qu’il
+                    avoit ouverte, &amp; de marcher <pb n="92" xml:id="p92"/>à pas de Géant au
+                    temple de l’immortalité. Il emprunta peu des Grecs&#xA0;; la simplicité de
+                    Sophocle &amp; d’Euripide ne cadroit point avec une ame aussi forte que la
+                    sienne. Il imita quelquefois Sénèque, &amp; toujours le surpassa. Les Discours
+                    qu’il a joints à ses pièces de Théâtre renferment une Poëtique admirable, que
+                    nos jeunes Auteurs devroient bien consulter, non-seulement pour y prendre des
+                    instructions sur l’Art Dramatique, mais des leçons de modestie sur la véritable
+                    estime qu’on doit avoir de soi-même. Il semble au contraire qu’ils veuillent
+                    diminuer la gloire de Corneille&#xA0;; &amp; loin de le respecter comme leur
+                    maître, &amp; de l’imiter comme leur modèle&#xA0;; loin d’étudier <pb n="93"
+                        xml:id="p93"/>leur art dans ses chef-d’œuvres &amp; dans ses excellens
+                    discours, ils osent lui trouver des défauts, que souvent il n’a pas, &amp; lui
+                    disputer même le génie de l’invention. Ne diroit-on pas qu’il est au milieu
+                    d’eux, comme étoit autrefois Sully au milieu des jeunes Courtisans de la Cour de
+                        <hi rend="sc">Louis</hi>&#xA0;XIII&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Ces</hi> premiers beaux jours de la Littérature furent suivis de
+                    jours plus sereins &amp; plus brillans encore. Les Lettres, sous le règne de <hi
+                        rend="sc">Louis</hi>&#xA0;XIV, parvinrent au plus haut degré de splendeur,
+                    &amp; la nature parut prendre plaisir à s’épuiser, pour rendre le siècle de ce
+                    Monarque un des plus célèbres de l’Histoire.</p>
+                <pb n="94" xml:id="p94"/>
+                <p><hi rend="sc">Aux</hi> troubles intestins de l’Etat, aux factions les plus
+                    puissantes &amp; les plus dangereuses, à la commotion universelle de la chose
+                    publique, aux tentatives indiscrètes &amp; criminelles de l’indépendance, en un
+                    mot à la fermentation générale des esprits, succéda le calme le plus heureux. Le
+                    Monarque jeta des regards bienfaisans sur les Arts &amp; sur les Sciences&#xA0;;
+                    &amp; comme ils devoient tous concourir à sa gloire, le génie commença d’abord
+                    par perfectionner la langue destinée à transmettre à la postérité les merveilles
+                    de son règne.</p>
+                <p/>
+                <p><hi rend="sc">Des hommes</hi> que l’amour de la retraite avoit réunis,
+                    cultivoient en paix les Lettres au sein de la solitude <pb n="95" xml:id="p95"
+                    />&amp; de la piété. Ils formoient entre eux une société de Savans, où régnoit
+                    le goût de la bonne Littérature &amp; de la saine Philosophie. Occupés également
+                    de l’étude des Ecrivains Sacrés &amp; Profanes, ils édifioient à la fois le
+                    monde &amp; l’éclairoient. Ce sont eux, qui par leurs Ecrits ont fixé les
+                    premiers la langue Françoise, &amp; l’ont soumise à des règles invariables.
+                    Celui de leurs ouvrages, auquel on attribue sur-tout la fixation de la langue,
+                    sont ces Lettres immortelles que le génie dicta, &amp; qu’Athènes auroit
+                    avouées. On voit par l’exemple de ces Solitaires, combien la retraite est
+                    favorable pour pénétrer dans le sanctuaire des Muses, &amp; que c’est en
+                    méditant dans le silence les <pb n="96" xml:id="p96"/>oracles du goût, qu’on
+                    parvient à les imiter, &amp; à les égaler.</p>
+                <p/>
+                <p><hi rend="sc">C’est</hi> ainsi que les hommes éloquens, que le siècle de <hi
+                        rend="sc">Louis</hi>&#xA0;XIV a vu naître, ont acquis l’immortalité. Le
+                    bel-esprit étoit encore ignoré, ou&#xA0;; s’il osoit se montrer, ce n’étoit que
+                    dans des Ecrits de pur amusement, sans prétendre aucun rang dans la République
+                    des Lettres. Les Orateurs montoient à la Tribune doués de toutes les
+                    connoissances &amp; de tous les talens nécessaires à leur Art. Abondante sans
+                    superfluité, riche sans faux brillans, naturelle sans bassesse, simple avec
+                    majesté, élevée sans affectation, sublime sans efforts, leur éloquence mâle
+                    &amp; nerveuse, <pb n="97" xml:id="p97"/>tantôt préférant la force du
+                    raisonnement aux tours ingénieux &amp; fleuris, s’attachoit moins à plaire qu’à
+                    instruire, qu’à convaincre &amp; persuader&#xA0;; tantôt s’élevant avec le vol
+                    de l’aigle jusqu’au sein de la Divinité dont elle sembloit être l’organe, elle
+                    étonnoit, ravissoit, arrachoit des larmes &amp; des sanglots&#xA0;: dans les
+                    uns, pleine de candeur, animée du seul coloris des graces, tendre, harmonieuse
+                    &amp; touchante, elle pénétroit l’ame de la plus douce émotion, &amp; couvroit
+                    de fleurs les vérités qu’elle vouloit annoncer aux Peuples comme aux Rois&#xA0;;
+                    dans les autres, brillante, énergique &amp; pittoresque, elle traçoit les mœurs,
+                    les vices &amp; les erreurs du temps, &amp; prenoit des mains de la <pb n="98"
+                        xml:id="p98"/>vérité les armes dont elle les combattoit. Faisoit-elle
+                    l’Apothéose des Héros&#xA0;? Alors déployant toutes les richesses de l’Art,
+                    soutenue par une imagination vive &amp; brillante, toujours guidée par le goût,
+                    elle peignoit avec des traits de feu leurs vertus, leurs actions, leurs talens
+                    &amp; leur courage, en arrosant de ses larmes les fleurs qu’elle jetoit sur
+                    leurs tombeaux. Telle étoit l’éloquence qu’on admiroit autrefois, bien
+                    différente de cette fausse éloquence, qu’on nous fait entendre aujourd’hui,
+                    toujours guindée, souvent enflée, séche ou puérile, dénuée de graces, de
+                    sentiment, de noblesse &amp; d’ingénuité.</p>
+                <p/>
+                <p><hi rend="sc">Dans</hi> ces temps du bon goût, ce <pb n="99" xml:id="p99"
+                    />n’étoient pas seulement les Orateurs que les filles de Mémoire
+                    inspiroient&#xA0;; elles se plaisoient encore à mêler leurs chants célestes aux
+                    accords de la lyre des Quinault &amp; des Lulli&#xA0;; elles faisoient revivre
+                    les pinceaux des Apelles &amp; des Zeuxis, &amp; ranimoient le ciseau des
+                    Phydias &amp; des Praxitelles&#xA0;; elles portoient avec complaisance leurs
+                    regards sur ces Monumens immortels, qui s’élevoient par la magnificence &amp;
+                    pour la gloire du Monarque &amp; des Arts&#xA0;; en un mot aucun genre ne
+                    pouvoit demeurer imparfait. Mais, ce qu’il y a de plus admirable, c’est que la
+                    nature, en prenant plaisir à multiplier le nombre des grands hommes, sembloit ne
+                    leur dispenser que le génie propre à <pb n="100" xml:id="p100"/>chaque Art dans
+                    lequel ils devoient exceller.</p>
+                <p/>
+                <p><hi rend="sc">Corneille</hi> avoit ressuscité la Tragédie des Anciens&#xA0;;
+                    &amp; quoiqu’il eût tenté de faire revivre aussi la Comédie, ses efforts furent
+                    infructueux. Il n’appartenoit qu’à <hi rend="sc">Molière</hi> seul d’avoir la
+                    gloire de créer de nouveau l’art de la scène Comique, &amp; de le porter fort
+                    au-delà de celui des Anciens. Il avoit été, depuis Térence jusqu’à lui,
+                    entièrement oublié. La Comédie de <hi rend="i">la Mère Coquette</hi> de
+                    Quinault, pièce régulière, modèle même, si l’on veut, d’intrigue, existoit
+                    vainement. Celui qui d’un œil attentif observe la nature, la suit pas à pas,
+                    perce les replis du cœur <pb n="101" xml:id="p101"/>humain, en démêle avec
+                    adresse les passions diverses, distingue habilement leurs nuances &amp; leur
+                    caractère, découvre le jeu de leurs ressorts les plus secrets, arrache le masque
+                    au vice, saisit les ridicules, quelque imperceptibles qu’ils soient, &amp; sait
+                    tirer d’un fonds aussi riche de quoi nous faire rire à nos dépens sans nous en
+                    appercevoir, est véritablement l’homme de génie, le créateur de l’Art, &amp; <hi
+                        rend="sc">Molière</hi> le fut. Il avoit le talent d’émouvoir le cœur &amp;
+                    d’intéresser l’ame&#xA0;: il donnoit à sentir à l’un, à penser &amp; à comparer
+                    à l’autre. Les Auteurs qui l’avoient précédé, ceux qui couroient avec lui la
+                    même carrière, n’avoient-ils pas les mêmes vices, les mêmes passions, les mêmes
+                        <pb n="102" xml:id="p102"/>ridicules à peindre &amp; à combattre&#xA0;?
+                    Pourquoi ne l’ont-ils pas tenté&#xA0;? C’est que le génie leur manquoit.
+                    Molière, pour réussir, eut plus d’obstacles à vaincre que Corneille. Il étoit en
+                    effet plus aisé de rétablir la vraisemblance dans la Tragédie, que la vérité
+                    dans la Comédie. On étoit accoutumé à un Théâtre licencieux&#xA0;; c’est-à-dire,
+                    que les Poëtes Comiques, ou du moins la plupart d’entre eux <hi rend="i">se
+                        permettoient des licences, qui ne caractérisoient pas moins la malignité de
+                        l’esprit, que la corruption du cœur&#xA0;; &amp; ce genre étoit reçu &amp;
+                        applaudi</hi>(<note n="(*)" place="bottom">Voy. Observations sur la Comédie
+                        par Riccoboni, p.&#xA0;117.</note>). Le moyen d’en faire goûter un nouveau,
+                    où l’Auteur ne sortant jamais <pb n="103" xml:id="p103"/>des bornes de la
+                    décence &amp; des mœurs, n’attaquoit que les vices &amp; les ridicules sans
+                    aucunes personnalités&#xA0;? Molière en vint à bout, &amp; n’a laissé son génie,
+                    son talent à personne.</p>
+                <p/>
+                <p><hi rend="sc">Tandis que</hi> la Scène Comique s’enrichissoit des chef-d’œuvres
+                    de cet Auteur inimitable, Corneille terminoit sa carrière, &amp; voyoit dans <hi
+                        rend="sc">Racine</hi>, qui commençoit à paroître, un rival digne de lui
+                    disputer, ou de partager sa gloire. Elevé à Port-Royal, c’est l’éducation qu’il
+                    reçut dans cette savante retraite, qui développa ses talens&#xA0;; c’est là
+                    qu’il puisa dans l’étude de l’Antiquité ce goût, cette élégance, cette pureté,
+                    cette <pb n="104" xml:id="p104"/>correction qu’on admire dans ses
+                    ouvrages&#xA0;; Euripide &amp; Sophocle furent ses guides, &amp; le formèrent.
+                    Une récompense qu’il reçut de la part du Roi, pour une Ode qu’il avoit faite,
+                    décida pour jamais son talent&#xA0;; &amp; peut-être Racine seroit-il ignoré
+                    sans Chapelain, qui parla si avantageusement à <hi rend="sc">Colbert</hi> &amp;
+                    de l’Ode &amp; de l’Auteur, que peu de temps après le Ministre lui accorda une
+                    pension. Quand on réfléchit sur l’honnêteté de ce procédé, &amp; sur le bien
+                    qu’il a produit, on voudroit oublier, que l’honnête Chapelain étoit un mauvais
+                    Poëte.</p>
+                <p/>
+                <p><hi rend="sc">Pour que</hi> les talens naissent, s’élèvent &amp; se fortifient,
+                    il faut les <pb n="105" xml:id="p105"/>protéger, les aider, les encourager. <hi
+                        rend="sc">Colbert</hi>, ami des Arts &amp; du bien public, qui répandoit sur
+                    les Savans les bienfaits de son Maître, jusques dans les contrées les plus
+                    éloignées, devint le protecteur de Racine. Les succès du jeune Poëte, furent en
+                    peu de temps si brillans &amp; si rapides, qu’ils excitèrent la jalousie de
+                    Corneille. Mais Corneille étoit vieux, &amp; ses productions étoient plus
+                    foibles. Ce n’étoit plus le père du Cid, des Horaces &amp; de Cinna, c’étoit
+                    l’Auteur de Pertharite &amp; d’Attila. Les Auteurs n’ont que trop imité depuis
+                    sa foiblesse&#xA0;; malheureusement ils n’ont pas les mêmes titres que ce grand
+                    homme, pour se faire un nom, &amp; pour leur servir d’excuse.</p>
+                <pb n="106" xml:id="p106"/>
+                <p><hi rend="sc">Nous</hi> ne pouvons trop remarquer, combien les mœurs ont d’empire
+                    sur les ouvrages d’esprit. Un Roi jeune &amp; victorieux, une Cour brillante,
+                    qui ne respiroit que la gloire &amp; la galanterie, où l’on ne songeoit qu’à
+                    plaire, où du sein des plaisirs on voloit à la victoire, frappèrent les premiers
+                    regards de <hi rend="sc">Racine</hi>&#xA0;; ainsi, lorsqu’il choisit l’amour
+                    pour être l’ame de ses Tragédies, il suivoit à la fois le goût qui dominoit
+                    alors, &amp; le penchant de son cœur. Les hommes ne sont, que ce que les
+                    circonstances veulent qu’ils soient. Corneille, au contraire, né dans un temps
+                    où la guerre civile déchiroit l’Etat, où les factions entraînoient dans des
+                    intrigues <pb n="107" xml:id="p107"/>sanglantes, où les passions les plus fortes
+                    jetoient dans les esprits une sorte de courage &amp; d’élévation, donnoient plus
+                    de vigueur à l’ame, augmentoient son ressort, Corneille n’avoit vu que des
+                    événemens propres à faire germer dans son ame ces sentimens dignes des premiers
+                    Romains, &amp; si bien exprimés dans toutes ses Tragédies. Les mœurs influèrent
+                    donc sur le goût de ces deux grands hommes, &amp; imprimèrent à leurs ouvrages
+                    ce sentiment dans l’expression, ce caractère de vérité, qui les distinguent si
+                    essentiellement, &amp; dont jusqu’à présent aucun Auteur Tragique n’a pu se
+                    flatter d’approcher.</p>
+                <pb n="108" xml:id="p108"/>
+                <p><hi rend="sc">Tant</hi> que les admirateurs de Corneille ne combattirent qu’en
+                    faveur de sa gloire les succès de Racine&#xA0;; tant qu’ils n’opposèrent que
+                    chef-d’œuvre à chef-d’œuvre, on pouvoit leur pardonner leur enthousiasme pour un
+                    grand homme, dont les triomphes n’étoient plus douteux, &amp; dont la place
+                    étoit marquée d’avance au Temple de Mémoire. Cette préférence, cet enthousiasme
+                    même, n’avoient rien d’humiliant pour Racine. Mais, lorsque l’intrigue &amp; le
+                    mauvais goût se liguèrent contre lui, en s’efforçant de faire triompher Pradon,
+                    on ne vit plus alors dans cette conduite qu’une basse jalousie, &amp; la plus
+                    aveugle prévention du Bel-esprit, ennemi né du génie. Ce qu’il <pb n="109"
+                        xml:id="p109"/>y a de plus étonnant&#xA0;; c’est que des femmes aimables,
+                    instruites, ayant un nom, de l’esprit, des talens même pour écrire, étoient à la
+                    tête de la cabale. Les Athéniennes ne jugeoient ni les Sophocles, ni les
+                    Euripides&#xA0;; elles ne donnoient point le ton aux Auteurs de la Grèce.
+                    Puisque nos mœurs plus douces &amp; moins fières avoient laissé usurper au beau
+                    sexe le souverain empire du goût, qu’étoit donc devenue la sensibilité qui lui
+                    est si naturelle&#xA0;? Comment avoit-il pu la perdre au point de se déclarer
+                    contre l’Auteur le plus tendre, &amp; le plus digne de lui plaire&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">En effet</hi>, que de charmes, que de magie, que de merveilles <pb
+                        n="110" xml:id="p110"/>intellectuelles dans le style de Racine&#xA0;! Quelle
+                    noblesse, quelle sublimité, quelle délicatesse de sentiment dans sa
+                    Poësie&#xA0;! Quelle justesse &amp; quelle netteté d’expression&#xA0;! Quelle
+                    harmonie, quelle facilité dans ses vers, où l’on ne trouve pas une épithète
+                    oisive, pas un mot de sur-charge ou d’enflure, pas une seule nuance de sentiment
+                    imparfaite ou manquée&#xA0;! C’est le Peintre du cœur, le Poëte de toutes les
+                    ames sensibles, qui, dans ses ouvrages, a porté la langue Françoise au dernier
+                    degré de perfection &amp; de pureté. Il eut le bonheur d’être le contemporain
+                    &amp; l’ami de Boileau <hi rend="sc">Boileau</hi>&#xA0;! dont notre siècle
+                    auroit besoin pour faire justice des Pradons &amp; des Cotins modernes&#xA0;! Il
+                    semble <pb n="111" xml:id="p111"/>que la nature l’ait fait naître exprès dans le
+                    siècle du goût, pour en enseigner le culte, le préserver de la corruption, le
+                    perpétuer, &amp; pour chasser de son temple tous ceux qui voudroient le
+                    profaner. Elle lui accorda le don de la Satire&#xA0;; il l’employa toujours
+                    utilement contre les mauvais Auteurs, qu’il ne craignit jamais, parce qu’il
+                    étoit aussi honnête homme qu’excellent Ecrivain.</p>
+                <p/>
+                <p><hi rend="sc">On</hi> lui fait cependant un crime aujourd’hui de ses
+                    Satires&#xA0;; on ne le traite que de versificateur, quoiqu’il soit un Poëte de
+                    génie &amp; un très-grand Poëte. Ne diroit-on pas que ces Juges injustes, si
+                    délicats à la fois &amp; si rigoureux, craignent qu’il ne <pb n="112"
+                        xml:id="p112"/>renaisse de sa cendre&#xA0;? Ne croiroit-on pas qu’ils lisent
+                    déja leurs noms, à la place de ceux des mauvais Auteurs qui figurent si bien
+                    dans ses Satires&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Rendons graces</hi> néanmoins à notre heureuse destinée, du
+                    courage, &amp; du succès avec lesquels ce Législateur du Parnasse a combattu
+                    &amp; poursuivi le mauvais goût, qui peut-être eût triomphé, escorté comme il
+                    l’étoit alors du bel-esprit. Combien peu s’en est-il fallu que <hi rend="sc"
+                        >Pradon</hi> ne l’ait emporté sur <hi rend="sc">Racine</hi>&#xA0;! N’a-t-on
+                    pas vu le moment où les Anciens alloient être dégradés &amp; bannis de la
+                    République des Lettres&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Au milieu</hi> des triomphes des <pb n="113" xml:id="p113"
+                    />Corneille, des Racine &amp; des Molière, le Bel-esprit, mécontent de ne jouer
+                    depuis long-temps qu’un rôle subalterne, s’admirant dans ses productions
+                    frivoles, jaloux d’étaler son clinquant &amp; son faux-savoir, trouva le secret
+                    enfin d’entrer en lice pour la première fois&#xA0;; &amp; pour qu’on doutât
+                    moins de ses talens, il voulut se signaler, en disputant aux Anciens leur
+                    supériorité sur les Modernes. Cette pensée ne pouvoit venir, que d’un fonds
+                    d’orgueil &amp; d’ignorance insupportable. Cependant <hi rend="sc">Perrault</hi>
+                    se chargea de l’attaque, &amp; soutenu par quelques beaux-esprits auxiliaires,
+                    il engagea le combat.</p>
+                <p/>
+                <p><hi rend="sc">Perrault</hi> ne savoit point le <pb n="114" xml:id="p114"/>Grec
+                        <note n="(*)" place="bottom">Voy. <hi rend="i">Variétés sérieuses &amp;
+                            amusantes</hi>, nouvelle Edition, 1769, Tom.&#xA0;1, pag.&#xA0;371, où
+                        M. Sablier, qui en est l’Auteur, rapporte une lettre écrite à un de ses
+                        parens, &amp; dont il a l’original de la main de Perrault, dans laquelle cet
+                        adversaire des Anciens avoue qu’il ne les connoît pas.</note>, par
+                    conséquent n’avoit jamais lu ni Homère, ni Pindare, ni Sophocle. Il ignoroit, de
+                    son aveu, quelle étoit l’Ode d’Horace à laquelle Jules Scaliger donnoit la
+                    préférence&#xA0;; il ne savoit pas même juger quelle étoit la plus belle Ode de
+                    Malherbe, pour l’opposer aux Anciens. Comment ose-t-on décider des rangs,
+                    apprécier le mérite, quand on est incapable de comparer par soi-même les talens
+                    des uns &amp; des autres&#xA0;? Si Corneille, par la fécondité de son génie
+                    sublime, a su égaler <pb n="115" xml:id="p115"/>les Anciens&#xA0;; si nous
+                    retrouvons Euripide &amp; Sophocle dans Racine, Aristophane, Plaute &amp;
+                    Térence dans Molière&#xA0;; Horace &amp; Juvénal dans Boileau, Esope &amp;
+                    Phedre dans la Fontaine, Lucien dans Fontenelle, Pindare dans l’illustre &amp;
+                    malheureux Rousseau, qui sera toujours, malgré l’envie, le premier Poëte Lyrique
+                    de la France&#xA0;; si nous croyons encore entendre les Démosthène, les Isocrate
+                    &amp; les Cicéron dans tant d’Orateurs qui les ont fait revivre&#xA0;; en un
+                    mot, si le siècle de <hi rend="sc">Louis</hi>&#xA0;XIV a produit lui seul, ce
+                    que des siècles entiers n’ont pu produire que lentement sous les heureux climats
+                    de la Grèce &amp; de l’Italie&#xA0;; en doit-on conclure que les <pb n="116"
+                        xml:id="p116"/>Modernes l’emportent sur les Anciens&#xA0;? Tandis au
+                    contraire que, sans les Anciens, ces Modernes si célèbres aujourd’hui, si dignes
+                    de l’être, seroient peut-être demeurés dans l’oubli&#xA0;; car le génie est
+                    languissant, s’il n’est pas fortement ébranlé par la beauté, la grandeur,
+                    l’excellence &amp; la vérité des objets qui le frappent &amp; le
+                    saisissent&#xA0;; ce n’est qu’alors qu’il s’anime, qu’il s’enflamme &amp; qu’il
+                    crée. Est-il Poëte&#xA0;? Ce n’est plus Homère, Pindare, Virgile, Horace qu’il
+                    vient de lire, c’est l’esprit de tous qui l’inspire à la fois&#xA0;; c’est une
+                    Divinité qui s’empare de lui&#xA0;: il chante, les vents se taisent, &amp; la
+                    terre est attentive à ses accens. Est-il Orateur&#xA0;? Les Harangues de <pb
+                        n="117" xml:id="p117"/>Démosthène &amp; de Cicéron pénétrent son ame,
+                    développent ses talens&#xA0;; il vole à la tribune, &amp; son éloquence, sans
+                    faux ornemens, sans éclat emprunté, coule délicieusement de ses lèvres,
+                    enchante, touche &amp; persuade. Est-il Historien&#xA0;? Hérodote, Xénophon,
+                    Thucydide, César, Tite-Live &amp; Tacite forment tour-à-tour son style, lui
+                    montrent la route difficile &amp; dangereuse de la vérité, dont il ne doit
+                    jamais s’écarter, lui apprennent à tenir le fil nécessaire pour ne pas s’égarer
+                    dans le labyrinthe de l’Histoire, &amp; lui découvrent en même temps le secret
+                    d’attacher, d’instruire &amp; de plaire.</p>
+                <p/>
+                <p><hi rend="sc">Il faut</hi> donc nécessairement au <pb n="118" xml:id="p118"
+                    />génie une première impulsion, qui provoque son feu, lui donne de l’action,
+                    &amp; l’enflamme. Cette impulsion une fois donnée, l’imagination s’allume à son
+                    tour, &amp; produit sans peine &amp; sans efforts les images les plus grandes
+                    &amp; les plus frappantes. Ceux que nous appelons Anciens par rapport à nous,
+                    ont été précédés par des Peuples qui les ont instruits&#xA0;; &amp; en remontant
+                    jusqu’à l’enfance du Monde, les premiers Hommes avoient pour maître les
+                    merveilles de la nature. Ce spectacle aussi intéressant que sublime, qui
+                    frappoit sans cesse leurs sens, élevoit leur esprit jusqu’à leur divin Auteur,
+                    &amp; leurs premiers ouvrages n’ont été que des Cantiques de reconnoissance à sa
+                        <pb n="119" xml:id="p119"/>gloire. Mais à mesure que la nature s’est
+                    corrompue, que l’innocence a cessé d’habiter la terre, que le séjour des Villes
+                    est devenu nécessaire à une société plus nombreuse, que le fer n’a plus été
+                    travaillé pour ouvrir seulement le sein de la terre &amp; le rendre fertile,
+                    qu’on en a forgé des armes cruelles, &amp; que des ruisseaux de sang ont coulé
+                    dans les campagnes&#xA0;; les besoins alors ont fait naître l’industrie, les
+                    Arts ont dû leur découverte au hasard, le luxe les a multipliés, l’expérience
+                    d’âge en âge a perfectionné les connoissances, les sciences se sont formées
+                    &amp; ont été le produit des méditations constantes de l’esprit humain, les
+                    peuples de proche en proche se les sont <pb n="120" xml:id="p120"/>communiquées,
+                    &amp; ceux chez lesquels elles ont jeté les plus profondes racines, ont été les
+                    plus favorisés de la nature. Or, quelque étendue de génie que nous ayons reçue
+                    d’elle, cette faveur est un partage, &amp; par conséquent elle est toujours
+                    bornée&#xA0;; elle nous devient même inutile, si nous ne la cultivons pas. Nous
+                    devons donc consulter ceux, qui peuvent nous donner le plus de lumières
+                    analogues à ce sens intellectuel qui agit en nous. C’est par-là que les grands
+                    hommes du siècle dernier, se sont assuré les éloges &amp; l’admiration de la
+                    postérité la plus reculée&#xA0;; &amp; loin d’avoir eu le sot orgueil de se
+                    croire supérieurs à leurs maîtres, ils ont avoué qu’ils leur étoient redevables
+                        <pb n="121" xml:id="p121"/>des beautés qu’on trouvoit répandues dans leurs
+                    ouvrages. En effet, parcourez leurs Ecrits, tout y respire le goût, tout y porte
+                    l’empreinte du génie, tout y rappelle la savante Antiquité. Tel est encore
+                    aujourd’hui, le caractère distinctif des ouvrages du Pline de la France<note
+                        n="(*)" place="bottom">M. le Comte de <hi rend="i"><hi rend="sc"
+                            >BUFFON</hi></hi>.</note>, ce Savant illustre, ce génie vraiment
+                    créateur, l’honneur &amp; la gloire de son siècle, ce Philosophe profond, cet
+                    Historien éloquent &amp; sublime de la Nature, auquel elle semble avoir pris
+                    plaisir à révéler ses secrets les plus cachés.</p>
+                <p/>
+                <p><hi rend="sc">Les Anciens</hi> seront toujours les maîtres &amp; les modèles de
+                    tout <pb n="122" xml:id="p122"/>Auteur, qui, jaloux de sa gloire, voudra que ses
+                    Ecrits passent à la postérité. C’est moins la mal-adresse &amp; l’ignorance de
+                    Perrault qui l’ont fait succomber, que l’impossibilité de soutenir &amp; de
+                    défendre une cause aussi ridicule &amp; aussi mauvaise que celle qu’il avoit
+                    entreprise. Les Boileau, les Racine eux-mêmes y auroient échoué. Qui pouvoit
+                    mieux cependant y réussir que ces grands hommes, dont les veilles avoient été
+                    constamment employées à l’étude de l’Antiquité&#xA0;? Qui devoit par conséquent
+                    juger avec plus d’autorité, de connoissance &amp; d’intérêt les beautés &amp;
+                    les défauts des ouvrages des Anciens&#xA0;? A quoi songeoit donc le bel-esprit,
+                    de s’exposer, par son <pb n="123" xml:id="p123"/>ignorance, à la honte d’une
+                    défaite certaine, en n’employant même contre lui que les armes du sens
+                    commun&#xA0;? Envain appela-t-il à son secours &amp; <hi rend="sc">la Motte</hi>
+                    &amp; <hi rend="sc">Fontenelle</hi>. Ces deux Ecrivains étoient eux-mêmes un
+                    exemple, qui n’établissoit pas la supériorité des Modernes. Si l’on estime dans
+                    l’un le prosateur ingénieux, le versificateur de la raison, on est forcé
+                    d’avouer que les trois quarts de ses Odes &amp; de ses Fables glacent d’ennui le
+                    lecteur le plus bénévole. Si l’on aime dans l’autre l’art d’orner &amp;
+                    d’embellir le compas d’Uranie&#xA0;; si l’on applaudit à la touche ingénieuse
+                    &amp; savante de ses <hi rend="i">Oracles</hi>, à la finesse de ses <hi rend="i"
+                        >Dialogues</hi>, à l’agréable Philosophie de ses <hi rend="i">Mondes</hi>,
+                    au tour <pb n="124" xml:id="p124"/>inimitable de ses <hi rend="i">Eloges</hi>,
+                    on est, malgré soi, dégoûté du jargon fade &amp; précieux de ses <hi rend="i"
+                        >Idylles</hi> &amp; de ses <hi rend="i">Eglogues</hi>, si éloignées du
+                    naturel &amp; de l’élégante simplicité de Théocrite &amp; de Virgile.</p>
+                <p/>
+                <p><hi rend="sc">On doit</hi> être étonné, qu’une pareille dispute se soit élevée
+                    dans un siècle, où les Sciences étoient si manifestement redevables aux Anciens
+                    de l’éclat qu’elles répandoient sur toute la France. Mais le bel-esprit alors
+                    imitoit Séneque, qui ne cessa, pour soutenir sa réputation, de déprimer les
+                    Anciens, sentant bien que, si l’on s’attachoit une fois à la lecture de leurs
+                    ouvrages, on ne pourroit jamais lire ni goûter les <pb n="125" xml:id="p125"
+                        />siens<note n="(*)" place="bottom"><quote>«&#xA0;Quem non equidem omninò conabar
+                        excutere, sed potioribus præferri non sinebam, quos illé non destiterat
+                        incessere, cùm diversi sibi conscius generis, placere se in dicendo posse
+                        iis, quibus illi placerent, diffideret. &#xA0;»<bibl> Quintil. Lib. X, Cap. I, in
+                        fin.</bibl></quote></note>. C’est ainsi que la décadence du goût suivit le beau siècle
+                    d’Auguste&#xA0;; c’est ainsi que le nôtre touche peut-être de près à l’époque
+                    humiliante de l’ignorance des premiers siècles.</p>
+                <p/>
+                <p><hi rend="sc">La Nature</hi> a paru se reposer&#xA0;; après avoir enfanté tant de
+                    merveilles pendant le siècle dernier. Mais dire qu’elle se soit épuisée, c’est
+                    l’outrager&#xA0;; c’est autoriser la paresse, qui, bercée de la fausse idée
+                    qu’il n’est <pb n="126" xml:id="p126"/>plus rien de neuf à inventer, ferme les
+                    livres, laisse-là l’étude &amp; s’endort&#xA0;; c’est étouffer le génie
+                    naissant, l’empêcher d’éclore, &amp; le détourner de tenter des efforts
+                    heureux&#xA0;; c’est rendre enfin à l’ignorance tout son empire, &amp; au
+                    bel-esprit la gloire de se soutenir par ses frivoles &amp; inutiles productions.
+                    Envain on objecte sans cesse que les sources sont taries, &amp; que les sentiers
+                    sont trop battus&#xA0;: à force de le répéter, on le croit, &amp; le goût se
+                    perd. Quoi&#xA0;! les ouvrages de ces génies immortels de l’Antiquité, n’ont
+                    plus de beautés pour nous&#xA0;! Ils n’ont plus le pouvoir de nous enflammer,
+                    parce qu’ils ont enflammé ceux qui nous ont précédés&#xA0;! Pourquoi donc Horace
+                        <pb n="127" xml:id="p127"/>recommandoit-il avec tant de force aux Ecrivains
+                    de son temps &amp; aux Ecrivains à venir, de les lire &amp; relire jour &amp;
+                    nuit&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">N’accusons</hi> de ce préjugé, malheureusement trop établi, que
+                    notre méthode d’éducation. Les langues Grecque &amp; Latine y tiennent si peu de
+                    place, que l’Elève les oublie pour toujours, dès qu’il est une fois sorti des
+                    mains de son maître. Cependant elles sont la clef de toutes les Sciences &amp;
+                    de tous les Arts&#xA0;: elles sont utiles, dans tous les temps de la vie, à
+                    quiconque en a su profiter&#xA0;: elles aident &amp; favorisent les dispositions
+                    naturelles des ames heureusement nées, elles écartent le soupçon <pb n="128"
+                        xml:id="p128"/>honteux d’ignorance &amp; d’éducation négligée, elles ornent
+                    l’esprit, étendent les connoissances, conduisent directement aux sources
+                    premières du goût, ajoutent enfin un plus haut prix au mérite personnel de
+                    l’homme en place. Que l’on jugeoit mieux autrefois des avantages réels &amp; de
+                    l’utilité de ces deux langues&#xA0;! Il est vrai qu’alors l’institution de la
+                    jeunesse étoit mâle &amp; vigoureuse&#xA0;: aussi formoit-on des hommes. La
+                    science précédoit la connoissance du monde&#xA0;; &amp; loin de regarder comme
+                    perdues ces premières années consacrées à l’étude, &amp; si nécessaires à bien
+                    employer pour fonder quelque espérance sur l’avenir, les heures n’étoient pas
+                    encore assez longues <pb n="129" xml:id="p129"/>pour remplir un objet si
+                    essentiel &amp; si intéressant. Rapportons-nous-en au compte qu’en rendoit, pour
+                    l’instruction de sa famille, un des Ancêtres<note n="(*)" place="bottom"
+                            ><p>Henry de Mêmes en 1584. <quote>«&#xA0;Nous étions, écrivoit-il, debout à
+                            quatre heures du matin &amp; allions à cinq aux études…. Nous oyions les
+                            lectures jusques à dix heures sonnées sans intermission… Après dîner
+                            nous lisions par forme de jeu Sophocle, ou Aristophanes, ou Euripide,
+                            &amp; quelquefois Demosthenes, Cicero, Virgilius, Horatius…. Et le soir
+                            nous lisions en Grec ou en Latin&#xA0;». <bibl>Voy. <hi rend="i">Traité des
+                                Etudes</hi> de Rollin, Tom. I, pag.&#xA0;123 &amp; 124, Edit. <hi
+                                rend="i">in</hi>-4°.</bibl></quote></p>
+                        <p>J’ai actuellement sous les yeux une Traduction des Philippiques &amp; de
+                            plusieurs Oraisons de Démosthène, faite par M. N. de Nicolay, premier
+                            Président de la Chambre des Comptes de Paris, ayeul de M. de Nicolay,
+                            aujourd’hui premier Président de la même Chambre. Cette Traduction, qui
+                            n’est que manuscrite, pourroit soutenir le grand jour de l’impression,
+                            même à côté de l’excellente Traduction de feu M. l’Abbé d’Olivet.
+                            L’amour des Lettres, le mérite &amp; les talens ne sont pas moins
+                            héréditaires dans cette illustre Maison, que la vertu, l’honneur &amp;
+                            la probité.</p></note> du premier Président <pb n="130" xml:id="p130"
+                    />de Mêmes. La jeunesse éveillée dès l’aube du jour, voloit à l’étude. Elle se
+                    faisoit un jeu de la lecture des meilleurs Auteurs de l’Antiquité Grecque &amp;
+                    Latine&#xA0;; elle s’en nourrissoit, &amp; l’on voyoit avec plaisir l’esprit se
+                    développer, le jugement se former, le goût devenir pur &amp; solide. Le cours
+                    des études fini, on entroit dans le monde, non avec ces graces qui doivent tout
+                    à l’art, cette confiance hautaine, dont la présomption est la mère, ce ton libre
+                    &amp; décidé qu’on applaudit, &amp; qu’il seroit plus sage de réprimer ou de
+                    contenir&#xA0;; mais avec ces graces <pb n="131" xml:id="p131"/>ingénues, cette
+                    candeur aimable, cet embarras modeste, qui annoncent l’innocence des mœurs,
+                    cette juste méfiance de soi-même, compagne des vrais talens que l’expérience
+                    achève de perfectionner, &amp; qui conduisent aux places destinées à la
+                    naissance, briguées par la fortune, accordées à la faveur, &amp; que le mérite
+                    attend.</p>
+                <p/>
+                <p><hi rend="sc">Si</hi> cette méthode d’élever la jeunesse se fût conservée, nous
+                    aurions encore des hommes. Mais nos mœurs sont trop énervées, pour que
+                    l’éducation ne soit pas amollie. De-là naissent la plupart des vices du cœur
+                    &amp; des travers de l’esprit. Au moyen de la foible nourriture qu’on lui donne,
+                    il ne prend qu’une consistance <pb n="132" xml:id="p132"/>factice. Il ressemble
+                    à ces fruits sauvages, qui plaisent d’abord à la vue, &amp; dont la saveur
+                    détruit le charme. Comme il est vide, ses idées toujours vagues, quelquefois
+                    brillantes, ne sont jamais solides&#xA0;: présomptueux, il croit saisir tous les
+                    objets qu’il n’est pas capable d’atteindre&#xA0;; superficiel, il les effleure
+                    tous &amp; n’en embrasse aucun&#xA0;: fier, autant de ce qui lui manque, que de
+                    ce qu’il posséde, il s’arroge la supériorité, prend le ton, prononce &amp;
+                    décide en maître&#xA0;; son goût est toujours ou faux, ou bizarre, ou
+                    frivole&#xA0;: esclave de l’imagination, il en est tyrannisé &amp; séduit
+                    tour-à-tour&#xA0;; sans jugement &amp; sans principes, il se laisse emporter au
+                    premier vent des opinions, <pb n="133" xml:id="p133"/>l’erreur l’entraîne, &amp;
+                    c’est envain que la raison &amp; la vérité tentent de le ramener&#xA0;: il est
+                    trop aveuglé pour les reconnoître&#xA0;; il n’est pas assez fort pour
+                    rétrograder sur lui-même.</p>
+                <p/>
+                <p><hi rend="sc">Malgré</hi> l’évidence de ces défauts, qui deviennent de jour en
+                    jour plus communs, il semble qu’on se ligue aujourd’hui, pour ôter à la jeunesse
+                    le goût de la seule étude qui lui convienne, en ne l’occupant qu’à des
+                    exercices, sans doute utiles, mais qui pourroient si facilement s’allier avec
+                    ceux qui donnent à l’ame de la force &amp; de l’élévation, au génie du ressort
+                    &amp; de l’étendue, à l’esprit de la justesse &amp; de la solidité. Cette
+                    indifférence est le fruit du luxe &amp; de l’abus des <pb n="134" xml:id="p134"
+                    />richesses. En effet, à quoi peuvent servir la science &amp; le mérite, quand
+                    la fortune &amp; la protection disposent de tout, conduisent à tout&#xA0;? On ne
+                    réfléchit pas néanmoins assez sur le malheur d’une mauvaise éducation&#xA0;: ce
+                    malheur ne se répare jamais, parce qu’il n’est senti que lorsqu’il n’est plus
+                    temps d’y remédier. L’ignorance, qui en est ordinairement la suite, nous expose,
+                    quelque profession que nous embrassions, à commettre les fautes les plus
+                    graves&#xA0;; &amp; les gens en place, quelquefois dépourvus de talens,
+                    incapables de les apprécier dans autrui, assez injustes pour les rabaisser, pour
+                    en être jaloux &amp; les craindre, sont souvent la victime de leurs subalternes,
+                    parce que ceux-ci, mieux <pb n="135" xml:id="p135"/>élevés qu’eux &amp; plus
+                    instruits, secrètement offensés du joug humiliant auquel ils sont asservis, se
+                    vengent ordinairement de l’espèce d’hommage qu’ils sont contraints de rendre à
+                    l’ignorance, en méprisant l’homme autant qu’ils respectent sa place.</p>
+                <p/>
+                <p><hi rend="sc">Notre siècle</hi> cependant se glorifie d’être le siècle de
+                    l’esprit&#xA0;; c’est-à-dire, que nous faisons revivre le temps de Sénèque &amp;
+                    de Lucain. Nous nous flattons encore d’avoir étendu les progrès de la
+                    Philosophie. Mais quel triste retour sur nous-mêmes, quand nous sommes forcés
+                    d’avouer que c’est aux dépens du génie, du goût &amp; de l’imagination&#xA0;!
+                    Etrange Philosophie&#xA0;! dont l’art est <pb n="136" xml:id="p136"/>de détruire
+                    en nous toute sensibilité&#xA0;! Funeste Morale&#xA0;! dont le but est
+                    d’attaquer des vérités consacrées à jamais, &amp; d’ôter à l’humanité ses
+                    sentimens, à l’ame ses vertus, son espérance &amp; ses consolations, à l’esprit
+                    son calme &amp; sa gaïeté, aux mœurs leur pureté, leur candeur &amp; leur
+                    frein&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">La Postérité</hi> sera bien étonnée, quand elle cherchera vainement
+                    dans nos Ecrits prétendus Philosophiques (s’il est vrai qu’ils parviennent
+                    jusqu’à elle) cette abondance de lumières merveilleuses, que nous vantons avec
+                    tant d’emphase &amp; de complaisance&#xA0;! Elle demandera quelles vérités
+                    nouvelles nous avons enseignées, <pb n="137" xml:id="p137"/>quelles erreurs nous
+                    avons détruites, quelles ténèbres nous avons dissipées&#xA0;? Notre égoïsme
+                    révoltant ne lui imposera point&#xA0;: elle verra que nous nous sommes fait
+                    illusion à nous-mêmes&#xA0;; que notre imagination exaltée n’a enfanté que des
+                    rêves ridicules ou dangereux&#xA0;; que nous nous sommes crus riches de quelques
+                    lambeaux ramassés dans l’école d’un scepticisme effronté&#xA0;: elle nous
+                    comparera aux enfans, qui, par une indiscrète curiosité, déchirent &amp; brisent
+                    tout ce qu’ils touchent&#xA0;; enfin elle décidera, que nos lumières &amp; notre
+                    esprit n’ont servi qu’à corrompre notre cœur, &amp; à nous égarer.</p>
+                <p/>
+                <p><hi rend="sc">La Postérité</hi> sera bien plus <pb n="138" xml:id="p138"/>étonnée
+                    encore, quand elle apprendra par nos propres ouvrages, que, loin de soutenir
+                    l’art admirable des Corneille, des Racine &amp; des Molière, nous l’avons
+                    ridiculement travesti en Pantomimes &amp; en Drames froids, insipides &amp;
+                    dégoûtans (genre cependant dont nous nous faisons honneur d’être les
+                    inventeurs). Quelle gloire&#xA0;! ou plutôt quelle erreur, quel abus de
+                    l’esprit&#xA0;! Mais comment pourroit-on faire aujourd’hui des Tragédies, <hi
+                        rend="i">nos mœurs</hi>, disons-nous, ne sont point <hi rend="i"
+                        >Poëtiques</hi>&#xA0;? L’étoient-elles davantage du temps de Corneille &amp;
+                    de Racine&#xA0;? Est-il besoin que le poignard &amp; le laurier de Melpomène
+                    soient toujours teints &amp; arrosés de sang&#xA0;? <pb n="139" xml:id="p139"
+                    />Qu’ tendons-nous par <hi rend="i">mœurs Poëtiques</hi>&#xA0;? Faut-il que des
+                    révolutions soudaines, des guerres cruelles, des orages imprévus, des événemens
+                    extraordinaires &amp; sinistres, des coups de foudre redoublés, jettent le
+                    trouble dans notre ame &amp; nous agitent comme le Démon de la Pithonisse&#xA0;?
+                    Faut-il que le sang coule sur les Autels, que la terre en soit abreuvée, que
+                    l’ennemi vainqueur boive celui du vaincu&#xA0;? Si cela est, les Caraïbes ont
+                    des <hi rend="i">mœurs</hi> bien <hi rend="i">Poëtiques</hi>, &amp; leurs Poëtes
+                    doivent être horriblement Tragiques&#xA0;! N’allons point chercher des modèles
+                    de l’Art dans des mœurs aussi atroces&#xA0;; rendons graces à la Providence de
+                    ce que les nôtres sont douces &amp; civilisées&#xA0;; &amp; périsse plutôt l’Art
+                    à jamais, <pb n="140" xml:id="p140"/>que de devoir sa perfection &amp; son
+                    excellence aux malheurs publics&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">La tragédie</hi> chez tous les Peuples du monde, où elle est connue
+                    &amp; cultivée, a toujours eu pour fondement <hi rend="i">la Terreur</hi> &amp;
+                        <hi rend="i">la Pitié</hi>, &amp; jamais <hi rend="i">l’Horreur</hi>. Voilà
+                    ses deux seuls ressorts, c’est au génie à les employer. O Athéniens&#xA0;!
+                    Peuple avide de gloire, dont les Arts annonçoient le goût, les Sciences le
+                    génie, &amp; la gaïeté le caractère&#xA0;! Vous qui suiviez avec le même attrait
+                    &amp; l’austère sagesse &amp; l’aimable folie&#xA0;! Peuple charmant &amp;
+                    frivole, humain &amp; brave, ingénieux &amp; savant, philosophe &amp;
+                    voluptueux, avec lequel nous avons tant de ressemblance, n’aviez-vous pas <pb
+                        n="141" xml:id="p141"/>des Sophocle &amp; des Euripide, des Aristophane
+                    &amp; des Menandre, des Socrate &amp; des Platon, dans les temps même où vos
+                    prospérités rendoient vos mœurs encore plus douces &amp; plus
+                    voluptueuses&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">La stérilité</hi> que nous éprouvons dans presque tous les genres,
+                    peut bien autoriser nos plaintes&#xA0;; mais elle démontre en même temps, que le
+                    siècle de la fausse Philosophie, ne peut être celui du génie. Nous sentons nos
+                    pertes, &amp; plus encore l’impuissance de les réparer. Les commencemens de ce
+                    siècle, sembloient s’annoncer par de plus heureux présages.</p>
+                <p/>
+                <p><hi rend="sc">Melpomène</hi> pleuroit encore <pb n="142" xml:id="p142"/>Racine,
+                    lorsque <hi rend="sc">Crébillon</hi> parut. Ce grand homme, par lequel la nature
+                    vouloit terminer les prodiges du règne de <hi rend="sc">Louis</hi>&#xA0;XIV,
+                    s’ouvrit une nouvelle route pour marcher à l’immortalité. Un Athlète qui
+                    descendoit dans l’arène où Corneille &amp; Racine avoient triomphé tant de fois,
+                    devoit trembler. Crébillon ne se le dissimula point&#xA0;: mais, avec une ame
+                    forte &amp; un génie mâle, il s’empara d’un genre qu’aucun autre avant lui
+                    n’avoit osé tenter, &amp; vint, la coupe d’<hi rend="i">Atrée</hi> à la main,
+                    s’asseoir entre l’Auteur du Cid &amp; celui d’Athalie. L’envie voudroit envain
+                    lui disputer le laurier dont il est couronné, Crébillon sera toujours regardé
+                    comme le Poëte le plus Tragique <pb n="143" xml:id="p143"/>que la France ait eu.
+                    La terreur est l’ame de toutes ses Tragédies&#xA0;; elles respirent la noble
+                    simplicité de l’Antique. Il se forma particulièrement sur les Grecs qu’il
+                    aimoit, qu’il avoit étudiés &amp; approfondis&#xA0;; il semble sur-tout qu’il
+                    ait pris Eschyle &amp; Sophocle pour modèles &amp; pour maîtres. Son coloris est
+                    vigoureux &amp; sombre, son style pathétique &amp; serré, sa versification noble
+                    &amp; majestueuse, &amp; dont les taches sont effacées par les plus grandes
+                        beautés<note n="(*)" place="bottom">
+                        <quote>
+                            <l rend="i">Verùm ubi plura nitent in carmine, non ego paucis</l>
+                            <l><hi rend="i">Offendar maculis</hi>… <hi rend="sc">Hor</hi>. de Arte
+                                Poëticâ.</l>
+                        </quote>
+                    </note>. C’est par le genre dont Crébillon s’est saisi, que la Postérité le
+                    distinguera de tous ceux qui l’ont précédé. Quoiqu’il ait <pb n="144"
+                        xml:id="p144"/>assez travaillé pour sa gloire, il auroit enrichi davantage
+                    le Théâtre François, sans de malheureuses circonstances qui l’en éloignèrent
+                    trop longtemps pour les progrès de l’Art. Une Protectrice<note n="(*)"
+                        place="bottom">Madame la Marquise de Pompadour.</note> bienfaisante l’y
+                    rappela, lorsqu’il étoit plus qu’octogénaire. Il termina sa glorieuse carrière
+                    par le <hi rend="i">Triumvirat</hi>, dans lequel on retrouve encore avec
+                    surprise cette touche fière &amp; hardie, qui le caractérisera toujours.
+                    Indépendamment de son talent supérieur, qui le rendoit indulgent pour les talens
+                    des autres, Crébillon eut un mérite qu’on ne sauroit trop admirer. Pendant le
+                    cours de la vie la plus longue, son <pb n="145" xml:id="p145"/>cœur fut
+                    constamment fermé à l’envie &amp; à la basse jalousie. Heureux les Auteurs qui
+                    peuvent dire comme lui&#xA0;:</p>
+                <quote><l>«&#xA0;Aucun fiel n’a jamais empoisonné ma plume&#xA0;!
+                    &#xA0;»</l></quote>
+                <p>C’est une justice qu’il se rendit publiquement le jour de sa réception à
+                    l’Académie Françoise, &amp; que le Public confirma par les plus grands
+                    applaudissemens.</p>
+                <p/>
+                <p><hi rend="sc">Ainsi</hi> les hommes de génie ont senti dans tous les temps le
+                    prix de l’étude de l’Antiquité. Tant que sa lumière riche, féconde &amp; pure
+                    s’est répandue sur les Arts &amp; sur les Sciences, elle les a non-seulement
+                    embellis, mais perfectionnés. Pourrions-nous oublier que c’est elle, qui nous a
+                    tirés <pb n="146" xml:id="p146"/>de cette honteuse &amp; profonde ignorance où
+                    nous avons langui pendant tant de siècles&#xA0;? Serions-nous assez ingrats pour
+                    méconnoître ce que nous lui devons, &amp; pour croire que les prétendues
+                    richesses de l’esprit ne s’épuisent jamais&#xA0;? Une terre, quelque fertile
+                    qu’elle soit, a besoin de culture&#xA0;: elle ne produit d’elle-même que des
+                    herbes sauvages. Le prix, l’excellence &amp; la bonté de ses productions,
+                    dépendent toujours de la semence qu’on a déposée dans son sein, &amp; des soins
+                    qu’on lui donne. Or, si nous avons négligé de nous nourrir jusqu’à présent des
+                    excellens écrits de l’Antiquité, devons-nous être étonnés de la disette des bons
+                    ouvrages, de la décadence du goût, <pb n="147" xml:id="p147"/>&amp; de la
+                    frivolité des productions de notre siècle&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Le systême</hi> de Law qui changea, il y a quelques années, la
+                    fortune de presque tous les Citoyens, changea aussi les mœurs publiques &amp;
+                    particulières. La révolution devint générale, dans le Moral comme dans le
+                    Physique. Des hommes nouveaux, éblouis de leur fortune, &amp; n’ayant
+                    d’existence que par leurs richesses, crurent qu’elles étoient le seul &amp; le
+                    souverain bien&#xA0;: ils le dirent, &amp; agirent en conséquence&#xA0;; &amp;
+                    leur exemple persuada la multitude. Ils étalèrent un luxe qui fit gémir le
+                    pauvre, &amp; rougir l’honnête médiocrité. Personne ne fut plus à sa place, <pb
+                        n="148" xml:id="p148"/>chacun sortit de son rang, la corruption gagna tous
+                    les états, &amp; l’esprit se ressentit de ce désordre extrême. On songea moins
+                    alors à rendre l’éducation utile que somptueuse, &amp; la mollesse prit la place
+                    de l’austérité des mœurs antiques. Ce n’est point au sein des richesses &amp; de
+                    l’abondance que se forment les Héros &amp; les grands hommes. La gloire exige de
+                    ceux qui la recherchent, des peines, des veilles, des sacrifices &amp; de longs
+                    travaux&#xA0;: l’homme riche, énervé dès sa naissance, est incapable de les
+                    soutenir. D’ailleurs quel genre de gloire pourroit l’intéresser, quand il est
+                    sans cesse entouré de vils flatteurs, qui encensent ses vices, &amp; font
+                    l’éloge de ses sottises&#xA0;? Tandis que <pb n="149" xml:id="p149"/>l’homme de
+                    mérite, souvent abandonné de la fortune, souffre, gémit&#xA0;; veille,
+                    travaille, &amp; n’entend autour de lui que les sifflemens de l’envie irritée,
+                    &amp; quelquefois les hurlemens affreux de la calomnie&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">Le goût</hi> de la Littérature &amp; des Arts éprouva la même
+                    révolution que les mœurs. Les conditions confondues ensemble se corrompirent
+                    mutuellement. De-là naquirent l’intérêt sordide, les faux airs &amp; les
+                    ridicules de toute espèce. Les richesses balancèrent l’avantage des dignités
+                    &amp; des rangs&#xA0;; les plus élevés s’abaissèrent devant l’idole de la
+                    fortune, &amp; ne desirèrent plus que ses faveurs. La stupide opulence paya les
+                    Arts, <pb n="150" xml:id="p150"/>gagea l’Artiste, &amp; commanda au génie des
+                    Grotesques, pour remplacer les chef-d’œuvres des Le Brun, des Le Sueur &amp; des
+                    Mignard. La noble &amp; majestueuse simplicité de nos Ancêtres disparut, &amp;
+                    nos yeux, accoutumés autrefois à ce beau simple, furent tout-à-coup éblouis par
+                    un luxe porté à l’excès.</p>
+                <p/>
+                <p><hi rend="sc">Telle est</hi>, dans ce siècle, l’époque où les Lettres
+                    commencèrent à languir parmi nous. Cependant l’Auteur de <hi rend="i"
+                        >Rhadamiste</hi> règnoit encore sur la scène, &amp; Melpomène annonçoit, par
+                    le succès brillant d’<hi rend="i">Œdipe</hi>, un nouvel Elève comblé de ses
+                    faveurs. Mais <hi rend="i">Zaïre, Brutus, Mahomet, Mérope</hi>, &amp; tant
+                    d’autres <pb n="151" xml:id="p151"/>pièces qui cimentent la gloire &amp; forment
+                    la couronne de ce célèbre &amp; fécond Auteur, n’ont point empêché le mauvais
+                    goût de prévaloir. M. <hi rend="sc">De voltaire</hi> eut à combattre, en
+                    s’élançant dans la carrière, les paradoxes du bel-esprit, qui ne tendoient à
+                    rien moins qu’à proscrire à la fois du Théâtre, les règles les plus sages &amp;
+                    les charmes de la Poësie. Dans ce combat inégal, La Motte fut terrassé par de
+                    bonnes raisons &amp; par d’excellens vers.</p>
+                <p/>
+                <p><hi rend="sc">Le bel-esprit</hi> est en Littérature, ce que sont en Morale les
+                    Casuistes relâchés. L’austérité des préceptes l’effraye&#xA0;; &amp; comme il
+                    n’a ni le courage, ni la force de les pratiquer, il <pb n="152" xml:id="p152"
+                    />lui est plus commode de s’y soustraire. En cela, il a pour partisans le plus
+                    grand nombre. La nouvelle tentative qu’il venoit de faire n’étoit pas plus
+                    raisonnable que la guerre qu’il avoit déclarée aux Anciens&#xA0;; mais il étoit
+                    de son intérêt d’attaquer toujours&#xA0;; ses défaites ne le décourageoient
+                    point. Il savoit bien qu’il révolteroit quelques rigoristes&#xA0;; il s’en
+                    mettoit peu en peine, pourvu qu’il gagnât du terrein. En effet il répandit le
+                    mauvais goût avec une rapidité surprenante. Adroit Protée, il se métamorphosa
+                    dans tous les genres d’Eloquence. On le vit dans la Chaire, sur le Théâtre, au
+                    Barreau&#xA0;; il écrivit l’Histoire, composa des Romans, disserta, versifia,
+                    &amp; se fit <pb n="153" xml:id="p153"/>tour-à-tour Métaphysicien, Géomètre
+                    &amp; Philosophe. La Critique le poursuivit sous tous ses déguisemens, &amp; le
+                    força toujours de reparoître sous sa forme naturelle. Elle fut la terreur du
+                    Néologisme, qu’il s’efforçoit d’établir&#xA0;; &amp; défendit la pureté,
+                    l’élégance &amp; la clarté de la langue des Fénélon, des Racine &amp; des
+                    Boileau. Jamais enfin la saine critique n’eut plus d’occasions d’exercer sa
+                    sévérité contre tant d’ouvrages <quote>«&#xA0;que le mauvais goût fait admirer, malgré
+                    l’obscurité, la bassesse, l’enflure, l’affectation &amp; les puérilités dont ils
+                    sont remplis&#xA0;; ouvrages cependant qui ont non-seulement une approbation
+                    presque générale, mais qui ne l’ont que parce qu’ils <pb n="154" xml:id="p154"
+                    />sont mauvais&#xA0;; car un Discours sensé, qui n’a rien que de naturel, n’est
+                    d’aucun mérite&#xA0;; on n’y trouve point d’esprit. Mais ce qui est recherché,
+                    détourné, hors de la droite raison, voilà ce qu’on admire aujourd’hui&#xA0;»<note
+                        n="(*)" place="bottom">«&#xA0;Ne id quidem inutile, etiam corruptas
+                        aliquandò &amp; vitiosas orationes, quas tamen plerique judiciorum
+                        pravitate, mirantur, legi palàm pueris, ostendique in his quàm multa
+                        impropria, obscura, tumida, humilia, sordida, lasciva, effœminata
+                        sint&#xA0;: quæ non laudantur modò à plerisque, sed (quod pejus est) propter
+                        hoc ipsum quod sunt prava, laudantur. Nam sermo rectus &amp; secundùm
+                        naturam enunciatus, nihil habere ex ingenio videtur&#xA0;: illa verò quæ
+                        utcunque deflexa sunt, tanquam exquisitiora mirantur&#xA0;». <bibl>Quintil.
+                        Lib.&#xA0;II, Cap.&#xA0;5</bibl></note></quote>.</p>
+                <p><hi rend="sc">Rien</hi> n’annonçoit plus le mauvais état des lettres &amp; la
+                    décadence du bon goût, que cette foule de <pb n="155" xml:id="p155"/>Romans de
+                    toute espèce, qui se succédoient les uns aux autres si rapidement, que les
+                    femmes même ne pouvoient suffire à les lire tous. Ce genre d’ouvrages, accrédité
+                    par la plume féconde, agréable, intéressante &amp; facile d’un Ecrivain<note
+                        n="(*)" place="bottom">L’Abbé Prevost.</note>, exercé d’ailleurs plus
+                    utilement, devint presque l’occupation générale de tous nos Ecrivains
+                    beaux-esprits. Le Public fut inondé de brochures, de Contes &amp; d’Anecdotes.
+                    Encore, s’il n’y eût eu à la lecture de tant d’Ecrits frivoles d’autre perte à
+                    craindre que celle du temps&#xA0;! Malheureusement l’innocence &amp; la pureté
+                    des mœurs y étoient intéressées. Dans les uns, la licence la plus cynique
+                    sembloit <pb n="156" xml:id="p156"/>conduire les crayons obscènes &amp;
+                    grossiers du libertinage&#xA0;: dans les autres, non moins dangereuse, mais plus
+                    délicate &amp; plus réservée, affectant même une certaine retenue, elle ne
+                    laissoit tomber qu’à moitié le voile sur la nudité. Ceux qui n’étoient point
+                    infectés de ces vices, avoient d’autres défauts. Le plus apparent étoit le style
+                    maniéré, métaphysique &amp; souvent même inintelligible. Ce torrent de Romans
+                    s’écoula. Telle est l’inconstance de l’esprit à la mode&#xA0;; tout frivole
+                    qu’il est, il se lasse bientôt de la frivolité même, &amp; cherche à renouveler
+                    sans cesse les objets de son amusement. Le croira-t-on&#xA0;? La Géométrie eut
+                    son cours comme les Romans&#xA0;: l’engoument pour cette <pb n="157"
+                        xml:id="p157"/>science fut universel&#xA0;; tout, jusqu’aux femmes, s’en
+                    mêla&#xA0;: on alla même, pour leur plaire, jusqu’à traiter la galanterie
+                    géométriquement. N’est-ce pas là l’emploi le plus faux, &amp; l’abus le plus
+                    froid que l’on pût faire du bel-esprit&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Il avoit</hi> déjà depuis quelque temps, introduit au Théâtre son
+                    jargon Métaphysique &amp; ses Epigrammes, tandis que l’Auteur du <hi rend="i"
+                        >Glorieux</hi>, échappant aux vices à la mode, soutenoit encore la Scène
+                    Comique sur son penchant, &amp; y recevoit des applaudissemens justement
+                    mérités. Mais moins Comique que Regnard, il a le premier altéré le masque de
+                    Thalie, &amp; il peut être regardé <pb n="158" xml:id="p158"/>comme le
+                    précurseur d’un genre, où il falloit tout le talent de <hi rend="sc">La
+                        chaussée</hi> pour réussir. Ce genre hermaphrodite, absolument inconnu aux
+                    Anciens, auquel on a donné le nom de <hi rend="i">Comique larmoyant</hi>, n’a
+                    pas triomphé sans peine des contradictions qu’il a essuyées dans sa
+                    naissance&#xA0;; &amp; les Auteurs médiocres ont bien abusé depuis de
+                    l’indulgence qui l’a fait admettre. La Chaussée, Ecrivain correct &amp; bon
+                    versificateur, n’avoit aucun modèle à se proposer&#xA0;: sa sensibilité
+                    naturelle fut son seul guide. Sa manière de voir, différente en tout de celle de
+                    Molière, ne lui présentoit jamais les objets du côté comique ou plaisant. Il ne
+                    chercha point à exciter le rire de la malignité <pb n="159" xml:id="p159"/>en
+                    faisant la satire du vice ou du ridicule&#xA0;; il voulut seulement intéresser
+                    le cœur, en nous peignant ses foiblesses. Il n’envisagea dans son Art, que la
+                    gloire de plaire au sexe le plus sensible, &amp; le plaisir de faire couler ses
+                    pleurs au récit tendre &amp; passionné des sentimens qu’il inspire. Si cette
+                    manière de peindre les passions n’a rien de révoltant, elle n’a rien non plus
+                    qui serve à nous en corriger&#xA0;; &amp; ce n’étoit pas sans doute le but de de
+                    l’Auteur de <hi rend="i">Mélanide</hi>. Cette pièce, une des meilleures
+                    productions de la Chaussée, doit servir de modèle à tous ceux, qui, comme lui,
+                    ne peuvent pas atteindre au véritable but de la Comédie. Le pathétique y est
+                    heureusement soutenu, sans <pb n="160" xml:id="p160"/>aucun mélange de comique
+                    trivial. Mais, malgré le mérite de ce nouveau genre, quand même on le porteroit
+                    au plus haut degré de perfection, il sera toujours infiniment au-dessous de
+                    celui de la bonne Comédie. Quelques Censeurs trop sévères auroient même voulu le
+                    proscrire du Théâtre&#xA0;: peut-être avoient-ils raison. Les partisans de la
+                    mode &amp; de la nouveauté ont beau dire, que nous nous sommes enrichis d’un
+                    genre ignoré de Molière, &amp; qu’il ne faut pas borner nos plaisirs, dont le
+                    cercle est déja trop étroit&#xA0;: d’accord&#xA0;; mais qu’il naisse donc des la
+                    Chaussées, &amp; que ses tristes &amp; impitoyables imitateurs cessent de
+                    multiplier nos ennuis (dont le cercle est <pb n="161" xml:id="p161"/>beaucoup
+                    trop grand) par leurs Drames éternels, échafaudés sur des fables triviales, mal
+                    conçues, sans génie, sans goût, sans vraisemblance, sans chaleur &amp; sans
+                    style.</p>
+                <p/>
+                <p><hi rend="sc">Quels sont</hi>, en effet, la plupart de ces Drames, tant vantés
+                    par la médiocrité, &amp; presque tous calqués les uns sur les autres, sinon des
+                    Romans aussi froidement écrits que mal dialogués, dont les aventures platement
+                    bourgeoises, irreligieuses ou révoltantes, n’excitent en nous d’autre sentiment
+                    que le dégoût, en laissant l’ame douloureusement triste, dans l’impuissance de
+                    se rendre raison de sa tristesse, &amp; de s’y plaire&#xA0;? Romans, dont
+                    souvent le seul but <pb n="162" xml:id="p162"/>est de fronder les usages reçus,
+                    d’établir des opinions nouvelles, &amp; de faire l’Apologie des écarts &amp; des
+                    erreurs dans lesquels les passions jettent une jeunesse indocile &amp;
+                    fougueuse, en lui faisant contracter des alliances également condamnées par la
+                    raison, par l’honneur &amp; par les loix.</p>
+                <p/>
+                <p><hi rend="sc">Mais</hi>, supposons nos Drames aussi parfaits qu’ils pourroient
+                    l’être, quels avantages les mœurs en retireront-elles&#xA0;? Quels vices
+                    corrigeront-ils&#xA0;? De quels ridicules arrêteront-ils le cours&#xA0;? Quels
+                    sentimens nouveaux feront-ils naître dans notre ame&#xA0;? Quelles vertus nous
+                    inspireront-ils&#xA0;? Cet attendrissement, ces pleurs qu’ils <pb n="163"
+                        xml:id="p163"/>prétendent arracher, &amp; sur lesquels ils fondent tout leur
+                    mérite, peuvent-ils jamais nous dédommager de la perte de la bonne
+                    Comédie&#xA0;? Osera-t-on soutenir qu’ils sont capables de la remplacer&#xA0;?
+                    Ils ont chassé les Ris du Théâtre &amp; même de la société, en changeant
+                    journellement nos mœurs. Ils ont pris un si grand empire, qu’ils l’étendent même
+                    jusques sur le spectacle le moins susceptible de tristesse (l’Opéra Comique)
+                    d’où ils ont si mal-adroitement banni le Vaudeville, cet enfant malin de la
+                    gaieté Françoise. Avouons-le&#xA0;: les Dramatistes &amp; les Chimistes de nos
+                    jours se ressemblent assez<note n="(*)" place="bottom"><p><quote><bibl>Voy. dans le Journal
+                            Encyclopédique du mois d’Octobre&#xA0;1771, Tom.&#xA0;VII,
+                            Part.&#xA0;II, pag.&#xA0;286 &amp; suiv. </bibl>«&#xA0;l’expérience faite le
+                            16&#xA0;Août&#xA0;1771 dans le laboratoire du sieur Rouelle,
+                            Démonstrateur de Chimie au Jardin Royal, par laquelle il a été prouvé
+                            que le diamant s’évapore au grand feu, &amp; s’y volatilise tout entier,
+                            sans laisser dans le creuset aucune trace de matière&#xA0;»</quote>. O&#xA0;!
+                            l’heureux siècle, où</p>
+                        <p>Le cuivre devient or, &amp; l’or devient à rien&#xA0;!</p></note> par le
+                        <pb n="164" xml:id="p164"/>secret qu’ils ont trouvé de détruire sans retour,
+                    les uns, les plus belles &amp; les plus précieuses productions du génie&#xA0;;
+                    les autres, celles de la nature, sans qu’on puisse retirer la moindre utilité de
+                    leurs découvertes.</p>
+                <p><hi rend="sc">N’est-ce</hi> donc pas porter un coup mortel au bon goût, que de
+                    s’efforcer d’introduire sur la scène ce nouveau genre de Drame, où les moyens de
+                    réussir coûtent si peu, par la dangereuse facilité dont il est
+                    susceptible&#xA0;? <pb n="165" xml:id="p165"/>où il suffit seulement d’avoir
+                    l’imagination fantasque &amp; l’esprit Romanesque, où il ne faut qu’étudier
+                    quelques effets singuliers, &amp; les dessiner, compasser le jeu des
+                    Interlocuteurs, pour en composer une pantomime, &amp; se guindant sur les
+                    échasses d’une morale commune, étaler d’un ton emphatique des tirades, des
+                    maximes, &amp; des sentimens préparés de loin &amp; cousus après coup au
+                    Roman&#xA0;: genre où le style est ce qu’on soigne le moins, dont la lecture,
+                    dénuée de l’illusion &amp; de l’appareil du Théâtre, n’est pas
+                    supportable&#xA0;; monstre, en un mot, qu’Horace, dans son Art Poëtique, auroit
+                    eu peine à décrire, pour en donner l’idée.</p>
+                <pb n="166" xml:id="p166"/>
+                <p><hi rend="sc">Comment</hi> reconnoître, à cette sombre tristesse, à ces pleurs, à
+                    ces longs &amp; ennuyeux gémissemens, à ces sanglots ridicules, la riante
+                    Thalie&#xA0;? La reconnoîtra-t-on davantage, quand, nouvelle Euménide, elle
+                    s’arme du fouet des Furies, pour en frapper publiquement des Citoyens honnêtes
+                    &amp; vertueux, &amp; que dans ses jeux cruels elle se plaît à ranimer les
+                    cendres du cynique Aristophane&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Ce n’est pas</hi> sous ces déguisemens difformes, mais accompagnée,
+                    comme elle devroit l’être toujours, des Jeux &amp; des Ris folâtres, que M. <hi
+                        rend="sc">Piron</hi> nous la présente dans l’heureux sujet de la <hi
+                        rend="i">Métromanie</hi>. Cette Comédie admirable, digne du génie <pb
+                        n="167" xml:id="p167"/>de Molière, est la seule Comédie, qui existe dans le
+                    vrai genre, depuis le <hi rend="i">Misantrope</hi>. Quelle simplicité dans le
+                    plan&#xA0;! Quelle vérité dans les caractères&#xA0;! Quelle chaleur dans
+                    l’action&#xA0;! Que de beautés &amp; de traits piquans dans les détails&#xA0;!
+                    Quel fonds inépuisable de vrai comique&#xA0;! Quelle pièce enfin peut-on lui
+                    comparer, où le <hi rend="i">vis Comica</hi> brille davantage &amp; à moins de
+                    frais&#xA0;? <quote>«&#xA0;Si, comme le dit M. Piron<note n="(*)" place="bottom"><bibl>Voy.
+                        Œuvres de M. Piron, Tom.&#xA0;III, la Préface de <hi rend="i">la
+                            Métromanie</hi>, pag.&#xA0;215.</bibl></note>, ce fut pour Molière une bonne
+                    journée de Philosophe, lorsqu’après avoir fait le plan du Misantrope, il entra
+                    dans ce champ vaste, où tous les ridicules se venoient <pb n="168" xml:id="p168"
+                    />présenter en foule, &amp; comme d’eux-mêmes, aux traits qu’il savoit si bien
+                    lancer&#xA0;: »</quote> quelle excellente journée aussi pour M. Piron, quand, après
+                    avoir conçu le plan de la Métromanie, il entra dans un champ non moins vaste, où
+                    de nouveaux ridicules venoient également en foule s’offrir pour être immolés sur
+                    la scène par l’imagination la plus riante&#xA0;? Nous ne craignons point de le
+                    dire, Molière n’eût pas fait mieux&#xA0;; &amp; s’il est quelque chef-d’œuvre
+                    dont notre Théâtre Comique puisse se glorifier, la <hi rend="i">Métromanie</hi>
+                    est celui qui fait le plus d’honneur à notre siècle, &amp; suffit pour
+                    immortaliser son Auteur.</p>
+                <p><hi rend="sc">Le Peintre charmant</hi> de <pb n="169" xml:id="p169"/><hi rend="i"
+                        >Ververt</hi> &amp; de <hi rend="i">la Chartreuse</hi> n’a pas moins mérité
+                    les suffrages du goût, lorsqu’il a mis sur le Théâtre sa Comédie du <hi rend="i"
+                        >Méchant</hi>. Style, coloris, situations, traits Comiques, tout dans cette
+                    pièce annonce un Maître élevé dans les bonnes lettres &amp; dans l’Ecole de
+                    Thalie. Un favori des Muses, tel que M. <hi rend="sc">Gresset</hi>, dont le
+                    pinceau agréable &amp; facile est fait pour traiter tous les sujets, pouvoit-il
+                    s’écarter des règles de son Art&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Rien</hi> n’étoit plus capable d’arrêter, dès sa source, le torrent
+                    du mauvais goût, que le succès bien mérité de la <hi rend="i">Métròmanie</hi>.
+                    Mais que peuvent le bon sens &amp; la raison contre l’enthousiasme, la folie, la
+                        <pb n="170" xml:id="p170"/>mode &amp; la nouveauté&#xA0;? Notre siècle est
+                    fait pour offrir les contrastes les plus frappans. N’avons-nous pas vu la
+                    majesté de la Scène Lyrique souillée par de pitoyables Bouffons, dignes à peine
+                    des tréteaux d’Italie, tandis que l’Orphée de nos jours faisoit retentir le
+                    temple de l’harmonie de ses divins concerts. Avec quel respect, cet homme
+                    sublime dans son art, traita-t-il toujours Lulli&#xA0;? Il le regardoit
+                    non-seulement comme son maître, mais il avouoit qu’il lui devoit tout&#xA0;;
+                    &amp; loin de déprimer la musique de ce Père du Théâtre Lyrique, il n’en parloit
+                    que pour en faire admirer les beautés. C’est ainsi que l’homme de génie montre
+                    sa supériorité, &amp; associe sa gloire à celle <pb n="171" xml:id="p171"/>des
+                    grands hommes qui l’ont précédé. <hi rend="sc">Que Rameau</hi> dut être flatté,
+                    lorsque, sans le prévoir, ni l’avoir recherché, malgré le goût des Fredons
+                    d’Italie qui commençoit à dominer, il reçut l’éclatant témoignage de l’estime
+                    que la Nation faisoit de son talent&#xA0;! Tel fut l’hommage qu’on rendit à
+                        Virgile<note n="(*)" place="bottom"><quote>«&#xA0;Testis ipse populus, qui, auditis
+                        in theatro versibus Virgilii, surrexit universus, &amp; fortè præsentem
+                        spectantemque Virgilium, veneratus est, sic quasi Augustum&#xA0;». <bibl><hi
+                            rend="i">Dialog. de Orat. C. Cornel. Taciti</hi>, Tom&#xA0;IV,
+                        p.&#xA0;131, <hi rend="i">Edit. Gabrielis Brottier</hi>.</bibl></quote></note>, présent
+                    &amp; spectateur par hasard au moment où l’on récitoit ses vers sur le Théâtre,
+                    le peuple l’ayant apperçu dans la foule, se leva de concert &amp; <pb n="172"
+                        xml:id="p172"/>s’inclina devant lui, comme il eût fait devant <hi rend="sc"
+                        >Auguste</hi>.</p>
+                <p/>
+                <p><hi rend="sc">Quoique</hi> nous n’ayons point de Virgile parmi nous, nous imitons
+                    les Romains, lorsque nous demandons à grands cris l’Auteur (souvent d’une
+                    mauvaise pièce) &amp; que nous l’applaudissons. Ce suffrage public, dont
+                    l’époque est encore récente, seroit d’un prix inestimable, s’il n’étoit accordé
+                    qu’au grand mérite. Malheureusement on le prodigue aujourd’hui, &amp; malgré
+                    cette condescendance, la modestie est si peu de mode dans ce siècle, que nous ne
+                    rougissons point de nous donner à nous-mêmes les plus grands éloges, quand
+                    d’ailleurs on nous les refuse <pb n="173" xml:id="p173"/>avec justice. Ne
+                    s’imagineroit-on pas, en lisant les Préfaces de certains Drames ou Tragédies
+                    Bourgeoises, que leurs Auteurs excellent dans l’art de peindre les passions
+                    &amp; de les émouvoir&#xA0;? N’est-il pas aussi plaisant que ridicule, de les
+                    entendre, on ne dit pas se comparer modestement à Corneille, à Racine, à
+                    Molière, mais se mettre hardiment au-dessus d’eux&#xA0;? Paroît-il en effet un
+                    seul Drame, qui ne soit accompagné d’une Poëtique nouvelle, où l’Auteur, eût-il
+                    été sifflé, ne fasse le plus grand éloge de sa pièce, ne justifie sa manière sur
+                    les principes qu’il s’est formés, &amp; ne cherche à persuader qu’il en sait
+                    plus qu’Aristote &amp; Horace&#xA0;? C’est bien pis, quand, <pb n="174"
+                        xml:id="p174"/>par indulgence &amp; pour l’encourager, on a cru devoir
+                    l’applaudir. Rien ne peut alors égaler son orgueil, quoique souvent sa première
+                    production soit aussi la dernière.</p>
+                <p/>
+                <p><hi rend="sc">Telle est</hi>, en général, la destinée de la plupart de nos
+                    modernes Athlètes. Devroit-on être étonné de leur foiblesse &amp; de leur
+                    stérilité, si l’on faisoit attention au peu de nourriture qu’ils ont prise en
+                    tout genre&#xA0;? A les voir néanmoins s’élancer dans l’Arène, ne croiroit-on
+                    pas leur victoire assurée. Mais comme ils n’ont point consulté leurs forces, à
+                    peine ont-ils franchi la barrière, qu’ils sont terrassés, &amp; leur chûte ne
+                    les rend que plus vains. Eh&#xA0;! comment <pb n="175" xml:id="p175"/>ne le
+                    seroient-ils pas&#xA0;? Prônés par la cabale &amp; soutenus par l’intrigue, ils
+                    intéressent à leur sort l’amour-propre de leurs Protecteurs&#xA0;: or, peut-on
+                    accuser des Protecteurs d’ignorance &amp; de mauvais goût&#xA0;? Protéger,
+                    n’est-ce pas jouer un personnage, s’ériger en arbitre du goût, en dispensateur
+                    de la gloire, en juge des talens&#xA0;? Personne, en fait d’esprit, ne se
+                    récuse&#xA0;; chacun se croit en droit de tenir le Tribunal où l’Auteur vient
+                    présenter sa pièce&#xA0;: elle y est infailliblement applaudie&#xA0;: on immole
+                    de concert à ce chef-d’œuvre nouveau tous les chef-d’œuvres des Corneille, des
+                    Racine &amp; des Molière&#xA0;; &amp; l’Auteur, enivré de l’encens le plus
+                    grossier, par un trait qui peint bien à la fois <pb n="176" xml:id="p176"/>&amp;
+                    son orgueil &amp; la sottise de ses admirateurs, les félicite à son tour, de
+                    pouvoir apporter comme une preuve certaine d’esprit, de discernement &amp; de
+                    goût, les éloges qu’ils ont prodigués aux beautés de son ouvrage.</p>
+                <p/>
+                <p><hi rend="sc">Ce manège</hi> d’aller de maison en maison déclamer ses ouvrages,
+                    pour se faire des partisans, n’a jamais été employé par les hommes à talens
+                    supérieurs. Ils n’ont pas besoin de ces suffrages obscurs, mendiés par la
+                    médiocrité, presque toujours accordés par l’ignorance, &amp; souvent surpris à
+                    la distraction. Une lecture rapidement faite, avec toute la chaleur de
+                    l’amour-propre, à des oreilles <pb n="177" xml:id="p177"/>peu exercées, à des
+                    amis complaisans, à de prétendus connoisseurs, à des esprits prévenus, à des
+                    sots même aussi vains que Midas, laisse-t-elle la liberté de remarquer les
+                    défauts d’un ouvrage&#xA0;? N’est-on jamais la dupe de l’art du déclamateur,
+                    dont l’intérêt est de glisser légèrement sur les endroits foibles ou défectueux,
+                    &amp; d’appuyer sur quelques beautés de détail&#xA0;?</p>
+                <p/>
+                <p><hi rend="sc">Ce n’est</hi> donc point dans ces cotteries Littéraires, auxquelles
+                    l’envie, la malignité &amp; la jalousie président tour-à-tour&#xA0;; moins
+                    encore dans ces cercles brillans, que la curiosité, le désœuvrement &amp;
+                    l’ennui rassemblent, dont le bel-esprit &amp; la frivolité sont les Divinités
+                    tutélaires, <pb n="178" xml:id="p178"/>où l’on parle beaucoup sans rien dire,
+                    &amp; où l’on juge de tout sans rien savoir, où la fatuité daigne à peine
+                    écouter, où la prétention élève la voix, où la sottise s’extasie, &amp; la
+                    minauderie décide en faisant des nœuds&#xA0;; c’est dans le silence du cabinet,
+                    qu’un Auteur, jaloux de sa renommée, doit chercher un Aristarque. Là, dépouillé
+                    de tout sentiment d’amour-propre, le crayon à la main, toujours prêt à effacer,
+                    il peut&#xA0;; sans blesser la modestie, profiter des avis, ou recevoir les
+                    suffrages légitimes de la raison, du goût &amp; de la vérité. Ainsi se
+                    conduisoit <hi rend="sc">Racine</hi>&#xA0;: c’étoit à la Critique elle-même
+                    qu’il lisoit ses ouvrages, en les lisant à <hi rend="sc">Boileau</hi>.</p>
+                <pb n="179" xml:id="p179"/>
+                <p><hi rend="sc">Les temps</hi> sont bien changés depuis Racine&#xA0;! On ne
+                    consulte pas pour mieux faire, on ne cherche qu’à s’étaler&#xA0;; on n’est avide
+                    que de louanges éphemères. A peine la critique ose-t-elle élever la voix,
+                    qu’elle irrite la bile des Auteurs, arme la calomnie, produit les haines &amp;
+                    les inimitiés les plus cruelles. La licence à cet égard est portée à l’excès.
+                    Jamais siècle n’<hi rend="i">a mêlé à son escrime</hi>, pour me servir des
+                    expressions de Montagne<note n="(*)" place="bottom">Liv.&#xA0;III,
+                            Chap.&#xA0;<hi rend="sc">viii</hi>.</note>, <hi rend="i">tant d’injures
+                        &amp; tant d’indiscrétions</hi>. D’où naît cette extrême sensibilité, si ce
+                    n’est d’une vanité mal-entendue, d’un fonds d’orgueil désordonné&#xA0;? Depuis
+                    quand n’est-il plus permis à la Critique de <pb n="180" xml:id="p180"
+                    />s’exercer, &amp; même de lancer ses traits contre <hi rend="i">la Théséide de
+                        l’enroué Codrus</hi><note n="(*)" place="bottom">
+                        <quote>
+                            <p>… Nunquam ne reponam</p>
+                            <p>Vexatus toties rauci Theseïde Codri&#xA0;?</p>
+                            <bibl><hi rend="i">Juvenal, Sat.&#xA0;I.</hi></bibl></quote>
+                    </note>&#xA0;? Quel est son crime, quand elle s’oppose au torrent du mauvais
+                    goût, &amp; qu’elle dénonce à la Postérité les Cotins, les Pradons &amp; les
+                    Chapelains de notre siècle&#xA0;? Si elle est juste, honnête &amp; modérée, en
+                    quoi nous offense-t-elle&#xA0;? Si elle ne l’est pas, faisons-la rougir de ses
+                    torts, &amp; contraignons-la, par une conduite opposée à la sienne, à nous
+                    respecter &amp; à nous rendre justice. Rien ne deshonore &amp; n’avilit plus les
+                    Lettres que ces haines sanglantes, dont le trépas même de l’ennemi ne peut <pb
+                        n="181" xml:id="p181"/>éteindre la fureur &amp; la violence. Nos ouvrages
+                    sont-ils donc une partie si essentielle de nous-mêmes, qu’on ne puisse les
+                    attaquer sans nous blesser mortellement&#xA0;? Hé-bien&#xA0;! mettons-les à
+                    l’abri de toute censure, &amp; rendons-les dignes de voir le jour, sans le
+                    craindre. Que tout y respire les bonnes mœurs, la raison &amp; le goût&#xA0;;
+                    anoblissons nos travaux &amp; nos veilles, en les consacrant à l’instruction de
+                    nos semblables&#xA0;; si nous sommes plus éclairés qu’eux, n’abusons point de
+                    nos lumières, ni de leur foiblesse, pour les corrompre, les tromper ou les
+                    égarer&#xA0;; servons-nous, de notre Philosophie pour faire respecter la
+                    Religion, les Loix &amp; les Usages reçus&#xA0;; que la vérité, la sagesse <pb
+                        n="182" xml:id="p182"/>&amp; la vertu brillent dans tous nos ouvrages&#xA0;;
+                    qu’ils les inspirent &amp; les fassent aimer&#xA0;; qu’ils ne soient point
+                    souillés par cette licence effrenée qui ose tout&#xA0;; bannissons-en cet
+                    égoïsme superbe, qui n’a jamais été &amp; ne sera jamais le ton de la modestie
+                    &amp; de l’honnêteté&#xA0;; qu’on y découvre les sentimens de notre ame, non par
+                    un vain &amp; pompeux étalage de mots, mais par une simplicité noble, modeste,
+                    intéressante, &amp; par des principes solidement établis&#xA0;; en un mot, en
+                    cherchant à instruire ou à plaire, rappelons-nous toujours que <hi rend="i">rien
+                        n’est beau que le vrai</hi>. Mais puisque la critique est si redoutable pour
+                    nos Auteurs, la Postérité le sera-t-elle moins&#xA0;? Que de couronnes arrachées
+                        <pb n="183" xml:id="p183"/>par le Temps &amp; par la force de la
+                    Vérité&#xA0;! Que d’idoles brisées, de lauriers flétris, de faux éloges
+                    désavoués, de réputations anéanties&#xA0;! Quelle foule d’Auteurs plongés dans
+                    un éternel oubli&#xA0;! Combien d’autres, dont la mémoire ne subsistera que pour
+                    être en horreur &amp; honteuse à jamais&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">Les lettres</hi> sont la gloire d’un Empire, lorsqu’elles y sont
+                    florissantes&#xA0;; &amp; les Citoyens qui les cultivent avec succès, par amour
+                    pour elles, &amp; pour l’utilité publique, ont droit à notre reconnoissance
+                    autant qu’à notre estime. Il ne suffit pas alors qu’ils soient plus éclairés,
+                    plus instruits&#xA0;; il faut qu’ils soient encore les <pb n="184" xml:id="p184"
+                    />plus honnêtes, les plus vertueux des hommes. La science, sans la sagesse,
+                    n’est qu’un vain nom, une erreur bruiante, une folie même, dont l’éclat est
+                    toujours dangereux &amp; les écarts souvent funestes&#xA0;! Nous n’en avons que
+                    trop d’exemples dans cette multitude d’Ecrits ténébreux, enfans de la nuit, du
+                    mensonge &amp; de l’orgueil, désavoués en naissant par leurs propres Auteurs à
+                    cause de leur honteuse origine. Si de pareils ouvrages démontrent assez la
+                    dépravation des mœurs &amp; la démence des esprits, ils n’annoncent que trop la
+                    décadence des Lettres &amp; la corruption du goût.</p>
+                <p/>
+                <p><hi rend="sc">Depuis que</hi>, mécontens de <pb n="185" xml:id="p185"
+                    />nous-mêmes, nous nous sommes pris d’enthousiasme &amp; d’admiration pour tout
+                    ce qui est étranger&#xA0;; depuis que l’Anglomanie s’est emparée de nous, il
+                    semble qu’on veuille, à quelque prix que ce soit, renverser toutes les idées
+                    reçues. Les vapeurs des marais d’Albion ont engendré cette épidémie
+                    philosophique, qui tue le génie, fait fermenter les esprits, &amp; produit ce
+                    goût anti-national, dont les ravages ne sont que trop sensibles. Plus
+                    d’Eloquence, plus de Poësie, plus de Musique. Celle de toutes les Langues qui
+                    approche le plus de la langue Grecque, la langue Françoise, adoptée par toutes
+                    les Nations, claire, précise, énergique, sublime, pleine de douceur <pb n="186"
+                        xml:id="p186"/>&amp; d’harmonie, susceptible des plus grands effets, n’est
+                    plus qu’une langue sourde &amp; monotone, peu propre aux chants de Polymnie.
+                    Ainsi Lulli, Rameau &amp; tant d’autres célèbres Musiciens ont travaillé
+                    envain&#xA0;; leurs chef-d’œuvres sont anéantis pour toujours. Ce sont des
+                    Etrangers, incapables d’apprécier, de juger notre langue, qui ont semé les
+                    premiers parmi nous ces singuliers Paradoxes&#xA0;; &amp; ce sont des François,
+                    incapables de la bien écrire, qui les ont accueillis, soutenus &amp;
+                    autorisés&#xA0;!</p>
+                <p/>
+                <p><hi rend="sc">Oui</hi>, sans doute, à juger notre langue d’après quelques
+                    ouvrages &amp; quelques Drames modernes, elle est en effet dure, barbare &amp;
+                    monotone&#xA0;: <pb n="187" xml:id="p187"/>mais qu’on la juge d’après les Poëmes
+                    d’Armide, de Roland, d’Amadis, &amp;c. qui osera, sans injustice, lui reprocher
+                    ces défauts&#xA0;? La Musique de Lulli, de Destouches, de Rameau étoit faite
+                    pour elle&#xA0;; &amp; elle gémit aujourd’hui de se voir défigurée, déchirée
+                    impitoyablement &amp; mise à la torture sous des sons peu analogues à son génie
+                    &amp; à sa prosodie. Enfin ce siècle raisonneur a tout dégradé, tout altéré,
+                    tout détruit. Nous abandonnons les véritables sources du goût, pour en chercher
+                    de nouvelles&#xA0;; &amp; devenus stériles par notre faute, nous nous abaissons
+                    jusqu’à devenir les imitateurs &amp; les copistes serviles de tout ce qui porte
+                    le caractère étranger.</p>
+                <pb n="188" xml:id="p188"/>
+                <p><hi rend="sc">Malgré</hi> cet égarement presque général, le Dieu du Goût veille
+                    cependant encore sur nous, dans ces Sanctuaires des Lettres, où les Homère, les
+                    Démosthène, les Cicéron, les Virgile &amp; les Horace reçoivent le plus pur
+                    encens. Il est encore des hommes fidèles à la bonne &amp; saine Littérature, qui
+                    cherchent à nous ramener aux Anciens, &amp; à réveiller notre goût pour eux.
+                    Homère, Eschyle, Aristote, Virgile, Térence, Horace, Juvénal revivent depuis peu
+                    parmi nous<note n="(*)" place="bottom">Nous venons de voir paroître
+                        successivement les traductions, d’<hi rend="i">Eschyle</hi>, par M. de
+                        Pompignan &amp; par M. du Teil&#xA0;; de l’<hi rend="i">Iliade d’Homère</hi>
+                        en vers, par M. de Rochefort&#xA0;; des <hi rend="i">Poëtiques d’Aristote,
+                            d’Horace, de Vida</hi>, par M. l’Abbé Batteux&#xA0;; des <hi rend="i"
+                            >Géorgiques de Virgile</hi>, par M. l’Abbé de Lisle, des <hi rend="i"
+                            >Satires de Juvénal</hi> par M. Dusaulx&#xA0;; de <hi rend="i"
+                            >Térence</hi>, par M. l’Abbé le Monnier, &amp;c. &amp;c. &amp;c.</note>.
+                    Heureux, si <pb n="189" xml:id="p189"/>nous savons en profiter &amp; rougir du
+                    mauvais goût qui nous entraîne loin de ces excellens modèles&#xA0;! <quote>«&#xA0;Nous
+                    avouerons pourtant qu’il y a eu de nos jours, &amp; que nous avons encore de
+                    très-bons Ecrivains&#xA0;: non-seulement nous en convenons avec plaisir, nous le
+                    soutenons même&#xA0;: mais de savoir juger quels ils sont, c’est ce qui
+                    n’appartient pas à tout le monde. Il est plus sûr d’imiter les Anciens, dont le
+                    mérite n’est plus douteux. C’est pourquoi nous conseillons de ne pas s’attacher
+                    de si bonne heure aux Modernes, de crainte <pb n="190" xml:id="p190"/>qu’on ne
+                    les imite, avant que de bien connoître ce qu’ils valent&#xA0;»<note n="(*)"
+                        place="bottom"><quote>« Quosdam verò etiam quos totos imitari oporteat, &amp;
+                        fuisse nuper, &amp; nunc esse quidem, libenter non concesserim modò, verùm
+                        etiam contenderim. Sed hi qui sint, non cujusque est pronuntiare. Tutiùs
+                        circà Priores vel erratur&#xA0;: ideoque hanc Novorum distuli lectionem, ne
+                        imitatio judicium antecederet&#xA0;». Quintil. Lib.&#xA0;II, Cap.&#xA0;5, in
+                        fin. »</quote></note></quote></p>
+                <dateline><hi rend="i">A Paris, ce</hi> 10&#xA0;<hi rend="i"
+                    >Juin</hi>&#xA0;1771.</dateline>
+            </div1>
+        </body>
+    </text>
+</TEI>

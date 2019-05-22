@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Discours sur l’origine, les progrès et le genre des romans</title>
+                <author key="Bricaire de La Dixmerie, Nicolas (1730?-1791)"
+                    ref="https://data.bnf.fr/fr/12483503/nicolas_bricaire_de_la_dixmerie/">Nicolas
+                    Bricaire de La Dixmerie</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+                <respStmt>
+                    <name>Infoscribe</name>
+                    <resp>Saisie, TEI-XML</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nolwenn Chevalier</name>
+                    <resp>Édition XML</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/critique/bricaire-de-la-dixmerie_discours-romans_1773</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2019 Sorbonne Université, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Nicolas Bricaire de La Dixmerie, « Discours sur l’origine, les progrès et le
+                    genre des romans », in <hi rend="i">Toni et Clairette</hi>, <pubPlace>Paris</pubPlace>,
+                        <publisher>Didot l’aîné</publisher>, 1773, <biblScope>tome I,
+                        première partie, p. v-lxxvi</biblScope> PDF : <ref
+                        target="http://dbooks.bodleian.ox.ac.uk/books/PDFs/N10218895.pdf">Bodleian
+                        Library</ref>.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1773"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <pb n="n.p." xml:id="pn.p."/>
+                <head><hi rend="uc">Discours</hi><lb/>
+                    <hi rend="i">Sur l’origine, les progrès &amp; le genre des Romans.</hi></head>
+                <p><hi rend="big">I</hi><hi rend="sc">l faut</hi> presque remonter à l’origine des
+                    siecles pour découvrir celle du Roman. Le regne de la Fable n’est guere moins
+                    ancien que celui de la Vérité, ou, pour mieux dire, cette seconde rivale fut
+                    bientôt détrônée par la premiere. On se créa des Dieux&#xA0;; on imagina des
+                    Héros peu différents de ces Dieux mêmes. Les merveilles, mêlées de foiblesses,
+                    ne coûtoient pas plus aux uns qu’aux autres. Les premiers Poetes furent donc, en
+                    effet, les premiers Romanciers. Hésiode fit un Roman&#xA0;; Homere en fit pour
+                    le moins deux&#xA0;: ils décorerent leurs fictions des couleurs de la <pb n="vj" xml:id="pvj"/>Poésie&#xA0;: voilà ce qui les distingue de quelques autres Romanciers leurs
+                    successeurs.</p>
+                <p>Il fallut toujours tromper un peu les hommes pour s’en faire écouter. La vérité
+                    ressemble à ces personnes qu’on estime &amp; qu’on néglige&#xA0;; elle n’ose
+                    guere se produire que sous les auspices de la fiction. De là, sans doute, le
+                    merveilleux qui regne dans toutes les anciennes histoires. La fable y masque
+                    sans cesse la vérité. On a même dit que la fameuse Cyropédie n’étoit qu’un
+                    Roman&#xA0;; mais, au moins, c’est un Roman plus moral que notre énorme
+                    Artamene. On n’est pas trop sûr non plus que l’Historien d’Alexandre se soit
+                    borné au simple rôle d’historien&#xA0;; mais qu’importe&#xA0;? il seroit
+                    peut-être moins lu, s’il s’étoit piqué d’être plus véridique.</p>
+                <p>Quoi qu’il en soit, venons <pb n="vij" xml:id="pvij"/>aux Romans proprement dits, à ceux qui,
+                    dans une narration plus ou moins longue, embrassent la peinture des passions
+                    &amp; des foiblesses humaines, développent les replis du cœur, épient ses
+                    moindres mouvements, deviennent la peinture des pensées encore plus que celle
+                    des actions, &amp; rapprochent beaucoup mieux que l’histoire même le héros de
+                    son lecteur. Les hommes en général se ressemblent par les foiblesses&#xA0;;
+                    leurs penchants sont à-peu-près les mêmes&#xA0;: ce n’est guere que la
+                    différence de leur position qui rend leur conduite si différente.</p>
+                <p>Les exploits d’un conquérant peuvent occuper notre esprit, mais ils touchent très
+                    peu notre ame. Ces événements sortent trop de la classe commune&#xA0;: on les
+                    contemple comme ces phénomenes effrayants qui étonnent <pb n="viij" xml:id="pviij"/>d’abord les
+                    regards, &amp; qui les fatiguent le moment d’après. On jette un coup-d’œil sur
+                    un fleuve qui vient de se déborder, &amp; l’on se promene au bord du ruisseau
+                    paisible.</p>
+                <p>Un retour sur nous-mêmes est toujours le grand mobile de l’intérêt que nous
+                    prenons à la situation d’autrui.</p>
+                <p>C’est par cette raison que dans la tragédie un héros malheureux, pourvu qu’il ne
+                    soit point trop coupable, est toujours sûr de nous intéresser. Alexandre,
+                    vainqueur de tant de nations, nous attache moins que Darius précipité du trône.
+                    Ce même Alexandre, dans la tragédie qui porte son nom, est lui-même éclipsé par
+                    Porus son captif. Hé&#xA0;! pourquoi&#xA0;? c’est que le malheur de Porus le met
+                    au niveau de tous ceux qu’il intéresse.</p>
+                <p>Voilà ce qui dut faire naître <pb n="ix" xml:id="pix"/>d’assez bonne heure l’idée de
+                    rapprocher, dans une narration suivie, un certain nombre d’événements &amp; de
+                    situations propres à intéresser le Lecteur. Telle fut, sans doute, l’origine de
+                    ce que nous appellons aujourd’hui le Roman.</p>
+                <p>On ne voit pas toutefois que les Grecs &amp; les Romains du beau siecle de Rome
+                    &amp; de la Grece aient connu ce genre&#xA0;; au moins il n’en existe aucune
+                    preuve. Nous n’avons pas tout ce qu’ils ont produit&#xA0;; mais il seroit bien
+                    extraordinaire qu’aucun lambeau romanesque n’eût échappé aux ravages du temps
+                    &amp; des incendies, qui ont respecté tant d’autres productions.</p>
+                <p>Les premiers Grecs furent trop barbares pour être galants &amp; même amoureux.
+                    Ils enlevoient des femmes, comme les corsaires enlevent des richesses, pour en
+                        <pb n="x" xml:id="px"/>jouir. Briséis n’étoit que l’esclave d’Achille&#xA0;; Achille
+                    n’étoit que son maître. Il pleure moins de ce qu’elle lui est ravie, que de ce
+                    qu’on a osé la lui ravir. Les amants de Pénélope ne sont que de vils parasites,
+                    plus occupés du soin de vivre aux dépens d’Ulysse, que du soin de le
+                    remplacer.</p>
+                <p>Si l’on passe à des temps postérieurs, on verra les Grecs devenir plus polis,
+                    sans en devenir plus galants. On sait les précautions que prit Lycurgue pour
+                    engager les Lacédémoniens à faire attention à leurs femmes. On parle aussi, il
+                    est vrai, de l’ascendant que prirent ces femmes sur leurs maris&#xA0;; mais
+                    elles durent cet ascendant à leur adresse bien plus qu’à leur beauté. Nourries
+                    dans l’intérieur de leur ville, occupées de soins peu laborieux, nées sans doute
+                    avec cette <pb n="xj" xml:id="pxj"/>souplesse d’esprit qui semble avoir toujours été le
+                    partage de leur sexe, elles avoient bien de l’avantage sur des hommes qui ne
+                    savoient que se battre ou cultiver la terre. Tout peuple agreste &amp;
+                    belliqueux est facile à gouverner. C’est le coursier sauvage à qui l’on parvient
+                    à mettre la selle sur le dos, en le flattant avec la main.</p>
+                <p>Les Athéniens, avec des mœurs plus douces que celles des Spartiates, se
+                    montrerent moins dociles&#xA0;; jamais leurs femmes ne les gouvernerent.
+                    Elles-mêmes vivoient très retirées, ne se mêloient de rien, n’influoient sur
+                    rien. L’usage les reléguoit au sein de leurs maisons&#xA0;; mais ce n’étoit
+                    point la jalousie qui avoit dicté cet usage, c’étoit la politique. Les citoyens
+                    d’Athenes craignoient moins que leurs femmes n’intriguassent en amour <pb n="xij" xml:id="pxij"/>qu’en affaires. Ils étoient moins jaloux à titre de maris qu’à
+                    titre de républicains. La galanterie étoit si rare parmi eux, qu’Alcibiade, né
+                    galant, y parut comme un phénomene. L’histoire a daigné perpétuer le souvenir de
+                    ses bonnes fortunes. Alcibiade, né dans Paris, n’eût fait qu’accroître le nombre
+                    de nos Merveilleux.</p>
+                <p>On vit, cependant, certains Poetes Grecs consacrer à l’Amour quelques-uns de
+                    leurs chants. Anacréon s’en avisa à soixante ans passés. Mais ses vers ne
+                    chantent guere moins la débauche que l’amour&#xA0;; Bathyle y est trop souvent
+                    le rival de Lycoris. On sait aussi que Sapho ne chanta Phaon que très tard,
+                    &amp; on l’accuse d’avoir loué plus d’une fois l’amour à contre-sens.</p>
+                <p>Les premiers Romains, presque aussi austeres dans leurs <pb n="xiij" xml:id="pxiij"/>usages que
+                    les anciens Spartiates, furent comme eux gouvernés par leurs femmes. La même
+                    cause y contribua. A cela près, ces mêmes Romains ne regardoient leurs femmes
+                    que comme une possession dont ils devoient compte à la République. C’étoit un
+                    champ qu’ils n’acquéroient que dans l’intention de le rendre fertile&#xA0;;
+                    &amp; lorsque l’âge du possesseur s’opposoit à ses intentions patriotiques, il
+                    ne faisoit nulle difficulté de transmettre ses droits à quelque autre citoyen
+                    plus propre que lui à remplir le vœu national.</p>
+                <p>Ce fut chez les Orientaux, que naquit le Roman, comme ils avoient vu naître la
+                    fable. Esope, Lockman, Pilpai, ces trois inventeurs de l’Apologue, furent tous
+                    trois Asiatiques. Ils mirent la morale en action, &amp; choisirent communément
+                    des animaux <pb n="xiv" xml:id="pxiv"/>pour acteurs. D’autres Moralistes, qui vinrent après, y
+                    substituerent des hommes&#xA0;; car il est à présumer que les premiers Romans
+                    n’étoient que des fictions morales. Mais on sait combien les Orientaux furent
+                    toujours enclins à l’amour&#xA0;; ils ne tarderent point à faire de cette
+                    passion la base de leurs écrits. Dès lors, entre autres productions de ce genre,
+                    on vit éclore les fables milésiennes. Ces fables n’étoient autre chose que des
+                    Romans très passionnés, souvent même très dissolus, &amp; dont les mœurs des
+                    Ioniens avoient fourni le canevas. Ils furent ensuite traduits par les Grecs. Ce
+                    sont les premieres traces de Romans qu’on apperçoive chez cette nation. Elle ne
+                    paroît même en avoir produit que depuis le regne d’Alexandre. Les conquêtes de
+                    ce Prince rompirent la barriere qui <pb n="xv" xml:id="pxv"/>séparoit deux nations rivales,
+                    les Perses &amp; les Grecs. Les vainqueurs donnerent quelques loix aux vaincus,
+                    &amp; reçurent d’eux, en échange, quelques usages, quelques vices même, toujours
+                    plus prompts à s’accréditer que les loix les mieux affermies.</p>
+                <p>Celles des Grecs ne l’étoient pas assez pour se maintenir longtemps chez les
+                    Perses. La division de l’Empire suivit de près la mort d’Alexandre. La plupart
+                    de ses Capitaines devinrent Souverains. Il ne resta aux Grecs de cette conquête
+                    si brillante que le souvenir de l’avoir faite, &amp; l’avantage de savoir écrire
+                    des Romans.</p>
+                <p>Ils paroissent avoir cultivé avec soin cette nouvelle acquisition&#xA0;; disons
+                    même avec plus de soin que de succès. Ils négligeoient trop l’art &amp; la
+                    méthode. Ce ne fut qu’au bout de quelques siecles qu’on vit éclore un <pb n="xvj" xml:id="pxvj"/>Roman aussi régulier dans sa forme qu’intéressant par ses détails.
+                    C’est celui de <hi rend="i">Théagene</hi> &amp; <hi rend="i">Chariclée</hi>,
+                    ouvrage d’Héliodore, Evêque de Tricca en Thessalie. On dit qu’il aima mieux
+                    renoncer à son évêché qu’à son Roman. Cela voudroit dire qu’il estimoit moins un
+                    évêché qu’un bon ouvrage&#xA0;; &amp; sans doute que le sacrifice d’un bon
+                    ouvrage doit coûter à son auteur. On voit pourtant aujourd’hui certains
+                    Ecclésiastiques se signaler par des sacrifices beaucoup plus grands&#xA0;; ils
+                    s’exposent à faire de mauvais ouvrages dans l’espérance d’obtenir une petite
+                    chapelle.</p>
+                <p>Revenons aux Romanciers Grecs, ou du moins à ceux qui ont écrit dans cette
+                    langue. On remarqua dans le temps, &amp; l’on a reproduit parmi nous, le Roman
+                        d’<hi rend="i">Ismene &amp; Isménias</hi>, &amp; celui de <hi rend="i"
+                        >Daphnis &amp; Chloé</hi>. Le <pb n="xvij" xml:id="pxvij"/>premier est communément attribué
+                    à Eustathe, Commentateur d’Homere&#xA0;; le second à Longus, qu’on peut regarder
+                    comme l’inventeur des Pastorales. Ces deux Romans ne valent point celui
+                    d’Héliodore. Cependant ils ont été utiles à notre scene lyrique par le parti
+                    ingénieux qu’a su en tirer un de nos plus agréables Poetes modernes<note n="*"
+                        place="bottom">M. Laujon.</note>.</p>
+                <p>L’austérité Romaine, qui d’abord avoit semblé devoir proscrire de son sein le
+                    genre des Romans, ne les en exclut pas pour toujours. On traduisit à Rome les
+                    fables milésiennes presque en même temps qu’on les traduisoit dans la Grece. Les
+                    Romains les portoient avec eux à la guerre, &amp; le Général des Parthes qui
+                    défit Crassus, trouva ces fables dans la malle du Général Romain.</p>
+                <pb n="xviij" xml:id="pxviij"/><p>On compte même parmi les Romanciers de cette capitale du monde,
+                    beaucoup de ses principaux personnages&#xA0;: des Préteurs, des Pro-Consuls, des
+                    Consuls, &amp; même des Empereurs. Clodius Albinus, qui disputa l’empire contre
+                    Sévere, &amp; qui fut tué par lui, étoit l’auteur d’un Roman dont le vainqueur
+                    fit la critique en plein Sénat.</p>
+                <p>J’ignore si l’ouvrage de Pétrone est un Roman, ou si c’est uniquement une Satyre.
+                    Ce pourroit être une Sybaritide&#xA0;; car les Sybarites avoient aussi, à
+                    l’exemple des Milésiens, cultivé un genre de fables obscenes. Ce genre étoit
+                    bien digne d’être né parmi eux, mais étoit-il bien digne qu’un Consul Romain le
+                    fît renaître&#xA0;? si pourtant le Pétrone en question fut jamais Consul.</p>
+                <p>Apulée, qui se disoit Philosophe, a prouvé par son <hi rend="i">Ane d’or</hi>,
+                    <pb n="xix" xml:id="pxix"/>qu’il méritoit le titre de Philosophe cynique. A cela près, cet
+                    ouvrage a le mérite qui lui est propre. Il offre d’ailleurs quelques Episodes
+                    intéressants. Tel est celui de <hi rend="i">Psyché</hi>, imité depuis &amp;
+                    embelli par notre ingénieux la Fontaine, qui embellit tout ce qu’il imite. C’est
+                    ce même ouvrage que M. l’Abbé Aubert a mis agréablement en vers depuis quelques
+                    années. On n’a point manqué de crier à l’attentat&#xA0;: mais ce n’est pas plus
+                    attenter à la gloire de la Fontaine, qu’un bon Musicien qui mettroit en musique
+                    les Cantates de Rousseau n’attenteroit à la gloire de ce Poete.</p>
+                <p>La décadence de l’Empire Romain &amp; de l’Empire Grec entraîna celle des Romans,
+                    comme la chûte d’un édifice cause la ruine des ornements légers qui
+                    l’embellissoient. Les Barbares, <pb n="xx" xml:id="pxx"/>qui inonderent les différentes
+                    provinces de l’Empire, y porterent leurs usages, leurs productions, leur génie.
+                    Ils avoient, comme d’autres, leurs Poetes &amp; leurs Romanciers qui se
+                    croyoient Historiens. Les Arabes, qui, dans tous les temps, avoient cultivé la
+                    Poésie &amp; leur imagination, répandirent leurs productions romanesques dans
+                    les contrées de l’Asie &amp; de l’Afrique qu’ils avoient subjuguées. Ils les
+                    porterent depuis en Espagne qu’ils subjuguerent également. C’est à eux que les
+                    Espagnols furent, dit-on, redevables de l’art d’écrire des Romans. Ils firent un
+                    prompt usage de cette découverte, &amp; leur imagination, naturellement exaltée,
+                    enfanta sur-tout un nombre prodigieux de Romans de chevalerie&#xA0;; tels, entre
+                    autres, que l’<hi rend="i">Amadis de Gaule</hi>, attribué par <pb n="xxj" xml:id="pxxj"/>quelques-uns à Sainte Thérese, <hi rend="i">Dom Bellianis</hi>, le <hi
+                        rend="i">Miroir de Chevalerie, Tirant le Blanc</hi>, &amp; <hi rend="i"
+                        >Palmerin d’Angleterre</hi>. Ce dernier passe pour être l’ouvrage d’un Roi
+                    de Portugal, &amp; l’on sait l’éloge que Michel Cervantes en fait faire par le
+                    Curé &amp; le Barbier du village de Dom Quichotte. Ce Michel Cervantes fit un
+                    Roman admirable, dans la seule intention de se moquer de tous les autres. Il
+                    fit, tout à la fois, preuve de beaucoup de jugement &amp; de beaucoup de génie.
+                    Ce livre eut deux sortes de succès également rares&#xA0;; il corrigea l’abus que
+                    l’Auteur avoit censuré, &amp; ne trouva lui-même aucuns censeurs.</p>
+                <p>On a prétendu que nous tenions de l’Espagne l’invention des Romans, comme
+                    elle-même la tenoit des Arabes. C’est peut-être une double erreur. On <pb n="xxij" xml:id="pxxij"/>pourroit soutenir, avec plus de vraisemblance, que l’Espagne nous
+                    doit ses premiers Romans&#xA0;; &amp; l’on peut avancer avec certitude qu’on
+                    faisoit des Romans parmi nous avant qu’aucun Espagnol eût encore essayé d’en
+                    faire. Il seroit donc possible qu’elle nous dût le genre qu’on prétend que nous
+                    lui devons. Au moins ne doit-on pas regarder comme copiste celui qui, vu la date
+                    de son invention, a pu servir de modele.</p>
+                <p>C’est un avantage que ne nous dispute point l’Italie, elle qui eut toujours tant
+                    de penchant à tout disputer. Un de ses Ecrivains les plus versés dans la
+                    littérature ancienne &amp; moderne, Giraldi, avoue que l’Italie est redevable
+                    aux François &amp; de sa poésie &amp; de l’invention des Romans. Il paroît de
+                    plus persuadé que l’Espagne leur doit les <pb n="xxiij" xml:id="pxxiij"/>mêmes découvertes. Ce
+                    furent, en effet, nos Troubadours Provençaux qui instituerent le genre de poésie
+                    perfectionné depuis eux, mais adopté chez la plupart de nos voisins. Leurs
+                    fabliaux étoient des Romans en vers rimés, écrits en langue Romance, langue bien
+                    défectueuse, &amp; qui pourtant a produit la nôtre, comme la terre produit l’or,
+                    &amp; l’épine la rose.</p>
+                <p>Les Anglois eurent de très bonne heure des Chevaliers &amp; des Romans de
+                    chevalerie. Thélésin, qui vivoit sous le Roi Artus, &amp; Melkin, qui vécut
+                    quelque temps après, célébrerent tous deux les faits merveilleux de ce Monarque
+                    &amp; des Héros de la table ronde. Les Anglois n’eurent point de Michel
+                    Cervantes qui corrigeât leurs Romanciers de ces inventions gigantesques&#xA0;;
+                    mais ceux-ci eurent le mérite <pb n="xxiv" xml:id="pxxiv"/>de se corriger eux-mêmes&#xA0;: ce
+                    ne fut, il est vrai, qu’à l’aide du temps qui, à la longue, rectifie le goût
+                    quand il ne le corrompt pas. Le Roman est peut-être aujourd’hui le genre de
+                    littérature que les Anglois cultivent le plus avantageusement. Il est devenu
+                    entre leurs mains une production utile, ingénieuse, souvent même une production
+                    raisonnable. Paméla, Clarice, Grandisson, &amp;c. sont des cours de morale
+                    pratique à l’usage de tous les états&#xA0;: on y voit figurer des acteurs de
+                    toute condition, c’est-à-dire que nul rang n’y est dédaigné&#xA0;; motif
+                    d’intérêt d’autant plus sûr qu’il rapproche du plus grand nombre des Lecteurs
+                    les personnages qui doivent les intéresser. C’est un secret que nos Romanciers
+                    François ignorerent, ou dédaignerent trop long-temps. Nous avions, il est <pb n="xxv" xml:id="pxxv"/>vrai, le Roman comique de Scaron, &amp; le Roman Bourgeois de
+                    Furetiere&#xA0;; nous avions même le Gilblas de le Sage&#xA0;: mais tous ces
+                    Romans peignoient des ridicules, sans attaquer les vices, sans même nous faire
+                    bien appercevoir le danger de certaines passions, sans inspirer aucun sentiment
+                    louable. On sait qu’un Roman ne doit pas être un sermon&#xA0;; qu’il ne doit
+                    rien présenter d’austere, ou du moins qu’il doit mettre à l’écart l’enveloppe de
+                    l’austérité&#xA0;: mais le vase entouré de miel doit offrir au tempérament le
+                    plus délicat un breuvage salutaire. S’il ne renferme que du miel, il pourra ne
+                    faire qu’affadir celui qu’on prétendoit soulager.</p>
+                <p>Voilà l’heureux expédient dont se servent les bons Romanciers Anglois. Leurs
+                    ouvrages sont traduits dans notre langue, &amp; <pb n="xxvj" xml:id="pxxvj"/>chacun de nous a
+                    pu les juger au moins d’après la traduction. Cependant, il faut l’avouer, il y
+                    aura toujours entre l’original &amp; la version la différence qui existe entre
+                    le génie des deux langues, celui des deux auteurs, &amp; même entre le caractere
+                    des deux nations. Quelquefois la traduction n’atteint pas à l’original,
+                    quelquefois elle le rectifie. C’est ce qui arrive sur-tout à l’égard du plan. Le
+                    génie Anglois est un coursier fougueux, mais indompté&#xA0;: il franchit souvent
+                    la carriere lorsqu’il ne faudroit que la fournir&#xA0;; &amp; s’il se retrouve
+                    quelquefois au but, on ignore trop souvent par quelle route il y est arrivé.</p>
+                <p>Quoi qu’il en soit, les Anglois se croient inventeurs du Roman pour leur propre
+                    compte. Ils le regardent comme un fruit né dans leur climat&#xA0;; fruit d’abord
+                        <pb n="xxvij" xml:id="pxxvij"/>un peu sauvage, &amp; que le temps &amp; la culture ont
+                    amélioré. Nous avons à cet égard les mêmes prétentions, &amp; nous y joignons
+                    une foule de titres qui les appuient. J’ai déja parlé de nos Troubadours
+                    Provençaux&#xA0;: chaque province de France eut bientôt les siens. La <hi
+                        rend="i">science gaie</hi> (c’est ainsi qu’ils désignoient leur profession)
+                    devint bientôt la seule qu’on pratiquât chez nos bons aïeux. Il en résulta une
+                    foule de productions que le temps n’a pas toutes respectées, mais dont il existe
+                    encore un bon nombre dans la poudre de nos grandes bibliotheques. C’est dans
+                    cette poussiere, que Bocace a trouvé plus d’un diamant&#xA0;; il a puisé la
+                    plupart de ses nouvelles dans nos anciens fabliaux, qui étoient eux-mêmes des
+                    especes de Romans en vers. Ainsi, lorsque la Fontaine a puisé à son tour chez
+                        <pb n="xxviij" xml:id="pxxviij"/>Bocace, il n’a fait que reprendre à l’Italie ce que celui-ci
+                    avoit emprunté à la France.</p>
+                <p>Mais le plus ancien de nos Romans proprement dits paroît être celui qu’on
+                    attribue à Turpin, Archevêque de Rheims &amp; neveu de Charlemagne. Les faits de
+                    ce Monarque n’y sont pas moins exagérés que ceux d’Hercule ne le furent par les
+                    Grecs. Ce livre fut la source où puiserent, depuis, presque tous les anciens
+                    Poetes ou Romanciers qui prirent Charlemagne pour leur héros. Là sont décrits
+                    fort longuement les exploits sur-naturels des Roland, des Renaud, &amp; de tant
+                    d’autres fameux personnages dont l’histoire fait à peine mention. Ils furent
+                    même célébrés par deux Princes, l’un fils du Roi de Frise, l’autre son proche
+                    parent.</p>
+                <p>Le goût des Romans de <pb n="xxix" xml:id="pxxix"/>chevalerie se soutint &amp; parut même
+                    s’accroître durant plusieurs siecles. Le onzieme vit éclore, entre autres
+                    productions de ce genre, <hi rend="i">Tristan</hi>, <hi rend="i">Lancelot du Lac, Artus, Merlin,
+                        Perceval, Perceforêt</hi>, la déplorable histoire d’<hi rend="i">André de
+                        France qui mourut par trop aimer celle qu’il n’avoit jamais vue</hi>,
+                    &amp;c. Il faut rapporter à-peu-près à ce même temps une partie des historiettes
+                    qui composent ce qu’on nomme parmi nous la <hi rend="i">Bibliotheque bleue</hi>.
+                    C’est un dépôt de l’esprit qui regnoit dans ces siecles reculés. Il est bon
+                    toutefois d’observer que les Normands composerent quelques-uns de ces écrits,
+                    tels, entre autres que <hi rend="i">Richard sans peur</hi>, &amp; <hi rend="i"
+                        >Robert le Diable</hi>. Ce Robert le Diable n’est autre chose que Robert
+                    Courtecuisse, fils de Guillaume le Conquérant, le même qui fit la guerre à son
+                        <pb n="xxx" xml:id="pxxx"/>pere dans l’espérance de lui succéder avant qu’il mourût.</p>
+                <p>On sait quel rôle les Fées &amp; les Enchanteurs jouoient dans tous les Romans de
+                    Chevalerie. On les y souffroit d’autant plus volontiers, qu’on ne doutoit
+                    presque pas de leur existence&#xA0;; &amp; lorsqu’on s’avisa d’en douter, on les
+                    chercha encore dans les fictions, pour ne pas tout perdre à la fois.</p>
+                <p>Ce goût du merveilleux fut commun à presque toutes les nations&#xA0;; toutes ont
+                    eu leurs Magiciens, leurs Devins, leurs Oracles. Depuis on décora les premiers
+                    du beau titre d’Enchanteurs, titre que le vulgaire a réduit par la suite à celui
+                    de Sorcier. Quant à la Féerie, elle semble avoir pris naissance dans nos
+                    climats. Nos Fées ont une physionomie différente de celle des Magiciennes de
+                    l’antiquité. Celles-ci se ressembloient <pb n="xxxj" xml:id="pxxxj"/>à-peu-près toutes&#xA0;;
+                    leur pouvoir étoit le même, leur caractere également mauvais, &amp; elles
+                    n’usoient guere du premier que pour satisfaire le second. Au moins parmi nos
+                    Fées en trouvoit-on de bienfaisantes. Si quelques-unes persécutent les amants,
+                    d’autres les protegent. Circé &amp; Médée, au contraire, n’agissoient que pour
+                    elles-mêmes. Elles prodiguent les bienfaits à qui sait leur plaire&#xA0;; elles
+                    prodiguent les crimes pour se venger de qui les offense.</p>
+                <p>Il paroît même que les Fées ont toujours eu plus de crédit en France que les
+                    Enchanteurs. Le vulgaire de certains cantons croit encore à l’existence de notre
+                    Méluzine. On y montre des châteaux qu’elle a bâtis, &amp; où elle daigne
+                    reparoître de temps à autre sous différentes formes. Qui a pu établir si <pb n="xxxij" xml:id="pxxxij"/>exclusivement en France l’opinion de la Féerie&#xA0;? Qui l’a
+                    pu&#xA0;? la même cause qui a fait éclore ailleurs tant d’autres opinions
+                    ridicules. Nous avons cru aux Fées comme les Hongrois croient aux Vampires, sans
+                    avoir jamais des deux parts vérifié le motif d’une telle croyance.</p>
+                <p>D’ailleurs la Féerie a pu nous être transmise par une espece de tradition. Les
+                    femmes jouerent dans tous les temps un très grand rôle parmi nous. On sait quel
+                    ascendant elles avoient sur nos bons aïeux les Gaulois &amp; les Germains,
+                    beaucoup plus galants que ceux qui les traitoient de barbares. Les Germains
+                    croyoient qu’une jeune fille participoit encore à l’essence de la Divinité. Les
+                    Gaulois avoient des Druidesses à qui les prodiges ne coûtoient rien&#xA0;: elles
+                    prédisoient l’avenir, fomentoient &amp; <pb n="xxxiij" xml:id="pxxxiij"/>dissipoient les orages,
+                    excitoient &amp; conjuroient les tempêtes. De graves Historiens nous attestent
+                    ces faits, &amp; il en faut souvent moins pour séduire la crédulité humaine.</p>
+                <p>On sait aussi qu’il y eut chez les Gaulois des demi-Déesses Forestieres, qui
+                    communiquoient volontiers avec les humains, &amp; qui avoient de fortes raisons
+                    pour ne pas les fuir. On les nommoit les <hi rend="i">Meres</hi> ou les <hi
+                        rend="i">Lamies</hi>. Elles ne pouvoient acquérir l’immortalité qu’en cédant
+                    aux desirs de quelque mortel. Toutes, vraisemblablement, y cédoient ou
+                    n’épargnoient rien pour les faire naître. De ces Déesses communicatives nous
+                    vinrent peut-être les Fées, qui passoient elles-mêmes pour n’être point trop
+                    sauvages. Qui sait même s’il n’étoit pas de l’essence d’une Fées, comme de celle
+                    des Lamies, <pb n="xxxiv" xml:id="pxxxiv"/>d’être foible au moins une fois. De là tous ces
+                    amants enlevés &amp; séquestrés. Le cas étoit pressant &amp; le motif
+                    excusable&#xA0;; supposé toutefois qu’en aucun cas une Fée eût besoin
+                    d’excuse.</p>
+                <p>Cette conjecture est appuyée du suffrage d’un Ecrivain aussi exact, aussi actif
+                    dans ses recherches, qu’habile à les présenter sous un aspect intéressant. Voici
+                    ce qu’on lit dans un de ses ouvrages, plein de découvertes utiles &amp; de
+                    réflexions piquantes. “A la fin de la premiere race, il y avoit encore plus du
+                    tiers des François plongés dans les ténebres de l’idolâtrie. Ils croyoient qu’à
+                    force de méditations, certaines filles Druidesses avoient pénétré dans les
+                    secrets de la Nature&#xA0;; que par le bien qu’elles avoient fait dans le monde
+                    elles avoient mérité de ne point mourir&#xA0;; qu’elles habitoient au <pb n="xxxv" xml:id="pxxxv"/>fond des puits, au bord des torrents, ou dans les cavernes&#xA0;;
+                    qu’elles avoient le pouvoir d’accorder aux hommes le don de se métamorphoser en
+                    loups &amp; en toutes sortes d’animaux, &amp; que leur haine ou leur amitié
+                    décidoit du bonheur ou du malheur des familles. A certains jours de l’année
+                    &amp; à la naissance de leurs enfants, ils avoient grande attention de dresser
+                    une table dans une chambre écartée &amp; de la couvrir de mets &amp; de
+                    bouteilles, avec trois couverts &amp; de petits présents, afin d’engager les <hi
+                        rend="i">Meres</hi> (c’est ainsi qu’ils appelloient ces Puissances
+                    subalternes) à les honorer de leur visite &amp; à leur être favorables. Voilà
+                    l’origine de nos Contes de Fées<note n="*" place="bottom">Essais historiques sur
+                        Paris, par M. de Saint-Foix, tome II, page 94.</note>.”</p>
+                <pb n="xxxvj" xml:id="pxxxvj"/><p>Voici sans doute celle de nos Romans de Chevalerie.</p>
+                <p>“Les possesseurs des châteaux qu’on avoit bâtis de tous côtés pour arrêter les
+                    courses des Normands, devinrent dans la suite un fléau presque aussi funeste que
+                    l’avoient été ces Pirates. Du haut de leurs forteresses, ils fondoient sur tout
+                    ce qui paroissoit dans la plaine, rançonnoient les voyageurs, pilloient les
+                    marchands, enlevoient les femmes si elles étoient jolies&#xA0;: on eût dit que
+                    le brigandage, le rapt &amp; le viol étoient devenus des droits de Seigneur<note
+                        n="*" place="bottom">Idem, page 144.</note>”. D’un autre côté, dit Mezerai,
+                    quelques Gentils-hommes, nés généreux, s’engagerent par un pacte à courir les
+                    provinces pour attaquer &amp; détruire ces sortes d’oppresseurs. <pb n="xxxvij" xml:id="pxxxvij"/><hi rend="i">C’est sur cela</hi>, ajoute-t-il, <hi rend="i">que les
+                        Romanciers ont forgé leurs Chevaliers errants, &amp; tant de Monstres &amp;
+                        de Géants</hi>.</p>
+                <p>“Les femmes &amp; les filles, ajoute l’Auteur des Essais, n’étoient guere en
+                    sureté en passant auprès des abbayes, &amp; les moines soutenoient l’assaut
+                    plutôt que de lâcher leur proie&#xA0;: s’ils se voyoient trop pressés, ils
+                    apportoient sur la breche les reliques de quelques Saints&#xA0;: alors il
+                    arrivoit presque toujours que les assaillants, saisis de respect, se retiroient
+                    &amp; n’osoient poursuivre leur vengeance. Voilà l’origine de ces enchanteurs,
+                    de ces enchantements, &amp; de ces châteaux enchantés dont il est tant parlé
+                    dans ces mêmes Romanciers<note n="*" place="bottom">Idem.</note>.”</p>
+                <p>Du temps des anciens Gaulois <pb n="xxxviij" xml:id="pxxxviij"/>le Mont Saint Michel s’appelloit
+                    Mont Bellen, parcequ’il étoit consacré à Bellenus, un des quatre grands Dieux
+                    qu’adoroit cette nation. “Il y avoit sur ce Mont un college de neuf
+                    Druidesses&#xA0;; la plus ancienne rendoit des oracles&#xA0;; elles vendoient
+                    aussi aux Marins des fleches qui avoient la prétendue vertu de calmer les orages
+                    en les faisant lancer dans la mer par un jeune homme de vingt-un ans qui n’avoit
+                    point encore perdu sa virginité. Quand le vaisseau étoit arrivé à bon port, on
+                    députoit ce jeune homme pour porter à ces Druidesses des présents plus ou moins
+                    considérables&#xA0;; une d’entre elles alloit se baigner avec lui dans la mer,
+                    &amp; recevoit ensuite les prémices de son adolescence, en l’initiant aux
+                    plaisirs qu’il avoit jusqu’alors ignorés&#xA0;; le <pb n="xxxix" xml:id="pxxxix"/>lendemain, en
+                    s’en retournant, il s’attachoit sur les épaules autant de coquilles qu’il
+                    s’étoit initié de fois pendant la nuit<note n="*" place="bottom">Idem, tome V,
+                        page 61.</note>.” Il ne manque ici qu’un palais, &amp; nous aurons une idée
+                    de la maniere dont Renaud occupoit son loisir auprès d’Armide. Les fleurs dont
+                    il étoit couvert suppléoient, sans doute, aux coquilles.</p>
+                <p>Venons à un Roman où la Féerie n’entre pour rien, &amp; qui réunit assez
+                    complettement la vraisemblance physique &amp; morale. Je parle de l’<hi rend="i"
+                        >Astrée</hi>. On vit alors de simples Bergers prendre la place des Paladins,
+                    substituer au ton gigantesque le ton du sentiment, aux événements incroyables,
+                    des incidents naturels. On cessa d’être émerveillé, mais on se trouva ému&#xA0;;
+                    &amp; l’on sentit enfin que le moyen <pb n="xl" xml:id="pxl"/>d’intéresser le cœur étoit de
+                    ne point trop vouloir étonner l’esprit. L’imagination brille dans ce
+                    Roman&#xA0;; mais elle se promene sans s’égarer. Si l’on trouve quelque langueur
+                    dans l’expression des sentiments, il faut se rappeller que les Héros de ce livre
+                    sont des personnages paisibles qui ont souvent occasion de se dire les mêmes
+                    choses, &amp; qui croient ne se les être jamais assez dites. On trouvera, sans
+                    doute, aussi l’ouvrage un peu trop long&#xA0;; mais il faut avouer que de tous
+                    les longs Romans, c’est celui dont l’étendue se fait le moins appercevoir.</p>
+                <p>J’aurois dû placer avant cette derniere production un autre Roman d’un genre très
+                    opposé, &amp; qui lui est antérieur. C’est le <hi rend="i">Pantagruel</hi> de
+                    Rabelais. Il est aussi merveilleux par le fond, que tous les Romans qui
+                    l’avoient <pb n="xlj" xml:id="pxlj"/>précédé&#xA0;; mais il offre un ton d’ingénuité, des
+                    traits de critique, &amp; même des traits de génie, que nul d’entre eux ne
+                    présente. Il paroît même faire la critique de tous ses aînés. C’est du moins ce
+                    qui semble être entré dans le plan de l’Auteur, supposé qu’on puisse entrevoir
+                    aucun plan dans son ouvrage.</p>
+                <p>Ce n’est pas sans effort, que le bon goût parvient à s’établir. Le mauvais goût
+                    ressemble à ces plantes parasites que le cultivateur ne cesse d’arracher, &amp;
+                    qui ne cessent de revenir sans avoir besoin de culture. On ne choisit plus pour
+                    Héros de Romans des Paladins&#xA0;; mais nos Romanciers firent des Paladins de
+                    tous leurs Héros. Le commencement du dernier siecle vit éclore ces énormes
+                    collections d’aventures incroyables, &amp; d’entretiens languissants, les <hi
+                        rend="i">Pharamonds</hi>, les <pb n="xlij" xml:id="pxlij"/><hi rend="i">Cléopâtres</hi>,
+                    les <hi rend="i">Clélies</hi>, les <hi rend="i">Artamenes</hi>, tant d’autres
+                    qu’on accueillit alors &amp; qu’on dédaigne aujourd’hui. C’étoient, quant à
+                    l’ordonnance, des especes de Poemes épiques, surchargés d’épisodes&#xA0;; &amp;
+                    quant aux détails, des descriptions exagérées, ou des conversations aussi
+                    insipides que diffuses. Celles qui avoient si bien réussi dans l’Astrée
+                    séduisirent les Auteurs de ces nouveaux Romans&#xA0;: ils firent parler Cyrus
+                    &amp; Horatius Coclès comme Céladon &amp; Silvandre. Par là, ils rendirent très
+                    ridicule ce qui avoit paru très agréable. Il faut pourtant avouer que
+                    l’imagination brille dans presque tous ces ouvrages&#xA0;; mais c’est presque
+                    toujours aux dépens de la vraisemblance &amp; du goût. L’héroïne ne résiste que
+                    pour donner à l’auteur le temps de tout dire&#xA0;; le Héros daigne se prêter à
+                    ces <pb n="xliij" xml:id="pxliij"/>arrangements&#xA0;; mais la constance du lecteur est à bout
+                    long-temps avant que la sienne soit récompensée.</p>
+                <p>Scarron, qui eut l’art &amp; le goût de tout travestir, dut peut-être à la
+                    lecture de ces fictions faussement sublimes, l’idée de son <hi rend="i">Roman
+                        Comique</hi>. Ses Héros sont bien pris dans la nature&#xA0;: il ne s’éloigne
+                    en rien de la vraisemblance, &amp; pour la premiere fois son style est plaisant
+                    sans être burlesque. En un mot, supposé qu’il n’ait voulu que travestir, ce
+                    n’est pas de son côté que se trouve la caricature.</p>
+                <p>Si le même esprit fit éclore le <hi rend="i">Roman Bourgeois</hi>, ce ne fut pas
+                    tout-à-fait le même génie&#xA0;; car, quoi qu’on en puisse dire, chaque genre a
+                    le sien. L’ouvrage de Furetiere fut goûté dans son temps, &amp; n’est point
+                    encore méprisé dans le nôtre. On le met en <pb n="xliv" xml:id="pxliv"/>pendant avec le Roman
+                    Comique&#xA0;; mais c’est comme on y met certains tableaux, uniquement
+                    parcequ’ils sont de la même forme au défaut d’être de la même main.</p>
+                <p><hi rend="i">Zaïde</hi> &amp; la <hi rend="i">Princesse de Cleves</hi> ramenerent
+                    le Roman à son vrai ton&#xA0;; supposé même que ce ton eût déja été pris dans
+                    aucun Roman. C’est la vraisemblance d’action unie à des sentiments vrais&#xA0;;
+                    ce sont des caracteres pris dans la Nature, &amp; une marche tracée avec art,
+                    sans que l’art se fasse trop sentir. Les uns attribuent ces deux ouvrages à
+                    Madame de la Fayette, les autres à Ségrais. Le célebre M. Huet, leur ami commun,
+                    les attribue uniquement au dernier. Son opinion doit être d’un grand poids &amp;
+                    ne peut guere être combattue. Il est possible que des motifs particuliers aient
+                    engagé Ségrais à <pb n="xlv" xml:id="pxlv"/>faire à Madame de la Fayette le sacrifice de ces
+                    deux productions. En ce cas, il en aura usé comme ces amants trop généreux qui
+                    se ruinent pour enrichir ce qu’ils aiment.</p>
+                <p>Le dernier siecle ne vit paroître aucun autre Roman de la force des deux
+                    précédents, à moins qu’on ne place le <hi rend="i">Télémaque</hi> au nombre de
+                    ces sortes d’ouvrages. Alors il faudroit lui assigner une classe à part. Quelle
+                    autre production romanesque offrit jamais des détails aussi brillants joints à
+                    des vues aussi profondes&#xA0;? tant de douceur dans l’expression &amp; tant de
+                    force dans les idées&#xA0;? Cet ouvrage semble n’avoir été fait que pour les
+                    Princes, &amp; l’art de l’auteur a su le rendre utile à tous les hommes. Il
+                    peut, tout à la fois, les intéresser &amp; les instruire.</p>
+                <p>On vit quelque temps après <pb n="xlvj" xml:id="pxlvj"/>paroître <hi rend="i">Séthos</hi>, autre
+                    Roman politique&#xA0;; mais on vit parfaitement aussi qu’il étoit d’un autre
+                    auteur.</p>
+                <p>Les Romans de Madame Daunoi furent accueillis parcequ’elle sut y jetter de
+                    l’intérêt&#xA0;; à cela près, ils sont écrits d’un style un peu trop
+                    languissant. On lit encore à vingt ans son <hi rend="i">Hippolyte</hi>, mais il
+                    est difficile qu’à trente on puisse le lire.</p>
+                <p>Hamilton, dans les <hi rend="i">Memoires du Comte de Grammont</hi>, paroît
+                    n’avoir écrit qu’un Roman. Il est vrai que le caractere de son Héros étoit par
+                    lui-même très romanesque. Ces Mémoires, au surplus, doivent servir de modele
+                    quant au style. Par-tout il est rapide, léger, saillant, pittoresque&#xA0;:
+                    nulle entrave, nul embarras. Hamilton, quoiqu’étranger, manioit notre langue
+                    avec une facilité bien rare jusqu’<pb n="xlvij" xml:id="pxlvij"/>alors. Il en devina le génie
+                    dans son genre, comme Pascal &amp; la Bruyere l’avoient deviné dans des genres
+                    différents.</p>
+                <p>Un autre Ecrivain, non moins bel esprit que le précédent, mit dans ses
+                    productions peut-être encore plus de véritable esprit. C’est l’ingénieux le
+                    Sage. Son <hi rend="i">Diable Boiteux</hi> est un des meilleurs Vaudevilles en
+                    prose qu’on ait jamais faits. Vivacité d’expression, tableaux raccourcis, mais
+                    saillants, critique égayée par l’épigramme, portraits dont on croyoit pouvoir
+                    faire l’application&#xA0;: tels furent les causes du singulier succès de ce
+                    Roman. Il a depuis perdu l’à-propos, &amp;, par la même raison, une partie de
+                    ses lecteurs. C’est le sort de tout ce qui n’est que Vaudeville. <hi rend="i"
+                        >Gilblas</hi>, dont l’objet est plus général, intéresse aujourd’hui plus
+                    universellement. Il joint au mérite de <pb n="xlviij" xml:id="pxlviij"/>la narration celui d’une
+                    morale assaisonnée, &amp; d’un style qui dit beaucoup plus qu’il ne semble
+                    dire&#xA0;: c’est un de ces écrits qu’on ne doit point lire trop rapidement. Ce
+                    fut pourtant ce qui arriva. On lut un auteur qui donne beaucoup à penser, comme
+                    on en lit tant d’autres qui disent fastidieusement tout ce qu’ils pensent. Dès
+                    lors on ne lui rendit point assez de justice. La Fontaine eut long-temps le même
+                    sort. L’écrivain qui charme d’abord la multitude est rarement un homme
+                    supérieur. Il en est de ce dernier à-peu-près comme des Grands qui ne doivent
+                    être jugés que par leurs Pairs.</p>
+                <p>Le Sage avoit très bien connu &amp; le génie de sa langue &amp; les différents
+                    caracteres qui circulent dans la société. Vint un autre scrutateur qui parut
+                    faire dans le cœur humain de nouvelles <pb n="xlix" xml:id="pxlix"/>découvertes. Il en
+                    développa tous les replis, il en épia tous les mouvements. Il s’attacha moins à
+                    décrire les sentiments connus, qu’à distinguer les nuances peu connues qui les
+                    modifient. Ses perceptions sont quelquefois si subtiles que pour voir comme lui
+                    il faut y regarder de bien près. Souvent même on est réduit à l’en croire sur sa
+                    parole, tant les objets qu’il nous indique sont impalpables &amp; déliés. M. de
+                    Marivaux, enfin, eut une maniere de voir à lui, &amp; une maniere d’écrire qui
+                    répondoit à sa maniere de voir. On ne doit ni imiter son style, ni peut-être le
+                    blâmer. C’étoit le sien. On sait que celui de chaque peintre ne se ressemble
+                    pas. L’Albâne mettoit plus de petits détails dans ses tableaux que Michel-Ange
+                    dans les siens, &amp; tous deux ont rempli leur objet. M. de Marivaux a eu le
+                        <pb n="l" xml:id="pl"/>même avantage dans le <hi rend="i">Paysan parvenu</hi> &amp; dans
+                        <hi rend="i">Marianne</hi>. C’est dommage que le défaut de conclusion nous
+                    empêche de juger s’il auroit aussi bien terminé le plan de ces deux
+                    ouvrages.</p>
+                <p>L’Auteur des <hi rend="i">Egarements du cœur &amp; de l’esprit</hi> nous laisse
+                    les mêmes regrets. Au reste, il a prouvé par d’autres écrits, qu’un dénouement
+                    ne l’embarrassoit pas. L’ouvrage dont nous parlons maintenant suffiroit seul
+                    pour établir la réputation d’un Ecrivain. Le ton &amp; les usages du grand
+                    monde, les travers &amp; les foiblesses du cœur humain, y sont décrits avec
+                    cette sureté d’expression qui atteste la ressemblance des portraits. Les Lettres
+                    de la <hi rend="i">Marquise de</hi>…. nous détaillent les effets d’une passion
+                    très vive, &amp; très vivement peinte. Celles d’une <hi rend="i">Duchesse à un
+                        Duc</hi> sont d’un genre plus tempéré. On <pb n="lj" xml:id="plj"/>demandera, peut-être,
+                    pourquoi la Marquise est si foible dès le début de son Roman, &amp; pourquoi la
+                    Duchesse est si forte même en terminant le sien&#xA0;? On répondra que l’Auteur
+                    l’a voulu ainsi&#xA0;; que ces sortes de contrastes ne sont point sans exemple,
+                    &amp; qu’un auteur de Romans est à l’abri du reproche lorsqu’il ne hasarde que
+                    ce qui est possible. D’ailleurs M. de Crébillon a su encore se faire lire lors
+                    même qu’il a choqué &amp; voulu choquer toute vraisemblance.</p>
+                <p>Les <hi rend="i">Confessions du Comte de</hi>… par feu M. du Clos, de l’Académie
+                    Françoise, furent contemporaines des <hi rend="i">Egarements du cœur &amp; de
+                        l’esprit</hi>. La maniere des deux Auteurs n’est pas la même. Celle de M. du
+                    Clos est plus heurtée&#xA0;: il détaille moins que ne fait M. de Crébillon. Le
+                    fond des deux ouvrages differe aussi à bien des <pb n="lij" xml:id="plij"/>égards. On dit,
+                    toutefois, que l’Auteur des <hi rend="i">Confessions</hi> enleva à celui des <hi
+                        rend="i">Egarements</hi> le seul dénouement qui convînt à son ouvrage. Ce ne
+                    peut être que l’effet d’une rencontre&#xA0;; mais elle est malheureuse pour
+                    l’Ecrivain qu’on a prévenu.</p>
+                <quote><p>La raison pour marcher n’a souvent qu’une voie<note n="*" place="bottom"
+                            >Boileau, <hi rend="i">Art poétique</hi>.</note>.</p></quote>
+                <p>A-peu-près dans le même temps, un autre Ecrivain donnoit à ses fictions &amp;
+                    plus d’étendue, &amp; un aspect beaucoup plus grave. M. l’Abbé Prévost écrivoit
+                    ses Romans à-peu-près comme on doit écrire l’histoire. Son style, quoiqu’en
+                    général assez pur, n’a point cette couleur vive &amp; fraîche qu’exigent les
+                    ouvrages d’imagination. Le sombre de ses tableaux en fait presque l’intérêt. Son
+                    imagination <pb n="liij" xml:id="pliij"/>lugubre épuise dans ses Romans tous les ressorts de la
+                    Tragédie. Les poignards, les cavernes, les tombeaux, les bûchers, tout, jusqu’à
+                    l’anthropophagie, sert d’aliment ou de base à ses fictions. Il tourmente ses
+                    lecteurs à force de vouloir les intéresser. On peut, d’ailleurs, lui reprocher
+                    des réflexions trop fréquentes, &amp;, sur-tout, d’avoir plutôt l’air de
+                    disserter que de réfléchir. Quoi qu’il en soit, il est assez rare que cet Auteur
+                    ennuie, &amp; c’est une assez bonne réponse à faire aux meilleures critiques. Sa
+                        <hi rend="i">Manon Lescaut</hi> en est une encore plus efficace. On peut
+                    dire qu’il a traité fort heureusement un sujet qu’il n’eût peut-être point fallu
+                    traiter.</p>
+                <p>Il parut dans le même temps, &amp; même quelque temps après, d’autres fictions
+                    plus piquantes que scrupuleuses. Ce sont de ces peintures qui tiennent leur
+                    place <pb n="liv" xml:id="pliv"/>dans les cabinets, mais qu’on a soin de couvrir d’un rideau.
+                    Par là on les dérobe à certains regards&#xA0;; mais on tire soi-même de temps à
+                    autre le rideau qui les couvre.</p>
+                <p>L’Éditeur des Lettres Persanes veut qu’on les envisage comme un Roman. Ce n’est
+                    pas, du moins, un Roman fort d’intrigue. Le grand mérite de cet ouvrage consiste
+                    dans les fines observations de Ricca, &amp; dans les profonds raisonnements
+                    d’Usbec. On peut, sans doute, répondre aux raisonnements de l’un comme aux
+                    observations de l’autre. Chaque Auteur a sa maniere de voir, &amp; M. de
+                    Montesquieu avoit la sienne, souvent même très systématique. Il a mis dans ses
+                    Lettres Persanes le germe de presque tous ses autres écrits. Ce sont les cartons
+                    d’un grand peintre, &amp; j’ai vu quelques <pb n="lv" xml:id="plv"/>amateurs qui préféroient
+                    ces mêmes cartons à la grande machine.</p>
+                <p>Les Lettres Turques, par M. de Saint Foix, annoncent, comme tous ses autres
+                    écrits, l’auteur qui sait bien écrire &amp; bien voir. La politique de Nédim
+                    Coggia est moins compliquée que celle d’Usbec&#xA0;; mais ses vues ne sont pas
+                    moins morales &amp; n’en deviennent que plus utiles. D’ailleurs, on trouve dans
+                    plusieurs des lettres de Rosalide cet intérêt du cœur qui, dans tous les cas,
+                    facilite les leçons qu’on veut donner à l’esprit.</p>
+                <p>Un Auteur distingué<note n="*" place="bottom">M. le Chevalier d’Arcq.</note> a su
+                    entremêler à des écrits solides &amp; sérieux quelques productions d’un genre
+                    léger &amp; agréable. Telles sont les <hi rend="i">Lettres d’Osman</hi>, le <hi
+                        rend="i">Palais du Silence</hi>, &amp;c&#xA0;; peintures fines &amp;
+                    enjouées d’une foule <pb n="lvj" xml:id="plvj"/>de travers, qu’il est plus facile de bien
+                    peindre que de corriger.</p>
+                <p>Le goût des Romans en forme de lettres ne tarda point à devenir général. On
+                    distingua dans ce nombre les <hi rend="i">Lettres d’une Peruvienne</hi>, ouvrage
+                    d’une Dame Françoise<note n="*" place="bottom">Madame de Grafigny.</note> qui
+                    avoit cultivé avantageusement sa langue. On peut, cependant, reprocher à son
+                    style un peu de langueur, d’afféterie, &amp; de précieux&#xA0;; mais il offre
+                    aussi quelquefois le véritable langage du sentiment.</p>
+                <p>On ne me pardonneroit point d’oublier la <hi rend="i">Nouvelle Héloïse</hi>,
+                    autre Roman écrit en forme de lettres. Cette nouvelle Héloïse n’a de commun avec
+                    l’ancienne, que d’aimer comme elle son précepteur &amp; d’en être aimée. On ne
+                    décidera point laquelle des deux céda le plus promptement&#xA0;; mais si
+                    l’ancienne fit aussi peu de <pb n="lvij" xml:id="plvij"/>résistance que la nouvelle, on peut
+                    dire que ces deux Héroïnes furent d’assez bonne composition. Ce n’est pas, il
+                    est vrai, choquer la vraisemblance physique&#xA0;; mais la gradation morale
+                    est-elle bien observée&#xA0;? est-ce respecter suffisamment cette décence de
+                    convention si facile à observer, au moins dans un Roman&#xA0;? D’ailleurs
+                    celui-ci affiche l’instruction. L’auteur le destine à l’édification des meres,
+                    &amp; il ajoute que toute fille est perdue si elle en lit seulement quatre
+                    pages. Certainement la plupart l’auront lu tout entier. Que de filles
+                    perdues&#xA0;! Hé&#xA0;! pourquoi les exposer à un péril aussi éminent&#xA0;?
+                    Qu’est-ce qu’un livre qu’une mere doit toujours tenir sous la clef, &amp;
+                    qu’elle ne peut lire sans s’y mettre elle-même&#xA0;? Passons. Voilà Julie
+                    séduite &amp; bientôt après mariée&#xA0;: l’ancienne Héloïse ne <pb n="lviij" xml:id="plviij"/>se maria point, quoique son amant fût perdu pour elle. Ce n’est pas
+                    tout&#xA0;: l’époux de Julie est instruit d’avance de sa foiblesse. Il n’en
+                    témoigne rien ni avant ni même long-temps après la conclusion. Il fait plus, il
+                    reçoit dans sa maison cet ancien amant de sa femme&#xA0;; il s’absente même
+                    &amp; les laisse tous deux exposés à des combats qui pouvoient finir par une
+                    défaite. Heureusement l’épouse est plus forte que l’époux n’est prudent&#xA0;:
+                    &amp; Julie meurt tout à propos pour esquiver de nouvelles épreuves. Elle écrit,
+                    ayant la mort dans le sein, une lettre fort longue à S. Preux pour lui apprendre
+                    qu’elle l’a toujours aimé, qu’elle l’aime encore, qu’elle meurt en l’aimant. Qui
+                    le croiroit&#xA0;? c’est encore le mari de Julie qui fait parvenir cette lettre
+                    à son rival. Un tel caractere est d’une <pb n="lix" xml:id="plix"/>espece rare. Aussi l’Auteur
+                    a-t-il été le puiser dans les glaces du Nord.</p>
+                <p>Avec tous ces défauts dans la texture, ce Roman est quelquefois un modele
+                    d’expression&#xA0;; mais c’est quand les deux amants parlent d’amour, &amp;
+                    malheureusement ils parlent bien souvent d’autre chose. De longues dissertations
+                    viennent trop fréquemment intercepter l’intérêt. Toutes, cependant, auroient
+                    leur prix si elles étoient moins déplacées. J’en excepte les plaisanteries sur
+                    notre opéra, qui ne peuvent être placées nulle part.</p>
+                <p>M. de Voltaire, qui n’a dédaigné aucun genre de littérature, a bien voulu nous
+                    donner aussi quelques Romans. Son <hi rend="i">Zadigue</hi>, entre autres, est
+                    tout philosophique, mais jamais la Philosophie ne se fit voir accompagnée de
+                    tant de graces.</p>
+                <pb n="lx" xml:id="plx"/><p>On a vu plus d’une fois le beau sexe disputer au nôtre quelques
+                    palmes littéraires. Toutes ne semblent pas faites pour lui&#xA0;; mais il peut
+                    au moins prétendre à quelques-unes. Celle du Roman est, sur-tout, de ce nombre.
+                    L’amour fait la base de ces sortes d’ouvrages, &amp; celles qui le font naître
+                    semblent devoir être propres à le décrire. C’est ce qui a réussi à plusieurs de
+                    nos Dames Françoises, &amp; ces preuves se renouvellent de temps à autre. On a
+                    fait un juste accueil aux productions de Madame Ricoboni, à la délicatesse de
+                    style &amp; à l’onction de sentiment qui les caractérisent. Le <hi rend="i"
+                        >Danger des liaisons</hi><note n="*" place="bottom">Par Madame la Marquise
+                        de S. Aubin.</note>, les <hi rend="i">Lettres du Marquis de
+                        Roselle</hi><note n="**" place="bottom">Par Madame Elie de Beaumont.</note>,
+                    quelques autres écrits de ce genre, prouvent que notre siecle a ses La Fayette,
+                        <pb n="lxj" xml:id="plxj"/>auxquelles même on ne dispute point les ouvrages qui peuvent
+                    leur mériter ce titre.</p>
+                <p>Quelques Ecrivains de nos jours, la plupart même encore jeunes, ont produit des
+                    Romans très bien accueillis du Public. Si je ne les détaille point, c’est
+                    uniquement pour éviter la multiplicité des détails.</p>
+                <p>Je n’ai pas compris dans ce Discours le genre du Conte&#xA0;; autrement je
+                    n’eusse oublié ni ceux de la Reine de Navarre, ni ceux de Madame Daunoi&#xA0;;
+                    encore moins ceux d’Hamilton&#xA0;; encore moins ceux de M. Marmontel, &amp;c.
+                    Je réserve ce que j’en aurois dit pour un autre Discours qui sera placé à la
+                    tête d’une nouvelle édition que l’on prépare de mes Contes, en quatre volumes.
+                    Elle sera ornée de tous les accessoires que l’usage autorise&#xA0;; usage que je
+                    trouve <pb n="lxij" xml:id="plxij"/>établi, &amp; que je crois enfin devoir suivre, par la même
+                    raison qui oblige d’en suivre tant d’autres.</p>
+                <p>Bornons-nous aux détails précédents sur le genre romanesque, &amp; ajoutons ici
+                    quelques réflexions sur ce même genre.</p>
+                <p>Le célebre M. Huet, Evêque d’Avranches, l’homme le plus érudit de son siecle,
+                    &amp; homme de goût malgré cette érudition&#xA0;; cet Evêque, dis-je, n’a point
+                    dédaigné d’écrire sur les Romans. On a de lui un petit Traité sur leur origine.
+                    Il y condamne les abus de ces sortes de productions&#xA0;; mais il avoue
+                    qu’elles pourroient devenir aussi utiles qu’elles sont par elles-mêmes
+                    agréables. Qui pourroit en effet s’y opposer&#xA0;? La peinture des passions est
+                    séduisante&#xA0;; mais parcequ’une femme a des attraits, lui sera-t-il défendu
+                    de se faire <pb n="lxiij" xml:id="plxiij"/>peindre&#xA0;? N’exposez aux regards que ce que
+                    l’usage permet d’y exposer, &amp; ne craignez point de multiplier les
+                    portraits.</p>
+                <p>Un Ecclésiastique de nos jours prit la peine, il y a quelques années, d’enfanter
+                    contre les Romans un gros Sermon en forme de Dialogues. Il ne fait grace à aucun
+                    de nos Romans, pas même au <hi rend="i">Télémaque</hi>. Il n’approuve, il ne
+                    tolere que les ouvrages solides. Mais qu’entend-il par un ouvrage solide&#xA0;?
+                    L’histoire est de ce nombre, sans doute&#xA0;? Hé bien&#xA0;! l’histoire est
+                    souvent obligée de retracer la peinture des passions &amp; même des plus grands
+                    désordres. Ce qu’il seroit permis au Romancier de taire, l’Historien est obligé
+                    de le dire. Il est infidele s’il déguise &amp; même s’il pallie certains
+                    faits&#xA0;; &amp; s’il les supprime, il n’est plus Historien.</p>
+                <pb n="lxiv" xml:id="plxiv"/><p>Il faut donc supprimer aussi tous ces grands ouvrages destinés par
+                    leur suprême mérite à se perpétuer aussi long-temps que les siecles&#xA0;?
+                    Virgile aura vainement déployé toutes les richesses du talent &amp; du génie
+                    dans son <hi rend="i">Enéide&#xA0;;</hi> il faut en écarter l’épisode de Didon,
+                    &amp; même l’amour un peu froid de Lavinie. Il faut envoyer le Tasse dans le
+                    désert d’Armide&#xA0;; exiler Chimene &amp; Camille, malgré le respect dû à
+                    Corneille&#xA0;; brûler presque tous les chefs-d’œuvre de Racine&#xA0;; se bien
+                    garder de voir ni d’entendre Zaïre, &amp;c. &amp;c. Voilà où nous emporte un
+                    faux enthousiasme. Une these générale est toujours défectueuse lorsqu’elle
+                    n’admet point d’exceptions.</p>
+                <p>J’ignore si ce fut la beauté de certaines images qui détermina l’Empereur Léon
+                    l’Isaurien à se <pb n="lxv" xml:id="plxv"/>faire Iconoclaste<note n="*" place="bottom">On sait
+                        que les Iconoclastes rejettoient le culte des Images.</note>. En tout cas,
+                    il fut condamné comme hérétique.</p>
+                <p>Le Roman n’est donc pas toujours dangereux&#xA0;: ajoutons même qu’il pourroit
+                    devenir très utile. S’il peint les passions, il peut aussi apprendre à les
+                    régler. M. l’Abbé J…. veut-il qu’aucun de nous ne lise la Bible, sous prétexte
+                    qu’il y est parlé du double enlevement de Sara, des amours de Jacob &amp; de
+                    Rachel, des emportements de la femme de Putiphar, de l’expédient dont userent
+                    les filles de Loth &amp; la Bru de Juda, de l’infâme brutalité des Benjamites,
+                    des adulteres de David, &amp; de l’inceste de son fils Ammon&#xA0;? Voilà
+                    certainement des passions fortes dans leur principe, &amp; la plupart terribles
+                    dans leurs <pb n="lxvj" xml:id="plxvj"/>effets. Le récit en est-il contagieux&#xA0;? Je prévois
+                    la réponse de M. l’Abbé, &amp; cette réponse devient aussi la mienne.</p>
+                <p>Je ne prétends pas, toutefois, justifier quelques-unes de nos productions
+                    romanesques. Ce ne sont, il est vrai, que des jeux de l’esprit, mais des jeux
+                    très abusifs. Il en est aussi beaucoup d’autres qui ne peuvent produire ni bien
+                    ni mal&#xA0;; ils ressemblent à ces jeux de commerce qui aident à passer le
+                    temps lorsqu’on n’est pas à même de l’employer.</p>
+                <p>Mais, dira-t-on (&amp; on l’a même déja dit), les <hi rend="i">Artamenes</hi>,
+                    les <hi rend="i">Clélies</hi>, les <hi rend="i">Cassandres</hi>, ne servent qu’à
+                    énerver l’esprit &amp; le cœur.</p>
+                <p>Je répondrai que ces mêmes Romans sont aujourd’hui si peu lus, qu’ils renferment
+                    le préservatif du mal qu’ils pourroient faire. J’ajouterai que l’amour, <pb n="lxvij" xml:id="plxvij"/>tel qu’ils le peignent, est plus propre à rebuter qu’à séduire,
+                    &amp; qu’en tout cas, il y auroit peu de danger pour quelques jeunes personnes
+                    d’imiter les Héroïnes de ces fictions dans leur amour, si elles les imitoient
+                    dans leur résistance.</p>
+                <p>Les Détracteurs des Romans disent encore que cette lecture nuit à des lectures
+                    plus solides&#xA0;; qu’elle en fait perdre le goût à ceux qui l’avoient, &amp;
+                    qu’elle empêche les autres de jamais l’acquérir.</p>
+                <p>J’ai vu quelques personnes qui avouoient, au contraire, que sans la lecture des
+                    Romans elles n’eussent peut-être jamais lu autre chose. Il faut traiter l’esprit
+                    comme le corps. La nourriture qui convient à l’enfance n’est point celle
+                    qu’exige l’âge mûr. C’est par des aliments <pb n="lxviij" xml:id="plxviij"/>légers qu’on dispose
+                    l’estomac à recevoir des mets plus solides. Cette gradation nécessaire, quant au
+                    physique, ne l’est pas moins quant au moral. Notre esprit a aussi son enfance.
+                    Il ne faut donc lui offrir que l’aliment qu’elle exige. Il faut, non l’accabler
+                    d’abord de nourriture, mais l’accoutumer à se nourrir.</p>
+                <p>Il peut arriver aussi que, même dans l’âge mûr, l’esprit ait ses indigestions,
+                    ses dégoûts&#xA0;: rien n’empêche alors qu’il ne prenne quelques doses de Roman,
+                    par régime. Platon, qui étoit un grand Philosophe, n’a pas dédaigné d’écrire de
+                    petits vers amoureux. C’est même dans ce qu’il a écrit sur l’Amour, que la
+                    plupart de nos Romanciers ont puisé leur galante métaphysique.</p>
+                <p>Je vais dire plus encore&#xA0;: le Roman peut devenir un écrit solide&#xA0;; <pb n="lxix" xml:id="plxix"/>mais il ne doit point renoncer au privilege d’être agréable. Cet
+                    heureux ensemble a ses difficultés sans doute, &amp; il n’appartient qu’au
+                    talent réel de les vaincre.</p>
+                <p>Le Romancier a sur l’Historien l’avantage de pouvoir conduire le sujet qu’il
+                    traite, au lieu que c’est le sujet qui conduit l’Historien. Le premier s’avance
+                    &amp; s’arrête où il veut&#xA0;: il est le maître des caracteres &amp; des
+                    événements. Qu’il soit vraisemblable, il sera toujours vrai&#xA0;; qu’il plaise,
+                    on lui permettra toujours d’instruire. L’Historien est le portraitiste asservi à
+                    des traits &amp; à un local donnés&#xA0;; le Romancier est le peintre qui crée
+                    le local &amp; les traits qu’il veut rendre. Tout ce qu’il produit est son
+                    ouvrage. Il n’en est comptable qu’envers le goût, qu’il faut toujours consulter,
+                    &amp; à cette portion de jugement que <pb n="lxx" xml:id="plxx"/>l’imagination ne doit pas
+                    méconnoître.</p>
+                <p>Que doit donc faire le Romancier&#xA0;? Combiner son sujet de maniere que
+                    l’instruction ne nuise point à l’agrément, ni l’agrément à l’instruction. Il
+                    doit promener ses Lecteurs plutôt que paroître les conduire, &amp; eux-mêmes ne
+                    doivent point s’appercevoir qu’on les conduit. Un Roman est le verger d’Idalie
+                    où les fruits se confondent avec les fleurs, où l’on doit cueillir sans effort
+                    les uns &amp; les autres, où tout se trouve prêt, sans que rien semble avoir été
+                    préparé. Il faut, lorsqu’on arrive au terme, pouvoir se rappeller la route qu’on
+                    a suivie&#xA0;; mais il ne faut pas qu’on puisse entrevoir le terme, du milieu
+                    de la route.</p>
+                <p>A ce prix, le Roman cessera d’être un ouvrage frivole. Il y en <pb n="lxxj" xml:id="plxxj"/>aura
+                    moins, sans doute&#xA0;; mais on sentira mieux le prix de ceux qu’on aura. Ils
+                    ne cesseront point d’être le tableau des passions&#xA0;; mais ils pourront en
+                    devenir le correctif. L’enfant de tout âge croira ne tenir qu’un hochet, &amp;
+                    ce hochet deviendra pour lui un instrument utile.</p>
+                <p>La morale est toujours triste lorsqu’elle s’annonce à découvert&#xA0;: il faut un
+                    peu la déguiser pour la rendre plus agréable. On a peint le Prothée des anciens
+                    occupé à prendre mille formes différentes pour échapper à ceux qui le
+                    poursuivoient&#xA0;; la raison n’est que trop souvent réduite à ces
+                    métamorphoses, pour s’approcher de ceux qui la fuient.</p>
+                <p>Après avoir détaillé tout ce que doit être un Roman, je n’oserai guere détailler
+                    ce qu’est celui-ci. J’espere, au moins, qu’on <pb n="lxxij" xml:id="plxxij"/>y découvrira une
+                    marche assez naturelle. Tout n’est pas d’invention, il s’en faut de
+                    beaucoup&#xA0;; j’ai plutôt déguisé certains faits que je ne les ai
+                    changés&#xA0;: mais j’ose dire que rien n’y choque la vraisemblance.</p>
+                <p>J’ai puisé mes principaux personnages dans une sphere qui semble être d’abord des
+                    plus communes. C’est, peut-être, ce qui m’a déterminé à les choisir. J’ai vu
+                    qu’il pouvoit résulter de cette position des tableaux intéressants, même pour
+                    ceux que le sort a placés dans une sphere plus élevée. Il fut, je l’avoue, un
+                    temps où le bon Hubert eût bien mal figuré à l’ouverture d’un Roman. Grace aux
+                    progrès de la raison, les temps &amp; la maniere de voir sont changés. On sait
+                    maintenant qu’il se trouve des hommes dans tous les états, &amp; que <pb n="lxxiij" xml:id="plxxiij"/>nul état ne donne exclusion à la vertu.</p>
+                <p>J’aurois pu semer dans cet ouvrage (car enfin tout écrit est un ouvrage) plus de
+                    digressions qu’il n’en offre&#xA0;; mais j’avoue que je n’y ai pas même placé
+                    sans scrupule celles qui s’y trouvent. Je me suis défié du penchant que nous
+                    avons tous à étaler des préceptes. J’ai cru qu’il valoit mieux y substituer des
+                    exemples, &amp; sauver par l’action le fastidieux du raisonnement.</p>
+                <p>J’ai tâché de soutenir &amp; de nourrir l’intérêt, qui est au Roman ce qu’est le
+                        <hi rend="i">je ne sais quoi</hi> dans une femme aimable, &amp; j’ai essayé
+                    d’y jetter ces détails qui en font la parure&#xA0;; mais je les ai souvent
+                    sacrifiés au mouvement de l’action&#xA0;: il ne faut point que la parure d’une
+                    femme l’embarrasse.</p>
+                <p>Quant au langage des passions, &amp; à l’expression des sentiments, le Lecteur
+                    jugera si je les ai saisis. <pb n="lxxiv" xml:id="plxxiv"/>Chacun les éprouve &amp; les rend à
+                    sa maniere. Je crois pourtant qu’il n’y en a qu’une seule de les bien
+                    rendre&#xA0;; c’est de prendre le ton général de la nature. J’ai donc voulu
+                    peindre plutôt qu’exagérer. Ce n’est point en faisant hurler les passions, qu’on
+                    parvient à les rendre touchantes. Les larmes de Créuse attendrissoient plus
+                    Jason, que les fureurs de Médée. Il faut même régler le ton qu’on fait prendre à
+                    ses Acteurs, sur leur âge, leur état, leur caractere&#xA0;; ne point faire
+                    parler en forcénée une personne douce par tempérament&#xA0;; ne point prodiguer
+                    à tout propos, ces froides exclamations, ces élans désordonnés, ces expressions
+                    boursouflées au dehors, vuides au dedans, ce langage, en un mot, qui ne peint
+                    absolument rien à force de tout travestir. On croit avoir fait un ouvrage <hi
+                        rend="i">brûlant</hi>, on n’a fait qu’une sublime caricature.</p>
+                <pb n="lxxv" xml:id="plxxv"/><p>En voilà beaucoup sur les Romans en général, &amp; trop sur le mien
+                    en particulier. Il est toujours facile de rassembler des regles, &amp; toujours
+                    difficile de les mettre en œuvre. Il y avoit dans Athenes un concours
+                    d’Architectes pour la construction d’un temple. Un d’entre eux, qui parloit
+                    facilement, développa devant ses concitoyens tous les secrets de son art, &amp;
+                    tout l’art qu’il falloit employer pour construire un temple. On applaudit
+                    beaucoup à son discours. Un autre Architecte se leva &amp; ne fit que cette
+                    courte harangue&#xA0;: <hi rend="i">Athéniens, je vous promets de faire tout ce
+                        que mon Collegue vient de vous dire</hi>. Il eut la préférence. Oh&#xA0;!
+                    mes chers Confreres les Romanciers, faites mieux que je n’ai pu faire, &amp; je
+                    vous la donne moi-même.</p>
+                <p/>
+                <postscript><p><hi rend="i">P. S</hi>. On finissoit d’imprimer ce Discours quand je me suis <pb n="lxxvj" xml:id="plxxvj"/>apperçu que je n’y faisois nulle mention des Allemands. Ils ont
+                    eu leurs Romanciers comme d’autres. Leurs plus anciens Romans, qu’on peut même
+                    regarder comme très anciens, sont <hi rend="i">Proserpine</hi>, <hi rend="i">Hercule</hi> &amp;
+                        <hi rend="i">Herculisque</hi>, <hi rend="i">Octavie</hi>, l’<hi rend="i">Esclave Doris, Smyrna
+                        Reine des Amazones</hi>, la <hi rend="i">Princesse Arfinoé</hi>. On a aussi
+                    prétendu que notre vieux Roman d’<hi rend="i">U-l’Espiegle</hi> étoit traduit de
+                    l’Allemand. Peu importe, vu le mérite intrinseque de l’ouvrage&#xA0;; mais
+                    quelques nouvelles productions de la Germanie, dans différents genres, peuvent
+                    servir à prouver que le génie est de tous les climats, &amp; qu’il ressemble à
+                    ces plantes heureuses, pour qui toute espece de sol devient fertile, si la
+                    culture ne lui est pas refusée.</p></postscript>
+                <trailer><hi rend="i">Fin du Discours.</hi></trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>
