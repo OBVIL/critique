@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://obvil.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<!--Odette: 2019-05-20T09:11:58+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Portraits contemporains. Tome I (4e éd.)</title>
+                <author>Sainte-Beuve, Charles-Augustin (1804-1869)</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Labex OBVIL</publisher>
+                <date when="2019"/>
+                <idno>http://obvil.sorbonne-universite.site/corpus/critique/sainte-beuve_portraits-contemporains-ed-04-02_1870</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : 	« Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CCBY-NC-ND 3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>[Source numérisée]</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date when="1869"/>
+            </creation>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article" xml:id="art_1868-07-06_a">
+                <head>Avertissement</head>
+                <p>En réimprimant une fois encore ces Portraits contemporains, je m’attacherai, tout en y ajoutant çà et là quelques mots et parfois une ou deux pages, à les maintenir dans leur première mesure : ce ne sont point des portraits complets et définitifs, ce sont des portraits faits à une certaine date, à un certain âge ; ils nous rendent aussi fidèlement que je l’ai pu les originaux, tels qu’ils étaient à ce moment, ou tels qu’ils me parurent. Bien des traits qui étaient encore délicats, et qu’il fallait de l’attention pour découvrir, se sont marqués davantage et accentués depuis ; d’autres se sont effacés ou recouverts, grâce à cette sorte de transfiguration qui se fait avec les années. Bon nombre enfin de ces articles, qui étaient contemporains du modèle au moment où je les écrivais, sont devenus posthumes à l’heure où je les réimprime et où il m’est donné, une dernière fois, de les relire. Je tiendrai compte de toutes ces différences pour pousser le plus possible au relief et à la vérité.</p>  
+                <dateline>Ce 6 juillet 1868.</dateline>
+            </div>
+            <div type="article" xml:id="art_1845-08-15">
+                <head>Avertissement de la première édition</head>
+          <p>Je continue de mettre ordre de mon mieux à ce que j’appelle mes affaires littéraires. Après avoir recueilli, il y a deux ans, les portraits que j’avais faits des morts, je rassemble aujourd’hui ceux des écrivains vivants. La division peut ne pas sembler très-rigoureuse. Tel écrivain mort d’hier est aussi vivant que tel qui ne mourra que demain. Pendant qu’on imprime ces volumes, il se peut que plus d’un sujet se dérobe à ma classification et acquière le droit de passer d’une série à l’autre. Peu importe ; la classification ne serait-elle qu’un prétexte, l’essentiel est que j’y trouve un fil pour rassembler ces divers morceaux, déjà si nombreux, en m’appliquant à les perfectionner.</p>
+              
+              <p>Ces nouveaux volumes ont d’ailleurs leur caractère assez à part, en effet ; les noms les plus célèbres du jour s’y pressent ; j’ai eu affaire à la plupart d’entre eux, d’assez près et plus d’une fois. La forme de la critique se ressent des difficultés dont j’ai eu à triompher : je débute le plus souvent par la louange, par la pleine louange tellement que la critique proprement dite semble parfois bien près de disparaître. Ç’a été sincérité de ma part en même temps que curiosité d’étude et ouverture commode, je l’avoue ; ç’a été à la fois, s’il m’est permis de le dire, un penchant et une méthode.</p>
+              
+              <p>On n’obtient rien des poètes que par l’extrême louange : Homère, le plus grand de tous, le savait bien, lui qui, au livre VIII de l’Odyssée, fait dire par Ulysse au chantre Démodocus, pour lui demander un chant : « Démodocus, je te mets sans contredit au-dessus de tous les mortels ensemble, car c’est la Muse elle-même qui t’a enseigné, la Muse, fille de Jupiter, ou plutôt Apollon… » Ce compliment de début est de rigueur auprès des poètes, depuis Homère et Démodocus jusqu’à… jusqu’à tous ceux de nos jours.</p>
+              
+              <p>Je ne me suis pas dit cela de prime abord ; j’ai commencé par admirer pleinement, naïvement, ceux que j’aimais surtout à contempler et à pénétrer, et qui se déployaient d’eux-mêmes sous mon regard ; ma curiosité se mêlait d’émotion à mesure que j’entrais plus avant dans chaque talent digne d’être étudié et connu. Je me disais comme Pline le Jeune, lorsqu’il décrit et développe les mérites de tant d’illustres amis : « At hoc pravum malignumque est non admirari hominem admiratione dignissimum, quia videre, alloqui, audire, complecti, nec laudare tantum, verum etiam amare contingit. » Je me disais cela en commençant, et les circonstances extérieures se prêtaient elles-mêmes à cette vue et y inclinaient en quelque sorte la critique, afin que celle-ci pût remplir tout son rôle à ce moment.</p>
+              
+              <p>Il se tentait dans l’art, dans la poésie, dans les diverses branches de la pensée, quelque chose de nouveau à quoi le public n’était pas encore accoutumé ; il a fallu bien des efforts pour qu’il y fût définitivement conquis. On peut par là marquer les deux temps de ma manière critique, si j’ose bien en parler ainsi : dans le premier, j’interprète, j’explique, je professe les poëtes devant le public, et suis tout occupé à les faire valoir. Je deviens leur avocat, leur secrétaire, ou encore leur héraut d’armes, comme je me suis vanté de l’être souvent. Dans le second temps, ce point gagné, je me retourne vers eux, je me fais en partie public, et je les juge.</p>
+              
+              <p>Je les juge avec bien des ambages et des circonlocutions sans doute. Nos successeurs diront sans efforts, et en deux mots, ce que nous nous sommes donné beaucoup de peine pour envelopper ou délayer. Pourtant il n’est pas si malaisé d’entendre ce qu’il n’a été permis que d’indiquer ; et même dans cette manière, que je nomme ma première, et qui a un faux air de panégyrique, la louange (prenez-y garde) n’est souvent que superficielle, la critique se retrouverait dessous, une critique à fleur d’eau : enfoncez tant soit peu, et déjà vous y touchez.</p>
+              
+              <p>Même en énumérant les qualités des talents amis, il y a un mot qu’il ne faudrait jamais perdre de vue, le circum prœcordia ludit, qu’un satirique accorde à l’aimable Horace : se jouer autour du cœur de ceux même qu’on caresse, et montrer qu’on sait les endroits où l’on ne veut pas appuyer.</p>
+              
+              <p>En réimprimant ces portraits, je leur laisse exactement le caractère qu’ils eurent dans le temps de leur publication première, sans m’interdire toutefois les petites notes qui complètent ou restreignent. J’ai dû mettre çà et là des correctifs, je n’ai pas eu à faire de rétractation. Moyennant ce système de petites notes qui courent sous le texte, je rends à celui-ci son vrai sens ; la note est plus familière et donne la facilité de baisser d’un ton. J’ai cru qu’il était permis de parler à l’entre-sol un peu plus librement qu’au premier.</p>
+              
+              <p>Il m’eût été facile, sur bien des points, de rendre ces portraits plus piquants ; j’ai dû le plus souvent me l’interdire. Entre tant d’écueils à travers lesquels je naviguais, si j’ai touché par accident sur quelques-uns, qu’il me suffise de me rendre ce témoignage que je ne crois pas avoir cédé à la crainte de déplaire quand j’ai été indulgent, ni à aucun sentiment hostile quand j’ai été plus sévère. J’ai pu craindre quelquefois d’affliger ; j’ai pu, d’autres fois, prendre occasion de ressaisir ma liberté et de marquer mon dissentiment. Ai-je réussi, autant que j’y ai visé, à ne faire tout cela que dans la limite des obligations imposées et des convenances permises ? — Tels qu’ils sont, on trouvera incontestablement dans ces portraits de bonnes indications de vérités, et une grande masse de faits et de notions apportés en tribut à l’histoire littéraire contemporaine.</p>
+              
+<p>En achevant de revoir et de relire des pages où j’ai autrefois déposé tant d’espérances, où j’ai placé tant de vœux sur des noms brillants qui n’en ont réalisé qu’une partie, je me surprends à redire, et je ne puis m’empêcher de citer, pour moralité finale, ces beaux vers de Virgile, si empreints de gravité et de justesse sévère, et applicables à la décadence de toutes les aristocraties, à celle de tous les talents qu’un travail et une vigilance perpétuelle n’entretiennent pas :</p>              
+              <quote>
+              <l>Vidi lecta diu et multo spectata labore</l>
+              <l>Degenerare tamen, ni vis humana quotannis</l>
+              <l>Maxima quæque manu legeret. Sic omnia fatis</l>
+              <l>In pejus ruere, ac retro sublapsa referri.</l>
+          </quote>
+               <dateline>15 août 1845.</dateline>
+            </div>
+            <div>
+              <head>Chateaubriand</head>  
+                <div type="article" xml:id="art_1834-04-15_a"> 
+                    <head>Chateaubriand, Mémoires</head>
+                    
+                </div>
+                <div type="article" xml:id="art_1844-01-01"> 
+                    <head>Chateaubriand, Vie de Rancé</head>
+                    
+                    <dateline>15 mai 1844</dateline>
+                    
+                </div>
+                <div  type="article" xml:id="art_1869-01-01_h">
+                    <head>Note</head>
+                    
+                </div>
+            </div>
+            <div>
+                <head>Béranger</head>  
+                <div type="article" xml:id="art_1832-12-01"> 
+                    <head>Béranger en 1832</head>
+                    <dateline></dateline>
+                </div>
+                <div type="article" xml:id="art_1835-09-03"> 
+                    <head>Béranger, 1833. Chansons nouvelles et dernières</head>
+                    <dateline>Ce 3 septembre 1835</dateline>
+                    <div  type="article" xml:id="art_1869-01-01_m">
+                        <head>Note</head>
+                        
+                    </div>
+                </div>
+              
+            </div>
+            <div>
+                <head>M. de Sénancour</head>  
+                <div type="article" xml:id="art_1832-01-01"> 
+                    <head>M. de Sénancour, en 1832</head>
+                    
+                    
+                </div>
+                <div type="article" xml:id="art_1833-01-01"> 
+                    <head>Oberman, édition nouvelle, 1833</head>
+                    
+                </div>
+                <div  type="article" xml:id="art_1869-01-01_c">
+                    <head>Note</head>
+                    
+                </div>
+            </div>
+            <div>
+                <head>Lamennais</head>  
+                <div type="article" xml:id="art_1832-02-01"> 
+                    <head>L'abbé de Lamennais en 1832</head>
+                    
+                    <dateline>Février 1832</dateline>
+                </div>
+                <div type="article" xml:id="art_1834-05-01_a"> 
+                    <head>Lamennais, Paroles d'un croyant</head>
+                    <dateline>Mai 1834</dateline>
+                </div>
+                <div type="article" xml:id="art_1836-11-15"> 
+                    <head>Lamennais, Affaires de Rome</head>
+                    <dateline>15 novembre 1836</dateline>
+                </div>
+                <div  type="article" xml:id="art_1869-01-01_d">
+                    <head>Note</head>
+                    
+                </div>
+            </div>
+            <div>
+                <head>Lamartine</head>  
+                <div type="article" xml:id="art_1832-10-01"> 
+                    <head>Lamartine</head>
+                    <dateline>Octobre 1832</dateline>
+                </div>
+                <div type="article" xml:id="art_1836-03-01"> 
+                    <head>Lamartine, Jocelyn (1836)</head>
+                    <dateline>Mars 1836</dateline>
+                    
+                    <label>Note</label>
+                    
+                </div>
+                <div type="article" xml:id="art_1839-04-01"> 
+                    <head>Lamartine, Recueillements poétiques (1839)</head>
+                    <dateline>Avril 1839</dateline>
+                    <div  type="article" xml:id="art_1869-01-01_e">
+                        <head>Note</head>
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <head>Victor Hugo</head>  
+                <div type="article" xml:id="art_1831-01-01_c"> 
+                    <head>Victor Hugo en 1831</head>
+                    
+                </div>
+                <div type="article" xml:id="art_1831-07-01"> 
+                    <head>Victor Hugo, Les Feuilles d'automne, (1831)</head>
+                    <dateline>Juillet 1831</dateline>
+                </div>
+                <div type="article" xml:id="art_1832-07-01_a"> 
+                    <head>Victor Hugo, romans (1832)</head>
+                    <dateline>Juillet 1832</dateline>
+                </div>
+                <div type="article" xml:id="art_1835-11-01"> 
+                    <head>Victor Hugo, Les Chants du crépuscule (1835)</head>
+                    <dateline>Novembre 1835</dateline>
+                    <div  type="article" xml:id="art_1869-01-01_f">
+                        <head>Note</head>
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <head>George Sand</head>  
+                <div type="article" xml:id="art_1832-10-05"> 
+                    <head>George Sand, Indiana (1832)</head>
+                    <dateline>5 octobre 1832</dateline>
+                </div>
+                <div type="article" xml:id="art_1832-12-31"> 
+                    <head>George Sand, Valentine (1832)</head>
+                    <dateline>31 décembre 1832</dateline>
+                </div>
+                <div type="article" xml:id="art_1833-09-01"> 
+                    <head>George Sand, Lélia (1833)</head>
+                    <dateline>Septembre 1833</dateline>
+                    <div  type="article" xml:id="art_1869-01-01_g">
+                        <head>Note</head>
+                        
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
