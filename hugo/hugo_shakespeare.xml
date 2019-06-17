@@ -44,12 +44,13 @@
   </teiHeader>
   <text>
     <body>
-      <div type="dedication">
-        <head rend="uc">À l’Angleterre</head>
-        <p>Je lui dédie ce livre, glorification de son poëte. Je dis à l’Angleterre la vérité ; mais, comme terre illustre et libre, je l’admire, et comme asile, je l’aime.</p>
-        <signed>VICTOR HUGO.</signed>
-        <dateline>Hauteville-House, 1864.</dateline></div>
-      <div>
+      <div type="chapter">
+        <argument>
+          <p rend="uc">À l’Angleterre</p>
+          <p>Je lui dédie ce livre, glorification de son poëte. Je dis à l’Angleterre la vérité ; mais, comme terre illustre et libre, je l’admire, et comme asile, je l’aime.</p>
+          <signed>VICTOR HUGO.</signed>
+          <dateline>Hauteville-House, 1864.</dateline>
+        </argument>
         <head>Préface</head>
         <p>Le vrai titre de cet ouvrage serait : <hi rend="i">À propos de Shakespeare</hi>. Le désir d’<hi rend="i">introduire</hi>, comme on dit en Angleterre, devant le public, la nouvelle traduction de Shakespeare, a été le premier mobile de l’auteur. Le sentiment qui l’intéresse si profondément au traducteur ne saurait lui ôter le droit de recommander la traduction. Cependant sa conscience a été sollicitée d’autre part, et d’une façon plus étroite encore, par le sujet lui-même. À l’occasion de Shakespeare, toutes les questions qui touchent à l’art se sont présentées à son esprit. Traiter ces questions, c’est expliquer la mission de l’art ; traiter ces questions, c’est expliquer le devoir de la pensée humaine envers l’homme. Une telle occasion de dire des vérités s’impose, et il n’est pas permis, surtout à une époque comme la nôtre, de l’éluder. L’auteur l’a compris. Il n’a point hésité à aborder ces questions complexes de l’art et de la civilisation sous leurs faces diverses, multipliant les horizons toutes les fois que la perspective se déplaçait, et acceptant toutes les indications que le sujet, dans sa nécessité rigoureuse, lui offrait. De cet agrandissement du point de vue est né ce livre.</p>
         <p/>
@@ -57,7 +58,7 @@
       </div>
       <div>
         <head>Première partie</head>
-        <div>
+        <div type="chapter">
           <head>Livre I. Shakespeare — Sa vie</head>
           <div>
             <head>I</head>
@@ -150,7 +151,7 @@
             <p>Au dix-huitième siècle, la raillerie obstinée de Voltaire finit par produire en Angleterre un certain réveil. Garrick, tout en corrigeant Shakespeare, le joua, et avoua que c’était Shakespeare qu’il jouait. On le réimprima à Glascow. Un imbécile, Malone, commenta ses drames, et, logique, badigeonna son tombeau. Il y a sur ce tombeau un petit buste, d’une ressemblance douteuse et d’un art médiocre, mais, ce qui le rend vénérable, contemporain de Shakespeare. C’est d’après ce buste qu’ont été faits tous les portraits de Shakespeare qu’on voit aujourd’hui. Le buste fut badigeonné. Malone, critique et blanchisseur de Shakespeare, mit une couche de plâtre sur son visage et de sottise sur son œuvre.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre II. Les génies</head>
           <div>
             <head>I</head>
@@ -301,7 +302,7 @@
             <p>Ces suprêmes génies ne sont point une série fermée. L’auteur de Tout y ajoute un nom quand les besoins du progrès l’exigent.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre III. L’art et la science</head>
           <div>
             <head>I</head>
@@ -408,7 +409,7 @@
             <p>En étant autre.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre IV. Shakespeare l’ancien</head>
           <div>
             <head>I</head>
@@ -577,7 +578,7 @@
             <p>Reste le droit de la Révolution française, créatrice du troisième monde, à être représentée dans l’art. L’Art est une immense ouverture, béante à tout le possible.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre V. Les âmes</head>
           <div>
             <head>I</head>
@@ -618,7 +619,7 @@
       </div>
       <div>
         <head>Deuxième partie</head>
-        <div>
+        <div type="chapter">
           <head>Livre I. Shakespeare — Son génie</head>
           <div>
             <head>I</head>
@@ -715,7 +716,7 @@
             <p/>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre II. Shakespeare — Son œuvre
 <lb/>Les points culminants</head>
           <div>
@@ -797,7 +798,7 @@
             <p>Demeurer après l’envolement de l’ange, être le père orphelin de son enfant, être l’œil qui n’a plus la lumière, être le cœur sinistre qui n’a plus la joie, étendre les mains par moments dans l’obscurité, et tâcher de ressaisir quelqu’un qui était là, où donc est-elle ? se sentir oublié dans le départ, avoir perdu sa raison d’être ici-bas, être désormais un homme qui va et vient devant un sépulcre, pas reçu, pas admis ; c’est une sombre destinée. Tu as bien fait, poëte, de tuer ce vieillard.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre III. Zoïle aussi éternel qu’Homère</head>
           <div>
             <head>I</head>
@@ -885,7 +886,7 @@
             <p>Les hautes montagnes ont sur leur versant tous les climats, et les grands poëtes tous les styles. Il suffit de changer de zone. Montez, c’est la tourmente ; descendez, ce sont les fleurs. Le feu intérieur s’accommode de l’hiver dehors, le glacier ne demande pas mieux que d’être cratère, et il n’y a point pour la lave de plus belle sortie qu’à travers la neige. Un brusque percement de flamme n’a rien d’étrange sur un sommet polaire. Ce contact des extrêmes fait loi dans la nature où éclatent à tout moment les coups de théâtre du sublime. Une montagne, un génie, c’est la majesté âpre. Ces masses dégagent une sorte d’intimidation religieuse. Dante n’est pas moins à pic que l’Etna. Les précipices de Shakespeare valent les gouffres du Chimboraço. Les cimes des poëtes n’ont pas moins de nuages que les sommets des monts. On y entend des roulements de tonnerres. Du reste, dans les vallons, dans les gorges, dans les plis abrités, dans les entre-deux d’escarpements, ruisseaux, oiseaux, nids, feuillages, enchantements, flores extraordinaires. Au-dessus de l’effrayante arche de l’Arveyron, au milieu de la Mer de Glace, ce paradis appelé le Jardin, l’avez-vous vu ? Quel épisode ! un chaud soleil, une ombre tiède et fraîche, une vague exsudation de parfums sur les pelouses, on ne sait quel mois de mai perpétuel blotti dans les précipices. Rien n’est plus tendre et plus exquis. Tels sont les poëtes ; telles sont les Alpes. Ces grands vieux monts horribles sont de merveilleux faiseurs de roses et de violettes ; ils se servent de l’aube et de la rosée, mieux que toutes vos prairies et que toutes vos collines, dont c’est l’état pourtant ; l’avril de la plaine est plat et vulgaire à côté du leur, et ils ont, ces vieillards immenses, dans leur ravin le plus farouche, un charmant petit printemps à eux, bien connu des abeilles.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre IV. Critique</head>
           <div>
             <head>I</head>
@@ -954,7 +955,7 @@
             <p>Sacrifie à « la canaille », ô poëte ! sacrifie à cette infortunée, à cette déshéritée, à cette vaincue, à cette vagabonde, à cette va-nu-pieds, à cette affamée, à cette répudiée, à cette désespérée, sacrifie-lui, s’il le faut et quand il le faut, ton repos, ta fortune, ta joie, ta patrie, ta liberté, ta vie. La canaille, c’est le genre humain dans la misère. La canaille, c’est le commencement douloureux du peuple. La canaille, c’est la grande victime des ténèbres. Sacrifie-lui ! sacrifie-toi ! laisse-toi chasser, laisse-toi exiler comme Voltaire à Ferney, comme d’Aubigné à Genève, comme Dante à Vérone, comme Juvénal à Syène, comme Tacite à Méthymne, comme Eschyle à Gela, comme Jean à Pathmos, comme Élie à Oreb, comme Thucydide en Thrace, comme Isaïe à Asiongaber ! sacrifie à la canaille. Sacrifie-lui ton or, et ton sang qui est plus que ton or, et ta pensée qui est plus que ton sang, et ton amour qui est plus que ta pensée ; sacrifie-lui tout, excepté la justice. Reçois sa plainte ; écoute-la sur ses fautes et sur les fautes d’autrui. Écoute ce qu’elle a à t’avouer et à te dénoncer. Tends-lui l’oreille, la main, les bras, le cœur. Fais tout pour elle, hormis le mal. Hélas ! elle souffre tant, et elle ne sait rien. Corrige-la, avertis-la, instruis-la, guide-la, élève-la. Mets-la à l’école de l’honnête. Fais-lui épeler la vérité, montre-lui la raison, cet alphabet, apprends-lui à lire la vertu, la probité, la générosité, la clémence. Tiens ton livre tout grand ouvert. Sois là, attentif, vigilant, bon, fidèle, humble. Allume les cerveaux, enflamme les âmes, éteins les égoïsmes, donne l’exemple. Les pauvres sont la privation ; soit l’abnégation. Enseigne ! rayonne ! ils ont besoin de toi, tu es leur grande soif. Apprendre est le premier pas, vivre n’est que le second. Sois à leurs ordres, entends-tu ? Sois toujours là, clarté ! Car il est beau, sur cette terre sombre, pendant cette vie obscure, court passage à autre chose, il est beau que la force ait un maître, le droit, que le progrès ait un chef, le courage, que l’intelligence ait un souverain, l’honneur, que la conscience ait un despote, le devoir, que la civilisation ait une reine, la liberté, et que l’ignorance ait une servante, la lumière.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre V. Les esprits et les masses</head>
           <div>
             <head>I</head>
@@ -1054,7 +1055,7 @@
             <p>Peuple, l’auteur, Dieu, te les dédie.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre VI. Le beau serviteur du vrai</head>
           <div>
             <head>I</head>
@@ -1136,7 +1137,7 @@
       </div>
       <div>
         <head>Conclusion</head>
-        <div>
+        <div type="chapter">
           <head>Livre I. Après la mort — Shakespeare — L’Angleterre</head>
           <div>
             <head>I</head>
@@ -1232,7 +1233,7 @@
             <p>En avril 1664, il y avait cent ans que Shakespeare était né, l’Angleterre était occupée à acclamer Charles II, le vendeur de Dunkerque à la France moyennant deux cent cinquante mille livres sterling, et à regarder blanchir sous la bise et la pluie au gibet de Tyburn quelque chose qui était un squelette et qui avait été Cromwell. En avril 1764, il y avait deux cents ans que Shakespeare était né, l’Angleterre contemplait l’aurore de Georges III, roi destiné à l’imbécillité, lequel, à cette époque, dans des conciliabules et des aparté peu constitutionnels avec les chefs tories et les landgraves allemands, ébauchait cette politique de résistance au progrès qui devait lutter, d’abord contre la liberté en Amérique, puis contre la démocratie en France, et qui, rien que sous le seul ministère du premier Pitt, avait, dès 1778, endetté l’Angleterre de quatre-vingt millions sterling. En avril 1864, il y aura trois cents ans que Shakespeare est né, l’Angleterre élève une statue à Shakespeare. C’est tard, mais c’est bien.</p>
           </div>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre II. Le dix-neuvième siècle</head>
           <p>Le dix-neuvième siècle ne relève que de lui-même ; il ne reçoit l’impulsion d’aucun aïeul ; il est le fils d’une idée. Sans doute, Isaïe, Homère, Aristote, Dante, Shakespeare, ont été ou peuvent être de grands points de départ pour d’importantes formations philosophiques ou poétiques ; mais le dix-neuvième siècle a une mère auguste, la Révolution française. Il a ce sang énorme dans les veines. Il honore les génies, et au besoin, méconnus, il les salue, ignorés, il les constate, persécutés, il les venge, insultés, il les couronne, détrônés, il les replace sur leur piédestal, il les vénère, mais il ne vient pas d’eux. Le dix-neuvième siècle a pour famille lui-même et lui seul. Il est de sa nature révolutionnaire de se passer d’ancêtres.</p>
           <p>Étant génie, il fraternise avec les génies. Quant à sa source, elle est où est la leur ; hors de l’homme. Les mystérieuses gestations du progrès se succèdent selon une loi providentielle. Le dix-neuvième siècle est un enfantement de civilisation. Il a un continent à mettre au monde. La France a porté ce siècle, et ce siècle porte l’Europe.</p>
@@ -1267,7 +1268,7 @@
           <p>La Révolution, c’est la France sublimée. Il s’est trouvé un jour que la France a été dans la fournaise, les fournaises à de certaines martyres guerrières font pousser des ailes, et de ces flammes cette géante est sortie archange. Aujourd’hui pour toute la terre la France s’appelle Révolution ; et désormais ce mot, Révolution, sera le nom de la civilisation jusqu’à ce qu’il soit remplacé par le mot Harmonie. Je le répète, ne cherchez pas ailleurs le point d’origine et le lieu de naissance de la littérature du dix-neuvième siècle. Oui, tous tant que nous sommes, grands et petits, puissants et méconnus, illustres et obscurs, dans toutes nos œuvres, bonnes ou mauvaises, quelles qu’elles soient, poëmes, drames, romans, histoire, philosophie, à la tribune des assemblées comme devant les foules du théâtre, comme dans le recueillement des solitudes, oui, partout, oui, toujours, oui, pour combattre les violences et les impostures, oui, pour réhabiliter les lapidés et les accablés, oui, pour conclure logiquement et marcher droit, oui, pour consoler, pour secourir, pour relever, pour encourager, pour enseigner, oui, pour panser en attendant qu’on guérisse, oui, pour transformer la charité en fraternité, l’aumône en assistance, la fainéantise en travail, l’oisiveté en utilité, la centralisation en famille, l’iniquité en justice, le bourgeois en citoyen, la populace en peuple, la canaille en nation, les nations en humanité, la guerre en amour, le préjugé en examen, les frontières en soudures, les limites en ouvertures, les ornières en rails, les sacristies en temples, l’instinct du mal en volonté du bien, la vie en droit, les rois en hommes, oui, pour ôter des religions l’enfer et des sociétés le bagne, oui, pour être frères du misérable, du serf, du fellah, du prolétaire, du déshérité, de l’exploité, du trahi, du vaincu, du vendu, de l’enchaîné, du sacrifié, de la prostituée, du forçat, de l’ignorant, du sauvage, de l’esclave, du nègre, du condamné et du damné, oui, nous sommes tes fils, Révolution !</p>
           <p>Oui, génies, oui, poètes, philosophes, historiens, oui, géants de ce grand art des siècles antérieurs qui est toute la lumière du passé, ô hommes éternels, les esprits de ce temps vous saluent, mais ne vous suivent pas ; ils ont vis-à-vis de vous cette loi : tout admirer, ne rien imiter. Leur fonction n’est plus la vôtre. Ils ont affaire à la virilité du genre humain. L’heure du changement d’âge est venue. Nous assistons, sous la pleine clarté de l’idéal, à la majestueuse jonction du beau avec l’utile. Aucun génie actuel ou possible ne vous dépassera, vieux génies, vous égaler est toute l’ambition permise ; mais, pour vous égaler, il faut pourvoir aux besoins de son temps comme vous avez pourvu aux nécessités du vôtre. Les écrivains fils de la Révolution ont une tâche sainte. Ô Homère, il faut que leur épopée pleure, ô Hérodote, il faut que leur histoire proteste, ô Juvénal, il faut que leur satire détrône, ô Shakespeare, il faut que leur <hi rend="i">tu seras roi</hi> soit dit au peuple, ô Eschyle, il faut que leur Prométhée foudroie Jupiter, ô Job, il faut que leur fumier féconde, ô Dante, il faut que leur enfer s’éteigne, ô Isaïe, ta Babylone s’écroule, il faut que la leur s’éclaire ! Ils font ce que vous avez fait ; ils contemplent directement la création, ils observent directement l’humanité ; ils n’acceptent pour clarté dirigeante aucun rayon réfracté, pas même le vôtre. Ainsi que vous, ils ont pour seul point de départ, en dehors d’eux, l’être universel, en eux, leur âme ; ils ont pour source de leur œuvre la source unique, celle d’où coule la nature et celle d’où coule l’art : l’infini. Comme le déclarait il y a quarante ans tout à l’heure<note resp="author">Préface de <hi rend="i">Cromwell</hi>.</note> celui qui écrit ces lignes : <hi rend="i">les poètes et les écrivains du dix-neuvième siècle n’ont ni maîtres, ni modèles</hi>. Non, dans tout cet art vaste et sublime de tous les peuples, dans toutes ces créations grandioses de toutes les époques, non, pas même toi, Eschyle, pas même toi, Dante, pas même toi, Shakespeare, non, ils n’ont ni modèles ni maîtres. Et pourquoi n’ont-ils ni maîtres ni modèles ? C’est parce qu’ils ont un modèle, l’Homme, et parce qu’ils ont un maître, Dieu.</p>
         </div>
-        <div>
+        <div type="chapter">
           <head>Livre III. L’histoire réelle — Chacun remis à sa place</head>
           <div>
             <head>I</head>
