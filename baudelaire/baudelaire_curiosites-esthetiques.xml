@@ -44,7 +44,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>, <author>Charles Baudelaire</author>, <title>Curiosités esthétiques</title>,
+        <bibl>Charles Baudelaire, <hi rend="i">Curiosités esthétiques</hi>,
             <pubPlace>Paris</pubPlace>, <publisher>M. Lévy frères</publisher>, <date>1868</date>,
           442 p. Source : <ref target="http://books.google.fr/books ?id=xwsUAAAAYAAJ"
           >Google</ref></bibl>
@@ -52,7 +52,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1868">1868</date>
+        <date when="1868"/>
       </creation>
       <langUsage>
         <language ident="fre"/>
@@ -61,7 +61,7 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="chapter">
         <head>I. Salon de 1845</head>
         <div type="chapter">
           <head>I. Quelques mots d’introduction</head>
@@ -1608,7 +1608,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <pb n="77"/>
         <head>II. Salon de 1846</head>
         <div>
