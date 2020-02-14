@@ -32,8 +32,8 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl>César Du Marsais, 
-          <hi rend="i">Encyclopédie, Dictionnaire raisonné des sciences, des arts et des métiers, par une Société de Gens de lettres</hi>, <pubPlace>Paris</pubPlace>, 
+        <bibl><author>César Du Marsais</author>, 
+          <title><hi rend="i">Encyclopédie, Dictionnaire raisonné des sciences, des arts et des métiers, par une Société de Gens de lettres</hi></title>, <pubPlace>Paris</pubPlace>, 
           <publisher>Le Breton</publisher>, <date>1765</date>. 
        </bibl>
       </sourceDesc>
@@ -56,7 +56,7 @@
       </titlePage>
     </front>
     <body>
-      <div1 n="0:5" xml:base="../xml/volume01.xml" xml:id="A" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:5" xml:base="../xml/volume01.xml" xml:id="A">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-1.jpeg" n="1:1"/>
         <index indexName="headword" n="A, a &amp; a"/>
         <index indexName="author" n="Dumarsais5"/>
@@ -84,7 +84,7 @@
         <p>2. Parmi nous les Villes où l’on bat monnoie, ont chacune pour marque une lettre de l’alphabet : cette lettre se voit au revers de la pièce de monnoie au-dessous des Armes du Roi. <hi rend="i">A</hi> est la marque de la monnoie de Paris. <hi rend="i">Voyez</hi> A numismatique.</p>
         <p>3. On dit de quelqu’un qui n’a rien fait, rien écrit, qu’il n’a pas fait une panse d’<hi rend="i">a. Panse</hi>, qui veut dire <hi rend="i">ventre</hi>, signifie ici la partie de la lettre qui avance ; <hi rend="i">il n’a pas fait la moitié d’une lettre</hi>.</p>
       </div1>
-      <div1 n="0:6" xml:base="../xml/volume01.xml" xml:id="A-avoir" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:6" xml:base="../xml/volume01.xml" xml:id="A-avoir">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-2.jpeg" n="1:2"/>
         <index indexName="headword" n="A"/>
         <index indexName="author" n="Dumarsais5"/>
@@ -101,7 +101,7 @@
         <p>C’est aussi par imitation que l’on dit, <hi rend="i">la raison</hi> a <hi rend="i">des bornes. Notre Langue n’a point de cas, la Logique</hi> a <hi rend="i">quatre parties</hi>, &amp;c.</p>
         <p>2. <hi rend="i">A</hi>, comme mot, est aussi une préposition, &amp; alors on doit le marquer avec un accent grave <hi rend="i">à</hi>.</p>
       </div1>
-      <div1 n="0:7" xml:base="../xml/volume01.xml" xml:id="A-prep" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:7" xml:base="../xml/volume01.xml" xml:id="A-prep">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-2.jpeg" n="1:2"/>
         <index indexName="headword" n="A"/>
         <index indexName="author" n="Dumarsais"/>
@@ -163,7 +163,7 @@
         <quote>
           <l>A <hi rend="i">fait un, prive, augmente, admire</hi>.</l> </quote><p>En terme de Grammaire, &amp; sur-tout de Grammaire Greque, on appelle <hi rend="i">a</hi> pur un <hi rend="i">a</hi> qui seul fait une syllabe comme en <foreign xml:lang="grc">φιλία</foreign>, <hi rend="i">amicitia</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="0:116" xml:base="../xml/volume01.xml" xml:id="ABECEDAIRE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:116" xml:base="../xml/volume01.xml" xml:id="ABECEDAIRE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-17.jpeg" n="1:17"/>
         <index indexName="headword" n="ABECEDAIRE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -202,7 +202,7 @@
           <p><hi rend="sc">Abécédaire</hi> se dit aussi d’une personne qui n’est encore qu’à l’A, B, C, C’est un Docteur <hi rend="i">abécédaire</hi>, c’est-à-dire qui commence, qui n’est pas encore bien savant. On appelle aussi <hi rend="i">Abécédaires</hi> les personnes qui montrent à lire. Ce mot n’est pas fort usité. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="0:154" xml:base="../xml/volume01.xml" xml:id="ABLATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:154" xml:base="../xml/volume01.xml" xml:id="ABLATIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-27.jpeg" n="1:27"/>
         <index indexName="headword" n="ABLATIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -260,7 +260,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ABREGÉ">ABREGÉ</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-35.jpeg" n="1:35"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Abrege-Synonymes" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Abrege-Synonymes">
           <index indexName="headword" n="ABREGÉ, épitome, sommaire, précis, raccourci."/>
           <index indexName="author" n="Mallet|Dumarsais|Diderot"/>
           <index indexName="class" n="unclassified"/>
@@ -282,7 +282,7 @@
           <p><hi rend="i">En abregé</hi>, façon de parler adverbiale, <hi rend="i">summatim</hi>. Les jeunes gens devroient recueillir en abregé ce qu’ils observent dans les Livres, &amp; ce que leurs Maitres leur apprennent de plus utile &amp; de plus intéressant. (<hi rend="i">F</hi>)</p>
         </div2>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-36.jpeg" n="1:36"/>
-        <div2 n="0:198:1" xml:base="../xml/volume01.xml" xml:id="Abrege-ou-Abreviation" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="0:198:1" xml:base="../xml/volume01.xml" xml:id="Abrege-ou-Abreviation">
           <index indexName="headword" n="Abregé ou Abréviation"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -301,7 +301,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ABRÉVIATEUR">ABRÉVIATEUR</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-37.jpeg" n="1:37"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Abreviateur-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Abreviateur-Grammaire">
           <index indexName="headword" n="Abréviateur (auteur d’un abrégé)"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -320,7 +320,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ABSOLUMENT">ABSOLUMENT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-41.jpeg" n="1:41"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Absolument-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Absolument-Grammaire">
           <index indexName="headword" n="ABSOLUMENT"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -334,7 +334,7 @@
           <p>ABSOLUMENT, adv. Un mot est dit <hi rend="i">absolument</hi>, lorsqu’il n’a aucun rapport grammatical avec les autres mots de la proposition dont il est un incise. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Ablatif">Ablatif</ref></hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="0:237" xml:base="../xml/volume01.xml" xml:id="ABSTRACTION" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:237" xml:base="../xml/volume01.xml" xml:id="ABSTRACTION">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-45.jpeg" n="1:45"/>
         <index indexName="headword" n="ABSTRACTION"/>
         <index indexName="author" n="Dumarsais"/>
@@ -386,7 +386,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ABSTRAIRE">ABSTRAIRE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-47.jpeg" n="1:47"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Abstraire-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Abstraire-Grammaire">
           <index indexName="headword" n="Abstraire (Grammaire)"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -403,7 +403,7 @@
           <p>Le présent du subjonctif n’est point en usage ; on dit <hi rend="i">j’abstrairois</hi>, &amp;c. on dit aussi <hi rend="i">que j’aie abstrait</hi>. &amp;c. (<hi rend="i">F</hi>)</p>
         </div2>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-47.jpeg" n="1:47"/>
-        <div2 n="0:238:1" xml:base="../xml/volume01.xml" xml:id="Abstrait-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="0:238:1" xml:base="../xml/volume01.xml" xml:id="Abstrait-Grammaire">
           <index indexName="headword" n="Abstrait, abstraite"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -418,7 +418,7 @@
           <p>On dit d’une pensée qu’elle est <hi rend="i">abstraite</hi>, quand elle est trop recherchée, &amp; qu’elle demande trop d’attention pour être entendue. On dit aussi des raisonnemens <hi rend="i">abstraits</hi>, trop subtils. Les Sciences <hi rend="i">abstraites</hi>, ce sont celles qui ont pour objet des êtres abstraits ; tels sont la Métaphysique &amp; les Mathématiques. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="0:293" xml:base="../xml/volume01.xml" xml:id="ACCENT" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="0:293" xml:base="../xml/volume01.xml" xml:id="ACCENT">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-63.jpeg" n="1:63"/>
         <index indexName="headword" n="ACCENT"/>
         <index indexName="author" n="Dumarsais"/>
@@ -565,7 +565,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ACCEPTION">ACCEPTION</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-68.jpeg" n="1:68"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Acception-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Acception-Grammaire">
           <index indexName="headword" n="ACCEPTION"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -585,7 +585,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ACCÈS">ACCÈS</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-69.jpeg" n="1:69"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Acces-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Acces-Grammaire">
           <index indexName="headword" n="ACCÈS"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -604,7 +604,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ACCIDENT">ACCIDENT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-69.jpeg" n="1:69"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Accident-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Accident-Grammaire">
           <index indexName="headword" n="Accident (Grammaire)"/>
           <index indexName="author" n="Dumarsais|Diderot"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -678,7 +678,7 @@
             <l>Prens ta foudre, Loüis. . . . .</l> </quote><p>A l’égard des interjections, elles ne servent qu’à marquer des mouvemens subits de l’ame. Il y a autant de sortes d’interjections, qu’il y a de passions différentes. Ainsi il y en a pour la tristesse &amp; la compassion, <hi rend="i">hélas ! ha !</hi> pour la douleur, <hi rend="i">ai ai, ha !</hi> pour l’aversion &amp; le dégoût, <hi rend="i">si</hi>. Les interjections ne servant qu’à ce seul usage, &amp; n’étant jamais considérées que sous la même face, ne sont sujettes à aucun autre accident. On peut seulement observer qu’il y a des noms, des verbes, &amp; des adverbes, qui étant prononcés dans certains mouvemens de passions ont la force de l’interjection, <hi rend="i">courage, allons, bon-Dieu, voyez, marche, tout beau, paix</hi>, &amp;c. c’est le ton plûtôt que le mot qui fait alors l’interjection. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="1:29" xml:base="../xml/volume01.xml" xml:id="ACCUSATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:29" xml:base="../xml/volume01.xml" xml:id="ACCUSATIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-91.jpeg" n="1:91"/>
         <index indexName="headword" n="ACCUSATIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -717,7 +717,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ACTIF">ACTIF</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-118.jpeg" n="1:118"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Actif-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Actif-Grammaire">
           <index indexName="headword" n="Actif (Grammaire)"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -739,7 +739,7 @@
           <p>Il y a des verbes qui marquent des actions qui ne passent point sur un autre objet, comme <hi rend="i">aller, venir, dormir</hi>, &amp;c. ceux-là sont appellés <hi rend="i">actifs intransitifs</hi>, &amp; plus ordinairement <hi rend="i">neutres</hi>, c’est-à-dire, qui ne sont ni <hi rend="i">actifs transitifs</hi>, ni <hi rend="i">passifs ;</hi> car <hi rend="i">neutre</hi> vient du Latin <hi rend="i">neuter</hi>, qui signifie <hi rend="i">ni l’un ni l’autre</hi> : c’est ainsi qu’on dit d’un nom qu’il est <hi rend="i">neutre</hi>, c’est-à-dire, qu’il n’est ni <hi rend="i">masculin ni féminin.</hi> <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Verbe">Verbe</ref></hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="1:184" xml:base="../xml/volume01.xml" xml:id="AD" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:184" xml:base="../xml/volume01.xml" xml:id="AD">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-125.jpeg" n="1:125"/>
         <index indexName="headword" n="AD"/>
         <index indexName="author" n="Dumarsais"/>
@@ -760,7 +760,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ADJECTIF">ADJECTIF</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-133.jpeg" n="1:133"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Adjectif-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Adjectif-Grammaire">
           <index indexName="headword" n="ADJECTIF"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -872,7 +872,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ADJOINT">ADJOINT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-138.jpeg" n="1:138"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Adjoint-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Adjoint-Grammaire">
           <index indexName="headword" n="ADJOINT"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -888,7 +888,7 @@
             <l>Hélas, petits moutons, que vous êtes heureux !</l> </quote><p><hi rend="i">Que vous êtes heureux</hi> sont les mots qui forment le sens de la proposition ; <hi rend="i">que</hi> y entre comme adverbe de quantité, de maniere, &amp; d’admiration ; <hi rend="i">quantum, combien</hi>, à quel point, <hi rend="i">vous</hi> est le sujet, <hi rend="i">êtes heureux</hi> est l’attribut, dont <hi rend="i">êtes</hi> est le verbe, c’est-à-dire, le mot qui marque que c’est de vous que l’on dit <hi rend="i">êtes heureux</hi>, &amp; <hi rend="i">heureux</hi> marque ce que l’on dit que <hi rend="i">vous êtes</hi>, &amp; se rapporte à vous par un rapport d’identité. Voilà la proposition complete. <hi rend="i">Hélas</hi> &amp; <hi rend="i">petits moutons</hi> ne sont que des adjoints. <hi rend="i">V. <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Sujet">Sujet</ref>, <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Attribut">Attribut</ref></hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="1:276" xml:base="../xml/volume01.xml" xml:id="ADMIRATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:276" xml:base="../xml/volume01.xml" xml:id="ADMIRATIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-140.jpeg" n="1:140"/>
         <index indexName="headword" n="ADMIRATIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -903,7 +903,7 @@
         <p>ADMIRATIF, adj. m. (<hi rend="i">Gramm.</hi>) comme quand on dit <hi rend="i">un ton admiratif, un geste admiratif ;</hi> c’est-à-dire, <hi rend="i">un ton, un geste</hi>, qui marque de la surprise, de l’admiration ou une exclamation. En terme de Grammaire, on dit <hi rend="i">un point admiratif</hi>, on dit aussi <hi rend="i">un point d’admiration</hi>. Quelques-uns disent <hi rend="i">un point exclamatif ;</hi> ce point se marque ainsi ! Les Imprimeurs l’appellent simplement <hi rend="i">admiratif</hi>, &amp; alors ce mot est substantif masculin, ou adjectif pris substantivement, en sousentendant <hi rend="i">point</hi>.</p>
         <p>On met le point admiratif après le dernier mot de la phrase qui exprime l’admiration : <hi rend="i">Que je suis à plaindre !</hi> Mais si la phrase commence par une interjection, <hi rend="i">ah, ou ha, hélas</hi>, quelle doit être alors la ponctuation ? Communement on met le point admiratif d’abord après l’interjection : <hi rend="i">Hélas ! petits moutons, que vous êtes heureux. Ha ! mon Dieu, que je souffre</hi> : mais comme le sens admiratif ou exclamatif ne finit qu’avec la phrase, je ne voudrois mettre le point admiratif qu’après tous les mots qui énoncent l’admiration. <hi rend="i">Hélas, petits moutons, que vous êtes heureux ! Ha, mon Dieu, que je souffre !</hi> <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Ponctuation">Ponctuation</ref></hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="1:328" xml:base="../xml/volume01.xml" xml:id="ADVERBE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:328" xml:base="../xml/volume01.xml" xml:id="ADVERBE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-147.jpeg" n="1:147"/>
         <index indexName="headword" n="ADVERBE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -934,7 +934,7 @@
         <p>Il y a des mots que certains Grammairiens placent avec les conjonctions, &amp; que d’autres mettent avec les adverbes : mais si ces mots renferment la valeur d’une préposition, &amp; de son complément, comme <hi rend="i">quia</hi>, parce que ; <hi rend="i">quapropter</hi>, c’est pourquoi, <hi rend="i">&amp;c.</hi> ils sont adverbes, &amp; s’ils font de plus l’office de conjonction, nous dirons que ce sont des adverbes conjonctifs.</p>
         <p>Il y a plusieurs adjectifs en Latin &amp; en François qui sont pris adverbialement. <hi rend="i">transversa tuentibus hircis</hi>, où <hi rend="i">transversa</hi> est pour <hi rend="i">transversè</hi>, de travers ; <hi rend="i">il sent bon, il sent mauvais, il voit clair, il chante juste, parlez bas, parlez haut, frappez fort</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="1:329" xml:base="../xml/volume01.xml" xml:id="ADVERBIAL" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:329" xml:base="../xml/volume01.xml" xml:id="ADVERBIAL">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-149.jpeg" n="1:149"/>
         <index indexName="headword" n="ADVERBIAL, ALE"/>
         <index indexName="author" n="Dumarsais5"/>
@@ -948,7 +948,7 @@
         </head>
         <p>ADVERBIAL, ALE, adjectif, <hi rend="i">terme de Grammaire</hi> ; par exemple, marcher à tâtons, <hi rend="i">iter proetentare baculo</hi>, ou <hi rend="i">dubio manuum conjectu : à tâtons</hi>, est une expression adverbiale ; c’est-à-dire qui est équivalente à un adverbe. Si l’usage avoit établi un seul mot pour exprimer le même sens, ce mot seroit un adverbe ; mais comme ce sens est énoncé en deux mots, on dit que c’est une <hi rend="i">expression adverbiale</hi>. Il en est de même de <hi rend="i">vis-à vis</hi>, &amp; <hi rend="i">tout-d’un-coup, tout-à-coup, à coup-sûr</hi>, qu’on exprime en Latin en un seul mot par des adverbes particuliers, <hi rend="i">improvisè, subitò, certò</hi>, &amp; tout-de-bon, <hi rend="i">seriò, &amp;c.</hi></p>
       </div1>
-      <div1 n="1:330" xml:base="../xml/volume01.xml" xml:id="ADVERBIALEMENT" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:330" xml:base="../xml/volume01.xml" xml:id="ADVERBIALEMENT">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-149.jpeg" n="1:149"/>
         <index indexName="headword" n="ADVERBIALEMENT"/>
         <index indexName="author" n="Dumarsais5"/>
@@ -962,7 +962,7 @@
         </head>
         <p>ADVERBIALEMENT, adv. c’est-à-dire, <hi rend="i">à la maniere des adverbes</hi>. Par exemple, dans ces façons de parler, <hi rend="i">tenir bon, tenir ferme ; bon</hi> &amp; <hi rend="i">ferme</hi> sont pris adverbialement, <hi rend="i">constanter perstare</hi> : sentir <hi rend="i">bon</hi>, sentir <hi rend="i">mauvais ; bon</hi> &amp; <hi rend="i">mauvais</hi> sont encore pris adverbialement, <hi rend="i">bene</hi>, ou <hi rend="i">jucundè olere, male olere</hi>.</p>
       </div1>
-      <div1 n="1:331" xml:base="../xml/volume01.xml" xml:id="ADVERSATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:331" xml:base="../xml/volume01.xml" xml:id="ADVERSATIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-149.jpeg" n="1:149"/>
         <index indexName="headword" n="ADVERSATIF, IVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -978,7 +978,7 @@
         <p><hi rend="i">Mais</hi> est une conjonction <hi rend="i">adversative</hi> : il voudroit savoir, <hi rend="i">mais</hi> il n’aime pas l’étude. <hi rend="i">Cependant, néanmoins, <cb n="2"/>pourtant</hi>, sont des adverbes qui font aussi l’office de conjonction <hi rend="i">adversative</hi>.</p>
         <p>Il y a cette différence entre les conjonctions <hi rend="i">adversatives</hi> &amp; les <hi rend="i">disjonctives</hi>, que dans les <hi rend="i">adversatives</hi> le premier sens peut subsister sans le second qui lui est opposé ; au lieu qu’avec les <hi rend="i">disjonctives</hi>, l’esprit considere d’abord les deux membres ensemble, &amp; ensuite les divise en donnant l’alternative, en les partageant &amp; les distinguant : <hi rend="i">c’est le soleil ou la terre qui tourne. C’est vous ou moi. Soit que vous mangiez, soit que vous bûviez</hi>. En un un mot, l’<hi rend="i">adversative</hi> restraint ou contrarie, au lieu que la <hi rend="i">disjonctive</hi> sépare ou divise. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="1:349" xml:base="../xml/volume01.xml" xml:id="AE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="1:349" xml:base="../xml/volume01.xml" xml:id="AE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-153.jpeg" n="1:153"/>
         <index indexName="headword" n="AE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -997,7 +997,7 @@
         <p>Que sion prononce par <hi rend="i">ê</hi> la diphthongue oculaire <hi rend="i">ai</hi> en <hi rend="i">palais</hi>, &amp;c. c’est qu’autrefois on prononçoit l’<hi rend="i">a</hi> &amp; l’<hi rend="i">i</hi> en ces mots-là ; usage qui se conserve encore dans nos Provinces méridionales : de sorte que je ne vois pas plus de raison de réformer <hi rend="i">François</hi> par <hi rend="i">Français</hi>, qu’il y en auroit à réformer <hi rend="i">palais</hi> par <hi rend="i">palois</hi>.</p>
         <p>En Latin <hi rend="i">oe</hi> &amp; <hi rend="i">ai</hi> étoient de véritables diphthongues, où l’<hi rend="i">a</hi> conservoit toûjours un son plein &amp; entier, comme Plutarque l’a remarqué dans son <hi rend="i">Traité des Festins</hi>, ainsi <hi rend="i">ai</hi> que nous entendons le son de l’<hi rend="i">a</hi> dans notre interjection, <hi rend="i">hai, hai, hai !</hi> Le son de l’<hi rend="i">e</hi> ou de l’<hi rend="i">i</hi> étoit alors très-foible, &amp; c’est à cause de cela qu’on écrivoit autrefois par <hi rend="i">ai</hi> ce que depuis on a écrit par <hi rend="i">oe, Musai</hi> ensuite <hi rend="i">Musoe, Kaisar</hi> &amp; <hi rend="i">Coesar. Voyez la Méthode Latine de P. R.</hi> (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 xml:base="../xml/volume01.xml" xml:id="ALINEA" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 xml:base="../xml/volume01.xml" xml:id="ALINEA">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-270.jpeg" n="1:270"/>
         <index indexName="headword" n="A LINÉA"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1016,7 +1016,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ALPHABET">ALPHABET</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-295.jpeg" n="1:295"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Alphabet-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Alphabet-Grammaire">
           <index indexName="headword" n="ALPHABET"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Grammaire"/>
@@ -1084,7 +1084,7 @@
           <p>On donne aussi le nom d’<hi rend="i">alphabet</hi> à quelques livres où certaines matieres sont écrites selon l’ordre alphabétique. L’<hi rend="i">alphabet</hi> de la France est un livre de Géographie, où les villes de France sont décrites par ordre alphabétique. <hi rend="i">Alphabetum Augustinianum</hi>, est un livre qui contient l’histoire des. Monasteres des Augustins, par ordre alphabétique. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="2:393" xml:base="../xml/volume01.xml" xml:id="ALPHABETIQUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="2:393" xml:base="../xml/volume01.xml" xml:id="ALPHABETIQUE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-297.jpeg" n="1:297"/>
         <index indexName="headword" n="ALPHABETIQUE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1098,7 +1098,7 @@
         </head>
         <p>ALPHABETIQUE, adj. (<hi rend="i">Gramm</hi>.) qui est selon l’ordre de l’alphabet, <hi rend="i">table alphabétique</hi>. Les Dictionnaires sont rangés selon l’ordre alphabétique ; mais on a tort de ne pas séparer les mots qui commencent par <hi rend="i">i</hi>, de ceux qui commencent par <hi rend="i">j</hi> ; ensorte qu’on trouve <hi rend="i">ïambe</hi> sous la même lettre que <hi rend="i">jambe</hi>. Il en est de même des mots qui commencent par <hi rend="i">u</hi>, ils sont confondus avec ceux qui commencent par <hi rend="i">v</hi>, ensorte qu’<hi rend="i">urbanité</hi> se trouve après <hi rend="i">vrai</hi>, &amp;c. Aujourd’hui que la distinction de ces lettres est observée exactement, on devroit y avoir égard dans l’arrangement alphabétique des mots. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="2:428" xml:base="../xml/volume01.xml" xml:id="ALTERNATIVE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="2:428" xml:base="../xml/volume01.xml" xml:id="ALTERNATIVE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-304.jpeg" n="1:304"/>
         <index indexName="headword" n="ALTERNATIVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1112,7 +1112,7 @@
         </head>
         <p>ALTERNATIVE, s. f. (<hi rend="i">Gramm</hi>.) Quoique ce mot soit le féminin de l’adjectif <hi rend="i">alternatif</hi>, il est pris substantivement quand il signifie le choix entre deux choses offertes. On dit en ce sens, prendre l’<hi rend="i">alternative</hi> <cb n="2"/>de deux propositions, en approuver l’une, en rejetter l’autre. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="2:560" xml:base="../xml/volume01.xml" xml:id="AMBIGU" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="2:560" xml:base="../xml/volume01.xml" xml:id="AMBIGU">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-321.jpeg" n="1:321"/>
         <index indexName="headword" n="AMBIGU"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1126,7 +1126,7 @@
         </head>
         <p>AMBIGU, adj. (<hi rend="i">Gramm.</hi>) ce mot vient de <hi rend="i">ambo</hi>, deux, &amp; de <hi rend="i">ago</hi>, pousser, mener. Un terme <hi rend="i">ambigu</hi> présente à l’esprit deux sens différens. Les réponses des anciens oracles étoient toûjours <hi rend="i">ambiguës ;</hi> &amp; c’étoit dans cette <hi rend="i">ambiguité</hi> que l’oracle trouvoit à se défendre contre les plaintes du malheureux qui l’avoit consulté, lorsque l’évenement n’avoit pas répondu à ce que l’oracle avoit fait espérer selon l’un des deux sens. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Amphibologie">Amphibologie</ref></hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="3:109" xml:base="../xml/volume01.xml" xml:id="AMPHIBOLOGIE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="3:109" xml:base="../xml/volume01.xml" xml:id="AMPHIBOLOGIE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-376.jpeg" n="1:376"/>
         <index indexName="headword" n="AMPHIBOLOGIE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1146,7 +1146,7 @@
           <l>Aio te, AEacida, Romanos vincere posse.</l> </quote><p>L’<hi rend="i">amphibologie</hi> de cette phrase consiste en ce que l’esprit peut ou regarder <hi rend="i">te</hi> comme le terme de l’action de <hi rend="i">vincere</hi>, ensorte qu’alors ce sera Pyrrhus qui sera vaincu ; ou bien on peut regarder <hi rend="i">Romanos</hi> comme ceux qui seront vaincus, &amp; alors Pyrrhus remportera la victoire.</p>
         <p>Quoique la langue Françoise s’énonce communément dans un ordre qui semble prévenir toute <hi rend="i">amphibologie ;</hi> cependant nous n’en avons que trop d’exemples, surtout dans les transactions, les actes, les testamens, <hi rend="i">&amp;c.</hi> nos <hi rend="i">qui</hi>, nos <hi rend="i">que</hi>, nos <hi rend="i">il, son, sa, se</hi>, donnent aussi fort souvent lieu à l’<hi rend="i">amphibologie</hi> : celui qui compose s’entend, &amp; par cela seul il croit qu’il sera entendu : mais celui qui lit n’est pas dans la même disposition d’esprit ; il faut que l’arrangement des mots le force à ne pouvoir donner à la phrase que le sens que celui qui a écrit a voulu lui faire entendre. On ne sauroit trop répéter aux jeunes gens, qu’on ne doit parler &amp; écrire que pour être entendu, &amp; que la clarté est la premiere &amp; la plus essentielle qualité du discours. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="3:197" xml:base="../xml/volume01.xml" xml:id="ANACOLUTHE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="3:197" xml:base="../xml/volume01.xml" xml:id="ANACOLUTHE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-396.jpeg" n="1:396"/>
         <index indexName="headword" n="ANACOLUTHE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1167,7 +1167,7 @@
         <p>Il en est de même de <hi rend="i">tantùm</hi> sans <hi rend="i">quantùm</hi>, de <hi rend="i">tamen</hi> sans <hi rend="i">quanquam</hi> ; souvent en François au lieu de dire <hi rend="i">il est-là où vous allez, il est dans la ville où vous allez</hi>, nous disons simplement <hi rend="i">il est où vous allez</hi>.</p>
         <p>Ainsi l’<hi rend="i">anacoluthe</hi> est une figure par laquelle on sous-entend le corrélatif d’un mot exprimé ; ce qui ne doit avoir lieu que lorsque l’ellipse peut être aisément suppléée, &amp; qu’elle ne blesse point l’usage. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="3:204" xml:base="../xml/volume01.xml" xml:id="ANADIPLOSE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="3:204" xml:base="../xml/volume01.xml" xml:id="ANADIPLOSE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-396.jpeg" n="1:396"/>
         <index indexName="headword" n="ANADIPLOSE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1199,7 +1199,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ANALOGIE">ANALOGIE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-399.jpeg" n="1:399"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Analogie-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Analogie-Grammaire">
           <index indexName="headword" n="ANALOGIE"/>
           <index indexName="author" n="Dumarsais|Yvon"/>
           <index indexName="class" n="Logique &amp; Gramm."/>
@@ -1224,7 +1224,7 @@
           <p>En Grammaire l’<hi rend="i">analogie</hi> est un rapport de ressemblance ou d’approximation qu’il y a entre une lettre &amp; une autre lettre, ou bien entre un mot &amp; un autre mot, ou enfin entre une expression, un tour, une phrase, &amp; un autre pareil. Par exemple, il y a de l’<hi rend="i">analogie</hi> entre le <hi rend="i">B</hi> &amp; le <hi rend="i">P.</hi> Leur différence ne vient que de ce que les levres sont moins serrées l’une contre l’autre dans la prononciation du <hi rend="i">B</hi> ; &amp; qu’on les serre davantage lorsqu’on veut prononcer <hi rend="i">P.</hi> Il y a aussi de l’<hi rend="i">analogie</hi> entre le <hi rend="i">B</hi> &amp; le <hi rend="i">V.</hi> Il n’y a point d’<hi rend="i">analogie</hi> entre notre <hi rend="i">on dit</hi> &amp; le <hi rend="i">dicitur</hi> des Latins, ou <hi rend="i">si dice</hi> des Italiens : ce sont-là des façons de parler propres <cb n="2"/>&amp; particulieres à chacune de ces langues. Mais il y a de l’<hi rend="i">analogie</hi> entre notre <hi rend="i">on dit</hi> &amp; le <hi rend="i">man sagt</hi> des Allemands : car notre <hi rend="i">on</hi> vient de <hi rend="i">homo</hi>, &amp; <hi rend="i">man sagt</hi> signifie l’<hi rend="i">homme dit ; man kan</hi>, l’homme peut. L’<hi rend="i">analogie</hi> est d’un grand usage en Grammaire pour tirer des inductions touchant la déclinaison, le genre &amp; les autres accidens des mots. (<hi rend="i">F &amp; X</hi>)</p>
         </div2>
       </div1>
-      <div1 n="3:231" xml:base="../xml/volume01.xml" xml:id="ANALOGUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="3:231" xml:base="../xml/volume01.xml" xml:id="ANALOGUE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-400.jpeg" n="1:400"/>
         <index indexName="headword" n="ANALOGUE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1238,7 +1238,7 @@
         </head>
         <p>ANALOGUE, adj. (<hi rend="i">Gram.</hi>) qui a de l’<hi rend="i">analogie</hi> : par exemple, les étrangers se servent souvent d’expressions, de tours ou phrases dont tous les mots à la vérité sont des mots François, mais l’ensemble ou construction de ces mots n’est point <hi rend="i">analogue</hi> au tour, à la maniere de parler de ceux qui savent la langue. Dans la plûpart des Auteurs modernes qui ont écrit en Grec ou en Latin, on trouve des phrases qui sont <hi rend="i">analogues</hi> au tour de leur langue naturelle, mais qui ne sont pas conformes au tour propre à la langue originale qu’ils ont voulu imiter. <hi rend="i">Voyez</hi> ce que dit Quintilien de l’<hi rend="i">analogie, au chap. vj. liv. I. de ses Instit</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="3:248" xml:base="../xml/volume01.xml" xml:id="ANAPHORE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="3:248" xml:base="../xml/volume01.xml" xml:id="ANAPHORE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-407.jpeg" n="1:407"/>
         <index indexName="headword" n="ANAPHORE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1255,7 +1255,7 @@
           <l>Hîc gelidi fontes, hîc mollia prata, Lycori,</l>
           <l>Hîc nemus, hîc ipso tecum consumerer oevo.</l> </quote><p>Cette figure est aussi appellée <hi rend="i">répétition</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="3:261" xml:base="../xml/volume01.xml" xml:id="ANASTROPHE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="3:261" xml:base="../xml/volume01.xml" xml:id="ANASTROPHE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-408.jpeg" n="1:408"/>
         <index indexName="headword" n="ANASTROPHE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1270,7 +1270,7 @@
         <p>ANASTROPHE, s. f. (<hi rend="i">Gramm.</hi>) <foreign xml:lang="grc">ἀναστροφὴ</foreign>, de <foreign xml:lang="grc">ἀνὰ</foreign>, qui répond à <hi rend="i">per, in, inter</hi> des Latins, &amp; du verbe <foreign xml:lang="grc">στρέφω</foreign>, <hi rend="i">verto</hi>. Quintilien, au <hi rend="i">chap. v. du I. liv. de ses Inst. or.</hi> dit que l’<hi rend="i">anastrophe</hi> est un vice de construction dans lequel on tombe par des inversions contre l’usage, <hi rend="i">vitium inversionis</hi>. On en donne pour exemple ces endroits de Virgile, <hi rend="i">Saxa per &amp; scopulos</hi>. III. Géor. v. 276. &amp; encore</p>
         <p>. . . . . <hi rend="i">Furit immissis Vulcanus habenis</hi>, <hi rend="i">Transtra per &amp; remos</hi>. Æn. V. v. 662. &amp; au I. L. v. 12. <hi rend="i">Italiam contra</hi>. On voit par ces exemples que l’<hi rend="i">anastrophe</hi> n’est pas toûjours un vice, &amp; qu’elle peut aussi passer pour une figure par laquelle un mot qui régulierement est mis devant un autre, <hi rend="i">per saxa, per transtra, contra Italiam, versus Italiam</hi>, &amp;c. est mis après. <hi rend="i">Saxa per</hi>, &amp;c. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:61" xml:base="../xml/volume01.xml" xml:id="ANGLICISME" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:61" xml:base="../xml/volume01.xml" xml:id="ANGLICISME">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-465.jpeg" n="1:465"/>
         <index indexName="headword" n="ANGLICISME"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1284,7 +1284,7 @@
         </head>
         <p>ANGLICISME, s. m. (<hi rend="i">Gramm</hi>.) idiotisme Anglois, c’est-à-dire, façon de parler propre à la langue Angloise : <cb n="2"/>par exemple, si l’on disoit en François <hi rend="i">fouetter dans de bonnes moeurs</hi>, whip into good manners ; au lieu de dire, <hi rend="i">fouetter afin de rendre meilleur</hi>, ce seroit un <hi rend="i">anglicisme</hi>, c’est-à-dire, que la phrase seroit exprimée suivant le tour, le génie &amp; l’usage de la langue Angloise. Ce qu’on dit ici de l’<hi rend="i">anglicisme</hi>, se dit aussi de toute autre langue ; car on dit un <hi rend="i">gallicisme</hi>, un <hi rend="i">latinisme</hi>, un <hi rend="i">hellenisme</hi>, pour dire une phrase exprimée suivant le tour François, Latin &amp; Grec. On dit aussi un <hi rend="i">arabisme</hi>, c’est-à-dire, une façon de parler particuliere à l’Arabe. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:152" xml:base="../xml/volume01.xml" xml:id="ANOMAL" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:152" xml:base="../xml/volume01.xml" xml:id="ANOMAL">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-487.jpeg" n="1:487"/>
         <index indexName="headword" n="ANOMAL"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1305,7 +1305,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ANOMALIE">ANOMALIE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-487.jpeg" n="1:487"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Anomalie-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Anomalie-Grammaire">
           <index indexName="headword" n="Anomalie (Grammaire)"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -1324,7 +1324,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ANTÉCÉDENT">ANTÉCÉDENT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-491.jpeg" n="1:491"/>
-        <div2 n="4:191:1" xml:base="../xml/volume01.xml" xml:id="Antecedent-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="4:191:1" xml:base="../xml/volume01.xml" xml:id="Antecedent-Grammaire">
           <index indexName="headword" n="Antécédent"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="en Grammaire"/>
@@ -1338,7 +1338,7 @@
           <p><hi rend="sc">Antécédent</hi>, se dit <hi rend="i">en Grammaire</hi>, du mot qui précede le relatif. Par exemple, <hi rend="i">Deus quem adoramus est omnipotens ; Deus</hi> est l’<hi rend="i">antécédent</hi>, c’est le mot qui précede <hi rend="i">quem</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="4:199" xml:base="../xml/volume01.xml" xml:id="ANTEPENULTIEME" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:199" xml:base="../xml/volume01.xml" xml:id="ANTEPENULTIEME">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-495.jpeg" n="1:495"/>
         <index indexName="headword" n="ANTÉPÉNULTIEME"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1354,7 +1354,7 @@
         <p>En grec, on met l’accent aigu sur la derniere syllabe, <foreign xml:lang="grc">Θεός</foreign>, <hi rend="i">Dieu</hi> : sur la pénultieme <foreign xml:lang="grc">λόγος</foreign>, <hi rend="i">discours</hi> ; &amp; sur l’<hi rend="i">antépénultieme</hi> <foreign xml:lang="grc">ἄνθρωπος</foreign>, <hi rend="i">homme</hi> : on ne met jamais d’accent avant l’<hi rend="i">antépénultieme</hi>.</p>
         <p>En latin, lorsqu’on marque les accens pour régler la prononciation du lecteur, si la pénultieme syllabe d’un mot doit être prononcée breve, on met l’accent <cb n="2"/>aigu sur l’<hi rend="i">antépénultieme</hi>, quoique cette <hi rend="i">antépénultieme</hi> soit breve. <hi rend="i">Dominus</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:238" xml:base="../xml/volume01.xml" xml:id="ANTI" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:238" xml:base="../xml/volume01.xml" xml:id="ANTI">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-499.jpeg" n="1:499"/>
         <index indexName="headword" n="ANTI"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1372,7 +1372,7 @@
         <p>Les Livres de controverse &amp; ceux de disputes littéraires portent souvent le nom d’<hi rend="i">anti</hi> M. Ménage a fait un Livre intitulé l’<hi rend="i">anti-Baillet</hi>. On a fait aussi un <hi rend="i">anti-Menagiana</hi>. Ciceron, à la priere de Brutus, avoit fait un Livre à la loüange de Caton d’Utique ; César écrivit deux Livres contre Caton, &amp; les intitula <hi rend="i">anti-Catones</hi>. Ciceron dit que ces Livres étoient écrits avec impudence, <hi rend="i">usus est nimis impudenter Coesar contrà Catonem meum. Ad Treb. Topica, c. xxv</hi>. Il ne faut pas confondre ce Livre de Ciceron avec celui qui est intitulé <hi rend="i">Cato-major</hi>. Le Livre de Ciceron à la loüange de Caton, &amp; les <hi rend="i">anti-Catons</hi> de César, n’ont point passé à la postérité.</p>
         <p>Patin fait mention d’un charlatan de son siecle, qui avoit l’impudence de vendre à Paris des <hi rend="i">anti-écliptiques</hi>, &amp; des <hi rend="i">anti-cométiques</hi>, c’est-à-dire, des remedes contre les prétendues influences des éclipses, &amp; contre celles des cometes. <hi rend="i">Lett. ch. cccxliv</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:301" xml:base="../xml/volume01.xml" xml:id="ANTI-PHRASE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:301" xml:base="../xml/volume01.xml" xml:id="ANTI-PHRASE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-512.jpeg" n="1:512"/>
         <index indexName="headword" n="ANTI-PHRASE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1390,7 +1390,7 @@
         <p>La superstition des Anciens leur faisoit éviter jusqu’à la simple prononciation des noms qui réveillent des idées tristes, ou des images funestes ; ils donnoient alors à ces objets des noms flatteurs, comme pour se les rendre favorables, &amp; pour se faire un <cb n="2"/>bon augure ; c’est ce qu’on appelle <hi rend="i">euphémisme</hi>, c’est-à-dire, discours de bon augure ; mais que ce soit par ironie ou par euphémisme que l’on ait parlé, le mot n’en doit pas moins être pris dans un sens contraire à ce que la lettre présente à l’esprit ; &amp; voilà ce que les anciens Grammairiens entendoient par <hi rend="i">anti-phrase</hi>. C’est ainsi que l’on dit à Paris de certaines femmes qui parlent toûjours d’un air grondeur, <hi rend="i">c’est une muette de halles</hi>, c’est-à-dire, une femme qui chante pouille à tout le monde, une vraie harangere des halles ; <hi rend="i">muette</hi> est dit alors par <hi rend="i">anti-phrase</hi>, ou si vous l’aimez mieux par ironie ; le nom ne fait rien à l’affaire ; le mot n’en est pas moins une <hi rend="i">contre-vérité</hi>.</p>
         <p>Quant à ce que dit Sanctius, que le terme <hi rend="i">d’antiphrase</hi> suppose une phrase entiere, &amp; ne sauroit être appliqué à un mot seul ; il est fort ordinaire de donner à un mot, ou par extension ou par restriction, une signification plus ou moins étendue que celle qu’il semble qu’il devroit avoir selon son étymologie. On en a un bel exemple dans la dénomination des cas des noms ; car l’accusatif ne sert pas seulement pour accuser, ni le datif pour donner, ni l’ablatif pour ôter. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:303" xml:base="../xml/volume01.xml" xml:id="ANTIPTOSE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:303" xml:base="../xml/volume01.xml" xml:id="ANTIPTOSE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-514.jpeg" n="1:514"/>
         <index indexName="headword" n="ANTIPTOSE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1414,7 +1414,7 @@
         <p>Par la même méthode j’explique le passage de Térence, <hi rend="i">ut fabuloe, quas fabulas fecisset, placerent populo</hi>. C’est donc par l’ellipse qu’il faut expliquer ces passages, &amp; non par la prétendue <hi rend="i">antiptose</hi> de Despautere &amp; de la foule des Grammatistes.</p>
         <p>Pour ce qui est de <hi rend="i">venit in mentem illius diei</hi>, il y a aussi ellipse ; la construction est <hi rend="i">memoria, cogitatio</hi>, ou <hi rend="i">recordatio hujus diei venit in mentem</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:310" xml:base="../xml/volume01.xml" xml:id="ANTI-SIGMA" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:310" xml:base="../xml/volume01.xml" xml:id="ANTI-SIGMA">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-516.jpeg" n="1:516"/>
         <index indexName="headword" n="ANTI-SIGMA"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1436,7 +1436,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ANTI-STROPHE">ANTI-STROPHE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-516.jpeg" n="1:516"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Anti-strophe-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Anti-strophe-Grammaire">
           <index indexName="headword" n="ANTI-STROPHE"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gramm."/>
@@ -1456,7 +1456,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ANTITHESE">ANTITHESE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-517.jpeg" n="1:517"/>
-        <div2 n="4:317:1" xml:base="../xml/volume01.xml" xml:id="Antithese-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="4:317:1" xml:base="../xml/volume01.xml" xml:id="Antithese-Grammaire">
           <index indexName="headword" n="Antithese"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gramm."/>
@@ -1470,7 +1470,7 @@
           <p><hi rend="sc">Antithese</hi>, (<hi rend="i">Gramm.</hi>) Quelques Grammairiens font aussi de ce mot une figure de diction, qui se fait lorsqu’on substitue une lettre à la place d’une autre ; comme lorsque Virgile a dit, <hi rend="i">olli</hi> pour <hi rend="i">illi</hi>, ce qui fait une sorte d’opposition : mais il est plus ordinaire de rapporter cette figure au métaplasme, mot fait de <foreign xml:lang="grc">μεταπλάσσω</foreign>, <hi rend="i">transformo</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="4:355" xml:base="../xml/volume01.xml" xml:id="AORISTE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:355" xml:base="../xml/volume01.xml" xml:id="AORISTE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-520.jpeg" n="1:520"/>
         <index indexName="headword" n="AORISTE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1487,7 +1487,7 @@
         <p>Ainsi <hi rend="i">aoriste</hi> se dit d’un tems, &amp; sur-tout d’un prétérit indéterminé : <hi rend="i">j’ai fait</hi> est un prétérit déterminé ou plûtôt <hi rend="i">absolu ;</hi> au lieu que <hi rend="i">je fis</hi> est un <hi rend="i">aoriste</hi>, c’est-à-dire, un prétérit indéfini, indéterminé, ou plûtôt <hi rend="i">un prétérit relatif ;</hi> car on peut dire absolument <hi rend="i">j’ai fait, j’ai écrit, j’ai donné ;</hi> au lieu que quand on dit <hi rend="i">je fis, j’écrivis, je donnai</hi>, &amp;c. il faut ajoûter quelqu’autre mot qui détermine le tems où l’action dont on parle a été faite ; <hi rend="i">je fis hier, j’écrivis il y a quinze jours, je donnai le mois passé</hi>.</p>
         <p>On ne se sert de l’<hi rend="i">aoriste</hi> que quand l’action s’est <cb n="2"/>passée dans un tems que l’on considere comme tout-à-fait séparé du tems où l’on parle ; car si l’esprit considere le tems où l’action s’est passée comme ne faisant qu’un avec le tems où l’on parle, alors on se sert du prétérit absolu : ainsi on dit <hi rend="i">j’ai fait ce matin</hi>, &amp; non <hi rend="i">je fis ce matin</hi> ; car <hi rend="i">ce matin</hi> est regardé comme partie du reste du jour où l’on parle : mais on dit fort bien <hi rend="i">je fis hier</hi>, &amp;c. on dit fort bien, <hi rend="i">depuis le commencement du monde jusqu’aujourd’hui, on <hi rend="sc">a fait</hi> bien des découvertes</hi>, &amp; l’on ne diroit pas <hi rend="i">l’on fit</hi> à l’<hi rend="i">aoriste</hi>, parce que dans cette phrase, le tems depuis le commencement du monde jusqu’aujourd’hui, est regardé comme <hi rend="i">un tout</hi>, comme <hi rend="i">un même ensemble</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:395" xml:base="../xml/volume01.xml" xml:id="APHERESE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:395" xml:base="../xml/volume01.xml" xml:id="APHERESE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-524.jpeg" n="1:524"/>
         <index indexName="headword" n="APHERESE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1504,7 +1504,7 @@
         <p>Cette figure est souvent en usage dans les étymologies. C’est ainsi, dit Nicot, que de <hi rend="i">gibbosus</hi> nous avons fait <hi rend="i">bossu</hi>, en retranchant <hi rend="i">gib</hi>, qui est la premiere syllabe du mot Latin.</p>
         <p>Au reste, si le retranchement se fait au milieu du mot, c’est une <hi rend="i">syncope</hi> ; s’il se fait à la fin, on l’appelle <hi rend="i">apocope</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:434" xml:base="../xml/volume01.xml" xml:id="APOCOPE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:434" xml:base="../xml/volume01.xml" xml:id="APOCOPE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-528.jpeg" n="1:528"/>
         <index indexName="headword" n="APOCOPE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1519,7 +1519,7 @@
         <p>APOCOPE, s. f. (<hi rend="i">Gramm</hi>.) figure de diction qui se fait lorsqu’on retranche quelque lettre ou quelque syllabe à la fin d’un mot, comme dans ces quatre impératifs, <hi rend="i">dic, duc, fac, fer</hi>, au lieu de <hi rend="i">dice, duce</hi>, &amp;c. <hi rend="i">ingenî</hi> pour <hi rend="i">ingenü, negotî</hi> pour <hi rend="i">negotî</hi>, &amp;c.</p>
         <p>Ce mot vient de <foreign xml:lang="grc">ἀποκοπὴ</foreign>, qui est composé de la <cb n="2"/>préposition <foreign xml:lang="grc">ἀπὸ</foreign>, &amp; qui répond à l’<hi rend="i">a</hi> ou <hi rend="i">ab</hi> des Latins, &amp; de <foreign xml:lang="grc">κόπτω</foreign>, <hi rend="i">je coupe, je retranche.</hi> (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:445" xml:base="../xml/volume01.xml" xml:id="APOGRAPHE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:445" xml:base="../xml/volume01.xml" xml:id="APOGRAPHE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-530.jpeg" n="1:530"/>
         <index indexName="headword" n="APOGRAPHE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1538,7 +1538,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=APOSTROPHE">APOSTROPHE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-537.jpeg" n="1:537"/>
-        <div2 n="4:490:1" xml:base="../xml/volume01.xml" xml:id="Apostrophe-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="4:490:1" xml:base="../xml/volume01.xml" xml:id="Apostrophe-Grammaire">
           <index indexName="headword" n="Apostrophe"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -1562,7 +1562,7 @@
           <p>Tous nos dictionnaires François font ce mot du genre féminin ; il devroit pourtant être masculin quand il signifie ce signe qui marque la suppression d’une voyelle finale. Après tout on n’a pas occasion dans la pratique de donner un genre à ce mot en François : mais c’est une faute à ces dictionnaires quand ils font venir ce mot d’<foreign xml:lang="grc">ἀποστροφὴ</foreign>, qui est le nom d’une figure de Rhétorique. Les dictionnaires Latins sont plus exacts ; Martinius dit : <hi rend="i">Apostrophe</hi>. R. <foreign xml:lang="grc">ἀποστροφὴ</foreign>, <hi rend="i">figura Rhetoricoe ;</hi> &amp; il ajoûte immédiatement : <hi rend="i">apostrophus</hi>, R. <foreign xml:lang="grc">ἀπόστροφος</foreign>, <hi rend="i">signum rejectoe vocalis</hi>. Isidore, <hi rend="i">au liv. I. de ses origines, chapitre xviij</hi>. où il parle des figures ou signes dont on se sert en écrivant, dit : <hi rend="i">apostrophos, pars circuli dextra, &amp; ad summam litteram apposita, fit ita’, quâ notâ deesse ostenditur in sermone ultimas vocales</hi> (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="4:523" xml:base="../xml/volume01.xml" xml:id="APPELLATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:523" xml:base="../xml/volume01.xml" xml:id="APPELLATIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-548.jpeg" n="1:548"/>
         <index indexName="headword" n="APPELLATIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1588,7 +1588,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=APPOSITION">APPOSITION</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-554.jpeg" n="1:554"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Apposition-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Apposition-Grammaire">
           <index indexName="headword" n="APPOSITION"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -1603,7 +1603,7 @@
           <p>On dit communément que l’<hi rend="i">apposition</hi> consiste à mettre deux ou plusieurs substantifs de suite au même cas sans les joindre par aucun terme copulatif, c’est-à-dire, ni par une conjonction ni par une préposition : mais, selon cette définition, quand on dit <hi rend="i">la foi, l’espérance, la charité</hi> sont trois vertus théologales ; <hi rend="i">saint Pierre, saint Matthieu, saint Jean</hi>, &amp;c. étoient apôtres : ces façons de parler qui ne sont que des dénombremens, seroient donc des <hi rend="i">appositions</hi>. J’aime donc mieux dire que l’<hi rend="i">apposition</hi> consiste à mettre ensemble sans <corr n="conjoction">conjonction</corr> deux noms dont l’un est un nom propre, &amp; l’autre un nom appellatif, ensorte que ce dernier est pris adjectivement, &amp; est le qualificatif de l’autre, comme on le voit par les exemples : <hi rend="i">ardebat Alexim, delicias Domini ; urbs Roma</hi>, c’est-à-dire, <hi rend="i">Roma quoe est urbs : Flandre, théatre sanglant</hi>, &amp;c. c’est-à-dire qui est le théatre sanglant, <hi rend="i">&amp;c.</hi> ainsi le <hi rend="i">rapport d’identité</hi> est la raison de l’<hi rend="i">apposition</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="4:585" xml:base="../xml/volume01.xml" xml:id="APRE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:585" xml:base="../xml/volume01.xml" xml:id="APRE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-560.jpeg" n="1:560"/>
         <index indexName="headword" n="APRE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1621,7 +1621,7 @@
         <p>Il y a des mots qui ont un esprit &amp; un accent, comme le relatif <foreign xml:lang="grc">ὃς, ἣ, ὃ</foreign>, <hi rend="i">qui, quoe, quod</hi>.</p>
         <p>Il y a quatre consonnes qui prennent un esprit rude, <foreign xml:lang="grc">π, κ, τ, ρ</foreign> : mais on ne marque plus l’esprit rude sur les trois premieres, parce qu’on a inventé des caracteres exprès, pour marquer que ces lettres sont aspirées ; ainsi au lieu d’écrire <foreign xml:lang="grc">῾π, ῾κ, ᾽τ, ρ </foreign>, on écrit <foreign xml:lang="grc">φ, χ, θ</foreign> : mais on écrit <foreign xml:lang="grc">ῥ</foreign> au commencement des mots : <foreign xml:lang="grc">Ῥητορικὴ</foreign>, <hi rend="i">Rhétorique ;</hi> <foreign xml:lang="grc">ῥητορικὸς</foreign>, <hi rend="i">Rhétoricien</hi> ; <foreign xml:lang="grc">ῥώμη</foreign>, <hi rend="i">force</hi> : quand le <foreign xml:lang="grc">ρ</foreign> est redoublé, on met un esprit doux sur le premier, &amp; un <hi rend="i">âpre</hi> sur le second, <foreign xml:lang="grc">πόῤῥω</foreign>, <hi rend="i">longe</hi>, loin. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:587" xml:base="../xml/volume01.xml" xml:id="APRES" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:587" xml:base="../xml/volume01.xml" xml:id="APRES">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-561.jpeg" n="1:561"/>
         <index indexName="headword" n="APRÈS"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1640,7 +1640,7 @@
         <p><hi rend="i">Après</hi>, est aussi une préposition inséparable qui entre dans la composition de certains mots, tels que <hi rend="i">après-demain, après-diné, l’après-dînée, après-midi, après soupé, l’après-soupée</hi>.</p>
         <p>C’est sous cette vûe de préposition inséparable qui forme un sens avec un autre mot, que l’on doit regarder ce mot dans ces façons de parlet ; ce portrait est fait <hi rend="i">d’après nature ;</hi> comme on dit <hi rend="i">en peinture</hi> &amp; <hi rend="i">en sculpture</hi>, dessiner <hi rend="i">d’après</hi> l’antique ; modeler <hi rend="i">d’après</hi> l’antique ; ce portrait est fait <hi rend="i">d’après</hi> nature ; ce tableau est fait <hi rend="i">d’après</hi> Raphaël, <hi rend="i">&amp;c.</hi> c’est-à-dire, que Raphaël avoit fait l’original auparavant. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="4:600" xml:base="../xml/volume01.xml" xml:id="APTOTE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="4:600" xml:base="../xml/volume01.xml" xml:id="APTOTE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-563.jpeg" n="1:563"/>
         <index indexName="headword" n="APTOTE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -1654,7 +1654,7 @@
         </head>
         <p>APTOTE, ce mot est grec, &amp; signifie <hi rend="i">indéclinable. Sunt quoedam, quoe declinationem non admittunt, &amp; in quibusdam casibus tantùm inveniuntur, &amp; dicuntur aptota</hi>. Sosipater, <hi rend="i">liv. I. pag. 23</hi>. comme <hi rend="i">fas, nefas</hi>, &amp;c. <foreign xml:lang="grc">ἄπτωτος</foreign>, c’est-a-dire, <hi rend="i">sans cas</hi>, formé de <foreign xml:lang="grc">πτῶσις</foreign>, <hi rend="i">cas, &amp;</hi> d’<foreign xml:lang="grc">α</foreign> privatif. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="6:166" xml:base="../xml/volume01.xml" xml:id="ARSIS" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="6:166" xml:base="../xml/volume01.xml" xml:id="ARSIS">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-713.jpeg" n="1:713"/>
         <index indexName="headword" n="ARSIS"/>
         <index indexName="pos" n="s.f."/>
@@ -1689,7 +1689,7 @@
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ARTICLE">ARTICLE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-722.jpeg" n="1:722"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Article-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Article-Grammaire">
           <index indexName="headword" n="ARTICLE"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gram."/>
@@ -2170,7 +2170,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>Je finis par une réflexion judicieuse du pere Buffier. (<hi rend="i">Gramm. n. 340</hi>.) Nous avons tiré nos éclaircissemens <hi rend="i">d’une Métaphysique, peut-être un peu subtile, mais très-réelle . . . . . C’est ainsi que les sciences se prêtent mutuellement leurs secours : si la Métaphysique contribue à démêler nettement des points essentiels à la Grammaire, celle-ci bien apprise, ne contribueroit peut-être pas moins à éclaircir les discours les plus métaphysiques.</hi> <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Adjectif">Adjectif</ref>, <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Adverbe">Adverbe</ref></hi>, <hi rend="i">&amp;c.</hi> (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="6:187" xml:base="../xml/volume01.xml" xml:id="ARTICULE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="6:187" xml:base="../xml/volume01.xml" xml:id="ARTICULE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-739.jpeg" n="1:739"/>
         <index indexName="headword" n="ARTICULE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2190,7 +2190,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ASPIRATION">ASPIRATION</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-762.jpeg" n="1:762"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Aspiration-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Aspiration-Grammaire">
           <index indexName="headword" n="ASPIRATION"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gramm."/>
@@ -2204,7 +2204,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>ASPIRATION, s. f. (<hi rend="i">Gramm.</hi>) Ce mot signifie proprement l’action de celui qui tire l’air extérieur en-dedans ; &amp; l’<hi rend="i">expiration</hi>, est l’action par laquelle on repousse ce même air en-dehors. En Grammaire, par <hi rend="i">aspiration</hi>, on entend une certaine prononciation forte que l’on donne à une lettre, &amp; qui se fait par aspiration &amp; respiration. Les Grees la marquoient par leur esprit rude, les Latins par <hi rend="i">h</hi>, en quoi nous les avons suivis. Mais notre <hi rend="i">h</hi> est très-souvent muette, &amp; ne marque pas toûjours l’<hi rend="i">aspiration</hi> : elle est muette dans <hi rend="i">homme, honnête, héroïne</hi>, &amp;c. elle est aspirée en <hi rend="i">haut, hauteur, héros</hi>, &amp;c. <hi rend="i">Voyez</hi> H. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="6:326" xml:base="../xml/volume01.xml" xml:id="ASPIREE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="6:326" xml:base="../xml/volume01.xml" xml:id="ASPIREE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-762.jpeg" n="1:762"/>
         <index indexName="headword" n="ASPIRÉE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2222,7 +2222,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
         <p>De plus, il faut observer que quand nous voulons prononcer un mot d’une autre langue que la nôtre, nous forçons les organes de la parole, pour tâcher d’imiter la prononciation originale de ce mot ; &amp; cet effort ne sert souvent qu’à nous écarter de la véritable prononciation.</p>
         <p>De-là il est arrivé que les étrangers voulant faire sentir la force de l’esprit Grec, le méchanisme de leurs organes leur a fait prononcer cet esprit, ou avec trop de force, ou avec trop peu : ainsi au lieu de <foreign xml:lang="grc">ἕξ</foreign>, <hi rend="i">six</hi>, prononcé avec l’esprit âpre &amp; l’accent grave, les Latins ont fait <hi rend="i">sex</hi> ; de <foreign xml:lang="grc">ἑπτὰ</foreign> ils ont fait <hi rend="i">septem ;</hi> d’<foreign xml:lang="grc">ἕβδομος</foreign>, <hi rend="i">septimus</hi>. Ainsi d’<foreign xml:lang="grc">ἑστία</foreign> est venu <hi rend="i">vesta</hi> ; d’<foreign xml:lang="grc">ἑστιάδες</foreign>, <hi rend="i">vestales</hi> ; d’<foreign xml:lang="grc">ἕσπερος</foreign>, ils ont fait <hi rend="i">vesperus</hi> ; d’<foreign xml:lang="grc">ὑπὲρ</foreign>, <hi rend="i">super</hi> ; d’<foreign xml:lang="grc">ἅλς</foreign>, <hi rend="i">sal</hi> ; ainsi de plusieurs autres, où l’on sent que le méchanisme de la parole a amené au lieu de l’esprit un <hi rend="i">s</hi>, ou un <hi rend="i">v</hi>, ou un <hi rend="i">f</hi> : c’est ainsi que de <foreign xml:lang="grc">οἶνος</foreign> on a fait <hi rend="i">vinum</hi>, donnant à l’<hi rend="i">v</hi> consonne un peu du son de l’<hi rend="i">u</hi> voyelle, qu’ils prononçoient <hi rend="i">ou.</hi> (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="6:424" xml:base="../xml/volume01.xml" xml:id="ASTERIQUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="6:424" xml:base="../xml/volume01.xml" xml:id="ASTERIQUE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-776.jpeg" n="1:776"/>
         <index indexName="headword" n="ASTERIQUE"/>
         <index indexName="author" n="Dumarsais|Diderot"/>
@@ -2243,7 +2243,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=AVANT">AVANT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-859.jpeg" n="1:859"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Avant-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Avant-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -2268,7 +2268,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=AUGMENT">AUGMENT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-875.jpeg" n="1:875"/>
-        <div2 xml:base="../xml/volume01.xml" xml:id="Augment-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume01.xml" xml:id="Augment-Grammaire">
           <index indexName="headword" n="AUGMENT"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -2286,7 +2286,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>Il se fait aussi dans la langue Latine des augmentations de l’une &amp; de l’autre espece, sans que le mot d’<hi rend="i">augment</hi> y soit en usage : par exemple, <hi rend="i">honor</hi> au nominatif, <hi rend="i">honoris</hi> au génitif, <hi rend="i">&amp;c.</hi> voilà l’<hi rend="i">augment syllabique ; v[non reproduit]nio</hi>, la premiere breve ; <hi rend="i">v[non reproduit]ni</hi> au prétérit, la premiere longue, voilà l’<hi rend="i">augment temporel</hi>. Il y a aussi un <hi rend="i">augment</hi> syllabique dans les verbes qui redoublent leur prétérit : <hi rend="i">mordeo, momordi ; cano, cecini</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="7:330" xml:base="../xml/volume01.xml" xml:id="AUTOGRAPHE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="7:330" xml:base="../xml/volume01.xml" xml:id="AUTOGRAPHE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-896.jpeg" n="1:896"/>
         <index indexName="headword" n="AUTOGRAPHE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2300,7 +2300,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
         </head>
         <p>AUTOGRAPHE, s. m. (<hi rend="i">Gramm.</hi>) Ce mot est composé de <foreign xml:lang="grc">αὐτὸς</foreign>, <hi rend="i">ipse</hi>, &amp; de <foreign xml:lang="grc">γράφω</foreign>, <hi rend="i">scribo</hi>. L’<hi rend="i">autographe</hi> est donc un ouvrage écrit de la main de celui qui l’a composé, <hi rend="i">ab ipso autore scriptum</hi>. Comme si nous avions les épîtres de Ciceron en original. Ce mot est un terme dogmatique ; une personne du monde ne dira pas : J’ai vu chez M. le C. P. les <hi rend="i">autographes</hi> des lettres de M<hi rend="sup">de</hi> de Sévigné, au lieu de dire les <hi rend="i">originaux</hi>, les lettres mêmes écrites de la main de cette dame. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="7:361" xml:base="../xml/volume01.xml" xml:id="AUXILIAIRE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="7:361" xml:base="../xml/volume01.xml" xml:id="AUXILIAIRE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V1/ENC_1-903.jpeg" n="1:903"/>
         <index indexName="headword" n="AUXILIAIRE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2328,7 +2328,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
         <p>Nos Grammairiens, en voulant donner à nos verbes des tems qui répondissent comme en un seul mot aux tems simples des Latins, ont inventé le mot de <hi rend="i">verbe auxiliaire</hi> : c’est ainsi qu’en voulant assujettir les langues modernes à la méthode Latine, ils les ont embarrassées d’un grand nombre de préceptes inutiles, de <hi rend="i">cas</hi>, de <hi rend="i">déclinaisons</hi> &amp; autres termes qui ne conviennent point à ces langues, &amp; qui n’y auroient jamais été reçûs si les Grammairiens n’avoient pas commencé par l’étude de la langue Latine. Ils ont assujetti de simples équivalens à des regles étrangeres : mais on ne doit pas régler la Grammaire d’une langue par les formules de la Grammaire d’une autre langue.</p>
         <p>Les regles d’unc langue ne doivent se tirer que de cette langue même. Les langues ont précédé les Grammaires, &amp; celles-ci ne doivent être formées que d’observations justes tirées du bon usage de la langue particuliere dont elles traitent. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 xml:base="../xml/volume02.xml" xml:id="B-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 xml:base="../xml/volume02.xml" xml:id="B-Grammaire">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-1.jpeg" n="2:1"/>
         <index indexName="headword" n="B"/>
         <index indexName="author" n="Dumarsais | Mallet"/>
@@ -2379,7 +2379,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=BAILLEMENT">BAILLEMENT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-17.jpeg" n="2:17"/>
-        <div2 n="8:163:1" xml:base="../xml/volume02.xml" xml:id="Baillement-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="8:163:1" xml:base="../xml/volume02.xml" xml:id="Baillement-Grammaire">
           <index indexName="headword" n="Baillement"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
@@ -2404,7 +2404,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>On dit en latin <hi rend="i">prosum, prosumus, profui ;</hi> ce verbe est composé de la préposition <hi rend="i">pro</hi>, &amp; de <hi rend="i">sum</hi> : mais si après <hi rend="i">pro</hi> le verbe commence par une voyelle, alors le méchanisme de la parole ajoûte un <hi rend="i">d, prosum, prod-es, pro-d-est, pro-d-eram</hi>, &amp;c. On peut faire de pareilles observations en d’autres langues ; car il ne faut jamais perdre de vûe que les hommes sont par-tout des hommes, &amp; qu’il y a dans la nature uniformité &amp; varieté. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="8:385" xml:base="../xml/volume02.xml" xml:id="BARBARISME" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="8:385" xml:base="../xml/volume02.xml" xml:id="BARBARISME">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-70.jpeg" n="2:70"/>
         <index indexName="headword" n="BARBARISME"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2433,7 +2433,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=BAT">BAT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-131.jpeg" n="2:131"/>
-        <div2 xml:base="../xml/volume02.xml" xml:id="Bat-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume02.xml" xml:id="Bat-Grammaire">
           <index indexName="headword" n="BAT, BATTOLOGIE, BUTUBATA"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gram."/>
@@ -2452,7 +2452,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>Au lieu de notre <hi rend="i">patipata</hi>, où le <hi rend="i">p</hi> peut aisément être venu du <hi rend="i">b</hi>, les Latins disoient <hi rend="i">butubata</hi>, &amp; les Hébreux [non reproduit]<hi rend="i">bitutote</hi>, pour répondre à une façon de parler futile. Festus dit que Noevius appelle <hi rend="i">butubata</hi> ce qu’on dit des phrases vaines qui n’ont point de sens, qui ne méritent aucune attention : <hi rend="i">butubata Noevius pro nugatoriis posuit, hoc est nullius dignationis</hi>. Scaliger croit que le mot de <hi rend="i">butubata</hi> est composé de quatre monosyllabes, qui font fort en usage parmi les enfans, les nourrices &amp; les imbéciles ; savoir <hi rend="i">bu, tu, ba, ta : bu</hi>, quand les enfans demandent à boire ; <hi rend="i">ba</hi> ou <hi rend="i">pa</hi>, quand ils demandent à manger ; <hi rend="i">ta</hi> ou <hi rend="i">tatam</hi>, quand ils demandent leur pere, où le <hi rend="i">t</hi> se change facilement en <hi rend="i">p</hi> ou en <hi rend="i">m, maman</hi> : mots qui étoient aussi en usage chez les Latins, an témoignage de Varon &amp; de Caton ; &amp; pour le prouver, voici l’autorité de Nonius Marcellus au mot <hi rend="i">buas. Buas, potionem positam parvulorum. Var. Cato, vel de liberis educandis. Cum cibum ac potionem buas, ac papas docent &amp; matrem mammam, &amp; patrem tatam</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="11:332" xml:base="../xml/volume02.xml" xml:id="BRACHYGRAPHIE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="11:332" xml:base="../xml/volume02.xml" xml:id="BRACHYGRAPHIE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-391.jpeg" n="2:391"/>
         <index indexName="headword" n="BRACHYGRAPHIE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2478,7 +2478,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <l>Excipiat longas, nova per compendia voces.</l>
           <bibl>Manil. Aston. lib. IV. v. 197.</bibl> </quote><p>C’est par de semblables expédiens, que certains scribes que nous avons eus à Paris, suivoient en écrivant nos plus habiles prédicateurs ; &amp; ce fut par ce moyen, que parut, il y a environ trente ans, une édition des sermons du P. Mabillon. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="12:323" xml:base="../xml/volume02.xml" xml:id="BYTTE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="12:323" xml:base="../xml/volume02.xml" xml:id="BYTTE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-472.jpeg" n="2:472"/>
         <index indexName="headword" n="BYTTE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2528,7 +2528,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CACOPHONIE">CACOPHONIE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-510.jpeg" n="2:510"/>
-        <div2 xml:base="../xml/volume02.xml" xml:id="Caphonie-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume02.xml" xml:id="Caphonie-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire ou plûtôt de Rhétorique"/>
           <index indexName="normclass" n="Grammaire | Rhétorique"/>
@@ -2548,7 +2548,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
             <l><hi rend="i">Ni à</hi> la cour qui dira ce qu’il pense.</l> </quote><p>La rime, qui est une ressemblance de son, produit un effet agréable dans nos vers, mais elle nous choque en prose. Un auteur a dit que Xerxès transporta en Perse la bibliothéque que Pisistrate avoit faite à Athenes, où Seleucus Nicanor la fit reporter : mais que dans la suite <hi rend="i">Sylla la pilla ;</hi> ces trois <hi rend="i">la</hi> font une <hi rend="i">cacophonie</hi> qu’on pouvoit éviter en disant, <hi rend="i">mais dans la suite elle fut pillée par Sylla</hi>. Horace a dit, <hi rend="i">oequam memento rebus in arduis servare mentem ;</hi> il y auroit eu une <hi rend="i">cacophonie</hi> si ce poëte avoit dit <hi rend="i">mentem memento</hi>, quoique sa pensée eût été également entendue. Il est vrai que l’on a rempli le principal objet de la parole, quand on s’est exprimé de maniere à se faire entendre : mais il n’est pas mal de faire attention qu’on doit des égards à ceux à qui l’on adresse la parole : il faut donc tâcher de leur plaire ou du-moins éviter ce qui leur seroit desagréable &amp; ce qui pourroit offenser la délicatesse de l’oreille, juge sévere qui décide en souverain, &amp; ne rend aucune raison de ses décisions : <hi rend="i">Ne extremorum verborum cum insequentibus primis concursus, aut hiulcas voces efficiat aut asperas ; quamvis enim suaves gravesque sententioe, tamen si inconditis verbis efferuntur, offendent aures, quarum est judicium superbissimum : quod quidem Latina lingua sic observat, nemo ut tam rusticus sit quin vocales nolit conjungere</hi>. Cie. <hi rend="i">Orat. c. 44</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="13:491" xml:base="../xml/volume02.xml" xml:id="CARACTERE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="13:491" xml:base="../xml/volume02.xml" xml:id="CARACTERE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-645.jpeg" n="2:645"/>
         <index indexName="headword" n="CARACTERE"/>
         <index indexName="author" n="d’Alembert | Dumarsais | de La Chapelle | Venel"/>
@@ -2802,7 +2802,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CAS">CAS</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-734.jpeg" n="2:734"/>
-        <div2 xml:base="../xml/volume02.xml" xml:id="Cas-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume02.xml" xml:id="Cas-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -2864,7 +2864,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>Ces prépositions qui précedent les noms équivalent à des <hi rend="i">cas</hi> pour le sens, puisqu’elles marquent des vûes particulieres de l’esprit ; mais elles ne font point des <hi rend="i">cas</hi> proprement dits, car l’essence du <hi rend="i">cas</hi> ne consiste que dans la terminaison du nom, destinée à indiquer une telle relation particuliere d’un mot à quelqu’autre mot de la proposition. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="15:117" xml:base="../xml/volume02.xml" xml:id="CAZZICHI" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="15:117" xml:base="../xml/volume02.xml" xml:id="CAZZICHI">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-795.jpeg" n="2:795"/>
         <index indexName="headword" n="CAZZICHI"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2899,7 +2899,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
         <p>On ajoûte quelquefois les particules <hi rend="i">ci</hi> ou <hi rend="i">là</hi> à <hi rend="i">celui</hi> &amp; à <hi rend="i">celle</hi>, &amp; au pluriel à <hi rend="i">ceux</hi> &amp; à <hi rend="i">celles ;</hi> ces particules produisent à l’égard de ces mots-là le même effet que nous venons d’observer à l’égard de <hi rend="i">cet</hi>.</p>
         <p><hi rend="i">Ceux</hi> est le pluriel de <hi rend="i">celui</hi>, &amp; en ajoutant un <hi rend="i">s</hi> à <hi rend="i">celle</hi>, on en a le pluriel. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Pronom">Pronom</ref></hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="15:131" xml:base="../xml/volume02.xml" xml:id="CEDILLE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="15:131" xml:base="../xml/volume02.xml" xml:id="CEDILLE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-796.jpeg" n="2:796"/>
         <index indexName="headword" n="CEDILLE"/>
         <index indexName="author" n="Dumarsais|Diderot"/>
@@ -2916,7 +2916,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
         <p>Au reste, ce caractere pourroit bien venir du sigma des Grecs figuré ainsi [non reproduit], comme nous l’avons remarqué à la lettre <hi rend="i">c ;</hi> car le <hi rend="i">c</hi> avec <hi rend="i">cedille</hi> se prononce comme l’[non reproduit]au commencement des mots <hi rend="i">sage, second, si, sobre, sucre</hi> (<hi rend="i">F</hi>)</p>
         <p>* Le <hi rend="i">c</hi> avec <hi rend="i">cedille</hi> s’appelle, soit en Fonderie de caracteres, soit en Imprimerie, <hi rend="i">c à queue</hi>.</p>
       </div1>
-      <div1 n="15:347" xml:base="../xml/volume02.xml" xml:id="CESURE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="15:347" xml:base="../xml/volume02.xml" xml:id="CESURE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V2/ENC_2-869.jpeg" n="2:869"/>
         <index indexName="headword" n="CESURE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -2990,7 +2990,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CITATION">CITATION</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-484.jpeg" n="3:484"/>
-        <div2 xml:base="../xml/volume03.xml" xml:id="Citation-Dumarsais" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume03.xml" xml:id="Citation-Dumarsais">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Grammaire"/>
           <head>
@@ -3009,7 +3009,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CLASSE">CLASSE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-506.jpeg" n="3:506"/>
-        <div2 n="20:185:1" xml:base="../xml/volume03.xml" xml:id="Classe-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="20:185:1" xml:base="../xml/volume03.xml" xml:id="Classe-Grammaire">
           <index indexName="headword" n="Classe,"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gramm."/>
@@ -3030,7 +3030,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>On ne peut rien ajoûter à l’attention que les principaux des colléges apportent dans le choix des maîtres auxquels ils confient l’instruction des jeunes gens : &amp; les châtimens dont parle Quintilien ne sont presque plus en usage. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Collége">Collége</ref>. </hi> (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="20:186" xml:base="../xml/volume03.xml" xml:id="CLASSIQUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="20:186" xml:base="../xml/volume03.xml" xml:id="CLASSIQUE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-507.jpeg" n="3:507"/>
         <index indexName="headword" n="CLASSIQUE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -3056,7 +3056,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CLÉ">CLÉ</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-518.jpeg" n="3:518"/>
-        <div2 n="20:214:4" xml:base="../xml/volume03.xml" xml:id="Cle-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="20:214:4" xml:base="../xml/volume03.xml" xml:id="Cle-Grammaire">
           <index indexName="headword" n="Clé"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Polygraphie &amp; de Steganographie,"/>
@@ -3074,7 +3074,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>C’est encore par la même figure que l’on dit que <hi rend="i">la logique est la clé des Sciences</hi>, parce que comme le but de la Logique est de nous apprendre à raisonner avec justesse, &amp; à développer les faux raisonnemens, il est évident qu’elle nous éclaire &amp; nous conduit dans l’étude des autres Sciences ; elle nous en ouvre, pour ainsi dire, la porte, &amp; nous fait voir ce qu’elles ont de solide, &amp; ce qu’il peut y avoir de défectueux ou de moins exact. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="21:142" xml:base="../xml/volume03.xml" xml:id="COLLECTIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="21:142" xml:base="../xml/volume03.xml" xml:id="COLLECTIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-631.jpeg" n="3:631"/>
         <index indexName="headword" n="COLLECTIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -3095,7 +3095,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=COLON">COLON</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-647.jpeg" n="3:647"/>
-        <div2 n="21:192:3" xml:base="../xml/volume03.xml" xml:id="Colon-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="21:192:3" xml:base="../xml/volume03.xml" xml:id="Colon-Grammaire">
           <index indexName="headword" n="Colon"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gramm."/>
@@ -3114,7 +3114,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=COMMA">COMMA</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-683.jpeg" n="3:683"/>
-        <div2 xml:base="../xml/volume03.xml" xml:id="Comma-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume03.xml" xml:id="Comma-Grammaire">
           <index indexName="headword" n="COMMA"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Gram. &amp; d’impr."/>
@@ -3135,7 +3135,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=COMMUN">COMMUN</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-715.jpeg" n="3:715"/>
-        <div2 xml:base="../xml/volume03.xml" xml:id="Commun-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume03.xml" xml:id="Commun-Grammaire">
           <index indexName="headword" n="COMMUN"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="en termes de Grammaire"/>
@@ -3157,7 +3157,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>En Grec, les verbes qui sous une même terminaison <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-716.jpeg" n="3:716"/><cb n="1"/>ont la signification active &amp; la passive, sont appellés <hi rend="i">verbes moyens</hi> ou <hi rend="i">verbes de la voix moyenne.</hi> (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="22:75" xml:base="../xml/volume03.xml" xml:id="COMPARATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="22:75" xml:base="../xml/volume03.xml" xml:id="COMPARATIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-749.jpeg" n="3:749"/>
         <index indexName="headword" n="COMPARATIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -3222,7 +3222,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CONCORDANCE">CONCORDANCE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-821.jpeg" n="3:821"/>
-        <div2 xml:base="../xml/volume03.xml" xml:id="Concordance-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume03.xml" xml:id="Concordance-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -3278,7 +3278,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>Cet usage est si bien fondé en raison, qu’il est recommandé &amp; suivi par tous les grands maîtres. Je voudrois seulement qu’au lieu de se borner au pur sentiment, on s’élevât peu-à-peu à la connoissance de la proposition &amp; de la période ; puisque cette connoissance est la raison de la construction. <hi rend="i">Voy. <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Construction">Construction</ref>. </hi> (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="134:206" xml:base="../xml/volume17.xml" xml:id="CONCRET" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="134:206" xml:base="../xml/volume17.xml" xml:id="CONCRET">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V17/ENC_17-763.jpeg" n="17:763"/>
         <index indexName="headword" n="CONCRET"/>
         <index indexName="author" n="Dumarsais"/>
@@ -3301,7 +3301,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
         <p>Au reste, on oppose <hi rend="i">concret</hi> à <hi rend="i">abstrait</hi>, &amp; alors <hi rend="i">abstrait</hi> marque une forme ou qualité considérée en elle-même, sans nul rapport à aucun sujet ; tels sont <hi rend="i">humanité, vérité, beauté</hi>, &amp;c. C’est dans ce sens abstrait que les Jurisconsultes disent que la justice est une volonté constante &amp; perpétuelle de rendre à chacun ce qui lui est dû. <hi rend="i">Justitia est constans &amp; perpetua voluntas jus suum cuique tribuendi. Instit. justin l. I. tit. j.</hi> Il seroit à souhaiter qu’elle fût telle dans le sens <hi rend="i">concret.</hi></p>
         <p>Au reste, les philosophes même ne prennent pas assez garde qu’ils parlent des êtres abstraits, comme s’ils parloient des réels. C’est ainsi qu’ils parlent de la matiere, comme d’un individu particulier, auquel ils donnent des propriétés réelles qu’elle n’a point en tant qu’être abstrait. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="23:164" xml:base="../xml/volume03.xml" xml:id="CONJONCTIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="23:164" xml:base="../xml/volume03.xml" xml:id="CONJONCTIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-871.jpeg" n="3:871"/>
         <index indexName="headword" n="CONJONCTIF, IVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -3323,7 +3323,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CONJONCTION">CONJONCTION</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-872.jpeg" n="3:872"/>
-        <div2 xml:base="../xml/volume03.xml" xml:id="Conjonction-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume03.xml" xml:id="Conjonction-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -3378,7 +3378,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CONJUGAISON">CONJUGAISON</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V3/ENC_3-879.jpeg" n="3:879"/>
-        <div2 xml:base="../xml/volume03.xml" xml:id="Conjugaison-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume03.xml" xml:id="Conjugaison-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -3522,7 +3522,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CONSONNANCE">CONSONNANCE</ref>
         </head>
         <pb facs="V4/ENC_4-49.jpeg" n="4:49"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Consonnance-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Consonnance-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -3541,7 +3541,7 @@ Il n’a pas besoin de <hi rend="i">la leçon</hi>          César n’eut pas b
           <p>J’ajouterai que les <hi rend="i">consonnances</hi> sont fort autorisées parmi nous dans les proverbes : <hi rend="i">qui langue a à Rome va : à bon chat ; bon rat : quand il fait beau, prens ton manteau ; quand il pleut, prens-le si tu veux : il flatte en présence, il trahit en absence : belles paroles &amp; mauvais jeu trompent les jeunes &amp; les vieux : qui terre</hi> <pb facs="V4/ENC_4-50.jpeg" n="4:50"/><cb n="1"/><hi rend="i">a guerre a ; &amp; amour &amp; seigneurie ne veulent point de compagnie</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="24:48" xml:base="../xml/volume04.xml" xml:id="CONSONNE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="24:48" xml:base="../xml/volume04.xml" xml:id="CONSONNE">
         <pb facs="V4/ENC_4-51.jpeg" n="4:51"/>
         <index indexName="headword" n="CONSONNE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -3870,7 +3870,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CONSTRUCTION">CONSTRUCTION</ref>
         </head>
         <pb facs="V4/ENC_4-73.jpeg" n="4:73"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Construction-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Construction-Grammaire">
           <index indexName="headword" n="Construction (Grammaire)"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire ;"/>
@@ -4412,7 +4412,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CONTRACTION">CONTRACTION</ref>
         </head>
         <pb facs="V4/ENC_4-118.jpeg" n="4:118"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Contraction-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Contraction-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Gramm."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4431,7 +4431,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CRASE">CRASE</ref>
         </head>
         <pb facs="V4/ENC_4-435.jpeg" n="4:435"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Crase-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Crase-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire ;"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4449,7 +4449,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=CROCHET">CROCHET</ref>
         </head>
         <pb facs="V4/ENC_4-499.jpeg" n="4:499"/>
-        <div2 n="27:230:11" xml:base="../xml/volume04.xml" xml:id="Crochet-Imprimerie" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="27:230:11" xml:base="../xml/volume04.xml" xml:id="Crochet-Imprimerie">
           <index indexName="headword" n="Crochet ou Crochets"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="termes d’Imprimerie"/>
@@ -4463,7 +4463,7 @@ La ville de Noyon en Picardie.
           <p><hi rend="sc">Crochet</hi> <hi rend="i">ou</hi> <hi rend="sc">Crochets</hi>, <hi rend="i">termes d’Imprimerie</hi>. Les <hi rend="i">crochets</hi> sont au nombre des signes dont on se sert dans l’écriture, autres que les lettres. Les <hi rend="i">crochets</hi> sont différens des parentheses ; celles-ci se font ainsi (), au lieu que les <hi rend="i">crochets</hi> se font en ligne perpendiculaire, terminée en-haut &amp; en-bas par une petite ligne horisontale [ ]. On met entre deux <hi rend="i">crochets</hi> un mot qui n’est point essentiel à la suite du discours, un synonyme, une explication, un mot en une autre langue, &amp; autres semblables. On appelle aussi <hi rend="i">crochets</hi>, certains signes dont on se sert dans les généalogies, dans les abregés faits en forme de table ; ce qui sert à faciliter la vûe des divisions &amp; des subdivisions. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="28:158" xml:base="../xml/volume04.xml" xml:id="D-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="28:158" xml:base="../xml/volume04.xml" xml:id="D-Grammaire">
         <pb facs="V4/ENC_4-609.jpeg" n="4:609"/>
         <index indexName="headword" n="D"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4495,7 +4495,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DATIF">DATIF</ref>
         </head>
         <pb facs="V4/ENC_4-636.jpeg" n="4:636"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Datif-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Datif-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Grammaire."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4631,7 +4631,7 @@ La ville de Noyon en Picardie.
           <p>Enfin, j’oppose Port Royal à Port Royal, &amp; je dis des cas, ce qu’ils disent des modes des verbes. <hi rend="i">En grec</hi>, dit la grammaire générale, chap. xvj. <hi rend="i">il y a des infléxions particulieres qui ont donné lieu aux Grammairiens de les ranger sous un mode particulier, qu’ils</hi> <cb n="2"/><hi rend="i">appellent</hi> optatif ; <hi rend="i">mais en latin comme les mêmes inflexions servent pour le subjonctif &amp; pour l’optatif, on a fort bien fait de retrancher l’optatif des conjugaisons latines, puisque ce n’est pas seulement la maniere de signifier, mais les différentes inflexions qui doivent faire les modes des verbes.</hi> J’en dis autant des cas des noms, ce n’est pas la différente maniere de signifier qui fait les cas, c’est la différence des terminaisons. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="28:450" xml:base="../xml/volume04.xml" xml:id="DECLINABLE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="28:450" xml:base="../xml/volume04.xml" xml:id="DECLINABLE">
         <pb facs="V4/ENC_4-694.jpeg" n="4:694"/>
         <index indexName="headword" n="DECLINABLE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4656,7 +4656,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DECLINAISON">DECLINAISON</ref>
         </head>
         <pb facs="V4/ENC_4-694.jpeg" n="4:694"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Declinaison-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Declinaison-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4701,7 +4701,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DÉCLINER">DÉCLINER</ref>
         </head>
         <pb facs="V4/ENC_4-697.jpeg" n="4:697"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Decliner-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Decliner-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire,"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4719,7 +4719,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DEFECTIF">DEFECTIF</ref>
         </head>
         <pb facs="V4/ENC_4-733.jpeg" n="4:733"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Deffectif-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Deffectif-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Gramm."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4732,7 +4732,7 @@ La ville de Noyon en Picardie.
           <p>DEFECTIF <hi rend="i">ou</hi> DEFECTUEUX, adj. <hi rend="i">terme de Gramm</hi>. qui se dit ou d’un nom qui manque, ou de quelque nombre, ou de quelque cas. On le dit aussi des verbes qui n’ont pas tous les modes ou tous les tems qui sont en usage dans les verbes réguliers. <hi rend="i">Voy. <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Cas">Cas</ref>, <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Conjugaison">Conjugaison</ref>, <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Declinaison">Declinaison</ref>, <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Verbe">Verbe</ref></hi> . (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="29:76" xml:base="../xml/volume04.xml" xml:id="DEFINI" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="29:76" xml:base="../xml/volume04.xml" xml:id="DEFINI">
         <pb facs="V4/ENC_4-744.jpeg" n="4:744"/>
         <index indexName="headword" n="DÉFINI"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4754,7 +4754,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DEGRÉ">DEGRÉ</ref>
         </head>
         <pb facs="V4/ENC_4-760.jpeg" n="4:760"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Degre-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Degre-Grammaire">
           <index indexName="headword" n="DEGRÉ DE COMPARAISON ou DE SIGNIFICATION"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="en Grammaire"/>
@@ -4768,7 +4768,7 @@ La ville de Noyon en Picardie.
           <p>DEGRÉ DE COMPARAISON <hi rend="i">ou</hi> DE SIGNIFICATION ; on le dit, <hi rend="i">en Grammaire</hi>, des adjectifs, qui par leur différente terminaison ou par des particules prépositives, marquent ou le plus, ou le moins, ou l’excès dans la qualification que l’on donne au substantif, <hi rend="i">savant, plus savant, moins savant, très</hi> ou <hi rend="i">fort savant</hi>. Ce mot <hi rend="i">degré</hi> se prend alors dans un sens figuré : car comme dans le sens propre un <hi rend="i">degré</hi> sert à monter ou à descendre, de même ici la terminaison ou la particule prépositive sert à relever ou à rabaisser la signification de l’adjectif. <hi rend="i">Voy. <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Comparatif">Comparatif</ref></hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="30:2" xml:base="../xml/volume04.xml" xml:id="DENTALE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="30:2" xml:base="../xml/volume04.xml" xml:id="DENTALE">
         <pb facs="V4/ENC_4-844.jpeg" n="4:844"/>
         <index indexName="headword" n="DENTALE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4782,7 +4782,7 @@ La ville de Noyon en Picardie.
         </head>
         <p>DENTALE, adj. f. <hi rend="i">terme de Gramm</hi>. on le dit de certaines lettres qui se prononcent par un mouvement de la langue vers les dents. Toutes les langues ont cinq sortes de lettres ; les labiales, les linguales, les palatiales, les gutturales, &amp; les <hi rend="i">dentales</hi>. Voyez <hi rend="i"><ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Consonne">Consonne</ref></hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="30:38" xml:base="../xml/volume04.xml" xml:id="DEPONENT" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="30:38" xml:base="../xml/volume04.xml" xml:id="DEPONENT">
         <pb facs="V4/ENC_4-862.jpeg" n="4:862"/>
         <index indexName="headword" n="DÉPONENT"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4803,7 +4803,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DÉRIVATION">DÉRIVATION</ref>
         </head>
         <pb facs="V4/ENC_4-868.jpeg" n="4:868"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Derivation-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Derivation-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4817,7 +4817,7 @@ La ville de Noyon en Picardie.
           <p><hi rend="i">Dérivé, ée</hi>, part. pass. de <hi rend="i">dériver, terme de Grammaire</hi> : ce mot se prend substantivement, comme quand on dit le <hi rend="i">dérivé</hi> suppose un autre mot dont il <hi rend="i">dérive</hi>. On appelle <hi rend="i">dérivé</hi>, un mot qui vient d’un autre qu’on appelle <hi rend="i">primitif</hi>. Par exemple, <hi rend="i">mortalité</hi> est <hi rend="i">dérivé</hi> de <hi rend="i">mort, légiste</hi> de <hi rend="i">lex</hi>. Ce mot <hi rend="i">dérivé</hi> vient lui-même de <hi rend="i">rivus</hi>, ruisseau, source, fontaine où l’on puise. Notre poésie ne souffre pas la rime du <hi rend="i">dérivé</hi> avec le <hi rend="i">primitif</hi>, comme d’<hi rend="i">ennemi</hi> avec <hi rend="i">ami. (F)</hi></p>
         </div2>
       </div1>
-      <div1 n="30:205" xml:base="../xml/volume04.xml" xml:id="DETERMINATIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="30:205" xml:base="../xml/volume04.xml" xml:id="DETERMINATIF">
         <pb facs="V4/ENC_4-901.jpeg" n="4:901"/>
         <index indexName="headword" n="DÉTERMINATIF"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4836,7 +4836,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DÉTERMINATION">DÉTERMINATION</ref>
         </head>
         <pb facs="V4/ENC_4-901.jpeg" n="4:901"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Determination-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Determination-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Grammaire"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -4849,7 +4849,7 @@ La ville de Noyon en Picardie.
           <p>DÉTERMINATION, s. f. terme abstrait ; il se dit <hi rend="i">en Grammaire</hi>, de l’effet que le mot qui en suit un autre auquel il se rapporte, produit sur ce mot-là. L’<hi rend="i">amour de Dieu, de Dieu</hi> a un tel rapport de <hi rend="i">détermination</hi> avec <hi rend="i">amour</hi>, qu’on n’entend plus par <hi rend="i">amour</hi> cette passion profane qui perdit Troie ; on entend au contraire ce feu sacré qui sanctifie toutes les vertus. Dès l’année 1729 je fis imprimer une préface ou discours, dans lequel j’explique la maniere qui me paroît la plus simple &amp; la plus raisonnable pour apprendre le latin &amp; la grammaire aux jeunes <pb facs="V4/ENC_4-902.jpeg" n="4:902"/><cb n="1"/>gens. Je dis dans ce discours, que toute syntaxe est fondée sur le rapport d’identité &amp; sur le rapport de <hi rend="i">détermination ;</hi> ce que j’explique <hi rend="i">page 14</hi>. &amp; <hi rend="i">page 45</hi>. Je parle aussi de ces deux rapports <hi rend="i">au mot</hi> <hi rend="i"><ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Concordance">Concordance</ref></hi> &amp; <hi rend="i">au mot</hi> <hi rend="i"><ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Construction">Construction</ref></hi>. Je suis ravi de voir que cette réflexion ne soit pas perdue, &amp; que d’habiles grammairiens la fassent valoir. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="30:278" xml:base="../xml/volume04.xml" xml:id="DI" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="30:278" xml:base="../xml/volume04.xml" xml:id="DI">
         <pb facs="V4/ENC_4-925.jpeg" n="4:925"/>
         <index indexName="headword" n="DI, DIS"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4863,7 +4863,7 @@ La ville de Noyon en Picardie.
         </head>
         <p>DI, DIS, (<hi rend="i">Gramm</hi>.) particule ou préposition inséparable, c’est-à-dire qui ne fait point un mot toute seule, mais qui est en usage dans la composition de certains mots. Je crois que cette particule vient de la préposition <foreign xml:lang="grc">διά</foreign>, qui se prend en plusieurs significations différentes, qu’on no peut faire bien entendre que par des exemples. Notre <hi rend="i">di</hi> ou <hi rend="i">dis</hi> signifie plus souvent <hi rend="i">division, séparation, distinction, distraction</hi> ; par exemple, paroître, <hi rend="i">disparoître</hi>, grace, <hi rend="i">disgrace</hi>, parité, <hi rend="i">disparité</hi>. Quelquefois elle augmente la signification du primitif ; <hi rend="i">dilater, diminuer, divulguer, dissimuler, dissoudre. (F)</hi></p>
       </div1>
-      <div1 n="30:313" xml:base="../xml/volume04.xml" xml:id="DIALECTE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="30:313" xml:base="../xml/volume04.xml" xml:id="DIALECTE">
         <pb facs="V4/ENC_4-933.jpeg" n="4:933"/>
         <index indexName="headword" n="DIALECTE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4887,7 +4887,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DIÉRESE">DIÉRESE</ref>
         </head>
         <pb facs="V4/ENC_4-971.jpeg" n="4:971"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Dierese-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Dierese-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Figure de diction."/>
           <index indexName="normclass" n="Figure de diction"/>
@@ -4913,7 +4913,7 @@ La ville de Noyon en Picardie.
           <p>Au reste il semble que la jurisdiction de cette figure ne s’étende que sur l’i &amp; sur l’u, que les poëtes latins font à leur gré, ou voyelles ou consonnes. Notre langue n’est pas si facile à l’égard de nos poëtes, elle n’a pas pour eux plus d’indulgence que pour les prosateurs. Elle veut que nos poëtes nous charment, nous enlevent par le choix &amp; par la vivacité des images &amp; des figures, par la noblesse &amp; l’harmonie de l’élocution, en un mot par toutes les richesses de la poésie, mais elle ne leur permet pas <cb n="2"/>de nous transporter dans un pays où nous trouverions souvent des mots inconnus ou déguisés. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Poésie">Poésie</ref></hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="31:49" xml:base="../xml/volume04.xml" xml:id="DIMINUTIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="31:49" xml:base="../xml/volume04.xml" xml:id="DIMINUTIF">
         <pb facs="V4/ENC_4-1010.jpeg" n="4:1010"/>
         <index indexName="headword" n="DIMINUTIF, IVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -4935,7 +4935,7 @@ La ville de Noyon en Picardie.
         <quote>
           <p>« Ronsard, dit le P. Bouhours, <hi rend="i">remarques, tom. I. p. 199</hi>. la Noue auteur du dictionnaire des rimes, &amp; mademoiselle de Gournai, n’ont rien négligé en leur tems pour introduire ces termes dans notre langue. Ronsard en a parsemé ses vers, la Noue en a rempli son dictionnaire, mademoiselle de Gournai en a fait un recueil dans ses avis, &amp; elle s’en déclare hautement la protectrice ; cependant notre langue n’a point reçu ces <hi rend="i">diminutifs ;</hi> ou si elle les reçut en ce tems-là, elle s’en défit aussi-tôt. Dès le tems de Montagne on s’éleva contre tous ces mots si mignons, favoris de sa fille d’alliance : elle eut beau entreprendre leur défense &amp; crier au meurtre de toute sa force, avec tout cela la pauvre demoiselle eut le déplaisir de voir ses chers <hi rend="i">diminutifs</hi> bannis peu-à-peu ; &amp; si elle vivoit encore, je crois, poursuit le P. Bouhours, qu’elle mourroit de chagrin de les voir exterminés entierement ».</p> </quote><p>Les Italiens &amp; les Espagnols font encore d’autres <hi rend="i">diminutifs</hi> des premiers <hi rend="i">diminutifs ;</hi> par exemple, de <hi rend="i">bambino</hi>, un petit enfant, ils ont fait <hi rend="i">bambinello, bamboccio, bambocciolo</hi>, &amp;c. C’est ainsi qu’en latin de <hi rend="i">homo</hi> on a fait <hi rend="i">homuncio</hi>, &amp; d’<hi rend="i">homuncio, homunculus</hi>, &amp; encore <hi rend="i">homulus</hi>. Ces trois mots sont dans Cicéron. Le P. Bouhours dit que ce sont des pygmées qui multiplient, &amp; qui font des enfans encore plus petits qu’eux. <hi rend="i">Remarques, tom. I. p. 199. (F)</hi></p>
       </div1>
-      <div1 n="31:90" xml:base="../xml/volume04.xml" xml:id="DIPHTHONGUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="31:90" xml:base="../xml/volume04.xml" xml:id="DIPHTHONGUE">
         <pb facs="V4/ENC_4-1016.jpeg" n="4:1016"/>
         <index indexName="headword" n="DIPHTHONGUE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5028,7 +5028,7 @@ La ville de Noyon en Picardie.
           <bibl>Moliere.</bibl> </quote><p>La plûpart des mots en <hi rend="i">ion</hi> &amp; <hi rend="i">ions</hi> sont <hi rend="i">diphthongues</hi> en prose. <hi rend="i">Voyez</hi> les divers traités que nous avons de la versification françoise.</p>
         <p>Au reste, qu’il y ait en notre langue plus ou moins de <hi rend="i">diphthongues</hi> que je n’en ai marqué, cela est fort indifférent, pourvû qu’on les prononce bien. Il est utile, dit Quintilien, de faire ces observations ; César, dit-il, Cicéron, &amp; d’autres grands hommes, les ont faites ; mais il ne faut les faire qu’en passant. <hi rend="i">Marcus Tullius orator, artis hujus diligentissimus fuit, &amp; in filio ut in epistolis apparet. . . . . Non obstant hoe disciplinoe per illas euntibus, sed circa illas haerentibus</hi>. Quint. <hi rend="i">instit. orat. lib. I. cap. vij. in fine. (F)</hi></p>
       </div1>
-      <div1 n="31:113" xml:base="../xml/volume04.xml" xml:id="DISCONVENANCE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="31:113" xml:base="../xml/volume04.xml" xml:id="DISCONVENANCE">
         <pb facs="V4/ENC_4-1032.jpeg" n="4:1032"/>
         <index indexName="headword" n="DISCONVENANCE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5069,7 +5069,7 @@ La ville de Noyon en Picardie.
           <bibl>Horat. <title>de Arte poët.</title></bibl> </quote><signed>(<hi rend="i">F</hi>)</signed>
         <p><hi rend="sc">Disconvenance</hi>, correlatif de <hi rend="i">convenance</hi>. <hi rend="i">Voy. l’article <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Convenance">Convenance</ref>.</hi></p>
       </div1>
-      <div1 n="31:129" xml:base="../xml/volume04.xml" xml:id="DISJONCTIVE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="31:129" xml:base="../xml/volume04.xml" xml:id="DISJONCTIVE">
         <pb facs="V4/ENC_4-1037.jpeg" n="4:1037"/>
         <index indexName="headword" n="DISJONCTIVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5085,7 +5085,7 @@ La ville de Noyon en Picardie.
         <p>On demande si lorsqu’il y a plusieurs substantifs séparés par une <hi rend="i">disjonctive</hi>, le verbe qui se rapporte à ces substantifs doit être au plurier ou au singulier : faut-il-dire, <hi rend="i">ou la force ou la douceur le feront, ou le sera ?</hi></p>
         <p>Vaugelas dit qu’il faut dire <hi rend="i">le fera ;</hi> Patru soûtient qu’on dit également bien <hi rend="i">le fera</hi> &amp; <hi rend="i">le feront</hi> ; qu’il faut dire <hi rend="i">si Titus ou Mevius étoient à Paris</hi>, &amp; non <hi rend="i">étoit ;</hi> qu’on doit dire, <hi rend="i">ou la honte, ou l’occasion, ou l’exemple, leur donneront un meilleur avis : qu’en ces façons de parler l’esprit &amp; l’oreille se portent au plurier plûtôt qu’au singulier ; tellement qu’en ces rencontres</hi>, poursuit M. Patru, <hi rend="i">il faut consulter l’oreille</hi>. Voyez <hi rend="i">les remarques de</hi> Vaugelas <hi rend="i">avec les notes</hi>, &amp; c. <hi rend="i">édit. de 1738. (F)</hi></p>
       </div1>
-      <div1 n="31:163" xml:base="../xml/volume04.xml" xml:id="DISSYLLABE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="31:163" xml:base="../xml/volume04.xml" xml:id="DISSYLLABE">
         <pb facs="V4/ENC_4-1050.jpeg" n="4:1050"/>
         <index indexName="headword" n="DISSYLLABE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5106,7 +5106,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DISTRIBUTIF">DISTRIBUTIF</ref>
         </head>
         <pb facs="V4/ENC_4-1062.jpeg" n="4:1062"/>
-        <div2 xml:base="../xml/volume04.xml" xml:id="Distributif-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume04.xml" xml:id="Distributif-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gram."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -5124,7 +5124,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=DIVISION">DIVISION</ref>
         </head>
         <pb facs="V4/ENC_4-1083.jpeg" n="4:1083"/>
-        <div2 n="31:206:7" xml:base="../xml/volume04.xml" xml:id="Division-Imprimerie" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="31:206:7" xml:base="../xml/volume04.xml" xml:id="Division-Imprimerie">
           <index indexName="headword" n="Division"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme d’Imprimerie ;"/>
@@ -5143,7 +5143,7 @@ La ville de Noyon en Picardie.
           <p>Voici une faute dont on ne voit que trop d’exemples ; c’est de mettre une apostrophe au lieu du second tiret, <hi rend="i">m’aime-t’il ?</hi> il n’y a point là de lettre supprimée après le <hi rend="i">t</hi> ; ainsi c’est le cas de la <hi rend="i">division</hi>, &amp; non de l’apostrophe. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Apostrophe">Apostrophe</ref></hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="33:132" xml:base="../xml/volume05.xml" xml:id="E" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="33:132" xml:base="../xml/volume05.xml" xml:id="E">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-183.jpeg" n="5:183"/>
         <index indexName="headword" n="E"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5224,7 +5224,7 @@ La ville de Noyon en Picardie.
         <p>L’<hi rend="i">e</hi> est muet long dans les dernieres syllabes des troisiemes personnes du pluriel des verbes, quoique cet <hi rend="i">e</hi> soit suivi d’<hi rend="i">nt</hi> qu’on prononçoit autrefois, &amp; que les vieillards prononcent encore en certaines provinces : ces deux lettres viennent du latin <hi rend="i">amant</hi>, ils aiment.</p>
         <p>Cet <hi rend="i">e</hi> muet est plus long &amp; plus sensible qu’il ne l’est au singulier : il y a peu de personnes qui ne sentent pas la différence qu’il y a dans la prononciation entre <hi rend="i">il aime</hi> &amp; <hi rend="i">ils aiment</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="34:115" xml:base="../xml/volume05.xml" xml:id="EDUCATION" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="34:115" xml:base="../xml/volume05.xml" xml:id="EDUCATION">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-397.jpeg" n="5:397"/>
         <index indexName="headword" n="EDUCATION"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5326,7 +5326,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ELLIPSE">ELLIPSE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-515.jpeg" n="5:515"/>
-        <div2 xml:base="../xml/volume05.xml" xml:id="Ellipse-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume05.xml" xml:id="Ellipse-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire ;"/>
           <index indexName="normclass" n="Grammaire"/>
@@ -5345,7 +5345,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ELLIPTIQUE">ELLIPTIQUE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-519.jpeg" n="5:519"/>
-        <div2 xml:base="../xml/volume05.xml" xml:id="Elliptique-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume05.xml" xml:id="Elliptique-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
           <index indexName="normclass" n="unclassified"/>
@@ -5358,7 +5358,7 @@ La ville de Noyon en Picardie.
           <p>ELLIPTIQUE, adjectif formé d’ellipse. <hi rend="i">Cette phrase est elliptique</hi>, c’est-à-dire qu’il y a quelque mot de sous-entendu dans cette phrase. <hi rend="i">La langue latine est presque toute elliptique</hi>, c’est-à-dire que les Latins faisoient un fréquent usage de l’ellipse ; car comme on connoissoit le rapport des mots par les terminaisons, la terminaison d’un mot réveilloit aisément dans l’esprit le mot sous-entendu, qui étoit la seule cause de la terminaison du mot exprimé dans la phrase <hi rend="i">elliptique</hi> : au contraire notre langue ne fait pas un usage aussi fréquent de l’ellipse, parce que nos mots ne changent point de terminaison ; nous ne pouvons en connoître le rapport que par leur place ou position, relativement au verbe qu’ils précedent ou qu’ils suivent, ou bien par les prépositions dont ils sont le complément. Le premier de ces deux cas <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-520.jpeg" n="5:520"/><cb n="1"/>exige que le verbe soit exprimé au moins dans la phrase précédente. <hi rend="i">Que demandez-vous</hi> ? R. <hi rend="i">ce que vous m’avez promis</hi> : l’esprit supplée aisément, <hi rend="i">je demande ce que vous m’avez promis</hi>. A l’égard des prépositions, il faut aussi qu’il y ait dans la phrase précédente quelque mot qui en réveille l’idée ; par exemple : <hi rend="i">Quand reviendrez-vous</hi> ? R. <hi rend="i">l’année prochaine</hi>, c’est-à-dire, <hi rend="i">je reviendrai dans l’année prochaine</hi>. D. <hi rend="i">Que ferez-vous</hi> ? R. <hi rend="i">ce qu’il vous plaira</hi>, c’est-à dire, <hi rend="i">ce qu’il vous plaira que je fasse</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="36:197" xml:base="../xml/volume05.xml" xml:id="EN" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="36:197" xml:base="../xml/volume05.xml" xml:id="EN">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-603.jpeg" n="5:603"/>
         <index indexName="headword" n="EN &amp; DANS"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5386,7 +5386,7 @@ La ville de Noyon en Picardie.
         <label> <hi rend="sc">En</hi> <hi rend="i">ou</hi> <hi rend="sc">Dans</hi> <hi rend="i">suivis d’un nom avec l’article, à cause du sens individuel</hi>. </label>
         <p><hi rend="i">Dans le royaume de Naples. Dans la France. Dans la Normandie. Dans le repos où je suis. Dans le mouvement</hi>, ou <hi rend="i">dans l’agitation</hi>, ou <hi rend="i">dans l’état où je me trouve ;</hi> on dit aussi <hi rend="i">en l’état où je suis. Dans la misere</hi> ou <hi rend="i">en la misere où je suis. Dans la belle humeur</hi> ou <hi rend="i">en la belle humeur où vous êtes. Dans la fleur de l’âge</hi> ou <hi rend="i">en la fleur de l’âge. Il m’est venu dans l’esprit. Il est allé en l’autre monde</hi>, pour dire <hi rend="i">il est mort</hi> : en ce sens le P. Bouhours ne veut pas qu’on dise <hi rend="i">il est allé dans l’autre monde ;</hi> car alors <hi rend="i">l’autre monde</hi> se prend, ditil, pour le <hi rend="i">nouveau monde</hi> ou l’<hi rend="i">Amérique. Dans l’extrémité</hi> ou <hi rend="i">en l’extrémité où je suis. Dans la bonne humeur</hi> ou <hi rend="i">en la bonne humeur où il est. Dans tous les lieux du monde</hi> ou <hi rend="i">en tous les lieux du monde. En tout tems, en tout pays. Dans tous les tems, dans tous les pays. J’ai lû cela en un bon livre</hi> ou <hi rend="i">dans un bon livre. En mille occasions</hi> ou <hi rend="i">dans mille occasions. En chaque âge</hi> ou <hi rend="i">dans chaque âge. En quelque pensée</hi> ou <hi rend="i">dans quelque pensée que vous soyez. En des livres</hi> ou <hi rend="i">dans des livres. En de si beaux lieux</hi> ou <hi rend="i">dans de si beaux lieux</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="36:198" xml:base="../xml/volume05.xml" xml:id="ENALLAGE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="36:198" xml:base="../xml/volume05.xml" xml:id="ENALLAGE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-604.jpeg" n="5:604"/>
         <index indexName="headword" n="ENALLAGE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5415,7 +5415,7 @@ La ville de Noyon en Picardie.
         <quote>
           <p>« Toutes les fois que l’infinitif est seul dans l’oraison, on doit sous-entendre un verbe qui le gouverne comme <hi rend="i">coepit, solebat</hi>, ou autre : <hi rend="i">ego illud sedulò negare factum</hi> (Terent.), suppléez <hi rend="i">coepi : facilè omnes perferre ac pati</hi> (idem.), suppléez <hi rend="i">solebat</hi>. Ce qui est plus ordinaire aux Poetes &amp; aux Historiens…. où l’on doit toûjours sous entendre un verbe sans prétendre que l’infinitif soit là pour un tems fini, par une figure qui ne peut avoir aucun fondement ».</p> </quote><signed>(<hi rend="i">F</hi>)</signed>
       </div1>
-      <div1 n="36:253" xml:base="../xml/volume05.xml" xml:id="ENCLITIQUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="36:253" xml:base="../xml/volume05.xml" xml:id="ENCLITIQUE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-623.jpeg" n="5:623"/>
         <index indexName="headword" n="ENCLITIQUE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5440,7 +5440,7 @@ La ville de Noyon en Picardie.
         <quote>
           <p>« J’écris le grec sans accens ; le mal n’est pas grand, je pourrois même prouver qu’il seroit bon qu’on ne l’écrivît point autrement ».</p> </quote><p><hi rend="i">Préface, p. 16</hi>. C’est ainsi que quelques-uns de nos beaux esprits entendent fort bien les livres anglois ; mais ils les lisent comme s’ils lisoient des livres françois. Ils voyent écrit <cb n="2"/><hi rend="i">people</hi>, ils prononcent <hi rend="i">people</hi> au lieu de <hi rend="i">piple ;</hi> &amp; disent, avec le P. Sanadon, que <hi rend="i">le mal n’est pas grand</hi>, pourvû qu’ils entendent bien le sens. Il y a pourtant bien de la différence, par rapport à la prononciation, entre une langue vivante &amp; une langue morte depuis plusieurs siecles. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="37:269" xml:base="../xml/volume05.xml" xml:id="EPANADIPLOSE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="37:269" xml:base="../xml/volume05.xml" xml:id="EPANADIPLOSE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-744.jpeg" n="5:744"/>
         <index indexName="headword" n="EPANADIPLOSE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5474,7 +5474,7 @@ La ville de Noyon en Picardie.
           <l>Sed vitam faciunt balnea, vina, Venus.</l> </quote><p>L’<hi rend="i">épanadiplose</hi> est aussi nommée <hi rend="i">épanaplese</hi> par Donat &amp; par quelques autres grammairiens.</p>
         <p>Pour moi je trouve qu’il suffit d’observer qu’il y a répétition, &amp; de sentir la grace que la répétition apporte au discours, ou le dérangement qu’elle cause. Il est d’ailleurs bien inutile d’appeller la répétition, ou <hi rend="i">anadiplose</hi>, ou <hi rend="i">épanadiplose</hi>, selon les diverses combinaisons des mots répetés. Ceux qui se sont donné la peine d’inventer ces sortes de noms sur de pareils fondemens, ne sont pas ceux qui ont-le plus enrichi la république des Lettres. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="37:296" xml:base="../xml/volume05.xml" xml:id="EPENTHESE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="37:296" xml:base="../xml/volume05.xml" xml:id="EPENTHESE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-764.jpeg" n="5:764"/>
         <index indexName="headword" n="EPENTHESE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5503,7 +5503,7 @@ La ville de Noyon en Picardie.
           <l>Quales tunc epulas ipsum glutîsse putemus</l>
           <l>Induperatorem.</l> </quote><p>On trouve aussi <hi rend="i">relliquias</hi> pour <hi rend="i">reliquias</hi>. Ce sont autant d’exemples de l’<hi rend="i">épenthese</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="37:330" xml:base="../xml/volume05.xml" xml:id="EPICENE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="37:330" xml:base="../xml/volume05.xml" xml:id="EPICENE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-776.jpeg" n="5:776"/>
         <index indexName="headword" n="EPICENE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5517,7 +5517,7 @@ La ville de Noyon en Picardie.
         </head>
         <p>EPICENE, adj. <hi rend="i">terme de Grammaire</hi>, <foreign xml:lang="grc">ἐπίκοινος</foreign>, <hi rend="i">super communis</hi>, au-dessus du commun. Les noms <hi rend="i">épicenes</hi> sont des noms d’espece, qui sous un même genre se disent également du mâle ou de la femelle. C’est ainsi que nous disons, <hi rend="i">un rat, une linotte, un corbeau, une corneille, une souris</hi>, &amp;c. soit que nous parlions du mâle ou de la femelle. Nous disons, <hi rend="i">un coq, une poule ;</hi> parce que la conformation extérieure de ces animaux nous fait connoître aisément celui qui est le mâle &amp; celui qui est la femelle : ainsi nous donnons un nom particulier à l’un, &amp; un nom différent à l’autre. Mais à l’égard des animaux qui ne nous sont pas assez familiers, ou dont la conformation ne nous indique pas plus le mâle que-la femelle, nous leur donnons un nom que nous faisons arbitrairement ou masculin, ou féminin ; &amp; quand ce nom a une fois l’un ou l’autre de ces deux genres, ce nom, s’il est masculin, se dit également de la femelle, &amp; s’il est féminin, il ne se dit pas moins du mâle, <hi rend="i">une carpe uvée</hi> : ainsi l’<hi rend="i">épicene</hi> masculin garde toûjours l’article masculin, &amp; l’<hi rend="i">épicene</hi> féminin garde l’article féminin, même quand on parle du mâle. Il n’en est pas de même du nom commun, sur-tout en latin : on dit <hi rend="i">hic civis</hi> quand on parle d’un citoyen, &amp; <hi rend="i">hoec civis</hi> si l’on parle d’une citoyenne, <hi rend="i">hic parens</hi>, le pere, <hi rend="i">hoec parens</hi>, la mere, <hi rend="i">hic, conjux</hi>, le mari, <hi rend="i">hoec conjux</hi>, la femme. <hi rend="i">Voyez</hi> la liste des noms latins <hi rend="i">épicenes</hi>, dans la <hi rend="i">méthode latine de</hi> P. R. au <hi rend="i">traité des genres</hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="38:49" xml:base="../xml/volume05.xml" xml:id="EPITHETE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="38:49" xml:base="../xml/volume05.xml" xml:id="EPITHETE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-820.jpeg" n="5:820"/>
         <index indexName="headword" n="EPITHETE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5542,7 +5542,7 @@ La ville de Noyon en Picardie.
         <p>On doit user avec art des <hi rend="i">épithetes</hi> ou adjectifs ; on ne doit jamais ajoûter au substantif une idée accessoire, déplacée, vaine, qui ne dit rien de marqué. Les <hi rend="i">épithetes</hi> doivent rendre le discours plus énergique. M. de Fénelon ne se contente pas de dire, que l’<hi rend="i">orateur, comme le poëte, doit employer des figures, des images, &amp; des traits</hi> ; il dit qu’<hi rend="i">il doit employer des figures</hi> <hi rend="sc">ornées</hi>, <hi rend="i">des images</hi> <hi rend="sc">vives</hi>, <hi rend="i">&amp; des traits</hi> <hi rend="sc">hardis</hi>, <hi rend="i">lorsque le sujet le demande</hi>.</p>
         <p>Les <hi rend="i">épithetes</hi> qui ne se présentent pas naturellement, &amp; qui sont tirées de loin, rendent le discours froid &amp; ennuyeux. On ne doit jamais se servir d’<hi rend="i">epithetes</hi> par ostentation ; on n’en doit faire usage que pour appuyer sur les objets sur lesquels on veut arrêter l’attention. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 xml:base="../xml/volume05.xml" xml:id="ES" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 xml:base="../xml/volume05.xml" xml:id="ES">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-919.jpeg" n="5:919"/>
         <index indexName="headword" n="ÈS"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5563,7 +5563,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=ESPRIT">ESPRIT</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V5/ENC_5-972.jpeg" n="5:972"/>
-        <div2 xml:base="../xml/volume05.xml" xml:id="Esprit-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume05.xml" xml:id="Esprit-Grammaire">
           <index indexName="headword" n="Esprit (Grammaire grecque)"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Grammaire greque"/>
@@ -5582,7 +5582,7 @@ La ville de Noyon en Picardie.
           <p>Le mécanisme des organes de la parole a souvent changé l’<hi rend="i">esprit</hi> rude, &amp; même quelque fois le doux en <hi rend="i">s</hi> ou en <hi rend="i">v</hi>. Ainsi de <foreign xml:lang="grc">ὑπὲρ</foreign>, <hi rend="i">dessus</hi>, on a fait <hi rend="i">super ;</hi> de <foreign xml:lang="grc">ὑπὸ</foreign>, <hi rend="i">dessous</hi>, on a fait <hi rend="i">sub ;</hi> de <foreign xml:lang="grc">oἶνος</foreign>, <hi rend="i">vinum ;</hi> de <foreign xml:lang="grc">ἴς</foreign>, <hi rend="i">vis ;</hi> de <foreign xml:lang="grc">ἅλς</foreign>, <hi rend="i">sal ;</hi> de <foreign xml:lang="grc">ἑπτὰ</foreign>, <hi rend="i">septem ;</hi> de <foreign xml:lang="grc">ἕξ</foreign>, <hi rend="i">sex ;</hi> de <foreign xml:lang="grc"> ἥμισυς</foreign>, <hi rend="i">semis ;</hi> de <foreign xml:lang="grc">ἕρπω</foreign>, <hi rend="i">serpo</hi>. (<hi rend="i">F</hi>) <cb n="2"/></p>
         </div2>
       </div1>
-      <div1 n="40:8" xml:base="../xml/volume06.xml" xml:id="ET" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="40:8" xml:base="../xml/volume06.xml" xml:id="ET">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-NA4.jpeg" n="6:NA4"/>
         <index indexName="headword" n="ET"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5618,7 +5618,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=EU">EU</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-112.jpeg" n="6:112"/>
-        <div2 xml:base="../xml/volume06.xml" xml:id="Eu-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume06.xml" xml:id="Eu-Grammaire">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Gram."/>
           <index indexName="normclass" n="Grammaire"/>
@@ -5640,7 +5640,7 @@ La ville de Noyon en Picardie.
           <p>4°. Dans nos provinces méridionales, communément les personnes qui, au lieu de leur idiome, parlent françois, disent <hi rend="i">j’ai veu, j’ai creu, pourveu, seur</hi>, &amp;c. au lieu de dire <hi rend="i">vu, cru, pourvu, sur</hi>, &amp;c. ce qui me fait croire qu’on a prononcé autrefois <hi rend="i">j’ai veu ;</hi> &amp; c’est ainsi qu’on le trouve écrit dans Villehardoüin &amp; dans Vigenere. Mais aujourd’hui qu’on prononce <hi rend="i">vû, crû</hi>, &amp;c. le prote de Poitiers même &amp; M. Restaut ont abandonné la grammaire de M. l’abbé Regnier, &amp; écrivent simplement <hi rend="i">échû, mû, su, vû, voulu, bû, pourvû</hi>, &amp;c. <hi rend="i">Gramm</hi>. de M. Restaut, <hi rend="i">sixieme édit. pag. 238. &amp; 239</hi>. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="41:74" xml:base="../xml/volume06.xml" xml:id="EUPHONIE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="41:74" xml:base="../xml/volume06.xml" xml:id="EUPHONIE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-209.jpeg" n="6:209"/>
         <index indexName="headword" n="EUPHONIE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5663,7 +5663,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=EXPERIENCE">EXPERIENCE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-297.jpeg" n="6:297"/>
-        <div2 xml:base="../xml/volume06.xml" xml:id="Experience-Philosophie" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume06.xml" xml:id="Experience-Philosophie">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="Philosophie."/>
           <index indexName="normclass" n="Philosophie"/>
@@ -5686,7 +5686,7 @@ La ville de Noyon en Picardie.
           <p>En Physique le mot <hi rend="i">expérience</hi> se dit des épreuves que l’on fait pour découvrir les différentes opérations &amp; le méchanisme de la Nature. On fait des <hi rend="i">expériences</hi> sur la pesanteur de l’air, sur les phosphores, sur la pierre d’aimant, sur l’électricité, <hi rend="i">&amp;c.</hi> La pratique de faire des <hi rend="i">expériences</hi> est fort en usage en Europe depuis quelques années, ce qui a multiplié les connoissances philosophiques, &amp; les a rendues plus communes ; mais ces épreuves doivent être faites avec beaucoup de précision &amp; d’exactitude, si l’on veut en recueillir tout le fruit qu’on en doit attendre : sans cette précaution, elles ne serviroient qu’à égarer. Les spéculations les plus subtiles &amp; les méditations les plus profondes ne sont que de vaines imaginations, si elles ne sont pas fondées sur des <hi rend="i">expériences</hi> exactes. (<hi rend="i">F</hi>)</p>
         </div2>
       </div1>
-      <div1 n="42:78" xml:base="../xml/volume06.xml" xml:id="EXPLETIF" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="42:78" xml:base="../xml/volume06.xml" xml:id="EXPLETIF">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-306.jpeg" n="6:306"/>
         <index indexName="headword" n="EXPLÉTIF, EXPLÉTIVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5736,7 +5736,7 @@ La ville de Noyon en Picardie.
         <quote xml:lang="lat">
           <l>Me, me adsum qui feci, in me convertite ferrum.</l> </quote><p>Ces deux premiers <hi rend="i">me</hi> ne sont là que par énergie &amp; par sentiment : <hi rend="i">elocutio est dolore turbati</hi>, dit Servius. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="42:132" xml:base="../xml/volume06.xml" xml:id="F" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="42:132" xml:base="../xml/volume06.xml" xml:id="F">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-341.jpeg" n="6:341"/>
         <index indexName="headword" n="F"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5759,7 +5759,7 @@ La ville de Noyon en Picardie.
         <p>2°. <hi rend="i">F</hi>, sur les pieces de monnoie, est la marque de la ville d’Angers.</p>
         <p>3°. Dans le calendrier ecclésiastique, elle est la sixieme lettre dominicale. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="44:7" xml:base="../xml/volume06.xml" xml:id="FEMININ" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="44:7" xml:base="../xml/volume06.xml" xml:id="FEMININ">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-468.jpeg" n="6:468"/>
         <index indexName="headword" n="FEMININ, INE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5776,7 +5776,7 @@ La ville de Noyon en Picardie.
         <p>Il y a différentes observations à faire sur la rime <hi rend="i">féminine ;</hi> on les trouvera dans les divers traités que nous avons de la poésie françoise. Nous en parlons <hi rend="i">au mot</hi> <hi rend="i"><ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Rime">Rime</ref></hi>.</p>
         <p>Le peuple de Paris fait du genre <hi rend="i">féminin</hi> certains mots que les personnes qui parlent bien font, sans contestation, masculins ; le peuple dit : <hi rend="i">une belle éventaille</hi>, au lieu d’<hi rend="i">un bel éventail ;</hi> &amp; de même <hi rend="i">une belle hôtel</hi>, au lieu d’<hi rend="i">un bel hôtel</hi>. Je crois que le <hi rend="i">l</hi> qui finit le mot <hi rend="i">bel</hi>, &amp; qui se joint à la voyelle qui commence le mot a donné lieu à cette méprise. Ils disent enfin, <hi rend="i">la premiere âge, la belle âge ;</hi> cependant <hi rend="i">âge</hi> est masculin, l’âge viril, l’âge mûr, un âge avancé. <hi rend="i">Voyez <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=Genre">Genre</ref></hi>. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="46:25" xml:base="../xml/volume06.xml" xml:id="FIGURATIVE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="46:25" xml:base="../xml/volume06.xml" xml:id="FIGURATIVE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-748.jpeg" n="6:748"/>
         <index indexName="headword" n="FIGURATIVE"/>
         <index indexName="author" n="Dumarsais"/>
@@ -5797,7 +5797,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FIGURE">FIGURE</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-766.jpeg" n="6:766"/>
-        <div2 n="46:26:10" xml:base="../xml/volume06.xml" xml:id="Figure-Grammaire" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 n="46:26:10" xml:base="../xml/volume06.xml" xml:id="Figure-Grammaire">
           <index indexName="headword" n="Figure"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="terme de Rhétorique, de Logique &amp; de Grammaire"/>
@@ -5997,7 +5997,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FINI">FINI</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V6/ENC_6-817.jpeg" n="6:817"/>
-        <div2 xml:base="../xml/volume06.xml" xml:id="Fini-Dumarsais" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume06.xml" xml:id="Fini-Dumarsais">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
           <index indexName="normclass" n="unclassified"/>
@@ -6028,7 +6028,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FOND">FOND</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-51.jpeg" n="7:51"/>
-        <div2 xml:base="../xml/volume07.xml" xml:id="Fond-Dumarsais" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume07.xml" xml:id="Fond-Dumarsais">
           <index indexName="headword" n="FOND, &amp; au pluriel fonds"/>
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
@@ -6071,7 +6071,7 @@ La ville de Noyon en Picardie.
           <ref target="http://artflsrv02.uchicago.edu/philologic4/encyclopedie_demo/dispatcher.py/?report=bibliography&amp;head=FUTUR">FUTUR</ref>
         </head>
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-402.jpeg" n="7:402"/>
-        <div2 xml:base="../xml/volume07.xml" xml:id="Futur-adjectif" xmlns="http://www.tei-c.org/ns/1.0">
+        <div2 xml:base="../xml/volume07.xml" xml:id="Futur-adjectif">
           <index indexName="author" n="Dumarsais"/>
           <index indexName="class" n="unclassified"/>
           <index indexName="normclass" n="unclassified"/>
@@ -6089,7 +6089,7 @@ La ville de Noyon en Picardie.
             <l>De nos abominables jours ?</l> </quote><signed>(<hi rend="i">F</hi>)</signed>
         </div2>
       </div1>
-      <div1 n="54:47" xml:base="../xml/volume07.xml" xml:id="GRAMMAIRIEN" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="54:47" xml:base="../xml/volume07.xml" xml:id="GRAMMAIRIEN">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V7/ENC_7-847.jpeg" n="7:847"/>
         <index indexName="headword" n="GRAMMAIRIEN"/>
         <index indexName="author" n="Dumarsais"/>
@@ -6111,7 +6111,7 @@ La ville de Noyon en Picardie.
           <p>« que la Grammaire au fond est bien au-dessus de ce qu’elle paroit être d’abord  » :</p> </quote><p><hi rend="i">plus habet in recessu quam in fronte promittit</hi>. Quintil. <hi rend="i">inst. orat. lib. I. c. jv. init</hi>.</p>
         <p>Bien des gens confondent les <hi rend="i">Grammairiens</hi> avec les <hi rend="i">Grammatistes</hi> : mais il y a toûjours un ordre supérieur d’hommes, qui, comme Quintilien, ne jugent les choses grandes ou petites que par rapport aux avantages réels que la société peut en recueillir : souvent ce qui paroit grand aux yeux du vulgaire, ils le trouvent petit, si la société n’en doit tirer aucun profit ; &amp; souvent ce que le commun des hommes trouve petit, ils le jugent grand, si les citoyens en doivent devenir plus éclairés &amp; plus instruits, &amp; qu’il doive en résulter qu’ils en penseront avec plus d’ordre &amp; de profondeur ; qu’ils s’exprimeront avec plus de justesse, de précision, &amp; de clarté, &amp; qu’ils en seront bien plus disposés à devenir utiles &amp; vertueux. (<hi rend="i">F</hi>)</p>
       </div1>
-      <div1 n="112:37" xml:base="../xml/volume15.xml" xml:id="SENS" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="112:37" xml:base="../xml/volume15.xml" xml:id="SENS">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V15/ENC_15-15.jpeg" n="15:15"/>
         <index indexName="headword" n="SENS"/>
         <index indexName="author" n="Beauzée|Dumarsais"/>
@@ -6459,7 +6459,7 @@ La ville de Noyon en Picardie.
           <p><hi rend="sc">Sens (le bon), Gout (le bon</hi>), (<hi rend="i">Belles-Lettres</hi>.) le <hi rend="i">bon sens</hi> &amp; le <hi rend="i">bon goût</hi>, ne sont qu’une même chose, à les considérer du côté de la faculté. Le <hi rend="i">bon sens</hi> est une certaine droiture d’ame qui voit le vrai, le juste &amp; s’y attache ; le <hi rend="i">bon goût</hi> est cette même droiture, par laquelle l’ame voit le bon &amp; l’approuve. La différence de ces deux choses ne se tient que du côté des objets. On restraint ordinairement le <hi rend="i">bon sens</hi> aux choses plus sensibles, &amp; le <hi rend="i">bon goût</hi> à des objets plus fins &amp; plus relevés. Ainsi le <hi rend="i">bon goût</hi>, pris dans cette idée, n’est autre chose que le <hi rend="i">bon sens</hi>, raffiné &amp; exercé sur des objets délicats &amp; relevés ; &amp; le <hi rend="i">bon sens</hi> n’est que le <hi rend="i">bon goût</hi>, restraint aux objets plus sensibles &amp; plus matériels. Le vrai est l’objet du goût, aussi-bien que le bon ; &amp; l’esprit a son goût, aussi-bien que le coeur. (<hi rend="i">D. J</hi>.) <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V15/ENC_15-34.jpeg" n="15:34"/><cb n="1"/></p>
         </div2>
       </div1>
-      <div1 n="118:66" xml:base="../xml/volume15.xml" xml:id="SYNECDOQUE" xmlns="http://www.tei-c.org/ns/1.0">
+      <div1 n="118:66" xml:base="../xml/volume15.xml" xml:id="SYNECDOQUE">
         <pb facs="http://artflx.uchicago.edu/images/encyclopedie/V15/ENC_15-751.jpeg" n="15:751"/>
         <index indexName="headword" n="SYNECDOQUE ou SYNECDOCHE"/>
         <index indexName="author" n="Dumarsais|Beauzée"/>
