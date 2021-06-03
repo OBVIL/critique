@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<TEI xml:id="rod_essai-sur-goethe" xml:lang="fre" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1684,61 +1684,61 @@
             le drame aucun lien même indirect, et qui tiennent des propos dont le seul but évident
             est de nous montrer que l’auteur est au courant de « papotages » de l’époque :</p>
           <quote>
-            <p><label type="speaker"><hi rend="i">L’évêque</hi></label>. Y a-t-il maintenant
+            <p><label type="speaker">L’évêque</label>. Y a-t-il maintenant
               beaucoup d’Allemands de la noblesse qui étudient à Bologne ?</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. Des nobles et des
+            <p><label type="speaker">Oléarius</label>. Des nobles et des
               bourgeois. Et, soit dit sans vanité, ils s’y font le plus grand honneur. On a coutume
               de dire à l’Académie, en manière de proverbe : « Studieux comme un gentilhomme
               allemand ». Car, tandis que les bourgeois s’efforcent, avec un zèle honorable, à
               compenser par leur savoir leur défaut d’origine, les nobles s’appliquent avec une
               louable émulation à relever encore leur éclat natif par le mérite le plus
               éclatant.</p>
-            <p><label type="speaker"><hi rend="i">L’évêque</hi></label>. Ah !</p>
-            <p><label type="speaker"><hi rend="i">Liebetraut</hi></label>. Qu’on dise que le monde
+            <p><label type="speaker">L’évêque</label>. Ah !</p>
+            <p><label type="speaker">Liebetraut</label>. Qu’on dise que le monde
               ne s’améliore pas tous les jours ! Studieux comme un gentilhomme allemand ! voilà ce
               que je n’ai pas entendu de mon temps. Si quelqu’un m’avait prédit cela pendant que
               j’étais à l’école, je l’aurais traité de menteur. On voit qu’il ne faut jurer de
               rien.</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. Oui, ils font l’admiration
+            <p><label type="speaker">Oléarius</label>. Oui, ils font l’admiration
               de toute l’Académie. Quelques-uns des plus âgés et des plus habiles reviendront
               bientôt comme <hi rend="i">doctores.</hi> L’Empereur sera heureux de pouvoir leur
               confier des emplois.</p>
-            <p><label type="speaker"><hi rend="i">Liebetraut</hi></label>. Cela ne manque pas.</p>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. Ne connaîtriez-vous pas, par
+            <p><label type="speaker">Liebetraut</label>. Cela ne manque pas.</p>
+            <p><label type="speaker">L’abbé</label>. Ne connaîtriez-vous pas, par
               exemple, un jeune gentilhomme… Il est de la Hesse…</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. Il y a beaucoup de Hessois
+            <p><label type="speaker">Oléarius</label>. Il y a beaucoup de Hessois
               à Bologne.</p>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. Il s’appelle… Il est de…
+            <p><label type="speaker">L’abbé</label>. Il s’appelle… Il est de…
               Aucun de vous ne le connaît ?… Sa mère était une… Oh ! son père n’avait qu’un œil… il
               était maréchal.</p>
-            <p><label type="speaker"><hi rend="i">Liebitraut</hi></label>. De Wildenlholtz ?</p>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. C’est cela ! de
+            <p><label type="speaker">Liebitraut</label>. De Wildenlholtz ?</p>
+            <p><label type="speaker">L’abbé</label>. C’est cela ! de
               Wildenlholtz !</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. Je le connais bien. Un
+            <p><label type="speaker">Oléarius</label>. Je le connais bien. Un
               jeune homme de beaucoup de talent. On loue surtout son habileté dans la dispute.</p>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. Il tient cela de sa mère.</p>
-            <p><label type="speaker"><hi rend="i">Liebetraut</hi></label>. Mais son père ne s’en
+            <p><label type="speaker">L’abbé</label>. Il tient cela de sa mère.</p>
+            <p><label type="speaker">Liebetraut</label>. Mais son père ne s’en
               vanta jamais. Cela montre comment les défauts ne sont que des vertus déplacées.</p>
-            <p><label type="speaker"><hi rend="i">L’évêque</hi></label>. Comment disiez-vous que
+            <p><label type="speaker">L’évêque</label>. Comment disiez-vous que
               s’appelle l’Empereur qui a écrit votre <hi rend="i">Corpus juris</hi> ?</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. Justinien.</p>
-            <p><label type="speaker"><hi rend="i">L’évêque</hi></label>. Un excellent seigneur !
+            <p><label type="speaker">Oléarius</label>. Justinien.</p>
+            <p><label type="speaker">L’évêque</label>. Un excellent seigneur !
               Qu’il vive !</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. À sa mémoire !</p>
+            <p><label type="speaker">Oléarius</label>. À sa mémoire !</p>
             <stage>(Ils boivent.)</stage>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. Et son livre doit être un
+            <p><label type="speaker">L’abbé</label>. Et son livre doit être un
               beau livre.</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. On pourrait l’appeler le
+            <p><label type="speaker">Oléarius</label>. On pourrait l’appeler le
               livre des livres. Un recueil de toutes les lois, avec des sentences faites pour tous
               les cas ; et ce qui pouvait être encore défectueux ou obscur est complété par les
               commentaires dont les hommes les plus sages ont orné cet excellent ouvrage.</p>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. Un recueil de toutes les
+            <p><label type="speaker">L’abbé</label>. Un recueil de toutes les
               lois ? Peste ! On y trouve aussi les dix commandements ?</p>
-            <p><label type="speaker"><hi rend="i">Oléarius</hi></label>. <hi rend="i"
+            <p><label type="speaker">Oléarius</label>. <hi rend="i"
               >Implicite</hi>, oui, mais non <hi rend="i">explicite.</hi></p>
-            <p><label type="speaker"><hi rend="i">L’abbé</hi></label>. C’est bien ce que je veux
+            <p><label type="speaker">L’abbé</label>. C’est bien ce que je veux
               dire : simplement, sans autre explication.</p>
-            <p><label type="speaker"><hi rend="i">L’évêque.</hi></label> Et ce qu’il y a de plus
+            <p><label type="speaker">L’évêque.</label> Et ce qu’il y a de plus
               beau, c’est qu’un État pourrait, comme vous le dites, vivre dans la paix et la
               tranquillité les plus sûres, si ces lois y étaient bien établies et bien
               maintenues…</p>
@@ -1753,20 +1753,20 @@
           <p>Dans la seconde version, plus resserrée, l’anecdote perd presque tout son sens, étant
             présentée autrement :</p>
           <quote>
-            <p><label type="speaker"><hi rend="i">Élisabeth</hi></label>. Te souviens-tu encore de
+            <p><label type="speaker">Élisabeth</label>. Te souviens-tu encore de
               la dernière sortie de ton père, lorsqu’il t’apporta un petit pain blanc ?</p>
-            <p><label type="speaker"><hi rend="i">Charles</hi></label>. M’en apportera-t-il
+            <p><label type="speaker">Charles</label>. M’en apportera-t-il
               encore ?</p>
-            <p><label type="speaker"><hi rend="i">Élisabeth.</hi></label> Je le pense. Vois-tu, il y
+            <p><label type="speaker">Élisabeth.</label> Je le pense. Vois-tu, il y
               avait un tailleur de Stuttgart qui était fort habile à tirer de l’arc, et qui avait
               gagné à Cologne le prix de tir.</p>
-            <p><label type="speaker"><hi rend="i">Charles</hi></label>. Etait-ce beaucoup ?</p>
-            <p><label type="speaker"><hi rend="i">Élisabeth</hi></label>. Cent florins. Et ensuite
+            <p><label type="speaker">Charles</label>. Etait-ce beaucoup ?</p>
+            <p><label type="speaker">Élisabeth</label>. Cent florins. Et ensuite
               ils ne voulurent plus le lui donner.</p>
-            <p><label type="speaker"><hi rend="i">Marie</hi></label>. N’est-ce pas, Charles, que
+            <p><label type="speaker">Marie</label>. N’est-ce pas, Charles, que
               c’est vilain ?</p>
-            <p><label type="speaker"><hi rend="i">Charles</hi></label>. Vilains jeux !</p>
-            <p><label type="speaker"><hi rend="i">Élisabeth</hi></label>. Alors, le tailleur vint
+            <p><label type="speaker">Charles</label>. Vilains jeux !</p>
+            <p><label type="speaker">Élisabeth</label>. Alors, le tailleur vint
               trouver ton père, pour le prier de l’aider à obtenir son argent. Et ton père partit à
               cheval, et enleva à ceux de Cologne un couple de marchands et les tourmenta jusqu’à ce
               qu’ils eussent donné l’argent. ..</p>
@@ -1837,27 +1837,27 @@
             romans anglais, épris des sentiments naturels, résolus à la générosité, naturellement
             grandiloquents.</p>
           <quote>
-            <p><label type="speaker"><hi rend="i">Schlosser</hi></label>. Oui, je viens demander à
+            <p><label type="speaker">Schlosser</label>. Oui, je viens demander à
               votre noble sœur son cœur et sa main. Et si vous voulez me donner son âme pure,
               alors…</p>
-            <p><label type="speaker"><hi rend="i">Goethe</hi></label>. Je voudrais que vous fussiez
+            <p><label type="speaker">Goethe</label>. Je voudrais que vous fussiez
               venu plus tôt. Il faut que je vous avoue que X… a déjà demandé son amour… Il voltige
               de côté et d’autre pour chercher sa pâture, Dieu sait sur quel buisson !</p>
-            <p><label type="speaker"><hi rend="i">Schlosser</hi></label>. Est-ce possible ?</p>
-            <p><label type="speaker"><hi rend="i">Goethe</hi></label>. Comme je vous le dis.</p>
-            <p><label type="speaker"><hi rend="i">Schlosser</hi></label>. Il a rompu un double
+            <p><label type="speaker">Schlosser</label>. Est-ce possible ?</p>
+            <p><label type="speaker">Goethe</label>. Comme je vous le dis.</p>
+            <p><label type="speaker">Schlosser</label>. Il a rompu un double
               lien.</p>
-            <p><label type="speaker"><hi rend="i">Goethe</hi></label>. La pauvre fille passe
+            <p><label type="speaker">Goethe</label>. La pauvre fille passe
               maintenant sa vie à pleurer et à prier.</p>
-            <p><label type="speaker"><hi rend="i">Schlosser</hi></label>. Nous allons l’égayer.</p>
-            <p><label type="speaker"><hi rend="i">Goethe</hi></label>. Quoi ! vous vous décideriez à
+            <p><label type="speaker">Schlosser</label>. Nous allons l’égayer.</p>
+            <p><label type="speaker">Goethe</label>. Quoi ! vous vous décideriez à
               épouser une fille abandonnée ?</p>
-            <p><label type="speaker"><hi rend="i">Schlosser</hi></label>. Cela vous honore tous deux
+            <p><label type="speaker">Schlosser</label>. Cela vous honore tous deux
               d’avoir été trompés par lui. Faut-il que la pauvre fille entre au couvent parce que le
               premier homme qu’elle a connu était un indigne ? Non, je persiste !</p>
-            <p><label type="speaker"><hi rend="i">Goethe</hi></label>. Je vous dis qu’elle ne le
+            <p><label type="speaker">Goethe</label>. Je vous dis qu’elle ne le
               regardait pas avec indifférence.</p>
-            <p><label type="speaker"><hi rend="i">Schlosser</hi></label>. As-tu si peu de confiance
+            <p><label type="speaker">Schlosser</label>. As-tu si peu de confiance
               en moi que tu me crois incapable de chasser le souvenir d’un misérable ? Allons auprès
               d’elle !</p>
           </quote>
@@ -1961,24 +1961,24 @@
             corde ; de chaque côté, sept juges assistants restent debout, en longues robes blanches.
             Le jugement commence :</p>
           <quote>
-            <p><label type="speaker"><hi rend="i">Premier grand-juge</hi></label>. Juges du Tribunal
+            <p><label type="speaker">Premier grand-juge</label>. Juges du Tribunal
               secret, vous avez juré sur la corde et le glaive d’être irréprochables, de juger en
               secret, de punir en secret, pareils à Dieu. Si vos mains et vos cœurs sont purs, levez
               les bras et appelez sur le malfaiteur : Malheur ! Malheur !</p>
             <p><hi rend="i">Tous, levant le bras.</hi> Malheur ! Malheur !</p>
-            <p><label type="speaker"><hi rend="i">Premier grand juge</hi></label>. Crieur, commence
+            <p><label type="speaker">Premier grand juge</label>. Crieur, commence
               le jugement.</p>
-            <p><label type="speaker"><hi rend="i">Le premier juge assistant</hi></label>, <hi
+            <p><label type="speaker">Le premier juge assistant</label>, <hi
                 rend="i">s’avançant.</hi> Moi, crieur, je porte plainte contre le malfaiteur. Que
               celui dont le cœur et les mains sont purs, pour jurer par la corde et le glaive, qu’il
               accuse par la corde et le glaive ! qu’il accuse ! qu’il accuse !</p>
-            <p><label type="speaker"><hi rend="i">Un second juge assistant</hi></label>, <hi
+            <p><label type="speaker">Un second juge assistant</label>, <hi
                 rend="i">s’avançant.</hi> Mon cœur est pur de crimes, et mes mains de sang innocent.
               Que Dieu me pardonne les mauvaises pensées et arrête la volonté ! Je lève la main, et
               j’accuse ! j’accuse ! j’accuse !</p>
-            <p><label type="speaker"><hi rend="i">Premier grand-juge</hi></label>. Qui
+            <p><label type="speaker">Premier grand-juge</label>. Qui
               accuses-tu ?</p>
-            <p><label type="speaker"><hi rend="i">L’accusateur</hi></label>. J’accuse sur le glaive
+            <p><label type="speaker">L’accusateur</label>. J’accuse sur le glaive
               et la corde Adélaïde de Weislingen…, etc.</p>
           </quote>
           <p>Maintenue dans la seconde version, cette scène mélodramatique fut supprimée dans la
@@ -1997,41 +1997,41 @@
             « Adélaïde ! » Elle s’éveillait : et la scène du meurtre s’accomplissait, rapide,
             violente, mélodramatique comme celle du jugement :</p>
           <quote>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>, <hi rend="i"
+            <p><label type="speaker">Adélaïde</label>, <hi rend="i"
                 >réveillée.</hi> Je l’ai vu. Il se débattait dans les affres de la mort ! Il
               m’appelait ! Ses yeux étaient creux et pleins d’amour !… Assassin ! assassin !</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Ne crie pas ! Tu appelles
+            <p><label type="speaker">L’assassin</label>. Ne crie pas ! Tu appelles
               la Mort. Des esprits vengeurs ferment les oreilles du secours.</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>. Veux-tu mon or ? mes
+            <p><label type="speaker">Adélaïde</label>. Veux-tu mon or ? mes
               bijoux ? Prends-les ! mais laisse-moi la vie.</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Je ne suis pas un voleur.
+            <p><label type="speaker">L’assassin</label>. Je ne suis pas un voleur.
               Les ténèbres ont jugé les ténèbres, et tu dois mourir.</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>. Malheur ! malheur !</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Sur ta tête ! Si les
+            <p><label type="speaker">Adélaïde</label>. Malheur ! malheur !</p>
+            <p><label type="speaker">L’assassin</label>. Sur ta tête ! Si les
               horribles spectres de ton action ne tournent pas ton regard effrayé vers l’enfer,
               alors regarde en haut, regarde le vengeur dans le ciel, et prie-le de se contenter du
               sacrifice que je lui offre.</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>. Laisse-moi vivre ! Que
+            <p><label type="speaker">Adélaïde</label>. Laisse-moi vivre ! Que
               t’ai-je fait ? Je suis à tes pieds.</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>, <hi rend="i">à part.</hi>
+            <p><label type="speaker">L’assassin</label>, <hi rend="i">à part.</hi>
               Une princesse royale ! Quel regard ! quelle voix ! Dans ses bras, moi, misérable, je
               serais un dieu… Si je la trompais ! Puisqu’elle est en mon pouvoir.</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>. Il semble ému.</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Adélaïde, tu m’attendris.
+            <p><label type="speaker">Adélaïde</label>. Il semble ému.</p>
+            <p><label type="speaker">L’assassin</label>. Adélaïde, tu m’attendris.
               Veux-tu me promettre ?</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>. Quoi ?</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Ce qu’un homme peut
+            <p><label type="speaker">Adélaïde</label>. Quoi ?</p>
+            <p><label type="speaker">L’assassin</label>. Ce qu’un homme peut
               demander à une belle femme dans la nuit profonde.</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>, à <hi rend="i">part.</hi>
+            <p><label type="speaker">Adélaïde</label>, à <hi rend="i">part.</hi>
               La mesure est comble. Le vice et la honte, comme des flammes infernales, m’ont enlacée
               dans des bras diaboliques. J’expie, j’expie ! C’est en vain que j’essaie d’effacer le
               vice par le vice, la honte par la honte. Le déshonneur le plus affreux ou la mort la
               plus vile se présentent à mes yeux dans une image d’enfer.</p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Décide-toi.</p>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>, <hi rend="i">à part.</hi>
+            <p><label type="speaker">L’assassin</label>. Décide-toi.</p>
+            <p><label type="speaker">Adélaïde</label>, <hi rend="i">à part.</hi>
               Un rayon de délivrance ! <hi rend="i">(Elle s’approche du lit, il la suit : elle tire
                 un poignard des colonnes et l’en frappe.)</hi></p>
-            <p><label type="speaker"><hi rend="i">L’assassin</hi></label>. Traîtresse jusqu’à la
+            <p><label type="speaker">L’assassin</label>. Traîtresse jusqu’à la
               fin. (<hi rend="i">Il tombe sur elle et l’étrangle !)</hi> Serpent ! (<hi rend="i">Il
                 lui donne des coups de poignard.)</hi> Je saigne aussi. Voilà le prix de tes désirs
               sanguinaires ! Tu n’es pas la première. Dieu, qui l’as faite si belle, ne pouvais-tu
@@ -2043,7 +2043,7 @@
             tout cela est remplacé par une scène de remords et de terreur, tout aussi romantique et
             shakespearienne :</p>
           <quote>
-            <p><label type="speaker"><hi rend="i">Adélaïde</hi></label>, <hi rend="i">seule.</hi>
+            <p><label type="speaker">Adélaïde</label>, <hi rend="i">seule.</hi>
               Heureux enfant ! pressé par le sort le plus terrible, tu joues encore ! Le mouvement
               puissant des flots se tourne en écume, l’activité puissante de la jeunesse se tourne
               en jeu. Je veux te suivre : ma forme blanche, comme un esprit, regardera vers toi du
@@ -3422,8 +3422,7 @@
             l’exigeait. Car, pendant ces dix années, le « génie » si vanté, si bruyant, si éclatant,
             qui justifiait sa tapageuse attitude, demeure d’une incroyable stérilité, il avait
             commencé <hi rend="i">Wilhelm Meister</hi>, qu’il n’acheva pas. Son œuvre de
-            prédilection, <hi rend="i">Faust</hi>, semblait abandonnée. <ref
-              target="file:///F:/yEcjmont">D’<hi rend="i">Egmont</hi></ref> et de <hi rend="i"
+            prédilection, <hi rend="i">Faust</hi>, semblait abandonnée. D’<hi rend="i">Egmont</hi> et de <hi rend="i"
               >Tasse</hi>, il ne sut rédiger que quelques scènes. En revanche, il travailla beaucoup
             pour le théâtre d’amateurs, qu’avait fondé la duchesse-mère et qui faisait les délices
             de la cour : il en fut le régisseur, et son entrain si communicatif menait la compagnie
@@ -3950,22 +3949,20 @@
             où des visiteurs le trouvèrent nu et affamé. Resté avec Antonio, il s’abandonne à sa
             fureur, il se désespère, il invective ses amis de la veille, jusqu’au moment où un mot
             de son compagnon lui rend la possession de soi même :</p>
-          <quote>
-            <l>— Quand tu sembles te perdre tout entier, lui dit Antonio, compare-toi à d’autres :
-              reconnais ce que tu es.</l>
-          </quote>
+          <quote>— Quand tu sembles te perdre tout entier, lui dit Antonio, compare-toi à d’autres :
+              reconnais ce que tu es.</quote>
           <p>Tasse répond :</p>
-          <list rend="—" type="ul">
-            <item>Oui, tu me le rappelles à propos !… Aucun exemple de l’histoire ne viendra-t-il
+          
+          <quote>
+            <p>— Oui, tu me le rappelles à propos !… Aucun exemple de l’histoire ne viendra-t-il
               plus à mon secours ? Ne s’offre-t-il à mes yeux aucun noble caractère, qui ait plus
               souffert que je ne souffris jamais, afin que je prenne courage en me comparant à lui ?
               Non.., tout est perdu… Une seule chose me reste. La nature nous a donné les larmes, le
               cri de la douleur, quand l’homme enfin ne la supporte plus… Elle m’a laissé par-dessus
               tout, elle m’a laissé, dans la douleur, la mélodie et l’éloquence, pour déplorer toute
               la profondeur de ma misère : <hi rend="i">et tandis que l’homme reste muet dans sa
-                souffrance, un Dieu m’a donné de pouvoir dire combien je souffre.</hi></item>
-          </list>
-          <quote>
+                souffrance, un Dieu m’a donné de pouvoir dire combien je souffre.</hi></p>
+          
             <stage>(Antonio s’approche de lui et le prend par la main.)</stage>
             <p>Noble Antonio, tu demeures ferme et tranquille ; je ne parais que le flot agité par
               la tempête ; mais réfléchis, et ne triomphe pas de ta force. La puissante nature, qui
