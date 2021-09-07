@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" 
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" 
       schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
@@ -58,7 +57,7 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="chapter">
         <head>Avertissement des éditeurs</head>
         <p>Les Études comprises dans ce volume ont été recueillies sur les notes de M. Vinet et sur
           les cahiers de plusieurs de ses élèves, comparés entre eux avec soin. Elles renferment des
@@ -107,7 +106,7 @@
           dans l’enseignement du maître, et y ajouter les développements attestés par les
           manuscrits.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>I. Introduction. <lb/>De la morale dans la littérature</head>
         <p><hi rend="sc">Messieurs</hi>,</p>
         <p>Pour faire comprendre le sérieux et l’étendue du sujet que nous avons à traiter, il
@@ -632,7 +631,7 @@
           l’étiquette allaient avoir leur tour. Le seizième siècle n’en sait rien ; mais dans sa
           joie effrontée il semble pressentir qu’il joue de son reste.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>II. François Rabelais. <lb/>1483-1553</head>
         <p>La tendance négative du seizième siècle commence à s’exprimer dans Rabelais. Rabelais
           cependant n’est pas un sceptique, pas plus qu’il n’a l’intention d’être un moraliste. Mais
@@ -966,7 +965,7 @@
           seizième siècle est un siècle bourgeois. Ce caractère s’effacera au dix-septième. Quant,
           aux principes, ils viendront quand ils pourront. </p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>III. Michel de Montaigne. <lb/>1533-1592</head>
         <p>Nous arrivons maintenant au premier des moralistes de l’époque, à Montaigne. Ce n’est pas
           sa seule renommée ; en qualité d’écrivain, sa réputation est grande et mérite de l’être.
@@ -2181,7 +2180,7 @@
           l’Esprit de Dieu, agissant par les doctrines de la Bible. À lui seul appartient le souffle
           de la vie nouvelle.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>IV. Pierre Charron. <lb/>1541-1603</head>
         <p>Nous passons ici, non tant à d’autres doctrines qu’à une forme différente, à une autre
           nuance des mêmes doctrines. Charron pourrait, dans un sens, être appelé le traducteur
@@ -2900,7 +2899,7 @@
           peuvent en parler sont un don que leur a fait le christianisme, et que c’est grâce à
           l’Évangile que les problèmes de la morale antique sont des axiomes pour nous ?</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>V. Étienne de la Boëtie. <lb/>1530-1563</head>
         <p>Le seizième siècle nous présente encore quelques moralistes assez remarquables,
           particulièrement dans la sphère politique ; l’un d’eux est Etienne de la Boëtie, célèbre
@@ -2989,7 +2988,7 @@
             si contraire à Dieu tout libéral et debonnaire que la tyrannie, qu’il reserve bien là
             bas à part pour les tyrans et leurs complices quelque peine particulière. »</quote></p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>VI. Jean Bodin. <lb/>1530-1596</head>
         <p>Nous dirons quelques mots, Messieurs, de <hi rend="i">la République</hi> de Jean Bodin,
           ouvrage assez peu connu aujourd’hui, mais qui obtint dans le temps un succès prodigieux.
@@ -3368,7 +3367,7 @@
           regretter que ses livres, et en particulier les prophètes, soient trop peu lus par
           beaucoup de chrétiens de nos jours.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>VII. Michel de l’Hôpital. <lb/>1505-1573</head>
         <p>Avant de terminer ce qui se rapporte au seizième siècle, nous avons quelques mots à dire
           sur l’un de ses hommes les plus distingués, le chancelier de l’Hôpital.</p>
@@ -3534,7 +3533,7 @@
         <p>On a de l’Hôpital un recueil entier de poésies latines, écrites d’un style mâle et
           ferme.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>VIII. Dix-septième siècle. <lb/>Considérations préliminaires</head>
         <p>En passant, Messieurs, du seizième siècle au dix-septième, on est, dès l’abord, frappé
           des différences qui les caractérisent. L’époque à laquelle nous arrivons voit naître des
@@ -3634,7 +3633,7 @@
               sur Blaise Pascal</hi>, on y renvoie le lecteur. (<hi rend="i"
           >Éditeurs</hi>.)</note>.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>IX. La Rochefoucauld. <lb/>1613-1680</head>
         <p>La Rochefoucauld naquit dix ans avant Pascal. La première édition de ses <hi rend="i"
             >Maximes</hi> parut en 1665, neuf ans après les <hi rend="i">Provinciales</hi> ; la
@@ -4570,7 +4569,7 @@
           au-delà de la région secondaire de ses phénomènes ; et il est douteux qu’il ait connu la
           vaste portée de quelques-unes de ses propres observations.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>X. La Bruyère. <lb/>1644-1696</head>
         <p>Voici encore un de ces auteurs qui n’ont point traité la morale scientifiquement :
           La Bruyère est un artiste, comme La Rochefoucauld un homme du monde. Il n’appartenait pas
@@ -5243,7 +5242,7 @@
             l’Homme</hi>.</note>. »</quote> Des nuances fines de la vanité humaine y sont rendues
           avec cette vérité piquante si habituelle à La Bruyère.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>XI. Récapitulation. <lb/>Moralistes ascétiques. Période intermédiaire</head>
         <p>Arrivé au terme de la carrière que je m’étais proposé de parcourir, je comptais,
           Messieurs, jeter avec vous un regard sur l’espace que nous laissons derrière nous,
@@ -5468,7 +5467,7 @@
               Littérature française au dix-huitième siècle</hi> ; celles sur Massillon trouveront
             place dans un autre volume. <hi rend="i">(Éditeurs</hi>.)</note>.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>XII. Saint-Évremond. <lb/>1613-1703</head>
         <p>Charles de Saint-Denis, sieur de Saint-Évremond, appartenait à une famille noble et
           considérée de la Normandie. Il entra au service après avoir commencé par faire son droit,
@@ -5806,7 +5805,7 @@
           mit à la portée d’un plus grand nombre de personnes. Aujourd’hui ce même principe s’est
           fondu, sous des formes plus sévères, dans la doctrine des utilitaires.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>XIII. Pierre Bayle. <lb/>1647-1706</head>
         <p>Après Saint-Évremond, Bayle fut l’un des premiers fondateurs de la philosophie nouvelle
           que le dix-huitième siècle allait voir surgir. Il y a peu de chose à dire de sa vie ; elle
@@ -6816,7 +6815,7 @@
           rendre un des plus dangereux des sceptiques et, pour beaucoup d’esprits, le coryphée du
           doute universel.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>XIV. De la spontanéité de l’esprit humain en matière de philosophie</head>
         <argument>
           <p>Premier fragment d’un cours sur les écrivains moralistes du dix-huitième siècle<note
@@ -7117,7 +7116,7 @@
           problème ; il faut lui trouver une solution. » C’est ce que nous tenterons dans l’<hi
             rend="i">Essai</hi> suivant.</p>
       </div>
-      <div>
+      <div  type="chapter">
         <head>XV. La volonté cherchant sa loi</head>
         <argument>
           <p>Deuxième fragment d’un cours sur les écrivains moralistes du dix-huitième siècle<note

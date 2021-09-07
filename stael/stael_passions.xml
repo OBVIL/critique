@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>De l’influence des passions sur le bonheur des individus et des nations</title>
-        <author key="Staël-Holstein, Germaine de (1766-1817)">Germains de Staël-Holstein</author>
+        <author key="Staël-Holstein, Germaine de (1766-1817)">M<hi rend="sup">me</hi> de Staël</author>
       </titleStmt>
       <editionStmt>
         <edition>OBVIL</edition>
@@ -56,15 +55,15 @@
   </teiHeader>
   <text>
     <body>
-<div type="epigraph">      <epigraph>
-  <p rend="i">Quæsivit cœlo lucem ingemuitque repertâ.</p>
-</epigraph></div>
-      <div>
+      <div type="chapter">
         <head>Avant-propos</head>
+        <epigraph>
+          <p>Quæsivit cœlo lucem ingemuitque repertâ.</p>
+        </epigraph>
         <p>On pensera, peut-être, qu’il y a de l’empressement d’auteur à faire paraître la première partie d’un livre quand la seconde n’est pas encore faite ; d’abord, malgré la connexion de ces deux parties entre elles, chacune peut être considérée comme un ouvrage séparé ; mais il est possible aussi que, condamnée à la célébrité, sans pouvoir être connue, j’éprouve le besoin de me faire juger par mes écrits. Calomniée sans cesse, et me trouvant trop peu d’importance pour me résoudre à parler de moi, j’ai dû céder à l’espoir qu’en publiant ce fruit de mes méditations, je donnerais quelque idée vraie des habitudes de ma vie et de la nature de mon caractère.</p>
         <dateline>Lausanne ce 1<hi rend="sup">er</hi> juillet 1796.</dateline>
       </div>
-      <div>
+      <div type="chapter">
         <head>Introduction</head>
         <p>Quelle époque ai-je choisi pour faire un traité sur le bonheur des individus et des nations ! Est-ce au milieu d’une crise dévorante qui atteint toutes les destinées, lorsque la foudre se précipite dans le fond des vallées, comme sur les lieux élevés ? Est-ce dans un temps où il suffit de vivre pour être entraîné par le mouvement universel, où jusqu’au sein même de la tombe le repos peut être troublé, les morts jugés de nouveau, et leurs urnes populaires tour à tour admises ou rejetées dans le temple où les factions croyaient donner l’immortalité ? Oui, c’est dans ce siècle, c’est lorsque l’espoir ou le besoin du bonheur a soulevé la race humaine ; c’est dans ce siècle surtout qu’on est conduit à réfléchir profondément sur la nature du bonheur individuel et politique, sur sa route, sur ses bornes, sur les écueils qui séparent d’un tel but. Honte à moi cependant si, durant le cours de deux épouvantables années, si pendant le règne de la terreur en France, j’avais été capable d’un tel travail ; si j’avais pu concevoir un plan, prévoir un résultat à l’effroyable mélange de toutes les atrocités humaines. La génération qui nous suivra examinera peut-être aussi la cause et l’influence de ces deux années ; mais nous, les contemporains, les compatriotes des victimes immolées dans ces jours de sang, avons-nous pu conserver alors le don de généraliser les idées, de méditer des abstractions, de nous séparer un moment de nos impressions pour les analyser ? Non, aujourd’hui même encore, le raisonnement ne saurait approcher de ce temps incommensurable. Juger ces événements, de quelques noms qu’on les désigne, c’est les faire rentrer dans l’ordre des idées existantes, des idées pour lesquelles il y avait déjà des expressions. À cette affreuse image tous les mouvements de l’âme se renouvellent, on frissonne, on s’enflamme, on veut combattre, on souhaite de mourir, mais la pensée ne peut se saisir encore d’aucun de ces souvenirs ; les sensations qu’ils font naître absorbent toute autre faculté. C’est donc en écartant cette époque monstrueuse, c’est à l’aide des autres événements principaux de la révolution de France et de l’histoire de tous les peuples, que j’essayerai de réunir des observations impartiales sur les gouvernements, et si ces réflexions me conduisent à l’admission des premiers principes sur lesquels se fondent la constitution républicaine de France, je demande que, même au milieu des fureurs de l’esprit de parti qui déchirent la France, et par elle le reste du monde, il soit possible de concevoir que l’enthousiasme de quelques idées n’exclut pas le mépris profond pour certains hommes<note resp="author">Il me semble que les véritables partisans de la liberté républicaine sont ceux qui détestent le plus profondément les forfaits qui se sont commis en son nom. Leurs adversaires peuvent sans doute éprouver la juste horreur du crime, mais comme ces crimes mêmes servent d’argument à leur système, ils ne leur font pas ressentir, comme aux amis de la liberté, tous les genres de douleur à la fois.</note>, et que l’espoir de l’avenir se concilie avec l’exécration du passé. Alors même que le cœur est à jamais déchiré par les blessures qu’il a reçues, l’esprit peut encore, après un certain temps, s’élever à des méditations générales.</p>
         <p>On doit considérer à présent ces grandes questions qui vont décider de la destinée politique de l’homme, dans leur nature même, et non sous le rapport seul des malheurs qui les ont accompagnées ; il faut examiner du moins, si ces malheurs sont de l’essence même des institutions qu’on veut établir en France, ou si les effets de la révolution ne sont pas absolument distincts de ceux de la constitution ; enfin, on doit se confier assez à l’élévation de son âme pour ne pas craindre, en examinant des pensées, d’être soupçonné d’indifférence pour les crimes. C’est avec la même indépendance d’esprit, que j’ai tâché, dans la première partie de cet ouvrage, de peindre les effets des passions de l’homme sur son bonheur personnel. Je ne sais pourquoi il serait plus difficile d’être impartial dans les questions de politique que dans les questions de morale : certes les passions influent autant que les gouvernements sur le sort de la vie, et cependant dans le silence de la retraite on discute avec sa raison les sentiments qu’on a soi-même éprouvés ; il me paraît qu’il ne doit pas en coûter plus, pour parler philosophiquement des avantages ou des inconvénients des républiques et des monarchies, que pour analyser avec exactitude l’ambition, l’amour, ou telle autre passion qui a décidé de votre existence. Dans les deux parties de cet ouvrage, j’ai également cherché à ne me servir que de ma pensée, à la dégager de toutes les impressions du moment, on verra si j’ai réussi.</p>

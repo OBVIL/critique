@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
   <teiHeader>
     <fileDesc>
@@ -59,10 +59,8 @@
   </teiHeader>
   <text>
     <body>
-      <div>
-        <head>
-          <hi rend="i">Préface</hi>
-        </head>
+      <div type="chapter">
+        <head>Préface</head>
         <p>Ce troisième volume des <hi rend="i">Études d’Alexandre Vinet sur la littérature
             française au <num>xix<hi rend="sup">e</hi></num> siècle</hi> diffère plus du volume
           similaire de l’édition de 1848 que les deux premiers ne diffèrent des leurs. Nous y avons
@@ -1630,9 +1628,8 @@
               rend="i">Ter</hi> ou <hi rend="i">Tri</hi> mérite d’enfanter des volumes. Les lettres
             qui la composent sont toutes très significatives dans les alphabets primitifs ; le <hi
               rend="i">T</hi>, parce qu’il représente l’universalité, la protection, enfin tout ce
-            qui recouvre et à qui on avait donné la forme d’un toit <figure>
-              <graphic url="vinet_litterature-francaise-19e.img/fig1.png"/>
-            </figure>. L’<hi rend="i">R</hi>, parce que cette lettre était le symbole de tout
+            qui recouvre et à qui on avait donné la forme d’un toit 🡱.
+            L’<hi rend="i">R</hi>, parce que cette lettre était le symbole de tout
             mouvement, comme Platon lui-même l’a remarqué dans ses dialogues de Socrate. Le <hi
               rend="i">l</hi>, enfin, parce que cette lettre était le signe de la puissance, de
             l’aide, du secours et qu’elle était représentée par une main dont nous avons gardé un
@@ -1807,11 +1804,7 @@
             resp="author">Article sur le <hi rend="i">Mariage au point de vue chrétien</hi>, par
               M<hi rend="sup">me</hi> de Gasparin.</note>. »</p>
         <signed>PAUL SIRVEN.</signed>
-      </div>
-      <div>
-        <head>
-          <hi rend="i">Post-Scriptum</hi>
-        </head>
+          <label>Post-Scriptum</label>
         <p>La préface qu’on vient de lire était imprimée quand j’ai eu connaissance d’un long
           article de M. Frédéric Chavannes, paru dans le numéro du 29 avril 1882 de l’<hi rend="i"
             >Alliance libérale</hi> (Genève). C’est M<hi rend="sup">me</hi> Lina Beck-Bernard, une
@@ -1823,7 +1816,7 @@
           ce que j’ai écrit.</p>
         <signed>P. S.</signed>
       </div>
-      <div>
+      <div type="chapter">
         <head>Sainte-Beuve</head>
         <div>
           <head>I. <hi rend="i">Volupté</hi><note resp="author"><hi rend="i">Semeur</hi> (20 août
@@ -3741,7 +3734,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Edgar Quinet</head>
         <div>
           <head>I. <hi rend="i">Ahasvérus</hi></head>
@@ -6042,7 +6035,7 @@
               <l>                   S’est converti d’abord.</l> </quote></div>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Michelet</head>
         <div>
           <head><hi rend="i">Histoire de France</hi><lb/>(Tome I et II. — 1833.)</head>
@@ -7544,7 +7537,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Mignet. <lb/><hi rend="i">Notices</hi> et mémoires historiques</head>
         <argument>
           <p>2 volumes in-8°. — 1843.</p>
@@ -8218,7 +8211,7 @@
             nécessairement en désaccord avec la force des choses ?</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Alexandre Soumet. <lb/><hi rend="i">La Divine épopée</hi></head>
         <argument>
           <p>2 volumes in-8°. — 1840.</p>
@@ -10311,9 +10304,8 @@
             depuis Zoroastre jusqu’à nous : peut-être deviez-vous interroger les étymologies
             orientales qui auraient jeté quelque jour sur cette question. Le mot <hi rend="i"
               >Éternité</hi> se compose de la radicale E, qui signifie la vie, et qui était
-            représentée dans les alphabets primitifs par le visage de l’homme <figure>
-              <graphic url="vinet_litterature-francaise-19e.img/fig2.png"/>
-            </figure> et du fameux ternaire sacré. Le mot <hi rend="i">Éternité</hi> pour la <hi
+            représentée dans les alphabets primitifs par le visage de l’homme ☺ 
+            et du fameux ternaire sacré. Le mot <hi rend="i">Éternité</hi> pour la <hi
               rend="i">science philosophique</hi> ne veut pas dire existence sans fin (car
             commencement et fin ne sont que des phénomènes de notre cognition sans aucun rapport
             peut-être avec les choses vraies en elles-mêmes), mais bien existence ternaire,
@@ -10477,9 +10469,8 @@
               rend="i">Ter</hi> ou <hi rend="i">Tri</hi>, mérite d’enfanter des volumes. Les lettres
             qui la composent sont toutes très significatives dans les alphabets primitifs ; le <hi
               rend="i">T</hi>, parce qu’il représente l’universalité, la protection, enfin tout ce
-            qui recouvre et à qui on avait donné la forme d’un toit <figure>
-              <graphic url="vinet_litterature-francaise-19e.img/fig3.png"/>
-            </figure>. L’R, parce que cette lettre était le symbole de tout mouvement, comme Platon
+            qui recouvre et à qui on avait donné la forme d’un toit 🡱.
+            L’R, parce que cette lettre était le symbole de tout mouvement, comme Platon
             lui-même l’a remarqué dans ses dialogues de Socrate. Le <hi rend="i">I</hi>, enfin,
             parce que cette lettre était le signe de la puissance, de l’aide, du secours et qu’elle
             était représentée par une main dont nous avons gardé un seul doigt, représentation de
@@ -10495,7 +10486,7 @@
           <signed>Alex. SOUMET.</signed>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>Ulric Guttinguer. <lb/><hi rend="i">Arthur</hi>, ou religion et solitude</head>
         <argument>
           <p>Un volume in-8°. — 1834.</p>
@@ -11353,7 +11344,7 @@
                 t’éloignes du port.] P. S.</note> !….</l> </quote><p>et quelque chose peut-être de ce qui suit…</p>
         </div>
       </div>
-      <div>
+      <div type="chapter">
         <head>George Sand</head>
         <argument>
           <p rend="center noindent">À propos du livre de M. le comte <lb/><hi rend="b">Théobald
@@ -11611,7 +11602,7 @@
           pour ceux que tous les jours ‘quelqu’un de ses livres avance d’un pas vers l’abîme ? Oh !
           s’il le savait, et s’il pouvait le comprendre !</p>
       </div>
-      <div>
+      <div type="chapter">
         <head>Émile Souvestre</head>
         <argument>
           <p><hi rend="i">L’Échelle de femmes</hi> et <hi rend="i">Riche et pauvre</hi>
@@ -12056,7 +12047,7 @@
           remplir ce devoir, il n’y a pas de mal, je pense, à ce qu’un devoir soit en même temps un
           plaisir.</p>
       </div>
-      <div>
+      <div type="chapter">
         <head>Gustave Drouineau</head>
         <argument>
           <p>CONFESSIONS POÉTIQUES<note resp="author"><hi rend="i">Semeur</hi>, 12 février
@@ -12336,7 +12327,7 @@
           lequel il a mis la main sans connaître le point juste où il faut appuyer pour remuer un
           monde.</p>
       </div>
-      <div>
+      <div type="chapter">
         <head>Appendice. <lb/><hi rend="i">Port-Royal</hi>, par M. Sainte-Beuve</head>
         <argument>
           <p>Tome I<hi rend="sup">er</hi><note resp="author"><hi rend="i">Courrier suisse</hi>, 29
