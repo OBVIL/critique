@@ -11,7 +11,7 @@ Pour la réinstallaiton du corpus, voir
 * [albalat_comment-on-devient](albalat/albalat_comment-on-devient.xml)
 * [albalat_ennemis-de-l-art-d-ecrire](albalat/albalat_ennemis-de-l-art-d-ecrire.xml)
 * [albalat_formation-du-style](albalat/albalat_formation-du-style.xml)
-* [albalat_mal-decrire-roman-contemporain](albalat/albalat_mal-decrire-roman-contemporain.xml)
+* [albalat_mal-d-ecrire-et-roman-contemporain](albalat/albalat_mal-d-ecrire-et-roman-contemporain.xml)
 * [albalat_souvenirs](albalat/albalat_souvenirs.xml)
 * [alembert_apologie-etude](alembert/alembert_apologie-etude.xml)
 * [alembert_dialogue-poesie-et-philosophie](alembert/alembert_dialogue-poesie-et-philosophie.xml)
